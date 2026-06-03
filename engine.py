@@ -46,11 +46,13 @@ def _sourcing_signal(implied, hist):
 
 
 def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
-                   gather_news=True):
+                   gather_news=True, congress_trades=None):
     """
     llm_synth_provider: optional callable(prompt:str)->json_str (live Claude synthesis,
       supplied by the orchestration layer). If None, the deterministic stub runs.
     vertical_notes_text: ALL vertical notes, read together (cross-sector context).
+    congress_trades: list of this name's large congressional disclosures (a LOOK trigger
+      that promoted it), passed into synthesis context so the analyst investigates WHY.
     """
     cik, name = ds.resolve_cik(ticker)
     if not cik:
@@ -97,7 +99,8 @@ def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
         ctx = syn.build_context(ticker, cik, fund, implied, hist,
                                 vertical_notes_text, company_hist,
                                 news_bundle=news_bundle, price_xcheck=price_xcheck,
-                                this_sector_dossier=this_sector_dossier)
+                                this_sector_dossier=this_sector_dossier,
+                                congressional_trades=congress_trades)
         ctx["retrospective_lessons"] = lessons   # learn from past errors
         llm_json = llm_synth_provider(syn.render_prompt(ctx)) if llm_synth_provider else None
         synth = syn.synthesize(ctx, llm_json=llm_json)
@@ -157,6 +160,7 @@ def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
                          if isinstance(news_bundle, dict) and not news_bundle.get("error")
                          else None),
         "price_cross_check": price_xcheck,
+        "congressional_trades": congress_trades or None,   # disclosures that promoted this name
         "reliable": reliable, "reliability_flags": reasons,
         "provenance": fund.get("provenance"),
     }
@@ -218,14 +222,16 @@ def _recommend_one(snap, held):
 
 
 def run(tickers, llm_synth_provider=None, positions=None, persist=True,
-        write_journal=True, gather_news=True):
+        write_journal=True, gather_news=True, congress_trades=None, progress_cb=None):
     held = {p["ticker"].upper(): p for p in (positions or [])}
     vertical_notes = journal.read_all_vertical_notes()   # read ALL verticals together
+    congress_trades = congress_trades or {}   # {TICKER: [disclosure, ...]} that promoted the name
     rows = []
     for t in tickers:
         try:
             res = analyze_ticker(t, llm_synth_provider=llm_synth_provider,
-                                 vertical_notes_text=vertical_notes, gather_news=gather_news)
+                                 vertical_notes_text=vertical_notes, gather_news=gather_news,
+                                 congress_trades=congress_trades.get(t.upper()))
             if res.get("error"):
                 rows.append({"ticker": t, "error": res["error"]})
                 continue
@@ -257,6 +263,29 @@ def run(tickers, llm_synth_provider=None, positions=None, persist=True,
                 journal.append_company_news(sec, t, news_items, name=res.get("name"))
                 sectors.record_relationships(sec, t, snap.get("synthesis_relationships") or [])
                 sectors.record_sector_update(sec, snap.get("synthesis_sector_update") or {}, ticker=t)
+            # congressional disclosures that promoted this name -> log to the folder-memory
+            # (sector dossier + company doc) even if the name produced no full thesis, so the
+            # signal enters the cross-industry record like any other dated event.
+            ct = snap.get("congressional_trades")
+            if write_journal and ct:
+                try:
+                    import congress as _congress
+                    csec = res["sector"]
+                    note = "Congressional trade — " + _congress.summarize_trades(ct)
+                    sectors.record_event(csec, event=note, source="congressional_trades",
+                                         affected_tickers=[t.upper()],
+                                         drivers=["congressional_signal"])
+                    journal.append_company_news(csec, t, [{
+                        "title": note, "date": ct[0].get("disclosure_date"),
+                        "source_label": "congress", "url": ct[0].get("doc_url")}],
+                        name=res.get("name"))
+                except Exception:
+                    pass
+            if progress_cb:           # live dashboard: emit after each name as it completes
+                try:
+                    progress_cb(rows)
+                except Exception:
+                    pass
         except Exception as e:
             # one bad name never kills the whole run (ROUTINE.md / CONNECTING.md contract)
             rows.append({"ticker": t,

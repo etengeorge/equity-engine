@@ -85,7 +85,8 @@ class SynthesisResult:
 # ---------------------------------------------------------------- context build
 def build_context(ticker, cik, fund, implied_growth, hist_cagr,
                   vertical_notes_text, company_history_text, max_filing_chars=8000,
-                  news_bundle=None, price_xcheck=None, this_sector_dossier=None):
+                  news_bundle=None, price_xcheck=None, this_sector_dossier=None,
+                  congressional_trades=None):
     subs = ds.get_submissions(cik)
     meta = ds.company_meta(cik, subs)
     filings = ds.recent_filings(cik, subs=subs, limit_per_form=4)
@@ -114,6 +115,9 @@ def build_context(ticker, cik, fund, implied_growth, hist_cagr,
                             else None),
         "price_cross_check": price_xcheck,
         "this_sector_dossier": this_sector_dossier,
+        # congressional disclosures that PROMOTED this name (a LOOK trigger — investigate
+        # the plausible WHY; never proof to copy the trade). Empty when none.
+        "congressional_trades": congressional_trades or None,
         "vertical_notes_ALL_SECTORS": vertical_notes_text,
         "company_history": company_history_text,
         # explicit prompts for the live synthesizer to go gather itself:
@@ -289,6 +293,16 @@ customer should move the number, not sit as a note. RELIABILITY: if the event is
 report), analyze it but mark your revised target provisional and say you await corroboration — \
 early reports are often wrong or exaggerated. If later/updating news is present, price in the \
 most recent, best-sourced version.
+
+CONGRESSIONAL TRADES — a LOOK, never an ACT: the context may include congressional_trades \
+(a member of Congress disclosed a large purchase/sale in this name). This is why the name was \
+promoted. Treat it as a REASON TO INVESTIGATE, not as evidence the stock is mispriced and never \
+as a signal to copy. Ask WHAT THE FILER MIGHT SEE that the market doesn't — pending legislation \
+or appropriations, a government contract, a committee assignment touching the sector, a broader \
+policy tailwind — and go verify that mechanism in filings/news/search. If you find a real, \
+checkable mechanism, fold it into the thesis (cite it as evidence, source_form "congressional \
+disclosure"); if you find nothing beyond the trade itself, say so and DO NOT let the disclosure \
+inflate conviction — "a politician bought it" is not a thesis, and the reverse-DCF gap still governs.
 
 CONTEXT:
 {context_json}

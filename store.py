@@ -66,6 +66,29 @@ def all_latest():
     return out
 
 
+def all_latest_reports(limit=250):
+    """Latest snapshot per company WITH its observation date + history depth — the research
+    LIBRARY feeding the dashboard's Reports tab (every report produced, not just today's board).
+    Newest first, then by reliability-weighted rank. Cheap: local reads, no network."""
+    import glob
+    out = []
+    for f in glob.glob(os.path.join(config.STORE_DIR, "companies", "*.json")):
+        try:
+            with open(f) as fh:
+                rec = json.load(fh)
+            snap = rec.get("latest")
+            if snap:
+                out.append({"date": rec.get("latest_date"),
+                            "n_observations": len(rec.get("observations") or []),
+                            "snapshot": snap})
+        except Exception:
+            continue
+    out.sort(key=lambda x: ((x.get("date") or ""),
+                            (x["snapshot"].get("rank_score") if isinstance(x.get("snapshot"), dict) else -1) or -1),
+             reverse=True)
+    return out[:limit] if limit else out
+
+
 def load_by_ticker(ticker):
     """Find a stored record by ticker (scans the store dir). Used by the scanner to
     re-price names against their last full analysis without re-pulling data."""

@@ -106,4 +106,24 @@ MAX_DEEP_PER_RUN = 30
 # not all ~2,000 rows. Raise for a longer board.
 MAX_BOARD_ROWS = 60
 # ---- end scanner / revaluation ----------------------------------------------
+
+# ---- congressional-trade sourcing (STOCK Act disclosures) -------------------
+# A new free SOURCING signal: when a member of Congress discloses a large stock
+# trade, promote that name to deep research to investigate WHY (policy edge,
+# contracts, sector tailwind). This is a LOOK trigger, NEVER an ACT — the engine
+# still recommends and the DCF still governs; a politician's trade is evidence to
+# explain, not a position to copy. Source is the OFFICIAL, free, no-key House
+# Clerk disclosure feed (disclosures-clerk.house.gov, refreshed daily) + a
+# best-effort Senate pass; nothing paywalled. (Honors the free-sources hard rule.)
+CONGRESS_TRADES_TRIGGER = os.environ.get("CONGRESS_TRADES_TRIGGER", "1") == "1"
+CONGRESS_MIN_AMOUNT = int(os.environ.get("CONGRESS_MIN_AMOUNT", "50000"))  # lower bound of the
+# disclosed amount RANGE must reach this ($) to count as a "big" trade worth promoting.
+CONGRESS_LOOKBACK_DAYS = int(os.environ.get("CONGRESS_LOOKBACK_DAYS", "10"))  # disclosure window
+CONGRESS_MAX_PTRS_PER_RUN = int(os.environ.get("CONGRESS_MAX_PTRS_PER_RUN", "60"))  # cap PDF parses/run
+# Marquee filers whose trades get a priority bump (well-followed; market reacts).
+CONGRESS_HIGH_SIGNAL_NAMES = [
+    "Pelosi", "Crenshaw", "Gottheimer", "Khanna", "Greene", "McCaul", "Tuberville",
+]
+# ---- end congressional-trade sourcing ---------------------------------------
+
 STORE_DIR = os.environ.get("STORE_DIR", "store")

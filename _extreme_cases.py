@@ -381,6 +381,107 @@ _conn.commit_store(committer=lambda sd, m: _cap.update({"sd": sd, "m": m}))
 ok("commit_store calls the injected committer", "sd" in _cap)
 ok("commit_store survives a raising committer", _conn.commit_store(committer=boom).get("committed") is False)
 
+# ---------------------------------------------------------------------------
+print("\n── congress.py extremes (congressional-trade sourcing) ──")
+import congress as _cng
+_ptr_sample = ("Periodic Transaction Report\nName: Hon. Nancy Pelosi\n"
+               "SP NVIDIA Corp (NVDA) [ST] P 01/14/2025 02/12/2025 $1,000,001 - $5,000,000\n"
+               "JT Apple Inc. (AAPL) [ST] Sale (Partial) 12/31/2024 02/12/2025 $250,001 - $500,000\n"
+               "Bond Fund (no ticker) [OL] P 01/01/2025 $1,001 - $15,000\n")
+_tr = _cng.parse_ptr_text(_ptr_sample)
+ok("congress: extracts exactly the two ticketed rows", len(_tr) == 2)
+ok("congress: NVDA 'P' -> buy", any(x["ticker"] == "NVDA" and x["type"] == "buy" for x in _tr))
+ok("congress: 'Sale (Partial)' -> sale", any(x["ticker"] == "AAPL" and x["type"] == "sale" for x in _tr))
+ok("congress: amount lower bound captured", any(x["ticker"] == "NVDA" and x["amount_low"] == 1000001 for x in _tr))
+ok("congress: asset-type codes are not treated as tickers", all(x["ticker"] not in ("ST", "OL", "OP") for x in _tr))
+ok("congress: amount range parser", _cng._amount_low_high("$50,001 - $100,000") == (50001, 100000))
+ok("congress: amount parser on junk -> (0,0)", _cng._amount_low_high("n/a") == (0, 0))
+ok("congress: high-signal filer flagged", _cng._is_high_signal("Hon. Nancy Pelosi") and not _cng._is_high_signal("John Q. Doe"))
+ok("congress: summarize empty -> ''", _cng.summarize_trades([]) == "")
+ok("congress: summarize non-empty -> str", isinstance(_cng.summarize_trades(
+    [{"politician": "X", "type": "buy", "amount_str": "$1-2", "transaction_date": "2025-01-01", "high_signal": False}]), str))
+noraise("congress: parse_ptr_text('') no raise", lambda: _cng.parse_ptr_text(""))
+noraise("congress: parse_ptr_text(junk) no raise", lambda: _cng.parse_ptr_text("plain prose with no tickers at all"))
+ok("congress: parse_ptr_text(junk) -> []", _cng.parse_ptr_text("plain prose with no tickers at all") == [])
+# disabled trigger short-circuits with no network
+_cng_flag = _cng.config.CONGRESS_TRADES_TRIGGER
+_cng.config.CONGRESS_TRADES_TRIGGER = False
+try:
+    _dis = _cng.recent_congressional_trades()
+    ok("congress: disabled trigger -> empty + flag", _dis["by_ticker"] == {} and "disabled" in _dis["flags"])
+finally:
+    _cng.config.CONGRESS_TRADES_TRIGGER = _cng_flag
+# parsed-cache path returns without network (offline-safe regardless of pypdf)
+_pcache_dir = os.path.join(_cng.config.STORE_DIR, "congress", "parsed")
+os.makedirs(_pcache_dir, exist_ok=True)
+with open(os.path.join(_pcache_dir, "12345678.json"), "w") as _pf:
+    J.dump([{"ticker": "CACH", "type": "buy", "amount_low": 60000, "amount_high": 100000,
+             "amount_str": "$60,001 - $100,000", "transaction_date": "2025-01-01", "asset": ""}], _pf)
+ok("congress: parse_house_ptr reads parsed cache (offline)",
+   _cng.parse_house_ptr("12345678", 2025)[0]["ticker"] == "CACH")
+
+# ---------------------------------------------------------------------------
+print("\n── engine.run congress + progress_cb plumbing (monkeypatched, offline) ──")
+_plumb = {"cb": 0, "congress_seen": "UNSET"}
+
+
+def _fake_analyze(t, llm_synth_provider=None, vertical_notes_text=None, gather_news=True, congress_trades=None):
+    _plumb["congress_seen"] = congress_trades
+    return {"ticker": t, "cik": 424242, "name": t, "sector": "Tech",
+            "snapshot": {"ticker": t, "name": t, "sector": "Tech", "price": 10.0,
+                         "our_view": {"fair_value": 13.0, "gap_vs_price": 0.30, "sign_survives_fcff_band": True},
+                         "thesis": None, "reliable": True, "adv_usd": 5e6, "reliability_flags": [],
+                         "congressional_trades": congress_trades},
+            "gate": {"passed": True, "reasons": []}}
+
+
+_orig_analyze = engine.analyze_ticker
+engine.analyze_ticker = _fake_analyze
+try:
+    _pres = engine.run(["ZZZZ"],
+                       congress_trades={"ZZZZ": [{"politician": "Nancy Pelosi", "type": "buy",
+                                                  "amount_str": "$1M-5M", "high_signal": True,
+                                                  "disclosure_date": "2025-02-12", "doc_url": ""}]},
+                       progress_cb=lambda rows: _plumb.__setitem__("cb", _plumb["cb"] + 1),
+                       persist=False, write_journal=False)
+    ok("engine.run threads congress_trades into analyze_ticker", _plumb["congress_seen"] is not None)
+    ok("engine.run fires progress_cb once per name", _plumb["cb"] == 1)
+    ok("engine.run keeps congress trades on the row", bool(_pres["rows"][0].get("congressional_trades")))
+finally:
+    engine.analyze_ticker = _orig_analyze
+
+# ---------------------------------------------------------------------------
+print("\n── outputs dashboard: two tabs, live reports, congress panel ──")
+_store.upsert({"cik": 999001, "ticker": "RPTX", "name": "ReportCo", "snapshot": {
+    "ticker": "RPTX", "name": "ReportCo", "sector": "Tech", "price": 5.0,
+    "our_view": {"fair_value": 7.0, "gap_vs_price": 0.4}, "recommendation": {"action": "BUY", "reason": "cheap"},
+    "thesis": {"thesis_archetype": "catalyst_mispricing", "variant_view": "v", "mispriced_mechanism": "m",
+               "conviction": 3, "horizon_months": 12, "evidence": [], "bull_case": {}, "base_case": {},
+               "bear_case": {}, "what_must_happen": [], "catalyst": "c", "rationale": "r"},
+    "reliability_flags": [], "rank_score": 0.4}})
+_dpath = os.path.join(tempfile.mkdtemp(), "d.html")
+outputs.build_dashboard({"rows": [], "paper_mode": True}, _dpath)
+_ddoc = open(_dpath).read()
+ok("dashboard: two tab buttons", _ddoc.count('class="tabbtn') >= 2)
+ok("dashboard: board + reports panes", 'id="pane-board"' in _ddoc and 'id="pane-reports"' in _ddoc)
+ok("dashboard: reports tab pulls the stored report", "RPTX" in _ddoc and "ReportCo" in _ddoc)
+ok("dashboard: auto-refresh script + toggle embedded", "location.reload()" in _ddoc and 'id="ee_auto"' in _ddoc)
+ok("dashboard: tab survives reload via hash", "eeShow" in _ddoc and "location.hash" in _ddoc)
+ok("dashboard: recommend-only banner present", "This engine recommends" in _ddoc)
+outputs.build_dashboard({"rows": [], "paper_mode": True, "_in_progress": True, "_deep_total": 5}, _dpath)
+ok("dashboard: live in-progress note when a run is mid-flight", "in progress" in open(_dpath).read())
+_crow = {"ticker": "NVDA", "name": "NVIDIA", "sector": "Tech", "price": 1.0,
+         "our_view": {"fair_value": 2.0, "gap_vs_price": 0.5}, "recommendation": {"action": "BUY", "reason": "x"},
+         "reliability_flags": [], "congressional_trades": [{"politician": "Nancy Pelosi", "chamber": "house",
+            "type": "buy", "amount_str": "$1M-5M", "transaction_date": "2025-01-14",
+            "disclosure_date": "2025-02-12", "high_signal": True, "doc_url": ""}]}
+outputs.build_dashboard({"rows": [_crow], "paper_mode": True}, _dpath)
+_ddoc2 = open(_dpath).read()
+ok("dashboard: congressional-trade panel renders", "Congressional trade" in _ddoc2 and "Pelosi" in _ddoc2)
+ok("dashboard: congress framed as a LOOK, not a copy signal", "not a signal to copy" in _ddoc2)
+noraise("dashboard: _report_block survives a thesis-less snapshot",
+        lambda: outputs._report_block({"ticker": "NOTH", "recommendation": {"action": "PASS", "reason": "x"}}))
+
 print(f"\n{'=' * 60}\n  {PASS} passed, {FAIL} failed")
 if FAILS:
     print("  FAILURES:", FAILS)

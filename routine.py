@@ -256,8 +256,26 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
     _already = set(forced) | set(queue)
     sector_evt = [t for t in _sectors.recent_event_tickers(days=config.FULL_REVALUE_INTERVAL_DAYS)
                   if t in _uni_up and t not in _already]
+    # CONGRESSIONAL-TRADE propagation: a member of Congress disclosed a LARGE trade in a covered
+    # name -> promote it to deep research to investigate WHY (a LOOK, never an ACT). Covered every
+    # run like 8-K filers; front of the queue. Free official House Clerk feed; degrades silently.
+    congress_map, congress_names = {}, []
+    try:
+        import congress as _congress
+        cres = _congress.recent_congressional_trades(universe=universe)
+        congress_map = cres.get("by_ticker", {})
+        _ahead = _already | set(sector_evt)
+        congress_names = [t for t in congress_map if t in _uni_up and t not in _ahead]
+        if cres.get("trades"):
+            print(f"[congress] {len(cres['trades'])} new large disclosure(s); "
+                  f"{len(congress_names)} covered name(s) promoted: {', '.join(congress_names[:10])}"
+                  + (f"  flags: {','.join(cres['flags'])}" if cres.get("flags") else ""))
+        elif cres.get("flags"):
+            print(f"[congress] no new large disclosures (flags: {','.join(cres['flags'])})")
+    except Exception as e:
+        print(f"[congress] unavailable ({type(e).__name__}: {e}); skipping this run")
     deep_tickers, _seen = [], set()
-    for t in forced + sector_evt + queue:
+    for t in forced + congress_names + sector_evt + queue:
         if t not in _seen:
             _seen.add(t)
             deep_tickers.append(t)
@@ -267,14 +285,26 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
         print(f"[sector-event] re-examining on fresh vertical developments: {', '.join(sector_evt[:10])}")
     print(f"scan: {scan['scanned']} watched, {scan.get('skipped', 0)} skipped, "
           f"{len(deep_tickers)} to deep synthesis "
-          f"({len(forced)} 8-K fast-track, {len(sector_evt)} sector-event)")
+          f"({len(forced)} 8-K fast-track, {len(congress_names)} congress, {len(sector_evt)} sector-event)")
     print(f"scan summary: {scan['summary']}")
     print(f"deep ({len(deep_tickers)}): {', '.join(deep_tickers) or '(none)'}")
 
     # SPEED 2 — deep synthesis ONLY on the (capped) deep queue
+    os.makedirs(outdir, exist_ok=True)
+    _dash_path = os.path.join(outdir, "dashboard.html")
+
+    def _live_dashboard(rows_so_far):
+        # LIVE updates: rewrite the dashboard after each name completes so an auto-refreshing
+        # browser tab fills in research reports AS they're produced — no prompting, no re-run.
+        outputs.build_dashboard({"rows": list(rows_so_far), "paper_mode": config.PAPER_MODE,
+                                 "_in_progress": True, "_deep_total": len(deep_tickers)},
+                                _dash_path)
+
     if deep_tickers:
         deep = engine.run(deep_tickers, llm_synth_provider=synth_provider, positions=positions,
-                          gather_news=gather_news, persist=persist, write_journal=write_journal)
+                          gather_news=gather_news, persist=persist, write_journal=write_journal,
+                          congress_trades=congress_map,
+                          progress_cb=(_live_dashboard if persist else None))
     else:
         deep = {"rows": [], "paper_mode": config.PAPER_MODE}
 

@@ -7,7 +7,12 @@ with receipts. Neither output can place a trade; both lead with the recommend-on
 and paper-mode banners.
 """
 import html
+import os
 import datetime as dt
+
+# How often an open dashboard self-refreshes (seconds). The engine rewrites the file
+# after every name, so an auto-refreshing tab fills in research reports live, no prompting.
+_REFRESH_SECONDS = int(os.environ.get("DASHBOARD_REFRESH_SECONDS", "15"))
 
 
 def _pct(x, dp=0):
@@ -290,9 +295,117 @@ Total value ${p['total_value']:,.0f} · {p['n_positions']} positions ·
 </div>"""
 
 
+def _congress_html(r):
+    """Congressional disclosures that promoted this name — shown as the reason it's here,
+    explicitly framed as a LOOK (investigate why), never a signal to copy the trade."""
+    cts = r.get("congressional_trades")
+    if not cts:
+        return ""
+    items = []
+    for t in cts[:5]:
+        verb = {"buy": "bought", "sale": "sold"}.get(t.get("type"), t.get("type", ""))
+        col = "#0F6E56" if t.get("type") == "buy" else "#A32D2D"
+        star = " ★" if t.get("high_signal") else ""
+        url = t.get("doc_url") or ""
+        link = (f' <a href="{html.escape(url)}" style="color:#185FA5">[filing]</a>') if url else ""
+        items.append(
+            f'<li><b>{html.escape(t.get("politician", "?"))}{star}</b> '
+            f'<span style="color:{col};font-weight:600">{html.escape(verb)}</span> '
+            f'{html.escape(t.get("amount_str", ""))} '
+            f'<span class="sub">({html.escape(t.get("chamber", ""))} · tx '
+            f'{html.escape(t.get("transaction_date") or "?")} · disclosed '
+            f'{html.escape(t.get("disclosure_date") or "?")})</span>{link}</li>')
+    return (f'<div style="background:#F3EEFB;border-left:3px solid #6B4FA3;padding:7px 10px;'
+            f'margin:7px 0;border-radius:4px;font-size:12px">'
+            f'<b style="color:#6B4FA3">🏛 Congressional trade — promoted for a LOOK</b> '
+            f'<span class="sub">(investigate the why; not a signal to copy)</span>'
+            f'<ul style="margin:4px 0;padding-left:18px">{"".join(items)}</ul></div>')
+
+
+def _report_block(snap, date=None, nobs=0):
+    """A full, always-open research report for the Reports tab — richer than a board card."""
+    r = snap or {}
+    rec = r.get("recommendation") or {"action": "—", "reason": ""}
+    ov = r.get("our_view") or {}
+    gap = ov.get("gap_vs_price")
+    t = r.get("thesis") or {}
+    ac = _color(rec.get("action", ""))
+    fv = ov.get("fair_value")
+    gapcol = "#0F6E56" if (gap or 0) > 0 else "#A32D2D" if gap else "#5F5E5A"
+    held = " 📌" if r.get("held") else ""
+    flags = ", ".join(r.get("reliability_flags") or []) or "clean"
+    arch = t.get("thesis_archetype", "")
+    arch_color = "#8C8B85" if arch == "none_efficiently_priced" else "#185FA5"
+    datestr = (f' · <span class="sub">updated {html.escape(str(date))}'
+               f'{(" · " + str(nobs) + " obs") if nobs else ""}</span>') if date else ""
+    if t:
+        body = f"""
+<p style="background:#EEF4FB;padding:8px;border-radius:6px;margin:8px 0"><b>Differentiated view:</b> {html.escape(t.get('variant_view',''))}</p>
+<p><b>What the market is mis-weighting:</b> {html.escape(t.get('mispriced_mechanism',''))}</p>
+{_scenarios_html(t)}
+{_catalyst_html(t)}
+<p><b>Full rationale:</b> {html.escape((t.get('rationale','') or '')[:1400])}</p>
+<p><b>Evidence (with receipts):</b></p>{_evidence_html(t.get('evidence'))}
+<p><b>Disconfirming (bear case against our view):</b> {html.escape(t.get('disconfirming',''))}</p>
+<p><b>Falsification:</b> {html.escape(t.get('falsification',''))}</p>"""
+    else:
+        body = ('<div class="sub" style="margin-top:6px">No full thesis this run '
+                '(scan-stage, early, or unreliable — promoted for monitoring).</div>')
+    return f"""
+<div class="row">
+  <div class="rowhead">
+    <div><span class="tk">{html.escape(r.get('ticker',''))}</span>{held}
+      <span class="sub">{html.escape((r.get('name') or '')[:34])} · {html.escape(r.get('sector',''))}</span>{datestr}</div>
+    <span class="pill" style="background:{ac}">{html.escape(rec.get('action',''))}</span>
+  </div>
+  <div class="metrics">
+    <span>Price <b>{('$%.2f' % r['price']) if r.get('price') is not None else '—'}</b></span>
+    <span>Fair value <b>{_money(fv) if fv else '—'}</b></span>
+    <span>Gap <b style="color:{gapcol}">{_pct(gap) if gap is not None else '—'}</b></span>
+    <span>Conviction <b>{t.get('conviction') or '—'}</b>/5</span>
+    <span>Horizon <b>{t.get('horizon_months') or '—'}</b>m</span>
+    <span><span style="background:{arch_color};color:#fff;padding:1px 7px;border-radius:10px;font-size:10px">{html.escape(arch or 'n/a')}</span></span>
+    <span class="sub">{html.escape(flags)}</span>
+  </div>
+  <div class="sub">{html.escape(rec.get('reason',''))}</div>
+  {_congress_html(r)}
+  {_drift_html(r)}
+  {_news_line(r)}
+  {body}
+</div>"""
+
+
+# JS: tab switching (state kept in the URL hash so it survives the auto-refresh reload) +
+# a default-on auto-refresh toggle. Kept as a plain string (not an f-string) to avoid
+# escaping every brace; the refresh interval is substituted in.
+_DASH_SCRIPT = """<script>
+(function(){
+  function show(tab){
+    var panes=document.querySelectorAll('.tabpane'),i;
+    for(i=0;i<panes.length;i++){panes[i].style.display='none';}
+    var btns=document.querySelectorAll('.tabbtn'),j;
+    for(j=0;j<btns.length;j++){btns[j].className='tabbtn';}
+    var p=document.getElementById('pane-'+tab),b=document.getElementById('tab-'+tab);
+    if(!p){tab='board';p=document.getElementById('pane-board');b=document.getElementById('tab-board');}
+    if(p){p.style.display='block';}
+    if(b){b.className='tabbtn active';}
+    try{history.replaceState(null,'','#'+tab);}catch(e){location.hash=tab;}
+  }
+  window.eeShow=show;
+  show((location.hash||'').replace('#','')||'board');
+  var auto=true;try{if(localStorage.getItem('ee_auto')==='0'){auto=false;}}catch(e){}
+  function arm(){if(auto){setTimeout(function(){if(auto){location.reload();}},__REFRESH__*1000);}}
+  var box=document.getElementById('ee_auto');
+  if(box){box.checked=auto;box.onchange=function(){auto=box.checked;try{localStorage.setItem('ee_auto',auto?'1':'0');}catch(e){}arm();};}
+  arm();
+})();
+</script>""".replace("__REFRESH__", str(_REFRESH_SECONDS))
+
+
 def build_dashboard(results, path):
     rows = results["rows"]
-    generated = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    generated = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    in_progress = results.get("_in_progress")
     cards = []
     for r in rows:
         if r.get("error"):
@@ -330,10 +443,45 @@ def build_dashboard(results, path):
     <span class="sub">{html.escape(flags)}</span>
   </div>
   <div class="sub">{html.escape(rec['reason'])}{' · size: '+rec['sizing'] if rec.get('sizing') else ''}</div>
+  {_congress_html(r)}
   {_drift_html(r)}
   {_news_line(r)}
   {_thesis_block(r)}
 </div>""")
+
+    # ---- Tab 2: the research LIBRARY — every report produced, accumulated across runs,
+    # read straight from the durable store (not just today's board). Newest first.
+    try:
+        import store
+        library = store.all_latest_reports(limit=250)
+    except Exception:
+        library = []
+    report_blocks = [_report_block(it.get("snapshot") or {}, it.get("date"),
+                                   it.get("n_observations")) for it in library]
+
+    n_board = len([r for r in rows if not r.get("error")])
+    n_reports = len(report_blocks)
+    board_html = (_churn_html(results) + _portfolio_html(results) + "".join(cards)
+                  + """<div class="sub" style="margin-top:16px;line-height:1.7">
+📌 = position you hold · <b>Implied g</b> = growth the market's price requires (reverse DCF) ·
+<b>Our g</b> = growth our synthesis supports · <b>Gap</b> = fair value vs price ·
+🏛 = a congressional disclosure flagged this name for a LOOK (not a trade signal).
+Every action expands to its full reasoning, deviation from the market, and evidence with sources.
+Sizing buckets are suggestions, not orders.</div>""") if cards else \
+                 '<div class="sub" style="padding:20px 0">No names cleared the board this run.</div>'
+    reports_html = ('<div class="sub" style="margin:2px 0 14px;line-height:1.6">'
+                    'Every research report the engine has produced, newest first — the full thesis, '
+                    'evidence, and any congressional-trade trigger. This tab fills in live as a run '
+                    'proceeds.</div>' + "".join(report_blocks)) if report_blocks else \
+                   ('<div class="sub" style="padding:20px 0">No research reports stored yet — they '
+                    'appear here as the engine analyzes names.</div>')
+
+    if in_progress:
+        prog = (f'<span style="color:#854F0B">⏳ research run in progress — '
+                f'{n_board} of {results.get("_deep_total", n_board)} names done; '
+                f'this page updates itself</span>')
+    else:
+        prog = '<span class="sub">last full run complete</span>'
 
     doc = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -341,7 +489,13 @@ def build_dashboard(results, path):
 body{{margin:0;background:#F5F4EF;color:#2C2C2A;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}}
 .wrap{{max-width:920px;margin:0 auto;padding:28px 18px 60px}}
 h1{{font-size:22px;font-weight:600;margin:0 0 2px}}
-.meta{{color:#5F5E5A;font-size:13px;margin:0 0 18px}}
+.meta{{color:#5F5E5A;font-size:13px;margin:0 0 10px}}
+.controls{{display:flex;align-items:center;gap:14px;font-size:12px;color:#5F5E5A;margin:0 0 12px}}
+.controls label{{cursor:pointer;user-select:none}}
+.livedot{{display:inline-block;width:8px;height:8px;border-radius:50%;background:#0F6E56;margin-right:5px;vertical-align:middle}}
+.tabs{{display:flex;gap:6px;margin:4px 0 18px;border-bottom:2px solid #E0DED5}}
+.tabbtn{{background:none;border:none;padding:10px 16px;font-size:14px;font-weight:600;color:#7A7972;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;font-family:inherit}}
+.tabbtn.active{{color:#185FA5;border-bottom-color:#185FA5}}
 .row{{background:#fff;border:1px solid #E0DED5;border-radius:12px;padding:14px 16px;margin-bottom:12px}}
 .rowhead{{display:flex;justify-content:space-between;align-items:flex-start}}
 .tk{{font-size:17px;font-weight:700}}
@@ -353,16 +507,18 @@ details summary::-webkit-details-marker{{display:none}}
 </style></head><body><div class="wrap">
 <h1>Equity Engine — Recommendations</h1>
 <div class="meta">Russell 2000 universe · generated {generated} · ranked by reliability-weighted gap</div>
+<div class="controls">
+<label><input type="checkbox" id="ee_auto"><span class="livedot"></span>auto-refresh every {_REFRESH_SECONDS}s</label>
+{prog}
+</div>
 {_banner(results.get('paper_mode', True))}
-{_churn_html(results)}
-{_portfolio_html(results)}
-{''.join(cards)}
-<div class="sub" style="margin-top:16px;line-height:1.7">
-📌 = position you hold · <b>Implied g</b> = growth the market's price requires (reverse DCF) ·
-<b>Our g</b> = growth our synthesis supports · <b>Gap</b> = fair value vs price.
-Every action expands to its full reasoning, deviation from the market, and evidence with sources.
-Sizing buckets are suggestions, not orders.
-</div></div></body></html>"""
+<div class="tabs">
+<button id="tab-board" class="tabbtn active" onclick="eeShow('board')">Recommendations Board ({n_board})</button>
+<button id="tab-reports" class="tabbtn" onclick="eeShow('reports')">Research Reports ({n_reports})</button>
+</div>
+<div id="pane-board" class="tabpane">{board_html}</div>
+<div id="pane-reports" class="tabpane" style="display:none">{reports_html}</div>
+</div>{_DASH_SCRIPT}</body></html>"""
     with open(path, "w") as f:
         f.write(doc)
     return path
