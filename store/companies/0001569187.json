@@ -1,0 +1,170 @@
+{
+  "cik": 1569187,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHRT",
+        "name": "AH Realty Trust, Inc.",
+        "sector": "Real Estate",
+        "price": 6.760000228881836,
+        "market_cap": 541927437.6287193,
+        "wacc": 0.08822796348051806,
+        "wacc_band": {
+          "low": 0.07822796348051807,
+          "high": 0.09822796348051806
+        },
+        "implied_rating": "B-",
+        "beta_adjusted": 0.8045895723186339,
+        "vol_annualized": 0.28739212224167,
+        "adv_usd": 6375665.344390997,
+        "normalized_fcff": null,
+        "_debt": 1526158000,
+        "_cash": 49150000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.18844308731288328,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHRT-PA",
+        "name": "AH Realty Trust, Inc.",
+        "sector": "Real Estate",
+        "price": 21.739999771118164,
+        "market_cap": 1742825735.3712807,
+        "wacc": 0.07594938670837548,
+        "wacc_band": {
+          "low": 0.06594938670837548,
+          "high": 0.08594938670837547
+        },
+        "implied_rating": "B-",
+        "beta_adjusted": 0.4232437825698857,
+        "vol_annualized": 0.1444507050090005,
+        "adv_usd": 94962.03333218892,
+        "normalized_fcff": null,
+        "_debt": 1526158000,
+        "_cash": 49150000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.18844308731288328,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AHRT-PA",
+  "name": "AH Realty Trust, Inc.",
+  "latest": {
+    "ticker": "AHRT-PA",
+    "name": "AH Realty Trust, Inc.",
+    "sector": "Real Estate",
+    "price": 21.739999771118164,
+    "market_cap": 1742825735.3712807,
+    "wacc": 0.07594938670837548,
+    "wacc_band": {
+      "low": 0.06594938670837548,
+      "high": 0.08594938670837547
+    },
+    "implied_rating": "B-",
+    "beta_adjusted": 0.4232437825698857,
+    "vol_annualized": 0.1444507050090005,
+    "adv_usd": 94962.03333218892,
+    "normalized_fcff": null,
+    "_debt": 1526158000,
+    "_cash": 49150000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": null,
+    "implied_growth_band": null,
+    "historical_revenue_cagr": 0.18844308731288328,
+    "sourcing_signal": {
+      "label": "no_valuation"
+    },
+    "our_view": null,
+    "thesis": null,
+    "synthesis_source": null,
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": null,
+    "price_cross_check": null,
+    "reliable": false,
+    "reliability_flags": [
+      "nonpositive_normalized_fcff",
+      "beta_low_r2"
+    ],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": null
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "no edge flagged",
+      "sizing": null
+    },
+    "rank_score": -1
+  },
+  "latest_date": "2026-06-02"
+}

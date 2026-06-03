@@ -1,0 +1,524 @@
+{
+  "cik": 1632970,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHR",
+        "name": "American Healthcare REIT, Inc.",
+        "sector": "Real Estate",
+        "price": 46.380001068115234,
+        "market_cap": 8332555253.355839,
+        "wacc": 0.0741694023160495,
+        "wacc_band": {
+          "low": 0.0641694023160495,
+          "high": 0.0841694023160495
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.6631787726819043,
+        "vol_annualized": 0.26886435859620766,
+        "adv_usd": 124558469.59617741,
+        "normalized_fcff": 249635416.66666666,
+        "_debt": 0.0,
+        "_cash": 114836000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": 0.1316717653499665,
+        "implied_growth_band": {
+          "at_high_wacc": 0.17975596955781536,
+          "at_low_wacc": 0.07665605793036534
+        },
+        "historical_revenue_cagr": 0.9860004894041243,
+        "sourcing_signal": {
+          "label": "expectations_low",
+          "implied_growth": 0.1316717653499665,
+          "historical_cagr": 0.9860004894041243,
+          "implied_minus_historical": -0.8543287240541578
+        },
+        "our_view": {
+          "research_growth": 0.6443,
+          "fair_value": 273.7752853319274,
+          "fair_value_band": {
+            "low": 232.80487117273617,
+            "high": 314.7456994911185
+          },
+          "gap_vs_price": 4.902873631457054,
+          "sign_survives_fcff_band": true
+        },
+        "thesis": {
+          "ticker": "AHR",
+          "created": "2026-06-02",
+          "direction": "long",
+          "market_narrative": "[STUB] Market-implied growth of 13.2% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+          "implied_view_interpretation": "[STUB] Price implies ~13.2% 5y FCFF growth.",
+          "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+          "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+          "implied_growth": 0.1316717653499665,
+          "variant_growth": 0.6443,
+          "thesis_archetype": "cyclical_mean_reversion",
+          "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+          "mispriced_mechanism": "[STUB] market appears to extrapolate recent weakness/strength as permanent; historical compounding suggests reversion.",
+          "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+          "deviation_explanation": "[STUB] Implied 13.2% vs historical 98.6%; anchors toward the track record absent evidence otherwise.",
+          "bull_case": {
+            "narrative": "[STUB] upside scenario",
+            "growth": 0.6943,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "base_case": {
+            "narrative": "[STUB] central view",
+            "growth": 0.6443,
+            "what_drives_it": "[STUB] mean-reversion toward history"
+          },
+          "bear_case": {
+            "narrative": "[STUB] downside scenario",
+            "growth": 0.5943,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "catalyst": "Next earnings report and guidance update",
+          "catalyst_date": "2026-11-29",
+          "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+          "what_must_happen": [
+            "[STUB] earnings confirm trajectory",
+            "[STUB] guidance holds or rises",
+            "[STUB] no balance-sheet deterioration"
+          ],
+          "evidence": [
+            {
+              "claim": "8-K 2026-05-28: 8-K 0001632970 false 0001632970 2026-05-26 2026-05-26 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRE...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526245272/ahr-20260526.htm",
+              "source_date": "2026-05-28",
+              "direction": "risk"
+            },
+            {
+              "claim": "8-K 2026-05-22: 8-K false 0001632970 0001632970 2026-05-20 2026-05-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRE...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526236930/ahr-20260520.htm",
+              "source_date": "2026-05-22",
+              "direction": "risk"
+            },
+            {
+              "claim": "10-Q 2026-05-08: 10-Q Q1 0001632970 --12-31 false 0 0 5 1 http://americanhealthcarereit.com/20260331#ChiefExecutiveOfficerAndPresidentMember five days 000163...",
+              "source_form": "10-Q",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526214678/ahr-20260331.htm",
+              "source_date": "2026-05-08",
+              "direction": "supports_lower"
+            }
+          ],
+          "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+          "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+          "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 273.7752853319274,
+          "gap_vs_price": 4.902873631457054,
+          "sign_survives_fcff_band": true,
+          "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+          "charts": []
+        },
+        "synthesis_source": "stub",
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 11,
+          "material_events": [
+            {
+              "title": "All You Need to Know About American Healthcare REIT (AHR) Rating Upgrade to Buy",
+              "category": "m_and_a",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/know-american-healthcare-reit-ahr-160003291.html?.tsrc=rss"
+            },
+            {
+              "title": "American Healthcare REIT Announces Pricing of Public Offering of Common Stock",
+              "category": "capital",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-pricing-014900030.html?.tsrc=rss"
+            },
+            {
+              "title": "American Healthcare REIT Announces First Quarter 2026 Results; Increases Full Year 2026 Guidance",
+              "category": "guidance",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-first-201500872.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "All You Need to Know About American Healthcare REIT (AHR) Rating Upgrade to Buy",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "bull"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "m_and_a",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/know-american-healthcare-reit-ahr-160003291.html?.tsrc=rss"
+            },
+            {
+              "title": "American Healthcare REIT Announces Pricing of Public Offering of Common Stock",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "capital",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-pricing-014900030.html?.tsrc=rss"
+            },
+            {
+              "title": "American Healthcare REIT Announces First Quarter 2026 Results; Increases Full Year 2026 Guidance",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "guidance",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-first-201500872.html?.tsrc=rss"
+            },
+            {
+              "title": "American Healthcare REIT to Present at Nareit\u2019s REITweek: 2026 Investor Conference",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-present-nareit-201500473.html?.tsrc=rss"
+            },
+            {
+              "title": "BofA Raises its Price Target on American Healthcare REIT (AHR)",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/bofa-raises-price-target-american-234911258.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 46.38,
+          "pct_diff": 2.3029650867156646e-08,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "BUY",
+          "reason": "fair value +490% vs price",
+          "sizing": "starter"
+        },
+        "rank_score": 4.902873631457054
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AHR",
+  "name": "American Healthcare REIT, Inc.",
+  "latest": {
+    "ticker": "AHR",
+    "name": "American Healthcare REIT, Inc.",
+    "sector": "Real Estate",
+    "price": 46.380001068115234,
+    "market_cap": 8332555253.355839,
+    "wacc": 0.0741694023160495,
+    "wacc_band": {
+      "low": 0.0641694023160495,
+      "high": 0.0841694023160495
+    },
+    "implied_rating": "no/low debt",
+    "beta_adjusted": 0.6631787726819043,
+    "vol_annualized": 0.26886435859620766,
+    "adv_usd": 124558469.59617741,
+    "normalized_fcff": 249635416.66666666,
+    "_debt": 0.0,
+    "_cash": 114836000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": 0.1316717653499665,
+    "implied_growth_band": {
+      "at_high_wacc": 0.17975596955781536,
+      "at_low_wacc": 0.07665605793036534
+    },
+    "historical_revenue_cagr": 0.9860004894041243,
+    "sourcing_signal": {
+      "label": "expectations_low",
+      "implied_growth": 0.1316717653499665,
+      "historical_cagr": 0.9860004894041243,
+      "implied_minus_historical": -0.8543287240541578
+    },
+    "our_view": {
+      "research_growth": 0.6443,
+      "fair_value": 273.7752853319274,
+      "fair_value_band": {
+        "low": 232.80487117273617,
+        "high": 314.7456994911185
+      },
+      "gap_vs_price": 4.902873631457054,
+      "sign_survives_fcff_band": true
+    },
+    "thesis": {
+      "ticker": "AHR",
+      "created": "2026-06-02",
+      "direction": "long",
+      "market_narrative": "[STUB] Market-implied growth of 13.2% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+      "implied_view_interpretation": "[STUB] Price implies ~13.2% 5y FCFF growth.",
+      "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+      "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+      "implied_growth": 0.1316717653499665,
+      "variant_growth": 0.6443,
+      "thesis_archetype": "cyclical_mean_reversion",
+      "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+      "mispriced_mechanism": "[STUB] market appears to extrapolate recent weakness/strength as permanent; historical compounding suggests reversion.",
+      "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+      "deviation_explanation": "[STUB] Implied 13.2% vs historical 98.6%; anchors toward the track record absent evidence otherwise.",
+      "bull_case": {
+        "narrative": "[STUB] upside scenario",
+        "growth": 0.6943,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "base_case": {
+        "narrative": "[STUB] central view",
+        "growth": 0.6443,
+        "what_drives_it": "[STUB] mean-reversion toward history"
+      },
+      "bear_case": {
+        "narrative": "[STUB] downside scenario",
+        "growth": 0.5943,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "catalyst": "Next earnings report and guidance update",
+      "catalyst_date": "2026-11-29",
+      "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+      "what_must_happen": [
+        "[STUB] earnings confirm trajectory",
+        "[STUB] guidance holds or rises",
+        "[STUB] no balance-sheet deterioration"
+      ],
+      "evidence": [
+        {
+          "claim": "8-K 2026-05-28: 8-K 0001632970 false 0001632970 2026-05-26 2026-05-26 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRE...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526245272/ahr-20260526.htm",
+          "source_date": "2026-05-28",
+          "direction": "risk"
+        },
+        {
+          "claim": "8-K 2026-05-22: 8-K false 0001632970 0001632970 2026-05-20 2026-05-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRE...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526236930/ahr-20260520.htm",
+          "source_date": "2026-05-22",
+          "direction": "risk"
+        },
+        {
+          "claim": "10-Q 2026-05-08: 10-Q Q1 0001632970 --12-31 false 0 0 5 1 http://americanhealthcarereit.com/20260331#ChiefExecutiveOfficerAndPresidentMember five days 000163...",
+          "source_form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1632970/000119312526214678/ahr-20260331.htm",
+          "source_date": "2026-05-08",
+          "direction": "supports_lower"
+        }
+      ],
+      "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+      "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+      "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+      "conviction": 2,
+      "horizon_months": 18,
+      "edge_source": "none",
+      "evaluation_window": "2027-12-01",
+      "fair_value": 273.7752853319274,
+      "gap_vs_price": 4.902873631457054,
+      "sign_survives_fcff_band": true,
+      "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+      "charts": []
+    },
+    "synthesis_source": "stub",
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": {
+      "sources": [
+        "rss(15)",
+        "websearch(live synthesizer augments)"
+      ],
+      "n_stories": 11,
+      "material_events": [
+        {
+          "title": "All You Need to Know About American Healthcare REIT (AHR) Rating Upgrade to Buy",
+          "category": "m_and_a",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/know-american-healthcare-reit-ahr-160003291.html?.tsrc=rss"
+        },
+        {
+          "title": "American Healthcare REIT Announces Pricing of Public Offering of Common Stock",
+          "category": "capital",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-pricing-014900030.html?.tsrc=rss"
+        },
+        {
+          "title": "American Healthcare REIT Announces First Quarter 2026 Results; Increases Full Year 2026 Guidance",
+          "category": "guidance",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-first-201500872.html?.tsrc=rss"
+        }
+      ],
+      "has_confirmed_material_event": false,
+      "top": [
+        {
+          "title": "All You Need to Know About American Healthcare REIT (AHR) Rating Upgrade to Buy",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "bull"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "m_and_a",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/know-american-healthcare-reit-ahr-160003291.html?.tsrc=rss"
+        },
+        {
+          "title": "American Healthcare REIT Announces Pricing of Public Offering of Common Stock",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "capital",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-pricing-014900030.html?.tsrc=rss"
+        },
+        {
+          "title": "American Healthcare REIT Announces First Quarter 2026 Results; Increases Full Year 2026 Guidance",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "guidance",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-first-201500872.html?.tsrc=rss"
+        },
+        {
+          "title": "American Healthcare REIT to Present at Nareit\u2019s REITweek: 2026 Investor Conference",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-present-nareit-201500473.html?.tsrc=rss"
+        },
+        {
+          "title": "BofA Raises its Price Target on American Healthcare REIT (AHR)",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/bofa-raises-price-target-american-234911258.html?.tsrc=rss"
+        }
+      ]
+    },
+    "price_cross_check": {
+      "checked": true,
+      "alt_source": "stooq",
+      "alt_close": 46.38,
+      "pct_diff": 2.3029650867156646e-08,
+      "agree": true
+    },
+    "reliable": true,
+    "reliability_flags": [],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsForCapitalImprovements"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "BUY",
+      "reason": "fair value +490% vs price",
+      "sizing": "starter"
+    },
+    "rank_score": 4.902873631457054
+  },
+  "latest_date": "2026-06-02"
+}

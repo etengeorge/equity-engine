@@ -1,0 +1,391 @@
+{
+  "cik": 1232582,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 3.049999952316284,
+        "market_cap": 19752278.54119277,
+        "wacc": 0.10610305076559871,
+        "wacc_band": {
+          "low": 0.09610305076559872,
+          "high": 0.11610305076559871
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.9154665291286688,
+        "vol_annualized": 0.7523033954703447,
+        "adv_usd": 56668.11023109754,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT-PD",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 4.7778000831604,
+        "market_cap": 30941783.45315981,
+        "wacc": 0.10578320048103958,
+        "wacc_band": {
+          "low": 0.09578320048103958,
+          "high": 0.11578320048103957
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.5074311163243591,
+        "vol_annualized": 0.5656149843628092,
+        "adv_usd": 33865.98308192889,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT-PF",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 5.04010009765625,
+        "market_cap": 32640479.528137207,
+        "wacc": 0.1058319114904309,
+        "wacc_band": {
+          "low": 0.09583191149043091,
+          "high": 0.1158319114904309
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.6318038356859413,
+        "vol_annualized": 0.4843019341553381,
+        "adv_usd": 35730.25731601715,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT-PG",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 4.650100231170654,
+        "market_cap": 30114779.16279745,
+        "wacc": 0.10585614316838034,
+        "wacc_band": {
+          "low": 0.09585614316838034,
+          "high": 0.11585614316838033
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.6164436095669383,
+        "vol_annualized": 0.5920333378895857,
+        "adv_usd": 54217.03801469803,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT-PH",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 4.889999866485596,
+        "market_cap": 31668406.865339756,
+        "wacc": 0.10589151781660086,
+        "wacc_band": {
+          "low": 0.09589151781660087,
+          "high": 0.11589151781660086
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.7126131184811904,
+        "vol_annualized": 0.5237751986281983,
+        "adv_usd": 16360.976659011842,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHT-PI",
+        "name": "ASHFORD HOSPITALITY TRUST INC",
+        "sector": "Real Estate",
+        "price": 4.650000095367432,
+        "market_cap": 30114130.66761446,
+        "wacc": 0.10591465391958492,
+        "wacc_band": {
+          "low": 0.09591465391958492,
+          "high": 0.11591465391958491
+        },
+        "implied_rating": "CCC",
+        "beta_adjusted": 0.722122250816505,
+        "vol_annualized": 0.5198885283352757,
+        "adv_usd": 23825.080382092794,
+        "normalized_fcff": -2327413.3333333284,
+        "_debt": 2526608000,
+        "_cash": 66145000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.16791412024275543,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsForCapitalImprovements"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AHT-PI",
+  "name": "ASHFORD HOSPITALITY TRUST INC",
+  "latest": {
+    "ticker": "AHT-PI",
+    "name": "ASHFORD HOSPITALITY TRUST INC",
+    "sector": "Real Estate",
+    "price": 4.650000095367432,
+    "market_cap": 30114130.66761446,
+    "wacc": 0.10591465391958492,
+    "wacc_band": {
+      "low": 0.09591465391958492,
+      "high": 0.11591465391958491
+    },
+    "implied_rating": "CCC",
+    "beta_adjusted": 0.722122250816505,
+    "vol_annualized": 0.5198885283352757,
+    "adv_usd": 23825.080382092794,
+    "normalized_fcff": -2327413.3333333284,
+    "_debt": 2526608000,
+    "_cash": 66145000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": null,
+    "implied_growth_band": null,
+    "historical_revenue_cagr": 0.16791412024275543,
+    "sourcing_signal": {
+      "label": "no_valuation"
+    },
+    "our_view": null,
+    "thesis": null,
+    "synthesis_source": null,
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": null,
+    "price_cross_check": null,
+    "reliable": false,
+    "reliability_flags": [
+      "nonpositive_normalized_fcff",
+      "beta_low_r2"
+    ],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsForCapitalImprovements"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "no edge flagged",
+      "sizing": null
+    },
+    "rank_score": -1
+  },
+  "latest_date": "2026-06-02"
+}

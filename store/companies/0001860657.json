@@ -1,0 +1,118 @@
+{
+  "cik": 1860657,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "ALLR",
+        "name": "Allarity Therapeutics, Inc.",
+        "sector": "Materials & Chemicals",
+        "price": 1.690000057220459,
+        "market_cap": 27176857.120161057,
+        "wacc": 0.08637773148288443,
+        "wacc_band": {
+          "low": 0.07637773148288443,
+          "high": 0.09637773148288442
+        },
+        "implied_rating": "unrated(neg EBIT)",
+        "beta_adjusted": 0.8244124149264876,
+        "vol_annualized": 1.0913480399465645,
+        "adv_usd": 386439.09375659627,
+        "normalized_fcff": null,
+        "_debt": 2687000,
+        "_cash": 14687000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "neg_ebit_synthetic_rating_unreliable",
+          "wacc_unreliable",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "ALLR",
+  "name": "Allarity Therapeutics, Inc.",
+  "latest": {
+    "ticker": "ALLR",
+    "name": "Allarity Therapeutics, Inc.",
+    "sector": "Materials & Chemicals",
+    "price": 1.690000057220459,
+    "market_cap": 27176857.120161057,
+    "wacc": 0.08637773148288443,
+    "wacc_band": {
+      "low": 0.07637773148288443,
+      "high": 0.09637773148288442
+    },
+    "implied_rating": "unrated(neg EBIT)",
+    "beta_adjusted": 0.8244124149264876,
+    "vol_annualized": 1.0913480399465645,
+    "adv_usd": 386439.09375659627,
+    "normalized_fcff": null,
+    "_debt": 2687000,
+    "_cash": 14687000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": null,
+    "implied_growth_band": null,
+    "historical_revenue_cagr": null,
+    "sourcing_signal": {
+      "label": "no_valuation"
+    },
+    "our_view": null,
+    "thesis": null,
+    "synthesis_source": null,
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": null,
+    "price_cross_check": null,
+    "reliable": false,
+    "reliability_flags": [
+      "neg_ebit_synthetic_rating_unreliable",
+      "wacc_unreliable",
+      "beta_low_r2"
+    ],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "no edge flagged",
+      "sizing": null
+    },
+    "rank_score": -1
+  },
+  "latest_date": "2026-06-02"
+}

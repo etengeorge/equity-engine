@@ -1,0 +1,116 @@
+{
+  "cik": 1495932,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNT",
+        "name": "eXp World Holdings, Inc.",
+        "sector": "Real Estate",
+        "price": 4.809999942779541,
+        "market_cap": 774650389.7746463,
+        "wacc": 0.09375591052588989,
+        "wacc_band": {
+          "low": 0.08375591052588989,
+          "high": 0.10375591052588988
+        },
+        "implied_rating": "unrated(neg EBIT)",
+        "beta_adjusted": 1.079891316943085,
+        "vol_annualized": 0.491698677879671,
+        "adv_usd": 6803091.558194669,
+        "normalized_fcff": null,
+        "_debt": 20000,
+        "_cash": 124245000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": 0.2155534022534602,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "neg_ebit_synthetic_rating_unreliable",
+          "wacc_unreliable"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AGNT",
+  "name": "eXp World Holdings, Inc.",
+  "latest": {
+    "ticker": "AGNT",
+    "name": "eXp World Holdings, Inc.",
+    "sector": "Real Estate",
+    "price": 4.809999942779541,
+    "market_cap": 774650389.7746463,
+    "wacc": 0.09375591052588989,
+    "wacc_band": {
+      "low": 0.08375591052588989,
+      "high": 0.10375591052588988
+    },
+    "implied_rating": "unrated(neg EBIT)",
+    "beta_adjusted": 1.079891316943085,
+    "vol_annualized": 0.491698677879671,
+    "adv_usd": 6803091.558194669,
+    "normalized_fcff": null,
+    "_debt": 20000,
+    "_cash": 124245000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": null,
+    "implied_growth_band": null,
+    "historical_revenue_cagr": 0.2155534022534602,
+    "sourcing_signal": {
+      "label": "no_valuation"
+    },
+    "our_view": null,
+    "thesis": null,
+    "synthesis_source": null,
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": null,
+    "price_cross_check": null,
+    "reliable": false,
+    "reliability_flags": [
+      "neg_ebit_synthetic_rating_unreliable",
+      "wacc_unreliable"
+    ],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "no edge flagged",
+      "sizing": null
+    },
+    "rank_score": -1
+  },
+  "latest_date": "2026-06-02"
+}

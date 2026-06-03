@@ -1,0 +1,448 @@
+{
+  "cik": 1423689,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNC",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 10.199999809265137,
+        "market_cap": 11297519788.742065,
+        "wacc": 0.07979036980933556,
+        "wacc_band": {
+          "low": 0.06979036980933556,
+          "high": 0.08979036980933555
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.7827738257305439,
+        "vol_annualized": 0.20619169195403309,
+        "adv_usd": 156155718.62994432,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCL",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.049999237060547,
+        "market_cap": 27745379154.96826,
+        "wacc": 0.06118046770990021,
+        "wacc_band": {
+          "low": 0.05118046770990021,
+          "high": 0.0711804677099002
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.3868184619127705,
+        "vol_annualized": 0.0979753053410705,
+        "adv_usd": 272800.0772186279,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCM",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.079999923706055,
+        "market_cap": 27778607915.496826,
+        "wacc": 0.062409783769564034,
+        "wacc_band": {
+          "low": 0.05240978376956403,
+          "high": 0.07240978376956403
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.4129741227566816,
+        "vol_annualized": 0.07249568091877572,
+        "adv_usd": 336970.6586967468,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCN",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.899999618530273,
+        "market_cap": 28686839577.48413,
+        "wacc": 0.06061497117528557,
+        "wacc_band": {
+          "low": 0.050614971175285565,
+          "high": 0.07061497117528556
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.3747866207507568,
+        "vol_annualized": 0.06576628149554607,
+        "adv_usd": 473845.9312654495,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff",
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCO",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.56999969482422,
+        "market_cap": 28321331661.987305,
+        "wacc": 0.0610780979002459,
+        "wacc_band": {
+          "low": 0.0510780979002459,
+          "high": 0.0710780979002459
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.3846403808562958,
+        "vol_annualized": 0.052527229700481085,
+        "adv_usd": 380889.73715744016,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCP",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.18000030517578,
+        "market_cap": 27889368338.012695,
+        "wacc": 0.061197085879174565,
+        "wacc_band": {
+          "low": 0.05119708587917456,
+          "high": 0.07119708587917456
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.38717203998243754,
+        "vol_annualized": 0.0581665763372809,
+        "adv_usd": 1647088.7961682638,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AGNCZ",
+        "name": "AGNC Investment Corp.",
+        "sector": "Real Estate",
+        "price": 25.40999984741211,
+        "market_cap": 28144115830.993652,
+        "wacc": 0.06292992327961008,
+        "wacc_band": {
+          "low": 0.05292992327961008,
+          "high": 0.07292992327961008
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.42404092084276795,
+        "vol_annualized": 0.05034229849238925,
+        "adv_usd": 1393152.5609924316,
+        "normalized_fcff": null,
+        "_debt": 0.0,
+        "_cash": 450000000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": null,
+        "implied_growth_band": null,
+        "historical_revenue_cagr": null,
+        "sourcing_signal": {
+          "label": "no_valuation"
+        },
+        "our_view": null,
+        "thesis": null,
+        "synthesis_source": null,
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": null,
+        "price_cross_check": null,
+        "reliable": false,
+        "reliability_flags": [
+          "missing_ebit",
+          "nonpositive_normalized_fcff"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": null
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "no edge flagged",
+          "sizing": null
+        },
+        "rank_score": -1
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AGNCZ",
+  "name": "AGNC Investment Corp.",
+  "latest": {
+    "ticker": "AGNCZ",
+    "name": "AGNC Investment Corp.",
+    "sector": "Real Estate",
+    "price": 25.40999984741211,
+    "market_cap": 28144115830.993652,
+    "wacc": 0.06292992327961008,
+    "wacc_band": {
+      "low": 0.05292992327961008,
+      "high": 0.07292992327961008
+    },
+    "implied_rating": "no/low debt",
+    "beta_adjusted": 0.42404092084276795,
+    "vol_annualized": 0.05034229849238925,
+    "adv_usd": 1393152.5609924316,
+    "normalized_fcff": null,
+    "_debt": 0.0,
+    "_cash": 450000000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": null,
+    "implied_growth_band": null,
+    "historical_revenue_cagr": null,
+    "sourcing_signal": {
+      "label": "no_valuation"
+    },
+    "our_view": null,
+    "thesis": null,
+    "synthesis_source": null,
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": null,
+    "price_cross_check": null,
+    "reliable": false,
+    "reliability_flags": [
+      "missing_ebit",
+      "nonpositive_normalized_fcff"
+    ],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": null
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "no edge flagged",
+      "sizing": null
+    },
+    "rank_score": -1
+  },
+  "latest_date": "2026-06-02"
+}

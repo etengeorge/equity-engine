@@ -1,0 +1,506 @@
+{
+  "cik": 1725255,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "AHCO",
+        "name": "AdaptHealth Corp.",
+        "sector": "Healthcare",
+        "price": 9.649999618530273,
+        "market_cap": 1307095960.9297867,
+        "wacc": 0.11126244722621959,
+        "wacc_band": {
+          "low": 0.10126244722621959,
+          "high": 0.12126244722621958
+        },
+        "implied_rating": "CC/distressed",
+        "beta_adjusted": 0.8393455210969303,
+        "vol_annualized": 0.5310508368981085,
+        "adv_usd": 16979318.25739956,
+        "normalized_fcff": 299786896.6666666,
+        "_debt": 1715983000,
+        "_cash": 947098,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": -0.013911917890850722,
+        "implied_growth_band": {
+          "at_high_wacc": 0.011731992617032394,
+          "at_low_wacc": -0.041335547162518915
+        },
+        "historical_revenue_cagr": 0.25162531478250205,
+        "sourcing_signal": {
+          "label": "expectations_low",
+          "implied_growth": -0.013911917890850722,
+          "historical_cagr": 0.25162531478250205,
+          "implied_minus_historical": -0.2655372326733528
+        },
+        "our_view": {
+          "research_growth": -0.0139,
+          "fair_value": 9.651135845753284,
+          "fair_value_band": {
+            "low": 6.304206008059308,
+            "high": 12.998065683447242
+          },
+          "gap_vs_price": 0.00011774375833435819,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "AHCO",
+          "created": "2026-06-02",
+          "direction": "hold",
+          "market_narrative": "[STUB] Market-implied growth of -1.4% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+          "implied_view_interpretation": "[STUB] Price implies ~-1.4% 5y FCFF growth.",
+          "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+          "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+          "implied_growth": -0.013911917890850722,
+          "variant_growth": -0.0139,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+          "mispriced_mechanism": "[STUB] market prices an FCFF decline; the deterministic stub cannot tell a cyclical peak from a structural fall, so it forms no differentiated view.",
+          "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+          "deviation_explanation": "[STUB] Implied -1.4% vs historical 25.2%; anchors toward the track record absent evidence otherwise.",
+          "bull_case": {
+            "narrative": "[STUB] upside scenario",
+            "growth": 0.0361,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "base_case": {
+            "narrative": "[STUB] central view",
+            "growth": -0.0139,
+            "what_drives_it": "[STUB] mean-reversion toward history"
+          },
+          "bear_case": {
+            "narrative": "[STUB] downside scenario",
+            "growth": -0.0639,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "catalyst": "Next earnings report and guidance update",
+          "catalyst_date": "2026-11-29",
+          "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+          "what_must_happen": [
+            "[STUB] earnings confirm trajectory",
+            "[STUB] guidance holds or rises",
+            "[STUB] no balance-sheet deterioration"
+          ],
+          "evidence": [
+            {
+              "claim": "10-Q 2026-05-05: ahco-20260331 false Q1 2026 --12-31 0001725255 http://fasb.org/us-gaap/2024#HealthCarePatientServiceMember http://fasb.org/us-gaap/2024#Heal...",
+              "source_form": "10-Q",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026030602/ahco-20260331.htm",
+              "source_date": "2026-05-05",
+              "direction": "supports_lower"
+            },
+            {
+              "claim": "8-K 2026-05-05: ahco-20260505 FALSE 0001725255 0001725255 2026-05-05 2026-05-05 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ____...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026030120/ahco-20260505.htm",
+              "source_date": "2026-05-05",
+              "direction": "risk"
+            },
+            {
+              "claim": "8-K 2026-04-13: 8-K 1 adapthealth-8xkboafacility.htm 8-K Document UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 __________________...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026024835/adapthealth-8xkboafacility.htm",
+              "source_date": "2026-04-13",
+              "direction": "risk"
+            }
+          ],
+          "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+          "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+          "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 9.651135845753284,
+          "gap_vs_price": 0.00011774375833435819,
+          "sign_survives_fcff_band": false,
+          "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+          "charts": []
+        },
+        "synthesis_source": "stub",
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 11,
+          "material_events": [
+            {
+              "title": "Consumer Sentiment Just Crashed Below the Recession Threshold. These 3 Defensive Stocks Under $25 Are Built for What Comes Next",
+              "category": "operational_failure",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://247wallst.com/investing/2026/05/14/consumer-sentiment-just-crashed-below-the-recession-threshold-these-3-defensive-stocks-under-25-are-built-for-what-comes-next/?.tsrc=rss"
+            },
+            {
+              "title": "AdaptHealth's Labor Headwinds Lead to Fast Onboarding of Capitated Contract, RBC Says",
+              "category": "partnership_contract",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/adapthealth-apos-labor-headwinds-lead-160055259.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "Consumer Sentiment Just Crashed Below the Recession Threshold. These 3 Defensive Stocks Under $25 Are Built for What Comes Next",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "operational_failure",
+              "confidence": "provisional",
+              "url": "https://247wallst.com/investing/2026/05/14/consumer-sentiment-just-crashed-below-the-recession-threshold-these-3-defensive-stocks-under-25-are-built-for-what-comes-next/?.tsrc=rss"
+            },
+            {
+              "title": "AdaptHealth's Labor Headwinds Lead to Fast Onboarding of Capitated Contract, RBC Says",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "partnership_contract",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/adapthealth-apos-labor-headwinds-lead-160055259.html?.tsrc=rss"
+            },
+            {
+              "title": "Repligen, AdaptHealth, and IQVIA Stocks Trade Down, What You Need To Know",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-adapthealth-iqvia-stocks-trade-095655507.html?.tsrc=rss"
+            },
+            {
+              "title": "The Top 5 Analyst Questions From AdaptHealth\u2019s Q1 Earnings Call",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-adapthealth-142055823.html?.tsrc=rss"
+            },
+            {
+              "title": "Canaccord Lifts PT on AdaptHealth Corp. (AHCO) Following Q1 Results",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/news/canaccord-lifts-pt-adapthealth-corp-212838396.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 9.65,
+          "pct_diff": 3.953054321217377e-08,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap +0% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.00011774375833435819
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "AHCO",
+  "name": "AdaptHealth Corp.",
+  "latest": {
+    "ticker": "AHCO",
+    "name": "AdaptHealth Corp.",
+    "sector": "Healthcare",
+    "price": 9.649999618530273,
+    "market_cap": 1307095960.9297867,
+    "wacc": 0.11126244722621959,
+    "wacc_band": {
+      "low": 0.10126244722621959,
+      "high": 0.12126244722621958
+    },
+    "implied_rating": "CC/distressed",
+    "beta_adjusted": 0.8393455210969303,
+    "vol_annualized": 0.5310508368981085,
+    "adv_usd": 16979318.25739956,
+    "normalized_fcff": 299786896.6666666,
+    "_debt": 1715983000,
+    "_cash": 947098,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": -0.013911917890850722,
+    "implied_growth_band": {
+      "at_high_wacc": 0.011731992617032394,
+      "at_low_wacc": -0.041335547162518915
+    },
+    "historical_revenue_cagr": 0.25162531478250205,
+    "sourcing_signal": {
+      "label": "expectations_low",
+      "implied_growth": -0.013911917890850722,
+      "historical_cagr": 0.25162531478250205,
+      "implied_minus_historical": -0.2655372326733528
+    },
+    "our_view": {
+      "research_growth": -0.0139,
+      "fair_value": 9.651135845753284,
+      "fair_value_band": {
+        "low": 6.304206008059308,
+        "high": 12.998065683447242
+      },
+      "gap_vs_price": 0.00011774375833435819,
+      "sign_survives_fcff_band": false
+    },
+    "thesis": {
+      "ticker": "AHCO",
+      "created": "2026-06-02",
+      "direction": "hold",
+      "market_narrative": "[STUB] Market-implied growth of -1.4% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+      "implied_view_interpretation": "[STUB] Price implies ~-1.4% 5y FCFF growth.",
+      "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+      "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+      "implied_growth": -0.013911917890850722,
+      "variant_growth": -0.0139,
+      "thesis_archetype": "none_efficiently_priced",
+      "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+      "mispriced_mechanism": "[STUB] market prices an FCFF decline; the deterministic stub cannot tell a cyclical peak from a structural fall, so it forms no differentiated view.",
+      "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+      "deviation_explanation": "[STUB] Implied -1.4% vs historical 25.2%; anchors toward the track record absent evidence otherwise.",
+      "bull_case": {
+        "narrative": "[STUB] upside scenario",
+        "growth": 0.0361,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "base_case": {
+        "narrative": "[STUB] central view",
+        "growth": -0.0139,
+        "what_drives_it": "[STUB] mean-reversion toward history"
+      },
+      "bear_case": {
+        "narrative": "[STUB] downside scenario",
+        "growth": -0.0639,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "catalyst": "Next earnings report and guidance update",
+      "catalyst_date": "2026-11-29",
+      "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+      "what_must_happen": [
+        "[STUB] earnings confirm trajectory",
+        "[STUB] guidance holds or rises",
+        "[STUB] no balance-sheet deterioration"
+      ],
+      "evidence": [
+        {
+          "claim": "10-Q 2026-05-05: ahco-20260331 false Q1 2026 --12-31 0001725255 http://fasb.org/us-gaap/2024#HealthCarePatientServiceMember http://fasb.org/us-gaap/2024#Heal...",
+          "source_form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026030602/ahco-20260331.htm",
+          "source_date": "2026-05-05",
+          "direction": "supports_lower"
+        },
+        {
+          "claim": "8-K 2026-05-05: ahco-20260505 FALSE 0001725255 0001725255 2026-05-05 2026-05-05 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 ____...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026030120/ahco-20260505.htm",
+          "source_date": "2026-05-05",
+          "direction": "risk"
+        },
+        {
+          "claim": "8-K 2026-04-13: 8-K 1 adapthealth-8xkboafacility.htm 8-K Document UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 __________________...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026024835/adapthealth-8xkboafacility.htm",
+          "source_date": "2026-04-13",
+          "direction": "risk"
+        }
+      ],
+      "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+      "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+      "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+      "conviction": 2,
+      "horizon_months": 18,
+      "edge_source": "none",
+      "evaluation_window": "2027-12-01",
+      "fair_value": 9.651135845753284,
+      "gap_vs_price": 0.00011774375833435819,
+      "sign_survives_fcff_band": false,
+      "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+      "charts": []
+    },
+    "synthesis_source": "stub",
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": {
+      "sources": [
+        "rss(15)",
+        "websearch(live synthesizer augments)"
+      ],
+      "n_stories": 11,
+      "material_events": [
+        {
+          "title": "Consumer Sentiment Just Crashed Below the Recession Threshold. These 3 Defensive Stocks Under $25 Are Built for What Comes Next",
+          "category": "operational_failure",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://247wallst.com/investing/2026/05/14/consumer-sentiment-just-crashed-below-the-recession-threshold-these-3-defensive-stocks-under-25-are-built-for-what-comes-next/?.tsrc=rss"
+        },
+        {
+          "title": "AdaptHealth's Labor Headwinds Lead to Fast Onboarding of Capitated Contract, RBC Says",
+          "category": "partnership_contract",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/markets/stocks/articles/adapthealth-apos-labor-headwinds-lead-160055259.html?.tsrc=rss"
+        }
+      ],
+      "has_confirmed_material_event": false,
+      "top": [
+        {
+          "title": "Consumer Sentiment Just Crashed Below the Recession Threshold. These 3 Defensive Stocks Under $25 Are Built for What Comes Next",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "operational_failure",
+          "confidence": "provisional",
+          "url": "https://247wallst.com/investing/2026/05/14/consumer-sentiment-just-crashed-below-the-recession-threshold-these-3-defensive-stocks-under-25-are-built-for-what-comes-next/?.tsrc=rss"
+        },
+        {
+          "title": "AdaptHealth's Labor Headwinds Lead to Fast Onboarding of Capitated Contract, RBC Says",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "partnership_contract",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/adapthealth-apos-labor-headwinds-lead-160055259.html?.tsrc=rss"
+        },
+        {
+          "title": "Repligen, AdaptHealth, and IQVIA Stocks Trade Down, What You Need To Know",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-adapthealth-iqvia-stocks-trade-095655507.html?.tsrc=rss"
+        },
+        {
+          "title": "The Top 5 Analyst Questions From AdaptHealth\u2019s Q1 Earnings Call",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-adapthealth-142055823.html?.tsrc=rss"
+        },
+        {
+          "title": "Canaccord Lifts PT on AdaptHealth Corp. (AHCO) Following Q1 Results",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/news/canaccord-lifts-pt-adapthealth-corp-212838396.html?.tsrc=rss"
+        }
+      ]
+    },
+    "price_cross_check": {
+      "checked": true,
+      "alt_source": "stooq",
+      "alt_close": 9.65,
+      "pct_diff": 3.953054321217377e-08,
+      "agree": true
+    },
+    "reliable": true,
+    "reliability_flags": [],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap +0% not backed by a thesis)",
+      "sizing": null
+    },
+    "rank_score": 0.00011774375833435819
+  },
+  "latest_date": "2026-06-02"
+}

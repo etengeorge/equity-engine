@@ -1,0 +1,468 @@
+{
+  "cik": 897077,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "ALG",
+        "name": "ALAMO GROUP INC",
+        "sector": "Industrials",
+        "price": 152.75999450683594,
+        "market_cap": 1844380331.5571136,
+        "wacc": 0.0806205894173932,
+        "wacc_band": {
+          "low": 0.0706205894173932,
+          "high": 0.09062058941739319
+        },
+        "implied_rating": "A-/BBB",
+        "beta_adjusted": 0.881261925766758,
+        "vol_annualized": 0.3119495384444839,
+        "adv_usd": 32193646.155229695,
+        "normalized_fcff": 161794943.33333334,
+        "_debt": 190748000,
+        "_cash": 309659000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": -0.09417030736084614,
+        "implied_growth_band": {
+          "at_high_wacc": -0.060764811557250276,
+          "at_low_wacc": -0.13179339554530894
+        },
+        "historical_revenue_cagr": 0.06628843529077155,
+        "sourcing_signal": {
+          "label": "expectations_low",
+          "implied_growth": -0.09417030736084614,
+          "historical_cagr": 0.06628843529077155,
+          "implied_minus_historical": -0.1604587426516177
+        },
+        "our_view": {
+          "research_growth": -0.0942,
+          "fair_value": 152.73970610907324,
+          "fair_value_band": {
+            "low": 131.3060629298959,
+            "high": 174.17334928825048
+          },
+          "gap_vs_price": -0.00013281224464688167,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "ALG",
+          "created": "2026-06-02",
+          "direction": "hold",
+          "market_narrative": "[STUB] Market-implied growth of -9.4% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+          "implied_view_interpretation": "[STUB] Price implies ~-9.4% 5y FCFF growth.",
+          "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+          "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+          "implied_growth": -0.09417030736084614,
+          "variant_growth": -0.0942,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+          "mispriced_mechanism": "[STUB] market prices an FCFF decline; the deterministic stub cannot tell a cyclical peak from a structural fall, so it forms no differentiated view.",
+          "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+          "deviation_explanation": "[STUB] Implied -9.4% vs historical 6.6%; anchors toward the track record absent evidence otherwise.",
+          "bull_case": {
+            "narrative": "[STUB] upside scenario",
+            "growth": -0.0442,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "base_case": {
+            "narrative": "[STUB] central view",
+            "growth": -0.0942,
+            "what_drives_it": "[STUB] mean-reversion toward history"
+          },
+          "bear_case": {
+            "narrative": "[STUB] downside scenario",
+            "growth": -0.1442,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "catalyst": "Next earnings report and guidance update",
+          "catalyst_date": "2026-11-29",
+          "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+          "what_must_happen": [
+            "[STUB] earnings confirm trajectory",
+            "[STUB] guidance holds or rises",
+            "[STUB] no balance-sheet deterioration"
+          ],
+          "evidence": [
+            {
+              "claim": "8-K 2026-05-28: alg-20260527 FALSE 0000897077 0000897077 2026-05-27 2026-05-27 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM ...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000078/alg-20260527.htm",
+              "source_date": "2026-05-28",
+              "direction": "risk"
+            },
+            {
+              "claim": "8-K 2026-05-19: alg-20260514 FALSE 0000897077 0000897077 2026-05-14 2026-05-14 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM ...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000076/alg-20260514.htm",
+              "source_date": "2026-05-19",
+              "direction": "risk"
+            },
+            {
+              "claim": "10-Q 2026-05-04: alg-20260331 2026 Q1 FALSE 0000897077 --12-31 http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent http://fasb.org/us-gaap/2025#OtherAssetsNon...",
+              "source_form": "10-Q",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000059/alg-20260331.htm",
+              "source_date": "2026-05-04",
+              "direction": "supports_lower"
+            }
+          ],
+          "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+          "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+          "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 152.73970610907324,
+          "gap_vs_price": -0.00013281224464688167,
+          "sign_survives_fcff_band": false,
+          "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+          "charts": []
+        },
+        "synthesis_source": "stub",
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 13,
+          "material_events": [],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "2 Value Stocks with Exciting Potential and 1 We Question",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/2-value-stocks-exciting-potential-044455370.html?.tsrc=rss"
+            },
+            {
+              "title": "1 Russell 2000 Stock with Promising Prospects and 2 We Avoid",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-promising-064455049.html?.tsrc=rss"
+            },
+            {
+              "title": "5 Revealing Analyst Questions From Alamo\u2019s Q1 Earnings Call",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-alamo-234855966.html?.tsrc=rss"
+            },
+            {
+              "title": "Zacks Industry Outlook Highlights Deere &amp; Co., CNH, AGCO and Alamo",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/news/zacks-industry-outlook-highlights-deere-110400343.html?.tsrc=rss"
+            },
+            {
+              "title": "4 Farm Equipment Stocks Worth Watching Despite Industry Challenges",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/4-farm-equipment-stocks-worth-164600107.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 152.76,
+          "pct_diff": 3.5959441286568236e-08,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -0% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.00013281224464688167
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "ALG",
+  "name": "ALAMO GROUP INC",
+  "latest": {
+    "ticker": "ALG",
+    "name": "ALAMO GROUP INC",
+    "sector": "Industrials",
+    "price": 152.75999450683594,
+    "market_cap": 1844380331.5571136,
+    "wacc": 0.0806205894173932,
+    "wacc_band": {
+      "low": 0.0706205894173932,
+      "high": 0.09062058941739319
+    },
+    "implied_rating": "A-/BBB",
+    "beta_adjusted": 0.881261925766758,
+    "vol_annualized": 0.3119495384444839,
+    "adv_usd": 32193646.155229695,
+    "normalized_fcff": 161794943.33333334,
+    "_debt": 190748000,
+    "_cash": 309659000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": -0.09417030736084614,
+    "implied_growth_band": {
+      "at_high_wacc": -0.060764811557250276,
+      "at_low_wacc": -0.13179339554530894
+    },
+    "historical_revenue_cagr": 0.06628843529077155,
+    "sourcing_signal": {
+      "label": "expectations_low",
+      "implied_growth": -0.09417030736084614,
+      "historical_cagr": 0.06628843529077155,
+      "implied_minus_historical": -0.1604587426516177
+    },
+    "our_view": {
+      "research_growth": -0.0942,
+      "fair_value": 152.73970610907324,
+      "fair_value_band": {
+        "low": 131.3060629298959,
+        "high": 174.17334928825048
+      },
+      "gap_vs_price": -0.00013281224464688167,
+      "sign_survives_fcff_band": false
+    },
+    "thesis": {
+      "ticker": "ALG",
+      "created": "2026-06-02",
+      "direction": "hold",
+      "market_narrative": "[STUB] Market-implied growth of -9.4% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+      "implied_view_interpretation": "[STUB] Price implies ~-9.4% 5y FCFF growth.",
+      "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+      "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+      "implied_growth": -0.09417030736084614,
+      "variant_growth": -0.0942,
+      "thesis_archetype": "none_efficiently_priced",
+      "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+      "mispriced_mechanism": "[STUB] market prices an FCFF decline; the deterministic stub cannot tell a cyclical peak from a structural fall, so it forms no differentiated view.",
+      "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+      "deviation_explanation": "[STUB] Implied -9.4% vs historical 6.6%; anchors toward the track record absent evidence otherwise.",
+      "bull_case": {
+        "narrative": "[STUB] upside scenario",
+        "growth": -0.0442,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "base_case": {
+        "narrative": "[STUB] central view",
+        "growth": -0.0942,
+        "what_drives_it": "[STUB] mean-reversion toward history"
+      },
+      "bear_case": {
+        "narrative": "[STUB] downside scenario",
+        "growth": -0.1442,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "catalyst": "Next earnings report and guidance update",
+      "catalyst_date": "2026-11-29",
+      "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+      "what_must_happen": [
+        "[STUB] earnings confirm trajectory",
+        "[STUB] guidance holds or rises",
+        "[STUB] no balance-sheet deterioration"
+      ],
+      "evidence": [
+        {
+          "claim": "8-K 2026-05-28: alg-20260527 FALSE 0000897077 0000897077 2026-05-27 2026-05-27 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM ...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000078/alg-20260527.htm",
+          "source_date": "2026-05-28",
+          "direction": "risk"
+        },
+        {
+          "claim": "8-K 2026-05-19: alg-20260514 FALSE 0000897077 0000897077 2026-05-14 2026-05-14 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM ...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000076/alg-20260514.htm",
+          "source_date": "2026-05-19",
+          "direction": "risk"
+        },
+        {
+          "claim": "10-Q 2026-05-04: alg-20260331 2026 Q1 FALSE 0000897077 --12-31 http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent http://fasb.org/us-gaap/2025#OtherAssetsNon...",
+          "source_form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/897077/000089707726000059/alg-20260331.htm",
+          "source_date": "2026-05-04",
+          "direction": "supports_lower"
+        }
+      ],
+      "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+      "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+      "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+      "conviction": 2,
+      "horizon_months": 18,
+      "edge_source": "none",
+      "evaluation_window": "2027-12-01",
+      "fair_value": 152.73970610907324,
+      "gap_vs_price": -0.00013281224464688167,
+      "sign_survives_fcff_band": false,
+      "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+      "charts": []
+    },
+    "synthesis_source": "stub",
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": {
+      "sources": [
+        "rss(15)",
+        "websearch(live synthesizer augments)"
+      ],
+      "n_stories": 13,
+      "material_events": [],
+      "has_confirmed_material_event": false,
+      "top": [
+        {
+          "title": "2 Value Stocks with Exciting Potential and 1 We Question",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-value-stocks-exciting-potential-044455370.html?.tsrc=rss"
+        },
+        {
+          "title": "1 Russell 2000 Stock with Promising Prospects and 2 We Avoid",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-promising-064455049.html?.tsrc=rss"
+        },
+        {
+          "title": "5 Revealing Analyst Questions From Alamo\u2019s Q1 Earnings Call",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-alamo-234855966.html?.tsrc=rss"
+        },
+        {
+          "title": "Zacks Industry Outlook Highlights Deere &amp; Co., CNH, AGCO and Alamo",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/news/zacks-industry-outlook-highlights-deere-110400343.html?.tsrc=rss"
+        },
+        {
+          "title": "4 Farm Equipment Stocks Worth Watching Despite Industry Challenges",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/4-farm-equipment-stocks-worth-164600107.html?.tsrc=rss"
+        }
+      ]
+    },
+    "price_cross_check": {
+      "checked": true,
+      "alt_source": "stooq",
+      "alt_close": 152.76,
+      "pct_diff": 3.5959441286568236e-08,
+      "agree": true
+    },
+    "reliable": true,
+    "reliability_flags": [],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -0% not backed by a thesis)",
+      "sizing": null
+    },
+    "rank_score": 0.00013281224464688167
+  },
+  "latest_date": "2026-06-02"
+}
