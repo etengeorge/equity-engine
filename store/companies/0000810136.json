@@ -1,0 +1,506 @@
+{
+  "cik": 810136,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "PLAB",
+        "name": "PHOTRONICS INC",
+        "sector": "Technology",
+        "price": 33.13999938964844,
+        "market_cap": 1909957584.8236084,
+        "wacc": 0.1196438395871474,
+        "wacc_band": {
+          "low": 0.10964383958714741,
+          "high": 0.1296438395871474
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 1.659787341702816,
+        "vol_annualized": 0.6619806840659854,
+        "adv_usd": 61830288.62058411,
+        "normalized_fcff": 120348000.0,
+        "_debt": 32310000,
+        "_cash": 492256000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": 0.05106650475583707,
+        "implied_growth_band": {
+          "at_high_wacc": 0.07678481733326092,
+          "at_low_wacc": 0.02379324747161793
+        },
+        "historical_revenue_cagr": 0.06853721987701467,
+        "sourcing_signal": {
+          "label": "expectations_inline",
+          "implied_growth": 0.05106650475583707,
+          "historical_cagr": 0.06853721987701467,
+          "implied_minus_historical": -0.017470715121177594
+        },
+        "our_view": {
+          "research_growth": 0.0615,
+          "fair_value": 34.22528450335327,
+          "fair_value_band": {
+            "low": 30.288582036584863,
+            "high": 38.16198697012169
+          },
+          "gap_vs_price": 0.0327484952834318,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "PLAB",
+          "created": "2026-06-02",
+          "direction": "hold",
+          "market_narrative": "[STUB] Market-implied growth of 5.1% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+          "implied_view_interpretation": "[STUB] Price implies ~5.1% 5y FCFF growth.",
+          "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+          "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+          "implied_growth": 0.05106650475583707,
+          "variant_growth": 0.0615,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+          "mispriced_mechanism": "[STUB] implied growth is close to historical; no obvious gap.",
+          "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+          "deviation_explanation": "[STUB] Implied 5.1% vs historical 6.9%; anchors toward the track record absent evidence otherwise.",
+          "bull_case": {
+            "narrative": "[STUB] upside scenario",
+            "growth": 0.1115,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "base_case": {
+            "narrative": "[STUB] central view",
+            "growth": 0.0615,
+            "what_drives_it": "[STUB] mean-reversion toward history"
+          },
+          "bear_case": {
+            "narrative": "[STUB] downside scenario",
+            "growth": 0.0115,
+            "what_drives_it": "[STUB] live synthesis specifies drivers"
+          },
+          "catalyst": "Next earnings report and guidance update",
+          "catalyst_date": "2026-11-29",
+          "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+          "what_must_happen": [
+            "[STUB] earnings confirm trajectory",
+            "[STUB] guidance holds or rises",
+            "[STUB] no balance-sheet deterioration"
+          ],
+          "evidence": [
+            {
+              "claim": "8-K 2026-05-28: false 0000810136 0000810136 2026-05-28 2026-05-28 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, DC 20549 FORM 8-K CURRENT REP...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126023057/ef20074970_8k.htm",
+              "source_date": "2026-05-28",
+              "direction": "risk"
+            },
+            {
+              "claim": "8-K 2026-04-09: false 0000810136 0000810136 2026-04-08 2026-04-08 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, DC 20549 FORM 8-K CURRENT REP...",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126014013/ef20070192_8k.htm",
+              "source_date": "2026-04-09",
+              "direction": "risk"
+            },
+            {
+              "claim": "10-Q 2026-03-11: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q (Mark One) \u2612 QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15...",
+              "source_form": "10-Q",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126009004/plab-20260201.htm",
+              "source_date": "2026-03-11",
+              "direction": "supports_lower"
+            }
+          ],
+          "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+          "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+          "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 34.22528450335327,
+          "gap_vs_price": 0.0327484952834318,
+          "sign_survives_fcff_band": false,
+          "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+          "charts": []
+        },
+        "synthesis_source": "stub",
+        "synthesis_relationships": [],
+        "synthesis_sector_update": {},
+        "synthesis_company_news": "",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 11,
+          "material_events": [
+            {
+              "title": "Photronics CEO Flags Delays, Supply Strain, And Uncertainty",
+              "category": "executive",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-ceo-flags-delays-supply-003209378.html?.tsrc=rss"
+            },
+            {
+              "title": "Update: Photronics Shares Fall Following Fiscal Q2 Miss, Weak Fiscal Q3 Guidance",
+              "category": "guidance",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-shares-fall-following-fiscal-175808907.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "Photronics CEO Flags Delays, Supply Strain, And Uncertainty",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "executive",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-ceo-flags-delays-supply-003209378.html?.tsrc=rss"
+            },
+            {
+              "title": "Update: Photronics Shares Fall Following Fiscal Q2 Miss, Weak Fiscal Q3 Guidance",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "bear"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "guidance",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-shares-fall-following-fiscal-175808907.html?.tsrc=rss"
+            },
+            {
+              "title": "PLAB Q2 Earnings Miss on Delayed Semiconductor Design Releases",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/plab-q2-earnings-miss-delayed-175600901.html?.tsrc=rss"
+            },
+            {
+              "title": "PLAB Q1 Deep Dive: Delayed Chip Designs and Margin Compression Dominate Quarter",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/plab-q1-deep-dive-delayed-095251347.html?.tsrc=rss"
+            },
+            {
+              "title": "Photronics (PLAB) Q2 2026 Earnings Transcript",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/photronics-plab-q2-2026-earnings-transcript/?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 33.15,
+          "pct_diff": 0.00030176857380042243,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap +3% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.0327484952834318
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "PLAB",
+  "name": "PHOTRONICS INC",
+  "latest": {
+    "ticker": "PLAB",
+    "name": "PHOTRONICS INC",
+    "sector": "Technology",
+    "price": 33.13999938964844,
+    "market_cap": 1909957584.8236084,
+    "wacc": 0.1196438395871474,
+    "wacc_band": {
+      "low": 0.10964383958714741,
+      "high": 0.1296438395871474
+    },
+    "implied_rating": "no/low debt",
+    "beta_adjusted": 1.659787341702816,
+    "vol_annualized": 0.6619806840659854,
+    "adv_usd": 61830288.62058411,
+    "normalized_fcff": 120348000.0,
+    "_debt": 32310000,
+    "_cash": 492256000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": 0.05106650475583707,
+    "implied_growth_band": {
+      "at_high_wacc": 0.07678481733326092,
+      "at_low_wacc": 0.02379324747161793
+    },
+    "historical_revenue_cagr": 0.06853721987701467,
+    "sourcing_signal": {
+      "label": "expectations_inline",
+      "implied_growth": 0.05106650475583707,
+      "historical_cagr": 0.06853721987701467,
+      "implied_minus_historical": -0.017470715121177594
+    },
+    "our_view": {
+      "research_growth": 0.0615,
+      "fair_value": 34.22528450335327,
+      "fair_value_band": {
+        "low": 30.288582036584863,
+        "high": 38.16198697012169
+      },
+      "gap_vs_price": 0.0327484952834318,
+      "sign_survives_fcff_band": false
+    },
+    "thesis": {
+      "ticker": "PLAB",
+      "created": "2026-06-02",
+      "direction": "hold",
+      "market_narrative": "[STUB] Market-implied growth of 5.1% reflects the consensus trajectory; the live synthesis articulates the actual narrative behind it.",
+      "implied_view_interpretation": "[STUB] Price implies ~5.1% 5y FCFF growth.",
+      "consensus_interrogation": "[STUB] Live synthesis explains WHY the market holds its view and what it is collectively missing; this placeholder does not interrogate consensus.",
+      "perspective_spread": "[STUB] Live synthesis weighs sell-side vs short vs retail vs filings and surfaces conflicts; not assessed in stub.",
+      "implied_growth": 0.05106650475583707,
+      "variant_growth": 0.0615,
+      "thesis_archetype": "none_efficiently_priced",
+      "variant_view": "[STUB] Placeholder view anchored on mean-reversion toward history.",
+      "mispriced_mechanism": "[STUB] implied growth is close to historical; no obvious gap.",
+      "rationale": "[STUB REASONING \u2014 NOT REAL ANALYSIS] This deterministic placeholder blends implied and historical growth and labels a lens mechanically. Run via Claude Code (ROUTINE.md) for genuine cross-source synthesis.",
+      "deviation_explanation": "[STUB] Implied 5.1% vs historical 6.9%; anchors toward the track record absent evidence otherwise.",
+      "bull_case": {
+        "narrative": "[STUB] upside scenario",
+        "growth": 0.1115,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "base_case": {
+        "narrative": "[STUB] central view",
+        "growth": 0.0615,
+        "what_drives_it": "[STUB] mean-reversion toward history"
+      },
+      "bear_case": {
+        "narrative": "[STUB] downside scenario",
+        "growth": 0.0115,
+        "what_drives_it": "[STUB] live synthesis specifies drivers"
+      },
+      "catalyst": "Next earnings report and guidance update",
+      "catalyst_date": "2026-11-29",
+      "catalyst_path": "[STUB] Live synthesis lays out the event sequence; here: next earnings -> guidance -> multiple re-rating.",
+      "what_must_happen": [
+        "[STUB] earnings confirm trajectory",
+        "[STUB] guidance holds or rises",
+        "[STUB] no balance-sheet deterioration"
+      ],
+      "evidence": [
+        {
+          "claim": "8-K 2026-05-28: false 0000810136 0000810136 2026-05-28 2026-05-28 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, DC 20549 FORM 8-K CURRENT REP...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126023057/ef20074970_8k.htm",
+          "source_date": "2026-05-28",
+          "direction": "risk"
+        },
+        {
+          "claim": "8-K 2026-04-09: false 0000810136 0000810136 2026-04-08 2026-04-08 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, DC 20549 FORM 8-K CURRENT REP...",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126014013/ef20070192_8k.htm",
+          "source_date": "2026-04-09",
+          "direction": "risk"
+        },
+        {
+          "claim": "10-Q 2026-03-11: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q (Mark One) \u2612 QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15...",
+          "source_form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126009004/plab-20260201.htm",
+          "source_date": "2026-03-11",
+          "direction": "supports_lower"
+        }
+      ],
+      "cross_source_corroboration": "[STUB] Live synthesis weighs how sources align or conflict.",
+      "disconfirming": "[STUB] Live synthesis argues the bear case against its own view; here, acceleration evidence in filings would break the reversion premise.",
+      "falsification": "Two consecutive quarters materially above the historical trend would invalidate the mean-reversion premise.",
+      "conviction": 2,
+      "horizon_months": 18,
+      "edge_source": "none",
+      "evaluation_window": "2027-12-01",
+      "fair_value": 34.22528450335327,
+      "gap_vs_price": 0.0327484952834318,
+      "sign_survives_fcff_band": false,
+      "company_brief": "[STUB] Live synthesis writes a plain-English company brief (what it does, its segments, and its customers); not generated in the deterministic stub.",
+      "charts": []
+    },
+    "synthesis_source": "stub",
+    "synthesis_relationships": [],
+    "synthesis_sector_update": {},
+    "synthesis_company_news": "",
+    "thesis_drift_alert": null,
+    "news_summary": {
+      "sources": [
+        "rss(15)",
+        "websearch(live synthesizer augments)"
+      ],
+      "n_stories": 11,
+      "material_events": [
+        {
+          "title": "Photronics CEO Flags Delays, Supply Strain, And Uncertainty",
+          "category": "executive",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-ceo-flags-delays-supply-003209378.html?.tsrc=rss"
+        },
+        {
+          "title": "Update: Photronics Shares Fall Following Fiscal Q2 Miss, Weak Fiscal Q3 Guidance",
+          "category": "guidance",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-shares-fall-following-fiscal-175808907.html?.tsrc=rss"
+        }
+      ],
+      "has_confirmed_material_event": false,
+      "top": [
+        {
+          "title": "Photronics CEO Flags Delays, Supply Strain, And Uncertainty",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "executive",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-ceo-flags-delays-supply-003209378.html?.tsrc=rss"
+        },
+        {
+          "title": "Update: Photronics Shares Fall Following Fiscal Q2 Miss, Weak Fiscal Q3 Guidance",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "bear"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "guidance",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-shares-fall-following-fiscal-175808907.html?.tsrc=rss"
+        },
+        {
+          "title": "PLAB Q2 Earnings Miss on Delayed Semiconductor Design Releases",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/plab-q2-earnings-miss-delayed-175600901.html?.tsrc=rss"
+        },
+        {
+          "title": "PLAB Q1 Deep Dive: Delayed Chip Designs and Margin Compression Dominate Quarter",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/plab-q1-deep-dive-delayed-095251347.html?.tsrc=rss"
+        },
+        {
+          "title": "Photronics (PLAB) Q2 2026 Earnings Transcript",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/photronics-plab-q2-2026-earnings-transcript/?.tsrc=rss"
+        }
+      ]
+    },
+    "price_cross_check": {
+      "checked": true,
+      "alt_source": "stooq",
+      "alt_close": 33.15,
+      "pct_diff": 0.00030176857380042243,
+      "agree": true
+    },
+    "reliable": true,
+    "reliability_flags": [],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap +3% not backed by a thesis)",
+      "sizing": null
+    },
+    "rank_score": 0.0327484952834318
+  },
+  "latest_date": "2026-06-02"
+}

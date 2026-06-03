@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Regenerated build artifacts (rebuilt every run)
+out/
+
+# Per-run agent synthesis hand-off (live JSON written by the orchestration agent)
+synth/
+
+# Local universe cache (re-fetched)
+store/universe_resolved.txt
+
+# Note: store/ (the journal + snapshots) IS tracked on purpose — it is the
+# point-in-time audit trail the retrospective scores against (ROUTINE.md step 6).

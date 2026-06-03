@@ -1,0 +1,957 @@
+{
+  "cik": 1053706,
+  "observations": [
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "CRAI",
+        "name": "CRA INTERNATIONAL, INC.",
+        "sector": "Industrials",
+        "price": 143.8800048828125,
+        "market_cap": 942040951.1297607,
+        "wacc": 0.08355821219423923,
+        "wacc_band": {
+          "low": 0.07355821219423923,
+          "high": 0.09355821219423922
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.8629406849838133,
+        "vol_annualized": 0.36714499703956127,
+        "adv_usd": 24787500.564493816,
+        "normalized_fcff": 39393240.0,
+        "_debt": 0.0,
+        "_cash": 18210000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": 0.09340159279712712,
+        "implied_growth_band": {
+          "at_high_wacc": 0.13337435236739525,
+          "at_low_wacc": 0.04882546333283144
+        },
+        "historical_revenue_cagr": 0.08133159905518861,
+        "sourcing_signal": {
+          "label": "expectations_inline",
+          "implied_growth": 0.09340159279712712,
+          "historical_cagr": 0.08133159905518861,
+          "implied_minus_historical": 0.012069993741938512
+        },
+        "our_view": {
+          "research_growth": 0.085,
+          "fair_value": 139.0017258267172,
+          "fair_value_band": {
+            "low": 118.568655008989,
+            "high": 159.4347966444454
+          },
+          "gap_vs_price": -0.03390519106576733,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "CRAI",
+          "created": "2026-06-02",
+          "direction": "hold",
+          "market_narrative": "The reverse DCF implies ~9.4% 5y FCFF growth \u2014 slightly ABOVE CRA's ~8.1% six-year revenue CAGR. The market already credits CRA as a durable, high-quality compounder printing record revenue, and pays a small premium for it.",
+          "implied_view_interpretation": "~9.4% is not a neglected-stock number \u2014 it is a modest premium to the long-run growth rate, i.e. the quality is recognized and already in the price.",
+          "consensus_interrogation": "Why the market holds it: CRA keeps compounding \u2014 revenue $591M -> $624M -> $687M -> $752M across FY22-25 with operating margin actually stable-to-rising at 9.9%/9.2%/10.3%/11.1% (yfinance; see chart) \u2014 and Q1 FY2026 set a record at +10.5% to $201M. The 'margin compression' in May-2026 coverage (StockStory/TradingView) is a QUARTERLY EPS effect from paying up for senior talent, not a full-year decline; FY2026 guidance is a healthy 12-13% non-GAAP EBITDA margin. There is no fact the market is collectively missing here.",
+          "perspective_spread": "Coverage agrees more than it conflicts. Investing.com and StockStory report the Q1 record revenue and the 'beat'; the same outlets flag near-term margin/EPS pressure from the compensation ramp ('record revenue, lower profit'). Management reaffirmed FY2026 guidance ($785-805M revenue, 12-13% non-GAAP EBITDA margin; 8-K 2026-05-07) and pays a $0.57 quarterly dividend. There is no short-seller or contrarian thesis of note. Aligned coverage on a fully-priced quality name is not an edge.",
+          "implied_growth": 0.09340159279712712,
+          "variant_growth": 0.085,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "No differentiated edge. CRA is a high-quality compounder already priced as one (implied 9.4% > 8.1% historical CAGR). I will not manufacture a thesis the cash-flow math doesn't support.",
+          "mispriced_mechanism": "There is no specific mis-weighting to exploit. The market correctly prices both the durable demand and the rising senior-staff cost base; the implied ~9.4% fairly captures a high-single-digit revenue grower whose FCFF growth roughly tracks revenue.",
+          "rationale": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin 9.9%/9.2%/10.3%/11.1% \u2014 stable-to-rising, NOT compressing on a full-year basis (yfinance; see chart). Q1 FY2026 (8-K, 2026-05-07): record revenue +10.5% to $201M, utilization 77% (vs 76%), 971 consultants, with near-term EPS pressure from senior-hire compensation. FY2026 guidance reaffirmed ($785-805M; 12-13% non-GAAP EBITDA margin). With implied growth (9.4%) already a touch above the 8.1% historical CAGR, I set base-case 5y FCFF growth at 8.5% \u2014 essentially the market's number \u2014 and label none_efficiently_priced. 'Market looks right' is the correct, and common, output.",
+          "deviation_explanation": "My 8.5% is within rounding of the implied 9.4%, a hair lower only because FCFF growth tends to lag revenue growth as compensation rises. I have no evidence for a material deviation, so I do not invent one.",
+          "bull_case": {
+            "narrative": "Demand stays broad-based, utilization pushes above the upper-70s, and CRA gets operating leverage on the senior-talent investment.",
+            "growth": 0.11,
+            "what_drives_it": "utilization break-out + leverage on the compensation investment"
+          },
+          "base_case": {
+            "narrative": "High-single-digit revenue growth in line with guidance and history; margins hold ~10-11%; FCFF growth slightly trails revenue.",
+            "growth": 0.085,
+            "what_drives_it": "steady consulting demand, utilization ~upper-70s, rising compensation"
+          },
+          "bear_case": {
+            "narrative": "A macro / litigation-cycle slowdown cuts utilization and pipeline while compensation stays sticky, compressing margins.",
+            "growth": 0.05,
+            "what_drives_it": "demand slowdown + sticky senior-staff compensation"
+          },
+          "catalyst": "None specific \u2014 efficiently priced. Would revisit on utilization sustainably above the upper-70s WITH margin expansion, or a clear margin inflection.",
+          "catalyst_date": null,
+          "catalyst_path": "No re-rating catalyst identified. The watch-items that could create one: utilization sustained above the upper-70s, or evidence the senior-talent investment is producing operating leverage rather than just absorbing it. Absent that, price and value track each other.",
+          "what_must_happen": [
+            "Utilization sustains above the upper-70s rather than holding flat",
+            "Senior-talent compensation investment converts into operating leverage (margin inflection)",
+            "FY2026 results land within the reaffirmed $785-805M / 12-13% EBITDA-margin guide"
+          ],
+          "evidence": [
+            {
+              "claim": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin stable-to-rising at 9.9%/9.2%/10.3%/11.1% \u2014 a durable quality franchise.",
+              "source_form": "research",
+              "source_url": "https://finance.yahoo.com/quote/CRAI/financials",
+              "source_date": "2026-06-01",
+              "direction": "supports_higher"
+            },
+            {
+              "claim": "Q1 FY2026 record revenue +10.5% to $201M and utilization 77% (vs 76%), but with near-term margin/EPS pressure from senior-talent compensation ('record revenue, lower profit').",
+              "source_form": "earnings call",
+              "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cra-international-q1-2026-revenue-hits-record-high-93CH-4669590",
+              "source_date": "2026-05-07",
+              "direction": "risk"
+            },
+            {
+              "claim": "Reaffirmed FY2026 guidance: revenue $785-805M and non-GAAP EBITDA margin 12-13%; quarterly dividend $0.57 \u2014 solid but on-trend, not an acceleration.",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm",
+              "source_date": "2026-05-07",
+              "direction": "supports_lower"
+            },
+            {
+              "claim": "Market-implied ~9.4% 5y FCFF growth already exceeds the ~8.1% six-year historical revenue CAGR \u2014 the quality is in the price, leaving little daylight to exploit.",
+              "source_form": "research",
+              "source_url": null,
+              "source_date": null,
+              "direction": "supports_lower"
+            }
+          ],
+          "cross_source_corroboration": "Investing.com, StockStory and the 8-K all describe the same thing \u2014 record revenue, comp-driven near-term EPS pressure, guidance on trend. Alignment here is consensus, and the consensus looks right.",
+          "disconfirming": "Against 'efficiently priced': if the senior-talent hiring is a step-change that drives durable share gains and operating leverage, CRA could compound above 9% and I am too conservative. Conversely, consulting is cyclical \u2014 a litigation/M&A slowdown would expose the now-higher fixed compensation base. Both tails exist, which is why conviction is 2, not zero.",
+          "falsification": "Two-plus quarters of utilization sustainably above the upper-70s WITH margin expansion would prove this mispriced to the upside; a utilization/pipeline drop with sticky compensation would prove it mispriced to the downside. Either falsifies 'efficiently priced.'",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 139.0017258267172,
+          "gap_vs_price": -0.03390519106576733,
+          "sign_survives_fcff_band": false,
+          "company_brief": "CRA International (CRAI), operating as Charles River Associates, is a Boston-based economic and management consulting firm. It sells expert testimony, litigation support and economic/strategy analysis through two segments \u2014 Legal & Regulatory Consulting (~80% of revenue: antitrust, finance, IP, energy, life sciences) and Management Consulting (~20%, incl. the Marakon brand). Customers are law firms, large corporations and government agencies (it cites 85% of the Fortune 100 and 98% of the Am Law 100); ~40% of senior staff hold PhDs.",
+          "charts": [
+            {
+              "title": "Revenue compounding with stable-to-rising ~10-11% operating margin (quality, but priced)",
+              "x": [
+                "FY22",
+                "FY23",
+                "FY24",
+                "FY25"
+              ],
+              "series": [
+                {
+                  "name": "Revenue ($M)",
+                  "data": [
+                    591,
+                    624,
+                    687,
+                    752
+                  ],
+                  "kind": "bar",
+                  "axis": "left"
+                },
+                {
+                  "name": "Operating margin (%)",
+                  "data": [
+                    9.9,
+                    9.2,
+                    10.3,
+                    11.1
+                  ],
+                  "kind": "line",
+                  "axis": "right"
+                }
+              ],
+              "source": "yfinance annual income statement, FY2022-FY2025 (pulled 2026-06-01)"
+            }
+          ]
+        },
+        "synthesis_source": "llm",
+        "synthesis_relationships": [
+          {
+            "entity": "Am Law 100 / large law firms",
+            "type": "customer",
+            "note": "litigation & antitrust engagements (98% of Am Law 100)"
+          },
+          {
+            "entity": "Fortune 100 corporations",
+            "type": "customer",
+            "note": "management & economic consulting (85% of Fortune 100)"
+          },
+          {
+            "entity": "antitrust / M&A enforcement (DOJ/FTC)",
+            "type": "regulator",
+            "note": "drives demand for competition-economics work"
+          },
+          {
+            "entity": "senior consultant talent market",
+            "type": "input",
+            "note": "the comp cost base; utilization is the margin swing"
+          }
+        ],
+        "synthesis_sector_update": {
+          "learning": "Litigation/economic-consulting demand is broad-based and utilization firm (upper-70s), but senior-talent compensation is the margin swing \u2014 record revenue can come with quarterly EPS pressure.",
+          "drivers": [
+            "litigation/M&A cycle",
+            "utilization",
+            "senior-comp cost"
+          ],
+          "entities": [
+            "antitrust / M&A enforcement (DOJ/FTC)"
+          ],
+          "affected_tickers": [
+            "CRAI"
+          ]
+        },
+        "synthesis_company_news": "Q1 FY2026 (2026-05-07): record revenue +10.5% to $201M, utilization 77%; near-term EPS pressure from senior-hire comp; FY guide reaffirmed $785-805M, 12-13% EBITDA margin.",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 13,
+          "material_events": [
+            {
+              "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+              "category": "capital",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "capital",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+            },
+            {
+              "title": "CRA International Inc (CRA) Reports Another Record Quarter",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-inc-cra-reports-211909495.html?.tsrc=rss"
+            },
+            {
+              "title": "Charles River Associates (CRA) to Present at Noble Capital Markets Virtual Conference",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-present-123000798.html?.tsrc=rss"
+            },
+            {
+              "title": "CRA, SAIC, OSI Systems, EPAM, and Kyndryl Stocks Trade Down, What You Need To Know",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cra-saic-osi-systems-epam-083655041.html?.tsrc=rss"
+            },
+            {
+              "title": "2 Services Stocks with Competitive Advantages and 1 We Brush Off",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-competitive-advantages-042055315.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 143.88,
+          "pct_diff": 3.393669960273097e-08,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -3% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.03390519106576733
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "snapshot": {
+        "ticker": "CRAI",
+        "name": "CRA INTERNATIONAL, INC.",
+        "sector": "Industrials",
+        "price": 143.8800048828125,
+        "market_cap": 942040951.1297607,
+        "wacc": 0.08355817855484295,
+        "wacc_band": {
+          "low": 0.07355817855484295,
+          "high": 0.09355817855484294
+        },
+        "implied_rating": "no/low debt",
+        "beta_adjusted": 0.8629399692519777,
+        "vol_annualized": 0.3671449311392582,
+        "adv_usd": 24787500.564493816,
+        "normalized_fcff": 39393240.0,
+        "_debt": 0.0,
+        "_cash": 18210000,
+        "last_full_revalue": "2026-06-02",
+        "implied_growth": 0.09340145142179368,
+        "implied_growth_band": {
+          "at_high_wacc": 0.13337422415694322,
+          "at_low_wacc": 0.04882530373813554
+        },
+        "historical_revenue_cagr": 0.08133159905518861,
+        "sourcing_signal": {
+          "label": "expectations_inline",
+          "implied_growth": 0.09340145142179368,
+          "historical_cagr": 0.08133159905518861,
+          "implied_minus_historical": 0.012069852366605072
+        },
+        "our_view": {
+          "research_growth": 0.085,
+          "fair_value": 139.00180600160084,
+          "fair_value_band": {
+            "low": 118.56872315764006,
+            "high": 159.43488884556157
+          },
+          "gap_vs_price": -0.03390463383139901,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "CRAI",
+          "created": "2026-06-02",
+          "direction": "hold",
+          "market_narrative": "The reverse DCF implies ~9.4% 5y FCFF growth \u2014 slightly ABOVE CRA's ~8.1% six-year revenue CAGR. The market already credits CRA as a durable, high-quality compounder printing record revenue, and pays a small premium for it.",
+          "implied_view_interpretation": "~9.4% is not a neglected-stock number \u2014 it is a modest premium to the long-run growth rate, i.e. the quality is recognized and already in the price.",
+          "consensus_interrogation": "Why the market holds it: CRA keeps compounding \u2014 revenue $591M -> $624M -> $687M -> $752M across FY22-25 with operating margin actually stable-to-rising at 9.9%/9.2%/10.3%/11.1% (yfinance; see chart) \u2014 and Q1 FY2026 set a record at +10.5% to $201M. The 'margin compression' in May-2026 coverage (StockStory/TradingView) is a QUARTERLY EPS effect from paying up for senior talent, not a full-year decline; FY2026 guidance is a healthy 12-13% non-GAAP EBITDA margin. There is no fact the market is collectively missing here.",
+          "perspective_spread": "Coverage agrees more than it conflicts. Investing.com and StockStory report the Q1 record revenue and the 'beat'; the same outlets flag near-term margin/EPS pressure from the compensation ramp ('record revenue, lower profit'). Management reaffirmed FY2026 guidance ($785-805M revenue, 12-13% non-GAAP EBITDA margin; 8-K 2026-05-07) and pays a $0.57 quarterly dividend. There is no short-seller or contrarian thesis of note. Aligned coverage on a fully-priced quality name is not an edge.",
+          "implied_growth": 0.09340145142179368,
+          "variant_growth": 0.085,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "No differentiated edge. CRA is a high-quality compounder already priced as one (implied 9.4% > 8.1% historical CAGR). I will not manufacture a thesis the cash-flow math doesn't support.",
+          "mispriced_mechanism": "There is no specific mis-weighting to exploit. The market correctly prices both the durable demand and the rising senior-staff cost base; the implied ~9.4% fairly captures a high-single-digit revenue grower whose FCFF growth roughly tracks revenue.",
+          "rationale": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin 9.9%/9.2%/10.3%/11.1% \u2014 stable-to-rising, NOT compressing on a full-year basis (yfinance; see chart). Q1 FY2026 (8-K, 2026-05-07): record revenue +10.5% to $201M, utilization 77% (vs 76%), 971 consultants, with near-term EPS pressure from senior-hire compensation. FY2026 guidance reaffirmed ($785-805M; 12-13% non-GAAP EBITDA margin). With implied growth (9.4%) already a touch above the 8.1% historical CAGR, I set base-case 5y FCFF growth at 8.5% \u2014 essentially the market's number \u2014 and label none_efficiently_priced. 'Market looks right' is the correct, and common, output.",
+          "deviation_explanation": "My 8.5% is within rounding of the implied 9.4%, a hair lower only because FCFF growth tends to lag revenue growth as compensation rises. I have no evidence for a material deviation, so I do not invent one.",
+          "bull_case": {
+            "narrative": "Demand stays broad-based, utilization pushes above the upper-70s, and CRA gets operating leverage on the senior-talent investment.",
+            "growth": 0.11,
+            "what_drives_it": "utilization break-out + leverage on the compensation investment"
+          },
+          "base_case": {
+            "narrative": "High-single-digit revenue growth in line with guidance and history; margins hold ~10-11%; FCFF growth slightly trails revenue.",
+            "growth": 0.085,
+            "what_drives_it": "steady consulting demand, utilization ~upper-70s, rising compensation"
+          },
+          "bear_case": {
+            "narrative": "A macro / litigation-cycle slowdown cuts utilization and pipeline while compensation stays sticky, compressing margins.",
+            "growth": 0.05,
+            "what_drives_it": "demand slowdown + sticky senior-staff compensation"
+          },
+          "catalyst": "None specific \u2014 efficiently priced. Would revisit on utilization sustainably above the upper-70s WITH margin expansion, or a clear margin inflection.",
+          "catalyst_date": null,
+          "catalyst_path": "No re-rating catalyst identified. The watch-items that could create one: utilization sustained above the upper-70s, or evidence the senior-talent investment is producing operating leverage rather than just absorbing it. Absent that, price and value track each other.",
+          "what_must_happen": [
+            "Utilization sustains above the upper-70s rather than holding flat",
+            "Senior-talent compensation investment converts into operating leverage (margin inflection)",
+            "FY2026 results land within the reaffirmed $785-805M / 12-13% EBITDA-margin guide"
+          ],
+          "evidence": [
+            {
+              "claim": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin stable-to-rising at 9.9%/9.2%/10.3%/11.1% \u2014 a durable quality franchise.",
+              "source_form": "research",
+              "source_url": "https://finance.yahoo.com/quote/CRAI/financials",
+              "source_date": "2026-06-01",
+              "direction": "supports_higher"
+            },
+            {
+              "claim": "Q1 FY2026 record revenue +10.5% to $201M and utilization 77% (vs 76%), but with near-term margin/EPS pressure from senior-talent compensation ('record revenue, lower profit').",
+              "source_form": "earnings call",
+              "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cra-international-q1-2026-revenue-hits-record-high-93CH-4669590",
+              "source_date": "2026-05-07",
+              "direction": "risk"
+            },
+            {
+              "claim": "Reaffirmed FY2026 guidance: revenue $785-805M and non-GAAP EBITDA margin 12-13%; quarterly dividend $0.57 \u2014 solid but on-trend, not an acceleration.",
+              "source_form": "8-K",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm",
+              "source_date": "2026-05-07",
+              "direction": "supports_lower"
+            },
+            {
+              "claim": "Market-implied ~9.4% 5y FCFF growth already exceeds the ~8.1% six-year historical revenue CAGR \u2014 the quality is in the price, leaving little daylight to exploit.",
+              "source_form": "research",
+              "source_url": null,
+              "source_date": null,
+              "direction": "supports_lower"
+            }
+          ],
+          "cross_source_corroboration": "Investing.com, StockStory and the 8-K all describe the same thing \u2014 record revenue, comp-driven near-term EPS pressure, guidance on trend. Alignment here is consensus, and the consensus looks right.",
+          "disconfirming": "Against 'efficiently priced': if the senior-talent hiring is a step-change that drives durable share gains and operating leverage, CRA could compound above 9% and I am too conservative. Conversely, consulting is cyclical \u2014 a litigation/M&A slowdown would expose the now-higher fixed compensation base. Both tails exist, which is why conviction is 2, not zero.",
+          "falsification": "Two-plus quarters of utilization sustainably above the upper-70s WITH margin expansion would prove this mispriced to the upside; a utilization/pipeline drop with sticky compensation would prove it mispriced to the downside. Either falsifies 'efficiently priced.'",
+          "conviction": 2,
+          "horizon_months": 18,
+          "edge_source": "none",
+          "evaluation_window": "2027-12-01",
+          "fair_value": 139.00180600160084,
+          "gap_vs_price": -0.03390463383139901,
+          "sign_survives_fcff_band": false,
+          "company_brief": "CRA International (CRAI), operating as Charles River Associates, is a Boston-based economic and management consulting firm. It sells expert testimony, litigation support and economic/strategy analysis through two segments \u2014 Legal & Regulatory Consulting (~80% of revenue: antitrust, finance, IP, energy, life sciences) and Management Consulting (~20%, incl. the Marakon brand). Customers are law firms, large corporations and government agencies (it cites 85% of the Fortune 100 and 98% of the Am Law 100); ~40% of senior staff hold PhDs.",
+          "charts": [
+            {
+              "title": "Revenue compounding with stable-to-rising ~10-11% operating margin (quality, but priced)",
+              "x": [
+                "FY22",
+                "FY23",
+                "FY24",
+                "FY25"
+              ],
+              "series": [
+                {
+                  "name": "Revenue ($M)",
+                  "data": [
+                    591,
+                    624,
+                    687,
+                    752
+                  ],
+                  "kind": "bar",
+                  "axis": "left"
+                },
+                {
+                  "name": "Operating margin (%)",
+                  "data": [
+                    9.9,
+                    9.2,
+                    10.3,
+                    11.1
+                  ],
+                  "kind": "line",
+                  "axis": "right"
+                }
+              ],
+              "source": "yfinance annual income statement, FY2022-FY2025 (pulled 2026-06-01)"
+            }
+          ]
+        },
+        "synthesis_source": "llm",
+        "synthesis_relationships": [
+          {
+            "entity": "Am Law 100 / large law firms",
+            "type": "customer",
+            "note": "litigation & antitrust engagements (98% of Am Law 100)"
+          },
+          {
+            "entity": "Fortune 100 corporations",
+            "type": "customer",
+            "note": "management & economic consulting (85% of Fortune 100)"
+          },
+          {
+            "entity": "antitrust / M&A enforcement (DOJ/FTC)",
+            "type": "regulator",
+            "note": "drives demand for competition-economics work"
+          },
+          {
+            "entity": "senior consultant talent market",
+            "type": "input",
+            "note": "the comp cost base; utilization is the margin swing"
+          }
+        ],
+        "synthesis_sector_update": {
+          "learning": "Litigation/economic-consulting demand is broad-based and utilization firm (upper-70s), but senior-talent compensation is the margin swing \u2014 record revenue can come with quarterly EPS pressure.",
+          "drivers": [
+            "litigation/M&A cycle",
+            "utilization",
+            "senior-comp cost"
+          ],
+          "entities": [
+            "antitrust / M&A enforcement (DOJ/FTC)"
+          ],
+          "affected_tickers": [
+            "CRAI"
+          ]
+        },
+        "synthesis_company_news": "Q1 FY2026 (2026-05-07): record revenue +10.5% to $201M, utilization 77%; near-term EPS pressure from senior-hire comp; FY guide reaffirmed $785-805M, 12-13% EBITDA margin.",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 13,
+          "material_events": [
+            {
+              "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+              "category": "capital",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "capital",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+            },
+            {
+              "title": "CRA International Inc (CRA) Reports Another Record Quarter",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-inc-cra-reports-211909495.html?.tsrc=rss"
+            },
+            {
+              "title": "Charles River Associates (CRA) to Present at Noble Capital Markets Virtual Conference",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-present-123000798.html?.tsrc=rss"
+            },
+            {
+              "title": "CRA, SAIC, OSI Systems, EPAM, and Kyndryl Stocks Trade Down, What You Need To Know",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cra-saic-osi-systems-epam-083655041.html?.tsrc=rss"
+            },
+            {
+              "title": "2 Services Stocks with Competitive Advantages and 1 We Brush Off",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-competitive-advantages-042055315.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 143.88,
+          "pct_diff": 3.393669960273097e-08,
+          "agree": true
+        },
+        "reliable": true,
+        "reliability_flags": [],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -3% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.03390463383139901
+      }
+    }
+  ],
+  "theses": [],
+  "ticker": "CRAI",
+  "name": "CRA INTERNATIONAL, INC.",
+  "latest": {
+    "ticker": "CRAI",
+    "name": "CRA INTERNATIONAL, INC.",
+    "sector": "Industrials",
+    "price": 143.8800048828125,
+    "market_cap": 942040951.1297607,
+    "wacc": 0.08355817855484295,
+    "wacc_band": {
+      "low": 0.07355817855484295,
+      "high": 0.09355817855484294
+    },
+    "implied_rating": "no/low debt",
+    "beta_adjusted": 0.8629399692519777,
+    "vol_annualized": 0.3671449311392582,
+    "adv_usd": 24787500.564493816,
+    "normalized_fcff": 39393240.0,
+    "_debt": 0.0,
+    "_cash": 18210000,
+    "last_full_revalue": "2026-06-02",
+    "implied_growth": 0.09340145142179368,
+    "implied_growth_band": {
+      "at_high_wacc": 0.13337422415694322,
+      "at_low_wacc": 0.04882530373813554
+    },
+    "historical_revenue_cagr": 0.08133159905518861,
+    "sourcing_signal": {
+      "label": "expectations_inline",
+      "implied_growth": 0.09340145142179368,
+      "historical_cagr": 0.08133159905518861,
+      "implied_minus_historical": 0.012069852366605072
+    },
+    "our_view": {
+      "research_growth": 0.085,
+      "fair_value": 139.00180600160084,
+      "fair_value_band": {
+        "low": 118.56872315764006,
+        "high": 159.43488884556157
+      },
+      "gap_vs_price": -0.03390463383139901,
+      "sign_survives_fcff_band": false
+    },
+    "thesis": {
+      "ticker": "CRAI",
+      "created": "2026-06-02",
+      "direction": "hold",
+      "market_narrative": "The reverse DCF implies ~9.4% 5y FCFF growth \u2014 slightly ABOVE CRA's ~8.1% six-year revenue CAGR. The market already credits CRA as a durable, high-quality compounder printing record revenue, and pays a small premium for it.",
+      "implied_view_interpretation": "~9.4% is not a neglected-stock number \u2014 it is a modest premium to the long-run growth rate, i.e. the quality is recognized and already in the price.",
+      "consensus_interrogation": "Why the market holds it: CRA keeps compounding \u2014 revenue $591M -> $624M -> $687M -> $752M across FY22-25 with operating margin actually stable-to-rising at 9.9%/9.2%/10.3%/11.1% (yfinance; see chart) \u2014 and Q1 FY2026 set a record at +10.5% to $201M. The 'margin compression' in May-2026 coverage (StockStory/TradingView) is a QUARTERLY EPS effect from paying up for senior talent, not a full-year decline; FY2026 guidance is a healthy 12-13% non-GAAP EBITDA margin. There is no fact the market is collectively missing here.",
+      "perspective_spread": "Coverage agrees more than it conflicts. Investing.com and StockStory report the Q1 record revenue and the 'beat'; the same outlets flag near-term margin/EPS pressure from the compensation ramp ('record revenue, lower profit'). Management reaffirmed FY2026 guidance ($785-805M revenue, 12-13% non-GAAP EBITDA margin; 8-K 2026-05-07) and pays a $0.57 quarterly dividend. There is no short-seller or contrarian thesis of note. Aligned coverage on a fully-priced quality name is not an edge.",
+      "implied_growth": 0.09340145142179368,
+      "variant_growth": 0.085,
+      "thesis_archetype": "none_efficiently_priced",
+      "variant_view": "No differentiated edge. CRA is a high-quality compounder already priced as one (implied 9.4% > 8.1% historical CAGR). I will not manufacture a thesis the cash-flow math doesn't support.",
+      "mispriced_mechanism": "There is no specific mis-weighting to exploit. The market correctly prices both the durable demand and the rising senior-staff cost base; the implied ~9.4% fairly captures a high-single-digit revenue grower whose FCFF growth roughly tracks revenue.",
+      "rationale": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin 9.9%/9.2%/10.3%/11.1% \u2014 stable-to-rising, NOT compressing on a full-year basis (yfinance; see chart). Q1 FY2026 (8-K, 2026-05-07): record revenue +10.5% to $201M, utilization 77% (vs 76%), 971 consultants, with near-term EPS pressure from senior-hire compensation. FY2026 guidance reaffirmed ($785-805M; 12-13% non-GAAP EBITDA margin). With implied growth (9.4%) already a touch above the 8.1% historical CAGR, I set base-case 5y FCFF growth at 8.5% \u2014 essentially the market's number \u2014 and label none_efficiently_priced. 'Market looks right' is the correct, and common, output.",
+      "deviation_explanation": "My 8.5% is within rounding of the implied 9.4%, a hair lower only because FCFF growth tends to lag revenue growth as compensation rises. I have no evidence for a material deviation, so I do not invent one.",
+      "bull_case": {
+        "narrative": "Demand stays broad-based, utilization pushes above the upper-70s, and CRA gets operating leverage on the senior-talent investment.",
+        "growth": 0.11,
+        "what_drives_it": "utilization break-out + leverage on the compensation investment"
+      },
+      "base_case": {
+        "narrative": "High-single-digit revenue growth in line with guidance and history; margins hold ~10-11%; FCFF growth slightly trails revenue.",
+        "growth": 0.085,
+        "what_drives_it": "steady consulting demand, utilization ~upper-70s, rising compensation"
+      },
+      "bear_case": {
+        "narrative": "A macro / litigation-cycle slowdown cuts utilization and pipeline while compensation stays sticky, compressing margins.",
+        "growth": 0.05,
+        "what_drives_it": "demand slowdown + sticky senior-staff compensation"
+      },
+      "catalyst": "None specific \u2014 efficiently priced. Would revisit on utilization sustainably above the upper-70s WITH margin expansion, or a clear margin inflection.",
+      "catalyst_date": null,
+      "catalyst_path": "No re-rating catalyst identified. The watch-items that could create one: utilization sustained above the upper-70s, or evidence the senior-talent investment is producing operating leverage rather than just absorbing it. Absent that, price and value track each other.",
+      "what_must_happen": [
+        "Utilization sustains above the upper-70s rather than holding flat",
+        "Senior-talent compensation investment converts into operating leverage (margin inflection)",
+        "FY2026 results land within the reaffirmed $785-805M / 12-13% EBITDA-margin guide"
+      ],
+      "evidence": [
+        {
+          "claim": "Revenue compounded ~8-9%/yr FY22-25 ($591M -> $752M) with operating margin stable-to-rising at 9.9%/9.2%/10.3%/11.1% \u2014 a durable quality franchise.",
+          "source_form": "research",
+          "source_url": "https://finance.yahoo.com/quote/CRAI/financials",
+          "source_date": "2026-06-01",
+          "direction": "supports_higher"
+        },
+        {
+          "claim": "Q1 FY2026 record revenue +10.5% to $201M and utilization 77% (vs 76%), but with near-term margin/EPS pressure from senior-talent compensation ('record revenue, lower profit').",
+          "source_form": "earnings call",
+          "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cra-international-q1-2026-revenue-hits-record-high-93CH-4669590",
+          "source_date": "2026-05-07",
+          "direction": "risk"
+        },
+        {
+          "claim": "Reaffirmed FY2026 guidance: revenue $785-805M and non-GAAP EBITDA margin 12-13%; quarterly dividend $0.57 \u2014 solid but on-trend, not an acceleration.",
+          "source_form": "8-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm",
+          "source_date": "2026-05-07",
+          "direction": "supports_lower"
+        },
+        {
+          "claim": "Market-implied ~9.4% 5y FCFF growth already exceeds the ~8.1% six-year historical revenue CAGR \u2014 the quality is in the price, leaving little daylight to exploit.",
+          "source_form": "research",
+          "source_url": null,
+          "source_date": null,
+          "direction": "supports_lower"
+        }
+      ],
+      "cross_source_corroboration": "Investing.com, StockStory and the 8-K all describe the same thing \u2014 record revenue, comp-driven near-term EPS pressure, guidance on trend. Alignment here is consensus, and the consensus looks right.",
+      "disconfirming": "Against 'efficiently priced': if the senior-talent hiring is a step-change that drives durable share gains and operating leverage, CRA could compound above 9% and I am too conservative. Conversely, consulting is cyclical \u2014 a litigation/M&A slowdown would expose the now-higher fixed compensation base. Both tails exist, which is why conviction is 2, not zero.",
+      "falsification": "Two-plus quarters of utilization sustainably above the upper-70s WITH margin expansion would prove this mispriced to the upside; a utilization/pipeline drop with sticky compensation would prove it mispriced to the downside. Either falsifies 'efficiently priced.'",
+      "conviction": 2,
+      "horizon_months": 18,
+      "edge_source": "none",
+      "evaluation_window": "2027-12-01",
+      "fair_value": 139.00180600160084,
+      "gap_vs_price": -0.03390463383139901,
+      "sign_survives_fcff_band": false,
+      "company_brief": "CRA International (CRAI), operating as Charles River Associates, is a Boston-based economic and management consulting firm. It sells expert testimony, litigation support and economic/strategy analysis through two segments \u2014 Legal & Regulatory Consulting (~80% of revenue: antitrust, finance, IP, energy, life sciences) and Management Consulting (~20%, incl. the Marakon brand). Customers are law firms, large corporations and government agencies (it cites 85% of the Fortune 100 and 98% of the Am Law 100); ~40% of senior staff hold PhDs.",
+      "charts": [
+        {
+          "title": "Revenue compounding with stable-to-rising ~10-11% operating margin (quality, but priced)",
+          "x": [
+            "FY22",
+            "FY23",
+            "FY24",
+            "FY25"
+          ],
+          "series": [
+            {
+              "name": "Revenue ($M)",
+              "data": [
+                591,
+                624,
+                687,
+                752
+              ],
+              "kind": "bar",
+              "axis": "left"
+            },
+            {
+              "name": "Operating margin (%)",
+              "data": [
+                9.9,
+                9.2,
+                10.3,
+                11.1
+              ],
+              "kind": "line",
+              "axis": "right"
+            }
+          ],
+          "source": "yfinance annual income statement, FY2022-FY2025 (pulled 2026-06-01)"
+        }
+      ]
+    },
+    "synthesis_source": "llm",
+    "synthesis_relationships": [
+      {
+        "entity": "Am Law 100 / large law firms",
+        "type": "customer",
+        "note": "litigation & antitrust engagements (98% of Am Law 100)"
+      },
+      {
+        "entity": "Fortune 100 corporations",
+        "type": "customer",
+        "note": "management & economic consulting (85% of Fortune 100)"
+      },
+      {
+        "entity": "antitrust / M&A enforcement (DOJ/FTC)",
+        "type": "regulator",
+        "note": "drives demand for competition-economics work"
+      },
+      {
+        "entity": "senior consultant talent market",
+        "type": "input",
+        "note": "the comp cost base; utilization is the margin swing"
+      }
+    ],
+    "synthesis_sector_update": {
+      "learning": "Litigation/economic-consulting demand is broad-based and utilization firm (upper-70s), but senior-talent compensation is the margin swing \u2014 record revenue can come with quarterly EPS pressure.",
+      "drivers": [
+        "litigation/M&A cycle",
+        "utilization",
+        "senior-comp cost"
+      ],
+      "entities": [
+        "antitrust / M&A enforcement (DOJ/FTC)"
+      ],
+      "affected_tickers": [
+        "CRAI"
+      ]
+    },
+    "synthesis_company_news": "Q1 FY2026 (2026-05-07): record revenue +10.5% to $201M, utilization 77%; near-term EPS pressure from senior-hire comp; FY guide reaffirmed $785-805M, 12-13% EBITDA margin.",
+    "thesis_drift_alert": null,
+    "news_summary": {
+      "sources": [
+        "rss(15)",
+        "websearch(live synthesizer augments)"
+      ],
+      "n_stories": 13,
+      "material_events": [
+        {
+          "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+          "category": "capital",
+          "confidence": "provisional",
+          "sources": [
+            "rss"
+          ],
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+        }
+      ],
+      "has_confirmed_material_event": false,
+      "top": [
+        {
+          "title": "Charles River Associates (CRA) Declares Quarterly Cash Dividend of $0.57 Per Common Share",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": true,
+          "event_category": "capital",
+          "confidence": "provisional",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-declares-120000354.html?.tsrc=rss"
+        },
+        {
+          "title": "CRA International Inc (CRA) Reports Another Record Quarter",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-inc-cra-reports-211909495.html?.tsrc=rss"
+        },
+        {
+          "title": "Charles River Associates (CRA) to Present at Noble Capital Markets Virtual Conference",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-cra-present-123000798.html?.tsrc=rss"
+        },
+        {
+          "title": "CRA, SAIC, OSI Systems, EPAM, and Kyndryl Stocks Trade Down, What You Need To Know",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-saic-osi-systems-epam-083655041.html?.tsrc=rss"
+        },
+        {
+          "title": "2 Services Stocks with Competitive Advantages and 1 We Brush Off",
+          "sources": [
+            "rss"
+          ],
+          "stances": [
+            "neutral"
+          ],
+          "stance_conflict": false,
+          "is_consensus": false,
+          "is_material_event": false,
+          "event_category": null,
+          "confidence": "n/a",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-competitive-advantages-042055315.html?.tsrc=rss"
+        }
+      ]
+    },
+    "price_cross_check": {
+      "checked": true,
+      "alt_source": "stooq",
+      "alt_close": 143.88,
+      "pct_diff": 3.393669960273097e-08,
+      "agree": true
+    },
+    "reliable": true,
+    "reliability_flags": [],
+    "provenance": {
+      "source": "SEC EDGAR XBRL companyfacts",
+      "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+      "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "held": null,
+    "recommendation": {
+      "action": "PASS",
+      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -3% not backed by a thesis)",
+      "sizing": null
+    },
+    "rank_score": 0.03390463383139901
+  },
+  "latest_date": "2026-06-02"
+}
