@@ -22,26 +22,25 @@ research engine. **Read `CLAUDE.md` first** (hard rules + architecture), then `C
 - Four hand-authored live theses (SHOO/PRDO/CRAI/CALM) in `_live_synthesis.py` (used by `--live`
   and as the demo provider). `ROUTINE_PROMPT.md` is the scheduled-agent playbook.
   `out/dashboard.html` is the latest routine output. `git log` shows the audit trail working.
-- git is initialized locally (branch `main`); `store/` is tracked as the audit trail.
+- **Pushed to GitHub: `nathan1-gif/equity-engine` (private), branch `main`** — `store/` tracked as the audit trail, so the cloud fresh-clone model works.
 
-**IMMEDIATE NEXT STEP — finish the CLOUD schedule so it runs on Anthropic's servers (laptop-off):**
-1. I will create an **EMPTY private GitHub repo** `equity-engine` under username **`nathan1-gif`**
-   (no README/license/.gitignore — an initialized repo rejects the existing history). Then push:
-   ```
-   git remote add origin https://github.com/nathan1-gif/equity-engine.git
-   git push -u origin main
-   ```
-   Help me if the push errors — HTTPS needs a Personal Access Token, or use SSH
-   (`git@github.com:nathan1-gif/equity-engine.git`). You can run `git remote add` for me, but I
-   may have to run the push myself if it needs a fresh credential prompt.
-2. Connect that repo in **claude.ai/code**.
-3. Run **`/schedule`** to create a cloud routine: name "Equity Engine — daily research",
-   weekday ~7am ET, task = the contents of **`ROUTINE_PROMPT.md`**. (The earlier `/schedule` attempt
-   failed on a transient claude.ai connection — just retry.)
-4. Set the routine's env: `SEC_USER_AGENT`, optionally `TIINGO_API_KEY` + `PRICE_PROVIDER=tiingo`.
-5. (Optional) commit a real `IWM_holdings.csv` for the faithful R2000 (the cloud can't pass the
+**STATE OF SETUP:** code + repo are done. The ONLY thing left is creating the CLOUD schedule, and
+that's been blocked by a transient Anthropic-side issue — `/schedule` repeatedly returns "trouble
+connecting with your remote claude.ai account." It is NOT a setup problem and nothing got
+half-created; just retry when the service is back.
+
+**TO FINISH (when the scheduling service is reachable):**
+1. Connect the `equity-engine` repo in **claude.ai/code** (GitHub connector) so the cloud routine can clone the private repo.
+2. Create the routine — retry **`/schedule`**, OR use the **claude.ai/code → Routines / Scheduled tasks** web UI (often works when the CLI skill's connection is flaky):
+   - name: **Equity Engine — daily research**
+   - schedule: weekday (Mon–Fri) ~7am ET
+   - repo / working dir: `nathan1-gif/equity-engine`
+   - task: paste the contents of **`ROUTINE_PROMPT.md`**
+3. Set the routine env: `SEC_USER_AGENT="equity-engine you@example.com"`, optionally `TIINGO_API_KEY` + `PRICE_PROVIDER=tiingo` (volume).
+4. (Optional) commit a real `IWM_holdings.csv` for the faithful R2000 (the cloud can't pass the
    iShares browser consent wall — otherwise it falls back to the SEC all-filers superset); connect
    the read-only **Robinhood / Gmail / Drive** connectors (they dry-run until then).
+5. Trigger ONE manual run; confirm it clones, runs `orchestrate.py daily`, pushes a journal commit, and reports recommend-only.
 
 **CONSTRAINTS (do not break):** never add an order path (Robinhood is read-only); keep
 `PAPER_MODE=True`; the DCF gap governs the narrative; `none_efficiently_priced` is a valid output;
