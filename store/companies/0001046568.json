@@ -378,8 +378,7 @@
         },
         "held": {
           "ticker": "PRDO",
-          "shares": 100,
-          "avg_cost": 20
+          "held": true
         },
         "recommendation": {
           "action": "ADD",
@@ -766,8 +765,7 @@
         },
         "held": {
           "ticker": "PRDO",
-          "shares": 100,
-          "avg_cost": 20
+          "held": true
         },
         "recommendation": {
           "action": "ADD",
@@ -1154,8 +1152,7 @@
         },
         "held": {
           "ticker": "PRDO",
-          "shares": 100,
-          "avg_cost": 20
+          "held": true
         },
         "recommendation": {
           "action": "ADD",
@@ -1544,8 +1541,7 @@
     },
     "held": {
       "ticker": "PRDO",
-      "shares": 100,
-      "avg_cost": 20
+      "held": true
     },
     "recommendation": {
       "action": "ADD",

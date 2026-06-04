@@ -36,7 +36,7 @@ half-created; just retry when the service is back.
    - schedule: weekday (Mon–Fri) ~7am ET
    - repo / working dir: `nathan1-gif/equity-engine`
    - task: paste the contents of **`ROUTINE_PROMPT.md`**
-3. Set the routine env: `SEC_USER_AGENT="equity-engine you@example.com"`, optionally `TIINGO_API_KEY` + `PRICE_PROVIDER=tiingo` (volume).
+3. Set the routine env: `SEC_USER_AGENT="equity-engine <your-email>"`, optionally `TIINGO_API_KEY` + `PRICE_PROVIDER=tiingo` (volume).
 4. (Optional) commit a real `IWM_holdings.csv` for the faithful R2000 (the cloud can't pass the
    iShares browser consent wall — otherwise it falls back to the SEC all-filers superset); connect
    the read-only **Robinhood / Gmail / Drive** connectors (they dry-run until then).

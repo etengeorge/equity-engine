@@ -326,8 +326,7 @@
         },
         "held": {
           "ticker": "SHOO",
-          "shares": 200,
-          "avg_cost": 35
+          "held": true
         },
         "recommendation": {
           "action": "HOLD",
@@ -662,8 +661,7 @@
         },
         "held": {
           "ticker": "SHOO",
-          "shares": 200,
-          "avg_cost": 35
+          "held": true
         },
         "recommendation": {
           "action": "HOLD",
@@ -998,8 +996,7 @@
         },
         "held": {
           "ticker": "SHOO",
-          "shares": 200,
-          "avg_cost": 35
+          "held": true
         },
         "recommendation": {
           "action": "HOLD",
@@ -1336,8 +1333,7 @@
     },
     "held": {
       "ticker": "SHOO",
-      "shares": 200,
-      "avg_cost": 35
+      "held": true
     },
     "recommendation": {
       "action": "HOLD",

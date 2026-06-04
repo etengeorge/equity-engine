@@ -13,3 +13,27 @@ store/universe_resolved.txt
 
 # Note: store/ (the journal + snapshots) IS tracked on purpose — it is the
 # point-in-time audit trail the retrospective scores against (ROUTINE.md step 6).
+
+# ---- Secrets & personal data — NEVER commit (HARD RULE 6) -------------------
+# Real holdings (ticker/shares/cost-basis). Track positions.example.json instead.
+positions.json
+# Environment / credential files
+.env
+.env.*
+*.env
+.envrc
+.netrc
+# Keys, certs, tokens, service-account files
+*.key
+*.pem
+*.p12
+*.pfx
+*.pkcs12
+*credentials*
+*secret*
+*.token
+service-account*.json
+gcp-*.json
+client_secret*.json
+# Local per-user Claude Code settings (machine-specific; may contain paths/email)
+.claude/settings.local.json

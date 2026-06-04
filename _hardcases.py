@@ -15,7 +15,7 @@ import tempfile
 import json
 
 os.environ["STORE_DIR"] = tempfile.mkdtemp(prefix="ee_hard_")
-os.environ.setdefault("SEC_USER_AGENT", "equity-engine you@example.com")
+os.environ.setdefault("SEC_USER_AGENT", "equity-engine test you@example.com")
 os.environ.setdefault("PRICE_PROVIDER", "yfinance")
 
 import engine

@@ -482,6 +482,22 @@ ok("dashboard: congress framed as a LOOK, not a copy signal", "not a signal to c
 noraise("dashboard: _report_block survives a thesis-less snapshot",
         lambda: outputs._report_block({"ticker": "NOTH", "recommendation": {"action": "PASS", "reason": "x"}}))
 
+# ---------------------------------------------------------------------------
+print("\n── HARD RULE 6: store/ never commits position economics ──")
+_redrec = {"cik": 777001, "ticker": "REDX", "name": "RedactCo", "snapshot": {
+    "ticker": "REDX", "held": {"ticker": "REDX", "shares": 123, "avg_cost": 45.6},
+    "our_view": {"gap_vs_price": 0.1}, "recommendation": {"action": "HOLD", "reason": "x"}}}
+_store.upsert(_redrec)
+_red = _store.load(777001)["latest"]["held"]
+ok("store strips share count from the committed snapshot", "shares" not in _red)
+ok("store strips cost basis from the committed snapshot", "avg_cost" not in _red)
+ok("store keeps the held flag + ticker (audit trail intact)",
+   _red.get("held") is True and _red.get("ticker") == "REDX")
+ok("redaction does not mutate the caller's live snapshot (dashboard still shows size)",
+   _redrec["snapshot"]["held"].get("shares") == 123)
+ok("redaction no-ops a held=None snapshot",
+   _store._redact_snapshot({"ticker": "X", "held": None}).get("held") is None)
+
 print(f"\n{'=' * 60}\n  {PASS} passed, {FAIL} failed")
 if FAILS:
     print("  FAILURES:", FAILS)

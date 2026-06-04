@@ -35,16 +35,34 @@ def load(cik):
     return None
 
 
+def _redact_snapshot(snapshot):
+    """Strip personal position economics (share count, cost basis) from any snapshot we
+    COMMIT. The audit trail records THAT a name was held at a point in time — never your size
+    or basis (HARD RULE 6: never commit sensitive/personal data). Returns a copy; never mutates
+    the caller's object. Lossless for the engine: nothing reads shares/avg_cost back from the
+    store — positions are re-read from positions.json each run — so this only removes the one
+    personal datum that would otherwise land in the git-tracked store/."""
+    if not isinstance(snapshot, dict):
+        return snapshot
+    held = snapshot.get("held")
+    if isinstance(held, dict) and any(k in held for k in ("shares", "avg_cost")):
+        snapshot = dict(snapshot)            # shallow copy — do not mutate the live row
+        snapshot["held"] = {"ticker": held.get("ticker"), "held": True}
+    return snapshot
+
+
 def upsert(record):
     """Merge a fresh observation into the company record, append-only on history."""
     cik = record["cik"]
     existing = load(cik) or {"cik": cik, "observations": [], "theses": []}
     stamp = dt.date.today().isoformat()
-    # snapshot the observable state, never overwriting prior snapshots
+    # snapshot the observable state, never overwriting prior snapshots. Personal position
+    # economics are redacted from the COMMITTED copy (HARD RULE 6) — see _redact_snapshot.
+    snap = _redact_snapshot(record["snapshot"])
     existing["ticker"] = record.get("ticker")
     existing["name"] = record.get("name")
-    existing["observations"].append({"date": stamp, "snapshot": record["snapshot"]})
-    existing["latest"] = record["snapshot"]
+    existing["observations"].append({"date": stamp, "snapshot": snap})
+    existing["latest"] = snap
     existing["latest_date"] = stamp
     with open(_path(cik), "w") as f:
         json.dump(existing, f, indent=2, default=str)

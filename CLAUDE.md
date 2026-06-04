@@ -23,6 +23,14 @@ to Robinhood READ-ONLY for position context. **It recommends; the human decides 
    reliability flag — a flagged name is NOT a clean recommendation.
 5. **Free sources only** (EDGAR, FRED, free price/news tiers). NEVER scrape paywalled sources.
    Respect SEC rate limits (`SEC_USER_AGENT` required; the engine throttles to ≤10 req/s).
+6. **NEVER commit sensitive information.** No API keys, tokens, passwords, OAuth secrets, or private
+   keys — every credential is read from the environment (`os.environ`), never hard-coded or echoed
+   into a tracked file, a snapshot, a prompt, or a log. No personal data either: real emails go in
+   the `SEC_USER_AGENT` env var (the source default stays a placeholder), and `positions.json` +
+   any real holdings/cost-basis stay **untracked** (they're git-ignored; the committed `store/`
+   audit trail records THAT a name was held, never the share count or basis — see `store._redact`).
+   If you are about to write a secret or personal datum anywhere under version control, stop. When in
+   doubt, env var + `.gitignore`, never a commit. (`positions.example.json` shows the expected shape.)
 
 ## Commands
 ```bash
