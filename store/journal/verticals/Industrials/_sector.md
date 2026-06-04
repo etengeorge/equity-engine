@@ -1,7 +1,7 @@
 # Industrials — sector dossier
-_updated 2026-06-02_
+_updated 2026-06-04_
 
-**Current sector narrative:** 2026 is the first live Gainful-Employment year (student warnings begin July 1) plus the OBBB earnings-accountability rulemaking — a sector-wide regulatory overhang on for-profit / Title-IV-funded education.
+**Current sector narrative:** Litigation/economic-consulting demand is broad-based and utilization firm (upper-70s), but senior-talent compensation is the margin swing — record revenue can come with quarterly EPS pressure.
 
 **Drivers:** tariff regime, China sourcing %, Title IV regulation, Gainful Employment, enrollment cyclicality, litigation/M&A cycle, utilization, senior-comp cost
 

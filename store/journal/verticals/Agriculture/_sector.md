@@ -1,5 +1,5 @@
 # Agriculture — sector dossier
-_updated 2026-06-02_
+_updated 2026-06-04_
 
 **Current sector narrative:** Egg prices are normalizing ~70% off the HPAI-driven peak; USDA depopulations down ~70% and the layer flock rebuilding — bearish for shell-egg producers' near-term margins (a peak that reverts, not a base to capitalize).
 

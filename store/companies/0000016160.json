@@ -1050,6 +1050,357 @@
         },
         "rank_score": 0.0013967361339324866
       }
+    },
+    {
+      "date": "2026-06-04",
+      "snapshot": {
+        "ticker": "CALM",
+        "name": "CAL-MAINE FOODS INC",
+        "sector": "Agriculture",
+        "price": 75.31999969482422,
+        "market_cap": 3686160785.0646973,
+        "wacc": 0.06826050181440235,
+        "wacc_band": {
+          "low": 0.05826050181440235,
+          "high": 0.07826050181440235
+        },
+        "implied_rating": "AAA/AA",
+        "beta_adjusted": 0.5375661708086126,
+        "vol_annualized": 0.3469589098225893,
+        "adv_usd": 53309968.17744471,
+        "normalized_fcff": 698490063.3333334,
+        "_debt": 641000,
+        "_cash": 499392000,
+        "last_full_revalue": "2026-06-04",
+        "implied_growth": -0.29885086590285426,
+        "implied_growth_band": {
+          "at_high_wacc": -0.26885081834960645,
+          "at_low_wacc": -0.3343336702138445
+        },
+        "historical_revenue_cagr": 0.33320977921056016,
+        "sourcing_signal": {
+          "label": "expectations_low",
+          "implied_growth": -0.29885086590285426,
+          "historical_cagr": 0.33320977921056016,
+          "implied_minus_historical": -0.6320606451134144
+        },
+        "our_view": {
+          "research_growth": -0.3,
+          "fair_value": 74.89674460490615,
+          "fair_value_band": {
+            "low": 65.19089351899245,
+            "high": 84.60259569081983
+          },
+          "gap_vs_price": -0.005619425008403939,
+          "sign_survives_fcff_band": false
+        },
+        "thesis": {
+          "ticker": "CALM",
+          "created": "2026-06-04",
+          "direction": "hold",
+          "market_narrative": "The reverse DCF implies ~ -29.8% 5y FCFF growth. Far from a mispricing, this is the market correctly DECLINING to capitalize peak egg-cycle cash flow: it prices a steep normalization back toward mid-cycle egg economics.",
+          "implied_view_interpretation": "-29.8% is the market saying 'today's cash flow is a cyclical peak that reverts hard' \u2014 the right read of a commodity producer at the top of a price spike, not a sign the stock is cheap.",
+          "consensus_interrogation": "Why the market holds it (and is right): the FY2025 operating margin of 36% (and a +33% trailing revenue CAGR) sits at an avian-flu-driven peak that is already unwinding \u2014 Q3 FY2026 net income fell 90% YoY and sales 53% as conventional egg prices dropped ~70% (10-Q, 2026-04-01). Operating margin has swung 7.8% -> 30.6% -> 13.3% -> 36.1% across FY22-25 (yfinance; see chart): there is no stable earnings base to capitalize. The only thing the consensus could be 'missing' is upside if avian flu recurs \u2014 not investable on a forward basis.",
+          "perspective_spread": "Coverage agrees prices are normalizing and debates only the landing. Food Business News and Feedstuffs document the egg-price decline and the 90% earnings drop; a Seeking Alpha piece frames it as a 'brutal downcycle but well-prepared'; WATTAgNet covers the prepared-foods diversification (Echo Lake, Van's). Late-2025 trade coverage also notes federal pricing scrutiny. No credible source argues today's cash flow is sustainable \u2014 unanimity that this is a peak means no long-side edge.",
+          "implied_growth": -0.29885086590285426,
+          "variant_growth": -0.3,
+          "thesis_archetype": "none_efficiently_priced",
+          "variant_view": "No long-side edge. This is a commodity at peak margins, and the market's deeply negative implied growth correctly prices normalization. I will not turn a mechanical valuation gap into a BUY when the cash-flow math behind it is peak-cycle and unreliable.",
+          "mispriced_mechanism": "The apparent 'cheapness' in a naive DCF is an ARTIFACT: normalized FCFF (a 3-year average spanning the avian-flu spike) is inflated by record egg prices, so any growth applied to it overstates value. The market's -29.8% implied growth is precisely the correction for that. Egg-price mean reversion is the dominant variable, and the market is already pricing it.",
+          "rationale": "Operating margin swung 7.8% (FY22) -> 30.6% (FY23) -> 13.3% (FY24) -> 36.1% (FY25) on revenue $1.78B -> $3.15B -> $2.33B -> $4.26B \u2014 extreme commodity cyclicality (yfinance; see chart). Q3 FY2026 (10-Q, 2026-04-01): net income -90% to $50.5M ($1.06) from $508.5M ($10.38), sales -53% to ~$667M, conventional egg prices -70%; USDA depopulations -70.6% and the layer flock +2.2% YoY (Food Business News). The engine's trailing inputs (~$4.26B revenue, ~36% EBIT margin, +33% CAGR) are all peak, which is why a 5y-growth-to-perpetuity reverse DCF is the wrong lens and the name flags reliable=False. I set base-case growth at -30% (essentially the market's normalization), label none_efficiently_priced, and decline a BUY. Echo Lake (Jun 2025) and Van's Foods (May 2026; Globe Newswire) add a small non-egg floor, not a thesis.",
+          "deviation_explanation": "My -30% base is just below the market's -29.8% implied \u2014 I essentially AGREE and, if anything, lean slightly more cautious because reversion can overshoot into oversupply and the company faces federal pricing scrutiny. The near-zero deviation is deliberate: it neutralizes the misleading positive gap a naive DCF throws off peak-cycle cash flow.",
+          "bull_case": {
+            "narrative": "Avian flu recurs or persists, keeping egg supply tight and prices elevated longer than expected; diversification adds a non-commodity earnings layer.",
+            "growth": 0.05,
+            "what_drives_it": "renewed avian-flu supply shock, sticky elevated egg prices, prepared-foods mix"
+          },
+          "base_case": {
+            "narrative": "Egg prices normalize toward mid-cycle as the flock rebuilds; FCFF reverts hard from the peak; prepared-foods diversification provides only a small floor.",
+            "growth": -0.3,
+            "what_drives_it": "supply normalization, egg-price mean reversion off records"
+          },
+          "bear_case": {
+            "narrative": "The flock rebuild overshoots into oversupply, egg prices fall below mid-cycle, and federal pricing scrutiny pressures the model \u2014 a deeper-than-average trough.",
+            "growth": -0.45,
+            "what_drives_it": "oversupply, sub-mid-cycle egg prices, regulatory/pricing scrutiny"
+          },
+          "catalyst": "None on the long side. The dominant variable is the egg-price cycle, which the market is already pricing; normalization is the base case, not a re-rating catalyst.",
+          "catalyst_date": null,
+          "catalyst_path": "No long-side re-rating path. The cycle path: flock rebuild continues -> egg prices normalize toward mid-cycle -> CALM FCFF reverts from peak. Diversification (Echo Lake, Van's) slowly grows a non-egg layer but is too small over this horizon to offset the commodity swing. A long case would require a new supply shock, which is not investable on a forward basis.",
+          "what_must_happen": [
+            "Egg supply (layer flock) continues to normalize, pulling prices toward mid-cycle (base case)",
+            "Prepared-foods (Echo Lake + Van's) grows but remains small vs the egg-segment swing",
+            "No assumption that peak egg-cycle FCFF is sustainable \u2014 the naive DCF gap is treated as an artifact"
+          ],
+          "evidence": [
+            {
+              "claim": "Operating margin swung 7.8% -> 30.6% -> 13.3% -> 36.1% across FY22-25 \u2014 extreme commodity cyclicality with no stable earnings base to capitalize.",
+              "source_form": "research",
+              "source_url": "https://finance.yahoo.com/quote/CALM/financials",
+              "source_date": "2026-06-01",
+              "direction": "risk"
+            },
+            {
+              "claim": "Q3 FY2026 net income collapsed ~90% to $50.5M ($1.06) from $508.5M ($10.38) and sales fell 53% to ~$667M as conventional egg prices dropped ~70% \u2014 current cash flow is an avian-flu-driven peak.",
+              "source_form": "10-Q",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/16160/000156276226000046/calm-20260228.htm",
+              "source_date": "2026-04-01",
+              "direction": "risk"
+            },
+            {
+              "claim": "USDA depopulations down ~70.6% and the national layer flock up ~2.2% YoY \u2014 supply is normalizing, structurally pulling egg prices and margins down from records.",
+              "source_form": "research",
+              "source_url": "https://www.foodbusinessnews.net/articles/29600-cal-maine-foods-loses-momentum-as-egg-prices-weaken",
+              "source_date": null,
+              "direction": "risk"
+            },
+            {
+              "claim": "Diversification via Echo Lake (Jun 2025) and Van's Foods (May 2026) adds prepared-foods revenue but is small relative to the egg-segment swing \u2014 a modest non-commodity floor, not a thesis.",
+              "source_form": "8-K",
+              "source_url": "https://www.globenewswire.com/news-release/2026/05/12/3292652/0/en/cal-maine-foods-and-sara-lee-frozen-bakery-announce-cal-maine-foods-acquisition-of-van-s-foods-brand.html",
+              "source_date": "2026-05-12",
+              "direction": "supports_higher"
+            }
+          ],
+          "cross_source_corroboration": "Filings (10-Q) and trade press (Food Business News, Feedstuffs, WATTAgNet) corroborate the same fact: egg prices and earnings are normalizing hard from an avian-flu peak. No credible source argues peak cash flow is durable \u2014 the corroboration all points one way, against a long thesis.",
+          "disconfirming": "The case against my 'no edge / fairly priced for reversion' call is a bull one: if avian flu recurs (CEO Sherman Miller notes the epidemiological curve resembles prior years including 2022), egg prices could stay elevated and the stock would look cheap on near-term cash flow. But betting on a renewed animal-disease outbreak is not an investable forward thesis, and buying a commodity producer at peak margins is the classic value trap \u2014 so I decline the long.",
+          "falsification": "Sustained egg prices well above mid-cycle for multiple quarters (e.g. a renewed avian-flu shock) with CALM FCFF holding near peak would falsify the 'peak reverts' base case. Absent that, normalization confirms it.",
+          "conviction": 2,
+          "horizon_months": 24,
+          "edge_source": "none",
+          "evaluation_window": "2028-06-02",
+          "fair_value": 74.89674460490615,
+          "gap_vs_price": -0.005619425008403939,
+          "sign_survives_fcff_band": false,
+          "company_brief": "Cal-Maine Foods (CALM) is the largest U.S. producer and marketer of shell eggs (conventional and specialty/cage-free), selling to grocery retailers, club stores and foodservice. Egg prices are a volatile commodity, so revenue and margins swing hard with the cycle. It is diversifying into prepared/ready-to-eat foods via the Echo Lake Foods (acquired Jun 2025) and Van's Foods (May 2026) acquisitions; the balance sheet is nearly debt-free with ~$500M cash.",
+          "charts": [
+            {
+              "title": "Operating margin swung 8%->31%->13%->36%: a commodity at a cyclical peak",
+              "x": [
+                "FY22",
+                "FY23",
+                "FY24",
+                "FY25"
+              ],
+              "series": [
+                {
+                  "name": "Revenue ($M)",
+                  "data": [
+                    1777,
+                    3146,
+                    2326,
+                    4262
+                  ],
+                  "kind": "bar",
+                  "axis": "left"
+                },
+                {
+                  "name": "Operating margin (%)",
+                  "data": [
+                    7.8,
+                    30.6,
+                    13.3,
+                    36.1
+                  ],
+                  "kind": "line",
+                  "axis": "right"
+                }
+              ],
+              "source": "yfinance annual income statement, fiscal years ending May 2022-May 2025"
+            }
+          ]
+        },
+        "synthesis_source": "llm",
+        "synthesis_relationships": [
+          {
+            "entity": "USDA",
+            "type": "regulator",
+            "note": "publishes flock size, depopulations, HPAI status \u2014 the supply data that sets egg prices"
+          },
+          {
+            "entity": "HPAI / avian influenza",
+            "type": "input",
+            "note": "outbreaks cull layers and spike egg prices; the dominant cycle driver"
+          },
+          {
+            "entity": "corn & soybean feed",
+            "type": "input",
+            "note": "primary cost input"
+          },
+          {
+            "entity": "egg commodity price",
+            "type": "input",
+            "note": "revenue is largely price x volume of a volatile commodity"
+          },
+          {
+            "entity": "Echo Lake Foods / Van's Foods",
+            "type": "partner",
+            "note": "prepared-foods acquisitions diversifying off the egg cycle"
+          },
+          {
+            "entity": "grocery retailers & club stores",
+            "type": "customer",
+            "note": "primary sales channel"
+          }
+        ],
+        "synthesis_sector_update": {
+          "learning": "Egg prices are normalizing ~70% off the HPAI-driven peak; USDA depopulations down ~70% and the layer flock rebuilding \u2014 bearish for shell-egg producers' near-term margins (a peak that reverts, not a base to capitalize).",
+          "drivers": [
+            "egg price cycle",
+            "HPAI",
+            "layer flock size",
+            "feed cost"
+          ],
+          "entities": [
+            "USDA",
+            "HPAI / avian influenza",
+            "egg commodity price"
+          ],
+          "affected_tickers": [
+            "CALM"
+          ]
+        },
+        "synthesis_company_news": "Q3 FY2026 (10-Q 2026-04-01): net income -90% to $50.5M, sales -53% as conventional egg prices fell ~70%; Van's Foods acquisition (May 2026) extends prepared-foods diversification.",
+        "thesis_drift_alert": null,
+        "news_summary": {
+          "sources": [
+            "rss(15)",
+            "websearch(live synthesizer augments)"
+          ],
+          "n_stories": 12,
+          "material_events": [
+            {
+              "title": "Cal-Maine Foods Expands Prepared Foods Business with Van\u2019s Foods Acquisition",
+              "category": "m_and_a",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cal-maine-foods-expands-prepared-134112846.html?.tsrc=rss"
+            },
+            {
+              "title": "May 2026 Dividend Stocks To Consider",
+              "category": "capital",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/may-2026-dividend-stocks-consider-173201179.html?.tsrc=rss"
+            },
+            {
+              "title": "Is Cal-Maine Foods, Inc. (CALM) A Good Stock To Buy Now?",
+              "category": "m_and_a",
+              "confidence": "provisional",
+              "sources": [
+                "rss"
+              ],
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cal-maine-foods-inc-calm-182538838.html?.tsrc=rss"
+            }
+          ],
+          "has_confirmed_material_event": false,
+          "top": [
+            {
+              "title": "Cal-Maine Foods Expands Prepared Foods Business with Van\u2019s Foods Acquisition",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "m_and_a",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cal-maine-foods-expands-prepared-134112846.html?.tsrc=rss"
+            },
+            {
+              "title": "May 2026 Dividend Stocks To Consider",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "capital",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/may-2026-dividend-stocks-consider-173201179.html?.tsrc=rss"
+            },
+            {
+              "title": "Is Cal-Maine Foods, Inc. (CALM) A Good Stock To Buy Now?",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": true,
+              "event_category": "m_and_a",
+              "confidence": "provisional",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cal-maine-foods-inc-calm-182538838.html?.tsrc=rss"
+            },
+            {
+              "title": "What to Know About a New $18 Million Bet on Cal-Maine Foods",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://www.fool.com/coverage/filings/2026/05/30/what-to-know-about-a-new-usd18-million-bet-on-cal-maine-foods/?.tsrc=rss"
+            },
+            {
+              "title": "1 Consumer Stock with Solid Fundamentals and 2 We Question",
+              "sources": [
+                "rss"
+              ],
+              "stances": [
+                "neutral"
+              ],
+              "stance_conflict": false,
+              "is_consensus": false,
+              "is_material_event": false,
+              "event_category": null,
+              "confidence": "n/a",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/1-consumer-stock-solid-fundamentals-162227047.html?.tsrc=rss"
+            }
+          ]
+        },
+        "price_cross_check": {
+          "checked": true,
+          "alt_source": "stooq",
+          "alt_close": 75.56,
+          "pct_diff": 0.0031864087380270617,
+          "agree": true
+        },
+        "congressional_trades": null,
+        "reliable": false,
+        "reliability_flags": [
+          "beta_low_r2"
+        ],
+        "provenance": {
+          "source": "SEC EDGAR XBRL companyfacts",
+          "cfo_concept": "NetCashProvidedByUsedInOperatingActivities",
+          "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        "held": null,
+        "recommendation": {
+          "action": "PASS",
+          "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -1% not backed by a thesis)",
+          "sizing": null
+        },
+        "rank_score": 0.0019667987529413786
+      }
     }
   ],
   "theses": [],
@@ -1059,52 +1410,52 @@
     "ticker": "CALM",
     "name": "CAL-MAINE FOODS INC",
     "sector": "Agriculture",
-    "price": 74.52999877929688,
-    "market_cap": 3647498140.258789,
-    "wacc": 0.06831907747494655,
+    "price": 75.31999969482422,
+    "market_cap": 3686160785.0646973,
+    "wacc": 0.06826050181440235,
     "wacc_band": {
-      "low": 0.058319077474946544,
-      "high": 0.07831907747494654
+      "low": 0.05826050181440235,
+      "high": 0.07826050181440235
     },
     "implied_rating": "AAA/AA",
-    "beta_adjusted": 0.538813832518039,
-    "vol_annualized": 0.34725626100172863,
-    "adv_usd": 55056918.06797078,
+    "beta_adjusted": 0.5375661708086126,
+    "vol_annualized": 0.3469589098225893,
+    "adv_usd": 53309968.17744471,
     "normalized_fcff": 698490063.3333334,
     "_debt": 641000,
     "_cash": 499392000,
-    "last_full_revalue": "2026-06-02",
-    "implied_growth": -0.3008126404660113,
+    "last_full_revalue": "2026-06-04",
+    "implied_growth": -0.29885086590285426,
     "implied_growth_band": {
-      "at_high_wacc": -0.27096254936440667,
-      "at_low_wacc": -0.33611216299997937
+      "at_high_wacc": -0.26885081834960645,
+      "at_low_wacc": -0.3343336702138445
     },
     "historical_revenue_cagr": 0.33320977921056016,
     "sourcing_signal": {
       "label": "expectations_low",
-      "implied_growth": -0.3008126404660113,
+      "implied_growth": -0.29885086590285426,
       "historical_cagr": 0.33320977921056016,
-      "implied_minus_historical": -0.6340224196765715
+      "implied_minus_historical": -0.6320606451134144
     },
     "our_view": {
       "research_growth": -0.3,
-      "fair_value": 74.8274237574597,
+      "fair_value": 74.89674460490615,
       "fair_value_band": {
-        "low": 65.13197079866296,
-        "high": 84.52287671625642
+        "low": 65.19089351899245,
+        "high": 84.60259569081983
       },
-      "gap_vs_price": 0.0039906746683785336,
+      "gap_vs_price": -0.005619425008403939,
       "sign_survives_fcff_band": false
     },
     "thesis": {
       "ticker": "CALM",
-      "created": "2026-06-02",
+      "created": "2026-06-04",
       "direction": "hold",
       "market_narrative": "The reverse DCF implies ~ -29.8% 5y FCFF growth. Far from a mispricing, this is the market correctly DECLINING to capitalize peak egg-cycle cash flow: it prices a steep normalization back toward mid-cycle egg economics.",
       "implied_view_interpretation": "-29.8% is the market saying 'today's cash flow is a cyclical peak that reverts hard' \u2014 the right read of a commodity producer at the top of a price spike, not a sign the stock is cheap.",
       "consensus_interrogation": "Why the market holds it (and is right): the FY2025 operating margin of 36% (and a +33% trailing revenue CAGR) sits at an avian-flu-driven peak that is already unwinding \u2014 Q3 FY2026 net income fell 90% YoY and sales 53% as conventional egg prices dropped ~70% (10-Q, 2026-04-01). Operating margin has swung 7.8% -> 30.6% -> 13.3% -> 36.1% across FY22-25 (yfinance; see chart): there is no stable earnings base to capitalize. The only thing the consensus could be 'missing' is upside if avian flu recurs \u2014 not investable on a forward basis.",
       "perspective_spread": "Coverage agrees prices are normalizing and debates only the landing. Food Business News and Feedstuffs document the egg-price decline and the 90% earnings drop; a Seeking Alpha piece frames it as a 'brutal downcycle but well-prepared'; WATTAgNet covers the prepared-foods diversification (Echo Lake, Van's). Late-2025 trade coverage also notes federal pricing scrutiny. No credible source argues today's cash flow is sustainable \u2014 unanimity that this is a peak means no long-side edge.",
-      "implied_growth": -0.3008126404660113,
+      "implied_growth": -0.29885086590285426,
       "variant_growth": -0.3,
       "thesis_archetype": "none_efficiently_priced",
       "variant_view": "No long-side edge. This is a commodity at peak margins, and the market's deeply negative implied growth correctly prices normalization. I will not turn a mechanical valuation gap into a BUY when the cash-flow math behind it is peak-cycle and unreliable.",
@@ -1170,9 +1521,9 @@
       "conviction": 2,
       "horizon_months": 24,
       "edge_source": "none",
-      "evaluation_window": "2028-05-31",
-      "fair_value": 74.8274237574597,
-      "gap_vs_price": 0.0039906746683785336,
+      "evaluation_window": "2028-06-02",
+      "fair_value": 74.89674460490615,
+      "gap_vs_price": -0.005619425008403939,
       "sign_survives_fcff_band": false,
       "company_brief": "Cal-Maine Foods (CALM) is the largest U.S. producer and marketer of shell eggs (conventional and specialty/cage-free), selling to grocery retailers, club stores and foodservice. Egg prices are a volatile commodity, so revenue and margins swing hard with the cycle. It is diversifying into prepared/ready-to-eat foods via the Echo Lake Foods (acquired Jun 2025) and Van's Foods (May 2026) acquisitions; the balance sheet is nearly debt-free with ~$500M cash.",
       "charts": [
@@ -1381,10 +1732,11 @@
     "price_cross_check": {
       "checked": true,
       "alt_source": "stooq",
-      "alt_close": 74.53,
-      "pct_diff": 1.637868168697674e-08,
+      "alt_close": 75.56,
+      "pct_diff": 0.0031864087380270617,
       "agree": true
     },
+    "congressional_trades": null,
     "reliable": false,
     "reliability_flags": [
       "beta_low_r2"
@@ -1397,10 +1749,10 @@
     "held": null,
     "recommendation": {
       "action": "PASS",
-      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap +0% not backed by a thesis)",
+      "reason": "synthesis found no differentiated edge; market looks fairly priced (mechanical gap -1% not backed by a thesis)",
       "sizing": null
     },
-    "rank_score": 0.0013967361339324866
+    "rank_score": 0.0019667987529413786
   },
-  "latest_date": "2026-06-02"
+  "latest_date": "2026-06-04"
 }
