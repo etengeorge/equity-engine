@@ -11,6 +11,10 @@ synth/
 # Local universe cache (re-fetched)
 store/universe_resolved.txt
 
+# Congressional-trade cache (FD.zip XML, parsed PTR PDFs, seen/trades state) — all
+# re-derivable from the free House Clerk feed each run; never commit the bulky cache.
+store/congress/
+
 # Note: store/ (the journal + snapshots) IS tracked on purpose — it is the
 # point-in-time audit trail the retrospective scores against (ROUTINE.md step 6).
 
