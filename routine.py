@@ -342,6 +342,14 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
     os.makedirs(outdir, exist_ok=True)
     dash = outputs.build_dashboard(results, os.path.join(outdir, "dashboard.html"))
     mail = outputs.build_email(results, os.path.join(outdir, "email_brief.html"))
+    # publish a static copy for always-on hosting: Vercel serves public/index.html and
+    # auto-deploys whenever the audit commit is pushed, so the hosted dashboard tracks each run.
+    try:
+        import shutil
+        os.makedirs("public", exist_ok=True)
+        shutil.copyfile(dash, os.path.join("public", "index.html"))
+    except Exception as _pub_e:
+        print(f"[publish] could not write public/index.html ({type(_pub_e).__name__})")
     print("wrote", dash)
     print("wrote", mail)
 

@@ -78,7 +78,11 @@ def capture_provider(captured):
 def git_committer(store_dir, message):
     """Real git audit commit of store/ (+ push if an 'origin' remote exists). Best-effort:
     raises only on a genuine commit error so connectors.commit_store can log it."""
-    subprocess.run(["git", "add", store_dir], check=True, capture_output=True)
+    # stage the audit trail + the published static dashboard (public/) so a push triggers
+    # the Vercel deploy. Add each path only if present so a missing one never blocks the commit.
+    for _p in (store_dir, "public", "vercel.json"):
+        if os.path.exists(_p):
+            subprocess.run(["git", "add", _p], check=False, capture_output=True)
     r = subprocess.run(["git", "commit", "-m", message], capture_output=True, text=True)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
         raise RuntimeError((r.stderr or r.stdout)[:160])
