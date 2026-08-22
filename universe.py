@@ -93,6 +93,34 @@ def _from_ishares():
     return (tickers, "iShares IWM CSV") if tickers else (None, None)
 
 
+VTWO_URL = ("https://investor.vanguard.com/investment-products/etfs/profile/api/VTWO/"
+            "portfolio-holding/stock")
+
+
+def _from_vanguard():
+    """Vanguard Russell 2000 ETF (VTWO) holdings. Free, headless-friendly JSON (no consent
+    wall), paged 500 at a time. Faithful R2000 constituent list; Vanguard refreshes monthly."""
+    tickers, start, asof = [], 1, None
+    while True:
+        url = f"{VTWO_URL}?start={start}&count=500"
+        req = urllib.request.Request(url, headers={"User-Agent": _UA, "Accept": "application/json",
+                                                   "Referer": "https://investor.vanguard.com/"})
+        d = json.loads(urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "ignore"))
+        ents = (d.get("fund") or {}).get("entity") or []
+        for e in ents:
+            t = (e.get("ticker") or "").strip().upper()
+            if t and t not in ("-", "N/A"):
+                tickers.append(t.replace(".", "-"))   # MOG.A -> MOG-A (EDGAR / yfinance style)
+            asof = asof or e.get("asOfDate")
+        if len(ents) < 500:
+            break
+        start += 500
+    tickers = sorted(set(tickers))
+    if len(tickers) < 1500:      # a faithful R2000 pull is ~1,900-2,000; anything less is a partial page
+        return None, None
+    return tickers, f"Vanguard VTWO holdings ({len(tickers)} tickers, as of {str(asof)[:10]})"
+
+
 def _from_sec():
     import data_sources as ds
     tickers = sorted(ds._ticker_map().keys())
@@ -106,9 +134,13 @@ def _cache_fresh(path):
         return False
 
 
-_ORDER = {"auto": ["file", "ishares", "sec"], "file": ["file"],
-          "ishares": ["ishares"], "sec": ["sec"]}
-_FETCHERS = {"file": _from_local_file, "ishares": _from_ishares, "sec": _from_sec}
+# v2: the SEC all-filers superset (~10k names) is NOT the Russell 2000 and silently ran the
+# old routine for weeks. It is now opt-in only (ALLOW_SEC_SUPERSET=1); "auto" stops at Vanguard.
+_ALLOW_SUPERSET = os.environ.get("ALLOW_SEC_SUPERSET", "0") == "1"
+_ORDER = {"auto": ["file", "ishares", "vanguard"] + (["sec"] if _ALLOW_SUPERSET else []),
+          "file": ["file"], "ishares": ["ishares"], "vanguard": ["vanguard"], "sec": ["sec"]}
+_FETCHERS = {"file": _from_local_file, "ishares": _from_ishares, "vanguard": _from_vanguard,
+             "sec": _from_sec}
 
 
 def load_iwm_universe(limit=None, refresh=False, source="auto", cache_path=RESOLVED_CACHE,
@@ -136,9 +168,10 @@ def load_iwm_universe(limit=None, refresh=False, source="auto", cache_path=RESOL
         if tickers:
             break
     if not tickers:
-        raise RuntimeError("no universe source available: no local holdings file found, "
-                           "iShares returned non-CSV (consent wall), and the SEC fallback "
-                           "failed. Drop IWM_holdings.csv in the project and retry.")
+        raise RuntimeError("no faithful Russell 2000 source: no local IWM_holdings.csv, iShares "
+                           "returned its consent wall, and the Vanguard VTWO API failed. Refusing "
+                           "to fall back to the SEC all-filers superset (set ALLOW_SEC_SUPERSET=1 "
+                           "to override). Drop IWM_holdings.csv in the project and retry.")
     if verbose:
         print(f"[universe] source: {used} -> {len(tickers)} tickers")
     LAST_SOURCE = used

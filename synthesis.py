@@ -79,56 +79,127 @@ class SynthesisResult:
     relationships: list = dc.field(default_factory=list)  # second-order edges (customer/supplier/competitor/regulator/input)
     sector_update: dict = dc.field(default_factory=dict)  # a sector-WIDE learning to record in the dossier
     company_news: str = ""              # one company-specific update to log
+    consensus_vs_street: dict = dc.field(default_factory=dict)  # your base vs Street consensus (CIQ or web)
+    red_team: dict = dc.field(default_factory=dict)  # devil's advocate verdict (separate pass; binding)
+    conviction_pre_red_team: Optional[int] = None
     source: str = "stub"                # "stub" | "llm"
 
 
 # ---------------------------------------------------------------- context build
+# Per-section character budgets. The whole context must stay well under the prompt cap so the
+# memory layer (dossier, history, lessons) is NEVER truncated away again. Order = priority.
+CONTEXT_BUDGET = {
+    "filings_total": 14000,          # targeted sections across <=4 filings (8-K first)
+    "per_filing": 6000,
+    "news": 7000,
+    "this_sector_dossier": 6000,
+    "company_history": 5000,
+    "all_sectors": 6000,             # drivers + last few events per sector, not the full dossiers
+    "lessons": 3000,
+    "hard_cap": 60000,               # absolute ceiling on the serialized context
+}
+
+
+def _clip(txt, n):
+    if not isinstance(txt, str) or len(txt) <= n:
+        return txt
+    return txt[:n - 24] + " ...[truncated by budget]"
+
+
+def _compact_all_sectors(text, budget):
+    """Keep each sector's drivers + the newest dated events instead of whole dossiers."""
+    if not text:
+        return text
+    chunks = re.split(r"\n(?=### )", text)
+    per = max(600, budget // max(1, len(chunks)))
+    out = []
+    for c in chunks:
+        lines = c.splitlines()
+        head = lines[:1]
+        body = [l for l in lines[1:] if l.strip()]
+        # dated event lines look like "- 2026-06-02 ..." ; keep newest 5 + any 'Drivers' lines
+        dated = [l for l in body if re.match(r"\s*[-*]\s*\d{4}-\d{2}-\d{2}", l)]
+        drivers = [l for l in body if re.search(r"driver", l, re.I)][:6]
+        keep = head + drivers + sorted(dated)[-5:]
+        out.append(_clip("\n".join(keep), per))
+    return "\n\n".join(out)
+
+
 def build_context(ticker, cik, fund, implied_growth, hist_cagr,
-                  vertical_notes_text, company_history_text, max_filing_chars=8000,
+                  vertical_notes_text, company_history_text, max_filing_chars=None,
                   news_bundle=None, price_xcheck=None, this_sector_dossier=None,
-                  congressional_trades=None):
+                  congressional_trades=None, street_consensus=None):
+    B = CONTEXT_BUDGET
     subs = ds.get_submissions(cik)
     meta = ds.company_meta(cik, subs)
     filings = ds.recent_filings(cik, subs=subs, limit_per_form=4)
 
-    filing_excerpts = []
-    for f in filings:
-        if f["form"] in ("8-K", "10-K", "10-Q"):
-            txt = ds.filing_text(f["url"], max_chars=max_filing_chars)
-            if txt:
-                filing_excerpts.append({"form": f["form"], "date": f["date"],
-                                        "url": f["url"], "text": txt})
+    # newest 8-Ks first (they carry the event), then the latest 10-Q and 10-K; <=4 filings total
+    ordered = ([f for f in filings if f["form"] == "8-K"][:2]
+               + [f for f in filings if f["form"] == "10-Q"][:1]
+               + [f for f in filings if f["form"] == "10-K"][:1])
+    filing_excerpts, used = [], 0
+    for f in ordered:
+        if used >= B["filings_total"]:
+            break
+        secs = ds.filing_sections(f["url"], f["form"],
+                                  total_chars=min(B["per_filing"], B["filings_total"] - used))
+        if secs:
+            n = sum(len(v) for v in secs.values())
+            used += n
+            filing_excerpts.append({"form": f["form"], "date": f["date"], "url": f["url"],
+                                    "sections": secs})
+
+    # news: material events + top corroborated stories only
+    news_slim = None
+    if isinstance(news_bundle, dict) and not news_bundle.get("error"):
+        stories = news_bundle.get("all_stories") or []
+        stories = sorted(stories, key=lambda x: (not x.get("corroborated"), str(x.get("date") or "")),
+                         )[:12]
+        news_slim = {"sources_queried": news_bundle.get("sources_queried"),
+                     "n_stories": news_bundle.get("n_stories"),
+                     "material_events": news_bundle.get("material_events", []),
+                     "has_confirmed_material_event": news_bundle.get("has_confirmed_material_event"),
+                     "top_stories": [{k: st.get(k) for k in ("title", "date", "sources", "url",
+                                                              "sentiment", "corroborated")}
+                                     for st in stories]}
+        if len(json.dumps(news_slim, default=str)) > B["news"]:
+            news_slim["top_stories"] = news_slim["top_stories"][:6]
+    elif isinstance(news_bundle, dict):
+        news_slim = {"error": news_bundle.get("error")}
 
     ebit_margin = (fund["ebit"] / fund["revenue"]) if (fund.get("ebit") and
                                                        fund.get("revenue")) else None
     rev_series = fund.get("revenue_series", [])
-    return {
+    ctx = {
         "ticker": ticker, "name": meta["name"], "sector": meta["sector"],
         "sic_desc": meta.get("sic_desc"),
         "implied_growth": implied_growth, "historical_cagr": hist_cagr,
         "ebit_margin": ebit_margin, "revenue": fund.get("revenue"),
         "revenue_series_newest_first": rev_series,
         "total_debt": fund.get("total_debt"), "cash": fund.get("cash"),
-        "filing_excerpts": filing_excerpts,
-        "news_cross_referenced": news_bundle,
-        "material_events": (news_bundle.get("material_events") if isinstance(news_bundle, dict)
-                            else None),
+        # what the STREET expects (S&P Capital IQ via connector, or a web-sourced fallback
+        # the routine writes). None when absent: the synthesizer must then find it by search.
+        "street_consensus": street_consensus or None,
+        "retrospective_lessons": None,     # filled by engine.run
+        "company_history": _clip(company_history_text, B["company_history"]),
+        "this_sector_dossier": _clip(this_sector_dossier, B["this_sector_dossier"]),
+        "material_events": (news_slim or {}).get("material_events") if news_slim else None,
+        "news_cross_referenced": news_slim,
         "price_cross_check": price_xcheck,
-        "this_sector_dossier": this_sector_dossier,
-        # congressional disclosures that PROMOTED this name (a LOOK trigger — investigate
-        # the plausible WHY; never proof to copy the trade). Empty when none.
         "congressional_trades": congressional_trades or None,
-        "vertical_notes_ALL_SECTORS": vertical_notes_text,
-        "company_history": company_history_text,
-        # explicit prompts for the live synthesizer to go gather itself:
+        "filing_excerpts": filing_excerpts,
+        "vertical_notes_ALL_SECTORS": _compact_all_sectors(vertical_notes_text, B["all_sectors"]),
         "sources_to_augment_via_search": [
-            "recent earnings call transcript tone & guidance vs prior",
-            f"sector/regulatory developments for {meta['sector']} (e.g. FDA/CMS/EIA/USPTO as relevant)",
-            "investor sentiment / message-board narrative (treat as contra-signal, verify)",
-            "public consulting/academic research on this industry's trajectory",
+            "Street consensus if street_consensus is null: revenue/EBITDA/EPS estimates, estimate "
+            "range, recent revisions, target-price range, short interest (cite the page)",
+            "latest earnings call tone & guidance vs prior",
+            f"sector/regulatory developments for {meta['sector']}",
+            "investor sentiment / message-board narrative (contra-signal; verify)",
             "competitor and customer/supplier news (second-order linkages)",
         ],
     }
+    return ctx
 
 
 # ---------------------------------------------------------------- the live seam
@@ -152,7 +223,12 @@ to gather what's missing: the latest earnings call tone and guidance, sector/reg
 developments, investor sentiment (as a contra-signal), public research, and \
 competitor/customer/supplier news. Weight CORROBORATED news higher than single-source \
 items; treat a single uncorroborated story as a lead to verify, not a fact. Synthesis \
-ACROSS these sources is where edge lives.
+ACROSS these sources is where edge lives. street_consensus, when present, is what the STREET \
+expects (S&P Capital IQ when the connector is live, otherwise a web-sourced snapshot the routine \
+wrote): consensus revenue/EBITDA/EPS, estimate range, revisions, target dispersion, short interest. \
+EDGAR is the truth for what was REPORTED; street_consensus is the truth for what is EXPECTED. Your \
+edge is the delta between the price-implied growth, the Street's path, and your own, plus the \
+mechanism behind the delta. If street_consensus is null, FIND IT by search before STEP 1 and cite it.
 
 Work through this reasoning, then output JSON only.
 
@@ -270,7 +346,8 @@ OUTPUT — JSON only, no prose around it:
   "charts": [{{"title": "<what the chart shows>", "x": ["<label>", "..."], "series": [{{"name": "<e.g. Operating margin (%)>", "data": [<numbers>], "kind": "bar | line", "axis": "left | right"}}], "source": "<where the data came from>"}}],
   "relationships": [{{"entity": "<customer/supplier/competitor/regulator/input/partner name>", "type": "<customer|supplier|competitor|regulator|input|partner>", "note": "<why it matters to this name>", "tickers": ["<universe peer also touched>", "..."], "sector": "<the INDUSTRY this entity belongs to if DIFFERENT from this company's (e.g. Healthcare for an FDA/CMS rule on a tech name); else omit>"}}],
   "sector_update": {{"learning": "<a sector-WIDE development worth recording for the OTHER names in this sector, else empty>", "drivers": ["<driver it touches>"], "entities": ["<entity>"], "affected_tickers": ["<ticker>"], "sectors": ["<OTHER industries this learning also applies to, e.g. Healthcare; else omit>"]}},
-  "company_news": "<one short company-specific update to log, else empty>"
+  "company_news": "<one short company-specific update to log, else empty>",
+  "consensus_vs_street": {{"source": "<capital_iq | web:<site> | none>", "street_rev_growth_fy2": <float or null>, "street_eps_fy2": <float or null>, "estimate_range_low_high": [<float or null>, <float or null>], "revision_trend_90d": "<up | flat | down | null>", "short_interest_pct_float": <float or null>, "your_base_vs_street": "<above | inline | below>", "as_of": "<YYYY-MM-DD or null>"}}
 }}
 
 Do NOT invent facts not present in the filings or your search results. If sources are thin, \
@@ -309,11 +386,70 @@ CONTEXT:
 """
 
 
+def _fit_context(context, cap=None):
+    """Serialize the context under the hard cap by trimming the LOWEST-priority sections first,
+    never by slicing the JSON string (the old code cut mid-string and dropped the memory layer).
+    Iterates until under cap; each pass halves the largest offender in priority order."""
+    cap = cap or CONTEXT_BUDGET["hard_cap"]
+    ctx = dict(context)
+    ctx["retrospective_lessons"] = _clip(ctx.get("retrospective_lessons"), CONTEXT_BUDGET["lessons"])
+    # priority: what we trim FIRST. The memory layer (history, dossier, lessons) goes last.
+    order = ["vertical_notes_ALL_SECTORS", "filing_excerpts", "news_cross_referenced",
+             "company_history", "this_sector_dossier"]
+    floors = {"vertical_notes_ALL_SECTORS": 800, "company_history": 1200,
+              "this_sector_dossier": 1200}
+
+    def _size(v):
+        return len(json.dumps(v, default=str))
+
+    def _shrink(key, v):
+        if isinstance(v, str):
+            return _clip(v, max(floors.get(key, 400), len(v) // 2))
+        if isinstance(v, list) and v:
+            if key == "filing_excerpts":
+                # drop the LAST filing while >1; when one remains, halve its sections
+                if len(v) > 1:
+                    return v[:-1]
+                f = dict(v[0]); f["sections"] = {k: _clip(t, max(600, len(t) // 2))
+                                                 for k, t in (f.get("sections") or {}).items()}
+                return [f]
+            return v[:max(1, len(v) // 2)]
+        if isinstance(v, dict):
+            return {k: (v[k][:max(2, len(v[k]) // 2)] if isinstance(v[k], list) else v[k]) for k in v}
+        return v
+
+    js = json.dumps(ctx, default=str)
+    for _ in range(40):
+        if len(js) <= cap:
+            break
+        # pick the first key in priority order that is still above its floor
+        trimmed = False
+        for key in order:
+            v = ctx.get(key)
+            if v in (None, "", [], {}):
+                continue
+            if isinstance(v, str) and len(v) <= floors.get(key, 400):
+                continue
+            nv = _shrink(key, v)
+            if _size(nv) < _size(v):
+                ctx[key] = nv
+                trimmed = True
+                break
+        if not trimmed:
+            break
+        js = json.dumps(ctx, default=str)
+    if len(js) > cap:   # last resort: drop the all-sector notes entirely, still valid JSON
+        ctx["vertical_notes_ALL_SECTORS"] = "(omitted: context over budget)"
+        js = json.dumps(ctx, default=str)
+    ctx["_context_chars"] = len(js)
+    return json.dumps(ctx, default=str)
+
+
 def render_prompt(context):
     return PROMPT_TEMPLATE.format(
         implied_growth=(f"{context.get('implied_growth'):.1%}"
                         if context.get("implied_growth") is not None else "n/a"),
-        context_json=json.dumps(context, default=str)[:90000],
+        context_json=_fit_context(context),
     )
 
 
@@ -395,6 +531,8 @@ def from_llm_json(raw):
         relationships=d.get("relationships", []) if isinstance(d.get("relationships"), list) else [],
         sector_update=d.get("sector_update", {}) if isinstance(d.get("sector_update"), dict) else {},
         company_news=d.get("company_news", "") if isinstance(d.get("company_news"), str) else "",
+        consensus_vs_street=(d.get("consensus_vs_street", {})
+                             if isinstance(d.get("consensus_vs_street"), dict) else {}),
         source="llm",
     )
 
@@ -438,7 +576,9 @@ def stub_synthesize(context):
 
     evidence = []
     for e in excerpts[:3]:
-        evidence.append({"claim": f"{e['form']} {e['date']}: {e['text'][:140]}...",
+        # v2 excerpts carry {"sections": {label: text}}; v1 carried {"text": ...}. Tolerate both.
+        _txt = e.get("text") or " ".join(str(v) for v in (e.get("sections") or {}).values())
+        evidence.append({"claim": f"{e['form']} {e['date']}: {_txt[:140]}...",
                          "source_form": e["form"], "source_url": e["url"],
                          "source_date": e["date"],
                          "direction": "risk" if e["form"] == "8-K" else "supports_lower"})
@@ -508,3 +648,126 @@ def synthesize(context, llm_json=None):
 
 def _p(x):
     return "n/a" if x is None else f"{x*100:.1f}%"
+
+
+# ================================================================ RED TEAM (v2)
+# A SEPARATE pass by a second analyst who sees the thesis and the raw context and is told to
+# kill it. Runs only on names that cleared the action bar (BUY/ADD/SELL/SHORT candidates + every
+# held name). Its verdict is BINDING on conviction; the DCF gap is still the truth-teller.
+RED_TEAM_TEMPLATE = """You are the DEVIL'S ADVOCATE on a buy-side research desk. A colleague just \
+wrote the thesis below on a small-cap. Your job is to try to KILL it, as the best-informed person on \
+the OTHER side of the trade would. You are not asked to be balanced; the first analyst already did \
+the balanced work. You are asked to find the hole. If you cannot find one after a real search, \
+say SURVIVES and mean it.
+
+Use web_search. Check the specific numbers. Read the filing sections in the context yourself rather \
+than trusting the thesis's paraphrase of them.
+
+Work through ALL of these, then output JSON only:
+
+1. COUNTER-THESIS. The single strongest competing explanation for the same facts. Who is on the other \
+   side of this trade, and what do they know? Name the kind of investor (short seller, insider \
+   seller, the sell-side house that downgraded, the PE buyer who walked) and their argument.
+2. BASE RATE. Per retrospective_lessons and your own knowledge: how often does thesis_archetype \
+   "{archetype}" pay in names of this size, sector, and liquidity? If the historical hit-rate is \
+   poor, say so and why this one is or is not different.
+3. DATA INTEGRITY. The gap is {gap}. Could it be an artifact? Check the specific XBRL line items \
+   behind normalized FCFF (one-time items, working-capital swings, fiscal-year mismatch, a \
+   restatement, a price error). Name the line item you checked and what you found.
+4. STREET CHECK. Compare the thesis's base growth ({base_growth}) to street_consensus (or what you \
+   find by search). If the thesis is outside the full analyst range, it needs a mechanism the Street \
+   cannot see. Is one stated? Is it credible?
+5. MECHANISM STRESS. Take the stated mispriced_mechanism and ask: (a) is it already visible in the \
+   last two quarters' numbers or is it a forecast, (b) what is the single assumption it cannot \
+   survive without, (c) has that assumption been tested by anything in the filings or news?
+6. KILL CRITERIA. Read what_must_happen and falsification. Is any condition ALREADY failing today? \
+   Is any so vague it could never be judged? Rewrite the two most important ones as dated, numeric, \
+   checkable tests.
+7. TIMING. Is the catalyst_path realistic on the stated horizon_months? What has to go right, in \
+   order, and which step is the weakest?
+8. VERDICT.
+   - DEAD: a kill criterion is already failing, the gap is a data artifact, or the mechanism has no \
+     support beyond the thesis's own narrative. -> conviction_after = 1, recommend archetype \
+     none_efficiently_priced.
+   - WOUNDED: the thesis may be right but the stated conviction is not earned. -> cut conviction by \
+     at least 1 and say what would restore it.
+   - SURVIVES: you searched for the hole and did not find one. Conviction may stand or rise by 1 at most.
+
+OUTPUT (JSON only):
+{{
+  "counter_thesis": "<the informed other side, named by investor type, with their argument>",
+  "base_rate": "<hit-rate of this archetype in this kind of name, and why this is or is not different>",
+  "data_integrity": "<the specific line item(s) checked and the finding>",
+  "street_check": "<thesis base vs Street range; whether a credible unseen mechanism is stated>",
+  "mechanism_stress": {{"already_visible": <true|false>, "load_bearing_assumption": "<the one thing it cannot survive without>", "tested_by": "<filing/news that tests it, or 'untested'>"}},
+  "kill_criteria_rewritten": ["<dated numeric test 1>", "<dated numeric test 2>"],
+  "already_failing": ["<condition already failing today, else empty>"],
+  "timing": "<weakest step in the catalyst path and why>",
+  "verdict": "<SURVIVES | WOUNDED | DEAD>",
+  "conviction_after": <int 1-5>,
+  "recommended_archetype": "<unchanged | none_efficiently_priced>",
+  "what_would_change_my_mind": "<the single observation that would make you drop the objection>"
+}}
+
+THESIS UNDER REVIEW:
+{thesis_json}
+
+CONTEXT (same facts the first analyst had):
+{context_json}
+"""
+
+
+def render_red_team_prompt(context, thesis_dict):
+    """Prompt for the separate devil's-advocate pass. thesis_dict is Thesis.to_dict() (or the
+    SynthesisResult as dict) so the red team sees exactly what will be stored."""
+    t = dict(thesis_dict)
+    gap = t.get("gap_vs_price")
+    return RED_TEAM_TEMPLATE.format(
+        archetype=t.get("thesis_archetype", "?"),
+        gap=(f"{gap:+.1%}" if isinstance(gap, (int, float)) else "n/a"),
+        base_growth=(f"{t.get('variant_growth'):.1%}" if isinstance(t.get("variant_growth"), (int, float))
+                     else (f"{t.get('adjusted_growth'):.1%}" if isinstance(t.get("adjusted_growth"), (int, float)) else "n/a")),
+        thesis_json=json.dumps(t, default=str)[:30000],
+        context_json=_fit_context(context, cap=35000),
+    )
+
+
+RED_TEAM_VERDICTS = ("SURVIVES", "WOUNDED", "DEAD")
+
+
+def parse_red_team(raw):
+    d = _extract_json(raw)
+    v = str(d.get("verdict", "")).upper().strip()
+    if v not in RED_TEAM_VERDICTS:
+        raise ValueError(f"red team verdict missing/invalid: {v!r}")
+    d["verdict"] = v
+    d["conviction_after"] = _clamp_int(d.get("conviction_after", 2), 2, 1, 5)
+    return d
+
+
+def apply_red_team(synth, red):
+    """Fold the red-team verdict into a SynthesisResult. BINDING rules:
+    DEAD -> none_efficiently_priced, conviction 1. WOUNDED -> conviction = min(pre-1, conviction_after).
+    SURVIVES -> conviction may rise by at most 1. Never touches adjusted_growth (the DCF input stays
+    the first analyst's number; the red team governs conviction and archetype, not the math)."""
+    if not red:
+        return synth
+    pre = synth.conviction
+    synth.conviction_pre_red_team = pre
+    v = red.get("verdict")
+    after = int(red.get("conviction_after", pre))
+    if v == "DEAD":
+        synth.thesis_archetype = "none_efficiently_priced"
+        synth.conviction = 1
+        synth.edge_source = "none"
+    elif v == "WOUNDED":
+        synth.conviction = max(1, min(pre - 1, after))
+    elif v == "SURVIVES":
+        synth.conviction = max(1, min(pre + 1, after, 5))
+    if red.get("recommended_archetype") == "none_efficiently_priced" and v != "SURVIVES":
+        synth.thesis_archetype = "none_efficiently_priced"
+    kc = red.get("kill_criteria_rewritten")
+    if isinstance(kc, list) and kc:
+        synth.what_must_happen = list(kc) + [w for w in (synth.what_must_happen or []) if w not in kc]
+    synth.red_team = red
+    return synth

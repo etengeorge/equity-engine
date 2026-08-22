@@ -160,6 +160,12 @@ def scan_name(ticker, stored_record=None, held=False, check_events=True,
         triggers.append(f"gap_crossed_buy({revalue['new_gap']:+.0%})")
     if held and revalue and revalue.get("crossed_sell"):
         triggers.append(f"gap_crossed_sell({revalue['new_gap']:+.0%})")
+    # v2 short side: an UNHELD, liquid name whose re-priced gap crossed the short bar is a
+    # reason to LOOK (deep-synthesize), never an automatic short.
+    if (not held and revalue and revalue.get("new_gap") is not None
+            and revalue["new_gap"] <= config.SCAN_GAP_SHORT
+            and (snap.get("adv_usd") or 0) >= config.MIN_ADV_SHORT_USD):
+        triggers.append(f"gap_crossed_short({revalue['new_gap']:+.0%})")
 
     # cadence: last_full_revalue lives on the SNAPSHOT (not the thesis); fall back to the
     # thesis 'created' date if absent (also tolerates a test fixture's thesis-level field).

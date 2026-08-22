@@ -65,6 +65,8 @@ MIN_BETA_R2 = 0.05             # regression too weak -> beta unreliable.
 # ---- recommendation thresholds ----------------------------------------------
 BUY_GAP = 0.25                 # fair value must exceed price by this to flag BUY.
 SELL_GAP = -0.20               # fair value this far below price -> SELL/TRIM a holding.
+SHORT_GAP = -0.30              # v2: unheld name this far OVER fair value -> SHORT CANDIDATE (stricter than BUY)
+MIN_ADV_SHORT_USD = 5_000_000  # v2: shorts need real liquidity to borrow and cover.
 # Ranking is by reliability-weighted gap, never raw gap (multiple-comparison guard).
 
 # ---- portfolio construction & risk limits ----------------------------------
@@ -92,6 +94,7 @@ SCAN_NEWS_TRIGGER = True           # a fresh news cluster -> trigger a look
 SCAN_SENTIMENT_TRIGGER = True      # a sentiment spike -> trigger a look (look, never act)
 SCAN_GAP_BUY = 0.25                # cheap re-priced gap crossing this -> promote (now a buy?)
 SCAN_GAP_SELL = -0.20              # held name whose re-priced gap crosses this -> promote
+SCAN_GAP_SHORT = -0.30             # v2: any liquid name whose re-priced gap crosses this -> promote (short side)
 
 # Dynamic DCF cadence: the full re-do (new assumptions -> new target price).
 FULL_REVALUE_INTERVAL_DAYS = 3     # twice a week even with no news
@@ -105,6 +108,7 @@ MAX_DEEP_PER_RUN = 30
 # deep names + held + the best stored recommendations accumulated over the rotation cycle —
 # not all ~2,000 rows. Raise for a longer board.
 MAX_BOARD_ROWS = 60
+BOARD_MAX_ABS_GAP = 1.50   # v2: stale board rows with |gap| beyond this are data errors, not ideas
 # ---- end scanner / revaluation ----------------------------------------------
 
 # ---- congressional-trade sourcing (STOCK Act disclosures) -------------------

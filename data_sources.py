@@ -362,6 +362,64 @@ def filing_text(url, max_chars=20000):
         return ""
 
 
+# v2: TARGETED filing extraction. The old prompt shipped the first 8,000 chars of every filing,
+# which is cover page + table of contents + boilerplate, and used ~86k of the 90k-char prompt
+# budget on it. The analyst never saw MD&A, guidance, or the sector memory. This pulls the
+# sections that actually move a thesis, each on its own char budget.
+_SECTION_ANCHORS = {
+    # (regex, label, char budget). Order = priority within the filing.
+    "8-K": [(r"Item\s+2\.02", "Item 2.02 Results", 2500), (r"Item\s+1\.01", "Item 1.01 Material agreement", 2000),
+            (r"Item\s+5\.02", "Item 5.02 Officers/directors", 1200), (r"Item\s+8\.01", "Item 8.01 Other events", 1500),
+            (r"Item\s+7\.01", "Item 7.01 Reg FD", 1200), (r"Item\s+2\.01", "Item 2.01 Acquisition/disposition", 1500),
+            (r"Item\s+1\.02", "Item 1.02 Termination of agreement", 1200), (r"Item\s+4\.02", "Item 4.02 Non-reliance", 1500)],
+    "10-Q": [(r"Results of Operations", "MD&A: Results of operations", 3500),
+             (r"Liquidity and Capital Resources", "MD&A: Liquidity", 2000),
+             (r"(Outlook|Guidance)", "Outlook/Guidance", 1500)],
+    "10-K": [(r"Management'?s Discussion and Analysis", "MD&A", 3500),
+             (r"Liquidity and Capital Resources", "MD&A: Liquidity", 2000),
+             (r"Risk Factors", "Item 1A Risk Factors", 2500),
+             (r"(Customers|Concentration of)", "Customers / concentration", 1000)],
+}
+
+
+def _numeric_density(chunk):
+    return sum(chunk.count(ch) for ch in "0123456789$%")
+
+
+def filing_sections(url, form, total_chars=6000):
+    """Return {section_label: text} for the thesis-relevant sections of a filing, bounded by
+    total_chars. For each anchor, pick the occurrence whose following window has the HIGHEST
+    numeric density (the real MD&A table, not the table-of-contents entry or a risk-factor
+    back-reference). Falls back to a short head excerpt when no anchor is found."""
+    if not url:
+        return {}
+    try:
+        from bs4 import BeautifulSoup
+        html = _sec_get(url).decode("utf-8", "ignore")
+        txt = re.sub(r"\s+", " ", BeautifulSoup(html, "html.parser").get_text(" ", strip=True))
+    except Exception:
+        return {}
+    out, used = {}, 0
+    for pat, label, budget in _SECTION_ANCHORS.get(form, []):
+        if used >= total_chars:
+            break
+        hits = [m.start() for m in re.finditer(pat, txt, flags=re.I)]
+        # drop table-of-contents hits: "<anchor> 31 ITEM 3." (a page number then the next item)
+        _toc = re.compile(r"^[^.]{0,80}?\s\d{1,3}\s+(ITEM|Item|PART|Part)\b")
+        real = [h for h in hits if not _toc.match(txt[h + len(re.match(pat, txt[h:], flags=re.I).group(0)):h + 120])]
+        hits = real or hits
+        if not hits:
+            continue
+        take = min(budget, total_chars - used)
+        best = max(hits, key=lambda h: _numeric_density(txt[h:h + take]))
+        chunk = txt[best:best + take]
+        out[label] = chunk
+        used += len(chunk)
+    if not out:
+        out["head"] = txt[:min(1500, total_chars)]
+    return out
+
+
 import re  # used by filing_text / recent_filings
 
 

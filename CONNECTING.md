@@ -115,3 +115,41 @@ git_commit_and_push("store/")                                  # point-in-time a
 
 Schedule that routine daily (weekdays). Done — free, autonomous research; you keep
 the decision and the click.
+
+
+---
+
+## 5. Street consensus (Capital IQ when available, web fallback otherwise) — v2
+
+The reverse DCF says what the PRICE implies. Consensus says what the STREET expects. The delta
+between the two, and the mechanism behind it, is where v2 looks for edge. Python never calls
+Capital IQ; the routine writes `synth/consensus/<TICKER>.json` for PROMOTED names only and
+`connectors.read_street_consensus` loads it into the synthesis context as `street_consensus`.
+The red team's STREET CHECK reconciles the thesis against it.
+
+```json
+{
+  "as_of": "2026-08-22",
+  "source": "capital_iq",
+  "covered": true,
+  "fy1": {"revenue": 812.4, "ebitda": 96.1, "eps": 1.42, "n_estimates": 7},
+  "fy2": {"revenue": 888.0, "ebitda": 112.5, "eps": 1.71, "n_estimates": 6},
+  "revenue_range_fy2": [850.0, 930.0],
+  "revision_trend_90d": "down",
+  "target_price": {"mean": 41.0, "low": 30.0, "high": 52.0, "n": 6},
+  "short_interest_pct_float": 8.4,
+  "top_holders": [{"name": "Fund A", "pct": 9.1, "qoq_change_pct": -1.2}],
+  "last_call_date": "2026-08-06",
+  "notes": "FY ends Sep; estimates are calendarized"
+}
+```
+`source` is `capital_iq` or `web:<site>` (e.g. `web:finance.yahoo.com`). All fields except `as_of`
+are optional; null beats a guess. EDGAR wins on REPORTED numbers; this file wins on EXPECTED ones.
+Reconcile fiscal year ends before comparing growth rates. Never pull for the full universe.
+
+## 6. Red team (v2)
+
+`synth/redteam/<TICKER>.json` is written by the agent after the devil's-advocate pass
+(`synthesis.RED_TEAM_TEMPLATE`). `connectors.file_red_team_provider` feeds it to the engine, which
+applies the verdict (`synthesis.apply_red_team`) before the thesis is stored. The final pass refuses
+(exit 2) if any actionable name lacks a verdict.

@@ -704,10 +704,14 @@ def test_mechanism_judge():
     # regression: a judge that returns the wrong shape or throws must surface judge_error,
     # NOT silently degrade to "unknown" (a broken learning loop should be visible).
     # Use a real ticker so pricing succeeds and execution actually reaches the judge.
-    import datetime as _dt, engine as _eng, glob as _glob, json as _json, shutil as _sh
-    _sh.rmtree("store", ignore_errors=True)
+    import datetime as _dt, engine as _eng, glob as _glob, json as _json, shutil as _sh, tempfile as _tf
+    import config as _cfg, store as _st
+    # v2: NEVER rmtree the real store/ (it is the git-tracked audit trail + LESSONS.md). Use a temp store.
+    _tmp = _tf.mkdtemp(prefix="ee_qa_store_")
+    _prev = _cfg.STORE_DIR
+    _cfg.STORE_DIR = _tmp
     _eng.run(["SHOO"], gather_news=False, write_journal=False, persist=True)
-    _f = _glob.glob("store/companies/*.json")[0]
+    _f = (_glob.glob(f"{_tmp}/companies/*.json") or _glob.glob("store/companies/*.json"))[0]
     _rec = _json.load(open(_f))
     _th = _rec["latest"]["thesis"]
     _th["created"] = (_dt.date.today() - _dt.timedelta(days=800)).isoformat()
@@ -722,7 +726,8 @@ def test_mechanism_judge():
     s_err = retro.score_thesis(_rec, mechanism_judge=_throw)
     check("throwing judge -> judge_error with reason",
           s_err and s_err.get("mechanism_played_out") == "judge_error")
-    _sh.rmtree("store", ignore_errors=True)
+    _cfg.STORE_DIR = _prev
+    _sh.rmtree(_tmp, ignore_errors=True)
 
 
 def test_live_provider_integration():
