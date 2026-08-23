@@ -1,50 +1,31 @@
-# HANDOFF — continue in a new Claude Code instance
+# HANDOFF — Equity Engine v2 (continue in a new Claude Code instance)
 
 Open a fresh Claude Code session **in this repo** and paste the block below as your first message.
 
 ---
 
-I'm continuing work on the **Equity Engine** (this repo) — a FREE, **recommend-only** Russell 2000
-research engine. **Read `CLAUDE.md` first** (hard rules + architecture), then `CONNECTING.md` and
-`SCALING.md` as needed. Here's the state and what I need next.
+I'm continuing work on the **Equity Engine v2** (this repo), a FREE, **recommend-only** Russell 2000
+research engine. **Read `CLAUDE.md` first** (hard rules, architecture, and the "v2 changes" section
+that explains what broke in v1), then `ROUTINE_PROMPT.md` (the scheduled-agent playbook).
 
-**WHAT'S BUILT & WORKING** (everything committed; tests pass — `python _extreme_cases.py` ~150/0 and
-`python qa_harness.py` ~145/0; `python -m py_compile *.py` clean):
-- The full connected loop runs as ONE command:
-  `python orchestrate.py daily [--iwm --batch 250]` →
-  positions (read-only) → universe + churn → 8-K firehose → two-speed scan + **sector-event
-  propagation** → deep synthesis (reverse-DCF dual-pass) → recommendation → dashboard/email →
-  **git audit commit of `store/`**. Recommend-only, `PAPER_MODE=True`, no order path.
-- **Sector/news folder-memory:** `store/journal/verticals/<Sector>/` holds a dossier
-  (`_sector.md/.json`: drivers, entity→ticker graph, event log) + per-company `<TICKER>.md`.
-  Synthesis consumes AND feeds it; **cross-industry routing** (a tech name's FDA/CMS edge lands in
-  Healthcare) and **news→company propagation** are wired into the scan.
-- Four hand-authored live theses (SHOO/PRDO/CRAI/CALM) in `_live_synthesis.py` (used by `--live`
-  and as the demo provider). `ROUTINE_PROMPT.md` is the scheduled-agent playbook.
-  `out/dashboard.html` is the latest routine output. `git log` shows the audit trail working.
-- **Pushed to GitHub: `nathan1-gif/equity-engine` (private), branch `main`** — `store/` tracked as the audit trail, so the cloud fresh-clone model works.
+**WHAT v1 GOT WRONG (Aug 2026 audit, all reproduced):** the cloud routine reported 27 green runs while
+(1) `git push` failed silently in every fresh clone so nothing persisted after June 5, (2) the universe
+was the 10k SEC all-filers superset, (3) the synthesis prompt was truncated at 90k chars so the memory
+layer never reached the analyst, (4) stub output polluted the journal, (5) there was no run manifest.
 
-**STATE OF SETUP:** code + repo are done. The ONLY thing left is creating the CLOUD schedule, and
-that's been blocked by a transient Anthropic-side issue — `/schedule` repeatedly returns "trouble
-connecting with your remote claude.ai account." It is NOT a setup problem and nothing got
-half-created; just retry when the service is back.
+**WHAT v2 IS:** three passes per run (`orchestrate.py <mode> --emit-prompts` -> agent writes
+`synth/<TKR>.json` -> `--emit-redteam` -> agent writes `synth/redteam/<TKR>.json` -> final pass),
+a binding devil's-advocate verdict, a street-consensus seam (`synth/consensus/`), a run manifest
+(`store/runs/`), loud push, and `exit 2` on any silent-failure condition. Modes: `daily` (monitor),
+`sweep` (rotating research slice), `retro`.
 
-**TO FINISH (when the scheduling service is reachable):**
-1. Connect the `equity-engine` repo in **claude.ai/code** (GitHub connector) so the cloud routine can clone the private repo.
-2. Create the routine — retry **`/schedule`**, OR use the **claude.ai/code → Routines / Scheduled tasks** web UI (often works when the CLI skill's connection is flaky):
-   - name: **Equity Engine — daily research**
-   - schedule: weekday (Mon–Fri) ~7am ET
-   - repo / working dir: `nathan1-gif/equity-engine`
-   - task: paste the contents of **`ROUTINE_PROMPT.md`**
-3. Set the routine env: `SEC_USER_AGENT="equity-engine <your-email>"`, optionally `TIINGO_API_KEY` + `PRICE_PROVIDER=tiingo` (volume).
-4. (Optional) commit a real `IWM_holdings.csv` for the faithful R2000 (the cloud can't pass the
-   iShares browser consent wall — otherwise it falls back to the SEC all-filers superset); connect
-   the read-only **Robinhood / Gmail / Drive** connectors (they dry-run until then).
-5. Trigger ONE manual run; confirm it clones, runs `orchestrate.py daily`, pushes a journal commit, and reports recommend-only.
+**TESTS (all must stay green):** `python _v2_cases.py` (78), `python _extreme_cases.py` (184, offline),
+`python qa_harness.py` (145, network), `python -m py_compile *.py`. Never `rmtree("store")` in a test;
+`store/` is the git-tracked audit trail and `store/journal/LESSONS.md` lives there.
 
 **CONSTRAINTS (do not break):** never add an order path (Robinhood is read-only); keep
-`PAPER_MODE=True`; the DCF gap governs the narrative; `none_efficiently_priced` is a valid output;
-free sources only. After it's scheduled, trigger one manual run and confirm it clones, runs
-`orchestrate.py daily`, pushes a journal commit, and reports recommend-only.
+`PAPER_MODE=True`; the DCF gap governs the narrative and the red team governs conviction;
+`none_efficiently_priced` is a valid output; the stub never writes to the journal; free sources only;
+the routine's GitHub connection MUST have push permission or every run is lost.
 
 ---

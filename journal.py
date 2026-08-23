@@ -213,6 +213,20 @@ fair value {_money(thesis_dict.get('fair_value'))}, beta \
 reliability {'OK' if snapshot.get('reliable') else 'FLAGGED: '+','.join(snapshot.get('reliability_flags',[]))}
 """
     header = "" if os.path.exists(p) else f"# {ticker} — {snapshot.get('name','')} ({sector})\n"
+    # v2: same-day re-runs REPLACE today's thesis entry instead of appending a duplicate, so a
+    # retried final pass never double-journals. News blocks (different heading) are untouched.
+    if os.path.exists(p):
+        existing = read_text(p)
+        marker = f"\n---\n## {date} — {ticker}\n"
+        if marker in existing:
+            head, _, tail = existing.partition(marker)
+            # the old entry runs until the next "\n---\n## " or "\n### " heading
+            import re as _re
+            m = _re.search(r"\n---\n## |\n### ", tail)
+            tail = tail[m.start():] if m else ""
+            with open(p, "w", encoding="utf-8") as f:
+                f.write(head + entry + tail)
+            return p
     with open(p, "a", encoding="utf-8") as f:
         if header:
             f.write(header)

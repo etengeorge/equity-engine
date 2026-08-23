@@ -173,3 +173,11 @@ paper-trade gate's job over time. "Passed QA" ≠ "has edge."
   and extreme gaps should be treated as suspicious first, researched second.
 - **yfinance breaks.** Use Tiingo for anything you rely on.
 ```
+
+## v2 (August 2026)
+
+An audit of the scheduled routine found 27 "successful" cloud runs that persisted nothing (silent
+push failure in a fresh clone), a 10k-name universe instead of the Russell 2000, and a research
+prompt truncated before the memory layer. v2 fixes each and adds a binding devil's-advocate pass,
+a street-consensus seam, a run manifest, and a short side. Start with `CLAUDE.md` ("v2 changes")
+and `ROUTINE_PROMPT.md`. Tests: `_v2_cases.py`, `_extreme_cases.py`, `qa_harness.py`.

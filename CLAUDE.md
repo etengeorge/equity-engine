@@ -38,11 +38,13 @@ pip install -r requirements.txt
 export SEC_USER_AGENT="equity-engine <you> <you@email>"   # SEC requires an identity
 export PRICE_PROVIDER=yfinance      # free/keyless; or "tiingo" + TIINGO_API_KEY for volume
 
-# The full connected loop — the entry point the scheduled routine invokes:
-python orchestrate.py daily                    # watchlist, paper mode, real git audit commit of store/
-python orchestrate.py daily --iwm --batch 250  # full Russell 2000, rotating slice per run
-python orchestrate.py daily --emit-prompts     # PASS 1: write synth/prompts/<TKR>.txt for live reasoning
-python orchestrate.py retro                     # score matured theses -> LESSONS.md
+# v2 three-pass loop — the entry point the scheduled routine invokes (see ROUTINE_PROMPT.md):
+python orchestrate.py daily --emit-prompts     # PASS 1 (monitor): held + 8-K + sector-event names -> synth/prompts/
+python orchestrate.py daily --emit-redteam     # PASS 2: feed synth/<TKR>.json; red-team prompts for actionable/held
+python orchestrate.py daily                    # PASS 3: final; journal (live only), manifest, loud push; exit 2 on silent failure
+python orchestrate.py sweep [--batch 300]      # same three passes over the rotating Russell 2000 slice (research)
+python orchestrate.py retro                     # score matured theses -> store/journal/LESSONS.md
+# Any mode accepts --watchlist-only (watchlist.txt instead of the index), --no-commit, --no-news.
 
 # The routine directly (orchestrate wraps it); --live uses _live_synthesis.provider, else the stub:
 python routine.py daily [--iwm --batch N --limit N --live --no-news --dry --refresh-universe]
@@ -114,6 +116,33 @@ committer. `connectors.py` are dry-run seams (read-only Robinhood positions, Gma
 mirror, git commit) the orchestration layer (a Claude Code cloud routine) injects live.
 `ROUTINE_PROMPT.md` is the scheduled-agent playbook. See `CONNECTING.md` (wiring) and `SCALING.md`
 (full-universe + free rotation recipe).
+
+## v2 changes (what broke in v1 and what now prevents it)
+- **Audit push is loud.** `orchestrate.git_committer` records push success/failure; the manifest
+  (`store/runs/<date>_<mode>.json`) carries it and the final pass exits 2 if a commit did not push.
+  v1 discarded push output; 27 "successful" cloud runs never persisted because each fresh clone
+  started from the last pushed state.
+- **Universe refuses the SEC superset.** `universe.py` order: local CSV -> iShares -> Vanguard VTWO
+  (works headlessly) -> stop. `ALLOW_SEC_SUPERSET=1` to override. v1 silently scanned 10k filers.
+- **Context is budgeted, never sliced.** `synthesis.CONTEXT_BUDGET` caps each section; targeted
+  `data_sources.filing_sections` replaces 8k-char filing heads; `_fit_context` trims whole
+  sections under the hard cap and always emits valid JSON. v1 cut at 90k chars mid-string and the
+  sector dossier / history / lessons never reached the analyst.
+- **Stub never writes to memory.** `engine.run` journals only `synthesis_source == "llm"`.
+  `scripts_scrub_stub_journal.py` removed the 10 v1 `[STUB]` entries (one-time; idempotent).
+- **Red team is a separate, binding pass.** `synthesis.RED_TEAM_TEMPLATE` -> `parse_red_team` ->
+  `apply_red_team`. DEAD forces `none_efficiently_priced`/conviction 1; WOUNDED cuts conviction;
+  SURVIVES may add at most 1. The DCF input (`adjusted_growth`) is never touched by the red team.
+  Actionable names without a verdict fail the manifest check.
+- **Mechanical conviction cap:** `sign_survives_fcff_band == False` -> conviction <= 2.
+- **Short side:** `SHORT CANDIDATE` for unheld, reliable, liquid (>= $5M ADV) names at gap <= -30%
+  with a live thesis at conviction >= 3; scanner promotes on `SCAN_GAP_SHORT`.
+- **Street consensus seam:** `synth/consensus/<TKR>.json` (Capital IQ via the S&P Global connector
+  when it works, else a web-sourced snapshot the routine writes) -> `street_consensus` in context.
+- **Email leads with deltas** (`outputs.build_changes`): action changes vs the stored prior, red-team
+  downgrades, drift on holdings. Short candidates get their own section.
+- `daily` = monitor (held + 8-K + events, deep cap 8, no universe price sweep); `sweep` = research
+  (rotating 300-name slice, deep cap 25). Stooq cross-check replaced (JS wall) with a yfinance alt read.
 
 ## Live synthesis (executing ROUTINE.md / ROUTINE_PROMPT.md)
 Follow `synthesis.PROMPT_TEMPLATE`'s 7 steps exactly: steelman the consensus → run every lens →

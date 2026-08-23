@@ -113,3 +113,59 @@ def commit_store(committer=None, message=None, store_dir=None, dry_run=None):
     except Exception as e:
         _log(f"audit commit failed ({type(e).__name__}: {e})")
         return {"committed": False, "error": str(e)[:100]}
+
+
+# ----------------------------------------------------------- v2 seams (all read-only, file-based)
+# The routine (holding the connectors) writes small JSON files; Python reads them. No credentials
+# in Python, and every seam degrades to None when the file is absent.
+CONSENSUS_DIR = os.environ.get("CONSENSUS_DIR", os.path.join("synth", "consensus"))
+REDTEAM_DIR = os.environ.get("REDTEAM_DIR", os.path.join("synth", "redteam"))
+
+
+def _read_json_file(path):
+    if not os.path.exists(path):
+        return None
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+        return d if isinstance(d, dict) else None
+    except Exception as e:
+        _log(f"{path} unreadable ({type(e).__name__}); ignoring")
+        return None
+
+
+def read_street_consensus(ticker, consensus_dir=None):
+    """Street consensus snapshot for a promoted name: synth/consensus/<TKR>.json.
+
+    Written by the routine from S&P Capital IQ (S&P Global connector) when that connector works,
+    else from a web-sourced fallback (source = "web:<site>"). Shape: see CONNECTING.md §5. Files
+    older than 7 days are returned with stale=True so the synthesizer knows to refresh by search.
+    """
+    snap = _read_json_file(os.path.join(consensus_dir or CONSENSUS_DIR, f"{str(ticker).upper()}.json"))
+    if not snap:
+        return None
+    try:
+        age = (dt.date.today() - dt.date.fromisoformat(str(snap.get("as_of", ""))[:10])).days
+        snap["stale"] = age > 7
+    except Exception:
+        snap["stale"] = True
+    return snap
+
+
+def file_red_team_provider(redteam_dir=None):
+    """provider(prompt)->json_str for engine.run(red_team_provider=...): reads
+    synth/redteam/<TKR>.json written by the agent after its devil's-advocate pass. None when absent
+    (the thesis then stands un-red-teamed and is flagged as such on the dashboard)."""
+    import re as _re
+    d = redteam_dir or REDTEAM_DIR
+    pat = _re.compile(r'"ticker":\s*"([A-Z0-9.\-]+)"')
+
+    def provider(prompt):
+        m = pat.search(prompt)
+        if not m:
+            return None
+        p = os.path.join(d, f"{m.group(1)}.json")
+        try:
+            return open(p, encoding="utf-8").read() if os.path.exists(p) else None
+        except Exception:
+            return None
+    return provider

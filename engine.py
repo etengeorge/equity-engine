@@ -17,6 +17,7 @@ import config
 import data_sources as ds
 import analytics as an
 import synthesis as syn
+import connectors
 import thesis as th
 import journal
 import store
@@ -46,7 +47,7 @@ def _sourcing_signal(implied, hist):
 
 
 def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
-                   gather_news=True, congress_trades=None):
+                   gather_news=True, congress_trades=None, red_team_provider=None):
     """
     llm_synth_provider: optional callable(prompt:str)->json_str (live Claude synthesis,
       supplied by the orchestration layer). If None, the deterministic stub runs.
@@ -100,7 +101,8 @@ def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
                                 vertical_notes_text, company_hist,
                                 news_bundle=news_bundle, price_xcheck=price_xcheck,
                                 this_sector_dossier=this_sector_dossier,
-                                congressional_trades=congress_trades)
+                                congressional_trades=congress_trades,
+                                street_consensus=connectors.read_street_consensus(ticker))
         ctx["retrospective_lessons"] = lessons   # learn from past errors
         llm_json = llm_synth_provider(syn.render_prompt(ctx)) if llm_synth_provider else None
         synth = syn.synthesize(ctx, llm_json=llm_json)
@@ -112,6 +114,26 @@ def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
 
     # 4) thesis object (full rationale chain)
     thesis_obj = th.build_thesis(ticker, synth, implied, our_view) if synth else None
+
+    # 4a) v2 RED TEAM: a separate devil's-advocate pass on LIVE theses only. The provider is a
+    # callable(prompt)->json_str (the agent, via synth/redteam/<TKR>.json); None = not run.
+    # Its verdict is binding on conviction/archetype; adjusted_growth (the DCF input) is untouched.
+    red = None
+    if synth is not None and synth.source == "llm" and red_team_provider is not None and thesis_obj is not None:
+        try:
+            rt_raw = red_team_provider(syn.render_red_team_prompt(ctx, thesis_obj.to_dict()))
+            if rt_raw:
+                red = syn.parse_red_team(rt_raw)
+                synth = syn.apply_red_team(synth, red)
+                thesis_obj = th.build_thesis(ticker, synth, implied, our_view)
+        except Exception as _rt_e:
+            red = {"error": f"red team parse failed: {type(_rt_e).__name__}"}
+    # 4a') mechanical conviction cap: a gap whose SIGN flips inside the +/-15% FCFF band is not a
+    # high-conviction view, whatever the narrative says. Cap at 2 (starter size at most).
+    if thesis_obj is not None and our_view and our_view.get("sign_survives_fcff_band") is False \
+            and thesis_obj.conviction > 2:
+        thesis_obj.conviction = 2
+        synth.conviction = 2
 
     # 4b) thesis drift: if we hold this name AND have a prior stored thesis, compare the
     # fresh thesis to the stored one and flag MATERIAL (fact-driven) changes only.
@@ -148,6 +170,9 @@ def analyze_ticker(ticker, llm_synth_provider=None, vertical_notes_text=None,
         "historical_revenue_cagr": hist, "sourcing_signal": _sourcing_signal(implied, hist),
         "our_view": our_view, "thesis": thesis_obj.to_dict() if thesis_obj else None,
         "synthesis_source": synth.source if synth else None,
+        "red_team": (red if red is not None else (getattr(synth, "red_team", None) or None)) if synth else None,
+        "conviction_pre_red_team": getattr(synth, "conviction_pre_red_team", None) if synth else None,
+        "consensus_vs_street": getattr(synth, "consensus_vs_street", None) if synth else None,
         "synthesis_relationships": synth.relationships if synth else [],
         "synthesis_sector_update": synth.sector_update if synth else {},
         "synthesis_company_news": synth.company_news if synth else "",
@@ -217,21 +242,30 @@ def _recommend_one(snap, held):
                 "sizing": size}
     if held:
         return {"action": "HOLD", "reason": f"fair value {gap:+.0%} vs price", "sizing": None}
+    # v2 short side: symmetric to BUY, but stricter (liquidity floor for borrow, reliability
+    # required, and a live thesis with conviction >= 3). Still recommend-only.
+    if (gap <= config.SHORT_GAP and reliable and (snap.get("adv_usd") or 0) >= config.MIN_ADV_SHORT_USD
+            and conviction >= 3 and snap.get("synthesis_source") == "llm"):
+        return {"action": "SHORT CANDIDATE", "reason": f"fair value {gap:+.0%} vs price; liquid enough to borrow",
+                "sizing": "starter" if size == "avoid_sizing" else size}
     return {"action": "PASS", "reason": f"fair value {gap:+.0%} vs price; below buy bar",
             "sizing": None}
 
 
 def run(tickers, llm_synth_provider=None, positions=None, persist=True,
-        write_journal=True, gather_news=True, congress_trades=None, progress_cb=None):
+        write_journal=True, gather_news=True, congress_trades=None, progress_cb=None,
+        red_team_provider=None):
     held = {p["ticker"].upper(): p for p in (positions or [])}
     vertical_notes = journal.read_all_vertical_notes()   # read ALL verticals together
     congress_trades = congress_trades or {}   # {TICKER: [disclosure, ...]} that promoted the name
     rows = []
     for t in tickers:
         try:
-            res = analyze_ticker(t, llm_synth_provider=llm_synth_provider,
-                                 vertical_notes_text=vertical_notes, gather_news=gather_news,
-                                 congress_trades=congress_trades.get(t.upper()))
+            _kw = dict(llm_synth_provider=llm_synth_provider, vertical_notes_text=vertical_notes,
+                       gather_news=gather_news, congress_trades=congress_trades.get(t.upper()))
+            if red_team_provider is not None:
+                _kw["red_team_provider"] = red_team_provider
+            res = analyze_ticker(t, **_kw)
             if res.get("error"):
                 rows.append({"ticker": t, "error": res["error"]})
                 continue
@@ -247,7 +281,9 @@ def run(tickers, llm_synth_provider=None, positions=None, persist=True,
             if persist:
                 store.upsert({"cik": res["cik"], "ticker": t, "name": res["name"],
                               "snapshot": snap})
-            if write_journal and snap.get("thesis"):
+            # v2: the STUB never writes to the journal or the sector dossier. Memory is for
+            # judgment only; placeholder text was polluting the dossiers future prompts read.
+            if write_journal and snap.get("thesis") and snap.get("synthesis_source") == "llm":
                 sec = res["sector"]
                 journal.append_company_entry(sec, t, snap["thesis"], snap)
                 # folder-method: log company-specific news + FEED the sector dossier, so a

@@ -1,3 +1,7 @@
+> **v2 note (2026-08-22):** the operational playbook is now `ROUTINE_PROMPT.md` (three passes,
+> red team, manifest, loud push). This file describes the original design intent; where they
+> differ, `ROUTINE_PROMPT.md` and `CLAUDE.md` win.
+
 # Equity Engine — daily routine (PAPER MODE)
 
 You are running the Equity Engine as a scheduled research routine. Your job is to

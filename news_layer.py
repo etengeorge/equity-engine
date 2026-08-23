@@ -347,21 +347,27 @@ def gather_news(ticker):
 
 # ----------------------------------------------------------- price cross-check
 def _stooq_quote(ticker):
+    """v2: Stooq now sits behind a JavaScript proof-of-work wall and returns HTML headlessly, so
+    this path is dead. Kept as a no-op for callers; the cross-check uses _alt_quote instead."""
+    return None
+
+
+def _alt_quote(ticker):
+    """Independent-enough second read: yfinance's quote endpoint (fast_info) vs the history-derived
+    close the engine uses. Different upstream endpoint, same vendor; flagged as such."""
     try:
-        url = f"https://stooq.com/q/l/?s={ticker.lower()}.us&f=sd2t2ohlcv&h&e=csv"
-        rows = _get(url).decode().strip().splitlines()
-        if len(rows) >= 2:
-            cols = rows[1].split(",")
-            return float(cols[6]) if cols[6] not in ("N/D", "") else None
+        import yfinance as yf
+        fi = yf.Ticker(ticker).fast_info
+        v = getattr(fi, "last_price", None) or getattr(fi, "previous_close", None)
+        return float(v) if v else None
     except Exception:
         return None
-    return None
 
 
 def price_cross_check(ticker, primary_close):
     """Compare the engine's primary close against an independent keyless source
     (Stooq). Flag disagreement beyond tolerance rather than trusting blindly."""
-    alt = _stooq_quote(ticker)
+    alt = _alt_quote(ticker)
     if alt is None or not primary_close:
         return {"checked": False, "alt_source": "stooq", "alt_close": alt}
     diff = abs(primary_close - alt) / primary_close

@@ -159,6 +159,36 @@ def _scenarios_html(t):
 </div>"""
 
 
+def _red_team_html(r):
+    """v2: the devil's-advocate block on the full report. Unverified live theses say so loudly."""
+    rt = r.get("red_team") or {}
+    if not rt.get("verdict"):
+        if r.get("synthesis_source") == "llm":
+            return ('<div style="background:#FCEBEB;border-left:3px solid #A32D2D;padding:8px 10px;margin:8px 0">'
+                    '<b>Red team:</b> NOT RUN. This thesis has not been challenged; treat as unverified.</div>')
+        return ""
+    col = {"SURVIVES": "#2E7D32", "WOUNDED": "#B26A00", "DEAD": "#A32D2D"}.get(rt["verdict"], "#444")
+    ms = rt.get("mechanism_stress") or {}
+    kc = "".join(f"<li>{html.escape(str(k))}</li>" for k in (rt.get("kill_criteria_rewritten") or []))
+    af = "".join(f"<li style='color:#A32D2D'>{html.escape(str(k))}</li>" for k in (rt.get("already_failing") or []))
+    pre = r.get("conviction_pre_red_team")
+    post = (r.get("thesis") or {}).get("conviction")
+    conv = (f" · conviction {pre} → <b>{post}</b>" if pre is not None and pre != post else "")
+    return f"""
+<div style="background:#F4F1EA;border-left:3px solid {col};padding:8px 10px;margin:8px 0">
+<b>Red team verdict:</b> <span style="color:{col};font-weight:700">{rt['verdict']}</span>{conv}
+<p style="margin:6px 0 2px"><b>Counter-thesis:</b> {html.escape(rt.get('counter_thesis',''))}</p>
+<p style="margin:4px 0 2px"><b>Base rate:</b> {html.escape(rt.get('base_rate',''))}</p>
+<p style="margin:4px 0 2px"><b>Data integrity:</b> {html.escape(rt.get('data_integrity',''))}</p>
+<p style="margin:4px 0 2px"><b>Street check:</b> {html.escape(rt.get('street_check',''))}</p>
+<p style="margin:4px 0 2px"><b>Load-bearing assumption:</b> {html.escape(str(ms.get('load_bearing_assumption','')))} · <i>tested by:</i> {html.escape(str(ms.get('tested_by','')))} · <i>already visible:</i> {ms.get('already_visible')}</p>
+{('<p style="margin:4px 0 2px"><b>Kill criteria (rewritten):</b></p><ul style="margin:2px 0 4px 18px">' + kc + '</ul>') if kc else ''}
+{('<p style="margin:4px 0 2px"><b>Already failing:</b></p><ul style="margin:2px 0 4px 18px">' + af + '</ul>') if af else ''}
+<p style="margin:4px 0 2px"><b>Timing:</b> {html.escape(rt.get('timing',''))}</p>
+<p style="margin:4px 0 0"><b>Would change my mind:</b> {html.escape(rt.get('what_would_change_my_mind',''))}</p>
+</div>"""
+
+
 def _catalyst_html(t):
     wmh = t.get("what_must_happen") or []
     items = "".join(f"<li>{html.escape(str(w))}</li>" for w in wmh)
@@ -229,7 +259,7 @@ def _thesis_block(r):
 <p><b>Why our number differs:</b> {html.escape(t.get('deviation_explanation',''))}
 &nbsp;<span class="sub">(market implies {_pct(t.get('implied_growth'),1)} → our base {_pct(t.get('variant_growth'),1)})</span></p>
 <p><b>Full rationale:</b> {html.escape(t.get('rationale',''))}</p>
-{_catalyst_html(t)}
+{_catalyst_html(t)}{_red_team_html(r)}
 <p><b>Cross-source view:</b> {html.escape(t.get('cross_source_corroboration',''))}</p>
 <p><b>Evidence (with receipts):</b></p>{_evidence_html(t.get('evidence'))}
 <p><b>Disconfirming (bear case against our view):</b> {html.escape(t.get('disconfirming',''))}</p>
@@ -343,7 +373,7 @@ def _report_block(snap, date=None, nobs=0):
 <p style="background:#EEF4FB;padding:8px;border-radius:6px;margin:8px 0"><b>Differentiated view:</b> {html.escape(t.get('variant_view',''))}</p>
 <p><b>What the market is mis-weighting:</b> {html.escape(t.get('mispriced_mechanism',''))}</p>
 {_scenarios_html(t)}
-{_catalyst_html(t)}
+{_catalyst_html(t)}{_red_team_html(r)}
 <p><b>Full rationale:</b> {html.escape((t.get('rationale','') or '')[:1400])}</p>
 <p><b>Evidence (with receipts):</b></p>{_evidence_html(t.get('evidence'))}
 <p><b>Disconfirming (bear case against our view):</b> {html.escape(t.get('disconfirming',''))}</p>
@@ -524,12 +554,70 @@ details summary::-webkit-details-marker{{display:none}}
     return path
 
 
+def _prior_action(r):
+    """Yesterday's stored recommendation for this name (None if never analyzed)."""
+    try:
+        import store as _store
+        prev = _store.load(r.get("cik")) if r.get("cik") else None
+        if not prev:
+            import data_sources as _ds
+            cik = _ds.resolve_cik(r["ticker"])[0]
+            prev = _store.load(cik) if cik else None
+        lat = (prev or {}).get("latest") or {}
+        return (lat.get("recommendation") or {}).get("action"), lat.get("last_full_revalue")
+    except Exception:
+        return None, None
+
+
+def build_changes(results):
+    """v2: WHAT CHANGED since the last stored run. Action changes, new red-team verdicts, and drift
+    alerts on held names. This is what the email leads with; the board is in the dashboard."""
+    changes = []
+    for r in results.get("rows", []):
+        if r.get("error") or r.get("_stale"):
+            continue
+        now = (r.get("recommendation") or {}).get("action", "")
+        prior, prior_date = _prior_action(r)
+        rt = r.get("red_team") or {}
+        if prior is not None and prior != now:
+            changes.append({"ticker": r["ticker"], "kind": "action", "from": prior, "to": now,
+                            "since": prior_date, "held": bool(r.get("held"))})
+        if rt.get("verdict") in ("DEAD", "WOUNDED"):
+            changes.append({"ticker": r["ticker"], "kind": "red_team", "to": rt["verdict"],
+                            "from": f"conviction {r.get('conviction_pre_red_team')}->{(r.get('thesis') or {}).get('conviction')}",
+                            "note": (rt.get("counter_thesis") or "")[:220], "held": bool(r.get("held"))})
+        if r.get("held") and r.get("thesis_drift_alert"):
+            da = r["thesis_drift_alert"]
+            if isinstance(da, dict):
+                note = "; ".join(str(c) for c in (da.get("changes") or [])) or str(da.get("summary") or "")
+            else:
+                note = str(da or "")
+            changes.append({"ticker": r["ticker"], "kind": "drift", "to": "thesis drift",
+                            "from": "", "note": note[:220], "held": True})
+    return changes
+
+
+def _red_team_line(r):
+    rt = r.get("red_team") or {}
+    if not rt.get("verdict"):
+        if r.get("synthesis_source") == "llm":
+            return '<div style="font-size:12px;color:#A32D2D;margin-top:4px"><b>Red team:</b> not run (unverified)</div>'
+        return ""
+    col = {"SURVIVES": "#2E7D32", "WOUNDED": "#B26A00", "DEAD": "#A32D2D"}.get(rt["verdict"], "#444")
+    ct = html.escape((rt.get("counter_thesis") or "")[:240])
+    return (f'<div style="font-size:12px;color:#444;margin-top:4px"><b>Red team:</b> '
+            f'<span style="color:{col};font-weight:600">{rt["verdict"]}</span> · {ct}</div>')
+
+
 def build_email(results, path):
     rows = results["rows"]
+    changes = build_changes(results)
     holds = [r for r in rows if not r.get("error") and not r.get("_stale") and r.get("held")
              and r["recommendation"]["action"] in ("SELL/TRIM", "ADD", "REVIEW")]
     buys = [r for r in rows if not r.get("error") and not r.get("_stale") and not r.get("held")
             and r["recommendation"]["action"].startswith("BUY")][:5]
+    shorts = [r for r in rows if not r.get("error") and not r.get("_stale") and not r.get("held")
+              and r["recommendation"]["action"] == "SHORT CANDIDATE"][:3]
 
     def block(r):
         rec = r["recommendation"]
@@ -545,14 +633,27 @@ def build_email(results, path):
 <div style="font-size:13px;margin:6px 0">{('$%.2f' % r['price']) if r.get('price') is not None else '—'} → fair value {_money(t.get('fair_value'))} ({_pct(t.get('gap_vs_price'))}) · {html.escape(rec['reason'])}</div>
 <div style="font-size:12px;color:#444;line-height:1.5"><b>Thesis:</b> {html.escape(t.get('thesis_archetype',''))} · {html.escape(t.get('variant_view','')[:200])}</div>
 <div style="font-size:12px;color:#444;margin-top:4px"><b>Market mis-weighting:</b> {html.escape(t.get('mispriced_mechanism','')[:240])}</div>
-<div style="font-size:12px;color:#444;margin-top:4px"><b>Catalyst:</b> {html.escape(t.get('catalyst',''))} · <b>horizon</b> {t.get('horizon_months')}m · <b>conviction</b> {t.get('conviction')}/5</div>
+<div style="font-size:12px;color:#444;margin-top:4px"><b>Catalyst:</b> {html.escape(t.get('catalyst',''))} · <b>horizon</b> {t.get('horizon_months')}m · <b>conviction</b> {t.get('conviction')}/5{(' (pre red-team ' + str(r.get('conviction_pre_red_team')) + ')') if r.get('conviction_pre_red_team') not in (None, t.get('conviction')) else ''}</div>
+{_red_team_line(r)}
 </div>"""
 
     sec = ""
+    if changes:
+        def _chg(c):
+            tag = {"action": "ACTION", "red_team": "RED TEAM", "drift": "DRIFT"}[c["kind"]]
+            held = " (held)" if c.get("held") else ""
+            frm = f" {html.escape(str(c.get('from') or ''))} →" if c.get("from") else ""
+            note = f'<div style="color:#5F5E5A">{html.escape(c.get("note") or "")}</div>' if c.get("note") else ""
+            return (f'<div style="font-size:13px;margin:3px 0"><b>{html.escape(c["ticker"])}</b>{held} '
+                    f'<span style="color:#7A7972">[{tag}]</span>{frm} <b>{html.escape(str(c["to"]))}</b>{note}</div>')
+        sec += ('<h3 style="margin:18px 0 6px">What changed since the last run</h3>'
+                + "".join(_chg(c) for c in changes[:15]))
     if holds:
         sec += '<h3 style="margin:18px 0 6px">Your positions — action flagged</h3>' + "".join(block(r) for r in holds)
     if buys:
         sec += '<h3 style="margin:18px 0 6px">New buy candidates</h3>' + "".join(block(r) for r in buys)
+    if shorts:
+        sec += '<h3 style="margin:18px 0 6px">Short candidates (research only)</h3>' + "".join(block(r) for r in shorts)
     if not sec:
         sec = ('<p style="color:#5F5E5A">No actions flagged on holdings and no new buy '
                'candidates cleared the bar this run. Full detail in the dashboard.</p>')

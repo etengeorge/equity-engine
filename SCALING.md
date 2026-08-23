@@ -156,7 +156,7 @@ cheap-scans N names per run from a PERSISTED cursor that advances each run, so t
 completes one full sweep every `ceil(2000/N)` runs. Schedule **2-3 runs/day** to shorten the cycle:
 
 ```bash
-python routine.py daily --iwm --batch 300        # ~250-300 price pulls/run, free-tier friendly
+python orchestrate.py sweep --batch 300          # v2: ~300 price pulls/run, free-tier friendly (three-pass; see ROUTINE_PROMPT.md)
 ```
 
 - **Every run, regardless of the slice:** your **held names** are scanned, and the day's **8-K

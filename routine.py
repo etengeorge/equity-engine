@@ -110,8 +110,16 @@ def _assemble_recommendation_board(deep, held_tickers, top=60):
         rec = snap.get("recommendation") or {}
         action = rec.get("action", "")
         gap = (snap.get("our_view") or {}).get("gap_vs_price")
-        actionable = (action.startswith("BUY") or action in ("ADD", "SELL/TRIM", "REVIEW")
+        actionable = (action.startswith("BUY") or action in ("ADD", "SELL/TRIM", "REVIEW", "SHORT CANDIDATE")
                       or (gap is not None and abs(gap) >= config.BUY_GAP))
+        # v2: a STUB-sourced action or an extreme gap (a v1 data artifact: AHR sat on the board
+        # at +490% off a stub) is never carried forward as a stale recommendation. Held names
+        # always stay visible.
+        if tk not in held_up and actionable:
+            if snap.get("synthesis_source") == "stub":
+                continue
+            if gap is not None and abs(gap) > config.BOARD_MAX_ABS_GAP:
+                continue
         if tk in held_up or actionable:
             row = dict(snap)
             row["_stale"] = True
@@ -136,8 +144,12 @@ def _has_flagged_action(results):
         action = rec.get("action", "")
         if r.get("held") and action in ("SELL/TRIM", "ADD", "REVIEW"):
             return True
-        if not r.get("held") and action.startswith("BUY"):
+        if not r.get("held") and action.startswith(("BUY", "SHORT CANDIDATE")):
             return True
+        if r.get("held") and r.get("thesis_drift_alert"):
+            return True                          # v2: a held thesis drifted on facts
+        if r.get("held") and (r.get("red_team") or {}).get("verdict") == "DEAD":
+            return True                          # v2: the red team killed a holding's thesis
     return False
 
 
@@ -160,7 +172,8 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
                   synth_provider=None, position_source=None, emailer=None,
                   drive_syncer=None, max_deep=None, outdir="out", gather_news=True,
                   persist=True, write_journal=True, iwm=False, limit=None,
-                  refresh_universe=False, batch=None, journal_committer=None):
+                  refresh_universe=False, batch=None, journal_committer=None,
+                  red_team_provider=None, mode="daily"):
     positions = connectors.read_positions(source=position_source, fallback_path=positions_path)
     held = {p["ticker"].upper() for p in positions}
 
@@ -224,6 +237,21 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
     # (firehose) are fast-tracked straight to deep regardless of the slice, so material events
     # drive timely recs without a universe-wide price pull.
     event_names, scan_set = [], universe
+    if iwm and not batch and mode == "daily":
+        # v2 DAILY = monitor only: no universe-wide price sweep. Cheap-scan just the held names;
+        # 8-K filers (firehose), sector events and congressional trades are added below
+        # regardless of slice. The rotation sweep is the `sweep` mode's job.
+        import data_sources as ds
+        if event_filer_ciks:
+            _seen = set()
+            for t in universe:
+                c = ds.resolve_cik(t)[0]
+                if c and c in event_filer_ciks and t.upper() not in _seen:
+                    _seen.add(t.upper())
+                    event_names.append(t)
+        scan_set = sorted(held)
+        print(f"[daily] monitor scope: {len(scan_set)} held + {len(event_names)} 8-K filers "
+              f"(no rotation slice; run `sweep` for the universe)")
     if iwm and batch:
         import universe as iwm_universe
         import data_sources as ds
@@ -274,13 +302,32 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
             print(f"[congress] no new large disclosures (flags: {','.join(cres['flags'])})")
     except Exception as e:
         print(f"[congress] unavailable ({type(e).__name__}: {e}); skipping this run")
-    deep_tickers, _seen = [], set()
+    # v2 deep-queue ordering. HELD names are exempt from the cap and go first (the v1 sweep let
+    # 171 alphabetical 8-K filers push the held name out of a 3-name cap). Among the rest, names
+    # whose STORED snapshot already failed the DCF gate (negative EBIT/FCFF -> no reverse DCF ->
+    # no thesis possible) sort LAST so they do not burn deep slots; a fresh name or a reliable
+    # one goes ahead of them.
+    def _gate_rank(t):
+        try:
+            import data_sources as _ds
+            c = _ds.resolve_cik(t)[0]
+            lat = (store.load(c) or {}).get("latest") if c else None
+        except Exception:
+            lat = None
+        if not lat:
+            return 0                      # never analyzed: give it a shot
+        return 0 if lat.get("reliable") else 1
+    _seen = set()
+    ordered = []
     for t in forced + congress_names + sector_evt + queue:
         if t not in _seen:
             _seen.add(t)
-            deep_tickers.append(t)
+            ordered.append(t)
+    held_first = [t for t in ordered if t.upper() in held]
+    rest = sorted([t for t in ordered if t.upper() not in held], key=_gate_rank)
     if max_deep:
-        deep_tickers = deep_tickers[:max_deep]
+        rest = rest[:max(0, max_deep - len(held_first))]
+    deep_tickers = held_first + rest
     if sector_evt:
         print(f"[sector-event] re-examining on fresh vertical developments: {', '.join(sector_evt[:10])}")
     print(f"scan: {scan['scanned']} watched, {scan.get('skipped', 0)} skipped, "
@@ -302,6 +349,7 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
 
     if deep_tickers:
         deep = engine.run(deep_tickers, llm_synth_provider=synth_provider, positions=positions,
+                          red_team_provider=red_team_provider,
                           gather_news=gather_news, persist=persist, write_journal=write_journal,
                           congress_trades=congress_map,
                           progress_cb=(_live_dashboard if persist else None))
@@ -339,6 +387,17 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
                                        "reason": "left the Russell 2000 — review for "
                                                  "delisting / take-private / distress"}})
 
+    # v2: facts the run manifest needs (orchestrate writes store/runs/<date>_<mode>.json)
+    try:
+        import universe as _u
+        _usrc = _u.LAST_SOURCE if iwm else "watchlist"
+    except Exception:
+        _usrc = "unknown"
+    results["_run"] = {
+        "mode": mode, "universe_source": _usrc, "universe_size": len(universe),
+        "scanned": scan.get("scanned"), "promoted": len(deep_tickers), "deep_tickers": deep_tickers,
+        "held": sorted(held), "scan_summary": scan.get("summary"),
+    }
     os.makedirs(outdir, exist_ok=True)
     dash = outputs.build_dashboard(results, os.path.join(outdir, "dashboard.html"))
     mail = outputs.build_email(results, os.path.join(outdir, "email_brief.html"))
@@ -360,7 +419,7 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
         print("[connector] email: no flagged action on a holding and no new BUY — not sending")
     connectors.sync_journal_to_drive(syncer=drive_syncer)
     if persist:        # audit trail: commit store/ (journal + snapshots); dry-run unless a committer is injected
-        connectors.commit_store(committer=journal_committer)
+        results["_run"]["commit"] = connectors.commit_store(committer=journal_committer)
 
     _print_recs(results)
     return results
