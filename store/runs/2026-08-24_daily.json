@@ -1,0 +1,32 @@
+{
+ "date": "2026-08-24",
+ "ts": "2026-08-24T13:32:09",
+ "mode": "daily",
+ "universe_source": null,
+ "universe_size": 6,
+ "scanned": 0,
+ "promoted": 0,
+ "deep_tickers": [],
+ "live_synthesis": 0,
+ "stub_synthesis": 0,
+ "red_teamed": 0,
+ "red_team_verdicts": {},
+ "not_red_teamed_but_actionable": [],
+ "actions": {
+  "ADD": 1
+ },
+ "errors": [],
+ "held": [],
+ "commit": {
+  "committed": null,
+  "files": null,
+  "error": null,
+  "head": null,
+  "pushed": null,
+  "push_error": null
+ },
+ "context_hard_cap": 60000,
+ "paper_mode": true,
+ "pass": "emit-redteam",
+ "redteam_prompts_written": []
+}
