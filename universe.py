@@ -34,6 +34,14 @@ MEMBERSHIP_PATH = os.path.join(config.STORE_DIR, "universe_membership.json")
 CURSOR_PATH = os.path.join(config.STORE_DIR, "universe_cursor.json")
 LOCAL_CANDIDATES = ["IWM_holdings.csv", "russell2000.csv", "universe.txt"]
 LAST_SOURCE = None   # set by load_iwm_universe() to the source actually used (for churn gating)
+LAST_ASOF = None     # 'Fund Holdings as of' date parsed from a local holdings file (ISO str)
+LAST_STALE = False   # True when the local file predates STALE_AFTER_DAYS (see _local_asof)
+
+# The index reconstitutes annually each June, so a holdings file more than ~4 months old can
+# be missing a whole reconstitution. v1's lesson was that a wrong universe must never look
+# healthy: a stale drop-in still loads (the pipeline stays exercisable) but is labeled STALE
+# in LAST_SOURCE, recorded in the run manifest, and flagged as a manifest problem.
+STALE_AFTER_DAYS = 120
 _UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 _NON_TICKERS = {"CASH", "USD", "MARGIN_USD", "-", "--", ""}
@@ -73,7 +81,29 @@ def _parse_plain_list(raw):
     return out
 
 
+def _local_asof(raw, path):
+    """The holdings file's as-of date, as (iso_str, age_days). iShares puts
+    `Fund Holdings as of,"Aug 22, 2026"` in the preamble; fall back to the file's mtime when
+    the header is absent (a plain universe.txt). Returns (None, None) if nothing parses."""
+    for ln in raw.splitlines()[:40]:
+        if ln.lower().lstrip('"').startswith("fund holdings as of"):
+            val = ln.split(",", 1)[1].strip().strip('"') if "," in ln else ""
+            for fmt in ("%b %d, %Y", "%d-%b-%Y", "%Y-%m-%d", "%m/%d/%Y"):
+                try:
+                    d = dt.datetime.strptime(val, fmt).date()
+                    return d.isoformat(), (dt.date.today() - d).days
+                except ValueError:
+                    continue
+            break
+    try:
+        d = dt.date.fromtimestamp(os.path.getmtime(path))
+        return d.isoformat(), (dt.date.today() - d).days
+    except Exception:
+        return None, None
+
+
 def _from_local_file():
+    global LAST_ASOF, LAST_STALE
     for d in (".", config.STORE_DIR):
         for name in LOCAL_CANDIDATES:
             p = os.path.join(d, name)
@@ -82,7 +112,14 @@ def _from_local_file():
                 tickers = (_parse_plain_list(raw) if name.endswith(".txt")
                            else parse_holdings_csv(raw))
                 if tickers:
-                    return tickers, f"local file {p}"
+                    asof, age = _local_asof(raw, p)
+                    LAST_ASOF = asof
+                    LAST_STALE = age is not None and age > STALE_AFTER_DAYS
+                    label = f"local file {p}"
+                    if asof:
+                        label += f" (as of {asof}"
+                        label += f", STALE {age}d)" if LAST_STALE else ")"
+                    return tickers, label
     return None, None
 
 
@@ -146,7 +183,8 @@ _FETCHERS = {"file": _from_local_file, "ishares": _from_ishares, "vanguard": _fr
 def load_iwm_universe(limit=None, refresh=False, source="auto", cache_path=RESOLVED_CACHE,
                       verbose=True):
     """Return the universe ticker list (see module docstring for source order)."""
-    global LAST_SOURCE
+    global LAST_SOURCE, LAST_ASOF, LAST_STALE
+    LAST_ASOF, LAST_STALE = None, False
     if not refresh and source == "auto" and _cache_fresh(cache_path):
         try:
             cached = _parse_plain_list(open(cache_path, encoding="utf-8").read())
@@ -174,10 +212,15 @@ def load_iwm_universe(limit=None, refresh=False, source="auto", cache_path=RESOL
                            "to override). Drop IWM_holdings.csv in the project and retry.")
     if verbose:
         print(f"[universe] source: {used} -> {len(tickers)} tickers")
+        if LAST_STALE:
+            print(f"[universe] WARNING: holdings file is stale (as of {LAST_ASOF}, older than "
+                  f"{STALE_AFTER_DAYS}d). The index reconstitutes each June — refresh "
+                  "IWM_holdings.csv (README: 'Refreshing the universe').")
     LAST_SOURCE = used
     # cache only the FAITHFUL sources (don't sticky-cache the SEC superset so a later
-    # drop-in IWM_holdings.csv takes effect immediately)
-    if used and not used.startswith("SEC"):
+    # drop-in IWM_holdings.csv takes effect immediately), and never cache a STALE file —
+    # a day-cache would hide the staleness from the next run's manifest.
+    if used and not used.startswith("SEC") and not LAST_STALE:
         try:
             os.makedirs(os.path.dirname(cache_path) or ".", exist_ok=True)
             with open(cache_path, "w", encoding="utf-8") as f:
