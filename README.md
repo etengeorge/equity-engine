@@ -87,6 +87,38 @@ To run the full universe, replace the `--tickers` list with the IWM holdings pul
 
 ---
 
+## Refreshing the universe
+
+The engine loads the Russell 2000 from a **committed CSV** (`IWM_holdings.csv`) before it tries
+any live source. This is the blessed path: iShares gates its holdings download behind a browser
+consent wall, and scheduled/cloud runs are often on a restricted network where `ishares.com`,
+`investor.vanguard.com` — and sometimes `sec.gov` itself — are unreachable. A file in the repo
+needs no network at all.
+
+**To refresh (about a minute, do it after each June reconstitution at minimum):**
+
+1. Open <https://www.ishares.com/us/products/239710/ishares-russell-2000-etf> in a normal browser.
+2. Under *Holdings*, click **Download Holdings** (the consent wall is handled by the browser).
+3. Overwrite `IWM_holdings.csv` in the project root with that file — no editing needed, the
+   loader reads the stock iShares layout (preamble, then a `Ticker,…,Asset Class,…` header).
+4. Commit it. `store/universe_resolved.txt` is a per-day cache and refreshes itself.
+
+`universe.py` reads `Fund Holdings as of` from the preamble. Once that date is more than
+`STALE_AFTER_DAYS` (120) old, the run labels the source `STALE`, records
+`universe_asof` / `universe_stale` in the manifest, and `orchestrate.py` counts it as a
+**manifest problem (exit 2)**. That is deliberate: the index reconstitutes every June, so an old
+file is a silently-wrong universe, which is the exact v1 failure v2 exists to prevent.
+
+> The `IWM_holdings.csv` currently committed is a **bootstrap placeholder**, not a real download:
+> a third-party snapshot (`github.com/quanthero/US_Indices_Constituents`) of estimated
+> mid-2022/early-2023 vintage, kept only so the pipeline is exercisable end-to-end. It is stale by
+> design and will fail the manifest check until you replace it via the steps above.
+
+Other accepted filenames (first match wins, project root then `store/`): `russell2000.csv`
+(same iShares layout) or `universe.txt` (one ticker per line, `#` comments).
+
+---
+
 ## Scheduling it (and wiring in Robinhood + email)
 
 This codebase is the engine. To make it a recurring, hands-off loop:

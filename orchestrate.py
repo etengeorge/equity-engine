@@ -139,6 +139,7 @@ def _write_manifest(results, mode, outdir, extra=None):
         "ts": dt.datetime.now().isoformat(timespec="seconds"),
         "mode": mode,
         "universe_source": run.get("universe_source"), "universe_size": run.get("universe_size"),
+        "universe_asof": run.get("universe_asof"), "universe_stale": run.get("universe_stale"),
         "scanned": run.get("scanned"), "promoted": run.get("promoted"),
         "deep_tickers": run.get("deep_tickers"),
         "live_synthesis": len(live), "stub_synthesis": len(stub),
@@ -174,6 +175,10 @@ def _check_manifest(m, final=True):
     problems = []
     if str(m.get("universe_source") or "").startswith("SEC"):
         problems.append("universe is the SEC all-filers superset, not the Russell 2000")
+    if m.get("universe_stale"):
+        problems.append(
+            f"universe holdings file is stale (as of {m.get('universe_asof')}) — the index "
+            "reconstitutes each June; refresh IWM_holdings.csv (README: 'Refreshing the universe')")
     if m.get("mode") in MODE_DEFAULTS and not m.get("universe_size"):
         problems.append("universe is empty")
     if m.get("promoted") == 0 and m.get("mode") == "sweep":

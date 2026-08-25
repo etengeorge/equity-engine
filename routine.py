@@ -388,13 +388,17 @@ def daily_routine(watchlist="watchlist.txt", positions_path="positions.json",
                                                  "delisting / take-private / distress"}})
 
     # v2: facts the run manifest needs (orchestrate writes store/runs/<date>_<mode>.json)
+    _uasof, _ustale = None, False
     try:
         import universe as _u
         _usrc = _u.LAST_SOURCE if iwm else "watchlist"
+        if iwm:
+            _uasof, _ustale = _u.LAST_ASOF, _u.LAST_STALE
     except Exception:
         _usrc = "unknown"
     results["_run"] = {
         "mode": mode, "universe_source": _usrc, "universe_size": len(universe),
+        "universe_asof": _uasof, "universe_stale": _ustale,
         "scanned": scan.get("scanned"), "promoted": len(deep_tickers), "deep_tickers": deep_tickers,
         "held": sorted(held), "scan_summary": scan.get("summary"),
     }

@@ -159,6 +159,26 @@ deep synthesis only on promoted names. TWICE-WEEKLY / on material trigger: full 
 MONTHLY: retrospective + rebalance review — interim price drift on a long (12–36mo) thesis is
 expected and is NOT a reason to trade.
 
+## Universe source (committed CSV, not live-sourced)
+The Russell 2000 comes from a **committed `IWM_holdings.csv`**, which `universe.py` reads before
+any network source. Scheduled/cloud runs frequently sit behind a restricted network policy where
+`ishares.com`, `investor.vanguard.com` and even `sec.gov` are unreachable, so a file in the repo is
+the only dependable path. The owner refreshes it periodically (README: "Refreshing the universe").
+`universe.py` parses `Fund Holdings as of` from the preamble; past `STALE_AFTER_DAYS` (120) the run
+labels the source `STALE`, sets `universe_stale` in the manifest, and `orchestrate._check_manifest`
+makes it an exit-2 problem. Do NOT paper over a stale universe (widening the threshold, editing the
+as-of date, or dropping the check) — the index reconstitutes each June and a silently-wrong universe
+is precisely the v1 failure v2 exists to catch. The fix is always a fresh CSV.
+
+## Git workflow for scheduled runs (owner-authorized)
+The harness lands scheduled runs on a branch + PR rather than pushing straight to `main`. The owner
+has authorized **auto-merging those routine-run PRs**: open the PR, then merge it in the same run so
+`store/` actually persists on `main` — an unmerged run is a lost run, the same failure as v1's
+unpushed pushes. This standing authorization covers the routine's own audit-trail commits
+(`store/`, `public/index.html`, run manifests). It does NOT extend to PRs that change engine code,
+hard rules, or safety gates — those still wait for human review. Never merge a PR whose run was
+flagged (exit 2) without saying so plainly in the report.
+
 ## Honesty
 State uncertainty plainly. `[STUB]` output is not real judgment. "Passed QA" is not "has edge."
 The human paper-trades first to find out whether the reasoning is any good — support that.
