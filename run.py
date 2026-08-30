@@ -41,6 +41,10 @@ def cmd_screen(args):
     screen.run(limit=args.limit)
 
 
+def _is_smoke(args):
+    return bool(getattr(args, "limit", None))
+
+
 def cmd_pick(args):
     import daily, brief, edgar
     sc = _screen()
@@ -149,6 +153,13 @@ def cmd_status(args):
 
 def cmd_daily(args):
     cmd_screen(args)
+    if _is_smoke(args):
+        # A limited run proves the pipeline works; it must not leave a limited screen,
+        # a rewritten pick list or an advanced rotation cursor behind for the real run
+        # (or the dashboard) to pick up.
+        print(f"\n[daily] smoke test with --limit {args.limit}: selection skipped and no "
+              f"state written. Re-run without --limit for a real screen.")
+        return
     cmd_pick(args)
 
 
@@ -166,7 +177,9 @@ def main():
         p = sub.add_parser(name, help=helptext)
         p.set_defaults(func=fn)
         if name in ("screen", "daily"):
-            p.add_argument("--limit", type=int, help="only the first N names (testing)")
+            p.add_argument("--limit", type=int,
+                           help="SMOKE TEST: screen only the first N names, write to "
+                                "data/screen.sample.json, and change no committed state")
         if name == "record":
             p.add_argument("--clean", action="store_true",
                            help="delete synth/*.json after a successful record")

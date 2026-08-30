@@ -1,52 +1,61 @@
-# OSCR — OSCAR HEALTH CLASS A
-*Financials · brief generated 2026-08-30 · selected as **opportunistic***
+# WLFC — WILLIS LEASE FINANCE
+*Industrials · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap -145%
+- cheapest 7% of 152 Industrials peers (93th pct)
+- baseline gap +177%
+- 21d move -26%
+- filed an 8-K in the last few sessions
 - never researched
-- urgency score 1.1
+- urgency score 7.54
 
 ## Market
 | | |
 |---|---|
-| price | $30.47 |
-| market cap | $8.0B |
-| 5d / 21d / 63d / 252d | -4.9% / -2.4% / +37.1% / +79.0% |
-| 60d avg daily $ volume | $176.0M |
-| beta (vs IWM) | 0.99 (R²=0.054) |
+| price | $53.42 |
+| market cap | $1.1B |
+| 5d / 21d / 63d / 252d | -1.7% / -26.2% / -69.7% / -64.5% |
+| 60d avg daily $ volume | $23.0M |
+| beta (vs IWM) | 1.53 (R²=0.185) |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$350.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$252.2M', '$268.8M', '$224.6M']
+Enterprise value **$3.8B** · FCFF yield **+9.1%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | -25.5% |
-| cost of equity | +10.2% |
-| justified P/TBV | -3.65 |
-| actual P/TBV | 8.18 |
-| tangible book / share | $3.73 |
-| implied gap | -144.7% |
+| 14.6% − 1pt | +6.8% |
+| **14.6% (point)** | **+9.1%** |
+| 14.6% + 1pt | +11.4% |
 
-Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
+
+> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$320.7M** and an implied growth of **+11.5%** instead of +9.1%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+20.4%** (5y revenue CAGR +20.4%).
+Gap under that baseline: **+176.7%** (fair value $147.81 vs price $53.42).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **93th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +190.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_5%_debt_weight`
-- `unstable_rotce_-45.3%_to_2.5%`
-- `loss_year_in_window`
+- none raised
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000069/oscr-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscr-20260806.htm
-- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000059/oscr-20260604.htm
-- 2026-06-08 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000054/oscr-20260608.htm
-- 2026-06-02 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000048/oscr-20260529.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000040/oscr-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000036/oscr-20260506.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1568651/000114036126016119/ny20059895x771_def14a.htm
-- 2026-04-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000028/oscr-20260421.htm
-- 2026-03-02 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000014/oscr-20260302.htm
+- 2026-08-25 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/wlfc-20260824.htm
+- 2026-08-06 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000070/wlfc-20260803.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000068/wlfc-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000065/wlfc-20260804.htm
+- 2026-07-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000063/wlfc-20260729.htm
+- 2026-07-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000061/wlfc-20260721.htm
+- 2026-07-17 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526307870/d85905d8k.htm
+- 2026-07-14 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000058/wlfc-20260710.htm
+- 2026-07-10 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526300912/d142690d8k.htm
+- 2026-06-23 **8-K** — items 5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526279754/d129925d8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

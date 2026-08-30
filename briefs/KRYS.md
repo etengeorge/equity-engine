@@ -2,7 +2,7 @@
 *Health Care · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 9/40
+- rotation position 9/1956
 
 ## Market
 | | |
@@ -34,7 +34,7 @@ Gap under that baseline: **-65.0%** (fair value $123.02 vs price $351.46).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **18th percentile** of 88 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -56.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags

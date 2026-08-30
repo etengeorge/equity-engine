@@ -201,10 +201,17 @@ def add_cohort_ranks(rows):
     return stats
 
 
-def run(limit=None, universe_path=None):
+def run(limit=None, universe_path=None, out_path=None):
+    """Screen the universe. A LIMITED run is a smoke test and never overwrites the real
+    screen: writing 40 rows over the committed 1,956 silently destroys the day's work and
+    leaves the dashboard reporting a 40-name universe as though that were the index."""
     uni = load_universe(universe_path)
+    sample = False
     if limit:
         uni = uni[:limit]
+        sample = out_path is None
+        if sample:
+            out_path = config.DATA / "screen.sample.json"
     tickers = [r["ticker"] for r in uni]
     t0 = time.time()
     print(f"[screen] pricing {len(tickers)} tickers …", flush=True)
@@ -243,8 +250,12 @@ def run(limit=None, universe_path=None):
     }
     config.DATA.mkdir(parents=True, exist_ok=True)
     payload = _clean(payload)
-    (config.DATA / "screen.json").write_text(json.dumps(payload, allow_nan=False, default=float))
-    print(f"[screen] done in {time.time()-t0:.0f}s -> data/screen.json")
+    out_path = out_path or (config.DATA / "screen.json")
+    out_path.write_text(json.dumps(payload, allow_nan=False, default=float))
+    print(f"[screen] done in {time.time()-t0:.0f}s -> {out_path.name}")
+    if sample:
+        print(f"[screen] SMOKE TEST ONLY ({limit} names). data/screen.json was NOT "
+              f"touched and nothing downstream will read this file.")
     for k, v in payload["counts"].items():
         print(f"          {k:16s} {v}")
     return payload

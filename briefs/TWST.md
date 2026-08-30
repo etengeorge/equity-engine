@@ -2,7 +2,7 @@
 *Health Care · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 11/40
+- rotation position 11/1956
 
 ## Market
 | | |

@@ -1,61 +1,51 @@
-# SSRM — SSR MINING
-*Materials · brief generated 2026-08-30 · selected as **opportunistic***
+# VEL — VELOCITY FINANCIAL INC
+*Financials · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap -83%
-- 21d move +40%
+- cheapest 3% of 338 Financials peers (97th pct)
+- baseline gap +164%
+- filed an 8-K in the last few sessions
 - never researched
-- urgency score 1.8
+- urgency score 8.19
 
 ## Market
 | | |
 |---|---|
-| price | $37.29 |
-| market cap | $7.6B |
-| 5d / 21d / 63d / 252d | -1.3% / +39.9% / +19.6% / +102.4% |
-| 60d avg daily $ volume | $94.8M |
-| beta (vs IWM) | 0.93 (R²=0.084) |
+| price | $18.01 |
+| market cap | $711.1M |
+| 5d / 21d / 63d / 252d | -1.8% / +2.9% / +2.9% / -5.5% |
+| 60d avg daily $ volume | $1.8M |
+| beta (vs IWM) | 0.33 (R²=0.072) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$125.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$241.6M', '$-103.4M', '$198.3M']
-Enterprise value **$8.1B** · FCFF yield **+1.5%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 9.6% − 1pt | +37.4% |
-| **9.6% (point)** | **+42.3%** |
-| 9.6% + 1pt | +46.9% |
+| sustainable ROTCE | +13.8% |
+| cost of equity | +6.5% |
+| justified P/TBV | 2.82 |
+| actual P/TBV | 1.07 |
+| tangible book / share | $16.86 |
+| implied gap | +163.7% |
 
-
-> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$106.8M** and an implied growth of **+47.1%** instead of +42.3%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+2.1%** (4y revenue CAGR +2.1%).
-Gap under that baseline: **-82.9%** (fair value $6.39 vs price $37.29).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **not ranked** — too few comparable Materials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **97th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +190.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_3.1x_of_mean`
+- none raised
 
 ## Recent filings
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000082/ssrm-20260804.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000081/ssrm-20260630.htm
-- 2026-08-04 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000110465926090338/tm2622096d1_8k.htm
-- 2026-06-30 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000674/ss6513309_8k.htm
-- 2026-05-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000069/ssrm-20260518.htm
-- 2026-05-07 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000066/ssrm-20260507.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000063/ssrm-20260505.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000062/ssrm-20260331.htm
-- 2026-03-26 **8-K** — items 1.01,2.06,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000355/ss6114560_8k.htm
-- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000047/ssrm-20260324.htm
+- 2026-08-27 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526369585/d277042d8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526335807/vel-20260630.htm
+- 2026-08-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526334993/vel-20260805.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526334991/vel-20260805.htm
+- 2026-05-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526238356/d293955d8k.htm
+- 2026-05-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526210739/vel-20260506.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526209674/vel-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526209160/d122273d8k.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526150488/d57704ddef14a.htm
+- 2026-03-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526104483/d104077d8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

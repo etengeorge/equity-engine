@@ -220,6 +220,24 @@ def test_selection_shape():
     check("cursor advances", sel["cursor"]["index"] > 0, str(sel["cursor"]))
 
 
+def test_limit_never_clobbers_the_real_screen():
+    """A limited run is a smoke test. It once overwrote the committed 1,956-row screen
+    with 40 rows and pushed it, leaving the live dashboard reporting a 40-name universe
+    as though that were the Russell 2000."""
+    import inspect, screen as S, run as R
+    src = inspect.getsource(S.run)
+    check("limited screen writes to a separate file",
+          "screen.sample.json" in src and "sample = out_path is None" in src,
+          "screen.run has no sample-path guard")
+    check("the real screen path is only the default",
+          'out_path = out_path or (config.DATA / "screen.json")' in src,
+          "screen.run still writes screen.json unconditionally")
+    dsrc = inspect.getsource(R.cmd_daily)
+    check("a limited daily run skips selection",
+          "_is_smoke(args)" in dsrc and "return" in dsrc,
+          "cmd_daily still advances the cursor and rewrites picks on a smoke test")
+
+
 def main():
     for fn in sorted([v for k, v in globals().items() if k.startswith("test_")],
                      key=lambda f: f.__name__):

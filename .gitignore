@@ -15,3 +15,6 @@ venv/
 positions.json
 holdings*.csv
 *.env
+
+# Smoke-test output. Never read by anything downstream.
+data/screen.sample.json

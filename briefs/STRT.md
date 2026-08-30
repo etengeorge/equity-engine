@@ -1,64 +1,60 @@
-# HQY — HEALTHEQUITY
-*Health Care · brief generated 2026-08-30 · selected as **opportunistic***
+# STRT — STRATTEC SECURITY CORP
+*Consumer Discretionary · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +26%
-- discounted: stock comp is 24% of reported FCFF
-- discounted: cash-flow base may be a cycle peak
-- 5d move -9%
+- cheapest 8% of 130 Consumer Discretionary peers (92th pct)
+- baseline gap +182%
+- 5d move -8%
+- 21d move -15%
 - filed an 8-K in the last few sessions
 - never researched
-- urgency score 2.63
+- urgency score 7.08
 
 ## Market
 | | |
 |---|---|
-| price | $96.37 |
-| market cap | $8.0B |
-| 5d / 21d / 63d / 252d | -8.6% / -4.6% / +9.5% / +9.5% |
-| 60d avg daily $ volume | $83.7M |
-| beta (vs IWM) | 0.69 (R²=0.158) |
+| price | $75.04 |
+| market cap | $299.0M |
+| 5d / 21d / 63d / 252d | -8.3% / -15.1% / -6.2% / +12.3% |
+| 60d avg daily $ volume | $7.4M |
+| beta (vs IWM) | 0.93 (R²=0.125) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$387.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$455.1M', '$337.8M', '$241.1M']
-Enterprise value **$8.6B** · FCFF yield **+4.5%**
+Normalized FCFF base **$52.0M** (mean of CFO−capex over 2y, plus after-tax interest)
+  annual FCF, newest first: ['$39.0M', '$64.5M']
+Enterprise value **$217.6M** · FCFF yield **+23.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.1% − 1pt | +2.6% |
-| **8.1% (point)** | **+7.1%** |
-| 8.1% + 1pt | +11.2% |
+| 9.9% − 1pt | -25.9% |
+| **9.9% (point)** | **-23.6%** |
+| 9.9% + 1pt | -21.5% |
 
 
-> **Stock compensation is 24% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$305.2M** and an implied growth of **+12.8%** instead of +7.1%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+12.4%** (5y revenue CAGR +12.4%).
-Gap under that baseline: **+26.4%** (fair value $121.80 vs price $96.37).
+Naive baseline for comparison: **+3.6%** (5y revenue CAGR +3.6%).
+Gap under that baseline: **+181.5%** (fair value $211.25 vs price $75.04).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **92th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +175.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_24%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-08-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000041/hqy-20260731.htm
-- 2026-08-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/hqy-20260827.htm
-- 2026-06-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm
-- 2026-05-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000028/hqy-20260430.htm
-- 2026-05-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000027/hqy-20260528.htm
-- 2026-05-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000022/hqy-20260513.htm
-- 2026-05-08 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000016/hqy-20260505.htm
-- 2026-04-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000014/hqy-20260406.htm
-- 2026-03-30 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000012/hqy-20260326.htm
-- 2026-03-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000010/hqy-20260131.htm
+- 2026-08-28 **10-K** — https://www.sec.gov/Archives/edgar/data/933034/000119312526374333/strt-20260628.htm
+- 2026-08-25 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000093303426000003/strt-20260825.htm
+- 2026-05-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526245261/strt-20260528.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312526214153/strt-20260329.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526212420/strt-20260507.htm
+- 2026-04-30 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/933034/000119312526197481/strt-20260430.htm
+- 2026-02-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312526040760/strt-20251228.htm
+- 2026-02-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526039481/strt-20260205.htm
+- 2025-10-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312525260138/strt-20250928.htm
+- 2025-10-30 **8-K** — items 1.01,2.02,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312525258802/strt-20251027.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

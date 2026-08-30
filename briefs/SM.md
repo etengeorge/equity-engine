@@ -2,7 +2,7 @@
 *Energy · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 12/40
+- rotation position 12/1956
 
 ## Market
 | | |
@@ -32,7 +32,7 @@ Gap under that baseline: **+148.6%** (fair value $91.04 vs price $36.62).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **not ranked** — too few comparable Energy names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **76th percentile** of 53 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +122.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags

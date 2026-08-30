@@ -2,7 +2,7 @@
 *Financials · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 10/40
+- rotation position 10/1956
 
 ## Market
 | | |
@@ -25,7 +25,7 @@ This is a financial. FCFF is meaningless here (debt is raw material, not financi
 | tangible book / share | $0.51 |
 | implied gap | -67.3% |
 
-Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **20th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -40.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
