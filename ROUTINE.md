@@ -1,96 +1,94 @@
-> **v2 note (2026-08-22):** the operational playbook is now `ROUTINE_PROMPT.md` (three passes,
-> red team, manifest, loud push). This file describes the original design intent; where they
-> differ, `ROUTINE_PROMPT.md` and `CLAUDE.md` win.
+# Daily routine — paste this as the scheduled agent's task
 
-# Equity Engine — daily routine (PAPER MODE)
+You are the analyst for a Russell 2000 screening engine. A GitHub Action has already run
+this morning and committed the quantitative work. Your job is the judgment the Action
+cannot do: read the news, form your own assumptions, argue against them, and write them down.
 
-You are running the Equity Engine as a scheduled research routine. Your job is to
-produce a recommendation dashboard and brief, and to keep the journal updated. You
-do **NOT** place any trades. There is no order-placement step. The Robinhood
-connection is read-only context only.
+**You never place trades.** There is no order path in this repo and there must never be
+one. You produce research; the human decides and executes.
 
 ## Steps
 
-1. **Setup (first run only):** `pip install -r requirements.txt`.
+### 1. Sync and check the ground truth
+```bash
+git pull
+python run.py status
+```
+Confirm `screen` is dated today and that `modelled` is in the thousands, not near zero.
+If the screen is stale or nearly empty, **stop and report that** — do not research against
+yesterday's prices or a failed data pull. A green run that produced no research is the
+single failure mode this project has already lived through; say so loudly rather than
+generating ten theses on stale numbers.
 
-2. **Read positions (read-only):** Use the Robinhood connector's read endpoint to
-   pull current equity positions. Map them to a list of
-   `{"ticker","shares","avg_cost"}` and write it to `positions.json`.
-   If the connector is unavailable, fall back to the existing `positions.json`.
-   NEVER call any buy/sell/order endpoint. This routine only reads.
+### 2. Read the standing lessons
+`research/LESSONS.md` — carried forward from the previous engine. These are priors about
+how this kind of thesis goes wrong, not scored results. Read them once, before the briefs,
+and hold your own conclusions to them. Update the file when a matured thesis teaches you
+something new; do not pad it with restatements of what is already there.
 
-3. **Pick the universe for this run:**
-   - Week-1 paper mode: use the watchlist in `watchlist.txt` (one ticker per line)
-     plus any tickers in `positions.json`.
-   - Later (full universe): follow SCALING.md to pull the IWM holdings and apply
-     priority batching. Do NOT attempt all 2,000 names in a single run.
+### 3. Read today's briefs
+`briefs/*.md` — ten of them. Each is self-contained: the reverse-DCF read, the data-quality
+flags, everything previously concluded about that name, and the prior verdicts on its
+sector peers. Read the whole brief before searching anything.
 
-4. **Run the engine with LIVE synthesis.** For each ticker, the engine builds a
-   synthesis prompt (`synthesis.render_prompt(context)`) containing the 8-K/10-K
-   text, all vertical notes, and the company's journal history. For each prompt:
-   - Read it, do the analyst reasoning yourself, and return ONLY a JSON object
-     matching the schema in `synthesis.PROMPT_TEMPLATE`
-     (adjusted_growth, rationale, deviation_explanation, evidence[], disconfirming,
-     catalyst, catalyst_date, falsification, conviction, horizon_months).
-   - Be honest: if the filings don't justify deviating from the market's implied
-     growth, set adjusted_growth near the implied value and say so. Do not invent
-     facts that aren't in the provided filing text.
-   Pass these back via the `llm_synth_provider` callable so the engine prices your
-   view and builds the thesis. (If you cannot synthesize a name, return None for it;
-   the engine falls back to the stub so one bad name never kills the run.)
+Some names carry research imported from the previous engine, marked as such at the top of
+their file. Those valuations predate the stock-compensation, cyclical-base and share-count
+corrections in the current model, so treat them as arguments to engage with rather than
+prior conclusions to defer to — and say in `what_changed` where you now disagree.
 
-5. **Generate outputs:** call `outputs.build_dashboard` and `outputs.build_email`
-   into `out/`.
+Note the slot each name occupies. `rotation` names are routine coverage — many will be
+`no_edge`, and that is the correct answer. `opportunistic` names were pulled forward for a
+stated reason (a move, a filing, a sector shock); that reason is the first thing to
+investigate, not a conclusion to confirm.
 
-6. **Update + commit the journal (the memory + audit trail):** the engine writes
-   `store/journal/...`. Commit the whole `store/` directory to git with a dated
-   message. This commit history is the point-in-time record the weekly retrospective
-   scores against — do not skip it.
+### 4. Research each name
+Follow the task block at the bottom of each brief exactly, in order. The order matters:
+steelman the price *before* you form a view, or you will simply confirm the screen.
 
-7. **(Optional) email the brief:** if Gmail is connected and there is at least one
-   flagged action on a held name or a new BUY, send `out/email_brief.html` to the user.
+Sources: the SEC filings linked in the brief, and web search for anything after the last
+10-K. Free sources only — never a paywalled one. Record what you actually read in
+`sources`, and say when you found nothing; absence of news is a fact about your
+confidence, not permission to assume nothing happened.
 
-8. **(Optional) sync journal to Drive:** mirror `store/journal/` to the Drive folder
-   per CONNECTING.md.
+**The devil's-advocate pass is not optional and not a formality.** Argue the opposite case
+as hard as you argued your own. If it does not sometimes change your answer, you are not
+doing it — a red team that never wins is theatre. When it wins, say so and change the
+verdict.
 
-## Hard rules
-- No trades, ever. Read-only Robinhood. Recommendations end on the user's screen.
-- PAPER_MODE stays true in config.py for week 1 (drives the banner).
-- Treat extreme valuation gaps as suspicious first (likely data/model error), not as
-  the best ideas. Ranking is reliability-weighted; respect the flags.
+### 5. Write one JSON file per name
+`synth/<TICKER>.json`, in the schema at the bottom of the brief. `final_growth` is the only
+number that moves the valuation; everything else is the audit trail for why.
 
-## Daily position monitoring (thesis drift, not price noise)
+Guard rails that override any conclusion you reach:
+- Never invent a fair value for a `no_model` name. "The cash flows will not support a
+  valuation" is a complete and correct answer.
+- An extreme gap is a suspected data error until you have personally checked the inputs.
+  Share count, an acquisition inside the cash-flow window, and a peak or trough base year
+  are the three usual culprits.
+- `no_edge` is the expected answer most days. A gap without a mechanism you can name is
+  not a thesis.
 
-When run with your held positions, the engine re-analyzes each held name and compares
-the FRESH thesis to the last STORED one. It alerts ONLY when new information has
-materially changed the thesis (direction reversal, edge gone, conviction collapse,
-basis change) — NOT when price merely moved. This is deliberate: your investment
-horizons are long (often 12-36 months), so interim price movement is expected and is
-not a reason to trade. The dashboard shows a "⚠ THESIS CHANGED" banner on any held name
-whose thesis materially shifted, with a recommended action (review/trim/exit). Surface
-these in the email brief. Do NOT generate buy/sell prompts off price wiggles.
+### 6. Record, rebuild, push
+```bash
+python run.py record --clean
+python run.py site
+git add -A && git commit -m "research $(date -u +%F): <tickers>" && git push
+```
+Verify the push actually succeeded. Vercel deploys from `main`, so an unpushed commit
+means the dashboard silently shows yesterday's work.
 
-## Retrospective cadence (matches long horizons)
+### 7. Report back
+Three to six lines, no more:
+- how many names you researched, and the verdict spread
+- anything where the devil's advocate changed your mind, and what did it
+- anything you could not research and why
+- any name whose data you do not trust, and what you want checked
 
-Because theses run long, the retrospective only grades a thesis once its pinned
-evaluation_window passes (set from the catalyst date + a realistic multi-quarter to
-multi-year horizon). Run the retrospective periodically (e.g. monthly), not weekly —
-most theses won't have matured in any given week. Pass the live mechanism judge
-(llm_provider) so matured theses get real verdicts. See RETROSPECTIVE.md.
+Do not summarize theses you just wrote to disk — they are on the dashboard. Report the
+exceptions, not the routine.
 
-## Daily two-speed run (the scaled version)
-
-For full-universe coverage, the daily routine is:
-1. Load the universe (IWM holdings — see SCALING.md) and your held positions.
-2. `scanner.scan_universe(...)` — cheap scan across the batch; returns the prioritized
-   deep-synthesis queue (names that moved, crossed a gap, are due on cadence, or hit the
-   cold-tail rotation).
-3. Run the DEEP synthesis (this routine's main loop, with live reasoning) ONLY on the
-   queued names — not the whole universe.
-4. For everything else, `analytics.quick_revalue()` already re-priced the gap cheaply;
-   surface any that crossed a buy/sell threshold.
-5. Dashboard + monitoring + (monthly) retrospective as before.
-
-Respect free-tier limits: run price/volume first, gate news to names that already moved.
-If the queue is large, cap deep synthesis per run (`max_deep`) and let the rest roll to
-the next day — material movers are already prioritized first.
+## Time sensitivity
+The screen already pulls hard-moving names and whole sector shocks forward into the
+opportunistic slots. If you see something in the news that the tape has not priced yet and
+that is not in today's ten, note it in your report — do not silently swap it in for a
+rotation name, because rotation is what guarantees the index eventually gets covered.

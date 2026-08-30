@@ -1,3 +1,2 @@
-beautifulsoup4>=4.12
-yfinance>=0.2.40,<1.0
-pypdf>=4.0        # parse House PTR PDFs for congressional-trade sourcing (best-effort; optional)
+yfinance>=0.2.60
+pandas>=2.0

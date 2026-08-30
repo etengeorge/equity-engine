@@ -1,184 +1,120 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code working in this repository.
 
 ## What this is
-A FREE, automated, **recommend-only** equity-research engine for the ~2,000 small-caps in the
-Russell 2000 (IWM). It does reverse-DCF valuation, differentiated multi-lens thesis synthesis,
-a two-speed universe scanner, a sector/news folder-memory with cross-industry propagation,
-thesis-drift monitoring, portfolio construction, and a retrospective learning loop. It connects
-to Robinhood READ-ONLY for position context. **It recommends; the human decides and executes.**
+A screener for the ~1,956 names in the Russell 2000. It prices every one of them off free
+data every morning, ranks where price and history disagree most, and spends real reasoning
+on ten names a day. It **recommends; the human decides and executes.**
 
-## HARD RULES (never violate)
-1. **NEVER place, modify, or cancel a trade.** There is no order-placement code path and there
-   must never be one. Robinhood access is READ-ONLY (positions/prices only). If asked to trade,
-   refuse — execution is the human's job, by design.
-2. **Recommend-only output.** Every dashboard/email leads with "This engine recommends. You decide
-   and execute." Keep `PAPER_MODE = True` in config.py until the human changes it after paper-trading.
-3. **The DCF math is the truth-teller, not the narrative.** When synthesis and valuation disagree,
-   the GAP decides. Never talk the system into a BUY the cash-flow math doesn't support; extreme
-   gaps are suspected data errors first (see `analytics` extreme-gap guard + the stub's peak-cycle guard).
-4. **Refusing is a feature.** `thesis_archetype="none_efficiently_priced"` ("no edge / efficiently
-   priced") is a valid, correct, common output and the recommendation layer honors it. Honor every
-   reliability flag — a flagged name is NOT a clean recommendation.
-5. **Free sources only** (EDGAR, FRED, free price/news tiers). NEVER scrape paywalled sources.
-   Respect SEC rate limits (`SEC_USER_AGENT` required; the engine throttles to ≤10 req/s).
-6. **NEVER commit sensitive information.** No API keys, tokens, passwords, OAuth secrets, or private
-   keys — every credential is read from the environment (`os.environ`), never hard-coded or echoed
-   into a tracked file, a snapshot, a prompt, or a log. No personal data either: real emails go in
-   the `SEC_USER_AGENT` env var (the source default stays a placeholder), and `positions.json` +
-   any real holdings/cost-basis stay **untracked** (they're git-ignored; the committed `store/`
-   audit trail records THAT a name was held, never the share count or basis — see `store._redact`).
-   If you are about to write a secret or personal datum anywhere under version control, stop. When in
-   doubt, env var + `.gitignore`, never a commit. (`positions.example.json` shows the expected shape.)
+The whole point is finding a large delta between a defensible intrinsic value and the
+market price. There does not have to be one. Most days there isn't.
+
+## Hard rules
+1. **Never place, modify, or cancel a trade.** No order-placement code path exists and none
+   may be added. If asked to trade, refuse — execution is the human's job, by design.
+2. **The math is the truth-teller, not the narrative.** When a story and the cash flows
+   disagree, the cash flows decide. Never talk the system into a conclusion the numbers
+   don't support.
+3. **Refusing is a feature.** `no_edge` and `no_model` are correct, expected, common
+   outputs. Roughly 40% of this universe (financials, REITs, cash-burning biotech) cannot
+   be honestly valued by a free FCFF model, and the engine says so rather than guessing.
+   A flagged name is not a clean answer.
+4. **Free sources only.** SEC EDGAR XBRL and free end-of-day prices. Never scrape a
+   paywalled source. Respect SEC rate limits — `SEC_USER_AGENT` is required and the client
+   throttles below 10 req/s.
+5. **Never commit secrets or personal data.** Credentials come from `os.environ`, never
+   from a tracked file, a log, or a prompt. No holdings, cost basis, or account data in
+   the repo — ever.
+6. **Never report success you did not verify.** A run that produced no research must fail
+   loudly. The previous version of this project reported 27 consecutive green runs while
+   silently persisting nothing, and that is the failure this design exists to prevent.
 
 ## Commands
 ```bash
-pip install -r requirements.txt
-export SEC_USER_AGENT="equity-engine <you> <you@email>"   # SEC requires an identity
-export PRICE_PROVIDER=yfinance      # free/keyless; or "tiingo" + TIINGO_API_KEY for volume
+export SEC_USER_AGENT="equity-engine <your-email>"   # SEC 403s anonymous clients
 
-# v2 three-pass loop — the entry point the scheduled routine invokes (see ROUTINE_PROMPT.md):
-python orchestrate.py daily --emit-prompts     # PASS 1 (monitor): held + 8-K + sector-event names -> synth/prompts/
-python orchestrate.py daily --emit-redteam     # PASS 2: feed synth/<TKR>.json; red-team prompts for actionable/held
-python orchestrate.py daily                    # PASS 3: final; journal (live only), manifest, loud push; exit 2 on silent failure
-python orchestrate.py sweep [--batch 300]      # same three passes over the rotating Russell 2000 slice (research)
-python orchestrate.py retro                     # score matured theses -> store/journal/LESSONS.md
-# Any mode accepts --watchlist-only (watchlist.txt instead of the index), --no-commit, --no-news.
-
-# The routine directly (orchestrate wraps it); --live uses _live_synthesis.provider, else the stub:
-python routine.py daily [--iwm --batch N --limit N --live --no-news --dry --refresh-universe]
-
-# One-off on explicit tickers:
-python run.py --tickers SHOO,PRDO,CRAI,CALM --positions positions.json
-
-# Tests — standalone scripts (NOT pytest); each prints "N passed, M failed":
-python qa_harness.py        # ~145 checks, hits the network (EDGAR/prices)
-python _extreme_cases.py    # ~150 offline adversarial/regression checks (isolated temp store)
-python -m py_compile *.py    # fast syntax check of every module
+python run.py screen           # price + value all 1,956 names. No LLM. ~20 min.
+python run.py screen --limit 40  # a fast slice while developing
+python run.py pick             # choose today's ten, write briefs/<TKR>.md
+python run.py record --clean   # ingest synth/<TKR>.json into research/ + data/verdicts/
+python run.py site             # rebuild public/index.html
+python run.py status           # what state is this repo in
+python run.py daily            # screen + pick (what the GitHub Action runs)
 ```
-There is no per-test runner: the suites are monolithic. To isolate a failing area, grep the
-script for the assertion and reproduce it in a `python -c`. `_hardcases.py` is a live 3-case
-integration demo. `_live_synthesis.py` holds four hand-authored live theses (SHOO/PRDO/CRAI/CALM)
-used by `--live` and as the demo fallback provider.
 
-## Architecture (the big picture — these flows span multiple files)
+## Architecture
 
-**The dual reverse-DCF is the spine.** Per name, `engine.analyze_ticker`:
-`data_sources.resolve_cik` → `extract_fundamentals` (EDGAR XBRL) → `get_prices` → `analytics`
-gates + WACC → **reverse DCF #1** solves the growth the market's PRICE implies (`implied_growth`)
-→ `synthesis.build_context` → **synthesis** emits `adjusted_growth` (the analyst's base-case 5y
-FCFF growth) → **reverse DCF #2** prices that → fair value + `gap_vs_price` → `thesis.build_thesis`
-→ `engine._recommend_one`. The market's number and the analyst's number are the same DCF run two
-ways; the GAP drives BUY/ADD/HOLD/SELL/PASS, gated by reliability + liquidity, sized by conviction.
+**The spine is one model run two ways.** `valuation.py` holds a two-stage FCFF model.
+Run it backwards (`reverse_dcf`) and it solves for the growth rate that reproduces today's
+enterprise value — that is what the market assumes. Run it forwards (`forward_dcf`) with
+an assumption of your own and compare. The difference is the only thing this engine looks
+for. `screen.py` does the backwards pass for everything; `record.py` does the forwards
+pass with the analyst's number.
 
-**Synthesis is the only judgment step, and it is isolated.** `synthesis.synthesize(context,
-llm_json)` → `from_llm_json` (live) or `stub_synthesize` (deterministic, tagged `[STUB]`, NOT
-judgment). The ONLY difference between a test run and a real-judgment run is whether
-`engine.run(..., llm_synth_provider=...)` is supplied — a callable `(prompt:str)->json_str`
-that in production is Claude reasoning at the orchestration layer. The 7-step reasoning lives in
-`synthesis.PROMPT_TEMPLATE`. `adjusted_growth` is the single float that moves money; every other
-field is the audit trail. Parsing tolerates fences/prose/missing fields, clamps conviction/horizon,
-validates the archetype, and falls back to the stub on bad JSON (`stub_after_parse_error`).
+**Two speeds, because 1,956 names cannot all get judgment.** `screen.py` costs zero LLM
+tokens: one bulk price pull, cached EDGAR extracts, pure arithmetic. Its forward
+assumption is a deliberately dumb baseline (the company's own revenue history) whose only
+job is ranking. `daily.py` then spends the ten expensive slots — six rotation (guarantees
+the index eventually gets covered), four opportunistic (guarantees we are not blind to a
+name that just halved). Every pick records why it was picked.
 
-**Two-speed scaling (scanner.py + routine.py).** Deep-analyzing 2,000 names daily is infeasible,
-so `scanner.scan_universe` runs a CHEAP scan (one price pull for abnormal-move/volume, a
-`data_sources.recent_8k_filer_ciks` firehose set-lookup for 8-K filers, news gated to movers/held,
-`analytics.quick_revalue` re-pricing) and promotes a prioritized DEEP queue; `engine.run`
-deep-synthesizes ONLY that queue (capped at `--max-deep`/`config.MAX_DEEP_PER_RUN`). `--batch N`
-rotates a persisted cursor (`universe.next_batch`) so 2–3 runs/day sweep the whole index; held
-names + 8-K filers + sector-event names are covered EVERY run.
+**Three valuation methods, chosen by what the accounting supports.** `fcff` for operating
+companies. `book` for financials — justified P/TBV from sustainable ROTCE, because free
+cash flow to the firm is meaningless when debt is raw material. `none` for REITs and
+anything with negative normalized cash flow. The method is set per sector in
+`universe.csv` and can still degrade to no-number at run time when the data gates fail.
 
-**Universe (universe.py).** `load_iwm_universe`: local `IWM_holdings.csv` → iShares CSV → SEC
-all-filers superset (the iShares CSV is consent-gated for headless fetches). `record_membership`
-diffs entrants/departures (churn); held names that left the index are flagged. Cursor + membership
-persist under `store/`.
+`research/LESSONS.md` holds standing priors about how these theses fail, carried forward
+from the previous engine and read by the analyst before every session.
 
-**Sector/news memory (sectors.py + journal.py) — a folder per vertical.**
-`store/journal/verticals/<Sector>/` holds `_sector.md`/`_sector.json` (the dossier: drivers, an
-entity→ticker relationship graph, a dated event log) AND `<TICKER>.md` (company news + thesis
-history). Synthesis CONSUMES the dossier (the `structural_second_order` lens) and FEEDS it via
-emitted `relationships` / `sector_update` / `company_news` (engine writes them after each analysis).
-A relationship/learning tagged with another industry routes into that industry's dossier
-(CROSS-INDUSTRY). `sectors.affected_tickers` (news→company) and `recent_event_tickers` (a vertical
-event → re-examine the names it touches) wire the news arm INTO scan promotion.
+**Memory is a folder tree.** `research/<Sector>/<TICKER>.md` is append-only, newest at the
+bottom. `brief.py` feeds each name its own history *and* prior verdicts on its sector
+peers, so the second pass through the index is better informed than the first. Context is
+capped per section — v1 of this project silently truncated a 90k-character prompt and the
+memory layer never reached the analyst.
 
-**Outputs + audit (outputs.py, store.py, retrospective.py).** `build_dashboard` (a capped
-cross-universe long/short BOARD under `--iwm`, full book on watchlist) + `build_email`; both
-surface index-departure + membership churn. `store/companies/*.json` are append-only snapshots;
-`store/` is the git-tracked point-in-time audit trail (`connectors.commit_store`). The retrospective
-grades matured theses (past their pinned `evaluation_window`) on idiosyncratic excess return vs a
-same-sector basket → `LESSONS.md`, which future synthesis reads back.
+**The daily job is split across two runtimes on purpose.** A GitHub Action
+(`ci/screen.yml`; see `ci/README.md` for why it is parked there) has real internet and does all the fetching and
+arithmetic, then commits. The Claude routine (`ROUTINE.md`) only reads the clone and
+reasons. This survives the failure that killed the previous version: a scheduled
+environment with no network egress.
 
-**Orchestration (orchestrate.py, connectors.py, ROUTINE_PROMPT.md).** `orchestrate.py` is the single
-entry point: a file-based synth provider (`synth/<TICKER>.json` written by the agent) + a real git
-committer. `connectors.py` are dry-run seams (read-only Robinhood positions, Gmail brief, Drive
-mirror, git commit) the orchestration layer (a Claude Code cloud routine) injects live.
-`ROUTINE_PROMPT.md` is the scheduled-agent playbook. See `CONNECTING.md` (wiring) and `SCALING.md`
-(full-universe + free rotation recipe).
+## Things that are easy to get wrong here
+These are all real bugs that were found and fixed; do not reintroduce them.
 
-## v2 changes (what broke in v1 and what now prevents it)
-- **Audit push is loud.** `orchestrate.git_committer` records push success/failure; the manifest
-  (`store/runs/<date>_<mode>.json`) carries it and the final pass exits 2 if a commit did not push.
-  v1 discarded push output; 27 "successful" cloud runs never persisted because each fresh clone
-  started from the last pushed state.
-- **Universe refuses the SEC superset.** `universe.py` order: local CSV -> iShares -> Vanguard VTWO
-  (works headlessly) -> stop. `ALLOW_SEC_SUPERSET=1` to override. v1 silently scanned 10k filers.
-- **Context is budgeted, never sliced.** `synthesis.CONTEXT_BUDGET` caps each section; targeted
-  `data_sources.filing_sections` replaces 8k-char filing heads; `_fit_context` trims whole
-  sections under the hard cap and always emits valid JSON. v1 cut at 90k chars mid-string and the
-  sector dossier / history / lessons never reached the analyst.
-- **Stub never writes to memory.** `engine.run` journals only `synthesis_source == "llm"`.
-  `scripts_scrub_stub_journal.py` removed the 10 v1 `[STUB]` entries (one-time; idempotent).
-- **Red team is a separate, binding pass.** `synthesis.RED_TEAM_TEMPLATE` -> `parse_red_team` ->
-  `apply_red_team`. DEAD forces `none_efficiently_priced`/conviction 1; WOUNDED cuts conviction;
-  SURVIVES may add at most 1. The DCF input (`adjusted_growth`) is never touched by the red team.
-  Actionable names without a verdict fail the manifest check.
-- **Mechanical conviction cap:** `sign_survives_fcff_band == False` -> conviction <= 2.
-- **Short side:** `SHORT CANDIDATE` for unheld, reliable, liquid (>= $5M ADV) names at gap <= -30%
-  with a live thesis at conviction >= 3; scanner promotes on `SCAN_GAP_SHORT`.
-- **Street consensus seam:** `synth/consensus/<TKR>.json` (Capital IQ via the S&P Global connector
-  when it works, else a web-sourced snapshot the routine writes) -> `street_consensus` in context.
-- **Email leads with deltas** (`outputs.build_changes`): action changes vs the stored prior, red-team
-  downgrades, drift on holdings. Short candidates get their own section.
-- `daily` = monitor (held + 8-K + events, deep cap 8, no universe price sweep); `sweep` = research
-  (rotating 300-name slice, deep cap 25). Stooq cross-check replaced (JS wall) with a yfinance alt read.
-
-## Live synthesis (executing ROUTINE.md / ROUTINE_PROMPT.md)
-Follow `synthesis.PROMPT_TEMPLATE`'s 7 steps exactly: steelman the consensus → run every lens →
-name the SPECIFIC mispricing mechanism (weigh the SPREAD of perspectives; do NOT count agreement
-as confidence) → bull/base/bear → catalyst pathway → disconfirm → size with a realistic 12–36 month
-horizon. Read `LESSONS.md` first. On a MATERIAL EVENT (8-K/partnership/regulatory/guidance)
-RE-UNDERWRITE the mechanism and the DCF — don't footnote it (confirmed = ≥2 sources or an 8-K →
-full re-rate; provisional → mark target provisional, await corroboration). Sentiment triggers a
-LOOK, never an ACT. Return ONLY the JSON the prompt asks for.
-
-## Cadence
-DAILY (2–3×, weekday): cheap two-speed scan + rotation + drift on holdings + cheap re-priced gaps;
-deep synthesis only on promoted names. TWICE-WEEKLY / on material trigger: full DCF re-do.
-MONTHLY: retrospective + rebalance review — interim price drift on a long (12–36mo) thesis is
-expected and is NOT a reason to trade.
-
-## Universe source (committed CSV, not live-sourced)
-The Russell 2000 comes from a **committed `IWM_holdings.csv`**, which `universe.py` reads before
-any network source. Scheduled/cloud runs frequently sit behind a restricted network policy where
-`ishares.com`, `investor.vanguard.com` and even `sec.gov` are unreachable, so a file in the repo is
-the only dependable path. The owner refreshes it periodically (README: "Refreshing the universe").
-`universe.py` parses `Fund Holdings as of` from the preamble; past `STALE_AFTER_DAYS` (120) the run
-labels the source `STALE`, sets `universe_stale` in the manifest, and `orchestrate._check_manifest`
-makes it an exit-2 problem. Do NOT paper over a stale universe (widening the threshold, editing the
-as-of date, or dropping the check) — the index reconstitutes each June and a silently-wrong universe
-is precisely the v1 failure v2 exists to catch. The fix is always a fresh CSV.
-
-## Git workflow for scheduled runs (owner-authorized)
-The harness lands scheduled runs on a branch + PR rather than pushing straight to `main`. The owner
-has authorized **auto-merging those routine-run PRs**: open the PR, then merge it in the same run so
-`store/` actually persists on `main` — an unmerged run is a lost run, the same failure as v1's
-unpushed pushes. This standing authorization covers the routine's own audit-trail commits
-(`store/`, `public/index.html`, run manifests). It does NOT extend to PRs that change engine code,
-hard rules, or safety gates — those still wait for human review. Never merge a PR whose run was
-flagged (exit 2) without saying so plainly in the report.
+- **Alias order must never beat recency.** `edgar._series` picks the XBRL concept with the
+  most recent data, not the first one listed. Commercial Metals still populates `Revenues`
+  with FY2011 values; first-match-wins handed back 15-year-old revenue as current.
+- **Average ratios, not levels.** `justified_pb` averages per-year ROTCE and prices against
+  the *latest* tangible book. Averaging book levels across an acquisition (UMBF: $3.5B →
+  $7.7B) reported a bank at 4.5x tangible book when it actually traded at 2.05x.
+- **A missing tag is not a negative number.** Absent `OperatingIncomeLoss` used to be read
+  as a loss and blackballed profitable companies out of the model.
+- **Capex tagging is industry-specific.** E&P, mining and utilities each use their own
+  concept; a manufacturer-only alias list silently drops whole sectors.
+- **Don't clamp a beta you can measure.** Low beta is gated on regression R², not on a
+  floor. Clamping CALM's real 0.27 up to 0.60 would move its cost of equity ~200bp.
+- **Absolute gaps are not comparable across sectors.** They shift with the equity risk
+  premium and terminal growth, which are choices. That is why every gap is reported
+  alongside a cohort percentile, which does not.
+- **Not every annual report is a 10-K.** Foreign private issuers file 20-F and Canadian
+  issuers 40-F. Filtering to `10-K` dropped *every* fundamental for ~90 names (Golar LNG,
+  Scorpio Tankers, DHT), not just one field. Several of those are IFRS filers whose facts
+  live under `ifrs-full` with entirely different concept names.
+- **Share count comes from the cover page, not the annual period.**
+  `dei:EntityCommonStockSharesOutstanding` is an instant fact filed with every 10-Q. Taking
+  it only from the 10-K both missed companies that tag it quarterly and priced today's
+  share price against a count up to a year stale — a real error in market cap once a
+  buyback or a raise has happened, not a rounding one.
+- **NaN is not valid JSON.** pandas returns NaN for every missing value and `json.dumps`
+  writes a bare `NaN` token that Python accepts and every strict parser rejects. Screen
+  output is sanitized before writing and written with `allow_nan=False`.
+- **Never preemptively rewrite tickers.** Class-share symbols are repaired only after an
+  empty download (MOGA → MOG-A); 263 universe names say "CLASS A" and nearly all of their
+  tickers are already correct.
 
 ## Honesty
-State uncertainty plainly. `[STUB]` output is not real judgment. "Passed QA" is not "has edge."
-The human paper-trades first to find out whether the reasoning is any good — support that.
+State uncertainty plainly. "The screen flagged it" is not "it is cheap." "Tests pass" is
+not "the reasoning is any good." The human paper-trades first to find out whether the
+judgment has edge — support that, don't oversell it.
