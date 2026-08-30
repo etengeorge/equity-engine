@@ -1,9 +1,0 @@
-# Equity Engine watchlist — one ticker per line. '#' starts a comment.
-# Week-1 paper-mode universe (held names in positions.json are always added too).
-# Scale to the full IWM universe later per SCALING.md.
-PLAB    # Photronics — photomask maker (semis)
-SHOO    # Steven Madden — footwear/accessories (held)
-UFPT    # UFP Technologies — medical/industrial packaging
-CALM    # Cal-Maine Foods — shell eggs
-PRDO    # Perdoceo Education — for-profit education (held)
-CRAI    # CRA International — economic/litigation consulting

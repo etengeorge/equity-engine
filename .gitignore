@@ -1,43 +1,17 @@
-# Python
+# Raw EDGAR payloads — gigabytes, and fully regenerable.
+# data/fundamentals.json is the durable extract that IS committed.
+cache/
+
+# Analyst output is transient: record.py folds it into research/ and data/verdicts/.
+synth/*.json
+
 __pycache__/
 *.pyc
+.DS_Store
+.venv/
+venv/
 
-# Regenerated build artifacts (rebuilt every run)
-out/
-
-# Per-run agent synthesis hand-off (live JSON written by the orchestration agent)
-synth/
-
-# Local universe cache (re-fetched)
-store/universe_resolved.txt
-
-# Congressional-trade cache (FD.zip XML, parsed PTR PDFs, seen/trades state) — all
-# re-derivable from the free House Clerk feed each run; never commit the bulky cache.
-store/congress/
-
-# Note: store/ (the journal + snapshots) IS tracked on purpose — it is the
-# point-in-time audit trail the retrospective scores against (ROUTINE.md step 6).
-
-# ---- Secrets & personal data — NEVER commit (HARD RULE 6) -------------------
-# Real holdings (ticker/shares/cost-basis). Track positions.example.json instead.
+# Never commit holdings, cost basis, or anything account-specific.
 positions.json
-# Environment / credential files
-.env
-.env.*
+holdings*.csv
 *.env
-.envrc
-.netrc
-# Keys, certs, tokens, service-account files
-*.key
-*.pem
-*.p12
-*.pfx
-*.pkcs12
-*credentials*
-*secret*
-*.token
-service-account*.json
-gcp-*.json
-client_secret*.json
-# Local per-user Claude Code settings (machine-specific; may contain paths/email)
-.claude/settings.local.json
