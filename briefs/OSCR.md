@@ -1,61 +1,52 @@
-# BBW — BUILD A BEAR WORKSHOP
-*Consumer Discretionary · brief generated 2026-08-30 · selected as **opportunistic***
+# OSCR — OSCAR HEALTH CLASS A
+*Financials · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 130 Consumer Discretionary peers (96th pct)
-- baseline gap +216%
-- 5d move -23%
-- 21d move -15%
-- filed an 8-K in the last few sessions
+- baseline gap -145%
 - never researched
-- urgency score 9.1
+- urgency score 1.1
 
 ## Market
 | | |
 |---|---|
-| price | $29.85 |
-| market cap | $374.2M |
-| 5d / 21d / 63d / 252d | -23.2% / -15.4% / -19.2% / -48.0% |
-| 60d avg daily $ volume | $16.2M |
-| beta (vs IWM) | 0.66 (R²=0.065) |
+| price | $30.47 |
+| market cap | $8.0B |
+| 5d / 21d / 63d / 252d | -4.9% / -2.4% / +37.1% / +79.0% |
+| 60d avg daily $ volume | $176.0M |
+| beta (vs IWM) | 0.99 (R²=0.054) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$37.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$39.5M', '$27.8M', '$46.0M']
-Enterprise value **$346.0M** · FCFF yield **+10.9%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 8.3% − 1pt | -15.2% |
-| **8.3% (point)** | **-11.7%** |
-| 8.3% + 1pt | -8.6% |
+| sustainable ROTCE | -25.5% |
+| cost of equity | +10.2% |
+| justified P/TBV | -3.65 |
+| actual P/TBV | 8.18 |
+| tangible book / share | $3.73 |
+| implied gap | -144.7% |
 
-
-Naive baseline for comparison: **+15.7%** (5y revenue CAGR +15.7%).
-Gap under that baseline: **+216.1%** (fair value $94.37 vs price $29.85).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **96th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +210.0%).
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `operating_leases_29%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
+- `speculative_cost_of_debt_but_only_5%_debt_weight`
+- `unstable_rotce_-45.3%_to_2.5%`
+- `loss_year_in_window`
 
 ## Recent filings
-- 2026-08-27 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/bbw20260826_8k.htm
-- 2026-06-12 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926020380/bbw20260610c_8k.htm
-- 2026-06-12 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926020370/bbw20260610_8k.htm
-- 2026-06-11 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926020299/bbw20260605_8k.htm
-- 2026-06-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1113809/000143774926020239/bbw20260417_10q.htm
-- 2026-05-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926018669/bbw20260527_8k.htm
-- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1113809/000143774926013976/bbw20260427_def14a.htm
-- 2026-04-16 **10-K** — https://www.sec.gov/Archives/edgar/data/1113809/000143774926012501/bbw20251218c_10k.htm
-- 2026-03-12 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926007825/bbw20260311c_8k.htm
-- 2026-03-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113809/000143774926007824/bbw20260312_8k.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000069/oscr-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscr-20260806.htm
+- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000059/oscr-20260604.htm
+- 2026-06-08 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000054/oscr-20260608.htm
+- 2026-06-02 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000048/oscr-20260529.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000040/oscr-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000036/oscr-20260506.htm
+- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1568651/000114036126016119/ny20059895x771_def14a.htm
+- 2026-04-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000028/oscr-20260421.htm
+- 2026-03-02 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000014/oscr-20260302.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

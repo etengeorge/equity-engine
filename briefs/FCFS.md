@@ -1,58 +1,51 @@
-# FROG — JFROG
-*Information Technology · brief generated 2026-08-30 · selected as **rotation***
+# FCFS — FIRSTCASH HOLDINGS INC
+*Financials · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 2/1956
+- rotation position 10/40
 
 ## Market
 | | |
 |---|---|
-| price | $98.74 |
-| market cap | $12.2B |
-| 5d / 21d / 63d / 252d | +7.2% / +25.9% / +24.2% / +101.6% |
-| 60d avg daily $ volume | $234.2M |
-| beta (vs IWM) | 0.65 (R²=0.052) |
+| price | $219.21 |
+| market cap | $9.5B |
+| 5d / 21d / 63d / 252d | -2.7% / +8.8% / -0.1% / +48.8% |
+| 60d avg daily $ volume | $102.7M |
+| beta (vs IWM) | None (R²=0.029) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$107.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$142.3M', '$107.8M', '$72.2M']
-Enterprise value **$11.5B** · FCFF yield **+0.9%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 8.3% − 1pt | +44.3% |
-| **8.3% (point)** | **+50.7%** |
-| 8.3% + 1pt | +56.4% |
+| sustainable ROTCE | +1083.6% |
+| cost of equity | +10.2% |
+| justified P/TBV | 140.04 |
+| actual P/TBV | 428.34 |
+| tangible book / share | $0.51 |
+| implied gap | -67.3% |
 
-
-> **Stock compensation is 119% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$-20.2M**, which is not positive — no growth rate can be solved for on that basis. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+25.0%** (5y revenue CAGR +28.7% (clamped to +25.0%)).
-Gap under that baseline: **-55.4%** (fair value $44.00 vs price $98.74).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **34th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -23.0%).
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_2.0x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_119%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `beta_defaulted_to_1.0(unreliable_r2_0.029_raw_0.20)`
+- `goodwill_and_intangibles_99%_of_book`
+- `unstable_rotce_678.7%_to_1488.4%`
+- `rotce_1084%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1800667/000119312526340294/frog-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm
-- 2026-05-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1800667/000119312526236917/frog-20260520.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1800667/000119312526214647/frog-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1800667/000119312526211940/frog-20260507.htm
-- 2026-04-07 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1800667/000119312526145562/frog-20260407.htm
-- 2026-02-26 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1800667/000119312526073842/frog-20260226.htm
-- 2026-02-13 **10-K** — https://www.sec.gov/Archives/edgar/data/1800667/000119312526051382/frog-20251231.htm
-- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1800667/000119312526048726/frog-20260212.htm
-- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1800667/000119312525272362/frog-20250930.htm
+- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000087/fcfs-20260806.htm
+- 2026-07-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/840489/000084048926000085/fcfs-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000082/fcfs-20260723.htm
+- 2026-07-22 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000080/fcfs-20260722.htm
+- 2026-07-16 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926084072/tm2620535d1_8k.htm
+- 2026-06-23 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_8k.htm
+- 2026-06-18 **8-K** — items 3.03,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926075855/tm2618096d1_8k.htm
+- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000073/fcfs-20260609.htm
+- 2026-05-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000061/fcfs-20260511.htm
+- 2026-05-01 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926054143/tm2613265d1_8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

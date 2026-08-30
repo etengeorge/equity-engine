@@ -1,59 +1,55 @@
-# MOGA — MOOG INC CLASS A
-*Industrials · brief generated 2026-08-30 · selected as **rotation***
+# SM — SM ENERGY
+*Energy · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 3/1956
+- rotation position 12/40
 
 ## Market
 | | |
 |---|---|
-| price | $374.66 |
-| market cap | $12.0B |
-| 5d / 21d / 63d / 252d | -3.7% / -10.6% / +4.2% / +89.8% |
-| 60d avg daily $ volume | $121.1M |
-| beta (vs IWM) | 1.08 (R²=0.411) |
+| price | $36.62 |
+| market cap | $8.7B |
+| 5d / 21d / 63d / 252d | -1.6% / +15.8% / +20.1% / +35.4% |
+| 60d avg daily $ volume | $117.5M |
+| beta (vs IWM) | None (R²=0.021) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$101.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$128.4M', '$46.3M', '$-37.4M']
-Enterprise value **$12.9B** · FCFF yield **+0.8%**
+Normalized FCFF base **$676.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$573.0M', '$471.9M', '$585.0M']
+Enterprise value **$10.4B** · FCFF yield **+6.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.2% − 1pt | +61.7% |
-| **10.2% (point)** | **+67.2%** |
-| 10.2% + 1pt | +72.3% |
+| 9.2% − 1pt | -0.8% |
+| **9.2% (point)** | **+2.8%** |
+| 9.2% + 1pt | +6.1% |
 
 
-> **Stock compensation is 31% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$87.2M** and an implied growth of **+72.5%** instead of +67.2%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+6.0%** (5y revenue CAGR +6.0%).
-Gap under that baseline: **-94.4%** (fair value $21.06 vs price $374.66).
+Naive baseline for comparison: **+22.9%** (5y revenue CAGR +22.9%).
+Gap under that baseline: **+148.6%** (fair value $91.04 vs price $36.62).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **5th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -80.5%).
+Cohort: **not ranked** — too few comparable Energy names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_3.6x_of_mean`
-- `stock_comp_is_31%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `beta_defaulted_to_1.0(unreliable_r2_0.021_raw_0.39)`
 
 ## Recent filings
-- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/67887/000162828026051294/mog-20260627.htm
-- 2026-07-31 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026051250/mog-20260731.htm
-- 2026-07-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026047105/mog-20260701.htm
-- 2026-04-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/67887/000162828026027064/mog-20260328.htm
-- 2026-04-24 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026027030/mog-20260424.htm
-- 2026-04-03 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/67887/000162828026023542/mog-20260403.htm
-- 2026-03-24 **8-K** — items 1.01,2.03,2.04 — https://www.sec.gov/Archives/edgar/data/67887/000162828026020809/mog-20260324.htm
-- 2026-03-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026016411/mog-20260310.htm
-- 2026-03-10 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026016242/mog-20260310.htm
-- 2026-03-03 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/67887/000162828026013594/mog-20260226.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000121/sm-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/sm-20260805.htm
+- 2026-07-16 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000104/sm-20260716.htm
+- 2026-06-01 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000071/sm-20260601.htm
+- 2026-05-22 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000069/sm-20260521.htm
+- 2026-05-12 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000064/sm-20260511.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000061/sm-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000059/sm-20260506.htm
+- 2026-04-30 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000055/sm-20260430.htm
+- 2026-04-17 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000052/sm-20260417.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

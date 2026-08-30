@@ -1,61 +1,64 @@
-# WLFC — WILLIS LEASE FINANCE
-*Industrials · brief generated 2026-08-30 · selected as **opportunistic***
+# HQY — HEALTHEQUITY
+*Health Care · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 7% of 152 Industrials peers (93th pct)
-- baseline gap +177%
-- 21d move -26%
+- baseline gap +26%
+- discounted: stock comp is 24% of reported FCFF
+- discounted: cash-flow base may be a cycle peak
+- 5d move -9%
 - filed an 8-K in the last few sessions
 - never researched
-- urgency score 7.54
+- urgency score 2.63
 
 ## Market
 | | |
 |---|---|
-| price | $53.42 |
-| market cap | $1.1B |
-| 5d / 21d / 63d / 252d | -1.7% / -26.2% / -69.7% / -64.5% |
-| 60d avg daily $ volume | $23.0M |
-| beta (vs IWM) | 1.53 (R²=0.185) |
+| price | $96.37 |
+| market cap | $8.0B |
+| 5d / 21d / 63d / 252d | -8.6% / -4.6% / +9.5% / +9.5% |
+| 60d avg daily $ volume | $83.7M |
+| beta (vs IWM) | 0.69 (R²=0.158) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$350.2M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$252.2M', '$268.8M', '$224.6M']
-Enterprise value **$3.8B** · FCFF yield **+9.1%**
+Normalized FCFF base **$387.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$455.1M', '$337.8M', '$241.1M']
+Enterprise value **$8.6B** · FCFF yield **+4.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 14.6% − 1pt | +6.8% |
-| **14.6% (point)** | **+9.1%** |
-| 14.6% + 1pt | +11.4% |
+| 8.1% − 1pt | +2.6% |
+| **8.1% (point)** | **+7.1%** |
+| 8.1% + 1pt | +11.2% |
 
 
-> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$320.7M** and an implied growth of **+11.5%** instead of +9.1%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 24% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$305.2M** and an implied growth of **+12.8%** instead of +7.1%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+20.4%** (5y revenue CAGR +20.4%).
-Gap under that baseline: **+176.7%** (fair value $147.81 vs price $53.42).
+Naive baseline for comparison: **+12.4%** (5y revenue CAGR +12.4%).
+Gap under that baseline: **+26.4%** (fair value $121.80 vs price $96.37).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **93th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +190.6%).
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_24%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-25 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/wlfc-20260824.htm
-- 2026-08-06 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000070/wlfc-20260803.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000068/wlfc-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000065/wlfc-20260804.htm
-- 2026-07-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000063/wlfc-20260729.htm
-- 2026-07-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000061/wlfc-20260721.htm
-- 2026-07-17 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526307870/d85905d8k.htm
-- 2026-07-14 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000058/wlfc-20260710.htm
-- 2026-07-10 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526300912/d142690d8k.htm
-- 2026-06-23 **8-K** — items 5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000119312526279754/d129925d8k.htm
+- 2026-08-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000041/hqy-20260731.htm
+- 2026-08-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/hqy-20260827.htm
+- 2026-06-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm
+- 2026-05-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000028/hqy-20260430.htm
+- 2026-05-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000027/hqy-20260528.htm
+- 2026-05-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000022/hqy-20260513.htm
+- 2026-05-08 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000016/hqy-20260505.htm
+- 2026-04-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000014/hqy-20260406.htm
+- 2026-03-30 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000012/hqy-20260326.htm
+- 2026-03-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000010/hqy-20260131.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

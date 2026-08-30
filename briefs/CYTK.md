@@ -1,48 +1,56 @@
-# UMBF — UMB FINANCIAL
-*Financials · brief generated 2026-08-30 · selected as **rotation***
+# CYTK — CYTOKINETICS
+*Health Care · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 1/1956
+- rotation position 7/40
 
 ## Market
 | | |
 |---|---|
-| price | $144.59 |
-| market cap | $11.0B |
-| 5d / 21d / 63d / 252d | -0.4% / -0.6% / +10.5% / +19.2% |
-| 60d avg daily $ volume | $91.8M |
-| beta (vs IWM) | 1.08 (R²=0.569) |
+| price | $72.09 |
+| market cap | $10.0B |
+| 5d / 21d / 63d / 252d | -6.2% / -10.4% / -6.1% / +90.6% |
+| 60d avg daily $ volume | $162.9M |
+| beta (vs IWM) | 0.73 (R²=0.066) |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +13.1% |
-| cost of equity | +10.7% |
-| justified P/TBV | 1.3 |
-| actual P/TBV | 2.05 |
-| tangible book / share | $70.66 |
-| implied gap | -36.4% |
+| 8.9% − 1pt | n/a |
+| **8.9% (point)** | **n/a** |
+| 8.9% + 1pt | n/a |
 
-Cohort: **41th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -9.6%).
+
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $72.09).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_30%_of_book`
+- `speculative_cost_of_debt_but_only_3%_debt_weight`
+- `negative_fcf_year_in_window`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/101382/000119312526325054/umbf-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/101382/000119312526320980/umbf-20260728.htm
-- 2026-04-30 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/101382/000119312526197753/umbf-20260428.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/101382/000119312526194310/umbf-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/101382/000119312526186932/umbf-20260428.htm
-- 2026-03-12 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/101382/000119312526103203/d82141ddef14a.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/101382/000119312526076496/umbf-20251231.htm
-- 2026-02-10 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/101382/000119312526044638/umbf-20260209.htm
-- 2026-01-27 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/101382/000119312526024400/umbf-20260127.htm
-- 2025-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/101382/000119312525257610/umbf-20250930.htm
+- 2026-08-28 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526372456/cytk-20260828.htm
+- 2026-08-13 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526348060/cytk-20260813.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1061983/000119312526338217/cytk-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526338021/cytk-20260806.htm
+- 2026-05-27 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526241840/cytk-20260527.htm
+- 2026-05-08 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526214606/d138544d8k.htm
+- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206420/d124879d8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206364/cytk-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206360/cytk-20260505.htm
+- 2026-04-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1061983/000114036126015364/ny20063687x771_def14a.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

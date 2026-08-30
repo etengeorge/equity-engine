@@ -1,55 +1,61 @@
-# EAT — BRINKER INTERNATIONAL INC
-*Consumer Discretionary · brief generated 2026-08-30 · selected as **rotation***
+# SSRM — SSR MINING
+*Materials · brief generated 2026-08-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 5/1956
+- baseline gap -83%
+- 21d move +40%
+- never researched
+- urgency score 1.8
 
 ## Market
 | | |
 |---|---|
-| price | $230.19 |
-| market cap | $9.6B |
-| 5d / 21d / 63d / 252d | -6.4% / +9.7% / +61.7% / +47.4% |
-| 60d avg daily $ volume | $201.2M |
-| beta (vs IWM) | 0.73 (R²=0.081) |
+| price | $37.29 |
+| market cap | $7.6B |
+| 5d / 21d / 63d / 252d | -1.3% / +39.9% / +19.6% / +102.4% |
+| 60d avg daily $ volume | $94.8M |
+| beta (vs IWM) | 0.93 (R²=0.084) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$429.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$557.5M', '$413.7M', '$223.0M']
-Enterprise value **$9.9B** · FCFF yield **+4.3%**
+Normalized FCFF base **$125.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$241.6M', '$-103.4M', '$198.3M']
+Enterprise value **$8.1B** · FCFF yield **+1.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.5% − 1pt | +5.3% |
-| **8.5% (point)** | **+9.7%** |
-| 8.5% + 1pt | +13.6% |
+| 9.6% − 1pt | +37.4% |
+| **9.6% (point)** | **+42.3%** |
+| 9.6% + 1pt | +46.9% |
 
 
-Naive baseline for comparison: **+11.7%** (5y revenue CAGR +11.7%).
-Gap under that baseline: **+8.9%** (fair value $250.75 vs price $230.19).
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$106.8M** and an implied growth of **+47.1%** instead of +42.3%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+2.1%** (4y revenue CAGR +2.1%).
+Gap under that baseline: **-82.9%** (fair value $6.39 vs price $37.29).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **52th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +2.7%).
+Cohort: **not ranked** — too few comparable Materials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_3.1x_of_mean`
 
 ## Recent filings
-- 2026-08-19 **10-K** — https://www.sec.gov/Archives/edgar/data/703351/000070335126000029/eat-20260624.htm
-- 2026-08-12 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/703351/000070335126000026/eat-20260810.htm
-- 2026-06-17 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/703351/000070335126000022/eat-20260616.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/703351/000070335126000015/eat-20260325.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/703351/000070335126000013/eat-20260429.htm
-- 2026-03-02 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/703351/000070335126000008/eat-20260226.htm
-- 2026-01-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/703351/000070335126000006/eat-20251224.htm
-- 2026-01-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/703351/000070335126000004/eat-20260128.htm
-- 2025-11-24 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/703351/000070335125000051/eat-20251120.htm
-- 2025-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/703351/000070335125000046/eat-20250924.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000082/ssrm-20260804.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000081/ssrm-20260630.htm
+- 2026-08-04 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000110465926090338/tm2622096d1_8k.htm
+- 2026-06-30 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000674/ss6513309_8k.htm
+- 2026-05-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000069/ssrm-20260518.htm
+- 2026-05-07 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000066/ssrm-20260507.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000063/ssrm-20260505.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000062/ssrm-20260331.htm
+- 2026-03-26 **8-K** — items 1.01,2.06,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000355/ss6114560_8k.htm
+- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000047/ssrm-20260324.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

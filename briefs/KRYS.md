@@ -1,60 +1,59 @@
-# STRT — STRATTEC SECURITY CORP
-*Consumer Discretionary · brief generated 2026-08-30 · selected as **opportunistic***
+# KRYS — KRYSTAL BIOTECH
+*Health Care · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 8% of 130 Consumer Discretionary peers (92th pct)
-- baseline gap +182%
-- 5d move -8%
-- 21d move -15%
-- filed an 8-K in the last few sessions
-- never researched
-- urgency score 7.08
+- rotation position 9/40
 
 ## Market
 | | |
 |---|---|
-| price | $75.04 |
-| market cap | $299.0M |
-| 5d / 21d / 63d / 252d | -8.3% / -15.1% / -6.2% / +12.3% |
-| 60d avg daily $ volume | $7.4M |
-| beta (vs IWM) | 0.93 (R²=0.125) |
+| price | $351.46 |
+| market cap | $10.4B |
+| 5d / 21d / 63d / 252d | +1.4% / -4.2% / +13.7% / +138.1% |
+| 60d avg daily $ volume | $142.7M |
+| beta (vs IWM) | 0.73 (R²=0.11) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$52.0M** (mean of CFO−capex over 2y, plus after-tax interest)
-  annual FCF, newest first: ['$39.0M', '$64.5M']
-Enterprise value **$217.6M** · FCFF yield **+23.9%**
+Normalized FCFF base **$69.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$188.9M', '$119.2M', '$-100.6M']
+Enterprise value **$9.6B** · FCFF yield **+0.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.9% − 1pt | -25.9% |
-| **9.9% (point)** | **-23.6%** |
-| 9.9% + 1pt | -21.5% |
+| 8.7% − 1pt | +55.2% |
+| **8.7% (point)** | **+61.7%** |
+| 8.7% + 1pt | +67.5% |
 
 
-Naive baseline for comparison: **+3.6%** (5y revenue CAGR +3.6%).
-Gap under that baseline: **+181.5%** (fair value $211.25 vs price $75.04).
+> **Stock compensation is 69% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$21.3M** and an implied growth of **+100.0%** instead of +61.7%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+25.0%** (2y revenue CAGR +177.0% (clamped to +25.0%)).
+Gap under that baseline: **-65.0%** (fair value $123.02 vs price $351.46).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **92th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +175.3%).
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_4.2x_of_mean`
+- `stock_comp_is_69%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-28 **10-K** — https://www.sec.gov/Archives/edgar/data/933034/000119312526374333/strt-20260628.htm
-- 2026-08-25 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000093303426000003/strt-20260825.htm
-- 2026-05-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526245261/strt-20260528.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312526214153/strt-20260329.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526212420/strt-20260507.htm
-- 2026-04-30 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/933034/000119312526197481/strt-20260430.htm
-- 2026-02-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312526040760/strt-20251228.htm
-- 2026-02-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312526039481/strt-20260205.htm
-- 2025-10-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/933034/000119312525260138/strt-20250928.htm
-- 2025-10-30 **8-K** — items 1.01,2.02,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/933034/000119312525258802/strt-20251027.htm
+- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/krys-20260803.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000057/krys-20260630.htm
+- 2026-07-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000050/krys-20260721.htm
+- 2026-05-20 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000047/krys-20260515.htm
+- 2026-05-04 **8-K** — items 9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000044/krys-20260504.htm
+- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000043/krys-20260331.htm
+- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000036/krys-20260403.htm
+- 2026-02-17 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000018/krys-20260217.htm
+- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000016/krys-20251231.htm
+- 2026-01-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000008/krys-20260111.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

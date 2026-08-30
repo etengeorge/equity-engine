@@ -1,56 +1,49 @@
-# GKOS — GLAUKOS
-*Health Care · brief generated 2026-08-30 · selected as **rotation***
+# ONB — OLD NATIONAL BANCORP
+*Financials · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 4/1956
+- rotation position 8/40
 
 ## Market
 | | |
 |---|---|
-| price | $179.87 |
-| market cap | $10.6B |
-| 5d / 21d / 63d / 252d | -2.7% / +6.7% / +74.0% / +89.1% |
-| 60d avg daily $ volume | $132.0M |
-| beta (vs IWM) | 0.71 (R²=0.08) |
+| price | $25.85 |
+| market cap | $10.0B |
+| 5d / 21d / 63d / 252d | +0.2% / -2.1% / +8.3% / +15.1% |
+| 60d avg daily $ volume | $109.7M |
+| beta (vs IWM) | 1.12 (R²=0.57) |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 8.6% − 1pt | n/a |
-| **8.6% (point)** | **n/a** |
-| 8.6% + 1pt | n/a |
+| sustainable ROTCE | +14.0% |
+| cost of equity | +10.9% |
+| justified P/TBV | 1.38 |
+| actual P/TBV | 1.79 |
+| tangible book / share | $14.46 |
+| implied gap | -23.0% |
 
-
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $179.87).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_0%_debt_weight`
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- `last_10k_1703d_old`
+- `goodwill_and_intangibles_34%_of_book`
 
 ## Recent filings
-- 2026-08-03 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1192448/000119244826000002/gkos-20260729.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1192448/000119312526324201/gkos-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1192448/000119312526323729/gkos-20260729.htm
-- 2026-06-03 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1192448/000119312526255758/gkos-20260528.htm
-- 2026-05-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1192448/000119312526202466/d135093d8k.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1192448/000119312526193004/gkos-20260331.htm
-- 2026-04-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1192448/000119312526191553/gkos-20260429.htm
-- 2026-04-16 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1192448/000119312526157829/gkos-20260415.htm
-- 2026-03-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1192448/000110465926021885/gkos-20260302x8k.htm
-- 2026-02-23 **10-K** — https://www.sec.gov/Archives/edgar/data/1192448/000119312526061944/gkos-20251231.htm
+- 2026-08-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026056279/onb-20260812.htm
+- 2026-08-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026053527/onb-20260805.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/707179/000070717926000046/onb-20260630.htm
+- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026049108/onb-20260722.htm
+- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/707179/000162828026035975/onb-20260513.htm
+- 2026-05-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026034664/onb-20260513.htm
+- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026031184/onb-20260506.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/onb-20260331.htm
+- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026026389/onb-20260422.htm
+- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/707179/000110465926039075/onb-20260513xdef14a.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,36 +1,33 @@
-# BTSG — BRIGHTSPRING HEALTH SERVICES INC
+# TWST — TWIST BIOSCIENCE
 *Health Care · brief generated 2026-08-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 6/1956
+- rotation position 11/40
 
 ## Market
 | | |
 |---|---|
-| price | $59.13 |
-| market cap | $11.7B |
-| 5d / 21d / 63d / 252d | +0.4% / -18.9% / -4.1% / +147.1% |
-| 60d avg daily $ volume | $253.0M |
-| beta (vs IWM) | 1.1 (R²=0.235) |
+| price | $141.38 |
+| market cap | $8.9B |
+| 5d / 21d / 63d / 252d | -2.9% / +54.8% / +111.4% / +420.0% |
+| 60d avg daily $ volume | $183.0M |
+| beta (vs IWM) | 2.01 (R²=0.299) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$289.9M** (mean of CFO−capex over 2y, plus after-tax interest)
-  annual FCF, newest first: ['$394.7M', '$-57.1M']
-Enterprise value **$14.1B** · FCFF yield **+2.1%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.5% − 1pt | +33.5% |
-| **10.5% (point)** | **+37.9%** |
-| 10.5% + 1pt | +41.9% |
+| 15.8% − 1pt | n/a |
+| **15.8% (point)** | **n/a** |
+| 15.8% + 1pt | n/a |
 
 
-> **Stock compensation is 41% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$220.3M** and an implied growth of **+46.2%** instead of +37.9%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **n/a** (insufficient_revenue_history).
-Gap under that baseline: **n/a** (fair value n/a vs price $59.13).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $141.38).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,22 +36,21 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `speculative_cost_of_debt_but_only_0%_debt_weight`
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_2.7x_of_mean`
-- `stock_comp_is_41%_of_fcff_reported_cash_flow_treats_it_as_free`
-- `no_baseline_growth`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1865782/000119312526327014/btsg-20260630.htm
-- 2026-07-31 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526326654/btsg-20260731.htm
-- 2026-06-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526269360/btsg-20260611.htm
-- 2026-06-05 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526259531/btsg-20260603.htm
-- 2026-05-21 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526234435/btsg-20260521.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1865782/000119312526199339/btsg-20260331.htm
-- 2026-05-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526198983/btsg-20260501.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1865782/000119312526151207/btsg-20260410.htm
-- 2026-03-31 **8-K** — items 2.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000119312526133307/btsg-20260330.htm
-- 2026-03-04 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1865782/000186578226000008/btsg-20260302.htm
+- 2026-08-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1581280/000110465926098830/tm2623545d1_8k.htm
+- 2026-08-19 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000050/twist-20260818.htm
+- 2026-08-05 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1581280/000110465926091280/tm2622018d2_8k.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000047/twst-20260630.htm
+- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000044/twist-20260803.htm
+- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000040/twst-20260331.htm
+- 2026-05-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000037/twist-20260504.htm
+- 2026-02-17 **8-K** — items 3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1581280/000110465926015730/tm266463d1_8k.htm
+- 2026-02-06 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000022/twist-20260205.htm
+- 2026-02-02 **10-Q** — https://www.sec.gov/Archives/edgar/data/1581280/000158128026000019/twst-20251231.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
