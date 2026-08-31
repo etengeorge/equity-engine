@@ -1,5 +1,5 @@
 # BBW — BUILD A BEAR WORKSHOP
-*Consumer Discretionary · brief generated 2026-08-30 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-08-31 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 4% of 130 Consumer Discretionary peers (96th pct)

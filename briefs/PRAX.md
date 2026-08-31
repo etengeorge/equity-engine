@@ -1,59 +1,55 @@
-# KRYS — KRYSTAL BIOTECH
-*Health Care · brief generated 2026-08-30 · selected as **rotation***
+# PRAX — PRAXIS PRECISION MEDICINES
+*Health Care · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 9/1956
+- rotation position 17/1956
 
 ## Market
 | | |
 |---|---|
-| price | $351.46 |
-| market cap | $10.4B |
-| 5d / 21d / 63d / 252d | +1.4% / -4.2% / +13.7% / +138.1% |
-| 60d avg daily $ volume | $142.7M |
-| beta (vs IWM) | 0.73 (R²=0.11) |
+| price | $344.75 |
+| market cap | $9.6B |
+| 5d / 21d / 63d / 252d | -8.3% / +12.0% / -1.5% / +634.8% |
+| 60d avg daily $ volume | $155.6M |
+| beta (vs IWM) | 2.25 (R²=0.052) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$69.2M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$188.9M', '$119.2M', '$-100.6M']
-Enterprise value **$9.6B** · FCFF yield **+0.7%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.7% − 1pt | +55.2% |
-| **8.7% (point)** | **+61.7%** |
-| 8.7% + 1pt | +67.5% |
+| 17.1% − 1pt | n/a |
+| **17.1% (point)** | **n/a** |
+| 17.1% + 1pt | n/a |
 
 
-> **Stock compensation is 69% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$21.3M** and an implied growth of **+100.0%** instead of +61.7%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+25.0%** (2y revenue CAGR +177.0% (clamped to +25.0%)).
-Gap under that baseline: **-65.0%** (fair value $123.02 vs price $351.46).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $344.75).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **18th percentile** of 88 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -56.7%).
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_4.2x_of_mean`
-- `stock_comp_is_69%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/krys-20260803.htm
-- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000057/krys-20260630.htm
-- 2026-07-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000050/krys-20260721.htm
-- 2026-05-20 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000047/krys-20260515.htm
-- 2026-05-04 **8-K** — items 9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000044/krys-20260504.htm
-- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000043/krys-20260331.htm
-- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000036/krys-20260403.htm
-- 2026-02-17 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000018/krys-20260217.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000016/krys-20251231.htm
-- 2026-01-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1711279/000171127926000008/krys-20260111.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000083/prax-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/prax-20260806.htm
+- 2026-07-07 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000072/prax-20260707.htm
+- 2026-07-02 **8-K** — items 4.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000110465926080356/tm2619331d1_8k.htm
+- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000069/prax-20260629.htm
+- 2026-06-22 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000066/prax-20260622.htm
+- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000056/prax-20260610.htm
+- 2026-06-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000053/prax-20260601.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000049/prax-20260507.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000047/prax-20260331.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

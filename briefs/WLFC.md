@@ -1,5 +1,5 @@
 # WLFC — WILLIS LEASE FINANCE
-*Industrials · brief generated 2026-08-30 · selected as **opportunistic***
+*Industrials · brief generated 2026-08-31 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 7% of 152 Industrials peers (93th pct)

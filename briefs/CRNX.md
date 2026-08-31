@@ -1,17 +1,17 @@
-# CYTK — CYTOKINETICS
-*Health Care · brief generated 2026-08-30 · selected as **rotation***
+# CRNX — CRINETICS PHARMACEUTICALS
+*Health Care · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 7/1956
+- rotation position 15/1956
 
 ## Market
 | | |
 |---|---|
-| price | $72.09 |
-| market cap | $10.0B |
-| 5d / 21d / 63d / 252d | -6.2% / -10.4% / -6.1% / +90.6% |
-| 60d avg daily $ volume | $162.9M |
-| beta (vs IWM) | 0.73 (R²=0.066) |
+| price | $84.84 |
+| market cap | $9.0B |
+| 5d / 21d / 63d / 252d | +0.2% / +1.4% / +138.6% / +179.1% |
+| 60d avg daily $ volume | $321.2M |
+| beta (vs IWM) | 1.03 (R²=0.053) |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -21,13 +21,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.9% − 1pt | n/a |
-| **8.9% (point)** | **n/a** |
-| 8.9% + 1pt | n/a |
+| 10.4% − 1pt | n/a |
+| **10.4% (point)** | **n/a** |
+| 10.4% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $72.09).
+Gap under that baseline: **n/a** (fair value n/a vs price $84.84).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -36,21 +36,20 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_3%_debt_weight`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-28 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526372456/cytk-20260828.htm
-- 2026-08-13 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526348060/cytk-20260813.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1061983/000119312526338217/cytk-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526338021/cytk-20260806.htm
-- 2026-05-27 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526241840/cytk-20260527.htm
-- 2026-05-08 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526214606/d138544d8k.htm
-- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206420/d124879d8k.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206364/cytk-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1061983/000119312526206360/cytk-20260505.htm
-- 2026-04-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1061983/000114036126015364/ny20063687x771_def14a.htm
+- 2026-08-28 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126034857/ef20080970_8k.htm
+- 2026-08-19 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126033738/ef20080494_8k.htm
+- 2026-08-14 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126032951/ef20080199_8k.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000053/crnx-20260630.htm
+- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000052/crnx-20260803.htm
+- 2026-07-10 **8-K** — items 1.01,5.02 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126028208/crnx-20260706.htm
+- 2026-07-06 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126027642/ef20077399_form8k.htm
+- 2026-06-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000044/crnx-20260618.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000040/crnx-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000039/crnx-20260507.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

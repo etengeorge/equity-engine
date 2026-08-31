@@ -1,55 +1,41 @@
-# SM — SM ENERGY
-*Energy · brief generated 2026-08-30 · selected as **rotation***
+# RHP — RYMAN HOSPITALITY PROPERTIES REIT
+*Real Estate · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 12/1956
+- rotation position 18/1956
 
 ## Market
 | | |
 |---|---|
-| price | $36.62 |
-| market cap | $8.7B |
-| 5d / 21d / 63d / 252d | -1.6% / +15.8% / +20.1% / +35.4% |
-| 60d avg daily $ volume | $117.5M |
-| beta (vs IWM) | None (R²=0.021) |
+| price | $129.33 |
+| market cap | $8.2B |
+| 5d / 21d / 63d / 252d | +0.6% / -2.9% / +13.4% / +36.6% |
+| 60d avg daily $ volume | $91.9M |
+| beta (vs IWM) | 0.64 (R²=0.247) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$676.5M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$573.0M', '$471.9M', '$585.0M']
-Enterprise value **$10.4B** · FCFF yield **+6.5%**
+**No defensible free numeric model for this name** (status: not_modelled).
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-| WACC | implied 5y FCFF growth |
-|---|---|
-| 9.2% − 1pt | -0.8% |
-| **9.2% (point)** | **+2.8%** |
-| 9.2% + 1pt | +6.1% |
-
-
-Naive baseline for comparison: **+22.9%** (5y revenue CAGR +22.9%).
-Gap under that baseline: **+148.6%** (fair value $91.04 vs price $36.62).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **76th percentile** of 53 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +122.2%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `beta_defaulted_to_1.0(unreliable_r2_0.021_raw_0.39)`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000121/sm-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/sm-20260805.htm
-- 2026-07-16 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000104/sm-20260716.htm
-- 2026-06-01 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000071/sm-20260601.htm
-- 2026-05-22 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000069/sm-20260521.htm
-- 2026-05-12 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000064/sm-20260511.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000061/sm-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000059/sm-20260506.htm
-- 2026-04-30 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000055/sm-20260430.htm
-- 2026-04-17 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000052/sm-20260417.htm
+- 2026-08-25 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926100822/tm2623756d1_8k.htm
+- 2026-08-12 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926094901/tm2622522d6_8k.htm
+- 2026-08-10 **8-K** — items 1.01,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092958/tm2622522d4_8k.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092580/rhp-20260630x10q.htm
+- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092380/tmb-20260806x8k.htm
+- 2026-05-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926057464/tm2614005d1_8k.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/rhp-20260331x10q.htm
+- 2026-05-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926053499/tmb-20260430x8k.htm
+- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1040829/000114036126012894/ny20062837x2_def14a.htm
+- 2026-03-11 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000114036126009036/ef20067623_8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

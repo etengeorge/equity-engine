@@ -1,51 +1,41 @@
-# FCFS — FIRSTCASH HOLDINGS INC
-*Financials · brief generated 2026-08-30 · selected as **rotation***
+# CTRE — CARETRUST REIT
+*Real Estate · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 10/1956
+- rotation position 14/1956
 
 ## Market
 | | |
 |---|---|
-| price | $219.21 |
-| market cap | $9.5B |
-| 5d / 21d / 63d / 252d | -2.7% / +8.8% / -0.1% / +48.8% |
-| 60d avg daily $ volume | $102.7M |
-| beta (vs IWM) | None (R²=0.029) |
+| price | $39.03 |
+| market cap | $9.2B |
+| 5d / 21d / 63d / 252d | -1.4% / -6.3% / -3.5% / +17.3% |
+| 60d avg daily $ volume | $107.3M |
+| beta (vs IWM) | 0.3 (R²=0.059) |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+**No defensible free numeric model for this name** (status: not_modelled).
 
-| | |
-|---|---|
-| sustainable ROTCE | +1083.6% |
-| cost of equity | +10.2% |
-| justified P/TBV | 140.04 |
-| actual P/TBV | 428.34 |
-| tangible book / share | $0.51 |
-| implied gap | -67.3% |
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-Cohort: **20th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -40.5%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `beta_defaulted_to_1.0(unreliable_r2_0.029_raw_0.20)`
-- `goodwill_and_intangibles_99%_of_book`
-- `unstable_rotce_678.7%_to_1488.4%`
-- `rotce_1084%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000087/fcfs-20260806.htm
-- 2026-07-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/840489/000084048926000085/fcfs-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000082/fcfs-20260723.htm
-- 2026-07-22 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000080/fcfs-20260722.htm
-- 2026-07-16 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926084072/tm2620535d1_8k.htm
-- 2026-06-23 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_8k.htm
-- 2026-06-18 **8-K** — items 3.03,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926075855/tm2618096d1_8k.htm
-- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000073/fcfs-20260609.htm
-- 2026-05-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000084048926000061/fcfs-20260511.htm
-- 2026-05-01 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/840489/000110465926054143/tm2613265d1_8k.htm
+- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026054348/ctre-20260806.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026054284/ctre-20260630.htm
+- 2026-05-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126022438/ef20074571_8k.htm
+- 2026-05-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126022236/ef20074368_8k.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026032150/ctre-20260507.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026032118/ctre-20260331.htm
+- 2026-04-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026028864/ctre-20260429.htm
+- 2026-03-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026017386/ctre-20260312.htm
+- 2026-03-02 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026012986/ctre-20260302.htm
+- 2026-02-18 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126005889/ny20065014x3_8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

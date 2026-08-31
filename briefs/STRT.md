@@ -1,5 +1,5 @@
 # STRT — STRATTEC SECURITY CORP
-*Consumer Discretionary · brief generated 2026-08-30 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-08-31 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 8% of 130 Consumer Discretionary peers (92th pct)

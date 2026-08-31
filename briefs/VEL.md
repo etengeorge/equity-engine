@@ -1,5 +1,5 @@
 # VEL — VELOCITY FINANCIAL INC
-*Financials · brief generated 2026-08-30 · selected as **opportunistic***
+*Financials · brief generated 2026-08-31 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 3% of 338 Financials peers (97th pct)

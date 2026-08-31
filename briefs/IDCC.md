@@ -1,49 +1,57 @@
-# ONB — OLD NATIONAL BANCORP
-*Financials · brief generated 2026-08-30 · selected as **rotation***
+# IDCC — INTERDIGITAL INC
+*Information Technology · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 8/1956
+- rotation position 16/1956
 
 ## Market
 | | |
 |---|---|
-| price | $25.85 |
-| market cap | $10.0B |
-| 5d / 21d / 63d / 252d | +0.2% / -2.1% / +8.3% / +15.1% |
-| 60d avg daily $ volume | $109.7M |
-| beta (vs IWM) | 1.12 (R²=0.57) |
+| price | $335.15 |
+| market cap | $8.6B |
+| 5d / 21d / 63d / 252d | -2.1% / +10.5% / +33.3% / +25.4% |
+| 60d avg daily $ volume | $89.6M |
+| beta (vs IWM) | 0.75 (R²=0.123) |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$369.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$528.6M', '$265.7M', '$209.5M']
+Enterprise value **$7.9B** · FCFF yield **+4.7%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +14.0% |
-| cost of equity | +10.9% |
-| justified P/TBV | 1.38 |
-| actual P/TBV | 1.79 |
-| tangible book / share | $14.46 |
-| implied gap | -23.0% |
+| 8.6% − 1pt | +4.0% |
+| **8.6% (point)** | **+8.2%** |
+| 8.6% + 1pt | +12.0% |
 
-Cohort: **54th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +3.9%).
+
+> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$327.5M** and an implied growth of **+11.1%** instead of +8.2%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+18.4%** (5y revenue CAGR +18.4%).
+Gap under that baseline: **+46.2%** (fair value $490.04 vs price $335.15).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **84th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +78.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `last_10k_1703d_old`
-- `goodwill_and_intangibles_34%_of_book`
+- `possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026056279/onb-20260812.htm
-- 2026-08-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026053527/onb-20260805.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/707179/000070717926000046/onb-20260630.htm
-- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026049108/onb-20260722.htm
-- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/707179/000162828026035975/onb-20260513.htm
-- 2026-05-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026034664/onb-20260513.htm
-- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026031184/onb-20260506.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/onb-20260331.htm
-- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/707179/000162828026026389/onb-20260422.htm
-- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/707179/000110465926039075/onb-20260513xdef14a.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000066/idcc-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000065/idcc-20260730.htm
+- 2026-06-15 **8-K** — items 5.03,5.07 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000055/idcc-20260610.htm
+- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000043/idcc-20260430.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000035/idcc-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000034/idcc-20260430.htm
+- 2026-02-05 **10-K** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000011/idcc-20251231.htm
+- 2026-02-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000010/idcc-20260205.htm
+- 2026-01-07 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1405495/000162828026001101/idcc-20260107.htm
+- 2025-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549525000063/idcc-20250930.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
