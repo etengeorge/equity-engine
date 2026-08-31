@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""The only entry point. Six verbs, run in this order each morning.
+"""The only entry point. Seven verbs, run in this order each morning.
 
-    python run.py screen     # free: price + value all 1,956 names (no LLM, ~15 min)
+    python run.py screen     # free: price + value all 1,956 names (no LLM, ~5 min)
+    python run.py news       # company + sector + market + macro news into data/news/
     python run.py pick       # choose today's ten and write briefs/<TKR>.md
     python run.py record     # ingest synth/<TKR>.json -> research/ + data/verdicts/
     python run.py site       # rebuild public/index.html
     python run.py status     # what state is this repo in?
-    python run.py daily      # screen + pick (the GitHub Action's job)
+    python run.py daily      # screen + news + pick (the GitHub Action's job)
+
+News runs BETWEEN screen and pick on purpose: the four opportunistic slots exist to
+react to what happened overnight, and they cannot react to news gathered afterwards.
 
 The agent's work sits between `pick` and `record`: read each brief, research, argue with
 yourself, write synth/<TKR>.json. Nothing in this file does judgment, and nothing in this
@@ -45,8 +49,38 @@ def _is_smoke(args):
     return bool(getattr(args, "limit", None))
 
 
+def cmd_news(args):
+    """Pull the day's news into data/news/. Runs between screen and pick so that
+    selection can see it — the whole point of the opportunistic slots is that they
+    react to what happened, and they cannot react to news collected afterwards."""
+    import news, screen as screen_mod, edgar
+    sc = _screen()
+    rows = sc["rows"]
+    try:
+        events = edgar.recent_8k_ciks(4)
+    except Exception as e:
+        events = set()
+        print(f"[news] 8-K index unavailable ({type(e).__name__}) — continuing")
+    for r in rows:
+        r["filed_8k"] = r.get("cik") in events
+    prior = config.DATA / "picks.json"
+    carry = []
+    if prior.exists():
+        try:
+            carry = [p["ticker"] for p in json.loads(prior.read_text()).get("picks", [])]
+        except (json.JSONDecodeError, KeyError, TypeError):
+            carry = []
+    summary = news.run(rows, picks=carry,
+                       company_count=config.NEWS_ITEMS_PER_TICKER,
+                       max_names=config.NEWS_MAX_COMPANY_PULLS,
+                       budget_s=config.NEWS_BUDGET_SECONDS)
+    news.prune(config.NEWS_RETENTION_DAYS)
+    screen_mod.write_ready(sc, news_summary=summary)
+    return summary
+
+
 def cmd_pick(args):
-    import daily, brief, edgar
+    import daily, brief, edgar, screen as screen_mod
     sc = _screen()
     try:
         events = edgar.recent_8k_ciks(4)
@@ -80,6 +114,7 @@ def cmd_pick(args):
     print(f"\n[pick] briefs written to briefs/ "
           f"({sum(c for _, c in written):,} chars total, "
           f"max {max((c for _, c in written), default=0):,})")
+    screen_mod.write_ready(sc, picks=[p["ticker"] for p in picks])
     print("[pick] next: read each brief, then write synth/<TICKER>.json")
 
 
@@ -148,6 +183,22 @@ def cmd_status(args):
         left = (n - len({x['ticker'] for x in v}))
         print(f"coverage          {left} names never researched "
               f"(~{left/max(config.ROTATION_SLOTS,1):.0f} sessions of rotation remaining)")
+    ns = config.DATA / "news" / "summary.json"
+    if ns.exists():
+        n = json.loads(ns.read_text())
+        print(f"news              {n.get('generated_utc')}  "
+              f"{n.get('companies',0)} companies, {len(n.get('sectors') or {})} sectors, "
+              f"{n.get('articles_new',0)} new articles")
+    else:
+        print("news              (none)")
+    rd = config.DATA / "ready.json"
+    if rd.exists():
+        d = json.loads(rd.read_text())
+        stages = d.get("stages") or {}
+        print(f"ready             prices as of {d.get('price_asof')} · "
+              f"stages: {', '.join(sorted(stages))}")
+    else:
+        print("ready             (none) — the Action has not completed a full run")
     b = list((config.ROOT / "briefs").glob("*.md")) if (config.ROOT/"briefs").exists() else []
     s = list((config.ROOT / "synth").glob("*.json")) if (config.ROOT/"synth").exists() else []
     print(f"pending           {len(b)} briefs written, {len(s)} analyst files waiting to record")
@@ -159,9 +210,19 @@ def cmd_daily(args):
         # A limited run proves the pipeline works; it must not leave a limited screen,
         # a rewritten pick list or an advanced rotation cursor behind for the real run
         # (or the dashboard) to pick up.
-        print(f"\n[daily] smoke test with --limit {args.limit}: selection skipped and no "
-              f"state written. Re-run without --limit for a real screen.")
+        print(f"\n[daily] smoke test with --limit {args.limit}: news and selection "
+              f"skipped and no state written. Re-run without --limit for a real screen.")
         return
+    if getattr(args, "skip_news", False):
+        print("[daily] --skip-news: selection will fall back to price signals only")
+    else:
+        try:
+            cmd_news(args)
+        except Exception as e:
+            # News is an enrichment, not a dependency. A throttled or broken feed must
+            # not cost the day its screen and its ten briefs.
+            print(f"[daily] news pass failed ({type(e).__name__}: {e}) — "
+                  f"continuing to selection on price signals alone")
     cmd_pick(args)
 
 
@@ -171,17 +232,21 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name, fn, helptext in (
             ("screen", cmd_screen, "value every name in the universe (no LLM)"),
+            ("news", cmd_news, "pull company, sector, market and macro news"),
             ("pick", cmd_pick, "select today's ten and write their briefs"),
             ("record", cmd_record, "ingest analyst JSON into research + verdicts"),
             ("site", cmd_site, "rebuild the dashboard"),
             ("status", cmd_status, "show repo state"),
-            ("daily", cmd_daily, "screen + pick")):
+            ("daily", cmd_daily, "screen + news + pick")):
         p = sub.add_parser(name, help=helptext)
         p.set_defaults(func=fn)
         if name in ("screen", "daily"):
             p.add_argument("--limit", type=int,
                            help="SMOKE TEST: screen only the first N names, write to "
                                 "data/screen.sample.json, and change no committed state")
+        if name == "daily":
+            p.add_argument("--skip-news", action="store_true",
+                           help="skip the news pass (selection falls back to price only)")
         if name == "record":
             p.add_argument("--clean", action="store_true",
                            help="delete synth/*.json after a successful record")

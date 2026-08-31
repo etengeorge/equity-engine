@@ -18,3 +18,7 @@ holdings*.csv
 
 # Smoke-test output. Never read by anything downstream.
 data/screen.sample.json
+
+# Ad-hoc pulls are working material with a 14-day life, not memory. Large filings and
+# PDFs would otherwise accumulate in git history forever.
+data/adhoc/**/*.pdf

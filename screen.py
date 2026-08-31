@@ -58,7 +58,14 @@ def value_one(row, quote, rf):
                ret_63d=quote.get("ret_63d"), ret_252d=quote.get("ret_252d"),
                high_252d=quote.get("high_252d"), low_252d=quote.get("low_252d"),
                dollar_volume_60d=quote.get("dollar_volume_60d"),
+               dollar_volume_5d=quote.get("dollar_volume_5d"),
+               volume_ratio=quote.get("volume_ratio"),
                beta=quote.get("beta"), beta_r2=quote.get("beta_r2"))
+    # Abnormal volume is the earliest free signal that something happened: it moves
+    # before the story is written, and unlike a return it does not need a direction.
+    vr = quote.get("volume_ratio")
+    if V._fin(vr) and vr >= 3.0:
+        out["flags"].append(f"volume_{vr:.1f}x_its_60d_average")
     if quote.get("status") == "stale":
         out["flags"].append(f"stale_price_{quote.get('stale_days')}d")
 
@@ -236,8 +243,13 @@ def run(limit=None, universe_path=None, out_path=None):
         r["flags"] = list(dict.fromkeys(r.get("flags", [])))
     edgar.save_store()
     cohorts = add_cohort_ranks(rows)
+    # Which trading session the prices are from. The run moved to pre-market, so this is
+    # normally the prior close — and stating it removes the ambiguity that let the same
+    # name show two different prices on one calendar day.
+    price_asof = next((q.get("asof") for q in quotes.values() if q.get("asof")), None)
     payload = {
         "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "price_asof": price_asof,
         "risk_free_rate": rf, "risk_free_source": rf_src,
         "assumptions": {"equity_risk_premium": config.EQUITY_RISK_PREMIUM,
                         "terminal_growth": config.TERMINAL_GROWTH,
@@ -254,12 +266,52 @@ def run(limit=None, universe_path=None, out_path=None):
     out_path = out_path or (config.DATA / "screen.json")
     out_path.write_text(json.dumps(payload, allow_nan=False, default=float))
     print(f"[screen] done in {time.time()-t0:.0f}s -> {out_path.name}")
+    if not sample:
+        write_ready(payload)
     if sample:
         print(f"[screen] SMOKE TEST ONLY ({limit} names). data/screen.json was NOT "
               f"touched and nothing downstream will read this file.")
     for k, v in payload["counts"].items():
         print(f"          {k:16s} {v}")
     return payload
+
+
+def write_ready(payload, news_summary=None, picks=None):
+    """The handshake between the two runtimes.
+
+    The analyst run is on its own independent schedule and cannot see whether the Action
+    finished -- it has been inferring that from a date stamp, which passed on a day the
+    scheduled run fired seven hours late. This file states plainly what completed, when,
+    and how good the data was, so the analyst can stop instead of researching stale
+    prices. Written only by a full run; a --limit smoke test must never create it.
+    """
+    p = config.DATA / "ready.json"
+    prev = {}
+    if p.exists():
+        try:
+            prev = json.loads(p.read_text())
+        except json.JSONDecodeError:
+            prev = {}
+    counts = payload.get("counts", {})
+    total = len(payload.get("rows") or []) or 1
+    doc = {
+        "screen_utc": payload.get("generated_utc"),
+        "price_asof": payload.get("price_asof"),
+        "universe": total,
+        "modelled": counts.get("modelled", 0),
+        "modelled_pct": round(100.0 * counts.get("modelled", 0) / total, 1),
+        "news": news_summary if news_summary is not None else prev.get("news"),
+        "picks": picks if picks is not None else prev.get("picks"),
+        "stages": {**(prev.get("stages") or {}),
+                   "screen": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")},
+    }
+    if news_summary is not None:
+        doc["stages"]["news"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    if picks is not None:
+        doc["stages"]["pick"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    config.DATA.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(doc, indent=2))
+    return doc
 
 
 def _clean(obj):

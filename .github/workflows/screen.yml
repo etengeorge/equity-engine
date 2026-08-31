@@ -1,16 +1,26 @@
 name: daily screen
 
-# 10:30 UTC = 6:30am ET in summer, 5:30am ET in winter. GitHub cron has no DST, and a
-# schedule can be delayed by several minutes under load — the routine that reads this
-# output should tolerate both rather than assume an exact clock time.
+# Pre-market on purpose. 7:30am ET is two hours before the open, so every price in the
+# screen is the prior session's close and the whole run is reproducible — a name cannot
+# show two different prices on one calendar day the way it did when this ran intraday.
+#
+# GitHub cron has no timezone and no DST, so both possible UTC hours are scheduled and a
+# guard step drops whichever one is not 7am Eastern today. The minute is :23 rather than
+# :30 because runs on the hour and half-hour sit in the most contended queue — a
+# scheduled run of this workflow has already been delayed 7h10m once.
 on:
   schedule:
-    - cron: "30 10 * * 1-5"
+    - cron: "23 11 * * 1-5"    # 07:23 ET while daylight saving is in effect
+    - cron: "23 12 * * 1-5"    # 07:23 ET while standard time is in effect
   workflow_dispatch:
     inputs:
       limit:
         description: "Only screen the first N names (leave empty for the full universe)"
         required: false
+      skip_news:
+        description: "Skip the news pass (price signals only)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,27 +36,49 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Exactly one of the two cron entries is 7am Eastern on any given date. A manual
+      # dispatch always proceeds.
+      - name: Skip the cron entry that is not 7am Eastern
+        id: gate
+        run: |
+          HOUR=$(TZ=America/New_York date +%H)
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "manual dispatch — proceeding"
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$HOUR" = "07" ]; then
+            echo "07:xx America/New_York — proceeding"
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "$HOUR:xx America/New_York — this is the other DST cron, skipping"
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - if: steps.gate.outputs.go == 'true'
+        run: pip install -r requirements.txt
 
       # Offline, sub-second, and guards every valuation bug that has actually shipped.
       # If the math is broken there is no point spending 20 minutes screening with it.
       - name: Regression tests
+        if: steps.gate.outputs.go == 'true'
         run: python test_engine.py
 
       # Raw EDGAR payloads are disposable — data/fundamentals.json is the durable copy.
       # This cache only saves bandwidth on same-day reruns.
       - uses: actions/cache@v4
+        if: steps.gate.outputs.go == 'true'
         with:
           path: cache
           key: edgar-${{ github.run_id }}
           restore-keys: edgar-
 
-      - name: Screen the universe and pick today's ten
+      - name: Screen, pull news, and pick today's ten
+        if: steps.gate.outputs.go == 'true'
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
@@ -56,10 +88,13 @@ jobs:
             echo "::error::Settings -> Secrets -> Actions as 'equity-engine <your-email>'."
             exit 1
           fi
-          python run.py daily ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+          python run.py daily \
+            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }} \
+            ${{ inputs.skip_news == true && '--skip-news' || '' }}
           python run.py site
 
       - name: Fail loudly if the screen produced nothing
+        if: steps.gate.outputs.go == 'true'
         run: |
           python - <<'PY'
           import json, sys
@@ -76,7 +111,28 @@ jobs:
               sys.exit("no names modelled at all")
           PY
 
+      # News is an enrichment, not a dependency: a throttled Yahoo must not fail the run.
+      # But a silent total failure would leave selection blind, so say so in the log.
+      - name: Report the news pass
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p = pathlib.Path("data/news/summary.json")
+          if not p.exists():
+              print("::warning::no news summary written — selection ran on price signals only")
+              raise SystemExit(0)
+          s = json.load(p.open())
+          print(f"news: {s.get('companies',0)} companies, "
+                f"{len(s.get('sectors') or {})} sectors, "
+                f"{s.get('macro',0)} macro, {s.get('articles_new',0)} new articles "
+                f"in {s.get('elapsed_s',0)}s")
+          if not s.get("sectors"):
+              print("::warning::sector feeds returned nothing — Yahoo may be throttling")
+          PY
+
       - name: Commit
+        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name  "equity-engine[bot]"
           git config user.email "equity-engine[bot]@users.noreply.github.com"
@@ -92,7 +148,7 @@ jobs:
           fi
 
       - name: Summary
-        if: always()
+        if: always() && steps.gate.outputs.go == 'true'
         run: |
           {
             echo "### Daily screen"

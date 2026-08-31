@@ -9,7 +9,11 @@ import json, textwrap, datetime as dt
 import config, edgar
 
 PRIOR_RESEARCH_CHARS = 6000
-MAX_BRIEF_CHARS = 22000
+MAX_BRIEF_CHARS = 30000        # raised with the news sections; every section is still capped
+COMPANY_NEWS_ITEMS = 18        # ~90 days of headlines for one name
+SECTOR_NEWS_ITEMS = 10
+MACRO_NEWS_ITEMS = 6
+NEWS_SUMMARY_CHARS = 240       # per article; headlines carry most of the signal
 
 
 def _pct(x, nd=1):
@@ -65,6 +69,108 @@ def sector_context(sector, exclude, limit=12):
         if len(out) >= limit:
             break
     return out
+
+
+def _news_lines(articles, limit, with_summary=True):
+    """Render articles as dated one-liners. Date first, because the analyst's first
+    question about any headline is whether it predates the last 10-K."""
+    out = []
+    for a in articles[:limit]:
+        ts = (a.get("ts") or "")[:10] or "undated"
+        pub = a.get("publisher") or a.get("source") or ""
+        line = f"- **{ts}** · {a.get('title','').strip()}"
+        if pub:
+            line += f" — *{pub}*"
+        if a.get("url"):
+            line += f" — {a['url']}"
+        out.append(line)
+        s = (a.get("summary") or "").strip()
+        if with_summary and s:
+            out.append(f"  > {s[:NEWS_SUMMARY_CHARS]}")
+    return out
+
+
+def news_sections(ticker, sector, A):
+    """The three news blocks, each degrading to an explicit statement of absence.
+
+    Saying "no news found" is information about confidence. Leaving the section out
+    entirely lets the analyst assume the question was never asked.
+    """
+    try:
+        import news
+    except Exception:
+        return
+    lookback = config.NEWS_LOOKBACK_DAYS
+
+    company = news.read("companies", ticker, days=lookback)
+    A(f"## News on this company — last {lookback} days")
+    if company:
+        A(f"*{len(company)} items held; showing the {min(len(company), COMPANY_NEWS_ITEMS)} "
+          f"most recent. Headlines and summaries only — open the URL for the full story.*")
+        A("")
+        for line in _news_lines(company, COMPANY_NEWS_ITEMS):
+            A(line)
+    else:
+        A("*No company-specific news in the store for this window.* That is a fact about "
+          "coverage, not about the company: a name only earns a per-company news pull when "
+          "it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means "
+          "the wire was quiet AND the tape was quiet — treat it as a reason to lower "
+          "confidence in 'nothing happened', not as confirmation of it.")
+    A("")
+
+    sec = news.read("sectors", sector, days=lookback)
+    A(f"## What is happening in {sector}")
+    if sec:
+        A(f"*From the sector ETF feed ({news.SECTOR_ETF.get(sector, 'n/a')}), which covers "
+          f"every name in this sector whether or not it got its own pull.*")
+        A("")
+        for line in _news_lines(sec, SECTOR_NEWS_ITEMS, with_summary=False):
+            A(line)
+    else:
+        A("*No sector news in the store for this window.*")
+    A("")
+
+    macro = news.read("market", "macro", days=30)
+    market = news.read("market", "market", days=14)
+    if macro or market:
+        A("## Market and macro context")
+        if market:
+            for line in _news_lines(market, 4, with_summary=False):
+                A(line)
+        if macro:
+            A("")
+            A("*Rules, releases and agency actions:*")
+            for line in _news_lines(macro, MACRO_NEWS_ITEMS, with_summary=False):
+                A(line)
+        A("")
+
+
+def exhibit_section(cik, A):
+    """Earnings press releases and presentations, as filed.
+
+    This is the investor-relations deck by another route: EX-99.1 is almost always the
+    release and EX-99.2 the slides. Sourcing them from EDGAR rather than the company's
+    IR site means they are actually there.
+    """
+    if not cik:
+        return
+    try:
+        ex = edgar.exhibits_for(cik)
+    except Exception as e:
+        A(f"## Earnings materials\n- (exhibit lookup failed: {type(e).__name__})\n")
+        return
+    A("## Earnings materials (8-K exhibits)")
+    if ex:
+        A("*The press release and presentation as filed. EX-99.2 is usually the deck.*")
+        A("")
+        for e in ex[:10]:
+            items = ", ".join(e.get("item_labels") or e.get("items") or [])
+            desc = e.get("description") or e["exhibit"]
+            A(f"- **{e['filed']}** · {e['exhibit']} · {e['kind']} — {desc}"
+              + (f" *(item: {items})*" if items else "") + f" — {e['url']}")
+    else:
+        A("*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*")
+    A("")
 
 
 def build(pick, screen_meta, today=None):
@@ -187,6 +293,9 @@ def build(pick, screen_meta, today=None):
             A(f"- (filing lookup failed: {type(e).__name__})")
         A("")
 
+    exhibit_section(r.get("cik"), A)
+    news_sections(t, sector, A)
+
     prior, dropped = prior_research(sector, t)
     A("## What we concluded before")
     if prior:
@@ -225,14 +334,26 @@ Work in this order. Do not skip to the answer.
    informed people are collectively willing to pay for. Argue their case first, in
    specifics. If you cannot construct a credible reason for the current price, you have
    not understood the name yet — go back and read.
-2. **Research.** Read the recent filings. Search for news since the last 10-K: guidance,
-   management change, litigation, regulation, end-market demand, capital allocation.
-   Note what you could NOT find; absence of news is information about your confidence,
-   not permission to assume nothing happened.
+2. **Research.** Start with what is already in this brief: the 90 days of company news,
+   the sector feed, and the 8-K exhibits — the press release is EX-99.1 and the
+   presentation is usually EX-99.2. Then search for anything after the last item shown.
+   Guidance, management change, litigation, regulation, end-market demand, capital
+   allocation. Note what you could NOT find; absence of news is information about your
+   confidence, not permission to assume nothing happened.
+
+   **If you need a document this runtime cannot open, fetch it.** SEC and most hosts are
+   blocked from the analyst session, but the `adhoc-fetch` GitHub workflow runs on a
+   machine with full internet. Dispatch it with the ticker and what you need, wait for it
+   to finish, `git pull`, and read `data/adhoc/<TICKER>/`. It takes about ninety seconds
+   and it is the difference between reading a filing and guessing at one. Use it whenever
+   an input actually turns on a number you cannot see.
 3. **Attack the model's inputs before its conclusion.** Every flag above is a live
    objection. Is the FCFF base a peak or a trough? Is the share count current? Is there
    an acquisition inside the window that makes the history incomparable? Is the growth
-   history a real trend or one lumpy year?
+   history a real trend or one lumpy year? Check the 8-K list above for items 1.01, 2.01
+   and 3.02 in the last two quarters — a completed acquisition, a new financing or an
+   equity issuance AFTER the last 10-K invalidates the enterprise value and the share
+   count this model is built on, and nothing flags that for you.
 4. **Form your own base case.** State a 5-year FCFF growth rate (or, for a financial, a
    sustainable ROTCE) and defend it in one paragraph tied to the business, not to the
    stock. Say explicitly where you differ from the naive baseline and why.

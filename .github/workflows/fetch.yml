@@ -1,0 +1,94 @@
+name: adhoc-fetch
+
+# The analyst runtime has no internet. This workflow is how it gets one.
+#
+# The Claude session that does the reasoning cannot reach EDGAR, Yahoo, or any news host
+# — only web search. That gap is what capped every verdict on 2026-08-31 at low
+# conviction. Dispatching this job runs the fetch on a machine that CAN reach those
+# hosts, commits the documents to data/adhoc/, and the analyst pulls them. About ninety
+# seconds end to end.
+#
+# From a Claude session:
+#   dispatch this workflow with { tickers: "ACR", what: "filings" }
+#   wait for the run to complete, then `git pull` and read data/adhoc/ACR/
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Comma-separated tickers, e.g. ACR,JXN,SSRM"
+        required: true
+      what:
+        description: "What to retrieve"
+        required: true
+        default: filings
+        type: choice
+        options: [filings, news, url, all]
+      url:
+        description: "For what=url — the exact page to fetch (IR deck, transcript, notice)"
+        required: false
+      reason:
+        description: "Why (goes in the commit message, so the pull is auditable)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adhoc-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "::error::SEC_USER_AGENT secret is not set — EDGAR returns 403 without it."
+            exit 1
+          fi
+          python adhoc.py \
+            --tickers "${{ inputs.tickers }}" \
+            --what "${{ inputs.what }}" \
+            ${{ inputs.url && format('--url "{0}"', inputs.url) || '' }}
+
+      - name: Commit
+        run: |
+          git config user.name  "equity-engine[bot]"
+          git config user.email "equity-engine[bot]@users.noreply.github.com"
+          git add -A data/adhoc data/news
+          if git diff --cached --quiet; then
+            echo "::warning::nothing fetched — check the ticker and the run log above"
+          else
+            git commit -m "adhoc ${{ inputs.what }}: ${{ inputs.tickers }}${{ inputs.reason && format(' — {0}', inputs.reason) || '' }}"
+            # Retry: the daily screen may be pushing at the same time.
+            for i in 1 2 3 4; do
+              git pull --rebase --autostash origin main && git push && exit 0
+              echo "push attempt $i failed, retrying"
+              sleep $((2 ** i))
+            done
+            echo "::error::could not push the fetched documents — the analyst will not see them"
+            exit 2
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Ad-hoc fetch"
+            echo '```'
+            find data/adhoc -type f 2>/dev/null | head -50 || echo "(nothing written)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
