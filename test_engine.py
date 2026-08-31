@@ -238,6 +238,28 @@ def test_limit_never_clobbers_the_real_screen():
           "cmd_daily still advances the cursor and rewrites picks on a smoke test")
 
 
+# --- % of 52-week high must degrade, not lie, on an older screen -------------
+def test_pct_of_52w_high():
+    """The column reads off high_252d, which screens written before that field existed do
+    not carry. A missing high must render as em-dash, never as 100% of a missing high."""
+    import dashboard as D
+    check("a real high renders as a percentage of it",
+          '>67%<' in D._pct_of_high(67.0, 100.0),
+          D._pct_of_high(67.0, 100.0))
+    check("at the high reads 100%", '>100%<' in D._pct_of_high(100.0, 100.0),
+          D._pct_of_high(100.0, 100.0))
+    for price, high in ((50.0, None), (None, 100.0), (50.0, 0.0), (None, None)):
+        check(f"missing/degenerate high ({price},{high}) renders em-dash",
+              "—" in D._pct_of_high(price, high) and "%" not in D._pct_of_high(price, high),
+              D._pct_of_high(price, high))
+    # the screen must actually carry the field forward, or the column is dead on arrival
+    import inspect
+    src = inspect.getsource(screen.value_one)
+    check("screen.value_one carries high_252d into the row",
+          "high_252d=quote.get(\"high_252d\")" in src,
+          "the dashboard column would be permanently em-dash")
+
+
 def main():
     for fn in sorted([v for k, v in globals().items() if k.startswith("test_")],
                      key=lambda f: f.__name__):

@@ -56,6 +56,7 @@ def value_one(row, quote, rf):
     price = float(quote["price"])
     out.update(price=price, ret_5d=quote.get("ret_5d"), ret_21d=quote.get("ret_21d"),
                ret_63d=quote.get("ret_63d"), ret_252d=quote.get("ret_252d"),
+               high_252d=quote.get("high_252d"), low_252d=quote.get("low_252d"),
                dollar_volume_60d=quote.get("dollar_volume_60d"),
                beta=quote.get("beta"), beta_r2=quote.get("beta_r2"))
     if quote.get("status") == "stale":

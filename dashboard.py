@@ -75,6 +75,19 @@ def _pct(x, cls=True):
     return f'<td class="num {c if cls else ""}" data-v="{x}">{x*100:+.1f}%</td>'
 
 
+def _pct_of_high(price, high):
+    """Price as a percentage of the trailing 252-session (52-week) high.
+
+    Deliberately uncoloured: unlike a return, "far below the high" is not good or bad on
+    its own — it is the reason a name is worth looking at, which is the opposite of a
+    conclusion. Renders "—" when the screen predates the high_252d field.
+    """
+    if price is None or high is None or high <= 0:
+        return '<td class="num dim" data-v="">—</td>'
+    v = price / high
+    return f'<td class="num" data-v="{v}">{v*100:.0f}%</td>'
+
+
 def _usd(x, nd=2):
     if x is None:
         return '<td class="num dim" data-v="">—</td>'
@@ -170,12 +183,13 @@ def build(screen, picks=None, verdicts=None, out=None):
                 f"<td data-v='{_e(r.get('name'))}'>{_e(r.get('name'))}</td>"
                 f"<td data-v='{_e(r['sector'])}'>{_e(r['sector'])}</td>"
                 f"<td data-v='{_e(p['slot'])}'><span class='chip'>{_e(p['slot'])}</span></td>"
-                + _usd(r.get("price")) + _pct(r.get("ret_21d"))
+                + _usd(r.get("price"))
+                + _pct_of_high(r.get("price"), r.get("high_252d"))
                 + _pct(r.get("implied_growth")) + _pct(r.get("gap"))
                 + (_pct(pr.get("gap")) if pr.get("ok") else "<td class='num dim' data-v=''>—</td>")
                 + vc
                 + f"<td class='why' data-v=''>{_e('; '.join(p['why'][:3]))}</td></tr>")
-        A(_table(tr, ["Ticker", "Name", "Sector", "Slot", "Price", "21d",
+        A(_table(tr, ["Ticker", "Name", "Sector", "Slot", "Price", "% of 52w high",
                       "Mkt implied g", "Baseline gap", "Analyst gap", "Verdict",
                       "Why selected"]))
 
