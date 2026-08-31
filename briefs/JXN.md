@@ -1,58 +1,55 @@
-# CRNX — CRINETICS PHARMACEUTICALS
-*Health Care · brief generated 2026-08-31 · selected as **rotation***
+# JXN — JACKSON FINANCIAL CLASS A
+*Financials · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 15/1956
+- rotation position 23/1956
 
 ## Market
 | | |
 |---|---|
-| price | $84.84 |
-| market cap | $9.0B |
-| 5d / 21d / 63d / 252d | +0.2% / +1.4% / +138.6% / +179.1% |
-| 60d avg daily $ volume | $321.2M |
-| beta (vs IWM) | 1.03 (R²=0.053) |
+| price | $133.65 |
+| market cap | $9.1B |
+| 5d / 21d / 63d / 252d | +1.0% / +9.3% / +28.9% / +40.7% |
+| 60d avg daily $ volume | $73.1M |
+| beta (vs IWM) | 1.08 (R²=0.365) |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 10.4% − 1pt | n/a |
-| **10.4% (point)** | **n/a** |
-| 10.4% + 1pt | n/a |
+| sustainable ROTCE | +6.4% |
+| cost of equity | +10.7% |
+| justified P/TBV | 0.47 |
+| actual P/TBV | 0.91 |
+| tangible book / share | $146.95 |
+| implied gap | -47.9% |
 
-
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $84.84).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **32th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -21.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- `speculative_cost_of_debt_but_only_18%_debt_weight`
+- `unstable_rotce_0.3%_to_9.7%`
 
 ## Recent filings
-- 2026-08-28 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126034857/ef20080970_8k.htm
-- 2026-08-19 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126033738/ef20080494_8k.htm
-- 2026-08-14 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126032951/ef20080199_8k.htm
-- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000053/crnx-20260630.htm
-- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000052/crnx-20260803.htm
-- 2026-07-10 **8-K** — items 1.01,5.02 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126028208/crnx-20260706.htm
-- 2026-07-06 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000114036126027642/ef20077399_form8k.htm
-- 2026-06-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000044/crnx-20260618.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000040/crnx-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1658247/000165824726000039/crnx-20260507.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1822993/000182299326000124/jxn-20260630.htm
+- 2026-08-03 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926089809/tm2621730d1_8k.htm
+- 2026-08-03 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1822993/000182299326000123/jxn-20260803.htm
+- 2026-07-22 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926085839/tm2621047d1_8k.htm
+- 2026-07-01 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926079925/tm2618572d2_8k.htm
+- 2026-06-25 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926077762/tm2618572d1_8k.htm
+- 2026-06-15 **8-K** — items 2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926074038/tm2616971d4_8k.htm
+- 2026-05-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926066299/tm2615669d1_8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1822993/000182299326000072/jxn-20260331.htm
+- 2026-05-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1822993/000110465926055652/tm2613079d1_8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Financials
+- VEL: no_edge · price $18.01
 
 ---
 

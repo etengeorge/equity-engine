@@ -1,54 +1,61 @@
-# VEL — VELOCITY FINANCIAL INC
-*Financials · brief generated 2026-08-31 · selected as **opportunistic***
+# HUT — HUT CORP
+*Information Technology · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 3% of 338 Financials peers (97th pct)
-- baseline gap +164%
-- filed an 8-K in the last few sessions
-- never researched
-- urgency score 8.19
+- rotation position 21/1956
 
 ## Market
 | | |
 |---|---|
-| price | $18.01 |
-| market cap | $711.1M |
-| 5d / 21d / 63d / 252d | -1.8% / +2.9% / +2.9% / -5.5% |
-| 60d avg daily $ volume | $1.8M |
-| beta (vs IWM) | 0.33 (R²=0.072) |
+| price | $77.00 |
+| market cap | $9.5B |
+| 5d / 21d / 63d / 252d | -3.2% / -28.5% / -41.8% / +190.5% |
+| 60d avg daily $ volume | $460.3M |
+| beta (vs IWM) | 2.19 (R²=0.236) |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +13.8% |
-| cost of equity | +6.5% |
-| justified P/TBV | 2.82 |
-| actual P/TBV | 1.07 |
-| tangible book / share | $16.86 |
-| implied gap | +163.7% |
+| 16.4% − 1pt | n/a |
+| **16.4% (point)** | **n/a** |
+| 16.4% + 1pt | n/a |
 
-Cohort: **97th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +190.6%).
+
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $77.00).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **not ranked** — too few comparable Information Technology names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `negative_fcf_year_in_window`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-27 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526369585/d277042d8k.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526335807/vel-20260630.htm
-- 2026-08-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526334993/vel-20260805.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526334991/vel-20260805.htm
-- 2026-05-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526238356/d293955d8k.htm
-- 2026-05-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526210739/vel-20260506.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526209674/vel-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526209160/d122273d8k.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1692376/000119312526150488/d57704ddef14a.htm
-- 2026-03-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692376/000119312526104483/d104077d8k.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926090041/tm2621890d1_8k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1964789/000110465926090025/hut-20260630x10q.htm
+- 2026-07-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_8k.htm
+- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926073505/tm2617732d1_8k.htm
+- 2026-06-10 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926071952/tm2617190d1_8k.htm
+- 2026-06-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926070744/tm2616926d1_8k.htm
+- 2026-06-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926070393/tm2616869d1_8k.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926055894/hut-20260506x8k.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1964789/000110465926055891/hut-20260331x10q.htm
+- 2026-05-01 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1964789/000110465926053247/tm2613163d1_8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Information Technology
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 
 ---
 

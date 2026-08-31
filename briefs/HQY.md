@@ -1,44 +1,66 @@
-# RHP — RYMAN HOSPITALITY PROPERTIES REIT
-*Real Estate · brief generated 2026-08-31 · selected as **rotation***
+# HQY — HEALTHEQUITY
+*Health Care · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 18/1956
+- rotation position 22/1956
 
 ## Market
 | | |
 |---|---|
-| price | $129.33 |
-| market cap | $8.2B |
-| 5d / 21d / 63d / 252d | +0.6% / -2.9% / +13.4% / +36.6% |
-| 60d avg daily $ volume | $91.9M |
-| beta (vs IWM) | 0.64 (R²=0.247) |
+| price | $95.88 |
+| market cap | $7.9B |
+| 5d / 21d / 63d / 252d | -9.0% / -4.7% / +5.8% / +8.6% |
+| 60d avg daily $ volume | $83.1M |
+| beta (vs IWM) | 0.68 (R²=0.151) |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+Normalized FCFF base **$387.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$455.1M', '$337.8M', '$241.1M']
+Enterprise value **$8.6B** · FCFF yield **+4.5%**
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+**Reverse DCF — the 5y FCFF growth the current price requires:**
 
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+| WACC | implied 5y FCFF growth |
+|---|---|
+| 8.1% − 1pt | +2.6% |
+| **8.1% (point)** | **+7.1%** |
+| 8.1% + 1pt | +11.1% |
+
+
+> **Stock compensation is 24% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$305.2M** and an implied growth of **+12.8%** instead of +7.1%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+12.4%** (5y revenue CAGR +12.4%).
+Gap under that baseline: **+26.7%** (fair value $121.43 vs price $95.88).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **69th percentile** of 88 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +34.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_24%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-25 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926100822/tm2623756d1_8k.htm
-- 2026-08-12 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926094901/tm2622522d6_8k.htm
-- 2026-08-10 **8-K** — items 1.01,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092958/tm2622522d4_8k.htm
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092580/rhp-20260630x10q.htm
-- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926092380/tmb-20260806x8k.htm
-- 2026-05-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926057464/tm2614005d1_8k.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/rhp-20260331x10q.htm
-- 2026-05-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000110465926053499/tmb-20260430x8k.htm
-- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1040829/000114036126012894/ny20062837x2_def14a.htm
-- 2026-03-11 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1040829/000114036126009036/ef20067623_8k.htm
+- 2026-08-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000041/hqy-20260731.htm
+- 2026-08-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/hqy-20260827.htm
+- 2026-06-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm
+- 2026-05-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000028/hqy-20260430.htm
+- 2026-05-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000027/hqy-20260528.htm
+- 2026-05-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000022/hqy-20260513.htm
+- 2026-05-08 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000016/hqy-20260505.htm
+- 2026-04-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000014/hqy-20260406.htm
+- 2026-03-30 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000012/hqy-20260326.htm
+- 2026-03-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1428336/000142833626000010/hqy-20260131.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Health Care
+- CRNX: no_edge · price $84.84
+- PRAX: no_model · price $344.75
+- PTGX: no_model · price $144.33
 
 ---
 

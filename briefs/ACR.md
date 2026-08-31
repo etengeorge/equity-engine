@@ -1,58 +1,57 @@
-# PRAX — PRAXIS PRECISION MEDICINES
-*Health Care · brief generated 2026-08-31 · selected as **rotation***
+# ACR — ACRES COMMERCIAL REALTY
+*Financials · brief generated 2026-08-31 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 17/1956
+- cheapest 0% of 338 Financials peers (100th pct)
+- baseline gap +237%
+- 21d move -20%
+- never researched
+- urgency score 6.81
 
 ## Market
 | | |
 |---|---|
-| price | $344.75 |
-| market cap | $9.6B |
-| 5d / 21d / 63d / 252d | -8.3% / +12.0% / -1.5% / +634.8% |
-| 60d avg daily $ volume | $155.6M |
-| beta (vs IWM) | 2.25 (R²=0.052) |
+| price | $14.00 |
+| market cap | $99.8M |
+| 5d / 21d / 63d / 252d | -5.5% / -20.0% / -30.2% / -32.7% |
+| 60d avg daily $ volume | $581.5K |
+| beta (vs IWM) | 0.4 (R²=0.053) |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 17.1% − 1pt | n/a |
-| **17.1% (point)** | **n/a** |
-| 17.1% + 1pt | n/a |
+| sustainable ROTCE | +6.1% |
+| cost of equity | +7.0% |
+| justified P/TBV | 0.81 |
+| actual P/TBV | 0.24 |
+| tangible book / share | $58.37 |
+| implied gap | +237.5% |
 
-
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $344.75).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **100th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +264.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000083/prax-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/prax-20260806.htm
-- 2026-07-07 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000072/prax-20260707.htm
-- 2026-07-02 **8-K** — items 4.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000110465926080356/tm2619331d1_8k.htm
-- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000069/prax-20260629.htm
-- 2026-06-22 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000066/prax-20260622.htm
-- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000056/prax-20260610.htm
-- 2026-06-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000053/prax-20260601.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000049/prax-20260507.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1689548/000168954826000047/prax-20260331.htm
+- 2026-08-12 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526346890/acr-20260810.htm
+- 2026-08-06 **8-K** — items 1.01,1.02,2.01,2.03,3.02,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526338197/acr-20260806.htm
+- 2026-08-04 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526331466/acr-20260804.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1332551/000119312526331463/acr-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526323803/acr-20260729.htm
+- 2026-07-24 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526316084/acr-20260721.htm
+- 2026-06-25 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526282820/acr-20260622.htm
+- 2026-05-11 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1332551/000119312526215649/acr-20260511.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1332551/000119312526209358/acr-20260331.htm
+- 2026-04-30 **8-K** — items 4.01,9.01 — https://www.sec.gov/Archives/edgar/data/1332551/000119312526197206/acr-20260427.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Financials
+- VEL: no_edge · price $18.01
 
 ---
 

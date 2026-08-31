@@ -1,41 +1,58 @@
-# CTRE — CARETRUST REIT
-*Real Estate · brief generated 2026-08-31 · selected as **rotation***
+# SSRM — SSR MINING
+*Materials · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 14/1956
+- rotation position 20/1956
 
 ## Market
 | | |
 |---|---|
-| price | $39.03 |
-| market cap | $9.2B |
-| 5d / 21d / 63d / 252d | -1.4% / -6.3% / -3.5% / +17.3% |
-| 60d avg daily $ volume | $107.3M |
-| beta (vs IWM) | 0.3 (R²=0.059) |
+| price | $37.39 |
+| market cap | $7.6B |
+| 5d / 21d / 63d / 252d | -3.2% / +46.1% / +25.5% / +104.5% |
+| 60d avg daily $ volume | $94.9M |
+| beta (vs IWM) | 0.91 (R²=0.078) |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+Normalized FCFF base **$125.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$241.6M', '$-103.4M', '$198.3M']
+Enterprise value **$8.1B** · FCFF yield **+1.5%**
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+**Reverse DCF — the 5y FCFF growth the current price requires:**
 
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+| WACC | implied 5y FCFF growth |
+|---|---|
+| 9.6% − 1pt | +37.1% |
+| **9.6% (point)** | **+42.1%** |
+| 9.6% + 1pt | +46.7% |
+
+
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$106.8M** and an implied growth of **+46.9%** instead of +42.1%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+2.1%** (4y revenue CAGR +2.1%).
+Gap under that baseline: **-82.7%** (fair value $6.47 vs price $37.39).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **30th percentile** of 40 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -29.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_3.1x_of_mean`
 
 ## Recent filings
-- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026054348/ctre-20260806.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026054284/ctre-20260630.htm
-- 2026-05-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126022438/ef20074571_8k.htm
-- 2026-05-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126022236/ef20074368_8k.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026032150/ctre-20260507.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026032118/ctre-20260331.htm
-- 2026-04-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026028864/ctre-20260429.htm
-- 2026-03-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1590717/000162828026017386/ctre-20260312.htm
-- 2026-03-02 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1590717/000162828026012986/ctre-20260302.htm
-- 2026-02-18 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1590717/000114036126005889/ny20065014x3_8k.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000082/ssrm-20260804.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000081/ssrm-20260630.htm
+- 2026-08-04 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000110465926090338/tm2622096d1_8k.htm
+- 2026-06-30 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000674/ss6513309_8k.htm
+- 2026-05-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000069/ssrm-20260518.htm
+- 2026-05-07 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000066/ssrm-20260507.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000092163826000063/ssrm-20260505.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000062/ssrm-20260331.htm
+- 2026-03-26 **8-K** — items 1.01,2.06,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/921638/000094787126000355/ss6114560_8k.htm
+- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/921638/000092163826000047/ssrm-20260324.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

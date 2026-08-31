@@ -1,60 +1,65 @@
-# IDCC — INTERDIGITAL INC
+# VSAT — VIASAT INC
 *Information Technology · brief generated 2026-08-31 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 16/1956
+- rotation position 19/1956
 
 ## Market
 | | |
 |---|---|
-| price | $335.15 |
-| market cap | $8.6B |
-| 5d / 21d / 63d / 252d | -2.1% / +10.5% / +33.3% / +25.4% |
-| 60d avg daily $ volume | $89.6M |
-| beta (vs IWM) | 0.75 (R²=0.123) |
+| price | $66.93 |
+| market cap | $9.2B |
+| 5d / 21d / 63d / 252d | -7.4% / -13.0% / -8.1% / +105.7% |
+| 60d avg daily $ volume | $182.8M |
+| beta (vs IWM) | 1.28 (R²=0.085) |
 
 ## What the market's price already assumes
-Normalized FCFF base **$369.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$528.6M', '$265.7M', '$209.5M']
-Enterprise value **$7.9B** · FCFF yield **+4.7%**
+Normalized FCFF base **$392.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$512.9M', '$-30.1M', '$-139.0M']
+Enterprise value **$14.0B** · FCFF yield **+2.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.6% − 1pt | +4.0% |
-| **8.6% (point)** | **+8.2%** |
-| 8.6% + 1pt | +12.0% |
+| 14.2% − 1pt | +38.3% |
+| **14.2% (point)** | **+41.5%** |
+| 14.2% + 1pt | +44.6% |
 
 
-> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$327.5M** and an implied growth of **+11.1%** instead of +8.2%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 71% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$310.3M** and an implied growth of **+48.9%** instead of +41.5%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+18.4%** (5y revenue CAGR +18.4%).
-Gap under that baseline: **+46.2%** (fair value $490.04 vs price $335.15).
+Naive baseline for comparison: **+15.5%** (5y revenue CAGR +15.5%).
+Gap under that baseline: **-90.1%** (fair value $6.63 vs price $66.93).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **84th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +78.6%).
+Cohort: **6th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -58.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.5%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_5.7x_of_mean`
+- `stock_comp_is_71%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000066/idcc-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000065/idcc-20260730.htm
-- 2026-06-15 **8-K** — items 5.03,5.07 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000055/idcc-20260610.htm
-- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000043/idcc-20260430.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000035/idcc-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000034/idcc-20260430.htm
-- 2026-02-05 **10-K** — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000011/idcc-20251231.htm
-- 2026-02-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1405495/000140549526000010/idcc-20260205.htm
-- 2026-01-07 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1405495/000162828026001101/idcc-20260107.htm
-- 2025-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1405495/000140549525000063/idcc-20250930.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/797721/000119312526337903/vsat-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/797721/000119312526332896/d131434d8k.htm
+- 2026-07-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/797721/000119312526318060/d136591ddef14a.htm
+- 2026-05-29 **10-K** — https://www.sec.gov/Archives/edgar/data/797721/000119312526248290/vsat-20260331.htm
+- 2026-05-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/797721/000119312526245304/d133220d8k.htm
+- 2026-05-07 **8-K** — items 1.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/797721/000119312526210427/d108013d8k.htm
+- 2026-02-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/797721/000119312526041421/vsat-20251231.htm
+- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/797721/000119312526039528/d39970d8k.htm
+- 2026-01-26 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/797721/000119312526022564/d232462d8k.htm
+- 2025-12-11 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/797721/000119312525316132/d73015d8k.htm
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Information Technology
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 
 ---
 
