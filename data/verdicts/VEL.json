@@ -1,0 +1,48 @@
+{
+  "ticker": "VEL",
+  "date": "2026-08-31",
+  "sector": "Financials",
+  "name": "VELOCITY FINANCIAL INC",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.14,
+  "horizon_months": 18,
+  "price_at_verdict": 18.010000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": 97.3,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter to my dismissal is that the cost of equity is not obviously wrong just because it is low, and that even at a defensible 11-13% cost of equity the justified multiple is 1.1-1.3x tangible book against an actual multiple near 1.0x \u2014 a real if unspectacular discount \u2014 and that the Toorak deal is a genuine re-rating mechanism I am waving away. Buying an origination and asset-management platform while a third party takes the balance-sheet risk converts part of Velocity's earnings from spread income (which deserves a book multiple) into fee and servicing income (which deserves an earnings multiple). If that mix shift is real, the right comparison is not price-to-book at all, and the stock is cheap.",
+    "what_would_prove_it": "The purchase price and funding of the Toorak platform, and the disclosed run-rate fee and servicing revenue it carries. If Velocity is paying a modest cash sum for a platform that adds durable capital-light fee income, the counter wins. If it is paying up, or funding it with equity, or if the 'management' arrangement is thin-margin subservicing, it does not. The Q3 or Q4 2026 filings and the closing 8-K will say.",
+    "already_visible": "Not yet, and that is the point. The deal was announced four days before this brief and the platform purchase price was not in any source I could reach; the widely repeated '$3.2 billion' figure refers to the portfolio changing hands, not to what Velocity is paying. The market's own reaction is close to nil \u2014 the stock is -1.8% over five sessions \u2014 which is either the market ignoring it or the market judging it immaterial to Velocity's equity. I cannot tell which.",
+    "unresolved": "The purchase price, the funding, and whether Velocity's balance sheet takes any of the Toorak credit. Also unresolved: whether 9.6% NPLs on investor real-estate loans are, as management frames them, low-LTV positions that resolve at or near par, or the leading edge of a credit cycle. I could not read the 10-Q."
+  },
+  "what_changed": "Two things since the last 10-K. Q2 2026 (reported 2026-08-05): portfolio $7.0B UPB (+19% YoY), NIM 3.66%, core pre-tax ROE 21.8%, diluted BVPS $18.43 (+18% YoY, +3.8% sequentially), adjusted diluted BVPS $20.59, NPLs improved to 9.6%, net income $25.2M. Then, materially, on 2026-08-26 Velocity Commercial Capital signed an Equity Purchase Agreement to acquire the operating platform of Toorak Capital (KKR-backed, ~280 employees, Tampa), disclosed 2026-08-27 in an 8-K under items 1.01/7.01. Reported as an all-cash purchase of the platform, with roughly $3B UPB of Toorak loans being sold to a third-party investment firm that Velocity will then manage, plus forward-flow arrangements to sell future Toorak originations. Toorak's founder-CEO John Beacham stays and becomes an EVP of Velocity Commercial Capital. Expected to close in Q4 2026.",
+  "consensus_case": "Velocity originates and holds small-balance investor real-estate loans \u2014 business-purpose lending to landlords and small commercial owners, a segment banks largely exited. It is a spread book: the portfolio reached $7.0B of UPB in Q2 2026, up 19% year over year, NIM held above target at 3.66%, and core pre-tax ROE was 21.8%. Diluted book value per share compounded 18% year over year to $18.43. At $18.01 the market is paying roughly one times tangible book \u2014 which is exactly what the market has always paid for a levered, non-bank, non-prime real-estate lender, no matter how good the reported ROE looks, because the equity is a thin slice under a lot of securitised debt and the loss content of the book is only revealed in a downturn. Non-performing loans at 9.6% are the reason: they are improving, but a book with near-double-digit NPLs does not get a franchise multiple.",
+  "key_risks": [
+    "The headline gap is a discount-rate artifact, not a mispricing \u2014 anyone acting on the 97th-percentile cohort rank is acting on a 6.5% cost of equity for a levered non-prime lender",
+    "Toorak integration: 280 employees, a founder-CEO retained, and an undisclosed price, closing into Q4 2026",
+    "9.6% non-performing loans; investor real-estate credit is the first thing to crack if small-landlord cash flows deteriorate",
+    "Securitisation market access is the funding model \u2014 a closed ABS window is an existential rather than a cyclical problem",
+    "$1.8M average daily dollar volume: a $711M company that cannot be traded in size"
+  ],
+  "watch_for": [
+    "The Toorak closing 8-K with purchase price, funding source and the acquired platform's revenue",
+    "Q3 2026 NPLs \u2014 a reversal of the improvement to 9.6% would break the ROTCE assumption",
+    "Any equity raise to fund the acquisition, which would change the per-share arithmetic entirely"
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20260805328428/en/Velocity-Financial-Inc.-Reports-Second-Quarter-2026-Results",
+    "https://www.investing.com/news/company-news/velocity-financial-q2-2026-slides-book-value-up-18-as-portfolio-hits-7b-93CH-4839640",
+    "https://www.housingwire.com/articles/velocity-toorak-acquisition-rtl-bpl/",
+    "https://www.stocktitan.net/news/VEL/velocity-enters-into-agreements-to-acquire-toorak-s-operating-yig1tfekvvdr.html",
+    "https://www.connectcre.com/stories/velocity-financial-to-acquire-toorak-operating-platform-manage-3b-loan-portfolio/",
+    "data/fundamentals.json (committed EDGAR extract, CIK 1692376, fetched 2026-08-30)"
+  ],
+  "flags": []
+}

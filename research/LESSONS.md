@@ -17,6 +17,12 @@ mid-2027). Until then, these are the STANDING priors the red team should hold th
   normalized FCFF. Every gap over 40% is a data question first.
 - Sources: a single uncorroborated story is a lead, not a fact. Two independent sources or an
   8-K is the bar for re-rating.
+- A peak can fill the whole window. The peak-cycle flag compares the newest FCF in the window
+  to the oldest, so it stays silent when all three years sit at an elevated level — the case
+  that matters most. Before accepting a stable FCFF base, check it against the company's
+  pre-window history, not just against itself. (Added 2026-08-31 from the BBW pass: three flat
+  years at ~$38M, no flag, against a fiscal 2018 pre-tax LOSS and $1.6M of pre-tax income in
+  fiscal 2019. Flat is not the same as normal.)
 
 ---
 

@@ -1,0 +1,52 @@
+{
+  "BBW": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "cheap"
+  },
+  "CRNX": {
+    "conviction": "high",
+    "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
+  "CTRE": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "IDCC": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "fair"
+  },
+  "PRAX": {
+    "conviction": "medium",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "PTGX": {
+    "conviction": "medium",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "RHP": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "STRT": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "cheap"
+  },
+  "VEL": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
+  "WLFC": {
+    "conviction": "medium",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  }
+}

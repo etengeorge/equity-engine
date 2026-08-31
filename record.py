@@ -72,7 +72,10 @@ def reprice(obj, screen_row, rf):
     cik = screen_row.get("cik")
     if not cik:
         return {"ok": False, "reason": "no cik"}
-    fund = edgar.fundamentals(cik)
+    # Use the committed extract, not a fresh companyfacts pull. The forward pass runs in the
+    # analyst's runtime, which has no SEC egress; re-fetching raw XBRL here made every
+    # reprice fail silently and left the dashboard with a screen and no second opinion.
+    fund, fund_source = edgar.fundamentals_cached(cik)
     w = V.cost_of_capital(fund, screen_row["price"], screen_row.get("beta"),
                           None, rf)
     override = obj.get("fcff_base_override")
@@ -92,6 +95,7 @@ def reprice(obj, screen_row, rf):
         "fair_value_band": fd["fair_value_band"],
         "fcff_base_used": fd["fcff_base_used"],
         "base_overridden": isinstance(override, (int, float)),
+        "fundamentals_source": fund_source,
         "flags": fd.get("flags", []),
     }
 

@@ -1,0 +1,65 @@
+{
+  "ticker": "IDCC",
+  "date": "2026-08-31",
+  "sector": "Information Technology",
+  "name": "INTERDIGITAL INC",
+  "method": "fcff",
+  "verdict": "fair",
+  "conviction": "low",
+  "final_growth": 0.05,
+  "horizon_months": 24,
+  "price_at_verdict": 335.1499938964844,
+  "market_implied_growth": 0.0823093090938013,
+  "cohort_pct": 83.6,
+  "priced": {
+    "ok": true,
+    "analyst_growth": 0.05,
+    "market_implied_growth": 0.0823093090938013,
+    "growth_delta": -0.032309309093801294,
+    "fair_value": 296.0830494398421,
+    "price": 335.1499938964844,
+    "gap": -0.11656555323915241,
+    "fair_value_band": {
+      "low": 258.3381996032186,
+      "point": 296.0830494398421,
+      "high": 348.55656527129366
+    },
+    "fcff_base_used": 369077756.6666667,
+    "base_overridden": false,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter to my 'fairly valued' answer is that I am underwriting management's own 2030 total-revenue target as a ceiling when it has functioned as a floor, and that the FCFF base I am growing is too low. The three-year mean of $369M sits well under the $528.6M this business generated in 2025 and under what a 2026 delivering roughly $500M of adjusted EBITDA on sub-$16M capex will produce. If catch-up revenue does not run off \u2014 if every new licensing cycle keeps producing Amazon-sized retroactive settlements, which is what has actually happened for several years running \u2014 then total revenue does not stay flat, and 8.2% is not a demanding hurdle at all. The 84th-percentile cohort rank is telling me the market is not paying for this.",
+    "what_would_prove_it": "The split between recurring and catch-up revenue over the next four to six quarters, and whether ARR keeps compounding above 10% once the Amazon and fintech deals anniversary. If ARR passes $700M during 2027 while total revenue holds above $800M, catch-up is not running off and my base case is too low.",
+    "already_visible": "Partly, and it cuts against me. The Q2 beat WAS an 82% beat, and the pattern of large retroactive settlements has now repeated across Samsung, Lenovo, Disney and Amazon. Against that, the extract shows total revenue already going backwards \u2014 $868.5M in 2024 to $834.0M in 2025 \u2014 which is precisely the flat-to-declining total the 2030 plan describes, and is the single strongest piece of evidence that the recurring growth is being offset rather than added to.",
+    "unresolved": "The Amazon licence terms are being set by arbitration, so the revenue recognised on it is an estimate against an unsettled outcome, and I do not know the range or the timing. I also could not read the 10-Q or the 10-K, so I could not see the recurring/non-recurring revenue split directly and am relying on management's ARR disclosure via secondary sources. Both matter to the central question."
+  },
+  "what_changed": "Q2 2026 (2026-07-30): revenue $260.2M against $139-143M guided, adjusted EBITDA $184.1M, non-GAAP EPS $4.62, ARR a record $626M (+13% YoY) driven by the new Amazon agreement and fintech IoT deals plus growth in streaming and cloud. Full-year 2026 guidance raised to $775-845M revenue, $469-529M adjusted EBITDA, $10.85-12.81 non-GAAP EPS. The Amazon licence covers devices and Prime Video with final terms to be set by arbitration, and it resolved all pending litigation between the parties. Nothing else material found since the 2026-02-05 10-K; I found no management change, no adverse ruling and no guidance withdrawal.",
+  "consensus_case": "InterDigital licenses a wireless and video patent portfolio, and after a decade of litigation it has converted the hard cases into contracts. Q2 2026 revenue of $260.2M beat the $139-143M guidance range by 82% on a new Amazon licence covering devices and Prime Video that resolved all pending litigation between them, plus catch-up revenue. Adjusted EBITDA was $184.1M and non-GAAP EPS $4.62. Management raised full-year 2026 guidance by $85M at the midpoint to $775-845M of revenue, $469-529M of adjusted EBITDA and $10.85-12.81 of non-GAAP EPS. Annualised recurring revenue hit a record $626M, up 13%. The bull case is straightforward: this is a ~60% EBITDA-margin business with almost no capital intensity, $739M of cash against $475M of debt, a recurring base compounding at a double-digit rate, and an unlitigated runway into streaming, cloud, consumer electronics and automotive. Paying 8.6% WACC for that stream and asking it to grow 8.2% is not an aggressive ask for a business that just grew ARR 13%.",
+  "key_risks": [
+    "Amazon licence economics are unresolved pending arbitration; the revenue booked is an estimate",
+    "Patent licensing is inherently binary at the edges \u2014 an adverse validity or FRAND ruling in any major jurisdiction reprices the book",
+    "Total revenue has already declined year over year ($868.5M in 2024 to $834.0M in 2025) even as ARR grew; the growth is a mix shift inside a flat total",
+    "The 2030 plan requires streaming and cloud ARR to go from $60M to over $300M \u2014 a fivefold increase in the least proven vertical",
+    "The stock has already re-rated 33% over 63 sessions and 25% over 252"
+  ],
+  "watch_for": [
+    "The recurring versus catch-up revenue split in the Q3 and Q4 2026 disclosures",
+    "Resolution of the Amazon arbitration and the final licence terms",
+    "ARR passing $700M, which would mean catch-up is not running off and my base case is too conservative",
+    "Any 2027 guidance that implies total revenue meaningfully above the $800M 2030 target"
+  ],
+  "sources": [
+    "https://www.globenewswire.com/news-release/2026/07/30/3336039/24691/en/InterDigital-Announces-Financial-Results-for-Second-Quarter-2026.html",
+    "https://www.investing.com/news/company-news/interdigital-q2-2026-slides-revenue-beats-guidance-by-82-arr-hits-record-93CH-4825514",
+    "https://www.fool.com/earnings/call-transcripts/2026/07/30/interdigital-idcc-q2-2026-earnings-call-transcript/",
+    "https://ir.interdigital.com/news-events/press-releases/news-details/2024/InterDigital-Announces-Annual-Recurring-Revenue-Target-Of-1-Billion-By-2030/default.aspx",
+    "https://finance.yahoo.com/markets/stocks/articles/interdigital-maps-path-1b-recurring-010515410.html",
+    "data/fundamentals.json (committed EDGAR extract, CIK 1405495, fetched 2026-08-30)"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ticker": "PTGX",
+  "date": "2026-08-31",
+  "sector": "Health Care",
+  "name": "PROTAGONIST THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "horizon_months": 12,
+  "price_at_verdict": 144.3300018310547,
+  "market_implied_growth": 0.7432444627560659,
+  "cohort_pct": 10.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to refusing a number is that a royalty stream is the single most modellable thing in biotechnology \u2014 no COGS, no salesforce, no manufacturing, a contractual percentage of someone else's revenue \u2014 and that declining to value it is laziness dressed as rigour. On that view the honest exercise is to estimate peak sales for each drug, apply the contracted royalty rate, discount, and compare to the $8.2B enterprise value implied by a $9.3B market cap against roughly $1.1B of cash. And the market's own behaviour is a live objection to my refusal: a 6.5% fall across an FDA approval says the market thinks the price already embeds more than the approval delivers, which is a valuation claim I am declining to test.",
+    "what_would_prove_it": "Consensus or company-guided peak sales for MIMRYLO in polycythemia vera and for icotrokinra across psoriasis, psoriatic arthritis, UC and Crohn's, together with the precise royalty tier breakpoints from the Takeda and Janssen agreements. With those four inputs the stream is arithmetic.",
+    "already_visible": "The inputs are not visible to me. I could not open the licence agreements, the 10-K or the 10-Q \u2014 SEC egress is blocked from this runtime \u2014 so I have the royalty RANGES from press releases (6-10% and 14-29%) but not the breakpoints that determine which end applies, and I found no free, sourced peak-sales estimate for either drug that I would be willing to put a number on. Building a valuation from a range that spans 2x on the royalty rate and an invented peak-sales figure would be manufacturing precision, and the difference between the ends of those ranges is larger than the entire disagreement I would be trying to adjudicate.",
+    "unresolved": "Whether $8.2B of enterprise value is right, which is the actual question. I have not answered it \u2014 I have established only that the engine's method cannot answer it and that I lack the inputs to answer it another way. That is a limitation of this session, not a conclusion about the stock."
+  },
+  "what_changed": "Almost everything, and most of it after the last 10-K. Icotrokinra FDA approval and US launch, March 2026, $50M milestone. Rusfertide opt-out exercised 2026-04-28, triggering a $200M fee. NDA accepted with priority review, PDUFA in Q3 2026. Four presentations of Phase 3 VERIFY and long-term REVIVE/THRIVE data at EHA in June 2026. Q2 2026 (reported 2026-08-05): net income of $162.8M against a $34.8M loss a year earlier, on $213.5M of licence and collaboration revenue that included $192.4M of the Takeda opt-out payment; cash and marketable securities $849.5M. Then, three days before this brief, FDA approval of MIMRYLO (rusfertide) on 2026-08-28, which triggers the second $200M opt-out fee and the $75M approval milestone. The stock is down 6.5% over the five sessions spanning that approval \u2014 a sell-the-news reaction to the single largest de-risking event in the company's history.",
+  "consensus_case": "Protagonist has stopped being a clinical-stage biotech and become a royalty holder on two approved drugs, without taking on a commercial infrastructure. Icotrokinra, partnered with Johnson & Johnson, was approved by the FDA in March 2026 for moderate-to-severe plaque psoriasis and launched in the US the same month, triggering a $50M milestone and carrying tiered royalties of 6-10% plus up to $580M of further milestones, with Phase 3 programmes running in psoriatic arthritis, ulcerative colitis and Crohn's disease. Rusfertide was approved on 2026-08-28 as Takeda's MIMRYLO for erythrocytosis in polycythemia vera, on VERIFY data showing 76.9% of patients phlebotomy-free over 32 weeks against 32.9% on placebo. Protagonist opted out of the Takeda collaboration in April 2026, which converts it into a pure royalty position: $200M received on opt-out, a further $200M opt-out fee and a $75M milestone triggered by approval, up to $775M of sales milestones, and worldwide royalties of 14-29%. That royalty rate is unusually high, it is worldwide, and it costs Protagonist nothing to earn. Against $849.5M of cash at 30 June plus roughly $275M more now triggered, a $9.3B market capitalisation is the market's estimate of the net present value of two royalty streams \u2014 one on a first-in-class drug for a disease whose standard of care is repeated bloodletting.",
+  "key_risks": [
+    "MIMRYLO commercial uptake is entirely in Takeda's hands; Protagonist has no control over launch execution and no other lever",
+    "Polycythemia vera is a chronic, relatively small indication and phlebotomy is free \u2014 payer resistance to a priced alternative is the central commercial question",
+    "Icotrokinra faces a crowded psoriasis market; the 6-10% royalty tier is thin, and the value depends on the Phase 3 read-outs in PsA, UC and Crohn's",
+    "The equity has run 135% over 252 sessions and 45% over 63; much of the royalty value is already in the price",
+    "Stock compensation is 67% of the reported FCFF base, so any cash-flow-based screen of this name is structurally misleading"
+  ],
+  "watch_for": [
+    "First two quarters of MIMRYLO sales reported by Takeda \u2014 the only observable that converts the royalty from an option into a stream",
+    "Receipt and confirmation of the $200M second opt-out fee and the $75M approval milestone",
+    "Phase 3 read-outs for icotrokinra in psoriatic arthritis, ulcerative colitis and Crohn's disease",
+    "Any disclosure of the royalty tier breakpoints, which would make the stream modellable"
+  ],
+  "sources": [
+    "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/protagonist-reports-second-quarter-2026-financial-results-and-provide-1202122",
+    "https://www.takeda.com/en-us/newsroom/news-releases/2026/fda-approval-mimrylo/",
+    "https://www.biospace.com/press-releases/takeda-receives-u-s-fda-approval-of-mimrylo-rusfertide-marking-a-potential-shift-in-the-treatment-paradigm-for-polycythemia-vera",
+    "https://www.cancernetwork.com/view/fda-approves-rusfertide-in-polycythemia-vera",
+    "https://finance.yahoo.com/sectors/healthcare/articles/protagonist-reports-first-quarter-2026-200500536.html",
+    "https://www.stocktitan.net/sec-filings/PTGX/10-q-protagonist-therapeutics-inc-quarterly-earnings-report-5021c0c23cd7.html"
+  ],
+  "flags": [
+    "beta_defaulted_to_1.0(unreliable_r2_0.011_raw_0.29)",
+    "speculative_cost_of_debt_but_only_0%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_4.5x_of_mean",
+    "stock_comp_is_67%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

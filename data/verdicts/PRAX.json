@@ -1,0 +1,56 @@
+{
+  "ticker": "PRAX",
+  "date": "2026-08-31",
+  "sector": "Health Care",
+  "name": "PRAXIS PRECISION MEDICINES",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "horizon_months": 12,
+  "price_at_verdict": 344.75,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "Refusing to model is the safe answer, not necessarily the right one, and here it may be hiding something the numbers can reach. A $9.6B market capitalisation on roughly $1.4B of cash puts about $8.2B on two unapproved drugs. Essential tremor is large enough to carry that if ulixacaltamide is a multi-billion-dollar drug \u2014 but this is a small molecule for a symptomatic, non-fatal chronic condition, competing against generic propranolol and primidone that cost almost nothing, in a payer environment that resists exactly that substitution. A first-ever positive Phase 3 establishes efficacy; it does not establish pricing power or that neurologists will switch. If peak sales land at $1-2B rather than $4-5B, $8.2B of pre-approval value is too much, and the correct verdict is rich rather than no_model. Note also that the stock's +634.8% run over 252 sessions is precisely what the LESSONS file warns about \u2014 the market has already paid for a good outcome.",
+    "what_would_prove_it": "Pricing and payer coverage at launch, and the size of the treated-patient funnel rather than the diagnosed one. Before that: approval on 2027-01-29 and the label \u2014 specifically whether it is broad or restricted to patients who have failed existing therapy, since a second-line label caps the commercial opportunity regardless of efficacy.",
+    "already_visible": "Some of it. Two of the three pipeline datapoints this year went the wrong way: vormatrigine missed its primary endpoint in POWER1, and relutrigine's review was extended three months on a major amendment. Neither touches ulixacaltamide, but both reduce the option value the $9.6B was partly carrying, and the stock has given back very little. Against that, the ulixacaltamide path itself has stayed clean \u2014 Breakthrough designation, NDA accepted, no advisory committee \u2014 and $1.4B of cash to 2028 removes the financing risk that usually breaks these stories.",
+    "unresolved": "Whether $8.2B of pre-approval value is right. I could not answer it and I want to be explicit that I did not: it requires a peak-sales estimate for ulixacaltamide that I have no defensible free source for, and I will not invent one. I also could not read the 10-Q or any of the 2026 8-Ks \u2014 SEC egress is blocked from this runtime \u2014 so the POWER1 details, the PDUFA extension and the cash figure are all secondary-sourced. I would flag one specific uncertainty: I found the relutrigine PDUFA extension reported as both December 2026 and December 2027 across sources, and settled on 2026-12-27 as the reading consistent with a standard three-month major-amendment extension from 2026-09-27. That is an inference, not a fact I verified."
+  },
+  "what_changed": "A great deal, in both directions. Positive: FDA accepted the ulixacaltamide NDA in April 2026 with a 2027-01-29 PDUFA date and no advisory committee planned; expanded Essential3 analyses were presented at AAN in April 2026; the relutrigine mid-cycle review surfaced no major safety or efficacy concerns. Negative: in June 2026 the POWER1 Phase 2/3 study of vormatrigine in highly refractory focal-onset seizures MISSED its primary endpoint of reduction in monthly focal seizure frequency at week 12, though it met a secondary endpoint on the proportion of patients achieving a 50% or greater reduction \u2014 management attributes the miss to dose, a six-week duration that was too short, and entry criteria weighted to heavily pre-treated patients, and plans to amend and restart POWER2 and POWER3 by Q4 2026. Also negative: the FDA deemed additional sensitivity analyses submitted for relutrigine a MAJOR AMENDMENT and extended the review, moving the PDUFA date from 2026-09-27 to 2026-12-27. Q2 2026 operating expenses were $96.9M against $76.0M a year earlier. The stock is -8.3% over five sessions and roughly flat over 63, after +634.8% over 252.",
+  "consensus_case": "Praxis owns the first pharmacological programme ever to succeed in Phase 3 in essential tremor. In October 2025 both pivotal Essential3 studies of ulixacaltamide met their primary endpoints, and the stock rose 231% in a day to $190. Essential tremor is a large, chronically undertreated neurological indication with no drug approved specifically for it \u2014 patients are managed off-label with propranolol and primidone, or with focused ultrasound. Ulixacaltamide has Breakthrough Therapy designation, the NDA was accepted in April 2026 with a PDUFA date of 2027-01-29, and the FDA is not planning an advisory committee. Behind it, relutrigine for SCN2A and SCN8A developmental and epileptic encephalopathies is under priority review with a PDUFA date of 2026-12-27, and the mid-cycle meeting produced no major safety or efficacy concerns and no advisory committee. The company held approximately $1.4B of cash and investments at 30 June 2026 with runway stated into 2028, so it can reach both decisions and launch without financing. A $9.6B market capitalisation is the market capitalising a first-in-class launch into a very large indication, four months from approval.",
+  "key_risks": [
+    "Roughly $8.2B of market value rests on two drugs that are not yet approved",
+    "Essential tremor is treated today with cheap generics; efficacy is proven, pricing and payer coverage are not",
+    "The label matters as much as the approval \u2014 a second-line restriction would materially cut the opportunity",
+    "Two adverse pipeline events already this year (vormatrigine POWER1 primary endpoint miss, relutrigine review extension) with little price given back",
+    "Cash burn is running near $100M a quarter and rising, against runway stated into 2028 \u2014 a launch year will test that",
+    "Beta of 2.25 on an R-squared of 0.052 means the reported risk measure is noise; this stock's realised volatility is the actual risk"
+  ],
+  "watch_for": [
+    "Relutrigine PDUFA, 2026-12-27 \u2014 the nearer of the two decisions",
+    "Ulixacaltamide PDUFA, 2027-01-29, and the approved label",
+    "Ulixacaltamide launch pricing and initial payer coverage decisions",
+    "Amended POWER2 and POWER3 restarting by Q4 2026, and whether the redesign is accepted"
+  ],
+  "sources": [
+    "https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-corporate-update-and-20",
+    "https://www.biospace.com/press-releases/praxis-precision-medicines-provides-corporate-update-and-reports-second-quarter-2026-financial-results",
+    "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-fda-acceptance-new-drug",
+    "https://www.neurologylive.com/view/praxis-submits-ndas-for-ulixacaltamide-essential-tremor-relutrigine-scn2a-scn8a-developmental-epileptic-encephalopathies",
+    "https://www.fiercebiotech.com/biotech/praxis-bounces-back-shaky-ground-phase-3-win-essential-tremors-sending-stocks-soaring",
+    "https://www.nasdaq.com/articles/praxis-stock-surges-231-after-positive-phase-3-results-ulixacaltamide",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/13/praxis-prax-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}
