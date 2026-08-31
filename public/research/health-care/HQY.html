@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HQY — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / HQY</p><h1>HQY <span style='color:var(--faint);font-weight:400'>HEALTHEQUITY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-fair'>fair</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$95.88</b></div><div>Analyst gap<b>-11%</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>HQY — HEALTHEQUITY</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — FAIR (conviction: low)</h2><ul><li><strong>Verdict:</strong> fair · price $95.88 · fair value $85.16 · gap -11.2%</li><li><strong>Growth:</strong> market implies +7.1%, analyst says +7.5% (delta +0.4%)</li><li><strong>FCFF base overridden</strong> by the analyst to $341.1M</li></ul><p><strong>The case for the price.</strong> The market is paying for an annuity on other people&#x27;s cash that is running out of tailwind. HealthEquity is the largest HSA custodian — 10.7 million accounts and nearly $38B of HSA assets at 7/31/2026 — and the economics are that it collects a spread on member cash it does not own. Fiscal 2027 guidance was raised on the Q2 print to revenue of $1.411-1.421B, adjusted EBITDA of $628-636M and non-GAAP net income of $392-398M, with a record 48% adjusted EBITDA margin achieved partly by cutting human-handled service calls 25% year over year with automation. The annualised yield on HSA cash was 3.83%, guided to 3.85-3.9% for the year on higher replacement rates and greater participation in enhanced-rate offerings. That is a genuinely good business. But the market&#x27;s reaction on 2026-08-28 — down 13.6% on raised revenue guidance — is the informed view, and it is specific: adjusted EPS guidance was held at $4.66-4.73 while revenue went up, management named headline price erosion as a service-revenue headwind, and the custodial yield gains come from replacement rates and enhanced-rate participation, both of which are one-time step-ups rather than a repeatable engine. At a corrected FCFF base the price requires roughly 10% annual growth for five years from a company guiding to about 8% revenue growth with margin already at a record.</p><p><strong>What changed.</strong> Q2 fiscal 2027, reported 2026-08-27: revenue $350.7M, up 8% year over year; non-GAAP EPS $1.24 against a $1.19 consensus; record 48% adjusted EBITDA margin; record 10.7 million HSA accounts and nearly $38B of HSA assets; annualised yield on HSA cash 3.83%. Fiscal 2027 guidance raised to revenue $1.411-1.421B, GAAP net income $242-248M, non-GAAP net income $392-398M, adjusted EBITDA $628-636M, with the custodial yield guided to 3.85-3.9%. Adjusted EPS guidance was NOT raised, held at $4.66-4.73 against a $4.72 consensus. The shares fell 13.6% the following session, from $104.42 to about $90.23. Management flagged headline price erosion in service revenue and described a hedging strategy intended to damp custodial-yield volatility.</p><p><strong>Base case.</strong> I underwrite roughly 7.5% five-year FCFF growth, materially below the naive 12.4% revenue CAGR and slightly below the roughly 10.1% the price requires once the capex input is corrected. The reason is that the three engines that produced the last five years cannot all repeat. Account growth is the durable one — HSA adoption is a secular share shift and 10.7 million accounts still compounds mid single digits. Margin is largely spent: a 48% adjusted EBITDA margin is a company record achieved with automation, and while more is possible the incremental leverage from here is smaller than the leverage already taken. And custodial yield, which has been the single largest driver, is the one that reverses: the 3.85-3.9% guided yield is earned by rolling maturing balances into higher replacement rates and by pushing members into enhanced-rate products, and both of those are step-ups against a fixed-income curve rather than a growth engine. Add management&#x27;s own acknowledgement of headline price erosion in service revenue and the honest composite is high-single-digit revenue growth converting to high-single-digit FCFF growth, not the low double digits the price needs. I differ from the naive baseline because the baseline mechanically applies a five-year revenue CAGR that was itself created by a rate cycle that is now at or past its peak.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against me is that I am haircutting the base for something that is not really capex, and then compounding the error with a rate view I have no business holding. Capitalised software development at HealthEquity is not a maintenance outlay on a depreciating asset — it is the automation programme that just took the adjusted EBITDA margin to a record 48% and cut service calls 25%. Charging it against free cash flow while ALSO refusing to credit the margin expansion it buys double-counts the cost. On the yield side, the bear assumption is that rates fall; but HSA cash is invested in a laddered portfolio with multi-year replacement, so a falling front end takes years to reach the realised yield, and management explicitly described a hedging strategy designed to damp exactly that volatility. Meanwhile members keep converting cash to invested assets, which earns a fee independent of rates. On that reading the market&#x27;s roughly 10% implied growth is achievable, the 13.6% drawdown was a positioning event around an unraised EPS line rather than a fundamental one, and my 7.5% is simply too low.</li><li>What would prove it: Two observables over the next three or four quarters. First, realised annualised custodial yield: if it holds at or above 3.85% through fiscal 2028 as rates move, the laddering-and-hedging defence is real and my haircut is wrong. Second, service revenue per account: management named headline price erosion as a headwind, so if service revenue per account stabilises while accounts keep growing, the pricing pressure is contained. If instead realised yield rolls down toward the low 3s while service revenue per account keeps eroding, two of the three engines are reversing at once and 7.5% will prove generous.</li><li>Already visible today: Yes, on the counter&#x27;s side more than mine, and I have to concede it. The custodial yield guidance went UP, not down, on the Q2 print, to 3.85-3.9%, and the company raised full-year revenue and EBITDA. There is no visible evidence today that yield is rolling over; the evidence is that it is still stepping up. What is visible on my side is narrower but real: adjusted EPS guidance was held while revenue was raised, which means the incremental revenue is arriving at low or negative incremental margin, and management named price erosion unprompted. That is a mix-quality signal, not a yield signal.</li><li>Left unresolved: The split of the roughly $38B of HSA assets between custodial cash and invested assets, which determines exactly how rate-sensitive the revenue actually is. I could not read the Q2 10-Q or the fiscal 2026 10-K — SEC egress is blocked from this runtime — so I could not obtain it, and it is the single number that would settle the disagreement between my base case and the counter. I also could not verify the fiscal 2024 capitalised software figure against the filing itself; it comes from a secondary rendering of the cash-flow statement.</li></ul><p><strong>Key risks.</strong> Custodial revenue is a spread on member cash; a sustained fall in front-end rates compresses the largest profit driver with a multi-year lag; Adjusted EBITDA margin is already at a record 48%, so further operating leverage is limited; Management named headline price erosion in service revenue as a live headwind; Adjusted EPS guidance was held while revenue guidance was raised — incremental revenue is arriving at poor incremental margin; Goodwill and intangibles of roughly $2.75B against $2.11B of book equity: this is an acquired platform, and the amortisation is real <strong>Watch for.</strong> Realised annualised yield on HSA cash through fiscal 2028 — at or above 3.85% supports the counter, drifting toward the low 3s supports my base case; Service revenue per account, as the direct test of the price-erosion comment; The custodial-cash versus invested-assets split of HSA assets, which sets true rate sensitivity; Whether capitalised software development stays near $45-50M a year or steps up again</p><p><strong>Data quality.</strong> I resolved the two flags raised and found a third and larger one the screen missed. THE ONE THAT MATTERS: capex is sourced from PaymentsToAcquirePropertyPlantAndEquipment, which for HealthEquity captures only $1,969K, $2,084K and $1,694K — office equipment. The company&#x27;s actual capital spending runs through a separate cash-flow line, &#x27;Purchases of software and capitalised software development costs&#x27;, at $46,515K in fiscal 2026, $51,129K in fiscal 2025 and $41,123K in fiscal 2024. This is the industry-specific capex-tagging failure already documented in CLAUDE.md, in a sector the alias list does not cover, and it inflates the FCFF base by roughly 14%. Corrected free cash flow is $408.6M, $286.6M and $200.0M, a mean of $298.4M; with the $55.5M interest expense add-back at a 25% tax rate the corrected FCFF base is $341.1M against the screen&#x27;s $387.4M, and the implied growth the price requires rises from +7.1% to +10.1%. I have overridden the base accordingly, and this correction is what turns the screen&#x27;s +26.7% &#x27;cheap&#x27; reading into a fair one — it is the whole story on this name. ON THE FLAGGED ITEMS: the peak-cycle flag (newest free cash flow 1.9x oldest) is real but is a growth ramp rather than a cycle — corrected free cash flow still doubles across the window, driven by account and yield growth, not by a commodity or a one-time item, so I did not haircut for it beyond the growth rate itself. The stock-compensation flag is correctly sized at 24% here, unlike on levered names where the ratio&#x27;s denominator bug inflates it. CONFIRMED GOOD: the share count of 82,715,296 as of 2026-08-20 is current, so market capitalisation is right; fiscal year end 2026-01-31 means the 10-K filed 2026-03-17 is captured. STILL OPEN: the balance sheet is the fiscal 2026 year end, so the $957.4M of debt and $318.9M of cash predate two quarters of buybacks and debt service, and my corrected fiscal 2024 capitalised software figure comes from a secondary rendering of the cash-flow statement rather than the filing. I read no primary filing — SEC egress is blocked from this runtime and WebFetch was refused for sec.gov, stockanalysis.com and every news host attempted — which caps conviction at low.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.globenewswire.com/news-release/2026/08/27/3351951/32142/en/healthequity-reports-second-quarter-ended-july-31-2026-financial-results.html" rel="noopener">https://www.globenewswire.com/news-release/2026/08/27/3351951/32142/en/healthequity-reports-second-quarter-ended-july-31-2026-financial-results.html</a></li><li><a href="https://seekingalpha.com/news/4637609-healthequity-outlines-fiscal-2027-revenue-of-1_411b-1_421b-while-expanding-ai-driven" rel="noopener">https://seekingalpha.com/news/4637609-healthequity-outlines-fiscal-2027-revenue-of-1_411b-1_421b-while-expanding-ai-driven</a></li><li><a href="https://www.investing.com/news/transcripts/earnings-call-transcript-healthequity-beats-q2-2026-estimates-shares-sink-136-93CH-4879640" rel="noopener">https://www.investing.com/news/transcripts/earnings-call-transcript-healthequity-beats-q2-2026-estimates-shares-sink-136-93CH-4879640</a></li><li><a href="https://www.rttnews.com/story.aspx?Id=3685693" rel="noopener">https://www.rttnews.com/story.aspx?Id=3685693</a></li><li><a href="https://www.fool.com/investing/2026/08/30/why-healthequity-stock-sank-this-week/" rel="noopener">https://www.fool.com/investing/2026/08/30/why-healthequity-stock-sank-this-week/</a></li><li><a href="https://www.stocktitan.net/news/HQY/health-equity-reports-second-quarter-ended-july-31-2026-financial-88udgr0owozl.html" rel="noopener">https://www.stocktitan.net/news/HQY/health-equity-reports-second-quarter-ended-july-31-2026-financial-88udgr0owozl.html</a></li><li><a href="https://s21.q4cdn.com/785172654/files/doc_financials/2026/q2/4-Q2-26-Press-Release-SCF.pdf" rel="noopener">https://s21.q4cdn.com/785172654/files/doc_financials/2026/q2/4-Q2-26-Press-Release-SCF.pdf</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 1428336, fetched 2026-08-30)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/HQY.md'>research/Health Care/HQY.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

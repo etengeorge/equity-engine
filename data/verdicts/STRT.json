@@ -8,21 +8,21 @@
   "conviction": "low",
   "final_growth": -0.02,
   "horizon_months": 30,
-  "price_at_verdict": 75.04000091552734,
-  "market_implied_growth": -0.23589923233018445,
-  "cohort_pct": 91.5,
+  "price_at_verdict": 70.19999694824219,
+  "market_implied_growth": -0.24999259129056423,
+  "cohort_pct": 91.6,
   "priced": {
     "ok": true,
     "analyst_growth": -0.02,
-    "market_implied_growth": -0.23589923233018445,
-    "growth_delta": 0.21589923233018446,
-    "fair_value": 115.45949715795616,
-    "price": 75.04000091552734,
-    "gap": 0.5386393356781687,
+    "market_implied_growth": -0.24999259129056423,
+    "growth_delta": 0.22999259129056424,
+    "fair_value": 112.75560605211693,
+    "price": 70.19999694824219,
+    "gap": 0.6062052842431118,
     "fair_value_band": {
-      "low": 104.36434685265853,
-      "point": 115.45949715795616,
-      "high": 130.03529202900557
+      "low": 102.25986799076765,
+      "point": 112.75560605211693,
+      "high": 126.43262863623491
     },
     "fcff_base_used": 33000000,
     "base_overridden": true,
@@ -31,19 +31,22 @@
   },
   "parse_notes": [],
   "devils_advocate": {
-    "strongest_counter": "The gap that survives my base-year correction is not a mispricing, it is a disagreement about terminal multiple, and the market is the one with the evidence. This model discounts at 9.85% to a 2.5% perpetuity, which is a 13.5x multiple on terminal free cash flow. Auto suppliers do not get 13.5x and never have \u2014 the sector trades at 3.5-5x EV/EBITDA, and Strattec's 4.3x sits squarely inside that. The reason is not sentiment: the terminal value of a mechanical-lock-and-latch supplier to three North American OEMs is genuinely uncertain, because vehicle architecture is being redesigned around digital access, and a supplier whose product is a physical key has a real chance of not having a perpetuity at all. Every dollar of the gap I am reporting comes from assuming it does.",
-    "what_would_prove_it": "Content-per-vehicle on new programme awards, and the mix between legacy mechanical products and the power-access and electronic security lines. If new awards are replacing mechanical content one-for-one or better with electronic content, the perpetuity is safe and the multiple is wrong. If Strattec's content is shrinking per vehicle as architectures change, the market's implied decay is the honest number and the terminal value should not be there.",
-    "already_visible": "Ambiguous, and I have to say so. Cancelled EV programmes have already cost Strattec real revenue \u2014 that is a live example of architecture change destroying content, and management flagged it explicitly. Against it, the same management says cancelled EV programmes are no longer an incremental headwind and is spending $12M a year automating, which is not what you do to a business you expect to run off. I could not read the 10-K's programme-award or content-per-vehicle disclosure, so I cannot resolve which pattern dominates.",
-    "unresolved": "The terminal multiple, which is the whole disagreement, and I could not close it. I also could not reconcile the $71.7M operating cash flow year against $18.7M of net income in the same year \u2014 a working-capital release of that size matters to what 'maintainable' means, and it is the reason I cut the base to $33M rather than trusting any single year. And there is no dated catalyst here: LESSONS is explicit that a small-cap value gap without an event that forces re-pricing is usually early, and this one has none."
+    "strongest_counter": "The gap that survives my base-year correction is not a mispricing, it is a disagreement about terminal multiple, and the market is the one with the evidence. This model discounts at 10.07% to a 2.5% perpetuity, which is roughly a 13x multiple on terminal free cash flow. Auto suppliers do not get 13x and never have. The reason is not sentiment: a mechanical access supplier to three North American OEMs faces vehicle architectures being redesigned around digital access, and every dollar of the gap I report comes from assuming a perpetuity that may not exist. Cancelled EV programmes have already cost Strattec real revenue \u2014 that is a live example of architecture change destroying content, flagged by management itself.",
+    "what_would_prove_it": "Content per vehicle on new programme awards, and the mix between legacy mechanical products and the power-access and electronic security lines. If new awards replace mechanical content one-for-one or better with electronic content, the perpetuity is safe and the multiple is wrong. If content shrinks per vehicle as architectures change, the market's implied decay is the honest number and the terminal value should not be there.",
+    "already_visible": "Ambiguous, and I have to say so again today because I could not resolve it. Cancelled EV programmes destroyed content, which is the bear mechanism in action. Against it, management says cancelled EV programmes are no longer an incremental headwind and is spending about $12M a year automating, which is not what you do to a business you expect to run off. The 10-K was filed on 2026-08-28 and would contain the programme-award and content-per-vehicle disclosure that settles this; SEC egress is blocked from this runtime and I could not open it. A second, weaker signal appeared today: the stock fell 6.5% intraday on no disclosure I could find, three days after the 10-K landed. That is consistent with someone reading the 10-K and disliking what is in it, and I cannot check.",
+    "unresolved": "The terminal multiple, which is the whole disagreement, unchanged from this morning. Also unchanged: I could not reconcile the $71.7M operating cash flow year against $18.7M of net income in the same year \u2014 a working-capital release of that size matters to what 'maintainable' means, and it is why I cut the base to $33M rather than trusting any single year. And there is still no dated catalyst; LESSONS is explicit that a small-cap value gap without an event that forces re-pricing is usually early, and this one has none. New today: I could not identify what caused the 6.5% intraday decline."
   },
-  "what_changed": "Fiscal 2026 results (announced 2026-08-25, 10-K filed 2026-08-28) were a record: revenue $579.4M, up 2.5% on $565.1M, gross margin up 150bp to 16.5%, adjusted EBITDA up 15% to $50.5M, EPS up 9% to $5.00, operating cash flow $46.3M, and a year-end balance sheet of $108.2M cash and no debt. Q4 net sales of $151.8M were flat year over year but above management's own expectations, with Q4 gross margin 15.6% and net income $8.4M ($2.06 per diluted share). Pricing actions added 2% to revenue, offsetting tariffs and cancelled EV programmes. Management said cancelled EV programmes should stop being an incremental headwind, targets 18-20% gross margin over the next several years, and guided fiscal 2027 capex to about $12M for automation and process modernisation. The stock is nonetheless down 15% over 21 sessions and 8% over five.",
-  "consensus_case": "Strattec makes locks, latches, keys, power access and security systems for vehicles, selling into a customer list dominated by GM, Ford and Stellantis. The market pays 4.3x EV/EBITDA and requires FCFF to fall 23.6% a year for five years, and it does so for structural reasons that have nothing to do with this year's results being good. Auto suppliers of this size are price-takers: annual give-backs are contractual, tariff costs are largely passed back to the supplier under customer agreements, and the customer base is the three most volume-exposed North American OEMs. Management guided fiscal 2027 to lower North American production \u2014 down about 2% overall, and nearly 6% at Ford, Stellantis and GM specifically \u2014 with the Mexican peso at 16.90 against an 18.00 average, worth roughly 100bp of gross margin. Cash generation is also demonstrably unstable: operating cash flow was $12.3M two years ago, $71.7M last year, $46.3M this year. A market that has watched that series does not capitalise the good years.",
+  "what_changed": "Nothing about the business since this morning's pass; two items about the tape and the sell side. (1) Freedom Broker downgraded the stock in August 2026 on margin pressure, cutting estimates materially after the fiscal 2027 guidance. (2) The share price is $70.20 against $75.04 at this morning's 03:11 UTC screen \u2014 down 6.5% intraday on no company disclosure I could find. Restating the fiscal 2026 facts confirmed this morning's figures: record revenue of $579.4M, gross margin expanded 150 basis points to 16.5%, $46.3M of operating cash flow, $108.2M of cash and no debt at the 2026-06-28 year end, with the 10-K filed 2026-08-28. Fiscal 2027 guidance: North American production down about 2%, Ford/Stellantis/GM down nearly 6%, peso headwind about 100 basis points of gross margin.",
+  "consensus_case": "The market pays auto-supplier multiples for auto suppliers, and Strattec is not an exception to that rule. At $70.20 the enterprise value is roughly $198M against about $50M of EBITDA \u2014 about 4x, squarely inside the 3.5-5x band the sector has traded in for a decade. The reason is not sentiment: the terminal value of a mechanical lock-and-latch supplier to three North American OEMs is genuinely uncertain, because vehicle architecture is being redesigned around digital access, and a supplier whose core product is a physical key has a real chance of not having a perpetuity at all. Fiscal 2027 makes that concrete: North American production is guided down about 2% overall and nearly 6% at Ford, Stellantis and GM specifically, and the Mexican peso at 16.90 against an 18.00 average last year costs roughly 100 basis points of gross margin. Freedom Broker cut its rating in August on exactly those margin pressures. Against a $52.0M reported FCFF base the price implies -25% annual decay; against the $33M base I think is maintainable it implies far less, but the market's point stands: it is pricing the possibility that there is no terminal value here, and that is a defensible thing to price.",
+  "base_case_rationale": "I hold roughly -2% five-year FCFF growth off a $33M base, unchanged from this morning, because nothing I found today touches either input. Fiscal 2027 is a genuine down year \u2014 customer production off about 6% and a 100 basis point peso headwind \u2014 but the transformation is delivering measurably rather than aspirationally: gross margin up 150 basis points to 16.5% on 2.5% revenue growth, EBITDA up about 15%, and the stated 18-20% gross margin target on roughly $570-580M of revenue is worth $9-20M of incremental gross profit against a roughly $50M EBITDA base. A down year followed by a margin-led recovery averages out slightly negative. That is far below the naive +3.6% revenue CAGR, which mechanically applies top-line growth to a cash-flow base that has nothing to do with it. The $33M base, not the reported $52.0M, is the number that matters here and the reason is in the data-quality note.",
   "key_risks": [
     "Terminal value is the whole gap \u2014 a mechanical access supplier may not have a perpetuity as vehicle architectures go digital",
-    "Customer concentration in GM, Ford and Stellantis, whose 2027 production is guided down about 6%",
-    "Peso strength worth roughly 100bp of gross margin, and tariff costs that customer agreements push back onto the supplier",
+    "Customer concentration in GM, Ford and Stellantis, whose fiscal 2027 production is guided down about 6%",
+    "Peso strength worth roughly 100 basis points of gross margin, plus tariff costs that customer agreements push back onto the supplier",
     "Operating cash flow has swung $12.3M / $71.7M / $46.3M across three years \u2014 'maintainable' is a judgement, not a measurement",
-    "No dated catalyst; 3.99M shares and $7.4M average daily dollar volume make this genuinely hard to own in size"
+    "No dated catalyst, which by this project's own standing lesson usually means early",
+    "3.99M shares and $7.4M average daily dollar volume make this genuinely hard to own in size",
+    "A 6.5% intraday decline today that I could not attribute to any disclosure"
   ],
   "watch_for": [
     "Progress toward the 18-20% gross margin target \u2014 the fiscal 2027 quarterly prints against 16.5%",
@@ -52,9 +55,9 @@
     "Any use of the $108.2M cash pile \u2014 buyback, acquisition or dividend all reprice the equity differently"
   ],
   "sources": [
+    "https://www.investing.com/news/analyst-ratings/freedom-broker-downgrades-strattec-security-stock-rating-on-margin-pressures-93CH-4882932",
     "https://finance.yahoo.com/markets/stocks/articles/strattec-security-corp-strt-q4-030106526.html",
     "https://finance.yahoo.com/markets/stocks/articles/strattec-security-q4-earnings-call-150456675.html",
-    "https://finance.yahoo.com/markets/stocks/articles/strattec-security-corporation-q4-2026-123000346.html",
     "https://www.stocktitan.net/news/STRT/strattec-announces-fiscal-2026-fourth-quarter-financial-results-chx764a0gxd5.html",
     "https://investors.strattec.com/news-releases/news-release-details/third-quarter-fiscal-2026-strattec-continued-advance",
     "data/fundamentals.json (committed EDGAR extract, CIK 933034, fetched 2026-08-30)"

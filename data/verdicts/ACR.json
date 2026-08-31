@@ -1,0 +1,55 @@
+{
+  "ticker": "ACR",
+  "date": "2026-08-31",
+  "sector": "Financials",
+  "name": "ACRES COMMERCIAL REALTY",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "horizon_months": 12,
+  "price_at_verdict": 14.0,
+  "market_implied_growth": null,
+  "cohort_pct": 99.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to calling this unmodellable is that the direction of the error is not obvious and the discount might survive it. Even on my corrected arithmetic, ACR trades at roughly 1.0x tangible book while its own justified P/TBV on a 6% ROTCE against a 7% cost of equity is about 0.8 \u2014 so the corrected reading is that the stock is slightly EXPENSIVE, which is a real conclusion, not a refusal. And 1.0x book for a lender that has just cut out its external manager's fee stream is arguably cheap on a forward basis, because internalization removes a permanent leakage from the common. On that view I should report a number and let the human argue with it, rather than declining.",
+    "what_would_prove_it": "The post-merger balance sheet in the Q3 2026 10-Q: common stockholders' equity after deducting non-controlling interests and the Series C and Series D preferred liquidation preference, divided by the actual post-merger share count, and the intangible or goodwill balance recorded for the management contract. That single figure settles whether the corrected P/TBV is 0.9, 1.0 or 1.2, and whether the internalization consideration bought tangible book or an intangible.",
+    "already_visible": "Partly, and it argues for refusing. Two of the three inputs the corrected model would need are unobservable to me today: post-merger common equity and the accounting treatment of the internalization consideration. I can bracket tangible book per share between roughly $13 and $15, but the justified side of the comparison is worse \u2014 the 7.0% cost of equity comes from a beta of 0.4 with an R-squared of 0.053, which is no measurement at all on a stock with $581K of daily volume, and a 7.0% cost of equity for a levered CRE lender refinancing into 8.625% secured debt is self-evidently wrong. The company's own marginal cost of capital is on the tape at 8.625% for secured debt and 9.1% current yield on the preferred it just sold at $23.75. A justified P/TBV built on a 7.0% equity cost when the firm's own preferred yields 9% is not a valuation, it is an arithmetic accident.",
+    "unresolved": "I could not read the 2026-08-06 8-K or the Q2 10-Q \u2014 SEC egress is blocked from this runtime \u2014 so the post-merger common equity, the preferred liquidation preference and the goodwill or intangible recorded on internalization are all inferred rather than read. I also could not determine how much of the $129.8M of non-controlling interest on the FY2025 balance sheet is consolidated CLO equity that a common holder never sees. Both would sharpen my corrected P/TBV; neither would restore the screen's +237%."
+  },
+  "what_changed": "Everything material, and none of it is in the screen's inputs. (1) 2026-08-06: merger and internalization completed; ~7.5M shares issued, net increase ~6.3M, external management agreement terminated. (2) Same day: $200M of 8.625% senior secured notes due 2031 placed, to repay $150M of 5.75% unsecured notes maturing August 2026. (3) 2026-08-12: 2.22M additional Series C preferred sold at $23.75, ~$52.8M. (4) Q2 2026 (reported 2026-07-29): GAAP net loss to common $12.5M / $(1.87) per share; net interest income $10.5M, up $1.3M sequentially; GAAP book value per share $26.76 vs $29.98 at 3/31/26; $83M of liquidity.",
+  "consensus_case": "The market is pricing a $99.8M-market-cap commercial mortgage REIT that has just doubled its share count to buy its own external manager, in a CRE credit environment that is still working through 2021-2022 vintage bridge loans. On 2026-08-06 ACRES completed the all-stock acquisition of ACRES Capital Corp., issuing 7,478,994 shares (a net increase of roughly 6.3M after eliminating ACR shares held by ACC), alongside a $200M 8.625% senior secured notes placement due 2031 used partly to retire $150M of 5.75% unsecured notes maturing in August 2026. Refinancing unsecured 5.75% paper with secured 8.625% paper is what a lender does when the unsecured market is closed to it, and the coupon step-up is roughly $4.3M a year of incremental interest against a company whose Q2 net interest income was $10.5M. Q2 2026 was a GAAP net loss of $12.5M, $(1.87) per share, including about $9.1M of internalization costs, and GAAP book value fell 10.7% in one quarter to $26.76 from $29.98. On 2026-08-12 the company sold a further 2.22M Series C preferred shares at $23.75 for roughly $52.8M, adding to a capital stack that was already preferred-heavy. A stock down 30% over 63 days on $581K of average daily dollar volume is the market marking a levered, preferred-heavy CRE lender whose common sits behind a growing preferred stack, not an oversight.",
+  "base_case_rationale": "I will not supply one. The justified-P/TBV model cannot be run on this name from the committed extract, because the tangible book per share it is built on is wrong by roughly a factor of four and the share count it divides by predates a transaction that nearly doubled it. See the data-quality note. What I can say without the model: at a price of $14.00 against a post-merger tangible common book of roughly $14 per share, ACRES trades at approximately 1.0x tangible book, not the 0.24x the screen reports. There is no +237% gap. There may still be an argument about whether an internally-managed CRE lender should trade at, above or below book, but that argument is worth a few tens of percent, not 237%, and it is not one this model is currently equipped to have.",
+  "key_risks": [
+    "The screen's +237% gap and 100th-percentile Financials cohort rank are artifacts and must not be treated as signal",
+    "Capital stack is preferred-heavy and got heavier on 2026-08-12; the common sits behind Series C and Series D preferred that were just added to",
+    "Refinancing 5.75% unsecured into 8.625% secured is a negative signal about funding access, and costs roughly $4.3M a year against $10.5M of quarterly net interest income",
+    "GAAP book value fell 10.7% in a single quarter and CRE credit marks have not obviously finished",
+    "$581K of average daily dollar volume on a sub-$200M market cap makes this effectively unownable in size"
+  ],
+  "watch_for": [
+    "Q3 2026 10-Q: post-merger common equity, preferred liquidation preference, actual share count, and the intangible recorded for the internalization",
+    "Whether the internalization actually lowers the run-rate expense base rather than converting a fee into equity dilution plus the same headcount",
+    "Any further preferred issuance \u2014 each one pushes the common further back in the stack",
+    "A fix to justified_pb that deducts non-controlling interests and preferred before computing tangible common equity"
+  ],
+  "sources": [
+    "https://www.tradingview.com/news/tradingview:9c56dbca31658:0-acres-commercial-realty-to-internalize-manager-issue-7-48m-shares-and-price-200m-8-625-notes/",
+    "https://www.acresreit.com/2026-08-06-ACRES-COMMERCIAL-REALTY-CORP-ANNOUNCES-COMPLETION-OF-MERGER,-INTERNALIZATION-AND-PRIVATE-NOTES-OFFERING",
+    "https://www.tipranks.com/news/the-fly/acres-commercial-realty-corp-to-acquire-acres-capital-corp-thefly-news",
+    "https://www.stocktitan.net/sec-filings/ACR/8-k-acres-commercial-realty-corp-reports-material-event-c3786656be03.html",
+    "https://www.preferredstockchannel.com/symbol/acr.prc/",
+    "https://seekingalpha.com/article/4928448-acres-commercial-realty-q2-why-we-are-staying-neutral-on-acres-series-c-preferred",
+    "https://www.theglobeandmail.com/investing/markets/stocks/ACR/pressreleases/3604661/acres-commercial-realty-earnings-call-pain-now-plans-ahead/",
+    "data/fundamentals.json (committed EDGAR extract, CIK 1332551, fetched 2026-08-30)",
+    "valuation.py justified_pb (read directly, lines 305-379)"
+  ],
+  "flags": []
+}

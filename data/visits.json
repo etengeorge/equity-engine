@@ -1,8 +1,18 @@
 {
+  "ACR": {
+    "conviction": "medium",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "ALKS": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
   "BBW": {
     "conviction": "low",
     "last_visit": "2026-08-31",
-    "verdict": "cheap"
+    "verdict": "no_edge"
   },
   "CRNX": {
     "conviction": "high",
@@ -14,10 +24,25 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "HQY": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "fair"
+  },
+  "HUT": {
+    "conviction": "high",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
   "IDCC": {
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "fair"
+  },
+  "JXN": {
+    "conviction": "medium",
+    "last_visit": "2026-08-31",
+    "verdict": "no_model"
   },
   "PRAX": {
     "conviction": "medium",
@@ -34,6 +59,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "SSRM": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
   "STRT": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -44,8 +74,13 @@
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
   },
+  "VSAT": {
+    "conviction": "low",
+    "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
   "WLFC": {
-    "conviction": "medium",
+    "conviction": "high",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   }

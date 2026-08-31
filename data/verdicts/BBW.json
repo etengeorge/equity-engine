@@ -4,25 +4,25 @@
   "sector": "Consumer Discretionary",
   "name": "BUILD A BEAR WORKSHOP",
   "method": "fcff",
-  "verdict": "cheap",
+  "verdict": "no_edge",
   "conviction": "low",
-  "final_growth": -0.04,
+  "final_growth": -0.08,
   "horizon_months": 24,
-  "price_at_verdict": 29.850000381469727,
-  "market_implied_growth": -0.11669401691174436,
-  "cohort_pct": 96.2,
+  "price_at_verdict": 30.110000610351562,
+  "market_implied_growth": -0.11772089766366362,
+  "cohort_pct": 94.7,
   "priced": {
     "ok": true,
-    "analyst_growth": -0.04,
-    "market_implied_growth": -0.11669401691174436,
-    "growth_delta": 0.07669401691174435,
-    "fair_value": 41.83404759200257,
-    "price": 29.850000381469727,
-    "gap": 0.4014756133126316,
+    "analyst_growth": -0.08,
+    "market_implied_growth": -0.11772089766366362,
+    "growth_delta": 0.03772089766366361,
+    "fair_value": 35.61041664950469,
+    "price": 30.110000610351562,
+    "gap": 0.18267738052659266,
     "fair_value_band": {
-      "low": 36.21963377858473,
-      "point": 41.83404759200257,
-      "high": 49.764530003452634
+      "low": 30.92503963594769,
+      "point": 35.61041664950469,
+      "high": 42.25973235024583
     },
     "fcff_base_used": 37761690.0,
     "base_overridden": false,
@@ -31,38 +31,39 @@
   },
   "parse_notes": [],
   "devils_advocate": {
-    "strongest_counter": "The base is not inflated \u2014 the LEVEL is. Build-A-Bear's current earnings power is unprecedented in its own history and my base case quietly assumes it is permanent. In fiscal 2018 the company lost $18.5M pre-tax. In fiscal 2019, on $338.5M of revenue, it made $1.6M of pre-tax income. It now makes roughly $67M of pre-tax income on $530M. That is not a business that grew into profitability gradually; it stepped up during the 2021-2024 collectibles-and-pricing boom and has held there for three years. If the step is a cycle rather than a structural change, mean reversion does not take FCFF from $38M to $32M, it takes it toward $20M \u2014 and the market's -11.7% a year, which lands almost exactly there over five years, is not pessimism but arithmetic. Note that the screen's peak-cycle flag cannot catch this: it compares the newest FCF in the window to the oldest, and all three years in the window are at the elevated level, so the flag stays silent precisely when the whole window is the peak.",
-    "what_would_prove_it": "Gross margin and pre-tax margin over the next three or four quarters, decomposed against unit growth. If revenue keeps falling low-to-mid single digits while pre-tax margin compresses from ~12.5% toward the high single digits, the reversion is happening and the market is right. If revenue stabilises and margin holds near 12% while the international and franchise mix keeps growing, the step change was structural and I am right.",
-    "already_visible": "Partly, and it is the reason I moved. Revenue is down 7.2%; guidance has been cut twice in one fiscal year; the pre-tax outlook came down $12M at the midpoint in three months; and the stated cause \u2014 'summer trend products' underperforming \u2014 is a product-cycle explanation, which is what reversion looks like at the start. What is NOT yet visible is margin breaking: pre-tax margin on the cut guidance is still roughly 12.5%, nowhere near the pre-2020 structure. The first crack is in the top line, not yet in the economics.",
-    "unresolved": "I cannot separate how much of the post-2020 margin step is structural mix shift (franchise and partner-operated royalties, 37 countries versus 19, less mall exposure) from how much is a pricing and collectibles cycle. That decomposition needs the segment detail in the 10-K, which I could not open. It is the whole question, and I am recording that I did not answer it. I also could not read the item 5.02 in the 2026-08-27 8-K, so there is an officer or director change of unknown significance sitting inside the same filing as the guidance cut."
+    "strongest_counter": "The counter, which is now the LONG case, is that I am extrapolating one seasonally small quarter into a five-year decay rate. Q2 is Build-A-Bear's weakest quarter; the holiday quarter carries the year's margin, and a 340 basis point gross-margin decline driven partly by occupancy deleverage reverses mechanically if revenue stabilises, because the rent does not go up. The company still guides to $60-68M of pre-tax income on $500-525M \u2014 an 11.8-13.0% pre-tax margin \u2014 which is four to five times the fiscal 2019 structure and is being delivered while the top line falls, which is evidence of resilience rather than collapse. The stock is at $30.11 with a 10.8% FCFF yield, roughly 9x enterprise value to free cash flow, and management has been buying back stock steadily. If free cash flow merely holds at $38M, the equity is worth far more than $30. At -8% I am pricing a permanent, compounding reversal from a single quarter's promotional intensity.",
+    "what_would_prove_it": "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted and against the prior year. If gross margin recovers toward 57-58% in the holiday quarter and the full year lands inside the $60-68M pre-tax guide, the Q2 compression was seasonal and promotional rather than structural, and -8% is too harsh. If gross margin stays down 300+ basis points through the holiday quarter and the pre-tax guide is cut a third time, the reversion is confirmed and even -8% will prove generous.",
+    "already_visible": "The evidence is now genuinely split, which is why I moved partway rather than all the way. Against me: the full-year pre-tax guide of $60-68M still implies a margin structure nothing like 2019, and there is no evidence of balance-sheet stress. For me: two guidance cuts in one fiscal year, a 340 basis point gross-margin decline with a named cause, pre-tax income down 24.1% on a 7.2% revenue decline (2.4x operating deleverage), and a Chief Growth Officer terminated the day before the cut \u2014 which is a board that has concluded the growth plan is not working, not a board managing a seasonal blip.",
+    "unresolved": "The decomposition I could not do this morning and still cannot do: how much of the post-2020 margin step is structural mix shift \u2014 franchise and partner-operated royalties, 37 countries versus 19, less direct mall exposure \u2014 versus a pricing and collectibles cycle. That needs the segment detail in the 10-K, and SEC egress is blocked from this runtime. It is the whole question, and my -8% is a judgement between two poles rather than an answer to it. I also could not obtain prior-year Q2 gross margin in absolute terms, only the 340 basis point change management reported."
   },
-  "what_changed": "Q1 fiscal 2026 (2026-05-28): EPS $1.45 diluted, $1.03 adjusted, helped by roughly $7M of tariff refunds on prior-year costs; revenue guidance cut to $530-550M; 7 net new locations opened including the Philippines, taking the footprint to 37 countries from 19 two years earlier; net new unit target of at least 50 experience locations maintained. CEO succession completed 2026-06-11 (Chris Hurt), with CFO Voin Todorovic \u2014 in the seat since 2014 \u2014 additionally taking the Chief Administrative Officer title. Then Q2 fiscal 2026 (2026-08-27): revenue $115.3M (-7.2%), pre-tax income $11.6M vs $15.3M, diluted EPS $0.70 vs $0.94, revenue guidance cut again to $500-525M and the pre-tax outlook to $60-68M. The 8-K carried an item 5.02 alongside the results that I could not read and could not identify from secondary sources.",
-  "consensus_case": "The market is pricing Build-A-Bear as a fad that has crested. The reverse DCF requires FCFF to shrink 11.7% a year for five years, and the tape has been saying so all year: -48% over 252 sessions, then -23% in the five sessions after the 2026-08-27 Q2 print. That print is the case. Revenue fell 7.2% year over year to $115.3M and missed by $6M; the EPS beat at $0.70 came from cost control, not demand, and was still down from $0.94; management cut full-year revenue guidance to $500-525M against a $538.8M consensus and cut the pre-tax outlook to $60-68M from the $72-78M it had raised to in May, blaming 'underperformance in summer trend products' and macro. A discretionary mall-based retailer whose product cycle has rolled over, cutting guidance twice in one year, is exactly the kind of business where extrapolating decline is the base rate rather than the pessimistic case. Sell-side has followed: DA Davidson cut its target to $37 on 2026-08-31.",
+  "what_changed": "Two items that were open this morning are now closed, and both go against the long case. (1) The item 5.02 buried in the 2026-08-27 8-K alongside the guidance cut is the termination of David Henderson as Chief Growth Officer, effective 2026-08-26 \u2014 an officer dismissed the day before the second guidance cut of the fiscal year, with a separation and release agreement. (2) The Q2 fiscal 2026 margin detail: revenue $115.3M, down 7.2%; pre-tax income $11.6M against $15.3M in the prior-year quarter, down 24.1%; GROSS MARGIN 54.2%, down 340 basis points year over year, attributed to occupancy cost deleverage and increased promotional activity. Full-year revenue guidance cut to $500-525M from $530-550M. The share price is $30.11 against $29.85 at this morning's screen.",
+  "consensus_case": "The market prices -11.8% annual FCFF decay for five years, and after today's research I think that is arithmetic rather than pessimism. Build-A-Bear's current earnings power is unprecedented in its own history: in fiscal 2018 the company lost $18.5M pre-tax, in fiscal 2019 it made $1.6M of pre-tax income on $338.5M of revenue, and it now guides to $60-68M of pre-tax income on $500-525M. That step happened during the 2021-2024 collectibles-and-pricing boom and has held for three flat years at roughly $38M of free cash flow. The bear case is simply that the step was a cycle. What the market is watching is that the cycle has turned: fiscal 2026 revenue guidance has now been cut twice in one year, to $500-525M from $530-550M, on 'summer trend products' underperforming \u2014 a product-cycle explanation, which is what reversion looks like at the start. Reverting $38M of FCFF toward the low $20Ms over five years is exactly what -11.8% a year produces, and that is a defensible read of a discretionary mall retailer whose product cycle has visibly rolled over.",
+  "base_case_rationale": "I underwrite roughly -8% five-year FCFF growth, cut from the -4% I carried this morning, and the cut is the whole point of today's pass. This morning's write-up asserted that pre-tax margin was 'still roughly 12.5%, nowhere near the pre-2020 structure' and concluded that 'the first crack is in the top line, not yet in the economics.' That assertion is wrong, and I found it wrong by looking for the evidence my own devil's advocate had nominated. Q2 pre-tax margin was 10.1% ($11.6M on $115.3M) against 12.3% ($15.3M on $124.2M) a year earlier, and gross margin fell 340 basis points to 54.2% on occupancy deleverage and promotional activity. Occupancy deleverage is the mechanism that turns a mid-single-digit revenue decline into a double-digit profit decline in mall retail: the rent is fixed, so every point of lost comparable revenue drops through. Promotional activity is the mechanism that says the pricing power which created the 2021-2024 step is being given back. Those are not top-line cracks, they are the economics, and they are visible now. I still do not think the business reverts all the way to its 2019 structure \u2014 the international, franchise and partner-operated mix is genuinely larger and genuinely capital-light, and that is real \u2014 so I do not go all the way to the market's -11.8%. But -4% was a number formed before I had the margin data, and holding it today would be theatre.",
   "key_risks": [
-    "Post-2020 margins may be a cycle, not a structure \u2014 the devil's advocate case above, which I could not close out",
-    "Discretionary mall retail with a product cycle that has visibly turned; two guidance cuts in one fiscal year",
-    "Tariff exposure on Asian-sourced plush; the fiscal 2026 Q1 result was flattered by roughly $7M of refunds on prior-year tariff costs",
-    "An item 5.02 officer change filed alongside the guidance cut that I could not read",
-    "$16.2M average daily dollar volume on a $374M company"
+    "Post-2020 margins may be a cycle rather than a structure \u2014 the question I could not close this morning and still cannot",
+    "Gross margin fell 340 basis points in Q2 on occupancy deleverage and promotional activity; both are structural mechanisms in mall retail, not one-offs",
+    "Two guidance cuts in one fiscal year, with pre-tax income down 24.1% on a 7.2% revenue decline",
+    "A Chief Growth Officer terminated the day before the second cut",
+    "Tariff exposure on Asian-sourced plush, and the fiscal 2026 Q1 result was flattered by roughly $7M of prior-year tariff refunds",
+    "$16.5M average daily dollar volume on a $377M company"
   ],
   "watch_for": [
-    "Q3 fiscal 2026 pre-tax margin: holding near 12% supports the base case, drifting toward single digits hands it to the devil's advocate",
-    "Whether the fiscal 2026 pre-tax guidance of $60-68M is cut a third time",
-    "Net new unit count and the franchise/partner mix \u2014 the capital-light half of the thesis",
-    "Identification of the 2026-08-27 item 5.02"
+    "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted \u2014 recovery toward 57-58% hands it back to the long case",
+    "Whether the $60-68M fiscal 2026 pre-tax guide is cut a third time",
+    "Net new unit count and the franchise/partner mix \u2014 the capital-light half of the structural argument",
+    "Who, if anyone, replaces the Chief Growth Officer, and whether the growth plan is restated"
   ],
   "sources": [
-    "https://www.investing.com/news/earnings/buildabear-falls-5-on-weak-guidance-despite-earnings-beat-93CH-4878893",
-    "https://www.marketscreener.com/news/buildabear-workshop-shares-fall-after-q2-results-guidance-cut-ce7858ded08af624",
-    "https://www.businesswire.com/news/home/20260528457773/en/Build-A-Bear-Workshop-Reports-First-Quarter-Fiscal-2026-Results",
-    "https://www.stocktitan.net/news/BBW/build-a-bear-workshop-reports-first-quarter-fiscal-2026-0h5wlz1pl17r.html",
-    "https://www.businesswire.com/news/home/20260612399839/en/Build-A-Bear-Workshop-Completes-Planned-CEO-Succession",
+    "https://www.tradingview.com/news/tradingview:b5da4457d6f1e:0-build-a-bear-workshop-terminates-david-henderson-as-chief-growth-officer/",
+    "https://www.benzinga.com/news/26/08/61464564/transcript-build-bear-workshop-q2-2026-earnings-conference-call",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/31/build-a-bear-bbw-q2-2026-earnings-call-transcript/",
+    "https://finance.biggo.com/news/18975347-8b68-4a97-aae8-ad6b10b96adf",
+    "https://finance.yahoo.com/markets/stocks/articles/build-bear-workshop-q2-earnings-150450684.html",
     "https://www.businesswire.com/news/home/20190313005223/en/Build-A-Bear-Workshop-Reports-Fiscal-Year-2018-Results",
     "https://www.businesswire.com/news/home/20200311005236/en/Build-A-Bear-Workshop-Inc.-Reports-a-20.1-Million-Improvement-in-GAAP-Pre-Tax-Income-for-the-2019-Fiscal-Year",
-    "https://www.thecerbatgem.com/2026/08/31/da-davidson-cuts-build-a-bear-workshop-nysebbw-price-target-to-37-00.html",
     "data/fundamentals.json (committed EDGAR extract, CIK 1113809, fetched 2026-08-30)"
   ],
   "flags": [
-    "operating_leases_29%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+    "operating_leases_28%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
   ]
 }

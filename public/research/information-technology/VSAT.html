@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>VSAT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / VSAT</p><h1>VSAT <span style='color:var(--faint);font-weight:400'>VIASAT INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$66.93</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>VSAT — VIASAT INC</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $66.93</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market is buying the end of a capital cycle, not the trailing cash flows. Viasat has spent three years and roughly $2.8B of capex building ViaSat-3; F2 entered service around September 2026 and F3 over APAC in late August or early September 2026, which means the capacity is now revenue-bearing and the money to build it is already spent. FY2027 capex is guided to $950M-$1.0B against roughly $1.3B in FY2026, of which only about $400M is maintenance and about $50M is remaining ViaSat-3 — so the run-rate exit capex is far below the FY2027 figure. Management guides to roughly $180M of free cash flow in FY2027 with adjusted EBITDA flat to slightly up, and net leverage improved 0.4x year over year to 3.2x. Meanwhile the Defense and Advanced Technologies segment is compounding: Q1 FY2027 awards were a record $524M, up 22%, backlog a record $4.2B, including a US Space Force PTS-G award. A strategic review of DAT is live and the activist case is that separating it re-rates the stub. On that arithmetic, the market is not underwriting +41.5% FCFF growth off a real base — it is underwriting a base that is about to double as capex falls away while EBITDA holds.</p><p><strong>What changed.</strong> Q1 FY2027 (2026-08-04): revenue $1.16B, down 1% year over year; adjusted EBITDA $381M, down 7% from $408M, described as roughly flat excluding IP licensing and Navarino; free cash flow +$72M; backlog a record $4.2B; DAT awards a record $524M, +22%. FY2027 guidance maintained at roughly $180M free cash flow with capex $950M-$1.0B and adjusted EBITDA flat to up slightly. ViaSat-3 F2 service entry anticipated by September 2026 and F3 over APAC late August/early September 2026. The DAT strategic review is ongoing and unresolved. The shares traded to about $86 on the print, reversed to about $79 after hours, and are $66.93 today — a roughly 22% decline in under four weeks that no single disclosure I found explains.</p><p><strong>Base case.</strong> I decline to supply one, and the reason is worth stating precisely rather than hiding behind &#x27;uncertainty&#x27;. The reverse DCF here is not resolving the name; it is amplifying two unreliable inputs. The FCFF base of $392.0M is the mean of three years that straddle the ViaSat-3 construction peak — FCF of +$512.9M, -$30.1M and -$139.0M — so it describes a capex cycle, not an earnings power. And the 14.16% WACC is built on a beta of 1.28 with an R-squared of 0.085, which is no measurement, applied to a company with $4.77B of net debt. I tested this rather than asserting it: substituting a defensible forward base of $457M (the company&#x27;s own guided ~$180M of FY2027 free cash flow plus the $277M after-tax interest add-back the model itself uses) still leaves the price requiring +36.8% growth, and running the forward DCF at any growth rate I could honestly defend — 3%, 5%, 8% — returns a NEGATIVE equity value per share, because a 14.16% discount rate against $4.77B of net debt consumes the entire enterprise. A model that says a company generating positive free cash flow with a record backlog has negative equity is not telling me the stock is expensive; it is telling me it has stopped working on this name. I will not convert that into a growth rate.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The bear case is not the model, and it is strong. Viasat&#x27;s core satellite broadband franchise is being commoditised by LEO constellations. Fixed broadband subscribers have been in decline for years, and in-flight connectivity — the business ViaSat-3 was built for — is the exact market Starlink has been taking airline by airline. Adding three enormous GEO satellites&#x27; worth of capacity into a market where price per bit is collapsing is not obviously a cash flow event; it may just be a bigger fixed-cost base. The evidence is already in the print: revenue fell 1% and adjusted EBITDA fell 7% in the quarter where the capacity story is supposed to be turning, and the record backlog and record awards are in DAT — the roughly one-third of the company that is doing well — not in satcom. Behind all of it sits $6.4B of gross debt at 3.2x. If satcom EBITDA declines rather than holds while capex normalises, the free cash flow inflection arrives smaller and later than $180M-to-$600M, and the equity is a thin option on a levered, structurally challenged asset. On that reading the market&#x27;s implied growth is not optimism at all and the 22% drawdown since the print is the market starting to price it.</li><li>What would prove it: Satcom segment revenue and EBITDA in the two quarters after F2 and F3 enter service, split between fixed broadband, IFC and mobility. If satcom revenue inflects upward as the new capacity fills, the capital cycle thesis is intact. If satcom revenue keeps eroding while total capex falls, the company is harvesting a declining asset and the terminal value is the whole argument. Separately, the outcome of the DAT strategic review: an actual separation would let the market price the two halves and would settle whether the sum is above or below $66.93.</li><li>Already visible today: Yes, partly, and it cuts toward the bear. Revenue -1% and adjusted EBITDA -7% in Q1 FY2027 is not what the front edge of a capacity-driven inflection looks like, and management guiding FY2027 adjusted EBITDA only &#x27;flat to up slightly&#x27; concedes that the new satellites do not move the P&amp;L this year. Against that, free cash flow was positive at $72M, leverage improved 0.4x, and the DAT award and backlog records are real and dated. Both facts are true at once, which is precisely why I have no edge.</li><li>Left unresolved: I could not read the Q1 FY2027 shareholder letter, the 10-Q or the FY2026 10-K — SEC egress is blocked from this runtime and every primary and investor-relations host I tried was refused by the egress proxy — so I have no segment-level satcom revenue or EBITDA, no IFC aircraft counts, and no capex split beyond the maintenance-versus-growth figures quoted in secondary coverage. I also could not find any disclosure explaining the roughly 22% decline from the post-print $86 to today&#x27;s $66.93, which means there may be a dated event in the last four weeks that I simply did not see. That is the single largest hole in this write-up and it is the reason conviction is low rather than absent.</li></ul><p><strong>Key risks.</strong> The -90.1% baseline gap and 6th-percentile cohort rank are artifacts of averaging FCFF across the ViaSat-3 construction peak and should not be read as &#x27;expensive&#x27;; $6.4B of gross debt and $4.77B of net debt at 3.2x leverage in front of the equity; LEO competition in in-flight connectivity and fixed broadband is a structural, not cyclical, threat to two-thirds of the company; Adjusted EBITDA fell 7% in the quarter when the new capacity was supposed to start mattering; A roughly 22% drawdown since the 2026-08-04 print that I could not attribute to any disclosure I found <strong>Watch for.</strong> Satcom segment revenue and EBITDA for the two quarters after ViaSat-3 F2 and F3 enter service — the whole capital-cycle thesis lives here; The outcome of the DAT strategic review; an actual separation or IPO is the dated catalyst this name otherwise lacks; FY2028 capex guidance: whether it steps down toward the ~$400M maintenance level or stays near $950M; Whatever caused the decline from $86 to $67 since 2026-08-04, which I could not identify</p><p><strong>Data quality.</strong> Three defects, all verified against the committed extract or the source code rather than inferred. FIRST, a reporting bug in the brief itself: it states that stock compensation is 71% of the FCFF base, which is false. valuation.normalized_fcff computes sbc_share as sbc divided by the mean of (CFO - capex) BEFORE the after-tax interest add-back, but the brief presents it as a share of the post-add-back FCFF base. For Viasat, mean SBC is $81.7M against a stated FCFF base of $392.0M, which is 20.8%, not 71% — the denominator used was $114.6M. The error scales with leverage, so it inflates the SBC flag on exactly the most indebted names and fires the &gt;20% flag spuriously; ALKS at 23.9% reported versus 22.9% true shows the same bug at a benign magnitude. SECOND, the FCFF base itself: three years of +$512.9M, -$30.1M and -$139.0M straddle the ViaSat-3 build, and the mean of a capex cycle is not an earnings power. The lumpy and negative-year flags fire correctly but understate the problem. THIRD, the 14.16% WACC derives from a beta of 1.28 with an R-squared of 0.085 — statistically no signal — and at that rate the forward DCF returns negative equity value per share at every growth rate I tested from 3% to 8%, which is the model telling you it does not apply. One input I checked and found sound: the share count of 137,755,810 as of 2026-07-23 is current, and the fiscal year ends 2026-03-31 so the FY2026 10-K filed 2026-05-29 IS captured in the extract. I read no primary filing: SEC egress is blocked from this runtime and WebFetch was refused for sec.gov, investors.viasat.com and every news host attempted, so all Q1 FY2027 figures and FY2027 guidance are from secondary sources reporting the shareholder letter, and I could not verify them against it.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.investing.com/news/company-news/viasat-q1-fy2027-slides-defense-backlog-soars-amid-revenue-slip-93CH-4836250" rel="noopener">https://www.investing.com/news/company-news/viasat-q1-fy2027-slides-defense-backlog-soars-amid-revenue-slip-93CH-4836250</a></li><li><a href="https://seekingalpha.com/news/4625593-viasat-expects-about-180m-fiscal-2027-free-cash-flow-while-keeping-950m-1b-capex-plan" rel="noopener">https://seekingalpha.com/news/4625593-viasat-expects-about-180m-fiscal-2027-free-cash-flow-while-keeping-950m-1b-capex-plan</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/viasat-inc-vsat-q1-2027-050654085.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/viasat-inc-vsat-q1-2027-050654085.html</a></li><li><a href="https://www.satellitetoday.com/finance/2026/08/05/viasat-previews-viasat-3-satellites-entering-service-in-q1-results/" rel="noopener">https://www.satellitetoday.com/finance/2026/08/05/viasat-previews-viasat-3-satellites-entering-service-in-q1-results/</a></li><li><a href="https://www.investing.com/news/stock-market-news/deutsche-upgrades-viasat-on-satellite-rampup-potential-defense-unit-spinoff-4494733" rel="noopener">https://www.investing.com/news/stock-market-news/deutsche-upgrades-viasat-on-satellite-rampup-potential-defense-unit-spinoff-4494733</a></li><li><a href="https://www.cnbc.com/2025/08/09/activist-carronade-spots-a-hidden-gem-in-viasats-business-how-the-firm-may-unlock-value.html" rel="noopener">https://www.cnbc.com/2025/08/09/activist-carronade-spots-a-hidden-gem-in-viasats-business-how-the-firm-may-unlock-value.html</a></li><li><a href="https://simplywall.st/stocks/us/tech/nasdaq-vsat/viasat/news/how-viasats-q1-loss-on-softer-revenue-will-impact-v" rel="noopener">https://simplywall.st/stocks/us/tech/nasdaq-vsat/viasat/news/how-viasats-q1-loss-on-softer-revenue-will-impact-v</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 797721, fetched 2026-08-30)</li><li>valuation.py normalized_fcff (read directly, lines 100-164)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/VSAT.md'>research/Information Technology/VSAT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

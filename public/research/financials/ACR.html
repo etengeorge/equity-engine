@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ACR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / ACR</p><h1>ACR <span style='color:var(--faint);font-weight:400'>ACRES COMMERCIAL REALTY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$14.00</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>ACR — ACRES COMMERCIAL REALTY</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $14.00</li></ul><p><strong>The case for the price.</strong> The market is pricing a $99.8M-market-cap commercial mortgage REIT that has just doubled its share count to buy its own external manager, in a CRE credit environment that is still working through 2021-2022 vintage bridge loans. On 2026-08-06 ACRES completed the all-stock acquisition of ACRES Capital Corp., issuing 7,478,994 shares (a net increase of roughly 6.3M after eliminating ACR shares held by ACC), alongside a $200M 8.625% senior secured notes placement due 2031 used partly to retire $150M of 5.75% unsecured notes maturing in August 2026. Refinancing unsecured 5.75% paper with secured 8.625% paper is what a lender does when the unsecured market is closed to it, and the coupon step-up is roughly $4.3M a year of incremental interest against a company whose Q2 net interest income was $10.5M. Q2 2026 was a GAAP net loss of $12.5M, $(1.87) per share, including about $9.1M of internalization costs, and GAAP book value fell 10.7% in one quarter to $26.76 from $29.98. On 2026-08-12 the company sold a further 2.22M Series C preferred shares at $23.75 for roughly $52.8M, adding to a capital stack that was already preferred-heavy. A stock down 30% over 63 days on $581K of average daily dollar volume is the market marking a levered, preferred-heavy CRE lender whose common sits behind a growing preferred stack, not an oversight.</p><p><strong>What changed.</strong> Everything material, and none of it is in the screen&#x27;s inputs. (1) 2026-08-06: merger and internalization completed; ~7.5M shares issued, net increase ~6.3M, external management agreement terminated. (2) Same day: $200M of 8.625% senior secured notes due 2031 placed, to repay $150M of 5.75% unsecured notes maturing August 2026. (3) 2026-08-12: 2.22M additional Series C preferred sold at $23.75, ~$52.8M. (4) Q2 2026 (reported 2026-07-29): GAAP net loss to common $12.5M / $(1.87) per share; net interest income $10.5M, up $1.3M sequentially; GAAP book value per share $26.76 vs $29.98 at 3/31/26; $83M of liquidity.</p><p><strong>Base case.</strong> I will not supply one. The justified-P/TBV model cannot be run on this name from the committed extract, because the tangible book per share it is built on is wrong by roughly a factor of four and the share count it divides by predates a transaction that nearly doubled it. See the data-quality note. What I can say without the model: at a price of $14.00 against a post-merger tangible common book of roughly $14 per share, ACRES trades at approximately 1.0x tangible book, not the 0.24x the screen reports. There is no +237% gap. There may still be an argument about whether an internally-managed CRE lender should trade at, above or below book, but that argument is worth a few tens of percent, not 237%, and it is not one this model is currently equipped to have.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to calling this unmodellable is that the direction of the error is not obvious and the discount might survive it. Even on my corrected arithmetic, ACR trades at roughly 1.0x tangible book while its own justified P/TBV on a 6% ROTCE against a 7% cost of equity is about 0.8 — so the corrected reading is that the stock is slightly EXPENSIVE, which is a real conclusion, not a refusal. And 1.0x book for a lender that has just cut out its external manager&#x27;s fee stream is arguably cheap on a forward basis, because internalization removes a permanent leakage from the common. On that view I should report a number and let the human argue with it, rather than declining.</li><li>What would prove it: The post-merger balance sheet in the Q3 2026 10-Q: common stockholders&#x27; equity after deducting non-controlling interests and the Series C and Series D preferred liquidation preference, divided by the actual post-merger share count, and the intangible or goodwill balance recorded for the management contract. That single figure settles whether the corrected P/TBV is 0.9, 1.0 or 1.2, and whether the internalization consideration bought tangible book or an intangible.</li><li>Already visible today: Partly, and it argues for refusing. Two of the three inputs the corrected model would need are unobservable to me today: post-merger common equity and the accounting treatment of the internalization consideration. I can bracket tangible book per share between roughly $13 and $15, but the justified side of the comparison is worse — the 7.0% cost of equity comes from a beta of 0.4 with an R-squared of 0.053, which is no measurement at all on a stock with $581K of daily volume, and a 7.0% cost of equity for a levered CRE lender refinancing into 8.625% secured debt is self-evidently wrong. The company&#x27;s own marginal cost of capital is on the tape at 8.625% for secured debt and 9.1% current yield on the preferred it just sold at $23.75. A justified P/TBV built on a 7.0% equity cost when the firm&#x27;s own preferred yields 9% is not a valuation, it is an arithmetic accident.</li><li>Left unresolved: I could not read the 2026-08-06 8-K or the Q2 10-Q — SEC egress is blocked from this runtime — so the post-merger common equity, the preferred liquidation preference and the goodwill or intangible recorded on internalization are all inferred rather than read. I also could not determine how much of the $129.8M of non-controlling interest on the FY2025 balance sheet is consolidated CLO equity that a common holder never sees. Both would sharpen my corrected P/TBV; neither would restore the screen&#x27;s +237%.</li></ul><p><strong>Key risks.</strong> The screen&#x27;s +237% gap and 100th-percentile Financials cohort rank are artifacts and must not be treated as signal; Capital stack is preferred-heavy and got heavier on 2026-08-12; the common sits behind Series C and Series D preferred that were just added to; Refinancing 5.75% unsecured into 8.625% secured is a negative signal about funding access, and costs roughly $4.3M a year against $10.5M of quarterly net interest income; GAAP book value fell 10.7% in a single quarter and CRE credit marks have not obviously finished; $581K of average daily dollar volume on a sub-$200M market cap makes this effectively unownable in size <strong>Watch for.</strong> Q3 2026 10-Q: post-merger common equity, preferred liquidation preference, actual share count, and the intangible recorded for the internalization; Whether the internalization actually lowers the run-rate expense base rather than converting a fee into equity dilution plus the same headcount; Any further preferred issuance — each one pushes the common further back in the stack; A fix to justified_pb that deducts non-controlling interests and preferred before computing tangible common equity</p><p><strong>Data quality.</strong> The screen raised NO flags on this name and at least three were warranted. FIRST, and decisively: valuation.justified_pb computes tangible common equity as equity_series[0] minus goodwill minus intangibles, and never deducts non-controlling interests or preferred stock, although both are captured in the same fundamentals record and are correctly subtracted in enterprise_value. For ACR the FY2025 equity of $420.796M includes $129.796M of non-controlling interest and the carrying value of the Series C and Series D preferred; the extract separately records preferred as $0.0 because PreferredStockValue picks up par, not liquidation preference. The company&#x27;s own reported GAAP book value per share was $26.76 at 6/30/2026, against the screen&#x27;s $58.37. SECOND, the share count: 7,131,101 as of 2026-08-03 is a pre-merger figure, filed three days before a merger that issued 7,478,994 shares for a net increase of about 6.3M. The correct current count is roughly 13.4M, so market capitalisation is about $188M, not $99.8M. Combined, tangible book per share is overstated by roughly 4x and the entire +237.5% gap is manufactured. Corrected, ACR trades at approximately 1.0x tangible common book. THIRD, the 7.0% cost of equity comes from a beta of 0.4 with R-squared 0.053 on a stock with $581K of daily volume, while the company&#x27;s own secured debt prices at 8.625%. The non-controlling-interest and preferred defect is NOT specific to ACR — it applies to every one of the 338 names in the Financials cohort that carries either, and it systematically overstates cheapness. I resolved none of this by reading a filing: SEC egress is blocked from this runtime, so the merger terms, the Q2 book value and the preferred issuance are all from secondary sources, and the post-merger balance sheet is inferred. The arithmetic defect in justified_pb, however, is verifiable directly from the committed extract and the source code and does not depend on any of them.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.tradingview.com/news/tradingview:9c56dbca31658:0-acres-commercial-realty-to-internalize-manager-issue-7-48m-shares-and-price-200m-8-625-notes/" rel="noopener">https://www.tradingview.com/news/tradingview:9c56dbca31658:0-acres-commercial-realty-to-internalize-manager-issue-7-48m-shares-and-price-200m-8-625-notes/</a></li><li><a href="https://www.acresreit.com/2026-08-06-ACRES-COMMERCIAL-REALTY-CORP-ANNOUNCES-COMPLETION-OF-MERGER,-INTERNALIZATION-AND-PRIVATE-NOTES-OFFERING" rel="noopener">https://www.acresreit.com/2026-08-06-ACRES-COMMERCIAL-REALTY-CORP-ANNOUNCES-COMPLETION-OF-MERGER,-INTERNALIZATION-AND-PRIVATE-NOTES-OFFERING</a></li><li><a href="https://www.tipranks.com/news/the-fly/acres-commercial-realty-corp-to-acquire-acres-capital-corp-thefly-news" rel="noopener">https://www.tipranks.com/news/the-fly/acres-commercial-realty-corp-to-acquire-acres-capital-corp-thefly-news</a></li><li><a href="https://www.stocktitan.net/sec-filings/ACR/8-k-acres-commercial-realty-corp-reports-material-event-c3786656be03.html" rel="noopener">https://www.stocktitan.net/sec-filings/ACR/8-k-acres-commercial-realty-corp-reports-material-event-c3786656be03.html</a></li><li><a href="https://www.preferredstockchannel.com/symbol/acr.prc/" rel="noopener">https://www.preferredstockchannel.com/symbol/acr.prc/</a></li><li><a href="https://seekingalpha.com/article/4928448-acres-commercial-realty-q2-why-we-are-staying-neutral-on-acres-series-c-preferred" rel="noopener">https://seekingalpha.com/article/4928448-acres-commercial-realty-q2-why-we-are-staying-neutral-on-acres-series-c-preferred</a></li><li><a href="https://www.theglobeandmail.com/investing/markets/stocks/ACR/pressreleases/3604661/acres-commercial-realty-earnings-call-pain-now-plans-ahead/" rel="noopener">https://www.theglobeandmail.com/investing/markets/stocks/ACR/pressreleases/3604661/acres-commercial-realty-earnings-call-pain-now-plans-ahead/</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 1332551, fetched 2026-08-30)</li><li>valuation.py justified_pb (read directly, lines 305-379)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/ACR.md'>research/Financials/ACR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>SSRM — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / SSRM</p><h1>SSRM <span style='color:var(--faint);font-weight:400'>SSR MINING</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$37.39</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>SSRM — SSR MINING</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $37.39</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market is pricing a company that has finished its restructuring and is now a debt-free, Americas-focused gold producer sitting on $1.8B of cash in a strong gold tape. On 2026-06-24 SSR closed the sale of its 80% interest in Çöpler and related Türkiye properties for roughly $1.49B in cash, and on 2026-07-17 sold its 20% of Hod Maden for an uncapped 4.0% net smelter royalty — removing at a stroke the asset whose February 2024 heap-leach failure produced the -$103.4M free-cash-flow year sitting in the middle of the screen&#x27;s three-year window. What is left is Marigold, Seabee, CC&amp;V and Puna, guided to 450,000-535,000 gold-equivalent ounces for 2026, with the balance sheet carrying $1.78B of cash and no debt as of 6/30/2026. Capital is coming back fast: an additional $500M buyback authorised 2026-06-15, 12.9M shares repurchased year to date for $409.2M of capital returns — an effective yield near 8% — and the quarterly dividend reinstated at $0.03 on 2026-08-04. Q2 delivered $137.0M of net income, $115.6M of operating cash flow and $50.3M of free cash flow from continuing operations. A stock up 46% in 21 days and 105% in a year is a levered call on gold held by a company that now has the cash to buy back stock while it waits.</p><p><strong>What changed.</strong> The company was reconstituted after the balance-sheet date the screen is priced off. (1) 2026-06-24: Çöpler 80% stake sold for approximately $1.49B cash. (2) 2026-07-17: Hod Maden 20% sold for an uncapped 4.0% NSR royalty. (3) 2026-06-15: an additional $500M share buyback authorised; $409.2M returned year to date across 12.9M shares. (4) 2026-08-04: Q2 results — net income $137.0M ($0.66 diluted), operating cash flow $115.6M, free cash flow $50.3M, 101,959 GEO produced, 2026 guidance of 450,000-535,000 GEO reaffirmed, $1.78B cash and debt-free, revolver upsized from $400M to $600M on a four-year term, quarterly dividend reinstated at $0.03 payable 2026-09-11. Costs were flagged as rising in the Q2 materials and the quarter was characterised as an earnings miss despite the cash position.</p><p><strong>Base case.</strong> I decline to supply one, because both sides of the reverse DCF describe a company that no longer exists. The enterprise value of $8.08B is built from a 2025-12-31 balance sheet: $229.5M of debt, $534.8M of cash and $806.5M of non-controlling interest, that last item being the 20% of Çöpler that was sold outright in June. On the 6/30/2026 balance sheet the company holds roughly $1.78B of cash, is debt-free, and the Çöpler minority is gone, so enterprise value is closer to $5.9B than $8.1B — the screen overstates it by roughly 37%. The FCFF base of $125.0M is the mean of 2023, 2024 and 2025, a window whose middle year is the Çöpler disaster (-$103.4M) at an asset that has since been divested, and whose other two years include Çöpler&#x27;s contribution. Correcting the enterprise value alone collapses the implied growth requirement from +42.1% toward roughly zero; correcting the base as well would move it again, in a direction I cannot compute from committed data because the extract has no continuing-operations split. Feeding a growth rate into that machinery would produce a fair value with two known-wrong inputs, and I will not do it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to refusing is that the corrected picture is computable enough to act on, and it says the stock is not cheap. On secondary reporting SSR trades near a 10.4x price-to-earnings ratio and roughly a 7% free-cash-flow yield, which on a corrected enterprise value near $5.9B is a healthy but unremarkable multiple — and critically, that yield is earned at what is very plausibly a cyclical peak in the gold price. The stock is up 105% in a year and 46% in 21 days; almost none of that is production growth, since guidance is unchanged at 450,000-535,000 GEO and Q2 materials flagged rising costs. A 7% free-cash-flow yield at peak gold on a company whose all-in costs are rising is exactly the trap LESSONS names: a stable-looking base that is stable at an elevated level. On that reading the honest verdict is not &#x27;the model is broken&#x27;, it is &#x27;corrected for the model&#x27;s errors, this is fairly-to-fully priced, and the 8% capital-return yield is being funded out of divestment proceeds rather than mine cash flow&#x27;.</li><li>What would prove it: All-in sustaining cost per ounce for the continuing four-mine portfolio against the realised gold price, over the next two or three quarters, and the free cash flow those mines generate excluding divestment proceeds. If continuing-operations free cash flow annualises anywhere near the $50.3M posted in Q2 rather than the several hundred million the market seems to assume, the capital returns are a liquidation of the Çöpler proceeds rather than an earnings stream, and the stock is expensive. If mine free cash flow runs materially higher at the current gold price, the 7% yield is real and I have refused a live idea.</li><li>Already visible today: Yes, and it is uncomfortable for my refusal. Q2 free cash flow from continuing operations was $50.3M against $115.6M of operating cash flow — roughly $200M annualised, which against a $7.6B market capitalisation is a 2.6% free-cash-flow yield, not 7%. That single figure is the strongest evidence in this write-up, and it points at the stock being expensive rather than merely unmodellable. What stops me converting it into a &#x27;rich&#x27; verdict is that one quarter is not a run rate for a miner, Q2 straddles the divestment closings and so mixes stub periods, and I could not obtain the continuing-operations cash flow split from a primary source to check whether the $50.3M is comparable to a full-quarter run rate at all.</li><li>Left unresolved: The corrected FCFF base, which is the whole question. I could not read the Q2 10-Q or the FY2025 10-K — SEC egress is blocked from this runtime — so I have no continuing-operations cash-flow statement, no all-in sustaining cost by mine, and no post-divestment capex plan. I therefore cannot say whether the corrected implied growth is 0%, 10% or 25%. I also could not establish the realised gold price in the quarter, which is the single variable the entire equity depends on, and I have no edge whatsoever on where it goes next.</li></ul><p><strong>Key risks.</strong> The enterprise value in the screen is overstated by roughly $2.2B because the balance sheet predates the Çöpler divestment; the -82.7% gap and 30th-percentile rank are both artifacts; The FCFF window contains the Çöpler heap-leach failure at an asset that has since been sold, so it describes neither the old company nor the new one; This is a levered call on the gold price and nothing else; guidance is unchanged and costs were flagged as rising; Q2 continuing-operations free cash flow of $50.3M annualises to roughly a 2.6% yield on market cap, well below the ~7% cited in secondary coverage; Capital returns of $409.2M year to date are being funded substantially from divestment proceeds, not from mine cash flow <strong>Watch for.</strong> Q3 2026 all-in sustaining cost per ounce and continuing-operations free cash flow — the first clean quarter of the post-Çöpler company; Whether the $500M buyback continues once the divestment cash is spent; A refreshed EDGAR extract picking up the 6/30/2026 balance sheet; until then this name cannot be screened; Any deployment of the $1.78B cash pile into acquisitions — an all-cash deal at peak gold would be the classic mistake</p><p><strong>Data quality.</strong> Two defects, both verified against the committed extract. FIRST, a stale balance sheet across a transformative divestment: enterprise value of $8,084.5M is built from FY2025 figures of $229.5M debt, $534.8M cash, $40.8M short-term investments and $806.5M of non-controlling interest. The non-controlling interest is the 20% of Çöpler that was sold on 2026-06-24, and the cash figure predates $1.49B of proceeds. On the 6/30/2026 balance sheet — $1.78B cash, debt-free, no Çöpler minority — the corrected enterprise value is roughly $5.9B, about 27% below what the screen used, which by itself moves the implied growth requirement from +42.1% toward zero. SECOND, the FCFF base of $125.0M averages 2023, 2024 and 2025 free cash flow of $198.3M, -$103.4M and $241.6M; the negative year is the February 2024 Çöpler heap-leach failure and all three years include an asset that is no longer owned. The lumpy and negative-year flags fire, but they describe the symptom, not the cause — the extract has no continuing-operations split, so the screen cannot construct a valid base for this company at all until the 6/30/2026 facts are picked up. Both defects push in the same direction: they make SSR look far more expensive than the corrected arithmetic supports, which is why the -82.7% gap must not be read as a signal. I read no primary filing — SEC egress is blocked from this runtime and WebFetch was refused for sec.gov and every news host attempted — so all Q2 figures, divestment terms and capital-return numbers are from secondary sources.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.gurufocus.com/news/9039053/ssr-mining-inc-ssrm-q2-2026-earnings-call-highlights-strong-cash-position-and-capital-returns-amid-cost-pressures" rel="noopener">https://www.gurufocus.com/news/9039053/ssr-mining-inc-ssrm-q2-2026-earnings-call-highlights-strong-cash-position-and-capital-returns-amid-cost-pressures</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/11/ssr-mining-ssrm-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/11/ssr-mining-ssrm-q2-2026-earnings-call-transcript/</a></li><li><a href="https://www.businesswire.com/news/home/20260615239775/en/SSR-Mining-Announces-Additional-$500-Million-Share-Buyback-and-Reinstatement-of-Quarterly-Dividend" rel="noopener">https://www.businesswire.com/news/home/20260615239775/en/SSR-Mining-Announces-Additional-$500-Million-Share-Buyback-and-Reinstatement-of-Quarterly-Dividend</a></li><li><a href="https://www.investing.com/news/company-news/ssr-mining-q2-2026-slides-americas-pivot-complete-costs-rise-93CH-4836217" rel="noopener">https://www.investing.com/news/company-news/ssr-mining-q2-2026-slides-americas-pivot-complete-costs-rise-93CH-4836217</a></li><li><a href="https://ca.investing.com/news/company-news/ssr-mining-q2-2026-slides-18b-cash-buybacks-amid-earnings-miss-93CH-4776021" rel="noopener">https://ca.investing.com/news/company-news/ssr-mining-q2-2026-slides-18b-cash-buybacks-amid-earnings-miss-93CH-4776021</a></li><li><a href="https://www.tipranks.com/news/company-announcements/ssr-mining-earnings-call-highlights-cash-fueled-reset" rel="noopener">https://www.tipranks.com/news/company-announcements/ssr-mining-earnings-call-highlights-cash-fueled-reset</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 921638, fetched 2026-08-30)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/SSRM.md'>research/Materials/SSRM.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>JXN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / JXN</p><h1>JXN <span style='color:var(--faint);font-weight:400'>JACKSON FINANCIAL CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$133.65</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>JXN — JACKSON FINANCIAL CLASS A</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $133.65</li></ul><p><strong>The case for the price.</strong> The market is paying roughly one times tangible common book for a variable-annuity writer that generates over $1B a year of free capital and hands most of it back. Jackson&#x27;s Q2 2026 was a record: adjusted operating earnings of $513M, $7.30 per diluted share, or $7.68 normalised for the difference between the actual tax rate and the 15% guide, on 34% growth in retail annuity sales, with free cash flow of $287M in the quarter and $575M in the first half, up 14%. Capital returned in the first half was $547M — $419M of buyback and $128M of dividends — against a roughly $9.1B market capitalisation, and the insurance subsidiary&#x27;s estimated risk-based capital ratio was 538% at 6/30/2026. The buyback is the engine: retiring shares at around book value while book value per share is supported by that capital generation is mechanically accretive. The stock is up 40.7% over 252 days and 28.9% over 63 days, which is the market re-rating exactly that.</p><p><strong>What changed.</strong> Q2 2026, reported 2026-08-03: record adjusted operating earnings of $513M and $7.30 per diluted share ($7.68 normalised to the 15% tax guide); retail annuity sales up 34%; free cash flow $287M in the quarter, $575M in the first half, up 14%; capital returned $290M in the quarter ($227M buyback, $63M dividends) and $547M in the first half; JNL estimated RBC 538% at 6/30/2026, down from 554% at 3/31/2026. For context on the accounting problem below: full-year 2025 was a GAAP net LOSS of $(17)M and $(0.24) per share against adjusted operating earnings of $22.67 per diluted share, with Q4 2025 alone showing a $376M GAAP pre-tax loss against $529M of pre-tax adjusted operating earnings, on roughly $405M of net hedging and market-risk-benefit losses.</p><p><strong>Base case.</strong> I will not supply a sustainable ROTCE, because the justified price-to-tangible-book model does not apply to this company and the number it produced is not merely imprecise, it has the wrong sign. The model averages three years of GAAP net income over tangible equity and gets 6.4%, which against a 10.7% cost of equity yields a justified multiple of 0.47 and a -47.9% gap — a confident statement that Jackson is half again too expensive. But GAAP net income for a variable-annuity writer is dominated by non-economic marks on hedges and market risk benefits, and Jackson is the extreme case: 2025 GAAP net income of $27M in the extract (a $(17)M loss to common after preferred dividends) sits alongside $22.67 of adjusted operating earnings per share. The 0.3% ROTCE the model averages in is not a bad year of underwriting, it is an accounting artefact of a rising equity market moving the hedge book. Run the same formula on adjusted operating earnings — roughly $22.67 per share against a corrected tangible common book near $133 per share, about 17% — and the justified multiple becomes about 1.77 against an actual of 1.00, flipping the verdict from 48% overvalued to substantially undervalued. When one defensible input choice moves the answer from -48% to +77%, the model is not measuring anything. That is a refusal, not a valuation.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to refusing is that the market&#x27;s own behaviour supplies the missing model, and it says something specific: Jackson trades at roughly 1.0x tangible common book and about 5-6x adjusted operating earnings, and it has traded there persistently through a period of record operating results and a 538% RBC ratio. That is not the market failing to notice — it is the market pricing the thing the operating earnings exclude. Variable-annuity guarantees are long-dated equity and rate options written to retail customers; the hedging losses that the operating measure strips out are the real cost of standing behind them, and in a genuine equity drawdown the statutory capital that supports the buyback is exactly what gets consumed. On that view the GAAP number the model uses, ugly as it is, is closer to the economics than the adjusted one, the 0.47 justified multiple is directionally defensible, and my declaring &#x27;no model&#x27; lets a genuinely expensive stock escape a bearish reading.</li><li>What would prove it: The behaviour of statutory capital and free cash flow through a real equity drawdown of 20% or more, or a sustained fall in rates. If RBC holds above 500% and free capital generation stays above $1B through such a period, the hedging losses are non-economic noise and the operating measure is the right lens. If RBC falls sharply and capital returns are suspended to defend it, the GAAP marks were telling the truth and the equity is levered to exactly the risk the operating measure removes.</li><li>Already visible today: Partly, and it is genuinely ambiguous. On the counter&#x27;s side: RBC fell from 554% to 538% in a single quarter of RECORD earnings, which is a hint that capital consumption runs faster than the operating measure suggests, and 2025 produced a full-year GAAP loss in a year when nothing went obviously wrong. On my side: free capital generation exceeded $1B for the second consecutive year in 2025 and rose 14% in the first half of 2026, which is a cash measure, not an accounting one, and it did so through the same period that produced the GAAP loss. Both are true, and I could not reconcile them without the statutory detail.</li><li>Left unresolved: Everything that would settle it. I could not read the Q2 10-Q or the 2025 10-K — SEC egress is blocked from this runtime — so I have no hedge-notional disclosure, no market-risk-benefit roll-forward, no statutory capital detail beyond the headline RBC ratio, and no reconciliation between free capital generation and GAAP earnings. I am recording that I do not know whether Jackson at 1.0x book is cheap or dear; I only know that the -47.9% the screen reports is derived from a number that its own management, its analysts and its capital-return policy all treat as meaningless.</li></ul><p><strong>Key risks.</strong> The -47.9% gap and 32nd-percentile Financials rank are artifacts of averaging a hedge-driven GAAP loss year into &#x27;sustainable&#x27; ROTCE and should not be treated as signal; Tangible book per share is overstated by the model at $146.95; the correct figure is about $133.34, which makes actual P/TBV 1.00 rather than 0.91; GAAP earnings and adjusted operating earnings differ by an order of magnitude and no lens in this repo reconciles them; The equity is a levered claim on equity-market and rate paths through the variable-annuity guarantee book; RBC fell 16 points in a quarter of record earnings; Capital returns of $547M in the first half depend on statutory capital that a real drawdown would consume <strong>Watch for.</strong> JNL&#x27;s RBC ratio trend across the next two quarters — a second consecutive decline in a good market is the tell; Free capital generation against the &gt;$1B annual run rate, which is the cash measure that actually funds the buyback; Any quarter in which buyback pace is cut while adjusted operating earnings are still described as strong; A fix to justified_pb that deducts non-controlling interests and preferred, and a policy on GAAP-versus-operating earnings for annuity writers</p><p><strong>Data quality.</strong> Two defects, both verified directly against the committed extract and the source code. FIRST, the same arithmetic bug found on ACR today: valuation.justified_pb builds tangible common equity as equity_series[0] minus goodwill minus intangibles and never deducts non-controlling interests or preferred stock, although both are present in this record and both are correctly subtracted in enterprise_value. Jackson&#x27;s FY2025 equity of $9,953M includes $533M of preferred and $389M of non-controlling interest; the correct tangible common equity is $9,031M, so tangible book per share is $133.34, not the $146.95 reported, and actual price-to-tangible-book is 1.00, not 0.91. SECOND, and larger: the sustainable ROTCE of 6.4% is the mean of three GAAP ratios of 0.3%, 9.7% and 9.2%. The 0.3% year is 2025, in which Jackson reported GAAP net income of $27M — a $(17)M loss to common after preferred dividends — against $22.67 of adjusted operating earnings per diluted share, the difference being non-economic hedge and market-risk-benefit marks (Q4 2025 alone: a $376M GAAP pre-tax loss against $529M of pre-tax adjusted operating earnings on roughly $405M of net hedging losses). The unstable_rotce flag fires and correctly names the symptom, but the model then averages the artefact into a &#x27;sustainable&#x27; return anyway and reports a confident -47.9% gap from it. Substituting operating earnings flips the sign of the answer, which is the definition of an input the model cannot handle. A THIRD item I checked and cleared: the share count of 67,728,744 as of 2026-07-27 is current and market capitalisation is right. The non-controlling-interest and preferred defect affects every Financials name carrying either, not just this one. I read no primary filing — SEC egress is blocked from this runtime and WebFetch was refused for sec.gov and every news host attempted — so all Q2 2026 and full-year 2025 figures come from secondary sources.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.nasdaq.com/press-release/jackson-announces-record-second-quarter-2026-results-2026-08-03" rel="noopener">https://www.nasdaq.com/press-release/jackson-announces-record-second-quarter-2026-results-2026-08-03</a></li><li><a href="https://www.investing.com/news/company-news/jackson-financial-q2-2026-slides-record-earnings-robust-capital-93CH-4835279" rel="noopener">https://www.investing.com/news/company-news/jackson-financial-q2-2026-slides-record-earnings-robust-capital-93CH-4835279</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/jackson-financial-inc-jxn-q2-210539443.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/jackson-financial-inc-jxn-q2-210539443.html</a></li><li><a href="https://www.theglobeandmail.com/investing/markets/markets-news/motley/3767546/jackson-financial-jxn-q2-2026-earnings-call-transcript/" rel="noopener">https://www.theglobeandmail.com/investing/markets/markets-news/motley/3767546/jackson-financial-jxn-q2-2026-earnings-call-transcript/</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/02/19/jackson-financial-jxn-q4-2025-earnings-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/02/19/jackson-financial-jxn-q4-2025-earnings-transcript/</a></li><li><a href="https://www.stocktitan.net/sec-filings/JXN/8-k-jackson-financial-inc-reports-material-event-05c0a513c759.html" rel="noopener">https://www.stocktitan.net/sec-filings/JXN/8-k-jackson-financial-inc-reports-material-event-05c0a513c759.html</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 1822993, fetched 2026-08-30)</li><li>valuation.py justified_pb (read directly, lines 305-379)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/JXN.md'>research/Financials/JXN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

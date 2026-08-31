@@ -1,0 +1,57 @@
+{
+  "ticker": "JXN",
+  "date": "2026-08-31",
+  "sector": "Financials",
+  "name": "JACKSON FINANCIAL CLASS A",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "horizon_months": 12,
+  "price_at_verdict": 133.64500427246094,
+  "market_implied_growth": null,
+  "cohort_pct": 32.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to refusing is that the market's own behaviour supplies the missing model, and it says something specific: Jackson trades at roughly 1.0x tangible common book and about 5-6x adjusted operating earnings, and it has traded there persistently through a period of record operating results and a 538% RBC ratio. That is not the market failing to notice \u2014 it is the market pricing the thing the operating earnings exclude. Variable-annuity guarantees are long-dated equity and rate options written to retail customers; the hedging losses that the operating measure strips out are the real cost of standing behind them, and in a genuine equity drawdown the statutory capital that supports the buyback is exactly what gets consumed. On that view the GAAP number the model uses, ugly as it is, is closer to the economics than the adjusted one, the 0.47 justified multiple is directionally defensible, and my declaring 'no model' lets a genuinely expensive stock escape a bearish reading.",
+    "what_would_prove_it": "The behaviour of statutory capital and free cash flow through a real equity drawdown of 20% or more, or a sustained fall in rates. If RBC holds above 500% and free capital generation stays above $1B through such a period, the hedging losses are non-economic noise and the operating measure is the right lens. If RBC falls sharply and capital returns are suspended to defend it, the GAAP marks were telling the truth and the equity is levered to exactly the risk the operating measure removes.",
+    "already_visible": "Partly, and it is genuinely ambiguous. On the counter's side: RBC fell from 554% to 538% in a single quarter of RECORD earnings, which is a hint that capital consumption runs faster than the operating measure suggests, and 2025 produced a full-year GAAP loss in a year when nothing went obviously wrong. On my side: free capital generation exceeded $1B for the second consecutive year in 2025 and rose 14% in the first half of 2026, which is a cash measure, not an accounting one, and it did so through the same period that produced the GAAP loss. Both are true, and I could not reconcile them without the statutory detail.",
+    "unresolved": "Everything that would settle it. I could not read the Q2 10-Q or the 2025 10-K \u2014 SEC egress is blocked from this runtime \u2014 so I have no hedge-notional disclosure, no market-risk-benefit roll-forward, no statutory capital detail beyond the headline RBC ratio, and no reconciliation between free capital generation and GAAP earnings. I am recording that I do not know whether Jackson at 1.0x book is cheap or dear; I only know that the -47.9% the screen reports is derived from a number that its own management, its analysts and its capital-return policy all treat as meaningless."
+  },
+  "what_changed": "Q2 2026, reported 2026-08-03: record adjusted operating earnings of $513M and $7.30 per diluted share ($7.68 normalised to the 15% tax guide); retail annuity sales up 34%; free cash flow $287M in the quarter, $575M in the first half, up 14%; capital returned $290M in the quarter ($227M buyback, $63M dividends) and $547M in the first half; JNL estimated RBC 538% at 6/30/2026, down from 554% at 3/31/2026. For context on the accounting problem below: full-year 2025 was a GAAP net LOSS of $(17)M and $(0.24) per share against adjusted operating earnings of $22.67 per diluted share, with Q4 2025 alone showing a $376M GAAP pre-tax loss against $529M of pre-tax adjusted operating earnings, on roughly $405M of net hedging and market-risk-benefit losses.",
+  "consensus_case": "The market is paying roughly one times tangible common book for a variable-annuity writer that generates over $1B a year of free capital and hands most of it back. Jackson's Q2 2026 was a record: adjusted operating earnings of $513M, $7.30 per diluted share, or $7.68 normalised for the difference between the actual tax rate and the 15% guide, on 34% growth in retail annuity sales, with free cash flow of $287M in the quarter and $575M in the first half, up 14%. Capital returned in the first half was $547M \u2014 $419M of buyback and $128M of dividends \u2014 against a roughly $9.1B market capitalisation, and the insurance subsidiary's estimated risk-based capital ratio was 538% at 6/30/2026. The buyback is the engine: retiring shares at around book value while book value per share is supported by that capital generation is mechanically accretive. The stock is up 40.7% over 252 days and 28.9% over 63 days, which is the market re-rating exactly that.",
+  "base_case_rationale": "I will not supply a sustainable ROTCE, because the justified price-to-tangible-book model does not apply to this company and the number it produced is not merely imprecise, it has the wrong sign. The model averages three years of GAAP net income over tangible equity and gets 6.4%, which against a 10.7% cost of equity yields a justified multiple of 0.47 and a -47.9% gap \u2014 a confident statement that Jackson is half again too expensive. But GAAP net income for a variable-annuity writer is dominated by non-economic marks on hedges and market risk benefits, and Jackson is the extreme case: 2025 GAAP net income of $27M in the extract (a $(17)M loss to common after preferred dividends) sits alongside $22.67 of adjusted operating earnings per share. The 0.3% ROTCE the model averages in is not a bad year of underwriting, it is an accounting artefact of a rising equity market moving the hedge book. Run the same formula on adjusted operating earnings \u2014 roughly $22.67 per share against a corrected tangible common book near $133 per share, about 17% \u2014 and the justified multiple becomes about 1.77 against an actual of 1.00, flipping the verdict from 48% overvalued to substantially undervalued. When one defensible input choice moves the answer from -48% to +77%, the model is not measuring anything. That is a refusal, not a valuation.",
+  "key_risks": [
+    "The -47.9% gap and 32nd-percentile Financials rank are artifacts of averaging a hedge-driven GAAP loss year into 'sustainable' ROTCE and should not be treated as signal",
+    "Tangible book per share is overstated by the model at $146.95; the correct figure is about $133.34, which makes actual P/TBV 1.00 rather than 0.91",
+    "GAAP earnings and adjusted operating earnings differ by an order of magnitude and no lens in this repo reconciles them",
+    "The equity is a levered claim on equity-market and rate paths through the variable-annuity guarantee book; RBC fell 16 points in a quarter of record earnings",
+    "Capital returns of $547M in the first half depend on statutory capital that a real drawdown would consume"
+  ],
+  "watch_for": [
+    "JNL's RBC ratio trend across the next two quarters \u2014 a second consecutive decline in a good market is the tell",
+    "Free capital generation against the >$1B annual run rate, which is the cash measure that actually funds the buyback",
+    "Any quarter in which buyback pace is cut while adjusted operating earnings are still described as strong",
+    "A fix to justified_pb that deducts non-controlling interests and preferred, and a policy on GAAP-versus-operating earnings for annuity writers"
+  ],
+  "sources": [
+    "https://www.nasdaq.com/press-release/jackson-announces-record-second-quarter-2026-results-2026-08-03",
+    "https://www.investing.com/news/company-news/jackson-financial-q2-2026-slides-record-earnings-robust-capital-93CH-4835279",
+    "https://finance.yahoo.com/markets/stocks/articles/jackson-financial-inc-jxn-q2-210539443.html",
+    "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3767546/jackson-financial-jxn-q2-2026-earnings-call-transcript/",
+    "https://www.fool.com/earnings/call-transcripts/2026/02/19/jackson-financial-jxn-q4-2025-earnings-transcript/",
+    "https://www.stocktitan.net/sec-filings/JXN/8-k-jackson-financial-inc-reports-material-event-05c0a513c759.html",
+    "data/fundamentals.json (committed EDGAR extract, CIK 1822993, fetched 2026-08-30)",
+    "valuation.py justified_pb (read directly, lines 305-379)"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_18%_debt_weight",
+    "unstable_rotce_0.3%_to_9.7%"
+  ]
+}
