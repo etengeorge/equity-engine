@@ -260,6 +260,85 @@ def test_pct_of_52w_high():
           "the dashboard column would be permanently em-dash")
 
 
+# --- the markdown renderer must not mangle the vocabulary these logs use ------
+def test_markdown_renderer():
+    import dashboard as D
+    h = D.md_to_html("A <script>alert(1)</script> tag & an ampersand.")
+    check("markdown escapes HTML", "<script>" not in h and "&lt;script&gt;" in h, h)
+
+    # snake_case is everywhere in these files (no_edge, stock_comp_is_67%_of_fcff).
+    # A naive _italic_ rule eats them, so the guard is a hard requirement, not a nicety.
+    h = D.md_to_html("Verdict no_edge with stock_comp_is_67%_of_fcff flagged.")
+    check("snake_case survives the italic pass", "<em>" not in h, h)
+    check("word-boundary underscores still italicise",
+          "<em>risk</em>" in D.md_to_html("_risk_ — a note"),
+          D.md_to_html("_risk_ — a note"))
+
+    h = D.md_to_html("**Base case.** Text with `code` and https://sec.gov/x_y_z here.")
+    check("bold renders", "<strong>Base case.</strong>" in h, h)
+    check("code renders", "<code>code</code>" in h, h)
+    check("bare url becomes a link", 'href="https://sec.gov/x_y_z"' in h, h)
+    check("a url with underscores is not italicised", "x_y_z</a>" in h, h)
+
+    h = D.md_to_html("## Heading\n\n- one\n- two\n\n> quoted\n\n---\n\npara")
+    for frag in ("<h2>Heading</h2>", "<li>one</li>", "<blockquote>", "<hr>", "<p>para</p>"):
+        check(f"markdown renders {frag}", frag in h, h)
+
+    check("empty input is safe", D.md_to_html("") == "" and D.md_to_html(None) == "")
+
+
+def test_research_site_structure():
+    import dashboard as D, brief
+    check("sector slug is url-safe and stable",
+          D.sector_slug("Consumer Discretionary") == "consumer-discretionary"
+          and D.sector_slug("Health Care") == "health-care", D.sector_slug("Health Care"))
+
+    md = ("## 2026-01-01 — OLD\n\n**Base case.** stale one.\n\n"
+          "## 2026-08-31 — NEW\n\n**Base case.** the current one.\n\n**Verdict:** x\n")
+    check("latest_section reads the NEWEST entry, not the first",
+          D.latest_section(md, "Base case") == "the current one.",
+          D.latest_section(md, "Base case"))
+    check("a missing label returns None rather than a guess",
+          D.latest_section(md, "Nonexistent") is None)
+
+    # the tree must come off the filesystem: imported names have a log and no verdict json
+    tree = D.research_tree()
+    if tree:
+        for sector, tickers in tree.items():
+            check(f"{sector} log paths resolve",
+                  all(brief.research_path(sector, t).exists() for t in tickers))
+
+
+def test_site_build_writes_both_tabs():
+    """The dashboard and every research page must be generated in one pass, and every
+    root-absolute link on them must resolve to a file that exists — a dead Research tab
+    would look fine locally and 404 on Vercel."""
+    import tempfile, pathlib, re, dashboard as D
+    sc = json.loads((config.DATA / "screen.json").read_text())
+    vdir = config.DATA / "verdicts"
+    verdicts = [json.loads(p.read_text()) for p in sorted(vdir.glob("*.json"))] \
+        if vdir.exists() else []
+    with tempfile.TemporaryDirectory() as td:
+        out, written = D.build(sc, [], verdicts, out=pathlib.Path(td) / "index.html")
+        root = pathlib.Path(td)
+        check("build returns the index plus research pages", out.exists() and len(written) > 1,
+              f"{len(written)} pages")
+        check("research index is written", (root / "research" / "index.html").exists())
+        idx = out.read_text()
+        check("both tabs are in the nav",
+              "/research/index.html" in idx and ">Dashboard<" in idx and ">Research<" in idx)
+        check("hero is exactly two stats",
+              idx.count("<div class='stat'>") == 2, idx.count("<div class='stat'>"))
+        check("hero shows universe and screened",
+              "Total universe" in idx and "Total screened" in idx)
+        bad = []
+        for p in root.rglob("*.html"):
+            for href in re.findall(r'href="(/[^"#]+)"', p.read_text()):
+                if not (root / href.lstrip("/")).exists():
+                    bad.append(f"{p.name} -> {href}")
+        check("no broken internal links", not bad, "; ".join(bad[:5]))
+
+
 def main():
     for fn in sorted([v for k, v in globals().items() if k.startswith("test_")],
                      key=lambda f: f.__name__):

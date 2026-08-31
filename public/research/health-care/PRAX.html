@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>PRAX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / PRAX</p><h1>PRAX <span style='color:var(--faint);font-weight:400'>PRAXIS PRECISION MEDICINES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$344.75</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>PRAX — PRAXIS PRECISION MEDICINES</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $344.75</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Praxis owns the first pharmacological programme ever to succeed in Phase 3 in essential tremor. In October 2025 both pivotal Essential3 studies of ulixacaltamide met their primary endpoints, and the stock rose 231% in a day to $190. Essential tremor is a large, chronically undertreated neurological indication with no drug approved specifically for it — patients are managed off-label with propranolol and primidone, or with focused ultrasound. Ulixacaltamide has Breakthrough Therapy designation, the NDA was accepted in April 2026 with a PDUFA date of 2027-01-29, and the FDA is not planning an advisory committee. Behind it, relutrigine for SCN2A and SCN8A developmental and epileptic encephalopathies is under priority review with a PDUFA date of 2026-12-27, and the mid-cycle meeting produced no major safety or efficacy concerns and no advisory committee. The company held approximately $1.4B of cash and investments at 30 June 2026 with runway stated into 2028, so it can reach both decisions and launch without financing. A $9.6B market capitalisation is the market capitalising a first-in-class launch into a very large indication, four months from approval.</p><p><strong>What changed.</strong> A great deal, in both directions. Positive: FDA accepted the ulixacaltamide NDA in April 2026 with a 2027-01-29 PDUFA date and no advisory committee planned; expanded Essential3 analyses were presented at AAN in April 2026; the relutrigine mid-cycle review surfaced no major safety or efficacy concerns. Negative: in June 2026 the POWER1 Phase 2/3 study of vormatrigine in highly refractory focal-onset seizures MISSED its primary endpoint of reduction in monthly focal seizure frequency at week 12, though it met a secondary endpoint on the proportion of patients achieving a 50% or greater reduction — management attributes the miss to dose, a six-week duration that was too short, and entry criteria weighted to heavily pre-treated patients, and plans to amend and restart POWER2 and POWER3 by Q4 2026. Also negative: the FDA deemed additional sensitivity analyses submitted for relutrigine a MAJOR AMENDMENT and extended the review, moving the PDUFA date from 2026-09-27 to 2026-12-27. Q2 2026 operating expenses were $96.9M against $76.0M a year earlier. The stock is -8.3% over five sessions and roughly flat over 63, after +634.8% over 252.</p><p><strong>Base case.</strong> I decline to state one. Praxis has no product revenue, negative normalised free cash flow, and a value that consists entirely of the probability-weighted net present value of two regulatory decisions and their launches. There is no cash-flow base to grow and inventing one would be manufacturing a number, which the rules of this engine forbid and which would be the exact failure mode this system was built to avoid.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: Refusing to model is the safe answer, not necessarily the right one, and here it may be hiding something the numbers can reach. A $9.6B market capitalisation on roughly $1.4B of cash puts about $8.2B on two unapproved drugs. Essential tremor is large enough to carry that if ulixacaltamide is a multi-billion-dollar drug — but this is a small molecule for a symptomatic, non-fatal chronic condition, competing against generic propranolol and primidone that cost almost nothing, in a payer environment that resists exactly that substitution. A first-ever positive Phase 3 establishes efficacy; it does not establish pricing power or that neurologists will switch. If peak sales land at $1-2B rather than $4-5B, $8.2B of pre-approval value is too much, and the correct verdict is rich rather than no_model. Note also that the stock&#x27;s +634.8% run over 252 sessions is precisely what the LESSONS file warns about — the market has already paid for a good outcome.</li><li>What would prove it: Pricing and payer coverage at launch, and the size of the treated-patient funnel rather than the diagnosed one. Before that: approval on 2027-01-29 and the label — specifically whether it is broad or restricted to patients who have failed existing therapy, since a second-line label caps the commercial opportunity regardless of efficacy.</li><li>Already visible today: Some of it. Two of the three pipeline datapoints this year went the wrong way: vormatrigine missed its primary endpoint in POWER1, and relutrigine&#x27;s review was extended three months on a major amendment. Neither touches ulixacaltamide, but both reduce the option value the $9.6B was partly carrying, and the stock has given back very little. Against that, the ulixacaltamide path itself has stayed clean — Breakthrough designation, NDA accepted, no advisory committee — and $1.4B of cash to 2028 removes the financing risk that usually breaks these stories.</li><li>Left unresolved: Whether $8.2B of pre-approval value is right. I could not answer it and I want to be explicit that I did not: it requires a peak-sales estimate for ulixacaltamide that I have no defensible free source for, and I will not invent one. I also could not read the 10-Q or any of the 2026 8-Ks — SEC egress is blocked from this runtime — so the POWER1 details, the PDUFA extension and the cash figure are all secondary-sourced. I would flag one specific uncertainty: I found the relutrigine PDUFA extension reported as both December 2026 and December 2027 across sources, and settled on 2026-12-27 as the reading consistent with a standard three-month major-amendment extension from 2026-09-27. That is an inference, not a fact I verified.</li></ul><p><strong>Key risks.</strong> Roughly $8.2B of market value rests on two drugs that are not yet approved; Essential tremor is treated today with cheap generics; efficacy is proven, pricing and payer coverage are not; The label matters as much as the approval — a second-line restriction would materially cut the opportunity; Two adverse pipeline events already this year (vormatrigine POWER1 primary endpoint miss, relutrigine review extension) with little price given back; Cash burn is running near $100M a quarter and rising, against runway stated into 2028 — a launch year will test that; Beta of 2.25 on an R-squared of 0.052 means the reported risk measure is noise; this stock&#x27;s realised volatility is the actual risk <strong>Watch for.</strong> Relutrigine PDUFA, 2026-12-27 — the nearer of the two decisions; Ulixacaltamide PDUFA, 2027-01-29, and the approved label; Ulixacaltamide launch pricing and initial payer coverage decisions; Amended POWER2 and POWER3 restarting by Q4 2026, and whether the redesign is accepted</p><p><strong>Data quality.</strong> Both flags — negative FCF year in window, non-positive normalised FCFF — are correct and are simply what a pre-revenue biotech looks like; they are descriptions, not errors, and they are the reason the reverse DCF returned n/a rather than a bad number. That is the model behaving properly. The engine reports no cohort rank for this name, correctly, since there are too few comparable Health Care names to define a distribution. Nothing here needs fixing. What is missing is a source of truth I could reach: SEC egress is blocked from this runtime, so I read no filing, and every clinical, regulatory and financial fact above is secondary-sourced. The relutrigine PDUFA date is the one item where sources conflicted and I recorded my inference as an inference. Conviction is medium and attaches to the claim that this name cannot be valued by this engine&#x27;s method, not to any view on the price.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-corporate-update-and-20" rel="noopener">https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-corporate-update-and-20</a></li><li><a href="https://www.biospace.com/press-releases/praxis-precision-medicines-provides-corporate-update-and-reports-second-quarter-2026-financial-results" rel="noopener">https://www.biospace.com/press-releases/praxis-precision-medicines-provides-corporate-update-and-reports-second-quarter-2026-financial-results</a></li><li><a href="https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-fda-acceptance-new-drug" rel="noopener">https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-fda-acceptance-new-drug</a></li><li><a href="https://www.neurologylive.com/view/praxis-submits-ndas-for-ulixacaltamide-essential-tremor-relutrigine-scn2a-scn8a-developmental-epileptic-encephalopathies" rel="noopener">https://www.neurologylive.com/view/praxis-submits-ndas-for-ulixacaltamide-essential-tremor-relutrigine-scn2a-scn8a-developmental-epileptic-encephalopathies</a></li><li><a href="https://www.fiercebiotech.com/biotech/praxis-bounces-back-shaky-ground-phase-3-win-essential-tremors-sending-stocks-soaring" rel="noopener">https://www.fiercebiotech.com/biotech/praxis-bounces-back-shaky-ground-phase-3-win-essential-tremors-sending-stocks-soaring</a></li><li><a href="https://www.nasdaq.com/articles/praxis-stock-surges-231-after-positive-phase-3-results-ulixacaltamide" rel="noopener">https://www.nasdaq.com/articles/praxis-stock-surges-231-after-positive-phase-3-results-ulixacaltamide</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/13/praxis-prax-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/13/praxis-prax-q2-2026-earnings-call-transcript/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/PRAX.md'>research/Health Care/PRAX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

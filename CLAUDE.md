@@ -38,7 +38,7 @@ python run.py screen           # price + value all 1,956 names. No LLM. ~20 min.
 python run.py screen --limit 40  # a fast slice while developing
 python run.py pick             # choose today's ten, write briefs/<TKR>.md
 python run.py record --clean   # ingest synth/<TKR>.json into research/ + data/verdicts/
-python run.py site             # rebuild public/index.html
+python run.py site             # rebuild public/: the screen + a page per researched name
 python run.py status           # what state is this repo in
 python run.py daily            # screen + pick (what the GitHub Action runs)
 ```
@@ -72,7 +72,10 @@ from the previous engine and read by the analyst before every session.
 bottom. `brief.py` feeds each name its own history *and* prior verdicts on its sector
 peers, so the second pass through the index is better informed than the first. Context is
 capped per section — v1 of this project silently truncated a 90k-character prompt and the
-memory layer never reached the analyst.
+memory layer never reached the analyst. `dashboard.py` mirrors that same tree into the
+Research tab (`public/research/<sector-slug>/<TICKER>.html`), so the site is a view of the
+folders rather than a second copy of them: anything committed to `research/` appears on the
+next `site` build, with no separate index to keep in sync.
 
 **The daily job is split across two runtimes on purpose.** A GitHub Action
 (`ci/screen.yml`; see `ci/README.md` for why it is parked there) has real internet and does all the fetching and

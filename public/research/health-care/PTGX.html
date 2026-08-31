@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>PTGX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / PTGX</p><h1>PTGX <span style='color:var(--faint);font-weight:400'>PROTAGONIST THERAPEUTICS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$144.33</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>PTGX — PROTAGONIST THERAPEUTICS</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $144.33</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Protagonist has stopped being a clinical-stage biotech and become a royalty holder on two approved drugs, without taking on a commercial infrastructure. Icotrokinra, partnered with Johnson &amp; Johnson, was approved by the FDA in March 2026 for moderate-to-severe plaque psoriasis and launched in the US the same month, triggering a $50M milestone and carrying tiered royalties of 6-10% plus up to $580M of further milestones, with Phase 3 programmes running in psoriatic arthritis, ulcerative colitis and Crohn&#x27;s disease. Rusfertide was approved on 2026-08-28 as Takeda&#x27;s MIMRYLO for erythrocytosis in polycythemia vera, on VERIFY data showing 76.9% of patients phlebotomy-free over 32 weeks against 32.9% on placebo. Protagonist opted out of the Takeda collaboration in April 2026, which converts it into a pure royalty position: $200M received on opt-out, a further $200M opt-out fee and a $75M milestone triggered by approval, up to $775M of sales milestones, and worldwide royalties of 14-29%. That royalty rate is unusually high, it is worldwide, and it costs Protagonist nothing to earn. Against $849.5M of cash at 30 June plus roughly $275M more now triggered, a $9.3B market capitalisation is the market&#x27;s estimate of the net present value of two royalty streams — one on a first-in-class drug for a disease whose standard of care is repeated bloodletting.</p><p><strong>What changed.</strong> Almost everything, and most of it after the last 10-K. Icotrokinra FDA approval and US launch, March 2026, $50M milestone. Rusfertide opt-out exercised 2026-04-28, triggering a $200M fee. NDA accepted with priority review, PDUFA in Q3 2026. Four presentations of Phase 3 VERIFY and long-term REVIVE/THRIVE data at EHA in June 2026. Q2 2026 (reported 2026-08-05): net income of $162.8M against a $34.8M loss a year earlier, on $213.5M of licence and collaboration revenue that included $192.4M of the Takeda opt-out payment; cash and marketable securities $849.5M. Then, three days before this brief, FDA approval of MIMRYLO (rusfertide) on 2026-08-28, which triggers the second $200M opt-out fee and the $75M approval milestone. The stock is down 6.5% over the five sessions spanning that approval — a sell-the-news reaction to the single largest de-risking event in the company&#x27;s history.</p><p><strong>Base case.</strong> I decline to state a five-year FCFF growth rate, because there is no FCFF here to grow. See the data-quality note: the base the model would compound is three years of milestone receipts, and compounding a milestone is meaningless.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to refusing a number is that a royalty stream is the single most modellable thing in biotechnology — no COGS, no salesforce, no manufacturing, a contractual percentage of someone else&#x27;s revenue — and that declining to value it is laziness dressed as rigour. On that view the honest exercise is to estimate peak sales for each drug, apply the contracted royalty rate, discount, and compare to the $8.2B enterprise value implied by a $9.3B market cap against roughly $1.1B of cash. And the market&#x27;s own behaviour is a live objection to my refusal: a 6.5% fall across an FDA approval says the market thinks the price already embeds more than the approval delivers, which is a valuation claim I am declining to test.</li><li>What would prove it: Consensus or company-guided peak sales for MIMRYLO in polycythemia vera and for icotrokinra across psoriasis, psoriatic arthritis, UC and Crohn&#x27;s, together with the precise royalty tier breakpoints from the Takeda and Janssen agreements. With those four inputs the stream is arithmetic.</li><li>Already visible today: The inputs are not visible to me. I could not open the licence agreements, the 10-K or the 10-Q — SEC egress is blocked from this runtime — so I have the royalty RANGES from press releases (6-10% and 14-29%) but not the breakpoints that determine which end applies, and I found no free, sourced peak-sales estimate for either drug that I would be willing to put a number on. Building a valuation from a range that spans 2x on the royalty rate and an invented peak-sales figure would be manufacturing precision, and the difference between the ends of those ranges is larger than the entire disagreement I would be trying to adjudicate.</li><li>Left unresolved: Whether $8.2B of enterprise value is right, which is the actual question. I have not answered it — I have established only that the engine&#x27;s method cannot answer it and that I lack the inputs to answer it another way. That is a limitation of this session, not a conclusion about the stock.</li></ul><p><strong>Key risks.</strong> MIMRYLO commercial uptake is entirely in Takeda&#x27;s hands; Protagonist has no control over launch execution and no other lever; Polycythemia vera is a chronic, relatively small indication and phlebotomy is free — payer resistance to a priced alternative is the central commercial question; Icotrokinra faces a crowded psoriasis market; the 6-10% royalty tier is thin, and the value depends on the Phase 3 read-outs in PsA, UC and Crohn&#x27;s; The equity has run 135% over 252 sessions and 45% over 63; much of the royalty value is already in the price; Stock compensation is 67% of the reported FCFF base, so any cash-flow-based screen of this name is structurally misleading <strong>Watch for.</strong> First two quarters of MIMRYLO sales reported by Takeda — the only observable that converts the royalty from an option into a stream; Receipt and confirmation of the $200M second opt-out fee and the $75M approval milestone; Phase 3 read-outs for icotrokinra in psoriatic arthritis, ulcerative colitis and Crohn&#x27;s disease; Any disclosure of the royalty tier breakpoints, which would make the stream modellable</p><p><strong>Data quality.</strong> All five flags are real and together they disqualify the model rather than merely qualifying it. The FCFF base of $56.5M is the mean of $56.1M, $182.8M and -$70.8M — a 4.5x spread around the mean, flagged as lumpy, with a negative year in the window, and the lumpiness is not noise: those are milestone and collaboration receipts landing in whichever quarter a partner signed something. Stock compensation is 67% of that base, so expensing it cuts FCFF to $18.9M and lifts required growth from 74.3% to 100%; the fact that the answer moves that far on an accounting choice is itself evidence the base is not an economic quantity. Beta was correctly defaulted to 1.0 on an R-squared of 0.011, and the cost of debt is flagged speculative at 0% debt weight. Compounding a milestone stream at any rate produces a number with no meaning, which is why I have left final_growth null rather than supplying one the engine would price. I resolved none of these by primary source — SEC egress is blocked from this runtime, so every fact above including the 2026-08-28 approval comes from secondary sources. Conviction is medium and it attaches to the claim that this name is unmodellable by this method, not to any view on the price.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/protagonist-reports-second-quarter-2026-financial-results-and-provide-1202122" rel="noopener">https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/protagonist-reports-second-quarter-2026-financial-results-and-provide-1202122</a></li><li><a href="https://www.takeda.com/en-us/newsroom/news-releases/2026/fda-approval-mimrylo/" rel="noopener">https://www.takeda.com/en-us/newsroom/news-releases/2026/fda-approval-mimrylo/</a></li><li><a href="https://www.biospace.com/press-releases/takeda-receives-u-s-fda-approval-of-mimrylo-rusfertide-marking-a-potential-shift-in-the-treatment-paradigm-for-polycythemia-vera" rel="noopener">https://www.biospace.com/press-releases/takeda-receives-u-s-fda-approval-of-mimrylo-rusfertide-marking-a-potential-shift-in-the-treatment-paradigm-for-polycythemia-vera</a></li><li><a href="https://www.cancernetwork.com/view/fda-approves-rusfertide-in-polycythemia-vera" rel="noopener">https://www.cancernetwork.com/view/fda-approves-rusfertide-in-polycythemia-vera</a></li><li><a href="https://finance.yahoo.com/sectors/healthcare/articles/protagonist-reports-first-quarter-2026-200500536.html" rel="noopener">https://finance.yahoo.com/sectors/healthcare/articles/protagonist-reports-first-quarter-2026-200500536.html</a></li><li><a href="https://www.stocktitan.net/sec-filings/PTGX/10-q-protagonist-therapeutics-inc-quarterly-earnings-report-5021c0c23cd7.html" rel="noopener">https://www.stocktitan.net/sec-filings/PTGX/10-q-protagonist-therapeutics-inc-quarterly-earnings-report-5021c0c23cd7.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/PTGX.md'>research/Health Care/PTGX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

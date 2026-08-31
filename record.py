@@ -184,6 +184,10 @@ def record_one(ticker, raw, screen_row, rf, today=None):
                "devils_advocate": obj.get("devils_advocate"),
                "what_changed": obj.get("what_changed"),
                "consensus_case": obj.get("consensus_case"),
+               # the actual argument for the number. It was only ever written to the
+               # markdown log, so the machine-readable verdict — the thing the dashboard
+               # and the retrospective read — carried everything EXCEPT the reasoning.
+               "base_case_rationale": obj.get("base_case_rationale"),
                "key_risks": obj.get("key_risks"), "watch_for": obj.get("watch_for"),
                "sources": obj.get("sources"), "flags": screen_row.get("flags", [])}
     vdir = config.DATA / "verdicts"

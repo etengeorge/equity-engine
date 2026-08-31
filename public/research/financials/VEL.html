@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>VEL — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / VEL</p><h1>VEL <span style='color:var(--faint);font-weight:400'>VELOCITY FINANCIAL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$18.01</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>VEL — VELOCITY FINANCIAL INC</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $18.01</li></ul><p><strong>The case for the price.</strong> Velocity originates and holds small-balance investor real-estate loans — business-purpose lending to landlords and small commercial owners, a segment banks largely exited. It is a spread book: the portfolio reached $7.0B of UPB in Q2 2026, up 19% year over year, NIM held above target at 3.66%, and core pre-tax ROE was 21.8%. Diluted book value per share compounded 18% year over year to $18.43. At $18.01 the market is paying roughly one times tangible book — which is exactly what the market has always paid for a levered, non-bank, non-prime real-estate lender, no matter how good the reported ROE looks, because the equity is a thin slice under a lot of securitised debt and the loss content of the book is only revealed in a downturn. Non-performing loans at 9.6% are the reason: they are improving, but a book with near-double-digit NPLs does not get a franchise multiple.</p><p><strong>What changed.</strong> Two things since the last 10-K. Q2 2026 (reported 2026-08-05): portfolio $7.0B UPB (+19% YoY), NIM 3.66%, core pre-tax ROE 21.8%, diluted BVPS $18.43 (+18% YoY, +3.8% sequentially), adjusted diluted BVPS $20.59, NPLs improved to 9.6%, net income $25.2M. Then, materially, on 2026-08-26 Velocity Commercial Capital signed an Equity Purchase Agreement to acquire the operating platform of Toorak Capital (KKR-backed, ~280 employees, Tampa), disclosed 2026-08-27 in an 8-K under items 1.01/7.01. Reported as an all-cash purchase of the platform, with roughly $3B UPB of Toorak loans being sold to a third-party investment firm that Velocity will then manage, plus forward-flow arrangements to sell future Toorak originations. Toorak&#x27;s founder-CEO John Beacham stays and becomes an EVP of Velocity Commercial Capital. Expected to close in Q4 2026.</p><p><strong>Base case.</strong> Sustainable ROTCE, not FCFF growth, is the operative number here, and I put it at roughly 14% — essentially where the screen has it (13.8%), and I did not need to move it. Three years of net income ($105.1M, $68.4M, $52.3M) against tangible equity averaging out to a 13-14% return is a consistent, unglamorous spread return, and the 21.8% figure management quotes is a core PRE-TAX return on equity, which is not the same measure and should not be substituted for it. Where I differ sharply from the screen is not the return but the discount rate applied to it: at the model&#x27;s 6.5% cost of equity the justified multiple is 2.82x tangible book, and that is the entire source of the +163.7% gap.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to my dismissal is that the cost of equity is not obviously wrong just because it is low, and that even at a defensible 11-13% cost of equity the justified multiple is 1.1-1.3x tangible book against an actual multiple near 1.0x — a real if unspectacular discount — and that the Toorak deal is a genuine re-rating mechanism I am waving away. Buying an origination and asset-management platform while a third party takes the balance-sheet risk converts part of Velocity&#x27;s earnings from spread income (which deserves a book multiple) into fee and servicing income (which deserves an earnings multiple). If that mix shift is real, the right comparison is not price-to-book at all, and the stock is cheap.</li><li>What would prove it: The purchase price and funding of the Toorak platform, and the disclosed run-rate fee and servicing revenue it carries. If Velocity is paying a modest cash sum for a platform that adds durable capital-light fee income, the counter wins. If it is paying up, or funding it with equity, or if the &#x27;management&#x27; arrangement is thin-margin subservicing, it does not. The Q3 or Q4 2026 filings and the closing 8-K will say.</li><li>Already visible today: Not yet, and that is the point. The deal was announced four days before this brief and the platform purchase price was not in any source I could reach; the widely repeated &#x27;$3.2 billion&#x27; figure refers to the portfolio changing hands, not to what Velocity is paying. The market&#x27;s own reaction is close to nil — the stock is -1.8% over five sessions — which is either the market ignoring it or the market judging it immaterial to Velocity&#x27;s equity. I cannot tell which.</li><li>Left unresolved: The purchase price, the funding, and whether Velocity&#x27;s balance sheet takes any of the Toorak credit. Also unresolved: whether 9.6% NPLs on investor real-estate loans are, as management frames them, low-LTV positions that resolve at or near par, or the leading edge of a credit cycle. I could not read the 10-Q.</li></ul><p><strong>Key risks.</strong> The headline gap is a discount-rate artifact, not a mispricing — anyone acting on the 97th-percentile cohort rank is acting on a 6.5% cost of equity for a levered non-prime lender; Toorak integration: 280 employees, a founder-CEO retained, and an undisclosed price, closing into Q4 2026; 9.6% non-performing loans; investor real-estate credit is the first thing to crack if small-landlord cash flows deteriorate; Securitisation market access is the funding model — a closed ABS window is an existential rather than a cyclical problem; $1.8M average daily dollar volume: a $711M company that cannot be traded in size <strong>Watch for.</strong> The Toorak closing 8-K with purchase price, funding source and the acquired platform&#x27;s revenue; Q3 2026 NPLs — a reversal of the improvement to 9.6% would break the ROTCE assumption; Any equity raise to fund the acquisition, which would change the per-share arithmetic entirely</p><p><strong>Data quality.</strong> The screen raised NO flags on this name, and it should have raised one. The +163.7% gap is almost entirely produced by a 6.5% cost of equity, which comes from a measured beta of 0.33 against IWM with an R-squared of 0.072. That R-squared clears the 0.04 reliability gate in config, and 0.33 clears the 0.30 clamp floor, so nothing fired — but a regression explaining 7% of variance on a stock trading $1.8M a day is measuring stale pricing, not risk. Substituting a defensible 11-13% cost of equity collapses the justified multiple from 2.82x to 1.1-1.3x tangible book against an actual ~1.0x. Separately, the tangible book per share of $16.86 is derived from FY2025 equity ($672.5M less $6.8M goodwill) divided by a July 2026 share count; the company reported $18.43 diluted BVPS at Q2 2026, so the model is pricing today&#x27;s share count against a book value two quarters stale in a business compounding book at 18% a year. That understates tangible book and makes the actual P/TBV of 1.07 look higher than the ~1.0x it really is — a small effect that happens to run against the gap, but the mismatch is the same class of error as the stale-share-count bug already documented in CLAUDE.md, pointing the other way. I resolved neither by primary source: SEC egress is blocked from this runtime and I read no filing for this name.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.businesswire.com/news/home/20260805328428/en/Velocity-Financial-Inc.-Reports-Second-Quarter-2026-Results" rel="noopener">https://www.businesswire.com/news/home/20260805328428/en/Velocity-Financial-Inc.-Reports-Second-Quarter-2026-Results</a></li><li><a href="https://www.investing.com/news/company-news/velocity-financial-q2-2026-slides-book-value-up-18-as-portfolio-hits-7b-93CH-4839640" rel="noopener">https://www.investing.com/news/company-news/velocity-financial-q2-2026-slides-book-value-up-18-as-portfolio-hits-7b-93CH-4839640</a></li><li><a href="https://www.housingwire.com/articles/velocity-toorak-acquisition-rtl-bpl/" rel="noopener">https://www.housingwire.com/articles/velocity-toorak-acquisition-rtl-bpl/</a></li><li><a href="https://www.stocktitan.net/news/VEL/velocity-enters-into-agreements-to-acquire-toorak-s-operating-yig1tfekvvdr.html" rel="noopener">https://www.stocktitan.net/news/VEL/velocity-enters-into-agreements-to-acquire-toorak-s-operating-yig1tfekvvdr.html</a></li><li><a href="https://www.connectcre.com/stories/velocity-financial-to-acquire-toorak-operating-platform-manage-3b-loan-portfolio/" rel="noopener">https://www.connectcre.com/stories/velocity-financial-to-acquire-toorak-operating-platform-manage-3b-loan-portfolio/</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 1692376, fetched 2026-08-30)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/VEL.md'>research/Financials/VEL.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

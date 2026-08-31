@@ -124,8 +124,10 @@ def cmd_site(args):
     sc = _screen()
     p = config.DATA / "picks.json"
     picks = json.loads(p.read_text())["picks"] if p.exists() else []
-    out = dashboard.build(sc, picks, _verdicts())
-    print(f"[site] wrote {out} ({out.stat().st_size:,} bytes)")
+    out, written = dashboard.build(sc, picks, _verdicts())
+    total = sum(p.stat().st_size for p in written)
+    print(f"[site] wrote {len(written)} pages, {total:,} bytes")
+    print(f"[site] {out} ({out.stat().st_size:,} bytes) + {len(written)-1} under research/")
 
 
 def cmd_status(args):

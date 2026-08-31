@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>IDCC — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / IDCC</p><h1>IDCC <span style='color:var(--faint);font-weight:400'>INTERDIGITAL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-fair'>fair</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$335.15</b></div><div>Analyst gap<b>-12%</b></div><div>Dated<b>2026-08-31</b></div></div><div class='prose'><h1>IDCC — INTERDIGITAL INC</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-08-31 — FAIR (conviction: low)</h2><ul><li><strong>Verdict:</strong> fair · price $335.15 · fair value $296.08 · gap -11.7%</li><li><strong>Growth:</strong> market implies +8.2%, analyst says +5.0% (delta -3.2%)</li></ul><p><strong>The case for the price.</strong> InterDigital licenses a wireless and video patent portfolio, and after a decade of litigation it has converted the hard cases into contracts. Q2 2026 revenue of $260.2M beat the $139-143M guidance range by 82% on a new Amazon licence covering devices and Prime Video that resolved all pending litigation between them, plus catch-up revenue. Adjusted EBITDA was $184.1M and non-GAAP EPS $4.62. Management raised full-year 2026 guidance by $85M at the midpoint to $775-845M of revenue, $469-529M of adjusted EBITDA and $10.85-12.81 of non-GAAP EPS. Annualised recurring revenue hit a record $626M, up 13%. The bull case is straightforward: this is a ~60% EBITDA-margin business with almost no capital intensity, $739M of cash against $475M of debt, a recurring base compounding at a double-digit rate, and an unlitigated runway into streaming, cloud, consumer electronics and automotive. Paying 8.6% WACC for that stream and asking it to grow 8.2% is not an aggressive ask for a business that just grew ARR 13%.</p><p><strong>What changed.</strong> Q2 2026 (2026-07-30): revenue $260.2M against $139-143M guided, adjusted EBITDA $184.1M, non-GAAP EPS $4.62, ARR a record $626M (+13% YoY) driven by the new Amazon agreement and fintech IoT deals plus growth in streaming and cloud. Full-year 2026 guidance raised to $775-845M revenue, $469-529M adjusted EBITDA, $10.85-12.81 non-GAAP EPS. The Amazon licence covers devices and Prime Video with final terms to be set by arbitration, and it resolved all pending litigation between the parties. Nothing else material found since the 2026-02-05 10-K; I found no management change, no adverse ruling and no guidance withdrawal.</p><p><strong>Base case.</strong> I assume 5% FCFF growth over five years, and I take that from the company&#x27;s own long-range plan rather than from its recent revenue line. InterDigital&#x27;s stated 2030 targets, set in September 2024 and reaffirmed since, are more than $1B of annual RECURRING revenue and $600M of adjusted EBITDA on TOTAL revenue of more than $800M. That last number is the one that matters and it is easy to miss: 2026 guidance already puts total revenue at $810M at the midpoint, so management&#x27;s own 2030 plan implies total revenue roughly flat for four years, with the growth in ARR ($626M to $1B) being offset by the run-off of catch-up and one-time settlement revenue. Adjusted EBITDA going from about $500M in 2026 to $600M in 2030 is a 4.7% CAGR, and with capex under $16M a year and no margin lever left to pull at a 60% target margin, FCFF should track it closely. The composition is credible — smartphone ARR held near $500M, consumer electronics/IoT/automotive from $75M to about $200M, streaming and cloud from $60M to over $300M — but it is a mix shift inside a flat total, not compounding. Five percent is management&#x27;s plan with a small allowance for beating it. Where I differ hardest from the screen is the naive baseline of +18.4%: that is a five-year revenue CAGR measured across the step change from the Samsung and Lenovo resolutions, which was a one-time re-basing of the licence book, not a growth rate that can repeat.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to my &#x27;fairly valued&#x27; answer is that I am underwriting management&#x27;s own 2030 total-revenue target as a ceiling when it has functioned as a floor, and that the FCFF base I am growing is too low. The three-year mean of $369M sits well under the $528.6M this business generated in 2025 and under what a 2026 delivering roughly $500M of adjusted EBITDA on sub-$16M capex will produce. If catch-up revenue does not run off — if every new licensing cycle keeps producing Amazon-sized retroactive settlements, which is what has actually happened for several years running — then total revenue does not stay flat, and 8.2% is not a demanding hurdle at all. The 84th-percentile cohort rank is telling me the market is not paying for this.</li><li>What would prove it: The split between recurring and catch-up revenue over the next four to six quarters, and whether ARR keeps compounding above 10% once the Amazon and fintech deals anniversary. If ARR passes $700M during 2027 while total revenue holds above $800M, catch-up is not running off and my base case is too low.</li><li>Already visible today: Partly, and it cuts against me. The Q2 beat WAS an 82% beat, and the pattern of large retroactive settlements has now repeated across Samsung, Lenovo, Disney and Amazon. Against that, the extract shows total revenue already going backwards — $868.5M in 2024 to $834.0M in 2025 — which is precisely the flat-to-declining total the 2030 plan describes, and is the single strongest piece of evidence that the recurring growth is being offset rather than added to.</li><li>Left unresolved: The Amazon licence terms are being set by arbitration, so the revenue recognised on it is an estimate against an unsettled outcome, and I do not know the range or the timing. I also could not read the 10-Q or the 10-K, so I could not see the recurring/non-recurring revenue split directly and am relying on management&#x27;s ARR disclosure via secondary sources. Both matter to the central question.</li></ul><p><strong>Key risks.</strong> Amazon licence economics are unresolved pending arbitration; the revenue booked is an estimate; Patent licensing is inherently binary at the edges — an adverse validity or FRAND ruling in any major jurisdiction reprices the book; Total revenue has already declined year over year ($868.5M in 2024 to $834.0M in 2025) even as ARR grew; the growth is a mix shift inside a flat total; The 2030 plan requires streaming and cloud ARR to go from $60M to over $300M — a fivefold increase in the least proven vertical; The stock has already re-rated 33% over 63 sessions and 25% over 252 <strong>Watch for.</strong> The recurring versus catch-up revenue split in the Q3 and Q4 2026 disclosures; Resolution of the Amazon arbitration and the final licence terms; ARR passing $700M, which would mean catch-up is not running off and my base case is too conservative; Any 2027 guidance that implies total revenue meaningfully above the $800M 2030 target</p><p><strong>Data quality.</strong> The one flag — possible peak-cycle base, newest FCF 2.5x oldest — I checked and it does NOT hold in the direction the flag implies. The FCF series is $528.6M / $265.7M / $209.5M and the 2.5x spread is real, but the $369M three-year mean is not a peak: 2026 guidance of $469-529M of adjusted EBITDA against capex that has run $15.9M / $5.8M / $4.3M implies current-year FCFF well above $369M, and the $626M ARR at roughly 60% margins implies a recurring FCFF run-rate of about $375M on its own. So the base approximates the recurring run-rate rather than overstating it, and the flag is a false positive here. The real distortion sits in the naive baseline instead: +18.4% is a five-year revenue CAGR spanning the one-time step from $549.6M (2023) to $868.5M (2024) as the big licence disputes resolved, and applying it to FCFF produces the +46.2% gap and the 84th-percentile cohort rank. That rank should not be read as signal. Stock compensation is 12% of the base; I am underwriting the reported treatment, and expensing it would raise the required growth from 8.2% to 11.1%, which pushes further against the cheap case rather than toward it. Share count of 25,806,007 as of 2026-07-28 is current. I read no primary filing: SEC egress is blocked from this runtime.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.globenewswire.com/news-release/2026/07/30/3336039/24691/en/InterDigital-Announces-Financial-Results-for-Second-Quarter-2026.html" rel="noopener">https://www.globenewswire.com/news-release/2026/07/30/3336039/24691/en/InterDigital-Announces-Financial-Results-for-Second-Quarter-2026.html</a></li><li><a href="https://www.investing.com/news/company-news/interdigital-q2-2026-slides-revenue-beats-guidance-by-82-arr-hits-record-93CH-4825514" rel="noopener">https://www.investing.com/news/company-news/interdigital-q2-2026-slides-revenue-beats-guidance-by-82-arr-hits-record-93CH-4825514</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/07/30/interdigital-idcc-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/07/30/interdigital-idcc-q2-2026-earnings-call-transcript/</a></li><li><a href="https://ir.interdigital.com/news-events/press-releases/news-details/2024/InterDigital-Announces-Annual-Recurring-Revenue-Target-Of-1-Billion-By-2030/default.aspx" rel="noopener">https://ir.interdigital.com/news-events/press-releases/news-details/2024/InterDigital-Announces-Annual-Recurring-Revenue-Target-Of-1-Billion-By-2030/default.aspx</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/interdigital-maps-path-1b-recurring-010515410.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/interdigital-maps-path-1b-recurring-010515410.html</a></li><li>data/fundamentals.json (committed EDGAR extract, CIK 1405495, fetched 2026-08-30)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/IDCC.md'>research/Information Technology/IDCC.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
