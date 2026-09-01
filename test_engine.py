@@ -551,6 +551,101 @@ def test_duration_facts_are_not_read_as_instants():
     check("a fact with a start date is skipped", val == 500_000_000, val)
 
 
+def test_exhibit_type_comes_from_the_sgml_headers_not_the_directory_listing():
+    """The directory index.json has a `type` field that looks like the obvious source for
+    the exhibit type. It is not — it carries the ICON NAME used to draw the listing page,
+    and every entry reads "text.gif". Filtering it for EX-99 matched nothing, so
+    exhibits_for returned an empty list for EVERY company while appearing to work. The
+    analyst noticed on 2026-09-01 ("no EX-99 for any of today's ten names").
+
+    Fixture is the real ANF 8-K header, captured via the adhoc-fetch workflow.
+    """
+    import edgar
+    headers = (
+        "<SEC-DOCUMENT>0001018840-26-000041-index.html : 20260826\n"
+        "<SEC-HEADER>0001018840-26-000041.hdr.sgml : 20260826\n"
+        "CONFORMED SUBMISSION TYPE: 8-K\n"
+        "<DOCUMENT>\n<TYPE>8-K\n<SEQUENCE>1\n<FILENAME>anf-20260826.htm\n"
+        "<DESCRIPTION>8-K\n"
+        "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>q22026pressrelease.htm\n"
+        "<DESCRIPTION>EX-99.1\n"
+        "<DOCUMENT>\n<TYPE>EX-101.SCH\n<SEQUENCE>3\n<FILENAME>anf-20260826.xsd\n"
+        "<DESCRIPTION>XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT\n")
+    real_get, seen = edgar._get, []
+
+    def fake_get(url, binary=False):
+        seen.append(url)
+        return headers
+
+    edgar._get = fake_get
+    try:
+        docs = edgar.filing_documents(1018840, "0001018840-26-000041")
+    finally:
+        edgar._get = real_get
+
+    check("it reads the headers file, not the directory listing",
+          seen and seen[0].endswith("-index-headers.html"), seen)
+    check("the directory index.json is not fetched at all",
+          not any(u.endswith("/index.json") for u in seen), seen)
+    check("the undashed accession is used for the directory path",
+          "/000101884026000041/" in seen[0], seen[0])
+    check("the dashed accession is used for the filename",
+          "0001018840-26-000041-index-headers" in seen[0], seen[0])
+    types = {d["type"] for d in docs}
+    check("three documents are parsed", len(docs) == 3, len(docs))
+    check("the real exhibit type is recovered", "EX-99.1" in types, types)
+    check("no document is typed from an icon name",
+          "TEXT.GIF" not in types, types)
+    ex = next(d for d in docs if d["type"] == "EX-99.1")
+    check("the exhibit filename is captured",
+          ex["name"] == "q22026pressrelease.htm", ex["name"])
+    check("the exhibit URL is built from the undashed directory",
+          ex["url"].endswith("/000101884026000041/q22026pressrelease.htm"), ex["url"])
+    check("XBRL exhibits do not masquerade as EX-99",
+          not any(d["type"].startswith("EX-99") for d in docs
+                  if d["type"].startswith("EX-101")), types)
+    check("a malformed accession returns nothing rather than a bad URL",
+          edgar.filing_documents(1018840, "nonsense") == [])
+
+
+def test_exhibits_for_returns_the_deck_now_that_types_resolve():
+    """The end of the same bug: exhibits_for filtered on a type that never matched, so
+    every brief printed "no EX-99 exhibits filed" regardless of what the company filed.
+    ANF filed its Q2 press release as EX-99.1 on 2026-08-26 and the brief said nothing."""
+    import edgar
+    real_fwi, real_fd = edgar.filings_with_items, edgar.filing_documents
+    edgar.filings_with_items = lambda cik, **kw: [{
+        "form": "8-K", "filed": "2026-08-26", "accession": "0001018840-26-000041",
+        "items": ["2.02", "9.01"],
+        "item_labels": ["results of operations", "9.01"],
+        "url": "https://example.com/8k"}]
+    edgar.filing_documents = lambda cik, acc: [
+        {"name": "anf-20260826.htm", "type": "8-K", "description": "8-K",
+         "url": "https://example.com/anf-20260826.htm"},
+        {"name": "q22026pressrelease.htm", "type": "EX-99.1", "description": "EX-99.1",
+         "url": "https://example.com/q22026pressrelease.htm"},
+        {"name": "deck.pdf", "type": "EX-99.2", "description": "Investor presentation",
+         "url": "https://example.com/deck.pdf"},
+        {"name": "anf-20260826.xsd", "type": "EX-101.SCH", "description": "XBRL",
+         "url": "https://example.com/anf.xsd"}]
+    try:
+        ex = edgar.exhibits_for(1018840)
+    finally:
+        edgar.filings_with_items, edgar.filing_documents = real_fwi, real_fd
+
+    check("exhibits are found at all", len(ex) == 2, len(ex))
+    kinds = {e["exhibit"]: e["kind"] for e in ex}
+    check("EX-99.1 is classified as the press release",
+          kinds.get("EX-99.1") == "press release", kinds)
+    check("EX-99.2 is classified as the presentation",
+          kinds.get("EX-99.2") == "presentation", kinds)
+    check("the primary 8-K document is not returned as an exhibit",
+          "8-K" not in kinds, kinds)
+    check("XBRL schema exhibits are excluded", "EX-101.SCH" not in kinds, kinds)
+    check("the filing's item codes ride along for context",
+          "2.02" in ex[0]["items"], ex[0])
+
+
 def test_extract_version_invalidates_a_stale_cache_shape():
     """A cached extract stays valid for 30 days. Adding a field without bumping the
     version means the new field reads as missing for a month on every company."""

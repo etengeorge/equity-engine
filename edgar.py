@@ -5,7 +5,7 @@ Two entry points matter:
   recent_8k_ciks(days) -> set of CIKs that filed an 8-K lately, from the daily index
                           (5 requests for the whole market, not 1,956)
 """
-import json, time, datetime as dt, urllib.request, urllib.error
+import json, re, time, datetime as dt, urllib.request, urllib.error
 import config
 
 _last_call = [0.0]
@@ -464,30 +464,64 @@ MATERIAL_8K_ITEMS = {
 }
 
 
-def filing_documents(cik, accession):
-    """Every document inside one filing, from its index.json.
+def _accession_forms(accession):
+    """EDGAR uses both spellings of an accession number in the same filing's URLs:
+    the DIRECTORY is undashed, the files inside it are dashed."""
+    plain = re.sub(r"\D", "", str(accession))
+    if len(plain) != 18:
+        return None, None
+    return plain, f"{plain[:10]}-{plain[10:12]}-{plain[12:]}"
 
-    `accession` may be dashed or not. Returns dicts with the exhibit type as EDGAR
-    labels it (EX-99.1, EX-99.2, ...), which is what lets the caller pick the deck out
-    of a filing that also contains a cover page and a press release.
+
+# One <DOCUMENT> block per file in the submission. The fields are SGML, not XML: each
+# is a bare tag followed by its value to end of line, with no closing tag.
+_DOC_SPLIT = re.compile(r"<DOCUMENT>", re.I)
+
+
+def _sgml_field(block, tag):
+    m = re.search(rf"<{tag}>([^\r\n<]*)", block, re.I)
+    return m.group(1).strip() if m else ""
+
+
+def filing_documents(cik, accession):
+    """Every document inside one filing, with the exhibit type EDGAR actually assigned.
+
+    Read from `<accession>-index-headers.html`, NOT from the directory `index.json`.
+    That distinction is the whole function: the directory listing has a `type` field, it
+    looks like the obvious source, and it is not — it carries the ICON NAME used to draw
+    the listing page. Every single entry reads "text.gif". Filtering it for "EX-99"
+    matched nothing, so `exhibits_for` returned an empty list for every company in the
+    universe while looking like it worked.
+
+    The headers file is SGML and carries the real mapping:
+
+        <DOCUMENT>
+        <TYPE>EX-99.1
+        <SEQUENCE>2
+        <FILENAME>q22026pressrelease.htm
+        <DESCRIPTION>EX-99.1
+
+    `accession` may be dashed or not.
     """
-    acc = str(accession).replace("-", "")
-    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/index.json"
+    plain, dashed = _accession_forms(accession)
+    if not plain:
+        return []
+    base = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{plain}"
     try:
-        blob = json.loads(_get(url))
+        body = _get(f"{base}/{dashed}-index-headers.html")
     except Exception:
         return []
     out = []
-    for item in blob.get("directory", {}).get("item", []):
-        name = item.get("name", "")
-        if not name.lower().endswith((".htm", ".html", ".txt", ".pdf")):
+    for block in _DOC_SPLIT.split(body)[1:]:
+        name = _sgml_field(block, "FILENAME")
+        if not name:
             continue
         out.append({
             "name": name,
-            "type": (item.get("type") or "").upper(),
-            "description": item.get("description") or "",
-            "size": item.get("size"),
-            "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{name}",
+            "type": _sgml_field(block, "TYPE").upper(),
+            "description": _sgml_field(block, "DESCRIPTION"),
+            "sequence": _sgml_field(block, "SEQUENCE"),
+            "url": f"{base}/{name}",
         })
     return out
 
