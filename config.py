@@ -32,8 +32,16 @@ IMPLIED_GROWTH_BOUNDS = (-0.50, 1.00)
 # ~300bp and understated a biotech's by ~130bp. The sector median is free, uses data
 # already in hand, and is measured on the same benchmark and lookback as every other
 # beta here — which an externally sourced beta would not be.
-BETA_FALLBACK = "sector_median"     # "sector_median" | "one"
+# Tried in order once the regression fails. "yahoo" is company-specific but measured
+# against a different index on a different frequency, so it is rescaled (see
+# prices.yahoo_betas) rather than mixed in raw; "sector_median" is measured exactly the
+# way our own betas are but is not specific to the company. Company-specific first.
+BETA_FALLBACK_ORDER = ("yahoo", "sector_median")
+BETA_FALLBACK = "sector_median"     # kept for the last step of the chain
 BETA_SECTOR_MIN_NAMES = 8           # below this the median is not meaningful -> use 1.0
+BETA_YAHOO_MAX_LOOKUPS = 400        # one request each, only for names the regression lost
+BETA_YAHOO_BUDGET_SECONDS = 240     # hard stop so a slow Yahoo cannot eat the job
+BETA_SPX = "^GSPC"                  # Yahoo quotes beta against this; we discount vs IWM
 
 # --- multiples: the second opinion, and the only one for cash-burning names ----
 # A two-stage DCF cannot value negative cash flow, but "unmodellable" and "worthless"

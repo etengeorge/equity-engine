@@ -89,12 +89,22 @@ $143 against a $96 price. That spread — not the point estimate — is the hone
 of this model, and printing it is what stops a single fair value from claiming precision
 it does not have.
 
-**Beta falls back to the sector median, not to 1.0.** 286 of 1,956 names fail the R²
-gate. A flat 1.0 was wrong at both ends of this universe — utilities regress to a 0.44
-median and health care to 1.24 — so it overstated a utility's cost of equity by roughly
-300bp. The median is computed from this same universe, on the same benchmark and window,
-which is what makes it comparable to the betas it replaces. `beta_source` records which
-was used.
+**Beta has a three-step fallback, and every step records where it came from.** 286 of
+1,956 names fail the R² gate. The chain is: our own regression (IWM, 104 weekly returns)
+→ Yahoo's published beta, rescaled → the median of the name's own sector → 1.0.
+`beta_source` says which was used, and a working regression is never overridden.
+
+Yahoo's beta is measured against the S&P 500 on five years of monthly returns, so it is
+NOT interchangeable with ours. IWM is itself high-beta against the S&P, which makes a
+small cap's SPX beta systematically higher than its IWM beta — using it raw would inflate
+the cost of equity on exactly the names that are already least certain. `prices.yahoo_betas`
+divides by beta(IWM vs ^GSPC), measured from the same downloaded history by the same
+regression, so the result lands on the same convention as everything else; without a
+plausible scalar it returns the raw figure and labels it `yahoo_raw` rather than
+pretending. A flat 1.0 was wrong at both ends of this universe — utilities regress to a
+0.44 median and health care to 1.24 — so it overstated a utility's cost of equity by
+roughly 300bp. Yahoo-sourced betas carry no R² and are deliberately excluded from the
+sector medians, so the last fallback stays built only on regressions we ran ourselves.
 
 `research/LESSONS.md` holds standing priors about how these theses fail, carried forward
 from the previous engine and read by the analyst before every session.

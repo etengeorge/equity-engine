@@ -582,6 +582,59 @@ def test_beta_falls_back_to_the_sector_median():
     check("beta_source says regression", good["beta_source"] == "regression")
 
 
+def test_yahoo_beta_is_rescaled_onto_the_iwm_convention():
+    """Yahoo publishes beta against the S&P 500 on 5y monthly returns; every beta here is
+    against IWM on 104 weekly returns, and the discount rate assumes the IWM convention.
+    IWM is itself high-beta vs the S&P, so a small cap's SPX beta is systematically HIGHER
+    than its IWM beta — using it raw would inflate the cost of equity on exactly the names
+    that are already the most uncertain."""
+    import prices, types, sys
+    calls = []
+
+    def fake(sym):
+        calls.append(sym)
+        return {"AAA": 1.44, "BBB": None}.get(sym)
+
+    real = prices.yahoo_beta
+    prices.yahoo_beta = fake
+    try:
+        out = prices.yahoo_betas(["AAA", "BBB"], scale=1.20, pause=0, log=lambda *a: None)
+        check("a name with a Yahoo beta comes back", "AAA" in out, out)
+        check("a name without one is omitted", "BBB" not in out, out)
+        check("the beta is divided by the IWM-vs-SPX scalar",
+              abs(out["AAA"]["beta"] - 1.44 / 1.20) < 1e-9, out["AAA"])
+        check("the raw Yahoo figure is preserved", out["AAA"]["raw"] == 1.44, out["AAA"])
+        check("the source records that it was rescaled",
+              out["AAA"]["source"] == "yahoo_rescaled", out["AAA"])
+
+        raw_only = prices.yahoo_betas(["AAA"], scale=None, pause=0, log=lambda *a: None)
+        check("with no scalar the raw value is used", raw_only["AAA"]["beta"] == 1.44)
+        check("and it is labelled raw, not rescaled",
+              raw_only["AAA"]["source"] == "yahoo_raw", raw_only["AAA"])
+
+        absurd = prices.yahoo_betas(["AAA"], scale=9.0, pause=0, log=lambda *a: None)
+        check("an implausible scalar is rejected rather than applied",
+              absurd["AAA"]["source"] == "yahoo_raw", absurd["AAA"])
+    finally:
+        prices.yahoo_beta = real
+
+
+def test_beta_source_is_carried_not_assumed():
+    """A Yahoo beta must not be reported as though we regressed it."""
+    fund = {"shares": 1e6, "total_debt": 0.0, "ebit": 1e6, "interest_expense": 0.0}
+    w = V.cost_of_capital(fund, 10.0, 1.20, None, 0.045, beta_source="yahoo_rescaled")
+    check("a supplied source survives", w["beta_source"] == "yahoo_rescaled", w["beta_source"])
+    check("the supplied beta is used", w["beta"] == 1.20, w["beta"])
+    w2 = V.cost_of_capital(fund, 10.0, 1.20, None, 0.045)
+    check("an unlabelled beta defaults to regression",
+          w2["beta_source"] == "regression", w2["beta_source"])
+    w3 = V.cost_of_capital(fund, 10.0, None, "no_regression", 0.045,
+                           sector_beta=0.44, beta_source="yahoo_rescaled")
+    check("a missing beta still falls through to the sector median even if a source "
+          "was passed", w3["beta"] == 0.44 and w3["beta_source"] == "sector_median",
+          (w3["beta"], w3["beta_source"]))
+
+
 def test_sector_beta_medians_ignore_unreliable_regressions():
     import screen as S
     uni = [{"ticker": f"U{i}", "sector": "Utilities"} for i in range(10)]
