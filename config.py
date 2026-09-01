@@ -15,15 +15,39 @@ SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "").strip()
 
 # --- valuation ----------------------------------------------------------------
 EXPLICIT_YEARS = 5              # explicit forecast horizon before the terminal value
-TERMINAL_GROWTH = 0.025         # long-run nominal growth; must stay below WACC
+TERMINAL_GROWTH = 0.02          # long-run nominal growth; must stay below WACC
 EQUITY_RISK_PREMIUM = 0.055
-MARGINAL_TAX_RATE = 0.23
+MARGINAL_TAX_RATE = 0.25
 WACC_BAND = 0.01                # +/- band used for the sensitivity triple
 FCFF_YEARS = 3                  # years averaged for the normalized FCFF base
 BETA_LOOKBACK_WEEKS = 104
 BETA_CLAMP = (0.30, 2.50)       # wide: only reject economically absurd point estimates
-BETA_MIN_R2 = 0.04              # below this the regression explains nothing -> use 1.0, flagged
+BETA_MIN_R2 = 0.04              # below this the regression explains nothing -> fall back
 IMPLIED_GROWTH_BOUNDS = (-0.50, 1.00)
+
+# When the beta regression fails (286 of 1,956 names on 2026-08-31), fall back to the
+# MEDIAN beta of that name's own sector, computed from the names in this same universe
+# whose regressions did work. A flat 1.0 was badly wrong at both ends: utilities run a
+# 0.44 median and health care 1.24, so 1.0 overstated a utility's cost of equity by
+# ~300bp and understated a biotech's by ~130bp. The sector median is free, uses data
+# already in hand, and is measured on the same benchmark and lookback as every other
+# beta here — which an externally sourced beta would not be.
+BETA_FALLBACK = "sector_median"     # "sector_median" | "one"
+BETA_SECTOR_MIN_NAMES = 8           # below this the median is not meaningful -> use 1.0
+
+# --- multiples: the second opinion, and the only one for cash-burning names ----
+# A two-stage DCF cannot value negative cash flow, but "unmodellable" and "worthless"
+# are different claims. Where FCFF fails, price the name against what its own sector
+# cohort actually trades at. Reported as a RANGE across the cohort quartiles, never a
+# point estimate, because a comparables valuation is a statement about the cohort.
+MULTIPLE_MIN_COHORT = 8         # a cohort thinner than this cannot define quartiles
+MULTIPLE_METRICS = ("ev_ebitda", "ev_sales", "ev_gross_profit", "p_tbv")
+
+# --- scenarios ----------------------------------------------------------------
+# Every thesis is priced three ways. The analyst supplies bear and bull alongside the
+# base case, so the output is a range with named drivers rather than a single number
+# carrying false precision.
+SCENARIO_WACC_STEPS = (-0.02, -0.01, 0.0, 0.01, 0.02)
 
 # --- screen gates -------------------------------------------------------------
 MIN_MARKET_CAP = 50e6           # below this, price is noise and the float is untradeable

@@ -155,6 +155,13 @@ _ALIASES = {
                                   "OperatingLeaseLiability"],
     "dep_amort": ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization",
                   "DepreciationAmortizationAndAccretionNet"],
+    # Gross profit is the denominator of last resort for a company with no EBITDA. For a
+    # cash-burning business it is far more comparable across a sector than revenue,
+    # because it already nets out cost of sales — the line where business models differ
+    # most. Many filers report it directly; the rest are derived from revenue minus COGS.
+    "gross_profit": ["GrossProfit"],
+    "cogs": ["CostOfGoodsAndServicesSold", "CostOfRevenue", "CostOfGoodsSold",
+             "CostOfServices"],
 }
 
 
@@ -215,6 +222,50 @@ def _latest(facts, key):
     return (vals[0] if vals else None), concept, end
 
 
+# Balance-sheet items are INSTANTS, not annual periods. `_annual` filters to fp == "FY"
+# on an annual-report form, so reading debt or cash through it takes the fiscal-year-end
+# figure and ignores every 10-Q filed since — up to a year of staleness on the two
+# numbers that set enterprise value and the debt weight in WACC.
+#
+# That is not hypothetical. Alkermes drew $1.525B of term loans on 2026-02-12, six weeks
+# after its year end; the screen read $290.7M of debt and reported an enterprise value
+# BELOW market capitalisation for a company carrying $1.8B of debt. Share count already
+# reads from any form for exactly this reason (see _latest_shares); these fields now do
+# the same. The annual SERIES are left alone — those exist for ratio history, where
+# consistent annual periods are the point.
+_INSTANT_KEYS = ("total_debt", "cash", "short_term_investments", "equity", "goodwill",
+                 "intangibles", "preferred", "minority_interest",
+                 "operating_lease_liability")
+
+
+def _latest_instant(facts, key):
+    """Newest reported value for a balance-sheet item, from ANY form including 10-Q.
+
+    Returns (value, concept, end_date, form). Alias choice follows the same recency rule
+    as `_series`: the concept with the newest observation wins, so a company that
+    migrated tags does not hand back a stale one.
+    """
+    best = None
+    for concept in _ALIASES.get(key, []):
+        node = (facts.get("facts", {}).get("us-gaap", {}).get(concept)
+                or facts.get("facts", {}).get("ifrs-full", {}).get(concept)
+                or facts.get("facts", {}).get("dei", {}).get(concept))
+        if node is None:
+            continue
+        for rows in node.get("units", {}).values():
+            for r in rows:
+                end, val = r.get("end"), r.get("val")
+                if not end or not isinstance(val, (int, float)):
+                    continue
+                # An instant fact has no start date. Duration facts (revenue, CFO) do,
+                # and must not be picked up here.
+                if r.get("start"):
+                    continue
+                if best is None or end > best[2]:
+                    best = (val, concept, end, r.get("form"))
+    return best if best else (None, None, None, None)
+
+
 def _latest_shares(facts):
     """Most recent share count, from any form.
 
@@ -251,8 +302,9 @@ def fundamentals(cik):
     sbc, _, _ = _series(f, "sbc", config.FCFF_YEARS)
     ni, _, _ = _series(f, "net_income", 3)
     eq, _, _ = _series(f, "equity", 3)
-    debt_lt, _, _l = _latest(f, "total_debt")
-    debt_cur, _, _ = _latest(f, "debt_current")
+    # Balance sheet from the newest filing of ANY form — see _latest_instant.
+    debt_lt, _, debt_end, debt_form = _latest_instant(f, "total_debt")
+    debt_cur, _, dc_end, _ = _latest_instant(f, "debt_current")
     ebit, ebit_c, _ = _latest(f, "ebit")
     ebit_derived = False
     if not isinstance(ebit, (int, float)):
@@ -266,21 +318,33 @@ def fundamentals(cik):
             ebit = ni_l + tax_l + (i_l if isinstance(i_l, (int, float)) else 0.0)
             ebit_derived = True
     intex, _, _ = _latest(f, "interest_expense")
-    cash, _, _ = _latest(f, "cash")
-    sti, _, _ = _latest(f, "short_term_investments")
+    cash, _, cash_end, cash_form = _latest_instant(f, "cash")
+    sti, _, _, _ = _latest_instant(f, "short_term_investments")
     shares, _, _ = _latest(f, "shares")
     cover = _latest_shares(f)
     shares_asof = shares_src = None
     if cover:
         shares, shares_asof, shares_src = cover[1], cover[0], f"{cover[2]} ({cover[3]})"
-    pref, _, _ = _latest(f, "preferred")
-    minint, _, _ = _latest(f, "minority_interest")
-    olease, _, _ = _latest(f, "operating_lease_liability")
+    pref, _, _, _ = _latest_instant(f, "preferred")
+    minint, _, _, _ = _latest_instant(f, "minority_interest")
+    olease, _, _, _ = _latest_instant(f, "operating_lease_liability")
+    da_s, _, _ = _series(f, "dep_amort", 3)
+    gp_s, _, _ = _series(f, "gross_profit", 3)
+    if not gp_s:
+        # Derived only when both legs are present for the same number of years, so a
+        # short COGS series cannot silently pair with a long revenue series.
+        cogs_s, _, _ = _series(f, "cogs", 3)
+        n = min(len(rev), len(cogs_s))
+        gp_s = [rev[i] - cogs_s[i] for i in range(n)] if n else []
     gw_s, _, _ = _series(f, "goodwill", 3)
     intang_s, _, _ = _series(f, "intangibles", 3)
-    gw = gw_s[0] if gw_s else None
-    intang = intang_s[0] if intang_s else None
+    gw, _, _, _ = _latest_instant(f, "goodwill")
+    intang, _, _, _ = _latest_instant(f, "intangibles")
+    eq_now, _, eq_end, _ = _latest_instant(f, "equity")
     _, _, latest_end = _latest(f, "revenue")
+    # The newest date across the balance-sheet reads, so downstream can say how current
+    # the enterprise value actually is instead of assuming it matches the fiscal year end.
+    bs_asof = max([d for d in (debt_end, dc_end, cash_end, eq_end) if d], default=None)
     return {
         "cik": cik,
         "entity": f.get("entityName"),
@@ -300,12 +364,21 @@ def fundamentals(cik):
         "shares": shares,
         "shares_asof": shares_asof,
         "shares_source": shares_src,
+        # How current the enterprise value and the WACC weights actually are. Before
+        # this, both silently used the fiscal year end no matter how much had happened.
+        "balance_sheet_asof": bs_asof,
+        "balance_sheet_form": debt_form or cash_form,
+        "equity_now": eq_now,
         "goodwill": gw or 0.0,
         "intangibles": intang or 0.0,
         # series so returns can be averaged as RATIOS per year: averaging equity LEVELS
         # across an acquisition (UMBF/Heartland: book 3.5B -> 7.7B) corrupts P/TBV badly
         "goodwill_series": gw_s,
         "intangibles_series": intang_s,
+        # Denominators for the multiples model, which is the only valuation available
+        # for a name whose normalized FCFF is negative.
+        "dep_amort_series": da_s,
+        "gross_profit_series": gp_s,
         "cfo_series": cfo,
         "sbc_series": sbc,
         "capex_series": capex,
@@ -488,6 +561,12 @@ def exhibits_for(cik, days_back=120, max_filings=6):
 # companies whose extract has aged out, not the whole index.
 _STORE = None
 
+# Bump whenever `fundamentals()` starts extracting a field the model depends on.
+# Without this, a cached entry stays valid for FACTS_MAX_AGE_DAYS and a newly added
+# field silently reads as missing for a month — the multiples model would have had no
+# EBITDA or gross profit for any company until the store aged out on its own.
+EXTRACT_VERSION = 2
+
 
 def _store_path():
     return config.DATA / "fundamentals.json"
@@ -521,7 +600,7 @@ def fundamentals_cached(cik, max_age_days=config.FACTS_MAX_AGE_DAYS, discard_raw
     store = load_store()
     key = str(cik)
     hit = store.get(key)
-    if hit and hit.get("fetched_utc"):
+    if hit and hit.get("fetched_utc") and hit.get("v", 1) >= EXTRACT_VERSION:
         try:
             age = (dt.datetime.now(dt.timezone.utc)
                    - dt.datetime.fromisoformat(hit["fetched_utc"])).days
@@ -536,7 +615,7 @@ def fundamentals_cached(cik, max_age_days=config.FACTS_MAX_AGE_DAYS, discard_raw
             return hit["data"], "store_stale"
         raise
     store[key] = {"fetched_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-                  "data": data}
+                  "v": EXTRACT_VERSION, "data": data}
     if discard_raw:
         p = config.CACHE / "facts" / f"{cik:010d}.json"
         if p.exists():

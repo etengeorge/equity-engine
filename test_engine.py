@@ -520,6 +520,203 @@ def test_adhoc_html_to_text():
     check("visible text survives", "Net income rose" in txt, txt)
 
 
+# --- balance sheet recency ---------------------------------------------------
+def test_balance_sheet_reads_the_latest_10q_not_the_10k():
+    """Balance-sheet items are INSTANTS. Reading them through the annual filter took the
+    fiscal-year-end figure and ignored every 10-Q since. Alkermes drew $1.525B of term
+    loans six weeks after its year end; the screen read $290.7M of debt and reported an
+    enterprise value BELOW market cap for a company carrying $1.8B of debt."""
+    import edgar
+    facts = {"facts": {"us-gaap": {"LongTermDebtNoncurrent": {"units": {"USD": [
+        {"fp": "FY", "form": "10-K", "fy": 2025, "end": "2025-12-31", "val": 290_700_000},
+        {"fp": "Q1", "form": "10-Q", "fy": 2026, "end": "2026-03-31", "val": 1_815_700_000},
+    ]}}}}}
+    val, concept, end, form = edgar._latest_instant(facts, "total_debt")
+    check("the newest instant wins over the fiscal year end", val == 1_815_700_000, val)
+    check("the source form is recorded", form == "10-Q", form)
+    check("the as-of date is recorded", end == "2026-03-31", end)
+    old = edgar._latest(facts, "total_debt")[0]
+    check("the annual path still returns the 10-K figure", old == 290_700_000, old)
+
+
+def test_duration_facts_are_not_read_as_instants():
+    """Revenue and cash flow are periods, not points in time. A duration fact carries a
+    `start`; picking one up here would put a quarter's revenue where a balance is."""
+    import edgar
+    facts = {"facts": {"us-gaap": {"CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+        {"start": "2026-01-01", "end": "2026-03-31", "form": "10-Q", "val": 999},
+        {"end": "2026-03-31", "form": "10-Q", "val": 500_000_000},
+    ]}}}}}
+    val, _, _, _ = edgar._latest_instant(facts, "cash")
+    check("a fact with a start date is skipped", val == 500_000_000, val)
+
+
+def test_extract_version_invalidates_a_stale_cache_shape():
+    """A cached extract stays valid for 30 days. Adding a field without bumping the
+    version means the new field reads as missing for a month on every company."""
+    import edgar
+    check("EXTRACT_VERSION is at least 2 now that multiples fields were added",
+          edgar.EXTRACT_VERSION >= 2, edgar.EXTRACT_VERSION)
+    old_entry = {"fetched_utc": "2099-01-01T00:00:00+00:00", "data": {}}   # v1, no key
+    check("a version-less entry is treated as v1",
+          old_entry.get("v", 1) < edgar.EXTRACT_VERSION)
+
+
+# --- beta fallback -----------------------------------------------------------
+def test_beta_falls_back_to_the_sector_median():
+    """A flat 1.0 was wrong at both ends: utilities regress to a 0.44 median and health
+    care to 1.24, so 1.0 overstated a utility's cost of equity by ~300bp."""
+    fund = {"shares": 1e6, "total_debt": 0.0, "ebit": 1e6, "interest_expense": 0.0}
+    w_sector = V.cost_of_capital(fund, 10.0, None, "r2_too_low", 0.045, sector_beta=0.44)
+    w_none = V.cost_of_capital(fund, 10.0, None, "r2_too_low", 0.045, sector_beta=None)
+    check("sector median is used when supplied", w_sector["beta"] == 0.44, w_sector["beta"])
+    check("beta_source names the fallback",
+          w_sector["beta_source"] == "sector_median", w_sector["beta_source"])
+    check("a flag records the substitution",
+          any("sector_median" in f for f in w_sector["flags"]), w_sector["flags"])
+    check("no sector median still falls back to 1.0", w_none["beta"] == 1.0, w_none["beta"])
+    delta = (w_none["cost_of_equity"] - w_sector["cost_of_equity"])
+    check("the difference is material (>250bp on a utility)", delta > 0.025, f"{delta:.4f}")
+    good = V.cost_of_capital(fund, 10.0, 1.30, None, 0.045, sector_beta=0.44)
+    check("a real regression beta is never overridden", good["beta"] == 1.30, good["beta"])
+    check("beta_source says regression", good["beta_source"] == "regression")
+
+
+def test_sector_beta_medians_ignore_unreliable_regressions():
+    import screen as S
+    uni = [{"ticker": f"U{i}", "sector": "Utilities"} for i in range(10)]
+    quotes = {f"U{i}": {"beta": 0.40 + i * 0.01, "beta_r2": 0.20} for i in range(10)}
+    quotes["U0"] = {"beta": 9.0, "beta_r2": 0.001}      # garbage regression, must be excluded
+    med = S.sector_beta_medians(quotes, uni)
+    check("a sector median is produced", "Utilities" in med, med)
+    check("the unreliable beta is excluded from the median",
+          0.4 < med["Utilities"] < 0.6, med.get("Utilities"))
+    thin = S.sector_beta_medians({"A": {"beta": 1.0, "beta_r2": 0.5}},
+                                 [{"ticker": "A", "sector": "Tiny"}])
+    check("a sector with too few names gets no median", "Tiny" not in thin, thin)
+
+
+# --- multiples ---------------------------------------------------------------
+def test_multiples_value_a_cash_burning_name():
+    """A DCF cannot value negative cash flow, but 'unmodellable' and 'worthless' are
+    different claims. The output must be a RANGE from the cohort, never a point."""
+    fund = {"shares": 100e6, "total_debt": 200e6, "cash": 50e6,
+            "short_term_investments": 0.0, "preferred": 0.0, "minority_interest": 0.0,
+            "revenue_series": [400e6], "gross_profit_series": [160e6],
+            "ebit": -50e6, "dep_amort_series": [30e6],
+            "equity_now": 300e6, "goodwill": 0.0, "intangibles": 0.0}
+    cohort = {"ev_sales": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0],
+              "ev_gross_profit": [4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0]}
+    mv = V.multiple_valuation(fund, 20.0, cohort)
+    check("a cash-burning name still gets a valuation", mv.get("ok"), mv.get("flags"))
+    metrics = {r["metric"] for r in mv["rows"]}
+    check("EV/sales is used", "ev_sales" in metrics, metrics)
+    check("negative EBITDA produces no EV/EBITDA row", "ev_ebitda" not in metrics, metrics)
+    check("negative EBITDA is flagged",
+          any("negative_ebitda" in f for f in mv["flags"]), mv["flags"])
+    row = next(r for r in mv["rows"] if r["metric"] == "ev_sales")
+    check("the value is a range, low < mid < high",
+          row["value_low"] < row["value_mid"] < row["value_high"],
+          (row["value_low"], row["value_mid"], row["value_high"]))
+    check("net debt is subtracted from the EV multiple",
+          abs(row["value_mid"] - (row["cohort_median"] * 400e6 - 150e6) / 100e6) < 1e-6,
+          row["value_mid"])
+    thin = V.multiple_valuation(fund, 20.0, {"ev_sales": [1.0, 2.0]})
+    check("a cohort below the minimum produces no valuation", not thin.get("ok"), thin)
+
+
+def test_multiples_skip_negative_denominators():
+    """A negative EV/EBITDA is not a cheap multiple, it is an undefined one."""
+    fund = {"shares": 10e6, "total_debt": 0.0, "cash": 0.0, "short_term_investments": 0.0,
+            "revenue_series": [100e6], "ebit": -80e6, "dep_amort_series": [5e6],
+            "equity_now": -20e6, "goodwill": 0.0, "intangibles": 0.0}
+    obs = V.observed_multiples(fund, 5.0)
+    check("negative EBITDA yields no EV/EBITDA", obs["ev_ebitda"] is None, obs["ev_ebitda"])
+    check("negative tangible equity yields no P/TBV", obs["p_tbv"] is None, obs["p_tbv"])
+    check("positive revenue still yields EV/sales", obs["ev_sales"] is not None)
+
+
+# --- scenarios ---------------------------------------------------------------
+def test_scenario_table_spans_growth_and_discount_rate():
+    """Two variables move a DCF more than anything else. Reporting one cell as 'fair
+    value' hides how much of the answer is the assumption."""
+    fund = {"shares": 10e6, "total_debt": 0.0, "cash": 0.0, "short_term_investments": 0.0,
+            "preferred": 0.0, "minority_interest": 0.0,
+            "cfo_series": [10e6, 10e6, 10e6], "capex_series": [1e6, 1e6, 1e6],
+            "interest_expense": 0.0}
+    w = {"reliable": True, "wacc": 0.10}
+    sc = V.scenario_table(fund, 20.0, w, {"bear": -0.02, "base": 0.04, "bull": 0.09})
+    check("the grid is produced", sc.get("ok"), sc.get("flags"))
+    check("three cases are priced", len(sc["grid"]) == 3, len(sc["grid"]))
+    cases = [r["case"] for r in sc["grid"]]
+    check("cases are ordered bear, base, bull", cases == ["bear", "base", "bull"], cases)
+    bear, base, bull = (r["fair_value_at_point_wacc"] for r in sc["grid"])
+    check("higher growth is worth more", bear < base < bull, (bear, base, bull))
+    first = sc["grid"][0]["cells"]
+    check("a lower discount rate is worth more",
+          first[0]["fair_value"] > first[-1]["fair_value"],
+          (first[0]["fair_value"], first[-1]["fair_value"]))
+    check("upside exceeds downside across the grid",
+          sc["upside"] > sc["downside"], (sc["downside"], sc["upside"]))
+    none_supplied = V.scenario_table(fund, 20.0, w, {"bear": None, "base": None, "bull": None})
+    check("no cases supplied returns not-ok", not none_supplied.get("ok"))
+
+
+# --- the reprice defect that discarded a financial's answer -------------------
+def test_book_names_are_repriced_from_a_sustainable_rotce():
+    """VEL was recorded with final_growth 0.14 — a 14% sustainable ROTCE, exactly what
+    the brief asks a financial's analyst to state — and reprice() logged 'no growth
+    supplied' and threw it away. 400 Financials were unpriceable by construction."""
+    import record as R, json as _json, pathlib
+    sc = _json.loads((config.DATA / "screen.json").read_text())
+    row = next((r for r in sc["rows"] if r["ticker"] == "VEL"), None)
+    if row is None or row.get("method") != "book":
+        check("VEL present in the committed screen as a book name", False, "not found")
+        return
+    obj = R.parse(_json.dumps({"ticker": "VEL", "verdict": "no_edge", "conviction": "low",
+                               "final_growth": 0.14,
+                               "devils_advocate": {"strongest_counter": "x"}}))
+    out = R.reprice(obj, row, sc["risk_free_rate"])
+    check("a book name is now repriced", out.get("ok"), out.get("reason"))
+    check("it uses the justified P/TBV model",
+          out.get("method") == "justified_p_tbv", out.get("method"))
+    check("the analyst's ROTCE is what was priced",
+          abs(out.get("analyst_rotce", 0) - 0.14) < 1e-9, out.get("analyst_rotce"))
+    check("a fair value comes back", out.get("fair_value", 0) > 0, out.get("fair_value"))
+    obj2 = R.parse(_json.dumps({"ticker": "VEL", "verdict": "no_edge", "conviction": "low",
+                                "rotce_override": "14%",
+                                "devils_advocate": {"strongest_counter": "x"}}))
+    check("rotce_override accepts a percent string",
+          abs((obj2.get("rotce_override") or 0) - 0.14) < 1e-9, obj2.get("rotce_override"))
+    out2 = R.reprice(obj2, row, sc["risk_free_rate"])
+    check("rotce_override alone is enough to reprice", out2.get("ok"), out2.get("reason"))
+
+
+def test_scenario_rates_are_coerced_and_ordered():
+    import record as R, json as _json
+    obj = R.parse(_json.dumps({"verdict": "fair", "conviction": "low",
+                               "final_growth": 0.05, "bear_growth": 9, "bull_growth": "1%",
+                               "devils_advocate": {"strongest_counter": "x"}}))
+    check("a bare 9 is read as 9%", abs(obj["bull_growth"] - 0.09) < 1e-9, obj["bull_growth"])
+    check("a '1%' string is read as 0.01", abs(obj["bear_growth"] - 0.01) < 1e-9,
+          obj["bear_growth"])
+    check("bear and bull are ordered against each other",
+          obj["bear_growth"] < obj["bull_growth"],
+          (obj["bear_growth"], obj["bull_growth"]))
+    check("the base case is NOT silently moved", obj["final_growth"] == 0.05,
+          obj["final_growth"])
+    check("the swap is recorded in the notes",
+          any("swapped" in n for n in obj["_parse_notes"]), obj["_parse_notes"])
+    # base outside the bear/bull range is reported, not corrected
+    obj2 = R.parse(_json.dumps({"verdict": "fair", "conviction": "low",
+                                "final_growth": 0.20, "bear_growth": 0.01,
+                                "bull_growth": 0.09,
+                                "devils_advocate": {"strongest_counter": "x"}}))
+    check("a base above bull is left alone but noted", obj2["final_growth"] == 0.20)
+    check("the inconsistency is surfaced",
+          any("BELOW the base case" in n for n in obj2["_parse_notes"]), obj2["_parse_notes"])
+
+
 def main():
     for fn in sorted([v for k, v in globals().items() if k.startswith("test_")],
                      key=lambda f: f.__name__):

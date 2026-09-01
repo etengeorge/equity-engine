@@ -71,6 +71,31 @@ cash flow to the firm is meaningless when debt is raw material. `none` for REITs
 anything with negative normalized cash flow. The method is set per sector in
 `universe.csv` and can still degrade to no-number at run time when the data gates fail.
 
+**Multiples are the fourth method, and the only one for a company burning cash.** "A DCF
+cannot value this" and "this is worthless" are different claims, and the engine used to
+collapse them. `valuation.multiple_valuation` prices a name against the quartiles its own
+sector cohort trades at — EV/EBITDA, EV/sales, EV/gross profit, P/TBV — and reports a
+RANGE, never a point, because a comparables number is a statement about the cohort. It is
+deliberately kept OUT of `gap`, the cohort percentile and the selection score: those are
+built from DCF gaps and mixing the two would compare different things. The analyst sees it
+in the brief and judges it. Treat a multiples number on a pre-revenue name with suspicion —
+EV/sales on a company whose revenue has not arrived yet is close to meaningless, and the
+model will still print it.
+
+**Every thesis is priced three ways, across the discount rate.** The analyst supplies
+`bear_growth` and `bull_growth` alongside the base case and names the driver of each;
+`valuation.scenario_table` crosses those with WACC ±2pt. On HQY that grid spans $48 to
+$143 against a $96 price. That spread — not the point estimate — is the honest precision
+of this model, and printing it is what stops a single fair value from claiming precision
+it does not have.
+
+**Beta falls back to the sector median, not to 1.0.** 286 of 1,956 names fail the R²
+gate. A flat 1.0 was wrong at both ends of this universe — utilities regress to a 0.44
+median and health care to 1.24 — so it overstated a utility's cost of equity by roughly
+300bp. The median is computed from this same universe, on the same benchmark and window,
+which is what makes it comparable to the betas it replaces. `beta_source` records which
+was used.
+
 `research/LESSONS.md` holds standing priors about how these theses fail, carried forward
 from the previous engine and read by the analyst before every session.
 
@@ -176,6 +201,25 @@ These are all real bugs that were found and fixed; do not reintroduce them.
 - **Dedupe the news store by article id.** Yahoo returns the same wire story every day it
   stays on the page. Without the id check the store grows by a full page per ticker per
   day — the difference between a 5 MB store and a 200 MB one inside a git repository.
+- **Balance-sheet items are instants; income and cash flow are durations.** `_annual`
+  filters to `fp == "FY"` on an annual form, which is right for revenue and CFO and wrong
+  for debt, cash and equity — it took the fiscal-year-end figure and ignored every 10-Q
+  since. Alkermes drew $1.525B of term loans six weeks after its year end and the screen
+  reported an enterprise value BELOW market cap. `_latest_instant` reads those from any
+  form, newest `end` wins, and skips any fact carrying a `start` date.
+- **Bump `edgar.EXTRACT_VERSION` when you add a field to `fundamentals()`.** A cached
+  extract stays valid for 30 days, so a new field otherwise reads as missing on every
+  company for a month. The multiples model needed EBITDA and gross profit and would have
+  had neither.
+- **Never reorder the analyst's `final_growth`.** Bear and bull are ordered against each
+  OTHER; the base case is left exactly as supplied and an inconsistency is noted instead.
+  The first version swapped each against the base sequentially, so the second swap undid
+  the first and a mislabelled pair silently rewrote the recorded thesis.
+- **A book-method name must be repriced from a ROTCE, not a growth rate.** `reprice` used
+  to accept only `fcff`, so 400 Financials were unpriceable by construction — VEL supplied
+  `final_growth: 0.14`, the correct answer to the question the brief asks, and it was
+  logged as "no growth supplied". It now reads `rotce_override` (or falls back to
+  `final_growth`) and runs `justified_pb` with it.
 
 ## Honesty
 State uncertainty plainly. "The screen flagged it" is not "it is cheap." "Tests pass" is
