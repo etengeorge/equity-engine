@@ -1,0 +1,3744 @@
+0001060822 1/2 2026 Q1 FALSE 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares cri:countryAndTerritory xbrli:pure cri:segment 0001060822 2026-01-04 2026-04-04 0001060822 us-gaap:CommonStockMember 2026-01-04 2026-04-04 0001060822 us-gaap:SeriesAPreferredStockMember 2026-01-04 2026-04-04 0001060822 2026-04-27 0001060822 2026-04-04 0001060822 2026-01-03 0001060822 2025-03-29 0001060822 2024-12-29 2025-03-29 0001060822 us-gaap:CommonStockMember 2026-01-03 0001060822 us-gaap:AdditionalPaidInCapitalMember 2026-01-03 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-03 0001060822 us-gaap:RetainedEarningsMember 2026-01-03 0001060822 us-gaap:CommonStockMember 2026-01-04 2026-04-04 0001060822 us-gaap:AdditionalPaidInCapitalMember 2026-01-04 2026-04-04 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-04 2026-04-04 0001060822 us-gaap:RetainedEarningsMember 2026-01-04 2026-04-04 0001060822 us-gaap:CommonStockMember 2026-04-04 0001060822 us-gaap:AdditionalPaidInCapitalMember 2026-04-04 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-04-04 0001060822 us-gaap:RetainedEarningsMember 2026-04-04 0001060822 us-gaap:CommonStockMember 2024-12-28 0001060822 us-gaap:AdditionalPaidInCapitalMember 2024-12-28 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-28 0001060822 us-gaap:RetainedEarningsMember 2024-12-28 0001060822 2024-12-28 0001060822 us-gaap:CommonStockMember 2024-12-29 2025-03-29 0001060822 us-gaap:AdditionalPaidInCapitalMember 2024-12-29 2025-03-29 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-29 2025-03-29 0001060822 us-gaap:RetainedEarningsMember 2024-12-29 2025-03-29 0001060822 us-gaap:CommonStockMember 2025-03-29 0001060822 us-gaap:AdditionalPaidInCapitalMember 2025-03-29 0001060822 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-29 0001060822 us-gaap:RetainedEarningsMember 2025-03-29 0001060822 us-gaap:SubsequentEventMember cri:IEEPATariffRecoveryMember 2026-04-20 2026-04-20 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:RetailSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:WholesaleSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:InternationalSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:RetailSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:WholesaleSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:InternationalSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelThroughIntermediaryMember 2026-01-04 2026-04-04 0001060822 cri:RetailSegmentMember 2026-01-04 2026-04-04 0001060822 cri:WholesaleSegmentMember 2026-01-04 2026-04-04 0001060822 cri:InternationalSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:RetailSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:WholesaleSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember cri:InternationalSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelDirectlyToConsumerMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:RetailSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:WholesaleSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelThroughIntermediaryMember cri:InternationalSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:SalesChannelThroughIntermediaryMember 2024-12-29 2025-03-29 0001060822 cri:RetailSegmentMember 2024-12-29 2025-03-29 0001060822 cri:WholesaleSegmentMember 2024-12-29 2025-03-29 0001060822 cri:InternationalSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:TradeAccountsReceivableMember 2026-04-04 0001060822 us-gaap:TradeAccountsReceivableMember 2026-01-03 0001060822 us-gaap:TradeAccountsReceivableMember 2025-03-29 0001060822 cri:RoyaltiesReceivableMember 2026-04-04 0001060822 cri:RoyaltiesReceivableMember 2026-01-03 0001060822 cri:RoyaltiesReceivableMember 2025-03-29 0001060822 cri:TenantAllowancesAndOtherReceivablesMember 2026-04-04 0001060822 cri:TenantAllowancesAndOtherReceivablesMember 2026-01-03 0001060822 cri:TenantAllowancesAndOtherReceivablesMember 2025-03-29 0001060822 us-gaap:AllowanceForCreditLossMember 2026-04-04 0001060822 us-gaap:AllowanceForCreditLossMember 2026-01-03 0001060822 us-gaap:AllowanceForCreditLossMember 2025-03-29 0001060822 cri:GiftCardsMemberMember 2026-01-04 2026-04-04 0001060822 cri:GiftCardsMemberMember 2024-12-29 2025-03-29 0001060822 cri:A7.375SeniorNotesDue2031Member us-gaap:SeniorNotesMember 2026-04-04 0001060822 cri:A7.375SeniorNotesDue2031Member us-gaap:SeniorNotesMember 2026-01-03 0001060822 cri:A7.375SeniorNotesDue2031Member us-gaap:SeniorNotesMember 2025-03-29 0001060822 cri:A5625SeniorNotesDue2027Member us-gaap:SeniorNotesMember 2026-04-04 0001060822 cri:A5625SeniorNotesDue2027Member us-gaap:SeniorNotesMember 2026-01-03 0001060822 cri:A5625SeniorNotesDue2027Member us-gaap:SeniorNotesMember 2025-03-29 0001060822 cri:TotalSeniorNotesMember 2026-04-04 0001060822 cri:TotalSeniorNotesMember 2026-01-03 0001060822 cri:TotalSeniorNotesMember 2025-03-29 0001060822 us-gaap:RevolvingCreditFacilityMember 2026-04-04 0001060822 us-gaap:RevolvingCreditFacilityMember 2026-01-03 0001060822 us-gaap:RevolvingCreditFacilityMember 2025-03-29 0001060822 us-gaap:RevolvingCreditFacilityMember 2025-11-17 2025-11-17 0001060822 us-gaap:RevolvingCreditFacilityMember 2025-11-17 0001060822 us-gaap:RevolvingCreditFacilityMember 2025-11-16 0001060822 cri:A7.375SeniorNotesDue2031Member us-gaap:SeniorNotesMember 2025-11-13 0001060822 cri:A7.375SeniorNotesDue2031Member us-gaap:SeniorNotesMember 2025-11-13 2025-11-13 0001060822 cri:A5.625SeniorNotesDue2027Member us-gaap:SeniorNotesMember 2025-11-27 0001060822 cri:TimeBasedAwardsMember 2026-01-04 2026-04-04 0001060822 cri:TimeBasedAwardsMember 2024-12-29 2025-03-29 0001060822 us-gaap:PerformanceSharesMember 2026-01-04 2026-04-04 0001060822 us-gaap:PerformanceSharesMember 2024-12-29 2025-03-29 0001060822 cri:MarketBasedAwardsMember 2026-01-04 2026-04-04 0001060822 cri:MarketBasedAwardsMember 2024-12-29 2025-03-29 0001060822 cri:TimeBasedAwardsMember 2026-04-04 0001060822 us-gaap:PerformanceSharesMember 2026-04-04 0001060822 cri:MarketBasedAwardsMember 2026-04-04 0001060822 2024-12-29 2026-01-03 0001060822 us-gaap:FairValueInputsLevel1Member 2026-04-04 0001060822 us-gaap:FairValueInputsLevel1Member 2026-01-03 0001060822 us-gaap:FairValueInputsLevel1Member 2025-03-29 0001060822 2025-09-28 2026-01-03 0001060822 us-gaap:OperatingSegmentsMember cri:RetailSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:OperatingSegmentsMember cri:WholesaleSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:OperatingSegmentsMember cri:InternationalSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:OperatingSegmentsMember cri:RetailSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:OperatingSegmentsMember cri:WholesaleSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:OperatingSegmentsMember cri:InternationalSegmentMember 2024-12-29 2025-03-29 0001060822 us-gaap:CorporateNonSegmentMember 2026-01-04 2026-04-04 0001060822 us-gaap:CorporateNonSegmentMember 2024-12-29 2025-03-29 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ FORM 10-Q 
+
+ (Mark One) 
+
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended April 4, 2026 
+
+ or 
+
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the transition period from to 
+
+ Commission File Number: 001-31829 
+
+ CARTER’S, INC. 
+
+ (Exact name of registrant as specified in its charter) 
+
+ Delaware 
+ 
+ 13-3912933 
+
+ (State or other jurisdiction of 
+ 
+ (I.R.S. Employer Identification No.) 
+
+ incorporation or organization) 
+
+ Phipps Tower , 
+
+ 3438 Peachtree Road NE , Suite 1800 
+
+ Atlanta , Georgia 30326 
+
+ (Address of principal executive offices, including zip code) 
+
+ ( 678 ) 791-1000 
+
+ (Registrant’s telephone number, including area code) 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class 
+ 
+ Trading Symbol(s) 
+ 
+ Name of each exchange on which registered 
+
+ Common stock, par value $0.01 per share 
+ 
+ CRI 
+ 
+ New York Stock Exchange 
+
+ Series A Preferred Stock Purchase Rights 
+ 
+ - 
+ 
+ New York Stock Exchange 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See definition of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+
+ Large accelerated filer ☒ Accelerated filer ☐ 
+
+ Non-accelerated filer ☐ Smaller reporting company ☐ 
+
+ Emerging growth company ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 
+
+ As of April 27, 2026, there were 36,850,117 shares of the registrant’s common stock outstanding. 
+
+ CARTER’S, INC. 
+
+ INDEX 
+
+ Page 
+
+ Part I. Financial Information 
+
+ Item 1. 
+ 
+ Financial Statements 
+
+ Unaudited Condensed Consolidated Balance Sheets as of April 4, 2026, January 3, 2026, and March 29, 2025 
+ 
+ 1 
+
+ Unaudited Condensed Consolidated Statements of Operations for the fiscal quarter ended April 4, 2026 and March 29, 2025 
+ 
+ 2 
+
+ Unaudited Condensed Consolidated Statements of Comprehensive Income for the fiscal quarter ended April 4, 2026 and March 29, 2025 
+ 
+ 3 
+
+ Unaudited Condensed Consolidated Statements of Changes in Shareholders’ Equity for the fiscal quarter ended April 4, 2026 and March 29, 2025 
+ 
+ 4 
+
+ Unaudited Condensed Consolidated Statements of Cash Flows for the fiscal quarter ended April 4, 2026 and March 29, 2025 
+ 
+ 5 
+
+ Notes to the Unaudited Condensed Consolidated Financial Statements 
+ 
+ 6 
+
+ Item 2. 
+ 
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+ 
+ 16 
+
+ Item 3. 
+ 
+ Quantitative and Qualitative Disclosures about Market Risk 
+ 
+ 28 
+
+ Item 4. 
+ 
+ Controls and Procedures 
+ 
+ 28 
+
+ Part II. Other Information 
+
+ Item 1. 
+ 
+ Legal Proceedings 
+ 
+ 29 
+
+ Item 1A. 
+ 
+ Risk Factors 
+ 
+ 29 
+
+ Item 2. 
+ 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 
+ 30 
+
+ Item 3. 
+ 
+ Defaults upon Senior Securities 
+ 
+ 30 
+
+ Item 4. 
+ 
+ Mine Safety Disclosures 
+ 
+ 30 
+
+ Item 5. 
+ 
+ Other Information 
+ 
+ 30 
+
+ Item 6. 
+ 
+ Exhibits 
+ 
+ 31 
+
+ Signatures 
+ 
+ 32 
+
+ PART I - FINANCIAL INFORMATION 
+
+ ITEM 1. FINANCIAL STATEMENTS 
+
+ CARTER’S, INC. 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+
+ ( dollars in thousands, except per share data ) 
+
+ (unaudited) 
+
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ ASSETS 
+
+ Current assets: 
+
+ Cash and cash equivalents 
+ 
+ $ 
+ 
+ 473,435 
+
+ $ 
+ 
+ 487,075 
+
+ $ 
+ 
+ 320,794 
+
+ Accounts receivable, net of allowance for credit losses of $ 6,018 , $ 7,587 , and $ 5,213 , respectively 
+ 
+ 196,596 
+
+ 178,566 
+
+ 203,873 
+
+ Finished goods inventories, net of inventory reserves of $ 12,027 , $ 8,897 , and $ 9,641 , respectively 
+ 
+ 465,876 
+
+ 544,624 
+
+ 474,124 
+
+ Prepaid expenses and other current assets 
+ 
+ 75,720 
+
+ 60,508 
+
+ 50,216 
+
+ Total current assets 
+ 
+ 1,211,627 
+
+ 1,270,773 
+
+ 1,049,007 
+
+ Property, plant, and equipment, net of accumulated depreciation of $ 617,458 , $ 609,059 , and $ 612,079 , respectively 
+ 
+ 179,038 
+
+ 186,307 
+
+ 179,247 
+
+ Operating lease assets 
+ 
+ 578,585 
+
+ 591,806 
+
+ 568,856 
+
+ Tradenames, net 
+ 
+ 268,600 
+
+ 268,659 
+
+ 268,836 
+
+ Goodwill 
+ 
+ 208,413 
+
+ 208,994 
+
+ 207,125 
+
+ Customer relationships, net 
+ 
+ 19,249 
+
+ 20,128 
+
+ 22,672 
+
+ Other assets 
+ 
+ 18,643 
+
+ 18,803 
+
+ 36,057 
+
+ Total assets 
+ 
+ $ 
+ 
+ 2,484,155 
+
+ $ 
+ 
+ 2,565,470 
+
+ $ 
+ 
+ 2,331,800 
+
+ LIABILITIES AND SHAREHOLDERS’ EQUITY 
+
+ Current liabilities: 
+
+ Accounts payable 
+ 
+ $ 
+ 
+ 188,692 
+
+ $ 
+ 
+ 235,700 
+
+ $ 
+ 
+ 199,056 
+
+ Current operating lease liabilities 
+ 
+ 133,384 
+
+ 136,488 
+
+ 125,556 
+
+ Other current liabilities 
+ 
+ 111,349 
+
+ 133,809 
+
+ 84,734 
+
+ Total current liabilities 
+ 
+ 433,425 
+
+ 505,997 
+
+ 409,346 
+
+ Long-term debt, net 
+ 
+ 567,487 
+
+ 567,173 
+
+ 498,328 
+
+ Deferred income taxes 
+ 
+ 42,910 
+
+ 39,380 
+
+ 45,300 
+
+ Long-term operating lease liabilities 
+ 
+ 495,442 
+
+ 508,461 
+
+ 498,628 
+
+ Other long-term liabilities 
+ 
+ 16,434 
+
+ 19,411 
+
+ 32,953 
+
+ Total liabilities 
+ 
+ $ 
+ 
+ 1,555,698 
+
+ $ 
+ 
+ 1,640,422 
+
+ $ 
+ 
+ 1,484,555 
+
+ Commitments and contingencies - Note 15 
+
+ Shareholders’ equity: 
+
+ Preferred stock; par value $ 0.01 per share; 100,000 shares authorized; none issued or outstanding 
+ 
+ $ 
+ 
+ — 
+
+ $ 
+ 
+ — 
+
+ $ 
+ 
+ — 
+
+ Common stock, voting; par value $ 0.01 per share; 150,000,000 shares authorized; 36,850,117 , 36,425,877 , and 36,237,114 shares issued and outstanding, respectively 
+ 
+ 369 
+
+ 364 
+
+ 362 
+
+ Additional paid-in capital 
+ 
+ 20,251 
+
+ 19,584 
+
+ 9,385 
+
+ Accumulated other comprehensive loss 
+ 
+ ( 26,740 ) 
+
+ ( 24,361 ) 
+
+ ( 43,066 ) 
+
+ Retained earnings 
+ 
+ 934,577 
+
+ 929,461 
+
+ 880,564 
+
+ Total shareholders’ equity 
+ 
+ 928,457 
+
+ 925,048 
+
+ 847,245 
+
+ Total liabilities and shareholders’ equity 
+ 
+ $ 
+ 
+ 2,484,155 
+
+ $ 
+ 
+ 2,565,470 
+
+ $ 
+ 
+ 2,331,800 
+
+ See accompanying notes to the unaudited condensed consolidated financial statements. 
+
+ 1 
+
+ CARTER’S, INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS 
+
+ ( dollars in thousands, except per share data ) 
+
+ (unaudited) 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Net sales 
+ 
+ $ 
+ 
+ 681,113 
+
+ $ 
+ 
+ 629,827 
+
+ Cost of goods sold 
+ 
+ 387,240 
+
+ 338,737 
+
+ Gross profit 
+ 
+ 293,873 
+
+ 291,090 
+
+ Royalty income, net 
+ 
+ 4,619 
+
+ 5,332 
+
+ Selling, general, and administrative expenses 
+ 
+ 270,049 
+
+ 270,320 
+
+ Operating income 
+ 
+ 28,443 
+
+ 26,102 
+
+ Interest expense 
+ 
+ 11,757 
+
+ 7,819 
+
+ Interest income 
+ 
+ ( 3,256 ) 
+
+ ( 3,142 ) 
+
+ Other expense, net 
+ 
+ 86 
+
+ 76 
+
+ Income before income taxes 
+ 
+ 19,856 
+
+ 21,349 
+
+ Income tax provision 
+ 
+ 5,520 
+
+ 5,810 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ Basic net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ Diluted net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ Dividend declared and paid per common share 
+ 
+ $ 
+ 
+ 0.25 
+
+ $ 
+ 
+ 0.80 
+
+ See accompanying notes to the unaudited condensed consolidated financial statements. 
+
+ 2 
+
+ CARTER’S, INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME 
+
+ ( dollars in thousands ) 
+
+ (unaudited) 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ Other comprehensive (loss) income: 
+
+ Reclassification related to settlement of Carter’s post-retirement life insurance arrangement, net of tax of $( 135 ) 
+ 
+ ( 435 ) 
+
+ — 
+
+ Foreign currency translation adjustments 
+ 
+ ( 1,944 ) 
+
+ 612 
+
+ Total other comprehensive (loss) income 
+ 
+ ( 2,379 ) 
+
+ 612 
+
+ Comprehensive income 
+ 
+ $ 
+ 
+ 11,957 
+
+ $ 
+ 
+ 16,151 
+
+ See accompanying notes to the unaudited condensed consolidated financial statements. 
+
+ 3 
+
+ CARTER’S, INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN SHAREHOLDERS’ EQUITY 
+
+ ( amounts in thousands, except share amounts ) 
+
+ (unaudited) 
+
+ Common stock - shares 
+ 
+ Common stock - $ 
+ 
+ Additional paid-in capital 
+ 
+ Accumulated other comprehensive loss 
+ 
+ Retained earnings 
+ 
+ Total shareholders’ equity 
+
+ Balance at January 3, 2026 
+ 
+ 36,425,877 
+
+ $ 
+ 
+ 364 
+
+ $ 
+ 
+ 19,584 
+
+ $ 
+ 
+ ( 24,361 ) 
+
+ $ 
+ 
+ 929,461 
+
+ $ 
+ 
+ 925,048 
+
+ Withholdings from vesting 
+
+ of restricted stock 
+ 
+ ( 79,985 ) 
+
+ — 
+
+ ( 3,012 ) 
+
+ — 
+
+ — 
+
+ ( 3,012 ) 
+
+ Restricted stock activity 
+ 
+ 504,225 
+
+ 5 
+
+ ( 5 ) 
+
+ — 
+
+ — 
+
+ — 
+
+ Stock-based compensation expense 
+ 
+ — 
+
+ — 
+
+ 3,684 
+
+ — 
+
+ — 
+
+ 3,684 
+
+ Cash dividends declared and paid of $ 0.25 per common share 
+ 
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 9,220 ) 
+
+ ( 9,220 ) 
+
+ Comprehensive income 
+ 
+ — 
+
+ — 
+
+ — 
+
+ ( 2,379 ) 
+
+ 14,336 
+
+ 11,957 
+
+ Balance at April 4, 2026 
+ 
+ 36,850,117 
+
+ $ 
+ 
+ 369 
+
+ $ 
+ 
+ 20,251 
+
+ $ 
+ 
+ ( 26,740 ) 
+
+ $ 
+ 
+ 934,577 
+
+ $ 
+ 
+ 928,457 
+
+ Common stock - shares 
+ 
+ Common stock - $ 
+ 
+ Additional paid-in capital 
+ 
+ Accumulated other comprehensive loss 
+ 
+ Retained earnings 
+ 
+ Total shareholders’ equity 
+
+ Balance at December 28, 2024 
+ 
+ 36,041,995 
+
+ $ 
+ 
+ 360 
+
+ $ 
+ 
+ 3,856 
+
+ $ 
+ 
+ ( 43,678 ) 
+
+ $ 
+ 
+ 894,024 
+
+ $ 
+ 
+ 854,562 
+
+ Withholdings from vesting 
+
+ of restricted stock 
+ 
+ ( 93,538 ) 
+
+ ( 1 ) 
+
+ ( 4,221 ) 
+
+ — 
+
+ — 
+
+ ( 4,222 ) 
+
+ Restricted stock activity 
+ 
+ 288,657 
+
+ 3 
+
+ ( 3 ) 
+
+ — 
+
+ — 
+
+ — 
+
+ Stock-based compensation expense 
+ 
+ — 
+
+ — 
+
+ 9,753 
+
+ — 
+
+ — 
+
+ 9,753 
+
+ Cash dividends declared and paid of $ 0.80 per common share 
+ 
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 28,999 ) 
+
+ ( 28,999 ) 
+
+ Comprehensive income 
+ 
+ — 
+
+ — 
+
+ — 
+
+ 612 
+
+ 15,539 
+
+ 16,151 
+
+ Balance at March 29, 2025 
+ 
+ 36,237,114 
+
+ $ 
+ 
+ 362 
+
+ $ 
+ 
+ 9,385 
+
+ $ 
+ 
+ ( 43,066 ) 
+
+ $ 
+ 
+ 880,564 
+
+ $ 
+ 
+ 847,245 
+
+ See accompanying notes to the unaudited condensed consolidated financial statements. 
+
+ 4 
+
+ CARTER’S, INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS 
+
+ ( dollars in thousands ) 
+
+ (unaudited) 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Cash flows from operating activities: 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ Adjustments to reconcile net income to net cash provided by (used in) operating activities: 
+
+ Depreciation of property, plant, and equipment 
+ 
+ 12,684 
+
+ 12,340 
+
+ Amortization of intangible assets 
+ 
+ 941 
+
+ 914 
+
+ Provision for excess and obsolete inventory, net 
+ 
+ 3,140 
+
+ 1,385 
+
+ Amortization of debt issuance costs 
+ 
+ 568 
+
+ 415 
+
+ Stock-based compensation expense 
+ 
+ 3,684 
+
+ 9,753 
+
+ Unrealized foreign currency exchange loss (gain), net 
+ 
+ 95 
+
+ ( 295 ) 
+
+ Recoveries of doubtful accounts receivable from customers 
+ 
+ ( 1,558 ) 
+
+ ( 454 ) 
+
+ Unrealized gain on investments 
+ 
+ ( 460 ) 
+
+ ( 329 ) 
+
+ Deferred income taxes expense 
+ 
+ 3,645 
+
+ 6,572 
+
+ Other operating items, net 
+ 
+ ( 547 ) 
+
+ — 
+
+ Effect of changes in operating assets and liabilities: 
+
+ Accounts receivable 
+ 
+ ( 16,573 ) 
+
+ ( 8,603 ) 
+
+ Finished goods inventories 
+ 
+ 74,994 
+
+ 27,122 
+
+ Prepaid expenses and other assets 
+ 
+ ( 14,991 ) 
+
+ ( 19,035 ) 
+
+ Accounts payable and other liabilities 
+ 
+ ( 73,541 ) 
+
+ ( 93,968 ) 
+
+ Net cash provided by (used in) operating activities 
+ 
+ $ 
+ 
+ 6,417 
+
+ $ 
+ 
+ ( 48,644 ) 
+
+ Cash flows from investing activities: 
+
+ Capital expenditures 
+ 
+ $ 
+ 
+ ( 6,960 ) 
+
+ $ 
+ 
+ ( 10,346 ) 
+
+ Net cash used in investing activities 
+ 
+ $ 
+ 
+ ( 6,960 ) 
+
+ $ 
+ 
+ ( 10,346 ) 
+
+ Cash flows from financing activities: 
+
+ Dividends paid 
+ 
+ $ 
+ 
+ ( 9,220 ) 
+
+ $ 
+ 
+ ( 28,999 ) 
+
+ Withholdings from vesting of restricted stock 
+ 
+ ( 3,012 ) 
+
+ ( 4,222 ) 
+
+ Other 
+ 
+ — 
+
+ ( 370 ) 
+
+ Net cash used in financing activities 
+ 
+ $ 
+ 
+ ( 12,232 ) 
+
+ $ 
+ 
+ ( 33,591 ) 
+
+ Net effect of exchange rate changes on cash and cash equivalents 
+ 
+ ( 865 ) 
+
+ 449 
+
+ Net decrease in cash and cash equivalents 
+ 
+ $ 
+ 
+ ( 13,640 ) 
+
+ $ 
+ 
+ ( 92,132 ) 
+
+ Cash and cash equivalents, beginning of period 
+ 
+ 487,075 
+
+ 412,926 
+
+ Cash and cash equivalents, end of period 
+ 
+ $ 
+ 
+ 473,435 
+
+ $ 
+ 
+ 320,794 
+
+ See accompanying notes to the unaudited condensed consolidated financial statements. 
+
+ 5 
+
+ CARTER’S, INC. 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ (unaudited) 
+
+ NOTE 1 – THE COMPANY 
+ 
+ Carter’s, Inc. and its wholly owned subsidiaries (collectively, the “Company”) design, source, and market branded childrenswear under the Carter’s , OshKosh B’gosh (or “ OshKosh ”), Skip Hop, Child of Mine , Just One You , Simple Joys, Little Planet, Otter Avenue, and other brands. The Company’s products are sourced through contractual arrangements with manufacturers worldwide for sale in the Company’s retail stores, eCommerce sites, and mobile app, which offer the Company’s brand name merchandise and other licensed products manufactured by other companies. The Company also distributes its products to wholesale customers, which include leading department stores, national chains, and specialty retailers domestically and internationally. 
+
+ Our trademarks that are referred to in this Quarterly Report on Form 10-Q, including Carter’s , OshKosh B’gosh , OshKosh , Skip Hop, Child of Mine , Just One You , Simple Joys , Little Planet, Otter Avenue, PurelySoft , and Carter’s Rewards , many of which are registered in the United States and in over 100 other countries and territories, are each the property of one or more subsidiaries of Carter’s, Inc. 
+
+ NOTE 2 – BASIS OF PRESENTATION AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES 
+ 
+ The accompanying unaudited condensed consolidated financial statements of the Company have been prepared in accordance with accounting principles generally accepted in the United States (“U.S. GAAP”) for interim financial information and the rules and regulations of the U.S. Securities and Exchange Commission (the “SEC”). All intercompany transactions and balances have been eliminated in consolidation. 
+
+ In the opinion of management, the accompanying unaudited condensed consolidated financial statements contain all normal and recurring adjustments necessary to state fairly the condensed consolidated financial condition, results of operations, comprehensive income, statement of shareholders’ equity, and cash flows of the Company for the interim periods presented. Except as otherwise disclosed, all such adjustments consist only of those of a normal recurring nature. Operating results for the fiscal quarter ended April 4, 2026 are not necessarily indicative of the results that may be expected for the current fiscal year ending January 2, 2027. 
+
+ The preparation of these unaudited condensed consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements, and the reported amounts of revenues and expenses during the reporting periods. Actual results could differ from those estimates. 
+
+ The accompanying condensed consolidated balance sheet as of January 3, 2026 was derived from the Company’s audited consolidated financial statements included in its most recently filed Annual Report on Form 10-K. Certain information and footnote disclosure normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted pursuant to the rules and regulations of the SEC and the instructions to Form 10-Q. 
+
+ The Company operates on a 52 or 53 week fiscal calendar. Fiscal 2026 will end on January 2, 2027 and includes 52 weeks. Fiscal 2025 ended on January 3, 2026 and included 53 weeks. The fiscal quarters ended April 4, 2026 and March 29, 2025 each included 13 weeks. 
+
+ Accounting Policies 
+
+ The accounting policies the Company follows are set forth in its most recently filed Annual Report on Form 10-K. There have been no material changes to these accounting policies. During the first quarter of fiscal 2026, the Company applied the accounting guidance for loss recoveries to potential IEEPA tariff refunds, as described below. 
+
+ IEEPA Tariff Recovery 
+
+ During the first quarter of fiscal 2026, the U.S. Supreme Court ruled that tariffs imposed under the International Emergency Economic Powers Act (“IEEPA”) were unlawful. Subsequent to April 4, 2026, following the April 20, 2026 launch of U.S. Customs and Border Protection’s Consolidated Administration and Processing of Entries (“CAPE”) process, the Company submitted claims seeking approximately $ 130 million of refunds of previously paid IEEPA tariffs through the CAPE system. 
+
+ 6 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ The Company has elected to apply a gain contingency model in accordance with ASC 450-30, “Gain Contingencies” to account for potential recoveries of previously paid IEEPA tariffs. Under this model, a gain contingency is not recognized in the financial statements until the gain is realized or realizable. Any recovery, when recognized, would be reflected as a reduction of inventory to the extent the related goods remain on hand, or as a reduction of Cost of goods sold for amounts related to goods already sold. 
+
+ As of April 4, 2026, the Company had not received any refund payments, and uncertainty remained regarding the timing, amount, and ultimate receipt of any refunds. Accordingly, no gain has been recognized in the condensed consolidated financial statements for the fiscal quarter ended April 4, 2026. 
+ 
+ Recent Accounting Pronouncements 
+
+ Disaggregation of Income Statement Expenses (ASU 2024-03) 
+
+ In November 2024, the FASB issued ASU No. 2024-03, Disaggregation of Income Statement Expenses. This new guidance is intended to increase transparency and comparability of financial statements by requiring disclosure of significant expense components for certain expenses on the face of the consolidated statement of operations. The ASU is effective for fiscal years beginning after December 15, 2026 and for interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted. The Company expects to adopt the ASU in the fourth quarter of fiscal 2027 using a prospective transition method. The Company is currently evaluating the impact that this standard will have on its consolidated financial statements but does not expect the effect of the adoption of ASU 2024-03 to be material. 
+
+ Internal-Use Software (ASU 2025-06) 
+
+ In September 2025, the FASB issued ASU No. 2025-06, Intangibles—Goodwill and Other—Internal-Use Software: Targeted Improvements to the Accounting for Internal-Use Software. The ASU modernizes the accounting for internal-use software by removing the existing “software development stages” model and instead requiring capitalization of internal-use software costs when (1) management has authorized and committed to funding the project and (2) it is probable the project will be completed and the software will be used as intended. The ASU is effective for fiscal years beginning after December 15, 2027 and interim periods within those annual periods, with early adoption permitted. The Company is currently evaluating the timing and transition method of its adoption of the ASU. 
+
+ NOTE 3 – REVENUE RECOGNITION 
+ 
+ The Company generates revenue primarily from the sale of products to retail and wholesale customers and from royalties earned under licensing arrangements. Contracts with customers include written agreements as well as arrangements that are implied by customary business practices or law. 
+ 
+ Disaggregation of Revenue 
+
+ The Company sells products directly to consumers (“direct-to-consumer”) through its retail stores, eCommerce websites, and mobile app, and to other retailers and partners that in turn sell the products to their own customers (“wholesale channel”). The Company also earns royalties from certain of its licensees that sell products under the Company’s brands. 
+
+ Disaggregated revenues from these sources were as follows: 
+
+ Fiscal quarter ended April 4, 2026 
+
+ (dollars in thousands) 
+ 
+ U.S. Retail 
+ 
+ U.S. Wholesale 
+ 
+ International 
+ 
+ Total 
+
+ Direct-to-consumer 
+ 
+ $ 
+ 
+ 332,248 
+
+ $ 
+ 
+ — 
+
+ $ 
+ 
+ 63,877 
+
+ $ 
+ 
+ 396,125 
+
+ Wholesale channel 
+ 
+ — 
+
+ 251,406 
+
+ 33,582 
+
+ 284,988 
+
+ $ 
+ 
+ 332,248 
+
+ $ 
+ 
+ 251,406 
+
+ $ 
+ 
+ 97,459 
+
+ $ 
+ 
+ 681,113 
+
+ Royalty income, net 
+ 
+ $ 
+ 
+ 1,441 
+
+ $ 
+ 
+ 2,890 
+
+ $ 
+ 
+ 288 
+
+ $ 
+ 
+ 4,619 
+
+ 7 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ Fiscal quarter ended March 29, 2025 
+
+ (dollars in thousands) 
+ 
+ U.S. Retail 
+ 
+ U.S. Wholesale 
+ 
+ International 
+ 
+ Total 
+
+ Direct-to-consumer 
+ 
+ $ 
+ 
+ 294,432 
+
+ $ 
+ 
+ — 
+
+ $ 
+ 
+ 53,823 
+
+ $ 
+ 
+ 348,255 
+
+ Wholesale channel 
+ 
+ — 
+
+ 250,096 
+
+ 31,476 
+
+ 281,572 
+
+ $ 
+ 
+ 294,432 
+
+ $ 
+ 
+ 250,096 
+
+ $ 
+ 
+ 85,299 
+
+ $ 
+ 
+ 629,827 
+
+ Royalty income, net 
+ 
+ $ 
+ 
+ 1,518 
+
+ $ 
+ 
+ 3,322 
+
+ $ 
+ 
+ 492 
+
+ $ 
+ 
+ 5,332 
+
+ Accounts Receivable from Customers and Licensees 
+
+ Accounts receivable primarily represent amounts due from wholesale customers and licensees and are recorded net of allowances for chargebacks and expected credit losses. 
+ 
+ The components of Accounts receivable, net, were as follows: 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ Trade receivables from wholesale customers, net 
+ 
+ $ 
+ 
+ 192,394 
+
+ $ 
+ 
+ 174,566 
+
+ $ 
+ 
+ 196,109 
+
+ Royalties receivable, net 
+ 
+ 4,488 
+
+ 4,011 
+
+ 4,830 
+
+ Other receivables (1) 
+ 
+ 9,713 
+
+ 11,705 
+
+ 11,241 
+
+ Total receivables 
+ 
+ $ 
+ 
+ 206,595 
+
+ $ 
+ 
+ 190,282 
+
+ $ 
+ 
+ 212,180 
+
+ Less: Wholesale accounts receivable reserves (2)(3) 
+ 
+ ( 9,999 ) 
+
+ ( 11,716 ) 
+
+ ( 8,307 ) 
+
+ Accounts receivable, net 
+ 
+ $ 
+ 
+ 196,596 
+
+ $ 
+ 
+ 178,566 
+
+ $ 
+ 
+ 203,873 
+
+ (1) Includes receivables related to shipping volume rebates, healthcare-related rebates, amounts due from third-party gift card program partners, recoveries related to provisional anti-dumping duties in Mexico, and tax recoveries. 
+
+ (2) Includes allowance for chargebacks of $ 4.0 million, $ 4.1 million, and $ 3.1 million for the periods ended April 4, 2026, January 3, 2026, and March 29, 2025, respectively. 
+
+ (3) Includes allowance for credit losses of $ 6.0 million, $ 7.6 million, and $ 5.2 million for the periods ended April 4, 2026, January 3, 2026, and March 29, 2025, respectively. 
+ 
+ Contract Assets and Liabilities 
+
+ The Company’s contract assets are not material to the Company’s condensed consolidated financial statements. 
+
+ The Company recognizes a contract liability when it has received consideration before transferring the related goods to the customer. The Company’s contract liabilities primarily consist of (1) obligations related to unredeemed gift cards, (2) unredeemed customer loyalty rewards, and (3) the unamortized upfront bonus received from a third-party financial institution under the Company’s private label credit card program. Contract liabilities are classified as current and are included in Other current liabilities on the Company’s consolidated balance sheets. 
+
+ Contract Liabilities 
+ 
+ Total contract liabilities were as follows: 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ Contract liabilities - current: 
+
+ Unredeemed gift cards 
+ 
+ $ 
+ 
+ 25,337 
+
+ $ 
+ 
+ 25,994 
+
+ $ 
+ 
+ 24,275 
+
+ Unredeemed customer loyalty rewards 
+ 
+ 2,609 
+
+ 2,372 
+
+ 2,098 
+
+ Carter’s credit card - upfront bonus 
+ 
+ — 
+
+ — 
+
+ 536 
+
+ Total contract liabilities - current 
+ 
+ $ 
+ 
+ 27,946 
+
+ $ 
+ 
+ 28,366 
+
+ $ 
+ 
+ 26,909 
+
+ Composition of Contract Liabilities 
+
+ Unredeemed gift cards - represent obligations to transfer goods in the future to customers that have purchased gift cards. Gift card contract liabilities change due to the issuance and redemption of gift cards and the recognition of breakage on balances that are not expected to be redeemed. Although gift cards do not expire, all outstanding gift card balances are classified as current liabilities, as they are redeemable on demand by the cardholder. The majority of gift cards are redeemed within one year of issuance. During the first quarters of fiscal 2026 and fiscal 2025, the Company recognized revenue of $ 4.1 million and $ 3.6 million related to the gift card liability balance that existed at the beginning of each respective period. 
+
+ 8 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ Unredeemed loyalty rewards - represent obligations under the Company’s loyalty program to transfer goods in the future to customers when the reward certificates are redeemed. Changes in the loyalty program contract liability result from new rewards earned, and reward certificate redemptions and expirations. The earning and redemption cycles are under one year in duration. 
+
+ Carter’s credit card - upfront bonus - represents the unamortized portion of the upfront signing bonus received from a third-party financial institution under the Company’s private label credit card program. This bonus was recognized as revenue over the term of the agreement. 
+
+ NOTE 4 – OTHER CURRENT LIABILITIES 
+ 
+ Other current liabilities consisted of the following: 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ Unredeemed gift cards 
+ 
+ $ 
+ 
+ 25,337 
+
+ $ 
+ 
+ 25,994 
+
+ $ 
+ 
+ 24,275 
+
+ Accrued interest (1) 
+ 
+ 16,549 
+
+ 5,736 
+
+ 1,364 
+
+ Accrued employee benefits (2) 
+ 
+ 12,542 
+
+ 28,021 
+
+ 13,079 
+
+ Accrued taxes 
+ 
+ 8,803 
+
+ 10,334 
+
+ 8,169 
+
+ Accrued bonuses and incentive compensation 
+ 
+ 3,097 
+
+ 19,861 
+
+ 3,076 
+
+ Other (3) 
+ 
+ 45,021 
+
+ 43,863 
+
+ 34,771 
+
+ Other current liabilities 
+ 
+ $ 
+ 
+ 111,349 
+
+ $ 
+ 
+ 133,809 
+
+ $ 
+ 
+ 84,734 
+
+ (1) Increase as of April 4, 2026 reflects the timing of interest payments on long-term debt. 
+
+ (2) Includes accruals for severance and other termination benefits. See Note 13, Organizational Restructuring , for additional information. 
+
+ (3) Amount as of April 4, 2026 and January 3, 2026 includes liabilities under the deferred compensation plan. See Note 10, Fair Value Measurements , for additional information. 
+
+ NOTE 5 – SUPPLY CHAIN FINANCE PROGRAM 
+ 
+ We have established a voluntary supply chain finance (“SCF”) program through participating financial institutions. This SCF program enables participating suppliers to accelerate payments for receivables due from the Company by selling receivables directly to the participating financial institutions at their discretion. As of April 4, 2026, the SCF program has a $ 70.0 million revolving capacity. We are not a party to the agreements between the participating financial institutions and the suppliers in connection with the SCF program and we have no economic interest in the supplier’s decision to sell a receivable. Payment terms for most of our suppliers are 60 days, regardless of participation in the SCF program. The Company settles obligations with the participating financial institutions in accordance with the original invoice due dates, and participation in the SCF program does not extend the Company’s payment terms. The Company does not provide any guarantees in connection with the SCF program and does not pledge collateral under the program. 
+
+ The Company’s liability related to amounts payable to the participating financial institutions for suppliers who voluntarily participate in the SCF program is included in Accounts payable on our consolidated balance sheets. As of April 4, 2026, January 3, 2026, and March 29, 2025, amounts under the SCF program included in Accounts payable were $ 11.6 million, $ 13.5 million, and $ 14.3 million, respectively. Payments made in connection with the SCF program, like payments of other accounts payable, are reflected as a reduction to our operating cash flow. 
+
+ NOTE 6 – LONG-TERM DEBT 
+ 
+ Long-term debt consisted of the following: 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ $575 million 7.375 % Senior Notes due 2031 
+ 
+ $ 
+ 
+ 575,000 
+
+ $ 
+ 
+ 575,000 
+
+ $ 
+ 
+ — 
+
+ $500 million 5.625 % Senior Notes due 2027 
+ 
+ — 
+
+ — 
+
+ 500,000 
+
+ Less: unamortized debt issuance-related costs 
+ 
+ ( 7,513 ) 
+
+ ( 7,827 ) 
+
+ ( 1,672 ) 
+
+ Senior notes, net 
+ 
+ $ 
+ 
+ 567,487 
+
+ $ 
+ 
+ 567,173 
+
+ $ 
+ 
+ 498,328 
+
+ Secured revolving credit facility 
+ 
+ — 
+
+ — 
+
+ — 
+
+ Total long-term debt, net 
+ 
+ $ 
+ 
+ 567,487 
+
+ $ 
+ 
+ 567,173 
+
+ $ 
+ 
+ 498,328 
+
+ 9 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ Secured Revolving Credit Facility 
+
+ As of April 4, 2026 and January 3, 2026, the Company had no outstanding borrowings under its secured asset-based revolving credit facility (“ABL facility”), exclusive of $ 5.5 million and $ 6.3 million of outstanding letters of credit, respectively. As of March 29, 2025, the Company had no outstanding borrowings under its secured cash-flow-based revolving credit facility, exclusive of $ 6.4 million of outstanding letters of credit. As of April 4, 2026, January 3, 2026, and March 29, 2025, there was approximately $ 605.2 million, $ 743.7 million, and $ 843.6 million available for future borrowing, respectively. Any outstanding borrowings under the Company’s ABL facility and secured cash-flow-based revolving credit facility are classified as non-current liabilities on the Company’s condensed consolidated balance sheets due to contractual repayment terms under the credit facility. However, these repayment terms also allow us to repay some or all of the outstanding borrowings at any time. 
+
+ ABL Facility 
+
+ On November 17, 2025, the Company, through its wholly-owned subsidiary, The William Carter Company (“TWCC”), entered into a new five-year ABL facility of up to $ 750.0 million. The ABL facility replaced the Company’s existing $ 850.0 million secured cash-flow-based revolving credit facility due April 2027. Borrowings under the ABL facility will mature, and lending commitments thereunder will terminate, in November 2030. 
+
+ The ABL facility contains various covenants, including those that restrict the Company’s ability and the ability of its restricted subsidiaries to incur certain indebtedness, pay dividends or make distributions or other restricted payments, or to grant certain liens on their respective property or assets, among other things. The ABL facility also includes a springing financial covenant, consisting of, if the excess availability falls below certain thresholds, a fixed charge coverage ratio not to be less than 1.00 to 1.00. 
+
+ The availability under the ABL facility was $ 605.2 million and $ 743.7 million as of April 4, 2026 and January 3, 2026, respectively. Availability is determined using borrowing base calculations of eligible inventory, accounts receivable, and intellectual property balances, less availability reserves, current outstanding borrowings under the ABL facility, and outstanding letters of credit. Availability may fluctuate throughout the year principally based on changes in eligible inventory and accounts receivable balances. As of April 4, 2026, the borrowing rate for a term Secured Overnight Financing Rate (“SOFR”) loan would have been 4.90 %, which includes an excess availability-based adjustment of 1.25 %. 
+
+ As of April 4, 2026, the Company was in compliance with its covenants and requirements under the ABL facility. 
+
+ Senior Notes 
+
+ On November 13, 2025, TWCC issued $ 575.0 million principal amount of senior notes at par, bearing interest at a rate of 7.375 % per annum, and maturing on February 15, 2031. TWCC received net proceeds from the offering of the senior notes of approximately $ 567.0 million, after deducting underwriting fees and other expenses, which TWCC used to redeem the senior notes discussed below and for other general corporate purposes. Approximately $ 8.0 million, including both bank fees and other third-party expenses, was capitalized in connection with the issuance and is being amortized over the term of the senior notes. 
+
+ On November 27, 2025, TWCC redeemed $ 500.0 million principal amount of senior notes, bearing interest at a rate of 5.625 % per annum, and originally maturing on March 15, 2027. Pursuant to the optional redemption provisions described in the indenture dated as of March 14, 2019, TWCC paid the outstanding principal plus accrued and unpaid interest. 
+
+ NOTE 7 – COMMON STOCK 
+ 
+ Open Market Share Repurchases 
+
+ The Company’s Board of Directors (the “Board”) has authorized the repurchase of shares of the Company’s common stock under share repurchase programs with an aggregate authorization of up to $ 1.00 billion. As of April 4, 2026, the total remaining capacity under outstanding repurchase authorizations was $ 599.0 million, based on settled repurchase transactions. The share repurchase authorizations have no expiration dates. 
+
+ The Company did not repurchase and retire shares through open market transactions during the first quarters of fiscal 2026 and 2025. 
+
+ Future repurchases may occur from time to time in the open market, in privately negotiated transactions, or otherwise. The timing and amount of any repurchases will be at the discretion of the Company subject to restrictions under the Company’s secured asset-based revolving credit facility, market conditions, stock price, other investment priorities, excise taxes, and other factors. 
+
+ 10 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ Dividends 
+
+ In the first quarter of fiscal 2026, the Company’s Board declared, and the Company paid, a cash dividend per common share of $ 0.25 . Additionally, in the first quarter of fiscal 2025, the Board declared, and the Company paid, a cash dividend per common share of $ 0.80 . 
+
+ The Board will evaluate future dividend declarations based on a number of factors, including restrictions under the Company’s secured asset-based revolving credit facility, business conditions, the Company’s financial performance, and other considerations. 
+
+ Provisions in the Company’s secured asset-based revolving credit facility could have the effect of restricting the Company’s ability to pay cash dividends on, or make future repurchases of its common stock, as further described in Note 6, Long-term Debt , to the condensed consolidated financial statements. 
+
+ NOTE 8 – STOCK-BASED COMPENSATION 
+ 
+ The Company recorded stock-based compensation cost as follows: 
+
+ Fiscal quarter ended 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Restricted stock: 
+
+ Time-based awards (1) 
+ 
+ $ 
+ 
+ 3,309 
+
+ $ 
+ 
+ 9,072 
+
+ Performance-based awards 
+ 
+ 143 
+
+ 283 
+
+ Market-based awards 
+ 
+ 232 
+
+ 398 
+
+ Total 
+ 
+ $ 
+ 
+ 3,684 
+
+ $ 
+ 
+ 9,753 
+
+ (1) First quarter of 2025 includes accelerated vesting of outstanding time-based restricted stock awards related to the retirement of the Company’s former CEO. 
+ 
+ The Company recognizes compensation cost ratably over the applicable performance periods based on the estimated probability of achievement of its performance targets at the end of each period. 
+
+ A total of 174,091 time-based restricted stock awards and 24,940 of performance-based restricted stock awards vested in the first quarter of fiscal 2026. 
+
+ Additionally, in the first quarter of fiscal 2026, the Company’s Board approved the issuance of the following new awards to certain key employees under the Company’s existing stock-based compensation plan, subject to vesting: 454,741 shares of time-based restricted stock awards with a weighted average grant-date fair value of $ 34.95 per award, 107,523 shares of performance-based restricted stock awards with a weighted average grant-date fair value of $ 34.95 per award, and 107,508 shares of market-based restricted stock awards with a weighted average grant-date fair value of $ 52.95 per award. 
+
+ The market-based restricted stock awards cliff vest after a three-year period, subject to the performance of the Company’s total shareholder return (“TSR”) relative to a defined peer group over the three-year period. A Monte-Carlo simulation was utilized to determine the grant-date fair value of the market-based restricted stock awards in fiscal 2026, using the following assumptions: beginning TSR price of $ 32.14 , grant-date share price of $ 34.95 , simulation term of 3 years, expected volatility of 45.7 %, and risk-free interest rate of 3.5 %. 
+
+ NOTE 9 – ACCUMULATED OTHER COMPREHENSIVE LOSS 
+ 
+ The components of Accumulated other comprehensive loss consisted of the following: 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ January 3, 2026 
+ 
+ March 29, 2025 
+
+ Cumulative foreign currency translation adjustments 
+ 
+ $ 
+ 
+ ( 27,372 ) 
+
+ $ 
+ 
+ ( 25,428 ) 
+
+ $ 
+ 
+ ( 39,110 ) 
+
+ Pension and post-retirement obligations (1)(2)(3) 
+ 
+ 632 
+
+ 1,066 
+
+ ( 3,956 ) 
+
+ Total accumulated other comprehensive loss 
+ 
+ $ 
+ 
+ ( 26,740 ) 
+
+ $ 
+ 
+ ( 24,361 ) 
+
+ $ 
+ 
+ ( 43,066 ) 
+
+ (1) Net of income taxes of $ 0.2 million, $ 0.3 million, and $ 1.2 million, for the period ended April 4, 2026, January 3, 2026, and March 29, 2025, respectively. 
+
+ (2) In fiscal 2025, the Company substantially completed the process of settling its pension obligations under the frozen OshKosh B’Gosh, Inc. Pension Plan. In the first quarter of fiscal 2026, the Company distributed the surplus plan assets, net of final plan expenses and adjustments, in accordance with the terms of the plan and regulatory requirements. 
+
+ (3) In the first quarter of fiscal 2026, the Company settled its post-retirement life insurance liabilities. 
+
+ 11 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ During the first quarter of fiscal 2026, the Company made a lump-sum payment to a third-party insurance provider to assume all remaining premium obligations related to its post-retirement life insurance arrangement. In connection with this settlement, $ 0.4 million of deferred gains on post-retirement life obligations (net of income taxes of $ 0.1 million) were reclassified from Accumulated other comprehensive loss to Other expense, net within the condensed consolidated statement of operations. In the first quarter of fiscal 2025, no amounts were reclassified from Accumulated other comprehensive loss to the condensed consolidated statement of operations. 
+
+ NOTE 10 – FAIR VALUE MEASUREMENTS 
+ 
+ Investments 
+
+ In support of The William Carter Company Deferred Compensation Plan (the “Deferred Compensation Plan”), the Company invests comparable amounts in marketable securities, principally equity-based mutual funds, to approximate the participant’s investment return on employee deferrals of compensation. These investments are held in an irrevocable Rabbi Trust established to fund the Company’s obligations under the Deferred Compensation Plan. The Rabbi Trust investments are restricted in their use to meet funding obligations to Plan participants. 
+
+ In fiscal 2025, the Board approved the termination of the Deferred Compensation Plan, effective as of September 20, 2025. In connection with the Deferred Compensation Plan’s termination, the Company expects to liquidate the Rabbi Trust investments to fund the settlement of the related Deferred Compensation Plan obligations, with final settlement expected to occur in the fourth quarter of fiscal 2026. 
+
+ All of the marketable securities are included in Prepaid expenses and other current assets on the Company’s condensed consolidated balance sheets as of April 4, 2026 and January 3, 2026, and their aggregate fair values were $ 22.2 million and $ 21.7 million, respectively. As of March 29, 2025, the aggregate fair value of the Rabbi Trust investments was $ 19.8 million and was included in Other assets. The change in classification reflects the Company’s expectation to liquidate the Rabbi Trust investments to fund the settlement of Deferred Compensation Plan obligations in the fourth quarter of fiscal 2026. 
+
+ These investments are classified as Level 1 within the fair value hierarchy. The change in the aggregate fair values of marketable securities is due to the net activity of gains and losses and any contributions and distributions during the period. Gains on the investments in marketable securities were $ 0.5 million and $ 0.3 million for the first fiscal quarters ended April 4, 2026 and March 29, 2025, respectively. These amounts are included in Other expense (income), net on the Company’s condensed consolidated statement of operations. 
+
+ Borrowings 
+
+ As of April 4, 2026, the Company had no outstanding borrowings under its ABL facility. 
+
+ The fair value of the Company’s senior notes was $ 588.4 million, $ 592.9 million, and $ 495.6 million at April 4, 2026, January 3, 2026, and March 29, 2025, respectively. The fair value of these senior notes was estimated using observable market inputs, which incorporates quoted market prices of comparable borrowings, the Company’s credit risk, and current market conditions, and is therefore within Level 2 of the fair value hierarchy. The senior notes had a notional value and carrying value (gross of debt issuance costs) of $ 575.0 million, $ 575.0 million, and $ 500.0 million as of April 4, 2026, January 3, 2026, and March 29, 2025, respectively. 
+
+ Goodwill, Intangible, and Long-Lived Tangible Assets 
+
+ Some assets are not measured at fair value on a recurring basis but are subject to fair value adjustments only in certain circumstances. These assets can include goodwill, indefinite-lived intangible assets, and other long-lived assets that have been reduced to fair value when impaired. Assets that are written down to fair value when impaired are not subsequently adjusted to fair value unless further impairment occurs. 
+
+ NOTE 11 – INCOME TAXES 
+ 
+ The Company’s income tax provision and effective tax rates for the fiscal periods indicated were as follows: 
+
+ Fiscal quarter ended 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+
+ March 29, 2025 
+
+ Income tax provision 
+ 
+ $ 
+ 
+ 5,520 
+
+ $ 
+ 
+ 5,810 
+
+ Effective income tax rate 
+ 
+ 27.8 
+ 
+ % 
+ 
+ 27.2 
+ 
+ % 
+
+ 12 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ The Company’s effective income tax rate was 27.8 % for the first fiscal quarter ended April 4, 2026, compared to 27.2 % for the first fiscal quarter ended March 29, 2025. The increase in the effective tax rate was primarily driven by incremental tax expense related to the applicability of the global minimum tax in Hong Kong. This was partially offset by lower incremental tax expense associated with the vesting of restricted stock awards compared to the prior period. 
+
+ As of April 4, 2026, the Company had gross unrecognized income tax benefits of $ 6.3 million, of which $ 5.5 million, if ultimately recognized, may affect the Company’s effective income tax rate in the periods settled. The Company has recorded tax positions for which the ultimate deductibility is more likely than not, but for which there is uncertainty about the timing of such deductions. 
+
+ NOTE 12 – EARNINGS PER SHARE 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Weighted-average number of common and common equivalent shares outstanding: 
+
+ Basic number of common shares outstanding 
+ 
+ 35,493,430 
+
+ 35,312,090 
+
+ Dilutive effect of equity awards 
+ 
+ 2,545 
+
+ 1,923 
+
+ Diluted number of common and common equivalent shares outstanding 
+ 
+ 35,495,975 
+
+ 35,314,013 
+
+ Earnings per share: 
+
+ (dollars in thousands, except per share data) 
+
+ Basic net income per common share: 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ Income allocated to participating securities 
+ 
+ ( 393 ) 
+
+ ( 285 ) 
+
+ Net income available to common shareholders 
+ 
+ $ 
+ 
+ 13,943 
+
+ $ 
+ 
+ 15,254 
+
+ Basic net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ Diluted net income per common share: 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ Income allocated to participating securities 
+ 
+ ( 393 ) 
+
+ ( 285 ) 
+
+ Net income available to common shareholders 
+ 
+ $ 
+ 
+ 13,943 
+
+ $ 
+ 
+ 15,254 
+
+ Diluted net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ Anti-dilutive awards excluded from diluted earnings per share computation (*) 
+ 
+ 125,516 
+
+ 389,307 
+
+ (*) The anti-dilutive shares excluded from diluted net income per common share primarily relate to out-of-the-money stock options. 
+
+ NOTE 13 – ORGANIZATIONAL RESTRUCTURING 
+ 
+ In fiscal 2025, the Company initiated an organizational restructuring of its offices-based workforce to right-size its cost structure and improve future profitability. In connection with this restructuring, the Company recorded charges of $ 9.8 million in Selling, general, and administrative expenses in fiscal 2025, primarily related to severance and other termination benefits. 
+
+ As of April 4, 2026 and January 3, 2026, the Company had an accrual of $ 1.5 million and $ 8.8 million, respectively, related to these actions recorded in Other current liabilities on the condensed consolidated balance sheets. The Company expects to pay substantially all of the remaining severance and other termination benefits during the second quarter of fiscal 2026. 
+
+ NOTE 14 – SEGMENT INFORMATION 
+ 
+ The Company reports segment information based upon a “management approach.” The management approach refers to the internal reporting that is used by management for making operating decisions and assessing the performance of the Company’s reportable segments. 
+
+ The Company has three operating and reportable segments: U.S. Retail, U.S. Wholesale, and International. The U.S. Retail segment consists of revenue primarily from sales of products in the United States through our retail stores, eCommerce websites, and mobile app. Similarly, the U.S. Wholesale segment consists of revenue primarily from sales in the United States of products to our wholesale partners. The International segment consists of revenue primarily from sales of products outside 
+
+ 13 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ the United States, largely through our retail stores and eCommerce websites in Canada and Mexico, and sales to our international wholesale customers and licensees. The Company sells similar products in each of its three segments. 
+
+ The Company’s chief operating decision maker is the Chief Executive Officer. The chief operating decision maker evaluates the operating performance of the segments based upon each segment’s net sales and segment operating income. Segment operating income includes net sales, royalty income, and related cost of goods sold and selling, general, and administrative expenses attributable to each segment. Segment operating income excludes unallocated corporate expenses as well as specific charges that are not directly attributable to segment operations, including restructuring costs, operating model improvement costs, leadership transition costs, and impairment charges related to goodwill and indefinite-lived intangible assets. The Company does not evaluate performance or allocate resources based on segment asset data, and therefore total segment assets are not presented. 
+
+ Certain costs, including incentive compensation for certain employees, and various other general corporate costs that are not specifically allocable to segments, are included in unallocated corporate expenses below. 
+
+ Segment Performance 
+ 
+ The tables below present certain segment information for our reportable segments for the periods indicated: 
+
+ Fiscal quarter ended April 4, 2026 
+
+ (dollars in thousands) 
+ 
+ U.S. Retail 
+ 
+ U.S. Wholesale 
+ 
+ International 
+ 
+ Total 
+
+ Net sales 
+ 
+ $ 
+ 
+ 332,248 
+
+ $ 
+ 
+ 251,406 
+
+ $ 
+ 
+ 97,459 
+
+ $ 
+ 
+ 681,113 
+
+ Cost of goods sold 
+ 
+ 144,533 
+
+ 191,734 
+
+ 50,973 
+
+ 387,240 
+
+ Selling expenses (1) 
+ 
+ 126,155 
+
+ 2,408 
+
+ 28,148 
+
+ 156,711 
+
+ Distribution expenses (2) 
+ 
+ 20,302 
+
+ 14,404 
+
+ 6,188 
+
+ 40,894 
+
+ Other segment items (3) 
+ 
+ 32,222 
+
+ 6,076 
+
+ 7,991 
+
+ 46,288 
+
+ Segment operating income 
+ 
+ $ 
+ 
+ 9,037 
+
+ $ 
+ 
+ 36,784 
+
+ $ 
+ 
+ 4,159 
+
+ $ 
+ 
+ 49,980 
+
+ (1) Selling expenses include the costs of operating our retail stores and eCommerce channels, as well as wholesale sales management costs. 
+
+ (2) Distribution expenses include payments to third-party shippers and handling costs to process product through our distribution facilities, including eCommerce fulfillment costs, and delivery to our wholesale customers and to our retail stores. 
+
+ (3) Other segment items include royalty income and overhead costs that are attributable to our reportable segments and include allocated accounting, finance, human resources, and information technology expenses, occupancy costs, and other benefit and compensation programs, including performance-based compensation. 
+
+ Fiscal quarter ended March 29, 2025 
+
+ (dollars in thousands) 
+ 
+ U.S. Retail 
+ 
+ U.S. Wholesale 
+ 
+ International 
+ 
+ Total 
+
+ Net sales 
+ 
+ $ 
+ 
+ 294,432 
+
+ $ 
+ 
+ 250,096 
+
+ $ 
+ 
+ 85,299 
+
+ $ 
+ 
+ 629,827 
+
+ Cost of goods sold 
+ 
+ 120,649 
+
+ 170,608 
+
+ 47,480 
+
+ 338,737 
+
+ Selling expenses 
+ 
+ 121,522 
+
+ 2,389 
+
+ 24,254 
+
+ 148,165 
+
+ Distribution expenses 
+ 
+ 19,250 
+
+ 15,227 
+
+ 6,116 
+
+ 40,593 
+
+ Other segment items 
+ 
+ 30,703 
+
+ 6,563 
+
+ 7,664 
+
+ 44,930 
+
+ Segment operating income (loss) 
+ 
+ $ 
+ 
+ 2,308 
+
+ $ 
+ 
+ 55,309 
+
+ $ 
+ 
+ ( 215 ) 
+
+ $ 
+ 
+ 57,402 
+
+ 14 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (continued) 
+
+ The table below presents a reconciliation of reportable segment operating income to Income before income taxes: 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ Total segment operating income 
+ 
+ $ 
+ 
+ 49,980 
+
+ $ 
+ 
+ 57,402 
+
+ Items not included in segment operating income: 
+
+ Unallocated corporate expenses (1) 
+ 
+ ( 21,537 ) 
+
+ ( 22,012 ) 
+
+ Leadership transition costs (2) 
+ 
+ — 
+
+ ( 6,126 ) 
+
+ Operating model improvement costs (3) 
+ 
+ — 
+
+ ( 3,162 ) 
+
+ Consolidated operating income 
+ 
+ 28,443 
+
+ 26,102 
+
+ Interest expense 
+ 
+ 11,757 
+
+ 7,819 
+
+ Interest income 
+ 
+ ( 3,256 ) 
+
+ ( 3,142 ) 
+
+ Other expense, net 
+ 
+ 86 
+
+ 76 
+
+ Income before income taxes 
+ 
+ $ 
+ 
+ 19,856 
+
+ $ 
+ 
+ 21,349 
+
+ (1) Unallocated corporate expenses include corporate overhead expenses that are not directly attributable to one of our reportable segments and include unallocated accounting, finance, legal, human resources, and information technology expenses, occupancy costs for our corporate headquarters, and other benefit and compensation programs, including performance-based compensation. 
+
+ (2) Related to costs associated with the transition of the Company’s former CEO, including accelerated vesting of outstanding time-based restricted stock awards pursuant to a retirement agreement approved by the Board, executive recruiting costs, and other related costs. 
+
+ (3) Primarily related to third-party consulting costs to support operating model improvement costs. 
+ 
+ Additional Data by Segment 
+ 
+ The tables below present additional information for our reportable segments for the periods presented: 
+
+ Depreciation and amortization expense 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ U.S. Wholesale 
+ 
+ $ 
+ 
+ 1,967 
+
+ $ 
+ 
+ 2,177 
+
+ U.S. Retail 
+ 
+ 8,444 
+
+ 8,300 
+
+ International 
+ 
+ 2,734 
+
+ 2,322 
+
+ Unallocated corporate 
+ 
+ 480 
+
+ 455 
+
+ Total 
+ 
+ 13,625 
+
+ 13,254 
+
+ NOTE 15 – COMMITMENTS AND CONTINGENCIES 
+ 
+ The Company is subject to various claims and pending or threatened lawsuits in the normal course of business. The Company is not currently a party to any legal proceedings that it believes would have a material adverse effect on its financial position, results of operations, or cash flows. 
+
+ The Company’s contractual obligations and commitments include obligations associated with leases, the secured asset-based revolving credit facility, senior notes, and employee benefit plans. 
+
+ NOTE 16 – SUBSEQUENT EVENTS 
+ 
+ On May 1, 2026, subsequent to April 4, 2026, the Company announced that the Board approved the appointment of Sharon Price John as Chief Executive Officer & President of the Company and a member of the Board effective June 15, 2026. In connection with the appointment of Ms. John, Douglas C. Palladini has departed the Company as Chief Executive Officer & President and resigned as a member of the Board effective April 28, 2026. Effective April 28, 2026, Richard F. Westenberger, the Company’s Chief Financial Officer & Chief Operating Officer, was appointed as Interim Chief Executive Officer & President. Mr. Westenberger will maintain his existing responsibilities in addition to serving as Interim Chief Executive Officer & President until Ms. John’s start date. 
+
+ In connection with Ms. John’s appointment, the Company entered into an employment agreement with Ms. John, including certain cash and equity-based compensation arrangements. No amounts related to these events have been recognized in the condensed consolidated financial statements as of and for the fiscal quarter ended April 4, 2026. Additional information regarding these management changes and related arrangements is included in the Company’s Current Report on Form 8-K filed with the SEC on May 1, 2026. 
+
+ 15 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS 
+
+ FORWARD-LOOKING STATEMENTS 
+
+ Statements in this Quarterly Report on Form 10-Q that are not historical fact and use predictive words such as “estimates”, “outlook”, “guidance”, “expect”, “believe”, “intend”, “designed”, “target”, “plans”, “may”, “will”, “are confident” and similar words are forward-looking statements (as such term is defined in the Private Securities Litigation Reform Act of 1995). These forward-looking statements and related assumptions involve risks and uncertainties that could cause actual results and outcomes to differ materially from any forward-looking statements or views expressed in this Form 10-Q. These risks and uncertainties include, but are not limited to, those disclosed in Part II, Item 1A. “Risk Factors” of the Company’s Quarterly Report on Form 10-Q for the fiscal quarter ended April 4, 2026 and Part I, Item 1A. “Risk Factors” of the Company’s Annual Report on Form 10-K for the fiscal year ended January 3, 2026, and otherwise in our reports and filings with the Securities and Exchange Commission, as well as the following factors: changes in global economic and financial conditions, and the resulting impact on consumer confidence and consumer spending, as well as other changes in consumer discretionary spending habits; risks related to public health crises; risks related to the organizational restructuring plan, including, but not limited to, our ability to achieve the expected savings from the plan and to fully implement the plan; risks related to consumer tastes and preferences, as well as fashion trends; the failure to protect our intellectual property; the diminished value of our brands, potentially as a result of negative publicity or unsuccessful branding and marketing efforts; delays, product recalls, or loss of revenue due to a failure to meet our quality standards; risks related to uncertainty regarding the future of international trade agreements and the United States’ position on international trade, as well as significant political, trade, and regulatory developments and other circumstances beyond our control; the roll-back of incremental tariffs imposed under the International Emergency Economic Powers Act (the “incremental tariffs”) and any additional actions taken in response to their roll-back, including tariffs imposed pursuant to Section 122 of the Trade Act of 1974 (the “122 tariffs”); our ability to recover refunds of incremental tariff amounts or other tariff amounts paid; increased competition in the marketplace; financial difficulties for one or more of our major customers; identification of locations and negotiation of appropriate lease terms for our retail stores; distinct risks facing our eCommerce business; failure to forecast demand for our products and our failure to manage our inventory; increased margin pressures, including increased cost of materials and labor and our inability to successfully increase prices to offset these increased costs; continued inflationary pressures with respect to labor and raw materials and global supply chain constraints that have, and could continue, to affect freight, transit, and other costs; fluctuations in foreign currency exchange rates; unseasonable or extreme weather conditions; risks associated with corporate responsibility issues; our foreign sourcing arrangements; a relatively small number of vendors supply a significant amount of our products; disruptions in our supply chain, including increased transportation and freight costs; our ability to effectively source and manage inventory; problems with our Braselton, Georgia distribution facility; pending and threatened lawsuits; a breach of our information technology systems and the loss of personal data or a failure to implement new information technology systems successfully; unsuccessful expansion into international markets; failure to comply with various laws and regulations; failure to properly manage strategic initiatives; retention of key individuals; acquisition and integration of other brands and businesses; failure to achieve sales growth plans and profitability objectives to support the carrying value of our intangible assets; our continued ability to meet obligations related to our debt; changes in our tax obligations, including additional customs, duties or tariffs; our continued ability to declare and pay a dividend; volatility in the market price of our common stock; and the cost or effort required for our shareholders to bring certain claims or actions against us, as a result of our designation of the Court of Chancery of the State of Delaware as the sole and exclusive forum for certain types of actions and proceedings. Except for any ongoing obligations to disclose material information as required by federal securities laws, the Company does not undertake any obligation to publicly update or revise any forward-looking statements, whether as a result of new information, future events, or otherwise. The inclusion of any statement in this Quarterly Report on Form 10-Q does not constitute an admission by the Company or any other person that the events or circumstances described in such statement are material. 
+
+ OVERVIEW 
+
+ We are North America’s largest and most-enduring apparel company exclusively for babies and young children. Our core brands are Carter’s and OshKosh B’gosh (or “ OshKosh ”), iconic and among the sector’s most trusted names. Our exclusive Carter’s brands, which consist of Child of Mine , Just One You , and Simple Joys , are developed for Walmart, Target, and Amazon. Our emerging brands include Little Planet , crafted with organic fabrics and sustainable materials, Otter Avenue , a toddler-focused apparel brand, and Skip Hop , baby essentials from tubs to toys. 
+
+ 16 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ Established in 1865, our Carter’s brand is recognized and trusted by consumers for high-quality apparel and accessories for children in sizes newborn to 14. 
+
+ Established in 1895, OshKosh is a well-known brand, trusted by consumers for high-quality apparel and accessories for children in sizes newborn to 14, with a focus on playclothes for toddlers and young children. We acquired OshKosh in 2005. 
+
+ Established in 2003, the Skip Hop brand rethinks, reenergizes, and reimagines durable necessities to create higher value, superior quality, and award-winning products for parents, babies, and toddlers. We acquired Skip Hop in 2017. 
+
+ Launched in 2021, the Little Planet brand focuses on sustainable clothing through the sourcing of mostly organic cotton as certified under the Global Organic Textile Standard (“GOTS”), a global textile processing standard for organic fibers. This brand includes a wide assortment of baby and toddler apparel, accessories, and sleepwear. 
+
+ Launched in 2025, Otter Avenue is a toddler brand that focuses on functionality designed to encourage independence, while combining fun, sophistication, and fashion-forward styles. This brand includes a curated assortment of toddler apparel and accessories. 
+
+ Additionally, Child of Mine , an exclusive Carter’s brand, is sold at Walmart, Just One You , an exclusive Carter’s brand, is sold at Target, and Simple Joys , an exclusive Carter’s brand, is available on Amazon. 
+
+ Our purpose is to embrace the wonder of childhood and uplift those shaping the future. We believe our brands are complementary to one another in product offering and aesthetic. Each brand is uniquely positioned in the marketplace and offers great value to families with young children. Our multichannel, global business model, which includes retail stores, eCommerce, mobile app, and wholesale distribution channels, as well as omni-channel capabilities in the United States and Canada, enables us to reach a broad range of consumers around the world. 
+
+ As of April 4, 2026, our channels included 1,062 company-operated retail stores in North America, eCommerce websites, approximately 19,500 wholesale locations in North America, as well as our international wholesale accounts and licensees who operate in over 1,100 locations outside of North America in over 90 countries. 
+
+ The following is a discussion of our results of operations and current financial condition. This should be read in conjunction with the unaudited condensed consolidated financial statements and related notes included in this Form 10-Q and audited consolidated financial statements and related notes included in our Annual Report on Form 10-K for the 2025 fiscal year ended January 3, 2026. 
+
+ Fiscal Periods 
+
+ The Company operates on a 52 or 53 week fiscal calendar. Fiscal 2026 will end on January 2, 2027 and includes 52 weeks. Fiscal 2025 ended on January 3, 2026 and included 53 weeks. The fiscal quarters ended April 4, 2026 and March 29, 2025 each included 13 weeks. 
+
+ Segments 
+
+ We have three operating and reportable segments: U.S. Retail, U.S. Wholesale, and International. Our U.S. Retail segment consists of revenue primarily from sales of products in the United States through our retail stores, eCommerce websites, and mobile app. Our U.S. Wholesale segment consists of revenue primarily from sales in the United States of products to our wholesale customers. Our International segment consists of revenue primarily from sales of products outside the United States, largely through our retail stores and eCommerce websites in Canada and Mexico, and sales to our international wholesale customers and licensees. The Company sells similar products in each of its three segments. 
+
+ 17 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ The Company’s chief operating decision maker is the Chief Executive Officer. The chief operating decision maker evaluates the operating performance of the segments based upon each segment’s net sales and segment operating income. Segment operating income includes net sales, royalty income, and related cost of goods sold and selling, general, and administrative expenses attributable to each segment. Segment operating income excludes unallocated corporate expenses as well as specific charges that are not directly attributable to segment operations, including operating model improvement costs, restructuring costs, leadership transition costs, and impairment charges related to goodwill and indefinite-lived intangible assets. 
+
+ Gross Profit and Gross Margin 
+
+ Gross profit represents consolidated net sales less cost of goods sold. Gross margin is calculated as gross profit divided by consolidated net sales. Cost of goods sold includes the cost of products, as well as changes in inventory reserves and expenses related to the merchandising, design, and procurement of product, including inbound freight costs, purchasing and receiving costs, and inspection costs. Costs of goods sold also includes the costs of shipping eCommerce orders directly to end consumers. For omni-channel transactions, Costs of goods sold includes the costs of shipping product to end consumers or to retail stores. Our gross profit and gross margin may not be comparable to other entities that define their metrics differently. 
+
+ Retail store occupancy costs, distribution expenses, and generally all other expenses other than interest and income taxes are included in Selling, general, and administrative (“SG&A”) expenses. Distribution expenses included in SG&A primarily consist of payments to third-party shippers and handling costs to process product through the Company’s distribution facilities, including eCommerce fulfillment costs, and delivery of product to wholesale customers and to our retail stores. 
+
+ Comparable Sales Metrics 
+
+ We present comparable sales metrics because we consider them an important supplemental measure of our U.S. Retail and International performance, and the Company uses such information to assess the performance of the U.S. Retail and International segments. Additionally, we believe they are frequently used by securities analysts, investors, and other interested parties in the evaluation of our business. 
+
+ Our comparable sales metrics include sales for all stores and eCommerce sites that were open and operated by us during the comparable fiscal period, including stand-alone format stores that converted to multi-branded format stores and certain remodeled or relocated stores. A store or site becomes comparable following 13 consecutive full fiscal months of operations. If a store relocates within the same center with no business interruption or material change in square footage, the sales of such store will continue to be included in the comparable store metrics. If a store relocates to another center more than five miles away, or there is a material change in square footage, such store is treated as a new store. Stores that are closed during the relevant fiscal period are included in the comparable store sales metrics up to the last full fiscal month of operations. In fiscal years that include a 53rd week, we adjust the prior year comparable period to include a 53rd week so comparable sales reflect an equivalent number of weeks in each period. 
+
+ The method of calculating sales metrics varies across the retail industry. As a result, our comparable sales metrics may not be comparable to those of other retailers. 
+
+ Recent Developments 
+
+ Executive Leadership Transition 
+
+ On May 1, 2026, subsequent to April 4, 2026, the Company announced that the Board of Directors (the “Board”) approved the appointment of Sharon Price John as Chief Executive Officer & President of the Company and a member of the Board effective June 15, 2026. In connection with the appointment of Ms. John, Douglas C. Palladini has departed the Company as Chief Executive Officer & President and resigned as a member of the Board effective April 28, 2026. Effective April 28, 2026, Richard F. Westenberger, the Company’s Chief Financial Officer & Chief Operating Officer, was appointed as Interim Chief Executive Officer & President. Mr. Westenberger will maintain his existing responsibilities in addition to serving as interim Chief Executive Officer & President until Ms. John’s start date. Additional information regarding these management changes and related arrangements is included in the Company’s Current Report on Form 8-K filed with the SEC on May 1, 2026. 
+
+ Trade Policy 
+
+ During the first quarter of fiscal 2026, the U.S. Supreme Court ruled that tariffs imposed under the International Emergency Economic Powers Act (“IEEPA”) were unlawful. Subsequent to April 4, 2026, following the April 20, 2026 launch of U.S. Customs and Border Protection’s Consolidated Administration and Processing of Entries (“CAPE”) process, the Company submitted claims seeking approximately $130 million of refunds of previously paid IEEPA tariffs through the CAPE system. 
+
+ 18 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ The Company has elected to apply a gain contingency model in accordance with ASC 450-30, “Gain Contingencies” to account for potential recoveries of previously paid IEEPA tariffs. Under this model, a gain contingency is not recognized in the financial statements until the gain is realized or realizable. Any recovery, when recognized, would be reflected as a reduction of inventory to the extent the related goods remain on hand, or as a reduction of Cost of goods sold for amounts related to goods already sold. 
+
+ As of April 4, 2026, the Company had not received any refund payments, and uncertainty remained regarding the timing, amount, and ultimate receipt of any refunds. Accordingly, no gain has been recognized in the condensed consolidated financial statements for the fiscal quarter ended April 4, 2026. 
+
+ First Fiscal Quarter 2026 Financial Highlights 
+
+ Unless otherwise stated, comparisons are to the first quarter of fiscal 2025: 
+
+ • Consolidated net sales increased $51.3 million, or 8.1%, to $681.1 million. 
+
+ ◦ U.S. Retail sales increased $37.8 million driven by higher unit volume and average unit retail (“AUR”) in both retail stores and eCommerce channels. Comparable net sales, including retail stores and eCommerce, increased 10.5% for the period, reflecting a fourth consecutive quarter of positive comparable net sales growth. 
+
+ ◦ U.S. Wholesale sales increased $1.3 million, driven by increased sales of our exclusive Carter’s brands, primarily offset by lower demand from department stores. 
+
+ ◦ International sales increased $12.2 million, driven by growth in Mexico and Canada, as well as favorable changes in foreign currency exchange rates used for translation. 
+
+ • Consolidated gross profit increased $2.8 million, or 1.0%, to $293.9 million, driven by increased net sales, which were primarily offset by increased product costs. Consolidated gross margin decreased 310 bps to 43.1%, primarily due to higher average unit cost (“AUC”) driven by incremental tariff-related costs, partially offset by higher AUR. 
+
+ • Consolidated SG&A expenses decreased $0.3 million, or 0.1%, to $270.0 million. SG&A as a percentage of consolidated net sales (“SG&A rate”) decreased 330 bps to 39.6%, driven by fixed cost leverage on higher net sales and costs related to leadership transition and operating model improvements in the first quarter of fiscal 2025 that did not reoccur in the first quarter of fiscal 2026. 
+
+ • Consolidated operating income increased $2.3 million, or 9.0%, to $28.4 million and adjusted operating income, a non-GAAP financial measure, decreased $6.9 million, or 19.6%, to $28.4 million. Operating margin increased 10 bps to 4.2%, primarily due to the factors discussed in detail below. 
+
+ • Consolidated net income decreased $1.2 million, or 7.7%, to $14.3 million driven by the factors we discuss in detail below, including an increase in interest expense of $3.9 million. 
+
+ • Diluted net income per common share decreased $0.04, or 9.3%, to $0.39, and adjusted diluted net income per common share decreased $0.27, or 40.9%, to $0.39. 
+
+ • During the first quarter of fiscal 2026, we opened 3 stores and closed 9 stores in the United States. 
+
+ • As a result of our strong financial position and available liquidity, we returned $9.2 million to our shareholders in cash dividends. 
+
+ 19 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ RESULTS OF OPERATIONS 
+
+ FIRST FISCAL QUARTER ENDED APRIL 4, 2026 COMPARED TO FIRST FISCAL QUARTER ENDED MARCH 29, 2025 
+
+ The following table summarizes our results of operations. 
+
+ Fiscal quarter ended 
+
+ (dollars in thousands, except per share data) 
+ 
+ April 4, 2026 
+ 
+ March 29, 2025 
+ 
+ $ Change 
+ 
+ % / bps Change 
+
+ Consolidated net sales 
+ 
+ $ 
+ 
+ 681,113 
+
+ $ 
+ 
+ 629,827 
+
+ $ 
+ 
+ 51,286 
+
+ 8.1 
+ 
+ % 
+
+ Cost of goods sold 
+ 
+ 387,240 
+
+ 338,737 
+
+ 48,503 
+
+ 14.3 
+ 
+ % 
+
+ Gross profit 
+ 
+ 293,873 
+
+ 291,090 
+
+ 2,783 
+
+ 1.0 
+ 
+ % 
+
+ Gross profit as % of consolidated net sales 
+ 
+ 43.1 
+ 
+ % 
+ 
+ 46.2 
+ 
+ % 
+ 
+ (310) bps 
+
+ Royalty income, net 
+ 
+ 4,619 
+
+ 5,332 
+
+ (713) 
+
+ (13.4) 
+ 
+ % 
+
+ Royalty income as % of consolidated net sales 
+ 
+ 0.7 
+ 
+ % 
+ 
+ 0.8 
+ 
+ % 
+ 
+ (10) bps 
+
+ Selling, general, and administrative expenses 
+ 
+ 270,049 
+
+ 270,320 
+
+ (271) 
+
+ (0.1) 
+ 
+ % 
+
+ SG&A expenses as % of consolidated net sales 
+ 
+ 39.6 
+ 
+ % 
+ 
+ 42.9 
+ 
+ % 
+ 
+ (330) bps 
+
+ Operating income 
+ 
+ 28,443 
+
+ 26,102 
+
+ 2,341 
+
+ 9.0 
+ 
+ % 
+
+ Operating income as % of consolidated net sales 
+ 
+ 4.2 
+ 
+ % 
+ 
+ 4.1 
+ 
+ % 
+ 
+ 10 bps 
+
+ Interest expense 
+ 
+ 11,757 
+
+ 7,819 
+
+ 3,938 
+
+ 50.4 
+ 
+ % 
+
+ Interest income 
+ 
+ (3,256) 
+
+ (3,142) 
+
+ 114 
+
+ 3.6 
+ 
+ % 
+
+ Other expense, net 
+ 
+ 86 
+
+ 76 
+
+ 10 
+
+ 13.2 
+ 
+ % 
+
+ Income before income taxes 
+ 
+ 19,856 
+
+ 21,349 
+
+ (1,493) 
+
+ (7.0) 
+ 
+ % 
+
+ Income tax provision 
+ 
+ 5,520 
+
+ 5,810 
+
+ (290) 
+
+ (5.0) 
+ 
+ % 
+
+ Effective tax rate (*) 
+ 
+ 27.8 
+ 
+ % 
+ 
+ 27.2 
+ 
+ % 
+ 
+ 60 bps 
+
+ Net income 
+ 
+ $ 
+ 
+ 14,336 
+
+ $ 
+ 
+ 15,539 
+
+ $ 
+ 
+ (1,203) 
+
+ (7.7) 
+ 
+ % 
+
+ Basic net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ $ 
+ 
+ (0.04) 
+
+ (9.3) 
+ 
+ % 
+
+ Diluted net income per common share 
+ 
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 0.43 
+
+ $ 
+ 
+ (0.04) 
+
+ (9.3) 
+ 
+ % 
+
+ Dividend declared and paid per common share 
+ 
+ $ 
+ 
+ 0.25 
+
+ $ 
+ 
+ 0.80 
+
+ $ 
+ 
+ (0.55) 
+
+ (68.8) 
+ 
+ % 
+
+ (*) Effective tax rate is calculated by dividing the provision for income taxes by income before income taxes. 
+
+ Note: Results may not be additive due to rounding. If applicable, percentage changes that are not considered meaningful are denoted with “nm”. 
+
+ Consolidated Net Sales 
+
+ Consolidated net sales increased $51.3 million, or 8.1%, to $681.1 million, driven by increased net sales in each of our U.S. Retail, U.S. Wholesale, and International segments. AUR increased by a high-single digit percentage, reflecting higher pricing to mitigate incremental tariff-related costs and the favorable impact of changes in foreign currency exchange rates used for translation. Unit volume increased by a low-single digit percentage driven by growth across our U.S. Retail and International segments, partially offset by unit volume decline in U.S. Wholesale. Changes in foreign currency exchange rates used for translation had a favorable effect on our consolidated net sales of $5.6 million. 
+
+ Gross Profit and Gross Margin 
+
+ Consolidated gross profit increased $2.8 million, or 1.0%, to $293.9 million and consolidated gross margin decreased 310 bps to 43.1%. The increase in consolidated gross profit was driven by higher net sales and favorable channel mix. The decrease in consolidated gross margin was driven by higher AUC, partially offset by favorable channel mix. AUC increased by a low-teens digit percentage, driven by incremental tariff-related costs and investments in product make. Incremental tariff-related costs unfavorably impacted Cost of goods sold by approximately $50 million. 
+
+ Selling, General, and Administrative Expenses 
+
+ Consolidated SG&A expenses decreased $0.3 million, or 0.1%, to $270.0 million and SG&A rate decreased 330 bps to 39.6%. This decrease in the SG&A rate was driven by fixed cost leverage on higher net sales, as well as costs related to leadership transition and operating model improvements in the first quarter of fiscal 2025 that did not reoccur in the first quarter of fiscal 2026. 
+
+ 20 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ Operating Income 
+
+ Consolidated operating income increased $2.3 million, or 9.0%, to $28.4 million and consolidated operating margin increased 10 bps to 4.2%, primarily due to the factors previously discussed. 
+
+ Interest Expense 
+
+ Consolidated interest expense increased $3.9 million, or 50.4%, to $11.8 million, reflecting the impact of the Company’s fourth quarter of fiscal 2025 issuance of $575.0 million principal amount of 7.375% senior notes due 2031 and redemption of $500.0 million principal amount of 5.625% senior notes due 2027. 
+
+ Income Taxes 
+
+ Consolidated income tax provision decreased $0.3 million, or 5.0%, to $5.5 million, and the effective tax rate increased 60 bps to 27.8%. The increase in the effective tax rate was primarily driven by incremental tax expense related to the applicability of the global minimum tax in Hong Kong. This was partially offset by lower incremental tax expense associated with the vesting of restricted stock awards compared to the prior period. 
+
+ Net Income 
+
+ Consolidated net income decreased $1.2 million, or 7.7%, to $14.3 million, primarily due to the factors previously discussed. 
+
+ Results by Segment - First Quarter of Fiscal 2026 compared to First Quarter of Fiscal 2025 
+
+ The following table summarizes net sales by segment and segment operating income for the first quarter of fiscal 2026 and the first quarter of fiscal 2025: 
+
+ Fiscal quarter ended 
+
+ (dollars in thousands) 
+ 
+ April 4, 2026 
+ 
+ % of consolidated net sales 
+ 
+ March 29, 2025 
+ 
+ % of consolidated net sales 
+ 
+ $ Change 
+ 
+ % Change 
+
+ Net sales: 
+
+ U.S. Retail 
+ 
+ $ 
+ 
+ 332,248 
+
+ 48.8 
+ 
+ % 
+ 
+ $ 
+ 
+ 294,432 
+
+ 46.8 
+ 
+ % 
+ 
+ $ 
+ 
+ 37,816 
+
+ 12.8 
+ 
+ % 
+
+ U.S. Wholesale 
+ 
+ 251,406 
+
+ 36.9 
+ 
+ % 
+ 
+ 250,096 
+
+ 39.7 
+ 
+ % 
+ 
+ 1,311 
+
+ 0.5 
+ 
+ % 
+
+ International 
+ 
+ 97,459 
+
+ 14.3 
+ 
+ % 
+ 
+ 85,299 
+
+ 13.5 
+ 
+ % 
+ 
+ 12,160 
+
+ 14.3 
+ 
+ % 
+
+ Consolidated net sales 
+ 
+ $ 
+ 
+ 681,113 
+
+ 100.0 
+ 
+ % 
+ 
+ $ 
+ 
+ 629,827 
+
+ 100.0 
+ 
+ % 
+ 
+ $ 
+ 
+ 51,286 
+
+ 8.1 
+ 
+ % 
+
+ Segment operating income (loss): 
+ 
+ Segment operating margin 
+ 
+ Segment operating margin 
+
+ U.S. Retail 
+ 
+ $ 
+ 
+ 9,037 
+
+ 2.7 
+ 
+ % 
+ 
+ $ 
+ 
+ 2,308 
+
+ 0.8 
+ 
+ % 
+ 
+ $ 
+ 
+ 6,729 
+
+ 291.6 
+ 
+ % 
+
+ U.S. Wholesale 
+ 
+ 36,784 
+
+ 14.6 
+ 
+ % 
+ 
+ 55,309 
+
+ 22.1 
+ 
+ % 
+ 
+ (18,525) 
+
+ (33.5) 
+ 
+ % 
+
+ International 
+ 
+ 4,159 
+
+ 4.3 
+ 
+ % 
+ 
+ (215) 
+
+ (0.3) 
+ 
+ % 
+ 
+ 4,374 
+
+ nm 
+
+ Total segment operating income (loss) 
+ 
+ $ 
+ 
+ 49,980 
+
+ 7.3 
+ 
+ % 
+ 
+ $ 
+ 
+ 57,402 
+
+ 9.1 
+ 
+ % 
+ 
+ $ 
+ 
+ (7,422) 
+
+ (12.9) 
+ 
+ % 
+
+ Items not included in segment operating income: 
+ 
+ Consolidated operating margin 
+ 
+ Consolidated operating margin 
+
+ Unallocated corporate expenses (1) 
+ 
+ (21,537) 
+
+ n/a 
+ 
+ (22,012) 
+
+ n/a 
+ 
+ (475) 
+
+ (2.2) 
+ 
+ % 
+
+ Leadership transition costs (2) 
+ 
+ — 
+
+ n/a 
+ 
+ (6,126) 
+
+ n/a 
+ 
+ n/a 
+ 
+ n/a 
+
+ Operating model improvement costs (3) 
+ 
+ — 
+
+ n/a 
+ 
+ (3,162) 
+
+ n/a 
+ 
+ n/a 
+ 
+ n/a 
+
+ Consolidated operating income 
+ 
+ $ 
+ 
+ 28,443 
+
+ 4.2 
+ 
+ % 
+ 
+ $ 
+ 
+ 26,102 
+
+ 4.1 
+ 
+ % 
+ 
+ $ 
+ 
+ 2,341 
+
+ 9.0 
+ 
+ % 
+
+ (1) Unallocated corporate expenses include corporate overhead expenses that are not directly attributable to one of our business segments and include unallocated accounting, finance, legal, human resources, and information technology expenses, occupancy costs for our corporate headquarters, and other benefit and compensation programs, including performance-based compensation. 
+
+ (2) Related to costs associated with the transition of our former CEO, including accelerated vesting of outstanding time-based restricted stock awards pursuant to a retirement agreement approved by the Board, executive recruiting costs, and other related costs. Amounts are reflected within Selling, general, and administrative expenses in our condensed consolidated statement of operations. 
+
+ (3) Primarily related to third-party consulting costs to support operating model improvements. Amounts are reflected within Selling, general, and administrative expenses in our condensed consolidated statement of operations. 
+
+ 21 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ U.S. Retail 
+
+ U.S. Retail segment net sales increased $37.8 million, or 12.8%, to $332.2 million. The increase in net sales was driven by higher unit volume and higher AUR. Unit volume increased by a double-digit percentage driven by higher traffic and transactions in both stores and eCommerce. AUR increased by a low-single digit percentage, reflecting pricing actions to mitigate incremental tariff-related costs, partially offset by product mix, which reflects a higher proportion of opening price point product and clearance sales compared to the prior period. In addition, the first quarter of fiscal 2026 benefited from the timing of the Easter holiday. 
+
+ Overall, demand trends continued to improve in the first quarter of fiscal 2026 as comparable net sales, including retail stores and eCommerce, increased 10.5% and delivered a fourth consecutive quarter of positive comparable net sales growth. As of April 4, 2026, we operated 798 retail stores in the U.S. compared to 804 as of January 3, 2026, and 802 as of March 29, 2025. 
+
+ U.S. Retail segment operating income increased $6.7 million, or 291.6%, to $9.0 million, due to an increase in gross profit of $13.9 million, partially offset by an increase in SG&A expenses of $7.1 million. Segment operating margin increased 190 bps to 2.7%, primarily driven by a 460 bps decrease in SG&A rate, partially offset by a 250 bps decrease in gross margin. The decrease in gross margin was driven by a high-single digit percentage increase in AUC as a result of incremental tariff-related costs, which was partially offset by increased AUR. The decrease in the SG&A rate reflected fixed cost leverage on higher net sales, partially offset by inflationary pressure in store-related expenses. 
+
+ U.S. Wholesale 
+
+ U.S. Wholesale segment net sales increased $1.3 million, or 0.5%, to $251.4 million, driven by increased sales of our exclusive Carter’s brands, primarily offset by lower demand from department stores. AUR increased by a high-single digit percentage, reflecting pricing actions to mitigate incremental tariff-related costs. Unit volume decreased by a mid-single digit percentage primarily driven by lower demand from department stores. 
+
+ U.S. Wholesale segment operating income decreased $18.5 million, or 33.5%, to $36.8 million, due to a decrease in gross profit of $19.8 million, partially offset by a decrease in SG&A expenses of $1.7 million. Segment operating margin decreased 750 bps to 14.6%, driven by an 810 bps decrease in gross margin, partially offset by a 70 bps decrease in SG&A rate. The decrease in gross margin was driven by higher AUC and customer mix, partially offset by higher AUR. AUC increased by a high-teen digit percentage as a result of incremental tariff-related costs and investments in product make. The decrease in the SG&A rate was driven by lower distribution costs on lower unit volume and lower bad debt expense. 
+
+ International 
+
+ International segment net sales increased $12.2 million, or 14.3%, to $97.5 million, driven by growth in Mexico and Canada. In Mexico, net sales growth reflected higher AUR, the contribution from new retail stores, and higher unit volume. Canadian comparable net sales, including retail store and eCommerce, increased 4.0%, driven by higher unit volume and the favorable impact of foreign currency exchange rates. 
+
+ AUR increased by a high-single digit percentage, driven by pricing and the favorable impact of foreign currency exchange rates. International segment unit volume increased by a mid-single digit percentage, reflecting growth across the segment. Changes in foreign currency exchange rates used for translation had a $5.6 million favorable effect on International segment net sales. 
+
+ As of April 4, 2026, we operated 191 and 73 retail stores in Canada and Mexico, respectively. As of January 3, 2026, we operated 192 and 72 retail stores in Canada and Mexico, respectively. As of March 29, 2025, we operated 191 and 64 retail stores in Canada and Mexico, respectively. 
+
+ International segment operating income was $4.2 million in the first quarter of fiscal 2026 compared to segment operating loss of $0.2 million in the first quarter of fiscal 2025. This change was driven by an increase in gross profit of $8.7 million, partially offset by an increase in SG&A expenses of $4.1 million. Segment operating margin increased 460 bps to 4.3%, driven by a 340 bps increase in gross margin and a 150 bps decrease in the SG&A rate. The increase in gross margin was driven by higher AUR and product mix, partially offset by a low-single digit percentage increase in AUC. The decrease in the SG&A rate was driven by fixed cost leverage on increased net sales, partially offset by higher retail store rent and retail store employee costs. 
+
+ Unallocated Corporate Expenses 
+
+ Unallocated corporate expenses include corporate overhead expenses that are not directly attributable to one of our business segments and include unallocated accounting, finance, legal, human resources, and information technology expenses, 
+
+ 22 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ occupancy costs for our corporate headquarters, and other benefit and compensation programs, including performance-based compensation. 
+
+ Unallocated corporate expenses decreased $0.5 million, or 2.2%, to $21.5 million. Unallocated corporate expenses, as a percentage of consolidated net sales, decreased 30 bps to 3.2%, driven by lower consulting costs. 
+
+ RECONCILIATION OF NON-GAAP FINANCIAL MEASURES TO GAAP MEASURES 
+
+ We have provided non-GAAP adjusted operating income, income taxes, net income, and diluted net income per common share measures, which exclude certain items presented below. We believe that this information provides a meaningful comparison of our results and affords investors a view of what management considers to be our core performance, and we also, from time to time, use some of these non-GAAP measures, such as adjusted operating income, as performance metrics in awards under our annual and long-term incentive compensation plans. These measures are not in accordance with, or an alternative to, generally accepted accounting principles in the U.S. (GAAP). The most comparable GAAP measures are operating income, income tax provision, net income, and diluted net income per common share, respectively. Adjusted operating income, income taxes, net income, and diluted net income per common share should not be considered in isolation or as a substitute for analysis of our results as reported in accordance with GAAP. Other companies may calculate adjusted operating income, income taxes, net income, and diluted net income per common share differently than we do, limiting the usefulness of the measure for comparisons with other companies. 
+
+ Fiscal quarter ended 
+
+ April 4, 2026 
+ 
+ March 29, 2025 
+
+ (In millions, except earnings per share) 
+ 
+ Operating Income 
+ 
+ % Net Sales 
+ 
+ Income Taxes 
+ 
+ Net Income 
+ 
+ Diluted Net Income per Common Share 
+ 
+ Operating Income 
+ 
+ % Net Sales 
+ 
+ Income Taxes 
+ 
+ Net Income 
+ 
+ Diluted Net Income per Common Share 
+
+ As reported (GAAP) 
+ 
+ $ 
+ 
+ 28.4 
+
+ 4.2 
+ 
+ % 
+ 
+ $ 
+ 
+ 5.5 
+
+ $ 
+ 
+ 14.3 
+
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 26.1 
+
+ 4.1 
+ 
+ % 
+ 
+ $ 
+ 
+ 5.8 
+
+ $ 
+ 
+ 15.5 
+
+ $ 
+ 
+ 0.43 
+
+ Leadership transition costs (1) 
+ 
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 6.1 
+
+ 0.3 
+
+ 5.8 
+
+ 0.16 
+
+ Operating model improvement costs (2) 
+ 
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 3.2 
+
+ 0.8 
+
+ 2.4 
+
+ 0.07 
+
+ As adjusted 
+ 
+ $ 
+ 
+ 28.4 
+
+ 4.2 
+ 
+ % 
+ 
+ $ 
+ 
+ 5.5 
+
+ $ 
+ 
+ 14.3 
+
+ $ 
+ 
+ 0.39 
+
+ $ 
+ 
+ 35.4 
+
+ 5.6 
+ 
+ % 
+ 
+ $ 
+ 
+ 6.9 
+
+ $ 
+ 
+ 23.8 
+
+ $ 
+ 
+ 0.66 
+
+ (1) Related to costs associated with the transition of our former CEO, including accelerated vesting of outstanding time-based restricted stock awards, executive recruiting costs, and other related costs. 
+
+ (2) Primarily related to third-party consulting costs to support operating model improvements. 
+
+ Note: Results may not be additive due to rounding. 
+
+ LIQUIDITY AND CAPITAL RESOURCES 
+
+ Our ongoing cash needs are primarily for working capital (consisting primarily of inventory), capital expenditures, employee compensation, interest on debt, the return of capital to our shareholders, and other general corporate purposes. We expect that our primary sources of liquidity will be cash and cash equivalents on hand, cash flow from operations, and available borrowing capacity under our secured asset-based revolving credit facility. We believe that our sources of liquidity are sufficient to meet our cash requirements for at least the next twelve months. However, these sources of liquidity may be affected by events described in “Forward-Looking Statements” section of this Form 10-Q, including, but not limited to, our risk factors discussed under the heading “Risk Factors” in Part II, Item 1A. of this Quarterly Report on Form 10-Q, the risk factors discussed under the heading “Risk Factors” in our most recently filed Annual Report on Form 10-K, and in other reports filed with the Securities and Exchange Commission from time to time. 
+
+ As discussed under the heading “Known or Anticipated Trends” in our most recently filed Annual Report on Form 10-K, the impacts of new tariffs and other trade measures have had and may continue to have an adverse impact on our cost structure and supply chain, which may impact our working capital needs in the near term. While recent developments, including a decision by the U.S. Supreme Court that invalidated certain incremental tariffs, may affect our future exposure to these tariffs, the trade policy environment remains dynamic and the ultimate impacts are uncertain. We continue to evaluate and mitigate these impacts and may experience volatility in cash flows in the near term. However, we believe our sources of liquidity, including 
+
+ 23 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ cash and available borrowing capacity under our secured asset-based revolving credit facility, will be sufficient to manage these developments. 
+
+ As of April 4, 2026, we had $473.4 million of cash and cash equivalents held at major financial institutions, including $78.0 million held at financial institutions located outside of the United States. We do not expect any material restrictions on our ability to access or use cash held outside of the United States. We maintain cash deposits with major financial institutions that exceed the insurance coverage limits provided by the Federal Deposit Insurance Corporation in the United States and by similar insurers for deposits located outside the United States. To mitigate this risk, we utilize a policy of allocating cash deposits among major financial institutions that have been evaluated by us and third-party rating agencies as having acceptable risk profiles. 
+
+ Balance Sheet 
+
+ Net accounts receivable at April 4, 2026 were $196.6 million compared to $203.9 million at March 29, 2025 and $178.6 million at January 3, 2026. The decrease of $7.3 million, or 3.6%, at April 4, 2026 compared to March 29, 2025 primarily reflects the timing of wholesale customer shipments. Due to the seasonal nature of our operations, the net accounts receivable balance at April 4, 2026 is not comparable to the net accounts receivable balance at January 3, 2026. 
+
+ Inventories at April 4, 2026 were $465.9 million compared to $474.1 million at March 29, 2025 and $544.6 million at January 3, 2026. The decrease of $8.2 million, or 1.7%, at April 4, 2026 compared to March 29, 2025 was driven by lower days of supply, partially offset by incremental tariffs imposed on products imported into the United States. 
+
+ Prepaid expenses and other current assets at April 4, 2026 were $75.7 million compared to $50.2 million at March 29, 2025 and $60.5 million at January 3, 2026. The increase of $25.5 million, or 50.8%, at April 4, 2026 compared to March 29, 2025 was driven by the reclassification of Rabbi Trust assets from long-term to current to align with the anticipated settlement of associated deferred compensation liabilities in fiscal 2026. 
+
+ Accounts payable at April 4, 2026 were $188.7 million compared to $199.1 million at March 29, 2025 and $235.7 million at January 3, 2026. The decrease of $10.3 million, or 5.2%, at April 4, 2026 compared to March 29, 2025 was driven by the timing of payments for purchases of inventory. Due to the seasonal nature of our operations, the accounts payable balance at April 4, 2026 is not comparable to the accounts payable balance at January 3, 2026. 
+
+ Other current liabilities at April 4, 2026 were $111.3 million compared to $84.7 million at March 29, 2025 and $133.8 million at January 3, 2026. The increase of $26.6 million, or 31.4%, at April 4, 2026 compared to March 29, 2025 was primarily driven by the timing of interest payments on long-term debt and the reclassification of deferred compensation liabilities from long-term to current to reflect the anticipated settlement of plan participant balances. 
+
+ Other long-term liabilities at April 4, 2026 were $16.4 million compared to $33.0 million at March 29, 2025 and $19.4 million at January 3, 2026. The decrease of $16.5 million, or 50.1%, at April 4, 2026 compared to March 29, 2025 was primarily driven by the reclassification of deferred compensation liabilities from long-term to current to reflect the anticipated settlement of plan participant balances. 
+
+ Cash Flow 
+
+ Net Cash Provided by (Used in) Operating Activities 
+
+ Net cash provided by operating activities for the first quarter of fiscal 2026 was $6.4 million compared to net cash used in operating activities of $48.6 million in the first quarter of fiscal 2025. Our cash flows from operating activities are driven by net income and changes in our net working capital. The increase in operating cash flow was primarily driven by higher sell through of inventory during the period, resulting in reduced days of supply, and the timing of interest payments on our senior notes. 
+
+ Net Cash Used in Investing Activities 
+
+ Net cash used in investing activities for the first quarter of fiscal 2026 was $7.0 million compared to $10.3 million in the first quarter of fiscal 2025. The decrease in net cash used in investing activities was driven by decreased capital expenditures. Capital expenditures in the first quarter of fiscal 2026 were driven by U.S. and international retail store openings and remodels and investments in our distribution facilities. We plan to invest approximately $55 million in capital expenditures in fiscal 2026, primarily for our retail store fleet, distribution facilities, and strategic information technology initiatives. 
+
+ 24 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ Net Cash Used in Financing Activities 
+
+ Net cash used in financing activities was $12.2 million in the first quarter of fiscal 2026 compared to $33.6 million in the first quarter of fiscal 2025. This change in cash flow from financing activities was primarily driven by lower cash dividends distributed to shareholders during the period. 
+
+ Share Repurchases 
+
+ The Company did not repurchase and retire shares in open market transactions in either of the first quarters of fiscal 2026 and fiscal 2025. 
+
+ The total remaining capacity under outstanding repurchase authorizations as of April 4, 2026, was approximately $599.0 million, based on settled repurchase transactions. The share repurchase authorizations have no expiration dates. 
+
+ Future repurchases may occur from time to time in the open market, in privately negotiated transactions, or otherwise. The timing and amount of any repurchases will be at the discretion of the Company subject to restrictions under the Company’s secured asset-based revolving credit facility and considerations given to market conditions, stock price, other investment priorities, excise taxes, and other factors. 
+
+ Dividends 
+
+ In the first quarter of fiscal 2026, the Company’s Board declared, and the Company paid, a cash dividend per common share of $0.25. Additionally, in the first quarter of fiscal 2025, the Board declared, and the Company paid, a cash dividend per common share of $0.80. Our Board will evaluate future dividend declarations based on a number of factors, including restrictions under our secured asset-based revolving credit facility, business conditions, our financial performance, and other considerations. 
+
+ Provisions in our secured asset-based revolving credit facility could have the effect of restricting our ability to pay cash dividends on, or make future repurchases of, our common stock, as further described in Note 6, Long-term Debt , to the condensed consolidated financial statements. 
+
+ Financing Activities 
+
+ Secured Revolving Credit Facilit y 
+
+ As of April 4, 2026 and January 3, 2026, we had no outstanding borrowings under our secured asset-based revolving credit facility (“ABL facility”), exclusive of $5.5 million and $6.3 million of outstanding letters of credit, respectively. As of March 29, 2025, we had no outstanding borrowings under our secured cash-flow-based revolving credit facility, exclusive of $6.4 million of outstanding letters of credit. As of April 4, 2026, January 3, 2026, and March 29, 2025, there was approximately $605.2 million, $743.7 million, and $843.6 million available for future borrowing, respectively. Any outstanding borrowings under our ABL facility and secured cash-flow-based revolving credit facility are classified as non-current liabilities on our condensed consolidated balance sheets due to contractual repayment terms under the credit facility. However, these repayment terms also allow us to repay some or all of the outstanding borrowings at any time. 
+
+ ABL Facility 
+
+ On November 17, 2025, the Company, through its wholly-owned subsidiary, The William Carter Company (“TWCC”), entered into a new five-year ABL facility of up to $750.0 million. The ABL facility replaced the Company’s existing $850.0 million secured cash-flow-based revolving credit facility due April 2027. Borrowings under the ABL facility will mature, and lending commitments thereunder will terminate, in November 2030. 
+
+ The ABL facility contains various covenants, including those that restrict the Company’s ability and the ability of its restricted subsidiaries to incur certain indebtedness, pay dividends or make distributions or other restricted payments, or to grant certain liens on their respective property or assets, among other things. The ABL facility also includes a springing financial covenant, consisting of, if the excess availability falls below certain thresholds, a fixed charge coverage ratio not to be less than 1.00 to 1.00. 
+
+ The availability under the ABL facility was $605.2 million and $743.7 million as of April 4, 2026 and January 3, 2026, respectively. Availability is determined using borrowing base calculations of eligible inventory, accounts receivable, and intellectual property balances, less availability reserves, current outstanding borrowings under the ABL facility, and outstanding letters of credit. Availability may fluctuate throughout the year principally based on changes in eligible inventory and accounts receivable balances. As of April 4, 2026, the borrowing rate for a term Secured Overnight Financing Rate (“SOFR”) loan would have been 4.90%, which includes an excess availability-based adjustment of 1.25%. 
+
+ 25 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ As of April 4, 2026, the Company was in compliance with its covenants and requirements under the ABL facility. 
+
+ Senior Notes 
+
+ As of April 4, 2026, the Company had $575.0 million principal amount of senior notes outstanding, bearing interest at a rate of 7.375% per annum, and maturing on February 15, 2031. On our condensed consolidated balance sheets, the $575.0 million of outstanding senior notes as of April 4, 2026 is reported net of $7.5 million of unamortized issuance-related debt costs. 
+
+ On November 13, 2025, TWCC issued the $575.0 million principal amount of senior notes due 2031. TWCC received net proceeds from the offering of the senior notes of approximately $567.0 million, after deducting underwriting fees and other expenses, which TWCC used to redeem the senior notes discussed below and for other general corporate purposes. Approximately $8.0 million, including both bank fees and other third-party expenses, was capitalized in connection with the issuance and is being amortized over the term of the senior notes. 
+
+ On November 27, 2025, TWCC redeemed $500.0 million principal amount of senior notes, bearing interest at a rate of 5.625% per annum, and originally maturing on March 15, 2027. Pursuant to the optional redemption provisions described in the indenture dated as of March 14, 2019, TWCC paid the outstanding principal plus accrued and unpaid interest. 
+
+ Seasonality 
+
+ We experience seasonal fluctuations in our sales and profitability due to the timing of certain holidays and key retail shopping periods, which generally has resulted in lower sales and gross profit in the first half of our fiscal year versus the second half of the fiscal year. Accordingly, our results of operations during the first half of the year may not be indicative of the results we expect for the full year. 
+
+ CRITICAL ACCOUNTING POLICIES AND ESTIMATES 
+
+ Our discussion and analysis of our financial condition and results of operations are based upon our condensed consolidated financial statements, which have been prepared in accordance with accounting principles generally accepted in the United States of America. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues, expenses, and related disclosure of contingent assets and liabilities. We base our estimates on historical experience and on various other assumptions that we believe are reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates under different assumptions or conditions. 
+
+ Our critical accounting policies and estimates are described under the heading “Critical Accounting Policies and Estimates” in Item 7 of our most recent Annual Report on Form 10-K for the 2025 fiscal year ended January 3, 2026. Our critical accounting policies and estimates are those policies that require management’s most difficult and subjective judgments and may result in the need to make estimates about the effect of matters that are inherently uncertain. Our critical accounting policies and estimates include: revenue recognition and accounts receivable allowance, inventory, goodwill and other indefinite-lived intangible assets, accrued expenses, loss contingencies, accounting for income taxes, foreign currency, employee benefit plans, and stock-based compensation arrangements. There have been no material changes in these critical accounting policies and estimates from those described in our most recent Annual Report on Form 10-K. 
+
+ Goodwill and Indefinite-lived Intangible Assets 
+
+ In the fourth quarter of fiscal 2025, the Company performed an annual quantitative impairment test on the goodwill ascribed to each of the Company’s reporting units and on the value of its indefinite-lived intangible tradename assets as of January 3, 2026. The assumptions used in the quantitative impairment test of the goodwill of our reporting units include projected revenue growth and profitability, terminal growth rates, discount rates, market multiples, and applicable control premiums. The assumptions used in the quantitative impairment test of our indefinite-lived intangible tradename assets include projected revenue growth and profitability, terminal growth rates, discount rates, and royalty rates. 
+
+ Based upon this assessment, there were no impairments on the value of goodwill or indefinite-lived intangible tradename assets. The annual assessment indicated that the fair value of assets for the U.S. Wholesale, U.S. Retail and Other International reporting units exceeded its carrying values by at least 25%. The fair value of assets for the Canada reporting unit exceeded its carrying value by approximately 8%. The assessment indicated that the fair value of our indefinite-lived tradename assets exceeded the carrying values by at least 35%. 
+
+ 26 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND 
+RESULTS OF OPERATIONS (Continued) 
+
+ Sensitivity tests on the Canada reporting unit showed that a 100 bps increase in the discount rate, 50 bps decrease in the long-term revenue growth rate, a 250 bps decrease in revenue growth rates, or a 50 bps decrease in operating margins would not change the conclusion and would not result in an impairment charge. 
+
+ The Company believes that the assumptions used in our impairment tests are reasonable and supportable as of April 4, 2026, and therefore, there were no impairment charges recorded in the first quarter of fiscal 2026. As of April 4, 2026, the carrying value of the goodwill ascribed to the Canada reporting unit was $38.0 million. 
+
+ The degree of uncertainty associated with the assumptions used in our impairment tests is elevated in the current macroeconomic environment due to evolving trade policies. The Company continues to monitor these macroeconomic conditions, including the potential impacts from new tariffs or trade restrictions, which could adversely affect the financial performance of our reporting units and indefinite-lived intangible tradename assets. Should these conditions lead to a significant decline in projected financial results, there could be impairment charges to these assets mentioned above, to the goodwill ascribed to our other reporting units, or to our other indefinite-lived intangible tradename assets. 
+
+ 27 
+
+ ITEM 3. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK 
+
+ Currency and Interest Rate Risks 
+
+ In the operation of our business, we have market risk exposures including those related to foreign currency risk and interest rates. These risks, and our strategies to manage our exposure to them, are discussed below. 
+
+ Currency Risk 
+
+ We contract to purchase product from third parties, primarily in Asia. While these contracts are stated in U.S. dollars, there can be no assurance that the cost for the future production of our products will not be affected by exchange rate fluctuations between the U.S. dollar and the local currencies of these contracted manufacturers. Due to the number of currencies involved, we cannot quantify the potential impact that future currency fluctuations may have on our results of operations in future periods. 
+
+ The financial statements of our foreign subsidiaries that are denominated in functional currencies other than the U.S. dollar are translated into U.S. dollars using period-end exchange rates for assets and liabilities and weighted-average exchange rates for revenues and expenses. The resulting translation adjustments are recorded as a component of Accumulated other comprehensive income (loss). 
+
+ Our foreign subsidiaries typically record sales denominated in currencies other than the U.S. dollar, which are then translated into U.S. dollars using weighted-average exchange rates. The changes in foreign currency exchange rates used for translation in the first quarter of fiscal 2026, compared to the first quarter of fiscal 2025, had a $5.6 million favorable effect on our consolidated net sales. 
+
+ Fluctuations in exchange rates between the U.S. dollar and other currencies may affect our results of operations, financial position, and cash flows. Transactions by our foreign subsidiaries may be denominated in a currency other than the entity's functional currency. Foreign currency transaction gains and losses also include the impact of intercompany loans with foreign subsidiaries that are marked to market. In our consolidated statement of operations, these gains and losses are recorded within Other (income) expense, net. Foreign currency transaction gains and losses related to intercompany loans with foreign subsidiaries that are of a long-term nature are accounted for as translation adjustments and are included in Accumulated other comprehensive income (loss). 
+
+ Interest Rate Risk 
+
+ Our operating results are subject to risk from interest rate fluctuations on our secured asset-based revolving credit facility, which carries variable interest rates. As of April 4, 2026, there were no variable rate borrowings outstanding under the secured asset-based revolving credit facility. As a result, the impact of a hypothetical 100 bps increase in the effective interest rate would not result in a material amount of additional interest expense over a 12-month period. 
+
+ Other Risks 
+
+ We enter into various purchase order commitments with our suppliers. We can cancel these arrangements, although in some instances, we may be subject to a termination charge reflecting a percentage of work performed prior to cancellation. 
+
+ ITEM 4. CONTROLS AND PROCEDURES 
+
+ Evaluation of Disclosure Controls and Procedures 
+
+ Our principal executive officer and principal financial officer has evaluated the effectiveness of the design and operation of our disclosure controls and procedures (as defined under Rules 13a-15(e) and 15d-15(e) promulgated under the Securities Exchange Act of 1934, as amended (the “Exchange Act”) as of the end of the period covered by this Quarterly Report on Form 10-Q. Based upon that evaluation, our principal executive officer and principal financial officer has concluded that our disclosure controls and procedures are effective as of April 4, 2026. 
+
+ Changes in Internal Control over Financial Reporting 
+
+ The principal executive officer and principal financial officer also conducted an evaluation of the Company’s internal control over financial reporting (“Internal Control”) to determine whether any changes in Internal Control occurred during the fiscal quarter ended April 4, 2026, that have materially affected, or which are reasonably likely to materially affect, Internal Control. 
+
+ There were no changes in the Company’s Internal Control that materially affected, or were likely to materially affect, such control over financial reporting during the fiscal quarter ended April 4, 2026. 
+
+ 28 
+
+ PART II - OTHER INFORMATION 
+
+ ITEM 1. LEGAL PROCEEDINGS 
+
+ The Company is subject to various claims and pending or threatened lawsuits in the normal course of our business. The Company is not currently a party to any legal proceedings that it believes would have a material adverse effect on its financial position, results of operations, or cash flows. 
+
+ ITEM 1A. RISK FACTORS 
+
+ Except as set forth below, there have been no material changes to the risk factors described in our Form 10-K for the 2025 fiscal year ended January 3, 2026. 
+
+ Our business could be negatively impacted by political and economic risks, including from the conflict between the United States, Israel, and Iran and related geopolitical instability, that we are exposed to as a result of our global operations. 
+
+ We are subject to general political and economic risks in connection with our global operations, including political instability (both in the United States and globally, including the ongoing conflict between Russia and Ukraine and the related economic and retaliatory measures), frequent hostilities between Israel and Hamas, persistent conflict in the Red Sea region, terrorist attacks, and changes in diplomatic and trade relationships, any of which may have a significant adverse effect on our business, financial condition, and results of operations. Economic uncertainty in the United States and abroad has led to growing concerns about the systemic impact of rising energy costs, geopolitical issues, or the availability and cost of credit and higher interest rates, which could further lead to increased market volatility, decreased consumer confidence, and diminished growth expectations in the U.S. economy and abroad. As our customers react to global economic conditions we have seen and may see customers reduce spending on our products and take additional precautionary measures to limit or delay expenditures and preserve capital and liquidity, thereby adversely affecting our customers’ ability or willingness to purchase our products. 
+
+ In addition, in late February 2026, the United States and Israel launched coordinated military strikes against Iran, which retaliated with missile attacks across the region. Although we do not have material operations in the Middle East, the ongoing conflict and any further escalation, including additional military actions, retaliatory measures, sanctions, disruptions to trade or transportation routes, cyberattacks, or other governmental or market responses, has caused, and could continue to cause, significant disruptions of global energy supplies and increases in global energy prices, heightened inflationary pressures on our input costs and supply chain, negative effects on global supply chains, energy markets, commodity prices, currency exchange rates, financial markets and overall macroeconomic conditions, and adversely impact customer spending patterns in markets in which we operate. While we expect the impacts of conflict between the United States, Israel, and Iran to continue to have an effect on our business, financial condition, and results of operations, we are unable to predict the extent or nature of these impacts at this time. 
+
+ 29 
+
+ ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS 
+
+ Share Repurchases 
+
+ The following table provides information about share repurchases during the first quarter of fiscal 2026: 
+
+ Period 
+ 
+ Total number of shares 
+
+ purchased (1) 
+ 
+ Average price paid per share 
+ 
+ Total number of shares purchased as part of publicly announced plans or programs (2) 
+ 
+ Approximate dollar value of shares that may yet be purchased under the plans or programs (3) 
+
+ January 4, 2026 through January 31, 2026 
+ 
+ 2,852 
+
+ $ 
+ 
+ 34.64 
+
+ — 
+
+ $ 
+ 
+ 598,966,271 
+
+ February 1, 2026 through February 28, 2026 
+ 
+ 53,097 
+
+ $ 
+ 
+ 38.83 
+
+ — 
+
+ $ 
+ 
+ 598,966,271 
+
+ March 1, 2026 through April 4, 2026 
+ 
+ 24,036 
+
+ $ 
+ 
+ 35.43 
+
+ — 
+
+ $ 
+ 
+ 598,966,271 
+
+ Total 
+ 
+ 79,985 
+
+ — 
+
+ (1) All the shares purchased represent shares of our common stock surrendered by our employees to satisfy required tax withholding upon the vesting of restricted stock awards between January 4, 2026 and April 4, 2026. 
+
+ (2) The Company did not repurchase shares in open market transactions during the first quarter of fiscal 2026. Refer to the open market repurchases as disclosed in Note 7, Common Stock , to our accompanying unaudited condensed consolidated financial statements included in Part I. Item 1 of this Quarterly Report on Form 10-Q. 
+
+ (3) Under share repurchase authorizations approved by our Board of Directors. The share repurchase authorizations have no expiration date. 
+
+ ITEM 3. DEFAULTS UPON SENIOR SECURITIES 
+
+ N/A 
+
+ ITEM 4. MINE SAFETY DISCLOSURES 
+
+ N/A 
+
+ ITEM 5. OTHER INFORMATION 
+
+ Securities Trading Plans of Directors and Executive Officers 
+
+ During the fiscal quarter ended April 4, 2026, none of the Company’s directors or officers, as defined in Section 16 of the Exchange Act, adopted or terminated any contract, instruction, or written plan for the purchase or sale of Company securities that was intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) or any “non-Rule 10b5-1 trading arrangement” as defined under Item 408(a) of Regulation S-K. 
+
+ 30 
+
+ ITEM 6. EXHIBITS 
+
+ Incorporated by Reference 
+
+ Exhibit Number 
+ 
+ Exhibit Description 
+ 
+ Form 
+ 
+ Exhibit Number 
+ 
+ Filing Date 
+ 
+ Filed Herewith 
+
+ 3.1 
+ 
+ Amended and Restated Certificate of Incorporation of Carter’s, Inc . 
+ 
+ 8-K 
+ 
+ 3.1 
+ 
+ May 23, 2017 
+
+ 3.2 
+ 
+ Amended and Restated By-Laws of Carter’s, Inc. 
+ 
+ 8-K 
+ 
+ 3.1 
+ 
+ November 13, 2025 
+
+ 10.1 * 
+ 
+ Form of Restricted Stock Award Agreement (Time Vesting) (2026 Grants Before 2026 Amended Plan) 
+ 
+ X 
+
+ 10.2 * 
+ 
+ Form of Restricted Stock Award Agreement (Two-Year Cliff Vesting) (2026 Grants Before 2026 Amended Plan) 
+ 
+ X 
+
+ 10.3 * 
+ 
+ Form of Restricted Stock Award Agreement (Three-Year Cliff Vesting) (2026 Grants Before 2026 Amended Plan) 
+ 
+ X 
+
+ 10.4 * 
+ 
+ Form of Company Performance-Based Restricted Stock Agreement (2026 Grants before 2026 Amended Plan) 
+ 
+ X 
+
+ 10.5 * 
+ 
+ Form of rTSR Performance-Based Restricted Stock Agreement (2026 Grants before 2026 Amended Plan) 
+ 
+ X 
+
+ 10.6 * 
+ 
+ Offer Letter, dated April 27, 2026. 
+
+ 8-K 
+ 
+ 10.1 
+ 
+ May 1, 2026 
+
+ 31.1 
+ 
+ Rule 13a-15(e)/15d-15(e) and 13a-15(f)/15d-15(f) Certification . 
+ 
+ X 
+
+ 32 
+ 
+ Section 1350 Certification. 
+ 
+ X 
+
+ 101.INS 
+ 
+ XBRL Instance Document - the instant document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document 
+ 
+ X 
+
+ 101.SCH 
+ 
+ XBRL Taxonomy Extension Schema Document 
+ 
+ X 
+
+ 101.CAL 
+ 
+ XBRL Taxonomy Extension Calculation Linkbase Document 
+ 
+ X 
+
+ 101.DEF 
+ 
+ XBRL Taxonomy Extension Definition Linkbase Document 
+ 
+ X 
+
+ 101.LAB 
+ 
+ XBRL Taxonomy Extension Label Linkbase Document 
+ 
+ X 
+
+ 101.PRE 
+ 
+ XBRL Taxonomy Extension Presentation Linkbase Document 
+ 
+ X 
+
+ 104 
+ 
+ The cover page from this Current Report on Form 10-Q formatted as Inline XBRL 
+ 
+ X 
+
+ * Indicates a management contract or compensatory plan. 
+
+ 31 
+
+ SIGNATURES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. 
+
+ CARTER’S, INC. 
+
+ May 6, 2026 
+ 
+ /s/ RICHARD F. WESTENBERGER 
+
+ Richard F. Westenberger 
+
+ Interim Chief Executive Officer & President, 
+
+ Chief Financial Officer & Chief Operating Officer 
+
+ (Principal Executive Officer & Principal Financial & Accounting Officer) 
+
+ 32

@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-01T12:15:23+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CMC",
+    "cik": 22444,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000119312526333797/d95091d8k.htm",
+        "file": "2026-08-05-8-K-d95091d8k.htm.txt",
+        "chars": 5614,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000041/cmc-20260531.htm",
+        "file": "2026-06-29-10-Q-cmc-20260531.htm.txt",
+        "chars": 212863,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-25",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000038/cmc-20260625.htm",
+        "file": "2026-06-25-8-K-cmc-20260625.htm.txt",
+        "chars": 4680,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-24",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000035/cmc-20260624.htm",
+        "file": "2026-06-24-8-K-cmc-20260624.htm.txt",
+        "chars": 3283,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-13",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000119312526152960/d117730d8k.htm",
+        "file": "2026-04-13-8-K-d117730d8k.htm.txt",
+        "chars": 5628,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-03-31",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000031/cmc-20260228.htm",
+        "file": "2026-03-31-10-Q-cmc-20260228.htm.txt",
+        "chars": 210812,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-26",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000025/cmc-20260326.htm",
+        "file": "2026-03-26-8-K-cmc-20260326.htm.txt",
+        "chars": 4665,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-25",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244426000021/cmc-20260325.htm",
+        "file": "2026-03-25-8-K-cmc-20260325.htm.txt",
+        "chars": 3237,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-01T12:15:26+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "FLR",
+    "cik": 1124198,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000074/flr-20260807.htm",
+        "file": "2026-08-07-8-K-flr-20260807.htm.txt",
+        "chars": 4230,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000071/flr-20260630.htm",
+        "file": "2026-08-07-10-Q-flr-20260630.htm.txt",
+        "chars": 104259,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000068/flr-20260730.htm",
+        "file": "2026-08-04-8-K-flr-20260730.htm.txt",
+        "chars": 3809,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-08",
+        "items": "2.02,5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000063/flr-20260506.htm",
+        "file": "2026-05-08-8-K-flr-20260506.htm.txt",
+        "chars": 6475,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000061/flr-20260331.htm",
+        "file": "2026-05-08-10-Q-flr-20260331.htm.txt",
+        "chars": 93328,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000056/flr-20260426.htm",
+        "file": "2026-04-30-8-K-flr-20260426.htm.txt",
+        "chars": 3336,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-23",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000051/flr-20260423.htm",
+        "file": "2026-04-23-8-K-flr-20260423.htm.txt",
+        "chars": 2890,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-09",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000031/flr-20260303.htm",
+        "file": "2026-03-09-8-K-flr-20260303.htm.txt",
+        "chars": 4943,
+        "truncated": false
+      }
+    ]
+  }
+}
