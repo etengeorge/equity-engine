@@ -217,6 +217,14 @@ These are all real bugs that were found and fixed; do not reintroduce them.
   since. Alkermes drew $1.525B of term loans six weeks after its year end and the screen
   reported an enterprise value BELOW market cap. `_latest_instant` reads those from any
   form, newest `end` wins, and skips any fact carrying a `start` date.
+- **An EDGAR directory listing does not carry exhibit types.** `index.json` on a filing
+  folder has a `type` field that looks like the obvious source; it is the ICON NAME used
+  to draw the listing page and every entry reads `text.gif`. Filtering it for `EX-99`
+  matched nothing, so `exhibits_for` returned an empty list for every company in the
+  universe while appearing to work — the briefs said "no EX-99 exhibits filed" on names
+  that had filed one. The real map is in `<accession>-index-headers.html`, which is SGML:
+  `<DOCUMENT><TYPE>EX-99.1<SEQUENCE>2<FILENAME>...`. Note EDGAR uses the UNDASHED
+  accession for the directory and the DASHED one for files inside it.
 - **Bump `edgar.EXTRACT_VERSION` when you add a field to `fundamentals()`.** A cached
   extract stays valid for 30 days, so a new field otherwise reads as missing on every
   company for a month. The multiples model needed EBITDA and gross profit and would have
