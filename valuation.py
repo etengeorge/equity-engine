@@ -33,7 +33,8 @@ def _synthetic_spread(coverage):
     return 0.1800
 
 
-def cost_of_capital(fund, price, beta, beta_note, rf, sector_beta=None):
+def cost_of_capital(fund, price, beta, beta_note, rf, sector_beta=None,
+                    beta_source=None):
     """WACC with an explicit reliability verdict. An unmeasurable beta falls back to the
     median of the name's own sector rather than to a flat 1.0, and says which it used.
 
@@ -46,7 +47,9 @@ def cost_of_capital(fund, price, beta, beta_note, rf, sector_beta=None):
     """
     flags = []
     erp, tax = config.EQUITY_RISK_PREMIUM, config.MARGINAL_TAX_RATE
-    beta_source = "regression"
+    # A supplied beta carries its own provenance: it may already be Yahoo's, rescaled
+    # onto the IWM convention by prices.yahoo_betas. Only an absent beta falls through.
+    beta_source = beta_source or "regression"
     if not _fin(beta):
         if config.BETA_FALLBACK == "sector_median" and _fin(sector_beta):
             beta, beta_source = sector_beta, "sector_median"

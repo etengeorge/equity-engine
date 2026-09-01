@@ -77,7 +77,8 @@ def value_one(row, quote, rf, sector_beta=None):
                dollar_volume_60d=quote.get("dollar_volume_60d"),
                dollar_volume_5d=quote.get("dollar_volume_5d"),
                volume_ratio=quote.get("volume_ratio"),
-               beta=quote.get("beta"), beta_r2=quote.get("beta_r2"))
+               beta=quote.get("beta"), beta_r2=quote.get("beta_r2"),
+               beta_yahoo_raw=quote.get("beta_yahoo_raw"))
     # Abnormal volume is the earliest free signal that something happened: it moves
     # before the story is written, and unlike a return it does not need a direction.
     vr = quote.get("volume_ratio")
@@ -140,7 +141,8 @@ def value_one(row, quote, rf, sector_beta=None):
             pass
 
     w = V.cost_of_capital(fund, price, quote.get("beta"), quote.get("beta_note"), rf,
-                          sector_beta=sector_beta)
+                          sector_beta=sector_beta,
+                          beta_source=quote.get("beta_source"))
     out["wacc"] = w.get("wacc")
     out["cost_of_equity"] = w.get("cost_of_equity")
     out["beta_source"] = w.get("beta_source")
