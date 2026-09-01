@@ -1,0 +1,50 @@
+{
+  "ticker": "TDOC",
+  "date": "2026-09-01",
+  "sector": "Health Care",
+  "name": "TELADOC HEALTH INC",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "horizon_months": 24,
+  "price_at_verdict": 6.340000152587891,
+  "market_implied_growth": -0.42962643981634707,
+  "cohort_pct": 96.6,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my no_model call is that the convertible is a near-equity instrument and I am double-counting it. If the 2027 notes convert rather than being repaid in cash, they never consume the $996.7M and the correct EV is closer to the model's figure, with the dilution showing up in share count instead. There is also a case that even on the corrected EV the stock is cheap: at $1.41B EV against $205M of FCFF with stock comp expensed at the latest run rate of $80.4M, the market is asking for roughly \u22125% perpetual decline, and Integrated Care is not actually declining \u2014 it is BetterHelp that is shrinking. A sum-of-parts owner would argue Integrated Care alone is worth more than the whole EV.",
+    "what_would_prove_it": "The conversion question is settled by the stock price against the conversion price: the 2027 Notes were struck in May 2020 when Teladoc traded near its peak, so the conversion price sits far above $6.34 and the notes are deep out of the money. That means they will be repaid or refinanced in cash, not converted, and they belong in enterprise value in full. On the sum-of-parts point, the settling evidence would be segment-level operating cash flow disclosure separating Integrated Care from BetterHelp.",
+    "already_visible": "Yes, and it defeats the counter. The notes being classified as CURRENT on the 30 June 2026 balance sheet is itself the tell \u2014 an issuer reclassifies a convertible to current when it expects to settle it, and a deeply out-of-the-money convertible maturing in 2027 against $781M of cash is a cash refinancing obligation, not equity. So the debt belongs in EV and the model is wrong. What is NOT visible is the segment cash-flow split, so I cannot adjudicate the sum-of-parts argument.",
+    "unresolved": "I cannot say whether Teladoc is cheap on a correctly computed enterprise value, because I would be building that view on top of an extract I have just demonstrated to be unreliable, and I have not verified the other balance-sheet inputs to the same standard. That is a question for a rerun after the alias list is fixed, not something to guess at today."
+  },
+  "what_changed": "Nothing in the news flow decides this name; what decides it is a balance-sheet fact the engine does not have. Recent 8-Ks are almost all item 5.02 officer changes (2026-08-31, 2026-08-13, 2026-08-03), and the 2026-07-29 8-K carried Q2 results. The material item is in the 2026-07-30 10-Q, which I fetched and read: at 30 June 2026 Teladoc had $1.0 billion aggregate principal of 1.25% convertible senior notes due 2027 outstanding, carried at $996.7M and now classified CURRENT. Interest expense was $10.5M for the six months. The revolver was undrawn.",
+  "consensus_case": "At $6.34 the market is pricing Teladoc as a melting ice cube. Revenue has rolled over from a 2023 peak of $2.60B to $2.53B, BetterHelp is shrinking, the company has posted three straight years of GAAP losses including a $1.0B impairment year, and a $1.0B convertible matures in 2027 against $781M of cash. The bear owning this price believes direct-to-consumer telehealth has no moat, that BetterHelp's customer acquisition cost rises as fast as its pricing, and that Integrated Care's enterprise contracts reprice down at renewal. Paying roughly 7x FCFF-after-stock-comp for a business with no demonstrated organic growth and a refinancing to clear is not obviously wrong.",
+  "base_case_rationale": "I am declining to publish a growth assumption for this name because the enterprise value the model would price it against is wrong by a factor of 3.4, and any final_growth I supplied would be multiplied through that same broken EV by record.py's forward pass and printed on the dashboard as a fair value. The engine's fundamentals extract records total_debt of $42.4M for Teladoc. The actual figure is $996.7M of convertible senior notes plus that $42.4M. The cause is a concept-alias gap: edgar.py's total_debt alias list covers LongTermDebtNoncurrent, LongTermDebt, LongTermDebtAndCapitalLeaseObligations, DebtLongtermAndShorttermCombinedAmount, Borrowings and NoncurrentPortionOfNoncurrentBorrowings, and debt_current covers DebtCurrent and LongTermDebtCurrent \u2014 none of which capture the ConvertibleNotesPayable / ConvertibleDebt family that a convertible issuer tags. The consequence is large and directional: the model computes EV of $413M where the correct figure is roughly $1.41B ($1.152B market cap + $996.7M notes + $42.4M other debt \u2212 $781M cash). Recomputing the reverse DCF on the corrected EV at the model's own 13.28% WACC moves the growth the market implies from \u221243.0% to \u221215.8% on the reported FCFF base, and from \u221230.1% to \u22122.0% once stock compensation is expensed. In other words the entire +220% screen gap is an artifact of missing debt. On a corrected EV, a business whose revenue is declining roughly 1.5% a year being priced for about \u22122% FCFF growth is approximately fairly valued, and there is no edge here at all.",
+  "key_risks": [
+    "$996.7M of convertible notes due 2027, now classified current, against $781M of cash \u2014 a refinancing event inside the horizon",
+    "BetterHelp revenue decline with customer acquisition cost that does not scale down with it",
+    "Three consecutive years of GAAP losses including a $1.0B impairment",
+    "Stock compensation ran $80.4M in the latest year against reported FCFF, so headline cash flow overstates owner earnings"
+  ],
+  "watch_for": [
+    "Refinancing or repayment terms for the 2027 convertible notes \u2014 the single largest determinant of equity value here",
+    "A rerun of this name after the total_debt alias gap is fixed, which is the only way to get a trustworthy number",
+    "Sequential stabilisation in BetterHelp revenue"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000038/tdoc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000036/tdoc-20260729.htm",
+    "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000044/tdoc-20260827.htm"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_4%_debt_weight",
+    "stock_comp_is_47%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

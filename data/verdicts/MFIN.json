@@ -1,0 +1,49 @@
+{
+  "ticker": "MFIN",
+  "date": "2026-09-01",
+  "sector": "Financials",
+  "name": "MEDALLION FINANCIAL CORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "horizon_months": 24,
+  "price_at_verdict": 11.819999694824219,
+  "market_implied_growth": null,
+  "cohort_pct": 99.4,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I have over-corrected. Medallion Bank's preferred is genuinely subordinate to nothing the common holder cares about in a going concern \u2014 it is cheap permanent capital funding an earning asset, and the earnings attributable to common already sit in the net income series. If the $43.0M of net income is attributable to common shareholders AFTER the NCI preferred dividend, then deducting the NCI from the book denominator while leaving a common-only numerator is the correct treatment and my 1.93x stands. But if the model's net income series is total including NCI, then the ROTCE numerator and denominator are at least internally consistent as the model computes them, and my correction breaks that consistency rather than restoring it. On that reading the name might still be modestly cheap.",
+    "what_would_prove_it": "The income statement's attribution line: whether the $43.0M net income series is 'net income attributable to Medallion Financial Corp.' or total consolidated net income before the non-controlling interest. That single line decides whether my correction is right or double-counts.",
+    "already_visible": "Not to me. I did not fetch Medallion's filings and so I could not check the attribution line, which is the honest limit on this verdict. What IS visible and not in dispute is that the equity denominator includes $99.4M of non-controlling interest that a common holder does not own \u2014 that is arithmetic from the extract, and it means the reported tangible book of $10.46 per share overstates what the common shareholder has a claim on regardless of how the numerator is defined.",
+    "unresolved": "Whether the correct actual P/TBV is 1.93x or something between 1.13x and 1.93x, which depends on the income attribution line I did not read. Also unresolved: whether the 17.9%-32.1% ROTCE range reflects genuine credit-cycle variability or a mark-driven artifact of the kind LESSONS flags for JXN. Either way the +213% gap is not a finding."
+  },
+  "what_changed": "Nothing material found, and I want to be explicit that this is a statement about coverage rather than about the company. The brief holds no company news at all for the last 90 days, which means the name did not move enough, did not trade abnormal volume and did not file an 8-K to earn a per-company pull \u2014 it was picked on the gap alone. There is a 2026-08-05 10-Q and a 2026-07-29 8-K (item 2.02) with Q2 results, plus a cluster of June 8-Ks under items 5.02 and 8.01 suggesting board or officer changes. I did not read the Q2 release because the engine's exhibit extractor returns nothing and I judged the ninety-second fetch better spent on the names where a document decided a number; the balance-sheet decomposition below settles this name without it. I am recording that as a choice, not as an absence.",
+  "consensus_case": "At $11.82 against a genuine tangible book of $6.13 per share, Medallion Financial trades at 1.93x tangible common equity \u2014 not the 1.13x the screen believes. On the correct multiple the market is already paying a premium for a consumer lender earning high-teens to low-twenties returns on tangible common equity, and that premium is defensible but not obviously wrong: Medallion Bank's recreation and home-improvement lending books have performed, the legacy taxi medallion drag is largely behind the company, and net income has run $55.1M, $35.9M, $43.0M across the last three years. Nobody is getting a free lunch at roughly 2x tangible book for a subprime-adjacent consumer lender late in a credit cycle.",
+  "base_case_rationale": "This is a book-method name, so no FCFF growth rate applies and record.py does not reprice it. The substantive finding is that the reported +213% gap is a known model defect, not an opportunity. LESSONS already names this exact bug: justified_pb computes tangible common equity as equity minus goodwill minus intangibles and never deducts non-controlling interests or preferred, even though both sit in the same extract and are correctly subtracted in enterprise_value. Medallion carries $99.4M of non-controlling interest \u2014 the preferred equity issued at Medallion Bank \u2014 inside the $408.6M of reported equity. Deducting goodwill of $150.8M and intangibles of $17.7M gives the model's tangible book of $10.46 per share on 22.96M shares; deducting the $99.4M of NCI as well gives $6.13. That is a 71% overstatement of tangible book, and it converts an apparent 1.13x P/TBV into an actual 1.93x. Against a justified multiple of 3.54x the gap does not vanish entirely, but the justified multiple is itself built on a sustainable ROTCE the model flags as unstable across a 17.9% to 32.1% range, and that ROTCE is computed on the same overstated equity denominator. I am not going to publish a fair value derived from two inputs I have just shown to be wrong in the same direction.",
+  "key_risks": [
+    "Tangible book per share is overstated 71% by the model, so the headline cheapness is largely a computation error",
+    "Subprime-adjacent consumer lending (recreation, home improvement) into a softening consumer",
+    "Goodwill and intangibles are 41% of reported book",
+    "$901K average daily dollar volume \u2014 thin enough that a position could not be exited quickly"
+  ],
+  "watch_for": [
+    "A rerun after justified_pb is corrected to deduct non-controlling interests and preferred \u2014 this name cannot be judged until then",
+    "Credit metrics in the recreation lending book: net charge-offs and 30+ day delinquency trend",
+    "Any change in Medallion Bank's preferred capital structure"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1000209/000119312526335042/mfin-20260630.htm",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_41%_of_book",
+    "unstable_rotce_17.9%_to_32.1%"
+  ]
+}

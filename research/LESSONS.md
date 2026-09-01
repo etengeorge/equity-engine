@@ -44,6 +44,37 @@ mid-2027). Until then, these are the STANDING priors the red team should hold th
   hedge and MRB marks. The `unstable_rotce` flag names the symptom and the model averages the
   artifact in anyway. When one defensible input choice moves the answer from −48% to +77%, the
   output is not a valuation.
+- Convertible notes are invisible to the debt extractor, and the error always reads as cheapness.
+  `FIELDS["total_debt"]` covers the LongTermDebt* / Borrowings family and `debt_current` covers
+  DebtCurrent and LongTermDebtCurrent; neither touches the `ConvertibleNotesPayable*` /
+  `ConvertibleDebt*` concepts a convertible issuer actually tags. TDOC on 2026-09-01 reported
+  total_debt of $42.4M against $996.7M of 2027 convertible notes sitting on the balance sheet —
+  enterprise value understated 3.4x ($413M vs ~$1.41B), which moved the growth the market implies
+  from −43.0% to −15.8%, and to −2.0% with stock comp expensed. The whole +220% gap that won it an
+  opportunistic slot was missing debt. Missing debt lowers EV, lowers implied growth and
+  manufactures a positive gap every time, so this bug does not produce noise, it produces false
+  buys. A scan for non-financial FCFF names whose interest expense cannot be serviced by the debt
+  the model can see returned 142 of them, with gaps like BIPC +1962%, COLL +1702%, RPD +413%,
+  UPBD +202%. Treat any large positive gap on a known convertible issuer as this bug until proven
+  otherwise, and check interest_expense / total_debt as the cheap detector.
+- The EX-99 exhibit path has never returned anything, and the brief says so in language that reads
+  like a fact about the company. `filing_documents` keys off `item["type"]` from EDGAR's directory
+  `index.json`, but that endpoint carries no exhibit type and no description — its `type` field is
+  the icon filename (`"text.gif"`, `"compressed.gif"`). So `d["type"].startswith("EX-99")` is never
+  true for any filing, and every brief prints "No EX-99 exhibits filed under a material 8-K item"
+  regardless. All ten names on 2026-09-01 printed it while filing 8-Ks under items 2.02 and 9.01.
+  ANF's Q2 press release was sitting in that same directory as `q22026pressrelease.htm`, 416KB, and
+  it contained the fact that decided the name: $100M of one-time IEEPA tariff refunds inside a
+  headline EPS beat. `adhoc.py` calls the same function, so the workaround is to fetch the filing
+  directory index and then the exhibit URL directly. The exhibit type lives in the SGML header
+  (`<accession>-index-headers.html`), not in the directory listing.
+- One-time tariff refunds are a 2026 cohort event, not a company story. ANF (~$100M pre-tax in Q2,
+  $1.75/share, $120M and $2.10/share guided for the year) and CRI ($132M including interest inside
+  H1 operating cash flow, with the tax payable the following quarter) both appeared in the same
+  ten. Both flattered headline results while the underlying line went the other way — ANF's
+  ex-refund Q2 operating income was ~$153M against $168M adjusted a year earlier. When one name in
+  a screen shows an IEEPA refund, check every other importer in the cohort before reading any
+  earnings beat as operating improvement.
 - Before carrying a prior verdict forward, go and get the observable the last devil's advocate
   nominated. The 2026-08-31 morning pass on BBW named the settling evidence exactly — "revenue
   falling while pre-tax margin compresses" — and then recorded that it was "not yet visible". It

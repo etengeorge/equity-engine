@@ -1,0 +1,36 @@
+# PCVX — VAXCYTE
+*Health Care · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-01 — NO_MODEL (conviction: low)
+
+- **Verdict:** no_model · price $60.74
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** At $60.74 and a $9.0B market cap Vaxcyte carries no earnings, no revenue and roughly $1.56 billion of cash and short-term investments against a burn of about $656 million a year. The entire price is an option on VAX-31, a 31-valent pneumococcal conjugate vaccine designed to cover approximately 95% of invasive pneumococcal disease and 88% of pneumococcal pneumonia in US adults aged 50 and over — an incremental 14-34% broader IPD coverage than standard of care. The adult pneumococcal market is measured in billions of dollars a year and is currently a duopoly. The OPUS-1 pivotal Phase 3 is fully enrolled at roughly 4,000 adults with topline expected in Q4 2026. Holders are underwriting a binary readout inside the next four months, and the stock's +97% twelve-month move reflects the market marking up the probability of success, not any change in cash flow.
+
+**What changed.** Nothing that alters the valuation framework, because there is no valuation framework to alter. The relevant operational news is trial progression: OPUS-1 and OPUS-2 Phase 3 enrolment completed, OPUS-3 dosing begun in adults previously vaccinated with lower-valency vaccines, and Phase 1/2 adult data published in The Lancet Infectious Diseases. Topline OPUS-1 data is guided to Q4 2026 with OPUS-2 and OPUS-3 in H1 2027. Recent 8-Ks are the 2026-08-05 item 2.02 quarterly results and two item 5.02 officer changes (2026-07-15, 2026-06-23). No 8-K under items 1.01, 2.01 or 3.02, so no acquisition, financing or equity issuance has invalidated the balance sheet since the last periodic report.
+
+**Base case.** There is no free cash flow to grow and no revenue to grow it from. The revenue series is empty. Operating cash flow is negative $655.6M, negative $452.6M and negative $296.8M and getting more negative as the Phase 3 programme scales. EBIT is negative $923.7M. Normalized FCFF is negative, which is exactly the condition the engine's nonpositive_normalized_fcff gate exists to catch, and the model correctly refuses to produce a number. Manufacturing a fair value here would require me to assign a probability of regulatory success, a peak sales figure, a share of a duopoly market and a launch curve — four assumptions, none of which are observable from free sources, multiplied together. That is not a valuation, it is a fabricated number wearing one, and the rules for this engine forbid it. Vaxcyte belongs to the cohort CLAUDE.md identifies as unvaluable by a free FCFF model, and saying so is the complete and correct answer.
+
+**Devil's advocate.**
+- Strongest counter: The counter is that refusing to value a name is not the same as having no view, and that a $9.0 billion market cap on a pre-revenue company with $1.56 billion of cash and a Q4 readout is a knowable risk even if it is not a knowable value. If OPUS-1 misses non-inferiority the equity is worth cash minus burn, somewhere near $10 per share, and the downside is therefore roughly 84%. A screener that says 'no model' and moves on has declined to tell the human that this is a name where a specific dated event can destroy six sevenths of the market capitalisation in one morning.
+- What would prove it: OPUS-1 topline, guided to Q4 2026. It is a non-inferiority immunogenicity readout against an active comparator, so it is a relatively high-probability trial by Phase 3 standards, but it is still binary and it is close.
+- Already visible today: The Phase 1/2 adult data published in The Lancet Infectious Diseases was positive and supports a best-in-class immunogenicity profile, which is genuine evidence and is why the probability of success is priced high. But it does not remove the binary. I accept the counter's substance without changing the verdict: the right response is to record the asymmetry and the date in the risk and watch fields, which I have done, not to invent a probability-weighted fair value. no_model is a statement about what this engine can compute, not a claim that nothing is knowable.
+- Left unresolved: Everything that determines value: probability of OPUS-1 success, achievable share against entrenched competition, pricing, and the size and timing of the capital raise that a launch would require given a $656M annual burn against $1.56B of liquidity. I have no free-source edge on any of them.
+
+**Key risks.** Binary OPUS-1 Phase 3 readout guided to Q4 2026 — a miss plausibly takes the equity toward net cash, roughly 80%+ downside; Cash burn of about $656M a year against $1.56B of cash and short-term investments implies a financing need within roughly two to three years; Entrenched competition in adult pneumococcal vaccines; broader serotype coverage does not automatically convert to share; No revenue, no earnings and negative operating cash flow in every year of the window — nothing to value on
+**Watch for.** OPUS-1 topline data, guided Q4 2026 — the single event that determines this equity; OPUS-2 and OPUS-3 topline, guided H1 2027; Any equity raise, which would signal the burn is outrunning the balance sheet
+
+**Data quality.** Both flags confirmed and both are correct rather than defective: negative_fcf_year_in_window and nonpositive_normalized_fcff accurately describe a pre-revenue clinical-stage company. The engine reached the right conclusion for the right reason here. One extract detail worth noting as a positive: short_term_investments is captured at $1,387M, so the model's view of liquidity is roughly right at $1.56B including the $174M cash line — unlike several other names I checked today where that field was zero and net cash was understated. No item 1.01, 2.01 or 3.02 8-K in the last two quarters, so nothing has invalidated the balance sheet since the last report. The revenue_series is empty, which is a true fact about the company and not an extraction failure.
+
+*Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1649094/000164909426000043/pcvx-20260630.htm
+- https://www.sec.gov/Archives/edgar/data/1649094/000164909426000041/pcvx-20260805.htm
+- https://investors.vaxcyte.com/news-releases/news-release-details/vaxcyte-completes-enrollment-opus-1-and-opus-2-phase-3-trials
+- https://investors.vaxcyte.com/news-releases/news-release-details/positive-vax-31-phase-12-adult-data-published-lancet-infectious
+
+**Ingestion notes.** no usable final_growth

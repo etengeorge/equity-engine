@@ -1,0 +1,53 @@
+{
+  "ticker": "FLR",
+  "date": "2026-09-01",
+  "sector": "Industrials",
+  "name": "FLUOR CORP",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "horizon_months": 24,
+  "price_at_verdict": 54.5099983215332,
+  "market_implied_growth": 0.34609921184350545,
+  "cohort_pct": 19.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to a no_model call is that I am hiding behind the data. The screen says Fluor requires +34.6% FCFF growth to justify its price \u2014 +42.4% with stock compensation expensed \u2014 and a \u221262.8% gap against the naive baseline. Even granting that the base is noisy, a business that has just posted a negative operating cash flow year and needs a 35-42% compound growth rate to justify its market price is expensive on almost any reading, and 'no_model' lets an overvalued stock off the hook. A disciplined engine should be willing to say 'rich' when the required growth is absurd, rather than retreating to a technicality.",
+    "what_would_prove_it": "Whether the required growth is genuinely absurd or an artifact of the base. If normalized FCFF is truly near $157 million, the +34.6% requirement stands and the name is rich. If normalized FCFF is closer to the ex-tax H1 run rate, the required growth falls sharply and the 'rich' call collapses.",
+    "already_visible": "Yes, and it defeats the counter. H1 2026 operating cash flow ex the $357 million NuScale tax payment was roughly positive $150 million, which annualises well above the $157 million full-year FCFF base the model uses \u2014 before subtracting capex, but also before the seasonally stronger second half that E&C working capital typically delivers. So the base is not merely noisy, it is biased low by a one-time tax outflow on a gain that never passed through operating cash flow in the first place. Pair that with an enterprise value overstated by roughly $0.8 billion of unrecognised cash and the \u221262.8% 'rich' reading is not something I can stand behind. I therefore decline both the cheap and the rich call.",
+    "unresolved": "I could not construct a normalized FCFF for Fluor from free sources with any confidence, because I would need to separate recurring project working-capital movement from the NuScale tax distortion across several years, and the 10-Q only gives me the current-period footnote. I also did not read the backlog and new-award figures closely enough to underwrite conversion, which is the actual driver of value here."
+  },
+  "what_changed": "Two things, both after the last 10-K and both decisive. First, Fluor completed the monetization of its NuScale stake: approximately $1.35 billion for 71 million shares in February 2026, $162.9 million in April, and $473 million for the final 40 million shares completed 23 April 2026, taking cumulative open-market proceeds to about $2.43 billion against $570 million invested. The 2026-08-07 10-Q shows $1,831 million of NuScale sale proceeds in investing cash flow for the six months. Second, and the reason the cash flow statement looks alarming: H1 2026 operating cash flow was NEGATIVE $207 million, and the filing's own footnote explains that it includes $357 million of federal and state tax payments primarily related to the 2025 conversion of the NuScale shares. Ex-tax, H1 operating cash flow was roughly positive $150 million. Cash and marketable securities were $3.0 billion at 30 June 2026 against $2.2 billion at 31 December 2025, with total debt of $1,072 million.",
+  "consensus_case": "At $54.51 and a $7.3B market cap, Fluor is not being valued on trailing free cash flow by anyone \u2014 the trailing series is negative. Owners are paying for a de-risked engineering and construction franchise: a reimbursable-heavy backlog that removes the fixed-price losses that nearly destroyed the company last decade, exposure to data-centre, semiconductor-fab, nuclear and energy-transition capex, and a balance sheet holding roughly $3.0 billion of cash and marketable securities against $1.07 billion of debt after monetizing the entire NuScale stake for about $2.43 billion on a $570 million cost basis. The buyer is underwriting backlog conversion and a mid-single-digit segment margin on a large revenue base, plus roughly $1.9 billion of net cash to deploy. None of that is visible in a three-year FCFF mean.",
+  "base_case_rationale": "I am not issuing a growth rate because there is no defensible FCFF base to grow. The model's base of $157.2 million is the mean of negative $437.0 million, positive $664.0 million and positive $106.0 million \u2014 a spread the engine itself flags at 9.9x of the mean, containing a negative year. A mean of three numbers that disagree about their own sign is not a normalized cash flow, it is an average of noise, and compounding it for five years and capitalising a terminal value on it produces a fair value with no information in it. The distortion has an identifiable source rather than being random: Fluor's operating cash flow in this window is dominated by project working-capital swings and, in the most recent periods, by the tax consequences of a $2.43 billion equity monetization that is itself a non-recurring investing event. Engineering and construction firms are valued on backlog conversion and segment margin against enterprise value, not on a three-year mean of free cash flow to the firm, and this engine has no free data path to that. Compounding the problem, the enterprise value is stale: the model's $6.2 billion is built on the December 2025 balance sheet and misses roughly $0.8 billion of the cash build, so the true EV is nearer $5.4 billion. Correcting only that would make the name look cheaper without making the base any more meaningful. The honest answer is that the cash flows will not support a valuation here.",
+  "key_risks": [
+    "Free cash flow to the firm is not a meaningful metric for this business over the available window \u2014 the three-year series spans a 9.9x range and includes a negative year",
+    "Fixed-price contract risk is the historical failure mode for Fluor and does not show up in a cash-flow mean until it has already happened",
+    "The NuScale windfall is spent capital now; the remaining business must be judged on backlog margin, and roughly $1.9B of net cash invites capital-allocation risk",
+    "Stock compensation is 33% of the model's FCFF base, so even the base that exists overstates owner earnings"
+  ],
+  "watch_for": [
+    "A clean full year of operating cash flow uncontaminated by NuScale tax payments \u2014 FY2027 will be the first",
+    "Backlog conversion and new awards, particularly the reimbursable versus fixed-price mix",
+    "How the roughly $1.9B of net cash is deployed: buybacks versus acquisition"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000071/flr-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000074/flr-20260807.htm",
+    "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Receives-1-35-Billion-for-71-Million-NuScale-Shares-Launches-Trading-Program-for-Remaining-40-Million-Shares/default.aspx",
+    "https://www.tipranks.com/news/company-announcements/fluor-completes-monetization-of-nuscale-investment-stake"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_13%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_9.9x_of_mean",
+    "stock_comp_is_33%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

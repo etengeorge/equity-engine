@@ -1,0 +1,50 @@
+{
+  "ticker": "TGTX",
+  "date": "2026-09-01",
+  "sector": "Health Care",
+  "name": "TG THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "horizon_months": 18,
+  "price_at_verdict": 54.29999923706055,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to no_model is that TGTX has just crossed over, and a gate calibrated on three trailing years is now describing a company that no longer exists. Operating cash flow was positive $21.4 million in H1 2026 against negative $21.3 million a year earlier. If the second half annualises anywhere near that and inventory build normalises once the launch curve flattens, TGTX is a profitable, cash-generative specialty pharmaceutical company being excluded from the screen on stale evidence \u2014 precisely the failure mode of blackballing a good company on a backward-looking gate that LESSONS records for the missing-OperatingIncomeLoss bug.",
+    "what_would_prove_it": "A full fiscal year of positive operating cash flow net of capex, with the working-capital drag normalising rather than compounding. FY2026, reported in early 2027, is the first year that could deliver it.",
+    "already_visible": "Only half of it. The crossover to positive H1 operating cash flow is visible and real. What is not visible is durability: $21.4 million of half-year operating cash flow against an $8.3 billion market cap is a rounding error, roughly 0.25% of market capitalisation, and it was achieved partly through favourable payables timing that reverses. There is also a new term loan in the capital structure that the extract does not yet reflect, so even a repaired FCFF base would be priced against a stale enterprise value. So the counter correctly identifies that this name is about to become modellable, but it is not modellable yet, and forcing a number today would mean capitalising a $21.4 million half-year into an eight-billion-dollar valuation. I hold no_model and flag the name for re-examination after the FY2026 10-K.",
+    "unresolved": "The size and terms of the 2026 Term Loan, which I saw referenced in the cash flow discussion but did not read the debt note for \u2014 it changes enterprise value and the extract records total debt of $245.6M which predates it. I also could not determine how much of the $447.2M net income is the valuation allowance release versus operating earnings, which would let me estimate a normalized tax rate for a forward model."
+  },
+  "what_changed": "I selected this name for input verification rather than for news, because the extract looked internally contradictory and I suspected a data error. The relevant document is the 2026-08-05 10-Q, which I fetched and read. It reports net cash PROVIDED by operating activities of $21.4 million for the six months ended 30 June 2026, against net cash USED in operating activities of $21.3 million for the six months ended 30 June 2025 \u2014 a $42.6 million year-over-year improvement, driven by higher non-cash adjustments and favourable working capital including a $34.1M swing in other current assets, a $6.4M improvement in receivables and a $26.0M improvement in payables, partially offset by a $37.4M unfavourable inventory build and a $10.6M decrease in income taxes payable. Financing activities provided $390.9 million in H1 2026, mainly proceeds from a 2026 Term Loan net of costs, partially offset by buybacks. So the company crossed into positive operating cash flow during the first half of 2026 and took on new term debt.",
+  "consensus_case": "At $54.30 and an $8.3B market cap, TG Therapeutics is priced on the BRIUMVI (ublituximab) franchise in relapsing multiple sclerosis, which is scaling fast: revenue of $233.7M, $329.0M and $616.3M across the last three years, roughly 87% growth in the most recent year. EBIT has turned positive at $123.3M. Holders are underwriting continued share capture in a large, well-reimbursed anti-CD20 MS market against entrenched competitors, plus operating leverage as a fixed commercial infrastructure absorbs a growing revenue base. The stock is up 87% over twelve months and 45% over three, which is the market marking up the durability of that ramp rather than responding to cash generation.",
+  "base_case_rationale": "I came to this name believing the engine had made an extraction error and I was wrong, which is worth stating plainly. The extract shows revenue of $616.3M, EBIT of $123.3M and net income of $447.2M alongside an operating cash flow series of negative $24.8M, negative $40.5M and negative $31.4M, and a company earning $447M cannot plausibly burn $25M \u2014 that looked like the alias-recency failure LESSONS records for Commercial Metals. It is not. The 10-Q corroborates the sign directly: operating cash flow was negative $21.3M for H1 2025, which is consistent with a full-year FY2025 figure near the negative $24.8M the extract records. The reconciliation is that the $447.2M of net income is dominated by a non-cash release of the deferred tax valuation allowance, and the remaining cash earnings were consumed by working capital as the company built inventory and receivables behind a revenue base that nearly doubled. So the cash flow series is real, normalized FCFF is genuinely negative, and the engine's nonpositive_normalized_fcff gate fired correctly. With no positive FCFF base there is no growth rate to apply and no fair value to compute. The devil's advocate won against my own hypothesis before it won against anything else.",
+  "key_risks": [
+    "Normalized free cash flow to the firm is genuinely negative across the whole window despite reported profitability \u2014 reported net income is dominated by a non-cash deferred tax valuation allowance release",
+    "Working capital consumes cash as the BRIUMVI launch scales; inventory was a $37.4M headwind in H1 alone",
+    "Single-product concentration in a competitive anti-CD20 MS market",
+    "A new 2026 Term Loan is in the capital structure but not in the engine's extract, so enterprise value is stale"
+  ],
+  "watch_for": [
+    "FY2026 full-year operating cash flow net of capex \u2014 the first year that could make this name honestly modellable",
+    "Whether the H1 working-capital improvement reverses in H2 as payables timing normalises",
+    "Terms and size of the 2026 Term Loan",
+    "BRIUMVI prescription trends against competitor share"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025955/tgtx20260630_10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025304/tgtx20260730_8k.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}

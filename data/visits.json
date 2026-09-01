@@ -9,9 +9,29 @@
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
   },
+  "ANF": {
+    "conviction": "medium",
+    "last_visit": "2026-09-01",
+    "verdict": "no_edge"
+  },
   "BBW": {
     "conviction": "low",
     "last_visit": "2026-08-31",
+    "verdict": "no_edge"
+  },
+  "CMC": {
+    "conviction": "medium",
+    "last_visit": "2026-09-01",
+    "verdict": "no_edge"
+  },
+  "COMP": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "CRI": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
     "verdict": "no_edge"
   },
   "CRNX": {
@@ -22,6 +42,11 @@
   "CTRE": {
     "conviction": "low",
     "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "FLR": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
     "verdict": "no_model"
   },
   "HQY": {
@@ -44,6 +69,16 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "MFIN": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
+    "verdict": "no_edge"
+  },
+  "PCVX": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
   "PRAX": {
     "conviction": "medium",
     "last_visit": "2026-08-31",
@@ -59,6 +94,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "SNEX": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
+    "verdict": "no_edge"
+  },
   "SSRM": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -68,6 +108,16 @@
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "cheap"
+  },
+  "TDOC": {
+    "conviction": "low",
+    "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "TGTX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-01",
+    "verdict": "no_model"
   },
   "VEL": {
     "conviction": "low",

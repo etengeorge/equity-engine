@@ -1,0 +1,51 @@
+{
+  "ticker": "SNEX",
+  "date": "2026-09-01",
+  "sector": "Financials",
+  "name": "STONEX GROUP INC",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "horizon_months": 24,
+  "price_at_verdict": 68.4800033569336,
+  "market_implied_growth": null,
+  "cohort_pct": 21.0,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I am explaining away a real warning. 5.01x tangible book is genuinely expensive for a business whose earnings are cyclical, transaction-volume dependent and levered to volatility that will not stay elevated forever. StoneX's returns are flattered by a period of exceptional commodity and rates volatility; normalise volatility and the 17.6% ROTCE falls toward the low teens, at which point a 1.85x-2.5x justified multiple is about right and the stock is worth a third of its price. The 'compounder deserves a premium' argument is exactly what people say at the top of a cycle, and the stock is already down 10.6% over 21 days, which may be the market starting to agree.",
+    "what_would_prove_it": "ROTCE through a low-volatility quarter. If StoneX's returns hold in the high teens when commodity and rates volatility normalises, the compounder case is intact; if they compress into the low teens, the model's justified multiple is closer to right than my objection to it.",
+    "already_visible": "Only ambiguously. Net income has risen in each of the last three years, which supports the compounder reading, but those three years were all high-volatility years, so the series does not test the counter at all. The 21-day 10.6% drawdown is price action, not evidence. I could not find a low-volatility period inside the window to observe, which means the strongest bear argument here is untested rather than refuted.",
+    "unresolved": "Whether StoneX's ROTCE survives a normal-volatility environment \u2014 the single question that decides whether 5x tangible book is a premium for compounding or a peak-cycle multiple. I also could not separate RJO's contribution from the legacy business in the fiscal 2026 results, so I cannot say whether the acquisition is accretive to returns or diluting them."
+  },
+  "what_changed": "The R.J. O'Brien acquisition closed on 31 July 2025, inside StoneX's fiscal 2025 (year end 30 September 2025) and therefore inside the three-year ROTCE window the model averages. Equity value was approximately $900 million: about $610.6 million of cash consideration reflecting RJO's tangible book above an agreed benchmark, plus 3,085,554 shares reissued from treasury against a pre-close target value of $275.0 million, with up to $143 million of RJO debt assumed. StoneX priced $625 million of secured notes to fund the cash portion. The 2026-08-05 8-K (item 2.02) carried fiscal Q3 results and there is a 2026-08-28 8-K under item 7.01. The extract shows the footprint of the deal clearly: equity jumped from $1,709.1M to $2,377.4M in a single year while goodwill and intangibles reached $730.2M, or 31% of book.",
+  "consensus_case": "At $68.48 against $13.66 of tangible book, StoneX trades at 5.01x tangible common equity, and the market pays that because StoneX is a compounder, not a balance-sheet lender. Net income has run $238.5M, $260.8M and $305.9M across the last three years and book value has compounded at a high-teens to twenty percent rate for a decade. The business is a fee-and-spread franchise \u2014 clearing, execution, market-making across commodities, FX, securities and payments \u2014 where the balance sheet is a means of carrying client float rather than the source of earnings. Having just closed R.J. O'Brien, StoneX is the largest non-bank futures commission merchant in the United States and has added nearly $6 billion of client float. A buyer paying 5x tangible book for a franchise that grows book at 15-20% and earns high-teens returns is paying roughly 20x earnings for a business with scale advantages, which is not obviously rich.",
+  "base_case_rationale": "This is a book-method name, so no FCFF growth applies and record.py does not reprice it. On the substance, I do not accept the model's \u221263.2% 'expensive' reading as a finding. The justified P/TBV of 1.85x comes from a Gordon-style relationship between a sustainable ROTCE of 17.6%, a cost of equity of 10.7% and the engine's fixed 2.5% terminal growth constant. That construction structurally undervalues any firm that reinvests at high returns and grows book value far faster than 2.5%: it capitalises the spread between return and cost of equity while assuming the capital base is nearly static. StoneX has grown book at roughly 15-20% a year. Feed a 2.5% growth constant into a business compounding equity at 15% and the model will call it expensive at almost any price, which is what has happened here. Separately, the 17.6% 'sustainable' ROTCE averages three years that straddle the RJO close \u2014 pre-deal years with a smaller, cleaner equity base against a post-deal year carrying $730M of goodwill and intangibles and a $625M notes issuance. That is the acquisition-inside-the-window problem LESSONS records for UMBF, in the ROTCE numerator rather than the book denominator. Neither the multiple nor the return input is trustworthy enough to support a directional call.",
+  "key_risks": [
+    "5.01x tangible book leaves no margin for a normalisation in commodity, rates and FX volatility",
+    "Earnings are transaction-volume dependent and the three-year record spans only high-volatility years",
+    "Goodwill and intangibles are 31% of book after RJO, so reported book quality has fallen",
+    "The RJO integration is roughly one year old and its return contribution is not yet separable"
+  ],
+  "watch_for": [
+    "ROTCE in a quarter with normalised volatility \u2014 the observable that settles the bull and bear cases",
+    "Segment disclosure separating RJO's contribution from the legacy FCM business",
+    "Client float and interest income sensitivity if short rates fall"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/913760/000091376026000038/intl-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/913760/000091376026000037/intl-20260805.htm",
+    "https://www.sec.gov/Archives/edgar/data/913760/000091376025000127/stonexrjoclosingpressrelea.htm",
+    "https://ir.stonex.com/news-releases/news-release-details/stonex-acquire-rj-obrien-creating-market-leader",
+    "https://www.davispolk.com/experience/stonex-group-900-million-acquisition-rj-obrien-associates"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_31%_of_book"
+  ]
+}
