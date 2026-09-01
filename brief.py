@@ -199,7 +199,16 @@ def build(pick, screen_meta, today=None):
       f"{_pct(r.get('ret_63d'))} / {_pct(r.get('ret_252d'))} |")
     A(f"| 60d avg daily $ volume | {_usd(r.get('dollar_volume_60d'))} |")
     A(f"| beta (vs IWM) | {r.get('beta') and round(r['beta'],2)} "
-      f"(R²={r.get('beta_r2')}) |")
+      f"(R²={r.get('beta_r2')})"
+      + (f" · **{r['beta_source']}**" if r.get("beta_source") not in (None, "regression") else "")
+      + " |")
+    if r.get("volume_ratio"):
+        A(f"| 5d volume vs 60d average | {r['volume_ratio']:.1f}x |")
+    if r.get("balance_sheet_asof"):
+        A(f"| balance sheet as of | {r['balance_sheet_asof']} "
+          f"({r.get('balance_sheet_form') or 'n/a'}) |")
+    if r.get("weight_debt") is not None:
+        A(f"| WACC weights | equity {r['weight_equity']:.0%} / debt {r['weight_debt']:.0%} |")
     A("")
 
     A("## What the market's price already assumes")
@@ -260,6 +269,30 @@ def build(pick, screen_meta, today=None):
           "'no model' is a legitimate and expected outcome, and saying so is the correct "
           "answer when the cash flows won't support a valuation.")
     A("")
+
+    mv = r.get("multiple_valuation")
+    if mv and mv.get("rows"):
+        A("## What the sector cohort pays for this")
+        A("*A discounted cash flow cannot value negative cash flow, but 'unmodellable' "
+          "and 'worthless' are different claims. Below is what this name is worth at the "
+          "multiples its own sector actually trades at. Read the RANGE — a comparables "
+          "valuation is a statement about the cohort, not about this company.*")
+        A("")
+        A("| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |")
+        A("|---|---|---|---|")
+        for m in mv["rows"]:
+            own = f"{m['own_multiple']:.1f}x" if m.get("own_multiple") else "n/a"
+            A(f"| {m['metric']} (n={m['cohort_n']}) | {own} | "
+              f"{m['cohort_p25']:.1f}x / {m['cohort_median']:.1f}x / {m['cohort_p75']:.1f}x | "
+              f"{_usd(m['value_low'])} / {_usd(m['value_mid'])} / {_usd(m['value_high'])} |")
+        A("")
+        A(f"Blended midpoint **{_usd(mv.get('blended_value'))}** vs price "
+          f"{_usd(r.get('price'))} — gap **{_pct(mv.get('gap'))}**.")
+        A("")
+        A("> This number is NOT in the cohort rank or the selection score, on purpose: "
+          "those are built from DCF gaps and mixing the two would compare different "
+          "things. It is here for you to judge, not to defer to.")
+        A("")
 
     if r.get("cohort_pct") is not None:
         A(f"Cohort: **{r['cohort_pct']:.0f}th percentile** of {r.get('cohort_n')} "
@@ -376,6 +409,13 @@ Return ONLY a JSON object, no prose around it:
   "base_case_growth": 0.05,
   "base_case_rationale": "one paragraph, tied to the business",
   "fcff_base_override": null,
+  "bear_growth": 0.00,
+  "bull_growth": 0.09,
+  "scenario_drivers": {
+    "bear": "the specific thing that has to go wrong, not just a lower number",
+    "bull": "the specific thing that has to go right"
+  },
+  "rotce_override": null,
   "devils_advocate": {
     "strongest_counter": "the best case that the base case is wrong",
     "what_would_prove_it": "the observable that would settle it",
@@ -396,6 +436,18 @@ Return ONLY a JSON object, no prose around it:
 Rules that override everything above:
 - `final_growth` is the single number that moves the valuation. Everything else is the
   audit trail for why. Set it from your reasoning, not from the gap you want.
+- **For a financial (`book` method), put your sustainable ROTCE in `rotce_override`**,
+  as a decimal — 0.14 for 14%. That is the number the model prices, and it is a RETURN,
+  not a growth rate. Leave `final_growth` null on those names.
+- **Always give `bear_growth` and `bull_growth`,** and name the driver of each in
+  `scenario_drivers`. Not "a bit worse" and "a bit better" — the specific thing that has
+  to happen. The output is a grid of fair values across those cases and across the
+  discount rate, and that spread is the honest precision of this model. A single point
+  estimate claims a precision it does not have.
+- If the FCFF base is negative and the brief shows a multiples valuation, you may reason
+  from that instead. Say plainly that you are valuing on comparables, quote the cohort
+  size, and treat the range as a range — a comparables number is a statement about the
+  cohort, not about this company.
 - If the devil's advocate wins, say so and set `verdict` accordingly. A red-team pass
   that never changes an answer is theatre.
 - Never manufacture a fair value for a `no_model` name.
