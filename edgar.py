@@ -367,6 +367,120 @@ def recent_filings(cik, forms=("8-K", "10-K", "10-Q", "DEF 14A"), limit=12):
     return out
 
 
+# --- 8-K exhibits: the earnings deck, from a source that will not break -------
+# There is no free index mapping a ticker to its investor-relations site, and IR pages
+# are per-company, JavaScript-rendered and frequently bot-blocked -- scraping them
+# across 1,956 names produces silent nothing for most of them. The material that deck
+# contains is filed anyway: under Item 2.02 (results) or 7.01 (Reg FD), EX-99.1 is
+# almost always the press release and EX-99.2 the presentation itself. Those live on
+# EDGAR, are already covered by SEC_USER_AGENT, and do not move.
+
+# Item codes worth pulling exhibits for, and what each one means in a brief.
+MATERIAL_8K_ITEMS = {
+    "1.01": "entry into a material agreement",
+    "1.02": "termination of a material agreement",
+    "2.01": "completion of an acquisition or disposition",
+    "2.02": "results of operations",
+    "2.03": "new debt obligation",
+    "2.06": "material impairment",
+    "3.02": "unregistered sale of equity",
+    "4.01": "change of accountant",
+    "5.02": "officer or director change",
+    "7.01": "Reg FD disclosure",
+    "8.01": "other material event",
+}
+
+
+def filing_documents(cik, accession):
+    """Every document inside one filing, from its index.json.
+
+    `accession` may be dashed or not. Returns dicts with the exhibit type as EDGAR
+    labels it (EX-99.1, EX-99.2, ...), which is what lets the caller pick the deck out
+    of a filing that also contains a cover page and a press release.
+    """
+    acc = str(accession).replace("-", "")
+    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/index.json"
+    try:
+        blob = json.loads(_get(url))
+    except Exception:
+        return []
+    out = []
+    for item in blob.get("directory", {}).get("item", []):
+        name = item.get("name", "")
+        if not name.lower().endswith((".htm", ".html", ".txt", ".pdf")):
+            continue
+        out.append({
+            "name": name,
+            "type": (item.get("type") or "").upper(),
+            "description": item.get("description") or "",
+            "size": item.get("size"),
+            "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{name}",
+        })
+    return out
+
+
+def filings_with_items(cik, days_back=120, forms=("8-K",), limit=40):
+    """Recent filings for one company WITH their item codes, newest first.
+
+    `recent_filings` already reads the submissions endpoint; this keeps the item string
+    parsed into a list and filters to a date window, because an 8-K's item codes are the
+    single most informative free field about what actually happened.
+    """
+    cutoff = (dt.date.today() - dt.timedelta(days=days_back)).isoformat()
+    try:
+        blob = json.loads(_get(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json"))
+    except Exception:
+        return []
+    r = blob.get("filings", {}).get("recent", {})
+    out = []
+    for i in range(len(r.get("form", []))):
+        if forms and r["form"][i] not in forms:
+            continue
+        filed = r["filingDate"][i]
+        if filed < cutoff:
+            break                     # submissions come newest-first
+        items = [x.strip() for x in (r.get("items") or [""] * (i + 1))[i].split(",") if x.strip()]
+        out.append({
+            "form": r["form"][i],
+            "filed": filed,
+            "accession": r["accessionNumber"][i],
+            "items": items,
+            "item_labels": [MATERIAL_8K_ITEMS.get(x, x) for x in items],
+            "url": (f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/"
+                    f"{r['accessionNumber'][i].replace('-', '')}/{r['primaryDocument'][i]}"),
+        })
+        if len(out) >= limit:
+            break
+    return out
+
+
+def exhibits_for(cik, days_back=120, max_filings=6):
+    """The earnings-presentation set for one company: every EX-99.x attached to an 8-K
+    filed under a material item in the window.
+
+    Called only for the ten names picked each day, so the cost is bounded at roughly
+    `10 x (1 + max_filings)` requests. Returns the URLs, not the documents -- fetching
+    a PDF deck is a separate, opt-in step because some run to tens of megabytes.
+    """
+    out = []
+    for f in filings_with_items(cik, days_back=days_back)[:max_filings]:
+        if not any(i in MATERIAL_8K_ITEMS for i in f["items"]):
+            continue
+        for d in filing_documents(cik, f["accession"]):
+            if not d["type"].startswith("EX-99"):
+                continue
+            out.append({
+                "filed": f["filed"], "items": f["items"],
+                "item_labels": f["item_labels"],
+                "exhibit": d["type"], "description": d["description"],
+                "kind": ("presentation" if d["name"].lower().endswith(".pdf")
+                         or "present" in d["description"].lower()
+                         or d["type"] == "EX-99.2" else "press release"),
+                "url": d["url"],
+            })
+    return out
+
+
 # --- the durable fundamentals store ------------------------------------------
 # Raw companyfacts payloads are 0.1-4 MB each; 1,956 of them is gigabytes and cannot be
 # committed. The ~20 extracted numbers per company CAN be, so the repo carries those and

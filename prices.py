@@ -175,12 +175,21 @@ def build_quotes(tickers, names=None):
         stale_days = (closes.index[-1] - s.index[-1]).days
         b, br2, bnote = (beta(closes[t], bench) if bench is not None
                          else (None, None, "no_benchmark"))
-        dv = None
+        # Dollar volume over two windows. The 60-day figure is the liquidity gate; the
+        # ratio of the last week to it is a NEWS detector -- a small cap trading several
+        # times its normal volume has something going on, and that shows up here before
+        # any wire story does.
+        dv = dv5 = vratio = None
         if t in vols:
-            v = vols[t].dropna().iloc[-60:]
-            p = s.iloc[-60:]
-            if len(v) and len(p):
-                dv = float((v * p.reindex(v.index).ffill()).mean())
+            v = vols[t].dropna()
+            if len(v):
+                p = s.reindex(v.index).ffill()
+                dollars = (v * p).dropna()
+                if len(dollars) >= 5:
+                    dv = float(dollars.iloc[-60:].mean())
+                    dv5 = float(dollars.iloc[-5:].mean())
+                    if dv and dv > 0:
+                        vratio = round(dv5 / dv, 2)
         rows.append({
             "ticker": t, "asof": asof,
             "status": "ok" if stale_days <= 5 else "stale",
@@ -191,6 +200,8 @@ def build_quotes(tickers, names=None):
             "high_252d": float(s.iloc[-252:].max()) if len(s) >= 20 else None,
             "low_252d": float(s.iloc[-252:].min()) if len(s) >= 20 else None,
             "dollar_volume_60d": dv,
+            "dollar_volume_5d": dv5,
+            "volume_ratio": vratio,
             "beta": b, "beta_r2": br2, "beta_note": bnote,
             "yahoo_symbol": remap.get(t, t),
         })

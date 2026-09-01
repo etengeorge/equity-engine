@@ -38,5 +38,18 @@ RICH_WEIGHT = 0.4               # overvalued names still get slots, at lower pri
                                 # this is a long-oriented screen, and a very negative gap
                                 # is more often a broken input than a short candidate
 REVISIT_COOLDOWN_DAYS = 45      # don't burn a slot on a name we just did...
-MATERIAL_EVENT_OVERRIDE = True  # ...unless it filed an 8-K or moved hard since
+MATERIAL_EVENT_OVERRIDE = True  # ...unless something NEW happened since
+MIN_REVISIT_DAYS = 7            # ...and never sooner than this, whatever happened.
+                                # Without a floor, a 21-day return that barely changes
+                                # day to day re-triggered the override every session and
+                                # starved fresh names out of the opportunistic slots.
 FACTS_MAX_AGE_DAYS = 30         # refresh a company's XBRL facts at most this often
+
+# --- news ---------------------------------------------------------------------
+NEWS_LOOKBACK_DAYS = 90         # the window the analyst asks about per company
+NEWS_RETENTION_DAYS = 120       # what the store keeps, with margin over the lookback
+NEWS_MAX_COMPANY_PULLS = 450    # per-company requests per run; sector feeds cover the rest
+NEWS_BUDGET_SECONDS = 600       # hard stop on the company sweep so it cannot eat the job
+NEWS_ITEMS_PER_TICKER = 10
+NEWS_RECENT_DAYS = 5            # "in the news lately", for the selection score
+NEWS_SECTOR_HOT_ITEMS = 6       # sector article count in NEWS_RECENT_DAYS that counts as hot

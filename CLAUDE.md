@@ -34,13 +34,19 @@ market price. There does not have to be one. Most days there isn't.
 ```bash
 export SEC_USER_AGENT="equity-engine <your-email>"   # SEC 403s anonymous clients
 
-python run.py screen           # price + value all 1,956 names. No LLM. ~20 min.
+python run.py screen           # price + value all 1,956 names. No LLM. ~5 min.
 python run.py screen --limit 40  # a fast slice while developing
+python run.py news             # company + sector + market + macro news into data/news/
 python run.py pick             # choose today's ten, write briefs/<TKR>.md
 python run.py record --clean   # ingest synth/<TKR>.json into research/ + data/verdicts/
 python run.py site             # rebuild public/: the screen + a page per researched name
 python run.py status           # what state is this repo in
-python run.py daily            # screen + pick (what the GitHub Action runs)
+python run.py daily            # screen + news + pick (what the GitHub Action runs)
+python run.py daily --skip-news  # same, on price signals only
+
+# From the analyst runtime, which has no internet: dispatch the adhoc-fetch workflow
+# with {tickers, what: filings|news|url|all}, wait, git pull, read data/adhoc/<TKR>/.
+python adhoc.py --tickers ACR --what filings   # what that workflow runs
 ```
 
 ## Architecture
@@ -77,11 +83,47 @@ Research tab (`public/research/<sector-slug>/<TICKER>.html`), so the site is a v
 folders rather than a second copy of them: anything committed to `research/` appears on the
 next `site` build, with no separate index to keep in sync.
 
+**News comes from three sources because no free feed covers a small-cap index.**
+`news.py` runs between `screen` and `pick`, so selection can react to what happened
+overnight. Yahoo has no bulk news endpoint — it is one request per ticker — so a
+*company* pull is spent only on names that moved, traded abnormal volume, filed an 8-K,
+or are today's picks (`news.candidates`, capped at `NEWS_MAX_COMPANY_PULLS`). The other
+~1,500 names are covered by the eleven SPDR *sector* ETFs, whose holdings map 1:1 onto
+the GICS sectors in `universe.csv` — eleven requests buy sector news for the whole
+universe. *Macro* comes from keyless government feeds (Fed, SEC, BLS, Federal Register),
+which are the events that move a whole cohort at once. Every source degrades on its own:
+an empty store means selection falls back to exactly its old price-only behaviour, and
+the brief says "no news found" rather than omitting the section.
+
+**Investor-relations decks come from EDGAR, not from IR sites.** There is no free index
+mapping a ticker to its IR page, and those pages are per-company, JavaScript-rendered
+and often bot-blocked — scraping 1,956 of them yields silent nothing for most. The deck
+is filed anyway: under 8-K Item 2.02 or 7.01, EX-99.1 is the press release and EX-99.2
+is usually the presentation. `edgar.exhibits_for` reads those, and they do not move.
+
 **The daily job is split across two runtimes on purpose.** A GitHub Action
-(`ci/screen.yml`; see `ci/README.md` for why it is parked there) has real internet and does all the fetching and
+(`.github/workflows/screen.yml`) has real internet and does all the fetching and
 arithmetic, then commits. The Claude routine (`ROUTINE.md`) only reads the clone and
 reasons. This survives the failure that killed the previous version: a scheduled
 environment with no network egress.
+
+**The analyst gets internet on request.** Because that split leaves the reasoning half
+unable to open a filing, `.github/workflows/fetch.yml` (`adhoc.py`) is a
+`workflow_dispatch` job the analyst triggers mid-session: it fetches filings, exhibits,
+news or an arbitrary URL on a machine that can reach them, commits to `data/adhoc/`, and
+the analyst pulls. Roughly ninety seconds. Use it whenever an input actually decides a
+number — on 2026-08-31 ten verdicts were capped at low conviction by documents that were
+one dispatch away.
+
+**The two runtimes shake hands through `data/ready.json`.** They run on independent
+schedules and neither can see the other. The Action writes what completed, when, and
+which trading session the prices are from; the analyst stops if that file is missing or
+stale. It had been inferring readiness from a date stamp, which passed on a day the
+scheduled run fired seven hours late.
+
+**The screen runs pre-market (7:23am ET) so prices are always the prior close.** Two
+cron entries cover both DST offsets and a guard step drops whichever is not 7am Eastern.
+Running intraday let one name report two different prices on one calendar day.
 
 ## Things that are easy to get wrong here
 These are all real bugs that were found and fixed; do not reintroduce them.
@@ -116,6 +158,24 @@ These are all real bugs that were found and fixed; do not reintroduce them.
 - **Never preemptively rewrite tickers.** Class-share symbols are repaired only after an
   empty download (MOGA → MOG-A); 263 universe names say "CLASS A" and nearly all of their
   tickers are already correct.
+- **A cooldown override needs a floor and a freshness test.** `MATERIAL_EVENT_OVERRIDE`
+  used to fire on any >20% move in `ret_5d` or `ret_21d`. A 21-day return barely changes
+  day to day, so a name that fell 25% over three weeks re-qualified *every session* for
+  the next three weeks and kept beating fresh names to a slot — on 2026-08-31 it cost
+  three of the four opportunistic slots to names researched nine hours earlier. It now
+  needs `MIN_REVISIT_DAYS` elapsed AND something genuinely new: a fresh 5-day move,
+  abnormal volume, or a new 8-K.
+- **News must never select a name on its own.** Coverage volume correlates with what is
+  already priced, and this is a valuation screen. Both news terms in `urgency()` are
+  multiplicative and gated on an existing positive score. Written additively — as they
+  first were — "its sector is in the news" alone put a name with no gap into contention.
+- **Read both yfinance news payloads.** 0.2.x returned a flat dict with
+  `uuid`/`link`/`providerPublishTime`; 1.x nests under `content` with `pubDate` and
+  `canonicalUrl`. `requirements.txt` pins a range, so handling only one shape means the
+  news layer silently returns nothing after a routine dependency bump.
+- **Dedupe the news store by article id.** Yahoo returns the same wire story every day it
+  stays on the page. Without the id check the store grows by a full page per ticker per
+  day — the difference between a 5 MB store and a 200 MB one inside a git repository.
 
 ## Honesty
 State uncertainty plainly. "The screen flagged it" is not "it is cheap." "Tests pass" is

@@ -20,6 +20,20 @@ yesterday's prices or a failed data pull. A green run that produced no research 
 single failure mode this project has already lived through; say so loudly rather than
 generating ten theses on stale numbers.
 
+`status` also prints a `ready` line, read from `data/ready.json`. That file is the
+handshake: the Action writes it as each stage completes, and it names the trading session
+the prices came from. **Check three things and stop if any fails:**
+
+- `ready` exists at all. No file means the Action has not completed a full run — the
+  briefs in `briefs/` are left over from a previous day.
+- `stages` includes `pick`. Screen-only means selection never ran.
+- `price_asof` is the most recent completed session. The screen runs pre-market, so this
+  is normally yesterday's close; if it is older than that, the price pull failed.
+
+A scheduled Action run has already fired seven hours late once. The date on the screen
+is not sufficient evidence that today's work is ready — that is exactly what this file
+exists to replace.
+
 ### 1b. Establish what you can actually reach
 ```bash
 for h in www.sec.gov data.sec.gov; do
@@ -34,10 +48,38 @@ does not stop the research.
 What it changes is where your news comes from:
 - **Reachable** → read the filings linked in each brief directly. Best case.
 - **Blocked (000 / connect_rejected)** → do NOT retry, and do not treat it as a failed run.
-  Use web search instead, which runs on different infrastructure. Say plainly in each name's
-  `data_quality_note` that you could not open the primary filing, and let that cap your
-  conviction. A thesis built only on secondary sources is a lower-confidence thesis, and it
-  must be labelled as one.
+  You have two other routes, and you are expected to use them before settling for less.
+
+**Route one: the brief already contains news.** Every brief carries 90 days of company
+headlines, its sector's feed, the market and macro items, and the 8-K exhibit list —
+EX-99.1 is the press release and EX-99.2 is usually the presentation. All of that was
+fetched this morning by the runtime that *can* reach those hosts. Read it before you
+search for anything.
+
+**Route two: make GitHub fetch what you need.** The `adhoc-fetch` workflow
+(`.github/workflows/fetch.yml`) runs on a machine with full internet. Dispatch it with a
+ticker and what you want, wait for it to finish, `git pull`, and read
+`data/adhoc/<TICKER>/`. It takes about ninety seconds.
+
+```
+workflow: fetch.yml
+inputs:   tickers = ACR          (comma-separated for several)
+          what    = filings      (filings | news | url | all)
+          url     = https://…    (only when what = url)
+          reason  = short note, goes in the commit message
+```
+
+`filings` converts the recent 10-K, 10-Q and 8-K primary documents plus their EX-99
+exhibits to text. `url` fetches any single page — an IR deck, a transcript, a regulator's
+notice. Use this whenever a document actually decides a number you would otherwise have
+to guess at. On 2026-08-31 all ten verdicts were capped at low conviction by filings that
+were one dispatch away, and three names had their entire valuation invalidated by a
+document sitting on EDGAR.
+
+Web search still works and runs on separate infrastructure — use it for breadth. But a
+`data_quality_note` that says "I could not open the primary filing" is now a statement
+that you chose not to fetch it, so either fetch it or say why it was not worth ninety
+seconds.
 
 Never substitute a guess for a source you could not open. "I could not read the 10-K" is a
 fact worth recording; an invented detail is not.
@@ -50,8 +92,17 @@ something new; do not pad it with restatements of what is already there.
 
 ### 3. Read today's briefs
 `briefs/*.md` — ten of them. Each is self-contained: the reverse-DCF read, the data-quality
-flags, everything previously concluded about that name, and the prior verdicts on its
-sector peers. Read the whole brief before searching anything.
+flags, the 8-K exhibits, 90 days of company news, the sector and macro feeds, everything
+previously concluded about that name, and the prior verdicts on its sector peers. Read the
+whole brief before searching anything.
+
+The news sections are there to be *used*, not skimmed. A headline dated after the last
+10-K is the most common reason the model's inputs are wrong, and the sector feed is often
+the only place a cohort-wide event shows up — a tariff ruling, an FDA panel, a rate move
+through the banks — for a name too small to make the wire itself. When a section says
+"no news in the store", that is a fact about coverage: the name did not move, did not
+trade abnormal volume and did not file. It lowers your confidence in "nothing happened";
+it does not confirm it.
 
 Some names carry research imported from the previous engine, marked as such at the top of
 their file. Those valuations predate the stock-compensation, cyclical-base and share-count

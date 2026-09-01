@@ -107,10 +107,36 @@ def urgency(r, shocks, event_ciks, visits, today=None):
             score += min(abs(v), 0.5) * weight
             why.append(f"{label} move {v:+.0%}")
 
+    # 2b. abnormal volume. Unlike a return this has no direction and it usually moves
+    #     BEFORE the story is written, so it catches a name on the day something
+    #     happened rather than the day it was reported.
+    vr = r.get("volume_ratio")
+    if vr is not None and math.isfinite(vr) and vr > 2.0:
+        score += min(vr, 6.0) * 0.30
+        why.append(f"volume {vr:.1f}x its 60d average")
+
     # 3. it filed something material
     if r.get("cik") in event_ciks:
         score += 2.5
         why.append("filed an 8-K in the last few sessions")
+
+    # 3b. it is actually in the news, and the news is recent.
+    #     Deliberately a MULTIPLIER on names that are already interesting on price
+    #     rather than a trigger of its own: news volume on its own selects for what is
+    #     already priced, and this is a valuation screen. A name with heavy coverage and
+    #     no gap still scores near zero here.
+    #     Both terms are multiplicative and both are gated on an existing score. Written
+    #     additively, "its sector is in the news" alone put a name with no valuation gap
+    #     at 1.0 and into contention — which is the failure this comment exists to
+    #     prevent, caught by test_news_boost_cannot_select_on_its_own.
+    if score > 0:
+        nz = r.get("news_recent") or 0
+        if nz:
+            score *= 1.0 + min(nz, 6) * 0.06
+            why.append(f"{nz} news items in the last 5 days")
+        if r.get("news_sector_hot"):
+            score *= 1.10
+            why.append(f"{r['sector']} is in the news")
 
     # 4. its whole sector moved, and it moved more than the sector did
     shock = shocks.get(r["sector"])
@@ -154,13 +180,51 @@ def eligible_for_opportunistic(r, visits, today=None):
         return False, "no model output"
     seen = days_since((visits.get(r["ticker"]) or {}).get("last_visit"), today)
     if seen is not None and seen < config.REVISIT_COOLDOWN_DAYS:
-        moved = any(abs(r.get(f) or 0) > 0.20 for f in ("ret_5d", "ret_21d"))
-        if not (config.MATERIAL_EVENT_OVERRIDE and moved):
+        # The override exists to catch a name that halved while it waited its turn. It
+        # had no floor, and ret_21d barely changes from one day to the next, so a name
+        # that fell 25% over three weeks satisfied it EVERY day for the next three weeks
+        # and kept beating fresh names to a slot. On 2026-08-31 it cost three of the four
+        # opportunistic slots to names researched nine hours earlier. Two conditions now:
+        # enough time must have passed to have learned anything, and the trigger must be
+        # something NEW -- a fresh 5-day move, a new filing, or abnormal volume today --
+        # not a stale 21-day number that has not changed since the last look.
+        if seen < config.MIN_REVISIT_DAYS:
+            return False, (f"researched {seen}d ago (minimum {config.MIN_REVISIT_DAYS}d "
+                           f"before any revisit)")
+        fresh = (abs(r.get("ret_5d") or 0) > 0.20
+                 or (r.get("volume_ratio") or 0) > 3.0
+                 or bool(r.get("filed_8k")))
+        if not (config.MATERIAL_EVENT_OVERRIDE and fresh):
             return False, f"researched {seen}d ago (cooldown {config.REVISIT_COOLDOWN_DAYS}d)"
     return True, None
 
 
 # --- selection ---------------------------------------------------------------
+def attach_news(rows, event_ciks=(), today=None):
+    """Stamp each row with what the news layer already collected.
+
+    Reads the store rather than fetching, so selection stays offline-safe and testable:
+    if the news pull was skipped or throttled, every count is zero and selection falls
+    back to exactly the price-driven behaviour it had before.
+    """
+    try:
+        import news
+    except Exception:
+        return {}
+    event_ciks = set(event_ciks)
+    hot = set()
+    for sector in {r.get("sector") for r in rows if r.get("sector")}:
+        recent = news.read("sectors", sector, days=config.NEWS_RECENT_DAYS)
+        if len(recent) >= config.NEWS_SECTOR_HOT_ITEMS:
+            hot.add(sector)
+    for r in rows:
+        r["filed_8k"] = r.get("cik") in event_ciks
+        r["news_sector_hot"] = r.get("sector") in hot
+        r["news_recent"] = len(news.read("companies", r["ticker"],
+                                         days=config.NEWS_RECENT_DAYS))
+    return {"sectors_hot": sorted(hot)}
+
+
 def select(screen, event_ciks=(), today=None):
     rows = screen["rows"]
     by_ticker = {r["ticker"]: r for r in rows}
@@ -168,6 +232,7 @@ def select(screen, event_ciks=(), today=None):
     visits = _load("visits.json", {})
     cursor = _load("cursor.json", {"index": 0, "cycle": 1})
     event_ciks = set(event_ciks)
+    news_meta = attach_news(rows, event_ciks, today)
     shocks = sector_shocks(rows)
 
     picks, chosen = [], set()
@@ -227,4 +292,4 @@ def select(screen, event_ciks=(), today=None):
     cursor = {"index": i, "cycle": cycle,
               "covered": len([t for t, v in visits.items() if v.get("last_visit")])}
     return {"picks": picks, "cursor": cursor, "shocks": shocks,
-            "universe_size": len(order)}
+            "news": news_meta, "universe_size": len(order)}

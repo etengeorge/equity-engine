@@ -339,6 +339,187 @@ def test_site_build_writes_both_tabs():
         check("no broken internal links", not bad, "; ".join(bad[:5]))
 
 
+# --- news layer --------------------------------------------------------------
+def test_news_normalizes_both_yfinance_shapes():
+    """yfinance has shipped two different news payloads. The 0.2.x form was flat with
+    `uuid`/`link`/`providerPublishTime`; 1.x nests under `content`. requirements.txt
+    pins a RANGE, so the Action can install either — reading only one shape would make
+    the news layer silently return nothing after a routine dependency bump."""
+    import news
+    old = {"uuid": "abc", "title": "Old shape headline", "publisher": "Reuters",
+           "link": "https://example.com/a", "providerPublishTime": 1756600000,
+           "relatedTickers": ["BBW"]}
+    new = {"id": "xyz", "content": {
+        "title": "New shape headline", "summary": "A summary.",
+        "pubDate": "2026-08-31T12:00:00Z",
+        "provider": {"displayName": "Bloomberg"},
+        "canonicalUrl": {"url": "https://example.com/b"}}}
+    a, b = news._from_yf(old), news._from_yf(new, fallback_tickers=["STRT"])
+    check("old yfinance shape parses", a and a["title"] == "Old shape headline", a)
+    check("old shape keeps related tickers", a and "BBW" in a["tickers"], a)
+    check("old shape epoch seconds become an ISO instant",
+          a and a["ts"] == "2025-08-31T00:26:40+00:00", a and a["ts"])
+    check("new yfinance shape parses", b and b["title"] == "New shape headline", b)
+    check("new shape reads the nested publisher", b and b["publisher"] == "Bloomberg", b)
+    check("new shape reads the canonical url",
+          b and b["url"] == "https://example.com/b", b)
+    check("a titleless article is dropped", news._from_yf({"id": "1"}) is None)
+
+
+def test_news_store_dedupes_and_prunes():
+    """The same wire story is returned every day it stays on Yahoo's page. Without an id
+    check the store would grow by a full page per ticker per day instead of by what is
+    actually new — which is the difference between a 5 MB store and a 200 MB one."""
+    import news, tempfile, pathlib, datetime as _dt
+    old_store = news.STORE
+    with tempfile.TemporaryDirectory() as td:
+        news.STORE = pathlib.Path(td)
+        fresh = news._article("id1", _dt.datetime.now(_dt.timezone.utc).isoformat(),
+                              "Fresh", "", "P", "u", ["T"], "test")
+        stale = news._article("id2", (_dt.datetime.now(_dt.timezone.utc)
+                                      - _dt.timedelta(days=200)).isoformat(),
+                              "Stale", "", "P", "u", ["T"], "test")
+        added, total = news.append("companies", "TEST", [fresh, stale, fresh])
+        check("duplicate ids collapse on the way in", added == 2, added)
+        check("an article past retention is dropped on write", total == 1, total)
+        again, _ = news.append("companies", "TEST", [fresh])
+        check("re-appending the same story adds nothing", again == 0, again)
+        check("read honours the lookback window",
+              len(news.read("companies", "TEST", days=90)) == 1)
+        check("read of an unknown key is empty, not an error",
+              news.read("companies", "NOSUCH") == [])
+        news.STORE = old_store
+
+
+def test_news_candidates_are_bounded_and_forced_picks_survive():
+    """A company news pull is one HTTP round trip. The candidate set must stay inside its
+    budget, and today's picks must never be crowded out of it by movers."""
+    import news
+    rows = [{"ticker": f"T{i}", "ret_5d": 0.5, "volume_ratio": 9.0} for i in range(900)]
+    rows.append({"ticker": "QUIET", "ret_5d": 0.0})
+    cands = news.candidates(rows, always=["PICK1", "PICK2"], max_names=50)
+    check("candidate set respects max_names", len(cands) == 50, len(cands))
+    check("forced picks are always included",
+          {"PICK1", "PICK2"} <= set(cands), cands[:5])
+    check("a name that did nothing is not fetched", "QUIET" not in cands)
+
+
+def test_selection_falls_back_when_news_is_missing():
+    """News is an enrichment, not a dependency. With an empty store every count must be
+    zero and selection must behave exactly as it did before news existed — otherwise a
+    throttled Yahoo silently changes which ten names get researched."""
+    import daily, news, tempfile, pathlib
+    old_store = news.STORE
+    with tempfile.TemporaryDirectory() as td:
+        news.STORE = pathlib.Path(td)
+        rows = [{"ticker": "AAA", "sector": "Industrials", "cik": 1},
+                {"ticker": "BBB", "sector": "Industrials", "cik": 2}]
+        daily.attach_news(rows, event_ciks={1})
+        check("filed_8k is stamped from the 8-K index", rows[0]["filed_8k"] is True)
+        check("a non-filer is stamped false", rows[1]["filed_8k"] is False)
+        check("news counts default to zero with an empty store",
+              rows[0]["news_recent"] == 0 and rows[1]["news_recent"] == 0)
+        check("no sector is hot with an empty store",
+              not rows[0]["news_sector_hot"])
+        news.STORE = old_store
+
+
+def test_news_boost_cannot_select_on_its_own():
+    """News is a MULTIPLIER on names that are already interesting on price, never a
+    trigger. Coverage volume selects for what is already priced; this is a valuation
+    screen, so a heavily covered name with no gap must still score at zero."""
+    import daily
+    covered = {"ticker": "LOUD", "sector": "Industrials", "news_recent": 6,
+               "news_sector_hot": True, "gap": None, "cohort_pct": None}
+    s, why = daily.urgency(covered, {}, set(), {})
+    check("news alone cannot manufacture a score", s <= 0.5, f"score={s} why={why}")
+
+
+# --- selection cooldown ------------------------------------------------------
+def test_revisit_floor_blocks_a_same_day_repick():
+    """On 2026-08-31 the material-event override re-picked BBW, STRT and WLFC hours after
+    they were researched, taking three of four opportunistic slots. ret_21d barely moves
+    day to day, so a name that fell 25% over three weeks satisfied the override EVERY day
+    for three more weeks. A floor plus a freshness test is what stops that."""
+    import daily
+    visits = {"BBW": {"last_visit": dt_today()}}
+    same_day = {"ticker": "BBW", "gap": 0.4, "flags": [], "ret_5d": -0.225,
+                "ret_21d": -0.112}
+    ok, why = daily.eligible_for_opportunistic(same_day, visits)
+    check("a name researched today is not re-picked", not ok, why)
+    check("the reason names the floor", "minimum" in (why or ""), why)
+
+    stale_mover = {"ticker": "BBW", "gap": 0.4, "flags": [], "ret_5d": -0.01,
+                   "ret_21d": -0.257}
+    visits2 = {"BBW": {"last_visit": _days_ago(20)}}
+    ok2, why2 = daily.eligible_for_opportunistic(stale_mover, visits2)
+    check("an unchanged 21-day move no longer re-triggers the override", not ok2, why2)
+
+    fresh_mover = {"ticker": "BBW", "gap": 0.4, "flags": [], "ret_5d": -0.25,
+                   "ret_21d": -0.257}
+    ok3, _ = daily.eligible_for_opportunistic(fresh_mover, visits2)
+    check("a NEW 5-day move still overrides the cooldown", ok3)
+
+    filer = {"ticker": "BBW", "gap": 0.4, "flags": [], "ret_5d": -0.01,
+             "ret_21d": -0.01, "filed_8k": True}
+    ok4, _ = daily.eligible_for_opportunistic(filer, visits2)
+    check("a new 8-K still overrides the cooldown", ok4)
+
+
+def dt_today():
+    import datetime
+    return datetime.date.today().isoformat()
+
+
+def _days_ago(n):
+    import datetime
+    return (datetime.date.today() - datetime.timedelta(days=n)).isoformat()
+
+
+# --- the two-runtime handshake -----------------------------------------------
+def test_ready_marker_records_what_completed():
+    """The analyst run is on its own schedule and cannot see whether the Action
+    finished. It had been inferring that from a date stamp — which passed on a day the
+    scheduled run fired 7h10m late. ready.json states what actually completed."""
+    import screen as S, tempfile, pathlib, json as _json
+    old = config.DATA
+    with tempfile.TemporaryDirectory() as td:
+        config.DATA = pathlib.Path(td)
+        payload = {"generated_utc": "2026-09-01T11:30:00+00:00",
+                   "price_asof": "2026-08-31",
+                   "counts": {"modelled": 1082}, "rows": [{}] * 1956}
+        S.write_ready(payload)
+        doc = _json.loads((config.DATA / "ready.json").read_text())
+        check("ready records the price session", doc["price_asof"] == "2026-08-31", doc)
+        check("ready records coverage", doc["modelled"] == 1082, doc)
+        check("ready computes a coverage percentage",
+              50 < doc["modelled_pct"] < 60, doc["modelled_pct"])
+        check("screen stage is stamped", "screen" in doc["stages"], doc)
+        S.write_ready(payload, picks=["AAA"])
+        doc2 = _json.loads((config.DATA / "ready.json").read_text())
+        check("later stages accumulate rather than replacing",
+              "screen" in doc2["stages"] and "pick" in doc2["stages"], doc2)
+        check("picks are carried", doc2["picks"] == ["AAA"], doc2)
+        config.DATA = old
+
+
+# --- adhoc fetch -------------------------------------------------------------
+def test_adhoc_html_to_text():
+    """The analyst reads these, so script/style must not survive and block tags must
+    become line breaks — otherwise a 10-K arrives as one unreadable paragraph."""
+    import adhoc
+    raw = ("<html><head><style>p{color:red}</style></head><body>"
+           "<script>var x=1;</script><p>Revenue was &amp;nbsp;$1.2M</p>"
+           "<div>Net income rose</div><table><tr><td>2025</td><td>100</td></tr></table>"
+           "</body></html>")
+    txt = adhoc.to_text(raw)
+    check("script contents are removed", "var x" not in txt, txt)
+    check("style contents are removed", "color:red" not in txt, txt)
+    check("entities are decoded", "&amp;" not in txt, txt)
+    check("block tags become newlines", "\n" in txt, repr(txt))
+    check("visible text survives", "Net income rose" in txt, txt)
+
+
 def main():
     for fn in sorted([v for k, v in globals().items() if k.startswith("test_")],
                      key=lambda f: f.__name__):
