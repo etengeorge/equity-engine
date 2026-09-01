@@ -1,11 +1,11 @@
 {
-  "fetched_utc": "2026-09-01T12:16:31+00:00",
+  "fetched_utc": "2026-09-01T12:17:39+00:00",
   "requested": "url",
   "url": {
-    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/index.json",
-    "content_type": "application/json",
-    "file": "index.json.txt",
-    "chars": 1672,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
+    "content_type": "text/html",
+    "file": "q22026pressrelease.htm.txt",
+    "chars": 34433,
     "truncated": false
   }
 }
