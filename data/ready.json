@@ -1,0 +1,90 @@
+{
+  "screen_utc": "2026-09-01T12:10:22+00:00",
+  "price_asof": "2026-08-31",
+  "universe": 1956,
+  "modelled": 1082,
+  "modelled_pct": 55.3,
+  "news": {
+    "generated_utc": "2026-09-01T12:10:23+00:00",
+    "sectors": {
+      "Health Care": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLV"
+      },
+      "Financials": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLF"
+      },
+      "Industrials": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLI"
+      },
+      "Information Technology": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLK"
+      },
+      "Consumer Discretionary": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLY"
+      },
+      "Energy": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLE"
+      },
+      "Real Estate": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLRE"
+      },
+      "Materials": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLB"
+      },
+      "Communication": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLC"
+      },
+      "Consumer Staples": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLP"
+      },
+      "Utilities": {
+        "new": 12,
+        "held": 12,
+        "etf": "XLU"
+      }
+    },
+    "macro": 86,
+    "market": 36,
+    "companies": 449,
+    "articles_new": 4735,
+    "candidates": 450,
+    "elapsed_s": 201.7
+  },
+  "picks": [
+    "PCVX",
+    "COMP",
+    "TGTX",
+    "CMC",
+    "FLR",
+    "SNEX",
+    "ANF",
+    "TDOC",
+    "CRI",
+    "MFIN"
+  ],
+  "stages": {
+    "screen": "2026-09-01T12:13:56+00:00",
+    "news": "2026-09-01T12:13:45+00:00",
+    "pick": "2026-09-01T12:13:56+00:00"
+  }
+}
