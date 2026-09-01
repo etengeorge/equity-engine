@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-01T12:18:32+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "PCVX",
+    "cik": 1649094,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000043/pcvx-20260630.htm",
+        "file": "2026-08-05-10-Q-pcvx-20260630.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000041/pcvx-20260805.htm",
+        "file": "2026-08-05-8-K-pcvx-20260805.htm.txt",
+        "chars": 3796,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-15",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000030/pcvx-20260713.htm",
+        "file": "2026-07-15-8-K-pcvx-20260713.htm.txt",
+        "chars": 4845,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-23",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000026/pcvx-20260617.htm",
+        "file": "2026-06-23-8-K-pcvx-20260617.htm.txt",
+        "chars": 4953,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-16",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000021/pcvx-20260615.htm",
+        "file": "2026-06-16-8-K-pcvx-20260615.htm.txt",
+        "chars": 4315,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000017/pcvx-20260331.htm",
+        "file": "2026-05-06-10-Q-pcvx-20260331.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000164909426000015/pcvx-20260506.htm",
+        "file": "2026-05-06-8-K-pcvx-20260506.htm.txt",
+        "chars": 3785,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-24",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526067546/d259722d8k.htm",
+        "file": "2026-02-24-8-K-d259722d8k.htm.txt",
+        "chars": 6557,
+        "truncated": false
+      }
+    ]
+  }
+}

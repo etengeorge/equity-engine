@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-01T12:18:30+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "TGTX",
+    "cik": 1001316,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025955/tgtx20260630_10q.htm",
+        "file": "2026-08-05-10-Q-tgtx20260630_10q.htm.txt",
+        "chars": 400149,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025304/tgtx20260730_8k.htm",
+        "file": "2026-08-03-8-K-tgtx20260730_8k.htm.txt",
+        "chars": 3441,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-12",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926020491/tgtx20260612_8k.htm",
+        "file": "2026-06-12-8-K-tgtx20260612_8k.htm.txt",
+        "chars": 4341,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-03",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926019262/tgtx20260602_8k.htm",
+        "file": "2026-06-03-8-K-tgtx20260602_8k.htm.txt",
+        "chars": 3084,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-27",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926018586/tgtx20260527_8k.htm",
+        "file": "2026-05-27-8-K-tgtx20260527_8k.htm.txt",
+        "chars": 3070,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926015246/tgtx20260331_10q.htm",
+        "file": "2026-05-06-10-Q-tgtx20260331_10q.htm.txt",
+        "chars": 400149,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926015013/tgtx20260227_8k.htm",
+        "file": "2026-05-06-8-K-tgtx20260227_8k.htm.txt",
+        "chars": 3422,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-20",
+        "items": "1.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926009253/tgtx20260319_8k.htm",
+        "file": "2026-03-20-8-K-tgtx20260319_8k.htm.txt",
+        "chars": 6144,
+        "truncated": false
+      }
+    ]
+  }
+}

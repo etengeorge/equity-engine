@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-01T12:18:35+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "COMP",
+    "cik": 1563190,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000143/comp-20260630.htm",
+        "file": "2026-08-06-10-Q-comp-20260630.htm.txt",
+        "chars": 265503,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000135/comp-20260804.htm",
+        "file": "2026-08-04-8-K-comp-20260804.htm.txt",
+        "chars": 3611,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-15",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000104/comp-20260514.htm",
+        "file": "2026-05-15-8-K-comp-20260514.htm.txt",
+        "chars": 4830,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000101/comp-20260331.htm",
+        "file": "2026-05-08-10-Q-comp-20260331.htm.txt",
+        "chars": 240092,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000094/comp-20260505.htm",
+        "file": "2026-05-05-8-K-comp-20260505.htm.txt",
+        "chars": 3604,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-17",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000089/comp-20260415.htm",
+        "file": "2026-04-17-8-K-comp-20260415.htm.txt",
+        "chars": 4495,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-27",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000057/comp-20251231.htm",
+        "file": "2026-02-27-10-K-comp-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-26",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000044/comp-20260226.htm",
+        "file": "2026-02-26-8-K-comp-20260226.htm.txt",
+        "chars": 4096,
+        "truncated": false
+      }
+    ]
+  }
+}
