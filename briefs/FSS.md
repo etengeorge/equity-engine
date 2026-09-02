@@ -1,103 +1,70 @@
-# ALTG — ALTA EQUIPMENT GROUP INC CLASS A
-*Industrials · brief generated 2026-09-02 · selected as **opportunistic***
+# FSS — FEDERAL SIGNAL CORP
+*Industrials · brief generated 2026-09-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 1% of 152 Industrials peers (99th pct)
-- baseline gap +281%
-- 21d move -18%
-- 1 news items in the last 5 days
-- Industrials is in the news
-- Industrials sector selloff (median -4.0%)
-- moved harder than its sector
-- never researched
-- urgency score 9.96
+- rotation position 39/1956
 
 ## Market
 | | |
 |---|---|
-| price | $5.72 |
-| market cap | $186.9M |
-| 5d / 21d / 63d / 252d | -7.6% / -18.1% / -11.2% / -31.4% |
-| 60d avg daily $ volume | $1.3M |
-| beta (vs IWM) | 2.26 (R²=0.441) |
-| 5d volume vs 60d average | 1.0x |
+| price | $113.61 |
+| market cap | $6.9B |
+| 5d / 21d / 63d / 252d | -5.2% / -9.0% / +7.8% / -10.0% |
+| 60d avg daily $ volume | $62.5M |
+| beta (vs IWM) | 0.87 (R²=0.281) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 27% / debt 73% |
+| WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$105.2M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$23.8M', '$41.6M', '$51.4M']
-Enterprise value **$663.2M** · FCFF yield **+15.9%**
+Normalized FCFF base **$204.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$227.1M', '$190.7M', '$164.1M']
+Enterprise value **$7.3B** · FCFF yield **+2.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 17.1% − 1pt | -1.5% |
-| **17.1% (point)** | **+0.2%** |
-| 17.1% + 1pt | +1.9% |
+| 9.3% − 1pt | +21.3% |
+| **9.3% (point)** | **+25.5%** |
+| 9.3% + 1pt | +29.4% |
 
 
-> **Stock compensation is 11% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$100.9M** and an implied growth of **+1.3%** instead of +0.2%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+16.0%** (5y revenue CAGR +16.0%).
-Gap under that baseline: **+280.6%** (fair value $21.77 vs price $5.72).
+Naive baseline for comparison: **+14.0%** (5y revenue CAGR +14.0%).
+Gap under that baseline: **-37.5%** (fair value $70.95 vs price $113.61).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +298.8%).
+Cohort: **32th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -19.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.46x_oldest_growth_applied_to_a_trough_understates_value`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1759824/000119312526338075/altg-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526338061/altg-20260803.htm
-- 2026-07-02 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526293422/altg-20260702.htm
-- 2026-05-29 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526248503/altg-20260529.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1759824/000119312526212008/altg-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526211977/altg-20260507.htm
-- 2026-04-15 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1759824/000119312526157108/altg-20260415.htm
-- 2026-04-03 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526141224/altg-20260403.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1759824/000119312526076932/altg-20251231.htm
-- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1759824/000119312526076903/altg-20260226.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/277509/000162828026050993/fss-20260630.htm
+- 2026-05-20 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026036817/fss-20260520.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/277509/000162828026028312/fss-20260331.htm
+- 2026-04-22 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026026450/fss-20260421.htm
+- 2026-03-06 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/277509/000162828026015646/ffs-20260306.htm
+- 2026-03-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026013101/fss-20260302.htm
+- 2026-02-26 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026012351/fss-20260226.htm
+- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/277509/000162828026011576/fss-20251231.htm
+- 2026-01-16 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026002352/fss-20260116.htm
+- 2026-01-14 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/277509/000162828026002031/fss-20260114.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1759824/000119312526338061/altg-ex99_1.htm
-- **2026-07-02** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1759824/000119312526293422/altg-ex99_1.htm
-- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1759824/000119312526211977/altg-ex99_1.htm
+- **2026-05-20** · EX-99.1 · presentation — INVESTOR PRESENTATION *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/277509/000162828026036817/investordeck_may2026.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-28** · 1 Cash-Producing Stock Worth Your Attention and 2 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-worth-104852529.html
-  > While strong cash flow is a key indicator of stability, it doesn’t always translate to superior returns. Some cash-heavy businesses struggle with inefficient spending, slowing demand, or weak competitive positioning.
-- **2026-08-15** · The 5 Most Interesting Analyst Questions From Alta’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-022900760.html
-  > Alta’s second quarter results were shaped by a more supportive industry environment, with management noting sequential improvement across all business segments and easing competitive pressures. CEO Ryan Greenawalt highlighted that "order ac
-- **2026-08-13** · Alta Equipment Group (ALTG) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/alta-equipment-group-altg-q2-2026-earnings-call-transcript/
-  > Material Handling backlog hits $143 million, highest since 2023.
-- **2026-08-11** · ALTG Q2 Deep Dive: Improving Backdrop Drives Margin Recovery and Optimism for Second Half — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/altg-q2-deep-dive-improving-165322067.html
-  > Equipment distribution company Alta Equipment Group (NYSE:ALTG) missed Wall Street’s revenue expectations in Q2 CY2026, with sales falling 1.2% year on year to $475.5 million. Its non-GAAP loss of $0.03 per share was 74.2% above analysts’ c
-- **2026-08-07** · Alta Equipment Group Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/alta-equipment-group-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Alta Equipment Group (NYSE:ALTG) reported a stronger second quarter as improving equipment demand, recovering deliveries and better margins lifted results sharply from the first quarter, while management narrowed the upper end of its full-y
-- **2026-08-07** · Alta Equipment Group Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-alta-equipment-group-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Alta Equipment Group Inc.'s Q2 2026 earnings call
-- **2026-08-06** · Alta (NYSE:ALTG) Misses Q2 CY2026 Sales Expectations — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/alta-nyse-altg-misses-q2-220328804.html
-  > Equipment distribution company Alta Equipment Group (NYSE:ALTG) fell short of the market’s revenue expectations in Q2 CY2026, with sales falling 1.2% year on year to $475.5 million. Its non-GAAP loss of $0.04 per share was 62.5% above analy
-- **2026-08-06** · Alta Equipment Group Announces Second Quarter 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/alta-equipment-group-announces-second-201500937.html
-  > Second Quarter Financial Highlights: Total revenues increased $65.0 million sequentially versus the first quarter of 2026, with all three segments reporting increases. Total revenues decreased $5.7 million year over year to $475.5 million. 
-- **2026-08-05** · Custom Truck One Source Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/custom-truck-one-source-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Custom Truck One Source (NYSE:CTOS) reported record second-quarter revenue and raised its full-year outlook, citing sustained demand in transmission and distribution markets, improved rental utilization and record equipment sales. For the t
-- **2026-07-31** · Gates Industrial (GTES) Tops Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/gates-industrial-gtes-tops-q2-124502286.html
-  > Gates Industrial (GTES) delivered earnings and revenue surprises of +10.00% and +2.08%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 - **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
@@ -107,13 +74,12 @@ Attack these before you trust any number above.
 - **2026-08-28** · Is Wall Street Bullish or Bearish on Nordson Stock? — *Barchart* — https://www.barchart.com/story/news/4310638/is-wall-street-bullish-or-bearish-on-nordson-stock
 - **2026-08-28** · Are Wall Street Analysts Bullish on Huntington Ingalls Stock? — *Barchart* — https://www.barchart.com/story/news/4285733/are-wall-street-analysts-bullish-on-huntington-ingalls-stock
 - **2026-08-27** · Are Wall Street Analysts Predicting United Rentals Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4220794/are-wall-street-analysts-predicting-united-rentals-stock-will-climb-or-sink
-- **2026-08-27** · Is Wall Street Bullish or Bearish on FedEx Freight Stock? — *Barchart* — https://www.barchart.com/story/news/4218504/is-wall-street-bullish-or-bearish-on-fedex-freight-stock
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -124,28 +90,13 @@ Attack these before you trust any number above.
 - **2026-09-02** · Safety Zone; Maumee River, Toledo, OH — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17940/safety-zone-maumee-river-toledo-oh
 
 ## What we concluded before
-*(most recent 1491 chars of the file)*
-
-# ALTG — ALTA EQUIPMENT GROUP INC CLASS A
-*Industrials · Russell 2000*
-
-Append-only research log. Newest entries at the bottom.
-
-> **Imported from the previous engine.** The entries below were written by the
-> v2 system under a different model and a different sector taxonomy. Treat them
-> as prior context to argue with, not as settled conclusions — in particular the
-> valuations predate the stock-compensation, cyclical-base and share-count
-> corrections in the current model.
-
-### News & updates — 2026-06-02
-  - 3 Reasons ALTG is Risky and 1 Stock to Buy Instead (rss) — https://finance.yahoo.com/markets/stocks/articles/3-reasons-altg-risky-1-065323299.html?.tsrc=rss
-  - 1 Cash-Producing Stock to Research Further and 2 Facing Challenges (rss) — https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-research-132051364.html?.tsrc=rss
-  - Alta Equipment Group Insider Confidence Rewarded, Stock Hits US$210m Market Cap (rss) — https://finance.yahoo.com/markets/stocks/articles/alta-equipment-group-insider-confidence-102228809.html?.tsrc=rss
-  - American Superconductor, SolarEdge, Alta, and Limbach Stocks Trade Down, What You Need To Know (rss) — https://finance.yahoo.com/markets/stocks/articles/american-superconductor-solaredge-alta-limbach-103655541.html?.tsrc=rss
-  - ALTG Q1 Deep Dive: Equipment Sales Headwinds and Margin Pressures Shape Outlook (rss) — https://finance.yahoo.com/markets/stocks/articles/altg-q1-deep-dive-equipment-072455915.html?.tsrc=rss
+*No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
 - FLR: no_model · price $54.51
+- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
 - WLFC: no_model · price $53.42
 
 ---

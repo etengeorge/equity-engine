@@ -1,5 +1,19 @@
 [
  {
+  "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
+  "ts": "2026-09-02T13:08:27+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "ed923a1b-5625-3103-8c66-49b130eae960",
   "ts": "2026-09-01T19:41:12+00:00",
   "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",

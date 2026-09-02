@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-02T11:39:01+00:00",
+  "screen_utc": "2026-09-02T14:40:47+00:00",
   "price_asof": "2026-09-01",
   "universe": 1956,
   "modelled": 1078,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-02T11:39:02+00:00",
+    "generated_utc": "2026-09-02T14:40:48+00:00",
     "sectors": {
       "Health Care": {
-        "new": 3,
-        "held": 15,
+        "new": 1,
+        "held": 16,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 6,
-        "held": 18,
+        "new": 1,
+        "held": 19,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 2,
-        "held": 14,
+        "new": 1,
+        "held": 15,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 6,
-        "held": 18,
+        "new": 1,
+        "held": 19,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 3,
-        "held": 15,
+        "new": 1,
+        "held": 16,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 8,
-        "held": 20,
+        "new": 2,
+        "held": 22,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 2,
+        "new": 0,
         "held": 14,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 3,
-        "held": 15,
+        "new": 1,
+        "held": 16,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 4,
-        "held": 16,
+        "new": 1,
+        "held": 17,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 3,
+        "new": 0,
         "held": 15,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
-    "companies": 449,
-    "articles_new": 1480,
+    "companies": 447,
+    "articles_new": 367,
     "candidates": 450,
-    "elapsed_s": 210.3
+    "elapsed_s": 205.4
   },
   "picks": [
-    "KYMR",
-    "TXG",
-    "OSCR",
-    "TEX",
-    "ESE",
-    "SLAB",
-    "FLO",
-    "GLRE",
-    "ALTG",
-    "CTOS"
+    "ZWS",
+    "ACA",
+    "FSS",
+    "TRNO",
+    "PBF",
+    "ZETA",
+    "GIII",
+    "BOOT",
+    "ISBA",
+    "DIN"
   ],
   "stages": {
-    "screen": "2026-09-02T11:42:43+00:00",
-    "news": "2026-09-02T11:42:33+00:00",
-    "pick": "2026-09-02T11:42:43+00:00"
+    "screen": "2026-09-02T14:44:42+00:00",
+    "news": "2026-09-02T14:44:13+00:00",
+    "pick": "2026-09-02T14:44:42+00:00"
   }
 }

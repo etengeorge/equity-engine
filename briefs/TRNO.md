@@ -1,92 +1,83 @@
-# TEX — TEREX
-*Industrials · brief generated 2026-09-02 · selected as **rotation***
+# TRNO — TERRENO REALTY REIT
+*Real Estate · brief generated 2026-09-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 34/1956
+- rotation position 40/1956
 
 ## Market
 | | |
 |---|---|
-| price | $59.29 |
-| market cap | $6.8B |
-| 5d / 21d / 63d / 252d | -9.1% / -7.7% / -2.8% / +20.1% |
-| 60d avg daily $ volume | $88.9M |
-| beta (vs IWM) | 1.33 (R²=0.423) |
+| price | $66.45 |
+| market cap | $7.2B |
+| 5d / 21d / 63d / 252d | -3.6% / -7.3% / +5.7% / +19.3% |
+| 60d avg daily $ volume | $60.4M |
+| beta (vs IWM) | 0.6 (R²=0.239) |
 | 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 72% / debt 28% |
+| WACC weights | equity 88% / debt 12% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$413.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$322.0M', '$189.0M', '$332.1M']
-Enterprise value **$9.1B** · FCFF yield **+4.6%**
+**No defensible free numeric model for this name** (status: not_modelled).
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-| WACC | implied 5y FCFF growth |
-|---|---|
-| 10.6% − 1pt | +13.8% |
-| **10.6% (point)** | **+17.2%** |
-| 10.6% + 1pt | +20.4% |
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_sales (n=92) | 17.2x | 3.2x / 7.2x / 11.3x | $5.31 / $22.82 / $40.70 |
+| p_tbv (n=84) | 1.7x | 1.0x / 1.6x / 2.2x | $40.99 / $64.44 / $90.30 |
 
-> **Stock compensation is 13% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$378.6M** and an implied growth of **+19.6%** instead of +17.2%. Decide which treatment you are underwriting and say so explicitly.
+Blended midpoint **$43.63** vs price $66.45 — gap **-34.3%**.
 
-Naive baseline for comparison: **+12.0%** (5y revenue CAGR +12.0%).
-Gap under that baseline: **-24.6%** (fair value $44.70 vs price $59.29).
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **46th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.5%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `speculative_cost_of_debt_but_only_12%_debt_weight`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000130/tex-20260730.htm
-- 2026-07-31 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/tex-20260731.htm
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/97216/000009721626000116/tex-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000112/tex-20260730.htm
-- 2026-07-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000107/tex-20260720.htm
-- 2026-06-30 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000105/tex-20260625.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000082/tex-20260501.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/97216/000009721626000080/tex-20260331.htm
-- 2026-05-01 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/97216/000009721626000078/tex-20260501.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/97216/000009721626000071/tex-20260429.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000035/trno-20260630.htm
+- 2026-05-06 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526209168/d121751d8k.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000019/trno-20260331.htm
+- 2026-03-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1476150/000119312526116759/d47180ddef14a.htm
+- 2026-02-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526054901/d832696d8k.htm
+- 2026-02-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000011/trno-20251231.htm
+- 2026-01-08 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526006930/d60454d8k.htm
+- 2025-11-05 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1476150/000119312525266918/d936737d8k.htm
+- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615025000060/trno-20250930.htm
+- 2025-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615025000042/trno-20250630.htm
 
 ## Earnings materials (8-K exhibits)
-*The press release and presentation as filed. EX-99.2 is usually the deck.*
-
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 PREPARED REMARKS Q2 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000130/aexh99_120260730q2prepared.htm
-- **2026-07-31** · EX-99.1 · press release — EX-99.1 PRO FORMA FINANCIALS *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/exhibit991-revgroupq12026x.htm
-- **2026-07-31** · EX-99.2 · presentation — EX-99.2 REV GROUP, INC. Q1 2026 FINANCIALS *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/exhibit992-texxrevproforma.htm
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 EARNINGS RELEASE OF TEREX CORPORATION DATED JULY 30, 2026 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000112/terexearningsreleaseexq2-26.htm
-- **2026-07-21** · EX-99.1 · press release — EX-99.1 ER CALL DATE PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000107/exh99_1072026pressreleasee.htm
-- **2026-05-05** · EX-99.1 · press release — EX-99.1 Q1 2026 PREPARED REMARKS *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/97216/000009721626000082/exh99_105012026q12026ercal.htm
+*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Real Estate
+*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
-- **2026-08-31** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html
-- **2026-08-28** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html
-- **2026-08-28** · Are Wall Street Analysts Predicting W.W. Grainger Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4310915/are-wall-street-analysts-predicting-w-w-grainger-stock-will-climb-or-sink
-- **2026-08-28** · Is Wall Street Bullish or Bearish on Nordson Stock? — *Barchart* — https://www.barchart.com/story/news/4310638/is-wall-street-bullish-or-bearish-on-nordson-stock
-- **2026-08-28** · Are Wall Street Analysts Bullish on Huntington Ingalls Stock? — *Barchart* — https://www.barchart.com/story/news/4285733/are-wall-street-analysts-bullish-on-huntington-ingalls-stock
-- **2026-08-27** · Are Wall Street Analysts Predicting United Rentals Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4220794/are-wall-street-analysts-predicting-united-rentals-stock-will-climb-or-sink
-- **2026-08-27** · Is Wall Street Bullish or Bearish on FedEx Freight Stock? — *Barchart* — https://www.barchart.com/story/news/4218504/is-wall-street-bullish-or-bearish-on-fedex-freight-stock
+- **2026-09-01** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html
+- **2026-09-01** · Sector Update: Financial Stocks Softer Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html
+- **2026-08-31** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-195819260.html
+- **2026-08-31** · Sector Update: Financial Stocks Softer Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-monday-175134875.html
+- **2026-08-28** · Tenant Says the Water Heater Died Again? These 3 ETFs Pay Rent Without Owning a Single Pipe — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/08/28/tenant-says-the-water-heater-died-again-these-3-etfs-pay-rent-without-owning-a-single-pipe/
+- **2026-08-28** · Sector Update: Financial Stocks Advance Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-201244277.html
+- **2026-08-28** · Sector Update: Financial Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-174348449.html
+- **2026-08-28** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-172208546.html
+- **2026-08-27** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-194952694.html
+- **2026-08-27** · Sector Update: Financial Stocks Decrease Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-thursday-175207409.html
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -99,9 +90,10 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- FLR: no_model · price $54.51
-- WLFC: no_model · price $53.42
+## Prior verdicts elsewhere in Real Estate
+- COMP: no_model · price $10.56
+- CTRE: no_model · price $39.03
+- RHP: no_model · price $129.33
 
 ---
 

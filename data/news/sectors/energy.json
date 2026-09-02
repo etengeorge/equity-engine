@@ -1,5 +1,33 @@
 [
  {
+  "id": "fb5b00ff-e773-371a-b42f-5ad87d597593",
+  "ts": "2026-09-02T13:24:35+00:00",
+  "title": "Sector Update: Energy Stocks Decline Premarket Wednesday",
+  "summary": "Energy stocks were declining premarket Wednesday, with the State Street Energy Select Sector SPDR ET",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132435355.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
+  "ts": "2026-09-02T13:08:27+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "a7bc6115-418c-30ed-9733-1a6f86ebc1c8",
   "ts": "2026-09-02T08:00:00+00:00",
   "title": "Bear of the Day: Archrock (AROC)",

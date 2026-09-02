@@ -1,65 +1,87 @@
-# OSCR — OSCAR HEALTH CLASS A
-*Financials · brief generated 2026-09-02 · selected as **rotation***
+# ISBA — ISABELLA BANK CORP
+*Financials · brief generated 2026-09-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 33/1956
+- cheapest 6% of 338 Financials peers (94th pct)
+- baseline gap +74%
+- filed an 8-K in the last few sessions
+- 1 news items in the last 5 days
+- Financials is in the news
+- never researched
+- urgency score 7.79
 
 ## Market
 | | |
 |---|---|
-| price | $29.83 |
-| market cap | $7.8B |
-| 5d / 21d / 63d / 252d | -3.6% / -3.0% / +41.1% / +79.1% |
-| 60d avg daily $ volume | $172.2M |
-| beta (vs IWM) | 0.97 (R²=0.051) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 95% / debt 5% |
+| price | $38.55 |
+| market cap | $294.1M |
+| 5d / 21d / 63d / 252d | -2.9% / -2.9% / -6.4% / +17.6% |
+| 60d avg daily $ volume | $3.1M |
+| beta (vs IWM) | 0.03 (R²=0.003) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 67% / debt 33% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -58.8% |
-| cost of equity | +10.2% |
-| justified P/TBV | -7.46 |
-| actual P/TBV | 8.01 |
-| tangible book / share | $3.73 |
-| implied gap | -193.1% |
+| sustainable ROTCE | +10.2% |
+| cost of equity | +4.9% |
+| justified P/TBV | 2.8 |
+| actual P/TBV | 1.61 |
+| tangible book / share | $24.00 |
+| implied gap | +74.1% |
 
-Cohort: **2th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -161.1%).
+Cohort: **94th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +105.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_5%_debt_weight`
-- `loss_year_in_window`
+- `last_10k_2802d_old`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000069/oscr-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscr-20260806.htm
-- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000059/oscr-20260604.htm
-- 2026-06-08 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000054/oscr-20260608.htm
-- 2026-06-02 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000048/oscr-20260529.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000040/oscr-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000036/oscr-20260506.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1568651/000114036126016119/ny20059895x771_def14a.htm
-- 2026-04-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000028/oscr-20260421.htm
-- 2026-03-02 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000014/oscr-20260302.htm
+- 2026-08-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000190/isba-20260827.htm
+- 2026-08-14 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000184/isba-20260811.htm
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/842517/000084251726000180/isba-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000176/isba-20260723.htm
+- 2026-06-16 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000163/isba-20260616.htm
+- 2026-06-15 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba-20260611.htm
+- 2026-06-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000138/isba-20260612.htm
+- 2026-05-28 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000108/isba-20260528.htm
+- 2026-05-07 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000102/isba-20260505.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/842517/000084251726000099/isba-20260331.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm
-- **2026-05-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1568651/000156865126000036/oscarhealthfirstquarter202.htm
+- **2026-08-27** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000190/isba_2026q3xdivannxex991.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000176/earningsrelease_20260630xe.htm
+- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba_votingagreementxex991.htm
+- **2026-06-12** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000138/isba_2026xjointprxgrcxex991.htm
+- **2026-06-12** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000138/isba-gnrvinvestorpresent.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*6 items held; showing the 6 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-08-27** · Isabella Bank Corporation Announces Third Quarter 2026 Dividend — *ACCESS Newswire* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-announces-third-201500000.html
+  > MOUNT PLEASANT, MI / ACCESS Newswire / August 27, 2026 / (Nasdaq:ISBA) today announced its Board of Directors declared a third-quarter cash dividend of $0.28 per common share at its regular meeting on August 26, 2026.
+- **2026-07-23** · Isabella Bank Corporation (ISBA) Lags Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-isba-lags-212504645.html
+  > Isabella Bank (ISBA) delivered earnings and revenue surprises of -25.00% and -1.93%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-02** · Isabella Bank Corporation Added to Russell 2000 Index — *ACCESS Newswire* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-added-russell-173000828.html
+  > MOUNT PLEASANT, MI / ACCESS Newswire / July 2, 2026 / Isabella Bank Corporation ("Isabella") (NASDAQ:ISBA) (the "Company"), the holding company for Isabella Bank, today announced it has been added to the Russell 2000® Index, effective after
+- **2026-06-17** · Michigan bank to buy in-state peer for $54.6M — *Banking Dive* — https://www.bankingdive.com/news/michigan-bank-buy-state-peer-54-million/823156/
+  > By buying Grand River Bank, Isabella Bank will gain access to the growing Grand Rapids market.
+- **2026-06-16** · Michigan bank strikes deal for an in-state rival — *American Banker* — https://www.americanbanker.com/news/isabella-in-michigan-to-pay-54-6-million-to-acquire-a-grand-rapids-area-rival
+  > Isabella Bancorp in Mount Pleasant to enter the Grand Rapids market with $54.6 million purchase of Grand River Commerce in Grandville.
+- **2026-06-12** · Isabella Bank Corporation to Acquire Grand River Commerce, Inc. — *ACCESS Newswire* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-acquire-grand-121500764.html
+  > Highlights: Expands presence in southwest Michigan, including the high-growth Grand Rapids area Combines two strong community banks, with continued focus on serving customers, communities and shareholders Aligns with the strategic objective
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html
 - **2026-09-01** · Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/01/morgan-stanley-stock-is-up-nearly-20-in-2026-what-will-it-take-to-break-through-250/
 - **2026-09-01** · Sector Update: Financial Stocks Softer Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html
@@ -69,13 +91,12 @@ Attack these before you trust any number above.
 - **2026-08-31** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-195819260.html
 - **2026-08-31** · Sector Update: Financial Stocks Softer Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-monday-175134875.html
 - **2026-08-31** · Exchange-Traded Funds Lower as US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-172048137.html
-- **2026-08-31** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -90,8 +111,10 @@ Attack these before you trust any number above.
 
 ## Prior verdicts elsewhere in Financials
 - ACR: no_model · price $14.00
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
 - JXN: no_model · price $133.65
 - MFIN: no_edge · price $11.82
+- OSCR: no_model · price $29.83
 - SNEX: no_edge · price $68.48
 - VEL: no_edge · price $18.01
 

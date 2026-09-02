@@ -1,5 +1,19 @@
 [
  {
+  "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
+  "ts": "2026-09-02T13:08:27+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "b90544e1-2bc1-3559-81cd-2d88760161f4",
   "ts": "2026-09-01T22:47:41+00:00",
   "title": "Better Tech ETF for Artificial Intelligence: Vanguard's VGT with Broad Exposure or State Street XLK's Concentrated Mega-Cap Strategy",

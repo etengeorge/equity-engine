@@ -1,5 +1,29 @@
 [
  {
+  "id": "a7c6a782-a89c-3034-892c-d8c85bff5ab1",
+  "ts": "2026-09-01T13:45:58+00:00",
+  "title": "Piper Sandler Lifts Tempus AI to Overweight at $76",
+  "summary": "Personalis holders receive Tempus shares worth $16.25 each under the pending merger",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-lifts-tempus-ai-134558321.html",
+  "tickers": [
+   "PSNL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "47091906-d89a-3258-b0f5-2b345111c2bf",
+  "ts": "2026-09-01T13:36:18+00:00",
+  "title": "Tempus AI shares rise 2.7% following analyst actions",
+  "summary": "Tempus AI (NASDAQ:TEM) shares rose 2. 7% in pre-market trading following analyst actions from Piper Sandler and Canaccord Genuity as investors assessed the company\u2019s pending acquisition of Personalis.",
+  "publisher": "InvestorsHub",
+  "url": "https://investorshub.advfn.com/market-news/article/35385/tempus-ai-shares-rise-2-7-following-analyst-actions",
+  "tickers": [
+   "PSNL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "17858721-9486-3fda-914b-484dfafa119a",
   "ts": "2026-08-27T22:01:04+00:00",
   "title": "Tempus AI (TEM) Jumped on Moderna\u2019s Melanoma Win. Did its $1.5B Personalis Acquisition Just Get Validated?",

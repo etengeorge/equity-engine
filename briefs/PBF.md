@@ -1,91 +1,104 @@
-# SLAB — SILICON LABORATORIES
-*Information Technology · brief generated 2026-09-02 · selected as **rotation***
+# PBF — PBF ENERGY CLASS A
+*Energy · brief generated 2026-09-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 36/1956
+- rotation position 41/1956
 
 ## Market
 | | |
 |---|---|
-| price | $219.12 |
-| market cap | $7.3B |
-| 5d / 21d / 63d / 252d | +0.3% / +0.5% / +0.2% / +63.1% |
-| 60d avg daily $ volume | $82.4M |
-| beta (vs IWM) | 1.13 (R²=0.199) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-07-04 (10-K) |
-| WACC weights | equity 99% / debt 1% |
+| price | $74.99 |
+| market cap | $8.6B |
+| 5d / 21d / 63d / 252d | +7.9% / +4.1% / +79.9% / +188.9% |
+| 60d avg daily $ volume | $174.5M |
+| beta (vs IWM) | 0.08 (R²=0.02) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 1.2x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 83% / debt 17% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$115.5M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$65.8M', '$124.0M', '$144.2M']
-Enterprise value **$7.0B** · FCFF yield **+1.7%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.0% − 1pt | +43.8% |
-| **11.0% (point)** | **+48.0%** |
-| 11.0% + 1pt | +52.0% |
+| 6.6% − 1pt | n/a |
+| **6.6% (point)** | **n/a** |
+| 6.6% + 1pt | n/a |
 
 
-> **Stock compensation is 57% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$52.2M** and an implied growth of **+75.0%** instead of +48.0%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **-2.4%** (5y revenue CAGR -2.4%).
-Gap under that baseline: **-80.9%** (fair value $41.94 vs price $219.12).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $74.99).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **11th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -46.5%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=69) | 30.3x | 6.2x / 8.8x / 13.7x | $8.50 / $15.76 / $29.13 |
+| ev_sales (n=99) | 0.3x | 1.3x / 2.4x / 3.6x | $321.92 / $614.63 / $909.83 |
+| p_tbv (n=95) | 1.4x | 1.2x / 1.7x / 2.9x | $64.23 / $92.21 / $156.24 |
+
+Blended midpoint **$240.87** vs price $74.99 — gap **+221.2%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Energy names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_1%_debt_weight`
-- `possible_trough_cycle_base_newest_fcf_0.46x_oldest_growth_applied_to_a_trough_understates_value`
-- `stock_comp_is_57%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `speculative_cost_of_debt_but_only_17%_debt_weight`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_9.7x_of_mean`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000029/slab-20260704.htm
-- 2026-08-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811.htm
-- 2026-05-26 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1038074/000119312526237879/d467226d8k.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000020/slab-20260404.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000018/slab-20260505.htm
-- 2026-04-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000014/slab-20260430.htm
-- 2026-04-24 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000012/slab-20260423.htm
-- 2026-03-11 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1038074/000119312526102113/d54381ddef14a.htm
-- 2026-02-10 **10-K** — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000005/slab-20260103.htm
-- 2026-02-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000002/slab-20260204.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000030/pbf-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000029/pbf-20260730.htm
+- 2026-05-28 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000119312526245390/d16410d8k.htm
+- 2026-05-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000119312526239766/d149642d8k.htm
+- 2026-05-26 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000119312526237935/d902470d8k.htm
+- 2026-04-30 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000020/pbf-20260428.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000018/pbf-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000016/pbf-20260430.htm
+- 2026-03-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1534504/000114036126009843/ny20062686x1_def14a.htm
+- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000010/pbf-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99 · press release — EX-99 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811q2earningsrel.htm
-- **2026-05-05** · EX-99 · press release — EX-99 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1038074/000103807426000018/slab-20260505q1earningsrel.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1534504/000153450426000029/a991pressreleaseq2-26.htm
+- **2026-05-27** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1534504/000119312526239766/d149642dex991.htm
+- **2026-05-26** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1534504/000119312526237935/d902470dex991.htm
+- **2026-05-26** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1534504/000119312526237935/d902470dex992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Information Technology
-*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Energy
+*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-01** · Better Tech ETF for Artificial Intelligence: Vanguard's VGT with Broad Exposure or State Street XLK's Concentrated Mega-Cap Strategy — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/01/better-tech-etf-for-artificial-intelligence-vanguard-s-vgt-with-broad-exposure-or-state-street-xlk-s-concentrated-mega-cap-strategy/
-- **2026-09-01** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-193840614.html
-- **2026-09-01** · Sector Update: Tech Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-tuesday-174657831.html
+- **2026-09-02** · Sector Update: Energy Stocks Decline Premarket Wednesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132435355.html
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
+- **2026-09-02** · Bear of the Day: Archrock (AROC) — *Zacks* — https://finance.yahoo.com/energy/articles/bear-day-archrock-aroc-080000864.html
+- **2026-09-01** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195655132.html
+- **2026-09-01** · Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal — *Zacks* — https://finance.yahoo.com/energy/articles/energy-etfs-watch-us-venezuela-183000885.html
+- **2026-09-01** · Sector Update: Energy Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175137526.html
 - **2026-09-01** · Exchange-Traded Funds Decline as US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-decline-us-170929387.html
+- **2026-09-01** · Gulf Coast Refineries Pour Cold Water on Trump’s 65-Billion-Barrel Venezuelan Victory Lap — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/01/gulf-coast-refineries-pour-cold-water-on-trumps-65-billion-barrel-venezuelan-victory-lap/
+- **2026-09-01** · Sector Update: Energy Stocks Advance Premarket Tuesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132552437.html
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-09-01** · Intel Stock: Is INTC Outperforming the Technology Sector? — *Barchart* — https://www.barchart.com/story/news/4371647/intel-stock-is-intc-outperforming-the-technology-sector
-- **2026-09-01** · Forget Diversification — Investors Are Betting Everything on Tech ETFs (And the Numbers Are Jaw-Dropping) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/01/forget-diversification-investors-are-betting-everything-on-tech-etfs-and-the-numbers-are-jaw-dropping/
-- **2026-09-01** · Stock Market News for Sep 1, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html
-- **2026-08-31** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-200045050.html
-- **2026-08-31** · Sector Update: Tech Stocks Edge Lower Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-edge-lower-174108486.html
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -97,11 +110,6 @@ Attack these before you trust any number above.
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
-
-## Prior verdicts elsewhere in Information Technology
-- HUT: no_model · price $77.00
-- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
-- VSAT: no_edge · price $66.93
 
 ---
 

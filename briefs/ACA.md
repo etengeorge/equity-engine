@@ -1,99 +1,75 @@
-# CTOS — CUSTOM TRUCK ONE SOURCE
-*Industrials · brief generated 2026-09-02 · selected as **opportunistic***
+# ACA — ARCOSA
+*Industrials · brief generated 2026-09-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 5% of 152 Industrials peers (95th pct)
-- baseline gap +184%
-- 5d move -8%
-- 21d move -17%
-- 1 news items in the last 5 days
-- Industrials is in the news
-- Industrials sector selloff (median -4.0%)
-- moved harder than its sector
-- never researched
-- urgency score 9.15
+- rotation position 38/1956
 
 ## Market
 | | |
 |---|---|
-| price | $8.87 |
-| market cap | $2.0B |
-| 5d / 21d / 63d / 252d | -8.1% / -16.6% / -9.1% / +44.5% |
-| 60d avg daily $ volume | $11.3M |
-| beta (vs IWM) | 1.62 (R²=0.336) |
-| 5d volume vs 60d average | 0.8x |
+| price | $145.48 |
+| market cap | $7.1B |
+| 5d / 21d / 63d / 252d | +0.1% / +0.2% / +16.8% / +47.0% |
+| 60d avg daily $ volume | $112.5M |
+| beta (vs IWM) | 1.16 (R²=0.476) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 55% / debt 45% |
+| WACC weights | equity 83% / debt 17% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$241.5M** (mean of CFO−capex over 2y, plus after-tax interest)
-  annual FCF, newest first: ['$309.2M', '$118.9M']
-Enterprise value **$3.7B** · FCFF yield **+6.6%**
+Normalized FCFF base **$202.8M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$175.5M', '$312.3M', '$57.5M']
+Enterprise value **$8.1B** · FCFF yield **+2.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.2% − 1pt | +3.8% |
-| **10.2% (point)** | **+6.9%** |
-| 10.2% + 1pt | +9.9% |
+| 10.0% − 1pt | +27.6% |
+| **10.0% (point)** | **+31.7%** |
+| 10.0% + 1pt | +35.6% |
 
 
-Naive baseline for comparison: **+25.0%** (5y revenue CAGR +65.9% (clamped to +25.0%)).
-Gap under that baseline: **+184.5%** (fair value $25.23 vs price $8.87).
+> **Stock compensation is 14% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$178.0M** and an implied growth of **+35.5%** instead of +31.7%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+8.3%** (5y revenue CAGR +8.3%).
+Gap under that baseline: **-67.1%** (fair value $47.88 vs price $145.48).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **95th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +202.6%).
+Cohort: **17th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -49.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_peak_cycle_base_newest_fcf_3.1x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000040/ctos-20260630.htm
-- 2026-08-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000039/ctos-20260803.htm
-- 2026-06-11 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000034/ctos-20260611.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000030/ctos-20260428.htm
-- 2026-04-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000018/ctos-20260331.htm
-- 2026-04-27 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000017/ctos-20260427.htm
-- 2026-03-25 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000010/ctos-20260325.htm
-- 2026-03-10 **10-K** — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000008/ctos-20251231.htm
-- 2026-03-10 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000006/ctos-20260310.htm
-- 2025-12-23 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1709682/000170968225000043/ctos-20251219.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000126/aca-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000124/aca-20260805.htm
+- 2026-07-15 **8-K** — items 1.04 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000120/aca-20260714.htm
+- 2026-06-22 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000112/aca-20260621.htm
+- 2026-06-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000107/aca-20260605.htm
+- 2026-05-15 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000093/aca-20260513.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000067/aca-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000064/aca-20260430.htm
+- 2026-04-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000055/aca-20260401.htm
+- 2026-03-31 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000050/aca-20260331.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1709682/000170968226000039/ex991q22026pressrelease.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000124/exh991earningsrelease63020.htm
+- **2026-06-22** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000112/exh991-crhtoacquirearcos.htm
+- **2026-06-05** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1739445/000173944526000107/june2026investorpresenta.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-02** · New Strong Buy Stocks for September 2nd — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-september-2nd-090400668.html
-  > LCUT, CURI, OSCR, CTOS and CHYM have been added to the Zacks Rank #1 (Strong Buy) List on September 2, 2026.
-- **2026-08-25** · Is Custom Truck One Source (CTOS) Outperforming Other Auto-Tires-Trucks Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/custom-truck-one-source-ctos-134004313.html
-  > Here is how Custom Truck One Source, Inc. (CTOS) and Dorman Products (DORM) have performed compared to their sector so far this year.
-- **2026-08-18** · Q2 Earnings Roundup: Custom Truck One Source (NYSE:CTOS) And The Rest Of The Specialty Equipment Distributors Segment — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-custom-truck-181333852.html
-  > The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how Custom Truck One Source (NYSE:CTOS) and the rest of the specialty equi
-- **2026-08-17** · How Much Upside is Left in Custom Truck One Source (CTOS)? Wall Street Analysts Think 25.07% — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/much-upside-left-custom-truck-135504999.html
-  > The mean of analysts' price targets for Custom Truck One Source (CTOS) points to a 25.1% upside in the stock. While this highly sought-after metric has not proven reasonably effective, strong agreement among analysts in raising earnings est
-- **2026-08-17** · Custom Truck One Source (CTOS) Lifted 2026 Guidance, Is The Stock Fully Priced? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/custom-truck-one-source-ctos-131055188.html
-  > Custom Truck One Source (CTOS) has drawn fresh attention after raising its full year 2026 revenue guidance to a range of US$2.1b to US$2.2b, following a return to positive net income. See our latest analysis for Custom Truck One Source. The
-- **2026-08-17** · How CTOS’s Q2 Profit Return and Higher 2026 Guidance Will Impact Custom Truck One Source Investors — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/ctos-q2-profit-return-higher-042932538.html
-  > In the past week, Custom Truck One Source, Inc. reported second-quarter 2026 results showing higher revenue of US$563.45 million and a shift from a US$28.38 million loss to US$10.4 million in net income, while also completing a share repurc
-- **2026-08-11** · Custom Truck One Source (CTOS) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/10/custom-truck-one-source-ctos-q2-2026-earnings-call-transcript/
-  > Revenue hit $563.4 million as transmission demand surges and fleet utilization climbs to 81.6%.
-- **2026-08-10** · 2 Profitable Stocks on Our Watchlist and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-watchlist-1-154122825.html
-  > Even if a company is profitable, it doesn’t always mean it’s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential.
-- **2026-08-10** · Zacks.com featured highlights include Superior Group of Companies, AMC Global Media and Custom Truck One Source — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-superior-152100211.html
-  > Three breakout candidates stand out for August, with Superior Group, AMC Global Media and Custom Truck showing strong earnings growth.
-- **2026-08-07** · 3 Breakout Stocks Poised for Big Gains This August — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-breakout-stocks-poised-big-190000596.html
-  > Breakout candidates SGC, AMCX and CTOS are trading near 52-week highs after passing technical screens. See why they could gain in August.
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 - **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
@@ -103,13 +79,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-08-28** · Is Wall Street Bullish or Bearish on Nordson Stock? — *Barchart* — https://www.barchart.com/story/news/4310638/is-wall-street-bullish-or-bearish-on-nordson-stock
 - **2026-08-28** · Are Wall Street Analysts Bullish on Huntington Ingalls Stock? — *Barchart* — https://www.barchart.com/story/news/4285733/are-wall-street-analysts-bullish-on-huntington-ingalls-stock
 - **2026-08-27** · Are Wall Street Analysts Predicting United Rentals Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4220794/are-wall-street-analysts-predicting-united-rentals-stock-will-climb-or-sink
-- **2026-08-27** · Is Wall Street Bullish or Bearish on FedEx Freight Stock? — *Barchart* — https://www.barchart.com/story/news/4218504/is-wall-street-bullish-or-bearish-on-fedex-freight-stock
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -123,7 +98,10 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
 - FLR: no_model · price $54.51
+- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
 - WLFC: no_model · price $53.42
 
 ---

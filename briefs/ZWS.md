@@ -1,64 +1,66 @@
-# ESE — ESCO TECHNOLOGIES
+# ZWS — ZURN ELKAY WATER SOLUTIONS CORP
 *Industrials · brief generated 2026-09-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 35/1956
+- rotation position 37/1956
 
 ## Market
 | | |
 |---|---|
-| price | $267.63 |
-| market cap | $6.9B |
-| 5d / 21d / 63d / 252d | -3.3% / -15.9% / -8.2% / +33.4% |
-| 60d avg daily $ volume | $76.5M |
-| beta (vs IWM) | 0.74 (R²=0.224) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 99% / debt 1% |
+| price | $46.64 |
+| market cap | $7.8B |
+| 5d / 21d / 63d / 252d | -4.5% / -7.5% / +0.1% / +2.6% |
+| 60d avg daily $ volume | $47.5M |
+| beta (vs IWM) | 0.75 (R²=0.24) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$104.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$205.6M', '$91.4M', '$54.5M']
-Enterprise value **$6.9B** · FCFF yield **+1.5%**
+Normalized FCFF base **$285.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$305.1M', '$251.0M', '$213.2M']
+Enterprise value **$8.0B** · FCFF yield **+3.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.8% − 1pt | +35.9% |
-| **8.8% (point)** | **+41.1%** |
-| 8.8% + 1pt | +45.8% |
+| 8.6% − 1pt | +12.3% |
+| **8.6% (point)** | **+16.6%** |
+| 8.6% + 1pt | +20.5% |
 
 
-Naive baseline for comparison: **+8.4%** (5y revenue CAGR +8.4%).
-Gap under that baseline: **-70.6%** (fair value $78.63 vs price $267.63).
+> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$245.8M** and an implied growth of **+20.4%** instead of +16.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **-3.9%** (5y revenue CAGR -3.9%).
+Gap under that baseline: **-59.5%** (fair value $18.89 vs price $46.64).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **16th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -52.5%).
+Cohort: **20th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -41.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_3.8x_oldest_growth_applied_to_a_peak_overstates_value`
+- none raised
 
 ## Recent filings
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/866706/000110465926093266/ese-20260630x10q.htm
-- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926092033/tm2621646d1_8k.htm
-- 2026-06-03 **8-K** — items 1.01,1.02,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926070116/tm2616691d1_8k.htm
-- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/866706/000110465926058482/ese-20260331x10q.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926057162/tm2613615d1_8k.htm
-- 2026-04-16 **8-K** — items 1.01,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926044425/tm2611835d1_8k.htm
-- 2026-04-15 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926043869/tm2611891d1_8k.htm
-- 2026-02-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/866706/000110465926011932/ese-20251231x10q.htm
-- 2026-02-05 **8-K** — items 2.02,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/866706/000110465926010899/tm264950d1_8k.htm
-- 2025-12-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/866706/000110465925119876/tm2526352d4_def14a.htm
+- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1439288/000162828026050162/zws-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026050151/zws-20260728.htm
+- 2026-07-20 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026048756/zws-20260720.htm
+- 2026-05-27 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026038495/zws-20260527.htm
+- 2026-05-01 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026029324/zws-20260430.htm
+- 2026-04-21 **10-Q** — https://www.sec.gov/Archives/edgar/data/1439288/000162828026026281/zws-20260331.htm
+- 2026-04-21 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026026279/zws-20260421.htm
+- 2026-03-12 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1439288/000119312526104339/d91451ddef14a.htm
+- 2026-02-20 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1439288/000162828026010264/zws-20260219.htm
+- 2026-02-09 **10-K** — https://www.sec.gov/Archives/edgar/data/1439288/000162828026006372/zws-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/866706/000110465926092033/tm2621646d1_ex99-1.htm
-- **2026-05-07** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/866706/000110465926057162/tm2613615d1_ex99-1.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1439288/000162828026050151/ex991earningsrelease63026.htm
+- **2026-07-20** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1439288/000162828026048756/ex991pressrelease-scarlett.htm
+- **2026-05-27** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1439288/000162828026038495/ex991pressrelease-apptofof.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -66,6 +68,7 @@ Attack these before you trust any number above.
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 - **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
@@ -75,13 +78,12 @@ Attack these before you trust any number above.
 - **2026-08-28** · Is Wall Street Bullish or Bearish on Nordson Stock? — *Barchart* — https://www.barchart.com/story/news/4310638/is-wall-street-bullish-or-bearish-on-nordson-stock
 - **2026-08-28** · Are Wall Street Analysts Bullish on Huntington Ingalls Stock? — *Barchart* — https://www.barchart.com/story/news/4285733/are-wall-street-analysts-bullish-on-huntington-ingalls-stock
 - **2026-08-27** · Are Wall Street Analysts Predicting United Rentals Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4220794/are-wall-street-analysts-predicting-united-rentals-stock-will-climb-or-sink
-- **2026-08-27** · Is Wall Street Bullish or Bearish on FedEx Freight Stock? — *Barchart* — https://www.barchart.com/story/news/4218504/is-wall-street-bullish-or-bearish-on-fedex-freight-stock
 
 ## Market and macro context
-- **2026-09-02** · U.S. 10-year Treasury yield hits highest level since 2023 — *Quartz* — https://qz.com/us-treasury-yield-highest-2023-stock-futures-oil-090226
-- **2026-09-02** · Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html
-- **2026-09-02** · Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo
-- **2026-09-02** · 2 S&P 500 Stocks to Target This Week and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-target-105223066.html
+- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
+- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
+- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
+- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
 
 *Rules, releases and agency actions:*
 - **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
@@ -95,7 +97,10 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
 - FLR: no_model · price $54.51
+- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
 - WLFC: no_model · price $53.42
 
 ---

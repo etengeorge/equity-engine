@@ -1,5 +1,19 @@
 [
  {
+  "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
+  "ts": "2026-09-02T13:08:27+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "8966134b-2b52-3c9f-84b1-20023065ebff",
   "ts": "2026-09-01T14:23:23+00:00",
   "title": "U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building.",
