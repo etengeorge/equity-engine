@@ -670,7 +670,10 @@ _STORE = None
 #    figure. Both change numbers the valuation depends on, so the old shape must not
 #    be served — otherwise the convertible fix would not reach a single name for a
 #    month and the bug would outlive its own fix.
-EXTRACT_VERSION = 3
+# 4: convertible reads anchored to the balance-sheet date, so a repaid tranche whose
+#    concept simply stopped being filed no longer counts. v3 extracts carry inflated
+#    debt for those filers (Silicon Labs: $1,059.7M against a true $529.6M).
+EXTRACT_VERSION = 4
 
 
 def _store_path():
