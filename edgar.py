@@ -258,6 +258,15 @@ _INSTANT_KEYS = ("total_debt", "debt_current", "convertible_noncurrent",
                  "operating_lease_liability")
 
 
+def _within_days(end, anchor, days):
+    """Is `end` no more than `days` older than `anchor`? Both are ISO dates."""
+    try:
+        d = (dt.date.fromisoformat(anchor) - dt.date.fromisoformat(end)).days
+    except (TypeError, ValueError):
+        return False
+    return d <= days
+
+
 def _latest_instant(facts, key):
     """Newest reported value for a balance-sheet item, from ANY form including 10-Q.
 
@@ -327,8 +336,30 @@ def fundamentals(cik):
     debt_lt, debt_lt_c, debt_end, debt_form = _latest_instant(f, "total_debt")
     debt_cur, debt_cur_c, dc_end, _ = _latest_instant(f, "debt_current")
     # Convertibles get the same freshness treatment as the rest of the balance sheet.
+    # Read before the convertible gate below, which anchors on the newest date across the
+    # items every filer reports every period.
+    cash, _, cash_end, cash_form = _latest_instant(f, "cash")
+    eq_now, _, eq_end, _ = _latest_instant(f, "equity")
     conv_lt, conv_lt_c, conv_lt_end, _ = _latest_instant(f, "convertible_noncurrent")
     conv_cur, conv_cur_c, conv_cur_end, _ = _latest_instant(f, "convertible_current")
+    # A convertible concept must be CURRENT to count. _latest_instant returns the newest
+    # value a concept ever had, with no staleness guard, and that is fine for cash, equity
+    # or total debt -- every filer reports those every period. It is wrong for
+    # convertibles, which stop being reported the moment the notes are repaid or
+    # converted. The concept does not go to zero, it disappears, and the last value hangs
+    # around forever. Silicon Labs last tagged ConvertibleDebtCurrent at 2023-04-01
+    # ($530.1M); adding that dead tranche to its live non-current notes inflated total
+    # debt to $1,059.7M against a 2026 balance sheet -- a 12.8x jump that invents
+    # expensiveness, which is the one direction this fix must never err in.
+    # So: anchor on the balance-sheet date of the items that ARE always reported, and
+    # ignore any convertible read older than that. 35 days of tolerance because the
+    # pieces of one balance sheet share an instant but a filer can tag an odd one.
+    anchor = max([d for d in (debt_end, dc_end, cash_end, eq_end) if d], default=None)
+    if anchor:
+        if conv_lt_end and not _within_days(conv_lt_end, anchor, 35):
+            conv_lt, conv_lt_c = None, None
+        if conv_cur_end and not _within_days(conv_cur_end, anchor, 35):
+            conv_cur, conv_cur_c = None, None
     # max, deliberately, not sum. A filer that tags LongTermDebtNoncurrent is reporting
     # TOTAL long-term debt there, convertibles included, so adding the separately-tagged
     # convertible on top would double-count it. A filer that tags only the convertible
@@ -357,7 +388,6 @@ def fundamentals(cik):
             ebit = ni_l + tax_l + (i_l if isinstance(i_l, (int, float)) else 0.0)
             ebit_derived = True
     intex, _, _ = _latest(f, "interest_expense")
-    cash, _, cash_end, cash_form = _latest_instant(f, "cash")
     sti, _, _, _ = _latest_instant(f, "short_term_investments")
     shares, _, _ = _latest(f, "shares")
     cover = _latest_shares(f)
@@ -379,7 +409,6 @@ def fundamentals(cik):
     intang_s, _, _ = _series(f, "intangibles", 3)
     gw, _, _, _ = _latest_instant(f, "goodwill")
     intang, _, _, _ = _latest_instant(f, "intangibles")
-    eq_now, _, eq_end, _ = _latest_instant(f, "equity")
     _, _, latest_end = _latest(f, "revenue")
     # The newest date across the balance-sheet reads, so downstream can say how current
     # the enterprise value actually is instead of assuming it matches the fiscal year end.

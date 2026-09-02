@@ -141,6 +141,50 @@ def test_convertible_debt_is_not_double_counted():
           f"got {total:,.0f}; summing would give 2,500,000,000 of imaginary debt")
 
 
+def test_repaid_convertibles_do_not_haunt_the_balance_sheet():
+    """A convertible concept that stops being reported must not keep its last value.
+
+    _latest_instant returns the newest value a concept ever had and has no staleness
+    guard. That is correct for cash, equity and total debt — every filer reports those
+    every period. It is wrong for convertibles, which do not go to zero when the notes
+    are repaid: the concept simply disappears and the last figure hangs around forever.
+
+    Silicon Labs' real dates: ConvertibleDebtCurrent last tagged 2023-04-01 at
+    $530,096,000, against a 2026 balance sheet. Adding that dead tranche to its live
+    non-current notes took total debt to $1,059.7M, a 12.8x jump — inventing
+    expensiveness, the one direction this fix must never err in.
+    """
+    import edgar
+    facts = {"facts": {"us-gaap": {
+        # live: reported on the current balance sheet
+        "LongTermDebtNoncurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 529_600_000, "form": "10-Q"}]}},
+        "CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 400_000_000, "form": "10-Q"}]}},
+        "StockholdersEquity": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 1_000_000_000, "form": "10-Q"}]}},
+        # dead: repaid in 2023, never reported again
+        "ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2023-04-01", "val": 530_096_000, "form": "10-Q"}]}},
+    }}}
+    anchor = "2026-06-30"
+    conv, _, conv_end, _ = edgar._latest_instant(facts, "convertible_current")
+    check("the stale value is what _latest_instant hands back",
+          conv == 530_096_000 and conv_end == "2023-04-01",
+          f"{conv} at {conv_end} — if this changes, _latest_instant grew a guard")
+    check("and it is rejected as stale",
+          not edgar._within_days(conv_end, anchor, 35),
+          "a 2023 convertible against a 2026 balance sheet must not count")
+    # a convertible reported on the current balance sheet is kept
+    check("a current convertible is kept",
+          edgar._within_days("2026-06-30", anchor, 35), "")
+    # and the tolerance is real but small
+    check("a slightly-off instant is tolerated",
+          edgar._within_days("2026-06-25", anchor, 35), "")
+    check("a full quarter stale is not",
+          not edgar._within_days("2026-03-31", anchor, 35), "")
+
+
 def test_understated_debt_is_flagged():
     """A company cannot pay 25%+ interest on its debt. When it appears to, the debt is
     missing — the backstop for high-coupon versions of the convertible bug.
