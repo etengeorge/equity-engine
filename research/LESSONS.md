@@ -31,13 +31,24 @@ mid-2027). Until then, these are the STANDING priors the red team should hold th
   ($1.525B of term loans drawn six weeks after the year end, so the model reports EV *below*
   market cap). `fundamentals_age_days` is printed but not acted on. Read the 8-K list before
   trusting any EV: items 2.01, 1.01 and 3.02 in the last two quarters are the tell.
-- A gap on a financial is a bug until the equity line is decomposed. `justified_pb` computes
-  tangible common equity as equity − goodwill − intangibles and never deducts non-controlling
-  interests or preferred, though both sit in the same record and are correctly subtracted in
-  `enterprise_value`. ACR: $129.8M of NCI plus preferred against a ~$190M common book, giving a
-  reported TBV/share of $58.37 against the company's own $26.76. JXN: $533M preferred and $389M
-  NCI, TBV/share $146.95 against a correct $133.34. This is not a one-name error — it silently
-  overstates cheapness across all 338 Financials.
+- A gap on a financial is a bug until the equity line is decomposed — but decompose it against
+  the FILING, not by assuming. `justified_pb` computed tangible common equity as equity −
+  goodwill − intangibles and deducted neither non-controlling interests nor preferred. Preferred
+  always belongs out. NCI only sometimes does, and which it is depends on the XBRL concept the
+  extractor happened to pick: `StockholdersEquity` is parent-only and already excludes NCI,
+  while `StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest` and IFRS
+  `Equity` include it. JXN's carries $533M preferred and $389M NCI (TBV/share $146.95 against a
+  correct $133.34) and needs both deducted. MFIN's does not: its balance sheet reads "Total
+  stockholders' equity 408,617" with "Non-controlling interest 99,429" listed SEPARATELY below,
+  and its $10.46 was right all along — deducting would have understated tangible book 41%.
+  **This is the correction to a claim previously recorded here, that the omission "silently
+  overstates cheapness across all 338 Financials". It does so only for the subset whose extract
+  used an including-NCI concept, and on 2026-09-01 an analyst acting on the broad version of
+  this lesson published a wrong verdict on MFIN — asserting a 71% overstatement of tangible book
+  that did not exist.** A prior lesson is a hypothesis to test against the filing, not a
+  conclusion to apply. `fundamentals()` now records `equity_concept` and `justified_pb` deducts
+  NCI only when the concept includes it, flagging the name when the concept is unknown rather
+  than guessing in either direction.
 - GAAP net income is not a return for anything whose earnings are a mark. `justified_pb` averages
   three GAAP ROTCE ratios into a "sustainable" return; for JXN one of the three is 0.3%, because
   2025 GAAP was a $(17)M loss to common against $22.67 of adjusted operating EPS on non-economic
