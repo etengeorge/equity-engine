@@ -5,7 +5,7 @@ Two entry points matter:
   recent_8k_ciks(days) -> set of CIKs that filed an 8-K lately, from the daily index
                           (5 requests for the whole market, not 1,956)
 """
-import json, time, datetime as dt, urllib.request, urllib.error
+import json, re, time, html as _html, datetime as dt, urllib.request, urllib.error
 import config
 
 _last_call = [0.0]
@@ -97,6 +97,11 @@ _ALIASES = {
     "income_tax": ["IncomeTaxExpenseBenefit"],
     "net_income": ["NetIncomeLoss", "ProfitLoss",
                  "ProfitLoss"],
+    # The numerator ROTCE actually wants. Tangible COMMON equity is the denominator, so
+    # earnings have to be after preferred dividends or the return is overstated for any
+    # preferred-heavy financial. Not every filer tags it; justified_pb falls back to
+    # net_income and says which it used.
+    "net_income_common": ["NetIncomeLossAvailableToCommonStockholdersBasic"],
     "cfo": ["NetCashProvidedByUsedInOperatingActivities",
             "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
                  "CashFlowsFromUsedInOperatingActivities", "NetCashFlowsFromUsedInOperatingActivities"],
@@ -121,6 +126,20 @@ _ALIASES = {
                    "LongTermDebtAndCapitalLeaseObligations", "DebtLongtermAndShorttermCombinedAmount",
                  "Borrowings", "NoncurrentPortionOfNoncurrentBorrowings"],
     "debt_current": ["DebtCurrent", "LongTermDebtCurrent"],
+    # Convertible issuers frequently tag NOTHING in the LongTermDebt* family: the notes
+    # sit on the face of the balance sheet under their own concept and the generic debt
+    # aliases above return nothing at all. Teladoc reported total_debt of $42.4M against
+    # $996.7M of 2027 convertible notes, understating enterprise value 3.4x and turning a
+    # fairly-priced name into a +220% "gap". Because missing debt always lowers EV, always
+    # lowers the growth the market appears to imply and always widens the gap upward, this
+    # class of error manufactures false buys and never false passes -- which is the worst
+    # possible direction for it to fail in. Kept as separate buckets rather than appended
+    # to the lists above because _series picks ONE alias (the most recent), so appending
+    # would let a convertible REPLACE a term loan instead of adding to it.
+    "convertible_noncurrent": ["ConvertibleNotesPayableNoncurrent", "ConvertibleDebtNoncurrent",
+                               "ConvertibleLongTermNotesPayable", "ConvertibleSubordinatedDebtNoncurrent",
+                               "ConvertibleNotesPayable"],
+    "convertible_current": ["ConvertibleNotesPayableCurrent", "ConvertibleDebtCurrent"],
     "cash": ["CashAndCashEquivalentsAtCarryingValue",
              "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
                  "CashAndCashEquivalents"],
@@ -233,9 +252,19 @@ def _latest(facts, key):
 # reads from any form for exactly this reason (see _latest_shares); these fields now do
 # the same. The annual SERIES are left alone — those exist for ratio history, where
 # consistent annual periods are the point.
-_INSTANT_KEYS = ("total_debt", "cash", "short_term_investments", "equity", "goodwill",
-                 "intangibles", "preferred", "minority_interest",
+_INSTANT_KEYS = ("total_debt", "debt_current", "convertible_noncurrent",
+                 "convertible_current", "cash", "short_term_investments", "equity",
+                 "goodwill", "intangibles", "preferred", "minority_interest",
                  "operating_lease_liability")
+
+
+def _within_days(end, anchor, days):
+    """Is `end` no more than `days` older than `anchor`? Both are ISO dates."""
+    try:
+        d = (dt.date.fromisoformat(anchor) - dt.date.fromisoformat(end)).days
+    except (TypeError, ValueError):
+        return False
+    return d <= days
 
 
 def _latest_instant(facts, key):
@@ -300,11 +329,69 @@ def fundamentals(cik):
     capex, capex_c, _ = _series(f, "capex", config.FCFF_YEARS)
     rev, _, _ = _series(f, "revenue", 6)
     sbc, _, _ = _series(f, "sbc", config.FCFF_YEARS)
-    ni, _, _ = _series(f, "net_income", 3)
-    eq, _, _ = _series(f, "equity", 3)
-    # Balance sheet from the newest filing of ANY form — see _latest_instant.
-    debt_lt, _, debt_end, debt_form = _latest_instant(f, "total_debt")
-    debt_cur, _, dc_end, _ = _latest_instant(f, "debt_current")
+    ni, ni_c, _ = _series(f, "net_income", 3)
+    ni_common, ni_common_c, _ = _series(f, "net_income_common", 3)
+    eq, eq_c, eq_annual_end = _series(f, "equity", 3)
+    # Balance sheet from the newest filing of ANY form -- see _latest_instant.
+    debt_lt, debt_lt_c, debt_end, debt_form = _latest_instant(f, "total_debt")
+    debt_cur, debt_cur_c, dc_end, _ = _latest_instant(f, "debt_current")
+    # Convertibles get the same freshness treatment as the rest of the balance sheet.
+    # Read before the convertible gate below, which anchors on the newest date across the
+    # items every filer reports every period.
+    cash, _, cash_end, cash_form = _latest_instant(f, "cash")
+    eq_now, _, eq_end, _ = _latest_instant(f, "equity")
+    conv_lt, conv_lt_c, conv_lt_end, _ = _latest_instant(f, "convertible_noncurrent")
+    conv_cur, conv_cur_c, conv_cur_end, _ = _latest_instant(f, "convertible_current")
+    # A convertible concept must be CURRENT to count. _latest_instant returns the newest
+    # value a concept ever had, with no staleness guard, and that is fine for cash, equity
+    # or total debt -- every filer reports those every period. It is wrong for
+    # convertibles, which stop being reported the moment the notes are repaid or
+    # converted. The concept does not go to zero, it disappears, and the last value hangs
+    # around forever. Silicon Labs last tagged ConvertibleDebtCurrent at 2023-04-01
+    # ($530.1M); adding that dead tranche to its live non-current notes inflated total
+    # debt to $1,059.7M against a 2026 balance sheet -- a 12.8x jump that invents
+    # expensiveness, which is the one direction this fix must never err in.
+    # So: anchor on the balance-sheet date of the items that ARE always reported, and
+    # ignore any convertible read older than that. 35 days of tolerance because the
+    # pieces of one balance sheet share an instant but a filer can tag an odd one.
+    #
+    # Second chance at the latest fiscal year end, because not every filer tags every
+    # balance-sheet line in every 10-Q -- some break the convertible out only in the
+    # annual report. Without this the gate would drop live debt and land back on the
+    # original understatement, which is the failure being fixed. A tranche still on the
+    # most recent 10-K is live enough to count; one that vanished before it is not
+    # (Silicon Labs last tagged 2023-04-01 against a 2026-01-03 year end; Glaukos
+    # 2024-09-30 against 2025-12-31, having already fallen $283M -> $56.8M on
+    # conversion). Both are still rejected.
+    anchor = max([d for d in (debt_end, dc_end, cash_end, eq_end) if d], default=None)
+
+    def _current_enough(end):
+        if not end:
+            return True
+        if anchor and _within_days(end, anchor, 35):
+            return True
+        return bool(eq_annual_end) and _within_days(end, eq_annual_end, 35)
+
+    if anchor:
+        if not _current_enough(conv_lt_end):
+            conv_lt, conv_lt_c = None, None
+        if not _current_enough(conv_cur_end):
+            conv_cur, conv_cur_c = None, None
+    # max, deliberately, not sum. A filer that tags LongTermDebtNoncurrent is reporting
+    # TOTAL long-term debt there, convertibles included, so adding the separately-tagged
+    # convertible on top would double-count it. A filer that tags only the convertible
+    # concepts has nothing in the LongTermDebt* family, and max lifts the figure from
+    # (usually) zero to the real one. The residual weakness is a company carrying both a
+    # term loan and separately-tagged convertibles with no combined total, where max
+    # returns the larger rather than the sum -- still understated, but far less so, and
+    # never overstated. Erring downward keeps EV low and gaps wide, which is the same
+    # direction as the old bug; erring upward would invent expensiveness that isn't there.
+    debt_noncurrent = max(debt_lt or 0.0, conv_lt or 0.0)
+    debt_current_all = max(debt_cur or 0.0, conv_cur or 0.0)
+    debt_concepts = [c for c in (debt_lt_c, debt_cur_c, conv_lt_c, conv_cur_c) if c]
+    # the balance-sheet date reported alongside is the newest of the pieces actually used
+    debt_end = max([d for d in (debt_end, dc_end, conv_lt_end, conv_cur_end) if d],
+                   default=None)
     ebit, ebit_c, _ = _latest(f, "ebit")
     ebit_derived = False
     if not isinstance(ebit, (int, float)):
@@ -318,7 +405,6 @@ def fundamentals(cik):
             ebit = ni_l + tax_l + (i_l if isinstance(i_l, (int, float)) else 0.0)
             ebit_derived = True
     intex, _, _ = _latest(f, "interest_expense")
-    cash, _, cash_end, cash_form = _latest_instant(f, "cash")
     sti, _, _, _ = _latest_instant(f, "short_term_investments")
     shares, _, _ = _latest(f, "shares")
     cover = _latest_shares(f)
@@ -340,7 +426,6 @@ def fundamentals(cik):
     intang_s, _, _ = _series(f, "intangibles", 3)
     gw, _, _, _ = _latest_instant(f, "goodwill")
     intang, _, _, _ = _latest_instant(f, "intangibles")
-    eq_now, _, eq_end, _ = _latest_instant(f, "equity")
     _, _, latest_end = _latest(f, "revenue")
     # The newest date across the balance-sheet reads, so downstream can say how current
     # the enterprise value actually is instead of assuming it matches the fiscal year end.
@@ -351,11 +436,13 @@ def fundamentals(cik):
         "fy_end": latest_end,
         "revenue_series": rev,
         "net_income_series": ni,
+        "net_income_common_series": ni_common,
+        "net_income_concept": ni_c,
         "equity_series": eq,
         "ebit": ebit,
         "ebit_derived": ebit_derived,
         "interest_expense": intex,
-        "total_debt": (debt_lt or 0.0) + (debt_cur or 0.0),
+        "total_debt": debt_noncurrent + debt_current_all,
         "cash": cash or 0.0,
         "short_term_investments": sti or 0.0,
         "preferred": pref or 0.0,
@@ -382,7 +469,13 @@ def fundamentals(cik):
         "cfo_series": cfo,
         "sbc_series": sbc,
         "capex_series": capex,
-        "source": {"cfo": cfo_c, "capex": capex_c,
+        # which equity concept was picked decides whether NCI is already inside the
+        # number: StockholdersEquity is parent-only, the IncludingPortion... variant and
+        # IFRS Equity are not. justified_pb cannot deduct minority interest correctly
+        # without knowing which one it got.
+        "equity_concept": eq_c,
+        "source": {"cfo": cfo_c, "capex": capex_c, "debt": debt_concepts,
+                   "equity": eq_c,
                    "url": f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"},
     }
 
@@ -464,30 +557,54 @@ MATERIAL_8K_ITEMS = {
 }
 
 
-def filing_documents(cik, accession):
-    """Every document inside one filing, from its index.json.
+_DOC_BLOCK = re.compile(r"<DOCUMENT>(.*?)</DOCUMENT>", re.S | re.I)
 
-    `accession` may be dashed or not. Returns dicts with the exhibit type as EDGAR
-    labels it (EX-99.1, EX-99.2, ...), which is what lets the caller pick the deck out
-    of a filing that also contains a cover page and a press release.
+
+def _sgml_field(block, name):
+    """One line-delimited SGML header field, e.g. `<TYPE>EX-99.1`."""
+    m = re.search(rf"<{name}>(.*)", block, re.I)
+    return m.group(1).strip() if m else ""
+
+
+def filing_documents(cik, accession):
+    """Every document inside one filing, with the exhibit type EDGAR assigned it.
+
+    Read from the submission's SGML header (`<accession>-index-headers.html`), NOT from
+    the directory `index.json`. That endpoint looks like it carries the answer and does
+    not: its `type` field is the icon filename — literally "text.gif" and
+    "compressed.gif" — and it has no description at all. Keying off it meant
+    `type.startswith("EX-99")` was false for every document of every filing ever, so
+    `exhibits_for` returned an empty list universally and every brief printed "No EX-99
+    exhibits filed under a material 8-K item" as though that were a fact about the
+    company. All ten names on 2026-09-01 printed it while filing 8-Ks under items 2.02
+    and 9.01; ANF's Q2 press release was sitting in that same directory the whole time as
+    q22026pressrelease.htm, and it held the $100M one-time tariff refund that decided the
+    name.
+
+    The header file is small, is served for every submission, and gives TYPE, FILENAME
+    and DESCRIPTION per document. Its SGML tags arrive HTML-escaped inside a <pre>, so
+    unescape before parsing.
     """
     acc = str(accession).replace("-", "")
-    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/index.json"
+    if len(acc) != 18:
+        return []
+    dashed = f"{acc[:10]}-{acc[10:12]}-{acc[12:]}"
+    base = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}"
     try:
-        blob = json.loads(_get(url))
+        txt = _html.unescape(_get(f"{base}/{dashed}-index-headers.html"))
     except Exception:
         return []
     out = []
-    for item in blob.get("directory", {}).get("item", []):
-        name = item.get("name", "")
-        if not name.lower().endswith((".htm", ".html", ".txt", ".pdf")):
+    for block in _DOC_BLOCK.findall(txt):
+        name = _sgml_field(block, "FILENAME")
+        if not name or not name.lower().endswith((".htm", ".html", ".txt", ".pdf")):
             continue
         out.append({
             "name": name,
-            "type": (item.get("type") or "").upper(),
-            "description": item.get("description") or "",
-            "size": item.get("size"),
-            "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{name}",
+            "type": _sgml_field(block, "TYPE").upper(),
+            "description": _sgml_field(block, "DESCRIPTION"),
+            "size": None,
+            "url": f"{base}/{name}",
         })
     return out
 
@@ -565,7 +682,17 @@ _STORE = None
 # Without this, a cached entry stays valid for FACTS_MAX_AGE_DAYS and a newly added
 # field silently reads as missing for a month — the multiples model would have had no
 # EBITDA or gross profit for any company until the store aged out on its own.
-EXTRACT_VERSION = 2
+# 3: convertible debt folded into total_debt, and equity_concept recorded so
+#    justified_pb can tell whether minority interest is already inside the equity
+#    figure. Both change numbers the valuation depends on, so the old shape must not
+#    be served — otherwise the convertible fix would not reach a single name for a
+#    month and the bug would outlive its own fix.
+# 4: convertible reads anchored to the balance-sheet date, so a repaid tranche whose
+#    concept simply stopped being filed no longer counts. v3 extracts carry inflated
+#    debt for those filers (Silicon Labs: $1,059.7M against a true $529.6M).
+# 5: that anchor also accepts the latest fiscal year end, so a filer that breaks the
+#    convertible out only in its 10-K keeps it. v4 extracts drop live debt for those.
+EXTRACT_VERSION = 5
 
 
 def _store_path():

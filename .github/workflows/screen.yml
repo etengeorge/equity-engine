@@ -1,17 +1,27 @@
 name: daily screen
 
-# Pre-market on purpose. 7:30am ET is two hours before the open, so every price in the
-# screen is the prior session's close and the whole run is reproducible — a name cannot
-# show two different prices on one calendar day the way it did when this ran intraday.
+# Pre-market on purpose: every price in the screen is the prior session's close, so the
+# run is reproducible and a name cannot show two different prices on one calendar day the
+# way it did when this ran intraday.
 #
-# GitHub cron has no timezone and no DST, so both possible UTC hours are scheduled and a
-# guard step drops whichever one is not 7am Eastern today. The minute is :23 rather than
-# :30 because runs on the hour and half-hour sit in the most contended queue — a
-# scheduled run of this workflow has already been delayed 7h10m once.
+# ONE cron, in UTC, deliberately. The previous version scheduled both possible UTC hours
+# and used a guard step to drop whichever was not 07:23 Eastern that day. That bought
+# nothing: the requirement is only that the run lands before the 09:30 ET open, not that
+# it lands at a particular local hour, and the DST machinery cost two real failures. It
+# skipped silently whenever a run started outside the 07:00 ET hour (this workflow has
+# already been delayed 7h10m once, and a silent skip reporting success is the exact
+# failure this project exists to prevent), and its 11:23/12:23 UTC slots ran AFTER the
+# analyst routine that consumes this output, so the analyst read stale briefs.
+#
+# 10:23 UTC is 06:23 ET in summer and 05:23 ET in winter — comfortably pre-market in both
+# — and leaves roughly an hour of margin ahead of the analyst. The minute is :23 rather
+# than :00 or :30 because runs on the hour and half-hour sit in the most contended queue.
+#
+# Lateness is now survivable rather than fatal: prices.drop_incomplete_session discards a
+# partial bar, so a delayed run still prices off the last completed session.
 on:
   schedule:
-    - cron: "23 11 * * 1-5"    # 07:23 ET while daylight saving is in effect
-    - cron: "23 12 * * 1-5"    # 07:23 ET while standard time is in effect
+    - cron: "23 10 * * 1-5"
   workflow_dispatch:
     inputs:
       limit:
@@ -36,49 +46,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Exactly one of the two cron entries is 7am Eastern on any given date. A manual
-      # dispatch always proceeds.
-      - name: Skip the cron entry that is not 7am Eastern
-        id: gate
-        run: |
-          HOUR=$(TZ=America/New_York date +%H)
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "manual dispatch — proceeding"
-            echo "go=true" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "07" ]; then
-            echo "07:xx America/New_York — proceeding"
-            echo "go=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "$HOUR:xx America/New_York — this is the other DST cron, skipping"
-            echo "go=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/setup-python@v5
-        if: steps.gate.outputs.go == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
-      - if: steps.gate.outputs.go == 'true'
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       # Offline, sub-second, and guards every valuation bug that has actually shipped.
       # If the math is broken there is no point spending 20 minutes screening with it.
       - name: Regression tests
-        if: steps.gate.outputs.go == 'true'
         run: python test_engine.py
 
       # Raw EDGAR payloads are disposable — data/fundamentals.json is the durable copy.
       # This cache only saves bandwidth on same-day reruns.
       - uses: actions/cache@v4
-        if: steps.gate.outputs.go == 'true'
         with:
           path: cache
           key: edgar-${{ github.run_id }}
           restore-keys: edgar-
 
       - name: Screen, pull news, and pick today's ten
-        if: steps.gate.outputs.go == 'true'
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
@@ -94,7 +82,6 @@ jobs:
           python run.py site
 
       - name: Fail loudly if the screen produced nothing
-        if: steps.gate.outputs.go == 'true'
         run: |
           python - <<'PY'
           import json, sys
@@ -114,7 +101,6 @@ jobs:
       # News is an enrichment, not a dependency: a throttled Yahoo must not fail the run.
       # But a silent total failure would leave selection blind, so say so in the log.
       - name: Report the news pass
-        if: steps.gate.outputs.go == 'true'
         run: |
           python - <<'PY'
           import json, pathlib
@@ -132,7 +118,6 @@ jobs:
           PY
 
       - name: Commit
-        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name  "equity-engine[bot]"
           git config user.email "equity-engine[bot]@users.noreply.github.com"
@@ -148,7 +133,7 @@ jobs:
           fi
 
       - name: Summary
-        if: always() && steps.gate.outputs.go == 'true'
+        if: always()
         run: |
           {
             echo "### Daily screen"

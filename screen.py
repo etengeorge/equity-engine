@@ -43,6 +43,38 @@ def baseline_growth(fund):
     return clamped, note
 
 
+def _debt_sanity_flags(row, fund):
+    """A company cannot pay 25%+ interest on its debt. When it appears to, the debt is
+    missing rather than the interest being wrong.
+
+    Worth flagging loudly because this error is directional: understated debt lowers
+    enterprise value, lowers the growth the market appears to imply, and widens the gap
+    upward. It manufactures false buys and never false passes.
+
+    NOT a substitute for the convertible-debt aliases, and deliberately not tuned to
+    pretend otherwise: Teladoc's missing $996.7M was a 1.25% coupon, so its interest
+    expense of $10.5M against a reported $42.4M of debt implies 24.8% and slips under
+    this threshold. Convertibles are cheap to service by design, which is precisely why
+    they have to be extracted correctly rather than inferred from interest. What this
+    catches is the high-coupon version of the same error — COLL at $83.3M of interest on
+    $14.2M of visible debt, RPD at $64.7M on $16.9M.
+
+    Financials are exempt: their interest expense is deposit and funding cost, and the
+    book method does not use enterprise value anyway.
+    """
+    if row.get("method") == "book" or (row.get("sector") or "") == "Financials":
+        return []
+    ie = fund.get("interest_expense")
+    td = fund.get("total_debt") or 0.0
+    if not V._fin(ie) or ie <= 2e6:
+        return []
+    if td > 0 and ie / td <= 0.25:
+        return []
+    shown = "no_debt_found" if td <= 0 else f"{ie / td:.0%}"
+    return [f"interest_expense_implies_{shown}_on_reported_debt_debt_likely_understated"]
+
+
+
 def sector_beta_medians(quotes, universe):
     """Median RELIABLE beta per sector, for names whose own regression failed.
 
@@ -139,6 +171,8 @@ def value_one(row, quote, rf, sector_beta=None):
                     f"balance_sheet_{bage}d_old_enterprise_value_may_predate_a_financing")
         except ValueError:
             pass
+
+    out["flags"] += _debt_sanity_flags(row, fund)
 
     w = V.cost_of_capital(fund, price, quote.get("beta"), quote.get("beta_note"), rf,
                           sector_beta=sector_beta,

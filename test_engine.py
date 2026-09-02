@@ -74,6 +74,399 @@ def test_pb_acquisition():
           f"got {r['actual_p_tbv']:.2f}, averaging levels gave 4.53 vs the true 2.05")
 
 
+# --- 2b. convertible notes must not fall out of total debt -------------------
+def _facts(**concepts):
+    """Minimal companyfacts payload: {concept: value} as a single FY2025 10-K fact."""
+    return {"facts": {"us-gaap": {
+        c: {"units": {"USD": [{"fp": "FY", "form": "10-K", "fy": 2025,
+                               "end": "2025-12-31", "val": v}]}}
+        for c, v in concepts.items()}}}
+
+
+def test_convertible_debt_is_not_invisible():
+    """Teladoc reported $42.4M of total debt against $996.7M of convertible notes.
+
+    The generic LongTermDebt* aliases return nothing for a filer carrying its notes under
+    a Convertible* concept, and missing debt understates EV, understates the growth the
+    market implies and widens the gap UPWARD — so it manufactures false buys.
+
+    Built from Teladoc's ACTUAL tagging, checked against companyconcept rather than
+    guessed: us-gaap:ConvertibleDebtCurrent, $996,700,000 at 2026-06-30, matching the
+    10-Q. The first draft of this fix guessed ConvertibleNotesPayableCurrent, which
+    Teladoc returns 404 for — it would not have fixed the name it was written for.
+
+    Note the 10-K reads ZERO (the notes were still non-current at 2025-12-31) and only
+    the 10-Q carries the figure, so this works only because the convertible buckets go
+    through _latest_instant. An annual-only read returns 0 and the bug survives.
+    """
+    import edgar
+    facts = {"facts": {"us-gaap": {
+        "ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2025-12-31", "val": 0, "form": "10-K", "fy": 2025, "fp": "FY"},
+            {"end": "2026-06-30", "val": 996_700_000, "form": "10-Q", "fy": 2026, "fp": "Q2"},
+        ]}},
+        "DebtCurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 42_424_000, "form": "10-Q", "fy": 2026, "fp": "Q2"},
+        ]}},
+    }}}
+    conv, concept, end, _ = edgar._latest_instant(facts, "convertible_current")
+    check("the concept Teladoc actually uses is covered",
+          concept == "ConvertibleDebtCurrent" and conv == 996_700_000,
+          f"got {concept}={conv}")
+    check("the 10-Q value wins over the 10-K zero", end == "2026-06-30", end)
+
+    cur, _, _, _ = edgar._latest_instant(facts, "debt_current")
+    check("convertible reaches total debt", max(conv or 0, cur or 0) == 996_700_000,
+          "a $996.7M convertible must not be reported as $42.4M of debt")
+
+    # the annual-only read is what the bug looked like
+    old, _, _ = edgar._latest(facts, "convertible_current")
+    check("an annual-only read would still miss it", old == 0,
+          f"got {old} — if this changes, _latest_instant is no longer load-bearing here")
+
+
+def test_convertible_debt_is_not_double_counted():
+    """The opposite failure: LongTermDebtNoncurrent already INCLUDES convertibles.
+
+    Summing the two would invent debt that does not exist and make the name look
+    expensive — as wrong as the bug being fixed, just in the other direction.
+    """
+    import edgar
+    f = _facts(LongTermDebtNoncurrent=1_500_000_000,
+               ConvertibleDebtNoncurrent=1_000_000_000)
+    lt, _, _, _ = edgar._latest_instant(f, "total_debt")
+    conv, _, _, _ = edgar._latest_instant(f, "convertible_noncurrent")
+    total = max(lt or 0, conv or 0)
+    check("no double count when both are tagged", total == 1_500_000_000,
+          f"got {total:,.0f}; summing would give 2,500,000,000 of imaginary debt")
+
+
+def test_repaid_convertibles_do_not_haunt_the_balance_sheet():
+    """A convertible concept that stops being reported must not keep its last value.
+
+    _latest_instant returns the newest value a concept ever had and has no staleness
+    guard. That is correct for cash, equity and total debt — every filer reports those
+    every period. It is wrong for convertibles, which do not go to zero when the notes
+    are repaid: the concept simply disappears and the last figure hangs around forever.
+
+    Silicon Labs' real dates: ConvertibleDebtCurrent last tagged 2023-04-01 at
+    $530,096,000, against a 2026 balance sheet. Adding that dead tranche to its live
+    non-current notes took total debt to $1,059.7M, a 12.8x jump — inventing
+    expensiveness, the one direction this fix must never err in.
+    """
+    import edgar
+    facts = {"facts": {"us-gaap": {
+        # live: reported on the current balance sheet
+        "LongTermDebtNoncurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 529_600_000, "form": "10-Q"}]}},
+        "CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 400_000_000, "form": "10-Q"}]}},
+        "StockholdersEquity": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 1_000_000_000, "form": "10-Q"}]}},
+        # dead: repaid in 2023, never reported again
+        "ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2023-04-01", "val": 530_096_000, "form": "10-Q"}]}},
+    }}}
+    anchor = "2026-06-30"
+    conv, _, conv_end, _ = edgar._latest_instant(facts, "convertible_current")
+    check("the stale value is what _latest_instant hands back",
+          conv == 530_096_000 and conv_end == "2023-04-01",
+          f"{conv} at {conv_end} — if this changes, _latest_instant grew a guard")
+    check("and it is rejected as stale",
+          not edgar._within_days(conv_end, anchor, 35),
+          "a 2023 convertible against a 2026 balance sheet must not count")
+    # a convertible reported on the current balance sheet is kept
+    check("a current convertible is kept",
+          edgar._within_days("2026-06-30", anchor, 35), "")
+    # and the tolerance is real but small
+    check("a slightly-off instant is tolerated",
+          edgar._within_days("2026-06-25", anchor, 35), "")
+    check("a full quarter stale is not",
+          not edgar._within_days("2026-03-31", anchor, 35), "")
+
+
+def test_convertible_lifecycle_end_to_end():
+    """The gate must reject dead tranches WITHOUT dropping live ones.
+
+    Rejecting too eagerly lands straight back on the bug being fixed, because not every
+    filer breaks the convertible out in every 10-Q — some tag it only in the annual
+    report. So a value is current enough if it sits on the latest balance sheet OR on
+    the most recent fiscal year end.
+
+    All four rows are real patterns: Teladoc tags it every quarter; Glaukos' tranche
+    fell $283M -> $56.8M on conversion and stopped at 2024-09-30; Silicon Labs' stopped
+    at 2023-04-01.
+    """
+    import edgar
+    real = edgar.company_facts
+
+    def debt_for(extra):
+        base = {
+            "LongTermDebtNoncurrent": {"units": {"USD": [
+                {"end": "2026-06-30", "val": 6_078_000, "form": "10-Q"}]}},
+            "CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+                {"end": "2026-06-30", "val": 400_000_000, "form": "10-Q"}]}},
+            "StockholdersEquity": {"units": {"USD": [
+                {"end": "2025-12-31", "val": 1e9, "form": "10-K", "fy": 2025, "fp": "FY"},
+                {"end": "2026-06-30", "val": 1e9, "form": "10-Q"}]}},
+        }
+        base.update(extra)
+        edgar.company_facts = lambda cik, **kw: {"facts": {"us-gaap": base}}
+        d = edgar.fundamentals(1)
+        return d["total_debt"], any("Convertible" in c for c in d["source"]["debt"])
+
+    try:
+        v, counted = debt_for({"ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 996_700_000, "form": "10-Q"}]}}})
+        check("live quarterly convertible counts", counted and v == 1_002_778_000, f"{v}")
+
+        v, counted = debt_for({"ConvertibleDebtNoncurrent": {"units": {"USD": [
+            {"end": "2025-12-31", "val": 300_000_000, "form": "10-K"}]}}})
+        check("convertible tagged only in the latest 10-K still counts",
+              counted and v == 300_000_000,
+              f"{v} — rejecting this reinstates the understatement being fixed")
+
+        v, counted = debt_for({"ConvertibleLongTermNotesPayable": {"units": {"USD": [
+            {"end": "2024-09-30", "val": 56_759_000, "form": "10-Q"}]}}})
+        check("a tranche gone before the last year end is dropped",
+              not counted and v == 6_078_000, f"{v}")
+
+        v, counted = debt_for({"ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2023-04-01", "val": 530_096_000, "form": "10-Q"}]}}})
+        check("a three-year-dead tranche is dropped", not counted and v == 6_078_000,
+              f"{v} — this inflated Silicon Labs to $1,059.7M")
+    finally:
+        edgar.company_facts = real
+
+
+def test_understated_debt_is_flagged():
+    """A company cannot pay 25%+ interest on its debt. When it appears to, the debt is
+    missing — the backstop for high-coupon versions of the convertible bug.
+
+    Collegium's real figures: $83.3M of interest expense against $14.2M of visible debt.
+    """
+    row = {"ticker": "X", "name": "X", "sector": "Health Care", "method": "fcff",
+           "weight_pct": 0.1}
+    fund = {"interest_expense": 83.3e6, "total_debt": 14.2e6}
+    check("understated debt is flagged",
+          any("debt_likely_understated" in f
+              for f in screen._debt_sanity_flags(row, fund)),
+          str(screen._debt_sanity_flags(row, fund)))
+    # no debt found at all, with real interest being paid, is the same error
+    check("zero debt with real interest is flagged",
+          any("no_debt_found" in f
+              for f in screen._debt_sanity_flags(row, {"interest_expense": 60.9e6,
+                                                       "total_debt": 0.0})), "")
+    # a normal balance sheet must stay quiet
+    check("normal leverage is not flagged",
+          not screen._debt_sanity_flags(row, {"interest_expense": 12e6,
+                                              "total_debt": 250e6}), "")
+    # banks pay deposit interest; that is not missing debt
+    check("financials are exempt",
+          not screen._debt_sanity_flags({**row, "sector": "Financials", "method": "book"},
+                                        fund), "")
+    # documents the known blind spot: a 1.25% convertible coupon slips under the bar,
+    # which is why the alias fix carries this and the flag does not.
+    tdoc = {"interest_expense": 10.5e6, "total_debt": 42.4e6}
+    check("low-coupon convertibles evade the interest test (known, hence the aliases)",
+          not screen._debt_sanity_flags(row, tdoc),
+          "if this ever fires, the threshold moved and the comment needs updating")
+
+
+# --- 2c. tangible COMMON equity: deduct what the concept has not already -----
+def _pb_fund(**kw):
+    base = {"net_income_series": [43.0e6, 35.9e6, 55.1e6],
+            "equity_series": [408.6e6, 370.2e6, 343.0e6],
+            "goodwill_series": [150.8e6] * 3, "intangibles_series": [17.7e6] * 3,
+            "goodwill": 150.8e6, "intangibles": 17.7e6,
+            "minority_interest": 99.4e6, "preferred": 0.0, "shares": 22_960_249}
+    base.update(kw)
+    return base
+
+
+def test_pb_nci_deduction_depends_on_the_concept():
+    """Deducting minority interest unconditionally is exactly as wrong as never doing it.
+
+    MFIN's balance sheet reads "Total stockholders' equity 408,617" with "Non-controlling
+    interest 99,429" listed SEPARATELY below it — the extractor picked StockholdersEquity,
+    which is parent-only, so its $10.46 tangible book was already correct and deducting
+    the NCI would understate it by 41%. JXN's equity carries its $389M of NCI inside the
+    IncludingPortion... concept, where the deduction is required.
+    """
+    w = {"cost_of_equity": 0.082, "reliable": True}
+    parent_only = V.justified_pb(_pb_fund(equity_concept="StockholdersEquity"), 11.82, w)
+    including = V.justified_pb(
+        _pb_fund(equity_concept="StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"),
+        11.82, w)
+    check("parent-only equity: NCI is not deducted twice",
+          parent_only.get("ok") and abs(parent_only["tangible_book_per_share"] - 10.46) < 0.01,
+          f"got {parent_only.get('tangible_book_per_share')}, expected 10.46")
+    check("including-NCI equity: NCI is deducted",
+          including.get("ok") and abs(including["tangible_book_per_share"] - 6.13) < 0.01,
+          f"got {including.get('tangible_book_per_share')}, expected 6.13")
+    check("the two treatments actually differ",
+          parent_only["tangible_book_per_share"] > including["tangible_book_per_share"] * 1.5,
+          "a 41% difference in tangible book is a different verdict")
+
+
+def test_pb_unknown_concept_says_so_rather_than_guessing():
+    """A pre-schema-2 extract cannot tell us which concept was used. Do not guess."""
+    w = {"cost_of_equity": 0.082, "reliable": True}
+    r = V.justified_pb(_pb_fund(), 11.82, w)          # no equity_concept at all
+    check("unknown concept leaves book untouched",
+          r.get("ok") and abs(r["tangible_book_per_share"] - 10.46) < 0.01,
+          f"got {r.get('tangible_book_per_share')}")
+    check("unknown concept is flagged, not silent",
+          any("nci_treatment_unverified" in f for f in r.get("flags", [])),
+          str(r.get("flags")))
+
+
+def test_pb_preferred_always_comes_out():
+    """Preferred sits inside StockholdersEquity under every concept, so it always goes."""
+    w = {"cost_of_equity": 0.1065, "reliable": True}
+    f = _pb_fund(equity_concept="StockholdersEquity", minority_interest=0.0,
+                 preferred=100e6, shares=10e6,
+                 equity_series=[1000e6, 900e6, 800e6],
+                 goodwill_series=[0.0] * 3, intangibles_series=[0.0] * 3,
+                 goodwill=0.0, intangibles=0.0)
+    r = V.justified_pb(f, 50.0, w)
+    check("preferred is deducted from tangible common equity",
+          r.get("ok") and abs(r["tangible_book_per_share"] - 90.0) < 1e-6,
+          f"got {r.get('tangible_book_per_share')}, expected (1000-100)/10 = 90.00")
+
+
+# --- 2d. exhibit types come from the SGML header, not the directory listing --
+_ANF_HEADERS = """<SEC-HEADER>0001018840-26-000041.hdr.sgml : 20260826
+CONFORMED SUBMISSION TYPE: 8-K
+ITEM INFORMATION: Results of Operations and Financial Condition
+</SEC-HEADER>
+&lt;DOCUMENT&gt;
+&lt;TYPE&gt;8-K
+&lt;SEQUENCE&gt;1
+&lt;FILENAME&gt;anf-20260826.htm
+&lt;DESCRIPTION&gt;8-K
+&lt;TEXT&gt;
+&lt;/DOCUMENT&gt;
+&lt;DOCUMENT&gt;
+&lt;TYPE&gt;EX-99.1
+&lt;SEQUENCE&gt;2
+&lt;FILENAME&gt;q22026pressrelease.htm
+&lt;DESCRIPTION&gt;EX-99.1
+&lt;TEXT&gt;
+&lt;/DOCUMENT&gt;
+&lt;DOCUMENT&gt;
+&lt;TYPE&gt;EX-101.SCH
+&lt;SEQUENCE&gt;3
+&lt;FILENAME&gt;anf-20260826.xsd
+&lt;DESCRIPTION&gt;XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT
+&lt;TEXT&gt;
+&lt;/DOCUMENT&gt;
+"""
+
+
+def test_exhibits_are_found_at_all():
+    """`exhibits_for` returned an empty list for every filing ever filed.
+
+    filing_documents keyed off `type` in EDGAR's directory index.json, where that field
+    is the ICON FILENAME ("text.gif"), not the exhibit type — so startswith("EX-99") was
+    never true and every brief printed "No EX-99 exhibits filed" as a fact about the
+    company. Verified against the real 0001018840-26-000041 header, whose SGML tags are
+    HTML-escaped inside a <pre> and must be unescaped before parsing.
+    """
+    import edgar
+    real_get = edgar._get
+    edgar._get = lambda url, binary=False: _ANF_HEADERS
+    try:
+        docs = edgar.filing_documents(1018840, "0001018840-26-000041")
+    finally:
+        edgar._get = real_get
+    types = [d["type"] for d in docs]
+    check("the press release is found", "EX-99.1" in types, f"got {types}")
+    check("its real filename is recovered",
+          any(d["name"] == "q22026pressrelease.htm" for d in docs), str(docs))
+    check("the exhibit URL points at the document",
+          any(d["url"].endswith("/000101884026000041/q22026pressrelease.htm")
+              for d in docs), str([d["url"] for d in docs]))
+    check("xbrl schema exhibits are excluded by extension", "EX-101.SCH" not in types,
+          f"got {types}")
+    check("no icon filenames leak through as types",
+          not any("GIF" in t for t in types), f"got {types}")
+
+
+# --- 2e. a partial bar is not a close ----------------------------------------
+def test_partial_session_bar_is_dropped():
+    """Correctness must not depend on the cron staying ahead of the opening bell.
+
+    yfinance returns a partial bar for the session in progress. The engine used to avoid
+    it purely by running pre-market, so a delayed run would have priced the index
+    intraday — and the DST guard's answer to lateness was to skip the day in silence.
+    """
+    import pandas as pd, datetime as dt
+    from zoneinfo import ZoneInfo
+    import prices
+    idx = pd.to_datetime(["2026-08-28", "2026-08-31", "2026-09-01"])
+    closes = pd.DataFrame({"AAA": [10.0, 11.0, 11.5]}, index=idx)
+    vols = pd.DataFrame({"AAA": [100, 110, 55]}, index=idx)
+    et = ZoneInfo("America/New_York")
+
+    mid = dt.datetime(2026, 9, 1, 11, 0, tzinfo=et)          # market open
+    c, v, dropped = prices.drop_incomplete_session(closes, vols, now_et=mid)
+    check("today's partial bar is dropped intraday", dropped == "2026-09-01", str(dropped))
+    check("the prior close becomes the price", float(c["AAA"].iloc[-1]) == 11.0,
+          f"got {float(c['AAA'].iloc[-1])}")
+    check("volumes stay aligned with closes", len(v) == len(c), f"{len(v)} vs {len(c)}")
+
+    after = dt.datetime(2026, 9, 1, 16, 30, tzinfo=et)       # after the close
+    _, _, d2 = prices.drop_incomplete_session(closes, vols, now_et=after)
+    check("a completed session is kept", d2 is None, str(d2))
+
+    pre = dt.datetime(2026, 9, 1, 7, 23, tzinfo=et)          # the normal pre-market run
+    frame = pd.DataFrame({"AAA": [10.0, 11.0]}, index=idx[:2])
+    _, _, d3 = prices.drop_incomplete_session(frame, None, now_et=pre)
+    check("no-op when the newest bar is already yesterday", d3 is None, str(d3))
+
+
+# --- 2f. a schema bump must invalidate the store -----------------------------
+def test_extract_version_actually_refetches_through_the_cache():
+    """The companion to test_extract_version_invalidates_a_stale_cache_shape, which
+    checks the constant but never exercises fundamentals_cached itself.
+
+    A fix to the extractor is worthless while the store still serves the old shape.
+    Entries live 30 days, so without this the convertible-debt fix and the recorded
+    equity concept would not reach a single name for a month — the bug would outlive
+    its own fix.
+    """
+    import edgar, tempfile, pathlib
+    old_data, old_store = config.DATA, edgar._STORE
+    with tempfile.TemporaryDirectory() as td:
+        config.DATA = pathlib.Path(td)
+        # fresh by timestamp, but written by an older extractor
+        edgar._STORE = {"9": {"fetched_utc": dt_now_iso(), "v": 1, "data": {"cik": 9}}}
+        served = []
+        real = edgar.fundamentals
+        edgar.fundamentals = lambda cik: served.append(cik) or {"cik": cik, "new": True}
+        try:
+            _, src = edgar.fundamentals_cached(9)
+            check("a pre-bump entry is refetched despite being fresh",
+                  src == "edgar" and served == [9],
+                  f"src={src} served={served} — the old shape was served from cache")
+            check("the refetched entry is stamped with the current version",
+                  edgar._STORE["9"]["v"] == edgar.EXTRACT_VERSION,
+                  str(edgar._STORE["9"].get("v")))
+            served.clear()
+            _, src2 = edgar.fundamentals_cached(9)
+            check("a current-version entry is served from the store",
+                  src2 == "store" and not served, f"src={src2} served={served}")
+        finally:
+            edgar.fundamentals = real
+            config.DATA, edgar._STORE = old_data, old_store
+
+
+def dt_now_iso():
+    import datetime as _dt
+    return _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
+
+
 # --- 3. a missing EBIT tag is not a loss -------------------------------------
 def test_missing_ebit_not_a_loss():
     base = {"shares": 10e6, "total_debt": 0.0, "cash": 0.0, "short_term_investments": 0.0,
