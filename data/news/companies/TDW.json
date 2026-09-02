@@ -1,5 +1,41 @@
 [
  {
+  "id": "3c8f786a-671c-3fb9-bb03-81fc8be4d3f0",
+  "ts": "2026-09-02T11:20:59+00:00",
+  "title": "Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers",
+  "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "TDW"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8d4aef7f-f355-3ee7-8902-04bbcfc7f80f",
+  "ts": "2026-09-01T20:18:20+00:00",
+  "title": "Tidewater (TDW) Stock Is Up, What You Need To Know",
+  "summary": "Shares of offshore vessel operator Tidewater (NYSE:TDW) jumped 3.7% in the afternoon session after BTIG upgraded the stock from Neutral to Buy, citing increasing offshore activity that is expected to push dayrates higher across key basins.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/tidewater-tdw-stock-know-201820711.html",
+  "tickers": [
+   "TDW"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "a42a1640-e772-3d70-8e8b-e0a1a5c22a84",
+  "ts": "2026-09-01T18:05:13+00:00",
+  "title": "These 2 Stocks Hit New Milestones Today \u2013 What\u2019s Driving Retail Enthusiasm?",
+  "summary": "MiniMed\u2019s first-quarter sales rose 17% to $843 million, while BTIG upgraded Tidewater to \u2018Buy\u2019 from \u2018Neutral\u2019.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/mmed-tdw-stocks-hit-new-highs-heres-why/cZsorL8RJMn",
+  "tickers": [
+   "TDW"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "39730500-f04b-3ede-b485-570cf2f8666f",
   "ts": "2026-09-01T03:45:33+00:00",
   "title": "Tidewater Closes $500 Million WSUT Deal",

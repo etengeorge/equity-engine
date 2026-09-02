@@ -1,5 +1,17 @@
 [
  {
+  "id": "76bcc9db-e945-38c8-8147-0c0c14ce5fbe",
+  "ts": "2026-09-01T19:46:53+00:00",
+  "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
+  "summary": "Healthcare stocks were higher late Tuesday afternoon, with the NYSE Healthcare Index adding 0.6% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194653614.html",
+  "tickers": [
+   "CAPR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d7c5e77d-4c76-30d0-9955-b862cfb138b7",
   "ts": "2026-09-01T10:55:16+00:00",
   "title": "Capricor Therapeutics shares rise 2.5% following August FDA update",

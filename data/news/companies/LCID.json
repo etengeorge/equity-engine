@@ -1,5 +1,41 @@
 [
  {
+  "id": "6ec55598-40f3-31ce-a46f-d66c74e44883",
+  "ts": "2026-09-01T21:05:18+00:00",
+  "title": "Stock Market Today, Sept. 1: Nio Falls on Q2 Revenue Miss Despite August Delivery Strength",
+  "summary": "Today, Sept. 1, 2026, the Chinese EV maker's stock tumbled after reporting a revenue shortfall, though August deliveries surged 14.5% to signal Q3 momentum.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/stock-market-today/2026/09/01/stock-market-today-sept-1-nio-falls-on-q2-revenue-miss-despite-august-delivery-strength/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "190831f9-e271-357d-a601-b2ddcfe0614b",
+  "ts": "2026-09-01T18:16:55+00:00",
+  "title": "Lucid Is A Penny Stock Again",
+  "summary": "Lucid's stock has crossed a threshold that typically signals the market has lost faith in a company's future, and the reasons behind that fall keep piling up fast.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/01/lucid-is-a-penny-stock-again/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3342aa56-3699-3945-aa72-5ed234194db2",
+  "ts": "2026-09-01T14:06:22+00:00",
+  "title": "Tesla Falls 3% as Mixed European Registrations Land Ahead of Cybercab Launch",
+  "summary": "Tesla stock is pulling back hard two days before a major product launch, and the selling looks nothing like what the rest of the market is doing. Mixed European registration data just landed, and the bigger numbers from Britain and Germany are still on the way.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/01/tesla-falls-3-as-mixed-european-registrations-land-ahead-of-cybercab-launch/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8d6f90c3-9bc0-3f66-84b4-21e83ce7e8fe",
   "ts": "2026-08-31T21:07:47+00:00",
   "title": "Stock Market Today, Aug. 31: Tesla Stock Surges on Cybercab Event Anticipation",

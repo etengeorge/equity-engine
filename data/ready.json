@@ -1,90 +1,90 @@
 {
-  "screen_utc": "2026-09-01T12:10:22+00:00",
-  "price_asof": "2026-08-31",
+  "screen_utc": "2026-09-02T11:39:01+00:00",
+  "price_asof": "2026-09-01",
   "universe": 1956,
-  "modelled": 1082,
-  "modelled_pct": 55.3,
+  "modelled": 1078,
+  "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-01T12:10:23+00:00",
+    "generated_utc": "2026-09-02T11:39:02+00:00",
     "sectors": {
       "Health Care": {
-        "new": 12,
-        "held": 12,
+        "new": 3,
+        "held": 15,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 12,
-        "held": 12,
+        "new": 6,
+        "held": 18,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 12,
-        "held": 12,
+        "new": 2,
+        "held": 14,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 12,
-        "held": 12,
+        "new": 6,
+        "held": 18,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 12,
-        "held": 12,
+        "new": 3,
+        "held": 15,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 12,
-        "held": 12,
+        "new": 8,
+        "held": 20,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 12,
-        "held": 12,
+        "new": 2,
+        "held": 14,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 12,
+        "new": 0,
         "held": 12,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 12,
-        "held": 12,
+        "new": 3,
+        "held": 15,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 12,
-        "held": 12,
+        "new": 4,
+        "held": 16,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 12,
-        "held": 12,
+        "new": 3,
+        "held": 15,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 4735,
+    "articles_new": 1480,
     "candidates": 450,
-    "elapsed_s": 201.7
+    "elapsed_s": 210.3
   },
   "picks": [
-    "PCVX",
-    "COMP",
-    "TGTX",
-    "CMC",
-    "FLR",
-    "SNEX",
-    "ANF",
-    "TDOC",
-    "CRI",
-    "MFIN"
+    "KYMR",
+    "TXG",
+    "OSCR",
+    "TEX",
+    "ESE",
+    "SLAB",
+    "FLO",
+    "GLRE",
+    "ALTG",
+    "CTOS"
   ],
   "stages": {
-    "screen": "2026-09-01T12:13:56+00:00",
-    "news": "2026-09-01T12:13:45+00:00",
-    "pick": "2026-09-01T12:13:56+00:00"
+    "screen": "2026-09-02T11:42:43+00:00",
+    "news": "2026-09-02T11:42:33+00:00",
+    "pick": "2026-09-02T11:42:43+00:00"
   }
 }

@@ -1,5 +1,17 @@
 [
  {
+  "id": "ba1f7964-7dda-3325-ad01-8ddc9bdedcdd",
+  "ts": "2026-09-01T13:25:52+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Tuesday",
+  "summary": "Energy stocks were advancing premarket Tuesday, with the State Street Energy Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132552437.html",
+  "tickers": [
+   "HLX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "18e1aad0-7733-3402-8bb2-98dad75b0fde",
   "ts": "2026-09-01T11:55:00+00:00",
   "title": "Hornbeck and Helix Complete Merger, Creating a Premier Integrated Offshore Services Company",

@@ -1,5 +1,89 @@
 [
  {
+  "id": "5324f3fe-be01-350f-be58-5b12d8d504b7",
+  "ts": "2026-09-01T19:50:18+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks fell in late Tuesday afternoon trading with the NYSE Financial Index declining 0.7%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "cf9b3b1b-8034-36a2-81d8-28abb602b481",
+  "ts": "2026-09-01T19:01:32+00:00",
+  "title": "Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250?",
+  "summary": "Morgan Stanley has lapped every major bank rival in 2026, but a rate spike just rattled the stock and the one price level that would confirm the bull case remains stubbornly out of reach.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/01/morgan-stanley-stock-is-up-nearly-20-in-2026-what-will-it-take-to-break-through-250/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "98da68ee-1b6f-32d6-bab5-389453bb0a00",
+  "ts": "2026-09-01T17:58:37+00:00",
+  "title": "Sector Update: Financial Stocks Softer Tuesday Afternoon",
+  "summary": "Financial stocks fell in Tuesday afternoon trading with the NYSE Financial Index declining 0.5% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "7873d4c9-263b-3c6c-ae45-9cc1594a477b",
+  "ts": "2026-09-01T17:09:29+00:00",
+  "title": "Exchange-Traded Funds Decline as US Equities Fall After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-decline-us-170929387.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "69e7e083-f37c-3b69-90fa-c8738b1de38d",
+  "ts": "2026-09-01T12:59:41+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "cca93569-1a62-313f-afd6-beb67ce13501",
+  "ts": "2026-09-01T12:55:00+00:00",
+  "title": "The Best Stock Sector ETFs for Rising Interest Rates",
+  "summary": "Worries about slowing growth and inflation may benefit defensive funds focusing on sectors like utilities, consumer staples and healthcare.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "cf4d1f64-1763-3488-ac9e-4b5662cd09d4",
   "ts": "2026-08-31T19:58:19+00:00",
   "title": "Sector Update: Financial Stocks Fall Late Afternoon",

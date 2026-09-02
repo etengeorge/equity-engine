@@ -106,17 +106,5 @@
    "ARMP"
   ],
   "source": "yfinance"
- },
- {
-  "id": "0e27147e-afdb-3f28-a1a8-55535fd7620d",
-  "ts": "2026-05-04T11:00:00+00:00",
-  "title": "Armata Pharmaceuticals Announces Structural Biology Publication in \"Communications Biology\"",
-  "summary": "Armata Pharmaceuticals, Inc. (NYSE American: ARMP) (\"Armata\" or the \"Company\"), a late clinical-stage biotechnology company focused on the development of high-purity, pathogen-specific bacteriophage therapeutics for the treatment of antibiotic-resistant and difficult-to-treat bacterial infections, today announced a paper in Communications Biology, a peer-reviewed journal from Nature Portfolio.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/armata-pharmaceuticals-announces-structural-biology-110000798.html",
-  "tickers": [
-   "ARMP"
-  ],
-  "source": "yfinance"
  }
 ]

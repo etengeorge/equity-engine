@@ -1,5 +1,33 @@
 [
  {
+  "id": "8966134b-2b52-3c9f-84b1-20023065ebff",
+  "ts": "2026-09-01T14:23:23+00:00",
+  "title": "U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building.",
+  "summary": "The U.S. manufacturing economy has grown for eight consecutive months. Growth is finally turning into more manufacturing jobs. The Institute for Supply Management\u2019s Purchasing Managers Index, or PMI, came in at 54.6 for August, down from 55.6 in July.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
+  "id": "69e7e083-f37c-3b69-90fa-c8738b1de38d",
+  "ts": "2026-09-01T12:59:41+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "10f84c32-7116-399a-9815-75787f3d84d3",
   "ts": "2026-08-31T17:28:00+00:00",
   "title": "Why Industrial Stocks Could Keep Losing Steam",

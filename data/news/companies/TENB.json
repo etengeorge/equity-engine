@@ -1,5 +1,17 @@
 [
  {
+  "id": "1b9139ca-237b-31e2-a2eb-55675e8d4a37",
+  "ts": "2026-09-01T20:58:20+00:00",
+  "title": "Tenable, Upstart, SentinelOne, monday.com, and DigitalOcean Stocks Trade Down, What You Need To Know",
+  "summary": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened investor risk appetite.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/tenable-upstart-sentinelone-monday-com-205820303.html",
+  "tickers": [
+   "TENB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d273b09e-a36d-3b70-b1cc-32c8190ba336",
   "ts": "2026-08-31T19:00:00+00:00",
   "title": "Tenable Joins White House-Led Project Watershed to Bolster U.S. Water Systems Cybersecurity",

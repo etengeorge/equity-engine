@@ -1,5 +1,47 @@
 [
  {
+  "id": "89374350-5296-3859-b076-72932e457e74",
+  "ts": "2026-09-02T09:58:00+00:00",
+  "title": "Stock Market News for Sep 2, 2026",
+  "summary": "Wall Street closed lower on Tuesday to start September.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "52285225-35ce-3d46-a002-bf18c1cd2b4b",
+  "ts": "2026-09-01T12:36:52+00:00",
+  "title": "How Is AT&T's Stock Performance Compared to Telecom Services Stocks",
+  "summary": "AT&T has lagged behind other telecom services stocks, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4374946/how-is-at-t-s-stock-performance-compared-to-telecom-services-stocks",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "48800e12-da90-3635-8206-fe7116039378",
+  "ts": "2026-09-01T12:32:28+00:00",
+  "title": "Think You Bought a Telecom ETF? You Mostly Own Big Tech",
+  "summary": "XLC carries the word \"communication\" in its name, but the fund's actual portfolio has almost nothing to do with phone bills, fiber lines, or fat dividend checks. Before you assume you own telecom income, check what you actually hold.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/01/think-you-bought-a-telecom-etf-you-mostly-own-big-tech/",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "06a7b6fe-9934-3ed7-8102-d2dd6387dc42",
   "ts": "2026-09-01T05:53:45+00:00",
   "title": "How Is Comcast\u2019s Stock Performance Compared to Other Communication Stocks",

@@ -1,5 +1,33 @@
 [
  {
+  "id": "5324f3fe-be01-350f-be58-5b12d8d504b7",
+  "ts": "2026-09-01T19:50:18+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks fell in late Tuesday afternoon trading with the NYSE Financial Index declining 0.7%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "98da68ee-1b6f-32d6-bab5-389453bb0a00",
+  "ts": "2026-09-01T17:58:37+00:00",
+  "title": "Sector Update: Financial Stocks Softer Tuesday Afternoon",
+  "summary": "Financial stocks fell in Tuesday afternoon trading with the NYSE Financial Index declining 0.5% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "cf4d1f64-1763-3488-ac9e-4b5662cd09d4",
   "ts": "2026-08-31T19:58:19+00:00",
   "title": "Sector Update: Financial Stocks Fall Late Afternoon",

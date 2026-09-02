@@ -1,5 +1,125 @@
 [
  {
+  "id": "00fbd7d9-24d5-39c5-a73c-5530ce78a998",
+  "ts": "2026-09-02T03:08:40+00:00",
+  "title": "Is Hut 8 (NasdaqGS:HUT) Above Fair Value Despite AI Deals?",
+  "summary": "Hut 8 stock has delivered a very strong 1 year return, yet current valuation checks suggest the shares screen as expensive rather than a clear bargain. After a sharp run up, investors are now weighing that momentum against a low value score and an overvalued signal on market multiples. Hut 8 is up 183.1% over the past year, which puts recent share price gains well ahead of what broad valuation tools currently support. The long term AI data center agreements linked to the Beacon Point campus...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/hut-8-nasdaqgs-hut-above-030840048.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "0589e79c-038e-3bb4-9dc6-054c113a38a7",
+  "ts": "2026-09-01T20:31:01+00:00",
+  "title": "Anthropic's $35 Billion Cloud Deal Comes With an Nvidia Twist",
+  "summary": "Nvidia is also reportedly holding the data-center lease",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-35-billion-cloud-deal-203101727.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "84494f27-b239-3623-b56b-910ff11cda19",
+  "ts": "2026-09-01T19:59:20+00:00",
+  "title": "Anthropic\u2019 $35B Lambda Deal, ERCOT Misses Batch Zero Baseload Deadline, Anti-AI Politicians Are Getting Rich from AI Stocks",
+  "summary": "Today, we open with Anthropic\u2019s $35B deal with Lambda for AI cloud compute at Hut 8\u2019s Beacon Point data center, and then we touch on ERCOT missing yesterday\u2019s deadline for\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/podcast/anthropic-35b-lambda-deal-ercot-misses-batch-zero-baseload-deadline-anti-ai-politicians-are-getting-rich-from-ai-stocks/",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "771c924c-ecf4-3e56-9df4-554bc11f260e",
+  "ts": "2026-09-01T19:38:40+00:00",
+  "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+  "summary": "Tech stocks were lower late Tuesday afternoon, with the State Street Technology Select Sector SPDR E",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-193840614.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "10abcd65-5225-3467-a89d-c386dc84e630",
+  "ts": "2026-09-01T19:21:15+00:00",
+  "title": "Anthropic Raises AI Stakes With Stunning $35 Billion Bet",
+  "summary": "The AI infrastructure arms race just got significantly bigger",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-raises-ai-stakes-stunning-192115016.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "847be5a8-71c4-33e3-96d0-25c6c2e58477",
+  "ts": "2026-09-01T17:46:57+00:00",
+  "title": "Sector Update: Tech Stocks Fall Tuesday Afternoon",
+  "summary": "Tech stocks were lower Tuesday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-tuesday-174657831.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "da7cdd43-1ea6-3d6b-b51f-60b44b3d329d",
+  "ts": "2026-09-01T15:51:00+00:00",
+  "title": "Anthropic strikes $35 billion cloud deal with Nvidia-backed Lambda",
+  "summary": "Anthropic has agreed to a $35 billion deal to buy computing power from Nvidia-backed cloud provider Lambda, the Wall Street Journal reported, citing unnamed sources. The new capacity will be sourced from a Texas data center operated by bitcoin miner Hut 8, with Nvidia holding the underlying...",
+  "publisher": "Proactive",
+  "url": "https://www.proactiveinvestors.com/companies/news/1097930/anthropic-strikes-35-billion-cloud-deal-with-nvidia-backed-lambda-1097930.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c6536763-3e23-3b8d-b158-750ad21a8bfd",
+  "ts": "2026-09-01T15:50:33+00:00",
+  "title": "Top Midday Stories: Anthropic Reportedly Agrees to $35 Billion Computing Deal With Lambda; GoPro to Merge With Starman Optical",
+  "summary": "All three major US stock indexes were down in late-morning trading Tuesday, as bond yields in the US",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-anthropic-reportedly-155033765.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b0afb4b1-c542-4a09-85f9-6c70e1b59ebf",
+  "ts": "2026-09-01T13:45:00+00:00",
+  "title": "Anthropic's $35B cloud deal with Lambda adds new layer to circular financing concerns",
+  "summary": "Anthropic (ANTH.PVT) has signed a $35 billion cloud deal with Lambda (LAMD.PVT), according to Wall Street Journal reporting. Lambda is backed by Nvidia (NVDA). Morning Brief Host Julie Hyman is joined by Yahoo Finance Breaking Business News Reporter Jake Conley and Senior Reporter Pras Subramanian to take a closer look at this network of AI deals \u2014 Nvidia owns the lease on the data center site, which will be built by Hut 8 \u2014 and weigh in on the circular nature of the AI landscape.",
+  "publisher": "Yahoo Finance Video",
+  "url": "https://finance.yahoo.com/video/anthropics-35b-cloud-deal-lambda-134500271.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "5757f300-a183-4662-8e9e-a8906199047b",
+  "ts": "2026-09-01T12:25:11+00:00",
+  "title": "Hut 8 stock is a winner in a new deal between Anthropic and Nvidia-backed Lambda",
+  "summary": "Hut 8 continues to have momentum at its back.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/stocks/article/hut-8-stock-is-a-winner-in-a-new-deal-between-anthropic-and-nvidia-backed-lambda-122511171.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "4d686258-32a4-3b07-82df-5ff0be5672f0",
   "ts": "2026-09-01T11:18:29+00:00",
   "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda",

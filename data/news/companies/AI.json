@@ -1,5 +1,29 @@
 [
  {
+  "id": "975b130f-c1b3-3e0d-a97f-506b3f7a1885",
+  "ts": "2026-09-01T20:42:20+00:00",
+  "title": "Appian, C3.ai, Palo Alto Networks, Rapid7, and Shopify Shares Are Falling, What You Need To Know",
+  "summary": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened investor risk appetite.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/appian-c3-ai-palo-alto-204220053.html",
+  "tickers": [
+   "AI"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "947785c2-fa4c-3277-af0c-aff157eed907",
+  "ts": "2026-09-01T18:13:00+00:00",
+  "title": "Can Palantir's Customer Surge Sustain Its AI-Driven Growth Momentum?",
+  "summary": "PLTR's customer base rose 24% to 1,049 as AI adoption fueled revenue growth, but valuation and contract risks remain key tests for momentum.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/technology/ai/articles/palantirs-customer-surge-sustain-ai-181300191.html",
+  "tickers": [
+   "AI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e3a47b54-97e9-330b-bc66-f24a67c20d01",
   "ts": "2026-09-01T04:12:57+00:00",
   "title": "C3.ai (AI) Reports Q2: Everything You Need To Know Ahead Of Earnings",

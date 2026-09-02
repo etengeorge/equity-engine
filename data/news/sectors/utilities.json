@@ -1,5 +1,47 @@
 [
  {
+  "id": "7ac16a10-595d-34ea-965e-eeaa9eb7492f",
+  "ts": "2026-09-02T10:20:02+00:00",
+  "title": "Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)?",
+  "summary": "Sector ETF report for XLU",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "89374350-5296-3859-b076-72932e457e74",
+  "ts": "2026-09-02T09:58:00+00:00",
+  "title": "Stock Market News for Sep 2, 2026",
+  "summary": "Wall Street closed lower on Tuesday to start September.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "cca93569-1a62-313f-afd6-beb67ce13501",
+  "ts": "2026-09-01T12:55:00+00:00",
+  "title": "The Best Stock Sector ETFs for Rising Interest Rates",
+  "summary": "Worries about slowing growth and inflation may benefit defensive funds focusing on sectors like utilities, consumer staples and healthcare.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "aaf6f606-ac3f-37e0-bab7-3d92f41f47c6",
   "ts": "2026-09-01T08:59:00+00:00",
   "title": "Stock Market News for Sep 1, 2026",

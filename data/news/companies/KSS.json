@@ -1,5 +1,29 @@
 [
  {
+  "id": "95ec68b7-9ebe-35ff-be51-23f9a7713641",
+  "ts": "2026-09-02T10:03:14+00:00",
+  "title": "Kohl's CEO addresses Sephora sales slump",
+  "summary": "Kohl's CEO Michael Bender says the retailer remains committed to Sephora despite a 4% sales dip this quarter.",
+  "publisher": "Milwaukee Journal Sentinel",
+  "url": "https://www.jsonline.com/story/money/business/2026/09/02/kohls-ceo-addresses-sephora-sales-slump/91550742007/",
+  "tickers": [
+   "KSS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "95fad62d-c964-37ee-a260-4717d999ba1e",
+  "ts": "2026-09-01T12:01:00+00:00",
+  "title": "Kohl\u2019s names Walmart fashion alum as chief merchant",
+  "summary": "Ryan Waymire, who has also had merchandising roles at Wayfair, FabFitFun, Amazon and Target, will replace Nick Jones.",
+  "publisher": "Retail Dive",
+  "url": "https://www.retaildive.com/news/kohls-walmart-fashion-alum-chief-merchant/829281/",
+  "tickers": [
+   "KSS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "049b5b71-88b4-3c4d-b403-d49f188df37f",
   "ts": "2026-09-01T10:27:28+00:00",
   "title": "Tariff refund lifts Kohl\u2019s Q2 profits despite slight sales decline",
