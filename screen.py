@@ -74,7 +74,25 @@ def _debt_sanity_flags(row, fund):
     return [f"interest_expense_implies_{shown}_on_reported_debt_debt_likely_understated"]
 
 
-def value_one(row, quote, rf):
+
+def sector_beta_medians(quotes, universe):
+    """Median RELIABLE beta per sector, for names whose own regression failed.
+
+    Computed from this same universe on the same benchmark and window, so the fallback
+    is comparable to the betas it stands in for. Sectors thinner than
+    BETA_SECTOR_MIN_NAMES get no median and fall back to 1.0 as before.
+    """
+    by = {}
+    sector_of = {r["ticker"]: r["sector"] for r in universe}
+    for t, q in quotes.items():
+        b, r2 = q.get("beta"), q.get("beta_r2")
+        if V._fin(b) and V._fin(r2) and r2 >= config.BETA_MIN_R2:
+            by.setdefault(sector_of.get(t), []).append(b)
+    return {s: statistics.median(v) for s, v in by.items()
+            if s and len(v) >= config.BETA_SECTOR_MIN_NAMES}
+
+
+def value_one(row, quote, rf, sector_beta=None):
     """Returns a flat dict per ticker. Never raises for a single bad name."""
     t = row["ticker"]
     out = {"ticker": t, "name": row["name"], "sector": row["sector"],
@@ -91,7 +109,8 @@ def value_one(row, quote, rf):
                dollar_volume_60d=quote.get("dollar_volume_60d"),
                dollar_volume_5d=quote.get("dollar_volume_5d"),
                volume_ratio=quote.get("volume_ratio"),
-               beta=quote.get("beta"), beta_r2=quote.get("beta_r2"))
+               beta=quote.get("beta"), beta_r2=quote.get("beta_r2"),
+               beta_yahoo_raw=quote.get("beta_yahoo_raw"))
     # Abnormal volume is the earliest free signal that something happened: it moves
     # before the story is written, and unlike a return it does not need a direction.
     vr = quote.get("volume_ratio")
@@ -141,11 +160,28 @@ def value_one(row, quote, rf):
         except ValueError:
             pass
 
+    if fund.get("balance_sheet_asof"):
+        out["balance_sheet_asof"] = fund["balance_sheet_asof"]
+        out["balance_sheet_form"] = fund.get("balance_sheet_form")
+        try:
+            bage = (dt.date.today() - dt.date.fromisoformat(fund["balance_sheet_asof"])).days
+            out["balance_sheet_age_days"] = bage
+            if bage > 200:
+                out["flags"].append(
+                    f"balance_sheet_{bage}d_old_enterprise_value_may_predate_a_financing")
+        except ValueError:
+            pass
+
     out["flags"] += _debt_sanity_flags(row, fund)
 
-    w = V.cost_of_capital(fund, price, quote.get("beta"), quote.get("beta_note"), rf)
+    w = V.cost_of_capital(fund, price, quote.get("beta"), quote.get("beta_note"), rf,
+                          sector_beta=sector_beta,
+                          beta_source=quote.get("beta_source"))
     out["wacc"] = w.get("wacc")
     out["cost_of_equity"] = w.get("cost_of_equity")
+    out["beta_source"] = w.get("beta_source")
+    out["weight_equity"] = w.get("weight_equity")
+    out["weight_debt"] = w.get("weight_debt")
     out["flags"] += w.get("flags", [])
 
     # liquidity + size gates: a gap you cannot trade is not an opportunity
@@ -156,6 +192,19 @@ def value_one(row, quote, rf):
     dv = quote.get("dollar_volume_60d")
     if V._fin(dv) and dv < config.MIN_DOLLAR_VOLUME:
         out["flags"].append("illiquid_below_min_dollar_volume")
+
+    # Observed multiples for EVERY name, including ones the DCF will value. They cost
+    # nothing (the inputs are already in hand) and they are what the cohort quartiles are
+    # built from in the second pass — a comparables valuation is only as good as the
+    # comparables, so the cohort has to include the healthy names, not just the failures.
+    try:
+        obs = V.observed_multiples(fund, price)
+        out["multiples"] = {k: obs.get(k) for k in config.MULTIPLE_METRICS}
+        out["ebitda"] = obs.get("ebitda")
+        out["revenue_ltm"] = obs.get("revenue")
+        out["gross_profit"] = obs.get("gross_profit")
+    except Exception:
+        out["multiples"] = {}
 
     method = row["method"]
     if method == "none":
@@ -211,6 +260,55 @@ def value_one(row, quote, rf):
     return out
 
 
+def add_multiple_valuations(rows, rf):
+    """Second pass: value on comparables the names the DCF could not value.
+
+    Runs after the main loop because it needs the whole universe's observed multiples to
+    define a cohort. Applied to every name whose primary model failed — a negative FCFF
+    or an unusable book value — so that "the cash flows will not support a DCF" stops
+    being the same output as "no view at all". A name valued this way is marked
+    `method: multiples` and carries the cohort size, because a comparables number is a
+    statement about the cohort and is worthless without it.
+    """
+    by_cohort = {}
+    for r in rows:
+        key = r.get("sector")
+        if not key:
+            continue
+        for metric, val in (r.get("multiples") or {}).items():
+            if V._fin(val) and val > 0:
+                by_cohort.setdefault(key, {}).setdefault(metric, []).append(val)
+
+    scored = 0
+    for r in rows:
+        if r.get("gap") is not None or r.get("status") in ("no_price", "no_cik", "no_facts"):
+            continue
+        cik = r.get("cik")
+        if not cik or not V._fin(r.get("price")):
+            continue
+        try:
+            fund, _ = edgar.fundamentals_cached(cik)
+        except Exception:
+            continue
+        mv = V.multiple_valuation(fund, r["price"], by_cohort.get(r["sector"], {}))
+        if not mv.get("ok"):
+            r.setdefault("flags", []).extend(mv.get("flags", []))
+            continue
+        r["multiple_valuation"] = {
+            "blended_value": mv["blended_value"], "gap": mv["gap"],
+            "rows": mv["rows"], "flags": mv["flags"],
+        }
+        r["flags"] = list(dict.fromkeys(r.get("flags", []) + mv["flags"]))
+        # Deliberately NOT written into `gap`: the cohort rank and the selection score are
+        # built on DCF gaps, and mixing a comparables gap into that distribution would
+        # compare two different things. The analyst sees it in the brief and decides.
+        scored += 1
+    if scored:
+        print(f"[screen] multiples valuation for {scored} names the DCF could not value",
+              flush=True)
+    return scored
+
+
 def add_cohort_ranks(rows):
     """Percentile of each name's gap within its own (method, sector) cohort.
     This is the comparator that survives my choice of ERP and terminal growth."""
@@ -261,10 +359,15 @@ def run(limit=None, universe_path=None, out_path=None):
     rf, rf_src = prices.risk_free_rate()
     print(f"[screen] rf={rf:.3%} ({rf_src}); valuing …", flush=True)
 
+    betas = sector_beta_medians(quotes, uni)
+    print(f"[screen] sector beta medians for {len(betas)} sectors "
+          f"(fallback when a regression fails)", flush=True)
+
     rows = []
     for i, row in enumerate(uni, 1):
         try:
-            rows.append(value_one(row, quotes.get(row["ticker"]), rf))
+            rows.append(value_one(row, quotes.get(row["ticker"]), rf,
+                                  sector_beta=betas.get(row["sector"])))
         except Exception as e:
             rows.append({"ticker": row["ticker"], "name": row["name"],
                          "sector": row["sector"], "status": "error",
@@ -275,6 +378,7 @@ def run(limit=None, universe_path=None, out_path=None):
     for r in rows:
         r["flags"] = list(dict.fromkeys(r.get("flags", [])))
     edgar.save_store()
+    add_multiple_valuations(rows, rf)
     cohorts = add_cohort_ranks(rows)
     # Which trading session the prices are from. The run moved to pre-market, so this is
     # normally the prior close — and stating it removes the ambiguity that let the same

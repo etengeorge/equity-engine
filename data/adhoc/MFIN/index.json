@@ -1,82 +1,11 @@
 {
-  "fetched_utc": "2026-09-01T12:15:20+00:00",
-  "requested": "filings",
-  "filings": {
-    "ticker": "MFIN",
-    "cik": 1000209,
-    "documents": [
-      {
-        "form": "10-Q",
-        "filed": "2026-08-05",
-        "items": "",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526335042/mfin-20260630.htm",
-        "file": "2026-08-05-10-Q-mfin-20260630.htm.txt",
-        "chars": 298905,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-07-29",
-        "items": "2.02,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526323730/mfin-20260729.htm",
-        "file": "2026-07-29-8-K-mfin-20260729.htm.txt",
-        "chars": 3569,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-26",
-        "items": "5.02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526284003/mfin-20260625.htm",
-        "file": "2026-06-26-8-K-mfin-20260625.htm.txt",
-        "chars": 3648,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-12",
-        "items": "5.07",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526269326/d112031d8k.htm",
-        "file": "2026-06-12-8-K-d112031d8k.htm.txt",
-        "chars": 5091,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-12",
-        "items": "8.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526268548/mfin-20260611.htm",
-        "file": "2026-06-12-8-K-mfin-20260611.htm.txt",
-        "chars": 2778,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-12",
-        "items": "5.02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526268547/mfin-20260611.htm",
-        "file": "2026-06-12-8-K-mfin-20260611.htm.txt",
-        "chars": 3264,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-10",
-        "items": "8.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526265140/d118436d8k.htm",
-        "file": "2026-06-10-8-K-d118436d8k.htm.txt",
-        "chars": 2953,
-        "truncated": false
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-04",
-        "items": "8.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000209/000119312526256549/mfin-20260603.htm",
-        "file": "2026-06-04-8-K-mfin-20260603.htm.txt",
-        "chars": 2954,
-        "truncated": false
-      }
-    ]
+  "fetched_utc": "2026-09-02T02:02:49+00:00",
+  "requested": "url",
+  "url": {
+    "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001000209/us-gaap/StockholdersEquity.json",
+    "content_type": "application/json",
+    "file": "StockholdersEquity.json.txt",
+    "chars": 9042,
+    "truncated": false
   }
 }

@@ -4,7 +4,7 @@ yfinance is the free/keyless source. Direct Yahoo REST returns 429 without a coo
 so we always go through the library, and we download in bulk (hundreds of tickers per call)
 rather than per-name.
 """
-import math, datetime as dt
+import math, time, datetime as dt
 from zoneinfo import ZoneInfo
 import pandas as pd
 import config
@@ -18,7 +18,9 @@ def download_closes(tickers, period="2y"):
     Missing/delisted names simply come back as all-NaN columns."""
     import yfinance as yf
     frames = []
-    syms = list(dict.fromkeys(list(tickers) + [BENCH]))
+    # SPX rides along so the IWM-vs-SPX scalar can be measured from the same history,
+    # which is what makes a Yahoo beta comparable to the ones we regress ourselves.
+    syms = list(dict.fromkeys(list(tickers) + [BENCH, config.BETA_SPX]))
     for i in range(0, len(syms), _CHUNK):
         chunk = syms[i:i + _CHUNK]
         df = yf.download(chunk, period=period, interval="1d", progress=False,
@@ -93,6 +95,64 @@ def beta(stock_closes, bench_closes, weeks=config.BETA_LOOKBACK_WEEKS):
     if raw < lo or raw > hi:
         return min(max(raw, lo), hi), round(r2, 3), f"clamped_from_{raw:.2f}"
     return raw, round(r2, 3), None
+
+
+def yahoo_beta(symbol):
+    """Yahoo's own published beta for one ticker, or None.
+
+    Raises nothing useful to distinguish "no beta" from "request failed", so the caller
+    treats both the same: fall through to the next source in the chain.
+    """
+    import yfinance as yf
+    info = yf.Ticker(symbol).info or {}
+    for key in ("beta", "beta3Year", "beta5Year"):
+        v = info.get(key)
+        if isinstance(v, (int, float)) and math.isfinite(v) and -5 < v < 10:
+            return float(v)
+    return None
+
+
+def yahoo_betas(symbols, scale=None, pause=0.2,
+                budget_s=config.BETA_YAHOO_BUDGET_SECONDS, log=print):
+    """Yahoo betas for the names our own regression could not measure.
+
+    RESCALED, not used raw. Yahoo publishes beta against the S&P 500 on five years of
+    monthly returns; every beta in this engine is against IWM on 104 weeks of weekly
+    returns, and the discount rate is built on the IWM convention. Those are not the same
+    number: IWM is itself high-beta against the S&P, so a small cap's beta against the
+    S&P is systematically HIGHER than its beta against IWM. Mixing them raw would hand
+    the most uncertain names in the universe an inflated cost of equity.
+
+    The correction is one division. If b = beta(stock, SPX) and k = beta(IWM, SPX), then
+    beta(stock, IWM) is approximately b / k. `scale` is k, measured from the same
+    downloaded price history by the same regression, so the rescaled figure lands on the
+    same convention as everything else. Without a usable k the raw value is returned and
+    labelled as raw, so the difference is visible rather than silent.
+    """
+    out, misses, t0 = {}, 0, time.time()
+    usable_scale = (scale if (scale and math.isfinite(scale) and 0.5 < scale < 2.5)
+                    else None)
+    if scale is not None and usable_scale is None:
+        log(f"[prices] IWM-vs-SPX scalar {scale} is implausible — Yahoo betas kept raw")
+    for i, s in enumerate(symbols, 1):
+        if time.time() - t0 > budget_s:
+            log(f"[prices] yahoo beta budget reached at {i}/{len(symbols)}")
+            break
+        try:
+            b = yahoo_beta(s)
+        except Exception:
+            b = None
+        if b is None:
+            misses += 1
+        else:
+            out[s] = {"beta": (b / usable_scale) if usable_scale else b,
+                      "raw": b,
+                      "source": "yahoo_rescaled" if usable_scale else "yahoo_raw"}
+        time.sleep(pause)
+    log(f"[prices] yahoo betas: {len(out)} found, {misses} unavailable "
+        f"({time.time()-t0:.0f}s)"
+        + (f", rescaled by IWM-vs-SPX beta {usable_scale:.2f}" if usable_scale else ""))
+    return out
 
 
 def risk_free_rate():
@@ -239,6 +299,29 @@ def build_quotes(tickers, names=None):
             "dollar_volume_5d": dv5,
             "volume_ratio": vratio,
             "beta": b, "beta_r2": br2, "beta_note": bnote,
+            "beta_source": "regression" if b is not None else None,
             "yahoo_symbol": remap.get(t, t),
         })
+
+    # Second pass: Yahoo's own beta for the names our regression could not measure.
+    # 286 of 1,956 on 2026-08-31. Only those — a name with a working regression keeps it,
+    # because that estimate is on the benchmark and frequency the discount rate assumes.
+    missing_beta = [r["ticker"] for r in rows if r.get("beta") is None]
+    if missing_beta and bench is not None:
+        scale = None
+        if config.BETA_SPX in closes:
+            scale, s_r2, s_note = beta(closes[BENCH], closes[config.BETA_SPX])
+            print(f"[prices] IWM vs {config.BETA_SPX}: beta {scale} "
+                  f"(R²={s_r2}, {s_note or 'ok'})", flush=True)
+        print(f"[prices] {len(missing_beta)} names have no usable regression beta — "
+              f"asking Yahoo for up to {config.BETA_YAHOO_MAX_LOOKUPS}", flush=True)
+        found = yahoo_betas([remap.get(t, t) for t in
+                             missing_beta[:config.BETA_YAHOO_MAX_LOOKUPS]], scale=scale)
+        for r in rows:
+            hit = found.get(remap.get(r["ticker"], r["ticker"]))
+            if hit and r.get("beta") is None:
+                r["beta"] = hit["beta"]
+                r["beta_source"] = hit["source"]
+                r["beta_yahoo_raw"] = hit["raw"]
+                r["beta_note"] = f"{r.get('beta_note') or 'no_regression'}; {hit['source']}"
     return pd.DataFrame(rows), closes

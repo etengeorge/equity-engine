@@ -33,14 +33,30 @@ def _synthetic_spread(coverage):
     return 0.1800
 
 
-def cost_of_capital(fund, price, beta, beta_note, rf):
-    """WACC with an explicit reliability verdict. An unreliable beta is replaced by 1.0
-    and flagged rather than silently used."""
+def cost_of_capital(fund, price, beta, beta_note, rf, sector_beta=None,
+                    beta_source=None):
+    """WACC with an explicit reliability verdict. An unmeasurable beta falls back to the
+    median of the name's own sector rather than to a flat 1.0, and says which it used.
+
+    A flat 1.0 was wrong at both ends of this universe: utilities regress to a 0.44
+    median and health care to 1.24, so the old default overstated a utility's cost of
+    equity by roughly 300bp and understated a biotech's by 130bp. The sector median is
+    measured on the same benchmark (IWM) and the same 104-week window as every other
+    beta here, which is what makes it comparable; an externally sourced beta computed
+    against a different index on monthly data would not be.
+    """
     flags = []
     erp, tax = config.EQUITY_RISK_PREMIUM, config.MARGINAL_TAX_RATE
+    # A supplied beta carries its own provenance: it may already be Yahoo's, rescaled
+    # onto the IWM convention by prices.yahoo_betas. Only an absent beta falls through.
+    beta_source = beta_source or "regression"
     if not _fin(beta):
-        beta = 1.0
-        flags.append(f"beta_defaulted_to_1.0({beta_note or 'missing'})")
+        if config.BETA_FALLBACK == "sector_median" and _fin(sector_beta):
+            beta, beta_source = sector_beta, "sector_median"
+            flags.append(f"beta_from_sector_median_{beta:.2f}({beta_note or 'missing'})")
+        else:
+            beta, beta_source = 1.0, "default_1.0"
+            flags.append(f"beta_defaulted_to_1.0({beta_note or 'missing'})")
     coe = rf + beta * erp
 
     shares = fund.get("shares")
@@ -90,6 +106,7 @@ def cost_of_capital(fund, price, beta, beta_note, rf):
     return {
         "reliable": not (blocking & set(flags)),
         "rf": rf, "erp": erp, "tax_rate": tax, "beta": beta,
+        "beta_source": beta_source,
         "cost_of_equity": coe, "cost_of_debt": cod, "credit": rating,
         "interest_coverage": coverage,
         "weight_equity": wE, "weight_debt": wD,
@@ -301,6 +318,168 @@ def forward_dcf(fund, price, wacc_block, growth, years=config.EXPLICIT_YEARS,
             "gap": gap, "fair_value_band": band, "flags": flags}
 
 
+# --- multiples: the second opinion, and the only one for cash-burning names ---
+def multiple_inputs(fund):
+    """The denominators a comparables valuation needs, from the same committed extract.
+
+    EBITDA is built as EBIT + D&A rather than taken from a tag, because almost nobody
+    tags EBITDA -- it is a non-GAAP construction and the SEC does not require it.
+    """
+    ebit = fund.get("ebit")
+    da_s = fund.get("dep_amort_series") or []
+    da = da_s[0] if da_s else fund.get("dep_amort")
+    ebitda = (ebit + da) if _fin(ebit, da) else None
+    rev_s = fund.get("revenue_series") or []
+    rev = rev_s[0] if rev_s else None
+    gp_s = fund.get("gross_profit_series") or []
+    gp = gp_s[0] if gp_s else None
+    eq = fund.get("equity_now")
+    if not _fin(eq):
+        eq_s = fund.get("equity_series") or []
+        eq = eq_s[0] if eq_s else None
+    tce = None
+    if _fin(eq):
+        tce = (eq - (fund.get("goodwill") or 0.0) - (fund.get("intangibles") or 0.0)
+               - (fund.get("preferred") or 0.0) - (fund.get("minority_interest") or 0.0))
+    return {"ebitda": ebitda, "revenue": rev, "gross_profit": gp,
+            "tangible_common_equity": tce, "dep_amort": da}
+
+
+def observed_multiples(fund, price):
+    """What this name actually trades at today. Negative denominators return None: a
+    negative EV/EBITDA is not a cheap multiple, it is an undefined one."""
+    ev, mktcap = enterprise_value(fund, price)
+    m = multiple_inputs(fund)
+    out = {"enterprise_value": ev, "market_cap": mktcap, **m}
+    def _r(num, den):
+        return (num / den) if (_fin(num, den) and den > 0) else None
+    out["ev_ebitda"] = _r(ev, m["ebitda"])
+    out["ev_sales"] = _r(ev, m["revenue"])
+    out["ev_gross_profit"] = _r(ev, m["gross_profit"])
+    out["p_tbv"] = _r(mktcap, m["tangible_common_equity"])
+    return out
+
+
+def _quartiles(xs):
+    xs = sorted(x for x in xs if _fin(x) and x > 0)
+    if len(xs) < config.MULTIPLE_MIN_COHORT:
+        return None
+    def q(p):
+        i = p * (len(xs) - 1)
+        lo, hi = int(math.floor(i)), int(math.ceil(i))
+        return xs[lo] + (xs[hi] - xs[lo]) * (i - lo)
+    return {"n": len(xs), "p25": q(0.25), "median": q(0.50), "p75": q(0.75)}
+
+
+def multiple_valuation(fund, price, cohort_multiples):
+    """Value a name against what its own sector cohort actually pays.
+
+    This exists because "a DCF cannot value this" and "this is worthless" are different
+    claims, and the engine was collapsing them. A company burning cash while it builds
+    something -- a clinical-stage biotech, a data-centre developer -- has a real value
+    that the market expresses as a multiple of revenue, gross profit or capacity. The
+    honest output is a RANGE across the cohort's interquartile spread, never a point
+    estimate: a comparables valuation is a statement about the cohort, and reporting a
+    single number from it would claim a precision it does not have.
+
+    `cohort_multiples` is {metric: [observed values from the same (method, sector)]}.
+    """
+    obs = observed_multiples(fund, price)
+    shares = fund.get("shares")
+    if not _fin(shares, price) or shares <= 0 or price <= 0:
+        return {"ok": False, "flags": ["no_share_count_or_price"]}
+    net_debt = ((fund.get("total_debt") or 0.0) + (fund.get("preferred") or 0.0)
+                + (fund.get("minority_interest") or 0.0)
+                - (fund.get("cash") or 0.0) - (fund.get("short_term_investments") or 0.0))
+
+    rows, flags = [], []
+    for metric in config.MULTIPLE_METRICS:
+        stats = _quartiles(cohort_multiples.get(metric) or [])
+        if not stats:
+            continue
+        den = {"ev_ebitda": obs["ebitda"], "ev_sales": obs["revenue"],
+               "ev_gross_profit": obs["gross_profit"],
+               "p_tbv": obs["tangible_common_equity"]}[metric]
+        if not _fin(den) or den <= 0:
+            continue
+        vals = {}
+        for label in ("p25", "median", "p75"):
+            if metric == "p_tbv":
+                vals[label] = stats[label] * den / shares          # equity multiple
+            else:
+                vals[label] = (stats[label] * den - net_debt) / shares
+        # A negative implied equity value is information, not an error: it says the
+        # cohort multiple applied to this denominator does not cover the debt.
+        rows.append({"metric": metric, "cohort_n": stats["n"],
+                     "cohort_p25": stats["p25"], "cohort_median": stats["median"],
+                     "cohort_p75": stats["p75"],
+                     "own_multiple": obs.get(metric), "denominator": den,
+                     "value_low": vals["p25"], "value_mid": vals["median"],
+                     "value_high": vals["p75"],
+                     "gap_at_median": (vals["median"] / price - 1.0) if price else None})
+    if not rows:
+        return {"ok": False, "flags": ["no_usable_multiple_for_this_name"],
+                "observed": obs}
+    mids = [r["value_mid"] for r in rows if _fin(r["value_mid"])]
+    blended = _mean(mids)
+    if any(r["denominator"] and r["metric"] == "ev_sales" for r in rows) and len(rows) == 1:
+        flags.append("only_ev_sales_available_widest_and_least_reliable_multiple")
+    if _fin(obs.get("ebitda")) and obs["ebitda"] <= 0:
+        flags.append("negative_ebitda_valued_on_revenue_or_gross_profit_only")
+    return {"ok": True, "method": "multiples", "rows": rows,
+            "blended_value": blended, "price": price,
+            "gap": (blended / price - 1.0) if (blended and price) else None,
+            "observed": obs, "flags": flags}
+
+
+# --- scenarios: the same thesis priced three ways, across the discount rate ---
+def scenario_table(fund, price, wacc_block, cases, fcff_base=None,
+                   wacc_steps=config.SCENARIO_WACC_STEPS):
+    """Bear / base / bull growth crossed with a range of discount rates.
+
+    Two variables move a DCF far more than anything else: the growth you assume and the
+    rate you discount at. Reporting one cell of that grid as "fair value" hides how much
+    of the answer is the assumption. This returns the whole surface, so the output is a
+    range of outcomes with named drivers rather than a single number.
+
+    `cases` is {"bear": g, "base": g, "bull": g}; any may be None and is skipped.
+    """
+    if not wacc_block.get("reliable"):
+        return {"ok": False, "flags": wacc_block.get("flags", [])}
+    base_fcff = fcff_base if _fin(fcff_base) else normalized_fcff(fund)["value"]
+    if not _fin(base_fcff) or base_fcff <= 0 or not _fin(price) or price <= 0:
+        return {"ok": False, "flags": ["nonpositive_fcff_base_or_price"]}
+    w0 = wacc_block["wacc"]
+    grid, summary = [], {}
+    for case in ("bear", "base", "bull"):
+        g = cases.get(case)
+        if not _fin(g):
+            continue
+        row = {"case": case, "growth": g, "cells": []}
+        for step in wacc_steps:
+            w = w0 + step
+            if w <= config.TERMINAL_GROWTH:
+                row["cells"].append({"wacc": w, "fair_value": None, "gap": None,
+                                     "note": "wacc_at_or_below_terminal_growth"})
+                continue
+            fv = equity_value_per_share(ev_from_growth(base_fcff, g, w), fund)
+            row["cells"].append({"wacc": w, "fair_value": fv,
+                                 "gap": (fv / price - 1.0) if _fin(fv) else None})
+        at_point = next((c for c in row["cells"] if abs(c["wacc"] - w0) < 1e-9), None)
+        row["fair_value_at_point_wacc"] = at_point["fair_value"] if at_point else None
+        row["gap_at_point_wacc"] = at_point["gap"] if at_point else None
+        summary[case] = row["gap_at_point_wacc"]
+        grid.append(row)
+    if not grid:
+        return {"ok": False, "flags": ["no_scenario_growth_rates_supplied"]}
+    finite = [c["gap"] for r in grid for c in r["cells"] if _fin(c.get("gap"))]
+    return {"ok": True, "wacc_point": w0, "wacc_steps": list(wacc_steps),
+            "fcff_base_used": base_fcff, "price": price, "grid": grid,
+            "summary": summary,
+            "downside": min(finite) if finite else None,
+            "upside": max(finite) if finite else None}
+
+
 # --- financials: residual income instead of FCFF -----------------------------
 def justified_pb(fund, price, wacc_block, roe_override=None,
                  g=config.TERMINAL_GROWTH):
@@ -344,8 +523,8 @@ def justified_pb(fund, price, wacc_block, roe_override=None,
     nci = fund.get("minority_interest") or 0.0
     pref_now = fund.get("preferred") or 0.0
     if eq_concept is None and nci > 0:
-        # Pre-schema-2 extract: we cannot tell, so we do not guess. Say so rather than
-        # applying a correction that is right for one filer and wrong for the next.
+        # Extract predates EXTRACT_VERSION 3: we cannot tell, so we do not guess. Say so
+        # rather than applying a correction right for one filer and wrong for the next.
         flags.append("nci_treatment_unverified_equity_concept_not_recorded")
     deduct_nci = nci if eq_concept in _NCI_INSIDE else 0.0
 
