@@ -690,7 +690,9 @@ _STORE = None
 # 4: convertible reads anchored to the balance-sheet date, so a repaid tranche whose
 #    concept simply stopped being filed no longer counts. v3 extracts carry inflated
 #    debt for those filers (Silicon Labs: $1,059.7M against a true $529.6M).
-EXTRACT_VERSION = 4
+# 5: that anchor also accepts the latest fiscal year end, so a filer that breaks the
+#    convertible out only in its 10-K keeps it. v4 extracts drop live debt for those.
+EXTRACT_VERSION = 5
 
 
 def _store_path():
