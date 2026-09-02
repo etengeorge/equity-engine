@@ -86,21 +86,43 @@ def _facts(**concepts):
 def test_convertible_debt_is_not_invisible():
     """Teladoc reported $42.4M of total debt against $996.7M of convertible notes.
 
-    The generic LongTermDebt* aliases return nothing for a filer that carries its notes
-    under a Convertible* concept, and missing debt understates EV, understates the growth
-    the market implies and widens the gap UPWARD — so it manufactures false buys.
+    The generic LongTermDebt* aliases return nothing for a filer carrying its notes under
+    a Convertible* concept, and missing debt understates EV, understates the growth the
+    market implies and widens the gap UPWARD — so it manufactures false buys.
+
+    Built from Teladoc's ACTUAL tagging, checked against companyconcept rather than
+    guessed: us-gaap:ConvertibleDebtCurrent, $996,700,000 at 2026-06-30, matching the
+    10-Q. The first draft of this fix guessed ConvertibleNotesPayableCurrent, which
+    Teladoc returns 404 for — it would not have fixed the name it was written for.
+
+    Note the 10-K reads ZERO (the notes were still non-current at 2025-12-31) and only
+    the 10-Q carries the figure, so this works only because the convertible buckets go
+    through _latest_instant. An annual-only read returns 0 and the bug survives.
     """
     import edgar
-    # a convertible-only issuer: nothing in the LongTermDebt* family at all
-    f = _facts(ConvertibleNotesPayableCurrent=996_700_000, DebtCurrent=42_424_000)
-    v, _, _ = edgar._latest(f, "convertible_current")
-    check("convertible concept is extracted at all", v == 996_700_000, f"got {v}")
+    facts = {"facts": {"us-gaap": {
+        "ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2025-12-31", "val": 0, "form": "10-K", "fy": 2025, "fp": "FY"},
+            {"end": "2026-06-30", "val": 996_700_000, "form": "10-Q", "fy": 2026, "fp": "Q2"},
+        ]}},
+        "DebtCurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 42_424_000, "form": "10-Q", "fy": 2026, "fp": "Q2"},
+        ]}},
+    }}}
+    conv, concept, end, _ = edgar._latest_instant(facts, "convertible_current")
+    check("the concept Teladoc actually uses is covered",
+          concept == "ConvertibleDebtCurrent" and conv == 996_700_000,
+          f"got {concept}={conv}")
+    check("the 10-Q value wins over the 10-K zero", end == "2026-06-30", end)
 
-    # and the whole point: it must survive into total_debt
-    conv, _, _ = edgar._latest(f, "convertible_current")
-    cur, _, _ = edgar._latest(f, "debt_current")
+    cur, _, _, _ = edgar._latest_instant(facts, "debt_current")
     check("convertible reaches total debt", max(conv or 0, cur or 0) == 996_700_000,
           "a $996.7M convertible must not be reported as $42.4M of debt")
+
+    # the annual-only read is what the bug looked like
+    old, _, _ = edgar._latest(facts, "convertible_current")
+    check("an annual-only read would still miss it", old == 0,
+          f"got {old} — if this changes, _latest_instant is no longer load-bearing here")
 
 
 def test_convertible_debt_is_not_double_counted():
@@ -111,9 +133,9 @@ def test_convertible_debt_is_not_double_counted():
     """
     import edgar
     f = _facts(LongTermDebtNoncurrent=1_500_000_000,
-               ConvertibleNotesPayableNoncurrent=1_000_000_000)
-    lt, _, _ = edgar._latest(f, "total_debt")
-    conv, _, _ = edgar._latest(f, "convertible_noncurrent")
+               ConvertibleDebtNoncurrent=1_000_000_000)
+    lt, _, _, _ = edgar._latest_instant(f, "total_debt")
+    conv, _, _, _ = edgar._latest_instant(f, "convertible_noncurrent")
     total = max(lt or 0, conv or 0)
     check("no double count when both are tagged", total == 1_500_000_000,
           f"got {total:,.0f}; summing would give 2,500,000,000 of imaginary debt")
