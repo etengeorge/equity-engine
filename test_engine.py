@@ -185,6 +185,60 @@ def test_repaid_convertibles_do_not_haunt_the_balance_sheet():
           not edgar._within_days("2026-03-31", anchor, 35), "")
 
 
+def test_convertible_lifecycle_end_to_end():
+    """The gate must reject dead tranches WITHOUT dropping live ones.
+
+    Rejecting too eagerly lands straight back on the bug being fixed, because not every
+    filer breaks the convertible out in every 10-Q — some tag it only in the annual
+    report. So a value is current enough if it sits on the latest balance sheet OR on
+    the most recent fiscal year end.
+
+    All four rows are real patterns: Teladoc tags it every quarter; Glaukos' tranche
+    fell $283M -> $56.8M on conversion and stopped at 2024-09-30; Silicon Labs' stopped
+    at 2023-04-01.
+    """
+    import edgar
+    real = edgar.company_facts
+
+    def debt_for(extra):
+        base = {
+            "LongTermDebtNoncurrent": {"units": {"USD": [
+                {"end": "2026-06-30", "val": 6_078_000, "form": "10-Q"}]}},
+            "CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+                {"end": "2026-06-30", "val": 400_000_000, "form": "10-Q"}]}},
+            "StockholdersEquity": {"units": {"USD": [
+                {"end": "2025-12-31", "val": 1e9, "form": "10-K", "fy": 2025, "fp": "FY"},
+                {"end": "2026-06-30", "val": 1e9, "form": "10-Q"}]}},
+        }
+        base.update(extra)
+        edgar.company_facts = lambda cik, **kw: {"facts": {"us-gaap": base}}
+        d = edgar.fundamentals(1)
+        return d["total_debt"], any("Convertible" in c for c in d["source"]["debt"])
+
+    try:
+        v, counted = debt_for({"ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2026-06-30", "val": 996_700_000, "form": "10-Q"}]}}})
+        check("live quarterly convertible counts", counted and v == 1_002_778_000, f"{v}")
+
+        v, counted = debt_for({"ConvertibleDebtNoncurrent": {"units": {"USD": [
+            {"end": "2025-12-31", "val": 300_000_000, "form": "10-K"}]}}})
+        check("convertible tagged only in the latest 10-K still counts",
+              counted and v == 300_000_000,
+              f"{v} — rejecting this reinstates the understatement being fixed")
+
+        v, counted = debt_for({"ConvertibleLongTermNotesPayable": {"units": {"USD": [
+            {"end": "2024-09-30", "val": 56_759_000, "form": "10-Q"}]}}})
+        check("a tranche gone before the last year end is dropped",
+              not counted and v == 6_078_000, f"{v}")
+
+        v, counted = debt_for({"ConvertibleDebtCurrent": {"units": {"USD": [
+            {"end": "2023-04-01", "val": 530_096_000, "form": "10-Q"}]}}})
+        check("a three-year-dead tranche is dropped", not counted and v == 6_078_000,
+              f"{v} — this inflated Silicon Labs to $1,059.7M")
+    finally:
+        edgar.company_facts = real
+
+
 def test_understated_debt_is_flagged():
     """A company cannot pay 25%+ interest on its debt. When it appears to, the debt is
     missing — the backstop for high-coupon versions of the convertible bug.

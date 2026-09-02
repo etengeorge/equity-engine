@@ -331,7 +331,7 @@ def fundamentals(cik):
     sbc, _, _ = _series(f, "sbc", config.FCFF_YEARS)
     ni, ni_c, _ = _series(f, "net_income", 3)
     ni_common, ni_common_c, _ = _series(f, "net_income_common", 3)
-    eq, eq_c, _ = _series(f, "equity", 3)
+    eq, eq_c, eq_annual_end = _series(f, "equity", 3)
     # Balance sheet from the newest filing of ANY form -- see _latest_instant.
     debt_lt, debt_lt_c, debt_end, debt_form = _latest_instant(f, "total_debt")
     debt_cur, debt_cur_c, dc_end, _ = _latest_instant(f, "debt_current")
@@ -354,11 +354,28 @@ def fundamentals(cik):
     # So: anchor on the balance-sheet date of the items that ARE always reported, and
     # ignore any convertible read older than that. 35 days of tolerance because the
     # pieces of one balance sheet share an instant but a filer can tag an odd one.
+    #
+    # Second chance at the latest fiscal year end, because not every filer tags every
+    # balance-sheet line in every 10-Q -- some break the convertible out only in the
+    # annual report. Without this the gate would drop live debt and land back on the
+    # original understatement, which is the failure being fixed. A tranche still on the
+    # most recent 10-K is live enough to count; one that vanished before it is not
+    # (Silicon Labs last tagged 2023-04-01 against a 2026-01-03 year end; Glaukos
+    # 2024-09-30 against 2025-12-31, having already fallen $283M -> $56.8M on
+    # conversion). Both are still rejected.
     anchor = max([d for d in (debt_end, dc_end, cash_end, eq_end) if d], default=None)
+
+    def _current_enough(end):
+        if not end:
+            return True
+        if anchor and _within_days(end, anchor, 35):
+            return True
+        return bool(eq_annual_end) and _within_days(end, eq_annual_end, 35)
+
     if anchor:
-        if conv_lt_end and not _within_days(conv_lt_end, anchor, 35):
+        if not _current_enough(conv_lt_end):
             conv_lt, conv_lt_c = None, None
-        if conv_cur_end and not _within_days(conv_cur_end, anchor, 35):
+        if not _current_enough(conv_cur_end):
             conv_cur, conv_cur_c = None, None
     # max, deliberately, not sum. A filer that tags LongTermDebtNoncurrent is reporting
     # TOTAL long-term debt there, convertibles included, so adding the separately-tagged
