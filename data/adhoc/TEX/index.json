@@ -1,0 +1,192 @@
+{
+  "fetched_utc": "2026-09-02T11:44:58+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "TEX",
+    "cik": 97216,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000130/tex-20260730.htm",
+        "file": "2026-08-03-8-K-tex-20260730.htm.txt",
+        "chars": 3121,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-31",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/tex-20260731.htm",
+        "file": "2026-07-31-8-K-tex-20260731.htm.txt",
+        "chars": 4495,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000116/tex-20260630.htm",
+        "file": "2026-07-30-10-Q-tex-20260630.htm.txt",
+        "chars": 171743,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000112/tex-20260730.htm",
+        "file": "2026-07-30-8-K-tex-20260730.htm.txt",
+        "chars": 3298,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-21",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000107/tex-20260720.htm",
+        "file": "2026-07-21-8-K-tex-20260720.htm.txt",
+        "chars": 3271,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-30",
+        "items": "5.02,5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000105/tex-20260625.htm",
+        "file": "2026-06-30-8-K-tex-20260625.htm.txt",
+        "chars": 6310,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000082/tex-20260501.htm",
+        "file": "2026-05-05-8-K-tex-20260501.htm.txt",
+        "chars": 3110,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-01",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000080/tex-20260331.htm",
+        "file": "2026-05-01-10-Q-tex-20260331.htm.txt",
+        "chars": 138033,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 PREPARED REMARKS Q2 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000130/aexh99_120260730q2prepared.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 17819,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-31",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 PRO FORMA FINANCIALS",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/exhibit991-revgroupq12026x.htm",
+        "file": "2026-07-31-EX-99.1.txt",
+        "chars": 44899,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-31",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2 REV GROUP, INC. Q1 2026 FINANCIALS",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000124/exhibit992-texxrevproforma.htm",
+        "file": "2026-07-31-EX-99.2.txt",
+        "chars": 22197,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 EARNINGS RELEASE OF TEREX CORPORATION DATED JULY 30, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000112/terexearningsreleaseexq2-26.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 37690,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-21",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 ER CALL DATE PRESS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000107/exh99_1072026pressreleasee.htm",
+        "file": "2026-07-21-EX-99.1.txt",
+        "chars": 2118,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 Q1 2026 PREPARED REMARKS",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/97216/000009721626000082/exh99_105012026q12026ercal.htm",
+        "file": "2026-05-05-EX-99.1.txt",
+        "chars": 18192,
+        "truncated": false
+      }
+    ]
+  }
+}

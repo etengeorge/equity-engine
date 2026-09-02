@@ -1,0 +1,160 @@
+{
+  "fetched_utc": "2026-09-02T11:45:11+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CTOS",
+    "cik": 1709682,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-03",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000040/ctos-20260630.htm",
+        "file": "2026-08-03-10-Q-ctos-20260630.htm.txt",
+        "chars": 138869,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000039/ctos-20260803.htm",
+        "file": "2026-08-03-8-K-ctos-20260803.htm.txt",
+        "chars": 4386,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000034/ctos-20260611.htm",
+        "file": "2026-06-11-8-K-ctos-20260611.htm.txt",
+        "chars": 3691,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-27",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000018/ctos-20260331.htm",
+        "file": "2026-04-27-10-Q-ctos-20260331.htm.txt",
+        "chars": 120679,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-27",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000017/ctos-20260427.htm",
+        "file": "2026-04-27-8-K-ctos-20260427.htm.txt",
+        "chars": 4387,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-25",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000010/ctos-20260325.htm",
+        "file": "2026-03-25-8-K-ctos-20260325.htm.txt",
+        "chars": 3755,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000008/ctos-20251231.htm",
+        "file": "2026-03-10-10-K-ctos-20251231.htm.txt",
+        "chars": 379884,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-10",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000006/ctos-20260310.htm",
+        "file": "2026-03-10-8-K-ctos-20260310.htm.txt",
+        "chars": 4408,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000039/ex991q22026pressrelease.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 48314,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-27",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000017/ex991q12026pressrelease.htm",
+        "file": "2026-04-27-EX-99.1.txt",
+        "chars": 43896,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-25",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000010/ex99132526-ctosrexsegmenta.htm",
+        "file": "2026-03-25-EX-99.1.txt",
+        "chars": 1922,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-10",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000006/ex991q4-2025pressrelease.htm",
+        "file": "2026-03-10-EX-99.1.txt",
+        "chars": 44367,
+        "truncated": false
+      }
+    ]
+  }
+}

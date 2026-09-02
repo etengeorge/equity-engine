@@ -1,0 +1,2254 @@
+0000097216 12/31 2026 Q1 false P1Y P1Y P1Y 33.33 33.33 33.33 100.00 100.00 P3Y P3Y P3Y 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure tex:customer tex:segments 0000097216 2026-01-01 2026-03-31 0000097216 2026-04-28 0000097216 2025-01-01 2025-03-31 0000097216 us-gaap:RetainedEarningsMember 2026-01-01 2026-03-31 0000097216 2026-03-31 0000097216 2025-12-31 0000097216 us-gaap:CommonStockMember 2025-12-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0000097216 us-gaap:RetainedEarningsMember 2025-12-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-12-31 0000097216 us-gaap:TreasuryStockCommonMember 2025-12-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-01 2026-03-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-03-31 0000097216 us-gaap:CommonStockMember 2026-01-01 2026-03-31 0000097216 us-gaap:TreasuryStockCommonMember 2026-01-01 2026-03-31 0000097216 us-gaap:CommonStockMember 2026-03-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2026-03-31 0000097216 us-gaap:RetainedEarningsMember 2026-03-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-03-31 0000097216 us-gaap:TreasuryStockCommonMember 2026-03-31 0000097216 us-gaap:CommonStockMember 2024-12-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0000097216 us-gaap:RetainedEarningsMember 2024-12-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-31 0000097216 us-gaap:TreasuryStockCommonMember 2024-12-31 0000097216 2024-12-31 0000097216 us-gaap:RetainedEarningsMember 2025-01-01 2025-03-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-01-01 2025-03-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-03-31 0000097216 us-gaap:CommonStockMember 2025-01-01 2025-03-31 0000097216 us-gaap:TreasuryStockCommonMember 2025-01-01 2025-03-31 0000097216 us-gaap:CommonStockMember 2025-03-31 0000097216 us-gaap:AdditionalPaidInCapitalMember 2025-03-31 0000097216 us-gaap:RetainedEarningsMember 2025-03-31 0000097216 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-31 0000097216 us-gaap:TreasuryStockCommonMember 2025-03-31 0000097216 2025-03-31 0000097216 srt:RestatementAdjustmentMember tex:CustomerRelationshipsAndTradeNamesMember 2025-01-01 2025-03-31 0000097216 tex:REVGroupInc.AcquisitionMember 2026-02-02 0000097216 us-gaap:TradeAccountsReceivableMember 2026-03-31 0000097216 us-gaap:TradeAccountsReceivableMember 2025-12-31 0000097216 tex:REVGroupInc.AcquisitionMember 2026-01-01 2026-03-31 0000097216 tex:REVGroupInc.AcquisitionMember 2025-12-31 0000097216 2026-04-01 2026-03-31 0000097216 us-gaap:CurrencySwapMember us-gaap:DesignatedAsHedgingInstrumentMember us-gaap:NetInvestmentHedgingMember 2026-03-31 0000097216 us-gaap:CurrencySwapMember us-gaap:DesignatedAsHedgingInstrumentMember us-gaap:NetInvestmentHedgingMember 2025-12-31 0000097216 us-gaap:ForeignExchangeContractMember us-gaap:NondesignatedMember 2026-03-31 0000097216 us-gaap:ForeignExchangeContractMember us-gaap:NondesignatedMember 2025-12-31 0000097216 tex:SupplementalExecutiveRetirementPlansMember 2026-03-31 0000097216 tex:SupplementalExecutiveRetirementPlansMember 2025-12-31 0000097216 2027-01-01 2026-03-31 0000097216 2028-01-01 2026-03-31 0000097216 2029-01-01 2026-03-31 0000097216 tex:AerialsAndUtilitiesOperatingSegementsMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:IntersegmentEliminationMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:EnvironmentalSolutionsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:MaterialsProcessingSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:AerialsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:IntersegmentEliminationMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember 2025-01-01 2025-03-31 0000097216 tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember 2026-01-01 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:EnvironmentalSolutionsSegmentMember 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:EnvironmentalSolutionsSegmentMember 2025-12-31 0000097216 us-gaap:OperatingSegmentsMember tex:MaterialsProcessingSegmentMember 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:MaterialsProcessingSegmentMember 2025-12-31 0000097216 us-gaap:OperatingSegmentsMember tex:SpecialtyVehiclesSegmentMember 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:SpecialtyVehiclesSegmentMember 2025-12-31 0000097216 us-gaap:OperatingSegmentsMember tex:AerialsSegmentMember 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:AerialsSegmentMember 2025-12-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember 2025-12-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember srt:NorthAmericaMember 2026-01-01 2026-03-31 0000097216 srt:NorthAmericaMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember tex:WesternEuropeMember 2026-01-01 2026-03-31 0000097216 tex:WesternEuropeMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember srt:AsiaPacificMember 2026-01-01 2026-03-31 0000097216 srt:AsiaPacificMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember tex:OtherGeographicAreasMember 2026-01-01 2026-03-31 0000097216 tex:OtherGeographicAreasMember 2026-01-01 2026-03-31 0000097216 country:US 2026-01-01 2026-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:EnvironmentalSolutionsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:MaterialsProcessingSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:NorthAmericaMember tex:AerialsSegmentMember 2025-01-01 2025-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember srt:NorthAmericaMember 2025-01-01 2025-03-31 0000097216 srt:NorthAmericaMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:EnvironmentalSolutionsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:MaterialsProcessingSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:WesternEuropeMember tex:AerialsSegmentMember 2025-01-01 2025-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember tex:WesternEuropeMember 2025-01-01 2025-03-31 0000097216 tex:WesternEuropeMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:EnvironmentalSolutionsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:MaterialsProcessingSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember srt:AsiaPacificMember tex:AerialsSegmentMember 2025-01-01 2025-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember srt:AsiaPacificMember 2025-01-01 2025-03-31 0000097216 srt:AsiaPacificMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:EnvironmentalSolutionsSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:MaterialsProcessingSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:SpecialtyVehiclesSegmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:OperatingSegmentsMember tex:OtherGeographicAreasMember tex:AerialsSegmentMember 2025-01-01 2025-03-31 0000097216 tex:CorporateReconcilingItemsAndEliminationsMember tex:OtherGeographicAreasMember 2025-01-01 2025-03-31 0000097216 tex:OtherGeographicAreasMember 2025-01-01 2025-03-31 0000097216 country:US 2025-01-01 2025-03-31 0000097216 tex:REVGroupInc.AcquisitionMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember tex:REVGroupInc.Member 2026-02-01 0000097216 tex:REVGroupInc.AcquisitionMember 2026-02-01 0000097216 tex:REVGroupInc.AcquisitionMember tex:SpecialtyVehiclesSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:TradeNamesMember tex:REVGroupInc.AcquisitionMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:OrderOrProductionBacklogMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:OrderOrProductionBacklogMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:TradeNamesMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:TradeNamesMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:CustomerRelationshipsMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:CustomerRelationshipsMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:NoncompeteAgreementsMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:NoncompeteAgreementsMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:TechnologyBasedIntangibleAssetsMember 2026-02-02 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember us-gaap:TechnologyBasedIntangibleAssetsMember 2026-02-02 0000097216 tex:REVGroupInc.AcquisitionMember 2026-03-31 0000097216 tex:REVGroupInc.AcquisitionMember 2026-02-02 2026-03-31 0000097216 tex:REVGroupInc.AcquisitionMember 2025-01-01 2025-03-31 0000097216 us-gaap:RestrictedStockMember 2026-01-01 2026-03-31 0000097216 us-gaap:RestrictedStockMember 2025-01-01 2025-03-31 0000097216 us-gaap:LandMember 2026-03-31 0000097216 us-gaap:LandMember 2025-12-31 0000097216 us-gaap:BuildingMember 2026-03-31 0000097216 us-gaap:BuildingMember 2025-12-31 0000097216 us-gaap:MachineryAndEquipmentMember 2026-03-31 0000097216 us-gaap:MachineryAndEquipmentMember 2025-12-31 0000097216 us-gaap:LeaseholdImprovementsMember 2026-03-31 0000097216 us-gaap:LeaseholdImprovementsMember 2025-12-31 0000097216 us-gaap:ConstructionInProgressMember 2026-03-31 0000097216 us-gaap:ConstructionInProgressMember 2025-12-31 0000097216 tex:EnvironmentalSolutionsSegmentMember 2026-03-31 0000097216 tex:EnvironmentalSolutionsSegmentMember 2025-12-31 0000097216 tex:MaterialsProcessingSegmentMember 2026-03-31 0000097216 tex:MaterialsProcessingSegmentMember 2025-12-31 0000097216 tex:SpecialtyVehiclesSegmentMember 2026-03-31 0000097216 tex:SpecialtyVehiclesSegmentMember 2025-12-31 0000097216 tex:AerialsSegmentMember 2026-03-31 0000097216 tex:AerialsSegmentMember 2025-12-31 0000097216 tex:EnvironmentalSolutionsSegmentMember 2026-01-01 2026-03-31 0000097216 tex:MaterialsProcessingSegmentMember 2026-01-01 2026-03-31 0000097216 tex:AerialsSegmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:ComputerSoftwareIntangibleAssetMember 2026-03-31 0000097216 us-gaap:ComputerSoftwareIntangibleAssetMember 2025-12-31 0000097216 us-gaap:CustomerRelationshipsMember 2026-03-31 0000097216 us-gaap:CustomerRelationshipsMember 2025-12-31 0000097216 us-gaap:TradeNamesMember 2026-03-31 0000097216 us-gaap:TradeNamesMember 2025-12-31 0000097216 tex:LandUseRightsMember 2026-03-31 0000097216 tex:LandUseRightsMember 2025-12-31 0000097216 us-gaap:OrderOrProductionBacklogMember 2026-03-31 0000097216 us-gaap:OrderOrProductionBacklogMember 2025-03-31 0000097216 us-gaap:NoncompeteAgreementsMember 2026-03-31 0000097216 us-gaap:NoncompeteAgreementsMember 2025-03-31 0000097216 us-gaap:OtherIntangibleAssetsMember 2026-03-31 0000097216 us-gaap:OtherIntangibleAssetsMember 2025-12-31 0000097216 us-gaap:TradeNamesMember 2026-03-31 0000097216 us-gaap:TradeNamesMember 2025-03-31 0000097216 tex:CostOfRevenueMember 2026-01-01 2026-03-31 0000097216 tex:CostOfRevenueMember 2025-01-01 2025-03-31 0000097216 tex:SeniorNotesDue2029FivePercentMember us-gaap:SeniorNotesMember 2026-03-31 0000097216 tex:SeniorNotesDue2029FivePercentMember us-gaap:SeniorNotesMember 2025-12-31 0000097216 tex:SeniorNotesDue2032SixPointTwoFivePercentMember us-gaap:SeniorNotesMember 2024-10-08 0000097216 tex:SeniorNotesDue2032SixPointTwoFivePercentMember us-gaap:SeniorNotesMember 2026-03-31 0000097216 tex:SeniorNotesDue2032SixPointTwoFivePercentMember us-gaap:SeniorNotesMember 2025-12-31 0000097216 us-gaap:SecuredDebtMember tex:NewTermFacilityMember us-gaap:LineOfCreditMember 2026-03-31 0000097216 us-gaap:SecuredDebtMember tex:NewTermFacilityMember us-gaap:LineOfCreditMember 2025-12-31 0000097216 tex:OriginalTermLoanMember us-gaap:SeniorNotesMember 2026-03-31 0000097216 tex:OriginalTermLoanMember us-gaap:SeniorNotesMember 2025-12-31 0000097216 us-gaap:LineOfCreditMember 2026-03-31 0000097216 us-gaap:LineOfCreditMember 2025-12-31 0000097216 us-gaap:OtherDebtSecuritiesMember 2026-03-31 0000097216 us-gaap:OtherDebtSecuritiesMember 2025-12-31 0000097216 us-gaap:RevolvingCreditFacilityMember tex:NewRevolvingCreditFacilitiesMember us-gaap:LineOfCreditMember 2024-10-08 0000097216 us-gaap:SecuredDebtMember tex:NewTermFacilityMember us-gaap:LineOfCreditMember 2024-10-08 2024-10-08 0000097216 us-gaap:SecuredDebtMember tex:NewTermFacilityMember us-gaap:LineOfCreditMember 2024-10-08 0000097216 us-gaap:LetterOfCreditMember tex:LetterOfCreditFacilityMember us-gaap:LineOfCreditMember 2024-10-08 0000097216 us-gaap:LetterOfCreditMember tex:AdditionalLetterOfCreditFacilityMember us-gaap:LineOfCreditMember 2024-10-08 0000097216 us-gaap:LetterOfCreditMember tex:LetterOfCreditFacilityAndAdditionalLetterOfCreditFacilityMember us-gaap:LineOfCreditMember 2024-10-08 0000097216 us-gaap:SecuredDebtMember tex:AmendedCreditAgreementAmendmentNo.3Member us-gaap:LineOfCreditMember 2025-08-12 2025-08-12 0000097216 us-gaap:SecuredDebtMember tex:AmendedCreditAgreementAmendmentNo.3Member srt:MinimumMember us-gaap:LineOfCreditMember 2025-08-12 2025-08-12 0000097216 us-gaap:SecuredDebtMember tex:AmendedCreditAgreementAmendmentNo.3Member srt:MaximumMember us-gaap:LineOfCreditMember 2025-08-12 2025-08-12 0000097216 tex:CreditAgreementMember us-gaap:SegmentContinuingOperationsMember 2026-03-31 0000097216 tex:CreditAgreementMember us-gaap:SegmentContinuingOperationsMember 2025-12-31 0000097216 tex:AdditionalCreditAgreement2017Member us-gaap:SegmentContinuingOperationsMember 2026-03-31 0000097216 tex:AdditionalCreditAgreement2017Member us-gaap:SegmentContinuingOperationsMember 2025-12-31 0000097216 tex:BilateralArrangements2017CreditAgreementMember us-gaap:SegmentContinuingOperationsMember 2026-03-31 0000097216 tex:BilateralArrangements2017CreditAgreementMember us-gaap:SegmentContinuingOperationsMember 2025-12-31 0000097216 us-gaap:SegmentContinuingOperationsMember 2026-03-31 0000097216 us-gaap:SegmentContinuingOperationsMember 2025-12-31 0000097216 tex:SeniorNotesDue2029FivePercentMember us-gaap:SeniorNotesMember 2021-04-01 0000097216 tex:SeniorNotesDue2032SixPointTwoFivePercentMember us-gaap:SeniorNotesMember 2024-10-08 2024-10-08 0000097216 us-gaap:ForeignCountryMember tex:ItalianAgencyOfRevenueMember 2026-03-31 0000097216 us-gaap:ForeignCountryMember tex:ItalianAgencyOfRevenueMember 2025-12-31 0000097216 tex:SeniorNotesDue2029FivePercentMember us-gaap:MeasurementInputQuotedPriceMember us-gaap:SeniorNotesMember 2026-03-31 0000097216 tex:SeniorNotesDue2032SixPointTwoFivePercentMember us-gaap:MeasurementInputQuotedPriceMember us-gaap:SeniorNotesMember 2026-03-31 0000097216 us-gaap:SecuredDebtMember tex:NewTermFacilityMember us-gaap:MeasurementInputQuotedPriceMember us-gaap:LineOfCreditMember 2026-03-31 0000097216 us-gaap:SuretyBondMember 2026-03-31 0000097216 us-gaap:GuaranteeOfIndebtednessOfOthersMember 2026-03-31 0000097216 us-gaap:GuaranteeOfIndebtednessOfOthersMember 2025-12-31 0000097216 tex:RepurchaseContingentLiabilityMember 2026-01-01 2026-03-31 0000097216 tex:RepurchaseContingentLiabilityMember 2026-03-31 0000097216 tex:VehicleChassisOwnedByCustomerMember 2026-03-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2025-12-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2025-12-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2025-12-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2025-12-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2024-12-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2024-12-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2024-12-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2024-12-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2026-01-01 2026-03-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2026-01-01 2026-03-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2026-01-01 2026-03-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2025-01-01 2025-03-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2025-01-01 2025-03-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2025-01-01 2025-03-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2026-03-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2026-03-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2026-03-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2026-03-31 0000097216 us-gaap:AccumulatedTranslationAdjustmentMember 2025-03-31 0000097216 us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember 2025-03-31 0000097216 us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember 2025-03-31 0000097216 us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember 2025-03-31 0000097216 us-gaap:TreasuryStockCommonMember 2026-03-31 0000097216 us-gaap:RestrictedStockMember 2026-01-01 2026-03-31 0000097216 tex:RestrictedStockTimeBasedMember 2026-01-01 2026-03-31 0000097216 us-gaap:PerformanceSharesMember 2026-01-01 2026-03-31 0000097216 tex:MarketConditionAwardMember 2026-01-01 2026-03-31 0000097216 tex:MarketConditionAwardMember tex:AwardDateMarchEightTwoThousandEighteenMember 2026-03-15 2026-03-15 0000097216 tex:MarketConditionAwardMember 2026-03-15 2026-03-15 0000097216 2022-12-19 0000097216 2025-07-31 0000097216 tex:SharerepurchaseprogramapprovedbyBoardofDirectorsMember 2026-01-01 2026-03-31 0000097216 tex:SharerepurchaseprogramapprovedbyBoardofDirectorsMember 2025-01-01 2025-03-31 0000097216 tex:RestrictedStockTimeBasedMember us-gaap:ShareBasedCompensationAwardTrancheOneMember 2026-01-01 2026-03-31 0000097216 tex:RestrictedStockTimeBasedMember us-gaap:ShareBasedCompensationAwardTrancheTwoMember 2026-01-01 2026-03-31 0000097216 tex:RestrictedStockTimeBasedMember us-gaap:ShareBasedCompensationAwardTrancheThreeMember 2026-01-01 2026-03-31 0000097216 us-gaap:PerformanceSharesMember us-gaap:ShareBasedCompensationAwardTrancheOneMember 2026-01-01 2026-03-31 0000097216 tex:MarketConditionAwardMember us-gaap:ShareBasedCompensationAwardTrancheOneMember 2026-01-01 2026-03-31 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ FORM 10-Q 
+
+ (Mark One) 
+
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) 
+OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended March 31, 2026 
+
+ or 
+
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15 (d) 
+OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ Commission file number 1-10702 
+
+ Terex Corporation 
+
+ (Exact name of registrant as specified in its charter) 
+
+ Delaware 34-1531521 
+
+ (State of Incorporation) (IRS Employer Identification No.) 
+
+ 301 Merritt 7, 4th Floor , Norwalk , Connecticut 06851 
+
+ (Address of principal executive offices) 
+
+ ( 203 ) 222-7170 
+
+ (Registrant’s telephone number, including area code) 
+
+ _______________________________________________________________ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class Trading Symbol(s) Name of each exchange on which registered 
+
+ Common Stock ($0.01 par value) TEX New York Stock Exchange 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+
+ Large accelerated filer 
+ ☒ 
+ Accelerated filer ☐ Non-accelerated filer ☐ 
+
+ Smaller reporting company ☐ Emerging growth company ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). 
+
+ Yes ☐ No ☒ 
+
+ Number of outstanding shares of common stock: 114.2 million as of April 28, 2026. 
+
+ The Exhibit Index begins on page 40 . 
+
+ GENERAL 
+
+ This Quarterly Report on Form 10-Q filed by Terex Corporation generally speaks as of March 31, 2026 unless specifically noted otherwise. Unless otherwise indicated, Terex Corporation, together with its consolidated subsidiaries, is hereinafter referred to as “Terex,” the “Registrant,” “us,” “we,” “our” or the “Company.” 
+
+ Forward-Looking Information 
+
+ Certain information in this Quarterly Report includes forward-looking statements (within the meaning of Section 27A of the Securities Act of 1933, Section 21E of the Securities Exchange Act of 1934 (the “Exchange Act”) and the Private Securities Litigation Reform Act of 1995) regarding future events or our future financial performance that involve certain contingencies and uncertainties, including those discussed below in the section entitled “Management’s Discussion and Analysis of Financial Condition and Results of Operations – Contingencies and Uncertainties.” In addition, when included in this Quarterly Report or in documents incorporated herein by reference, the words “may,” “expects,” “should,” “intends,” “anticipates,” “believes,” “plans,” “projects,” “estimates,” “will” and the negatives thereof and analogous or similar expressions are intended to identify forward-looking statements. However, the absence of these words does not mean that the statement is not forward-looking. We have based these forward-looking statements on current expectations and projections about future events. These statements are not guarantees of future performance. Such statements are inherently subject to a variety of risks and uncertainties that could cause actual results to differ materially from those reflected in such forward-looking statements. Such risks and uncertainties, many of which are beyond our control, include, among others: 
+
+ • we may be unable to successfully integrate acquired or merged businesses, including REV Group, Inc. (“REV”), and we may not realize the anticipated benefits of any merged or acquired business; 
+
+ • we may be unable to effectively manage our expanded operations following the completion of the recent transaction with REV; 
+
+ • potential divestitures and any retained liabilities related thereto may negatively impact our business; 
+
+ • the timing and amount of benefits from our strategic initiatives may not be as expected; 
+
+ • our industry is highly competitive and subject to pricing pressure, and we may fail to compete effectively; 
+
+ • we may experience disruptions within our dealer network; 
+
+ • the imposition of new, postponed or increased international tariffs; 
+
+ • general economic conditions, government spending priorities and the cyclical nature of markets we serve; 
+
+ • our outstanding debt and need to comply with covenants contained in our debt agreements; 
+
+ • we may be unable to generate sufficient cash flow to service our debt obligations and operate our business; 
+
+ • our access to capital markets and borrowing capacity could be limited; 
+
+ • we may face cancellations, reductions or delays in customer orders, customer breaches of purchase agreements, backlog reductions or be unable to meet customer delivery schedules; 
+
+ • currency exchange and translation risk; 
+
+ • the financial condition of customers and dealers and their continued access to capital; 
+
+ • exposure from providing credit support for some of our customers and dealers; 
+
+ • we may experience losses in excess of recorded reserves; 
+
+ • our common stock may be affected by factors different from those previously, and may decline as a result of the transaction with REV; 
+
+ • political, economic and other risks that arise from operating a multinational business; 
+
+ • changes in the availability and price of certain materials and components, which may result in supply chain disruptions; 
+
+ • consolidation within our customer base and suppliers; 
+
+ • failure of our equipment to perform as expected; 
+
+ • a material disruption to one of our significant facilities; 
+
+ • a failure of a key information technology system or a breach of our information security from increased cybersecurity threats and more sophisticated computer crime; 
+
+ • issues related to the development, deployment and use of artificial intelligence technologies in our business operations, information systems, products and services; 
+
+ • increased regulatory focus on privacy and data security issues and expanding laws; 
+
+ • product liability claims, litigation and other liabilities; 
+
+ • compliance with the United States (“U.S.”) Foreign Corrupt Practices Act, the U.K. Bribery Act and similar worldwide anti-corruption laws; 
+
+ • compliance with environmental, health and safety laws and regulations and failure to meet sustainability requirements or expectations; 
+
+ • compliance with an injunction and related obligations imposed by the U.S. Securities and Exchange Commission (“SEC”); 
+
+ • our ability to attract, develop, engage and retain qualified team members; 
+
+ • possible work stoppages and other labor matters; and 
+
+ • other factors. 
+
+ Actual events or our actual future results may differ materially from any forward-looking statement due to these and other risks, uncertainties and material factors. The forward-looking statements contained herein speak only as of the date of this Quarterly Report and the forward-looking statements contained in documents incorporated herein by reference speak only as of the date of the respective documents. We expressly disclaim any obligation or undertaking to release publicly any updates or revisions to any forward-looking statement contained or incorporated by reference in this Quarterly Report to reflect any change in our expectations with regard thereto or any change in events, conditions or circumstances on which any such statement is based. 
+
+ 2 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ Index to Quarterly Report on Form 10-Q 
+
+ For the Quarterly Period Ended March 31, 2026 
+
+ PAGE 
+
+ PART I 
+ 
+ FINANCIAL INFORMATION 
+ 
+ 4 
+
+ Item 1 
+ 
+ Financial Statements 
+ 
+ 4 
+
+ Item 2 
+ 
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+ 
+ 26 
+
+ Item 3 
+ 
+ Quantitative and Qualitative Disclosures About Market Risk 
+ 
+ 38 
+
+ Item 4 
+ 
+ Controls and Procedures 
+ 
+ 38 
+
+ PART II 
+ 
+ OTHER INFORMATION 
+ 
+ 39 
+
+ Item 1 
+ 
+ Legal Proceedings 
+ 
+ 39 
+
+ Item 1A 
+ 
+ Risk Factors 
+ 
+ 39 
+
+ Item 2 
+ 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 
+ 39 
+
+ Item 3 
+ 
+ Defaults Upon Senior Securities 
+ 
+ 39 
+
+ Item 4 
+ 
+ Mine Safety Disclosures 
+ 
+ 39 
+
+ Item 5 
+ 
+ Other Information 
+ 
+ 39 
+
+ Item 6 
+ 
+ Exhibits 
+ 
+ 40 
+
+ SIGNATURES 
+ 
+ 41 
+
+ 3 
+
+ PART I. FINANCIAL INFORMATION 
+
+ ITEM 1. 
+ FINANCIAL STATEMENTS 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE (LOSS) INCOME 
+
+ (unaudited) 
+
+ (in millions, except per share data) 
+
+ Three Months Ended 
+
+ March 31, 
+
+ 2026 2025 
+
+ Net sales $ 1,734 $ 1,229 
+
+ Cost of goods sold ( 1,528 ) ( 982 ) 
+
+ Gross profit 206 247 
+
+ Selling, general and administrative expenses ( 241 ) ( 161 ) 
+
+ Amortization of purchased intangibles 
+ ( 47 ) ( 17 ) 
+
+ Operating (loss) profit 
+ ( 82 ) 69 
+
+ Other income (expense) 
+
+ Interest income 4 2 
+
+ Interest expense ( 47 ) ( 43 ) 
+
+ Other expense – net 
+ ( 1 ) ( 2 ) 
+
+ (Loss) income before income taxes 
+ ( 126 ) 26 
+
+ Benefit from (provision for) income taxes 
+ 33 ( 5 ) 
+
+ (Loss) income from continuing operations 
+ ( 93 ) 21 
+
+ Gain on disposition of discontinued operations – net of tax 
+ 4 — 
+
+ Net (loss) income 
+ $ ( 89 ) $ 21 
+
+ Basic (loss) earnings per share 
+
+ (Loss) income from continuing operations 
+ $ ( 0.97 ) $ 0.32 
+
+ Gain on disposition of discontinued operations – net of tax 
+ 0.04 — 
+
+ Net (loss) income 
+ $ ( 0.93 ) $ 0.32 
+
+ Diluted (loss) earnings per share: 
+
+ (Loss) income from continuing operations 
+ $ ( 0.97 ) $ 0.31 
+
+ Gain on disposition of discontinued operations – net of tax 
+ 0.04 — 
+
+ Net (loss) income 
+ $ ( 0.93 ) $ 0.31 
+
+ Weighted average number of shares outstanding in per share calculation 
+
+ Basic 96.1 66.3 
+
+ Diluted 96.1 66.9 
+
+ Net (loss) income 
+ $ ( 89 ) $ 21 
+
+ Other comprehensive (loss) income 
+ ( 12 ) 32 
+
+ Comprehensive (loss) income 
+ $ ( 101 ) $ 53 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 4 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+
+ (unaudited) 
+
+ (in millions, except par value) 
+
+ March 31,
+2026 December 31,
+2025 
+
+ Assets 
+
+ Current assets 
+
+ Cash and cash equivalents $ 392 $ 772 
+
+ Receivables (net of allowance of $ 10 and $ 9 at March 31, 2026 and December 31, 2025, respectively) 
+ 970 712 
+
+ Inventories 1,656 1,109 
+
+ Prepaid and other current assets 153 132 
+
+ Total current assets 3,171 2,725 
+
+ Non-current assets 
+
+ Property, plant and equipment – net 935 760 
+
+ Goodwill 2,539 1,091 
+
+ Intangible assets – net 2,986 1,027 
+
+ Other assets 557 536 
+
+ Total assets $ 10,188 $ 6,139 
+
+ Liabilities and Stockholders’ Equity 
+
+ Current liabilities 
+
+ Current portion of long-term debt 4 6 
+
+ Trade accounts payable 931 683 
+
+ Accrued compensation and benefits 168 123 
+
+ Short-term customer advances 215 44 
+
+ Other current liabilities 406 331 
+
+ Total current liabilities 1,724 1,187 
+
+ Non-current liabilities 
+
+ Long-term debt, less current portion 2,745 2,578 
+
+ Long-term customer advances 198 20 
+
+ Long-term deferred tax liabilities 398 8 
+
+ Other non-current liabilities 301 251 
+
+ Total liabilities 5,366 4,044 
+
+ Commitments and contingencies 
+
+ Stockholders’ equity 
+
+ Common stock, $ 0.01 par value – authorized 300.0 shares; issued 134.3 and 85.5 shares at March 31, 2026 and December 31, 2025, respectively 
+ 1 1 
+
+ Additional paid-in capital 3,801 942 
+
+ Retained earnings 2,031 2,139 
+
+ Accumulated other comprehensive loss ( 277 ) ( 265 ) 
+
+ Shares of common stock in treasury – 20.8 and 20.6 shares at March 31, 2026 and December 31, 2025 
+ ( 734 ) ( 722 ) 
+
+ Total stockholders’ equity 4,822 2,095 
+
+ Total liabilities and stockholders’ equity $ 10,188 $ 6,139 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 5 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS’ EQUITY 
+
+ (unaudited) 
+
+ (in millions) 
+
+ Outstanding
+Shares Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings 
+ Accumulated 
+
+ Other 
+
+ Comprehensive 
+
+ Loss 
+ Common
+Stock in
+Treasury Total 
+
+ Balance at December 31, 2025 
+ 64.9 $ 1 $ 942 $ 2,139 $ ( 265 ) $ ( 722 ) $ 2,095 
+
+ Net loss 
+ — — — ( 89 ) — — ( 89 ) 
+
+ Other comprehensive loss – net of tax 
+ — — — — ( 12 ) — ( 12 ) 
+
+ Stock compensation expense 
+ — — 36 — — — 36 
+
+ Vestings of restricted stock, net of employee tax withholdings 
+ 0.7 — ( 12 ) — — ( 13 ) ( 25 ) 
+
+ Compensation under stock-based plans – net 
+ — — — — — 1 1 
+
+ Dividends — — — ( 19 ) — — ( 19 ) 
+
+ Issuance of common stock related to merger (1) 
+ 47.9 — 2,836 — — — 2,836 
+
+ Other — — ( 1 ) — — — ( 1 ) 
+
+ Balance at March 31, 2026 
+ 113.5 $ 1 $ 3,801 $ 2,031 $ ( 277 ) $ ( 734 ) $ 4,822 
+
+ (1) Includes stock-based compensation attributable to pre-combination services. 
+
+ Outstanding
+Shares Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings 
+ Accumulated 
+
+ Other 
+
+ Comprehensive 
+
+ Loss 
+ Common
+Stock in
+Treasury Total 
+
+ Balance at December 31, 2024 
+ 65.7 $ 1 $ 921 $ 1,964 $ ( 382 ) $ ( 672 ) $ 1,832 
+
+ Net income 
+ — — — 21 — — 21 
+
+ Other comprehensive income – net of tax 
+ — — — — 32 — 32 
+
+ Stock compensation expense 
+ — — 10 — — — 10 
+
+ Vestings of restricted stock, net of employee tax withholdings 
+ 0.4 — ( 8 ) — — — ( 8 ) 
+
+ Compensation under stock-based plans – net 
+ 0.2 — ( 5 ) — — 6 1 
+
+ Dividends — — — ( 11 ) — — ( 11 ) 
+
+ Acquisition of treasury stock ( 0.8 ) — — — — ( 33 ) ( 33 ) 
+
+ Other — — 1 — — ( 1 ) — 
+
+ Balance at March 31, 2025 
+ 65.5 $ 1 $ 919 $ 1,974 $ ( 350 ) $ ( 700 ) $ 1,844 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements . 
+
+ 6 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS 
+
+ (unaudited) 
+
+ (in millions) 
+
+ Three Months Ended 
+
+ March 31, 
+
+ 2026 2025 
+
+ Operating Activities 
+
+ Net (loss) income 
+ $ ( 89 ) $ 21 
+
+ Adjustments to reconcile net (loss) income to net cash used in operating activities: 
+
+ Depreciation and amortization 77 39 
+
+ Deferred taxes ( 43 ) — 
+
+ Stock-based compensation expense 36 10 
+
+ Inventory and other non-cash charges 110 2 
+
+ Changes in operating assets and liabilities (net of effects of acquisitions and divestitures): 
+
+ Receivables ( 76 ) ( 134 ) 
+
+ Inventories ( 29 ) ( 43 ) 
+
+ Trade accounts payable 64 102 
+
+ Other assets and liabilities ( 82 ) ( 19 ) 
+
+ Foreign exchange and other operating activities, net 1 1 
+
+ Net cash used in operating activities 
+ ( 31 ) ( 21 ) 
+
+ Investing Activities 
+
+ Capital expenditures ( 26 ) ( 36 ) 
+
+ Acquisitions, net of cash acquired, and investments ( 467 ) ( 2 ) 
+
+ Other investing activities, net 26 12 
+
+ Net cash used in investing activities 
+ ( 467 ) ( 26 ) 
+
+ Financing Activities 
+
+ Repayments of debt ( 70 ) ( 61 ) 
+
+ Proceeds from issuance of debt 235 61 
+
+ Share repurchases — ( 32 ) 
+
+ Dividends paid ( 19 ) ( 11 ) 
+
+ Other financing activities, net ( 24 ) ( 7 ) 
+
+ Net cash provided by (used in) financing activities 122 ( 50 ) 
+
+ Effect of Exchange Rate Changes on Cash and Cash Equivalents ( 4 ) 7 
+
+ Net Decrease in Cash and Cash Equivalents 
+ ( 380 ) ( 90 ) 
+
+ Cash and Cash Equivalents at Beginning of Period 772 388 
+
+ Cash and Cash Equivalents at End of Period $ 392 $ 298 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 7 
+
+ TEREX CORPORATION AND SUBSIDIARIES 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ (unaudited) 
+
+ NOTE A – BASIS OF PRESENTATION 
+
+ Basis of Presentation and Principles of Consolidation. The accompanying unaudited Condensed Consolidated Financial Statements of Terex Corporation and subsidiaries as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 have been prepared in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”). Certain information and footnote disclosures normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted pursuant to the rules and regulations of the U.S. Securities and Exchange Commission. The accompanying Condensed Consolidated Balance Sheet as of December 31, 2025 has been derived from audited consolidated financial statements as of that date, but does not include all disclosures required by U.S. GAAP. For further information, refer to the consolidated financial statements and footnotes thereto included in the Company’s Annual Report on Form 10-K for year ended December 31, 2025. 
+
+ The Condensed Consolidated Financial Statements include accounts of Terex Corporation, its majority-owned subsidiaries and other controlled subsidiaries (“Terex” or the “Company”). 
+
+ In the opinion of management, adjustments considered necessary for the fair statement of these interim financial statements have been made. Except as otherwise disclosed, all such adjustments consist only of those of a normal recurring nature. Operating results for the three months ended March 31, 2026 are not necessarily indicative of results that may be expected for the year ending December 31, 2026. 
+
+ Effective January 1, 2026, the Company made a voluntary change to classify and present the amortization of finite-lived intangibles related to Customer relationships and Trade names as Selling, general, and administrative expenses rather than in Cost of goods sold. The amortization expense related to Technology, Land use rights, and Other intangible assets will remain classified and presented in Cost of goods sold. We believe this change in classification and presentation better aligns the costs that are directly associated with generating revenue. The change in classification and presentation has been reflected in the Condensed Consolidated Statements of Operations and Comprehensive (Loss) Income, with retrospective application of the change to the prior periods presented. The impact of this change to the comparative period was an increase to Selling, general and administrative expense and related decrease to Cost of goods sold of $ 17 million for the three months ended March 31, 2025. 
+
+ Merger Transaction. On October 29, 2025, the Company entered into a definitive merger agreement with REV Group, Inc. (“REV”), a publicly traded manufacturer and distributor of specialty vehicles and related aftermarket parts and services, in a stock-and-cash transaction (the “REV Transaction”), in which the Company acquired 100 % of the issued and outstanding stock of REV. On February 2, 2026 (the “Closing Date”), the Company completed the REV Transaction in accordance with the terms of the agreement. See Note D - “Acquisitions and Divestitures” in our Notes to Condensed Consolidated Financial Statements for additional information regarding the REV Transaction. 
+
+ Accounting Standards Implemented in 2026. In July 2025, the Financial Accounting Standards Board (“FASB”) issued ASU 2025-05, Financial Instruments—Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets, which provides a practical expedient to assume that conditions as of the balance sheet date remain unchanged over the life of the asset when estimating expected credit losses for current accounts receivable and current contract assets arising from transactions accounted for under Topic 606. The guidance is effective for fiscal years beginning after December 15, 2025 and interim periods within those fiscal years, with early adoption permitted. The Company adopted ASU 2025-05 on January 1, 2026 on a prospective basis and elected the practical expedient provided by ASU 2025-05. The adoption of ASU 2025-05 did not have a material effect on the Company’s condensed consolidated financial statements or disclosures. 
+
+ Accounting Standards to be Implemented. In November 2024, the FASB issued ASU 2024-03, Disaggregation of Income Statement Expenses (Subtopic 220-40), which requires more detailed disclosures about specified categories of expenses (including purchases of inventory, employee compensation, intangible asset amortization, and depreciation) included in certain expense captions presented on the face of the income statement (such as cost of sales and SG&A expenses). The guidance is effective for fiscal years beginning after December 15, 2026 and interim periods within fiscal years beginning after December 15, 2027. The Company is currently evaluating the impact of this guidance on its disclosures to the consolidated financial statements. 
+
+ 8 
+
+ In November 2025, the FASB issued ASU 2025-08, Financial Instruments - Credit Losses (Topic 326). The amendments in this update expand the use of the gross-up approach to certain acquired loans beyond purchased financial assets with credit deterioration. The new guidance is effective for annual reporting periods beginning after December 15, 2026 and interim periods within those fiscal years, with early adoption permitted. The amendments in this update must be adopted prospectively to loans that are acquired on or after the initial application date. The Company does not expect adoption to have a material effect on its consolidated financial statements. 
+
+ Receivables and Allowance for Doubtful Accounts. Receivables include $ 876 million and $ 627 million of trade accounts receivable at March 31, 2026 and December 31, 2025, respectively. Trade accounts receivable are recorded at invoiced amount and do not bear interest. Allowance for doubtful accounts is the Company’s estimate of current expected credit losses on its existing accounts receivable and determined based on historical customer assessments, current financial conditions, and reasonable and supportable forecasts. Account balances are written off against the allowance when the Company determines the receivable will not be recovered. There can be no assurance that the Company’s estimate of accounts receivable collection will be indicative of future results. 
+
+ The following table summarizes changes in the consolidated allowance for doubtful accounts (in millions): 
+
+ Three Months Ended 
+
+ March 31, 2026 March 31, 2025 
+
+ Balance at beginning of period 
+ $ 9 $ 9 
+
+ Provision for credit losses 1 1 
+
+ Other (1) 
+ — — 
+
+ Balance at of end of period 
+ $ 10 $ 10 
+
+ (1) Includes utilization of established reserves, net of recoveries and the impact of foreign exchange rate changes. 
+
+ Revenue Recognition. 
+
+ Contract Liabilities 
+ 
+ Contract liabilities, referred to as Customer advances in the Condensed Consolidated Balance Sheets, relate to instances where a customer pays consideration in advance or when the Company is entitled to bill a customer in advance of recognizing the related revenue. Contract liabilities are reduced when the associated revenue from the contract is recognized . For the three months ended March 31, 2026, revenue related to contract liabilities outstanding as of December 31, 2025 was immaterial. During the same period, the Company recognized $ 44 million of revenue that was included in the contract liabilities balance of $ 359 million assumed in connection with the REV Transaction. See Note D - “Acquisitions and Divestitures” in our Condensed Consolidated Financial Statements for additional information regarding the REV Transaction. Within the Specialty Vehicles segment, customers earn interest on customer advances at a rate determined at contract inception. Interest charges incurred on customer advances was $ 3 million for the three months ended March 31, 2026 and is recorded in Interest expense in the Condensed Consolidated Statements of Operations and Comprehensive (Loss) Income. 
+
+ The Company had no significant contract assets as of March 31, 2026 and December 31, 2025. 
+
+ Remaining Performance Obligation 
+
+ The Company estimated that $ 3,452 million and $ 39 million at March 31, 2026 and December 31, 2025, respectively, in revenue is expected to be recognized in the future related to performance obligations that are unsatisfied (or partially satisfied) at the end of the reporting period. We expect to recognize approximately 43 % of the Company’s unsatisfied (or partially satisfied) performance obligations as revenue in the next twelve months, with the remaining balance to be recognized thereafter. The Company applied the standard’s practical expedient that permits the omission of unsatisfied performance obligations for (i) contracts with an original expected length of one year or less and (ii) contracts for which the Company recognizes revenue at the amount to which the Company has the right to invoice for services performed. 
+
+ Supplier Finance. The Company has supplier finance programs to pay third-party banks the stated amount of confirmed invoices from its designated suppliers. Terex or the bank may terminate the agreement upon 30 days’ notice. The supplier invoices that have been confirmed as valid under the program require payment in full within 120 days of invoice date. Confirmed obligation amounts outstanding were $ 44 million and $ 36 million at March 31, 2026 and December 31, 2025, respectively. Confirmed obligation amounts outstanding were included in Trade accounts payable in the Company’s Condensed Consolidated Balance Sheets. 
+
+ 9 
+
+ Guarantees. The Company issues guarantees to financial institutions related to the financing of equipment purchases by customers. The expectation of losses or non-performance is evaluated based on consideration of historical customer assessments, current financial conditions, reasonable and supportable forecasts, equipment collateral value and other factors. Reserves are recorded for expected loss over the contractual period of risk exposure. See Note J – “Litigation and Contingencies” for additional information regarding guarantees issued to financial institutions. 
+
+ Accrued Warranties . The Company records accruals for potential warranty claims based on its claim experience. The Company’s products are typically sold with a standard warranty covering defects that arise during a fixed period. Each business provides a warranty specific to products it offers. The specific warranty offered by a business is a function of customer expectations and competitive forces. Warranty length is generally a fixed period of time, a fixed number of operating hours or both. 
+
+ A liability for estimated warranty claims is accrued at the time of sale. The current portion of the product warranty liability is included in Other current liabilities and the non-current portion is included in Other non-current liabilities in the Company’s Condensed Consolidated Balance Sheets. The liability is established using historical warranty claims experience for each product sold. Historical claims experience may be adjusted for known design improvements or for the impact of unusual product quality issues. Assumptions are updated for known events that may affect the potential warranty liability. 
+
+ The following table summarizes changes in the consolidated product warranty liability (in millions): 
+
+ Three Months Ended 
+
+ March 31, 2026 March 31, 2025 
+
+ Balance at beginning of period 
+ $ 50 $ 54 
+
+ Liabilities assumed due to business acquisition 
+ 53 — 
+
+ Accruals for warranties issued during the period 20 12 
+
+ Changes in estimates 1 3 
+
+ Settlements during the period ( 21 ) ( 14 ) 
+
+ Foreign exchange effect/other — 1 
+
+ Balance at end of period 
+ $ 103 $ 56 
+
+ Derivatives. Derivative financial instruments are recorded in the Condensed Consolidated Balance Sheets at their fair value as either assets or liabilities. Changes in the fair value of derivatives are recorded each period in earnings or AOCI, depending on whether a derivative is designated and effective as part of a hedge transaction and, if it is, the type of hedge transaction. Gains and losses on derivative instruments reported in AOCI are included in earnings in the periods in which earnings are affected by the hedged item. Derivatives designated as net investment hedging instruments include cross currency swaps with outstanding notional value of $ 470 million at both March 31, 2026 and December 31, 2025. The Company had $ 177 million and $ 114 million notional value of foreign exchange contracts outstanding that were not designated as hedging instruments at March 31, 2026 and December 31, 2025, respectively. Net gains and losses recognized in earnings on derivative financial instruments that do not qualify for hedge accounting were not material to our results of operations during the three months ended March 31, 2026 and 2025. Net gains and losses reclassified to earnings from AOCI related to qualified hedges were not material to our results of operations during the three months ended March 31, 2026 and 2025 and the Company does not expect the amount of these gains and losses that will be reclassified to earnings during the next year to be material. 
+
+ Fair Value Measurements. Assets and liabilities measured at fair value on a recurring basis under the provisions of Accounting Standards Codification (“ASC”) 820, “Fair Value Measurement and Disclosure” (“ASC 820”) include identifiable assets acquired and liabilities assumed in a business combination discussed in Note D – “Acquisitions and Divestitures”; commodity swaps, cross currency swaps and foreign exchange contracts; and debt discussed in Note I – “Long-Term Obligations”. These assets and liabilities are valued using observable market data for similar assets and liabilities or the present value of future cash payments and receipts. ASC 820 establishes a fair value hierarchy for those instruments measured at fair value that distinguishes between assumptions based on market data (observable inputs) and the Company’s assumptions (unobservable inputs). The hierarchy consists of three levels: 
+
+ 10 
+
+ Level 1 – Unadjusted quoted prices in active markets that are accessible at the measurement date for identical, unrestricted assets or liabilities; 
+
+ Level 2 – Quoted prices in markets that are not active, or inputs which are observable, either directly or indirectly, for substantially the full term of the asset or liability; and 
+
+ Level 3 – Prices or valuation techniques that require inputs that are both significant to the fair value measurement and unobservable (i.e. supported by little or no market activity). 
+
+ Determining which category an asset or liability falls within this hierarchy requires judgment. The Company evaluates its hierarchy disclosures each quarter. 
+
+ The Company has investments held in a Rabbi Trust for the Company’s non-qualified supplemental executive retirement plans (“SERPs”). The total value of these investments was $ 32 million and $ 33 million as of March 31, 2026 and December 31, 2025, respectively, and were considered to be measured at Level 1. The Rabbi trust assets are subject to claims of the Company's creditors. One of the SERPs (the defined benefit plan) is frozen to future entrants. 
+
+ NOTE B – BUSINESS SEGMENT INFORMATION 
+
+ The Company identifies its operating segments according to how business activities are managed and evaluated. Effective February 2, 2026 in connection with the REV Transaction, the Company reports its business in the following reportable segments: (i) Environmental Solutions (“ES”), (ii) Materials Processing (“MP”), (iii) Specialty Vehicles (“SV”) and (iv) Aerials. The Company’s Environmental Solutions Group (“ESG”) and Utilities operating segments share similar economic characteristics and are aggregated into one reportable segment, ES. 
+
+ ES designs, manufactures, services and markets waste, recycling and utility equipment and solutions, including refuse collection bodies, hydraulic cart lifters, automated carry cans, compaction, balers and recycling equipment, digger derricks, insulated aerial devices, and cameras with integrated smart technology, as well as related components and replacement parts, and waste hauler software solutions. Customers use these products in the solid waste and recycling industry, and for construction and maintenance of transmission and distribution lines, tree trimming, and foundation drilling applications. 
+
+ MP designs, manufactures, services and markets materials processing and specialty equipment, including crushers, washing systems, screens, trommels, apron feeders, material handlers, pick and carry cranes, wood processing, biomass and recycling equipment, concrete mixer trucks and concrete pavers, conveyors, and their related components and replacement parts. Customers use these products in construction, infrastructure and recycling projects, in various quarrying and mining applications, as well as in landscaping and biomass production industries, material handling applications, and maintenance applications to lift equipment or material, moving materials and equipment on rugged or uneven terrain, lifting construction material and placing material at point of use. 
+
+ SV designs, manufactures, services and markets commercial and custom fire and ambulance vehicles primarily for fire departments, airports, other governmental units, contractors, hospitals and other care providers in the United States and other countries, trucks used in terminal type operations, i.e., rail yards, warehouses, rail terminals and shipping terminals/ports; and industrial sweepers for both the commercial and rental markets. SV also manufactures, markets and distributes Class A recreational vehicles (“RVs”) (motorhomes built on a heavy-duty chassis with either diesel or gas engine configurations), as well as Class C RVs (motorhomes built on a van or commercial truck chassis). 
+
+ Aerials designs, manufactures, services and markets aerial work platform equipment and telehandlers as well as their related components and replacement parts. Customers use these products to construct and maintain industrial, commercial, institutional and residential buildings and facilities, for purposes within the entertainment industry, and for other commercial operations, as well as in a wide range of infrastructure projects. 
+
+ The Company assists customers in their rental, leasing and acquisition of its products through Terex Financial Services (“TFS”). TFS uses its equipment financing expertise to facilitate financial products and services to assist customers in the procurement of the Terex equipment. TFS is included in Corporate and Other. 
+
+ Corporate and Other also includes eliminations among the four reportable segments, as well as general and corporate items. 
+
+ 11 
+
+ The Company’s chief operating decision maker (“CODM”) uses both Adjusted operating profit and Adjusted EBITDA to evaluate segment performance and allocate resources. In accordance with ASC 280, the Company assessed the measure of segment profit or loss required to be reported and determined that Adjusted operating profit is the measure that is most consistent with U.S. GAAP. Accordingly, Adjusted operating profit is presented as the Company’s required measure of segment profit or loss in the accompanying segment information. This change in presentation has been applied retrospectively, and prior‑period segment information has been recast to conform to the current‑year presentation. This change did not affect the Company’s condensed consolidated financial statements. 
+
+ Business segment information is presented below (in millions): 
+
+ Three Months Ended March 31, 2026 
+
+ ES 
+ 
+ MP 
+ 
+ SV 
+ 
+ Aerials 
+ 
+ Corporate and Other / Eliminations 
+ 
+ Total 
+
+ Net sales $ 412 $ 419 $ 436 $ 469 $ ( 2 ) $ 1,734 
+
+ ​ 
+
+ Less: (1) 
+
+ Adjusted cost of goods sold 
+ 308 318 355 429 1,410 
+
+ Adjusted selling, general and administrative expenses 
+ 34 43 23 47 147 
+
+ Adjusted segment operating profit (loss) 
+ $ 70 $ 58 $ 58 $ ( 7 ) $ 179 
+
+ ​ 
+
+ Corporate and Other / Eliminations ( 99 ) 
+
+ Restructuring and other 
+ ( 1 ) 
+
+ Purchase Price Accounting 
+ ( 164 ) 
+
+ Divestitures 
+ 3 
+
+ Consolidated operating (loss) profit 
+ $ ( 82 ) 
+
+ Interest income (expense) - net 
+ ( 43 ) 
+
+ Other income (expense) - net 
+ ( 1 ) 
+
+ (Loss) income before income taxes 
+ $ ( 126 ) 
+
+ (1) Significant expense categories and amounts align with the segment-level information that is regularly provided to the chief operating decision maker. Intersegment expenses are included within the amounts shown. Adjusted cost of goods sold and Adjusted selling, general and administrative expenses exclude certain items that are reflected as reconciling items in the reconciliation to Consolidated operating profit. 
+
+ 12 
+
+ Three Months Ended March 31, 2025 
+
+ ES 
+ 
+ MP 
+ 
+ SV 
+ 
+ Aerials 
+ 
+ Corporate and Other / Eliminations 
+ 
+ Total 
+
+ Net sales $ 399 $ 382 $ — $ 450 $ ( 2 ) $ 1,229 
+
+ Less: (1) 
+
+ Adjusted cost of goods sold 
+ 290 299 — 389 978 
+
+ Adjusted selling, general and administrative expenses 
+ 32 45 — 47 124 
+
+ Adjusted segment operating profit 
+ $ 77 $ 38 $ — $ 14 $ 129 
+
+ Corporate and Other / Eliminations $ ( 25 ) 
+
+ Restructuring and other 
+ ( 4 ) 
+
+ Purchase Price Accounting 
+ ( 21 ) 
+
+ Litigation related 
+ ( 10 ) 
+
+ Consolidated operating profit 
+ $ 69 
+
+ Interest income (expense) - net 
+ ( 41 ) 
+
+ Other income (expense) - net 
+ ( 2 ) 
+
+ Income (loss) before income taxes 
+ $ 26 
+
+ (1) Significant expense categories and amounts align with the segment-level information that is regularly provided to the chief operating decision maker. Intersegment expenses are included within the amounts shown. Adjusted cost of goods sold and Adjusted selling, general and administrative expenses exclude certain items that are reflected as reconciling items in the reconciliation to Consolidated operating profit. 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Depreciation and amortization 
+
+ ES 
+ $ 24 $ 24 
+
+ MP 5 5 
+
+ SV 
+ 36 — 
+
+ Aerials 
+ 7 6 
+
+ Corporate 5 4 
+
+ Total $ 77 $ 39 
+
+ Capital expenditures 
+
+ ES 
+ $ 8 $ 7 
+
+ MP 2 4 
+
+ SV 
+ 6 — 
+
+ Aerials 
+ 8 23 
+
+ Corporate 2 2 
+
+ Total $ 26 $ 36 
+
+ 13 
+
+ March 31,
+2026 December 31,
+2025 
+
+ Identifiable assets 
+
+ ES 
+ $ 2,546 $ 2,523 
+
+ MP 1,006 979 
+
+ SV 
+ 4,369 — 
+
+ Aerials 
+ 1,424 1,443 
+
+ Corporate 
+ 843 1,194 
+
+ Total $ 10,188 $ 6,139 
+
+ Sales between segments are generally priced to recover costs plus a reasonable markup for profit, which is eliminated in consolidation. 
+
+ Geographic net sales information is presented below (in millions): 
+
+ Three Months Ended 
+
+ March 31, 2026 
+
+ ES 
+ MP 
+ 
+ SV 
+ 
+ Aerials 
+ Corporate and Other / Eliminations Total 
+
+ Net sales by region 
+
+ North America $ 405 $ 178 $ 434 $ 335 $ — $ 1,352 
+
+ Western Europe — 104 — 90 — 194 
+
+ Asia-Pacific 2 93 — 21 — 116 
+
+ Rest of World (1) 
+ 5 44 2 23 ( 2 ) 72 
+
+ Total (2) 
+ $ 412 $ 419 $ 436 $ 469 $ ( 2 ) $ 1,734 
+
+ (1) Includes intercompany sales and eliminations. 
+
+ (2) Total sales for all segments in the aggregate include $ 1,273 million for the three months ended March 31, 2026 attributable to the U.S., the Company’s country of domicile. 
+
+ Three Months Ended 
+
+ March 31, 2025 
+
+ ES 
+ MP 
+ 
+ SV 
+ 
+ Aerials 
+ Corporate and Other / Eliminations Total 
+
+ Net sales by region 
+
+ North America $ 396 $ 171 $ — $ 331 $ — $ 898 
+
+ Western Europe — 95 — 67 — 162 
+
+ Asia-Pacific 1 76 — 25 — 102 
+
+ Rest of World (1) 
+ 2 40 — 27 ( 2 ) 67 
+
+ Total (2) 
+ $ 399 $ 382 $ — $ 450 $ ( 2 ) $ 1,229 
+
+ (1) Includes intercompany sales and eliminations. 
+
+ (2) Total sales for all segments in the aggregate include $ 817 million for the three months ended March 31, 2025 attributable to the U.S., the Company’s country of domicile. 
+
+ The Company attributes sales to unaffiliated customers in different geographical areas based on the location of the customer. 
+
+ 14 
+
+ NOTE C – INCOME TAXES 
+
+ During the three months ended March 31, 2026, the Company recognized income tax benefit of $ 33 million on a loss of $ 126 million, an effective tax rate of 26.5 %, as compared to income tax expense of $ 5 million on income of $ 26 million, an effective tax rate of 20.3 %, for the three months ended March 31, 2025. The higher effective tax rate for the three months ended March 31, 2026 when compared with the three months ended March 31, 2025 is primarily due to higher tax related to geographic distribution of income. 
+
+ NOTE D – ACQUISITIONS AND DIVESTITURES 
+
+ REV Group, Inc. Acquisition 
+
+ On the Closing date, the Company completed the REV Transaction in accordance with the terms of the definitive merger agreement with REV. The provisional purchase consideration of $ 3,384 million is based on the conversion of each outstanding share of REV to 0.9809 of a share of Terex and $ 8.71 in cash ($ 426 million in total), the settlement of REV’s outstanding debt owed to a third-party bank that was required to be repaid at closing, and estimated fair value of converted unvested share based awards attributable to pre-combination service. In connection with the REV Transaction, there were an additional 47.9 million shares of Terex issued upon conversion. 
+
+ REV serves a diversified customer base primarily in the U.S., and their products are sold to municipalities, government agencies, private contractors, consumers, and industrial and commercial end users. REV provides customized vehicle solutions for applications, including essential needs for public services (ambulances and fire apparatus), commercial infrastructure (terminal trucks and industrial sweepers) and consumer leisure (motorized recreational vehicles). The REV Transaction created a diversified specialty equipment manufacturer of emergency, waste, utilities, environmental, material processing equipment and mobile elevating work platforms with attractive end markets characterized by low cyclicality and long-term growth profiles. 
+
+ The following table summarizes the components of the provisional purchase consideration (in millions except per-share information and the exchange ratio): 
+
+ REV shares outstanding (1) 
+ 48.9 
+
+ Cash consideration (per REV share) $ 8.71 
+
+ Cash portion of purchase price 
+ $ 426 
+
+ Settlement of REV’s outstanding debt 
+ 122 
+
+ Total cash consideration transferred 
+ $ 548 
+
+ REV shares outstanding (1) 
+ 48.9 
+
+ Exchange ratio 0.9809 
+
+ Total Terex common shares issued 47.9 
+
+ Terex's share price (2) 
+ $ 58.99 
+
+ Equity portion of purchase price 
+ $ 2,828 
+
+ Fair value of converted unvested share based awards attributable to pre-combination services (3) 
+ $ 8 
+
+ Total provisional consideration transferred 
+ $ 3,384 
+
+ (1) Represents REV’s outstanding shares as of February 1, 2026. 
+
+ (2) Represents Terex's share price as of February 2, 2026. 
+
+ (3) Represents fair value estimate as of February 2, 2026. 
+
+ 15 
+
+ Net Assets Acquired 
+
+ The Company has applied purchase accounting to REV and the results of its operations are included in the Company’s consolidated financial statements following the Closing Date. The application of purchase accounting under ASC 805 requires the recognition and measurement of the identifiable assets acquired and liabilities assumed at their estimated fair values as of the acquisition date. Goodwill is calculated as the excess of the aggregate of the fair value of the consideration transferred over the fair value of the net assets recognized. The net assets and liabilities of REV were recorded at their estimated fair value using Level 3 inputs. In valuing acquired assets and liabilities, fair value estimates are based on, but are not limited to, future expected cash flows, market rate assumptions for contractual obligations, future revenue growth, profitability, appropriate discount rates, attrition rates, royalty rates, growth rates and economic lives. The Company believes that such information provides a reasonable basis for estimating the fair values of assets acquired and liabilities assumed; however, certain assets acquired and liabilities assumed, such as certain intangibles and related assumptions including useful lives and related amortization, contingencies, as well as tax positions require further analysis and may move materially as the analysis is completed. Accordingly, these are highly preliminary estimates that are subject to adjustments during the measurement period, not to exceed one year from the acquisition date, based upon new information obtained about facts and circumstances that existed as of the date of closing the merger. Upon completion of the fair value assessment, Terex anticipates that the net assets acquired may differ materially from the preliminary assessment outlined above. 
+
+ The following table summarizes the preliminary estimated fair values of the REV assets acquired and liabilities assumed and related deferred income taxes as of the Closing Date (in millions). 
+
+ February 2, 2026 
+
+ Cash acquired 
+ $ 81 
+
+ Receivables, net 
+ 183 
+
+ Inventories, net 
+ 644 
+
+ Prepaid and other current assets 
+ 71 
+
+ Property, plant & equipment, net 
+ 182 
+
+ Goodwill 
+ 1,451 
+
+ Identified intangibles subject to amortization 1,254 
+
+ Identified indefinite-lived intangibles 
+ 758 
+
+ Other assets 
+ 42 
+
+ Total assets acquired 
+ $ 4,666 
+
+ Trade accounts payable 
+ 193 
+
+ Short-term customer advances 
+ 176 
+
+ Other current liabilities 
+ 181 
+
+ Long-term deferred tax liabilities 
+ 478 
+
+ Other non-current liabilities 
+ 254 
+
+ Total liabilities assumed 
+ $ 1,282 
+
+ Net assets acquired 
+ $ 3,384 
+
+ Any changes to the initial estimates of fair value of the assets and liabilities will be recorded as adjustments to those assets and liabilities and residual amounts will be allocated to goodwill. 
+
+ Goodwill of $ 1,451 million resulting from the merger was assigned to the newly created SV segment. Goodwill consists of intangible assets that do not qualify for separate recognition which includes assembled workforce and expected synergies from the business combinations. 
+
+ 16 
+
+ The following table summarizes the preliminary determination of the fair values of identifiable indefinite and finite-lived intangible assets acquired (in millions): 
+
+ Weighted Average Life
+(in years) Gross Carrying Amount 
+
+ Indefinite-lived intangible assets: 
+
+ Trade names 
+ 
+ N/A 
+ $ 758 
+
+ Finite-lived intangible assets: 
+
+ Backlog 2 236 
+
+ Trade names 
+ 20 21 
+
+ Customer relationships 
+ 14 819 
+
+ Non-competition agreement 
+ 3 19 
+
+ Technology 
+ 12 159 
+
+ Total Indefinite and Finite-lived intangible assets 
+ $ 2,012 
+
+ Acquisition-Related Expenses 
+
+ The Company has incurred transaction costs directly related to the REV Transaction of $ 17 million for the three months ended March 31, 2026, which is recorded in Selling, general and administrative expenses in the Company’s Condensed Consolidated Statement of Operations and Comprehensive (Loss) Income. 
+
+ Unaudited Actual and Pro Forma Information 
+
+ The Company’s consolidated Net sales and Net loss attributable to Terex Corporation from February 2, 2026 through March 31, 2026 includes $ 436 million and $ 56 million, respectively, related to the REV business. 
+
+ The following unaudited pro forma information has been presented as if the REV Transaction occurred on January 1, 2025. This information is based on historical results of operations, adjusted for acquisition accounting adjustments, and is not necessarily indicative of what the results would have been had the Company operated the business since January 1, 2025, nor does it intend to be a projection of future results. 
+
+ (in millions, except per share data) 
+ Three Months Ended 
+ Three Months Ended 
+
+ March 31, 2026 March 31, 2025 
+
+ Net sales 
+ $ 1,924 $ 1,827 
+
+ Net income (loss) 
+ 31 ( 114 ) 
+
+ Basic earnings (loss) per share net income 
+ 0.33 ( 1.72 ) 
+
+ Diluted earnings (loss) per share net income 
+ 0.32 ( 1.72 ) 
+
+ 17 
+
+ NOTE E – EARNINGS PER SHARE 
+
+ (in millions, except per share data) 
+ Three Months Ended 
+
+ March 31, 
+
+ 2026 2025 
+
+ Net (loss) income 
+ $ ( 89 ) $ 21 
+
+ Basic: 
+
+ Weighted average shares outstanding 
+ 96.1 66.3 
+
+ (Loss) earnings per share 
+ $ ( 0.93 ) $ 0.32 
+
+ Diluted: 
+
+ Basic weighted average shares outstanding 
+ 96.1 66.3 
+
+ Effect of dilutive restricted stock 
+ — 0.6 
+
+ Diluted weighted average shares outstanding 96.1 66.9 
+
+ (Loss) earnings per share 
+ $ ( 0.93 ) $ 0.31 
+
+ Non-vested restricted stock awards and restricted stock units (“Restricted Stock”) granted by the Company are treated as potential common shares outstanding in computing diluted earnings per share using the treasury stock method. Weighted average Restricted Stock of approximately 1.0 million and 0.5 million were outstanding during three months ended March 31, 2026 and 2025, respectively, but were not included in the computation of diluted shares as the effect would be anti-dilutive or performance targets were not expected to be achieved for awards contingent upon performance. 
+
+ NOTE F – INVENTORIES 
+
+ Inventories consist of the following (in millions): 
+
+ March 31,
+2026 December 31,
+2025 
+
+ Finished equipment $ 421 $ 373 
+
+ Replacement parts 203 190 
+
+ Work-in-process 376 107 
+
+ Raw materials, chassis, and supplies 
+ 656 439 
+
+ Inventories 
+ $ 1,656 $ 1,109 
+
+ Inventory reserves were $ 197 million and $ 68 million at March 31, 2026 and December 31, 2025, respectively. 
+
+ NOTE G – PROPERTY, PLANT AND EQUIPMENT 
+
+ Property, plant and equipment – net consist of the following (in millions): 
+
+ March 31,
+2026 December 31,
+2025 
+
+ Property - Land and land improvements 
+ $ 123 $ 93 
+
+ Plant - Building and building improvements 
+ 455 374 
+
+ Equipment 754 666 
+
+ Leasehold improvements 64 63 
+
+ Construction in progress 70 79 
+
+ Property, plant and equipment – gross 1,466 1,275 
+
+ Less: Accumulated depreciation ( 531 ) ( 515 ) 
+
+ Property, plant and equipment – net $ 935 $ 760 
+
+ 18 
+
+ NOTE H – GOODWILL AND INTANGIBLE ASSETS 
+
+ The Company’s goodwill by business segment is as follows (in millions): 
+
+ March 31, 2026 December 31, 2025 
+
+ Goodwill, Gross 
+ 
+ Accumulated Impairment 
+ 
+ Goodwill, Net 
+ 
+ Goodwill, Gross 
+ 
+ Accumulated Impairment 
+ 
+ Goodwill, Net 
+
+ ES 
+ $ 796 $ — $ 796 $ 796 $ — $ 796 
+
+ MP 
+ 214 ( 23 ) 191 217 ( 23 ) 194 
+
+ SV 
+ 1,451 — 1,451 — — — 
+
+ Aerials 
+ 140 ( 39 ) 101 140 ( 39 ) 101 
+
+ Total 
+ $ 2,601 $ ( 62 ) $ 2,539 $ 1,153 $ ( 62 ) $ 1,091 
+
+ An analysis of changes in the Company’s net carrying value of goodwill by business segment is as follows (in millions): 
+
+ ES 
+ MP 
+ 
+ SV 
+ Aerials Total 
+
+ Balance at December 31, 2025, net 
+ $ 796 $ 194 $ — $ 101 $ 1,091 
+
+ Acquisitions — — 1,451 — 1,451 
+
+ Foreign exchange effect and other — ( 3 ) — — ( 3 ) 
+
+ Balance at March 31, 2026, net 
+ $ 796 $ 191 $ 1,451 $ 101 $ 2,539 
+
+ Intangible assets, net were comprised of the following (in millions): 
+
+ March 31, 2026 December 31, 2025 
+
+ Gross Carrying Amount Accumulated Amortization Net Carrying Amount Gross Carrying Amount Accumulated Amortization Net Carrying Amount 
+
+ Finite-lived intangible assets: 
+
+ Technology $ 312 $ ( 23 ) $ 289 $ 153 $ ( 19 ) $ 134 
+
+ Customer relationships 
+ 1,680 ( 129 ) 1,551 860 ( 103 ) 757 
+
+ Trade names 
+ 173 ( 25 ) 148 153 ( 21 ) 132 
+
+ Land use rights 
+ 4 ( 1 ) 3 4 ( 1 ) 3 
+
+ Backlog 
+ 236 ( 17 ) 219 — — — 
+
+ Non-competition agreement 
+ 19 ( 1 ) 18 — — — 
+
+ Other 17 ( 16 ) 1 17 ( 16 ) 1 
+
+ Total finite-lived intangible assets 
+ $ 2,441 $ ( 212 ) $ 2,229 $ 1,187 $ ( 160 ) $ 1,027 
+
+ Indefinite-lived trade names 
+ 757 — 757 — — — 
+
+ Total intangible assets 
+ $ 3,198 $ ( 212 ) $ 2,986 $ 1,187 $ ( 160 ) $ 1,027 
+
+ Aggregate intangible asset amortization expense was $ 53 million and $ 20 million for the three months ended March 31, 2026 and 2025, respectively, of which $ 6 million and $ 3 million, respectively, was recorded in Cost of goods sold in the Condensed Consolidated Statements of Operations and Comprehensive (Loss) Income. 
+
+ Estimated aggregate intangible asset amortization expense for each of the next five years is as follows (in millions): 
+
+ 2026 (remaining nine months) $ 204 
+
+ 2027 266 
+
+ 2028 214 
+
+ 2029 167 
+
+ 2030 163 
+
+ 19 
+
+ NOTE I – LONG-TERM OBLIGATIONS 
+
+ Long-term debt is summarized as follows (in millions): 
+
+ March 31,
+2026 December 31,
+2025 
+
+ 5 % Senior Notes due May 15, 2029, net of unamortized debt issuance costs of $ 3 million at March 31, 2026 and December 31, 2025 
+ $ 597 $ 597 
+
+ 6.25 % Senior Notes due October 15, 2032, net of unamortized debt issuance costs of $ 14 million and $ 15 million at March 31, 2026 and December 31, 2025, respectively 
+ 736 735 
+
+ Credit Agreement – term debt due October 8, 2031 (“New Term Facility”, as defined below), net of unamortized debt issuance costs of $ 17 million; and unamortized original issue discount of $ 5 million at March 31, 2026 and December 31, 2025 
+ 1,216 1,218 
+
+ Credit Agreement - revolving line of credit expires on October 8, 2029 
+ 170 — 
+
+ Secured borrowings 20 21 
+
+ Finance lease obligations 9 11 
+
+ Other 1 2 
+
+ Total debt 2,749 2,584 
+
+ Less: Current portion of long-term debt ( 4 ) ( 6 ) 
+
+ Long-term debt, less current portion $ 2,745 $ 2,578 
+
+ Credit Agreement 
+
+ On October 8, 2024, the Company entered into an Incremental Assumption Agreement, Borrowing Subsidiary Agreement and Amendment No. 2 to its Amended and Restated Credit Agreement dated April 1, 2021 (as amended, restated, supplemented or otherwise modified from time to time, the “Credit Agreement”) with certain of the Company’s subsidiaries, the lenders and issuing banks party thereto and UBS AG as successor administrative agent and successor collateral agent. The amendment increased Company’s existing revolving credit facilities (the “Revolver”) to $ 800 million and extended the maturity of the Company’s existing revolving credit facilities to expire on October 8, 2029 (the “New Revolving Credit Facilities”) and provided for a new seven-year term loan facility in an aggregate principal amount of $ 1,250 million with a maturity date of October 8, 2031 (the “New Term Facility”, together with the New Revolving Credit Facilities, the “New Credit Facilities”). In addition, the amendment increased the size of the letter of credit facility, provides for the issuance of letters of credit (the “L/C Facility”) of up to $ 500 million (the utilization of which would decrease availability under the New Revolving Credit Facilities) and permits the Company to have additional secured facilities for the issuance of letters of credit outside of the Amended Credit Agreement (the “Additional L/C Facility”) of up to $ 400 million (the utilization of which would not decrease availability under the New Revolving Credit Facilities). The aggregate amount of letters of credit which the Company may issue under the L/C Facility and the Additional L/C Facility may not at any time exceed $ 500 million, of which up to $ 400 million may be issued under the Additional L/C Facility. Borrowings under the New Term Facility initially bear interest at a per annum rate equal to Term SOFR, plus 2.00 % subject to a stepdown of 0.25 % based on achieving and maintaining a first lien net leverage ratio equal to or less than 0.50 x. On August 12, 2025, the borrowing rate of the New Term Facility was amended by a Refinancing Facility Agreement and additional amendment to the Credit Agreement (the “Amended Credit Agreement”), that lowered the Company’s U.S. Dollar denominated term loans to bear interest at a rate of SOFR plus 1.75 %, and reduced the spread on the revolving credit facilities by 12.5 to 25 basis points. 
+
+ The Amended Credit Agreement contains customary representations and warranties, negative and affirmative covenants and default provisions. The covenants limit, in certain circumstances, the Company’s ability to take a variety of actions, including, but not limited to: incurring or guaranteeing additional indebtedness or issuing preferred equity; creating or maintaining liens; making investments; paying dividends or making other restricted payments; consolidating or merging or transferring all or substantially all of the Company’s assets and the assets of the Company’s subsidiaries; transferring or selling assets, including stock of the Company’s subsidiaries; and redeeming debt. In particular, the New Revolving Credit Facilities require the Company to maintain a first lien net leverage ratio of not more than 3.00 x, which will be tested only if more than 30 % of the total revolving credit commitments extended under the New Revolving Credit Facilities are utilized as of the last day of any fiscal quarter, subject to certain exclusions. The New Term Facility does not have the benefit of, or have any rights with respect to, the financial maintenance covenant. The Amended Credit Agreement provides for customary events of default which include, among other things, (subject in certain cases to customary grace and cure periods) defaults based on (i) the failure to 
+
+ 20 
+
+ make payments under the Indenture when due, (ii) breach of covenants, (iii) the occurrence of a default under other material indebtedness, (iv) a change of control, (v) bankruptcy events and (vi) material judgments. The Company was in compliance with all covenants contained in the Amended Credit Agreement as of March 31, 2026. 
+
+ The Company obtains letters of credit that generally serve as collateral for certain liabilities included in the Condensed Consolidated Balance Sheets and guaranteeing the Company’s performance under contracts. Letters of credit can be issued under two facilities provided in the Amended Credit Agreement and via bilateral arrangements outside the Amended Credit Agreement. 
+
+ The Company also has bilateral arrangements to issue letters of credit with various other financial institutions (the “Bilateral Arrangements”). The Bilateral Arrangements are not secured under the Amended Credit Agreement and do not decrease availability under the Revolver. 
+
+ Letters of credit outstanding (in millions): 
+
+ March 31, 2026 December 31, 2025 
+
+ $500 Million Facility 
+ $ — $ — 
+
+ $400 Million Facility 
+ 59 45 
+
+ Bilateral Arrangements 41 40 
+
+ Total $ 100 $ 85 
+
+ 5% Senior Notes 
+
+ In April 2021, the Company sold and issued $ 600 million aggregate principal amount of Senior Notes Due 2029 (“5% Notes”) at par in a private offering. The proceeds from the 5 % Notes, together with cash on hand, was used: (i) to fund redemption and discharge of 5-5/8% Senior Notes and (ii) to pay related premiums, fees, discounts and expenses. The 5 % Notes are jointly and severally guaranteed by certain of the Company’s domestic subsidiaries. The proceeds from the offering are presented in Long-term debt in the Condensed Consolidated Balance Sheets as of March 31, 2026 and December 31, 2025. The Company may redeem the 5 % Notes in whole or in part, on or after May 15, 2024, at the redemption prices set forth in an indenture dated as of April 1, 2021. 
+
+ 6.25% Senior Notes 
+
+ On October 8, 2024, the Company sold and issued $ 750 million aggregate principal amount of Senior Notes Due 2032 (“6.25% Notes”) at par in a private offering. The proceeds from the 6.25 % Notes, together with new term loan borrowings under the New Term Facility and cash on hand, were used to consummate the Company’s acquisition of ESG, and to pay the related fees, costs, and expenses. The 6.25 % Notes are jointly and severally guaranteed by certain of the Company’s domestic subsidiaries. The proceeds from the offering are presented in Long-term debt in the Condensed Consolidated Balance Sheets as of March 31, 2026 and December 31, 2025. 
+
+ The Company may redeem the 6.25 % Notes in whole or in part, on or after October 15, 2027, at the redemption prices set forth in an indenture dated as of October 8, 2024 (the “Indenture”). Prior to October 15, 2027, the Company may redeem the 6.25 % Notes, in whole or in part, at a price equal to 100 % of the principal amount thereof plus a “make-whole” premium set forth in the Indenture. In addition, prior to October 15, 2027, the Company may redeem up to 40 % of the 6.25 % Notes with an amount equal to the proceeds of certain equity offerings. 
+
+ Secured Borrowings 
+
+ In October 2023, the Company entered into a Framework Agreement to transfer value added tax (“VAT”) receivables to a financial institution in exchange for cash in advance. This arrangement was accounted for as a secured borrowing with a pledge of collateral for the cash proceeds received as the transfer does not meet the criteria for sale accounting. As a result, the VAT receivables pledged as collateral remain in receivables and a liability of $ 20 million and $ 21 million is presented in Long-term debt in the Condensed Consolidated Balance Sheets as of March 31, 2026 and December 31, 2025, respectively. The long term debt classification is based on estimated timing of VAT refund from the Italian government which is expected to be greater than 12 months. 
+
+ 21 
+
+ Fair Value of Debt 
+
+ The Company estimates the fair value of its debt set forth below as of March 31, 2026, as follows (in millions, except for quotes): 
+
+ Book Value Quote Fair Value 
+
+ 5% Notes $ 600 0.98625 $ 592 
+
+ 6.25% Notes 
+ 750 1.00500 754 
+
+ New Term Facility (net of discount) 
+ 1,233 1.00125 1,235 
+
+ The fair value of debt reported in the table above is based on adjusted price quotations on the debt instruments in an inactive market. The Company believes that the carrying value of its other borrowings, including amounts outstanding, if any, for the revolving credit line under the Credit Agreement, approximate fair market value based on maturities for debt of similar terms. Fair values of debt reported in the table above are categorized under Level 2 of the ASC 820 hierarchy. See Note A – “Basis of Presentation” for an explanation of ASC 820 hierarchy. 
+
+ NOTE J – LITIGATION AND CONTINGENCIES 
+
+ General 
+
+ The Company is involved in various legal proceedings, including product liability, general liability, workers’ compensation liability, employment, commercial, class actions, intellectual property and tax litigation, which have arisen in the normal course of operations. The Company is insured for product liability, general liability, workers’ compensation, employer’s liability, property damage and other insurable risks required by law or contract, with retained liability or deductibles. The Company records and maintains an estimated liability in the amount of management’s estimate of the Company’s aggregate exposure for such retained liabilities and deductibles. For such retained liabilities and deductibles, the Company determines its exposure based on probable loss estimations, which requires such losses to be both probable and the amount or range of probable loss to be estimable. The Company believes it has made appropriate and adequate reserves and accruals for its current contingencies and the likelihood of a material loss beyond amounts accrued is remote. The Company believes the outcome of such matters, individually and in aggregate, will not have a material adverse effect on its condensed consolidated financial statements. However, outcomes of lawsuits cannot be predicted and, if determined adversely, could ultimately result in the Company incurring significant liabilities which could have a material adverse effect on its results of operations. 
+
+ Performance, Bid and Specialty Bonds 
+
+ The Company is contingently liable under bid, performance and specialty bonds issued by the Company’s surety company. The balance of outstanding performance, bid and specialty bonds was $ 830 million at March 31, 2026 which primarily relates to the REV business. Losses incurred related to these arrangements have not been significant. 
+
+ Credit Guarantees 
+
+ The Company may assist customers in their rental, leasing and acquisition of its products by facilitating financing transactions directly between (i) end-user customers, distributors and rental companies and (ii) third-party financial institutions, providing recourse in certain circumstances. The current amount of the maximum liability is generally limited to our customer’s remaining payments due to the third-party financial institutions at the time of default; however, it cannot be reasonably estimated due to limited availability of the unique facts and circumstances of each arrangement, such as whether changes have been made to the structure of the contractual obligation between the funder and customer. 
+
+ The maximum exposure determined for credit guarantees outstanding was $ 51 million as of March 31, 2026 and $ 53 million as of December 31, 2025. Terms of these guarantees coincide with the financing arranged by the customer and generally do not exceed five years . The allowance for credit losses on credit guarantees was $ 6 million at March 31, 2026 and $ 5 million at December 31, 2025. 
+
+ 22 
+
+ Certain businesses within the SV segment have repurchase agreements with certain lending institutions. The repurchase commitments are on an individual unit basis with a term from the date it is financed by the lending institution through payment date by the dealer or other customer, generally not exceeding two years . The Company also repurchases inventory from dealers from time to time due to state law or regulatory requirements that require manufacturers to repurchase inventory if a dealership exits the business. The Company’s maximum contingent liability under such agreements was $ 430 million as of March 31, 2026, which represents the gross value of all vehicles under repurchase agreements. Such agreements are customary in the industries in which the Company operates and the Company’s exposure to loss under such agreements is limited by the resale value of the units which are required to be repurchased. Losses incurred under such arrangements have not been significant. The reserve for losses included in other liabilities on contracts outstanding was $ 2 million as of March 31, 2026. 
+
+ There can be no assurance that historical experience in used equipment markets will be indicative of future results. The Company’s ability to recover losses experienced from its guarantees and repurchase agreements may be affected by economic conditions in used equipment markets at the time of loss. 
+
+ Customer Owned Chassis 
+
+ In certain businesses, the Company’s customers may provide their own vehicle chassis, at their sole discretion, in connection with specific vehicle orders. These vehicle chassis are stored at the Company’s various production facilities until the related value-added work is completed and the finished unit is shipped back to the customer. The customer does not transfer the vehicle chassis certificate of origin to the Company. Accordingly, such chassis are not owned by the Company when delivered or throughout the production process, and are, therefore, excluded from the Company’s inventory. The Company’s maximum contingent liability related to these vehicle chassis was $ 241 million as of March 31, 2026. Losses incurred related to these arrangements have not been significant; accordingly, no reserve has been recorded. 
+
+ Tariffs 
+
+ In February 2026, the U.S. Supreme Court issued a ruling invalidating tariffs previously imposed under the International Emergency Economic Powers Act ("IEEPA"). As a result of this ruling, the U.S. Court of International Trade issued an order directing the U.S. Customs and Border Protection (“CBP”) agency to begin formalizing a process for refunds. The CBP launched an online portal that can be used to submit IEEPA tariff refund requests. All requests, including the Company’s submitted claims, will be reviewed by the CBP to determine validity prior to the issuance of any refunds. The ultimate recoverability, timing and amount of any potential refunds of IEEPA tariffs remains uncertain and subject to further legal, regulatory and administrative developments. As of March 31, 2026, the Company has not recorded any potential benefit or impact associated with such refunds, but will continue to monitor these developments and their potential impact. 
+
+ NOTE K – STOCKHOLDERS’ EQUITY 
+
+ Changes in Accumulated Other Comprehensive Income (Loss) 
+
+ The table below presents changes in AOCI by component for the three months ended March 31, 2026 and 2025. All amounts are net of tax (in millions). 
+
+ Three Months Ended 
+
+ March 31, 2026 
+ 
+ Three Months Ended 
+
+ March 31, 2025 
+
+ CTA Derivative Hedging Adj. Debt & Equity Securities Adj. Pension Liability Adj. Total CTA Derivative Hedging Adj. Debt & Equity Securities Adj. Pension Liability Adj. Total 
+
+ Beginning balance $ ( 172 ) $ ( 37 ) $ ( 2 ) $ ( 54 ) $ ( 265 ) $ ( 338 ) $ 7 $ ( 3 ) $ ( 48 ) $ ( 382 ) 
+
+ Other comprehensive income (loss) before reclassifications 
+ ( 22 ) 8 — 1 ( 13 ) 46 ( 14 ) 1 ( 3 ) 30 
+
+ Amounts reclassified from AOCI 
+ — — — 1 1 — 1 — 1 2 
+
+ Net other comprehensive income (loss) 
+ ( 22 ) 8 — 2 ( 12 ) 46 ( 13 ) 1 ( 2 ) 32 
+
+ Ending balance 
+ $ ( 194 ) $ ( 29 ) $ ( 2 ) $ ( 52 ) $ ( 277 ) $ ( 292 ) $ ( 6 ) $ ( 2 ) $ ( 50 ) $ ( 350 ) 
+
+ 23 
+
+ Common Stock in Treasury 
+
+ The Company values treasury stock on a cost basis. As of March 31, 2026, the Company held 20.8 million shares of common stock in treasury totaling $ 734 million, which include 0.7 million shares held in a trust for the benefit of the Company’s deferred compensation plan totaling $ 22 million. 
+
+ Stock-Based Compensation 
+
+ During the three months ended March 31, 2026, the Company awarded 2 million shares of Restricted Stock to its employees with a weighted average fair value of $ 59.97 per share. Approximately 84 % of these awards are time-based and vest ratably on each of the first three anniversary dates of the grants. Approximately 11 % cliff vest at the end of a three-year period and are subject to performance targets that may or may not be met and for which the performance period has not yet been completed. Approximately 5 % cliff vest and are based on performance targets containing a market condition determined over a three-year period. Included within these amounts were approximately 1 million shares of replacement Restricted Stock awards issued to former REV employees in connection with the REV Transaction, which are governed by the Terex Omnibus Incentive Plan. Additionally, during the three months ended March 31, 2026, the acceleration of certain awards related to the REV Transaction contributed incremental stock compensation expense of $ 25 million. 
+
+ Fair value of time-based awards is based on the market price of our common stock at the date of grant approval. The fair value of performance-based awards, except for awards based on a market condition, is based on the market price of our common stock at the date of grant approval, except fair values are multiplied by the probability of achievement as of the period-end date. For awards based on a market condition, fair value is based on the Monte Carlo method at grant date. The Monte Carlo method is a statistical simulation technique used to provide the grant date fair value of an award. The Company used the Monte Carlo method to determine grant date fair value of $ 73.99 per share for awards with a market condition granted on March 15, 2026. 
+
+ The following table presents the weighted-average assumptions used in the valuations: 
+
+ Grant date 
+
+ March 15, 2026 
+
+ Dividend yields 1.14 % 
+
+ Expected volatility 44.12 % 
+
+ Risk free interest rate 3.70 % 
+
+ Expected life (in years) 3 
+
+ 24 
+
+ Share Repurchases 
+
+ In December 2022, Terex’s Board of Directors (“Board”) authorized the repurchase of up to $ 150 million of the Company’s outstanding shares of common stock. In July 2025, the Board authorized a further repurchase of up to $ 150 million of the Company’s outstanding shares of common stock. The table below presents shares repurchased, based on trading date, inclusive of transactions executed but not settled, by the Company under these programs. 
+
+ Three Months Ended 
+
+ March 31 
+ Total Number of
+Shares Repurchased 
+ Amount of Shares Repurchased 
+
+ (in millions) 
+
+ 2026 
+ — — 
+
+ 2025 
+ 798,723 $ 33 
+
+ Dividends 
+
+ The table below presents the per share dividends declared by Terex’s Board and paid to the Company’s stockholders: 
+
+ Year First Quarter 
+
+ 2026 
+ $ 0.17 
+
+ 2025 
+ $ 0.17 
+
+ 25 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS 
+
+ BUSINESS DESCRIPTION 
+
+ Terex is a global industrial equipment manufacturer of materials processing machinery, waste and recycling solutions, customized vehicle solutions, mobile elevating work platforms (MEWPs), equipment for the electric utility industry, commercial and custom fire and ambulance vehicles, and recreational vehicles. We design, build, and support products used in maintenance, manufacturing, energy, waste and recycling, minerals and materials management, construction, the entertainment industry, emergency response, and the recreational vehicles market. We provide lifecycle support to our customers through our global parts and services organization, and offer complementary digital solutions, designed to help our customers maximize their return on their investment. Certain Terex products and solutions enable customers to reduce their impact on the environment including electric and hybrid offerings that deliver quiet and emission-free performance, products that support renewable energy, and products that aid in the recovery of useful materials from various types of waste. Our products are manufactured in North America, Europe, and Asia Pacific and sold worldwide. We engage with customers through all stages of the product life cycle, from initial specification to parts and service support. We report our business in the following segments: (i) Environmental Solutions (“ES”), (ii) Materials Processing (“MP”), (iii) Specialty Vehicles (“SV”) and (iv) Aerials. 
+
+ Overview 
+
+ On October 29, 2025, the Company entered into a definitive merger agreement with REV Group, Inc. (“REV”), a publicly traded manufacturer and distributor of specialty vehicles and related aftermarket parts and services, in a stock-and-cash transaction (the “REV Transaction”). On February 2, 2026 (the “Closing Date”), the Company completed the REV Transaction in accordance with the terms of the agreement. See Note D - “Acquisitions and Divestitures” in our Notes to Condensed Consolidated Financial Statements for additional information regarding the REV Transaction. 
+
+ This transaction is a significant milestone in Terex’s ongoing transformation, reinforcing the Company’s position as a leading specialty equipment manufacturer with a complementary and diversified portfolio. It positions the Company in resilient, high-demand markets with strong long-term growth potential and is expected to result in lower capital intensity, an improved net leverage profile and strong free cash flow generation. We continue to deploy the Terex Operating System (“TOS”) to further enhance operational efficiency, reduce fixed costs, and drive sustained improvements in operational execution. Our overall financial results in the first quarter were largely in line with our expectations. Net sales for the three months ended March 31, 2026 of $1,734 million, which include $436 million of sales generated by the new SV segment, increased 41.1% compared to the same period in prior year. Excluding the impact of SV, and $28 million of sales in the prior year period from the Company’s tower and rough terrain cranes businesses that were sold on October 31, 2025, net sales increased 8.1% year over year driven by higher sales in all the Company’s other segments. Adjusted EBITDA for the three months ended March 31, 2026 of $173 million, which include $62 million of Adjusted EBITDA generated by SV, increased 35.2% compared to the same period in 2025. Excluding the impact of SV, Adjusted EBITDA decreased 13.3% primarily driven by a decrease in Adjusted EBITDA within the Aerials segment. Additional information regarding segment specific results is provided in the “Results of Operations” section below. The Company’s free cash outflow for the three months ended March 31, 2026, was $57 million, which includes significant merger related costs incurred in connection with the REV Transaction. Backlog as of March 31, 2026 increased sequentially to $7.1 billion, driven by backlog acquired in connection with the REV Transaction and strong bookings within the MP and Aerials segments. 
+
+ In the first quarter of 2026, our largest market remained North America. Over the past 18 months, we deliberately shifted our end market exposure to more US-based, resilient and predictable sectors with attractive growth profiles. Our North American sales now represent approximately 80% of our global sales. As compared to the prior year, sales were up in North America, driven by the REV Transaction, and in all other major geographies. 
+
+ We continue to execute our capital allocation strategy by driving more operational cash through better net working capital management and by returning value to shareholders through dividends and opportunistic share repurchases. Our net working capital as a percentage of trailing three month annualized pro forma net sales was 16.7% as of March 31, 2026 compared to 20.8% for the year ended December 31, 2025. We continue to maintain ample liquidity with approximately $1,022 million available, as of March 31, 2026. See “Liquidity and Capital Resources” for a detailed description of liquidity and working capital levels, including the primary factors affecting such levels, as well as a reconciliation of net cash used in operating activities to free cash flow. 
+
+ 26 
+
+ Our key end markets remain resilient with reliable replacement and aftermarket demand, strengthened by the opportunity to differentiate through quality, technology and lifecycle support. In the waste & recycling market, we are expecting a modest reduction in CAPEX spending from certain customers in the first half of 2026 as they digest recently delivered vehicles. We anticipate Utilities market growth to be sustained by increasing demand for the U.S. electrical grid with majority of data center related growth still to come. Demand for Fire and Emergency vehicles is stable, tied to growing municipal budgets. In Construction, we continue to see robust Infrastructure activity supported by government funding. The pipeline of mega projects continues to expand, providing a tailwind through at least 2030. We are seeing modest improvement in Europe and Australia, however, the outlook in Europe is impacted by macro events. MP also continues to grow its aggregates and material handling businesses in India. 
+
+ 27 
+
+ RESULTS OF OPERATIONS 
+
+ Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025 
+
+ Consolidated 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ 1,734 — $ 1,229 — 41.1 % 
+
+ Gross profit 
+ 206 11.9 % 247 20.1 % (16.6) % 
+
+ Selling, general and administrative expenses 
+ 241 13.9 % 161 13.1 % 49.7 % 
+
+ Amortization of purchased intangibles 
+ 47 2.7 % 17 1.4 % 176.5 % 
+
+ Operating (loss) profit 
+ (82) (4.7) % 69 5.6 % * 
+
+ Interest expense, net of interest income 
+ 43 * 41 * 4.9 % 
+
+ Benefit from (provision for) income taxes 
+ 33 * (5) * * 
+
+ Net (loss) income 
+ (89) (5.1) % 21 1.7 % * 
+
+ Adjusted operating profit 
+ 150 8.6 % 111 9.1 % 35.1 % 
+
+ Adjusted EBITDA 
+ 173 9.9 % 128 10.4 % 35.2 % 
+
+ * Not a meaningful percentage 
+
+ Net Sales 
+
+ Net sales for the three months ended March 31, 2026 increased $505 million when compared to the same period in 2025, including sales generated from SV of $436 million. Excluding the impact of SV, and $28 million of sales in the prior year period from the Company’s tower and rough terrain cranes businesses which were sold on October 31, 2025, the increase in Net sales was primarily due to higher shipment volumes across most product lines and geographies in all other segments and positive effects of foreign exchange rate changes. 
+
+ Gross Profit 
+
+ Gross profit for the three months ended March 31, 2026 decreased $41 million when compared to the same period in 2025, primarily due to the inventory step-up and related amortization of $112 million recorded in connection with the REV Transaction, tariff cost within MP and Aerials, and unfavorable mix within ES and Aerials, partially offset by the gross profit contribution from SV and higher sales volumes within the MP and ES segments. 
+
+ Selling, general, and administrative expense 
+
+ Selling, general and administrative expenses for the three months ended March 31, 2026 increased $80 million when compared to the same period in 2025, primarily due to incremental intangibles amortization, transaction costs of $17 million and other costs related to the REV Transaction including acceleration of stock-based compensation expense and severance and retention costs, as well as negative effects of foreign exchange rate changes. These decreases were partially offset by cost reductions within Corporate, Aerials and MP. 
+
+ Amortization of purchased intangibles 
+
+ Amortization of purchased intangibles for the three months ended March 31, 2026 increased $30 million when compared to the same period in 2025, primarily due to the additional amortization expense from purchased intangibles resulting from the REV Transaction. 
+
+ Operating (loss) profit 
+
+ Operating loss for the three months ended March 31, 2026 was $82 million compared to Operating profit of $69 million in the same period in 2025. The decrease in Operating profit of $151 million was primarily due to the factors detailed above. 
+
+ 28 
+
+ Interest expense, net of interest income 
+
+ Interest expense, net of interest income, for the three months ended March 31, 2026 and 2025 was $43 million and $41 million, respectively. The increase in expense is primarily due to higher revolver borrowings and interest accrued on customer deposits, partially offset by lower term loan interest rates and higher interest income. 
+
+ Benefit from (provision for) income taxes 
+
+ During the three months ended March 31, 2026, we recognized income tax benefit of $33 million on a pre-tax loss of $126 million, an effective tax rate of 26.5%, as compared to income tax expense of $5 million on pre-tax income of $26 million, an effective tax rate of 20.3%, for the three months ended March 31, 2025. The higher effective tax rate for the three months ended March 31, 2026 when compared with the three months ended March 31, 2025 is primarily due to higher tax related to geographic distribution of income. 
+
+ On December 15, 2022, the European Union (“EU”) Member States formally adopted the EU’s Pillar Two Directive, which generally provides for a minimum effective tax rate of 15% for large corporations, as established by the Organization for Economic Co-operation and Development (“OECD”) Pillar Two Framework. A number of countries in which we operate have adopted legislation subject to the OECD transitional safe harbor rules, while other countries are still in the process of introducing legislation. In addition, the OECD continues to issue guidance on this matter including the technical documents released on January 5, 2026. Among this release, the OECD issued Administrative Guidance which includes a “Side by Side” System designed to align the U.S. tax regime with Pillar Two for U.S.-parented multinational groups, effective for tax years beginning on or after January 1, 2026. While the Company has determined the impact of enacted Pillar Two legislation on its financial statements is not material, the Company will continue to evaluate the financial statement impacts as additional Pillar Two rules are enacted and OECD guidance is issued. 
+
+ On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) (H.R.1) was signed in to law by the President of the United States. The OBBBA contains significant provisions impacting corporate taxation in the U.S. with multiple effective dates. Among the changes that were effective in 2025 were modifications to capitalization of domestic research and development costs, accelerated depreciation of fixed assets and other qualifying property, as well as limitations on deductions for interest expense. Changes effective in 2026 include, among others, modifications to certain international tax provisions. The impacts of OBBBA are reflected in our results for the quarter ended March 31, 2026. There was no material effect on our income tax benefit or effective tax rate. 
+
+ Net (loss) income 
+
+ Net loss for the three months ended March 31, 2026 was $89 million compared to Net income of $21 million in the same period in 2025. The decrease in Net income of $110 million was primarily due to the factors detailed above. 
+
+ Adjusted operating profit 
+
+ Adjusted operating profit for the three months ended March 31, 2026 increased $39 million when compared to the same period in 2025, primarily due to Adjusted operating profit generated by REV of $58 million, higher sales volumes in certain segments and cost reductions, partially offset by tariff cost and unfavorable mix within ES and Aerials. 
+
+ Adjusted EBITDA 
+
+ Adjusted EBITDA for the three months ended March 31, 2026 increased $45 million when compared to the same period in 2025, primarily due to Adjusted EBITDA generated by SV of $62 million, higher sales volumes in in MP and operational improvement initiatives, partially offset by tariff, which were not in effect in the prior year period, and unfavorable mix within Aerials, and product mix within ES. 
+
+ Environmental Solutions 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ 412 — $ 399 — 3.3 % 
+
+ Adjusted EBITDA 
+ $ 74 18.0 % $ 81 20.3 % (8.6) % 
+
+ 29 
+
+ Net sales for the three months ended March 31, 2026 increased $13 million when compared to the same period in 2025, primarily due to strong throughput and delivery of utilities products, partially offset by lower shipments of refuse collection vehicles. 
+
+ Adjusted EBITDA for the three months ended March 31, 2026 decreased $7 million when compared to the same period in 2025, primarily due to unfavorable product mix, partially offset by higher sales volume and synergy realization. 
+
+ Materials Processing 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ 419 — $ 382 — 9.7 % 
+
+ Adjusted EBITDA 
+ $ 63 15.0 % $ 43 11.2 % 46.5 % 
+
+ Net sales for the three months ended March 31, 2026 increased $37 million when compared to the same period in 2025, primarily due to higher shipment volumes across most product lines and geographies as well as positive effects of foreign exchange rate changes. These increases were partially offset by the absence of sales from the Company’s tower and rough terrain crane businesses, which were sold on October 31, 2025 and are included in the prior‑year period. 
+
+ Adjusted EBITDA for the three months ended March 31, 2026 increased $20 million when compared to the same period in 2025, primarily due to higher sales volume, price realization and efficiency improvement. 
+
+ Specialty Vehicles 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ 436 — $ — — * 
+
+ Adjusted EBITDA 
+ $ 62 14.2 % $ — * * 
+
+ * Not a meaningful percentage 
+
+ Net sales and Adjusted EBITDA represent the results of operations of REV from the REV Transaction since February 2, 2026. See Note D - “Acquisitions and Divestitures” in our Condensed Consolidated Financial Statements for additional information regarding the REV Transaction. 
+
+ 30 
+
+ Aerials 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ 469 — $ 450 — 4.2 % 
+
+ Adjusted EBITDA 
+ $ — — % $ 20 4.4 % (100.0) % 
+
+ Net sales for the three months ended March 31, 2026 increased $19 million when compared to the same period in 2025, primarily due to positive effects of foreign exchange rate changes and higher shipment volumes in Western Europe across most product lines, partially offset by unfavorable mix. 
+
+ Adjusted EBITDA for the three months ended March 31, 2026 decreased $20 million when compared to the same period in 2025, primarily due to tariffs incurred in the current year that were not present in the prior year period, as well as temporary unfavorable mix and timing of price realization. 
+
+ Corporate and Other / Eliminations 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ % of
+Sales % of
+Sales % Change In
+Reported Amounts 
+
+ ($ amounts in millions) 
+
+ Net sales $ (2) — $ (2) — — % 
+
+ Adjusted EBITDA 
+ (26) * (16) * (62.5) % 
+
+ * Not a meaningful percentage 
+
+ Adjusted EBITDA for the three months ended March 31, 2026 decreased $10 million when compared to the same period in 2025. The decrease is primarily due to additional costs driven by the REV Transaction which includes higher compensation costs and technology expenses. 
+
+ Non-GAAP Measures 
+
+ In this document, we refer to various GAAP (U.S. generally accepted accounting principles) and non-GAAP financial measures. These non-GAAP measures may not be comparable to similarly titled measures being disclosed by other companies. Management believes that presenting these non-GAAP financial measures provide investors with additional analytical tools which are useful in evaluating our operating results and the ongoing performance of our underlying businesses because they (i) provide meaningful supplemental information regarding financial performance by excluding the impact of one-time items and other items affecting comparability between periods, and non-cash items such as depreciation and amortization, (ii) permit investors to view performance using the same tools that management uses to budget, make operating and strategic decisions, and evaluate our core operating performance across periods, and (iii) otherwise provide supplemental information that may be useful to investors in evaluating our financial results. We do not, nor do we suggest that investors consider such non-GAAP financial measures in isolation from, or as a substitute for, financial information prepared in accordance with GAAP. 
+
+ We discuss Adjusted operating profit, which is defined as Operating profit or loss as adjusted for acquisition or divestiture related items, restructuring, purchase price accounting, and other items that we believe are not indicative of our ongoing operating performance. 
+
+ We also discuss Adjusted EBITDA. To determine Adjusted EBITDA, we adjust net income or net loss for the following items: non-cash depreciation and amortization, interest expense, income taxes, acquisition or divestiture related items, restructuring, purchase price accounting, and other items that we believe are not indicative of our ongoing operating performance. 
+
+ 31 
+
+ We calculate a non-GAAP measure of free cash flow. We define free cash flow as Net cash provided by (used in) operating activities less Capital expenditures, net of proceeds from sale of capital assets. We believe this measure of free cash flow provides management and investors further useful information on cash generation or use in our primary operations. 
+
+ Working capital is calculated using the Condensed Consolidated Balance Sheet amounts for Receivables (net of allowance) plus Inventories, less Trade accounts payable, and short and long-term Customer advances. We view excessive working capital as an inefficient use of resources, and seek to minimize the level of investment without adversely impacting ongoing operations of the business. Trailing three months annualized net sales is calculated using net sales for the most recent quarter end multiplied by four. The ratio calculated by dividing working capital by trailing three months annualized net sales is a non-GAAP measure we believe measures our resource use efficiency. 
+
+ Non-GAAP measures also include translation effect of foreign currency exchange rate changes on net sales, gross profit, selling, general & administrative expenses and operating profit, as well as net sales, gross profit, and SG&A costs and operating profit excluding the impact of acquisitions and divestitures. 
+
+ The following table reconciles Net (loss) income to Adjusted operating profit for the periods presented: 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Net (loss) income 
+ $ (89) $ 21 
+
+ Gain (loss) on disposition of discontinued operations – net of tax 4 — 
+
+ Benefit from (provision for) income taxes 
+ 33 (5) 
+
+ Interest income 4 2 
+
+ Interest expense (47) (43) 
+
+ Other expense – net (1) (2) 
+
+ Operating (loss) profit 
+ (82) 69 
+
+ Restructuring and other (a) 
+ 1 6 
+
+ Deal related (b) 
+ 68 5 
+
+ Purchase price accounting (c) 
+ 166 21 
+
+ Divestitures (d) 
+ (3) — 
+
+ Litigation related (e) 
+ — 10 
+
+ Adjusted operating profit 
+ $ 150 $ 111 
+
+ 32 
+
+ The following table reconciles Net (loss) income to Adjusted EBITDA for the periods presented: 
+
+ Three Months Ended March 31, 2026 
+
+ ES 
+ 
+ MP 
+ 
+ SV 
+ 
+ Aerials 
+ 
+ Corporate and Other / Elims 
+ 
+ Total 
+
+ Net income (loss) (1) 
+ $ 49 $ 60 $ (91) $ (8) $ (99) $ (89) 
+
+ Gain on disposition of discontinued operations – net of tax 
+ — — — — (4) (4) 
+
+ Benefit from income taxes 
+ — — — — (33) (33) 
+
+ Interest income — — — — (4) (4) 
+
+ Interest expense — 3 3 — 41 47 
+
+ Other expense 
+ — — — 1 — 1 
+
+ Operating profit (loss) 
+ 49 63 (88) (7) (99) (82) 
+
+ Depreciation 
+ 4 5 4 7 3 23 
+
+ Amortization 
+ 20 — 31 — 3 54 
+
+ Non-cash interest costs 
+ — — — (2) (2) 
+
+ EBITDA 
+ 73 68 (53) — (95) (7) 
+
+ Restructuring and other (a) 
+ 1 — — — — 1 
+
+ Deal related (b) 
+ — — — — 68 68 
+
+ Purchase price accounting (c) 
+ — — 113 — 1 114 
+
+ Divestitures (d) 
+ — (5) 2 — — (3) 
+
+ Adjusted EBITDA 
+ $ 74 $ 63 $ 62 $ — $ (26) $ 173 
+
+ (1) Management does not allocate income taxes, interest costs incurred at the Corporate level, and certain other Corporate items to the segments. 
+
+ Three Months Ended March 31, 2025 
+
+ ES MP Aerials 
+ Corporate and Other / Elims 
+ 
+ Total 
+
+ Net income (loss) (1) 
+ $ 56 $ 33 $ 2 $ (70) $ 21 
+
+ Provision for income taxes 
+ — — — 5 5 
+
+ Interest income — — — (2) (2) 
+
+ Interest expense — 3 — 40 43 
+
+ Other expense 
+ — — — 2 2 
+
+ Operating profit (loss) 
+ 56 36 2 (25) 69 
+
+ Depreciation 
+ 4 4 6 3 17 
+
+ Amortization 
+ 20 1 — 1 22 
+
+ Non-cash interest costs 
+ — — — (2) (2) 
+
+ EBITDA 
+ 80 41 8 (23) 106 
+
+ Restructuring and other (a) 
+ — 2 2 2 6 
+
+ Deal related (b) 
+ — — — — 5 5 
+
+ Purchase price accounting (c) 
+ 1 — — — 1 
+
+ Litigation related (e) 
+ — — 10 — 10 
+
+ Adjusted EBITDA 
+ $ 81 $ 43 $ 20 $ (16) $ 128 
+
+ (1) Management does not allocate income taxes, interest costs incurred at the Corporate level, and certain other Corporate items to the segments. 
+
+ 33 
+
+ a. Costs for the three months ended March 31, 2026 are associated with reduction in force in the ES segment. Costs for the three months ended March 31, 2025 are associated with restructuring programs across MP, Aerials, and Corporate segments. 
+
+ b. Costs for the three months ended March 31, 2026 are primarily related to the REV Transaction, including acceleration of stock-based compensation awards, severance and retention costs incurred, and transaction costs. Costs for the three months ended March 31, 2025 relate to costs incurred as part of the ESG integration. 
+
+ c. Costs for the three months ended March 31, 2026 primarily relate to the REV Transaction, and include inventory step-up, incremental stock based compensation cost for replacement stock awards, and amortization of purchased intangibles. Costs for the three months ended March 31, 2025 primarily relate to ESG, and primarily relate to the amortization of purchased intangibles. Amortization is not included within Purchase price accounting in the reconciliation of Net (loss) income to Adjusted EBITDA, as amortization is a separate line item within the reconciliation. 
+
+ d. Reflects a gain realized on the previously disposed of Cranes business, offset by the loss on sale of a business within the SV segment. 
+
+ e. Reflects costs incurred to settle a claim which was outside the normal course of business. 
+
+ LIQUIDITY AND CAPITAL RESOURCES 
+
+ We are focused on generating cash and maintaining liquidity (cash and availability under our revolving line of credit) for the efficient operation of our business. At March 31, 2026, we had cash and cash equivalents of $392 million and undrawn availability under our revolving line of credit of $630 million, giving us total liquidity of approximately $1,022 million. During the three months ended March 31, 2026, our liquidity decreased by approximately $550 million from December 31, 2025 primarily due to cash used for the REV Transaction, capital expenditures, operating activities, and dividend payments, partially offset by proceeds from the sale of a business. 
+
+ Our main sources of funding are cash generated from operations, including cash generated from the sale of receivables, loans from our bank credit facilities and funds raised in capital markets. We have no significant debt maturities until 2029. Our actions to maintain liquidity include disciplined management of costs and working capital. We believe these measures will provide us with adequate liquidity to comply with our financial covenants under our bank credit facility, continue to support internal operating initiatives and meet our operating and debt service requirements for at least the next 12 months from the date of issuance of this quarterly report. See Part I, Item 1A. – “Risk Factors” of our Annual Report on Form 10-K for the year ended December 31, 2025 and Part II Item 1A – “Risk Factors” of this Quarterly Report for a detailed description of the risks resulting from our debt and our ability to generate sufficient cash flow to operate our business. 
+
+ Our ability to generate cash from operations is subject to numerous factors, including the following: 
+
+ • The duration and depth of the global economic volatility resulting from tariffs, trade war, geopolitical uncertainty, inflationary pressures, foreign exchange rate volatility and high interest rates. 
+
+ • As our sales change, the amount of working capital needed to support our business may change. 
+
+ • Many of our customers fund their purchases through third-party finance companies that extend credit based on the creditworthiness of customers and expected residual value of our equipment. Changes either in customers’ credit profile or used equipment values may affect the ability of customers to purchase equipment. There can be no assurance that third-party finance companies will continue to extend credit to our customers as they have in the past. 
+
+ • Our suppliers extend payment terms to us primarily based on our overall credit rating. Deterioration in our credit rating may influence suppliers’ willingness to extend terms and in turn accelerate cash requirements of our business. 
+
+ • Sales of our products are subject to general economic conditions, tariffs, weather, competition, translation effect of foreign currency exchange rate changes, and other factors that in many cases are outside our direct control. For example, during periods of economic uncertainty, our customers have delayed purchasing decisions, which in turn reduces cash generated from operations. 
+
+ • Availability and utilization of other sources of liquidity such as trade account receivables sales programs. 
+
+ Typically, we have invested our cash in a combination of highly rated, liquid money market funds and in short-term bank deposits with large, highly rated banks. Our investment objective is to preserve capital and liquidity while earning a market rate of interest. 
+
+ We seek to use cash held by our foreign subsidiaries to support our operations and continued growth plans through the funding of capital expenditures, operating expenses or other similar cash needs of worldwide operations. Most of this cash could be used in the U.S., if necessary, without additional tax expense. Incremental cash repatriated to the U.S. would not be expected to 
+
+ 34 
+
+ result in material foreign income and withholding, U.S. federal or state income tax cost. We will continue to seek opportunities to tax-efficiently mobilize and redeploy funds. 
+
+ We had free cash outflow of $57 million for the three months ended March 31, 2026, respectively. The following table reconciles net cash used in operating activities to free cash outflow (in millions): 
+
+ Three Months Ended 
+3/31/2026 
+
+ Net cash used in operating activities 
+ $ (31) 
+
+ Capital expenditures 
+ (26) 
+
+ Free cash outflow 
+ $ (57) 
+
+ Pursuant to terms of our trade accounts receivable factoring arrangements, during the three months ended March 31, 2026, we sold, without material recourse, approximately $175 million of trade accounts receivable to enhance liquidity. 
+
+ Working capital as a percentage of trailing three month annualized pro forma net sales was 16.7% at March 31, 2026. The following tables show the calculation of our working capital and trailing three months annualized pro forma sales as of March 31, 2026 (in millions): 
+
+ Three Months Ended 
+
+ March 31, 2026 
+
+ Net sales, as reported 
+ $ 1,734 
+
+ REV Group pro forma net sales (January 2026) 
+ 180 
+
+ Total pro forma net sales 
+ 1,914 
+
+ x 4 
+
+ Trailing three month annualized pro forma net sales 
+ $ 7,656 
+
+ As of 
+
+ March 31, 2026 
+
+ Inventories $ 1,656 
+
+ Receivables 970 
+
+ Trade accounts payable 
+ (931) 
+
+ Short and long-term Customer advances 
+ (413) 
+
+ Working capital 
+ $ 1,282 
+
+ During the three months ended March 31, 2026, there were no shares of common stock repurchased, leaving approximately $183 million available for repurchase under our share repurchase programs. Our Board declared a dividend of $0.17 per share in the first quarter of 2026, which was paid to our stockholders. 
+
+ Our ability to access capital markets to raise funds, through sale of equity or debt securities, is subject to various factors, some specific to us and others related to general economic and/or financial market conditions. These include results of operations, projected operating results for future periods and debt to equity leverage. Our ability to access capital markets is also subject to our timely filing of periodic reports with the Securities and Exchange Commission. In addition, terms of our bank credit facilities and senior notes contain restrictions on our ability to make further borrowings and to sell substantial portions of our assets. 
+
+ Cash Flows 
+
+ Cash used in operations was $31 million and $21 million for the three months ended March 31, 2026 and 2025, respectively. The increase in cash used in operations was primarily driven by payments of transaction costs and severance in connection with the REV Transaction, partially offset by changes in working capital. 
+
+ Cash used in investing activities was $467 million and $26 million for the three months ended March 31, 2026 and 2025, respectively. The increase in cash used in investing activities relates primarily to cash consideration paid in connection with the REV Transaction, partially offset by proceeds from the sale of a business and lower capital expenditures. 
+
+ 35 
+
+ Cash provided by financing activities was $122 million for the three months ended March 31, 2026, compared to cash used in financing activities of $50 million for the prior year period. The increase in cash provided by financing activities was primarily driven by higher borrowings in the current year period and share repurchases in the prior‑year period not repeating in the current year period, partially offset by higher cash payments related to shares withheld for tax payment on Restricted Stock Awards and increased dividend payments. 
+
+ OFF-BALANCE SHEET ARRANGEMENTS 
+
+ Guarantees 
+
+ See Note J – “Litigation and Contingencies” in the Notes to Condensed Consolidated Financial Statements for information regarding our guarantees. 
+
+ CONTINGENCIES AND UNCERTAINTIES 
+
+ Foreign Exchange and Interest Rate Risk 
+
+ Our products are sold in over 100 countries around the world and, accordingly, our revenues are generated in foreign currencies, while costs associated with those revenues are only partly incurred in the same currencies. Primary currencies to which we are exposed are the Euro, British Pound, Chinese Yuan, Australian Dollar, Indian Rupee and Mexican Peso. We purchase hedging instruments to manage variability of future cash flows associated with recognized assets or liabilities due to changing currency exchange rates. 
+
+ We manage our exposure to interest rate risk by establishing a mix of indebtedness bearing interest at both floating and fixed rates at inception and maintain a ratio of floating and fixed rates on this mix of indebtedness using interest rate derivatives when necessary. 
+
+ See Item 3 “Quantitative and Qualitative Disclosures About Market Risk” for a discussion of the impact changes in foreign currency exchange rates and interest rates may have on our financial performance. 
+
+ Other 
+
+ We are subject to a number of contingencies and uncertainties including, without limitation, product liability claims, workers’ compensation liability, intellectual property litigation, self-insurance obligations, tax examinations, guarantees, class action lawsuits and other matters. See Note J – “Litigation and Contingencies” in the Notes to Condensed Consolidated Financial Statements for more information regarding contingencies and uncertainties. We are insured for product liability, general liability, workers’ compensation, employer’s liability, property damage, intellectual property and other insurable risks required by law or contract with retained liability to us or deductibles. Many of the exposures are unasserted or proceedings are at a preliminary stage, and it is not presently possible to estimate the amount or timing of any liability. However, we do not believe these contingencies and uncertainties will, individually or in aggregate, have a material adverse effect on our operations. For contingencies and uncertainties other than income taxes, when it is probable a loss will be incurred and possible to make reasonable estimates of our liability with respect to such matters, a provision is recorded for the amount of such estimate or for the minimum amount of a range of estimates when it is not possible to estimate the amount within the range that is most likely to occur. 
+
+ We generate hazardous and non-hazardous wastes in the normal course of our manufacturing operations. As a result, we are subject to a wide range of environmental laws and regulations. All of our employees are required to obey all applicable health, safety and environmental laws and regulations and must observe the proper safety rules and environmental practices in work situations. These laws and regulations govern actions that may have adverse environmental effects, such as discharges to air and water, and require compliance with certain practices when handling and disposing of hazardous and non-hazardous wastes. These laws and regulations would also impose liability for the costs of, and damages resulting from, cleaning up sites, past spills, disposals and other releases of hazardous substances, should any such events occur. We are committed to complying with these standards and monitoring our workplaces to determine if equipment, machinery and facilities meet specified safety standards. Each of our manufacturing facilities is subject to an environmental audit at least once every five years to monitor compliance. Also, no incidents have occurred which required us to pay material amounts to comply with such laws and regulations. We are dedicated to ensuring that safety and health hazards are adequately addressed through appropriate work practices, training and procedures. We are committed to reducing injuries and working towards a world-class level of safety practices in our industry. 
+
+ 36 
+
+ RECENT ACCOUNTING STANDARDS 
+
+ Please refer to Note A – “Basis of Presentation” in the accompanying Condensed Consolidated Financial Statements for a summary of recently issued accounting standards. 
+
+ 37 
+
+ ITEM 3. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK 
+
+ There have been no material changes in our exposure to interest rate risk, foreign exchange risk and commodity price risk from the information provided in our Annual Report on Form 10-K filed on February 13, 2026. 
+
+ ITEM 4. CONTROLS AND PROCEDURES 
+
+ Evaluation of Disclosure Controls and Procedures 
+
+ We maintain disclosure controls and procedures that are designed to ensure information required to be disclosed in reports we file under the Exchange Act is recorded, processed, summarized and reported within time periods specified in the Securities and Exchange Commission’s rules and forms, and such information is accumulated and communicated to our management, including our Chief Executive Officer (“CEO”) and Chief Financial Officer (“CFO”), as appropriate, to allow timely decisions regarding required financial disclosure. In connection with the preparation of this Quarterly Report on Form 10-Q, we carried out an evaluation, under supervision and with participation of our management, including the CEO and CFO, as of March 31, 2026, of the effectiveness of the design and operation of our disclosure controls and procedures, as such term is defined under Rule 13a-15(e) under the Exchange Act. Based upon this evaluation, our CEO and CFO concluded that our disclosure controls and procedures were effective as of March 31, 2026. 
+
+ Changes in Internal Control Over Financial Reporting 
+
+ As a result of the acquisition of REV on February, 2, 2026, our internal control over financial reporting, subsequent to the date of acquisition, includes certain additional controls related to REV. Except as described above, there were no changes in our internal control over financial reporting that occurred during the quarter ended March 31, 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. 
+
+ Effectiveness of any system of controls and procedures is subject to certain limitations, and, as a result, there can be no assurance our controls and procedures will detect all errors or fraud. A control system, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that objectives of the control system will be attained. 
+
+ 38 
+
+ PART II. OTHER INFORMATION 
+
+ Item 1. Legal Proceedings 
+
+ For information regarding litigation and other contingencies and uncertainties, see Note J - “Litigation and Contingencies,” in the Notes to Condensed Consolidated Financial Statements. 
+
+ Item 1A. Risk Factors 
+
+ There have been no material changes in our risk factors previously disclosed in Part I, Item 1A. – “Risk Factors” of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+
+ Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+
+ Purchases of Equity Securities 
+
+ The following table provides information about our purchases during the quarter ended March 31, 2026 of our common stock that is registered by us pursuant to the Exchange Act. 
+
+ Issuer Purchases of Equity Securities 
+
+ Period 
+ Total Number of Shares Purchased (1) 
+ Average Price Paid per Share 
+ Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs (2) 
+ 
+ Approximate Dollar Value of Shares that May Yet be Purchased 
+
+ Under the Plans or Programs (in thousands) (2) 
+
+ January 1, 2026 - January 31, 2026 
+ 1,227 $57.80 — $183,005 
+
+ February 1, 2026 - February 28, 2026 
+ 1,127 $65.49 — $183,005 
+
+ March 1, 2026 - March 31, 2026 
+ 5,485 $63.82 — $183,005 
+
+ Total 7,839 $63.12 — $183,005 
+
+ (1) Amount includes shares of common stock purchased to satisfy requirements under the Company’s deferred compensation obligations to employees. 
+
+ (2) In December 2022, our Board of Directors authorized the repurchase of up to $150 million of our outstanding shares of common stock. In July 2025, our Board authorized a further repurchase of up to $150 million of our outstanding shares of common stock. 
+
+ Item 3. Defaults Upon Senior Securities 
+
+ Not applicable. 
+
+ Item 4. Mine Safety Disclosures 
+
+ Not applicable. 
+
+ Item 5. Other Information 
+
+ During the three months ended March 31, 2026, none of our directors or officers (as defined in Rule 16a-1(f) of the Exchange Act) adopted , modified or terminated a “Rule 10b5-1 trading arrangement” or a “non-Rule 10b5-1 trading arrangement” as such terms are defined under Item 408 of Regulation S-K. 
+
+ 39 
+
+ Item 6. Exhibits 
+
+ The exhibits set forth below are filed as part of this Form 10-Q. 
+
+ Exhibit No. Exhibit 
+
+ 2.1 
+ Agreement and Plan of Merger , dated as of October 29, 202 5 , by and among Terex Corporation, REV Group, Inc., Tag Merger Sub 1 Inc. and Tag Merger Sub 2 LLC (incorporated by reference to Exhibit 2.1 of the Company ’ s Current Report on Form 8-K filed on October 30, 2025). 
+
+ 31.1 
+ Chief Executive Officer Certification pursuant to Rule 13a-14(a)/15d-14(a). * 
+
+ 31.2 
+ Chief Financial Officer Certification pursuant to Rule 13a-14(a)/15d-14(a). * 
+
+ 32 
+ Chief Executive Officer and Chief Financial Officer Certification pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes – Oxley Act of 2002. ** 
+
+ 101.INS XBRL Instance Document - the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document. 
+
+ 101.SCH XBRL Taxonomy Extension Schema Document. * 
+
+ 101.CAL XBRL Taxonomy Extension Calculation Linkbase Document. * 
+
+ 101.DEF XBRL Taxonomy Extension Definition Linkbase Document. * 
+
+ 101.LAB XBRL Taxonomy Extension Label Linkbase Document. * 
+
+ 101.PRE XBRL Taxonomy Extension Presentation Linkbase Document. * 
+
+ 104 Cover Page Interactive Data File (formatted as Inline XBRL and contained in Exhibit 101). 
+
+ * Exhibit filed with this document. 
+
+ ** Exhibit furnished with this document. 
+
+ 40 
+
+ SIGNATURES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+
+ TEREX CORPORATION 
+
+ (Registrant) 
+
+ Date: May 1, 2026 
+ /s/ Simon A. Meester 
+
+ Simon A. Meester 
+
+ President, Chief Executive Officer and Director 
+
+ (Principal Executive Officer) 
+
+ Date: May 1, 2026 
+ /s/ Jennifer Kong-Picarello 
+
+ Jennifer Kong-Picarello 
+
+ Senior Vice President and Chief Financial Officer 
+
+ (Principal Financial Officer) 
+
+ Date: May 1, 2026 
+ /s/ Joseph LaDue 
+
+ Joseph LaDue 
+
+ Vice President, Chief Accounting Officer and Controller 
+
+ (Principal Accounting Officer) 
+
+ 41
