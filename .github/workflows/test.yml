@@ -1,0 +1,38 @@
+name: tests
+
+# The regression suite is this project's only guard against shipping a wrong number,
+# and until now it ran ONLY inside the daily screen — on a schedule, after merge, on
+# main. A pull request touching the valuation core got no CI at all, which meant the
+# tests could not do the one job they exist for: catching a bad change before it
+# reaches the number the human acts on.
+#
+# Offline and sub-second by design (see test_engine.py), so this costs nothing.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Regression tests
+        run: python test_engine.py
+      # The suite prints "N passed, M failed" and exits non-zero on failure; this makes
+      # the count visible in the checks UI without opening the log.
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Regression tests"
+            echo '```'
+            python test_engine.py 2>&1 | tail -5 || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
