@@ -121,9 +121,14 @@ which trading session the prices are from; the analyst stops if that file is mis
 stale. It had been inferring readiness from a date stamp, which passed on a day the
 scheduled run fired seven hours late.
 
-**The screen runs pre-market (7:23am ET) so prices are always the prior close.** Two
-cron entries cover both DST offsets and a guard step drops whichever is not 7am Eastern.
-Running intraday let one name report two different prices on one calendar day.
+**The screen runs pre-market (10:23 UTC) so prices are always the prior close.** One cron,
+in UTC — 06:23 ET in summer, 05:23 ET in winter, pre-market in both, and an hour ahead of
+the analyst routine that reads its output. Running intraday let one name report two
+different prices on one calendar day. Correctness no longer depends on the schedule
+holding, though: `prices.drop_incomplete_session` discards the partial bar yfinance
+returns for a session still in progress, so a delayed run is merely late rather than
+wrong. The two-cron DST guard this replaced skipped the whole day — silently, and green —
+whenever a run began outside the 07:00 ET hour.
 
 ## Things that are easy to get wrong here
 These are all real bugs that were found and fixed; do not reintroduce them.

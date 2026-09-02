@@ -325,12 +325,55 @@ def justified_pb(fund, price, wacc_block, roe_override=None,
     if not ni_s or not eq_s or not _fin(shares) or shares <= 0 or not price_ok:
         return {"ok": False, "flags": ["insufficient_book_or_earnings_history"]}
 
+    # Tangible COMMON equity, which is what P/TBV is a multiple of. Two claims that are
+    # not the common shareholder's have to come out, and whether they are already out
+    # depends on which XBRL concept the extractor happened to pick:
+    #   * Preferred always sits inside StockholdersEquity, so it always comes out.
+    #   * Minority interest is inside the "IncludingPortionAttributableToNoncontrolling
+    #     Interest" variant and inside IFRS `Equity`, but NOT inside plain
+    #     StockholdersEquity, which is parent-only.
+    # Deducting NCI unconditionally is therefore as wrong as never deducting it. Verified
+    # both directions against filings: JXN's equity carries $389M of NCI and $533M of
+    # preferred (reported TBV/share $146.95 against a correct $133.34), while MFIN's
+    # balance sheet shows "Total stockholders' equity 408,617" with "Non-controlling
+    # interest 99,429" listed separately BELOW it -- so MFIN's $10.46 was already right
+    # and deducting its NCI would have understated tangible book by 41%.
+    _NCI_INSIDE = {"StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+                   "Equity"}
+    eq_concept = fund.get("equity_concept")
+    nci = fund.get("minority_interest") or 0.0
+    pref_now = fund.get("preferred") or 0.0
+    if eq_concept is None and nci > 0:
+        # Pre-schema-2 extract: we cannot tell, so we do not guess. Say so rather than
+        # applying a correction that is right for one filer and wrong for the next.
+        flags.append("nci_treatment_unverified_equity_concept_not_recorded")
+    deduct_nci = nci if eq_concept in _NCI_INSIDE else 0.0
+
     def _tce_at(i):
         if i >= len(eq_s) or eq_s[i] is None:
             return None
         gw = gw_s[i] if i < len(gw_s) and gw_s[i] is not None else 0.0
         it = int_s[i] if i < len(int_s) and int_s[i] is not None else 0.0
-        return eq_s[i] - gw - it
+        # NCI and preferred are only available as latest levels, not as series, so the
+        # same deduction is applied across the window. That is the lesser evil: the
+        # alternative is a ratio whose numerator and denominator describe different
+        # claims on the business.
+        return eq_s[i] - gw - it - deduct_nci - pref_now
+
+    # Numerator must describe the same claim as the denominator. Tangible common equity
+    # is net of preferred, so earnings should be too; use income available to common
+    # where the filer tags it and fall back otherwise, saying which was used.
+    ni_common = fund.get("net_income_common_series") or []
+    if len(ni_common) >= min(len(ni_s), 2):
+        ni_s, ni_basis = ni_common, "net_income_available_to_common"
+    else:
+        ni_basis = "net_income"
+        if pref_now > 0:
+            flags.append("rotce_numerator_is_before_preferred_dividends_but_book_is_net_of_preferred")
+    # ProfitLoss includes the minority's earnings; pairing it with a book value that
+    # excludes them overstates the return.
+    if fund.get("net_income_concept") == "ProfitLoss" and deduct_nci > 0:
+        flags.append("rotce_numerator_includes_minority_interest_earnings")
 
     # sustainable return: mean of per-year ROTCE ratios
     ratios = []
@@ -374,6 +417,8 @@ def justified_pb(fund, price, wacc_block, roe_override=None,
         flags.append(f"extreme_gap_{gap:+.0%}_treat_as_suspected_data_error")
     return {"ok": True, "method": "justified_p_tbv", "rotce": rotce,
             "rotce_by_year": ratios, "cost_of_equity": coe,
+            "rotce_numerator": ni_basis,
+            "nci_deducted": deduct_nci, "preferred_deducted": pref_now,
             "tangible_book": tce_now, "tangible_book_per_share": tbvps,
             "justified_p_tbv": justified, "actual_p_tbv": actual,
             "fair_value": fv, "price": price, "gap": gap, "flags": flags}

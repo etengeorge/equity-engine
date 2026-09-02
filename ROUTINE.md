@@ -34,6 +34,28 @@ A scheduled Action run has already fired seven hours late once. The date on the 
 is not sufficient evidence that today's work is ready — that is exactly what this file
 exists to replace.
 
+**If the handshake fails, find out why before you stop.** "Stop and report" means do not
+research against stale data; it does not mean give up on the day without diagnosing. GitHub
+drops scheduled runs sometimes, and on 2026-09-01 it dropped this one entirely. Work down
+this list:
+
+1. List recent runs of `screen.yml`. If the newest is yesterday's, the cron did not fire —
+   that is a GitHub failure, not a data failure, and the fix is one dispatch.
+2. If no run fired today, dispatch `screen.yml` yourself with no inputs (`workflow_dispatch`
+   always proceeds). It takes about five minutes and writes `data/ready.json` on success.
+   Then `git pull` and re-check `status`. This is sanctioned: it is the same job the cron
+   would have run, on the same code, and it changes no state the scheduled run would not
+   have changed.
+3. If a run DID fire and failed, read its logs and report the failure. Do not dispatch on
+   top of a real failure — you would just reproduce it.
+4. If a run fired, succeeded, and `ready` is still missing or stale, stop and report. That
+   is a genuine engine bug and researching through it is how the previous version of this
+   project wasted 27 days.
+
+Never research against yesterday's briefs. `briefs/` is left over from the previous session
+when the Action has not run, and the ten names in it have usually already been researched —
+you would be redoing finished work against stale prices and reporting it as today's.
+
 ### 1b. Establish what you can actually reach
 ```bash
 for h in www.sec.gov data.sec.gov; do

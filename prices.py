@@ -5,6 +5,7 @@ so we always go through the library, and we download in bulk (hundreds of ticker
 rather than per-name.
 """
 import math, datetime as dt
+from zoneinfo import ZoneInfo
 import pandas as pd
 import config
 
@@ -130,6 +131,35 @@ def alternates(ticker, name=""):
     return [s for s in dict.fromkeys(out) if s != ticker]
 
 
+def drop_incomplete_session(closes, vols=None, now_et=None):
+    """Remove today's bar while the US market is still open.
+
+    yfinance hands back a partial bar for the session in progress, and it is
+    indistinguishable from a close in the frame. The engine relied on the 07:23 ET cron
+    to stay ahead of the open instead of checking, which made correctness a property of
+    the SCHEDULE rather than of the data: a scheduled run has already been delayed 7h10m
+    once, and the DST guard's response to a late run was to skip the day silently. With
+    the partial bar dropped here, a late run is merely late — it still prices off the
+    last completed session and reports the right `price_asof`.
+
+    Only drops a bar dated today before 16:00 ET. A bar for any earlier date is a real
+    close and is always kept, so this is a no-op for the normal pre-market run.
+    """
+    if closes is None or closes.empty:
+        return closes, vols, None
+    now_et = now_et or dt.datetime.now(ZoneInfo("America/New_York"))
+    if now_et.hour >= 16:                    # regular session has closed
+        return closes, vols, None
+    last = closes.index[-1].date()
+    if last != now_et.date():
+        return closes, vols, None
+    dropped = str(last)
+    closes = closes.iloc[:-1]
+    if vols is not None and not vols.empty and vols.index[-1].date() == now_et.date():
+        vols = vols.iloc[:-1]
+    return closes, vols, dropped
+
+
 def build_quotes(tickers, names=None):
     """One row per ticker: price, trailing returns, liquidity, beta.
     This is the file the screen and the selector both read."""
@@ -161,6 +191,12 @@ def build_quotes(tickers, names=None):
         print(f"[prices] resolved: {remap}", flush=True)
     if closes.empty:
         raise RuntimeError("price download returned nothing — check network/yfinance")
+    closes, vols, dropped = drop_incomplete_session(closes, vols)
+    if dropped:
+        print(f"[prices] dropped {dropped}: the session is still open, so that bar is "
+              f"a partial print, not a close", flush=True)
+    if closes.empty:
+        raise RuntimeError("no completed session left after dropping the partial bar")
     bench = closes[BENCH] if BENCH in closes else None
     asof = str(closes.index[-1].date())
     rows = []
