@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>SLAB — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / SLAB</p><h1>SLAB <span style='color:var(--faint);font-weight:400'>SILICON LABORATORIES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$219.12</b></div><div>Analyst gap<b>-75%</b></div><div>Dated<b>2026-09-02</b></div></div><div class='prose'><h1>SLAB — SILICON LABORATORIES</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-02 — NO_EDGE (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_edge · price $219.12 · fair value $53.77 · gap -75.5%</li><li><strong>Growth:</strong> market implies +48.0%, analyst says +5.0% (delta -43.0%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 9.0% | 10.0% | 11.0% | 12.0% | 13.0% | |---|---|---|---|---|---|---| | bear | +0.0% | $55.58 | $49.89 | $45.45 | $41.90 | $38.99 | | base | +5.0% | $66.64 | $59.40 | $53.77 | $49.26 | $45.58 | | bull | +10.0% | $79.87 | $70.76 | $63.68 | $58.03 | $53.41 |</p><p>At the point WACC of 11.0%: bear -79.3%, base -75.5%, bull -70.9% Across the whole grid the gap ranges -82.2% to -63.6% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> There is no cash-flow case to steelman. Silicon Labs agreed on 2026-02-04 to be acquired by Texas Instruments for $231.00 per share in cash, an all-cash deal at roughly $7.5B enterprise value, unanimously approved by both boards and expected to close in the first half of 2027 subject to regulatory approval and a shareholder vote. At $219.12 the stock is trading at a 5.4% gross discount to the deal price. That discount, not any view on IoT connectivity growth, is what sets the price: it is the market&#x27;s estimate of deal risk and the time value of money over roughly nine months to close.</p><p><strong>What changed.</strong> The company suspended forward guidance because of the pending TI acquisition. Q2 2026 (reported 2026-08-11) revenue $228M, up 18.3% year over year, with Industrial &amp; Commercial $135M (+23%) and Home &amp; Life $93M (+12%); GAAP net loss $10.6M, non-GAAP net income $23.8M ($0.71/share). Underlying IoT demand is recovering, but none of it is priceable while a fixed cash price is on the table.</p><p><strong>Base case.</strong> A five-year FCFF growth rate is the wrong question for this security and I am recording one only because the schema requires it. The payoff is a fixed $231.00 in cash on a date, not a stream of cash flows. If the deal closes, the fundamental growth rate is irrelevant to the holder; if it breaks, the relevant starting point is the unaffected price, which was roughly 69% below the deal price ($137), not today&#x27;s $219.12. Any DCF run on today&#x27;s price is measuring the merger spread and calling it a growth expectation.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that I am dismissing the model&#x27;s output rather than testing it, and the model might still be telling me something: it says the price implies +48% FCFF growth (+75% with stock compensation expensed), which would be a genuine warning if SLAB were a standalone company. If the deal breaks on antitrust grounds — a real possibility given both parties sell embedded wireless connectivity into overlapping industrial and consumer sockets — then that standalone valuation becomes the live one immediately, and it says the business is worth far less than $219. So the DCF is not irrelevant; it is the downside case, and it is severe.</li><li>What would prove it: The regulatory calendar: second-request or Phase 2 filings in the US, EU and China, and whether TI is required to divest anything. A widening spread would price rising break risk.</li><li>Already visible today: Yes, and it points the other way for now. The 5d/21d/63d returns are +0.3%/+0.5%/+0.2% — the price has been pinned essentially flat for a quarter, which is the signature of a market that regards the deal as very likely to close. A market pricing real break risk would show a widening, volatile spread. I did not find any reported regulatory objection.</li><li>Left unresolved: I could not establish the current status of the regulatory reviews, the outside date in the merger agreement, or whether a break fee exists. I did not read the DEFM14A. That is the document that would size the downside properly, and I did not fetch it because it does not change the verdict — no_edge holds whether break risk is 3% or 15%.</li></ul><p><strong>Key risks.</strong> Antitrust review of TI&#x27;s largest acquisition in fifteen years; a break returns the stock toward its ~$137 unaffected price, roughly -37%; Merger arbitrage is a different discipline from valuation and is not what this engine screens for; The screen will keep flagging this name as -81% &#x27;rich&#x27; every day until it delists, because nothing in the model knows a deal exists <strong>Watch for.</strong> Regulatory clearance or a second request in any of the US, EU or China reviews; The shareholder vote on the merger; Any widening of the spread beyond ~8%, which would mean the market has started pricing real break risk</p><p><strong>Data quality.</strong> Both flags in the brief are real but immaterial to the verdict. Stock compensation at 57% of the FCFF base and the trough-cycle flag (newest FCF 0.46x oldest) would both matter for a standalone valuation; neither matters when the price is a fixed cash number. The important data-quality point is one the brief cannot raise: no field in this engine records that a company is subject to a definitive cash merger agreement, so the reverse DCF is being run on a price that is not a market opinion about cash flows. This is a repeatable class of error — any Russell 2000 name under an announced cash deal will screen as extremely rich and consume a rotation slot for no reason.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html" rel="noopener">https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html</a></li><li><a href="https://investor.silabs.com/news-releases/news-release-details/texas-instruments-acquire-silicon-labs" rel="noopener">https://investor.silabs.com/news-releases/news-release-details/texas-instruments-acquire-silicon-labs</a></li><li><a href="https://www.cnbc.com/2026/02/04/texas-instruments-to-buy-chip-designer-silicon-laboratories.html" rel="noopener">https://www.cnbc.com/2026/02/04/texas-instruments-to-buy-chip-designer-silicon-laboratories.html</a></li><li><a href="https://news.silabs.com/2026-08-11-Silicon-Labs-Reports-Second-Quarter-2026-Results" rel="noopener">https://news.silabs.com/2026-08-11-Silicon-Labs-Reports-Second-Quarter-2026-Results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811q2earningsrel.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811q2earningsrel.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/SLAB.md'>research/Information Technology/SLAB.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

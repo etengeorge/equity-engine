@@ -92,6 +92,42 @@ mid-2027). Until then, these are the STANDING priors the red team should hold th
   was visible and one search away: Q2 gross margin −340bp to 54.2% on occupancy deleverage and
   promotions, pre-tax income $11.6M vs $15.3M. The verdict went cheap → no_edge on the afternoon
   pass. A red team that names its own test and never runs it is doing half the work.
+- Rental and leasing fleet purchases are invisible to the capex extractor, and the error always reads as
+  cheapness. CTOS's `capex_series` is [$0.87M, $3.07M] — under $4M across two years for a company that
+  bought $191.6M of rental equipment in the six months to 2026-06-30 and guides $170-200M of NET fleet
+  investment for 2026. The extractor takes only non-rental property capex, so every dollar of fleet
+  spending stays in CFO. The model therefore reported a $241.5M normalized FCFF base against the
+  company's own guidance of levered free cash flow "in excess of $50 million", and the whole +184% gap
+  and 95th-percentile cohort rank came from that. ALTG has the same shape ([$9.2M, $15.4M, $12.4M] for a
+  dealer with a rental fleet). Understated capex overstates free cash flow and manufactures a positive
+  gap every time, so like the convertible bug this produces false buys, not noise. Suspect it on any
+  equipment rental, leasing or fleet name; the cheap detector is capex as a percentage of revenue against
+  the fleet purchases disclosed in investing activities.
+- Revolver and ABL balances get dropped from `total_debt`, and the same interest-coverage detector catches
+  it. ALTG's extract records $497.2M — the $500M of second-lien notes net of issuance costs — while the
+  2026-06-30 10-Q reports $730.6M of debt and finance leases, because the $209.6M line of credit is
+  missing entirely, and $85.2M of used/rental floor plan sits outside both. `interest_expense / total_debt`
+  reads 17.8% against stated coupons of 9.00% and 5.3%, which is impossible. Screening the universe for
+  an implied rate above 12% together with a gap above +50% returns 25 names, including UPBD, COLL, THRY,
+  HOV, ARKO, BXC, STNG and UVV — several already flagged as convertible suspects, which suggests one
+  detector is finding two different missing-debt bugs. Missing debt lowers EV, lowers implied growth and
+  manufactures cheapness, always in that direction.
+- A name under an announced all-cash merger is not a valuation, and nothing in the engine knows it. SLAB
+  agreed on 2026-02-04 to be acquired by Texas Instruments at $231.00 cash, closing H1 2027; at $219.12 it
+  is a 5.4% merger spread. The reverse DCF dutifully reported +48% implied growth and an -80.9% gap, and
+  will keep reporting it every session until the name delists. The tape says it plainly without any news
+  at all: 5d/21d/63d returns of +0.3%/+0.5%/+0.2% are a price pinned to a fixed number, not a market
+  opinion about cash flows. Treat near-zero dispersion across all three return windows as a deal-stock
+  tell and check for a pending acquisition before spending a slot.
+- A failed beta regression still gets used, and on a financial it is the whole gap. GLRE's cost of equity
+  of 6.5% comes from a beta of 0.31 whose R-squared is 0.068, recorded with `beta_source = regression` —
+  the gate did not fire. Combined with a "sustainable" ROTCE of 10.6% averaged over a range the model
+  itself flags as unstable (6.7%-14.6%), against a company whose book value per share rose 0.9% in six
+  months, that produced a justified P/TBV of 1.91 against an actual 0.74 and a +170.8% gap. The tangible
+  book was right — I verified it against the 10-Q — so this is the JXN pattern again: on a financial, check
+  BOTH inputs to the justified multiple, not just the book value. OSCR carries the same defect (R-squared
+  0.051). Note that the analyst JSON has no field to override cost of equity, so a name whose gap is
+  produced by a bad beta cannot be corrected in the record — only the verdict can say so.
 
 ---
 

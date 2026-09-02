@@ -1,0 +1,187 @@
+{
+  "ticker": "ALTG",
+  "date": "2026-09-02",
+  "sector": "Industrials",
+  "name": "ALTA EQUIPMENT GROUP INC CLASS A",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.03,
+  "bear_growth": -0.08,
+  "bull_growth": 0.14,
+  "rotce_override": null,
+  "horizon_months": 36,
+  "price_at_verdict": 5.71999979019165,
+  "market_implied_growth": 0.002268567334646865,
+  "cohort_pct": 98.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.002268567334646865,
+    "growth_delta": 0.027731432665353134,
+    "fair_value": 7.972707658341855,
+    "price": 5.71999979019165,
+    "gap": 0.393830061325007,
+    "fair_value_band": {
+      "low": 6.563048051969173,
+      "point": 7.972707658341855,
+      "high": 9.582325602584502
+    },
+    "fcff_base_used": 105233333.33333334,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.1713067745556376,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 105233333.33333334,
+      "price": 5.71999979019165,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.08,
+          "cells": [
+            {
+              "wacc": 0.1513067745556376,
+              "fair_value": 2.211051499578748,
+              "gap": -0.6134525208602033
+            },
+            {
+              "wacc": 0.16130677455563758,
+              "fair_value": 1.1247925220045085,
+              "gap": -0.8033579434857249
+            },
+            {
+              "wacc": 0.1713067745556376,
+              "fair_value": 0.17908651279454668,
+              "gap": -0.9686911679434613
+            },
+            {
+              "wacc": 0.1813067745556376,
+              "fair_value": -0.6520863525850316,
+              "gap": -1.1140011147733246
+            },
+            {
+              "wacc": 0.19130677455563758,
+              "fair_value": -1.3886761588292194,
+              "gap": -1.242775561147825
+            }
+          ],
+          "fair_value_at_point_wacc": 0.17908651279454668,
+          "gap_at_point_wacc": -0.9686911679434613
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.1513067745556376,
+              "fair_value": 11.437608287122734,
+              "gap": 0.9995819417223288
+            },
+            {
+              "wacc": 0.16130677455563758,
+              "fair_value": 9.582325602584502,
+              "gap": 0.6752318101507209
+            },
+            {
+              "wacc": 0.1713067745556376,
+              "fair_value": 7.972707658341855,
+              "gap": 0.393830061325007
+            },
+            {
+              "wacc": 0.1813067745556376,
+              "fair_value": 6.563048051969173,
+              "gap": 0.14738606515740393
+            },
+            {
+              "wacc": 0.19130677455563758,
+              "fair_value": 5.31831365164333,
+              "gap": -0.0702248519723917
+            }
+          ],
+          "fair_value_at_point_wacc": 7.972707658341855,
+          "gap_at_point_wacc": 0.393830061325007
+        },
+        {
+          "case": "bull",
+          "growth": 0.14,
+          "cells": [
+            {
+              "wacc": 0.1513067745556376,
+              "fair_value": 24.87736932722043,
+              "gap": 3.3491906013491137
+            },
+            {
+              "wacc": 0.16130677455563758,
+              "fair_value": 21.858256915254447,
+              "gap": 2.8213737267500982
+            },
+            {
+              "wacc": 0.1713067745556376,
+              "fair_value": 19.245353687348224,
+              "gap": 2.364572446374758
+            },
+            {
+              "wacc": 0.1813067745556376,
+              "fair_value": 16.96281872229619,
+              "gap": 1.9655278574280937
+            },
+            {
+              "wacc": 0.19130677455563758,
+              "fair_value": 14.952534565040724,
+              "gap": 1.614079565296581
+            }
+          ],
+          "fair_value_at_point_wacc": 19.245353687348224,
+          "gap_at_point_wacc": 2.364572446374758
+        }
+      ],
+      "summary": {
+        "bear": -0.9686911679434613,
+        "base": 0.393830061325007,
+        "bull": 2.364572446374758
+      },
+      "downside": -1.242775561147825,
+      "upside": 3.3491906013491137
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that a correctly-levered equity stub in a turning cycle is exactly where the biggest returns are, and my correcting the debt downward-biases me into dismissing it. If Adjusted EBITDA recovers to $200M and the multiple holds, enterprise value rises roughly $270M on my corrected $907M base \u2014 a 30% move in EV against a $187M equity stub is more than a double in the shares. Backlog at a three-year high and bookings up 12.3% is the leading indicator of exactly that, and it is visible now, not hoped for.",
+    "what_would_prove_it": "Sequential Adjusted EBITDA in Q3 and Q4 against the $167.5-177.5M full-year guide, and whether net debt plus floor plan actually falls. Deleveraging, not EBITDA alone, is what transfers value to this equity.",
+    "already_visible": "The leading indicators are visible and genuinely positive \u2014 $143M material handling backlog, bookings +12.3% year to date, Adjusted EBITDA up $20.5M sequentially. What is NOT visible is any deleveraging: the ABL balance was $211.6M at 2026-06-30 against $213.6M at year-end 2025, essentially unchanged, and the $500M notes are untouched. Six months of 'recovery' has not reduced debt at all.",
+    "unresolved": "I could not extract the new-equipment floor plan payable balance, so I do not know total obligations precisely \u2014 I know they exceed $730.6M of debt and finance leases plus $85.2M of used and rental floor plan. I also could not separate maintenance from growth rental fleet spending. The verdict does not turn on either: it turns on the fact that the screen's inputs are wrong, which I have established."
+  },
+  "what_changed": "Q2 2026 (2026-08-06): sequential improvement across all three segments, revenue up $65.0M versus Q1, Adjusted EBITDA up $20.5M sequentially to $48.6M, Material Handling backlog $143M \u2014 the highest since 2023 \u2014 and bookings up 12.3% year to date. Management describes 'signs of market recovery emerging' and tightened full-year Adjusted EBITDA guidance to $167.5-177.5M. Tariff-related disruption in Master Distribution eased.",
+  "consensus_case": "Alta is an equipment dealership roll-up with a $187M equity value sitting underneath roughly $730M of debt plus floor-plan payables. At 4.2x leverage on 2026 guided Adjusted EBITDA of $167.5-177.5M, and with $500M of second-lien notes costing 9.00%, the equity is a thin option on the construction and material-handling cycle turning. The market's -18% 21-day move is not irrational: Q2 was the seasonally strong quarter and the company still reported a net loss available to common of $(8.2)M, or $(0.25) per share. Revenue fell year over year ($475.5M, -$5.7M; -0.2% organic) and Adjusted EBITDA was flat at $48.6M. A levered dealer that cannot grow revenue in a recovering market, while paying 9% on half a billion of notes, is worth very little in equity terms, and that is what the price says.",
+  "base_case_rationale": "The operating recovery looks real: backlog at a three-year high, bookings up, margins improving, and tariff disruption easing. But the FCFF this model discounts is nearly two-thirds interest add-back on a company that is not covering its interest with earnings, and the underlying cash generation \u2014 CFO less capex of $23.8M, $41.6M and $51.4M and falling \u2014 is small and shrinking. In a genuine dealership cycle recovery I would expect that to grow, but from a base this thin and against a fixed 9% coupon, low-single-digit growth in unlevered free cash flow is as far as I can honestly go. I am well below the naive +16.0% baseline, which is a revenue CAGR produced by acquiring dealerships, not by the existing ones growing.",
+  "key_risks": [
+    "Total debt is at least $730.6M against a $187M equity value; a modest fall in enterprise value eliminates the equity",
+    "$500M of second-lien notes at 9.00% due June 2029 against guided Adjusted EBITDA of ~$172M \u2014 4.2x leverage before floor plan",
+    "Six months of operating recovery produced no debt reduction whatsoever",
+    "Beta 2.26 (R-squared 0.441) gives a 17.1% WACC, so the discount rate itself dominates the valuation"
+  ],
+  "watch_for": [
+    "Any reduction in the ABL balance or total floor plan \u2014 the first real evidence of deleveraging",
+    "Q3/Q4 Adjusted EBITDA against the $167.5-177.5M guide",
+    "Used equipment residual values, which drive both earnings and the ABL borrowing base"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1759824/000119312526338061/altg-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1759824/000119312526338075/altg-20260630.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/13/alta-equipment-group-altg-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/altg-q2-deep-dive-improving-165322067.html"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.46x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

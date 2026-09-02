@@ -1,0 +1,188 @@
+{
+  "ticker": "ESE",
+  "date": "2026-09-02",
+  "sector": "Industrials",
+  "name": "ESCO TECHNOLOGIES",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.08,
+  "bear_growth": 0.02,
+  "bull_growth": 0.13,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 267.6300048828125,
+  "market_implied_growth": 0.41055550938050256,
+  "cohort_pct": 15.8,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.08,
+    "market_implied_growth": 0.41055550938050256,
+    "growth_delta": -0.33055550938050254,
+    "fair_value": 153.44451801845602,
+    "price": 267.6300048828125,
+    "gap": -0.42665427934493005,
+    "fair_value_band": {
+      "low": 133.13445570981446,
+      "point": 153.44451801845602,
+      "high": 180.80395829681115
+    },
+    "fcff_base_used": 205600000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08784534028434934,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 205600000,
+      "price": 267.6300048828125,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.06784534028434934,
+              "fair_value": 168.72903429450747,
+              "gap": -0.3695436564805614
+            },
+            {
+              "wacc": 0.07784534028434935,
+              "fair_value": 139.48154274319336,
+              "gap": -0.4788269618562825
+            },
+            {
+              "wacc": 0.08784534028434934,
+              "fair_value": 118.85586410599653,
+              "gap": -0.5558948475973757
+            },
+            {
+              "wacc": 0.09784534028434934,
+              "fair_value": 103.52932824648077,
+              "gap": -0.6131624767117824
+            },
+            {
+              "wacc": 0.10784534028434935,
+              "fair_value": 91.69222866438275,
+              "gap": -0.6573918208291625
+            }
+          ],
+          "fair_value_at_point_wacc": 118.85586410599653,
+          "gap_at_point_wacc": -0.5558948475973757
+        },
+        {
+          "case": "base",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.06784534028434934,
+              "fair_value": 219.6345118631149,
+              "gap": -0.17933524696049474
+            },
+            {
+              "wacc": 0.07784534028434935,
+              "fair_value": 180.80395829681115,
+              "gap": -0.32442568098453684
+            },
+            {
+              "wacc": 0.08784534028434934,
+              "fair_value": 153.44451801845602,
+              "gap": -0.42665427934493005
+            },
+            {
+              "wacc": 0.09784534028434934,
+              "fair_value": 133.13445570981446,
+              "gap": -0.5025428641003455
+            },
+            {
+              "wacc": 0.10784534028434935,
+              "fair_value": 117.46550508296517,
+              "gap": -0.561089926615665
+            }
+          ],
+          "fair_value_at_point_wacc": 153.44451801845602,
+          "gap_at_point_wacc": -0.42665427934493005
+        },
+        {
+          "case": "bull",
+          "growth": 0.13,
+          "cells": [
+            {
+              "wacc": 0.06784534028434934,
+              "fair_value": 271.2113141361483,
+              "gap": 0.013381568538639588
+            },
+            {
+              "wacc": 0.07784534028434935,
+              "fair_value": 222.6012585662244,
+              "gap": -0.16824999250851902
+            },
+            {
+              "wacc": 0.08784534028434934,
+              "fair_value": 188.3725821541726,
+              "gap": -0.29614550417597785
+            },
+            {
+              "wacc": 0.09784534028434934,
+              "fair_value": 162.98084958,
+              "gap": -0.3910217591209003
+            },
+            {
+              "wacc": 0.10784534028434935,
+              "fair_value": 143.40636951579236,
+              "gap": -0.4641618394821392
+            }
+          ],
+          "fair_value_at_point_wacc": 188.3725821541726,
+          "gap_at_point_wacc": -0.29614550417597785
+        }
+      ],
+      "summary": {
+        "bear": -0.5558948475973757,
+        "base": -0.42665427934493005,
+        "bull": -0.29614550417597785
+      },
+      "downside": -0.6573918208291625,
+      "upside": 0.013381568538639588
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I am rescuing an expensive stock from the model's verdict by swapping in a better cash-flow base, and I should check whether the model was closer to right than I am giving it credit for. Even on the newest and best year of $205.6M, the enterprise value of $6.9B is 33.6x FCFF. Growing 8% for five years and then 2% forever does not come close to supporting that \u2014 the price still needs something like 25% compound growth. A 32x multiple on a company whose sales are $1.3B, in businesses where the customer is a government or a regulated utility with a procurement cycle, is a high price for predictability. So 'the base was wrong' does not rescue the name; it only moves it from absurdly expensive to expensive.",
+    "what_would_prove_it": "Whether free cash flow actually runs at the $205.6M level or reverts toward the $91.4M and $54.5M of the two prior years. That spread \u2014 the peak-cycle flag says the newest year is 3.8x the oldest \u2014 is the whole question, and one good year is not a base.",
+    "already_visible": "Yes, and it partly favours the devil's advocate. The peak-cycle flag is not noise here: the FCFF series is $54.5M, $91.4M, $205.6M and I am choosing to build on the highest of the three. The standing lesson that 'a peak can fill the whole window' cuts the other way too \u2014 but here the flag fired precisely because the newest year is an outlier, and I have not verified that $205.6M is repeatable rather than a working-capital release. What supports me instead is the reported 38-39% EPS growth and record backlog, which are independent of the cash-flow series.",
+    "unresolved": "Whether the FY2025 free cash flow of $205.6M is a run rate or a one-off, and what the Megger acquisition costs and adds \u2014 the price was not in anything I read. Both matter, and neither is resolved, which is why this is no_edge and not rich. I did not fetch ESCO's filings; the 8-K items 3.02 and 2.03 in April and June would tell me how Megger is being financed and whether the share count is about to change."
+  },
+  "what_changed": "Q3 FY2026 results (2026-08-06): sales $339M (+14%, 8% organic), EPS $1.26, record backlog, full-year guidance raised to $1.30-1.33B sales and $8.30-8.40 adjusted EPS. The Megger acquisition is pending and expected to close in Q1 fiscal 2027. Two 8-Ks in the last two quarters carry structural items the model does not see: 2026-04-16 under items 1.01 and 3.02 (a material agreement and an equity issuance) and 2026-06-03 under items 1.01, 1.02 and 2.03 (a material agreement, its termination, and a new direct financial obligation) \u2014 consistent with financing arranged around the Megger transaction.",
+  "consensus_case": "ESCO is a quality industrial compounder in the middle of the best stretch in its history, and it is priced like one. Q3 FY2026 sales rose 14% to $339M with 8% organic growth plus $23M from the Maritime acquisition, EPS of $1.26, and record backlog. Management raised full-year FY2026 guidance to $1.30-1.33B of sales and $8.30-8.40 of adjusted EPS \u2014 up 38-39% on fiscal 2025. The end markets behind that are aerospace and defence test, navy/maritime, and utility grid equipment, all of which have multi-year funded demand rather than order-to-order cyclicality. Low leverage gives it capacity for the pending Megger acquisition, expected to close in Q1 fiscal 2027. At $267.63 the stock is on roughly 32x that raised guidance, which is what the market pays for a defence-and-grid compounder growing earnings at nearly 40% with a record backlog and an accretive deal pending.",
+  "base_case_rationale": "ESCO's underlying businesses grow high single digits organically and management is compounding on top of that with bolt-on acquisitions like Maritime and Megger. Utility grid investment and naval programmes are genuinely multi-year. Eight percent is roughly the organic rate the company just reported and close to its own five-year revenue CAGR of 8.4%, and I am not willing to underwrite acquisition-driven growth as if it were free \u2014 Megger has to be paid for. Where I differ most from the model is not the growth rate but the base it is applied to.",
+  "key_risks": [
+    "Roughly 32x raised adjusted EPS guidance leaves no room for a guidance miss; the -15.9% 21-day move on no news shows the multiple is unsupported by yield",
+    "The FCFF history is $54.5M, $91.4M, $205.6M \u2014 one strong year is being treated as a base",
+    "Megger acquisition closing in Q1 FY2027 at an undisclosed price and undisclosed financing",
+    "An 8-K under item 3.02 in April 2026 means an equity issuance the share count in this model may not reflect"
+  ],
+  "watch_for": [
+    "Q4 FY2026 results and the first FY2027 guide",
+    "Megger deal terms, price and financing structure when it closes",
+    "Whether free cash flow holds near $200M or reverts toward the prior two years",
+    "Backlog conversion versus the record level reported"
+  ],
+  "sources": [
+    "https://www.stocktitan.net/news/ESE/esco-reports-third-quarter-fiscal-2026-fkj7cpqy58xu.html",
+    "https://www.investing.com/news/company-news/esco-q3-2026-slides-record-backlog-drives-guidance-raise-93CH-4844810",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-esco-technologies-posts-strong-q3-2026-results-93CH-4844616",
+    "https://www.sec.gov/Archives/edgar/data/866706/000110465926092033/tm2621646d1_ex99-1.htm"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_3.8x_oldest_growth_applied_to_a_peak_overstates_value"
+  ]
+}

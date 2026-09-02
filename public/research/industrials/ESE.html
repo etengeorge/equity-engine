@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ESE — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / ESE</p><h1>ESE <span style='color:var(--faint);font-weight:400'>ESCO TECHNOLOGIES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$267.63</b></div><div>Analyst gap<b>-43%</b></div><div>Dated<b>2026-09-02</b></div></div><div class='prose'><h1>ESE — ESCO TECHNOLOGIES</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-02 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $267.63 · fair value $153.44 · gap -42.7%</li><li><strong>Growth:</strong> market implies +41.1%, analyst says +8.0% (delta -33.1%)</li><li><strong>FCFF base overridden</strong> by the analyst to $205.6M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.8% | 7.8% | 8.8% | 9.8% | 10.8% | |---|---|---|---|---|---|---| | bear | +2.0% | $168.73 | $139.48 | $118.86 | $103.53 | $91.69 | | base | +8.0% | $219.63 | $180.80 | $153.44 | $133.13 | $117.47 | | bull | +13.0% | $271.21 | $222.60 | $188.37 | $162.98 | $143.41 |</p><p>At the point WACC of 8.8%: bear -55.6%, base -42.7%, bull -29.6% Across the whole grid the gap ranges -65.7% to +1.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> ESCO is a quality industrial compounder in the middle of the best stretch in its history, and it is priced like one. Q3 FY2026 sales rose 14% to $339M with 8% organic growth plus $23M from the Maritime acquisition, EPS of $1.26, and record backlog. Management raised full-year FY2026 guidance to $1.30-1.33B of sales and $8.30-8.40 of adjusted EPS — up 38-39% on fiscal 2025. The end markets behind that are aerospace and defence test, navy/maritime, and utility grid equipment, all of which have multi-year funded demand rather than order-to-order cyclicality. Low leverage gives it capacity for the pending Megger acquisition, expected to close in Q1 fiscal 2027. At $267.63 the stock is on roughly 32x that raised guidance, which is what the market pays for a defence-and-grid compounder growing earnings at nearly 40% with a record backlog and an accretive deal pending.</p><p><strong>What changed.</strong> Q3 FY2026 results (2026-08-06): sales $339M (+14%, 8% organic), EPS $1.26, record backlog, full-year guidance raised to $1.30-1.33B sales and $8.30-8.40 adjusted EPS. The Megger acquisition is pending and expected to close in Q1 fiscal 2027. Two 8-Ks in the last two quarters carry structural items the model does not see: 2026-04-16 under items 1.01 and 3.02 (a material agreement and an equity issuance) and 2026-06-03 under items 1.01, 1.02 and 2.03 (a material agreement, its termination, and a new direct financial obligation) — consistent with financing arranged around the Megger transaction.</p><p><strong>Base case.</strong> ESCO&#x27;s underlying businesses grow high single digits organically and management is compounding on top of that with bolt-on acquisitions like Maritime and Megger. Utility grid investment and naval programmes are genuinely multi-year. Eight percent is roughly the organic rate the company just reported and close to its own five-year revenue CAGR of 8.4%, and I am not willing to underwrite acquisition-driven growth as if it were free — Megger has to be paid for. Where I differ most from the model is not the growth rate but the base it is applied to.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that I am rescuing an expensive stock from the model&#x27;s verdict by swapping in a better cash-flow base, and I should check whether the model was closer to right than I am giving it credit for. Even on the newest and best year of $205.6M, the enterprise value of $6.9B is 33.6x FCFF. Growing 8% for five years and then 2% forever does not come close to supporting that — the price still needs something like 25% compound growth. A 32x multiple on a company whose sales are $1.3B, in businesses where the customer is a government or a regulated utility with a procurement cycle, is a high price for predictability. So &#x27;the base was wrong&#x27; does not rescue the name; it only moves it from absurdly expensive to expensive.</li><li>What would prove it: Whether free cash flow actually runs at the $205.6M level or reverts toward the $91.4M and $54.5M of the two prior years. That spread — the peak-cycle flag says the newest year is 3.8x the oldest — is the whole question, and one good year is not a base.</li><li>Already visible today: Yes, and it partly favours the devil&#x27;s advocate. The peak-cycle flag is not noise here: the FCFF series is $54.5M, $91.4M, $205.6M and I am choosing to build on the highest of the three. The standing lesson that &#x27;a peak can fill the whole window&#x27; cuts the other way too — but here the flag fired precisely because the newest year is an outlier, and I have not verified that $205.6M is repeatable rather than a working-capital release. What supports me instead is the reported 38-39% EPS growth and record backlog, which are independent of the cash-flow series.</li><li>Left unresolved: Whether the FY2025 free cash flow of $205.6M is a run rate or a one-off, and what the Megger acquisition costs and adds — the price was not in anything I read. Both matter, and neither is resolved, which is why this is no_edge and not rich. I did not fetch ESCO&#x27;s filings; the 8-K items 3.02 and 2.03 in April and June would tell me how Megger is being financed and whether the share count is about to change.</li></ul><p><strong>Key risks.</strong> Roughly 32x raised adjusted EPS guidance leaves no room for a guidance miss; the -15.9% 21-day move on no news shows the multiple is unsupported by yield; The FCFF history is $54.5M, $91.4M, $205.6M — one strong year is being treated as a base; Megger acquisition closing in Q1 FY2027 at an undisclosed price and undisclosed financing; An 8-K under item 3.02 in April 2026 means an equity issuance the share count in this model may not reflect <strong>Watch for.</strong> Q4 FY2026 results and the first FY2027 guide; Megger deal terms, price and financing structure when it closes; Whether free cash flow holds near $200M or reverts toward the prior two years; Backlog conversion versus the record level reported</p><p><strong>Data quality.</strong> Two flags, one raised and one not. The raised flag — possible peak-cycle base, newest FCF 3.8x oldest — is real and I engaged with it directly rather than dismissing it: the series is $54.5M, $91.4M, $205.6M, and I have nonetheless set fcff_base_override to the newest year because the two older years predate the Maritime acquisition and a materially smaller, lower-margin ESCO, so the three-year mean of $104.0M describes a company that no longer exists. That override is a judgement, not a correction, and it is the weakest input in this file. The flag the brief did NOT raise is staleness: fundamentals_age_days is 337, by far the oldest of today&#x27;s ten and nearly a full year, because ESCO&#x27;s fiscal year ends in September. So the annual cash-flow data predates three quarters of the 14%-growth year the company has just reported, while the balance sheet is current to 2026-06-30 — the same instant-versus-duration mismatch this engine has been bitten by before, in a milder form. Separately, the 2026-04-16 8-K carries item 3.02, an unregistered equity issuance, which may mean the share count underlying the $6.9B market cap is understated; I did not verify it and I am recording that I did not. The -70.6% gap and the 16th-percentile cohort rank should not be read as a signal on this name.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.stocktitan.net/news/ESE/esco-reports-third-quarter-fiscal-2026-fkj7cpqy58xu.html" rel="noopener">https://www.stocktitan.net/news/ESE/esco-reports-third-quarter-fiscal-2026-fkj7cpqy58xu.html</a></li><li><a href="https://www.investing.com/news/company-news/esco-q3-2026-slides-record-backlog-drives-guidance-raise-93CH-4844810" rel="noopener">https://www.investing.com/news/company-news/esco-q3-2026-slides-record-backlog-drives-guidance-raise-93CH-4844810</a></li><li><a href="https://www.investing.com/news/transcripts/earnings-call-transcript-esco-technologies-posts-strong-q3-2026-results-93CH-4844616" rel="noopener">https://www.investing.com/news/transcripts/earnings-call-transcript-esco-technologies-posts-strong-q3-2026-results-93CH-4844616</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/866706/000110465926092033/tm2621646d1_ex99-1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/866706/000110465926092033/tm2621646d1_ex99-1.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/ESE.md'>research/Industrials/ESE.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>TXG — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / TXG</p><h1>TXG <span style='color:var(--faint);font-weight:400'>10X GENOMICS CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$59.98</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-02</b></div></div><div class='prose'><h1>TXG — 10X GENOMICS CLASS A</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-02 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $59.98</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> 10x Genomics is up 328% in twelve months because the market believes the instrument cycle has turned. Q2 2026 revenue was $151M including a $1.6M Takara settlement; management raised the 2026 outlook on strong early orders for the new Atera platform, and booked orders for Atera exceeded the 2026 target. The company also won a patent infringement verdict against Parse Biosciences in Delaware and is seeking added damages and a US injunction, which strengthens the moat around single-cell. The bull case is a platform transition: a large installed base of single-cell customers migrating to a new instrument, with consumables pull-through following for years afterward. Against a $7.7B market cap that requires the migration to be large and durable — but that is a genuine, specific mechanism, not a hope, and it is why the stock has re-rated.</p><p><strong>What changed.</strong> Q2 2026 (2026-08-06): revenue $151M, or $149.4M ex-settlement, up just 3% year over year, with the year-over-year decline in instrument sales attributed to the Atera transition. The 2026 revenue outlook was raised on early Atera orders. On 2026-08-28 a Delaware jury found Parse Biosciences infringed, awarding $4.8M, with 10x seeking enhanced damages and an injunction. RBC noted on 2026-09-01 that the two franchises are pulling in opposite directions and that meaningful growth is needed in single-cell.</p><p><strong>Base case.</strong> I cannot set a defensible FCFF growth rate here because there is no defensible FCFF base to grow. The three-year free cash flow series is -$63.8M, -$5.7M and $130.1M, a spread of 9.6x the mean, and the mean of $20.2M is an artefact of averaging across a sign change. Worse, stock compensation is 688% of that base: expensing it gives FCFF of -$118.7M. The single most recent year, $130.1M, is the only figure with any claim to being a run rate, and even that goes negative once the roughly $139M of annual stock compensation is treated as the real cost it is. A business that generates no cash after paying its employees is one where the DCF has nothing to discount.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that no_model is the coward&#x27;s answer on a name where the model actually produced a clear signal — 4th percentile of 91 Health Care peers, an -87.8% gap, and an implied growth rate the solver had to clamp at +100%. Every one of those says the price embeds expectations that essentially cannot be met, and calling that &#x27;unmodellable&#x27; rather than &#x27;rich&#x27; declines to make the call the evidence supports. And the qualitative picture agrees: revenue grew 3% year over year while the stock rose 328%.</li><li>What would prove it: Whether Atera converts booked orders into recurring consumables revenue, visible in the consumables line over the next two to three quarters, and whether stock compensation moderates as a share of revenue.</li><li>Already visible today: Some of it. Ex-settlement revenue growth of 3% is visible and is weak against a 328% share price move — that genuinely supports the counter. What is not visible is the Atera consumables ramp, which by construction lags instrument placement by several quarters, so the bull case has not yet had a chance to be falsified.</li><li>Left unresolved: Whether $130.1M of free cash flow in the newest year is a durable turn or a working capital release. I did not fetch the 10-Q, and I should be explicit that this was a choice: even with it, the stock-compensation problem would still make the FCFF base non-positive on any honest treatment, so the verdict would not change. The counter loses on the verdict but it wins on tone — I am not calling this cheap or fairly valued, and a reader should take from this file that the model&#x27;s -87.8% gap points in a direction I consider directionally right, even though I will not underwrite it as a number.</li></ul><p><strong>Key risks.</strong> Stock compensation at 688% of the normalised FCFF base — on any honest treatment the company does not generate free cash flow; Ex-settlement revenue grew 3% year over year against a 328% twelve-month share price move; The Atera platform transition depresses instrument revenue before consumables pull-through arrives, and the transition may not complete on the expected timeline; Academic and pharma research funding is the underlying demand driver and is not under the company&#x27;s control <strong>Watch for.</strong> Consumables revenue growth over the next two to three quarters — the test of whether Atera placements convert; Any moderation in stock compensation as a percentage of revenue; The Parse injunction ruling and enhanced damages decision; A share count update: the model is using a 2025-12-31 figure</p><p><strong>Data quality.</strong> All three raised flags are correct and decisive: negative_fcf_year_in_window, lumpy_fcff_spread_9.6x_of_mean, and stock_comp_is_688%_of_fcff. Averaging -$63.8M, -$5.7M and $130.1M into a $20.2M base is arithmetic, not normalisation, and the solver clamping implied growth at +100% is the model telling you it cannot solve this. Expensing stock compensation makes the base -$118.7M and no growth rate exists at all — which is the definition of no_model, so I have recorded no fair value. There is also a flag the brief did NOT raise and should have: TXG&#x27;s shares_asof is 2025-12-31, eight months stale, and every other name in today&#x27;s ten carries a July or August 2026 date. A stale share count on a company issuing stock compensation at 688% of its cash-flow base understates both market capitalisation and enterprise value — probably by a low single-digit percentage here, so it does not change this verdict, but it is the stale-share-count error already recorded in LESSONS appearing again on a name where it is most likely to bite. Worth a check on how many names in the universe carry a shares_asof older than their most recent 10-Q.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://finance.yahoo.com/healthcare/articles/10x-genomics-txg-sees-strong-074449509.html" rel="noopener">https://finance.yahoo.com/healthcare/articles/10x-genomics-txg-sees-strong-074449509.html</a></li><li><a href="https://finance.yahoo.com/healthcare/articles/10x-genomics-wins-patent-infringement-183800082.html" rel="noopener">https://finance.yahoo.com/healthcare/articles/10x-genomics-wins-patent-infringement-183800082.html</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/14/10x-genomics-txg-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/14/10x-genomics-txg-q2-2026-earnings-call-transcript/</a></li><li><a href="https://finance.yahoo.com/healthcare/articles/10x-genomics-needs-meaningful-apos-152229814.html" rel="noopener">https://finance.yahoo.com/healthcare/articles/10x-genomics-needs-meaningful-apos-152229814.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-10x-074100628.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-10x-074100628.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/TXG.md'>research/Health Care/TXG.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

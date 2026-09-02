@@ -1,0 +1,57 @@
+{
+  "ticker": "TXG",
+  "date": "2026-09-02",
+  "sector": "Health Care",
+  "name": "10X GENOMICS CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 59.97999954223633,
+  "market_implied_growth": 1.0,
+  "cohort_pct": 4.4,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that no_model is the coward's answer on a name where the model actually produced a clear signal \u2014 4th percentile of 91 Health Care peers, an -87.8% gap, and an implied growth rate the solver had to clamp at +100%. Every one of those says the price embeds expectations that essentially cannot be met, and calling that 'unmodellable' rather than 'rich' declines to make the call the evidence supports. And the qualitative picture agrees: revenue grew 3% year over year while the stock rose 328%.",
+    "what_would_prove_it": "Whether Atera converts booked orders into recurring consumables revenue, visible in the consumables line over the next two to three quarters, and whether stock compensation moderates as a share of revenue.",
+    "already_visible": "Some of it. Ex-settlement revenue growth of 3% is visible and is weak against a 328% share price move \u2014 that genuinely supports the counter. What is not visible is the Atera consumables ramp, which by construction lags instrument placement by several quarters, so the bull case has not yet had a chance to be falsified.",
+    "unresolved": "Whether $130.1M of free cash flow in the newest year is a durable turn or a working capital release. I did not fetch the 10-Q, and I should be explicit that this was a choice: even with it, the stock-compensation problem would still make the FCFF base non-positive on any honest treatment, so the verdict would not change. The counter loses on the verdict but it wins on tone \u2014 I am not calling this cheap or fairly valued, and a reader should take from this file that the model's -87.8% gap points in a direction I consider directionally right, even though I will not underwrite it as a number."
+  },
+  "what_changed": "Q2 2026 (2026-08-06): revenue $151M, or $149.4M ex-settlement, up just 3% year over year, with the year-over-year decline in instrument sales attributed to the Atera transition. The 2026 revenue outlook was raised on early Atera orders. On 2026-08-28 a Delaware jury found Parse Biosciences infringed, awarding $4.8M, with 10x seeking enhanced damages and an injunction. RBC noted on 2026-09-01 that the two franchises are pulling in opposite directions and that meaningful growth is needed in single-cell.",
+  "consensus_case": "10x Genomics is up 328% in twelve months because the market believes the instrument cycle has turned. Q2 2026 revenue was $151M including a $1.6M Takara settlement; management raised the 2026 outlook on strong early orders for the new Atera platform, and booked orders for Atera exceeded the 2026 target. The company also won a patent infringement verdict against Parse Biosciences in Delaware and is seeking added damages and a US injunction, which strengthens the moat around single-cell. The bull case is a platform transition: a large installed base of single-cell customers migrating to a new instrument, with consumables pull-through following for years afterward. Against a $7.7B market cap that requires the migration to be large and durable \u2014 but that is a genuine, specific mechanism, not a hope, and it is why the stock has re-rated.",
+  "base_case_rationale": "I cannot set a defensible FCFF growth rate here because there is no defensible FCFF base to grow. The three-year free cash flow series is -$63.8M, -$5.7M and $130.1M, a spread of 9.6x the mean, and the mean of $20.2M is an artefact of averaging across a sign change. Worse, stock compensation is 688% of that base: expensing it gives FCFF of -$118.7M. The single most recent year, $130.1M, is the only figure with any claim to being a run rate, and even that goes negative once the roughly $139M of annual stock compensation is treated as the real cost it is. A business that generates no cash after paying its employees is one where the DCF has nothing to discount.",
+  "key_risks": [
+    "Stock compensation at 688% of the normalised FCFF base \u2014 on any honest treatment the company does not generate free cash flow",
+    "Ex-settlement revenue grew 3% year over year against a 328% twelve-month share price move",
+    "The Atera platform transition depresses instrument revenue before consumables pull-through arrives, and the transition may not complete on the expected timeline",
+    "Academic and pharma research funding is the underlying demand driver and is not under the company's control"
+  ],
+  "watch_for": [
+    "Consumables revenue growth over the next two to three quarters \u2014 the test of whether Atera placements convert",
+    "Any moderation in stock compensation as a percentage of revenue",
+    "The Parse injunction ruling and enhanced damages decision",
+    "A share count update: the model is using a 2025-12-31 figure"
+  ],
+  "sources": [
+    "https://finance.yahoo.com/healthcare/articles/10x-genomics-txg-sees-strong-074449509.html",
+    "https://finance.yahoo.com/healthcare/articles/10x-genomics-wins-patent-infringement-183800082.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/14/10x-genomics-txg-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/healthcare/articles/10x-genomics-needs-meaningful-apos-152229814.html",
+    "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-10x-074100628.html"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_9.6x_of_mean",
+    "stock_comp_is_688%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>FLO — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Staples / FLO</p><h1>FLO <span style='color:var(--faint);font-weight:400'>FLOWERS FOODS INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-cheap'>cheap</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$6.69</b></div><div>Analyst gap<b>+107%</b></div><div>Dated<b>2026-09-02</b></div></div><div class='prose'><h1>FLO — FLOWERS FOODS INC</h1><p><em>Consumer Staples · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-02 — CHEAP (conviction: low)</h2><ul><li><strong>Verdict:</strong> cheap · price $6.69 · fair value $13.84 · gap +106.9%</li><li><strong>Growth:</strong> market implies -12.5%, analyst says -4.0% (delta +8.5%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 5.6% | 6.6% | 7.6% | 8.6% | 9.6% | |---|---|---|---|---|---|---| | bear | -10.0% | $16.89 | $11.82 | $8.54 | $6.25 | $4.55 | | base | -4.0% | $25.34 | $18.35 | $13.84 | $10.68 | $8.35 | | bull | +1.0% | $34.10 | $25.11 | $19.31 | $15.26 | $12.26 |</p><p>At the point WACC of 7.6%: bear +27.7%, base +106.9%, bull +188.6% Across the whole grid the gap ranges -32.0% to +409.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> The bread aisle is shrinking and Flowers is levered to it. Q2 2026 net sales fell 4.0% to $1.193 billion as volume dropped 5.8% against only 1.8% of price/mix — and that volume decline ACCELERATED from -3.3% in Q1. Adjusted EBITDA fell 19.2% to $111.3M, a 180bp margin decline, because a fixed bakery and direct-store-delivery network deleverages hard on lost volume. Management cut full-year guidance for the second time, to $5.070-5.142B of sales and $453-481M of Adjusted EBITDA. Against that sits $1.686B of debt — roughly 3.5x the new EBITDA guide — so the equity is a levered residual on a business whose cash flow is falling at a double-digit rate. At a 7.5% dividend yield the market is not saying Flowers is going away; it is saying the dividend is the return and the equity value behind it is eroding. That is a coherent position and it is why the stock is down 51.6% in a year.</p><p><strong>What changed.</strong> Q2 2026 (2026-08-20) and the second guidance cut of the year. Revised FY2026: net sales $5.070-5.142B (-3.5% to -2.2%), Adjusted EBITDA $453-481M (from $465-495M), adjusted diluted EPS $0.75-0.85 (from $0.80-0.90), capex $115-125M, weighted diluted share count ~213.5M. Half-year cash flow from operations $241.5M against capex of $44.5M. Long-term debt fell to $1.686B from $1.755B at 2026-01-03; cash $52.8M. The 96th consecutive quarterly dividend of $0.1250 was declared on 2026-08-28.</p><p><strong>Base case.</strong> The market is discounting a -12.5% FCFF compound decline for five years, which is this year&#x27;s rate of decline projected forward without abatement. I do not think that survives contact with the asset base. Fresh packaged bread volume has been structurally declining at low single digits for years, and 2026 is an acute year on top of that — household budget pressure, trade-down to store brands and a category shift away from conventional loaves. But roughly a third of the portfolio is branded better-for-you (Dave&#x27;s Killer Bread, Canyon Bakehouse, Simple Mills) that is not in structural decline, price/mix is still positive at +1.8%, and the company has the standard bakery lever of closing plants to re-lever a shrinking network — plant closure costs already appear in its own adjustment list. A -4% FCFF trajectory reflects continuing category erosion partly offset by mix and network rationalisation. That is materially worse than the naive +3.7% revenue-CAGR baseline, which is backward-looking and includes acquisitions, and materially better than what the price embeds.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter is that this is not a cycle and I am treating it as one. Bread volumes are not depressed, they are disappearing: GLP-1 adoption, low-carb preference and private-label share gain are all secular, and none of them mean-revert. The decisive fact is that the decline STEEPENED — -3.3% in Q1 to -5.8% in Q2 — which is the opposite of a trough. Meanwhile 3.5x leverage on a shrinking EBITDA base does the damage arithmetically: the debt is fixed, so every point of EBITDA decline raises leverage and transfers value from equity to lenders without anything else going wrong. Guidance has now been cut twice in one year, which is evidence management does not yet know where the bottom is. On that reading, -12.5% is not the market being too pessimistic; it is the market extrapolating the only trend that is actually observable.</li><li>What would prove it: The Q3 volume number, reported in November. Volume decline at or worse than -5.8% confirms the trend is steepening and the market&#x27;s -12.5% is roughly right. A deceleration toward -3% or better is the first evidence the decline is bounded.</li><li>Already visible today: Yes, and it favours the devil&#x27;s advocate. The most recent observable — the Q1-to-Q2 volume trajectory — moved AGAINST my base case, and I am not going to pretend otherwise. What supports me instead is the balance sheet and the cash: half-year operating cash flow of $241.5M against $44.5M of capex, full-year free cash flow tracking around $310M against roughly $107M of dividends, and net debt that actually FELL over the half. A business genuinely compounding downward at -12.5% does not deleverage while covering its dividend three times over.</li><li>Left unresolved: Whether the volume decline is bounded, which is the entire question and will not be answerable until Q3. I also could not separate how much of the 5.8% volume loss is category contraction versus share loss to private label — those have different endings, and the second is more fixable than the first. This is why conviction is low, not medium.</li></ul><p><strong>Key risks.</strong> Volume decline is structural, not cyclical, and does not stabilise; Net debt of ~$1.63B against guided Adjusted EBITDA of ~$467M is 3.5x; further EBITDA decline raises leverage mechanically; A dividend cut would remove the support holding the stock and would likely reset the shareholder base; Capex guided at $115-125M against roughly $150M of D&amp;A — free cash flow is currently flattered by underinvestment <strong>Watch for.</strong> Q3 2026 volume: better than -3% supports the base case, at or worse than -5.8% confirms the bear; Any change to the dividend, which has now run 96 consecutive quarters; Plant closure or network rationalisation announcements — the margin lever this thesis depends on; Adjusted EBITDA against the $453-481M guide; a third cut would end this thesis</p><p><strong>Data quality.</strong> The brief raised no flags and I could not find any. I verified the inputs against the 10-Q and the Q2 release rather than trusting them: capex_series [$127.1M, $132.1M, $129.1M] and cfo_series [$446.2M, $412.7M, $349.4M] reconcile to the reported free cash flow history; total_debt of $1,686.2M matches the 10-Q&#x27;s long-term debt exactly; cash of $52.8M matches; shares of 212.06M as of 2026-08-14 is current and consistent with the ~213.5M weighted diluted share count in guidance. Enterprise value of $3.1B against Adjusted EBITDA guidance of $453-481M is 6.6x, and the stock is on 8.4x adjusted EPS guidance — I cross-checked the DCF conclusion against multiples deliberately, because the DCF gap here is large, and the two methods agree for once. Stock compensation is only 11% of the FCFF base, so the treatment choice does not move the answer materially (-10.6% implied growth expensed versus -12.5% as reported). This is the one name in today&#x27;s ten whose inputs I trust without reservation.</p><p><em>Horizon: 36 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1128928/000119312526359191/flo-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1128928/000119312526359191/flo-ex99_1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1128928/000119312526359192/flo-20260718.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1128928/000119312526359192/flo-20260718.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/27/flowers-foods-flo-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/27/flowers-foods-flo-q2-2026-earnings-call-transcript/</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/why-flowers-foods-flo-down-021226207.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/why-flowers-foods-flo-down-021226207.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/flo-q2-deep-dive-portfolio-105736080.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/flo-q2-deep-dive-portfolio-105736080.html</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Staples/FLO.md'>research/Consumer Staples/FLO.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

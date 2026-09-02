@@ -1,0 +1,189 @@
+{
+  "ticker": "SLAB",
+  "date": "2026-09-02",
+  "sector": "Information Technology",
+  "name": "SILICON LABORATORIES",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "high",
+  "final_growth": 0.05,
+  "bear_growth": 0.0,
+  "bull_growth": 0.1,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 219.1199951171875,
+  "market_implied_growth": 0.48040408910732835,
+  "cohort_pct": 11.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.05,
+    "market_implied_growth": 0.48040408910732835,
+    "growth_delta": -0.43040408910732836,
+    "fair_value": 53.76786247715993,
+    "price": 219.1199951171875,
+    "gap": -0.7546190960418544,
+    "fair_value_band": {
+      "low": 49.263027498541675,
+      "point": 53.76786247715993,
+      "high": 59.4003755859451
+    },
+    "fcff_base_used": 115497500.0,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.11014551188358658,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 115497500.0,
+      "price": 219.1199951171875,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.09014551188358658,
+              "fair_value": 55.5831880144445,
+              "gap": -0.7463344776695615
+            },
+            {
+              "wacc": 0.10014551188358659,
+              "fair_value": 49.885171784930364,
+              "gap": -0.7723385683800728
+            },
+            {
+              "wacc": 0.11014551188358658,
+              "fair_value": 45.44946897809359,
+              "gap": -0.7925818273508688
+            },
+            {
+              "wacc": 0.12014551188358658,
+              "fair_value": 41.898012659607176,
+              "gap": -0.8087896422359826
+            },
+            {
+              "wacc": 0.13014551188358658,
+              "fair_value": 38.99002928558179,
+              "gap": -0.8220608335413226
+            }
+          ],
+          "fair_value_at_point_wacc": 45.44946897809359,
+          "gap_at_point_wacc": -0.7925818273508688
+        },
+        {
+          "case": "base",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.09014551188358658,
+              "fair_value": 66.64304869374874,
+              "gap": -0.6958604865881483
+            },
+            {
+              "wacc": 0.10014551188358659,
+              "fair_value": 59.4003755859451,
+              "gap": -0.7289139425446902
+            },
+            {
+              "wacc": 0.11014551188358658,
+              "fair_value": 53.76786247715993,
+              "gap": -0.7546190960418544
+            },
+            {
+              "wacc": 0.12014551188358658,
+              "fair_value": 49.263027498541675,
+              "gap": -0.7751778541607062
+            },
+            {
+              "wacc": 0.13014551188358658,
+              "fair_value": 45.57861182792288,
+              "gap": -0.7919924569022239
+            }
+          ],
+          "fair_value_at_point_wacc": 53.76786247715993,
+          "gap_at_point_wacc": -0.7546190960418544
+        },
+        {
+          "case": "bull",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.09014551188358658,
+              "fair_value": 79.865300693035,
+              "gap": -0.6355179697301369
+            },
+            {
+              "wacc": 0.10014551188358659,
+              "fair_value": 70.75748347443577,
+              "gap": -0.6770834015554172
+            },
+            {
+              "wacc": 0.11014551188358658,
+              "fair_value": 63.68050886252587,
+              "gap": -0.7093806577146512
+            },
+            {
+              "wacc": 0.12014551188358658,
+              "fair_value": 58.02558567634825,
+              "gap": -0.7351880842945637
+            },
+            {
+              "wacc": 0.13014551188358658,
+              "fair_value": 53.4050304478392,
+              "gap": -0.7562749560154122
+            }
+          ],
+          "fair_value_at_point_wacc": 63.68050886252587,
+          "gap_at_point_wacc": -0.7093806577146512
+        }
+      ],
+      "summary": {
+        "bear": -0.7925818273508688,
+        "base": -0.7546190960418544,
+        "bull": -0.7093806577146512
+      },
+      "downside": -0.8220608335413226,
+      "upside": -0.6355179697301369
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I am dismissing the model's output rather than testing it, and the model might still be telling me something: it says the price implies +48% FCFF growth (+75% with stock compensation expensed), which would be a genuine warning if SLAB were a standalone company. If the deal breaks on antitrust grounds \u2014 a real possibility given both parties sell embedded wireless connectivity into overlapping industrial and consumer sockets \u2014 then that standalone valuation becomes the live one immediately, and it says the business is worth far less than $219. So the DCF is not irrelevant; it is the downside case, and it is severe.",
+    "what_would_prove_it": "The regulatory calendar: second-request or Phase 2 filings in the US, EU and China, and whether TI is required to divest anything. A widening spread would price rising break risk.",
+    "already_visible": "Yes, and it points the other way for now. The 5d/21d/63d returns are +0.3%/+0.5%/+0.2% \u2014 the price has been pinned essentially flat for a quarter, which is the signature of a market that regards the deal as very likely to close. A market pricing real break risk would show a widening, volatile spread. I did not find any reported regulatory objection.",
+    "unresolved": "I could not establish the current status of the regulatory reviews, the outside date in the merger agreement, or whether a break fee exists. I did not read the DEFM14A. That is the document that would size the downside properly, and I did not fetch it because it does not change the verdict \u2014 no_edge holds whether break risk is 3% or 15%."
+  },
+  "what_changed": "The company suspended forward guidance because of the pending TI acquisition. Q2 2026 (reported 2026-08-11) revenue $228M, up 18.3% year over year, with Industrial & Commercial $135M (+23%) and Home & Life $93M (+12%); GAAP net loss $10.6M, non-GAAP net income $23.8M ($0.71/share). Underlying IoT demand is recovering, but none of it is priceable while a fixed cash price is on the table.",
+  "consensus_case": "There is no cash-flow case to steelman. Silicon Labs agreed on 2026-02-04 to be acquired by Texas Instruments for $231.00 per share in cash, an all-cash deal at roughly $7.5B enterprise value, unanimously approved by both boards and expected to close in the first half of 2027 subject to regulatory approval and a shareholder vote. At $219.12 the stock is trading at a 5.4% gross discount to the deal price. That discount, not any view on IoT connectivity growth, is what sets the price: it is the market's estimate of deal risk and the time value of money over roughly nine months to close.",
+  "base_case_rationale": "A five-year FCFF growth rate is the wrong question for this security and I am recording one only because the schema requires it. The payoff is a fixed $231.00 in cash on a date, not a stream of cash flows. If the deal closes, the fundamental growth rate is irrelevant to the holder; if it breaks, the relevant starting point is the unaffected price, which was roughly 69% below the deal price ($137), not today's $219.12. Any DCF run on today's price is measuring the merger spread and calling it a growth expectation.",
+  "key_risks": [
+    "Antitrust review of TI's largest acquisition in fifteen years; a break returns the stock toward its ~$137 unaffected price, roughly -37%",
+    "Merger arbitrage is a different discipline from valuation and is not what this engine screens for",
+    "The screen will keep flagging this name as -81% 'rich' every day until it delists, because nothing in the model knows a deal exists"
+  ],
+  "watch_for": [
+    "Regulatory clearance or a second request in any of the US, EU or China reviews",
+    "The shareholder vote on the merger",
+    "Any widening of the spread beyond ~8%, which would mean the market has started pricing real break risk"
+  ],
+  "sources": [
+    "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html",
+    "https://investor.silabs.com/news-releases/news-release-details/texas-instruments-acquire-silicon-labs",
+    "https://www.cnbc.com/2026/02/04/texas-instruments-to-buy-chip-designer-silicon-laboratories.html",
+    "https://news.silabs.com/2026-08-11-Silicon-Labs-Reports-Second-Quarter-2026-Results",
+    "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811q2earningsrel.htm"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_1%_debt_weight",
+    "possible_trough_cycle_base_newest_fcf_0.46x_oldest_growth_applied_to_a_trough_understates_value",
+    "stock_comp_is_57%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

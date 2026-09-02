@@ -1,0 +1,184 @@
+{
+  "ticker": "CTOS",
+  "date": "2026-09-02",
+  "sector": "Industrials",
+  "name": "CUSTOM TRUCK ONE SOURCE",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.05,
+  "bear_growth": -0.02,
+  "bull_growth": 0.11,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 8.869999885559082,
+  "market_implied_growth": 0.06919928666329722,
+  "cohort_pct": 95.4,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.05,
+    "market_implied_growth": 0.06919928666329722,
+    "growth_delta": -0.01919928666329722,
+    "fair_value": 1.6910142637587786,
+    "price": 8.869999885559082,
+    "gap": -0.8093557738921895,
+    "fair_value_band": {
+      "low": 0.707617532371661,
+      "point": 1.6910142637587786,
+      "high": 2.946714185743398
+    },
+    "fcff_base_used": 145000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.1024255631847953,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 145000000,
+      "price": 8.869999885559082,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.02,
+          "cells": [
+            {
+              "wacc": 0.0824255631847953,
+              "fair_value": 1.472838524556049,
+              "gap": -0.8339528135785071
+            },
+            {
+              "wacc": 0.0924255631847953,
+              "fair_value": 0.29218141797187,
+              "gap": -0.9670595916864035
+            },
+            {
+              "wacc": 0.1024255631847953,
+              "fair_value": -0.6027293503707563,
+              "gap": -1.0679514496220048
+            },
+            {
+              "wacc": 0.1124255631847953,
+              "fair_value": -1.304612935808255,
+              "gap": -1.147081505370958
+            },
+            {
+              "wacc": 0.1224255631847953,
+              "fair_value": -1.8699806200852478,
+              "gap": -1.2108208167093322
+            }
+          ],
+          "fair_value_at_point_wacc": -0.6027293503707563,
+          "gap_at_point_wacc": -1.0679514496220048
+        },
+        {
+          "case": "base",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.0824255631847953,
+              "fair_value": 4.605620610633095,
+              "gap": -0.48076429875367466
+            },
+            {
+              "wacc": 0.0924255631847953,
+              "fair_value": 2.946714185743398,
+              "gap": -0.667788700816013
+            },
+            {
+              "wacc": 0.1024255631847953,
+              "fair_value": 1.6910142637587786,
+              "gap": -0.8093557738921895
+            },
+            {
+              "wacc": 0.1124255631847953,
+              "fair_value": 0.707617532371661,
+              "gap": -0.9202235015218313
+            },
+            {
+              "wacc": 0.1224255631847953,
+              "fair_value": -0.08325654183905971,
+              "gap": -1.009386306980072
+            }
+          ],
+          "fair_value_at_point_wacc": 1.6910142637587786,
+          "gap_at_point_wacc": -0.8093557738921895
+        },
+        {
+          "case": "bull",
+          "growth": 0.11,
+          "cells": [
+            {
+              "wacc": 0.0824255631847953,
+              "fair_value": 7.997700558317256,
+              "gap": -0.09834265371998308
+            },
+            {
+              "wacc": 0.0924255631847953,
+              "fair_value": 5.814825867879088,
+              "gap": -0.34443901432896407
+            },
+            {
+              "wacc": 0.1024255631847953,
+              "fair_value": 4.164068377012052,
+              "gap": -0.5305447090488222
+            },
+            {
+              "wacc": 0.1124255631847953,
+              "fair_value": 2.872607984801977,
+              "gap": -0.6761434022700763
+            },
+            {
+              "wacc": 0.1224255631847953,
+              "fair_value": 1.8351208178384701,
+              "gap": -0.7931092625123748
+            }
+          ],
+          "fair_value_at_point_wacc": 4.164068377012052,
+          "gap_at_point_wacc": -0.5305447090488222
+        }
+      ],
+      "summary": {
+        "bear": -1.0679514496220048,
+        "base": -0.8093557738921895,
+        "bull": -0.5305447090488222
+      },
+      "downside": -1.2108208167093322,
+      "upside": -0.09834265371998308
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I have replaced the model's cash-flow base with a much smaller number and thereby argued a cheap name into no_edge, and my substitute could be wrong in the same direction the model's was. Growth capex is discretionary: the $170-200M of net fleet investment includes fleet EXPANSION, and a company that chose to stop growing its fleet would convert most of that back into free cash. Maintenance capex on a $1.68B OEC fleet is materially less than $200M. If I strip only maintenance, free cash flow is well above $50M and the stock at 8x EBITDA with 25% EBITDA growth and a falling leverage ratio is genuinely inexpensive \u2014 which is roughly what the sell side thinks, with a mean target ~25% above the price.",
+    "what_would_prove_it": "The split between maintenance and growth fleet investment, and what happens to free cash flow in a year when OEC is held flat. Management's sub-3x leverage target for 2027 is the testable claim: hitting it requires roughly $300M of debt reduction, which cannot happen on $50M of levered free cash flow unless fleet spending drops a long way.",
+    "already_visible": "Partly, and it cuts both ways. Net leverage genuinely fell from 4.31x to 3.85x in six months, so real deleveraging is happening \u2014 that supports the bull. But it happened while net fleet investment was cut from over $250M to $170-200M, which is the point: the deleveraging is funded by spending less on the fleet, not by the fleet generating more. I could not find a maintenance-versus-growth capex split in the release or the 10-Q.",
+    "unresolved": "The maintenance capex number, which decides whether $50M or $200M is the right free-cash-flow base \u2014 a three-to-four-fold range that spans cheap to expensive. That is too wide to call, and it is the reason this is no_edge rather than a verdict in either direction."
+  },
+  "what_changed": "Q2 2026 results and raised guidance (2026-08-03). 2026 net rental fleet investment guidance was raised to $170-200M from a lower prior range, on mid-single-digit net OEC growth \u2014 down from over $250M in 2025 but still the dominant use of cash. Levered free cash flow guided to exceed $50M; the longer-term target is net leverage below 3x in 2027.",
+  "consensus_case": "Custom Truck rents and sells specialty vehicles into transmission and distribution utility markets, and the market is paying about 8x forward Adjusted EBITDA for it. Q2 2026 was a record: revenue $563.4M (+10% y/y), Adjusted EBITDA $116.8M (+25%), rental fleet utilisation 81.6% (up 400bp), total OEC $1.68B, and a return to positive net income of $10.4M from a $28.4M loss. Guidance was raised to $2.1-2.2B revenue and $437.5-455M Adjusted EBITDA. Net leverage fell to 3.85x from 4.31x at year-end. Against that, the price embeds the thing management keeps flagging: this is a capital-devouring business. Fleet investment consumes nearly all the cash the fleet produces, so a 25% EBITDA increase converts into levered free cash flow the company itself guides at only 'in excess of $50 million'. At 3.85x leverage, the equity is a residual on a $1.66B debt stack, and the -16.6% 21-day move is the market marking that residual down as rates back up.",
+  "base_case_rationale": "T&D, grid upgrade, electrification and data-centre demand are real and durable, and CTOS is well placed in them \u2014 I do not dispute the operating story. But the FCFF this model discounts has to be the cash left after the fleet is maintained and grown, and on the company's own numbers that is roughly $50M levered, or on the order of $145M unlevered once after-tax interest is added back. Growing that at high-single digits requires either fleet growth (which consumes the cash) or margin expansion on a fixed fleet. Mid-single-digit growth in genuinely free cash flow is the honest central case, and it is far below the +25% clamped revenue baseline the screen applied.",
+  "key_risks": [
+    "3.85x net leverage on $1.67B of debt makes the equity a thin residual on a cyclical fleet",
+    "Rental fleet residual values fall if used equipment prices normalise, hitting both earnings and the borrowing base",
+    "T&D and data-centre demand is the whole thesis on both sides; a pause in utility capex hits utilisation and leverage together"
+  ],
+  "watch_for": [
+    "Q3 2026 utilisation and OEC: utilisation below 78% would mean the fleet is outrunning demand",
+    "Actual levered free cash flow against the '>$50M' guide, and whether net leverage keeps falling",
+    "Any disclosure separating maintenance from growth fleet investment"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000039/ex991q22026pressrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1709682/000170968226000040/ctos-20260630.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/10/custom-truck-one-source-ctos-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/custom-truck-one-source-ctos-131055188.html"
+  ],
+  "flags": []
+}

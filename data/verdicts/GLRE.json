@@ -1,0 +1,67 @@
+{
+  "ticker": "GLRE",
+  "date": "2026-09-02",
+  "sector": "Financials",
+  "name": "GREENLIGHT CAPITAL LTD CLASS A",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.08,
+  "horizon_months": 24,
+  "price_at_verdict": 15.260000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": 98.8,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.08,
+    "screen_rotce": 0.10623220502918827,
+    "justified_p_tbv": 1.325708762468916,
+    "actual_p_tbv": 0.7035636989775244,
+    "tangible_book_per_share": 21.689578713425526,
+    "fair_value": 28.754064554647496,
+    "price": 15.260000228881836,
+    "gap": 0.8842768101815701,
+    "fundamentals_source": "store",
+    "flags": [
+      "unstable_rotce_6.7%_to_14.6%"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I am dismissing a 99th-percentile gap on a name whose tangible book I have personally verified against the filing, which is exactly the situation the engine exists to find. Book value is real, liquid and marked \u2014 this is not a bank with opaque loan marks; the assets are securities. The company is buying its own stock below book, which is immediately accretive to book value per share. Buying a verified $20.61 of marked assets for $15.26 is a 26% discount, and my dismissal rests entirely on a judgement about future ROTCE that I have set by looking at the two worst recent quarters.",
+    "what_would_prove_it": "Two to three more quarters of combined ratio and Solasglas return. A combined ratio settling below 95% with a positive investment result would put ROTCE back near 10-12% and make the discount to book genuinely attractive; another year near 100% confirms the franchise does not earn its cost of capital.",
+    "already_visible": "Yes, and it is mixed rather than favourable. The negative: Q2 combined ratio 100.1%, a net loss, and book value per share down 3.7% in the quarter. The positive, which I should credit: over six months fully diluted book value per share is still UP 0.9% despite that quarter, and management repurchased $19.2M of stock below book while doing it. The half-year combined ratio of 98.1% is better than the 99.9% of the prior-year half. So the franchise is not deteriorating \u2014 it is just not earning much.",
+    "unresolved": "The right cost of equity, which I cannot set from inside the analyst file and which matters more here than the ROTCE. I also did not read the Solasglas portfolio disclosure, so I cannot say how much of the Q2 investment loss was idiosyncratic positioning versus market beta."
+  },
+  "what_changed": "Q2 2026 (2026-08-04): net loss $29.6M, combined ratio 100.1% versus 95.0%, fully diluted book value per share $20.61 (down from $21.40 at 2026-03-31, up from $20.43 at 2025-12-31). $14.2M of ordinary shares repurchased in the quarter, $19.2M for the half (1,102,065 shares). Greenlight Innovation Syndicate 3456 received 'in principle' approval to progress to a full Lloyd's syndicate (2026-07-30). New independent director appointments announced 2026-09-01.",
+  "consensus_case": "Greenlight Re trades at 0.74x fully diluted tangible book because that is what the market pays for a Cayman reinsurer whose investment portfolio is a hedge fund. Q2 2026 was a net LOSS of $29.6M ($0.89 per diluted share) on investment losses in the Solasglas portfolio plus catastrophe and Middle East conflict reserves, with a combined ratio of 100.1% \u2014 no underwriting profit at all. Fully diluted book value per share FELL 3.7% in the quarter to $20.61. For the half, net income was $6.2M against $30.0M a year earlier, and book value per share is up 0.9% in six months, an annualised return on equity under 2%. A reinsurer that cannot earn its cost of capital, whose earnings are partly a mark on someone else's fund positions, and which has traded below book for most of a decade, is not obviously mispriced at 0.74x. The company's own response is the clearest signal: it bought back $19.2M of stock in the half, which is what management does when it agrees the shares are the best asset available and still cannot make the returns work.",
+  "base_case_rationale": "Sustainable ROTCE, not growth, is the number that prices this name. The model uses 10.6%, averaged across a 6.7%-14.6% range that it flags as unstable. That average is drawn from years when reinsurance pricing was hard and the investment portfolio was working. What is observable now is very different: a 100.1% combined ratio in the quarter, 98.1% for the half, and an annualised return on equity under 2%. Through the cycle I would underwrite Greenlight Re at roughly 8% \u2014 the underwriting book at a high-90s combined ratio contributes little, and the return depends on the Solasglas investment result, which is volatile in both directions and is not a franchise return the way a bank's spread income is. I have set rotce_override to 0.08 rather than the model's 10.6%.",
+  "key_risks": [
+    "Earnings depend on the Solasglas investment portfolio, which is a hedge fund result, not an underwriting return",
+    "Combined ratio at or above 100% means the underwriting book is currently contributing nothing",
+    "Catastrophe and conflict exposure can take book value down several percent in a single quarter, as Q2 2026 did",
+    "$2.5M average daily dollar volume \u2014 the beta is measured on almost no trading"
+  ],
+  "watch_for": [
+    "Combined ratio below 95% for two consecutive quarters",
+    "Quarterly change in fully diluted book value per share \u2014 the company's own stated primary financial goal",
+    "Progress of Lloyd's Syndicate 3456 from 'in principle' to full approval and its contribution",
+    "Continued buyback below book"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000097/pressreleaseearnings2026q2.htm",
+    "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000098/glre-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000097/investordeck2026q2final.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/11/greenlight-capital-re-glre-q2-2026-earnings-call/",
+    "https://finance.yahoo.com/markets/stocks/articles/greenlight-innovation-syndicate-3456-progresses-070000878.html"
+  ],
+  "flags": [
+    "unstable_rotce_6.7%_to_14.6%"
+  ]
+}

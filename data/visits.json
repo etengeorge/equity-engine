@@ -9,6 +9,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
   },
+  "ALTG": {
+    "conviction": "low",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
   "ANF": {
     "conviction": "medium",
     "last_visit": "2026-09-01",
@@ -39,15 +44,35 @@
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
   },
+  "CTOS": {
+    "conviction": "low",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
   "CTRE": {
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "ESE": {
+    "conviction": "low",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
+  "FLO": {
+    "conviction": "low",
+    "last_visit": "2026-09-02",
+    "verdict": "cheap"
+  },
   "FLR": {
     "conviction": "low",
     "last_visit": "2026-09-01",
     "verdict": "no_model"
+  },
+  "GLRE": {
+    "conviction": "low",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
   },
   "HQY": {
     "conviction": "low",
@@ -69,10 +94,20 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "KYMR": {
+    "conviction": "high",
+    "last_visit": "2026-09-02",
+    "verdict": "no_model"
+  },
   "MFIN": {
     "conviction": "low",
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
+  },
+  "OSCR": {
+    "conviction": "medium",
+    "last_visit": "2026-09-02",
+    "verdict": "no_model"
   },
   "PCVX": {
     "conviction": "low",
@@ -94,6 +129,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "SLAB": {
+    "conviction": "high",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
   "SNEX": {
     "conviction": "low",
     "last_visit": "2026-09-01",
@@ -114,9 +154,19 @@
     "last_visit": "2026-09-01",
     "verdict": "no_model"
   },
+  "TEX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
   "TGTX": {
     "conviction": "medium",
     "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "TXG": {
+    "conviction": "medium",
+    "last_visit": "2026-09-02",
     "verdict": "no_model"
   },
   "VEL": {

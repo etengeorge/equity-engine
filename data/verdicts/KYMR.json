@@ -1,0 +1,56 @@
+{
+  "ticker": "KYMR",
+  "date": "2026-09-02",
+  "sector": "Health Care",
+  "name": "KYMERA THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 119.05000305175781,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to a no_model verdict is that the brief DOES offer a comparables valuation \u2014 a blended midpoint of $45.91 against a $119.05 price, a -61% gap \u2014 and that refusing to use it is refusing to say anything at all about a name trading at 6.6x tangible book and 234.8x EV/sales. Someone has to judge whether $9.9B is too much for a Phase 2 asset, and 'I cannot model it' is not the same as 'nothing can be said'.",
+    "what_would_prove_it": "BROADEN2 topline, due by year-end 2026. That single readout will move this stock by a large multiple of any valuation error either of us could make today.",
+    "already_visible": "No. The data does not exist yet \u2014 that is the entire point. What is visible is that enrollment completed six months early, which is weakly positive (it usually means investigators and patients want the trial) and tells you nothing about efficacy.",
+    "unresolved": "Everything that decides the value. I did not read the Phase 1 data, the competitive landscape for oral IL-4/IL-13 pathway drugs, or the collaboration economics with Sanofi. Even having read them I would not be able to price a binary readout, which is why the counter does not win."
+  },
+  "what_changed": "Q2 2026 results and business update (2026-08-05): $1.5B cash as of 2026-06-30 with runway into 2029. BROADEN2 Phase 2b atopic dermatitis enrollment completed ahead of schedule, topline expected by year-end 2026, with Phase 3 planned to initiate by mid-2027. BREADTH Phase 2b asthma trial ongoing with data expected late 2027. No company-specific news was held in the store for the trailing 90 days, which is a fact about this engine's coverage rather than about the company \u2014 the news layer only pulls a name that moves hard, trades abnormal volume, files an 8-K or is picked, and I found material developments on the first search.",
+  "consensus_case": "Kymera is a $9.9B clinical-stage biotech with $1.5B of cash and no product revenue, and the price is a probability-weighted bet on one molecule. KT-621 is a first-in-class oral degrader of STAT6, the transcription factor carrying IL-4/IL-13 signalling \u2014 the same pathway Dupixent addresses by injection. An oral drug that works on that pathway addresses a market measured in tens of billions, and that is why the stock is up 189% in twelve months and 67% in three. Enrollment in the BROADEN2 Phase 2b atopic dermatitis trial completed nearly six months ahead of schedule with topline data due by year-end 2026, Phase 3 in AD is planned for mid-2027, and the BREADTH Phase 2b asthma trial reads out in late 2027. Cash runway extends into 2029, so there is no financing cliff forcing a raise before the data. The price is not a cash-flow judgement; it is the market assigning a probability to KT-621 working.",
+  "base_case_rationale": "There is no defensible five-year FCFF growth rate for a company with no product revenue, negative EBITDA and negative normalised free cash flow, and I am not going to invent one. The valuation is entirely a function of the probability that KT-621 succeeds in Phase 2b and Phase 3 and the peak sales it would then command \u2014 neither of which this engine's inputs contain and neither of which I can estimate from free sources with any honesty.",
+  "key_risks": [
+    "Binary clinical risk: BROADEN2 topline by year-end 2026 is a single event that plausibly moves the stock 50%+ in either direction",
+    "$8.4B of enterprise value ahead of any Phase 2b efficacy data in the lead indication",
+    "Competition on the same pathway from injectable incumbents and other oral programmes",
+    "The stock has already risen 189% in twelve months, so a good result may be substantially priced"
+  ],
+  "watch_for": [
+    "BROADEN2 Phase 2b atopic dermatitis topline, expected by year-end 2026",
+    "Initiation of Phase 3 in AD, planned by mid-2027",
+    "BREADTH Phase 2b asthma data, expected late 2027",
+    "Any equity raise, though $1.5B of cash into 2029 makes one unlikely before the AD data"
+  ],
+  "sources": [
+    "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-second-quarter-2026-financial",
+    "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-completes-enrollment-phase-2b-broaden2-trial",
+    "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-patient-dosed-breadth-phase/",
+    "https://www.sec.gov/Archives/edgar/data/1815442/000119312526333834/kymr-ex99_1.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

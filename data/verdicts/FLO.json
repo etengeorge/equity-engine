@@ -1,0 +1,187 @@
+{
+  "ticker": "FLO",
+  "date": "2026-09-02",
+  "sector": "Consumer Staples",
+  "name": "FLOWERS FOODS INC",
+  "method": "fcff",
+  "verdict": "cheap",
+  "conviction": "low",
+  "final_growth": -0.04,
+  "bear_growth": -0.1,
+  "bull_growth": 0.01,
+  "rotce_override": null,
+  "horizon_months": 36,
+  "price_at_verdict": 6.690000057220459,
+  "market_implied_growth": -0.12504980863278575,
+  "cohort_pct": 94.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.04,
+    "market_implied_growth": -0.12504980863278575,
+    "growth_delta": 0.08504980863278574,
+    "fair_value": 13.839202225448696,
+    "price": 6.690000057220459,
+    "gap": 1.0686400757967358,
+    "fair_value_band": {
+      "low": 10.684687478013633,
+      "point": 13.839202225448696,
+      "high": 18.349877017626024
+    },
+    "fcff_base_used": 330812416.6666667,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.07635605941140831,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 330812416.6666667,
+      "price": 6.690000057220459,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.1,
+          "cells": [
+            {
+              "wacc": 0.05635605941140831,
+              "fair_value": 16.89327498626391,
+              "gap": 1.5251531901006707
+            },
+            {
+              "wacc": 0.06635605941140832,
+              "fair_value": 11.822618358180312,
+              "gap": 0.767207512266052
+            },
+            {
+              "wacc": 0.07635605941140831,
+              "fair_value": 8.544653645422228,
+              "gap": 0.27722773876512274
+            },
+            {
+              "wacc": 0.08635605941140831,
+              "fair_value": 6.2491625966938935,
+              "gap": -0.06589498606218602
+            },
+            {
+              "wacc": 0.09635605941140832,
+              "fair_value": 4.550355855792198,
+              "gap": -0.3198272321565919
+            }
+          ],
+          "fair_value_at_point_wacc": 8.544653645422228,
+          "gap_at_point_wacc": 0.27722773876512274
+        },
+        {
+          "case": "base",
+          "growth": -0.04,
+          "cells": [
+            {
+              "wacc": 0.05635605941140831,
+              "fair_value": 25.335472962556754,
+              "gap": 2.7870661802479955
+            },
+            {
+              "wacc": 0.06635605941140832,
+              "fair_value": 18.349877017626024,
+              "gap": 1.7428814440473976
+            },
+            {
+              "wacc": 0.07635605941140831,
+              "fair_value": 13.839202225448696,
+              "gap": 1.0686400757967358
+            },
+            {
+              "wacc": 0.08635605941140831,
+              "fair_value": 10.684687478013633,
+              "gap": 0.5971132117527775
+            },
+            {
+              "wacc": 0.09635605941140832,
+              "fair_value": 8.353639280036257,
+              "gap": 0.24867551697854573
+            }
+          ],
+          "fair_value_at_point_wacc": 13.839202225448696,
+          "gap_at_point_wacc": 1.0686400757967358
+        },
+        {
+          "case": "bull",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.05635605941140831,
+              "fair_value": 34.09923785442112,
+              "gap": 4.097045973507595
+            },
+            {
+              "wacc": 0.06635605941140832,
+              "fair_value": 25.108953328188093,
+              "gap": 2.7532067434122394
+            },
+            {
+              "wacc": 0.07635605941140831,
+              "fair_value": 19.308381287794656,
+              "gap": 1.8861556237141266
+            },
+            {
+              "wacc": 0.08635605941140831,
+              "fair_value": 15.255465170736182,
+              "gap": 1.280338571039486
+            },
+            {
+              "wacc": 0.09635605941140832,
+              "fair_value": 12.263584691215584,
+              "gap": 0.8331217617822892
+            }
+          ],
+          "fair_value_at_point_wacc": 19.308381287794656,
+          "gap_at_point_wacc": 1.8861556237141266
+        }
+      ],
+      "summary": {
+        "bear": 0.27722773876512274,
+        "base": 1.0686400757967358,
+        "bull": 1.8861556237141266
+      },
+      "downside": -0.3198272321565919,
+      "upside": 4.097045973507595
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is that this is not a cycle and I am treating it as one. Bread volumes are not depressed, they are disappearing: GLP-1 adoption, low-carb preference and private-label share gain are all secular, and none of them mean-revert. The decisive fact is that the decline STEEPENED \u2014 -3.3% in Q1 to -5.8% in Q2 \u2014 which is the opposite of a trough. Meanwhile 3.5x leverage on a shrinking EBITDA base does the damage arithmetically: the debt is fixed, so every point of EBITDA decline raises leverage and transfers value from equity to lenders without anything else going wrong. Guidance has now been cut twice in one year, which is evidence management does not yet know where the bottom is. On that reading, -12.5% is not the market being too pessimistic; it is the market extrapolating the only trend that is actually observable.",
+    "what_would_prove_it": "The Q3 volume number, reported in November. Volume decline at or worse than -5.8% confirms the trend is steepening and the market's -12.5% is roughly right. A deceleration toward -3% or better is the first evidence the decline is bounded.",
+    "already_visible": "Yes, and it favours the devil's advocate. The most recent observable \u2014 the Q1-to-Q2 volume trajectory \u2014 moved AGAINST my base case, and I am not going to pretend otherwise. What supports me instead is the balance sheet and the cash: half-year operating cash flow of $241.5M against $44.5M of capex, full-year free cash flow tracking around $310M against roughly $107M of dividends, and net debt that actually FELL over the half. A business genuinely compounding downward at -12.5% does not deleverage while covering its dividend three times over.",
+    "unresolved": "Whether the volume decline is bounded, which is the entire question and will not be answerable until Q3. I also could not separate how much of the 5.8% volume loss is category contraction versus share loss to private label \u2014 those have different endings, and the second is more fixable than the first. This is why conviction is low, not medium."
+  },
+  "what_changed": "Q2 2026 (2026-08-20) and the second guidance cut of the year. Revised FY2026: net sales $5.070-5.142B (-3.5% to -2.2%), Adjusted EBITDA $453-481M (from $465-495M), adjusted diluted EPS $0.75-0.85 (from $0.80-0.90), capex $115-125M, weighted diluted share count ~213.5M. Half-year cash flow from operations $241.5M against capex of $44.5M. Long-term debt fell to $1.686B from $1.755B at 2026-01-03; cash $52.8M. The 96th consecutive quarterly dividend of $0.1250 was declared on 2026-08-28.",
+  "consensus_case": "The bread aisle is shrinking and Flowers is levered to it. Q2 2026 net sales fell 4.0% to $1.193 billion as volume dropped 5.8% against only 1.8% of price/mix \u2014 and that volume decline ACCELERATED from -3.3% in Q1. Adjusted EBITDA fell 19.2% to $111.3M, a 180bp margin decline, because a fixed bakery and direct-store-delivery network deleverages hard on lost volume. Management cut full-year guidance for the second time, to $5.070-5.142B of sales and $453-481M of Adjusted EBITDA. Against that sits $1.686B of debt \u2014 roughly 3.5x the new EBITDA guide \u2014 so the equity is a levered residual on a business whose cash flow is falling at a double-digit rate. At a 7.5% dividend yield the market is not saying Flowers is going away; it is saying the dividend is the return and the equity value behind it is eroding. That is a coherent position and it is why the stock is down 51.6% in a year.",
+  "base_case_rationale": "The market is discounting a -12.5% FCFF compound decline for five years, which is this year's rate of decline projected forward without abatement. I do not think that survives contact with the asset base. Fresh packaged bread volume has been structurally declining at low single digits for years, and 2026 is an acute year on top of that \u2014 household budget pressure, trade-down to store brands and a category shift away from conventional loaves. But roughly a third of the portfolio is branded better-for-you (Dave's Killer Bread, Canyon Bakehouse, Simple Mills) that is not in structural decline, price/mix is still positive at +1.8%, and the company has the standard bakery lever of closing plants to re-lever a shrinking network \u2014 plant closure costs already appear in its own adjustment list. A -4% FCFF trajectory reflects continuing category erosion partly offset by mix and network rationalisation. That is materially worse than the naive +3.7% revenue-CAGR baseline, which is backward-looking and includes acquisitions, and materially better than what the price embeds.",
+  "key_risks": [
+    "Volume decline is structural, not cyclical, and does not stabilise",
+    "Net debt of ~$1.63B against guided Adjusted EBITDA of ~$467M is 3.5x; further EBITDA decline raises leverage mechanically",
+    "A dividend cut would remove the support holding the stock and would likely reset the shareholder base",
+    "Capex guided at $115-125M against roughly $150M of D&A \u2014 free cash flow is currently flattered by underinvestment"
+  ],
+  "watch_for": [
+    "Q3 2026 volume: better than -3% supports the base case, at or worse than -5.8% confirms the bear",
+    "Any change to the dividend, which has now run 96 consecutive quarters",
+    "Plant closure or network rationalisation announcements \u2014 the margin lever this thesis depends on",
+    "Adjusted EBITDA against the $453-481M guide; a third cut would end this thesis"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1128928/000119312526359191/flo-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1128928/000119312526359192/flo-20260718.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/27/flowers-foods-flo-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-flowers-foods-flo-down-021226207.html",
+    "https://finance.yahoo.com/markets/stocks/articles/flo-q2-deep-dive-portfolio-105736080.html"
+  ],
+  "flags": []
+}
