@@ -1,101 +1,91 @@
-# RES — RPC INC
+# TK — TEEKAY CORPORATION CORP LTD
 *Energy · brief generated 2026-09-03 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 54 Energy peers (96th pct)
-- baseline gap +221%
-- 21d move +15%
+- cheapest 8% of 48 Energy peers (92th pct)
+- baseline gap +216%
+- 5d move +9%
+- 21d move +19%
 - Energy is in the news
-- Energy sector melt_up (median +4.4%)
+- Energy sector melt_up (median +4.8%)
 - moved harder than its sector
 - never researched
-- urgency score 8.71
+- urgency score 7.68
 
 ## Market
 | | |
 |---|---|
-| price | $6.57 |
-| market cap | $1.5B |
-| 5d / 21d / 63d / 252d | +7.0% / +14.8% / -5.2% / +41.5% |
-| 60d avg daily $ volume | $9.5M |
-| beta (vs IWM) | 0.73 (R²=0.085) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-06-30 (10-Q) |
+| price | $13.36 |
+| market cap | $1.1B |
+| 5d / 21d / 63d / 252d | +9.1% / +19.0% / +16.7% / +77.4% |
+| 60d avg daily $ volume | $6.6M |
+| beta (vs IWM) | 0.48 (R²=0.068) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2025-12-31 (20-F) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$132.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$52.9M', '$129.5M', '$213.8M']
-Enterprise value **$1.3B** · FCFF yield **+10.4%**
+Normalized FCFF base **$379.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$111.5M', '$396.7M', '$623.3M']
+Enterprise value **$1.6B** · FCFF yield **+23.0%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.8% − 1pt | -11.1% |
-| **8.8% (point)** | **-7.9%** |
-| 8.8% + 1pt | -5.0% |
+| 7.4% − 1pt | -30.9% |
+| **7.4% (point)** | **-28.0%** |
+| 7.4% + 1pt | -25.4% |
 
 
-Naive baseline for comparison: **+22.1%** (5y revenue CAGR +22.1%).
-Gap under that baseline: **+220.8%** (fair value $21.08 vs price $6.57).
+Naive baseline for comparison: **-10.0%** (5y revenue CAGR -12.2% (clamped to -10.0%)).
+Gap under that baseline: **+216.1%** (fair value $42.23 vs price $13.36).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **96th percentile** of 54 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +202.6%).
+Cohort: **92th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +197.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.25x_oldest_growth_applied_to_a_trough_understates_value`
+- `balance_sheet_246d_old_enterprise_value_may_predate_a_financing`
+- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
+- `possible_trough_cycle_base_newest_fcf_0.18x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/742278/000110465926088774/res-20260630x10q.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/742278/000110465926088439/res-20260730x8k.htm
-- 2026-07-07 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/742278/000110465926081292/res-20260630x8k.htm
-- 2026-06-23 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/742278/000165495426006153/res_8k.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/742278/000110465926057794/res-20260331x10q.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/742278/000110465926056633/res-20260507x8k.htm
-- 2026-04-30 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/742278/000110465926052931/tm2613138d1_8k.htm
-- 2026-04-28 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/742278/000110465926050352/res-20260428x8k.htm
-- 2026-03-18 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/742278/000110465926030766/res-20260428xdef14a.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/742278/000110465926021480/res-20251231x10k.htm
 
 ## Earnings materials (8-K exhibits)
-*The press release and presentation as filed. EX-99.2 is usually the deck.*
-
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/742278/000110465926088439/res-20260730xex99d1.htm
-- **2026-07-07** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, 9.01)* — https://www.sec.gov/Archives/edgar/data/742278/000110465926081292/res-20260630xex99d1.htm
-- **2026-06-23** · EX-99.1 · press release — PRESS RELEASE *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/742278/000165495426006153/res_ex991.htm
-- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/742278/000110465926056633/res-20260507xex99d1.htm
+*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-08-21** · Is RPC Stock Attractive as Margin Gains Meet Soft Industry Activity? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rpc-stock-attractive-margin-gains-121000124.html
-  > RES' margin gains and diversified service mix strengthen its outlook, but subdued activity and higher capex temper the upside.
-- **2026-08-20** · Are Investors Undervaluing RPC (RES) Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-rpc-res-now-134003541.html
+- **2026-08-08** · Teekay (TK) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/07/teekay-tk-q2-2026-earnings-call-transcript/
+  > Record adjusted income and $1.2B cash fuel fleet renewal amid geopolitical shifts.
+- **2026-08-06** · Teekay (TK) Is Down 5.1% After EPS From Continuing Operations More Than Triples - Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/teekay-tk-down-5-1-031923346.html
+  > Teekay Corporation Ltd. has reported past half-year results for the period ended June 30, 2026, with sales rising to US$664.94 million from US$463.33 million and net income increasing to US$117.15 million from US$33.59 million a year earlie
+- **2026-08-04** · Should Value Investors Buy TEEKAY TANK LTD (TNK) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-teekay-tank-134004850.html
   > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
-- **2026-08-16** · 3 Profitable Stocks with Open Questions — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-open-questions-114100123.html
-  > Even if a company is profitable, it doesn’t always mean it’s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential.
-- **2026-08-14** · 1 Cash-Heavy Stock on Our Buy List and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-cash-heavy-stock-buy-200500853.html
-  > Companies with more cash than debt can be financially resilient, but that doesn’t mean they’re all strong investments. Some lack leverage because they struggle to grow or generate consistent profits, making them unattractive borrowers.
-- **2026-08-10** · RPC Inc's Dividend Analysis — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/rpc-incs-dividend-analysis-111450882.html
-  > This article first appeared on GuruFocus. RPC Inc (NYSE:RES) recently announced a total dividend of $0.04 per share, with the ex-dividend date set for 2026-08-10. This includes a $0.04 per share cash dividend payable on 2026-09-10.
-- **2026-08-05** · Earnings Estimates Rising for RPC (RES): Will It Gain? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-rising-rpc-res-162002675.html
-  > RPC (RES) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions.
-- **2026-08-04** · Should Value Investors Buy RPC (RES) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-rpc-res-134003306.html
-  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
-- **2026-08-02** · What RPC (RES)'s Q2 2026 Results and Dividend Move Mean For Shareholders — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/rpc-res-q2-2026-results-002009554.html
-  > In the past week, RPC, Inc. reported second-quarter 2026 results showing sales of US$460.87 million and net income of US$12.08 million, while its board affirmed a regular quarterly cash dividend of US$0.04 per share payable on September 10,
-- **2026-08-01** · RES Q2 Deep Dive: Technology Adoption and Strategic Investments Drive Outperformance — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/res-q2-deep-dive-technology-031557627.html
-  > Oilfield services company RPC (NYSE:RES) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 9.5% year on year to $460.9 million. Its non-GAAP profit of $0.08 per share was significantly above analysts’ con
-- **2026-08-01** · RPC Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/rpc-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > RPC (NYSE:RES) reported second-quarter 2026 revenue of $461 million, up 1% sequentially, as growth in several technical-service lines and improved job mix supported a 250-basis-point increase in adjusted EBITDA margin. Adjusted EBITDA rose 
+- **2026-08-01** · Is Teekay (TK) Cheap After Its Second Quarter Earnings Report? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/teekay-tk-cheap-second-quarter-200957303.html
+  > Teekay (TK) drew fresh attention from investors after reporting second quarter 2026 earnings. The company posted sales of US$379.51 million and net income of US$225.91 million for the period ended June 30. See our latest analysis for Teekay
+- **2026-08-01** · Teekay Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/teekay-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Teekay (NYSE:TK) reported record second-quarter results at its Teekay Tankers business, supported by historically strong spot tanker rates, significant spot-market exposure and a debt-free balance sheet. Teekay Tankers posted GAAP net incom
+- **2026-07-30** · Teekay Corp Ltd (TK) (Q2 2026) Earnings Call Highlights: Record Net Income and Strong Cash Flow ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/teekay-corp-ltd-tk-q2-230027271.html
+  > Teekay Corp Ltd (TK) posts record quarterly adjusted net income of $194 million, driven by strong spot tanker rates and a disciplined fleet renewal strategy.
+- **2026-07-30** · Teekay Corporation Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-teekay-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Teekay Corporation's Q2 2026 earnings call
+- **2026-07-29** · Teekay Corporation Ltd. Second Quarter 2026 Update — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/teekay-corporation-ltd-second-quarter-200500938.html
+  > HAMILTON, Bermuda, July 29, 2026 (GLOBE NEWSWIRE) -- Teekay Corporation Ltd. (Teekay or the Company) (NYSE:TK) today reported an update for the three months ended June 30, 2026. The update and Teekay Group’s earnings presentation are availa
+- **2026-07-15** · Teekay Group Publishes 2025 Sustainability Report — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/teekay-group-publishes-2025-sustainability-200500145.html
+  > HAMILTON, Bermuda, July 15, 2026 (GLOBE NEWSWIRE) -- Teekay Corporation Ltd. (Teekay) (NYSE:TK) and Teekay Tankers Ltd. (Teekay Tankers) (NYSE:TNK) (collectively, the Teekay Group) today announced the publication of their 2025 Sustainabilit
+- **2026-07-14** · Teekay Group To Announce Second Quarter 2026 Earnings Results On July 29, 2026 — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/teekay-group-announce-second-quarter-200500613.html
+  > HAMILTON, Bermuda, July 14, 2026 (GLOBE NEWSWIRE) -- Teekay Corporation Ltd. (Teekay) (NYSE:TK) and Teekay Tankers Ltd. (Teekay Tankers) (NYSE:TNK) (collectively, the Teekay Group) plan to release their financial results for the second quar
 
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-03** · Sector Update: Energy Stocks Rise Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132503315.html
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-02** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195545186.html
 - **2026-09-02** · Norwegian Cruise Line Just Dropped 16% in a Month: Sell Now, or Buy More? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/02/norwegian-cruise-line-just-dropped-16-in-a-month-sell-now-or-buy-more/
 - **2026-09-02** · Sector Update: Energy Stocks Higher in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-174723978.html
@@ -104,14 +94,12 @@ Attack these before you trust any number above.
 - **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-02** · Bear of the Day: Archrock (AROC) — *Zacks* — https://finance.yahoo.com/energy/articles/bear-day-archrock-aroc-080000864.html
 - **2026-09-01** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195655132.html
-- **2026-09-01** · Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal — *Zacks* — https://finance.yahoo.com/energy/articles/energy-etfs-watch-us-venezuela-183000885.html
-- **2026-09-01** · Sector Update: Energy Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175137526.html
 
 ## Market and macro context
-- **2026-09-03** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo
-- **2026-09-03** · Financial Coach? How A Money Mentor Can Help You Live Large — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/personal-finance/financial-coach-do-you-need-one/?src=A00220&yptr=yahoo
-- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
-- **2026-09-03** · 3 Consumer Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-095118853.html
+- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
+- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
+- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
+- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
@@ -123,6 +111,11 @@ Attack these before you trust any number above.
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Energy
+- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
+- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
+- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
 
 ---
 

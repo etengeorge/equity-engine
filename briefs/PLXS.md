@@ -1,93 +1,74 @@
-# QLYS — QUALYS
+# PLXS — PLEXUS CORP
 *Information Technology · brief generated 2026-09-03 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 46/1956
+- rotation position 55/1956
 
 ## Market
 | | |
 |---|---|
-| price | $170.83 |
-| market cap | $5.9B |
-| 5d / 21d / 63d / 252d | -2.9% / +10.3% / +50.6% / +25.8% |
-| 60d avg daily $ volume | $116.8M |
-| beta (vs IWM) | 0.99 (R²=0.148) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| price | $239.29 |
+| market cap | $6.4B |
+| 5d / 21d / 63d / 252d | -2.1% / -13.5% / -16.8% / +77.1% |
+| 60d avg daily $ volume | $81.2M |
+| beta (vs IWM) | 1.02 (R²=0.32) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-07-04 (10-K) |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$257.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$304.4M', '$231.8M', '$235.8M']
-Enterprise value **$5.5B** · FCFF yield **+4.7%**
+Normalized FCFF base **$194.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$154.0M', '$341.3M', '$61.8M']
+Enterprise value **$6.3B** · FCFF yield **+3.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.2% − 1pt | +12.0% |
-| **10.2% (point)** | **+15.4%** |
-| 10.2% + 1pt | +18.6% |
+| 10.2% − 1pt | +22.3% |
+| **10.2% (point)** | **+26.1%** |
+| 10.2% + 1pt | +29.7% |
 
 
-> **Stock compensation is 29% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$182.9M** and an implied growth of **+24.4%** instead of +15.4%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$167.1M** and an implied growth of **+30.3%** instead of +26.1%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+13.0%** (5y revenue CAGR +13.0%).
-Gap under that baseline: **-8.3%** (fair value $156.63 vs price $170.83).
+Naive baseline for comparison: **+2.9%** (5y revenue CAGR +2.9%).
+Gap under that baseline: **-58.6%** (fair value $99.08 vs price $239.29).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **63th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +27.3%).
+Cohort: **33th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -23.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `stock_comp_is_29%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `lumpy_fcff_spread_1.5x_of_mean`
+- `possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804.htm
-- 2026-06-11 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000024/qlys-20260610.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000015/qlys-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1107843/000114036126016101/ny20064597x1_def14a.htm
-- 2026-02-20 **10-K** — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000008/qlys-20251231.htm
-- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000004/qlys-20260205.htm
-- 2025-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1107843/000110784325000038/qlys-20250930.htm
-- 2025-11-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1107843/000110784325000037/qlys-20251104.htm
+- 2026-08-24 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000057/plxs-20260824.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/785786/000078578626000054/plxs-20260704.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000049/plxs-20260729.htm
+- 2026-06-08 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000038/plxs-20260605.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/785786/000078578626000031/plxs-20260404.htm
+- 2026-04-29 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000028/plxs-20260428.htm
+- 2026-02-19 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000021/plxs-20260218.htm
+- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/785786/000078578626000016/plxs-20260103.htm
+- 2026-01-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/785786/000078578626000005/plxs-20260128.htm
+- 2025-12-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/785786/000114036125046290/ny20058535x1_def14a.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/785786/000078578626000049/plxsf26q3er-ex991.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-28** · Palo Alto Networks to Report Q4 Earnings: How to Play the Stock — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-report-q4-141700247.html
-  > PANW heads into Q4 earnings with platformization, AI-security adoption and deal wins supporting growth, while acquisition costs pose pressure.
-- **2026-08-28** · Autodesk, Qualys, Rapid7, Sprout Social, and Tenable Shares Skyrocket, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/autodesk-qualys-rapid7-sprout-social-052107968.html
-  > A number of stocks jumped in the afternoon session after quarterly earnings and upbeat corporate commentary signaled that artificial intelligence is driving growth across enterprise software rather than threatening legacy business models.
-- **2026-08-27** · Qualys (QLYS) Benefits as AI Strengthens Cybersecurity Demand — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/qualys-qlys-benefits-ai-strengthens-142719069.html
-  > The London Company, an investment management company, released its second-quarter 2026 investor letter for its “Small-Mid Cap Strategy.” The letter can be downloaded here. U.S. equities rebounded sharply in Q2, with the Russell 3000 gaining
-- **2026-08-24** · CrowdStrike Set to Report Q2 Earnings: Buy, Sell or Hold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/crowdstrike-set-report-q2-earnings-142400188.html
-  > CRWD heads into fiscal Q2 with the consensus mark for revenues of $1.44B and EPS of 29 cents, implying 23.2% and 26.1% year-over-year growth, respectively.
-- **2026-08-24** · 2 Profitable Stocks Worth Investigating and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-worth-investigating-134536004.html
-  > While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.
-- **2026-08-20** · 3 Ways to Invest in Cybersecurity Through ETFs — *MarketBeat* — https://www.marketbeat.com/articles/3-ways-to-invest-in-cybersecurity-through-etfs/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > BUG, IHAK, and WCBR are similarly priced cybersecurity ETFs, but differences in holdings, concentration, and growth screens explain their varied 2026 performance and risk levels.
-- **2026-08-18** · Buy 3 High-Flying Mid-Cap Stocks on Solid AI Cloud Computing Momentum — *Zacks* — https://finance.yahoo.com/technology/ai/articles/buy-3-high-flying-mid-124900387.html
-  > Cloud demand and AI adoption are fueling FIVN, FSLY and QLYS, with strong growth and improving earnings estimates.
-- **2026-08-17** · Is Qualys (QLYS) Still Undervalued Or Are Earnings Too Rich? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/qualys-qlys-still-undervalued-earnings-191001910.html
-  > Qualys stock has delivered a 69.6% return over the past five years, yet its current valuation picture is split, with a Discounted Cash Flow (DCF) intrinsic value estimate pointing to upside while market based multiples look less generous. O
-- **2026-08-17** · How Investors May Respond To Qualys (QLYS) Raised 2026 Outlook And New AI Cyber Risk Tools — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-qualys-qlys-181050603.html
-  > In early August 2026, Qualys reported second-quarter 2026 results showing higher sales and earnings, raised its third-quarter and full-year 2026 guidance, launched its AI-powered InstaScan vulnerability detection capability, filed a US$168.
-- **2026-08-17** · Qualys (QLYS) Is Up 1.40% in One Week: What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/qualys-qlys-1-40-one-160002684.html
-  > Does Qualys (QLYS) have what it takes to be a top stock pick for momentum investors? Let's find out.
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-03** · 3 No-Brainer Tech Stocks to Buy With $5,000 Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/
 - **2026-09-02** · Sector Update: Tech Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-193514411.html
 - **2026-09-02** · Sector Update: Tech Stocks Mixed Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-wednesday-172723766.html
@@ -97,13 +78,12 @@ Attack these before you trust any number above.
 - **2026-09-01** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-193840614.html
 - **2026-09-01** · Sector Update: Tech Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-tuesday-174657831.html
 - **2026-09-01** · Exchange-Traded Funds Decline as US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-decline-us-170929387.html
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 
 ## Market and macro context
-- **2026-09-03** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo
-- **2026-09-03** · Financial Coach? How A Money Mentor Can Help You Live Large — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/personal-finance/financial-coach-do-you-need-one/?src=A00220&yptr=yahoo
-- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
-- **2026-09-03** · 3 Consumer Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-095118853.html
+- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
+- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
+- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
+- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
@@ -119,6 +99,8 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Information Technology
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
+- RIOT: no_model · price $18.64
 - SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
 - VSAT: no_edge · price $66.93
 

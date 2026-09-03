@@ -1,88 +1,93 @@
-# EPRT — ESSENTIAL PROPERTIES REALTY TRUST
-*Real Estate · brief generated 2026-09-03 · selected as **rotation***
+# FG — F&amp;G ANNUITIES AND LIFE INC
+*Financials · brief generated 2026-09-03 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 48/1956
+- cheapest 1% of 339 Financials peers (99th pct)
+- baseline gap +176%
+- 21d move -19%
+- Financials is in the news
+- never researched
+- urgency score 7.23
 
 ## Market
 | | |
 |---|---|
-| price | $29.97 |
-| market cap | $6.5B |
-| 5d / 21d / 63d / 252d | -2.7% / -3.8% / +0.5% / -0.3% |
-| 60d avg daily $ volume | $56.5M |
-| beta (vs IWM) | 0.41 (R²=0.163) |
-| 5d volume vs 60d average | 0.7x |
+| price | $23.97 |
+| market cap | $3.1B |
+| 5d / 21d / 63d / 252d | +2.3% / -19.2% / -6.7% / -28.1% |
+| 60d avg daily $ volume | $17.9M |
+| beta (vs IWM) | 0.79 (R²=0.128) |
+| 5d volume vs 60d average | 0.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 69% / debt 31% |
+| WACC weights | equity 58% / debt 42% |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+| | |
+|---|---|
+| sustainable ROTCE | +31.7% |
+| cost of equity | +9.1% |
+| justified P/TBV | 4.18 |
+| actual P/TBV | 1.51 |
+| tangible book / share | $15.83 |
+| implied gap | +176.1% |
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=77) | 18.2x | 11.0x / 16.8x / 22.6x | $13.05 / $26.63 / $40.43 |
-| ev_sales (n=92) | 16.6x | 3.2x / 7.2x / 11.3x | $-4.74 / $5.57 / $16.10 |
-| p_tbv (n=84) | 1.5x | 1.0x / 1.6x / 2.2x | $20.26 / $32.00 / $44.46 |
-
-Blended midpoint **$21.40** vs price $29.97 — gap **-28.6%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **99th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +208.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- `speculative_cost_of_debt_at_42%_debt_weight_wacc_unreliable`
+- `goodwill_and_intangibles_56%_of_book`
+- `unstable_rotce_12.0%_to_51.4%`
+- `rotce_32%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
 
 ## Recent filings
-- 2026-07-24 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000162828026049625/eprt-20260724.htm
-- 2026-07-22 **10-Q** — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000052/eprt-20260630.htm
-- 2026-07-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/eprt-20260722.htm
-- 2026-06-15 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000162828026043273/eprt-20260604.htm
-- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000041/eprt-20260529.htm
-- 2026-06-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000039/eprt-20260601.htm
-- 2026-05-12 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000035/eprt-20260511.htm
-- 2026-04-22 **10-Q** — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000029/eprt-20260331.htm
-- 2026-04-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000028/eprt-20260422.htm
-- 2026-04-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000024/eprt-20260407.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000085/fg-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fg-20260805.htm
+- 2026-07-08 **8-K** — items 2.02,7.01 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000077/fg-20260708.htm
+- 2026-06-25 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000065/fg-20260624.htm
+- 2026-06-16 **8-K** — items 1.01,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000061/fg-20260615.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000057/fg-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/fg-20260506.htm
+- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1934850/000110465926052877/tm261589d1_def14a.htm
+- 2026-04-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000039/fg-20260330.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000026/fg-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/earningsreleaseex991-worki.htm
-- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/a2q26ex992.htm
-- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000041/ex991-dividendq22026.htm
-- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000039/investorpjune2026.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/a2q26fgearningsrelease_f.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fg2q2026financialsupplem.htm
+- **2026-08-05** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fgsummer2026investorpres.htm
+- **2026-06-16** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000061/fgexecleadershiptransiti.htm
+- **2026-05-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/a1q26fgearningsrelease_f.htm
+- **2026-05-06** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/fg1q2026financialsupplem.htm
+- **2026-05-06** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/fgspring2026investorpres.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Real Estate
-*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
 - **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
+- **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html
+- **2026-09-01** · Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/01/morgan-stanley-stock-is-up-nearly-20-in-2026-what-will-it-take-to-break-through-250/
 - **2026-09-01** · Sector Update: Financial Stocks Softer Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html
-- **2026-08-31** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-195819260.html
-- **2026-08-31** · Sector Update: Financial Stocks Softer Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-monday-175134875.html
-- **2026-08-28** · Tenant Says the Water Heater Died Again? These 3 ETFs Pay Rent Without Owning a Single Pipe — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/08/28/tenant-says-the-water-heater-died-again-these-3-etfs-pay-rent-without-owning-a-single-pipe/
-- **2026-08-28** · Sector Update: Financial Stocks Advance Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-201244277.html
-- **2026-08-28** · Sector Update: Financial Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-174348449.html
-- **2026-08-28** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-172208546.html
+- **2026-09-01** · Exchange-Traded Funds Decline as US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-decline-us-170929387.html
+- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 
 ## Market and macro context
-- **2026-09-03** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo
-- **2026-09-03** · Financial Coach? How A Money Mentor Can Help You Live Large — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/personal-finance/financial-coach-do-you-need-one/?src=A00220&yptr=yahoo
-- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
-- **2026-09-03** · 3 Consumer Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-095118853.html
+- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
+- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
+- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
+- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
@@ -95,10 +100,15 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Real Estate
-- COMP: no_model · price $10.56
-- CTRE: no_model · price $39.03
-- RHP: no_model · price $129.33
+## Prior verdicts elsewhere in Financials
+- ACR: no_model · price $14.00
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+- JXN: no_model · price $133.65
+- MFIN: no_edge · price $11.82
+- OSCR: no_model · price $29.83
+- SNEX: no_edge · price $68.48
+- VEL: no_edge · price $18.01
+- VLY: fair · price $13.81 · fair value $11.77 · gap -14.7%
 
 ---
 

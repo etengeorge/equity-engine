@@ -1,5 +1,17 @@
 [
  {
+  "id": "1bb1c12b-739e-315d-9b06-11740e15fc24",
+  "ts": "2026-09-03T11:47:30+00:00",
+  "title": "GoPro merges with Starman Optical in $285 million deal",
+  "summary": "GoPro shareholders will receive $1.14 per share and retain about 10% of the combined company, which plans to expand into AI data centers and defense markets",
+  "publisher": "Quartz",
+  "url": "https://qz.com/gopro-starman-optical-merger-285-million-ai-defense-090326",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cf28efc4-b44b-3b85-9f4e-67cafd985010",
   "ts": "2026-09-03T01:37:35+00:00",
   "title": "GoPro\u2019s Next Opportunity Could Lie Beyond the Action-Camera Market",

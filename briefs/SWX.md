@@ -1,85 +1,87 @@
-# VLY — VALLEY NATIONAL
-*Financials · brief generated 2026-09-03 · selected as **rotation***
+# SWX — SOUTHWEST GAS HOLDINGS
+*Utilities · brief generated 2026-09-03 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 43/1956
+- rotation position 51/1956
 
 ## Market
 | | |
 |---|---|
-| price | $13.81 |
-| market cap | $7.6B |
-| 5d / 21d / 63d / 252d | -2.1% / -4.8% / +1.1% / +36.9% |
-| 60d avg daily $ volume | $98.8M |
-| beta (vs IWM) | 1.01 (R²=0.494) |
-| 5d volume vs 60d average | 0.9x |
+| price | $89.14 |
+| market cap | $6.5B |
+| 5d / 21d / 63d / 252d | -1.6% / +0.8% / +4.7% / +16.3% |
+| 60d avg daily $ volume | $46.6M |
+| beta (vs IWM) | 0.33 (R²=0.11) |
+| 5d volume vs 60d average | 0.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 77% / debt 23% |
+| WACC weights | equity 65% / debt 35% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$150.8M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$-251.8M', '$409.9M', '$-363.3M']
+Enterprise value **$9.7B** · FCFF yield **+1.6%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +9.1% |
-| cost of equity | +10.4% |
-| justified P/TBV | 0.85 |
-| actual P/TBV | 1.33 |
-| tangible book / share | $10.36 |
-| implied gap | -36.4% |
+| 7.5% − 1pt | +27.3% |
+| **7.5% (point)** | **+33.2%** |
+| 7.5% + 1pt | +38.5% |
 
-Cohort: **48th percentile** of 340 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -2.4%).
+
+Naive baseline for comparison: **-10.0%** (5y revenue CAGR -10.1% (clamped to -10.0%)).
+Gap under that baseline: **-125.2%** (fair value $-22.49 vs price $89.14).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **9th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -65.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_25%_of_book`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_11.3x_of_mean`
 
 ## Recent filings
-- 2026-08-25 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/714310/000119312526364239/d149125d8k.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/714310/000071431026000041/vly-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/714310/000071431026000036/vly-20260723.htm
-- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/714310/000071431026000030/vly-20260518.htm
-- 2026-05-14 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/714310/000119312526224197/d84505d8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/714310/000071431026000027/vly-20260331.htm
-- 2026-05-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/714310/000119312526210654/d145489d8k.htm
-- 2026-04-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/714310/000071431026000020/vly-20260423.htm
-- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/714310/000119312526141225/d56809ddef14a.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/714310/000071431026000017/vly-20251231.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000112/swx-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000109/swx-20260805.htm
+- 2026-05-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000090/swx-20260507.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000088/swx-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000086/swx-20260505.htm
+- 2026-03-23 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000080/swx-20260323.htm
+- 2026-02-25 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1692115/000119312526071537/d838035d8k.htm
+- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000062/swx-20251231.htm
+- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000060/swx-20260225.htm
+- 2026-02-12 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/1692115/000119312526047540/d939236d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-25** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000119312526364239/d149125dex991.htm
-- **2026-08-25** · EX-99.2 · presentation — EX-99.2 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000119312526364239/d149125dex992.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000071431026000036/exhibit991earningsrelease0.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000071431026000036/a2q26earningspresentatio.htm
-- **2026-05-14** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000119312526224197/d84505dex991.htm
-- **2026-05-14** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, new debt obligation, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000119312526224197/d84505dex992.htm
-- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/714310/000119312526210654/d145489dex991.htm
+- **2026-08-05** · EX-99 · press release — JUNE 2026 EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000109/swx63026-earningsrelease.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Utilities
+*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
-- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
-- **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-01** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html
-- **2026-09-01** · Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/01/morgan-stanley-stock-is-up-nearly-20-in-2026-what-will-it-take-to-break-through-250/
-- **2026-09-01** · Sector Update: Financial Stocks Softer Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html
-- **2026-09-01** · Exchange-Traded Funds Decline as US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-decline-us-170929387.html
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
+- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
+- **2026-09-02** · Stock Market News for Sep 2, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html
 - **2026-09-01** · The Best Stock Sector ETFs for Rising Interest Rates — *Barrons.com* — https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo
+- **2026-09-01** · Stock Market News for Sep 1, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html
+- **2026-08-31** · Forget XLU: These 3 Utility Dividend Stocks Offer More Exposure to AI — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/forget-xlu-these-3-utility-dividend-stocks-offer-more-exposure-to-ai/
+- **2026-08-31** · PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/pge-sinks-18-edison-international-tumbles-23-as-california-wildfire-bill-omits-liability-cap/
+- **2026-08-31** · NextEra Energy Stock: Is NEE Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4355805/nextera-energy-stock-is-nee-outperforming-the-utilities-sector
+- **2026-08-26** · Utility Stocks Hit Record Lows vs. S&P 500: Why It’s Time to Buy — *Barrons.com* — https://www.barrons.com/articles/utility-stocks-record-low-sp500-buying-opportunity-8237dd33?siteid=yhoof2&yptr=yahoo
+- **2026-08-25** · Are Wall Street Analysts Predicting Atmos Energy Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4023979/are-wall-street-analysts-predicting-atmos-energy-stock-will-climb-or-sink
+- **2026-08-24** · After Comparing Every Way to Own the AI Power Buildout, These 3 ETFs Cover the Grid, the Generators, and the Fuel — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/08/24/after-comparing-every-way-to-own-the-ai-power-buildout-these-3-etfs-cover-the-grid-the-generators-and-the-fuel/
 
 ## Market and macro context
-- **2026-09-03** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo
-- **2026-09-03** · Financial Coach? How A Money Mentor Can Help You Live Large — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/personal-finance/financial-coach-do-you-need-one/?src=A00220&yptr=yahoo
-- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
-- **2026-09-03** · 3 Consumer Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-095118853.html
+- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
+- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
+- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
+- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
@@ -91,15 +93,6 @@ Attack these before you trust any number above.
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
-
-## Prior verdicts elsewhere in Financials
-- ACR: no_model · price $14.00
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- JXN: no_model · price $133.65
-- MFIN: no_edge · price $11.82
-- OSCR: no_model · price $29.83
-- SNEX: no_edge · price $68.48
-- VEL: no_edge · price $18.01
 
 ---
 

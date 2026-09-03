@@ -1,11 +1,35 @@
 [
  {
+  "id": "c68062fb-bc31-3019-8274-0428cd24b2b4",
+  "ts": "2026-09-03T12:23:00+00:00",
+  "title": "QUBT Bets on Scale as Rising Costs Weigh on Profitability",
+  "summary": "Quantum Computing is betting on higher production volumes and scalable manufacturing as rising costs and gross losses weigh on profitability.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/technology/articles/qubt-bets-scale-rising-costs-122300244.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ce32e079-f879-39b7-98db-10f72d1d3c52",
   "ts": "2026-09-02T19:00:00+00:00",
   "title": "NVIDIA & 4 Stocks Beyond Pure Plays to Gain From Quantum Boom in 2026",
   "summary": "NVIDIA and four tech giants offer quantum exposure through cloud, software and infrastructure, helping investors tap the boom beyond pure plays.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-4-stocks-beyond-pure-190000450.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "eb0504c3-691d-34d2-b0f0-294425513b5b",
+  "ts": "2026-09-02T11:30:00+00:00",
+  "title": "Will the Most Successful Quantum Firms Be Software Companies?",
+  "summary": "Beyond hardware, Quantum Computing as a Service is emerging as a key revenue driver for D-Wave, Rigetti, and Quantum Computing Inc., with D-Wave appearing best positioned so far.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/will-the-most-successful-quantum-firms-be-software-companies/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "QBTS"
   ],

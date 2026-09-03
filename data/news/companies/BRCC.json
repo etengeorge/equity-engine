@@ -94,17 +94,5 @@
    "BRCC"
   ],
   "source": "yfinance"
- },
- {
-  "id": "32dff1c4-73d4-3706-8049-5bf973af2942",
-  "ts": "2026-05-05T12:30:00+00:00",
-  "title": "BRC Inc. Q1 2026 Earnings Call Summary",
-  "summary": "Moby summary of BRC Inc.'s Q1 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-brc-inc-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "BRCC"
-  ],
-  "source": "yfinance"
  }
 ]

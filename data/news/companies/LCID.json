@@ -1,5 +1,41 @@
 [
  {
+  "id": "89d2c627-f8b2-38c0-ae9f-7a6ec60846f0",
+  "ts": "2026-09-03T14:30:04+00:00",
+  "title": "Tesla Advances 6% as Traders Await Cybercab Event, Lucid Rises 3%, Rivian Ticks Up",
+  "summary": "Tesla is surging ahead of its Cybercab event in Austin while rivals Lucid and Rivian trail behind, but whether the autonomous vehicle showcase delivers the commercial proof traders are pricing in could determine if this rally has legs or sets up a painful reversal.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/03/tesla-advances-6-as-traders-await-cybercab-event-lucid-rises-3-rivian-ticks-up/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c9255482-8f6c-3a96-bc87-a54a434686fe",
+  "ts": "2026-09-03T14:05:00+00:00",
+  "title": "Better Stock: Lucid vs. Rivian (Hint: It's All About Shareholder Dilution)",
+  "summary": "Shareholder dilution is one of the major differences between Rivian and Lucid, and investors should note how it looks going forward.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/03/better-stock-lucid-vs-rivian-hint-its-all-about/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "693d7220-df1b-3ce3-85e0-474389482446",
+  "ts": "2026-09-03T12:50:00+00:00",
+  "title": "Better Stock: Lucid vs. Rivian? (Hint: Unit Economics and Gross Profits Are Key.)",
+  "summary": "Rivian and Lucid share many things in common, but the former has drastically improved its gross profitability, while Lucid has been stuck in neutral.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/03/better-stock-lucid-vs-rivian-hint-unit-economics-a/",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e3dd9f3a-36c7-454e-bba7-714fe502dd21",
   "ts": "2026-09-02T20:30:00+00:00",
   "title": "Range Rover reveals its first-ever electric SUV",

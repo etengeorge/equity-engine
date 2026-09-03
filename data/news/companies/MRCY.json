@@ -1,5 +1,17 @@
 [
  {
+  "id": "d6ec1964-ef0b-3086-a491-c3be84174e10",
+  "ts": "2026-09-03T13:03:18+00:00",
+  "title": "3 of Wall Street\u2019s Favorite Stocks We Think Twice About",
+  "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-130318200.html",
+  "tickers": [
+   "MRCY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "6af78437-c252-3760-8d0c-945e3caad6a1",
   "ts": "2026-09-03T03:27:31+00:00",
   "title": "Mercury Systems (MRCY) Slides As Valuation Views Split, Is The Stock 22% Undervalued?",

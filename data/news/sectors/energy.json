@@ -1,5 +1,33 @@
 [
  {
+  "id": "0e3931b2-d27d-34c6-be1e-08ec235592bb",
+  "ts": "2026-09-03T13:25:03+00:00",
+  "title": "Sector Update: Energy Stocks Rise Pre-Bell Thursday",
+  "summary": "Energy stocks were rising pre-bell Thursday, with the State Street Energy Select Sector SPDR ETF (XL",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132503315.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
+  "ts": "2026-09-03T13:20:19+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "c9b05e8f-61cf-37ce-8ece-b4ff1bf82aca",
   "ts": "2026-09-02T19:55:45+00:00",
   "title": "Sector Update: Energy Stocks Rise Late Afternoon",
