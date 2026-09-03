@@ -1,0 +1,187 @@
+{
+  "ticker": "MATX",
+  "date": "2026-09-03",
+  "sector": "Industrials",
+  "name": "MATSON INC",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.03,
+  "bear_growth": -0.03,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 218.2100067138672,
+  "market_implied_growth": 0.15581921437537372,
+  "cohort_pct": 38.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.15581921437537372,
+    "growth_delta": -0.12581921437537372,
+    "fair_value": 127.62470601249461,
+    "price": 218.2100067138672,
+    "gap": -0.41512899461184927,
+    "fair_value_band": {
+      "low": 111.53237100440352,
+      "point": 127.62470601249461,
+      "high": 148.73629329243852
+    },
+    "fcff_base_used": 280783333.3333333,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09417388220115383,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 280783333.3333333,
+      "price": 218.2100067138672,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.07417388220115383,
+              "fair_value": 133.96182340343063,
+              "gap": -0.38608762530725227
+            },
+            {
+              "wacc": 0.08417388220115384,
+              "fair_value": 112.47172142391881,
+              "gap": -0.4845712022208042
+            },
+            {
+              "wacc": 0.09417388220115383,
+              "fair_value": 96.76105767179946,
+              "gap": -0.5565691091395291
+            },
+            {
+              "wacc": 0.10417388220115383,
+              "fair_value": 84.77062529628229,
+              "gap": -0.6115181582509197
+            },
+            {
+              "wacc": 0.11417388220115383,
+              "fair_value": 75.31582694559515,
+              "gap": -0.6548470527093896
+            }
+          ],
+          "fair_value_at_point_wacc": 96.76105767179946,
+          "gap_at_point_wacc": -0.5565691091395291
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.07417388220115383,
+              "fair_value": 177.64688947588536,
+              "gap": -0.18589027079391063
+            },
+            {
+              "wacc": 0.08417388220115384,
+              "fair_value": 148.73629329243852,
+              "gap": -0.31838005262759395
+            },
+            {
+              "wacc": 0.09417388220115383,
+              "fair_value": 127.62470601249461,
+              "gap": -0.41512899461184927
+            },
+            {
+              "wacc": 0.10417388220115383,
+              "fair_value": 111.53237100440352,
+              "gap": -0.48887600214112603
+            },
+            {
+              "wacc": 0.11417388220115383,
+              "fair_value": 98.8602303248333,
+              "gap": -0.5469491440213097
+            }
+          ],
+          "fair_value_at_point_wacc": 127.62470601249461,
+          "gap_at_point_wacc": -0.41512899461184927
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.07417388220115383,
+              "fair_value": 222.22918809754327,
+              "gap": 0.01841886833790496
+            },
+            {
+              "wacc": 0.08417388220115384,
+              "fair_value": 185.67408020629287,
+              "gap": -0.14910373267270816
+            },
+            {
+              "wacc": 0.09417388220115383,
+              "fair_value": 159.00110192165002,
+              "gap": -0.2713390906488362
+            },
+            {
+              "wacc": 0.10417388220115383,
+              "fair_value": 138.68715443313317,
+              "gap": -0.3644326558543677
+            },
+            {
+              "wacc": 0.11417388220115383,
+              "fair_value": 122.70561545750866,
+              "gap": -0.43767191383478043
+            }
+          ],
+          "fair_value_at_point_wacc": 159.00110192165002,
+          "gap_at_point_wacc": -0.2713390906488362
+        }
+      ],
+      "summary": {
+        "bear": -0.5565691091395291,
+        "base": -0.41512899461184927,
+        "bull": -0.2713390906488362
+      },
+      "downside": -0.6548470527093896,
+      "upside": 0.01841886833790496
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against calling this rich is that the FCFF base is artificially depressed and I am comparing a peak-earnings price against a trough-cash-flow denominator. Matson is spending roughly $400M a year on vessel construction \u2014 a discrete, finite program that ends in 2027-28 \u2014 on top of $150-170M of ordinary capex. The engine's base of $280.8M is CFO minus ALL capex averaged over three years, and the newest year in that series is $153.7M precisely because the newbuild spend is at its heaviest. Once the program ends, the same operating cash flow drops through to free cash flow with $400M less leaving the door. On that reading the required growth is not 15.6% at all: the denominator is wrong, and a company whose free cash flow is about to step up by hundreds of millions for structural reasons is being penalised for investing.",
+    "what_would_prove_it": "The capital expenditure guide for 2028 and 2029, once the third Aloha-class vessel is delivered. If total capex \u2014 maintenance plus construction plus dry-docking \u2014 guides back toward $200M against operating cash flow of $450M-plus, the newbuild-depression argument is proved and the base is genuinely understated. Second observable: China service operating income in Q4 2026 and Q1 2027 against management's own 'modestly lower' guide, which tests whether the rate environment is peaking.",
+    "already_visible": "Both sides are partly visible, and on balance the counter does not rescue the valuation. H1 2026 operating cash flow was $231.6M, or roughly $463M annualized; deduct only maintenance capex ($150-170M) and dry-docking (~$45M) and normalized free cash flow is around $250-270M \u2014 which is essentially the engine's $280.8M base. So the newbuild program is NOT in fact depressing the normalized number the model uses; the three-year mean has already smoothed it out. The counter is right in principle and wrong in magnitude, and checking it is what convinced me the $280.8M base is sound. Meanwhile the peak-rate evidence IS visible and dated: management's own guidance has Q4 operating income below last year.",
+    "unresolved": "I could not determine how much of the roughly $455M of 2025 Ocean Transportation operating income is a durable expedited-service premium versus a cyclical Transpacific rate. Pre-2020 the segment earned a small fraction of that; whether the step-change is structural is the single question that decides this stock, and neither the release nor the outlook answers it. My 'rich' verdict rests on the judgement that a 15.6% five-year growth requirement is not met under EITHER reading, which is a weaker claim than knowing which reading is true."
+  },
+  "what_changed": "Q2 2026 (3 Aug): net income $129.4M / $4.27 per diluted share on revenue of $969.4M, with China volume +15.2%. Full-year outlook raised \u2014 consolidated operating income expected above FY2025. But the segment guidance is two-sided and specific: Q3 Ocean Transportation operating income ~45% above the $147.4M of Q3 2025, then Q4 operating income MODESTLY LOWER than the $136.0M of Q4 2025, as demand reverts to 'a more traditional seasonality pattern' against an elevated Q4 2025 that followed the 30 Oct 2025 US-China trade agreement. Hawaii volume -1.1%, Alaska -2.3%, Guam +4.4% \u2014 every domestic trade flat to down. The SSAT joint venture contributed $4.8M, $2.5M below Q2 2025, with full-year SSAT guided below the $32.5M of 2025. Capital guidance for 2026: $150-170M of capex including maintenance, PLUS approximately $400M of vessel construction, PLUS ~$45M of dry-docking. D&A guided to ~$205M. H1 operating cash flow was $231.6M against $255.5M of capital expenditure including vessel construction. The stock is +111.7% over 252 days.",
+  "consensus_case": "Matson owns two things that cannot be replicated: a Jones Act franchise in Hawaii, Alaska and Guam, and the fastest expedited Transpacific service in the market. Q2 2026 net income of $129.4M ($4.27 per diluted share) against $94.7M a year earlier, on revenue of $969.4M versus $830.5M, came from China service volume up 15.2% with CLX and MAX seeing higher-than-expected freight rates against tighter Transpacific supply. Management raised the full-year outlook and guides Q3 Ocean Transportation operating income roughly 45% above the $147.4M of Q3 2025, with the China service at or near capacity through peak season. The post-2020 earnings base has proved structurally higher than the pre-2020 one \u2014 e-commerce demand for guaranteed expedited capacity is a different product from container shipping \u2014 and Matson is midway through a fleet renewal that replaces older tonnage with three LNG-powered Aloha-class vessels, lowering unit cost and locking in the Jones Act moat for another generation. The buyer at $218.21 is paying for a franchise, not a freight rate.",
+  "base_case_rationale": "The reverse DCF says the buyer at $218.21 requires 15.6% compound FCFF growth for five years. Matson's own segment guidance does not describe a company that can deliver that. Three of its four ocean trades \u2014 Hawaii, Alaska, Guam \u2014 are guided flat to down for the full year, and they are structurally no-growth: they track island populations and Alaskan seafood, not GDP. The one growing trade, the China express, is explicitly at or near capacity through peak season, which means volume growth is capped by ships, and management has already guided Q4 operating income BELOW last year as Transpacific demand normalizes. So the growth has to come from rate, and 2026 rates are elevated against a backdrop management itself describes as 'tighter supply conditions' \u2014 a cyclical condition, not a structural one. Add $205M of annual D&A stepping up as three new vessels deliver, and SSAT contributing less than last year. I underwrite +3% FCFF growth: the Jones Act trades hold real pricing power and roughly track inflation, the fleet renewal genuinely lowers unit operating cost once the newbuild capex ends in 2027-28, and the China express retains a premium \u2014 but nothing here compounds at 15.6%, and the starting point is a rate peak rather than mid-cycle.",
+  "key_risks": [
+    "The price requires 15.6% compound FCFF growth while three of four ocean trades are guided flat to down and the fourth is explicitly at capacity",
+    "2026 earnings are set against elevated Transpacific rates that management describes as reflecting 'tighter supply conditions' \u2014 a cyclical, not structural, condition",
+    "Management has already guided Q4 2026 Ocean Transportation operating income BELOW the $136.0M of Q4 2025",
+    "D&A guided to ~$205M for 2026 and stepping up as three new Aloha-class vessels deliver into a market that may be softening",
+    "SSAT joint venture contribution guided below the $32.5M of 2025",
+    "The stock is +111.7% over 252 days, so a great deal of the operating improvement is already in the price"
+  ],
+  "watch_for": [
+    "2028-29 capital expenditure guidance once the newbuild program completes \u2014 a drop toward ~$200M total would materially raise normalized free cash flow and could overturn this verdict",
+    "Q4 2026 and Q1 2027 China service operating income against the 'modestly lower' guide \u2014 the test of whether Transpacific rates have peaked",
+    "Any sign that the CLX/MAX premium is compressing relative to Transpacific spot, which is the mechanism that separates franchise from cycle"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/3453/000110465926089794/matx-20260803xex99d1.htm",
+    "https://www.sec.gov/Archives/edgar/data/3453/000110465926090003/matx-20260630x10q.htm",
+    "https://www.prnewswire.com/news-releases/matson-inc-announces-second-quarter-2026-results-and-raises-full-year-outlook-302841264.html",
+    "https://www.investing.com/news/company-news/matson-q2-2026-slides-china-service-surge-lifts-earnings-46-93CH-4832424"
+  ],
+  "flags": []
+}

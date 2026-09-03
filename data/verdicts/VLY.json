@@ -1,0 +1,67 @@
+{
+  "ticker": "VLY",
+  "date": "2026-09-03",
+  "sector": "Financials",
+  "name": "VALLEY NATIONAL",
+  "method": "book",
+  "verdict": "fair",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.095,
+  "bull_growth": 0.13,
+  "rotce_override": 0.115,
+  "horizon_months": 24,
+  "price_at_verdict": 13.8100004196167,
+  "market_implied_growth": null,
+  "cohort_pct": 47.6,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.115,
+    "screen_rotce": 0.0908419497340714,
+    "justified_p_tbv": 1.1363217236172716,
+    "actual_p_tbv": 1.3327074028717654,
+    "tangible_book_per_share": 10.362364904598278,
+    "fair_value": 11.77498034914424,
+    "price": 13.8100004196167,
+    "gap": -0.14735843654152048,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_25%_of_book"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my 11.5% is that I have taken four quarters of improvement and extrapolated the good part of a credit cycle. Valley earned 9.07% ROTCE as recently as Q2 2025. The three-year average the model uses is not a stale artifact \u2014 it is a through-cycle number, and through-cycle is the correct basis on which to capitalize a bank, precisely because the good years always look permanent while you are in them. A CRE-concentrated bank in a rate environment that is no longer falling, that has just committed to an acquisition, is not obviously a 12% ROTCE franchise. On that reading the engine's 9.08% and its 0.85x justified multiple are right, the -36.4% gap is real, and Valley at 1.33x tangible book after a +36.9% twelve-month run is straightforwardly expensive.",
+    "what_would_prove_it": "The provision line and the CRE credit metrics, quarter by quarter: net charge-offs, non-performing loans and criticized/classified balances as a percentage of the CRE book. If ROTCE above 11.5% is being earned with a normal provision, it is a real operating result; if it is being earned with a provision below the through-cycle run rate, it is a credit holiday and the average is the honest number. Second observable: whether NIM expansion continues once the CD repricing tailwind is exhausted.",
+    "already_visible": "Partly, and it moved me. ROTCE improving monotonically across four quarters while tangible book per share grows ~8% annualized is not a pattern you get from releasing reserves \u2014 reserve releases flatter earnings while book value stagnates. That argues the improvement is operating. But I could NOT establish where the provision sits relative to a through-cycle level, and that is the crux of the counter. So the devil's advocate does not overturn my number, but it legitimately widens the range: it is why my bear case is 9.5% rather than 10.5%, and why the whole scenario grid, from 9.5% to 13% ROTCE, never produces a fair value ABOVE the current price. Valley does not price cheap under any assumption I am willing to defend.",
+    "unresolved": "Whether the current provision is at, above or below a through-cycle level for this specific CRE book. I read the Q2 earnings release and the August merger release but did not decompose the allowance or the criticized-asset roll-forward in the 10-Q, and without that I cannot separate an operating recovery from a benign credit year. That single unresolved input spans the entire 9.5%-13% ROTCE range, which is the honest width of this valuation."
+  },
+  "what_changed": "On 25 Aug 2026 Valley announced a definitive merger agreement to acquire Providence Financial Corporation, parent of Providence Bank & Trust: ~$1.6B total assets, $1.3B deposits, $1.1B loans and $800M of wealth AUM across 14 Chicagoland branches. Consideration is 4.3854 Valley shares plus $21.47 cash per Providence share, roughly $247M total at Valley's $14.10 close on 24 Aug, guided to ~2% EPS accretive and under 1% pro forma tangible book dilutive with an earnback of under three years. Q2 2026 (23 Jul) delivered net income of $170.9M / $0.29 per diluted share, ROATCE of 11.91% (12.05% adjusted), NIM of 3.20%, and common shares outstanding of 553.1M. A 14 May 8-K carried items 1.01 and 2.03 (a new debt obligation). The stock is -4.8% over 21 days but +36.9% over 252 days.",
+  "consensus_case": "Valley National at 1.33x tangible book is being paid for as a completed turnaround, and the quarterly evidence supports that reading. Annualized return on average tangible common equity has gone 9.07% (Q2 2025) to 10.02% to 11.56% (Q1 2026) to 11.91% in Q2 2026 \u2014 12.05% adjusted \u2014 which is not a recovery in progress but one largely delivered. Net interest margin was 3.20% on a tax-equivalent basis, up 3bp sequentially and 19bp year-on-year as high-cost deposits reprice down, and tangible book value per share grew nearly 8% annualized. Q2 net income was $170.9M, or $0.29 per diluted share. The August acquisition of Providence Financial adds a 14-branch, $1.6B-asset, low-cost-deposit franchise in Chicagoland at ~2% EPS accretion and under 1% tangible book dilution with a sub-three-year earnback \u2014 the cheapest form of funding improvement available to a bank whose historic problem was funding mix and CRE concentration. Buying at 1.33x TBV for a bank compounding tangible book at 8% and earning 12% on it is a defensible, unexciting proposition.",
+  "base_case_rationale": "The model's sustainable ROTCE of 9.08% is a three-year average and that window straddles the credit trough \u2014 the 2024-25 period when Valley was provisioning heavily against commercial real estate concentration and rebuilding capital. Averaging a ratio across a trough is the mirror image of the error LESSONS records for acquisitions: it does not describe the business as it now stands. The current run rate is 11.91% reported and 12.05% adjusted, reached progressively over four quarters rather than in one jump, which is what a real operating improvement looks like rather than a one-off. I underwrite 11.5% as sustainable, deliberately below the current print. The discount is for credit: Valley still carries one of the higher commercial real estate concentrations among large regionals, and a 12% ROTCE earned in a benign credit year is not a through-cycle 12%. Offsetting that, NIM is still expanding as legacy high-cost CDs reprice, and Providence adds low-cost core deposits at ~2% accretion. 11.5% is my central case; at that level the justified price to tangible book is roughly (11.5% - 2.0%) / (10.4% - 2.0%) = 1.13x against an actual 1.33x.",
+  "key_risks": [
+    "Commercial real estate concentration remains among the higher levels of the large regional banks, and it is the specific reason ROTCE was 9% in 2025",
+    "The model's 9.08% sustainable ROTCE is a three-year average across the credit trough; my 11.5% is an extrapolation of four quarters of improvement and could be a credit holiday",
+    "Goodwill and intangibles are 25% of book value, so tangible book \u2014 the entire basis of this valuation \u2014 is a much smaller number than reported equity",
+    "Integration risk on Providence, and a share issuance of roughly 4.3854 Valley shares per Providence share",
+    "NIM expansion depends on continued deposit repricing, which is a finite tailwind"
+  ],
+  "watch_for": [
+    "Quarterly provision expense and CRE criticized/classified balances \u2014 whether the 11.9% ROTCE is being earned with a normal or a suppressed provision",
+    "Whether ROATCE holds above 11.5% for two more quarters, which would confirm the run rate against the three-year average",
+    "Providence closing on the guided terms, with tangible book dilution actually under 1%"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/714310/000119312526364239/d149125dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/714310/000071431026000036/exhibit991earningsrelease0.htm",
+    "https://www.sec.gov/Archives/edgar/data/714310/000071431026000041/vly-20260630.htm",
+    "https://finance.yahoo.com/markets/stocks/articles/valley-national-bancorp-announces-second-110000093.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/07/23/valley-national-bancorp-vly-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_25%_of_book"
+  ]
+}

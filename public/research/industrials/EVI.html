@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>EVI — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / EVI</p><h1>EVI <span style='color:var(--faint);font-weight:400'>EVI INDUSTRIES INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$13.06</b></div><div>Analyst gap<b>+70%</b></div><div>Dated<b>2026-09-03</b></div></div><div class='prose'><h1>EVI — EVI INDUSTRIES INC</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-03 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $13.06 · fair value $22.25 · gap +70.4%</li><li><strong>Growth:</strong> market implies -9.3%, analyst says +0.0% (delta +9.3%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.6% | 7.6% | 8.6% | 9.6% | 10.6% | |---|---|---|---|---|---|---| | bear | -6.0% | $24.50 | $19.45 | $15.93 | $13.34 | $11.36 | | base | +0.0% | $33.89 | $27.02 | $22.25 | $18.75 | $16.06 | | bull | +7.0% | $47.92 | $38.32 | $31.66 | $26.76 | $23.01 |</p><p>At the point WACC of 8.6%: bear +22.0%, base +70.4%, bull +142.4% Across the whole grid the gap ranges -13.0% to +266.9% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $13.06 and a $168M market cap the market is pricing EVI for roughly -9.3% annual free cash flow decline, and there is a defensible case for that. EVI is a serial acquirer whose reported growth is bought, not earned: 33 businesses acquired since 2016 to take revenue from ~$36M to ~$435M. The organic business is currently deteriorating in the way that matters — Q3 FY2026 revenue rose 8% to $101.1M and gross margin hit a record 32.5%, yet EPS FELL to $0.05 from $0.07, because the acquisition machine adds interest cost, amortization and share count faster than it adds earnings. Projects keep slipping out of the quarter on weather and customer facility readiness. And in July management publicly corrected its own five-year EBITDA CAGR from 62% to 31% — a disclosure error of that size in a headline growth statistic is exactly what a market applies a discount to. On $1.3M of average daily volume with the founder-operator model concentrating control, the buyer is being asked to underwrite a roll-up on trust at the point where the compounding has visibly slowed.</p><p><strong>What changed.</strong> Three items after the 31 Mar 2026 balance sheet the model uses. (1) On 17 Jul 2026 EVI agreed to acquire Sudsies and affiliates across four transactions — $22.6M + $4.0M + $0.9M + $7.12M, roughly $34.6M total, of which only about $600K is stock (the Transaction C and D stock amounts) — entering consumer garment care, a business EVI has never operated. The deal CLOSED 2 Sep 2026. (2) The accompanying 8-K corrects the 20 Jul press release, which &#x27;inadvertently overstated the compounded annual growth rate for a five year period for EBITDA of 62%. The corrected percentage is 31%.&#x27; (3) On 28 Jul the board authorized a $10.0M share repurchase program. The stock is -9.5% over 5 days, -25.7% over 63 days and -52.5% over 252 days.</p><p><strong>Base case.</strong> The central question is what fraction of EVI&#x27;s growth is free. Revenue compounded ~29% for a decade, but that came from buying 33 companies, and the cash paid for them does not appear in CFO minus capex — so the engine&#x27;s $24.2M FCFF base credits EVI with growth it purchased while charging nothing for the purchase. Strip that out and what remains is a commercial laundry distributor and service business with mid-single-digit organic revenue growth, a genuinely improving gross margin (32.5%, a record), and falling earnings per share. Stock compensation is 22% of the reported FCFF base, and on a microcap with a founder-operator structure I expense it, which takes the base to $19.4M and the market&#x27;s implied decline to -4.5%. Against that, zero real FCFF growth is my honest central case: the service and parts annuity plus Premier Chemical Solutions (+49% over nine months) genuinely compound, the distribution business does not, and the acquisition engine consumes the cash that would otherwise be free. I am above the market&#x27;s implied -4.5% to -9.3% and far, far below the naive +10.6% baseline.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against my zero is that I am dismissing a genuine compounder at the point of maximum pessimism. EVI is down 52.5% in a year on nothing worse than weather-delayed installations; the delayed revenue is in the backlog, not lost. Gross margin is at a record and rising, which is the opposite of what a structurally impaired distributor looks like. Management is buying back stock and insiders control the company, so incentives are aligned. And the accusation that acquisitions are &#x27;not free&#x27; cuts both ways: EVI buys small private businesses at low single-digit EBITDA multiples using its own cash flow, which is arguably the highest-return capital allocation available to it, not a hidden cost. On that reading a $168M market cap for a business with ~$435M of revenue, record margins and a proven acquisition engine is simply too cheap, and the screen&#x27;s 95th-percentile cohort rank is telling the truth.</li><li>What would prove it: FY2026 results for the year ended 30 June 2026, which have not yet been filed — there is no 10-K in the filing list after the 11 May 10-Q, so the engine is valuing EVI on a two-year FCFF window ending FY2025. The settling observable is full-year operating cash flow LESS both capex and cash paid for acquisitions. If that number is positive and growing, the roll-up is self-funding and the bull case is right. If it is persistently near zero or negative — growth bought with cash that would otherwise be free — my base case is right.</li><li>Already visible today: Partly, and it is what stops me going lower. Gross margin at a record 32.5% while EPS falls tells me the problem is below the gross line — interest, amortization and overhead from acquisitions — not demand. That is consistent with my thesis, not the bull&#x27;s. But the FY2026 10-K is genuinely not available yet, so the decisive cash flow statement is not visible to either of us. I could not fetch it because it does not exist.</li><li>Left unresolved: I cannot value the Sudsies acquisition at all. EVI has disclosed price (~$34.6M) but no revenue, EBITDA or multiple for the acquired business, and it is the first acquisition outside EVI&#x27;s competence. That is roughly 20% of market cap and 15% of enterprise value deployed into an unquantified asset, and I have no basis to judge whether it was well or badly bought.</li></ul><p><strong>Key risks.</strong> The +186.7% gap is a roll-up artifact: the +10.6% revenue CAGR baseline was bought with acquisition cash that never appears in CFO minus capex, so the model credits growth it does not charge for; Enterprise value of $226.1M is built on a 31 Mar 2026 balance sheet and misses the ~$34.6M Sudsies settlement that closed 2 Sep 2026 — roughly 15% understated; The FCFF window is only two years and no FY2026 10-K has been filed, so the model is valuing a June-year-end company on data ending June 2025; Stock compensation is 22% of the reported FCFF base on a $168M microcap; expensing it moves the market&#x27;s implied growth from -9.3% to -4.5%; Management corrected its own five-year EBITDA CAGR from 62% to 31% in a July press release — a disclosure quality issue in the headline growth statistic; $1.3M average daily dollar volume, and 5-day volume at 0.3x the 60-day average: this is not a liquid position <strong>Watch for.</strong> The FY2026 10-K (year ended 30 June 2026), and specifically operating cash flow less capex AND less cash paid for acquisitions — the number that settles whether the roll-up is self-funding; Whether the delayed installation backlog actually converts in FY2027 revenue, or is described as delayed again; Any disclosure of Sudsies revenue and EBITDA, which would let the ~$34.6M purchase price be judged</p><p><strong>Data quality.</strong> The stock-comp flag I resolved: 22% of the base is real dilution on a founder-controlled microcap and I underwrite the expensed figure of $19.4M, which is why my zero sits above the market&#x27;s implied -4.5% rather than its headline -9.3%. Two flags the engine did not raise remain open. Enterprise value is stale by the Sudsies close (~$34.6M of cash consideration on 2 Sep 2026 against a 31 Mar 2026 balance sheet); I checked the item 3.02 equity issuance and it is immaterial — only about $600K of the ~$34.6M is stock — so the share count is NOT compromised, which was my first suspicion and it was wrong. The larger issue is that no FY2026 10-K exists yet for a June-year-end filer, so the two-year FCFF window ends in FY2025 and the engine is valuing this company on materially stale cash flows. The +186.7% gap should be disregarded entirely: it is an acquisition-funded revenue CAGR applied to unadjusted free cash flow.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/65312/000143774926024286/evi20260708_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/65312/000143774926024286/evi20260708_8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/65312/000143774926029515/ex_1011913.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/65312/000143774926029515/ex_1011913.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/65312/000143774926016124/evi20260331_10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/65312/000143774926016124/evi20260331_10q.htm</a></li><li><a href="https://finance.yahoo.com/small-business/articles/evi-industries-completes-acquisition-sudsies-130000186.html" rel="noopener">https://finance.yahoo.com/small-business/articles/evi-industries-completes-acquisition-sudsies-130000186.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/evi-q3-earnings-fall-y-154500906.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/evi-q3-earnings-fall-y-154500906.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/evi-industries-announces-share-repurchase-130000327.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/evi-industries-announces-share-repurchase-130000327.html</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/EVI.md'>research/Industrials/EVI.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

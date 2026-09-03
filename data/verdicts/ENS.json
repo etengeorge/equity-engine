@@ -1,0 +1,189 @@
+{
+  "ticker": "ENS",
+  "date": "2026-09-03",
+  "sector": "Industrials",
+  "name": "ENERSYS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.03,
+  "bear_growth": -0.02,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 180.0800018310547,
+  "market_implied_growth": 0.0912976054553708,
+  "cohort_pct": 50.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.0912976054553708,
+    "growth_delta": -0.0612976054553708,
+    "fair_value": 135.0905452722959,
+    "price": 180.0800018310547,
+    "gap": -0.24983038705745042,
+    "fair_value_band": {
+      "low": 115.83090652194551,
+      "point": 135.0905452722959,
+      "high": 160.77733127760018
+    },
+    "fcff_base_used": 363256833.3333333,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08997611825585301,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 363256833.3333333,
+      "price": 180.0800018310547,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.02,
+          "cells": [
+            {
+              "wacc": 0.06997611825585301,
+              "fair_value": 153.32254538792796,
+              "gap": -0.14858649584105244
+            },
+            {
+              "wacc": 0.07997611825585302,
+              "fair_value": 125.20406878059653,
+              "gap": -0.30473085568902314
+            },
+            {
+              "wacc": 0.08997611825585301,
+              "fair_value": 105.10772625135532,
+              "gap": -0.4163276033839447
+            },
+            {
+              "wacc": 0.09997611825585301,
+              "fair_value": 90.02490754705286,
+              "gap": -0.5000838147952078
+            },
+            {
+              "wacc": 0.10997611825585302,
+              "fair_value": 78.2844879369842,
+              "gap": -0.5652793917093125
+            }
+          ],
+          "fair_value_at_point_wacc": 105.10772625135532,
+          "gap_at_point_wacc": -0.4163276033839447
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.06997611825585301,
+              "fair_value": 196.74967373021573,
+              "gap": 0.09256814598880325
+            },
+            {
+              "wacc": 0.07997611825585302,
+              "fair_value": 160.77733127760018,
+              "gap": -0.10718941779867175
+            },
+            {
+              "wacc": 0.08997611825585301,
+              "fair_value": 135.0905452722959,
+              "gap": -0.24983038705745042
+            },
+            {
+              "wacc": 0.09997611825585301,
+              "fair_value": 115.83090652194551,
+              "gap": -0.3567808454899153
+            },
+            {
+              "wacc": 0.10997611825585302,
+              "fair_value": 100.85531828390157,
+              "gap": -0.4399415967436473
+            }
+          ],
+          "fair_value_at_point_wacc": 135.0905452722959,
+          "gap_at_point_wacc": -0.24983038705745042
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.06997611825585301,
+              "fair_value": 249.0037343523106,
+              "gap": 0.3827395147736503
+            },
+            {
+              "wacc": 0.07997611825585302,
+              "fair_value": 203.50584459428114,
+              "gap": 0.1300857536929827
+            },
+            {
+              "wacc": 0.08997611825585301,
+              "fair_value": 171.04141581161514,
+              "gap": -0.05019205868244747
+            },
+            {
+              "wacc": 0.09997611825585301,
+              "fair_value": 146.7202168612719,
+              "gap": -0.1852498035905168
+            },
+            {
+              "wacc": 0.10997611825585302,
+              "fair_value": 127.8260915316926,
+              "gap": -0.2901705340295645
+            }
+          ],
+          "fair_value_at_point_wacc": 171.04141581161514,
+          "gap_at_point_wacc": -0.05019205868244747
+        }
+      ],
+      "summary": {
+        "bear": -0.4163276033839447,
+        "base": -0.24983038705745042,
+        "bull": -0.05019205868244747
+      },
+      "downside": -0.5652793917093125,
+      "upside": 0.3827395147736503
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "I came into this expecting to call EnerSys rich, on the grounds that the market's implied +9.1% FCFF growth cannot be underwritten by a business producing 1% organic volume growth whose earnings are ~38% tax credit. The counter that defeated that is the $1.78 figure. That is adjusted EPS with BOTH the 45X credits and the tariff refunds removed, and it grew 42% year on year. Strip every subsidy and every one-off and the core business still compounded at 42%. That is not a company being carried by policy; it is a company whose margin structure has genuinely changed \u2014 440bp of gross margin expansion ex-45X \u2014 and which happens also to receive a credit. Furthermore my timing argument is weaker than it first looked: 45X runs at full rate through 2029 and only steps down from 2030, so it survives four of the five years in the forecast window rather than decaying through it. And the market has already taken 24.1% off the stock in 63 days, so the +9.1% hurdle is being paid at a materially lower price than it was in June.",
+    "what_would_prove_it": "The FY2027 exit rate on adjusted EPS excluding 45X and tariff refunds. Management has now disclosed that figure twice; if it keeps growing at anything like 40%, the core is compounding fast enough to support the required growth on its own and the subsidy question is second-order. If it decelerates to single digits once the tariff-refund and price/cost comparisons annualize, then the +9.1% hurdle is being met by policy and the name is rich. Second observable: the recast segment disclosure from the May resegmentation, which should show whether data centre and defence are large enough yet to move the consolidated number.",
+    "already_visible": "Yes, and it changed my verdict. The ex-45X, ex-tariff-refund growth of 42% is already published and it is the fact that beats my thesis. I had the subsidy-dependence argument right on the composition of earnings and wrong on the conclusion: a business can be both subsidised AND genuinely improving, and this one is. I moved from rich to no_edge on that single disclosure. What remains unresolved is duration, not direction.",
+    "unresolved": "I could not determine how much of the 510bp gross margin expansion is durable price/cost versus a temporary tariff-driven pricing window, and that is the difference between my +3% and the market's +9.1%. Nor could I quantify the FCFF impact of the 45X step-down from 2030, because the credits flow through the tax line and the engine's FCFF base is CFO-based \u2014 I cannot see how much of the $363.3M base is credit-derived cash. That is a real limit on this valuation, not a rhetorical hedge."
+  },
+  "what_changed": "Q1 FY2027 results (12 Aug) with a large and important composition: gross margin 33.5% but 28.5% excluding IRC 45X manufacturing tax credits; adjusted diluted EPS $3.66, but $2.41 excluding 45X and $1.78 excluding 45X AND $30.9M of tariff refunds realized in the quarter. Q2 FY2027 guidance of $955-995M in sales and adjusted diluted EPS of $3.15-$3.25 INCLUDING $42-47M of 45X credits \u2014 roughly $1.20 of that EPS, or about 38%, is a tax credit. A separate 23 Jul 8-K announced a lithium-ion plan, and a 28 May 8-K announced a resegmentation with recast segment information. A 25 Mar 8-K carried items 2.05 and 2.06 (restructuring and impairment). Q1 organic volume grew only 1%, with pricing +3% and FX +1% making up the rest of the 4.8%. The stock is -24.1% over 63 days despite the beat.",
+  "consensus_case": "EnerSys at $180.08 is a stored-energy business that has quietly repositioned into the three end markets with the strongest secular demand \u2014 data centers, communications, and aerospace and defense \u2014 while its legacy material handling business troughs. Q1 FY2027 (12 Aug) delivered net sales of $935.6M, up 4.8% and within the $915-955M guide, with gross margin of 33.5%, up 510bp. Diluted EPS of $3.09 was up 112%, adjusted diluted EPS of $3.66 up 64%, and critically adjusted EPS EXCLUDING both the 45X credits and the tariff refunds was $1.78, still up 42% year on year \u2014 so the underlying business is genuinely improving, not just the subsidised version of it. The board raised the dividend 10% and the company returned $60M to shareholders including $50M of buybacks. Management guides Q2 net sales of $955-995M and expects the growth mix to shift from margin expansion toward topline as material handling recovers late in FY2027. Buying at roughly 12x adjusted earnings a business with defence and data centre exposure and an improving margin structure is not a demanding proposition.",
+  "base_case_rationale": "Two thirds of EnerSys's reported growth this quarter is not operating growth. Of the 4.8% sales increase, organic volume contributed 1 point; the rest was price and currency. And a large share of the earnings is policy: $42-47M of 45X credits in the Q2 guide alone, plus $30.9M of one-time tariff refunds in Q1 \u2014 the same IEEPA refund cohort event that LESSONS already records for ANF and CRI, now appearing in a third name, and flattering headline results while the underlying line moves more slowly. The 45X manufacturing credit persists at full rate through 2029 under current law and then steps down 75%/50%/25% in 2030-32, which means it survives most but not all of a five-year FCFF window and then decays inside the terminal value. Against that, the end-market mix genuinely is improving: data centre, communications and defence demand is real and the 42% growth in the fully-stripped adjusted EPS figure is evidence the core is compounding. I underwrite +3% FCFF growth \u2014 above the 1% organic volume the business is currently producing, below the +4.7% naive revenue baseline, and well below the +9.1% the market requires \u2014 reflecting a genuinely improving core partly offset by a subsidy that decays at the back of the window.",
+  "key_risks": [
+    "Approximately 38% of guided Q2 FY2027 adjusted EPS is IRC 45X manufacturing tax credits ($42-47M), a legislated subsidy that steps down from 2030 and is exposed to policy change before then",
+    "$30.9M of one-time tariff refunds in Q1 FY2027 \u2014 the third name in this screen's 2026 IEEPA refund cohort after ANF and CRI, and it flatters the headline",
+    "Organic volume growth was only 1% in the quarter; price and FX supplied the rest of the 4.8%",
+    "The FCFF base of $363.3M averages a wildly lumpy series ($467.5M / $139.3M / $370.6M) \u2014 a 3.4x spread between best and worst year",
+    "Material handling, historically the core end market, remains in a demand trough with recovery guided only to late FY2027"
+  ],
+  "watch_for": [
+    "Adjusted EPS excluding both 45X and tariff refunds through FY2027 \u2014 if 42% growth decelerates to single digits once comparisons annualize, the +9.1% hurdle is being met by policy and the name becomes rich",
+    "Any legislative change to IRC 45X ahead of the 2030 step-down",
+    "The recast segment disclosure showing whether data centre and defence revenue is yet large enough to move the consolidated line",
+    "Material handling order rates as the guided late-FY2027 recovery approaches"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1289308/000162828026056216/ex991_earningsx1qfy27.htm",
+    "https://www.sec.gov/Archives/edgar/data/1289308/000162828026056208/ens-20260705.htm",
+    "https://www.sec.gov/Archives/edgar/data/1289308/000128930826000014/exhibit991-planlithiumxion.htm",
+    "https://www.sec.gov/Archives/edgar/data/1289308/000162828026038821/ex991ens_resegmentationann.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/19/enersys-ens-q1-2027-earnings-call-transcript/",
+    "https://investor.enersys.com/news/news-details/2026/EnerSys-Reports-First-Quarter-Fiscal-2027-Results/default.aspx"
+  ],
+  "flags": []
+}

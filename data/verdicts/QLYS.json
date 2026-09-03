@@ -1,0 +1,191 @@
+{
+  "ticker": "QLYS",
+  "date": "2026-09-03",
+  "sector": "Information Technology",
+  "name": "QUALYS",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "low",
+  "final_growth": 0.1,
+  "bear_growth": 0.05,
+  "bull_growth": 0.15,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 170.8300018310547,
+  "market_implied_growth": 0.15411675120764323,
+  "cohort_pct": 62.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.1,
+    "market_implied_growth": 0.15411675120764323,
+    "growth_delta": -0.05411675120764323,
+    "fair_value": 140.3301556363373,
+    "price": 170.8300018310547,
+    "gap": -0.1785391668196593,
+    "fair_value_band": {
+      "low": 125.93159101791393,
+      "point": 140.3301556363373,
+      "high": 158.72854573781044
+    },
+    "fcff_base_used": 257329666.66666666,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10248210483539627,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 257329666.66666666,
+      "price": 170.8300018310547,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.08248210483539627,
+              "fair_value": 150.68044482054287,
+              "gap": -0.11795092662024942
+            },
+            {
+              "wacc": 0.09248210483539628,
+              "fair_value": 131.35235254568377,
+              "gap": -0.2310931854020175
+            },
+            {
+              "wacc": 0.10248210483539627,
+              "fair_value": 116.7188523668635,
+              "gap": -0.3167543691634761
+            },
+            {
+              "wacc": 0.11248210483539627,
+              "fair_value": 105.25674908004649,
+              "gap": -0.3838509163973317
+            },
+            {
+              "wacc": 0.12248210483539627,
+              "fair_value": 96.0373856432862,
+              "gap": -0.43781897433763395
+            }
+          ],
+          "fair_value_at_point_wacc": 116.7188523668635,
+          "gap_at_point_wacc": -0.3167543691634761
+        },
+        {
+          "case": "base",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.08248210483539627,
+              "fair_value": 183.04875302046534,
+              "gap": 0.07152579206487752
+            },
+            {
+              "wacc": 0.09248210483539628,
+              "fair_value": 158.72854573781044,
+              "gap": -0.07083917323382227
+            },
+            {
+              "wacc": 0.10248210483539627,
+              "fair_value": 140.3301556363373,
+              "gap": -0.1785391668196593
+            },
+            {
+              "wacc": 0.11248210483539627,
+              "fair_value": 125.93159101791393,
+              "gap": -0.26282509121286446
+            },
+            {
+              "wacc": 0.12248210483539627,
+              "fair_value": 114.36108915143042,
+              "gap": -0.3305561790924183
+            }
+          ],
+          "fair_value_at_point_wacc": 140.3301556363373,
+          "gap_at_point_wacc": -0.1785391668196593
+        },
+        {
+          "case": "bull",
+          "growth": 0.15,
+          "cells": [
+            {
+              "wacc": 0.08248210483539627,
+              "fair_value": 221.51837863272183,
+              "gap": 0.2967182360145164
+            },
+            {
+              "wacc": 0.09248210483539628,
+              "fair_value": 191.21902124706176,
+              "gap": 0.11935268511072872
+            },
+            {
+              "wacc": 0.10248210483539627,
+              "fair_value": 168.31303556852876,
+              "gap": -0.014733748378783718
+            },
+            {
+              "wacc": 0.11248210483539627,
+              "fair_value": 150.40015781275744,
+              "gap": -0.11959166305285007
+            },
+            {
+              "wacc": 0.12248210483539627,
+              "fair_value": 136.01707569955315,
+              "gap": -0.20378695637977218
+            }
+          ],
+          "fair_value_at_point_wacc": 168.31303556852876,
+          "gap_at_point_wacc": -0.014733748378783718
+        }
+      ],
+      "summary": {
+        "bear": -0.3167543691634761,
+        "base": -0.1785391668196593,
+        "bull": -0.014733748378783718
+      },
+      "downside": -0.43781897433763395,
+      "upside": 0.2967182360145164
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is that I am penalising Qualys twice for the same thing. If stock compensation is a real cost, then the correct comparison is Qualys's SBC-expensed cash generation against its peers' SBC-expensed cash generation \u2014 and on that basis Qualys is far and away cheaper than the security software cohort, which the engine confirms at the 63rd percentile of 124 Information Technology names with a gap 27.3 points better than the cohort median. Meanwhile a 29% SBC ratio is not high for security software; it is roughly average, and many of the peers trading at richer multiples are worse. Second, the required-growth arithmetic assumes the FCFF base is static, but Q2 operating cash flow grew 77% \u2014 if that is the new run rate rather than a timing artifact, the base is understated and the hurdle falls sharply. Third, the naive gap is only -8.3%, which is well inside the noise of any DCF; calling a name rich on an 8% gap is claiming a precision the model does not have.",
+    "what_would_prove_it": "Net dollar expansion rate and the direct-versus-channel split over the next three quarters. If NDR keeps climbing past 107-108% while direct revenue resumes growing, the platform thesis is right and my 10% is too low. If NDR stalls around 105% while all growth continues to come through the channel, Qualys is being intermediated and the deceleration case is right. Separately, whether the 77% operating cash flow growth persists into H2 or reverses as a billings-timing effect.",
+    "already_visible": "Partly, and it materially reduced my confidence without changing the direction. The cohort percentile is a real fact and it argues Qualys is the cheap one within its group \u2014 I accept that and it is why conviction here is low rather than medium. But the specific evidence on the deceleration side is also already visible and dated: direct revenue 'remained largely unchanged' year on year in Q2, with channel doing all the work, and NDR at 105% is only five points of expansion from an installed base. The bull needs those to inflect; they have not yet.",
+    "unresolved": "I could not establish how much of the 77% operating cash flow growth is durable versus billings timing, and that single figure is the difference between a $182.9M SBC-expensed base and a materially larger one. I read the Q2 press release but did not reconcile deferred revenue movement in the 10-Q, which is where the answer sits. If the cash flow step-up is real and sustained, my rich verdict is wrong."
+  },
+  "what_changed": "Q2 2026 (4 Aug): revenue $182.2M, +11% year on year; GAAP net income $52.4M; non-GAAP net income $69.2M; adjusted EBITDA $83.8M; operating cash flow +77%. Full-year 2026 guidance raised to $732.0-738.0M of revenue and $7.74-7.88 of EPS. Net dollar expansion rate improved to 105% from 104%. Channel revenues +22% year on year to 54% of total while direct revenues were essentially unchanged. International +15%, domestic +8%. InstaScan AI vulnerability detection launched, plus new federal authorizations and AI security partnerships. A 11 Jun 8-K carried items 5.02 and 5.07 (officer/director change and annual meeting results). The stock rose sharply on 28 Aug alongside Rapid7, Tenable and other security names on AI-driven enterprise software commentary.",
+  "consensus_case": "Qualys is a rare thing in security software: a genuinely profitable, net-cash, capital-light platform. Q2 2026 revenue of $182.2M grew 11%, GAAP net income was $52.4M and adjusted EBITDA $83.8M \u2014 an EBITDA margin above 45% that most of its faster-growing peers will never reach. Operating cash flow rose 77%. The composition of growth improved: channel revenue is now 54% of total against 49% a year ago and grew 22%, international grew 15% against 8% domestic, and net dollar expansion improved to 105% from 104% on upsell of ETM and patch management. Management raised full-year guidance to $732-738M of revenue and $7.74-7.88 of EPS, launched the AI-powered InstaScan vulnerability capability, and added new federal authorizations. The stock is +50.6% over 63 days on that re-rating. At an enterprise value of $5.5B the buyer is paying roughly 21x adjusted EBITDA for a business with no debt, high retention, and a widening moat as AI-driven attack surface expansion drives more scanning, not less.",
+  "base_case_rationale": "The decisive question on this name is stock compensation, and the brief puts it squarely: SBC is 29% of the reported FCFF base. Reported operating cash flow adds it back, so the engine's $257.3M base treats a third of employee pay as free. It is not \u2014 Qualys settles it in shares, and the dilution is real and permanent even when buybacks mask the share count. Expensing it takes the FCFF base to $182.9M and the growth the market requires from +15.4% to +24.4%. That is the number I have to underwrite, and I cannot. Revenue is growing 11% with guidance implying roughly 10% for the full year; net dollar expansion of 105% means the installed base contributes only 5 points and the rest must come from new logos; and the growth mix is shifting toward channel, which carries a lower realized price per dollar of end-customer spend. To compound free cash flow at 24% for five years on 10% revenue growth requires roughly 14 points of annual margin expansion off a base that is already above 45% EBITDA \u2014 there is not that much operating leverage left in a company this profitable. I underwrite +10% FCFF growth, matching revenue growth on an SBC-expensed basis, which is the honest statement that this is a good business growing at its revenue rate rather than a compounding machine.",
+  "key_risks": [
+    "Stock compensation is 29% of the reported FCFF base; expensing it \u2014 which I do \u2014 moves the growth the market requires from +15.4% to +24.4% against roughly 10% revenue growth",
+    "Net dollar expansion of 105% means the installed base contributes only five points of growth; the rest must come from new logos in a consolidating market",
+    "Direct revenue was essentially unchanged year on year, with all growth coming through the channel at a lower realized price per dollar of end-customer spend",
+    "Vulnerability management is being bundled into broader platforms by CrowdStrike, Palo Alto and Microsoft",
+    "The stock is +50.6% over 63 days, so the guidance raise and the AI narrative are already paid for",
+    "Adjusted EBITDA margin is already above 45%, leaving limited room for the margin expansion the required growth implies"
+  ],
+  "watch_for": [
+    "Net dollar expansion rate over the next three quarters \u2014 sustained movement above 107% would overturn this verdict; stalling at 105% confirms it",
+    "Whether direct revenue resumes growth or continues flat while channel does all the work",
+    "Whether the 77% operating cash flow growth persists into H2 2026 or reverses as billings timing",
+    "Conversion of the new federal authorizations into disclosed multi-year contract value"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
+    "https://www.tradingview.com/news/tradingview:ab5f3f4b69584:0-qualys-posts-q2-revenue-182-2m-gaap-eps-1-50-raises-2026-revenue-guidance-to-732-0-738-0m/",
+    "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
+    "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-qualys-qlys-181050603.html"
+  ],
+  "flags": [
+    "stock_comp_is_29%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

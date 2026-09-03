@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>RIOT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / RIOT</p><h1>RIOT <span style='color:var(--faint);font-weight:400'>RIOT PLATFORMS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$18.64</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-03</b></div></div><div class='prose'><h1>RIOT — RIOT PLATFORMS</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-03 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $18.64</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Riot is no longer a bitcoin miner being valued as one. On 10 Aug 2026 it disclosed a 20-year agreement to supply 191MW of IT capacity at Rockdale to a frontier AI company subsequently identified as Anthropic, expected to generate approximately $9.1 billion through June 2048 with extension options taking the total toward $16.1 billion — roughly $400M+ of annual contracted rent from a single lease. On the same day it disclosed a non-binding letter of intent covering its 1GW Corsicana site, which management said could produce more than $1 billion of annual rent once fully deployed. Against a $7.0B market capitalization, one signed 20-year contract plus one LOI plausibly covers the entire equity value on contracted revenue alone. The Engineering segment tripled year on year to $37.3M with gross margin going from ~7% to over 27% and a $177.1M backlog, so Riot can build what it leases. That is why Morgan Stanley lists Riot among preferred operators for the powered-shell deal wave and why KBW carries a $35 target. The buyer at $18.64 is buying secured power at scale — the genuinely scarce input in AI infrastructure — not hashrate.</p><p><strong>What changed.</strong> Q2 2026 (10 Aug): revenue $174.2M, +14% year on year, but a net loss of $237.2M and diluted EPS of $(0.68), driven by more than $240M of non-cash items including a $75M mark-to-market loss on bitcoin holdings and $98M of depreciation and amortization. Bitcoin production of 1,587 BTC against 1,426 a year earlier at a deployed hashrate of 44.4 EH/s (~4.6% of network), with a direct cost to mine of $49,912 per BTC and a net power cost of $0.036/kWh after $10M of curtailment credits. Riot sold 9,665 BTC in H1 2026 to fund the AI infrastructure build. Data centre revenue was $23.2M ($4.9M operating lease, $18.3M tenant fit-out). After the quarter closed: the 191MW / $9.1B Anthropic lease at Rockdale, and the non-binding Corsicana LOI. A 14 Aug 8-K carried items 1.01 and 2.03 (a material agreement and a new debt obligation). Reports in early September suggest pledged bitcoin collateral may be released, freeing capital for the data centre build. The stock is -9.6% over 5 days, -13.6% over 21 days and -32.6% over 63 days even as the lease news landed.</p><p><strong>Base case.</strong> I decline to state a growth rate, and that refusal is the substantive answer rather than an evasion. Riot&#x27;s normalized FCFF base is not merely low, it is unavailable — the engine reports &#x27;mean of CFO minus capex over 0y&#x27; and flags nonpositive normalized FCFF, negative EBITDA and a negative free cash flow year in the window. There is no cash flow stream to discount. More importantly, the cash flow stream that will exist is not a projection of the one that did: the business is mid-transformation from mining bitcoin to leasing power and shells, and those have entirely different revenue recognition, capital intensity, counterparty risk and duration. Applying any growth rate to a mining cash flow base would be pricing the wrong company, and inventing one for the leasing business would be fabricating a fair value for a name the model has correctly declined to value. The honest output is that a free-cash-flow DCF cannot value Riot today.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to my refusal is that no_model is a cop-out when the brief hands me a multiples table. It shows a blended midpoint of $10.12 against a $18.64 price — a -45.7% gap — implying Riot is substantially overvalued, and one could simply record &#x27;rich&#x27; on that basis. Alternatively one could argue the opposite from the same table: p_tbv at 3.4x against a cohort median of 5.0x values Riot at $27.34, or 47% ABOVE the price. Either way, the argument runs, a number is more useful to a human than a refusal.</li><li>What would prove it: A definitive, executed Corsicana lease with disclosed megawatts, term and annual rent — that single document converts Riot from unvaluable to valuable, because contracted rent over a stated term is exactly the kind of stream a DCF handles well. Absent that, an annualized run-rate for the data centre segment once Rockdale capacity is energized would let the leasing business be valued separately from the mining business.</li><li>Already visible today: The counter loses, and the multiples table is the reason why rather than an argument for it. Note that the two multiples disagree by a factor of nearly three ($10.12 blended versus $27.34 on tangible book), and that the ev_gross_profit row returns $-1.00 at every percentile because gross profit is negative. CLAUDE.md warns explicitly to treat a multiples number with suspicion when revenue has not arrived yet, and that is precisely this case: EV/sales of 11.4x against a cohort median of 2.9x is measuring Riot&#x27;s mining revenue while the market is pricing a signed $9.1B lease that has produced almost no revenue so far. A comparables number computed on the pre-transformation revenue base is not evidence about the post-transformation company. Reporting -45.7% as though it were a valuation would be exactly the error the standing lessons warn against.</li><li>Left unresolved: Nearly everything that matters. I could not verify the Anthropic lease terms against a primary filing — my sources are the Q2 press release and secondary coverage, and the counterparty identification in particular is reported rather than disclosed by Riot. I could not size the capital required to deliver 191MW at Rockdale, nor the financing structure behind the 14 Aug item 2.03 debt obligation, nor what happens to the bitcoin collateral. Any of those could dominate the equity value.</li></ul><p><strong>Key risks.</strong> Normalized FCFF is unavailable — the engine computed it over a zero-year window and flags nonpositive FCFF and negative EBITDA; there is no cash flow stream to discount; The Corsicana opportunity, which is the majority of the bull case by value, rests on a NON-BINDING letter of intent that management has itself cautioned may not be executed; The AI data centre build is being funded partly by liquidating the bitcoin treasury — 9,665 BTC sold in H1 2026 — so the funding source is itself volatile; Q2 net loss of $237.2M including a $75M mark-to-market loss on bitcoin and $98M of depreciation; direct cost to mine of $49,912 per BTC leaves the legacy business marginal; Beta of 2.5 (the model&#x27;s clamp ceiling) and an 18.0% WACC signal that even the discount-rate machinery is at the edge of its range for this name; The multiples table in the brief should be disregarded: it prices pre-transformation mining revenue and its own components disagree by nearly 3x ($10.12 blended versus $27.34 on tangible book) <strong>Watch for.</strong> An executed, definitive Corsicana lease with disclosed megawatts, term and annual rent — the single document that would make this company valuable by DCF; Data centre segment revenue reaching an annualized run rate as Rockdale capacity energizes, which would allow the leasing business to be valued separately from mining; The financing behind the 14 Aug item 2.03 debt obligation and the resolution of the pledged bitcoin collateral; Any primary-source confirmation of the Rockdale counterparty and lease economics in a 10-Q or 8-K rather than press coverage</p><p><strong>Data quality.</strong> All four engine flags stand unresolved and correctly so: speculative cost of debt, a negative free cash flow year, nonpositive normalized FCFF, and negative EBITDA valued on revenue or gross profit alone. I have deliberately NOT produced a fair value. The multiples valuation the brief offers is the one number I want explicitly disowned here — its blended midpoint of $10.12 is computed on mining revenue and gross profit for a company whose economics are being replaced by a signed 20-year power lease, its ev_gross_profit row returns $-1.00 at every percentile because gross profit is negative, its cohort is flagged as too small to rank, and its p_tbv row points 47% the OTHER way. That is the pre-revenue multiples trap CLAUDE.md names. Separately, I could not corroborate the Anthropic lease from a primary filing within this session; the terms above come from Riot&#x27;s own Q2 materials plus secondary coverage, and the counterparty name in particular is reported rather than company-disclosed. That is a real limit on confidence and I am recording it rather than papering over it.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926093406/riot-20260810x8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1167419/000110465926093406/riot-20260810x8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926093448/riot-20260630x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1167419/000110465926093448/riot-20260630x10q.htm</a></li><li><a href="https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/" rel="noopener">https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/</a></li><li><a href="https://blockspace.media/insight/riot-platforms-signs-ai-lease-rockdale-2026/" rel="noopener">https://blockspace.media/insight/riot-platforms-signs-ai-lease-rockdale-2026/</a></li><li><a href="https://blockspace.media/insight/riot-corsicana-loi-756mw-ai-data-center/" rel="noopener">https://blockspace.media/insight/riot-corsicana-loi-756mw-ai-data-center/</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/why-riot-platforms-riot-down-130728372.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/why-riot-platforms-riot-down-130728372.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/RIOT.md'>research/Information Technology/RIOT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

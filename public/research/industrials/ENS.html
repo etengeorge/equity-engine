@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ENS — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / ENS</p><h1>ENS <span style='color:var(--faint);font-weight:400'>ENERSYS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$180.08</b></div><div>Analyst gap<b>-25%</b></div><div>Dated<b>2026-09-03</b></div></div><div class='prose'><h1>ENS — ENERSYS</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-03 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $180.08 · fair value $135.09 · gap -25.0%</li><li><strong>Growth:</strong> market implies +9.1%, analyst says +3.0% (delta -6.1%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.0% | 8.0% | 9.0% | 10.0% | 11.0% | |---|---|---|---|---|---|---| | bear | -2.0% | $153.32 | $125.20 | $105.11 | $90.02 | $78.28 | | base | +3.0% | $196.75 | $160.78 | $135.09 | $115.83 | $100.86 | | bull | +8.0% | $249.00 | $203.51 | $171.04 | $146.72 | $127.83 |</p><p>At the point WACC of 9.0%: bear -41.6%, base -25.0%, bull -5.0% Across the whole grid the gap ranges -56.5% to +38.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> EnerSys at $180.08 is a stored-energy business that has quietly repositioned into the three end markets with the strongest secular demand — data centers, communications, and aerospace and defense — while its legacy material handling business troughs. Q1 FY2027 (12 Aug) delivered net sales of $935.6M, up 4.8% and within the $915-955M guide, with gross margin of 33.5%, up 510bp. Diluted EPS of $3.09 was up 112%, adjusted diluted EPS of $3.66 up 64%, and critically adjusted EPS EXCLUDING both the 45X credits and the tariff refunds was $1.78, still up 42% year on year — so the underlying business is genuinely improving, not just the subsidised version of it. The board raised the dividend 10% and the company returned $60M to shareholders including $50M of buybacks. Management guides Q2 net sales of $955-995M and expects the growth mix to shift from margin expansion toward topline as material handling recovers late in FY2027. Buying at roughly 12x adjusted earnings a business with defence and data centre exposure and an improving margin structure is not a demanding proposition.</p><p><strong>What changed.</strong> Q1 FY2027 results (12 Aug) with a large and important composition: gross margin 33.5% but 28.5% excluding IRC 45X manufacturing tax credits; adjusted diluted EPS $3.66, but $2.41 excluding 45X and $1.78 excluding 45X AND $30.9M of tariff refunds realized in the quarter. Q2 FY2027 guidance of $955-995M in sales and adjusted diluted EPS of $3.15-$3.25 INCLUDING $42-47M of 45X credits — roughly $1.20 of that EPS, or about 38%, is a tax credit. A separate 23 Jul 8-K announced a lithium-ion plan, and a 28 May 8-K announced a resegmentation with recast segment information. A 25 Mar 8-K carried items 2.05 and 2.06 (restructuring and impairment). Q1 organic volume grew only 1%, with pricing +3% and FX +1% making up the rest of the 4.8%. The stock is -24.1% over 63 days despite the beat.</p><p><strong>Base case.</strong> Two thirds of EnerSys&#x27;s reported growth this quarter is not operating growth. Of the 4.8% sales increase, organic volume contributed 1 point; the rest was price and currency. And a large share of the earnings is policy: $42-47M of 45X credits in the Q2 guide alone, plus $30.9M of one-time tariff refunds in Q1 — the same IEEPA refund cohort event that LESSONS already records for ANF and CRI, now appearing in a third name, and flattering headline results while the underlying line moves more slowly. The 45X manufacturing credit persists at full rate through 2029 under current law and then steps down 75%/50%/25% in 2030-32, which means it survives most but not all of a five-year FCFF window and then decays inside the terminal value. Against that, the end-market mix genuinely is improving: data centre, communications and defence demand is real and the 42% growth in the fully-stripped adjusted EPS figure is evidence the core is compounding. I underwrite +3% FCFF growth — above the 1% organic volume the business is currently producing, below the +4.7% naive revenue baseline, and well below the +9.1% the market requires — reflecting a genuinely improving core partly offset by a subsidy that decays at the back of the window.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: I came into this expecting to call EnerSys rich, on the grounds that the market&#x27;s implied +9.1% FCFF growth cannot be underwritten by a business producing 1% organic volume growth whose earnings are ~38% tax credit. The counter that defeated that is the $1.78 figure. That is adjusted EPS with BOTH the 45X credits and the tariff refunds removed, and it grew 42% year on year. Strip every subsidy and every one-off and the core business still compounded at 42%. That is not a company being carried by policy; it is a company whose margin structure has genuinely changed — 440bp of gross margin expansion ex-45X — and which happens also to receive a credit. Furthermore my timing argument is weaker than it first looked: 45X runs at full rate through 2029 and only steps down from 2030, so it survives four of the five years in the forecast window rather than decaying through it. And the market has already taken 24.1% off the stock in 63 days, so the +9.1% hurdle is being paid at a materially lower price than it was in June.</li><li>What would prove it: The FY2027 exit rate on adjusted EPS excluding 45X and tariff refunds. Management has now disclosed that figure twice; if it keeps growing at anything like 40%, the core is compounding fast enough to support the required growth on its own and the subsidy question is second-order. If it decelerates to single digits once the tariff-refund and price/cost comparisons annualize, then the +9.1% hurdle is being met by policy and the name is rich. Second observable: the recast segment disclosure from the May resegmentation, which should show whether data centre and defence are large enough yet to move the consolidated number.</li><li>Already visible today: Yes, and it changed my verdict. The ex-45X, ex-tariff-refund growth of 42% is already published and it is the fact that beats my thesis. I had the subsidy-dependence argument right on the composition of earnings and wrong on the conclusion: a business can be both subsidised AND genuinely improving, and this one is. I moved from rich to no_edge on that single disclosure. What remains unresolved is duration, not direction.</li><li>Left unresolved: I could not determine how much of the 510bp gross margin expansion is durable price/cost versus a temporary tariff-driven pricing window, and that is the difference between my +3% and the market&#x27;s +9.1%. Nor could I quantify the FCFF impact of the 45X step-down from 2030, because the credits flow through the tax line and the engine&#x27;s FCFF base is CFO-based — I cannot see how much of the $363.3M base is credit-derived cash. That is a real limit on this valuation, not a rhetorical hedge.</li></ul><p><strong>Key risks.</strong> Approximately 38% of guided Q2 FY2027 adjusted EPS is IRC 45X manufacturing tax credits ($42-47M), a legislated subsidy that steps down from 2030 and is exposed to policy change before then; $30.9M of one-time tariff refunds in Q1 FY2027 — the third name in this screen&#x27;s 2026 IEEPA refund cohort after ANF and CRI, and it flatters the headline; Organic volume growth was only 1% in the quarter; price and FX supplied the rest of the 4.8%; The FCFF base of $363.3M averages a wildly lumpy series ($467.5M / $139.3M / $370.6M) — a 3.4x spread between best and worst year; Material handling, historically the core end market, remains in a demand trough with recovery guided only to late FY2027 <strong>Watch for.</strong> Adjusted EPS excluding both 45X and tariff refunds through FY2027 — if 42% growth decelerates to single digits once comparisons annualize, the +9.1% hurdle is being met by policy and the name becomes rich; Any legislative change to IRC 45X ahead of the 2030 step-down; The recast segment disclosure showing whether data centre and defence revenue is yet large enough to move the consolidated line; Material handling order rates as the guided late-FY2027 recovery approaches</p><p><strong>Data quality.</strong> The engine raised no flags on this name, and it should have raised two. First, the FCFF base of $363.3M is the mean of a series spanning $139.3M to $467.5M — a 3.4x range — so the &#x27;normalized&#x27; base carries far less information than a stable one would, and no flag fires because the engine&#x27;s peak/trough test compares newest to oldest ($467.5M vs $370.6M, only 1.26x) and is blind to a middle year that collapsed. Second, and not detectable by any current flag, a material share of EnerSys&#x27;s earnings is an explicit government subsidy: $42-47M of 45X credits inside a single quarter&#x27;s guidance, disclosed by management but invisible to a CFO-minus-capex base. I could not quantify how much of the $363.3M base is credit-derived cash because the credits flow through tax, so I did not use fcff_base_override. Beta of 0.91 at R-squared 0.308 is one of the better-fitting regressions in today&#x27;s ten, so the 9.0% WACC is not the artifact it is on the Energy names. Verdict changed from rich to no_edge during the devil&#x27;s-advocate pass on the ex-subsidy growth disclosure.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1289308/000162828026056216/ex991_earningsx1qfy27.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1289308/000162828026056216/ex991_earningsx1qfy27.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1289308/000162828026056208/ens-20260705.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1289308/000162828026056208/ens-20260705.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1289308/000128930826000014/exhibit991-planlithiumxion.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1289308/000128930826000014/exhibit991-planlithiumxion.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1289308/000162828026038821/ex991ens_resegmentationann.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1289308/000162828026038821/ex991ens_resegmentationann.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/19/enersys-ens-q1-2027-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/19/enersys-ens-q1-2027-earnings-call-transcript/</a></li><li><a href="https://investor.enersys.com/news/news-details/2026/EnerSys-Reports-First-Quarter-Fiscal-2027-Results/default.aspx" rel="noopener">https://investor.enersys.com/news/news-details/2026/EnerSys-Reports-First-Quarter-Fiscal-2027-Results/default.aspx</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/ENS.md'>research/Industrials/ENS.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

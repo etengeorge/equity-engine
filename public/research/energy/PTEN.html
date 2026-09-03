@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>PTEN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Energy / PTEN</p><h1>PTEN <span style='color:var(--faint);font-weight:400'>PATTERSON UTI ENERGY INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$13.15</b></div><div>Analyst gap<b>+3%</b></div><div>Dated<b>2026-09-03</b></div></div><div class='prose'><h1>PTEN — PATTERSON UTI ENERGY INC</h1><p><em>Energy · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-03 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $13.15 · fair value $13.58 · gap +3.3%</li><li><strong>Growth:</strong> market implies +1.4%, analyst says +2.0% (delta +0.6%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.5% | 8.5% | 9.5% | 10.5% | 11.5% | |---|---|---|---|---|---|---| | bear | -5.0% | $13.44 | $11.04 | $9.29 | $7.94 | $6.87 | | base | +2.0% | $19.47 | $16.08 | $13.58 | $11.67 | $10.16 | | bull | +9.0% | $27.30 | $22.58 | $19.12 | $16.48 | $14.39 |</p><p>At the point WACC of 9.5%: bear -29.4%, base +3.3%, bull +45.4% Across the whole grid the gap ranges -47.8% to +107.6% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Patterson-UTI is the best-positioned US onshore driller into a genuine activity inflection. Q2 2026 revenue of $1.23B was up 10% sequentially with adjusted EBITDA of $232M, and every segment beat prior guidance. Q3 guidance is materially stronger: average US rig count ~100 against 92 in Q2 and exiting higher, Drilling Services adjusted gross profit ~$145M, Completion Services ~$140M with the frac fleet effectively sold out BEFORE industry activity increased, Drilling Products ~$40M — roughly $330M of segment gross profit against ~$70M of G&amp;A, or ~$260M of quarterly adjusted EBITDA and a ~$1.0B annualized run rate. Management says contracts for additional rigs are already signed and customer conversations about price increases are &#x27;very constructive&#x27;, with Emerald natural-gas direct-drive technology drawing interest. The buyer at $13.15 is paying ~6x forward EBITDA for an operationally levered business at the front of a pricing cycle, with a stated commitment that 2026 free cash flow more than covers the dividend and improves in 2027.</p><p><strong>What changed.</strong> Q2 2026 (30 Jul): GAAP net loss attributable to common of $20M on $1.23B of revenue, with $217.8M of depreciation, depletion, amortization and impairment in the quarter driving the loss; adjusted EBITDA $232M. Total 2026 capital expenditure net of asset sales is confirmed at approximately $600M — a budget RAISED during Q2 to fund Emerald growth capital. Working capital was a larger-than-usual first-half use of cash as activity ramped. Management guides full-year 2026 free cash flow only to &#x27;more than cover our 2026 dividend payments&#x27; — a low bar of roughly $120M — with improvement expected in 2027. Active horsepower is explicitly NOT expected to increase in H2 2026 as diesel assets are decommissioned. In August the company filed a $296.8M ESOP shelf covering up to 28.9M common shares. The stock is +15.1% over 5 days, +29.1% over 21 days and +139.5% over 252 days, largely on Middle East supply disruption headlines.</p><p><strong>Base case.</strong> The right frame for US land drilling is that pricing cycles are real but the secular volume trend is not. Rig efficiency keeps rising, so the same production requires fewer rig-days every year; PTEN itself is decommissioning diesel horsepower and explicitly does not expect active horsepower to grow in H2. What PTEN can grow is price and mix — Emerald gas direct-drive, integrated completions, Drilling Products — and those are genuine, but they are being bought with a $600M capex budget against a ~$1.0B EBITDA run rate, which is a capital intensity of roughly 60% of EBITDA. That is the number that governs FCFF, and it is why management&#x27;s own 2026 free cash flow guidance is a bar as low as covering a ~$120M dividend. Over five years I underwrite roughly +2% FCFF growth off the $459.5M normalized base: the 2027 pricing recovery is real and adds meaningfully in years one and two, then US onshore reverts to a flat-to-declining rig count with capital intensity that does not fall back to pre-merger levels. I am deliberately close to the market&#x27;s implied +1.4% because on the model&#x27;s own inputs I do not disagree with it — my disagreement is with the inputs.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that my +2% is far too conservative and PTEN is a genuine cyclical long at the exact moment the cycle turns. The evidence is not a story: the frac fleet was sold out before activity rose, rig count is guided from 92 to 100 with contracts already signed, every segment beat guidance in Q2, and management is explicitly guiding free cash flow to &#x27;grow meaningfully in 2027&#x27;. In a business with this much operating leverage, the difference between 92 and 110 rigs at rising day rates is not +2% FCFF growth, it is a doubling. Cyclical businesses do not compound at 2%; they gap. And the screen&#x27;s +188.5% gap, whatever its provenance, points the same way as the tape, which is +139.5% over twelve months.</li><li>What would prove it: Free cash flow, in dollars, for full-year 2026 and guided for 2027 — not adjusted EBITDA. Management has committed to a number that merely covers the dividend in 2026; the test is whether the Q4 release guides 2027 free cash flow to a specific figure above roughly $400M, and whether 2027 capex is guided below $500M. Second test: whether active horsepower stays flat as promised while pricing rises, which is what separates a pricing cycle from a capacity race.</li><li>Already visible today: The cyclical inflection is visibly real — Q3 segment guidance is concrete, specific and sequentially higher, and I accept it. What is NOT visible is any evidence that it converts to free cash flow, and management&#x27;s own 2026 guidance is conspicuously modest about exactly that. So the devil&#x27;s advocate wins the direction of business momentum and loses on the valuation question, which leaves me unable to call the name either way. That is the honest resolution and it is why the verdict is no_edge rather than rich, which is where my own base case alone would have pointed.</li><li>Left unresolved: I could not separate maintenance from growth capital in the $600M budget, so I cannot compute a normalized free cash flow number for PTEN with any confidence — and that is the single input the whole disagreement turns on. I also could not verify what the $217.8M of DD&amp;A-and-impairment in Q2 contains; if a material part is impairment of legacy diesel horsepower, reported earnings understate the run rate, but nothing in the release breaks it out.</li></ul><p><strong>Key risks.</strong> The +188.5% gap is a merger artifact: the +33.6% five-year revenue CAGR (clamped to +25.0%) is the 2023 NexTier and Ulterra combinations, not organic growth, so acquired revenue is being applied to per-share free cash flow; The 9.54% WACC rests on a beta of 0.691 with an R-squared of 0.061 — the worst-fit regression among today&#x27;s ten — assigning a US land driller a beta well below the Russell 2000; at a defensible ~1.5 the implied growth rises from +1.4% to roughly +11.6%, which would make the name rich rather than fair; The $459.5M normalized FCFF base is a three-year mean; 2026 free cash flow is guided only to exceed a ~$120M dividend, so the base runs well ahead of current cash generation; $600M of 2026 capex against a ~$1.0B EBITDA run rate is a capital intensity that caps free cash flow regardless of how good the pricing cycle is; The 21-day move of +29% is substantially a Middle East supply-disruption premium, which is the least durable input to a US onshore activity thesis <strong>Watch for.</strong> A specific 2027 free cash flow dollar guide in the Q4 2026 release, and 2027 capex guided below $500M — this converts the cycle into cash or it does not; Whether active horsepower stays flat in H2 2026 as promised while completion pricing rises; a capacity race would end the pricing recovery; Q3 actual average rig count against the ~100 guide, and whether the exit rate is genuinely higher</p><p><strong>Data quality.</strong> The only flag the engine raised — speculative cost of debt at a 20% debt weight — is immaterial. The three that matter it did not raise. First, the naive baseline of +25.0% (clamped from +33.6%) is entirely the 2023 NexTier/Ulterra mergers, so the +188.5% headline gap is not a valuation statement and I have ignored it. Second, the $459.5M FCFF base is a three-year mean spanning higher-activity years; 2026 free cash flow is guided only above the ~$120M dividend. I considered an fcff_base_override and rejected it: PTEN&#x27;s 2026 capex of $600M contains an unquantified amount of Emerald growth capital, so a 2026-actual base would understate mid-cycle FCFF as badly as the mean overstates it, and I could not find the maintenance/growth split anywhere in the release or the 10-Q. That split is the largest unresolved input in this write-up. Third, the beta of 0.691 at R-squared 0.061 is a failed regression accepted as a good one, and it manufactures cheapness — I verified beta_source=&#x27;regression&#x27; directly in data/screen.json. The recorded fair value should be read as an upper bound; with a defensible discount rate this name prices rich at my growth assumption.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/889900/000088990026000050/a2026q2earningsreleaseex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/889900/000088990026000050/a2026q2earningsreleaseex991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/889900/000088990026000056/pten-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/889900/000088990026000056/pten-20260630.htm</a></li><li><a href="https://finance.yahoo.com/energy/articles/patterson-uti-energy-q2-earnings-190430134.html" rel="noopener">https://finance.yahoo.com/energy/articles/patterson-uti-energy-q2-earnings-190430134.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/patterson-uti-pten-buy-sell-124644863.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/patterson-uti-pten-buy-sell-124644863.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/patterson-uti-energy-pten-files-011020861.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/patterson-uti-energy-pten-files-011020861.html</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Energy/PTEN.md'>research/Energy/PTEN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

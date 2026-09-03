@@ -1,0 +1,61 @@
+{
+  "ticker": "RIOT",
+  "date": "2026-09-03",
+  "sector": "Information Technology",
+  "name": "RIOT PLATFORMS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 18.635000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter to my refusal is that no_model is a cop-out when the brief hands me a multiples table. It shows a blended midpoint of $10.12 against a $18.64 price \u2014 a -45.7% gap \u2014 implying Riot is substantially overvalued, and one could simply record 'rich' on that basis. Alternatively one could argue the opposite from the same table: p_tbv at 3.4x against a cohort median of 5.0x values Riot at $27.34, or 47% ABOVE the price. Either way, the argument runs, a number is more useful to a human than a refusal.",
+    "what_would_prove_it": "A definitive, executed Corsicana lease with disclosed megawatts, term and annual rent \u2014 that single document converts Riot from unvaluable to valuable, because contracted rent over a stated term is exactly the kind of stream a DCF handles well. Absent that, an annualized run-rate for the data centre segment once Rockdale capacity is energized would let the leasing business be valued separately from the mining business.",
+    "already_visible": "The counter loses, and the multiples table is the reason why rather than an argument for it. Note that the two multiples disagree by a factor of nearly three ($10.12 blended versus $27.34 on tangible book), and that the ev_gross_profit row returns $-1.00 at every percentile because gross profit is negative. CLAUDE.md warns explicitly to treat a multiples number with suspicion when revenue has not arrived yet, and that is precisely this case: EV/sales of 11.4x against a cohort median of 2.9x is measuring Riot's mining revenue while the market is pricing a signed $9.1B lease that has produced almost no revenue so far. A comparables number computed on the pre-transformation revenue base is not evidence about the post-transformation company. Reporting -45.7% as though it were a valuation would be exactly the error the standing lessons warn against.",
+    "unresolved": "Nearly everything that matters. I could not verify the Anthropic lease terms against a primary filing \u2014 my sources are the Q2 press release and secondary coverage, and the counterparty identification in particular is reported rather than disclosed by Riot. I could not size the capital required to deliver 191MW at Rockdale, nor the financing structure behind the 14 Aug item 2.03 debt obligation, nor what happens to the bitcoin collateral. Any of those could dominate the equity value."
+  },
+  "what_changed": "Q2 2026 (10 Aug): revenue $174.2M, +14% year on year, but a net loss of $237.2M and diluted EPS of $(0.68), driven by more than $240M of non-cash items including a $75M mark-to-market loss on bitcoin holdings and $98M of depreciation and amortization. Bitcoin production of 1,587 BTC against 1,426 a year earlier at a deployed hashrate of 44.4 EH/s (~4.6% of network), with a direct cost to mine of $49,912 per BTC and a net power cost of $0.036/kWh after $10M of curtailment credits. Riot sold 9,665 BTC in H1 2026 to fund the AI infrastructure build. Data centre revenue was $23.2M ($4.9M operating lease, $18.3M tenant fit-out). After the quarter closed: the 191MW / $9.1B Anthropic lease at Rockdale, and the non-binding Corsicana LOI. A 14 Aug 8-K carried items 1.01 and 2.03 (a material agreement and a new debt obligation). Reports in early September suggest pledged bitcoin collateral may be released, freeing capital for the data centre build. The stock is -9.6% over 5 days, -13.6% over 21 days and -32.6% over 63 days even as the lease news landed.",
+  "consensus_case": "Riot is no longer a bitcoin miner being valued as one. On 10 Aug 2026 it disclosed a 20-year agreement to supply 191MW of IT capacity at Rockdale to a frontier AI company subsequently identified as Anthropic, expected to generate approximately $9.1 billion through June 2048 with extension options taking the total toward $16.1 billion \u2014 roughly $400M+ of annual contracted rent from a single lease. On the same day it disclosed a non-binding letter of intent covering its 1GW Corsicana site, which management said could produce more than $1 billion of annual rent once fully deployed. Against a $7.0B market capitalization, one signed 20-year contract plus one LOI plausibly covers the entire equity value on contracted revenue alone. The Engineering segment tripled year on year to $37.3M with gross margin going from ~7% to over 27% and a $177.1M backlog, so Riot can build what it leases. That is why Morgan Stanley lists Riot among preferred operators for the powered-shell deal wave and why KBW carries a $35 target. The buyer at $18.64 is buying secured power at scale \u2014 the genuinely scarce input in AI infrastructure \u2014 not hashrate.",
+  "base_case_rationale": "I decline to state a growth rate, and that refusal is the substantive answer rather than an evasion. Riot's normalized FCFF base is not merely low, it is unavailable \u2014 the engine reports 'mean of CFO minus capex over 0y' and flags nonpositive normalized FCFF, negative EBITDA and a negative free cash flow year in the window. There is no cash flow stream to discount. More importantly, the cash flow stream that will exist is not a projection of the one that did: the business is mid-transformation from mining bitcoin to leasing power and shells, and those have entirely different revenue recognition, capital intensity, counterparty risk and duration. Applying any growth rate to a mining cash flow base would be pricing the wrong company, and inventing one for the leasing business would be fabricating a fair value for a name the model has correctly declined to value. The honest output is that a free-cash-flow DCF cannot value Riot today.",
+  "key_risks": [
+    "Normalized FCFF is unavailable \u2014 the engine computed it over a zero-year window and flags nonpositive FCFF and negative EBITDA; there is no cash flow stream to discount",
+    "The Corsicana opportunity, which is the majority of the bull case by value, rests on a NON-BINDING letter of intent that management has itself cautioned may not be executed",
+    "The AI data centre build is being funded partly by liquidating the bitcoin treasury \u2014 9,665 BTC sold in H1 2026 \u2014 so the funding source is itself volatile",
+    "Q2 net loss of $237.2M including a $75M mark-to-market loss on bitcoin and $98M of depreciation; direct cost to mine of $49,912 per BTC leaves the legacy business marginal",
+    "Beta of 2.5 (the model's clamp ceiling) and an 18.0% WACC signal that even the discount-rate machinery is at the edge of its range for this name",
+    "The multiples table in the brief should be disregarded: it prices pre-transformation mining revenue and its own components disagree by nearly 3x ($10.12 blended versus $27.34 on tangible book)"
+  ],
+  "watch_for": [
+    "An executed, definitive Corsicana lease with disclosed megawatts, term and annual rent \u2014 the single document that would make this company valuable by DCF",
+    "Data centre segment revenue reaching an annualized run rate as Rockdale capacity energizes, which would allow the leasing business to be valued separately from mining",
+    "The financing behind the 14 Aug item 2.03 debt obligation and the resolution of the pledged bitcoin collateral",
+    "Any primary-source confirmation of the Rockdale counterparty and lease economics in a 10-Q or 8-K rather than press coverage"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093406/riot-20260810x8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093448/riot-20260630x10q.htm",
+    "https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/",
+    "https://blockspace.media/insight/riot-platforms-signs-ai-lease-rockdale-2026/",
+    "https://blockspace.media/insight/riot-corsicana-loi-756mw-ai-data-center/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-riot-platforms-riot-down-130728372.html"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_11%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

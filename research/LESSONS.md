@@ -128,6 +128,48 @@ mid-2027). Until then, these are the STANDING priors the red team should hold th
   BOTH inputs to the justified multiple, not just the book value. OSCR carries the same defect (R-squared
   0.051). Note that the analyst JSON has no field to override cost of equity, so a name whose gap is
   produced by a bad beta cannot be corrected in the record — only the verdict can say so.
+- **The failed-beta problem is not a handful of names, it is a ranking bias across the whole screen, and
+  `BETA_MIN_R2 = 0.04` is why.** The GLRE and OSCR entries above treated a bad regression as a per-name
+  defect where "the gate did not fire". The gate fired correctly; the threshold is the bug. An R² of 0.04
+  means the regression explains 4% of the variance, so essentially every regression passes and is stamped
+  `beta_source = regression`. A noisy regression attenuates its slope toward zero (classic errors-in-
+  variables), so the worse the fit, the lower the beta, the lower the cost of equity, the lower the WACC,
+  the lower the implied growth, and the larger the positive gap. Measured across the 1,644 regression betas
+  in the 2026-09-03 screen, median gap by R² bucket: 0.00-0.10 → **+6.0%** (median beta 0.81, n=373);
+  0.10-0.20 → −7.1% (beta 1.08); 0.20-0.30 → −28.1% (beta 1.10); 0.30+ → −33.4% (beta 1.01). That is a
+  39-point swing in apparent cheapness driven by fit quality alone, monotonic across four buckets. 246 of
+  the 373 worst-fit names carry a beta below 1.0, and 57 have beta < 0.9 together with a gap above +50%.
+  Do not read this as "low-beta names look cheap": the top sector in that 57 is **Energy** (15 names —
+  CRC, REPX, CRGY, TK, NVGS among them), which is the highest-beta cohort in the index, so this is
+  measurement error and not genuine defensiveness. On 2026-09-03 it took ALL THREE Energy opportunistic
+  slots — TDW (β 0.70, R² 0.082), RES (β 0.73, R² 0.085), PTEN (β 0.69, R² 0.061) — with gaps of +118%,
+  +221% and +189%. Correcting TDW to a defensible OSV beta of ~1.4 moves the growth the market implies
+  from +5.6% to roughly +16%, i.e. from cheap to rich. Like the convertible, ABL and rental-capex bugs,
+  this error has a direction: it manufactures false buys, never false sells. Treat any large positive gap
+  on a name with R² below ~0.15 as this bug until proven otherwise, and check `beta_r2` before the thesis,
+  not after.
+- **Averaging a ratio across a credit trough understates a recovered bank, the mirror of the acquisition
+  case.** The `justified_pb` lesson above warns against averaging book LEVELS across an acquisition. VLY
+  on 2026-09-03 is the same error running the other way in the numerator: sustainable ROTCE of 9.08% is a
+  three-year average spanning the 2024-25 CRE provisioning trough, while the actual quarterly series runs
+  9.07% → 10.02% → 11.56% → 11.91% (12.05% adjusted), improving monotonically over four quarters with
+  tangible book per share compounding ~8% annualized. A reserve release flatters earnings while book value
+  stagnates; rising ROTCE *and* rising tangible book together is an operating recovery. Overriding to 11.5%
+  moves the gap from −36.4% to roughly −15%. The general rule: before accepting an averaged ratio on a
+  financial, look at the quarterly path — a monotonic trend means the average is describing a company that
+  no longer exists, in whichever direction it is trending.
+- **The multiples fallback is not a weak signal on a transforming or non-operating company, it is noise
+  with a decimal point, and its own internal disagreement is the tell.** CLAUDE.md already says to treat
+  a multiples number on a pre-revenue name with suspicion. Two names on 2026-09-03 show the sharper test:
+  when the three rows disagree by a factor of three, the blend is meaningless. RIOT blends to $10.12 vs a
+  $18.64 price (−45.7%) while its own p_tbv row says $27.34 (+47%) and its ev_gross_profit row returns
+  $-1.00 at every percentile because gross profit is negative — and the whole table prices bitcoin-mining
+  revenue for a company that has just signed a 20-year, ~$9.1B power lease that has produced almost no
+  revenue yet. EPRT blends to $21.40 from components of $26.63, $32.00 and $5.57, where the $5.57 is
+  EV/sales applied to a REIT's rental revenue against a cohort median built from operating companies in
+  the same Real Estate bucket. Both briefs also said "not ranked — too few comparable names". Rule: if the
+  rows straddle the price in opposite directions, or any row is negative, or the cohort is unranked, report
+  no_model and say the multiples number should be disregarded — do not average a nonsense input away.
 
 ---
 

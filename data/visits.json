@@ -54,9 +54,24 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "ENS": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "no_edge"
+  },
+  "EPRT": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "no_model"
+  },
   "ESE": {
     "conviction": "low",
     "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
+  "EVI": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
     "verdict": "no_edge"
   },
   "FLO": {
@@ -99,6 +114,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_model"
   },
+  "MATX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-03",
+    "verdict": "rich"
+  },
   "MFIN": {
     "conviction": "low",
     "last_visit": "2026-09-02",
@@ -119,14 +139,34 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "PTEN": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "no_edge"
+  },
   "PTGX": {
     "conviction": "medium",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "QLYS": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "rich"
+  },
+  "RES": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "no_edge"
+  },
   "RHP": {
     "conviction": "low",
     "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "RIOT": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
     "verdict": "no_model"
   },
   "SLAB": {
@@ -154,6 +194,11 @@
     "last_visit": "2026-09-01",
     "verdict": "no_model"
   },
+  "TDW": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "no_edge"
+  },
   "TEX": {
     "conviction": "medium",
     "last_visit": "2026-09-02",
@@ -173,6 +218,11 @@
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
+  },
+  "VLY": {
+    "conviction": "low",
+    "last_visit": "2026-09-03",
+    "verdict": "fair"
   },
   "VSAT": {
     "conviction": "low",

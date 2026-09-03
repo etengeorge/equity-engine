@@ -1,0 +1,189 @@
+{
+  "ticker": "PTEN",
+  "date": "2026-09-03",
+  "sector": "Energy",
+  "name": "PATTERSON UTI ENERGY INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.02,
+  "bear_growth": -0.05,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 13.149999618530273,
+  "market_implied_growth": 0.013743360098634638,
+  "cohort_pct": 90.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.02,
+    "market_implied_growth": 0.013743360098634638,
+    "growth_delta": 0.006256639901365362,
+    "fair_value": 13.580959340925318,
+    "price": 13.149999618530273,
+    "gap": 0.03277260341420529,
+    "fair_value_band": {
+      "low": 11.670557168193573,
+      "point": 13.580959340925318,
+      "high": 16.07593256855557
+    },
+    "fcff_base_used": 459507166.6666667,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09536081992850068,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 459507166.6666667,
+      "price": 13.149999618530273,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.05,
+          "cells": [
+            {
+              "wacc": 0.07536081992850067,
+              "fair_value": 13.435781380900238,
+              "gap": 0.0217324540426036
+            },
+            {
+              "wacc": 0.08536081992850068,
+              "fair_value": 11.044925647379092,
+              "gap": -0.16008167545380192
+            },
+            {
+              "wacc": 0.09536081992850068,
+              "fair_value": 9.286095591353085,
+              "gap": -0.2938330143928204
+            },
+            {
+              "wacc": 0.10536081992850067,
+              "fair_value": 7.937267105021767,
+              "gap": -0.3964055258346171
+            },
+            {
+              "wacc": 0.11536081992850068,
+              "fair_value": 6.869541147863454,
+              "gap": -0.4776014184682359
+            }
+          ],
+          "fair_value_at_point_wacc": 9.286095591353085,
+          "gap_at_point_wacc": -0.2938330143928204
+        },
+        {
+          "case": "base",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.07536081992850067,
+              "fair_value": 19.47225560670256,
+              "gap": 0.48077993700192234
+            },
+            {
+              "wacc": 0.08536081992850068,
+              "fair_value": 16.07593256855557,
+              "gap": 0.22250441330068393
+            },
+            {
+              "wacc": 0.09536081992850068,
+              "fair_value": 13.580959340925318,
+              "gap": 0.03277260341420529
+            },
+            {
+              "wacc": 0.10536081992850067,
+              "fair_value": 11.670557168193573,
+              "gap": -0.11250513256684425
+            },
+            {
+              "wacc": 0.11536081992850068,
+              "fair_value": 10.160823147049474,
+              "gap": -0.22731380670677837
+            }
+          ],
+          "fair_value_at_point_wacc": 13.580959340925318,
+          "gap_at_point_wacc": 0.03277260341420529
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.07536081992850067,
+              "fair_value": 27.299670088696644,
+              "gap": 1.0760205992878826
+            },
+            {
+              "wacc": 0.08536081992850068,
+              "fair_value": 22.583100184287577,
+              "gap": 0.7173460714374991
+            },
+            {
+              "wacc": 0.09536081992850068,
+              "fair_value": 19.12211433585634,
+              "gap": 0.45415322361762533
+            },
+            {
+              "wacc": 0.10536081992850067,
+              "fair_value": 16.47527845337421,
+              "gap": 0.2528729225328745
+            },
+            {
+              "wacc": 0.11536081992850068,
+              "fair_value": 14.386330284770827,
+              "gap": 0.0940175438863422
+            }
+          ],
+          "fair_value_at_point_wacc": 19.12211433585634,
+          "gap_at_point_wacc": 0.45415322361762533
+        }
+      ],
+      "summary": {
+        "bear": -0.2938330143928204,
+        "base": 0.03277260341420529,
+        "bull": 0.45415322361762533
+      },
+      "downside": -0.4776014184682359,
+      "upside": 1.0760205992878826
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that my +2% is far too conservative and PTEN is a genuine cyclical long at the exact moment the cycle turns. The evidence is not a story: the frac fleet was sold out before activity rose, rig count is guided from 92 to 100 with contracts already signed, every segment beat guidance in Q2, and management is explicitly guiding free cash flow to 'grow meaningfully in 2027'. In a business with this much operating leverage, the difference between 92 and 110 rigs at rising day rates is not +2% FCFF growth, it is a doubling. Cyclical businesses do not compound at 2%; they gap. And the screen's +188.5% gap, whatever its provenance, points the same way as the tape, which is +139.5% over twelve months.",
+    "what_would_prove_it": "Free cash flow, in dollars, for full-year 2026 and guided for 2027 \u2014 not adjusted EBITDA. Management has committed to a number that merely covers the dividend in 2026; the test is whether the Q4 release guides 2027 free cash flow to a specific figure above roughly $400M, and whether 2027 capex is guided below $500M. Second test: whether active horsepower stays flat as promised while pricing rises, which is what separates a pricing cycle from a capacity race.",
+    "already_visible": "The cyclical inflection is visibly real \u2014 Q3 segment guidance is concrete, specific and sequentially higher, and I accept it. What is NOT visible is any evidence that it converts to free cash flow, and management's own 2026 guidance is conspicuously modest about exactly that. So the devil's advocate wins the direction of business momentum and loses on the valuation question, which leaves me unable to call the name either way. That is the honest resolution and it is why the verdict is no_edge rather than rich, which is where my own base case alone would have pointed.",
+    "unresolved": "I could not separate maintenance from growth capital in the $600M budget, so I cannot compute a normalized free cash flow number for PTEN with any confidence \u2014 and that is the single input the whole disagreement turns on. I also could not verify what the $217.8M of DD&A-and-impairment in Q2 contains; if a material part is impairment of legacy diesel horsepower, reported earnings understate the run rate, but nothing in the release breaks it out."
+  },
+  "what_changed": "Q2 2026 (30 Jul): GAAP net loss attributable to common of $20M on $1.23B of revenue, with $217.8M of depreciation, depletion, amortization and impairment in the quarter driving the loss; adjusted EBITDA $232M. Total 2026 capital expenditure net of asset sales is confirmed at approximately $600M \u2014 a budget RAISED during Q2 to fund Emerald growth capital. Working capital was a larger-than-usual first-half use of cash as activity ramped. Management guides full-year 2026 free cash flow only to 'more than cover our 2026 dividend payments' \u2014 a low bar of roughly $120M \u2014 with improvement expected in 2027. Active horsepower is explicitly NOT expected to increase in H2 2026 as diesel assets are decommissioned. In August the company filed a $296.8M ESOP shelf covering up to 28.9M common shares. The stock is +15.1% over 5 days, +29.1% over 21 days and +139.5% over 252 days, largely on Middle East supply disruption headlines.",
+  "consensus_case": "Patterson-UTI is the best-positioned US onshore driller into a genuine activity inflection. Q2 2026 revenue of $1.23B was up 10% sequentially with adjusted EBITDA of $232M, and every segment beat prior guidance. Q3 guidance is materially stronger: average US rig count ~100 against 92 in Q2 and exiting higher, Drilling Services adjusted gross profit ~$145M, Completion Services ~$140M with the frac fleet effectively sold out BEFORE industry activity increased, Drilling Products ~$40M \u2014 roughly $330M of segment gross profit against ~$70M of G&A, or ~$260M of quarterly adjusted EBITDA and a ~$1.0B annualized run rate. Management says contracts for additional rigs are already signed and customer conversations about price increases are 'very constructive', with Emerald natural-gas direct-drive technology drawing interest. The buyer at $13.15 is paying ~6x forward EBITDA for an operationally levered business at the front of a pricing cycle, with a stated commitment that 2026 free cash flow more than covers the dividend and improves in 2027.",
+  "base_case_rationale": "The right frame for US land drilling is that pricing cycles are real but the secular volume trend is not. Rig efficiency keeps rising, so the same production requires fewer rig-days every year; PTEN itself is decommissioning diesel horsepower and explicitly does not expect active horsepower to grow in H2. What PTEN can grow is price and mix \u2014 Emerald gas direct-drive, integrated completions, Drilling Products \u2014 and those are genuine, but they are being bought with a $600M capex budget against a ~$1.0B EBITDA run rate, which is a capital intensity of roughly 60% of EBITDA. That is the number that governs FCFF, and it is why management's own 2026 free cash flow guidance is a bar as low as covering a ~$120M dividend. Over five years I underwrite roughly +2% FCFF growth off the $459.5M normalized base: the 2027 pricing recovery is real and adds meaningfully in years one and two, then US onshore reverts to a flat-to-declining rig count with capital intensity that does not fall back to pre-merger levels. I am deliberately close to the market's implied +1.4% because on the model's own inputs I do not disagree with it \u2014 my disagreement is with the inputs.",
+  "key_risks": [
+    "The +188.5% gap is a merger artifact: the +33.6% five-year revenue CAGR (clamped to +25.0%) is the 2023 NexTier and Ulterra combinations, not organic growth, so acquired revenue is being applied to per-share free cash flow",
+    "The 9.54% WACC rests on a beta of 0.691 with an R-squared of 0.061 \u2014 the worst-fit regression among today's ten \u2014 assigning a US land driller a beta well below the Russell 2000; at a defensible ~1.5 the implied growth rises from +1.4% to roughly +11.6%, which would make the name rich rather than fair",
+    "The $459.5M normalized FCFF base is a three-year mean; 2026 free cash flow is guided only to exceed a ~$120M dividend, so the base runs well ahead of current cash generation",
+    "$600M of 2026 capex against a ~$1.0B EBITDA run rate is a capital intensity that caps free cash flow regardless of how good the pricing cycle is",
+    "The 21-day move of +29% is substantially a Middle East supply-disruption premium, which is the least durable input to a US onshore activity thesis"
+  ],
+  "watch_for": [
+    "A specific 2027 free cash flow dollar guide in the Q4 2026 release, and 2027 capex guided below $500M \u2014 this converts the cycle into cash or it does not",
+    "Whether active horsepower stays flat in H2 2026 as promised while completion pricing rises; a capacity race would end the pricing recovery",
+    "Q3 actual average rig count against the ~100 guide, and whether the exit rate is genuinely higher"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/889900/000088990026000050/a2026q2earningsreleaseex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/889900/000088990026000056/pten-20260630.htm",
+    "https://finance.yahoo.com/energy/articles/patterson-uti-energy-q2-earnings-190430134.html",
+    "https://finance.yahoo.com/markets/stocks/articles/patterson-uti-pten-buy-sell-124644863.html",
+    "https://finance.yahoo.com/markets/stocks/articles/patterson-uti-energy-pten-files-011020861.html"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_20%_debt_weight"
+  ]
+}
