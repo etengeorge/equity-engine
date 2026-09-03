@@ -1,5 +1,17 @@
 [
  {
+  "id": "feaf8d52-5f9f-3e1f-afb9-9f3125837598",
+  "ts": "2026-09-02T20:12:23+00:00",
+  "title": "3 Stocks Under $50 We Think Twice About",
+  "summary": "Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models, leaving them vulnerable to the ebbs and flows of the broader market.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-think-201223824.html",
+  "tickers": [
+   "UCB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0208261c-15b9-3eb9-87b8-945a22c1c31a",
   "ts": "2026-09-01T20:30:00+00:00",
   "title": "United Community Banks, Inc. Announces Completion of Sale of Navitas Equipment Finance Business to Funds Managed by Wafra Inc.",

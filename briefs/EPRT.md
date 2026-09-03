@@ -1,20 +1,20 @@
-# TRNO — TERRENO REALTY REIT
-*Real Estate · brief generated 2026-09-02 · selected as **rotation***
+# EPRT — ESSENTIAL PROPERTIES REALTY TRUST
+*Real Estate · brief generated 2026-09-03 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 40/1956
+- rotation position 48/1956
 
 ## Market
 | | |
 |---|---|
-| price | $66.45 |
-| market cap | $7.2B |
-| 5d / 21d / 63d / 252d | -3.6% / -7.3% / +5.7% / +19.3% |
-| 60d avg daily $ volume | $60.4M |
-| beta (vs IWM) | 0.6 (R²=0.239) |
+| price | $29.97 |
+| market cap | $6.5B |
+| 5d / 21d / 63d / 252d | -2.7% / -3.8% / +0.5% / -0.3% |
+| 60d avg daily $ volume | $56.5M |
+| beta (vs IWM) | 0.41 (R²=0.163) |
 | 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| WACC weights | equity 69% / debt 31% |
 
 ## What the market's price already assumes
 **No defensible free numeric model for this name** (status: not_modelled).
@@ -26,10 +26,11 @@ Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no mo
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=92) | 17.2x | 3.2x / 7.2x / 11.3x | $5.31 / $22.82 / $40.70 |
-| p_tbv (n=84) | 1.7x | 1.0x / 1.6x / 2.2x | $40.99 / $64.44 / $90.30 |
+| ev_ebitda (n=77) | 18.2x | 11.0x / 16.8x / 22.6x | $13.05 / $26.63 / $40.43 |
+| ev_sales (n=92) | 16.6x | 3.2x / 7.2x / 11.3x | $-4.74 / $5.57 / $16.10 |
+| p_tbv (n=84) | 1.5x | 1.0x / 1.6x / 2.2x | $20.26 / $32.00 / $44.46 |
 
-Blended midpoint **$43.63** vs price $66.45 — gap **-34.3%**.
+Blended midpoint **$21.40** vs price $29.97 — gap **-28.6%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -38,23 +39,27 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_12%_debt_weight`
 - `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000035/trno-20260630.htm
-- 2026-05-06 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526209168/d121751d8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000019/trno-20260331.htm
-- 2026-03-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1476150/000119312526116759/d47180ddef14a.htm
-- 2026-02-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526054901/d832696d8k.htm
-- 2026-02-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1476150/000147615026000011/trno-20251231.htm
-- 2026-01-08 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1476150/000119312526006930/d60454d8k.htm
-- 2025-11-05 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1476150/000119312525266918/d936737d8k.htm
-- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615025000060/trno-20250930.htm
-- 2025-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1476150/000147615025000042/trno-20250630.htm
+- 2026-07-24 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000162828026049625/eprt-20260724.htm
+- 2026-07-22 **10-Q** — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000052/eprt-20260630.htm
+- 2026-07-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/eprt-20260722.htm
+- 2026-06-15 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000162828026043273/eprt-20260604.htm
+- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000041/eprt-20260529.htm
+- 2026-06-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000039/eprt-20260601.htm
+- 2026-05-12 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000035/eprt-20260511.htm
+- 2026-04-22 **10-Q** — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000029/eprt-20260331.htm
+- 2026-04-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000028/eprt-20260422.htm
+- 2026-04-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000024/eprt-20260407.htm
 
 ## Earnings materials (8-K exhibits)
-*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
+*The press release and presentation as filed. EX-99.2 is usually the deck.*
+
+- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/earningsreleaseex991-worki.htm
+- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000049/a2q26ex992.htm
+- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000041/ex991-dividendq22026.htm
+- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1728951/000172895126000039/investorpjune2026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -62,6 +67,8 @@ Attack these before you trust any number above.
 ## What is happening in Real Estate
 *From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
+- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
 - **2026-09-01** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195018983.html
 - **2026-09-01** · Sector Update: Financial Stocks Softer Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-tuesday-175837600.html
 - **2026-08-31** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-195819260.html
@@ -70,22 +77,20 @@ Attack these before you trust any number above.
 - **2026-08-28** · Sector Update: Financial Stocks Advance Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-201244277.html
 - **2026-08-28** · Sector Update: Financial Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-friday-174348449.html
 - **2026-08-28** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-172208546.html
-- **2026-08-27** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-194952694.html
-- **2026-08-27** · Sector Update: Financial Stocks Decrease Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-thursday-175207409.html
 
 ## Market and macro context
-- **2026-09-02** · 3 Reasons PINS Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-pins-explosive-upside-142823517.html
-- **2026-09-02** · What to expect over the next 12 months from S&P 500 returns — *Yahoo Finance Video* — https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html
-- **2026-09-02** · CPAY Stock Rises 15% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpay-stock-rises-15-3-142100401.html
-- **2026-09-02** · Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html
+- **2026-09-03** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo
+- **2026-09-03** · Financial Coach? How A Money Mentor Can Help You Live Large — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/personal-finance/financial-coach-do-you-need-one/?src=A00220&yptr=yahoo
+- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
+- **2026-09-03** · 3 Consumer Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-095118853.html
 
 *Rules, releases and agency actions:*
-- **2026-09-02** · Repeal of Fossil Fuel Restrictions for New Federal Buildings and Major Renovations of Federal Buildings — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17979/repeal-of-fossil-fuel-restrictions-for-new-federal-buildings-and-major-renovations-of-federal
-- **2026-09-02** · Safety Zone; Bay Bridge Paddle; Chesapeake Bay, Annapolis, MD — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17978/safety-zone-bay-bridge-paddle-chesapeake-bay-annapolis-md
-- **2026-09-02** · Safety Zone; Lake St. Clair, Grosse Pointe Farms, MI — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17971/safety-zone-lake-st-clair-grosse-pointe-farms-mi
-- **2026-09-02** · Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17967/airworthiness-directives-airbus-canada-limited-partnership-type-certificate-previously-held-by-c
-- **2026-09-02** · Establishment of Special Air Traffic Rules in the Vicinity of President Donald J. Trump International Airport (DJT) — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17957/establishment-of-special-air-traffic-rules-in-the-vicinity-of-president-donald-j-trump-international
-- **2026-09-02** · Safety Zone; Maumee River, Toledo, OH — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/02/2026-17940/safety-zone-maumee-river-toledo-oh
+- **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
+- **2026-09-03** · Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers; Further Extension of Compliance Date — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18104/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers-further-extension-of
+- **2026-09-03** · Notice of Availability and Request for Comment: Revision to the Voluntary Standard for Products Containing Button Cell or Coin Batteries — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18103/notice-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for-products
+- **2026-09-03** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18072/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-03** · Special Local Regulation; Allegheny River Mile Markers 0-3.5 and Ohio River Mile Marker 0-3, Pittsburgh, PA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18062/special-local-regulation-allegheny-river-mile-markers-0-35-and-ohio-river-mile-marker-0-3-pittsburgh
+- **2026-09-03** · Determining the Appropriate Penalty for Federal Employees Charged With Misconduct — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,5 +1,61 @@
 [
  {
+  "id": "8c0f200b-d947-3544-b912-fbbfadf51a44",
+  "ts": "2026-09-03T07:57:00+00:00",
+  "title": "3 No-Brainer Tech Stocks to Buy With $5,000 Right Now",
+  "summary": "Cipher Digital, Marvell Technology, and Fortinet are riding multiyear tailwinds.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "56796b09-01d5-3274-9bb2-47143b30b14b",
+  "ts": "2026-09-02T19:35:14+00:00",
+  "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+  "summary": "Tech stocks were mixed late Wednesday afternoon, with the State Street Technology Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-193514411.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "7a75c570-2514-3801-b29c-d5533f62f396",
+  "ts": "2026-09-02T17:27:23+00:00",
+  "title": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
+  "summary": "Tech stocks were mixed Wednesday afternoon, with the State Street Technology Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-wednesday-172723766.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "583c10de-fbeb-3af0-893b-ea3d80fc94c2",
+  "ts": "2026-09-02T17:10:33+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
   "ts": "2026-09-02T13:08:27+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",

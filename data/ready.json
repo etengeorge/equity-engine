@@ -1,45 +1,45 @@
 {
-  "screen_utc": "2026-09-02T14:40:47+00:00",
-  "price_asof": "2026-09-01",
+  "screen_utc": "2026-09-03T11:24:38+00:00",
+  "price_asof": "2026-09-02",
   "universe": 1956,
-  "modelled": 1078,
-  "modelled_pct": 55.1,
+  "modelled": 1079,
+  "modelled_pct": 55.2,
   "news": {
-    "generated_utc": "2026-09-02T14:40:48+00:00",
+    "generated_utc": "2026-09-03T11:24:39+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 16,
+        "new": 2,
+        "held": 18,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 1,
-        "held": 19,
+        "new": 3,
+        "held": 22,
         "etf": "XLF"
       },
       "Industrials": {
         "new": 1,
-        "held": 15,
+        "held": 16,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 1,
-        "held": 19,
+        "new": 4,
+        "held": 23,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 1,
-        "held": 16,
+        "held": 17,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 22,
+        "new": 4,
+        "held": 26,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 14,
+        "new": 2,
+        "held": 16,
         "etf": "XLRE"
       },
       "Materials": {
@@ -48,12 +48,12 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 1,
+        "new": 0,
         "held": 16,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
+        "new": 0,
         "held": 17,
         "etf": "XLP"
       },
@@ -65,26 +65,26 @@
     },
     "macro": 86,
     "market": 36,
-    "companies": 447,
-    "articles_new": 367,
+    "companies": 449,
+    "articles_new": 984,
     "candidates": 450,
-    "elapsed_s": 205.4
+    "elapsed_s": 201.1
   },
   "picks": [
-    "ZWS",
-    "ACA",
-    "FSS",
-    "TRNO",
-    "PBF",
-    "ZETA",
-    "GIII",
-    "BOOT",
-    "ISBA",
-    "DIN"
+    "VLY",
+    "ENS",
+    "MATX",
+    "QLYS",
+    "RIOT",
+    "EPRT",
+    "TDW",
+    "EVI",
+    "RES",
+    "PTEN"
   ],
   "stages": {
-    "screen": "2026-09-02T14:44:42+00:00",
-    "news": "2026-09-02T14:44:13+00:00",
-    "pick": "2026-09-02T14:44:42+00:00"
+    "screen": "2026-09-03T11:28:10+00:00",
+    "news": "2026-09-03T11:28:00+00:00",
+    "pick": "2026-09-03T11:28:10+00:00"
   }
 }

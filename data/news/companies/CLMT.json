@@ -1,5 +1,29 @@
 [
  {
+  "id": "4ffac99c-dfed-3187-a64f-41b2f048dc2f",
+  "ts": "2026-09-02T21:44:45+00:00",
+  "title": "Why Calumet Stock Topped the Market Today",
+  "summary": "A federal government agency granted refining exemptions that will help the company.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/02/why-calumet-stock-topped-the-market-today/",
+  "tickers": [
+   "CLMT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c9b05e8f-61cf-37ce-8ece-b4ff1bf82aca",
+  "ts": "2026-09-02T19:55:45+00:00",
+  "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+  "summary": "Energy stocks rose late Wednesday afternoon, with the NYSE Energy Sector Index climbing up 0.5% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195545186.html",
+  "tickers": [
+   "CLMT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9e23a460-364c-383f-b2a6-28bd4f6c2c5f",
   "ts": "2026-09-02T12:12:00+00:00",
   "title": "Calumet Provides Update After Latest U.S. EPA Small Refinery Exemption Decision",

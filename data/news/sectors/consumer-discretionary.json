@@ -1,5 +1,19 @@
 [
  {
+  "id": "8d65dddc-9f2e-3445-b57e-67feecb1b75c",
+  "ts": "2026-09-03T09:58:00+00:00",
+  "title": "Stock Market News for Sep 3, 2026",
+  "summary": "U.S. stocks markets closed higher on Wednesday recouping some of the losses of the past three trading sessions.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "b14c84d2-4332-3335-a6a0-7af29fd1b39c",
   "ts": "2026-09-02T13:08:27+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",

@@ -12,6 +12,18 @@
   "source": "yfinance"
  },
  {
+  "id": "3416f7ab-caf2-3b87-bb79-84deef2cc2b8",
+  "ts": "2026-09-01T23:27:16+00:00",
+  "title": "Inside Anthropic\u2019s $35B deal with Lambda at Hut 8\u2019s Beacon Point",
+  "summary": "Anthropic has signed a $35 billion cloud computing agreement with Nvidia-backed Lambda, the Wall Street Journal reported, structured around Hut 8's Beacon Point data center in Texas. Hut 8 owns\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/short/inside-anthropics-35b-deal-with-lambda-at-hut-8s-beacon-point/",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0589e79c-038e-3bb4-9dc6-054c113a38a7",
   "ts": "2026-09-01T20:31:01+00:00",
   "title": "Anthropic's $35 Billion Cloud Deal Comes With an Nvidia Twist",
@@ -90,6 +102,18 @@
   "summary": "All three major US stock indexes were down in late-morning trading Tuesday, as bond yields in the US",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-anthropic-reportedly-155033765.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c5582cd7-6020-3e67-b9b5-1264f4580fee",
+  "ts": "2026-09-01T14:41:13+00:00",
+  "title": "Anthropic signs $35 billion Lambda cloud deal: WSJ",
+  "summary": "The agreement connects Anthropic\u2019s compute demand with Lambda\u2019s GPU financing and Hut 8\u2019s 1 GW Beacon Point campus in Texas.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/anthropic-lambda-35-billion-cloud-deal/",
   "tickers": [
    "HUT"
   ],

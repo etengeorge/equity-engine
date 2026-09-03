@@ -1,5 +1,29 @@
 [
  {
+  "id": "e9c6c0c7-6eb6-31b8-a4a0-4d70472f8112",
+  "ts": "2026-09-03T08:31:18+00:00",
+  "title": "1 Healthcare Stock with Promising Prospects and 2 Facing Headwinds",
+  "summary": "Healthcare companies are pushing the status quo by innovating in areas like drug development and digital health. Shareholders who bet on the industry have been rewarded lately as healthcare stocks have returned 25.1% over the past six months, topping the S&P 500 by 13.1 percentage points.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/healthcare/articles/1-healthcare-stock-promising-prospects-083118730.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "42755ed5-d394-3bf5-8978-f2de8bfe92aa",
+  "ts": "2026-09-02T21:00:00+00:00",
+  "title": "Novavax to Participate in September Investor Conferences",
+  "summary": "Novavax, Inc. (Nasdaq: NVAX) today announced that company management will participate in the following upcoming investor conferences:",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/novavax-participate-september-investor-conferences-210000338.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "c604b597-c995-35d0-9dad-7a592d7852d0",
   "ts": "2026-09-01T17:12:13+00:00",
   "title": "Novavax Jumps 6% on Matrix-M Oncology Speculation: Is the Royalty Model the Real Story?",

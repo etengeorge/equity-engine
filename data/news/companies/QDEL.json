@@ -1,5 +1,17 @@
 [
  {
+  "id": "feaf8d52-5f9f-3e1f-afb9-9f3125837598",
+  "ts": "2026-09-02T20:12:23+00:00",
+  "title": "3 Stocks Under $50 We Think Twice About",
+  "summary": "Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models, leaving them vulnerable to the ebbs and flows of the broader market.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-think-201223824.html",
+  "tickers": [
+   "QDEL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "95c2ec98-1f33-3c78-b199-babe195e392b",
   "ts": "2026-08-27T13:12:00+00:00",
   "title": "Faster Answers, Better Decisions: ADLM 2026 Highlights",

@@ -1,5 +1,29 @@
 [
  {
+  "id": "5fa29706-2199-338e-9413-0c061055f22d",
+  "ts": "2026-09-03T09:35:18+00:00",
+  "title": "1 Unpopular Stock That Deserves Some Love and 2 Facing Headwinds",
+  "summary": "Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating business lines like M&A advisory.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-deserves-love-093518541.html",
+  "tickers": [
+   "IBTA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1a2f056d-4e22-3fbd-887f-e7791f41e4eb",
+  "ts": "2026-09-03T00:28:23+00:00",
+  "title": "3 Services Stocks We Keep Off Our Radar",
+  "summary": "Business services providers use their specialized expertise to help enterprises streamline operations and cut costs. Furthermore, the demand for their offerings is rising as more clients outsource non-core functions, a trend that has enabled the industry to return 20.3% over the past six months. At the same time, the S&P 500 was up 12.3%.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-services-stocks-keep-off-002823635.html",
+  "tickers": [
+   "IBTA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "019c7002-7ea2-32b1-b20e-1abaed0987ba",
   "ts": "2026-08-26T23:30:00+00:00",
   "title": "Ibotta to Participate in Upcoming Investor Conferences",

@@ -1,5 +1,61 @@
 [
  {
+  "id": "c9b05e8f-61cf-37ce-8ece-b4ff1bf82aca",
+  "ts": "2026-09-02T19:55:45+00:00",
+  "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+  "summary": "Energy stocks rose late Wednesday afternoon, with the NYSE Energy Sector Index climbing up 0.5% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195545186.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "9d960bd6-b386-3ffd-8fea-ef8514986ae6",
+  "ts": "2026-09-02T19:24:35+00:00",
+  "title": "Norwegian Cruise Line Just Dropped 16% in a Month: Sell Now, or Buy More?",
+  "summary": "Norwegian Cruise Line shares shed a significant chunk of their value in a single month, but the culprit behind the selloff has nothing to do with the company itself, and that distinction changes the calculus entirely for investors deciding what to do next.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/02/norwegian-cruise-line-just-dropped-16-in-a-month-sell-now-or-buy-more/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "77348133-7edc-39d3-993a-acc86f180032",
+  "ts": "2026-09-02T17:47:23+00:00",
+  "title": "Sector Update: Energy Stocks Higher in Afternoon Trading",
+  "summary": "Energy stocks were slightly higher Wednesday afternoon, with the NYSE Energy Sector Index increasing",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-174723978.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "583c10de-fbeb-3af0-893b-ea3d80fc94c2",
+  "ts": "2026-09-02T17:10:33+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "fb5b00ff-e773-371a-b42f-5ad87d597593",
   "ts": "2026-09-02T13:24:35+00:00",
   "title": "Sector Update: Energy Stocks Decline Premarket Wednesday",

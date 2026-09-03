@@ -1,5 +1,29 @@
 [
  {
+  "id": "fdd3fc7d-061b-3474-b629-cad69c4a2e70",
+  "ts": "2026-09-03T07:06:29+00:00",
+  "title": "StoneX Group (SNEX) Brings Milk Price Hedging To New Zealand Dairy Farmers",
+  "summary": "StoneX Group (NasdaqGS:SNEX) has received regulatory approval in New Zealand to offer milk price risk management tools to retail dairy farmers and sharemilkers. The new permissions open access to hedging products that can help farmers manage exposure to milk price volatility. StoneX is extending its agricultural risk management reach into a key global dairy market that has been underserved at the retail farm level. This move by StoneX into tools that aim to smooth farm income highlights a...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/commodities/articles/stonex-group-snex-brings-milk-070629344.html",
+  "tickers": [
+   "SNEX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8bf85992-9131-3e0b-8a1c-a1437e2d4eba",
+  "ts": "2026-09-02T16:19:00+00:00",
+  "title": "IonQ\u2019s Investor Day Is Approaching. What to Expect From the \u2018Nvidia of Quantum.\u2019",
+  "summary": "IonQ is set to host its investor day on Sept. 8, and its acquisition of SkyWater Technology will likely take center stage.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/ionq-quantum-computing-investor-day-fb24d791?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "SNEX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "981b015e-1ab1-3f09-b4ca-0791c82778f5",
   "ts": "2026-09-01T21:00:00+00:00",
   "title": "StoneX to Offer Milk Price Risk Management Solutions to Retail Dairy Farmers in New Zealand",
