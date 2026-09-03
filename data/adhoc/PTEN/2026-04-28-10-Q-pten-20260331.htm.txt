@@ -1,0 +1,2021 @@
+0000889900 --12-31 false 2026 Q1 P2D 12 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure pten:segment pten:extension 0000889900 2026-01-01 2026-03-31 0000889900 2026-04-22 0000889900 2026-03-31 0000889900 2025-12-31 0000889900 pten:DrillingServicesMember 2026-01-01 2026-03-31 0000889900 pten:DrillingServicesMember 2025-01-01 2025-03-31 0000889900 pten:CompletionServicesMember 2026-01-01 2026-03-31 0000889900 pten:CompletionServicesMember 2025-01-01 2025-03-31 0000889900 pten:DrillingProductsMember 2026-01-01 2026-03-31 0000889900 pten:DrillingProductsMember 2025-01-01 2025-03-31 0000889900 pten:OtherMember 2026-01-01 2026-03-31 0000889900 pten:OtherMember 2025-01-01 2025-03-31 0000889900 2025-01-01 2025-03-31 0000889900 us-gaap:CommonStockMember 2025-12-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0000889900 us-gaap:RetainedEarningsMember 2025-12-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-12-31 0000889900 us-gaap:TreasuryStockCommonMember 2025-12-31 0000889900 us-gaap:NoncontrollingInterestMember 2025-12-31 0000889900 us-gaap:RetainedEarningsMember 2026-01-01 2026-03-31 0000889900 us-gaap:NoncontrollingInterestMember 2026-01-01 2026-03-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-01 2026-03-31 0000889900 us-gaap:CommonStockMember 2026-01-01 2026-03-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-03-31 0000889900 us-gaap:TreasuryStockCommonMember 2026-01-01 2026-03-31 0000889900 us-gaap:CommonStockMember 2026-03-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2026-03-31 0000889900 us-gaap:RetainedEarningsMember 2026-03-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-03-31 0000889900 us-gaap:TreasuryStockCommonMember 2026-03-31 0000889900 us-gaap:NoncontrollingInterestMember 2026-03-31 0000889900 us-gaap:CommonStockMember 2024-12-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0000889900 us-gaap:RetainedEarningsMember 2024-12-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-31 0000889900 us-gaap:TreasuryStockCommonMember 2024-12-31 0000889900 us-gaap:NoncontrollingInterestMember 2024-12-31 0000889900 2024-12-31 0000889900 us-gaap:RetainedEarningsMember 2025-01-01 2025-03-31 0000889900 us-gaap:NoncontrollingInterestMember 2025-01-01 2025-03-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-01-01 2025-03-31 0000889900 us-gaap:CommonStockMember 2025-01-01 2025-03-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-03-31 0000889900 us-gaap:TreasuryStockCommonMember 2025-01-01 2025-03-31 0000889900 us-gaap:CommonStockMember 2025-03-31 0000889900 us-gaap:AdditionalPaidInCapitalMember 2025-03-31 0000889900 us-gaap:RetainedEarningsMember 2025-03-31 0000889900 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-31 0000889900 us-gaap:TreasuryStockCommonMember 2025-03-31 0000889900 us-gaap:NoncontrollingInterestMember 2025-03-31 0000889900 2025-03-31 0000889900 srt:MinimumMember 2026-03-31 0000889900 srt:MaximumMember 2026-03-31 0000889900 srt:MinimumMember 2026-01-01 2026-03-31 0000889900 srt:MaximumMember 2026-01-01 2026-03-31 0000889900 2027-04-01 2026-03-31 0000889900 2026-04-01 2026-03-31 0000889900 us-gaap:EquipmentMember 2026-03-31 0000889900 us-gaap:EquipmentMember 2025-12-31 0000889900 us-gaap:OilAndGasPropertiesMember 2026-03-31 0000889900 us-gaap:OilAndGasPropertiesMember 2025-12-31 0000889900 us-gaap:BuildingAndBuildingImprovementsMember 2026-03-31 0000889900 us-gaap:BuildingAndBuildingImprovementsMember 2025-12-31 0000889900 pten:RentalEquipmentMember 2026-03-31 0000889900 pten:RentalEquipmentMember 2025-12-31 0000889900 us-gaap:LandAndLandImprovementsMember 2026-03-31 0000889900 us-gaap:LandAndLandImprovementsMember 2025-12-31 0000889900 pten:CompletionServicesMember 2025-12-31 0000889900 pten:CompletionServicesMember 2026-03-31 0000889900 pten:DrillingProductsMember 2025-12-31 0000889900 pten:DrillingProductsMember 2026-03-31 0000889900 us-gaap:CustomerRelationshipsMember 2026-03-31 0000889900 us-gaap:CustomerRelationshipsMember 2025-12-31 0000889900 us-gaap:DevelopedTechnologyRightsMember 2026-03-31 0000889900 us-gaap:DevelopedTechnologyRightsMember 2025-12-31 0000889900 us-gaap:TradeNamesMember 2026-03-31 0000889900 us-gaap:TradeNamesMember 2025-12-31 0000889900 us-gaap:OtherIntangibleAssetsMember 2026-03-31 0000889900 us-gaap:OtherIntangibleAssetsMember 2025-12-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member 2026-03-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member 2025-12-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member 2026-03-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member 2025-12-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member 2026-03-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member 2025-12-31 0000889900 us-gaap:RevolvingCreditFacilityMember pten:CreditAgreementMember 2026-03-31 0000889900 pten:A2015ReimbursementAgreementMember 2026-03-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDueJanuaryTwoThousandTwentyEightMember 2018-01-19 0000889900 pten:FivePointOneFivePercentSeniorNotesDueNovemberTwoThousandTwentyNineMember 2019-11-15 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2023Member 2023-09-13 0000889900 us-gaap:LetterOfCreditMember 2026-03-31 0000889900 us-gaap:SuretyBondMember 2026-03-31 0000889900 us-gaap:SubsequentEventMember 2026-04-22 2026-04-22 0000889900 2024-02-29 0000889900 pten:LongTermIncentivePlanMember 2026-01-01 2026-03-31 0000889900 pten:TimeBasedRestrictedStockUnitsMember 2025-12-31 0000889900 pten:PerformanceBasedRestrictedStockUnitsMember 2025-12-31 0000889900 us-gaap:RestrictedStockUnitsRSUMember 2025-12-31 0000889900 pten:TimeBasedRestrictedStockUnitsMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceBasedRestrictedStockUnitsMember 2026-01-01 2026-03-31 0000889900 us-gaap:RestrictedStockUnitsRSUMember 2026-01-01 2026-03-31 0000889900 pten:TimeBasedRestrictedStockUnitsMember 2026-03-31 0000889900 pten:PerformanceBasedRestrictedStockUnitsMember 2026-03-31 0000889900 us-gaap:RestrictedStockUnitsRSUMember 2026-03-31 0000889900 pten:TimeBasedRestrictedStockUnitsCashSettledMember 2025-12-31 0000889900 pten:TimeBasedRestrictedStockUnitsCashSettledMember 2026-01-01 2026-03-31 0000889900 pten:TimeBasedRestrictedStockUnitsCashSettledMember 2026-03-31 0000889900 pten:RestrictedStockUnitsCashSettledMember 2026-03-31 0000889900 pten:RestrictedStockUnitsCashSettledMember 2026-01-01 2026-03-31 0000889900 us-gaap:PerformanceSharesMember 2026-01-01 2026-03-31 0000889900 us-gaap:PerformanceSharesMember srt:MinimumMember pten:A2025TSRPerformanceUnitsMember 2026-01-01 2026-03-31 0000889900 us-gaap:PerformanceSharesMember srt:MaximumMember pten:A2025TSRPerformanceUnitsMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceUnitsShareSettledMember 2025-12-31 0000889900 pten:PerformanceUnitsCashSettledMember 2025-12-31 0000889900 pten:PerformanceUnitsShareSettledMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceUnitsCashSettledMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceUnitsShareSettledMember 2026-03-31 0000889900 pten:PerformanceUnitsCashSettledMember 2026-03-31 0000889900 us-gaap:PerformanceSharesMember 2026-03-31 0000889900 us-gaap:RestrictedStockUnitsRSUMember 2025-01-01 2025-03-31 0000889900 pten:PerformanceUnitsTSRMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceUnitsTSRMember 2025-01-01 2025-03-31 0000889900 pten:PerformanceUnitsFCFMember 2026-01-01 2026-03-31 0000889900 pten:PerformanceUnitsFCFMember 2025-01-01 2025-03-31 0000889900 pten:ShareSettledAwardsMember 2026-01-01 2026-03-31 0000889900 pten:ShareSettledAwardsMember 2025-01-01 2025-03-31 0000889900 pten:RestrictedStockUnitsCashSettledMember 2025-01-01 2025-03-31 0000889900 pten:PerformanceUnitsCashSettledMember 2025-01-01 2025-03-31 0000889900 pten:TotalCashSettledAwardsMember 2026-01-01 2026-03-31 0000889900 pten:TotalCashSettledAwardsMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingServicesMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionsServicesMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMemberMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember 2026-01-01 2026-03-31 0000889900 us-gaap:MaterialReconcilingItemsMember 2026-01-01 2026-03-31 0000889900 us-gaap:CorporateNonSegmentMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingServicesMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionsServicesMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMemberMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember 2025-01-01 2025-03-31 0000889900 us-gaap:MaterialReconcilingItemsMember 2025-01-01 2025-03-31 0000889900 us-gaap:CorporateNonSegmentMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionServicesMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionServicesMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMember 2026-01-01 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMember 2025-01-01 2025-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingServicesMember 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingServicesMember 2025-12-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionServicesMember 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:CompletionServicesMember 2025-12-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMember 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember pten:DrillingProductsMember 2025-12-31 0000889900 us-gaap:OperatingSegmentsMember 2026-03-31 0000889900 us-gaap:OperatingSegmentsMember 2025-12-31 0000889900 us-gaap:MaterialReconcilingItemsMember 2026-03-31 0000889900 us-gaap:MaterialReconcilingItemsMember 2025-12-31 0000889900 us-gaap:CorporateNonSegmentMember 2026-03-31 0000889900 us-gaap:CorporateNonSegmentMember 2025-12-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2026-03-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2026-03-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2025-12-31 0000889900 pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2025-12-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2026-03-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2026-03-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2025-12-31 0000889900 pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2025-12-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2026-03-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2026-03-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:CarryingReportedAmountFairValueDisclosureMember 2025-12-31 0000889900 pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:EstimateOfFairValueFairValueDisclosureMember 2025-12-31 0000889900 us-gaap:CarryingReportedAmountFairValueDisclosureMember 2026-03-31 0000889900 us-gaap:EstimateOfFairValueFairValueDisclosureMember 2026-03-31 0000889900 us-gaap:CarryingReportedAmountFairValueDisclosureMember 2025-12-31 0000889900 us-gaap:EstimateOfFairValueFairValueDisclosureMember 2025-12-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2026-03-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:ThreePointNineFivePercentSeniorNotesDue2028Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2025-12-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2026-03-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:FivePointOneFivePercentSeniorNotesDue2029Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2025-12-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2026-03-31 0000889900 us-gaap:FairValueInputsLevel2Member pten:SevenPointOneFivePercentSeniorNotesDueSeptember2033Member us-gaap:MarketApproachValuationTechniqueMember pten:MeasurementInputImpliedMarketRateMember 2025-12-31 0000889900 pten:CreditAgreementAmendmentMember us-gaap:SubsequentEventMember 2026-04-24 2026-04-24 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ ______________________ 
+
+ Form 10-Q 
+
+ ______________________ 
+
+ þ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended March 31, 2026 
+
+ or 
+
+ o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the transition period from to 
+
+ Commission file number 1-39270 
+
+ ______________________ 
+
+ Patterson-UTI Energy, Inc. 
+
+ (Exact name of registrant as specified in its charter) 
+
+ ______________________ 
+
+ Delaware 
+ 75-2504748 
+
+ (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) 
+
+ 10713 W. Sam Houston Pkwy N , Suite 800 
+
+ Houston , Texas 
+ 
+ 77064 
+
+ (Address of principal executive offices) (Zip Code) 
+
+ ( 281 ) 765-7100 
+
+ (Registrant’s telephone number, including area code) 
+
+ N/A 
+
+ (Former name, former address and former fiscal year, if changed since last report) 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class Trading Symbol Name of each exchange on which registered 
+
+ Common Stock, $0.01 Par Value PTEN The Nasdaq Global Select Market 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes þ No o 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (section 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes þ No o 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act: 
+
+ Large accelerated filer 
+ þ Accelerated filer o Smaller reporting company o 
+
+ Non-accelerated filer o Emerging growth company o 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. o 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes o No þ 
+
+ Indicate the number of shares outstanding of each of the issuer’s classes of common stock, as of the latest practicable date. 
+
+ 379,617,653 shares of common stock, $0.01 par value, as of April 22, 2026. 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ TABLE OF CONTENTS 
+
+ PART I — FINANCIAL INFORMATION 
+
+ Page 
+
+ ITEM 1. 
+ 
+ Financial Statements 
+
+ Unaudited condensed consolidated balance sheets 
+ 
+ 3 
+
+ Unaudited condensed consolidated statements of operations 
+ 
+ 4 
+
+ Unaudited condensed consolidated statements of comprehensive income (loss) 
+ 
+ 5 
+
+ Unaudited condensed consolidated statements of changes in stockholders’ equity 
+ 
+ 6 
+
+ Unaudited condensed consolidated statements of cash flows 
+ 
+ 7 
+
+ Notes to unaudited condensed consolidated financial statements 
+ 
+ 8 
+
+ ITEM 2. 
+ 
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+ 
+ 23 
+
+ ITEM 3. 
+ 
+ Quantitative and Qualitative Disclosures About Market Risk 
+ 
+ 35 
+
+ ITEM 4. 
+ 
+ Controls and Procedures 
+ 
+ 35 
+
+ PART II — OTHER INFORMATION 
+
+ ITEM 1. 
+ 
+ Legal Proceedings 
+ 
+ 36 
+
+ ITEM 2. 
+ 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 
+ 36 
+
+ ITEM 5. 
+ 
+ Other Information 
+ 
+ 37 
+
+ ITEM 6. 
+ 
+ Exhibits 
+ 
+ 37 
+
+ Signature 
+
+ PART I — FINANCIAL INFORMATION 
+
+ ITEM 1. Financial Statements 
+
+ The following unaudited condensed consolidated financial statements include all adjustments which are, in the opinion of management, necessary for a fair statement of the results for the interim periods presented. 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+
+ (unaudited, in thousands, except share data) 
+
+ March 31, 2026 December 31, 2025 
+
+ ASSETS 
+
+ Current assets: 
+
+ Cash, cash equivalents and restricted cash $ 337,244 $ 420,642 
+
+ Accounts receivable, net of allowance for credit losses of $ 14,555 and $ 14,469 at 
+
+ March 31, 2026 and December 31, 2025, respectively 
+ 742,379 723,277 
+
+ Inventory 150,592 160,280 
+
+ Other current assets 92,057 113,892 
+
+ Total current assets 1,322,272 1,418,091 
+
+ Property and equipment, net 2,627,928 2,711,037 
+
+ Operating lease right of use asset 37,978 42,982 
+
+ Finance lease right of use asset 7,822 14,932 
+
+ Goodwill 487,388 487,388 
+
+ Intangible assets, net 784,217 814,810 
+
+ Deposits on equipment purchases 14,207 11,757 
+
+ Other assets 78,707 69,469 
+
+ Total assets $ 5,360,519 $ 5,570,466 
+
+ LIABILITIES AND STOCKHOLDERS’ EQUITY 
+
+ Current liabilities: 
+
+ Accounts payable $ 442,423 $ 470,782 
+
+ Accrued liabilities 256,326 366,488 
+
+ Operating lease liability 15,846 18,652 
+
+ Finance lease liability 5,656 7,720 
+
+ Total current liabilities 720,251 863,642 
+
+ Long-term operating lease liability 25,084 27,607 
+
+ Long-term finance lease liability 928 5,453 
+
+ Long-term debt, net of debt discount and issuance costs of $ 6,037 and $ 6,362 at 
+
+ March 31, 2026 and December 31, 2025, respectively 
+ 1,221,363 1,221,038 
+
+ Deferred tax liabilities, net 212,032 215,818 
+
+ Other liabilities 15,158 12,193 
+
+ Total liabilities 2,194,816 2,345,751 
+
+ Commitments and contingencies (see Note 9) 
+
+ Stockholders’ equity: 
+
+ Common stock, par value $ 0.01 ; authorized 800,000,000 shares with 524,089,062 and 
+
+ 523,736,898 issued and 379,602,464 and 379,301,646 outstanding at March 31, 2026 
+
+ and December 31, 2025, respectively 
+ 5,240 5,236 
+
+ Additional paid-in capital 6,497,270 6,492,862 
+
+ Retained earnings (deficit) ( 1,320,377 ) ( 1,257,691 ) 
+
+ Accumulated other comprehensive income (loss) ( 1,694 ) ( 1,155 ) 
+
+ Treasury stock, at cost, 144,486,598 and 144,435,252 shares at March 31, 2026 and 
+
+ December 31, 2025, respectively 
+ ( 2,021,064 ) ( 2,020,714 ) 
+
+ Total stockholders’ equity attributable to controlling interests 3,159,375 3,218,538 
+
+ Noncontrolling interest 6,328 6,177 
+
+ Total equity 3,165,703 3,224,715 
+
+ Total liabilities and stockholders’ equity $ 5,360,519 $ 5,570,466 
+
+ The accompanying notes are an integral part of these unaudited condensed consolidated financial statements. 
+
+ 3 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS 
+
+ (unaudited, in thousands, except per share data) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Operating revenues: 
+
+ Drilling Services $ 351,717 $ 412,860 
+
+ Completion Services 679,587 766,080 
+
+ Drilling Products 79,797 85,663 
+
+ Other 6,230 15,934 
+
+ Total operating revenues 1,117,331 1,280,537 
+
+ Operating costs and expenses: 
+
+ Drilling Services 217,861 247,629 
+
+ Completion Services 581,486 657,681 
+
+ Drilling Products 46,924 46,940 
+
+ Other 2,884 9,164 
+
+ Depreciation, depletion, amortization and impairment 218,394 231,866 
+
+ General and administrative 68,763 66,930 
+
+ Other operating expense (income), net ( 4,664 ) 3,382 
+
+ Total operating costs and expenses 1,131,648 1,263,592 
+
+ Operating income (loss) ( 14,317 ) 16,945 
+
+ Other income (expense): 
+
+ Interest income 2,765 1,464 
+
+ Interest expense, net of amount capitalized ( 17,485 ) ( 17,697 ) 
+
+ Other income (expense) 965 1,968 
+
+ Total other income (expense) ( 13,755 ) ( 14,265 ) 
+
+ Income (loss) before income taxes ( 28,072 ) 2,680 
+
+ Income tax expense (benefit) ( 3,596 ) 1,390 
+
+ Net income (loss) ( 24,476 ) 1,290 
+
+ Net income (loss) attributable to noncontrolling interest 151 285 
+
+ Net income (loss) attributable to common stockholders $ ( 24,627 ) $ 1,005 
+
+ Net income (loss) attributable to common stockholder per common share: 
+
+ Basic $ ( 0.06 ) $ 0.00 
+
+ Diluted $ ( 0.06 ) $ 0.00 
+
+ Weighted average number of common shares outstanding: 
+
+ Basic 379,587 386,521 
+
+ Diluted 379,587 387,044 
+
+ Cash dividends per common share $ 0.10 $ 0.08 
+
+ The accompanying notes are an integral part of these unaudited condensed consolidated financial statements. 
+
+ 4 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS) 
+
+ (unaudited, in thousands) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Net income (loss) $ ( 24,476 ) $ 1,290 
+
+ Other comprehensive income (loss): 
+
+ Foreign currency translation adjustment, net of taxes of $ 0 for all periods 
+ ( 539 ) ( 289 ) 
+
+ Comprehensive income (loss) ( 25,015 ) 1,001 
+
+ Less: comprehensive income (loss) attributable to noncontrolling interest 151 285 
+
+ Comprehensive income (loss) attributable to common stockholders $ ( 25,166 ) $ 716 
+
+ The accompanying notes are an integral part of these unaudited condensed consolidated financial statements. 
+
+ 5 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS’ EQUITY 
+
+ (unaudited, in thousands) 
+
+ Common Stock Additional
+Paid-in
+Capital Retained 
+ Earnings (Deficit) Accumulated Other 
+Comprehensive 
+Income (Loss) Treasury 
+Stock Noncontrolling 
+Interest Total 
+
+ Number of
+Shares Amount 
+
+ Balance, December 31, 2025 523,737 $ 5,236 $ 6,492,862 $ ( 1,257,691 ) $ ( 1,155 ) $ ( 2,020,714 ) $ 6,177 $ 3,224,715 
+
+ Net income (loss) — — — ( 24,627 ) — — 151 ( 24,476 ) 
+
+ Foreign currency translation adjustment — — — — ( 539 ) — — ( 539 ) 
+
+ Vesting of restricted stock units 352 4 ( 4 ) — — — — — 
+
+ Stock-based compensation — — 4,412 — — — — 4,412 
+
+ Payment of cash dividends ( 0.10 per share) 
+ — — — ( 37,960 ) — — — ( 37,960 ) 
+
+ Dividend equivalents — — — ( 99 ) — — — ( 99 ) 
+
+ Purchase of treasury stock — — — — — ( 350 ) — ( 350 ) 
+
+ Balance, March 31, 2026 524,089 $ 5,240 $ 6,497,270 $ ( 1,320,377 ) $ ( 1,694 ) $ ( 2,021,064 ) $ 6,328 $ 3,165,703 
+
+ Common Stock Additional 
+Paid-in 
+Capital Retained 
+ Earnings (Deficit) Accumulated Other 
+Comprehensive Income (Loss) Treasury 
+Stock Noncontrolling 
+Interest Total 
+
+ Number of
+Shares Amount 
+
+ Balance, December 31, 2024 520,785 $ 5,206 $ 6,453,606 $ ( 1,039,338 ) $ ( 2,584 ) $ ( 1,951,067 ) $ 10,021 $ 3,475,844 
+
+ Net income (loss) — — — 1,005 — — 285 1,290 
+
+ Distributions to noncontrolling interest — — — — — — ( 1,892 ) ( 1,892 ) 
+
+ Foreign currency translation adjustment — — — — ( 289 ) — — ( 289 ) 
+
+ Vesting of restricted stock units 970 10 ( 10 ) — — — — — 
+
+ Stock-based compensation — — 12,289 — — — — 12,289 
+
+ Payment of cash dividends ( 0.08 per share) 
+ — — — ( 30,877 ) — — — ( 30,877 ) 
+
+ Dividend equivalents — — — ( 665 ) — — — ( 665 ) 
+
+ Purchase of treasury stock — — — — — ( 20,295 ) — ( 20,295 ) 
+
+ Balance, March 31, 2025 521,755 $ 5,216 $ 6,465,885 $ ( 1,069,875 ) $ ( 2,873 ) $ ( 1,971,362 ) $ 8,414 $ 3,435,405 
+
+ The accompanying notes are an integral part of these unaudited condensed consolidated financial statements. 
+
+ 6 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS 
+
+ (unaudited, in thousands) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Cash flows from operating activities: 
+
+ Net income (loss) $ ( 24,476 ) $ 1,290 
+
+ Adjustments to reconcile net income (loss) to net cash provided by operating activities: 
+
+ Depreciation, depletion, amortization and impairment 218,394 231,866 
+
+ Deferred income tax expense (benefit) ( 3,792 ) 359 
+
+ Stock-based compensation 4,412 12,289 
+
+ Net (gain) loss on asset disposals 1,861 ( 709 ) 
+
+ Other ( 1,600 ) ( 166 ) 
+
+ Changes in operating assets and liabilities: 
+
+ Accounts receivable ( 17,796 ) ( 36,544 ) 
+
+ Inventory ( 5,658 ) 2,046 
+
+ Other current assets 21,824 12,516 
+
+ Other assets 4,897 2,948 
+
+ Accounts payable ( 18,630 ) 98,038 
+
+ Accrued liabilities ( 110,254 ) ( 113,103 ) 
+
+ Other liabilities ( 5,324 ) ( 2,689 ) 
+
+ Net cash provided by operating activities 63,858 208,141 
+
+ Cash flows from investing activities: 
+
+ Purchases of property and equipment ( 116,628 ) ( 161,831 ) 
+
+ Proceeds from disposal of assets, including insurance recoveries 12,220 4,380 
+
+ Other ( 1,618 ) ( 7,053 ) 
+
+ Net cash used in investing activities ( 106,026 ) ( 164,504 ) 
+
+ Cash flows from financing activities: 
+
+ Purchases of treasury stock ( 350 ) ( 20,295 ) 
+
+ Dividends paid ( 37,960 ) ( 30,877 ) 
+
+ Payments of finance leases ( 1,959 ) ( 2,632 ) 
+
+ Other — ( 5,069 ) 
+
+ Net cash used in financing activities ( 40,269 ) ( 58,873 ) 
+
+ Effect of foreign exchange rate changes on cash, cash equivalents and restricted cash ( 961 ) ( 853 ) 
+
+ Net change in cash, cash equivalents and restricted cash ( 83,398 ) ( 16,089 ) 
+
+ Cash, cash equivalents and restricted cash at beginning of period 420,642 241,293 
+
+ Cash, cash equivalents and restricted cash at end of period $ 337,244 $ 225,204 
+
+ Supplemental disclosure of cash flow information: 
+
+ Net cash received (paid) during the period for: 
+
+ Interest, net of capitalized interest of $ 61 in 2026 and $ 315 in 2025 
+ $ ( 9,984 ) $ ( 23,998 ) 
+
+ Income taxes 15,401 1,437 
+
+ Non-cash investing and financing activities: 
+
+ Net decrease in payables for purchases of property and equipment $ ( 9,784 ) $ ( 5,420 ) 
+
+ Purchases of property and equipment through exchange of lease right of use asset 2,878 334 
+
+ Derecognition of right of use asset ( 6,367 ) ( 334 ) 
+
+ The accompanying notes are an integral part of these unaudited condensed consolidated financial statements. 
+
+ 7 
+
+ PATTERSON-UTI ENERGY, INC. AND SUBSIDIARIES 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ 1. Basis of Presentation 
+ 
+ Basis of presentation — The unaudited interim condensed consolidated financial statements include the accounts of Patterson-UTI Energy, Inc. and its wholly-owned subsidiaries and the consolidating interest in a joint venture (collectively referred to herein as “we,” “us,” “our,” “ours” and like terms). All intercompany accounts and transactions have been eliminated. Patterson-UTI Energy, Inc. conducts its business operations through its wholly-owned subsidiaries and has no employees or independent operations. Certain immaterial prior year amounts have been reclassified to conform to current year presentation. 
+
+ The U.S. dollar is the reporting currency and functional currency for most of our operations except certain of our foreign subsidiaries, which use their local currencies as their functional currency. Assets and liabilities of these foreign subsidiaries are translated into U.S. dollars using the exchange rates in effect as of the balance sheet date. The effects of these translation adjustments are reflected in accumulated other comprehensive income, which is a separate component of stockholders’ equity. 
+ 
+ The unaudited interim condensed consolidated financial statements have been prepared by us pursuant to the rules and regulations of the United States Securities and Exchange Commission (“SEC”). Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) have been omitted pursuant to such rules and regulations, although we believe the disclosures included either on the face of the financial statements or herein are sufficient to make the information presented not misleading. In the opinion of management, all recurring adjustments considered necessary for a fair statement of the information in conformity with GAAP have been included. The unaudited condensed consolidated balance sheet as of December 31, 2025, as presented herein, was derived from our audited consolidated balance sheet but does not include all disclosures required by GAAP. These unaudited condensed consolidated financial statements should be read in conjunction with the consolidated financial statements and related notes included in our Annual Report on Form 10-K for the year ended December 31, 2025 (our “Annual Report”). The results of operations for the three months ended March 31, 2026 are not necessarily indicative of the results to be expected for the full year. 
+
+ There have been no material changes to our critical accounting policies from those disclosed in our Annual Report. 
+ 
+ Restricted cash — Restricted cash includes amounts restricted as cash collateral for the issuance of standby letters of credit. 
+ 
+ The following table provides a reconciliation of cash and restricted cash reported within the unaudited condensed consolidated balance sheets that sum to the total of such amounts shown in the unaudited condensed statements of cash flows for the three months ended March 31, 2026 and 2025 (in thousands): 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Cash and cash equivalents $ 335,104 $ 223,087 
+
+ Restricted cash 2,140 2,117 
+
+ Total cash, cash equivalents and restricted cash $ 337,244 $ 225,204 
+
+ Recently Adopted Accounting Standards — In December 2023, the FASB issued ASU 2023-09 to improve income tax disclosure. We adopted this accounting pronouncement effective January 1, 2025, on a prospective basis with the first disclosure enhancements reflected in our Annual Report on Form 10-K for the year ended December 31, 2025. The adoption did not have a material impact on our consolidated financial position, results of operations, or cash flows, but resulted in expanded disclosures within the Income Taxes footnote. 
+
+ In July 2025, the FASB issued ASU 2025-05 to provide entities the option to use a practical expedient to assume balance sheet conditions remain unchanged when developing forecasts for estimating expected credit losses. This guidance is effective for fiscal years beginning after December 15, 2025, with early adoption permitted. We adopted this new guidance on January 1, 2026, and there was no material impact on our consolidated financial statements. 
+
+ Recently Issued Accounting Standards — In November 2024, the FASB issued ASU 2024-03 to expand disclosure requirements related to certain income statement expenses, which requires public entities to disclose additional information about specific expense categories in the notes to the financial statements on an interim and annual basis. This guidance is effective for 
+
+ 8 
+
+ annual reporting periods beginning after December 15, 2026 and interim periods beginning after December 15, 2027, with early adoption permitted. We are currently evaluating the impact this pronouncement will have on our consolidated financial statements. 
+
+ In September 2025, the FASB issued ASU 2025-06 to improve the accounting for internal-use software cost by increasing the operability of the recognition guidance by removing all references to software development project stages so that the guidance is neutral to different software development methods. This guidance is effective for annual reporting periods beginning after December 15, 2027, with early adoption permitted. We are currently evaluating the impact this pronouncement will have on our consolidated financial statements. 
+
+ In December 2025, the FASB issued ASU 2025-11 to clarify the applicability of the interim reporting guidance, the types of interim reporting and the form and content of interim financial statements in accordance with GAAP. Per the FASB, the amendment does not intend to change the fundamental nature of interim reporting or expand or reduce current interim disclosure requirements but rather provide clarity and improve navigability of the existing interim reporting requirements. The update will be effective for interim reporting periods within annual reporting periods beginning after December 15, 2027. We are currently evaluating the impact this pronouncement will have on our consolidated financial statements. 
+
+ 2. Revenues 
+ 
+ ASC Topic 606 Revenue from Contracts with Customers 
+
+ Drilling Services and Completion Services — revenue is recognized based on our customers’ ability to benefit from our services in an amount that reflects the consideration we expect to receive in exchange for those services. This typically happens when the service is performed. The services we provide represent a series of distinct services, generally provided daily, that are substantially the same, with the same pattern of transfer to the customer. Because our customers benefit equally throughout the service period, generally measured in days, and our efforts in providing services are incurred relatively evenly over the period of performance, revenue is recognized as we provide services to the customer. 
+
+ Drilling Services revenue primarily consists of daywork drilling contracts for which related revenues and expenses are recognized as services are performed. For certain contracts, we receive payments for the mobilization of rigs and other drilling equipment. We defer revenue and related direct operating expense related to mobilizations and recognize those revenues and expenses on a straight-line basis as drilling services are provided. Costs incurred to relocate rigs and other drilling equipment to areas in which a contract has not been secured are expensed as incurred and are recorded in Drilling Services operating expense in the Consolidated Statements of Operations and Comprehensive Income (Loss). For certain contracts, we are also entitled to early termination payments if our customers choose to terminate a contract prior to the expiration of the contractual term. We recognize revenue associated with early termination payments when all contractual requirements related to early termination payments have been met. 
+
+ Certain of our drilling contracts are performance-based. Performance-based contracts are contracts pursuant to which we are compensated partly based upon our performance against a mutually agreed upon set of predetermined targets. These types of contracts typically have a lower base dayrate but give us the opportunity to receive additional compensation by meeting or exceeding certain performance targets agreed to by our customers. 
+
+ Completion Services revenue consists of services and products related to our suite of completion businesses, including hydraulic fracturing, completion support services, wireline and pumpdown services and cementing. These services are provided pursuant to contractual arrangements, including pricing agreements. Revenue from these services is earned as services are rendered, which is generally on a per stage or fixed monthly rate, except for our cementing services. All revenue is recognized when a contract with a customer exists, the performance obligations under the contract have been satisfied over time, the amount to which we have the right to invoice has been determined and collectability of amounts subject to invoice is probable. Contract fulfillment costs, such as mobilization costs and shipping and handling costs, are expensed as incurred and are recorded in Completion Services operating expense in the Consolidated Statements of Operations and Comprehensive Income (Loss). To the extent fulfillment costs are considered separate performance obligations that are billable to the customer, the amounts billed are recorded as revenue in the Consolidated Statements of Operations and Comprehensive Income (Loss). 
+ 
+ ASC Topic 842 Revenue from Equipment Rentals and Other 
+
+ Drilling Products Revenue — revenues are primarily generated from the rental of drilling equipment, comprised of drill bits and downhole tools. These arrangements provide the customer with the right to control the use of the identified asset. Generally, the lease terms in such arrangements are for periods of two to three days and do not provide customers with options to purchase the underlying asset. 
+
+ 9 
+
+ Other — we are a non-operating working interest owner of oil and natural gas assets primarily located in Texas and New Mexico. The ownership terms are outlined in joint operating agreements for each well between the operator of the well and the various interest owners, including us, who are considered non-operators of the well. We receive revenue each period for our working interest in the well during the period. 
+
+ Our revenue is disaggregated by service category, which aligns with our reportable segments. See Note 14 for details. Management believes this disaggregation depicts the nature, amount, timing and uncertainty of revenue and cash flows, as each service category is subject to different demand drivers and contract characteristics. 
+ 
+ Accounts Receivable and Contract Liabilities 
+
+ Accounts receivable is our right to consideration once it becomes unconditional. Payment terms typically range from 30 to 60 days. 
+
+ The timing of revenue recognition may differ from the timing of invoicing to customers, and these timing differences result in receivables, contract assets, or contract liabilities (deferred revenue) on our consolidated balance sheet. We do not have any significant contract asset balances. Contract liabilities include prepayments received from customers prior to the requested services being completed. Once the services are complete and have been invoiced, the prepayment is applied against the customer’s account to offset the accounts receivable balance. Also included in contract liabilities are payments received from customers for reactivation or initial mobilization of rigs that were moved on location to the initial well site. These payments are allocated to the overall performance obligation and amortized over the initial term of the contract. 
+ 
+ Contract liabilities consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ Balance at December 31, 2025 
+ $ 79,506 
+
+ Payment received/accrued and deferred 8,887 
+
+ Revenue recognized during the period ( 67,938 ) 
+
+ Balance at March 31, 2026 (1) 
+ $ 20,455 
+
+ (1) $ 20.3 million of our contract liability balance is current and is included in “Accrued liabilities,” and $ 0.2 million of our contract liability balance is noncurrent and is included in “Other liabilities” on our consolidated balance sheet. 
+
+ During the three months ended March 31, 2026, we recognized $ 62.1 million of revenue that was included in the contract liability balance at the beginning of the period. The substantial majority of our revenue related to our contract liabilities balance is expected to be recognized within one year. 
+
+ Contract Costs 
+
+ Costs incurred for rig upgrades based on a contract with a customer are considered capital improvements and are capitalized to drilling equipment and depreciated over the estimated useful life of the asset. 
+
+ Remaining Performance Obligations 
+
+ We maintain a backlog of commitments for contract drilling services under term contracts, which we define as contracts with a duration of six months or more. Our contract drilling backlog in the United States as of March 31, 2026 was approximately $ 260 million. Approximately 7 % of our total contract drilling backlog in the United States at March 31, 2026 is reasonably expected to remain at March 31, 2027. We generally calculate our backlog by multiplying the dayrate under our term drilling contracts by the number of days remaining under the contract. The calculation does not include any revenues related to fees for other services such as for mobilization, other than initial mobilization, demobilization and customer reimbursables, nor does it include potential reductions in rates for unscheduled standby or during periods in which the rig is moving or incurring maintenance and repair time in excess of what is permitted under the drilling contract. For contracts that contain variable dayrate pricing, our backlog calculation uses the dayrate in effect for periods where the dayrate is fixed, and, for periods that remain subject to variable pricing, uses commodity pricing or other related indices in effect at March 31, 2026. In addition, our term drilling contracts are generally subject to termination by the customer on short notice and provide for an early termination payment to us in the event that the contract is terminated by the customer. For contracts on which we have received notice for the rig to be placed on standby, our backlog calculation uses the standby rate for the period over which we expect to receive the standby rate. For contracts on which we have received an early termination notice, our backlog calculation includes the early termination rate, instead of the dayrate, for the period over which we expect to receive the lower rate. Please see “Our current backlog of contract drilling revenue may decline and may not 
+
+ 10 
+
+ ultimately be realized, as fixed-term contracts may in certain instances be terminated without an early termination payment” included in Item 1A of our Annual Report. 
+
+ 3. Inventory 
+ 
+ Inventory consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Raw materials and supplies $ 120,462 $ 129,440 
+
+ Work-in-process 6,028 4,573 
+
+ Finished goods 24,102 26,267 
+
+ Inventory $ 150,592 $ 160,280 
+
+ 4. Other Current Assets 
+ 
+ Other current assets consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Federal and state income taxes receivable $ 6,560 $ 22,194 
+
+ Workers’ compensation receivable 30,537 30,492 
+
+ Prepaid expenses 30,099 34,829 
+
+ Other 24,861 26,377 
+
+ Other current assets $ 92,057 $ 113,892 
+
+ 5. Property and Equipment 
+ 
+ Property and equipment consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Equipment $ 8,161,093 $ 8,224,950 
+
+ Oil and natural gas properties 249,703 248,088 
+
+ Buildings and improvements 229,004 235,621 
+
+ Rental equipment 144,339 155,385 
+
+ Land and improvements 36,262 39,591 
+
+ Total property and equipment 8,820,401 8,903,635 
+
+ Less accumulated depreciation, depletion, amortization and impairment ( 6,192,473 ) ( 6,192,598 ) 
+
+ Property and equipment, net $ 2,627,928 $ 2,711,037 
+
+ Depreciation, depletion, amortization and impairment — The following table summarizes depreciation, depletion, amortization and impairment expense related to property and equipment and intangible assets for the three months ended March 31, 2026 and 2025 (in thousands): 
+
+ Three Months Ended 
+
+ March 31, 2026 March 31, 2025 
+
+ Depreciation expense $ 185,291 $ 197,482 
+
+ Amortization expense 31,834 30,846 
+
+ Depletion expense 1,269 1,865 
+
+ Impairment expense — 1,673 
+
+ Total $ 218,394 $ 231,866 
+
+ We review our long-lived assets, including property and equipment and definite-lived intangible assets, for impairment whenever events or changes in circumstances indicate that the carrying amounts of certain assets may not be recovered over their 
+
+ 11 
+
+ estimated remaining useful lives (a “triggering event”). As of March 31, 2026, we concluded no triggering event that could indicate possible impairment of property and equipment had occurred. 
+
+ 6. Goodwill and Intangible Assets 
+ 
+ Goodwill — During the three months ended March 31, 2026, there were no additions or impairments to goodwill. As of March 31, 2026 and December 31, 2025, our goodwill balances by operating segment were as follows (in thousands): 
+
+ Completion
+Services Drilling
+Products Total 
+
+ Balance, March 31, 2026 and December 31, 2025 $ 36,885 $ 450,503 $ 487,388 
+
+ Goodwill is evaluated at least annually on July 31, or more frequently when events or circumstances occur indicating recorded goodwill may be impaired. As of March 31, 2026, we determined there were no events that would indicate the carrying value of goodwill may not be recoverable or that potential impairment exists. 
+
+ Intangible Assets — The following table presents the gross carrying amount and accumulated amortization of our intangible assets as of March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Gross
+Carrying
+Amount Accumulated
+Amortization Net
+Carrying
+Amount Gross
+Carrying
+Amount Accumulated
+Amortization Net
+Carrying
+Amount 
+
+ Customer relationships $ 782,888 $ ( 183,594 ) $ 599,294 $ 783,259 $ ( 166,135 ) $ 617,124 
+
+ Developed technology 202,771 ( 106,721 ) 96,050 202,771 ( 96,689 ) 106,082 
+
+ Trade name 101,000 ( 25,906 ) 75,094 101,000 ( 23,406 ) 77,594 
+
+ Other 23,721 ( 9,942 ) 13,779 22,729 ( 8,719 ) 14,010 
+
+ Intangible assets, net $ 1,110,380 $ ( 326,163 ) $ 784,217 $ 1,109,759 $ ( 294,949 ) $ 814,810 
+
+ Amortization expense on intangible assets of approximately $ 31.8 million and $ 30.8 million was recorded for the three months ended March 31, 2026 and 2025, respectively. 
+
+ 7. Accrued Liabilities 
+ 
+ Accrued liabilities consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Salaries, wages, payroll taxes and benefits $ 76,080 $ 107,650 
+
+ Insurance 73,256 73,621 
+
+ Property, sales, use and other taxes 38,797 45,369 
+
+ Accrued interest payable 9,994 17,471 
+
+ Deferred revenue 20,289 79,286 
+
+ Accrued legal expenses 13,375 15,000 
+
+ Other 24,535 28,091 
+
+ Accrued liabilities $ 256,326 $ 366,488 
+
+ 12 
+
+ 8. Long-Term Debt 
+ 
+ Long-term debt consisted of the following at March 31, 2026 and December 31, 2025 (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ 3.95 % Senior Notes Due 2028 
+ $ 482,505 $ 482,505 
+
+ 5.15 % Senior Notes Due 2029 
+ 344,895 344,895 
+
+ 7.15 % Senior Notes Due 2033 
+ 400,000 400,000 
+
+ 1,227,400 1,227,400 
+
+ Less deferred financing costs and discounts ( 6,037 ) ( 6,362 ) 
+
+ Total $ 1,221,363 $ 1,221,038 
+
+ Credit Agreement — On January 31, 2025, we entered into the Second Amended and Restated Credit Agreement with the lenders party thereto and Wells Fargo Bank, National Association, as administrative agent, and the other parties thereto (the “Credit Agreement”). The Credit Agreement amended and restated our Amended and Restated Credit Agreement dated as of March 27, 2018. As of March 31, 2026, the commitments under the Credit Agreement were $ 500 million, and the loans and commitments under the Credit Agreement would mature on January 31, 2030. See Note 16 for details on an amendment to the Credit Agreement in April 2026. The Credit Agreement contains representations, warranties, affirmative and negative covenants and events of default and associated remedies that we believe are customary for agreements of this nature. We were in compliance with the covenants at March 31, 2026. 
+
+ As of March 31, 2026, we had no borrowings outstanding under our Credit Agreement. We had $ 2.8 million in letters of credit outstanding under the Credit Agreement at March 31, 2026 and, as a result, had available borrowing capacity of approximately $ 497 million under the Credit Agreement at that date. 
+
+ 2015 Reimbursement Agreement — On March 16, 2015, we entered into a Reimbursement Agreement (as amended from time to time, the “2015 Reimbursement Agreement”) with The Bank of Nova Scotia (“Scotiabank”), pursuant to which we may from time to time request that Scotiabank issue an unspecified amount of letters of credit. As of March 31, 2026, we had $ 27.5 million in letters of credit outstanding under the 2015 Reimbursement Agreement. 
+
+ 2028 Senior Notes, 2029 Senior Notes and 2033 Senior Notes — On January 19, 2018, we completed an offering of $ 525 million in aggregate principal amount of 3.95 % senior notes due 2028 (the “2028 Notes”). On November 15, 2019, we completed an offering of $ 350 million in aggregate principal amount of 5.15 % senior notes due 2029 (the “2029 Notes”). On September 13, 2023, we completed an offering of $ 400 million in aggregate principal amount of 7.15 % senior notes due 2033 (the “2033 Notes”, together with the 2028 Notes and the 2029 Notes, the “Senior Notes”). 
+
+ The indentures pursuant to which the Senior Notes were issued include covenants that, among other things, limit our and our subsidiaries’ ability to incur certain liens, engage in sale and lease-back transactions or consolidate, merge, or transfer all or substantially all of their assets. These covenants are subject to important qualifications and limitations set forth in the indentures. We were in compliance with these covenants at March 31, 2026. The indentures governing the Senior Notes also contain customary events of default with respect to the Senior Notes. No events of default had occurred at March 31, 2026. 
+ 
+ For additional information regarding our long-term debt, see Note 9 of Notes to consolidated financial statements in Item 8 of our Annual Report. 
+
+ 9. Commitments and Contingencies 
+ 
+ Purchase Commitments — As of March 31, 2026, we maintained letters of credit in the aggregate amount of $ 32.4 million primarily for the benefit of various insurance companies as collateral for retrospective premiums and retained losses that could become payable under the terms of the underlying insurance contracts and compliance with contractual obligations. These letters of credit expire annually at various times during the year and are typically renewed. As of March 31, 2026, no amounts had been drawn under the letters of credit. As of March 31, 2026, we had $ 37.0 million in surety bond exposure issued as financial assurance on an insurance agreement. 
+
+ As of March 31, 2026, we had commitments to purchase major equipment totaling approximately $ 128 million. 
+
+ 13 
+
+ Our completion services segment has entered into agreements to purchase minimum quantities of proppants from certain vendors. As of March 31, 2026, the remaining minimum obligation under these agreements was approximately $ 21.7 million, of which approximately $ 16.9 million and $ 4.8 million relate to the remainder of 2026 and 2027, respectively. 
+
+ Contingencies — Certain subsidiaries we acquired in the Ulterra acquisition are defendants in a claim brought by a subsidiary of NOV Inc. alleging breach of a license agreement related to certain patents. Such subsidiaries have asserted defenses to the claim and are defending vigorously against this claim. 
+
+ On February 6, 2023, Grant Prideco, Inc., ReedHycalog UK, Ltd., ReedHycalog, LP and National Oilwell Varco, LP (“NOV”) sued Ulterra Drilling Technologies, LP (“Ulterra”) and several other companies in Texas state court. NOV seeks a declaration that United States Patent No. 8,721,752 (the “’752 Patent”) is a “Licensed RH Patent” per the terms of a license agreement between Ulterra and NOV. NOV also alleges a breach of contract based on the license agreement between NOV and Ulterra and seeks allegedly owed royalties since October 22, 2021. NOV also seeks attorney’s fees. 
+
+ On February 27, 2023, Ulterra filed a plea to the jurisdiction, and subject thereto, an answer, affirmative defenses and counterclaims. Ulterra’s counterclaims include: (i) declaratory judgments of non-infringement of U.S. Pat. No. 7,568,534 and the ’752 patent; (ii) a declaratory judgment of no royalties after Oct. 22, 2021; (iii) a declaratory judgment that certain other identified patents are expired and therefore not infringed after Oct. 22, 2021; and (iv) a declaratory judgment of no breach of contract. On the same day, Ulterra filed a notice of removal in federal court for the Southern District of Texas, Houston Division (SDTX 4:23-cv-00730), as well as a corresponding notice in Texas state court. NOV moved to dismiss and remand the case back to state court. On February 17, 2024, the Court denied NOV’s motion. On March 19, 2024, Ulterra moved for judgment on the pleadings regarding its declaratory judgment that certain other identified patents are expired and therefore not infringed after October 22, 2021. On February 13, 2025, the motion was granted in part and denied in part. 
+
+ In October and November 2025, the Court resolved certain dispositive motions in Ulterra’s favor, resulting in a Final Judgment in Ulterra’s favor on November 25, 2025. NOV has acknowledged that the Court’s rulings mean it cannot collect any of the royalties it had alleged were owed. On December 12, 2025, NOV filed a Notice of Appeal to the United States Court of Appeals for the Federal Circuit. The appeal is currently pending before the Federal Circuit as Docket Nos. 26-1256 and 26-1266. On April 20, 2026, NOV filed its opening appellate brief. Ulterra’s response is currently due June 1, 2026. 
+
+ Additionally, we are party to various other legal proceedings arising in the normal course of our business. We do not believe that the outcome of these proceedings, either individually or in the aggregate, will have a material adverse effect on our financial condition, cash flows or results of operations. 
+
+ 10. Stockholders’ Equity 
+ 
+ Cash Dividend — On April 22, 2026, our Board of Directors approved a cash dividend on our common stock in the amount of $ 0.10 per share to be paid on June 15, 2026 to holders of record as of June 1, 2026. The amount and timing of all future dividend payments, if any, are subject to the discretion of the Board of Directors and will depend upon business conditions, results of operations, financial condition, terms of our debt agreements and other factors. Our Board of Directors may, without advance notice, reduce or suspend our dividend for any reason, including to improve our financial flexibility and position our company for long-term success. There can be no assurance that we will pay a dividend in the future. 
+
+ Share Repurchases and Acquisitions — In September 2013, our Board of Directors approved a stock buyback program. In February 2024, our Board of Directors approved an increase of the authorization under the stock buyback program to allow for an aggregate of $ 1.0 billion of future share repurchases. All purchases executed to date have been through open market transactions. Purchases under the buyback program are made at management’s discretion, at prevailing prices, subject to market conditions and other factors. Purchases may be made at any time without prior notice. There is no expiration date associated with the buyback program. As of March 31, 2026, we had remaining authorization to purchase approximately $ 694 million of our outstanding common stock under the stock buyback program. Shares of stock purchased under the buyback program are held as treasury shares. 
+ 
+ Treasury stock acquisitions during the three months ended March 31, 2026 were as follows (dollars in thousands): 
+
+ Shares Cost 
+
+ Treasury shares at January 1, 2026 
+ 144,435,252 $ 2,020,714 
+
+ Acquisitions pursuant to long-term incentive plans 51,346 350 
+
+ Treasury shares at March 31, 2026 
+ 144,486,598 $ 2,021,064 
+
+ 14 
+
+ 11. Stock-based Compensation 
+ 
+ We use share-based payments to compensate employees and non-employee directors. We grant incentive awards in the form of restricted stock units (a small portion of which are subject to the achievement of performance conditions) and performance unit awards (which are subject to the achievement of performance conditions). Certain of these incentive awards are share-settled, and certain of these incentive awards are cash-settled. See Note 12 in Notes to consolidated financial statements in Item 8 of our Annual Report for further description of the various types of stock-based compensation awards and the applicable award terms and accounting. 
+
+ Stock Options — No stock options have been granted since 2016. There was no stock option activity from January 1, 2026 to March 31, 2026. 
+
+ Restricted Stock Units (Equity Based) — Share-settled restricted stock unit activity from January 1, 2026 to March 31, 2026 follows: 
+
+ Time Based Shares Performance
+Based Shares Weighted Average Grant Date Fair Value Per Share 
+
+ Non-vested restricted stock units outstanding at January 1, 2026 
+ 6,673,838 409,890 $ 8.06 
+
+ Granted 269,226 — $ 6.11 
+
+ Performance based restricted stock units settled (1) 
+ — ( 331,675 ) $ 14.10 
+
+ Vested ( 352,164 ) — $ 9.51 
+
+ Forfeited ( 51,567 ) — $ 7.80 
+
+ Non-vested restricted stock units outstanding at March 31, 2026 
+ 6,539,333 78,215 $ 7.60 
+
+ (1) Performance based restricted stock units reached the end of their performance period in February 2026, and no shares were issued to settle such performance based restricted stock units. 
+ 
+ As of March 31, 2026, we had unrecognized compensation cost related to our unvested restricted stock units totaling $ 29.9 million. The weighted-average remaining vesting period for these unvested restricted stock units was 1.69 years as of March 31, 2026. 
+
+ Restricted Stock Units (Liability Based) — A portion of the restricted stock unit awards granted in 2025 are cash-settled. Cash-settled restricted stock unit activity from January 1, 2026 to March 31, 2026 follows: 
+
+ Time Based Shares 
+
+ Non-vested cash-settled restricted stock units outstanding at January 1, 2026 
+ 628,175 
+
+ Granted — 
+
+ Vested — 
+
+ Forfeited — 
+
+ Non-vested cash-settled restricted stock units outstanding at March 31, 2026 
+ 628,175 
+
+ As of March 31, 2026, we had unrecognized compensation cost related to our unvested cash-settled restricted stock units totaling $ 4.5 million. The weighted-average remaining vesting period for these unvested cash-settled restricted stock units was 2.08 years as of March 31, 2026. 
+
+ Performance Unit Awards — We have granted performance unit awards to certain employees (the “Performance Units”). The Performance Units generally vest over a three-year period based on the achievement of performance goals. Historically, Performance Units have been tied to total shareholder return (“TSR”) achievement as compared to the TSR of a designated peer group, and allow for a payout ranging between 0 % and 200 % of the target payout. With respect to the Performance Units granted in May 2025, (i) one-half are cash-settled and are otherwise structured similarly to the 2024 Performance Units with vesting tied to our relative TSR and (ii) one-half are share-settled and tied to our relative free cash flow return as compared to the free cash flow return of a designated peer group (“FCF”). 
+
+ 15 
+
+ Performance Units activity from January 1, 2026 to March 31, 2026 follows: 
+
+ Performance Units 
+Share-Settled
+(at target) Weighted
+Average Grant
+Date Fair Value
+Per Share Performance
+Units 
+Cash-Settled
+(at target) 
+
+ Non-vested Performance Units outstanding at January 1, 2026 
+ 2,214,700 $ 10.49 743,800 
+
+ Granted — $ — — 
+
+ Performance Units settled — $ — — 
+
+ Forfeited — $ — — 
+
+ Non-vested Performance Units outstanding at March 31, 2026 
+ 2,214,700 $ 10.49 743,800 
+
+ As of March 31, 2026, we had unrecognized compensation cost related to our unvested Performance Units totaling $ 14.5 million. The weighted-average remaining vesting period for these unvested Performance Units was 1.79 years as of March 31, 2026. 
+
+ Stock-Based Compensation Expense — Expense associated with restricted stock units and Performance Unit awards is included in “Direct operating costs” and “General and administrative” in our unaudited condensed consolidated statements of operations. The following table presents stock-based compensation expense for the three months ended March 31, 2026 and 2025 (in thousands): 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Share-settled awards 
+
+ Restricted stock units $ 1,928 $ 9,886 
+
+ Performance Units – TSR 1,550 2,403 
+
+ Performance Units – FCF 934 — 
+
+ Total share-settled awards 4,412 12,289 
+
+ ​ 
+
+ Cash-settled awards 
+
+ Cash-settled restricted stock units 1,126 8 
+
+ Cash-settled Performance Units 1,834 — 
+
+ Total cash-settled awards 2,960 8 
+
+ Stock-based compensation expense $ 7,372 $ 12,297 
+
+ 12. Income Taxes 
+ 
+ Our effective income tax rate fluctuates from the U.S. statutory tax rate based on, among other factors, changes in pretax income in jurisdictions with varying statutory tax rates, the impact of U.S. state and local taxes, the realizability of deferred tax assets and other differences related to the recognition of income and expense between GAAP and tax accounting. 
+
+ Our effective income tax rate for the three months ended March 31, 2026 was 12.8 %, compared with 51.9 % for the three months ended March 31, 2025. The difference in effective income tax rates between the periods was primarily attributable to the impact of permanent differences against earnings between periods. 
+
+ In assessing the realizability of deferred tax assets, management considers whether it is more likely than not that some portion or all of the deferred tax assets will not be realized, and when necessary, valuation allowances are provided. The ultimate realization of deferred tax assets is dependent upon the generation of future taxable income during the periods in which those temporary differences become deductible. We assess the realizability of our deferred tax assets quarterly and consider carryback availability, the scheduled reversal of deferred tax liabilities, projected future taxable income and tax planning strategies in making this assessment. 
+
+ We continue to monitor income tax developments, including OECD Pillar 2 legislation, in the United States and other countries where we have legal entities or operations. We will incorporate into our future financial statements the impacts, if any, of future regulations and additional authoritative guidance when finalized. 
+
+ On July 4, 2025, the One Big Beautiful Bill Act (the “OBBBA”) was signed into law in the United States. This legislation includes several changes to existing income tax provisions with certain changes effective during 2025 and other changes effective after 2025. 
+
+ 16 
+
+ 13. Earnings Per Share 
+ 
+ We provide a dual presentation of our net income (loss) per common share in our unaudited condensed consolidated statements of operations: basic net income (loss) per common share (“Basic EPS”) and diluted net income (loss) per common share (“Diluted EPS”). 
+
+ Basic EPS excludes dilution and is determined by dividing the earnings attributable to common stockholders by the weighted average number of common shares outstanding during the period. 
+
+ Diluted EPS is based on the weighted average number of common shares outstanding plus the dilutive effect of potential common shares, including stock options and non-vested performance units and non-vested restricted stock units. The dilutive effect of stock options, non-vested performance units and non-vested restricted stock units is determined using the treasury stock method. 
+ 
+ The following table presents information necessary to calculate net income (loss) per share for the three months ended March 31, 2026 and 2025 as well as potentially dilutive securities excluded from the weighted average number of diluted common shares outstanding because their inclusion would have been anti-dilutive (in thousands, except per share amounts): 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ BASIC EPS: 
+
+ Net income (loss) attributable to common stockholders $ ( 24,627 ) $ 1,005 
+
+ Weighted average number of common shares outstanding, excluding non-vested restricted stock units 379,587 386,521 
+
+ Basic net income (loss) per common share $ ( 0.06 ) $ 0.00 
+
+ DILUTED EPS: 
+
+ Net income (loss) attributable to common stockholders $ ( 24,627 ) $ 1,005 
+
+ Weighted average number of common shares outstanding, including non-vested restricted stock units 379,587 387,044 
+
+ Diluted net income (loss) per common share $ ( 0.06 ) $ 0.00 
+
+ Potentially dilutive securities excluded as anti-dilutive 9,969 2,488 
+
+ 14. Business Segments 
+ 
+ Our Chief Operating Decision Maker (“CODM”) is our Chief Executive Officer, who has ultimate responsibility for evaluating operating performance, allocating resources and making strategic and operational decisions for the company. Our business is organized based on the services and products we provide in three segments: (i) drilling services, (ii) completion services and (iii) drilling products. The CODM evaluates segment performance based primarily on segment operating income (loss). This measure is used to assess operating results and to make decisions regarding the allocation of resources among segments. 
+
+ Drilling Services — represents our contract drilling, directional drilling, oilfield technology and electrical controls and automation businesses. 
+
+ Completion Services — represents our hydraulic fracturing, completion support services, wireline and pumpdown services and cementing businesses. 
+
+ Drilling Products — represents our manufacturing and distribution of drill bits business. 
+
+ 17 
+
+ The following tables summarize selected financial information relating to our business segments (in thousands): 
+
+ Drilling Services Completion Services Drilling Products Total 
+
+ For the three months ended March 31, 2026 
+
+ Revenues from external customers $ 351,717 $ 679,587 $ 79,797 $ 1,111,101 
+
+ Direct operating costs (1) 
+ 217,861 581,486 46,924 846,271 
+
+ General and administrative 7,097 7,330 7,923 22,350 
+
+ Depreciation, amortization and impairment (1) 
+ 83,944 111,472 19,846 215,262 
+
+ Other segment items (2) 
+ ( 1,488 ) — — ( 1,488 ) 
+
+ Segment operating income (loss) (3) 
+ $ 44,303 $ ( 20,701 ) $ 5,104 $ 28,706 
+
+ Reconciliation of revenue: 
+
+ Total segment revenues from external customers $ 1,111,101 
+
+ Other revenues (4) 
+ 6,230 
+
+ Total consolidated revenues $ 1,117,331 
+
+ Reconciliation to consolidated income (loss) before income taxes: 
+
+ Segment operating income (loss) (3) 
+ $ 28,706 
+
+ Other (4) 
+ 2,075 
+
+ Corporate ( 45,098 ) 
+
+ Interest income 2,765 
+
+ Interest expense ( 17,485 ) 
+
+ Other income (expense) 965 
+
+ Income (loss) before income taxes $ ( 28,072 ) 
+
+ Drilling Services Completion Services Drilling Products Total 
+
+ For the three months ended March 31, 2025 
+
+ Revenues from external customers $ 412,860 $ 766,080 $ 85,663 $ 1,264,603 
+
+ Direct operating costs (1) 
+ 247,629 657,681 46,940 952,250 
+
+ General and administrative 3,945 11,409 9,119 24,473 
+
+ Depreciation, amortization and impairment (1) 
+ 84,972 115,826 22,876 223,674 
+
+ Segment operating income (loss) (3) 
+ $ 76,314 $ ( 18,836 ) $ 6,728 $ 64,206 
+
+ Reconciliation of revenue: 
+
+ Total segment revenues from external customers $ 1,264,603 
+
+ Other revenues (4) 
+ 15,934 
+
+ Total consolidated revenues $ 1,280,537 
+
+ Reconciliation to consolidated income (loss) before income taxes: 
+
+ Segment operating income (loss) (3) 
+ $ 64,206 
+
+ Other (4) 
+ 230 
+
+ Corporate ( 47,491 ) 
+
+ Interest income 1,464 
+
+ Interest expense ( 17,697 ) 
+
+ Other income (expense) 1,968 
+
+ Income (loss) before income taxes $ 2,680 
+
+ (1) The significant expense categories and amounts align with the segment-level information that is regularly provided to the chief operating decision maker. 
+
+ (2) Other segment items for each reportable segment includes other operating expenses (income), such as equity in earnings from an unconsolidated joint venture. 
+
+ (3) Segment operating income (loss) is our measure of segment profitability. It is defined as revenue less operating expenses, general and administrative 
+
+ 18 
+
+ expenses, depreciation, amortization and impairment expense and other operating expenses (income). 
+
+ (4) Other includes our oilfield rentals business, prior to its divestiture in April 2025, and oil and natural gas working interests. 
+
+ Other business segment information 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Capital expenditures: 
+
+ Drilling Services $ 54,421 $ 73,458 
+
+ Completion Services 45,101 62,173 
+
+ Drilling Products 15,842 18,222 
+
+ Segment capital expenditures $ 115,364 $ 153,853 
+
+ Other 1,111 3,596 
+
+ Corporate 153 4,382 
+
+ Total capital expenditures $ 116,628 $ 161,831 
+
+ March 31, 2026 December 31, 2025 
+
+ Identifiable assets: 
+
+ Drilling Services $ 1,818,596 $ 1,865,598 
+
+ Completion Services 2,196,904 2,341,232 
+
+ Drilling Products 1,012,445 1,018,867 
+
+ Segment assets $ 5,027,945 $ 5,225,697 
+
+ Other 30,127 29,418 
+
+ Corporate (1) 
+ 302,447 315,351 
+
+ Total assets $ 5,360,519 $ 5,570,466 
+
+ (1) Corporate assets primarily include cash on hand and certain property and equipment. 
+
+ 15. Fair Values of Financial Instruments 
+ 
+ Fair value is defined as the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. Our valuation techniques require inputs that we categorize using the valuation hierarchy established in ASC 820-10, which categorizes assets and liabilities measured at fair value into one of three different levels depending on the observability of the inputs employed in the measurement. The three levels are defined as follows: 
+
+ Level 1 - Observable inputs such as quoted prices in active markets at the measurement date for identical, unrestricted assets or liabilities. 
+
+ Level 2 - Other inputs that are observable directly or indirectly, such as quoted prices in markets that are not active, or inputs which are observable, either directly or indirectly, for substantially the full term of the asset or liability. 
+
+ Level 3 - Unobservable inputs for which there is little or no market data and for which we make our own assumptions about how market participants would price the assets and liabilities. 
+
+ Assets and Liabilities Measured at Fair Value on a Recurring Basis 
+
+ The carrying values of cash, cash equivalents and restricted cash, trade receivables and accounts payable approximate fair value due to the short-term maturity of these items. These fair value estimates are considered Level 1 fair value estimates in the fair value hierarchy of fair value accounting. 
+
+ 19 
+
+ The estimated fair value of our outstanding debt balances as of March 31, 2026 and December 31, 2025 is set forth below (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Carrying
+Value Fair
+Value Carrying
+Value Fair
+Value 
+
+ 3.95 % Senior Notes Due 2028 
+ $ 482,505 $ 474,644 $ 482,505 $ 477,694 
+
+ 5.15 % Senior Notes Due 2029 
+ 344,895 345,807 344,895 348,032 
+
+ 7.15 % Senior Notes Due 2033 
+ 400,000 429,978 400,000 428,615 
+
+ Total debt $ 1,227,400 $ 1,250,429 $ 1,227,400 $ 1,254,341 
+
+ The fair values of the 2028 Notes, the 2029 Notes and the 2033 Notes at March 31, 2026 and December 31, 2025 are based on quoted market prices, which are considered Level 1 fair value estimates in the fair value hierarchy of fair value accounting. 
+ 
+ The implied market rates of interest used to determine the fair value of our outstanding debt balances as of March 31, 2026 and December 31, 2025 are set forth below: 
+
+ March 31, 2026 December 31, 2025 
+
+ 3.95 % Senior Notes Due 2028 
+ 4.89 % 4.46 % 
+
+ 5.15 % Senior Notes Due 2029 
+ 5.07 % 4.89 % 
+
+ 7.15 % Senior Notes Due 2033 
+ 5.90 % 5.99 % 
+
+ Assets and Liabilities Measured at Fair Value on a Nonrecurring Basis 
+
+ We apply the provisions of the fair value measurement standard to our non-recurring, non-financial measurements including business combinations, as well as impairment related to goodwill and other long-lived assets. 
+
+ 16. Subsequent Events 
+
+ Credit Agreement Amendment — On April 24, 2026, we entered into the Assignment and Amendment No. 1 to Second Amended and Restated Credit Agreement, which amended the Second Amended and Restated Credit Agreement, whereby, among other things, (i) extends the maturity date for $ 450 million of revolving credit commitments of certain lenders under the Credit Agreement from January 31, 2030 to January 31, 2031, but we may request two one-year extensions, subject to the satisfaction of certain conditions, and (ii) assigns $ 25 million of the revolving credit commitments from HSBC Bank USA, N.A., to JPMorgan Chase Bank, N.A., in each case, on the terms and subject to the conditions set forth therein. 
+
+ 20 
+
+ SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS 
+
+ This Quarterly Report on Form 10-Q (this “Report”) and other public filings, press releases and presentations by us contain “forward-looking statements” within the meaning of the Securities Act of 1933, as amended (the “Securities Act”), the Securities Exchange Act of 1934, as amended (the “Exchange Act”), and the Private Securities Litigation Reform Act of 1995, as amended. As used in this Report, “we,” “us,” “our,” “ours” and like terms refer collectively to Patterson-UTI Energy, Inc. and its consolidated subsidiaries. Patterson-UTI Energy, Inc. conducts its operations through its wholly-owned subsidiaries and has no employees or independent business operations. These “forward-looking statements” involve risk and uncertainty. These “forward-looking statements” include, without limitation, statements relating to: outlook; liquidity; revenue; cost and margin expectations and backlog; financing of operations; oil and natural gas prices; rig counts and frac spreads; source and sufficiency of funds required for building new equipment, upgrading existing equipment and acquisitions (if opportunities arise); demand and pricing for our services; competition; equipment availability; government regulation; legal proceedings; debt service obligations; impact of inflation and economic downturns; capital expenditures; and other matters. Our forward-looking statements can be identified by the fact that they do not relate strictly to historical or current facts and often use words such as “anticipate,” “believe,” “budgeted,” “continue,” “could,” “estimate,” “expect,” “goal,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “pursue,” “see,” “should,” “strategy,” “target,” or “will,” or the negative thereof and other words and expressions of similar meaning. The forward-looking statements are based on certain assumptions and analyses we make in light of our experience and our perception of historical trends, current conditions, expected future developments and other factors we believe are appropriate in the circumstances. 
+
+ Although we believe that the expectations reflected in such forward-looking statements are reasonable, we can give no assurance that such expectations will prove to have been correct. These forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause our actual results, performance or achievements to be materially different from actual future results expressed or implied by the forward-looking statements. These risks and uncertainties also include those set forth in Management’s Discussion and Analysis of Financial Condition and Results of Operations included in this Report and other sections of our filings with the United States Securities and Exchange Commission (the “SEC”) under the Exchange Act and the Securities Act, as well as, among others, risks and uncertainties relating to: 
+
+ • adverse oil and natural gas industry conditions, including the impact of commodity price volatility on industry outlook; 
+
+ • global economic conditions, including inflationary pressures and risks of economic downturns or recessions in the United States and elsewhere; 
+
+ • volatility in customer spending and in oil and natural gas prices that could adversely affect demand for our services and their associated effect on rates; 
+
+ • excess supply of drilling and completions equipment, including as a result of reactivation, improvement or construction; 
+
+ • competition and demand for our services; 
+
+ • the impact of the ongoing Ukraine/Russia and Middle East conflicts and instability in other international regions; 
+
+ • strength and financial resources of competitors; 
+
+ • utilization, margins and planned capital expenditures; 
+
+ • ability to obtain insurance coverage on commercially reasonable terms and liabilities from operational risks for which we do not have and receive full indemnification or insurance; 
+
+ • operating hazards attendant to the oil and natural gas business; 
+
+ • failure by customers to pay or satisfy their contractual obligations (particularly with respect to fixed-term contracts); 
+
+ • the ability to realize backlog; 
+
+ • specialization of methods, equipment and services and new technologies, including the ability to develop and obtain satisfactory returns from new technology and the risk of obsolescence of existing technologies; 
+
+ • the ability to attract and retain management and field personnel; 
+
+ • loss of key customers; 
+
+ • shortages, delays in delivery, and interruptions in supply, of equipment and materials; 
+
+ • cybersecurity events; 
+
+ • difficulty in building and deploying new equipment; 
+
+ • complications with the design or implementation of our new enterprise resource planning system; 
+
+ 21 
+
+ • governmental regulation, including climate legislation, regulation and other related risks; 
+
+ • environmental, social and governance practices, including the perception thereof; 
+
+ • environmental risks and ability to satisfy future environmental costs; 
+
+ • technology-related disputes; 
+
+ • legal proceedings and actions by governmental or other regulatory agencies; 
+
+ • changes to tax, tariff and import/export regulations and sanctions by the United States or other countries, including the impacts of any sustained escalation or changes in tariff levels or trade-related disputes; 
+
+ • the ability to effectively identify and enter new markets or pursue strategic acquisitions; 
+
+ • public health crises, pandemics and epidemics; 
+
+ • weather; 
+
+ • operating costs; 
+
+ • expansion and development trends of the oil and natural gas industry; 
+
+ • financial flexibility, including availability of capital and the ability to repay indebtedness when due; 
+
+ • adverse credit and equity market conditions; 
+
+ • our return of capital to stockholders, including timing and amounts (including any plans or commitments in respect thereof) of any dividends and share repurchases; 
+
+ • stock price volatility; 
+
+ • compliance with covenants under our debt agreements; and 
+
+ • other financial, operational and legal risks and uncertainties detailed from time to time in our filings with the SEC. 
+
+ We caution that the foregoing list of factors is not exhaustive. Additional information concerning these and other risk factors is contained elsewhere in this Report and in our Annual Report on Form 10-K for the year ended December 31, 2025 (our “Annual Report”) and may be contained in our future filings with the SEC. You are cautioned not to place undue reliance on any of our forward-looking statements. The forward-looking statements speak only as of the date made and, other than as required by law, we undertake no obligation to update publicly or revise any of these forward-looking statements, whether as a result of new information, future events or otherwise. In the event that we update any forward-looking statement, no inference should be made that we will make additional updates with respect to that statement, related matters or any other forward-looking statements. All subsequent written and oral forward-looking statements concerning us or other matters and attributable to us or any person acting on our behalf are expressly qualified in their entirety by the cautionary statements above. 
+
+ 22 
+
+ ITEM 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+
+ Management Overview — We are a Houston, Texas-based leading provider of drilling and completion services to oil and natural gas exploration and production companies in the United States and other select countries, including contract drilling services, integrated well completion services and directional drilling services in the United States, and specialized drill bit solutions in the United States, Middle East and many other regions around the world. We operate under three reportable business segments: (i) drilling services, (ii) completion services and (iii) drilling products. 
+
+ Drilling Services 
+
+ Our contract drilling business operates in the continental United States and internationally in Colombia and Ecuador, and from time to time, we pursue contract drilling opportunities in other select markets. We also provide a comprehensive suite of directional drilling services in most major producing onshore oil and natural gas basins in the United States and we provide services that aim to improve the statistical accuracy of wellbore placement for directional and horizontal wells. We also provide electrical controls and automation to the energy, marine and mining industries in North America and other select markets. 
+
+ As of March 31, 2026, we had 152 marketed land-based drilling rigs based in the following regions: 
+
+ Region Number of Rigs 
+
+ West Texas 68 
+
+ Appalachia 21 
+
+ Oklahoma 15 
+
+ Rockies 18 
+
+ South Texas 13 
+
+ East Texas (1) 
+ 9 
+
+ Colombia 7 
+
+ Ecuador 1 
+
+ Total 152 
+
+ (1) In January 2026, we signed a multi-year agreement to lease two rigs to DLS Archer Ltd. S.A. to support Archer’s operations in Argentina’s Vaca Muerta formation. 
+
+ We have addressed our customers’ needs for drilling horizontal wells in shale and other unconventional resource plays by improving the capabilities of our drilling fleet. The U.S. land rig industry has in recent years referred to certain high specification rigs as “super-spec” rigs, which we consider to be at least a 1,500 horsepower, AC-powered rig that has at least a 750,000-pound hookload, a 7,500-psi circulating system, and is pad-capable. Due to evolving customer preferences, we refer to certain premium rigs as “Tier-1, super spec” rigs, which we consider as being a super-spec rig that also has a third mud pump and raised drawworks that allows for more clearance underneath the rig floor. As of March 31, 2026, our rig fleet included 137 marketed Tier-1, super-spec rigs. 
+
+ Completion Services 
+
+ Our well completion services business consists of services for hydraulic fracturing, wireline and pumping, completion support and cementing. It also includes our power solutions natural gas fueling business and our proppant last mile logistics and storage business. Our completion services business operates in many of the most active basins in the continental United States including the Permian, the Marcellus Shale/Utica, the Eagle Ford, Mid-Continental, Haynesville and the Bakken/Rockies. 
+
+ In an effort to address customer demand for lower-emission and more cost-efficient operations, we continue to expand our portfolio of natural gas-powered solutions, including electric, direct drive and dual fuel pumps, to replace legacy diesel completion services equipment. 
+
+ We are also advancing our Vertex™ fully automated, closed-loop completions process, a component of our proprietary digital completions management platform, eos™, which offers our customers the opportunity for greater operational efficiency, lower costs and improved performance, while laying the foundation for integrating AI-driven reservoir technologies. 
+
+ Drilling Products 
+
+ We serve the energy and mining markets by manufacturing and distributing drill bits and downhole tools throughout North America and internationally in over 30 countries. Our drilling equipment is used in oil and natural gas exploration and production and 
+
+ 23 
+
+ in geothermal and mining operations. We have manufacturing and repair facilities located in Fort Worth, Texas, Leduc, Alberta and Saudi Arabia and repair facilities located in Argentina, Colombia and Oman. 
+
+ Recent Developments in Market Conditions and Outlook — Our revenues, profitability and cash flows are highly dependent upon capital expenditures of exploration and production companies (“E&Ps”), which are largely driven by capital budgets set to achieve respective production targets in relation to current and expected future prices for oil and natural gas, as well as broader macroeconomic conditions. Commodity prices have historically been volatile and are affected by global supply and demand dynamics, geopolitical conditions and other factors, but were relatively range-bound in recent years. The current demand for equipment and services remains impacted by macro conditions that are outside of our control, including commodity prices, geopolitical environment, changes to international tariffs and trade policies, inflationary pressures, global economic conditions, as well as customer consolidation and focus by E&Ps and service companies on capital returns. 
+
+ During 2025, global economic conditions weakened in part due to uncertainty related to trade policies and tariffs implemented or proposed by the United States and other governments. At the same time, oil markets were affected by evolving supply dynamics, including changes in production policies by OPEC+ countries and increasing non-OPEC supply. These factors contributed to periods of downward pressure on crude oil prices and increased uncertainty in global energy markets. 
+
+ In the first quarter of 2026, energy markets experienced high volatility, driven in large part by instability in the Middle East, including the conflict with Iran, and concerns regarding potential disruptions to global supply and transportation routes, which has contributed to fluctuations in commodity prices and market sentiment. Geopolitical uncertainty, even in the absence of actual supply disruptions, may contribute to short-term commodity price volatility as market participants adjust expectations regarding potential sanctions, production levels and regional stability. While the full effects are yet to be determined, we believe these dynamics could support increased activity in second half of 2026, particularly in North America, as operators reassess capital allocation and activity levels commensurate with commodity prices and supply chain dependability. 
+
+ Oil prices averaged $72.74 per barrel in the first quarter of 2026, as compared to $59.62 per barrel in the fourth quarter of 2025, and closed at $91.06 per barrel on April 20, 2026. Natural gas prices (based on the Henry Hub Spot Market Price) averaged $4.71 per MMBtu in the first quarter of 2026 as compared to an average of $3.73 per MMBtu in the fourth quarter of 2025, and closed at $2.81 per MMBtu on April 20, 2026. 
+
+ Our drilling activity in the United States remained relatively stable in the first quarter of 2026, with an average active rig count in the United States of 92 rigs, compared to our average active rig count of 93 in the fourth quarter of 2025, supported in part by term contracts. Term contracts help support our operating rig count. We maintain a backlog of commitments for contract drilling services under term contracts, which we define as contracts with a duration of six months or more. Our contract drilling backlog in the United States as of March 31, 2026 was approximately $260 million. Approximately 7% of our total contract drilling backlog in the United States at March 31, 2026 is reasonably expected to remain at March 31, 2027. See Note 2 of Notes to unaudited condensed consolidated financial statements for additional information on backlog. 
+
+ In our drilling services segment for the second quarter of 2026, we expect adjusted gross profit will decline slightly, sequentially. We expect our active rig count to average around 90 rigs, and we expect to exit the quarter at a higher level than the quarterly average, potentially 92 to 95 rigs, as we reactivate rigs during the second half of the quarter. 
+
+ In our completion services segment for the second quarter of 2026, we expect adjusted gross profit to be higher than the first quarter. We will continue to prioritize investments that high-grade our assets with technologies that we believe will generate attractive long-term returns, versus investing to extend the life of diesel equipment. 
+
+ In our drilling products segment for the second quarter of 2026, we expect adjusted gross profit will decline slightly, sequentially. We expect lower activity in Canada with normal seasonal spring breakup, as well as an increase in international costs, particularly in the Middle East. 
+
+ 24 
+
+ For the three months ended March 31, 2026, December 31, 2025 and March 31, 2025 our operating revenues consisted of the following (dollars in thousands): 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, 
+
+ 2026 2025 2025 
+
+ Drilling Services $ 351,717 31.5 % $ 360,777 31.3 % $ 412,860 32.2 % 
+
+ Completion Services 679,587 60.8 % 701,560 61.0 % 766,080 59.8 % 
+
+ Drilling Products 79,797 7.1 % 83,774 7.3 % 85,663 6.7 % 
+
+ Other 6,230 0.6 % 4,702 0.4 % 15,934 1.3 % 
+
+ $ 1,117,331 100.0 % $ 1,150,813 100.0 % $ 1,280,537 100.0 % 
+
+ Results of Operations 
+
+ The following tables summarize results of operations by business segment for the three months ended March 31, 2026, December 31, 2025 and March 31, 2025: 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, % Change 
+
+ Drilling Services 2026 2025 2025 Sequential Year-over-year 
+
+ (dollars in thousands) 
+
+ Revenues $ 351,717 $ 360,777 $ 412,860 (2.5) % (14.8) % 
+
+ Direct operating costs 217,861 228,426 247,629 (4.6) % (12.0) % 
+
+ Adjusted gross profit (1) 
+ 133,856 132,351 165,231 1.1 % (19.0) % 
+
+ General and administrative 7,097 4,013 3,945 76.9 % 79.9 % 
+
+ Depreciation, amortization and impairment 83,944 85,044 84,972 (1.3) % (1.2) % 
+
+ Other operating expense (income), net (1,488) 298 — (599.3) % NA 
+
+ Operating income (loss) $ 44,303 $ 42,996 $ 76,314 3.0 % (41.9) % 
+
+ Capital expenditures $ 54,421 $ 61,194 $ 73,458 (11.1) % (25.9) % 
+
+ Operating days – U.S. (2) 
+ 8,301 8,596 9,573 (3.4) % (13.3) % 
+
+ (1) Adjusted gross profit, which is considered a non-GAAP financial measure, is defined as revenues less direct operating costs (excluding depreciation, amortization and impairment expense). See Non-GAAP Financial Measures below for a reconciliation of GAAP gross profit to adjusted gross profit by segment. 
+
+ (2) Operational data relates to our contract drilling business. A rig is considered to be operating if it is earning revenue pursuant to a contract on a given day. 
+
+ Sequential quarter comparison 
+
+ Generally, the revenues in our drilling services segment are most impacted by two primary factors: our contract drilling day rates and our average number of rigs operating. 
+
+ Total revenues and direct operating costs decreased primarily due to a decrease in operating days in our contract drilling business within the United States. 
+
+ General and administrative expense increased primarily due to certain internal reorganization initiatives and employee separation costs incurred during the first quarter of 2026. 
+
+ Capital expenditures decreased primarily due to the timing of order placement as well as lower maintenance capital expenditures due to fewer operating days. 
+
+ 25 
+
+ Year-over-year quarter comparison 
+
+ Total revenues and direct operating costs decreased primarily due to a decrease in operating days in our contract drilling business within the United States. 
+
+ General and administrative expense increased primarily due to certain internal reorganization initiatives and employee separation costs incurred during the first quarter of 2026. 
+
+ Capital expenditures decreased primarily due to the timing of order placement as well as lower maintenance capital expenditures due to fewer operating days. 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, % Change 
+
+ Completion Services 2026 2025 2025 Sequential Year-over-year 
+
+ (dollars in thousands) 
+
+ Revenues $ 679,587 $ 701,560 $ 766,080 (3.1) % (11.3) % 
+
+ Direct operating costs 581,486 590,657 657,681 (1.6) % (11.6) % 
+
+ Adjusted gross profit (1) 
+ 98,101 110,903 108,399 (11.5) % (9.5) % 
+
+ General and administrative 7,330 9,863 11,409 (25.7) % (35.8) % 
+
+ Depreciation, amortization and impairment 111,472 110,941 115,826 0.5 % (3.8) % 
+
+ Other operating expense (income), net — (6,300) — (100.0) % NA 
+
+ Operating income (loss) $ (20,701) $ (3,601) $ (18,836) 474.9 % 9.9 % 
+
+ Capital expenditures $ 45,101 $ 59,069 $ 62,173 (23.6) % (27.5) % 
+
+ (1) Adjusted gross profit, which is considered a non-GAAP financial measure, is defined as revenues less direct operating costs (excluding depreciation, amortization and impairment expense). See Non-GAAP Financial Measures below for a reconciliation of GAAP gross profit to adjusted gross profit by segment. 
+
+ Sequential quarter comparison 
+
+ Completion services revenues and direct operating costs decreased primarily due to our fracturing operations, which were largely the result of disruptions caused by winter storm conditions. Revenues and direct operating costs from our fracturing operations decreased by approximately $7.2 million and $2.2 million, or 1% and 0.5%, respectively, which was primarily due to a 2% decline in total pumping hours. Other completion services revenue and direct operating costs decreased $14.7 million and $7.3 million, or 12% and 7%, respectively, mainly due to lower activity for our power solutions and cementing operations. 
+
+ General and administrative decreased, benefiting from cost reduction activities. 
+
+ Other operating expense (income), net in the fourth quarter of 2025 reflected a favorable contract settlement. 
+
+ Capital expenditures decreased primarily due to the timing of order placement. 
+
+ Year-over-year quarter comparison 
+
+ Completion services revenues and direct operating costs decreased primarily due to our fracturing operations. Revenues and direct operating costs from our fracturing operations decreased by approximately $39.8 million and $45.4 million, or 7% and 9%, respectively due to lower activities. Total pumping hours from our fracturing operations declined 6% year over year. Other completion services revenue and direct operating costs decreased $46.7 million and $31.0 million, or 30% and 25%, respectively, primarily due to lower service pricing and decline in activity for our power solutions operations and a decline in activity in our wireline and cementing operations. 
+
+ General and administrative decreased, benefiting from cost reduction activities. 
+
+ Other operating expense (income), net in the fourth quarter of 2025 reflected a favorable contract settlement. 
+
+ We reduced capital expenditures in response to changing macroeconomic conditions between the periods. 
+
+ 26 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, % Change 
+
+ Drilling Products 2026 2025 2025 Sequential Year-over-year 
+
+ (dollars in thousands) 
+
+ Revenues $ 79,797 $ 83,774 $ 85,663 (4.7) % (6.8) % 
+
+ Direct operating costs 46,924 49,590 46,940 (5.4) % 0.0 % 
+
+ Adjusted gross profit (1) 
+ 32,873 34,184 38,723 (3.8) % (15.1) % 
+
+ General and administrative 7,923 6,911 9,119 14.6 % (13.1) % 
+
+ Depreciation, amortization and impairment 19,846 20,515 22,876 (3.3) % (13.2) % 
+
+ Operating income (loss) $ 5,104 $ 6,758 $ 6,728 (24.5) % (24.1) % 
+
+ Capital expenditures $ 15,842 $ 14,616 $ 18,222 8.4 % (13.1) % 
+
+ (1) Adjusted gross profit, which is considered a non-GAAP financial measure, is defined as revenues less direct operating costs (excluding depreciation, amortization and impairment expense). See Non-GAAP Financial Measures below for a reconciliation of GAAP gross profit to adjusted gross profit by segment. 
+
+ Sequential quarter comparison 
+
+ Revenue and direct operating costs declined primarily due to lower activity in the United States. Revenues and direct operating costs in the United States decreased by approximately $4.1 million and $1.2 million, or 7% and 3%, respectively. The decrease in direct operating costs in the United States was partially offset by higher raw material and labor costs. 
+
+ Capital expenditures increased primarily due to higher raw material costs, particularly tungsten powder used in certain matrix bit applications. 
+
+ Year-over-year quarter comparison 
+
+ Revenue and direct operating costs declined primarily due to lower activity in the United States. Revenues in the United States decreased by approximately $4.6 million or 8%. The decrease in direct operating costs was partially offset by higher raw material costs and repair expenses. 
+
+ Depreciation, amortization and impairment expense decreased year over year primarily due to the diminishing impact of the purchase‑accounting step‑up to fair value related to our drill bits. 
+
+ Capital expenditures decreased primarily due to the timing of order placement. 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, % Change 
+
+ Other (1) 
+ 2026 2025 2025 Sequential Year-over-year 
+
+ (dollars in thousands) 
+
+ Revenues $ 6,230 $ 4,702 $ 15,934 32.5 % (60.9) % 
+
+ Direct operating costs 2,884 3,219 9,164 (10.4) % (68.5) % 
+
+ Adjusted gross profit (2) 
+ 3,346 1,483 6,770 125.6 % (50.6) % 
+
+ General and administrative 2 1 204 100.0 % (99.0) % 
+
+ Depreciation, depletion, amortization and impairment 1,269 2,429 6,336 (47.8) % (80.0) % 
+
+ Operating income (loss) $ 2,075 $ (947) $ 230 319.1 % 802.2 % 
+
+ Capital expenditures $ 1,111 $ 3,411 $ 3,596 (67.4) % (69.1) % 
+
+ (1) Other includes our oilfield rentals business, prior to its divestiture in April 2025, and oil and natural gas working interests. 
+
+ (2) Adjusted gross profit, which is considered a non-GAAP financial measure, is defined as revenues less direct operating costs (excluding depreciation, depletion, amortization and impairment expense). See Non-GAAP Financial Measures below for a reconciliation of GAAP gross profit to adjusted gross profit by segment. 
+
+ 27 
+
+ Sequential quarter comparison 
+
+ Revenues increased primarily due to higher oil production and higher realized pricing on crude oil. Market prices for crude oil averaged $72.74 per barrel in the first quarter of 2026, as compared to $59.62 per barrel in the fourth quarter of 2025. 
+
+ Year-over-year quarter comparison 
+
+ The changes for the three months ended March 31, 2026 as compared to the three months ended March 31, 2025 can be primarily attributed to the divestiture of our oilfield rentals business during the second quarter of 2025. In order to provide a more meaningful basis for comparison, the discussion below is focused on changes between comparable periods excluding the effects of the divestiture. 
+
+ Revenues and direct operating costs were relatively flat between sequential quarters. 
+
+ Depreciation, depletion, amortization and impairment expense decreased primarily due to a $1.7 million impairment charge recorded in our oil and natural gas properties business during the first quarter of 2025. There was no impairment charge in the first quarter of 2026. 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, % Change 
+
+ Corporate 2026 2025 2025 Sequential Year-over-year 
+
+ (dollars in thousands) 
+
+ General and administrative $ 46,411 $ 41,270 $ 42,253 12.5 % 9.8 % 
+
+ Depreciation $ 1,863 $ 2,013 $ 1,856 (7.5) % 0.4 % 
+
+ Other operating expense (income), net $ (3,176) $ 2,158 $ 3,382 (247.2) % (193.9) % 
+
+ Interest income $ 2,765 $ 2,433 $ 1,464 13.6 % 88.9 % 
+
+ Interest expense, net of amount capitalized $ (17,485) $ (17,678) $ (17,697) (1.1) % (1.2) % 
+
+ Other income (expense) $ 965 $ 354 $ 1,968 172.6 % (51.0) % 
+
+ Capital expenditures $ 153 $ 223 $ 4,382 (31.4) % (96.5) % 
+
+ Sequential quarter comparison 
+
+ General and administrative increased primarily due to higher share‑based compensation expense related to cash-settled liability awards and employee separation costs incurred during the first quarter of 2026. 
+
+ Other operating (income) expenses, net includes net losses associated with the disposal of assets. Accordingly, the related gains or losses have been excluded from the results of specific segments. The change in other operating (income) expenses, net was primarily due to a $4.5 million reversal of cumulative compensation costs associated with certain performance-based restricted stock units during the first quarter of 2026. 
+
+ Year-over-year quarter comparison 
+
+ General and administrative increased primarily due to higher share‑based compensation expense related to cash-settled liability awards and employee separation costs incurred during the first quarter of 2026 
+
+ Other operating (income) expenses, net includes net losses associated with the disposal of assets. Accordingly, the related gains or losses have been excluded from the results of specific segments. The change in other operating (income) expenses, net was primarily due to a $4.5 million reversal of cumulative compensation costs associated with certain performance-based restricted stock units during the first quarter of 2026. 
+
+ Capital expenditures decreased primarily due to the expansion of our Corporate office in 2025. 
+
+ 28 
+
+ Income Taxes 
+
+ Our effective income tax rate fluctuates from the U.S. statutory tax rate based on, among other factors, changes in pretax income in jurisdictions with varying statutory tax rates, the impact of U.S. state and local taxes, the realizability of deferred tax assets and other differences related to the recognition of income and expense between GAAP and tax accounting. 
+
+ Our effective income tax rate for the three months ended March 31, 2026 was 12.8%, compared with 39.2% for the three months ended December 31, 2025. The difference in effective income tax rates between the periods was primarily attributable to the impact of permanent differences against earnings between periods. 
+
+ Our effective income tax rate for the three months ended March 31, 2026 was 12.8%, compared with 51.9% for the three months ended March 31, 2025. The difference in effective income tax rates between the periods was primarily attributable to the impact of permanent differences against earnings between periods. 
+
+ We continue to monitor income tax developments, including OECD Pillar 2 legislation, in the United States and other countries where we have legal entities or operations. We will incorporate into our future financial statements the impacts, if any, of future regulations and additional authoritative guidance when finalized. 
+
+ On July 4, 2025, the One Big Beautiful Bill Act (the “OBBBA”) was signed into law in the United States. This legislation includes several changes to existing income tax provisions with certain changes effective during 2025 and other changes effective after 2025. 
+
+ Liquidity and Capital Resources 
+
+ Overview 
+
+ Our primary sources of liquidity are cash and cash equivalents, availability under our Credit Agreement and cash provided by operating activities. As of March 31, 2026, we had approximately $602 million in working capital, including $335 million of cash and cash equivalents, and approximately $497 million available under our Credit Agreement. 
+
+ Cash Flows 
+
+ Our cash flows for the three months ended March 31, 2026 and 2025 are summarized below: 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ (in thousands) 
+
+ Net cash provided by (used in): 
+
+ Operating activities $ 63,858 $ 208,141 
+
+ Investing activities (106,026) (164,504) 
+
+ Financing activities (40,269) (58,873) 
+
+ Effect of exchange rate changes on cash, cash equivalents and restricted cash (961) (853) 
+
+ Net increase (decrease) in cash and cash equivalents and restricted cash $ (83,398) $ (16,089) 
+
+ Operating Activities — The decrease in cash provided by operating activities between the three months ended March 31, 2026 and 2025 was primarily attributable to lower activity in 2026. 
+
+ Investing Activities — The decrease in cash used in investing activities between the three months ended March 31, 2026 and 2025 was primarily attributable to lower capital spending due to timing of order placement, lower maintenance capital expenditures due to fewer operating days, and an increase in proceeds from the sale of assets. 
+
+ Financing Activities — The decrease in cash used in financing activities between the three months ended March 31, 2026 and 2025 was primarily attributable to fewer share repurchases as well as the repayment of debt during 2025. The decrease was partially offset by an increase in dividends paid during the first quarter of 2026. 
+
+ 29 
+
+ Credit Agreement 
+
+ On January 31, 2025, we entered into the Second Amended and Restated Credit Agreement with the lenders party thereto and Wells Fargo Bank, National Association, as administrative agent, and the other parties thereto (the “Credit Agreement”). The Credit Agreement amended and restated our Amended and Restated Credit Agreement dated as of March 27, 2018. As of March 31, 2026, the commitments under the Credit Agreement were $500 million, and the loans and commitments under the Credit Agreement would mature on January 31, 2030. 
+
+ On April 24, 2026, we entered into the Assignment and Amendment No. 1 to Second Amended and Restated Credit Agreement, which amended the Second Amended and Restated Credit Agreement, whereby, among other things, (i) extends the maturity date for $450 million of revolving credit commitments of certain lenders under the Credit Agreement from January 31, 2030 to January 31, 2031, but we may request two one-year extensions, subject to the satisfaction of certain conditions, and (ii) assigns $25 million of the revolving credit commitments from HSBC Bank USA, N.A., to JPMorgan Chase Bank, N.A., in each case, on the terms and subject to the conditions set forth therein. 
+
+ The Credit Agreement contains representations, warranties, affirmative and negative covenants and events of default and associated remedies that we believe are customary for agreements of this nature. We were in compliance with the covenants at March 31, 2026. No events of default had occurred at March 31, 2026. 
+
+ Reimbursement Agreement 
+
+ 2015 Reimbursement Agreement — On March 16, 2015, we entered into a Reimbursement Agreement (as amended from time to time, the “2015 Reimbursement Agreement”) with The Bank of Nova Scotia (“Scotiabank”), pursuant to which we may from time to time request that Scotiabank issue an unspecified amount of letters of credit. 
+
+ We had $32.4 million of outstanding letters of credit at March 31, 2026, which was comprised of $27.5 million outstanding under the 2015 Reimbursement Agreement, $2.8 million outstanding under the Credit Agreement and $2.0 million outstanding with financial institutions providing for short-term borrowing capacity, overdraft protection and bonding requirements. We maintain these letters of credit primarily for the benefit of various insurance companies as collateral for retrospective premiums and retained losses which could become payable under terms of the underlying insurance contracts and compliance with contractual obligations. These letters of credit expire annually at various times during the year and are typically renewed. As of March 31, 2026, no amounts had been drawn under the letters of credit. As of March 31, 2026, we had $37.0 million in surety bond exposure issued as financial assurance on an insurance agreement. 
+
+ Our outstanding long-term debt at March 31, 2026 was $1.2 billion and consisted of $483 million of our 2028 Notes, $345 million of our 2029 Notes and $400 million of our 2033 Notes. We were in compliance with all covenants under the associated agreements and indentures at March 31, 2026. 
+
+ For additional information regarding our long-term debt, see Note 9 of Notes to consolidated financial statements in Item 8 of our Annual Report. 
+
+ Cash Requirements 
+
+ We believe our current liquidity, together with cash expected to be generated from operations, should provide us with sufficient ability to fund our current plans to maintain and make improvements to our existing equipment, service our debt, pay cash dividends and repurchase our common stock and senior notes for at least the next 12 months. 
+
+ If we pursue other opportunities that require capital, we believe we would be able to satisfy these needs through a combination of working capital, cash flows from operating activities, borrowing capacity under our revolving credit facility or additional debt or equity financing. However, there can be no assurance that such capital will be available on reasonable terms, if at all. 
+
+ The majority of our capital expenditures are expected to be used for normal, recurring items necessary to support our business. A portion of our capital expenditures can be adjusted and managed by us to match market demand and activity levels. 
+
+ Sources and Uses of Cash 
+
+ During the three months ended March 31, 2026, our sources of cash flow included: 
+
+ • $63.9 million from operating activities and 
+
+ 30 
+
+ • $12.2 million in proceeds from the disposal of property and equipment, including insurance recoveries. 
+
+ During the three months ended March 31, 2026, our uses of cash flow included: 
+
+ • $117 million to make capital expenditures for the betterment and refurbishment of drilling services and completion services equipment and, to a much lesser extent, equipment for our other businesses, to acquire and procure equipment to support our drilling services, completion services, drilling products and other operations, 
+
+ • $38.0 million to pay dividends on our common stock, 
+
+ • $0.4 million for repurchases of our common stock, 
+
+ • $2.0 million for payments related to finance leases and 
+
+ • $1.6 million for other investing and financing activities. 
+
+ We paid cash dividends during the three months ended March 31, 2026 as follows: 
+
+ Per Share Total 
+
+ (in thousands) 
+
+ Paid on March 16, 2026 $ 0.10 $ 37,960 
+
+ On April 22, 2026, our Board of Directors approved a cash dividend on our common stock in the amount of $0.10 per share to be paid on June 15, 2026 to holders of record as of June 1, 2026. The amount and timing of all future dividend payments, if any, are subject to the discretion of the Board of Directors and will depend upon business conditions, results of operations, financial condition, terms of our debt agreements and other factors. Our Board of Directors may, without advance notice, reduce or suspend our dividend for any reason, including to improve our financial flexibility and position our company for long-term success. There can be no assurance that we will pay a dividend in the future. 
+
+ We may, at any time and from time to time, seek to retire or purchase our outstanding debt for cash through open-market purchases, privately negotiated transactions, redemptions or otherwise. Such repurchases, if any, will be upon such terms and at such prices as we may determine, and will depend on prevailing market conditions, our liquidity requirements, contractual restrictions and other factors. The amounts involved may be material. 
+
+ In September 2013, our Board of Directors approved a stock buyback program. In February 2024, our Board of Directors approved an increase of the authorization under the stock buyback program to allow for an aggregate of $1.0 billion of future share repurchases. All purchases executed to date have been through open market transactions. Purchases under the buyback program are made at management’s discretion, at prevailing prices, subject to market conditions and other factors. Purchases may be made at any time without prior notice. There is no expiration date associated with the buyback program. As of March 31, 2026, we had remaining authorization to purchase approximately $694 million of our outstanding common stock under the stock buyback program. Shares of stock purchased under the buyback program are held as treasury shares. 
+
+ Treasury stock acquisitions during the three months ended March 31, 2026 were as follows (dollars in thousands): 
+
+ Shares Cost 
+
+ Treasury shares at beginning of period 144,435,252 $ 2,020,714 
+
+ Acquisitions pursuant to long-term incentive plans (1) 
+ 51,346 350 
+
+ Treasury shares at end of period 144,486,598 $ 2,021,064 
+
+ (1) We withheld 51,346 shares during the three months ended March 31, 2026 with respect to employees’ tax withholding obligations upon the vesting of restricted stock units. These shares were acquired at fair market value. These acquisitions were made pursuant to the terms of the Patterson-UTI Energy, Inc. 2021 Long-Term Incentive Plan, as amended, and the NexTier Oilfield Solutions Inc. Equity and Incentive Award Plan, and not pursuant to the stock buyback program. 
+
+ Commitments — As of March 31, 2026, we had commitments to purchase major equipment totaling approximately $128 million. Our completion services segment has entered into agreements to purchase minimum quantities of proppants from certain vendors. As of March 31, 2026, the remaining minimum obligation under these agreements was approximately $21.7 million, of which approximately $16.9 million and $4.8 million relate to the remainder of 2026 and 2027, respectively. 
+
+ See Note 9 of Notes to unaudited condensed consolidated financial statements for additional information on our current commitments and contingencies as of March 31, 2026. 
+
+ 31 
+
+ Operating lease liabilities totaled $40.9 million and finance lease liabilities totaled $6.6 million as of March 31, 2026. 
+
+ Trading and Investing — We have not engaged in trading activities that include high-risk securities, such as derivatives and non-exchange traded contracts. We invest cash primarily in highly liquid, short-term investments such as overnight deposits and money market accounts. 
+
+ Non-GAAP Financial Measures 
+
+ Adjusted EBITDA 
+
+ Adjusted earnings before interest, taxes, depreciation and amortization (“Adjusted EBITDA”) is not defined by GAAP. We define Adjusted EBITDA as net income (loss) plus income tax expense (benefit), net interest expense, depreciation, depletion, amortization and impairment expense, legal accruals and settlements, impairment of goodwill and merger and integration expense. We present Adjusted EBITDA as a supplemental disclosure because we believe it provides, to both management and investors, additional information with respect to the performance of our fundamental business activities and a comparison of the results of our operations from period to period and against our peers without regard to our financing methods or capital structure. We exclude the items listed above from net income (loss) in arriving at Adjusted EBITDA because these amounts can vary substantially from company to company within our industry depending upon accounting methods and book values of assets, capital structures and the method by which the assets were acquired. Adjusted EBITDA should not be construed as an alternative to the GAAP measure of net income (loss). Our computations of Adjusted EBITDA may not be the same as similarly titled measures of other companies. Set forth below is a reconciliation of the non-GAAP financial measure of Adjusted EBITDA to the GAAP financial measure of net income (loss). 
+
+ Three Months Ended 
+
+ March 31, December 31, March 31, 
+
+ 2026 2025 2025 
+
+ (in thousands) 
+
+ Net income (loss) $ (24,476) $ (9,197) $ 1,290 
+
+ Income tax expense (benefit) (3,596) (5,929) 1,390 
+
+ Net interest expense 14,720 15,245 16,233 
+
+ Depreciation, depletion, amortization and impairment 218,394 220,942 231,866 
+
+ Merger and integration expense — 6 432 
+
+ Adjusted EBITDA $ 205,042 $ 221,067 $ 251,211 
+
+ 32 
+
+ Adjusted Gross Profit 
+
+ Adjusted gross profit is considered a non-GAAP financial measure. We define “Adjusted gross profit” as revenues less direct operating costs (excluding depreciation, depletion, amortization and impairment expense, which does not include impairment of goodwill). Adjusted gross profit is included as a supplemental disclosure because it is a useful indicator of our operating performance. 
+
+ Drilling Services Completion Services Drilling Products Other 
+
+ (in thousands) 
+
+ For the three months ended March 31, 2026 
+
+ Revenues $ 351,717 $ 679,587 $ 79,797 $ 6,230 
+
+ Less direct operating costs (217,861) (581,486) (46,924) (2,884) 
+
+ Less depreciation, depletion, amortization and impairment (83,944) (111,472) (19,846) (1,269) 
+
+ GAAP gross profit (loss) 49,912 (13,371) 13,027 2,077 
+
+ Depreciation, depletion, amortization and impairment 83,944 111,472 19,846 1,269 
+
+ Adjusted gross profit $ 133,856 $ 98,101 $ 32,873 $ 3,346 
+
+ For the three months ended December 31, 2025 
+
+ Revenues $ 360,777 $ 701,560 $ 83,774 $ 4,702 
+
+ Less direct operating costs (228,426) (590,657) (49,590) (3,219) 
+
+ Less depreciation, depletion, amortization and impairment (85,044) (110,941) (20,515) (2,429) 
+
+ GAAP gross profit (loss) 47,307 (38) 13,669 (946) 
+
+ Depreciation, depletion, amortization and impairment 85,044 110,941 20,515 2,429 
+
+ Adjusted gross profit $ 132,351 $ 110,903 $ 34,184 $ 1,483 
+
+ For the three months ended March 31, 2025 
+
+ Revenues $ 412,860 $ 766,080 $ 85,663 $ 15,934 
+
+ Less direct operating costs (247,629) (657,681) (46,940) (9,164) 
+
+ Less depreciation, depletion, amortization and impairment (84,972) (115,826) (22,876) (6,336) 
+
+ GAAP gross profit (loss) 80,259 (7,427) 15,847 434 
+
+ Depreciation, depletion, amortization and impairment 84,972 115,826 22,876 6,336 
+
+ Adjusted gross profit (loss) $ 165,231 $ 108,399 $ 38,723 $ 6,770 
+
+ Critical Accounting Estimates 
+
+ The preparation of financial statements in conformity with GAAP requires management to make certain estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from such estimates. There have been no material changes to our critical accounting estimates previously disclosed in Item 7 of our Annual Report. 
+
+ Recently Issued Accounting Standards 
+
+ See Note 1 of Notes to unaudited condensed consolidated financial statements for a discussion of the impact of recently issued accounting standards. 
+
+ 33 
+
+ Volatility of Oil and Natural Gas Prices and its Impact on Operations and Financial Condition 
+
+ Our revenues, profitability and cash flows are highly dependent upon capital expenditures of exploration and production companies (“E&Ps”), which are largely driven by capital budgets set to achieve respective production targets in relation to current and expected future prices for oil and natural gas, as well as broader macroeconomic conditions. Commodity prices have historically been volatile and are affected by global supply and demand dynamics, geopolitical conditions and other factors, but were relatively range-bound in recent years. The current demand for equipment and services remains impacted by macro conditions that are outside of our control, including commodity prices, geopolitical environment, changes to international tariffs and trade policies, inflationary pressures, global economic conditions, as well as customer consolidation and focus by E&Ps and service companies on capital returns. 
+
+ During 2025, global economic conditions weakened in part due to uncertainty related to trade policies and tariffs implemented or proposed by the United States and other governments. At the same time, oil markets were affected by evolving supply dynamics, including changes in production policies by OPEC+ countries and increasing non-OPEC supply. These factors contributed to periods of downward pressure on crude oil prices and increased uncertainty in global energy markets. 
+
+ In the first quarter of 2026, energy markets experienced high volatility, driven in large part by instability in the Middle East, including the conflict with Iran, and concerns regarding potential disruptions to global supply and transportation routes, which has contributed to fluctuations in commodity prices and market sentiment. Geopolitical uncertainty, even in the absence of actual supply disruptions, may contribute to short-term commodity price volatility as market participants adjust expectations regarding potential sanctions, production levels and regional stability. While the full effects are yet to be determined, we believe these dynamics could support increased activity in second half of 2026, particularly in North America, as operators reassess capital allocation and activity levels commensurate with commodity prices and supply chain dependability. 
+
+ Oil prices averaged $72.74 per barrel in the first quarter of 2026, as compared to $59.62 per barrel in the fourth quarter of 2025, and closed at $91.06 per barrel on April 20, 2026. Natural gas prices (based on the Henry Hub Spot Market Price) averaged $4.71 per MMBtu in the first quarter of 2026 as compared to an average of $3.73 per MMBtu in the fourth quarter of 2025, and closed at $2.81 per MMBtu on April 20, 2026. 
+
+ In light of these and other factors, we expect oil and natural gas prices to continue to be unpredictable and to affect our financial condition, operations and ability to access sources of capital. Higher oil and natural gas prices do not necessarily result in increased activity because demand for our services is generally driven by our customers’ expectations of future oil and natural gas prices, as well as our customers’ ability to access, and willingness to deploy, capital to fund their operating and capital expenditures. A decline in demand for oil and natural gas, prolonged low oil or natural gas prices, expectations of decreases in oil and natural gas prices or a reduction in the ability of our customers to access capital would likely result in reduced capital expenditures by our customers and decreased demand for our services, which could have a material adverse effect on our operating results, financial condition and cash flows. Even during periods of historically moderate or high prices for oil and natural gas, companies exploring for oil and natural gas may cancel or curtail programs or reduce their levels of capital expenditures for exploration and production for a variety of reasons, including the depletion of capital expenditure budgets and/or meeting annual drilling and completion targets, which could reduce demand for our services. 
+
+ Impact of Inflation and Trade Policies 
+
+ Moderate inflationary pressures and uncertainty regarding recently enacted and proposed changes to trade policies and tariffs by the United States and other governments, as well as uncertainty regarding potential future changes to global trade policies and tariffs, have contributed, or may contribute, to increases in the cost of certain goods, services and labor. While the full effects are yet to be determined, prolonged trade tensions could, among other things, increase the costs of certain products and raw materials used in our businesses, such as drill pipe, parts and electronics. We continue to actively monitor market trends primarily related to sourcing of labor, supplies and equipment. 
+
+ 34 
+
+ ITEM 3. Quantitative and Qualitative Disclosures About Market Risk 
+
+ We may be exposed to certain market risks arising from the use of financial instruments in the ordinary course of business. For quantitative and qualitative disclosures about market risk, see Part II, Item 7A, “Quantitative and Qualitative Disclosures About Market Risk,” in our Annual Report. There have been no material changes in our exposure to market risk. 
+
+ As of March 31, 2026, we would have had exposure to interest rate market risk associated with any outstanding borrowings and letters of credit that we had under the Credit Agreement and amounts owed under the 2015 Reimbursement Agreement. As of March 31, 2026, we had $2.8 million in letters of credit outstanding under the Credit Agreement and, as a result, had available borrowing capacity of approximately $497 million at that date. 
+
+ Under the terms of the 2015 Reimbursement Agreement, we will reimburse Scotiabank on demand for any amounts that Scotiabank has disbursed under any of our letters of credit issued thereunder. We are obligated to pay Scotiabank interest on all amounts not paid by us on the date of demand or when otherwise due at the Prime rate plus 2.00% per annum. 
+
+ Our functional currency is primarily the U.S. dollar. Approximately 98% of our revenue during the first quarter of 2026 was denominated in U.S. dollars. As such, we do not believe we are significantly exposed to foreign currency exchange rate risk. However, a portion of our revenues in foreign countries are denominated in U.S. dollars, and therefore, changes in foreign currency exchange rates impact our earnings to the extent that costs associated with those U.S. dollar revenues are denominated in the local currency. Similarly, a portion of our revenues are denominated in foreign currencies, but have associated U.S. dollar costs, which also give rise to foreign currency exchange rate exposure. 
+
+ The carrying values of cash, cash equivalents and restricted cash, trade receivables and accounts payable approximate fair value due to the short-term maturity of these items. 
+
+ ITEM 4. Controls and Procedures 
+
+ Disclosure Controls and Procedures — We maintain disclosure controls and procedures (as such terms are defined in Rules 13a-15(e) and 15d-15(e) promulgated under the Exchange Act), designed to ensure that the information required to be disclosed in the reports that we file with the SEC under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms, and that such information is accumulated and communicated to our management, including our Chief Executive Officer (“CEO”) and Chief Financial Officer (“CFO”), as appropriate, to allow timely decisions regarding required disclosure. 
+
+ Under the supervision and with the participation of our management, including our CEO and CFO, we conducted an evaluation of the effectiveness of our disclosure controls and procedures as of the end of the period covered by this Quarterly Report on Form 10‑Q. Based on that evaluation, our CEO and CFO concluded that our disclosure controls and procedures were effective as of March 31, 2026. 
+
+ Changes in Internal Control Over Financial Reporting —There were no changes in our internal control over financial reporting during our most recently completed fiscal quarter that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting, as defined in Rule 13a-15(f) under the Exchange Act. 
+
+ 35 
+
+ PART II — OTHER INFORMATION 
+
+ ITEM 1. Legal Proceedings 
+
+ Certain subsidiaries we acquired in the Ulterra acquisition are defendants in a claim brought by a subsidiary of NOV Inc. alleging breach of a license agreement related to certain patents. Such subsidiaries have asserted defenses to the claim and are defending vigorously against this claim. 
+
+ On February 6, 2023, Grant Prideco, Inc., ReedHycalog UK, Ltd., ReedHycalog, LP and National Oilwell Varco, LP (“NOV”) sued Ulterra Drilling Technologies, LP (“Ulterra”) and several other companies in Texas state court. NOV seeks a declaration that United States Patent No. 8,721,752 (the “’752 Patent”) is a “Licensed RH Patent” per the terms of a license agreement between Ulterra and NOV. NOV also alleges a breach of contract based on the license agreement between NOV and Ulterra and seeks allegedly owed royalties since October 22, 2021. NOV also seeks attorney’s fees. 
+
+ On February 27, 2023, Ulterra filed a plea to the jurisdiction, and subject thereto, an answer, affirmative defenses and counterclaims. Ulterra’s counterclaims include: (i) declaratory judgments of non-infringement of U.S. Pat. No. 7,568,534 and the ’752 patent; (ii) a declaratory judgment of no royalties after Oct. 22, 2021; (iii) a declaratory judgment that certain other identified patents are expired and therefore not infringed after Oct. 22, 2021; and (iv) a declaratory judgment of no breach of contract. On the same day, Ulterra filed a notice of removal in federal court for the Southern District of Texas, Houston Division (SDTX 4:23-cv-00730), as well as a corresponding notice in Texas state court. NOV moved to dismiss and remand the case back to state court. On February 17, 2024, the Court denied NOV’s motion. On March 19, 2024, Ulterra moved for judgment on the pleadings regarding its declaratory judgment that certain other identified patents are expired and therefore not infringed after October 22, 2021. On February 13, 2025, the motion was granted in part and denied in part. 
+
+ In October and November 2025, the Court resolved certain dispositive motions in Ulterra’s favor, resulting in a Final Judgment in Ulterra’s favor on November 25, 2025. NOV has acknowledged that the Court’s rulings mean it cannot collect any of the royalties it had alleged were owed. On December 12, 2025, NOV filed a Notice of Appeal to the United States Court of Appeals for the Federal Circuit. The appeal is currently pending before the Federal Circuit as Docket Nos. 26-1256 and 26-1266. On April 20, 2026, NOV filed its opening appellate brief. Ulterra’s response is currently due June 1, 2026. 
+
+ Additionally, we are party to various other legal proceedings arising in the normal course of our business. We do not believe that the outcome of these proceedings, either individually or in the aggregate, will have a material adverse effect on our financial condition, cash flows or results of operations. 
+
+ ITEM 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+
+ The table below sets forth the information with respect to purchases of our common stock made by us during the quarter ended March 31, 2026. 
+
+ Period Covered 
+ Total 
+
+ Number of Shares 
+
+ Purchased (1) 
+ Average Price
+Paid per
+Share Total Number of
+Shares (or Units)
+Purchased as Part
+of Publicly
+Announced Plans
+or Programs 
+ Approximate Dollar 
+
+ Value of Shares 
+
+ That May Yet Be 
+
+ Purchased Under the 
+
+ Plans or 
+
+ Programs 
+
+ (in thousands) (2) 
+
+ January 2026 39,848 $ 6.47 — $ 693,661 
+
+ February 2026 11,119 $ 8.01 — $ 693,661 
+
+ March 2026 379 $ 9.85 — $ 693,661 
+
+ Total 51,346 — 
+
+ (1) We withheld 51,346 shares during the first quarter of 2026 with respect to employees’ tax withholding obligations upon the vesting of restricted stock units. These shares were acquired at fair market value. These acquisitions were made pursuant to the terms of the Patterson-UTI Energy, Inc. 2021 Long-Term Incentive Plan, as amended, and the NexTier Oilfield Solutions Inc. Equity and Incentive Award Plan, and not pursuant to the stock buyback program. 
+
+ (2) In September 2013, our Board of Directors approved a stock buyback program. In February 2024, our Board of Directors approved an increase of the authorization under the stock buyback program to allow for an aggregate of $1.0 billion of future share repurchases. All purchases executed to date have been through open market transactions. Purchases under the buyback program are made at management’s discretion, at prevailing prices, subject to market conditions and other factors. Purchases may be made at any time without prior notice. There is no expiration date associated with the buyback program. 
+
+ 36 
+
+ ITEM 5. Other Information 
+
+ (c) During the three months ended March 31, 2026, no director or officer of our company adopted or terminated any trading arrangements for the sale of shares of our common stock. 
+
+ ITEM 6. Exhibits 
+
+ The following exhibits are filed herewith or incorporated by reference, as indicated: 
+
+ 3.1 
+ Restated Certificate of Incorporation of Patterson-UTI Energy, Inc., dated as of June 6, 2024 (filed June 6, 2024 as Exhibit 4.1 to our Registration Statement on Form S-8 and incorporated herein by reference). 
+
+ 3.2 
+ Amended and Restated Bylaws of Patterson-UTI Energy, Inc., effective June 14, 2023 (filed June 15, 2023 as Exhibit 3.1 to our Current Report on Form 8-K and incorporated herein by reference). 
+
+ 10.1 
+ Assignment and Amendment No. 1 to Second Amended and Restated Credit Agreement, dated April 24, 2026, by and among Patterson-UTI Energy, Inc., Wells Fargo Bank, National Association, as administrative agent, letter of credit issuer, swing line lender and a lender and each of the other letter of credit issuers and lenders party thereto (filed April 28, 2026 as Exhibit 10.1 to our Current Report on Form 8-K and incorporated herein by reference). 
+
+ 31.1* 
+ Certification of Chief Executive Officer pursuant to Rule 13a-14(a)/15d-14(a) of the Securities Exchange Act of 1934, as amended. 
+
+ 31.2* 
+ Certification of Chief Financial Officer pursuant to Rule 13a-14(a)/15d-14(a) of the Securities Exchange Act of 1934, as amended. 
+
+ 32.1** 
+ Certification of Chief Executive Officer and Chief Financial Officer pursuant to 18 USC Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+
+ 101.INS* Inline XBRL Instance Document – the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document. 
+
+ 101.SCH* Inline XBRL Taxonomy Extension Schema Document 
+
+ 101.CAL* Inline XBRL Taxonomy Extension Calculation Linkbase Document 
+
+ 101.DEF* Inline XBRL Taxonomy Extension Definition Linkbase Document 
+
+ 101.LAB* Inline XBRL Taxonomy Extension Label Linkbase Document 
+
+ 101.PRE* Inline XBRL Taxonomy Extension Presentation Linkbase Document 
+
+ 104 
+ The cover page from our Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, has been formatted in Inline XBRL. 
+
+ * filed herewith. 
+
+ ** furnished herewith. 
+
+ 37 
+
+ SIGNATURE 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+
+ PATTERSON-UTI ENERGY, INC. 
+
+ By: /s/ C. Andrew Smith 
+
+ C. Andrew Smith 
+
+ Executive Vice President and 
+
+ Chief Financial Officer 
+
+ (Principal Financial Officer and Duly Authorized Officer) 
+
+ Date: April 28, 2026 
+
+ 38
