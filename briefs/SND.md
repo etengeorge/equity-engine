@@ -1,102 +1,112 @@
-# SD — SANDRIDGE ENERGY INC
-*Energy · brief generated 2026-09-03 · selected as **opportunistic***
+# SND — SMART SAND INC
+*Energy · brief generated 2026-09-04 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 48 Energy peers (98th pct)
-- baseline gap +230%
+- cheapest 2% of 47 Energy peers (98th pct)
+- baseline gap +296%
+- discounted: stock comp is 20% of reported FCFF
+- discounted: cash-flow base may be a cycle peak
+- 21d move +28%
+- filed an 8-K in the last few sessions
 - Energy is in the news
-- Energy sector melt_up (median +4.8%)
 - never researched
-- urgency score 7.41
+- urgency score 8.61
 
 ## Market
 | | |
 |---|---|
-| price | $14.47 |
-| market cap | $536.5M |
-| 5d / 21d / 63d / 252d | +4.0% / +7.8% / -4.9% / +26.5% |
-| 60d avg daily $ volume | $4.4M |
-| beta (vs IWM) | 0.41 (R²=0.026) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.9x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 100% / debt 0% |
+| price | $5.35 |
+| market cap | $226.8M |
+| 5d / 21d / 63d / 252d | +6.2% / +28.0% / -4.3% / +201.2% |
+| 60d avg daily $ volume | $1.7M |
+| beta (vs IWM) | 0.31 (R²=0.039) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 0.6x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$67.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$41.5M', '$47.5M', '$89.2M']
-Enterprise value **$423.1M** · FCFF yield **+15.9%**
+Normalized FCFF base **$17.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$32.5M', '$10.9M', '$8.0M']
+Enterprise value **$257.8M** · FCFF yield **+6.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.0% − 1pt | -25.6% |
-| **7.0% (point)** | **-22.1%** |
-| 7.0% + 1pt | -19.1% |
+| 6.3% − 1pt | -12.5% |
+| **6.3% (point)** | **-7.5%** |
+| 6.3% + 1pt | -3.3% |
 
 
-Naive baseline for comparison: **+6.3%** (5y revenue CAGR +6.3%).
-Gap under that baseline: **+230.0%** (fair value $47.74 vs price $14.47).
+> **Stock compensation is 20% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$13.6M** and an implied growth of **-2.7%** instead of -7.5%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+22.0%** (5y revenue CAGR +22.0%).
+Gap under that baseline: **+296.3%** (fair value $21.20 vs price $5.35).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +211.6%).
+Cohort: **98th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +276.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
-- `possible_trough_cycle_base_newest_fcf_0.47x_oldest_growth_applied_to_a_trough_understates_value`
+- `possible_peak_cycle_base_newest_fcf_4.1x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_20%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1349436/000162828026054413/sd-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1349436/000162828026053557/sd-20260804.htm
-- 2026-06-29 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1349436/000121390026072879/ea0296206-8k_sandridge.htm
-- 2026-06-16 **8-K** — items 1.01,3.03,5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1349436/000121390026068945/ea0294825-8k_sandridge.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1349436/000162828026032222/sd-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1349436/000162828026031401/sd-20260505.htm
-- 2026-04-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1349436/000114036126017133/ny20066631x1_def14a.htm
-- 2026-04-21 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1349436/000121390026046155/ea0287098-8k_sandridge.htm
-- 2026-03-05 **10-K** — https://www.sec.gov/Archives/edgar/data/1349436/000162828026015318/sd-20251231.htm
-- 2026-03-05 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1349436/000162828026014848/sd-20260303.htm
+- 2026-09-03 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000104/snd-20260901.htm
+- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000095/snd-20260630.htm
+- 2026-08-11 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000096/snd-20260811.htm
+- 2026-07-20 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000089/snd-20260716.htm
+- 2026-06-08 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000047/snd-20260602.htm
+- 2026-05-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000039/snd-20260515.htm
+- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000033/snd-20260331.htm
+- 2026-05-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000034/snd-20260512.htm
+- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000025/snd-20260421.htm
+- 2026-04-09 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000014/snd-20260409.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1349436/000162828026053557/sd6302026-ex991earningsrel.htm
-- **2026-06-29** · EX-99.1 · press release — PRESS RELEASE, DATED JUNE 29, 2026 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1349436/000121390026072879/ea029620601ex99-1.htm
-- **2026-05-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1349436/000162828026031401/sd3312026-ex991earningsrel.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000096/a2026q2exhibit991.htm
+- **2026-07-20** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000089/snd-pressreleasexdividendd.htm
+- **2026-05-12** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000034/a2026q1exhibit991.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*2 items held; showing the 2 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-08-11** · Smart Sand, Inc. Announces Second Quarter 2026 Results — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/smart-sand-inc-announces-second-200000484.html
+  > Smart Sand, Inc. (NASDAQ: SND) (the "Company" or "Smart Sand"), a leading supplier of premium Northern White frac sand and industrial sand and a proppant logistics solutions provider, today announced results for the second quarter of 2026.
+- **2026-07-16** · SMART SAND, INC. DECLARES SPECIAL DIVIDEND OF $0.10 PER SHARE — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/smart-sand-inc-declares-special-200000434.html
+  > Smart Sand, Inc. (NASDAQ: SND) ("Smart Sand" or the "Company") announced today that its board of directors has declared a special cash dividend on the Company's common stock of $0.10 per share, payable on August 12, 2026, to stockholders of
 
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-04** · Goldman’s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside — *Insider Monkey* — https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html
+- **2026-09-03** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html
+- **2026-09-03** · Sector Update: Energy Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html
+- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
 - **2026-09-03** · Sector Update: Energy Stocks Rise Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132503315.html
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-02** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195545186.html
 - **2026-09-02** · Norwegian Cruise Line Just Dropped 16% in a Month: Sell Now, or Buy More? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/02/norwegian-cruise-line-just-dropped-16-in-a-month-sell-now-or-buy-more/
 - **2026-09-02** · Sector Update: Energy Stocks Higher in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-174723978.html
 - **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
-- **2026-09-02** · Sector Update: Energy Stocks Decline Premarket Wednesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132435355.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-02** · Bear of the Day: Archrock (AROC) — *Zacks* — https://finance.yahoo.com/energy/articles/bear-day-archrock-aroc-080000864.html
-- **2026-09-01** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195655132.html
 
 ## Market and macro context
-- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
-- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
-- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
-- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
+- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
+- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
+- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
+- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
 
 *Rules, releases and agency actions:*
-- **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
-- **2026-09-03** · Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers; Further Extension of Compliance Date — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18104/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers-further-extension-of
-- **2026-09-03** · Notice of Availability and Request for Comment: Revision to the Voluntary Standard for Products Containing Button Cell or Coin Batteries — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18103/notice-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for-products
-- **2026-09-03** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18072/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-03** · Special Local Regulation; Allegheny River Mile Markers 0-3.5 and Ohio River Mile Marker 0-3, Pittsburgh, PA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18062/special-local-regulation-allegheny-river-mile-markers-0-35-and-ohio-river-mile-marker-0-3-pittsburgh
-- **2026-09-03** · Determining the Appropriate Penalty for Federal Employees Charged With Misconduct — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct
+- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
+- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
+- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
+- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
+- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

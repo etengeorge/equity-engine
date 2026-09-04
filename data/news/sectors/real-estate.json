@@ -1,5 +1,33 @@
 [
  {
+  "id": "402732ad-dcf2-30b5-aeaf-c669b6a01336",
+  "ts": "2026-09-03T19:57:45+00:00",
+  "title": "Sector Update: Financial Stocks Gain Late Afternoon",
+  "summary": "Financial stocks were advancing in late Thursday afternoon trading, with the NYSE Financial Index ri",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "a5deab0c-c977-3bfe-b801-d62385f78355",
+  "ts": "2026-09-03T17:55:45+00:00",
+  "title": "Sector Update: Financial Stocks Higher Thursday Afternoon",
+  "summary": "Financial stocks were advancing in Thursday afternoon trading, with the NYSE Financial Index and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "cb0bb402-667f-3beb-b76c-352ee9d7bc35",
   "ts": "2026-09-02T19:44:21+00:00",
   "title": "Sector Update: Financial Stocks Higher Late Afternoon",

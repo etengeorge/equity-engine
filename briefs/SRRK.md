@@ -1,68 +1,78 @@
-# LNTH — LANTHEUS HOLDINGS
-*Health Care · brief generated 2026-09-03 · selected as **rotation***
+# SRRK — SCHOLAR ROCK HOLDING
+*Health Care · brief generated 2026-09-04 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 53/1956
+- rotation position 58/1956
 
 ## Market
 | | |
 |---|---|
-| price | $100.81 |
-| market cap | $6.6B |
-| 5d / 21d / 63d / 252d | -0.0% / -0.3% / +0.6% / +82.3% |
-| 60d avg daily $ volume | $140.1M |
-| beta (vs IWM) | None (R²=0.015) · **sector_median** |
-| 5d volume vs 60d average | 0.8x |
+| price | $55.94 |
+| market cap | $6.8B |
+| 5d / 21d / 63d / 252d | -5.6% / +16.9% / +23.4% / +62.7% |
+| 60d avg daily $ volume | $69.7M |
+| beta (vs IWM) | 0.65 (R²=0.014) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 92% / debt 8% |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$383.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$354.1M', '$493.1M', '$258.7M']
-Enterprise value **$6.6B** · FCFF yield **+5.9%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.0% − 1pt | +9.0% |
-| **11.0% (point)** | **+12.1%** |
-| 11.0% + 1pt | +15.0% |
+| 8.5% − 1pt | n/a |
+| **8.5% (point)** | **n/a** |
+| 8.5% + 1pt | n/a |
 
 
-> **Stock compensation is 19% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$312.8M** and an implied growth of **+17.4%** instead of +12.1%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+25.0%** (5y revenue CAGR +35.3% (clamped to +25.0%)).
-Gap under that baseline: **+62.5%** (fair value $163.85 vs price $100.81).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $55.94).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **78th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +78.1%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| p_tbv (n=330) | 26.8x | 2.4x / 4.5x / 8.2x | $5.06 / $9.45 / $17.14 |
+
+Blended midpoint **$9.45** vs price $55.94 — gap **-83.1%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `beta_from_sector_median_1.24(unreliable_r2_0.015_raw_0.30)`
+- `speculative_cost_of_debt_but_only_3%_debt_weight`
+- `negative_fcf_year_in_window`
+- `nonpositive_normalized_fcff`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1521036/000119312526336795/lnth-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526336771/lnth-20260806.htm
-- 2026-08-04 **8-K** — items 1.01,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526331138/d167446d8k.htm
-- 2026-08-03 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526329622/d148563d8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1521036/000119312526210373/lnth-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526210369/lnth-20260507.htm
-- 2026-05-01 **8-K** — items 3.03,5.02,5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526201556/d16067d8k.htm
-- 2026-03-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1521036/000119312526117649/d61755ddef14a.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1521036/000119312526073498/lnth-20251231.htm
-- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1521036/000119312526073439/lnth-20260226.htm
+- 2026-08-06 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926091702/tm2622083d2_8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336732/srrk-20260630.htm
+- 2026-08-06 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-20260806.htm
+- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926070636/srrk-20260604x8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056667/srrk-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507x8k.htm
+- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926046917/tm261440-1_def14a.htm
+- 2026-03-31 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926037350/tm2610664d1_8k.htm
+- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926022551/srrk-20251231x10k.htm
+- 2026-03-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926022547/srrk-20260303x8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1521036/000119312526336771/lnth-ex99_1.htm
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1521036/000119312526329622/d148563dex991.htm
-- **2026-08-03** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1521036/000119312526329622/d148563dex992.htm
-- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1521036/000119312526210369/lnth-ex99_1.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations)* — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-ex99_1.htm
+- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d1.htm
+- **2026-05-07** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d2.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -70,30 +80,30 @@ Attack these before you trust any number above.
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
+- **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
+- **2026-09-03** · Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
 - **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
+- **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 - **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 - **2026-09-01** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194653614.html
 - **2026-09-01** · Sector Update: Healthcare Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-tuesday-174146205.html
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-09-01** · Abbott Laboratories Stock: Is ABT Underperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4365593/abbott-laboratories-stock-is-abt-underperforming-the-healthcare-sector
-- **2026-08-31** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195617417.html
-- **2026-08-31** · This Popular Healthcare ETF Is Diluting Your Dividend Income — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/this-popular-healthcare-etf-is-diluting-your-dividend-income/
 
 ## Market and macro context
-- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
-- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
-- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
-- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
+- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
+- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
+- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
+- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
 
 *Rules, releases and agency actions:*
-- **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
-- **2026-09-03** · Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers; Further Extension of Compliance Date — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18104/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers-further-extension-of
-- **2026-09-03** · Notice of Availability and Request for Comment: Revision to the Voluntary Standard for Products Containing Button Cell or Coin Batteries — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18103/notice-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for-products
-- **2026-09-03** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18072/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-03** · Special Local Regulation; Allegheny River Mile Markers 0-3.5 and Ohio River Mile Marker 0-3, Pittsburgh, PA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18062/special-local-regulation-allegheny-river-mile-markers-0-35-and-ohio-river-mile-marker-0-3-pittsburgh
-- **2026-09-03** · Determining the Appropriate Penalty for Federal Employees Charged With Misconduct — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct
+- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
+- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
+- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
+- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
+- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

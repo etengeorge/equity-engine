@@ -1,5 +1,61 @@
 [
  {
+  "id": "402732ad-dcf2-30b5-aeaf-c669b6a01336",
+  "ts": "2026-09-03T19:57:45+00:00",
+  "title": "Sector Update: Financial Stocks Gain Late Afternoon",
+  "summary": "Financial stocks were advancing in late Thursday afternoon trading, with the NYSE Financial Index ri",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "a5deab0c-c977-3bfe-b801-d62385f78355",
+  "ts": "2026-09-03T17:55:45+00:00",
+  "title": "Sector Update: Financial Stocks Higher Thursday Afternoon",
+  "summary": "Financial stocks were advancing in Thursday afternoon trading, with the NYSE Financial Index and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "30dc0d80-941f-38d3-950a-09f79b144050",
+  "ts": "2026-09-03T17:08:17+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b7dcdedc-d6c8-3473-9387-258a2e51bc9c",
+  "ts": "2026-09-03T15:48:44+00:00",
+  "title": "How Is Blackstone's Stock Performance Compared to Other Financial Stocks?",
+  "summary": "Blackstone has underperformed the Financial industry over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
   "ts": "2026-09-03T13:20:19+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",

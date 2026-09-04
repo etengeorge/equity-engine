@@ -1,11 +1,59 @@
 [
  {
+  "id": "5274d4d7-6dc1-3f98-ab4a-d36e54ffd6ae",
+  "ts": "2026-09-03T19:05:08+00:00",
+  "title": "Why Argan Stock Just Popped",
+  "summary": "Argan delivers strong earnings to match its strong stock performance.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/03/why-argan-stock-just-popped/",
+  "tickers": [
+   "AGX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "efc2b816-3618-3e52-8002-6afedc51c019",
+  "ts": "2026-09-03T15:21:00+00:00",
+  "title": "Argan Stock Rises on Q2 Earnings & Revenue Beat, Gross Margin Up Y/Y",
+  "summary": "AGX's Q2 earnings and revenues beat estimates as Power growth, margin expansion and a $2.5B backlog strengthen its outlook.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/argan-stock-rises-q2-earnings-152100209.html",
+  "tickers": [
+   "AGX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "29e65939-0f25-38dd-a45c-4171ec91cd08",
+  "ts": "2026-09-03T14:54:00+00:00",
+  "title": "Can Argan's 53% Power Revenue Growth Continue With a $2.5B Backlog?",
+  "summary": "With Power revenues up 53%, can AGX turn its $2.5 billion backlog into sustained growth despite project timing?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/argans-53-power-revenue-growth-145400664.html",
+  "tickers": [
+   "AGX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ef35d869-727d-31a2-9ed3-ae3b732f80da",
   "ts": "2026-09-03T13:17:00+00:00",
   "title": "Argan Q2 Earnings Call Highlights Power Pipeline and Margin Outlook",
   "summary": "AGX's Q2 beat highlights a strong gas-project pipeline, solid Power margins and capacity expansion, even as near-term revenue growth may moderate.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/markets/stocks/articles/argan-q2-earnings-call-highlights-131700578.html",
+  "tickers": [
+   "AGX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1e09009d-6e31-356c-98ff-380115126f59",
+  "ts": "2026-09-03T12:30:00+00:00",
+  "title": "Argan, Inc. Q2 2027 Earnings Call Summary",
+  "summary": "Moby summary of Argan, Inc.'s Q2 2027 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-argan-inc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "AGX"
   ],

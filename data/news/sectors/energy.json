@@ -1,5 +1,61 @@
 [
  {
+  "id": "6c295aa3-8256-3bd9-9e78-f19503435478",
+  "ts": "2026-09-04T01:30:09+00:00",
+  "title": "Goldman\u2019s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside",
+  "summary": "On September 3, Goldman Sachs noted that investors can still find attractive dividend-paying opportunities in energy despite the sector\u2019s sharp rally. The Energy Select Sector SPDR ETF (XLE) has gained about 45% year to date, compared with roughly 13% for the S&P 500, while Brent crude has moved above $95 per barrel amid the conflict [\u2026]",
+  "publisher": "Insider Monkey",
+  "url": "https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "ebd790e8-073b-3f99-bc4e-68d77fae92c3",
+  "ts": "2026-09-03T19:53:50+00:00",
+  "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+  "summary": "Energy stocks were lower late Thursday afternoon, with the NYSE Energy Sector Index decreasing 0.4%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "f771e57a-05ec-3f82-85cc-81b872c1b520",
+  "ts": "2026-09-03T17:58:51+00:00",
+  "title": "Sector Update: Energy Stocks Decline Thursday Afternoon",
+  "summary": "Energy stocks were lower Thursday afternoon, with the NYSE Energy Sector Index down 0.1% and the Sta",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "30dc0d80-941f-38d3-950a-09f79b144050",
+  "ts": "2026-09-03T17:08:17+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "0e3931b2-d27d-34c6-be1e-08ec235592bb",
   "ts": "2026-09-03T13:25:03+00:00",
   "title": "Sector Update: Energy Stocks Rise Pre-Bell Thursday",

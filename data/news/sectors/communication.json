@@ -1,5 +1,19 @@
 [
  {
+  "id": "1743be0f-1ad3-3c35-a739-6913259fe23c",
+  "ts": "2026-09-04T09:09:00+00:00",
+  "title": "Stock Market News for Sep 4, 2026",
+  "summary": "U.S. stock markets closed higher on Thursday after Treasury yields retreated globally.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "b44e39b7-e0ac-3229-bcce-806d72ae4fc6",
   "ts": "2026-09-02T13:33:32+00:00",
   "title": "Sirius XM Rises 6% on Deutsche Bank Upgrade and $45 Price Target, Spotify Holds Steady",

@@ -1,60 +1,60 @@
 {
-  "screen_utc": "2026-09-03T14:46:01+00:00",
-  "price_asof": "2026-09-02",
+  "screen_utc": "2026-09-04T11:26:08+00:00",
+  "price_asof": "2026-09-03",
   "universe": 1956,
-  "modelled": 1079,
-  "modelled_pct": 55.2,
+  "modelled": 1078,
+  "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-03T14:46:03+00:00",
+    "generated_utc": "2026-09-04T11:26:09+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 19,
+        "new": 4,
+        "held": 23,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 1,
-        "held": 23,
+        "new": 4,
+        "held": 27,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 1,
+        "new": 0,
         "held": 17,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 1,
-        "held": 24,
+        "new": 2,
+        "held": 26,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 1,
+        "new": 0,
         "held": 18,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 28,
+        "new": 4,
+        "held": 32,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 16,
+        "new": 2,
+        "held": 18,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 0,
-        "held": 12,
+        "new": 1,
+        "held": 13,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 0,
-        "held": 16,
+        "new": 1,
+        "held": 17,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 18,
+        "new": 3,
+        "held": 21,
         "etf": "XLP"
       },
       "Utilities": {
@@ -66,25 +66,25 @@
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 560,
+    "articles_new": 1029,
     "candidates": 450,
-    "elapsed_s": 228.5
+    "elapsed_s": 198.5
   },
   "picks": [
-    "SYRE",
-    "MAC",
-    "SWX",
-    "LNTH",
-    "UBSI",
-    "PLXS",
-    "TNK",
-    "TK",
-    "SD",
+    "ORA",
+    "NPO",
+    "SRRK",
+    "LTH",
+    "HWC",
+    "GATX",
+    "SND",
+    "LE",
+    "AII",
     "FG"
   ],
   "stages": {
-    "screen": "2026-09-03T14:50:11+00:00",
-    "news": "2026-09-03T14:49:51+00:00",
-    "pick": "2026-09-03T14:50:11+00:00"
+    "screen": "2026-09-04T11:30:09+00:00",
+    "news": "2026-09-04T11:29:27+00:00",
+    "pick": "2026-09-04T11:30:09+00:00"
   }
 }

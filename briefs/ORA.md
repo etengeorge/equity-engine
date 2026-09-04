@@ -1,64 +1,77 @@
-# SWX — SOUTHWEST GAS HOLDINGS
-*Utilities · brief generated 2026-09-03 · selected as **rotation***
+# ORA — ORMAT TECH INC
+*Utilities · brief generated 2026-09-04 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 51/1956
+- rotation position 56/1956
 
 ## Market
 | | |
 |---|---|
-| price | $89.14 |
-| market cap | $6.5B |
-| 5d / 21d / 63d / 252d | -1.6% / +0.8% / +4.7% / +16.3% |
-| 60d avg daily $ volume | $46.6M |
-| beta (vs IWM) | 0.33 (R²=0.11) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 65% / debt 35% |
+| price | $104.19 |
+| market cap | $6.4B |
+| 5d / 21d / 63d / 252d | -0.7% / +6.4% / -26.8% / +14.8% |
+| 60d avg daily $ volume | $92.5M |
+| beta (vs IWM) | 0.44 (R²=0.093) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 68% / debt 32% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$150.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$-251.8M', '$409.9M', '$-363.3M']
-Enterprise value **$9.7B** · FCFF yield **+1.6%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.5% − 1pt | +27.3% |
-| **7.5% (point)** | **+33.2%** |
-| 7.5% + 1pt | +38.5% |
+| 7.8% − 1pt | n/a |
+| **7.8% (point)** | **n/a** |
+| 7.8% + 1pt | n/a |
 
 
-Naive baseline for comparison: **-10.0%** (5y revenue CAGR -10.1% (clamped to -10.0%)).
-Gap under that baseline: **-125.2%** (fair value $-22.49 vs price $89.14).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $104.19).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **9th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -65.2%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=25) | 19.6x | 10.2x / 13.3x / 16.9x | $33.64 / $57.13 / $84.05 |
+| ev_sales (n=30) | 9.1x | 3.0x / 4.4x / 5.5x | $4.86 / $28.57 / $46.31 |
+| ev_gross_profit (n=13) | 33.2x | 7.8x / 11.4x / 18.1x | $-8.28 / $7.39 / $37.48 |
+| p_tbv (n=29) | 3.2x | 1.7x / 2.0x / 2.3x | $55.01 / $67.52 / $77.47 |
+
+Blended midpoint **$40.15** vs price $104.19 — gap **-61.5%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Utilities names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_11.3x_of_mean`
+- `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000112/swx-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000109/swx-20260805.htm
-- 2026-05-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000090/swx-20260507.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000088/swx-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000086/swx-20260505.htm
-- 2026-03-23 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000080/swx-20260323.htm
-- 2026-02-25 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1692115/000119312526071537/d838035d8k.htm
-- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000062/swx-20251231.htm
-- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000060/swx-20260225.htm
-- 2026-02-12 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/1692115/000119312526047540/d939236d8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000014/ora-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926025961/ora20260805_8k.htm
+- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926019607/ora20260604_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000008/ora-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926015235/ora20260506_8k.htm
+- 2026-04-21 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1296445/000119312526166752/ora-20260420.htm
+- 2026-03-23 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000121390026032467/ea0282703-8k_ormat.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000006/ora-20251231.htm
+- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926005680/ora20260225_8k.htm
+- 2026-02-17 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926004369/ora20260217_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99 · press release — JUNE 2026 EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1692115/000169211526000109/swx63026-earningsrelease.htm
+- **2026-08-05** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1296445/000143774926025961/ex_999557.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -78,18 +91,18 @@ Attack these before you trust any number above.
 - **2026-08-24** · After Comparing Every Way to Own the AI Power Buildout, These 3 ETFs Cover the Grid, the Generators, and the Fuel — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/08/24/after-comparing-every-way-to-own-the-ai-power-buildout-these-3-etfs-cover-the-grid-the-generators-and-the-fuel/
 
 ## Market and macro context
-- **2026-09-03** · How Nvidia's latest deal continues to target all points of the AI trade — *Yahoo Finance Video* — https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html
-- **2026-09-03** · Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit — *Zacks* — https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html
-- **2026-09-03** · If a Stock Market Crash Is Coming, This Is Warren Buffett's No. 1 Piece of Advice for Investors Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/if-a-stock-market-crash-is-coming-this-is-warren-b/
-- **2026-09-03** · Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo
+- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
+- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
+- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
+- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
 
 *Rules, releases and agency actions:*
-- **2026-09-03** · List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate
-- **2026-09-03** · Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers; Further Extension of Compliance Date — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18104/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers-further-extension-of
-- **2026-09-03** · Notice of Availability and Request for Comment: Revision to the Voluntary Standard for Products Containing Button Cell or Coin Batteries — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18103/notice-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for-products
-- **2026-09-03** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18072/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-03** · Special Local Regulation; Allegheny River Mile Markers 0-3.5 and Ohio River Mile Marker 0-3, Pittsburgh, PA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18062/special-local-regulation-allegheny-river-mile-markers-0-35-and-ohio-river-mile-marker-0-3-pittsburgh
-- **2026-09-03** · Determining the Appropriate Penalty for Federal Employees Charged With Misconduct — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct
+- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
+- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
+- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
+- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
+- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,5 +1,17 @@
 [
  {
+  "id": "bdf2c962-0904-32b9-a86a-412b80f89287",
+  "ts": "2026-09-04T10:46:10+00:00",
+  "title": "1 of Wall Street\u2019s Favorite Stocks Worth Investigating and 2 We Brush Off",
+  "summary": "The stocks in this article have caught Wall Street\u2019s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about companies so their firms can win business in other product lines like M&A advisory.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-104610247.html",
+  "tickers": [
+   "WRBY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ea5852f7-d814-3230-a5cb-c7508a870eee",
   "ts": "2026-09-01T12:59:59+00:00",
   "title": "Warby Parker (WRBY) Faces a Reality Check After an Underwhelming Glasses Launch",

@@ -1,5 +1,17 @@
 [
  {
+  "id": "8547df3d-769e-325f-9821-2602e5d1a29a",
+  "ts": "2026-09-04T07:36:09+00:00",
+  "title": "1 Russell 2000 Stock with Promising Prospects and 2 We Turn Down",
+  "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-promising-073609338.html",
+  "tickers": [
+   "ONT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a9564c4c-1af7-30ed-9a5a-17cb25894188",
   "ts": "2026-08-14T05:09:00+00:00",
   "title": "5 Must-Read Analyst Questions From Onterris\u2019s Q2 Earnings Call",

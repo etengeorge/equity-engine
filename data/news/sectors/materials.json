@@ -1,5 +1,19 @@
 [
  {
+  "id": "1743be0f-1ad3-3c35-a739-6913259fe23c",
+  "ts": "2026-09-04T09:09:00+00:00",
+  "title": "Stock Market News for Sep 4, 2026",
+  "summary": "U.S. stock markets closed higher on Thursday after Treasury yields retreated globally.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "40257f1d-1ac8-3ceb-bb44-9ac062ff82c4",
   "ts": "2026-08-31T12:48:02+00:00",
   "title": "U.S. steel and materials stocks swing amid U.S.-Canada trade war",

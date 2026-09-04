@@ -1,5 +1,29 @@
 [
  {
+  "id": "edbb90f5-9324-332e-ac6e-859cda44741b",
+  "ts": "2026-09-03T14:03:10+00:00",
+  "title": "Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4%",
+  "summary": "Analyst upgrades are piling onto Robinhood just as its fastest-growing business surpasses crypto revenue, raising the question of whether the platform has fundamentally changed or simply run ahead of itself.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/03/robinhood-rallies-11-on-price-target-hikes-webull-climbs-7-interactive-brokers-gains-4/",
+  "tickers": [
+   "BULL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f04c9fb7-7767-39e4-89f4-405ee73089db",
+  "ts": "2026-09-01T17:43:00+00:00",
+  "title": "Coinbase Powers Webull's Crypto Trading Expansion in Canada",
+  "summary": "COIN expands its Webull partnership into Canada to offer crypto trading, liquidity and custody infrastructure as digital-asset demand rises.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-powers-webulls-crypto-trading-174300179.html",
+  "tickers": [
+   "BULL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "205b00fc-a9d8-3db9-adf1-76d8b0aeb632",
   "ts": "2026-08-31T19:55:00+00:00",
   "title": "Coinbase And Webull Join Forces In Canada",

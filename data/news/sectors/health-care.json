@@ -1,5 +1,47 @@
 [
  {
+  "id": "4d992083-e0b2-3860-b71d-6a5f001f21fe",
+  "ts": "2026-09-03T19:46:02+00:00",
+  "title": "Sector Update: Healthcare Stocks Edge Higher Late Afternoon",
+  "summary": "Healthcare stocks were slightly higher late Thursday afternoon, with the NYSE Healthcare Index incre",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "c50c09db-f4e8-3904-80e3-af00fb7af9fd",
+  "ts": "2026-09-03T17:39:00+00:00",
+  "title": "Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense",
+  "summary": "Drugmakers are getting a boost from strong earnings and M&A. But they\u2019re also havens in a rocky market.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "d789bab8-90a3-39d7-ab2b-8c483ebb7a4f",
+  "ts": "2026-09-03T15:39:52+00:00",
+  "title": "Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector?",
+  "summary": "Despite Bristol-Myers Squibb's outperformance relative to the healthcare sector over the past year, Wall Street analysts remain cautiously optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
   "ts": "2026-09-03T13:20:19+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
@@ -34,6 +76,20 @@
   "summary": "Healthcare stocks were higher Wednesday afternoon, with the NYSE Healthcare Index adding 0.7% and th",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "0d62c22b-989c-350c-be68-d12d757a96bb",
+  "ts": "2026-09-02T15:00:00+00:00",
+  "title": "Lilly\u2019s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity",
+  "summary": "Eli Lilly's $2.875 billion Merida Biosciences deal expands its immunology pipeline, as strong GLP-1 growth continues while LLY shares trail the broader health care sector.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "XLV"
   ],

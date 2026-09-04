@@ -1,5 +1,17 @@
 [
  {
+  "id": "b679c662-f743-3032-8c7d-8948ce897b62",
+  "ts": "2026-09-04T06:00:00+00:00",
+  "title": "A Start-Up Called Nothing Has Raised $450 Million. It\u2019s Coming for the iPhone.",
+  "summary": "Venture capital funding for consumer tech has stalled as funds shift to artificial intelligence. That makes the story of Nothing, a start-up maker of phones and audio gear, all the more surprising.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/nothing-phone-apple-iphone-5351a15b?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1bb1c12b-739e-315d-9b06-11740e15fc24",
   "ts": "2026-09-03T11:47:30+00:00",
   "title": "GoPro merges with Starman Optical in $285 million deal",

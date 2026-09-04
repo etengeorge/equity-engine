@@ -1,11 +1,53 @@
 [
  {
+  "id": "9b6f064c-f2d6-329d-a634-9797b731c176",
+  "ts": "2026-09-03T20:11:00+00:00",
+  "title": "Campbell\u2019s and Other Staples Stocks Have Hit a Rough Patch",
+  "summary": "Campbells cut its full-year guidance and slashed its dividend, as a consumer staples ETF lags behind the market. Staples are not the safe haven they usually are.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/campbells-staples-stocks-5b7ffa41?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "eca7b0d0-f3f8-3d30-9384-bf6c0f69f58a",
+  "ts": "2026-09-03T17:25:57+00:00",
+  "title": "Campbell\u2019s Slides 9% on 36% Dividend Cut, General Mills Falls 4%, Kraft Heinz Drops 3%",
+  "summary": "Campbell's just slashed its dividend and reset guidance well below Wall Street's bar, and the fallout is spreading fast to peers that haven't reported a single number yet.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/03/campbells-slides-9-on-36-dividend-cut-general-mills-falls-4-kraft-heinz-drops-3/",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
   "ts": "2026-09-03T13:20:19+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "4738fb85-ceda-3d1a-8a6f-11587984b0b6",
+  "ts": "2026-09-03T12:54:36+00:00",
+  "title": "Altria Group Stock: Is MO Underperforming the Consumer Defensive Sector?",
+  "summary": "Altria Group has lagged behind the consumer defensive sector, and analysts remain somewhat optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4423098/altria-group-stock-is-mo-underperforming-the-consumer-defensive-sector",
   "tickers": [
    "XLP"
   ],

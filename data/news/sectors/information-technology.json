@@ -1,5 +1,33 @@
 [
  {
+  "id": "08f956d7-a278-3dee-9fb4-6ff577f47c3a",
+  "ts": "2026-09-03T19:45:00+00:00",
+  "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+  "summary": "Tech stocks were higher late Thursday afternoon, with the State Street Technology Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194500234.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "30dc0d80-941f-38d3-950a-09f79b144050",
+  "ts": "2026-09-03T17:08:17+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
   "ts": "2026-09-03T13:20:19+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",

@@ -1,5 +1,17 @@
 [
  {
+  "id": "9b5fd2bf-f0fd-3942-a8a3-ef24d740670a",
+  "ts": "2026-09-03T18:39:18+00:00",
+  "title": "Stocks making big moves yesterday: Limbach, FuelCell Energy, Ollie's, Fortrea, and G-III",
+  "summary": "Check out the companies making headlines yesterday:",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-183918650.html",
+  "tickers": [
+   "FCEL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "55315357-8599-3bd1-9c8e-4f0d87f3a2d8",
   "ts": "2026-09-03T14:00:00+00:00",
   "title": "FuelCell Energy Q3 Earnings Call Focuses on Data Center Conversion",
