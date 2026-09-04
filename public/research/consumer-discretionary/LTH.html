@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LTH — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / LTH</p><h1>LTH <span style='color:var(--faint);font-weight:400'>LIFE TIME GROUP HOLDINGS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$43.09</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-04</b></div></div><div class='prose'><h1>LTH — LIFE TIME GROUP HOLDINGS</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-04 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $43.09</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Life Time is a premium athletic-country-club operator in the middle of a unit build-out, and its reported free cash flow is negative for the same reason any expanding real-estate-heavy operator&#x27;s is: new clubs cost $30-60M each and are capitalised, while the revenue arrives over the following decade. The market values the mature club base and the pipeline, not trailing FCFF. The stock is up 55.2% over twelve months and 32.4% over 63 days because the operating numbers have been good — LTM revenue of $3.0B and adjusted EBITDA of $777.6M at a 26% margin — and because the pre-IPO private equity overhang is clearing rather than building: Leonard Green sold 5.0M shares in a marketed offering at $43.16 on 2026-08-10 and is now down to 2.6% of the company. At 14.0x EV/EBITDA the market is paying a premium to the Consumer Discretionary cohort median of 10.2x for a brand with pricing power, high member retention and a long runway of white-space locations.</p><p><strong>What changed.</strong> The 13D activity the brief&#x27;s news feed flagged is NOT an activist campaign, and reading it as one would have been an error. The Schedule 13D/A filings are Leonard Green&#x27;s — the pre-IPO sponsor — REDUCING its position: on 2026-08-10 Green LTF and the Associates VI-A and VI-B funds sold 5,025,751, 8,512 and 84,836 shares respectively in an offering priced at $43.16, leaving beneficial ownership of 5,908,604 shares, or 2.6% of the 223,461,948 shares outstanding as of 2026-07-27. That share count reconciles exactly to the engine&#x27;s $9.63B market capitalisation at $43.09, so the extract&#x27;s share data is current and correct. Operationally the last 90 days are brand-building rather than financial news: the Ultra Fit high-intensity group training format expanded across North America (2026-08-27), LT Social launched as a member events community (2026-08-26), and the Leadville Trail 100 events ran in August. Third-party analysts moved the other way in the same window — two Simply Wall St pieces on 2026-08-19 argue the stock trades at a premium to both DCF and multiples fair value, while a third notes upward consensus EPS revisions.</p><p><strong>Base case.</strong> No base case. Normalised FCFF is non-positive with a lumpy spread of 4.2x the mean and at least one outright negative year in the window — the signature of a company funding club construction from operating cash flow and sale-leaseback proceeds. A five-year growth rate applied to a negative base is not a valuation. The right frame for Life Time is mature-club unit economics — revenue per club at maturity, contribution margin, the ramp curve for new openings, and the return on invested capital per club net of sale-leaseback financing — against the cost of the build. This engine has none of those.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The case against refusing is that Life Time&#x27;s negative FCFF is a CHOICE, and one that is separable: maintenance capital expenditure on the existing club base is a fraction of total capex, and an owner-earnings figure — adjusted EBITDA less maintenance capex less cash interest — is both computable and the right number. On that basis the company is meaningfully cash-generative and 14x EV/EBITDA is a judgeable multiple rather than an unanswerable question. Declining to split growth capex from maintenance capex is a limitation of the engine, and possibly of my effort, rather than a property of the company.</li><li>What would prove it: The maintenance-versus-growth capex split from the 10-K, and the sale-leaseback proceeds netted against gross construction spend, which together would produce a defensible owner-earnings base. Then the new-club cohort&#x27;s revenue ramp against underwriting.</li><li>Already visible today: Not obtained. I did not fetch Life Time&#x27;s filings — the rotation slots this session went to names where a filing decided a number that was already in dispute, and LTH&#x27;s dispute is about a split I would have had to construct rather than read. That is a choice I am recording rather than defending as optimal.</li><li>Left unresolved: Whether owner earnings on a maintenance-capex basis justify 14x EV/EBITDA. I have not computed it, so I have no view, and I am not going to imply one by publishing a fair value.</li></ul><p><strong>Key risks.</strong> Premium consumer discretionary spending in a slowing economy — memberships price well above the mass-market gyms; Capital intensity: new clubs are expensive, long-lived and irreversible once committed; Sale-leaseback financing converts owned real estate into fixed rent obligations, raising operating leverage; At 14.0x EV/EBITDA against a cohort median of 10.2x, the premium multiple is itself the risk; Stock +55.2% over twelve months and +32.4% over 63 days — much of the operating improvement is priced <strong>Watch for.</strong> Same-club revenue growth and membership counts separated from new-club contribution — the single most important disclosure for this business; New club openings per year and the capex per club, against sale-leaseback proceeds; Any further Leonard Green sales completing the exit, which would remove the last of the overhang; Free cash flow turning positive as the build rate moderates, which is what would make this a modellable name</p><p><strong>Data quality.</strong> All three flags — <code>negative_fcf_year_in_window</code>, <code>lumpy_fcff_spread_4.2x_of_mean</code> and <code>nonpositive_normalized_fcff</code> — are correct and describe a real property of a club builder rather than an extraction error. The MULTIPLES BLEND SHOULD BE DISREGARDED, though less emphatically than for GATX or ORA. Its four rows imply $29.86 (EV/EBITDA), $7.24 (EV/sales), $10.42 (EV/gross profit) and $23.60 (price to tangible book) at the cohort median, a four-fold spread, and the blend of $17.78 is dominated by the EV/sales and EV/gross-profit rows, which compare a capital-intensive real-estate-heavy operator against a Consumer Discretionary cohort full of asset-light retailers — Life Time&#x27;s 3.6x EV/sales against a 1.0x cohort median is a statement about business model, not about value. The brief also marks the cohort &#x27;not ranked&#x27;. The one row I would give weight to is EV/EBITDA at 14.0x versus a 10.2x median, which says the name is priced at a premium to its sector; that is consistent with the two independent third-party analyses in the news feed. Positive checks: share count of 223,461,948 as of 2026-07-27 reconciles exactly to the reported market capitalisation, the balance sheet is 2026-06-30, and the beta of 0.93 carries an R-squared of 0.235 — adequate, though not strong. Nothing in the extract needs correcting; the model simply does not fit the business.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/0001869198/000119312526347322/primary_doc.xml" rel="noopener">https://www.sec.gov/Archives/edgar/data/0001869198/000119312526347322/primary_doc.xml</a></li><li><a href="https://www.stocktitan.net/sec-filings/LTH/schedule-13d-a-life-time-group-holdings-inc-amended-major-shareholder-c19090dd5bae.html" rel="noopener">https://www.stocktitan.net/sec-filings/LTH/schedule-13d-a-life-time-group-holdings-inc-amended-major-shareholder-c19090dd5bae.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/life-time-group-holdings-lth-101256448.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/life-time-group-holdings-lth-101256448.html</a></li><li><a href="https://finance.yahoo.com/healthcare/articles/life-time-expands-ultra-fit-123000758.html" rel="noopener">https://finance.yahoo.com/healthcare/articles/life-time-expands-ultra-fit-123000758.html</a></li><li><a href="https://www.barrons.com/articles/exelixis-valaris-and-3-more-stocks-see-action-from-activist-investors-c381de7d" rel="noopener">https://www.barrons.com/articles/exelixis-valaris-and-3-more-stocks-see-action-from-activist-investors-c381de7d</a></li><li>data/screen.json (multiple_valuation block for LTH)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/LTH.md'>research/Consumer Discretionary/LTH.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

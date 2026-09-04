@@ -1,0 +1,69 @@
+{
+  "ticker": "AII",
+  "date": "2026-09-04",
+  "sector": "Financials",
+  "name": "AMERICAN INTEGRITY INSURANCE GROUP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.1,
+  "bull_growth": 0.22,
+  "rotce_override": 0.16,
+  "horizon_months": 24,
+  "price_at_verdict": 26.15999984741211,
+  "market_implied_growth": null,
+  "cohort_pct": 98.5,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.16,
+    "screen_rotce": 0.2890938870459495,
+    "justified_p_tbv": 1.6945049452664596,
+    "actual_p_tbv": 1.5208622800003568,
+    "tangible_book_per_share": 17.200768400545755,
+    "fair_value": 29.14678711710783,
+    "price": 26.15999984741211,
+    "gap": 0.11417382596014014,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my no_edge is that I am penalising the name for a risk the company has already sold. AII cedes ~39% of its premium to reinsurers, reduced its aggregate retention at the June 2026 renewal rather than raising it, and bought that protection more cheaply than last year. Its combined ratio improvement was driven primarily by the EXPENSE ratio, not by weather luck. Florida's reform is legislated, not cyclical. And on the corrected book value of $18.86 the stock trades at 1.39x, not the 1.52x the model used \u2014 at any sustainable ROTCE above roughly 14% the gap is positive, and the company is currently earning 39.6%. That is a wide margin of safety around my 16% estimate, and it argues the verdict should be cheap.",
+    "what_would_prove_it": "The 2026 hurricane season closing without a Florida landfall that pierces the retention, followed by Q3 and Q4 combined ratios in the 60s and a 2027 June 1 renewal that again prices down; plus primary rate filings that hold rather than follow reinsurance costs lower. Four clean quarters of reported ROE above 30% would make 16% look too conservative and would justify revisiting at a 20-22% ROTCE.",
+    "already_visible": "Partially, and honestly it favours the counter more than I expected when I started. The expense-ratio-driven improvement is real and is not weather. The retention reduction is real. The 22.3% book value growth is real. What is NOT visible is any observation of this company through a catastrophe as a public entity \u2014 it listed in 2025 and the engine has exactly ONE year of net income and equity in its extract, so the 'sustainable' return it computed is a single data point.",
+    "unresolved": "The one thing I cannot resolve is the only thing that matters: the size of the retained loss in a landfall year. I did not obtain the dollar attachment point and aggregate retention figures for the 2026-2027 tower beyond the disclosure that retention was reduced from $95M, so I cannot quantify the bear case against a $370M equity base. I also cannot assess reserve adequacy on pre-reform accident years with fifteen months of public reporting. Both are load-bearing and both are unanswered, which is why this is no_edge rather than cheap."
+  },
+  "what_changed": "Q2 2026, reported 2026-08-11 (8-K items 2.02/7.01, EX-99.1 and EX-99.2): combined ratio 63.4% versus 72.9% a year earlier, improvement driven primarily by a lower expense ratio and the ABSENCE OF CATASTROPHE LOSSES in the quarter. Record pre-tax income $46.4M. ROE 38.7%, adjusted ROE 39.6%. Book value per share $18.86, up 22.3% year on year and 10.1% versus 2026-03-31. Gross premiums written $326.6M (+$39.6M); gross premiums earned $242.3M (+$18.6M). Record voluntary new business policies, +54% year on year and +44% sequentially, concentrated in Tri-County and middle-aged homes. The 2026-2027 catastrophe excess-of-loss program was renewed effective 2026-06-01 with risk-adjusted rate reductions at the upper end of market declines, retaining the 1-in-130-year PML attachment and REDUCING aggregate retention from $95M. Ceded CAT XOL premium fell to 39.4% of premium from 42.2%. No company-specific news since 2026-08-19.",
+  "consensus_case": "American Integrity is a Florida-concentrated homeowners insurer earning extraordinary returns in the best underwriting environment Florida property has offered in twenty years, and the market is paying 1.39x book for it rather than a multiple of the current return. Q2 2026: combined ratio 63.4% (from 72.9%), record pre-tax income $46.4M, ROE 38.7% and adjusted ROE 39.6%, gross premiums written +14% to $327M, record voluntary new business up 54% year on year, book value per share $18.86 (+22.3% YoY). The market's discount is not scepticism about those numbers \u2014 they are audited \u2014 it is a statement about their distribution. This is a single-state carrier whose reinsurance program is built to a 1-in-130-year probable maximum loss, which means it retains everything below that. Four benign years and one landfall is the shape of the business, and the arithmetic mean of that sequence is not what a shareholder compounds. A ~1.4x book multiple on a company that can lose a fifth of its book in a fortnight is a considered price, not an oversight.",
+  "base_case_rationale": "This is a book-method name, so my number is a sustainable ROTCE and it is in rotce_override. I use 16%, against the screen's 28.9% and the company's currently-reported 39.6% adjusted ROE. The bridge: start at ~39% in a zero-catastrophe year; subtract a normalised catastrophe load, which for a carrier retaining everything beneath a 1-in-130-year PML is worth on the order of 15-20 points of ROE averaged across the distribution rather than the zero booked in Q2; then subtract a few points more for the rate cycle. Florida's post-SB-2A economics are genuinely better \u2014 litigation frequency has fallen materially and that is a structural, legislated change rather than a weather outcome \u2014 but returns of this size attract capital, and the company's own disclosure already shows reinsurance pricing falling at the upper end of market declines, which is what capital inflow looks like from the buy side. Primary rate adequacy follows reinsurance cost down with a lag. 16% through the cycle is a return well above cost of equity and well below what is being printed today.",
+  "key_risks": [
+    "Single-state Florida homeowners concentration at the statistical peak of hurricane season",
+    "The model prices an arithmetic-mean return; catastrophe earnings are not distributed that way",
+    "Fifteen months of public reporting and one fiscal year in the engine's extract \u2014 no observation through a loss year",
+    "Record new business (+54%) written into a softening primary rate environment is how Florida carriers have historically bought trouble",
+    "Reserve development on pre-SB-2A accident years",
+    "Stock is +59.9% over 63 days and +40.3% over twelve months \u2014 much of the reform thesis is priced"
+  ],
+  "watch_for": [
+    "Any named storm making Florida landfall before 30 November 2026, and the retained loss disclosed against it",
+    "Q3 2026 combined ratio \u2014 the first quarter of the season, and the test of whether 63.4% was weather or expense",
+    "Primary rate filings with the Florida OIR: reinsurance cost falling is good for AII only until primary rates follow it down",
+    "The 2027 June 1 CAT XOL renewal \u2014 a second consecutive risk-adjusted decrease would confirm capital inflow"
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20260810036636/en/American-Integrity-Insurance-Group-Inc.-Reports-Second-Quarter-2026-Results",
+    "data/adhoc/AII/2026-08-11-EX-99.1.txt (Q2 2026 press release, fetched via adhoc-fetch)",
+    "data/adhoc/AII/2026-08-11-EX-99.2.txt (Q2 2026 investor presentation)",
+    "data/adhoc/AII/2026-08-13-10-Q-aii-20260630.htm.txt",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/19/american-integrity-insurance-aii-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/american-integrity-insurance-group-inc-010622218.html",
+    "data/fundamentals.json CIK 2007587 (stored EDGAR extract, v5)"
+  ],
+  "flags": [
+    "beta_from_sector_median_0.87(unreliable_r2_0.008_raw_0.21)"
+  ]
+}

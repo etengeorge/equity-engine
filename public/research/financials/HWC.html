@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HWC — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / HWC</p><h1>HWC <span style='color:var(--faint);font-weight:400'>HANCOCK WHITNEY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$75.60</b></div><div>Analyst gap<b>-16%</b></div><div>Dated<b>2026-09-04</b></div></div><div class='prose'><h1>HWC — HANCOCK WHITNEY</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-04 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $75.60 · fair value $63.56 · gap -15.9%</li><li><strong>Sustainable ROTCE:</strong> screen said +13.9%, analyst says +14.0%</li><li><strong>P/TBV:</strong> justified 1.47 vs actual 1.75 on tangible book of $43.23/share</li></ul><p><strong>The case for the price.</strong> Hancock Whitney is a $6.1B Gulf South commercial bank compounding tangible book at a mid-teens return on tangible common equity, and at 1.75x tangible book the market is paying a modest premium for a franchise with genuine deposit quality across Louisiana, Mississippi, Alabama, Florida and Texas. It has just completed the all-cash acquisition of One Florida Bank, extending into the fastest-growing deposit market in its footprint. A bank earning ~14% on tangible equity against a ~10% cost of equity is worth more than book; the argument is only about how much more, and 1.75x is close to where profitable regional banks of this size trade. Nothing about the price requires an error.</p><p><strong>What changed.</strong> The material event is an acquisition that closed AFTER the balance sheet the model uses. On 2026-05-15 (8-K item 1.01, 2026-05-19) Hancock Whitney agreed to acquire OFB Bancshares, parent of One Florida Bank. Regulatory and shareholder approvals followed in July (8-K item 8.01, 2026-07-20), and the transaction CLOSED EFFECTIVE 2026-08-01, announced 2026-08-03 (8-K item 8.01). Consideration was approximately $377.6M in CASH for common stock and options; systems conversion is scheduled for Q4 2026. Because it is cash, the share count is unaffected — but roughly $377.6M leaves the balance sheet and a substantial portion of it will be capitalised as goodwill and core deposit intangibles, which come straight out of tangible common equity. The model&#x27;s 2026-06-30 balance sheet predates all of this. No company-specific news in the store for the last 90 days, which for a $6.1B bank means the wire was quiet rather than that nothing happened — the acquisition is evidence of exactly that gap.</p><p><strong>Base case.</strong> Book-method name; my number is a sustainable ROTCE and it is in rotce_override. I use 14%, essentially agreeing with the engine&#x27;s 13.9%. The engine computed it correctly from three years of net income to common ($486.1M, $460.8M, $392.6M) against tangible common equity of roughly $3.47B, $3.24B and $2.90B — a stable, mildly improving mid-teens return with no trough or peak distortion of the kind that broke VLY. I see no reason to override it. Directionally, One Florida Bank should be accretive to earnings and dilutive to tangible book, which roughly cancels in the ratio; I have not tried to model that precisely because the goodwill allocation is not yet disclosed.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The case that the -16% gap is a real short signal rather than model noise: this is a bank that just paid $377.6M of cash — roughly 11% of its tangible common equity — for a bank in a market where deposit franchises are expensive, at a point in the cycle when Florida commercial real estate is deteriorating. That transaction reduces tangible book per share on day one, so the 1.75x actual multiple in the model is understated and today&#x27;s true multiple is closer to 1.83x. On unchanged earnings power that makes the stock roughly 20% expensive rather than 16%, and the deal adds integration risk into a Q4 systems conversion.</li><li>What would prove it: The Q3 2026 10-Q, which will show the purchase-price allocation: how much of the $377.6M became goodwill and core deposit intangibles, and therefore the real tangible book per share post-close. Then the Q4 conversion and the first two quarters of combined ROTCE.</li><li>Already visible today: The acquisition and its cash consideration are visible and confirmed. The purchase-price allocation is not — it will not be until the Q3 filing. So the direction of the tangible-book effect is certain and its size is not.</li><li>Left unresolved: Whether -16% (or -20% adjusted) is a signal at all. The justified P/TBV formula is (ROTCE - g) / (ke - g), and its sensitivity to the cost of equity dominates everything else here: at the model&#x27;s 10.16% cost of equity the justified multiple is 1.46 and the gap is -16%; at 9.5%, entirely defensible for a bank with a 0.98 beta and an R-squared of 0.511, the justified multiple is 1.59 and the gap narrows to about -9%. A 66bp change in an unobservable input moves the answer by half. I cannot call a name rich on that.</li></ul><p><strong>Key risks.</strong> One Florida Bank integration and the Q4 2026 systems conversion; $377.6M of cash consideration is dilutive to tangible book per share on day one; Gulf South commercial credit — energy services, CRE, hospitality — normalising from benign levels; Deposit beta on the way down: NIM compression if funding costs lag rate cuts; Hurricane exposure across the deposit and lending footprint <strong>Watch for.</strong> Q3 2026 10-Q purchase-price allocation for OFB Bancshares — the actual goodwill and intangibles created, and the resulting tangible book per share; Q4 2026 systems conversion completing without customer attrition; Any move in the provision or in criticised-asset balances across the commercial book</p><p><strong>Data quality.</strong> The one flag on this name is a FALSE ALARM and I want that on the record, because it looked like the most serious defect in today&#x27;s ten before I checked it. <code>last_10k_5361d_old</code> reads as though Hancock Whitney&#x27;s fundamentals come from a 2011 annual report — the extract&#x27;s fy_end is literally &#x27;2011-12-31&#x27; and fundamentals_age_days is 5,361. It does not. The underlying series are current and correct: net income to common of [$486.1M, $460.8M, $392.6M] and equity of [$4,460.1M, $4,127.6M, $3,803.7M] are recent-year figures, goodwill of $925.4M matches the post-Whitney franchise, and tangible book per share of $43.23 reconciles exactly to the 2026-06-30 balance sheet ($3.468B over 80.2M shares). I reproduced the 13.9% ROTCE from those numbers by hand and it is right. So <code>fy_end</code> is being mislabelled by the extractor on this filer while the data it drives are fine — a cosmetic bug in the flag, not a stale extract, and no verdict should be capped on it. What IS a genuine, unflagged staleness problem is the One Florida Bank close on 2026-08-01, one month after the 2026-06-30 balance sheet the model prices: $377.6M of cash out, goodwill and core deposit intangibles in, and therefore a tangible book per share that is overstated in the model by roughly 4-5% at a plausible allocation. This is the ACR/SSRM/ALKS pattern in research/LESSONS.md — read the 8-K list before trusting any book value — and it pushes the name further rich rather than rescuing it. The beta is the one genuinely reliable input here: 0.98 on an R-squared of 0.511, the best fit in today&#x27;s ten.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.businesswire.com/news/home/20260803843833/en/Hancock-Whitney-Completes-One-Florida-Bank-Acquisition" rel="noopener">https://www.businesswire.com/news/home/20260803843833/en/Hancock-Whitney-Completes-One-Florida-Bank-Acquisition</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/0000750577/000119312526329625/d118362dex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0000750577/000119312526329625/d118362dex991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/0000750577/000119312526308486/d63138d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0000750577/000119312526308486/d63138d8k.htm</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/hancock-whitney-receives-regulatory-approval-130200316.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/hancock-whitney-receives-regulatory-approval-130200316.html</a></li><li>data/adhoc/HWC/ (8-K and 10-Q set fetched via adhoc-fetch)</li><li>data/fundamentals.json CIK 750577 (stored EDGAR extract, v5)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/HWC.md'>research/Financials/HWC.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -4,6 +4,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "AII": {
+    "conviction": "low",
+    "last_visit": "2026-09-04",
+    "verdict": "no_edge"
+  },
   "ALKS": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -74,6 +79,11 @@
     "last_visit": "2026-09-03",
     "verdict": "no_edge"
   },
+  "FG": {
+    "conviction": "high",
+    "last_visit": "2026-09-04",
+    "verdict": "no_model"
+  },
   "FLO": {
     "conviction": "low",
     "last_visit": "2026-09-02",
@@ -82,6 +92,11 @@
   "FLR": {
     "conviction": "low",
     "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "GATX": {
+    "conviction": "high",
+    "last_visit": "2026-09-04",
     "verdict": "no_model"
   },
   "GLRE": {
@@ -99,6 +114,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "HWC": {
+    "conviction": "low",
+    "last_visit": "2026-09-04",
+    "verdict": "no_edge"
+  },
   "IDCC": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -114,6 +134,16 @@
     "last_visit": "2026-09-02",
     "verdict": "no_model"
   },
+  "LE": {
+    "conviction": "low",
+    "last_visit": "2026-09-04",
+    "verdict": "no_edge"
+  },
+  "LTH": {
+    "conviction": "medium",
+    "last_visit": "2026-09-04",
+    "verdict": "no_model"
+  },
   "MATX": {
     "conviction": "medium",
     "last_visit": "2026-09-03",
@@ -123,6 +153,16 @@
     "conviction": "low",
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
+  },
+  "NPO": {
+    "conviction": "medium",
+    "last_visit": "2026-09-04",
+    "verdict": "rich"
+  },
+  "ORA": {
+    "conviction": "medium",
+    "last_visit": "2026-09-04",
+    "verdict": "no_model"
   },
   "OSCR": {
     "conviction": "medium",
@@ -174,10 +214,20 @@
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
   },
+  "SND": {
+    "conviction": "medium",
+    "last_visit": "2026-09-04",
+    "verdict": "no_edge"
+  },
   "SNEX": {
     "conviction": "low",
     "last_visit": "2026-09-01",
     "verdict": "no_edge"
+  },
+  "SRRK": {
+    "conviction": "high",
+    "last_visit": "2026-09-04",
+    "verdict": "no_model"
   },
   "SSRM": {
     "conviction": "low",

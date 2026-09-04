@@ -1,0 +1,61 @@
+{
+  "ticker": "SRRK",
+  "date": "2026-09-04",
+  "sector": "Health Care",
+  "name": "SCHOLAR ROCK HOLDING",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 55.939998626708984,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The case for putting a number on this anyway is that the binary is not really 50/50: a positive pivotal Phase 3, an accepted BLA, two qualified fill-finish paths, and commercial supply already manufactured make approval the strong base case, and a disciplined analyst could build a risk-adjusted NPV \u2014 peak sales, penetration of the treated SMA population, pricing, probability of approval, discount rate \u2014 and compare it to $6.8B. Refusing to do so means having no view on a $6.8B company at the single most decision-relevant moment in its history.",
+    "what_would_prove_it": "The FDA decision itself, on or before 2026-09-30. After that, the first two or three quarters of net product revenue against the treated SMA population, which is what converts an approval into a valuation.",
+    "already_visible": "The approval is not visible; it has not happened. Everything else \u2014 trial data, BLA acceptance, manufacturing readiness \u2014 is visible and is already why the stock is up 62.7% over twelve months and 16.9% in the last 21 days.",
+    "unresolved": "Whether apitegromab is approved, and at what label. Building a risk-adjusted NPV would require me to assign a probability of approval and a peak-sales estimate, neither of which I can source from free primary documents with any rigour. Publishing a fair value derived from two numbers I invented would be exactly the failure this engine exists to prevent, so I have not."
+  },
+  "what_changed": "Q2 2026, reported 2026-08-06: net loss of $109.9M for the quarter (including $19.7M of stock-based compensation), against $110.0M a year earlier. Cash, cash equivalents and marketable securities of $492.1M at 2026-06-30, which INCLUDES $62.8M of net proceeds raised through the at-the-market equity program during the quarter \u2014 the company is funding itself by issuing stock into strength. The apitegromab BLA remains on track for a decision by the 2026-09-30 PDUFA date, with the FDA review advancing at both the Catalent Indiana fill-finish facility and a second US facility, described by the company as two independent paths to approval. On 2026-09-02 the FDA granted Fast Track and Orphan Drug designation to apitegromab in facioscapulohumeral muscular dystrophy as dosing began in the Phase 2 FORGE trial. As of today, 2026-09-04, the drug is NOT approved. No company-specific news is in the engine's own store for this name, which understates how much is happening here.",
+  "consensus_case": "Scholar Rock's $6.8B market capitalisation is a probability-weighted claim on a single regulatory decision that is due within 26 days. Apitegromab is the first and only muscle-targeted therapeutic to have shown a statistically significant and clinically meaningful benefit in a pivotal Phase 3 trial in spinal muscular atrophy (SAPPHIRE), the BLA has been accepted with a PDUFA action date of 2026-09-30, and the company says the review is advancing along two independent fill-finish paths with commercial supply already manufactured and awaiting packaging and labelling. SMA is a chronic, high-value orphan indication where an approved add-on to existing SMN-directed therapy would carry rare-disease pricing across a durable patient base, and the FSHD program received Fast Track and Orphan Drug designation on 2026-09-02, adding a second indication to the same molecule. The market's price is a straightforward expected-value calculation on that: high probability of approval multiplied by a large addressable revenue stream. It is not a claim about cash flows, because there are none.",
+  "base_case_rationale": "There is no base case to state. Revenue in the engine's extract is zero, LTM EBITDA is -$383.0M, and normalised FCFF is negative. A discounted cash flow requires cash flows and there are none to discount; a growth rate applied to a negative base is not a valuation, it is a sign error. The honest description of this security is a binary claim on an FDA decision with a known date, and neither method in this engine prices that.",
+  "key_risks": [
+    "Binary FDA decision due by 2026-09-30 \u2014 a complete response letter is the dominant single risk",
+    "Zero revenue against a $6.8B market capitalisation and a ~$110M quarterly net loss",
+    "$492.1M of cash is roughly 4-5 quarters of runway at the current burn, before any commercial launch spend",
+    "The company is funding itself through an at-the-market program ($62.8M in Q2 alone) \u2014 ongoing dilution",
+    "Manufacturing and fill-finish execution is an explicit part of the review, not a formality",
+    "Post-approval, reimbursement and penetration in a market where patients are already on SMN-directed therapy"
+  ],
+  "watch_for": [
+    "The FDA action on or before 2026-09-30 \u2014 this is the event, and it is inside four weeks",
+    "Launch metrics in the first full quarter post-approval: patients started, gross-to-net, and the treated-population penetration curve",
+    "Any further ATM issuance, which sizes the real cost of the launch",
+    "Phase 2 FORGE readouts in FSHD as a second indication"
+  ],
+  "sources": [
+    "data/adhoc/SRRK/2026-08-06-EX-99.1.txt (Q2 2026 press release, fetched via adhoc-fetch)",
+    "data/adhoc/SRRK/2026-08-06-10-Q-srrk-20260630.htm.txt",
+    "https://www.biospace.com/press-releases/scholar-rock-reports-second-quarter-2026-financial-results-and-recent-business-highlights",
+    "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+    "https://finance.yahoo.com/healthcare/articles/scholar-rock-receives-fda-fast-120000447.html",
+    "data/fundamentals.json CIK 1727196 (stored EDGAR extract, v5)"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_3%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

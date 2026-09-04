@@ -1,0 +1,66 @@
+{
+  "ticker": "HWC",
+  "date": "2026-09-04",
+  "sector": "Financials",
+  "name": "HANCOCK WHITNEY",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.11,
+  "bull_growth": 0.17,
+  "rotce_override": 0.14,
+  "horizon_months": 24,
+  "price_at_verdict": 75.5999984741211,
+  "market_implied_growth": null,
+  "cohort_pct": 65.5,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.14,
+    "screen_rotce": 0.1392492991524087,
+    "justified_p_tbv": 1.470402484659975,
+    "actual_p_tbv": 1.7489876585845159,
+    "tangible_book_per_share": 43.22500396332436,
+    "fair_value": 63.55815322710941,
+    "price": 75.5999984741211,
+    "gap": -0.15928367050342962,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The case that the -16% gap is a real short signal rather than model noise: this is a bank that just paid $377.6M of cash \u2014 roughly 11% of its tangible common equity \u2014 for a bank in a market where deposit franchises are expensive, at a point in the cycle when Florida commercial real estate is deteriorating. That transaction reduces tangible book per share on day one, so the 1.75x actual multiple in the model is understated and today's true multiple is closer to 1.83x. On unchanged earnings power that makes the stock roughly 20% expensive rather than 16%, and the deal adds integration risk into a Q4 systems conversion.",
+    "what_would_prove_it": "The Q3 2026 10-Q, which will show the purchase-price allocation: how much of the $377.6M became goodwill and core deposit intangibles, and therefore the real tangible book per share post-close. Then the Q4 conversion and the first two quarters of combined ROTCE.",
+    "already_visible": "The acquisition and its cash consideration are visible and confirmed. The purchase-price allocation is not \u2014 it will not be until the Q3 filing. So the direction of the tangible-book effect is certain and its size is not.",
+    "unresolved": "Whether -16% (or -20% adjusted) is a signal at all. The justified P/TBV formula is (ROTCE - g) / (ke - g), and its sensitivity to the cost of equity dominates everything else here: at the model's 10.16% cost of equity the justified multiple is 1.46 and the gap is -16%; at 9.5%, entirely defensible for a bank with a 0.98 beta and an R-squared of 0.511, the justified multiple is 1.59 and the gap narrows to about -9%. A 66bp change in an unobservable input moves the answer by half. I cannot call a name rich on that."
+  },
+  "what_changed": "The material event is an acquisition that closed AFTER the balance sheet the model uses. On 2026-05-15 (8-K item 1.01, 2026-05-19) Hancock Whitney agreed to acquire OFB Bancshares, parent of One Florida Bank. Regulatory and shareholder approvals followed in July (8-K item 8.01, 2026-07-20), and the transaction CLOSED EFFECTIVE 2026-08-01, announced 2026-08-03 (8-K item 8.01). Consideration was approximately $377.6M in CASH for common stock and options; systems conversion is scheduled for Q4 2026. Because it is cash, the share count is unaffected \u2014 but roughly $377.6M leaves the balance sheet and a substantial portion of it will be capitalised as goodwill and core deposit intangibles, which come straight out of tangible common equity. The model's 2026-06-30 balance sheet predates all of this. No company-specific news in the store for the last 90 days, which for a $6.1B bank means the wire was quiet rather than that nothing happened \u2014 the acquisition is evidence of exactly that gap.",
+  "consensus_case": "Hancock Whitney is a $6.1B Gulf South commercial bank compounding tangible book at a mid-teens return on tangible common equity, and at 1.75x tangible book the market is paying a modest premium for a franchise with genuine deposit quality across Louisiana, Mississippi, Alabama, Florida and Texas. It has just completed the all-cash acquisition of One Florida Bank, extending into the fastest-growing deposit market in its footprint. A bank earning ~14% on tangible equity against a ~10% cost of equity is worth more than book; the argument is only about how much more, and 1.75x is close to where profitable regional banks of this size trade. Nothing about the price requires an error.",
+  "base_case_rationale": "Book-method name; my number is a sustainable ROTCE and it is in rotce_override. I use 14%, essentially agreeing with the engine's 13.9%. The engine computed it correctly from three years of net income to common ($486.1M, $460.8M, $392.6M) against tangible common equity of roughly $3.47B, $3.24B and $2.90B \u2014 a stable, mildly improving mid-teens return with no trough or peak distortion of the kind that broke VLY. I see no reason to override it. Directionally, One Florida Bank should be accretive to earnings and dilutive to tangible book, which roughly cancels in the ratio; I have not tried to model that precisely because the goodwill allocation is not yet disclosed.",
+  "key_risks": [
+    "One Florida Bank integration and the Q4 2026 systems conversion",
+    "$377.6M of cash consideration is dilutive to tangible book per share on day one",
+    "Gulf South commercial credit \u2014 energy services, CRE, hospitality \u2014 normalising from benign levels",
+    "Deposit beta on the way down: NIM compression if funding costs lag rate cuts",
+    "Hurricane exposure across the deposit and lending footprint"
+  ],
+  "watch_for": [
+    "Q3 2026 10-Q purchase-price allocation for OFB Bancshares \u2014 the actual goodwill and intangibles created, and the resulting tangible book per share",
+    "Q4 2026 systems conversion completing without customer attrition",
+    "Any move in the provision or in criticised-asset balances across the commercial book"
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20260803843833/en/Hancock-Whitney-Completes-One-Florida-Bank-Acquisition",
+    "https://www.sec.gov/Archives/edgar/data/0000750577/000119312526329625/d118362dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/0000750577/000119312526308486/d63138d8k.htm",
+    "https://finance.yahoo.com/markets/stocks/articles/hancock-whitney-receives-regulatory-approval-130200316.html",
+    "data/adhoc/HWC/ (8-K and 10-Q set fetched via adhoc-fetch)",
+    "data/fundamentals.json CIK 750577 (stored EDGAR extract, v5)"
+  ],
+  "flags": [
+    "last_10k_5361d_old"
+  ]
+}

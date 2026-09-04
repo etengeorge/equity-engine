@@ -1,0 +1,59 @@
+{
+  "ticker": "LTH",
+  "date": "2026-09-04",
+  "sector": "Consumer Discretionary",
+  "name": "LIFE TIME GROUP HOLDINGS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 43.09000015258789,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The case against refusing is that Life Time's negative FCFF is a CHOICE, and one that is separable: maintenance capital expenditure on the existing club base is a fraction of total capex, and an owner-earnings figure \u2014 adjusted EBITDA less maintenance capex less cash interest \u2014 is both computable and the right number. On that basis the company is meaningfully cash-generative and 14x EV/EBITDA is a judgeable multiple rather than an unanswerable question. Declining to split growth capex from maintenance capex is a limitation of the engine, and possibly of my effort, rather than a property of the company.",
+    "what_would_prove_it": "The maintenance-versus-growth capex split from the 10-K, and the sale-leaseback proceeds netted against gross construction spend, which together would produce a defensible owner-earnings base. Then the new-club cohort's revenue ramp against underwriting.",
+    "already_visible": "Not obtained. I did not fetch Life Time's filings \u2014 the rotation slots this session went to names where a filing decided a number that was already in dispute, and LTH's dispute is about a split I would have had to construct rather than read. That is a choice I am recording rather than defending as optimal.",
+    "unresolved": "Whether owner earnings on a maintenance-capex basis justify 14x EV/EBITDA. I have not computed it, so I have no view, and I am not going to imply one by publishing a fair value."
+  },
+  "what_changed": "The 13D activity the brief's news feed flagged is NOT an activist campaign, and reading it as one would have been an error. The Schedule 13D/A filings are Leonard Green's \u2014 the pre-IPO sponsor \u2014 REDUCING its position: on 2026-08-10 Green LTF and the Associates VI-A and VI-B funds sold 5,025,751, 8,512 and 84,836 shares respectively in an offering priced at $43.16, leaving beneficial ownership of 5,908,604 shares, or 2.6% of the 223,461,948 shares outstanding as of 2026-07-27. That share count reconciles exactly to the engine's $9.63B market capitalisation at $43.09, so the extract's share data is current and correct. Operationally the last 90 days are brand-building rather than financial news: the Ultra Fit high-intensity group training format expanded across North America (2026-08-27), LT Social launched as a member events community (2026-08-26), and the Leadville Trail 100 events ran in August. Third-party analysts moved the other way in the same window \u2014 two Simply Wall St pieces on 2026-08-19 argue the stock trades at a premium to both DCF and multiples fair value, while a third notes upward consensus EPS revisions.",
+  "consensus_case": "Life Time is a premium athletic-country-club operator in the middle of a unit build-out, and its reported free cash flow is negative for the same reason any expanding real-estate-heavy operator's is: new clubs cost $30-60M each and are capitalised, while the revenue arrives over the following decade. The market values the mature club base and the pipeline, not trailing FCFF. The stock is up 55.2% over twelve months and 32.4% over 63 days because the operating numbers have been good \u2014 LTM revenue of $3.0B and adjusted EBITDA of $777.6M at a 26% margin \u2014 and because the pre-IPO private equity overhang is clearing rather than building: Leonard Green sold 5.0M shares in a marketed offering at $43.16 on 2026-08-10 and is now down to 2.6% of the company. At 14.0x EV/EBITDA the market is paying a premium to the Consumer Discretionary cohort median of 10.2x for a brand with pricing power, high member retention and a long runway of white-space locations.",
+  "base_case_rationale": "No base case. Normalised FCFF is non-positive with a lumpy spread of 4.2x the mean and at least one outright negative year in the window \u2014 the signature of a company funding club construction from operating cash flow and sale-leaseback proceeds. A five-year growth rate applied to a negative base is not a valuation. The right frame for Life Time is mature-club unit economics \u2014 revenue per club at maturity, contribution margin, the ramp curve for new openings, and the return on invested capital per club net of sale-leaseback financing \u2014 against the cost of the build. This engine has none of those.",
+  "key_risks": [
+    "Premium consumer discretionary spending in a slowing economy \u2014 memberships price well above the mass-market gyms",
+    "Capital intensity: new clubs are expensive, long-lived and irreversible once committed",
+    "Sale-leaseback financing converts owned real estate into fixed rent obligations, raising operating leverage",
+    "At 14.0x EV/EBITDA against a cohort median of 10.2x, the premium multiple is itself the risk",
+    "Stock +55.2% over twelve months and +32.4% over 63 days \u2014 much of the operating improvement is priced"
+  ],
+  "watch_for": [
+    "Same-club revenue growth and membership counts separated from new-club contribution \u2014 the single most important disclosure for this business",
+    "New club openings per year and the capex per club, against sale-leaseback proceeds",
+    "Any further Leonard Green sales completing the exit, which would remove the last of the overhang",
+    "Free cash flow turning positive as the build rate moderates, which is what would make this a modellable name"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001869198/000119312526347322/primary_doc.xml",
+    "https://www.stocktitan.net/sec-filings/LTH/schedule-13d-a-life-time-group-holdings-inc-amended-major-shareholder-c19090dd5bae.html",
+    "https://finance.yahoo.com/markets/stocks/articles/life-time-group-holdings-lth-101256448.html",
+    "https://finance.yahoo.com/healthcare/articles/life-time-expands-ultra-fit-123000758.html",
+    "https://www.barrons.com/articles/exelixis-valaris-and-3-more-stocks-see-action-from-activist-investors-c381de7d",
+    "data/screen.json (multiple_valuation block for LTH)"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_4.2x_of_mean",
+    "nonpositive_normalized_fcff"
+  ]
+}

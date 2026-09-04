@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>NPO — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / NPO</p><h1>NPO <span style='color:var(--faint);font-weight:400'>ENPRO</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$295.27</b></div><div>Analyst gap<b>-61%</b></div><div>Dated<b>2026-09-04</b></div></div><div class='prose'><h1>NPO — ENPRO</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-04 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $295.27 · fair value $114.40 · gap -61.3%</li><li><strong>Growth:</strong> market implies +31.3%, analyst says +9.0% (delta -22.3%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 8.8% | 9.8% | 10.8% | 11.8% | 12.8% | |---|---|---|---|---|---|---| | bear | +3.0% | $116.26 | $98.31 | $84.43 | $73.38 | $64.37 | | base | +9.0% | $156.45 | $132.72 | $114.40 | $99.82 | $87.95 | | bull | +15.0% | $205.93 | $175.02 | $151.16 | $132.21 | $116.79 |</p><p>At the point WACC of 10.8%: bear -71.4%, base -61.3%, bull -48.8% Across the whole grid the gap ranges -78.2% to -30.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> EnPro has stopped being an industrial conglomerate and is being repriced as a semiconductor and advanced-materials compounder. Advanced Surface Technologies grew sales 21.8% organically in Q2 on leading-edge precision cleaning and semiconductor capital equipment demand; total sales rose 17.6% to $338.8M; adjusted EBITDA rose 22.2% to $86.9M at a 25.6% margin (+90bp); and management RAISED full-year 2026 guidance to 14-16% revenue growth, $330-340M of adjusted EBITDA and $9.30-9.80 of adjusted EPS. Sealing Technologies underneath it is a genuinely high-quality aftermarket business with pricing power and low cyclicality. The market pays 20x forward EBITDA because it is underwriting AST becoming the majority of the earnings mix at semiconductor-equipment growth rates and semiconductor-equipment multiples, with Sealing&#x27;s cash flow funding it. That is a coherent thesis, and the Q2 print is evidence for it, not against it.</p><p><strong>What changed.</strong> Q2 2026, reported 2026-08-04 (8-K item 2.02, EX-99.1). Sales $338.8M, +17.6% total and +10.9% organic. Adjusted EBITDA $86.9M versus $71.1M, margin 25.6% versus 24.7%. Advanced Surface Technologies sales +21.8% ORGANIC on leading-edge precision cleaning and semiconductor capital equipment. Sealing Technologies sales +15.3%, or +5.0% excluding FX and the AlpHa Measurement Solutions and Overlook Industries acquisitions completed in Q4 2025 — so most of Sealing&#x27;s headline growth was bought. H1 free cash flow $61.4M on $90.9M of operating cash flow after $29.5M of capex, versus $52.8M and $73.2M last year. Full-year 2026 guidance RAISED to revenue growth of 14-16%, adjusted EBITDA $330-340M, adjusted EPS $9.30-9.80. No company-specific news in the store for 90 days; the sector feed carries a soft August ISM print and &#x27;why industrial stocks could keep losing steam&#x27;, which is consistent with the stock&#x27;s -10.0% 21-day move.</p><p><strong>Base case.</strong> I underwrite 9% five-year FCFF growth. The mix argument is real: if AST is roughly 40% of EBITDA growing at 15-20% and Sealing is 60% growing at 4-5% organically, blended EBITDA growth is 9-11% before any margin expansion, and EnPro converts EBITDA to free cash flow at a reasonable rate (H1: $61.4M of FCF against $163.3M of adjusted EBITDA, seasonally understated). I decline to extrapolate the headline 14-16% because guidance itself discloses that a large part of it is the AlpHa and Overlook acquisitions annualising, and organic Sealing growth is 5.0%. I also note the five-year revenue CAGR is 1.3% — this company has not compounded before, and the semiconductor cycle it is now levered to is the most violent capex cycle in industrials. 9% is my estimate of what a good outcome looks like without assuming the up-cycle never ends.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter is that my DCF is the wrong instrument, not that my growth number is too low. A two-stage FCFF model with a 2% terminal growth rate and a 10.8% WACC systematically undervalues a business whose value is in a long compounding runway — it forces almost all of the value into an explicit five-year window and then caps the rest at inflation. The market is not underwriting 31% FCFF growth for five years; it is underwriting a durable 10-12% compounder that deserves a 20x terminal EBITDA multiple, and those are very different statements that this model cannot distinguish. And the bull evidence is partly VISIBLE, not hypothetical: AST grew 21.8% organically last quarter, margins expanded 90bp, and guidance was raised.</li><li>What would prove it: Four to six quarters of AST organic growth sustained above 20% with total adjusted EBITDA margin above 27%, and Sealing organic growth holding at 5%+ through a soft industrial tape. That would establish the mix shift as durable rather than cyclical.</li><li>Already visible today: Yes, in part — and this is the strongest evidence against my own verdict. Q2 AST organic growth of 21.8%, margin +90bp, guidance raised twice. I take it seriously.</li><li>Left unresolved: I cannot resolve whether the correct terminal multiple for EnPro is an industrial one or a semiconductor one, and that single choice moves the fair value more than any growth assumption I could make. What I CAN say is that the gap does not close under the bull case within this model&#x27;s frame: at 15% growth the fair value is $151, at 20% it is $188, and only at 31.3% does it reach $295. Even granting AST 20% growth for five years and Sealing 4%, blended FCFF growth lands well short of 31%. So the price requires either a growth rate I cannot construct from the segment arithmetic, or a terminal multiple this model does not offer. I record rich on that basis, with the terminal-multiple objection unresolved and stated.</li></ul><p><strong>Key risks.</strong> Semiconductor capital-equipment cycle: AST is levered to fab tool builds, not installed base; A large share of headline 2026 growth is the AlpHa and Overlook acquisitions annualising, not organic; Five-year revenue CAGR is 1.3% — the compounding record is short; At 20x forward EBITDA against an Industrials cohort median of 14.3x, multiple compression is the dominant risk to the equity, not earnings; Legacy asbestos and environmental liabilities in the sealing business <strong>Watch for.</strong> AST organic growth falling below the high teens in any quarter — the first sign the mix thesis is cyclical; Full-year adjusted EBITDA landing outside the raised $330-340M range; Any further acquisition that inflates headline growth while diluting organic disclosure</p><p><strong>Data quality.</strong> No flags on this name, and I could not manufacture one — this is the cleanest extract in today&#x27;s ten. Checks I ran: the FCFF base of $189.6M is the mean of [$159.2M, $133.8M, $174.5M] plus after-tax interest, and it is NOT conservative — H1 2026 free cash flow of $61.4M annualises to roughly $140M, plus about $30M of after-tax interest, which lands close to or slightly below the base the model already uses. So the gap is not a depressed-base artifact. The beta of 1.19 carries an R-squared of 0.411, the second-best fit in today&#x27;s ten, so this is not the failed-beta defect either. Share count is as of 2026-07-23 and the balance sheet as of 2026-06-30, both current. One thing worth noting for the reader rather than as a defect: the multiples table shows 25.5x EV/EBITDA, which is computed on stale LTM EBITDA of $264.4M; on the company&#x27;s guided $330-340M it is roughly 20x, still at the 75th percentile of the Industrials cohort. The direction of the conclusion is unchanged and the cohort percentile of 13.2 (expensive versus peers) agrees with the absolute gap, which is the comparison research/LESSONS.md says to trust.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/NPO/2026-08-04-EX-99.1.txt (Q2 2026 press release, fetched via adhoc-fetch)</li><li>data/adhoc/NPO/2026-08-04-10-Q-npo-20260630.htm.txt</li><li>data/adhoc/NPO/2026-02-19-10-K-npo-20251231.htm.txt</li><li><a href="https://www.sec.gov/Archives/edgar/data/1164863/000116486326000060/npo-20260804.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1164863/000116486326000060/npo-20260804.htm</a></li><li>data/fundamentals.json CIK 1164863 (stored EDGAR extract, v5)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/NPO.md'>research/Industrials/NPO.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

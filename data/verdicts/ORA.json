@@ -1,0 +1,58 @@
+{
+  "ticker": "ORA",
+  "date": "2026-09-04",
+  "sector": "Utilities",
+  "name": "ORMAT TECH INC",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 104.19000244140625,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The case for engaging rather than refusing is that the -26.8% 63-day move is the largest de-rating in today's ten and it came alongside RAISED guidance. That combination \u2014 price down 27%, guidance up \u2014 is the classic setup this screen exists to find, and answering no_model means walking past it. A patient analyst could value Ormat on EV per installed MW against contracted capacity, or on an EBITDA multiple against the raised guidance, and form a view.",
+    "what_would_prove_it": "Contracted capacity and pipeline MW with PPA tariffs and commercial-operation dates, plus the tax-equity structure \u2014 that is what turns a build-phase IPP into a valuation. Whether the de-rating is cohort-wide or Ormat-specific would be settled by comparing its move against a geothermal and IPP peer set over the same 63 days.",
+    "already_visible": "The cohort explanation is partly visible and I find it persuasive: the utility sector hit record relative lows in late August, two large utilities fell 18% and 23% on a single legislative headline, and the brief's macro feed carries 'the best stock sector ETFs for rising interest rates'. A rate-driven de-rating of a long-duration, capital-intensive asset owner explains a 27% move without any company-specific deterioration, and the raised guidance is consistent with that.",
+    "unresolved": "I cannot value the asset base. I did not obtain contracted MW, PPA tariffs or the pipeline schedule, and without those an EV-per-MW or contracted-EBITDA valuation would be assembled from numbers I do not have. I am recording no_model rather than a low-conviction guess, but I want the record to show that the de-rating deserves a proper look with the right inputs, and that this engine cannot supply them."
+  },
+  "what_changed": "Q2 2026: revenue $258.8M, up 10.6% year on year, with full-year 2026 revenue and adjusted EBITDA guidance RAISED on first-half performance. Net income attributable to stockholders of $27.1M ($0.43 per diluted share) versus $28.0M ($0.46) a year earlier, with the decline driven primarily by a $6.6M write-off on storage projects the company has decided not to pursue \u2014 a discretionary portfolio decision, not an operating miss. Introduction of the Ormega100, a standardised binary surface power unit rated up to 100MW gross, part of a strategic move toward larger, repeatable geothermal builds with shorter delivery times. Sector context from the brief's own utility feed is unusually loud: California wildfire legislation omitting a liability cap sent PG&E down 18% and Edison down 23% on 2026-08-31, and utilities as a group hit record lows versus the S&P 500 in late August. That cohort de-rating, rather than anything company-specific, is the most plausible explanation for Ormat's -26.8% 63-day move against a +6.4% 21-day move and raised guidance. No company-specific news in the engine's store.",
+  "consensus_case": "Ormat owns and operates geothermal and energy-storage generation, and it is in the middle of a build cycle: it spends more on constructing power plants than those plants currently return in cash, which is what a growing independent power producer is supposed to do. The market values it on the contracted, inflation-linked, twenty-year-plus cash flows those assets will throw off once complete, not on trailing free cash flow. Q2 2026 revenue rose 10.6% to $258.8M and the company RAISED its full-year revenue and adjusted EBITDA guidance on first-half momentum. Geothermal is the only renewable technology that delivers genuine 24/7 baseload, which is precisely what data-centre load growth is bidding for, and Ormat has just introduced the Ormega100, a standardised binary surface unit rated to 100MW gross, aimed at making its builds larger and more repeatable. At $104.19 the market is paying roughly 3.2x tangible book and about 19.6x EBITDA for a contracted baseload developer with a decade of visible project pipeline.",
+  "base_case_rationale": "No base case. Normalised FCFF is non-positive because Ormat is capitalising the construction of long-lived generating assets, so CFO less capex is negative by construction during a build phase. Applying a growth rate to a negative base produces a number with a sign but no meaning. The right valuation for an IPP is a project-level, contract-by-contract discounted cash flow \u2014 capacity under power purchase agreement, contracted tariff, capacity factor, tax equity and ITC/PTC structure, and the cost and timing of the development pipeline \u2014 and this engine has none of those inputs.",
+  "key_risks": [
+    "Capital intensity: a build-phase IPP is exposed to the cost of capital, and utilities are de-rating on rate expectations",
+    "Geothermal resource risk \u2014 wells that underdeliver after capital is committed",
+    "Policy and tax-credit dependence (ITC/PTC and tax-equity availability)",
+    "Project execution and interconnection queues on the development pipeline",
+    "The $6.6M storage write-off suggests the storage segment's economics are not settled"
+  ],
+  "watch_for": [
+    "The raised full-year 2026 revenue and adjusted EBITDA guidance being met",
+    "New PPA signings at tariffs above the legacy book \u2014 the direct test of whether data-centre demand is repricing geothermal",
+    "Ormega100 first deployments and whether they shorten the build cycle as claimed",
+    "Whether the 63-day de-rating reverses with the utility cohort or persists, which distinguishes a sector move from a company problem"
+  ],
+  "sources": [
+    "https://igrownews.com/ormat-technologies-latest-news/",
+    "https://www.sec.gov/Archives/edgar/data/0001296445/000143774926015235/ex_958050.htm",
+    "https://simplywall.st/stocks/us/utilities/nyse-ora/ormat-technologies",
+    "https://247wallst.com/investing/2026/08/31/pge-sinks-18-edison-international-tumbles-23-as-california-wildfire-bill-omits-liability-cap/",
+    "https://www.barrons.com/articles/utility-stocks-record-low-sp500-buying-opportunity-8237dd33",
+    "data/screen.json (multiple_valuation block for ORA)"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}

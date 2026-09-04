@@ -1,0 +1,49 @@
+# LE — LAND END
+*Consumer Discretionary · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-04 — NO_EDGE (conviction: low)
+
+- **Verdict:** no_edge · price $10.82 · fair value $11.85 · gap +9.5%
+- **Growth:** market implies -19.8%, analyst says +2.0% (delta +21.8%)
+- **FCFF base overridden** by the analyst to $30.0M
+
+**Scenarios.** Fair value at each growth case, across the discount rate.
+
+| case | growth | 9.0% | 10.0% | 11.0% | 12.0% | 13.0% |
+|---|---|---|---|---|---|---|
+| bear | -6.0% | $10.77 | $9.57 | $8.64 | $7.89 | $7.28 |
+| base | +2.0% | $15.03 | $13.24 | $11.85 | $10.73 | $9.82 |
+| bull | +8.0% | $19.15 | $16.78 | $14.94 | $13.47 | $12.27 |
+
+At the point WACC of 11.0%: bear -20.2%, base +9.5%, bull +38.1%
+Across the whole grid the gap ranges -32.7% to +77.0% — that spread is the honest precision of this model, not the point estimate.
+
+**The case for the price.** Lands' End is no longer the company its cash-flow history describes. On 2026-04-01 it contributed all of its brand intellectual property to a joint venture, sold 50% of that JV to WHP Global for $300M cash, and licensed its own brand back under a guaranteed minimum royalty of $50.0M per year running through fiscal 2036. It used $234.0M of the proceeds to repay its term loan in full. The market's price says: this is a ~$1.33B revenue apparel business with a mid-single-digit EBITDA margin, no owned brand, a fixed $50M annual royalty that ranks ahead of equity, an ABL drawn $60.0M, tariff exposure, and revenue that has compounded at -1.7% over four years. FY2026 guidance of $62-70M adjusted EBITDA against a $333M market cap and ~$37M net debt is roughly 5.5x EV/EBITDA — a fair multiple for a structurally shrinking cataloguer whose brand economics are now shared 50/50 with a licensing partner. The Q2 print supports that reading: revenue $302M (+3%), but adjusted EBITDA fell $4M year on year to $11M and the top end of the full-year revenue outlook was cut.
+
+**What changed.** Everything that matters, and none of it is in the model's cash-flow window. (1) 2026-04-01: the WHP Global transaction closed — IP contributed to LE Topco LLC, 50% sold for $300M, long-term license back with a $50.0M/yr guaranteed minimum royalty through contract year 11, then +1%/yr through year 21. Royalty expense attributable to the JV was $15.4M in Q2 alone and $18.9M for the half; equity-method income from the JV was $4.2M in Q2 and $4.4M for the half. (2) Same date: the $234.0M term loan repaid in full, with a $2.3M prepayment premium and $6.9M of unamortized cost written off, a $9.2M loss on extinguishment. (3) Same date: WHP Global tendered for $100M of LE shares at $45.00 per share — roughly triple the market price — taking 7.2%; the 10-Q states the excess over trading price was accounted for as part of the transaction consideration, so this is deal economics, not a market quote. (4) 2026-09-03 Q2: revenue $302M (+2.7%), gross margin +320bp to 52%, US e-commerce +9%, but adjusted EBITDA $11M (down $4M YoY) and adjusted EPS missed by 10%. GAAP profitability was rescued by a $24.9M tariff refund — the fourth IEEPA-refund name this engine has seen after ANF, CRI and ENS. (5) FY2026 guidance: revenue $1.30-1.35B, adjusted EBITDA $62-70M, adjusted EPS $0.44-0.72; the high end of the revenue range was cut.
+
+**Base case.** The engine's $71.3M FCFF base cannot be used and I have replaced it. Two independent reasons: the three-year window [$20.4M, $15.4M, $95.6M] predates the $50M annual royalty entirely, and $27.5M of the $71.3M is an after-tax add-back of FY2025 interest on a term loan that no longer exists. The right forward base is management's own guidance: adjusted EBITDA of $62-70M (which is struck after royalty expense, since royalty sits in other cost of goods sold), less capex that has run $29-38M, less modest cash taxes and ~$5M of ABL interest. That lands at roughly $30M of unlevered free cash flow, which is what I have used as fcff_base_override. On growth: revenue is guided flat to slightly down and has compounded at -1.7% for four years, but gross margin is genuinely expanding (+320bp in Q2) on a mix shift to owned e-commerce and Outfitters, and the $50M royalty is FIXED — so every incremental gross profit dollar above it drops through. Flat revenue with 50-100bp of annual margin expansion produces low-single-digit FCFF growth. I use 2%, deliberately below the naive -1.7% baseline in the sense that matters (the baseline applies revenue decline to a cash-flow base that no longer exists) and deliberately below any operating-leverage story I cannot yet see in the numbers.
+
+**Devil's advocate.**
+- Strongest counter: The bear case on my own conclusion is that I am under-crediting the transaction. Lands' End converted an unmonetised intangible into $300M of cash, extinguished $234M of debt and ~$30M a year of interest, and kept 50% of the upside on a brand it could never have licensed globally on its own. The $50M royalty is roughly offset by the interest it eliminated, so the net cash cost of the deal to LE is small, and in exchange it gained a partner with a $45.00-per-share view of the equity. On that reading the FCFF base is not $30M but closer to $45M, growth is higher, and the stock at 5.5x EBITDA with a strategic holder at 7.2% is genuinely cheap.
+- What would prove it: Two things, both observable within four quarters: JV equity-method income and cash distributions to LE scaling materially above the $4.2M/quarter and $2.4M/half seen so far — that is the only evidence that the 50% retained stake is worth more than the royalty it costs; and adjusted EBITDA holding the guided $62-70M in FY2027 without a tariff-refund tailwind, on a full twelve months of royalty.
+- Already visible today: Partially, and it cuts both ways. The interest-for-royalty swap is real and roughly neutral in cash. But Q2 adjusted EBITDA FELL $4M year on year on +3% revenue and +320bp of gross margin — which is the signature of the royalty landing on the P&L faster than the interest saving lands below it. And the company cut the top of its revenue range in the same release. The JV income is real but small.
+- Left unresolved: I could not determine what the JV's third-party licensing pipeline actually contains, because that lives in WHP Global's plans and not in any Lands' End filing. That is the single input that decides whether the retained 50% stake is worth more or less than the royalty stream it costs, and I have no basis to value it. I have therefore given it no value, which is a conservative choice I cannot defend as correct.
+
+**Key risks.** The $50M/yr guaranteed minimum royalty is fixed through fiscal 2036 and ranks ahead of equity in a downturn; Tariffs: Q2 GAAP profit depended on a $24.9M one-time IEEPA refund that does not repeat; Revenue has compounded at -1.7% for four years and the top end of FY2026 guidance was just cut; ABL drawn $60.0M into the seasonal holiday build, with $11.3M of letters of credit; The retained 50% JV stake is illiquid and LE does not control it — WHP bought a controlling economic position in the brand
+**Watch for.** Q3 (holiday-quarter) adjusted EBITDA against the guided $14-18M — the first clean quarter with a full royalty and no tariff refund; JV equity-method income and cash distributions scaling above ~$4M/quarter, which is the only proof the retained stake has value; Any change in the ABL balance above the $60.0M drawn at 2026-07-31
+
+**Data quality.** Three flags, two resolved against the model and one partially. (1) `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated` — genuinely both true and false. The extract's total_debt of $0.00 is CORRECT as to the term loan: the 10-Q confirms the $234.0M balance was repaid in full on 2026-04-01. But the ABL Facility is missing entirely, and it had a balance outstanding of $60.0M at 2026-07-31 (versus $35.0M a year earlier). This is the ALTG revolver/ABL bug in research/LESSONS.md reproduced exactly. Enterprise value is therefore understated by ~$60M, and because the schema has no EV override, the recorded fair value below is overstated by roughly $1.95 per share ($60M / 30.74M shares). Subtract that: my base case fair value of ~$11.85 becomes ~$9.90 against a $10.82 price, i.e. a modestly NEGATIVE gap, not the +9.5% the record will show. (2) The FCFF base carries an after-tax add-back of $27.5M of FY2025 interest on debt that was extinguished on 2026-04-01 — a phantom in any forward number. Corrected via fcff_base_override. (3) `possible_trough_cycle_base` is misdirected: the $95.6M oldest year is a working-capital release, not a cyclical peak or trough, and the whole series is pre-transaction and therefore not comparable to anything forward. `lumpy_fcff_spread_1.8x_of_mean` is real and is the same fact. Separately noted, not affecting the FCFF route: the extract's equity_now of $501.1M is roughly double the $240-245M annual series, and intangibles reads $0.00 against a $257M series — neither is used by the FCFF path but both suggest the instant reads on this filer are unreliable.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/0000799288/000119312526381873/le-20260731.htm
+- https://www.globenewswire.com/news-release/2026/09/03/3355736/30720/en/lands-end-announces-second-quarter-fiscal-2026-results.html
+- https://investors.landsend.com/news-releases/news-release-details/lands-end-and-whp-global-complete-joint-venture-accelerate
+- https://www.retailtouchpoints.com/features/mergers-and-acquisitions/whp-global-pays-300-million-for-lands-end-ip-plus-50-stake-in-new-joint-venture
+- https://finance.yahoo.com/markets/stocks/articles/lands-end-inc-le-q2-210059024.html
+- data/adhoc/LE/2026-09-03-10-Q-le-20260731.htm.txt (fetched via adhoc-fetch)
+- data/adhoc/LE/2026-09-03-EX-99.1.txt

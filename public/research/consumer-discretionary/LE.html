@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LE — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / LE</p><h1>LE <span style='color:var(--faint);font-weight:400'>LAND END</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$10.82</b></div><div>Analyst gap<b>+9%</b></div><div>Dated<b>2026-09-04</b></div></div><div class='prose'><h1>LE — LAND END</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-04 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $10.82 · fair value $11.85 · gap +9.5%</li><li><strong>Growth:</strong> market implies -19.8%, analyst says +2.0% (delta +21.8%)</li><li><strong>FCFF base overridden</strong> by the analyst to $30.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 9.0% | 10.0% | 11.0% | 12.0% | 13.0% | |---|---|---|---|---|---|---| | bear | -6.0% | $10.77 | $9.57 | $8.64 | $7.89 | $7.28 | | base | +2.0% | $15.03 | $13.24 | $11.85 | $10.73 | $9.82 | | bull | +8.0% | $19.15 | $16.78 | $14.94 | $13.47 | $12.27 |</p><p>At the point WACC of 11.0%: bear -20.2%, base +9.5%, bull +38.1% Across the whole grid the gap ranges -32.7% to +77.0% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Lands&#x27; End is no longer the company its cash-flow history describes. On 2026-04-01 it contributed all of its brand intellectual property to a joint venture, sold 50% of that JV to WHP Global for $300M cash, and licensed its own brand back under a guaranteed minimum royalty of $50.0M per year running through fiscal 2036. It used $234.0M of the proceeds to repay its term loan in full. The market&#x27;s price says: this is a ~$1.33B revenue apparel business with a mid-single-digit EBITDA margin, no owned brand, a fixed $50M annual royalty that ranks ahead of equity, an ABL drawn $60.0M, tariff exposure, and revenue that has compounded at -1.7% over four years. FY2026 guidance of $62-70M adjusted EBITDA against a $333M market cap and ~$37M net debt is roughly 5.5x EV/EBITDA — a fair multiple for a structurally shrinking cataloguer whose brand economics are now shared 50/50 with a licensing partner. The Q2 print supports that reading: revenue $302M (+3%), but adjusted EBITDA fell $4M year on year to $11M and the top end of the full-year revenue outlook was cut.</p><p><strong>What changed.</strong> Everything that matters, and none of it is in the model&#x27;s cash-flow window. (1) 2026-04-01: the WHP Global transaction closed — IP contributed to LE Topco LLC, 50% sold for $300M, long-term license back with a $50.0M/yr guaranteed minimum royalty through contract year 11, then +1%/yr through year 21. Royalty expense attributable to the JV was $15.4M in Q2 alone and $18.9M for the half; equity-method income from the JV was $4.2M in Q2 and $4.4M for the half. (2) Same date: the $234.0M term loan repaid in full, with a $2.3M prepayment premium and $6.9M of unamortized cost written off, a $9.2M loss on extinguishment. (3) Same date: WHP Global tendered for $100M of LE shares at $45.00 per share — roughly triple the market price — taking 7.2%; the 10-Q states the excess over trading price was accounted for as part of the transaction consideration, so this is deal economics, not a market quote. (4) 2026-09-03 Q2: revenue $302M (+2.7%), gross margin +320bp to 52%, US e-commerce +9%, but adjusted EBITDA $11M (down $4M YoY) and adjusted EPS missed by 10%. GAAP profitability was rescued by a $24.9M tariff refund — the fourth IEEPA-refund name this engine has seen after ANF, CRI and ENS. (5) FY2026 guidance: revenue $1.30-1.35B, adjusted EBITDA $62-70M, adjusted EPS $0.44-0.72; the high end of the revenue range was cut.</p><p><strong>Base case.</strong> The engine&#x27;s $71.3M FCFF base cannot be used and I have replaced it. Two independent reasons: the three-year window [$20.4M, $15.4M, $95.6M] predates the $50M annual royalty entirely, and $27.5M of the $71.3M is an after-tax add-back of FY2025 interest on a term loan that no longer exists. The right forward base is management&#x27;s own guidance: adjusted EBITDA of $62-70M (which is struck after royalty expense, since royalty sits in other cost of goods sold), less capex that has run $29-38M, less modest cash taxes and ~$5M of ABL interest. That lands at roughly $30M of unlevered free cash flow, which is what I have used as fcff_base_override. On growth: revenue is guided flat to slightly down and has compounded at -1.7% for four years, but gross margin is genuinely expanding (+320bp in Q2) on a mix shift to owned e-commerce and Outfitters, and the $50M royalty is FIXED — so every incremental gross profit dollar above it drops through. Flat revenue with 50-100bp of annual margin expansion produces low-single-digit FCFF growth. I use 2%, deliberately below the naive -1.7% baseline in the sense that matters (the baseline applies revenue decline to a cash-flow base that no longer exists) and deliberately below any operating-leverage story I cannot yet see in the numbers.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The bear case on my own conclusion is that I am under-crediting the transaction. Lands&#x27; End converted an unmonetised intangible into $300M of cash, extinguished $234M of debt and ~$30M a year of interest, and kept 50% of the upside on a brand it could never have licensed globally on its own. The $50M royalty is roughly offset by the interest it eliminated, so the net cash cost of the deal to LE is small, and in exchange it gained a partner with a $45.00-per-share view of the equity. On that reading the FCFF base is not $30M but closer to $45M, growth is higher, and the stock at 5.5x EBITDA with a strategic holder at 7.2% is genuinely cheap.</li><li>What would prove it: Two things, both observable within four quarters: JV equity-method income and cash distributions to LE scaling materially above the $4.2M/quarter and $2.4M/half seen so far — that is the only evidence that the 50% retained stake is worth more than the royalty it costs; and adjusted EBITDA holding the guided $62-70M in FY2027 without a tariff-refund tailwind, on a full twelve months of royalty.</li><li>Already visible today: Partially, and it cuts both ways. The interest-for-royalty swap is real and roughly neutral in cash. But Q2 adjusted EBITDA FELL $4M year on year on +3% revenue and +320bp of gross margin — which is the signature of the royalty landing on the P&amp;L faster than the interest saving lands below it. And the company cut the top of its revenue range in the same release. The JV income is real but small.</li><li>Left unresolved: I could not determine what the JV&#x27;s third-party licensing pipeline actually contains, because that lives in WHP Global&#x27;s plans and not in any Lands&#x27; End filing. That is the single input that decides whether the retained 50% stake is worth more or less than the royalty stream it costs, and I have no basis to value it. I have therefore given it no value, which is a conservative choice I cannot defend as correct.</li></ul><p><strong>Key risks.</strong> The $50M/yr guaranteed minimum royalty is fixed through fiscal 2036 and ranks ahead of equity in a downturn; Tariffs: Q2 GAAP profit depended on a $24.9M one-time IEEPA refund that does not repeat; Revenue has compounded at -1.7% for four years and the top end of FY2026 guidance was just cut; ABL drawn $60.0M into the seasonal holiday build, with $11.3M of letters of credit; The retained 50% JV stake is illiquid and LE does not control it — WHP bought a controlling economic position in the brand <strong>Watch for.</strong> Q3 (holiday-quarter) adjusted EBITDA against the guided $14-18M — the first clean quarter with a full royalty and no tariff refund; JV equity-method income and cash distributions scaling above ~$4M/quarter, which is the only proof the retained stake has value; Any change in the ABL balance above the $60.0M drawn at 2026-07-31</p><p><strong>Data quality.</strong> Three flags, two resolved against the model and one partially. (1) <code>interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated</code> — genuinely both true and false. The extract&#x27;s total_debt of $0.00 is CORRECT as to the term loan: the 10-Q confirms the $234.0M balance was repaid in full on 2026-04-01. But the ABL Facility is missing entirely, and it had a balance outstanding of $60.0M at 2026-07-31 (versus $35.0M a year earlier). This is the ALTG revolver/ABL bug in research/LESSONS.md reproduced exactly. Enterprise value is therefore understated by ~$60M, and because the schema has no EV override, the recorded fair value below is overstated by roughly $1.95 per share ($60M / 30.74M shares). Subtract that: my base case fair value of ~$11.85 becomes ~$9.90 against a $10.82 price, i.e. a modestly NEGATIVE gap, not the +9.5% the record will show. (2) The FCFF base carries an after-tax add-back of $27.5M of FY2025 interest on debt that was extinguished on 2026-04-01 — a phantom in any forward number. Corrected via fcff_base_override. (3) <code>possible_trough_cycle_base</code> is misdirected: the $95.6M oldest year is a working-capital release, not a cyclical peak or trough, and the whole series is pre-transaction and therefore not comparable to anything forward. <code>lumpy_fcff_spread_1.8x_of_mean</code> is real and is the same fact. Separately noted, not affecting the FCFF route: the extract&#x27;s equity_now of $501.1M is roughly double the $240-245M annual series, and intangibles reads $0.00 against a $257M series — neither is used by the FCFF path but both suggest the instant reads on this filer are unreliable.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/0000799288/000119312526381873/le-20260731.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0000799288/000119312526381873/le-20260731.htm</a></li><li><a href="https://www.globenewswire.com/news-release/2026/09/03/3355736/30720/en/lands-end-announces-second-quarter-fiscal-2026-results.html" rel="noopener">https://www.globenewswire.com/news-release/2026/09/03/3355736/30720/en/lands-end-announces-second-quarter-fiscal-2026-results.html</a></li><li><a href="https://investors.landsend.com/news-releases/news-release-details/lands-end-and-whp-global-complete-joint-venture-accelerate" rel="noopener">https://investors.landsend.com/news-releases/news-release-details/lands-end-and-whp-global-complete-joint-venture-accelerate</a></li><li><a href="https://www.retailtouchpoints.com/features/mergers-and-acquisitions/whp-global-pays-300-million-for-lands-end-ip-plus-50-stake-in-new-joint-venture" rel="noopener">https://www.retailtouchpoints.com/features/mergers-and-acquisitions/whp-global-pays-300-million-for-lands-end-ip-plus-50-stake-in-new-joint-venture</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/lands-end-inc-le-q2-210059024.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/lands-end-inc-le-q2-210059024.html</a></li><li>data/adhoc/LE/2026-09-03-10-Q-le-20260731.htm.txt (fetched via adhoc-fetch)</li><li>data/adhoc/LE/2026-09-03-EX-99.1.txt</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/LE.md'>research/Consumer Discretionary/LE.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
