@@ -1,5 +1,19 @@
 [
  {
+  "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
+  "ts": "2026-09-04T13:33:30+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "4d992083-e0b2-3860-b71d-6a5f001f21fe",
   "ts": "2026-09-03T19:46:02+00:00",
   "title": "Sector Update: Healthcare Stocks Edge Higher Late Afternoon",

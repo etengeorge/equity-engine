@@ -1,5 +1,33 @@
 [
  {
+  "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
+  "ts": "2026-09-04T13:33:30+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "0a90af53-8faf-35e8-84ed-2a8aa13529cd",
+  "ts": "2026-09-04T13:19:26+00:00",
+  "title": "Sector Update: Financial Stocks Lean Lower Premarket Friday",
+  "summary": "Financial stocks were leaning lower premarket Friday, with the State Street Financial Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "402732ad-dcf2-30b5-aeaf-c669b6a01336",
   "ts": "2026-09-03T19:57:45+00:00",
   "title": "Sector Update: Financial Stocks Gain Late Afternoon",

@@ -1,101 +1,86 @@
-# SRRK — SCHOLAR ROCK HOLDING
-*Health Care · brief generated 2026-09-04 · selected as **rotation***
+# BUR — BURFORD CAPITAL LTD
+*Financials · brief generated 2026-09-04 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 58/1956
+- cheapest 1% of 339 Financials peers (99th pct)
+- baseline gap +181%
+- Financials is in the news
+- never researched
+- urgency score 6.9
 
 ## Market
 | | |
 |---|---|
-| price | $55.94 |
-| market cap | $6.8B |
-| 5d / 21d / 63d / 252d | -5.6% / +16.9% / +23.4% / +62.7% |
-| 60d avg daily $ volume | $69.7M |
-| beta (vs IWM) | 0.65 (R²=0.014) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.7x |
+| price | $4.30 |
+| market cap | $944.2M |
+| 5d / 21d / 63d / 252d | -0.5% / +0.7% / -3.4% / -67.0% |
+| 60d avg daily $ volume | $7.9M |
+| beta (vs IWM) | 1.15 (R²=0.19) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| WACC weights | equity 28% / debt 72% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 8.5% − 1pt | n/a |
-| **8.5% (point)** | **n/a** |
-| 8.5% + 1pt | n/a |
+| sustainable ROTCE | +12.5% |
+| cost of equity | +11.1% |
+| justified P/TBV | 1.15 |
+| actual P/TBV | 0.41 |
+| tangible book / share | $10.54 |
+| implied gap | +181.5% |
 
-
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $55.94).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| p_tbv (n=330) | 26.8x | 2.4x / 4.5x / 8.2x | $5.06 / $9.45 / $17.14 |
-
-Blended midpoint **$9.45** vs price $55.94 — gap **-83.1%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **99th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +214.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_3%_debt_weight`
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
-- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
+- `unstable_rotce_2.7%_to_28.3%`
 
 ## Recent filings
-- 2026-08-06 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926091702/tm2622083d2_8k.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336732/srrk-20260630.htm
-- 2026-08-06 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-20260806.htm
-- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926070636/srrk-20260604x8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056667/srrk-20260331x10q.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507x8k.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926046917/tm261440-1_def14a.htm
-- 2026-03-31 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926037350/tm2610664d1_8k.htm
-- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/1727196/000110465926022551/srrk-20251231x10k.htm
-- 2026-03-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727196/000110465926022547/srrk-20260303x8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000097/bur-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000096/bur-20260806.htm
+- 2026-05-14 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000071/bur-20260513.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000068/bur-20260331.htm
+- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000067/bur-20260508.htm
+- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000055/bur-20260324.htm
+- 2026-03-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000040/bur-20260327.htm
+- 2026-03-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000010/bur-20260303.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000007/bur-20251231.htm
+- 2026-02-26 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000006/bur-20260225.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations)* — https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-ex99_1.htm
-- **2026-05-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d1.htm
-- **2026-05-07** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d2.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000096/bur-20260806xex991.htm
+- **2026-08-06** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000096/bur-20260806xex992.htm
+- **2026-05-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000067/bur-20260508xex991.htm
+- **2026-05-08** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714174/000171417426000067/bur-20260508xex992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Health Care
-*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
-- **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
-- **2026-09-03** · Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector
+- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
+- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
+- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
+- **2026-09-03** · Sector Update: Financial Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html
+- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
+- **2026-09-03** · How Is Blackstone's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
-- **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
-- **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-01** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194653614.html
-- **2026-09-01** · Sector Update: Healthcare Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-tuesday-174146205.html
+- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
+- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
+- **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
 
 ## Market and macro context
-- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
-- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
-- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
-- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
+- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
+- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
+- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
+- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
 
 *Rules, releases and agency actions:*
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
@@ -108,17 +93,18 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Health Care
-- ALKS: no_edge · price $46.91
-- CRNX: no_edge · price $84.84
-- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
-- KYMR: no_model · price $119.05
-- PCVX: no_model · price $60.74
-- PRAX: no_model · price $344.75
-- PTGX: no_model · price $144.33
-- TDOC: no_model · price $6.34
-- TGTX: no_model · price $54.30
-- TXG: no_model · price $59.98
+## Prior verdicts elsewhere in Financials
+- ACR: no_model · price $14.00
+- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
+- FG: no_model · price $24.87
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
+- JXN: no_model · price $133.65
+- MFIN: no_edge · price $11.82
+- OSCR: no_model · price $29.83
+- SNEX: no_edge · price $68.48
+- VEL: no_edge · price $18.01
+- VLY: fair · price $13.81 · fair value $11.77 · gap -14.7%
 
 ---
 

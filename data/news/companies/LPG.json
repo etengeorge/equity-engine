@@ -1,5 +1,17 @@
 [
  {
+  "id": "40bc511a-3174-3493-b508-e8c3f5358973",
+  "ts": "2026-09-04T13:26:29+00:00",
+  "title": "Sector Update: Energy Stocks Fall Pre-Bell Friday",
+  "summary": "Energy stocks were falling pre-bell Friday, with the State Street Energy Select Sector SPDR ETF (XLE",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html",
+  "tickers": [
+   "LPG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7b783cd6-5668-372a-b164-a09cf7b06dc3",
   "ts": "2026-09-04T10:00:00+00:00",
   "title": "Dorian LPG Ltd. Announces VLGC Newbuilding Contracts, Forward Chartering Estimates, and New Credit Facility",

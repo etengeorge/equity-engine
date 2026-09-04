@@ -1,104 +1,79 @@
-# SND — SMART SAND INC
-*Energy · brief generated 2026-09-04 · selected as **opportunistic***
+# ESNT — ESSENT GROUP
+*Financials · brief generated 2026-09-04 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 47 Energy peers (98th pct)
-- baseline gap +296%
-- discounted: stock comp is 20% of reported FCFF
-- discounted: cash-flow base may be a cycle peak
-- 21d move +28%
-- filed an 8-K in the last few sessions
-- Energy is in the news
-- never researched
-- urgency score 8.61
+- rotation position 62/1956
 
 ## Market
 | | |
 |---|---|
-| price | $5.35 |
-| market cap | $226.8M |
-| 5d / 21d / 63d / 252d | +6.2% / +28.0% / -4.3% / +201.2% |
-| 60d avg daily $ volume | $1.7M |
-| beta (vs IWM) | 0.31 (R²=0.039) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.6x |
+| price | $69.63 |
+| market cap | $6.3B |
+| 5d / 21d / 63d / 252d | +1.0% / +5.2% / +22.4% / +12.5% |
+| 60d avg daily $ volume | $44.9M |
+| beta (vs IWM) | 0.49 (R²=0.179) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 94% / debt 6% |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$17.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$32.5M', '$10.9M', '$8.0M']
-Enterprise value **$257.8M** · FCFF yield **+6.6%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 6.3% − 1pt | -12.5% |
-| **6.3% (point)** | **-7.5%** |
-| 6.3% + 1pt | -3.3% |
+| sustainable ROTCE | +13.5% |
+| cost of equity | +7.5% |
+| justified P/TBV | 2.1 |
+| actual P/TBV | 1.1 |
+| tangible book / share | $63.51 |
+| implied gap | +92.0% |
 
-
-> **Stock compensation is 20% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$13.6M** and an implied growth of **-2.7%** instead of -7.5%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+22.0%** (5y revenue CAGR +22.0%).
-Gap under that baseline: **+296.3%** (fair value $21.20 vs price $5.35).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **98th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +276.4%).
+Cohort: **95th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +125.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_4.1x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_20%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-09-03 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000104/snd-20260901.htm
-- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000095/snd-20260630.htm
-- 2026-08-11 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000096/snd-20260811.htm
-- 2026-07-20 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000089/snd-20260716.htm
-- 2026-06-08 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000047/snd-20260602.htm
-- 2026-05-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000039/snd-20260515.htm
-- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000033/snd-20260331.htm
-- 2026-05-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000034/snd-20260512.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000025/snd-20260421.htm
-- 2026-04-09 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000014/snd-20260409.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000024/esnt-20260630.htm
+- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000022/esnt-20260807.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000016/esnt-20260331.htm
+- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000013/esnt-20260508.htm
+- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1448893/000110465926035242/tm261547-1_def14a.htm
+- 2026-02-18 **10-K** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000009/esnt-20251231.htm
+- 2026-02-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000003/esnt-20260213.htm
+- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000093/esnt-20250930.htm
+- 2025-11-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000091/esnt-20251107.htm
+- 2025-08-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000081/esnt-20250630.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000096/a2026q2exhibit991.htm
-- **2026-07-20** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000089/snd-pressreleasexdividendd.htm
-- **2026-05-12** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529628/000152962826000034/a2026q1exhibit991.htm
+- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000022/a63026financialsupplement.htm
+- **2026-05-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000013/a33126financialsupplement.htm
 
 ## News on this company — last 90 days
-*2 items held; showing the 2 most recent. Headlines and summaries only — open the URL for the full story.*
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-- **2026-08-11** · Smart Sand, Inc. Announces Second Quarter 2026 Results — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/smart-sand-inc-announces-second-200000484.html
-  > Smart Sand, Inc. (NASDAQ: SND) (the "Company" or "Smart Sand"), a leading supplier of premium Northern White frac sand and industrial sand and a proppant logistics solutions provider, today announced results for the second quarter of 2026.
-- **2026-07-16** · SMART SAND, INC. DECLARES SPECIAL DIVIDEND OF $0.10 PER SHARE — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/smart-sand-inc-declares-special-200000434.html
-  > Smart Sand, Inc. (NASDAQ: SND) ("Smart Sand" or the "Company") announced today that its board of directors has declared a special cash dividend on the Company's common stock of $0.10 per share, payable on August 12, 2026, to stockholders of
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
-## What is happening in Energy
-*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
-
-- **2026-09-04** · Goldman’s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside — *Insider Monkey* — https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html
+- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
+- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
+- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
+- **2026-09-03** · Sector Update: Financial Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html
 - **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
-- **2026-09-03** · Sector Update: Energy Stocks Rise Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132503315.html
+- **2026-09-03** · How Is Blackstone's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195545186.html
-- **2026-09-02** · Norwegian Cruise Line Just Dropped 16% in a Month: Sell Now, or Buy More? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/02/norwegian-cruise-line-just-dropped-16-in-a-month-sell-now-or-buy-more/
-- **2026-09-02** · Sector Update: Energy Stocks Higher in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-174723978.html
+- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
+- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
 - **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
 
 ## Market and macro context
-- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
-- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
-- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
-- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
+- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
+- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
+- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
+- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
 
 *Rules, releases and agency actions:*
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
@@ -111,10 +86,18 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Energy
-- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
-- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
-- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
+## Prior verdicts elsewhere in Financials
+- ACR: no_model · price $14.00
+- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
+- FG: no_model · price $24.87
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
+- JXN: no_model · price $133.65
+- MFIN: no_edge · price $11.82
+- OSCR: no_model · price $29.83
+- SNEX: no_edge · price $68.48
+- VEL: no_edge · price $18.01
+- VLY: fair · price $13.81 · fair value $11.77 · gap -14.7%
 
 ---
 

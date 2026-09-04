@@ -1,5 +1,19 @@
 [
  {
+  "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
+  "ts": "2026-09-04T13:33:30+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "9b6f064c-f2d6-329d-a634-9797b731c176",
   "ts": "2026-09-03T20:11:00+00:00",
   "title": "Campbell\u2019s and Other Staples Stocks Have Hit a Rough Patch",

@@ -1,100 +1,83 @@
-# ORA — ORMAT TECH INC
-*Utilities · brief generated 2026-09-04 · selected as **rotation***
+# AMSF — AMERISAFE INC
+*Financials · brief generated 2026-09-04 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 56/1956
+- cheapest 2% of 339 Financials peers (98th pct)
+- baseline gap +132%
+- 21d move -12%
+- Financials is in the news
+- never researched
+- urgency score 6.77
 
 ## Market
 | | |
 |---|---|
-| price | $104.19 |
-| market cap | $6.4B |
-| 5d / 21d / 63d / 252d | -0.7% / +6.4% / -26.8% / +14.8% |
-| 60d avg daily $ volume | $92.5M |
-| beta (vs IWM) | 0.44 (R²=0.093) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 68% / debt 32% |
+| price | $26.31 |
+| market cap | $487.7M |
+| 5d / 21d / 63d / 252d | +0.7% / -11.8% / -13.4% / -38.8% |
+| 60d avg daily $ volume | $9.1M |
+| beta (vs IWM) | 0.4 (R²=0.093) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 7.8% − 1pt | n/a |
-| **7.8% (point)** | **n/a** |
-| 7.8% + 1pt | n/a |
+| sustainable ROTCE | +24.2% |
+| cost of equity | +7.0% |
+| justified P/TBV | 4.49 |
+| actual P/TBV | 1.94 |
+| tangible book / share | $13.57 |
+| implied gap | +131.6% |
 
-
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $104.19).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=25) | 19.6x | 10.2x / 13.3x / 16.9x | $33.64 / $57.13 / $84.05 |
-| ev_sales (n=30) | 9.1x | 3.0x / 4.4x / 5.5x | $4.86 / $28.57 / $46.31 |
-| ev_gross_profit (n=13) | 33.2x | 7.8x / 11.4x / 18.1x | $-8.28 / $7.39 / $37.48 |
-| p_tbv (n=29) | 3.2x | 1.7x / 2.0x / 2.3x | $55.01 / $67.52 / $77.47 |
-
-Blended midpoint **$40.15** vs price $104.19 — gap **-61.5%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Utilities names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +165.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000014/ora-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926025961/ora20260805_8k.htm
-- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926019607/ora20260604_8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000008/ora-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926015235/ora20260506_8k.htm
-- 2026-04-21 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1296445/000119312526166752/ora-20260420.htm
-- 2026-03-23 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000121390026032467/ea0282703-8k_ormat.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1296445/000129644526000006/ora-20251231.htm
-- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926005680/ora20260225_8k.htm
-- 2026-02-17 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1296445/000143774926004369/ora20260217_8k.htm
+- 2026-07-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018979/000119312526314074/amsf-20260630.htm
+- 2026-07-21 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312526310328/d122285d8k.htm
+- 2026-06-12 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312526269381/d135171d8k.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1018979/000119312526177410/amsf-20260424.htm
+- 2026-04-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018979/000119312526173630/amsf-20260331.htm
+- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312526168712/d209530d8k.htm
+- 2026-04-16 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312526158971/d33175d8k.htm
+- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1018979/000119312526082513/amsf-20251231.htm
+- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312526071529/d63427d8k.htm
+- 2025-11-03 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018979/000119312525262638/d935333d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1296445/000143774926025961/ex_999557.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018979/000119312526310328/d122285dex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Utilities
-*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
-- **2026-09-02** · Stock Market News for Sep 2, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html
-- **2026-09-01** · The Best Stock Sector ETFs for Rising Interest Rates — *Barrons.com* — https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo
-- **2026-09-01** · Stock Market News for Sep 1, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html
-- **2026-08-31** · Forget XLU: These 3 Utility Dividend Stocks Offer More Exposure to AI — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/forget-xlu-these-3-utility-dividend-stocks-offer-more-exposure-to-ai/
-- **2026-08-31** · PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/pge-sinks-18-edison-international-tumbles-23-as-california-wildfire-bill-omits-liability-cap/
-- **2026-08-31** · NextEra Energy Stock: Is NEE Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4355805/nextera-energy-stock-is-nee-outperforming-the-utilities-sector
-- **2026-08-26** · Utility Stocks Hit Record Lows vs. S&P 500: Why It’s Time to Buy — *Barrons.com* — https://www.barrons.com/articles/utility-stocks-record-low-sp500-buying-opportunity-8237dd33?siteid=yhoof2&yptr=yahoo
-- **2026-08-25** · Are Wall Street Analysts Predicting Atmos Energy Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/4023979/are-wall-street-analysts-predicting-atmos-energy-stock-will-climb-or-sink
-- **2026-08-24** · After Comparing Every Way to Own the AI Power Buildout, These 3 ETFs Cover the Grid, the Generators, and the Fuel — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/08/24/after-comparing-every-way-to-own-the-ai-power-buildout-these-3-etfs-cover-the-grid-the-generators-and-the-fuel/
+- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
+- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
+- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
+- **2026-09-03** · Sector Update: Financial Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html
+- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
+- **2026-09-03** · How Is Blackstone's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
+- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
+- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
+- **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
 
 ## Market and macro context
-- **2026-09-04** · This Global REIT Beats SCHH on Yield. Is It a Better Buy for Real Estate Investors? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/04/this-global-reit-beats-schh-on-yield-is-it-a-better-buy-for-real-estate-investors/
-- **2026-09-04** · These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs — *Investor's Business Daily* — https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo
-- **2026-09-04** · Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo
-- **2026-09-04** · Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html
+- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
+- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
+- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
+- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
 
 *Rules, releases and agency actions:*
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
@@ -106,6 +89,19 @@ Attack these before you trust any number above.
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
+
+## Prior verdicts elsewhere in Financials
+- ACR: no_model · price $14.00
+- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
+- FG: no_model · price $24.87
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
+- JXN: no_model · price $133.65
+- MFIN: no_edge · price $11.82
+- OSCR: no_model · price $29.83
+- SNEX: no_edge · price $68.48
+- VEL: no_edge · price $18.01
+- VLY: fair · price $13.81 · fair value $11.77 · gap -14.7%
 
 ---
 

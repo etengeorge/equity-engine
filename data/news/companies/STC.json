@@ -1,5 +1,17 @@
 [
  {
+  "id": "2953a083-89fd-350c-a661-131b18386761",
+  "ts": "2026-09-04T14:06:10+00:00",
+  "title": "3 Small-Cap Stocks That Concern Us",
+  "summary": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-concern-140610049.html",
+  "tickers": [
+   "STC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2825d17b-79a4-3545-9288-46f3b5830c0b",
   "ts": "2026-09-02T16:20:00+00:00",
   "title": "First American's Housing Business Faces High Mortgage-Rate Pressure",

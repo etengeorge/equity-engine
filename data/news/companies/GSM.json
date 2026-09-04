@@ -106,17 +106,5 @@
    "GSM"
   ],
   "source": "yfinance"
- },
- {
-  "id": "e59f53b6-2b3e-36cf-acc8-6cc2d6851a88",
-  "ts": "2026-05-06T12:30:00+00:00",
-  "title": "Ferroglobe PLC Q1 2026 Earnings Call Summary",
-  "summary": "Moby summary of Ferroglobe PLC's Q1 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ferroglobe-plc-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "GSM"
-  ],
-  "source": "yfinance"
  }
 ]

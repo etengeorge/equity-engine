@@ -1,5 +1,33 @@
 [
  {
+  "id": "ba63f447-ed73-435e-8feb-3c79456833fb",
+  "ts": "2026-09-04T14:02:42+00:00",
+  "title": "Blowout jobs report raises worries of Fed rate hike: AlphaCheck",
+  "summary": "Stocks rose after the monthly jobs report",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
+  "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
+  "ts": "2026-09-04T13:33:30+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "8505cd1b-ddba-3b17-9581-227846f5beab",
   "ts": "2026-09-03T13:20:19+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",

@@ -1,5 +1,47 @@
 [
  {
+  "id": "ba63f447-ed73-435e-8feb-3c79456833fb",
+  "ts": "2026-09-04T14:02:42+00:00",
+  "title": "Blowout jobs report raises worries of Fed rate hike: AlphaCheck",
+  "summary": "Stocks rose after the monthly jobs report",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
+  "ts": "2026-09-04T13:33:30+00:00",
+  "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "40bc511a-3174-3493-b508-e8c3f5358973",
+  "ts": "2026-09-04T13:26:29+00:00",
+  "title": "Sector Update: Energy Stocks Fall Pre-Bell Friday",
+  "summary": "Energy stocks were falling pre-bell Friday, with the State Street Energy Select Sector SPDR ETF (XLE",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "6c295aa3-8256-3bd9-9e78-f19503435478",
   "ts": "2026-09-04T01:30:09+00:00",
   "title": "Goldman\u2019s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside",

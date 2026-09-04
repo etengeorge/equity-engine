@@ -1,5 +1,17 @@
 [
  {
+  "id": "05b99196-8139-36d2-a738-63bca019094d",
+  "ts": "2026-09-04T12:38:10+00:00",
+  "title": "3 Small-Cap Stocks That Concern Us",
+  "summary": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-concern-123810421.html",
+  "tickers": [
+   "GCO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "031cacd8-a9a0-35e4-bdb8-66295ca32279",
   "ts": "2026-09-04T07:20:09+00:00",
   "title": "GCO Q2 Deep Dive: Margin Gains and Strategic Brand Investments Offset Lower Sales",

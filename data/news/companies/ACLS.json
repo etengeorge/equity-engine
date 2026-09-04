@@ -1,5 +1,17 @@
 [
  {
+  "id": "5c25e108-ee6b-33fd-b66c-b0b72b1f7d5a",
+  "ts": "2026-09-04T12:29:10+00:00",
+  "title": "US firms pledge $2bn for South Korea\u2019s chip, clean energy sectors",
+  "summary": "The participating companies are Air Products, Axcelis Technologies, Corning and Pacifico Energy",
+  "publisher": "Investment Monitor",
+  "url": "https://www.investmentmonitor.ai/news/us-pledge-2bn-for-south-korea/",
+  "tickers": [
+   "ACLS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e5976a0a-5050-36a7-8f03-7c2da46b3890",
   "ts": "2026-09-03T17:06:50+00:00",
   "title": "Why Axcelis Technologies (ACLS) Is Back On Investor Radars",

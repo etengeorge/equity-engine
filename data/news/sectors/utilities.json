@@ -1,5 +1,19 @@
 [
  {
+  "id": "ba63f447-ed73-435e-8feb-3c79456833fb",
+  "ts": "2026-09-04T14:02:42+00:00",
+  "title": "Blowout jobs report raises worries of Fed rate hike: AlphaCheck",
+  "summary": "Stocks rose after the monthly jobs report",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "7ac16a10-595d-34ea-965e-eeaa9eb7492f",
   "ts": "2026-09-02T10:20:02+00:00",
   "title": "Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)?",

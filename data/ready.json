@@ -1,90 +1,90 @@
 {
-  "screen_utc": "2026-09-04T11:26:08+00:00",
+  "screen_utc": "2026-09-04T14:33:53+00:00",
   "price_asof": "2026-09-03",
   "universe": 1956,
   "modelled": 1078,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-04T11:26:09+00:00",
+    "generated_utc": "2026-09-04T14:33:54+00:00",
     "sectors": {
       "Health Care": {
-        "new": 4,
-        "held": 23,
+        "new": 1,
+        "held": 24,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 4,
-        "held": 27,
+        "new": 2,
+        "held": 29,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 17,
+        "new": 2,
+        "held": 19,
         "etf": "XLI"
       },
       "Information Technology": {
         "new": 2,
-        "held": 26,
+        "held": 28,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 0,
-        "held": 18,
+        "new": 1,
+        "held": 19,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 4,
-        "held": 32,
+        "new": 3,
+        "held": 35,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 2,
+        "new": 0,
         "held": 18,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 1,
+        "new": 0,
         "held": 13,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 1,
+        "new": 0,
         "held": 17,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 3,
-        "held": 21,
+        "new": 1,
+        "held": 22,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 15,
+        "new": 1,
+        "held": 16,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 1029,
+    "articles_new": 234,
     "candidates": 450,
-    "elapsed_s": 198.5
+    "elapsed_s": 222.2
   },
   "picks": [
-    "ORA",
-    "NPO",
-    "SRRK",
-    "LTH",
-    "HWC",
-    "GATX",
-    "SND",
-    "LE",
-    "AII",
-    "FG"
+    "ESNT",
+    "GBCI",
+    "QBTS",
+    "JBTM",
+    "HIMS",
+    "VSXY",
+    "BUR",
+    "EFOR",
+    "WEN",
+    "AMSF"
   ],
   "stages": {
-    "screen": "2026-09-04T11:30:09+00:00",
-    "news": "2026-09-04T11:29:27+00:00",
-    "pick": "2026-09-04T11:30:09+00:00"
+    "screen": "2026-09-04T14:37:50+00:00",
+    "news": "2026-09-04T14:37:36+00:00",
+    "pick": "2026-09-04T14:37:50+00:00"
   }
 }
