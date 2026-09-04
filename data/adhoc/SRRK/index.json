@@ -1,0 +1,158 @@
+{
+  "fetched_utc": "2026-09-04T11:34:36+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "SRRK",
+    "cik": 1727196,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926091702/tm2622083d2_8k.htm",
+        "file": "2026-08-06-8-K-tm2622083d2_8k.htm.txt",
+        "chars": 5057,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000119312526336732/srrk-20260630.htm",
+        "file": "2026-08-06-10-Q-srrk-20260630.htm.txt",
+        "chars": 374315,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-20260806.htm",
+        "file": "2026-08-06-8-K-srrk-20260806.htm.txt",
+        "chars": 3584,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926070636/srrk-20260604x8k.htm",
+        "file": "2026-06-05-8-K-srrk-20260604x8k.htm.txt",
+        "chars": 4653,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926056667/srrk-20260331x10q.htm",
+        "file": "2026-05-07-10-Q-srrk-20260331x10q.htm.txt",
+        "chars": 376192,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507x8k.htm",
+        "file": "2026-05-07-8-K-srrk-20260507x8k.htm.txt",
+        "chars": 4799,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-31",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926037350/tm2610664d1_8k.htm",
+        "file": "2026-03-31-8-K-tm2610664d1_8k.htm.txt",
+        "chars": 6396,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-03",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926022551/srrk-20251231x10k.htm",
+        "file": "2026-03-03-10-K-srrk-20251231x10k.htm.txt",
+        "chars": 400150,
+        "truncated": true
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02"
+        ],
+        "item_labels": [
+          "results of operations"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000119312526336715/srrk-ex99_1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 16441,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 15971,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926056655/srrk-20260507xex99d2.htm",
+        "file": "2026-05-07-EX-99.2.txt",
+        "chars": 14713,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-31",
+        "items": [
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926037350/tm2610664d1_ex99-1.htm",
+        "file": "2026-03-31-EX-99.1.txt",
+        "chars": 11495,
+        "truncated": false
+      }
+    ]
+  }
+}

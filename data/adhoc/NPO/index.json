@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-04T11:34:30+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "NPO",
+    "cik": 1164863,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+        "file": "2026-08-04-10-Q-npo-20260630.htm.txt",
+        "chars": 160930,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/npo-20260804.htm",
+        "file": "2026-08-04-8-K-npo-20260804.htm.txt",
+        "chars": 3470,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026030295/npo-20260331.htm",
+        "file": "2026-05-05-10-Q-npo-20260331.htm.txt",
+        "chars": 136399,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026030116/npo-20260505.htm",
+        "file": "2026-05-05-8-K-npo-20260505.htm.txt",
+        "chars": 3459,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000114036126017817/ef20071896_8k.htm",
+        "file": "2026-04-29-8-K-ef20071896_8k.htm.txt",
+        "chars": 3944,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-20",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000114036126015660/ef20070791_8k.htm",
+        "file": "2026-04-20-8-K-ef20070791_8k.htm.txt",
+        "chars": 3536,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-19",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026009798/npo-20251231.htm",
+        "file": "2026-02-19-10-K-npo-20251231.htm.txt",
+        "chars": 386375,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-18",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026008793/npo-20260218.htm",
+        "file": "2026-02-18-8-K-npo-20260218.htm.txt",
+        "chars": 3486,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+        "file": "2026-08-04-EX-99.1.txt",
+        "chars": 33916,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026030116/q12026npoearningsrelease.htm",
+        "file": "2026-05-05-EX-99.1.txt",
+        "chars": 26818,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "fetched_utc": "2026-09-04T11:34:32+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "FG",
+    "cik": 1934850,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000085/fg-20260630.htm",
+        "file": "2026-08-06-10-Q-fg-20260630.htm.txt",
+        "chars": 400144,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fg-20260805.htm",
+        "file": "2026-08-05-8-K-fg-20260805.htm.txt",
+        "chars": 5137,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-08",
+        "items": "2.02,7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000077/fg-20260708.htm",
+        "file": "2026-07-08-8-K-fg-20260708.htm.txt",
+        "chars": 9505,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-25",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000065/fg-20260624.htm",
+        "file": "2026-06-25-8-K-fg-20260624.htm.txt",
+        "chars": 4654,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-16",
+        "items": "1.01,5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000061/fg-20260615.htm",
+        "file": "2026-06-16-8-K-fg-20260615.htm.txt",
+        "chars": 14321,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000057/fg-20260331.htm",
+        "file": "2026-05-07-10-Q-fg-20260331.htm.txt",
+        "chars": 400144,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/fg-20260506.htm",
+        "file": "2026-05-06-8-K-fg-20260506.htm.txt",
+        "chars": 5118,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-01",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000039/fg-20260330.htm",
+        "file": "2026-04-01-8-K-fg-20260330.htm.txt",
+        "chars": 4736,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/a2q26fgearningsrelease_f.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 36772,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fg2q2026financialsupplem.htm",
+        "file": "2026-08-05-EX-99.2.txt",
+        "chars": 55464,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EX-99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000081/fgsummer2026investorpres.htm",
+        "file": "2026-08-05-EX-99.3.txt",
+        "chars": 72956,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-16",
+        "items": [
+          "1.01",
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000061/fgexecleadershiptransiti.htm",
+        "file": "2026-06-16-EX-99.1.txt",
+        "chars": 13767,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/a1q26fgearningsrelease_f.htm",
+        "file": "2026-05-06-EX-99.1.txt",
+        "chars": 37545,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000053/fg1q2026financialsupplem.htm",
+        "file": "2026-05-06-EX-99.2.txt",
+        "chars": 54324,
+        "truncated": false
+      }
+    ]
+  }
+}
