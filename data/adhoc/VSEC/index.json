@@ -1,0 +1,210 @@
+{
+  "fetched_utc": "2026-09-07T11:29:16+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "VSEC",
+    "cik": 102752,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsec-20260804.htm",
+        "file": "2026-08-06-8-K-vsec-20260804.htm.txt",
+        "chars": 3349,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000064/vsec-20260630.htm",
+        "file": "2026-08-06-10-Q-vsec-20260630.htm.txt",
+        "chars": 104541,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vsec-20260805.htm",
+        "file": "2026-08-05-8-K-vsec-20260805.htm.txt",
+        "chars": 4003,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-08",
+        "items": "5.07,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000051/vsec-20260507.htm",
+        "file": "2026-05-08-8-K-vsec-20260507.htm.txt",
+        "chars": 6719,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000049/vsec-20260331.htm",
+        "file": "2026-05-08-10-Q-vsec-20260331.htm.txt",
+        "chars": 86201,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "1.01,2.01,2.03,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996d8k.htm",
+        "file": "2026-05-07-8-K-d115996d8k.htm.txt",
+        "chars": 16304,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000040/vsec-20260505.htm",
+        "file": "2026-05-05-8-K-vsec-20260505.htm.txt",
+        "chars": 3956,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-27",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000015/vsec-20251231.htm",
+        "file": "2026-02-27-10-K-vsec-20251231.htm.txt",
+        "chars": 246062,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "VSE CORPORATION EX-99.1 - PRESS RELEASE DATED AUGUST 6, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsecorporationdeclaresquar.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 2335,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "VSE CORPORATION EX 99.1 - PRESS RELEASE DATED AUGUST 5, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vse-prxq2x2026earningsrele.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 33480,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-08",
+        "items": [
+          "5.07",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "5.07",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "VSE CORPORATION EX-99.1 - PRESS RELEASE DATED MAY 8, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000051/vsecorporationdeclaresquar.htm",
+        "file": "2026-05-08-EX-99.1.txt",
+        "chars": 2323,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996dex991.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 11444,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996dex992.htm",
+        "file": "2026-05-07-EX-99.2.txt",
+        "chars": 91756,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EX-99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996dex993.htm",
+        "file": "2026-05-07-EX-99.3.txt",
+        "chars": 50264,
+        "truncated": false
+      }
+    ]
+  }
+}

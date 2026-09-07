@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-07T11:29:23+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "TTAN",
+    "cik": 1638826,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000067/ttan-20260617.htm",
+        "file": "2026-06-18-8-K-ttan-20260617.htm.txt",
+        "chars": 4383,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000047/ttan-20260430.htm",
+        "file": "2026-06-05-10-Q-ttan-20260430.htm.txt",
+        "chars": 359651,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000044/ttan-20260604.htm",
+        "file": "2026-06-04-8-K-ttan-20260604.htm.txt",
+        "chars": 4161,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-25",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000028/ttan-20260131.htm",
+        "file": "2026-03-25-10-K-ttan-20260131.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-12",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-20260312.htm",
+        "file": "2026-03-12-8-K-ttan-20260312.htm.txt",
+        "chars": 4195,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-03",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312526035548/ttan-20260130.htm",
+        "file": "2026-02-03-8-K-ttan-20260130.htm.txt",
+        "chars": 4868,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-12-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312525312847/ttan-20251031.htm",
+        "file": "2025-12-09-10-Q-ttan-20251031.htm.txt",
+        "chars": 399773,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2025-12-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312525308075/ttan-20251204.htm",
+        "file": "2025-12-04-8-K-ttan-20251204.htm.txt",
+        "chars": 4183,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000044/ttan-ex99_1.htm",
+        "file": "2026-06-04-EX-99.1.txt",
+        "chars": 27691,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-12",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-ex99_1.htm",
+        "file": "2026-03-12-EX-99.1.txt",
+        "chars": 34064,
+        "truncated": false
+      }
+    ]
+  }
+}
