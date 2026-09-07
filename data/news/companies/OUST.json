@@ -1,5 +1,17 @@
 [
  {
+  "id": "3e44e6c4-02d1-3294-8c08-b14f5ec991d0",
+  "ts": "2026-09-03T14:22:00+00:00",
+  "title": "Will GeoCue Partnership Accelerate Ouster's Lidar Growth?",
+  "summary": "OUST's GeoCue partnership integrates its Rev8 OS1 Max lidar into TrueView systems, targeting survey-grade data for utility and infrastructure applications.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/technology/articles/geocue-partnership-accelerate-ousters-lidar-142200032.html",
+  "tickers": [
+   "OUST"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f2936310-9ef2-33b7-80fb-c86cc7b6381e",
   "ts": "2026-09-02T11:00:00+00:00",
   "title": "GeoCue Elevates Survey-Grade Drone Mapping with Ouster's BABA-Compliant Native Color Rev8 Digital Lidar",

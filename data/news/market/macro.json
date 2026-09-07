@@ -1,5 +1,55 @@
 [
  {
+  "id": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device",
+  "ts": "2026-09-08T00:00:00+00:00",
+  "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+  "summary": "Federal Communications Commission",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx",
+  "ts": "2026-09-08T00:00:00+00:00",
+  "title": "Safety Zone; Laguna Madre, South Padre Island, TX",
+  "summary": "Homeland Security Department, Coast Guard",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development",
+  "ts": "2026-09-08T00:00:00+00:00",
+  "title": "National Petroleum Reserve in Alaska Production Site Development",
+  "summary": "Interior Department, Land Management Bureau",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction",
+  "ts": "2026-09-08T00:00:00+00:00",
+  "title": "Car Loan Interest Deduction",
+  "summary": "Treasury Department, Internal Revenue Service",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate",
+  "ts": "2026-09-08T00:00:00+00:00",
+  "title": "Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions",
+  "summary": "Commodity Futures Trading Commission",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
   "id": "https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money",
   "ts": "2026-09-04T00:00:00+00:00",
   "title": "Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border",
@@ -1296,6 +1346,16 @@
   "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
   "publisher": "federal_reserve",
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+  "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
  }

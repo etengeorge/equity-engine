@@ -1,11 +1,35 @@
 [
  {
+  "id": "81bb1365-545b-3502-8aa1-bf8967e8ad80",
+  "ts": "2026-09-05T00:30:10+00:00",
+  "title": "Why Is Smith & Wesson (SWBI) Stock Rocketing Higher Today",
+  "summary": "Shares of american firearms manufacturer Smith & Wesson (NASDAQ:SWBI) jumped 5.8% in the afternoon session after the company reported strong first-quarter fiscal 2027 financial results, returning to profitability alongside a 32.3% surge in net sales. According to the company's press release, Smith & Wesson Brands generated net sales of $112.6 million for the quarter ended July 31, 2026, representing a $27.5 million increase from the comparable quarter last year. Both GAAP and non-GAAP net income",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-smith-wesson-swbi-stock-003010904.html",
+  "tickers": [
+   "SWBI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b7ade53f-a9b9-3594-9e11-20bbbb94097a",
   "ts": "2026-09-04T13:58:26+00:00",
   "title": "American Outdoor Soars After Turning Profitable; This Gun Maker Rides The Updraft",
   "summary": "American Outdoor Brands returned to profitability after a dismal fiscal 2026 because of President Donald Trump's tariffs. The stock rose 35% on Friday morning, while gun maker Smith & Wesson rode the updraft before paring its gain.",
   "publisher": "Investor's Business Daily",
   "url": "https://www.investors.com/news/tariffs-trump-american-outdoor-brands-smith-wesson-earnings/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "SWBI"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e5804fd9-d8ba-3985-a53e-8425a88cedca",
+  "ts": "2026-09-04T12:30:00+00:00",
+  "title": "Smith & Wesson Brands, Inc. Q1 2027 Earnings Call Summary",
+  "summary": "Moby summary of Smith & Wesson Brands, Inc.'s Q1 2027 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-smith-wesson-brands-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "SWBI"
   ],

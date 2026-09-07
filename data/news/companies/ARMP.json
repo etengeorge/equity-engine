@@ -1,5 +1,17 @@
 [
  {
+  "id": "cf41d10a-6004-364b-bc3c-f38cc2812150",
+  "ts": "2026-09-03T11:00:00+00:00",
+  "title": "Armata Pharmaceuticals Announces New Publication That Advances Understanding of Phage Biology to Support Development of Next-Generation Antibacterials",
+  "summary": "Armata Pharmaceuticals, Inc. (NYSE American: ARMP) (\"Armata\" or the \"Company\"), a late clinical-stage biotechnology company focused on the development of high-purity, pathogen-specific bacteriophage therapeutics for the treatment of antibiotic-resistant and difficult-to-treat bacterial infections, today announced a paper in the Journal of Molecular Biology, a peer-reviewed journal.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/armata-pharmaceuticals-announces-publication-advances-110000952.html",
+  "tickers": [
+   "ARMP"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ee10bd80-e1d5-3c96-b942-a4d55dfc4b60",
   "ts": "2026-08-13T14:31:00+00:00",
   "title": "Bronchiectasis Market is Expected to Surge at a CAGR of 15% by 2036, Owing to the Launch of DPP1/CatC Inhibitors, Therapeutic Phage Cocktails, Nebulized Mucoactive Agents, and Other Novel Mechanisms | DelveInsight",
@@ -90,18 +102,6 @@
   "summary": "Armata Pharmaceuticals, Inc. (NYSE American: ARMP) (\"Armata\" or the \"Company\"), a late clinical-stage biotechnology company focused on the development of high-purity, pathogen-specific bacteriophage therapeutics for the treatment of antibiotic-resistant and difficult-to-treat bacterial infections, today announced financial results for its first quarter ended March 31, 2026, and provided a corporate update.",
   "publisher": "PR Newswire",
   "url": "https://finance.yahoo.com/news/armata-pharmaceuticals-announces-first-quarter-203000140.html",
-  "tickers": [
-   "ARMP"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "56b47b21-1586-3a17-93a8-aa33d7d19f18",
-  "ts": "2026-05-07T11:00:00+00:00",
-  "title": "Armata Pharmaceuticals Secures FDA Fast Track Designation for AP-SA02",
-  "summary": "Armata Pharmaceuticals, Inc. (NYSE American: ARMP) (\"Armata\" or the \"Company\"), a late clinical-stage biotechnology company focused on the development of high-purity, pathogen-specific bacteriophage therapeutics for the treatment of antibiotic-resistant and difficult-to-treat bacterial infections, today announced that the U.S. Food and Drug Administration (the \"FDA\") has granted Fast Track Designation to AP-SA02, the Company's intravenously administered Staphylococcus aureus (\"S. aureus\") multi-",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/armata-pharmaceuticals-secures-fda-fast-110000621.html",
   "tickers": [
    "ARMP"
   ],

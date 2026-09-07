@@ -1,5 +1,29 @@
 [
  {
+  "id": "d7a7446a-2a17-308b-b355-9dd6ad1c2827",
+  "ts": "2026-09-06T15:15:15+00:00",
+  "title": "Eric Trump Says Our Mission Hasn't Changed as American Bitcoin Marks One Year of Going Public, but ABTC Stock Got Battered",
+  "summary": "Eric Trump celebrated on Thursday the first anniversary of American Bitcoin Corp. going public, reiterating the vision of making the U.S. a \u201cleader\u201d in the Bitcoin economy. Trump Highlights Achievements Trump said in an X post that the company now...",
+  "publisher": "Benzinga",
+  "url": "https://finance.yahoo.com/markets/crypto/articles/eric-trump-says-mission-hasnt-151515143.html",
+  "tickers": [
+   "GEMI"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3fc911d9-7313-3b8f-87f6-eb8589ea158c",
+  "ts": "2026-09-03T13:53:00+00:00",
+  "title": "Kraken Parent Company Payward Delays IPO",
+  "summary": "Payward, the parent company of U.S. cryptocurrency exchange Kraken, has again delayed its initial public offering (...",
+  "publisher": "CryptoProwl",
+  "url": "https://www.cryptoprowl.com/releases/kraken-parent-company-payward-delays-ipo-6629",
+  "tickers": [
+   "GEMI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "86dbdedc-6b3d-3319-b441-38cb9337da38",
   "ts": "2026-08-31T14:22:00+00:00",
   "title": "Arbitrator Rules Gemini Not At Fault For Collapse Of Earn Lending",

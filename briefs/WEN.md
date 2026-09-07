@@ -1,45 +1,47 @@
 # WEN — WENDYS
-*Consumer Discretionary · brief generated 2026-09-04 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-09-07 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 1% of 128 Consumer Discretionary peers (99th pct)
-- baseline gap +238%
+- cheapest 2% of 130 Consumer Discretionary peers (98th pct)
+- baseline gap +231%
+- 21d move +10%
+- 5 news items in the last 5 days
 - Consumer Discretionary is in the news
 - never researched
-- urgency score 6.84
+- urgency score 8.71
 
 ## Market
 | | |
 |---|---|
-| price | $7.88 |
+| price | $8.03 |
 | market cap | $1.5B |
-| 5d / 21d / 63d / 252d | +1.6% / -0.5% / +17.7% / -16.3% |
+| 5d / 21d / 63d / 252d | -2.1% / +9.6% / +20.7% / -16.0% |
 | 60d avg daily $ volume | $130.7M |
 | beta (vs IWM) | 0.65 (R²=0.124) |
-| 5d volume vs 60d average | 0.4x |
+| 5d volume vs 60d average | 0.3x |
 | balance sheet as of | 2026-06-28 (10-Q) |
-| WACC weights | equity 35% / debt 65% |
+| WACC weights | equity 36% / debt 64% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$347.7M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$242.6M', '$260.9M', '$260.4M']
-Enterprise value **$3.9B** · FCFF yield **+8.9%**
+Enterprise value **$3.9B** · FCFF yield **+8.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.3% − 1pt | -13.5% |
-| **7.3% (point)** | **-9.5%** |
-| 7.3% + 1pt | -6.1% |
+| 7.3% − 1pt | -13.3% |
+| **7.3% (point)** | **-9.3%** |
+| 7.3% + 1pt | -5.9% |
 
 
 Naive baseline for comparison: **+4.7%** (5y revenue CAGR +4.7%).
-Gap under that baseline: **+238.1%** (fair value $26.64 vs price $7.88).
+Gap under that baseline: **+230.5%** (fair value $26.54 vs price $8.03).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +236.7%).
+Cohort: **98th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +230.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -64,11 +66,33 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-06-23** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/30697/000119312526278576/d158135dex991.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-04** · Academy Moves Forward With Lee, Wolski-David — *MediaPost* — https://www.mediapost.com/publications/article/417633/academy-moves-forward-with-lee-wolski-david.html
+  > Sid Lee and Theo Wolski-David lead creative and client services, respectively.
+- **2026-09-04** · Wendy's (WEN) Stays Public As Trian Backs Off And Marketing Push Grows — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/wendys-wen-stays-public-trian-082029917.html
+  > Trian Fund Management LP said it will not move ahead with a take private proposal for Wendy's (NasdaqGS:WEN), while keeping its board representation and interest in the company. Wendy's announced the appointment of Tariq Hassan as Chief Mar
+- **2026-09-03** · Wendy's is Serving Up a Frightfully Fun Halloween with Boo! Books and Frosty Frights — *PR Newswire* — https://finance.yahoo.com/media-advertising/articles/wendys-serving-frightfully-fun-halloween-130000653.html
+  > Move over, summer. Spooky season has officially arrived. Wendy's® is ready for Halloween with a lineup that's equal parts sweet and frightful: Boo! Books® and Frosty Frights™. From scoring Frosty® treats while supporting a meaningful cause 
+- **2026-09-02** · Wendy’s Just Cut Its Dividend in Half. Consider It a Warning Sign, Not a Reset. — *Barchart* — https://www.barchart.com/story/news/4412146/wendys-just-cut-its-dividend-in-half-consider-it-a-warning-sign-not-a-reset
+  > Wendy’s cut its quarterly dividend in half to $0.07 per share and withdrew its 2026 outlook after U.S. same-restaurant sales fell 7%.
+- **2026-09-02** · Wendy’s Rally Fades After Trian Steps Back: Was It Ever Real? — *MarketBeat* — https://www.marketbeat.com/articles/wendys-rally-fades-after-trian-steps-back-was-it-ever-real/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Wendy's stock spiked on Trian buyout reports, reversed after the firm backed off, then recovered on short covering and value buying, even as weak earnings and bearish analyst ratings persist.
+- **2026-08-28** · Restaurant Traffic Likely to Stay Stable in Second Half After Depressed Quarterly Trends, UBS Says — *MT Newswires* — https://finance.yahoo.com/small-business/articles/restaurant-traffic-likely-stay-stable-202556649.html
+  > Traffic at US restaurants remained depressed in the second quarter amid a difficult consumer environ
+- **2026-08-28** · Wendy’s Stock Has Plunged, but History Shows How It Could Come Back — *Barrons.com* — https://www.barrons.com/articles/wendys-stock-price-fast-food-turnaround-1c558c4b?siteid=yhoof2&yptr=yahoo
+  > Wendy’s stock is trading at a steep discount to fast-food rivals. Turnarounds at Domino’s and McDonald’s show what the burger chain needs to fix.
+- **2026-08-28** · Why Wendy's Fell This Week — *Motley Fool* — https://www.fool.com/investing/2026/08/28/why-wendys-fell-this-week/
+  > Hopes of a quick takeover at a premium were seemingly dashed, but is a bigger turnaround in the works?
+- **2026-08-28** · 'If It's Hot Out, the Cost of Ice Cream Could Go Up' — Sen. Elizabeth Warren Says We Should All Be Worried About 'Dynamic Pricing' — *Benzinga* — https://finance.yahoo.com/economy/policy/articles/hot-cost-ice-cream-could-160040290.html
+  > Sen. Elizabeth Warren (D-MA) has a warning for shoppers: The price you see today may increasingly depend on exactly when you decide to buy. “We should all be worried about ‘dynamic pricing,'” Warren wrote on X recently. “That’s when compani
+- **2026-08-28** · Wendy’s Climbs 4%, McDonald’s Ticks Up: Is Short Interest Setting Up a Squeeze in the Burger Trade? — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/28/wendys-climbs-4-mcdonalds-ticks-up-is-short-interest-setting-up-a-squeeze-in-the-burger-trade/
+  > Wendy's short interest has climbed to one of its highest readings on record, and a sudden 4% snapback after a brutal single-session collapse is raising an uncomfortable question for anyone still holding a short position in the burger chain.
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-04** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
@@ -78,21 +102,20 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 - **2026-08-31** · Sector Update: Consumer Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195906027.html
 - **2026-08-31** · Sector Update: Consumer Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-175730996.html
-- **2026-08-31** · Shopify Falls 4% as Profit Taking Follows 18% Monthly Run, eBay and Etsy Slip — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/shopify-falls-4-as-profit-taking-follows-18-monthly-run-ebay-and-etsy-slip/
 
 ## Market and macro context
-- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
-- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
-- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
-- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
+- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
+- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
+- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
+- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
 
 *Rules, releases and agency actions:*
+- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
+- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
+- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
+- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
+- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
-- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
-- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
-- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
-- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
-- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

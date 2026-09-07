@@ -1,5 +1,33 @@
 [
  {
+  "id": "9455cdf5-0ec7-3c4c-af3f-e0408721313c",
+  "ts": "2026-09-04T19:48:43+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+  "summary": "Healthcare stocks were lower late Friday afternoon, with the NYSE Healthcare Index falling 1.2% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "020a7167-15fe-3a9c-9436-b8688e13484d",
+  "ts": "2026-09-04T17:41:05+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline Friday Afternoon",
+  "summary": "Healthcare stocks were lower Friday afternoon, with the NYSE Healthcare Index and the State Street H",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "66f821a3-49c9-3ba4-9638-76d493807f26",
   "ts": "2026-09-04T13:33:30+00:00",
   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",

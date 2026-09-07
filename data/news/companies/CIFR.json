@@ -1,5 +1,101 @@
 [
  {
+  "id": "5cc3f675-9daa-3ed5-a667-7e33953236e9",
+  "ts": "2026-09-04T16:12:48+00:00",
+  "title": "IREN Climbs 4% on $2.4B Blue Owl-Led GPU Financing; Cipher Digital Gains 2%",
+  "summary": "Blue Owl just handed IREN a massive GPU financing deal, but the coupon rate buried in the fine print reveals something uncomfortable about how Wall Street really values this emerging asset class.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/04/iren-climbs-4-on-2-4b-blue-owl-led-gpu-financing-cipher-digital-gains-2/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "33327a47-b523-305c-b594-8ab6b9cdc182",
+  "ts": "2026-09-04T13:53:42+00:00",
+  "title": "ERCOT sorts Batch Zero projects as Texas screens large-load pipeline",
+  "summary": "Data centers and other large loads received private, provisional classifications that determine whether they advance, require more study or must pursue a dispute.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/ercot-sorts-batch-zero-large-load-projects/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "54e7dc64-9830-30ae-bc18-09c0b974ad53",
+  "ts": "2026-09-04T11:48:00+00:00",
+  "title": "Why Cipher Digital Stock Plummeted 30.6% Last Month But Is Rebounding in September",
+  "summary": "Cipher Digital stock has seen substantial volatility in recent months, but it's still up roughly 18% year to date.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/04/why-cipher-digital-stock-plummeted-306-last-month/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e50dfebe-fe3e-3f98-9ccb-29023eca929d",
+  "ts": "2026-09-04T00:26:23+00:00",
+  "title": "Cipher Digital plans 2.5 GW worth of gas pipelines. Here are the sites most likely to benefit",
+  "summary": "Cipher Digital shares jumped 10-12% Tuesday after the company announced it has begun development of natural gas lateral pipelines to support 2.5 gigawatts of behind-the-meter generation across its Texas HPC\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/short/cipher-digital-plans-2-5-gw-worth-of-gas-pipelines-here-are-the-sites-most-likely-to-benefit/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b8711d9c-e55d-3f10-97c4-ec8f72e17eae",
+  "ts": "2026-09-03T19:54:27+00:00",
+  "title": "Applied Digital and Cipher Just Sank Together. Did Rising Yields Expose AI\u2019s Weakest Business Model?",
+  "summary": "Two of the market\u2019s most aggressive AI infrastructure stories fell together on September 1 as the 10-year Treasury yield climbed to 4.79%. Applied Digital Corporation (NASDAQ:APLD) dropped about 4%, while Cipher Digital Inc. (NASDAQ:CIFR) fell roughly 6%. The reaction exposed a central tension in the AI buildout: long-term customer contracts can make future revenue look [\u2026]",
+  "publisher": "Insider Monkey",
+  "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-cipher-just-sank-195427638.html",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3c9d900e-5a9f-36f2-a68d-91b5bd82e623",
+  "ts": "2026-09-03T19:15:33+00:00",
+  "title": "Cipher Digital\u2019s 2.5 GW Gas Pipeline, IREN\u2019s $2.8B GPU Financing, Nscale\u2019s IPO and $103B Contract Backlog",
+  "summary": "Today, we break down Cipher Digital\u2019s plan to build 2.5 GW of gas pipelines to expedite its data center buildouts, including which sites will most likely benefit from the behind-the-meter\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/podcast/cipher-digitals-2-5-gw-gas-pipeline-irens-2-8b-gpu-financing-nscales-ipo-and-103b-contract-backlog/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1b29eba0-5f7d-35ff-b8d8-34013c740636",
+  "ts": "2026-09-03T15:35:39+00:00",
+  "title": "Sam Altman Sees \u201cUnsustainable Silliness\u201d in AI Compute Spending. These Are the Stocks Traders Are Watching.",
+  "summary": "Sam Altman just called out the AI compute buildout as heading toward unsustainable territory, and six publicly traded names are squarely in the crosshairs. Their disclosed contracts tell one story, but their debt loads and development pipelines tell another.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/03/sam-altman-sees-unsustainable-silliness-in-ai-compute-spending-these-are-the-stocks-traders-are-watching/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e4af545f-735a-347a-bee0-0fe65b03c09a",
+  "ts": "2026-09-03T13:43:54+00:00",
+  "title": "Cipher starts gas laterals to support 2.5 GW HPC power expansion",
+  "summary": "Cipher expects the proposed on-site generation to make power available before the end of 2027, adding a second development path alongside its ERCOT interconnection pipeline.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/cipher-gas-laterals-25gw-hpc/",
+  "tickers": [
+   "CIFR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "c161c3cd-4c63-3500-b6e0-0d0a8e7bcab9",
   "ts": "2026-09-03T09:06:54+00:00",
   "title": "Cipher (CIFR) Stock May Be Overvalued On Sales Growth Hopes",

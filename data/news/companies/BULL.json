@@ -1,5 +1,41 @@
 [
  {
+  "id": "58c56384-555f-3661-a40e-6e2edf5bac96",
+  "ts": "2026-09-06T10:20:00+00:00",
+  "title": "Should You Forget Robinhood and Buy Webull Instead?",
+  "summary": "One has rebounded, but the other looks like the better buy.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/06/should-you-forget-robinhood-and-buy-webull-instead/",
+  "tickers": [
+   "BULL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "71341763-57bf-3d8a-bc6b-5ad382ceb968",
+  "ts": "2026-09-04T21:06:41+00:00",
+  "title": "Webull (BULL) Files $116.5 Million Share Shelf Registration",
+  "summary": "Webull (NasdaqCM:BULL) has filed a shelf registration to offer Class A Ordinary Shares, giving the company flexibility to issue stock over time. The shelf registration allows Webull to raise capital when it chooses, which may affect existing shareholder ownership if new shares are issued. Investors are assessing how potential share offerings could relate to Webull's future funding needs and business plans. For readers comparing Webull's latest move with companies that focus more on regular...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/webull-bull-files-116-5-210641080.html",
+  "tickers": [
+   "BULL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "732bdbd9-eed9-3c61-b4af-c17abea5ff26",
+  "ts": "2026-09-04T19:25:00+00:00",
+  "title": "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
+  "summary": "Bitcoin\u2019s (CRYPTO: $BTC) win streak continued for a third consecutive week as the cryptocurrency\u2019s pric...",
+  "publisher": "CryptoProwl",
+  "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoins-win-streak-continues-6730",
+  "tickers": [
+   "BULL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "edbb90f5-9324-332e-ac6e-859cda44741b",
   "ts": "2026-09-03T14:03:10+00:00",
   "title": "Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4%",

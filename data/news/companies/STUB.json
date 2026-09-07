@@ -1,5 +1,29 @@
 [
  {
+  "id": "bbf7738a-b589-301a-8c9d-22bf0e9b7c09",
+  "ts": "2026-09-07T00:58:55+00:00",
+  "title": "A StubHub Executive Dumps Over 10% of Their Company Shares Worth $1.1 Million",
+  "summary": "The insider disposed of 12% of their direct equity stake as the stock price for the world's largest peer-to-peer ticketing marketplace remains near 52-week lows.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/filings/2026/09/06/a-stubhub-executive-dumps-over-10-of-their-company-shares-worth-usd1-1-million/",
+  "tickers": [
+   "STUB"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8a0bb064-e5d5-31f5-b415-a6f3fb34a44a",
+  "ts": "2026-09-04T13:55:02+00:00",
+  "title": "Insider Dumps $1.1 Million Worth of Stock, After Stock Plunges 72%",
+  "summary": "Streams retains 1.4 million shares valued at $9.49 million after the disposition. StubHub trades at a $2.3 billion market cap despite trailing losses.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/filings/2026/09/04/insider-dumps-usd1-1-million-worth-of-stock-after-stock-plunges-72/",
+  "tickers": [
+   "STUB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b77ceaf5-0284-388a-82b0-70363971cdf0",
   "ts": "2026-09-02T20:15:00+00:00",
   "title": "StubHub to Participate at Goldman Sachs Communacopia + Technology Conference",

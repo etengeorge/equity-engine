@@ -1,112 +1,107 @@
-# JBTM — JBT MAREL
-*Industrials · brief generated 2026-09-04 · selected as **rotation***
+# CVLT — COMMVAULT SYSTEMS
+*Information Technology · brief generated 2026-09-07 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 65/1956
+- rotation position 71/1956
 
 ## Market
 | | |
 |---|---|
-| price | $117.64 |
-| market cap | $6.1B |
-| 5d / 21d / 63d / 252d | -0.3% / -3.5% / -6.0% / -16.6% |
-| 60d avg daily $ volume | $75.8M |
-| beta (vs IWM) | 0.78 (R²=0.145) |
+| price | $136.41 |
+| market cap | $5.7B |
+| 5d / 21d / 63d / 252d | +0.0% / +2.3% / +14.9% / -23.0% |
+| 60d avg daily $ volume | $96.5M |
+| beta (vs IWM) | 1.21 (R²=0.223) |
 | 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 78% / debt 22% |
+| WACC weights | equity 87% / debt 13% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$236.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$238.1M', '$194.7M', '$19.1M']
-Enterprise value **$7.5B** · FCFF yield **+3.1%**
+Normalized FCFF base **$213.8M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$237.2M', '$203.6M', '$199.7M']
+Enterprise value **$5.6B** · FCFF yield **+3.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.1% − 1pt | +17.6% |
-| **9.1% (point)** | **+21.8%** |
-| 9.1% + 1pt | +25.7% |
+| 10.5% − 1pt | +18.0% |
+| **10.5% (point)** | **+21.6%** |
+| 10.5% + 1pt | +24.9% |
 
 
-> **Stock compensation is 11% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$220.0M** and an implied growth of **+23.7%** instead of +21.8%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 52% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$103.4M** and an implied growth of **+42.3%** instead of +21.6%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+14.3%** (5y revenue CAGR +14.3%).
-Gap under that baseline: **-31.2%** (fair value $80.97 vs price $117.64).
+Naive baseline for comparison: **+10.3%** (5y revenue CAGR +10.3%).
+Gap under that baseline: **-35.0%** (fair value $88.73 vs price $136.41).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **38th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -8.7%).
+Cohort: **50th percentile** of 125 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +0.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_12.5x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_52%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1433660/000162828026053548/jbt-20260630.htm
-- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1433660/000162828026051894/jbt-20260803.htm
-- 2026-05-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1433660/000162828026036451/jbt-20260514.htm
-- 2026-05-14 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1433660/000162828026035145/jbt-20260514.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1433660/000162828026030756/jbt-20260331.htm
-- 2026-05-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1433660/000162828026029903/jbt-20260504.htm
-- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1433660/000143366026000082/jbt-20260401.htm
-- 2026-03-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1433660/000143366026000071/jbt-20260326.htm
-- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/1433660/000143366026000053/jbt-20251231.htm
-- 2026-02-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1433660/000143366026000017/jbt-20260223.htm
+- 2026-08-06 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000027/cvlt-20260806.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000024/cvlt-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000020/cvlt-20260728.htm
+- 2026-06-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000018/cvlt-20260624.htm
+- 2026-05-11 **10-K** — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000017/cvlt-20260331.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000013/cvlt-20260428.htm
+- 2026-04-13 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000008/cvlt-20260408.htm
+- 2026-01-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000006/cvlt-20251231.htm
+- 2026-01-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000003/cvlt-20260127.htm
+- 2025-12-04 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1169561/000116956125000094/cvlt-20251130.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1433660/000162828026051894/a2026q2earningsexhibit9918k.htm
-- **2026-05-14** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1433660/000162828026035145/a2026maydividendreleaseand.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1169561/000116956126000020/q1fy27pressrelease.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Information Technology
+*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-04** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194638593.html
+- **2026-09-04** · Sector Update: Tech Stocks Gain Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-175251963.html
+- **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
 - **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
+- **2026-09-03** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194500234.html
+- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-02** · Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector
-- **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
-- **2026-08-31** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html
-- **2026-08-28** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html
+- **2026-09-03** · 3 No-Brainer Tech Stocks to Buy With $5,000 Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/
+- **2026-09-02** · Sector Update: Tech Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-193514411.html
 
 ## Market and macro context
-- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
-- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
-- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
-- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
+- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
+- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
+- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
+- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
 
 *Rules, releases and agency actions:*
+- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
+- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
+- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
+- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
+- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
-- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
-- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
-- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
-- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
-- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
-- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
-- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
-- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
-- FLR: no_model · price $54.51
-- GATX: no_model · price $177.31
-- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
-- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
-- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
-- WLFC: no_model · price $53.42
+## Prior verdicts elsewhere in Information Technology
+- HUT: no_model · price $77.00
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
+- RIOT: no_model · price $18.64
+- SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
+- VSAT: no_edge · price $66.93
 
 ---
 

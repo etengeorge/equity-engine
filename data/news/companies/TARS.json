@@ -1,5 +1,17 @@
 [
  {
+  "id": "9455cdf5-0ec7-3c4c-af3f-e0408721313c",
+  "ts": "2026-09-04T19:48:43+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+  "summary": "Healthcare stocks were lower late Friday afternoon, with the NYSE Healthcare Index falling 1.2% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html",
+  "tickers": [
+   "TARS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "db035cd5-6bba-3cf2-ac46-16fa977da5e2",
   "ts": "2026-09-04T12:38:00+00:00",
   "title": "Tarsus Pharmaceuticals Completes Acquisition of Alkeus Pharmaceuticals, Expanding Leadership in Eye Care",

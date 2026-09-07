@@ -1,103 +1,109 @@
-# ESNT — ESSENT GROUP
-*Financials · brief generated 2026-09-04 · selected as **rotation***
+# HOG — HARLEY DAVIDSON
+*Consumer Discretionary · brief generated 2026-09-07 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 62/1956
+- cheapest 1% of 130 Consumer Discretionary peers (99th pct)
+- baseline gap +299%
+- 21d move +10%
+- Consumer Discretionary is in the news
+- never researched
+- urgency score 7.06
 
 ## Market
 | | |
 |---|---|
-| price | $69.63 |
-| market cap | $6.3B |
-| 5d / 21d / 63d / 252d | +1.0% / +5.2% / +22.4% / +12.5% |
-| 60d avg daily $ volume | $44.9M |
-| beta (vs IWM) | 0.49 (R²=0.179) |
-| 5d volume vs 60d average | 0.9x |
+| price | $28.30 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | +0.7% / +10.1% / +16.5% / -3.2% |
+| 60d avg daily $ volume | $65.0M |
+| beta (vs IWM) | 0.86 (R²=0.253) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 64% / debt 36% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$633.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$415.2M', '$867.3M', '$547.5M']
+Enterprise value **$2.7B** · FCFF yield **+23.6%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +13.5% |
-| cost of equity | +7.5% |
-| justified P/TBV | 2.1 |
-| actual P/TBV | 1.1 |
-| tangible book / share | $63.51 |
-| implied gap | +92.0% |
+| 7.6% − 1pt | -30.5% |
+| **7.6% (point)** | **-27.7%** |
+| 7.6% + 1pt | -25.3% |
 
-Cohort: **95th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +125.4%).
+
+Naive baseline for comparison: **+2.0%** (5y revenue CAGR +2.0%).
+Gap under that baseline: **+298.9%** (fair value $112.90 vs price $28.30).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **99th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +299.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000024/esnt-20260630.htm
-- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000022/esnt-20260807.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000016/esnt-20260331.htm
-- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000013/esnt-20260508.htm
-- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1448893/000110465926035242/tm261547-1_def14a.htm
-- 2026-02-18 **10-K** — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000009/esnt-20251231.htm
-- 2026-02-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000003/esnt-20260213.htm
-- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000093/esnt-20250930.htm
-- 2025-11-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000091/esnt-20251107.htm
-- 2025-08-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1448893/000144889325000081/esnt-20250630.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000061/hog-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000055/hog-20260723.htm
+- 2026-06-26 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000050/hog-20260626.htm
+- 2026-05-28 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000038/hog-20260521.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000032/hog-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000029/hog-20260505.htm
+- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000022/hog-20260409.htm
+- 2026-03-06 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000014/hog-20260306.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000011/hog-20251231.htm
+- 2026-02-10 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000004/hog-20260209.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000022/a63026financialsupplement.htm
-- **2026-05-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1448893/000144889326000013/a33126financialsupplement.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/793952/000079395226000055/a8kq22026exhibit991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-04** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
-- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
-- **2026-09-03** · Sector Update: Financial Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html
-- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
-- **2026-09-03** · How Is Blackstone's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
-- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
-- **2026-09-02** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171033298.html
+- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
+- **2026-09-01** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194112336.html
+- **2026-09-01** · Sector Update: Consumer Stocks Mixed in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-180052939.html
+- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
+- **2026-08-31** · Sector Update: Consumer Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195906027.html
+- **2026-08-31** · Sector Update: Consumer Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-175730996.html
 
 ## Market and macro context
-- **2026-09-04** · 2 Services Stocks with Promising Prospects and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html
-- **2026-09-04** · NSP Stock Skyrockets 150% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nsp-stock-skyrockets-150-6-142300463.html
-- **2026-09-04** · PAYX Stock Rises 30% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html
-- **2026-09-04** · Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer — *Motley Fool* — https://www.fool.com/investing/2026/09/04/should-you-buy-stocks-now-or-wait-for-a-pullback/
+- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
+- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
+- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
+- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
 
 *Rules, releases and agency actions:*
+- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
+- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
+- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
+- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
+- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
 - **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
-- **2026-09-04** · Transfer Agent Rules — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules
-- **2026-09-04** · Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18167/reducing-bureaucracy-and-burden-for-the-repatriation-of-mentally-ill-nationals
-- **2026-09-04** · Drawbridge Operation Regulation; Savannah River, Clyo, GA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18166/drawbridge-operation-regulation-savannah-river-clyo-ga
-- **2026-09-04** · Driving Efficiency in Farm Loan Delivery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery
-- **2026-09-04** · Modernizing Medical Standards for Non-Insulin Dependent Diabetes Mellitus Cases — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18162/modernizing-medical-standards-for-non-insulin-dependent-diabetes-mellitus-cases
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- FG: no_model · price $24.87
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
-- JXN: no_model · price $133.65
-- MFIN: no_edge · price $11.82
-- OSCR: no_model · price $29.83
-- SNEX: no_edge · price $68.48
-- VEL: no_edge · price $18.01
-- VLY: fair · price $13.81 · fair value $11.77 · gap -14.7%
+## Prior verdicts elsewhere in Consumer Discretionary
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
+- LTH: no_model · price $43.09
+- STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
 
 ---
 

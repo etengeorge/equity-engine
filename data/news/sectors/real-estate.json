@@ -1,5 +1,47 @@
 [
  {
+  "id": "de0ac66b-7836-326e-aa64-7376144ed621",
+  "ts": "2026-09-04T19:56:42+00:00",
+  "title": "Sector Update: Financial Stocks Retreat Late Afternoon",
+  "summary": "Financial stocks were lower in late Friday afternoon trading, with the NYSE Financial Index decreasi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "b15a1296-f6f4-3a72-956b-b4840d895a40",
+  "ts": "2026-09-04T17:49:12+00:00",
+  "title": "Sector Update: Financial Stocks Retreat Friday Afternoon",
+  "summary": "Financial stocks were lower in Friday afternoon trading, with the NYSE Financial Index decreasing 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "54ee44dc-9a33-3638-ab38-803c1b320089",
+  "ts": "2026-09-04T17:16:23+00:00",
+  "title": "Sector Update: Financial",
+  "summary": "Financial stocks were lower in Friday afternoon trading, with the NYSE Financial Index decreasing 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "402732ad-dcf2-30b5-aeaf-c669b6a01336",
   "ts": "2026-09-03T19:57:45+00:00",
   "title": "Sector Update: Financial Stocks Gain Late Afternoon",

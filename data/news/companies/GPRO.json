@@ -1,11 +1,59 @@
 [
  {
+  "id": "3d04b005-a168-3a14-a1c3-53337f31aaf2",
+  "ts": "2026-09-07T00:37:54+00:00",
+  "title": "GoPro (GPRO) Trades its Camera Story for an AI Data Center One, and Investors Cheer",
+  "summary": "GoPro, Inc. (NASDAQ:GPRO) shares closed up 40% on September 1 after the action-camera maker announced a definitive merger with Starman Optical, a privately held photonics company that makes optical transceivers for AI data-center networking, CNBC reported. Starman will acquire roughly a 90% stake in the combined company for $285 million in cash, working out to [\u2026]",
+  "publisher": "Insider Monkey",
+  "url": "https://finance.yahoo.com/technology/ai/articles/gopro-gpro-trades-camera-story-003754602.html",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3a4196de-8e52-364c-8de3-d52d8664762f",
+  "ts": "2026-09-04T16:51:37+00:00",
+  "title": "3 Stocks Seeing Explosive Options Volume Today",
+  "summary": "LULU, GPRO, and PATH are all making outsized moves",
+  "publisher": "Schaeffer's Investment Research",
+  "url": "https://finance.yahoo.com/markets/options/articles/3-stocks-seeing-explosive-options-165137719.html",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "720aad48-256a-327f-8a28-303e9dad8d67",
+  "ts": "2026-09-04T16:20:33+00:00",
+  "title": "GoPro Zooms 34% Higher on Starman Optical Merger and Markiplier Stake; Coherent Climbs 7%, Lumentum Gains 3%",
+  "summary": "GoPro is surging on a merger that turns a camera company into an optical-transceiver play, and a famous YouTuber just became its largest individual shareholder. Here is what the move actually means against a backdrop of proven incumbents already delivering billion-dollar datacenter revenue.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/04/gopro-zooms-34-higher-on-starman-optical-merger-and-markiplier-stake-coherent-climbs-7-lumentum-gains-3/",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b679c662-f743-3032-8c7d-8948ce897b62",
   "ts": "2026-09-04T06:00:00+00:00",
   "title": "A Start-Up Called Nothing Has Raised $450 Million. It\u2019s Coming for the iPhone.",
   "summary": "Venture capital funding for consumer tech has stalled as funds shift to artificial intelligence. That makes the story of Nothing, a start-up maker of phones and audio gear, all the more surprising.",
   "publisher": "Barrons.com",
   "url": "https://www.barrons.com/articles/nothing-phone-apple-iphone-5351a15b?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "36f8d20c-7e4d-3cb8-aee4-17ac297cefc5",
+  "ts": "2026-09-03T12:50:00+00:00",
+  "title": "GoPro stock surges again on merger and AI pivot news: What the heck is happening with GPRO?",
+  "summary": "Following a major stake from a famous YouTube star, the action camera company will now join with another company and focus on AI solutions.",
+  "publisher": "FastCompany",
+  "url": "https://www.fastcompany.com/91601405/gopro-stock-price-today-ai-pivot-merger-what-is-happening-gpro",
   "tickers": [
    "GPRO"
   ],
