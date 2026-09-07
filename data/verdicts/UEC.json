@@ -1,0 +1,57 @@
+{
+  "ticker": "UEC",
+  "date": "2026-09-07",
+  "sector": "Energy",
+  "name": "URANIUM ENERGY",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 0,
+  "price_at_verdict": 11.539999961853027,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against refusing is that a producer with a ramping asset base is not the same as a pre-revenue biotech, and that a defensible net-asset-value model \u2014 pounds of proven resource times a long-run realised price less operating and capital cost \u2014 exists and is what every sell-side analyst on the name actually uses. That is true, and it is a real method. It is also not a method this engine has, and it is not one I can execute honestly from the disclosure available to me: it requires per-pound operating cost at each ISR wellfield, capital cost to bring the remaining capacity online, and a long-run contracted price, none of which I have. Building a rough version and calling it a fair value would be manufacturing precision on the most sentiment-driven cohort in the index.",
+    "what_would_prove_it": "Realised pounds sold and cash cost per pound over the next three to four quarters as Burke Hollow ramps, and the contract book: how many pounds are committed to utilities, at what price, over what term.",
+    "already_visible": "The tape is telling. The 24/7 Wall St pieces in late August describe nuclear equities moving 5-7% in a day on 'risk appetite' and 'sector positioning rather than new company specific announcements'. Trefis put it precisely: the stock is priced on pounds it has not sold yet, on about $20M of trailing revenue that 'rounds to zero in the billions the company reports'. That is a fair description of what the market cap rests on.",
+    "unresolved": "The all-in sustaining cost per pound at the ramping wellfields. Without it I cannot say whether 12 million pounds of licensed capacity is worth $5.7B or a fraction of it, and neither can the multiples table."
+  },
+  "what_changed": "The ramp is starting and the revenue is not. Trailing twelve-month revenue to 2026-04-30 was $20.2M, down 70% year over year, and the quarter ended 2026-04-30 produced $0.0M of revenue against an $8.6M consensus. The only meaningful sale in the period was 200,000 pounds at $101/lb in fiscal Q2 for $20.2M of revenue and $10.0M of gross profit. Coverage initiations and sector flows have driven the tape (the 21d return is +7.2% while the 63d is -8.8%), not company results.",
+  "consensus_case": "Nobody buying UEC at $11.54 is buying trailing cash flow \u2014 there is none. They are buying licensed capacity in the right jurisdiction at the right moment: roughly 12 million pounds of annual licensed capacity, which is what Jefferies cited when it initiated coverage on 2026-09-03, positioned into a US re-shoring policy push and a reactor build-out narrative. Burke Hollow, the largest US greenfield in-situ recovery project to enter production in more than a decade, has commenced production, and new header houses are producing at Christensen Ranch. The balance sheet supports the wait: $794M of liquid assets including $488M of cash, no debt, and 1,456,000 pounds of physical U3O8 worth $127M at market. The bull case is a real option \u2014 capacity plus inventory plus no debt, exercised if the uranium price and the ramp both arrive. The market pays $5.7B for that option.",
+  "base_case_rationale": "There is no cash-flow base to grow. The company generated no revenue in its most recent reported quarter and the normalized FCFF is not positive. Stating a five-year FCFF growth rate here would be inventing a fair value for a name the model has correctly refused, which is the one thing the rules forbid outright.",
+  "key_risks": [
+    "$5.7B market cap on $20.2M of trailing revenue and zero revenue in the most recent reported quarter",
+    "Execution risk on the ISR ramp at Burke Hollow and Christensen Ranch",
+    "Uranium price and contracting terms are the whole valuation and neither is under company control",
+    "The name trades on nuclear-sector sentiment: 5-7% single-day moves on positioning rather than news"
+  ],
+  "watch_for": [
+    "Fiscal 2026 annual results (year ended 2026-07-31) \u2014 realised pounds, realised price, and cash cost per pound",
+    "Any multi-year utility contract disclosure with stated volumes and pricing"
+  ],
+  "sources": [
+    "https://www.prnewswire.com/news-releases/uranium-energy-corp-reports-results-for-the-third-quarter-of-fiscal-2026-302794776.html",
+    "https://www.prnewswire.com/news-releases/uranium-energy-corp-reports-results-for-second-quarter-of-fiscal-2026-302708835.html",
+    "https://www.trefis.com/articles/612595/uranium-energy-stock-is-priced-on-pounds-it-has-not-sold-yet/2026-08-24",
+    "https://finance.yahoo.com/markets/stocks/articles/uranium-energy-rose-jefferies-started-121900247.html",
+    "https://stockanalysis.com/stocks/uec/revenue/"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_0%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_5.1x_of_mean",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

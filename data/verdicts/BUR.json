@@ -1,0 +1,52 @@
+{
+  "ticker": "BUR",
+  "date": "2026-09-07",
+  "sector": "Financials",
+  "name": "BURFORD CAPITAL LTD",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 0,
+  "price_at_verdict": 4.349999904632568,
+  "market_implied_growth": null,
+  "cohort_pct": 99.4,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The best case that I am wrong to refuse is that the corrected picture is itself a thesis: at $4.35 against $3.12 of tangible book you are paying 1.4x for a franchise with $733M of cash on hand, a portfolio that generated the strongest cash quarter since 1Q25, and an asset-management business, with a free option on YPF revival. That is a coherent argument, and someone who has read the remaining portfolio matter by matter could make it. I have not read the portfolio matter by matter, and the honest answer is that I cannot value a book that is 100% Level 3 marks on legal outcomes from headline numbers.",
+    "what_would_prove_it": "A matter-by-matter roll-forward of the non-YPF portfolio's realizations against cost, and the outcome of the remand and of any petition for rehearing or certiorari in Petersen/Eton Park.",
+    "already_visible": "Partially. The 10-Q shows cost basis and unrealized gains split between YPF and other assets, and shows the adjusted risk premium rising to 48.6% \u2014 the company itself is marking the rest of the book more conservatively. What is not visible is any dated event that resolves the YPF residual.",
+    "unresolved": "Whether the residual $160.4M consolidated ($101.1M Burford-only) YPF carrying value is conservative or optimistic. I could not form a view on that from the filings, and it is roughly 17% of remaining shareholders' equity."
+  },
+  "what_changed": "The single most important fact about this company post-dates the fiscal year the model prices. On 2026-03-27 the US Court of Appeals for the Second Circuit REVERSED the District Court's entry of judgment in favour of Petersen and Eton Park against Argentina and YPF (Judge Cabranes dissenting). Burford's 10-Q for the quarter ended 2026-06-30 records the consequence: the consolidated fair value of the YPF-related assets fell to $160.4M at 30 June 2026 from $2.6B at 31 December 2025, with unrealized gains down $2.4B to an unrealized LOSS of $41.2M. Total Burford Capital Limited equity fell from $2,448.0M to $819.1M in six months; retained earnings went from $1,800.9M to $157.2M. The YPF exposure had been ~46% of the fair value of all capital provision assets at 2025 year end. Further proceedings continue in the US courts and the plaintiffs are likely to pursue international arbitration, so the claim is not worthless \u2014 but it is no longer a judgment.",
+  "consensus_case": "At $4.35 against a tangible book of $3.12 per share, the market pays roughly 1.4x tangible book for a litigation funder whose largest asset was destroyed on appeal in March. That is not a discount to book, it is a premium, and the premium is for the asset-management franchise and the remaining portfolio rather than for the balance sheet. The bear reasons that the remaining book is itself a Level 3 mark: the weighted-average discount rate is 6.7% and the adjusted risk premium rose to 48.6% at 30 June 2026 from 31.1% at year end, so nearly half the modelled value is being given back to risk before a court has ruled. A 10% move in the fair value of capital provision assets and related liabilities moves net assets by $321.4M \u2014 a third of the market cap \u2014 which is why the equity trades like an option on a small number of binary legal outcomes rather than like a book-value stock.",
+  "base_case_rationale": "I decline to state one. This is a book-method name whose book value the engine has wrong by a factor of 3.4x, and whose ROTCE is an average of years in which the dominant input was an unrealized mark that has since reversed. Correcting one input without the other would produce a number with no meaning.",
+  "key_risks": [
+    "The engine's entire +178% gap is a stale-book artifact and would have read as the cheapest 1% of 340 Financials",
+    "Remaining book value is Level 3 marks on litigation outcomes; a 10% move in those marks moves net assets by $321.4M against a $955M market cap",
+    "Debt-to-equity based covenants on incurrence of additional debt and restricted payments tighten as equity falls",
+    "Non-controlling interests of $649.3M exceed the $819.1M attributable to Burford itself"
+  ],
+  "watch_for": [
+    "Any ruling on remand, rehearing en banc, or certiorari in Petersen/Eton Park v. Argentina",
+    "The 3Q26 tangible book per share \u2014 the engine will keep pricing against $10.57 until the extract refreshes"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000097/bur-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000096/bur-20260806xex991.htm",
+    "https://investors.burfordcapital.com/news/news-details/2026/Burford-Capital-Statement-Re-YPF-Appeal-Decision/default.aspx",
+    "https://www.sullcrom.com/insights/memo/2026/April/Second-Circuit-Reverses-18-Billion-Judgment-Against-Argentina"
+  ],
+  "flags": [
+    "unstable_rotce_2.7%_to_28.3%"
+  ]
+}

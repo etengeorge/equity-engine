@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>TTAN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / TTAN</p><h1>TTAN <span style='color:var(--faint);font-weight:400'>SERVICETITAN CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$87.92</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-07</b></div></div><div class='prose'><h1>TTAN — SERVICETITAN CLASS A</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-07 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $87.92</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> ServiceTitan at $87.92 on 95.4M shares is an $8.4B business doing ~$1.13-1.14B of fiscal 2027 revenue, growing 25% (Q1 FY27 revenue $268.8M, gross transaction volume $21.7B up 23%), with guided non-GAAP operating income of $142-147M. The market pays roughly 7x forward revenue for the category-defining vertical software platform for the residential and commercial trades, with a durable land-and-expand motion, payments attach on a growing GTV base, and a founder-controlled board with 61% of voting power. That is a full but not extraordinary multiple for 25% growth with a positive non-GAAP operating margin — the bull case is that GTV, not revenue, is the real TAM meter, and payments monetization on $21.7B of volume is barely started.</p><p><strong>What changed.</strong> Nothing that changes the business: Q1 FY27 (quarter ended 2026-04-30) beat and the full-year guide was raised. What changed for the model is that I established the share count. The 10-Q filed 2026-06-05 states 82,746,425 Class A and 12,651,154 Class B shares outstanding as of 2026-05-31 — 95,397,579 in total. Q2 FY27 results are due 2026-09-08, one day after this brief.</p><p><strong>Base case.</strong> No growth rate can be stated against this model because the denominator is wrong. Every valuation figure on the brief is built on a share count that is 676 days stale.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against refusing is that I have enough to form a view anyway: at a corrected ~7x forward revenue against a cohort median of 2.9x, ServiceTitan is expensive, and I could record &#x27;rich&#x27; on the multiple alone. I decline for two reasons. First, a 25%-growing vertical SaaS leader trading at 7x forward revenue is squarely inside the normal band for that profile, so the multiple by itself does not settle anything. Second, the stock-comp problem is unresolved in a way that matters more than the multiple: SBC is 260% of the reported FCFF base, and expensing it turns FCFF from +$69.3M to -$111.1M. A company whose free cash flow exists only because share issuance is treated as free is one where the correct share count is not a rounding detail, it is the whole question — and the engine has the wrong one.</li><li>What would prove it: The FY27 Q2 print on 2026-09-08: net revenue retention, the GTV growth rate, and — decisively — diluted share count and SBC as a percentage of revenue.</li><li>Already visible today: Partly. The CFO has sold under a 10b5-1 plan twice in six weeks (2,276 shares in July, 9,000 in August), which is routine and tells me nothing. What is visible and does matter is that dilution is the funding mechanism: 24.0M shares are reserved under the 2024 Incentive Award Plan and 12.8M under the 2015 plan, against 95.4M outstanding.</li><li>Left unresolved: Whether ServiceTitan&#x27;s non-GAAP operating income becomes GAAP cash generation on a per-share basis, or whether the share count grows fast enough to absorb it. I cannot answer that until the model prices the right number of shares.</li></ul><p><strong>Key risks.</strong> Stock compensation is 260% of the reported FCFF base; expensed, free cash flow is negative $111.1M; Dual-class structure with 61% of voting power held by the co-founders, rising to ~73% fully vested; The engine&#x27;s own multiples table reports ServiceTitan at 2.8x EV/sales against a cohort median of 2.9x — i.e. &#x27;in line&#x27; — when the true figure is ~7x <strong>Watch for.</strong> Q2 FY27 results on 2026-09-08; An engine fix that reads the cover-page share count per class for dual-class filers</p><p><strong>Data quality.</strong> RESOLVED AND FATAL, and it generalises. The brief&#x27;s <code>share_count_676d_stale_market_cap_unreliable</code> is right and understates the damage. The 10-Q filed 2026-06-05 shows 82,746,425 Class A plus 12,651,154 Class B = 95,397,579 shares at 2026-05-31. At $87.92 that is a market cap of $8.39B; the brief says $3.11B, an understatement of 2.7x. Consequences: enterprise value, FCFF yield and implied growth are all wrong, and so is every row of the multiples table — &#x27;its own&#x27; ev_sales reads 2.8x when the true figure against the $1.135B FY27 revenue guide is ~7.0x, so ServiceTitan sits in the top quartile of its cohort rather than at the median, and the &#x27;+11.6% blended gap&#x27; inverts. 676 days before today is 2024-10-31, i.e. the pre-IPO S-1 period, and the mechanism is that a dual-class filer tags dei:EntityCommonStockSharesOutstanding per class on a member axis, so an un-dimensioned read falls back to a stale fact. I scanned the full screen: 104 of 1,956 names carry this flag, median staleness 1,769 days and maximum 5,800 (HUBG); 22 have a positive gap, 19 of those above +50%, and 15 sit in the 90th-plus percentile of their sector cohort — i.e. they are being ranked among the cheapest names in the index on a market cap that does not exist. The list is dominated by dual- and multi-class filers: CENT/CENTA, BELFA/BELFB, HVT, GTN, HUBG, VLGEA, JBSS, MBUU, FNKO, TBLA, ZGN. Two are catastrophic: MBUU&#x27;s market cap computes to $334.56 and FNKO&#x27;s to $568.00 — dollars, not millions — producing gaps of +160,066,846% and +140,231,237% and cohort percentiles of exactly 100.0. Both sit at the top of the Consumer Discretionary cheapness ranking that this same brief cites for HOG and WEN. Like the convertible, ABL, rental-capex and low-R2 beta bugs, an understated share count understates market cap, understates EV, lowers implied growth and manufactures a positive gap — it produces false buys, never false sells.</p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1638826/000163882626000047/ttan-20260430.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1638826/000163882626000047/ttan-20260430.htm</a></li><li><a href="https://www.stocktitan.net/news/TTAN/service-titan-announces-fiscal-first-quarter-financial-n0lurtlrhm9y.html" rel="noopener">https://www.stocktitan.net/news/TTAN/service-titan-announces-fiscal-first-quarter-financial-n0lurtlrhm9y.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/servicetitan-announce-fiscal-second-quarter-130000094.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/servicetitan-announce-fiscal-second-quarter-130000094.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/TTAN.md'>research/Information Technology/TTAN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

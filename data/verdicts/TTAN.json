@@ -1,0 +1,54 @@
+{
+  "ticker": "TTAN",
+  "date": "2026-09-07",
+  "sector": "Information Technology",
+  "name": "SERVICETITAN CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 0,
+  "price_at_verdict": 87.91999816894531,
+  "market_implied_growth": 0.3673746955125191,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against refusing is that I have enough to form a view anyway: at a corrected ~7x forward revenue against a cohort median of 2.9x, ServiceTitan is expensive, and I could record 'rich' on the multiple alone. I decline for two reasons. First, a 25%-growing vertical SaaS leader trading at 7x forward revenue is squarely inside the normal band for that profile, so the multiple by itself does not settle anything. Second, the stock-comp problem is unresolved in a way that matters more than the multiple: SBC is 260% of the reported FCFF base, and expensing it turns FCFF from +$69.3M to -$111.1M. A company whose free cash flow exists only because share issuance is treated as free is one where the correct share count is not a rounding detail, it is the whole question \u2014 and the engine has the wrong one.",
+    "what_would_prove_it": "The FY27 Q2 print on 2026-09-08: net revenue retention, the GTV growth rate, and \u2014 decisively \u2014 diluted share count and SBC as a percentage of revenue.",
+    "already_visible": "Partly. The CFO has sold under a 10b5-1 plan twice in six weeks (2,276 shares in July, 9,000 in August), which is routine and tells me nothing. What is visible and does matter is that dilution is the funding mechanism: 24.0M shares are reserved under the 2024 Incentive Award Plan and 12.8M under the 2015 plan, against 95.4M outstanding.",
+    "unresolved": "Whether ServiceTitan's non-GAAP operating income becomes GAAP cash generation on a per-share basis, or whether the share count grows fast enough to absorb it. I cannot answer that until the model prices the right number of shares."
+  },
+  "what_changed": "Nothing that changes the business: Q1 FY27 (quarter ended 2026-04-30) beat and the full-year guide was raised. What changed for the model is that I established the share count. The 10-Q filed 2026-06-05 states 82,746,425 Class A and 12,651,154 Class B shares outstanding as of 2026-05-31 \u2014 95,397,579 in total. Q2 FY27 results are due 2026-09-08, one day after this brief.",
+  "consensus_case": "ServiceTitan at $87.92 on 95.4M shares is an $8.4B business doing ~$1.13-1.14B of fiscal 2027 revenue, growing 25% (Q1 FY27 revenue $268.8M, gross transaction volume $21.7B up 23%), with guided non-GAAP operating income of $142-147M. The market pays roughly 7x forward revenue for the category-defining vertical software platform for the residential and commercial trades, with a durable land-and-expand motion, payments attach on a growing GTV base, and a founder-controlled board with 61% of voting power. That is a full but not extraordinary multiple for 25% growth with a positive non-GAAP operating margin \u2014 the bull case is that GTV, not revenue, is the real TAM meter, and payments monetization on $21.7B of volume is barely started.",
+  "base_case_rationale": "No growth rate can be stated against this model because the denominator is wrong. Every valuation figure on the brief is built on a share count that is 676 days stale.",
+  "key_risks": [
+    "Stock compensation is 260% of the reported FCFF base; expensed, free cash flow is negative $111.1M",
+    "Dual-class structure with 61% of voting power held by the co-founders, rising to ~73% fully vested",
+    "The engine's own multiples table reports ServiceTitan at 2.8x EV/sales against a cohort median of 2.9x \u2014 i.e. 'in line' \u2014 when the true figure is ~7x"
+  ],
+  "watch_for": [
+    "Q2 FY27 results on 2026-09-08",
+    "An engine fix that reads the cover-page share count per class for dual-class filers"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000047/ttan-20260430.htm",
+    "https://www.stocktitan.net/news/TTAN/service-titan-announces-fiscal-first-quarter-financial-n0lurtlrhm9y.html",
+    "https://finance.yahoo.com/markets/stocks/articles/servicetitan-announce-fiscal-second-quarter-130000094.html"
+  ],
+  "flags": [
+    "share_count_676d_stale_market_cap_unreliable",
+    "beta_from_sector_median_1.24(unreliable_r2_0.025_raw_0.49)",
+    "stock_comp_is_260%_of_fcff_reported_cash_flow_treats_it_as_free",
+    "no_baseline_growth",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

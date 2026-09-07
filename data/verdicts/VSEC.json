@@ -1,0 +1,54 @@
+{
+  "ticker": "VSEC",
+  "date": "2026-09-07",
+  "sector": "Industrials",
+  "name": "VSE CORP",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 0,
+  "price_at_verdict": 203.91000366210938,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The best case against refusing: I have enough to say something. I computed a corrected forward multiple of roughly 20x EV to 2026 adjusted EBITDA, which sits squarely inside the aviation-aftermarket comparable range, so 'roughly fairly valued' is a defensible conclusion and no_model looks like evasion. I take the point, and I have recorded the corrected multiple above rather than hiding behind the refusal. What I will not do is convert it into a fair value. Twenty times EBITDA on a business two quarters into integrating a $2B acquisition, where the guided margin depends on synergies management describes as 'meaningful' but has not quantified, and where the cash conversion is currently 22% of EBITDA, spans a range too wide to call. A point estimate would claim precision this does not have.",
+    "what_would_prove_it": "Second-half 2026 free cash flow. Management explicitly expects it to be stronger and to support deleveraging; if it is not, the working-capital drag is structural rather than growth-related and the 20x multiple is on an EBITDA that never becomes cash.",
+    "already_visible": "Partially, and it favours the company: Q2 free cash flow of $18.7M improved significantly from Q1 on better profitability and working capital, and adjusted net leverage of 2.4x is not stressed. But one improving quarter after a negative half is not a trend.",
+    "unresolved": "Whether the 18.7-19.0% adjusted EBITDA margin survives the full PAG integration, and how much of the reported margin expansion is mix rather than synergy. I could not separate those from the disclosure."
+  },
+  "what_changed": "The company was rebuilt. VSE completed the acquisition of Precision Aviation Group for approximately $2 billion, plus Aero 3 and NorthStar, and divested the Fleet segment into discontinued operations. Repair revenue rose 149.4% and distribution 17.2% year over year. In February 2026 it issued common stock and tangible equity units (including 5.93% senior unsecured amortizing notes) and refinanced its term loan, writing off $3.2M of unamortized issuance costs. At 2026-06-30: 28,064,972 shares outstanding (as of 2026-07-31), $75.4M of cash, $966.7M of total debt, $871.6M of net debt, about $500M available under the revolver.",
+  "consensus_case": "VSE has become a pure-play aviation aftermarket platform and is being priced as one. Q2 2026 revenue rose 65% to a record $449.1M with roughly 14% organic growth, net income from continuing operations doubled to $28.5M, adjusted EBITDA from continuing operations rose 98% to $86.0M and the margin reached a record 19.2%, up about 320bp. Full-year guidance was raised twice-over: revenue growth of 61-64% (from 57-61%) and adjusted EBITDA margin of 18.7-19.0% (from 18.1-18.5%). On that guide the company earns roughly $330M of adjusted EBITDA in 2026 against an enterprise value of about $6.6B \u2014 call it 20x \u2014 which is the multiple the market pays for HEICO- and TransDigm-adjacent aftermarket compounders with mid-teens organic growth and a repeatable acquisition engine. The bear case is the balance sheet that bought it: $966.7M of debt, adjusted net leverage of 2.4x, and $19M of free cash flow in a quarter that produced $86M of EBITDA.",
+  "base_case_rationale": "I decline to state a five-year FCFF growth rate because there is no FCFF base to grow. The three-year window the model uses spans the Fleet divestiture and three acquisitions; operating cash flow for the first half of 2026 was negative, and the free cash flow that does exist ($18.7M in Q2, on $86.0M of adjusted EBITDA) is being consumed by the inventory build that a distribution business requires when it grows revenue 65%. That is a real economic feature of the model, not an accounting artefact, and it means a discounted cash flow on this company would be a statement about working-capital timing rather than about earning power.",
+  "key_risks": [
+    "Two quarters into integrating a ~$2B acquisition, with synergies described but not quantified",
+    "Cash conversion: $18.7M of free cash flow on $86.0M of quarterly adjusted EBITDA, after a negative first-half operating cash flow",
+    "$966.7M of debt at 2.4x adjusted net leverage on an acquisition-built platform",
+    "Roughly 20x forward EBITDA leaves no room for a commercial aftermarket slowdown"
+  ],
+  "watch_for": [
+    "Second-half 2026 free cash flow and the deleveraging management has promised",
+    "Organic growth ex-acquisition holding in the low-to-mid teens",
+    "Quantified PAG synergy targets"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/102752/000010275226000064/vsec-20260630.htm",
+    "https://www.stocktitan.net/sec-filings/VSEC/8-k-vse-corp-reports-material-event-3f7f4e02eb59.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/12/vse-vsec-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_2.0x_of_mean",
+    "nonpositive_normalized_fcff"
+  ]
+}

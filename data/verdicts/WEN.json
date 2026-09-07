@@ -1,0 +1,187 @@
+{
+  "ticker": "WEN",
+  "date": "2026-09-07",
+  "sector": "Consumer Discretionary",
+  "name": "WENDYS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": -0.035,
+  "bear_growth": -0.11,
+  "bull_growth": 0.02,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 8.029999732971191,
+  "market_implied_growth": -0.09321528108344951,
+  "cohort_pct": 98.5,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.035,
+    "market_implied_growth": -0.09321528108344951,
+    "growth_delta": 0.058215281083449505,
+    "fair_value": 14.546601007050612,
+    "price": 8.029999732971191,
+    "gap": 0.8115319415668527,
+    "fair_value_band": {
+      "low": 10.367253243442642,
+      "point": 14.546601007050612,
+      "high": 20.646828134036507
+    },
+    "fcff_base_used": 347689083.3333334,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.07338606612038448,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 347689083.3333334,
+      "price": 8.029999732971191,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.11,
+          "cells": [
+            {
+              "wacc": 0.053386066120384476,
+              "fair_value": 17.027065305814954,
+              "gap": 1.120431615445988
+            },
+            {
+              "wacc": 0.06338606612038448,
+              "fair_value": 10.50661278962244,
+              "gap": 0.30842006712432046
+            },
+            {
+              "wacc": 0.07338606612038448,
+              "fair_value": 6.419988658235892,
+              "gap": -0.20049951784239695
+            },
+            {
+              "wacc": 0.08338606612038447,
+              "fair_value": 3.615636103242464,
+              "gap": -0.549733969679145
+            },
+            {
+              "wacc": 0.09338606612038448,
+              "fair_value": 1.5696517020435907,
+              "gap": -0.804526556134417
+            }
+          ],
+          "fair_value_at_point_wacc": 6.419988658235892,
+          "gap_at_point_wacc": -0.20049951784239695
+        },
+        {
+          "case": "base",
+          "growth": -0.035,
+          "cells": [
+            {
+              "wacc": 0.053386066120384476,
+              "fair_value": 30.393628027055943,
+              "gap": 2.7850098428097896
+            },
+            {
+              "wacc": 0.06338606612038448,
+              "fair_value": 20.646828134036507,
+              "gap": 1.5712115592308926
+            },
+            {
+              "wacc": 0.07338606612038448,
+              "fair_value": 14.546601007050612,
+              "gap": 0.8115319415668527
+            },
+            {
+              "wacc": 0.08338606612038447,
+              "fair_value": 10.367253243442642,
+              "gap": 0.29106520400924607
+            },
+            {
+              "wacc": 0.09338606612038448,
+              "fair_value": 7.323692801456639,
+              "gap": -0.08795852490685085
+            }
+          ],
+          "fair_value_at_point_wacc": 14.546601007050612,
+          "gap_at_point_wacc": 0.8115319415668527
+        },
+        {
+          "case": "bull",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.053386066120384476,
+              "fair_value": 43.09602651334119,
+              "gap": 4.366877701924302
+            },
+            {
+              "wacc": 0.06338606612038448,
+              "fair_value": 30.25518467675909,
+              "gap": 2.7677690763215415
+            },
+            {
+              "wacc": 0.07338606612038448,
+              "fair_value": 22.224902137663435,
+              "gap": 1.7677338576249202
+            },
+            {
+              "wacc": 0.08338606612038447,
+              "fair_value": 16.72838862087762,
+              "gap": 1.0832365102318535
+            },
+            {
+              "wacc": 0.09338606612038448,
+              "fair_value": 12.72984707816361,
+              "gap": 0.5852861147547537
+            }
+          ],
+          "fair_value_at_point_wacc": 22.224902137663435,
+          "gap_at_point_wacc": 1.7677338576249202
+        }
+      ],
+      "summary": {
+        "bear": -0.20049951784239695,
+        "base": 0.8115319415668527,
+        "bull": 1.7677338576249202
+      },
+      "downside": -0.804526556134417,
+      "upside": 4.366877701924302
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "I began this name expecting to record 'cheap'. The arithmetic invites it: a -3.5% base case against a -9.3% implied rate, on a franchisor whose first-half free cash flow was UP year over year, at 3.1x enterprise value to the FCFF base. The counter that beat it has three parts. First, the levered-stub problem: $2,749M of fixed securitized debt against ~$250M of post-capex, pre-interest cash flow means small errors in the royalty forecast move the equity enormously and asymmetrically, so a range of outcomes that looks modest at the enterprise level runs from zero to a multiple of the price at the equity level. Second, and decisively, the closure rate already observed is close to what the market's number requires \u2014 245 net US closures in six months is roughly 4% of the US base in half a year, and an 8% annualised unit decline with flat same-restaurant sales IS a -9.3% royalty CAGR. My deceleration assumption is the entire thesis and it is an assumption, not an observation. Third, Trian evaluated buying the whole company at a premium, has board-level information, and walked away in the same week the shares were at $8. LESSONS is explicit that an expectations_sentiment thesis needs a specific, dated reason the negativity resolves; I do not have one, because the CEO's plan does not exist yet and the guidance has been withdrawn.",
+    "what_would_prove_it": "Two numbers in the Q3 print: net US unit change, and the direction of US same-restaurant sales. If net closures fall below ~40 in the quarter and same-restaurant sales improve to better than -3%, the deceleration is real and the gap is a thesis. If closures hold near 80 and comps stay at -7%, the market's number is right and mine is wrong.",
+    "already_visible": "Yes, and it points the wrong way for me. Q2 was worse than Q1 on both measures, not better: 81 net closures in Q2 within 245 for the half, and comps still at -7% with no inflection. The dividend cut and the withdrawn outlook are management's own statement that they cannot see the bottom either.",
+    "unresolved": "I could not read the securitization base indenture, so I do not know the debt service coverage ratio at which excess cash is trapped or rapid amortisation triggers. That covenant is the difference between 'the equity is worth less than I thought' and 'the equity is worth nothing', and it bites in exactly the scenario the tape is pricing. One adhoc fetch of the base indenture would close it and I did not spend it; I judged the unit-count evidence sufficient to reach no_edge without it, but it is the largest hole in this note."
+  },
+  "what_changed": "A great deal, and all of it after the last 10-K. Q2 2026 (reported 2026-08-07): US same-restaurant sales -7%, international -2.3%, global systemwide sales -6.5%. The quarterly dividend was cut from $0.14 to $0.07 and the 2026 outlook withdrawn. 21 US restaurants opened against 102 closures in the quarter (81 net), 245 net US closures through the first half. New CEO Bob Wright has named the problems \u2014 weak menu differentiation, value perception, inconsistent customer experience \u2014 but has not yet published a plan. Trian Fund Management confirmed in early September that it will not pursue a take-private while retaining board representation. Five 8-Ks under item 5.02 since May point to substantial management turnover, including a new Chief Marketing Officer.",
+  "consensus_case": "The market is not pricing a bad quarter, it is pricing a shrinking annuity behind fixed debt. Wendy's is ~95% franchised, so enterprise cash flow is a royalty on systemwide sales plus rent. In Q2 2026 US same-restaurant sales fell 7%, global systemwide sales fell 6.5% to $3.42B with the US down 8.2%, and the US system contracted by 81 net restaurants in the quarter and 245 net through the first half. Against that royalty stream sits $2,749M of securitized debt whose service does not shrink with sales, so a 10% fall in royalties takes a far larger share of the equity. Management cut the dividend in half to $0.07 and WITHDREW the 2026 outlook so the incoming leadership could build a plan \u2014 a company that will not forecast its own year is telling you the range is wide. And in early September Trian, which sits on the board with the best information and the most capital, said it would not proceed with a take-private. The -9.3% five-year FCFF growth the price implies is close to what an 8%-annualised unit-closure rate mechanically produces. That is arithmetic, not panic.",
+  "base_case_rationale": "Royalty revenue tracks systemwide sales, which is unit count times average unit volume. The observed run rate is roughly -8% annualised on US units and -7% on US same-restaurant sales, but I do not extrapolate either for five years. Closure waves front-load: the weakest cohort of franchisee restaurants exits first, and 245 net closures in six months is that cohort leaving, not a steady state. International is ~15% of units and grew systemwide sales 3.4%. So I model year one at roughly -7% on the royalty base, decelerating to -3% and then to roughly flat by years four and five as the closed tail stops subtracting and the remaining base laps easier comparisons \u2014 a five-year CAGR of about -3.5%. That is meaningfully better than the -9.3% the price requires and meaningfully worse than the naive +4.7% revenue baseline, which is a five-year history measured before the current decline began. Note the cash flow has NOT yet collapsed: H1 2026 operating cash flow was $160.0M against $146.0M in H1 2025, and capex fell to $31.4M from $39.1M, so first-half free cash flow of $128.5M was actually up year over year. The $347.7M FCFF base is defensible for 2026; the question is entirely what happens to it from 2027, which is why I have not overridden it.",
+  "key_risks": [
+    "245 net US restaurant closures in the first half of 2026, accelerating rather than decelerating",
+    "$2,749M of fixed securitized debt against a royalty stream that is shrinking \u2014 the equity is a levered stub",
+    "2026 outlook withdrawn; no published turnaround plan; heavy management turnover",
+    "Trian, on the board, declined to take the company private in the first week of September"
+  ],
+  "watch_for": [
+    "Q3 2026: net US unit change and the direction of US same-restaurant sales",
+    "Publication of the CEO's turnaround plan and any reinstated guidance",
+    "Securitization debt service coverage ratio disclosure"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/30697/000003069726000116/wen-20260628.htm",
+    "https://www.sec.gov/Archives/edgar/data/30697/000119312526339132/d130352d8k.htm",
+    "https://www.benzinga.com/markets/earnings/26/08/61045161/wendys-q2-beat-comes-with-dividend-cut-withdrawn-outlook-as-sales-slump",
+    "https://finance.yahoo.com/markets/stocks/articles/wendys-wen-stays-public-trian-082029917.html",
+    "https://pulse2.com/wendys-u-s-restaurant-count-falls-by-81-net-as-dividend-is-cut-to-fund-turnaround/",
+    "https://www.barchart.com/story/news/4412146/wendys-just-cut-its-dividend-in-half-consider-it-a-warning-sign-not-a-reset"
+  ],
+  "flags": []
+}

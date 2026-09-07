@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>WEN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / WEN</p><h1>WEN <span style='color:var(--faint);font-weight:400'>WENDYS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$8.03</b></div><div>Analyst gap<b>+81%</b></div><div>Dated<b>2026-09-07</b></div></div><div class='prose'><h1>WEN — WENDYS</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-07 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $8.03 · fair value $14.55 · gap +81.2%</li><li><strong>Growth:</strong> market implies -9.3%, analyst says -3.5% (delta +5.8%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 5.3% | 6.3% | 7.3% | 8.3% | 9.3% | |---|---|---|---|---|---|---| | bear | -11.0% | $17.03 | $10.51 | $6.42 | $3.62 | $1.57 | | base | -3.5% | $30.39 | $20.65 | $14.55 | $10.37 | $7.32 | | bull | +2.0% | $43.10 | $30.26 | $22.22 | $16.73 | $12.73 |</p><p>At the point WACC of 7.3%: bear -20.0%, base +81.2%, bull +176.8% Across the whole grid the gap ranges -80.5% to +436.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> The market is not pricing a bad quarter, it is pricing a shrinking annuity behind fixed debt. Wendy&#x27;s is ~95% franchised, so enterprise cash flow is a royalty on systemwide sales plus rent. In Q2 2026 US same-restaurant sales fell 7%, global systemwide sales fell 6.5% to $3.42B with the US down 8.2%, and the US system contracted by 81 net restaurants in the quarter and 245 net through the first half. Against that royalty stream sits $2,749M of securitized debt whose service does not shrink with sales, so a 10% fall in royalties takes a far larger share of the equity. Management cut the dividend in half to $0.07 and WITHDREW the 2026 outlook so the incoming leadership could build a plan — a company that will not forecast its own year is telling you the range is wide. And in early September Trian, which sits on the board with the best information and the most capital, said it would not proceed with a take-private. The -9.3% five-year FCFF growth the price implies is close to what an 8%-annualised unit-closure rate mechanically produces. That is arithmetic, not panic.</p><p><strong>What changed.</strong> A great deal, and all of it after the last 10-K. Q2 2026 (reported 2026-08-07): US same-restaurant sales -7%, international -2.3%, global systemwide sales -6.5%. The quarterly dividend was cut from $0.14 to $0.07 and the 2026 outlook withdrawn. 21 US restaurants opened against 102 closures in the quarter (81 net), 245 net US closures through the first half. New CEO Bob Wright has named the problems — weak menu differentiation, value perception, inconsistent customer experience — but has not yet published a plan. Trian Fund Management confirmed in early September that it will not pursue a take-private while retaining board representation. Five 8-Ks under item 5.02 since May point to substantial management turnover, including a new Chief Marketing Officer.</p><p><strong>Base case.</strong> Royalty revenue tracks systemwide sales, which is unit count times average unit volume. The observed run rate is roughly -8% annualised on US units and -7% on US same-restaurant sales, but I do not extrapolate either for five years. Closure waves front-load: the weakest cohort of franchisee restaurants exits first, and 245 net closures in six months is that cohort leaving, not a steady state. International is ~15% of units and grew systemwide sales 3.4%. So I model year one at roughly -7% on the royalty base, decelerating to -3% and then to roughly flat by years four and five as the closed tail stops subtracting and the remaining base laps easier comparisons — a five-year CAGR of about -3.5%. That is meaningfully better than the -9.3% the price requires and meaningfully worse than the naive +4.7% revenue baseline, which is a five-year history measured before the current decline began. Note the cash flow has NOT yet collapsed: H1 2026 operating cash flow was $160.0M against $146.0M in H1 2025, and capex fell to $31.4M from $39.1M, so first-half free cash flow of $128.5M was actually up year over year. The $347.7M FCFF base is defensible for 2026; the question is entirely what happens to it from 2027, which is why I have not overridden it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: I began this name expecting to record &#x27;cheap&#x27;. The arithmetic invites it: a -3.5% base case against a -9.3% implied rate, on a franchisor whose first-half free cash flow was UP year over year, at 3.1x enterprise value to the FCFF base. The counter that beat it has three parts. First, the levered-stub problem: $2,749M of fixed securitized debt against ~$250M of post-capex, pre-interest cash flow means small errors in the royalty forecast move the equity enormously and asymmetrically, so a range of outcomes that looks modest at the enterprise level runs from zero to a multiple of the price at the equity level. Second, and decisively, the closure rate already observed is close to what the market&#x27;s number requires — 245 net US closures in six months is roughly 4% of the US base in half a year, and an 8% annualised unit decline with flat same-restaurant sales IS a -9.3% royalty CAGR. My deceleration assumption is the entire thesis and it is an assumption, not an observation. Third, Trian evaluated buying the whole company at a premium, has board-level information, and walked away in the same week the shares were at $8. LESSONS is explicit that an expectations_sentiment thesis needs a specific, dated reason the negativity resolves; I do not have one, because the CEO&#x27;s plan does not exist yet and the guidance has been withdrawn.</li><li>What would prove it: Two numbers in the Q3 print: net US unit change, and the direction of US same-restaurant sales. If net closures fall below ~40 in the quarter and same-restaurant sales improve to better than -3%, the deceleration is real and the gap is a thesis. If closures hold near 80 and comps stay at -7%, the market&#x27;s number is right and mine is wrong.</li><li>Already visible today: Yes, and it points the wrong way for me. Q2 was worse than Q1 on both measures, not better: 81 net closures in Q2 within 245 for the half, and comps still at -7% with no inflection. The dividend cut and the withdrawn outlook are management&#x27;s own statement that they cannot see the bottom either.</li><li>Left unresolved: I could not read the securitization base indenture, so I do not know the debt service coverage ratio at which excess cash is trapped or rapid amortisation triggers. That covenant is the difference between &#x27;the equity is worth less than I thought&#x27; and &#x27;the equity is worth nothing&#x27;, and it bites in exactly the scenario the tape is pricing. One adhoc fetch of the base indenture would close it and I did not spend it; I judged the unit-count evidence sufficient to reach no_edge without it, but it is the largest hole in this note.</li></ul><p><strong>Key risks.</strong> 245 net US restaurant closures in the first half of 2026, accelerating rather than decelerating; $2,749M of fixed securitized debt against a royalty stream that is shrinking — the equity is a levered stub; 2026 outlook withdrawn; no published turnaround plan; heavy management turnover; Trian, on the board, declined to take the company private in the first week of September <strong>Watch for.</strong> Q3 2026: net US unit change and the direction of US same-restaurant sales; Publication of the CEO&#x27;s turnaround plan and any reinstated guidance; Securitization debt service coverage ratio disclosure</p><p><strong>Data quality.</strong> No flags were raised and the inputs check out, which is unusual on this list. Enterprise value reconciles: $2,719.2M long-term debt plus $29.8M current portion, less cash, against a $1.5B market cap, gives the brief&#x27;s $3.9B. The FCFF series [$242.6M, $260.9M, $260.4M] is stable and I verified it is not yet stale — H1 2026 operating cash flow of $160.0M less $31.4M of capex is running slightly AHEAD of H1 2025, so the 2026 base holds even with systemwide sales down 6.5%; the deterioration reaches the franchisor with a lag. The open item is the one I could not close: the terms of the securitized financing facility, which I did not fetch. The gap recorded here is real arithmetic against a base I believe; the verdict is no_edge because I cannot name the dated mechanism that stops the unit decline, not because the number is wrong.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/30697/000003069726000116/wen-20260628.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/30697/000003069726000116/wen-20260628.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/30697/000119312526339132/d130352d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/30697/000119312526339132/d130352d8k.htm</a></li><li><a href="https://www.benzinga.com/markets/earnings/26/08/61045161/wendys-q2-beat-comes-with-dividend-cut-withdrawn-outlook-as-sales-slump" rel="noopener">https://www.benzinga.com/markets/earnings/26/08/61045161/wendys-q2-beat-comes-with-dividend-cut-withdrawn-outlook-as-sales-slump</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/wendys-wen-stays-public-trian-082029917.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/wendys-wen-stays-public-trian-082029917.html</a></li><li><a href="https://pulse2.com/wendys-u-s-restaurant-count-falls-by-81-net-as-dividend-is-cut-to-fund-turnaround/" rel="noopener">https://pulse2.com/wendys-u-s-restaurant-count-falls-by-81-net-as-dividend-is-cut-to-fund-turnaround/</a></li><li><a href="https://www.barchart.com/story/news/4412146/wendys-just-cut-its-dividend-in-half-consider-it-a-warning-sign-not-a-reset" rel="noopener">https://www.barchart.com/story/news/4412146/wendys-just-cut-its-dividend-in-half-consider-it-a-warning-sign-not-a-reset</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/WEN.md'>research/Consumer Discretionary/WEN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
