@@ -1,19 +1,19 @@
 {
-  "screen_utc": "2026-09-07T11:23:35+00:00",
+  "screen_utc": "2026-09-07T16:01:38+00:00",
   "price_asof": "2026-09-04",
   "universe": 1956,
   "modelled": 1078,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-07T11:23:36+00:00",
+    "generated_utc": "2026-09-07T16:01:39+00:00",
     "sectors": {
       "Health Care": {
-        "new": 2,
+        "new": 0,
         "held": 26,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 4,
+        "new": 0,
         "held": 33,
         "etf": "XLF"
       },
@@ -23,22 +23,22 @@
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 3,
-        "held": 31,
+        "new": 1,
+        "held": 32,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 1,
+        "new": 0,
         "held": 20,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 3,
+        "new": 0,
         "held": 38,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 21,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 0,
-        "held": 17,
+        "new": 1,
+        "held": 18,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 2,
+        "new": 0,
         "held": 24,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 16,
+        "new": 1,
+        "held": 17,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
-    "companies": 446,
-    "articles_new": 922,
+    "companies": 448,
+    "articles_new": 202,
     "candidates": 450,
-    "elapsed_s": 196.8
+    "elapsed_s": 198.8
   },
   "picks": [
-    "TTAN",
-    "UEC",
-    "MGY",
-    "CVLT",
-    "VSEC",
-    "APGE",
-    "WEN",
-    "AMSF",
-    "HOG",
-    "BUR"
+    "TXNM",
+    "POR",
+    "CWST",
+    "FTDR",
+    "NE",
+    "RYTM",
+    "LPG",
+    "IRWD",
+    "EFOR",
+    "AMR"
   ],
   "stages": {
-    "screen": "2026-09-07T11:27:01+00:00",
-    "news": "2026-09-07T11:26:53+00:00",
-    "pick": "2026-09-07T11:27:01+00:00"
+    "screen": "2026-09-07T16:05:26+00:00",
+    "news": "2026-09-07T16:04:58+00:00",
+    "pick": "2026-09-07T16:05:26+00:00"
   }
 }

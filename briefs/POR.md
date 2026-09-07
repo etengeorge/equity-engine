@@ -1,20 +1,20 @@
-# VSEC — VSE CORP
-*Industrials · brief generated 2026-09-07 · selected as **rotation***
+# POR — PORTLAND GENERAL ELECTRIC
+*Utilities · brief generated 2026-09-07 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 72/1956
+- rotation position 75/1956
 
 ## Market
 | | |
 |---|---|
-| price | $203.91 |
+| price | $48.76 |
 | market cap | $5.7B |
-| 5d / 21d / 63d / 252d | -5.5% / -9.6% / +13.0% / +24.0% |
-| 60d avg daily $ volume | $96.0M |
-| beta (vs IWM) | 1.29 (R²=0.256) |
+| 5d / 21d / 63d / 252d | -1.7% / +0.5% / -2.5% / +19.5% |
+| 60d avg daily $ volume | $56.9M |
+| beta (vs IWM) | 0.3 (R²=0.04) |
 | 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 86% / debt 14% |
+| WACC weights | equity 54% / debt 46% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.8% − 1pt | n/a |
-| **10.8% (point)** | **n/a** |
-| 10.8% + 1pt | n/a |
+| 7.0% − 1pt | n/a |
+| **7.0% (point)** | **n/a** |
+| 7.0% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $203.91).
+Gap under that baseline: **n/a** (fair value n/a vs price $48.76).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,64 +39,64 @@ Gap under that baseline: **n/a** (fair value n/a vs price $203.91).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_ebitda (n=171) | 50.9x | 10.3x / 14.4x / 20.3x | $16.57 / $35.42 / $62.52 |
-| ev_sales (n=242) | 5.9x | 0.9x / 1.7x / 3.3x | $4.99 / $35.74 / $97.99 |
-| ev_gross_profit (n=198) | 8.0x | 3.2x / 5.7x / 10.9x | $62.46 / $136.34 / $287.59 |
-| p_tbv (n=181) | 33.5x | 2.0x / 3.5x / 7.0x | $12.37 / $21.44 / $42.77 |
+| ev_ebitda (n=25) | 9.4x | 10.2x / 13.4x / 16.8x | $56.56 / $87.19 / $119.77 |
+| ev_sales (n=30) | 3.0x | 3.0x / 4.4x / 5.5x | $48.24 / $93.25 / $126.80 |
+| p_tbv (n=29) | 1.4x | 1.7x / 2.0x / 2.3x | $59.10 / $71.73 / $81.85 |
 
-Blended midpoint **$57.24** vs price $203.91 — gap **-71.9%**.
+Blended midpoint **$84.06** vs price $48.76 — gap **+72.4%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-Cohort: **not ranked** — too few comparable Industrials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **not ranked** — too few comparable Utilities names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_2.0x_of_mean`
+- `lumpy_fcff_spread_1.7x_of_mean`
 - `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-08-06 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsec-20260804.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/102752/000010275226000064/vsec-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vsec-20260805.htm
-- 2026-05-08 **8-K** — items 5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000010275226000051/vsec-20260507.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/102752/000010275226000049/vsec-20260331.htm
-- 2026-05-07 **8-K** — items 1.01,2.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996d8k.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000010275226000040/vsec-20260505.htm
-- 2026-03-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/102752/000010275226000023/vsec-20260324.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/102752/000010275226000015/vsec-20251231.htm
-- 2026-02-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/102752/000010275226000009/vsec-20260224.htm
+- 2026-08-12 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/784977/000119312526346816/por-20260812.htm
+- 2026-07-31 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/784977/000119312526327135/por-20260731.htm
+- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/784977/000119312526326379/por-20260630.htm
+- 2026-05-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/784977/000119312526217996/por-20260512.htm
+- 2026-05-01 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/784977/000119312526199453/por-20260501.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/784977/000119312526197978/por-20260331.htm
+- 2026-04-28 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/784977/000119312526187269/por-20260424.htm
+- 2026-03-24 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/784977/000078497726000038/por-20260318.htm
+- 2026-03-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/784977/000078497726000034/por-20260313.htm
+- 2026-02-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/784977/000114036126006175/ny20065377x5_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — VSE CORPORATION EX-99.1 - PRESS RELEASE DATED AUGUST 6, 2026 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsecorporationdeclaresquar.htm
-- **2026-08-05** · EX-99.1 · press release — VSE CORPORATION EX 99.1 - PRESS RELEASE DATED AUGUST 5, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vse-prxq2x2026earningsrele.htm
+- **2026-07-31** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/784977/000119312526327135/por-ex99_1.htm
+- **2026-07-31** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/784977/000119312526327135/por-ex99_2.htm
+- **2026-05-12** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/784977/000119312526217996/por-ex99_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Utilities
+*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-07** · XLU’s AI Power Story Crumbles as Texas Freezes Data-Center Demand — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/xlus-ai-power-story-crumbles-as-texas-freezes-data-center-demand/
 - **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-02** · Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector
-- **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
-- **2026-08-31** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html
-- **2026-08-28** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html
+- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
+- **2026-09-02** · Stock Market News for Sep 2, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html
+- **2026-09-01** · The Best Stock Sector ETFs for Rising Interest Rates — *Barrons.com* — https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo
+- **2026-09-01** · Stock Market News for Sep 1, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html
+- **2026-08-31** · Forget XLU: These 3 Utility Dividend Stocks Offer More Exposure to AI — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/forget-xlu-these-3-utility-dividend-stocks-offer-more-exposure-to-ai/
+- **2026-08-31** · PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/pge-sinks-18-edison-international-tumbles-23-as-california-wildfire-bill-omits-liability-cap/
+- **2026-08-31** · NextEra Energy Stock: Is NEE Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4355805/nextera-energy-stock-is-nee-outperforming-the-utilities-sector
+- **2026-08-26** · Utility Stocks Hit Record Lows vs. S&P 500: Why It’s Time to Buy — *Barrons.com* — https://www.barrons.com/articles/utility-stocks-record-low-sp500-buying-opportunity-8237dd33?siteid=yhoof2&yptr=yahoo
 
 ## Market and macro context
-- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
-- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
-- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
-- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
+- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
+- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
+- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
+- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -109,17 +109,8 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
-- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
-- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
-- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
-- FLR: no_model · price $54.51
-- GATX: no_model · price $177.31
-- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
-- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
-- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
-- WLFC: no_model · price $53.42
+## Prior verdicts elsewhere in Utilities
+- ORA: no_model · price $104.19
 
 ---
 

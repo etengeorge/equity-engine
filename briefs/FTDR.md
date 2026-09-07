@@ -1,93 +1,90 @@
-# WEN — WENDYS
-*Consumer Discretionary · brief generated 2026-09-07 · selected as **opportunistic***
+# FTDR — FRONTDOOR INC
+*Consumer Discretionary · brief generated 2026-09-07 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 130 Consumer Discretionary peers (98th pct)
-- baseline gap +231%
-- 21d move +10%
-- 5 news items in the last 5 days
-- Consumer Discretionary is in the news
-- never researched
-- urgency score 8.71
+- rotation position 77/1956
 
 ## Market
 | | |
 |---|---|
-| price | $8.03 |
-| market cap | $1.5B |
-| 5d / 21d / 63d / 252d | -2.1% / +9.6% / +20.7% / -16.0% |
-| 60d avg daily $ volume | $130.7M |
-| beta (vs IWM) | 0.65 (R²=0.124) |
-| 5d volume vs 60d average | 0.3x |
-| balance sheet as of | 2026-06-28 (10-Q) |
-| WACC weights | equity 36% / debt 64% |
+| price | $82.60 |
+| market cap | $5.7B |
+| 5d / 21d / 63d / 252d | -0.3% / -8.1% / +29.8% / +30.5% |
+| 60d avg daily $ volume | $44.9M |
+| beta (vs IWM) | 1.25 (R²=0.245) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 83% / debt 17% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$347.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$242.6M', '$260.9M', '$260.4M']
-Enterprise value **$3.9B** · FCFF yield **+8.8%**
+Normalized FCFF base **$322.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$390.0M', '$231.0M', '$170.0M']
+Enterprise value **$6.2B** · FCFF yield **+5.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.3% − 1pt | -13.3% |
-| **7.3% (point)** | **-9.3%** |
-| 7.3% + 1pt | -5.9% |
+| 10.6% − 1pt | +10.7% |
+| **10.6% (point)** | **+14.0%** |
+| 10.6% + 1pt | +17.0% |
 
 
-Naive baseline for comparison: **+4.7%** (5y revenue CAGR +4.7%).
-Gap under that baseline: **+230.5%** (fair value $26.54 vs price $8.03).
+> **Stock compensation is 11% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$294.2M** and an implied growth of **+16.4%** instead of +14.0%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+7.3%** (5y revenue CAGR +7.3%).
+Gap under that baseline: **-25.7%** (fair value $61.40 vs price $82.60).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +230.9%).
+Cohort: **35th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -25.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_peak_cycle_base_newest_fcf_2.3x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-17 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/30697/000119312526354008/d126117d8k.htm
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/30697/000003069726000116/wen-20260628.htm
-- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/30697/000119312526339132/d130352d8k.htm
-- 2026-07-28 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/30697/000119312526321244/d158954d8k.htm
-- 2026-06-23 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/30697/000119312526278576/d158135d8k.htm
-- 2026-06-09 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/30697/000119312526263775/d129353d8k.htm
-- 2026-05-22 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/30697/000119312526236835/d69431d8k.htm
-- 2026-05-20 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/30697/000119312526231809/d122885d8k.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/30697/000003069726000060/wen-20260329.htm
-- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/30697/000119312526213270/d70702d8k.htm
+- 2026-09-03 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000016/ftdr-20260831.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000014/ftdr-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000011/ftdr-20260430.htm
+- 2026-06-29 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727263/000119312526288411/ftdr-20260629.htm
+- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000008/ftdr-20260513.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1727263/000119312526197175/ftdr-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000006/ftdr-20260430.htm
+- 2026-03-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1727263/000119312526131742/ftdr-20260330.htm
+- 2026-03-17 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000003/ftdr-20260316.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1727263/000119312526076548/ftdr-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/30697/000119312526339132/d130352dex991.htm
-- **2026-06-23** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/30697/000119312526278576/d158135dex991.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727263/000172726326000011/ftdr-ex99_1.htm
+- **2026-06-29** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1727263/000119312526288411/ftdr-ex99_1.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-04** · Academy Moves Forward With Lee, Wolski-David — *MediaPost* — https://www.mediapost.com/publications/article/417633/academy-moves-forward-with-lee-wolski-david.html
-  > Sid Lee and Theo Wolski-David lead creative and client services, respectively.
-- **2026-09-04** · Wendy's (WEN) Stays Public As Trian Backs Off And Marketing Push Grows — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/wendys-wen-stays-public-trian-082029917.html
-  > Trian Fund Management LP said it will not move ahead with a take private proposal for Wendy's (NasdaqGS:WEN), while keeping its board representation and interest in the company. Wendy's announced the appointment of Tariq Hassan as Chief Mar
-- **2026-09-03** · Wendy's is Serving Up a Frightfully Fun Halloween with Boo! Books and Frosty Frights — *PR Newswire* — https://finance.yahoo.com/media-advertising/articles/wendys-serving-frightfully-fun-halloween-130000653.html
-  > Move over, summer. Spooky season has officially arrived. Wendy's® is ready for Halloween with a lineup that's equal parts sweet and frightful: Boo! Books® and Frosty Frights™. From scoring Frosty® treats while supporting a meaningful cause 
-- **2026-09-02** · Wendy’s Just Cut Its Dividend in Half. Consider It a Warning Sign, Not a Reset. — *Barchart* — https://www.barchart.com/story/news/4412146/wendys-just-cut-its-dividend-in-half-consider-it-a-warning-sign-not-a-reset
-  > Wendy’s cut its quarterly dividend in half to $0.07 per share and withdrew its 2026 outlook after U.S. same-restaurant sales fell 7%.
-- **2026-09-02** · Wendy’s Rally Fades After Trian Steps Back: Was It Ever Real? — *MarketBeat* — https://www.marketbeat.com/articles/wendys-rally-fades-after-trian-steps-back-was-it-ever-real/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Wendy's stock spiked on Trian buyout reports, reversed after the firm backed off, then recovered on short covering and value buying, even as weak earnings and bearish analyst ratings persist.
-- **2026-08-28** · Restaurant Traffic Likely to Stay Stable in Second Half After Depressed Quarterly Trends, UBS Says — *MT Newswires* — https://finance.yahoo.com/small-business/articles/restaurant-traffic-likely-stay-stable-202556649.html
-  > Traffic at US restaurants remained depressed in the second quarter amid a difficult consumer environ
-- **2026-08-28** · Wendy’s Stock Has Plunged, but History Shows How It Could Come Back — *Barrons.com* — https://www.barrons.com/articles/wendys-stock-price-fast-food-turnaround-1c558c4b?siteid=yhoof2&yptr=yahoo
-  > Wendy’s stock is trading at a steep discount to fast-food rivals. Turnarounds at Domino’s and McDonald’s show what the burger chain needs to fix.
-- **2026-08-28** · Why Wendy's Fell This Week — *Motley Fool* — https://www.fool.com/investing/2026/08/28/why-wendys-fell-this-week/
-  > Hopes of a quick takeover at a premium were seemingly dashed, but is a bigger turnaround in the works?
-- **2026-08-28** · 'If It's Hot Out, the Cost of Ice Cream Could Go Up' — Sen. Elizabeth Warren Says We Should All Be Worried About 'Dynamic Pricing' — *Benzinga* — https://finance.yahoo.com/economy/policy/articles/hot-cost-ice-cream-could-160040290.html
-  > Sen. Elizabeth Warren (D-MA) has a warning for shoppers: The price you see today may increasingly depend on exactly when you decide to buy. “We should all be worried about ‘dynamic pricing,'” Warren wrote on X recently. “That’s when compani
-- **2026-08-28** · Wendy’s Climbs 4%, McDonald’s Ticks Up: Is Short Interest Setting Up a Squeeze in the Burger Trade? — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/28/wendys-climbs-4-mcdonalds-ticks-up-is-short-interest-setting-up-a-squeeze-in-the-burger-trade/
-  > Wendy's short interest has climbed to one of its highest readings on record, and a sudden 4% snapback after a brutal single-session collapse is raising an uncomfortable question for anyone still holding a short position in the burger chain.
+- **2026-09-04** · Frontdoor’s (FTDR) Profit Surge Comes With A Pricing Question — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/frontdoor-ftdr-profit-surge-comes-105507171.html
+  > On August 6, Frontdoor (NASDAQ:FTDR) reported second-quarter results that outpaced its own recent history. Revenue rose 5% to $645 million, but profit grew faster: net income jumped 13% to $125 million, and earnings per share climbed 19% to
+- **2026-08-27** · Frontdoor (FTDR) is an Incredible Growth Stock: 3 Reasons Why — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/frontdoor-ftdr-incredible-growth-stock-164503191.html
+  > Frontdoor (FTDR) could produce exceptional returns because of its solid growth attributes.
+- **2026-08-21** · Here's Why Frontdoor (FTDR) Is a Great 'Buy the Bottom' Stock Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-frontdoor-ftdr-great-135502946.html
+  > After losing some value lately, a hammer chart pattern has been formed for Frontdoor (FTDR), indicating that the stock has found support. This, combined with an upward trend in earnings estimate revisions, could lead to a trend reversal for
+- **2026-08-15** · 5 Insightful Analyst Questions From Frontdoor’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-frontdoor-113300605.html
+  > Frontdoor’s second quarter saw strong operational execution, with the market reacting positively to robust results across key business areas. Management highlighted that direct-to-consumer and real estate channels both contributed to the fi
+- **2026-08-14** · Frontdoor Sees Member Growth Return as Housing, HVAC and Renewals Gain Momentum — *MarketBeat* — https://www.marketbeat.com/instant-alerts/frontdoor-sees-member-growth-return-as-housing-hvac-and-renewals-gain-momentum-2026-08-13/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Frontdoor (NASDAQ:FTDR) Chief Financial Officer Jason Bailey said the home warranty provider expects member growth to return this year for the first time since 2020, supported by improving real estate-channel conditions, continued direct-to
+- **2026-08-13** · Frontdoor (FTDR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/frontdoor-ftdr-q2-2026-earnings-call-transcript/
+  > Member growth returned for first time in five years, driven by dynamic pricing and HVAC expansion.
+- **2026-08-13** · 3 Hyped Up  Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-hyped-stocks-fall-short-130900738.html
+  > Each stock in this article is trading near its 52-week high. These elevated prices usually indicate some degree of investor confidence, business improvements, or favorable market conditions.
+- **2026-08-11** · Frontdoor (FTDR) Could Be 14% Undervalued On Raised Full Year Revenue Guidance — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/frontdoor-ftdr-could-14-undervalued-181516375.html
+  > Frontdoor (FTDR) is back in focus after releasing second quarter results and lifting its full year revenue outlook, with management pointing to member growth, margin gains, and supportive earnings estimate revisions. See our latest analysis
+- **2026-08-11** · Are Construction Stocks Lagging  Frontdoor (FTDR) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/construction-stocks-lagging-frontdoor-ftdr-134003008.html
+  > Here is how Frontdoor (FTDR) and Owens Corning (OC) have performed compared to their sector so far this year.
+- **2026-08-11** · Frontdoor’s (FTDR) Free Cash Flow Powers Upward Potential — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/frontdoor-ftdr-free-cash-flow-121324295.html
+  > Investment management company Curreen Capital released its second-quarter 2026 Investor letter. A copy of the letter can be downloaded here. In the second quarter, the fund returned 22.26% compared to 15.20% for the S&P 500 Index. The perfo
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
@@ -104,10 +101,10 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-08-31** · Sector Update: Consumer Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-175730996.html
 
 ## Market and macro context
-- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
-- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
-- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
-- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
+- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
+- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
+- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
+- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -124,9 +121,11 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
 - BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
 - CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
 - LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
 - LTH: no_model · price $43.09
 - STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
+- WEN: no_edge · price $8.03 · fair value $14.55 · gap +81.2%
 
 ---
 

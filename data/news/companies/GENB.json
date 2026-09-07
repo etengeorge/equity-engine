@@ -1,5 +1,17 @@
 [
  {
+  "id": "540046a1-e732-329f-9452-be7a41c9f44b",
+  "ts": "2026-09-07T14:07:00+00:00",
+  "title": "How Nvidia\u2019s Investment Juggernaut Can Jump from Big to Enormous",
+  "summary": "Nvidia has big investments in Intel, SpaceX and many more public companies. But its stakes in OpenAI and Anthropic are the real prize.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/nvidia-investment-portfolio-intel-spacex-fa97899f?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "GENB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a29c6230-08fc-317d-9260-c013f4452f91",
   "ts": "2026-08-28T11:59:00+00:00",
   "title": "Moderna raises $2.6B to support cancer work; FDA clears updated COVID vaccines",

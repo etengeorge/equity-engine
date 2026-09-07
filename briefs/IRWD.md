@@ -1,90 +1,91 @@
-# HOG — HARLEY DAVIDSON
-*Consumer Discretionary · brief generated 2026-09-07 · selected as **opportunistic***
+# IRWD — IRONWOOD PHARMA CLASS A
+*Health Care · brief generated 2026-09-07 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 1% of 130 Consumer Discretionary peers (99th pct)
-- baseline gap +299%
-- 21d move +10%
-- Consumer Discretionary is in the news
+- cheapest 1% of 91 Health Care peers (99th pct)
+- baseline gap +298%
+- Health Care is in the news
 - never researched
-- urgency score 7.06
+- urgency score 6.74
 
 ## Market
 | | |
 |---|---|
-| price | $28.30 |
-| market cap | $2.9B |
-| 5d / 21d / 63d / 252d | +0.7% / +10.1% / +16.5% / -3.2% |
-| 60d avg daily $ volume | $65.0M |
-| beta (vs IWM) | 0.86 (R²=0.253) |
+| price | $4.26 |
+| market cap | $703.9M |
+| 5d / 21d / 63d / 252d | +3.1% / +0.0% / +28.7% / +287.3% |
+| 60d avg daily $ volume | $9.2M |
+| beta (vs IWM) | 0.2 (R²=0.032) · **yahoo_rescaled** |
 | 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 64% / debt 36% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$633.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$415.2M', '$867.3M', '$547.5M']
-Enterprise value **$2.7B** · FCFF yield **+23.6%**
+Normalized FCFF base **$154.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$127.0M', '$103.4M', '$183.2M']
+Enterprise value **$1.0B** · FCFF yield **+15.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.6% − 1pt | -30.5% |
-| **7.6% (point)** | **-27.7%** |
-| 7.6% + 1pt | -25.3% |
+| 5.6% − 1pt | -31.3% |
+| **5.6% (point)** | **-26.6%** |
+| 5.6% + 1pt | -22.9% |
 
 
-Naive baseline for comparison: **+2.0%** (5y revenue CAGR +2.0%).
-Gap under that baseline: **+298.9%** (fair value $112.90 vs price $28.30).
+> **Stock compensation is 19% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$127.7M** and an implied growth of **-23.3%** instead of -26.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **-5.3%** (5y revenue CAGR -5.3%).
+Gap under that baseline: **+297.5%** (fair value $16.93 vs price $4.26).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 130 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +299.3%).
+Cohort: **99th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +314.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000061/hog-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000055/hog-20260723.htm
-- 2026-06-26 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000050/hog-20260626.htm
-- 2026-05-28 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000038/hog-20260521.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000032/hog-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000029/hog-20260505.htm
-- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000022/hog-20260409.htm
-- 2026-03-06 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000014/hog-20260306.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/793952/000079395226000011/hog-20251231.htm
-- 2026-02-10 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/793952/000079395226000004/hog-20260209.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091987/irwd-20260630x10q.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_8k.htm
+- 2026-06-18 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926075730/tm2618313d1_8k.htm
+- 2026-06-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926074023/tm2617503d1_8k.htm
+- 2026-05-13 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926059814/tm2614428d1_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926057110/irwd-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926056656/tm267094d1_8k.htm
+- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926050325/tm261380-1_def14a.htm
+- 2026-03-11 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926026123/tm268434d1_8k.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926020489/irwd-20251231x10k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/793952/000079395226000055/a8kq22026exhibit991.htm
+- **2026-08-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_ex99-1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Consumer Discretionary
-*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-04** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html
+- **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
+- **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
+- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
+- **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
+- **2026-09-03** · Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-01** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194112336.html
-- **2026-09-01** · Sector Update: Consumer Stocks Mixed in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-180052939.html
-- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-08-31** · Sector Update: Consumer Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195906027.html
-- **2026-08-31** · Sector Update: Consumer Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-175730996.html
+- **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
+- **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
+- **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
-- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
-- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
-- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
+- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
+- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
+- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
+- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -97,13 +98,19 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Discretionary
-- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
-- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
-- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
-- LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
-- LTH: no_model · price $43.09
-- STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
+## Prior verdicts elsewhere in Health Care
+- ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
+- CRNX: no_edge · price $84.84
+- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- KYMR: no_model · price $119.05
+- PCVX: no_model · price $60.74
+- PRAX: no_model · price $344.75
+- PTGX: no_model · price $144.33
+- SRRK: no_model · price $55.94
+- TDOC: no_model · price $6.34
+- TGTX: no_model · price $54.30
+- TXG: no_model · price $59.98
 
 ---
 

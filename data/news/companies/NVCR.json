@@ -1,5 +1,17 @@
 [
  {
+  "id": "2710e6a0-6d21-372a-978d-7c03df1b5aee",
+  "ts": "2026-09-07T15:12:00+00:00",
+  "title": "Novocure Reports Patient Data Exposure in Cybersecurity Incident",
+  "summary": "NVCR says a cyber incident exposed limited patient and contact data, but devices stayed secure and operations remained fully functional.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/novocure-reports-patient-data-exposure-151200366.html",
+  "tickers": [
+   "NVCR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f56af88a-8fda-3796-b508-4b2dc8237453",
   "ts": "2026-09-02T11:00:00+00:00",
   "title": "Novocure Announces Upcoming Investor Events",

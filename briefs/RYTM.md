@@ -1,20 +1,20 @@
-# APGE — APOGEE THERAPEUTICS
+# RYTM — RHYTHM PHARMACEUTICALS
 *Health Care · brief generated 2026-09-07 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 73/1956
+- rotation position 79/1956
 
 ## Market
 | | |
 |---|---|
-| price | $133.96 |
-| market cap | $10.1B |
-| 5d / 21d / 63d / 252d | +0.2% / +57.2% / +47.9% / +249.1% |
-| 60d avg daily $ volume | $318.4M |
-| beta (vs IWM) | 0.9 (R²=0.067) |
-| 5d volume vs 60d average | 0.5x |
+| price | $102.74 |
+| market cap | $7.1B |
+| 5d / 21d / 63d / 252d | -4.1% / -8.3% / +18.9% / -1.8% |
+| 60d avg daily $ volume | $81.4M |
+| beta (vs IWM) | 1.47 (R²=0.246) |
+| 5d volume vs 60d average | 0.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 99% / debt 1% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,68 +24,63 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.7% − 1pt | n/a |
-| **9.7% (point)** | **n/a** |
-| 9.7% + 1pt | n/a |
+| 12.9% − 1pt | n/a |
+| **12.9% (point)** | **n/a** |
+| 12.9% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $133.96).
+Gap under that baseline: **n/a** (fair value n/a vs price $102.74).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_sales (n=325) | 36.1x | 2.0x / 5.2x / 20.4x | $8.87 / $17.56 / $59.48 |
+| ev_gross_profit (n=210) | 40.2x | 3.5x / 6.8x / 19.3x | $11.86 / $20.05 / $50.93 |
+| p_tbv (n=330) | 72.1x | 2.4x / 4.5x / 7.9x | $3.46 / $6.46 / $11.31 |
+
+Blended midpoint **$14.69** vs price $102.74 — gap **-85.7%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
 Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `stale_price_49.0d`
+- `speculative_cost_of_debt_but_only_1%_debt_weight`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
-- `no_usable_multiple_for_this_name`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-09-03 **8-K** — items 1.02,2.01,3.01,3.03,5.01,5.02,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000114036126035537/ef20081397_8k.htm
-- 2026-08-11 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/1974640/000114036126032231/ef20079870_form8k.htm
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1974640/000119312526341289/apge-20260630.htm
-- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000119312526341239/apge-20260810.htm
-- 2026-06-22 **8-K** — items 1.01,5.07,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000114036126025844/ef20076505_8k.htm
-- 2026-06-22 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000114036126025841/ef20076542_8k.htm
-- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1974640/000119312526269650/apge-20260609.htm
-- 2026-05-27 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000110465926066575/tm2615568d2_8k.htm
-- 2026-05-27 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974640/000110465926066572/tm2615568d1_8k.htm
-- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1974640/000119312526215698/apge-20260331.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052533/rytm-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytm-20260804.htm
+- 2026-06-25 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026045569/rytm-20260624.htm
+- 2026-06-15 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/rytm-20260613.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026030549/rytm-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026030136/rytm-20260505.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026028375/rytm-20260429.htm
+- 2026-04-03 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026023606/rytm-20260401.htm
+- 2026-03-26 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026021414/rytm-20260326.htm
+- 2026-03-20 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026019995/rytm-20260319.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1974640/000119312526341239/apge-ex99_1.htm
-- **2026-06-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, 5.07, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1974640/000114036126025844/ef20076505_ex99-1.htm
-- **2026-06-22** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, 5.07, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1974640/000114036126025844/ef20076505_ex99-2.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/q22026earningspr_draft.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq22026rm-718.htm
+- **2026-08-04** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq2-26earningsslides_.htm
+- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex991rytmprpwsatendo2026.htm
+- **2026-06-15** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex992pwsatendo2026.htm
+- **2026-06-15** · EX-99.3 · press release — EX-99.3 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex993rytmendorecappr2.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
-  > Healthcare stocks were slightly higher late Thursday afternoon, with the NYSE Healthcare Index incre
-- **2026-09-03** · AbbVie Completes Acquisition of Apogee Therapeutics — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/abbvie-completes-acquisition-apogee-therapeutics-123400899.html
-  > AbbVie (NYSE: ABBV) today announced that it has completed its acquisition of Apogee Therapeutics, Inc. (NASDAQ: APGE). With completion of the acquisition, Apogee is now part of AbbVie. Under the terms of the agreement, Apogee shareholders r
-- **2026-09-02** · Kymera's KT-621 Has 'Oral Dupixent' Potential, but Valuation Limits Upside, RBC Says — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/kymera-apos-kt-621-apos-145913267.html
-  > Kymera Therapeutics' (KYMR) KT-621 could validate its "oral Dupixent" potential, but with a roughly
-- **2026-08-30** · Is AbbVie (ABBV) Undervalued As It Expands Skyrizi In Crohns Disease? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-undervalued-expands-skyrizi-010750765.html
-  > What AbbVie’s Skyrizi EMA filing means for ABBV stock AbbVie (ABBV) has moved to expand Skyrizi’s role in Crohn's disease treatment by submitting an application to the European Medicines Agency for a subcutaneous induction regimen in adults
-- **2026-08-29** · AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026? — *Motley Fool* — https://www.fool.com/coverage/better-buy/2026/08/29/abbvie-vs-eli-lilly-and-which-healthcare-stock-is-a-better-buy-in-2026/
-  > Eli Lilly's metabolic therapies drove 45% revenue growth, but its valuation premium demands scrutiny against AbbVie's defensive dividend appeal.
-- **2026-08-14** · AbbVie Defends Its Turf, But Leaves One Big Question Open — *Trefis* — https://www.trefis.com/articles/611504/abbvie-defends-its-turf-but-leaves-one-big-question-open/2026-08-14
-  > AbbVie's growth engine is firing on all cylinders, but on its latest earnings call, analysts focused on whether the company can defend its turf and execute on its next big pipeline bet.
-- **2026-08-12** · Johnson & Johnson vs AbbVie: Safe Dividend vs Higher Yield — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/12/johnson-johnson-vs-abbvie-safe-dividend-vs-higher-yield/
-  > Two healthcare giants, two very different dividend bets: one built on six decades of unbroken raises and a fortress balance sheet, the other dangling a fatter yield while racing to outrun its own blockbuster's collapse. Knowing which risk y
-- **2026-08-11** · AbbVie vs. CVS Health: Which Healthcare Stock Is a Better Buy in 2026? — *Motley Fool* — https://www.fool.com/coverage/better-buy/2026/08/11/abbvie-vs-cvs-health-which-healthcare-stock-is-a-better-buy-in-2026/
-  > AbbVie commands a premium valuation for its specialty drug pipeline, while CVS Health trades at a discount despite managing 37 million medical members.
-- **2026-08-11** · AbbVie Piles on $8 Billion in Debt for Its Apogee Deal -- Should Dividend Investors Worry? — *Motley Fool* — https://www.fool.com/investing/2026/08/11/abbvie-piles-on-8-billion-in-debt-for-its-apogee-d/
-  > The pharmaceutical company hopes that another big-time acquisition will pay off.
-- **2026-08-07** · AbbVie (ABBV) Is Down 5.3% After Raising 2026 Revenue Outlook and Issuing New Debt - What's Changed — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-down-5-3-201443622.html
-  > In late July and early August 2026, AbbVie reported stronger second‑quarter results, raised full‑year revenue guidance to about US$67.6 billion, advanced RINVOQ and BOTOX regulatory milestones, and completed a multi‑billion‑dollar mix of ne
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
@@ -102,10 +97,10 @@ Attack these before you trust any number above.
 - **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-07** · The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/
-- **2026-09-07** · The Stock Market Just Did Something For the 3rd Time in Over 100 Years. If History Is Any Guide, Prepare For This to Come Next. — *Motley Fool* — https://www.fool.com/investing/2026/09/07/the-stock-market-just-did-something-for-the-3rd-ti/
-- **2026-09-07** · Where Will Tesla Be in 5 Years? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/where-will-tesla-be-in-5-years/
-- **2026-09-07** · A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Stock Down 41% to Buy Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/07/a-once-in-a-decade-opportunity-1-magnificent-sp-50/
+- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
+- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
+- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
+- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -120,6 +115,7 @@ Attack these before you trust any number above.
 
 ## Prior verdicts elsewhere in Health Care
 - ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
 - CRNX: no_edge · price $84.84
 - HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
 - KYMR: no_model · price $119.05
