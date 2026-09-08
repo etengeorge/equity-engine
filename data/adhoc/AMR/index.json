@@ -1,0 +1,172 @@
+{
+  "fetched_utc": "2026-09-08T11:31:18+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AMR",
+    "cik": 1704715,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amr-20260807.htm",
+        "file": "2026-08-07-8-K-amr-20260807.htm.txt",
+        "chars": 4084,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000031/amr-20260630.htm",
+        "file": "2026-08-07-10-Q-amr-20260630.htm.txt",
+        "chars": 151064,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/amr-20260807.htm",
+        "file": "2026-08-07-8-K-amr-20260807.htm.txt",
+        "chars": 3332,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-27",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/amr-20260727.htm",
+        "file": "2026-07-27-8-K-amr-20260727.htm.txt",
+        "chars": 4136,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/amr-20260618.htm",
+        "file": "2026-06-18-8-K-amr-20260618.htm.txt",
+        "chars": 3931,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-15",
+        "items": "1.04",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000021/amr-20260514.htm",
+        "file": "2026-05-15-8-K-amr-20260514.htm.txt",
+        "chars": 3488,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-08",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000019/amr-20260508.htm",
+        "file": "2026-05-08-8-K-amr-20260508.htm.txt",
+        "chars": 4069,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000018/amr-20260331.htm",
+        "file": "2026-05-08-10-Q-amr-20260331.htm.txt",
+        "chars": 130132,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-07",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "INVESTOR PRESENTATION DATED AUGUST 7, 2026",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amrinvestorpresentation8.htm",
+        "file": "2026-08-07-EX-99.1.txt",
+        "chars": 27982,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE DATED AUGUST 7, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/pressrelease6302026.htm",
+        "file": "2026-08-07-EX-99.1.txt",
+        "chars": 27157,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-27",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE DATED JULY 27, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/a072726preliminarypressrel.htm",
+        "file": "2026-07-27-EX-99.1.txt",
+        "chars": 15381,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-18",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE DATED JUNE 18, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/a6182026exhibit991.htm",
+        "file": "2026-06-18-EX-99.1.txt",
+        "chars": 2872,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-08",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "INVESTOR PRESENTATION DATED MAY 8, 2026",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000019/amrinvestorpresentation5.htm",
+        "file": "2026-05-08-EX-99.1.txt",
+        "chars": 28319,
+        "truncated": false
+      }
+    ]
+  }
+}

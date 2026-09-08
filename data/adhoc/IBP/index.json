@@ -1,0 +1,140 @@
+{
+  "fetched_utc": "2026-09-08T11:31:06+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "IBP",
+    "cik": 1580905,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000158090526000045/ibp-20260630.htm",
+        "file": "2026-08-06-10-Q-ibp-20260630.htm.txt",
+        "chars": 169391,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-20260806.htm",
+        "file": "2026-08-06-8-K-ibp-20260806.htm.txt",
+        "chars": 5170,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-20",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026036921/ibp-20260519.htm",
+        "file": "2026-05-20-8-K-ibp-20260519.htm.txt",
+        "chars": 4082,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-19",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-20260519.htm",
+        "file": "2026-05-19-8-K-ibp-20260519.htm.txt",
+        "chars": 3818,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000158090526000028/ibp-20260331.htm",
+        "file": "2026-05-07-10-Q-ibp-20260331.htm.txt",
+        "chars": 148520,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026031702/ibp-20260507.htm",
+        "file": "2026-05-07-8-K-ibp-20260507.htm.txt",
+        "chars": 5010,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000158090526000004/ibp-20251231.htm",
+        "file": "2026-02-26-10-K-ibp-20251231.htm.txt",
+        "chars": 400145,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-26",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026011994/ibp-20260226.htm",
+        "file": "2026-02-26-8-K-ibp-20260226.htm.txt",
+        "chars": 5167,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-q22026earningsrelease.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 35952,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-19",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-diamondenergysystemspr.htm",
+        "file": "2026-05-19-EX-99.1.txt",
+        "chars": 5488,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026031702/ibp-q12026earningsrelease.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 34350,
+        "truncated": false
+      }
+    ]
+  }
+}

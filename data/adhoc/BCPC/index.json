@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-08T11:31:09+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "BCPC",
+    "cik": 9326,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000028/bcpc-20260630.htm",
+        "file": "2026-07-31-10-Q-bcpc-20260630.htm.txt",
+        "chars": 116066,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-31",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/bcpc-20260731.htm",
+        "file": "2026-07-31-8-K-bcpc-20260731.htm.txt",
+        "chars": 3419,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-27",
+        "items": "1.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm",
+        "file": "2026-07-27-8-K-ef20078813_8k.htm.txt",
+        "chars": 7575,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-22",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000114036126025971/ef20076533_8k.htm",
+        "file": "2026-06-22-8-K-ef20076533_8k.htm.txt",
+        "chars": 3383,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000018/bcpc-20260331.htm",
+        "file": "2026-04-30-10-Q-bcpc-20260331.htm.txt",
+        "chars": 98911,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000016/bcpc-20260430.htm",
+        "file": "2026-04-30-8-K-bcpc-20260430.htm.txt",
+        "chars": 3425,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-20",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000007/bcpc-20251231.htm",
+        "file": "2026-02-20-10-K-bcpc-20251231.htm.txt",
+        "chars": 283532,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-20",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000004/bcpc-20260220.htm",
+        "file": "2026-02-20-8-K-bcpc-20260220.htm.txt",
+        "chars": 3469,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-31",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/exhibit991-q22026.htm",
+        "file": "2026-07-31-EX-99.1.txt",
+        "chars": 26182,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000016/exhibit991-q12026.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 24637,
+        "truncated": false
+      }
+    ]
+  }
+}
