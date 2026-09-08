@@ -1,20 +1,20 @@
-# RYTM — RHYTHM PHARMACEUTICALS
-*Health Care · brief generated 2026-09-07 · selected as **rotation***
+# TVTX — TRAVERE THERAPEUTICS
+*Health Care · brief generated 2026-09-08 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 79/1956
+- rotation position 83/1956
 
 ## Market
 | | |
 |---|---|
-| price | $102.74 |
-| market cap | $7.1B |
-| 5d / 21d / 63d / 252d | -4.1% / -8.3% / +18.9% / -1.8% |
-| 60d avg daily $ volume | $81.4M |
-| beta (vs IWM) | 1.47 (R²=0.246) |
-| 5d volume vs 60d average | 0.6x |
+| price | $65.28 |
+| market cap | $6.2B |
+| 5d / 21d / 63d / 252d | -0.6% / +4.5% / +42.5% / +208.7% |
+| 60d avg daily $ volume | $100.4M |
+| beta (vs IWM) | 1.49 (R²=0.189) |
+| 5d volume vs 60d average | 0.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 99% / debt 1% |
+| WACC weights | equity 95% / debt 5% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.9% − 1pt | n/a |
-| **12.9% (point)** | **n/a** |
-| 12.9% + 1pt | n/a |
+| 13.0% − 1pt | n/a |
+| **13.0% (point)** | **n/a** |
+| 13.0% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $102.74).
+Gap under that baseline: **n/a** (fair value n/a vs price $65.28).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,11 +39,10 @@ Gap under that baseline: **n/a** (fair value n/a vs price $102.74).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=325) | 36.1x | 2.0x / 5.2x / 20.4x | $8.87 / $17.56 / $59.48 |
-| ev_gross_profit (n=210) | 40.2x | 3.5x / 6.8x / 19.3x | $11.86 / $20.05 / $50.93 |
-| p_tbv (n=330) | 72.1x | 2.4x / 4.5x / 7.9x | $3.46 / $6.46 / $11.31 |
+| ev_sales (n=325) | 12.6x | 2.0x / 5.2x / 20.4x | $10.40 / $26.82 / $105.99 |
+| ev_gross_profit (n=210) | 12.8x | 3.5x / 6.8x / 19.3x | $17.52 / $34.40 / $98.04 |
 
-Blended midpoint **$14.69** vs price $102.74 — gap **-85.7%**.
+Blended midpoint **$30.61** vs price $65.28 — gap **-53.1%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -52,32 +51,31 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_1%_debt_weight`
+- `speculative_cost_of_debt_but_only_5%_debt_weight`
 - `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_2.0x_of_mean`
 - `nonpositive_normalized_fcff`
 - `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052533/rytm-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytm-20260804.htm
-- 2026-06-25 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026045569/rytm-20260624.htm
-- 2026-06-15 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/rytm-20260613.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026030549/rytm-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026030136/rytm-20260505.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1649904/000162828026028375/rytm-20260429.htm
-- 2026-04-03 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026023606/rytm-20260401.htm
-- 2026-03-26 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026021414/rytm-20260326.htm
-- 2026-03-20 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1649904/000162828026019995/rytm-20260319.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000063/tvtx-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000062/tvtx-20260804.htm
+- 2026-07-09 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000054/tvtx-20260706.htm
+- 2026-06-16 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000048/tvtx-20260612.htm
+- 2026-06-02 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1438533/000119312526252474/d107618d8k.htm
+- 2026-05-21 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000046/tvtx-20260519.htm
+- 2026-05-11 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1438533/000119312526217100/d38424d8k.htm
+- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000042/tvtx-20260331.htm
+- 2026-05-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000041/tvtx-20260504.htm
+- 2026-04-14 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000032/tvtx-20260413.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/q22026earningspr_draft.htm
-- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq22026rm-718.htm
-- **2026-08-04** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq2-26earningsslides_.htm
-- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex991rytmprpwsatendo2026.htm
-- **2026-06-15** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex992pwsatendo2026.htm
-- **2026-06-15** · EX-99.3 · press release — EX-99.3 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1649904/000162828026043170/ex993rytmendorecappr2.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000062/a2026q2_8-kxex991.htm
+- **2026-05-21** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.07, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438533/000143853326000046/ex991_8-kx20260519eip.htm
+- **2026-05-11** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438533/000119312526217100/d38424dex991.htm
+- **2026-05-11** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438533/000119312526217100/d38424dex992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -97,10 +95,10 @@ Attack these before you trust any number above.
 - **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device

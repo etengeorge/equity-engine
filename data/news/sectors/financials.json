@@ -1,5 +1,47 @@
 [
  {
+  "id": "414843be-d6b2-3775-acbe-f6f6da3db686",
+  "ts": "2026-09-07T18:34:58+00:00",
+  "title": "Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector?",
+  "summary": "While Arthur J. Gallagher has underperformed relative to the financial service sector over the past year, Wall Street analysts maintain a bullish outlook on its prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "660f1a0d-0082-3ee0-9215-975eaaebe841",
+  "ts": "2026-09-07T16:29:34+00:00",
+  "title": "PNC Financial Services Stock: Is PNC Underperforming the Financials Sector?",
+  "summary": "The PNC Financial Services Group has trailed behind the financials sector\u2019s returns over the past three months, and analysts are moderately upbeat about the stock.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "bf2679fa-576e-3b71-abad-3f18be9c7e9e",
+  "ts": "2026-09-06T16:10:00+00:00",
+  "title": "3 ETFs That Could Move as Rate Expectations Shift",
+  "summary": "Strong August jobs data raised rate-hike odds ahead of the Fed's September meeting. IWM, XLF, and TLT offer different ways for investors to position for the decision's outcome.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/3-etfs-that-could-move-as-rate-expectations-shift/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "de0ac66b-7836-326e-aa64-7376144ed621",
   "ts": "2026-09-04T19:56:42+00:00",
   "title": "Sector Update: Financial Stocks Retreat Late Afternoon",

@@ -1,5 +1,19 @@
 [
  {
+  "id": "614ee7e1-0694-3077-939f-bf1c3a4e4970",
+  "ts": "2026-09-07T13:02:34+00:00",
+  "title": "How Is O'Reilly Automotive's Stock Performance Compared to Other Consumer Cyclical Stocks?",
+  "summary": "While O'Reilly Automotive has underperformed relative to its peers over the past year, Wall Street analysts maintain a strongly optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4474443/how-is-o-reilly-automotive-s-stock-performance-compared-to-other-consumer-cyclical-stocks",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "abdf0468-1dff-37cd-b01f-39c68d33aeed",
   "ts": "2026-09-04T19:36:33+00:00",
   "title": "Sector Update: Consumer Stocks Fall Late Afternoon",

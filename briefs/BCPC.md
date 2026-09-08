@@ -1,97 +1,67 @@
-# AMR — ALPHA METALLURGICAL RESOURCE
-*Materials · brief generated 2026-09-08 · selected as **opportunistic***
+# BCPC — BALCHEM
+*Materials · brief generated 2026-09-08 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 41 Materials peers (98th pct)
-- baseline gap +84%
-- 21d move +48%
-- never researched
-- urgency score 6.5
+- rotation position 85/1956
 
 ## Market
 | | |
 |---|---|
-| price | $225.41 |
-| market cap | $2.9B |
-| 5d / 21d / 63d / 252d | -0.4% / +48.2% / +11.4% / +65.9% |
-| 60d avg daily $ volume | $52.8M |
-| beta (vs IWM) | 1.16 (R²=0.147) |
-| 5d volume vs 60d average | 1.5x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| price | $171.61 |
+| market cap | $5.5B |
+| 5d / 21d / 63d / 252d | -3.8% / -4.9% / +7.3% / +7.0% |
+| 60d avg daily $ volume | $36.3M |
+| beta (vs IWM) | 0.45 (R²=0.161) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$340.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$17.8M', '$381.1M', '$605.8M']
-Enterprise value **$2.5B** · FCFF yield **+13.5%**
+Normalized FCFF base **$138.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$167.5M', '$145.9M', '$151.7M']
+Enterprise value **$5.6B** · FCFF yield **+2.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.2% − 1pt | -9.9% |
-| **11.2% (point)** | **-7.5%** |
-| 11.2% + 1pt | -5.2% |
+| 7.2% − 1pt | +13.6% |
+| **7.2% (point)** | **+19.1%** |
+| 7.2% + 1pt | +24.0% |
 
 
-Naive baseline for comparison: **+8.5%** (5y revenue CAGR +8.5%).
-Gap under that baseline: **+84.1%** (fair value $414.94 vs price $225.41).
+> **Stock compensation is 11% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$121.1M** and an implied growth of **+22.5%** instead of +19.1%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+8.1%** (5y revenue CAGR +8.1%).
+Gap under that baseline: **-37.0%** (fair value $108.10 vs price $171.61).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +141.1%).
+Cohort: **66th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +20.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `interest_expense_implies_228%_on_reported_debt_debt_likely_understated`
-- `speculative_cost_of_debt_but_only_0%_debt_weight`
-- `lumpy_fcff_spread_1.8x_of_mean`
-- `possible_trough_cycle_base_newest_fcf_0.03x_oldest_growth_applied_to_a_trough_understates_value`
+- none raised
 
 ## Recent filings
-- 2026-08-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amr-20260807.htm
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000031/amr-20260630.htm
-- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/amr-20260807.htm
-- 2026-07-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/amr-20260727.htm
-- 2026-06-18 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/amr-20260618.htm
-- 2026-05-15 **8-K** — items 1.04 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000021/amr-20260514.htm
-- 2026-05-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000019/amr-20260508.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000018/amr-20260331.htm
-- 2026-05-08 **8-K** — items 2.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000017/amr-20260506.htm
-- 2026-04-24 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000013/amr-20260424.htm
+- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/9326/000000932626000028/bcpc-20260630.htm
+- 2026-07-31 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/bcpc-20260731.htm
+- 2026-07-27 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm
+- 2026-06-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/9326/000114036126025971/ef20076533_8k.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/9326/000000932626000018/bcpc-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/9326/000000932626000016/bcpc-20260430.htm
+- 2026-04-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/9326/000114036126017099/ny20063370x1_def14a.htm
+- 2026-02-20 **10-K** — https://www.sec.gov/Archives/edgar/data/9326/000000932626000007/bcpc-20251231.htm
+- 2026-02-20 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/9326/000000932626000004/bcpc-20260220.htm
+- 2026-02-19 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/9326/000114036126006184/ef20065786_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · presentation — INVESTOR PRESENTATION DATED AUGUST 7, 2026 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amrinvestorpresentation8.htm
-- **2026-08-07** · EX-99.1 · press release — PRESS RELEASE DATED AUGUST 7, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/pressrelease6302026.htm
-- **2026-07-27** · EX-99.1 · press release — PRESS RELEASE DATED JULY 27, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/a072726preliminarypressrel.htm
-- **2026-06-18** · EX-99.1 · press release — PRESS RELEASE DATED JUNE 18, 2026 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/a6182026exhibit991.htm
+- **2026-07-31** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/exhibit991-q22026.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-25** · Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another  $1.1 Million Shares — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/25/alpha-metallurgical-director-courtis-keeps-buying-as-he-adds-another-usd1-1-million-shares/
-  > Courtis now holds over 1 million shares directly as stock surges 49% over past year. Mining company maintains $2.7 billion market cap amid $46.1 million net loss.
-- **2026-08-25** · Alpha Metallurgical Resources Director Courtis Buys Again, This Time $3.2 Million in Shares.  Is it Time for Investors to Buy Too? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/25/alpha-metallurgical-resources-director-courtis-buys-again-this-time-usd3-2-million-in-shares-is-it-time-for-investors-to-buy-too/
-  > Courtis expanded his direct holdings to 1.0 million shares following a 52% one-year stock return, signaling confidence in the coal producer's trajectory.
-- **2026-08-22** · Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/22/alpha-metallurgical-resources-director-courtis-buys-usd2-9-million-shares-what-does-this-mean-for-investors/
-  > Courtis executed the open-market purchase across multiple price tiers, bringing his direct holding to over 1 million shares amid a 39% one-year stock surge.
-- **2026-08-18** · Alpha Metallurgical (AMR) Weathers A Rough Quarter On Multiple Fronts — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-weathers-rough-115508588.html
-  > On August 7, Alpha Metallurgical Resources (NYSE:AMR) held its second-quarter earnings call, and the numbers told a rougher story than investors likely wanted to hear. Adjusted EBITDA fell to $25.6 million from $30 million in the first quar
-- **2026-08-14** · Alpha Metallurgical Resources (AMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/14/alpha-metallurgical-resources-amr-q2-2026-earnings-call-transcript/
-  > Logistical constraints and weak steel demand pressured second-quarter results.
-- **2026-08-08** · Alpha Metallurgical Resources (AMR) Is Up 10.8% After Lowering 2026 Shipment Guidance Amid Terminal Disruptions — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-amr-10-091323743.html
-  > Alpha Metallurgical Resources recently reported Q2 2026 results showing revenue of US$492.86 million versus US$550.27 million a year earlier and a net loss of US$12.25 million, alongside reduced full-year shipment guidance after storm damag
-- **2026-08-08** · Alpha Metallurgical Resources (AMR) Cuts Guidance, Is The 13% Undervalued View Still Credible? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-amr-cuts-071259842.html
-  > Q2 2026 earnings and guidance reset Alpha Metallurgical Resources (AMR) released Q2 2026 results that showed lower revenue and a wider quarterly net loss, alongside updated shipment and cost guidance that reflects weaker volumes and ongoing
-- **2026-08-07** · Alpha Metallurgical Resources Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/alpha-metallurgical-resources-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Alpha Metallurgical Resources (NYSE:AMR) reported second-quarter adjusted EBITDA of $25.6 million as metallurgical coal shipment volumes and realizations declined from the prior quarter, while the company lowered its full-year shipment outl
-- **2026-08-07** · Alpha Metallurgical Resources Inc (AMR) (Q2 2026) Earnings Call Highlights: Navigating Cost ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-inc-amr-210428476.html
-  > Despite lower EBITDA and reduced shipment guidance, AMR focuses on strategic mix shifts and cost management amid market weakness.
-- **2026-08-07** · Alpha Metallurgical Resources Misses Q2 Expectations as Lower Shipments Weigh on Results — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/33749/alpha-metallurgical-resources-misses-q2-expectations-as-lower-shipments-weigh-on-results
-  > Alpha Metallurgical Resources, Inc. (NYSE:AMR) reported weaker-than-expected second-quarter results on Friday after lower coal shipments and higher operating costs pushed the company to a quarterly loss and revenue below Wall Street forecas
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Materials
 *From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*

@@ -1,5 +1,19 @@
 [
  {
+  "id": "cc50f22d-ae9e-3ea1-acbe-a7655fca135c",
+  "ts": "2026-09-07T21:25:21+00:00",
+  "title": "How a 64-Year-Old\u2019s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+  "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "8b0831c1-1206-3875-80b0-a1bbc4a3be83",
   "ts": "2026-09-07T13:37:45+00:00",
   "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",

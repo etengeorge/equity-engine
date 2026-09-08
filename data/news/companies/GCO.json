@@ -1,5 +1,17 @@
 [
  {
+  "id": "12cbe3b3-95c3-3243-9fb6-37ed9ca69ff1",
+  "ts": "2026-09-08T01:37:00+00:00",
+  "title": "102-year-old mall retailer quietly closes 25 stores",
+  "summary": "The mall staple already closed hundreds of stores, but its turnaround strategy signals a surprising twist.",
+  "publisher": "TheStreet",
+  "url": "https://www.thestreet.com/retail/102-year-old-mall-retailer-journeys-parent-company-quietly-closes-25-stores",
+  "tickers": [
+   "GCO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e893b0cc-b0e6-3608-b127-0b5fe1c14a62",
   "ts": "2026-09-07T11:30:10+00:00",
   "title": "Genesco raises FY27 profit target despite revenue slump",

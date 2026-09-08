@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T16:01:39+00:00",
+  "generated_utc": "2026-09-08T11:25:19+00:00",
   "sectors": {
     "Health Care": {
       "new": 0,
@@ -7,8 +7,8 @@
       "etf": "XLV"
     },
     "Financials": {
-      "new": 0,
-      "held": 33,
+      "new": 3,
+      "held": 36,
       "etf": "XLF"
     },
     "Industrials": {
@@ -18,12 +18,12 @@
     },
     "Information Technology": {
       "new": 1,
-      "held": 32,
+      "held": 33,
       "etf": "XLK"
     },
     "Consumer Discretionary": {
-      "new": 0,
-      "held": 20,
+      "new": 1,
+      "held": 21,
       "etf": "XLY"
     },
     "Energy": {
@@ -42,7 +42,7 @@
       "etf": "XLB"
     },
     "Communication": {
-      "new": 1,
+      "new": 0,
       "held": 18,
       "etf": "XLC"
     },
@@ -52,15 +52,15 @@
       "etf": "XLP"
     },
     "Utilities": {
-      "new": 1,
+      "new": 0,
       "held": 17,
       "etf": "XLU"
     }
   },
   "macro": 86,
   "market": 36,
-  "companies": 448,
-  "articles_new": 202,
+  "companies": 449,
+  "articles_new": 261,
   "candidates": 450,
-  "elapsed_s": 198.8
+  "elapsed_s": 199.6
 }

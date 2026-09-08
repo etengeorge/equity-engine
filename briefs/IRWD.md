@@ -1,12 +1,13 @@
 # IRWD — IRONWOOD PHARMA CLASS A
-*Health Care · brief generated 2026-09-07 · selected as **opportunistic***
+*Health Care · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 1% of 91 Health Care peers (99th pct)
 - baseline gap +298%
+- 1 news items in the last 5 days
 - Health Care is in the news
 - never researched
-- urgency score 6.74
+- urgency score 7.11
 
 ## Market
 | | |
@@ -41,7 +42,7 @@ Gap under that baseline: **+297.5%** (fair value $16.93 vs price $4.26).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +314.7%).
+Cohort: **99th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +313.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -65,7 +66,28 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-08-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_ex99-1.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-03** · Ironwood Pharmaceuticals to Participate in the Wells Fargo 21st Annual Healthcare Conference — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-participate-wells-fargo-200500142.html
+  > BOSTON, September 03, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD) today announced that management will participate in a fireside chat at the Wells Fargo 21st Annual Healthcare Conference on Thursday, September 10th at 10:15 a.m. ET.
+- **2026-08-13** · Ironwood (IRWD) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/ironwood-irwd-q2-2026-earnings-call-transcript/
+  > LINZESS sales surged 14% as company raised full-year guidance.
+- **2026-08-07** · Ironwood Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-ironwood-pharmaceuticals-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Ironwood Pharmaceuticals, Inc.'s Q2 2026 earnings call
+- **2026-08-07** · Ironwood Pharmaceuticals (IRWD) Is Up 14.2% After Raising 2026 Revenue Guidance – Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/ironwood-pharmaceuticals-irwd-14-2-043111081.html
+  > Ironwood Pharmaceuticals reported past second-quarter 2026 results showing sales of US$113.04 million versus US$85.24 million a year earlier, with net income rising to US$51.29 million from US$23.6 million and earnings per share from contin
+- **2026-08-06** · Ironwood Pharmaceuticals Inc (IRWD) (Q2 2026) Earnings Call Highlights: Strong LINZESS Growth ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-inc-irwd-q2-231659050.html
+  > Ironwood Pharmaceuticals Inc (IRWD) raises full-year 2026 outlook on robust LINZESS performance and promising apraglutide data.
+- **2026-08-06** · Ironwood Pharmaceuticals Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/ironwood-pharmaceuticals-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Ironwood Pharmaceuticals (NASDAQ:IRWD) reported second-quarter results marked by higher LINZESS sales, the start of enrollment in its confirmatory Phase III study of apraglutide, and repayment of its convertible notes, prompting the company
+- **2026-08-06** · Ironwood Pharmaceuticals (IRWD) Q2 Earnings Top Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/ironwood-pharmaceuticals-irwd-q2-earnings-135009222.html
+  > Ironwood (IRWD) delivered earnings and revenue surprises of +19.23% and -5.66%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-06** · Ironwood Pharmaceuticals Raises 2026 Full-Year Financial Guidance Building on Strong Second Quarter Results — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-raises-2026-full-110500985.html
+  > BOSTON, August 06, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), a biotechnology company developing and commercializing life‑changing therapies for people living with gastrointestinal (GI) and rare diseases, today reported its second
+- **2026-07-30** · Ironwood Pharmaceuticals to Host Second Quarter 2026 Investor Update Call — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-host-second-quarter-200500843.html
+  > BOSTON, July 30, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), today announced it will host its second quarter 2026 investor update conference call and webcast at 8:30 a.m. Eastern Time on Thursday, August 6, 2026. Individuals intere
+- **2026-07-14** · Ironwood Appoints Dr. Jeffrey Silber Chief Medical Officer and Head of Research and Drug Development; STARS-2 Trial Initiated in June and Is Now Actively Recruiting Patients — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-appoints-dr-jeffrey-silber-113000192.html
+  > BOSTON, July 14, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), a biotechnology company developing and commercializing life‑changing therapies for people living with gastrointestinal (GI) and rare diseases, today announced the retirem
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
@@ -82,10 +104,10 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device

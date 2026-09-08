@@ -1,89 +1,86 @@
-# CWST — CASELLA WASTE SYSTEMS CLASS A
-*Industrials · brief generated 2026-09-07 · selected as **rotation***
+# IBP — INSTALLED BUILDING PRODUCTS
+*Consumer Discretionary · brief generated 2026-09-08 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 76/1956
+- rotation position 84/1956
 
 ## Market
 | | |
 |---|---|
-| price | $93.53 |
-| market cap | $5.9B |
-| 5d / 21d / 63d / 252d | -0.2% / +3.4% / +8.9% / -2.1% |
-| 60d avg daily $ volume | $58.1M |
-| beta (vs IWM) | 0.33 (R²=0.05) |
-| 5d volume vs 60d average | 0.7x |
+| price | $238.57 |
+| market cap | $6.3B |
+| 5d / 21d / 63d / 252d | -2.8% / -1.4% / +21.0% / -10.5% |
+| 60d avg daily $ volume | $87.5M |
+| beta (vs IWM) | 1.05 (R²=0.201) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 82% / debt 18% |
+| WACC weights | equity 86% / debt 14% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$116.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$84.7M', '$78.1M', '$78.2M']
-Enterprise value **$7.2B** · FCFF yield **+1.6%**
+Normalized FCFF base **$304.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$300.8M', '$251.4M', '$278.6M']
+Enterprise value **$7.0B** · FCFF yield **+4.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.4% − 1pt | +25.7% |
-| **7.4% (point)** | **+31.6%** |
-| 7.4% + 1pt | +36.9% |
+| 9.6% − 1pt | +11.5% |
+| **9.6% (point)** | **+15.2%** |
+| 9.6% + 1pt | +18.7% |
 
 
-> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$104.2M** and an implied growth of **+34.6%** instead of +31.6%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+18.9%** (5y revenue CAGR +18.9%).
-Gap under that baseline: **-46.6%** (fair value $49.93 vs price $93.53).
+Naive baseline for comparison: **+12.4%** (5y revenue CAGR +12.4%).
+Gap under that baseline: **-11.5%** (fair value $211.03 vs price $238.57).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **30th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -22.1%).
+Cohort: **42th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -10.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/911177/000091117726000049/cwst-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000041/cwst-20260806.htm
-- 2026-07-01 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000035/cwst-20260626.htm
-- 2026-06-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000033/cwst-20260604.htm
-- 2026-06-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000030/cwst-20260601.htm
-- 2026-05-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000028/cwst-20260527.htm
-- 2026-05-11 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000024/cwst-20260511.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/911177/000091117726000021/cwst-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000018/cwst-20260430.htm
-- 2026-04-22 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/911177/000091117726000015/cwst-20260420.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1580905/000158090526000045/ibp-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-20260806.htm
+- 2026-05-20 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026036921/ibp-20260519.htm
+- 2026-05-19 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-20260519.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1580905/000158090526000028/ibp-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026031702/ibp-20260507.htm
+- 2026-04-08 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1580905/000158090526000022/ibp-20260408.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1580905/000158090526000004/ibp-20251231.htm
+- 2026-02-26 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026011994/ibp-20260226.htm
+- 2026-02-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1580905/000162828026004634/ibp-20260202.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/911177/000091117726000041/cwst-ex991063026.htm
-- **2026-05-27** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/911177/000091117726000028/cwst-ex991052726.htm
-- **2026-05-11** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/911177/000091117726000024/cwst-ex991051126.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-q22026earningsrelease.htm
+- **2026-05-19** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-diamondenergysystemspr.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
+- **2026-09-07** · How Is O'Reilly Automotive's Stock Performance Compared to Other Consumer Cyclical Stocks? — *Barchart* — https://www.barchart.com/story/news/4474443/how-is-o-reilly-automotive-s-stock-performance-compared-to-other-consumer-cyclical-stocks
+- **2026-09-04** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
+- **2026-09-03** · Stock Market News for Sep 3, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html
 - **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
-- **2026-09-02** · Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector
-- **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
+- **2026-09-01** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194112336.html
+- **2026-09-01** · Sector Update: Consumer Stocks Mixed in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-180052939.html
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
-- **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
-- **2026-08-31** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html
-- **2026-08-28** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html
+- **2026-08-31** · Sector Update: Consumer Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195906027.html
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -96,18 +93,15 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
-- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
-- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
-- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
-- FLR: no_model · price $54.51
-- GATX: no_model · price $177.31
-- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
-- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
-- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
-- VSEC: no_model · price $203.91
-- WLFC: no_model · price $53.42
+## Prior verdicts elsewhere in Consumer Discretionary
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
+- LTH: no_model · price $43.09
+- STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
+- WEN: no_edge · price $8.03 · fair value $14.55 · gap +81.2%
 
 ---
 

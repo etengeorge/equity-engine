@@ -1,93 +1,100 @@
-# NE — NOBLE CORPORATION PLC
-*Energy · brief generated 2026-09-07 · selected as **rotation***
+# XENE — XENON PHARMACEUTICALS
+*Health Care · brief generated 2026-09-08 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 78/1956
+- rotation position 81/1956
 
 ## Market
 | | |
 |---|---|
-| price | $45.61 |
-| market cap | $7.3B |
-| 5d / 21d / 63d / 252d | +0.7% / +13.3% / +1.5% / +65.9% |
-| 60d avg daily $ volume | $63.5M |
-| beta (vs IWM) | 0.89 (R²=0.149) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 79% / debt 21% |
+| price | $59.75 |
+| market cap | $5.8B |
+| 5d / 21d / 63d / 252d | -0.4% / -7.4% / +15.5% / +54.6% |
+| 60d avg daily $ volume | $70.5M |
+| beta (vs IWM) | 0.78 (R²=0.121) |
+| 5d volume vs 60d average | 0.5x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$270.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$432.2M', '$80.2M', '$164.8M']
-Enterprise value **$8.7B** · FCFF yield **+3.1%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.6% − 1pt | +15.8% |
-| **8.6% (point)** | **+20.2%** |
-| 8.6% + 1pt | +24.2% |
+| 9.1% − 1pt | n/a |
+| **9.1% (point)** | **n/a** |
+| 9.1% + 1pt | n/a |
 
 
-> **Stock compensation is 17% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$232.7M** and an implied growth of **+24.1%** instead of +20.2%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+25.0%** (3y revenue CAGR +32.5% (clamped to +25.0%)).
-Gap under that baseline: **+23.8%** (fair value $56.48 vs price $45.61).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $59.75).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **54th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +14.1%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_sales (n=325) | 650.9x | 2.0x / 5.2x / 20.4x | $9.49 / $9.74 / $10.92 |
+| p_tbv (n=330) | 4.7x | 2.4x / 4.5x / 7.9x | $31.18 / $58.21 / $101.84 |
+
+Blended midpoint **$33.97** vs price $59.75 — gap **-43.1%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `lumpy_fcff_spread_1.6x_of_mean`
-- `possible_peak_cycle_base_newest_fcf_2.6x_oldest_growth_applied_to_a_peak_overstates_value`
+- `speculative_cost_of_debt_but_only_0%_debt_weight`
+- `negative_fcf_year_in_window`
+- `nonpositive_normalized_fcff`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000141/ne-20260630.htm
-- 2026-07-27 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000138/ne-20260727.htm
-- 2026-06-12 **8-K** — items 2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000134/ne-20260611.htm
-- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000131/ne-20260601.htm
-- 2026-06-01 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000129/ne-20260601.htm
-- 2026-05-22 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000127/ne-20260521.htm
-- 2026-04-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000114/ne-20260429.htm
-- 2026-04-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000111/ne-20260331.htm
-- 2026-04-27 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000108/ne-20260427.htm
-- 2026-03-16 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1895262/000114036126009587/ne-20260316.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1582313/000119312526338244/xene-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526338019/xene-20260806.htm
+- 2026-06-03 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526255396/xene-20260602.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1582313/000119312526212153/xene-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526211843/xene-20260507.htm
+- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1582313/000119312526170320/xene-20260422.htm
+- 2026-04-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526152834/xene-20260407.htm
+- 2026-03-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526106144/xene-20260313.htm
+- 2026-03-12 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526104199/d97906d8k.htm
+- 2026-03-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1582313/000119312526097577/d107087d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000138/exhibit991-q22026pressrele.htm
-- **2026-07-27** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000138/noblecorporationplcslide.htm
-- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000131/pricingpr2-final.htm
-- **2026-06-01** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000129/initiallaunchpr-final.htm
-- **2026-05-22** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1895262/000189526226000127/nobleappointsjeffmillerasd.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1582313/000119312526338019/xene-ex99_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Energy
-*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-04** · Sector Update: Energy Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195737210.html
-- **2026-09-04** · Sector Update: Energy Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175510988.html
-- **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
+- **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
+- **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-04** · Sector Update: Energy Stocks Fall Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html
-- **2026-09-04** · Goldman’s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside — *Insider Monkey* — https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html
-- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
+- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
+- **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
+- **2026-09-03** · Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
+- **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
+- **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
+- **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -100,13 +107,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Energy
-- MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
-- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
-- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
-- SND: no_edge · price $5.35
-- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
-- UEC: no_model · price $11.54
+## Prior verdicts elsewhere in Health Care
+- ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
+- CRNX: no_edge · price $84.84
+- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- KYMR: no_model · price $119.05
+- PCVX: no_model · price $60.74
+- PRAX: no_model · price $344.75
+- PTGX: no_model · price $144.33
+- SRRK: no_model · price $55.94
+- TDOC: no_model · price $6.34
+- TGTX: no_model · price $54.30
+- TXG: no_model · price $59.98
 
 ---
 

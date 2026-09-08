@@ -1,5 +1,5 @@
 # EFOR — EVERFORTH
-*Information Technology · brief generated 2026-09-07 · selected as **opportunistic***
+*Information Technology · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 2% of 125 Information Technology peers (98th pct)
@@ -92,6 +92,7 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-07** · How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/
 - **2026-09-07** · Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/
 - **2026-09-04** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194638593.html
 - **2026-09-04** · Sector Update: Tech Stocks Gain Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-175251963.html
@@ -101,13 +102,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-03** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194500234.html
 - **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-03** · 3 No-Brainer Tech Stocks to Buy With $5,000 Right Now — *Motley Fool* — https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device

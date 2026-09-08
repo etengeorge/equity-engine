@@ -1,15 +1,15 @@
 # LPG — DORIAN LPG
-*Energy · brief generated 2026-09-07 · selected as **opportunistic***
+*Energy · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - baseline gap +139%
 - 5d move +11%
 - 21d move +24%
 - filed an 8-K in the last few sessions
-- 3 news items in the last 5 days
+- 4 news items in the last 5 days
 - Energy is in the news
 - never researched
-- urgency score 6.89
+- urgency score 7.22
 
 ## Market
 | | |
@@ -42,7 +42,7 @@ Gap under that baseline: **+139.4%** (fair value $132.15 vs price $55.20).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **79th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +129.6%).
+Cohort: **72th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +122.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -71,8 +71,10 @@ Attack these before you trust any number above.
 - **2026-05-20** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000022/lpg-20260520xex99d1.htm
 
 ## News on this company — last 90 days
-*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
+*14 items held; showing the 14 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-07** · Dorian LPG Orders 3 New Vessels from Hanwha Ocean — *Rigzone.com* — https://finance.yahoo.com/energy/articles/dorian-lpg-orders-3-vessels-160955480.html
+  > The South Korean shipbuilder will deliver the dual-fuel Panamax VLGCs in 2030.
 - **2026-09-07** · Dorian LPG orders three dual-fuel Panamax VLGCs from Hanwha Ocean — *Offshore Technology* — https://www.offshore-technology.com/news/dorian-orders-three-panamax-vlgcs-hanwha/
   > Each VLGC will be equipped with dual-fuel engines capable of burning LPG or conventional low-sulphur fuels.
 - **2026-09-04** · Sector Update: Energy Stocks Fall Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html
@@ -115,10 +117,10 @@ Attack these before you trust any number above.
 - **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
 
 ## Market and macro context
-- **2026-09-07** · Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close) — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/
-- **2026-09-07** · Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html
-- **2026-09-07** · What's Wrong With PepsiCo Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/07/what-s-wrong-with-pepsico-stock/
-- **2026-09-07** · Jabil Rises 36.2% Year to Date: Should You Buy the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html
+- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
+- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
+- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
+- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
