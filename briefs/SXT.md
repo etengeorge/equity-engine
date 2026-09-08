@@ -1,97 +1,90 @@
-# AMR — ALPHA METALLURGICAL RESOURCE
-*Materials · brief generated 2026-09-08 · selected as **opportunistic***
+# SXT — SENSIENT TECHNOLOGIES
+*Materials · brief generated 2026-09-08 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 41 Materials peers (98th pct)
-- baseline gap +84%
-- 21d move +48%
-- never researched
-- urgency score 6.5
+- rotation position 87/1956
 
 ## Market
 | | |
 |---|---|
-| price | $225.41 |
-| market cap | $2.9B |
-| 5d / 21d / 63d / 252d | -0.4% / +48.2% / +11.4% / +65.9% |
-| 60d avg daily $ volume | $52.8M |
-| beta (vs IWM) | 1.16 (R²=0.147) |
-| 5d volume vs 60d average | 1.5x |
+| price | $134.84 |
+| market cap | $5.7B |
+| 5d / 21d / 63d / 252d | -0.2% / +4.9% / +20.6% / +21.4% |
+| 60d avg daily $ volume | $60.4M |
+| beta (vs IWM) | 0.71 (R²=0.129) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 88% / debt 12% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$340.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$17.8M', '$381.1M', '$605.8M']
-Enterprise value **$2.5B** · FCFF yield **+13.5%**
+Normalized FCFF base **$94.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$38.4M', '$97.9M', '$81.8M']
+Enterprise value **$6.5B** · FCFF yield **+1.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.2% − 1pt | -9.9% |
-| **11.2% (point)** | **-7.5%** |
-| 11.2% + 1pt | -5.2% |
+| 8.2% − 1pt | +33.5% |
+| **8.2% (point)** | **+39.0%** |
+| 8.2% + 1pt | +43.9% |
 
 
-Naive baseline for comparison: **+8.5%** (5y revenue CAGR +8.5%).
-Gap under that baseline: **+84.1%** (fair value $414.94 vs price $225.41).
+> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$83.9M** and an implied growth of **+42.6%** instead of +39.0%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+3.9%** (5y revenue CAGR +3.9%).
+Gap under that baseline: **-83.5%** (fair value $22.31 vs price $134.84).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +141.1%).
+Cohort: **32th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -26.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_228%_on_reported_debt_debt_likely_understated`
-- `speculative_cost_of_debt_but_only_0%_debt_weight`
-- `lumpy_fcff_spread_1.8x_of_mean`
-- `possible_trough_cycle_base_newest_fcf_0.03x_oldest_growth_applied_to_a_trough_understates_value`
+- `possible_trough_cycle_base_newest_fcf_0.47x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-08-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amr-20260807.htm
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000031/amr-20260630.htm
-- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/amr-20260807.htm
-- 2026-07-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/amr-20260727.htm
-- 2026-06-18 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/amr-20260618.htm
-- 2026-05-15 **8-K** — items 1.04 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000021/amr-20260514.htm
-- 2026-05-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000019/amr-20260508.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000018/amr-20260331.htm
-- 2026-05-08 **8-K** — items 2.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000017/amr-20260506.htm
-- 2026-04-24 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000013/amr-20260424.htm
+- 2026-09-02 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/310142/000114036126035504/ef20081499_8k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/310142/000114036126031094/ef20075523_10q.htm
+- 2026-07-24 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/310142/000114036126029501/ef20078569_8k.htm
+- 2026-06-23 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/310142/000114036126026110/ef20076497_8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/310142/000114036126019060/ef20070587_10q.htm
+- 2026-04-28 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/310142/000114036126017292/ef20071607_8k.htm
+- 2026-04-24 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/310142/000114036126016575/ef20071195_8k.htm
+- 2026-03-11 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/310142/000114036126008970/ny20066072x2_def14a.htm
+- 2026-02-13 **10-K** — https://www.sec.gov/Archives/edgar/data/310142/000114036126005311/ef20060630_10k.htm
+- 2026-02-13 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/310142/000114036126005177/ef20065512_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · presentation — INVESTOR PRESENTATION DATED AUGUST 7, 2026 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amrinvestorpresentation8.htm
-- **2026-08-07** · EX-99.1 · press release — PRESS RELEASE DATED AUGUST 7, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/pressrelease6302026.htm
-- **2026-07-27** · EX-99.1 · press release — PRESS RELEASE DATED JULY 27, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/a072726preliminarypressrel.htm
-- **2026-06-18** · EX-99.1 · press release — PRESS RELEASE DATED JUNE 18, 2026 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/a6182026exhibit991.htm
+- **2026-07-24** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/310142/000114036126029501/ef20078569_ex99-1.htm
+- **2026-07-24** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/310142/000114036126029501/ef20078569_ex99-2.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-08-25** · Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another  $1.1 Million Shares — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/25/alpha-metallurgical-director-courtis-keeps-buying-as-he-adds-another-usd1-1-million-shares/
-  > Courtis now holds over 1 million shares directly as stock surges 49% over past year. Mining company maintains $2.7 billion market cap amid $46.1 million net loss.
-- **2026-08-25** · Alpha Metallurgical Resources Director Courtis Buys Again, This Time $3.2 Million in Shares.  Is it Time for Investors to Buy Too? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/25/alpha-metallurgical-resources-director-courtis-buys-again-this-time-usd3-2-million-in-shares-is-it-time-for-investors-to-buy-too/
-  > Courtis expanded his direct holdings to 1.0 million shares following a 52% one-year stock return, signaling confidence in the coal producer's trajectory.
-- **2026-08-22** · Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/22/alpha-metallurgical-resources-director-courtis-buys-usd2-9-million-shares-what-does-this-mean-for-investors/
-  > Courtis executed the open-market purchase across multiple price tiers, bringing his direct holding to over 1 million shares amid a 39% one-year stock surge.
-- **2026-08-18** · Alpha Metallurgical (AMR) Weathers A Rough Quarter On Multiple Fronts — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-weathers-rough-115508588.html
-  > On August 7, Alpha Metallurgical Resources (NYSE:AMR) held its second-quarter earnings call, and the numbers told a rougher story than investors likely wanted to hear. Adjusted EBITDA fell to $25.6 million from $30 million in the first quar
-- **2026-08-14** · Alpha Metallurgical Resources (AMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/14/alpha-metallurgical-resources-amr-q2-2026-earnings-call-transcript/
-  > Logistical constraints and weak steel demand pressured second-quarter results.
-- **2026-08-08** · Alpha Metallurgical Resources (AMR) Is Up 10.8% After Lowering 2026 Shipment Guidance Amid Terminal Disruptions — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-amr-10-091323743.html
-  > Alpha Metallurgical Resources recently reported Q2 2026 results showing revenue of US$492.86 million versus US$550.27 million a year earlier and a net loss of US$12.25 million, alongside reduced full-year shipment guidance after storm damag
-- **2026-08-08** · Alpha Metallurgical Resources (AMR) Cuts Guidance, Is The 13% Undervalued View Still Credible? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-amr-cuts-071259842.html
-  > Q2 2026 earnings and guidance reset Alpha Metallurgical Resources (AMR) released Q2 2026 results that showed lower revenue and a wider quarterly net loss, alongside updated shipment and cost guidance that reflects weaker volumes and ongoing
-- **2026-08-07** · Alpha Metallurgical Resources Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/alpha-metallurgical-resources-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Alpha Metallurgical Resources (NYSE:AMR) reported second-quarter adjusted EBITDA of $25.6 million as metallurgical coal shipment volumes and realizations declined from the prior quarter, while the company lowered its full-year shipment outl
-- **2026-08-07** · Alpha Metallurgical Resources Inc (AMR) (Q2 2026) Earnings Call Highlights: Navigating Cost ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-inc-amr-210428476.html
-  > Despite lower EBITDA and reduced shipment guidance, AMR focuses on strategic mix shifts and cost management amid market weakness.
-- **2026-08-07** · Alpha Metallurgical Resources Misses Q2 Expectations as Lower Shipments Weigh on Results — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/33749/alpha-metallurgical-resources-misses-q2-expectations-as-lower-shipments-weigh-on-results
-  > Alpha Metallurgical Resources, Inc. (NYSE:AMR) reported weaker-than-expected second-quarter results on Friday after lower coal shipments and higher operating costs pushed the company to a quarterly loss and revenue below Wall Street forecas
+- **2026-08-20** · Are Basic Materials Stocks Lagging  Aperam (APEMY) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/basic-materials-stocks-lagging-aperam-134003177.html
+  > Here is how Aperam (APEMY) and Sensient Technologies (SXT) have performed compared to their sector so far this year.
+- **2026-08-18** · Beyond Oil: Record Revenue & U.S. Direct-Sales Expansion Fuel Scaling Phase – Quarterly Update Report — *Exec Edge* — https://finance.yahoo.com/markets/stocks/articles/beyond-oil-record-revenue-u-171951108.html
+  > Download the Complete Report Here Beyond Oil Ltd. (BOIL/BEOLF) Record Revenue and U.S. Direct-Sales Buildout Support Scaling Phase; Enterprise Rollouts and Margin Recovery Shape 2H Setup Key Takeaways: 2Q26 revenue of $1.40 million increase
+- **2026-08-03** · Sensient Technologies Corp's Dividend Analysis — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/sensient-technologies-corps-dividend-analysis-110959833.html
+  > Sensient Technologies Corp (NYSE:SXT) recently announced a total dividend of $0.41 per share, with the ex-dividend date set for 2026-08-03. This includes a $0.41 per share cash dividend payable on 2026-09-01. As investors look forward to th
+- **2026-07-31** · LIN Q2 Earnings & Revenues Beat Estimates on Volume & Pricing Growth — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/lin-q2-earnings-revenues-beat-135500129.html
+  > Linde delivers Q2 earnings growth as pricing, volume gains, currency and acquisitions drive sales, with electronics leading end-market gains.
+- **2026-07-28** · Sensient (SXT) Upgraded to Strong Buy: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/sensient-sxt-upgraded-strong-buy-160002038.html
+  > Sensient (SXT) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy).
+- **2026-07-28** · Are Basic Materials Stocks Lagging  Sensient Technologies (SXT) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/basic-materials-stocks-lagging-sensient-134003045.html
+  > Here is how Sensient Technologies (SXT) and Reliance (RS) have performed compared to their sector so far this year.
+- **2026-07-25** · Why Sensient Technologies (SXT) Could Be 5% Undervalued After Raising Guidance — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/why-sensient-technologies-sxt-could-221250168.html
+  > Sensient Technologies (SXT) drew investor attention after raising its 2026 earnings and local currency revenue guidance, following quarterly results that exceeded expectations and highlighted strong demand in its Color segment. See our late
+- **2026-07-24** · Sensient Technologies Corp (SXT) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/sensient-technologies-corp-sxt-q2-210233086.html
+  > Sensient Technologies Corp (SXT) reports impressive growth across key segments, driven by innovation and strategic supply chain management.
+- **2026-07-24** · Sensient Technologies Corporation Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-sensient-technologies-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Sensient Technologies Corporation's Q2 2026 earnings call
+- **2026-07-24** · Sensient Technologies Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/sensient-technologies-q2-earnings-call-highlights-2026-07-24/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Sensient Technologies (NYSE:SXT) reported second-quarter 2026 results marked by double-digit local-currency growth in revenue, adjusted EBITDA and adjusted earnings per share, as demand for natural color conversions continued to build ahead
 
 ## What is happening in Materials
 *From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
@@ -108,10 +101,10 @@ Attack these before you trust any number above.
 - **2026-08-19** · Are Wall Street Analysts Predicting Steel Dynamics Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/3931273/are-wall-street-analysts-predicting-steel-dynamics-stock-will-climb-or-sink
 
 ## Market and macro context
-- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
-- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
-- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
-- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
+- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
+- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
+- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
+- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -125,6 +118,8 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Materials
+- AMR: no_edge · price $225.41 · fair value $157.90 · gap -29.9%
+- BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
 - CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
 - SSRM: no_edge · price $37.39
 

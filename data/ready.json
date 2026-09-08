@@ -1,40 +1,40 @@
 {
-  "screen_utc": "2026-09-08T11:25:18+00:00",
+  "screen_utc": "2026-09-08T14:45:33+00:00",
   "price_asof": "2026-09-04",
   "universe": 1956,
   "modelled": 1078,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-08T11:25:19+00:00",
+    "generated_utc": "2026-09-08T14:45:34+00:00",
     "sectors": {
       "Health Care": {
-        "new": 0,
-        "held": 26,
+        "new": 1,
+        "held": 27,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 3,
-        "held": 36,
+        "new": 1,
+        "held": 37,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 19,
+        "new": 1,
+        "held": 20,
         "etf": "XLI"
       },
       "Information Technology": {
         "new": 1,
-        "held": 33,
+        "held": 34,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 1,
-        "held": 21,
+        "held": 22,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 0,
-        "held": 38,
+        "new": 3,
+        "held": 41,
         "etf": "XLE"
       },
       "Real Estate": {
@@ -53,8 +53,8 @@
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 0,
-        "held": 24,
+        "new": 1,
+        "held": 25,
         "etf": "XLP"
       },
       "Utilities": {
@@ -63,28 +63,28 @@
         "etf": "XLU"
       }
     },
-    "macro": 86,
+    "macro": 66,
     "market": 36,
     "companies": 449,
-    "articles_new": 261,
+    "articles_new": 223,
     "candidates": 450,
-    "elapsed_s": 199.6
+    "elapsed_s": 202.1
   },
   "picks": [
-    "AUB",
-    "XENE",
-    "LUMN",
-    "TVTX",
-    "IBP",
-    "BCPC",
-    "LPG",
-    "IRWD",
-    "EFOR",
-    "AMR"
+    "KGS",
+    "SXT",
+    "PTCT",
+    "COGT",
+    "SIGI",
+    "AGX",
+    "MTRX",
+    "HRMY",
+    "SM",
+    "ABR"
   ],
   "stages": {
-    "screen": "2026-09-08T11:28:54+00:00",
-    "news": "2026-09-08T11:28:38+00:00",
-    "pick": "2026-09-08T11:28:54+00:00"
+    "screen": "2026-09-08T14:49:07+00:00",
+    "news": "2026-09-08T14:48:57+00:00",
+    "pick": "2026-09-08T14:49:07+00:00"
   }
 }

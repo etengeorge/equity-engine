@@ -1,5 +1,19 @@
 [
  {
+  "id": "90ffbed8-1f15-3617-870e-e342a47f64b9",
+  "ts": "2026-09-08T13:20:39+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "cc50f22d-ae9e-3ea1-acbe-a7655fca135c",
   "ts": "2026-09-07T21:25:21+00:00",
   "title": "How a 64-Year-Old\u2019s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",

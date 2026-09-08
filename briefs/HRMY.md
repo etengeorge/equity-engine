@@ -1,97 +1,100 @@
-# IRWD — IRONWOOD PHARMA CLASS A
+# HRMY — HARMONY BIOSCIENCES HLDG
 *Health Care · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 1% of 91 Health Care peers (99th pct)
-- baseline gap +298%
-- 1 news items in the last 5 days
+- cheapest 2% of 90 Health Care peers (98th pct)
+- baseline gap +284%
+- 21d move +9%
 - Health Care is in the news
 - never researched
-- urgency score 7.11
+- urgency score 6.57
 
 ## Market
 | | |
 |---|---|
-| price | $4.26 |
-| market cap | $703.9M |
-| 5d / 21d / 63d / 252d | +3.1% / +0.0% / +28.7% / +287.3% |
-| 60d avg daily $ volume | $9.2M |
-| beta (vs IWM) | 0.2 (R²=0.032) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.7x |
+| price | $42.25 |
+| market cap | $2.5B |
+| 5d / 21d / 63d / 252d | +7.8% / +9.0% / +31.2% / +16.4% |
+| 60d avg daily $ volume | $29.6M |
+| beta (vs IWM) | 0.97 (R²=0.189) |
+| 5d volume vs 60d average | 1.2x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 64% / debt 36% |
+| WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$154.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$127.0M', '$103.4M', '$183.2M']
-Enterprise value **$1.0B** · FCFF yield **+15.4%**
+Normalized FCFF base **$272.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$347.9M', '$218.7M', '$219.1M']
+Enterprise value **$1.9B** · FCFF yield **+14.0%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 5.6% − 1pt | -31.3% |
-| **5.6% (point)** | **-26.6%** |
-| 5.6% + 1pt | -22.9% |
+| 9.8% − 1pt | -14.4% |
+| **9.8% (point)** | **-11.8%** |
+| 9.8% + 1pt | -9.3% |
 
 
-> **Stock compensation is 19% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$127.7M** and an implied growth of **-23.3%** instead of -26.6%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$233.1M** and an implied growth of **-8.3%** instead of -11.8%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **-5.3%** (5y revenue CAGR -5.3%).
-Gap under that baseline: **+297.5%** (fair value $16.93 vs price $4.26).
+Naive baseline for comparison: **+25.0%** (5y revenue CAGR +40.3% (clamped to +25.0%)).
+Gap under that baseline: **+283.6%** (fair value $162.07 vs price $42.25).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +313.1%).
+Cohort: **98th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +295.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091987/irwd-20260630x10q.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_8k.htm
-- 2026-06-18 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926075730/tm2618313d1_8k.htm
-- 2026-06-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926074023/tm2617503d1_8k.htm
-- 2026-05-13 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926059814/tm2614428d1_8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926057110/irwd-20260331x10q.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926056656/tm267094d1_8k.htm
-- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926050325/tm261380-1_def14a.htm
-- 2026-03-11 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1446847/000110465926026123/tm268434d1_8k.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1446847/000110465926020489/irwd-20251231x10k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1802665/000110465926090090/hrmy-20260630x10q.htm
+- 2026-08-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804x8k.htm
+- 2026-07-16 **8-K** — items 2.02,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926084095/hrmy-20260716x8k.htm
+- 2026-05-14 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926061237/hrmy-20260514x8k.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926056786/hrmy-20260507x8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1802665/000110465926056720/hrmy-20260331x10q.htm
+- 2026-04-14 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926042886/hrmy-20260414x8k.htm
+- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1802665/000110465926039449/hrmy-20260514xdef14a.htm
+- 2026-04-02 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1802665/000110465926038888/hrmy-20260331x8k.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1802665/000110465926018859/hrmy-20251231x10k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_ex99-1.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804xex99d1.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804xex99d2.htm
+- **2026-07-16** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1802665/000110465926084095/hrmy-20260716xex99d1.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-03** · Ironwood Pharmaceuticals to Participate in the Wells Fargo 21st Annual Healthcare Conference — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-participate-wells-fargo-200500142.html
-  > BOSTON, September 03, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD) today announced that management will participate in a fireside chat at the Wells Fargo 21st Annual Healthcare Conference on Thursday, September 10th at 10:15 a.m. ET.
-- **2026-08-13** · Ironwood (IRWD) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/ironwood-irwd-q2-2026-earnings-call-transcript/
-  > LINZESS sales surged 14% as company raised full-year guidance.
-- **2026-08-07** · Ironwood Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-ironwood-pharmaceuticals-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Ironwood Pharmaceuticals, Inc.'s Q2 2026 earnings call
-- **2026-08-07** · Ironwood Pharmaceuticals (IRWD) Is Up 14.2% After Raising 2026 Revenue Guidance – Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/ironwood-pharmaceuticals-irwd-14-2-043111081.html
-  > Ironwood Pharmaceuticals reported past second-quarter 2026 results showing sales of US$113.04 million versus US$85.24 million a year earlier, with net income rising to US$51.29 million from US$23.6 million and earnings per share from contin
-- **2026-08-06** · Ironwood Pharmaceuticals Inc (IRWD) (Q2 2026) Earnings Call Highlights: Strong LINZESS Growth ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-inc-irwd-q2-231659050.html
-  > Ironwood Pharmaceuticals Inc (IRWD) raises full-year 2026 outlook on robust LINZESS performance and promising apraglutide data.
-- **2026-08-06** · Ironwood Pharmaceuticals Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/ironwood-pharmaceuticals-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Ironwood Pharmaceuticals (NASDAQ:IRWD) reported second-quarter results marked by higher LINZESS sales, the start of enrollment in its confirmatory Phase III study of apraglutide, and repayment of its convertible notes, prompting the company
-- **2026-08-06** · Ironwood Pharmaceuticals (IRWD) Q2 Earnings Top Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/ironwood-pharmaceuticals-irwd-q2-earnings-135009222.html
-  > Ironwood (IRWD) delivered earnings and revenue surprises of +19.23% and -5.66%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-06** · Ironwood Pharmaceuticals Raises 2026 Full-Year Financial Guidance Building on Strong Second Quarter Results — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-raises-2026-full-110500985.html
-  > BOSTON, August 06, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), a biotechnology company developing and commercializing life‑changing therapies for people living with gastrointestinal (GI) and rare diseases, today reported its second
-- **2026-07-30** · Ironwood Pharmaceuticals to Host Second Quarter 2026 Investor Update Call — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-pharmaceuticals-host-second-quarter-200500843.html
-  > BOSTON, July 30, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), today announced it will host its second quarter 2026 investor update conference call and webcast at 8:30 a.m. Eastern Time on Thursday, August 6, 2026. Individuals intere
-- **2026-07-14** · Ironwood Appoints Dr. Jeffrey Silber Chief Medical Officer and Head of Research and Drug Development; STARS-2 Trial Initiated in June and Is Now Actively Recruiting Patients — *Business Wire* — https://finance.yahoo.com/healthcare/articles/ironwood-appoints-dr-jeffrey-silber-113000192.html
-  > BOSTON, July 14, 2026--Ironwood Pharmaceuticals, Inc. (Nasdaq: IRWD), a biotechnology company developing and commercializing life‑changing therapies for people living with gastrointestinal (GI) and rare diseases, today announced the retirem
+- **2026-08-27** · Harmony Biosciences to Participate in 2026 Cantor Global Healthcare Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/harmony-biosciences-participate-2026-cantor-120500530.html
+  > PLYMOUTH MEETING, Pa., Aug. 27, 2026 (GLOBE NEWSWIRE) -- Harmony Biosciences Holdings, Inc. (Nasdaq: HRMY), today announced that Harmony's management team will participate in a fireside chat at the 2026 Cantor Global Healthcare Conference i
+- **2026-08-26** · Intuit downgraded, SolarEdge upgraded: Wall Street's top analyst calls — *The Fly* — https://finance.yahoo.com/markets/stocks/articles/intuit-downgraded-solaredge-upgraded-wall-134109270.html
+  > Intuit downgraded, SolarEdge upgraded: Wall Street's top analyst calls
+- **2026-08-14** · Harmony Biosciences Highlights Record WAKIX Growth, Advances Orexin and Epilepsy Pipeline — *MarketBeat* — https://www.marketbeat.com/instant-alerts/harmony-biosciences-highlights-record-wakix-growth-advances-orexin-and-epilepsy-pipeline-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Harmony Biosciences (NASDAQ:HRMY) highlighted record quarterly performance for its narcolepsy treatment WAKIX and outlined development plans across its orexin, epilepsy and pitolisant lifecycle-management programs during Piper Sandler’s vir
+- **2026-08-11** · Harmony Biosciences (HRMY) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/harmony-biosciences-hrmy-q2-2026-earnings-call-transcript/
+  > WAKIX revenue surged 30% to $261.3 million, confirming $1 billion annual guidance.
+- **2026-08-10** · ANIP Tops Q2 Earnings, Stock Down on Cortrophin Sales View Cut — *Zacks* — https://finance.yahoo.com/healthcare/articles/anip-tops-q2-earnings-stock-170500106.html
+  > ANI Pharmaceuticals tops Q2 earnings and sales estimates, but shares fall as the company cuts its 2026 Cortrophin Gel revenue outlook.
+- **2026-08-10** · OTLK Up More Than 300% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/healthcare/articles/otlk-more-300-3-months-152700954.html
+  > Outlook Therapeutics rallies 311.8% in three months as Lytenava's FDA approval boosts optimism ahead of its planned U.S. launch by year-end.
+- **2026-08-07** · Harmony Biosciences (HRMY) Is Up 9.0% After Q2 Earnings Jump And Pipeline Progress - What's Changed — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/harmony-biosciences-hrmy-9-0-231334275.html
+  > Harmony Biosciences Holdings, Inc. recently reported second-quarter 2026 results showing net income of US$75.43 million, up from US$39.78 million a year earlier, with basic earnings per share from continuing operations rising to US$1.30 fro
+- **2026-08-07** · Immunocore's Q2 Earnings Miss Estimates, Kimmtrak Aids Y/Y Revenues — *Zacks* — https://finance.yahoo.com/healthcare/articles/immunocores-q2-earnings-miss-estimates-172700537.html
+  > IMCR incurs wider-than-expected Q2 loss. However, revenues beat as sole drug Kimmtrak sales rise 18.3% year over year on higher U.S. and international sales.
+- **2026-08-07** · Ocugen's Q2 Earnings Miss Estimates as R&D Costs Rise, Stock Falls — *Zacks* — https://finance.yahoo.com/healthcare/articles/ocugens-q2-earnings-miss-estimates-171800453.html
+  > OCGN posts a wider Q2 loss as R&D spending climbs, while advancing late-stage gene therapy programs and extending its cash runway into 2028.
+- **2026-08-07** · BMRN Stock Up as Q2 Earnings Beat on Sales Growth, 2026 Outlook Raised — *Zacks* — https://finance.yahoo.com/healthcare/articles/bmrn-stock-q2-earnings-beat-155000668.html
+  > BioMarin stock rises on Q2 sales beat and raises 2026 outlook, highlighting strong Voxzogo growth, Amicus additions and momentum in key therapies.
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
 - **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
@@ -101,13 +104,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
 - **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
 - **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
-- **2026-09-02** · Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity — *MarketBeat* — https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance
 
 ## Market and macro context
-- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
-- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
-- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
-- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
+- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
+- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
+- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
+- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -125,6 +127,7 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - APGE: no_model · price $133.96
 - CRNX: no_edge · price $84.84
 - HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
 - KYMR: no_model · price $119.05
 - PCVX: no_model · price $60.74
 - PRAX: no_model · price $344.75
@@ -132,7 +135,6 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - SRRK: no_model · price $55.94
 - TDOC: no_model · price $6.34
 - TGTX: no_model · price $54.30
-- TXG: no_model · price $59.98
 
 ---
 

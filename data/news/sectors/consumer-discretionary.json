@@ -1,5 +1,19 @@
 [
  {
+  "id": "90ffbed8-1f15-3617-870e-e342a47f64b9",
+  "ts": "2026-09-08T13:20:39+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "614ee7e1-0694-3077-939f-bf1c3a4e4970",
   "ts": "2026-09-07T13:02:34+00:00",
   "title": "How Is O'Reilly Automotive's Stock Performance Compared to Other Consumer Cyclical Stocks?",

@@ -1,59 +1,65 @@
-# AUB — ATLANTIC UNION BANKSHARES
-*Financials · brief generated 2026-09-08 · selected as **rotation***
+# ABR — ARBOR REALTY TRUST REIT
+*Financials · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 80/1956
+- cheapest 2% of 339 Financials peers (98th pct)
+- baseline gap +118%
+- Financials is in the news
+- never researched
+- urgency score 6.41
 
 ## Market
 | | |
 |---|---|
-| price | $40.91 |
-| market cap | $5.8B |
-| 5d / 21d / 63d / 252d | +0.6% / -2.8% / +8.7% / +18.1% |
-| 60d avg daily $ volume | $46.2M |
-| beta (vs IWM) | 1.21 (R²=0.586) |
-| 5d volume vs 60d average | 1.1x |
+| price | $5.25 |
+| market cap | $979.4M |
+| 5d / 21d / 63d / 252d | +3.8% / +5.8% / +3.3% / -49.6% |
+| 60d avg daily $ volume | $19.4M |
+| beta (vs IWM) | 0.89 (R²=0.233) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| WACC weights | equity 8% / debt 92% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +10.4% |
-| cost of equity | +11.5% |
-| justified P/TBV | 0.89 |
-| actual P/TBV | 1.98 |
-| tangible book / share | $20.71 |
-| implied gap | -54.8% |
+| sustainable ROTCE | +9.3% |
+| cost of equity | +9.7% |
+| justified P/TBV | 0.95 |
+| actual P/TBV | 0.44 |
+| tangible book / share | $12.03 |
+| implied gap | +117.8% |
 
-Cohort: **34th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -20.7%).
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +152.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_41%_of_book`
+- `rotce_numerator_includes_minority_interest_earnings`
+- `unstable_rotce_4.8%_to_13.6%`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/883948/000088394826000073/aub-20260630x10q.htm
-- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000088394826000069/aub-20260806x8k.htm
-- 2026-07-30 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000110465926088743/tm2621600d1_8k.htm
-- 2026-07-28 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000110465926087206/tm2621299d2_8k.htm
-- 2026-07-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000110465926086873/tm2621266d1_8k.htm
-- 2026-07-23 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000088394826000063/aub-20260723x8k.htm
-- 2026-07-22 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000110465926085612/tm2621039d1_8k.htm
-- 2026-07-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000110465926085221/aub-20260721x8k.htm
-- 2026-06-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000088394826000060/aub-20260630x8k.htm
-- 2026-06-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/883948/000088394826000057/aub-20260604x8k.htm
+- 2026-08-11 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000053/abr-20260811.htm
+- 2026-08-03 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000051/abr-7312026x8k.htm
+- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000048/abr-20260630.htm
+- 2026-07-31 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000047/abr-20260731.htm
+- 2026-07-06 **8-K** — items 1.01,2.03,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000110465926080833/tm2619809d1_8k.htm
+- 2026-07-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000110465926079862/tm2619560d1_8k.htm
+- 2026-05-20 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000040/abr-20260520.htm
+- 2026-05-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000037/abr-20260508.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000036/abr-20260331.htm
+- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000035/abr-20260508.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/883948/000088394826000069/aub-20260806xex99d1.htm
-- **2026-07-27** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/883948/000110465926086873/tm2621266d1_ex99-1.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/883948/000088394826000063/aub-20260723xex99d1.htm
-- **2026-07-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/883948/000110465926085612/tm2621039d1_ex99-1.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000053/exhibit991pressreleasedate.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000051/arborrealtytrustinvestor.htm
+- **2026-07-31** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000125398626000047/abr-06302026xearningsrelea.htm
+- **2026-07-01** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000110465926079862/tm2619560d1_ex99-1.htm
+- **2026-07-01** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000110465926079862/tm2619560d1_ex99-2.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -61,6 +67,7 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-07** · Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector
 - **2026-09-07** · PNC Financial Services Stock: Is PNC Underperforming the Financials Sector? — *Barchart* — https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector
 - **2026-09-06** · 3 ETFs That Could Move as Rate Expectations Shift — *MarketBeat* — https://www.marketbeat.com/articles/3-etfs-that-could-move-as-rate-expectations-shift/?utm_source=yahoofinance&utm_medium=yahoofinance
@@ -70,13 +77,12 @@ Attack these before you trust any number above.
 - **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 - **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
-- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
 
 ## Market and macro context
-- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
-- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
-- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
-- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
+- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
+- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
+- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
+- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -93,6 +99,7 @@ Attack these before you trust any number above.
 - ACR: no_model · price $14.00
 - AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
 - AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
+- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - BUR: no_model · price $4.35
 - FG: no_model · price $24.87
 - GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
@@ -101,7 +108,6 @@ Attack these before you trust any number above.
 - MFIN: no_edge · price $11.82
 - OSCR: no_model · price $29.83
 - SNEX: no_edge · price $68.48
-- VEL: no_edge · price $18.01
 
 ---
 

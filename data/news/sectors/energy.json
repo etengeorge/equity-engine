@@ -1,5 +1,47 @@
 [
  {
+  "id": "2a4aeeef-1518-3bdb-ac39-49672b271ed9",
+  "ts": "2026-09-08T13:40:00+00:00",
+  "title": "Goldman Sees Oil Hitting $120: ETFs That Are Poised to Benefit",
+  "summary": "Could oil hit $120? Goldman Sachs says prolonged supply disruptions could drive crude higher, creating opportunities for energy ETFs.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/goldman-sees-oil-hitting-120-134000385.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "7a91ef9f-9eab-3ccb-bbde-b2d9e40f00e7",
+  "ts": "2026-09-08T13:23:51+00:00",
+  "title": "Sector Update: Energy Stocks Rise Pre-Bell Tuesday",
+  "summary": "Energy stocks were rising pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (XLE",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132351735.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "90ffbed8-1f15-3617-870e-e342a47f64b9",
+  "ts": "2026-09-08T13:20:39+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "5455e3e8-e867-39c7-b227-67a6344f595a",
   "ts": "2026-09-04T19:57:37+00:00",
   "title": "Sector Update: Energy Stocks Softer Late Afternoon",

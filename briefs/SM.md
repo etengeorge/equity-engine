@@ -1,110 +1,107 @@
-# LPG — DORIAN LPG
+# SM — SM ENERGY
 *Energy · brief generated 2026-09-08 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +139%
-- 5d move +11%
-- 21d move +24%
+- baseline gap +154%
+- 21d move +28%
 - filed an 8-K in the last few sessions
-- 4 news items in the last 5 days
+- 3 news items in the last 5 days
 - Energy is in the news
 - never researched
-- urgency score 7.22
+- urgency score 6.41
 
 ## Market
 | | |
 |---|---|
-| price | $55.20 |
-| market cap | $2.4B |
-| 5d / 21d / 63d / 252d | +10.9% / +24.4% / +35.8% / +97.2% |
-| 60d avg daily $ volume | $28.3M |
-| beta (vs IWM) | 0.66 (R²=0.07) |
+| price | $36.44 |
+| market cap | $8.7B |
+| 5d / 21d / 63d / 252d | +0.1% / +27.7% / +14.6% / +34.6% |
+| 60d avg daily $ volume | $118.5M |
+| beta (vs IWM) | None (R²=0.014) · **sector_median** |
 | 5d volume vs 60d average | 1.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 82% / debt 18% |
+| WACC weights | equity 85% / debt 15% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$245.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$141.4M', '$149.8M', '$379.0M']
-Enterprise value **$2.5B** · FCFF yield **+9.7%**
+Normalized FCFF base **$673.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$573.0M', '$471.9M', '$585.0M']
+Enterprise value **$9.6B** · FCFF yield **+7.0%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.8% − 1pt | -13.5% |
-| **7.8% (point)** | **-9.9%** |
-| 7.8% + 1pt | -6.6% |
+| 8.9% − 1pt | -2.1% |
+| **8.9% (point)** | **+1.4%** |
+| 8.9% + 1pt | +4.5% |
 
 
-Naive baseline for comparison: **+8.8%** (5y revenue CAGR +8.8%).
-Gap under that baseline: **+139.4%** (fair value $132.15 vs price $55.20).
+Naive baseline for comparison: **+22.9%** (5y revenue CAGR +22.9%).
+Gap under that baseline: **+153.7%** (fair value $92.46 vs price $36.44).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **72th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +122.4%).
+Cohort: **81th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +137.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.37x_oldest_growth_applied_to_a_trough_understates_value`
+- `beta_from_sector_median_0.88(unreliable_r2_0.014_raw_0.33)`
 
 ## Recent filings
-- 2026-09-04 **8-K** — items 1.01,2.03,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000041/lpg-20260902x8k.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000038/lpg-20260805x8k.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000035/lpg-20260630x10q.htm
-- 2026-07-30 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000110465926088672/lpg-20260724x8k.htm
-- 2026-07-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1596993/000110465926087088/lpg-20260910xdef14a.htm
-- 2026-07-16 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000031/lpg-20260716x8k.htm
-- 2026-06-23 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000028/lpg-20260623x8k.htm
-- 2026-05-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000025/lpg-20260331x10k.htm
-- 2026-05-20 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000022/lpg-20260520x8k.htm
-- 2026-05-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000019/lpg-20260507x8k.htm
+- 2026-09-04 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000128/sm-20260904.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000121/sm-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/sm-20260805.htm
+- 2026-07-16 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000104/sm-20260716.htm
+- 2026-06-01 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000071/sm-20260601.htm
+- 2026-05-22 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000069/sm-20260521.htm
+- 2026-05-12 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000064/sm-20260511.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/893538/000089353826000061/sm-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000059/sm-20260506.htm
+- 2026-04-30 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000055/sm-20260430.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-04** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000041/lpg-20260902xex99d1.htm
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000038/lpg-20260805xex99d1.htm
-- **2026-07-16** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000031/lpg-20260716xex99d1.htm
-- **2026-06-23** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000028/lpg-20260623xex99d1.htm
-- **2026-05-20** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596993/000159699326000022/lpg-20260520xex99d1.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/exhibit99108052026er.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/exhibit99208052026.htm
 
 ## News on this company — last 90 days
-*14 items held; showing the 14 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-07** · Dorian LPG Orders 3 New Vessels from Hanwha Ocean — *Rigzone.com* — https://finance.yahoo.com/energy/articles/dorian-lpg-orders-3-vessels-160955480.html
-  > The South Korean shipbuilder will deliver the dual-fuel Panamax VLGCs in 2030.
-- **2026-09-07** · Dorian LPG orders three dual-fuel Panamax VLGCs from Hanwha Ocean — *Offshore Technology* — https://www.offshore-technology.com/news/dorian-orders-three-panamax-vlgcs-hanwha/
-  > Each VLGC will be equipped with dual-fuel engines capable of burning LPG or conventional low-sulphur fuels.
-- **2026-09-04** · Sector Update: Energy Stocks Fall Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html
-  > Energy stocks were falling pre-bell Friday, with the State Street Energy Select Sector SPDR ETF (XLE
-- **2026-09-04** · Dorian LPG Ltd. Announces VLGC Newbuilding Contracts, Forward Chartering Estimates, and New Credit Facility — *Business Wire* — https://finance.yahoo.com/energy/articles/dorian-lpg-ltd-announces-vlgc-100000899.html
-  > STAMFORD, Conn., September 04, 2026--Dorian LPG Ltd. (NYSE: LPG) ("Dorian" or the "Company"), a leading owner and operator of modern very large gas carriers ("VLGCs"), today announced that it entered into an agreement with Hanwha Ocean to b
-- **2026-08-14** · Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets. — *Investor's Business Daily* — https://www.investors.com/news/oil-stocks-record-profits-refiners/?src=A00220&yptr=yahoo
-  > Marathon, Phillips 66 and Valero throw off record profits and cash. Other names are breaking out or regaining buy points.
-- **2026-08-10** · DorianG (LPG) Stock Still Looks Expensive Even After A 7x Return — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/doriang-lpg-stock-still-looks-011320209.html
-  > DorianG stock has delivered a very large 5-year return, yet current checks suggest the shares trade at a premium to what the underlying cash flows may justify. The Discounted Cash Flow (DCF) intrinsic value estimate and the market-based val
-- **2026-08-09** · DorianG (LPG) Posted Record Quarterly Earnings, Is The Stock Still Below Fair Value? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/doriang-lpg-posted-record-quarterly-141047197.html
-  > DorianG (LPG) stock is in focus after the company reported record quarterly earnings, with revenue of US$187.88 million and net income of US$138.29 million for the quarter ended June 30, 2026. See our latest analysis for DorianG. Against th
-- **2026-08-09** · Does DorianG's Record Q1 Earnings and Cash Build Reshape the Bull Case for LPG? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/does-doriangs-record-q1-earnings-130959091.html
-  > Dorian LPG Ltd. reported past first-quarter 2027 results to June 30, 2026, with revenue of US$187.88 million and net income of US$138.29 million, driving basic earnings per share of US$3.25 from continuing operations. The company paired thi
-- **2026-08-08** · Dorian LPG Q1 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/dorian-lpg-q1-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Dorian LPG (NYSE:LPG) reported record quarterly chartering performance for its fiscal first quarter of 2027, as disruptions to Middle East LPG supply and congestion at the Panama Canal supported elevated freight rates and longer shipping ro
-- **2026-08-06** · Dorian LPG (LPG) Q1 2027 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/06/dorian-lpg-lpg-q1-2027-earnings-call-transcript/
-  > Record freight rates drive record TCE revenue and $1 billion shareholder returns.
-- **2026-08-06** · Dorian LPG Ltd. Q1 2027 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-dorian-lpg-ltd-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Dorian LPG Ltd.'s Q1 2027 earnings call
-- **2026-08-05** · Dorian LPG Ltd (LPG) (Q1 2027) Earnings Call Highlights: Record TCE Rates and Strategic Fleet ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/dorian-lpg-ltd-lpg-q1-210643240.html
-  > Dorian LPG Ltd (LPG) posts highest-ever TCE revenue per available day of $75,926, bolstered by robust VLGC market conditions and strategic vessel sales.
-- **2026-08-05** · Dorian LPG Ltd. Announces First Quarter Fiscal Year 2027 Financial Results — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/dorian-lpg-ltd-announces-first-100000172.html
-  > STAMFORD, Conn., August 05, 2026--Dorian LPG Ltd. (NYSE: LPG) (the "Company," "Dorian LPG," "we," "us," and "our"), a leading owner and operator of modern very large gas carriers ("VLGCs"), today reported its financial results for the three
-- **2026-08-03** · This Niche Energy Stock Breaks Out Before Earnings — *Investor's Business Daily* — https://www.investors.com/news/energy-stock-lpg-breaking-out-before-q1-27-earnings/?src=A00220&yptr=yahoo
-  > Energy stock Dorian LPG is flashing bullish signals Monday even as yet another de-escalation narrative sweeps through markets.
+- **2026-09-07** · SM Energy Company (SM) Is a Trending Stock: Facts to Know Before Betting on It — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/sm-energy-company-sm-trending-130004359.html
+  > Recently, Zacks.com users have been paying close attention to SM Energy (SM). This makes it worthwhile to examine what the stock has in store.
+- **2026-09-04** · Why Is SM Energy (SM) Up 31% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-sm-energy-sm-31-153023846.html
+  > SM Energy (SM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-04** · 2 Momentum  Stocks with Solid Fundamentals and 1 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-momentum-stocks-solid-fundamentals-080610968.html
+  > Each stock in this article is trading near its 52-week high. These elevated prices usually indicate some degree of investor confidence, business improvements, or favorable market conditions.
+- **2026-08-27** · Mixed or Offshore Upstream E&P Stocks Q2 Highlights: SM Energy (NYSE:SM) — *StockStory* — https://finance.yahoo.com/energy/articles/mixed-offshore-upstream-e-p-230507733.html
+  > Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let’s have a look at SM Energy (NYSE:SM) and its peers.
+- **2026-08-24** · SM Energy Declares Quarterly Cash Dividend — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/sm-energy-declares-quarterly-cash-201500917.html
+  > SM Energy Company (the "Company" or "SM") (NYSE: SM) today announced that its Board of Directors approved the quarterly cash dividend of $0.22 per share of common stock outstanding. The dividend will be paid on September 21, 2026, to stockh
+- **2026-08-22** · Is SM Energy’s (SM) Erie Deal Exit Reframing Its Local Political Risk and Growth Strategy? — *Simply Wall St.* — https://finance.yahoo.com/energy/articles/sm-energy-sm-erie-deal-071359471.html
+  > SM Energy has in the past terminated its multimillion‑dollar mineral rights agreement with the Town of Erie, Colorado, scrapping a deal that would have exchanged US$4.5 million and future revenue for access to municipal mineral holdings and
+- **2026-08-22** · Can SM Energy (SM) Justify Its Price After Ending The Erie Mineral Rights Deal? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/sm-energy-sm-justify-price-050853333.html
+  > SM Energy (SM) has terminated its mineral rights agreement with the Town of Erie, Colorado, after months of resident opposition and legal pressure. The canceled deal removes a planned oil and gas project under local neighborhoods. See our l
+- **2026-08-21** · SM Energy (SM) Stock Trades At A Discount On Earnings Despite A 136% Return — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/sm-energy-sm-stock-trades-191005107.html
+  > SM Energy has delivered a 136.5% total return over the past 5 years, yet its valuation checks still lean cheap, which raises the question of whether the recent share price strength has fully reflected the fundamentals. Recent headlines arou
+- **2026-08-20** · Cross Ocean Partners and Fuller Realty Acquire 829,000-SF Office Campus in Houston’s Energy Corridor — *Business Wire* — https://finance.yahoo.com/real-estate/articles/cross-ocean-partners-fuller-realty-190200756.html
+  > HOUSTON, August 20, 2026--Cross Ocean Partners and Fuller Realty acquire Eldridge Place, a 94%-leased Class A office campus in Houston’s Energy Corridor.
+- **2026-08-20** · 2 Energy Stocks to Own for Decades and 1 We Find Risky — *StockStory* — https://finance.yahoo.com/energy/articles/2-energy-stocks-own-decades-130715004.html
+  > Even if they go mostly unnoticed, energy businesses are the backbone of our country, providing the energy we need to power our lives and businesses.Sure, they are at the whim of energy prices and other macroeconomic factors that influence c
+- **2026-08-19** · Is NOG a Buy Now as Low Valuation Meets Commodity and Leverage Risks? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nog-buy-now-low-valuation-134500643.html
+  > NOG's low valuation and strong free cash flow offer appeal, but leverage, commodity exposure and operator reliance keep the setup balanced.
+- **2026-08-18** · SM Investments reports 8% growth in H1 net income to PHP45.9 billion on sustained consumer demand — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/sm-investments-reports-8-growth-092200166.html
+  > SM Investments Corporation (SM), the parent company of the SM Group, reported consolidated net income of PHP45.9 billion in the first half of 2026, up 8% from PHP42.6 billion a year earlier, as sustained consumer demand and the strength of 
+- **2026-08-18** · Solaris Energy Infrastructure, SM Energy, and Chord Energy Shares Are Soaring, What You Need To Know — *StockStory* — https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-sm-energy-020620676.html
+  > A number of stocks jumped in the afternoon session after Iran ruled out extending a 60-day memorandum of understanding with the United States.
 
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Goldman Sees Oil Hitting $120: ETFs That Are Poised to Benefit — *Zacks* — https://finance.yahoo.com/energy/articles/goldman-sees-oil-hitting-120-134000385.html
+- **2026-09-08** · Sector Update: Energy Stocks Rise Pre-Bell Tuesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132351735.html
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Sector Update: Energy Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195737210.html
 - **2026-09-04** · Sector Update: Energy Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175510988.html
 - **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
@@ -112,15 +109,12 @@ Attack these before you trust any number above.
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 - **2026-09-04** · Sector Update: Energy Stocks Fall Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html
 - **2026-09-04** · Goldman’s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside — *Insider Monkey* — https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html
-- **2026-09-03** · Sector Update: Energy Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html
-- **2026-09-03** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html
 
 ## Market and macro context
-- **2026-09-08** · Why Salesforce Stock Skyrocketed 40% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/08/why-salesforce-stock-skyrocketed-40-last-month/
-- **2026-09-08** · Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? — *Motley Fool* — https://www.fool.com/investing/2026/09/08/bloom-energy-is-joining-the-sp-500-is-the-stock-st/
-- **2026-09-08** · Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo
-- **2026-09-08** · Rising Oil Prices Pressure Wall Street Pre-Bell; Asia Off, Europe Flat — *MT Newswires* — https://finance.yahoo.com/markets/commodities/articles/rising-oil-prices-pressure-wall-110458020.html
+- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
+- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
+- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
+- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
 
 *Rules, releases and agency actions:*
 - **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
@@ -134,6 +128,7 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Energy
+- LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
 - MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
 - PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
 - RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
