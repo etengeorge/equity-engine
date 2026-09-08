@@ -1,0 +1,38 @@
+# XENE — XENON PHARMACEUTICALS
+*Health Care · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-08 — NO_MODEL (conviction: high)
+
+- **Verdict:** no_model · price $59.75
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** Xenon is a clinical-stage neurology company whose entire value is azetukalner (XEN1101), a first-in-class KV7 potassium channel opener. On 2026-03-09 it announced positive topline Phase 3 X-TOLE2 data in focal onset seizures, and at the 2026 AAN Annual Meeting in April it presented what it describes as the best placebo-adjusted efficacy ever observed in a pivotal FOS study — in a population where nearly 60% of patients were taking or had discontinued cenobamate and carried a median of 13 seizures per month at baseline, with rising rates of 100% seizure reduction the longer patients stayed on therapy. Xenon plans to submit an NDA in Q3 2026, which is now. If approved, azetukalner would be the only KV7 opener available for epilepsy. It raised $707.7M net in March 2026 at $54.0075 per share and holds $1,245.1M of cash and marketable securities against a runway into 2029, with azetukalner also in Phase 3 for major depressive disorder and a separate pain program. At $59.75 on 96.75M shares plus 2.93M pre-funded warrants, the market cap is ~$5.8B and enterprise value is roughly $4.5B — which is a launch-curve NPV for a differentiated anti-seizure medicine in a market where cenobamate has demonstrated multi-billion-dollar potential, discounted for approval and commercial risk.
+
+**What changed.** Positive Phase 3 X-TOLE2 topline on 2026-03-09; full data presented at AAN in April 2026 alongside 48-month long-term extension data; NDA submission guided for Q3 2026. Underwriting agreement 2026-03-10 and offering closed 2026-03-12 for $707.7M net at $54.0075, which is why cash and marketable securities went from $586.0M at 2025-12-31 to $1,245.1M at 2026-06-30. Q2 2026 net loss widened to $110.7M from $84.7M, driven by lower Neurocrine collaboration revenue and higher R&D on the azetukalner and pain programs. No company-specific news in the store for the last 90 days, which lowers my confidence that nothing has happened since the 2026-08-06 10-Q.
+
+**Base case.** I am not supplying a growth rate, because there is no cash flow to grow. Xenon has no approved product, no product revenue, and a Q2 net loss of $110.7M; normalized FCFF is negative and the DCF cannot run. That is the correct output, not a failure — 'a discounted cash flow cannot value this' and 'this is not worth anything' are different claims, and the honest version of the second claim here is that a KV7 opener with a positive pivotal trial and an NDA going in this quarter is plainly worth a great deal. What I will not do is convert that into a number this engine can produce.
+
+**Devil's advocate.**
+- Strongest counter: That refusing here is laziness dressed up as rigour, because the brief does print a multiples valuation and it says the stock is 43.1% overvalued — a blended midpoint of $33.97 against a $59.75 price. If I ignore that, I am discarding the only quantitative signal available and defaulting to 'clinical-stage, therefore unknowable', which would make the engine useless on roughly a fifth of the Health Care index.
+- What would prove it: Whether the multiples rows are measuring anything. The test from the standing lessons is whether the rows agree in direction, whether any row is negative or nonsensical, and whether the cohort is ranked.
+- Already visible today: Yes, and it destroys the counter-argument. The ev_sales row reads 650.9x — that is enterprise value against Neurocrine collaboration revenue, not product revenue, on a company that has never sold a drug, and CLAUDE.md warns explicitly that EV/sales on a name whose revenue has not arrived is close to meaningless. It values the company at $9.49 to $10.92 per share, i.e. below the $12.87 of net cash per share it is sitting on, which is self-evidently wrong. The p_tbv row runs the other way and gives $31.18 to $101.84, a range that straddles the price and is anyway just marking the March equity raise. The two rows disagree by a factor of three to ten and the cohort is explicitly 'not ranked'. Under the standing rule — rows straddling in opposite directions, or any nonsense row, or an unranked cohort — the blend must be disregarded rather than averaged into a verdict.
+- Left unresolved: I could not read the X-TOLE2 primary endpoint effect size, the discontinuation rate, or the adverse-event profile from the documents I fetched; the March 8-Ks I retrieved cover the financing, not the data, and I did not fetch the AAN presentation. So my characterisation of the efficacy is taken from Xenon's own press release and secondary coverage rather than from the dataset. I also have no read on FDA's view — the NDA had not been filed as of the last document I read.
+
+**Key risks.** Single-asset dependence: azetukalner is essentially the entire enterprise value across epilepsy, MDD and pain; KV7 class safety history — ezogabine was withdrawn over retinal pigmentation — makes the NDA safety review the binary event; Q2 cash burn of $110.7M per quarter against a runway that ends in 2029, so a delay pushes the company into another raise; Commercial risk even on approval: cenobamate is entrenched and the X-TOLE2 population was largely cenobamate-experienced
+**Watch for.** Confirmation that the NDA was actually submitted in Q3 2026, and the FDA filing acceptance plus PDUFA date that follows; Any FDA advisory committee scheduling, which on a KV7 asset would signal a safety question; Phase 3 readout in major depressive disorder, which is the second and larger half of the story; The name becomes modellable only after a launch produces two or three years of product revenue — not before
+
+**Data quality.** All four flags resolved and all four are consequences of the same fact, that this is a pre-revenue company: speculative_cost_of_debt_but_only_0%_debt_weight is harmless because the debt weight is zero; negative_fcf_year_in_window, nonpositive_normalized_fcff and negative_ebitda_valued_on_revenue_or_gross_profit_only are all correct descriptions of a business with no product sales and a $110.7M quarterly loss. The multiples table is the one number on this brief that should be actively disregarded rather than discounted: 650.9x EV/sales is enterprise value over collaboration revenue, it values the company below its own net cash, the p_tbv row contradicts it by a factor of three to ten, and the cohort is unranked. Balance-sheet inputs I did verify against the 10-Q and the Q2 release: 96,752,884 common shares plus 2,931,293 pre-funded warrants, and $1,245.1M of cash and marketable securities at 2026-06-30 versus $586.0M at 2025-12-31. No fair value is asserted.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1582313/000119312526338019/xene-ex99_1.htm
+- https://www.sec.gov/Archives/edgar/data/1582313/000119312526338244/xene-20260630.htm
+- https://www.sec.gov/Archives/edgar/data/1582313/000119312526104199/d97906d8k.htm
+- https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-announces-positive-topline-data-phase-3-x-tole2-study
+- https://www.neurologylive.com/view/phase-3-x-tole2-data-support-nda-submission-azetukalner-focal-onset-seizures
+- https://www.clinicaltrialsarena.com/analyst-comment/aan-2026-phase-iii-success-azetukalner-focal-epilepsy-paves-approval/
+
+**Ingestion notes.** no usable final_growth

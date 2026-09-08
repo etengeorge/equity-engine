@@ -19,6 +19,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
   },
+  "AMR": {
+    "conviction": "low",
+    "last_visit": "2026-09-08",
+    "verdict": "no_edge"
+  },
   "AMSF": {
     "conviction": "medium",
     "last_visit": "2026-09-07",
@@ -34,10 +39,20 @@
     "last_visit": "2026-09-07",
     "verdict": "no_model"
   },
+  "AUB": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "no_edge"
+  },
   "BBW": {
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
+  },
+  "BCPC": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "rich"
   },
   "BUR": {
     "conviction": "high",
@@ -78,6 +93,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-07",
     "verdict": "rich"
+  },
+  "EFOR": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "no_edge"
   },
   "ENS": {
     "conviction": "low",
@@ -144,10 +164,20 @@
     "last_visit": "2026-09-04",
     "verdict": "no_edge"
   },
+  "IBP": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "rich"
+  },
   "IDCC": {
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "fair"
+  },
+  "IRWD": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "no_edge"
   },
   "JXN": {
     "conviction": "medium",
@@ -164,9 +194,19 @@
     "last_visit": "2026-09-04",
     "verdict": "no_edge"
   },
+  "LPG": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "no_edge"
+  },
   "LTH": {
     "conviction": "medium",
     "last_visit": "2026-09-04",
+    "verdict": "no_model"
+  },
+  "LUMN": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
     "verdict": "no_model"
   },
   "MATX": {
@@ -294,6 +334,11 @@
     "last_visit": "2026-09-07",
     "verdict": "no_model"
   },
+  "TVTX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-08",
+    "verdict": "no_model"
+  },
   "TXG": {
     "conviction": "medium",
     "last_visit": "2026-09-02",
@@ -332,6 +377,11 @@
   "WLFC": {
     "conviction": "high",
     "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "XENE": {
+    "conviction": "high",
+    "last_visit": "2026-09-08",
     "verdict": "no_model"
   }
 }

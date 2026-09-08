@@ -1,0 +1,58 @@
+{
+  "ticker": "TVTX",
+  "date": "2026-09-08",
+  "sector": "Health Care",
+  "name": "TRAVERE THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 65.27999877929688,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the multiples table is unusually well behaved here and says the stock is 53.1% overvalued, so refusing lets a genuinely rich name off the hook. Unlike most refusals on this screen the two rows agree in direction \u2014 ev_sales at 12.6x against a cohort median of 5.2x, and ev_gross_profit at 12.8x against a median of 6.8x, both roughly 2.4x the cohort. Neither row is negative and neither is degenerate. A blend of $30.61 against a $65.28 price is a coherent statement that Travere trades at more than double what its sector pays per dollar of revenue and per dollar of gross profit.",
+    "what_would_prove_it": "Whether the cohort is a fair comparison set \u2014 that is, whether the 325 Health Care names in the ev_sales distribution have anything like Travere's growth rate and margin structure \u2014 and whether the cohort is ranked at all.",
+    "already_visible": "Yes, and it defeats the counter-argument, though less decisively than on LUMN or XENE. The brief states the cohort is 'not ranked \u2014 too few comparable Health Care names to define a distribution honestly'. More importantly the comparison is growth-inappropriate: a company compounding revenue at 48-51% year over year and crossing into profitability is not priced at the median EV/sales of a 325-name bucket containing mature pharma, devices, services and pre-revenue biotech. The rows' own p75 values, $105.99 and $98.04, sit well ABOVE the $65.28 price, so the range straddles the price even though the midpoints do not \u2014 the honest reading of that table is 'somewhere between $10 and $106', which is not a valuation. I will not convert an unranked cohort median into a 53% overvaluation claim on a name at an inflection.",
+    "unresolved": "I could not read the FILSPARI net revenue line separately from total revenue, nor the conversion terms, coupon or maturity of the $525M of May 2026 converts, so I cannot say what the true diluted share count or the true enterprise value is. That matters beyond this refusal: the engine assigns a 5% debt weight on a $6.2B market cap, implying roughly $326M of debt against $525M of converts on the balance sheet, which is the convertible-notes extraction bug from the standing lessons showing up again. It does not change the refusal, because FCFF is negative either way, but it means the WACC on this brief is wrong too."
+  },
+  "what_changed": "Q2 2026 (2026-08-04): total revenue $169.6M vs $114.4M (+48%); six-month revenue $296.8M vs $196.2M (+51%); licence and collaboration revenue $8.2M in the quarter. GAAP net loss $34.8M ($0.37/share) vs $12.8M; non-GAAP adjusted net loss $9.0M ($0.10/share) vs non-GAAP net INCOME of $11.9M a year earlier, so the adjusted line went backwards year over year even as revenue grew 48%. Cash, cash equivalents and marketable securities of $489.2M at 2026-06-30, including approximately $158M of net proceeds from the May 2026 convertible note transactions in which $525M of converts were issued (8-K 2026-05-11, items 1.01, 2.03, 3.02, 8.01, 9.01 \u2014 a material agreement, a new debt obligation AND an unregistered equity sale in one filing). Two 5.02 officer/director changes in June and July 2026. No company-specific news in the store for the last 90 days, which is a fact about coverage and lowers my confidence that nothing has happened since 2026-08-04.",
+  "consensus_case": "Travere is being repriced as FILSPARI (sparsentan) converts from an accelerated-approval story into a real rare-disease franchise. Q2 2026 total revenue was $169.6M against $114.4M a year earlier, up 48%, and the first half was $296.8M against $196.2M, up 51%. The GAAP net loss of $34.8M masks a non-GAAP adjusted net loss of only $9.0M for the quarter and $4.8M for the half \u2014 the company is essentially at breakeven and about to cross it, on a product with orphan economics in IgA nephropathy and an FSGS opportunity behind it. That is why the stock is up 208.7% over 252 days and 42.5% over 63. A market cap of $6.2B on a franchise annualising toward $700M of revenue with high gross margin, a nephrology salesforce already built, and operating leverage from here is a growth valuation, not a cash-flow one \u2014 and the market is paying for the next three years of the ramp, not for trailing cash flow.",
+  "base_case_rationale": "No growth rate supplied. Normalized FCFF is not positive \u2014 the flags say so and the filings confirm it, with a GAAP net loss of $71.9M for the half \u2014 so the reverse DCF returns n/a and there is no base to grow. Travere is at the point in a launch curve where trailing cash flow describes a company that no longer exists: revenue is compounding at roughly 50% year over year and the adjusted loss is $9.0M a quarter, so any FCFF base drawn from the last three years is a measurement of the pre-launch entity. A DCF built on that would be arithmetic, not valuation. The right answer is to refuse and to say when the name becomes modellable, which is once FILSPARI produces two to three years of post-inflection cash flow \u2014 realistically the 2027 or 2028 pass through this index.",
+  "key_risks": [
+    "Single-product concentration in FILSPARI across both IgAN and the FSGS opportunity",
+    "Competitive entry in IgA nephropathy from endothelin and complement-pathway agents",
+    "$525M of convertible notes issued May 2026 \u2014 dilution and a debt obligation that the engine appears not to have fully captured",
+    "The non-GAAP line went backwards year over year (a $9.0M loss against $11.9M of income) despite 48% revenue growth, so operating leverage is not yet showing up where it should"
+  ],
+  "watch_for": [
+    "The first quarter of sustained positive free cash flow \u2014 that is when this name becomes modellable and worth a real DCF",
+    "FILSPARI net product revenue disclosed separately, and the IgAN share trend against new entrants",
+    "Any FSGS regulatory milestone",
+    "Restatement of enterprise value in this engine once the $525M of converts is captured"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1438533/000143853326000062/a2026q2_8-kxex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1438533/000143853326000063/tvtx-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1438533/000119312526217100/d38424d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1438533/000119312526217100/d38424dex991.htm"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_5%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_2.0x_of_mean",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

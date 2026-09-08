@@ -1,0 +1,186 @@
+{
+  "ticker": "BCPC",
+  "date": "2026-09-08",
+  "sector": "Materials",
+  "name": "BALCHEM",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.08,
+  "bear_growth": 0.03,
+  "bull_growth": 0.12,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 171.61000061035156,
+  "market_implied_growth": 0.1910483727517226,
+  "cohort_pct": 65.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.08,
+    "market_implied_growth": 0.1910483727517226,
+    "growth_delta": -0.1110483727517226,
+    "fair_value": 107.77905072944294,
+    "price": 171.61000061035156,
+    "gap": -0.37195355546813236,
+    "fair_value_band": {
+      "low": 89.45683412281028,
+      "point": 107.77905072944294,
+      "high": 134.89327386013957
+    },
+    "fcff_base_used": 138042916.66666666,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.07178477819724116,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 138042916.66666666,
+      "price": 171.61000061035156,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.05178477819724116,
+              "fair_value": 142.5104990284485,
+              "gap": -0.1695676328792448
+            },
+            {
+              "wacc": 0.06178477819724116,
+              "fair_value": 107.59836009694774,
+              "gap": -0.3730064698195835
+            },
+            {
+              "wacc": 0.07178477819724116,
+              "fair_value": 86.17246325520877,
+              "gap": -0.49785873230740596
+            },
+            {
+              "wacc": 0.08178477819724116,
+              "fair_value": 71.68436843876948,
+              "gap": -0.582283269134576
+            },
+            {
+              "wacc": 0.09178477819724117,
+              "fair_value": 61.23457054438502,
+              "gap": -0.6431759785175868
+            }
+          ],
+          "fair_value_at_point_wacc": 86.17246325520877,
+          "gap_at_point_wacc": -0.49785873230740596
+        },
+        {
+          "case": "base",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.05178477819724116,
+              "fair_value": 179.0992967511479,
+              "gap": 0.043641373545596274
+            },
+            {
+              "wacc": 0.06178477819724116,
+              "fair_value": 134.89327386013957,
+              "gap": -0.21395447013358515
+            },
+            {
+              "wacc": 0.07178477819724116,
+              "fair_value": 107.77905072944294,
+              "gap": -0.37195355546813236
+            },
+            {
+              "wacc": 0.08178477819724116,
+              "fair_value": 89.45683412281028,
+              "gap": -0.47872015730641393
+            },
+            {
+              "wacc": 0.09178477819724117,
+              "fair_value": 76.25168942123342,
+              "gap": -0.5556687305516279
+            }
+          ],
+          "fair_value_at_point_wacc": 107.77905072944294,
+          "gap_at_point_wacc": -0.37195355546813236
+        },
+        {
+          "case": "bull",
+          "growth": 0.12,
+          "cells": [
+            {
+              "wacc": 0.05178477819724116,
+              "fair_value": 213.5226973597546,
+              "gap": 0.2442322510362771
+            },
+            {
+              "wacc": 0.06178477819724116,
+              "fair_value": 160.5372163265816,
+              "gap": -0.06452295463194602
+            },
+            {
+              "wacc": 0.07178477819724116,
+              "fair_value": 128.0508009783848,
+              "gap": -0.2538266970283971
+            },
+            {
+              "wacc": 0.08178477819724116,
+              "fair_value": 106.10856454136194,
+              "gap": -0.3816877561682064
+            },
+            {
+              "wacc": 0.09178477819724117,
+              "fair_value": 90.30276593649687,
+              "gap": -0.4737907720102311
+            }
+          ],
+          "fair_value_at_point_wacc": 128.0508009783848,
+          "gap_at_point_wacc": -0.2538266970283971
+        }
+      ],
+      "summary": {
+        "bear": -0.49785873230740596,
+        "base": -0.37195355546813236,
+        "bull": -0.2538266970283971
+      },
+      "downside": -0.6431759785175868,
+      "upside": 0.2442322510362771
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That calling a high-quality compounder 'rich' on a two-stage DCF is the single most reliably wrong trade of the last fifteen years, and that the model's structure \u2014 not Balchem's price \u2014 is what produces the answer. Terminal growth is pinned at 2.0%, which is a choice, not a fact, and it is the wrong choice for a business that can plausibly grow at nominal GDP plus a couple of points indefinitely with pricing power and a 60%-plus share in choline. Raise terminal growth to 3% and the required five-year growth falls materially, because most of the value in a 2.5%-yield asset sits in the terminal. On top of that the model discounts at only 7.2% \u2014 so it is simultaneously being generous on the discount rate and harsh on the terminal, and I should be suspicious of a verdict that depends on which of those two errors is larger.",
+    "what_would_prove_it": "Whether Balchem's free cash flow can actually compound in the high teens for a sustained period, or whether it stays in the mid-single digits while earnings run ahead of it. The specific observable is the multi-year FCFF series against the EPS series.",
+    "already_visible": "Yes, and it is why the counter-argument does not flip the verdict. Free cash flow of $167.5M / $145.9M / $151.7M is roughly 5% growth while diluted EPS went from $1.17 to $1.39 in the quarter \u2014 the divergence between earnings and cash is visible and persistent, and it is the cash flow the DCF discounts. Even granting the terminal-growth objection in full, the gap between a demonstrated ~5%, my generous 8%, and a required 22.5% is not a modelling quibble; it is a factor of three. The beta point also runs my way rather than against me for once: beta is 0.45 on an R-squared of 0.161, and the standing lesson is that a poorly fitted regression attenuates beta toward zero and understates WACC. Correcting Balchem's beta upward would RAISE the required growth above 22.5%, making the name look richer still, not cheaper. That is the rare case where the known engine bias reinforces the conclusion instead of manufacturing it.",
+    "unresolved": "I did not read the 2026-07-27 item-1.01/2.03 agreement, so I cannot rule out that it is an acquisition rather than a refinancing \u2014 if it were a large acquisition it would change both enterprise value and the forward cash flow base. Given the 3% debt weight in the model I think that is unlikely, but I did not verify it. I also cannot resolve the terminal-growth objection, because it is a question about the model's constants rather than about Balchem, and this engine gives me no way to override them."
+  },
+  "what_changed": "Q2 2026 (2026-07-31): record net sales $284.0M; GAAP net earnings $44.6M, up 16.6% year over year; diluted EPS $1.39 against $1.17 (six months $2.63 against $2.30); record adjusted EBITDA $77.9M; cash from operations $46.7M with free cash flow of $36.2M. Human Nutrition and Health record sales of $176.9M, up $16.1M or 10.0%, with record segment earnings from operations of $42.4M, up 10.5%, partly offset by higher manufacturing costs. Management describes healthy growth in all three segments. A 2026-07-27 8-K carries items 1.01 and 2.03 \u2014 a material agreement and a new debt obligation \u2014 which on the timing looks like a credit facility refinancing rather than an acquisition, though I did not read the agreement itself. No company-specific news in the store for the last 90 days.",
+  "consensus_case": "Balchem is a genuine compounder and the market is paying for duration, not for the next five years. It holds a dominant position in choline and encapsulation chemistry, sells into human nutrition, animal nutrition and specialty markets with real pricing power, earns high returns on capital, and has a long history of bolt-on acquisitions that it integrates well. Q2 2026 was a record quarter on every line \u2014 record net sales of $284.0M, record net earnings of $44.6M (+16.6% year over year), record adjusted EBITDA of $77.9M \u2014 with growth in all three reporting segments and Human Nutrition and Health up 10.0% to $176.9M with record segment earnings of $42.4M. Earnings per share are compounding in the mid-teens. A 2.5% FCFF yield on a business like that is not a forecast that free cash flow grows 19% for five years; it is a statement that the terminal value is long and the cash flows are exceptionally safe, and a two-stage model with terminal growth pinned at 2.0% will always call such a business expensive.",
+  "base_case_rationale": "The question is not whether Balchem is a good business \u2014 it plainly is \u2014 but what five-year free cash flow growth the price requires and whether the company has ever produced it. The engine's own series answers that: FCFF of $167.5M, $145.9M and $151.7M, newest first, which is about 5% a year of growth over two years. Earnings are compounding faster than cash flow, in the mid-teens, and the gap is capex and working capital as Balchem builds capacity. My 8% splits the difference and is deliberately generous relative to the cash record: it assumes high-single-digit organic revenue growth led by Human Nutrition at its current 10%, modest margin expansion as the new capacity fills, and continued bolt-on M&A funded internally. What it does not assume is the +19.1% the price requires at the engine's 7.2% WACC \u2014 and the honest hurdle is higher still, because stock compensation is 11% of the FCFF base and reported operating cash flow adds it back as though it were free. It is not free; it is a real transfer to employees. Expensing it takes the FCFF base to $121.1M and the required growth to +22.5%. I am explicitly underwriting the stock-compensation-expensed version, so the number my 8% has to beat is 22.5%, not 19.1%.",
+  "key_risks": [
+    "The valuation is almost entirely terminal value at a 2.5% FCFF yield, so it is highly sensitive to the terminal growth and discount rate constants rather than to Balchem's operations",
+    "Free cash flow has grown at roughly 5% a year while earnings compound in the mid-teens \u2014 capex and working capital are absorbing the difference",
+    "Stock compensation is 11% of the FCFF base and is added back as free cash flow; expensing it raises the required growth from 19.1% to 22.5%",
+    "Agricultural and animal-nutrition cyclicality in two of the three segments"
+  ],
+  "watch_for": [
+    "Free cash flow conversion: whether FCF starts tracking earnings growth as the capacity investment cycle completes",
+    "Human Nutrition and Health growth holding at or above 10% for another two or three quarters",
+    "Whether the 2026-07-27 material agreement turns out to be an acquisition, which would reset the cash flow base",
+    "Any sign that higher manufacturing costs are becoming a persistent margin drag rather than a quarterly offset"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/exhibit991-q22026.htm",
+    "https://www.sec.gov/Archives/edgar/data/9326/000000932626000028/bcpc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/9326/000000932626000007/bcpc-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm"
+  ],
+  "flags": []
+}

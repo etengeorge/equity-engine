@@ -1,0 +1,55 @@
+{
+  "ticker": "LUMN",
+  "date": "2026-09-08",
+  "sector": "Communication",
+  "name": "LUMEN TECHNOLOGIES",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 6.769999980926514,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the multiples table gives a usable answer and I am throwing it away. It blends to $8.00 against a $6.77 price, an 18.2% discount, and unlike most refusals on this screen the ev_ebitda row is built on a real, large, positive EBITDA number \u2014 $802M in the quarter \u2014 with a cohort of 52 names. Lumen trades at 9.4x EV/EBITDA against a cohort median of 13.1x. That is a legitimate observation about a real cash-generating asset, and 'the DCF cannot run' is not a reason to ignore it.",
+    "what_would_prove_it": "Whether the three rows agree, whether any of them is degenerate, and whether the cohort is ranked \u2014 the standing test for when a multiples blend is a signal rather than noise with a decimal point.",
+    "already_visible": "Yes, and it settles it against the counter-argument. Two of the three rows produce NEGATIVE equity values at the 25th percentile: ev_sales gives -$0.75 and ev_gross_profit gives -$3.22. That is not a low valuation, it is the arithmetic of subtracting roughly $13B of net debt from a small enterprise value, and it means the blend is averaging impossible numbers into a plausible-looking $8.00. The rows also straddle the price in both directions across their own ranges ($6.73-$28.04, -$0.75-$24.86, -$3.22-$15.34) and the cohort is explicitly 'not ranked \u2014 too few comparable Communication names'. Under the standing rule, any negative row or an unranked cohort means report no_model and say the number should be disregarded. The ev_ebitda row on its own is genuinely interesting \u2014 but on a company at roughly 4x net debt to EBITDA, the equity is a residual, and a discount to a cohort median built mostly from unlevered peers is a statement about leverage, not about cheapness.",
+    "unresolved": "I did not read the maturity schedule or the covenant package, and I did not open the May 2026 item-1.01/2.03 8-Ks, so I cannot say what Lumen's near-term refinancing wall actually looks like \u2014 and on a name where debt is two-thirds of enterprise value, that schedule is more important than any operating number on the brief. I also cannot tell from the materials I read whether capex has peaked, which is the single fact the bull case turns on."
+  },
+  "what_changed": "Q2 2026 (2026-08-04): revenue $2.805B; adjusted EBITDA $802M against $877M a year earlier, excluding special items of $204M and $152M respectively \u2014 so EBITDA is still declining year over year. Strategic revenue 53% of business revenue, up from 51%. Alkira acquisition closed in the quarter. Management reiterated the full-year guidance and long-term framework from Investor Day. A dense run of 8-Ks in May and June 2026 carries items 1.01 and 2.03 (2026-05-14 and 2026-05-21) \u2014 new or amended debt obligations \u2014 plus several 8.01 disclosures, consistent with continued liability-management activity after the earlier restructuring. Company news in the store is mostly sector commentary; the substantive company items are the Multi-Cloud Gateway expansion to 10M+ locations (2026-08-26 and 2026-08-27) and a Zacks piece noting the stock was up 12% since the last earnings report (2026-09-03).",
+  "consensus_case": "Lumen is a levered bet on being the physical backbone of AI-era enterprise networking. Management is executing the pivot laid out at Investor Day: strategic revenue rose to approximately 53% of total business revenue from 51% in Q1, there are more than 3,000 NaaS customers with quarter-over-quarter growth in usage metrics, the Multi-Cloud Gateway now reaches more than 10 million US business locations including sites beyond Lumen's own fibre footprint, and the Alkira acquisition closed in the quarter to add software-defined networking. Q2 2026 revenue was $2.805B with adjusted EBITDA of $802M, and the company says it is on track for full-year guidance. The bull case is that the legacy copper and voice base declines predictably while the Private Connectivity Fabric deals with hyperscalers are pre-funded, capex peaks and then falls, and an equity stub with a $7.0B market cap against roughly $13B of net debt re-rates violently once free cash flow inflects. The tape is behaving like that argument is being made: +12.1% over five days and +14.7% over twenty-one, against -24.0% over sixty-three.",
+  "base_case_rationale": "I am not supplying a growth rate. Normalized FCFF is not positive \u2014 Lumen is spending through a multi-year fibre and PCF build that is designed to consume cash now and return it later \u2014 so the reverse DCF returns n/a at every discount rate and there is nothing to compare a forward case against. Even if there were, the discount rate would not survive contact with the balance sheet: the engine puts a 65% debt weight on a speculative, guessed cost of debt and stamps the result 13.5%, and its own flag says so. On a company where debt is roughly two-thirds of enterprise value and trades well away from par, a guessed cost of debt at that weight is not a WACC, it is a placeholder. Refusing is the correct answer here, and it is not the same as saying the equity is worthless.",
+  "key_risks": [
+    "Roughly $13B of net debt against a $7.0B equity: the common is a thin residual and small changes in enterprise value are large changes in the stock",
+    "Adjusted EBITDA is still falling year over year ($802M vs $877M) while the transformation is being funded",
+    "The cost of debt in this model is a guess applied at a 65% weight, so no discounted valuation of this name from this engine is trustworthy",
+    "Legacy copper and voice decline is the denominator of the whole thesis and is not under management's control"
+  ],
+  "watch_for": [
+    "The quarter in which adjusted EBITDA stops declining year over year \u2014 that is the inflection the equity is priced off",
+    "Capex guidance for 2027 and whether PCF construction spending rolls off as described at Investor Day",
+    "Any refinancing of the 2029-2030 maturities and the coupon it clears at",
+    "Strategic revenue crossing 60% of business revenue"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/18926/000001892626000058/lumnq220268-kexhibit991.htm",
+    "https://www.sec.gov/Archives/edgar/data/18926/000001892626000058/lumen2q26quarterlypresen.htm",
+    "https://www.sec.gov/Archives/edgar/data/18926/000001892626000060/lumn-20260630.htm",
+    "https://finance.yahoo.com/technology/ai/articles/lumens-multi-cloud-expansion-boost-135500492.html",
+    "https://finance.yahoo.com/markets/stocks/articles/why-lumen-lumn-12-since-153017111.html"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_at_65%_debt_weight_wacc_unreliable"
+  ]
+}

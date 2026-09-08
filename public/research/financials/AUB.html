@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>AUB — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / AUB</p><h1>AUB <span style='color:var(--faint);font-weight:400'>ATLANTIC UNION BANKSHARES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$40.91</b></div><div>Analyst gap<b>-25%</b></div><div>Dated<b>2026-09-08</b></div></div><div class='prose'><h1>AUB — ATLANTIC UNION BANKSHARES</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-08 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $40.91 · fair value $30.68 · gap -25.0%</li><li><strong>Sustainable ROTCE:</strong> screen said +10.4%, analyst says +16.0%</li><li><strong>P/TBV:</strong> justified 1.48 vs actual 1.98 on tangible book of $20.71/share</li></ul><p><strong>The case for the price.</strong> Atlantic Union closed the Sandy Spring Bancorp merger on 2025-04-01 and is now the largest regional bank headquartered in the lower Mid-Atlantic, with $38.1B of assets, $30.5B of gross loans HFI and $28.7B of deposits. The market is paying 1.98x tangible book because the franchise is currently earning a 20.1% adjusted operating ROTCE (23.4% GAAP) on a 3.89% net interest margin that rose 9bp quarter over quarter, with an adjusted operating ROA of 1.47%, an efficiency ratio of 47.4% and $17B of wealth AUM giving genuinely diversified fee income ($57.9M of adjusted operating noninterest income in Q2). Merger costs are running off ($9.0M lower quarter over quarter), the integration is executing, and the bank is adding 10 branches in North Carolina. Total loan CAGR since 2017 is 18% headline and 8% organic. At a 11.5% cost of equity and 2% terminal growth, a 1.98x multiple is exactly what a bank sustainably earning ~20% on tangible equity is worth, so the price is not a judgment that AUB is expensive — it is a judgment that the post-merger return is real.</p><p><strong>What changed.</strong> Q2 2026 (reported 2026-07-21, deck filed 2026-07-22 and 2026-07-27): adjusted operating ROTCE 20.1%, GAAP ROTCE 23.4%, adjusted operating ROA 1.47%, NIM 3.89% (+9bp QoQ), TCE $2.95B, GAAP net income to common $161M and adjusted operating $137M, diluted adjusted EPS $0.94. GAAP results include a $32.3M pre-tax gain on the sale of the equity interest in Bearing Insurance Group, which is excluded from the adjusted figures. Provision rose on reserve build for loan growth; ACL/loans 1.15%; TCE/tangible assets 8.2%. AFTER the 2026-06-30 balance sheet the bank issued $250M of 6.25% Fixed-to-Floating Rate Subordinated Notes due 2036 (underwriting agreement 2026-07-28, closing 8-K 2026-07-30). That is Tier 2 regulatory capital, not common equity, so it does not change tangible common equity or the book model; it is a modest ongoing drag on future ROTCE via interest cost. Neither July item-1.01 8-K is an acquisition — I checked both and they are the same notes offering. No company-specific news in the store for the last 90 days.</p><p><strong>Base case.</strong> This is a book-method name, so the number that matters is the sustainable ROTCE, and the engine&#x27;s 10.4% is an artifact rather than an estimate. It is a three-year average of GAAP ROTCE spanning fiscal 2025, the year AUB closed Sandy Spring and absorbed merger charges plus the day-two CECL provision on the acquired book — the VLY lesson running in the same direction, where averaging a ratio across a distorted year describes a company that no longer exists. The company&#x27;s own Q2 2026 adjusted operating ROTCE is 20.1%. I will not use 20.1% either: it is flattered by purchase-accounting accretion on the Sandy Spring loan book, which is inflating the 3.89% NIM and runs off over the next three to five years, and by a tangible common equity denominator that is currently depressed and will build as earnings retain and AOCI recovers. A normalized post-integration ROTCE for a well-run $38B Mid-Atlantic commercial bank with 8% organic loan growth and a real wealth business is 15-17%; I use 16%. Note that I verified the denominator rather than assuming it: TCE of $2.95B against ~142M shares gives $20.71 of tangible book per share and an actual P/TBV of 1.97, which reconciles to the brief&#x27;s 1.98, so this is NOT the AII/BUR stale-tangible-book bug. Note also that the cost of equity is unusually defensible here — beta 1.21 with an R-squared of 0.586, by far the best regression in today&#x27;s ten, so for once the discount rate is not the problem.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That 16% is too conservative and the name is simply fairly priced. The bank is earning 20.1% on an adjusted basis right now, not as a one-quarter spike but with the margin expanding, and a Gordon P/TBV with terminal growth pinned at 2% is a structurally harsh frame for a bank compounding loans at 8% organically. At 20.1% the justified multiple is 1.91 against an actual 1.98 — a 4% gap, i.e. nothing. Even at my own 16%, if I set terminal growth to 4% to match nominal loan growth the justified multiple rises to 1.60 and the gap narrows from -26% to -19%. So the entire &#x27;rich&#x27; reading depends on my haircut to a return the company is demonstrably earning, and on a terminal growth constant that is a choice rather than a fact.</li><li>What would prove it: The quarterly path of adjusted operating ROTCE and of net interest margin over the next three to four quarters, read together with the disclosed purchase-accounting accretion. If ROTCE holds near 19-20% while NIM stays at or above 3.89% AND accretion income is a shrinking share of it, the 20% is operating and 16% is wrong. If ROTCE steps down toward the mid-teens as accretion runs off, 16% is right.</li><li>Already visible today: Partially, and it cuts against me on direction while supporting me on structure. Visible today: adjusted operating ROTCE of 20.1% with NIM rising 9bp QoQ, and adjusted operating earnings up 6.2% QoQ driven by net interest income — that is not the profile of a return about to collapse. Also visible: TCE/tangible assets of 8.2% and 41% of book in goodwill and intangibles, which is what paying for Sandy Spring did and is precisely why the ROTCE denominator is small. What is NOT visible to me is the accretion split — the deck does not break out purchase-accounting accretion within the 3.89% NIM, and that single disclosure is what separates 16% from 20%.</li><li>Left unresolved: I could not decompose the NIM into core and purchase-accounting accretion from the materials I read, so my 16% is a judgment about a run-off schedule I have not seen rather than a measurement. That is the whole width of the answer: 16% says rich by ~26%, 20.1% says fair by ~4%. I also have no company-specific news in the store for 90 days, so I am relying on the Q2 deck alone for anything after 2026-07-27.</li></ul><p><strong>Key risks.</strong> Purchase-accounting accretion from Sandy Spring is inflating both the NIM and the reported ROTCE, and neither the deck nor the engine separates it out; Commercial real estate concentration in the Virginia/Maryland/DC corridor against a 1.15% allowance for credit losses; 41% of book value is goodwill and intangibles, so a franchise impairment would hit the tangible book the whole valuation is priced against; The $250M of 6.25% subordinated notes issued after the balance-sheet date is a permanent drag on ROTCE that no input in this model reflects <strong>Watch for.</strong> Q3 2026 disclosure of purchase-accounting accretion as a component of net interest margin — the single number that decides whether sustainable ROTCE is 16% or 20%; Whether adjusted operating ROTCE holds above 19% for two more quarters as merger costs finish running off; Any further subordinated or preferred issuance that raises the cost of capital sitting ahead of common equity</p><p><strong>Data quality.</strong> RESOLVED: the single flag, goodwill_and_intangibles_41%_of_book, is real but is the arithmetic consequence of an all-stock acquisition and is exactly why ROTCE and P/TBV are both high — it is internally consistent, not an error. Also resolved: tangible book is CURRENT, not stale. I reconciled TCE of $2.95B from the Q2 deck against $20.71 per share and an actual P/TBV of 1.97, which matches the brief&#x27;s 1.98, so this is not the AII/BUR stale-tangible-book defect. Also resolved: the two July item-1.01 8-Ks are a $250M subordinated notes offering, not an acquisition, so enterprise value and share count are not invalidated. OPEN AND MATERIAL: the sustainable ROTCE input of 10.4% is wrong. It is a three-year GAAP average spanning the Sandy Spring merger year and its charges; the company reports 20.1% adjusted operating ROTCE for Q2 2026. Nothing flagged this, exactly as the VLY lesson predicts. Correcting it moves the gap from -54.8% to roughly -26% at my 16% and to -4% at the company&#x27;s own 20.1%. The engine&#x27;s -54.8% &#x27;rich&#x27; reading should be treated as wrong by roughly thirty points. STILL OPEN: I could not split purchase-accounting accretion out of the 3.89% NIM, which is what would settle 16% versus 20%.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/883948/000110465926086873/tm2621266d1_ex99-1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/883948/000110465926086873/tm2621266d1_ex99-1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/883948/000110465926085612/tm2621039d1_ex99-1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/883948/000110465926085612/tm2621039d1_ex99-1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/883948/000110465926087206/tm2621299d2_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/883948/000110465926087206/tm2621299d2_8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/883948/000110465926088743/tm2621600d1_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/883948/000110465926088743/tm2621600d1_8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/883948/000088394826000073/aub-20260630x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/883948/000088394826000073/aub-20260630x10q.htm</a></li><li><a href="https://investors.atlanticunionbank.com/news-events/press-releases/detail/195/atlantic-union-bankshares-corporation-completes-acquisition" rel="noopener">https://investors.atlanticunionbank.com/news-events/press-releases/detail/195/atlantic-union-bankshares-corporation-completes-acquisition</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/AUB.md'>research/Financials/AUB.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

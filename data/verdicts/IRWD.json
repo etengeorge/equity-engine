@@ -1,0 +1,190 @@
+{
+  "ticker": "IRWD",
+  "date": "2026-09-08",
+  "sector": "Health Care",
+  "name": "IRONWOOD PHARMA CLASS A",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": -0.25,
+  "bear_growth": -0.3,
+  "bull_growth": -0.12,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 4.260000228881836,
+  "market_implied_growth": -0.2664482301304355,
+  "cohort_pct": 98.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.25,
+    "market_implied_growth": -0.2664482301304355,
+    "growth_delta": 0.016448230130435504,
+    "fair_value": 9.434867602542159,
+    "price": 4.260000228881836,
+    "gap": 1.2147575341841286,
+    "fair_value_band": {
+      "low": 7.315913356183512,
+      "point": 9.434867602542159,
+      "high": 13.168539027915898
+    },
+    "fcff_base_used": 260000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.05591889982532454,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 260000000,
+      "price": 4.260000228881836,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.3,
+          "cells": [
+            {
+              "wacc": 0.035918899825324535,
+              "fair_value": 15.217745361208163,
+              "gap": 2.5722405031894833
+            },
+            {
+              "wacc": 0.04591889982532454,
+              "fair_value": 9.268089222373346,
+              "gap": 1.1756076817878558
+            },
+            {
+              "wacc": 0.05591889982532454,
+              "fair_value": 6.616346739412576,
+              "gap": 0.5531329539738623
+            },
+            {
+              "wacc": 0.06591889982532453,
+              "fair_value": 5.108435258321117,
+              "gap": 0.19916314174987204
+            },
+            {
+              "wacc": 0.07591889982532454,
+              "fair_value": 4.131109753317664,
+              "gap": -0.030255978553786034
+            }
+          ],
+          "fair_value_at_point_wacc": 6.616346739412576,
+          "gap_at_point_wacc": 0.5531329539738623
+        },
+        {
+          "case": "base",
+          "growth": -0.25,
+          "cells": [
+            {
+              "wacc": 0.035918899825324535,
+              "fair_value": 21.558349169672358,
+              "gap": 4.060645073094513
+            },
+            {
+              "wacc": 0.04591889982532454,
+              "fair_value": 13.168539027915898,
+              "gap": 2.091206178496468
+            },
+            {
+              "wacc": 0.05591889982532454,
+              "fair_value": 9.434867602542159,
+              "gap": 1.2147575341841286
+            },
+            {
+              "wacc": 0.06591889982532453,
+              "fair_value": 7.315913356183512,
+              "gap": 0.7173504608246914
+            },
+            {
+              "wacc": 0.07591889982532454,
+              "fair_value": 5.94582372589522,
+              "gap": 0.39573319399935314
+            }
+          ],
+          "fair_value_at_point_wacc": 9.434867602542159,
+          "gap_at_point_wacc": 1.2147575341841286
+        },
+        {
+          "case": "bull",
+          "growth": -0.12,
+          "cells": [
+            {
+              "wacc": 0.035918899825324535,
+              "fair_value": 47.74855417286515,
+              "gap": 10.208580189536324
+            },
+            {
+              "wacc": 0.04591889982532454,
+              "fair_value": 29.13122383535534,
+              "gap": 5.83831508689888
+            },
+            {
+              "wacc": 0.05591889982532454,
+              "fair_value": 20.867254614688225,
+              "gap": 3.898416313035142
+            },
+            {
+              "wacc": 0.06591889982532453,
+              "fair_value": 16.193009047569518,
+              "gap": 2.8011756285327376
+            },
+            {
+              "wacc": 0.07591889982532454,
+              "fair_value": 13.183003278090514,
+              "gap": 2.094601542204796
+            }
+          ],
+          "fair_value_at_point_wacc": 20.867254614688225,
+          "gap_at_point_wacc": 3.898416313035142
+        }
+      ],
+      "summary": {
+        "bear": 0.5531329539738623,
+        "base": 1.2147575341841286,
+        "bull": 3.898416313035142
+      },
+      "downside": -0.030255978553786034,
+      "upside": 10.208580189536324
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "bear_growth -35.0% clamped into -30%..+40%"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I am the one being too pessimistic, and that this is a name where refusing costs real money. The company is guiding to more than $310M of adjusted EBITDA against an enterprise value of about $1.0B. It just raised guidance twice in a year, demand growth accelerated from low-single-digit to mid-single-digit, and it retired $200M of debt out of cash flow in a single quarter while still generating $58.3M of operating cash. Between now and March 2029 it can generate on the order of $600-700M of free cash flow against $306M of net debt \u2014 meaning the company can be debt-free by 2028 with cash left over, at which point the equity is a free call on apraglutide in short bowel syndrome, a genuine orphan indication. Paying $704M for that is arguably cheap even if LINZESS goes to zero the day the generic lands.",
+    "what_would_prove_it": "Two things. First, the actual generic entry date and whether the pending 72mcg/145mcg/290mcg ANDAs alter the March 2029 settlement date. Second, whether the harvested cash actually retires debt rather than funding apraglutide development or business development \u2014 management explicitly assumed 'no material expenses related to business development activities' inside the 2026 guidance, which is a conspicuous carve-out.",
+    "already_visible": "Partly, and it is enough to stop the counter-argument winning but not enough to make me bearish. Visible in favour of the counter: the debt reduction is real and dated \u2014 $200M of converts repaid in June from cash, and a stated commitment to more. Visible against it: apraglutide is running a CONFIRMATORY Phase 3, which is not what a company does after an unambiguously successful first pivotal trial, and STARS-2 only began recruiting in June 2026 on a 24-week endpoint, so data is a 2028 event and approval 2029 at the earliest \u2014 the option pays off, if at all, after the cliff rather than before it. That is why I did not take the bull case. What actually decides this name is that my own independent arithmetic on the cliff produces -25% and the market is implying -26.6%: I have no disagreement with the price to trade on.",
+    "unresolved": "I could not find, in the 10-Q or the Q2 release, any updated statement of the LINZESS exclusivity date or the status of the pending ANDAs \u2014 the 10-Q language is generic risk-factor boilerplate. My March 2029 date comes from the 2020 Ironwood/Allergan/Teva settlement as reported by secondary sources, not from a document I read in this session, and if that date has moved in either direction the whole answer moves with it. That is the single most important input on this name and it is the one I am least sure of."
+  },
+  "what_changed": "Q2 2026 (2026-08-06): revenue $113M, GAAP net income $51.3M ($0.31/share), adjusted EBITDA $83.0M, cash from operations $58.3M against $15.1M a year earlier. LINZESS US net sales $282.3M, up 14%, driven by 4% demand growth plus improved net price. 2026 guidance RAISED across the board \u2014 LINZESS US net sales from $1.125-1.175B to $1.15-1.20B, total revenue from $450-475M to $460-485M, adjusted EBITDA from >$300M to >$310M \u2014 and the demand assumption inside it went from low-single-digit to mid-single-digit percentage growth. Balance sheet: cash fell from $215.5M at 2025 year end to $79.1M, because the $200M of 1.50% converts were repaid in full at maturity in June; the revolver stands at $385.0M drawn with $165.0M of remaining capacity, and management states a commitment to further debt reduction. Pipeline: apraglutide's confirmatory Phase 3 STARS-2 trial initiated sites in Q2 2026 and began actively recruiting in June \u2014 a 24-week global randomised placebo-controlled study in short bowel syndrome with intestinal failure. Dr Jeffrey Silber appointed Chief Medical Officer (2026-07-14). Management presenting at the Wells Fargo healthcare conference on 2026-09-10.",
+  "consensus_case": "The market is pricing a patent cliff, not a bad business. Ironwood's economics are one thing: a 50/50 share of US brand collaboration profits on LINZESS with AbbVie. That franchise is doing very well right now \u2014 LINZESS US net sales of $282.3M in Q2 2026 against $248.0M, up 14%, $555M year to date and up 44%, with 2026 guidance raised twice to $1.15-1.20 billion, total revenue guidance raised to $460-485M and adjusted EBITDA guidance raised to more than $310M. Ironwood repaid the $200M of 1.50% convertible notes at maturity in June from cash on hand. But under the 2020 settlement with Teva, the earliest licensed entry of generic linaclotide at the 145mcg and 290mcg doses is March 2029, and additional ANDAs are pending at 72mcg, 145mcg and 290mcg. March 2029 sits in the middle of a five-year window. So the market is paying roughly 3.3x enterprise value to 2026 adjusted EBITDA because it is buying two and a half good years, an uncertain apraglutide option behind them, and $385M of revolver drawn against $79.1M of cash. That is a rational price for a melting ice cube with a call option attached, not a mispricing.",
+  "base_case_rationale": "I am overriding the FCFF base and then applying a steep decline, because both halves of the engine's setup are wrong in opposite directions. The base of $154.1M is a three-year mean that includes 2025, when LINZESS net sales were depressed by the Medicare Part D redesign and gross-to-net pressure \u2014 that is why Q1 2026 net sales grew 97% year over year against a broken comparison. The company is now guiding to more than $310M of adjusted EBITDA for 2026; net of roughly $28M of cash interest on the revolver, modest cash taxes and negligible capex, and adding back after-tax interest as this model's FCFF definition requires, current-year FCFF is on the order of $260M, not $154M. So I set the base to $260M. Then the growth rate has to carry the cliff. Generic linaclotide can enter in March 2029, which is year three of a five-year window. Modelling roughly $260M in 2027, flat to slightly up in 2028, then erosion of a branded oral to a small residual through 2030-2031 gives a terminal-year figure around $60M, which is a five-year CAGR of about -25%. That is my number, and I want to be explicit that it lands almost exactly on the -26.6% the market is already implying. The market is not making a mistake here; it is doing the same arithmetic.",
+  "key_risks": [
+    "Single-product dependence on LINZESS with a licensed generic entry date of March 2029 inside the valuation window",
+    "$385M drawn on the revolver against $79.1M of cash, on an asset that is contractually shrinking from 2029",
+    "Ironwood controls neither the commercialisation nor the litigation \u2014 AbbVie does, and splits the profit",
+    "Apraglutide is running a CONFIRMATORY Phase 3 that began recruiting in June 2026; data is a 2028 event at the earliest, i.e. after the cliff starts"
+  ],
+  "watch_for": [
+    "Any change to the March 2029 generic entry date, or resolution of the pending 72mcg/145mcg/290mcg ANDAs \u2014 the single input this name turns on",
+    "Revolver balance at each quarter end: whether the harvest is actually retiring debt as management says",
+    "STARS-2 enrolment completion and the read-out timeline for apraglutide",
+    "Any business development spending, which management explicitly excluded from 2026 guidance"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1446847/000110465926091625/tm2622244d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1446847/000110465926091987/irwd-20260630x10q.htm",
+    "https://www.businesswire.com/news/home/20200122005460/en/Ironwood-and-Allergan-Announce-Settlement-with-Teva-Resolving-LINZESS-linaclotide-Patent-Litigation",
+    "https://www.drugs.com/availability/generic-linzess.html",
+    "https://www.biospace.com/press-releases/ironwood-pharmaceuticals-raises-2026-full-year-financial-guidance-building-on-strong-second-quarter-results",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/13/ironwood-irwd-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": []
+}

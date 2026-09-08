@@ -1,0 +1,191 @@
+{
+  "ticker": "LPG",
+  "date": "2026-09-08",
+  "sector": "Energy",
+  "name": "DORIAN LPG",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": -0.05,
+  "bear_growth": -0.2,
+  "bull_growth": 0.05,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 55.20000076293945,
+  "market_implied_growth": -0.09854621295978322,
+  "cohort_pct": 72.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.05,
+    "market_implied_growth": -0.09854621295978322,
+    "growth_delta": 0.048546212959783216,
+    "fair_value": 70.28196687472888,
+    "price": 55.20000076293945,
+    "gap": 0.27322401998797186,
+    "fair_value_band": {
+      "low": 59.736116320293576,
+      "point": 70.28196687472888,
+      "high": 85.23087114203145
+    },
+    "fcff_base_used": 245318181.16666666,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.07769264868173682,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 245318181.16666666,
+      "price": 55.20000076293945,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.2,
+          "cells": [
+            {
+              "wacc": 0.05769264868173682,
+              "fair_value": 48.17348390202788,
+              "gap": -0.12729197035861417
+            },
+            {
+              "wacc": 0.06769264868173683,
+              "fair_value": 38.41892493019776,
+              "gap": -0.3040049927681936
+            },
+            {
+              "wacc": 0.07769264868173682,
+              "fair_value": 32.01481002669913,
+              "gap": -0.4200215655034293
+            },
+            {
+              "wacc": 0.08769264868173682,
+              "fair_value": 27.477496705012737,
+              "gap": -0.5022192694703591
+            },
+            {
+              "wacc": 0.09769264868173683,
+              "fair_value": 24.087136078445766,
+              "gap": -0.5636388451896988
+            }
+          ],
+          "fair_value_at_point_wacc": 32.01481002669913,
+          "gap_at_point_wacc": -0.4200215655034293
+        },
+        {
+          "case": "base",
+          "growth": -0.05,
+          "cells": [
+            {
+              "wacc": 0.05769264868173682,
+              "fair_value": 108.0860634506583,
+              "gap": 0.9580808325500214
+            },
+            {
+              "wacc": 0.06769264868173683,
+              "fair_value": 85.23087114203145,
+              "gap": 0.5440374993482666
+            },
+            {
+              "wacc": 0.07769264868173682,
+              "fair_value": 70.28196687472888,
+              "gap": 0.27322401998797186
+            },
+            {
+              "wacc": 0.08769264868173682,
+              "fair_value": 59.736116320293576,
+              "gap": 0.08217600533802183
+            },
+            {
+              "wacc": 0.09769264868173683,
+              "fair_value": 51.89368934791168,
+              "gap": -0.05989694509655852
+            }
+          ],
+          "fair_value_at_point_wacc": 70.28196687472888,
+          "gap_at_point_wacc": 0.27322401998797186
+        },
+        {
+          "case": "bull",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.05769264868173682,
+              "fair_value": 174.02623156380483,
+              "gap": 2.1526490789587767
+            },
+            {
+              "wacc": 0.06769264868173683,
+              "fair_value": 136.4480661460713,
+              "gap": 1.471885222104575
+            },
+            {
+              "wacc": 0.07769264868173682,
+              "fair_value": 111.90683394013558,
+              "gap": 1.027297688286779
+            },
+            {
+              "wacc": 0.08769264868173682,
+              "fair_value": 94.62442998407259,
+              "gap": 0.7142106644245225
+            },
+            {
+              "wacc": 0.09769264868173683,
+              "fair_value": 81.79762234232074,
+              "gap": 0.4818409639812644
+            }
+          ],
+          "fair_value_at_point_wacc": 111.90683394013558,
+          "gap_at_point_wacc": 1.027297688286779
+        }
+      ],
+      "summary": {
+        "bear": -0.4200215655034293,
+        "base": 0.27322401998797186,
+        "bull": 1.027297688286779
+      },
+      "downside": -0.5636388451896988,
+      "upside": 2.1526490789587767
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am refusing a name that is genuinely cheap on cash flow the company has already contracted. This is not a forecast of a good market \u2014 99% of the September quarter is FIXED above $88,000 a day, which is booked revenue, not a hope. At that rate the fleet earns roughly $600M of EBITDA annualised against a $2.5B enterprise value, and the balance sheet was just refinanced at SOFR plus 140bp for seven years, which is a lender's vote of confidence. The company has already returned $1 billion to shareholders. If a screener cannot say a shipping company is cheap at 4x EBITDA with contracted rates, it will never say anything about shipping at all.",
+    "what_would_prove_it": "Whether the $88,000 per day rate is a level or a spike \u2014 which is answered by the shape of the company's own recent history and by the orderbook, not by the current fixture list.",
+    "already_visible": "Yes, and it is decisive against the counter-argument. The engine's own FCFF series is $141.4M, $149.8M and $379.0M: this company's free cash flow has already swung by a factor of 2.7 inside three years, and the fiscal year that just ended was one of the weak ones. A rate that is simultaneously an all-time record AND 16% above the record set one quarter earlier is a spike, not a level, and the standing lesson is explicit that a peak can fill the whole window and that mean-reversion theses on cyclicals are usually early \u2014 which applies to the cheapness case here. Dorian's own management is behaving consistently with a peak: they are selling the Clermont and ordering replacement tonnage for 2030, i.e. taking money off the table now and putting steel in the water for later. Separately, the +139% gap is not a valuation signal at all. Beta is 0.66 on an R-squared of 0.07, which is the failed-beta bias from the standing lessons in its purest form and in the sector where it is most concentrated: VLGC shipping is among the highest-beta, most cyclical asset classes there is, and a 7.8% WACC on it is not credible. At a defensible shipping beta of 1.2 to 1.4 the WACC moves to roughly 10.5-11.5% and the implied growth moves from -9.9% to around flat \u2014 cheap to fairly priced, on the discount rate alone.",
+    "unresolved": "I cannot forecast VLGC spot rates and I will not pretend to. I also did not read the FY2026 10-K's fleet employment or drydocking schedule, so I do not know how much of the fleet is on time charter versus spot beyond the September-quarter fixture disclosure, and I do not know the payment schedule on the $345M of newbuildings \u2014 whether it is 20% on signature or back-end weighted materially changes free cash flow in 2027-2029. That schedule is one dispatch away and I chose not to spend it, because it would refine a number inside a range that is already wider than the stock price."
+  },
+  "what_changed": "2026-09-04 8-K (items 1.01, 2.03, 7.01, 8.01, 9.01), three things at once. First, Dorian contracted with Hanwha Ocean for three 90,000 cbm dual-fuel Panamax VLGCs for delivery in June, September and December 2030, for a total price of approximately $345 million \u2014 a capital commitment equal to roughly 14% of the current market capitalisation that appears nowhere in this model. Second, forward chartering: 99% of Q2 FY2027 calendar days fixed at above $88,000 per day, an all-time record and above the prior record of $75,926. Third, on 2026-09-02 a new seven-year $368.4M credit facility at SOFR plus 140bp, comprising a $213.4M term loan and a $155.1M revolver with a $200M accordion, refinancing the 2023 A&R Facility, the Cougar and Cresques Japanese financings and the Commander tranche of BALCAP; $193.8M drawn at close plus $16M on the revolver to refinance the Clermont, which is being delivered to new owners in October. Earlier: Q1 FY2027 (2026-08-05) record results \u2014 record TCE revenue per available day of $75,926, revenue $187.9M, net income $138.3M, EPS $3.25.",
+  "consensus_case": "Dorian owns twenty-five modern VLGCs into the strongest freight market the sector has ever seen, and the market is paying for that. On 2026-09-04 the company disclosed that for the quarter ending 2026-09-30 it has fixed 99% of its calendar days at a rate in excess of $88,000 per day, before any demurrage. That is above the record $75,926 per available day it earned in the June quarter, which itself produced record TCE revenue, revenue of $187.9M, net income of $138.3M and $1 billion of cumulative shareholder returns. The drivers named on the call are real and dated: Middle East LPG supply disruption and Panama Canal congestion, both of which lengthen ton-miles. Twenty-five ships at $88,000 a day is roughly $760M of annualised TCE revenue against vessel operating costs of order $100M, so at spot rates the company is generating something like $600M of EBITDA against a $2.5B enterprise value \u2014 barely four times. The bull case needs nothing more than for the current market to persist, and the stock is up 97.2% over 252 days because that is what people are underwriting.",
+  "base_case_rationale": "There is no defensible five-year FCFF growth rate for a VLGC owner, and the number I supply is a placeholder for a refusal rather than a forecast. The engine's $245.3M base is the mean of $141.4M, $149.8M and $379.0M \u2014 it spans a cyclical peak and a trough and describes no particular state of the world, and the model's own flag reads it as a trough and tells me that applying growth to it understates value. That flag is exactly backwards about which direction the risk runs: the newest year in the window was weak, but the CURRENT quarter is the best in the company's history, so what the engine calls a trough base is being priced by a market looking at a peak. I am setting -5% because mean reversion from an all-time-record spot rate is the single most likely path for a shipping company's cash flow over five years, and because $345M of newbuild capex has just been committed against 2030 deliveries that produce no revenue inside the window. But the honest statement is that the spread between my bear and bull cases is wider than the share price, and a point estimate here would claim a precision that does not exist.",
+  "key_risks": [
+    "TCE of $88,000+ per day is an all-time record and 16% above the record set one quarter earlier \u2014 the base case for any cyclical at a record is reversion",
+    "Beta of 0.66 with an R-squared of 0.07 produces a 7.8% WACC on a VLGC owner; the entire +139% gap is plausibly this measurement error",
+    "$345M of newbuild capex committed 2026-09-04 for 2030 delivery is roughly 14% of market cap and is absent from the model",
+    "The global VLGC orderbook, which Dorian has just added to, delivers into the back half of the window"
+  ],
+  "watch_for": [
+    "The next forward-chartering disclosure: whether the December quarter fixes near $88,000 or steps down sharply",
+    "Panama Canal transit availability and any normalisation of Middle East LPG supply \u2014 the two named drivers of the current rate",
+    "The payment schedule on the three Hanwha newbuildings as it appears in the next 10-Q",
+    "Further vessel sales, which would confirm management is treating this as a peak"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000041/lpg-20260902xex99d1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000041/lpg-20260902x8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000038/lpg-20260805xex99d1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000035/lpg-20260630x10q.htm",
+    "https://finance.yahoo.com/energy/articles/dorian-lpg-ltd-announces-vlgc-100000899.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/06/dorian-lpg-lpg-q1-2027-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/doriang-lpg-stock-still-looks-011320209.html"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.37x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

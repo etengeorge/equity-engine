@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>IBP — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / IBP</p><h1>IBP <span style='color:var(--faint);font-weight:400'>INSTALLED BUILDING PRODUCTS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$238.57</b></div><div>Analyst gap<b>-40%</b></div><div>Dated<b>2026-09-08</b></div></div><div class='prose'><h1>IBP — INSTALLED BUILDING PRODUCTS</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-08 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $238.57 · fair value $142.24 · gap -40.4%</li><li><strong>Growth:</strong> market implies +15.2%, analyst says +4.0% (delta -11.2%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.6% | 8.6% | 9.6% | 10.6% | 11.6% | |---|---|---|---|---|---|---| | bear | +0.0% | $165.26 | $137.01 | $116.14 | $100.10 | $87.37 | | base | +4.0% | $201.84 | $167.55 | $142.24 | $122.79 | $107.38 | | bull | +9.0% | $255.73 | $212.47 | $180.57 | $156.07 | $136.68 |</p><p>At the point WACC of 9.6%: bear -51.3%, base -40.4%, bull -24.3% Across the whole grid the gap ranges -63.4% to +7.2% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Installed Building Products is one of two national scale players in a fragmented insulation-installation industry, and the market is paying for the consolidation machine rather than for this year&#x27;s housing cycle. IBP buys small installers at mid-single-digit multiples, plugs them into a 250-branch national network and national manufacturer purchasing, and compounds. The 5-year revenue CAGR of 12.4% is the record of that machine working. Q2 2026 revenue grew 2.3% to $777.8M in a soft single-family market, with commercial same-branch sales up 10.4% proving a genuine second leg away from residential new construction, and adjusted EBITDA margin of 16.9% is still near the high end of anything this industry has earned. Management is buying back stock aggressively — 365,000 shares for $76.2M in Q2 alone, with $398M still authorised — which says they think the stock is cheap against a normalized housing environment. On a view that single-family starts are trough-ish and that mortgage rates fall, the earnings base is depressed, not peak, and a 15.2% five-year FCFF CAGR is what a recovery plus continued M&amp;A plus a shrinking share count delivers.</p><p><strong>What changed.</strong> Q2 2026 (2026-08-06): net revenue $777.8M, +2.3% year over year, but consolidated SAME BRANCH net revenue was DOWN 0.6%, with residential same-branch sales in the Installation segment down 6.1% and commercial same-branch up 10.4%. Gross profit fell 0.4% to $258.9M and gross margin declined to 33.3% from 34.2%, hurt by segment mix and higher fuel expense. Adjusted selling and administrative expense rose to 18.9% of revenue from 18.8% on higher medical insurance. EBITDA fell 3.3% to $124.0M and adjusted EBITDA fell 2.3% to $130.9M, with margin at 16.9% against 17.6%. First-half revenue was $1,438.3M against $1,445.1M — down 0.5% year over year. Repurchased ~365,000 shares for $76.2M in Q2; $398M remains authorised to 2027-03-01. A 2026-05-19 8-K discloses the Diamond Energy Systems transaction, consistent with continued tuck-in M&amp;A. No company-specific news in the store for 90 days, so I am relying on the filings.</p><p><strong>Base case.</strong> The naive baseline of 12.4% is the single most misleading number on this brief, and the reason is visible in the engine&#x27;s own FCFF series: annual free cash flow, newest first, is $300.8M, $251.4M and $278.6M. That is FLAT — no growth at all across three years in which revenue compounded at 12.4%. The cash the acquisitions generated went straight back out to buy the next acquisition, and margins peaked. So revenue CAGR is not a proxy for FCFF growth at this company; it is the exact trap the baseline is designed to be replaced by. Underneath, the business today is shrinking organically: same-branch revenue is down 0.6% consolidated and down 6.1% in residential, which is roughly 80% of the Installation segment&#x27;s end market, while gross margin has given back 90bp and adjusted EBITDA is down 2.3% year over year. My base case of 4% assumes the residential drag stops getting worse but does not reverse quickly, commercial keeps growing at a double-digit rate off a smaller base, tuck-in M&amp;A continues at the historical pace funded from free cash flow, and gross margin stabilises around 33%. That is a real business growing at roughly nominal GDP plus a point of consolidation — which is what IBP has actually delivered in free cash flow terms, as opposed to in revenue terms.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am calling a cyclical trough a structural ceiling — the classic way to be wrong on a housing name. IBP&#x27;s earnings are not at a peak: adjusted EBITDA is DOWN year over year, residential volume is down 6.1%, and single-family starts are depressed by mortgage rates that will not stay at current levels forever. If I am modelling a trough as normal, then a 15.2% five-year FCFF CAGR off a depressed 2026 base is not demanding at all — it is what a normal cyclical recovery plus the consolidation machine produces mechanically, and I would be recommending against a good business at the wrong point in its cycle. The standing lesson cuts this way too: small-cap mean-reversion theses are usually early, and that applies to bearish ones as much as bullish ones. Management, who know more than I do, are spending $76.2M a quarter buying the stock.</li><li>What would prove it: Whether IBP&#x27;s free cash flow actually expands when volume recovers, or whether it gets consumed by acquisitions and working capital as it did in the last upcycle. The specific test is the FCFF series against the revenue series: if a 12.4% revenue CAGR produced zero FCFF growth in the good years, a recovery will not produce 15.2% FCFF growth either.</li><li>Already visible today: Yes, and this is what stops the devil&#x27;s advocate from winning. The evidence is on the face of the brief: three years of FCFF at $300.8M, $251.4M and $278.6M, flat, spanning the strongest new-construction cycle in twenty years AND the 12.4% revenue CAGR the baseline is built on. The company has never converted revenue growth into free cash flow growth at anything like 15%. What I could not answer is the cyclical-timing half — I have no dated catalyst for when residential same-branch turns, and I accept that if starts inflect hard in 2027 my 4% will look too low. That is why the bull case is 9% and not 6%.</li><li>Left unresolved: I have no view on the path of mortgage rates or single-family starts, and that is the dominant variable in the bear-to-bull spread. I also did not read the 10-Q&#x27;s acquisition footnote, so I cannot say how much of the 2.3% headline revenue growth was bought versus organic beyond what the same-branch disclosure implies (roughly 2.9 points of the 2.3% came from acquired branches).</li></ul><p><strong>Key risks.</strong> Single-family new construction is the dominant end market and is contracting: residential same-branch revenue down 6.1% year over year; Operating leverage runs both ways — adjusted EBITDA margin has already given back 70bp to 16.9%; Acquisition-led growth has historically consumed all of the free cash flow it generated, so the consolidation story does not compound FCFF; I am modelling what may be a cyclical trough as a normal level; if starts inflect in 2027 this verdict is early and wrong <strong>Watch for.</strong> Consolidated same-branch revenue turning positive — the single number that would move me from 4% toward the bull case; Whether gross margin stabilises at 33% or keeps eroding on mix and fuel; Free cash flow in a recovery year: if it finally breaks above the $300M ceiling it has sat under for three years, the FCFF-does-not-grow argument fails; Pace of buyback execution against the $398M remaining authorisation</p><p><strong>Data quality.</strong> No flags were raised on this name and I found nothing that should have raised one — the FCFF series is stable rather than lumpy, the balance sheet is dated 2026-06-30, there is no acquisition large enough inside the window to make the history incomparable, and I found no item 1.01, 2.01 or 3.02 filing that invalidates enterprise value or share count (the 2026-05-19 8-K is a routine Reg FD release on the Diamond Energy Systems transaction). Beta is 1.05 on an R-squared of 0.201, which is mid-pack rather than the sub-0.15 territory where the standing low-R-squared bias lives, so I am treating the 9.6% WACC as usable. The one thing I want on the record is not a flag but a trap: the +12.4% naive baseline is a revenue CAGR being applied to a free cash flow series that did not grow at all over the same period ($300.8M / $251.4M / $278.6M). That is the whole reason the brief&#x27;s gap reads only -11.5% instead of something much larger, and it is why my number is 4% rather than 12.4%.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-q22026earningsrelease.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-q22026earningsrelease.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1580905/000158090526000045/ibp-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1580905/000158090526000045/ibp-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-diamondenergysystemspr.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-diamondenergysystemspr.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1580905/000158090526000004/ibp-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1580905/000158090526000004/ibp-20251231.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/IBP.md'>research/Consumer Discretionary/IBP.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

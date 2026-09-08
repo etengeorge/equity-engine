@@ -1,0 +1,45 @@
+# IBP — INSTALLED BUILDING PRODUCTS
+*Consumer Discretionary · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-08 — RICH (conviction: medium)
+
+- **Verdict:** rich · price $238.57 · fair value $142.24 · gap -40.4%
+- **Growth:** market implies +15.2%, analyst says +4.0% (delta -11.2%)
+
+**Scenarios.** Fair value at each growth case, across the discount rate.
+
+| case | growth | 7.6% | 8.6% | 9.6% | 10.6% | 11.6% |
+|---|---|---|---|---|---|---|
+| bear | +0.0% | $165.26 | $137.01 | $116.14 | $100.10 | $87.37 |
+| base | +4.0% | $201.84 | $167.55 | $142.24 | $122.79 | $107.38 |
+| bull | +9.0% | $255.73 | $212.47 | $180.57 | $156.07 | $136.68 |
+
+At the point WACC of 9.6%: bear -51.3%, base -40.4%, bull -24.3%
+Across the whole grid the gap ranges -63.4% to +7.2% — that spread is the honest precision of this model, not the point estimate.
+
+**The case for the price.** Installed Building Products is one of two national scale players in a fragmented insulation-installation industry, and the market is paying for the consolidation machine rather than for this year's housing cycle. IBP buys small installers at mid-single-digit multiples, plugs them into a 250-branch national network and national manufacturer purchasing, and compounds. The 5-year revenue CAGR of 12.4% is the record of that machine working. Q2 2026 revenue grew 2.3% to $777.8M in a soft single-family market, with commercial same-branch sales up 10.4% proving a genuine second leg away from residential new construction, and adjusted EBITDA margin of 16.9% is still near the high end of anything this industry has earned. Management is buying back stock aggressively — 365,000 shares for $76.2M in Q2 alone, with $398M still authorised — which says they think the stock is cheap against a normalized housing environment. On a view that single-family starts are trough-ish and that mortgage rates fall, the earnings base is depressed, not peak, and a 15.2% five-year FCFF CAGR is what a recovery plus continued M&A plus a shrinking share count delivers.
+
+**What changed.** Q2 2026 (2026-08-06): net revenue $777.8M, +2.3% year over year, but consolidated SAME BRANCH net revenue was DOWN 0.6%, with residential same-branch sales in the Installation segment down 6.1% and commercial same-branch up 10.4%. Gross profit fell 0.4% to $258.9M and gross margin declined to 33.3% from 34.2%, hurt by segment mix and higher fuel expense. Adjusted selling and administrative expense rose to 18.9% of revenue from 18.8% on higher medical insurance. EBITDA fell 3.3% to $124.0M and adjusted EBITDA fell 2.3% to $130.9M, with margin at 16.9% against 17.6%. First-half revenue was $1,438.3M against $1,445.1M — down 0.5% year over year. Repurchased ~365,000 shares for $76.2M in Q2; $398M remains authorised to 2027-03-01. A 2026-05-19 8-K discloses the Diamond Energy Systems transaction, consistent with continued tuck-in M&A. No company-specific news in the store for 90 days, so I am relying on the filings.
+
+**Base case.** The naive baseline of 12.4% is the single most misleading number on this brief, and the reason is visible in the engine's own FCFF series: annual free cash flow, newest first, is $300.8M, $251.4M and $278.6M. That is FLAT — no growth at all across three years in which revenue compounded at 12.4%. The cash the acquisitions generated went straight back out to buy the next acquisition, and margins peaked. So revenue CAGR is not a proxy for FCFF growth at this company; it is the exact trap the baseline is designed to be replaced by. Underneath, the business today is shrinking organically: same-branch revenue is down 0.6% consolidated and down 6.1% in residential, which is roughly 80% of the Installation segment's end market, while gross margin has given back 90bp and adjusted EBITDA is down 2.3% year over year. My base case of 4% assumes the residential drag stops getting worse but does not reverse quickly, commercial keeps growing at a double-digit rate off a smaller base, tuck-in M&A continues at the historical pace funded from free cash flow, and gross margin stabilises around 33%. That is a real business growing at roughly nominal GDP plus a point of consolidation — which is what IBP has actually delivered in free cash flow terms, as opposed to in revenue terms.
+
+**Devil's advocate.**
+- Strongest counter: That I am calling a cyclical trough a structural ceiling — the classic way to be wrong on a housing name. IBP's earnings are not at a peak: adjusted EBITDA is DOWN year over year, residential volume is down 6.1%, and single-family starts are depressed by mortgage rates that will not stay at current levels forever. If I am modelling a trough as normal, then a 15.2% five-year FCFF CAGR off a depressed 2026 base is not demanding at all — it is what a normal cyclical recovery plus the consolidation machine produces mechanically, and I would be recommending against a good business at the wrong point in its cycle. The standing lesson cuts this way too: small-cap mean-reversion theses are usually early, and that applies to bearish ones as much as bullish ones. Management, who know more than I do, are spending $76.2M a quarter buying the stock.
+- What would prove it: Whether IBP's free cash flow actually expands when volume recovers, or whether it gets consumed by acquisitions and working capital as it did in the last upcycle. The specific test is the FCFF series against the revenue series: if a 12.4% revenue CAGR produced zero FCFF growth in the good years, a recovery will not produce 15.2% FCFF growth either.
+- Already visible today: Yes, and this is what stops the devil's advocate from winning. The evidence is on the face of the brief: three years of FCFF at $300.8M, $251.4M and $278.6M, flat, spanning the strongest new-construction cycle in twenty years AND the 12.4% revenue CAGR the baseline is built on. The company has never converted revenue growth into free cash flow growth at anything like 15%. What I could not answer is the cyclical-timing half — I have no dated catalyst for when residential same-branch turns, and I accept that if starts inflect hard in 2027 my 4% will look too low. That is why the bull case is 9% and not 6%.
+- Left unresolved: I have no view on the path of mortgage rates or single-family starts, and that is the dominant variable in the bear-to-bull spread. I also did not read the 10-Q's acquisition footnote, so I cannot say how much of the 2.3% headline revenue growth was bought versus organic beyond what the same-branch disclosure implies (roughly 2.9 points of the 2.3% came from acquired branches).
+
+**Key risks.** Single-family new construction is the dominant end market and is contracting: residential same-branch revenue down 6.1% year over year; Operating leverage runs both ways — adjusted EBITDA margin has already given back 70bp to 16.9%; Acquisition-led growth has historically consumed all of the free cash flow it generated, so the consolidation story does not compound FCFF; I am modelling what may be a cyclical trough as a normal level; if starts inflect in 2027 this verdict is early and wrong
+**Watch for.** Consolidated same-branch revenue turning positive — the single number that would move me from 4% toward the bull case; Whether gross margin stabilises at 33% or keeps eroding on mix and fuel; Free cash flow in a recovery year: if it finally breaks above the $300M ceiling it has sat under for three years, the FCFF-does-not-grow argument fails; Pace of buyback execution against the $398M remaining authorisation
+
+**Data quality.** No flags were raised on this name and I found nothing that should have raised one — the FCFF series is stable rather than lumpy, the balance sheet is dated 2026-06-30, there is no acquisition large enough inside the window to make the history incomparable, and I found no item 1.01, 2.01 or 3.02 filing that invalidates enterprise value or share count (the 2026-05-19 8-K is a routine Reg FD release on the Diamond Energy Systems transaction). Beta is 1.05 on an R-squared of 0.201, which is mid-pack rather than the sub-0.15 territory where the standing low-R-squared bias lives, so I am treating the 9.6% WACC as usable. The one thing I want on the record is not a flag but a trap: the +12.4% naive baseline is a revenue CAGR being applied to a free cash flow series that did not grow at all over the same period ($300.8M / $251.4M / $278.6M). That is the whole reason the brief's gap reads only -11.5% instead of something much larger, and it is why my number is 4% rather than 12.4%.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-q22026earningsrelease.htm
+- https://www.sec.gov/Archives/edgar/data/1580905/000158090526000045/ibp-20260630.htm
+- https://www.sec.gov/Archives/edgar/data/1580905/000162828026036136/ibp-diamondenergysystemspr.htm
+- https://www.sec.gov/Archives/edgar/data/1580905/000158090526000004/ibp-20251231.htm

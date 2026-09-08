@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>BCPC — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / BCPC</p><h1>BCPC <span style='color:var(--faint);font-weight:400'>BALCHEM</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$171.61</b></div><div>Analyst gap<b>-37%</b></div><div>Dated<b>2026-09-08</b></div></div><div class='prose'><h1>BCPC — BALCHEM</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-08 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $171.61 · fair value $107.78 · gap -37.2%</li><li><strong>Growth:</strong> market implies +19.1%, analyst says +8.0% (delta -11.1%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 5.2% | 6.2% | 7.2% | 8.2% | 9.2% | |---|---|---|---|---|---|---| | bear | +3.0% | $142.51 | $107.60 | $86.17 | $71.68 | $61.23 | | base | +8.0% | $179.10 | $134.89 | $107.78 | $89.46 | $76.25 | | bull | +12.0% | $213.52 | $160.54 | $128.05 | $106.11 | $90.30 |</p><p>At the point WACC of 7.2%: bear -49.8%, base -37.2%, bull -25.4% Across the whole grid the gap ranges -64.3% to +24.4% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Balchem is a genuine compounder and the market is paying for duration, not for the next five years. It holds a dominant position in choline and encapsulation chemistry, sells into human nutrition, animal nutrition and specialty markets with real pricing power, earns high returns on capital, and has a long history of bolt-on acquisitions that it integrates well. Q2 2026 was a record quarter on every line — record net sales of $284.0M, record net earnings of $44.6M (+16.6% year over year), record adjusted EBITDA of $77.9M — with growth in all three reporting segments and Human Nutrition and Health up 10.0% to $176.9M with record segment earnings of $42.4M. Earnings per share are compounding in the mid-teens. A 2.5% FCFF yield on a business like that is not a forecast that free cash flow grows 19% for five years; it is a statement that the terminal value is long and the cash flows are exceptionally safe, and a two-stage model with terminal growth pinned at 2.0% will always call such a business expensive.</p><p><strong>What changed.</strong> Q2 2026 (2026-07-31): record net sales $284.0M; GAAP net earnings $44.6M, up 16.6% year over year; diluted EPS $1.39 against $1.17 (six months $2.63 against $2.30); record adjusted EBITDA $77.9M; cash from operations $46.7M with free cash flow of $36.2M. Human Nutrition and Health record sales of $176.9M, up $16.1M or 10.0%, with record segment earnings from operations of $42.4M, up 10.5%, partly offset by higher manufacturing costs. Management describes healthy growth in all three segments. A 2026-07-27 8-K carries items 1.01 and 2.03 — a material agreement and a new debt obligation — which on the timing looks like a credit facility refinancing rather than an acquisition, though I did not read the agreement itself. No company-specific news in the store for the last 90 days.</p><p><strong>Base case.</strong> The question is not whether Balchem is a good business — it plainly is — but what five-year free cash flow growth the price requires and whether the company has ever produced it. The engine&#x27;s own series answers that: FCFF of $167.5M, $145.9M and $151.7M, newest first, which is about 5% a year of growth over two years. Earnings are compounding faster than cash flow, in the mid-teens, and the gap is capex and working capital as Balchem builds capacity. My 8% splits the difference and is deliberately generous relative to the cash record: it assumes high-single-digit organic revenue growth led by Human Nutrition at its current 10%, modest margin expansion as the new capacity fills, and continued bolt-on M&amp;A funded internally. What it does not assume is the +19.1% the price requires at the engine&#x27;s 7.2% WACC — and the honest hurdle is higher still, because stock compensation is 11% of the FCFF base and reported operating cash flow adds it back as though it were free. It is not free; it is a real transfer to employees. Expensing it takes the FCFF base to $121.1M and the required growth to +22.5%. I am explicitly underwriting the stock-compensation-expensed version, so the number my 8% has to beat is 22.5%, not 19.1%.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That calling a high-quality compounder &#x27;rich&#x27; on a two-stage DCF is the single most reliably wrong trade of the last fifteen years, and that the model&#x27;s structure — not Balchem&#x27;s price — is what produces the answer. Terminal growth is pinned at 2.0%, which is a choice, not a fact, and it is the wrong choice for a business that can plausibly grow at nominal GDP plus a couple of points indefinitely with pricing power and a 60%-plus share in choline. Raise terminal growth to 3% and the required five-year growth falls materially, because most of the value in a 2.5%-yield asset sits in the terminal. On top of that the model discounts at only 7.2% — so it is simultaneously being generous on the discount rate and harsh on the terminal, and I should be suspicious of a verdict that depends on which of those two errors is larger.</li><li>What would prove it: Whether Balchem&#x27;s free cash flow can actually compound in the high teens for a sustained period, or whether it stays in the mid-single digits while earnings run ahead of it. The specific observable is the multi-year FCFF series against the EPS series.</li><li>Already visible today: Yes, and it is why the counter-argument does not flip the verdict. Free cash flow of $167.5M / $145.9M / $151.7M is roughly 5% growth while diluted EPS went from $1.17 to $1.39 in the quarter — the divergence between earnings and cash is visible and persistent, and it is the cash flow the DCF discounts. Even granting the terminal-growth objection in full, the gap between a demonstrated ~5%, my generous 8%, and a required 22.5% is not a modelling quibble; it is a factor of three. The beta point also runs my way rather than against me for once: beta is 0.45 on an R-squared of 0.161, and the standing lesson is that a poorly fitted regression attenuates beta toward zero and understates WACC. Correcting Balchem&#x27;s beta upward would RAISE the required growth above 22.5%, making the name look richer still, not cheaper. That is the rare case where the known engine bias reinforces the conclusion instead of manufacturing it.</li><li>Left unresolved: I did not read the 2026-07-27 item-1.01/2.03 agreement, so I cannot rule out that it is an acquisition rather than a refinancing — if it were a large acquisition it would change both enterprise value and the forward cash flow base. Given the 3% debt weight in the model I think that is unlikely, but I did not verify it. I also cannot resolve the terminal-growth objection, because it is a question about the model&#x27;s constants rather than about Balchem, and this engine gives me no way to override them.</li></ul><p><strong>Key risks.</strong> The valuation is almost entirely terminal value at a 2.5% FCFF yield, so it is highly sensitive to the terminal growth and discount rate constants rather than to Balchem&#x27;s operations; Free cash flow has grown at roughly 5% a year while earnings compound in the mid-teens — capex and working capital are absorbing the difference; Stock compensation is 11% of the FCFF base and is added back as free cash flow; expensing it raises the required growth from 19.1% to 22.5%; Agricultural and animal-nutrition cyclicality in two of the three segments <strong>Watch for.</strong> Free cash flow conversion: whether FCF starts tracking earnings growth as the capacity investment cycle completes; Human Nutrition and Health growth holding at or above 10% for another two or three quarters; Whether the 2026-07-27 material agreement turns out to be an acquisition, which would reset the cash flow base; Any sign that higher manufacturing costs are becoming a persistent margin drag rather than a quarterly offset</p><p><strong>Data quality.</strong> No flags were raised and I found none that should have been. The FCFF series ($167.5M / $145.9M / $151.7M) is stable and non-lumpy, the balance sheet is current, share count is not stale, and I found no completed acquisition or equity issuance inside the window that would invalidate enterprise value. Verified against the Q2 release: net sales $284.0M, net earnings $44.6M, adjusted EBITDA $77.9M, cash from operations $46.7M, free cash flow $36.2M — the $36.2M quarterly figure annualises to roughly $145M and is consistent with the engine&#x27;s $138.0M FCFF base, so the base is a fair representation of current cash generation rather than a peak or a trough. Two items are open. First, I did not read the 2026-07-27 item-1.01/2.03 agreement and so cannot confirm it is a refinancing rather than an acquisition. Second, beta of 0.45 sits on an R-squared of 0.161, below the ~0.15-0.20 threshold where the standing low-R-squared bias becomes unreliable — but here the bias understates the discount rate and therefore understates how demanding the price is, so correcting it would strengthen this verdict rather than weaken it.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/exhibit991-q22026.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/exhibit991-q22026.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/9326/000000932626000028/bcpc-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/9326/000000932626000028/bcpc-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/9326/000000932626000007/bcpc-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/9326/000000932626000007/bcpc-20251231.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/BCPC.md'>research/Materials/BCPC.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,67 @@
+{
+  "ticker": "AUB",
+  "date": "2026-09-08",
+  "sector": "Financials",
+  "name": "ATLANTIC UNION BANKSHARES",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.16,
+  "horizon_months": 24,
+  "price_at_verdict": 40.90999984741211,
+  "market_implied_growth": null,
+  "cohort_pct": 34.5,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.16,
+    "screen_rotce": 0.10445422824315313,
+    "justified_p_tbv": 1.481462717322218,
+    "actual_p_tbv": 1.9755762585466043,
+    "tangible_book_per_share": 20.70788190049867,
+    "fair_value": 30.677954990300332,
+    "price": 40.90999984741211,
+    "gap": -0.2501110949712956,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_41%_of_book"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That 16% is too conservative and the name is simply fairly priced. The bank is earning 20.1% on an adjusted basis right now, not as a one-quarter spike but with the margin expanding, and a Gordon P/TBV with terminal growth pinned at 2% is a structurally harsh frame for a bank compounding loans at 8% organically. At 20.1% the justified multiple is 1.91 against an actual 1.98 \u2014 a 4% gap, i.e. nothing. Even at my own 16%, if I set terminal growth to 4% to match nominal loan growth the justified multiple rises to 1.60 and the gap narrows from -26% to -19%. So the entire 'rich' reading depends on my haircut to a return the company is demonstrably earning, and on a terminal growth constant that is a choice rather than a fact.",
+    "what_would_prove_it": "The quarterly path of adjusted operating ROTCE and of net interest margin over the next three to four quarters, read together with the disclosed purchase-accounting accretion. If ROTCE holds near 19-20% while NIM stays at or above 3.89% AND accretion income is a shrinking share of it, the 20% is operating and 16% is wrong. If ROTCE steps down toward the mid-teens as accretion runs off, 16% is right.",
+    "already_visible": "Partially, and it cuts against me on direction while supporting me on structure. Visible today: adjusted operating ROTCE of 20.1% with NIM rising 9bp QoQ, and adjusted operating earnings up 6.2% QoQ driven by net interest income \u2014 that is not the profile of a return about to collapse. Also visible: TCE/tangible assets of 8.2% and 41% of book in goodwill and intangibles, which is what paying for Sandy Spring did and is precisely why the ROTCE denominator is small. What is NOT visible to me is the accretion split \u2014 the deck does not break out purchase-accounting accretion within the 3.89% NIM, and that single disclosure is what separates 16% from 20%.",
+    "unresolved": "I could not decompose the NIM into core and purchase-accounting accretion from the materials I read, so my 16% is a judgment about a run-off schedule I have not seen rather than a measurement. That is the whole width of the answer: 16% says rich by ~26%, 20.1% says fair by ~4%. I also have no company-specific news in the store for 90 days, so I am relying on the Q2 deck alone for anything after 2026-07-27."
+  },
+  "what_changed": "Q2 2026 (reported 2026-07-21, deck filed 2026-07-22 and 2026-07-27): adjusted operating ROTCE 20.1%, GAAP ROTCE 23.4%, adjusted operating ROA 1.47%, NIM 3.89% (+9bp QoQ), TCE $2.95B, GAAP net income to common $161M and adjusted operating $137M, diluted adjusted EPS $0.94. GAAP results include a $32.3M pre-tax gain on the sale of the equity interest in Bearing Insurance Group, which is excluded from the adjusted figures. Provision rose on reserve build for loan growth; ACL/loans 1.15%; TCE/tangible assets 8.2%. AFTER the 2026-06-30 balance sheet the bank issued $250M of 6.25% Fixed-to-Floating Rate Subordinated Notes due 2036 (underwriting agreement 2026-07-28, closing 8-K 2026-07-30). That is Tier 2 regulatory capital, not common equity, so it does not change tangible common equity or the book model; it is a modest ongoing drag on future ROTCE via interest cost. Neither July item-1.01 8-K is an acquisition \u2014 I checked both and they are the same notes offering. No company-specific news in the store for the last 90 days.",
+  "consensus_case": "Atlantic Union closed the Sandy Spring Bancorp merger on 2025-04-01 and is now the largest regional bank headquartered in the lower Mid-Atlantic, with $38.1B of assets, $30.5B of gross loans HFI and $28.7B of deposits. The market is paying 1.98x tangible book because the franchise is currently earning a 20.1% adjusted operating ROTCE (23.4% GAAP) on a 3.89% net interest margin that rose 9bp quarter over quarter, with an adjusted operating ROA of 1.47%, an efficiency ratio of 47.4% and $17B of wealth AUM giving genuinely diversified fee income ($57.9M of adjusted operating noninterest income in Q2). Merger costs are running off ($9.0M lower quarter over quarter), the integration is executing, and the bank is adding 10 branches in North Carolina. Total loan CAGR since 2017 is 18% headline and 8% organic. At a 11.5% cost of equity and 2% terminal growth, a 1.98x multiple is exactly what a bank sustainably earning ~20% on tangible equity is worth, so the price is not a judgment that AUB is expensive \u2014 it is a judgment that the post-merger return is real.",
+  "base_case_rationale": "This is a book-method name, so the number that matters is the sustainable ROTCE, and the engine's 10.4% is an artifact rather than an estimate. It is a three-year average of GAAP ROTCE spanning fiscal 2025, the year AUB closed Sandy Spring and absorbed merger charges plus the day-two CECL provision on the acquired book \u2014 the VLY lesson running in the same direction, where averaging a ratio across a distorted year describes a company that no longer exists. The company's own Q2 2026 adjusted operating ROTCE is 20.1%. I will not use 20.1% either: it is flattered by purchase-accounting accretion on the Sandy Spring loan book, which is inflating the 3.89% NIM and runs off over the next three to five years, and by a tangible common equity denominator that is currently depressed and will build as earnings retain and AOCI recovers. A normalized post-integration ROTCE for a well-run $38B Mid-Atlantic commercial bank with 8% organic loan growth and a real wealth business is 15-17%; I use 16%. Note that I verified the denominator rather than assuming it: TCE of $2.95B against ~142M shares gives $20.71 of tangible book per share and an actual P/TBV of 1.97, which reconciles to the brief's 1.98, so this is NOT the AII/BUR stale-tangible-book bug. Note also that the cost of equity is unusually defensible here \u2014 beta 1.21 with an R-squared of 0.586, by far the best regression in today's ten, so for once the discount rate is not the problem.",
+  "key_risks": [
+    "Purchase-accounting accretion from Sandy Spring is inflating both the NIM and the reported ROTCE, and neither the deck nor the engine separates it out",
+    "Commercial real estate concentration in the Virginia/Maryland/DC corridor against a 1.15% allowance for credit losses",
+    "41% of book value is goodwill and intangibles, so a franchise impairment would hit the tangible book the whole valuation is priced against",
+    "The $250M of 6.25% subordinated notes issued after the balance-sheet date is a permanent drag on ROTCE that no input in this model reflects"
+  ],
+  "watch_for": [
+    "Q3 2026 disclosure of purchase-accounting accretion as a component of net interest margin \u2014 the single number that decides whether sustainable ROTCE is 16% or 20%",
+    "Whether adjusted operating ROTCE holds above 19% for two more quarters as merger costs finish running off",
+    "Any further subordinated or preferred issuance that raises the cost of capital sitting ahead of common equity"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/883948/000110465926086873/tm2621266d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/883948/000110465926085612/tm2621039d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/883948/000110465926087206/tm2621299d2_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/883948/000110465926088743/tm2621600d1_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/883948/000088394826000073/aub-20260630x10q.htm",
+    "https://investors.atlanticunionbank.com/news-events/press-releases/detail/195/atlantic-union-bankshares-corporation-completes-acquisition"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_41%_of_book"
+  ]
+}
