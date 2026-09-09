@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-09T11:31:10+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ENVA",
+    "cik": 1529864,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-21",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/enva-20260821.htm",
+        "file": "2026-08-21-8-K-enva-20260821.htm.txt",
+        "chars": 5936,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-14",
+        "items": "1.01,2.03,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/enva-20260813.htm",
+        "file": "2026-08-14-8-K-enva-20260813.htm.txt",
+        "chars": 8082,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-23",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/enva-20260630.htm",
+        "file": "2026-07-23-10-Q-enva-20260630.htm.txt",
+        "chars": 186668,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-23",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/enva-20260723.htm",
+        "file": "2026-07-23-8-K-enva-20260723.htm.txt",
+        "chars": 3697,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-10",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/enva-20260710.htm",
+        "file": "2026-07-10-8-K-enva-20260710.htm.txt",
+        "chars": 4265,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-25",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526283034/enva-20260625.htm",
+        "file": "2026-06-25-8-K-enva-20260625.htm.txt",
+        "chars": 4221,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-13",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526221703/enva-20260513.htm",
+        "file": "2026-05-13-8-K-enva-20260513.htm.txt",
+        "chars": 4803,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-23",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/enva-20260331.htm",
+        "file": "2026-04-23-10-Q-enva-20260331.htm.txt",
+        "chars": 170097,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-23",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/enva-ex99_1.htm",
+        "file": "2026-07-23-EX-99.1.txt",
+        "chars": 25114,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-10",
+        "items": [
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/enva-ex99_1.htm",
+        "file": "2026-07-10-EX-99.1.txt",
+        "chars": 2773,
+        "truncated": false
+      }
+    ]
+  }
+}

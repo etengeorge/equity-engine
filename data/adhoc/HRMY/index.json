@@ -1,0 +1,204 @@
+{
+  "fetched_utc": "2026-09-09T11:30:52+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "HRMY",
+    "cik": 1802665,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090090/hrmy-20260630x10q.htm",
+        "file": "2026-08-04-10-Q-hrmy-20260630x10q.htm.txt",
+        "chars": 181434,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804x8k.htm",
+        "file": "2026-08-04-8-K-hrmy-20260804x8k.htm.txt",
+        "chars": 8127,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-16",
+        "items": "2.02,5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926084095/hrmy-20260716x8k.htm",
+        "file": "2026-07-16-8-K-hrmy-20260716x8k.htm.txt",
+        "chars": 8809,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926061237/hrmy-20260514x8k.htm",
+        "file": "2026-05-14-8-K-hrmy-20260514x8k.htm.txt",
+        "chars": 5095,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926056786/hrmy-20260507x8k.htm",
+        "file": "2026-05-07-8-K-hrmy-20260507x8k.htm.txt",
+        "chars": 8046,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926056720/hrmy-20260331x10q.htm",
+        "file": "2026-05-07-10-Q-hrmy-20260331x10q.htm.txt",
+        "chars": 173559,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-14",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926042886/hrmy-20260414x8k.htm",
+        "file": "2026-04-14-8-K-hrmy-20260414x8k.htm.txt",
+        "chars": 10527,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-02",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926038888/hrmy-20260331x8k.htm",
+        "file": "2026-04-02-8-K-hrmy-20260331x8k.htm.txt",
+        "chars": 13914,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804xex99d1.htm",
+        "file": "2026-08-04-EX-99.1.txt",
+        "chars": 23378,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804xex99d2.htm",
+        "file": "2026-08-04-EX-99.2.txt",
+        "chars": 15887,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-16",
+        "items": [
+          "2.02",
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926084095/hrmy-20260716xex99d1.htm",
+        "file": "2026-07-16-EX-99.1.txt",
+        "chars": 7345,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926056786/hrmy-20260507xex99d1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 21423,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926056786/hrmy-20260507xex99d2.htm",
+        "file": "2026-05-07-EX-99.2.txt",
+        "chars": 20470,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-14",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926042886/hrmy-20260414xex99d1.htm",
+        "file": "2026-04-14-EX-99.1.txt",
+        "chars": 4569,
+        "truncated": false
+      }
+    ]
+  }
+}

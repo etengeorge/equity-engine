@@ -1,0 +1,190 @@
+{
+  "fetched_utc": "2026-09-09T11:31:12+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "BKH",
+    "cik": 1130464,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-17",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-20260817.htm",
+        "file": "2026-08-17-8-K-bkh-20260817.htm.txt",
+        "chars": 10802,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526337444/bkh-20260630.htm",
+        "file": "2026-08-06-10-Q-bkh-20260630.htm.txt",
+        "chars": 186526,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-20260805.htm",
+        "file": "2026-08-05-8-K-bkh-20260805.htm.txt",
+        "chars": 3387,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-15",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-20260515.htm",
+        "file": "2026-05-15-8-K-bkh-20260515.htm.txt",
+        "chars": 10803,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526211037/bkh-20260331.htm",
+        "file": "2026-05-07-10-Q-bkh-20260331.htm.txt",
+        "chars": 147575,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526209210/bkh-20260506.htm",
+        "file": "2026-05-06-8-K-bkh-20260506.htm.txt",
+        "chars": 3382,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-01",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526198223/bkh-20260429.htm",
+        "file": "2026-05-01-8-K-bkh-20260429.htm.txt",
+        "chars": 4126,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-02",
+        "items": "5.07,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526140217/bkh-20260402.htm",
+        "file": "2026-04-02-8-K-bkh-20260402.htm.txt",
+        "chars": 6196,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-17",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "NWE Q2 2026 10-Q",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-ex99_1.htm",
+        "file": "2026-08-17-EX-99.1.txt",
+        "chars": 46140,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-17",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "PROFORMA STATEMENTS",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-ex99_2.htm",
+        "file": "2026-08-17-EX-99.2.txt",
+        "chars": 26313,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EARNINGS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-ex99.htm",
+        "file": "2026-08-05-EX-99.txt",
+        "chars": 33606,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-15",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "NWE Q1 2026 10-Q",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-ex99_1.htm",
+        "file": "2026-05-15-EX-99.1.txt",
+        "chars": 35675,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-15",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "PROFORMA STATEMENTS",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-ex99_2.htm",
+        "file": "2026-05-15-EX-99.2.txt",
+        "chars": 26262,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EARNINGS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526209210/bkh-ex99.htm",
+        "file": "2026-05-06-EX-99.txt",
+        "chars": 27282,
+        "truncated": false
+      }
+    ]
+  }
+}
