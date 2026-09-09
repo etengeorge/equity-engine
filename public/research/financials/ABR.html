@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ABR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / ABR</p><h1>ABR <span style='color:var(--faint);font-weight:400'>ARBOR REALTY TRUST REIT</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$5.01</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-09</b></div></div><div class='prose'><h1>ABR — ARBOR REALTY TRUST REIT</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-09 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $5.01</li></ul><p><strong>The case for the price.</strong> The market is not valuing Arbor&#x27;s book, it is discounting it. At $5.01 against a reported $10.95 of book value per share the stock trades at roughly 0.46x, and the reason is on the face of the Q2 2026 release: a GAAP net loss of $(37.3)M, distributable earnings down to $0.10 per diluted share from $0.25 a year earlier, a $38.2M net CECL provision in the quarter, nineteen non-performing loans with $428.8M of unpaid principal balance carried against only $31.1M of reserves, $545.9M of real estate owned (up from $498.9M six months earlier) with $13.6M of fresh impairments on two properties, and a portfolio yield falling to 7.21% from 7.50% because default and back interest are no longer being collected. Total non-performing assets are roughly $1.07 billion. Against $2.88B of total equity that is a credible reason to mark the book down by half, and the equity has returned -53% over twelve months while management guides to reducing the legacy book below $1B only by the end of 2027.</p><p><strong>What changed.</strong> Q2 2026 (2026-07-31): net loss $(37.3)M vs $24.0M profit a year earlier; distributable earnings $21.7M ($0.10/sh) vs $52.1M ($0.25/sh); $38.2M CECL provision; total allowance $163.4M; REO $545.9M; total equity down to $2,881.0M from $3,067.2M at 2025-12-31. Subsequent 8-Ks on 2026-08-03 (investor presentation on the multifamily portfolio and NPL resolution plan) and 2026-08-11 (item 1.01/2.03, new debt obligation). Non-performing loan count is flat at nineteen quarter over quarter while reserves against them rose from $16.1M to $31.1M.</p><p><strong>Base case.</strong> I am not supplying a sustainable ROTCE, because on this name the choice of that input IS the answer and I cannot defend any single value. See the devil&#x27;s-advocate and data-quality notes.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The bull case is genuinely strong and I want to state it properly. Arbor is not a bank marking to model: it has an agency business (Fannie Mae DUS) that is a real, separately valuable servicing franchise with a $24B+ servicing portfolio, and the CECL allowance on loss-sharing obligations is only 0.34% of it. If the legacy bridge book resolves at or near carrying value - and nineteen NPLs is a flat count, not a growing one - then book is roughly real, the company earns back toward a high-single-digit ROTCE as REO is sold, and 0.46x book is a large discount to a franchise that is not going away. Management is buying stock back (pro forma book rises to $11.59 after the buyback), which is what you do when you believe your own marks.</li><li>What would prove it: REO and non-performing loans actually converting to cash at or near carrying value over two or three quarters, with distributable earnings recovering toward $0.20+ per quarter, and the total non-performing asset balance falling rather than rotating from delinquency into REO.</li><li>Already visible today: The evidence available cuts both ways and does not settle it. NPL count is flat at nineteen and UPB fell from $481.5M to $428.8M, which supports the bull. But REO ROSE from $498.9M to $545.9M over the same six months, which is what it looks like when delinquent loans are foreclosed rather than repaid, and $26.2M of REO impairments have been taken year to date. Reserves against $428.8M of NPL UPB are $31.1M, or 7.3%, which is a thin mark on assets already in default. I cannot tell from outside which reading is right.</li><li>Left unresolved: Everything that matters. The value of this equity is the recovery on roughly $1.07B of non-performing assets, and I have no basis on which to mark them that the market does not also have. The devil&#x27;s advocate did not lose here - it fought to a draw, and that is why the verdict is no_model.</li></ul><p><strong>Key risks.</strong> Roughly $1.07B of non-performing assets against $2.88B of equity, reserved at 7.3% of NPL unpaid principal balance; REO growing while NPL balances fall - foreclosure, not repayment; Distributable earnings of $0.10 per quarter against a $0.17 dividend: the payout is not currently covered <strong>Watch for.</strong> Realised proceeds on REO dispositions against carrying value - the single observable that settles whether book is real; Total non-performing assets falling in absolute terms rather than rotating between delinquency and REO; Any further dividend action, which would tell you what management thinks distributable earnings normalise at</p><p><strong>Data quality.</strong> This name won an opportunistic slot at the 98th percentile of 339 Financials on a +127.3% gap, and the gap is not a valuation. Two flags fired and both are fatal. (1) <code>unstable_rotce_4.8%_to_13.6%</code>: the &#x27;sustainable&#x27; 9.3% is a three-year average of a range that spans a factor of nearly three, and the most recent quarter is a LOSS - trailing distributable earnings are running at $0.40 annualised on ~$12 of book, i.e. about 3.3%. (2) <code>rotce_numerator_includes_minority_interest_earnings</code>: the balance sheet carries $103.1M of non-controlling interest inside $2,881.0M of total equity, so the numerator and denominator are not the same entity. The sensitivity is total and it is the JXN test verbatim: at the engine&#x27;s 9.3% the justified P/TBV is 0.95 against an actual 0.42, a +127% gap; at 6.5% it is 0.58; at 5.0% it is 0.39, i.e. fair; at the current 3.3% run rate it is 0.17, which says the stock is nearly three times too EXPENSIVE. One defensible input choice moves the answer from +127% to -60%, so the output is not a valuation and I am recording no fair value. Separately, tangible book per share is close but not exactly reconcilable: the engine reads $12.03 while the company reports $10.95 at 2026-06-30 (pro forma $11.59 after buyback), a difference that looks like preferred and OP-unit treatment rather than the AII/BUR stale-book bug - equity of $2,881.0M is the current 2026-06-30 figure, not the December one. Note also that ABR is a mortgage REIT priced by the <code>book</code> method because it is classified in Financials; CLAUDE.md&#x27;s own rule assigns REITs to <code>none</code>, and this name is a good argument for that rule.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1253986/000125398626000048/abr-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1253986/000125398626000048/abr-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1253986/000125398626000047/abr-20260731.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1253986/000125398626000047/abr-20260731.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1253986/000125398626000051/abr-7312026x8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1253986/000125398626000051/abr-7312026x8k.htm</a></li><li><a href="https://www.stocktitan.net/news/ABR/arbor-realty-trust-reports-second-quarter-2026-results-and-declares-76bhegwkjyjd.html" rel="noopener">https://www.stocktitan.net/news/ABR/arbor-realty-trust-reports-second-quarter-2026-results-and-declares-76bhegwkjyjd.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/ABR.md'>research/Financials/ABR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

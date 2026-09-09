@@ -1,0 +1,185 @@
+{
+  "ticker": "HRMY",
+  "date": "2026-09-09",
+  "sector": "Health Care",
+  "name": "HARMONY BIOSCIENCES HLDG",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": -0.15,
+  "bear_growth": -0.22,
+  "bull_growth": -0.05,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 42.06999969482422,
+  "market_implied_growth": -0.11865447683142966,
+  "cohort_pct": 98.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.15,
+    "market_implied_growth": -0.11865447683142966,
+    "growth_delta": -0.03134552316857034,
+    "fair_value": 37.554059843092624,
+    "price": 42.06999969482422,
+    "gap": -0.10734347241479014,
+    "fair_value_band": {
+      "low": 34.6684563532787,
+      "point": 37.554059843092624,
+      "high": 41.27481575306068
+    },
+    "fcff_base_used": 272864083.3333334,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09768570490979588,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 272864083.3333334,
+      "price": 42.06999969482422,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.22,
+          "cells": [
+            {
+              "wacc": 0.07768570490979587,
+              "fair_value": 35.11663312324043,
+              "gap": -0.1652808800100667
+            },
+            {
+              "wacc": 0.08768570490979588,
+              "fair_value": 31.839345759372502,
+              "gap": -0.2431816974011144
+            },
+            {
+              "wacc": 0.09768570490979588,
+              "fair_value": 29.38836816349663,
+              "gap": -0.30144120806560837
+            },
+            {
+              "wacc": 0.10768570490979587,
+              "fair_value": 27.48167758671625,
+              "gap": -0.34676306664919565
+            },
+            {
+              "wacc": 0.11768570490979588,
+              "fair_value": 25.952699559104556,
+              "gap": -0.3831067328888652
+            }
+          ],
+          "fair_value_at_point_wacc": 29.38836816349663,
+          "gap_at_point_wacc": -0.30144120806560837
+        },
+        {
+          "case": "base",
+          "growth": -0.15,
+          "cells": [
+            {
+              "wacc": 0.07768570490979587,
+              "fair_value": 46.26408547193372,
+              "gap": 0.09969303084224856
+            },
+            {
+              "wacc": 0.08768570490979588,
+              "fair_value": 41.27481575306068,
+              "gap": -0.018901448717181024
+            },
+            {
+              "wacc": 0.09768570490979588,
+              "fair_value": 37.554059843092624,
+              "gap": -0.10734347241479014
+            },
+            {
+              "wacc": 0.10768570490979587,
+              "fair_value": 34.6684563532787,
+              "gap": -0.17593400036216578
+            },
+            {
+              "wacc": 0.11768570490979588,
+              "fair_value": 32.362063733960795,
+              "gap": -0.23075673951235542
+            }
+          ],
+          "fair_value_at_point_wacc": 37.554059843092624,
+          "gap_at_point_wacc": -0.10734347241479014
+        },
+        {
+          "case": "bull",
+          "growth": -0.05,
+          "cells": [
+            {
+              "wacc": 0.07768570490979587,
+              "fair_value": 69.22765213575582,
+              "gap": 0.6455348856176186
+            },
+            {
+              "wacc": 0.08768570490979588,
+              "fair_value": 60.60842769368453,
+              "gap": 0.44065671816824503
+            },
+            {
+              "wacc": 0.09768570490979588,
+              "fair_value": 54.19893642881237,
+              "gap": 0.2883037038738163
+            },
+            {
+              "wacc": 0.10768570490979587,
+              "fair_value": 49.243536845230054,
+              "gap": 0.17051431429623665
+            },
+            {
+              "wacc": 0.11768570490979588,
+              "fair_value": 45.29598600688305,
+              "gap": 0.07668139613644254
+            }
+          ],
+          "fair_value_at_point_wacc": 54.19893642881237,
+          "gap_at_point_wacc": 0.2883037038738163
+        }
+      ],
+      "summary": {
+        "bear": -0.30144120806560837,
+        "base": -0.10734347241479014,
+        "bull": 0.2883037038738163
+      },
+      "downside": -0.3831067328888652,
+      "upside": 0.6455348856176186
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The market is too pessimistic about a specialty franchise with a durable moat. Narcolepsy is a small, physician-concentrated market; generic entrants into it have historically been few and erosion slower than in primary care. Harmony has $600M of net cash and a demonstrated record of buying assets (Zynerba, Epygenix), so the terminal value is not a stub, it is a platform. On that reading -11.9% is too harsh and the true number is closer to my bull case.",
+    "what_would_prove_it": "Evidence that the lifecycle-management reformulation is on a regulatory path that lands before March 2030 with its own exclusivity, or a Phase 3 readout on EPX-100 or the orexin programme large enough to matter to 2031 revenue.",
+    "already_visible": "Only partly, and it is thin. The company describes 'potential protection of the franchise through other formulations into the 2040s via additional patents/applications' - a statement of possibility, not of a filed programme with a date. EPX-100 is at the encore-data stage. I found no dated regulatory milestone that lands before 2030.",
+    "unresolved": "I could not size the pipeline. That is the entire disagreement between my -15% and the market's -11.9%, and it is a four-point difference on a number whose honest error bar is much wider than four points. I also could not establish how many ANDA filers beyond Lupin are licensed for the 2030 date."
+  },
+  "what_changed": "Q2 2026 (2026-08-04): WAKIX net revenue $261.3M, +30% y/y, seventh year on market; full-year guidance of $1.0-1.04B reiterated; net income $75.4M vs $39.8M. Completion of the TEMPO study fulfils the second and last FDA requirement for WAKIX pediatric exclusivity, which is what extends exclusivity from September 2029 to March 2030. Poster presentations on EPX-100 (clemizole) announced for the 16th European Epilepsy Congress (2026-09-03). Nothing found that changes the 2030 date.",
+  "consensus_case": "WAKIX loses exclusivity in March 2030, which is year four of this model's five-year window. The company says so itself: the Q2 2026 press release states the pitolisant IP estate 'supports WAKIX exclusivity to March 2030 (inclusive of 6-months of pediatric exclusivity)', and Harmony settled its ANDA litigation with Lupin on a licence to launch no earlier than January 2030 (July 2030 with pediatric exclusivity). WAKIX is essentially the whole company - $1.0-1.04B of guided 2026 net revenue against roughly $1.0B of total revenue. So the market is not disputing that WAKIX grew 30% year over year to $261.3M in Q2, or that patients rose 450 to ~8,950. It is discounting a franchise with three good years left, then a generic cliff on an oral small molecule, and paying for the residual: net cash of roughly $600M (market cap $2.45B against enterprise value $1.94B) plus option value on the orexin, EPX-100 epilepsy and next-generation pitolisant formulation programmes. A -11.9% five-year FCFF CAGR is exactly what that shape looks like.",
+  "base_case_rationale": "I built the cliff by hand rather than growing the base. WAKIX should compound into 2029 - patient adds are steady, price is intact and the company has beaten its own guidance - so I carry FCFF of roughly $330M, $360M and $380M through 2027-2029 against a normalized base of $272.9M. Generic linaclotide-style erosion does not apply cleanly here because narcolepsy is a small specialty market with few filers, but pitolisant is an oral small molecule and Lupin is licensed from January 2030, so I take 2030 to roughly $180M (three clean months plus nine months of erosion) and 2031 to about $70M. Discounted at the engine's 9.8% WACC that path is worth about $1.63B of enterprise value against a market $1.94B, and expressed as the single constant CAGR this model wants it is about -15%. The pipeline is what fills the difference, and I am not willing to underwrite it: EPX-100 and the orexin agonists are early, and the 2044 second-polymorph patents only matter if a reformulation actually converts the franchise before 2030.",
+  "key_risks": [
+    "WAKIX is effectively the entire company - roughly 100% of revenue on a single molecule with a dated cliff",
+    "Any acceleration of the licence date, or an at-risk launch, pulls the cliff into year three",
+    "The pipeline is early enough that a single Phase 3 failure removes most of the terminal value"
+  ],
+  "watch_for": [
+    "A filed NDA or sNDA for a next-generation pitolisant formulation with its own Orange Book listing - the only thing that moves the 2030 date",
+    "Additional ANDA settlements naming entry dates earlier than January 2030",
+    "EPX-100 Phase 3 data in Dravet syndrome"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090090/hrmy-20260630x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090086/hrmy-20260804x8k.htm",
+    "https://ir.harmonybiosciences.com/news-releases/news-release-details/harmony-biosciences-strengthens-patent-position-favorable",
+    "https://www.sec.gov/Archives/edgar/data/1802665/000155837025008415/hrmy-20250605xex99d1.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/11/harmony-biosciences-hrmy-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": []
+}

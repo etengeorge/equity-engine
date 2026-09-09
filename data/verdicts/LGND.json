@@ -1,0 +1,186 @@
+{
+  "ticker": "LGND",
+  "date": "2026-09-09",
+  "sector": "Health Care",
+  "name": "LIGAND PHARMACEUTICALS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.18,
+  "bear_growth": 0.06,
+  "bull_growth": 0.28,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 288.8299865722656,
+  "market_implied_growth": 0.4700533716286087,
+  "cohort_pct": 16.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.18,
+    "market_implied_growth": 0.4700533716286087,
+    "growth_delta": -0.2900533716286087,
+    "fair_value": 297.146430298384,
+    "price": 288.8299865722656,
+    "gap": 0.028793560616108715,
+    "fair_value_band": {
+      "low": 256.3006609570878,
+      "point": 297.146430298384,
+      "high": 353.1967353323775
+    },
+    "fcff_base_used": 185000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08416734908154282,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 185000000,
+      "price": 288.8299865722656,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.06416734908154281,
+              "fair_value": 267.59845718692725,
+              "gap": -0.07350874345599234
+            },
+            {
+              "wacc": 0.07416734908154282,
+              "fair_value": 219.71230693792188,
+              "gap": -0.2393022984026294
+            },
+            {
+              "wacc": 0.08416734908154282,
+              "fair_value": 186.77076448299897,
+              "gap": -0.3533539688883076
+            },
+            {
+              "wacc": 0.09416734908154281,
+              "fair_value": 162.7280882334506,
+              "gap": -0.436595589797821
+            },
+            {
+              "wacc": 0.10416734908154282,
+              "fair_value": 144.41177671837616,
+              "gap": -0.500011136543663
+            }
+          ],
+          "fair_value_at_point_wacc": 186.77076448299897,
+          "gap_at_point_wacc": -0.3533539688883076
+        },
+        {
+          "case": "base",
+          "growth": 0.18,
+          "cells": [
+            {
+              "wacc": 0.06416734908154281,
+              "fair_value": 434.7866590010985,
+              "gap": 0.5053376699593979
+            },
+            {
+              "wacc": 0.07416734908154282,
+              "fair_value": 353.1967353323775,
+              "gap": 0.22285341464712238
+            },
+            {
+              "wacc": 0.08416734908154282,
+              "fair_value": 297.146430298384,
+              "gap": 0.028793560616108715
+            },
+            {
+              "wacc": 0.09416734908154281,
+              "fair_value": 256.3006609570878,
+              "gap": -0.11262447504576856
+            },
+            {
+              "wacc": 0.10416734908154282,
+              "fair_value": 225.2362585988307,
+              "gap": -0.2201770277668995
+            }
+          ],
+          "fair_value_at_point_wacc": 297.146430298384,
+          "gap_at_point_wacc": 0.028793560616108715
+        },
+        {
+          "case": "bull",
+          "growth": 0.28,
+          "cells": [
+            {
+              "wacc": 0.06416734908154281,
+              "fair_value": 634.682070597062,
+              "gap": 1.1974244368780722
+            },
+            {
+              "wacc": 0.07416734908154282,
+              "fair_value": 512.3906257651423,
+              "gap": 0.7740215683489691
+            },
+            {
+              "wacc": 0.08416734908154282,
+              "fair_value": 428.4487612640632,
+              "gap": 0.48339431908973474
+            },
+            {
+              "wacc": 0.09416734908154281,
+              "fair_value": 367.33462761969434,
+              "gap": 0.27180225287233717
+            },
+            {
+              "wacc": 0.10416734908154282,
+              "fair_value": 320.9035386902685,
+              "gap": 0.11104647581312688
+            }
+          ],
+          "fair_value_at_point_wacc": 428.4487612640632,
+          "gap_at_point_wacc": 0.48339431908973474
+        }
+      ],
+      "summary": {
+        "bear": -0.3533539688883076,
+        "base": 0.028793560616108715,
+        "bull": 0.48339431908973474
+      },
+      "downside": -0.500011136543663,
+      "upside": 1.1974244368780722
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That 31x adjusted earnings for a royalty aggregator is a full price, and that my base override does most of the work in rescuing it. On the engine's own numbers the market requires +47% five-year FCFF growth, and +77% if stock compensation is expensed - and stock comp really is 60% of the reported FCFF base, which is an extraordinary proportion and means reported cash flow is substantially compensation the shareholders paid for. Correct the enterprise value for the missing $700M convertible and the requirement rises further. A royalty aggregator's growth is bought, its cost of capital is its edge, and Ligand is competing for assets against much larger balance sheets.",
+    "what_would_prove_it": "Royalty revenue growth decelerating below 20% while deployable capital is spent, or the 2027 guidance implying that the XOMA assets contribute less than the purchase price implied.",
+    "already_visible": "Partly. Captisol revenue is falling, and the 60% stock-comp share of reported free cash flow is a real and large adjustment that I have not fully charged for - at $185M of adjusted net income I am using a measure that already deducts some but not all of it. On the other side, adjusted EPS guidance was RAISED at the low end, which is not what deceleration looks like.",
+    "unresolved": "The enterprise value, and therefore the required growth rate, is not determinable from this brief. See the data-quality note: I can bound it between roughly $5.53B and $6.23B, which moves required growth by five points."
+  },
+  "what_changed": "$700M of 0.00% convertible senior notes due 2031 completed 2026-06-25 (8-K items 1.01, 2.03, 3.02). XOMA Royalty acquisition closed 2026-07-14 (8-K items 1.01, 2.01, 2.03) - AFTER the 2026-06-30 balance sheet this model prices. Cash, cash equivalents and short-term investments of $1.36B at 2026-06-30 versus $733.5M at 2025-12-31. 228,859 shares repurchased at ~$262. FDA approval of Filspari in FSGS. Full-year revenue guidance reaffirmed, adjusted EPS guidance low end raised to $9.00-$9.50.",
+  "consensus_case": "Ligand is a royalty aggregator being priced on the portfolio it is building, not the cash it produced last year. Q2 2026 royalty revenue grew 32% to $48.0M and 42% to $91.0M for the half, driven by Travere's Filspari (newly approved in FSGS), Pelthos's Zelsuvmi and Merck's Ohtuvayre. Adjusted net income was $50.8M ($2.37 per diluted share, +48%) and $85.4M ($4.00, +36%) for the half. Management guides to $225-250M of full-year royalty revenue and $9.00-$9.50 of adjusted EPS, raising the low end. In June it raised $700M of 0.00% convertible notes - free five-year money - used $82M on a call spread, repurchased $60M of stock at ~$262, and closed the XOMA Royalty acquisition on 2026-07-14, adding 120+ commercial, clinical and preclinical assets, with roughly $700M of deployable capital still available. At $288.83 that is about 31x guided adjusted EPS for a business whose royalty base is compounding 30-40% and whose incremental margin on a new royalty is close to 100%.",
+  "base_case_rationale": "The engine's $63.9M FCFF base is not this company's economics and I override it. For a royalty aggregator, capital deployed to buy royalties sits in investing activities while the receipts run through operating, so CFO-less-capex understates a business that is buying its own growth and overstates one that has stopped. Adjusted net income is the closer proxy: $9.00-$9.50 of guided adjusted EPS on roughly 20-21M diluted shares is $185-195M. I use $185M. On growth, royalty revenue is guided to $225-250M for 2026 against $91.0M in the first half, and the XOMA portfolio plus ~$700M of undeployed capital is what funds the next leg. Filspari, Ohtuvayre and Zelsuvmi are early in their curves. 18% for five years is below the current 32-42% royalty growth rate but above what an unlevered, non-acquiring royalty book would do, and it reflects that some of this growth is bought rather than organic.",
+  "key_risks": [
+    "Stock compensation is 60% of reported FCFF - the highest proportion in today's ten",
+    "Royalty growth is bought with converts and acquisitions; the model cannot distinguish it from organic",
+    "Concentration in a small number of partner-controlled products whose commercial execution Ligand does not control"
+  ],
+  "watch_for": [
+    "The first full quarter including XOMA, which reveals what the acquisition actually contributes",
+    "Deployment of the remaining ~$700M and the disclosed economics of what is bought",
+    "Filspari FSGS launch trajectory at Travere"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/886163/000088616326000041/lgnd-20260806.htm",
+    "https://www.sec.gov/Archives/edgar/data/886163/000088616326000044/lgnd-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/886163/000119312526302660/d108457d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360d8k.htm"
+  ],
+  "flags": [
+    "stock_comp_is_60%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

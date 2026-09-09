@@ -1,0 +1,186 @@
+{
+  "ticker": "HCC",
+  "date": "2026-09-09",
+  "sector": "Materials",
+  "name": "WARRIOR MET COAL INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.03,
+  "bear_growth": -0.08,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 105.58000183105469,
+  "market_implied_growth": 0.06289730364089452,
+  "cohort_pct": 87.8,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.06289730364089452,
+    "growth_delta": -0.03289730364089452,
+    "fair_value": 100.96088407615072,
+    "price": 105.58000183105469,
+    "gap": -0.043749930619392474,
+    "fair_value_band": {
+      "low": 90.69555398634995,
+      "point": 100.96088407615072,
+      "high": 113.9238609088097
+    },
+    "fcff_base_used": 420000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10618242484688073,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 420000000,
+      "price": 105.58000183105469,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.08,
+          "cells": [
+            {
+              "wacc": 0.08618242484688073,
+              "fair_value": 81.07868111875064,
+              "gap": -0.23206402999983067
+            },
+            {
+              "wacc": 0.09618242484688073,
+              "fair_value": 71.38549260481811,
+              "gap": -0.3238729743626392
+            },
+            {
+              "wacc": 0.10618242484688073,
+              "fair_value": 63.924152164126795,
+              "gap": -0.39454299057111286
+            },
+            {
+              "wacc": 0.11618242484688072,
+              "fair_value": 57.99924403327149,
+              "gap": -0.45066070252508816
+            },
+            {
+              "wacc": 0.12618242484688072,
+              "fair_value": 53.17728699268098,
+              "gap": -0.496331823541987
+            }
+          ],
+          "fair_value_at_point_wacc": 63.924152164126795,
+          "gap_at_point_wacc": -0.39454299057111286
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.08618242484688073,
+              "fair_value": 130.80745854301688,
+              "gap": 0.23894162033005317
+            },
+            {
+              "wacc": 0.09618242484688073,
+              "fair_value": 113.9238609088097,
+              "gap": 0.07902878322645379
+            },
+            {
+              "wacc": 0.10618242484688073,
+              "fair_value": 100.96088407615072,
+              "gap": -0.043749930619392474
+            },
+            {
+              "wacc": 0.11618242484688072,
+              "fair_value": 90.69555398634995,
+              "gap": -0.14097790856759307
+            },
+            {
+              "wacc": 0.12618242484688072,
+              "fair_value": 82.36560860414325,
+              "gap": -0.21987490835677648
+            }
+          ],
+          "fair_value_at_point_wacc": 100.96088407615072,
+          "gap_at_point_wacc": -0.043749930619392474
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.08618242484688073,
+              "fair_value": 167.75045570981146,
+              "gap": 0.5888468725189047
+            },
+            {
+              "wacc": 0.09618242484688073,
+              "fair_value": 145.43052175974083,
+              "gap": 0.37744382683809286
+            },
+            {
+              "wacc": 0.10618242484688073,
+              "fair_value": 128.31140292277377,
+              "gap": 0.21530025286505539
+            },
+            {
+              "wacc": 0.11618242484688072,
+              "fair_value": 114.7700471912929,
+              "gap": 0.08704342868779058
+            },
+            {
+              "wacc": 0.12618242484688072,
+              "fair_value": 103.79486751039242,
+              "gap": -0.016907883024275483
+            }
+          ],
+          "fair_value_at_point_wacc": 128.31140292277377,
+          "gap_at_point_wacc": 0.21530025286505539
+        }
+      ],
+      "summary": {
+        "bear": -0.39454299057111286,
+        "base": -0.043749930619392474,
+        "bull": 0.21530025286505539
+      },
+      "downside": -0.496331823541987,
+      "upside": 0.5888468725189047
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest bear case is that Q2 2026 is a peak dressed as a trough. The flag on this brief says the opposite - `possible_trough_cycle_base` - and LESSONS.md records from the AMR pass on 2026-09-08 that this flag's advisory text is backwards on cyclicals: it compares only the newest year to the oldest, calls a 0.22x ratio a trough, and tells the analyst that 'growth applied to a trough understates value' while the base is actually a three-year mean containing a super-cycle year. Applied here, the argument is that $42/ton of EBITDA and a 74.6% twelve-month share price move are the peak, the 45X credit is a policy subsidy that may not persist, and the market's +6.3% is therefore too generous, not too harsh.",
+    "what_would_prove_it": "Q3 and Q4 2026 realised prices and EBITDA per ton against Q2's, with the three scheduled longwall moves stripped out, plus the FY2027 capital and cost guidance that shows what sustaining Warrior looks like with Blue Creek in steady state.",
+    "already_visible": "Partly, and this is where HCC genuinely differs from AMR. AMR's depressed cash flow was a price trough with negative first-half free cash flow and no offsetting asset; Warrior's was a $1.02 BILLION construction programme that is now finished and producing - Q2 free cash flow was positive $103.4M with capex already down to $28.9M in the quarter from $94.3M a year earlier. So the trough flag points in a defensible direction here for a reason the flag itself does not know. What is NOT visible is any evidence about the forward met coal price, and that is the whole bear case.",
+    "unresolved": "The met coal price. I have no edge on the premium low-vol HCC index and neither the flag nor my override tells me anything about it. That single input swings EBITDA per ton by a factor of nearly two on the last twelve months' evidence, which is far wider than the 4-5% by which my fair value differs from the market's. That is why this is no_edge and not a call."
+  },
+  "what_changed": "Q2 2026 (2026-08-05): record 3.7Mt sales, adjusted EBITDA $156.9M vs $53.6M, FCF +$103.4M vs -$56.7M, cash cost $92.53/t vs $101.17/t. Blue Creek development capital complete at $1,022.9M total, in line with guidance; project capex for the rest of 2026 falls to $50-75M and sustaining capex is $105-115M. Full-year volume guidance raised. Liquidity $452.9M including $302.3M cash. Three longwall moves scheduled before year-end (two Q3, one Q4), which will make Q3 optically weaker.",
+  "consensus_case": "Warrior has just finished a $1.02 billion mine and the market is paying for the result, not waiting for it. Blue Creek's development capital is complete, Q2 2026 delivered record sales of 3.7 million short tons (+65% y/y), adjusted EBITDA of $156.9M (+193%), net income of $87.4M, cash cost of sales down 9% to $92.53 per short ton on Blue Creek's structurally lower cost base plus the 45X credit, and free cash flow of $103.4M in the quarter after two years of negative free cash flow. Full-year guidance was RAISED by 0.5Mt to 13.0-14.0 million tons. The stock is up 74.6% over twelve months. At an enterprise value of $5.43B the market is asking for +6.3% five-year FCFF growth - which is roughly the remaining Blue Creek ramp, and no more. That is a coherent view: buy the volume step-up, do not extrapolate the met coal price that is making it look good.",
+  "base_case_rationale": "I override the base upward and the growth rate downward, and the two roughly cancel. The engine's $383.9M is the mean of [$147.3M, $336.4M, $668.0M], which is contaminated at both ends - the $668.0M is a 2022-23 met coal super-cycle year and the $147.3M is a Blue Creek construction year - so it is not a normalized number in either direction. Building it forward instead: at the guided 13.0-14.0Mt and Q2's realised ~$42 per ton of adjusted EBITDA, EBITDA runs near $570M; less $105-115M of sustaining capex, less roughly $17M of net cash interest, plus after-tax interest added back, gives an FCFF base near $420M. From there I take +3%. The volume ramp is a one-time step to full Blue Creek rate, largely captured within two years, not a perpetual growth rate - and beyond it Warrior is a price-taker on the premium low-vol HCC index with no control over the variable that decides everything. At $420M and +3% the model returns an enterprise value of $5.18B against a market $5.43B: a 4-5% difference, which is noise.",
+  "key_risks": [
+    "A single-commodity, single-basin producer with no control over the premium low-vol HCC index",
+    "The 45X Advanced Manufacturing Production Tax Credit is inside the reported cash cost per ton and is a policy input, not an operating one",
+    "Three longwall moves before year-end will depress reported Q3/Q4 volumes and invite a misreading of the ramp"
+  ],
+  "watch_for": [
+    "FY2027 capital and cost guidance - the first clean look at Warrior in steady state post-Blue Creek",
+    "Realised price per ton against the HCC index in Q3/Q4",
+    "Any change to the 45X credit's applicability to metallurgical coal"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1691303/000119312526335017/hcc-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1691303/000119312526335324/hcc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001691303/000119312526197165/hcc-ex99_1.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/12/warrior-met-coal-hcc-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.22x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

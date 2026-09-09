@@ -1,0 +1,185 @@
+{
+  "ticker": "SM",
+  "date": "2026-09-09",
+  "sector": "Energy",
+  "name": "SM ENERGY",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.0,
+  "bear_growth": -0.1,
+  "bull_growth": 0.06,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 37.7599983215332,
+  "market_implied_growth": -0.005000321551080933,
+  "cohort_pct": 87.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.0,
+    "market_implied_growth": -0.005000321551080933,
+    "growth_delta": 0.005000321551080933,
+    "fair_value": 51.19152042401137,
+    "price": 37.7599983215332,
+    "gap": 0.35570769861021523,
+    "fair_value_band": {
+      "low": 43.589517569997675,
+      "point": 51.19152042401137,
+      "high": 61.71898062726425
+    },
+    "fcff_base_used": 870000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08190503729336594,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 870000000,
+      "price": 37.7599983215332,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.1,
+          "cells": [
+            {
+              "wacc": 0.06190503729336594,
+              "fair_value": 46.378029472413736,
+              "gap": 0.22823176731885542
+            },
+            {
+              "wacc": 0.07190503729336595,
+              "fair_value": 37.15581495221053,
+              "gap": -0.016000619602203003
+            },
+            {
+              "wacc": 0.08190503729336594,
+              "fair_value": 30.89890516435133,
+              "gap": -0.18170268702764303
+            },
+            {
+              "wacc": 0.09190503729336594,
+              "fair_value": 26.370688738263194,
+              "gap": -0.30162367821862657
+            },
+            {
+              "wacc": 0.10190503729336595,
+              "fair_value": 22.93845086362319,
+              "gap": -0.3925198124137046
+            }
+          ],
+          "fair_value_at_point_wacc": 30.89890516435133,
+          "gap_at_point_wacc": -0.18170268702764303
+        },
+        {
+          "case": "base",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.06190503729336594,
+              "fair_value": 77.26601723140556,
+              "gap": 1.0462399540771021
+            },
+            {
+              "wacc": 0.07190503729336595,
+              "fair_value": 61.71898062726425,
+              "gap": 0.6345069748604326
+            },
+            {
+              "wacc": 0.08190503729336594,
+              "fair_value": 51.19152042401137,
+              "gap": 0.35570769861021523
+            },
+            {
+              "wacc": 0.09190503729336594,
+              "fair_value": 43.589517569997675,
+              "gap": 0.15438346153580462
+            },
+            {
+              "wacc": 0.10190503729336595,
+              "fair_value": 37.84155221050249,
+              "gap": 0.0021597958843864173
+            }
+          ],
+          "fair_value_at_point_wacc": 51.19152042401137,
+          "gap_at_point_wacc": 0.35570769861021523
+        },
+        {
+          "case": "bull",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.06190503729336594,
+              "fair_value": 102.42909861560783,
+              "gap": 1.7126351474755257
+            },
+            {
+              "wacc": 0.07190503729336595,
+              "fair_value": 81.66601189599366,
+              "gap": 1.1627652416875875
+            },
+            {
+              "wacc": 0.08190503729336594,
+              "fair_value": 67.61890644477637,
+              "gap": 0.7907550172272035
+            },
+            {
+              "wacc": 0.09190503729336594,
+              "fair_value": 57.485436665003604,
+              "gap": 0.5223898098592255
+            },
+            {
+              "wacc": 0.10190503729336595,
+              "fair_value": 49.83185607151362,
+              "gap": 0.31969963682695024
+            }
+          ],
+          "fair_value_at_point_wacc": 67.61890644477637,
+          "gap_at_point_wacc": 0.7907550172272035
+        }
+      ],
+      "summary": {
+        "bear": -0.18170268702764303,
+        "base": 0.35570769861021523,
+        "bull": 0.7907550172272035
+      },
+      "downside": -0.3925198124137046,
+      "upside": 1.7126351474755257
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest bear case is that I am buying a commodity spike and calling it a valuation. This name won its opportunistic slot on a +31.5% twenty-one-day move, and the company news in the brief says exactly why: 'crude oil prices climbed sharply following strikes on Saudi Arabian energy facilities' (2026-09-09) and an earlier jump when 'Iran ruled out extending a 60-day memorandum of understanding with the United States' (2026-08-18). None of that is SM Energy. A geopolitical risk premium is the least durable input in any energy thesis, and the reverse DCF is being run against an enterprise value that has just been inflated by it. The mirror-image counter is also live: the strongest BULL case is that at a corrected post-merger base the market is asking for negative growth from a company with a fresh, larger, lower-cost asset base and no notes due until mid-2028.",
+    "what_would_prove_it": "Two or three quarters of realised free cash flow at a normalised strip, and the first full-year post-merger capital programme showing what maintenance capital actually is for a 435 MBoe/d combined entity.",
+    "already_visible": "Yes, and it is why my answer landed on flat rather than positive. The 21-day move is demonstrably a macro move - two separate Middle East headlines in the news store, and the same StockStory piece names Centrus, BKV, Select Water and ProFrac moving with it. Whatever SM is worth, it is not worth more today than three weeks ago because of anything SM did.",
+    "unresolved": "I could not separate maintenance capital from growth capital in the combined programme, so I could not test whether $870M of free cash flow is sustaining or partly harvesting. I also cannot correct the cost of equity - see below."
+  },
+  "what_changed": "Everything that matters. Civitas merger closed 2026-01-30 (11 months of contribution in FY26 guidance). South Texas divestiture of $950M closed 2026-04-30. Q2 2026 (2026-08-05): OCF $1,103M, capex $754M, adjusted FCF $467M, $137M returned to shareholders via $84M of buybacks and a $0.22 dividend. Second-half production guidance raised from 430 to 435-440 MBoe/d, full-year narrowed to 418-423 MBoe/d, full-year capital reaffirmed, G&A guidance reduced. 8-K 2026-09-04 (item 1.02): $416,791,000 paid to redeem the 2027 Senior Notes. Also terminated the Erie, Colorado mineral rights agreement after resident opposition (August).",
+  "consensus_case": "SM Energy is a different company from the one this model prices. The Civitas Resources merger closed 2026-01-30 and Q2 2026 was the first full quarter of the combined business: operating cash flow of $1.1 billion in the quarter, capital expenditures of $754M, adjusted free cash flow of $467M, second-half production guidance raised to 435-440 MBoe/d including ~238 MBbl/d of oil, and 95% of targeted run-rate synergies actioned. The balance sheet has been dismantled deliberately - a $950M South Texas divestiture closed 2026-04-30, $819M of 2026 notes redeemed with the proceeds, net debt down $1.1 billion sequentially, and on 2026-09-04 the remaining $417M of 6.625% 2027 notes redeemed at par with cash on hand, retiring every senior note due through mid-2028. At $37.76 the market is paying roughly ten times annualised free cash flow for a depleting asset base and asking for approximately flat FCFF in perpetuity. For a shale producer whose growth requires drilling to stand still, flat is not a pessimistic assumption - it is close to the right one.",
+  "base_case_rationale": "I take flat FCFF. The combined company is generating roughly $870M of GAAP free cash flow annualised (H1 2026 CFO $1,743M less capex $1,309M = $434M for the half) and more on the company's adjusted definition, against a base the engine set at $673M from standalone pre-merger years. But an E&P is a depleting asset: production growth beyond the current 435-440 MBoe/d requires either more capital or acquisitions, and the recent history here is asset SALES, not purchases. Synergy capture is nearly complete, so the easy cost tailwind is behind. Against that, the Uinta and DJ inventory acquired with Civitas and XCL is real and the capital programme is disciplined. Flat real FCFF, i.e. reinvesting enough to hold volumes while returning the rest, is what this asset base does. The recorded fair value should NOT be read as a buy signal - see the data-quality note.",
+  "key_risks": [
+    "The entire recent price move is a Middle East supply premium that can unwind in a week",
+    "Integration of Civitas is only two quarters old and the synergy number is management's",
+    "Depleting asset base: flat FCFF already requires continuous reinvestment, and inventory depth is the unverifiable input"
+  ],
+  "watch_for": [
+    "Q3 2026 results - the first full quarter with the combined asset base and no one-time integration costs",
+    "The 2027 capital budget, which will reveal maintenance capital for the combined entity",
+    "Any resolution or escalation of the Saudi/Iran situation, which is currently setting the price"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/893538/000089353826000128/sm-20260904.htm",
+    "https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/sm-20260805.htm",
+    "https://www.sec.gov/Archives/edgar/data/893538/000089353826000121/sm-20260630.htm",
+    "https://finance.yahoo.com/energy/articles/centrus-energy-sm-energy-bkv-011118972.html",
+    "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-sm-energy-020620676.html"
+  ],
+  "flags": []
+}

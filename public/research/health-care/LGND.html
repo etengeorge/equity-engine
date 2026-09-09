@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LGND — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / LGND</p><h1>LGND <span style='color:var(--faint);font-weight:400'>LIGAND PHARMACEUTICALS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$288.83</b></div><div>Analyst gap<b>+3%</b></div><div>Dated<b>2026-09-09</b></div></div><div class='prose'><h1>LGND — LIGAND PHARMACEUTICALS</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-09 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $288.83 · fair value $297.15 · gap +2.9%</li><li><strong>Growth:</strong> market implies +47.0%, analyst says +18.0% (delta -29.0%)</li><li><strong>FCFF base overridden</strong> by the analyst to $185.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.4% | 7.4% | 8.4% | 9.4% | 10.4% | |---|---|---|---|---|---|---| | bear | +6.0% | $267.60 | $219.71 | $186.77 | $162.73 | $144.41 | | base | +18.0% | $434.79 | $353.20 | $297.15 | $256.30 | $225.24 | | bull | +28.0% | $634.68 | $512.39 | $428.45 | $367.33 | $320.90 |</p><p>At the point WACC of 8.4%: bear -35.3%, base +2.9%, bull +48.3% Across the whole grid the gap ranges -50.0% to +119.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Ligand is a royalty aggregator being priced on the portfolio it is building, not the cash it produced last year. Q2 2026 royalty revenue grew 32% to $48.0M and 42% to $91.0M for the half, driven by Travere&#x27;s Filspari (newly approved in FSGS), Pelthos&#x27;s Zelsuvmi and Merck&#x27;s Ohtuvayre. Adjusted net income was $50.8M ($2.37 per diluted share, +48%) and $85.4M ($4.00, +36%) for the half. Management guides to $225-250M of full-year royalty revenue and $9.00-$9.50 of adjusted EPS, raising the low end. In June it raised $700M of 0.00% convertible notes - free five-year money - used $82M on a call spread, repurchased $60M of stock at ~$262, and closed the XOMA Royalty acquisition on 2026-07-14, adding 120+ commercial, clinical and preclinical assets, with roughly $700M of deployable capital still available. At $288.83 that is about 31x guided adjusted EPS for a business whose royalty base is compounding 30-40% and whose incremental margin on a new royalty is close to 100%.</p><p><strong>What changed.</strong> $700M of 0.00% convertible senior notes due 2031 completed 2026-06-25 (8-K items 1.01, 2.03, 3.02). XOMA Royalty acquisition closed 2026-07-14 (8-K items 1.01, 2.01, 2.03) - AFTER the 2026-06-30 balance sheet this model prices. Cash, cash equivalents and short-term investments of $1.36B at 2026-06-30 versus $733.5M at 2025-12-31. 228,859 shares repurchased at ~$262. FDA approval of Filspari in FSGS. Full-year revenue guidance reaffirmed, adjusted EPS guidance low end raised to $9.00-$9.50.</p><p><strong>Base case.</strong> The engine&#x27;s $63.9M FCFF base is not this company&#x27;s economics and I override it. For a royalty aggregator, capital deployed to buy royalties sits in investing activities while the receipts run through operating, so CFO-less-capex understates a business that is buying its own growth and overstates one that has stopped. Adjusted net income is the closer proxy: $9.00-$9.50 of guided adjusted EPS on roughly 20-21M diluted shares is $185-195M. I use $185M. On growth, royalty revenue is guided to $225-250M for 2026 against $91.0M in the first half, and the XOMA portfolio plus ~$700M of undeployed capital is what funds the next leg. Filspari, Ohtuvayre and Zelsuvmi are early in their curves. 18% for five years is below the current 32-42% royalty growth rate but above what an unlevered, non-acquiring royalty book would do, and it reflects that some of this growth is bought rather than organic.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That 31x adjusted earnings for a royalty aggregator is a full price, and that my base override does most of the work in rescuing it. On the engine&#x27;s own numbers the market requires +47% five-year FCFF growth, and +77% if stock compensation is expensed - and stock comp really is 60% of the reported FCFF base, which is an extraordinary proportion and means reported cash flow is substantially compensation the shareholders paid for. Correct the enterprise value for the missing $700M convertible and the requirement rises further. A royalty aggregator&#x27;s growth is bought, its cost of capital is its edge, and Ligand is competing for assets against much larger balance sheets.</li><li>What would prove it: Royalty revenue growth decelerating below 20% while deployable capital is spent, or the 2027 guidance implying that the XOMA assets contribute less than the purchase price implied.</li><li>Already visible today: Partly. Captisol revenue is falling, and the 60% stock-comp share of reported free cash flow is a real and large adjustment that I have not fully charged for - at $185M of adjusted net income I am using a measure that already deducts some but not all of it. On the other side, adjusted EPS guidance was RAISED at the low end, which is not what deceleration looks like.</li><li>Left unresolved: The enterprise value, and therefore the required growth rate, is not determinable from this brief. See the data-quality note: I can bound it between roughly $5.53B and $6.23B, which moves required growth by five points.</li></ul><p><strong>Key risks.</strong> Stock compensation is 60% of reported FCFF - the highest proportion in today&#x27;s ten; Royalty growth is bought with converts and acquisitions; the model cannot distinguish it from organic; Concentration in a small number of partner-controlled products whose commercial execution Ligand does not control <strong>Watch for.</strong> The first full quarter including XOMA, which reveals what the acquisition actually contributes; Deployment of the remaining ~$700M and the disclosed economics of what is bought; Filspari FSGS launch trajectory at Travere</p><p><strong>Data quality.</strong> One flag, <code>stock_comp_is_60%_of_fcff</code>, is correct and is the largest such proportion in today&#x27;s ten. Two defects it does NOT flag, both established from the Q2 press release. (1) THE $700M CONVERTIBLE IS ALMOST CERTAINLY MISSING FROM ENTERPRISE VALUE. Ligand completed $700M of 0.00% convertible senior notes on 2026-06-25 and reports $1.36B of cash, cash equivalents and short-term investments at 2026-06-30. The brief&#x27;s enterprise value of $5,526.8M against a $5,758.0M market cap implies NET CASH of only $231M, which cannot be reconciled with $1.36B of cash unless roughly $1.13B of debt is being counted - and Ligand&#x27;s only material debt is the $700M convertible. Whichever way the extractor is reading it, the LESSONS.md rule applies: <code>FIELDS[&#x27;total_debt&#x27;]</code> does not touch the <code>ConvertibleNotesPayable*</code> / <code>ConvertibleDebt*</code> concepts, and a 0.00% coupon means the <code>interest_expense / total_debt</code> detector cannot catch it either - the cheap detector fails silently on a zero-coupon convertible. I bound true EV at roughly $6.23B, which raises the growth the market requires from +47.0% to +50.7% on the engine&#x27;s base. NOTE THE DIRECTION IS UNUSUAL: on TDOC this bug manufactured a false BUY, whereas here it makes an already-rich-looking name richer, so it is not a false-buy instance - but it is the same bug. (2) The XOMA Royalty acquisition closed 2026-07-14, two weeks AFTER the balance sheet date, so consideration paid and any assumed obligations are absent from the enterprise value while the share count (2026-08-04) is post-deal - the ALKS pattern. Given that the base, the enterprise value and the discount rate are all questionable in the same direction, I am recording no_edge rather than &#x27;rich&#x27;: the -73.6% gap is directionally believable but it is not a number I would act on, and my +18% is an estimate of the business rather than a reading of this model.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/886163/000088616326000041/lgnd-20260806.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/886163/000088616326000041/lgnd-20260806.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/886163/000088616326000044/lgnd-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/886163/000088616326000044/lgnd-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/886163/000119312526302660/d108457d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/886163/000119312526302660/d108457d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360d8k.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/LGND.md'>research/Health Care/LGND.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

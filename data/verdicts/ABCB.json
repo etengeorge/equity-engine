@@ -1,0 +1,63 @@
+{
+  "ticker": "ABCB",
+  "date": "2026-09-09",
+  "sector": "Financials",
+  "name": "AMERIS BANCORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.141,
+  "horizon_months": 24,
+  "price_at_verdict": 84.98999786376953,
+  "market_implied_growth": null,
+  "cohort_pct": 51.9,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.141,
+    "screen_rotce": 0.12918398439880288,
+    "justified_p_tbv": 1.4080780699111417,
+    "actual_p_tbv": 1.8976323528787238,
+    "tangible_book_per_share": 44.78738873461923,
+    "fair_value": 63.06413988580265,
+    "price": 84.98999786376953,
+    "gap": -0.25798162759236487,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_26%_of_book"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That 1.88x tangible book is genuinely too much, and correcting the ROTCE upward does not rescue it. Even at the company's own 14.08%, the justified multiple is 1.41 against an actual 1.88 - a 25% overvaluation - and the engine's cost of equity of 10.6% rests on a beta of 1.05 with an R-squared of 0.608, which is the best-fitted regression in today's ten. So unlike most large gaps in this engine, this one is NOT a measurement artifact: the discount rate is well measured and the answer still says rich.",
+    "what_would_prove_it": "Sustained adjusted ROTCE materially above 14%, or tangible book compounding fast enough that the multiple compresses without the price falling.",
+    "already_visible": "Tangible book grew only 4.2% annualised in the first half - well below the 8.5% earning-asset growth - because AOCI took $24.8M out of equity. A bank cannot sustain a 1.9x multiple on 4% book compounding unless the AOCI drag reverses. That is a real point against the name and I could not dismiss it.",
+    "unresolved": "The terminal growth constant. The Gordon justified-P/TBV model uses 2.0% forever, and Ameris is growing earning assets at 8.5%. At a 4% terminal growth the justified multiple rises to 1.53 and the gap narrows from -25% to -19%; the sign never changes, but the magnitude is governed by a constant that is a choice rather than a fact. That is exactly why I am not calling this rich."
+  },
+  "what_changed": "Q2 2026 (2026-07-23): GAAP net income $51.4M ($0.77) depressed by a litigation accrual, against adjusted net income of $107.3M ($1.60). GAAP ROTCE 6.75% versus adjusted ROTCE 14.08%. Tangible book value per share up $0.92 in the first half to $45.10, held back by a $24.8M decline in AOCI. 226,600 shares repurchased in the quarter. Announced expansion into the Nashville market. 8-K of 2026-06-18 (items 5.03) and 2026-02-24 (item 5.02, officer change). No acquisition, financing or equity issuance in the last two quarters.",
+  "consensus_case": "Ameris is a high-performing Southeast franchise and is priced as one. Q2 2026 adjusted net income was $107.3M ($1.60 per diluted share, flat on a strong year-ago quarter), adjusted ROTCE 14.08%, return on assets 1.53% adjusted, net interest margin stable at 3.88%, earning assets growing 8.5% annualised, tangible common equity above 11% of tangible assets and 30% of deposits non-interest-bearing. Tangible book value per share rose to $45.10. At $84.99 that is 1.88x tangible book and about 13x annualised adjusted earnings, with the company expanding into Nashville. For a bank earning 14% on tangible equity with a fortress funding mix, 1.9x book is the market's ordinary price, not an aggressive one - the cohort agrees, placing this at the 52nd percentile of 339 Financials, which is the median.",
+  "base_case_rationale": "See rotce_override. I use 14.1%, the company's own adjusted ROTCE for Q2 2026, which also reconciles independently: adjusted net income of $107.3M annualised is $429M against tangible common equity of roughly $3.02B ($45.10 x ~67.1M shares), or 14.2%. The engine's 12.9% is a three-year GAAP average and understates the current franchise for the same structural reason recorded on VLY and AUB - a GAAP average absorbs one-off charges (here a litigation accrual worth 7.3 points of ROTCE in a single quarter) and describes a company that is not the one being priced today.",
+  "key_risks": [
+    "Southeast commercial real estate concentration at a benign point in the credit cycle",
+    "AOCI drag on tangible book if long rates rise",
+    "The Q2 litigation accrual - I could not determine what it relates to or whether it recurs"
+  ],
+  "watch_for": [
+    "Whether adjusted ROTCE holds at or above 14% for two more quarters",
+    "Tangible book per share growth once the AOCI drag abates",
+    "Any disclosure on the nature of the litigation accrual"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/exhibit991pressreleasedate.htm",
+    "https://www.sec.gov/Archives/edgar/data/351569/000035156926000143/abcb-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/a2q26earningspresentatio.htm"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_26%_of_book"
+  ]
+}

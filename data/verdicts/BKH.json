@@ -1,0 +1,52 @@
+{
+  "ticker": "BKH",
+  "date": "2026-09-09",
+  "sector": "Utilities",
+  "name": "BLACK HILLS CORP",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 74.19000244140625,
+  "market_implied_growth": 0.20520952910933,
+  "cohort_pct": 36.4,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I am hiding behind 'no_model' when a real question exists: even in a merger, the exchange ratio makes this a claim on the combined entity, and if the combined entity is mispriced then so is BKH. And the data-centre load growth is not priced into a 17x multiple - 1.8 GW in Cheyenne would be transformational rate base for a utility this size.",
+    "what_would_prove_it": "A signed definitive agreement on the 1.8 GW project with tariff terms, plus the merger closing so that the security being valued is stable and the combined rate base and capital plan are disclosed.",
+    "already_visible": "The customer has posted $377M of REFUNDABLE advances and the parties are still 'negotiating definitive agreements'. Refundable is the operative word: money that comes back is not a commitment. So the biggest single upside item is real but not yet contracted, which is precisely why I will not put a number on it.",
+    "unresolved": "I did not attempt to value the combined Black Hills / NorthWestern entity. That is a different security from the one this brief priced and it is not what a rotation slot on BKH asks."
+  },
+  "what_changed": "Q2 2026 (2026-08-05): adjusted EPS $0.54 vs $0.38; year-to-date adjusted EPS $2.33 vs $2.24; 2026 adjusted EPS guidance of $4.25-$4.45 reaffirmed, explicitly excluding the NorthWestern merger. Wyoming Electric set four new all-time load peaks, the most recent 439 MW on 2026-07-20, up 16% year over year. The 1.8 GW generation reservation agreement was amended in July to raise refundable customer advances from $285M to $377M. 8-K of 2026-08-17 attaches NorthWestern Energy's Q2 2026 financial statements - a merger disclosure obligation, not a Black Hills event.",
+  "consensus_case": "Black Hills is not being priced as a standalone discounted cash flow at all. It is nine-tenths of the way through an all-stock merger with NorthWestern Energy - the Q2 2026 release says the deal has 'only one regulatory approval remaining' and is expected to close by year-end 2026, and the company filed NorthWestern's own Q2 10-Q as an exhibit to its 2026-08-17 8-K. Underneath that, the standalone story is a regulated utility guiding $4.25-$4.45 of 2026 adjusted EPS and the upper half of a 4-6% long-term EPS growth target, with a large-load pipeline of more than 3 GW in Wyoming (Microsoft expansion, a new Meta AI data centre, 600 MW in plan by 2030) and a prospective 1.8 GW Cheyenne data centre that has already posted $377M of refundable advances against long-lead generation equipment. At $74.19 that is roughly 17x guided adjusted EPS - an ordinary multiple for a utility with an above-ordinary load-growth story.",
+  "base_case_rationale": "No FCFF growth rate is meaningful for this name. The base is the mean of [-$146.4M, -$24.9M, $388.8M] - two of the three years are negative, and negative free cash flow is the NORMAL and correct state of a rate-regulated utility funding rate-base growth, because the capex is the investment on which the allowed return is earned. Growing that mean at any rate values nothing.",
+  "key_risks": [
+    "The final regulatory approval for the NorthWestern merger - the whole equity is a claim on a deal closing",
+    "Data-centre load is concentrated in a handful of counterparties in one Wyoming service territory",
+    "Heavy capex funded partly with equity; adjusted EPS growth of 4-6% depends on regulatory lag staying manageable"
+  ],
+  "watch_for": [
+    "Closing of the NorthWestern merger, expected by year-end 2026",
+    "Conversion of the 1.8 GW Cheyenne generation reservation agreement into a definitive tariff contract, or the return of the $377M of refundable advances",
+    "The combined company's first capital plan and rate-base growth disclosure"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-20260805.htm",
+    "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-20260817.htm",
+    "https://www.sec.gov/Archives/edgar/data/1130464/000119312526337444/bkh-20260630.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_7.4x_of_mean"
+  ]
+}
