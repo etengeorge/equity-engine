@@ -1,93 +1,89 @@
-# BKH — BLACK HILLS CORP
-*Utilities · brief generated 2026-09-09 · selected as **rotation***
+# ACIW — ACI WORLDWIDE
+*Information Technology · brief generated 2026-09-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 94/1956
+- rotation position 98/1956
 
 ## Market
 | | |
 |---|---|
-| price | $74.19 |
-| market cap | $5.7B |
-| 5d / 21d / 63d / 252d | +3.5% / +0.3% / +3.8% / +29.1% |
-| 60d avg daily $ volume | $58.7M |
-| beta (vs IWM) | 0.41 (R²=0.137) |
-| 5d volume vs 60d average | 1.0x |
+| price | $51.98 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -2.4% / -3.1% / +22.1% / +3.4% |
+| 60d avg daily $ volume | $55.3M |
+| beta (vs IWM) | 0.95 (R²=0.251) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 56% / debt 44% |
+| WACC weights | equity 86% / debt 14% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$222.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$-146.4M', '$-24.9M', '$388.8M']
-Enterprise value **$10.0B** · FCFF yield **+2.2%**
+Normalized FCFF base **$238.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$309.9M', '$343.3M', '$159.6M']
+Enterprise value **$5.9B** · FCFF yield **+4.0%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 6.9% − 1pt | +14.6% |
-| **6.9% (point)** | **+20.5%** |
-| 6.9% + 1pt | +25.7% |
+| 9.2% − 1pt | +11.8% |
+| **9.2% (point)** | **+15.7%** |
+| 9.2% + 1pt | +19.3% |
 
 
-> **Stock compensation is 14% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$212.8M** and an implied growth of **+21.7%** instead of +20.5%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 17% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$193.2M** and an implied growth of **+21.1%** instead of +15.7%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+6.4%** (5y revenue CAGR +6.4%).
-Gap under that baseline: **-78.0%** (fair value $16.33 vs price $74.19).
+Naive baseline for comparison: **+6.3%** (5y revenue CAGR +6.3%).
+Gap under that baseline: **-35.4%** (fair value $33.57 vs price $51.98).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **36th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -17.0%).
+Cohort: **48th percentile** of 123 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -0.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_7.4x_of_mean`
+- `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-20260817.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1130464/000119312526337444/bkh-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-20260805.htm
-- 2026-05-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-20260515.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1130464/000119312526211037/bkh-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526209210/bkh-20260506.htm
-- 2026-05-01 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526198223/bkh-20260429.htm
-- 2026-04-02 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526140217/bkh-20260402.htm
-- 2026-03-18 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1130464/000119312526113958/bkh-20260317.htm
-- 2026-02-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1130464/000119312526059379/bkh-20260219.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/935036/000093503626000028/aciw-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/935036/000093503626000026/aciw-20260806.htm
+- 2026-06-02 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/935036/000119312526253825/d92029d8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/935036/000093503626000021/aciw-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/935036/000093503626000019/aciw-20260507.htm
+- 2026-04-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/935036/000119312526162572/d44162ddef14a.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm
+- 2026-02-26 **8-K** — items 2.02,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/935036/000093503626000009/aciw-20260223.htm
+- 2026-01-14 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/935036/000119312526012321/d95740d8k.htm
+- 2025-11-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/935036/000093503625000031/aciw-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-17** · EX-99.1 · press release — NWE Q2 2026 10-Q *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-ex99_1.htm
-- **2026-08-17** · EX-99.2 · presentation — PROFORMA STATEMENTS *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-ex99_2.htm
-- **2026-08-05** · EX-99 · press release — EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-ex99.htm
-- **2026-05-15** · EX-99.1 · press release — NWE Q1 2026 10-Q *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-ex99_1.htm
-- **2026-05-15** · EX-99.2 · presentation — PROFORMA STATEMENTS *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-ex99_2.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/935036/000093503626000026/aciw-20260806_exx991.htm
+- **2026-08-06** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/935036/000093503626000026/aciw-20260806_ex992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Utilities
-*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Information Technology
+*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-08** · 3 ETFs Ready for the High-Yield Dividend Stress Test — *Barrons.com* — https://www.barrons.com/articles/high-yield-dividend-stocks-bonds-42a83a12?siteid=yhoof2&yptr=yahoo
-- **2026-09-07** · XLU’s AI Power Story Crumbles as Texas Freezes Data-Center Demand — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/xlus-ai-power-story-crumbles-as-texas-freezes-data-center-demand/
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
-- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
-- **2026-09-02** · Stock Market News for Sep 2, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html
-- **2026-09-01** · The Best Stock Sector ETFs for Rising Interest Rates — *Barrons.com* — https://www.barrons.com/articles/best-stock-sector-etfs-rising-interest-rates-9089cf6a?siteid=yhoof2&yptr=yahoo
-- **2026-09-01** · Stock Market News for Sep 1, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html
-- **2026-08-31** · Forget XLU: These 3 Utility Dividend Stocks Offer More Exposure to AI — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/forget-xlu-these-3-utility-dividend-stocks-offer-more-exposure-to-ai/
-- **2026-08-31** · PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/31/pge-sinks-18-edison-international-tumbles-23-as-california-wildfire-bill-omits-liability-cap/
-- **2026-08-31** · NextEra Energy Stock: Is NEE Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4355805/nextera-energy-stock-is-nee-outperforming-the-utilities-sector
+- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
+- **2026-09-08** · QQQ vs QQQM: Same Index, Same Stocks, Different Fee – and the Math Says One Leaves You Thousands Richer — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/08/qqq-vs-qqqm-same-index-same-stocks-different-fee-and-the-math-says-one-leaves-you-thousands-richer/
+- **2026-09-08** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195112771.html
+- **2026-09-08** · Sector Update: Tech Stocks Gain Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-tuesday-174146998.html
+- **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
+- **2026-09-07** · How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/
+- **2026-09-07** · Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/
+- **2026-09-04** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194638593.html
+- **2026-09-04** · Sector Update: Tech Stocks Gain Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-175251963.html
 
 ## Market and macro context
-- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
-- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
-- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
-- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
+- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
+- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
+- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
+- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
 
 *Rules, releases and agency actions:*
 - **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
@@ -100,8 +96,16 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Utilities
-- ORA: no_model · price $104.19
+## Prior verdicts elsewhere in Information Technology
+- CVLT: rich · price $136.41 · fair value $87.52 · gap -35.8%
+- EFOR: no_edge · price $32.55 · fair value $36.33 · gap +11.6%
+- HUT: no_model · price $77.00
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
+- RIOT: no_model · price $18.64
+- SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
+- TTAN: no_model · price $87.92
+- VSAT: no_edge · price $66.93
 
 ---
 

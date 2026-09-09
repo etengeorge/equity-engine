@@ -1,92 +1,86 @@
-# LGND — LIGAND PHARMACEUTICALS
-*Health Care · brief generated 2026-09-09 · selected as **rotation***
+# GVA — GRANITE CONSTRUCTION
+*Industrials · brief generated 2026-09-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 97/1956
+- rotation position 103/1956
 
 ## Market
 | | |
 |---|---|
-| price | $288.83 |
-| market cap | $5.8B |
-| 5d / 21d / 63d / 252d | +1.7% / -1.5% / +21.5% / +73.2% |
-| 60d avg daily $ volume | $106.6M |
-| beta (vs IWM) | 0.81 (R²=0.214) |
-| 5d volume vs 60d average | 0.5x |
+| price | $119.08 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -1.2% / -7.2% / -14.8% / +10.6% |
+| 60d avg daily $ volume | $110.2M |
+| beta (vs IWM) | 0.91 (R²=0.294) |
+| 5d volume vs 60d average | 0.4x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 84% / debt 16% |
+| WACC weights | equity 77% / debt 23% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$63.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$48.9M', '$95.2M', '$46.1M']
-Enterprise value **$5.5B** · FCFF yield **+1.2%**
+Normalized FCFF base **$245.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$330.6M', '$319.9M', '$43.3M']
+Enterprise value **$5.9B** · FCFF yield **+4.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.4% − 1pt | +41.3% |
-| **8.4% (point)** | **+47.0%** |
-| 8.4% + 1pt | +52.2% |
+| 8.5% − 1pt | +8.1% |
+| **8.5% (point)** | **+12.3%** |
+| 8.5% + 1pt | +16.0% |
 
 
-> **Stock compensation is 60% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$26.0M** and an implied growth of **+77.2%** instead of +47.0%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+7.5%** (5y revenue CAGR +7.5%).
-Gap under that baseline: **-73.6%** (fair value $76.14 vs price $288.83).
+Naive baseline for comparison: **+4.4%** (5y revenue CAGR +4.4%).
+Gap under that baseline: **-31.6%** (fair value $81.47 vs price $119.08).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **17th percentile** of 89 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -60.4%).
+Cohort: **38th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -9.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `stock_comp_is_60%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `possible_peak_cycle_base_newest_fcf_7.6x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/886163/000088616326000044/lgnd-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000088616326000041/lgnd-20260806.htm
-- 2026-07-14 **8-K** — items 1.01,2.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000119312526302660/d108457d8k.htm
-- 2026-06-25 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360d8k.htm
-- 2026-06-22 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000119312526276694/d41408d8k.htm
-- 2026-06-09 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/886163/000088616326000038/lgnd-20260605.htm
-- 2026-05-18 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000119312526228003/d86489d8k.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/886163/000088616326000034/lgnd-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/886163/000088616326000030/lgnd-20260507.htm
-- 2026-04-30 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/886163/000088616326000027/lgnd-20260424.htm
+- 2026-08-13 **8-K** — items 3.02,8.01 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000036/gva-20260811.htm
+- 2026-08-07 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000034/gva-20260805.htm
+- 2026-08-04 **8-K** — items 1.01,1.02 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000032/gva-20260804.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/861459/000086145926000029/gva-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000027/gva-20260730.htm
+- 2026-07-10 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000025/gva-20260710.htm
+- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/861459/000086145926000020/gva-20260604.htm
+- 2026-06-02 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/861459/000143774926019166/gva20260601_8k.htm
+- 2026-05-19 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/861459/000143774926017652/gva20260516c_8k.htm
+- 2026-05-18 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/861459/000143774926017523/gva20260516_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/886163/000088616326000041/q22026earningsrelease_ex991.htm
-- **2026-07-14** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/886163/000119312526302660/d108457dex991.htm
-- **2026-06-25** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360dex991.htm
-- **2026-06-25** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/886163/000119312526282990/d167360dex992.htm
-- **2026-06-22** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/886163/000119312526276694/d41408dex991.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/861459/000086145926000027/gva-20260630xexx991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Health Care
-*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-08** · Sector Update: Healthcare Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-194859259.html
-- **2026-09-08** · Sector Update: Healthcare Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-tuesday-173533094.html
-- **2026-09-08** · Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/
-- **2026-09-08** · Cramer Says It’s Time To Buy The Dip on JNJ — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/cramer-says-its-time-to-buy-the-dip-on-jnj/
+- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
-- **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
-- **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
+- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
-- **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
+- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
+- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
+- **2026-09-02** · Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector
+- **2026-09-01** · U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building. — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo
+- **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
+- **2026-08-31** · Why Industrial Stocks Could Keep Losing Steam — *Barrons.com* — https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo
 
 ## Market and macro context
-- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
-- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
-- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
-- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
+- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
+- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
+- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
+- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
 
 *Rules, releases and agency actions:*
 - **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
@@ -99,19 +93,18 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Health Care
-- ALKS: no_edge · price $46.91
-- APGE: no_model · price $133.96
-- CRNX: no_edge · price $84.84
-- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
-- IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
-- KYMR: no_model · price $119.05
-- PCVX: no_model · price $60.74
-- PRAX: no_model · price $344.75
-- PTGX: no_model · price $144.33
-- SRRK: no_model · price $55.94
-- TDOC: no_model · price $6.34
-- TGTX: no_model · price $54.30
+## Prior verdicts elsewhere in Industrials
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
+- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
+- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
+- VSEC: no_model · price $203.91
+- WLFC: no_model · price $53.42
 
 ---
 

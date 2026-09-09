@@ -1,5 +1,17 @@
 [
  {
+  "id": "0cd09874-7e22-307c-8bf0-ec79b766a16f",
+  "ts": "2026-09-09T14:18:38+00:00",
+  "title": "3 of Wall Street\u2019s Favorite Stocks with Open Questions",
+  "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-141838143.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "3bff21fb-5b1b-3c75-8f9e-061daadd624f",
   "ts": "2026-09-07T11:02:00+00:00",
   "title": "Vaccines Global Market Intelligence Report 2026-2035 Featuring Bio Farma, Emergent BioSolutions, GC Pharma, GlaxoSmithKline, Janssen, Merck, Novavax, Moderna, Pfizer, Sanofi Pasteur, and Valneva",

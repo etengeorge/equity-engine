@@ -142,17 +142,5 @@
    "INBX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "4d1fbf5a-d169-336a-8c06-a6be6c85bb60",
-  "ts": "2026-05-11T12:00:00+00:00",
-  "title": "Inhibrx Reports Interim Phase 2 Data for INBRX-106 in First-Line HNSCC; Initial Results Demonstrate Potential Costimulatory Benefit Over PD-1 Monotherapy",
-  "summary": "Inhibrx Biosciences, Inc. (Nasdaq: INBX) (\"Inhibrx\" or the \"Company\"), a clinical-stage biopharmaceutical company focused on developing novel biologic therapeutic candidates, today announced positive interim results from the randomized, first-line Phase 2 portion of the HexAgon study. The trial evaluated the safety and efficacy of INBRX-106, a hexavalent OX40 agonist, in combination with pembrolizumab (the combination arm) versus pembrolizumab monotherapy (the control arm) in first-line patients",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/inhibrx-reports-interim-phase-2-120000274.html",
-  "tickers": [
-   "INBX"
-  ],
-  "source": "yfinance"
  }
 ]

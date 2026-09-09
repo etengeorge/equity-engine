@@ -1,5 +1,19 @@
 [
  {
+  "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
+  "ts": "2026-09-09T13:06:53+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "2d8a3770-a624-36d6-b4cd-553393e5eef5",
   "ts": "2026-09-08T21:45:32+00:00",
   "title": "QQQ vs QQQM: Same Index, Same Stocks, Different Fee \u2013 and the Math Says One Leaves You Thousands Richer",

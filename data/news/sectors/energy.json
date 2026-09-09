@@ -1,5 +1,47 @@
 [
  {
+  "id": "33bbbeb3-7d96-3f5e-be03-0c5e546c84a3",
+  "ts": "2026-09-09T14:00:00+00:00",
+  "title": "OPEC+ Keeps October Output Same: Oil ETFs in Focus",
+  "summary": "OPEC+ holds October output steady as Iran tensions tighten oil supply. What's next for oil prices and ETFs?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/opec-keeps-october-output-same-140000595.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "5e8f5b43-c150-325c-94b1-9ff51735fccf",
+  "ts": "2026-09-09T13:27:27+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Wednesday",
+  "summary": "Energy stocks were advancing premarket Wednesday, with the State Street Energy Select Sector SPDR ET",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132727839.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
+  "ts": "2026-09-09T13:06:53+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4% and the actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "e77d152f-0ba3-3257-8139-41cfea9c801b",
   "ts": "2026-09-08T19:57:21+00:00",
   "title": "Sector Update: Energy Stocks Gain Late Afternoon",

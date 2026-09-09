@@ -1,5 +1,29 @@
 [
  {
+  "id": "b9a4843e-c4b7-4aeb-b0ce-90733025de1f",
+  "ts": "2026-09-09T13:57:40+00:00",
+  "title": "Bond yields tick higher as oil tops $100: AlphaCheck",
+  "summary": "Stocks fell on Monday as long-dated bond yields continued to climb amid surging oil prices, raising concerns that the Federal Reserve will need to hike rates at its policy meeting next week.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/bond-yields-tick-higher-as-oil-tops-100-alphacheck-135740415.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "54f58b4a-2318-3099-93cf-fbf3d03aae0c",
+  "ts": "2026-09-09T13:20:00+00:00",
+  "title": "Global Uranium Market Projected to Reach $13.59 Billion by 2033 as Washington Becomes the Sector's Largest Counterparty",
+  "summary": "Equity Insider News Commentary - For most of the past four decades, American nuclear was a story about decline. Reactors closed, mines shut, and the enrichment business moved offshore. That has reversed, and the reversal has an unusual feature: the decisive counterparty in almost every segment is now the federal government. DataM Intelligence sizes the global uranium market at approximately US$9.73 billion in 2025, rising to roughly US$13.59 billion by 2033 at a compound annual growth rate of ab",
+  "publisher": "CNW Group",
+  "url": "https://finance.yahoo.com/energy/articles/global-uranium-market-projected-reach-132000492.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "362c296a-ae13-3b54-b7f1-ddf9c7fe9350",
   "ts": "2026-09-09T10:50:00+00:00",
   "title": "NuScale Stock vs. Oklo Stock: Wall Street Says Buy One and Sell the Other.",

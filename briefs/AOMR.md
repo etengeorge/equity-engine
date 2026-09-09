@@ -1,57 +1,61 @@
-# ABCB — AMERIS BANCORP
-*Financials · brief generated 2026-09-09 · selected as **rotation***
+# AOMR — ANGEL OAK MORTGAGE REIT
+*Financials · brief generated 2026-09-09 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 92/1956
+- cheapest 3% of 339 Financials peers (97th pct)
+- baseline gap +112%
+- Financials is in the news
+- never researched
+- urgency score 6.21
 
 ## Market
 | | |
 |---|---|
-| price | $84.99 |
-| market cap | $5.7B |
-| 5d / 21d / 63d / 252d | +0.9% / -3.1% / -0.2% / +16.0% |
-| 60d avg daily $ volume | $42.3M |
-| beta (vs IWM) | 1.05 (R²=0.608) |
+| price | $8.23 |
+| market cap | $191.1M |
+| 5d / 21d / 63d / 252d | -0.8% / -5.1% / +4.8% / -5.0% |
+| 60d avg daily $ volume | $1.2M |
+| beta (vs IWM) | 0.92 (R²=0.431) |
 | 5d volume vs 60d average | 0.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 7% / debt 93% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +12.9% |
-| cost of equity | +10.6% |
-| justified P/TBV | 1.27 |
-| actual P/TBV | 1.9 |
-| tangible book / share | $44.79 |
-| implied gap | -33.0% |
+| sustainable ROTCE | +13.9% |
+| cost of equity | +9.9% |
+| justified P/TBV | 1.51 |
+| actual P/TBV | 0.71 |
+| tangible book / share | $11.52 |
+| implied gap | +111.6% |
 
-Cohort: **52th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1.2%).
+Cohort: **97th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +145.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `goodwill_and_intangibles_26%_of_book`
+- none raised
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000143/abcb-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/abcb-20260723.htm
-- 2026-06-18 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000127/abcb-20260618.htm
-- 2026-06-12 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000123/abcb-20260612.htm
-- 2026-05-26 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000119/abcb-20260521.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000086/abcb-20260331.htm
-- 2026-04-23 **8-K** — items 2.02,7.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000079/abcb-20260423.htm
-- 2026-04-07 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/351569/000114036126013509/ny20065565x1_def14a.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000050/abcb-20251231.htm
-- 2026-02-24 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000026/abcb-20260219.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
+- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
+- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
+- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
+- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
+- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/exhibit991pressreleasedate.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/a2q26earningspresentatio.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -59,6 +63,7 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 - **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
 - **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
@@ -68,13 +73,12 @@ Attack these before you trust any number above.
 - **2026-09-06** · 3 ETFs That Could Move as Rate Expectations Shift — *MarketBeat* — https://www.marketbeat.com/articles/3-etfs-that-could-move-as-rate-expectations-shift/?utm_source=yahoofinance&utm_medium=yahoofinance
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
-- **2026-09-04** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html
 
 ## Market and macro context
-- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
-- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
-- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
-- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
+- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
+- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
+- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
+- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
 
 *Rules, releases and agency actions:*
 - **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
@@ -88,18 +92,18 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Financials
+- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
+- ABR: no_model · price $5.01
 - ACR: no_model · price $14.00
 - AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
 - AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - BUR: no_model · price $4.35
+- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
 - FG: no_model · price $24.87
 - GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
 - HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
 - JXN: no_model · price $133.65
-- MFIN: no_edge · price $11.82
-- OSCR: no_model · price $29.83
-- SNEX: no_edge · price $68.48
 
 ---
 

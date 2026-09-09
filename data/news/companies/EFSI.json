@@ -1,5 +1,17 @@
 [
  {
+  "id": "a312c9ac-3304-372d-a849-12b710354e78",
+  "ts": "2026-09-09T11:33:15+00:00",
+  "title": "John Marshall agrees $253m all-stock merger with Eagle Financial",
+  "summary": "The merged business will have $4.4bn in assets and 23 banking offices.",
+  "publisher": "Retail Banker International",
+  "url": "https://www.retailbankerinternational.com/news/john-marshall-eagle-financial-merger/",
+  "tickers": [
+   "EFSI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a0e479b3-e30e-3bd7-a435-2a90718d1320",
   "ts": "2026-09-08T13:23:02+00:00",
   "title": "John Marshall Bancorp, Eagle Financial Services Sign Merger Deal",

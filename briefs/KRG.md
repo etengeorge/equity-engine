@@ -1,79 +1,90 @@
-# ENVA — ENOVA INTERNATIONAL
-*Financials · brief generated 2026-09-09 · selected as **rotation***
+# KRG — KITE REALTY GROUP TRUST REIT
+*Real Estate · brief generated 2026-09-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 96/1956
+- rotation position 101/1956
 
 ## Market
 | | |
 |---|---|
-| price | $225.79 |
-| market cap | $5.6B |
-| 5d / 21d / 63d / 252d | -0.4% / -10.6% / +31.6% / +87.9% |
-| 60d avg daily $ volume | $86.5M |
-| beta (vs IWM) | 1.34 (R²=0.385) |
-| 5d volume vs 60d average | 0.8x |
+| price | $26.08 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | +1.1% / -2.5% / -5.5% / +18.1% |
+| 60d avg daily $ volume | $71.4M |
+| beta (vs IWM) | 0.69 (R²=0.373) |
+| 5d volume vs 60d average | 0.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 53% / debt 47% |
+| WACC weights | equity 65% / debt 35% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+**No defensible free numeric model for this name** (status: not_modelled).
 
-| | |
-|---|---|
-| sustainable ROTCE | +23.7% |
-| cost of equity | +12.2% |
-| justified P/TBV | 2.13 |
-| actual P/TBV | 5.33 |
-| tangible book / share | $42.32 |
-| implied gap | -60.1% |
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-Cohort: **31th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -25.8%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=77) | 16.1x | 11.0x / 16.5x / 22.6x | $13.61 / $26.95 / $42.05 |
+| ev_sales (n=91) | 9.4x | 3.2x / 7.2x / 11.3x | $0.11 / $16.99 / $34.28 |
+| p_tbv (n=83) | 1.9x | 1.0x / 1.6x / 2.2x | $14.05 / $21.75 / $30.74 |
+
+Blended midpoint **$21.90** vs price $26.08 — gap **-16.0%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-21 **8-K** — items 1.01,2.03 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/enva-20260821.htm
-- 2026-08-14 **8-K** — items 1.01,2.03,8.01 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/enva-20260813.htm
-- 2026-07-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/enva-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/enva-20260723.htm
-- 2026-07-10 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/enva-20260710.htm
-- 2026-06-25 **8-K** — items 1.01,2.03 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526283034/enva-20260625.htm
-- 2026-05-13 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526221703/enva-20260513.htm
-- 2026-04-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/enva-20260331.htm
-- 2026-04-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1529864/000119312526173746/enva-20260423.htm
-- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1529864/000119312526138937/enva-20260330.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000048/krg-20260630.htm
+- 2026-07-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000046/krg-20260730.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000045/krg-20260730.htm
+- 2026-07-02 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000110465926080362/tm2619631d1_8k.htm
+- 2026-06-29 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000110465926078470/tm2619253d1_8k.htm
+- 2026-05-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000039/krg-20260514.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000037/krg-20260331.htm
+- 2026-04-29 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000034/krg-20260429.htm
+- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000033/krg-20260429.htm
+- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000024/krg-20260401.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/enva-ex99_1.htm
-- **2026-07-10** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/enva-ex99_1.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000046/krginvestorupdateq22026.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000045/exhibit99_1xq22026.htm
+- **2026-07-30** · EX-99.2 · presentation — EX-99.2 Q2 2026 SUPPLEMENTAL *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000128604326000045/exhibit99_2xq22026.htm
+- **2026-07-02** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000110465926080362/tm2619631d1_ex99-1.htm
+- **2026-07-02** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, new debt obligation, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000110465926080362/tm2619631d1_ex99-2.htm
+- **2026-06-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1286043/000110465926078470/tm2619253d1_ex99-1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Real Estate
+*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
 - **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 - **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
-- **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
-- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
-- **2026-09-07** · Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector
-- **2026-09-07** · PNC Financial Services Stock: Is PNC Underperforming the Financials Sector? — *Barchart* — https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector
-- **2026-09-06** · 3 ETFs That Could Move as Rate Expectations Shift — *MarketBeat* — https://www.marketbeat.com/articles/3-etfs-that-could-move-as-rate-expectations-shift/?utm_source=yahoofinance&utm_medium=yahoofinance
+- **2026-09-08** · Public Storage Stock: Is PSA Underperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4490999/public-storage-stock-is-psa-underperforming-the-real-estate-sector
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
 - **2026-09-04** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html
+- **2026-09-03** · Sector Update: Financial Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html
+- **2026-09-03** · Sector Update: Financial Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html
+- **2026-09-02** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-194421053.html
+- **2026-09-02** · Sector Update: Financial Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-175145408.html
 
 ## Market and macro context
-- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
-- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
-- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
-- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
+- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
+- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
+- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
+- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
 
 *Rules, releases and agency actions:*
 - **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
@@ -86,19 +97,11 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- BUR: no_model · price $4.35
-- FG: no_model · price $24.87
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
-- JXN: no_model · price $133.65
-- MFIN: no_edge · price $11.82
-- OSCR: no_model · price $29.83
-- SNEX: no_edge · price $68.48
+## Prior verdicts elsewhere in Real Estate
+- COMP: no_model · price $10.56
+- CTRE: no_model · price $39.03
+- EPRT: no_model · price $29.97
+- RHP: no_model · price $129.33
 
 ---
 
