@@ -1,5 +1,61 @@
 [
  {
+  "id": "24ac46a4-8ed2-3593-b716-f03b6ed5e6cb",
+  "ts": "2026-09-08T19:48:59+00:00",
+  "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
+  "summary": "Healthcare stocks declined late Tuesday afternoon with the NYSE Healthcare Index falling 2.5% and th",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-194859259.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "51506e6d-4cb6-3679-a503-a63a0c93e34e",
+  "ts": "2026-09-08T17:35:33+00:00",
+  "title": "Sector Update: Healthcare Stocks Fall Tuesday Afternoon",
+  "summary": "Healthcare stocks declined Tuesday afternoon, with the NYSE Healthcare Index falling 2.4% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-tuesday-173533094.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "f554f58f-771f-3dd0-aae3-7a4dc5a78a82",
+  "ts": "2026-09-08T17:08:07+00:00",
+  "title": "Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14%",
+  "summary": "Novartis just handed the entire Lp(a) drug class a failing grade, and Amgen is taking the worst of the punishment despite releasing promising trial results of its own on the very same morning.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "c1785f9c-dfaa-312f-a6a7-10d8277f7a59",
+  "ts": "2026-09-08T15:10:12+00:00",
+  "title": "Cramer Says It\u2019s Time To Buy The Dip on JNJ",
+  "summary": "Jim Cramer called the JNJ dip a buying opportunity live on air, but the data behind his reasoning had already been published hours earlier, and the stock's recent performance tells a very different story than a typical defensive play.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/08/cramer-says-its-time-to-buy-the-dip-on-jnj/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "90ffbed8-1f15-3617-870e-e342a47f64b9",
   "ts": "2026-09-08T13:20:39+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",

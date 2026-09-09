@@ -1,52 +1,51 @@
 # SM — SM ENERGY
-*Energy · brief generated 2026-09-08 · selected as **opportunistic***
+*Energy · brief generated 2026-09-09 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +154%
-- 21d move +28%
+- baseline gap +178%
+- 21d move +32%
 - filed an 8-K in the last few sessions
-- 3 news items in the last 5 days
+- 4 news items in the last 5 days
 - Energy is in the news
 - never researched
-- urgency score 6.41
+- urgency score 6.82
 
 ## Market
 | | |
 |---|---|
-| price | $36.44 |
-| market cap | $8.7B |
-| 5d / 21d / 63d / 252d | +0.1% / +27.7% / +14.6% / +34.6% |
-| 60d avg daily $ volume | $118.5M |
-| beta (vs IWM) | None (R²=0.014) · **sector_median** |
-| 5d volume vs 60d average | 1.1x |
+| price | $37.76 |
+| market cap | $9.0B |
+| 5d / 21d / 63d / 252d | +2.2% / +31.5% / +17.3% / +46.1% |
+| 60d avg daily $ volume | $119.5M |
+| beta (vs IWM) | 0.71 (R²=0.014) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 85% / debt 15% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$673.0M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$573.0M', '$471.9M', '$585.0M']
-Enterprise value **$9.6B** · FCFF yield **+7.0%**
+Enterprise value **$9.9B** · FCFF yield **+6.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.9% − 1pt | -2.1% |
-| **8.9% (point)** | **+1.4%** |
-| 8.9% + 1pt | +4.5% |
+| 8.2% − 1pt | -4.3% |
+| **8.2% (point)** | **-0.5%** |
+| 8.2% + 1pt | +2.9% |
 
 
 Naive baseline for comparison: **+22.9%** (5y revenue CAGR +22.9%).
-Gap under that baseline: **+153.7%** (fair value $92.46 vs price $36.44).
+Gap under that baseline: **+178.4%** (fair value $105.11 vs price $37.76).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **81th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +137.4%).
+Cohort: **87th percentile** of 47 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +163.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `beta_from_sector_median_0.88(unreliable_r2_0.014_raw_0.33)`
+- none raised
 
 ## Recent filings
 - 2026-09-04 **8-K** — items 1.02 — https://www.sec.gov/Archives/edgar/data/893538/000089353826000128/sm-20260904.htm
@@ -67,8 +66,10 @@ Attack these before you trust any number above.
 - **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/893538/000089353826000119/exhibit99208052026.htm
 
 ## News on this company — last 90 days
-*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
+*14 items held; showing the 14 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-09** · Centrus Energy, SM Energy, BKV, Select Water Solutions, and ProFrac Stocks Trade Up, What You Need To Know — *StockStory* — https://finance.yahoo.com/energy/articles/centrus-energy-sm-energy-bkv-011118972.html
+  > A number of stocks jumped in the afternoon session after crude oil prices climbed sharply following strikes on Saudi Arabian energy facilities and mounting supply disruption fears in the Middle East, according to Bloomberg. The Saudi energy
 - **2026-09-07** · SM Energy Company (SM) Is a Trending Stock: Facts to Know Before Betting on It — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/sm-energy-company-sm-trending-130004359.html
   > Recently, Zacks.com users have been paying close attention to SM Energy (SM). This makes it worthwhile to examine what the stock has in store.
 - **2026-09-04** · Why Is SM Energy (SM) Up 31% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-sm-energy-sm-31-153023846.html
@@ -99,30 +100,30 @@ Attack these before you trust any number above.
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Sector Update: Energy Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195721683.html
+- **2026-09-08** · Sector Update: Energy — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-193513363.html
+- **2026-09-08** · Sector Update: Energy Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175256522.html
+- **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
 - **2026-09-08** · Goldman Sees Oil Hitting $120: ETFs That Are Poised to Benefit — *Zacks* — https://finance.yahoo.com/energy/articles/goldman-sees-oil-hitting-120-134000385.html
 - **2026-09-08** · Sector Update: Energy Stocks Rise Pre-Bell Tuesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132351735.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Sector Update: Energy Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195737210.html
 - **2026-09-04** · Sector Update: Energy Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175510988.html
 - **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-04** · Sector Update: Energy Stocks Fall Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-132629779.html
-- **2026-09-04** · Goldman’s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside — *Insider Monkey* — https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html
 
 ## Market and macro context
-- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
-- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
-- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
-- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
+- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
+- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
+- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
+- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
 
 *Rules, releases and agency actions:*
-- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
-- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
-- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
-- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
-- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
-- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
+- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
+- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

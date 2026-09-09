@@ -1,11 +1,81 @@
 [
  {
+  "id": "a3b30572-a9e3-31e6-9d4b-ceb5b968c326",
+  "ts": "2026-09-08T19:46:09+00:00",
+  "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
+  "summary": "Consumer stocks were lower late Tuesday afternoon, with the State Street Consumer Staples Select Sec",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-194609902.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "7dd367c8-f6e3-3ed2-8785-498489e370d8",
+  "ts": "2026-09-08T17:40:32+00:00",
+  "title": "Sector Update: Consumer Stocks Decline in Afternoon Trading",
+  "summary": "Consumer stocks were lower Tuesday afternoon, with the State Street Consumer Staples Select Sector S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-174032824.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "102a74c2-a540-3510-bc65-a4d5263b503d",
+  "ts": "2026-09-08T14:16:28+00:00",
+  "title": "How Is AutoZone's Stock Performance Compared to Other Auto Parts Stocks",
+  "summary": "AutoZone has lagged behind other auto parts stocks, yet analysts remain highly bullish about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4491647/how-is-autozone-s-stock-performance-compared-to-other-auto-parts-stocks",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "90ffbed8-1f15-3617-870e-e342a47f64b9",
   "ts": "2026-09-08T13:20:39+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "0f77dd97-cdfb-379d-a0d0-fa5db72d9695",
+  "ts": "2026-09-08T13:08:44+00:00",
+  "title": "D.R. Horton Stock: Is DHI Underperforming the Consumer Cyclical Sector?",
+  "summary": "As D.R. Horton has underperformed relative to the consumer cyclical sector over the past year, Wall Street analysts maintain a cautious outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4489364/d-r-horton-stock-is-dhi-underperforming-the-consumer-cyclical-sector",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "0a9633da-a0c0-3b03-814d-301401a5114f",
+  "ts": "2026-09-08T11:59:48+00:00",
+  "title": "General Motors\u2019 Stock: Is GM Outperforming the Consumer Discretionary Sector?",
+  "summary": "General Motors\u2019 stock has outpaced the broader consumer discretionary sector over the past year, and analysts remain reasonably upbeat about its prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4486547/general-motors-stock-is-gm-outperforming-the-consumer-discretionary-sector",
   "tickers": [
    "XLY"
   ],

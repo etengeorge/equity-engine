@@ -1,5 +1,29 @@
 [
  {
+  "id": "12cea130-e93a-32c1-acba-68f9b1555986",
+  "ts": "2026-09-08T23:43:18+00:00",
+  "title": "1 Stock Under $50 with Promising Prospects and 2 We Turn Down",
+  "summary": "The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than penny stocks, though they\u2019re not immune to volatility as many lack the scale advantages of their larger peers.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-promising-234318918.html",
+  "tickers": [
+   "HLF"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d87279e1-4eee-364f-ac14-8a530e0d35f9",
+  "ts": "2026-09-08T11:05:00+00:00",
+  "title": "Herbalife Announces $250 Million Share Repurchase Program",
+  "summary": "LOS ANGELES, September 08, 2026--Herbalife Ltd. (NYSE: HLF) [\"the Company\"], a premier health and wellness company, community and platform, today announced its Board of Directors has authorized the repurchase of up to $250 million of the Company\u2019s outstanding common stock over 3 years.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/herbalife-announces-250-million-share-110500977.html",
+  "tickers": [
+   "HLF"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0e4b2401-1443-315d-9aeb-84b6327c641e",
   "ts": "2026-09-03T13:40:03+00:00",
   "title": "Are Investors Undervaluing Herbalife Ltd (HLF) Right Now?",

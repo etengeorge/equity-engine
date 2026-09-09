@@ -1,5 +1,17 @@
 [
  {
+  "id": "a0850e8c-0319-3784-a683-37a48a4d16c1",
+  "ts": "2026-09-08T20:31:18+00:00",
+  "title": "1 of Wall Street\u2019s Favorite Stocks with Promising Prospects and 2 Facing Headwinds",
+  "summary": "The stocks in this article have caught Wall Street\u2019s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about companies so their firms can win business in other product lines like M&A advisory.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-203118793.html",
+  "tickers": [
+   "MAX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d5476435-bded-32c8-a27c-3ca097d1767a",
   "ts": "2026-09-03T13:00:00+00:00",
   "title": "MediaAlpha Announces Chief Financial Officer Transition",

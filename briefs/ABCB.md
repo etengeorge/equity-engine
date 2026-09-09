@@ -1,58 +1,57 @@
-# SIGI — SELECTIVE INSURANCE GROUP
-*Financials · brief generated 2026-09-08 · selected as **rotation***
+# ABCB — AMERIS BANCORP
+*Financials · brief generated 2026-09-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 90/1956
+- rotation position 92/1956
 
 ## Market
 | | |
 |---|---|
-| price | $92.19 |
-| market cap | $5.5B |
-| 5d / 21d / 63d / 252d | -0.3% / -4.3% / +4.5% / +16.0% |
-| 60d avg daily $ volume | $49.2M |
-| beta (vs IWM) | 0.45 (R²=0.116) |
+| price | $84.99 |
+| market cap | $5.7B |
+| 5d / 21d / 63d / 252d | +0.9% / -3.1% / -0.2% / +16.0% |
+| 60d avg daily $ volume | $42.3M |
+| beta (vs IWM) | 1.05 (R²=0.608) |
 | 5d volume vs 60d average | 0.6x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 92% / debt 8% |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +11.1% |
-| cost of equity | +7.3% |
-| justified P/TBV | 1.72 |
-| actual P/TBV | 1.61 |
-| tangible book / share | $57.10 |
-| implied gap | +6.7% |
+| sustainable ROTCE | +12.9% |
+| cost of equity | +10.6% |
+| justified P/TBV | 1.27 |
+| actual P/TBV | 1.9 |
+| tangible book / share | $44.79 |
+| implied gap | -33.0% |
 
-Cohort: **84th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +41.5%).
+Cohort: **52th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `unstable_rotce_6.8%_to_13.4%`
+- `goodwill_and_intangibles_26%_of_book`
 
 ## Recent filings
-- 2026-07-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/230557/000023055726000020/sigi-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/sigi-20260723.htm
-- 2026-05-14 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/230557/000110465926061133/tm2614641d1_8k.htm
-- 2026-04-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/230557/000023055726000013/sigi-20260429.htm
-- 2026-04-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/230557/000023055726000011/sigi-20260331.htm
-- 2026-04-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/230557/000023055726000008/sigi-20260422.htm
-- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/230557/000110465926034953/tm261551d2_def14a.htm
-- 2026-02-09 **10-K** — https://www.sec.gov/Archives/edgar/data/230557/000023055726000006/sigi-20251231.htm
-- 2026-01-30 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/230557/000110465926008618/tm264467d1_8k.htm
-- 2026-01-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/230557/000023055726000003/sigi-20260129.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000143/abcb-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/abcb-20260723.htm
+- 2026-06-18 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000127/abcb-20260618.htm
+- 2026-06-12 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000123/abcb-20260612.htm
+- 2026-05-26 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000119/abcb-20260521.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000086/abcb-20260331.htm
+- 2026-04-23 **8-K** — items 2.02,7.01 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000079/abcb-20260423.htm
+- 2026-04-07 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/351569/000114036126013509/ny20065565x1_def14a.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/351569/000035156926000050/abcb-20251231.htm
+- 2026-02-24 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/351569/000035156926000026/abcb-20260219.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/q22026pressreleaseexh991.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/q22026pressreleasesuppleme.htm
-- **2026-07-23** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/sigisecondquarter2026inv.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/exhibit991pressreleasedate.htm
+- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/351569/000035156926000139/a2q26earningspresentatio.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -60,6 +59,9 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
+- **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
+- **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-07** · Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector
 - **2026-09-07** · PNC Financial Services Stock: Is PNC Underperforming the Financials Sector? — *Barchart* — https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector
@@ -67,23 +69,20 @@ Attack these before you trust any number above.
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
 - **2026-09-04** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html
-- **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
 
 ## Market and macro context
-- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
-- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
-- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
-- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
+- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
+- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
+- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
+- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
 
 *Rules, releases and agency actions:*
-- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
-- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
-- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
-- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
-- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
-- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
+- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
+- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

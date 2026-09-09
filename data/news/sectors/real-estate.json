@@ -1,5 +1,47 @@
 [
  {
+  "id": "068affd6-13f9-3314-b36e-254c12a39a87",
+  "ts": "2026-09-08T20:08:28+00:00",
+  "title": "Sector Update: Financial Stocks Fall Tuesday",
+  "summary": "Financial stocks declined Tuesday with the NYSE Financial Index dropping 0.9% and the State Street F",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "e1094df7-30e2-38ef-8070-7334faa182d3",
+  "ts": "2026-09-08T17:47:41+00:00",
+  "title": "Sector Update: Financial Stocks Retreat Tuesday Afternoon",
+  "summary": "Financial stocks were lower in Tuesday afternoon trading, with the NYSE Financial Index down 0.8% an",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "13d7df7f-2232-3a92-b4fa-4ddae7562a3e",
+  "ts": "2026-09-08T13:56:48+00:00",
+  "title": "Public Storage Stock: Is PSA Underperforming the Real Estate Sector?",
+  "summary": "Public Storage has lagged behind the consumer defensive sector, and analysts remain somewhat optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4490999/public-storage-stock-is-psa-underperforming-the-real-estate-sector",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "de0ac66b-7836-326e-aa64-7376144ed621",
   "ts": "2026-09-04T19:56:42+00:00",
   "title": "Sector Update: Financial Stocks Retreat Late Afternoon",

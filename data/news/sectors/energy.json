@@ -1,5 +1,61 @@
 [
  {
+  "id": "e77d152f-0ba3-3257-8139-41cfea9c801b",
+  "ts": "2026-09-08T19:57:21+00:00",
+  "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+  "summary": "Energy stocks were higher late Tuesday afternoon, with the NYSE Energy Sector Index rising 1.4% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195721683.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "f752e02d-a1f2-3205-9c91-0e9e39f46e03",
+  "ts": "2026-09-08T19:35:13+00:00",
+  "title": "Sector Update: Energy",
+  "summary": "Energy stocks were higher late Tuesday afternoon, with the NYSE Energy Sector Index rising 1.4% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-193513363.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "ba4eb2ed-7d60-3b15-8ef7-b2864e5cba0a",
+  "ts": "2026-09-08T17:52:56+00:00",
+  "title": "Sector Update: Energy Stocks Rise Tuesday Afternoon",
+  "summary": "Energy stocks were higher Tuesday afternoon, with the NYSE Energy Sector Index rising 0.7% and the S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175256522.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "362ed8de-6ee1-3f72-a0af-c1c2d34cc1c5",
+  "ts": "2026-09-08T17:23:47+00:00",
+  "title": "Exchange-Traded Funds Mixed, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV eased. Actively traded Invesco QQQ Trust (QQQ) rose 0",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "2a4aeeef-1518-3bdb-ac39-49672b271ed9",
   "ts": "2026-09-08T13:40:00+00:00",
   "title": "Goldman Sees Oil Hitting $120: ETFs That Are Poised to Benefit",

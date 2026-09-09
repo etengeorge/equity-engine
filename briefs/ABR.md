@@ -1,21 +1,22 @@
 # ABR — ARBOR REALTY TRUST REIT
-*Financials · brief generated 2026-09-08 · selected as **opportunistic***
+*Financials · brief generated 2026-09-09 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 2% of 339 Financials peers (98th pct)
-- baseline gap +118%
+- baseline gap +127%
+- 4 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 6.41
+- urgency score 7.82
 
 ## Market
 | | |
 |---|---|
-| price | $5.25 |
-| market cap | $979.4M |
-| 5d / 21d / 63d / 252d | +3.8% / +5.8% / +3.3% / -49.6% |
+| price | $5.01 |
+| market cap | $934.7M |
+| 5d / 21d / 63d / 252d | +0.0% / -3.2% / -2.1% / -53.0% |
 | 60d avg daily $ volume | $19.4M |
-| beta (vs IWM) | 0.89 (R²=0.233) |
+| beta (vs IWM) | 0.9 (R²=0.233) |
 | 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 8% / debt 92% |
@@ -28,11 +29,11 @@ This is a financial. FCFF is meaningless here (debt is raw material, not financi
 | sustainable ROTCE | +9.3% |
 | cost of equity | +9.7% |
 | justified P/TBV | 0.95 |
-| actual P/TBV | 0.44 |
+| actual P/TBV | 0.42 |
 | tangible book / share | $12.03 |
-| implied gap | +117.8% |
+| implied gap | +127.3% |
 
-Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +152.6%).
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +161.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -62,11 +63,35 @@ Attack these before you trust any number above.
 - **2026-07-01** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1253986/000110465926079862/tm2619560d1_ex99-2.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-08** · Arbor Realty Trust (ABR) Suffers a Larger Drop Than the General Market: Key Insights — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/arbor-realty-trust-abr-suffers-215002501.html
+  > In the closing of the recent trading day, Arbor Realty Trust (ABR) stood at $5.01, denoting a -4.57% move from the preceding trading day.
+- **2026-09-08** · Arbor Realty Trust (ABR) is Attracting Investor Attention: Here is What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/arbor-realty-trust-abr-attracting-130003966.html
+  > Recently, Zacks.com users have been paying close attention to Arbor Realty Trust (ABR). This makes it worthwhile to examine what the stock has in store.
+- **2026-09-05** · Arbor Realty Trust (ABR) Rebounds To $5.25, Where Does Fair Value Sit? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/arbor-realty-trust-abr-rebounds-010649901.html
+  > Arbor Realty Trust (ABR) has drawn investor attention after its shares closed at US$5.25 on 3 September 2026. The move comes after a challenging year for the stock’s total return profile. Over the past week Arbor Realty Trust has seen a 3.7
+- **2026-09-04** · US Multifamily Permitting Shifts toward Smaller Metros — *CRE Daily* — https://www.credaily.com/briefs/us-multifamily-permitting-shifts-toward-smaller-metros/
+  > Multifamily permitting is concentrating in smaller US metros, with Durham leading per capita as Northeast markets gain development momentum.
+- **2026-09-02** · 3 Stocks Under $10 That Concern Us — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-10-concern-202823783.html
+  > Investors can certainly boost their returns by concentrating on stocks trading between $1 and $10. However, a disciplined approach is necessary because many of these businesses are speculative and lack the underlying fundamentals to support
+- **2026-09-02** · 3 Out-of-Favor Stocks with Warning Signs — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-favor-stocks-warning-signs-171623353.html
+  > Hitting a new 52-week low can be a pivotal moment for any stock. These floors often mark either the beginning of a turnaround story or confirmation that a company faces serious headwinds.
+- **2026-08-22** · Arbor Realty, Icahn Enterprises and Herzfeld: 3 Unconventional High Yield Bets — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/22/arbor-realty-icahn-enterprises-and-herzfeld-3-unconventional-high-yield-bets/
+  > Double-digit yields sound compelling until you read the fine print buried inside a stressed mortgage REIT, an activist's limited partnership, and a frontier closed-end fund. Each structure carries a very different set of risks that most inc
+- **2026-08-15** · 3 Reasons to Avoid ABR and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-abr-1-210900996.html
+  > Arbor Realty Trust has gotten torched over the last six months - since February 2026, its stock price has dropped 31.3% to $5.30 per share. This might have investors contemplating their next move.
+- **2026-08-14** · Healthy Small Multifamily Lending Outpaces Q3 2026 Expectations — *CRE Daily* — https://www.credaily.com/briefs/healthy-small-multifamily-lending-outpaces-q3-2026-expectations/
+  > Small multifamily lending stays steady in Q3 2026, with healthy originations and tight cap rate spreads limiting valuation growth.
+- **2026-08-13** · 1 Small-Cap Stock to Consider Right Now and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-consider-132500037.html
+  > Investors looking for hidden gems should keep an eye on small-cap stocks because they’re frequently overlooked by Wall Street. Many opportunities exist in this part of the market, but it is also a high-risk, high-reward environment due to t
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
+- **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
+- **2026-09-08** · Exchange-Traded Funds Mixed, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-172347069.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-07** · Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector
 - **2026-09-07** · PNC Financial Services Stock: Is PNC Underperforming the Financials Sector? — *Barchart* — https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector
@@ -74,23 +99,20 @@ Attack these before you trust any number above.
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
 - **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
 - **2026-09-04** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html
-- **2026-09-04** · Exchange-Traded Funds Mixed, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-04** · Sector Update: Financial Stocks Lean Lower Premarket Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lean-lower-131926229.html
 
 ## Market and macro context
-- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
-- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
-- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
-- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
+- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
+- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
+- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
+- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
 
 *Rules, releases and agency actions:*
-- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
-- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
-- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
-- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
-- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
-- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
+- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
+- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

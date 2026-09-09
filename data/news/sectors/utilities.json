@@ -1,5 +1,19 @@
 [
  {
+  "id": "24752e92-da23-3e2e-a95f-a7c853125aaf",
+  "ts": "2026-09-08T19:47:00+00:00",
+  "title": "3 ETFs Ready for the High-Yield Dividend Stress Test",
+  "summary": "Stocks with healthy dividends can make sense in these pressure-cooker times. Here are fund picks from financial pros.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/high-yield-dividend-stocks-bonds-42a83a12?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "987f3c2d-d98c-30b8-a8d0-f0a1c9d2686b",
   "ts": "2026-09-07T14:22:05+00:00",
   "title": "XLU\u2019s AI Power Story Crumbles as Texas Freezes Data-Center Demand",

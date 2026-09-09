@@ -1,48 +1,49 @@
 # HRMY — HARMONY BIOSCIENCES HLDG
-*Health Care · brief generated 2026-09-08 · selected as **opportunistic***
+*Health Care · brief generated 2026-09-09 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 90 Health Care peers (98th pct)
-- baseline gap +284%
-- 21d move +9%
+- cheapest 1% of 89 Health Care peers (99th pct)
+- baseline gap +285%
+- 21d move +10%
+- 3 news items in the last 5 days
 - Health Care is in the news
 - never researched
-- urgency score 6.57
+- urgency score 8.11
 
 ## Market
 | | |
 |---|---|
-| price | $42.25 |
+| price | $42.07 |
 | market cap | $2.5B |
-| 5d / 21d / 63d / 252d | +7.8% / +9.0% / +31.2% / +16.4% |
-| 60d avg daily $ volume | $29.6M |
+| 5d / 21d / 63d / 252d | +6.8% / +9.5% / +29.9% / +16.9% |
+| 60d avg daily $ volume | $30.3M |
 | beta (vs IWM) | 0.97 (R²=0.189) |
-| 5d volume vs 60d average | 1.2x |
+| 5d volume vs 60d average | 1.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$272.9M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$347.9M', '$218.7M', '$219.1M']
-Enterprise value **$1.9B** · FCFF yield **+14.0%**
+Enterprise value **$1.9B** · FCFF yield **+14.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.8% − 1pt | -14.4% |
-| **9.8% (point)** | **-11.8%** |
-| 9.8% + 1pt | -9.3% |
+| 9.8% − 1pt | -14.5% |
+| **9.8% (point)** | **-11.9%** |
+| 9.8% + 1pt | -9.4% |
 
 
-> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$233.1M** and an implied growth of **-8.3%** instead of -11.8%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 15% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$233.1M** and an implied growth of **-8.4%** instead of -11.9%. Decide which treatment you are underwriting and say so explicitly.
 
 Naive baseline for comparison: **+25.0%** (5y revenue CAGR +40.3% (clamped to +25.0%)).
-Gap under that baseline: **+283.6%** (fair value $162.07 vs price $42.25).
+Gap under that baseline: **+284.6%** (fair value $161.81 vs price $42.07).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +295.8%).
+Cohort: **99th percentile** of 89 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +297.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -68,8 +69,14 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-07-16** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1802665/000110465926084095/hrmy-20260716xex99d1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-04** · Editas (EDIT) Up 6.2% Since Last Earnings Report: Can It Continue? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/editas-edit-6-2-since-153012234.html
+  > Editas (EDIT) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-03** · Why Is Harmony Biosciences (HRMY) Up 12.1% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/healthcare/articles/why-harmony-biosciences-hrmy-12-153014284.html
+  > Harmony Biosciences (HRMY) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-03** · Harmony Biosciences Announces Poster Presentations at the 16th European Epilepsy Congress — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/harmony-biosciences-announces-poster-presentations-120500139.html
+  > PLYMOUTH MEETING, Pa., Sept. 03, 2026 (GLOBE NEWSWIRE) -- Harmony Biosciences Holdings, Inc. (Nasdaq: HRMY) today announced that it will present encore data from the company’s investigation of EPX-100 (clemizole hydrochloride) at the 16th E
 - **2026-08-27** · Harmony Biosciences to Participate in 2026 Cantor Global Healthcare Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/harmony-biosciences-participate-2026-cantor-120500530.html
   > PLYMOUTH MEETING, Pa., Aug. 27, 2026 (GLOBE NEWSWIRE) -- Harmony Biosciences Holdings, Inc. (Nasdaq: HRMY), today announced that Harmony's management team will participate in a fireside chat at the 2026 Cantor Global Healthcare Conference i
 - **2026-08-26** · Intuit downgraded, SolarEdge upgraded: Wall Street's top analyst calls — *The Fly* — https://finance.yahoo.com/markets/stocks/articles/intuit-downgraded-solaredge-upgraded-wall-134109270.html
@@ -94,30 +101,30 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-08** · Sector Update: Healthcare Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-194859259.html
+- **2026-09-08** · Sector Update: Healthcare Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-tuesday-173533094.html
+- **2026-09-08** · Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/
+- **2026-09-08** · Cramer Says It’s Time To Buy The Dip on JNJ — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/cramer-says-its-time-to-buy-the-dip-on-jnj/
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
 - **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 - **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
 - **2026-09-03** · Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense — *Barrons.com* — https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo
-- **2026-09-03** · Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector? — *Barchart* — https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector
-- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html
-- **2026-09-02** · Sector Update: Healthcare Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-wednesday-173822708.html
 
 ## Market and macro context
-- **2026-09-08** · Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy — Then It Got Added to the S&P 500 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/queen-of-capital-gains-pelosi-bets-3-million-on-bloom-energy-then-it-got-added-to-the-sp-500/
-- **2026-09-08** · Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-rose-elevated-143254887.html
-- **2026-09-08** · Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/
-- **2026-09-08** · 3 Reasons to Sell DVA and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-dva-1-142318467.html
+- **2026-09-09** · Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo
+- **2026-09-09** · Stock Market News for Sep 9, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-9-111100502.html
+- **2026-09-09** · S&P 500 Targets Keep Rising: Barclays Joins HSBC, Tom Lee In AI-Earnings Bullish Chorus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/sp-500-targets-rise-barclays-hsbc-tom-lee-ai-earnings-bullish-chorus/cZt7GKzRJzc
+- **2026-09-09** · How Much Longer Can the Current Bull Market Last? History Provides a Clear Answer. — *Motley Fool* — https://www.fool.com/investing/2026/09/09/how-much-longer-can-the-current-bull-market-last-h/
 
 *Rules, releases and agency actions:*
-- **2026-09-08** · Unleashing Unlicensed Spectrum for Direct-to-Device — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device
-- **2026-09-08** · Safety Zone; Laguna Madre, South Padre Island, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18279/safety-zone-laguna-madre-south-padre-island-tx
-- **2026-09-08** · National Petroleum Reserve in Alaska Production Site Development — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18261/national-petroleum-reserve-in-alaska-production-site-development
-- **2026-09-08** · Car Loan Interest Deduction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction
-- **2026-09-08** · Clearing Requirement Determination Under Section 2(h) of the Commodity Exchange Act for Interest Rate Swaps To Account for CAD and MXN Interest Rate Benchmark Transitions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/08/2026-18212/clearing-requirement-determination-under-section-2h-of-the-commodity-exchange-act-for-interest-rate
-- **2026-09-04** · Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Money Services Businesses Along the Southwest Border — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/04/2026-18194/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-money
+- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
+- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
+- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
