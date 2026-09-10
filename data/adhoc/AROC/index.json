@@ -1,0 +1,138 @@
+{
+  "fetched_utc": "2026-09-10T11:32:31+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AROC",
+    "cik": 1389050,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-11",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000031/aroc-20260810x8k.htm",
+        "file": "2026-08-11-8-K-aroc-20260810x8k.htm.txt",
+        "chars": 3631,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000028/aroc-20260630x10q.htm",
+        "file": "2026-08-05-10-Q-aroc-20260630x10q.htm.txt",
+        "chars": 193128,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000025/aroc-20260804x8k.htm",
+        "file": "2026-08-05-8-K-aroc-20260804x8k.htm.txt",
+        "chars": 3796,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-25",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000110465926077839/tm2618970d1_8k.htm",
+        "file": "2026-06-25-8-K-tm2618970d1_8k.htm.txt",
+        "chars": 8775,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000022/aroc-20260511x8k.htm",
+        "file": "2026-05-11-8-K-aroc-20260511x8k.htm.txt",
+        "chars": 3622,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000019/aroc-20260331x10q.htm",
+        "file": "2026-05-06-10-Q-aroc-20260331x10q.htm.txt",
+        "chars": 151646,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000015/aroc-20260505x8k.htm",
+        "file": "2026-05-06-8-K-aroc-20260505x8k.htm.txt",
+        "chars": 3794,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000012/aroc-20260430x8k.htm",
+        "file": "2026-05-04-8-K-aroc-20260430x8k.htm.txt",
+        "chars": 5006,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000025/aroc-20260804xex99d1.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 48139,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-25",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000110465926077839/tm2618970d1_ex99-1.htm",
+        "file": "2026-06-25-EX-99.1.txt",
+        "chars": 3229,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000015/aroc-20260505xex99d1.htm",
+        "file": "2026-05-06-EX-99.1.txt",
+        "chars": 44876,
+        "truncated": false
+      }
+    ]
+  }
+}

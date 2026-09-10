@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-10T11:32:25+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "JILL",
+    "cik": 1687932,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-09-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526386569/jill-20260801.htm",
+        "file": "2026-09-09-10-Q-jill-20260801.htm.txt",
+        "chars": 130978,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526385874/jill-20260909.htm",
+        "file": "2026-09-09-8-K-jill-20260909.htm.txt",
+        "chars": 3633,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-02",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526380360/jill-20260902.htm",
+        "file": "2026-09-02-8-K-jill-20260902.htm.txt",
+        "chars": 3242,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526265857/jill-20260502.htm",
+        "file": "2026-06-10-10-Q-jill-20260502.htm.txt",
+        "chars": 118064,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526264860/jill-20260610.htm",
+        "file": "2026-06-10-8-K-jill-20260610.htm.txt",
+        "chars": 3610,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "5.07,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526259645/d27471d8k.htm",
+        "file": "2026-06-05-8-K-d27471d8k.htm.txt",
+        "chars": 4115,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-03",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526255440/jill-20260603.htm",
+        "file": "2026-06-03-8-K-jill-20260603.htm.txt",
+        "chars": 3214,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-17",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526161571/d79458d8k.htm",
+        "file": "2026-04-17-8-K-d79458d8k.htm.txt",
+        "chars": 3177,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-09",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526385874/jill-ex99_1.htm",
+        "file": "2026-09-09-EX-99.1.txt",
+        "chars": 43028,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-02",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526380360/jill-ex99_1.htm",
+        "file": "2026-09-02-EX-99.1.txt",
+        "chars": 1429,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526264860/jill-ex99_1.htm",
+        "file": "2026-06-10-EX-99.1.txt",
+        "chars": 30578,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-03",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526255440/jill-ex99_1.htm",
+        "file": "2026-06-03-EX-99.1.txt",
+        "chars": 1416,
+        "truncated": false
+      }
+    ]
+  }
+}

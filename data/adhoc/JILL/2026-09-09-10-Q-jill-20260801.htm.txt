@@ -1,0 +1,4100 @@
+false --02-01 0001687932 Q2 http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent http://fasb.org/us-gaap/2026#PrepaidExpenseAndOtherAssetsCurrent one http://fasb.org/srt/2026#ChiefExecutiveOfficerMember 
+ 0001687932 jill:PerformanceStockUnitsMember 2026-01-31 0001687932 us-gaap:RestrictedStockUnitsRSUMember 2025-02-02 2025-08-02 0001687932 us-gaap:SalesChannelDirectlyToConsumerMember 2026-02-01 2026-08-01 0001687932 us-gaap:SecuredDebtMember jill:TermLoanDueTwoThousandThirtyMember 2026-01-31 0001687932 2025-08-02 0001687932 us-gaap:TreasuryStockCommonMember 2025-08-02 0001687932 us-gaap:SalesChannelThroughIntermediaryMember 2026-05-03 2026-08-01 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember srt:MaximumMember 2025-12-12 0001687932 us-gaap:OtherAssetsNoncurrent 2026-08-01 0001687932 us-gaap:SellingGeneralAndAdministrativeExpense jill:RestrictedStockUnitsAndPerformanceStockUnitsMember 2025-02-02 2025-08-02 0001687932 2026-02-01 2026-08-01 0001687932 us-gaap:TreasuryStockCommonMember 2026-05-02 0001687932 us-gaap:SalesChannelThroughIntermediaryMember 2025-02-02 2025-08-02 0001687932 jill:CarryingValueMember 2026-08-01 0001687932 us-gaap:RetainedEarningsMember 2026-05-02 0001687932 jill:ConsultingAgreementMember us-gaap:EmployeeStockOptionMember jill:ElmStAdvisorsLlcMember 2025-08-02 0001687932 us-gaap:TreasuryStockCommonMember 2026-02-01 2026-05-02 0001687932 us-gaap:CommonStockMember 2026-01-31 0001687932 2026-04-01 2026-04-30 0001687932 us-gaap:TradeNamesMember 2026-08-01 0001687932 jill:SingleReportableSegmentMember 2025-02-02 2025-08-02 0001687932 us-gaap:EmployeeStockOptionMember 2025-05-04 2025-08-02 0001687932 jill:SingleReportableSegmentMember 2025-05-04 2025-08-02 0001687932 us-gaap:FairValueInputsLevel2Member 2026-08-01 0001687932 jill:SingleReportableSegmentMember 2026-02-01 2026-08-01 0001687932 us-gaap:FairValueInputsLevel2Member 2026-01-31 0001687932 jill:ShareRepurchaseProgramMember 2025-05-04 2025-08-02 0001687932 2026-01-31 0001687932 us-gaap:CommonStockMember 2025-08-02 0001687932 us-gaap:AdditionalPaidInCapitalMember 2025-08-02 0001687932 us-gaap:RetainedEarningsMember 2025-02-02 2025-05-03 0001687932 srt:MinimumMember 2026-02-01 2026-08-01 0001687932 jill:ShareRepurchaseProgramMember 2026-08-01 0001687932 2025-02-01 0001687932 us-gaap:CommonStockMember 2025-05-04 2025-08-02 0001687932 us-gaap:CommonStockMember 2025-05-03 0001687932 us-gaap:RetainedEarningsMember 2026-08-01 0001687932 jill:MarkWebbMember 2026-08-01 0001687932 us-gaap:RestrictedStockUnitsRSUMember 2026-02-01 2026-08-01 0001687932 us-gaap:CommonStockMember 2026-05-03 2026-08-01 0001687932 us-gaap:CommonStockMember 2026-02-01 2026-08-01 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember jill:TermSofrThroughAugustOneTwoThousandTwentySixMember 2025-12-12 2025-12-12 0001687932 us-gaap:TreasuryStockCommonMember 2025-05-03 0001687932 jill:OmnibusEquityIncentivePlanMember srt:MaximumMember 2026-08-01 0001687932 us-gaap:SalesChannelDirectlyToConsumerMember 2026-05-03 2026-08-01 0001687932 us-gaap:CommonStockMember 2026-05-02 0001687932 jill:BaseRateThroughAugustOneTwoThousandTwentySixMember jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 2025-12-12 0001687932 jill:PerformanceStockUnitsMember 2026-02-01 2026-08-01 0001687932 us-gaap:SellingGeneralAndAdministrativeExpense jill:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-02-01 2026-08-01 0001687932 us-gaap:TreasuryStockCommonMember 2025-02-02 2025-05-03 0001687932 jill:CarryingValueMember 2026-01-31 0001687932 us-gaap:EmployeeStockOptionMember us-gaap:SellingGeneralAndAdministrativeExpense jill:ElmStAdvisorsLlcMember 2025-02-02 2025-08-02 0001687932 us-gaap:SalesChannelThroughIntermediaryMember 2025-05-04 2025-08-02 0001687932 us-gaap:CustomerRelationshipsMember 2026-08-01 0001687932 us-gaap:DebtMember jill:CarryingValueMember 2026-01-31 0001687932 2026-05-02 0001687932 us-gaap:LeaseholdImprovementsMember 2026-02-01 2026-08-01 0001687932 jill:ShareRepurchaseProgramMember 2026-05-03 2026-08-01 0001687932 jill:ConsultingAgreementMember us-gaap:EmployeeStockOptionMember jill:ElmStAdvisorsLlcMember 2025-02-02 2025-08-02 0001687932 us-gaap:CommonStockMember 2026-08-01 0001687932 us-gaap:LeaseholdImprovementsMember 2026-05-03 2026-08-01 0001687932 us-gaap:DebtMember jill:CarryingValueMember 2026-08-01 0001687932 us-gaap:RetainedEarningsMember 2025-08-02 0001687932 us-gaap:SecuredDebtMember jill:TermLoanDueTwoThousandThirtyMember 2026-08-01 0001687932 srt:MaximumMember 2024-12-06 0001687932 us-gaap:RetainedEarningsMember 2025-02-01 0001687932 us-gaap:CommonStockMember 2026-02-01 2026-05-02 0001687932 us-gaap:EmployeeStockOptionMember 2026-02-01 2026-08-01 0001687932 jill:OmnibusEquityIncentivePlanMember 2026-08-01 0001687932 us-gaap:SalesChannelDirectlyToConsumerMember 2025-02-02 2025-08-02 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 2025-12-12 0001687932 us-gaap:EmployeeStockOptionMember 2025-02-07 2025-02-07 0001687932 us-gaap:TreasuryStockCommonMember 2025-02-01 0001687932 us-gaap:SellingGeneralAndAdministrativeExpense jill:RestrictedStockUnitsAndPerformanceStockUnitsMember 2025-05-04 2025-08-02 0001687932 jill:AssetBasedRevolvingCreditAgreement1Member 2026-01-31 0001687932 2026-05-03 2026-08-01 0001687932 us-gaap:OtherAssetsNoncurrent 2026-01-31 0001687932 us-gaap:RetainedEarningsMember 2025-05-03 0001687932 us-gaap:SalesChannelDirectlyToConsumerMember 2025-05-04 2025-08-02 0001687932 jill:MarkWebbMember 2026-05-03 2026-08-01 0001687932 us-gaap:PrepaidExpenseAndOtherAssetsCurrent 2026-01-31 0001687932 us-gaap:RetainedEarningsMember 2026-01-31 0001687932 us-gaap:RetainedEarningsMember 2025-05-04 2025-08-02 0001687932 jill:BaseRateThereafterMember jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 2025-12-12 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2026-08-01 0001687932 jill:O2026Q3DividendsMember us-gaap:SubsequentEventMember 2026-09-02 2026-09-02 0001687932 us-gaap:TreasuryStockCommonMember 2025-05-04 2025-08-02 0001687932 us-gaap:AdditionalPaidInCapitalMember 2025-05-04 2025-08-02 0001687932 us-gaap:AdditionalPaidInCapitalMember 2025-02-01 0001687932 us-gaap:SecuredOvernightFinancingRateSofrOvernightIndexSwapRateMember jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 2025-12-12 0001687932 us-gaap:AdditionalPaidInCapitalMember 2025-05-03 0001687932 us-gaap:AdditionalPaidInCapitalMember 2026-05-03 2026-08-01 0001687932 us-gaap:RetainedEarningsMember 2026-02-01 2026-05-02 0001687932 us-gaap:FairValueInputsLevel2Member us-gaap:DebtMember 2026-01-31 0001687932 srt:MinimumMember jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 0001687932 jill:ShareRepurchaseProgramMember 2025-02-02 2025-08-02 0001687932 us-gaap:SellingGeneralAndAdministrativeExpense jill:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-05-03 2026-08-01 0001687932 2026-08-01 0001687932 jill:PerformanceStockUnitsMember 2026-08-01 0001687932 us-gaap:AdditionalPaidInCapitalMember 2026-05-02 0001687932 us-gaap:RestrictedStockUnitsRSUMember 2026-08-01 0001687932 us-gaap:AdditionalPaidInCapitalMember 2026-01-31 0001687932 us-gaap:LetterOfCreditMember 2026-01-31 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember jill:FiscalQuarterEndingMayOneTwoThousandTwentySevenMember 2025-12-12 2025-12-12 0001687932 us-gaap:TradeNamesMember 2026-01-31 0001687932 jill:ShareRepurchaseProgramMember 2026-02-01 2026-08-01 0001687932 us-gaap:SalesChannelThroughIntermediaryMember 2026-02-01 2026-08-01 0001687932 us-gaap:LetterOfCreditMember 2026-08-01 0001687932 jill:TermSofrThereafterMember jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 2025-12-12 0001687932 2025-02-02 2025-05-03 0001687932 jill:AssetBasedRevolvingCreditAgreement1Member 2026-02-01 2026-08-01 0001687932 jill:SingleReportableSegmentMember 2026-05-03 2026-08-01 0001687932 us-gaap:PrepaidExpenseAndOtherAssetsCurrent 2026-08-01 0001687932 us-gaap:EmployeeStockOptionMember jill:OmnibusEquityIncentivePlanMember 2025-08-02 0001687932 us-gaap:LeaseholdImprovementsMember 2025-02-02 2025-08-02 0001687932 us-gaap:AdditionalPaidInCapitalMember 2026-02-01 2026-05-02 0001687932 us-gaap:RestrictedStockUnitsRSUMember 2026-01-31 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2026-01-31 0001687932 us-gaap:FairValueInputsLevel2Member us-gaap:DebtMember 2026-08-01 0001687932 2026-02-01 2026-05-02 0001687932 us-gaap:TreasuryStockCommonMember 2026-08-01 0001687932 srt:MaximumMember 2026-02-01 2026-08-01 0001687932 jill:AssetBasedRevolvingCreditAgreement1Member 2026-08-01 0001687932 2025-05-03 0001687932 us-gaap:CommonStockMember 2025-02-02 2025-05-03 0001687932 us-gaap:TreasuryStockCommonMember 2026-05-03 2026-08-01 0001687932 us-gaap:AdditionalPaidInCapitalMember 2025-02-02 2025-05-03 0001687932 jill:PerformanceStockUnitsMember srt:MinimumMember 2026-02-01 2026-08-01 0001687932 jill:OmnibusEquityIncentivePlanMember 2025-06-27 0001687932 us-gaap:RetainedEarningsMember 2026-05-03 2026-08-01 0001687932 2025-02-02 2025-08-02 0001687932 us-gaap:TreasuryStockCommonMember 2026-01-31 0001687932 us-gaap:CustomerRelationshipsMember 2026-01-31 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember 2025-12-12 0001687932 2024-12-06 2024-12-06 0001687932 2025-05-04 2025-08-02 0001687932 jill:ConsultingAgreementMember us-gaap:EmployeeStockOptionMember jill:ElmStAdvisorsLlcMember 2024-12-09 2024-12-09 0001687932 jill:OmnibusEquityIncentivePlanMember 2025-06-27 2025-06-27 0001687932 us-gaap:CommonStockMember 2025-02-01 0001687932 jill:PerformanceStockUnitsMember srt:MaximumMember 2026-02-01 2026-08-01 0001687932 us-gaap:AdditionalPaidInCapitalMember 2026-08-01 0001687932 jill:TwoThousandTwentyFiveTermLoanCreditAgreementMember jill:FiscalQuarterEndedMayTwoTwoThousandTwentySixUntilJanuaryThirtyTwoThousandTwentySevenMember 2025-12-12 2025-12-12 0001687932 us-gaap:EmployeeStockOptionMember 2025-08-02 0001687932 2026-09-03 jill:Trading xbrli:pure xbrli:shares jill:Segment jill:Customer iso4217:USD xbrli:shares jill:Store iso4217:USD 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ WASHINGTON, D.C. 20549 
+
+ FORM 10-Q 
+
+ (Mark One) 
+
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended August 1, 2026 
+
+ OR 
+
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the transition period from _____________________ to _____________________ 
+
+ Commission File Number: 001-38026 
+
+ J.Jill, Inc. 
+
+ (Exact Name of Registrant as Specified in its Charter) 
+
+ Delaware 
+
+ 45-1459825 
+
+ (State or other jurisdiction of 
+
+ incorporation or organization) 
+
+ (I.R.S. Employer
+Identification No.) 
+
+ 4 Batterymarch Park , 
+
+ Quincy , MA 02169 
+
+ 02169 
+
+ (Address of principal executive offices) 
+
+ (Zip Code) 
+
+ Registrant’s telephone number, including area code: ( 617 ) 376-4300 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class 
+
+ Trading symbol(s) 
+
+ Name of each exchange on which registered 
+
+ Common Stock, $0.01 par value 
+
+ JILL 
+
+ New York Stock Exchange 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+
+ Large accelerated filer 
+
+ ☐ 
+
+ Accelerated filer 
+
+ ☒ 
+
+ Non-accelerated filer 
+
+ ☐ 
+
+ Smaller reporting company 
+
+ ☒ 
+
+ Emerging growth company 
+
+ ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 
+
+ Securities registered pursuant to Section 12(g) of the Act: None 
+
+ As of September 3, 2026 the registrant had 14,862,977 shares of common stock, $0.01 par value per share, outstanding. 
+
+ Table of Contents 
+
+ Page 
+
+ PART I. 
+
+ FINANCIAL INFORMATION 
+
+ Item 1. 
+
+ Financial Statements 
+
+ Condensed Consolidated Balance Sheets as of August 1, 2026 (Unaudited) and January 31, 2026 
+
+ 2 
+
+ Condensed Consolidated Statements of Operations and Comprehensive Income for the Thirteen and Twenty-Six Weeks Ended August 1, 2026 and August 2, 2025 (Unaudited) 
+
+ 3 
+
+ Condensed Consolidated Statements of Shareholders’ Equity for the Thirteen and Twenty-Six Weeks Ended August 1, 2026 and August 2, 2025 (Unaudited) 
+
+ 4 
+
+ Condensed Consolidated Statements of Cash Flows for the Twenty-Six weeks ended August 1, 2026 and August 2, 2025 (Unaudited) 
+
+ 5 
+
+ Notes to Condensed Consolidated Financial Statements (Unaudited) 
+
+ 6 
+
+ Item 2. 
+
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+
+ 18 
+
+ Item 3. 
+
+ Quantitative and Qualitative Disclosures About Market Risk 
+
+ 27 
+
+ Item 4. 
+
+ Controls and Procedures 
+
+ 27 
+
+ PART II. 
+
+ OTHER INFORMATION 
+
+ Item 1. 
+
+ Legal Proceedings 
+
+ 28 
+
+ Item 1A. 
+
+ Risk Factors 
+
+ 28 
+
+ Item 2. 
+
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+
+ 28 
+
+ Item 3. 
+
+ Defaults Upon Senior Securities 
+
+ 28 
+
+ Item 4. 
+
+ Mine Safety Disclosures 
+
+ 28 
+
+ Item 5. 
+
+ Other Information 
+
+ 28 
+
+ Item 6. 
+
+ Exhibits 
+
+ 29 
+
+ Exhibit Index 
+
+ 29 
+
+ Signatures 
+
+ 30 
+
+ 1 
+
+ Table of Contents 
+
+ PART I—FINANCI AL INFORMATION 
+
+ Item 1. Financi al Statements 
+
+ J.Jill, Inc. 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED) 
+
+ (in thousands, except share data) 
+
+ August 1, 2026 
+
+ January 31, 2026 
+
+ Assets 
+
+ Current assets: 
+
+ Cash and cash equivalents 
+
+ $ 
+
+ 76,897 
+
+ $ 
+
+ 41,015 
+
+ Accounts receivable, net 
+
+ 5,853 
+
+ 4,322 
+
+ Inventories, net 
+
+ 52,644 
+
+ 70,066 
+
+ Prepaid expenses and other current assets 
+
+ 20,402 
+
+ 25,786 
+
+ Total current assets 
+
+ 155,796 
+
+ 141,189 
+
+ Property and equipment, net 
+
+ 54,119 
+
+ 56,794 
+
+ Intangible assets, net 
+
+ 54,044 
+
+ 56,322 
+
+ Goodwill 
+
+ 59,697 
+
+ 59,697 
+
+ Operating lease assets, net 
+
+ 126,122 
+
+ 128,944 
+
+ Other assets 
+
+ 8,005 
+
+ 7,270 
+
+ Total assets 
+
+ $ 
+
+ 457,783 
+
+ $ 
+
+ 450,216 
+
+ Liabilities and Shareholders’ Equity 
+
+ Current liabilities: 
+
+ Accounts payable 
+
+ $ 
+
+ 42,204 
+
+ $ 
+
+ 57,650 
+
+ Accrued expenses and other current liabilities 
+
+ 38,758 
+
+ 30,864 
+
+ Current portion of long-term debt 
+
+ 1,313 
+
+ 1,875 
+
+ Current portion of operating lease liabilities 
+
+ 37,963 
+
+ 40,259 
+
+ Total current liabilities 
+
+ 120,238 
+
+ 130,648 
+
+ Long-term debt, net of discount and current portion 
+
+ 71,205 
+
+ 71,435 
+
+ Deferred income taxes 
+
+ 16,654 
+
+ 14,403 
+
+ Operating lease liabilities, net of current portion 
+
+ 108,918 
+
+ 111,231 
+
+ Other liabilities 
+
+ 947 
+
+ 1,000 
+
+ Total liabilities 
+
+ 317,962 
+
+ 328,717 
+
+ Commitments and contingencies (see Note 12) 
+
+ Shareholders’ Equity 
+
+ Common stock, par value $ 0.01 per share; 50,000,000 shares authorized; 15,685,048 and 15,522,614 shares issued at August 1, 2026 and January 31, 2026 respectively; and 14,859,072 and 14,865,040 shares outstanding at August 1, 2026 and January 31, 2026, respectively 
+
+ 159 
+
+ 157 
+
+ Additional paid-in capital 
+
+ 240,173 
+
+ 240,981 
+
+ Treasury stock, at cost, 825,976 and 657,574 shares at August 1, 2026 and January 31, 2026, respectively 
+
+ ( 13,222 
+
+ ) 
+
+ ( 10,888 
+
+ ) 
+
+ Accumulated deficit 
+
+ ( 87,289 
+
+ ) 
+
+ ( 108,751 
+
+ ) 
+
+ Total shareholders’ equity 
+
+ 139,821 
+
+ 121,499 
+
+ Total liabilities and shareholders’ equity 
+
+ $ 
+
+ 457,783 
+
+ $ 
+
+ 450,216 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 2 
+
+ Table of Contents 
+
+ J.Jill, Inc. 
+
+ CONDENSED CONSOLIDATED STATEMENT S OF OPERATIONS AND 
+
+ COMPREHENSIVE INCOME (UNAUDITED) 
+
+ (in thousands, except share and per share data) 
+
+ For the Thirteen Weeks Ended 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Net sales 
+
+ $ 
+
+ 154,829 
+
+ $ 
+
+ 153,987 
+
+ $ 
+
+ 299,256 
+
+ $ 
+
+ 307,611 
+
+ Costs of goods sold (exclusive of depreciation and amortization) 
+
+ 35,850 
+
+ 48,630 
+
+ 81,584 
+
+ 91,897 
+
+ Gross profit 
+
+ 118,979 
+
+ 105,357 
+
+ 217,672 
+
+ 215,714 
+
+ Selling, general and administrative expenses 
+
+ 94,645 
+
+ 88,569 
+
+ 184,363 
+
+ 179,657 
+
+ Impairment of long-lived assets 
+
+ 53 
+
+ 5 
+
+ 267 
+
+ 212 
+
+ Operating income 
+
+ 24,281 
+
+ 16,783 
+
+ 33,042 
+
+ 35,845 
+
+ Interest expense 
+
+ 1,900 
+
+ 2,733 
+
+ 3,771 
+
+ 5,522 
+
+ Interest income 
+
+ ( 1,110 
+
+ ) 
+
+ ( 498 
+
+ ) 
+
+ ( 1,457 
+
+ ) 
+
+ ( 886 
+
+ ) 
+
+ Income before provision for income taxes 
+
+ 23,491 
+
+ 14,548 
+
+ 30,728 
+
+ 31,209 
+
+ Income tax provision 
+
+ 6,717 
+
+ 4,033 
+
+ 9,266 
+
+ 9,002 
+
+ Net income and total comprehensive income 
+
+ $ 
+
+ 16,774 
+
+ $ 
+
+ 10,515 
+
+ $ 
+
+ 21,462 
+
+ $ 
+
+ 22,207 
+
+ Per share data (Note 9): 
+
+ Net income per common share: 
+
+ Basic 
+
+ $ 
+
+ 1.12 
+
+ $ 
+
+ 0.69 
+
+ $ 
+
+ 1.44 
+
+ $ 
+
+ 1.45 
+
+ Diluted 
+
+ $ 
+
+ 1.11 
+
+ $ 
+
+ 0.69 
+
+ $ 
+
+ 1.43 
+
+ $ 
+
+ 1.45 
+
+ Weighted average common shares: 
+
+ Basic 
+
+ 14,912,863 
+
+ 15,254,411 
+
+ 14,896,749 
+
+ 15,284,442 
+
+ Diluted 
+
+ 15,074,018 
+
+ 15,297,083 
+
+ 15,024,467 
+
+ 15,344,019 
+
+ Cash dividends declared per common share 
+
+ $ 
+
+ 0.09 
+
+ $ 
+
+ 0.08 
+
+ $ 
+
+ 0.18 
+
+ $ 
+
+ 0.16 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 3 
+
+ Table of Contents 
+
+ J.Jill, Inc. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLD ERS’ EQUITY (UNAUDITED) 
+
+ (in thousands, except share data) 
+
+ Common Stock 
+
+ Additional Paid- in Capital 
+
+ Treasury Stock 
+
+ Accumulated Deficit 
+
+ Total Shareholders’ Equity 
+
+ Shares 
+
+ Amount 
+
+ Shares 
+
+ Amount 
+
+ Balance, January 31, 2026 
+
+ 15,522,614 
+
+ $ 
+
+ 157 
+
+ $ 
+
+ 240,981 
+
+ ( 657,574 
+
+ ) 
+
+ $ 
+
+ ( 10,888 
+
+ ) 
+
+ $ 
+
+ ( 108,751 
+
+ ) 
+
+ $ 
+
+ 121,499 
+
+ Vesting of equity awards 
+
+ 235,795 
+
+ 2 
+
+ ( 2 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ Surrender of shares to pay withholding taxes 
+
+ ( 80,920 
+
+ ) 
+
+ — 
+
+ ( 1,006 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 1,006 
+
+ ) 
+
+ Repurchase of treasury stock 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 68,500 
+
+ ) 
+
+ ( 793 
+
+ ) 
+
+ — 
+
+ ( 793 
+
+ ) 
+
+ Quarterly cash dividend and dividend equivalents declared ($ 0.09 per share) 
+
+ — 
+
+ — 
+
+ ( 1,343 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 1,343 
+
+ ) 
+
+ Equity-based compensation 
+
+ — 
+
+ — 
+
+ 1,246 
+
+ — 
+
+ — 
+
+ — 
+
+ 1,246 
+
+ Net income 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 4,688 
+
+ 4,688 
+
+ Balance, May 2, 2026 
+
+ 15,677,489 
+
+ $ 
+
+ 159 
+
+ $ 
+
+ 239,876 
+
+ ( 726,074 
+
+ ) 
+
+ $ 
+
+ ( 11,681 
+
+ ) 
+
+ $ 
+
+ ( 104,063 
+
+ ) 
+
+ $ 
+
+ 124,291 
+
+ Vesting of equity awards 
+
+ 12,645 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ Surrender of shares to pay withholding taxes 
+
+ ( 5,086 
+
+ ) 
+
+ — 
+
+ ( 82 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 82 
+
+ ) 
+
+ Repurchase of treasury stock 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 99,902 
+
+ ) 
+
+ ( 1,541 
+
+ ) 
+
+ — 
+
+ ( 1,541 
+
+ ) 
+
+ Quarterly cash dividend and dividend equivalents declared ($ 0.09 per share) 
+
+ — 
+
+ — 
+
+ ( 1,427 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 1,427 
+
+ ) 
+
+ Equity-based compensation 
+
+ — 
+
+ — 
+
+ 1,806 
+
+ — 
+
+ — 
+
+ — 
+
+ 1,806 
+
+ Net income 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 16,774 
+
+ 16,774 
+
+ Balance, August 1, 2026 
+
+ 15,685,048 
+
+ $ 
+
+ 159 
+
+ $ 
+
+ 240,173 
+
+ ( 825,976 
+
+ ) 
+
+ $ 
+
+ ( 13,222 
+
+ ) 
+
+ $ 
+
+ ( 87,289 
+
+ ) 
+
+ $ 
+
+ 139,821 
+
+ Common Stock 
+
+ Additional Paid- in Capital 
+
+ Treasury Stock 
+
+ Accumulated Deficit 
+
+ Total Shareholders' Equity 
+
+ Shares 
+
+ Amount 
+
+ Shares 
+
+ Amount 
+
+ Balance, February 1, 2025 
+
+ 15,344,053 
+
+ $ 
+
+ 153 
+
+ $ 
+
+ 242,781 
+
+ ( 19,831 
+
+ ) 
+
+ $ 
+
+ ( 523 
+
+ ) 
+
+ $ 
+
+ ( 136,642 
+
+ ) 
+
+ $ 
+
+ 105,769 
+
+ Vesting of equity awards 
+
+ 238,696 
+
+ 3 
+
+ 187 
+
+ — 
+
+ — 
+
+ — 
+
+ 190 
+
+ Surrender of shares to pay withholding taxes 
+
+ ( 93,075 
+
+ ) 
+
+ — 
+
+ ( 2,043 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 2,043 
+
+ ) 
+
+ Repurchase of treasury stock 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 186,800 
+
+ ) 
+
+ ( 3,526 
+
+ ) 
+
+ — 
+
+ ( 3,526 
+
+ ) 
+
+ Quarterly cash dividend and dividend equivalents declared ($ 0.08 per share) 
+
+ — 
+
+ — 
+
+ ( 1,075 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 1,075 
+
+ ) 
+
+ Equity-based compensation 
+
+ — 
+
+ — 
+
+ 966 
+
+ — 
+
+ — 
+
+ — 
+
+ 966 
+
+ Net income 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 11,692 
+
+ 11,692 
+
+ Balance, May 3, 2025 
+
+ 15,489,674 
+
+ $ 
+
+ 156 
+
+ $ 
+
+ 240,816 
+
+ ( 206,631 
+
+ ) 
+
+ $ 
+
+ ( 4,049 
+
+ ) 
+
+ $ 
+
+ ( 124,950 
+
+ ) 
+
+ $ 
+
+ 111,973 
+
+ Vesting of equity awards 
+
+ 20,559 
+
+ 1 
+
+ ( 1 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ Surrender of shares to pay withholding taxes 
+
+ ( 7,778 
+
+ ) 
+
+ — 
+
+ ( 110 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 110 
+
+ ) 
+
+ Repurchase of treasury stock 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 68,440 
+
+ ) 
+
+ ( 1,002 
+
+ ) 
+
+ — 
+
+ ( 1,002 
+
+ ) 
+
+ Quarterly cash dividend and dividend equivalents declared ($ 0.08 per share) 
+
+ — 
+
+ — 
+
+ ( 1,381 
+
+ ) 
+
+ — 
+
+ — 
+
+ — 
+
+ ( 1,381 
+
+ ) 
+
+ Equity-based compensation 
+
+ — 
+
+ — 
+
+ 1,506 
+
+ — 
+
+ — 
+
+ — 
+
+ 1,506 
+
+ Net income 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ 10,515 
+
+ 10,515 
+
+ Balance, August 2, 2025 
+
+ 15,502,455 
+
+ $ 
+
+ 157 
+
+ $ 
+
+ 240,830 
+
+ ( 275,071 
+
+ ) 
+
+ $ 
+
+ ( 5,051 
+
+ ) 
+
+ $ 
+
+ ( 114,435 
+
+ ) 
+
+ $ 
+
+ 121,501 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 4 
+
+ Table of Contents 
+
+ J.Jill, Inc. 
+
+ CONDENSED CONSOLIDATED STATEMENTS O F CASH FLOWS (UNAUDITED) 
+
+ (in thousands) 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Net income 
+
+ $ 
+
+ 21,462 
+
+ $ 
+
+ 22,207 
+
+ Operating activities: 
+
+ Adjustments to reconcile net income to net cash provided by operating activities: 
+
+ Depreciation and amortization 
+
+ 10,300 
+
+ 10,650 
+
+ Impairment of long-lived assets 
+
+ 267 
+
+ 212 
+
+ Adjustment for exited retail stores 
+
+ ( 392 
+
+ ) 
+
+ ( 232 
+
+ ) 
+
+ Loss on disposal of fixed assets 
+
+ 102 
+
+ 195 
+
+ Noncash interest expense 
+
+ 165 
+
+ 617 
+
+ Equity-based compensation 
+
+ 3,058 
+
+ 2,472 
+
+ Deferred rent incentives 
+
+ ( 27 
+
+ ) 
+
+ ( 472 
+
+ ) 
+
+ Deferred income taxes 
+
+ 2,251 
+
+ 3,268 
+
+ Changes in operating assets and liabilities: 
+
+ Accounts receivable 
+
+ ( 1,531 
+
+ ) 
+
+ ( 1,461 
+
+ ) 
+
+ Inventories, net 
+
+ 17,422 
+
+ 6,026 
+
+ Prepaid expenses and other current assets 
+
+ 5,384 
+
+ ( 2,799 
+
+ ) 
+
+ Accounts payable 
+
+ ( 15,558 
+
+ ) 
+
+ ( 5,123 
+
+ ) 
+
+ Accrued expenses and other current liabilities 
+
+ 7,295 
+
+ ( 8,684 
+
+ ) 
+
+ Operating lease assets and liabilities 
+
+ ( 1,455 
+
+ ) 
+
+ ( 2,312 
+
+ ) 
+
+ Other noncurrent assets and liabilities 
+
+ ( 790 
+
+ ) 
+
+ 134 
+
+ Net cash provided by operating activities 
+
+ 47,953 
+
+ 24,698 
+
+ Investing activities: 
+
+ Purchases of property and equipment 
+
+ ( 4,317 
+
+ ) 
+
+ ( 4,492 
+
+ ) 
+
+ Capitalized software 
+
+ ( 709 
+
+ ) 
+
+ ( 984 
+
+ ) 
+
+ Net cash used in investing activities 
+
+ ( 5,026 
+
+ ) 
+
+ ( 5,476 
+
+ ) 
+
+ Financing activities: 
+
+ Principal repayments on Term Loan 
+
+ ( 938 
+
+ ) 
+
+ — 
+
+ Share repurchase costs, net of commission and fees 
+
+ ( 2,334 
+
+ ) 
+
+ ( 4,528 
+
+ ) 
+
+ Surrender of shares to pay withholding taxes 
+
+ ( 1,088 
+
+ ) 
+
+ ( 2,153 
+
+ ) 
+
+ Quarterly cash dividend paid to shareholders 
+
+ ( 2,685 
+
+ ) 
+
+ ( 2,445 
+
+ ) 
+
+ Net cash used in financing activities 
+
+ ( 7,045 
+
+ ) 
+
+ ( 9,126 
+
+ ) 
+
+ Net change in cash and cash equivalents and restricted cash 
+
+ 35,882 
+
+ 10,096 
+
+ Cash and cash equivalents and restricted cash: 
+
+ Beginning of Period 
+
+ 41,378 
+
+ 35,790 
+
+ End of Period (a) 
+
+ $ 
+
+ 77,260 
+
+ $ 
+
+ 45,886 
+
+ (a) 
+ Includ es $ 0.4 million of restricted cash for the twenty-six weeks ended August 1, 2026 and August 2, 2025 . The Company recorded restricted cash in Prepaid expenses and other current assets as presented in the condensed consolidated balance sheets. 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 5 
+
+ Table of Contents 
+
+ J.Jill, Inc. 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANC IAL STATEMENTS (UNAUDITED) 
+
+ 1. Description of Business 
+
+ J.Jill, Inc., (“J.Jill” or the “Company”), is a national lifestyle brand that provides apparel, footwear and accessories designed to help its customers move through a full life with ease. The brand represents an easy, thoughtful and inspired style that celebrates the totality of all women and designs its products with its core brand ethos in mind: keep it simple and make it matter. J.Jill offers a high touch customer experience through 255 stores nationwide and a robust ecommerce platform. J.Jill is headquartered outside Boston, Massachusetts. 
+
+ J.Jill, Inc. is a holding company. Jill Acquisition LLC, its wholly-owned subsidiary, and J.Jill Gift Card Solutions, Inc., a wholly-owned subsidiary of Jill Acquisition LLC, are the operating companies for the business assets. 
+
+ 2. Summary of Significant Accounting Policies 
+
+ Basis of Presentation 
+
+ Our interim condensed consolidated financial statements are unaudited. All significant intercompany balances and transactions have been eliminated in consolidation. Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been omitted, in accordance with the rules of the Securities and Exchange Commission (the “SEC”) associated with reporting of interim period financial information. We consistently applied the accounting policies described in our Annual Report on Form 10-K (the “2025 Annual Report”) for the fiscal year ended January 31, 2026 (“Fiscal Year 2025”) in preparing these unaudited interim condensed consolidated financial statements. J.Jill operates on a 52- or 53-week fiscal year that ends on the Saturday that is closest to January 31. Each fiscal year generally is comprised of four 13-week fiscal quarters, although in the years with 53 weeks, the fourth quarter represents a 14-week period. The fiscal year ending January 30, 2027 (“Fiscal Year 2026”) and Fiscal Year 2025 are both comprised of 52 weeks. 
+
+ In the opinion of management, these interim condensed consolidated financial statements contain all normal and recurring adjustments necessary to state fairly the financial position and results of operations of the Company. The consolidated balance sheet as of January 31, 2026 was derived from the audited consolidated balance sheet as of that date. The unaudited results of operations for the thirteen and twenty-six weeks ended August 1, 2026 are not necessarily indicative of future results or results to be expected for Fiscal Year 2026. You should read these statements in conjunction with our audited consolidated financial statements and related notes in our 2025 Annual Report. 
+
+ Restricted Cash 
+
+ The Company's restricted cash balance represents an imprest cash account used to fund employee healthcare costs. The balance of restricted cash as of August 1, 2026 and August 2, 2025 was $ 0.4 million, whic h is included in Prepaid expenses and other current assets on the condensed consolidated balance sheets. 
+
+ The following table provides a reconciliation of cash, cash equivalents, and restricted cash reported within the condensed consolidated balance sheets that sum to the total of the same such amounts shown in the consolidated statement of cash flows (in thousands): 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Cash and cash equivalents 
+
+ $ 
+
+ 76,897 
+
+ $ 
+
+ 45,523 
+
+ Restricted cash reported in Prepaid expenses and other current assets 
+
+ 363 
+
+ 363 
+
+ Total cash, cash equivalents, and restricted cash shown in the consolidated statements of cash flows 
+
+ $ 
+
+ 77,260 
+
+ $ 
+
+ 45,886 
+
+ Accounts Receivable 
+
+ The beginning balances at January 31, 2026 for accounts receivable arising from contracts with customers was $ 4.3 million with ending balances included in accounts receivable on the condensed consolidated balance sheets. 
+
+ The beginning balances at February 1, 2025 for accounts receivable arising from contracts with customers was $ 5.0 million with ending balances included in accounts receivable on the condensed consolidated balance sheets. 
+
+ The Company’s accounts receivable relates primarily to payments due from banks for credit and debit card transactions for approximately 2 to 5 days of sales. These receivables do not bear interest. The Company occasionally sells inventory to liquidators, and 
+
+ 6 
+
+ Table of Contents 
+
+ if these sales occur near the end of a reporting period, they are also included in Accounts receivable on the condensed consolidated balance sheets. 
+
+ Cost of Goods Sold 
+
+ Cost of goods sold (“COGS”) consists of the direct costs of sold merchandise, which include customs, taxes, tariffs, duties, commissions and inbound shipping costs, inventory shrinkage, and adjustments and reserves for excess, aged and obsolete inventory. COGS does not include distribution center costs and allocations of indirect costs, such as occupancy, depreciation, amortization, or labor and benefits. 
+
+ Selling, General and Administrative Expenses 
+
+ Selling, general and administrative expenses consist primarily of payroll and related expenses, occupancy costs, information systems costs and other operating expenses related to our stores and operations at the headquarters, including utilities, depreciation and amortization. These expenses also consist of marketing expense, including catalog production and mailing costs, warehousing, distribution and outbound shipping costs, customer service operations, consulting and software services, natural disasters, professional services and other administrative costs. 
+
+ Cloud-Based Software Arrangements 
+
+ The costs incurred to implement cloud computing arrangements hosted by third party vendors are capitalized when incurred during the application development phase, and recognized as Prepaid expenses and other current assets for the current portion or Other assets for the long-term portion in the condensed consolidated balance sheets. Implementation costs are subsequently amortized on a straight-line basis over the expected term of the related cloud service, beginning on the date the related software or module is ready for its intended use. The amortization of cloud-based software implementation costs is recorded as a component of Selling, general, and administrative expenses, in the condensed consolidated statement of operations and comprehensive income, the same line item as the expense for the associated hosting arrangement. The carrying value of cloud computing implementation costs are tested for impairment when an event or circumstance indicates that the asset might be impaired. Cloud computing arrangement implementation costs are classified within operating activities in the condensed consolidated statements of cash flows. 
+
+ For the thirteen and twenty-six weeks ended August 1, 2026, the Company amortiz ed $ 0.6 million and $ 1.2 million , respectively, of cloud-based software implementation costs. For the thirteen and twenty-six weeks ended August 2, 2025 , the Company amortized $ 0.7 million and $ 1.1 million, respectively, of cloud-based software implementation costs. 
+
+ As of August 1, 2026, the Company had $ 11.3 million of gross capitalized cloud-based software implementation costs and $ 1.2 million of related accumulated amortization, for a net balance of $ 10.1 million , made up of $ 2.7 million recorded within Prepaid expenses and other current assets and $ 7.4 million recorded within Other assets in the Company’s condensed consolidated balance sheets. 
+
+ As of January 31, 2026 , the Company had $ 11.3 million of gross capitalized cloud-based software implementation costs and $ 2.2 million of related accumulated amortization, for a net balance of $ 9.1 million, made up of $ 2.6 million recorded within Prepaid expenses and other current assets and $ 6.5 million recorded within Other assets in the Company’s condensed consolidated balance sheets. 
+
+ Change in Accounting Estimate 
+
+ Effective in the first quarter of 2025, the Company revised its methodology for estimating the Direct sales returns reserve. Previously, the reserve was calculated based on catalog offer code tracking data. After upgrading its Order Management System (“OMS”) in March 2025, the Company transitioned to a curve-based model that aligns with the methodology used to estimate returns for its Retail channel. The new model is expected to provide a more accurate reflection of customer return behavior. 
+
+ Additionally, in the first quarter of 2025, the Company reduced the allowable return window for Direct and Retail sales from 90 to 60 days, which also impacted the estimate of expected returns. The Company further revised its methodology for estimating the Retail sales returns reserve in the third quarter of 2025. The Company no longer includes an exchange assumption to better align the reserve with the data provided under its new OMS. These changes have been accounted for as changes in accounting estimates and applied prospectively in accordance with applicable accounting guidance. The impact of these changes is not material to the consolidated financial statements. 
+
+ Recently Issued Accounting Pronouncements 
+
+ In December 2025, the Financial Accounting Standards Board (“FASB”) issued Accounting Standard Update (“ASU”) No. 2025-12, Codification Improvements. This update makes technical corrections and clarifications to the Codification, including conforming amendments and editorial changes. The amendments are effective for annual reporting periods beginning after December 15, 2026, and 
+
+ 7 
+
+ Table of Contents 
+
+ interim reporting periods within those annual reporting periods with early adoption permitted. The adoption of this guidance is not expected to have a material impact on the Company’s consolidated financial statements or disclosures. 
+
+ In December 2025, the FASB also issued ASU No. 2025-11, Interim Reporting (Topic 270): Narrow-Scope Improvements. This update clarifies certain interim reporting requirements and is intended to reduce diversity in practice. The amendments relate primarily to the presentation and disclosure of interim financial information. The amendments are effective for interim reporting periods within annual reporting periods beginning after December 15, 2027, with early adoption permitted. The Company is currently evaluating the impact of this guidance on its interim financial reporting. 
+
+ In September 2025, the FASB issued ASU No. 2025-06, “Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software.” This ASU modernizes the capitalization criteria for internal-use software by eliminating references to project-stage phases and clarifying when capitalization should begin. The guidance is effective for fiscal years beginning after December 15, 2027, including interim periods within those fiscal years, with early adoption permitted. The Company is currently evaluating the impact of this guidance on its consolidated financial statements and related disclosures. 
+
+ In November 2024, the FASB issued ASU 2024-03, “Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40).” Additionally, in January 2025, the FASB issued ASU 2025-01 to clarify the effective date of ASU 2024-03. These standards provide guidance to expand disclosures related to the disaggregation of income statement expenses. The standard requires, in the notes to the financial statements, disclosure of specified information about certain costs and expenses which includes purchases of inventory, employee compensation, depreciation, and intangible asset amortization included in each relevant expense caption. This guidance is effective for fiscal years beginning after December 15, 2026, and interim periods within annual reporting periods beginning after December 15, 2027, on a retrospective or prospective basis, with early adoption permitted. The Company is currently evaluating the impact that this guidance will have on its disclosures in the Company’s consolidated financial statements. 
+
+ In October 2023, the FASB issued ASU 2023-06, “Disclosure Improvements: Codification Amendments in Response to the SEC’s Disclosure Update and Simplification Initiative”. This ASU amends the FASB Accounting Standards Codification (“ASC”) in response to the SEC’s disclosure update and simplification initiative. This guidance will be applied prospectively with the effective date for each amendment to be the date on which the SEC’s removal of that related disclosure from Regulation S-X or Regulation S-K becomes effective, with early adoption prohibited. If by June 30, 2027, the SEC has not removed the related disclosures from Regulation S-X or Regulation S-K, the pending amendments will not become effective for any entity. The Company is assessing what impact this guidance will have on its disclosures in the Company’s consolidated financial statements. 
+
+ Recently Adopted Accounting Pronouncements 
+
+ In December 2023, the FASB issued ASU 2023-09, “Improvements to Income Tax Disclosures.” This ASU requires enhanced income tax disclosures, including disaggregation of information in the rate reconciliation table and disaggregated information related to income taxes paid. The other amendments in this update improve the effectiveness and comparability of disclosures by (1) adding disclosures of pretax income (or loss) and income tax expense (or benefit), and (2) removing disclosures that are no longer considered cost beneficial or relevant. The Company adopted this ASU during the fourth quarter of Fiscal Year 2025 and updated its disclosures accordingly. 
+
+ 3. Revenues 
+
+ Disaggregation of Revenue 
+
+ Net sales consist primarily of revenues, net of merchandise returns and discounts, generated from the sale of apparel and accessory merchandise through our retail stores (“Retail”) and through our website and catalog orders (“Direct”). Net sales also include shipping and handling fees collected from customers, royalty revenues and marketing reimbursements related to our private label credit card agreement. Retail revenue is recognized at the time of sale or upon shipment if the sale is not immediately fulfilled, and Direct revenue is recognized upon shipment of merchandise to the customer. The following table presents disaggregated revenues by source (in thousands): 
+
+ For the Thirteen Weeks Ended 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Retail 
+
+ $ 
+
+ 81,954 
+
+ $ 
+
+ 82,492 
+
+ $ 
+
+ 160,507 
+
+ $ 
+
+ 164,305 
+
+ Direct 
+
+ 72,875 
+
+ 71,495 
+
+ 138,749 
+
+ 143,306 
+
+ Net sales 
+
+ $ 
+
+ 154,829 
+
+ $ 
+
+ 153,987 
+
+ $ 
+
+ 299,256 
+
+ $ 
+
+ 307,611 
+
+ 8 
+
+ Table of Contents 
+
+ Remaining Performance Obligations 
+
+ As of August 1, 2026, the transaction price allocated to remaining performance obligations amounts to $ 0.4 million, which relates to the marketing and promotion of the Company’s private label credit card program. This amount will be recognized as revenue evenly through January 2031. 
+
+ Contract Liabilities 
+
+ The Company recognizes a contract liability when it has received consideration from the customer and has a future obligation to the customer. Total contract liabilities consisted of the following (in thousands): 
+
+ August 1, 2026 
+
+ January 31, 2026 
+
+ Upfront payment (1) 
+
+ 365 
+
+ $ 
+
+ 405 
+
+ Unredeemed gift cards (2) 
+
+ 5,726 
+
+ 7,370 
+
+ Total contract liabilities 
+
+ $ 
+
+ 6,091 
+
+ $ 
+
+ 7,775 
+
+ (1) 
+ The current and noncurrent portions of the upfront payment received in connection with the private label credit card agreement are included in Accrued expenses and other current liabilities and Other long-term liabilities, respectively, in the Company’s condensed consolidated balance sheets. 
+
+ (2) 
+ The unredeemed gift cards balance is included in Accrued expenses and other current liabilities in the Company’s condensed consolidated balance sheets. Revenue recognized for the twenty-six weeks ended August 1, 2026 and August 2, 2025 related to the contract liability balance at the beginning of each fiscal year was $ 2,968 and $ 3,026 . 
+
+ The Company recognized revenue related to gift card redemptions and breakage for the thirteen and twenty-six weeks ended August 1, 2026 of app roximately $ 3.0 million and $ 6.5 million , respectively, and for the thirteen and twenty-six weeks ended August 2, 2025 of approximately $ 3.0 million and $ 6.2 million, respectively. Revenue recognized consists of gift cards that were part of the unredeemed gift card balance at the beginning of the period as well as gift cards that were issued and redeemed during the period. 
+
+ Practical Expedients and Policy Elections 
+
+ The Company excludes from its revenue all amounts collected from customers for sales taxes that are remitted to taxing authorities. 
+
+ Shipping and handling activities that occur after control of related goods transfers to the customer are accounted for as fulfillment activities rather than assessing these activities as performance obligations. 
+
+ The Company does not disclose the transaction price allocated to remaining performance obligations for contracts with customers that have an expected duration of one year or less. The Company applies the optional exemption to not disclose the transaction price allocated to remaining performance obligations where revenue represents sales-or-usage-based royalty. This optional exemption applies to royalty payments received from allowing a third party to use the J.Jill brand in providing a private label credit card to its customers through January 31, 2031. These royalties are based on an agreed-upon percentage of sales generated through the use of the private label credit card. 
+
+ 4. Asset Impairments 
+
+ Long-lived Asset Impairments 
+
+ For the thirteen weeks ended August 1, 2026, the Company recorded an $ 0.1 million of noncash impairment charges related to leasehold improvements at certain store locations. For the twenty-six weeks ended August 1, 2026, the Company recorded $ 0.3 million of noncash impairment charges related to leasehold improvements at certain store locations driven by the actual performance at these locations. The Company reduced the net carrying value of certain long-lived assets to their estimated fair value, which was determined using a discounted cash flow method. 
+
+ For the thirteen weeks ended August 2, 2025, the Company recorded an immaterial amount of noncash impairment charges related to leasehold improvements at certain store locations. For the twenty-six weeks ended August 2, 2025 , the Company recorded noncash impairment charges of $ 0.2 million primarily related to leasehold improvements at certain store locations driven by the actual performance at these locations. 
+
+ Goodwill and Other Intangible Assets 
+
+ The balance of goodwill was $ 59.7 million at August 1, 2026 and January 31, 2026. The accumulated goodwill impairment losses as of August 1, 2026 and February 1, 2025 were $ 137.3 million. 
+
+ 9 
+
+ Table of Contents 
+
+ A summary of other intangible assets as of August 1, 2026 and January 31, 2026 is as follows (in thousands): 
+
+ August 1, 2026 
+
+ Weighted Average Useful Life (Years) 
+
+ Gross 
+
+ Accumulated Amortization 
+
+ Accumulated Impairment 
+
+ Carrying Amount 
+
+ Indefinite-lived: 
+
+ Trade name 
+
+ N/A 
+
+ $ 
+
+ 58,100 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 24,100 
+
+ $ 
+
+ 34,000 
+
+ Definite-lived: 
+
+ Customer relationships 
+
+ 13.2 
+
+ 134,200 
+
+ 111,536 
+
+ 2,620 
+
+ 20,044 
+
+ Total intangible assets 
+
+ $ 
+
+ 192,300 
+
+ $ 
+
+ 111,536 
+
+ $ 
+
+ 26,720 
+
+ $ 
+
+ 54,044 
+
+ January 31, 2026 
+
+ Weighted Average Useful Life (Years) 
+
+ Gross 
+
+ Accumulated Amortization 
+
+ Accumulated Impairment 
+
+ Carrying Amount 
+
+ Indefinite-lived: 
+
+ Trade name 
+
+ N/A 
+
+ $ 
+
+ 58,100 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 24,100 
+
+ $ 
+
+ 34,000 
+
+ Definite-lived: 
+
+ Customer relationships 
+
+ 13.2 
+
+ 134,200 
+
+ 109,258 
+
+ 2,620 
+
+ 22,322 
+
+ Total intangible assets 
+
+ $ 
+
+ 192,300 
+
+ $ 
+
+ 109,258 
+
+ $ 
+
+ 26,720 
+
+ $ 
+
+ 56,322 
+
+ Total amortization expense for these amortizable intangible assets was $ 1.1 million and $ 1.2 million for the thirteen weeks ended August 1, 2026 and August 2, 2025, respectively, and $ 2.3 million for the twenty-six weeks ended August 1, 2026 and August 2, 2025, respectively. 
+
+ The estimated amortization expense for each of the next five years and thereafter is as follows (in thousands): 
+
+ Fiscal Year 
+
+ Estimated Amortization Expense 
+
+ 2026 (1) 
+
+ $ 
+
+ 2,278 
+
+ 2027 
+
+ 4,418 
+
+ 2028 
+
+ 4,246 
+
+ 2029 
+
+ 4,109 
+
+ 2030 
+
+ 4,023 
+
+ Thereafter 
+
+ 970 
+
+ Total 
+
+ $ 
+
+ 20,044 
+
+ (1) 
+ Represents amortization expense for the remainder of Fiscal Year 2026 . 
+
+ Impairment Tests 
+
+ Goodwill and indefinite-lived intangible assets are not amortized but are reviewed for impairment at least annually, or more frequently when events or changes in circumstances indicate that the carrying value may not be recoverable. Definite-lived intangible assets are reviewed for impairment when events or circumstances indicate that the carrying value may not be recoverable. Judgments regarding indicators of potential impairment are based on market conditions and operational performance of the business. 
+
+ During the thirteen and twenty-six weeks ended August 1, 2026 and August 2, 2025 , the Company did not identify any events or circumstances that indicated the fair value of a reporting unit was less than its carrying value. 
+
+ 5. Debt 
+
+ The components of the Company’s outstanding long-term debt as of August 1, 2026 and January 31, 2026 were as follows (in thousands): 
+
+ August 1, 2026 
+
+ Outstanding Principal Balance 
+
+ Original Issue Discount 
+
+ Capitalized Fees & Expenses 
+
+ Balance Sheet 
+
+ Term loan due 2030 
+
+ $ 
+
+ 74,063 
+
+ $ 
+
+ ( 664 
+
+ ) 
+
+ $ 
+
+ ( 881 
+
+ ) 
+
+ $ 
+
+ 72,518 
+
+ Less: Current portion 
+
+ ( 1,313 
+
+ ) 
+
+ — 
+
+ — 
+
+ ( 1,313 
+
+ ) 
+
+ Net long-term debt 
+
+ $ 
+
+ 72,750 
+
+ $ 
+
+ ( 664 
+
+ ) 
+
+ $ 
+
+ ( 881 
+
+ ) 
+
+ $ 
+
+ 71,205 
+
+ 10 
+
+ Table of Contents 
+
+ January 31, 2026 
+
+ Outstanding Principal Balance 
+
+ Original Issue Discount 
+
+ Capitalized Fees & Expenses 
+
+ Balance Sheet 
+
+ Term loan due 2030 
+
+ $ 
+
+ 75,000 
+
+ $ 
+
+ ( 727 
+
+ ) 
+
+ $ 
+
+ ( 963 
+
+ ) 
+
+ $ 
+
+ 73,310 
+
+ Less: Current portion 
+
+ ( 1,875 
+
+ ) 
+
+ — 
+
+ — 
+
+ ( 1,875 
+
+ ) 
+
+ Net long-term debt 
+
+ $ 
+
+ 73,125 
+
+ $ 
+
+ ( 727 
+
+ ) 
+
+ $ 
+
+ ( 963 
+
+ ) 
+
+ $ 
+
+ 71,435 
+
+ Term Loan Credit Agreement 
+
+ On December 12, 2025, the Company and Jill Acquisition LLC (the “Borrower”) entered into a new Term Loan Credit Agreement (the “2025 Term Loan Credit Agreement”), with the lenders party thereto from time to time and CCP Agency, LLC, as administrative agent and as collateral agent. The 2025 Term Loan Credit Agreement provides for a senior secured term loan facility in an aggregate principal amount of $ 75.0 million with a maturity date of December 12, 2030 (the “2025 Term Loan Facility”). As of August 1, 2026 the outstanding principal balance under the 2025 Term Loan Credit Agree ment was $ 74.1 million. 
+
+ The proceeds from the 2025 Term Loan Facility were used to pay off in full all outstanding principal balance under the Term Loan Credit Agreement dated as of April 5, 2023 (the “2023 Term Loan Credit Agreement”). All security interests and liens granted in connection with the 2023 Term Loan Credit Agreement were released. 
+
+ A portion of the transaction was accounted for as a debt modification. As a result, approx imately $ 1.0 million of deferred costs will continue to be deferred and amortized using the effective interest method through December 12, 2030 , the maturity date of the 2025 Term Loan Credit Agreement. These fees are presented as a direct reduction from the carrying amount of long-term debt on the condensed consolidated balance sheets. 
+
+ Loans under the 2025 Term Loan Credit Agreement bear an upfront fee of 1.00 % and interest at the Borrower’s election at (1) the Base Rate (as defined in the 2025 Term Loan Credit Agreement) plus 4.50 % through August 1, 2026 and 4.25 % thereafter or (2) Term SOFR (as defined in the 2025 Term Loan Credit Agreement) plus 5.50 % through August 1, 2026 and 5.25 % thereafter, subject to a floor rate of 1.00 %. 
+
+ The 2025 Term Loan Facility is to be repaid in quarterly payments of approxima tely $ 0.5 million on t he last business day of each fiscal quarter of the borrower, commencing with the fiscal quarter ended May 2, 2026, until January 30, 2027 and of approxi mately $ 0.2 million commenci ng on the fiscal quarter ending May 1, 2027 and each fiscal quarter thereafter, with the remaining aggregate principal amount of Initial Term Loans (as defined in the 2025 Term Loan Credit Agreement) then outstanding to be paid on maturity on December 12, 2030. Additionally, the 2025 Term Loan Facility is subject to mandatory repayment, subject to certain exceptions, including (i) 100 % of the net proceeds of any issuance or incurrence of indebtedness other than debt permitted in the 2025 Term Loan Credit Agreement, (ii) 100 % of the net cash proceeds of certain asset sales/insurance proceeds, subject to reinvestment rights and certain other exceptions, and (iii) an annual payment ranging from 25 %- 75 %, based on the First Lien Net Leverage Ratio, of the annual Excess Cash Flow, less certain voluntary prepayments made during the year, as defined in the 2025 Term Loan Credit Agreement. 
+
+ The 2025 Term Loan Facility may be voluntarily prepaid after the one-year anniversary without premium or penalty but on or prior to the one-year anniversary, subject to a premium of 1.0 % of the aggregate principal amount being prepaid. 
+
+ The obligations under the 2025 Term Loan Credit Agreement were guaranteed by the Company and J.Jill Gift Card Solutions, Inc., and were secured by substantially all of the real and personal property of the Borrower and the guarantors, subject to customary exceptions. The agreement included customary representations and warranties, affirmative and negative covenants, financial covenants, and events of default. 
+
+ During Fiscal Year 2025, in conjunction with entering into the 2025 Term Loan Credit Agreement, the Company incurred $ 0.3 million of third-party fees which were expensed as incurred. 
+
+ As of August 1, 2026, the Company was in compliance with all covenants contained in its outstanding debt arrangements. 
+
+ Asset-Based Revolving Credit Agreement 
+
+ The Company is party to a secured $ 40.0 m illion asset-based revolving credit facility agreement (the “ABL Credit Agreement” and, such facility, the “ ABL Facility”), as amended, with a maturity date of May 10, 2028 (or 180 days prior to the maturity date of the Company’s 2025 Term Loan Credit Agreement if the maturity date of such 2025 Term Loan Facility has not been extended to a date that is at least 180 days after the maturity date of the ABL Credit Agreement). 
+
+ 11 
+
+ Table of Contents 
+
+ The Company had no short-term borrowings under the Company’s ABL Facility as of August 1, 2026 and January 31, 2026. The Company’s available borrowing capacity under the ABL Facility as of August 1, 2026 and January 31, 2026 was $ 35.7 million. 
+
+ As of August 1, 2026 and January 31, 2026, there were outstanding letters of credit of $ 4.3 million, which reduced the availability under the ABL Facility. As of August 1, 2026, the maximum commitment for letters of credit was $ 15.0 million. 
+
+ As of August 1, 2026 , the Company was in compliance with all financial covenants in effect. 
+
+ 6. Fair Value Measurements 
+
+ Fair value is defined as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. 
+
+ Valuation techniques used to measure fair value require the Company to maximize the use of observable inputs and minimize the use of unobservable inputs. The hierarchy gives the highest priority to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1 measurements) and the lowest priority to unobservable inputs (Level 3 measurements). Financial assets and liabilities carried at fair value are to be classified and disclosed in one of the following three levels of the fair value hierarchy, of which the first two are considered observable and the last is considered unobservable: 
+
+ • 
+ Level 1 - Quoted prices in active markets for identical assets or liabilities. 
+
+ • 
+ Level 2 - Observable inputs, other than Level 1 prices, such as quoted prices for similar assets or liabilities in active markets; quoted prices for similar assets or liabilities in markets that are not active; or other inputs other than quoted prices that are observable or can be corroborated by observable market data for substantially the full term of the assets or liabilities, including interest rates and yield curves, and market corroborated inputs. 
+
+ • 
+ Level 3 - Unobservable inputs for the assets or liabilities that are supported by little or no market activity and that are significant to the fair value of the assets or liabilities. These are valued based on management’s estimates and assumptions that market participants would use in pricing the asset or liabilities. 
+
+ The following table presents the carrying value and fair value hierarchy for debt as of August 1, 2026 and January 31, 2026, respectively (in thousands): 
+
+ Fair Value as of August 1, 2026 
+
+ Carrying Value 
+
+ Level 1 
+
+ Level 2 
+
+ Level 3 
+
+ Financial instruments not carried at fair value: 
+
+ Total debt 
+
+ $ 
+
+ 71,205 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 75,151 
+
+ $ 
+
+ — 
+
+ Total financial instruments not carried at fair value 
+
+ $ 
+
+ 71,205 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 75,151 
+
+ $ 
+
+ — 
+
+ Fair Value as of January 31, 2026 
+
+ Carrying Value 
+
+ Level 1 
+
+ Level 2 
+
+ Level 3 
+
+ Financial instruments not carried at fair value: 
+
+ Total debt 
+
+ $ 
+
+ 73,310 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 75,607 
+
+ $ 
+
+ — 
+
+ Total financial instruments not carried at fair value 
+
+ $ 
+
+ 73,310 
+
+ $ 
+
+ — 
+
+ $ 
+
+ 75,607 
+
+ $ 
+
+ — 
+
+ The Company’s debt instruments include the Term Loan Credit Agreement. The debt instruments are recorded at cost, net of debt issuance costs and any related discount. The fair value of the debt instruments is obtained based on observable market prices quoted on public exchanges for similar instruments. 
+
+ The Company believes that the carrying amounts of its other financial instruments, including cash, accounts receivable, accounts payable and any amounts drawn on its revolving credit facilities, consisting primarily of instruments without extended maturities, based on management’s estimates, approximates their fair value due to the short-term maturities of these instruments. 
+
+ Assets and Liabilities with Recurring Fair Value Measurements - Certain assets and liabilities may be measured at fair value on an ongoing basis. We did not elect to apply the fair value option for recording financial assets and financial liabilities. Other than total debt and liability-classified stock options, we do not have any assets or liabilities which we measure at fair value on a recurring basis. 
+
+ Assets and Liabilities with Nonrecurring Fair Value Measurements - Certain assets and liabilities are not measured at fair value on an ongoing basis. These assets and liabilities, which include long-lived assets, goodwill, and intangible assets, are subject to fair value adjustments as part of the related impairment tests. Assumptions used to measure these fair value adjustments are classified as 
+
+ 12 
+
+ Table of Contents 
+
+ Level 3 inputs. Other than impairment accounting adjustments, no adjustments to fair value or fair value measurements were required for non-financial assets and liabilities for all periods presented. See Note 4 - Asset Impairments , for additional information. 
+
+ 7. Income Taxes 
+
+ The Company recorded an income tax provision of $ 6.7 million and $ 4.0 million during the thirteen weeks ended August 1, 2026 and August 2, 2025, respectively. The Company recorded an income tax provision of $ 9.3 million and $ 9.0 million during the twenty-six weeks ended August 1, 2026 and August 2, 2025, respectively. 
+
+ The effective tax rates were 28.6 % and 27.7 % for the thirteen weeks ended August 1, 2026 and August 2, 2025, respectively, and 30.2 % and 28.8 % for the twenty-six weeks ended August 1, 2026 and August 2, 2025, respectively. 
+
+ The effective tax rates for the thirteen and twenty-six weeks ended August 1, 2026 differ from the federal statutory rate of 21 % primarily due to the impact of state and local income taxes, stock compensation shortfalls, and executive compensation limitations. The effective tax rates for the thirteen and twenty-six weeks ended August 2, 2025 differ from the federal statutory rate of 21 % primarily due to the impact of state and local income taxes and executive compensation limitations. 
+
+ 8 . Shareholders’ Equity 
+
+ Share Repurchase Program 
+
+ On December 6, 2024, the Board of Directors (the “Board”) approved a share repurchase program (the “Share Repurchase Program”), under which the Company is authorized to repurchase up to $ 25.0 million of the Company’s common stock for two years following the authorization date. Under the Share Repurchase Program, shares of the Company’s common stock may be purchased from time to time through open market or private transactions, block trades, or such other manner as the Company may determine, in accordance with applicable insider trading and other securities laws and regulations under the Exchange Act and share repurchase parameters determined by the Board. 
+
+ During the thirteen and twenty-six weeks ended August 1, 2026 , the Company repurchased 99,902 and 168,402 shares of its common stock for an aggregate purchase price of $ 1.5 million and $ 2.3 million , respectively. As of August 1, 2026, the Company had $ 11.8 million of availability remaining under its stock repurchase authorization. The purchase price of these share repurchases, and the related fees, have been classified as Treasury stock in the accompanying condensed consolidated balance sheets as of August 1, 2026 . There were 68,440 and 255,240 shares repurchased by the Company during the thirteen and twenty-six weeks ended August 2, 2025. 
+
+ The timing and the number of shares repurchased are subject to the discretion of the Company and may be affected by market conditions and other factors. The Share Repurchase Program does not obligate the Company to acquire any particular amount of common stock and may be modified, suspended or terminated at any time. 
+
+ Dividends 
+
+ During the thirteen weeks ended August 1, 2026 , the Board declared a quarterly cash dividend payment of $ 0.09 per share of common stock (the “Dividend”). The Dividend was payable on July 8, 2026 to stockholders of record of issued and outstanding shares of the Company’s common stock as of June 24, 2026. During the thirteen and twenty-six weeks ended August 1, 2026, the Company paid $ 1.4 million and $ 2.7 million , respectively, in dividends. While dividends are generally recorded as a reduction to Retained earnings, since the Company has an accumulated deficit, dividends are recorded as a reduction to Additional paid-in capital on the condensed consolidated balance sheets. 
+
+ The Company intends to pay cash dividends quarterly in the future, subject to market conditions and at the discretion of the Board. The Company's ability to pay dividends in the future is based on a number of factors, such as earnings levels, capital requirements, restrictions imposed by applicable law, our overall financial condition, restrictions in our debt agreements and the ability of our operating subsidiaries to pay dividends to us as a holding company. 
+
+ 13 
+
+ Table of Contents 
+
+ 9. Net Income Per Share 
+
+ The following table summarizes the computation of basic and diluted net income per common share (“EPS”) (in thousands, except share and per share data): 
+
+ For the Thirteen Weeks Ended 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Numerator 
+
+ Net income 
+
+ $ 
+
+ 16,774 
+
+ $ 
+
+ 10,515 
+
+ $ 
+
+ 21,462 
+
+ $ 
+
+ 22,207 
+
+ Denominator 
+
+ Weighted average number of common shares outstanding, basic 
+
+ 14,912,863 
+
+ 15,254,411 
+
+ 14,896,749 
+
+ 15,284,442 
+
+ Dilutive effect of share-based awards 
+
+ 161,155 
+
+ 42,672 
+
+ 127,718 
+
+ 59,577 
+
+ Weighted average common shares, diluted 
+
+ 15,074,018 
+
+ 15,297,083 
+
+ 15,024,467 
+
+ 15,344,019 
+
+ Net income per common share, basic 
+
+ $ 
+
+ 1.12 
+
+ $ 
+
+ 0.69 
+
+ $ 
+
+ 1.44 
+
+ $ 
+
+ 1.45 
+
+ Net income per common share, diluted 
+
+ $ 
+
+ 1.11 
+
+ $ 
+
+ 0.69 
+
+ $ 
+
+ 1.43 
+
+ $ 
+
+ 1.45 
+
+ Share-based awards are excluded from the diluted earnings per share calculation when their inclusion would have an antidilutive effect such as when the Company has a net loss for the reporting period, or if the assumed proceeds per share of the award is in excess of the related fiscal period’s average price of the Company’s common stock. Accordingly, 121,129 and 232,825 shares for the thirteen and twenty-six weeks ended August 1, 2026, respectively, and 279,851 and 278,166 shares for the thirteen and twenty-six weeks ended August 2, 2025 , respectively, were excluded from the diluted earnings per share calculation because their inclusion would be antidilutive. 
+
+ 10. Share-Based Payment 
+
+ On March 11, 2025, the Board approved and authorized an amendment and restatement (the “Amendment”) to the Company ’ s Amended and Restated 2017 Omnibus Equity Incentive Plan (the “A&R Plan”). The A&R Plan is administered by the Compensation Committee of the Board (the “Committee”). The Committee has the authority to determine the type, size and terms and conditions of awards granted under the A&R Plan. 
+
+ On June 27, 2025, the Company registered an additional 750,000 shares of its common stock at par value of $ 0.01 per share. As of August 1, 2026, the A&R Plan has 2,793,453 shares of common stock reserved for issuance to awards granted by the Committee with an aggregate of 692,031 shares remaining for future issuance. 
+
+ During the twenty-six weeks ended August 1, 2026 and August 2, 2025, the Board approved and granted Restricted Stock Units (“RSUs”), dividend equivalent RSUs, Performance Stock Units (“PSUs”) and dividend equivalent PSUs under the A&R Plan. 
+
+ Restricted Stock Units 
+
+ For the twenty-six weeks ended August 1, 2026 and August 2, 2025 , the Board granted RSUs under the A&R Plan, which vest in one to three equal annual installments, beginning one year from the date of grant. The grant-date fair value of RSUs is recognized as expense on a straight-line basis over the requisite service period, which is generally the vesting period. In connection with the cash dividend paid on the Company’s common stock and in accordance with the terms of the A&R Plan, participants holding RSUs were credited with dividend equivalent RSUs, which are subject to the same vesting terms as the RSUs. For the twenty-six weeks ended August 1, 2026 and August 2, 2025, the fair market value of RSUs was determined based on the market price of the Company’s shares on the date of the grant. 
+
+ The following table summarizes the RSU awards activity for the twenty-six weeks ended August 1, 2026: 
+
+ Number of RSUs 
+
+ Weighted Average Grant Date Fair Value 
+
+ Unvested units outstanding at January 31, 2026 
+
+ 580,411 
+
+ $ 
+
+ 18.61 
+
+ Granted 
+
+ 473,208 
+
+ $ 
+
+ 12.20 
+
+ Vested 
+
+ ( 236,103 
+
+ ) 
+
+ $ 
+
+ 18.78 
+
+ Forfeited 
+
+ ( 66,307 
+
+ ) 
+
+ $ 
+
+ 15.97 
+
+ Unvested units outstanding at August 1, 2026 
+
+ 751,210 
+
+ $ 
+
+ 14.58 
+
+ 14 
+
+ Table of Contents 
+
+ As of August 1, 2026, there was $ 8.9 million of total unrecognized compensation expense related to unvested RSUs, which is expected to be recognized over a weighted-average service period of 2.0 years. The total fair value of RSUs vested during the twenty-six weeks ended August 1, 2026 and August 2, 2025 was $ 4.4 million and $ 4.9 million, respectively. 
+
+ Performance Stock Units 
+
+ For the twenty-six weeks ended August 1, 2026 and August 2, 2025, the Board granted PSUs, a portion of which are based on achieving an adjusted earnings before interest, taxes, depreciation and amortization (“Adjusted EBITDA”) goal and the remaining portion is based on achieving an annualized absolute total shareholder return (“TSR”) growth goal. 
+
+ Each PSU award reflects a target number of shares (“Target Shares”) that may be issued to the award recipient provided the employee continues to provide services to the Company throughout the three-year performance period of the award. For Adjusted EBITDA based PSUs, the number of units earned will be determined based on the achievement of the predetermined Adjusted EBITDA goals at the end of each performance year, and for TSR based PSUs, the number of units earned will be determined based on the achievement of the predetermined TSR growth goal at the end of a three-year performance period. The TSR is based on J.Jill’s 30 -trading day average beginning and closing price of the three-year performance period, assuming the reinvestment of dividends. Depending on the performance results based on Adjusted EBITDA and TSR, the actual number of shares that a grant recipient receives at the end of the vesting period may range from 0 % to 200 % of the Target Shares granted. PSUs are converted into shares of common stock upon vesting, under the terms of the A&R Plan. In connection with the cash dividend paid on the Company’s common stock and in accordance with the terms of the A&R Plan, participants holding PSUs were credited with dividend equivalent PSUs, a portion of which are based on an Adjusted EBITDA goal and the remaining portion is based on achieving an annualized TSR growth goal, each subject to the same vesting terms as the corresponding PSUs. 
+
+ The fair value of the PSUs granted during the twenty-six weeks ended August 1, 2026 for which the performance is based on an Adjusted EBITDA goal was determined based on the market price of the Company’s shares on the date of the grant. Additionally, for those awards whose performance is based on a TSR growth goal, the fair value was estimated using a Monte Carlo simulation as of the grant date. These valuations were based on the assumptions noted below: 
+
+ Monte Carlo Simulation Assumptions 
+
+ Risk Free Interest Rate 
+
+ 3.84 %- 3.93 % 
+
+ Expected Dividend Yield 
+
+ — 
+
+ Expected Volatility 
+
+ 49.89 %- 50.11 % 
+
+ Expected Term 
+
+ 2.75 - 2.82 
+
+ The Company recognizes share-based compensation expense related to Adjusted EBITDA based PSUs based on the Company’s estimate of the percentage of the award that will be achieved. The Company evaluates the estimate of these awards on a quarterly basis and adjusts share-based compensation expense related to these awards, as appropriate. For the TSR based PSUs, the share-based compensation expense is recognized on a straight-line basis over the three-year performance period based on the grant-date fair value of these PSUs. 
+
+ The following table summarizes the PSU awards activity for the twenty-six weeks ended August 1, 2026: 
+
+ Number of PSUs 
+
+ Weighted Average Grant Date Fair Value 
+
+ Unvested units outstanding at January 31, 2026 
+
+ 205,037 
+
+ $ 
+
+ 22.89 
+
+ Granted 
+
+ 190,573 
+
+ $ 
+
+ 12.71 
+
+ Forfeited 
+
+ ( 33,651 
+
+ ) 
+
+ $ 
+
+ 19.22 
+
+ Unvested units outstanding at August 1, 2026 
+
+ 361,959 
+
+ $ 
+
+ 17.95 
+
+ As of August 1, 2026, there was $ 2.8 million of total unrecognized compensation expense related to unvested PSUs, which is expected to be recognized over a weighted-average service period of 2.1 years. 
+
+ Share-based compensation expense for RSUs and PSUs was recorded in the Selling, general and administrative expenses in the condensed consolidated statement of operations and comprehensive income. The Company recorded $ 1.8 million and $ 3.0 million for the thirteen and twenty-six weeks ended August 1, 2026, respectively, and $ 1.4 million and $ 2.4 million for the thirteen and twenty-six weeks ended August 2, 2025 , respectively. As per the terms of the A&R Plan, as the dividend equivalent awards are subject to the same vesting conditions as their underlying awards, the Company did no t record any additional share-based compensation expense associated with these awards. 
+
+ 15 
+
+ Table of Contents 
+
+ Stock Options 
+
+ On December 9, 2024, the Company entered into a consulting agreement with Elm St Advisors, LLC (“Elm Street”), which was subsequently amended on March 11, 2025 (as amended, the “Consulting Agreement”). The Consulting Agreement resulted in a net award of 33,334 stock options to Elm Street, which vested on February 7, 2025. The amendment resulted in the cancellation of 66,666 of the original 100,000 stock options initially awarded under the Consulting Agreement, and accordingly, the reversal of $ 0.3 million of compensation expense was reversed in Selling, general and administrative expenses on the condensed consolidated statements of operations and comprehensive income during the twenty-six weeks ended August 2, 2025. The stock options expire three years from the December 9, 2024 grant date. As of August 2, 2025, there was no unrecognized compensation cost as the stock options were fully vested. 
+
+ The Company applied liability accounting to the stock options prior to their vesting since the Board retained sole discretion over the determination of the milestone achievements and the related vesting, as described in the Consulting Agreement. Upon vesting the stock options became equity-classified and the corresponding liability was reclassified from Accrued expenses and other current liabilities to Additional paid-in capital on the condensed consolidated balance sheets. 
+
+ The fair value of the stock options as of February 7, 2025 was calculated using the Black-Scholes option-pricing model with the following assumptions: 
+
+ Black Scholes Options Pricing Model 
+
+ February 7, 2025 
+
+ Risk Free Interest Rate 
+
+ 4.27 
+
+ % 
+
+ Expected Dividend Yield 
+
+ 1.0 
+
+ % 
+
+ Expected Volatility 
+
+ 45.90 
+
+ % 
+
+ Expected Term 
+
+ 1.59 
+
+ During the thirteen weeks ended August 2, 2025, the outstanding stock options, including previously issued stock options have a weighted average fair value of $ 30.17 , weighted average exercise price of $ 59.85 and a weighted average remaining contractual term of 0.8 years . 
+
+ 11. Related Party Transactions 
+
+ For the thirteen and twenty-six weeks ended August 1, 2026 and August 2, 2025, the Company incurred an immaterial amount of other expenses in connection with related party transactions. As of August 1, 2026 and January 31, 2026, the Company owed its related parties immaterial amounts. 
+
+ 12. Commitments and Contingencies 
+
+ Legal Proceedings 
+
+ The Company is subject to various legal proceedings that arise in the ordinary course of business. Although the outcome of such proceedings cannot be predicted with certainty, management does not believe that the Company is presently party to any legal proceedings the resolution of which management believes would have a material adverse effect on the Company’s financial statements. The Company establishes reserves for specific legal matters, including legal costs, when the Company determines that the likelihood of an unfavorable outcome is probable, and the loss is reasonably estimable. 
+
+ Tariff Refunds 
+
+ On February 20, 2026, the U.S. Supreme Court ruled that certain of the tariffs imposed in fiscal 2025 under the International Emergency Economic Powers Act (“IEEPA”) were unlawful and remanded the case to the U.S. Court of International Trade (“CIT”) to provide a remedy for importers who had paid the tariffs. On March 4, 2026, the CIT ordered U.S. Customs and Border Protection (“CBP”) to begin refunding all tariffs imposed under IEEPA. On April 20, 2026, CBP launched a process for importers to submit IEEPA refund claims. The Company submitted claims for refunds totaling $ 18.4 million in April 2026. In the second quarter of fiscal 2026, the Company began receiving refunds for IEEPA tariffs previously paid, totaling approximately $ 19.0 million, including $ 0.6 million of interest. Approximately $ 13.3 million is reflected within “Cost of goods sold (exclusive of depreciation and amortization),” and the interest is reflected within "Interest income” in the accompanying unaudited Condensed Consolidated Income Statements. The Company accounts for such refunds as gain contingencies and recognizes any recovery when the gain is realized or realizable and the related 
+
+ 16 
+
+ Table of Contents 
+
+ contingencies have been substantially resolved. The Company does not expect the amounts of the remaining refunds of IEEPA tariffs to be material. 
+
+ 13. Segment Reporting 
+
+ Operating Segments 
+
+ The Company operates through two operating segments, Retail and Direct, based on the criteria used by the Chief Operating Decision Maker ( “CODM”) to monitor performance and allocate resources. For reporting purposes, these operating segments have been aggregated into a single reportable segment due to their similar economic characteristics and shared resources. The segment derives its revenues from the sale of apparel and accessory merchandise through the retail stores and website and catalog orders. 
+
+ Performance Assessment and Resource Allocation 
+
+ The Company’s CODM is the Chief Executive Officer . To assess the performance of the Company, the CODM primarily uses net income to analyze shopping behaviors and allocate resources effectively to enhance sales and margins. Net income is integral to the annual budgeting and forecasting process, with monthly reviews of variances from actuals against plan and forecast when making decisions on marketing spend, capital investments, and personnel. The accounting policies of the segment are the same as those described in the summary of significant accounting policies. 
+
+ An extract of the financial information that is regularly provided to the CODM for the Company’s single reportable segment is listed below: 
+
+ For the Thirteen Weeks Ended 
+
+ For the Twenty-Six Weeks Ended 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Net sales 
+
+ $ 
+
+ 154,829 
+
+ $ 
+
+ 153,987 
+
+ $ 
+
+ 299,256 
+
+ $ 
+
+ 307,611 
+
+ Costs of goods sold (exclusive of depreciation and amortization) 
+
+ 35,850 
+
+ $ 
+
+ 48,630 
+
+ 81,584 
+
+ $ 
+
+ 91,897 
+
+ Selling expenses 
+
+ 51,809 
+
+ 48,794 
+
+ 101,517 
+
+ 96,568 
+
+ Marketing expenses 
+
+ 13,958 
+
+ 12,097 
+
+ 26,953 
+
+ 26,336 
+
+ General and administrative expenses 
+
+ 20,388 
+
+ 18,877 
+
+ 39,658 
+
+ 39,886 
+
+ Other segment items (a) 
+
+ 16,050 
+
+ 15,074 
+
+ 28,082 
+
+ 30,717 
+
+ Net income and total comprehensive income 
+
+ $ 
+
+ 16,774 
+
+ $ 
+
+ 10,515 
+
+ $ 
+
+ 21,462 
+
+ $ 
+
+ 22,207 
+
+ (a) 
+ Other segment items represent the Company ’ s OMS upgrade, management incentives, impairments of long-lived assets, interest expense, interest income, income taxes, and depreciation and amortization. 
+
+ Geographic Information 
+
+ All of the Company’s identifiable assets are located in the United States, which is where the Company is domiciled. The Company has immaterial sales outside the United States. No customer represent s more than 10% of total revenues for any period presented. 
+
+ 14. Subsequent Events 
+
+ Dividends 
+
+ On September 2, 2026, the Board declared a quarterly cash dividend of $ 0.09 per share, payable on October 7, 2026 to stockholders of record of issued and outstanding shares of the Company’s common stock as of September 23, 2026 . 
+
+ 17 
+
+ Table of Contents 
+
+ Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+
+ The following discussion and analysis should be read in conjunction with our condensed consolidated financial statements and related notes thereto included elsewhere in this quarterly report on Form 10-Q (the “Quarterly Report”). The following discussion contains forward-looking statements that reflect our plans, estimates and assumptions. Our actual results could differ materially from those discussed in the forward-looking statements. Factors that could cause such differences are discussed in the sections of this Quarterly Report titled “Risk Factors” and “Special Note Regarding Forward-Looking Statements.” 
+
+ We operate on a 52- or 53-week fiscal year that ends on the Saturday that is closest to January 31. Each fiscal year generally is comprised of four 13-week fiscal quarters, although in the years with 53 weeks, the fourth quarter represents a 14-week period. The fiscal year ending January 30, 2027 (“Fiscal Year 2026”) and fiscal year ended January 31, 2026 (“Fiscal Year 2025”) are both comprised of 52 weeks. 
+
+ All references in this Quarterly Report to “J.Jill,” “we,” “our,” “us,” “the Company” or similar terms are to J.Jill, Inc. and its subsidiaries. 
+
+ Overview 
+
+ J.Jill is a national lifestyle brand that provides apparel, footwear and accessories designed to help its customers move through a full life with ease. The brand represents an easy, thoughtful and inspired style that celebrates the totality of all women and designs its products with its core brand ethos in mind: keep it simple and make it matter. J.Jill offers a high touch customer experience through 255 stores nationwide and a robust ecommerce platform. J.Jill is headquartered outside Boston, Massachusetts. 
+
+ Factors Affecting Our Operating Results 
+
+ Various factors are expected to continue to affect our results of operations going forward, including the following: 
+
+ Overall Economic Trends . Consumer purchases of clothing and other merchandise generally decline during recessionary periods and other periods when disposable income is adversely affected, and consequently our results of operations may be affected by general economic conditions. For example, reduced consumer confidence, lower availability, inflationary pressures and higher cost of consumer credit may reduce demand for our merchandise and may limit our ability to increase or sustain prices. The growth rate of the market could be affected by macroeconomic conditions in the United States and abroad. Additionally, the occurrence or reoccurrence of any significant pandemic, regional conflicts, or other geopolitical disruptions, or a prolonged shutdown of the United States government could impact our sales and business operations. 
+
+ Consumer Preferences and Fashion Trends . Our ability to maintain our appeal to existing customers and attract new customers depends on our ability to anticipate fashion trends. During periods in which we have successfully anticipated fashion trends, we have generally had more favorable results. 
+
+ Competition . The retail industry is highly competitive and retailers compete based on a variety of factors, including design, quality, price and customer service. Levels of competition and the ability of our competitors to more accurately predict fashion trends and otherwise attract customers through competitive pricing or other factors may impact our results of operations. 
+
+ Our Strategic Initiatives . The ongoing implementation of strategic initiatives will continue to have an impact on our results of operations. These initiatives include our ecommerce platform and inventory enhancement. Although initiatives of this nature are designed to create growth in our business and continue improvement in our operating results, the timing of expenditures related to these initiatives, as well as the achievement of returns on our investments, may affect our results of operations in future periods. 
+
+ Pricing and Changes in Our Merchandise Mix or Supply Chain Issues . Our product offering changes from period to period, as do the prices at which goods are sold and the margins we are able to earn from the sales of those goods. The levels at which we are able to price our merchandise are influenced by a variety of factors, including the quality of our products, cost of production, prices at which our competitors are selling similar products, sourcing and/or distributing product, and the willingness of our customers to pay for products. 
+
+ Potential Changes in Tax Laws and/or Regulations . Changes in tax laws in any of the multiple jurisdictions in which we operate, or adverse outcomes from tax audits that we may be subject to in any of the jurisdictions in which we operate, could adversely affect our business, financial condition and operating results. Additionally, any potential changes with respect to tax and trade policies, tariffs and government regulations affecting trade between the U.S. and other countries could adversely affect our business, as we source the majority of our merchandise from manufacturers located outside of the U.S. 
+
+ 18 
+
+ Table of Contents 
+
+ Tariffs. The imposition of tariffs (including U.S. tariffs imposed or threatened to be imposed on a number of countries and any tariffs imposed by such countries) have impacted and could continue to impact our supply chain resulting in increased input costs, including the cost of certain raw materials and packaging. In February 2026, the U.S. Supreme Court ruled that many of the tariffs previously imposed under the International Emergency Economic Powers Act were invalid. Following the Supreme Court ruling, the Court of International Trade issued an order directing Customs and Border Protection (“CBP”) to begin paying refunds for tariffs enacted under the International Emergency Economic Powers Act (“IEEPA”) immediately. The CBP developed a new system to process IEEPA tariff refunds and has commenced a phased rollout of refunds. Subsequent to year-end, the Company submitted refund claims to CBP related to tariffs previously paid under the IEEPA. These claims were submitted following court rulings that invalidated certain IEEPA tariffs and directed CBP to implement a refund process. During the thirteen weeks ended August 1, 2026, the Company began receiving refunds and recognized recoveries prospectively as they became realizable. The ultimate amount and timing of additional refunds remain subject to the ongoing administrative implementation of the refund process by the CBP. The refunds were recognized as a reduction of cost of goods sold in the Company's condensed consolidated statements of operations. Additionally, a portion of tariff recoveries is recorded within accrued liabilities. Further, in July 2026, the U.S. administration announced plans to implement additional tariffs under Section 301 of the Trade Act of 1974 and could take action to implement additional tariffs in the future. We will continue to evaluate the nature and extent of the impact of these tariffs on our business, to identify actions to potentially mitigate, where possible, any unfavorable impacts on our business and to monitor the regulatory and administrative developments around the potential refund of tariffs previously paid and assess their impact on our future results. 
+
+ Risks Associated with Ongoing Conflicts. Ongoing or escalating geopolitical tensions and military activity, including conflicts involving the Middle East, Iran, and Ukraine, may adversely affect the Company’s business, financial condition, and results of operations. Heightened geopolitical instability in the Middle East has contributed to uncertainty in global economic and financial conditions, including potential constraints affecting key shipping routes such as the Strait of Hormuz, and increased volatility in energy, fuel, and transportation markets, as well as contributing to volatility in labor, financial, and commodity markets. These developments may disrupt global supply chains, including the availability and cost of fuel, energy, transportation, and other critical materials, which would have an adverse effect on our results of operations. Disruptions to fuel and energy supply, including as a result of government‑imposed restrictions, sanctions, export controls, or other regulatory actions, could materially increase the Company’s operating costs or require the temporary suspension or shutdown of certain mining operations where reliable access to fuel or power is essential to safe and continuous operations. Heightened geopolitical tensions may also increase cybersecurity risks, including threats to energy infrastructure, logistics providers, financial systems, and other third‑party service providers. 
+
+ How We Assess the Performance of Our Business 
+
+ In assessing the performance of our business, we consider a variety of financial and operating metrics, including financial measures calculated in accordance with U.S. generally accepted accounting principles (“GAAP”) and non-GAAP measures, such as: 
+
+ Net sales consist primarily of revenues, net of merchandise returns and discounts, generated from the sale of apparel and accessory merchandise through our retail stores (“Retail”) and through our website and catalog orders (“Direct”). Net sales also include shipping and handling fees collected from customers, royalty revenues and marketing reimbursements related to our private label credit card agreement. Retail revenue is recognized at the time of sale or upon shipment if the sale is not immediately fulfilled, and Direct revenue is recognized upon shipment of merchandise to the customer. 
+
+ Net sales are impacted by the size of our active customer base, product assortment and availability, marketing and promotional activities and the spending habits of our customers. Net sales are also impacted by the migration of single-channel customers to omnichannel customers who, on average, spend three times more than single-channel customers. 
+
+ Total company comparable sales include sales net of returns from our retail stores that have been open for more than 52 weeks and from our Direct channel. This measure highlights the performance of existing stores open during the period, while excluding the impact of new store openings and closures. When a store in the total company comparable store base is temporarily closed for four or more days within a fiscal week, the store is excluded from the comparable store base; if it is temporarily closed for three or fewer days within a fiscal week, the store is included within the comparable store base. Certain of our competitors and other retailers may calculate total company comparable sales differently than we do. Our comparable sales are based on a 52-week period. The total company comparable sales calculation shifts the weeks in the fiscal year containing the fifty-third week to align like-for-like. As a result, the reporting of our total company comparable sales may not be comparable to sales data made available by other companies. 
+
+ Number of stores reflects all stores open at the end of a reporting period. In connection with opening new stores, we incur pre-opening costs. Pre-opening costs include expenses incurred prior to opening a new store and primarily consist of payroll, travel, training, marketing, initial opening supplies and costs of transporting initial inventory and fixtures to retail stores, as well as occupancy costs incurred from the time of possession of a store site to the opening of that store. In connection with closing stores, we 
+
+ 19 
+
+ Table of Contents 
+
+ incur store-closing costs. Store-closing costs primarily consist of lease termination penalties and costs of transporting inventory and fixtures to other store locations. These pre-opening and store-closing costs are included in selling, general and administrative expenses and are generally incurred and expensed within 30 days of opening a new store or closing a store. 
+
+ Gross profit is equal to our net sales less costs of goods sold. Gross profit as a percentage of our net sales is referred to as gross margin. 
+
+ Costs of goods sold (“COGS”) consists of the direct costs of sold merchandise, which include customs, taxes, tariffs, duties, commissions and inbound shipping costs, inventory shrinkage, and adjustments and reserves for excess, aged and obsolete inventory. COGS does not include distribution center costs and allocations of indirect costs, such as occupancy, depreciation, amortization, or labor and benefits. We review our inventory levels on an ongoing basis to identify slow-moving merchandise and use markdowns to liquidate these products. Changes in the assortment of our products may also impact our gross profit. The timing and level of markdowns are driven by customer acceptance of our merchandise. The Company’s COGS, and consequently gross profit, may not be comparable to those of other retailers, as inclusion of certain costs vary across the industry. 
+
+ The variability in COGS is due to raw materials, transportation and freight costs. These costs fluctuate based on certain factors beyond our control, including labor conditions, inbound transportation or freight costs, energy prices, currency fluctuations and commodity prices. We place orders with merchandise suppliers in U.S. dollars and, as a result, are not exposed to significant foreign currency exchange risk. 
+
+ Selling, general and administrative (“SG&A”) expenses include all operating costs not included in COGS. These expenses consist primarily of all payroll and related expenses, occupancy costs, information systems costs and other operating expenses related to our stores and operations at our headquarters, including utilities, depreciation and amortization. These expenses also consist of marketing expense, including catalog production and mailing costs, warehousing, distribution and outbound shipping costs, customer service operations, consulting and software services, natural disasters, professional services and other administrative costs. Additionally, our outbound shipping costs may fluctuate due to surcharges from shipping vendors based on demand for shipping services. 
+
+ With the exception of store selling expenses, certain marketing expenses and incentive compensation, SG&A expenses generally do not vary proportionately with net sales. As a result, SG&A expenses as a percentage of net sales are usually higher in lower-volume periods and lower in higher-volume periods. 
+
+ Adjusted earnings before interest, taxes, depreciation and amortization (“Adjusted EBITDA”) and Adjusted EBITDA Margin. Adjusted EBITDA represents net income plus (less) depreciation and amortization, income tax provision, interest expense, interest income, equity-based compensation expense, write-off of property and equipment, amortization of cloud-based software implementation costs, adjustment for exited retail stores, impairment of long-lived assets, and other non-recurring items, primarily consisting of non-ordinary course professional fees, non-employee share-based payments, CEO transition costs, severance expense and legal settlements and fees associated with certain non-recurring transactions and events. We present Adjusted EBITDA on a consolidated basis because management uses it as a supplemental measure in assessing our operating performance, and we believe that it is helpful to investors, securities analysts and other interested parties as a measure of our comparative operating performance from period to period. We also use Adjusted EBITDA as one of the primary methods for planning and forecasting overall expected performance of our business and for evaluating on a quarterly and annual basis actual results against such expectations. Further, we recognize Adjusted EBITDA as a commonly used measure in determining business value and as such, use it internally to report results. Adjusted EBITDA margin represents, for any period, Adjusted EBITDA as a percentage of net sales. 
+
+ While we believe that Adjusted EBITDA is useful in evaluating our business, Adjusted EBITDA is a non-GAAP financial measure that has limitations as an analytical tool. Adjusted EBITDA should not be considered an alternative to, or substitute for, net income, which is calculated in accordance with GAAP. In addition, other companies, including companies in our industry, may calculate Adjusted EBITDA differently or not at all, which reduces the usefulness of Adjusted EBITDA as a tool for comparison. We recommend that you review the reconciliation of Adjusted EBITDA to net income, the most directly comparable GAAP financial measure, and the calculation of the resultant Adjusted EBITDA margin below and not rely solely on Adjusted EBITDA or any single financial measure to evaluate our business. 
+
+ 20 
+
+ Table of Contents 
+
+ Reconciliation of Net Income to Adjusted EBITDA and Calculation of Adjusted EBITDA Margin 
+
+ The following table provides a reconciliation of net income to Adjusted EBITDA and the calculation of Adjusted EBITDA margin for the periods presented. 
+
+ For the Thirteen Weeks Ended 
+
+ For the Twenty-Six Weeks Ended 
+
+ (in thousands) 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Statements of Operations Data: 
+
+ Net income 
+
+ $ 
+
+ 16,774 
+
+ $ 
+
+ 10,515 
+
+ $ 
+
+ 21,462 
+
+ $ 
+
+ 22,207 
+
+ Add (Less): 
+
+ Depreciation and amortization 
+
+ 5,056 
+
+ 5,305 
+
+ 10,308 
+
+ 10,654 
+
+ Income tax provision 
+
+ 6,717 
+
+ 4,033 
+
+ 9,266 
+
+ 9,002 
+
+ Interest expense 
+
+ 1,900 
+
+ 2,733 
+
+ 3,771 
+
+ 5,522 
+
+ Interest income 
+
+ (1,110 
+
+ ) 
+
+ (498 
+
+ ) 
+
+ (1,457 
+
+ ) 
+
+ (886 
+
+ ) 
+
+ Adjustments: 
+
+ Equity-based compensation expense (a) 
+
+ 1,806 
+
+ 1,506 
+
+ 3,058 
+
+ 2,472 
+
+ Write-off of property and equipment (b) 
+
+ 66 
+
+ 44 
+
+ 102 
+
+ 195 
+
+ Amortization of cloud-based software implementation costs (c) 
+
+ 641 
+
+ 661 
+
+ 1,195 
+
+ 1,118 
+
+ Adjustment for exited retail stores (d) 
+
+ (96 
+
+ ) 
+
+ — 
+
+ (392 
+
+ ) 
+
+ (232 
+
+ ) 
+
+ Impairment of long-lived assets (e) 
+
+ 53 
+
+ 5 
+
+ 267 
+
+ 212 
+
+ Other non-recurring items (f) 
+
+ 1,017 
+
+ 1,285 
+
+ 1,965 
+
+ 2,660 
+
+ Adjusted EBITDA 
+
+ $ 
+
+ 32,824 
+
+ $ 
+
+ 25,589 
+
+ $ 
+
+ 49,545 
+
+ $ 
+
+ 52,924 
+
+ Net sales 
+
+ $ 
+
+ 154,829 
+
+ $ 
+
+ 153,987 
+
+ $ 
+
+ 299,256 
+
+ $ 
+
+ 307,611 
+
+ Adjusted EBITDA margin 
+
+ 21.2 
+
+ % 
+
+ 16.6 
+
+ % 
+
+ 16.6 
+
+ % 
+
+ 17.2 
+
+ % 
+
+ (a) 
+ Represents expenses associated with equity incentive instruments granted to our management and Board of Directors (the “Board”). Incentive instruments are accounted for as equity-classified awards with the related compensation expense recognized based on fair value at the date of the grant. 
+
+ (b) 
+ Represents net gain or loss on the disposal of fixed assets. 
+
+ (c) 
+ Represents amortization of capitalized implementation costs related to cloud-based software arrangements that are included within Selling, general and administrative expenses. 
+
+ (d) 
+ Represents non-cash gains associated with exiting store leases earlier than anticipated. 
+
+ (e) 
+ Represents impairment of long-lived assets related to right of use assets and leasehold improvements. 
+
+ (f) 
+ Represents items management believes are not indicative of ongoing operating performance, including CEO transition costs, severance expense, non-ordinary course legal and professional fees, non-employee share-based payments, and legal settlements and fees. 
+
+ Results of Operations 
+
+ Thirteen weeks ended August 1, 2026 Compared to Thirteen weeks ended August 2, 2025 
+
+ The following table summarizes our condensed consolidated results of operations for the periods indicated: 
+
+ For the Thirteen Weeks Ended 
+
+ Change from the Thirteen Weeks Ended August 2, 2025 to the Thirteen Weeks 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Ended August 1, 2026 
+
+ (in thousands) 
+
+ Dollars 
+
+ % of Net
+Sales 
+
+ Dollars 
+
+ % of Net
+Sales 
+
+ $ Change 
+
+ % Change 
+
+ Net sales 
+
+ $ 
+
+ 154,829 
+
+ 100.0 
+
+ % 
+
+ $ 
+
+ 153,987 
+
+ 100.0 
+
+ % 
+
+ $ 
+
+ 842 
+
+ 0.5 
+
+ % 
+
+ Costs of goods sold 
+
+ 35,850 
+
+ 23.2 
+
+ % 
+
+ 48,630 
+
+ 31.6 
+
+ % 
+
+ (12,780 
+
+ ) 
+
+ (26.3 
+
+ )% 
+
+ Gross profit 
+
+ 118,979 
+
+ 76.8 
+
+ % 
+
+ 105,357 
+
+ 68.4 
+
+ % 
+
+ 13,622 
+
+ 12.9 
+
+ % 
+
+ Selling, general and administrative expenses 
+
+ 94,645 
+
+ 61.1 
+
+ % 
+
+ 88,569 
+
+ 57.5 
+
+ % 
+
+ 6,076 
+
+ 6.9 
+
+ % 
+
+ Impairment of long-lived assets 
+
+ 53 
+
+ 0.0 
+
+ % 
+
+ 5 
+
+ 0.0 
+
+ % 
+
+ 48 
+
+ 960.0 
+
+ % 
+
+ Operating income 
+
+ 24,281 
+
+ 15.7 
+
+ % 
+
+ 16,783 
+
+ 10.9 
+
+ % 
+
+ 7,498 
+
+ 44.7 
+
+ % 
+
+ Interest expense 
+
+ 1,900 
+
+ 1.2 
+
+ % 
+
+ 2,733 
+
+ 1.8 
+
+ % 
+
+ (833 
+
+ ) 
+
+ (30.5 
+
+ )% 
+
+ Interest income 
+
+ (1,110 
+
+ ) 
+
+ (0.7 
+
+ )% 
+
+ (498 
+
+ ) 
+
+ (0.3 
+
+ )% 
+
+ (612 
+
+ ) 
+
+ (122.9 
+
+ )% 
+
+ Income before provision for income taxes 
+
+ 23,491 
+
+ 15.2 
+
+ % 
+
+ 14,548 
+
+ 9.4 
+
+ % 
+
+ 8,943 
+
+ 61.5 
+
+ % 
+
+ Income tax provision 
+
+ 6,717 
+
+ 4.3 
+
+ % 
+
+ 4,033 
+
+ 2.6 
+
+ % 
+
+ 2,684 
+
+ 66.6 
+
+ % 
+
+ Net income 
+
+ $ 
+
+ 16,774 
+
+ 10.8 
+
+ % 
+
+ $ 
+
+ 10,515 
+
+ 6.8 
+
+ % 
+
+ $ 
+
+ 6,259 
+
+ 59.5 
+
+ % 
+
+ 21 
+
+ Table of Contents 
+
+ Net Sales 
+
+ Net sales for the thirteen weeks ended August 1, 2026 increased $0.8 million, or 0.5%, to $154.8 million from $154.0 million for the thirteen weeks ended August 2, 2025. At the end of those same periods, we operated 255 and 247 retail stores, respectively. The increase in net sales was primarily due to an increase in total company comparable sales of 0.5% compared to the thirteen weeks ended August 2, 2025. The increase was primarily driven by an increase in full price mix and a decrease in promotional activities compared to the thirteen weeks ended August 2, 2025. 
+
+ Retail contributed 52.9% of our net sales in the thirteen weeks ended August 1, 2026 and 53.6% in the thirteen weeks ended August 2, 2025. Our Direct channel contributed 47.1% of our net sales in the thirteen weeks ended August 1, 2026 and 46.4% in the thirteen weeks ended August 2, 2025. 
+
+ Gross Profit and Costs of Goods Sold 
+
+ Gross profit for the thirteen weeks ended August 1, 2026 increased $13.6 million, or 12.9%, to $119.0 million from $105.4 million for the thirteen weeks ended August 2, 2025. The gross margin for the thirteen weeks ended August 1, 2026 was 76.8% compared to 68.4% for the thirteen weeks ended August 2, 2025. The increase in gross profit and gross margin for the thirteen weeks ended August 1, 2026 was primarily driven by a lower mix of markdown sales, lower full-price promotional rates, and decreased expense, including the recognition of refunds related to tariffs previously paid, compared to the thirteen weeks ended August 2, 2025. 
+
+ Selling, General and Administrative Expenses 
+
+ SG&A expenses for the thirteen weeks ended August 1, 2026 increased $6.1 million, or 6.9%, to $94.6 million from $88.6 million for the thirteen weeks ended August 2, 2025. The increase was primarily driven by a $2.2 million increase in compensation, benefits and management incentive expense, $1.8 million in marketing expenses, $0.9 million related to increased occupancy expenses, and a $1.2 million increase across outbound shipping, hosting, recruiting, and supplies related expenses. 
+
+ As a percentage of net sales, SG&A expenses were 61.1% for the thirteen weeks ended August 1, 2026 and 57.5% for the thirteen weeks ended August 2, 2025. 
+
+ Impairment of long-lived assets 
+
+ For the thirteen weeks ended August 1, 2026 and August 2, 2025 the Company recorded an immaterial amount of impairment charges. 
+
+ Interest Expense 
+
+ Interest expense was $1.9 million and $2.7 million for the thirteen weeks ended August 1, 2026 and August 2, 2025, respectively. The decrease was due to a lower debt balance for the thirteen weeks ended August 1, 2026. 
+
+ Interest Income 
+
+ For the thirteen weeks ended August 1, 2026 and August 2, 2025, the Company earned interest on cash of $1.1 million and $0.5 million, respectively. The increase was primarily attributable to interest received in connection with tariff recoveries of $0.6 million. 
+
+ Income Tax Provision 
+
+ The Company’s income tax provision was $6.7 million for the thirteen weeks ended August 1, 2026 compared to $4.0 million for the thirteen weeks ended August 2, 2025, while our effective tax rates for the same periods were 28.6% and 27.7%, respectively. The effective tax rate during the thirteen weeks ended August 1, 2026 is higher primarily due to the impact of state and local income taxes, stock compensation shortfalls and executive compensation limitations. 
+
+ 22 
+
+ Table of Contents 
+
+ Twenty-Six weeks ended August 1, 2026 Compared to Twenty-Six weeks ended August 2, 2025 
+
+ The following table summarizes our condensed consolidated results of operations for the periods indicated: 
+
+ For the Twenty-Six Weeks Ended 
+
+ Change from the Twenty-Six Weeks Ended August 2, 2025 to the Twenty-Six Weeks Ended August 1, 2026 
+
+ (in thousands) 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Dollars 
+
+ % of Net
+Sales 
+
+ Dollars 
+
+ % of Net
+Sales 
+
+ $ Change 
+
+ % Change 
+
+ Net sales 
+
+ $ 
+
+ 299,256 
+
+ 100.0 
+
+ % 
+
+ $ 
+
+ 307,611 
+
+ 100.0 
+
+ % 
+
+ $ 
+
+ (8,355 
+
+ ) 
+
+ (2.7 
+
+ )% 
+
+ Costs of goods sold 
+
+ 81,584 
+
+ 27.3 
+
+ % 
+
+ 91,897 
+
+ 29.9 
+
+ % 
+
+ (10,313 
+
+ ) 
+
+ (11.2 
+
+ )% 
+
+ Gross profit 
+
+ 217,672 
+
+ 72.7 
+
+ % 
+
+ 215,714 
+
+ 70.1 
+
+ % 
+
+ 1,958 
+
+ 0.9 
+
+ % 
+
+ Selling, general and administrative expenses 
+
+ 184,363 
+
+ 61.6 
+
+ % 
+
+ 179,657 
+
+ 58.4 
+
+ % 
+
+ 4,706 
+
+ 2.6 
+
+ % 
+
+ Impairment of long-lived assets 
+
+ 267 
+
+ 0.1 
+
+ % 
+
+ 212 
+
+ 0.1 
+
+ % 
+
+ 55 
+
+ 25.9 
+
+ % 
+
+ Operating income 
+
+ 33,042 
+
+ 11.0 
+
+ % 
+
+ 35,845 
+
+ 11.7 
+
+ % 
+
+ (2,803 
+
+ ) 
+
+ (7.8 
+
+ )% 
+
+ Interest expense 
+
+ 3,771 
+
+ 1.3 
+
+ % 
+
+ 5,522 
+
+ 1.8 
+
+ % 
+
+ (1,751 
+
+ ) 
+
+ (31.7 
+
+ )% 
+
+ Interest income 
+
+ (1,457 
+
+ ) 
+
+ (0.5 
+
+ )% 
+
+ (886 
+
+ ) 
+
+ (0.3 
+
+ )% 
+
+ (571 
+
+ ) 
+
+ (64.4 
+
+ )% 
+
+ Income before provision for income taxes 
+
+ 30,728 
+
+ 10.3 
+
+ % 
+
+ 31,209 
+
+ 10.1 
+
+ % 
+
+ (481 
+
+ ) 
+
+ (1.5 
+
+ )% 
+
+ Income tax provision 
+
+ 9,266 
+
+ 3.1 
+
+ % 
+
+ 9,002 
+
+ 2.9 
+
+ % 
+
+ 264 
+
+ 2.9 
+
+ % 
+
+ Net income 
+
+ $ 
+
+ 21,462 
+
+ 7.2 
+
+ % 
+
+ $ 
+
+ 22,207 
+
+ 7.2 
+
+ % 
+
+ $ 
+
+ (745 
+
+ ) 
+
+ (3.4 
+
+ )% 
+
+ Net Sales 
+
+ Net sales for the twenty-six weeks ended August 1, 2026 decreased $8.4 million, or 2.7%, to $299.3 million from $307.6 million for the twenty-six weeks ended August 2, 2025. At the end of those same periods, we operated 255 and 247 retail stores, respectively. The decrease in net sales was primarily due to total company comparable sales decrease of 4.2%. The decrease was primarily driven by a decline in unit sales partially offset by an increase in average unit retail price compared to the twenty-six weeks ended August 2, 2025. 
+
+ Retail contributed 53.6% of our net sales in the twenty-six weeks ended August 1, 2026 and 53.4% in the twenty-six weeks ended August 2, 2025. Our Direct channel contributed 46.4% of our net sales in the twenty-six weeks ended August 1, 2026 and 46.6% in the twenty-six weeks ended August 2, 2025. 
+
+ Gross Profit and Costs of Goods Sold 
+
+ Gross profit for the twenty-six weeks ended August 1, 2026 increased $2.0 million, or 0.9%, to $217.7 million from $215.7 million for the twenty-six weeks ended August 2, 2025. The gross margin for the twenty-six weeks ended August 1, 2026 was 72.7% compared to 70.1% for the twenty-six weeks ended August 2, 2025. The increase in gross profit and gross margin for the twenty-six weeks ended August 1, 2026 was primarily driven by a lower mix of markdown sales, lower full-price promotional rates, and decreased expense, including the recognition of refunds related to tariffs previously paid compared to the twenty-six weeks ended August 2, 2025. 
+
+ Selling, General and Administrative Expenses 
+
+ SG&A expenses for the twenty-six weeks ended August 1, 2026 increased $4.7 million, or 2.6%, to $184.4 million from $179.7 million for the twenty-six weeks ended August 2, 2025. The increase was primarily driven by a $2.4 million increase in compensation, benefits and management incentive expense, $1.4 million related to increased occupancy expenses, $1.3 million increase in outbound shipping costs, and $1.9 million increases across hosting, marketing, recruiting, and supplies related expenses, partially offset by a decrease in professional services of $2.3 million, driven by the cancellation of our Elm Street Consulting agreement compared to the twenty-six weeks ended August 2, 2025. 
+
+ As a percentage of net sales, SG&A expenses were 61.6% for the twenty-six weeks ended August 1, 2026 compared to 58.4% for the twenty-six weeks ended August 2, 2025 
+
+ Impairment of long-lived assets 
+
+ For the twenty-six weeks ended August 1, 2026 and August 2, 2025, the Company recorded noncash impairment charges of $0.3 million and 0.2 million primarily related to leasehold improvements at certain store locations. 
+
+ Interest Expense 
+
+ Interest expense was $3.8 million and $5.5 million for the twenty-six weeks ended August 1, 2026 and August 2, 2025, respectively. The decrease was primarily due to a lower debt balance for the twenty-six weeks ended August 1, 2026. 
+
+ 23 
+
+ Table of Contents 
+
+ Interest Income 
+
+ For the twenty-six weeks ended August 1, 2026, the Company earned interest on cash of $1.5 million, compared to $0.9 million for the twenty-six weeks ended August 2, 2025. The increase in earned interest is primarily due to higher cash balances. 
+
+ Income Tax Provision 
+
+ The Company’s income tax provision was $9.3 million for the twenty-six weeks ended August 1, 2026 compared to $9.0 million for the twenty-six weeks ended August 2, 2025, while our effective tax rates for the same periods were 30.2% and 28.8%, respectively. The effective tax rate during the twenty-six weeks ended August 1, 2026 is higher primarily due to the impact of state and local income taxes, stock compensation shortfalls and executive compensation limitations. 
+
+ Liquidity and Capital Resources 
+
+ General 
+
+ Our primary sources of liquidity and capital resources are cash and cash equivalents generated from operating activities and availability under our ABL Facility, so long as certain conditions related to the maturity of the 2025 Term Loan Credit Agreement are met. As of August 1, 2026, we had $76.9 million in cash and $35.7 million of total availability under our ABL Facility. In addition, through our shelf registration statement on file with the SEC or through private transactions, and depending on conditions prevailing in the public and private capital markets, we may from time to time issue equity securities in one or more series in one or more offerings. 
+
+ On December 6, 2024, the Board approved a share repurchase program (the “Share Repurchase Program”), under which the Company is authorized to repurchase up to $25.0 million of the Company’s common stock for two years following the authorization date. Under the Share Repurchase Program, shares of the Company’s common stock may be purchased from time to time through open market or private transactions, block trades, or such other manner as the Company may determine, in accordance with applicable insider trading and other securities laws and regulations under the Exchange Act. The timing and the number of shares repurchased are subject to the discretion of the Company and may be affected by market conditions and other factors. The Share Repurchase Program does not obligate the Company to acquire any particular amount of common stock and may be modified, suspended or terminated at any time. 
+
+ We believe our cash and cash equivalents balance, along with our future cash flows from operations, capacity for borrowings under the ABL Facility and access to credit and capital markets, provide sufficient liquidity to meet the needs of our business operations, make voluntary prepayments, pay dividends, repurchase shares, and to satisfy our projected cash requirements for the next 12 months and the foreseeable future. 
+
+ Credit Facilities 
+
+ On December 12, 2025, the Company and Jill Acquisition LLC (the “Borrower”) entered into a new Term Loan Credit Agreement (the “2025 Term Loan Credit Agreement”), with the lenders party thereto from time to time and CCP Agency, LLC, as administrative agent and as collateral agent. The 2025 Term Loan Credit Agreement provides for a senior secured term loan facility in an aggregate principal amount of $75.0 million with a maturity date of December 12, 2030 (the “2025 Term Loan Facility”). As of May 2, 2026, the outstanding principal balance under the 2025 Term Loan Credit Agreement was $74.1 million. 
+
+ The proceeds from the 2025 Term Loan Facility were used to pay off in full all outstanding principal balance under the Term Loan Credit Agreement dated as of April 5, 2023 (the “2023 Term Loan Credit Agreement”). All security interests and liens granted in connection with the 2023 Term Loan Credit Agreement were released. 
+
+ The 2025 Term Loan Facility is to be repaid in quarterly payments of approximately $0.5 million on the last business day of each fiscal quarter of the borrower, commencing with the fiscal quarter ended May 2, 2026, until January 30, 2027 and of approximately $0.2 million commencing on the fiscal quarter ending May 1, 2027 and each fiscal quarter thereafter, with the remaining aggregate principal amount of Initial Term Loans (as defined in the 2025 Term Loan Credit Agreement) then outstanding to be paid on maturity on December 12, 2030. Additionally, the 2025 Term Loan Facility is subject to mandatory repayment, subject to certain exceptions, including (i) 100% of the net proceeds of any issuance or incurrence of indebtedness other than debt permitted in the 2025 Term Loan Credit Agreement, (ii) 100% of the net cash proceeds of certain asset sales/insurance proceeds, subject to reinvestment rights and certain other exceptions, and (iii) an annual payment ranging from 25%-75%, based on the First Lien Net Leverage Ratio, of the annual Excess Cash Flow, less certain voluntary prepayments made during the year, as defined in the 2025 Term Loan Credit Agreement. 
+
+ The 2025 Term Loan Facility may be voluntarily prepaid after the one-year anniversary without premium or penalty but on or prior to the one-year anniversary, subject to a premium of 1.0% of the aggregate principal amount being prepaid. 
+
+ The obligations under the 2025 Term Loan Credit Agreement were guaranteed by the Company and J.Jill Gift Card Solutions, Inc., and were secured by substantially all of the real and personal property of the Borrower and the guarantors, subject to customary exceptions. The agreement included customary representations and warranties, affirmative and negative covenants, financial covenants, and events of default. 
+
+ 24 
+
+ Table of Contents 
+
+ During Fiscal Year 2025, in conjunction with entering into the 2025 Term Loan Credit Agreement, the Company incurred $0.3 million of third-party fees which were expensed as incurred. 
+
+ The Company is party to a secured $40.0 million asset-based revolving credit facility agreement (the “ABL Credit Agreement” and, such facility, the “ABL Facility”), as amended, with a maturity date of May 10, 2028 (or 180 days prior to the maturity date of the Company’s 2025 Term Loan Credit Agreement if the maturity date of such 2025 Term Loan Facility has not been extended to a date that is at least 180 days after the maturity date of the ABL Credit Agreement). 
+
+ There were no short-term borrowings outstanding under the Company’s ABL Facility as of August 1, 2026 and January 31, 2026 At August 1, 2026 and January 31, 2026, the Company had outstanding letters of credit in the amount of $4.3 million and had a maximum additional borrowing capacity of $35.7 million. 
+
+ As of August 1, 2026, the Company was in compliance with all covenants contained in its outstanding debt arrangements. 
+
+ Cash Flow Analysis 
+
+ The following table shows our cash flows information for the periods presented: 
+
+ For the Twenty-Six Weeks Ended 
+
+ (in thousands) 
+
+ August 1, 2026 
+
+ August 2, 2025 
+
+ Net cash provided by operating activities 
+
+ $ 
+
+ 47,953 
+
+ $ 
+
+ 24,698 
+
+ Net cash used in investing activities 
+
+ (5,026 
+
+ ) 
+
+ (5,476 
+
+ ) 
+
+ Net cash used in financing activities 
+
+ (7,045 
+
+ ) 
+
+ (9,126 
+
+ ) 
+
+ Net cash provided by operating activities 
+
+ Net cash provided by operating activities increased by $23.3 million during the twenty-six weeks ended August 1, 2026 compared to the twenty-six weeks ended August 2, 2025. The increase during the twenty-six weeks ended August 1, 2026 was driven by changes in operating assets and liabilities of $25.0 million, offset by adjustments to reconcile net income of $1.0 million and a decrease in net income of $0.7 million. The change in operating assets and liabilities was driven primarily by an increase in accrued expenses and other current liabilities of $16.0 million, which includes liabilities to vendors resulting from tariff recoveries, decreased payments for inventory of $11.4 million, an increase in prepaid expenses and other current assets of $8.2 million, and increases in operating leases assets and liabilities of $0.9 million. The change in operating assets and liabilities was offset by lower cash inflows relating to timing of payments for accounts payable of $10.4 million, largely reflecting higher merchandising payables, the timing of payments relating to other noncurrent assets of $1.0 million, and a decrease in accounts receivable of $0.1 million. 
+
+ Net cash provided by operating activities during the twenty-six weeks ended August 1, 2026 was $48.0 million. Key elements of cash provided by operating activities were (i) net income of $21.5 million, (ii) adjustments to reconcile net income to net cash provided by operating activities of $15.7 million, primarily driven by depreciation and amortization, equity-based compensation, and changes in deferred taxes, and (iii) uses of cash totaling $10.8 million for net operating assets and liabilities. 
+
+ Net cash provided by operating activities during the twenty-six weeks ended August 2, 2025 was $24.7 million. Key elements of cash provided by operating activities were (i) net income of $22.2 million, (ii) adjustments to reconcile net income to net cash provided by operating activities of $16.7 million, primarily driven by depreciation and amortization, loss on extinguishment of debt, equity-based compensation, and (iii) uses of cash totaling $14.2 million for net operating assets and liabilities. 
+
+ Net cash used in investing activities 
+
+ Net cash used in investing activities during the twenty-six weeks ended August 1, 2026 and August 2, 2025 was $5.0 million and $5.5 million, respectively, representing purchases of property and equipment related investments in stores and software and technology related investments. 
+
+ Net cash used in financing activities 
+
+ Net cash used in financing activities was $7.0 million for the twenty-six weeks ended August 1, 2026 compared to $9.1 million for the twenty-six weeks ended August 2, 2025. Net cash used in financing activities for the twenty-six weeks ended August 1, 2026 consisted primarily of the quarterly cash dividend paid to shareholders, share repurchase costs, net of commission and fees, surrender of shares to pay withholding taxes, and principal repayments on the 2025 Term Loan. Net cash used in financing activities for the 
+
+ 25 
+
+ Table of Contents 
+
+ twenty-six weeks ended August 2, 2025 primarily consisted of share repurchase costs, net of commission and fees, surrender of shares to pay withholding taxes, and quarterly cash dividend paid to shareholders. 
+
+ Dividends 
+
+ During the thirteen weeks ended August 1, 2026, the Board declared a quarterly cash dividend payment of $0.09 per share of common stock (the “Dividend”). The Dividend was payable on July 8, 2026 to stockholders of record of issued and outstanding shares of the Company’s common stock as of June 24, 2026. During the thirteen and twenty-six weeks ended August 1, 2026, the Company paid $1.4 million and $2.7 million, respectively, in dividends. While dividends are generally recorded as a reduction to Retained earnings, since the Company has an accumulated deficit, dividends are recorded as a reduction to Additional paid-in capital. 
+
+ The Company intends to pay cash dividends quarterly in the future, subject to market conditions and at the discretion of the Board. Our ability to pay dividends in the future is based on a number of factors such as earnings levels, capital requirements, restrictions imposed by applicable law, our overall financial condition, restrictions in our debt agreements and the ability of our operating subsidiaries to pay dividends to us as a holding company. 
+
+ Subsequent to August 1, 2026, on September 2, 2026, the Board declared a quarterly cash dividend of $0.09 per share, payable on October 7, 2026 to stockholders of record of issued and outstanding shares of the Company’s common stock as of September 23, 2026. 
+
+ Self-Insured Group Health Insurance Reserves 
+
+ In January 2025, the Company transitioned to a self-insured group health insurance program up to certain stop-loss limits. Such costs are accrued based on known claims and an estimation of incurred but not reported (“IBNR”) claims. IBNR claims are estimated using historical claim information and actuarial estimates. 
+
+ Contractual Obligations 
+
+ The Company’s contractual obligations consist primarily of debt obligations, interest payments, operating leases, and purchase orders for merchandise inventory, and cloud computing related agreements. These contractual obligations impact the Company’s short-term and long-term liquidity and capital resource needs. 
+
+ Contingencies 
+
+ We are subject to various legal proceedings that arise in the ordinary course of business. Although the outcome of such proceedings cannot be predicted with certainty, management does not believe that we are presently party to any legal proceedings the resolution of which management believes would have a material adverse effect on our business, financial condition, operating results or cash flows. We establish reserves for specific legal matters, including legal costs, when we determine that the likelihood of an unfavorable outcome is probable and the loss is reasonably estimable. 
+
+ Off-Balance Sheet Arrangements 
+
+ We are not a party to any off-balance sheet arrangements. 
+
+ Critical Accounting Policies and Significant Estimates 
+
+ The most significant accounting estimates involve a high degree of judgment or complexity. Management believes the estimates and judgments most critical to the preparation of our consolidated financial statements and to the understanding of our reported financial results include those made in connection with revenue recognition, including accounting for outstanding gift cards that will ultimately not be redeemed (“gift card breakage”) and estimated merchandise returns; estimating the value of inventory; impairment assessments for goodwill and other indefinite-lived intangible assets, and long-lived assets; estimating of IBNR claims. Management evaluates its policies and assumptions on an ongoing basis. 
+
+ During Fiscal Year 2025, the Company revised its methodology for estimating the sales returns reserve. See Note 2 - Summary of Significant Accounting Policies for additional information. 
+
+ 26 
+
+ Table of Contents 
+
+ Our significant accounting policies related to these accounts in the preparation of our condensed consolidated financial statements are described under the heading “Management Discussion and Analysis of Financial Condition and Results of Operations – Critical Accounting Policies and Significant Estimates” in our Annual Report on Form 10-K for the fiscal year ended January 31, 2026 (the “2025 Annual Report”). As of the date of this filing, there were no significant changes to any of the critical accounting policies and estimates previously described in our 2025 Annual Report. See Note 2 - Summary of Significant Accounting Policies to the condensed consolidated financial statements included in this Quarterly Report for additional information regarding changes in our estimates. 
+
+ Special Note Regarding Forward-Looking Statements 
+
+ This Quarterly Report contains “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements are generally identified by the use of forward-looking terminology, including the terms “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” “would” and, in each case, their negative or other various or comparable terminology. All statements other than statements of historical facts contained in this Quarterly Report, including statements regarding our strategy, future operations, future financial position, future revenue, projected costs, prospects, plans, objectives of management and expected market growth are forward-looking statements. 
+
+ These forward-looking statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. All written and oral forward-looking statements made in connection with this Quarterly Report that are attributable to us or persons acting on our behalf are expressly qualified in their entirety by the Risk Factors set forth in our 2025 Annual Report and other cautionary statements included therein and herein. 
+
+ These forward-looking statements reflect our views with respect to future events as of the date of this Quarterly Report and are based on assumptions and subject to risks and uncertainties. Given these uncertainties, you should not place undue reliance on these forward-looking statements. These forward-looking statements represent our estimates and assumptions only as of the date of this Quarterly Report and, except as required by law, we undertake no obligation to update or review publicly any forward-looking statements, whether as a result of new information, future events or otherwise after the date of this Quarterly Report. We anticipate that subsequent events and developments will cause our views to change. We qualify all of our forward-looking statements by these cautionary statements. 
+
+ Item 3. Quantitative and Qualitati ve Disclosures About Market Risk 
+
+ Market Risk 
+
+ There have been no material changes in our exposure to market risk during the second quarter of Fiscal Year 2026. For a discussion of the Company’s exposure to market risk, refer to Part II, Item 7A, “Quantitative and Qualitative Disclosures About Market Risk,” contained in the Company’s 2025 Annual Report. 
+
+ Subsequent to August 1, 2026, on September 2, 2026, the Board declared a quarterly cash dividend of $0.09 per share, payable on October 7, 2026 to all stockholders of record as of September 23, 2026. The Company intends to pay cash dividends quarterly in the future, subject to market conditions and the discretion and approval by the Board of any such dividends. 
+
+ Item 4. Controls and Procedures 
+
+ The Company’s management, including its Chief Executive Officer and Chief Financial and Operating Officer, have conducted an evaluation of the effectiveness of disclosure controls and procedures (as such term is defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended), as of the end of the period covered by this Quarterly Report. Based on that evaluation, the Chief Executive Officer and Chief Financial and Operating Officer concluded as of August 1, 2026, that the disclosure controls and procedures are effective in ensuring that all material information required to be filed in this Quarterly Report has been recorded, processed, summarized and reported when required and the information is accumulated and communicated to the Company’s management, including its Chief Executive Officer and Chief Financial and Operating Officer, as appropriate, to allow timely decisions regarding required disclosure. 
+
+ There were no changes to the Company’s internal control over financial reporting that occurred during the second quarter of Fiscal Year 2026 that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting. 
+
+ PART II—OTHER INFORMATION 
+
+ 27 
+
+ Table of Contents 
+
+ Item 1. Legal Proceedings 
+
+ For information regarding legal proceedings as of August 2, 2025, refer to Note 12. Commitments and Contingencies to our condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report. 
+
+ Item 1A. Ri sk Factors 
+
+ Factors that could cause our actual results to differ materially from those in this report are described under the heading “Risk Factors” in o ur 2025 Annual Report. Any of these factors could result in a significant or material adverse effect on our results of operations or financial condition. As of the date of this Quarterly Report, there have been no material changes to the risk factors previously disclosed in our 2025 Annual Report. Additional risk factors not presently known to us or that we currently deem immaterial may also impair our business or results of operations and we may disclose changes to such factors or disclose additional factors from time to time in our future filings with the Securities and Exchange Commission. 
+
+ Item 2. Unregistered Sales of Equi ty Securities and Use of Proceeds 
+
+ Share repurchase activity during the thirteen weeks ended August 1, 2026 was as follows: 
+
+ Period 
+
+ Total Number of Shares Purchased (a) 
+
+ Average Price Paid per Share (b) 
+
+ Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs 
+
+ Approximate Dollar Value of Shares That May Yet Be Purchased Under the Plans or Programs (b) 
+
+ May 3, 2026 - May 30, 2026 
+
+ — 
+
+ $ 
+
+ — 
+
+ — 
+
+ $ 
+
+ 13,340,865 
+
+ May 31, 2026 - July 4, 2026 
+
+ 64,620 
+
+ $ 
+
+ 15.07 
+
+ 64,620 
+
+ $ 
+
+ 12,366,558 
+
+ July 5, 2026 - August 1, 2026 
+
+ 35,282 
+
+ $ 
+
+ 15.97 
+
+ 35,282 
+
+ $ 
+
+ 11,803,151 
+
+ 99,902 
+
+ 99,902 
+
+ (a) 
+ On December 6, 2024, the Company’s Board of Directors authorized the repurchase of up to $25.0 million of the Company’s Common Stock. Under the authorization, shares of Common Stock may be purchased from time to time in open market or private transactions, block trades or such other manner as the Company may determine, in accordance with applicable insider trading and other securities laws and regulations of the Exchange Act and share repurchase parameters determined by the Board. The timing and the number of shares repurchased are subject to the discretion of the Company and may be affected by market conditions and other factors. Total number of shares purchased are determined based on the settlement date of such trades. As of August 1, 2026, the Company had $11.8 million of availability remaining under its stock repurchase authorization. 
+
+ (b) 
+ The amounts do not give effect to any fees, commissions or other costs associated with repurchases of shares. 
+
+ Item 3. Defaults Upo n Senior Securities 
+
+ None. 
+
+ Item 4. Mine Saf ety Disclosures 
+
+ Not applicable. 
+
+ Item 5. Other Information 
+
+ (a) 
+ None. 
+
+ (b) 
+ None. 
+
+ (c) 
+ On June 22, 2026, J.Jill’s Executive Vice President, Chief Financial and Operating Officer , Mark Webb , entered into a Rule 10b5-1 trading plan (“Mr. Webb’s Plan”) having conditions that, if satisfied, could lead to his sale of up to 30,000 shares of J.Jill common stock, subject to volume and pricing limits. Mr. Webb’s Plan will commence on September 21, 2026 and will cease upon the earlier of June 17, 2027 or the date all 30,000 shares of common stock included in Mr. Webb’s Plan have been sold. Mr. Webb’s Plan is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c)(1) promulgated under the Exchange Act. 
+
+ 28 
+
+ Table of Contents 
+
+ Item 6. E xhibits 
+
+ The exhibits listed on the Exhibit Index are filed or furnished as part of this Quarterly Report. 
+
+ Exhibit Index 
+
+ Exhibit 
+
+ Number 
+
+ Description 
+
+ 3.1 
+
+ Certificate of Incorporation of J.Jill, Inc. (incorporated by reference from Exhibit 3.1 to the Company’s Form 10-K, filed on April 28, 2017 (File No. 0001-38026)) 
+
+ 3.2 
+
+ Certificate of Amendment to the Certificate of Incorporation of J.Jill, Inc. (incorporated by reference from Exhibit 3.1 to the Company’s Form 8-K, filed on November 9, 2020 (File No. 001-38026)). 
+
+ 3.3 
+
+ Bylaws of J.Jill, Inc. (incorporated by reference from Exhibit 3.2 to the Company’s 10-K, filed on April 28, 2017 (File No. 001-38026)). 
+
+ 31.1* 
+
+ Certification of Principal Executive Officer required by Rules 13a-14(a) and 15d-14(a) under the Securities Exchange Act of 1934, as amended, as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 
+
+ 31.2* 
+
+ Certification of Principal Financial Officer required by Rules 13a-14(a) and 15d-14(a) under the Securities Exchange Act of 1934, as amended, as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 
+
+ 32.1* 
+
+ Certification of Principal Executive Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+
+ 32.2* 
+
+ Certification of Principal Financial Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+
+ 101.INS 
+
+ Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document) 
+
+ 101.SCH 
+
+ Inline XBRL Taxonomy Extension Schema with Embedded Linkbase Documents 
+
+ 104 
+
+ Cover Page formatted as inline XBRL and contained in Exhibits 101 
+
+ * Filed herewith. 
+
+ 29 
+
+ Table of Contents 
+
+ SIGNAT URES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+
+ J.Jill, Inc. 
+
+ Date: September 9, 2026 
+
+ By: 
+
+ /s/ Mary Ellen Coyne 
+
+ Mary Ellen Coyne 
+
+ Chief Executive Officer, President and Director 
+
+ Date: September 9, 2026 
+
+ By: 
+
+ /s/ Mark Webb 
+
+ Mark Webb 
+
+ Executive Vice President, Chief Financial and Operating Officer 
+
+ 30

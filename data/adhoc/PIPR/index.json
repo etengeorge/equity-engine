@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-10T11:32:37+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "PIPR",
+    "cik": 1230245,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000032/pipr-20260630.htm",
+        "file": "2026-08-05-10-Q-pipr-20260630.htm.txt",
+        "chars": 240226,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000029/pipr-20260730.htm",
+        "file": "2026-07-30-8-K-pipr-20260730.htm.txt",
+        "chars": 3019,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000025/pipr-20260520.htm",
+        "file": "2026-05-21-8-K-pipr-20260520.htm.txt",
+        "chars": 4866,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000022/pipr-20260331.htm",
+        "file": "2026-05-07-10-Q-pipr-20260331.htm.txt",
+        "chars": 213120,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-01",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000019/pipr-20260501.htm",
+        "file": "2026-05-01-8-K-pipr-20260501.htm.txt",
+        "chars": 3009,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-23",
+        "items": "5.03,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000110465926033351/tm268988d1_8k.htm",
+        "file": "2026-03-23-8-K-tm268988d1_8k.htm.txt",
+        "chars": 4910,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000013/pipr-20251231.htm",
+        "file": "2026-02-26-10-K-pipr-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-06",
+        "items": "2.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000008/pipr-20260206.htm",
+        "file": "2026-02-06-8-K-pipr-20260206.htm.txt",
+        "chars": 3938,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EARNINGS PRESS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000029/q22026ex99earningspressrel.htm",
+        "file": "2026-07-30-EX-99.txt",
+        "chars": 40067,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-01",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EARNINGS PRESS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000019/q12026ex99earningspressrel.htm",
+        "file": "2026-05-01-EX-99.txt",
+        "chars": 38389,
+        "truncated": false
+      }
+    ]
+  }
+}
