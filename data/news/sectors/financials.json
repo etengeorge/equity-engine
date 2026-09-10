@@ -1,5 +1,47 @@
 [
  {
+  "id": "f9043842-95bc-3249-981d-9cd92c7f7c17",
+  "ts": "2026-09-09T20:01:06+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index shedd",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "ef303f14-251c-3989-ac5c-d350a1286de5",
+  "ts": "2026-09-09T17:53:58+00:00",
+  "title": "Sector Update: Financial Stocks Softer Wednesday Afternoon",
+  "summary": "Financial stocks were lower in Wednesday afternoon trading, with the NYSE Financial Index shedding 0",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "3e46fade-070c-307c-a9ff-c71f8cbd0a45",
+  "ts": "2026-09-09T17:31:24+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
   "ts": "2026-09-09T13:06:53+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",

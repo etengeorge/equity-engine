@@ -1,5 +1,33 @@
 [
  {
+  "id": "cd547cc4-4f7d-3e73-a11a-a548757e579a",
+  "ts": "2026-09-09T19:45:54+00:00",
+  "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
+  "summary": "Consumer stocks were lower late Wednesday afternoon, with the State Street Consumer Staples Select S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "aae90041-bb08-3690-bd61-becd2d3fef27",
+  "ts": "2026-09-09T17:27:35+00:00",
+  "title": "Sector Update: Consumer Stocks Fall Wednesday Afternoon",
+  "summary": "Consumer stocks were lower Wednesday afternoon, with the State Street Consumer Staples Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "c7d66782-dacf-3114-a9c7-9431d60d70cc",
   "ts": "2026-09-09T13:32:13+00:00",
   "title": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady",

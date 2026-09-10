@@ -1,5 +1,29 @@
 [
  {
+  "id": "7cc40f7c-d667-3a71-85fd-90fb617d9562",
+  "ts": "2026-09-09T16:58:35+00:00",
+  "title": "Quantum Stocks Fall as Rate-Hike Odds Climb: IonQ Sinks 4%, Rigetti and D-Wave Pull Back",
+  "summary": "Federal Reserve rate-hike odds just handed quantum computing stocks their sharpest single-session hit in weeks, and the reason has nothing to do with anything these companies actually did.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/quantum-stocks-fall-as-rate-hike-odds-climb-ionq-sinks-4-rigetti-and-d-wave-pull-back/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "86a802cd-b867-3b48-97f9-c9e7b85aafb6",
+  "ts": "2026-09-09T15:05:13+00:00",
+  "title": "Top 5 Stocks Poised to Profit From the CHIPS Quantum Incentive Wave",
+  "summary": "Washington just handed out $2 billion in quantum manufacturing incentives, and the money landed in some very unexpected places. Five stocks are quietly positioned to capture the fallout, and most investors have no idea they qualify.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/top-5-stocks-poised-to-profit-from-the-chips-quantum-incentive-wave/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "89281d5c-c5f4-3279-8378-3d4657853630",
   "ts": "2026-09-09T12:59:04+00:00",
   "title": "D-Wave, Rigetti and IonQ Stocks Rally on $100 Million Quantum Boost",
@@ -78,6 +102,18 @@
   "summary": "The U.S. government is taking minority stakes in three quantum computing companies in exchange for CHIPS and Science Act funding.",
   "publisher": "Investopedia",
   "url": "https://www.investopedia.com/market-update-these-3-quantum-stocks-are-on-the-rise-as-us-government-takes-minority-stakes-rgti-qnt-qbts-12111123",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "fa852d65-5104-38a6-a981-ba81a2bcdbde",
+  "ts": "2026-09-08T15:30:00+00:00",
+  "title": "Why quantum computing stocks are soaring today while the rest of the market falls",
+  "summary": "Rigetti, D-Wave, IonQ and other quantum stocks are jumping after the U.S. government finalized major investments in the emerging technology.",
+  "publisher": "FastCompany",
+  "url": "https://www.fastcompany.com/91603527/why-quantum-computing-stocks-are-soaring-today-while-the-rest-of-the-market-falls",
   "tickers": [
    "QBTS"
   ],

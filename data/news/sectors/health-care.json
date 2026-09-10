@@ -1,5 +1,47 @@
 [
  {
+  "id": "9f384efa-55b1-3e2c-829a-d909228bd874",
+  "ts": "2026-09-09T19:49:57+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+  "summary": "Healthcare stocks were lower late Wednesday afternoon with the NYSE Healthcare Index and the State S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194957396.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "0371e8cb-1379-3170-a0f1-3f5cc8e322bd",
+  "ts": "2026-09-09T17:34:25+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline in Afternoon Trading",
+  "summary": "Healthcare stocks were lower Wednesday afternoon, with the NYSE Healthcare Index down 0.3% and the S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-173425693.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "09ee2517-bc1a-32af-aac7-b18f30144d12",
+  "ts": "2026-09-09T14:40:14+00:00",
+  "title": "UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation",
+  "summary": "TPG just bought into the exact Optum clinics that derailed UnitedHealth's profits, and management is hours away from reaffirming guidance that could either validate the deal or reopen a wound investors hoped was healing.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/unitedhealth-slips-3-as-tpg-buys-into-florida-wellmed-clinics-ahead-of-guidance-reaffirmation/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
   "ts": "2026-09-09T13:06:53+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",

@@ -1,76 +1,70 @@
-# CGON — CG ONCOLOGY
-*Health Care · brief generated 2026-09-09 · selected as **rotation***
+# MMSI — MERIT MEDICAL SYSTEMS INC
+*Health Care · brief generated 2026-09-10 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 102/1956
+- rotation position 105/1956
 
 ## Market
 | | |
 |---|---|
-| price | $73.40 |
-| market cap | $6.5B |
-| 5d / 21d / 63d / 252d | -2.3% / -2.3% / +34.9% / +122.0% |
-| 60d avg daily $ volume | $68.1M |
-| beta (vs IWM) | 1.62 (R²=0.268) |
-| 5d volume vs 60d average | 0.6x |
+| price | $87.19 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -3.8% / -2.9% / +29.2% / -5.6% |
+| 60d avg daily $ volume | $72.0M |
+| beta (vs IWM) | 0.62 (R²=0.199) |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 88% / debt 12% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+Normalized FCFF base **$182.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$215.7M', '$185.7M', '$110.9M']
+Enterprise value **$5.5B** · FCFF yield **+3.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 13.7% − 1pt | n/a |
-| **13.7% (point)** | **n/a** |
-| 13.7% + 1pt | n/a |
+| 7.7% − 1pt | +9.8% |
+| **7.7% (point)** | **+14.6%** |
+| 7.7% + 1pt | +18.9% |
 
 
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $73.40).
+> **Stock compensation is 18% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$151.3M** and an implied growth of **+19.3%** instead of +14.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+9.5%** (5y revenue CAGR +9.5%).
+Gap under that baseline: **-19.9%** (fair value $69.81 vs price $87.19).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_sales (n=325) | 1356.7x | 2.0x / 5.1x / 20.8x | $11.66 / $11.80 / $12.52 |
-| p_tbv (n=330) | 6.4x | 2.4x / 4.5x / 7.9x | $27.86 / $51.81 / $90.49 |
-
-Blended midpoint **$31.81** vs price $73.40 — gap **-56.7%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **44th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
-- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
+- `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1991792/000119312526336918/ck0001991792-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526336886/ck0001991792-20260806.htm
-- 2026-06-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526261670/d54487d8k.htm
-- 2026-05-26 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526237908/ck0001991792-20260520.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1991792/000119312526214669/ck0001991792-20260331.htm
-- 2026-05-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526213440/ck0001991792-20260508.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1991792/000119312526177395/ck0001991792-20260423.htm
-- 2026-04-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526152044/ck0001991792-20260413.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1991792/000119312526079498/ck0001991792-20251231.htm
-- 2026-02-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1991792/000119312526079452/ck0001991792-20260227.htm
+- 2026-08-20 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000047/mmsi-20260814x8k.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000044/mmsi-20260630x10q.htm
+- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730x8k.htm
+- 2026-05-19 **8-K** — items 5.02,5.03,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513x8k.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000025/mmsi-20260331x10q.htm
+- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000023/mmsi-20260430x8k.htm
+- 2026-04-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000020/mmsi-20260413x8k.htm
+- 2026-04-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000018/mmsi-20260401x8k.htm
+- 2026-03-31 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000013/mmsi-20260513xdef14a.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000008/mmsi-20251231x10k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1991792/000119312526336886/ck0001991792-ex99_1.htm
+- **2026-08-20** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000047/mmsi-20260814xex99d1.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730xex99d1.htm
+- **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730xex99d2.htm
+- **2026-05-19** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d1.htm
+- **2026-05-19** · EX-99.2 · presentation — EX-99.2 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d2.htm
+- **2026-05-19** · EX-99.3 · press release — EX-99.3 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d3.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -78,6 +72,9 @@ Attack these before you trust any number above.
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-09** · Sector Update: Healthcare Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194957396.html
+- **2026-09-09** · Sector Update: Healthcare Stocks Decline in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-173425693.html
+- **2026-09-09** · UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/unitedhealth-slips-3-as-tpg-buys-into-florida-wellmed-clinics-ahead-of-guidance-reaffirmation/
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Sector Update: Healthcare Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-194859259.html
 - **2026-09-08** · Sector Update: Healthcare Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-tuesday-173533094.html
@@ -85,23 +82,20 @@ Attack these before you trust any number above.
 - **2026-09-08** · Cramer Says It’s Time To Buy The Dip on JNJ — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/cramer-says-its-time-to-buy-the-dip-on-jnj/
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
-- **2026-09-04** · Sector Update: Healthcare Stocks Decline Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-03** · Sector Update: Healthcare Stocks Edge Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-194602558.html
 
 ## Market and macro context
-- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
-- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
-- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
-- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
+- **2026-09-10** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due. — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo
+- **2026-09-10** · Oil, Bond Yields Cap Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/oil-bond-yields-cap-wall-111027441.html
+- **2026-09-10** · JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’ — *Investing.com* — https://finance.yahoo.com/technology/ai/articles/jpmorgan-upgrades-meta-ai-models-110557365.html
+- **2026-09-10** · Nvidia Is Suddenly Outpacing the S&P 500. Expect That to Continue. — *Motley Fool* — https://www.fool.com/investing/2026/09/10/nvidia-is-suddenly-outpacing-the-sp-500-expect-tha/
 
 *Rules, releases and agency actions:*
-- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
-- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
-- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
-- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
+- **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
+- **2026-09-10** · Airworthiness Directives; Bell Textron Canada Limited Helicopters — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18522/airworthiness-directives-bell-textron-canada-limited-helicopters
+- **2026-09-10** · Airworthiness Directives; Dassault Aviation Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18520/airworthiness-directives-dassault-aviation-airplanes
+- **2026-09-10** · In Situ Recovery Monitoring and Decommissioning Timeliness — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18504/in-situ-recovery-monitoring-and-decommissioning-timeliness
+- **2026-09-10** · Special Local Regulation; Southern California Annual Marine Events for the San Diego Captain of the Port Zone, San Diego TriRock Triathlon — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18492/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the
+- **2026-09-10** · Reef Fish Fishery of the Gulf of America; 2027 Red Grouper Commercial Quota Retention — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18484/reef-fish-fishery-of-the-gulf-of-america-2027-red-grouper-commercial-quota-retention
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

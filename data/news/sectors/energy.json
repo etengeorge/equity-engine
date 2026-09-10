@@ -1,5 +1,89 @@
 [
  {
+  "id": "8e01af20-5e70-3753-8a74-f0903dd1e8a1",
+  "ts": "2026-09-09T19:56:17+00:00",
+  "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+  "summary": "Energy stocks were higher late Wednesday afternoon, with the NYSE Energy Sector Index rising 1.2% an",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195617705.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "13be2a31-242e-327a-9512-f1ff107c8b61",
+  "ts": "2026-09-09T19:32:00+00:00",
+  "title": "Sector Update: Energy",
+  "summary": "Energy stocks were higher late Wednesday afternoon, with the NYSE Energy Sector Index rising 1.2% an",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-193200753.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "7ceda82d-d14a-38d0-a24f-0e6ff653f410",
+  "ts": "2026-09-09T19:08:11+00:00",
+  "title": "ExxonMobil Is Up 40% in 2026: Can Rising Oil Prices and Strong Earnings Boost XOM Stock to $200?",
+  "summary": "ExxonMobil has already handed investors a stunning year-to-date gain, but whether the rally reaches $200 a share depends almost entirely on forces beyond the company's control. Here is what needs to go right and what could derail it.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/exxonmobil-is-up-40-in-2026-can-rising-oil-prices-and-strong-earnings-boost-xom-stock-to-200/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "64a8744e-de2d-363a-addf-2a4759d5fc70",
+  "ts": "2026-09-09T17:54:48+00:00",
+  "title": "Norwegian Slides 3% as Rising Oil Undercuts Fuel-Cost Relief Hopes; Carnival and Royal Caribbean Trail",
+  "summary": "Cruise stocks are sinking midday as a surprise surge in oil prices flips the fuel-cost thesis that bulls were counting on, and Norwegian is absorbing the hit harder than its rivals for reasons tied directly to its balance sheet.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/norwegian-slides-3-as-rising-oil-undercuts-fuel-cost-relief-hopes-carnival-and-royal-caribbean-trail/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "6b534353-6d56-3b83-bc3f-24463cf443ce",
+  "ts": "2026-09-09T17:45:08+00:00",
+  "title": "Sector Update: Energy Stocks Gain Wednesday Afternoon",
+  "summary": "Energy stocks were higher Wednesday afternoon, with the NYSE Energy Sector Index rising 0.7% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-wednesday-174508614.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "3e46fade-070c-307c-a9ff-c71f8cbd0a45",
+  "ts": "2026-09-09T17:31:24+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "33bbbeb3-7d96-3f5e-be03-0c5e546c84a3",
   "ts": "2026-09-09T14:00:00+00:00",
   "title": "OPEC+ Keeps October Output Same: Oil ETFs in Focus",
@@ -20,6 +104,20 @@
   "summary": "Energy stocks were advancing premarket Wednesday, with the State Street Energy Select Sector SPDR ET",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132727839.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "bb8bcce0-3d33-3da0-80c0-2a23f5df64c4",
+  "ts": "2026-09-09T13:09:43+00:00",
+  "title": "XLE, XLF & XLV Forecast: Energy Eyes Breakout as XLV Slips",
+  "summary": "XLE eyes fresh highs as oil rises, while XLF consolidates and XLV tests key support after breaking below a major trendline.",
+  "publisher": "FX Empire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/xle-xlf-xlv-forecast-energy-130943948.html",
   "tickers": [
    "XLE"
   ],

@@ -1,5 +1,61 @@
 [
  {
+  "id": "f9043842-95bc-3249-981d-9cd92c7f7c17",
+  "ts": "2026-09-09T20:01:06+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index shedd",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "ef303f14-251c-3989-ac5c-d350a1286de5",
+  "ts": "2026-09-09T17:53:58+00:00",
+  "title": "Sector Update: Financial Stocks Softer Wednesday Afternoon",
+  "summary": "Financial stocks were lower in Wednesday afternoon trading, with the NYSE Financial Index shedding 0",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "c2b75e94-f747-35eb-8787-98f075193374",
+  "ts": "2026-09-09T14:34:53+00:00",
+  "title": "Crown Castle Stock: Is CCI Underperforming the Real Estate Sector?",
+  "summary": "Crown Castle has underperformed the Real Estate sector over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4515458/crown-castle-stock-is-cci-underperforming-the-real-estate-sector",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "786d1c1e-6993-32ac-8886-bec6425f7199",
+  "ts": "2026-09-09T12:35:15+00:00",
+  "title": "How Is Digital Realty Trust's Stock Performance Compared to Other Real Estate Stocks",
+  "summary": "Digital Realty Trust has outperformed other real estate stocks, and analysts remain highly optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4511540/how-is-digital-realty-trust-s-stock-performance-compared-to-other-real-estate-stocks",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "068affd6-13f9-3314-b36e-254c12a39a87",
   "ts": "2026-09-08T20:08:28+00:00",
   "title": "Sector Update: Financial Stocks Fall Tuesday",

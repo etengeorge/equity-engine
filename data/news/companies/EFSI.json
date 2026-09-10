@@ -12,6 +12,18 @@
   "source": "yfinance"
  },
  {
+  "id": "b3b6c20d-7c33-3a1d-b2c3-15b620e53199",
+  "ts": "2026-09-09T10:27:34+00:00",
+  "title": "Virginia banks to combine in $253M deal",
+  "summary": "A tie-up with Eagle Financial Services would nearly triple John Marshall Bancorp's branch footprint and almost double its assets.",
+  "publisher": "Banking Dive",
+  "url": "https://www.bankingdive.com/news/virginia-253m-deal-john-marshall-bank-of-clarke-eagle-financial/829909/",
+  "tickers": [
+   "EFSI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a0e479b3-e30e-3bd7-a435-2a90718d1320",
   "ts": "2026-09-08T13:23:02+00:00",
   "title": "John Marshall Bancorp, Eagle Financial Services Sign Merger Deal",

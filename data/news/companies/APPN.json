@@ -1,5 +1,17 @@
 [
  {
+  "id": "65cabf97-1167-3cb6-be9d-0905a9e17cb5",
+  "ts": "2026-09-10T01:43:08+00:00",
+  "title": "Dips In UiPath Stock Have Mostly Kept Falling, Will This One Too?",
+  "summary": "UiPath (PATH) has dropped about 25% from its late-August high, and the question is whether that is an opening or a warning. Its own history leans toward warning: most declines this size kept falling. What that history cannot see is a company that is profitable now, consolidating its biggest customers' automation onto one platform while its smallest ones leave.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/614713/dips-in-uipath-stock-have-mostly-kept-falling-will-this-one-too/2026-09-09",
+  "tickers": [
+   "APPN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9b10a25c-0242-3a03-89f6-9993b2f33e47",
   "ts": "2026-09-08T15:00:00+00:00",
   "title": "Nucleus Research Releases 2026 LCAP Technology Value Matrix",

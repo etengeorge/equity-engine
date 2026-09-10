@@ -1,45 +1,45 @@
 {
-  "screen_utc": "2026-09-09T14:47:02+00:00",
-  "price_asof": "2026-09-08",
+  "screen_utc": "2026-09-10T11:26:27+00:00",
+  "price_asof": "2026-09-09",
   "universe": 1956,
   "modelled": 1078,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-09T14:47:03+00:00",
+    "generated_utc": "2026-09-10T11:26:28+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 32,
+        "new": 3,
+        "held": 35,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 1,
-        "held": 41,
+        "new": 3,
+        "held": 44,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 1,
+        "new": 0,
         "held": 21,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 1,
-        "held": 39,
+        "new": 3,
+        "held": 42,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 2,
-        "held": 29,
+        "held": 31,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 3,
-        "held": 48,
+        "new": 7,
+        "held": 55,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 24,
+        "new": 4,
+        "held": 28,
         "etf": "XLRE"
       },
       "Materials": {
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 0,
-        "held": 18,
+        "new": 1,
+        "held": 19,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 28,
+        "new": 4,
+        "held": 32,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 18,
+        "new": 1,
+        "held": 19,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 230,
+    "articles_new": 953,
     "candidates": 450,
-    "elapsed_s": 206.9
+    "elapsed_s": 218.6
   },
   "picks": [
-    "ACIW",
-    "HOMB",
-    "NJR",
-    "KRG",
-    "CGON",
-    "GVA",
-    "TK",
-    "VISN",
-    "AOMR",
-    "CURV"
+    "AROC",
+    "MMSI",
+    "PIPR",
+    "MXL",
+    "DFTX",
+    "CRSP",
+    "BBW",
+    "SIG",
+    "EVI",
+    "JILL"
   ],
   "stages": {
-    "screen": "2026-09-09T14:50:50+00:00",
-    "news": "2026-09-09T14:50:30+00:00",
-    "pick": "2026-09-09T14:50:50+00:00"
+    "screen": "2026-09-10T11:30:19+00:00",
+    "news": "2026-09-10T11:30:07+00:00",
+    "pick": "2026-09-10T11:30:19+00:00"
   }
 }

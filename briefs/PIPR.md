@@ -1,61 +1,57 @@
-# AOMR — ANGEL OAK MORTGAGE REIT
-*Financials · brief generated 2026-09-09 · selected as **opportunistic***
+# PIPR — PIPER SANDLER COMPANIES
+*Financials · brief generated 2026-09-10 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 3% of 339 Financials peers (97th pct)
-- baseline gap +112%
-- Financials is in the news
-- never researched
-- urgency score 6.21
+- rotation position 106/1956
 
 ## Market
 | | |
 |---|---|
-| price | $8.23 |
-| market cap | $191.1M |
-| 5d / 21d / 63d / 252d | -0.8% / -5.1% / +4.8% / -5.0% |
-| 60d avg daily $ volume | $1.2M |
-| beta (vs IWM) | 0.92 (R²=0.431) |
-| 5d volume vs 60d average | 0.6x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 7% / debt 93% |
+| price | $76.96 |
+| market cap | $5.4B |
+| 5d / 21d / 63d / 252d | +3.3% / +3.1% / -2.5% / -5.2% |
+| 60d avg daily $ volume | $44.7M |
+| beta (vs IWM) | 1.29 (R²=0.494) |
+| 5d volume vs 60d average | 1.0x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +13.9% |
-| cost of equity | +9.9% |
-| justified P/TBV | 1.51 |
-| actual P/TBV | 0.71 |
-| tangible book / share | $11.52 |
-| implied gap | +111.6% |
+| sustainable ROTCE | +21.6% |
+| cost of equity | +11.9% |
+| justified P/TBV | 1.97 |
+| actual P/TBV | 5.71 |
+| tangible book / share | $13.47 |
+| implied gap | -65.5% |
 
-Cohort: **97th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +145.9%).
+Cohort: **27th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -31.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `goodwill_and_intangibles_30%_of_book`
+- `unstable_rotce_12.8%_to_29.5%`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
-- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
-- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
-- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
-- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
-- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
-- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000032/pipr-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000029/pipr-20260730.htm
+- 2026-05-21 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000025/pipr-20260520.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000022/pipr-20260331.htm
+- 2026-05-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000019/pipr-20260501.htm
+- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1230245/000110465926041101/tm261358-1_def14a.htm
+- 2026-03-23 **8-K** — items 5.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1230245/000110465926033351/tm268988d1_8k.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000013/pipr-20251231.htm
+- 2026-02-06 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000008/pipr-20260206.htm
+- 2026-02-04 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000005/pipr-20260204.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
-- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
-- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
+- **2026-07-30** · EX-99 · press release — EARNINGS PRESS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1230245/000123024526000029/q22026ex99earningspressrel.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -63,6 +59,9 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
+- **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
+- **2026-09-09** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 - **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
@@ -70,23 +69,20 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-07** · Arthur J. Gallagher Stock: Is AJG Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4477265/arthur-j-gallagher-stock-is-ajg-underperforming-the-financial-service-sector
 - **2026-09-07** · PNC Financial Services Stock: Is PNC Underperforming the Financials Sector? — *Barchart* — https://www.barchart.com/story/news/4476132/pnc-financial-services-stock-is-pnc-underperforming-the-financials-sector
-- **2026-09-06** · 3 ETFs That Could Move as Rate Expectations Shift — *MarketBeat* — https://www.marketbeat.com/articles/3-etfs-that-could-move-as-rate-expectations-shift/?utm_source=yahoofinance&utm_medium=yahoofinance
-- **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
-- **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
 
 ## Market and macro context
-- **2026-09-09** · 2 Healthcare Stocks with Competitive Advantages and 1 We Question — *StockStory* — https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-competitive-advantages-143438574.html
-- **2026-09-09** · Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html
-- **2026-09-09** · Evaluating Visa’s (V)Long-Term Moat — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html
-- **2026-09-09** · 2 Dividend Stocks Built to Hold Up When Markets Don't — *Motley Fool* — https://www.fool.com/investing/2026/09/09/2-dividend-stocks-built-to-hold-up-in-any-market/
+- **2026-09-10** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due. — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo
+- **2026-09-10** · Oil, Bond Yields Cap Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/oil-bond-yields-cap-wall-111027441.html
+- **2026-09-10** · JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’ — *Investing.com* — https://finance.yahoo.com/technology/ai/articles/jpmorgan-upgrades-meta-ai-models-110557365.html
+- **2026-09-10** · Nvidia Is Suddenly Outpacing the S&P 500. Expect That to Continue. — *Motley Fool* — https://www.fool.com/investing/2026/09/10/nvidia-is-suddenly-outpacing-the-sp-500-expect-tha/
 
 *Rules, releases and agency actions:*
-- **2026-09-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian
-- **2026-09-09** · Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal
-- **2026-09-09** · Airworthiness Directives; Bombardier, Inc. Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes
-- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-09** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-09** · Labels 888, 889, 891, and 892, Discontinued — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued
+- **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
+- **2026-09-10** · Airworthiness Directives; Bell Textron Canada Limited Helicopters — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18522/airworthiness-directives-bell-textron-canada-limited-helicopters
+- **2026-09-10** · Airworthiness Directives; Dassault Aviation Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18520/airworthiness-directives-dassault-aviation-airplanes
+- **2026-09-10** · In Situ Recovery Monitoring and Decommissioning Timeliness — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18504/in-situ-recovery-monitoring-and-decommissioning-timeliness
+- **2026-09-10** · Special Local Regulation; Southern California Annual Marine Events for the San Diego Captain of the Port Zone, San Diego TriRock Triathlon — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18492/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the
+- **2026-09-10** · Reef Fish Fishery of the Gulf of America; 2027 Red Grouper Commercial Quota Retention — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18484/reef-fish-fishery-of-the-gulf-of-america-2027-red-grouper-commercial-quota-retention
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

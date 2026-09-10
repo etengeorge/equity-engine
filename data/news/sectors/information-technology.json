@@ -1,5 +1,47 @@
 [
  {
+  "id": "7a6b214b-819c-3f21-bf16-4670a87011e5",
+  "ts": "2026-09-09T19:46:47+00:00",
+  "title": "Sector Update: Tech Stocks Ease Late Afternoon",
+  "summary": "Tech stocks eased late Wednesday afternoon with the State Street Technology Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-ease-afternoon-194647709.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "458a1a52-461d-3099-b9ca-a999f70f1993",
+  "ts": "2026-09-09T19:15:30+00:00",
+  "title": "Apple Unveils Its First Foldable iPhone Today: The ETFs That Will Feel It Most",
+  "summary": "<p>Today is the day. At its \"Surprise and Shine\" event on September 9, 2026, Apple is expected to unveil its first-ever foldable iPhone \u2014 a roughly $2,000 device that could be the company's most important product launch in years \u2014 alongside the iPhone 18 Pro and Pro Max. For the millions of investors who own Apple through ETFs, the bigger question isn't the phone. It's what happens to the funds that hold Apple as a top position. Here's what history says about Apple on launch day, and the ETFs th",
+  "publisher": "etf.com",
+  "url": "http://www.etf.com/sections/news/apple-unveils-its-first-foldable-iphone-today-etfs-will-feel-it-most?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "3e46fade-070c-307c-a9ff-c71f8cbd0a45",
+  "ts": "2026-09-09T17:31:24+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
   "ts": "2026-09-09T13:06:53+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
