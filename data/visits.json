@@ -49,14 +49,19 @@
     "last_visit": "2026-09-07",
     "verdict": "no_model"
   },
+  "AROC": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_edge"
+  },
   "AUB": {
     "conviction": "medium",
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
   "BBW": {
-    "conviction": "low",
-    "last_visit": "2026-08-31",
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
     "verdict": "no_edge"
   },
   "BCPC": {
@@ -94,6 +99,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
   },
+  "CRSP": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_model"
+  },
   "CTOS": {
     "conviction": "low",
     "last_visit": "2026-09-02",
@@ -108,6 +118,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-07",
     "verdict": "rich"
+  },
+  "DFTX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_model"
   },
   "EFOR": {
     "conviction": "medium",
@@ -135,8 +150,8 @@
     "verdict": "no_edge"
   },
   "EVI": {
-    "conviction": "low",
-    "last_visit": "2026-09-03",
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
     "verdict": "no_edge"
   },
   "FG": {
@@ -209,6 +224,11 @@
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
+  "JILL": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_edge"
+  },
   "JXN": {
     "conviction": "medium",
     "last_visit": "2026-08-31",
@@ -259,6 +279,16 @@
     "last_visit": "2026-09-07",
     "verdict": "no_edge"
   },
+  "MMSI": {
+    "conviction": "low",
+    "last_visit": "2026-09-10",
+    "verdict": "rich"
+  },
+  "MXL": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_model"
+  },
   "NPO": {
     "conviction": "medium",
     "last_visit": "2026-09-04",
@@ -277,6 +307,11 @@
   "PCVX": {
     "conviction": "low",
     "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "PIPR": {
+    "conviction": "low",
+    "last_visit": "2026-09-10",
     "verdict": "no_model"
   },
   "PRAX": {
@@ -318,6 +353,11 @@
     "conviction": "low",
     "last_visit": "2026-09-03",
     "verdict": "no_model"
+  },
+  "SIG": {
+    "conviction": "medium",
+    "last_visit": "2026-09-10",
+    "verdict": "no_edge"
   },
   "SLAB": {
     "conviction": "high",

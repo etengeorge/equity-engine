@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CRSP — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / CRSP</p><h1>CRSP <span style='color:var(--faint);font-weight:400'>CRISPR THERAPEUTICS AG</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$53.45</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-10</b></div></div><div class='prose'><h1>CRSP — CRISPR THERAPEUTICS AG</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-10 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $53.45</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> CRISPR Therapeutics is a gene-editing company whose only approved product, CASGEVY, is partnered with Vertex and is early in a launch that is genuinely accelerating: Q2 2026 CASGEVY revenue was $76M, up 78% sequentially and 151% year over year, with FDA approval extended to children as young as two, which the company says opens eligibility to roughly 5,500 additional SCD and TDT patients. Against that, the company lost $91.2M in the quarter. At $53.45 the $5.2B market capitalisation sits against $2,364.4M of cash, cash equivalents and marketable securities, so roughly $3B of the value is a claim on CASGEVY economics plus an in vivo pipeline that has only just entered Phase 1 (CTX340 in refractory hypertension, CTX460 in alpha-1 antitrypsin deficiency). The market is paying for optionality on a platform, which is a coherent thing to pay for and not a thing a free cash flow model can price.</p><p><strong>What changed.</strong> Q2 2026 reported 2026-08-03 with the 10-Q. CASGEVY revenue $76M, +78% sequentially, +151% year over year; approved in 39 countries; German reimbursement secured in May; regulatory submissions completed in Saudi Arabia and the UK for ages 5-11. Net loss narrowed to $91.2M from $208.5M. Collaboration expense net fell to $40.3M from $45.2M, which the company attributes to its rising share of CASGEVY revenue. Cash rose to $2,364.4M from $1,975.8M at year end, driven by $585.4M of net proceeds from CONVERTIBLE SENIOR NOTES ISSUED IN MARCH 2026 (8-K of 2026-03-16, items 1.01, 2.03, 3.02). No company-specific news is in the store for the last 90 days, which lowers my confidence that nothing else happened rather than confirming it.</p><p><strong>Base case.</strong> No growth rate is supplied because no discounted cash flow can be run. Normalised FCFF is not merely negative, it is absent — the engine reports a zero-year cash-flow window, no enterprise value and no reverse DCF at any of the three discount rates. The three flags (<code>negative_fcf_year_in_window</code>, <code>nonpositive_normalized_fcff</code>, <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code>) are all correct and all describe the same fact: this company consumes about $90M a quarter and its revenue is a contractual share of a partner&#x27;s product launch. &#x27;A DCF cannot value this&#x27; and &#x27;this is worthless&#x27; are different claims and I am making only the first.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against refusing is that the multiples table is not obviously useless here — the price-to-tangible-book row shows CRSP at 3.0x against a cohort of 330 Health Care names at 2.4x / 4.5x / 7.7x, which is a real and comparable ratio for a cash-rich biotech, and it puts fair value between $42.53 and $139.02 with a midpoint above the price. On that single row CRISPR is not expensive. Refusing to use it discards the one comparison that arguably works.</li><li>What would prove it: CASGEVY patient starts and Vertex&#x27;s disclosure of the revenue split, plus the first efficacy readouts from CTX340 and CTX460. Those are the observables that would let anyone build a defensible forecast; none of them is a cash flow multiple.</li><li>Already visible today: The reason to refuse is visible in the table itself. The two rows disagree in opposite directions across the price: ev_sales values the company at $18.46 to $19.13 while p_tbv values it at $42.53 to $139.02, against a $53.45 price. The ev_sales row is meaningless by construction — it reads CRSP&#x27;s own multiple as 965.8x, because the denominator is a collaboration revenue share rather than product sales, the XENE pattern exactly. And the p_tbv row is largely valuing the $2.36B cash pile, most of which is borrowed: $585.4M of it arrived from a March 2026 convertible note issue, so the &#x27;tangible book&#x27; being multiplied is partly a liability. LESSONS.md is explicit that when rows straddle the price in opposite directions, or the cohort is unranked — and this cohort is unranked — the answer is no_model and the blended $50.01 midpoint should be disregarded rather than averaged into a conclusion.</li><li>Left unresolved: The value of the in vivo pipeline and the exact CASGEVY economics accruing to CRISPR rather than Vertex. I did not attempt to estimate either.</li></ul><p><strong>Key risks.</strong> No fair value is supplied and none should be inferred; the blended multiples midpoint of $50.01 and its -6.4% gap should be disregarded, because the two rows it averages point in opposite directions across the price and the cohort is unranked; The ev_sales row reads 965.8x because the denominator is a collaboration revenue share, not product sales — the same defect recorded for XENE; $585.4M of the $2,364.4M cash position is proceeds from convertible senior notes issued in March 2026, so the tangible book underpinning the p_tbv row is partly borrowed; this is also the concept family the debt extractor is known to miss, though it does not affect this verdict because no enterprise value is computed; The company consumed roughly $91M in the quarter and its only approved product is partnered, so CRISPR keeps a minority of CASGEVY economics; CASGEVY is an ex vivo therapy requiring myeloablative conditioning at a qualified transplant centre, which constrains the realistic addressable population well below the epidemiological one; No company-specific news in the store for 90 days, so the quarter is corroborated only by the company&#x27;s own filings <strong>Watch for.</strong> CASGEVY patient starts and quarterly revenue against the $76M just posted — whether 78% sequential growth is a launch inflection or a reimbursement-driven catch-up; First efficacy data from CTX340 (refractory hypertension) and CTX460 (alpha-1 antitrypsin deficiency), which is where the in vivo platform value would first become observable; Cash burn against the $2.36B position, and any further convertible issuance; Regulatory decisions in Saudi Arabia and the UK for ages 5-11</p><p><strong>Data quality.</strong> I read the Q2 2026 earnings release and the 2026-06-30 10-Q directly via adhoc-fetch. All three engine flags were checked and all three are correct — this is a genuine no-cash-flow name, not an extraction failure, and the zero-year FCFF window reflects reality rather than a missing concept. I explicitly declined to use the multiples table, on the standing rule that rows straddling the price in opposite directions plus an unranked cohort means report no_model rather than average a nonsense input away. I noted but did not act on the March 2026 convertible notes: they matter for the p_tbv row&#x27;s quality and they are the concept family <code>FIELDS[&#x27;total_debt&#x27;]</code> is known to miss, but since no enterprise value or reverse DCF is computed for this name, the known missing-debt defect has no effect on the verdict here. I could not obtain the Vertex collaboration revenue split or any third-party launch tracking because web search and WebFetch were both unavailable this session.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1674416/000119312526330644/crsp-20260803.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1674416/000119312526330644/crsp-20260803.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/crsp-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/crsp-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1674416/000119312526108333/crsp-20260316.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1674416/000119312526108333/crsp-20260316.htm</a></li><li>data/adhoc/CRSP/2026-08-03-EX-99.1.txt (Q2 2026 earnings release, fetched 2026-09-10)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/CRSP.md'>research/Health Care/CRSP.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

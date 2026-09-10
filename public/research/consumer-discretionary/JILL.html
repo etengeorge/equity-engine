@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>JILL — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / JILL</p><h1>JILL <span style='color:var(--faint);font-weight:400'>J JILL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$21.74</b></div><div>Analyst gap<b>-4%</b></div><div>Dated<b>2026-09-10</b></div></div><div class='prose'><h1>JILL — J JILL INC</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-10 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $21.74 · fair value $20.77 · gap -4.4%</li><li><strong>Growth:</strong> market implies -12.7%, analyst says +0.0% (delta +12.7%)</li><li><strong>FCFF base overridden</strong> by the analyst to $30.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 8.1% | 9.1% | 10.1% | 11.1% | 12.1% | |---|---|---|---|---|---|---| | bear | -6.0% | $20.98 | $17.82 | $15.43 | $13.56 | $12.06 | | base | +0.0% | $28.30 | $24.01 | $20.77 | $18.25 | $16.23 | | bull | +5.0% | $35.80 | $30.34 | $26.23 | $23.02 | $20.46 |</p><p>At the point WACC of 10.1%: bear -29.0%, base -4.4%, bull +20.7% Across the whole grid the gap ranges -44.5% to +64.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> J.Jill is a 255-store women&#x27;s apparel retailer with $600M or so of annual sales, about 47% of it direct-to-consumer, carrying $71.2M of debt against a $325M market capitalisation. At $21.74 the market is pricing FCFF to decline. The case for that is on the face of the company&#x27;s own numbers once the one-time items come out: year-to-date net sales are DOWN 2.7% and year-to-date comparable sales are DOWN 4.2%; SG&amp;A has risen 320bp as a share of sales on eight net new stores, lease renewals, marketing and shipping; and full-year comparable sales are guided at down 1% to up 1%. This is a mature specialty brand spending more to hold its customer file flat, with 30% of its enterprise value in operating leases that are kept as opex.</p><p><strong>What changed.</strong> Q2 fiscal 2026 was reported 2026-09-09 with the 10-Q, and the stock rose 12% in five days on 3.2x average volume against a headline beat and a raised full-year outlook. The quarter was almost entirely a tariff refund. Net sales $154.8M, up 0.5%; comparable sales up 0.5%. GROSS MARGIN WAS 76.8% AGAINST 68.4%, UP 840bp — AND THE COMPANY DISCLOSES THAT EXCLUDING $13.3M OF NET IEEPA TARIFF REFUNDS IT WAS 68.3%, i.e. DOWN 10bp YEAR OVER YEAR. Operating income rose $7.5M to $24.3M while the refund alone was $13.3M, so ex-refund operating income fell from $16.8M to roughly $11.0M. J.Jill gives the cleanest version itself: &#x27;Adjusted EBITDA for the second quarter of fiscal 2026 excluding net tariff refunds and deployment of these refunds toward strategic initiatives and elevated fuel costs during the period was $20.1 million&#x27; against $25.6M a year earlier — DOWN 21%. The raised full-year outlook &#x27;includes net tariff refunds as well as the deployment of these refunds toward investments primarily focused on marketing&#x27;, so the windfall is being spent, not banked. Full-year guidance: net sales flat to +2%, comparable sales -1% to +1%. Q3: net sales +3-5%, comps +1-3%, gross margin about flat, adjusted EBITDA $20.0-22.0M. This is the third name in today&#x27;s ten carrying an IEEPA refund, alongside SIG and BBW.</p><p><strong>Base case.</strong> The engine&#x27;s $54.9M FCFF base is roughly twice the current run rate and must be overridden. Its series is $65.2M, $50.8M, $25.2M — monotonically declining, newest 0.39x oldest — and the <code>possible_trough_cycle_base</code> flag fires with the advisory sentence that &#x27;growth applied to a trough understates value&#x27;. As LESSONS.md records, that sentence is backwards: the base is a three-year MEAN, the newest year IS the trough, and the mean overstates current cash generation by 2.2x. The current half is worse than it looks, not better. Reported first-half operating cash flow was $48.0M against $24.7M, but the 10-Q attributes the $23.3M increase to $25.0M of operating asset and liability changes, including &#x27;$16.0 million [of] accrued expenses and other current liabilities, WHICH INCLUDES LIABILITIES TO VENDORS RESULTING FROM TARIFF RECOVERIES&#x27; — money J.Jill is holding and owes on. Net income actually FELL $0.7M. Strip the vendor float and the $13.3M refund and underlying first-half cash generation is close to the prior year&#x27;s. I take a $30M FCFF base, roughly FY2025&#x27;s $25.2M plus after-tax interest, and underwrite 0% growth: comps guided to roughly zero, gross margin ex-refund flat, and SG&amp;A rising 320bp of sales, against a genuine offset in accelerating new-to-brand customer acquisition and a stabilising customer file that management describes and I cannot verify.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: I may be overcorrecting the base and mistaking an investment year for decline. Q2 comps were POSITIVE (+0.5%) after a negative first quarter, the direct-to-consumer channel grew 1.9%, Q3 is guided to +1% to +3% comps on +3% to +5% net sales, and management says new-to-brand acquisition is accelerating and the customer file is stabilising — that is an inflection, and the tariff refund being deployed into marketing is precisely how a retailer buys one. On that reading my $30M base is too harsh: the correct base is the earnings power after the marketing investment pays back, not the trough during it. And at a $30M base the market implies only +1.0% growth, so if J.Jill can grow at all the stock is not expensive.</li><li>What would prove it: Q3 and Q4 fiscal 2026 comparable sales against the guided +1-3%, and then fiscal 2027 SG&amp;A as a percentage of sales once the refund-funded marketing lapses. The decisive series is comps holding positive WHILE SG&amp;A percentage falls back — either one alone proves nothing.</li><li>Already visible today: Only the first half of it, and it is genuinely split. For the bull: Q2 comps turned positive and Q3 is guided positive. For me: the first half as a whole ran comps of -4.2%, so one positive quarter against an easy comparison is not a trend, and the company itself guides the FULL YEAR to -1% to +1%, which implies the back half does not accelerate much beyond flat. The Q3 adjusted EBITDA guide of $20.0-22.0M is also almost exactly the $20.1M ex-refund figure Q2 produced, so the company is not guiding to an underlying step up.</li><li>Left unresolved: I could not determine how much of the $16.0M accrued-liability increase is specifically the vendor tariff obligation as opposed to ordinary accruals — the 10-Q says the line &#x27;includes&#x27; it without sizing it — so my reconstruction of underlying first-half cash flow is approximate, and the $30M base is my estimate rather than a disclosed figure. I also have no visibility on how the tariff refund is split between J.Jill and its vendors.</li></ul><p><strong>Key risks.</strong> The +61% baseline gap is a trough-flag artifact: on a base corrected to the ~$30M run rate the market implies +1.0% growth, not -12.7%, and the gap disappears; The quarter that moved the stock 12% on 3.2x volume was a $13.3M one-time IEEPA tariff refund; ex-refund gross margin fell 10bp and the company&#x27;s own ex-refund adjusted EBITDA was $20.1M against $25.6M, down 21%; Year-to-date comparable sales are -4.2% and full-year comps are guided at -1% to +1%; First-half operating cash flow of $48.0M is inflated by $16.0M of accrued liabilities that the 10-Q says include amounts owed to vendors from tariff recoveries — a float that reverses; SG&amp;A rose 320bp as a share of sales; the refund is explicitly being spent on marketing rather than retained; Operating leases are 30% of enterprise value and kept as opex, on 255 stores; $1.6M average daily dollar volume on a $325M company <strong>Watch for.</strong> Q3 and Q4 comparable sales against the guided +1% to +3%, which is the test of whether the refund-funded marketing bought anything durable; Fiscal 2027 SG&amp;A as a percentage of sales once the tariff refund lapses — the number that says whether this was an investment year or a new cost base; The customer file and new-to-brand acquisition metrics management cited qualitatively but did not quantify; Whether the vendor tariff liabilities are paid out and reverse the first-half working capital benefit</p><p><strong>Data quality.</strong> I read the 2026-09-09 10-Q and Q2 earnings release directly via adhoc-fetch, so the tariff-refund quantum, the ex-refund gross margin and the ex-refund adjusted EBITDA are the company&#x27;s own disclosed figures, not inferences. THE TROUGH FLAG WAS CHECKED AND IS BACKWARDS, exactly as the standing lesson predicts: it fires at 0.39x and advises that value is understated, while the base it describes is a three-year mean that sits at 2.2x the newest year and 1.8x my estimate of the current run rate. I overrode the base to $30M. The <code>volume_3.2x_its_60d_average</code> flag is explained — it is the earnings reaction. The operating-lease flag at 30% of EV remains OPEN: I did not capitalise the leases, and on 255 stores that is a material unmodelled fixed charge, though as with BBW the capitalisation adjustment adds rent back to FCFF and probably runs in the stock&#x27;s favour. MY $30M BASE IS A RECONSTRUCTION, not a disclosed number: I backed out a $16.0M accrued-liability movement that the 10-Q describes as including vendor tariff obligations without sizing them separately, so treat the base as accurate to perhaps plus or minus 20%, which is why conviction is medium and the verdict is no_edge rather than fair.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1687932/000119312526386569/jill-20260801.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1687932/000119312526386569/jill-20260801.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1687932/000119312526385874/jill-20260909.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1687932/000119312526385874/jill-20260909.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1687932/000119312526380360/jill-20260902.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1687932/000119312526380360/jill-20260902.htm</a></li><li>data/adhoc/JILL/2026-09-09-EX-99.1.txt (Q2 FY2026 earnings release, fetched 2026-09-10)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/JILL.md'>research/Consumer Discretionary/JILL.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

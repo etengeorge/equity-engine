@@ -1,0 +1,191 @@
+{
+  "ticker": "SIG",
+  "date": "2026-09-10",
+  "sector": "Consumer Discretionary",
+  "name": "SIGNET JEWELERS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": -0.03,
+  "bear_growth": -0.09,
+  "bull_growth": 0.01,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 102.4800033569336,
+  "market_implied_growth": -0.09530373285211274,
+  "cohort_pct": 76.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.03,
+    "market_implied_growth": -0.09530373285211274,
+    "growth_delta": 0.06530373285211274,
+    "fair_value": 123.00052499587876,
+    "price": 102.4800033569336,
+    "gap": 0.2002392756318816,
+    "fair_value_band": {
+      "low": 111.85696683773936,
+      "point": 123.00052499587876,
+      "high": 137.1547307351479
+    },
+    "fcff_base_used": 430000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10363288077028207,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 430000000,
+      "price": 102.4800033569336,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.09,
+          "cells": [
+            {
+              "wacc": 0.08363288077028207,
+              "fair_value": 121.88815405847049,
+              "gap": 0.1893847586434898
+            },
+            {
+              "wacc": 0.09363288077028208,
+              "fair_value": 108.30723105343324,
+              "gap": 0.05686209509774942
+            },
+            {
+              "wacc": 0.10363288077028207,
+              "fair_value": 97.94721434070792,
+              "gap": -0.04423096084841216
+            },
+            {
+              "wacc": 0.11363288077028207,
+              "fair_value": 89.7772102373835,
+              "gap": -0.12395387103283739
+            },
+            {
+              "wacc": 0.12363288077028207,
+              "fair_value": 83.16417308617893,
+              "gap": -0.18848389576528823
+            }
+          ],
+          "fair_value_at_point_wacc": 97.94721434070792,
+          "gap_at_point_wacc": -0.04423096084841216
+        },
+        {
+          "case": "base",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.08363288077028207,
+              "fair_value": 155.73807109937127,
+              "gap": 0.5196922911579349
+            },
+            {
+              "wacc": 0.09363288077028208,
+              "fair_value": 137.1547307351479,
+              "gap": 0.3383560328100661
+            },
+            {
+              "wacc": 0.10363288077028207,
+              "fair_value": 123.00052499587876,
+              "gap": 0.2002392756318816
+            },
+            {
+              "wacc": 0.11363288077028207,
+              "fair_value": 111.85696683773936,
+              "gap": 0.09150042128849467
+            },
+            {
+              "wacc": 0.12363288077028207,
+              "fair_value": 102.85304325736492,
+              "gap": 0.003640123811589291
+            }
+          ],
+          "fair_value_at_point_wacc": 123.00052499587876,
+          "gap_at_point_wacc": 0.2002392756318816
+        },
+        {
+          "case": "bull",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.08363288077028207,
+              "fair_value": 183.07980790929744,
+              "gap": 0.7864929928977273
+            },
+            {
+              "wacc": 0.09363288077028208,
+              "fair_value": 160.40669894459586,
+              "gap": 0.565248767468381
+            },
+            {
+              "wacc": 0.10363288077028207,
+              "fair_value": 143.15226081900278,
+              "gap": 0.3968799388150819
+            },
+            {
+              "wacc": 0.11363288077028207,
+              "fair_value": 129.5804892632384,
+              "gap": 0.26444657512270897
+            },
+            {
+              "wacc": 0.12363288077028207,
+              "fair_value": 118.62543223271365,
+              "gap": 0.15754711501663587
+            }
+          ],
+          "fair_value_at_point_wacc": 143.15226081900278,
+          "gap_at_point_wacc": 0.3968799388150819
+        }
+      ],
+      "summary": {
+        "bear": -0.04423096084841216,
+        "base": 0.2002392756318816,
+        "bull": 0.3968799388150819
+      },
+      "downside": -0.18848389576528823,
+      "upside": 0.7864929928977273
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "I am reading a cyclical and promotional peak as a durable base, and the comparison quarter flatters everything. Q2 fiscal 2026 had GAAP operating income of $2.8M \u2014 a quarter loaded with impairments and restructuring \u2014 so 'operating income up from $2.8M to $87.5M' measures the absence of charges, not operating improvement. Signet's own decomposition of the +36% adjusted EPS names 'higher adjusted operating income, LOWER DILUTED SHARE COUNT, and HIGHER INTEREST INCOME'; strip the ~$15M tariff refund from adjusted operating income and it went $85.4M to roughly $92M, up about 8%, not 26%. Sales have now been flat in absolute dollars for two years ($3,081.7M against $3,076.7M year to date) while the company closes brands. And there is an unflagged cash-flow-quality item: deferred revenue is $371.6M current plus $905.6M non-current, $1.28B of extended service plans, so cash arrives years before revenue and a slowdown in plan sales would cut cash flow faster than earnings.",
+    "what_would_prove_it": "Q3 and Q4 fiscal 2027 same-store sales against the guided -1.0% to +2.0%, and specifically whether AUR growth survives once the holiday promotional season starts. Gross margin ex-tariff-refund is the cleaner series: the company now discloses the refund amounts, so the underlying merchandise margin can be tracked directly against gold. Also the deferred revenue balance \u2014 if it stops growing, the cash conversion I am relying on weakens.",
+    "already_visible": "Yes, on both sides, which is why I moved to -3% rather than to flat. Against me: year-to-date gross margin is DOWN 110bp even including the refunds; sales are down 0.5% in the quarter; the company's own Q3 comp guidance steps down to -1.0% to +2.0%; and the entire guidance raise is accounted for by the tariff refund and the credit agreement on Signet's own stated assumptions. For me: same-store sales have been positive in five of the last six quarters, AUR is up 6% in both categories, SG&A leverage of 60bp is from operating model changes, the balance sheet carries zero debt and $526.8M of cash, and the credit partnership runs to 2035.",
+    "unresolved": "I could not separate AUR growth into price versus mix. A 6% AUR increase with units down 6% is consistent with genuine pricing power AND with a shrinking business selling to a wealthier residual customer, and those have opposite five-year implications. Nothing in the release or the 10-Q decomposes it. I also could not size the Bread Financial signing bonus separately from the profit-share, so I cannot say how much of the $30-40M is a one-decade amortisation of a fixed payment versus recurring economics."
+  },
+  "what_changed": "Q2 fiscal 2027 was reported 2026-09-09 with the 10-Q, and the stock rose 26% in five days on 2.2x average volume. Sales $1,528.1M, down 0.5% year over year, on same-store sales of +2.2% and AUR up ~6%. GAAP operating income $87.5M against $2.8M in a heavily-impaired prior-year quarter; adjusted operating income $107.2M against $85.4M; adjusted diluted EPS $2.19 against $1.61, +36%. Full-year guidance was raised for the second time this year: adjusted operating income to $535-605M from $480-560M, adjusted EBITDA to $730-800M from $665-745M, adjusted diluted EPS to $10.45-12.15 from $9.20-11.00. TOTAL SALES GUIDANCE WAS NOT CHANGED, at $6.7-6.9B. The quality of the raise is the story. The guidance assumptions name 'Refunds of tariffs previously paid of approximately $30 million' and '$30 to $40 million of non-comp revenue and gross margin from the new consumer credit agreement' \u2014 $60-70M of stated non-operating contribution against an adjusted EBITDA raise of $55-65M. Signet has received ~$20.4M of IEEPA refunds to date, of which $14.9M was booked as a reduction to cost of sales; the Q2 gross-margin improvement of 80bp was built on approximately $15M of tariff refunds, which is about 98bp of margin on $1,528M of sales, so EX-REFUND Q2 GROSS MARGIN WAS DOWN ROUGHLY 18bp YEAR OVER YEAR. Year to date, gross margin was 37.6% against 38.7%, down 110bp, on gold prices, accelerated melt and the James Allen/Rocksbox write-downs. Separately, Signet extended its consumer credit partnership with Bread Financial through December 2035, with a profit-sharing arrangement and a signing bonus recognised over the life of the agreement (8-K item 1.01, 2026-09-09), and announced a $125M accelerated share repurchase with the authorisation expanded to $700M.",
+  "consensus_case": "Signet is the largest specialty jewellery retailer in the US \u2014 Kay, Zales, Jared \u2014 with roughly 2,300 stores, $6.7-6.9B of guided fiscal 2027 sales, zero long-term debt and $526.8M of cash. At $102.48 the market caps it at $4.0B, an enterprise value of $3.47B against a $464.5M normalised FCFF base: a 13.6% FCFF yield, and a reverse DCF that says the price requires FCFF to DECLINE 9.5% a year for five years. The strongest case for that price is not that Signet is badly run, it is that the category is deflating. Lab-grown diamonds have collapsed the cost of the central input in bridal, which is roughly half of Signet's sales; unit volumes are already falling \u2014 Q2 sales fell 0.5% in absolute dollars while average unit retail rose about 6%, which arithmetically means units fell around 6%. Signet is shrinking to fit: net square footage down low single digit for the year, the James Allen brand being transitioned out at a cost of $60-80M of revenue, Rocksbox decommissioned, and $31.3M of inventory write-downs taken against those two closures in the first half. Gold at record highs is compressing merchandise margin in the same period. A market pricing permanent single-digit decline in a mall-based jeweller losing 6% of its units a year is not obviously wrong.",
+  "base_case_rationale": "I underwrite -3% FCFF growth: better than the -9.5% the price requires, worse than flat. The engine's $464.5M base reconciles to the company's own forward numbers and needs no correction \u2014 guided adjusted EBITDA of $730-800M less guided capex of $150-180M less cash taxes lands within a few percent of it \u2014 but roughly $30M of that FY2027 EBITDA is the non-recurring tariff refund, so I take a slightly conservative $430M base. From there the honest arithmetic is: sales flat with a low-single-digit square-footage runoff underneath, merchandise margin under persistent pressure from gold (cited as a drag in both the quarter and the year-to-date discussion) and from unit deflation, offset by genuine SG&A leverage (32.3% of sales from 32.9%, driven by operating model changes rather than by one-offs) and by $30-40M a year of high-margin credit revenue that is now contracted for a decade. AUR up 6% in both Bridal and Fashion says pricing is holding, which is the single fact that most contradicts a lab-grown collapse thesis. But units are falling about 6%, and a category that loses units while raising price is mixing up, not growing. -3% respects that; -9.5% assumes the pricing holds nowhere.",
+  "key_risks": [
+    "The +26% five-day move that won this name an opportunistic slot was a re-rating on a guidance raise that Signet's own assumptions attribute to a one-time IEEPA tariff refund (~$30M) and a credit-partnership contribution ($30-40M) totalling more than the $55-65M adjusted EBITDA raise, with total sales guidance unchanged",
+    "Q2 gross margin rose 80bp including ~98bp of tariff refund, so underlying gross margin fell; year-to-date gross margin is down 110bp on gold prices and $31.3M of James Allen and Rocksbox write-downs",
+    "Units are declining roughly 6% a year \u2014 sales fell 0.5% while AUR rose 6% \u2014 in a category facing lab-grown diamond deflation, with net square footage guided down low single digit",
+    "The gap I compute is not large and it compresses to roughly +6% under a defensible bear base, so this is an expectations thesis and LESSONS.md records that those have the weakest base rate without a dated catalyst; I have no dated catalyst",
+    "$1.28B of deferred revenue on extended service plans means cash is collected well ahead of recognition; a slowdown in plan attachment would cut cash flow faster than it cuts earnings, and no flag covers this",
+    "Cash fell from $874.8M to $526.8M in six months while the company committed to a further $125M accelerated repurchase"
+  ],
+  "watch_for": [
+    "Q3 and Q4 same-store sales against the guided -1.0% to +2.0%, and whether AUR growth survives the holiday promotional season",
+    "Gross margin excluding tariff refunds \u2014 now separately disclosed \u2014 as the clean read on merchandise margin against gold",
+    "Whether fiscal 2028 guidance shows sales growth or a third consecutive flat year, once the James Allen $60-80M revenue reduction has annualised",
+    "Any disclosure separating the Bread Financial signing bonus from the ongoing profit share"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/832988/000083298826000229/sig-20260801.htm",
+    "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/sig-20260904.htm",
+    "https://www.sec.gov/Archives/edgar/data/832988/000083298826000159/sig-20260502.htm",
+    "data/adhoc/SIG/2026-09-09-EX-99.1.txt (Q2 FY2027 earnings release, fetched 2026-09-10)"
+  ],
+  "flags": [
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "operating_leases_27%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>DFTX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / DFTX</p><h1>DFTX <span style='color:var(--faint);font-weight:400'>DEFINIUM THERAPEUTICS INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$37.99</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-10</b></div></div><div class='prose'><h1>DFTX — DEFINIUM THERAPEUTICS INC</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-10 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $37.99</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Definium Therapeutics is a late-stage clinical biopharmaceutical company with no approved product and no revenue, developing DT120 — a proprietary orally disintegrating tablet formulation of lysergide (LSD) — for generalized anxiety disorder, major depressive disorder and PTSD. The $5.1B market capitalisation at $37.99, after a 304.6% twelve-month gain, is a probability-weighted claim on that single molecule. The case for it is unusually concrete for a clinical-stage name: two positive Phase 3 readouts in 2026 (Voyage in GAD in August, Emerge in MDD, the latter showing a statistically significant 8.1-point placebo-adjusted MADRS improvement at week 6 with durable efficacy through week 12, p&lt;0.0001), two FDA Breakthrough Therapy designations — GAD first and MDD granted 2026-09-08 — and $1.1B of cash, cash equivalents and investments at 2026-06-30 funding operations into 2030.</p><p><strong>What changed.</strong> The whole year is what changed, and the tape has it: +65.5% over 63 days and +304.6% over 252, though -15.9% over the last 21. On 2026-08-12/13 the Phase 3 Voyage trial of DT120 ODT in GAD met its primary HAM-A endpoint and all key secondary measures. On 2026-09-08 the FDA granted Breakthrough Therapy designation for DT120 in MDD following positive Phase 3 Emerge results, the second such designation for the programme. On 2026-09-10 the company announced it will present topline data from both Emerge and Voyage at Psych Congress 2026. Cash rose from $411.6M at 2025-12-31 to approximately $1.1B at 2026-06-30, so a large raise occurred in the first half. A Phase 3 Panorama readout in GAD was guided for September 2026 and Ascend in MDD for 2027.</p><p><strong>Base case.</strong> No growth rate is supplied and no fair value is produced. Definium has never generated revenue; the engine reports a zero-year cash-flow window, no enterprise value and no reverse DCF, and its three flags (<code>no_cashflow_history</code>, <code>no_enterprise_value</code>, <code>speculative_cost_of_debt_but_only_1%_debt_weight</code>) are all correct. Roughly 40% of this universe cannot be honestly valued by a free FCFF model and this is one of the clearest cases in it: the entire value of the company is the risk-adjusted net present value of DT120 across three indications, which depends on approval probability, DEA rescheduling, label breadth, pricing and the operational reality of delivering a psychedelic under supervision. Those are judgments about an event tree, not a cash flow forecast, and manufacturing a number from them would be inventing a valuation, not producing one.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against refusing is that this is not a speculative early-stage biotech where refusal is obviously right — Definium has TWO positive Phase 3 readouts and TWO Breakthrough Therapy designations, which is a materially de-risked asset, and the multiples table offers a comparison at 5.7x price to tangible book against a Health Care cohort at 2.4x / 4.5x / 7.7x, implying $15.75 to $51.48 against a $37.99 price. That is a defensible-looking range and it happens to bracket the price, which might be read as evidence the market is rational and the name is fairly valued.</li><li>What would prove it: The Phase 3 Panorama readout in GAD guided for September 2026, then the NDA filing and the FDA action date, and above all the DEA scheduling decision — which is the binary that no clinical result can substitute for. Pricing and the supervised-administration reimbursement model would follow.</li><li>Already visible today: The reason to refuse is visible in the table. Only ONE row populates — price to tangible book — and what it is multiplying is almost entirely the $1.1B cash pile, because a pre-revenue company&#x27;s tangible book IS its cash. So the row says &#x27;Definium&#x27;s cash trades at 5.7x, the sector median cash-and-assets multiple is 4.5x&#x27;, which is arithmetic about a balance sheet, not a statement about DT120. The cohort is also explicitly not ranked. LESSONS.md and CLAUDE.md both say to treat a multiples number on a pre-revenue name with suspicion and that an unranked cohort with a single row is a refusal, and the -20.6% gap it produces should be disregarded rather than averaged into a conclusion. The 21-day decline of 15.9% is worth noting as a fact: the stock has given back part of the Voyage move even as the second Breakthrough designation arrived.</li><li>Left unresolved: Everything that decides the value: approval probability, the DEA scheduling path and timeline, the achievable label, price, and whether a supervised-dosing psychedelic can be delivered at the scale a 21-million-patient indication implies. I did not estimate any of them.</li></ul><p><strong>Key risks.</strong> No fair value is supplied and none should be inferred; the p_tbv-derived midpoint of $30.16 and its -20.6% gap should be disregarded, because the only populated row is multiplying a cash balance and the cohort is unranked; The entire $5.1B capitalisation rests on one molecule; DT120 is ~100% of the value and there is no second asset; DT120 is lysergide, a Schedule I controlled substance: DEA and state rescheduling is required before it can be legally marketed even if approved, and the company names this as a risk factor itself; A drug producing transient perceptual and cognitive effects requires supervised administration, whose site economics and reimbursement are unproven at commercial scale; Functional unblinding is a standing methodological objection to psychedelic efficacy trials and applies to both Phase 3 readouts; The shares are -15.9% over 21 days despite the second Breakthrough Therapy designation, and beta is 1.87 with an R-squared of 0.161 — this is a high-volatility, event-driven security <strong>Watch for.</strong> The Phase 3 Panorama readout in GAD, guided for September 2026 — a third positive would materially consolidate the GAD filing; NDA submission and the FDA action date for the GAD indication; Any DEA or state rescheduling action, which is the binary that clinical data cannot substitute for; The Ascend Phase 3 readout in MDD guided for 2027, and initiation of the Haven study; Cash burn against the $1.1B position and the stated runway into 2030</p><p><strong>Data quality.</strong> I read the 2026-09-08 Breakthrough Therapy press release, the Q2 2026 release, the 2026-06-30 10-Q and the August 8-K exhibits directly via adhoc-fetch. All three engine flags were checked and all three are correct: this is a genuine pre-revenue company, not an extraction failure. I explicitly declined to use the single-row multiples table for the reason set out above. Two observations recorded rather than acted on: the cash position roughly tripled in the first half, from $411.6M to about $1.1B, so a large equity raise occurred that I did not attempt to size from the share count, and the 21-day decline of 15.9% against a 304.6% annual gain suggests the Voyage move has partly unwound. Both are facts about the security, not inputs to a valuation I am not making. I could not obtain analyst NPV models, DEA scheduling commentary or independent trial critique because web search and WebFetch were both unavailable this session; for a name whose value is entirely an event tree, that is a real limit, and it is one more reason no number appears here.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1813814/000119312526384403/dftx-20260908.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1813814/000119312526384403/dftx-20260908.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1813814/000110465926094528/tm2622948d1_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1813814/000110465926094528/tm2622948d1_8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1813814/000119312526338066/dftx-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1813814/000119312526338066/dftx-20260630.htm</a></li><li>data/adhoc/DFTX/2026-09-08-EX-99.1.txt (Breakthrough Therapy designation in MDD, fetched 2026-09-10)</li><li>data/adhoc/DFTX/2026-08-06-EX-99.1.txt (Q2 2026 results and cash runway, fetched 2026-09-10)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/DFTX.md'>research/Health Care/DFTX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,58 @@
+{
+  "ticker": "PIPR",
+  "date": "2026-09-10",
+  "sector": "Financials",
+  "name": "PIPER SANDLER COMPANIES",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 76.95999908447266,
+  "market_implied_growth": null,
+  "cohort_pct": 27.1,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my refusal is that a 5.71x price to tangible book on a business whose earnings just doubled off a cyclical trough could genuinely be expensive, and that by declining to model it I am letting Piper Sandler off a charge that might stick. Advisory revenue is among the most cyclical income in finance; first-half net revenues up 29% and a pre-tax margin up 800bp in a year are the signature of a peak, not a base, and paying any multiple on peak advisory earnings has historically been a way to lose money. If the right answer is that the shares are expensive, then no_model records nothing and the screen's -65.5% was directionally right for the wrong reason.",
+    "what_would_prove_it": "An earnings-based valuation: Piper Sandler's price to a mid-cycle earnings estimate, against the range at which independent advisory firms have historically traded, plus the advisory backlog disclosure and announced-but-unclosed transaction volumes. None of that is price to tangible book, which is the point.",
+    "already_visible": "The cyclicality is visible and real \u2014 the pre-tax margin path of 12.3% to 20.3% in four quarters is exactly what a trough-to-peak advisory cycle looks like, and the `unstable_rotce` range of 12.8% to 29.5% is the same fact seen through the balance sheet. What is NOT visible is any way to convert that into a defensible fair value inside this engine, because the only model it offers for a Financials-sector name is justified price to tangible book. I would rather record that limitation than dress a guess in it.",
+    "unresolved": "Whether Piper Sandler is cheap, fair or expensive on mid-cycle earnings. I genuinely do not know, and the tools available to me this session could not tell me: the engine offers only the book model for this name, and web search and WebFetch were both unavailable so I could not obtain peer earnings multiples or an independent view of the advisory backlog."
+  },
+  "what_changed": "Q2 2026 was reported 2026-07-30 and the 2026-06-30 10-Q filed 2026-08-05. Net revenues $495.5M, +25% year over year and +4% sequentially; first-half $970M, +29%, with adjusted net revenues of $961M, +22%. Advisory services grew 25% with, in management's description, robust contributions from financing and equity brokerage. Compensation ratio 62.3%, improving from 62.4% in Q1 and 65.1% a year earlier. Pre-tax margin 20.3%, from 18.5% in Q1 and 12.3% a year earlier \u2014 the margin has nearly doubled in four quarters. There is no company-specific news in the store for the last 90 days and no 8-K carrying items 1.01, 2.01, 3.02, 3.01 or 5.01, so I found no transaction, financing or control event that would invalidate the balance sheet.",
+  "consensus_case": "Piper Sandler is an investment bank \u2014 advisory, financing and equity brokerage \u2014 in a strong upcycle. Q2 2026 net revenues were $495.5M, up 25% year over year; first-half net revenues were $970M, up 29%, driven by 25% growth in advisory services. The compensation ratio improved to 62.3% from 65.1% and the pre-tax margin to 20.3% from 12.3%. At $76.96 the market caps it at $5.4B. The engine reports the shares at 5.71x tangible book against a justified 1.97x and calls it 65.5% overvalued. That number is not a view about Piper Sandler; it is the output of applying a bank model to a business that is not a bank.",
+  "base_case_rationale": "I decline to supply a sustainable ROTCE, because the model that consumes it is the wrong model for this company and supplying a number would launder a category error into a fair value. `justified_pb` prices a company as (ROTCE - g) / (CoE - g) times tangible book. That is the right frame for a bank, where tangible common equity is the binding constraint on how much business can be written and the return on it is therefore the return on the franchise. Piper Sandler is an advisory firm. Its productive asset is a roster of bankers, which is expensed through a 62% compensation ratio and carries no balance-sheet value at all; its tangible book of $13.47 a share is a working-capital balance, not a capital base that constrains revenue. The flag `goodwill_and_intangibles_30%_of_book` is the model fighting itself: those intangibles ARE the acquired advisory franchises that generate the fees, and stripping them to reach 'tangible' book removes exactly the productive asset before dividing by it. An asset-light fee business with a high return on almost no tangible capital SHOULD trade at a large multiple of tangible book \u2014 that is what asset-light means, not what expensive means. No choice of ROTCE rescues this: even at g = 8%, a hair below the 11.9% cost of equity where the Gordon form blows up, the justified multiple reaches only 3.49x against an actual 5.71x. The second flag compounds it. `unstable_rotce_12.8%_to_29.5%` fires because the three-year average spans the 2025 trough, when the pre-tax margin was 12.3%; the quarterly path is 12.3% to 18.5% to 20.3%, improving monotonically, so the 21.6% average describes a company that no longer exists \u2014 the VLY lesson, running through an advisory cycle instead of a credit cycle.",
+  "key_risks": [
+    "The -65.5% gap is a category error, not a valuation, and it should be disregarded entirely: justified price to tangible book prices a capital constraint that does not bind an advisory firm",
+    "THIS IS NOT A PER-NAME DEFECT. Measured across the 361 book-method Financials priced in today's screen, the median gap by actual price-to-tangible-book bucket runs -28.9% (n=152, P/TBV <= 1.5), -30.4% (n=145, 1.5-2.5), -39.3% (n=27, 2.5-4.0) and -92.3% (n=37, above 4.0) \u2014 monotonic, and driven by the arithmetic of the model rather than by the businesses",
+    "The 37 worst-affected names are not banks at all: FCFS (pawn, P/TBV 444x, gap -68%), PJT Partners (advisory, 40x, -53%), STC (title insurance, 46x, -87%), and a cluster of payments and fintech names \u2014 MQ, FLYW, DAVE, OPFI, SEZL, PAYS, ROOT \u2014 several of which produce NEGATIVE justified multiples and gaps below -100% (BETR -490%, CD -108%, MQ -107%, FLYW -101%), meaning the model says the equity is worth less than nothing",
+    "Like the fixed 2% terminal growth bias recorded for ENVA, this manufactures false SELLS rather than false buys, which is why it has gone unnoticed \u2014 nobody chases a name the screen calls rich",
+    "It also contaminates every other Financials name, because those 37 gaps sit inside the cohort distribution used for the percentile rank: PIPR's '27th percentile of 339' is measured against a distribution containing a -490% observation",
+    "The 'sustainable' ROTCE of 21.6% is a three-year average spanning the 2025 advisory trough, while the quarterly pre-tax margin path runs 12.3% to 18.5% to 20.3% \u2014 the average describes a company that no longer exists",
+    "Advisory revenue is deeply cyclical and the first half grew 29% off a depressed base; whether the current run rate is mid-cycle or peak is the real question and this engine cannot ask it"
+  ],
+  "watch_for": [
+    "Whether the compensation ratio holds near 62% or reverts toward 65% as revenue growth slows \u2014 the cleanest single read on whether the margin expansion is operating leverage or mix",
+    "Advisory revenue growth against the +25% first-half rate, and the announced-transaction backlog",
+    "An engine change assigning method by business model rather than by GICS sector for the Financials bucket, or at minimum a gate that refuses the book model above roughly 4x actual price to tangible book"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000029/pipr-20260730.htm",
+    "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000032/pipr-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1230245/000123024526000013/pipr-20251231.htm",
+    "data/adhoc/PIPR/2026-07-30-EX-99.txt (Q2 2026 earnings press release, fetched 2026-09-10)",
+    "data/screen.json (2026-09-10 screen; book-method cohort statistics computed directly)"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_30%_of_book",
+    "unstable_rotce_12.8%_to_29.5%"
+  ]
+}

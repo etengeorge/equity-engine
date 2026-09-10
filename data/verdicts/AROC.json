@@ -1,0 +1,192 @@
+{
+  "ticker": "AROC",
+  "date": "2026-09-10",
+  "sector": "Energy",
+  "name": "ARCHROCK",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.0,
+  "bear_growth": -0.03,
+  "bull_growth": 0.03,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 32.959999084472656,
+  "market_implied_growth": 0.3420332332717132,
+  "cohort_pct": 12.5,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.0,
+    "market_implied_growth": 0.3420332332717132,
+    "growth_delta": -0.3420332332717132,
+    "fair_value": 34.64396648398975,
+    "price": 32.959999084472656,
+    "gap": 0.05109124533654508,
+    "fair_value_band": {
+      "low": 28.43828886682841,
+      "point": 34.64396648398975,
+      "high": 43.03911842423363
+    },
+    "fcff_base_used": 600000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08660537393200898,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 600000000,
+      "price": 32.959999084472656,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.06660537393200898,
+              "fair_value": 46.19513671129583,
+              "gap": 0.40155151682204404
+            },
+            {
+              "wacc": 0.07660537393200899,
+              "fair_value": 35.88098650756977,
+              "gap": 0.08862219369639446
+            },
+            {
+              "wacc": 0.08660537393200898,
+              "fair_value": 28.657582487239424,
+              "gap": -0.13053448776520404
+            },
+            {
+              "wacc": 0.09660537393200898,
+              "fair_value": 23.314791665369132,
+              "gap": -0.29263372836825563
+            },
+            {
+              "wacc": 0.10660537393200899,
+              "fair_value": 19.201386394455316,
+              "gap": -0.41743364903486835
+            }
+          ],
+          "fair_value_at_point_wacc": 28.657582487239424,
+          "gap_at_point_wacc": -0.13053448776520404
+        },
+        {
+          "case": "base",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.06660537393200898,
+              "fair_value": 55.032927854306045,
+              "gap": 0.6696883914730407
+            },
+            {
+              "wacc": 0.07660537393200899,
+              "fair_value": 43.03911842423363,
+              "gap": 0.3057985321519383
+            },
+            {
+              "wacc": 0.08660537393200898,
+              "fair_value": 34.64396648398975,
+              "gap": 0.05109124533654508
+            },
+            {
+              "wacc": 0.09660537393200898,
+              "fair_value": 28.43828886682841,
+              "gap": -0.13718781381199752
+            },
+            {
+              "wacc": 0.10660537393200899,
+              "fair_value": 23.663749222629516,
+              "gap": -0.2820464235456418
+            }
+          ],
+          "fair_value_at_point_wacc": 34.64396648398975,
+          "gap_at_point_wacc": 0.05109124533654508
+        },
+        {
+          "case": "bull",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.06660537393200898,
+              "fair_value": 64.94154627194308,
+              "gap": 0.970313958611025
+            },
+            {
+              "wacc": 0.07660537393200899,
+              "fair_value": 51.055209732775424,
+              "gap": 0.5490051926860446
+            },
+            {
+              "wacc": 0.08660537393200898,
+              "fair_value": 41.340144837266756,
+              "gap": 0.2542520019893435
+            },
+            {
+              "wacc": 0.09660537393200898,
+              "fair_value": 34.16274602261284,
+              "gap": 0.036491109573689284
+            },
+            {
+              "wacc": 0.10660537393200899,
+              "fair_value": 28.64391629255687,
+              "gap": -0.1309491174697598
+            }
+          ],
+          "fair_value_at_point_wacc": 41.340144837266756,
+          "gap_at_point_wacc": 0.2542520019893435
+        }
+      ],
+      "summary": {
+        "bear": -0.13053448776520404,
+        "base": 0.05109124533654508,
+        "bull": 0.2542520019893435
+      },
+      "downside": -0.41743364903486835,
+      "upside": 0.970313958611025
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "My correction may go too far in the other direction. Maintenance capital expenditure of $125-135M is a management-defined non-GAAP number and it is less than HALF of $286M of depreciation and amortisation on a fleet of rotating equipment that genuinely wears out. If true economic sustaining capex is nearer D&A, the base falls from about $600M to about $435M, the market's implied growth rises from -1.3% to +6.7%, and Archrock stops looking fair and starts looking demanding \u2014 because a company whose adjusted EBITDA was FLAT year over year has to find that 6.7% somewhere. The Q2 print is the bear's best evidence: flat EBITDA in a market management calls 'structurally tight', while spending $250-275M a year.",
+    "what_would_prove_it": "Maintenance capital expenditure as a share of depreciation over several years, and whether the compression fleet's average age rises. More directly: 2027 adjusted EBITDA against 2026's $865-885M, which is the return on the growth capital already spent. If $250-275M a year buys no EBITDA growth, the growth programme is not earning its cost of capital and the sustaining base with zero growth is the generous reading, not the conservative one.",
+    "already_visible": "Yes, and it is the reason I underwrite zero rather than a positive number. Q2 2026 adjusted EBITDA of $212.6M against $212.7M is flat despite the NGCS acquisition and two years of heavy growth capital, and the full-year top end was cut by $30M. That is not what a compounding growth programme looks like in-period. It does not settle the question \u2014 compression revenue arrives on multi-year contracts with a lag from the capital \u2014 but it means the burden of proof sits with the bull.",
+    "unresolved": "I could not reconcile the engine's $150.9M base to the 10-Q cash flow statement line by line, so I know the base is depressed by growth capex but not precisely by how much of it versus working capital and cash interest. I also could not obtain any independent view of contract renewal pricing or the order book beyond management's own characterisation, and there was no company-specific news in the store for 90 days to corroborate it."
+  },
+  "what_changed": "Nothing that invalidates the model, but the Q2 release (2026-08-05) supplies the numbers that dismantle the engine's reading. Adjusted EBITDA flat year over year at $212.6M; full-year 2026 guidance TIGHTENED to $865-885M from $865-915M; growth capital expenditures reaffirmed at $250-275M and maintenance capital expenditures guided at $125-135M separately; multi-year growth capex guidance of $1.4-1.6B introduced for 2027-2030. Quarterly depreciation and amortisation is $71.5M, about $286M annualised. The NGCS acquisition closed in Q2 2025 for $296.6M of cash net of cash acquired \u2014 an acquisition INSIDE the three-year cash-flow window, which is part of why the FCF series is as lumpy as it is. The 6.250% senior notes due 2028 were redeemed in full on 2026-04-01. No company-specific news is in the store for the last 90 days, which lowers my confidence that nothing else happened rather than confirming it; the sector feed is all oil-price and OPEC+ macro, with Brent above $100.",
+  "consensus_case": "Archrock is the largest US contract natural-gas compression owner, renting horsepower to producers and midstream operators on multi-year contracts. At $32.96 it carries a $5.8B market capitalisation and roughly $8.1B of enterprise value against guided 2026 adjusted EBITDA of $865-885M \u2014 about 9.3x. The bull case is a structurally tight compression market, high utilisation, a healthy order book and durable natural-gas demand; the price already embeds it. The case for the price rather than above it: adjusted EBITDA in Q2 2026 was $212.6M against $212.7M a year earlier, essentially FLAT, and the company tightened full-year guidance by cutting the top end from $915M to $885M on make-ready costs, lube oil, weaker aftermarket demand and higher incentive compensation. Archrock has committed to $250-275M of growth capital this year and $1.4-1.6B cumulatively across 2027-2030, so this is a capital-hungry business whose current earnings are flat while it spends; a 9.3x multiple is a normal, not a generous, price for that.",
+  "base_case_rationale": "The engine's $150.9M FCFF base is CFO less TOTAL capital expenditure, and total capex here is $375-410M of which only $125-135M is maintenance. So the base charges Archrock the full cost of expanding its fleet and then the reverse DCF applies a growth rate to what is left \u2014 the same dollar counted twice, once as a cost and once as the growth it buys. This is the exact mirror of the CTOS, ALTG and WLFC rental-capex bug: there growth capex was MISSING from capex and manufactured false cheapness; here it is fully captured and misread as sustaining, manufacturing false richness. Corrected, the base is the cash the EXISTING fleet throws off: EBITDA of about $875M less maintenance capex of $130M, taxed \u2014 roughly $600M of sustaining FCFF, four times the engine's number. The consistent pairing for that base is ZERO growth, because I have removed the investment that would produce growth. On $600M and 0% the market implies -1.3%, and the fair value lands at about $34.50 against a $32.96 price. Two independent methods therefore agree that Archrock is close to fairly valued: a sustaining-cash-flow DCF at roughly no growth, and a 9.3x EV/EBITDA multiple that sits squarely in the range where contract compression peers trade.",
+  "key_risks": [
+    "The -81.6% gap, the +34.2% implied growth and the 12th-percentile Energy cohort rank are ALL artifacts of growth capital expenditure being netted out of the FCFF base and then implicitly re-added as required growth; the engine's fair value of $6.05 prices Archrock's entire equity at under 1x EBITDA and should be disregarded",
+    "The correction is not free: it depends on management's maintenance capex definition of $125-135M against $286M of D&A, and at a D&A-based sustaining capex the market's implied growth rises to +6.7% against flat current EBITDA",
+    "Q2 2026 adjusted EBITDA was flat year over year and full-year guidance was tightened by cutting the top end $30M on make-ready costs, lube oil and weak aftermarket demand",
+    "The NGCS acquisition ($296.6M cash, Q2 2025) sits inside the three-year cash-flow window, so the FCF series of $11.6M / $70.6M / $119.6M compares different companies and the peak-cycle flag reads off that discontinuity",
+    "$1.4-1.6B of growth capital committed for 2027-2030 against a $5.8B equity: the thesis on this name is really a thesis about the return on that capital, which is unobservable today",
+    "No company-specific news in the store for 90 days, so my read on contract pricing rests entirely on management's own characterisation"
+  ],
+  "watch_for": [
+    "2027 adjusted EBITDA guidance against 2026's $865-885M \u2014 the first clean read on the return earned by the 2025-26 growth capital",
+    "Maintenance capital expenditure trending toward the $286M depreciation run rate, which would confirm the base is nearer $435M than $600M",
+    "Fleet utilisation and the order book, and whether the make-ready cost pressure cited in Q2 persists into the second half",
+    "Any further tightening or cut to the growth capex plan, which would signal management's own read on the cycle"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000025/aroc-20260804x8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000028/aroc-20260630x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/1389050/000138905026000019/aroc-20260331x10q.htm",
+    "data/adhoc/AROC/2026-08-05-EX-99.1.txt (Q2 2026 earnings release with 2026 guidance table, fetched 2026-09-10)"
+  ],
+  "flags": [
+    "lumpy_fcff_spread_1.6x_of_mean",
+    "possible_peak_cycle_base_newest_fcf_10.4x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_23%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

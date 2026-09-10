@@ -1,69 +1,194 @@
 {
   "ticker": "BBW",
-  "date": "2026-08-31",
+  "date": "2026-09-10",
   "sector": "Consumer Discretionary",
   "name": "BUILD A BEAR WORKSHOP",
   "method": "fcff",
   "verdict": "no_edge",
-  "conviction": "low",
+  "conviction": "medium",
   "final_growth": -0.08,
+  "bear_growth": -0.14,
+  "bull_growth": -0.02,
+  "rotce_override": null,
   "horizon_months": 24,
-  "price_at_verdict": 30.110000610351562,
-  "market_implied_growth": -0.11772089766366362,
-  "cohort_pct": 94.7,
+  "price_at_verdict": 28.200000762939453,
+  "market_implied_growth": -0.11050320728035051,
+  "cohort_pct": 94.6,
   "priced": {
     "ok": true,
+    "method": "fcff",
     "analyst_growth": -0.08,
-    "market_implied_growth": -0.11772089766366362,
-    "growth_delta": 0.03772089766366361,
-    "fair_value": 35.61041664950469,
-    "price": 30.110000610351562,
-    "gap": 0.18267738052659266,
+    "market_implied_growth": -0.11050320728035051,
+    "growth_delta": 0.03050320728035051,
+    "fair_value": 28.41522516636104,
+    "price": 28.200000762939453,
+    "gap": 0.007632070836836036,
     "fair_value_band": {
-      "low": 30.92503963594769,
-      "point": 35.61041664950469,
-      "high": 42.25973235024583
+      "low": 25.105340287313332,
+      "point": 28.41522516636104,
+      "high": 32.91756448101168
     },
-    "fcff_base_used": 37761690.0,
-    "base_overridden": false,
+    "fcff_base_used": 33000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0850701598238523,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 33000000,
+      "price": 28.200000762939453,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.14,
+          "cells": [
+            {
+              "wacc": 0.0650701598238523,
+              "fair_value": 29.79032769650303,
+              "gap": 0.0563945705864517
+            },
+            {
+              "wacc": 0.0750701598238523,
+              "fair_value": 25.1414679961664,
+              "gap": -0.10845860581651423
+            },
+            {
+              "wacc": 0.0850701598238523,
+              "fair_value": 21.910409964756095,
+              "gap": -0.22303512865322905
+            },
+            {
+              "wacc": 0.0950701598238523,
+              "fair_value": 19.531001827588558,
+              "gap": -0.3074113014473293
+            },
+            {
+              "wacc": 0.1050701598238523,
+              "fair_value": 17.703274817926573,
+              "gap": -0.37222431422086044
+            }
+          ],
+          "fair_value_at_point_wacc": 21.910409964756095,
+          "gap_at_point_wacc": -0.22303512865322905
+        },
+        {
+          "case": "base",
+          "growth": -0.08,
+          "cells": [
+            {
+              "wacc": 0.0650701598238523,
+              "fair_value": 39.40552096889067,
+              "gap": 0.3973588618010804
+            },
+            {
+              "wacc": 0.0750701598238523,
+              "fair_value": 32.91756448101168,
+              "gap": 0.1672894890227119
+            },
+            {
+              "wacc": 0.0850701598238523,
+              "fair_value": 28.41522516636104,
+              "gap": 0.007632070836836036
+            },
+            {
+              "wacc": 0.0950701598238523,
+              "fair_value": 25.105340287313332,
+              "gap": -0.10973973020926775
+            },
+            {
+              "wacc": 0.1050701598238523,
+              "fair_value": 22.567675344835525,
+              "gap": -0.19972784630225793
+            }
+          ],
+          "fair_value_at_point_wacc": 28.41522516636104,
+          "gap_at_point_wacc": 0.007632070836836036
+        },
+        {
+          "case": "bull",
+          "growth": -0.02,
+          "cells": [
+            {
+              "wacc": 0.0650701598238523,
+              "fair_value": 51.705448250674735,
+              "gap": 0.8335264841065617
+            },
+            {
+              "wacc": 0.0750701598238523,
+              "fair_value": 42.83454769657183,
+              "gap": 0.5189555509822947
+            },
+            {
+              "wacc": 0.0850701598238523,
+              "fair_value": 36.68605202454884,
+              "gap": 0.3009237954617998
+            },
+            {
+              "wacc": 0.0950701598238523,
+              "fair_value": 32.17218557952806,
+              "gap": 0.14085761379868011
+            },
+            {
+              "wacc": 0.1050701598238523,
+              "fair_value": 28.71663652518143,
+              "gap": 0.018320416605127843
+            }
+          ],
+          "fair_value_at_point_wacc": 36.68605202454884,
+          "gap_at_point_wacc": 0.3009237954617998
+        }
+      ],
+      "summary": {
+        "bear": -0.22303512865322905,
+        "base": 0.007632070836836036,
+        "bull": 0.3009237954617998
+      },
+      "downside": -0.37222431422086044,
+      "upside": 0.8335264841065617
+    },
     "fundamentals_source": "store",
     "flags": []
   },
   "parse_notes": [],
   "devils_advocate": {
-    "strongest_counter": "The counter, which is now the LONG case, is that I am extrapolating one seasonally small quarter into a five-year decay rate. Q2 is Build-A-Bear's weakest quarter; the holiday quarter carries the year's margin, and a 340 basis point gross-margin decline driven partly by occupancy deleverage reverses mechanically if revenue stabilises, because the rent does not go up. The company still guides to $60-68M of pre-tax income on $500-525M \u2014 an 11.8-13.0% pre-tax margin \u2014 which is four to five times the fiscal 2019 structure and is being delivered while the top line falls, which is evidence of resilience rather than collapse. The stock is at $30.11 with a 10.8% FCFF yield, roughly 9x enterprise value to free cash flow, and management has been buying back stock steadily. If free cash flow merely holds at $38M, the equity is worth far more than $30. At -8% I am pricing a permanent, compounding reversal from a single quarter's promotional intensity.",
-    "what_would_prove_it": "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted and against the prior year. If gross margin recovers toward 57-58% in the holiday quarter and the full year lands inside the $60-68M pre-tax guide, the Q2 compression was seasonal and promotional rather than structural, and -8% is too harsh. If gross margin stays down 300+ basis points through the holiday quarter and the pre-tax guide is cut a third time, the reversion is confirmed and even -8% will prove generous.",
-    "already_visible": "The evidence is now genuinely split, which is why I moved partway rather than all the way. Against me: the full-year pre-tax guide of $60-68M still implies a margin structure nothing like 2019, and there is no evidence of balance-sheet stress. For me: two guidance cuts in one fiscal year, a 340 basis point gross-margin decline with a named cause, pre-tax income down 24.1% on a 7.2% revenue decline (2.4x operating deleverage), and a Chief Growth Officer terminated the day before the cut \u2014 which is a board that has concluded the growth plan is not working, not a board managing a seasonal blip.",
-    "unresolved": "The decomposition I could not do this morning and still cannot do: how much of the post-2020 margin step is structural mix shift \u2014 franchise and partner-operated royalties, 37 countries versus 19, less direct mall exposure \u2014 versus a pricing and collectibles cycle. That needs the segment detail in the 10-K, and SEC egress is blocked from this runtime. It is the whole question, and my -8% is a judgement between two poles rather than an answer to it. I also could not obtain prior-year Q2 gross margin in absolute terms, only the 340 basis point change management reported."
+    "strongest_counter": "The bull case is stronger than it was a session ago and I have just found the evidence for it myself. If sales per square foot are RISING while revenue falls, the store base is not deteriorating \u2014 the company is closing or converting weaker locations and the survivors are more productive, which is exactly what a structurally improved retailer looks like mid-transition. Commercial revenue compounding 23.5% a year toward 7.3% of the mix is capital-light royalty-like income that carries none of the occupancy risk driving the gross-margin decline. On that reading -8% for five years is far too harsh: it applies the operating deleverage of the retail half to the whole company, including the half that is growing 23% and has no leases. At -2% the fair value is well above the price.",
+    "what_would_prove_it": "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted \u2014 the same test the prior pass named \u2014 and, additionally now, the fiscal 2026 revenue mix: whether commercial plus international franchising continues to climb past 8.3% while total revenue falls. Rising mix share during a down year is the strongest possible version of the structural claim; flat or falling mix share would show the capital-light channel is cyclical too.",
+    "already_visible": "The mix evidence is visible through fiscal 2025 and it supports the bull; the fiscal 2026 evidence is not, because the 10-K predates the deterioration and the Q2 release does not break out the mix. So the bull's best evidence is a year stale and the bear's is current. That asymmetry is why I did not move the verdict. The tariff-refund adjustment also removes some of what the prior pass treated as counter-evidence: the $60-68M guide that 'still implies a margin structure nothing like 2019' is $53-61M once the windfall comes out.",
+    "unresolved": "I still cannot decompose the post-2020 margin step into structural mix versus pricing cycle in the way the prior pass wanted. The 10-K gives revenue mix and sales per square foot but does not report profitability by channel, so I know commercial is growing and I do NOT know its margin. That was the actual question, and the 10-K does not answer it \u2014 which corrects the prior pass's assumption that the segment detail would settle it."
   },
-  "what_changed": "Two items that were open this morning are now closed, and both go against the long case. (1) The item 5.02 buried in the 2026-08-27 8-K alongside the guidance cut is the termination of David Henderson as Chief Growth Officer, effective 2026-08-26 \u2014 an officer dismissed the day before the second guidance cut of the fiscal year, with a separation and release agreement. (2) The Q2 fiscal 2026 margin detail: revenue $115.3M, down 7.2%; pre-tax income $11.6M against $15.3M in the prior-year quarter, down 24.1%; GROSS MARGIN 54.2%, down 340 basis points year over year, attributed to occupancy cost deleverage and increased promotional activity. Full-year revenue guidance cut to $500-525M from $530-550M. The share price is $30.11 against $29.85 at this morning's screen.",
-  "consensus_case": "The market prices -11.8% annual FCFF decay for five years, and after today's research I think that is arithmetic rather than pessimism. Build-A-Bear's current earnings power is unprecedented in its own history: in fiscal 2018 the company lost $18.5M pre-tax, in fiscal 2019 it made $1.6M of pre-tax income on $338.5M of revenue, and it now guides to $60-68M of pre-tax income on $500-525M. That step happened during the 2021-2024 collectibles-and-pricing boom and has held for three flat years at roughly $38M of free cash flow. The bear case is simply that the step was a cycle. What the market is watching is that the cycle has turned: fiscal 2026 revenue guidance has now been cut twice in one year, to $500-525M from $530-550M, on 'summer trend products' underperforming \u2014 a product-cycle explanation, which is what reversion looks like at the start. Reverting $38M of FCFF toward the low $20Ms over five years is exactly what -11.8% a year produces, and that is a defensible read of a discretionary mall retailer whose product cycle has visibly rolled over.",
-  "base_case_rationale": "I underwrite roughly -8% five-year FCFF growth, cut from the -4% I carried this morning, and the cut is the whole point of today's pass. This morning's write-up asserted that pre-tax margin was 'still roughly 12.5%, nowhere near the pre-2020 structure' and concluded that 'the first crack is in the top line, not yet in the economics.' That assertion is wrong, and I found it wrong by looking for the evidence my own devil's advocate had nominated. Q2 pre-tax margin was 10.1% ($11.6M on $115.3M) against 12.3% ($15.3M on $124.2M) a year earlier, and gross margin fell 340 basis points to 54.2% on occupancy deleverage and promotional activity. Occupancy deleverage is the mechanism that turns a mid-single-digit revenue decline into a double-digit profit decline in mall retail: the rent is fixed, so every point of lost comparable revenue drops through. Promotional activity is the mechanism that says the pricing power which created the 2021-2024 step is being given back. Those are not top-line cracks, they are the economics, and they are visible now. I still do not think the business reverts all the way to its 2019 structure \u2014 the international, franchise and partner-operated mix is genuinely larger and genuinely capital-light, and that is real \u2014 so I do not go all the way to the market's -11.8%. But -4% was a number formed before I had the margin data, and holding it today would be theatre.",
+  "what_changed": "This is a second pass on a name last researched 2026-08-31, when the verdict moved cheap to no_edge within a single day. The price has fallen from $30.11 to $28.20. Two genuinely new things. FIRST, I obtained the fiscal 2025 10-K, which the 2026-08-31 pass named as the document it needed and could not open \u2014 SEC egress was blocked then and is blocked now, but adhoc-fetch reaches it. It answers the open question in the bull's favour: the capital-light share of revenue has grown steadily, with net retail sales falling from 93.9% to 92.8% to 91.7% of revenue while commercial revenue rose from 5.2% to 6.3% to 7.3% (growing 23.5% in each of the last two years, $25.4M to $31.4M to $38.8M) and international franchising held near 1.0%. Net retail sales per square foot in North America ROSE to $518 from $492 and $495, and in the UK to \u00a3735 from \u00a3729 and \u00a3629. That is a more productive store base plus a growing royalty-and-partner channel \u2014 evidence the post-2020 step is at least partly structural rather than purely a collectibles cycle. SECOND, and cutting the other way, the guidance the prior pass leaned on is inflated by an IEEPA tariff refund: the $60-68M full-year pre-tax outlook 'reflects an approximately $13 million IEEPA tariff refund', and EXCLUDING the ~$7M relating to prior-year costs the company guides ADJUSTED pre-tax income of $53-61M. First-half adjusted pre-tax income ex-refund was $28.5M against $34.9M, down 18%, and adjusted EBITDA ex-refund was $35.9M against $41.9M. The 2026-09-09 8-K is a routine $0.23 quarterly dividend declaration.",
+  "consensus_case": "Build-A-Bear is a 650-location experiential retailer trading at $28.20, down 60% in a year, with a $353.6M market capitalisation and net cash. The market implies FCFF declines about 11% a year for five years. The case for that: fiscal 2026 is the year the five-year record run ends. Q2 revenue fell 7.2% to $115.3M, pre-tax income fell 24% to $11.6M, gross margin fell 340bp on occupancy cost deleverage and increased promotional activity, and the company has now cut its full-year guidance twice, to $500-525M of revenue against $529.8M delivered in fiscal 2025 \u2014 an outright decline. Occupancy deleverage in a mall-based fixed-cost format is a compounding mechanism, not a one-off, and the post-2020 margin structure that the bull case rests on has never been tested by a down cycle.",
+  "base_case_rationale": "I keep the -8% the prior pass reached, but the number now rests on better evidence and on a corrected base. The engine's $37.8M FCFF base is the mean of fiscal 2023-25 and contains no tariff refunds, so it needs no adjustment for that; what it does not know is that fiscal 2026 will land materially below it. Adjusted pre-tax income of $53-61M against roughly $67M in fiscal 2025 is a ~15% decline, which puts forward FCFF nearer $33M than $37.8M. At a $33M base the market implies -8.2% \u2014 which is, to within two-tenths of a point, exactly the -8% I underwrite. The two sides genuinely balance. Against the business: revenue declining, gross margin down 340bp with a named structural mechanism, two guidance cuts in one year, a Chief Growth Officer terminated the day before the second. For it: the mix shift to commercial and franchising is real and compounding at 23.5% a year, sales per square foot are rising not falling, the balance sheet carries net cash of about $26M with no debt, and the dividend was maintained. -8% prices a business that shrinks meaningfully from here without pricing a return to the pre-2020 margin structure, which the segment data now argues against.",
   "key_risks": [
-    "Post-2020 margins may be a cycle rather than a structure \u2014 the question I could not close this morning and still cannot",
-    "Gross margin fell 340 basis points in Q2 on occupancy deleverage and promotional activity; both are structural mechanisms in mall retail, not one-offs",
-    "Two guidance cuts in one fiscal year, with pre-tax income down 24.1% on a 7.2% revenue decline",
-    "A Chief Growth Officer terminated the day before the second cut",
-    "Tariff exposure on Asian-sourced plush, and the fiscal 2026 Q1 result was flattered by roughly $7M of prior-year tariff refunds",
-    "$16.5M average daily dollar volume on a $377M company"
+    "The +203% baseline gap applies a +15.7% five-year revenue CAGR \u2014 the record-years run \u2014 to a company now guiding revenue DOWN, and should be disregarded",
+    "The fiscal 2026 pre-tax guide of $60-68M includes approximately $13M of IEEPA tariff refunds; adjusted for the ~$7M prior-year portion the company's own guide is $53-61M, and first-half adjusted pre-tax income ex-refund fell 18%",
+    "Gross margin fell 340bp in Q2 on occupancy cost deleverage and promotional activity, both structural mechanisms in mall retail rather than one-offs",
+    "Two guidance cuts in one fiscal year, with pre-tax income down 24% on a 7.2% revenue decline \u2014 3.3x operating deleverage",
+    "The channel-margin decomposition that would settle the structural-versus-cyclical question is not disclosed anywhere, including in the 10-K I obtained specifically to answer it",
+    "At a $33M base the market implies -8.2% and I underwrite -8.0%; the fair value sits on top of the price, so there is no edge in either direction",
+    "$17.6M average daily dollar volume on a $354M company"
   ],
   "watch_for": [
-    "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted \u2014 recovery toward 57-58% hands it back to the long case",
-    "Whether the $60-68M fiscal 2026 pre-tax guide is cut a third time",
-    "Net new unit count and the franchise/partner mix \u2014 the capital-light half of the structural argument",
-    "Who, if anyone, replaces the Chief Growth Officer, and whether the growth plan is restated"
+    "Q3 and Q4 fiscal 2026 gross margin against the 54.2% just posted \u2014 recovery toward 57-58% hands the argument to the bull",
+    "Whether the fiscal 2026 revenue mix shows commercial plus international franchising continuing past 8.3% of revenue while total revenue falls",
+    "Whether the $60-68M pre-tax guide (adjusted $53-61M) is cut a third time",
+    "Fiscal 2027 guidance, which will be the first year lapping the tariff refund with no offset",
+    "Who replaces the terminated Chief Growth Officer and whether the growth plan is restated"
   ],
   "sources": [
-    "https://www.tradingview.com/news/tradingview:b5da4457d6f1e:0-build-a-bear-workshop-terminates-david-henderson-as-chief-growth-officer/",
-    "https://www.benzinga.com/news/26/08/61464564/transcript-build-bear-workshop-q2-2026-earnings-conference-call",
-    "https://www.fool.com/earnings/call-transcripts/2026/08/31/build-a-bear-bbw-q2-2026-earnings-call-transcript/",
-    "https://finance.biggo.com/news/18975347-8b68-4a97-aae8-ad6b10b96adf",
-    "https://finance.yahoo.com/markets/stocks/articles/build-bear-workshop-q2-earnings-150450684.html",
-    "https://www.businesswire.com/news/home/20190313005223/en/Build-A-Bear-Workshop-Reports-Fiscal-Year-2018-Results",
-    "https://www.businesswire.com/news/home/20200311005236/en/Build-A-Bear-Workshop-Inc.-Reports-a-20.1-Million-Improvement-in-GAAP-Pre-Tax-Income-for-the-2019-Fiscal-Year",
-    "data/fundamentals.json (committed EDGAR extract, CIK 1113809, fetched 2026-08-30)"
+    "https://www.sec.gov/Archives/edgar/data/1113809/000143774926012501/bbw20251218c_10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/bbw20260826_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029998/bbw20260904_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1113809/000143774926020239/bbw20260417_10q.htm",
+    "data/adhoc/BBW/2026-08-27-EX-99.1.txt (Q2 FY2026 earnings release, fetched 2026-09-10)",
+    "research/Consumer Discretionary/BBW.md (prior passes, 2026-08-31)"
   ],
   "flags": [
-    "operating_leases_28%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+    "operating_leases_30%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "ticker": "MXL",
+  "date": "2026-09-10",
+  "sector": "Information Technology",
+  "name": "MAXLINEAR",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 71.51000213623047,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against refusing is that unlike RIOT or CRSP, MaxLinear's multiples rows do NOT contradict each other. All three point the same way and hard: EV/sales implies $5.52 to $33.03, EV/gross profit $8.45 to $37.23, price to tangible book $3.64 to $14.87, against a $71.51 price \u2014 a blended midpoint of $12.49 and a gap of -82.5%. Three independent ratios agreeing that a stock is worth a sixth of its price is not obviously noise, and the standing rule that triggers refusal \u2014 rows straddling the price in opposite directions, or a negative row, or a thin cohort \u2014 does not fire cleanly here. A disciplined screener might say the multiples are speaking clearly and MXL is a mania priced on a two-quarter revenue inflection.",
+    "what_would_prove_it": "Q3 and Q4 2026 revenue against the Q2 run rate, and gross margin as the mix shifts to optical: if revenue holds above $170M a quarter and the company crosses into positive EBITDA, the trailing multiples were measuring a trough and the refusal was right. If sequential growth stalls below $150M, the multiples were measuring the business and the -82.5% was a signal.",
+    "already_visible": "Partly, and it is why I refuse rather than call it rich. The trailing period the multiples are computed over demonstrably does NOT describe the current business: revenue went $108.8M to $137.2M to $168.8M across the year being measured, so the denominator of every row is an average of a company roughly 40% smaller than the one trading today. On the Q2 annualised run rate the EV/sales multiple falls from 14.0x toward roughly 9.6x, which is high but no longer absurd, and the direction of travel is against the multiple every quarter. That the three rows agree is not independent confirmation \u2014 they agree BECAUSE they share the same stale denominator, which is one error appearing three times rather than three errors cancelling. What I cannot do is convert 'the multiples are stale' into 'the price is right': at 9.6x forward sales with negative EBITDA and a hyperscaler concentration risk, MXL may well be expensive. I simply cannot produce a defensible number, and calling it rich on inputs I have just argued are unusable would be borrowing the conclusion without the evidence.",
+    "unresolved": "Whether MaxLinear is expensive on 2027-28 earnings \u2014 which is the only frame in which the question can be asked and the one I have no ability to answer here. I also could not size the Silicon Motion arbitration exposure, which is a contingent liability of unknown magnitude sitting against the equity."
+  },
+  "what_changed": "Q2 2026 was reported 2026-07-23. Net revenue $168.8M against $137.2M in Q1 and $108.8M a year earlier \u2014 up 23% sequentially and 55% year over year. Management frames it as 'the start of a multi-year growth phase' with 'an inflection point in, and anticipated step-function or accelerating revenue growth from, our optical data center and infrastructure businesses', and cites production ramps at hyperscale customers across scale-up and scale-out AI platforms. In August the company expanded its AI data-centre portfolio with the RackCommander rack-management line, high-current eFuse power protection and Carmel USB-to-UART console silicon. Sell-side and independent commentary in the store is split on precisely the question that matters \u2014 one piece is headlined that the stock 'trades on multiples measured over a trailing year, while the infrastructure business that would justify them is only now the company's largest.' A material overhang persists: the terminated Silicon Motion merger, with related arbitration and a class action complaint, and the risk of damages, is listed first among the company's own risk factors.",
+  "consensus_case": "MaxLinear is a fabless semiconductor company whose optical data-centre and infrastructure business has just inflected: Q2 2026 net revenue was $168.8M, up 23% SEQUENTIALLY and 55% year over year, on the Keystone PAM4 DSP ramp into 800G applications with a 1.6T pipeline behind it. The stock is up 350.9% in twelve months and 24.2% in the last five days. The case for a $6.5B market capitalisation on a company with negative trailing EBITDA is entirely forward-looking: that the AI build-out has turned a chronically sub-scale connectivity vendor into a supplier of consequence at hyperscale customers, and that a business annualising toward $675M and accelerating deserves to be priced on 2027-28 earnings rather than on the trailing year that contains its trough.",
+  "base_case_rationale": "No growth rate is supplied and no fair value is produced. The engine reports a zero-year FCFF window, no enterprise value and no reverse DCF at any discount rate; its flags `nonpositive_normalized_fcff`, `negative_fcf_year_in_window`, `lumpy_fcff_spread_10.7x_of_mean` and `negative_ebitda_valued_on_revenue_or_gross_profit_only` are all correct. A discounted cash flow needs a cash flow base and there is not one. The more interesting question is whether the multiples table can stand in, and I judge that it cannot \u2014 not because the cohorts are thin (they are not: n=212, 196 and 158) but because every row is measured over a trailing twelve months in which revenue MORE THAN DOUBLED from trough to current quarter. Q2 alone annualises to about $675M against the trailing base the 14.0x EV/sales is computed on. A trailing multiple on a company whose quarterly revenue is compounding 23% sequentially is not a valuation, it is a measurement artifact with a decimal point, and the same objection applies to the 24.6x EV/gross profit and the 53.0x price to tangible book.",
+  "key_risks": [
+    "No fair value is supplied and none should be inferred; the blended multiples midpoint of $12.49 and its -82.5% gap should be disregarded, because all three rows share a trailing denominator drawn from a period in which quarterly revenue rose from $108.8M to $168.8M",
+    "THE REFUSAL IS NOT A JUDGMENT THAT THE STOCK IS CHEAP. On the Q2 annualised run rate EV/sales is still roughly 9.6x with negative trailing EBITDA; MXL may be expensive and I cannot say so with a defensible number",
+    "Growth is concentrated in a small number of hyperscale customers and AI-platform programmes, by the company's own risk disclosure, and MaxLinear's revenue has previously declined sharply",
+    "The terminated Silicon Motion merger carries ongoing arbitration and a class action complaint with potential damages of a size I could not determine",
+    "The stock is up 350.9% over twelve months and 24.2% in the last five days; the reflexivity between an AI narrative and a price this extended is itself a risk",
+    "This is a rotation slot, not a signal: the name was selected at position 107/1956 in the coverage rotation, not because the screen found anything"
+  ],
+  "watch_for": [
+    "Q3 and Q4 2026 revenue against the $168.8M Q2 run rate \u2014 whether sequential growth continues, stalls or reverses is the whole question",
+    "The quarter in which trailing EBITDA turns positive, which is when a cash-flow model becomes possible for this name at all",
+    "Gross margin as the mix shifts toward optical data centre, and whether the 1.6T pipeline converts to design wins",
+    "Resolution or quantification of the Silicon Motion arbitration and class action",
+    "Customer concentration disclosure in the next 10-K"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000051/mxl-20260630.htm",
+    "data/adhoc/MXL/2026-07-23-EX-99.1.txt (Q2 2026 earnings release, fetched 2026-09-10)",
+    "data/adhoc/MXL/2026-01-29-10-K-mxl-20251231.htm.txt (FY2025 10-K, fetched 2026-09-10)"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_2%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_10.7x_of_mean",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}
