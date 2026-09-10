@@ -1,5 +1,47 @@
 [
  {
+  "id": "0284d059-2a26-3b9b-98df-d9a244805ae3",
+  "ts": "2026-09-10T13:27:01+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Thursday",
+  "summary": "Energy stocks were advancing premarket Thursday, with the State Street Energy Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132701107.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "6df5d168-7ebb-304a-84bd-cb2cbdd23d02",
+  "ts": "2026-09-10T13:22:00+00:00",
+  "title": "Stock Market News for Sep 10, 2026",
+  "summary": "Wall Street closed lower on Wednesday, dragged down by inflation concerns.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
+  "ts": "2026-09-10T13:17:56+00:00",
+  "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "8e01af20-5e70-3753-8a74-f0903dd1e8a1",
   "ts": "2026-09-09T19:56:17+00:00",
   "title": "Sector Update: Energy Stocks Gain Late Afternoon",

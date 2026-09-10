@@ -1,5 +1,19 @@
 [
  {
+  "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
+  "ts": "2026-09-10T13:17:56+00:00",
+  "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "4881a043-f0a0-337e-b1f7-04d91da65927",
   "ts": "2026-09-09T13:06:53+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",

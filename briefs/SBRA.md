@@ -1,91 +1,90 @@
-# AROC — ARCHROCK
-*Energy · brief generated 2026-09-10 · selected as **rotation***
+# SBRA — SABRA HEALTH CARE REIT
+*Real Estate · brief generated 2026-09-10 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 104/1956
+- rotation position 112/1956
 
 ## Market
 | | |
 |---|---|
-| price | $32.96 |
-| market cap | $5.8B |
-| 5d / 21d / 63d / 252d | +4.0% / -0.5% / -5.7% / +39.8% |
-| 60d avg daily $ volume | $70.5M |
-| beta (vs IWM) | 0.93 (R²=0.219) |
-| 5d volume vs 60d average | 0.8x |
+| price | $20.79 |
+| market cap | $5.3B |
+| 5d / 21d / 63d / 252d | -0.7% / +2.1% / +11.7% / +15.1% |
+| 60d avg daily $ volume | $58.9M |
+| beta (vs IWM) | 0.3 (R²=0.075) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 71% / debt 29% |
+| WACC weights | equity 67% / debt 33% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$150.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$119.6M', '$70.6M', '$11.6M']
-Enterprise value **$8.1B** · FCFF yield **+1.9%**
+**No defensible free numeric model for this name** (status: not_modelled).
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-| WACC | implied 5y FCFF growth |
-|---|---|
-| 8.7% − 1pt | +29.2% |
-| **8.7% (point)** | **+34.2%** |
-| 8.7% + 1pt | +38.7% |
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=77) | 22.6x | 11.1x / 16.4x / 22.4x | $5.45 / $12.48 / $20.40 |
+| ev_sales (n=91) | 9.9x | 3.2x / 7.5x / 11.3x | $0.45 / $13.40 / $24.78 |
+| p_tbv (n=83) | 2.0x | 1.0x / 1.6x / 2.2x | $10.49 / $16.59 / $22.95 |
 
-> **Stock compensation is 23% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$135.3M** and an implied growth of **+37.3%** instead of +34.2%. Decide which treatment you are underwriting and say so explicitly.
+Blended midpoint **$14.16** vs price $20.79 — gap **-31.9%**.
 
-Naive baseline for comparison: **+11.2%** (5y revenue CAGR +11.2%).
-Gap under that baseline: **-81.6%** (fair value $6.05 vs price $32.96).
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **12th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -99.8%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `lumpy_fcff_spread_1.6x_of_mean`
-- `possible_peak_cycle_base_newest_fcf_10.4x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_23%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-11 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000031/aroc-20260810x8k.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000028/aroc-20260630x10q.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000025/aroc-20260804x8k.htm
-- 2026-06-25 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1389050/000110465926077839/tm2618970d1_8k.htm
-- 2026-05-11 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000022/aroc-20260511x8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000019/aroc-20260331x10q.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000015/aroc-20260505x8k.htm
-- 2026-05-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000012/aroc-20260430x8k.htm
-- 2026-04-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1389050/000110465926038571/tm2610962d1_8k.htm
-- 2026-03-26 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1389050/000110465926034773/tm269845d1_8k.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000028/sbra-20260630.htm
+- 2026-08-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000027/sbra-20260803.htm
+- 2026-07-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000023/sbra-20260721.htm
+- 2026-06-17 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000019/sbra-20260617.htm
+- 2026-05-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000014/sbra-20260528.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000012/sbra-20260331.htm
+- 2026-04-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000011/sbra-20260429.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1492298/000119312526175398/d949650ddef14a.htm
+- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000008/sbra-20251231.htm
+- 2026-02-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000007/sbra-20260212.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1389050/000138905026000025/aroc-20260804xex99d1.htm
-- **2026-06-25** · EX-99.1 · press release — EXHIBIT 99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1389050/000110465926077839/tm2618970d1_ex99-1.htm
+- **2026-08-03** · EX-99.1 · press release — Q2 2026 EARNINGS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000027/sbraex9912026q2.htm
+- **2026-08-03** · EX-99.2 · presentation — Q2 2026 SUPPLEMENTAL INFORMATION *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000027/sbraex9922026q2-final.htm
+- **2026-08-03** · EX-99.3 · press release — Q2 2026 NON-GAAP RECONCILIATIONS *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000027/sbraex9932026q2.htm
+- **2026-08-03** · EX-99.4 · presentation — INVESTOR PRESENTATION *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000027/sbraex9942026q2-final.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000023/businessupdatejuly2026.htm
+- **2026-05-28** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1492298/000149229826000014/investorpres1q26-update.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Energy
-*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Real Estate
+*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-09** · Sector Update: Energy Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195617705.html
-- **2026-09-09** · Sector Update: Energy — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-193200753.html
-- **2026-09-09** · ExxonMobil Is Up 40% in 2026: Can Rising Oil Prices and Strong Earnings Boost XOM Stock to $200? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/exxonmobil-is-up-40-in-2026-can-rising-oil-prices-and-strong-earnings-boost-xom-stock-to-200/
-- **2026-09-09** · Norwegian Slides 3% as Rising Oil Undercuts Fuel-Cost Relief Hopes; Carnival and Royal Caribbean Trail — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/norwegian-slides-3-as-rising-oil-undercuts-fuel-cost-relief-hopes-carnival-and-royal-caribbean-trail/
-- **2026-09-09** · Sector Update: Energy Stocks Gain Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-wednesday-174508614.html
-- **2026-09-09** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html
-- **2026-09-09** · OPEC+ Keeps October Output Same: Oil ETFs in Focus — *Zacks* — https://finance.yahoo.com/energy/articles/opec-keeps-october-output-same-140000595.html
-- **2026-09-09** · Sector Update: Energy Stocks Advance Premarket Wednesday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132727839.html
-- **2026-09-09** · XLE, XLF & XLV Forecast: Energy Eyes Breakout as XLV Slips — *FX Empire* — https://finance.yahoo.com/markets/stocks/articles/xle-xlf-xlv-forecast-energy-130943948.html
-- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
+- **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
+- **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
+- **2026-09-09** · Crown Castle Stock: Is CCI Underperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4515458/crown-castle-stock-is-cci-underperforming-the-real-estate-sector
+- **2026-09-09** · How Is Digital Realty Trust's Stock Performance Compared to Other Real Estate Stocks — *Barchart* — https://www.barchart.com/story/news/4511540/how-is-digital-realty-trust-s-stock-performance-compared-to-other-real-estate-stocks
+- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
+- **2026-09-08** · Sector Update: Financial Stocks Retreat Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-tuesday-174741051.html
+- **2026-09-08** · Public Storage Stock: Is PSA Underperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4490999/public-storage-stock-is-psa-underperforming-the-real-estate-sector
+- **2026-09-04** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html
+- **2026-09-04** · Sector Update: Financial Stocks Retreat Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html
+- **2026-09-04** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-171623569.html
 
 ## Market and macro context
-- **2026-09-10** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due. — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo
-- **2026-09-10** · Oil, Bond Yields Cap Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/oil-bond-yields-cap-wall-111027441.html
-- **2026-09-10** · JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’ — *Investing.com* — https://finance.yahoo.com/technology/ai/articles/jpmorgan-upgrades-meta-ai-models-110557365.html
-- **2026-09-10** · Nvidia Is Suddenly Outpacing the S&P 500. Expect That to Continue. — *Motley Fool* — https://www.fool.com/investing/2026/09/10/nvidia-is-suddenly-outpacing-the-sp-500-expect-tha/
+- **2026-09-10** · The Odds of a September Rate Hike Just Jumped. Should You Still Buy the S&P 500? — *Motley Fool* — https://www.fool.com/investing/2026/09/10/odds-of-september-rate-hike-jumped-buy-sp-500/
+- **2026-09-10** · 3 Reasons to Sell SJM and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-sjm-1-141704686.html
+- **2026-09-10** · Kewaunee Q1 Earnings Fall Y/Y Despite International Strength — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kewaunee-q1-earnings-fall-y-141500129.html
+- **2026-09-10** · Stock Market Today: Nasdaq On Losing Streak As Oil Surges; Apple Advances On iPhone Launch (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-nvidia-chipmaker-tsmc/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
@@ -98,16 +97,11 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Energy
-- LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
-- MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
-- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
-- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
-- RIG: no_model · price $5.76
-- SM: no_edge · price $37.76 · fair value $51.19 · gap +35.6%
-- SND: no_edge · price $5.35
-- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
-- UEC: no_model · price $11.54
+## Prior verdicts elsewhere in Real Estate
+- COMP: no_model · price $10.56
+- CTRE: no_model · price $39.03
+- EPRT: no_model · price $29.97
+- RHP: no_model · price $129.33
 
 ---
 

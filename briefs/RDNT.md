@@ -1,70 +1,68 @@
-# MMSI — MERIT MEDICAL SYSTEMS INC
+# RDNT — RADNET
 *Health Care · brief generated 2026-09-10 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 105/1956
+- rotation position 113/1956
 
 ## Market
 | | |
 |---|---|
-| price | $87.19 |
-| market cap | $5.2B |
-| 5d / 21d / 63d / 252d | -3.8% / -2.9% / +29.2% / -5.6% |
-| 60d avg daily $ volume | $72.0M |
-| beta (vs IWM) | 0.62 (R²=0.199) |
-| 5d volume vs 60d average | 1.0x |
+| price | $70.87 |
+| market cap | $5.6B |
+| 5d / 21d / 63d / 252d | -6.2% / -8.3% / +26.1% / -1.6% |
+| 60d avg daily $ volume | $54.5M |
+| beta (vs IWM) | 1.01 (R²=0.188) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| WACC weights | equity 81% / debt 19% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$182.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$215.7M', '$185.7M', '$110.9M']
-Enterprise value **$5.5B** · FCFF yield **+3.3%**
+Normalized FCFF base **$110.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$85.6M', '$45.0M', '$44.3M']
+Enterprise value **$6.5B** · FCFF yield **+1.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.7% − 1pt | +9.8% |
-| **7.7% (point)** | **+14.6%** |
-| 7.7% + 1pt | +18.9% |
+| 10.9% − 1pt | +42.2% |
+| **10.9% (point)** | **+46.4%** |
+| 10.9% + 1pt | +50.4% |
 
 
-> **Stock compensation is 18% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$151.3M** and an implied growth of **+19.3%** instead of +14.6%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 64% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$73.6M** and an implied growth of **+59.7%** instead of +46.4%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+9.5%** (5y revenue CAGR +9.5%).
-Gap under that baseline: **-19.9%** (fair value $69.81 vs price $87.19).
+Naive baseline for comparison: **+13.7%** (5y revenue CAGR +13.7%).
+Gap under that baseline: **-79.6%** (fair value $14.45 vs price $70.87).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **44th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.3%).
+Cohort: **10th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -67.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `possible_peak_cycle_base_newest_fcf_1.9x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_64%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-20 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000047/mmsi-20260814x8k.htm
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000044/mmsi-20260630x10q.htm
-- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730x8k.htm
-- 2026-05-19 **8-K** — items 5.02,5.03,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513x8k.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000025/mmsi-20260331x10q.htm
-- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000023/mmsi-20260430x8k.htm
-- 2026-04-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000020/mmsi-20260413x8k.htm
-- 2026-04-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/856982/000085698226000018/mmsi-20260401x8k.htm
-- 2026-03-31 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000013/mmsi-20260513xdef14a.htm
-- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/856982/000085698226000008/mmsi-20251231x10k.htm
+- 2026-08-14 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/790526/000168316826006479/radnet_8k.htm
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/790526/000162828026055338/rdnt-20260630.htm
+- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/790526/000168316826006125/radnet_8k.htm
+- 2026-06-10 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/790526/000168316826004716/radnet_8k.htm
+- 2026-06-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/790526/000168316826004522/radnet_8k-annualmtg.htm
+- 2026-06-03 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/790526/000168316826004475/radnet_8k.htm
+- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/790526/000162828026033607/rdnt-20260331.htm
+- 2026-05-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/790526/000168316826003624/radnet_8k.htm
+- 2026-04-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/790526/000168316826003086/radnet_idef14a.htm
+- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/790526/000162828026013337/rdnt-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-20** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000047/mmsi-20260814xex99d1.htm
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730xex99d1.htm
-- **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730xex99d2.htm
-- **2026-05-19** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d1.htm
-- **2026-05-19** · EX-99.2 · presentation — EX-99.2 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d2.htm
-- **2026-05-19** · EX-99.3 · press release — EX-99.3 *(item: officer or director change, 5.03, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513xex99d3.htm
+- **2026-08-10** · EX-99.1 · press release — PRESS RELEASE DATED AUGUST 9, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/790526/000168316826006125/radnet_ex9901.htm
+- **2026-06-10** · EX-99.1 · press release — PRESS RELEASE DATED JUNE 10, 2026 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/790526/000168316826004716/radnet_ex9901.htm
+- **2026-06-03** · EX-99.1 · press release — PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/790526/000168316826004475/radnet_ex9901.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -72,6 +70,7 @@ Attack these before you trust any number above.
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Sector Update: Healthcare Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194957396.html
 - **2026-09-09** · Sector Update: Healthcare Stocks Decline in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-173425693.html
 - **2026-09-09** · UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/unitedhealth-slips-3-as-tpg-buys-into-florida-wellmed-clinics-ahead-of-guidance-reaffirmation/
@@ -81,13 +80,12 @@ Attack these before you trust any number above.
 - **2026-09-08** · Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/
 - **2026-09-08** · Cramer Says It’s Time To Buy The Dip on JNJ — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/08/cramer-says-its-time-to-buy-the-dip-on-jnj/
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
-- **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
 
 ## Market and macro context
-- **2026-09-10** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due. — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo
-- **2026-09-10** · Oil, Bond Yields Cap Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/oil-bond-yields-cap-wall-111027441.html
-- **2026-09-10** · JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’ — *Investing.com* — https://finance.yahoo.com/technology/ai/articles/jpmorgan-upgrades-meta-ai-models-110557365.html
-- **2026-09-10** · Nvidia Is Suddenly Outpacing the S&P 500. Expect That to Continue. — *Motley Fool* — https://www.fool.com/investing/2026/09/10/nvidia-is-suddenly-outpacing-the-sp-500-expect-tha/
+- **2026-09-10** · The Odds of a September Rate Hike Just Jumped. Should You Still Buy the S&P 500? — *Motley Fool* — https://www.fool.com/investing/2026/09/10/odds-of-september-rate-hike-jumped-buy-sp-500/
+- **2026-09-10** · 3 Reasons to Sell SJM and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-sjm-1-141704686.html
+- **2026-09-10** · Kewaunee Q1 Earnings Fall Y/Y Despite International Strength — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kewaunee-q1-earnings-fall-y-141500129.html
+- **2026-09-10** · Stock Market Today: Nasdaq On Losing Streak As Oil Surges; Apple Advances On iPhone Launch (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-nvidia-chipmaker-tsmc/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
@@ -104,15 +102,15 @@ Attack these before you trust any number above.
 - ALKS: no_edge · price $46.91
 - APGE: no_model · price $133.96
 - CRNX: no_edge · price $84.84
+- CRSP: no_model · price $53.45
+- DFTX: no_model · price $37.99
 - HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
 - HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
 - IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
 - KYMR: no_model · price $119.05
 - LGND: no_edge · price $288.83 · fair value $297.15 · gap +2.9%
+- MMSI: rich · price $87.19 · fair value $68.32 · gap -21.6%
 - PCVX: no_model · price $60.74
-- PRAX: no_model · price $344.75
-- PTGX: no_model · price $144.33
-- SRRK: no_model · price $55.94
 
 ---
 

@@ -1,38 +1,38 @@
 {
-  "generated_utc": "2026-09-10T11:26:28+00:00",
+  "generated_utc": "2026-09-10T14:38:26+00:00",
   "sectors": {
     "Health Care": {
-      "new": 3,
-      "held": 35,
+      "new": 1,
+      "held": 36,
       "etf": "XLV"
     },
     "Financials": {
-      "new": 3,
-      "held": 44,
+      "new": 1,
+      "held": 45,
       "etf": "XLF"
     },
     "Industrials": {
-      "new": 0,
-      "held": 21,
+      "new": 1,
+      "held": 22,
       "etf": "XLI"
     },
     "Information Technology": {
-      "new": 3,
-      "held": 42,
+      "new": 1,
+      "held": 43,
       "etf": "XLK"
     },
     "Consumer Discretionary": {
       "new": 2,
-      "held": 31,
+      "held": 33,
       "etf": "XLY"
     },
     "Energy": {
-      "new": 7,
-      "held": 55,
+      "new": 3,
+      "held": 58,
       "etf": "XLE"
     },
     "Real Estate": {
-      "new": 4,
+      "new": 0,
       "held": 28,
       "etf": "XLRE"
     },
@@ -42,25 +42,25 @@
       "etf": "XLB"
     },
     "Communication": {
-      "new": 1,
+      "new": 0,
       "held": 19,
       "etf": "XLC"
     },
     "Consumer Staples": {
-      "new": 4,
-      "held": 32,
+      "new": 1,
+      "held": 33,
       "etf": "XLP"
     },
     "Utilities": {
       "new": 1,
-      "held": 19,
+      "held": 20,
       "etf": "XLU"
     }
   },
   "macro": 86,
   "market": 36,
-  "companies": 449,
-  "articles_new": 953,
+  "companies": 447,
+  "articles_new": 224,
   "candidates": 450,
-  "elapsed_s": 218.6
+  "elapsed_s": 200.9
 }

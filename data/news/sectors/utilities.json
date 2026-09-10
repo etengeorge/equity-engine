@@ -1,5 +1,19 @@
 [
  {
+  "id": "6df5d168-7ebb-304a-84bd-cb2cbdd23d02",
+  "ts": "2026-09-10T13:22:00+00:00",
+  "title": "Stock Market News for Sep 10, 2026",
+  "summary": "Wall Street closed lower on Wednesday, dragged down by inflation concerns.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "e7828b40-ed8a-341b-966c-772aabaad0cd",
   "ts": "2026-09-09T15:09:00+00:00",
   "title": "Worried About Lingering Market Volatility? Defensive ETFs to Consider",

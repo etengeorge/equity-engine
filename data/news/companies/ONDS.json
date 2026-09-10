@@ -1,5 +1,77 @@
 [
  {
+  "id": "b18d6335-03f2-3d82-9657-6412cfe4022d",
+  "ts": "2026-09-09T17:34:06+00:00",
+  "title": "Drone Stocks Slide as Risk-Off Sentiment Hits High-Beta Names: AeroVironment Sinks 4%, Red Cat Drops 3%, Ondas Eases",
+  "summary": "Drone stocks are bleeding out on a day with zero company-specific news, raising a question that cuts to the heart of the sector: do record backlogs and billion-dollar bookings matter when risk-off flows decide to sell first and ask questions later?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/09/drone-stocks-slide-as-risk-off-sentiment-hits-high-beta-names-aerovironment-sinks-4-red-cat-drops-3-ondas-eases/",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "684cf4ba-c318-359e-a2e4-7ff43adf6fe7",
+  "ts": "2026-09-08T18:25:38+00:00",
+  "title": "Unusual Machines Just Doubled in a Month: Take Profits, or Buy More?",
+  "summary": "UMAC stock has exploded higher while its closest drone rivals have actually lost ground, putting investors at a crossroads that could define their returns for the rest of the year.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/08/unusual-machines-just-doubled-in-a-month-take-profits-or-buy-more/",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "5ae4a211-d8c0-3ef2-a443-b10811997dd4",
+  "ts": "2026-09-07T15:58:00+00:00",
+  "title": "ONDS Raises 2026 Revenue Outlook as Backlog Surges Higher",
+  "summary": "Ondas has lifted its 2026 revenue outlook as Q2 sales and backlog have surged, putting backlog conversion and margin progress at the center of execution.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/onds-raises-2026-revenue-outlook-155800212.html",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "85adfa38-6856-3f1d-9c5c-36f2238593df",
+  "ts": "2026-09-07T15:49:00+00:00",
+  "title": "ONDS Down 18.2% in the Past Month: Does the Pullback Create Value?",
+  "summary": "ONDS' 18.2% pullback comes as revenues, backlog and orders surge, but widening losses, cash burn and M&A integration risks still cloud the value case.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/onds-down-18-2-past-154900311.html",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "74e1aa3b-958a-35f4-a84c-59fd95664b7e",
+  "ts": "2026-09-07T15:40:00+00:00",
+  "title": "Is ONDS Worth Buying as Hypergrowth Collides With M&A Execution Risk?",
+  "summary": "ONDS pairs explosive 2026 revenue growth and a $757 million backlog with widening losses, cash burn and integration risks that test its path to profit.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/onds-worth-buying-hypergrowth-collides-154000022.html",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "041ab4fc-14f4-36dd-825a-f3d88ee4c6ce",
+  "ts": "2026-09-07T14:45:00+00:00",
+  "title": "ONDS Stock Sinks 22% YTD: Is it Time to Hold Tight or Head for Exit?",
+  "summary": "Ondas' shares are down 21.9% YTD despite surging revenues and backlog, as losses, cash burn and M&A execution risks keep investors cautious.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/onds-stock-sinks-22-ytd-144500134.html",
+  "tickers": [
+   "ONDS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8aa1a38b-f6dd-3a60-bcaa-0f2e4e77afdf",
   "ts": "2026-09-03T14:21:52+00:00",
   "title": "Drone Stocks Fly As Trump's 100% Tariff On Imports Takes Effect",

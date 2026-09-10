@@ -1,5 +1,19 @@
 [
  {
+  "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
+  "ts": "2026-09-10T13:17:56+00:00",
+  "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "cd547cc4-4f7d-3e73-a11a-a548757e579a",
   "ts": "2026-09-09T19:45:54+00:00",
   "title": "Sector Update: Consumer Stocks Fall Late Afternoon",

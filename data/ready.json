@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-10T11:26:27+00:00",
+  "screen_utc": "2026-09-10T14:38:25+00:00",
   "price_asof": "2026-09-09",
   "universe": 1956,
-  "modelled": 1078,
+  "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-10T11:26:28+00:00",
+    "generated_utc": "2026-09-10T14:38:26+00:00",
     "sectors": {
       "Health Care": {
-        "new": 3,
-        "held": 35,
+        "new": 1,
+        "held": 36,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 3,
-        "held": 44,
+        "new": 1,
+        "held": 45,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 21,
+        "new": 1,
+        "held": 22,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 3,
-        "held": 42,
+        "new": 1,
+        "held": 43,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 2,
-        "held": 31,
+        "held": 33,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 7,
-        "held": 55,
+        "new": 3,
+        "held": 58,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 4,
+        "new": 0,
         "held": 28,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 1,
+        "new": 0,
         "held": 19,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 4,
-        "held": 32,
+        "new": 1,
+        "held": 33,
         "etf": "XLP"
       },
       "Utilities": {
         "new": 1,
-        "held": 19,
+        "held": 20,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
-    "companies": 449,
-    "articles_new": 953,
+    "companies": 447,
+    "articles_new": 224,
     "candidates": 450,
-    "elapsed_s": 218.6
+    "elapsed_s": 200.9
   },
   "picks": [
-    "AROC",
-    "MMSI",
-    "PIPR",
-    "MXL",
-    "DFTX",
-    "CRSP",
-    "BBW",
-    "SIG",
-    "EVI",
-    "JILL"
+    "AIR",
+    "ROAD",
+    "SBRA",
+    "RDNT",
+    "CAKE",
+    "CNO",
+    "RES",
+    "TBBK",
+    "VISN",
+    "CAL"
   ],
   "stages": {
-    "screen": "2026-09-10T11:30:19+00:00",
-    "news": "2026-09-10T11:30:07+00:00",
-    "pick": "2026-09-10T11:30:19+00:00"
+    "screen": "2026-09-10T14:42:09+00:00",
+    "news": "2026-09-10T14:41:47+00:00",
+    "pick": "2026-09-10T14:42:09+00:00"
   }
 }

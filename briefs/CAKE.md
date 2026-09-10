@@ -1,101 +1,76 @@
-# SIG — SIGNET JEWELERS
-*Consumer Discretionary · brief generated 2026-09-10 · selected as **opportunistic***
+# CAKE — CHEESECAKE FACTORY INC
+*Consumer Discretionary · brief generated 2026-09-10 · selected as **rotation***
 
 ## Why this name is on today's list
-- baseline gap +77%
-- 5d move +26%
-- 21d move +8%
-- volume 2.2x its 60d average
-- filed an 8-K in the last few sessions
-- 10 news items in the last 5 days
-- Consumer Discretionary is in the news
-- never researched
-- urgency score 8.77
+- rotation position 114/1956
 
 ## Market
 | | |
 |---|---|
-| price | $102.48 |
-| market cap | $4.0B |
-| 5d / 21d / 63d / 252d | +26.1% / +8.5% / +18.6% / +11.5% |
-| 60d avg daily $ volume | $73.1M |
-| beta (vs IWM) | 1.0 (R²=0.144) |
-| 5d volume vs 60d average | 2.2x |
-| balance sheet as of | 2026-05-02 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| price | $103.61 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -4.4% / -6.6% / +52.9% / +75.5% |
+| 60d avg daily $ volume | $159.0M |
+| beta (vs IWM) | 0.96 (R²=0.243) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 89% / debt 11% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$464.5M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$525.3M', '$437.9M', '$421.4M']
-Enterprise value **$3.4B** · FCFF yield **+13.6%**
+Normalized FCFF base **$107.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$155.1M', '$108.0M', '$49.5M']
+Enterprise value **$5.6B** · FCFF yield **+1.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.4% − 1pt | -12.1% |
-| **10.4% (point)** | **-9.5%** |
-| 10.4% + 1pt | -7.2% |
+| 9.6% − 1pt | +32.6% |
+| **9.6% (point)** | **+37.2%** |
+| 9.6% + 1pt | +41.4% |
 
 
-Naive baseline for comparison: **+5.4%** (5y revenue CAGR +5.4%).
-Gap under that baseline: **+77.2%** (fair value $181.63 vs price $102.48).
+> **Stock compensation is 26% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$80.6M** and an implied growth of **+45.9%** instead of +37.2%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+8.6%** (5y revenue CAGR +8.6%).
+Gap under that baseline: **-71.2%** (fair value $29.80 vs price $103.61).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **77th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +74.0%).
+Cohort: **16th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -73.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
-- `operating_leases_27%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
+- `possible_peak_cycle_base_newest_fcf_3.1x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_26%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-09-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/832988/000083298826000229/sig-20260801.htm
-- 2026-09-09 **8-K** — items 1.01,2.02,9.01 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/sig-20260904.htm
-- 2026-07-02 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000185/sig-20260702.htm
-- 2026-06-30 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000173/sig-20260626.htm
-- 2026-06-08 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000161/sig-20260608.htm
-- 2026-06-02 **10-Q** — https://www.sec.gov/Archives/edgar/data/832988/000083298826000159/sig-20260502.htm
-- 2026-06-02 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000158/sig-20260602.htm
-- 2026-05-14 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/832988/000119312526224349/d68147ddef14a.htm
-- 2026-05-08 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/832988/000083298826000105/sig-20260506.htm
-- 2026-03-19 **10-K** — https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/887596/000110465926089840/cake-20260630x10q.htm
+- 2026-07-28 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_8k.htm
+- 2026-06-03 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/887596/000110465926070125/tm2616600d1_8k.htm
+- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/887596/000110465926054987/cake-20260331x10q.htm
+- 2026-04-29 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/887596/000110465926051574/tm2612833d1_8k.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/887596/000110465926042016/tm261408-1_def14a.htm
+- 2026-03-31 **8-K** — items 1.01,2.03 — https://www.sec.gov/Archives/edgar/data/887596/000110465926037831/tm2610653d1_8k.htm
+- 2026-02-23 **10-K** — https://www.sec.gov/Archives/edgar/data/887596/000110465926018643/cake-20251230x10k.htm
+- 2026-02-18 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/887596/000110465926017090/tm266472d1_8k.htm
+- 2025-11-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/887596/000110465925105631/cake-20250930x10q.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-09** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/fy27ex99109x09x26pressrele.htm
-- **2026-06-02** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/832988/000083298826000158/fy27ex99106x02x26pressrele.htm
+- **2026-07-28** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_ex99-1.htm
+- **2026-07-28** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_ex99-2.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-10** · Signet (SIG) Q2 2027 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/09/signet-sig-q2-2027-earnings-call-transcript/
-  > Same-store sales rose 2.2% as adjusted EPS jumped 36% on credit partnership gains.
-- **2026-09-10** · Why Signet Jewelers Stock Popped Today — *Motley Fool* — https://www.fool.com/investing/2026/09/09/why-signet-jewelers-stock-popped-today/
-  > Diamonds don't go out of style.
-- **2026-09-09** · Signet Jewelers Ltd (SIG) (Q2 2027) Earnings Call Highlights: Strong Credit Deal and Raised ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/signet-jewelers-ltd-sig-q2-210112466.html
-  > Signet Jewelers Ltd (SIG) reports positive comps and a 36% EPS increase, fueled by a new credit agreement with Bread Financial and a raised full-year outlook.
-- **2026-09-09** · Signet Jewelers CEO on 2Q Results & Trends To Watch — *Bloomberg* — https://finance.yahoo.com/video/signet-jewelers-ceo-2q-results-201223580.html
-  > J.K. Symancyk, CEO of Signet Jewelers, said the company feels confident after raising guidance for a second time this year, pointing to solid fundamentals, five positive comparable-sales quarters in the last six, and momentum heading into t
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html
-  > Consumer stocks were lower late Wednesday afternoon, with the State Street Consumer Staples Select S
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html
-  > Consumer stocks were lower Wednesday afternoon, with the State Street Consumer Staples Select Sector
-- **2026-09-09** · Why Is SIG Stock Rising Today? — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/why-is-sig-stock-rising-today-september-9-2026/cZt7BEURJzY
-  > Signet Jewelers' second quarter earnings surpassed analyst estimates, and the firm improved its FY27 outlook.
-- **2026-09-09** · Signet Jewelers Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-signet-jewelers-q2-earnings-call-highlights-2026-09-09/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Signet Jewelers (NYSE:SIG) reported fiscal 2027 second-quarter revenue of $1.5 billion, with same-store sales rising 2.2% and adjusted diluted earnings per share increasing 36% from the prior year. The company said comparable sales were pos
-- **2026-09-09** · Jewelry Stock Surges After Years Of Mostly Sideways Action — *Investor's Business Daily* — https://www.investors.com/news/signet-jewelers-stock-earnings-guidance/?src=A00220&yptr=yahoo
-  > Signet Jewelers surged on strong earnings, guidance and buyback. But the stock is a long-term laggard.
-- **2026-09-09** · Why Signet Jewelers Stock Is Having Its Best Day in Over a Year — *Barrons.com* — https://www.barrons.com/articles/signet-jewelers-earnings-stock-price-9f8febbe?siteid=yhoof2&yptr=yahoo
-  > The parent company of Zales and Kay Jewelers hikes its fiscal-year earnings outlook, but an analyst says there’s more to the report than the numbers.
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-10** · Stock Market News for Sep 10, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html
+- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html
 - **2026-09-09** · Sector Update: Consumer Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html
 - **2026-09-09** · Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/
@@ -104,14 +79,12 @@ Attack these before you trust any number above.
 - **2026-09-08** · Sector Update: Consumer Stocks Decline in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-174032824.html
 - **2026-09-08** · How Is AutoZone's Stock Performance Compared to Other Auto Parts Stocks — *Barchart* — https://www.barchart.com/story/news/4491647/how-is-autozone-s-stock-performance-compared-to-other-auto-parts-stocks
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
-- **2026-09-08** · D.R. Horton Stock: Is DHI Underperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4489364/d-r-horton-stock-is-dhi-underperforming-the-consumer-cyclical-sector
-- **2026-09-08** · General Motors’ Stock: Is GM Outperforming the Consumer Discretionary Sector? — *Barchart* — https://www.barchart.com/story/news/4486547/general-motors-stock-is-gm-outperforming-the-consumer-discretionary-sector
 
 ## Market and macro context
-- **2026-09-10** · Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due. — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo
-- **2026-09-10** · Oil, Bond Yields Cap Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/oil-bond-yields-cap-wall-111027441.html
-- **2026-09-10** · JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’ — *Investing.com* — https://finance.yahoo.com/technology/ai/articles/jpmorgan-upgrades-meta-ai-models-110557365.html
-- **2026-09-10** · Nvidia Is Suddenly Outpacing the S&P 500. Expect That to Continue. — *Motley Fool* — https://www.fool.com/investing/2026/09/10/nvidia-is-suddenly-outpacing-the-sp-500-expect-tha/
+- **2026-09-10** · The Odds of a September Rate Hike Just Jumped. Should You Still Buy the S&P 500? — *Motley Fool* — https://www.fool.com/investing/2026/09/10/odds-of-september-rate-hike-jumped-buy-sp-500/
+- **2026-09-10** · 3 Reasons to Sell SJM and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-sjm-1-141704686.html
+- **2026-09-10** · Kewaunee Q1 Earnings Fall Y/Y Despite International Strength — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kewaunee-q1-earnings-fall-y-141500129.html
+- **2026-09-10** · Stock Market Today: Nasdaq On Losing Streak As Oil Surges; Apple Advances On iPhone Launch (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-nvidia-chipmaker-tsmc/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
 - **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
@@ -130,8 +103,10 @@ Attack these before you trust any number above.
 - CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
 - HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
 - IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
 - LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
 - LTH: no_model · price $43.09
+- SIG: no_edge · price $102.48 · fair value $123.00 · gap +20.0%
 - STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
 - WEN: no_edge · price $8.03 · fair value $14.55 · gap +81.2%
 

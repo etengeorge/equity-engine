@@ -106,17 +106,5 @@
    "INBX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2cf2ce1d-1f07-33a6-9ff3-d96f9b6d1016",
-  "ts": "2026-05-12T14:12:39+00:00",
-  "title": "Should Positive INBRX-106 Phase 2 Head and Neck Data Require Action From Inhibrx Biosciences (INBX) Investors?",
-  "summary": "Inhibrx Biosciences recently reported positive interim results from the randomized Phase 2 HexAgon trial, where INBRX-106 plus pembrolizumab doubled the confirmed response rate and generated three complete responses in first-line PD-L1\u2013high head and neck squamous cell carcinoma versus pembrolizumab alone. Beyond tumor shrinkage, the combination triggered very large increases in CD8+ and CD4+ T-cell proliferation and activation, reinforcing INBRX-106\u2019s intended role as a potent T-cell...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/positive-inbrx-106-phase-2-141239280.html",
-  "tickers": [
-   "INBX"
-  ],
-  "source": "yfinance"
  }
 ]
