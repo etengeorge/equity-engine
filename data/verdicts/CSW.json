@@ -1,0 +1,188 @@
+{
+  "ticker": "CSW",
+  "date": "2026-09-11",
+  "sector": "Industrials",
+  "name": "CSW INDUSTRIALS",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.1,
+  "bear_growth": 0.04,
+  "bull_growth": 0.15,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 291.70001220703125,
+  "market_implied_growth": 0.35712573596647135,
+  "cohort_pct": 29.1,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.1,
+    "market_implied_growth": 0.35712573596647135,
+    "growth_delta": -0.25712573596647137,
+    "fair_value": 98.00044930201813,
+    "price": 291.70001220703125,
+    "gap": -0.664036869383251,
+    "fair_value_band": {
+      "low": 83.14293900557868,
+      "point": 98.00044930201813,
+      "high": 116.43174263747608
+    },
+    "fcff_base_used": 160000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.11382798594816415,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 160000000,
+      "price": 291.70001220703125,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.04,
+          "cells": [
+            {
+              "wacc": 0.09382798594816415,
+              "fair_value": 98.13749824037713,
+              "gap": -0.6635670410232106
+            },
+            {
+              "wacc": 0.10382798594816416,
+              "fair_value": 80.33402179937556,
+              "gap": -0.7246005538650466
+            },
+            {
+              "wacc": 0.11382798594816415,
+              "fair_value": 66.3311351154594,
+              "gap": -0.7726049628397632
+            },
+            {
+              "wacc": 0.12382798594816415,
+              "fair_value": 55.03046316157867,
+              "gap": -0.8113456946908821
+            },
+            {
+              "wacc": 0.13382798594816414,
+              "fair_value": 45.71961993285007,
+              "gap": -0.8432649365115521
+            }
+          ],
+          "fair_value_at_point_wacc": 66.3311351154594,
+          "gap_at_point_wacc": -0.7726049628397632
+        },
+        {
+          "case": "base",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.09382798594816415,
+              "fair_value": 139.8906215982563,
+              "gap": -0.5204298397527309
+            },
+            {
+              "wacc": 0.10382798594816416,
+              "fair_value": 116.43174263747608,
+              "gap": -0.6008510875383859
+            },
+            {
+              "wacc": 0.11382798594816415,
+              "fair_value": 98.00044930201813,
+              "gap": -0.664036869383251
+            },
+            {
+              "wacc": 0.12382798594816415,
+              "fair_value": 83.14293900557868,
+              "gap": -0.7149710815007824
+            },
+            {
+              "wacc": 0.13382798594816414,
+              "fair_value": 70.91634393246217,
+              "gap": -0.7568860440014997
+            }
+          ],
+          "fair_value_at_point_wacc": 98.00044930201813,
+          "gap_at_point_wacc": -0.664036869383251
+        },
+        {
+          "case": "bull",
+          "growth": 0.15,
+          "cells": [
+            {
+              "wacc": 0.09382798594816415,
+              "fair_value": 181.88690964895966,
+              "gap": -0.3764590262688533
+            },
+            {
+              "wacc": 0.10382798594816416,
+              "fair_value": 152.6834435987073,
+              "gap": -0.47657374971125577
+            },
+            {
+              "wacc": 0.11382798594816415,
+              "fair_value": 129.75594581361142,
+              "gap": -0.5551733274473831
+            },
+            {
+              "wacc": 0.12382798594816415,
+              "fair_value": 111.28889573127476,
+              "gap": -0.6184816898386396
+            },
+            {
+              "wacc": 0.13382798594816414,
+              "fair_value": 96.1048698520451,
+              "gap": -0.6705352559812867
+            }
+          ],
+          "fair_value_at_point_wacc": 129.75594581361142,
+          "gap_at_point_wacc": -0.5551733274473831
+        }
+      ],
+      "summary": {
+        "bear": -0.7726049628397632,
+        "base": -0.664036869383251,
+        "bull": -0.5551733274473831
+      },
+      "downside": -0.8432649365115521,
+      "upside": -0.3764590262688533
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is that I have picked the wrong measure of owner earnings and am therefore charging CSWI twice. If the acquisitions genuinely earn their cost of capital, then spending $323.8 million to buy $73 million of quarterly revenue is value-creating and the resulting cash flows belong in the forecast. Refusing to forecast them, while also refusing to credit the balance sheet with the assets they bought, understates the company. There is also a base problem in my favour that cuts against me: the engine's $144.1 million FCFF base is the three-year mean of years in which MARS Parts and Aspen Manufacturing were absent or only partly present, so it describes a company materially smaller than today's \u2014 the SM Energy case in LESSONS.md, where a transaction inside the window leaves the history describing a smaller business, and it runs toward cheapness. First-quarter fiscal 2027 alone produced $75.6 million of operating cash flow against $6.0 million of capital expenditure.",
+    "what_would_prove_it": "Fiscal 2027 full-year operating cash flow less capital expenditure AND less cash paid for acquisitions. If that figure is persistently positive and growing, the acquisition programme is self-funding and my charge is wrong. If it is near zero or negative \u2014 as it was for EVI and EFOR \u2014 the growth is bought and the DCF cannot claim it. The second observable is organic growth: two or three more quarters above 8% would make my 10% look too low.",
+    "already_visible": "I acted on the base-scale objection rather than dismissing it: I have overridden the FCFF base from $144.1 million to $160 million, derived from the first quarter's $69.6 million of free cash flow scaled by the same first-quarter share of the full year that fiscal 2026 exhibited (43.6%). That is the honest current-scale number and it removes the pre-acquisition understatement from the verdict. It does not rescue the price. On $160 million against a $5.6 billion enterprise value the free cash flow yield is 2.9% and the required growth falls only a few points from +35.7% \u2014 still roughly six times the disclosed organic rate. The acquisition-charge objection I could not settle, because the fiscal 2027 full-year cash flow statement does not exist yet.",
+    "unresolved": "Whether the acquisitions clear their cost of capital. I did not obtain the purchase multiples paid for MARS Parts, Aspen Manufacturing, Hydrotex or ProAction Fluids, nor the incremental EBITDA acquired for the $323.8 million spent, so I cannot compute the return on that capital. If it is high, my 10% is too low; the gap would narrow but on this arithmetic it would not close."
+  },
+  "what_changed": "The fiscal 2027 first-quarter 10-Q filed 2026-07-30, which decomposes the growth the model is extrapolating. Revenue rose $87.0 million or 33.0%, of which the MARS Parts, Aspen Manufacturing, Hydrotex and ProAction Fluids acquisitions contributed $73.0 million, or 27.7 points. ORGANIC REVENUE ROSE $14.0 MILLION, OR 5.3%, from pricing actions and higher unit volumes. The same statement carries the price of that growth: cash paid for acquisitions, net of cash received, was $323.8 million in the prior-year first quarter alone, funded with $135.0 million drawn on the line of credit. Segment detail is consistent \u2014 Contractor Solutions +40.3% of which acquisitions were 34.4 points and organic 5.9%; Engineered Building Solutions organic 16.5%. Revenue increased in HVAC/R, general industrial, plumbing and mining, and DECREASED in architecturally-specified building products, rail transportation and electrical. No company news in the 90-day store beyond two Simply Wall St pieces reaching the same conclusion by a different route.",
+  "consensus_case": "CSW Industrials has compounded revenue at 20.9% a year and returned 151% over five years by buying niche, high-margin suppliers into HVAC/R, plumbing and general industrial end markets and levering them across a contractor distribution base that values reliability over price. The first quarter of fiscal 2027 was an all-time record: revenue up 33.0% to $350.7 million, non-GAAP earnings per share of $3.84, 290 basis points of margin expansion, and a SECOND consecutive quarter of positive organic growth in Contractor Solutions. The bull case is that this is a proven capital-allocation machine \u2014 management deploys internally generated cash and revolver capacity into synergistic acquisitions at attractive multiples, integrates them into an existing distribution moat, and the reported free cash flow line understates the economics because it is a company in the middle of deploying capital rather than harvesting it. At 16-17x enterprise value to EBITDA the market is paying a quality multiple for a business that has earned it.",
+  "base_case_rationale": "Ten percent, and the gap between that and the +35.7% the price requires is the whole thesis. CFO-less-capex is a definition of owner earnings that never sees the acquisition line, which sits in investing activities \u2014 so a DCF built on it can only honestly claim the growth that is NOT bought. That number is disclosed and it is 5.3% organic, from pricing and volume, in a record quarter. Add the operating leverage the company is genuinely delivering (290 basis points of margin expansion, operating expenses growing 28.0% against revenue growing 33.0%) and a continuing tuck-in programme funded from internally generated cash rather than new debt, and 10% five-year FCFF growth is generous rather than conservative. The check that matters is the free cash flow series itself: $147.8 million, $152.1 million, $132.4 million across three years in which revenue nearly doubled. Free cash flow has gone NOWHERE while the top line compounded at 20.9%, because the growth was purchased. The naive baseline applies that 20.9% revenue CAGR to FCFF and is the reason this name shows a -47.8% gap rather than a larger one.",
+  "key_risks": [
+    "The verdict rests on treating acquisition spend as a cost the DCF must charge; if the acquisitions clear their cost of capital by a wide margin, 10% is too low",
+    "I could not obtain the purchase multiples or incremental EBITDA acquired for the $323.8 million spent \u2014 the load-bearing unknown",
+    "The FCFF base is a judgment: I scaled one seasonal quarter to a full year rather than reading a fiscal 2027 cash flow statement that does not exist yet",
+    "A quality compounder can stay above intrinsic value for years; this is a valuation call with no dated catalyst, which LESSONS.md records as the weakest base rate here",
+    "Three end markets are already declining (architecturally-specified building products, rail transportation, electrical) into an expected Fed hike"
+  ],
+  "watch_for": [
+    "Fiscal 2027 full-year operating cash flow less capital expenditure AND less cash paid for acquisitions \u2014 the single settling number",
+    "Organic revenue growth falling below 5% or rising above 8% in Contractor Solutions",
+    "Any acquisition funded with new debt rather than internally generated cash",
+    "Free cash flow finally breaking above the $150 million level it has sat at for three years"
+  ],
+  "sources": [
+    "data/adhoc/CSW/2026-07-30-10-Q-cswi-20260630.htm.txt (fiscal 2027 Q1 Form 10-Q \u2014 organic decomposition and cash flow statement; fetched via adhoc-fetch)",
+    "data/adhoc/CSW/2026-07-30-EX-99.1.txt (fiscal 2027 Q1 earnings release)",
+    "https://finance.yahoo.com/markets/stocks/articles/csw-industrials-reports-impressive-fiscal-104500938.html",
+    "https://finance.yahoo.com/markets/stocks/articles/csw-nyse-csw-beats-q2-130315231.html",
+    "data/fundamentals.json CIK 1624794 (stored EDGAR extract)"
+  ],
+  "flags": []
+}

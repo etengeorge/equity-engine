@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>AX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / AX</p><h1>AX <span style='color:var(--faint);font-weight:400'>AXOS FINANCIAL</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$93.72</b></div><div>Analyst gap<b>-11%</b></div><div>Dated<b>2026-09-11</b></div></div><div class='prose'><h1>AX — AXOS FINANCIAL</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-11 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $93.72 · fair value $83.09 · gap -11.3%</li><li><strong>Sustainable ROTCE:</strong> screen said +10.0%, analyst says +17.0%</li><li><strong>P/TBV:</strong> justified 1.62 vs actual 1.82 on tangible book of $51.42/share</li></ul><p><strong>The case for the price.</strong> Axos is a $30B-asset branchless bank compounding tangible book per share at 17.6% a year ($55.81 book value per share at 30 June 2026 from $47.46) while earning a return on average common equity of 16.3% in fiscal 2026, 17.3% in 2025 and 21.6% in 2024 — the company&#x27;s own figures from the 10-K. Total assets grew 20.9% to $30.0 billion on $4.5 billion of net loan growth, deposits grew $3.7 billion, and fiscal 2026 net income was $490.4 million against $432.9 million. A buyer at 1.82x tangible book is paying roughly ten times earnings for a bank that has out-earned its cost of equity every year of the cycle, funds itself with low-cost digital deposits, and has repeatedly bought distressed loan books (FDIC portfolios, Verdant) at wide spreads. At a 17-18% sustainable return on tangible common equity and an 11.3% cost of equity, 1.8x tangible book is close to arithmetically correct, not a premium.</p><p><strong>What changed.</strong> Fiscal 2026 10-K filed 2026-08-20 (fiscal year ended 30 June 2026): net income $490.4M vs $432.9M; common stockholders&#x27; equity $3,166.4M vs $2,680.7M; tangible book value per common share $50.96 vs $44.60; return on average common stockholders&#x27; equity 16.32% / 17.30% / 21.64% for FY2026/25/24. Q4 FY26 net income $124.9M, diluted EPS $2.16, adjusted EPS $2.53. The Verdant acquisition is inside the commercial &amp; industrial loan growth. No company-specific news in the 90-day store — the tape was quiet (5d -2.3%, 0.7x volume) and the name was picked by rotation, not by an event.</p><p><strong>Base case.</strong> Not applicable — book method. See rotce_override. My sustainable ROTCE is 17%, below the three-year computed average of 18.2% and below the 20%+ Axos printed in fiscal 2024, because the fiscal 2024 number was flattered by gains on purchased FDIC loan portfolios that are a repeatable strategy but not a repeatable margin, and because a 20% ROTCE on a $30B balance sheet invites the competition that compresses it. 17% is still a return roughly six points above the cost of equity, which is what the multiple has to be built on.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case against my no_edge is that Axos is genuinely cheap once the engine&#x27;s error is removed. On the corrected three-year ROTCE of 18.2% the justified multiple is 1.75 against an actual 1.82 — but the justified-P/TBV form uses a fixed 2.0% terminal growth for a bank whose tangible book per share is compounding 17.6% a year and whose assets grew 20.9%. At g = 4% the justified multiple is 1.78 and at g = 5% it is 1.96, i.e. the stock is fair to cheap. That is the ENVA bias in this file, and it marks fast-compounding lenders expensive by construction. A grower this fast arguably deserves more than a Gordon model with g pinned at 2%.</li><li>What would prove it: Four more quarters of ROTCE at or above 17% with tangible book per share still compounding above 12%, and a credit performance through the rate move that does not require a step-up in provisioning. Concretely: fiscal 2027 Q1 and Q2 net income above $125M with net charge-offs in the commercial real estate book below 40bp annualised.</li><li>Already visible today: Partly. The compounding is visible and verified in the 10-K — tangible book per share $37.26 to $44.60 to $50.96 across three years, which is a 17% CAGR, and the return has been above 16% in each of them. What is NOT visible is any observation of this loan book through a tightening cycle: the Fed is expected to raise on 16 September and Axos grew loans 20%+ into it. Goldman&#x27;s figure that 32% of Russell 2000 companies carry floating-rate debt is a borrower-side risk that lands on Axos&#x27;s asset quality, not just on its own funding.</li><li>Left unresolved: I could not decompose fiscal 2026&#x27;s $490.4M into spread income versus gains on purchased loan portfolios, so I cannot say what share of the 16.3% return is repeatable underwriting and what share is opportunistic purchasing. That is the difference between a 17% and a 13% sustainable ROTCE, and it is the whole verdict. I also did not obtain the commercial real estate concentration ratio or the criticised-asset trend, which is the load-bearing credit question on a bank that grew loans $4.5 billion in twelve months.</li></ul><p><strong>Key risks.</strong> The 16-21% return is the input the entire verdict rests on and I could not separate repeatable spread income from opportunistic distressed-loan purchase gains; Loans grew $4.5 billion (20%+) in the twelve months immediately before an expected Fed hike; credit cost on that vintage is unobserved; Commercial real estate concentration not quantified in this pass; The justified-P/TBV model&#x27;s fixed 2% terminal growth systematically marks a bank compounding tangible book at 17.6% as expensive — the recorded gap is sensitive to a constant, not to the business; Digital-deposit funding advantage narrows if deposit competition re-intensifies at higher policy rates <strong>Watch for.</strong> Fiscal 2027 Q1 (September quarter) net income and whether ROTCE holds above 16% with the quarter&#x27;s loan growth; Net charge-offs and criticised assets in commercial real estate after the September FOMC; Any disclosure separating purchased-loan accretion from core net interest income; Tangible book value per common share growth falling below 10% annualised — that is the signal the compounding thesis has ended</p><p><strong>Data quality.</strong> The brief raised NO flags and both of the engine&#x27;s inputs to the gap were wrong in the same direction. (1) NEW DEFECT, and it is universe-wide, not specific to Axos. <code>justified_pb</code> builds sustainable ROTCE from <code>net_income_common_series</code>, which for Axos reads [$307.2M, $240.7M, $215.5M]. The company&#x27;s own audited income statement in the fiscal 2026 10-K reads NET INCOME $490,372 / $432,908 / $450,008 thousand, Axos has no preferred stock outstanding, and the figures $307,165 / $240,716 / $215,518 do not appear anywhere in the 10-K. The equity_series the engine pairs them with ($3,166.4M / $2,680.7M / $2,290.6M) matches the 10-K&#x27;s common stockholders&#x27; equity EXACTLY — so the numerator and the denominator are describing different periods. The result is a &#x27;sustainable&#x27; ROTCE of 10.0% against a company reporting return on average common equity of 16.32%, 17.30% and 21.64%. Recomputing with net_income_series over the same tangible equity gives 16.8% / 17.0% / 20.9%, mean 18.2%. That alone moves the justified multiple from 0.86 to 1.75 and the gap from -52.7% to roughly -4%: the entire &#x27;rich&#x27; reading is the defect. Root cause is in <code>edgar._annual</code>, which filters on fp == &#x27;FY&#x27; and an annual form but never checks that the fact&#x27;s duration actually spans a year, so a shorter-duration or stale-concept observation filed under fp=&#x27;FY&#x27; is accepted as the annual value. I scanned all 400 book-method names: 86 have a newest net-income-to-common that disagrees with net income by more than 5% with negligible preferred, and of the 79 where the ROTCE could be recomputed, 69 are UNDERSTATED by the defect, median 5.2 percentage points. Like the ENVA and PIPR biases this manufactures false SELLS, which is why it has gone unnoticed. The worst are ordinary profitable community banks reported as earning 2-4% on tangible equity: TBBK 4.5% -&gt; 28.2%, PEBO 2.3% -&gt; 15.8%, PLBC 2.6% -&gt; 16.9%, PLMR 3.3% -&gt; 19.1%, QCRH, FIBK, NIC, MPB, BHB, STC. Those rows also sit inside the cohort distribution every other Financial is percentile-ranked against. (2) Tangible book of $51.42 is very close to the company&#x27;s own $50.96, which additionally deducts servicing rights — a 0.9% difference, not material, and NOT the AII/BUR stale-book bug: the equity is the 30 June 2026 figure and reconciles exactly. (3) Beta 1.15 with R-squared 0.453 is one of the better-fitted regressions in the index, so unlike HASI and AII in today&#x27;s ten the 11.3% cost of equity here is trustworthy and the failed-beta bias does not apply. What remains open is the composition of earnings, not the arithmetic.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/AX/2026-08-20-10-K-ax-20260630.htm.txt (fiscal 2026 Form 10-K, fetched via adhoc-fetch)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/pressrelease20260630axearn.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/pressrelease20260630axearn.htm</a></li><li><a href="https://www.businesswire.com/news/home/20260730727486/en/Axos-Financial-Inc.-Reports-Fiscal-Year-2026-Results" rel="noopener">https://www.businesswire.com/news/home/20260730727486/en/Axos-Financial-Inc.-Reports-Fiscal-Year-2026-Results</a></li><li>data/fundamentals.json CIK 1299709 (stored EDGAR extract)</li><li>data/screen.json 2026-09-11 (universe scan of 400 book-method names)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/AX.md'>research/Financials/AX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

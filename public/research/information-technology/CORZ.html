@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CORZ — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / CORZ</p><h1>CORZ <span style='color:var(--faint);font-weight:400'>CORE SCIENTIFIC INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$17.37</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-11</b></div></div><div class='prose'><h1>CORZ — CORE SCIENTIFIC INC</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-11 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $17.37</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Core Scientific is being repriced from a bitcoin miner into an AI data-centre landlord, and the asset that matters is interconnected megawatts in ERCOT, not hashrate. On 10 September the company disclosed CONDITIONAL ERCOT APPROVALS COVERING UP TO 1,402 MW across Denton, Pecos and Hunt, Texas — Denton and most of the Hunt and Pecos capacity classified as base load, with another 300 MW at Pecos still subject to ERCOT&#x27;s allocation process. In a market where AI data centres and miners are competing for the same premium power sites, a Batch Zero base-load classification is the scarce thing, and the market is capitalising the option on converting that interconnection queue into long-duration hosting contracts. Two directors bought shares in the open market in the week before the screen. At $17.37 for a $5.6 billion market capitalisation the buyer is paying for 1.4 gigawatts of approved capacity and the contracts it might carry, not for trailing cash flow, which is negative.</p><p><strong>What changed.</strong> Sector and regulatory rather than financial. (1) 2026-09-10: conditional ERCOT approvals for up to 1,402 MW at Denton, Pecos and Hunt, with Denton and most Hunt and Pecos capacity treated as base load and 300 MW at Pecos still in allocation — reported via an Item 7.01 8-K the same day. (2) 2026-09-04: ERCOT sorted Batch Zero projects across the large-load pipeline, with CORZ among the former miners receiving conditional classifications. (3) 2026-09-01: PUCT transmission approval affecting West Texas capacity for CORZ, IREN and CIFR. (4) Insider activity in both directions: a director bought 7,000 shares on 8 September and director Elizabeth Crain bought 6,000 on 3 September, while executive Todd Duchene sold 10,000 under a pre-scheduled 10b5-1 plan. I confirmed from the 10-Q that there is no pending merger agreement — the CoreWeave transaction that shareholders rejected in 2025 is not live, so unlike LCII in today&#x27;s ten this is a standalone company.</p><p><strong>Base case.</strong> I will not supply one. The engine has zero usable years of FCFF, and the multiples table returns NEGATIVE implied equity values at every percentile of every row — the model is saying that at cohort multiples the enterprise is worth less than its net debt. That is the arithmetic failing, not a valuation.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter to refusing is that a negative implied equity value is itself information: it says net debt exceeds what the cohort would pay for this revenue stream, which is close to a statement that the equity is an option on the enterprise recovering. Declining to model it means declining to say the balance sheet is the whole story, and the balance sheet IS the whole story here — $460 million of 3.00% convertible notes due 2029 plus $625 million of 0.00% convertible notes due 2031, against negative EBITDA.</li><li>What would prove it: Signed hosting contracts with named counterparties, stated megawatts and stated terms, converting the conditional ERCOT approvals into contracted revenue. That is the only observable that turns 1,402 MW from an option into a cash flow, and until it exists there is nothing to discount.</li><li>Already visible today: Partly, and it cuts toward refusing. The 2029 convertible notes&#x27; stock-price conversion condition has been satisfied in every quarter since the fourth quarter of 2025 and they remain convertible through the third quarter of 2026 at a conversion price of approximately $11.00 against a $17.37 share price — so roughly 41.8 million shares of dilution is live and no holder has yet elected to convert. That means the engine&#x27;s 49% debt weight and the market capitalisation are describing different capital structures, and neither is the one that will exist. Meanwhile the ERCOT approvals are explicitly CONDITIONAL and 300 MW at Pecos is still in allocation.</li><li>Left unresolved: The contracted revenue backlog. I did not obtain signed hosting contract terms, counterparties, megawatts or durations, nor the capital expenditure required to energise the 1,402 MW, so I cannot judge whether the approvals are worth anything near the $5.6 billion market capitalisation. That is the entire question.</li></ul><p><strong>Key risks.</strong> Refusing to model this is not a judgment that it is cheap — the multiples rows say the cohort would pay LESS than net debt for this revenue stream; $1.085 billion of convertible notes: $460 million at 3.00% due 2029 (currently convertible at ~$11.00 against a $17.37 price, roughly 41.8 million shares) and $625 million at 0.00% due 2031; A 0.00% coupon convertible is invisible to the interest-coverage detector by construction — the LGND mechanism; ERCOT approvals are CONDITIONAL and 300 MW at Pecos is still subject to allocation; Beta 2.22 into an expected Fed hike on 16 September, with the stock already -32.4% over 63 days <strong>Watch for.</strong> Signed AI hosting contracts with named counterparties, megawatts and durations; Final rather than conditional ERCOT approval, and the Pecos 300 MW allocation outcome; Holders electing to convert the 2029 notes — roughly 41.8 million shares; Capital expenditure guidance for energising the 1,402 MW and how it is funded</p><p><strong>Data quality.</strong> Four flags and the multiples table fails the LESSONS.md refusal test more comprehensively than any name recorded so far. (1) <code>nonpositive_normalized_fcff</code> and <code>negative_fcf_year_in_window</code> with <code>lumpy_fcff_spread_3.3x_of_mean</code>: zero usable FCFF years, so the reverse DCF is entirely n/a. (2) EVERY row of the multiples table returns a NEGATIVE implied equity value — ev_sales gives -$9.79 to -$4.64 and ev_gross_profit -$10.60 to -$9.51, blending to -$9.23 against a $17.37 price. Per the RIOT precedent a negative row alone is grounds to report no_model and disregard the number; here there is no non-negative row at all. The cohort is also explicitly NOT RANKED. (3) <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code> is the model announcing it has nothing to work with. (4) Unflagged but material: $1.085 billion of convertible notes, of which the $460 million 3.00% 2029 issue has met its stock-price conversion condition in every quarter since Q4 2025 and is convertible at approximately $11.00 against a $17.37 price. The engine&#x27;s 49% debt weight treats as debt an instrument that is economically equity at today&#x27;s price, and the 0.00% 2031 notes carry no interest expense at all, so the interest-coverage detector in LESSONS.md cannot see them. (5) I verified from the 10-Q that no merger agreement is outstanding, so unlike LCII in today&#x27;s ten this is a genuine standalone company and the refusal is about the accounting, not about a pending transaction.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/CORZ/2026-08-*-10-Q (Q2 2026 Form 10-Q — convertible note terms and conversion conditions; fetched via adhoc-fetch)</li><li><a href="https://blockspace.media/insight/core-scientific-ercot-approves-1402-mw/" rel="noopener">https://blockspace.media/insight/core-scientific-ercot-approves-1402-mw/</a></li><li><a href="https://investorshub.advfn.com/market-news/article/36049/core-scientific-receives-conditional-ercot-approvals-for-texas-power-capacity" rel="noopener">https://investorshub.advfn.com/market-news/article/36049/core-scientific-receives-conditional-ercot-approvals-for-texas-power-capacity</a></li><li><a href="https://blockspace.media/insight/here-are-all-of-the-former-btc-miners-who-received-batch-zero-classifications/" rel="noopener">https://blockspace.media/insight/here-are-all-of-the-former-btc-miners-who-received-batch-zero-classifications/</a></li><li><a href="https://blockspace.media/insight/what-pucts-transmission-approval-means-for-corz-iren-cifr-and-others-in-west-texas/" rel="noopener">https://blockspace.media/insight/what-pucts-transmission-approval-means-for-corz-iren-cifr-and-others-in-west-texas/</a></li><li><a href="https://www.fool.com/coverage/filings/2026/09/08/core-scientific-director-purchases-7-000-shares/" rel="noopener">https://www.fool.com/coverage/filings/2026/09/08/core-scientific-director-purchases-7-000-shares/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/CORZ.md'>research/Information Technology/CORZ.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

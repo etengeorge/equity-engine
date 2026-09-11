@@ -1,0 +1,64 @@
+{
+  "ticker": "AX",
+  "date": "2026-09-11",
+  "sector": "Financials",
+  "name": "AXOS FINANCIAL",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.17,
+  "horizon_months": 24,
+  "price_at_verdict": 93.72000122070312,
+  "market_implied_growth": null,
+  "cohort_pct": 36.1,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.17,
+    "screen_rotce": 0.1000446573290134,
+    "justified_p_tbv": 1.6160256804453443,
+    "actual_p_tbv": 1.8227649510580537,
+    "tangible_book_per_share": 51.41639417978814,
+    "fair_value": 83.09021339043818,
+    "price": 93.72000122070312,
+    "gap": -0.11342069666892818,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my no_edge is that Axos is genuinely cheap once the engine's error is removed. On the corrected three-year ROTCE of 18.2% the justified multiple is 1.75 against an actual 1.82 \u2014 but the justified-P/TBV form uses a fixed 2.0% terminal growth for a bank whose tangible book per share is compounding 17.6% a year and whose assets grew 20.9%. At g = 4% the justified multiple is 1.78 and at g = 5% it is 1.96, i.e. the stock is fair to cheap. That is the ENVA bias in this file, and it marks fast-compounding lenders expensive by construction. A grower this fast arguably deserves more than a Gordon model with g pinned at 2%.",
+    "what_would_prove_it": "Four more quarters of ROTCE at or above 17% with tangible book per share still compounding above 12%, and a credit performance through the rate move that does not require a step-up in provisioning. Concretely: fiscal 2027 Q1 and Q2 net income above $125M with net charge-offs in the commercial real estate book below 40bp annualised.",
+    "already_visible": "Partly. The compounding is visible and verified in the 10-K \u2014 tangible book per share $37.26 to $44.60 to $50.96 across three years, which is a 17% CAGR, and the return has been above 16% in each of them. What is NOT visible is any observation of this loan book through a tightening cycle: the Fed is expected to raise on 16 September and Axos grew loans 20%+ into it. Goldman's figure that 32% of Russell 2000 companies carry floating-rate debt is a borrower-side risk that lands on Axos's asset quality, not just on its own funding.",
+    "unresolved": "I could not decompose fiscal 2026's $490.4M into spread income versus gains on purchased loan portfolios, so I cannot say what share of the 16.3% return is repeatable underwriting and what share is opportunistic purchasing. That is the difference between a 17% and a 13% sustainable ROTCE, and it is the whole verdict. I also did not obtain the commercial real estate concentration ratio or the criticised-asset trend, which is the load-bearing credit question on a bank that grew loans $4.5 billion in twelve months."
+  },
+  "what_changed": "Fiscal 2026 10-K filed 2026-08-20 (fiscal year ended 30 June 2026): net income $490.4M vs $432.9M; common stockholders' equity $3,166.4M vs $2,680.7M; tangible book value per common share $50.96 vs $44.60; return on average common stockholders' equity 16.32% / 17.30% / 21.64% for FY2026/25/24. Q4 FY26 net income $124.9M, diluted EPS $2.16, adjusted EPS $2.53. The Verdant acquisition is inside the commercial & industrial loan growth. No company-specific news in the 90-day store \u2014 the tape was quiet (5d -2.3%, 0.7x volume) and the name was picked by rotation, not by an event.",
+  "consensus_case": "Axos is a $30B-asset branchless bank compounding tangible book per share at 17.6% a year ($55.81 book value per share at 30 June 2026 from $47.46) while earning a return on average common equity of 16.3% in fiscal 2026, 17.3% in 2025 and 21.6% in 2024 \u2014 the company's own figures from the 10-K. Total assets grew 20.9% to $30.0 billion on $4.5 billion of net loan growth, deposits grew $3.7 billion, and fiscal 2026 net income was $490.4 million against $432.9 million. A buyer at 1.82x tangible book is paying roughly ten times earnings for a bank that has out-earned its cost of equity every year of the cycle, funds itself with low-cost digital deposits, and has repeatedly bought distressed loan books (FDIC portfolios, Verdant) at wide spreads. At a 17-18% sustainable return on tangible common equity and an 11.3% cost of equity, 1.8x tangible book is close to arithmetically correct, not a premium.",
+  "base_case_rationale": "Not applicable \u2014 book method. See rotce_override. My sustainable ROTCE is 17%, below the three-year computed average of 18.2% and below the 20%+ Axos printed in fiscal 2024, because the fiscal 2024 number was flattered by gains on purchased FDIC loan portfolios that are a repeatable strategy but not a repeatable margin, and because a 20% ROTCE on a $30B balance sheet invites the competition that compresses it. 17% is still a return roughly six points above the cost of equity, which is what the multiple has to be built on.",
+  "key_risks": [
+    "The 16-21% return is the input the entire verdict rests on and I could not separate repeatable spread income from opportunistic distressed-loan purchase gains",
+    "Loans grew $4.5 billion (20%+) in the twelve months immediately before an expected Fed hike; credit cost on that vintage is unobserved",
+    "Commercial real estate concentration not quantified in this pass",
+    "The justified-P/TBV model's fixed 2% terminal growth systematically marks a bank compounding tangible book at 17.6% as expensive \u2014 the recorded gap is sensitive to a constant, not to the business",
+    "Digital-deposit funding advantage narrows if deposit competition re-intensifies at higher policy rates"
+  ],
+  "watch_for": [
+    "Fiscal 2027 Q1 (September quarter) net income and whether ROTCE holds above 16% with the quarter's loan growth",
+    "Net charge-offs and criticised assets in commercial real estate after the September FOMC",
+    "Any disclosure separating purchased-loan accretion from core net interest income",
+    "Tangible book value per common share growth falling below 10% annualised \u2014 that is the signal the compounding thesis has ended"
+  ],
+  "sources": [
+    "data/adhoc/AX/2026-08-20-10-K-ax-20260630.htm.txt (fiscal 2026 Form 10-K, fetched via adhoc-fetch)",
+    "https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/pressrelease20260630axearn.htm",
+    "https://www.businesswire.com/news/home/20260730727486/en/Axos-Financial-Inc.-Reports-Fiscal-Year-2026-Results",
+    "data/fundamentals.json CIK 1299709 (stored EDGAR extract)",
+    "data/screen.json 2026-09-11 (universe scan of 400 book-method names)"
+  ],
+  "flags": []
+}

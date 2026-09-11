@@ -1,0 +1,60 @@
+{
+  "ticker": "CORZ",
+  "date": "2026-09-11",
+  "sector": "Information Technology",
+  "name": "CORE SCIENTIFIC INC",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 17.3700008392334,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter to refusing is that a negative implied equity value is itself information: it says net debt exceeds what the cohort would pay for this revenue stream, which is close to a statement that the equity is an option on the enterprise recovering. Declining to model it means declining to say the balance sheet is the whole story, and the balance sheet IS the whole story here \u2014 $460 million of 3.00% convertible notes due 2029 plus $625 million of 0.00% convertible notes due 2031, against negative EBITDA.",
+    "what_would_prove_it": "Signed hosting contracts with named counterparties, stated megawatts and stated terms, converting the conditional ERCOT approvals into contracted revenue. That is the only observable that turns 1,402 MW from an option into a cash flow, and until it exists there is nothing to discount.",
+    "already_visible": "Partly, and it cuts toward refusing. The 2029 convertible notes' stock-price conversion condition has been satisfied in every quarter since the fourth quarter of 2025 and they remain convertible through the third quarter of 2026 at a conversion price of approximately $11.00 against a $17.37 share price \u2014 so roughly 41.8 million shares of dilution is live and no holder has yet elected to convert. That means the engine's 49% debt weight and the market capitalisation are describing different capital structures, and neither is the one that will exist. Meanwhile the ERCOT approvals are explicitly CONDITIONAL and 300 MW at Pecos is still in allocation.",
+    "unresolved": "The contracted revenue backlog. I did not obtain signed hosting contract terms, counterparties, megawatts or durations, nor the capital expenditure required to energise the 1,402 MW, so I cannot judge whether the approvals are worth anything near the $5.6 billion market capitalisation. That is the entire question."
+  },
+  "what_changed": "Sector and regulatory rather than financial. (1) 2026-09-10: conditional ERCOT approvals for up to 1,402 MW at Denton, Pecos and Hunt, with Denton and most Hunt and Pecos capacity treated as base load and 300 MW at Pecos still in allocation \u2014 reported via an Item 7.01 8-K the same day. (2) 2026-09-04: ERCOT sorted Batch Zero projects across the large-load pipeline, with CORZ among the former miners receiving conditional classifications. (3) 2026-09-01: PUCT transmission approval affecting West Texas capacity for CORZ, IREN and CIFR. (4) Insider activity in both directions: a director bought 7,000 shares on 8 September and director Elizabeth Crain bought 6,000 on 3 September, while executive Todd Duchene sold 10,000 under a pre-scheduled 10b5-1 plan. I confirmed from the 10-Q that there is no pending merger agreement \u2014 the CoreWeave transaction that shareholders rejected in 2025 is not live, so unlike LCII in today's ten this is a standalone company.",
+  "consensus_case": "Core Scientific is being repriced from a bitcoin miner into an AI data-centre landlord, and the asset that matters is interconnected megawatts in ERCOT, not hashrate. On 10 September the company disclosed CONDITIONAL ERCOT APPROVALS COVERING UP TO 1,402 MW across Denton, Pecos and Hunt, Texas \u2014 Denton and most of the Hunt and Pecos capacity classified as base load, with another 300 MW at Pecos still subject to ERCOT's allocation process. In a market where AI data centres and miners are competing for the same premium power sites, a Batch Zero base-load classification is the scarce thing, and the market is capitalising the option on converting that interconnection queue into long-duration hosting contracts. Two directors bought shares in the open market in the week before the screen. At $17.37 for a $5.6 billion market capitalisation the buyer is paying for 1.4 gigawatts of approved capacity and the contracts it might carry, not for trailing cash flow, which is negative.",
+  "base_case_rationale": "I will not supply one. The engine has zero usable years of FCFF, and the multiples table returns NEGATIVE implied equity values at every percentile of every row \u2014 the model is saying that at cohort multiples the enterprise is worth less than its net debt. That is the arithmetic failing, not a valuation.",
+  "key_risks": [
+    "Refusing to model this is not a judgment that it is cheap \u2014 the multiples rows say the cohort would pay LESS than net debt for this revenue stream",
+    "$1.085 billion of convertible notes: $460 million at 3.00% due 2029 (currently convertible at ~$11.00 against a $17.37 price, roughly 41.8 million shares) and $625 million at 0.00% due 2031",
+    "A 0.00% coupon convertible is invisible to the interest-coverage detector by construction \u2014 the LGND mechanism",
+    "ERCOT approvals are CONDITIONAL and 300 MW at Pecos is still subject to allocation",
+    "Beta 2.22 into an expected Fed hike on 16 September, with the stock already -32.4% over 63 days"
+  ],
+  "watch_for": [
+    "Signed AI hosting contracts with named counterparties, megawatts and durations",
+    "Final rather than conditional ERCOT approval, and the Pecos 300 MW allocation outcome",
+    "Holders electing to convert the 2029 notes \u2014 roughly 41.8 million shares",
+    "Capital expenditure guidance for energising the 1,402 MW and how it is funded"
+  ],
+  "sources": [
+    "data/adhoc/CORZ/2026-08-*-10-Q (Q2 2026 Form 10-Q \u2014 convertible note terms and conversion conditions; fetched via adhoc-fetch)",
+    "https://blockspace.media/insight/core-scientific-ercot-approves-1402-mw/",
+    "https://investorshub.advfn.com/market-news/article/36049/core-scientific-receives-conditional-ercot-approvals-for-texas-power-capacity",
+    "https://blockspace.media/insight/here-are-all-of-the-former-btc-miners-who-received-batch-zero-classifications/",
+    "https://blockspace.media/insight/what-pucts-transmission-approval-means-for-corz-iren-cifr-and-others-in-west-texas/",
+    "https://www.fool.com/coverage/filings/2026/09/08/core-scientific-director-purchases-7-000-shares/"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_3.3x_of_mean",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

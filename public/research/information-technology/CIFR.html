@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CIFR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / CIFR</p><h1>CIFR <span style='color:var(--faint);font-weight:400'>CIPHER DIGITAL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$15.94</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-11</b></div></div><div class='prose'><h1>CIFR — CIPHER DIGITAL INC</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-11 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $15.94</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Cipher is being valued on gigawatts, not on earnings. In the week before the screen it announced development of natural gas lateral pipelines to support 2.5 GW of BEHIND-THE-METER generation across its Texas high-performance-computing sites — a route to power that bypasses the ERCOT interconnection queue for more than 55% of its pipeline while limiting direct generation capital expenditure, and Rosenblatt kept a $30 target on it. It also received Batch Zero conditional classifications alongside the other former miners, and benefits from the PUCT transmission approval in West Texas. The bull case is simple and does not require any trailing multiple to work: in a market where the binding constraint on AI compute is interconnected power, a company with 2.5 GW of behind-the-meter generation in development owns the scarce input. At $15.94 for a $6.6 billion market capitalisation with $611 million of daily dollar volume, the marginal buyer is trading that scarcity.</p><p><strong>What changed.</strong> Power strategy and rates, not financials. (1) 2026-09-03/04: Cipher began development of natural gas lateral pipelines supporting 2.5 GW of behind-the-meter generation across its Texas HPC sites; the shares rose 10-12% on the announcement and Rosenblatt maintained a $30 target, noting the strategy could power more than 55% of the pipeline while limiting direct generation capital expenditure. (2) 2026-09-04: ERCOT sorted Batch Zero large-load projects, with CIFR among those receiving provisional classifications. (3) 2026-09-01: PUCT transmission approval in West Texas. (4) 2026-09-01/03: CIFR and Applied Digital fell together as the 10-year Treasury yield reached 4.79% — the clearest possible statement that these are duration assets. (5) The stock fell 30.6% in August and rebounded in September; it is -24.2% over 63 days but +72.9% over twelve months. Last financial filing was the Q2 10-Q on 2026-08-04.</p><p><strong>Base case.</strong> I will not supply one. There is no usable FCFF base, EBITDA is negative, and the multiples table returns negative implied equity values on both revenue-based rows. Inventing a growth rate would be manufacturing a valuation the model has correctly declined to produce.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter to refusing is that one row of this table is NOT negative and is not obviously nonsense: price to tangible book gives $2.98 to $12.60 against a $15.94 price, on a 158-name cohort, and says the stock trades at 13.6x tangible book against a cohort median of 5.2x. On the only multiple whose denominator is a real balance sheet, Cipher is expensive. Refusing to say so could be read as hiding behind the tooling.</li><li>What would prove it: Signed power and hosting contracts against the 2.5 GW, with megawatts, counterparties, tenor and rates — and the capital expenditure and financing plan for the pipelines. Those turn a development announcement into a cash flow.</li><li>Already visible today: Only the announcement, not the contracts. And the financing question is already visible and large: $172.5 million of 1.75% convertible notes due 2030, $1,300.0 million of 0.00% convertible notes due 2031, and a $200 million revolving credit facility entered in March 2026 with a springing maturity tied to the 2030 notes. A 2.5 GW gas build is not funded out of negative EBITDA, so the equity story and the financing story are the same story. The 10-year at 4.79% moving this stock 4% in a session is the market saying the same thing.</li><li>Left unresolved: The capital cost of 2.5 GW of behind-the-meter generation and how it will be funded, and whether any of the pipeline is contracted. I obtained neither, so I cannot assess whether the announcement is worth anything approaching the $6.6 billion market capitalisation. The engine&#x27;s <code>speculative_cost_of_debt</code> flag is also unresolvable by construction here: a 0.00% coupon convertible&#x27;s true cost is its embedded option value, which no coupon-based WACC can capture.</li></ul><p><strong>Key risks.</strong> Refusing to model this is not a judgment that it is cheap — at 13.6x tangible book against a 5.2x cohort median it may be very expensive and I decline to put a number on it; $1.47 billion of convertible notes, of which $1.3 billion carries a 0.00% coupon and is therefore invisible to the interest-coverage detector; The $200 million revolver has a springing maturity tied to the 2030 convertible notes; Beta 2.5 on a pure duration asset: the shares moved 4% on the 10-year reaching 4.79%, and the Fed is expected to raise on 16 September; 2.5 GW of behind-the-meter generation is an announcement, not a contract or a financing plan <strong>Watch for.</strong> Signed hosting or power contracts against the 2.5 GW with megawatts, counterparties and tenor; Capital expenditure and financing plan for the gas lateral pipelines; Final ERCOT classification beyond the provisional Batch Zero designation; Any further convertible issuance, and the 2030 notes&#x27; springing-maturity trigger on the revolver</p><p><strong>Data quality.</strong> Two flags, and the multiples table fails the LESSONS.md refusal test on the decisive rows. (1) <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code> with no usable FCFF years: the reverse DCF is entirely n/a. (2) The ev_sales and ev_gross_profit rows both return NEGATIVE implied equity values at every percentile (-$10.30 to -$7.50 and -$9.87 to -$6.72), while p_tbv returns $2.98 to $12.60 — rows straddling the price in opposite directions AND a negative row AND an explicitly UNRANKED cohort. That is all three RIOT/EPRT refusal conditions at once, so the blended -$4.09 and the -125.7% gap should be disregarded entirely. (3) <code>speculative_cost_of_debt_at_46%_debt_weight_wacc_unreliable</code> is correct and is worse than the flag knows. From the 10-Q the capital structure is $172.5 million of 1.75% convertible notes due 2030, $1,300.0 million of 0.00% convertible notes due 2031 (carried at $885.9 million after a $414.1 million equity-component discount), and a $200 million revolver. A zero-coupon convertible&#x27;s economic cost is its option value, not its coupon, so no coupon-derived cost of debt can be right — and it is also invisible to the interest-coverage detector in LESSONS.md for exactly the same reason the LGND notes were. (4) Not flagged and worth noting: the brief&#x27;s entity name reads &#x27;CIPHER DIGITAL INC&#x27; while the extract and filings use the Cipher Mining CIK 1819989; the company appears to have rebranded within the window. I did not chase whether that affects any concept lookup.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/CIFR/2026-05-05-10-Q-cifr-20260331.htm.txt (convertible note and revolver terms; fetched via adhoc-fetch)</li><li><a href="https://blockspace.media/insight/cipher-natural-gas-generation-plan-ercot/" rel="noopener">https://blockspace.media/insight/cipher-natural-gas-generation-plan-ercot/</a></li><li><a href="https://blockspace.media/short/cipher-digital-plans-2-5-gw-worth-of-gas-pipelines-here-are-the-sites-most-likely-to-benefit/" rel="noopener">https://blockspace.media/short/cipher-digital-plans-2-5-gw-worth-of-gas-pipelines-here-are-the-sites-most-likely-to-benefit/</a></li><li><a href="https://finance.yahoo.com/technology/ai/articles/applied-digital-cipher-just-sank-195427638.html" rel="noopener">https://finance.yahoo.com/technology/ai/articles/applied-digital-cipher-just-sank-195427638.html</a></li><li><a href="https://blockspace.media/insight/ercot-sorts-batch-zero-large-load-projects/" rel="noopener">https://blockspace.media/insight/ercot-sorts-batch-zero-large-load-projects/</a></li><li><a href="https://www.fool.com/investing/2026/09/04/why-cipher-digital-stock-plummeted-306-last-month/" rel="noopener">https://www.fool.com/investing/2026/09/04/why-cipher-digital-stock-plummeted-306-last-month/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/CIFR.md'>research/Information Technology/CIFR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

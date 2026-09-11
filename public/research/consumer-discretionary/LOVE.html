@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LOVE — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / LOVE</p><h1>LOVE <span style='color:var(--faint);font-weight:400'>LOVESAC COMPANY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$14.26</b></div><div>Analyst gap<b>+2%</b></div><div>Dated<b>2026-09-11</b></div></div><div class='prose'><h1>LOVE — LOVESAC COMPANY</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-11 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $14.26 · fair value $14.60 · gap +2.4%</li><li><strong>Growth:</strong> market implies -4.5%, analyst says +1.0% (delta +5.5%)</li><li><strong>FCFF base overridden</strong> by the analyst to $26.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 10.8% | 11.8% | 12.8% | 13.8% | 14.8% | |---|---|---|---|---|---|---| | bear | -6.0% | $13.11 | $11.71 | $10.57 | $9.62 | $8.81 | | base | +1.0% | $18.20 | $16.22 | $14.60 | $13.26 | $12.12 | | bull | +8.0% | $24.76 | $22.01 | $19.77 | $17.91 | $16.34 |</p><p>At the point WACC of 12.8%: bear -25.9%, base +2.4%, bull +38.6% Across the whole grid the gap ranges -38.2% to +73.6% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $14.26 Lovesac is a $209 million market capitalisation against an enterprise value of $230 million, no debt, and a normalized FCFF base of $31.9 million — a 13.9% free cash flow yield. The reverse DCF says the price requires FCFF to SHRINK 4.5% a year for five years (or to grow 0.4% if you expense the stock compensation that is 19% of the base). That is not a demanding assumption, it is a statement that the market has stopped believing this is a growth company, and the second-quarter numbers support it: omni-channel comparable net sales fell 1.9% in the quarter and 1.3% year to date, total net sales rose 0.4% only because of 14 net new showrooms, and the company cut full-year revenue guidance while pushing its biggest product launches into the fourth quarter. Strip the one-time tariff refund and the business lost money at the adjusted EBITDA line in both the quarter and the half. A buyer at zero growth is paying for a debt-free balance sheet and a brand, not for a trajectory.</p><p><strong>What changed.</strong> The 10-Q and press release filed 2026-09-10 for the quarter ended 2026-08-02, both fetched and read. (1) THE ENTIRE QUARTER IS A TARIFF REFUND. Gross margin rose 1,200 basis points to 68.4% from 56.4% — and the company discloses that IEEPA tariff recoveries contributed 1,240 basis points of that, so EX-REFUND GROSS MARGIN FELL about 40 basis points. It received $21.0 million of IEEPA refunds in the quarter: $20.0 million through cost of merchandise sold, $0.3 million against inventory, $0.7 million as interest income. For the half, gross margin rose 570 basis points of which 670 was the refund. (2) The company gives its own ex-refund figure, because Adjusted EBITDA explicitly excludes the recoveries: Q2 FY27 Adjusted EBITDA was NEGATIVE $1.252 million against POSITIVE $0.837 million a year earlier, and first-half Adjusted EBITDA was negative $11.798 million against negative $7.610 million. Ex-refund the business went backwards in both periods. (3) Operating cash flow for the twenty-six weeks was NEGATIVE $11.4 million — and that is AFTER collecting the $21.0 million, so ex-refund first-half operating cash flow was roughly negative $32 million against negative $29.2 million a year earlier. (4) Guidance cut: full-year net sales $690-710 million and gross margin 58.5-59.5% (which includes the refunds); third-quarter net sales $140-150 million with gross margin back down to 54.5-55.5% and an Adjusted EBITDA LOSS of $7-10 million.</p><p><strong>Base case.</strong> I underwrite the stock-compensation-expensed base of $26.0 million, not the reported $31.9 million: equity compensation at 19% of free cash flow is a real transfer to employees and the share count reflects it. On that base the market implies +0.4% and I get to about +1%. The reasoning is arithmetic rather than optimistic. Comparable sales are running -1.3% to -1.9% and new showrooms add roughly two points, so revenue is flat; the 250 basis points of product-margin improvement from price increases is real and offsets some of the 160bp of inbound tariff and 130bp of outbound transportation cost; and the onshoring programme for Sactionals production is a genuine structural cost lever if it lands. Against that, fiscal 2028 laps the IEEPA refunds with no offset, which is a dated, mechanical headwind the model cannot see. Flat-to-one-percent is where those forces net out. I am explicitly NOT underwriting the naive +16.8% baseline: that is a five-year revenue CAGR from a period of 20%+ growth applied to a company now growing 0.4%, and it is the whole source of the +145.6% gap.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case that I am too cautious is the price itself. A debt-free company with a strong cash position, guiding to $31.5-35.5 million of Adjusted EBITDA excluding all tariff benefit, is being valued at $209 million of equity and $230 million of enterprise value — under 7x its own ex-refund EBITDA guidance. The stock is down 26% over twelve months and fell 12% on a quarter that met revenue expectations and beat on earnings. If the market is pricing permanent decline into a brand that still opened 14 net new showrooms and held 84% of its price points, then zero growth is too pessimistic and the asymmetry is upward. My own bear case — that the fourth quarter carries the year — is also just the normal seasonality of a furniture retailer whose fourth quarter has always been the profit quarter.</li><li>What would prove it: The fourth quarter. Full-year Adjusted EBITDA of $31.5-35.5 million requires roughly $50-57 million in Q4 given the reported first half and the guided third quarter; delivering it, with omni-channel comparable sales turning positive as the new products ship, would settle it. The cleaner single observable is fiscal 2028 first-quarter comparable sales against a quarter with no tariff refund in it.</li><li>Already visible today: Some of it, and it is genuinely mixed. Net sales of $161.2 million were a record for a non-fourth quarter and came in within guidance; the 250 basis point product-margin improvement is disclosed and is not tariff-related; the balance sheet is debt-free. But the two things that decide it are not visible: no new product has shipped at scale, and no quarter of this fiscal year has been reported without a refund in it. The company&#x27;s own third-quarter guide — a $7-10 million Adjusted EBITDA loss on $140-150 million of sales — is the first clean look and it is a guided loss.</li><li>Left unresolved: I could not determine how much more IEEPA refund is still to be collected. The company submitted CAPE claims in April 2026 and had received $21.0 million as of 2 August 2026, but disclosed no estimate of the remaining claim, so I cannot size the fiscal 2027 cash inflow or therefore the size of the fiscal 2028 headwind when it laps. That is the single largest unquantified item in the forward cash flow.</li></ul><p><strong>Key risks.</strong> Full-year Adjusted EBITDA guidance requires roughly $50-57 million in the fourth quarter alone, from a first half of -$11.8 million, on products not yet shipped; Fiscal 2028 laps $21 million-plus of IEEPA refunds with no offset — a dated, mechanical earnings and cash-flow headwind; Omni-channel comparable sales negative in both the quarter (-1.9%) and the half (-1.3%) while showroom count grows; Ex-refund first-half operating cash flow was roughly -$32 million against -$29.2 million a year earlier: underlying cash generation deteriorated year over year; Operating leases are 73% of enterprise value across a growing showroom fleet — a fixed-cost book that does not shrink when volumes do; Single-brand, single-category discretionary exposure into an expected Fed hike on 16 September <strong>Watch for.</strong> Fourth quarter fiscal 2027 Adjusted EBITDA against the roughly $50-57 million the full-year guide implies; First-quarter fiscal 2028 comparable sales — the first period with no tariff refund in either year; Any disclosure of the remaining IEEPA refund claim still outstanding; Evidence the Sactionals onshoring programme is taking landed cost out rather than adding capital expenditure</p><p><strong>Data quality.</strong> Two flags, one of which points the wrong way and one of which overstates the problem. (1) <code>possible_trough_cycle_base_newest_fcf_0.55x_oldest_growth_applied_to_a_trough_understates_value</code> — this is the AMR/LPG failure mode in LESSONS.md: the advisory sentence invites the analyst to treat the base as conservative, and the current run rate says the opposite. First-half operating cash flow was NEGATIVE $11.4 million and negative roughly $32 million excluding the refund. The base is not a trough to grow from; it is above the current run rate. (2) <code>operating_leases_73%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this</code> — I checked this and it overstates the issue. The engine&#x27;s treatment is internally CONSISTENT: it leaves leases out of enterprise value and leaves cash rent inside operating cash flow, so free cash flow is already charged for them. Capitalising the lease liability into enterprise value without adding the rent back to FCFF would double-count, and doing both is roughly neutral. The flag is worth reading as a business risk (a fixed-cost showroom book) rather than as a valuation error. (3) An engine mislabel, minor: the brief reports the balance sheet as of 2026-05-03 from a &#x27;10-K&#x27;. That date is the first quarter of fiscal 2027 and was filed on a 10-Q (2026-06-11); Lovesac&#x27;s fiscal year ended 2026-02-01. It does not change any number. (4) The 2026-09-10 10-Q is one day newer than the extract, so the balance sheet the model priced is one quarter stale. (5) The real distortion is not flagged at all and it is the naive baseline: a +16.8% five-year revenue CAGR applied to FCFF on a company now growing 0.4% produces the entire +145.6% gap and the 91st cohort percentile that won this an opportunistic slot. This is the MXL lesson in a different form — a trailing growth rate that describes a business that no longer exists.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/LOVE/2026-09-10-10-Q-love-20260802.htm.txt (Q2 FY2027 Form 10-Q, fetched via adhoc-fetch)</li><li>data/adhoc/LOVE/2026-09-10-EX-99.1.txt (Q2 FY2027 press release, outlook and Adjusted EBITDA reconciliation)</li><li><a href="https://www.globenewswire.com/news-release/2026/09/10/3359357/0/en/the-lovesac-company-reports-second-quarter-fiscal-2027-financial-results.html" rel="noopener">https://www.globenewswire.com/news-release/2026/09/10/3359357/0/en/the-lovesac-company-reports-second-quarter-fiscal-2027-financial-results.html</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/09/10/lovesac-love-q2-2027-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/09/10/lovesac-love-q2-2027-earnings-call-transcript/</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/lovesac-nasdaq-love-posts-q2-121612609.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/lovesac-nasdaq-love-posts-q2-121612609.html</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/LOVE.md'>research/Consumer Discretionary/LOVE.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

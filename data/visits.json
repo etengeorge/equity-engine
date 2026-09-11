@@ -15,8 +15,8 @@
     "verdict": "no_model"
   },
   "AII": {
-    "conviction": "low",
-    "last_visit": "2026-09-04",
+    "conviction": "medium",
+    "last_visit": "2026-09-11",
     "verdict": "no_edge"
   },
   "ALKS": {
@@ -59,6 +59,11 @@
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
+  "AX": {
+    "conviction": "medium",
+    "last_visit": "2026-09-11",
+    "verdict": "no_edge"
+  },
   "BBW": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
@@ -79,6 +84,11 @@
     "last_visit": "2026-09-07",
     "verdict": "no_model"
   },
+  "CIFR": {
+    "conviction": "high",
+    "last_visit": "2026-09-11",
+    "verdict": "no_model"
+  },
   "CMC": {
     "conviction": "medium",
     "last_visit": "2026-09-01",
@@ -87,6 +97,11 @@
   "COMP": {
     "conviction": "low",
     "last_visit": "2026-09-01",
+    "verdict": "no_model"
+  },
+  "CORZ": {
+    "conviction": "high",
+    "last_visit": "2026-09-11",
     "verdict": "no_model"
   },
   "CRI": {
@@ -103,6 +118,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-10",
     "verdict": "no_model"
+  },
+  "CSW": {
+    "conviction": "medium",
+    "last_visit": "2026-09-11",
+    "verdict": "rich"
   },
   "CTOS": {
     "conviction": "low",
@@ -179,6 +199,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
   },
+  "HASI": {
+    "conviction": "low",
+    "last_visit": "2026-09-11",
+    "verdict": "no_edge"
+  },
   "HCC": {
     "conviction": "medium",
     "last_visit": "2026-09-09",
@@ -239,6 +264,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_model"
   },
+  "LCII": {
+    "conviction": "high",
+    "last_visit": "2026-09-11",
+    "verdict": "no_model"
+  },
   "LE": {
     "conviction": "low",
     "last_visit": "2026-09-04",
@@ -247,6 +277,11 @@
   "LGND": {
     "conviction": "low",
     "last_visit": "2026-09-09",
+    "verdict": "no_edge"
+  },
+  "LOVE": {
+    "conviction": "low",
+    "last_visit": "2026-09-11",
     "verdict": "no_edge"
   },
   "LPG": {
@@ -339,6 +374,11 @@
     "last_visit": "2026-09-03",
     "verdict": "no_edge"
   },
+  "RGTI": {
+    "conviction": "high",
+    "last_visit": "2026-09-11",
+    "verdict": "no_model"
+  },
   "RHP": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -352,6 +392,11 @@
   "RIOT": {
     "conviction": "low",
     "last_visit": "2026-09-03",
+    "verdict": "no_model"
+  },
+  "RWT": {
+    "conviction": "medium",
+    "last_visit": "2026-09-11",
     "verdict": "no_model"
   },
   "SIG": {

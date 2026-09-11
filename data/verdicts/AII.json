@@ -1,17 +1,17 @@
 {
   "ticker": "AII",
-  "date": "2026-09-04",
+  "date": "2026-09-11",
   "sector": "Financials",
   "name": "AMERICAN INTEGRITY INSURANCE GROUP",
   "method": "book",
   "verdict": "no_edge",
-  "conviction": "low",
+  "conviction": "medium",
   "final_growth": null,
-  "bear_growth": 0.1,
-  "bull_growth": 0.22,
+  "bear_growth": null,
+  "bull_growth": null,
   "rotce_override": 0.16,
   "horizon_months": 24,
-  "price_at_verdict": 26.15999984741211,
+  "price_at_verdict": 25.40999984741211,
   "market_implied_growth": null,
   "cohort_pct": 98.5,
   "priced": {
@@ -19,12 +19,12 @@
     "method": "justified_p_tbv",
     "analyst_rotce": 0.16,
     "screen_rotce": 0.2890938870459495,
-    "justified_p_tbv": 1.6945049452664596,
-    "actual_p_tbv": 1.5208622800003568,
+    "justified_p_tbv": 1.6579820447426192,
+    "actual_p_tbv": 1.4772595767643664,
     "tangible_book_per_share": 17.200768400545755,
-    "fair_value": 29.14678711710783,
-    "price": 26.15999984741211,
-    "gap": 0.11417382596014014,
+    "fair_value": 28.51856516388108,
+    "price": 25.40999984741211,
+    "gap": 0.12233629811633251,
     "fundamentals_source": "store",
     "flags": []
   },
@@ -32,38 +32,40 @@
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "The strongest case against my no_edge is that I am penalising the name for a risk the company has already sold. AII cedes ~39% of its premium to reinsurers, reduced its aggregate retention at the June 2026 renewal rather than raising it, and bought that protection more cheaply than last year. Its combined ratio improvement was driven primarily by the EXPENSE ratio, not by weather luck. Florida's reform is legislated, not cyclical. And on the corrected book value of $18.86 the stock trades at 1.39x, not the 1.52x the model used \u2014 at any sustainable ROTCE above roughly 14% the gap is positive, and the company is currently earning 39.6%. That is a wide margin of safety around my 16% estimate, and it argues the verdict should be cheap.",
-    "what_would_prove_it": "The 2026 hurricane season closing without a Florida landfall that pierces the retention, followed by Q3 and Q4 combined ratios in the 60s and a 2027 June 1 renewal that again prices down; plus primary rate filings that hold rather than follow reinsurance costs lower. Four clean quarters of reported ROE above 30% would make 16% look too conservative and would justify revisiting at a 20-22% ROTCE.",
-    "already_visible": "Partially, and honestly it favours the counter more than I expected when I started. The expense-ratio-driven improvement is real and is not weather. The retention reduction is real. The 22.3% book value growth is real. What is NOT visible is any observation of this company through a catastrophe as a public entity \u2014 it listed in 2025 and the engine has exactly ONE year of net income and equity in its extract, so the 'sustainable' return it computed is a single data point.",
-    "unresolved": "The one thing I cannot resolve is the only thing that matters: the size of the retained loss in a landfall year. I did not obtain the dollar attachment point and aggregate retention figures for the 2026-2027 tower beyond the disclosure that retention was reduced from $95M, so I cannot quantify the bear case against a $370M equity base. I also cannot assess reserve adequacy on pre-reform accident years with fifteen months of public reporting. Both are load-bearing and both are unanswered, which is why this is no_edge rather than cheap."
+    "strongest_counter": "The strongest counter is that this pass should have upgraded to cheap and did not. The 2026-09-04 verdict was capped at no_edge for one stated reason \u2014 the size of the retained loss in a landfall year was unknown \u2014 and that reason is now gone. A single event costs $35 million, which is 9.5% of equity and less than one quarter's pre-tax income. The worst season the programme is modelled against costs $75 million, roughly 20% of equity and about three quarters of one year's earnings: a bad year, not an impairment. The reinsurance was bought MORE cheaply with a LOWER aggregate retention despite 19% exposure growth, which is the opposite of a carrier reaching for risk. And I initially read 1H adjusted net income of $54.7 million against $69.4 million as the margin compression the last pass predicted \u2014 that reading was wrong and I corrected it: 1H 2025 carried income tax expense of only $1.4 million because the company was an LLC until its May 2025 IPO, and on a pre-tax basis income ROSE 10% ($73.7M against $67.0M) with second-quarter pre-tax income up 93%. The combined ratio 'deterioration' to 68.5% is likewise the quota-share reduction moving ceding commission income out of the expense line, which the deck explains. At a 16% sustainable ROTCE on the correct $18.86 book the fair value is about $34.29, or +35%.",
+    "what_would_prove_it": "Two things would settle it in the bull's favour: the 2027 June 1 renewal pricing down again on a second consecutive quiet season, and Florida primary rate filings holding rather than following. Against it: any Q3 or Q4 2026 disclosure of retained catastrophe losses, or a 2027 filing showing average premium per policy falling more than low single digits.",
+    "already_visible": "The bounded tail is visible and verified. What is ALSO visible, and is what stops me, is that the entire favourable resolution is already in the tape: the shares are +49.5% over 63 days and +37.3% over twelve months into the quietest Atlantic hurricane season on record. Buying a single-state Florida catastrophe writer in mid-September after the risk has largely resolved is buying after the news, and the next two quiet seasons push reinsurance and then primary rates lower \u2014 the company's own competitive-environment slide already shows average premium per policy down year over year while it grows policies in force 16%.",
+    "unresolved": "The cost of equity, and it is decisive. The engine's 9.7% comes from a sector-median beta of 0.87 substituted because AII's own regression has an R-squared of 0.010 \u2014 and the Financials median is built from banks and diversified financials. A single-state Florida homeowners insurer whose earnings distribution is bimodal around landfall does not have a 0.87 beta. At the engine's 9.7% cost of equity my 16% ROTCE justifies 1.82x book and the name is +35%. At a defensible 12-13% for this risk profile the justified multiple is 1.27-1.39 and the gap is roughly zero to -6%. The schema has no field to override cost of equity, so the sign of this verdict is set by an input I cannot correct and did not choose. Also still unresolved from the last pass: reserve adequacy on pre-reform accident years, with only fifteen months of public reporting, and the fact that this company has still never been observed through a catastrophe as a public entity \u2014 and on current form 2026 will not provide that observation either."
   },
-  "what_changed": "Q2 2026, reported 2026-08-11 (8-K items 2.02/7.01, EX-99.1 and EX-99.2): combined ratio 63.4% versus 72.9% a year earlier, improvement driven primarily by a lower expense ratio and the ABSENCE OF CATASTROPHE LOSSES in the quarter. Record pre-tax income $46.4M. ROE 38.7%, adjusted ROE 39.6%. Book value per share $18.86, up 22.3% year on year and 10.1% versus 2026-03-31. Gross premiums written $326.6M (+$39.6M); gross premiums earned $242.3M (+$18.6M). Record voluntary new business policies, +54% year on year and +44% sequentially, concentrated in Tri-County and middle-aged homes. The 2026-2027 catastrophe excess-of-loss program was renewed effective 2026-06-01 with risk-adjusted rate reductions at the upper end of market declines, retaining the 1-in-130-year PML attachment and REDUCING aggregate retention from $95M. Ceded CAT XOL premium fell to 39.4% of premium from 42.2%. No company-specific news since 2026-08-19.",
-  "consensus_case": "American Integrity is a Florida-concentrated homeowners insurer earning extraordinary returns in the best underwriting environment Florida property has offered in twenty years, and the market is paying 1.39x book for it rather than a multiple of the current return. Q2 2026: combined ratio 63.4% (from 72.9%), record pre-tax income $46.4M, ROE 38.7% and adjusted ROE 39.6%, gross premiums written +14% to $327M, record voluntary new business up 54% year on year, book value per share $18.86 (+22.3% YoY). The market's discount is not scepticism about those numbers \u2014 they are audited \u2014 it is a statement about their distribution. This is a single-state carrier whose reinsurance program is built to a 1-in-130-year probable maximum loss, which means it retains everything below that. Four benign years and one landfall is the shape of the business, and the arithmetic mean of that sequence is not what a shareholder compounds. A ~1.4x book multiple on a company that can lose a fifth of its book in a fortnight is a considered price, not an oversight.",
-  "base_case_rationale": "This is a book-method name, so my number is a sustainable ROTCE and it is in rotce_override. I use 16%, against the screen's 28.9% and the company's currently-reported 39.6% adjusted ROE. The bridge: start at ~39% in a zero-catastrophe year; subtract a normalised catastrophe load, which for a carrier retaining everything beneath a 1-in-130-year PML is worth on the order of 15-20 points of ROE averaged across the distribution rather than the zero booked in Q2; then subtract a few points more for the rate cycle. Florida's post-SB-2A economics are genuinely better \u2014 litigation frequency has fallen materially and that is a structural, legislated change rather than a weather outcome \u2014 but returns of this size attract capital, and the company's own disclosure already shows reinsurance pricing falling at the upper end of market declines, which is what capital inflow looks like from the buy side. Primary rate adequacy follows reinsurance cost down with a lag. 16% through the cycle is a return well above cost of equity and well below what is being printed today.",
+  "what_changed": "I fetched the document the last devil's-advocate pass nominated and could not obtain, and it answers the question that capped that verdict. The 2026-09-08 investor deck (8-K Item 7.01, EX-99.1) discloses the finalised 2026/2027 catastrophe excess-of-loss programme in full: FIRST EVENT RETENTION OF $35.0 MILLION ($10M at the insurance entity, $25M at the captive), unchanged from last year despite 19% exposure growth; second event retention $20 million; third and fourth event retentions $10 million each; and AGGREGATE RETENTION IN A FOUR-EVENT SEASON REDUCED FROM $95 MILLION TO $75 MILLION. The first-event tower including retentions is $2.27 billion, a 1-in-130 year probable maximum loss, total third-party coverage for all occurrences is $3.0 billion (up $409 million, 15.8%), the programme cost $430-440 million, and it was placed at a risk-adjusted rate reduction at the high end of 15-20%. The tower is modelled to contain a repeat of the four-event 2004 Florida storm season. Separately: 1H 2026 gross premiums written $546.6M (+10%), net premiums earned $186.9M (+42%, on the quota share cut from 40% to 25%), pre-tax income $73.7M against $67.0M, policies in force +16% and voluntary +22%, policy retention up from 75.1% to 84.4%, voluntary new business gross written premium $35.1M to $87.7M. And the season itself: as of 11 September 2026 the Atlantic has produced five named storms and ZERO hurricanes \u2014 a record for the latest first hurricane \u2014 with accumulated cyclone energy of 4.4 against a normal 58.2, and no tropical development expected in the following seven days.",
+  "consensus_case": "At $25.41 against a corrected tangible book of $18.86, American Integrity trades at 1.35x book while reporting a 40% adjusted return on equity in the second quarter and 31% for the half. The market is therefore implying a sustainable return of roughly 12% \u2014 that returns fall by about two-thirds. The bear case for that is coherent: Florida primary rates are flattening while reinsurance costs fall faster, the company's own deck concedes 'reinsurance rates have been declining well in excess of primary rates', average gross written premium per policy already slipped from $2,178 to $2,156 year over year, and the 63.4% combined ratio is the best this business will ever look \u2014 a no-catastrophe quarter in a reformed market with capital flooding back in. A single-state Florida homeowners insurer at the statistical peak of hurricane season, up 49.5% in 63 days, priced at only 1.35x book is the market declining to capitalise a peak-cycle return.",
+  "base_case_rationale": "Not applicable \u2014 book method. My sustainable ROTCE is 16%, unchanged from the 2026-09-04 pass. The new information bounds the downside rather than raising the mean: knowing that a landfall costs $35 million and the worst modelled season costs $75 million tells me the distribution has a floor, not that the average is higher. Against that, 2026 is on track to be the quietest Atlantic season on record, which is the single best possible year for this business and is exactly the year being annualised into a 40% adjusted ROE. Through a cycle that includes landfall years, reserve development on pre-reform accident years, and primary rates following reinsurance costs down, 16% is a return well above the cost of equity and well below what is being printed today.",
   "key_risks": [
-    "Single-state Florida homeowners concentration at the statistical peak of hurricane season",
-    "The model prices an arithmetic-mean return; catastrophe earnings are not distributed that way",
-    "Fifteen months of public reporting and one fiscal year in the engine's extract \u2014 no observation through a loss year",
-    "Record new business (+54%) written into a softening primary rate environment is how Florida carriers have historically bought trouble",
-    "Reserve development on pre-SB-2A accident years",
-    "Stock is +59.9% over 63 days and +40.3% over twelve months \u2014 much of the reform thesis is priced"
+    "The verdict's sign is set by a 9.7% cost of equity derived from a sector-median beta (own R-squared 0.010) on a single-state Florida catastrophe writer; at 12-13% the gap disappears entirely",
+    "The engine's 28.9% 'sustainable' ROTCE is a SINGLE observation \u2014 the extract holds exactly one year of net income and one of equity",
+    "Shares +49.5% over 63 days into the quietest Atlantic season on record; the favourable resolution is largely priced",
+    "Primary rates are already flattening while reinsurance falls faster \u2014 the company's own deck concedes it and average premium per policy is down year over year",
+    "Reserve development on pre-SB-2A accident years, with fifteen months of public reporting",
+    "A storm larger than the 1-in-130 year tower attachment leaves loss above $2.27 billion with the company",
+    "Record voluntary new business (+150% premium) written into a softening primary rate environment is how Florida carriers have historically bought trouble"
   ],
   "watch_for": [
-    "Any named storm making Florida landfall before 30 November 2026, and the retained loss disclosed against it",
-    "Q3 2026 combined ratio \u2014 the first quarter of the season, and the test of whether 63.4% was weather or expense",
-    "Primary rate filings with the Florida OIR: reinsurance cost falling is good for AII only until primary rates follow it down",
-    "The 2027 June 1 CAT XOL renewal \u2014 a second consecutive risk-adjusted decrease would confirm capital inflow"
+    "Any named storm making Florida landfall before 30 November 2026 and the retained loss disclosed against the $35 million first-event retention",
+    "Q3 2026 combined ratio \u2014 the first full season quarter, and the test of whether 63.4% was expense discipline or weather",
+    "Florida OIR primary rate filings: reinsurance falling is good for AII only until primary rates follow",
+    "The 2027 June 1 catastrophe excess-of-loss renewal \u2014 a second consecutive risk-adjusted decrease confirms capital inflow and confirms the rate-compression bear case at the same time",
+    "Average gross written premium per policy: $2,156 at Q2 2026 against $2,178 a year earlier"
   ],
   "sources": [
-    "https://www.businesswire.com/news/home/20260810036636/en/American-Integrity-Insurance-Group-Inc.-Reports-Second-Quarter-2026-Results",
-    "data/adhoc/AII/2026-08-11-EX-99.1.txt (Q2 2026 press release, fetched via adhoc-fetch)",
-    "data/adhoc/AII/2026-08-11-EX-99.2.txt (Q2 2026 investor presentation)",
-    "data/adhoc/AII/2026-08-13-10-Q-aii-20260630.htm.txt",
-    "https://www.fool.com/earnings/call-transcripts/2026/08/19/american-integrity-insurance-aii-q2-2026-earnings-call-transcript/",
-    "https://finance.yahoo.com/markets/stocks/articles/american-integrity-insurance-group-inc-010622218.html",
-    "data/fundamentals.json CIK 2007587 (stored EDGAR extract, v5)"
+    "data/adhoc/AII/2026-09-08-EX-99.1.txt (Q2 2026 investor deck, 8-K Item 7.01 \u2014 the 2026/2027 catastrophe reinsurance tower, retentions and balance sheet; fetched via adhoc-fetch)",
+    "data/adhoc/AII/2026-08-13-10-Q-aii-20260630.htm.txt (Q2 2026 Form 10-Q, confirms $35.0 million net retention)",
+    "data/adhoc/AII/2026-08-11-EX-99.1.txt (Q2 2026 earnings release)",
+    "https://www.nbcmiami.com/news/local/peak-of-2026-atlantic-hurricane-season-tropical-activity-historic-low/3857305/",
+    "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
+    "research/Financials/AII.md (prior pass, 2026-09-04)",
+    "data/fundamentals.json CIK 2007587 (stored EDGAR extract)"
   ],
   "flags": [
-    "beta_from_sector_median_0.87(unreliable_r2_0.008_raw_0.21)"
+    "beta_from_sector_median_0.87(unreliable_r2_0.010_raw_0.23)"
   ]
 }

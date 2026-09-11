@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>RWT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / RWT</p><h1>RWT <span style='color:var(--faint);font-weight:400'>REDWOOD TRUST REIT</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$3.63</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-11</b></div></div><div class='prose'><h1>RWT — REDWOOD TRUST REIT</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-11 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $3.63</li></ul><p><strong>The case for the price.</strong> At $3.63 against a GAAP book value of $6.90 per share, Redwood Trust trades at 0.53x book — and the market has just been told why. On 10 September the company announced, and on 11 September priced, an UPSIZED $185.0 million offering of 7.00% convertible senior notes due 2030, conversion price approximately $4.90, a 35% premium to the 10 September close, with a $20 million greenshoe. A company trading at half of book that raises five-year money at a 7% coupon with equity attached 29% BELOW its own book value is telling you what its marginal cost of capital is, and it is far above what its legacy portfolio earns. That is the steelman for 0.53x: the mortgage banking platforms genuinely earn above 20% returns and production exceeded $8 billion for a second consecutive quarter, but the consolidated entity posted a GAAP net LOSS of $3 million in the second quarter and book value per share fell from $7.12 to $6.90. The market is capitalising the legacy investment portfolio at a discount and the origination platform at something, and the sum is half of stated book.</p><p><strong>What changed.</strong> Three dated events in the two sessions before the screen, which together explain a 19.2% five-day fall on 2.4x normal volume. (1) 2026-09-10: announced an offering of convertible senior notes due 2030. (2) 2026-09-11: priced it, UPSIZED from $150.0 million to $185.0 million, at a 7.00% coupon, initial conversion rate 204.0608 shares per $1,000 (approximately $4.90 per share, a 35% premium to the 10 September close), maturing 15 September 2030, expected to close 15 September 2026, with an option for $20 million more. (3) 2026-09-10: declared third-quarter common and preferred dividends. Earlier: Q2 2026 reported 2026-07-28 — a GAAP net loss of $3 million or $0.03 per share, mortgage banking production above $8 billion for a second consecutive quarter with platform returns above 20%, revenue missing estimates by 26.2%, and GAAP book value per common share of $6.90 at 30 June 2026 against $7.12 at 31 March 2026.</p><p><strong>Base case.</strong> I will not supply one. The justified price-to-tangible-book model returns a NEGATIVE multiple here (-0.46) because the sustainable ROTCE it computed is negative — the model is asserting that the equity is worth less than nothing, which is not a valuation, it is the arithmetic failing. Supplying a ROTCE to make it print a number would launder that failure into a fair value, which is the discipline the PIPR and JXN entries in LESSONS.md establish.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter to refusing is that price to book is exactly the right frame for a balance-sheet lender — unlike PIPR, whose capital is a roster of bankers, Redwood&#x27;s capital genuinely IS its balance sheet — so refusing to price it is a failure of nerve rather than of method. A company at 0.53x tangible book with an operating platform earning above 20% on $8 billion of quarterly production is, on its face, the sort of discount worth understanding. And the engine&#x27;s &#x27;richest 2% of 338 Financials&#x27; reading is so obviously wrong in DIRECTION that dismissing the whole model throws away the useful signal that the stock is cheap on book.</li><li>What would prove it: Two consecutive quarters of GAAP profitability with book value per share stable or rising, and a disclosed split of return on equity between the mortgage banking segments and the legacy investment portfolio. If the platforms are earning 20% on a growing share of capital while the legacy book stops shrinking book value, the discount is an opportunity.</li><li>Already visible today: The opposite is visible, and it is why I refuse rather than call it cheap. Book value per share fell 3% in a single quarter. The engine&#x27;s own three-year net-income-to-common series is [-$77.0M, +$47.0M, -$9.0M] — two loss years in three, which is what produces the -1.7% average ROTCE and the range of -8.8% to +4.4% the brief flags. And the capital raise settles the question of how management sees its own cost of capital: a company that believed its shares were worth materially more than $3.63 does not sell five-year paper at 7% convertible at $4.90 when stated book is $6.90. That is an issuer accepting expensive money, which is evidence about the earning power of the assets, not about market mispricing.</li><li>Left unresolved: I could not obtain the segment return on equity split between mortgage banking and the legacy investment portfolio, nor the composition and marks of the legacy book, so I cannot say what share of the 0.53x discount is a real impairment of the investment portfolio and what share is the market refusing to capitalise a genuinely profitable origination franchise. That is the entire question and I did not answer it. I also did not open the 2026-09-10 8-K itself, working from the company&#x27;s press releases instead.</li></ul><p><strong>Key risks.</strong> The engine ranks RWT in the RICHEST 2% of 338 Financials on a negative justified multiple, which is the model failing rather than a view — do not read the -188% gap as a signal in either direction; GAAP earnings are marks: two loss years in the last three, and book value per share falling quarter over quarter; A 7.00% convertible priced at a $4.90 conversion price against $6.90 of book is dilutive to book value if converted and expensive if not; 79% debt weight in the WACC with a speculative cost of debt — the discount rate is not trustworthy; Mortgage origination volume is rate-sensitive into an expected Fed hike on 16 September <strong>Watch for.</strong> Q3 2026 GAAP book value per share — a third consecutive decline would settle the legacy-portfolio question; Any segment disclosure splitting return on equity between mortgage banking and the legacy investment portfolio; Whether the $20 million greenshoe on the convertible is exercised, and any further capital raising; A return to GAAP profitability for two consecutive quarters</p><p><strong>Data quality.</strong> Three flags, all of them correct, plus one error the engine does not flag. (1) <code>unstable_rotce_-8.8%_to_4.4%</code> and <code>loss_year_in_window</code> are both accurate: net income to common runs [-$77.0M, +$47.0M, -$9.0M], which is why the computed sustainable ROTCE is -1.7% and the justified price-to-tangible-book is NEGATIVE at -0.46. Per the RIOT/EPRT refusal test in LESSONS.md a negative row means report no_model and disregard the number — a model asserting that equity is worth less than nothing is not a valuation. (2) <code>speculative_cost_of_debt_at_79%_debt_weight_wacc_unreliable</code> is correct and is compounded by the new issue: a 7.00% convertible is real, observable, expensive money that the extract does not yet contain. (3) UNFLAGGED: tangible book per share is STALE, the same defect confirmed on AII in today&#x27;s ten. The brief reports $7.00, which is the 31 December 2025 equity of $982.6 million net of preferred, non-controlling interest, goodwill and intangibles over current shares. The 30 June 2026 equity in the same extract is $933.8 million, giving $6.65 per share — so actual price to tangible book is 0.55, not the 0.52 shown. The direction is small here but the mechanism is identical to BUR, where it was the entire verdict, and it is the second name in today&#x27;s ten carrying it. (4) Classification: Redwood is a mortgage REIT sitting in the Financials bucket and therefore priced by the justified-P/TBV model. Unlike PIPR the frame is defensible — a balance-sheet lender&#x27;s capital genuinely is its balance sheet — so this is the JXN problem (the numerator is a mark, not a return) rather than the PIPR problem (the wrong frame entirely).</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://finance.yahoo.com/markets/stocks/articles/redwood-trust-prices-upsized-185-040400196.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/redwood-trust-prices-upsized-185-040400196.html</a></li><li><a href="https://www.stocktitan.net/news/RWT/redwood-trust-prices-upsized-185-0-million-convertible-senior-notes-h3ixnlw7ovtv.html" rel="noopener">https://www.stocktitan.net/news/RWT/redwood-trust-prices-upsized-185-0-million-convertible-senior-notes-h3ixnlw7ovtv.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/redwood-trust-announces-offering-convertible-105900542.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/redwood-trust-announces-offering-convertible-105900542.html</a></li><li><a href="https://www.redwoodtrust.com/investor-relations/news-events/press-releases/detail/384/redwood-trust-reports-second-quarter-financial-results" rel="noopener">https://www.redwoodtrust.com/investor-relations/news-events/press-releases/detail/384/redwood-trust-reports-second-quarter-financial-results</a></li><li><a href="https://www.marketbeat.com/instant-alerts/redwood-trust-q2-earnings-call-highlights-2026-07-28/" rel="noopener">https://www.marketbeat.com/instant-alerts/redwood-trust-q2-earnings-call-highlights-2026-07-28/</a></li><li>data/fundamentals.json CIK 930236 (stored EDGAR extract)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/RWT.md'>research/Financials/RWT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

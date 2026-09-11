@@ -1,0 +1,192 @@
+{
+  "ticker": "LOVE",
+  "date": "2026-09-11",
+  "sector": "Consumer Discretionary",
+  "name": "LOVESAC COMPANY",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.01,
+  "bear_growth": -0.06,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 14.260000228881836,
+  "market_implied_growth": -0.04498255552166103,
+  "cohort_pct": 90.6,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.01,
+    "market_implied_growth": -0.04498255552166103,
+    "growth_delta": 0.05498255552166103,
+    "fair_value": 14.599033129826191,
+    "price": 14.260000228881836,
+    "gap": 0.023775097861337136,
+    "fair_value_band": {
+      "low": 13.2553895793605,
+      "point": 14.599033129826191,
+      "high": 16.215101632887492
+    },
+    "fcff_base_used": 26000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.12849966930808562,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 26000000,
+      "price": 14.260000228881836,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.06,
+          "cells": [
+            {
+              "wacc": 0.10849966930808562,
+              "fair_value": 13.105324908630417,
+              "gap": -0.08097302256088112
+            },
+            {
+              "wacc": 0.11849966930808563,
+              "fair_value": 11.70828028371808,
+              "gap": -0.17894248977609184
+            },
+            {
+              "wacc": 0.12849966930808562,
+              "fair_value": 10.566346076641137,
+              "gap": -0.25902202615394543
+            },
+            {
+              "wacc": 0.13849966930808563,
+              "fair_value": 9.61503511983707,
+              "gap": -0.32573387338640947
+            },
+            {
+              "wacc": 0.1484996693080856,
+              "fair_value": 8.809929240299374,
+              "gap": -0.38219291031595004
+            }
+          ],
+          "fair_value_at_point_wacc": 10.566346076641137,
+          "gap_at_point_wacc": -0.25902202615394543
+        },
+        {
+          "case": "base",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.10849966930808562,
+              "fair_value": 18.195922096649987,
+              "gap": 0.27601134674573413
+            },
+            {
+              "wacc": 0.11849966930808563,
+              "fair_value": 16.215101632887492,
+              "gap": 0.1371038830732867
+            },
+            {
+              "wacc": 0.12849966930808562,
+              "fair_value": 14.599033129826191,
+              "gap": 0.023775097861337136
+            },
+            {
+              "wacc": 0.13849966930808563,
+              "fair_value": 13.2553895793605,
+              "gap": -0.07044955353413129
+            },
+            {
+              "wacc": 0.1484996693080856,
+              "fair_value": 12.120583191884254,
+              "gap": -0.15002924282318464
+            }
+          ],
+          "fair_value_at_point_wacc": 14.599033129826191,
+          "gap_at_point_wacc": 0.023775097861337136
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.10849966930808562,
+              "fair_value": 24.75534684294314,
+              "gap": 0.7359990494813808
+            },
+            {
+              "wacc": 0.11849966930808563,
+              "fair_value": 22.00774460888935,
+              "gap": 0.5433200740288513
+            },
+            {
+              "wacc": 0.12849966930808562,
+              "fair_value": 19.769418900367743,
+              "gap": 0.3863547393447633
+            },
+            {
+              "wacc": 0.13849966930808563,
+              "fair_value": 17.911322036610187,
+              "gap": 0.2560534185920318
+            },
+            {
+              "wacc": 0.1484996693080856,
+              "fair_value": 16.3445828257252,
+              "gap": 0.14618391047577295
+            }
+          ],
+          "fair_value_at_point_wacc": 19.769418900367743,
+          "gap_at_point_wacc": 0.3863547393447633
+        }
+      ],
+      "summary": {
+        "bear": -0.25902202615394543,
+        "base": 0.023775097861337136,
+        "bull": 0.3863547393447633
+      },
+      "downside": -0.38219291031595004,
+      "upside": 0.7359990494813808
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case that I am too cautious is the price itself. A debt-free company with a strong cash position, guiding to $31.5-35.5 million of Adjusted EBITDA excluding all tariff benefit, is being valued at $209 million of equity and $230 million of enterprise value \u2014 under 7x its own ex-refund EBITDA guidance. The stock is down 26% over twelve months and fell 12% on a quarter that met revenue expectations and beat on earnings. If the market is pricing permanent decline into a brand that still opened 14 net new showrooms and held 84% of its price points, then zero growth is too pessimistic and the asymmetry is upward. My own bear case \u2014 that the fourth quarter carries the year \u2014 is also just the normal seasonality of a furniture retailer whose fourth quarter has always been the profit quarter.",
+    "what_would_prove_it": "The fourth quarter. Full-year Adjusted EBITDA of $31.5-35.5 million requires roughly $50-57 million in Q4 given the reported first half and the guided third quarter; delivering it, with omni-channel comparable sales turning positive as the new products ship, would settle it. The cleaner single observable is fiscal 2028 first-quarter comparable sales against a quarter with no tariff refund in it.",
+    "already_visible": "Some of it, and it is genuinely mixed. Net sales of $161.2 million were a record for a non-fourth quarter and came in within guidance; the 250 basis point product-margin improvement is disclosed and is not tariff-related; the balance sheet is debt-free. But the two things that decide it are not visible: no new product has shipped at scale, and no quarter of this fiscal year has been reported without a refund in it. The company's own third-quarter guide \u2014 a $7-10 million Adjusted EBITDA loss on $140-150 million of sales \u2014 is the first clean look and it is a guided loss.",
+    "unresolved": "I could not determine how much more IEEPA refund is still to be collected. The company submitted CAPE claims in April 2026 and had received $21.0 million as of 2 August 2026, but disclosed no estimate of the remaining claim, so I cannot size the fiscal 2027 cash inflow or therefore the size of the fiscal 2028 headwind when it laps. That is the single largest unquantified item in the forward cash flow."
+  },
+  "what_changed": "The 10-Q and press release filed 2026-09-10 for the quarter ended 2026-08-02, both fetched and read. (1) THE ENTIRE QUARTER IS A TARIFF REFUND. Gross margin rose 1,200 basis points to 68.4% from 56.4% \u2014 and the company discloses that IEEPA tariff recoveries contributed 1,240 basis points of that, so EX-REFUND GROSS MARGIN FELL about 40 basis points. It received $21.0 million of IEEPA refunds in the quarter: $20.0 million through cost of merchandise sold, $0.3 million against inventory, $0.7 million as interest income. For the half, gross margin rose 570 basis points of which 670 was the refund. (2) The company gives its own ex-refund figure, because Adjusted EBITDA explicitly excludes the recoveries: Q2 FY27 Adjusted EBITDA was NEGATIVE $1.252 million against POSITIVE $0.837 million a year earlier, and first-half Adjusted EBITDA was negative $11.798 million against negative $7.610 million. Ex-refund the business went backwards in both periods. (3) Operating cash flow for the twenty-six weeks was NEGATIVE $11.4 million \u2014 and that is AFTER collecting the $21.0 million, so ex-refund first-half operating cash flow was roughly negative $32 million against negative $29.2 million a year earlier. (4) Guidance cut: full-year net sales $690-710 million and gross margin 58.5-59.5% (which includes the refunds); third-quarter net sales $140-150 million with gross margin back down to 54.5-55.5% and an Adjusted EBITDA LOSS of $7-10 million.",
+  "consensus_case": "At $14.26 Lovesac is a $209 million market capitalisation against an enterprise value of $230 million, no debt, and a normalized FCFF base of $31.9 million \u2014 a 13.9% free cash flow yield. The reverse DCF says the price requires FCFF to SHRINK 4.5% a year for five years (or to grow 0.4% if you expense the stock compensation that is 19% of the base). That is not a demanding assumption, it is a statement that the market has stopped believing this is a growth company, and the second-quarter numbers support it: omni-channel comparable net sales fell 1.9% in the quarter and 1.3% year to date, total net sales rose 0.4% only because of 14 net new showrooms, and the company cut full-year revenue guidance while pushing its biggest product launches into the fourth quarter. Strip the one-time tariff refund and the business lost money at the adjusted EBITDA line in both the quarter and the half. A buyer at zero growth is paying for a debt-free balance sheet and a brand, not for a trajectory.",
+  "base_case_rationale": "I underwrite the stock-compensation-expensed base of $26.0 million, not the reported $31.9 million: equity compensation at 19% of free cash flow is a real transfer to employees and the share count reflects it. On that base the market implies +0.4% and I get to about +1%. The reasoning is arithmetic rather than optimistic. Comparable sales are running -1.3% to -1.9% and new showrooms add roughly two points, so revenue is flat; the 250 basis points of product-margin improvement from price increases is real and offsets some of the 160bp of inbound tariff and 130bp of outbound transportation cost; and the onshoring programme for Sactionals production is a genuine structural cost lever if it lands. Against that, fiscal 2028 laps the IEEPA refunds with no offset, which is a dated, mechanical headwind the model cannot see. Flat-to-one-percent is where those forces net out. I am explicitly NOT underwriting the naive +16.8% baseline: that is a five-year revenue CAGR from a period of 20%+ growth applied to a company now growing 0.4%, and it is the whole source of the +145.6% gap.",
+  "key_risks": [
+    "Full-year Adjusted EBITDA guidance requires roughly $50-57 million in the fourth quarter alone, from a first half of -$11.8 million, on products not yet shipped",
+    "Fiscal 2028 laps $21 million-plus of IEEPA refunds with no offset \u2014 a dated, mechanical earnings and cash-flow headwind",
+    "Omni-channel comparable sales negative in both the quarter (-1.9%) and the half (-1.3%) while showroom count grows",
+    "Ex-refund first-half operating cash flow was roughly -$32 million against -$29.2 million a year earlier: underlying cash generation deteriorated year over year",
+    "Operating leases are 73% of enterprise value across a growing showroom fleet \u2014 a fixed-cost book that does not shrink when volumes do",
+    "Single-brand, single-category discretionary exposure into an expected Fed hike on 16 September"
+  ],
+  "watch_for": [
+    "Fourth quarter fiscal 2027 Adjusted EBITDA against the roughly $50-57 million the full-year guide implies",
+    "First-quarter fiscal 2028 comparable sales \u2014 the first period with no tariff refund in either year",
+    "Any disclosure of the remaining IEEPA refund claim still outstanding",
+    "Evidence the Sactionals onshoring programme is taking landed cost out rather than adding capital expenditure"
+  ],
+  "sources": [
+    "data/adhoc/LOVE/2026-09-10-10-Q-love-20260802.htm.txt (Q2 FY2027 Form 10-Q, fetched via adhoc-fetch)",
+    "data/adhoc/LOVE/2026-09-10-EX-99.1.txt (Q2 FY2027 press release, outlook and Adjusted EBITDA reconciliation)",
+    "https://www.globenewswire.com/news-release/2026/09/10/3359357/0/en/the-lovesac-company-reports-second-quarter-fiscal-2027-financial-results.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/09/10/lovesac-love-q2-2027-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/lovesac-nasdaq-love-posts-q2-121612609.html"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.55x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_73%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}
