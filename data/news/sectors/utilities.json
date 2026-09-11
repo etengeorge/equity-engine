@@ -1,5 +1,19 @@
 [
  {
+  "id": "05a9f1dc-f40a-341d-88f8-af415e5b075e",
+  "ts": "2026-09-11T13:25:00+00:00",
+  "title": "Stock Market News for Sep 11, 2026",
+  "summary": "Wall Street closed lower on Thursday, dragged down by surging oil prices and inflation data.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "6df5d168-7ebb-304a-84bd-cb2cbdd23d02",
   "ts": "2026-09-10T13:22:00+00:00",
   "title": "Stock Market News for Sep 10, 2026",

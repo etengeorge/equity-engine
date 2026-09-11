@@ -1,5 +1,33 @@
 [
  {
+  "id": "dcb7e955-db63-328d-b4f6-b05c9438c383",
+  "ts": "2026-09-11T13:14:24+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.8% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "1555697f-05ad-3856-8165-c46ef7749935",
+  "ts": "2026-09-11T12:05:37+00:00",
+  "title": "Tesla\u2019s Drag on XLY Was Softened by Amazon\u2019s Gain; QQQ Felt Almost Nothing",
+  "summary": "Tesla is down on the year, yet two ETFs that both own the stock are having completely opposite experiences in 2026. The reason has nothing to do with the stock itself and everything to do with a single number buried in each fund's filing.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "3063b651-686a-37bd-af16-c5858346a18d",
   "ts": "2026-09-10T19:45:57+00:00",
   "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",

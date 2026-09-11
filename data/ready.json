@@ -1,50 +1,50 @@
 {
-  "screen_utc": "2026-09-11T11:26:52+00:00",
+  "screen_utc": "2026-09-11T14:38:23+00:00",
   "price_asof": "2026-09-10",
   "universe": 1956,
   "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-11T11:26:53+00:00",
+    "generated_utc": "2026-09-11T14:38:26+00:00",
     "sectors": {
       "Health Care": {
         "new": 2,
-        "held": 38,
+        "held": 40,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 4,
-        "held": 49,
+        "new": 3,
+        "held": 52,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 22,
+        "new": 1,
+        "held": 23,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 3,
-        "held": 46,
+        "new": 2,
+        "held": 48,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 3,
-        "held": 36,
+        "new": 2,
+        "held": 38,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 5,
-        "held": 63,
+        "new": 3,
+        "held": 66,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 31,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 2,
-        "held": 15,
+        "new": 1,
+        "held": 16,
         "etf": "XLB"
       },
       "Communication": {
@@ -53,38 +53,38 @@
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 2,
-        "held": 35,
+        "new": 1,
+        "held": 36,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 20,
+        "new": 1,
+        "held": 21,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 1085,
+    "articles_new": 207,
     "candidates": 450,
-    "elapsed_s": 219.8
+    "elapsed_s": 227.7
   },
   "picks": [
-    "RGTI",
-    "CORZ",
-    "HASI",
-    "AX",
-    "CSW",
-    "CIFR",
-    "LOVE",
-    "AII",
-    "LCII",
-    "RWT"
+    "VCTR",
+    "NOVT",
+    "CNR",
+    "PECO",
+    "OGS",
+    "OII",
+    "WLTH",
+    "SHOE",
+    "AEO",
+    "KBH"
   ],
   "stages": {
-    "screen": "2026-09-11T11:30:49+00:00",
-    "news": "2026-09-11T11:30:33+00:00",
-    "pick": "2026-09-11T11:30:49+00:00"
+    "screen": "2026-09-11T14:42:29+00:00",
+    "news": "2026-09-11T14:42:13+00:00",
+    "pick": "2026-09-11T14:42:29+00:00"
   }
 }

@@ -1,102 +1,102 @@
-# LCII — LCI INDUSTRIES
+# KBH — KB HOME
 *Consumer Discretionary · brief generated 2026-09-11 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 5% of 128 Consumer Discretionary peers (95th pct)
-- baseline gap +208%
-- 5d move -9%
-- 21d move -12%
-- filed an 8-K in the last few sessions
+- cheapest 4% of 128 Consumer Discretionary peers (96th pct)
+- baseline gap +212%
+- 5d move -8%
+- 21d move -17%
+- 4 news items in the last 5 days
 - Consumer Discretionary is in the news
 - never researched
-- urgency score 8.96
+- urgency score 8.01
 
 ## Market
 | | |
 |---|---|
-| price | $93.40 |
-| market cap | $2.3B |
-| 5d / 21d / 63d / 252d | -9.0% / -12.0% / +4.1% / -5.9% |
-| 60d avg daily $ volume | $43.3M |
-| beta (vs IWM) | 0.94 (R²=0.281) |
+| price | $47.75 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | -8.3% / -17.3% / -8.1% / -26.3% |
+| 60d avg daily $ volume | $64.5M |
+| beta (vs IWM) | 0.96 (R²=0.263) |
 | 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 73% / debt 27% |
+| balance sheet as of | 2026-05-31 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$383.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$278.3M', '$328.0M', '$465.0M']
-Enterprise value **$2.9B** · FCFF yield **+13.2%**
+Normalized FCFF base **$552.6M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$287.3M', '$323.4M', '$1.0B']
+Enterprise value **$2.7B** · FCFF yield **+20.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.6% − 1pt | -16.5% |
-| **8.6% (point)** | **-13.5%** |
-| 8.6% + 1pt | -10.8% |
+| 10.2% − 1pt | -20.9% |
+| **10.2% (point)** | **-18.7%** |
+| 10.2% + 1pt | -16.6% |
 
 
-Naive baseline for comparison: **+8.1%** (5y revenue CAGR +8.1%).
-Gap under that baseline: **+208.4%** (fair value $288.05 vs price $93.40).
+Naive baseline for comparison: **+8.3%** (5y revenue CAGR +8.3%).
+Gap under that baseline: **+212.3%** (fair value $149.14 vs price $47.75).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **95th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +206.1%).
+Cohort: **96th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +209.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.60x_oldest_growth_applied_to_a_trough_understates_value`
+- `possible_trough_cycle_base_newest_fcf_0.27x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-09-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000084/lcii-20260904.htm
-- 2026-08-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000082/lcii-20260810.htm
-- 2026-08-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000079/lcii-20260805.htm
-- 2026-08-07 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000077/lcii-20260807.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/763744/000076374426000070/lcii-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-20260805.htm
-- 2026-07-22 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000067/lcii-20260722.htm
-- 2026-07-20 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000061/lcii-20260718.htm
-- 2026-06-30 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000040/lcii-20260630.htm
-- 2026-06-23 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/763744/000076374426000038/lcii-20260619.htm
+- 2026-07-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm
+- 2026-06-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/kbh-20260623.htm
+- 2026-05-01 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000051/kbh-20260429.htm
+- 2026-04-24 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000044/kbh-20260423.htm
+- 2026-04-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/795266/000079526626000042/kbh-20260228.htm
+- 2026-03-24 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000037/kbh-20260324.htm
+- 2026-03-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/795266/000130817926000068/kbh-20260313.htm
+- 2026-01-28 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000024/kbh-20260122.htm
+- 2026-01-23 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/795266/000079526626000019/kbh-20260122.htm
+- 2026-01-23 **10-K** — https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/763744/000076374426000079/lcii-transcriptx20260805.htm
-- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/763744/000076374426000077/ex991dividend20260807.htm
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-earningsrelease2q26qu.htm
-- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-irshortdeck2q26fina.htm
-- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/763744/000076374426000067/a991earnannounce2q26.htm
+- **2026-06-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/exh991kbh-earningsrelease0.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-02** · Lippert named Fun Town RV CEO — *Cleburne Times-Review, Texas* — https://www.cleburnetimesreview.com/news/lippert-named-fun-town-rv-ceo/article_04acbe3e-256f-41cc-aeae-919a7b44dcfd.html
-  > A new chief executive officer has been named for Fun Town RV as founder and CEO Jarrod McGhee moves into a founder/chairman role. Jason Lippert, a 32-year veteran of LCI Industries, will assume McGhee’s position. “This is an important new c
-- **2026-08-12** · LCI Industries (LCII) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/12/lci-industries-lcii-q2-2026-earnings-call-transcript/
-  > RV supplier navigates softened market while expanding aftermarket and adjacent OEM segments.
-- **2026-08-08** · LCI Industries Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/lci-industries-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > LCI Industries (NYSE:LCII) reported improved second-quarter profitability despite continued softness in outdoor recreation demand, as cost-cutting initiatives, operational efficiencies and higher product content helped offset lower OEM sale
-- **2026-08-08** · LCI Industries Inc (LCII) (Q2 2026) Earnings Call Highlights: Margin Expansion and Strategic ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/lci-industries-inc-lcii-q2-030140424.html
-  > LCI Industries Inc (LCII) delivered a 13% increase in adjusted EPS to $2.70 and expanded operating margins by 110 basis points, despite a 4% sales decline and lowered full-year guidance.
-- **2026-08-07** · LCI Industries Declares Quarterly Cash Dividend — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/lci-industries-declares-quarterly-cash-110000723.html
-  > ELKHART, Ind., August 07, 2026--LCI Industries (NYSE: LCII), a leading supplier of engineered components to the recreation and transportation markets, today announced that its Board of Directors approved a regular quarterly cash dividend of
-- **2026-08-06** · Patrick Industries (PATK) Stock Looks Reasonable On Cash Flow While Earnings Look Rich — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/patrick-industries-patk-stock-looks-111210451.html
-  > Patrick Industries stock has delivered a 67.2% gain over the past three years, yet its current valuation signals are splitting. The Discounted Cash Flow (DCF) intrinsic value estimate points to the shares trading at a steep discount, while 
-- **2026-08-06** · LCI Industries Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-lci-industries-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of LCI Industries's Q2 2026 earnings call
-- **2026-08-05** · LCI (LCII) Reports Q2 Earnings: What Key Metrics Have to Say — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/lci-lcii-reports-q2-earnings-133004649.html
-  > Although the revenue and EPS for LCI (LCII) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.
-- **2026-08-05** · LCI (LCII) Q2 Earnings Top Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/lci-lcii-q2-earnings-top-130007518.html
-  > LCI (LCII) delivered earnings and revenue surprises of +2.66% and -14.21%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-05** · LCI Industries Reports Second Quarter Financial Results — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/lci-industries-reports-second-quarter-110000592.html
-  > ELKHART, Ind., August 05, 2026--LCI Industries (NYSE: LCII), a leading supplier of engineered components to the recreation and transportation markets, today reported second quarter 2026 results.
+- **2026-09-11** · Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-kb-home-130005437.html
+  > Recently, Zacks.com users have been paying close attention to KB Home (KBH). This makes it worthwhile to examine what the stock has in store.
+- **2026-09-10** · Housing Market Seeing Renewed Affordability Headwinds, With Fed Hike Prospects Likely to Worsen Situation, RBC Says — *MT Newswires* — https://finance.yahoo.com/real-estate/articles/housing-market-seeing-renewed-affordability-172452714.html
+  > The US housing market is facing renewed affordability pressures amid elevated mortgage rates and pri
+- **2026-09-08** · KB Home (KBH) Sees a More Significant Dip Than Broader Market: Some Facts to Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-sees-more-215001231.html
+  > In the latest trading session, KB Home (KBH) closed at $50.2, marking a -3.92% move from the previous day.
+- **2026-09-08** · KB HOME TO RELEASE 2026 THIRD QUARTER EARNINGS ON SEPTEMBER 22, 2026 — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/kb-home-release-2026-third-201000523.html
+  > KB Home (NYSE: KBH) today announced that it will release earnings for its third quarter ended August 31, 2026 after the market closes on Tuesday, September 22, 2026. A live webcast of the Company's earnings conference call will be held the 
+- **2026-09-04** · KB HOME OPENS SANDSTONE, A NEW MASTER-PLANNED COMMUNITY OF OVER 1,500 HOMES IN A PRIME NORTH LAS VEGAS LOCATION — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/kb-home-opens-sandstone-master-203000329.html
+  > KB Home (NYSE: KBH), one of the largest and most trusted homebuilders in the U.S., today announced the opening of the first phase of Sandstone, the homebuilder's massive new master plan in North Las Vegas. This master plan spans nearly 300 
+- **2026-09-03** · KB HOME OPENS MORNINGSIDE: NEW HOMES FROM THE HIGH $200Ks IN DADE CITY, FLORIDA — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/kb-home-opens-morningside-homes-120000126.html
+  > KB Home (NYSE: KBH), one of the largest and most trusted homebuilders in the U.S., today announced the opening of Morningside, a new-home community in Dade City, Florida.
+- **2026-09-02** · 2 Industrials Stocks with Exciting Potential and 1 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-exciting-potential-185223349.html
+  > Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of the broader economy, and in
+- **2026-08-31** · KB Home (KBH) Suffers a Larger Drop Than the General Market: Key Insights — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-suffers-larger-215002936.html
+  > In the closing of the recent trading day, KB Home (KBH) stood at $53.3, denoting a -2.84% move from the preceding trading day.
+- **2026-08-28** · KB HOME NAMES CASEY DARE AS PRESIDENT OF ITS TAMPA DIVISION — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/kb-home-names-casey-dare-120000593.html
+  > KB Home (NYSE: KBH) today announced that Casey Dare has been named as its Tampa Division President. In this role, Dare is responsible for the company's homebuilding operations throughout the region, from land acquisition and construction to
+- **2026-08-25** · KB Home (KBH) Outperforms Broader Market: What You Need to Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-outperforms-broader-215002046.html
+  > In the latest trading session, KB Home (KBH) closed at $57.11, marking a +2.64% move from the previous day.
+- **2026-08-20** · KB Home, Meritage Homes, and LGI Homes Shares Plummet, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/kb-home-meritage-homes-lgi-220315601.html
+  > A number of stocks fell in the afternoon session after the 10-year Treasury yield surged, threatening to drive mortgage rates higher and freeze housing demand.
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
+- **2026-09-11** · Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-thursday-173543020.html
 - **2026-09-10** · How Is Yum! Brands' Stock Performance Compared to Other Consumer Cyclical Stocks? — *Barchart* — https://www.barchart.com/story/news/4539055/how-is-yum-brands-stock-performance-compared-to-other-consumer-cyclical-stocks
@@ -105,14 +105,12 @@ Attack these before you trust any number above.
 - **2026-09-09** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html
 - **2026-09-09** · Sector Update: Consumer Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html
 - **2026-09-09** · Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/
-- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
-- **2026-09-08** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-194609902.html
 
 ## Market and macro context
-- **2026-09-11** · Dow Futures Pop as Markets Rebound Ahead of Crucial CPI Inflation Report — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091126/card/markets-rebound-with-crucial-cpi-inflation-report-in-focus-16GM9jtIX1404eFQvXdl?siteid=yhoof2&yptr=yahoo
-- **2026-09-11** · Easing Oil Bills, Tech Optimism Lift Wall Street Pre-Bell, Asia off, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/easing-oil-bills-tech-optimism-111107820.html
-- **2026-09-11** · S&P 500 above 8,000 in 2026 now looks ambitious, Citi says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-above-8-000-105551683.html
-- **2026-09-11** · Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks — *Motley Fool* — https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/
+- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
+- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
+- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
+- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
 
 *Rules, releases and agency actions:*
 - **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
@@ -132,11 +130,12 @@ Attack these before you trust any number above.
 - HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
 - IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
 - JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
+- LCII: no_model · price $93.40
 - LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
+- LOVE: no_edge · price $14.26 · fair value $14.60 · gap +2.4%
 - LTH: no_model · price $43.09
 - SIG: no_edge · price $102.48 · fair value $123.00 · gap +20.0%
 - STRT: cheap · price $75.04 · fair value $115.46 · gap +53.9%
-- WEN: no_edge · price $8.03 · fair value $14.55 · gap +81.2%
 
 ---
 

@@ -1,5 +1,19 @@
 [
  {
+  "id": "05a9f1dc-f40a-341d-88f8-af415e5b075e",
+  "ts": "2026-09-11T13:25:00+00:00",
+  "title": "Stock Market News for Sep 11, 2026",
+  "summary": "Wall Street closed lower on Thursday, dragged down by surging oil prices and inflation data.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "bafa77b5-7df9-37c1-8b02-cbf183fc92a6",
   "ts": "2026-09-10T13:31:46+00:00",
   "title": "Corteva Stock: Is CTVA Outperforming the Basic Material Sector?",

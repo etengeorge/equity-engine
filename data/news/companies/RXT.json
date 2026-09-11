@@ -1,5 +1,29 @@
 [
  {
+  "id": "aef31665-fe1c-32be-935f-26fe71e94bf3",
+  "ts": "2026-09-11T11:03:00+00:00",
+  "title": "Relatively unknown cloud provider gets Nvidia's stamp of approval",
+  "summary": "Nvidia just backed a smaller cloud\u2019s bet that regulated buyers care less about scale and more about who owns the outcome.",
+  "publisher": "TheStreet",
+  "url": "https://www.thestreet.com/technology/rackspace-rxt-nvidia-cloud-partner-sovereign-ai",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1916e1d5-a7d5-30bb-9f06-588983f9a87d",
+  "ts": "2026-09-10T14:09:18+00:00",
+  "title": "Rackspace Shares Rise 13% After Joining NVIDIA Cloud Partner Program",
+  "summary": "Rackspace Technology (NASDAQ:RXT) shares rose 13% on Thursday morning after the company said it joined the NVIDIA Cloud Partner Program and plans to offer NVIDIA Blackwell-powered artificial intelligence infrastructure for regulated enterprises and governments. Under the collaboration, Rackspace will combine NVIDIA accelerated computing with Palantir software and governed private-cloud infrastructure.",
+  "publisher": "InvestorsHub",
+  "url": "https://investorshub.advfn.com/market-news/article/36043/rackspace-shares-rise-13-after-joining-nvidia-cloud-partner-program",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ffa915f4-e6bb-36d4-90c2-09ff5c34fe54",
   "ts": "2026-09-10T09:00:00+00:00",
   "title": "Rackspace Joins NVIDIA Cloud Partner Program, Announces NVIDIA Blackwell-Powered AI Infrastructure for Regulated Enterprises and Governments",

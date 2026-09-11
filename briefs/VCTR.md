@@ -1,68 +1,103 @@
-# AX — AXOS FINANCIAL
+# VCTR — VICTORY CAPITAL HOLDINGS CLASS A
 *Financials · brief generated 2026-09-11 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 119/1956
+- rotation position 122/1956
 
 ## Market
 | | |
 |---|---|
-| price | $93.72 |
-| market cap | $5.3B |
-| 5d / 21d / 63d / 252d | -2.3% / -6.4% / +6.3% / +2.8% |
-| 60d avg daily $ volume | $34.7M |
-| beta (vs IWM) | 1.15 (R²=0.453) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 94% / debt 6% |
+| price | $111.06 |
+| market cap | $6.8B |
+| 5d / 21d / 63d / 252d | +0.2% / -1.8% / +27.0% / +61.1% |
+| 60d avg daily $ volume | $58.0M |
+| beta (vs IWM) | 0.91 (R²=0.328) |
+| 5d volume vs 60d average | 1.4x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 88% / debt 12% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +10.0% |
-| cost of equity | +11.3% |
-| justified P/TBV | 0.86 |
-| actual P/TBV | 1.82 |
-| tangible book / share | $51.42 |
-| implied gap | -52.7% |
+| sustainable ROTCE | n/a |
+| cost of equity | +9.9% |
+| justified P/TBV | None |
+| actual P/TBV | None |
+| tangible book / share | n/a |
+| implied gap | n/a |
 
-Cohort: **36th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -18.0%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=260) | 14.0x | 5.9x / 9.0x / 14.0x | $38.61 / $66.48 / $111.11 |
+| ev_sales (n=230) | 5.9x | 1.5x / 3.7x / 24.7x | $18.12 / $64.06 / $509.17 |
+
+Blended midpoint **$65.27** vs price $111.06 — gap **-41.2%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `no_usable_return_on_tangible_equity`
 
 ## Recent filings
-- 2026-08-20 **10-K** — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000060/ax-20260630.htm
-- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000056/ax-20260806.htm
-- 2026-07-30 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/ax-20260730.htm
-- 2026-07-07 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000047/ax-20260706.htm
-- 2026-06-09 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000044/ax-20260608.htm
-- 2026-05-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000040/ax-20260504.htm
-- 2026-05-04 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000038/ax-20260502.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000035/ax-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000034/ax-20260430.htm
-- 2026-04-23 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000027/ax-20260422.htm
+- 2026-09-11 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526388709/vctr-20260911.htm
+- 2026-08-31 **8-K** — items 1.01,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000110465926103936/tm2624030d6_8k.htm
+- 2026-08-26 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000110465926101533/tm2624030d1_8k.htm
+- 2026-08-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526346020/vctr-20260812.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1570827/000119312526337010/vctr-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526335319/vctr-20260805.htm
+- 2026-07-23 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526314260/vctr-20260722.htm
+- 2026-07-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526301512/vctr-20260713.htm
+- 2026-06-09 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526263039/vctr-20260609.htm
+- 2026-05-21 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1570827/000119312526234487/vctr-20260518.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000056/aug2026deck.htm
-- **2026-08-06** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000056/aug2026deck.pdf
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/pressrelease20260630axearn.htm
-- **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/pressrelease-financialsche.htm
-- **2026-07-30** · EX-99.3 · press release — EX-99.3 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/junesupplement.htm
-- **2026-07-30** · EX-99.4 · presentation — EX-99.4 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000052/junesupplement.pdf
-- **2026-07-07** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1299709/000129970926000047/pressrelease20260707announ.htm
+- **2026-09-11** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1570827/000119312526388709/vctr-ex99_1.htm
+- **2026-08-26** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1570827/000110465926101533/tm2624030d1_ex99-1.htm
+- **2026-08-12** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1570827/000119312526346020/vctr-ex99_1.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1570827/000119312526335319/vctr-ex99_1.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1570827/000119312526314260/vctr-ex99_1.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-08-31** · SEIC Shares Hit a New 52-Week High: Is There Further Upside Potential? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/seic-shares-hit-52-week-161100900.html
+  > SEI Investments stock touches a new 52-week high as revenues, client assets, and LSV flows strengthen, with technology and outsourcing growth supporting its outlook.
+- **2026-08-31** · Victory Capital Holdings (VCTR) Is Up 2.32% in One Week: What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/victory-capital-holdings-vctr-2-160003086.html
+  > Does Victory Capital Holdings (VCTR) have what it takes to be a top stock pick for momentum investors? Let's find out.
+- **2026-08-31** · 3 Asset Management Stocks to Watch as They Hit New 52-Week Highs — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-asset-management-stocks-watch-151100721.html
+  > VCTR, IVZ and SEIC hit fresh 52-week highs as strong asset flows, rising AUM and strategic moves fuel growth.
+- **2026-08-28** · Victory Capital (VCTR) Stock Trades At a Premium Following a 310% Run — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/victory-capital-vctr-stock-trades-201334943.html
+  > Victory Capital Holdings stock has produced very strong multi year returns, yet the current Excess Returns intrinsic value estimate sits well below the share price, while market based multiples look much closer to fair. That mix leaves Vict
+- **2026-08-28** · Victory Capital Holdings (VCTR) Could Be 26% Overvalued On Its $7b First Eagle Deal — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/victory-capital-holdings-vctr-could-021724065.html
+  > Why Victory Capital Holdings is back in focus Victory Capital Holdings (VCTR) moved back into the spotlight after agreeing to acquire First Eagle Investments in a roughly US$7b deal that would create a combined platform overseeing about US$
+- **2026-08-27** · Victory Capital Holdings, Inc. (VCTR) Hits Fresh High: Is There Still Room to Run? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/victory-capital-holdings-inc-vctr-131504951.html
+  > Victory Capital (VCTR) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
+- **2026-08-26** · Victory Capital Agrees to Buy First Eagle For $7B — *Bloomberg* — https://finance.yahoo.com/video/victory-capital-agrees-buy-first-205252623.html
+  > Bloomberg's Loukia Gyftopoulou joins Dani Burger on "Bloomberg Deals." Victory Capital Holdings Inc.&nbsp;agreed to buy&nbsp;First Eagle Investments&nbsp;in a deal that would propel the combined firm's assets under management to about $571 
+- **2026-08-26** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200554636.html
+  > Financial stocks were mixed in late Wednesday afternoon trading, with the NYSE Financial Index fract
+- **2026-08-26** · Sector Update: Financial Stocks Mixed Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-wednesday-175702775.html
+  > Financial stocks were mixed in Wednesday afternoon trading, with the NYSE Financial Index fractional
+- **2026-08-26** · 3 Reasons Growth Investors Will Love Victory Capital (VCTR) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-growth-investors-love-164502727.html
+  > Victory Capital (VCTR) could produce exceptional returns because of its solid growth attributes.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-11** · Sector Update: Financial Stocks Advance Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132121056.html
+- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
+- **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
 - **2026-09-10** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html
 - **2026-09-10** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html
 - **2026-09-10** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html
@@ -70,15 +105,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
 - **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
-- **2026-09-09** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html
-- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
-- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 
 ## Market and macro context
-- **2026-09-11** · Dow Futures Pop as Markets Rebound Ahead of Crucial CPI Inflation Report — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091126/card/markets-rebound-with-crucial-cpi-inflation-report-in-focus-16GM9jtIX1404eFQvXdl?siteid=yhoof2&yptr=yahoo
-- **2026-09-11** · Easing Oil Bills, Tech Optimism Lift Wall Street Pre-Bell, Asia off, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/easing-oil-bills-tech-optimism-111107820.html
-- **2026-09-11** · S&P 500 above 8,000 in 2026 now looks ambitious, Citi says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-above-8-000-105551683.html
-- **2026-09-11** · Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks — *Motley Fool* — https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/
+- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
+- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
+- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
+- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
 
 *Rules, releases and agency actions:*
 - **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
@@ -98,12 +130,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
 - AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
+- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
 - ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
 - FG: no_model · price $24.87
 - GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
-- JXN: no_model · price $133.65
+- HASI: no_edge · price $37.61 · fair value $42.19 · gap +12.2%
 
 ---
 

@@ -1,5 +1,17 @@
 [
  {
+  "id": "efabbc70-c36b-3d59-aa0f-04d8c3a80115",
+  "ts": "2026-09-11T12:45:00+00:00",
+  "title": "At $100 Oil, the Deal Flow Moved to Pipelines and Producing Wells",
+  "summary": "Oil Market Daily News Commentary - The U.S. Energy Information Administration expects Brent crude to average $87 a barrel across 2026 and does not expect Middle East oil production to return to near pre-conflict levels until early 2027. Goldman Sachs raised its December 2026 Brent and WTI forecasts by $5 to $85 and $80 respectively, and its 2027 numbers to $80 and $75, while flagging that Brent could clear $120 in 2027 in a scenario where Gulf output remains four million barrels a day below prew",
+  "publisher": "CNW Group",
+  "url": "https://finance.yahoo.com/energy/articles/100-oil-deal-flow-moved-124500197.html",
+  "tickers": [
+   "DEC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d68fadc3-1116-37b4-9c5b-7f77b0b51792",
   "ts": "2026-09-05T04:17:51+00:00",
   "title": "Can Diversified Energy (NYSE:DEC) Stay Reasonable After The $1.8B Birch Deal?",

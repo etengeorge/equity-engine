@@ -1,5 +1,33 @@
 [
  {
+  "id": "dcb7e955-db63-328d-b4f6-b05c9438c383",
+  "ts": "2026-09-11T13:14:24+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.8% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "dc13e106-32cf-3f49-b682-3e4015264586",
+  "ts": "2026-09-11T12:00:00+00:00",
+  "title": "Midterm Takes Center Stage: What Does It Mean for Markets & ETFs?",
+  "summary": "Trump's midterm push, election uncertainty and AI's political scrutiny could shape markets. Explore ETFs positioned for potential sector and post-election gains.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "72d0e32d-36da-3eb0-b1a3-56941e4c1a0d",
   "ts": "2026-09-10T19:49:34+00:00",
   "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",

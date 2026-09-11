@@ -1,101 +1,102 @@
-# RWT — REDWOOD TRUST REIT
+# WLTH — WEALTHFRONT
 *Financials · brief generated 2026-09-11 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- richest 2% of its cohort
-- baseline gap -188%
-- 5d move -19%
-- 21d move -22%
-- volume 2.4x its 60d average
+- richest 7% of its cohort
+- baseline gap -143%
+- 5d move +21%
+- 21d move +13%
+- volume 2.8x its 60d average
 - filed an 8-K in the last few sessions
-- 4 news items in the last 5 days
+- 5 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 8.75
+- urgency score 8.61
 
 ## Market
 | | |
 |---|---|
-| price | $3.63 |
-| market cap | $456.0M |
-| 5d / 21d / 63d / 252d | -19.2% / -22.4% / -26.3% / -33.1% |
-| 60d avg daily $ volume | $15.2M |
-| beta (vs IWM) | 0.95 (R²=0.27) |
-| 5d volume vs 60d average | 2.4x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 21% / debt 79% |
+| price | $10.88 |
+| market cap | $1.6B |
+| 5d / 21d / 63d / 252d | +20.8% / +13.3% / +21.6% / n/a |
+| 60d avg daily $ volume | $13.9M |
+| beta (vs IWM) | None (R²=None) · **sector_median** |
+| 5d volume vs 60d average | 2.8x |
+| balance sheet as of | 2026-04-30 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -1.7% |
-| cost of equity | +10.2% |
-| justified P/TBV | -0.46 |
-| actual P/TBV | 0.52 |
-| tangible book / share | $7.00 |
-| implied gap | -188.4% |
+| sustainable ROTCE | -6.8% |
+| cost of equity | +9.7% |
+| justified P/TBV | -1.15 |
+| actual P/TBV | 2.64 |
+| tangible book / share | $4.12 |
+| implied gap | -143.4% |
 
-Cohort: **2th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -153.7%).
+Cohort: **7th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -108.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_at_79%_debt_weight_wacc_unreliable`
-- `unstable_rotce_-8.8%_to_4.4%`
+- `beta_from_sector_median_0.87(insufficient_history)`
 - `loss_year_in_window`
 
 ## Recent filings
-- 2026-09-10 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926106539/tm2625156d1_8k.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/930236/000093023626000027/rwt-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000093023626000024/rwt-20260728.htm
-- 2026-07-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926081027/tm2619917d1_8k.htm
-- 2026-06-11 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926073010/tm2617215d1_8k.htm
-- 2026-05-27 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926067004/tm2615719d2_8k.htm
-- 2026-05-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926064584/tm2614397d4_8k.htm
-- 2026-05-19 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000110465926063849/tm2615120d1_8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/930236/000093023626000020/rwt-20260331.htm
-- 2026-04-29 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/930236/000093023626000016/rwt-20260429.htm
+- 2026-09-09 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026061131/wlth-20260909.htm
+- 2026-06-24 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026045236/wlth-20260623.htm
+- 2026-06-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1524566/000162828026042874/wlth-20260430.htm
+- 2026-06-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026040793/wlth-20260604.htm
+- 2026-05-11 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1524566/000162828026033531/wlth-20260511.htm
+- 2026-04-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1524566/000162828026027232/wlth-20260131.htm
+- 2026-03-11 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026016823/wlth-20260309.htm
+- 2026-02-18 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026008816/wlth-20260216.htm
+- 2026-01-28 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1524566/000162828026003843/wlth-20260128.htm
+- 2026-01-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1524566/000162828026003332/wlth-20251031.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-10** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000110465926106539/tm2625156d1_ex99-1.htm
-- **2026-09-10** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000110465926106539/tm2625156d1_ex99-2.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000093023626000024/a2026q2earningsrelease.htm
-- **2026-07-28** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000093023626000024/a2026q2shareholderletter.htm
-- **2026-07-28** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000093023626000024/q226redwoodreview.htm
-- **2026-07-07** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000110465926081027/tm2619917d1_ex99-1.htm
-- **2026-06-11** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/930236/000110465926073010/tm2617215d1_ex99-1.htm
+- **2026-09-09** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1524566/000162828026061131/q227earningsrelease.htm
+- **2026-09-09** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1524566/000162828026061131/q22027earningspresentati.htm
+- **2026-06-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1524566/000162828026040793/q127earningsrelease.htm
+- **2026-06-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1524566/000162828026040793/q127earningspresentation.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-11** · Redwood Trust Prices Upsized $185.0 Million Convertible Senior Notes Offering — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/redwood-trust-prices-upsized-185-040400196.html
-  > MILL VALLEY, Calif., September 11, 2026--Redwood Trust, Inc. (NYSE: RWT; "Redwood" or the "Company"), a leader in expanding access to housing for homebuyers and renters, today announced that it priced $185,000,000 aggregate principal amount
-- **2026-09-10** · Top Midday Stories: Macy's Shares Fall Despite Strong Earnings; Amazon Reportedly Collaborates With OpenAI on ChatGPT Advertising — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-macy-apos-154134648.html
-  > All three major US stock indexes were down in late-morning trading Thursday, as oil prices continued
-- **2026-09-10** · Redwood Trust Announces Third Quarter 2026 Common and Preferred Dividends — *Business Wire* — https://finance.yahoo.com/real-estate/articles/redwood-trust-announces-third-quarter-110200347.html
-  > MILL VALLEY, Calif., September 10, 2026--Redwood Trust, Inc. (NYSE: RWT; "Redwood" or the "Company"), a leader in expanding access to housing for homebuyers and renters, today announced that its Board of Directors (the "Board") has declared
-- **2026-09-10** · Redwood Trust Announces Offering of Convertible Senior Notes Due 2030 — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/redwood-trust-announces-offering-convertible-105900542.html
-  > MILL VALLEY, Calif., September 10, 2026--Redwood Trust, Inc. (NYSE: RWT; "Redwood" or the "Company"), a leader in expanding access to housing for homebuyers and renters, today announced that it plans to offer, subject to market and other co
-- **2026-07-29** · Redwood Trust, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-redwood-trust-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Redwood Trust, Inc.'s Q2 2026 earnings call
-- **2026-07-28** · Redwood Trust Inc (RWT) Q2 2026 Earnings Call Highlights: Strong Mortgage Banking Volume Amid ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/redwood-trust-inc-rwt-q2-190127250.html
-  > Redwood Trust Inc (RWT) reports robust mortgage banking performance and AI-driven efficiencies, despite facing a GAAP net loss and declining book value.
-- **2026-07-28** · Here's What Key Metrics Tell Us About Redwood Trust (RWT) Q2 Earnings — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-133007185.html
-  > While the top- and bottom-line numbers for Redwood Trust (RWT) give a sense of how the business performed in the quarter ended June 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago
-- **2026-07-28** · Redwood Trust Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/redwood-trust-q2-earnings-call-highlights-2026-07-28/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Redwood Trust (NYSE:RWT) reported a second-quarter GAAP net loss of $3 million, or $0.03 per share, while its mortgage banking platforms continued to generate returns above 20% and the company advanced efforts to reduce its legacy investmen
-- **2026-07-28** · Redwood Trust (RWT) Lags Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/redwood-trust-rwt-lags-q2-123502619.html
-  > Redwood Trust (RWT) delivered earnings and revenue surprises of -3.85% and -26.20%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-07-28** · Redwood Trust Reports Second Quarter Financial Results; Mortgage Banking Production Exceeds $8 Billion for Second Consecutive Quarter — *Business Wire* — https://finance.yahoo.com/real-estate/articles/redwood-trust-reports-second-quarter-110000078.html
-  > MILL VALLEY, Calif., July 28, 2026--Redwood Trust, Inc. (NYSE:RWT; "Redwood", the "Company"), a leader in expanding access to housing for homebuyers and renters, today reported its financial results for the quarter ended June 30, 2026.
+- **2026-09-10** · Wealthfront (WLTH) Q2 2027 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/10/wealthfront-wlth-q2-2027-earnings-call-transcript/
+  > Assets hit $100B milestone as advisory balances surged 30% year over year.
+- **2026-09-10** · Wealthfront Corp (WLTH) (Q2 2027) Earnings Call Highlights: Surpassing $100 Billion in Platform ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/wealthfront-corp-wlth-q2-2027-110023834.html
+  > Wealthfront Corp (WLTH) topped $100 billion in platform assets and extended its Rule of 40 streak to 16 quarters, even as cash management revenue and adjusted EBITDA declined year-over-year.
+- **2026-09-09** · Wealthfront Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-wealthfront-q2-earnings-call-highlights-2026-09-09/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Wealthfront (NASDAQ:WLTH) said fiscal second-quarter platform assets rose 12% from a year earlier to $99 billion as growth in its investment advisory business offset a decline in cash management assets. The company also said total platform 
+- **2026-09-09** · Wealthfront Earnings Beat Estimates as Company Surpasses $100 Billion in Platform Assets — *Barrons.com* — https://www.barrons.com/advisor/articles/wealthfront-earnings-stock-price-15c1e1e8?siteid=yhoof2&yptr=yahoo
+  > The wealth management company has been trying to diversify its business mix and is expanding its mortgage offering for clients.
+- **2026-09-09** · Wealthfront Reports Fiscal Second Quarter 2027 Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/wealthfront-reports-fiscal-second-quarter-200500427.html
+  > Total Platform Assets up 12% year-over-year to $99.0 billion at the end of the quarterFunded clients up 14% year-over-year to 1.5 million at the end of the quarterSurpassed $100 billion in Total Platform Assets as of the end of August PALO 
+- **2026-08-19** · Wealthfront to Announce Fiscal Second Quarter 2027 Financial Results on September 9, 2026 — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/wealthfront-announce-fiscal-second-quarter-200500885.html
+  > PALO ALTO, Calif., Aug. 19, 2026 (GLOBE NEWSWIRE) -- Wealthfront Corporation (Nasdaq: WLTH), a tech-driven financial platform helping digital natives turn their savings into wealth, today announced that it will release fiscal second quarter
+- **2026-08-18** · Oregon man won $5K a week for life from PCH — they went bankrupt and his income vanished. How to hold onto your wealth — *Moneywise* — https://finance.yahoo.com/markets/articles/oregon-man-won-5k-week-111100662.html
+  > Plus, what to do with a windfall if you pull straight sevens.
+- **2026-08-13** · Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html
+  > Financial technology and payments companies outperformed quarterly estimates as consumer spending tu
+- **2026-08-11** · Wealthfront Home Lending Launches in California with Rates ~0.50% Below the National Average — *GlobeNewswire* — https://finance.yahoo.com/real-estate/articles/wealthfront-home-lending-launches-california-163000235.html
+  > Wealthfront’s mortgage offering is now live in California, Colorado and Texas, with expansions to Florida, Illinois, Oregon, and Washington planned in the coming months Wealthfront Home Lending 30-Year Fixed Mortgage Rates: Wealthfront Home
+- **2026-08-11** · Exclusive: Wealthfront takes mortgage push into California, its largest market — *Investing.com* — https://finance.yahoo.com/real-estate/articles/exclusive-wealthfront-takes-mortgage-push-160037107.html
+  > Investing.com -- Wealthfront Corporation (Nasdaq: WLTH) is extending its mortgage business into California, its largest client market, as part of a state-by-state rollout that has so far reached three states, Investing.com has learned.
+- **2026-07-08** · SOFI's ETF Expansion: Can It Lift Fee-Based Revenues Ahead? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/sofis-etf-expansion-lift-fee-171800851.html
+  > SOFI expands its ETF lineup with SFYI, combining popular holdings and an options strategy to deepen investing engagement and grow fee revenue.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-11** · Sector Update: Financial Stocks Advance Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132121056.html
+- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
+- **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
 - **2026-09-10** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html
 - **2026-09-10** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html
 - **2026-09-10** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html
@@ -103,15 +104,12 @@ Attack these before you trust any number above.
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
 - **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
-- **2026-09-09** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html
-- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
-- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 
 ## Market and macro context
-- **2026-09-11** · Dow Futures Pop as Markets Rebound Ahead of Crucial CPI Inflation Report — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091126/card/markets-rebound-with-crucial-cpi-inflation-report-in-focus-16GM9jtIX1404eFQvXdl?siteid=yhoof2&yptr=yahoo
-- **2026-09-11** · Easing Oil Bills, Tech Optimism Lift Wall Street Pre-Bell, Asia off, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/easing-oil-bills-tech-optimism-111107820.html
-- **2026-09-11** · S&P 500 above 8,000 in 2026 now looks ambitious, Citi says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-above-8-000-105551683.html
-- **2026-09-11** · Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks — *Motley Fool* — https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/
+- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
+- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
+- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
+- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
 
 *Rules, releases and agency actions:*
 - **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
@@ -131,12 +129,12 @@ Attack these before you trust any number above.
 - AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
 - AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
+- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
 - ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
 - FG: no_model · price $24.87
 - GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
-- JXN: no_model · price $133.65
+- HASI: no_edge · price $37.61 · fair value $42.19 · gap +12.2%
 
 ---
 

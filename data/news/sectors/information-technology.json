@@ -1,5 +1,33 @@
 [
  {
+  "id": "05a9f1dc-f40a-341d-88f8-af415e5b075e",
+  "ts": "2026-09-11T13:25:00+00:00",
+  "title": "Stock Market News for Sep 11, 2026",
+  "summary": "Wall Street closed lower on Thursday, dragged down by surging oil prices and inflation data.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "dcb7e955-db63-328d-b4f6-b05c9438c383",
+  "ts": "2026-09-11T13:14:24+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.8% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "568e250b-c6f0-39aa-8b63-e89663d70f0a",
   "ts": "2026-09-10T19:55:45+00:00",
   "title": "Sector Update: Tech Stocks Fall Late Afternoon",

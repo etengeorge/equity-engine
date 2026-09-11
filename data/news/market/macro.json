@@ -2058,5 +2058,15 @@
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+  "ts": null,
+  "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+  "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
  }
 ]

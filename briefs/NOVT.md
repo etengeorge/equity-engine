@@ -1,78 +1,93 @@
-# HASI — HA SUSTAINABLE INFRASTRUCTURE CAPI
-*Financials · brief generated 2026-09-11 · selected as **rotation***
+# NOVT — NOVANTA
+*Information Technology · brief generated 2026-09-11 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 118/1956
+- rotation position 123/1956
 
 ## Market
 | | |
 |---|---|
-| price | $37.61 |
-| market cap | $4.8B |
-| 5d / 21d / 63d / 252d | -5.6% / -8.4% / +4.6% / +43.0% |
-| 60d avg daily $ volume | $39.0M |
-| beta (vs IWM) | 0.48 (R²=0.075) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 92% / debt 8% |
+| price | $143.91 |
+| market cap | $5.4B |
+| 5d / 21d / 63d / 252d | -0.4% / -14.2% / -6.9% / +25.0% |
+| 60d avg daily $ volume | $69.8M |
+| beta (vs IWM) | 1.41 (R²=0.394) |
+| 5d volume vs 60d average | 0.5x |
+| balance sheet as of | 2026-07-03 (10-Q) |
+| WACC weights | equity 96% / debt 4% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$91.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$48.4M', '$141.3M', '$100.1M']
+Enterprise value **$5.0B** · FCFF yield **+1.8%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +7.9% |
-| cost of equity | +7.6% |
-| justified P/TBV | 1.06 |
-| actual P/TBV | 1.91 |
-| tangible book / share | $19.70 |
-| implied gap | -44.6% |
+| 12.4% − 1pt | +46.0% |
+| **12.4% (point)** | **+49.8%** |
+| 12.4% + 1pt | +53.4% |
 
-Cohort: **40th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -9.9%).
+
+> **Stock compensation is 27% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$65.1M** and an implied growth of **+61.0%** instead of +49.8%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+10.7%** (5y revenue CAGR +10.7%).
+Gap under that baseline: **-67.7%** (fair value $46.48 vs price $143.91).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **23th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -34.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_trough_cycle_base_newest_fcf_0.48x_oldest_growth_applied_to_a_trough_understates_value`
+- `stock_comp_is_27%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000136/hasi-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000132/hasi-20260806.htm
-- 2026-07-20 **8-K** — items 1.01,1.02,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1561894/000110465926084887/tm2620682d1_8k.htm
-- 2026-06-26 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1561894/000110465926078275/tm2616629d10_8k.htm
-- 2026-06-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1561894/000110465926073802/tm2617936d1_8k.htm
-- 2026-06-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000119/hasi-20260605.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000074/hasi-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000072/hasi-20260507.htm
-- 2026-04-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000061/hasi-20260413.htm
-- 2026-03-27 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1561894/000119312526129174/d140168d8k.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1076930/000119312526335404/novt-20260703.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526335356/novt-20260805.htm
+- 2026-07-27 **8-K** — items 2.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526316947/novt-20260722.htm
+- 2026-06-09 **8-K** — items 1.01,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526263979/novt-20260608.htm
+- 2026-06-09 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-20260608.htm
+- 2026-05-29 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526248524/novt-20260528.htm
+- 2026-05-15 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-20260515.htm
+- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1076930/000119312526217064/novt-20260403.htm
+- 2026-05-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1076930/000119312526216984/novt-20260511.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1076930/000119312526175367/novt-20260424.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1561894/000156189426000132/q22026earningspressrelease.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1076930/000119312526335356/novt-ex99_1.htm
+- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: completion of an acquisition or disposition, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1076930/000119312526316947/novt-ex99_1.htm
+- **2026-06-09** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1076930/000119312526263979/novt-ex99_1.htm
+- **2026-06-09** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex99_1.htm
+- **2026-06-09** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex99_2.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Information Technology
+*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-10** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html
-- **2026-09-10** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html
-- **2026-09-10** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html
+- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
+- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
+- **2026-09-10** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html
+- **2026-09-10** · Sector Update: Tech Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-thursday-173544461.html
 - **2026-09-10** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
-- **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
-- **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
+- **2026-09-09** · Sector Update: Tech Stocks Ease Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-ease-afternoon-194647709.html
+- **2026-09-09** · Apple Unveils Its First Foldable iPhone Today: The ETFs That Will Feel It Most — *etf.com* — http://www.etf.com/sections/news/apple-unveils-its-first-foldable-iphone-today-etfs-will-feel-it-most?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss
 - **2026-09-09** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-173124557.html
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
-- **2026-09-08** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200828119.html
 
 ## Market and macro context
-- **2026-09-11** · Dow Futures Pop as Markets Rebound Ahead of Crucial CPI Inflation Report — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091126/card/markets-rebound-with-crucial-cpi-inflation-report-in-focus-16GM9jtIX1404eFQvXdl?siteid=yhoof2&yptr=yahoo
-- **2026-09-11** · Easing Oil Bills, Tech Optimism Lift Wall Street Pre-Bell, Asia off, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/easing-oil-bills-tech-optimism-111107820.html
-- **2026-09-11** · S&P 500 above 8,000 in 2026 now looks ambitious, Citi says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-above-8-000-105551683.html
-- **2026-09-11** · Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks — *Motley Fool* — https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/
+- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
+- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
+- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
+- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
 
 *Rules, releases and agency actions:*
 - **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
@@ -85,19 +100,19 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- BUR: no_model · price $4.35
-- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
-- HWC: no_edge · price $75.60 · fair value $63.56 · gap -15.9%
-- JXN: no_model · price $133.65
+## Prior verdicts elsewhere in Information Technology
+- CIFR: no_model · price $15.94
+- CORZ: no_model · price $17.37
+- CVLT: rich · price $136.41 · fair value $87.52 · gap -35.8%
+- EFOR: no_edge · price $32.55 · fair value $36.33 · gap +11.6%
+- HUT: no_model · price $77.00
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- MXL: no_model · price $71.51
+- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
+- RGTI: no_model · price $15.16
+- RIOT: no_model · price $18.64
+- SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
+- TTAN: no_model · price $87.92
 
 ---
 
