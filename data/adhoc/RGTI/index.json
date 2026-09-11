@@ -1,0 +1,168 @@
+{
+  "fetched_utc": "2026-09-11T11:33:32+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "RGTI",
+    "cik": 1838359,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "1.01,3.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926105662/tm2624940d1_8k.htm",
+        "file": "2026-09-08-8-K-tm2624940d1_8k.htm.txt",
+        "chars": 22184,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-20",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926098999/tm2623611d2_8k.htm",
+        "file": "2026-08-20-8-K-tm2623611d2_8k.htm.txt",
+        "chars": 3467,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-20",
+        "items": "5.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926098877/tm2623611d1_8k.htm",
+        "file": "2026-08-20-8-K-tm2623611d1_8k.htm.txt",
+        "chars": 5629,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/rgti-20260630x10q.htm",
+        "file": "2026-08-06-10-Q-rgti-20260630x10q.htm.txt",
+        "chars": 225481,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091979/rgti-20260806x8k.htm",
+        "file": "2026-08-06-8-K-rgti-20260806x8k.htm.txt",
+        "chars": 4111,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926072623/tm2617136d1_8k.htm",
+        "file": "2026-06-11-8-K-tm2617136d1_8k.htm.txt",
+        "chars": 4209,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "3.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926064861/tm2615300d1_8k.htm",
+        "file": "2026-05-21-8-K-tm2615300d1_8k.htm.txt",
+        "chars": 9659,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926058641/rgti-20260331x10q.htm",
+        "file": "2026-05-11-10-Q-rgti-20260331x10q.htm.txt",
+        "chars": 176146,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-08",
+        "items": [
+          "1.01",
+          "3.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926105662/tm2624940d1_ex99-1.htm",
+        "file": "2026-09-08-EX-99.1.txt",
+        "chars": 8230,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-20",
+        "items": [
+          "5.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926098877/tm2623611d1_ex99-1.htm",
+        "file": "2026-08-20-EX-99.1.txt",
+        "chars": 10122,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091979/rgti-20260806xex99d1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 28492,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-21",
+        "items": [
+          "3.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926064861/tm2615300d1_ex99-1.htm",
+        "file": "2026-05-21-EX-99.1.txt",
+        "chars": 8674,
+        "truncated": false
+      }
+    ]
+  }
+}

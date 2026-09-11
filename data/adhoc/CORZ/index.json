@@ -1,0 +1,204 @@
+{
+  "fetched_utc": "2026-09-11T11:33:34+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CORZ",
+    "cik": 1839341,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000023/core-20260910.htm",
+        "file": "2026-09-10-8-K-core-20260910.htm.txt",
+        "chars": 5619,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-27",
+        "items": "1.01,2.03,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/core-20260825.htm",
+        "file": "2026-08-27-8-K-core-20260825.htm.txt",
+        "chars": 9154,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-14",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000018/core-20260813.htm",
+        "file": "2026-08-14-8-K-core-20260813.htm.txt",
+        "chars": 6208,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000016/core-20260729.htm",
+        "file": "2026-07-29-8-K-core-20260729.htm.txt",
+        "chars": 5526,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-28",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+        "file": "2026-07-28-10-Q-core-20260630.htm.txt",
+        "chars": 185360,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000013/core-20260728.htm",
+        "file": "2026-07-28-8-K-core-20260728.htm.txt",
+        "chars": 4206,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/core-20260727.htm",
+        "file": "2026-07-28-8-K-core-20260727.htm.txt",
+        "chars": 7423,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-26",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000005/core-20260526.htm",
+        "file": "2026-05-26-8-K-core-20260526.htm.txt",
+        "chars": 5628,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-27",
+        "items": [
+          "1.01",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/revolverprvf.htm",
+        "file": "2026-08-27-EX-99.1.txt",
+        "chars": 6663,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-14",
+        "items": [
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000018/polarisclosingvf20260814.htm",
+        "file": "2026-08-14-EX-99.1.txt",
+        "chars": 6227,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000016/madamsreleasevfpdf.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 7252,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000013/q22026corescientificinc-ea.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 27347,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000013/q2fy26earningsdeck728am.htm",
+        "file": "2026-07-28-EX-99.2.txt",
+        "chars": 12643,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/amdpr.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 12864,
+        "truncated": false
+      }
+    ]
+  }
+}

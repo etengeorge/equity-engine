@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-11T11:33:26+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "HASI",
+    "cik": 1561894,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000136/hasi-20260630.htm",
+        "file": "2026-08-07-10-Q-hasi-20260630.htm.txt",
+        "chars": 295809,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000132/hasi-20260806.htm",
+        "file": "2026-08-06-8-K-hasi-20260806.htm.txt",
+        "chars": 3621,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-20",
+        "items": "1.01,1.02,2.03,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000110465926084887/tm2620682d1_8k.htm",
+        "file": "2026-07-20-8-K-tm2620682d1_8k.htm.txt",
+        "chars": 13647,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-26",
+        "items": "1.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000110465926078275/tm2616629d10_8k.htm",
+        "file": "2026-06-26-8-K-tm2616629d10_8k.htm.txt",
+        "chars": 13394,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-15",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000110465926073802/tm2617936d1_8k.htm",
+        "file": "2026-06-15-8-K-tm2617936d1_8k.htm.txt",
+        "chars": 26987,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000119/hasi-20260605.htm",
+        "file": "2026-06-05-8-K-hasi-20260605.htm.txt",
+        "chars": 4921,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000074/hasi-20260331.htm",
+        "file": "2026-05-08-10-Q-hasi-20260331.htm.txt",
+        "chars": 269417,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000072/hasi-20260507.htm",
+        "file": "2026-05-07-8-K-hasi-20260507.htm.txt",
+        "chars": 3610,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000132/q22026earningspressrelease.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 56892,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000072/q12026earningspressrelease.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 52823,
+        "truncated": false
+      }
+    ]
+  }
+}

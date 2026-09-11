@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-04T11:34:27+00:00",
+  "fetched_utc": "2026-09-11T11:33:23+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "AII",
     "cik": 2007587,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2007587/000200758726000106/aii-20260908.htm",
+        "file": "2026-09-08-8-K-aii-20260908.htm.txt",
+        "chars": 4940,
+        "truncated": false
+      },
       {
         "form": "10-Q",
         "filed": "2026-08-13",
@@ -69,12 +78,19 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-04-06",
-        "items": "5.02,7.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/2007587/000200758726000031/aii-20260331.htm",
-        "file": "2026-04-06-8-K-aii-20260331.htm.txt",
-        "chars": 15100,
+        "filed": "2026-09-08",
+        "items": [
+          "7.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2007587/000200758726000106/q2investordeck982026pdfv.htm",
+        "file": "2026-09-08-EX-99.1.txt",
+        "chars": 43471,
         "truncated": false
       },
       {
@@ -165,26 +181,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2007587/000200758726000056/q1-2026earningsrelease.htm",
         "file": "2026-05-12-EX-99.1.txt",
         "chars": 35063,
-        "truncated": false
-      },
-      {
-        "filed": "2026-04-06",
-        "items": [
-          "5.02",
-          "7.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "officer or director change",
-          "Reg FD disclosure",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EX-99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/2007587/000200758726000031/a991.htm",
-        "file": "2026-04-06-EX-99.1.txt",
-        "chars": 4323,
         "truncated": false
       }
     ]

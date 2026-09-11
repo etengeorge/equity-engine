@@ -1,0 +1,172 @@
+{
+  "fetched_utc": "2026-09-11T11:33:16+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "LCII",
+    "cik": 763744,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000084/lcii-20260904.htm",
+        "file": "2026-09-10-8-K-lcii-20260904.htm.txt",
+        "chars": 14104,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000082/lcii-20260810.htm",
+        "file": "2026-08-10-8-K-lcii-20260810.htm.txt",
+        "chars": 13697,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000079/lcii-20260805.htm",
+        "file": "2026-08-07-8-K-lcii-20260805.htm.txt",
+        "chars": 3215,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000077/lcii-20260807.htm",
+        "file": "2026-08-07-8-K-lcii-20260807.htm.txt",
+        "chars": 2859,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000070/lcii-20260630.htm",
+        "file": "2026-08-05-10-Q-lcii-20260630.htm.txt",
+        "chars": 169535,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-20260805.htm",
+        "file": "2026-08-05-8-K-lcii-20260805.htm.txt",
+        "chars": 3661,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-22",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000067/lcii-20260722.htm",
+        "file": "2026-07-22-8-K-lcii-20260722.htm.txt",
+        "chars": 3169,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-20",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000061/lcii-20260718.htm",
+        "file": "2026-07-20-8-K-lcii-20260718.htm.txt",
+        "chars": 4596,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-07",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000079/lcii-transcriptx20260805.htm",
+        "file": "2026-08-07-EX-99.1.txt",
+        "chars": 68328,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-07",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000077/ex991dividend20260807.htm",
+        "file": "2026-08-07-EX-99.1.txt",
+        "chars": 5778,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-earningsrelease2q26qu.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 38737,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-irshortdeck2q26fina.htm",
+        "file": "2026-08-05-EX-99.2.txt",
+        "chars": 35900,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-22",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000067/a991earnannounce2q26.htm",
+        "file": "2026-07-22-EX-99.1.txt",
+        "chars": 2006,
+        "truncated": false
+      }
+    ]
+  }
+}

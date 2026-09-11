@@ -1,0 +1,172 @@
+{
+  "fetched_utc": "2026-09-11T11:33:13+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "LOVE",
+    "cik": 1701758,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-09-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026061220/love-20260802.htm",
+        "file": "2026-09-10-10-Q-love-20260802.htm.txt",
+        "chars": 116839,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026061219/love-20260910.htm",
+        "file": "2026-09-10-8-K-love-20260910.htm.txt",
+        "chars": 3684,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-15",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000121390026068869/ea0294793-8k_lovesac.htm",
+        "file": "2026-06-15-8-K-ea0294793-8k_lovesac.htm.txt",
+        "chars": 9392,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026042366/love-20260503.htm",
+        "file": "2026-06-11-10-Q-love-20260503.htm.txt",
+        "chars": 100509,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026042363/love-20260611.htm",
+        "file": "2026-06-11-8-K-love-20260611.htm.txt",
+        "chars": 3662,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-09",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026041938/love-20260609.htm",
+        "file": "2026-06-09-8-K-love-20260609.htm.txt",
+        "chars": 4213,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-04-02",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026022929/love-20260201.htm",
+        "file": "2026-04-02-10-K-love-20260201.htm.txt",
+        "chars": 338134,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-26",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026021187/love-20260326.htm",
+        "file": "2026-03-26-8-K-love-20260326.htm.txt",
+        "chars": 4375,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026061219/q2fy27pressrelease.htm",
+        "file": "2026-09-10-EX-99.1.txt",
+        "chars": 30751,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-15",
+        "items": [
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "THE LOVESAC COMPANY PRESS RELEASE DATED JUNE 15, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000121390026068869/ea029479301ex99-1.htm",
+        "file": "2026-06-15-EX-99.1.txt",
+        "chars": 10530,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-11",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026042363/q1fy27pressrelease.htm",
+        "file": "2026-06-11-EX-99.1.txt",
+        "chars": 25054,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-26",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026021187/pressrelease-sharerepurcha.htm",
+        "file": "2026-03-26-EX-99.1.txt",
+        "chars": 4724,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-26",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701758/000162828026021185/q4fy26pressrelease.htm",
+        "file": "2026-03-26-EX-99.1.txt",
+        "chars": 29382,
+        "truncated": false
+      }
+    ]
+  }
+}
