@@ -1,5 +1,33 @@
 [
  {
+  "id": "3063b651-686a-37bd-af16-c5858346a18d",
+  "ts": "2026-09-10T19:45:57+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Thursday afternoon, with the State Street Consumer Staples Select Se",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "bbba2968-8744-347a-87b3-7329e8fb75dc",
+  "ts": "2026-09-10T17:35:43+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Thursday Afternoon",
+  "summary": "Consumer stocks were mixed Thursday afternoon, with the State Street Consumer Staples Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-thursday-173543020.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
   "ts": "2026-09-10T13:17:56+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",

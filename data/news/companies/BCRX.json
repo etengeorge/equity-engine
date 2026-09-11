@@ -1,5 +1,53 @@
 [
  {
+  "id": "72d0e32d-36da-3eb0-b1a3-56941e4c1a0d",
+  "ts": "2026-09-10T19:49:34+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+  "summary": "Healthcare stocks declined late Thursday afternoon, with the NYSE Healthcare Index shedding 0.3% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194934373.html",
+  "tickers": [
+   "BCRX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "04631f19-a38b-37b5-b81c-4753891660dc",
+  "ts": "2026-09-10T17:45:16+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer in Afternoon Trading",
+  "summary": "Healthcare stocks declined Thursday afternoon, with the NYSE Healthcare Index shedding 0.2% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-174516508.html",
+  "tickers": [
+   "BCRX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dbc89c36-89ba-3c61-ad8d-9e741a93b25d",
+  "ts": "2026-09-10T15:52:42+00:00",
+  "title": "BCRX Stock Heads For Fifth Straight Day In The Red \u2013 RBC Capital Says BioCryst Faces A \u2018Challenging Near-Term Outlook\u2019",
+  "summary": "RBC Capital said it expects revenue tailwinds for BioCryst\u2019s Orladeyo drug after Pharvaris posted strong Phase 3 data for HAE therapy.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/bcrx-stock-heads-for-fifth-straight-day-in-the-red-rbc-capital-says-bio-cryst-faces-a-challenging-near-term-outlook/cZtaLEXRJ67",
+  "tickers": [
+   "BCRX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "afcf9b1e-93cc-32b9-85be-4a81c9277bcc",
+  "ts": "2026-09-10T15:42:54+00:00",
+  "title": "BioCryst Pharmaceuticals Faces Competitive Pressure in Hereditary Angioedema Treatment, RBC Says",
+  "summary": "BioCryst Pharmaceuticals' (BCRX) Ordaleyo faces competitive pressure in the hereditary angioedema tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/biocryst-pharmaceuticals-faces-competitive-pressure-154254876.html",
+  "tickers": [
+   "BCRX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cc8ebfb4-052e-3465-9534-ff8388af3449",
   "ts": "2026-09-08T23:24:04+00:00",
   "title": "BCRX Stock Posts Worst Day In Over 6 Months After PHVS Trial Win In Rare Swelling Disease",

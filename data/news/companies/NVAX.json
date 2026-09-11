@@ -1,5 +1,29 @@
 [
  {
+  "id": "2eec365c-0d62-3ff3-abad-e4dac276cc06",
+  "ts": "2026-09-10T23:45:04+00:00",
+  "title": "3 Russell 2000 Stocks We\u2019re Skeptical Of",
+  "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-234504822.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "a9cee91b-dce5-3825-9a34-c97d8dd7efc3",
+  "ts": "2026-09-10T18:02:22+00:00",
+  "title": "Novavax Highlights Sanofi, Pfizer Catalysts in Matrix-M Platform Pivot",
+  "summary": "Novavax (NASDAQ:NVAX) executives outlined the company\u2019s transition from a COVID-19 vaccine-focused business toward a partnership-driven model centered on its Matrix-M adjuvant technology, with near-term attention on Sanofi\u2019s commercial rollout of NUVAXOVID, combination vaccine development and early",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/instant-alerts/event-novavax-highlights-sanofi-pfizer-catalysts-in-matrix-m-platform-pivot-2026-09-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "41cc11c8-357d-3507-b2f6-651da08711c5",
   "ts": "2026-09-10T05:02:05+00:00",
   "title": "Novavax Highlights Matrix-M Licensing Push, Oncology Ambitions at Cantor Conference",

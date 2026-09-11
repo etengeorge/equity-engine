@@ -48,6 +48,18 @@
   "source": "yfinance"
  },
  {
+  "id": "af4c21f3-9515-3cfe-a4ac-fd9013fc7125",
+  "ts": "2026-09-09T12:30:00+00:00",
+  "title": "Perma-Pipe International Holdings, Inc. Q2 2026 Earnings Call Summary",
+  "summary": "Moby summary of Perma-Pipe International Holdings, Inc.'s Q2 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-perma-pipe-international-holdings-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "PPIH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cd7c6d43-73c6-33df-929b-7cb9f360908c",
   "ts": "2026-09-09T11:30:00+00:00",
   "title": "Perma-Pipe International Holdings, Inc. Announces Second Quarter Fiscal 2026 Financial Results",

@@ -1,5 +1,33 @@
 [
  {
+  "id": "72d0e32d-36da-3eb0-b1a3-56941e4c1a0d",
+  "ts": "2026-09-10T19:49:34+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+  "summary": "Healthcare stocks declined late Thursday afternoon, with the NYSE Healthcare Index shedding 0.3% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194934373.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "04631f19-a38b-37b5-b81c-4753891660dc",
+  "ts": "2026-09-10T17:45:16+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer in Afternoon Trading",
+  "summary": "Healthcare stocks declined Thursday afternoon, with the NYSE Healthcare Index shedding 0.2% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-174516508.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
   "ts": "2026-09-10T13:17:56+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",

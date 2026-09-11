@@ -1,92 +1,87 @@
-# AIR — AAR
-*Industrials · brief generated 2026-09-10 · selected as **rotation***
+# CSW — CSW INDUSTRIALS
+*Industrials · brief generated 2026-09-11 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 110/1956
+- rotation position 120/1956
 
 ## Market
 | | |
 |---|---|
-| price | $124.60 |
-| market cap | $5.0B |
-| 5d / 21d / 63d / 252d | +0.1% / -12.7% / +3.7% / +66.6% |
-| 60d avg daily $ volume | $62.4M |
-| beta (vs IWM) | 1.17 (R²=0.317) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-05-31 (10-K) |
+| price | $291.70 |
+| market cap | $4.8B |
+| 5d / 21d / 63d / 252d | -3.3% / -17.0% / +9.9% / +15.9% |
+| 60d avg daily $ volume | $44.7M |
+| beta (vs IWM) | 1.4 (R²=0.451) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 85% / debt 15% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$58.2M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$62.1M', '$1.4M', '$13.9M']
-Enterprise value **$5.8B** · FCFF yield **+1.0%**
+Normalized FCFF base **$144.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$132.4M', '$152.1M', '$147.8M']
+Enterprise value **$5.6B** · FCFF yield **+2.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.4% − 1pt | +56.7% |
-| **10.4% (point)** | **+61.6%** |
-| 10.4% + 1pt | +66.2% |
+| 11.4% − 1pt | +32.0% |
+| **11.4% (point)** | **+35.7%** |
+| 11.4% + 1pt | +39.2% |
 
 
-> **Stock compensation is 68% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$40.5M** and an implied growth of **+74.3%** instead of +61.6%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+14.9%** (5y revenue CAGR +14.9%).
-Gap under that baseline: **-92.4%** (fair value $9.45 vs price $124.60).
+Naive baseline for comparison: **+20.9%** (5y revenue CAGR +20.9%).
+Gap under that baseline: **-47.8%** (fair value $152.14 vs price $291.70).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **9th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -71.5%).
+Cohort: **29th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -26.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `lumpy_fcff_spread_2.4x_of_mean`
-- `possible_peak_cycle_base_newest_fcf_4.5x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_68%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-08-04 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1750/000114036126031078/ny20075753x771_def14a.htm
-- 2026-07-24 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926086424/tm2621198d1_8k.htm
-- 2026-07-22 **10-K** — https://www.sec.gov/Archives/edgar/data/1750/000110465926085459/air-20260531x10k.htm
-- 2026-07-21 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926085429/tm2620584d1_8k.htm
-- 2026-05-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926058989/tm2613847d1_8k.htm
-- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926056332/tm2612934d1_8k.htm
-- 2026-04-24 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926048512/tm2612515d1_8k.htm
-- 2026-03-25 **10-Q** — https://www.sec.gov/Archives/edgar/data/1750/000110465926033973/air-20260228x10q.htm
-- 2026-03-24 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926033901/tm269282d1_8k.htm
-- 2026-02-11 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1750/000110465926013432/tm265922d1_8k.htm
+- 2026-08-31 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000051/cswi-20260827.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000048/cswi-20260730.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000046/cswi-20260630.htm
+- 2026-07-16 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1624794/000119312526306099/d36145ddef14a.htm
+- 2026-05-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000030/cswi-20260526.htm
+- 2026-05-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000027/cswi-20260331.htm
+- 2026-01-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000016/cswi-20260129.htm
+- 2026-01-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000014/cswi-20251231.htm
+- 2025-11-04 **8-K** — items 1.01,2.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1624794/000119312525264609/d47476d8k.htm
+- 2025-10-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1624794/000162479425000105/cswi-20251030.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-21** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1750/000110465926085429/tm2620584d1_ex99-1.htm
-- **2026-07-21** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1750/000110465926085429/tm2620584d1_ex99-2.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000048/er_q12027.htm
+- **2026-05-26** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1624794/000162479426000030/er_q42026.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-02** · Is AAR (AIR) Cheap On New Tech Leadership And A 14% Undervalued View? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/aar-air-cheap-tech-leadership-121243899.html
-  > AAR (AIR) shares came into focus after the company appointed Sanjay Sood as Senior Vice President and Chief Digital & Technology Officer, prompting investors to reassess how technology and AI ambitions intersect with the current share perfo
-- **2026-09-01** · AAR announces participation in 2026 Jefferies Global Industrials Conference — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/aar-announces-participation-2026-jefferies-200500813.html
-  > AAR CORP. (NYSE: AIR), the leading parts, repair, and software platform in the aviation aftermarket, announced today that the Company's senior management will participate in the 2026 Jefferies Global Industrials Conference on Wednesday, Sep
-- **2026-09-01** · Is AAR (AIR) Outperforming Other Aerospace Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/aar-air-outperforming-other-aerospace-134003191.html
-  > Here is how AAR (AIR) and Astronics Corporation (ATRO) have performed compared to their sector so far this year.
-- **2026-08-31** · AAR names Sanjay Sood Senior Vice President and Chief Digital & Technology Officer — *PR Newswire* — https://finance.yahoo.com/technology/articles/aar-names-sanjay-sood-senior-200500522.html
-  > AAR CORP. (NYSE: AIR), the leading parts, repair, and software platform in the aviation aftermarket, announced that Sanjay Sood joined the Company as Senior Vice President and Chief Digital & Technology Officer, effective today.
-- **2026-08-31** · AAR earns 2026 Great Place To Work Certification™ — *PR Newswire* — https://finance.yahoo.com/small-business/articles/aar-earns-2026-great-place-120000189.html
-  > AAR CORP. (NYSE: AIR), the leading parts, repair, and software platform in the aviation aftermarket, is proud to be Certified™ by Great Place To Work® for the second consecutive year. The certification is earned through feedback shared by t
-- **2026-08-28** · Is TransDigm's Commercial Aftermarket Strength Driving Growth? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/transdigms-commercial-aftermarket-strength-driving-153600041.html
-  > TDG's commercial aftermarket revenues rise 17% in fiscal Q3 2026, with strong bookings prompting a higher full-year growth outlook.
-- **2026-08-25** · Buy 3 Mid-Sized Defense Equipment Stocks Amid Geopolitical Conflicts — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/buy-3-mid-sized-defense-122600324.html
-  > AIR, ATRO and DCO stand out as mid-sized defense stocks, backed by rising spending and strong earnings growth.
-- **2026-08-21** · Teledyne (TDY) Down 2.7% Since Last Earnings Report: Can It Rebound? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/teledyne-tdy-down-2-7-153012044.html
-  > Teledyne (TDY) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
-- **2026-08-21** · AAR and Ducommun Shares Plummet, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/aar-ducommun-shares-plummet-know-003500513.html
-  > A number of stocks fell in the afternoon session after surging oil prices and rising long-term interest rates stoked fears of a slowdown in industry orders.
-- **2026-08-20** · Q2 Earnings Highlights: AAR (NYSE:AIR) Vs The Rest Of The Aerospace Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-highlights-aar-nyse-181115447.html
-  > As the Q2 earnings season wraps, let’s dig into this quarter’s best and worst performers in the aerospace industry, including AAR (NYSE:AIR) and its peers.
+- **2026-08-21** · CSW Industrials (CSW) Pulls Back After Strong Returns, Is It Fully Valued? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/csw-industrials-csw-pulls-back-151019380.html
+  > CSW Industrials (CSW) has drawn fresh attention after recent trading saw the stock decline 1.7% on the day and 5.9% over the past week, despite strong multi year total return figures. See our latest analysis for CSW Industrials. The recent 
+- **2026-08-21** · CSW Industrials (CSW) Stock Could Be 25% Overvalued Despite Strong Cash Flow — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/csw-industrials-csw-stock-could-071051930.html
+  > CSW Industrials stock has delivered a strong 151.0% return over the past 5 years, yet both its Discounted Cash Flow (DCF) intrinsic value estimate and market multiples currently point to the shares trading at a premium. Together with a low 
+- **2026-08-20** · 3 Russell 2000 Stocks to Keep an Eye On — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-keep-121115394.html
+  > Big companies tend to get all the attention, but the Russell 2000 (^RUT) offers exposure to businesses still in their early growth phases. Some of these companies will become tomorrow’s mid- and large-cap winners by capitalizing on emerging
+- **2026-08-16** · 1 Momentum  Stock to Target This Week and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-momentum-stock-target-week-134900008.html
+  > Great things are happening to the stocks in this article. They’re all outperforming the market over the last month because of positive catalysts such as a new product line, constructive news flow, or even a loyal Reddit fanbase.
+- **2026-08-04** · Are Basic Materials Stocks Lagging  Aperam (APEMY) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/basic-materials-stocks-lagging-aperam-134004765.html
+  > Here is how Aperam (APEMY) and CSW Industrials (CSW) have performed compared to their sector so far this year.
+- **2026-07-30** · CSW Industrials Inc (CSW) (Q1 2027) Earnings Call Highlights: Record Revenue and EBITDA Growth ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/csw-industrials-inc-csw-q1-230349126.html
+  > CSW Industrials Inc (CSW) reports record Q1 results with 5.3% organic revenue growth and 290 basis point margin expansion, driven by strong acquisition performance and disciplined pricing.
+- **2026-07-30** · CSW (NYSE:CSW) Beats Q2 CY2026 Sales Expectations — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/csw-nyse-csw-beats-q2-130315231.html
+  > Industrial products company CSW (NYSE:CSW) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 33% year on year to $350.7 million. Its non-GAAP profit of $3.84 per share was 10.9% above analysts’ consensus 
+- **2026-07-30** · CSW Industrials (CSW) Q1 Earnings and Revenues Surpass Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/csw-industrials-csw-q1-earnings-120502703.html
+  > CSW Industrials (CSW) delivered earnings and revenue surprises of +4.92% and +2.96%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-30** · CSW Industrials Reports Impressive Fiscal 2027 First Quarter with All-Time Record Results; Contractor Solutions Segment Delivers Second Consecutive Quarter of Positive Organic Growth — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/csw-industrials-reports-impressive-fiscal-104500938.html
+  > DALLAS, July 30, 2026 (GLOBE NEWSWIRE) -- CSW Industrials, Inc. (NYSE: CSW or the "Company") today reported results for the fiscal 2027 first quarter period ended June 30, 2026. Fiscal 2027 First Quarter Highlights (comparisons to fiscal 20
+- **2026-07-27** · AEM Invests C$60M via Private Placement in Cadillac Mines Ahead of IPO — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/aem-invests-c-60m-via-121300989.html
+  > Agnico Eagle commits C$60 million to Cadillac Mines' IPO, backing Abitibi gold exploration while keeping options open to adjust its stake over time.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -103,18 +98,18 @@ Attack these before you trust any number above.
 - **2026-09-01** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html
 
 ## Market and macro context
-- **2026-09-10** · The Odds of a September Rate Hike Just Jumped. Should You Still Buy the S&P 500? — *Motley Fool* — https://www.fool.com/investing/2026/09/10/odds-of-september-rate-hike-jumped-buy-sp-500/
-- **2026-09-10** · 3 Reasons to Sell SJM and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-sjm-1-141704686.html
-- **2026-09-10** · Kewaunee Q1 Earnings Fall Y/Y Despite International Strength — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kewaunee-q1-earnings-fall-y-141500129.html
-- **2026-09-10** · Stock Market Today: Nasdaq On Losing Streak As Oil Surges; Apple Advances On iPhone Launch (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-nvidia-chipmaker-tsmc/?src=A00220&yptr=yahoo
+- **2026-09-11** · Dow Futures Pop as Markets Rebound Ahead of Crucial CPI Inflation Report — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091126/card/markets-rebound-with-crucial-cpi-inflation-report-in-focus-16GM9jtIX1404eFQvXdl?siteid=yhoof2&yptr=yahoo
+- **2026-09-11** · Easing Oil Bills, Tech Optimism Lift Wall Street Pre-Bell, Asia off, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/easing-oil-bills-tech-optimism-111107820.html
+- **2026-09-11** · S&P 500 above 8,000 in 2026 now looks ambitious, Citi says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-above-8-000-105551683.html
+- **2026-09-11** · Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks — *Motley Fool* — https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/
 
 *Rules, releases and agency actions:*
-- **2026-09-10** · Fee for Certain H-1B Petitions — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/C1-2026-17324/fee-for-certain-h-1b-petitions
-- **2026-09-10** · Airworthiness Directives; Bell Textron Canada Limited Helicopters — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18522/airworthiness-directives-bell-textron-canada-limited-helicopters
-- **2026-09-10** · Airworthiness Directives; Dassault Aviation Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18520/airworthiness-directives-dassault-aviation-airplanes
-- **2026-09-10** · In Situ Recovery Monitoring and Decommissioning Timeliness — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18504/in-situ-recovery-monitoring-and-decommissioning-timeliness
-- **2026-09-10** · Special Local Regulation; Southern California Annual Marine Events for the San Diego Captain of the Port Zone, San Diego TriRock Triathlon — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18492/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the
-- **2026-09-10** · Reef Fish Fishery of the Gulf of America; 2027 Red Grouper Commercial Quota Retention — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/10/2026-18484/reef-fish-fishery-of-the-gulf-of-america-2027-red-grouper-commercial-quota-retention
+- **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
+- **2026-09-11** · Special Areas; Roadless Area Conservation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18648/special-areas-roadless-area-conservation
+- **2026-09-11** · Allocation and Apportionment of Deductions to Foreign Source Section 951A Category Income and Deduction Eligible Income — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18645/allocation-and-apportionment-of-deductions-to-foreign-source-section-951a-category-income-and
+- **2026-09-11** · Eliminating the Discretionary 60-Day Grace Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period
+- **2026-09-11** · Amendment to the International Traffic in Arms Regulations: Prohibited Exports, Imports, and Sales to or From Certain Countries-Cyprus — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18630/amendment-to-the-international-traffic-in-arms-regulations-prohibited-exports-imports-and-sales-to
+- **2026-09-11** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From New Jersey to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18623/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-new-jersey
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

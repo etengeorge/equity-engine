@@ -1,5 +1,47 @@
 [
  {
+  "id": "568e250b-c6f0-39aa-8b63-e89663d70f0a",
+  "ts": "2026-09-10T19:55:45+00:00",
+  "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+  "summary": "Tech stocks were lower late Thursday afternoon, with the State Street Technology Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "28cae552-e653-3462-a632-7a4dedbbe54d",
+  "ts": "2026-09-10T17:35:44+00:00",
+  "title": "Sector Update: Tech Stocks Decline Thursday Afternoon",
+  "summary": "Tech stocks were lower Thursday afternoon, with the State Street Technology Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-thursday-173544461.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "4a7d7a8e-c8ad-3e0e-8a31-e9dbb77ced80",
+  "ts": "2026-09-10T17:08:34+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
   "ts": "2026-09-10T13:17:56+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",

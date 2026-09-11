@@ -1,5 +1,53 @@
 [
  {
+  "id": "6668c85d-8b6e-321b-8b97-1e41751bcf5f",
+  "ts": "2026-09-11T00:25:04+00:00",
+  "title": "1 Russell 2000 Stock with Exciting Potential and 2 Facing Challenges",
+  "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-002504271.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7e91b16f-e1b2-3b6a-82a4-3bc7136cdc2e",
+  "ts": "2026-09-10T12:30:49+00:00",
+  "title": "Why Analysts Are Bearish On This Tesla Energy Rival",
+  "summary": "Battery storage firm Fluence, a Tesla Energy peer, has received a slew of analyst downgrades and price target cuts over the past few weeks.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/news/battery-energy-storage-fluence-tesla-gm-ford-barclays-piper/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "43bf20db-e9e4-381e-8719-0657df242135",
+  "ts": "2026-09-10T12:00:00+00:00",
+  "title": "Fluence Selected by Compass Pathways to Develop Post-Approval COMP360 Provider Training",
+  "summary": "Fluence, a leading provider of professional education in psychedelic therapy, today announced that it has been selected by Compass Pathways plc (Nasdaq: CMPS) as a recipient of its U.S. healthcare provider training grant program. Through the collaboration, Fluence is developing a new certificate program designed to prepare healthcare providers to deliver high-quality care for patients receiving COMP360 psilocybin treatment, if approved by the U.S. Food and Drug Administration (FDA).",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/fluence-selected-compass-pathways-develop-120000789.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "83f8388c-4dd9-333b-b86a-894611f97bd9",
+  "ts": "2026-09-09T15:55:00+00:00",
+  "title": "FLNC Stock Trades at a Discount: Should You Buy, Sell or Hold?",
+  "summary": "FLNC trades at a steep discount, but weaker fiscal 2026 guidance, project delays and execution risks make the valuation look like a potential trap.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/flnc-stock-trades-discount-buy-155500177.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b6ad13a9-f1f9-3185-87f9-9766ac59c8fb",
   "ts": "2026-09-05T05:58:13+00:00",
   "title": "Fluence Has a $6.4 Billion Backlog but Pushed $400 Million of Deliveries Out. Is the AI-Power Story Breaking?",

@@ -1,5 +1,17 @@
 [
  {
+  "id": "72d0e32d-36da-3eb0-b1a3-56941e4c1a0d",
+  "ts": "2026-09-10T19:49:34+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+  "summary": "Healthcare stocks declined late Thursday afternoon, with the NYSE Healthcare Index shedding 0.3% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194934373.html",
+  "tickers": [
+   "OBIO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "69be9a6c-aee7-363d-bfd9-c8f9c6d22df5",
   "ts": "2026-09-02T20:05:00+00:00",
   "title": "Orchestra BioMed Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
@@ -114,18 +126,6 @@
   "summary": "NEW HOPE, Pa., May 19, 2026 (GLOBE NEWSWIRE) -- Orchestra BioMed Holdings, Inc. (Nasdaq: OBIO, \u201cOrchestra BioMed\u201d or the \u201cCompany\u201d), a biomedical company accelerating high-impact technologies to patients through risk-reward sharing partnerships, today announced that company management will be participating in the Jefferies Global Healthcare Conference. Chairman and CEO David Hochman will participate in a fireside chat with Matt Taylor, Managing Director at Jefferies at 9:55am ET on Thursday June",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/sectors/healthcare/articles/orchestra-biomed-participate-jefferies-global-123000074.html",
-  "tickers": [
-   "OBIO"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "17b48c39-54e2-3e21-a38f-cce3f23496b5",
-  "ts": "2026-05-12T21:40:05+00:00",
-  "title": "Orchestra BioMed Holdings, Inc. (OBIO) Reports Q1 Loss, Lags Revenue Estimates",
-  "summary": "Orchestra BioMed Holdings, Inc. (OBIO) delivered earnings and revenue surprises of +16.98% and -94.27%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/news/orchestra-biomed-holdings-inc-obio-214005335.html",
   "tickers": [
    "OBIO"
   ],

@@ -1,5 +1,61 @@
 [
  {
+  "id": "d3ae17c6-4c4f-3ebd-92bf-a22733ee7dbb",
+  "ts": "2026-09-10T20:03:25+00:00",
+  "title": "Sector Update: Financial Stocks Retreat Late Afternoon",
+  "summary": "Financial stocks declined in late Thursday afternoon trading, with the NYSE Financial Index decreasi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "664ce334-b655-3e0a-b92a-ad39b25ddabf",
+  "ts": "2026-09-10T19:41:45+00:00",
+  "title": "Sector Update: Financial",
+  "summary": "Financial stocks declined in late Thursday afternoon trading, with the NYSE Financial Index decreasi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "35cd9bc0-e017-3a62-a90b-0b4214efce97",
+  "ts": "2026-09-10T17:54:00+00:00",
+  "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+  "summary": "Financial stocks declined in Thursday afternoon trading, with the NYSE Financial Index decreasing 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "4a7d7a8e-c8ad-3e0e-8a31-e9dbb77ced80",
+  "ts": "2026-09-10T17:08:34+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "36b9e939-83b7-31e0-81b7-ff0283fd6cad",
   "ts": "2026-09-10T13:17:56+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",

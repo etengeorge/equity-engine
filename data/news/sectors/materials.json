@@ -1,5 +1,33 @@
 [
  {
+  "id": "bafa77b5-7df9-37c1-8b02-cbf183fc92a6",
+  "ts": "2026-09-10T13:31:46+00:00",
+  "title": "Corteva Stock: Is CTVA Outperforming the Basic Material Sector?",
+  "summary": "Despite Corteva's outperformance relative to the basic material sector over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4537459/corteva-stock-is-ctva-outperforming-the-basic-material-sector",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "5e2b1b54-4a3f-37ce-bee8-a582037e10bd",
+  "ts": "2026-09-10T09:31:28+00:00",
+  "title": "Dow Stock: Is DOW Outperforming the Materials Sector?",
+  "summary": "While Dow notably outpaced the broader materials sector over the past year, analysts are fairly bullish on its outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4530570/dow-stock-is-dow-outperforming-the-materials-sector",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "1743be0f-1ad3-3c35-a739-6913259fe23c",
   "ts": "2026-09-04T09:09:00+00:00",
   "title": "Stock Market News for Sep 4, 2026",

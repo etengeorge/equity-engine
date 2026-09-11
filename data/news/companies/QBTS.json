@@ -1,5 +1,41 @@
 [
  {
+  "id": "4485c4d0-1945-37b7-88ed-4f1d8982e1a4",
+  "ts": "2026-09-10T22:14:00+00:00",
+  "title": "D-Wave, Rigetti, and Quantinuum Just Got $300 Million From Washington. Here's What That Changes for Investors.",
+  "summary": "Washington is now a shareholder in these quantum computing companies.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/10/d-wave-rigetti-and-quantinuum-just-got-300-million/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "25f6c4d4-9310-3ba5-9994-3f02a946419f",
+  "ts": "2026-09-10T16:04:00+00:00",
+  "title": "Quantum Is the \u2018Next Fire Moment,\u2019 BofA Says. Why It Could Eclipse the AI Revolution.",
+  "summary": "BofA Securities says investor and corporate interest in quantum computing is surging as government funding, technological breakthroughs, and rising budgets push the technology closer to commercialization.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/ai-quantum-computing-stocks-bank-of-america-c26d7cf1?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2112d7f3-646f-3e1f-9ad0-edc90db6a697",
+  "ts": "2026-09-10T15:35:34+00:00",
+  "title": "IonQ\u2019s CEO Says \u2018Q-Day\u2019 Hits in 2028. The Stock Says Investors Stopped Listening",
+  "summary": "IonQ's CEO used investor day to warn that encryption breaks in 2028 and quantum computing is about to slipstream into every corporate research program. The stock fell anyway, and the gap between that pitch and the financial reality underneath it tells a complicated story.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/10/ionqs-ceo-says-q-day-hits-in-2028-the-stock-says-investors-stopped-listening/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7cc40f7c-d667-3a71-85fd-90fb617d9562",
   "ts": "2026-09-09T16:58:35+00:00",
   "title": "Quantum Stocks Fall as Rate-Hike Odds Climb: IonQ Sinks 4%, Rigetti and D-Wave Pull Back",

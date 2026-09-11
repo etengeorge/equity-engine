@@ -1,5 +1,75 @@
 [
  {
+  "id": "0e581fc3-8bfd-3f6c-a91b-07331f9fe439",
+  "ts": "2026-09-10T19:58:29+00:00",
+  "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+  "summary": "Energy stocks were lower late Thursday afternoon, with the NYSE Energy Sector Index easing 0.2% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195829985.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "ca7627a9-ed3d-37aa-958b-3e2137fd4fd4",
+  "ts": "2026-09-10T19:34:51+00:00",
+  "title": "Sector Update: Energy",
+  "summary": "Energy stocks were lower late Thursday afternoon, with the NYSE Energy Sector Index easing 0.1% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-193451548.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "91cf7e39-be08-3def-8052-5b6d170443e6",
+  "ts": "2026-09-10T19:09:21+00:00",
+  "title": "Carnival Just Dropped 20% in a Month. Is It Time to Sell?",
+  "summary": "Carnival stock has shed a fifth of its value in a single month, but the selloff may have nothing to do with Carnival itself. Before you act, the real culprit behind the plunge changes everything about what comes next.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/10/carnival-just-dropped-20-in-a-month-is-it-time-to-sell/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "65a3e900-2047-3671-aff6-7cc5f682eb4c",
+  "ts": "2026-09-10T17:50:34+00:00",
+  "title": "Sector Update: Energy Stocks Mixed Thursday Afternoon",
+  "summary": "Energy stocks were mixed Thursday afternoon, with the NYSE Energy Sector Index fractionally higher a",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-thursday-175034796.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "4a7d7a8e-c8ad-3e0e-8a31-e9dbb77ced80",
+  "ts": "2026-09-10T17:08:34+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "0284d059-2a26-3b9b-98df-d9a244805ae3",
   "ts": "2026-09-10T13:27:01+00:00",
   "title": "Sector Update: Energy Stocks Advance Premarket Thursday",

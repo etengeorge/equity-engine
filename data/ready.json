@@ -1,50 +1,50 @@
 {
-  "screen_utc": "2026-09-10T14:38:25+00:00",
-  "price_asof": "2026-09-09",
+  "screen_utc": "2026-09-11T11:26:52+00:00",
+  "price_asof": "2026-09-10",
   "universe": 1956,
   "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-10T14:38:26+00:00",
+    "generated_utc": "2026-09-11T11:26:53+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 36,
+        "new": 2,
+        "held": 38,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 1,
-        "held": 45,
+        "new": 4,
+        "held": 49,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 1,
+        "new": 0,
         "held": 22,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 1,
-        "held": 43,
+        "new": 3,
+        "held": 46,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 2,
-        "held": 33,
+        "new": 3,
+        "held": 36,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 3,
-        "held": 58,
+        "new": 5,
+        "held": 63,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 28,
+        "new": 3,
+        "held": 31,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 0,
-        "held": 13,
+        "new": 2,
+        "held": 15,
         "etf": "XLB"
       },
       "Communication": {
@@ -53,38 +53,38 @@
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 33,
+        "new": 2,
+        "held": 35,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 1,
+        "new": 0,
         "held": 20,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
-    "companies": 447,
-    "articles_new": 224,
+    "companies": 449,
+    "articles_new": 1085,
     "candidates": 450,
-    "elapsed_s": 200.9
+    "elapsed_s": 219.8
   },
   "picks": [
-    "AIR",
-    "ROAD",
-    "SBRA",
-    "RDNT",
-    "CAKE",
-    "CNO",
-    "RES",
-    "TBBK",
-    "VISN",
-    "CAL"
+    "RGTI",
+    "CORZ",
+    "HASI",
+    "AX",
+    "CSW",
+    "CIFR",
+    "LOVE",
+    "AII",
+    "LCII",
+    "RWT"
   ],
   "stages": {
-    "screen": "2026-09-10T14:42:09+00:00",
-    "news": "2026-09-10T14:41:47+00:00",
-    "pick": "2026-09-10T14:42:09+00:00"
+    "screen": "2026-09-11T11:30:49+00:00",
+    "news": "2026-09-11T11:30:33+00:00",
+    "pick": "2026-09-11T11:30:49+00:00"
   }
 }
