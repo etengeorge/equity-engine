@@ -1,0 +1,185 @@
+{
+  "ticker": "AEO",
+  "date": "2026-09-14",
+  "sector": "Consumer Discretionary",
+  "name": "AMERICAN EAGLE OUTFITTERS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.0,
+  "bear_growth": -0.07,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 15.020000457763672,
+  "market_implied_growth": -0.03715040696534849,
+  "cohort_pct": 73.6,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.0,
+    "market_implied_growth": -0.03715040696534849,
+    "growth_delta": 0.03715040696534849,
+    "fair_value": 12.397521459888953,
+    "price": 15.020000457763672,
+    "gap": -0.17459912902460595,
+    "fair_value_band": {
+      "low": 11.254135967639721,
+      "point": 12.397521459888953,
+      "high": 13.81423963882338
+    },
+    "fcff_base_used": 200000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.11346288453972957,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 200000000,
+      "price": 15.020000457763672,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.07,
+          "cells": [
+            {
+              "wacc": 0.09346288453972956,
+              "fair_value": 11.55740273281994,
+              "gap": -0.23053246467472333
+            },
+            {
+              "wacc": 0.10346288453972957,
+              "fair_value": 10.294424296268925,
+              "gap": -0.31461890928586145
+            },
+            {
+              "wacc": 0.11346288453972957,
+              "fair_value": 9.299516593804293,
+              "gap": -0.3808577689491697
+            },
+            {
+              "wacc": 0.12346288453972956,
+              "fair_value": 8.495039184941893,
+              "gap": -0.4344181806898081
+            },
+            {
+              "wacc": 0.13346288453972957,
+              "fair_value": 7.8307183970821175,
+              "gap": -0.47864725975860367
+            }
+          ],
+          "fair_value_at_point_wacc": 9.299516593804293,
+          "gap_at_point_wacc": -0.3808577689491697
+        },
+        {
+          "case": "base",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.09346288453972956,
+              "fair_value": 15.615875789501022,
+              "gap": 0.03967212473880766
+            },
+            {
+              "wacc": 0.10346288453972957,
+              "fair_value": 13.81423963882338,
+              "gap": -0.08027701612465976
+            },
+            {
+              "wacc": 0.11346288453972957,
+              "fair_value": 12.397521459888953,
+              "gap": -0.17459912902460595
+            },
+            {
+              "wacc": 0.12346288453972956,
+              "fair_value": 11.254135967639721,
+              "gap": -0.25072332725378965
+            },
+            {
+              "wacc": 0.13346288453972957,
+              "fair_value": 10.311834683564303,
+              "gap": -0.31345976236410633
+            }
+          ],
+          "fair_value_at_point_wacc": 12.397521459888953,
+          "gap_at_point_wacc": -0.17459912902460595
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.09346288453972956,
+              "fair_value": 21.740898908359902,
+              "gap": 0.44746326536376846
+            },
+            {
+              "wacc": 0.10346288453972957,
+              "fair_value": 19.1114158038547,
+              "gap": 0.27239781766958737
+            },
+            {
+              "wacc": 0.11346288453972957,
+              "fair_value": 17.04696048372766,
+              "gap": 0.1349507299725996
+            },
+            {
+              "wacc": 0.12346288453972956,
+              "fair_value": 15.383600271055498,
+              "gap": 0.02420770986753773
+            },
+            {
+              "wacc": 0.13346288453972957,
+              "fair_value": 14.015199983205488,
+              "gap": -0.06689749959620106
+            }
+          ],
+          "fair_value_at_point_wacc": 17.04696048372766,
+          "gap_at_point_wacc": 0.1349507299725996
+        }
+      ],
+      "summary": {
+        "bear": -0.3808577689491697,
+        "base": -0.17459912902460595,
+        "bull": 0.1349507299725996
+      },
+      "downside": -0.47864725975860367,
+      "upside": 0.44746326536376846
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am punishing AEO for an accounting windfall while ignoring a genuinely improving business. Total comparable sales were +6% \u2014 that is not a company in decline. Aerie at +19% comps and 25% total revenue growth is one of the better franchises in specialty retail. Revenue was a record. And the refund is real cash: $196M actually collected, which funds buybacks and the dividend regardless of how it is labelled.",
+    "what_would_prove_it": "Whether ex-refund profitability is growing. That is answerable from the company's own disclosure rather than inference, because AEO quantified the benefit at every line.",
+    "already_visible": "Yes, and it decides the name against the bull. Ex-refund operating profit fell 51%, from $103M to $50M. Ex-refund gross margin fell ~320bp. H1 free cash flow was negative $11.3M with the refund cash already inside it. The +6% comp is being bought with markdowns and 'planned investments in advertising' \u2014 SG&A rose 19% against revenue up 8%. A retailer growing comps 6% while operating profit ex-windfall halves is not improving, it is buying traffic.",
+    "unresolved": "Where the ex-refund base really sits. The refund cash and the $35M of associated incentive compensation accrual straddle the income statement and the cash statement in ways I could not fully separate, and AEO also sold refund claims to a third party in the PRIOR year, so some of the economics were recognised before this window. My $200M base could be $170M or $230M, which moves the implied requirement by several points."
+  },
+  "what_changed": "Q2 2026 (quarter ended 2026-08-01, reported 2026-09-09) and the stock fell ~13-16%. The reason is in the company's own release. AEO received $196 MILLION of IEEPA tariff refunds including interest during the quarter. The net benefit to gross profit was $179M \u2014 1300 basis points of the 980bp of gross margin expansion \u2014 and the net benefit to OPERATING PROFIT was $161M, or 1170bp of operating margin. Operating profit was $211M against $103M last year. And critically: 'The company has received substantially all of the tariff refunds for which it submitted refund claims.' Interest expense rose to $47M because AEO had SOLD certain tariff refund claims to a third-party buyer in the prior fiscal year, of which $45M is that agreement. American Eagle brand comparable sales were MINUS 1%.",
+  "consensus_case": "At $15.02 the market is paying ~$2.4B of enterprise value for a retailer that just posted RECORD quarterly revenue of $1.38 billion, up 8%, with total comparable sales up 6% and Aerie plus OFFLINE growing 25% including 19% comparable growth. Full-year operating income is guided to $540-550M. On the reported numbers that is roughly 4x EV/EBITDA with a 3% dividend yield, and the Aerie franchise alone \u2014 growing 25% with its own margin rate improving \u2014 is arguably worth more than the whole enterprise value. The bull case is that the market is applying a dying-mall-retailer multiple to a portfolio where the growth brand is now a majority of the incremental dollar.",
+  "base_case_rationale": "Strip the refund and the quarter inverts. Ex-refund operating profit is $211M - $161M = $50M against $103M a year earlier, DOWN 51%. Gross margin expanded 980bp of which 1300bp was the refund, so ex-refund gross margin FELL about 320bp \u2014 consistent with the company's own statement that merchandise margins deleveraged 330 basis points. Full-year guidance of $540-550M is explicitly 'inclusive of net tariff refund benefit', so the underlying number is roughly $380-390M. The cash statement says the same thing louder: H1 operating cash flow was $116.3M against capital expenditure of $127.6M, so FREE CASH FLOW WAS NEGATIVE $11.3M for the half \u2014 and that is WITH $196M of refunds collected inside it. I therefore override the base to $200M, roughly the ex-refund normalised level and close to the FY2025 actual of $195.4M, and set growth to zero: one brand compounding 25% against a larger brand at -1% comps, with a mechanical $161M headwind in fiscal 2027 that has no offset because the refunds are done.",
+  "key_risks": [
+    "Fiscal 2027 laps $161M of operating profit with no offset \u2014 a dated, mechanical headwind the model cannot see",
+    "American Eagle, still the larger brand, is at -1% comparable sales while SG&A grows 19%",
+    "H1 free cash flow negative $11.3M despite collecting $196M of refunds; capex guided $250-260M"
+  ],
+  "watch_for": [
+    "Q3 gross margin against the guided 'flat YoY' \u2014 the first quarter with no refund in it",
+    "American Eagle brand comparable sales turning positive",
+    "Fiscal 2027 operating income guidance, which must absorb the $161M"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/919012/000119312526387856/aeo-20260801.htm",
+    "https://www.sec.gov/Archives/edgar/data/919012/000119312526386510/aeo-20260909.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.48x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_60%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

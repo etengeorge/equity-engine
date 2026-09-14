@@ -1,0 +1,185 @@
+{
+  "ticker": "SHOE",
+  "date": "2026-09-14",
+  "sector": "Consumer Discretionary",
+  "name": "SHOE STATION GROUP INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": -0.02,
+  "bear_growth": -0.1,
+  "bull_growth": 0.05,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 12.710000038146973,
+  "market_implied_growth": -0.19312699356253987,
+  "cohort_pct": 82.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.02,
+    "market_implied_growth": -0.19312699356253987,
+    "growth_delta": 0.17312699356253988,
+    "fair_value": 12.499459597900149,
+    "price": 12.710000038146973,
+    "gap": -0.016564944108176327,
+    "fair_value_band": {
+      "low": 11.833712885354768,
+      "point": 12.499459597900149,
+      "high": 13.307651870202172
+    },
+    "fcff_base_used": 25000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.12294282691819555,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 25000000,
+      "price": 12.710000038146973,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.1,
+          "cells": [
+            {
+              "wacc": 0.10294282691819555,
+              "fair_value": 11.46659237048804,
+              "gap": -0.09782908449465366
+            },
+            {
+              "wacc": 0.11294282691819556,
+              "fair_value": 10.804259236403894,
+              "gap": -0.14994026719302211
+            },
+            {
+              "wacc": 0.12294282691819555,
+              "fair_value": 10.268834350097434,
+              "gap": -0.19206653664223305
+            },
+            {
+              "wacc": 0.13294282691819556,
+              "fair_value": 9.826679719368192,
+              "gap": -0.22685446971872303
+            },
+            {
+              "wacc": 0.14294282691819554,
+              "fair_value": 9.455098069891283,
+              "gap": -0.25608984724521144
+            }
+          ],
+          "fair_value_at_point_wacc": 10.268834350097434,
+          "gap_at_point_wacc": -0.19206653664223305
+        },
+        {
+          "case": "base",
+          "growth": -0.02,
+          "cells": [
+            {
+              "wacc": 0.10294282691819555,
+              "fair_value": 14.309768620260046,
+              "gap": 0.12586692189705984
+            },
+            {
+              "wacc": 0.11294282691819556,
+              "fair_value": 13.307651870202172,
+              "gap": 0.04702217389940566
+            },
+            {
+              "wacc": 0.12294282691819555,
+              "fair_value": 12.499459597900149,
+              "gap": -0.016564944108176327
+            },
+            {
+              "wacc": 0.13294282691819556,
+              "fair_value": 11.833712885354768,
+              "gap": -0.06894470103557615
+            },
+            {
+              "wacc": 0.14294282691819554,
+              "fair_value": 11.275680129630999,
+              "gap": -0.11284971708977964
+            }
+          ],
+          "fair_value_at_point_wacc": 12.499459597900149,
+          "gap_at_point_wacc": -0.016564944108176327
+        },
+        {
+          "case": "bull",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.10294282691819555,
+              "fair_value": 17.600017103700957,
+              "gap": 0.38473776954188854
+            },
+            {
+              "wacc": 0.11294282691819556,
+              "fair_value": 16.196080499282047,
+              "gap": 0.2742785563078032
+            },
+            {
+              "wacc": 0.12294282691819555,
+              "fair_value": 15.065622642643357,
+              "gap": 0.18533616030105193
+            },
+            {
+              "wacc": 0.13294282691819556,
+              "fair_value": 14.135972048436857,
+              "gap": 0.11219291943430876
+            },
+            {
+              "wacc": 0.14294282691819554,
+              "fair_value": 13.35810272927481,
+              "gap": 0.05099155697739288
+            }
+          ],
+          "fair_value_at_point_wacc": 15.065622642643357,
+          "gap_at_point_wacc": 0.18533616030105193
+        }
+      ],
+      "summary": {
+        "bear": -0.19206653664223305,
+        "base": -0.016564944108176327,
+        "bull": 0.18533616030105193
+      },
+      "downside": -0.25608984724521144,
+      "upside": 0.38473776954188854
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I have marked the base down to the trough and therefore guaranteed a no_edge. The `possible_trough_cycle_base` flag fires at 0.40x, and the flag's own logic says growth applied to a trough understates value. FY2026 contains $13.6M of genuinely non-recurring pre-tax charges (CEO transition and strategic review), the rebanner costs are one-time, and the prior-year gross margin was flattered by a temporary benefit from raising prices ahead of tariff cost increases \u2014 so the 690bp decline overstates the underlying deterioration. Normalise all of that and earnings power is well above the $25M I used.",
+    "what_would_prove_it": "H2 comparable sales landing at the top of the guided -1% to +1% range with gross margin stabilising, and free cash flow for the full year coming in near the $54.5M the engine assumes.",
+    "already_visible": "It cuts both ways and I am recording both halves honestly. In the bull's favour: the prior-year comparison really was inflated \u2014 management says Q2 2025 merchandise margin 'included a temporary benefit from raising prices in advance of increasing tariff-related costs', which is the IEEPA cohort event appearing in a form I had not seen, as a LAPPING problem rather than a refund. Against the bull: the company's own FULL-YEAR guidance already incorporates every one of those normalisations and still lands at $0.75-0.90 of ADJUSTED EPS, i.e. $20-24M \u2014 the $13.6M of charges is explicitly excluded from that figure. Management has already done the normalisation the bull is asking me to do, and it does not get anywhere near $54.5M.",
+    "unresolved": "Whether the August comp inflection is real or a fall-seasonal artifact. One month of directional commentary on an earnings call is not evidence, and I could not find the underlying monthly data."
+  },
+  "what_changed": "Q2 2026 (quarter ended 2026-08-01, reported 2026-09-10) was materially worse than the extract knows \u2014 the cached fundamentals stop at the 2026-05-02 balance sheet. Net sales fell 7.2% to $284.3M. Gross margin 31.9% against 38.8%, DOWN 690 basis points, of which merchandise margin was -630bp. H1 net income collapsed to $631 THOUSAND from $28,568 thousand. Full-year guidance was LOWERED: net sales $1.100-1.111B (down 2-3%), gross margin ~32.5-32.7% (390-410bp of compression), GAAP EPS $0.32-0.47 and adjusted EPS $0.75-0.90. Management expects 'the promotional environment will persist through the balance of the year'.",
+  "consensus_case": "At $12.71 the market is paying ~$216M of enterprise value \u2014 a $345M market capitalisation against $131.6M of cash and marketable securities and NO DEBT \u2014 for a family footwear retailer that is mid-rebanner, with 21 Shoe Carnival stores converted to the Shoe Station format year to date and management reporting that August comparable sales improved after localised assortments. E-commerce grew 18.8%. The balance sheet means the equity cannot be forced, and if the Shoe Station format works the conversion is a self-funded route to a better box. The market is pricing a business it expects to keep shrinking; it is not pricing bankruptcy.",
+  "base_case_rationale": "The engine's $54.5M FCFF base is the mean of [$26.6M, $69.5M, $66.5M] \u2014 two good years and one bad one \u2014 for a company that now guides full-year GAAP earnings of $9-13M and adjusted earnings of $20-24M on 27.2M shares. Depreciation of ~$35M roughly offsets capex of ~$40M, so a defensible forward owner-earnings base is $25M, close to the FY2025 actual of $26.6M and nowhere near $54.5M. On that base the market is implying about -1.4% five-year growth, not -19.3%. My -2% is the honest read of a chain guiding sales down 2-3% with 400bp of structural gross margin compression and a promotional environment management expects to persist: roughly flat-to-slightly-down cash flow from an already depressed level.",
+  "key_risks": [
+    "$303.4M of operating lease liabilities against a $345M market cap \u2014 the fixed cost base does not shrink with sales",
+    "690bp of gross margin compression in a single quarter with management guiding the promotional environment to persist",
+    "Rebanner is a bet: 21 stores converted year to date with no completed-format comparable to judge it on"
+  ],
+  "watch_for": [
+    "H2 comparable sales against the guided -1% to +1%",
+    "Gross margin stabilising near the guided 32.5-32.7% rather than deteriorating further",
+    "Full-year free cash flow against the $26.6M FY2025 level"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/895447/000119312526387855/shoe-20260801.htm",
+    "https://www.sec.gov/Archives/edgar/data/895447/000119312526387134/shoe-20260910.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.40x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_141%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

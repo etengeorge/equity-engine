@@ -1,0 +1,184 @@
+{
+  "ticker": "SKY",
+  "date": "2026-09-14",
+  "sector": "Consumer Discretionary",
+  "name": "CHAMPION HOMES INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.07,
+  "bear_growth": 0.0,
+  "bull_growth": 0.13,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 83.16000366210938,
+  "market_implied_growth": 0.15047936196752343,
+  "cohort_pct": 44.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.07,
+    "market_implied_growth": 0.15047936196752343,
+    "growth_delta": -0.08047936196752342,
+    "fair_value": 64.5023418920724,
+    "price": 83.16000366210938,
+    "gap": -0.2243585972632427,
+    "fair_value_band": {
+      "low": 59.699653657049744,
+      "point": 64.5023418920724,
+      "high": 70.3990622833918
+    },
+    "fcff_base_used": 215615333.33333334,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.1183014770335479,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 215615333.33333334,
+      "price": 83.16000366210938,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.0983014770335479,
+              "fair_value": 61.52104973099433,
+              "gap": -0.2602086697715541
+            },
+            {
+              "wacc": 0.10830147703354791,
+              "fair_value": 56.202499818135124,
+              "gap": -0.32416429361290466
+            },
+            {
+              "wacc": 0.1183014770335479,
+              "fair_value": 51.96414677563451,
+              "gap": -0.37513053767082494
+            },
+            {
+              "wacc": 0.1283014770335479,
+              "fair_value": 48.50684901288446,
+              "gap": -0.4167045830111491
+            },
+            {
+              "wacc": 0.1383014770335479,
+              "fair_value": 45.63260653374223,
+              "gap": -0.45126738186359583
+            }
+          ],
+          "fair_value_at_point_wacc": 51.96414677563451,
+          "gap_at_point_wacc": -0.37513053767082494
+        },
+        {
+          "case": "base",
+          "growth": 0.07,
+          "cells": [
+            {
+              "wacc": 0.0983014770335479,
+              "fair_value": 77.80931398616195,
+              "gap": -0.06434210486194802
+            },
+            {
+              "wacc": 0.10830147703354791,
+              "fair_value": 70.3990622833918,
+              "gap": -0.15345046677206808
+            },
+            {
+              "wacc": 0.1183014770335479,
+              "fair_value": 64.5023418920724,
+              "gap": -0.2243585972632427
+            },
+            {
+              "wacc": 0.1283014770335479,
+              "fair_value": 59.699653657049744,
+              "gap": -0.2821109784985374
+            },
+            {
+              "wacc": 0.1383014770335479,
+              "fair_value": 55.713351517711,
+              "gap": -0.3300463075484933
+            }
+          ],
+          "fair_value_at_point_wacc": 64.5023418920724,
+          "gap_at_point_wacc": -0.2243585972632427
+        },
+        {
+          "case": "bull",
+          "growth": 0.13,
+          "cells": [
+            {
+              "wacc": 0.0983014770335479,
+              "fair_value": 95.32317109530511,
+              "gap": 0.14626222820547685
+            },
+            {
+              "wacc": 0.10830147703354791,
+              "fair_value": 85.63352927432943,
+              "gap": 0.029744173921280037
+            },
+            {
+              "wacc": 0.1183014770335479,
+              "fair_value": 77.93072290186856,
+              "gap": -0.06288216125492374
+            },
+            {
+              "wacc": 0.1283014770335479,
+              "fair_value": 71.66374330048018,
+              "gap": -0.13824266300348054
+            },
+            {
+              "wacc": 0.1383014770335479,
+              "fair_value": 66.4679213487709,
+              "gap": -0.200722481701188
+            }
+          ],
+          "fair_value_at_point_wacc": 77.93072290186856,
+          "gap_at_point_wacc": -0.06288216125492374
+        }
+      ],
+      "summary": {
+        "bear": -0.37513053767082494,
+        "base": -0.2243585972632427,
+        "bull": -0.06288216125492374
+      },
+      "downside": -0.45126738186359583,
+      "upside": 0.14626222820547685
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am too negative on one soft quarter. Champion has $784.7M of net cash, essentially no debt, a 10.4% adjusted EBITDA margin in what management calls a challenging environment, and a backlog of $421.8M. At ~13x EV/EBITDA it is cheaper than Cavco, and the industry is early in a multi-year recovery from a depressed shipment base, not late in a cycle. On that reading +15% FCFF growth is achievable and the price is fine.",
+    "what_would_prove_it": "Unit growth re-accelerating above mid-single digits with gross margin stable or rising, i.e. volume recovery that is not bought with acquisitions.",
+    "already_visible": "Partially, and it is genuinely ambiguous \u2014 which is what decides the verdict. Units +1.8% and ASP +0.6% is not recovery, but it is not decline either, and the backlog is respectable. The honest reading is that this quarter does not discriminate between my +7% and the market's +15%.",
+    "unresolved": "Whether the retail acquisitions are accretive to returns or just to revenue. SG&A rose 7% on the Iseman inclusion while sales rose 1.3%, which is the EVI/EFOR shape \u2014 revenue bought rather than earned \u2014 but one quarter with two small acquisitions is not enough evidence to call it, and Champion does not disclose organic revenue separately. I could not resolve it."
+  },
+  "what_changed": "Q1 FY2027 (quarter ended 2026-06-27, reported 2026-08-04): net sales +1.3% to $710.2M, US homes sold +1.8% to 7,089, ASP +0.6% to $95,600, backlog $421.8M, gross margin 25.2%, adjusted EBITDA $73.6M at a 10.4% margin, adjusted EPS $0.88. Management cites 'higher material costs partially offset by modest sales growth'. The Homes Direct acquisition closed recently; SG&A rose to $119.0M from $111.3M on the inclusion of Iseman Homes and the expanded retail footprint. 8-K 2026-08-26 carried items 5.02/8.01 (officer change).",
+  "consensus_case": "At $83.16 the market is paying ~$3.8B of enterprise value (market cap $4.5B less $785M of net cash) for the largest builder of factory-built housing in North America, at roughly 13x a ~$294M adjusted EBITDA run rate. The case is structural: with mortgage rates at 7% and site-built affordability deteriorating, manufactured housing is the product that still clears at an average selling price of $95,600, and Champion says it 'continued to outperform the broader industry in a challenging environment'. It is also consolidating distribution \u2014 Iseman Homes and now Homes Direct \u2014 which converts a wholesale margin into a retail one and should raise through-cycle returns on the same factory base.",
+  "base_case_rationale": "Champion is growing revenue 1.3% and units 1.8% with gross margin under pressure from material costs, while acquiring retail distribution. The +13.4% naive baseline is a backward-looking revenue CAGR that captures the 2021-23 manufactured-housing boom and says nothing about a company now growing at one percent. My +7% is unit growth in the low-to-mid single digits as affordability keeps pushing buyers toward factory-built product, plus margin recovery as material costs normalise, plus the retail roll-up converting wholesale margin to retail \u2014 deliberately above the current 1.3% run rate because the acquisitions are real and the affordability tailwind is real, and deliberately well below the +15.0% the price requires.",
+  "key_risks": [
+    "Chattel financing rates track the same curve as mortgages \u2014 the affordability advantage is relative, not absolute",
+    "Material cost inflation compressing a 25.2% gross margin while revenue grows 1.3%",
+    "Retail roll-up (Iseman, Homes Direct) may be buying revenue rather than earning it; no organic disclosure"
+  ],
+  "watch_for": [
+    "Organic revenue growth disclosed separately from the Iseman and Homes Direct contributions",
+    "Backlog trend from $421.8M",
+    "US industry shipment data and gross margin direction in Q2 FY2027"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/90896/000119312526335147/sky-20260627.htm",
+    "https://www.sec.gov/Archives/edgar/data/90896/000119312526332837/sky-20260804.htm"
+  ],
+  "flags": [
+    "interest_expense_implies_32%_on_reported_debt_debt_likely_understated"
+  ]
+}

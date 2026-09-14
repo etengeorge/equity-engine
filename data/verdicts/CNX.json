@@ -1,0 +1,185 @@
+{
+  "ticker": "CNX",
+  "date": "2026-09-14",
+  "sector": "Energy",
+  "name": "CNX RESOURCES",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.02,
+  "bear_growth": -0.08,
+  "bull_growth": 0.1,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 35.90999984741211,
+  "market_implied_growth": -0.042825685179683826,
+  "cohort_pct": 78.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.02,
+    "market_implied_growth": -0.042825685179683826,
+    "growth_delta": 0.06282568517968383,
+    "fair_value": 53.10889171486641,
+    "price": 35.90999984741211,
+    "gap": 0.4789443592463216,
+    "fair_value_band": {
+      "low": 40.20116186665582,
+      "point": 53.10889171486641,
+      "high": 73.89734152296332
+    },
+    "fcff_base_used": 422325166.6666667,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.06275774272886796,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 422325166.6666667,
+      "price": 35.90999984741211,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.08,
+          "cells": [
+            {
+              "wacc": 0.04275774272886795,
+              "fair_value": 63.36556173770004,
+              "gap": 0.7645659149805466
+            },
+            {
+              "wacc": 0.052757742728867955,
+              "fair_value": 40.01404944389632,
+              "gap": 0.11428709590428943
+            },
+            {
+              "wacc": 0.06275774272886796,
+              "fair_value": 27.569575089025495,
+              "gap": -0.23225911428088397
+            },
+            {
+              "wacc": 0.07275774272886795,
+              "fair_value": 19.830595931061744,
+              "gap": -0.4477695345217091
+            },
+            {
+              "wacc": 0.08275774272886796,
+              "fair_value": 14.548227039449335,
+              "gap": -0.5948697549076217
+            }
+          ],
+          "fair_value_at_point_wacc": 27.569575089025495,
+          "gap_at_point_wacc": -0.23225911428088397
+        },
+        {
+          "case": "base",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.04275774272886795,
+              "fair_value": 112.95513381881676,
+              "gap": 2.145506385374073
+            },
+            {
+              "wacc": 0.052757742728867955,
+              "fair_value": 73.89734152296332,
+              "gap": 1.0578485613190223
+            },
+            {
+              "wacc": 0.06275774272886796,
+              "fair_value": 53.10889171486641,
+              "gap": 0.4789443592463216
+            },
+            {
+              "wacc": 0.07275774272886795,
+              "fair_value": 40.20116186665582,
+              "gap": 0.11949768970976371
+            },
+            {
+              "wacc": 0.08275774272886796,
+              "fair_value": 31.40694193354076,
+              "gap": -0.1253984386801903
+            }
+          ],
+          "fair_value_at_point_wacc": 53.10889171486641,
+          "gap_at_point_wacc": 0.4789443592463216
+        },
+        {
+          "case": "bull",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.04275774272886795,
+              "fair_value": 168.9488857806406,
+              "gap": 3.704786591437874
+            },
+            {
+              "wacc": 0.052757742728867955,
+              "fair_value": 112.02689251330473,
+              "gap": 2.1196572817968993
+            },
+            {
+              "wacc": 0.06275774272886796,
+              "fair_value": 81.75250407034163,
+              "gap": 1.276594386458434
+            },
+            {
+              "wacc": 0.07275774272886795,
+              "fair_value": 62.97203030722477,
+              "gap": 0.7536070892454463
+            },
+            {
+              "wacc": 0.08275774272886796,
+              "fair_value": 50.190355418807016,
+              "gap": 0.3976707221407587
+            }
+          ],
+          "fair_value_at_point_wacc": 81.75250407034163,
+          "gap_at_point_wacc": 1.276594386458434
+        }
+      ],
+      "summary": {
+        "bear": -0.23225911428088397,
+        "base": 0.4789443592463216,
+        "bull": 1.276594386458434
+      },
+      "downside": -0.5948697549076217,
+      "upside": 3.704786591437874
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am dismissing a genuine +154% gap by blaming the beta. If CNX really does generate $520M of free cash flow against a $5.3B market cap \u2014 a 9.8% free cash flow yield \u2014 with flat capex and a shareholder-return programme, then the name IS cheap and the discount rate argument is me talking myself out of it.",
+    "what_would_prove_it": "Whether a 6.3% WACC is defensible for this company. That is an input question, not a market question, and it is answerable: the cost of equity comes from a beta of 0.34 with an R-squared of 0.041 \u2014 the regression explains 4% of the variance and sits barely above the engine's own 0.04 gate.",
+    "already_visible": "Yes, and it settles it. At the engine's 6.3% WACC the market implies -4.3% growth (hence the +154% gap). At a defensible 10% WACC for a levered gas producer with $2.2B of debt, the same price and the same cash flows imply +10.0% growth \u2014 the name goes from very cheap to expensive on the discount rate alone. On the current run-rate base of $520M at 10% it implies +4.9%. The gap is not a business fact; it is the failed-beta bias LESSONS.md measures across the whole screen, and Energy is the sector where it concentrates.",
+    "unresolved": "I cannot correct it in the record: the analyst schema has no field to override the cost of equity, so the fair value this verdict produces will still be computed at a 6.3% WACC and should be disregarded. The verdict is the output; the fair value is not."
+  },
+  "what_changed": "Q2 2026 (2026-07-30): quarterly operating cash flow of $279.5M against $277.5M, $297.0M, $233.8M and $282.5M in the four prior quarters \u2014 remarkably stable. Full-year capital expenditure guidance of $540-570M base, $556-586M total. No transaction, no guidance change, no financing event found in the filing list beyond ordinary course. Nothing material found that alters the business.",
+  "consensus_case": "At $35.91 the market is paying ~$7.5B EV for a low-cost Appalachian gas producer with a long reserve life, a large hedge book, a genuine environmental-attributes business and the balance sheet to keep buying back stock. Gas demand is being repriced upward by data-centre load growth and LNG export capacity, and CNX sits on cheap Marcellus and Utica acreage close to that demand. The stock is +22.6% over twelve months. Paying roughly 14x a ~$520M free cash flow run rate for that optionality is not obviously wrong.",
+  "base_case_rationale": "CNX's free cash flow run rate is ~$1,090M of operating cash flow less ~$570M of guided capex, i.e. roughly $520M \u2014 close to the newest year in the series ($534M) and well above the three-year mean of $422.3M the engine uses, because the two older years sit in the 2023-24 gas price trough. So the `possible_peak_cycle_base` flag is pointing at a recovery, not a peak. For a mature Appalachian producer with flat production and no growth capital programme, the defensible long-run FCFF growth is inflation-like: +2%. Gas price is the entire swing factor and I will not forecast it.",
+  "key_risks": [
+    "Henry Hub and Appalachian basis are the entire thesis and I have no edge on either",
+    "$2.2B of debt against a beta the regression cannot measure",
+    "Revenue series is unusable for trend: [$2,239M, $1,267M, $3,435M, $1,261M, $757M, $1,258M] is dominated by unrealised commodity derivative marks, not sales"
+  ],
+  "watch_for": [
+    "2027 capital and production guidance against the $540-570M base capex run rate",
+    "Hedge book roll-off schedule and realised versus NYMEX netback",
+    "Any data-centre or behind-the-meter power agreement"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1070412/000107041226000058/cnx-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070412/000107041226000056/cnx-20260730.htm"
+  ],
+  "flags": [
+    "ebit_derived_from_pretax_plus_interest",
+    "possible_peak_cycle_base_newest_fcf_3.9x_oldest_growth_applied_to_a_peak_overstates_value"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ticker": "HRI",
+  "date": "2026-09-14",
+  "sector": "Industrials",
+  "name": "HERC HOLDINGS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.06,
+  "bear_growth": -0.04,
+  "bull_growth": 0.12,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 140.9600067138672,
+  "market_implied_growth": -0.0004691506905673548,
+  "cohort_pct": 6.6,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.06,
+    "market_implied_growth": -0.0004691506905673548,
+    "growth_delta": 0.06046915069056735,
+    "fair_value": 114.71865629393231,
+    "price": 140.9600067138672,
+    "gap": -0.186161671183812,
+    "fair_value_band": {
+      "low": 63.75540359808738,
+      "point": 114.71865629393231,
+      "high": 186.20753713830246
+    },
+    "fcff_base_used": 576000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0797666875826329,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 576000000,
+      "price": 140.9600067138672,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.04,
+          "cells": [
+            {
+              "wacc": 0.0597666875826329,
+              "fair_value": 99.31640889870422,
+              "gap": -0.2954284607810408
+            },
+            {
+              "wacc": 0.06976668758263291,
+              "fair_value": 33.59647071275553,
+              "gap": -0.7616595551037922
+            },
+            {
+              "wacc": 0.0797666875826329,
+              "fair_value": -10.174040688693692,
+              "gap": -1.0721767891891907
+            },
+            {
+              "wacc": 0.0897666875826329,
+              "fair_value": -41.431765493654055,
+              "gap": -1.2939256776410053
+            },
+            {
+              "wacc": 0.0997666875826329,
+              "fair_value": -64.88130833124919,
+              "gap": -1.4602816773622243
+            }
+          ],
+          "fair_value_at_point_wacc": -10.174040688693692,
+          "gap_at_point_wacc": -1.0721767891891907
+        },
+        {
+          "case": "base",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.0597666875826329,
+              "fair_value": 293.70938401513837,
+              "gap": 1.083636279979293
+            },
+            {
+              "wacc": 0.06976668758263291,
+              "fair_value": 186.20753713830246,
+              "gap": 0.3209955183691402
+            },
+            {
+              "wacc": 0.0797666875826329,
+              "fair_value": 114.71865629393231,
+              "gap": -0.186161671183812
+            },
+            {
+              "wacc": 0.0897666875826329,
+              "fair_value": 63.75540359808738,
+              "gap": -0.5477057281395877
+            },
+            {
+              "wacc": 0.0997666875826329,
+              "fair_value": 25.59683999770913,
+              "gap": -0.8184106216051209
+            }
+          ],
+          "fair_value_at_point_wacc": 114.71865629393231,
+          "gap_at_point_wacc": -0.186161671183812
+        },
+        {
+          "case": "bull",
+          "growth": 0.12,
+          "cells": [
+            {
+              "wacc": 0.0597666875826329,
+              "fair_value": 449.71373572258733,
+              "gap": 2.1903640344984883
+            },
+            {
+              "wacc": 0.06976668758263291,
+              "fair_value": 308.35882869151544,
+              "gap": 1.1875625284088476
+            },
+            {
+              "wacc": 0.0797666875826329,
+              "fair_value": 214.4232512753298,
+              "gap": 0.5211637419298982
+            },
+            {
+              "wacc": 0.0897666875826329,
+              "fair_value": 147.51166035854303,
+              "gap": 0.04647881195107306
+            },
+            {
+              "wacc": 0.0997666875826329,
+              "fair_value": 97.45645496111833,
+              "gap": -0.3086233660662072
+            }
+          ],
+          "fair_value_at_point_wacc": 214.4232512753298,
+          "gap_at_point_wacc": 0.5211637419298982
+        }
+      ],
+      "summary": {
+        "bear": -1.0721767891891907,
+        "base": -0.186161671183812,
+        "bull": 0.5211637419298982
+      },
+      "downside": -1.4602816773622243,
+      "upside": 2.1903640344984883
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That my base-case correction double-counts. Gross rental capex includes replacement of fleet sold at a gain ($53M gain on sale of rental equipment in H1), and the $230M of disposal proceeds I add back are the recovery. If Herc's steady-state fleet is not growing, sustaining capex is much closer to depreciation of rental equipment ($484M H1, ~$970M/yr) net of disposals, which is roughly what I used \u2014 but if I have understated the after-tax interest add-back (the extract's $224M looks low against $7.9B of debt), the base rises toward $753M and the market's requirement falls back to +1.6%, i.e. no correction at all.",
+    "what_would_prove_it": "Herc's own definition of free cash flow in the Q2 deck (EX-99.2) and its full-year net fleet capital expenditure guidance, plus the actual FY2026 interest expense run rate.",
+    "already_visible": "Partly. The H1 10-Q gives CFO, gross rental capex and disposals, which is enough to establish that the engine's $157M capex is wrong by roughly an order of magnitude. It is NOT enough to pin the after-tax interest add-back, and that single input moves the implied requirement from +1.6% to +16.3%.",
+    "unresolved": "The precise FCFF base. My range of $408M-$753M spans implied growth of +16.3% to +1.6% \u2014 the whole answer. I could not narrow it from the documents I read."
+  },
+  "what_changed": "H&E Equipment Services acquisition closed 2025 and dominates every year-over-year comparison: H1 2026 revenue $2,343M vs $1,863M (+26%), Q2 $1,204M vs $1,002M (+20%). H1 2026 net cash from operating activities $591M vs $412M. Herc reported a net LOSS in H1 2026 on integration and financing costs. 8-K 2026-09-03 (items 1.01, 9.01) and 2026-08-19 (item 5.02, officer change) filed after the last 10-Q; I did not obtain the 9/3 agreement's terms.",
+  "consensus_case": "At $140.96 the market is paying ~$12.6B EV for the second-largest North American equipment rental fleet after the H&E Equipment acquisition, with H1 2026 revenue +26% to $2,343M on a 28% increase in equipment rental revenue, mega-project volume and revenue synergies. Rental is a scale business: a larger fleet buys route density, national-account share (49% of equipment rental revenue) and better fleet utilisation, and Herc is mid-integration with synergies still to land. On the engine's reported cash-flow base the price requires roughly zero five-year FCFF growth, which for a levered cyclical at the top of a construction cycle is a defensible thing to underwrite.",
+  "base_case_rationale": "Herc's owner earnings are not the engine's $806M. The 2026-06-30 10-Q investing section carries 'Rental equipment expenditures (557)' for the six months, against 'Purchases of property and equipment' of roughly $80M \u2014 and the extract's capex_series is [$157M, $161M, $156M] for the YEAR, i.e. it reads only the non-rental property line and treats every machine Herc buys as free. Rebuilding from the H1 actuals annualised: CFO ~$1,182M less gross rental capex ~$1,114M plus disposal proceeds ~$460M less property capex ~$160M plus P&E disposals ~$40M = ~$408M of owner earnings, or ~$576M after the FCFF convention's after-tax interest add-back. I set the base there. Growth of +6% is organic rental demand plus residual H&E synergies and mega-project volume, below the 2026 acquisition-inflated rate because a roll-up cannot compound 26% without buying it, and Herc is already carrying $7.9B of debt at 63% of capital.",
+  "key_risks": [
+    "Non-residential construction cycle turning with $7.9B of debt at 63% of capital",
+    "H&E integration costs and synergy shortfall; Herc ran a net loss in H1 2026",
+    "Fleet capex is non-discretionary \u2014 holding share requires spending through a downturn"
+  ],
+  "watch_for": [
+    "Full-year net fleet capital expenditure guidance against operating cash flow",
+    "Fleet utilisation and rental rate disclosures in Q3",
+    "Terms of the 2026-09-03 item 1.01 agreement"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000109/hri-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-pressrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000050/hri-20251231.htm"
+  ],
+  "flags": []
+}

@@ -14,6 +14,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "AEO": {
+    "conviction": "medium",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
+  },
   "AII": {
     "conviction": "medium",
     "last_visit": "2026-09-11",
@@ -94,6 +99,11 @@
     "last_visit": "2026-09-01",
     "verdict": "no_edge"
   },
+  "CNX": {
+    "conviction": "low",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
+  },
   "COMP": {
     "conviction": "low",
     "last_visit": "2026-09-01",
@@ -142,6 +152,11 @@
   "DFTX": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
+    "verdict": "no_model"
+  },
+  "DNTH": {
+    "conviction": "high",
+    "last_visit": "2026-09-14",
     "verdict": "no_model"
   },
   "EFOR": {
@@ -219,6 +234,11 @@
     "last_visit": "2026-08-31",
     "verdict": "fair"
   },
+  "HRI": {
+    "conviction": "low",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
+  },
   "HRMY": {
     "conviction": "medium",
     "last_visit": "2026-09-09",
@@ -258,6 +278,11 @@
     "conviction": "medium",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
+  },
+  "KBH": {
+    "conviction": "medium",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
   },
   "KYMR": {
     "conviction": "high",
@@ -369,6 +394,11 @@
     "last_visit": "2026-09-03",
     "verdict": "rich"
   },
+  "RDN": {
+    "conviction": "low",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
+  },
   "RES": {
     "conviction": "low",
     "last_visit": "2026-09-03",
@@ -399,9 +429,19 @@
     "last_visit": "2026-09-11",
     "verdict": "no_model"
   },
+  "SHOE": {
+    "conviction": "medium",
+    "last_visit": "2026-09-14",
+    "verdict": "no_edge"
+  },
   "SIG": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
+    "verdict": "no_edge"
+  },
+  "SKY": {
+    "conviction": "low",
+    "last_visit": "2026-09-14",
     "verdict": "no_edge"
   },
   "SLAB": {
@@ -489,6 +529,11 @@
     "last_visit": "2026-09-03",
     "verdict": "fair"
   },
+  "VRNS": {
+    "conviction": "low",
+    "last_visit": "2026-09-14",
+    "verdict": "rich"
+  },
   "VSAT": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -507,6 +552,11 @@
   "WLFC": {
     "conviction": "medium",
     "last_visit": "2026-09-09",
+    "verdict": "no_model"
+  },
+  "WLTH": {
+    "conviction": "high",
+    "last_visit": "2026-09-14",
     "verdict": "no_model"
   },
   "XENE": {

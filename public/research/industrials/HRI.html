@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HRI — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / HRI</p><h1>HRI <span style='color:var(--faint);font-weight:400'>HERC HOLDINGS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$140.96</b></div><div>Analyst gap<b>-19%</b></div><div>Dated<b>2026-09-14</b></div></div><div class='prose'><h1>HRI — HERC HOLDINGS</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-14 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $140.96 · fair value $114.72 · gap -18.6%</li><li><strong>Growth:</strong> market implies -0.0%, analyst says +6.0% (delta +6.0%)</li><li><strong>FCFF base overridden</strong> by the analyst to $576.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.0% | 7.0% | 8.0% | 9.0% | 10.0% | |---|---|---|---|---|---|---| | bear | -4.0% | $99.32 | $33.60 | $-10.17 | $-41.43 | $-64.88 | | base | +6.0% | $293.71 | $186.21 | $114.72 | $63.76 | $25.60 | | bull | +12.0% | $449.71 | $308.36 | $214.42 | $147.51 | $97.46 |</p><p>At the point WACC of 8.0%: bear -107.2%, base -18.6%, bull +52.1% Across the whole grid the gap ranges -146.0% to +219.0% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $140.96 the market is paying ~$12.6B EV for the second-largest North American equipment rental fleet after the H&amp;E Equipment acquisition, with H1 2026 revenue +26% to $2,343M on a 28% increase in equipment rental revenue, mega-project volume and revenue synergies. Rental is a scale business: a larger fleet buys route density, national-account share (49% of equipment rental revenue) and better fleet utilisation, and Herc is mid-integration with synergies still to land. On the engine&#x27;s reported cash-flow base the price requires roughly zero five-year FCFF growth, which for a levered cyclical at the top of a construction cycle is a defensible thing to underwrite.</p><p><strong>What changed.</strong> H&amp;E Equipment Services acquisition closed 2025 and dominates every year-over-year comparison: H1 2026 revenue $2,343M vs $1,863M (+26%), Q2 $1,204M vs $1,002M (+20%). H1 2026 net cash from operating activities $591M vs $412M. Herc reported a net LOSS in H1 2026 on integration and financing costs. 8-K 2026-09-03 (items 1.01, 9.01) and 2026-08-19 (item 5.02, officer change) filed after the last 10-Q; I did not obtain the 9/3 agreement&#x27;s terms.</p><p><strong>Base case.</strong> Herc&#x27;s owner earnings are not the engine&#x27;s $806M. The 2026-06-30 10-Q investing section carries &#x27;Rental equipment expenditures (557)&#x27; for the six months, against &#x27;Purchases of property and equipment&#x27; of roughly $80M — and the extract&#x27;s capex_series is [$157M, $161M, $156M] for the YEAR, i.e. it reads only the non-rental property line and treats every machine Herc buys as free. Rebuilding from the H1 actuals annualised: CFO ~$1,182M less gross rental capex ~$1,114M plus disposal proceeds ~$460M less property capex ~$160M plus P&amp;E disposals ~$40M = ~$408M of owner earnings, or ~$576M after the FCFF convention&#x27;s after-tax interest add-back. I set the base there. Growth of +6% is organic rental demand plus residual H&amp;E synergies and mega-project volume, below the 2026 acquisition-inflated rate because a roll-up cannot compound 26% without buying it, and Herc is already carrying $7.9B of debt at 63% of capital.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That my base-case correction double-counts. Gross rental capex includes replacement of fleet sold at a gain ($53M gain on sale of rental equipment in H1), and the $230M of disposal proceeds I add back are the recovery. If Herc&#x27;s steady-state fleet is not growing, sustaining capex is much closer to depreciation of rental equipment ($484M H1, ~$970M/yr) net of disposals, which is roughly what I used — but if I have understated the after-tax interest add-back (the extract&#x27;s $224M looks low against $7.9B of debt), the base rises toward $753M and the market&#x27;s requirement falls back to +1.6%, i.e. no correction at all.</li><li>What would prove it: Herc&#x27;s own definition of free cash flow in the Q2 deck (EX-99.2) and its full-year net fleet capital expenditure guidance, plus the actual FY2026 interest expense run rate.</li><li>Already visible today: Partly. The H1 10-Q gives CFO, gross rental capex and disposals, which is enough to establish that the engine&#x27;s $157M capex is wrong by roughly an order of magnitude. It is NOT enough to pin the after-tax interest add-back, and that single input moves the implied requirement from +1.6% to +16.3%.</li><li>Left unresolved: The precise FCFF base. My range of $408M-$753M spans implied growth of +16.3% to +1.6% — the whole answer. I could not narrow it from the documents I read.</li></ul><p><strong>Key risks.</strong> Non-residential construction cycle turning with $7.9B of debt at 63% of capital; H&amp;E integration costs and synergy shortfall; Herc ran a net loss in H1 2026; Fleet capex is non-discretionary — holding share requires spending through a downturn <strong>Watch for.</strong> Full-year net fleet capital expenditure guidance against operating cash flow; Fleet utilisation and rental rate disclosures in Q3; Terms of the 2026-09-03 item 1.01 agreement</p><p><strong>Data quality.</strong> THREE defects, none flagged by the engine. (1) RENTAL-CAPEX BUG, fourth recorded instance after CTOS, ALTG and WLFC: capex_series [$157M, $161M, $156M] against &#x27;Rental equipment expenditures (557)&#x27; for H1 2026 alone. (2) REVENUE SERIES CONTAMINATED BY THE PRE-SPIN PREDECESSOR: revenue_series reads [$4,376M, $3,568M, $3,282M, $10,535M, $11,046M, $10,772M]. Herc&#x27;s revenue has never been $11B; CIK 1364479 was Hertz Global Holdings&#x27; CIK before the 2016 spin-off and Herc retained it, so the XBRL history carries pre-spin Hertz consolidated revenue. That is what produces the &#x27;5y revenue CAGR -16.5% (clamped to -10.0%)&#x27; baseline and therefore the entire -98.0% gap and 7th-percentile cohort rank. The company is growing 26%, not shrinking 16%. (3) dep_amort_series is EMPTY for a company that depreciated $484M of rental equipment in six months, so no EBITDA can be built. I corrected the base; I could not correct the interest add-back.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1364479/000136447926000109/hri-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1364479/000136447926000109/hri-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-pressrelease.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-pressrelease.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1364479/000136447926000050/hri-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1364479/000136447926000050/hri-20251231.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/HRI.md'>research/Industrials/HRI.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
