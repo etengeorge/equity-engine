@@ -1,5 +1,33 @@
 [
  {
+  "id": "df469287-6417-3d95-a84d-aaa22c19a37e",
+  "ts": "2026-09-14T13:20:16+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "ea6d37d5-8322-3b9e-a826-9b098a5d477a",
+  "ts": "2026-09-14T13:17:45+00:00",
+  "title": "Sector Update: Healthcare Stocks Rise Premarket Monday",
+  "summary": "Healthcare stocks were rising premarket Monday, with the State Street Health Care Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-premarket-131745482.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "406ba03d-ab3f-3cf1-b48a-3c8864d197bb",
   "ts": "2026-09-13T21:44:42+00:00",
   "title": "State Street XLV vs. iShares IXJ: Here's How These Healthcare ETFs Stack Up for Investors",

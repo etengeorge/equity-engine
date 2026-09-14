@@ -1,84 +1,106 @@
-# DNTH — DIANTHUS THERAPEUTICS INC
-*Health Care · brief generated 2026-09-14 · selected as **rotation***
+# EMBC — EMBECTA
+*Health Care · brief generated 2026-09-14 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 131/1956
+- cheapest 6% of 90 Health Care peers (94th pct)
+- baseline gap +231%
+- discounted: stock comp is 33% of reported FCFF
+- discounted: cash-flow base may be a cycle peak
+- 5d move -13%
+- Health Care is in the news
+- Health Care sector selloff (median -4.8%)
+- moved harder than its sector
+- never researched
+- urgency score 6.97
 
 ## Market
 | | |
 |---|---|
-| price | $106.20 |
-| market cap | $5.9B |
-| 5d / 21d / 63d / 252d | -1.5% / -5.5% / +38.9% / +180.2% |
-| 60d avg daily $ volume | $95.4M |
-| beta (vs IWM) | 0.68 (R²=0.045) |
-| 5d volume vs 60d average | 0.8x |
+| price | $4.94 |
+| market cap | $279.9M |
+| 5d / 21d / 63d / 252d | -13.2% / +4.2% / +60.7% / -65.9% |
+| 60d avg daily $ volume | $7.3M |
+| beta (vs IWM) | 0.98 (R²=0.059) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 16% / debt 84% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+Normalized FCFF base **$81.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$182.4M', '$19.9M', '$41.2M']
+Enterprise value **$1.5B** · FCFF yield **+5.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.7% − 1pt | n/a |
-| **8.7% (point)** | **n/a** |
-| 8.7% + 1pt | n/a |
+| 5.2% − 1pt | -15.4% |
+| **5.2% (point)** | **-8.7%** |
+| 5.2% + 1pt | -3.4% |
 
 
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $106.20).
+> **Stock compensation is 33% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$54.7M** and an implied growth of **-0.6%** instead of -8.7%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **-1.5%** (3y revenue CAGR -1.5%).
+Gap under that baseline: **+231.2%** (fair value $16.36 vs price $4.94).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_sales (n=324) | 2482.0x | 2.0x / 4.6x / 18.1x | $15.93 / $16.02 / $16.51 |
-| p_tbv (n=330) | 5.1x | 2.3x / 4.4x / 7.5x | $48.32 / $91.37 / $157.53 |
-
-Blended midpoint **$53.70** vs price $106.20 — gap **-49.4%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **94th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +243.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
-- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
+- `lumpy_fcff_spread_2.0x_of_mean`
+- `possible_peak_cycle_base_newest_fcf_4.4x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_33%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000034/dnth-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-20260804.htm
-- 2026-06-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-20260612.htm
-- 2026-05-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000026/dnth-20260521.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000022/dnth-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-20260505.htm
-- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000012/dnth-20260409.htm
-- 2026-03-26 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-20260326.htm
-- 2026-03-12 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1690585/000119312526103053/d43448d8k.htm
-- 2026-03-09 **10-K** — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000006/dnth-20251231.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000033/embc-20260630.htm
+- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000029/embc-20260807.htm
+- 2026-05-15 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1872789/000094787126000546/ss6329586_8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000017/embc-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000014/embc-20260505.htm
+- 2026-03-20 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1872789/000094787126000310/ss6090062_8k.htm
+- 2026-02-13 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1872789/000094787126000153/ss5952621_8k.htm
+- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000009/embc-20251231.htm
+- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000005/embc-20260205.htm
+- 2025-12-18 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1872789/000114036125046025/ny20057687x1_def14a.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-ex99_1.htm
-- **2026-06-12** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-ex99_1.htm
+- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1872789/000187278926000029/q32026ex-991.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-08-31** · embecta to Participate in Investor Events — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/embecta-participate-investor-events-210000073.html
+  > PARSIPPANY, N.J., Aug. 31, 2026 (GLOBE NEWSWIRE) -- Embecta Corp. ("embecta") (Nasdaq: EMBC), a global company that is advancing its 100-year legacy in insulin delivery to become a broad-based medical supplies company, today announced that 
+- **2026-08-14** · Embecta (EMBC) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/14/embecta-embc-q3-2026-earnings-call-transcript/
+  > Revenue fell 8.1% year-over-year, but margin guidance rose for fiscal 2026.
+- **2026-08-08** · Embecta Corp. Q3 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-embecta-corp-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Embecta Corp.'s Q3 2026 earnings call
+- **2026-08-07** · Embecta Corp (EMBC) (Q3 2026) Earnings Call Highlights: Strong Sequential Recovery and Raised ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/embecta-corp-embc-q3-2026-190031056.html
+  > Embecta Corp (EMBC) beats expectations with a $50 million sequential revenue jump, raises adjusted EPS guidance, and advances its Owen Mumford integration despite persistent U.S. market pressures.
+- **2026-08-07** · Embecta Q3 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/embecta-q3-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Embecta (NASDAQ:EMBC) reported fiscal third-quarter 2026 revenue of approximately $272 million, down 8.1% from the prior-year period on a reported basis and down 8.9% on an adjusted constant-currency basis. The company said results improved
+- **2026-08-07** · Embecta Corp. Reports Third Quarter Fiscal 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/embecta-corp-reports-third-quarter-103000847.html
+  > PARSIPPANY, N.J., Aug. 07, 2026 (GLOBE NEWSWIRE) -- Embecta Corp. (“embecta”) (Nasdaq: EMBC), a global company that is advancing its 100-year legacy in insulin delivery to become a broad-based medical supplies company, today reported third 
+- **2026-08-07** · embecta Announces Quarterly Cash Dividend — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/embecta-announces-quarterly-cash-dividend-100000008.html
+  > PARSIPPANY, N.J., Aug. 07, 2026 (GLOBE NEWSWIRE) -- The Board of Directors of Embecta Corp. (“embecta”) (Nasdaq: EMBC) has declared a quarterly cash dividend of $0.01 for each issued and outstanding share of the Company’s common stock. The 
+- **2026-07-23** · embecta to Report Fiscal Third Quarter Financial Results — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/embecta-report-fiscal-third-quarter-210000315.html
+  > PARSIPPANY, N.J., July 23, 2026 (GLOBE NEWSWIRE) -- Embecta Corp. (“embecta”) (Nasdaq: EMBC), a global company that is advancing its 100-year legacy in insulin delivery to become a broad-based medical supplies company, will host a conferenc
+- **2026-07-15** · Embecta (EMBC) Stock Fair Value Moves Lower As Analysts Reset Medtech Expectations — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/embecta-embc-stock-fair-value-060825972.html
+  > Embecta is in focus after one fair value estimate was reset from US$15.00 to US$4.00, which highlights how much some analysts have reworked their view of what the stock might be worth under updated assumptions. That shift sits alongside com
+- **2026-06-16** · embecta appoints Nimish Muzumdar as SVP and President, North America — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/embecta-appoints-nimish-muzumdar-svp-103000156.html
+  > PARSIPPANY, N.J., June 16, 2026 (GLOBE NEWSWIRE) -- Embecta Corp. (“embecta”) (Nasdaq: EMBC), a global company that is advancing its 100-year legacy in insulin delivery to become a broad-based medical supplies company, today announced that 
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
+- **2026-09-14** · Sector Update: Healthcare Stocks Rise Premarket Monday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-premarket-131745482.html
 - **2026-09-13** · State Street XLV vs. iShares IXJ: Here's How These Healthcare ETFs Stack Up for Investors — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/13/state-street-xlv-vs-ishares-ixj-here-s-how-these-healthcare-etfs-stack-up-for-investors/
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
@@ -87,14 +109,12 @@ Attack these before you trust any number above.
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Sector Update: Healthcare Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194957396.html
 - **2026-09-09** · Sector Update: Healthcare Stocks Decline in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-173425693.html
-- **2026-09-09** · UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/unitedhealth-slips-3-as-tpg-buys-into-florida-wellmed-clinics-ahead-of-guidance-reaffirmation/
-- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 
 ## Market and macro context
-- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
-- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
-- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
-- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
+- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
+- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
+- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
+- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
 
 *Rules, releases and agency actions:*
 - **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
@@ -113,13 +133,13 @@ Attack these before you trust any number above.
 - CRNX: no_edge · price $84.84
 - CRSP: no_model · price $53.45
 - DFTX: no_model · price $37.99
+- DNTH: no_model · price $106.20
 - HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
 - HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
 - IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
 - KYMR: no_model · price $119.05
 - LGND: no_edge · price $288.83 · fair value $297.15 · gap +2.9%
 - MMSI: rich · price $87.19 · fair value $68.32 · gap -21.6%
-- PCVX: no_model · price $60.74
 
 ---
 

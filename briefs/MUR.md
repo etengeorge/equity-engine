@@ -1,71 +1,98 @@
-# CNX — CNX RESOURCES
+# MUR — MURPHY OIL CORP
 *Energy · brief generated 2026-09-14 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 130/1956
+- rotation position 136/1956
 
 ## Market
 | | |
 |---|---|
-| price | $35.91 |
-| market cap | $5.3B |
-| 5d / 21d / 63d / 252d | -4.9% / +0.5% / +11.8% / +22.6% |
-| 60d avg daily $ volume | $59.3M |
-| beta (vs IWM) | 0.34 (R²=0.041) |
-| 5d volume vs 60d average | 0.9x |
+| price | $38.50 |
+| market cap | $5.5B |
+| 5d / 21d / 63d / 252d | +3.2% / +10.3% / +1.0% / +53.7% |
+| 60d avg daily $ volume | $62.7M |
+| beta (vs IWM) | 0.46 (R²=0.018) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 70% / debt 30% |
+| WACC weights | equity 78% / debt 22% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$422.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$534.0M', '$275.4M', '$135.2M']
-Enterprise value **$7.5B** · FCFF yield **+5.6%**
+Normalized FCFF base **$1.6B** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$1.2B', '$1.7B', '$1.7B']
+Enterprise value **$6.8B** · FCFF yield **+24.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 6.3% − 1pt | -9.5% |
-| **6.3% (point)** | **-4.3%** |
-| 6.3% + 1pt | +0.2% |
+| 7.9% − 1pt | -30.2% |
+| **7.9% (point)** | **-27.5%** |
+| 7.9% + 1pt | -25.1% |
 
 
-Naive baseline for comparison: **+12.2%** (5y revenue CAGR +12.2%).
-Gap under that baseline: **+154.2%** (fair value $91.27 vs price $35.91).
+Naive baseline for comparison: **+6.7%** (5y revenue CAGR +6.7%).
+Gap under that baseline: **+505.8%** (fair value $233.23 vs price $38.50).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **78th percentile** of 50 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +134.1%).
+Cohort: **100th percentile** of 50 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +484.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `ebit_derived_from_pretax_plus_interest`
-- `possible_peak_cycle_base_newest_fcf_3.9x_oldest_growth_applied_to_a_peak_overstates_value`
+- `extreme_gap_+506%_treat_as_suspected_data_error`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000058/cnx-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000056/cnx-20260730.htm
-- 2026-05-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000052/cnx-20260507.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000047/cnx-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000045/cnx-20260430.htm
-- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1070412/000130817926000153/cnx014558-def14a.htm
-- 2026-02-26 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000119312526077438/d45191d8k.htm
-- 2026-02-24 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000119312526067479/d53546d8k.htm
-- 2026-02-18 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000119312526057453/d38471d8k.htm
-- 2026-02-17 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070412/000119312526053115/d56300d8k.htm
+- 2026-09-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/717423/000095010326013671/dp253091_8k.htm
+- 2026-08-24 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/717423/000095010326012805/dp252183_8k.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/717423/000162828026053437/mur-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/717423/000162828026053431/mur-20260805.htm
+- 2026-06-11 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/717423/000095010326008854/dp248287_8k.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/717423/000162828026035154/mur-20260513.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/717423/000162828026031370/mur-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/717423/000162828026031363/mur-20260506.htm
+- 2026-03-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/717423/000119312526127236/d903131ddef14a.htm
+- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/717423/000162828026011709/mur-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070412/000107041226000056/ex991supplementalq226.htm
+- **2026-09-08** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/717423/000095010326013671/dp253091_ex9901.htm
+- **2026-08-24** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/717423/000095010326012805/dp252183_ex9901.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/717423/000162828026053431/mur-2026q2xex991.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/717423/000162828026053431/mur-2026q2xex992.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-10** · Unpacking Q2 Earnings: Murphy Oil (NYSE:MUR) In The Context Of Other Mixed or Offshore Upstream E&P Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/unpacking-q2-earnings-murphy-oil-212904143.html
+  > As the Q2 earnings season wraps, let’s dig into this quarter’s best and worst performers in the mixed or offshore upstream e&p industry, including Murphy Oil (NYSE:MUR) and its peers.
+- **2026-09-09** · Liberty Energy, Green Plains, Murphy Oil, Patterson-UTI, and Texas Pacific Land Shares Are Soaring, What You Need To Know — *StockStory* — https://finance.yahoo.com/energy/articles/liberty-energy-green-plains-murphy-015918388.html
+  > A number of stocks jumped in the afternoon session after crude oil prices climbed sharply following strikes on Saudi Arabian energy facilities and mounting supply disruption fears in the Middle East, according to Bloomberg. The Saudi energy
+- **2026-09-04** · Murphy Oil Corporation to Participate in Upcoming Conference — *Business Wire* — https://finance.yahoo.com/energy/articles/murphy-oil-corporation-participate-upcoming-184300413.html
+  > HOUSTON, September 04, 2026--Murphy Oil Corporation (NYSE: MUR) today announced that Eric M. Hambly, President and Chief Executive Officer, will present at the Barclays 40th Annual Energy-Power Conference on Wednesday, September 9, 2026 at 
+- **2026-09-04** · Murphy Oil (MUR) Strikes Black Gold While Profits Multiply Tenfold — *Insider Monkey* — https://finance.yahoo.com/energy/articles/murphy-oil-mur-strikes-black-171622340.html
+  > On August 5, Murphy Oil Corporation (NYSE:MUR) reported second-quarter results that showed the company hitting on nearly every cylinder at once. Net income jumped to $232.2 million, or $1.59 per diluted share, up from just $22 million a yea
+- **2026-09-04** · Why Is Murphy Oil (MUR) Up 13% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-murphy-oil-mur-13-153032667.html
+  > Murphy Oil (MUR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-04** · 1 Unpopular Stock That Deserves Some Love and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-deserves-love-102210467.html
+  > When Wall Street turns bearish on a stock, it’s worth paying attention. These calls stand out because analysts rarely issue grim ratings on companies for fear their firms will lose out in other business lines such as M&A advisory.
+- **2026-08-24** · Murphy Oil Corporation Announces New Chief Legal Officer — *Business Wire* — https://finance.yahoo.com/energy/articles/murphy-oil-corporation-announces-chief-203000335.html
+  > HOUSTON, August 24, 2026--Murphy Oil Corporation (NYSE: MUR) today announced the appointment of Michol L. Ecklund as Senior Vice President, Chief Legal Officer and Corporate Secretary of the Company, effective August 31, 2026.
+- **2026-08-20** · Talos Energy, Transocean, HighPeak Energy, and Murphy Oil Shares Are Soaring, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/talos-energy-transocean-highpeak-energy-210715028.html
+  > A number of stocks jumped in the morning session after energy prices soared as President Donald Trump announced broader economic warfare against Iran.
+- **2026-08-19** · 3 Value Stocks We Approach with Caution — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-value-stocks-approach-caution-113402139.html
+  > Value stocks typically trade at discounts to the broader market, offering patient investors the opportunity to buy businesses when they’re out of favor. The key risk, however, is that these stocks are usually cheap for a reason, and a low v
+- **2026-08-18** · 3 Profitable Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-fall-short-131733212.html
+  > While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.
+- **2026-08-17** · Murphy Oil Corp's Dividend Analysis — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/murphy-oil-corps-dividend-analysis-111355021.html
+  > Murphy Oil Corp (NYSE:MUR) recently announced a total dividend of $0.35 per share, with the ex-dividend date set for 2026-08-17. This includes a $0.35 per share cash dividend payable on 2026-09-01. As investors look forward to this upcoming
 
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-14** · Sector Update: Energy Stocks Advance Premarket Monday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132912222.html
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-11** · Sector Update: Energy Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-194920218.html
 - **2026-09-11** · Sector Update: Energy — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-192529392.html
 - **2026-09-11** · Sector Update: Energy Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-friday-180102714.html
@@ -74,14 +101,12 @@ Attack these before you trust any number above.
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
 - **2026-09-10** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195829985.html
-- **2026-09-10** · Sector Update: Energy — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-193451548.html
-- **2026-09-10** · Carnival Just Dropped 20% in a Month. Is It Time to Sell? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/10/carnival-just-dropped-20-in-a-month-is-it-time-to-sell/
 
 ## Market and macro context
-- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
-- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
-- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
-- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
+- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
+- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
+- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
+- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
 
 *Rules, releases and agency actions:*
 - **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
@@ -96,6 +121,7 @@ Attack these before you trust any number above.
 
 ## Prior verdicts elsewhere in Energy
 - AROC: no_edge · price $32.96 · fair value $34.64 · gap +5.1%
+- CNX: no_edge · price $35.91 · fair value $53.11 · gap +47.9%
 - LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
 - MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
 - PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%

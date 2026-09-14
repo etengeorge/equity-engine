@@ -1,5 +1,29 @@
 [
  {
+  "id": "d4cee8b5-b593-32b0-9084-1f3bbe7f4870",
+  "ts": "2026-09-14T13:27:51+00:00",
+  "title": "Rumble Soars 10% on Report Anthropic Is the $13.7B Compute Customer; CoreWeave and Nebius Drop 9%",
+  "summary": "A media report naming a marquee AI lab as the mystery customer behind Rumble's massive six-year compute contract is sending one small-cap stock sharply higher while punishing its rented-compute rivals on the same tape.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/14/rumble-soars-10-on-report-anthropic-is-the-13-7b-compute-customer-coreweave-and-nebius-drop-9/",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1f2783d2-903b-30ae-90b0-a5f26e0a75b0",
+  "ts": "2026-09-14T11:41:16+00:00",
+  "title": "Premarket movers: AI stocks slide on warnings, Rumble, Scholar Rock jump",
+  "summary": "Investing.com - U.S. stock index futures fell sharply on Monday, with technology stocks under pressure after several leading artificial intelligence executives called for a slower pace of AI development amid concerns over potential risks from the technology.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-ai-stocks-slide-114116456.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "38a7b4b5-64c0-39d8-b2fc-0bd6780b2776",
   "ts": "2026-09-14T10:13:39+00:00",
   "title": "Rum Group Shares Rise 28% After Report Links Anthropic to $13.7 Billion Contract",

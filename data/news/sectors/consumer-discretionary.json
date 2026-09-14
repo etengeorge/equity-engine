@@ -1,5 +1,33 @@
 [
  {
+  "id": "559cce28-4477-326d-824d-ab542317d8d0",
+  "ts": "2026-09-14T13:28:00+00:00",
+  "title": "Stock Market News for Sep 14, 2026",
+  "summary": "Wall Street closed sharply higher on Friday, pulled up by tech and discretionary stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "df469287-6417-3d95-a84d-aaa22c19a37e",
+  "ts": "2026-09-14T13:20:16+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "9674573e-c219-3493-8cf0-cff37c2a47c6",
   "ts": "2026-09-13T20:00:18+00:00",
   "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",

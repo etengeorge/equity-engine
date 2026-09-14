@@ -1,5 +1,33 @@
 [
  {
+  "id": "9a0f4a8a-9216-3562-804e-4ad1941d674e",
+  "ts": "2026-09-14T13:29:12+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Monday",
+  "summary": "Energy stocks were advancing premarket Monday, with the State Street Energy Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132912222.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "df469287-6417-3d95-a84d-aaa22c19a37e",
+  "ts": "2026-09-14T13:20:16+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "593c993c-70d8-3bca-9938-532353f0408a",
   "ts": "2026-09-11T19:49:20+00:00",
   "title": "Sector Update: Energy Stocks Mixed Late Afternoon",

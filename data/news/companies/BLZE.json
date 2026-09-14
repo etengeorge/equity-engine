@@ -1,5 +1,17 @@
 [
  {
+  "id": "4c3733c4-d80a-31a4-83df-d82069462152",
+  "ts": "2026-09-14T13:00:00+00:00",
+  "title": "Backblaze to Present at AI Infra Summit 2026: Architecting the AI Data Plane",
+  "summary": "SAN FRANCISCO, September 14, 2026--Backblaze, Inc. (Nasdaq: BLZE), the high-performance capacity storage layer for AI, will exhibit and present as a sponsor at AI Infra Summit 2026, Sept. 15\u201317 at the Santa Clara Convention Center. AI infrastructure teams are facing an existential challenge as their datasets outgrow what premium flash can affordably hold. Backblaze AI workflow expert Kamren Mahaney will explain a framework for architecting the AI data plane to achieve strong storage economics wh",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/backblaze-present-ai-infra-summit-130000434.html",
+  "tickers": [
+   "BLZE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "85cc1b9b-e075-3f55-aec9-ecb0d26d785a",
   "ts": "2026-09-09T13:00:00+00:00",
   "title": "Backblaze and WEKA Simplify Data Management Across the AI Lifecycle",

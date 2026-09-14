@@ -1,95 +1,103 @@
-# HRI — HERC HOLDINGS
+# MRCY — MERCURY SYSTEMS INC
 *Industrials · brief generated 2026-09-14 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 128/1956
+- rotation position 134/1956
 
 ## Market
 | | |
 |---|---|
-| price | $140.96 |
-| market cap | $4.7B |
-| 5d / 21d / 63d / 252d | +1.5% / -15.9% / -0.6% / +7.8% |
-| 60d avg daily $ volume | $80.3M |
-| beta (vs IWM) | 1.67 (R²=0.29) |
-| 5d volume vs 60d average | 1.3x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 37% / debt 63% |
+| price | $80.61 |
+| market cap | $4.8B |
+| 5d / 21d / 63d / 252d | -4.8% / -27.8% / -32.4% / +12.4% |
+| 60d avg daily $ volume | $75.9M |
+| beta (vs IWM) | 1.32 (R²=0.224) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-07-03 (10-Q) |
+| WACC weights | equity 96% / debt 4% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$806.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$928.0M', '$1.1B', '$930.0M']
-Enterprise value **$12.6B** · FCFF yield **+6.4%**
+Normalized FCFF base **$93.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$68.1M', '$119.0M', '$26.1M']
+Enterprise value **$4.8B** · FCFF yield **+1.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.0% − 1pt | -4.0% |
-| **8.0% (point)** | **-0.0%** |
-| 8.0% + 1pt | +3.5% |
+| 12.4% − 1pt | +44.7% |
+| **12.4% (point)** | **+48.4%** |
+| 12.4% + 1pt | +52.0% |
 
 
-Naive baseline for comparison: **-10.0%** (5y revenue CAGR -16.5% (clamped to -10.0%)).
-Gap under that baseline: **-98.0%** (fair value $2.77 vs price $140.96).
+> **Stock compensation is 43% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$62.7M** and an implied growth of **+61.6%** instead of +48.4%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+1.3%** (5y revenue CAGR +1.3%).
+Gap under that baseline: **-81.3%** (fair value $15.10 vs price $80.61).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **7th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -74.0%).
+Cohort: **13th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -58.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_peak_cycle_base_newest_fcf_2.6x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_43%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-09-03 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1364479/000162828026060440/hri-20260831.htm
-- 2026-08-19 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000112/hri-20260819.htm
-- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000109/hri-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/hri-20260728.htm
-- 2026-05-20 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000103/hri-20260514.htm
-- 2026-04-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000085/hri-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000084/hri-20260428.htm
-- 2026-03-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000076/hri-20260324.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000050/hri-20251231.htm
-- 2026-02-17 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000049/hri-20260217.htm
+- 2026-08-18 **10-K** — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/mrcy-20260703.htm
+- 2026-08-18 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000043/mrcy-20260818.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000024/mrcy-20260327.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000021/mrcy-20260505.htm
+- 2026-02-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000006/mrcy-20251226.htm
+- 2026-02-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000004/mrcy-20260203.htm
+- 2025-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1049521/000104952125000062/mrcy-20250926.htm
+- 2025-11-04 **8-K** — items 1.01,2.02,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1049521/000104952125000060/mrcy-20251104.htm
+- 2025-10-28 **8-K** — items 5.02,5.07,8.01 — https://www.sec.gov/Archives/edgar/data/1049521/000104952125000057/mrcy-20251022.htm
+- 2025-09-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1049521/000104952125000029/mrcy-20250910.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-pressrelease.htm
-- **2026-07-28** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-earningsprese.htm
+- **2026-08-18** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000043/a2026q4earningsreleaseex.htm
+- **2026-08-18** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1049521/000104952126000043/q4fy26earningspresentati.htm
 
 ## News on this company — last 90 days
-*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-09** · Herc Holdings (HRI) Moves 3.8% Higher: Will This Strength Last? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/herc-holdings-hri-moves-3-091700749.html
-  > Herc Holdings (HRI) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the stock doesn't suggest further strength down the road.
-- **2026-09-04** · Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600 — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/bloom-energy-illumina-everpure-set-231500760.html
-  > S&P Dow Jones Indices will make the following changes to the S&P 500, S&P 100, S&P MidCap 400, and S&P SmallCap 600 indices effective prior to the open of trading on Monday, September 21, 2026, to coincide with the quarterly rebalance. The 
-- **2026-09-03** · 1 of Wall Street’s Favorite Stocks with Solid Fundamentals and 2 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-090318958.html
+- **2026-09-03** · 3 of Wall Street’s Favorite Stocks We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-130318200.html
   > Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it’s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly 
-- **2026-09-02** · 3 Small-Cap Stocks That Concern Us — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-concern-184423611.html
-  > Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and stayi
-- **2026-08-29** · Why Herc Holdings (HRI) Stock Dropped And Drew Fresh Attention — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/why-herc-holdings-hri-stock-010808126.html
-  > Herc Holdings (HRI) has drawn fresh attention after its board declared a quarterly dividend of $0.70 per share and added experienced rental industry executive Erik Olsson to the Herc Rentals board and audit committee. Despite the dividend a
-- **2026-08-27** · Why Is Herc Holdings (HRI) Up 9.2% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-herc-holdings-hri-9-153014615.html
-  > Herc Holdings (HRI) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
-- **2026-08-25** · Winners And Losers Of Q2: Herc (NYSE:HRI) Vs The Rest Of The Specialty Equipment Distributors Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/winners-losers-q2-herc-nyse-171844373.html
-  > The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how Herc (NYSE:HRI) and the rest of the specialty equipment distributors s
-- **2026-08-24** · 1 Industrials Stock on Our Buy List and 2 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-buy-list-091336685.html
-  > Whether you see them or not, industrials businesses play a crucial part in our daily activities. Still, their generally high capital requirements expose them to the ups and downs of economic cycles, and the market seems to be baking in a pr
-- **2026-08-20** · Herc Rentals Publishes 2026 Corporate Citizenship Report — *Business Wire* — https://finance.yahoo.com/small-business/articles/herc-rentals-publishes-2026-corporate-123000985.html
-  > BONITA SPRINGS, Fla., August 20, 2026--Herc Holdings Inc. (NYSE: HRI), one of North America’s leading equipment rental suppliers operating through Herc Rentals Inc. ("Herc Holdings," "Herc Rentals" or the "Company"), released its 2026 Corpo
-- **2026-08-20** · 1 Profitable Stock with Competitive Advantages and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-competitive-advantages-120315930.html
-  > Even if a company is profitable, it doesn’t always mean it’s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential.
-- **2026-08-19** · Herc Holdings Inc. Declares Regular Quarterly Dividend of $0.70 per Share — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/herc-holdings-inc-declares-regular-123000495.html
-  > BONITA SPRINGS, Fla., August 19, 2026--Herc Holdings Inc. (NYSE: HRI), one of North America’s leading equipment rental suppliers operating through Herc Rentals Inc. ("Herc Holdings," "Herc Rentals" or the "Company"), today announced that it
-- **2026-08-19** · Herc Holdings Inc. Announces Election of Erik Olsson to its Board of Directors — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/herc-holdings-inc-announces-election-121500614.html
-  > BONITA SPRINGS, Fla., August 19, 2026--Herc Holdings Inc. (NYSE: HRI), one of North America’s leading equipment rental suppliers operating through Herc Rentals Inc. ("Herc Holdings," "Herc Rentals" or the "Company"), announced the election 
+- **2026-09-03** · Mercury Systems (MRCY) Slides As Valuation Views Split, Is The Stock 22% Undervalued? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/mercury-systems-mrcy-slides-valuation-032731617.html
+  > Mercury Systems (MRCY) has drawn investor attention after recent trading data showed the stock down 8.0% over the past week and about 22% over the past month, compared with a year-to-date gain of 8.6%. Zooming out, Mercury Systems’ recent s
+- **2026-09-02** · Insider Waves Goodbye to More Than 48,000 Shares of Defense Stock Worth $4.8 Million — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/02/insider-waves-goodbye-to-more-than-48-000-shares-of-defense-stock-worth-usd4-8-million/
+  > Disposition was a non-discretionary sale-to-cover to satisfy tax withholding on vesting awards. CEO retains 236,666 total shares worth $22.3 million.
+- **2026-08-27** · Mercury Systems (MRCY) Is Sitting On A Record Pile Of Orders — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/mercury-systems-mrcy-sitting-record-094015155.html
+  > On August 18, Mercury Systems (NASDAQ:MRCY) reported fiscal fourth-quarter and full-year results that came in well ahead of its own plan. Bookings nearly doubled, backlog swelled past $1.9 billion, and management raised its long-term growth
+- **2026-08-25** · Mercury Systems (MRCY) Q4 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/25/mercury-systems-mrcy-q4-2026-earnings-call-transcript/
+  > Record bookings and backlog signal strong momentum ahead for defense contractor.
+- **2026-08-25** · The 5 Most Interesting Analyst Questions From Mercury Systems’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-071844877.html
+  > Mercury Systems’ second quarter results were met with a negative market reaction, despite the company delivering revenue above Wall Street expectations. Management highlighted robust demand across its defense portfolio, driven by record boo
+- **2026-08-22** · Mercury Systems (MRCY) Booked $660 Million. Why Did its Shares Fall More than 10% After Hours? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/mercury-systems-mrcy-booked-660-000558587.html
+  > Mercury Systems, Inc. (NASDAQ:MRCY) reported record orders, but the results exposed the gap between defense demand and financial conversion. Shares closed down 7.4% at $105.00 and traded about 11.9% lower at roughly $92.50 in late after-hou
+- **2026-08-20** · Mercury Systems, BWX, Kratos, Parsons, and Huntington Ingalls Shares Plummet, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mercury-systems-bwx-kratos-parsons-221115869.html
+  > A number of stocks fell in the afternoon session after the White House pivoted its Iran strategy toward financial sanctions, signaling a de-escalation of military options. President Donald Trump announced the U.S. will launch "Economic Warf
+- **2026-08-20** · Verra Mobility (VRRM): How a Lost Customer Contract Changed the Investment Case — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/verra-mobility-vrrm-lost-customer-161042764.html
+  > Aristotle Capital Boston, LLC, an investment advisor, released its “Small Cap Equity Fund” Q2 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 13.69% in the second quarter of 2026, trailing the Russell 20
+- **2026-08-20** · Byline Bancorp (BY): Has This Bank Stock Reached Its Full Potential? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/byline-bancorp-bank-stock-reached-161032959.html
+  > Aristotle Capital Boston, LLC, an investment advisor, released its “Small Cap Equity Fund” Q2 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 13.69% in the second quarter of 2026, trailing the Russell 20
+- **2026-08-20** · Americold Realty Trust (COLD): Why Was This Position Liquidated? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/americold-realty-trust-cold-why-161022314.html
+  > Aristotle Capital Boston, LLC, an investment advisor, released its “Small Cap Equity Fund” Q2 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 13.69% in the second quarter of 2026, trailing the Russell 20
+- **2026-08-20** · UMB Financial (UMBF): Why This Regional Bank Could Be Built for Long-Term Growth — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/umb-financial-umbf-why-regional-161012066.html
+  > Aristotle Capital Boston, LLC, an investment advisor, released its “Small Cap Equity Fund” Q2 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 13.69% in the second quarter of 2026, trailing the Russell 20
+- **2026-08-20** · IPG Photonics (IPG): Could a Manufacturing Recovery Spark a Stock Rebound? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ipg-photonics-ipg-could-manufacturing-160838268.html
+  > Aristotle Capital Boston, LLC, an investment advisor, released its “Small Cap Equity Fund” Q2 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 13.69% in the second quarter of 2026, trailing the Russell 20
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
 - **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
@@ -98,14 +106,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
-- **2026-09-03** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html
-- **2026-09-02** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html
 
 ## Market and macro context
-- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
-- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
-- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
-- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
+- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
+- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
+- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
+- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
 
 *Rules, releases and agency actions:*
 - **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
@@ -126,11 +132,11 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
+- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
 - MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
 - NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
 - TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
 - VSEC: no_model · price $203.91
-- WLFC: no_model · price $53.42
 
 ---
 

@@ -1,5 +1,19 @@
 [
  {
+  "id": "559cce28-4477-326d-824d-ab542317d8d0",
+  "ts": "2026-09-14T13:28:00+00:00",
+  "title": "Stock Market News for Sep 14, 2026",
+  "summary": "Wall Street closed sharply higher on Friday, pulled up by tech and discretionary stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "35f770a6-8f84-390c-a816-166488ce757e",
   "ts": "2026-09-09T16:31:56+00:00",
   "title": "Comcast Sinks 8%, Charter Drops 6%, T-Mobile Slips 3%: Is a Broadband Repricing Underway?",

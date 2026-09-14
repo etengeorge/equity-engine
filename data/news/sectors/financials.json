@@ -1,5 +1,47 @@
 [
  {
+  "id": "d8e0ed68-b015-3f41-80d8-e3fd98caa5da",
+  "ts": "2026-09-14T15:56:47+00:00",
+  "title": "XLF vs FNCL: Which Financial Services ETF Wins Out for Investors?",
+  "summary": "See how these popular financial sector ETFs compare on risk, returns, and diversification.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/etfs/2026/09/14/xlf-vs-fncl-which-financial-sector-etf-wins-out-for-investors/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "33ff1c0f-0cf0-301c-9508-43fa192825a5",
+  "ts": "2026-09-14T13:26:14+00:00",
+  "title": "Sector Update: Financial Stocks Edge Higher Pre-Bell Monday",
+  "summary": "Financial stocks were edging higher pre-bell Monday, with the State Street Financial Select Sector S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132614093.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "df469287-6417-3d95-a84d-aaa22c19a37e",
+  "ts": "2026-09-14T13:20:16+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "2019c1f7-8663-3154-87ea-dd90954e8822",
   "ts": "2026-09-11T20:00:51+00:00",
   "title": "Sector Update: Financial Stocks Higher Late Afternoon",

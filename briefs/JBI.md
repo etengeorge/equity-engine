@@ -1,90 +1,93 @@
-# VRNS — VARONIS SYSTEMS
-*Information Technology · brief generated 2026-09-14 · selected as **rotation***
+# JBI — JANUS INTERNATIONAL GROUP
+*Industrials · brief generated 2026-09-14 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 129/1956
+- cheapest 2% of 151 Industrials peers (98th pct)
+- baseline gap +227%
+- 5d move -8%
+- Industrials is in the news
+- never researched
+- urgency score 6.81
 
 ## Market
 | | |
 |---|---|
-| price | $45.12 |
-| market cap | $5.2B |
-| 5d / 21d / 63d / 252d | -3.0% / +7.6% / +34.8% / -19.9% |
-| 60d avg daily $ volume | $89.1M |
-| beta (vs IWM) | 0.87 (R²=0.086) |
-| 5d volume vs 60d average | 0.9x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 92% / debt 8% |
+| price | $4.59 |
+| market cap | $626.2M |
+| 5d / 21d / 63d / 252d | -8.4% / -5.7% / -13.2% / -54.4% |
+| 60d avg daily $ volume | $8.5M |
+| beta (vs IWM) | 1.28 (R²=0.247) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-07-04 (10-Q) |
+| WACC weights | equity 53% / debt 47% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$101.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$134.8M', '$108.5M', '$54.3M']
-Enterprise value **$5.0B** · FCFF yield **+2.0%**
+Normalized FCFF base **$193.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$114.0M', '$133.9M', '$196.0M']
+Enterprise value **$1.0B** · FCFF yield **+18.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.0% − 1pt | +33.3% |
-| **10.0% (point)** | **+37.6%** |
-| 10.0% + 1pt | +41.6% |
+| 10.8% − 1pt | -17.7% |
+| **10.8% (point)** | **-15.5%** |
+| 10.8% + 1pt | -13.4% |
 
 
-> **Stock compensation is 133% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$-30.7M**, which is not positive — no growth rate can be solved for on that basis. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+16.3%** (5y revenue CAGR +16.3%).
-Gap under that baseline: **-51.6%** (fair value $21.85 vs price $45.12).
+Naive baseline for comparison: **+4.2%** (4y revenue CAGR +4.2%).
+Gap under that baseline: **+226.7%** (fair value $15.00 vs price $4.59).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **40th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -16.6%).
+Cohort: **98th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +249.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_8%_debt_weight`
-- `possible_peak_cycle_base_newest_fcf_2.5x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_133%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `possible_trough_cycle_base_newest_fcf_0.58x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1361113/000162828026050630/vrns-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1361113/000117184326004948/f8k_072826.htm
-- 2026-06-02 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/1361113/000117184326003887/f8k_060226.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1361113/000162828026028411/vrns-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1361113/000117184326002774/f8k_042826.htm
-- 2026-04-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1361113/000114036126015263/ny20065926x1_def14a.htm
-- 2026-02-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1361113/000162828026005450/vrns-20251231.htm
-- 2026-02-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1361113/000117184326000602/f8k_020326.htm
-- 2025-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1361113/000162828025047145/vrns-20250930.htm
-- 2025-10-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1361113/000117184325006721/f8k_102825.htm
+- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm
+- 2026-08-11 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbi-20260811.htm
+- 2026-06-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926074100/tm2617994d1_8k.htm
+- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000012/jbi-20260404.htm
+- 2026-05-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/jbi-20260512.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1839839/000114036126016709/ny20065931x1_def14a.htm
+- 2026-03-05 **8-K** — items 5.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926023805/tm268034d1_8k.htm
+- 2026-03-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000006/jbi-20260103.htm
+- 2026-03-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000005/jbi-20260304.htm
+- 2026-02-02 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926009226/tm264605d1_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1361113/000117184326004948/exh_991.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm
+- **2026-08-11** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/earningspresentationq220.htm
+- **2026-08-11** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbiinvestorpresentationa.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Information Technology
-*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-13** · Better Artificial Intelligence ETF: Roundhill's CHAT vs. State Street's XLK — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/13/better-artificial-intelligence-etf-roundhill-s-chat-vs-state-street-s-xlk/
-- **2026-09-11** · Sector Update: Tech Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195856760.html
-- **2026-09-11** · Sector Update: Tech Stocks Rise Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-friday-173848739.html
-- **2026-09-11** · Exchange-Traded Funds, US Equities Rise After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171329001.html
-- **2026-09-11** · Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/apple-advances-3-as-first-foldable-iphone-arrives-at-its-highest-price-ever-skyworks-rallies-9-alphabet-ticks-up/
-- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
+- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
+- **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
+- **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
-- **2026-09-10** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html
-- **2026-09-10** · Sector Update: Tech Stocks Decline Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-thursday-173544461.html
-- **2026-09-10** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html
+- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
+- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
+- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
+- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 
 ## Market and macro context
-- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
-- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
-- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
-- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
+- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
+- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
+- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
+- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
 
 *Rules, releases and agency actions:*
 - **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
@@ -97,19 +100,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Information Technology
-- CIFR: no_model · price $15.94
-- CORZ: no_model · price $17.37
-- CVLT: rich · price $136.41 · fair value $87.52 · gap -35.8%
-- EFOR: no_edge · price $32.55 · fair value $36.33 · gap +11.6%
-- HUT: no_model · price $77.00
-- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
-- MXL: no_model · price $71.51
-- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
-- RGTI: no_model · price $15.16
-- RIOT: no_model · price $18.64
-- SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
-- TTAN: no_model · price $87.92
+## Prior verdicts elsewhere in Industrials
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
+- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
+- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
+- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
+- VSEC: no_model · price $203.91
 
 ---
 
