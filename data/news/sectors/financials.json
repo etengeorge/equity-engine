@@ -1,5 +1,61 @@
 [
  {
+  "id": "2019c1f7-8663-3154-87ea-dd90954e8822",
+  "ts": "2026-09-11T20:00:51+00:00",
+  "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+  "summary": "Financial stocks were advancing in late Friday afternoon trading, with the NYSE Financial Index risi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-200051514.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "198eaa7f-067d-36e6-97c9-b03f56dba1fc",
+  "ts": "2026-09-11T17:59:03+00:00",
+  "title": "Sector Update: Financial Stocks Higher Friday Afternoon",
+  "summary": "Financial stocks were advancing in Friday afternoon trading, with the NYSE Financial Index rising 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-175903868.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "674ed1e4-58e9-3ebc-9bf7-96051af079f3",
+  "ts": "2026-09-11T17:30:17+00:00",
+  "title": "Sector Update: Financial",
+  "summary": "Financial stocks were advancing in Friday afternoon trading, with the NYSE Financial Index rising 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-173017131.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "895e7bd1-804b-36fc-9d6e-d9faabf6ebe9",
+  "ts": "2026-09-11T17:13:29+00:00",
+  "title": "Exchange-Traded Funds, US Equities Rise After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were higher. Actively traded Invesco QQQ Trust (QQQ)",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171329001.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "d49a5240-d778-3713-ab8e-18a0c06dac50",
   "ts": "2026-09-11T13:21:21+00:00",
   "title": "Sector Update: Financial Stocks Advance Pre-Bell Friday",

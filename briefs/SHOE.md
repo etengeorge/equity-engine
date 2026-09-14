@@ -1,25 +1,24 @@
 # SHOE — SHOE STATION GROUP INC
-*Consumer Discretionary · brief generated 2026-09-11 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-09-14 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +99%
-- 5d move -9%
-- 21d move -22%
+- baseline gap +93%
+- 21d move -18%
 - volume 2.1x its 60d average
 - filed an 8-K in the last few sessions
-- 9 news items in the last 5 days
+- 10 news items in the last 5 days
 - Consumer Discretionary is in the news
 - never researched
-- urgency score 8.61
+- urgency score 7.81
 
 ## Market
 | | |
 |---|---|
-| price | $12.28 |
-| market cap | $333.4M |
-| 5d / 21d / 63d / 252d | -9.0% / -22.1% / -25.4% / -46.1% |
-| 60d avg daily $ volume | $11.6M |
-| beta (vs IWM) | 1.34 (R²=0.33) |
+| price | $12.71 |
+| market cap | $345.1M |
+| 5d / 21d / 63d / 252d | -6.9% / -17.8% / -26.2% / -44.7% |
+| 60d avg daily $ volume | $11.8M |
+| beta (vs IWM) | 1.33 (R²=0.327) |
 | 5d volume vs 60d average | 2.1x |
 | balance sheet as of | 2026-05-02 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
@@ -27,31 +26,31 @@
 ## What the market's price already assumes
 Normalized FCFF base **$54.5M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$26.6M', '$69.5M', '$66.5M']
-Enterprise value **$204.1M** · FCFF yield **+26.7%**
+Enterprise value **$215.7M** · FCFF yield **+25.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.3% − 1pt | -22.3% |
-| **12.3% (point)** | **-20.5%** |
-| 12.3% + 1pt | -18.8% |
+| 12.3% − 1pt | -21.1% |
+| **12.3% (point)** | **-19.3%** |
+| 12.3% + 1pt | -17.6% |
 
 
-> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$47.8M** and an implied growth of **-17.6%** instead of -20.5%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$47.8M** and an implied growth of **-16.4%** instead of -19.3%. Decide which treatment you are underwriting and say so explicitly.
 
 Naive baseline for comparison: **+1.8%** (5y revenue CAGR +1.8%).
-Gap under that baseline: **+99.1%** (fair value $24.45 vs price $12.28).
+Gap under that baseline: **+92.8%** (fair value $24.51 vs price $12.71).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **85th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +96.5%).
+Cohort: **83th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +91.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `possible_trough_cycle_base_newest_fcf_0.40x_oldest_growth_applied_to_a_trough_understates_value`
-- `operating_leases_149%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
+- `operating_leases_141%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
 
 ## Recent filings
 - 2026-09-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/895447/000119312526387855/shoe-20260801.htm
@@ -73,8 +72,10 @@ Attack these before you trust any number above.
 - **2026-05-21** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/895447/000119312526233317/scvl-ex99_1.htm
 
 ## News on this company — last 90 days
-*16 items held; showing the 16 most recent. Headlines and summaries only — open the URL for the full story.*
+*17 items held; showing the 17 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-13** · Shoe Station Group (SHOE) Bets On Localized Stores To Reverse A Slide — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/shoe-station-group-shoe-bets-114759320.html
+  > On September 10, Shoe Station Group (NASDAQ:SHOE) held its first earnings call under its new name, and the numbers told a story of a company still finding its footing. Second quarter net sales fell 7.2% to $284.3 million from $306.4 million
 - **2026-09-11** · Shoe Station (SHOE) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/10/shoe-station-shoe-q2-2026-earnings-call-transcript/
   > August comparable sales improved after localized assortments, signaling early recovery.
 - **2026-09-10** · Shoe Station Group Inc (SHOE) (Q2 2026) Earnings Call Highlights: Sales Slip, Margins ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/shoe-station-group-inc-shoe-210041622.html
@@ -111,30 +112,30 @@ Attack these before you trust any number above.
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
+- **2026-09-11** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html
+- **2026-09-11** · Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/
+- **2026-09-11** · Sector Update: Consumer Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-174328948.html
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-thursday-173543020.html
 - **2026-09-10** · How Is Yum! Brands' Stock Performance Compared to Other Consumer Cyclical Stocks? — *Barchart* — https://www.barchart.com/story/news/4539055/how-is-yum-brands-stock-performance-compared-to-other-consumer-cyclical-stocks
 - **2026-09-10** · Stock Market News for Sep 10, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html
-- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html
-- **2026-09-09** · Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/
 
 ## Market and macro context
-- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
-- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
-- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
-- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
+- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
+- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
+- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
+- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
 
 *Rules, releases and agency actions:*
-- **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
-- **2026-09-11** · Special Areas; Roadless Area Conservation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18648/special-areas-roadless-area-conservation
-- **2026-09-11** · Allocation and Apportionment of Deductions to Foreign Source Section 951A Category Income and Deduction Eligible Income — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18645/allocation-and-apportionment-of-deductions-to-foreign-source-section-951a-category-income-and
-- **2026-09-11** · Eliminating the Discretionary 60-Day Grace Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period
-- **2026-09-11** · Amendment to the International Traffic in Arms Regulations: Prohibited Exports, Imports, and Sales to or From Certain Countries-Cyprus — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18630/amendment-to-the-international-traffic-in-arms-regulations-prohibited-exports-imports-and-sales-to
-- **2026-09-11** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From New Jersey to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18623/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-new-jersey
+- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
+- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
+- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
+- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
+- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

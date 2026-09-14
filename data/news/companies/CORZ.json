@@ -1,5 +1,29 @@
 [
  {
+  "id": "5a8f9590-4b0c-372d-9844-44c89fb4f7ce",
+  "ts": "2026-09-11T21:09:17+00:00",
+  "title": "Is Cipher Digital Stock Expensive, Or Just Early?",
+  "summary": "At about $15.90 a share, Cipher Digital (CIFR) trades at 34.1 times sales, against 3.1 for the S&P 500, while its quarterly revenue falls. But those sales were booked before its data centers collected any rent. What you are buying is three leases, the debt raised to build them, and a pipeline tied largely to the Texas grid.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615062/is-cipher-digital-stock-expensive-or-just-early/2026-09-11",
+  "tickers": [
+   "CORZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c003b95c-4988-3230-ba2a-86f7a0f13d62",
+  "ts": "2026-09-11T19:45:39+00:00",
+  "title": "Core Scientific\u2019s Batch Zero classifications include a surprise base load candidate",
+  "summary": "Core Scientific separately reported conditional ERCOT treatment covering roughly 1.4 GW. Its Denton campus has 297 MW classified as base load, with another 74 MW already recognized outside Batch Zero.\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/short/core-scientifics-batch-zero-classifications-include-a-surprise-base-load-candidate/",
+  "tickers": [
+   "CORZ"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ab037dad-e441-3035-b91b-2796c40eeba0",
   "ts": "2026-09-11T13:54:00+00:00",
   "title": "Can APLD Turn Power-Advantaged Sites Into an AI Data Center Edge?",

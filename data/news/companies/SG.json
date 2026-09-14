@@ -1,5 +1,41 @@
 [
  {
+  "id": "888c9a5c-0896-36f0-8645-591d76aed185",
+  "ts": "2026-09-11T20:16:00+00:00",
+  "title": "Oracle, Kroger, Adobe, and More Stocks That Explain Today\u2019s Market",
+  "summary": "Shares of Oracle fell after the software giant\u2019s first-quarter earnings attempt to ease some concerns about its reliance on OpenAI.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/stock-movers-23a24cef?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "SG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f92f5c22-f5f9-317a-bd83-fde515d2abfb",
+  "ts": "2026-09-11T20:07:00+00:00",
+  "title": "Sweetgreen Stock Jumps After CDC Declares End to Cyclospora Outbreak",
+  "summary": "Sweetgreen has said it doesn\u2019t use iceberg lettuce on its menu and none of its ingredients had been linked to the cyclosporiasis outbreak.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/cyclospora-outbreak-over-sweetgreen-kroger-stock-ee3bc980?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "SG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7e402dba-ade4-3340-af20-fd9638c0acdc",
+  "ts": "2026-09-10T22:30:00+00:00",
+  "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
+  "summary": "Collaborative Fund just bought into D.C. United and its stadium, with firm founder Craig Shapiro pitching it as a way to showcase for the firm's startups.",
+  "publisher": "TechCrunch",
+  "url": "https://finance.yahoo.com/small-business/articles/thrive-capital-led-vcs-pro-223000452.html",
+  "tickers": [
+   "SG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ddf855a3-89a7-3d44-9472-039a39ce95e0",
   "ts": "2026-09-08T13:00:00+00:00",
   "title": "Sweetgreen Makes Its Northeast Florida Debut With First-Ever Jacksonville Location Opening at St. Johns Town Center",

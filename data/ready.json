@@ -1,49 +1,49 @@
 {
-  "screen_utc": "2026-09-11T14:38:23+00:00",
-  "price_asof": "2026-09-10",
+  "screen_utc": "2026-09-14T11:24:30+00:00",
+  "price_asof": "2026-09-11",
   "universe": 1956,
   "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-11T14:38:26+00:00",
+    "generated_utc": "2026-09-14T11:24:31+00:00",
     "sectors": {
       "Health Care": {
-        "new": 2,
-        "held": 40,
+        "new": 1,
+        "held": 41,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 3,
-        "held": 52,
+        "new": 4,
+        "held": 56,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 1,
-        "held": 23,
+        "new": 2,
+        "held": 25,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 2,
-        "held": 48,
+        "new": 5,
+        "held": 53,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 2,
-        "held": 38,
+        "new": 4,
+        "held": 42,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 3,
-        "held": 66,
+        "new": 4,
+        "held": 70,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 31,
+        "new": 4,
+        "held": 35,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 1,
+        "new": 0,
         "held": 16,
         "etf": "XLB"
       },
@@ -53,12 +53,12 @@
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 36,
+        "new": 2,
+        "held": 38,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 1,
+        "new": 0,
         "held": 21,
         "etf": "XLU"
       }
@@ -66,25 +66,25 @@
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 207,
+    "articles_new": 701,
     "candidates": 450,
-    "elapsed_s": 227.7
+    "elapsed_s": 197.1
   },
   "picks": [
-    "VCTR",
-    "NOVT",
-    "CNR",
-    "PECO",
-    "OGS",
-    "OII",
+    "HRI",
+    "VRNS",
+    "CNX",
+    "DNTH",
+    "RDN",
+    "SKY",
     "WLTH",
     "SHOE",
     "AEO",
     "KBH"
   ],
   "stages": {
-    "screen": "2026-09-11T14:42:29+00:00",
-    "news": "2026-09-11T14:42:13+00:00",
-    "pick": "2026-09-11T14:42:29+00:00"
+    "screen": "2026-09-14T11:28:06+00:00",
+    "news": "2026-09-14T11:27:48+00:00",
+    "pick": "2026-09-14T11:28:06+00:00"
   }
 }

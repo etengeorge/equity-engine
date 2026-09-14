@@ -1,11 +1,59 @@
 [
  {
+  "id": "a457a5e6-73c9-3787-99d5-74b296a46951",
+  "ts": "2026-09-12T17:53:35+00:00",
+  "title": "BigBear.ai vs. D-Wave Quantum: Which Technology Stock Is a Better Buy in 2026?",
+  "summary": "BigBear.ai boasts established government revenue but faces concentration risk and accounting challenges. D-Wave offers explosive growth but is burning cash at an alarming rate.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/better-buy/2026/09/12/bigbearai-vs-d-wave-quantum-which-technology-stock-is-a-better-buy-in-2026/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ccf2c450-caf3-3616-8120-5614b78577c0",
+  "ts": "2026-09-12T10:14:15+00:00",
+  "title": "Rigetti and D-Wave Just Got $100 Million Each. 1 Quantum Stock Has More Upside From Here.",
+  "summary": "D-Wave and Rigetti just landed major government backing as investors look for the next winners in quantum computing.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4571377/rigetti-and-d-wave-just-got-100-million-each-1-quantum-stock-has-more-upside-from-here",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1c80448f-23b3-3d86-ac3e-d533c7394c2b",
+  "ts": "2026-09-12T07:54:01+00:00",
+  "title": "Prediction: D-Wave Quantum's Revenue Triples Before 2030",
+  "summary": "The case rests on a surging order book, because the revenue line itself is shrinking.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/12/prediction-d-wave-quantum-s-revenue-triples-before-2030/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "4485c4d0-1945-37b7-88ed-4f1d8982e1a4",
   "ts": "2026-09-10T22:14:00+00:00",
   "title": "D-Wave, Rigetti, and Quantinuum Just Got $300 Million From Washington. Here's What That Changes for Investors.",
   "summary": "Washington is now a shareholder in these quantum computing companies.",
   "publisher": "Motley Fool",
   "url": "https://www.fool.com/investing/2026/09/10/d-wave-rigetti-and-quantinuum-just-got-300-million/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "80d782b9-6572-3d40-a654-af1f7b270971",
+  "ts": "2026-09-10T16:40:00+00:00",
+  "title": "Uncle Sam\u2019s Quantum Leap: Feds Fund a $300M Quantum Supercycle",
+  "summary": "The U.S. Commerce Department is investing up to $300 million for minority equity stakes in D-Wave, Rigetti, and Quantinuum, reinforcing balance sheets and reshaping quantum computing's valuation outlook.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/uncle-sams-quantum-leap-feds-fund-a-300m-quantum-supercycle/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "QBTS"
   ],

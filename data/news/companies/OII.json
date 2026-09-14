@@ -1,5 +1,17 @@
 [
  {
+  "id": "2d3721e7-6d71-37c9-bff3-727fdfa17a40",
+  "ts": "2026-09-12T00:27:05+00:00",
+  "title": "1 Stock Under $50 to Target This Week and 2 We Brush Off",
+  "summary": "Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models, leaving them vulnerable to the ebbs and flows of the broader market.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-target-002705432.html",
+  "tickers": [
+   "OII"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "87a27896-7e69-359c-8a4c-0710bf2ff9fe",
   "ts": "2026-09-11T12:14:00+00:00",
   "title": "Shell Expands PJM Power Exposure With Hunlock Deal, Sells RISEC",

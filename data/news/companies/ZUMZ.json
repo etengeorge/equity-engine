@@ -1,5 +1,41 @@
 [
  {
+  "id": "3bfe188b-d3b5-38cc-a525-364ff70e0232",
+  "ts": "2026-09-11T22:03:05+00:00",
+  "title": "3 Stocks Under $50 That Fall Short",
+  "summary": "The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than penny stocks, though they\u2019re not immune to volatility as many lack the scale advantages of their larger peers.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-fall-220305186.html",
+  "tickers": [
+   "ZUMZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "01381b1b-7226-331c-8187-b84fbaa0f9c8",
+  "ts": "2026-09-11T15:52:53+00:00",
+  "title": "Why Zumiez Stock Fell 17% on Friday Morning",
+  "summary": "Zumiez missed earnings estimates and guided lower. The culprit may surprise you.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/11/why-zumiez-stock-fell-17-on-friday-morning/",
+  "tickers": [
+   "ZUMZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ba9d047a-848f-3743-8cfb-9c68dc35fec1",
+  "ts": "2026-09-11T14:35:05+00:00",
+  "title": "ZUMZ Q2 Deep Dive: Cautious Guidance Amid Shifting Consumer Dynamics and Channel Mix",
+  "summary": "Clothing and footwear retailer Zumiez (NASDAQ:ZUMZ) fell short of the market\u2019s revenue expectations in Q2 CY2026, with sales falling 2.5% year on year to $209 million. Next quarter\u2019s revenue guidance of $224 million underwhelmed, coming in 5.9% below analysts\u2019 estimates. Its GAAP loss of $0.17 per share was 21.4% below analysts\u2019 consensus estimates.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/zumz-q2-deep-dive-cautious-143505057.html",
+  "tickers": [
+   "ZUMZ"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5655c57e-e15f-3bc1-8af6-59674d17827b",
   "ts": "2026-09-11T14:00:18+00:00",
   "title": "Zumiez (ZUMZ) Q2 2026 Earnings Call Transcript",
@@ -18,6 +54,18 @@
   "summary": "ZUMZ's second-quarter results miss expectations as U.S. demand weakens and footwear softness weigh on sales, margins and earnings, while third-quarter guidance signals further pressure.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/markets/stocks/articles/zumiez-q2-earnings-miss-u-135600903.html",
+  "tickers": [
+   "ZUMZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "be22006f-0910-3147-b82a-be3d8f6b90cc",
+  "ts": "2026-09-11T12:30:00+00:00",
+  "title": "Zumiez Inc. Q2 2026 Earnings Call Summary",
+  "summary": "Moby summary of Zumiez Inc.'s Q2 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-zumiez-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "ZUMZ"
   ],

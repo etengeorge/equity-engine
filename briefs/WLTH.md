@@ -1,27 +1,27 @@
 # WLTH — WEALTHFRONT
-*Financials · brief generated 2026-09-11 · selected as **opportunistic***
+*Financials · brief generated 2026-09-14 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - richest 7% of its cohort
-- baseline gap -143%
-- 5d move +21%
-- 21d move +13%
-- volume 2.8x its 60d average
+- baseline gap -145%
+- 5d move +11%
+- 21d move +11%
+- volume 3.3x its 60d average
 - filed an 8-K in the last few sessions
-- 5 news items in the last 5 days
+- 6 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 8.61
+- urgency score 8.55
 
 ## Market
 | | |
 |---|---|
-| price | $10.88 |
+| price | $10.38 |
 | market cap | $1.6B |
-| 5d / 21d / 63d / 252d | +20.8% / +13.3% / +21.6% / n/a |
-| 60d avg daily $ volume | $13.9M |
+| 5d / 21d / 63d / 252d | +11.3% / +10.8% / +17.7% / n/a |
+| 60d avg daily $ volume | $14.6M |
 | beta (vs IWM) | None (R²=None) · **sector_median** |
-| 5d volume vs 60d average | 2.8x |
+| 5d volume vs 60d average | 3.3x |
 | balance sheet as of | 2026-04-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
@@ -31,17 +31,18 @@ This is a financial. FCFF is meaningless here (debt is raw material, not financi
 | | |
 |---|---|
 | sustainable ROTCE | -6.8% |
-| cost of equity | +9.7% |
-| justified P/TBV | -1.15 |
-| actual P/TBV | 2.64 |
+| cost of equity | +9.8% |
+| justified P/TBV | -1.14 |
+| actual P/TBV | 2.52 |
 | tangible book / share | $4.12 |
-| implied gap | -143.4% |
+| implied gap | -145.1% |
 
-Cohort: **7th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -108.8%).
+Cohort: **7th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -110.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `volume_3.3x_its_60d_average`
 - `beta_from_sector_median_0.87(insufficient_history)`
 - `loss_year_in_window`
 
@@ -66,8 +67,10 @@ Attack these before you trust any number above.
 - **2026-06-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1524566/000162828026040793/q127earningspresentation.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-11** · Week’s Best: Schwab Hikes Minimums on Popular Tax Strategy — *Barrons.com* — https://www.barrons.com/advisor/articles/weeks-best-schwab-hikes-minimums-on-popular-tax-strategy-06fe6a47?siteid=yhoof2&yptr=yahoo
+  > Charles Schwab is raising the minimum account balance for a tax-smart strategy favored by investment advisors who use Schwab’s trading platform. Starting Sept. 16, investors who want to take advantage of Schwab’s long/short separately manag
 - **2026-09-10** · Wealthfront (WLTH) Q2 2027 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/10/wealthfront-wlth-q2-2027-earnings-call-transcript/
   > Assets hit $100B milestone as advisory balances surged 30% year over year.
 - **2026-09-10** · Wealthfront Corp (WLTH) (Q2 2027) Earnings Call Highlights: Surpassing $100 Billion in Platform ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/wealthfront-corp-wlth-q2-2027-110023834.html
@@ -94,30 +97,30 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-11** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-200051514.html
+- **2026-09-11** · Sector Update: Financial Stocks Higher Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-175903868.html
+- **2026-09-11** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-173017131.html
+- **2026-09-11** · Exchange-Traded Funds, US Equities Rise After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171329001.html
 - **2026-09-11** · Sector Update: Financial Stocks Advance Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132121056.html
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
 - **2026-09-10** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html
 - **2026-09-10** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html
 - **2026-09-10** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html
-- **2026-09-10** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html
-- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
-- **2026-09-09** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-200106007.html
-- **2026-09-09** · Sector Update: Financial Stocks Softer Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-wednesday-175358173.html
 
 ## Market and macro context
-- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
-- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
-- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
-- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
+- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
+- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
+- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
+- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
 
 *Rules, releases and agency actions:*
-- **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
-- **2026-09-11** · Special Areas; Roadless Area Conservation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18648/special-areas-roadless-area-conservation
-- **2026-09-11** · Allocation and Apportionment of Deductions to Foreign Source Section 951A Category Income and Deduction Eligible Income — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18645/allocation-and-apportionment-of-deductions-to-foreign-source-section-951a-category-income-and
-- **2026-09-11** · Eliminating the Discretionary 60-Day Grace Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period
-- **2026-09-11** · Amendment to the International Traffic in Arms Regulations: Prohibited Exports, Imports, and Sales to or From Certain Countries-Cyprus — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18630/amendment-to-the-international-traffic-in-arms-regulations-prohibited-exports-imports-and-sales-to
-- **2026-09-11** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From New Jersey to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18623/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-new-jersey
+- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
+- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
+- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
+- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
+- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,5 +1,61 @@
 [
  {
+  "id": "9674573e-c219-3493-8cf0-cff37c2a47c6",
+  "ts": "2026-09-13T20:00:18+00:00",
+  "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+  "summary": "Jim Cramer put a precise number on what diesel is doing to every product you buy, and the math he laid out on CNBC has nothing to do with the inflation figure Washington reports. What it means for McDonald's, Walmart, and Target stocks depends on how long one critical cushion holds.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "7a339d59-b43b-3c6e-aee9-e8272dac1ff4",
+  "ts": "2026-09-11T19:54:14+00:00",
+  "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+  "summary": "Consumer stocks were higher late Friday afternoon, with the State Street Consumer Staples Select Sec",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "27140748-020a-39db-8b93-b80160183216",
+  "ts": "2026-09-11T18:58:07+00:00",
+  "title": "Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce?",
+  "summary": "Nike shares have shed nearly half their value this year, yet the chart hides a detail that reframes whether this is a company in crisis or a category caught in a broader storm. The answer changes everything about what comes next.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "6aaf03e6-f8f6-3558-a675-c39fd08e5d7c",
+  "ts": "2026-09-11T17:43:28+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
+  "summary": "Consumer stocks were higher Friday afternoon, with the State Street Consumer Staples Select Sector S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-174328948.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "dcb7e955-db63-328d-b4f6-b05c9438c383",
   "ts": "2026-09-11T13:14:24+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",

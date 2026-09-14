@@ -1,5 +1,29 @@
 [
  {
+  "id": "0d4e2d62-04e6-31ef-9f4b-d12ba35f7669",
+  "ts": "2026-09-11T21:00:39+00:00",
+  "title": "Rent the Runway Inc (RENT) (Q2 2026) Earnings Call Highlights: Record Revenue and New CEO Amid ...",
+  "summary": "Rent the Runway Inc (RENT) posted record Q2 2026 revenue of $98 million with expanding margins, but active subscribers fell 3.8% as the company names Paige Thomas as its new CEO.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/rent-runway-inc-rent-q2-210039033.html",
+  "tickers": [
+   "RENT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7f7e6161-fd7b-3ed9-bbed-3978dc2bae20",
+  "ts": "2026-09-11T14:33:38+00:00",
+  "title": "Rent the Runway forges ahead with discovery upgrades as it names new CEO",
+  "summary": "The subscription retailer introduced tools that let customers view entire outfits and enable virtual try-ons, but its financial results remain under pressure.",
+  "publisher": "CX Dive",
+  "url": "https://www.customerexperiencedive.com/news/rent-the-runway-forges-ahead-discovery-upgrades-new-ceo/830211/",
+  "tickers": [
+   "RENT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cdc5f03c-3a38-3473-8d6f-753a42f157f7",
   "ts": "2026-09-11T14:03:18+00:00",
   "title": "Rent the Runway Q2 Earnings Call Highlights",
@@ -18,6 +42,18 @@
   "summary": "The retail veteran will help the company sharpen the focus on its core business and renting and selling fashion.",
   "publisher": "WWD",
   "url": "https://wwd.com/business-news/financial/rent-the-runway-q2-2026-earnings-paige-thomas-ceo-1239207170/",
+  "tickers": [
+   "RENT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9653d234-c77f-3067-9010-b5078e7e24d6",
+  "ts": "2026-09-11T11:56:00+00:00",
+  "title": "Nordstrom alum takes the CEO reins at Rent the Runway",
+  "summary": "Paige Thomas, who starts Monday, is one of a cohort hailing from the department store, including interim CEO Teri Bariquit.",
+  "publisher": "Retail Dive",
+  "url": "https://www.retaildive.com/news/nordstrom-alum-takes-the-ceo-reins-at-rent-the-runway/830155/",
   "tickers": [
    "RENT"
   ],

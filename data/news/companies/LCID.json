@@ -1,5 +1,29 @@
 [
  {
+  "id": "06a5e228-3648-3bad-ae0a-be0edc0f27ff",
+  "ts": "2026-09-11T17:05:55+00:00",
+  "title": "Is Tesla Stock Priced For Its Earnings Or Its Robots?",
+  "summary": "Tesla (TSLA) stock trades at about $364, roughly 169 times its adjusted earnings over the past twelve months, meaning normalized net income with stock-based compensation added back. On analysts' own 2027 estimates, the multiple is still steep. So the price leans on wider margins and on products still early in their ramps.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615035/is-tesla-stock-priced-for-its-earnings-or-its-robots/2026-09-11",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ea62144b-9f71-39bc-a88e-43b44a646ab4",
+  "ts": "2026-09-11T16:47:38+00:00",
+  "title": "Can Rivian Automotive Stock Rally If Its Factory Catches Up With Demand?",
+  "summary": "Rivian Automotive (RIVN) began delivering its mass-market R2 to outside customers in June, and the harder part now is building enough of them. Management still expects the car business to exit 2026 with a positive gross profit, which depends on how fast its plant in Normal, Illinois, ramps.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615045/can-rivian-automotive-stock-rally-if-its-factory-catches-up-with-demand/2026-09-11",
+  "tickers": [
+   "LCID"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a85cd2a8-b4ae-3b40-85fe-13a4d7813ee6",
   "ts": "2026-09-10T22:15:03+00:00",
   "title": "Why Lucid Group (LCID) Dipped More Than Broader Market Today",

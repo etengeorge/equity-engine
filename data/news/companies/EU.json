@@ -108,6 +108,18 @@
   "source": "yfinance"
  },
  {
+  "id": "a9c93438-d757-373b-bb97-c2f9b9f4306a",
+  "ts": "2026-06-30T11:00:00+00:00",
+  "title": "Nuclear Regulatory Commission Issues License for enCore Energy's Dewey Burdock Uranium Project",
+  "summary": "enCore Energy Corp. (NASDAQ: EU) (TSXV: EU) (the \"Company\" or \"enCore\"), America's Clean Energy CompanyTM, announced today that the U.S. Nuclear Regulatory Commission (\"NRC\") has issued a 20-year renewal of the Source Materials License for the Dewey Burdock In-Situ Recovery (\"ISR\") Uranium Project in South Dakota. The issuance of the Source Materials License follows the completion of the Safety Evaluation Report, the final step in the license renewal process. With the issuance of the NRC Source",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/energy/articles/nuclear-regulatory-commission-issues-license-110000738.html",
+  "tickers": [
+   "EU"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cbfdcb4a-fefc-31f1-b7f5-daaabc6f633f",
   "ts": "2026-06-29T13:00:00+00:00",
   "title": "Nexus Uranium Congratulates enCore Energy on Landmark Federal Regulatory Approvals Advancing ISR Uranium in South Dakota",

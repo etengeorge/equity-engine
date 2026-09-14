@@ -1,5 +1,17 @@
 [
  {
+  "id": "ccf2c450-caf3-3616-8120-5614b78577c0",
+  "ts": "2026-09-12T10:14:15+00:00",
+  "title": "Rigetti and D-Wave Just Got $100 Million Each. 1 Quantum Stock Has More Upside From Here.",
+  "summary": "D-Wave and Rigetti just landed major government backing as investors look for the next winners in quantum computing.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4571377/rigetti-and-d-wave-just-got-100-million-each-1-quantum-stock-has-more-upside-from-here",
+  "tickers": [
+   "RGTI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2e6535c4-ff7f-3722-98f3-0c2f67edb5a5",
   "ts": "2026-09-11T11:20:00+00:00",
   "title": "Not IonQ, Not Rigetti Computing. This Quantum Computing Stock Could Be September's Biggest Winner.",
@@ -78,6 +90,18 @@
   "summary": "RGTI wins a $100 million CHIPS award to advance quantum scaling through readout electronics, cryogenic capacity and chip fabrication.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/technology/ai/articles/rigetti-secures-100-million-chips-165900381.html",
+  "tickers": [
+   "RGTI"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "80d782b9-6572-3d40-a654-af1f7b270971",
+  "ts": "2026-09-10T16:40:00+00:00",
+  "title": "Uncle Sam\u2019s Quantum Leap: Feds Fund a $300M Quantum Supercycle",
+  "summary": "The U.S. Commerce Department is investing up to $300 million for minority equity stakes in D-Wave, Rigetti, and Quantinuum, reinforcing balance sheets and reshaping quantum computing's valuation outlook.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/uncle-sams-quantum-leap-feds-fund-a-300m-quantum-supercycle/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "RGTI"
   ],

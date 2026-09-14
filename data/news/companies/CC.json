@@ -1,5 +1,41 @@
 [
  {
+  "id": "23d2a306-1fe8-304e-94d8-2fe88ec8484a",
+  "ts": "2026-09-11T20:48:28+00:00",
+  "title": "S&P 500 Index Slips Weekly as Health Care, Materials Weigh",
+  "summary": "The Standard & Poor's 500 index slipped 0.8% this week, led to the downside by the health care and m",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-index-slips-weekly-204828714.html",
+  "tickers": [
+   "CC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e475f13c-12de-35d4-9944-3dda4bfe354a",
+  "ts": "2026-09-11T18:07:07+00:00",
+  "title": "Chemours, DuPont, Corteva settle North Carolina PFAS claims for $455M",
+  "summary": "Payments will be made over 15 years to the state and 11 local communities excluded from a 2024 national water system settlement",
+  "publisher": "Quartz",
+  "url": "https://qz.com/chemours-dupont-corteva-north-carolina-pfas-settlement-091126",
+  "tickers": [
+   "CC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c083081f-0fcd-3b4b-b16c-58f89b202698",
+  "ts": "2026-09-11T12:30:40+00:00",
+  "title": "Chemours, DuPont, Corteva reach $455 PFAS settlement with North Carolina",
+  "summary": "The agreement resolves contaminant claims that Chemours\u2019 Fayetteville Works facility released into the water and air. The three chemical giants also established a $135 million reserve fund.",
+  "publisher": "Manufacturing Dive",
+  "url": "https://www.manufacturingdive.com/news/dupont-chemours-corteva-eidp-pfas-settlement-north-carolina-2026/830080/",
+  "tickers": [
+   "CC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "057a11f8-ebdf-3b4a-90a2-83e27cd77f41",
   "ts": "2026-09-10T16:26:26+00:00",
   "title": "Why Is Chemours Stock Trading Higher Today?",

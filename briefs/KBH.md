@@ -1,48 +1,47 @@
 # KBH — KB HOME
-*Consumer Discretionary · brief generated 2026-09-11 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-09-14 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 128 Consumer Discretionary peers (96th pct)
-- baseline gap +212%
-- 5d move -8%
-- 21d move -17%
-- 4 news items in the last 5 days
+- cheapest 5% of 129 Consumer Discretionary peers (95th pct)
+- baseline gap +204%
+- 21d move -12%
+- 6 news items in the last 5 days
 - Consumer Discretionary is in the news
 - never researched
-- urgency score 8.01
+- urgency score 7.41
 
 ## Market
 | | |
 |---|---|
-| price | $47.75 |
-| market cap | $2.9B |
-| 5d / 21d / 63d / 252d | -8.3% / -17.3% / -8.1% / -26.3% |
-| 60d avg daily $ volume | $64.5M |
-| beta (vs IWM) | 0.96 (R²=0.263) |
-| 5d volume vs 60d average | 0.7x |
+| price | $49.16 |
+| market cap | $3.0B |
+| 5d / 21d / 63d / 252d | -6.0% / -11.9% / -9.1% / -23.7% |
+| 60d avg daily $ volume | $64.9M |
+| beta (vs IWM) | 0.94 (R²=0.259) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-05-31 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$552.6M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$287.3M', '$323.4M', '$1.0B']
-Enterprise value **$2.7B** · FCFF yield **+20.3%**
+Enterprise value **$2.8B** · FCFF yield **+19.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.2% − 1pt | -20.9% |
-| **10.2% (point)** | **-18.7%** |
-| 10.2% + 1pt | -16.6% |
+| 10.2% − 1pt | -20.3% |
+| **10.2% (point)** | **-18.0%** |
+| 10.2% + 1pt | -15.9% |
 
 
 Naive baseline for comparison: **+8.3%** (5y revenue CAGR +8.3%).
-Gap under that baseline: **+212.3%** (fair value $149.14 vs price $47.75).
+Gap under that baseline: **+204.1%** (fair value $149.49 vs price $49.16).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **96th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +209.8%).
+Cohort: **95th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +202.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -67,8 +66,12 @@ Attack these before you trust any number above.
 - **2026-06-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/exh991kbh-earningsrelease0.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-11** · KB HOME OPENS LAKESIDE BLUFFS: NEW TOWNHOMES FROM THE $490Ks IN LAKE STEVENS, WASHINGTON — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/kb-home-opens-lakeside-bluffs-230000119.html
+  > KB Home (NYSE: KBH), one of the largest and most trusted homebuilders in the U.S., today announced the opening of Lakeside Bluffs, a new community offering personalized townhomes in Lake Stevens, Washington.
+- **2026-09-11** · As Mortgage Rates Hit 7%, Home Builders Flash a Buy Signal — *Barrons.com* — https://www.barrons.com/articles/home-builder-stocks-mortgage-rates-buy-signal-e7adfdee?siteid=yhoof2&yptr=yahoo
+  > Home builder stocks have been battered by rising mortgage rates, but a valuation signal has historically preceded strong returns for the sector.
 - **2026-09-11** · Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-kb-home-130005437.html
   > Recently, Zacks.com users have been paying close attention to KB Home (KBH). This makes it worthwhile to examine what the stock has in store.
 - **2026-09-10** · Housing Market Seeing Renewed Affordability Headwinds, With Fed Hike Prospects Likely to Worsen Situation, RBC Says — *MT Newswires* — https://finance.yahoo.com/real-estate/articles/housing-market-seeing-renewed-affordability-172452714.html
@@ -95,30 +98,30 @@ Attack these before you trust any number above.
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
+- **2026-09-11** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html
+- **2026-09-11** · Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/
+- **2026-09-11** · Sector Update: Consumer Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-174328948.html
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html
 - **2026-09-10** · Sector Update: Consumer Stocks Mixed Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-thursday-173543020.html
 - **2026-09-10** · How Is Yum! Brands' Stock Performance Compared to Other Consumer Cyclical Stocks? — *Barchart* — https://www.barchart.com/story/news/4539055/how-is-yum-brands-stock-performance-compared-to-other-consumer-cyclical-stocks
 - **2026-09-10** · Stock Market News for Sep 10, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html
-- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194554738.html
-- **2026-09-09** · Sector Update: Consumer Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-wednesday-172735663.html
-- **2026-09-09** · Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/
 
 ## Market and macro context
-- **2026-09-11** · Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo
-- **2026-09-11** · BR Stock Rises 16.1% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-16-1-142200100.html
-- **2026-09-11** · What Happens To CAT Stock If Data Center Demand Cools? — *Trefis* — https://www.trefis.com/articles/615059/what-happens-to-cat-stock-if-data-center-demand-cools/2026-09-11
-- **2026-09-11** · Equity risk premium falls to 2002 levels. What it means for stocks — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/equity-risk-premium-falls-2002-140259333.html
+- **2026-09-14** · Dow Jones Futures: Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo
+- **2026-09-14** · AI, Oil, Bond Yield Concerns Damp Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/ai-oil-bond-yield-concerns-111150869.html
+- **2026-09-14** · BofA sees just 2% upside for the S&P 500 over the next 12 months — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/bofa-sees-just-2-upside-105821903.html
+- **2026-09-14** · Stock Market Is 'Overdue' For An Over 10% Correction, Says BofA Ahead Of FOMC Meeting — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/stock-market-is-overdue-for-over-10-correction-says-bofa-ahead-of-fomc-meeting/cZtl6wBRBRm
 
 *Rules, releases and agency actions:*
-- **2026-09-11** · Special Local Regulations; Marine Events Within the Sector Columbia River Captain of the Port Zone, Portland, OR — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone
-- **2026-09-11** · Special Areas; Roadless Area Conservation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18648/special-areas-roadless-area-conservation
-- **2026-09-11** · Allocation and Apportionment of Deductions to Foreign Source Section 951A Category Income and Deduction Eligible Income — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18645/allocation-and-apportionment-of-deductions-to-foreign-source-section-951a-category-income-and
-- **2026-09-11** · Eliminating the Discretionary 60-Day Grace Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period
-- **2026-09-11** · Amendment to the International Traffic in Arms Regulations: Prohibited Exports, Imports, and Sales to or From Certain Countries-Cyprus — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18630/amendment-to-the-international-traffic-in-arms-regulations-prohibited-exports-imports-and-sales-to
-- **2026-09-11** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From New Jersey to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/11/2026-18623/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-new-jersey
+- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
+- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
+- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
+- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
+- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

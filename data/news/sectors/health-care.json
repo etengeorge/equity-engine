@@ -1,5 +1,19 @@
 [
  {
+  "id": "406ba03d-ab3f-3cf1-b48a-3c8864d197bb",
+  "ts": "2026-09-13T21:44:42+00:00",
+  "title": "State Street XLV vs. iShares IXJ: Here's How These Healthcare ETFs Stack Up for Investors",
+  "summary": "XLV's 0.08% expense ratio and 22.7% 1-year return outpace IXJ's global reach, but international diversification comes at a cost.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/etfs/2026/09/13/state-street-xlv-vs-ishares-ixj-here-s-how-these-healthcare-etfs-stack-up-for-investors/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "dcb7e955-db63-328d-b4f6-b05c9438c383",
   "ts": "2026-09-11T13:14:24+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
