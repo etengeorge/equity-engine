@@ -1,0 +1,160 @@
+{
+  "fetched_utc": "2026-09-14T11:29:48+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "SHOE",
+    "cik": 895447,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-09-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526387855/shoe-20260801.htm",
+        "file": "2026-09-10-10-Q-shoe-20260801.htm.txt",
+        "chars": 106579,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526387134/shoe-20260910.htm",
+        "file": "2026-09-10-8-K-shoe-20260910.htm.txt",
+        "chars": 3652,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "5.03,5.07,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526266625/scvl-20260610.htm",
+        "file": "2026-06-11-8-K-scvl-20260610.htm.txt",
+        "chars": 7708,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526258362/scvl-20260502.htm",
+        "file": "2026-06-05-10-Q-scvl-20260502.htm.txt",
+        "chars": 94879,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526233317/scvl-20260521.htm",
+        "file": "2026-05-21-8-K-scvl-20260521.htm.txt",
+        "chars": 3699,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526126279/scvl-20260131.htm",
+        "file": "2026-03-26-10-K-scvl-20260131.htm.txt",
+        "chars": 296319,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-26",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526125001/scvl-20260326.htm",
+        "file": "2026-03-26-8-K-scvl-20260326.htm.txt",
+        "chars": 3667,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-09",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526098464/scvl-20260303.htm",
+        "file": "2026-03-09-8-K-scvl-20260303.htm.txt",
+        "chars": 12098,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526387134/shoe-ex99_1.htm",
+        "file": "2026-09-10-EX-99.1.txt",
+        "chars": 27544,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-11",
+        "items": [
+          "5.03",
+          "5.07",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "5.03",
+          "5.07",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526266625/scvl-ex99_1.htm",
+        "file": "2026-06-11-EX-99.1.txt",
+        "chars": 9560,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-21",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526233317/scvl-ex99_1.htm",
+        "file": "2026-05-21-EX-99.1.txt",
+        "chars": 26727,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-26",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/895447/000119312526125001/scvl-ex99_1.htm",
+        "file": "2026-03-26-EX-99.1.txt",
+        "chars": 25371,
+        "truncated": false
+      }
+    ]
+  }
+}

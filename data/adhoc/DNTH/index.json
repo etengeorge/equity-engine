@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-14T11:30:20+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "DNTH",
+    "cik": 1690585,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000034/dnth-20260630.htm",
+        "file": "2026-08-04-10-Q-dnth-20260630.htm.txt",
+        "chars": 185415,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-20260804.htm",
+        "file": "2026-08-04-8-K-dnth-20260804.htm.txt",
+        "chars": 3565,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-12",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-20260612.htm",
+        "file": "2026-06-12-8-K-dnth-20260612.htm.txt",
+        "chars": 3263,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-22",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000026/dnth-20260521.htm",
+        "file": "2026-05-22-8-K-dnth-20260521.htm.txt",
+        "chars": 4465,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000022/dnth-20260331.htm",
+        "file": "2026-05-05-10-Q-dnth-20260331.htm.txt",
+        "chars": 171774,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-20260505.htm",
+        "file": "2026-05-05-8-K-dnth-20260505.htm.txt",
+        "chars": 3554,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-26",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-20260326.htm",
+        "file": "2026-03-26-8-K-dnth-20260326.htm.txt",
+        "chars": 4178,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-12",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000119312526103053/d43448d8k.htm",
+        "file": "2026-03-12-8-K-d43448d8k.htm.txt",
+        "chars": 6580,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-ex99_1.htm",
+        "file": "2026-08-04-EX-99.1.txt",
+        "chars": 22348,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-12",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-ex99_1.htm",
+        "file": "2026-06-12-EX-99.1.txt",
+        "chars": 89060,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-ex99_1.htm",
+        "file": "2026-05-05-EX-99.1.txt",
+        "chars": 20120,
+        "truncated": false
+      },
+      {
+        "filed": "2026-03-26",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-ex99_1.htm",
+        "file": "2026-03-26-EX-99.1.txt",
+        "chars": 79495,
+        "truncated": false
+      }
+    ]
+  }
+}

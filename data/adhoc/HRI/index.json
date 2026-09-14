@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-14T11:30:06+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "HRI",
+    "cik": 1364479,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-03",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000162828026060440/hri-20260831.htm",
+        "file": "2026-09-03-8-K-hri-20260831.htm.txt",
+        "chars": 4286,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-19",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000112/hri-20260819.htm",
+        "file": "2026-08-19-8-K-hri-20260819.htm.txt",
+        "chars": 3815,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-28",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000109/hri-20260630.htm",
+        "file": "2026-07-28-10-Q-hri-20260630.htm.txt",
+        "chars": 113075,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/hri-20260728.htm",
+        "file": "2026-07-28-8-K-hri-20260728.htm.txt",
+        "chars": 4346,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-20",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000103/hri-20260514.htm",
+        "file": "2026-05-20-8-K-hri-20260514.htm.txt",
+        "chars": 4052,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-28",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000085/hri-20260331.htm",
+        "file": "2026-04-28-10-Q-hri-20260331.htm.txt",
+        "chars": 107817,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000084/hri-20260428.htm",
+        "file": "2026-04-28-8-K-hri-20260428.htm.txt",
+        "chars": 4358,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-17",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000050/hri-20251231.htm",
+        "file": "2026-02-17-10-K-hri-20251231.htm.txt",
+        "chars": 400145,
+        "truncated": true
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-pressrelease.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 29135,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/herc2026q2-earningsprese.htm",
+        "file": "2026-07-28-EX-99.2.txt",
+        "chars": 33819,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000084/herc2026q1-pressrelease.htm",
+        "file": "2026-04-28-EX-99.1.txt",
+        "chars": 25118,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000084/herc2026q1-earningsprese.htm",
+        "file": "2026-04-28-EX-99.2.txt",
+        "chars": 28488,
+        "truncated": false
+      }
+    ]
+  }
+}
