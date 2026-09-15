@@ -1,5 +1,33 @@
 [
  {
+  "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
+  "ts": "2026-09-15T13:23:08+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "ba803707-9fc6-346f-ac4a-6906135bdfad",
+  "ts": "2026-09-15T13:19:22+00:00",
+  "title": "Sector Update: Energy Stocks Advance Pre-Bell Tuesday",
+  "summary": "Energy stocks were advancing pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-131922909.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "7fdc6415-790a-3122-8212-8e60e26c3532",
   "ts": "2026-09-14T20:13:33+00:00",
   "title": "Sector Update: Energy Stocks Fall Monday",

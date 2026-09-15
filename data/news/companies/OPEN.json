@@ -1,5 +1,17 @@
 [
  {
+  "id": "bcbad8b3-b26e-3f1d-947f-03505572f60d",
+  "ts": "2026-09-15T14:31:25+00:00",
+  "title": "Rate Hike Jitters Rattle iBuyer Stocks: Opendoor Falls 4%, Zillow Slides 2% but Offerpad Holds Steady",
+  "summary": "Treasury yields pushing past 5% are separating winners from losers among iBuyer stocks, and the gap between Opendoor, Offerpad, and Zillow reveals something telling about where the housing market may be headed.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/15/rate-hike-jitters-rattle-ibuyer-stocks-opendoor-falls-4-zillow-slides-2-but-offerpad-holds-steady/",
+  "tickers": [
+   "OPEN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5ecbd441-0435-3802-9668-3df3aff5b92a",
   "ts": "2026-09-14T03:03:53+00:00",
   "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",

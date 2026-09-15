@@ -1,78 +1,86 @@
-# BIPC — BROOKFIELD INFRASTRUCTURE CORP CLA
-*Utilities · brief generated 2026-09-15 · selected as **rotation***
+# OUT — OUTFRONT MEDIA
+*Real Estate · brief generated 2026-09-15 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 143/1956
+- rotation position 146/1956
 
 ## Market
 | | |
 |---|---|
-| price | $35.82 |
-| market cap | $1.6B |
-| 5d / 21d / 63d / 252d | -4.1% / -11.0% / -10.3% / -8.1% |
-| 60d avg daily $ volume | $42.0M |
-| beta (vs IWM) | 0.58 (R²=0.167) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2025-12-31 (20-F) |
-| WACC weights | equity 100% / debt 0% |
+| price | $28.75 |
+| market cap | $5.1B |
+| 5d / 21d / 63d / 252d | -0.7% / -2.3% / -7.2% / +60.4% |
+| 60d avg daily $ volume | $54.5M |
+| beta (vs IWM) | 0.85 (R²=0.247) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 68% / debt 32% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$868.2M** (mean of CFO−capex over 1y, plus after-tax interest)
-  annual FCF, newest first: ['$2.0M']
-Enterprise value **$1.2B** · FCFF yield **+73.6%**
+**No defensible free numeric model for this name** (status: not_modelled).
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-| WACC | implied 5y FCFF growth |
-|---|---|
-| 8.2% − 1pt | -49.1% |
-| **8.2% (point)** | **-47.6%** |
-| 8.2% + 1pt | -46.2% |
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=77) | 16.5x | 10.9x / 16.3x / 22.4x | $14.34 / $28.36 / $44.14 |
+| ev_sales (n=91) | 4.1x | 3.2x / 7.6x / 11.1x | $19.89 / $65.32 / $102.22 |
 
-Naive baseline for comparison: **+20.7%** (5y revenue CAGR +20.7%).
-Gap under that baseline: **+1852.2%** (fair value $699.28 vs price $35.82).
+Blended midpoint **$46.84** vs price $28.75 — gap **+62.9%**.
 
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-Cohort: **100th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1908.1%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `share_count_2084d_stale_market_cap_unreliable`
-- `balance_sheet_258d_old_enterprise_value_may_predate_a_financing`
-- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
-- `single_year_base_no_normalization`
-- `extreme_gap_+1852%_treat_as_suspected_data_error`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000043/out-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000035/out-20260805.htm
+- 2026-06-12 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000029/out-20260612.htm
+- 2026-06-03 **8-K** — items 5.02,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000024/out-20260603.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000021/out-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000018/out-20260507.htm
+- 2026-04-21 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000012/out-20260420.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000008/out-20251231.htm
+- 2026-02-25 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000004/out-20260225.htm
+- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1579877/000157987725000121/out-20250930.htm
 
 ## Earnings materials (8-K exhibits)
-*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
+*The press release and presentation as filed. EX-99.2 is usually the deck.*
+
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000035/ex9912q26earningsrelease.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000035/ex992dividendprq226.htm
+- **2026-06-03** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.07, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1579877/000157987726000024/pricingpr.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Utilities
-*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Real Estate
+*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-14** · Xcel Energy Stock: Is XEL Outperforming the Utility Sector? — *Barchart* — https://www.barchart.com/story/news/4590048/xcel-energy-stock-is-xel-outperforming-the-utility-sector
+- **2026-09-14** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html
+- **2026-09-14** · Sector Update: Financial Stocks Retreat Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-monday-174712870.html
+- **2026-09-12** · How Much Does a 61-Year-Old Need Invested to Collect $8,600 a Month for Life? — *24/7 Wall St.* — https://247wallst.com/personal-finance/2026/09/12/how-much-does-a-61-year-old-need-invested-to-collect-8600-a-month-for-life/
+- **2026-09-11** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-200051514.html
+- **2026-09-11** · Sector Update: Financial Stocks Higher Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-175903868.html
+- **2026-09-11** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-173017131.html
 - **2026-09-11** · Market Minute 9-11-26- Yields, Oil,  AI Risk Dominate Market Chatter — *MoneyShow* — https://finance.yahoo.com/markets/articles/market-minute-9-11-26-141500457.html
-- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
-- **2026-09-11** · AVA- A Cheap Utility Stock with an Attractive Yield — *MoneyShow* — https://finance.yahoo.com/markets/stocks/articles/ava-cheap-utility-stock-attractive-050100161.html
-- **2026-09-10** · Stock Market News for Sep 10, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html
-- **2026-09-09** · Worried About Lingering Market Volatility? Defensive ETFs to Consider — *Zacks* — https://finance.yahoo.com/markets/options/articles/worried-lingering-market-volatility-defensive-150900181.html
-- **2026-09-08** · 3 ETFs Ready for the High-Yield Dividend Stress Test — *Barrons.com* — https://www.barrons.com/articles/high-yield-dividend-stocks-bonds-42a83a12?siteid=yhoof2&yptr=yahoo
-- **2026-09-07** · XLU’s AI Power Story Crumbles as Texas Freezes Data-Center Demand — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/xlus-ai-power-story-crumbles-as-texas-freezes-data-center-demand/
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
-- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
+- **2026-09-10** · Sector Update: Financial Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-200325851.html
+- **2026-09-10** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-194145743.html
+- **2026-09-10** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175400311.html
 
 ## Market and macro context
-- **2026-09-15** · Rising Bond Yields, Oil Prices Depress Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-110715570.html
-- **2026-09-15** · Energous Shares Rise 1.4% as Analyst Consensus Price Target Stands at $26.52 — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36284/energous-shares-rise-1-4-as-analyst-consensus-price-target-stands-at-26-52
-- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
-- **2026-09-15** · A Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — *Barrons.com* — https://www.barrons.com/articles/fed-rate-hike-stocks-e7b1cda5?siteid=yhoof2&yptr=yahoo
+- **2026-09-15** · TD Synnex Earnings Seen Reigniting Momentum as Hyve Growth Accelerates, Morgan Stanley Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html
+- **2026-09-15** · Bitcoin Sinks as the Senate's Clarity Act Showdown Looms — *decrypt* — https://decrypt.co/378233/bitcoin-sinks-senate-clarity-act-showdown
+- **2026-09-15** · Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo
+- **2026-09-15** · 3 Reasons Investors Love Nicolet Bankshares (NIC) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-nicolet-143931296.html
 
 *Rules, releases and agency actions:*
 - **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
@@ -85,9 +93,11 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Utilities
-- BKH: no_model · price $74.19
-- ORA: no_model · price $104.19
+## Prior verdicts elsewhere in Real Estate
+- COMP: no_model · price $10.56
+- CTRE: no_model · price $39.03
+- EPRT: no_model · price $29.97
+- RHP: no_model · price $129.33
 
 ---
 

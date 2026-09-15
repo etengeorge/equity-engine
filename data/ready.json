@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-15T11:21:45+00:00",
+  "screen_utc": "2026-09-15T15:12:16+00:00",
   "price_asof": "2026-09-14",
   "universe": 1956,
   "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-15T11:21:49+00:00",
+    "generated_utc": "2026-09-15T15:12:17+00:00",
     "sectors": {
       "Health Care": {
         "new": 2,
-        "held": 45,
+        "held": 47,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 3,
-        "held": 62,
+        "new": 2,
+        "held": 64,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 27,
+        "new": 1,
+        "held": 28,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 3,
-        "held": 58,
+        "new": 2,
+        "held": 60,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 2,
-        "held": 46,
+        "held": 48,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 4,
-        "held": 76,
+        "new": 2,
+        "held": 78,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 38,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 1,
+        "new": 0,
         "held": 21,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 4,
-        "held": 43,
+        "new": 1,
+        "held": 44,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 3,
-        "held": 24,
+        "new": 1,
+        "held": 25,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 814,
+    "articles_new": 273,
     "candidates": 450,
-    "elapsed_s": 195.1
+    "elapsed_s": 204.9
   },
   "picks": [
-    "UFPI",
-    "WHD",
-    "HAE",
-    "BIPC",
-    "SR",
-    "BOX",
-    "BUR",
-    "ASO",
-    "MCFT",
-    "PATK"
+    "OUT",
+    "LAUR",
+    "BOOT",
+    "LQDA",
+    "MTH",
+    "RUSHA",
+    "JBI",
+    "DBI",
+    "NEWT",
+    "TNET"
   ],
   "stages": {
-    "screen": "2026-09-15T11:25:22+00:00",
-    "news": "2026-09-15T11:25:04+00:00",
-    "pick": "2026-09-15T11:25:22+00:00"
+    "screen": "2026-09-15T15:16:04+00:00",
+    "news": "2026-09-15T15:15:43+00:00",
+    "pick": "2026-09-15T15:16:04+00:00"
   }
 }

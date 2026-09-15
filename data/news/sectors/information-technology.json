@@ -1,5 +1,33 @@
 [
  {
+  "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
+  "ts": "2026-09-15T13:23:08+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "255a9b2c-0bea-3ed0-a174-618e93c569c0",
+  "ts": "2026-09-15T13:14:00+00:00",
+  "title": "Stock Market News for Sep 15, 2026",
+  "summary": "Wall Street closed lower on Monday, dragged down by tech and industrial stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-15-131400808.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "77e8fcda-4ed1-3b20-8278-88b59782e8a3",
   "ts": "2026-09-14T20:00:07+00:00",
   "title": "Sector Update: Tech Stocks Fall Late Afternoon",

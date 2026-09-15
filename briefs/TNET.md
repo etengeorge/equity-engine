@@ -1,71 +1,104 @@
-# UFPI — UFP INDUSTRIES
-*Industrials · brief generated 2026-09-15 · selected as **rotation***
+# TNET — TRINET GROUPINARY
+*Industrials · brief generated 2026-09-15 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 140/1956
+- cheapest 7% of 151 Industrials peers (93th pct)
+- baseline gap +134%
+- discounted: stock comp is 21% of reported FCFF
+- filed an 8-K in the last few sessions
+- 1 news items in the last 5 days
+- Industrials is in the news
+- never researched
+- urgency score 7.74
 
 ## Market
 | | |
 |---|---|
-| price | $81.03 |
-| market cap | $4.5B |
-| 5d / 21d / 63d / 252d | -4.0% / -10.8% / -3.8% / -19.6% |
-| 60d avg daily $ volume | $39.6M |
-| beta (vs IWM) | 0.91 (R²=0.35) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-27 (10-Q) |
-| WACC weights | equity 95% / debt 5% |
+| price | $68.71 |
+| market cap | $3.2B |
+| 5d / 21d / 63d / 252d | -0.5% / -2.0% / +45.9% / -1.8% |
+| 60d avg daily $ volume | $23.7M |
+| beta (vs IWM) | 0.85 (R²=0.141) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 78% / debt 22% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$498.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$276.4M', '$410.3M', '$779.5M']
-Enterprise value **$4.1B** · FCFF yield **+12.2%**
+Normalized FCFF base **$310.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$234.0M', '$201.0M', '$470.0M']
+Enterprise value **$3.7B** · FCFF yield **+8.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.7% − 1pt | -11.7% |
-| **9.7% (point)** | **-9.0%** |
-| 9.7% + 1pt | -6.4% |
+| 8.5% − 1pt | -7.8% |
+| **8.5% (point)** | **-4.3%** |
+| 8.5% + 1pt | -1.2% |
 
 
-Naive baseline for comparison: **+4.2%** (5y revenue CAGR +4.2%).
-Gap under that baseline: **+70.9%** (fair value $138.52 vs price $81.03).
+> **Stock compensation is 21% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$247.7M** and an implied growth of **+0.7%** instead of -4.3%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+13.5%** (5y revenue CAGR +13.5%).
+Gap under that baseline: **+134.1%** (fair value $160.86 vs price $68.71).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **80th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +92.7%).
+Cohort: **93th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +156.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.35x_oldest_growth_applied_to_a_trough_understates_value`
+- `possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value`
+- `stock_comp_is_21%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm
-- 2026-07-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730x8k.htm
-- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729x8k.htm
-- 2026-07-22 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000039/ufpi-20260722x8k.htm
-- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000035/ufpi-20260529x8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm
-- 2026-05-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000028/ufpi-20260504x8k.htm
-- 2026-04-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000026/ufpi-20260430x8k.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000023/ufpi-20260429x8k.htm
-- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000019/ufpi-20260428x8k.htm
+- 2026-09-14 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/tnet-20260911.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-20260730.htm
+- 2026-06-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/tnet-20260617.htm
+- 2026-05-27 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000038/tnet-20260527.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000034/tnet-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000031/tnet-20260430.htm
+- 2026-04-15 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000018/tnet-20260413.htm
+- 2026-03-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000013/tnet-20260319.htm
+- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000010/tnet-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730xex99d1.htm
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm
+- **2026-09-14** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm
+- **2026-06-17** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/exhibit991q22026dividend.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-14** · TriNet Announces Quarterly Dividend — *PR Newswire* — https://finance.yahoo.com/small-business/articles/trinet-announces-quarterly-dividend-203000021.html
+  > TriNet (NYSE: TNET), a leading provider of comprehensive human resources solutions for small and medium-size businesses (SMBs), today announced that, on September 11, 2026, its Board of Directors approved a dividend of $0.29 per share of th
+- **2026-09-03** · 3 Outsourcing Stocks to Consider Despite Industry Challenges — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-outsourcing-stocks-consider-despite-172500186.html
+  > Next-gen technology and specialized skills are transforming outsourcing, increasing the demand for digital services while stripping away labor intensity and affecting traditional staffing-based models. TNET, AHEXY and CGEMY are three stocks
+- **2026-09-02** · Do Options Traders Know Something About TriNet Stock We Don't? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-traders-know-something-trinet-125000949.html
+  > Investors need to pay close attention to TNET stock based on the movements in the options market lately.
+- **2026-08-11** · Curreen Capital: TriNet (TNET) is a “Crazy-Cheap” Turnaround — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/curreen-capital-trinet-tnet-crazy-124814202.html
+  > Investment management company Curreen Capital released its second-quarter 2026 Investor letter. A copy of the letter can be downloaded here. In the second quarter, the fund returned 22.26% compared to 15.20% for the S&P 500 Index. The perfo
+- **2026-08-08** · TriNet (TNET) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/07/trinet-tnet-q2-2026-earnings-call-transcript/
+  > Attrition improved 36% as repricing efforts stabilized worksite employee volumes.
+- **2026-08-03** · TriNet Group (TNET) Is Up 6.6% After Raising 2026 Earnings Guidance Despite Lower Revenue – Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-group-tnet-6-6-010910355.html
+  > In the past quarter, TriNet Group, Inc. reported second-quarter 2026 revenue of US$1,178 million versus US$1,238 million a year earlier, while net income increased to US$53 million from US$37 million, lifting diluted earnings per share from
+- **2026-08-02** · TriNet (TNET) Stock Looks Overvalued Following Its 34% Three Year Fall — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-tnet-stock-looks-overvalued-231121181.html
+  > TriNet Group stock has rebounded in the short term, yet the longer track record and current valuation checks paint a more cautious picture. After a recent run, the shares now screen as expensive on earnings multiples, while the broader valu
+- **2026-08-02** · Is TriNet Group (TNET) Overvalued As Higher Profit And Raised 2026 Outlook Lift Interest? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-group-tnet-overvalued-higher-130948692.html
+  > TriNet Group (TNET) drew fresh investor focus after reporting second quarter 2026 results with lower revenue but higher net income, along with a higher earnings outlook for the full year. See our latest analysis for TriNet Group. The earnin
+- **2026-08-01** · TriNet Group Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/trinet-group-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > TriNet Group (NYSE:TNET) reported second-quarter results that reflected improved insurance performance, stronger customer retention and continued investment in sales and service initiatives, prompting the company to raise its full-year earn
+- **2026-07-31** · TriNet Group, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-trinet-group-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of TriNet Group, Inc.'s Q2 2026 earnings call
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
@@ -75,13 +108,12 @@ Attack these before you trust any number above.
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 - **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
-- **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 
 ## Market and macro context
-- **2026-09-15** · Rising Bond Yields, Oil Prices Depress Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-110715570.html
-- **2026-09-15** · Energous Shares Rise 1.4% as Analyst Consensus Price Target Stands at $26.52 — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36284/energous-shares-rise-1-4-as-analyst-consensus-price-target-stands-at-26-52
-- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
-- **2026-09-15** · A Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — *Barrons.com* — https://www.barrons.com/articles/fed-rate-hike-stocks-e7b1cda5?siteid=yhoof2&yptr=yahoo
+- **2026-09-15** · TD Synnex Earnings Seen Reigniting Momentum as Hyve Growth Accelerates, Morgan Stanley Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html
+- **2026-09-15** · Bitcoin Sinks as the Senate's Clarity Act Showdown Looms — *decrypt* — https://decrypt.co/378233/bitcoin-sinks-senate-clarity-act-showdown
+- **2026-09-15** · Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo
+- **2026-09-15** · 3 Reasons Investors Love Nicolet Bankshares (NIC) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-nicolet-143931296.html
 
 *Rules, releases and agency actions:*
 - **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
@@ -106,7 +138,7 @@ Attack these before you trust any number above.
 - MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
 - NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
 - TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
-- VSEC: no_model · price $203.91
+- UFPI: no_edge · price $81.03 · fair value $84.07 · gap +3.7%
 
 ---
 

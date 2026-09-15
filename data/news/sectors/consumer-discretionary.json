@@ -1,5 +1,33 @@
 [
  {
+  "id": "f466b6a4-b3b5-356a-8754-1a19cd5f2f25",
+  "ts": "2026-09-15T14:18:00+00:00",
+  "title": "Fed Set to Hike Rate: Are Consumer Discretionary ETFs in the Line of Fire?",
+  "summary": "Fed rate-hike bets and rising borrowing costs put consumer discretionary ETFs under pressure, but select funds may offer resilience.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/economy/policy/articles/fed-set-hike-rate-consumer-141800725.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
+  "ts": "2026-09-15T13:23:08+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "6ef34551-6549-3ec0-a948-f6e3ca16a7e1",
   "ts": "2026-09-14T19:50:35+00:00",
   "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",

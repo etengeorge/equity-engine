@@ -1,5 +1,19 @@
 [
  {
+  "id": "255a9b2c-0bea-3ed0-a174-618e93c569c0",
+  "ts": "2026-09-15T13:14:00+00:00",
+  "title": "Stock Market News for Sep 15, 2026",
+  "summary": "Wall Street closed lower on Monday, dragged down by tech and industrial stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-15-131400808.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "bcfd522d-7531-3107-895f-0fd5c4a945e6",
   "ts": "2026-09-14T13:37:54+00:00",
   "title": "Xcel Energy Stock: Is XEL Outperforming the Utility Sector?",
