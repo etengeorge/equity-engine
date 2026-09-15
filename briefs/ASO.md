@@ -1,49 +1,51 @@
 # ASO — ACADEMY SPORTS AND OUTDOORS
-*Consumer Discretionary · brief generated 2026-09-14 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-09-15 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +0%
-- 5d move +27%
-- 21d move +12%
-- volume 2.1x its 60d average
+- baseline gap +2%
+- 5d move +21%
+- 21d move +11%
+- volume 2.3x its 60d average
 - filed an 8-K in the last few sessions
 - 14 news items in the last 5 days
 - Consumer Discretionary is in the news
+- Consumer Discretionary sector selloff (median -4.6%)
+- moved harder than its sector
 - never researched
-- urgency score 7.19
+- urgency score 9.37
 
 ## Market
 | | |
 |---|---|
-| price | $55.36 |
+| price | $54.25 |
 | market cap | $3.4B |
-| 5d / 21d / 63d / 252d | +26.7% / +12.4% / +6.1% / +16.1% |
-| 60d avg daily $ volume | $81.1M |
-| beta (vs IWM) | 0.92 (R²=0.172) |
-| 5d volume vs 60d average | 2.1x |
+| 5d / 21d / 63d / 252d | +20.7% / +10.9% / +6.7% / +13.9% |
+| 60d avg daily $ volume | $82.0M |
+| beta (vs IWM) | 0.92 (R²=0.173) |
+| 5d volume vs 60d average | 2.3x |
 | balance sheet as of | 2026-05-02 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| WACC weights | equity 87% / debt 13% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$265.7M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$222.1M', '$328.5M', '$328.0M']
-Enterprise value **$3.6B** · FCFF yield **+7.4%**
+Enterprise value **$3.5B** · FCFF yield **+7.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.3% − 1pt | -2.2% |
-| **9.3% (point)** | **+1.1%** |
-| 9.3% + 1pt | +4.2% |
+| 9.3% − 1pt | -2.6% |
+| **9.3% (point)** | **+0.7%** |
+| 9.3% + 1pt | +3.7% |
 
 
 Naive baseline for comparison: **+1.2%** (5y revenue CAGR +1.2%).
-Gap under that baseline: **+0.5%** (fair value $55.63 vs price $55.36).
+Gap under that baseline: **+2.4%** (fair value $55.57 vs price $54.25).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **47th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -1.0%).
+Cohort: **50th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +0.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -105,6 +107,8 @@ Attack these before you trust any number above.
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
+- **2026-09-14** · Sector Update: Consumer Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html
 - **2026-09-14** · Stock Market News for Sep 14, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
@@ -113,22 +117,20 @@ Attack these before you trust any number above.
 - **2026-09-11** · Sector Update: Consumer Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-174328948.html
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-11** · Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/
-- **2026-09-10** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html
-- **2026-09-10** · Sector Update: Consumer Stocks Mixed Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-thursday-173543020.html
 
 ## Market and macro context
-- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
-- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
-- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
-- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
+- **2026-09-15** · Rising Bond Yields, Oil Prices Depress Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-110715570.html
+- **2026-09-15** · Energous Shares Rise 1.4% as Analyst Consensus Price Target Stands at $26.52 — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36284/energous-shares-rise-1-4-as-analyst-consensus-price-target-stands-at-26-52
+- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
+- **2026-09-15** · A Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — *Barrons.com* — https://www.barrons.com/articles/fed-rate-hike-stocks-e7b1cda5?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
-- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
-- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
-- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
-- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
+- **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
+- **2026-09-15** · Promoting Employee Accountability — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18943/promoting-employee-accountability
+- **2026-09-15** · Airworthiness Directives; MD Helicopters, LLC Helicopters — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters
+- **2026-09-15** · Pacific Halibut Fisheries of the West Coast; Inseason Action for the 2026 Area 2A Pacific Halibut Directed Commercial Fishery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18911/pacific-halibut-fisheries-of-the-west-coast-inseason-action-for-the-2026-area-2a-pacific-halibut
+- **2026-09-15** · Amendment of Class D and Class E Airspace Over Hyannis, MA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18902/amendment-of-class-d-and-class-e-airspace-over-hyannis-ma
+- **2026-09-15** · Amendment of Class E Airspace Over Pittsfield, ME — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18899/amendment-of-class-e-airspace-over-pittsfield-me
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

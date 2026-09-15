@@ -1,90 +1,90 @@
 {
-  "screen_utc": "2026-09-14T16:29:50+00:00",
-  "price_asof": "2026-09-11",
+  "screen_utc": "2026-09-15T11:21:45+00:00",
+  "price_asof": "2026-09-14",
   "universe": 1956,
-  "modelled": 1078,
+  "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-14T16:29:50+00:00",
+    "generated_utc": "2026-09-15T11:21:49+00:00",
     "sectors": {
       "Health Care": {
         "new": 2,
-        "held": 43,
+        "held": 45,
         "etf": "XLV"
       },
       "Financials": {
         "new": 3,
-        "held": 59,
+        "held": 62,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 2,
+        "new": 0,
         "held": 27,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 2,
-        "held": 55,
+        "new": 3,
+        "held": 58,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 2,
-        "held": 44,
+        "held": 46,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 72,
+        "new": 4,
+        "held": 76,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 35,
+        "new": 3,
+        "held": 38,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 1,
+        "new": 0,
         "held": 17,
         "etf": "XLB"
       },
       "Communication": {
         "new": 1,
-        "held": 20,
+        "held": 21,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 39,
+        "new": 4,
+        "held": 43,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 21,
+        "new": 3,
+        "held": 24,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 274,
+    "articles_new": 814,
     "candidates": 450,
-    "elapsed_s": 206.1
+    "elapsed_s": 195.1
   },
   "picks": [
-    "MRCY",
-    "MTRN",
-    "MUR",
-    "VAL",
-    "PI",
-    "GLNG",
+    "UFPI",
+    "WHD",
+    "HAE",
+    "BIPC",
+    "SR",
+    "BOX",
+    "BUR",
     "ASO",
-    "RES",
-    "EMBC",
-    "JBI"
+    "MCFT",
+    "PATK"
   ],
   "stages": {
-    "screen": "2026-09-14T16:33:35+00:00",
-    "news": "2026-09-14T16:33:17+00:00",
-    "pick": "2026-09-14T16:33:35+00:00"
+    "screen": "2026-09-15T11:25:22+00:00",
+    "news": "2026-09-15T11:25:04+00:00",
+    "pick": "2026-09-15T11:25:22+00:00"
   }
 }

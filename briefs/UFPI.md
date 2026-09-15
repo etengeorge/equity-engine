@@ -1,70 +1,64 @@
-# JBI — JANUS INTERNATIONAL GROUP
-*Industrials · brief generated 2026-09-14 · selected as **opportunistic***
+# UFPI — UFP INDUSTRIES
+*Industrials · brief generated 2026-09-15 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 151 Industrials peers (98th pct)
-- baseline gap +227%
-- 5d move -8%
-- Industrials is in the news
-- never researched
-- urgency score 6.81
+- rotation position 140/1956
 
 ## Market
 | | |
 |---|---|
-| price | $4.59 |
-| market cap | $626.2M |
-| 5d / 21d / 63d / 252d | -8.4% / -5.7% / -13.2% / -54.4% |
-| 60d avg daily $ volume | $8.5M |
-| beta (vs IWM) | 1.28 (R²=0.247) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-07-04 (10-Q) |
-| WACC weights | equity 53% / debt 47% |
+| price | $81.03 |
+| market cap | $4.5B |
+| 5d / 21d / 63d / 252d | -4.0% / -10.8% / -3.8% / -19.6% |
+| 60d avg daily $ volume | $39.6M |
+| beta (vs IWM) | 0.91 (R²=0.35) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-27 (10-Q) |
+| WACC weights | equity 95% / debt 5% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$193.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$114.0M', '$133.9M', '$196.0M']
-Enterprise value **$1.0B** · FCFF yield **+18.5%**
+Normalized FCFF base **$498.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$276.4M', '$410.3M', '$779.5M']
+Enterprise value **$4.1B** · FCFF yield **+12.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.8% − 1pt | -17.7% |
-| **10.8% (point)** | **-15.5%** |
-| 10.8% + 1pt | -13.4% |
+| 9.7% − 1pt | -11.7% |
+| **9.7% (point)** | **-9.0%** |
+| 9.7% + 1pt | -6.4% |
 
 
-Naive baseline for comparison: **+4.2%** (4y revenue CAGR +4.2%).
-Gap under that baseline: **+226.7%** (fair value $15.00 vs price $4.59).
+Naive baseline for comparison: **+4.2%** (5y revenue CAGR +4.2%).
+Gap under that baseline: **+70.9%** (fair value $138.52 vs price $81.03).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +249.7%).
+Cohort: **80th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +92.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.58x_oldest_growth_applied_to_a_trough_understates_value`
+- `possible_trough_cycle_base_newest_fcf_0.35x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm
-- 2026-08-11 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbi-20260811.htm
-- 2026-06-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926074100/tm2617994d1_8k.htm
-- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000012/jbi-20260404.htm
-- 2026-05-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/jbi-20260512.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1839839/000114036126016709/ny20065931x1_def14a.htm
-- 2026-03-05 **8-K** — items 5.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926023805/tm268034d1_8k.htm
-- 2026-03-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000006/jbi-20260103.htm
-- 2026-03-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000005/jbi-20260304.htm
-- 2026-02-02 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926009226/tm264605d1_8k.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm
+- 2026-07-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730x8k.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729x8k.htm
+- 2026-07-22 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000039/ufpi-20260722x8k.htm
+- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000035/ufpi-20260529x8k.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm
+- 2026-05-04 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000028/ufpi-20260504x8k.htm
+- 2026-04-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000026/ufpi-20260430x8k.htm
+- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000023/ufpi-20260429x8k.htm
+- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912767/000091276726000019/ufpi-20260428x8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm
-- **2026-08-11** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/earningspresentationq220.htm
-- **2026-08-11** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbiinvestorpresentationa.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730xex99d1.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -84,18 +78,18 @@ Attack these before you trust any number above.
 - **2026-09-04** · Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html
 
 ## Market and macro context
-- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
-- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
-- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
-- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
+- **2026-09-15** · Rising Bond Yields, Oil Prices Depress Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-110715570.html
+- **2026-09-15** · Energous Shares Rise 1.4% as Analyst Consensus Price Target Stands at $26.52 — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36284/energous-shares-rise-1-4-as-analyst-consensus-price-target-stands-at-26-52
+- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
+- **2026-09-15** · A Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — *Barrons.com* — https://www.barrons.com/articles/fed-rate-hike-stocks-e7b1cda5?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
-- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
-- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
-- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
-- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
+- **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
+- **2026-09-15** · Promoting Employee Accountability — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18943/promoting-employee-accountability
+- **2026-09-15** · Airworthiness Directives; MD Helicopters, LLC Helicopters — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters
+- **2026-09-15** · Pacific Halibut Fisheries of the West Coast; Inseason Action for the 2026 Area 2A Pacific Halibut Directed Commercial Fishery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18911/pacific-halibut-fisheries-of-the-west-coast-inseason-action-for-the-2026-area-2a-pacific-halibut
+- **2026-09-15** · Amendment of Class D and Class E Airspace Over Hyannis, MA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18902/amendment-of-class-d-and-class-e-airspace-over-hyannis-ma
+- **2026-09-15** · Amendment of Class E Airspace Over Pittsfield, ME — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18899/amendment-of-class-e-airspace-over-pittsfield-me
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

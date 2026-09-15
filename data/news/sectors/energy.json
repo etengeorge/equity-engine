@@ -1,5 +1,61 @@
 [
  {
+  "id": "7fdc6415-790a-3122-8212-8e60e26c3532",
+  "ts": "2026-09-14T20:13:33+00:00",
+  "title": "Sector Update: Energy Stocks Fall Monday",
+  "summary": "Energy stocks fell Monday with the NYSE Energy Sector Index dropping 1% and the State Street Energy",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-monday-201333930.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "daba5cb3-3e8d-324d-ba55-70694f4371d5",
+  "ts": "2026-09-14T18:02:28+00:00",
+  "title": "Sector Update: Energy Stocks Decline Monday Afternoon",
+  "summary": "Energy stocks were lower Monday afternoon, with the NYSE Energy Sector Index decreasing 0.5% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-180228525.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "8d22a2c2-a8d4-319f-bdc1-c53512ff58b5",
+  "ts": "2026-09-14T17:29:19+00:00",
+  "title": "Sector Update: Energy",
+  "summary": "Energy stocks were lower Monday afternoon, with the NYSE Energy Sector Index decreasing 0.5% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-172919373.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "2e56a049-2146-33d0-be46-f70bc83b6eaf",
+  "ts": "2026-09-14T17:12:15+00:00",
+  "title": "Exchange-Traded Funds Mixed as US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were mixed, with the latter in the red. Actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171215479.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "9a0f4a8a-9216-3562-804e-4ad1941d674e",
   "ts": "2026-09-14T13:29:12+00:00",
   "title": "Sector Update: Energy Stocks Advance Premarket Monday",

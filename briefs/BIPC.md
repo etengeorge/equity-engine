@@ -1,47 +1,50 @@
-# GLNG — GOLAR LNG
-*Energy · brief generated 2026-09-14 · selected as **rotation***
+# BIPC — BROOKFIELD INFRASTRUCTURE CORP CLA
+*Utilities · brief generated 2026-09-15 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 139/1956
+- rotation position 143/1956
 
 ## Market
 | | |
 |---|---|
-| price | $52.89 |
-| market cap | $5.4B |
-| 5d / 21d / 63d / 252d | +1.7% / +4.1% / +5.1% / +29.6% |
-| 60d avg daily $ volume | $62.2M |
-| beta (vs IWM) | 0.65 (R²=0.094) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (6-K) |
-| WACC weights | equity 67% / debt 33% |
+| price | $35.82 |
+| market cap | $1.6B |
+| 5d / 21d / 63d / 252d | -4.1% / -11.0% / -10.3% / -8.1% |
+| 60d avg daily $ volume | $42.0M |
+| beta (vs IWM) | 0.58 (R²=0.167) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2025-12-31 (20-F) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$253.9M** (mean of CFO−capex over 1y, plus after-tax interest)
-  annual FCF, newest first: ['$253.9M']
-Enterprise value **$7.4B** · FCFF yield **+3.4%**
+Normalized FCFF base **$868.2M** (mean of CFO−capex over 1y, plus after-tax interest)
+  annual FCF, newest first: ['$2.0M']
+Enterprise value **$1.2B** · FCFF yield **+73.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.1% − 1pt | +5.7% |
-| **7.1% (point)** | **+10.9%** |
-| 7.1% + 1pt | +15.4% |
+| 8.2% − 1pt | -49.1% |
+| **8.2% (point)** | **-47.6%** |
+| 8.2% + 1pt | -46.2% |
 
 
-Naive baseline for comparison: **-2.1%** (5y revenue CAGR -2.1%).
-Gap under that baseline: **-60.1%** (fair value $21.10 vs price $52.89).
+Naive baseline for comparison: **+20.7%** (5y revenue CAGR +20.7%).
+Gap under that baseline: **+1852.2%** (fair value $699.28 vs price $35.82).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **14th percentile** of 50 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -81.1%).
+Cohort: **100th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1908.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `share_count_2084d_stale_market_cap_unreliable`
+- `balance_sheet_258d_old_enterprise_value_may_predate_a_financing`
+- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
 - `single_year_base_no_normalization`
-- `zero_capex_reported_fcff_likely_overstated`
+- `extreme_gap_+1852%_treat_as_suspected_data_error`
 
 ## Recent filings
 
@@ -51,49 +54,40 @@ Attack these before you trust any number above.
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Energy
-*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Utilities
+*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-14** · Sector Update: Energy Stocks Advance Premarket Monday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132912222.html
-- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
-- **2026-09-11** · Sector Update: Energy Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-194920218.html
-- **2026-09-11** · Sector Update: Energy — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-192529392.html
-- **2026-09-11** · Sector Update: Energy Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-friday-180102714.html
-- **2026-09-11** · Exchange-Traded Funds, US Equities Rise After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171329001.html
-- **2026-09-11** · Sector Update: Energy Stocks Decline Premarket Friday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132850294.html
-- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
-- **2026-09-11** · Midterm Takes Center Stage: What Does It Mean for Markets & ETFs? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/midterm-takes-center-stage-does-120000598.html
-- **2026-09-10** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195829985.html
+- **2026-09-14** · Xcel Energy Stock: Is XEL Outperforming the Utility Sector? — *Barchart* — https://www.barchart.com/story/news/4590048/xcel-energy-stock-is-xel-outperforming-the-utility-sector
+- **2026-09-11** · Market Minute 9-11-26- Yields, Oil,  AI Risk Dominate Market Chatter — *MoneyShow* — https://finance.yahoo.com/markets/articles/market-minute-9-11-26-141500457.html
+- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
+- **2026-09-11** · AVA- A Cheap Utility Stock with an Attractive Yield — *MoneyShow* — https://finance.yahoo.com/markets/stocks/articles/ava-cheap-utility-stock-attractive-050100161.html
+- **2026-09-10** · Stock Market News for Sep 10, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html
+- **2026-09-09** · Worried About Lingering Market Volatility? Defensive ETFs to Consider — *Zacks* — https://finance.yahoo.com/markets/options/articles/worried-lingering-market-volatility-defensive-150900181.html
+- **2026-09-08** · 3 ETFs Ready for the High-Yield Dividend Stress Test — *Barrons.com* — https://www.barrons.com/articles/high-yield-dividend-stocks-bonds-42a83a12?siteid=yhoof2&yptr=yahoo
+- **2026-09-07** · XLU’s AI Power Story Crumbles as Texas Freezes Data-Center Demand — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/07/xlus-ai-power-story-crumbles-as-texas-freezes-data-center-demand/
+- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
+- **2026-09-02** · Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-utilities-select-102002583.html
 
 ## Market and macro context
-- **2026-09-14** · The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/14/sp-500-flashing-a-rare-historical-warning-signal/
-- **2026-09-14** · Reasons Why You Should Hold Docusign Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/reasons-why-hold-docusign-stock-161600549.html
-- **2026-09-14** · 3 S&P 500 Stocks to Research Further — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-research-161130191.html
-- **2026-09-14** · Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH — *decrypt* — https://decrypt.co/378132/bitmine-adds-68-million-ethereum
+- **2026-09-15** · Rising Bond Yields, Oil Prices Depress Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-110715570.html
+- **2026-09-15** · Energous Shares Rise 1.4% as Analyst Consensus Price Target Stands at $26.52 — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36284/energous-shares-rise-1-4-as-analyst-consensus-price-target-stands-at-26-52
+- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
+- **2026-09-15** · A Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — *Barrons.com* — https://www.barrons.com/articles/fed-rate-hike-stocks-e7b1cda5?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-14** · Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18799/use-of-certain-restricted-category-aircraft-for-the-transport-of-firefighters-for-wildfire
-- **2026-09-14** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18796/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-14** · Promoting Fair and Open Competitive Bidding in the E-Rate Program; Schools and Libraries Universal Service Support Mechanism — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18780/promoting-fair-and-open-competitive-bidding-in-the-e-rate-program-schools-and-libraries-universal
-- **2026-09-14** · Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026
-- **2026-09-14** · Sport Pilot Practical Test Standards Alignment — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment
-- **2026-09-14** · Expanded Examination Cycle for Certain Small Insured Depository Institutions and U.S. Branches and Agencies of Foreign Banks — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/14/2026-18766/expanded-examination-cycle-for-certain-small-insured-depository-institutions-and-us-branches-and
+- **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
+- **2026-09-15** · Promoting Employee Accountability — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18943/promoting-employee-accountability
+- **2026-09-15** · Airworthiness Directives; MD Helicopters, LLC Helicopters — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters
+- **2026-09-15** · Pacific Halibut Fisheries of the West Coast; Inseason Action for the 2026 Area 2A Pacific Halibut Directed Commercial Fishery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18911/pacific-halibut-fisheries-of-the-west-coast-inseason-action-for-the-2026-area-2a-pacific-halibut
+- **2026-09-15** · Amendment of Class D and Class E Airspace Over Hyannis, MA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18902/amendment-of-class-d-and-class-e-airspace-over-hyannis-ma
+- **2026-09-15** · Amendment of Class E Airspace Over Pittsfield, ME — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18899/amendment-of-class-e-airspace-over-pittsfield-me
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Energy
-- AROC: no_edge · price $32.96 · fair value $34.64 · gap +5.1%
-- CNX: no_edge · price $35.91 · fair value $53.11 · gap +47.9%
-- LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
-- MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
-- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
-- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
-- RIG: no_model · price $5.76
-- SM: no_edge · price $37.76 · fair value $51.19 · gap +35.6%
-- SND: no_edge · price $5.35
-- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
-- UEC: no_model · price $11.54
+## Prior verdicts elsewhere in Utilities
+- BKH: no_model · price $74.19
+- ORA: no_model · price $104.19
 
 ---
 

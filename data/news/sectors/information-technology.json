@@ -1,5 +1,47 @@
 [
  {
+  "id": "77e8fcda-4ed1-3b20-8278-88b59782e8a3",
+  "ts": "2026-09-14T20:00:07+00:00",
+  "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+  "summary": "Tech stocks were lower late Monday afternoon, with the State Street Technology Select Sector SPDR ET",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-fall-afternoon-200007387.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "67284fb9-08d0-3cb7-ba97-2d6290ba039e",
+  "ts": "2026-09-14T17:33:55+00:00",
+  "title": "Sector Update: Tech Stocks Fall Monday Afternoon",
+  "summary": "Tech stocks were lower Monday afternoon, with the State Street Technology Select Sector SPDR ETF (XL",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-fall-monday-173355942.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "2e56a049-2146-33d0-be46-f70bc83b6eaf",
+  "ts": "2026-09-14T17:12:15+00:00",
+  "title": "Exchange-Traded Funds Mixed as US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were mixed, with the latter in the red. Actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171215479.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "559cce28-4477-326d-824d-ab542317d8d0",
   "ts": "2026-09-14T13:28:00+00:00",
   "title": "Stock Market News for Sep 14, 2026",

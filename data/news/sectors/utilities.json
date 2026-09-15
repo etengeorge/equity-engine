@@ -1,11 +1,53 @@
 [
  {
+  "id": "bcfd522d-7531-3107-895f-0fd5c4a945e6",
+  "ts": "2026-09-14T13:37:54+00:00",
+  "title": "Xcel Energy Stock: Is XEL Outperforming the Utility Sector?",
+  "summary": "As Xcel Energy has outpaced the utility sector over the past year, Wall Street analysts remain bullish about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4590048/xcel-energy-stock-is-xel-outperforming-the-utility-sector",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "902767d8-7534-3a87-be44-2ecd939be139",
+  "ts": "2026-09-11T14:15:00+00:00",
+  "title": "Market Minute 9-11-26- Yields, Oil,  AI Risk Dominate Market Chatter",
+  "summary": "Both interest rates and crude oil are retreating \u2013 a bit \u2013 after big recent moves. That\u2019s helping stocks bounce. Ditto for Bitcoin, gold, and silver. The dollar is flat.",
+  "publisher": "MoneyShow",
+  "url": "https://finance.yahoo.com/markets/articles/market-minute-9-11-26-141500457.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "05a9f1dc-f40a-341d-88f8-af415e5b075e",
   "ts": "2026-09-11T13:25:00+00:00",
   "title": "Stock Market News for Sep 11, 2026",
   "summary": "Wall Street closed lower on Thursday, dragged down by surging oil prices and inflation data.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "37c0570b-9517-384b-8ef0-f47d160c30e1",
+  "ts": "2026-09-11T05:01:00+00:00",
+  "title": "AVA- A Cheap Utility Stock with an Attractive Yield",
+  "summary": "After a robust first half of 2026, it\u2019s fair to say utility stocks have hit a wall since. I see three major headwinds hurting returns. But I also believe Avista Corp. (AVA) is a low-to-moderate-risk bet on closing its wildfire stock discount, writes Roger Conrad, editor of Conrad\u2019s Utility Investor.",
+  "publisher": "MoneyShow",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ava-cheap-utility-stock-attractive-050100161.html",
   "tickers": [
    "XLU"
   ],

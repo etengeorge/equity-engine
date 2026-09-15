@@ -1,5 +1,47 @@
 [
  {
+  "id": "3af4b0c5-b2e6-3ae0-8ae7-f10a7cf31da8",
+  "ts": "2026-09-14T19:55:03+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks were lower in late Monday afternoon trading, with the NYSE Financial Index decreasi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "80e05968-8b23-3ea1-97e9-65ba0aaed6ae",
+  "ts": "2026-09-14T17:47:12+00:00",
+  "title": "Sector Update: Financial Stocks Retreat Monday Afternoon",
+  "summary": "Financial stocks were lower in Monday afternoon trading, with the NYSE Financial Index decreasing 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-monday-174712870.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "2e56a049-2146-33d0-be46-f70bc83b6eaf",
+  "ts": "2026-09-14T17:12:15+00:00",
+  "title": "Exchange-Traded Funds Mixed as US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were mixed, with the latter in the red. Actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171215479.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "d8e0ed68-b015-3f41-80d8-e3fd98caa5da",
   "ts": "2026-09-14T15:56:47+00:00",
   "title": "XLF vs FNCL: Which Financial Services ETF Wins Out for Investors?",

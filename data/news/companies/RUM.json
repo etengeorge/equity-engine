@@ -1,5 +1,65 @@
 [
  {
+  "id": "5c862b2d-0589-3612-bed3-477b5b616269",
+  "ts": "2026-09-15T10:36:30+00:00",
+  "title": "3 Russell 2000 Stocks We Find Risky",
+  "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "69b5b122-f4e5-3ee0-bed3-d534f3120859",
+  "ts": "2026-09-15T00:19:30+00:00",
+  "title": "Why RUM Group (RUM) Stock Is Up Today",
+  "summary": "Shares of video sharing platform RUM Group (NASDAQGM:RUM) jumped 15.5% in the afternoon session after the company entered into a massive six-year, $13.7 billion GPU services term sheet with Anthropic to provide computing power from its Maysville, Georgia facility. According to Yahoo Finance and industry reports, the agreement anchors RUM Group's revenue pipeline as it shifts its strategic focus toward Quake AI data center infrastructure. In addition to the multi-billion-dollar computing services",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-rum-group-rum-stock-001930425.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6ef34551-6549-3ec0-a948-f6e3ca16a7e1",
+  "ts": "2026-09-14T19:50:35+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "13a49bf1-6e64-3a9d-bcbc-cb6d6fd48ebe",
+  "ts": "2026-09-14T17:40:00+00:00",
+  "title": "RUM's $13.7B Compute Win Contradicts AI Safety Concerns",
+  "summary": "Although AI safety warnings continue to spark fierce public debate and market volatility, AI companies' underlying actions paint a vastly different picture.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/technology/ai/articles/rums-13-7b-compute-win-174000222.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "400d6a67-c079-325e-a5ba-e345b69ee020",
+  "ts": "2026-09-14T16:40:00+00:00",
+  "title": "Rumble stock jumps 27% on reported $13.7 billion Anthropic deal",
+  "summary": "Rumble Inc (NASDAQ:RUM) stock jumped 27% to $1.99 Monday after a report said artificial intelligence company Anthropic (Unlisted (US):ANTHRO) signed a six-year computing deal worth $13.7 billion with the group. The Information identified the customer, citing a person familiar with the...",
+  "publisher": "Proactive",
+  "url": "https://www.proactiveinvestors.com/companies/news/1098511/rumble-stock-jumps-27-on-reported-13-7-billion-anthropic-deal-1098511.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d4cee8b5-b593-32b0-9084-1f3bbe7f4870",
   "ts": "2026-09-14T13:27:51+00:00",
   "title": "Rumble Soars 10% on Report Anthropic Is the $13.7B Compute Customer; CoreWeave and Nebius Drop 9%",

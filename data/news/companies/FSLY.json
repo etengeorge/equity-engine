@@ -1,5 +1,29 @@
 [
  {
+  "id": "5cb10229-2bc9-3723-ae0b-952d5f024983",
+  "ts": "2026-09-15T01:31:30+00:00",
+  "title": "Varonis Systems and Fastly Stocks Trade Up, What You Need To Know",
+  "summary": "A number of stocks jumped in the afternoon session after shares of enterprise software and SaaS companies rallied broadly as investors rotated capital out of semiconductor and AI-hardware stocks following calls for an artificial intelligence development slowdown.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/varonis-systems-fastly-stocks-trade-013130851.html",
+  "tickers": [
+   "FSLY"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c1964900-9caa-3d04-a8fe-34fa046f14e5",
+  "ts": "2026-09-14T22:27:30+00:00",
+  "title": "Fastly (NASDAQ:FSLY) Q2 Earnings: Leading The Content Delivery Pack",
+  "summary": "Looking back on content delivery stocks\u2019 Q2 earnings, we examine this quarter\u2019s best and worst performers, including Fastly (NASDAQ:FSLY) and its peers.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-nasdaq-fsly-q2-earnings-222730245.html",
+  "tickers": [
+   "FSLY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "451a4279-0362-31f2-96f6-2fcd9d6d7c09",
   "ts": "2026-09-14T09:02:02+00:00",
   "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
@@ -18,6 +42,18 @@
   "summary": "PHILADELPHIA & SAN FRANCISCO, September 10, 2026--Comcast and Fastly today announced a next-generation content and application delivery partnership that pushes live streaming content closer to the edge of the network, helping power faster, lower-latency experiences for millions of Xfinity members. By integrating Fastly\u2019s software into Comcast\u2019s nationwide network, content can be delivered from locations closer to customers\u2019 homes, reducing lag and improving video quality even when millions of pe",
   "publisher": "Business Wire",
   "url": "https://finance.yahoo.com/technology/articles/comcast-fastly-partner-develop-next-130000901.html",
+  "tickers": [
+   "FSLY"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6be65920-3399-31bb-a640-d473b627a241",
+  "ts": "2026-09-10T11:53:17+00:00",
+  "title": "Here\u2019s What Fastly\u2019s CFO Said at Citi\u2019s Conference That Sent the Stock Up 6%.",
+  "summary": "Key Takeaways for Fastly Stock as of September 2026Conference Pop: Fastly stock jumped 6% to close at $23 on September 9 after CFO Rich Wong\u2019s presentation at Citi\u2019s Global TMT Conference reset investors\u2019 growth narrative. Analyst Split: Twelve analysts cover Fastly stock right now, split 4 buys, 1 outperform, 6 holds and 1 underperform, and the $27 mean target sits 19% above the close.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/heres-what-fastlys-cfo-said-at-citis-conference-that-sent-the-stock-up-6?ref=yahoofinance",
   "tickers": [
    "FSLY"
   ],

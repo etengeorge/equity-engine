@@ -1,5 +1,17 @@
 [
  {
+  "id": "bfc441b5-0e16-454e-8f16-10b88536f5bd",
+  "ts": "2026-09-14T21:41:20+00:00",
+  "title": "Stocks pop when the Trump administration invests, but the gains often fade fast",
+  "summary": "President Trump often touts his administration's investment in Intel, but the fortunes of more than a dozen other public companies in the government's portfolio tell a much less flattering story.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/stocks-pop-when-the-trump-administration-invests-but-the-gains-often-fade-fast-214120157.html",
+  "tickers": [
+   "USAR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5ec3c303-e08d-3293-8fc3-a0ee877e95c6",
   "ts": "2026-09-14T14:53:00+00:00",
   "title": "Will Heavy Expansion Costs Slow USAR's Growth Momentum?",

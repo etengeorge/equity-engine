@@ -1,5 +1,17 @@
 [
  {
+  "id": "8306c7e2-4958-31c2-adf6-8afa39c107bf",
+  "ts": "2026-09-15T09:01:05+00:00",
+  "title": "Strive's Bitcoin Stash Hits an Even 25,000 BTC After $36.6 Million Buy",
+  "summary": "The asset manager funded the entire purchase through preferred stock, pushing SATA's notional value past $1 billion for the first time.",
+  "publisher": "decrypt",
+  "url": "https://decrypt.co/378190/strive-bitcoin-25000-btc-after-buy",
+  "tickers": [
+   "ASST"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a6837395-cfb6-3e1c-8a40-33248bd4cff3",
   "ts": "2026-09-09T21:07:25+00:00",
   "title": "Strive Added 1,375 Bitcoin While Strategy Added None. Their Preferred Shares Explain Why.",

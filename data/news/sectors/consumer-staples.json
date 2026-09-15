@@ -1,5 +1,61 @@
 [
  {
+  "id": "6ef34551-6549-3ec0-a948-f6e3ca16a7e1",
+  "ts": "2026-09-14T19:50:35+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "48530d01-7030-3003-8ccb-03f8502e9905",
+  "ts": "2026-09-14T19:15:59+00:00",
+  "title": "Coca-Cola Stock Is Up 29% in 2026: What Will It Take to Break Through $100?",
+  "summary": "Coca-Cola stock has left PepsiCo and the entire consumer staples sector in the dust this year, and a single round number now stands between KO and a milestone that would rewrite how investors think about its valuation.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/14/coca-cola-stock-is-up-29-in-2026-what-will-it-take-to-break-through-100/",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "5d12d80a-759e-3dff-a2ec-e44b2ad32cd3",
+  "ts": "2026-09-14T17:49:58+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+  "summary": "Consumer stocks were higher Monday afternoon, with the State Street Consumer Staples Select Sector S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "61c7db8d-198e-34cd-9805-dcff99821610",
+  "ts": "2026-09-14T13:25:55+00:00",
+  "title": "How Is Dollar General's Stock Performance Compared to Other Consumer Defensive Stocks",
+  "summary": "Dollar General has rallied other consumer defensive stocks, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4589413/how-is-dollar-general-s-stock-performance-compared-to-other-consumer-defensive-stocks",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "df469287-6417-3d95-a84d-aaa22c19a37e",
   "ts": "2026-09-14T13:20:16+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback",
