@@ -1,0 +1,52 @@
+{
+  "ticker": "BIPC",
+  "date": "2026-09-15",
+  "sector": "Utilities",
+  "name": "BROOKFIELD INFRASTRUCTURE CORP CLA",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 35.81999969482422,
+  "market_implied_growth": -0.4757047960042756,
+  "cohort_pct": 100.0,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "Refusing on flags alone is the lazy answer, and the standing rules say a flag is a prompt to reconcile against the filing rather than a conclusion. HWC on 2026-09-04 carried an alarming staleness flag that turned out to be cosmetic while the genuinely invalidating event carried no flag at all. I should test whether these five flags are similarly cosmetic before refusing.",
+    "what_would_prove_it": "The 2025 20-F balance sheet and the current class A exchangeable share count. If total debt really were near zero and the share count near 45.0M, the figures would reconcile and the gap would be real.",
+    "already_visible": "Yes, and it settles the question decisively against the counter \u2014 which is the point of running it. The reconciliation FAILS on its own arithmetic without needing the filing at all: $1,155,000,000 of recorded interest expense against $0.00 of recorded total debt is not a flag that might be cosmetic, it is an internal contradiction inside a single extract. Likewise `shares_asof` of 2020-12-31 is 2,084 days stale on a company that has paid stock dividends and had exchangeable shares surrendered throughout that period. I ran the test the counter asked for and the counter lost.",
+    "unresolved": "Essentially everything about the business. I could not read a single primary document \u2014 the filings list is empty because 6-K interim reports are not indexed, and the 20-F is nine months old. I do not know what BIPC's current funds from operations, debt balance, share count or distribution are, and I decline to assert any of them."
+  },
+  "what_changed": "Nothing could be established. BIPC files on Form 20-F as a foreign private issuer, so its interim disclosures come on Form 6-K, which this engine does not index \u2014 the brief's 'Recent filings' section is entirely EMPTY and its earnings-materials section reports no EX-99 exhibits. The 90-day company news store is likewise empty. The most recent balance sheet the engine holds is 2025-12-31, 258 days old. I therefore have no visibility into anything that has happened at this company in the last eight months, and I record that as a fact about my confidence rather than filling it in.",
+  "consensus_case": "There is no price to steelman, because the engine has not priced this company. Brookfield Infrastructure Corporation is a paired entity whose class A exchangeable shares are economically equivalent to Brookfield Infrastructure Partners units, and it consolidates a global utilities, transport, midstream and data infrastructure portfolio financed with tens of billions of largely non-recourse project debt. The brief reports an enterprise value of $1.2B. The extract's own interest expense for the year is $1,155,000,000. A business cannot pay $1.16B of interest inside a $1.2B enterprise value. Every number downstream of that is arithmetic on a contradiction.",
+  "base_case_rationale": "No growth rate is supplied and none could be. The FCFF base of $868.2M is constructed almost entirely from an add-back of after-tax interest on debt the model records as ZERO: the single year of cash flow available gives CFO of $1,608M less capex of $1,606M, i.e. $2M of free cash flow, and the remaining ~$866M of the base is the after-tax interest add-back. So the base is 99.8% an add-back on invisible debt, while the enterprise value that base is discounted against omits the same debt. Both errors run the same way \u2014 toward cheapness \u2014 and they compound rather than offset. At $1,155M of annual interest, even a 6% average cost implies something on the order of $19B of debt against a recorded $0.",
+  "key_risks": [
+    "The +1852.2% gap and 100th-percentile Utilities rank are pure arithmetic error and must not be read as a signal of any kind",
+    "Enterprise value of $1.2B omits debt whose interest cost alone is $1,155M a year",
+    "Share count is dated 2020-12-31, so market capitalisation is unreliable in an unknown direction",
+    "As a 20-F filer with 6-K interims, this name is structurally invisible to the engine's filing and news layers"
+  ],
+  "watch_for": [
+    "An engine fix reading `LongTermDebt`/`Borrowings` under `ifrs-full` concepts for foreign private issuers",
+    "Indexing of Form 6-K so 20-F filers have interim visibility",
+    "A refreshed class A exchangeable share count from a current cover page"
+  ],
+  "sources": [],
+  "flags": [
+    "share_count_2084d_stale_market_cap_unreliable",
+    "balance_sheet_258d_old_enterprise_value_may_predate_a_financing",
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "single_year_base_no_normalization",
+    "extreme_gap_+1852%_treat_as_suspected_data_error"
+  ]
+}

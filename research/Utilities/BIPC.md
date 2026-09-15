@@ -1,0 +1,30 @@
+# BIPC — BROOKFIELD INFRASTRUCTURE CORP CLA
+*Utilities · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-15 — NO_MODEL (conviction: high)
+
+- **Verdict:** no_model · price $35.82
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** There is no price to steelman, because the engine has not priced this company. Brookfield Infrastructure Corporation is a paired entity whose class A exchangeable shares are economically equivalent to Brookfield Infrastructure Partners units, and it consolidates a global utilities, transport, midstream and data infrastructure portfolio financed with tens of billions of largely non-recourse project debt. The brief reports an enterprise value of $1.2B. The extract's own interest expense for the year is $1,155,000,000. A business cannot pay $1.16B of interest inside a $1.2B enterprise value. Every number downstream of that is arithmetic on a contradiction.
+
+**What changed.** Nothing could be established. BIPC files on Form 20-F as a foreign private issuer, so its interim disclosures come on Form 6-K, which this engine does not index — the brief's 'Recent filings' section is entirely EMPTY and its earnings-materials section reports no EX-99 exhibits. The 90-day company news store is likewise empty. The most recent balance sheet the engine holds is 2025-12-31, 258 days old. I therefore have no visibility into anything that has happened at this company in the last eight months, and I record that as a fact about my confidence rather than filling it in.
+
+**Base case.** No growth rate is supplied and none could be. The FCFF base of $868.2M is constructed almost entirely from an add-back of after-tax interest on debt the model records as ZERO: the single year of cash flow available gives CFO of $1,608M less capex of $1,606M, i.e. $2M of free cash flow, and the remaining ~$866M of the base is the after-tax interest add-back. So the base is 99.8% an add-back on invisible debt, while the enterprise value that base is discounted against omits the same debt. Both errors run the same way — toward cheapness — and they compound rather than offset. At $1,155M of annual interest, even a 6% average cost implies something on the order of $19B of debt against a recorded $0.
+
+**Devil's advocate.**
+- Strongest counter: Refusing on flags alone is the lazy answer, and the standing rules say a flag is a prompt to reconcile against the filing rather than a conclusion. HWC on 2026-09-04 carried an alarming staleness flag that turned out to be cosmetic while the genuinely invalidating event carried no flag at all. I should test whether these five flags are similarly cosmetic before refusing.
+- What would prove it: The 2025 20-F balance sheet and the current class A exchangeable share count. If total debt really were near zero and the share count near 45.0M, the figures would reconcile and the gap would be real.
+- Already visible today: Yes, and it settles the question decisively against the counter — which is the point of running it. The reconciliation FAILS on its own arithmetic without needing the filing at all: $1,155,000,000 of recorded interest expense against $0.00 of recorded total debt is not a flag that might be cosmetic, it is an internal contradiction inside a single extract. Likewise `shares_asof` of 2020-12-31 is 2,084 days stale on a company that has paid stock dividends and had exchangeable shares surrendered throughout that period. I ran the test the counter asked for and the counter lost.
+- Left unresolved: Essentially everything about the business. I could not read a single primary document — the filings list is empty because 6-K interim reports are not indexed, and the 20-F is nine months old. I do not know what BIPC's current funds from operations, debt balance, share count or distribution are, and I decline to assert any of them.
+
+**Key risks.** The +1852.2% gap and 100th-percentile Utilities rank are pure arithmetic error and must not be read as a signal of any kind; Enterprise value of $1.2B omits debt whose interest cost alone is $1,155M a year; Share count is dated 2020-12-31, so market capitalisation is unreliable in an unknown direction; As a 20-F filer with 6-K interims, this name is structurally invisible to the engine's filing and news layers
+**Watch for.** An engine fix reading `LongTermDebt`/`Borrowings` under `ifrs-full` concepts for foreign private issuers; Indexing of Form 6-K so 20-F filers have interim visibility; A refreshed class A exchangeable share count from a current cover page
+
+**Data quality.** Five flags raised and all five are real: `share_count_2084d_stale`, `balance_sheet_258d_old`, `interest_expense_implies_no_debt_found`, `single_year_base_no_normalization`, `extreme_gap_+1852%`. This is the most extreme instance of the missing-debt family recorded so far and it extends the KBH lesson in a specific way. KBH defeated the `interest_expense / total_debt` detector because BOTH terms were zero, making the ratio 0/0. BIPC is the opposite and louder failure: total_debt is EXACTLY 0.0 while interest_expense is $1,155,000,000, so the ratio is undefined by division rather than by indeterminacy, and the detector still cannot fire. A non-zero interest expense with total_debt of exactly zero should be treated as a hard gate, not a soft flag. Second new point: the FCFF base is composed almost entirely of the interest ADD-BACK on the very debt the model has failed to find ($866M of an $868.2M base, against $2M of actual CFO less capex), so the missing debt inflates the numerator and deflates the enterprise value simultaneously. This is a different shape from the ALTG/HOG cases, where only the enterprise value was affected. Also note the capex series has a single observation, so `single_year_base_no_normalization` is correct and there is nothing to normalise against.
+
+*Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Ingestion notes.** no usable final_growth

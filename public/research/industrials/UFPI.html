@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>UFPI — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / UFPI</p><h1>UFPI <span style='color:var(--faint);font-weight:400'>UFP INDUSTRIES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$81.03</b></div><div>Analyst gap<b>+4%</b></div><div>Dated<b>2026-09-15</b></div></div><div class='prose'><h1>UFPI — UFP INDUSTRIES</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-15 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $81.03 · fair value $84.07 · gap +3.7%</li><li><strong>Growth:</strong> market implies -9.0%, analyst says +2.0% (delta +11.0%)</li><li><strong>FCFF base overridden</strong> by the analyst to $320.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.7% | 8.7% | 9.7% | 10.7% | 11.7% | |---|---|---|---|---|---|---| | bear | -4.0% | $86.52 | $74.96 | $66.40 | $59.80 | $54.56 | | base | +2.0% | $111.19 | $95.60 | $84.07 | $75.19 | $68.15 | | bull | +8.0% | $142.01 | $121.33 | $106.04 | $94.29 | $84.98 |</p><p>At the point WACC of 9.7%: bear -18.1%, base +3.7%, bull +30.9% Across the whole grid the gap ranges -32.7% to +75.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> The market pays $81 because it is not capitalising the 2023 lumber-unwind cash flow. The engine&#x27;s base of $498.4M is the mean of [$276.4M, $410.3M, $779.5M], and the $779.5M year is the working-capital release as lumber prices normalised — cash that came out of inventory once and cannot recur. Against the real run rate the price is ordinary, not capitulatory: 2025 free cash flow was $276.4M, and first-half 2026 operating cash flow was $61M against $87M of capex, i.e. NEGATIVE $26M. Management cut 2026 capex guidance twice, from $300-325M to $250-275M to $175-200M, and Q2 net sales rose 3% &#x27;driven primarily by acquisitions&#x27;. A buyer at $81 is paying roughly 14-16x a mid-cycle $270-320M of owner earnings for a business with $1.9B of liquidity, a 3% dividend raise and $142M of first-half buybacks. That is a fair price for a housing-levered manufacturer three years into a downcycle, not a distressed one.</p><p><strong>What changed.</strong> Q2 2026 (8-K/EX-99.1 2026-07-29; 10-Q 2026-08-05): H1 operating cash flow $61M, H1 capex $87M, H1 acquisition spend $122M, three acquisitions closed in the quarter. 2026 capex target cut to $175-200M from $250-275M, which had itself been cut from $300-325M; the release attributes part of the cut to acquiring MoistureShield&#x27;s operating assets instead of building a greenfield. Net sales +3%, driven primarily by acquisitions, with organic volume gains named in Deckorators, Structural and Protective Packaging, Concrete Forming and Commercial; Surestone sales +37%. $142M of H1 share repurchases; quarterly dividend raised 3% to $0.36. No company-specific news in the 90-day store — the tape and the wire were both quiet, which lowers my confidence in &#x27;nothing else happened&#x27; rather than confirming it.</p><p><strong>Base case.</strong> The fix here is the base, not the growth rate. The naive +4.2% five-year revenue CAGR is measured across the 2021-22 lumber spike — revenue peaked at $9.63B in 2022 against $6.32B in 2025 — and revenue has now fallen three years running, so it is a cycle artifact rather than a forward rate. Correcting the FCFF base from the three-year mean of $498.4M to the 2025 actual of $276.4M moves the growth the market implies from -9.0% to +4.7%; at a normalised $320M it implies +1.2%. I use $320M, which is 2025 actual plus a partial credit for the acquired earnings that CFO-less-capex has been charged for but not yet earned from, and a base-case growth of 2% — value-added mix and volume, with no assumption of a lumber-price recovery. That lands within two or three points of what the market already implies, which is why there is no thesis here.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: This IS a genuine cyclical trough and my corrected base is the trough, not mid-cycle. Three consecutive years of revenue decline, capex cut 40% mid-year, $1.9B of liquidity against a $4.5B market cap, and a management team buying back $142M of stock in six months. If housing turns, free cash flow returns above $400M and $81 is cheap. The engine&#x27;s own <code>possible_trough_cycle_base</code> flag says precisely this.</li><li>What would prove it: Full-year 2026 operating cash flow less capex, measured after the $170M of seasonal working capital converts to cash by the start of Q4 as management says it will. If that figure lands above ~$350M, my $320M base is too low and the gap is real.</li><li>Already visible today: Partly, and it points against the counter. H1 operating cash flow of $61M against $87M of capex is negative free cash flow with the seasonal build already inside it, and the company&#x27;s own &#x27;$198M of first-half free cash flow&#x27; reaches that figure by adding the build back. More decisively, the standing lesson applies literally: the trough flag fires by comparing newest FCF to oldest, but the base is a three-year MEAN containing a super-cycle year, so it OVERSTATES rather than understates — the flag&#x27;s advisory sentence is backwards here.</li><li>Left unresolved: I could not separate organic from acquired growth. The release says sales rose 3% &#x27;driven primarily by acquisitions&#x27; and gives no organic figure, while $122M of H1 acquisition spend sits in investing activities where CFO-less-capex never charges for it. That is the EFOR roll-up shape, and without an organic disclosure I cannot tell whether even flat revenue is being bought. It caps conviction and it is the reason my base is $320M rather than higher.</li></ul><p><strong>Key risks.</strong> Lumber price deflation compresses both revenue and the commodity spread that drives Retail segment margin; Acquisition spend ($122M in H1 alone) sits outside CFO-less-capex, so reported free cash flow overstates owner earnings on a roll-up; Housing starts are the single variable and there is no dated catalyst that forces a re-rating; Seasonal working capital makes any half-year cash flow reading unreliable in both directions <strong>Watch for.</strong> Full-year 2026 CFO less capex after the Q4 working-capital conversion — above ~$350M refutes my base; An organic-versus-acquired revenue disclosure in the Q3 release or the 10-K; A third capex guidance revision in either direction</p><p><strong>Data quality.</strong> Resolved: <code>possible_trough_cycle_base</code> — the flag fires correctly on newest-vs-oldest but its advisory text (&#x27;growth applied to a trough understates value&#x27;) is backwards, because the base is a three-year mean containing the 2023 super-cycle working-capital release. Corrected the base from $498.4M to $320M; this alone moves the implied growth from -9.0% to +1.2% and closes the +70.9% gap. Open: no organic revenue disclosure, so the acquisition contribution to the 3% sales growth is unquantified; and the share count and balance sheet are current (shares as of 2026-06-27) so no staleness issue. Interest expense of $12.8M on $234.3M of debt implies 5.5%, which is plausible, so no missing-debt suspicion.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/UFPI.md'>research/Industrials/UFPI.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,52 @@
+{
+  "ticker": "PATK",
+  "date": "2026-09-15",
+  "sector": "Consumer Discretionary",
+  "name": "PATRICK INDUSTRIES",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 72.9800033569336,
+  "market_implied_growth": -0.028238795826247054,
+  "cohort_pct": 86.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "Unlike LCII, Patrick is the ACQUIRER and the continuing registrant. Its price floats freely rather than being pinned to an exchange ratio, so a standalone reverse DCF on Patrick is not meaningless the way one on LCII was \u2014 it is a real market opinion about real cash flows. And if the deal breaks on antitrust, Patrick reverts to a standalone business generating $246-350M of free cash flow against a $2.3B market cap, which at a -2.8% implied growth rate would be genuinely cheap. Refusing may be discarding a real signal.",
+    "what_would_prove_it": "The Form S-4 joint proxy, which will carry pro-forma combined financials, the synergy estimate and the pro-forma capital structure; and the outcome of the refiled HSR waiting period. Those two documents together decide whether the standalone number means anything.",
+    "already_visible": "Neither is available \u2014 the S-4 has not been filed as of today, which is itself one of the closing conditions. What IS visible defeats the counter on its own terms: the counter's 'cheap on a standalone basis' rests on the -2.8% implied growth, and that figure is only striking against the +9.7% baseline, which I have shown is measured off the 2020 COVID trough. Measured against the 2022 peak, Patrick's revenue CAGR is negative. Strip the artifact and there is no standalone gap to preserve.",
+    "unresolved": "I could not assess the antitrust risk itself. A voluntary pull-and-refile is consistent with the agencies preparing a Second Request, but it is also routinely used to buy time for ordinary document production, and nothing in the 8-K distinguishes them. I also could not verify the pro-forma leverage: Patrick's extract shows $1,418.7M of debt against an interest expense of only $4.3M, an implied rate of 0.30% that cannot be right, so even the standalone balance sheet input is unreliable."
+  },
+  "what_changed": "2026-06-30 8-K (items 1.01, 7.01): the Merger Agreement with LCI Industries at a 1.2440 exchange ratio, ~52/48 ownership, $94.2M reciprocal termination fees, conditioned on both shareholder votes, HSR clearance, an effective Form S-4 and Nasdaq listing of the new shares. 2026-09-10 8-K (item 8.01): both parties filed HSR on 2026-08-05; Patrick voluntarily withdrew its notification on 2026-09-04 and refiled on 2026-09-09, initiating a NEW waiting period. Q2 2026 (2026-07-30): net sales $1.04B, down less than 1%, with Marine, Powersports and Housing offsetting RV weakness; net income +34%. Quarterly dividend $0.47. The 90-day news store contains no mention of the merger at all \u2014 the most recent company item is dated 2026-08-26 \u2014 so the news layer gave no warning on the single most important fact about this name.",
+  "consensus_case": "The price is not an opinion about standalone Patrick Industries. On 2026-06-30 Patrick signed an Agreement and Plan of Merger with LCI Industries: each LCI share converts into 1.2440 Patrick shares, legacy Patrick holders end with approximately 52% of the combined company and legacy LCI holders approximately 48%, the board splits six and six, and the outside date is 2027-03-30 with two three-month extensions. The market is therefore pricing a company whose share count is about to roughly double, whose capital structure and synergy set are not yet disclosed, and whose deal carries live antitrust risk. The -11.9% five-day and -15.1% twenty-one-day moves that won this opportunistic slot are most plausibly that risk repricing, not the RV cycle: on 2026-09-04 Patrick voluntarily WITHDREW its Hart-Scott-Rodino notification and refiled it on 2026-09-09, restarting the waiting period \u2014 the standard manoeuvre when the agencies are preparing a Second Request.",
+  "base_case_rationale": "No standalone growth rate is supplied, because a standalone five-year DCF on Patrick is a valuation of a company that has contracted to stop existing in its present form. The share count against which any per-share fair value would be computed (32,118,264) is about to rise by roughly 31.6M shares, and neither the pro-forma capital structure nor the synergy guidance is public yet \u2014 the Form S-4 is not yet effective. Separately, the +114.4% gap that won the slot is a cycle artifact independent of the merger: the naive baseline of '+9.7% five-year revenue CAGR' is measured from 2020's COVID-trough revenue of $2,486.6M to 2025's $3,950.8M, on a company whose revenue actually PEAKED at $4,881.9M in 2022 and is still 19% below that peak. Applying a growth rate derived from the recovery off a pandemic trough to a company now in an RV downcycle is not a thesis in either direction.",
+  "key_risks": [
+    "Pending all-stock merger of equals roughly doubles the share count; no per-share standalone valuation is meaningful",
+    "Live antitrust risk \u2014 HSR notification voluntarily withdrawn 2026-09-04 and refiled 2026-09-09, restarting the clock",
+    "The +114.4% gap and 87th-percentile rank derive from a baseline measured off 2020 COVID-trough revenue",
+    "RV wholesale shipments remain in a genuine downcycle underneath the deal"
+  ],
+  "watch_for": [
+    "Form S-4 / joint proxy filing with pro-forma financials and a synergy estimate",
+    "Expiration, termination or a Second Request under the refiled HSR waiting period",
+    "Either shareholder vote being scheduled, or any change in board recommendation triggering the $94.2M fee",
+    "Deal termination, which would restore a standalone valuation question"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/76605/000007660526000067/patk-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/76605/000007660526000089/patk-20260904.htm",
+    "https://www.sec.gov/Archives/edgar/data/76605/000007660526000079/patk-20260628.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/03/patrick-industries-patk-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": []
+}

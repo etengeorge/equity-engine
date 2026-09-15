@@ -1,0 +1,186 @@
+{
+  "ticker": "UFPI",
+  "date": "2026-09-15",
+  "sector": "Industrials",
+  "name": "UFP INDUSTRIES",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.02,
+  "bear_growth": -0.04,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 81.02999877929688,
+  "market_implied_growth": -0.08962291405652406,
+  "cohort_pct": 79.5,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.02,
+    "market_implied_growth": -0.08962291405652406,
+    "growth_delta": 0.10962291405652407,
+    "fair_value": 84.06650035690593,
+    "price": 81.02999877929688,
+    "gap": 0.03747379517898852,
+    "fair_value_band": {
+      "low": 75.19088953546067,
+      "point": 84.06650035690593,
+      "high": 95.59934921656154
+    },
+    "fcff_base_used": 320000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09680327990053181,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 320000000,
+      "price": 81.02999877929688,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.04,
+          "cells": [
+            {
+              "wacc": 0.0768032799005318,
+              "fair_value": 86.51875929795678,
+              "gap": 0.0677373886381234
+            },
+            {
+              "wacc": 0.08680327990053181,
+              "fair_value": 74.957892803927,
+              "gap": -0.0749365181642
+            },
+            {
+              "wacc": 0.09680327990053181,
+              "fair_value": 66.39721823286267,
+              "gap": -0.18058473117209117
+            },
+            {
+              "wacc": 0.1068032799005318,
+              "fair_value": 59.80026236850788,
+              "gap": -0.26199847871913307
+            },
+            {
+              "wacc": 0.11680327990053181,
+              "fair_value": 54.55881112898856,
+              "gap": -0.32668379673074477
+            }
+          ],
+          "fair_value_at_point_wacc": 66.39721823286267,
+          "gap_at_point_wacc": -0.18058473117209117
+        },
+        {
+          "case": "base",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.0768032799005318,
+              "fair_value": 111.1928258708976,
+              "gap": 0.3722427193138167
+            },
+            {
+              "wacc": 0.08680327990053181,
+              "fair_value": 95.59934921656154,
+              "gap": 0.17980193331789995
+            },
+            {
+              "wacc": 0.09680327990053181,
+              "fair_value": 84.06650035690593,
+              "gap": 0.03747379517898852
+            },
+            {
+              "wacc": 0.1068032799005318,
+              "fair_value": 75.19088953546067,
+              "gap": -0.0720610802394347
+            },
+            {
+              "wacc": 0.11680327990053181,
+              "fair_value": 68.14902046957683,
+              "gap": -0.15896554984289513
+            }
+          ],
+          "fair_value_at_point_wacc": 84.06650035690593,
+          "gap_at_point_wacc": 0.03747379517898852
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.0768032799005318,
+              "fair_value": 142.01337775191305,
+              "gap": 0.7526024915626359
+            },
+            {
+              "wacc": 0.08680327990053181,
+              "fair_value": 121.32700438075786,
+              "gap": 0.49730971502565113
+            },
+            {
+              "wacc": 0.09680327990053181,
+              "fair_value": 106.04251880461493,
+              "gap": 0.3086822214257363
+            },
+            {
+              "wacc": 0.1068032799005318,
+              "fair_value": 94.29235578056205,
+              "gap": 0.1636721856233534
+            },
+            {
+              "wacc": 0.11680327990053181,
+              "fair_value": 84.98067675982128,
+              "gap": 0.04875574528002824
+            }
+          ],
+          "fair_value_at_point_wacc": 106.04251880461493,
+          "gap_at_point_wacc": 0.3086822214257363
+        }
+      ],
+      "summary": {
+        "bear": -0.18058473117209117,
+        "base": 0.03747379517898852,
+        "bull": 0.3086822214257363
+      },
+      "downside": -0.32668379673074477,
+      "upside": 0.7526024915626359
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "This IS a genuine cyclical trough and my corrected base is the trough, not mid-cycle. Three consecutive years of revenue decline, capex cut 40% mid-year, $1.9B of liquidity against a $4.5B market cap, and a management team buying back $142M of stock in six months. If housing turns, free cash flow returns above $400M and $81 is cheap. The engine's own `possible_trough_cycle_base` flag says precisely this.",
+    "what_would_prove_it": "Full-year 2026 operating cash flow less capex, measured after the $170M of seasonal working capital converts to cash by the start of Q4 as management says it will. If that figure lands above ~$350M, my $320M base is too low and the gap is real.",
+    "already_visible": "Partly, and it points against the counter. H1 operating cash flow of $61M against $87M of capex is negative free cash flow with the seasonal build already inside it, and the company's own '$198M of first-half free cash flow' reaches that figure by adding the build back. More decisively, the standing lesson applies literally: the trough flag fires by comparing newest FCF to oldest, but the base is a three-year MEAN containing a super-cycle year, so it OVERSTATES rather than understates \u2014 the flag's advisory sentence is backwards here.",
+    "unresolved": "I could not separate organic from acquired growth. The release says sales rose 3% 'driven primarily by acquisitions' and gives no organic figure, while $122M of H1 acquisition spend sits in investing activities where CFO-less-capex never charges for it. That is the EFOR roll-up shape, and without an organic disclosure I cannot tell whether even flat revenue is being bought. It caps conviction and it is the reason my base is $320M rather than higher."
+  },
+  "what_changed": "Q2 2026 (8-K/EX-99.1 2026-07-29; 10-Q 2026-08-05): H1 operating cash flow $61M, H1 capex $87M, H1 acquisition spend $122M, three acquisitions closed in the quarter. 2026 capex target cut to $175-200M from $250-275M, which had itself been cut from $300-325M; the release attributes part of the cut to acquiring MoistureShield's operating assets instead of building a greenfield. Net sales +3%, driven primarily by acquisitions, with organic volume gains named in Deckorators, Structural and Protective Packaging, Concrete Forming and Commercial; Surestone sales +37%. $142M of H1 share repurchases; quarterly dividend raised 3% to $0.36. No company-specific news in the 90-day store \u2014 the tape and the wire were both quiet, which lowers my confidence in 'nothing else happened' rather than confirming it.",
+  "consensus_case": "The market pays $81 because it is not capitalising the 2023 lumber-unwind cash flow. The engine's base of $498.4M is the mean of [$276.4M, $410.3M, $779.5M], and the $779.5M year is the working-capital release as lumber prices normalised \u2014 cash that came out of inventory once and cannot recur. Against the real run rate the price is ordinary, not capitulatory: 2025 free cash flow was $276.4M, and first-half 2026 operating cash flow was $61M against $87M of capex, i.e. NEGATIVE $26M. Management cut 2026 capex guidance twice, from $300-325M to $250-275M to $175-200M, and Q2 net sales rose 3% 'driven primarily by acquisitions'. A buyer at $81 is paying roughly 14-16x a mid-cycle $270-320M of owner earnings for a business with $1.9B of liquidity, a 3% dividend raise and $142M of first-half buybacks. That is a fair price for a housing-levered manufacturer three years into a downcycle, not a distressed one.",
+  "base_case_rationale": "The fix here is the base, not the growth rate. The naive +4.2% five-year revenue CAGR is measured across the 2021-22 lumber spike \u2014 revenue peaked at $9.63B in 2022 against $6.32B in 2025 \u2014 and revenue has now fallen three years running, so it is a cycle artifact rather than a forward rate. Correcting the FCFF base from the three-year mean of $498.4M to the 2025 actual of $276.4M moves the growth the market implies from -9.0% to +4.7%; at a normalised $320M it implies +1.2%. I use $320M, which is 2025 actual plus a partial credit for the acquired earnings that CFO-less-capex has been charged for but not yet earned from, and a base-case growth of 2% \u2014 value-added mix and volume, with no assumption of a lumber-price recovery. That lands within two or three points of what the market already implies, which is why there is no thesis here.",
+  "key_risks": [
+    "Lumber price deflation compresses both revenue and the commodity spread that drives Retail segment margin",
+    "Acquisition spend ($122M in H1 alone) sits outside CFO-less-capex, so reported free cash flow overstates owner earnings on a roll-up",
+    "Housing starts are the single variable and there is no dated catalyst that forces a re-rating",
+    "Seasonal working capital makes any half-year cash flow reading unreliable in both directions"
+  ],
+  "watch_for": [
+    "Full-year 2026 CFO less capex after the Q4 working-capital conversion \u2014 above ~$350M refutes my base",
+    "An organic-versus-acquired revenue disclosure in the Q3 release or the 10-K",
+    "A third capex guidance revision in either direction"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm",
+    "https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.35x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

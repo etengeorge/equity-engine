@@ -31,3 +31,34 @@ Append-only research log. Newest entries at the bottom.
 - https://www.sullcrom.com/insights/memo/2026/April/Second-Circuit-Reverses-18-Billion-Judgment-Against-Argentina
 
 **Ingestion notes.** no usable final_growth
+
+## 2026-09-15 — NO_MODEL (conviction: high)
+
+- **Verdict:** no_model · price $4.39
+
+**The case for the price.** There is no consensus case to steelman at the recorded gap, because the recorded gap does not exist. The brief reports tangible book of $10.54 per share and an actual P/TBV of 0.42, ranking Burford the cheapest 1% of 338 Financials at +173.2%. Burford's own 10-Q reconciliation for the quarter ended 2026-06-30 reads: tangible book value attributable to Burford Capital Limited $685,057 thousand, per ordinary share $3.12 — against $2,314,002 thousand and $10.57 at 2025-12-31. The engine used the December figure. At the correct $3.12 the actual P/TBV is 1.41x, so against the engine's own justified multiple of 1.14 the name is roughly 19% RICH, not 173% cheap. What the market is actually pricing is a litigation financier whose book value fell 72% in one quarter when the Second Circuit reversed the $18B YPF judgment, and which is now refinancing unsecured 6.250% paper with SECURED 8.000% paper.
+
+**What changed.** 2026-09-14 8-K (item 8.01): Burford announced a private offering of $300M of senior secured notes due 2029 by Burford Capital Global Finance LLC, and delivered a conditional notice of redemption for all $400M of its outstanding 6.250% senior notes due 2028, redeemable 2026-09-24 conditional on raising at least $300M. It 'also intends to engage in additional de-leveraging transactions... including open market purchases of its outstanding debt.' This is a refinancing and a net DE-leveraging of ~$100M, not new debt — but the price is the fact that matters: 175bp more coupon, plus a security interest, on $100M less principal. Q2 2026 was near break-even. The stock is -65.8% over 252 days.
+
+**Base case.** I decline to supply a sustainable ROTCE. This is the JXN lesson in its purest form — GAAP net income is not a return for anything whose earnings are a mark, and Burford's earnings ARE marks on litigation assets. The engine's 12.5% 'sustainable ROTCE' averages net income of [$62.6M, $146.5M, $610.5M]; the $610.5M year is the YPF mark-up that the Second Circuit has since reversed, and the brief's own `unstable_rotce_2.7%_to_28.3%` flag names the spread. One defensible input choice spans the entire answer: at a near-break-even return (which is what Q2 2026 actually delivered) the justified multiple falls well below 1.0 and the stock is plainly rich at 1.41x; at 20% (which is what the bull case on the pork/protein antitrust book implies) it is above 2.0 and the stock is cheap. Supplying a number would launder a category error into a fair value, which is exactly what the PIPR and WLTH rules forbid.
+
+**Devil's advocate.**
+- Strongest counter: Refusing here is lazy: book value for a litigation financier is a fair-value estimate of a portfolio of claims, and a 1.41x multiple on a book that has ALREADY been written down 72% for the worst possible YPF outcome could be genuinely cheap. Greenhaven Road's Q2 letter argues the sell-side ignores the protein/pork antitrust cases entirely. Burford is also de-leveraging voluntarily and buying back debt, which is not the behaviour of a company in distress.
+- What would prove it: Cash realisations, not marks. The settling observable is the realised return on concluded cases over the next four to six quarters against the carrying value they were held at, plus any recovery in the YPF matter on further appeal. A sustained realised ROTCE above ~12% would make 1.41x tangible book cheap.
+- Already visible today: Not yet, and what is visible cuts the other way. Q2 2026 was near break-even. The refinancing repriced unsecured debt at 6.250% into SECURED debt at 8.000% — the market's own statement that Burford's cost of capital has risen and that lenders now want collateral, which sits badly against an 11.2% cost of EQUITY in the engine's model. Equity below the secured debt of the same issuer cannot cost 11.2% when that secured debt costs 8.0%.
+- Left unresolved: I could not value the protein/pork antitrust book, which is the whole bull case and is unquantified in the 10-Q. I also could not determine the pro-forma interest burden after the redemption settles on 2026-09-24. Neither gap changes the verdict, because the verdict is a refusal to price, not a claim that the equity is worth less than book.
+
+**Key risks.** Recorded +173.2% gap and 99th-percentile cohort rank are an arithmetic defect and must not be read as a signal; Book value is a fair-value estimate of illiquid legal claims and moved 72% on a single appellate ruling; Secured refinancing at 8.000% signals a materially higher cost of capital than the model's 11.2% cost of equity implies; Corrected P/TBV of 1.41x is a PREMIUM to tangible book, not the 0.42x discount the brief reports
+**Watch for.** Realised cash proceeds on concluded cases versus carrying value in the 3Q26 and FY26 results; Completion of the 2028 note redemption on 2026-09-24 and the announced follow-on debt buybacks; Any further YPF appellate development; An engine fix: `justified_pb` using `equity_now` ($819.1M) instead of `equity_series[0]` ($2,448.0M)
+
+**Data quality.** NOT resolved — this is an unfixed engine defect serving the same wrong number on the same name for the second time in eight days (researched 2026-09-07, re-qualified today at the 99th percentile). `justified_pb` prices today's share price against `equity_series[0]` = $2,448,022,000 (2025-12-31) while the extract's own `equity_now` = $819,059,000 (2026-06-30) is correct and sitting in the same record. ($2,448.022M - $134.002M goodwill) / 219.584M shares = $10.538, which reproduces the brief exactly; the correct figure is ($819.059M - $134.002M) / 219.584M = $3.12, matching Burford's own reconciliation to the cent. The cross-check named in the AII lesson fires loudly and unmissably on this brief: the book model reports P/TBV 0.42 while the multiples table on the same page reports p_tbv 26.9x. Also open: `unstable_rotce_2.7%_to_28.3%` is real and unresolvable, and the 2026-09-14 financing post-dates the balance sheet.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1714174/000171417426000099/bur-20260914.htm
+- https://www.sec.gov/Archives/edgar/data/1714174/000171417426000097/bur-20260630.htm
+- https://www.sec.gov/Archives/edgar/data/1714174/000171417426000096/bur-20260806.htm
+- https://finance.yahoo.com/markets/stocks/articles/burford-capital-announces-pricing-private-205500383.html
+
+**Ingestion notes.** no usable final_growth

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MCFT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / MCFT</p><h1>MCFT <span style='color:var(--faint);font-weight:400'>MASTERCRAFT BOAT HOLDINGS INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$20.07</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-15</b></div></div><div class='prose'><h1>MCFT — MASTERCRAFT BOAT HOLDINGS INC</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-15 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $20.07</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market is pricing a company roughly 50% larger than the one the engine priced. On 2026-05-15 MasterCraft completed its combination with Marine Products Corporation and, per Note 4 of the FY2026 10-K, ISSUED 8,088,171 shares at a $24.64 closing price as $199.3M of stock consideration plus $84.8M of cash, for total merger consideration of $284.2M. The engine&#x27;s share count is 16,279,890 as of 2026-05-01 — two weeks before the close — so it is missing every one of those shares. Market capitalisation is therefore roughly $489M, not the $326.7M in the brief, and enterprise value roughly $445M against the brief&#x27;s $242.3M. Against the same $43.0M base, that moves the growth the market requires from -8.9% to about +6%, and on the run rate implied by the company&#x27;s own transition-period guidance to about +13%. The +13.8% gap does not shrink; it inverts.</p><p><strong>What changed.</strong> FY2026 results and 10-K, both 2026-09-10, for the year ended 2026-06-30 — the engine&#x27;s balance sheet is dated 2026-03-29 and so predates the entire transaction. Q4 net sales $129.9M, +63.4%, or +21.5% excluding the Marine Products contribution; FY net sales $348.9M, +22.8%, or +11.0% ex-transaction. FY adjusted EBITDA $45.6M against $24.4M, margin 13.1% against 8.6%; Q4 adjusted EBITDA $20.5M against $9.5M. Dealer inventory down 30%. Cash $43.9M at year end against $28.9M, with $50.5M of short-term investments liquidated to fund the cash consideration. The company is ALSO changing its fiscal year end: guidance is given for a six-month &#x27;Transition Period&#x27; of $287-291M of net sales, $29-32M of adjusted EBITDA, roughly $0.66-0.76 of adjusted EPS and about $9M of capex, with the first quarter of that period at roughly $147M of sales and $16M of adjusted EBITDA. A registration rights agreement was signed with LOR, Inc., now a holder of more than 10% of the stock, allowing up to two underwritten shelf takedowns a year.</p><p><strong>Base case.</strong> No growth rate is supplied, because the schema cannot correct the error that decides this name. The FCFF base is fixable — I could override it — but the share count and enterprise value are not, and they are the inputs that are wrong. Any <code>final_growth</code> I set would be turned into a fair value PER SHARE on a count that excludes 8,088,171 shares the company has already issued and disclosed, understating the equity claim by a third and the market capitalisation by a half. That is precisely the laundering the standing rules forbid. For the record, my corrected reading: on the true enterprise value of roughly $445M, the market implies +5% to +13% five-year FCFF growth depending on whether the base is the engine&#x27;s $43.0M three-year standalone mean or the roughly $30-35M that the transition-period guidance annualises to after tax and capex. Both are positive, and neither supports a cheap call.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The correction I have made kills the recorded gap, but it may prove the opposite of a refusal — it may prove the name is interesting on the other side. MasterCraft just doubled adjusted EBITDA margin on an 11% organic sales increase with dealer inventory down 30%, which is the classic shape of a marine cycle bottoming: destocking is complete, so retail demand now flows to wholesale shipments one-for-one. The transition-period guide of $29-32M of adjusted EBITDA on $287-291M of sales annualises to roughly $60M against a corrected enterprise value of $445M — about 7.4x — for a business with net cash and two newly acquired brands to integrate.</li><li>What would prove it: Whether the Chaparral and Robalo brands hold the legacy margin structure through a full year rather than a six-week stub, and whether the transition-period adjusted EBITDA guide is met without a further dealer inventory drawdown. The first full combined quarter, guided to roughly $16M of adjusted EBITDA on $147M of sales, is the test.</li><li>Already visible today: Only partially, and it is genuinely ambiguous. The Q4 margin expansion is real and the organic 21.5% sales growth is real. But the first Transition Period quarter is guided to a 10.9% adjusted EBITDA margin ($16M on $147M) against the 15.8% Q4 just delivered, which is a substantial sequential step DOWN and is the company&#x27;s own signal that the acquired mix is dilutive to margin. The counter therefore does not yet win, and I record explicitly that refusing here is NOT a judgment that MasterCraft is expensive — at roughly 7.4x EV/EBITDA on corrected numbers it may well be cheap, and I cannot say so with a defensible per-share number.</li><li>Left unresolved: I could not establish the post-transaction debt balance. The extract reads total_debt of zero, cash went from $28.9M to $43.9M while $50.5M of short-term investments were consumed and $84.8M of cash consideration was paid, which implies borrowing that I could not size from the sections I read. Any drawn revolver raises my corrected enterprise value further and makes the implied growth higher still — so the direction of my correction is safe, but its magnitude is a floor rather than a point.</li></ul><p><strong>Key risks.</strong> Share count understated by 8,088,171 shares (33%); market cap understated roughly 50% and enterprise value roughly 84%; Extract dated 2026-03-29 predates both the 2026-05-15 Marine Products close and the FY2026 10-K; Three-year FCFF history is standalone MasterCraft spanning the post-COVID marine boom and bust — [$26.4M, -$3.9M, $103.9M]; Fiscal year change creates a six-month transition period, so no comparable annual figure will exist for a year; LOR, Inc. holds more than 10% with registered resale rights — up to two underwritten takedowns a year, minimum $25M each <strong>Watch for.</strong> First full combined quarter against the ~$147M sales / ~$16M adjusted EBITDA guide; The post-transaction debt balance and share count in the first Transition Period 10-Q; Any underwritten shelf takedown by LOR, Inc.; An engine re-extract picking up the FY2026 10-K and the current cover-page share count</p><p><strong>Data quality.</strong> The two flags raised (<code>negative_fcf_year_in_window</code>, <code>lumpy_fcff_spread_2.6x_of_mean</code>) both describe the standalone history and neither points at the defect that decides the name. This is the SM and HOG shape with a new mechanism: a completed acquisition inside the window where the share count is not merely stale but predates the closing by two weeks, so <code>shares_asof</code> of 2026-05-01 looks perfectly fresh — four days old at extract time — while missing a 33% share issuance that settled on 2026-05-15. A freshness test on <code>shares_asof</code> cannot catch this; the test that would is comparing <code>shares_asof</code> against the dates of item 2.01 8-Ks, of which this name has one, filed 2026-05-15. The engine also still labels the balance sheet &#x27;2026-03-29 (10-K)&#x27; when a 10-K for the year ended 2026-06-30 was filed 2026-09-10.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1638290/000119312526387432/mcft-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1638290/000119312526387432/mcft-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1638290/000119312526387237/mcft-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1638290/000119312526387237/mcft-ex99_1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1638290/000119312526226778/d123539d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1638290/000119312526226778/d123539d8k.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/09/10/mastercraft-mcft-q4-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/09/10/mastercraft-mcft-q4-2026-earnings-call-transcript/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/MCFT.md'>research/Consumer Discretionary/MCFT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

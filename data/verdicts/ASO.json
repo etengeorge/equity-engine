@@ -1,0 +1,188 @@
+{
+  "ticker": "ASO",
+  "date": "2026-09-15",
+  "sector": "Consumer Discretionary",
+  "name": "ACADEMY SPORTS AND OUTDOORS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.01,
+  "bear_growth": -0.03,
+  "bull_growth": 0.05,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 54.25,
+  "market_implied_growth": 0.007150350443462128,
+  "cohort_pct": 50.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.01,
+    "market_implied_growth": 0.007150350443462128,
+    "growth_delta": 0.0028496495565378723,
+    "fair_value": 54.951089381855866,
+    "price": 54.25,
+    "gap": 0.012923306577988347,
+    "fair_value_band": {
+      "low": 48.08944970098928,
+      "point": 54.951089381855866,
+      "high": 63.98720012476606
+    },
+    "fcff_base_used": 265716833.3333333,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09305972172060736,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 265716833.3333333,
+      "price": 54.25,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.07305972172060736,
+              "fair_value": 63.35277372018782,
+              "gap": 0.16779306396659566
+            },
+            {
+              "wacc": 0.08305972172060737,
+              "fair_value": 53.1651031234093,
+              "gap": -0.019998099107662592
+            },
+            {
+              "wacc": 0.09305972172060736,
+              "fair_value": 45.75926970480394,
+              "gap": -0.15651115751513478
+            },
+            {
+              "wacc": 0.10305972172060736,
+              "fair_value": 40.13079904099349,
+              "gap": -0.26026176882961316
+            },
+            {
+              "wacc": 0.11305972172060737,
+              "fair_value": 35.706957121129605,
+              "gap": -0.34180724200682755
+            }
+          ],
+          "fair_value_at_point_wacc": 45.75926970480394,
+          "gap_at_point_wacc": -0.15651115751513478
+        },
+        {
+          "case": "base",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.07305972172060736,
+              "fair_value": 76.42712679349108,
+              "gap": 0.40879496393531944
+            },
+            {
+              "wacc": 0.08305972172060737,
+              "fair_value": 63.98720012476606,
+              "gap": 0.17948755990352194
+            },
+            {
+              "wacc": 0.09305972172060736,
+              "fair_value": 54.951089381855866,
+              "gap": 0.012923306577988347
+            },
+            {
+              "wacc": 0.10305972172060736,
+              "fair_value": 48.08944970098928,
+              "gap": -0.11355853085734047
+            },
+            {
+              "wacc": 0.11305972172060737,
+              "fair_value": 42.7013440723374,
+              "gap": -0.21287845027949492
+            }
+          ],
+          "fair_value_at_point_wacc": 54.951089381855866,
+          "gap_at_point_wacc": 0.012923306577988347
+        },
+        {
+          "case": "bull",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.07305972172060736,
+              "fair_value": 91.61983864647401,
+              "gap": 0.6888449520087374
+            },
+            {
+              "wacc": 0.08305972172060737,
+              "fair_value": 76.54395106760586,
+              "gap": 0.41094840677614486
+            },
+            {
+              "wacc": 0.09305972172060736,
+              "fair_value": 65.60049495690339,
+              "gap": 0.2092257134913067
+            },
+            {
+              "wacc": 0.10305972172060736,
+              "fair_value": 57.296670628809615,
+              "gap": 0.056159827259163464
+            },
+            {
+              "wacc": 0.11305972172060737,
+              "fair_value": 50.7813420421578,
+              "gap": -0.06393839553626168
+            }
+          ],
+          "fair_value_at_point_wacc": 65.60049495690339,
+          "gap_at_point_wacc": 0.2092257134913067
+        }
+      ],
+      "summary": {
+        "bear": -0.15651115751513478,
+        "base": 0.012923306577988347,
+        "bull": 0.2092257134913067
+      },
+      "downside": -0.34180724200682755,
+      "upside": 0.6888449520087374
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The stock is up 20.7% in five days on 2.3x volume, and my own reading says the quarter contained no incremental profit. That is an argument for RICH, not no_edge: the EPS guidance raise is arithmetic on the denominator, fiscal 2027 laps a quantified margin benefit, and comps are negative. If the market has re-rated a retailer for a buyback, the re-rating should unwind.",
+    "what_would_prove_it": "Q3 and Q4 gross margin ex-refund against the 34.8% fiscal 2025 base, and whether the unchanged $390-415M net income guide is met at the low or high end. A Q3 gross margin below ~34.5% ex-refund with comps still negative would confirm that the margin structure is deteriorating underneath.",
+    "already_visible": "The guidance table settles the profit question and it is unambiguous. Sales guidance unchanged, GAAP net income guidance unchanged at both ends, adjusted net income guidance unchanged at both ends \u2014 and the EPS raise reconciles EXACTLY to the share count: $390-415M over 64.5M diluted shares is $6.05-6.43 against the new $6.05-6.45 guide, where 66.0M gave $5.91-6.29 against the old $5.95-6.35. Not one incremental dollar of profit was guided. What I could NOT establish is that this makes the stock rich, because the reverse DCF only asks for +0.7% growth, and a retailer retiring 5% of its shares a year clears that bar on buybacks alone.",
+    "unresolved": "I could not size the gross tariff benefit. Academy discloses the NET EPS impact ($0.06, 'including reinvestments') and the $61.8M monetisation loss, but not the gross refund, so I cannot compute an ex-refund gross margin the way AEO, SIG and JILL permitted. The 100bp gross-margin guidance raise against an unchanged net income guide is the best available proxy and it is indirect."
+  },
+  "what_changed": "Q2 fiscal 2026 (8-K/EX-99.1 and 10-Q, both 2026-09-09; quarter ended 2026-08-01), which the screen's extract does not yet contain \u2014 its balance sheet is dated 2026-05-02, a quarter stale. Net sales +3.0% to $1,647.3M, comparable sales NEGATIVE 0.4%, eCommerce +12.8%, GAAP diluted EPS $2.17 (+17.3%). Gross margin 40.4% against 36.0%, up 440bp. The company discloses the net tariff refund impact to EPS as $0.06 including reinvestments, and books a 'Loss on tariff refund monetization' of $61,759 thousand with a 'Remittance of tariff refund claims' of $(72,224) thousand \u2014 i.e. Academy SOLD its IEEPA refund claims to a third party at a discount, and that loss is already inside the GAAP result. Guidance: full-year net sales UNCHANGED at $6,230-6,355M, GAAP net income UNCHANGED at $390-415M, adjusted net income UNCHANGED at $420-445M, gross margin rate RAISED 100bp to 35.5-36.0%, adjusted free cash flow raised to $300-350M from $250-300M. The CEO flags pressure on lower-income households.",
+  "consensus_case": "At $54.25 the price requires only +0.7% FCFF growth for five years, which is a low bar and a defensible one. Academy earns $265-330M of free cash flow a year on a $3.5B enterprise value, opened 24 stores in fiscal 2025 and plans more than a dozen in the back half of 2026, and is retiring roughly 5% of its shares a year \u2014 $182.1M of buybacks in the first half alone, up 82%. Diluted share count guidance fell from 66.0M to 64.5M in one quarter. A buyer at $54 does not need comps to grow; they need Academy to hold roughly flat cash flow while the share count shrinks. Given 327 stores, a 4.4% inventory build against 4.7% sales growth, and $298M of cash against $494M of long-term debt, that is a reasonable thing to underwrite.",
+  "base_case_rationale": "Academy is a low-single-digit-growth retailer whose unit economics are flat and whose per-share compounding comes from buybacks rather than the business. Comps were -0.4% in the quarter and +1.1% year to date against a 7% larger store base, so sales per store are falling; inventory per store is down 5.6% in units and 2.3% in dollars, which is disciplined but not expansionary. The engine's $265.7M base is the mean of [$222.1M, $328.5M, $328.0M] and is slightly understated because the extract tags interest as NEGATIVE $36.2M (net interest income) and subtracts the after-tax figure rather than adding it \u2014 worth about $27M, under one point of implied growth. Against the company's own $300-350M adjusted free cash flow guide, which includes the refund cash, an ex-refund $250-300M is the honest forward number, so the engine's base is about right. I take +1% real FCFF growth: new stores roughly offsetting negative comps, with no credit for a consumer recovery.",
+  "key_risks": [
+    "Fiscal 2027 laps roughly 100bp of tariff-driven gross margin with no offset \u2014 a dated, mechanical headwind",
+    "Comparable sales are negative against a 7% larger store base, so sales per store are declining",
+    "Management explicitly flags pressure on lower-income households, which is Academy's core customer",
+    "The five-day +20.7% move discounts an EPS raise that contains no incremental profit dollar"
+  ],
+  "watch_for": [
+    "Q3 gross margin ex-refund against the 34.8% fiscal 2025 rate",
+    "Whether GAAP net income lands at the low or high end of the unchanged $390-415M guide",
+    "Comp trend turning positive, or the buyback pace slowing below ~5% of shares a year",
+    "Disclosure of the gross IEEPA refund amount in the 10-K"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000102/aso-20260801.htm",
+    "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000100/aso-20260909.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/09/10/academy-sports-aso-q2-2027-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/academy-sports-aso-turns-tariff-105619595.html"
+  ],
+  "flags": [
+    "operating_leases_37%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}
