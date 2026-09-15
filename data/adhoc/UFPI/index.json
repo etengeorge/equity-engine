@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-15T11:27:28+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "UFPI",
+    "cik": 912767,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000110465926090859/ufpi-20260627x10q.htm",
+        "file": "2026-08-05-10-Q-ufpi-20260627x10q.htm.txt",
+        "chars": 203313,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730x8k.htm",
+        "file": "2026-07-30-8-K-ufpi-20260730x8k.htm.txt",
+        "chars": 3512,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729x8k.htm",
+        "file": "2026-07-29-8-K-ufpi-20260729x8k.htm.txt",
+        "chars": 3419,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-22",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000039/ufpi-20260722x8k.htm",
+        "file": "2026-07-22-8-K-ufpi-20260722x8k.htm.txt",
+        "chars": 3348,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-01",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000035/ufpi-20260529x8k.htm",
+        "file": "2026-06-01-8-K-ufpi-20260529x8k.htm.txt",
+        "chars": 4011,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000110465926056076/ufpi-20260328x10q.htm",
+        "file": "2026-05-06-10-Q-ufpi-20260328x10q.htm.txt",
+        "chars": 163891,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000028/ufpi-20260504x8k.htm",
+        "file": "2026-05-04-8-K-ufpi-20260504x8k.htm.txt",
+        "chars": 3455,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000026/ufpi-20260430x8k.htm",
+        "file": "2026-04-30-8-K-ufpi-20260430x8k.htm.txt",
+        "chars": 3513,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000048/ufpi-20260730xex99d1.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 22504,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000044/ufpi-20260729xex99d1.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 56611,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-04",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000028/ufpi-20260504xex99d1.htm",
+        "file": "2026-05-04-EX-99.1.txt",
+        "chars": 3079,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000026/ufpi-20260430xex99d1.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 22315,
+        "truncated": false
+      }
+    ]
+  }
+}

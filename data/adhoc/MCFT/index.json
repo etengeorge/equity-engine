@@ -1,0 +1,140 @@
+{
+  "fetched_utc": "2026-09-15T11:27:11+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "MCFT",
+    "cik": 1638290,
+    "documents": [
+      {
+        "form": "10-K",
+        "filed": "2026-09-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526387432/mcft-20260630.htm",
+        "file": "2026-09-10-10-K-mcft-20260630.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526387237/mcft-20260910.htm",
+        "file": "2026-09-10-8-K-mcft-20260910.htm.txt",
+        "chars": 3589,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-30",
+        "items": "5.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526290514/mcft-20260630.htm",
+        "file": "2026-06-30-8-K-mcft-20260630.htm.txt",
+        "chars": 4799,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-22",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526235547/d127092d8k.htm",
+        "file": "2026-05-22-8-K-d127092d8k.htm.txt",
+        "chars": 5283,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-15",
+        "items": "2.01,5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526226778/d123539d8k.htm",
+        "file": "2026-05-15-8-K-d123539d8k.htm.txt",
+        "chars": 14037,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-12",
+        "items": "5.07,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526219537/d147979d8k.htm",
+        "file": "2026-05-12-8-K-d147979d8k.htm.txt",
+        "chars": 12090,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526211213/mcft-20260329.htm",
+        "file": "2026-05-07-10-Q-mcft-20260329.htm.txt",
+        "chars": 96324,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526210365/mcft-20260507.htm",
+        "file": "2026-05-07-8-K-mcft-20260507.htm.txt",
+        "chars": 11558,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526387237/mcft-ex99_1.htm",
+        "file": "2026-09-10-EX-99.1.txt",
+        "chars": 31763,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-15",
+        "items": [
+          "2.01",
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "completion of an acquisition or disposition",
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526226778/d123539dex991.htm",
+        "file": "2026-05-15-EX-99.1.txt",
+        "chars": 5871,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526210365/mcft-ex99_1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 27446,
+        "truncated": false
+      }
+    ]
+  }
+}

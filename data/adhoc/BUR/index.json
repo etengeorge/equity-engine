@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-07T11:29:26+00:00",
+  "fetched_utc": "2026-09-15T11:26:56+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "BUR",
     "cik": 1714174,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000099/bur-20260914.htm",
+        "file": "2026-09-14-8-K-bur-20260914.htm.txt",
+        "chars": 4525,
+        "truncated": false
+      },
       {
         "form": "10-Q",
         "filed": "2026-08-06",
@@ -67,15 +76,6 @@
         "file": "2026-03-06-8-K-bur-20260303.htm.txt",
         "chars": 5582,
         "truncated": false
-      },
-      {
-        "form": "10-K",
-        "filed": "2026-02-26",
-        "items": "",
-        "url": "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000007/bur-20251231.htm",
-        "file": "2026-02-26-10-K-bur-20251231.htm.txt",
-        "chars": 400145,
-        "truncated": true
       },
       {
         "filed": "2026-08-06",

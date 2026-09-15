@@ -1,0 +1,180 @@
+{
+  "fetched_utc": "2026-09-15T11:26:59+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "PATK",
+    "cik": 76605,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000084/patk-20260904.htm",
+        "file": "2026-09-10-8-K-patk-20260904.htm.txt",
+        "chars": 11532,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000080/patk-20260805.htm",
+        "file": "2026-08-10-8-K-patk-20260805.htm.txt",
+        "chars": 13925,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000075/patk-20260628.htm",
+        "file": "2026-08-06-10-Q-patk-20260628.htm.txt",
+        "chars": 148743,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000069/patk-20260730.htm",
+        "file": "2026-07-30-8-K-patk-20260730.htm.txt",
+        "chars": 3456,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-30",
+        "items": "1.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000059/patk-20260630.htm",
+        "file": "2026-06-30-8-K-patk-20260630.htm.txt",
+        "chars": 29296,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.07,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000052/patk-20260514.htm",
+        "file": "2026-05-18-8-K-patk-20260514.htm.txt",
+        "chars": 4749,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000050/patk-20260329.htm",
+        "file": "2026-05-07-10-Q-patk-20260329.htm.txt",
+        "chars": 105880,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000048/patk-20260504.htm",
+        "file": "2026-05-07-8-K-patk-20260504.htm.txt",
+        "chars": 3072,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EARNINGS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000069/earningsrelease.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 31191,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-30",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000059/patrickindustriespressre.htm",
+        "file": "2026-06-30-EX-99.1.txt",
+        "chars": 21854,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-30",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000059/patrickindustries_lciind.htm",
+        "file": "2026-06-30-EX-99.2.txt",
+        "chars": 49,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-18",
+        "items": [
+          "5.07",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "5.07",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000052/patkq22026dividendnr_fin.htm",
+        "file": "2026-05-18-EX-99.1.txt",
+        "chars": 2877,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/76605/000007660526000048/patknr5326final.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 4015,
+        "truncated": false
+      }
+    ]
+  }
+}

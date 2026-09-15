@@ -1,0 +1,202 @@
+{
+  "fetched_utc": "2026-09-15T11:27:23+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ASO",
+    "cik": 1817358,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-09-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000149/aso-20260801.htm",
+        "file": "2026-09-09-10-Q-aso-20260801.htm.txt",
+        "chars": 123942,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-09",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000146/aso-20260909.htm",
+        "file": "2026-09-09-8-K-aso-20260909.htm.txt",
+        "chars": 4656,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000113/aso-20260502.htm",
+        "file": "2026-06-10-10-Q-aso-20260502.htm.txt",
+        "chars": 112783,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-09",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000105/aso-20260609.htm",
+        "file": "2026-06-09-8-K-aso-20260609.htm.txt",
+        "chars": 4621,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.07,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000099/aso-20260604.htm",
+        "file": "2026-06-04-8-K-aso-20260604.htm.txt",
+        "chars": 4476,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "1.01,1.02,2.03,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000114036126021318/ef20073235_8k.htm",
+        "file": "2026-05-14-8-K-ef20073235_8k.htm.txt",
+        "chars": 11396,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000070/aso-20260504.htm",
+        "file": "2026-05-04-8-K-aso-20260504.htm.txt",
+        "chars": 3808,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000067/aso-20260504.htm",
+        "file": "2026-05-04-8-K-aso-20260504.htm.txt",
+        "chars": 4855,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000146/exhibit991pressreleaseq220.htm",
+        "file": "2026-09-09-EX-99.1.txt",
+        "chars": 25018,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000146/q22026earningspresentati.htm",
+        "file": "2026-09-09-EX-99.2.txt",
+        "chars": 12962,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000105/exhibit991pressreleaseq120.htm",
+        "file": "2026-06-09-EX-99.1.txt",
+        "chars": 21716,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000105/q126earningspresentation.htm",
+        "file": "2026-06-09-EX-99.2.txt",
+        "chars": 12201,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-14",
+        "items": [
+          "1.01",
+          "1.02",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "termination of a material agreement",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000114036126021318/ef20073235_ex99-1.htm",
+        "file": "2026-05-14-EX-99.1.txt",
+        "chars": 2812,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-04",
+        "items": [
+          "7.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000070/a2026pressrelease-asoincan.htm",
+        "file": "2026-05-04-EX-99.1.txt",
+        "chars": 4770,
+        "truncated": false
+      }
+    ]
+  }
+}
