@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>JBI — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / JBI</p><h1>JBI <span style='color:var(--faint);font-weight:400'>JANUS INTERNATIONAL GROUP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$4.45</b></div><div>Analyst gap<b>+27%</b></div><div>Dated<b>2026-09-16</b></div></div><div class='prose'><h1>JBI — JANUS INTERNATIONAL GROUP</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-16 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $4.45 · fair value $5.65 · gap +27.0%</li><li><strong>Growth:</strong> market implies -15.8%, analyst says -5.0% (delta +10.8%)</li><li><strong>FCFF base overridden</strong> by the analyst to $138.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 8.8% | 9.8% | 10.8% | 11.8% | 12.8% | |---|---|---|---|---|---|---| | bear | -12.0% | $5.01 | $4.06 | $3.32 | $2.74 | $2.26 | | base | -5.0% | $8.10 | $6.72 | $5.65 | $4.80 | $4.11 | | bull | +3.0% | $12.82 | $10.77 | $9.19 | $7.93 | $6.90 |</p><p>At the point WACC of 10.8%: bear -25.3%, base +27.0%, bull +106.5% Across the whole grid the gap ranges -49.3% to +188.2% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $4.45, down 57% over twelve months, the market is pricing Janus as a business whose end market has structurally reset rather than cyclically dipped. North American self-storage new construction tripled through 2021-2023 when street rates and cap rates made development trivially financeable; that condition has reversed, and the self-storage REITs have cut development pipelines. Janus&#x27;s own guidance concedes the point: full-year 2026 revenue of $925-945M is up 5.7% at the midpoint while adjusted EBITDA of $150-170M is DOWN 4.9%, and the revenue growth is entirely acquired - Kiwi II Construction contributed $19.2M in the second quarter alone. Strip that out and organic revenue is falling. The market&#x27;s implied decline is therefore not an overreaction; it is an extrapolation of a margin structure that has gone from roughly 28% adjusted EBITDA margin at the 2023 peak to a guided 17.1%.</p><p><strong>What changed.</strong> Q2 2026 (2026-08-11): revenue $233.5M, up 2.4%, below expectations; shares fell 14%. Total Self-Storage revenues +15.4% (New Construction +20.3%, R3 +6.6%) but Commercial and Other -21.2%. Full-year guidance CUT to revenue $925-945M and adjusted EBITDA $150-170M, with management now expecting North America ORGANIC self-storage revenues to decline high single digits in 2026 and citing project delays and extended timelines at Kiwi II. Six-month operating cash flow $60.6M and free cash flow $55.0M; trailing-twelve-month free cash flow conversion of adjusted net income 129%. Surpassed 500,000 installed Noke units. Repurchased ~367,000 shares for $1.9M. On 2026-02-02 the First Lien Term Loan was repriced 50bp tighter (Amendment No. 8); the rate at 2026-07-04 was 5.62%, maturity 2030.</p><p><strong>Base case.</strong> The engine&#x27;s $193.0M base cannot be right: it exceeds the company&#x27;s own guided full-year adjusted EBITDA midpoint of $160M, which is arithmetically impossible for a business that also pays cash interest, cash taxes and capex. Rebuilding it from the guidance - first-half free cash flow of $55.0M with a stronger declared second half gives roughly $110-120M for the year, plus after-tax interest of about $23M - puts the true base near $138M, some 40% below the engine&#x27;s. On growth, I underwrite -5%: Commercial is shrinking at a 21% rate and organic self-storage at high single digits, against which R3 retrofit (counter-cyclical, since it monetises existing facilities rather than new ones) and the 500,000-unit Noke installed base provide a partial and slow offset. I do not underwrite a return to 2023 volumes inside five years, because the rate environment that produced them has not returned and the REIT development pipelines are the binding constraint.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That this is a cyclical trough being mistaken for a secular decline, which is the single most common way a screen like this throws away a real opportunity. Self-storage new construction is one of the most rate-sensitive end markets in building products; it did not disappear, it was deferred, and deferred construction returns. Janus is not a distressed issuer while it waits: it generated $55.0M of free cash flow in a bad first half, its trailing free cash flow conversion is 129% of adjusted net income, it repriced its term loan 50bp TIGHTER in February 2026 at 5.62% with no maturity until 2030, and it is buying back stock. At $4.45 the equity is $607M against a business still converting north of $100M a year. The market requiring a 6-8% annual DECLINE for five consecutive years is a bet that nothing ever recovers, and the engine&#x27;s flag - possible_trough_cycle_base at 0.58x - is pointing at something real even if its arithmetic is wrong.</li><li>What would prove it: Self-storage REIT 2027 development guidance (Public Storage, Extra Space, CubeSmart capital plans), and Janus&#x27;s own New Construction order book and backlog commentary at Q3 2026 - specifically whether New Construction growth, currently +20.3%, is being sustained organically once Kiwi II laps.</li><li>Already visible today: Enough to stop me calling this cheap, but not enough to dismiss the counter, which is why this lands at no_edge rather than a verdict in either direction. Supporting the counter: New Construction revenue is genuinely growing 20.3% and R3 6.6%, so the self-storage side is not collapsing - the 21.2% decline is Commercial, a different end market. Against it: the margin evidence is the problem. Revenue is guided UP 5.7% while adjusted EBITDA is guided DOWN 4.9%, which means Janus is buying revenue through Kiwi II at margins well below its own, and the incremental business is dilutive. That is the EFOR pattern - flat-to-growing headline revenue purchased with acquisition cash that CFO-less-capex never charges for - and it means the organic business is worse than the headline. On the corrected base the market requires -6% to -8%, not the -15.8% the screen reported, so the counter&#x27;s strongest quantitative claim (that the market demands an absurd decline) mostly dissolves once the base is right.</li><li>Left unresolved: Whether the 129% free cash flow conversion is sustainable or is working capital releasing as volumes fall - a shrinking manufacturer liquidates inventory and receivables, which flatters cash conversion exactly when earnings deteriorate, and I could not separate the two from the disclosure available.</li></ul><p><strong>Key risks.</strong> Gross leverage of roughly 3.4x ($538.9M term debt against $150-170M guided adjusted EBITDA) into a declining EBITDA base; Adjusted EBITDA margin compression from ~28% at the 2023 peak to 17.1% guided, with no demonstrated floor; Revenue growth is entirely acquired (Kiwi II) and the acquisition is already reporting project delays and extended timelines; Commercial and Other declining 21.2% with no stated stabilisation plan; Free cash flow conversion of 129% may be working-capital release rather than earnings quality <strong>Watch for.</strong> Self-storage REIT 2027 development capital plans - the actual driver of New Construction; Organic New Construction growth once Kiwi II laps in 2027; Whether Noke&#x27;s 500,000 installed units begin producing disclosed recurring revenue</p><p><strong>Data quality.</strong> The single flag raised, possible_trough_cycle_base_newest_fcf_0.58x, is real but its advisory text (&#x27;growth applied to a trough understates value&#x27;) is backwards here, exactly as the AMR/LPG lesson warns - the oldest year in the window is Janus&#x27;s 2023 peak, so the mean is a peak artifact, not a trough. Two unflagged errors inflate the base by roughly 40%. (1) The base of $193.0M EXCEEDS the company&#x27;s own guided full-year adjusted EBITDA midpoint of $160M, which is impossible; the HOG detector - compare the FCFF base against the company&#x27;s own forward guidance - fires loudly and was not run. (2) The after-tax interest add-back is built on a STALE interest expense. The extract carries interest_expense of $60M against total_debt of $538.9M, an implied rate of 11.0%, while the Q2 10-Q reports net interest expense of $15.5M for six months (about $31M annualised) at a stated 5.62% rate following the February 2026 repricing. That inflates the add-back from roughly $23M to $45M. This is a NEW direction on the ALTG detector: that test screens for an implied rate ABOVE 12% as evidence of understated debt, and 11.0% sits just beneath the threshold - but an OVERSTATED interest expense inflates the FCFF numerator rather than deflating enterprise value, so it manufactures cheapness through a different channel. Extend the detector to flag any implied rate materially above the rate the filing actually states. Correcting both moves the required growth from -15.8% to about -8%, and the +235.7% gap at the 99th percentile of 151 Industrials is substantially an artifact.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/19/janus-international-jbi-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/19/janus-international-jbi-q2-2026-earnings-call-transcript/</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/janus-international-shares-tumble-14-140610972.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/janus-international-shares-tumble-14-140610972.html</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/JBI.md'>research/Industrials/JBI.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

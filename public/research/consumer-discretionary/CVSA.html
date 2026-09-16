@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CVSA — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / CVSA</p><h1>CVSA <span style='color:var(--faint);font-weight:400'>COVISTA</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$126.28</b></div><div>Analyst gap<b>+1%</b></div><div>Dated<b>2026-09-16</b></div></div><div class='prose'><h1>CVSA — COVISTA</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-16 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $126.28 · fair value $127.55 · gap +1.0%</li><li><strong>Growth:</strong> market implies -0.4%, analyst says +2.5% (delta +2.9%)</li><li><strong>FCFF base overridden</strong> by the analyst to $305.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.9% | 7.9% | 8.9% | 9.9% | 10.9% | |---|---|---|---|---|---|---| | bear | -5.0% | $127.27 | $105.28 | $89.61 | $77.88 | $68.76 | | base | +2.5% | $182.38 | $150.34 | $127.55 | $110.51 | $97.29 | | bull | +8.0% | $233.83 | $192.32 | $162.82 | $140.78 | $123.69 |</p><p>At the point WACC of 8.9%: bear -29.0%, base +1.0%, bull +28.9% Across the whole grid the gap ranges -45.6% to +85.2% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $126.28 the market implies roughly zero five-year FCFF growth for a company that has just guided fiscal 2027 revenue up 5-7% and adjusted EPS up 8-11%. Those two facts only reconcile through dated legal events the model cannot see, and Covista&#x27;s own 10-K names three. The One Big Beautiful Bill Act eliminated or restricted Grad PLUS and imposed new annual, aggregate and lifetime federal borrowing limits effective 2026-07-01 - the first day of Covista&#x27;s fiscal 2027 - applying prospectively to new borrowers. The Act&#x27;s &#x27;Do No Harm&#x27; provisions, with implementing regulations published 2026-07-01 and generally effective 2027-07-01, strip Title IV eligibility from any graduate or professional programme whose completers do not out-earn a bachelor&#x27;s-degree population in two years of three. And ED has placed BOTH Chamberlain and Walden - the two largest institutions - on PROVISIONAL certification through 2028-12-31, a status under which ED may revoke participation without advance notice. The market is not being pessimistic about a healthcare educator; it is pricing a stack of regulatory cliffs that bite in fiscal 2028-2030 as grandfathering runs off.</p><p><strong>What changed.</strong> The company renamed itself from Adtalem Global Education to Covista on 2026-02-05 and began trading as CVSA on 2026-02-24, which is why the filing history switches prefix mid-stream. Fiscal 2026 results (2026-08-06, year ended 2026-06-30): revenue +9.3%, Q4 revenue +9.7% and total enrollment +8.4%, diluted EPS $7.04, adjusted EPS $8.25 (+23.7%), net leverage 0.5x. Walden total enrollment up 14% to nearly 55,000. Chamberlain total enrollment growth accelerated to 1.6%. Fiscal 2027 guidance initiated: revenue $2,050-2,090M (+5-7%), adjusted EPS $8.90-9.15 (+8-11%). Management states that loan caps and Grad PLUS elimination are not dampening demand, citing alternative financing and grandfathering.</p><p><strong>Base case.</strong> I underwrite +2.5%, which is two years of the guided high-single-digit growth followed by three years of erosion as the grandfathering on Grad PLUS runs off and the Do No Harm earnings test begins removing programmes. The exposure is not evenly distributed and that is what makes the middle of the range right rather than either end. Chamberlain is predominantly undergraduate nursing funded by Direct Loans, which Grad PLUS elimination does not touch, and it is the institution with accelerating enrollment. Walden, at nearly 55,000 students, is overwhelmingly graduate and concentrated in exactly the low-earning fields - education, counselling, social work - that the Do No Harm test is designed to catch. The medical and veterinary schools are the sharpest exposure per student: a Caribbean MD costs well above the new professional lifetime cap, so those students face a funding gap federal loans will no longer close. Management&#x27;s answer is private lending and grandfathering; grandfathering is a fact and defers the problem, private lending at that scale to those borrowers is a claim about a market that may not exist.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I have been captured by a risk-factor section and am ignoring the operating record. Covista just EXCEEDED its own guidance, grew revenue 9.3%, grew adjusted EPS 23.7%, guided a further 8-11% into the first year of the new regime, and carries net leverage of 0.5x with the balance sheet to buy back stock aggressively. Every for-profit education regulatory scare of the last fifteen years - gainful employment, the 90/10 rule, borrower defense - was priced as terminal and most were litigated, delayed, softened or repealed before they bit; &#x27;Do No Harm&#x27; regulations effective 2027-07-01 with a two-of-three-year measurement window do not remove a single dollar of revenue before 2030, by which time the political composition of ED may have changed twice. On that reading a 13x multiple of owner earnings for a business compounding high single digits is simply cheap, and the +72.2% baseline gap is real.</li><li>What would prove it: Walden&#x27;s new-enrollment growth in the fiscal 2027 quarters - specifically the first cohorts who enroll AFTER 2026-07-01 and are therefore not grandfathered. That is the cleanest available read on whether the funding gap suppresses demand, and it arrives quarterly starting with the November 2026 report.</li><li>Already visible today: Not yet, and that is the honest state of it - the first non-grandfathered cohort has barely enrolled, so the decisive evidence does not exist at the date of this verdict. What IS visible cuts both ways. For the counter: Chamberlain&#x27;s enrollment growth ACCELERATED to 1.6% and Walden&#x27;s rose 14%, both measured into the announcement of these changes, so there is no demand damage in the data yet. Against it: those are grandfathered students, so their behaviour tells us nothing about the cohorts that matter, and the provisional certification of BOTH Chamberlain and Walden through 2028-12-31 is a present fact rather than a future risk - it is a status in which ED &#x27;may seek to revoke the institution&#x27;s certification without advance notice&#x27;, and it applies to essentially the whole company. The counter is strong enough that I will not call this rich; it is not strong enough to make a company facing three dated regulatory events a buy at a price that already implies near-zero growth. That is a no_edge, and I would rather own the question than the answer.</li><li>Left unresolved: The share of revenue attributable to graduate and professional students dependent on Grad PLUS. I could not find a disclosure breaking revenue by loan programme, and without it I cannot size the cliff - I can only establish that it exists, is dated, and is concentrated in Walden and the medical/veterinary schools. That is the single most valuable missing number on this name.</li></ul><p><strong>Key risks.</strong> Grad PLUS elimination and new lifetime borrowing caps effective 2026-07-01, prospective to new borrowers, with grandfathering deferring rather than removing the impact; OBBBA &#x27;Do No Harm&#x27; earnings accountability effective 2027-07-01 - graduate programmes lose Title IV if completers do not out-earn a bachelor&#x27;s population in two of three years; BOTH Chamberlain and Walden hold only PROVISIONAL ED certification through 2028-12-31, revocable without advance notice; 90/10 rule exposure as a proprietary institution; Medical and veterinary school students face costs well above the new professional lifetime cap with no federal instrument to close the gap <strong>Watch for.</strong> Walden new-enrollment growth for the first non-grandfathered cohorts, from the November 2026 report onward; ED action on the Chamberlain and Walden provisional PPAs ahead of 2028-12-31; First programmatic earnings data published under the Do No Harm framework; Any disclosure of revenue by federal loan programme, which would size the exposure</p><p><strong>Data quality.</strong> The brief raised NO flags and the extract is genuinely current - the 10-K balance sheet is 2026-06-30 and shares_asof is 2026-07-31, so there is no staleness defect here. The gap is not a data artifact; it is a mechanism the engine cannot see, and this is the THIRD instance of the IRWD/HRMY signature in nine sessions, now outside pharma: flat-to-negative implied growth while the company guides growth is a dated legal or regulatory cliff, not pessimism. The generalisation is worth carrying - in for-profit education the cliff is a stack of three rather than a single patent expiry. On the stock-compensation flag (12% of the FCFF base), I applied the BOX rule and went and got the net share count rather than settling from the two endpoints the brief prints: weighted-average basic shares are 35,045 / 37,085 / 39,413 thousand for fiscal 2026 / 2025 / 2024, an 11.1% reduction in two years NET of all stock compensation. Because the count is shrinking while absorbing every dollar of compensation, the cash needed merely to hold it flat is roughly the compensation value itself, so owner earnings land close to the expensed figure - I use $305M against the engine&#x27;s reported $343.1M and its ex-SBC $306.9M. Unlike BOX, where the net count decided the question in the company&#x27;s favour, here it lands on the expensed end. At that base the market implies +2.1%, not -0.4%. Note also that CIK 730464 is Adtalem&#x27;s; the ticker and name changed in February 2026 and the engine handled it correctly.</p><p><em>Horizon: 36 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/730464/000110465926092044/cvsa-20260630x10k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/730464/000110465926092044/cvsa-20260630x10k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806xex99d1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806xex99d1.htm</a></li><li><a href="https://secure.businesswire.com/news/home/20260806254421/en/Covista-Announces-Fiscal-Year-2026-Results-Exceeds-Financial-Guidance-Initiates-Fiscal-Year-2027-Guidance" rel="noopener">https://secure.businesswire.com/news/home/20260806254421/en/Covista-Announces-Fiscal-Year-2026-Results-Exceeds-Financial-Guidance-Initiates-Fiscal-Year-2027-Guidance</a></li><li><a href="https://www.businesswire.com/news/home/20260205325750/en/Adtalem-Global-Education-Becomes-Covista" rel="noopener">https://www.businesswire.com/news/home/20260205325750/en/Adtalem-Global-Education-Becomes-Covista</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/CVSA.md'>research/Consumer Discretionary/CVSA.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

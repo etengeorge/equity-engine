@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HUBG — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / HUBG</p><h1>HUBG <span style='color:var(--faint);font-weight:400'>HUB GROUP CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$33.45</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-16</b></div></div><div class='prose'><h1>HUBG — HUB GROUP CLASS A</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-16 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $33.45</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $33.45 the market is pricing a logistics company that has told the SEC twice that its own financial statements cannot be relied upon, has not filed a 2025 10-K or either 2026 10-Q, expects a Nasdaq delisting determination, and has pre-announced an operating LOSS for the first half of 2026. The price is not a cash-flow opinion; it is a discount for un-auditable financials plus optionality on the restatement landing without further damage. Intermodal volumes and pricing are actually firming (the company cites tightening market capacity and over-the-road conversion), so the equity is a bet that the accounting problem is contained to purchased-transportation accruals and that the franchise survives the listing process intact.</p><p><strong>What changed.</strong> Everything material postdates the last reliable filing. 2026-02-05: Item 4.02 8-K - Q1/Q2/Q3 2025 financials materially misstated by an understatement of purchased transportation costs and accounts payable, no longer to be relied upon. 2026-05-12: SECOND Item 4.02 extending the review to the 2024 AND 2023 financial statements. 2026-09-14: preliminary H1 2026 revenue $1.70-1.80B with an anticipated OPERATING LOSS before one-time charges; full-year revenue guided $3.6-3.8B; cash ~$132M, debt ~$198M, net debt ~$66M at 2026-06-30, plus a $75M revolver draw in August. Nasdaq exception expired 2026-09-14 and the company expects a Staff Delisting Determination it intends to appeal. Credit agreement amended 2026-09-11 to push the filing deadline to 2026-11-30. David Yeager returned as CEO; Patrick O&#x27;Donnell appointed CFO.</p><p><strong>Base case.</strong> No defensible base case exists. The engine&#x27;s $231.6M FCFF base is the mean of CFO-less-capex for fiscal 2024, 2023 and 2022. The company has formally repudiated 2024 and 2023, and 2022 is the freight-cycle peak (revenue $5.3B against $3.6-3.8B guided for 2026). There is no audited, unrepudiated cash-flow year in the window. Supplying a growth rate here would price a restated set of numbers nobody has seen, including management.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That &#x27;no_model&#x27; is an over-reaction to a bookkeeping error. The misstatement was an understatement of an ACCRUAL - purchased transportation costs and accounts payable - which is a timing and liability-recognition problem, not a cash problem. Cash is cash: the company disclosed $132M of cash and $198M of debt at 2026-06-30, and those figures are not in dispute. On that view the restatement re-cuts the income statement between periods while the cumulative cash flow over 2023-2026 is roughly unchanged, and a $231.6M normalized FCFF base might survive largely intact. The market&#x27;s -13.9% implied growth would then be a genuine discount worth capturing.</li><li>What would prove it: The restated 10-K, when filed in Q4 2026, showing the cumulative cash-flow effect of the correction and whether restated operating cash flow for 2023-2024 materially differs from what was originally reported.</li><li>Already visible today: Partly, and it cuts AGAINST the counter. Two things are already visible that a pure timing error would not produce. First, the review WIDENED rather than narrowed: the February 4.02 covered three 2025 quarters, and the May 4.02 extended it to two additional full fiscal years, which is the signature of a systemic process failure rather than one misposted accrual. Second, and decisively, the company has pre-announced an OPERATING LOSS for H1 2026 - a period entirely outside the restated years, prepared under current management scrutiny. A business whose current, unrestated half-year is loss-making does not support a $231.6M normalized cash-flow base whatever the restatement concludes. The counter also cannot survive the share-count error below, which is independent of the accounting entirely.</li><li>Left unresolved: The magnitude of the restatement&#x27;s cash-flow effect, which no public document discloses and which will not exist until the Q4 2026 filings. I record that I could not size it rather than guessing.</li></ul><p><strong>Key risks.</strong> Nasdaq Staff Delisting Determination expected; retention depends on a Hearings Panel appeal and on filing by the amended 2026-11-30 credit-agreement deadline; Restatement has already widened once (three 2025 quarters -&gt; also FY2024 and FY2023); it may widen again; H1 2026 operating loss on higher fuel, rail and drayage costs in ITS and excess Consolidation and Fulfillment capacity in Logistics; Securities litigation and SEC enforcement risk normally follow a two-stage Item 4.02; No audited financial statements for FY2025 exist at all <strong>Watch for.</strong> Filing of the FY2025 10-K with restated FY2024 and FY2023 - the first point at which any input to this model becomes usable; Nasdaq Hearings Panel decision on the delisting appeal; Whether restated operating cash flow for 2023-2024 differs materially from the originally reported figures the engine is using</p><p><strong>Data quality.</strong> Neither flagged defect was resolved in the engine&#x27;s favour; both are confirmed and both are fatal. (1) share_count_5809d_stale_market_cap_unreliable is real and is the single largest input error in today&#x27;s ten. shares_asof is 2026-10-21 in the extract but dated 2010-10-21 - a SIXTEEN-year-old, un-dimensioned fact, exactly the dual-class failure LESSONS.md predicts and names HUBG as the worst case of. The 2025-09-30 10-Q cover page reads 60,578,607 Class A plus 574,903 Class B = 61,153,510 shares. The engine uses 37.3M. Market cap is therefore $2.05B, not $1.25B, and enterprise value $2.23B, not $1.44B - a 55% understatement. Correcting the share count ALONE moves the growth the market implies from -13.9% to -4.1% and collapses the +112.8% gap to roughly nothing, before any accounting question is reached. (2) last_10k_624d_old understates the problem: the issue is not that the 10-K is old but that the company has told the SEC its contents cannot be relied upon. NEW DEFECT CATEGORY: the engine does not read Item 4.02. An Item 4.02 8-K is the loudest data-quality signal EDGAR emits - the filer&#x27;s own statement that its financial statements are materially misstated - and HUBG filed TWO of them, on 2026-02-05 and 2026-05-12, covering precisely the fiscal years the FCFF base is built from. It still won an opportunistic slot at the 90th percentile of 151 Industrials. Item 4.02 should be a hard gate, not a flag. The multiples table is also unusable: it divides by the same corrupted share count.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/940942/000119312526218141/d146211d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/940942/000119312526218141/d146211d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/940942/000119312525266623/hubg-20250930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/940942/000119312525266623/hubg-20250930.htm</a></li><li><a href="https://www.globenewswire.com/news-release/2026/09/14/3360965/0/en/hub-group-announces-select-preliminary-first-and-second-quarter-2026-financial-results-and-provides-update-on-restatement-process.html" rel="noopener">https://www.globenewswire.com/news-release/2026/09/14/3360965/0/en/hub-group-announces-select-preliminary-first-and-second-quarter-2026-financial-results-and-provides-update-on-restatement-process.html</a></li><li><a href="https://www.freightwaves.com/news/hub-group-warns-of-nasdaq-delisting-notice-flags-h1-operating-loss" rel="noopener">https://www.freightwaves.com/news/hub-group-warns-of-nasdaq-delisting-notice-flags-h1-operating-loss</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/HUBG.md'>research/Industrials/HUBG.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>PRM — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / PRM</p><h1>PRM <span style='color:var(--faint);font-weight:400'>PERIMETER SOLUTIONS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$31.56</b></div><div>Analyst gap<b>-64%</b></div><div>Dated<b>2026-09-16</b></div></div><div class='prose'><h1>PRM — PERIMETER SOLUTIONS</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-16 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $31.56 · fair value $11.26 · gap -64.3%</li><li><strong>Growth:</strong> market implies +40.1%, analyst says +10.0% (delta -30.1%)</li><li><strong>FCFF base overridden</strong> by the analyst to $220.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 10.1% | 11.1% | 12.1% | 13.1% | 14.1% | |---|---|---|---|---|---|---| | bear | +0.0% | $8.10 | $6.40 | $5.04 | $3.92 | $2.99 | | base | +10.0% | $16.14 | $13.43 | $11.26 | $9.48 | $8.01 | | bull | +18.0% | $24.87 | $21.04 | $17.98 | $15.48 | $13.40 |</p><p>At the point WACC of 12.1%: bear -84.0%, base -64.3%, bull -43.0% Across the whole grid the gap ranges -90.5% to -21.2% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $31.56 the market is capitalising a genuine escalation in wildfire severity. Perimeter&#x27;s Phos-Chek retardant is the incumbent product with USFS and CAL FIRE qualification, a near-monopoly position and extreme operating leverage - the cost base is largely fixed, so an above-average fire season drops almost entirely through to EBITDA. Q2 2026 Management&#x27;s Segment Adjusted EBITDA was $105.6M and Specialty Products grew sales 31%, so the buyer is underwriting two engines rather than one: structurally worsening fire seasons in Fire Safety, plus a phosphorus-chemicals business compounding independently of weather. On that view the -$9.2M free-cash-flow year of 2023 was a once-in-a-decade quiet season and the right base is the two good years, not the three-year mean.</p><p><strong>What changed.</strong> Q2 2026 (2026-07-31): net loss of $181.6M against $32.2M a year earlier, driven almost entirely by a $266.3M founders advisory fee charge ($189.9M year to date) reflecting the mark-to-market of liability-classified advisory amounts tied to the share price. Segment Adjusted EBITDA $105.6M. Specialty Products net sales +31%. Purchases of property and equipment $12.7M in the quarter. The balance sheet at 2026-06-30 carries founders advisory fees payable of $177.957M current and $452.617M non-current, and 13,387,003 shares have already been ISSUED to settle founders advisory fees in a prior period.</p><p><strong>Base case.</strong> I use $220M rather than the engine&#x27;s $155.1M, because the three-year mean averages in 2023&#x27;s -$9.2M, which was a genuinely light US fire season rather than an impairment of the franchise; the mean of the two normal years ($208.6M and $172.9M) plus after-tax interest of roughly $31M gives about $220M. On growth, Fire Safety volume tracks acres burned, which is trending up but is violently non-linear year to year and is ultimately bounded by federal and state suppression budgets rather than by demand; Specialty Products is genuinely compounding at high-twenties rates off a small base. Blending a mid-single-digit Fire Safety trend with high-teens Specialty growth, +10% is a defensible five-year FCFF CAGR and is, if anything, generous - it assumes no reversion in fire seasons at all. The naive baseline of +25% is a clamped artifact of a +136% four-year revenue CAGR measured from a 2021 SPAC stub period and carries no information.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am underwriting the wrong variable. Perimeter&#x27;s value is not a discounted cash flow at all - it is an option on climate, and options on convex, worsening tail risk are systematically underpriced by a five-year CAGR framework. Acres burned has no ceiling, the retardant is consumable and re-ordered every season, and Perimeter has pricing power because there is no qualified substitute. A +40% required growth rate looks absurd against history and entirely reasonable against a decade in which the western US fire season lengthens by a month. Moreover the founders advisory fee, which I have added to enterprise value, is settled in SHARES and is itself a function of the share price appreciating - so it only becomes large in exactly the states of the world where the equity has already worked. Charging it as a fixed claim double-counts.</li><li>What would prove it: Two things: the fiscal 2026 full-year free cash flow against the $208.6M of 2025 (does a severe season actually convert to cash at the rate the operating leverage implies), and the settlement mechanics and share count effect of the $630.6M founders advisory fee liability over the next twelve months.</li><li>Already visible today: The founders-fee objection is partly right and I have weighed it - the liability IS share-price-linked, and 13.4M shares were already issued to settle an earlier tranche. But it does not rescue the valuation, for two reasons. First, whether settled in cash or shares it is a claim of $630.6M ahead of or alongside common on a $5.17B market capitalisation - roughly 12% - and the 10-Q classifies it as a LIABILITY, not equity, so treating it as a claim on enterprise value is the company&#x27;s own accounting, not my adjustment. Second, the arithmetic does not turn on it: WITHOUT the founders fee the market already requires +40.1%, and my generous $220M base still leaves +33%. On the strongest bull base I can construct - $250M, treating 2026 as the new normal - the requirement is still +28.9%. Every defensible input leaves a requirement far above any growth rate I can defend from the business, which is why the devil&#x27;s advocate loses here despite being a real argument.</li><li>Left unresolved: The settlement path of the founders advisory fee liability - whether it converts to shares over the next twelve months, at what reference price, and how much dilution results. The Q2 10-Q classifies $178.0M as current, so a substantial tranche settles within a year, but I could not determine the share count effect and have therefore not modelled the dilution at all. My verdict is rich WITHOUT that dilution; including it would make it more so.</li></ul><p><strong>Key risks.</strong> Earnings are a weather derivative: 2023 produced NEGATIVE free cash flow on the same asset base; $630.6M founders advisory fee liability settling partly within twelve months, with 13.4M shares already issued against an earlier tranche; Fire Safety demand is ultimately capped by federal and state suppression appropriations, not by acres burned; Retardant qualification is a regulatory privilege: loss or sharing of USFS qualification would be structural; Enterprise value of $6.4-7.0B against roughly $200M of normalized unlevered cash flow leaves no margin for a mild season <strong>Watch for.</strong> Fiscal 2026 full-year free cash flow - does a severe season convert at the rate the operating leverage implies; Settlement of the current $178.0M founders advisory fee tranche and the resulting share count; Specialty Products reaching a scale that sets an earnings floor independent of fire season</p><p><strong>Data quality.</strong> NEW DEFECT CATEGORY, and it is invisible to every existing detector. Perimeter&#x27;s balance sheet at 2026-06-30 carries &#x27;Founders advisory fees payable - related party&#x27; of $177,957 thousand CURRENT and $452,617 thousand NON-CURRENT - $630.6M in total, roughly 12% of market capitalisation - and NONE of it reaches enterprise value. It is not debt, so the total_debt extractor and the ALTG interest-coverage detector never see it (implied rate here is 41.4/1210.2 = 3.4%, unremarkable). It is not in the share count, because the shares have not been issued yet - though 13,387,003 already were for an earlier tranche, so the dilution is demonstrated, not hypothetical. It is a liability-classified, share-settleable contingent claim, which falls between every category the engine models. Adding it moves enterprise value from $6.39B to $7.02B and the required growth from +40.1% to +43.0%. Unlike the convertible, ABL, rental-capex and stale-share-count bugs, which all manufacture false BUYS, this one understates enterprise value on a name the screen already reads as expensive, so it hides richness rather than manufacturing cheapness - the same reason the PIPR and ENVA biases went unnoticed. The cheap detector is a balance-sheet line containing &#x27;payable - related party&#x27; that is material relative to market capitalisation, on any company with a sponsor or founder economic-interest structure. Note the engine DID capture preferred stock at $100M against an actual $119.0M, which is close enough not to matter. Flags cleared: negative_fcf_year_in_window and lumpy_fcff_spread are both real and both describe the 2023 fire season, which I have handled by overriding the base upward rather than downward.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1880319/000188031926000048/prm-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1880319/000188031926000048/prm-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1880319/000188031926000044/prmearningspressreleaseq22.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1880319/000188031926000044/prmearningspressreleaseq22.htm</a></li><li><a href="https://ir.perimeter-solutions.com/news-events/press-releases/detail/88/perimeter-solutions-reports-second-quarter-2026-financial-results" rel="noopener">https://ir.perimeter-solutions.com/news-events/press-releases/detail/88/perimeter-solutions-reports-second-quarter-2026-financial-results</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/07/perimeter-solutions-prm-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/07/perimeter-solutions-prm-q2-2026-earnings-call-transcript/</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/PRM.md'>research/Materials/PRM.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

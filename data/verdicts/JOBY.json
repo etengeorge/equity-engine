@@ -1,0 +1,58 @@
+{
+  "ticker": "JOBY",
+  "date": "2026-09-16",
+  "sector": "Industrials",
+  "name": "JOBY AVIATION CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 6.130000114440918,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing to model is an abdication, and the multiples table does contain information: a blended midpoint of $3.77 against a $6.13 price says Joby is 38.5% OVERVALUED, and declining to say so is a failure of nerve dressed up as rigour. The p_tbv row in particular is not obviously meaningless - Joby has real tangible assets in aircraft, tooling and a Marina production facility, and at 3.7x tangible book against a cohort median of 3.5x it is being valued roughly in line with other capital-intensive industrials while producing none of their revenue.",
+    "what_would_prove_it": "An FAA type certification decision or a further formal slip in the certification timeline - the single event that determines whether the tangible book is worth a premium or a discount.",
+    "already_visible": "The counter is right that I should not smuggle in a bullish conclusion, and I want to be explicit that refusing to model is NOT a judgement that Joby is cheap - at 84.3x EV/sales against a cohort median of 1.6x it may well be enormously expensive, and I cannot say so with a defensible number. But the counter's own evidence defeats it. The two rows do not corroborate each other, they contradict each other: ev_sales implies $1.63 to $1.75 while p_tbv implies $3.32 to $11.68, so one row says the equity is worth a quarter of the price and the other says it could be worth nearly double. Per the RIOT/EPRT rule, rows that straddle the price in opposite directions mean the blend is meaningless, and the brief itself states the cohort is NOT RANKED - too few comparable Industrials names to define a distribution honestly. Averaging an 84x EV/sales multiple on a company whose revenue has not arrived against a tangible book that is mostly pre-revenue tooling produces a number with a decimal point and no content. The $3.77 blended midpoint should be disregarded entirely.",
+    "unresolved": "The certification timeline itself, which is the only variable that matters and which neither the company nor the FAA has committed to a date for. I resolved the funding question rather than leaving it open (see data_quality_note), but no amount of balance-sheet work substitutes for a certification date, and I have none."
+  },
+  "what_changed": "The whole sector has de-rated - Joby, Archer and EHang are all near 52-week lows with no single catalyst - and Joby is down about 53-54% year to date. Operationally: Texas eIPP commercial-route flights began in September 2026, a 10-state J208 autonomous tour is underway targeting freight, medical, emergency and defense applications, and Dubai commercial preparation continues. On 2026-08-11 an 8-K under items 1.01, 3.02, 7.01 and 8.01 reported an unregistered sale of equity. On 2026-09-11 Joby filed a resale prospectus supplement covering up to 2.42 million earn-out shares tied to the Blade acquisition. An 8-K under item 5.02 on 2026-09-09 reported an officer or director change. At 2026-06-30 the balance sheet carries cash and cash equivalents of $629,861 thousand plus short-term investments of $1,633,965 thousand - $2,263,826 thousand of total liquidity, up from $1,407,916 thousand at the prior year end. First-half 2026 net cash used in operating activities was $317,582 thousand against $217,533 thousand a year earlier, and the first-half net loss was $355,393 thousand.",
+  "consensus_case": "At $6.13 and a $6.1B market capitalisation the market is pricing a pre-commercial aircraft manufacturer as a call option on FAA type certification. The bull case is entirely forward: Joby is in the final stage of type certification, has begun real-world air taxi flights in Texas under the FAA's Project Nexus eIPP, is preparing commercial service in Dubai, has demonstrated autonomous flight on a cross-country tour with the J208, and has acquired Blade to own distribution. None of that produces revenue today, which is precisely the point - the buyer is underwriting a binary regulatory outcome with a very large payoff, not a cash flow stream. The stock is down 56% over twelve months because that option's time value is decaying while certification slips.",
+  "base_case_rationale": "There is no defensible base case and supplying one would be dishonest. Joby has no meaningful revenue, negative EBITDA, and no cash-flow history the model can use - normalized FCFF is not merely negative, it is unavailable, computed over zero years. The value of this company is a probability-weighted terminal outcome conditional on FAA type certification, and neither a discounted cash flow nor a trailing multiple can express that. The correct output is no_model.",
+  "key_risks": [
+    "FAA type certification is binary, unscheduled and outside the company's control",
+    "Operating cash burn ACCELERATING: $317.6M in H1 2026 against $217.5M a year earlier, roughly $635M annualised before capex",
+    "Dilution from the Blade acquisition earn-out: 2.42 million shares in the September 2026 resale prospectus, plus the item 3.02 issuance of 2026-08-11",
+    "Sector-wide de-rating with Archer and EHang at 52-week lows indicates a narrowing funding window for all eVTOL issuers",
+    "$6.1B market capitalisation on essentially no revenue leaves the entire value in a terminal assumption"
+  ],
+  "watch_for": [
+    "FAA type certification decision or a further formal timeline slip",
+    "Whether the operating burn keeps accelerating from the $317.6M half-year rate",
+    "Whether Texas eIPP and Dubai operations produce disclosed commercial revenue",
+    "Any further item 3.02 unregistered equity sales despite the current liquidity"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1819848/000162828026055505/exhibit991-8xk.htm",
+    "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000432/joby-8kx20260805xexx99_1.htm",
+    "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-files-resale-prospectus-142507573.html",
+    "https://247wallst.com/investing/2026/09/15/joby-slips-and-is-down-53-this-year-as-the-evtol-trade-keeps-unwinding-archer-dips-ehang-eases/"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_10%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

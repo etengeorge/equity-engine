@@ -1,0 +1,186 @@
+{
+  "ticker": "URBN",
+  "date": "2026-09-16",
+  "sector": "Consumer Discretionary",
+  "name": "URBAN OUTFITTERS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.08,
+  "bear_growth": 0.02,
+  "bull_growth": 0.14,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 75.91000366210938,
+  "market_implied_growth": 0.11288727110763908,
+  "cohort_pct": 50.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.08,
+    "market_implied_growth": 0.11288727110763908,
+    "growth_delta": -0.032887271107639074,
+    "fair_value": 63.92266905446321,
+    "price": 75.91000366210938,
+    "gap": -0.15791508403825383,
+    "fair_value_band": {
+      "low": 56.75331800167707,
+      "point": 63.92266905446321,
+      "high": 73.24467659511738
+    },
+    "fcff_base_used": 304000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09692216419311325,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 304000000,
+      "price": 75.91000366210938,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.07692216419311325,
+              "fair_value": 67.03771978605103,
+              "gap": -0.11687898100427785
+            },
+            {
+              "wacc": 0.08692216419311326,
+              "fair_value": 57.532314221278526,
+              "gap": -0.24209838696140262
+            },
+            {
+              "wacc": 0.09692216419311325,
+              "fair_value": 50.4983434281303,
+              "gap": -0.3347603610598079
+            },
+            {
+              "wacc": 0.10692216419311325,
+              "fair_value": 45.0828253871526,
+              "gap": -0.40610165706452495
+            },
+            {
+              "wacc": 0.11692216419311326,
+              "fair_value": 40.78480571944431,
+              "gap": -0.4627215946269
+            }
+          ],
+          "fair_value_at_point_wacc": 50.4983434281303,
+          "gap_at_point_wacc": -0.3347603610598079
+        },
+        {
+          "case": "base",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.07692216419311325,
+              "fair_value": 85.85444874575127,
+              "gap": 0.13100309055321113
+            },
+            {
+              "wacc": 0.08692216419311326,
+              "fair_value": 73.24467659511738,
+              "gap": -0.035111670905140446
+            },
+            {
+              "wacc": 0.09692216419311325,
+              "fair_value": 63.92266905446321,
+              "gap": -0.15791508403825383
+            },
+            {
+              "wacc": 0.10692216419311325,
+              "fair_value": 56.75331800167707,
+              "gap": -0.2523604892143405
+            },
+            {
+              "wacc": 0.11692216419311326,
+              "fair_value": 51.069996385152024,
+              "gap": -0.32722969409308944
+            }
+          ],
+          "fair_value_at_point_wacc": 63.92266905446321,
+          "gap_at_point_wacc": -0.15791508403825383
+        },
+        {
+          "case": "bull",
+          "growth": 0.14,
+          "cells": [
+            {
+              "wacc": 0.07692216419311325,
+              "fair_value": 109.10446527024358,
+              "gap": 0.43728705054329065
+            },
+            {
+              "wacc": 0.08692216419311326,
+              "fair_value": 92.62387674597394,
+              "gap": 0.22018011167884222
+            },
+            {
+              "wacc": 0.09692216419311325,
+              "fair_value": 80.45020994696205,
+              "gap": 0.05981038158108953
+            },
+            {
+              "wacc": 0.10692216419311325,
+              "fair_value": 71.09607329918585,
+              "gap": -0.06341628416132472
+            },
+            {
+              "wacc": 0.11692216419311326,
+              "fair_value": 63.68797190148832,
+              "gap": -0.16100686564347655
+            }
+          ],
+          "fair_value_at_point_wacc": 80.45020994696205,
+          "gap_at_point_wacc": 0.05981038158108953
+        }
+      ],
+      "summary": {
+        "bear": -0.3347603610598079,
+        "base": -0.15791508403825383,
+        "bull": 0.05981038158108953
+      },
+      "downside": -0.4627215946269,
+      "upside": 0.43728705054329065
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I have buried the actual story under an accounting adjustment. Stripping the refund is correct bookkeeping but it does not touch the thing that matters: revenue grew 10.4% to a record with positive comps across every brand and channel, and Nuuly grew subscribers more than 30%. Tariff refunds do not generate comparable sales. A retailer executing that well while building out fulfillment capacity is exactly the profile that should be spending $475M, and treating a capacity build as a permanent charge against owner earnings is precisely the AROC error in reverse - the spending IS the growth the market is paying for. On that view the sustaining base of $379M and a requirement of +7.0% is the right frame, against a business currently growing revenue at 10.4%, and Urban Outfitters is modestly cheap rather than fairly priced.",
+    "what_would_prove_it": "Fiscal 2028 capital expenditure guidance, given at the March 2026 fourth-quarter report, and the first quarter that laps the refund cleanly (Q2 fiscal 2028, reported August 2027). The first tells me whether $475M is a build or a run rate; the second tells me what the margin structure looks like without the tariff benefit.",
+    "already_visible": "The counter's operating evidence is real and I have credited it - it is why my +8% growth assumption sits well above the +2% bear and why this is not a rich call. What is also visible and restrains it: the refund was worth $95.7M of Cost of Sales relief in a single quarter, and ex-refund, ex-tax-benefit, Q2 net income was roughly $149M against $143.9M - up about 3.5%, not the 67% the headline shows. That is the SIG/JILL/AEO test applied to URBN and it gives the same answer it has given four times in the last six sessions: the headline beat is the refund, and the underlying line is growing far more slowly than it appears. Neither side wins outright. The defensible bases span $225M to $379M and the corresponding market requirement spans +20.2% to +7.0% - a 13-point range on one judgement about capitalising a building purchase - and per the EVI standard a range that wide is not a valuation.",
+    "unresolved": "How much of the $475M fiscal 2027 capex is non-recurring. The 10-Q identifies the Raymore purchase as a driver but does not give its cost, so I could not split the build from the run rate, and that split is what decides whether the base is $225M or $379M."
+  },
+  "what_changed": "Q2 fiscal 2027 (10-Q filed 2026-09-09, period ended 2026-07-31): revenue $1.66B, +10.4%; net income $240.7M against $143.9M. Two one-time items account for almost all of that increase. The company received substantially all of its IEEPA tariff refunds during the quarter and recognised a ONE-TIME benefit of $100,105 thousand, of which $95,660 thousand reduced Cost of Sales ($84,472 thousand Retail, $10,225 thousand Wholesale, $963 thousand Subscription) and $4,445 thousand ran through interest income. Separately it released a UK deferred-tax valuation allowance for a discrete tax benefit of $16,225 thousand. Six-month operating cash flow was $391.7M against $251.0M, but cash paid for property and equipment rose to $268.1M from $107.5M, largely the March 2026 PURCHASE of the previously leased Nuuly fulfillment centre in Raymore, Missouri. Fiscal 2027 capital expenditure is guided to approximately $475M against roughly 54 new stores.",
+  "consensus_case": "At $75.91 the market requires roughly +11% FCFF growth, which is a demanding ask that the recent tape appears to justify: fiscal 2027 second-quarter revenue of $1.66B was up 10.4% to a record, all three brands and both segments grew, and Nuuly - the subscription rental business - added more than 30% to its active subscriber count and posted $179M of net sales. The bull case is that Nuuly converts Urban Outfitters from a mall-exposed apparel retailer into a subscription business with structurally higher retention and lifetime value, and that the market is paying roughly 20x owner earnings for the option on that transition rather than for the legacy store base.",
+  "base_case_rationale": "Two large errors point in opposite directions here and the honest base sits between them. The $100.1M refund inflates reported cash flow and does not repeat, so ex-refund first-half operating cash flow was roughly $291.7M against $251.0M - up about 16%, not 56%. Against that, the guided $475M of fiscal 2027 capex is not maintenance spending: it includes a one-time purchase of a building the company already occupied and leased, which converts rent into ownership and IMPROVES future operating cash flow, plus 54 new stores and Nuuly capacity that buy real growth. Charging all of it against owner earnings, as CFO-less-total-capex does, understates the business as badly as the refund overstates it. I use roughly $304M: ex-refund operating cash flow near $600M for the year less a normalized capex charge near $300M - above the $183-200M historical run rate because Nuuly genuinely needs capacity, well below the $475M that includes the building purchase - plus a small after-tax interest add-back. On growth I underwrite +8%: Nuuly is compounding subscribers above 30% off a base that is now material, and the retail brands are comping positively, but fiscal 2028 laps a $100M refund and a $16M tax benefit with no offset, which is a dated mechanical headwind to reported earnings.",
+  "key_risks": [
+    "Fiscal 2028 laps a $100.1M one-time IEEPA refund and a $16.2M discrete tax benefit with no stated offset",
+    "Capital expenditure guided to ~$475M against a $183-260M historical range, with the recurring portion undisclosed",
+    "Nuuly is capital-hungry: rental product purchases and fulfillment capacity consume cash ahead of subscriber revenue",
+    "Apparel retail comps are consumer-cycle dependent and the Fed was raising rates into this quarter",
+    "Renewed tariff regimes remain legally contested; the refund reflects a Supreme Court ruling that does not guarantee future relief"
+  ],
+  "watch_for": [
+    "Fiscal 2028 capex guidance - whether $475M was a build or a new run rate",
+    "Nuuly subscriber growth rate as the base scales",
+    "First clean quarter lapping the refund (Q2 fiscal 2028)"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/912615/000119312526386468/urbn-20260731.htm",
+    "https://www.sec.gov/Archives/edgar/data/912615/000119312526369924/urbn-ex99_1.htm",
+    "https://www.retaildive.com/news/nuuly-rental-urban-outfitters-second-quarter-earnings/829128/",
+    "https://qz.com/urban-outfitters-record-sales-free-people-q2-earnings-082726"
+  ],
+  "flags": []
+}

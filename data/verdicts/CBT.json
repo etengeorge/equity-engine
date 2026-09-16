@@ -1,0 +1,186 @@
+{
+  "ticker": "CBT",
+  "date": "2026-09-16",
+  "sector": "Materials",
+  "name": "CABOT CORP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.015,
+  "bear_growth": -0.03,
+  "bull_growth": 0.055,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 79.19999694824219,
+  "market_implied_growth": -0.04928184865599777,
+  "cohort_pct": 95.1,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.015,
+    "market_implied_growth": -0.04928184865599777,
+    "growth_delta": 0.06428184865599777,
+    "fair_value": 83.54265057993945,
+    "price": 79.19999694824219,
+    "gap": 0.05483148736148591,
+    "fair_value_band": {
+      "low": 70.37597522520238,
+      "point": 83.54265057993945,
+      "high": 101.2888942108013
+    },
+    "fcff_base_used": 357000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08748136921639844,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 357000000,
+      "price": 79.19999694824219,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.06748136921639844,
+              "fair_value": 99.47096167140974,
+              "gap": 0.2559465341446261
+            },
+            {
+              "wacc": 0.07748136921639845,
+              "fair_value": 79.32485590430703,
+              "gap": 0.0015765020312619171
+            },
+            {
+              "wacc": 0.08748136921639844,
+              "fair_value": 65.13701076515581,
+              "gap": -0.17756296369905988
+            },
+            {
+              "wacc": 0.09748136921639844,
+              "fair_value": 54.60095920697383,
+              "gap": -0.3105939228424973
+            },
+            {
+              "wacc": 0.10748136921639845,
+              "fair_value": 46.464818100298295,
+              "gap": -0.41332298117810007
+            }
+          ],
+          "fair_value_at_point_wacc": 65.13701076515581,
+          "gap_at_point_wacc": -0.17756296369905988
+        },
+        {
+          "case": "base",
+          "growth": 0.015,
+          "cells": [
+            {
+              "wacc": 0.06748136921639844,
+              "fair_value": 126.50810290128275,
+              "gap": 0.5973245931304363
+            },
+            {
+              "wacc": 0.07748136921639845,
+              "fair_value": 101.2888942108013,
+              "gap": 0.27890022870827114
+            },
+            {
+              "wacc": 0.08748136921639844,
+              "fair_value": 83.54265057993945,
+              "gap": 0.05483148736148591
+            },
+            {
+              "wacc": 0.09748136921639844,
+              "fair_value": 70.37597522520238,
+              "gap": -0.11141441998800039
+            },
+            {
+              "wacc": 0.10748136921639845,
+              "fair_value": 60.21844573842687,
+              "gap": -0.2396660598638647
+            }
+          ],
+          "fair_value_at_point_wacc": 83.54265057993945,
+          "gap_at_point_wacc": 0.05483148736148591
+        },
+        {
+          "case": "bull",
+          "growth": 0.055,
+          "cells": [
+            {
+              "wacc": 0.06748136921639844,
+              "fair_value": 154.70318238044877,
+              "gap": 0.9533230851201737
+            },
+            {
+              "wacc": 0.07748136921639845,
+              "fair_value": 124.15752158614696,
+              "gap": 0.5676455349775438
+            },
+            {
+              "wacc": 0.08748136921639844,
+              "fair_value": 102.67646825081557,
+              "gap": 0.2964201036259564
+            },
+            {
+              "wacc": 0.09748136921639844,
+              "fair_value": 86.74982417506487,
+              "gap": 0.09532610502190497
+            },
+            {
+              "wacc": 0.10748136921639845,
+              "fair_value": 74.47241887089369,
+              "gap": -0.05969164469082
+            }
+          ],
+          "fair_value_at_point_wacc": 102.67646825081557,
+          "gap_at_point_wacc": 0.2964201036259564
+        }
+      ],
+      "summary": {
+        "bear": -0.17756296369905988,
+        "base": 0.05483148736148591,
+        "bull": 0.2964201036259564
+      },
+      "downside": -0.41332298117810007,
+      "upside": 0.9533230851201737
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I have over-corrected, and the fiscal 2026 cash-flow collapse is a working-capital artifact I should have looked through rather than capitalised. Cabot itself publishes Discretionary Free Cash Flow precisely BECAUSE it strips the working-capital movement, and that figure - $225M over nine months - is holding up far better than free cash flow. The $44M of working capital consumed in the June quarter is inventory and receivables inflating with feedstock prices; when prices flatten it reverses, and a metals-and-chemicals converter that is growing its borrowing base is not a business in distress. On this reading the correct base is closer to the engine's $454.7M than to my $357M, the market's -4.9% is a real discount, and the +86.7% gap is at least partly genuine.",
+    "what_would_prove_it": "The fiscal 2026 fourth-quarter and full-year cash flow statement (September year end, reported late October/November) showing whether the working-capital build reverses and full-year operating cash flow recovers toward the $595-692M range of fiscal 2023-2025, or settles near the ~$380M the nine-month run rate implies.",
+    "already_visible": "Some of it, and it genuinely moderated my answer - it is why I used the sustaining base of $357M rather than the $247M that fiscal 2026 total-capex free cash flow implies, and why this is no_edge rather than rich. What the counter cannot explain is the EARNINGS line, which working capital does not touch: adjusted EPS guidance of $6.15-6.45 is down about 12% year on year, and that is a margin fact, not a timing fact. Nor does it rescue the engine's base, because $454.7M is the mean of fiscal 2023-2025 - three years that ended before the decline began. Two defensible bases, $357M and $247M, put the required growth at +0.5% and +9.2%; the engine's number is outside that range entirely.",
+    "unresolved": "Whether Battery Materials has any near-term earnings materiality. Cabot describes brownfield expansion and capacity investment but I could not find a segment revenue or EBITDA disclosure for it in the Q3 release, so I cannot size the growth the $41M/year of growth capex is buying. That is the single input that would move the bull case, and I could not obtain it."
+  },
+  "what_changed": "Q3 fiscal 2026 (2026-08-03): adjusted EPS $1.67, up 4% sequentially, with Performance Chemicals offsetting Reinforcement Materials margin pressure. Full-year adjusted EPS guidance TIGHTENED to $6.15-6.45 from $6.00-6.50. Operating cash flow of $75M in the quarter absorbed $44M of working capital on rapidly rising raw-material costs. Net debt/EBITDA 1.4x, liquidity $1.3B, cash $250M. A $19M discrete tax charge on ceasing carbon black production at Campana, Argentina drove a 79% quarterly effective rate. 2026-08-12: priced $350M of 4.950% senior notes due 2029. 2026-09-15: Steve Delahunt appointed INTERIM CFO - this is not a governance red flag, it is the consequence of CEO Sean Keohane retiring after 25 years and CFO Erica McLaughlin being promoted to succeed him.",
+  "consensus_case": "At $79.20 the market is paying roughly 9x a normalized unlevered cash flow for a carbon-black franchise in visible earnings decline. Cabot has just tightened fiscal 2026 adjusted EPS guidance to $6.15-6.45, which is DOWN about 12% on fiscal 2025, and the decline is concentrated in Reinforcement Materials, where Chinese overcapacity and soft replacement-tyre demand cap pricing while feedstock costs rise faster than contract resets. The market's implied -4.9% is not pessimism about the enterprise, it is an assumption that the highest-margin segment shrinks and that Battery Materials - the growth story the sell-side likes - remains too small to offset it for several more years. Cabot is also absorbing a real cash-conversion problem: nine months of fiscal 2026 produced $278M of operating cash flow against $665M for the whole of fiscal 2025.",
+  "base_case_rationale": "Cabot discloses sustaining and compliance capital expenditure SEPARATELY from total capex, which per the AROC rule means CFO-less-total-capex is the wrong definition of owner earnings here. Its own reconciliation for the nine months of fiscal 2026 reads: operating cash flow $278M, total capex $152M, of which sustaining and compliance capex is $111M - so roughly 27% of capital spending is capacity expansion, mostly Battery Materials brownfield. Discretionary free cash flow (CFO less sustaining capex less working-capital movement) was $225M over nine months, about $300M annualised, and adding back after-tax interest of roughly $57M gives a sustaining base near $357M. The pairing rule is absolute: a sustaining base takes near-zero growth, because the growth capex that would buy the growth has been excluded. I underwrite +1.5% - essentially inflation-linked pricing on a mature reinforcement franchise, with Performance Chemicals and Battery Materials contributing just enough to offset Reinforcement Materials' structural decline. That is materially below the naive +7.3% revenue CAGR baseline, which is measured off the 2020 trough and is mostly carbon-black price inflation rather than volume.",
+  "key_risks": [
+    "Reinforcement Materials spread compression from Chinese carbon-black overcapacity and soft replacement-tyre demand",
+    "Working-capital absorption on rising feedstock costs may persist rather than reverse",
+    "Simultaneous CEO and CFO transition: Keohane retiring, McLaughlin promoted, an interim CFO in the seat from October",
+    "Battery Materials capex is being spent ahead of disclosed segment economics",
+    "Plant closures (Campana, Argentina) signal footprint rationalisation with associated discrete charges"
+  ],
+  "watch_for": [
+    "Fiscal 2026 full-year cash flow statement: does the working-capital build reverse, or is ~$380M of operating cash flow the new run rate",
+    "First disclosed Battery Materials segment revenue or EBITDA",
+    "Fiscal 2027 adjusted EPS guidance against the declining $6.15-6.45 fiscal 2026 range"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/16040/000119312526330708/cbt-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/16040/000119312526332489/cbt-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/16040/000119312526391407/d72935dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/16040/000119312526352348/d222203dex991.htm"
+  ],
+  "flags": []
+}

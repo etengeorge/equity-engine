@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CBT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / CBT</p><h1>CBT <span style='color:var(--faint);font-weight:400'>CABOT CORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$79.20</b></div><div>Analyst gap<b>+5%</b></div><div>Dated<b>2026-09-16</b></div></div><div class='prose'><h1>CBT — CABOT CORP</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-16 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $79.20 · fair value $83.54 · gap +5.5%</li><li><strong>Growth:</strong> market implies -4.9%, analyst says +1.5% (delta +6.4%)</li><li><strong>FCFF base overridden</strong> by the analyst to $357.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.7% | 7.7% | 8.7% | 9.7% | 10.7% | |---|---|---|---|---|---|---| | bear | -3.0% | $99.47 | $79.32 | $65.14 | $54.60 | $46.46 | | base | +1.5% | $126.51 | $101.29 | $83.54 | $70.38 | $60.22 | | bull | +5.5% | $154.70 | $124.16 | $102.68 | $86.75 | $74.47 |</p><p>At the point WACC of 8.7%: bear -17.8%, base +5.5%, bull +29.6% Across the whole grid the gap ranges -41.3% to +95.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $79.20 the market is paying roughly 9x a normalized unlevered cash flow for a carbon-black franchise in visible earnings decline. Cabot has just tightened fiscal 2026 adjusted EPS guidance to $6.15-6.45, which is DOWN about 12% on fiscal 2025, and the decline is concentrated in Reinforcement Materials, where Chinese overcapacity and soft replacement-tyre demand cap pricing while feedstock costs rise faster than contract resets. The market&#x27;s implied -4.9% is not pessimism about the enterprise, it is an assumption that the highest-margin segment shrinks and that Battery Materials - the growth story the sell-side likes - remains too small to offset it for several more years. Cabot is also absorbing a real cash-conversion problem: nine months of fiscal 2026 produced $278M of operating cash flow against $665M for the whole of fiscal 2025.</p><p><strong>What changed.</strong> Q3 fiscal 2026 (2026-08-03): adjusted EPS $1.67, up 4% sequentially, with Performance Chemicals offsetting Reinforcement Materials margin pressure. Full-year adjusted EPS guidance TIGHTENED to $6.15-6.45 from $6.00-6.50. Operating cash flow of $75M in the quarter absorbed $44M of working capital on rapidly rising raw-material costs. Net debt/EBITDA 1.4x, liquidity $1.3B, cash $250M. A $19M discrete tax charge on ceasing carbon black production at Campana, Argentina drove a 79% quarterly effective rate. 2026-08-12: priced $350M of 4.950% senior notes due 2029. 2026-09-15: Steve Delahunt appointed INTERIM CFO - this is not a governance red flag, it is the consequence of CEO Sean Keohane retiring after 25 years and CFO Erica McLaughlin being promoted to succeed him.</p><p><strong>Base case.</strong> Cabot discloses sustaining and compliance capital expenditure SEPARATELY from total capex, which per the AROC rule means CFO-less-total-capex is the wrong definition of owner earnings here. Its own reconciliation for the nine months of fiscal 2026 reads: operating cash flow $278M, total capex $152M, of which sustaining and compliance capex is $111M - so roughly 27% of capital spending is capacity expansion, mostly Battery Materials brownfield. Discretionary free cash flow (CFO less sustaining capex less working-capital movement) was $225M over nine months, about $300M annualised, and adding back after-tax interest of roughly $57M gives a sustaining base near $357M. The pairing rule is absolute: a sustaining base takes near-zero growth, because the growth capex that would buy the growth has been excluded. I underwrite +1.5% - essentially inflation-linked pricing on a mature reinforcement franchise, with Performance Chemicals and Battery Materials contributing just enough to offset Reinforcement Materials&#x27; structural decline. That is materially below the naive +7.3% revenue CAGR baseline, which is measured off the 2020 trough and is mostly carbon-black price inflation rather than volume.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I have over-corrected, and the fiscal 2026 cash-flow collapse is a working-capital artifact I should have looked through rather than capitalised. Cabot itself publishes Discretionary Free Cash Flow precisely BECAUSE it strips the working-capital movement, and that figure - $225M over nine months - is holding up far better than free cash flow. The $44M of working capital consumed in the June quarter is inventory and receivables inflating with feedstock prices; when prices flatten it reverses, and a metals-and-chemicals converter that is growing its borrowing base is not a business in distress. On this reading the correct base is closer to the engine&#x27;s $454.7M than to my $357M, the market&#x27;s -4.9% is a real discount, and the +86.7% gap is at least partly genuine.</li><li>What would prove it: The fiscal 2026 fourth-quarter and full-year cash flow statement (September year end, reported late October/November) showing whether the working-capital build reverses and full-year operating cash flow recovers toward the $595-692M range of fiscal 2023-2025, or settles near the ~$380M the nine-month run rate implies.</li><li>Already visible today: Some of it, and it genuinely moderated my answer - it is why I used the sustaining base of $357M rather than the $247M that fiscal 2026 total-capex free cash flow implies, and why this is no_edge rather than rich. What the counter cannot explain is the EARNINGS line, which working capital does not touch: adjusted EPS guidance of $6.15-6.45 is down about 12% year on year, and that is a margin fact, not a timing fact. Nor does it rescue the engine&#x27;s base, because $454.7M is the mean of fiscal 2023-2025 - three years that ended before the decline began. Two defensible bases, $357M and $247M, put the required growth at +0.5% and +9.2%; the engine&#x27;s number is outside that range entirely.</li><li>Left unresolved: Whether Battery Materials has any near-term earnings materiality. Cabot describes brownfield expansion and capacity investment but I could not find a segment revenue or EBITDA disclosure for it in the Q3 release, so I cannot size the growth the $41M/year of growth capex is buying. That is the single input that would move the bull case, and I could not obtain it.</li></ul><p><strong>Key risks.</strong> Reinforcement Materials spread compression from Chinese carbon-black overcapacity and soft replacement-tyre demand; Working-capital absorption on rising feedstock costs may persist rather than reverse; Simultaneous CEO and CFO transition: Keohane retiring, McLaughlin promoted, an interim CFO in the seat from October; Battery Materials capex is being spent ahead of disclosed segment economics; Plant closures (Campana, Argentina) signal footprint rationalisation with associated discrete charges <strong>Watch for.</strong> Fiscal 2026 full-year cash flow statement: does the working-capital build reverse, or is ~$380M of operating cash flow the new run rate; First disclosed Battery Materials segment revenue or EBITDA; Fiscal 2027 adjusted EPS guidance against the declining $6.15-6.45 fiscal 2026 range</p><p><strong>Data quality.</strong> The brief raised NO flags, and the most important input was nonetheless wrong. The $454.7M FCFF base is the mean of fiscal 2023, 2024 and 2025 (cfo [$665M, $692M, $595M] less capex [$274M, $241M, $244M]) for a September-year-end filer whose fiscal 2026 is nine-tenths complete and running at $278M of operating cash flow and $126M of free cash flow. The engine has no flag for &#x27;the base year is stale because the fiscal year in progress is materially worse&#x27; - fundamentals_age_days looks unremarkable because the 10-K is recent. This is the AROC lesson with an additional twist: Cabot discloses sustaining and compliance capex separately ($111M of $152M over nine months), so CFO-less-TOTAL-capex charges it for expansion and then applies growth to the remainder, but the larger error is simply that the window predates the decline. Correcting the base inverts the verdict: the +86.7% gap and 95th-percentile cohort rank become a required growth of +0.5% on the sustaining base and +9.2% on the fiscal 2026 total-capex base. One flag I checked and CLEARED: the $350M of 4.950% notes priced 2026-08-12 postdate the 2026-06-30 balance sheet, but the 10-Q shows $261M of current-portion debt maturing against $828M long-term (total $1,089M, matching the extract exactly), so this is substantially a refinancing and changes enterprise value by at most ~2%. A second false alarm cleared: the 2026-09-15 interim-CFO 8-K reads as a finance-leadership departure and is in fact a CEO succession.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/16040/000119312526330708/cbt-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/16040/000119312526330708/cbt-ex99_1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/16040/000119312526332489/cbt-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/16040/000119312526332489/cbt-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/16040/000119312526391407/d72935dex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/16040/000119312526391407/d72935dex991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/16040/000119312526352348/d222203dex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/16040/000119312526352348/d222203dex991.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/CBT.md'>research/Materials/CBT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

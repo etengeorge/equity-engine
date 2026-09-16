@@ -1,0 +1,186 @@
+{
+  "ticker": "GTX",
+  "date": "2026-09-16",
+  "sector": "Consumer Discretionary",
+  "name": "GARRETT MOTION",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.01,
+  "bear_growth": -0.06,
+  "bull_growth": 0.05,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 25.6299991607666,
+  "market_implied_growth": 0.013775572911538192,
+  "cohort_pct": 57.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.01,
+    "market_implied_growth": 0.013775572911538192,
+    "growth_delta": -0.0037755729115381918,
+    "fair_value": 25.109027888776176,
+    "price": 25.6299991607666,
+    "gap": -0.020326620719828492,
+    "fair_value_band": {
+      "low": 21.426437278641018,
+      "point": 25.109027888776176,
+      "high": 29.90316038851242
+    },
+    "fcff_base_used": 465916666.6666667,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09620365526302913,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 465916666.6666667,
+      "price": 25.6299991607666,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.06,
+          "cells": [
+            {
+              "wacc": 0.07620365526302912,
+              "fair_value": 24.59723813780123,
+              "gap": -0.04029500806797848
+            },
+            {
+              "wacc": 0.08620365526302913,
+              "fair_value": 20.037671673842155,
+              "gap": -0.21819460281079384
+            },
+            {
+              "wacc": 0.09620365526302913,
+              "fair_value": 16.669197777002818,
+              "gap": -0.34962160269909903
+            },
+            {
+              "wacc": 0.10620365526302912,
+              "fair_value": 14.07752727039118,
+              "gap": -0.4507402367792307
+            },
+            {
+              "wacc": 0.11620365526302913,
+              "fair_value": 12.020614710579176,
+              "gap": -0.5309943385023648
+            }
+          ],
+          "fair_value_at_point_wacc": 16.669197777002818,
+          "gap_at_point_wacc": -0.34962160269909903
+        },
+        {
+          "case": "base",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.07620365526302912,
+              "fair_value": 36.4020907890309,
+              "gap": 0.420292312953088
+            },
+            {
+              "wacc": 0.08620365526302913,
+              "fair_value": 29.90316038851242,
+              "gap": 0.16672498508259825
+            },
+            {
+              "wacc": 0.09620365526302913,
+              "fair_value": 25.109027888776176,
+              "gap": -0.020326620719828492
+            },
+            {
+              "wacc": 0.10620365526302912,
+              "fair_value": 21.426437278641018,
+              "gap": -0.1640094428313611
+            },
+            {
+              "wacc": 0.11620365526302913,
+              "fair_value": 18.508797457727635,
+              "gap": -0.2778463494427196
+            }
+          ],
+          "fair_value_at_point_wacc": 25.109027888776176,
+          "gap_at_point_wacc": -0.020326620719828492
+        },
+        {
+          "case": "bull",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.07620365526302912,
+              "fair_value": 44.687369127964054,
+              "gap": 0.7435571826459413
+            },
+            {
+              "wacc": 0.08620365526302913,
+              "fair_value": 36.81294819762168,
+              "gap": 0.4363226454557789
+            },
+            {
+              "wacc": 0.09620365526302913,
+              "fair_value": 31.008182875878717,
+              "gap": 0.20983940270059898
+            },
+            {
+              "wacc": 0.10620365526302912,
+              "fair_value": 26.552682983154572,
+              "gap": 0.03600015031605541
+            },
+            {
+              "wacc": 0.11620365526302913,
+              "fair_value": 23.02559171724072,
+              "gap": -0.1016155883263784
+            }
+          ],
+          "fair_value_at_point_wacc": 31.008182875878717,
+          "gap_at_point_wacc": 0.20983940270059898
+        }
+      ],
+      "summary": {
+        "bear": -0.34962160269909903,
+        "base": -0.020326620719828492,
+        "bull": 0.20983940270059898
+      },
+      "downside": -0.5309943385023648,
+      "upside": 0.7435571826459413
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That a +1.4% required growth rate on a business generating a 7.7% unlevered cash flow yield is too low a bar, and I am being lazy by calling a small gap noise. Garrett converts cash exceptionally well, is deleveraging and repricing debt opportunistically, has just cut its interest cost by 25bp with a 2032 maturity, and is retiring stock. If the terminal market is merely flat rather than declining, a company buying back shares at 13x unlevered cash flow compounds per-share value at high single digits without any growth at all - and the 98.6% twelve-month move suggests the market has been discovering exactly that.",
+    "what_would_prove_it": "The share count trajectory over the next four quarters against the 186,493,414 reported at 2026-07-24, and Garrett's disclosed content-per-vehicle on hybrid versus conventional platforms - the number that determines whether hybridisation is a tailwind or merely a delay.",
+    "already_visible": "The buyback argument is real and I have not dismissed it - Garrett's capital allocation is genuinely shareholder-friendly and the May term-loan repricing plus $50M early repayment is evidence of a management team optimising the balance sheet rather than defending it. But it does not create an edge, for the simple reason that a buyback thesis at a price the market already thinks is worth +1.4% of growth requires me to disagree with the market about the terminal value, and I do not have a differentiated view on BEV penetration rates in 2031. The gap is +11.3% at the 57th percentile of 128 Consumer Discretionary names - the definition of the middle of the distribution - and correcting the one stale input I found (debt $50M lower than the extract) moves the required growth from +1.4% to +1.2%, which changes nothing. Where I have no mechanism, I have no thesis.",
+    "unresolved": "Garrett's content per vehicle on hybrid versus conventional platforms, which I could not find disclosed. It is the number that decides whether the hybrid transition is a genuine offset or a stay of execution, and without it my +1% is a judgement rather than a calculation."
+  },
+  "what_changed": "Q2 2026 (10-Q filed 2026-07-29): six-month net income $196M against $149M, six-month operating cash flow $243M against $214M - up 13.6%. Balance sheet at 2026-06-30 carries current maturities of long-term debt of $7M and long-term debt of $1,360M, so total debt is $1,367M against the $1,417M in the extract. On 2026-05-18 Garrett repriced its $635M term loan due 2032 to SOFR plus 175 basis points, a 25bp reduction, and made a $50M early repayment - which is exactly the debt reduction the balance sheet shows. Shares outstanding 186,493,414 as of 2026-07-24. On 2026-07-27 an 8-K under items 5.02 and 5.03 reported officer and bylaw changes.",
+  "consensus_case": "At $25.63 the market requires only about +1.4% FCFF growth, which is close to a no-growth valuation on a business generating $243M of operating cash flow in a half year. That is a coherent position rather than a cheap one: turbochargers are a mature, consolidated, high-return niche where Garrett holds a genuine technology position, but the terminal market is contested by battery-electric penetration, so the buyer is paying roughly 13x unlevered cash flow for a franchise with strong near-term economics and an uncertain 2035. The stock is up 98.6% over twelve months and down 24.7% over three, which is the market re-rating that trade-off in both directions.",
+  "base_case_rationale": "The engine's $465.9M base survives scrutiny, which is unusual enough to say plainly: the cash flow series of $413M, $408M and $465M is stable, and first-half 2026 operating cash flow of $243M annualises consistently with it, so there is no peak, trough or acquisition distortion to correct. I underwrite +1% five-year FCFF growth. Global light-vehicle production is roughly flat, Garrett's content per vehicle is supported rather than threatened by hybridisation - a hybrid powertrain still needs a turbo, and often a more sophisticated one - but pure battery-electric penetration removes the product entirely, and the five-year window captures the beginning rather than the end of that transition. Flat volumes, modest content gains from hybrid mix and price discipline, offset by slow BEV erosion, nets out near zero real growth. That is marginally below the naive +3.4% revenue CAGR baseline and marginally below the +1.4% the market requires, which is why there is nothing here.",
+  "key_risks": [
+    "Battery-electric penetration structurally eliminates the core product on a long but uncertain timetable",
+    "Customer concentration among global OEMs with annual price-down expectations",
+    "$1,367M of debt against a cyclical automotive supplier earnings base",
+    "European and Chinese light-vehicle production exposure",
+    "The 98.6% twelve-month re-rating leaves little valuation support if hybrid adoption disappoints"
+  ],
+  "watch_for": [
+    "Share count against 186.5M as the buyback continues",
+    "Disclosed content per vehicle on hybrid platforms",
+    "E-Turbo and fuel-cell compressor programmes converting from development spend to revenue"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1735707/000173570726000027/gtx-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_ex9901.htm",
+    "https://www.sec.gov/Archives/edgar/data/1735707/000173570726000025/exhibit99_1-2026q2.htm",
+    "https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-20251231.htm"
+  ],
+  "flags": []
+}

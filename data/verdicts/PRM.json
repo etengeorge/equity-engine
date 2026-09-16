@@ -1,0 +1,190 @@
+{
+  "ticker": "PRM",
+  "date": "2026-09-16",
+  "sector": "Materials",
+  "name": "PERIMETER SOLUTIONS",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.1,
+  "bear_growth": 0.0,
+  "bull_growth": 0.18,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 31.559999465942383,
+  "market_implied_growth": 0.4012908422370537,
+  "cohort_pct": 56.1,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.1,
+    "market_implied_growth": 0.4012908422370537,
+    "growth_delta": -0.3012908422370537,
+    "fair_value": 11.258802665513578,
+    "price": 31.559999465942383,
+    "gap": -0.6432571972105581,
+    "fair_value_band": {
+      "low": 9.483908923279978,
+      "point": 11.258802665513578,
+      "high": 13.42860027000715
+    },
+    "fcff_base_used": 220000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.12070634297266342,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 220000000,
+      "price": 31.559999465942383,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.10070634297266341,
+              "fair_value": 8.100269088356876,
+              "gap": -0.743337477014276
+            },
+            {
+              "wacc": 0.11070634297266342,
+              "fair_value": 6.400455623569356,
+              "gap": -0.7971972201559656
+            },
+            {
+              "wacc": 0.12070634297266342,
+              "fair_value": 5.037602259057933,
+              "gap": -0.8403801538560163
+            },
+            {
+              "wacc": 0.13070634297266343,
+              "fair_value": 3.9204225418307854,
+              "gap": -0.8757787513253457
+            },
+            {
+              "wacc": 0.1407063429726634,
+              "fair_value": 2.9878794958704313,
+              "gap": -0.9053270105693516
+            }
+          ],
+          "fair_value_at_point_wacc": 5.037602259057933,
+          "gap_at_point_wacc": -0.8403801538560163
+        },
+        {
+          "case": "base",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.10070634297266341,
+              "fair_value": 16.14028668020702,
+              "gap": -0.4885840635826174
+            },
+            {
+              "wacc": 0.11070634297266342,
+              "fair_value": 13.42860027000715,
+              "gap": -0.5745056876664882
+            },
+            {
+              "wacc": 0.12070634297266342,
+              "fair_value": 11.258802665513578,
+              "gap": -0.6432571972105581
+            },
+            {
+              "wacc": 0.13070634297266343,
+              "fair_value": 9.483908923279978,
+              "gap": -0.6994959098933309
+            },
+            {
+              "wacc": 0.1407063429726634,
+              "fair_value": 8.005649491236449,
+              "gap": -0.7463355631588127
+            }
+          ],
+          "fair_value_at_point_wacc": 11.258802665513578,
+          "gap_at_point_wacc": -0.6432571972105581
+        },
+        {
+          "case": "bull",
+          "growth": 0.18,
+          "cells": [
+            {
+              "wacc": 0.10070634297266341,
+              "fair_value": 24.872992166991338,
+              "gap": -0.2118823641352483
+            },
+            {
+              "wacc": 0.11070634297266342,
+              "fair_value": 21.042959716290255,
+              "gap": -0.3332395414328657
+            },
+            {
+              "wacc": 0.12070634297266342,
+              "fair_value": 17.982003514291378,
+              "gap": -0.43022801588775517
+            },
+            {
+              "wacc": 0.13070634297266343,
+              "fair_value": 15.481357882165142,
+              "gap": -0.509462669704045
+            },
+            {
+              "wacc": 0.1407063429726634,
+              "fair_value": 13.401456694500675,
+              "gap": -0.5753657502763045
+            }
+          ],
+          "fair_value_at_point_wacc": 17.982003514291378,
+          "gap_at_point_wacc": -0.43022801588775517
+        }
+      ],
+      "summary": {
+        "bear": -0.8403801538560163,
+        "base": -0.6432571972105581,
+        "bull": -0.43022801588775517
+      },
+      "downside": -0.9053270105693516,
+      "upside": -0.2118823641352483
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am underwriting the wrong variable. Perimeter's value is not a discounted cash flow at all - it is an option on climate, and options on convex, worsening tail risk are systematically underpriced by a five-year CAGR framework. Acres burned has no ceiling, the retardant is consumable and re-ordered every season, and Perimeter has pricing power because there is no qualified substitute. A +40% required growth rate looks absurd against history and entirely reasonable against a decade in which the western US fire season lengthens by a month. Moreover the founders advisory fee, which I have added to enterprise value, is settled in SHARES and is itself a function of the share price appreciating - so it only becomes large in exactly the states of the world where the equity has already worked. Charging it as a fixed claim double-counts.",
+    "what_would_prove_it": "Two things: the fiscal 2026 full-year free cash flow against the $208.6M of 2025 (does a severe season actually convert to cash at the rate the operating leverage implies), and the settlement mechanics and share count effect of the $630.6M founders advisory fee liability over the next twelve months.",
+    "already_visible": "The founders-fee objection is partly right and I have weighed it - the liability IS share-price-linked, and 13.4M shares were already issued to settle an earlier tranche. But it does not rescue the valuation, for two reasons. First, whether settled in cash or shares it is a claim of $630.6M ahead of or alongside common on a $5.17B market capitalisation - roughly 12% - and the 10-Q classifies it as a LIABILITY, not equity, so treating it as a claim on enterprise value is the company's own accounting, not my adjustment. Second, the arithmetic does not turn on it: WITHOUT the founders fee the market already requires +40.1%, and my generous $220M base still leaves +33%. On the strongest bull base I can construct - $250M, treating 2026 as the new normal - the requirement is still +28.9%. Every defensible input leaves a requirement far above any growth rate I can defend from the business, which is why the devil's advocate loses here despite being a real argument.",
+    "unresolved": "The settlement path of the founders advisory fee liability - whether it converts to shares over the next twelve months, at what reference price, and how much dilution results. The Q2 10-Q classifies $178.0M as current, so a substantial tranche settles within a year, but I could not determine the share count effect and have therefore not modelled the dilution at all. My verdict is rich WITHOUT that dilution; including it would make it more so."
+  },
+  "what_changed": "Q2 2026 (2026-07-31): net loss of $181.6M against $32.2M a year earlier, driven almost entirely by a $266.3M founders advisory fee charge ($189.9M year to date) reflecting the mark-to-market of liability-classified advisory amounts tied to the share price. Segment Adjusted EBITDA $105.6M. Specialty Products net sales +31%. Purchases of property and equipment $12.7M in the quarter. The balance sheet at 2026-06-30 carries founders advisory fees payable of $177.957M current and $452.617M non-current, and 13,387,003 shares have already been ISSUED to settle founders advisory fees in a prior period.",
+  "consensus_case": "At $31.56 the market is capitalising a genuine escalation in wildfire severity. Perimeter's Phos-Chek retardant is the incumbent product with USFS and CAL FIRE qualification, a near-monopoly position and extreme operating leverage - the cost base is largely fixed, so an above-average fire season drops almost entirely through to EBITDA. Q2 2026 Management's Segment Adjusted EBITDA was $105.6M and Specialty Products grew sales 31%, so the buyer is underwriting two engines rather than one: structurally worsening fire seasons in Fire Safety, plus a phosphorus-chemicals business compounding independently of weather. On that view the -$9.2M free-cash-flow year of 2023 was a once-in-a-decade quiet season and the right base is the two good years, not the three-year mean.",
+  "base_case_rationale": "I use $220M rather than the engine's $155.1M, because the three-year mean averages in 2023's -$9.2M, which was a genuinely light US fire season rather than an impairment of the franchise; the mean of the two normal years ($208.6M and $172.9M) plus after-tax interest of roughly $31M gives about $220M. On growth, Fire Safety volume tracks acres burned, which is trending up but is violently non-linear year to year and is ultimately bounded by federal and state suppression budgets rather than by demand; Specialty Products is genuinely compounding at high-twenties rates off a small base. Blending a mid-single-digit Fire Safety trend with high-teens Specialty growth, +10% is a defensible five-year FCFF CAGR and is, if anything, generous - it assumes no reversion in fire seasons at all. The naive baseline of +25% is a clamped artifact of a +136% four-year revenue CAGR measured from a 2021 SPAC stub period and carries no information.",
+  "key_risks": [
+    "Earnings are a weather derivative: 2023 produced NEGATIVE free cash flow on the same asset base",
+    "$630.6M founders advisory fee liability settling partly within twelve months, with 13.4M shares already issued against an earlier tranche",
+    "Fire Safety demand is ultimately capped by federal and state suppression appropriations, not by acres burned",
+    "Retardant qualification is a regulatory privilege: loss or sharing of USFS qualification would be structural",
+    "Enterprise value of $6.4-7.0B against roughly $200M of normalized unlevered cash flow leaves no margin for a mild season"
+  ],
+  "watch_for": [
+    "Fiscal 2026 full-year free cash flow - does a severe season convert at the rate the operating leverage implies",
+    "Settlement of the current $178.0M founders advisory fee tranche and the resulting share count",
+    "Specialty Products reaching a scale that sets an earnings floor independent of fire season"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1880319/000188031926000048/prm-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1880319/000188031926000044/prmearningspressreleaseq22.htm",
+    "https://ir.perimeter-solutions.com/news-events/press-releases/detail/88/perimeter-solutions-reports-second-quarter-2026-financial-results",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/07/perimeter-solutions-prm-q2-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_19%_debt_weight",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_1.8x_of_mean"
+  ]
+}

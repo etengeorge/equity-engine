@@ -1,0 +1,188 @@
+{
+  "ticker": "JBI",
+  "date": "2026-09-16",
+  "sector": "Industrials",
+  "name": "JANUS INTERNATIONAL GROUP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": -0.05,
+  "bear_growth": -0.12,
+  "bull_growth": 0.03,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 4.449999809265137,
+  "market_implied_growth": -0.15795284993954067,
+  "cohort_pct": 98.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": -0.05,
+    "market_implied_growth": -0.15795284993954067,
+    "growth_delta": 0.10795284993954067,
+    "fair_value": 5.651606902576687,
+    "price": 4.449999809265137,
+    "gap": 0.2700240774864171,
+    "fair_value_band": {
+      "low": 4.801432235612115,
+      "point": 5.651606902576687,
+      "high": 6.718531227522101
+    },
+    "fcff_base_used": 138000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10779501731779616,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 138000000,
+      "price": 4.449999809265137,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.12,
+          "cells": [
+            {
+              "wacc": 0.08779501731779615,
+              "fair_value": 5.008315708093772,
+              "gap": 0.1254642523054026
+            },
+            {
+              "wacc": 0.09779501731779616,
+              "fair_value": 4.0598464896215365,
+              "gap": -0.08767490704859815
+            },
+            {
+              "wacc": 0.10779501731779616,
+              "fair_value": 3.3247781673740744,
+              "gap": -0.2528588067685511
+            },
+            {
+              "wacc": 0.11779501731779615,
+              "fair_value": 2.7377541727878874,
+              "gap": -0.38477431682407326
+            },
+            {
+              "wacc": 0.12779501731779616,
+              "fair_value": 2.257664781270508,
+              "gap": -0.49265957796898563
+            }
+          ],
+          "fair_value_at_point_wacc": 3.3247781673740744,
+          "gap_at_point_wacc": -0.2528588067685511
+        },
+        {
+          "case": "base",
+          "growth": -0.05,
+          "cells": [
+            {
+              "wacc": 0.08779501731779615,
+              "fair_value": 8.098019919324486,
+              "gap": 0.8197798351505492
+            },
+            {
+              "wacc": 0.09779501731779616,
+              "fair_value": 6.718531227522101,
+              "gap": 0.5097823630315133
+            },
+            {
+              "wacc": 0.10779501731779616,
+              "fair_value": 5.651606902576687,
+              "gap": 0.2700240774864171
+            },
+            {
+              "wacc": 0.11779501731779615,
+              "fair_value": 4.801432235612115,
+              "gap": 0.0789735823393245
+            },
+            {
+              "wacc": 0.12779501731779616,
+              "fair_value": 4.107743479759945,
+              "gap": -0.07691153801683226
+            }
+          ],
+          "fair_value_at_point_wacc": 5.651606902576687,
+          "gap_at_point_wacc": 0.2700240774864171
+        },
+        {
+          "case": "bull",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.08779501731779615,
+              "fair_value": 12.82493926039566,
+              "gap": 1.8820089460888183
+            },
+            {
+              "wacc": 0.09779501731779616,
+              "fair_value": 10.772584743248736,
+              "gap": 1.420805664040623
+            },
+            {
+              "wacc": 0.10779501731779616,
+              "fair_value": 9.188074891887293,
+              "gap": 1.0647360192594237
+            },
+            {
+              "wacc": 0.11779501731779615,
+              "fair_value": 7.927878895812056,
+              "gap": 0.7815458956438133
+            },
+            {
+              "wacc": 0.12779501731779616,
+              "fair_value": 6.901727242521532,
+              "gap": 0.5509500086161281
+            }
+          ],
+          "fair_value_at_point_wacc": 9.188074891887293,
+          "gap_at_point_wacc": 1.0647360192594237
+        }
+      ],
+      "summary": {
+        "bear": -0.2528588067685511,
+        "base": 0.2700240774864171,
+        "bull": 1.0647360192594237
+      },
+      "downside": -0.49265957796898563,
+      "upside": 1.8820089460888183
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That this is a cyclical trough being mistaken for a secular decline, which is the single most common way a screen like this throws away a real opportunity. Self-storage new construction is one of the most rate-sensitive end markets in building products; it did not disappear, it was deferred, and deferred construction returns. Janus is not a distressed issuer while it waits: it generated $55.0M of free cash flow in a bad first half, its trailing free cash flow conversion is 129% of adjusted net income, it repriced its term loan 50bp TIGHTER in February 2026 at 5.62% with no maturity until 2030, and it is buying back stock. At $4.45 the equity is $607M against a business still converting north of $100M a year. The market requiring a 6-8% annual DECLINE for five consecutive years is a bet that nothing ever recovers, and the engine's flag - possible_trough_cycle_base at 0.58x - is pointing at something real even if its arithmetic is wrong.",
+    "what_would_prove_it": "Self-storage REIT 2027 development guidance (Public Storage, Extra Space, CubeSmart capital plans), and Janus's own New Construction order book and backlog commentary at Q3 2026 - specifically whether New Construction growth, currently +20.3%, is being sustained organically once Kiwi II laps.",
+    "already_visible": "Enough to stop me calling this cheap, but not enough to dismiss the counter, which is why this lands at no_edge rather than a verdict in either direction. Supporting the counter: New Construction revenue is genuinely growing 20.3% and R3 6.6%, so the self-storage side is not collapsing - the 21.2% decline is Commercial, a different end market. Against it: the margin evidence is the problem. Revenue is guided UP 5.7% while adjusted EBITDA is guided DOWN 4.9%, which means Janus is buying revenue through Kiwi II at margins well below its own, and the incremental business is dilutive. That is the EFOR pattern - flat-to-growing headline revenue purchased with acquisition cash that CFO-less-capex never charges for - and it means the organic business is worse than the headline. On the corrected base the market requires -6% to -8%, not the -15.8% the screen reported, so the counter's strongest quantitative claim (that the market demands an absurd decline) mostly dissolves once the base is right.",
+    "unresolved": "Whether the 129% free cash flow conversion is sustainable or is working capital releasing as volumes fall - a shrinking manufacturer liquidates inventory and receivables, which flatters cash conversion exactly when earnings deteriorate, and I could not separate the two from the disclosure available."
+  },
+  "what_changed": "Q2 2026 (2026-08-11): revenue $233.5M, up 2.4%, below expectations; shares fell 14%. Total Self-Storage revenues +15.4% (New Construction +20.3%, R3 +6.6%) but Commercial and Other -21.2%. Full-year guidance CUT to revenue $925-945M and adjusted EBITDA $150-170M, with management now expecting North America ORGANIC self-storage revenues to decline high single digits in 2026 and citing project delays and extended timelines at Kiwi II. Six-month operating cash flow $60.6M and free cash flow $55.0M; trailing-twelve-month free cash flow conversion of adjusted net income 129%. Surpassed 500,000 installed Noke units. Repurchased ~367,000 shares for $1.9M. On 2026-02-02 the First Lien Term Loan was repriced 50bp tighter (Amendment No. 8); the rate at 2026-07-04 was 5.62%, maturity 2030.",
+  "consensus_case": "At $4.45, down 57% over twelve months, the market is pricing Janus as a business whose end market has structurally reset rather than cyclically dipped. North American self-storage new construction tripled through 2021-2023 when street rates and cap rates made development trivially financeable; that condition has reversed, and the self-storage REITs have cut development pipelines. Janus's own guidance concedes the point: full-year 2026 revenue of $925-945M is up 5.7% at the midpoint while adjusted EBITDA of $150-170M is DOWN 4.9%, and the revenue growth is entirely acquired - Kiwi II Construction contributed $19.2M in the second quarter alone. Strip that out and organic revenue is falling. The market's implied decline is therefore not an overreaction; it is an extrapolation of a margin structure that has gone from roughly 28% adjusted EBITDA margin at the 2023 peak to a guided 17.1%.",
+  "base_case_rationale": "The engine's $193.0M base cannot be right: it exceeds the company's own guided full-year adjusted EBITDA midpoint of $160M, which is arithmetically impossible for a business that also pays cash interest, cash taxes and capex. Rebuilding it from the guidance - first-half free cash flow of $55.0M with a stronger declared second half gives roughly $110-120M for the year, plus after-tax interest of about $23M - puts the true base near $138M, some 40% below the engine's. On growth, I underwrite -5%: Commercial is shrinking at a 21% rate and organic self-storage at high single digits, against which R3 retrofit (counter-cyclical, since it monetises existing facilities rather than new ones) and the 500,000-unit Noke installed base provide a partial and slow offset. I do not underwrite a return to 2023 volumes inside five years, because the rate environment that produced them has not returned and the REIT development pipelines are the binding constraint.",
+  "key_risks": [
+    "Gross leverage of roughly 3.4x ($538.9M term debt against $150-170M guided adjusted EBITDA) into a declining EBITDA base",
+    "Adjusted EBITDA margin compression from ~28% at the 2023 peak to 17.1% guided, with no demonstrated floor",
+    "Revenue growth is entirely acquired (Kiwi II) and the acquisition is already reporting project delays and extended timelines",
+    "Commercial and Other declining 21.2% with no stated stabilisation plan",
+    "Free cash flow conversion of 129% may be working-capital release rather than earnings quality"
+  ],
+  "watch_for": [
+    "Self-storage REIT 2027 development capital plans - the actual driver of New Construction",
+    "Organic New Construction growth once Kiwi II laps in 2027",
+    "Whether Noke's 500,000 installed units begin producing disclosed recurring revenue"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm",
+    "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/19/janus-international-jbi-q2-2026-earnings-call-transcript/",
+    "https://finance.yahoo.com/markets/stocks/articles/janus-international-shares-tumble-14-140610972.html"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.58x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

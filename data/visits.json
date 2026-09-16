@@ -104,6 +104,11 @@
     "last_visit": "2026-09-15",
     "verdict": "no_model"
   },
+  "CBT": {
+    "conviction": "medium",
+    "last_visit": "2026-09-16",
+    "verdict": "no_edge"
+  },
   "CIFR": {
     "conviction": "high",
     "last_visit": "2026-09-11",
@@ -164,6 +169,11 @@
     "last_visit": "2026-09-07",
     "verdict": "rich"
   },
+  "CVSA": {
+    "conviction": "medium",
+    "last_visit": "2026-09-16",
+    "verdict": "no_edge"
+  },
   "DFTX": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
@@ -173,6 +183,11 @@
     "conviction": "high",
     "last_visit": "2026-09-14",
     "verdict": "no_model"
+  },
+  "EBC": {
+    "conviction": "medium",
+    "last_visit": "2026-09-16",
+    "verdict": "no_edge"
   },
   "EFOR": {
     "conviction": "medium",
@@ -219,6 +234,11 @@
     "last_visit": "2026-09-01",
     "verdict": "no_model"
   },
+  "FRD": {
+    "conviction": "low",
+    "last_visit": "2026-09-16",
+    "verdict": "no_edge"
+  },
   "GATX": {
     "conviction": "high",
     "last_visit": "2026-09-04",
@@ -227,6 +247,11 @@
   "GLRE": {
     "conviction": "low",
     "last_visit": "2026-09-02",
+    "verdict": "no_edge"
+  },
+  "GTX": {
+    "conviction": "low",
+    "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
   "HAE": {
@@ -264,6 +289,11 @@
     "last_visit": "2026-09-09",
     "verdict": "no_edge"
   },
+  "HUBG": {
+    "conviction": "high",
+    "last_visit": "2026-09-16",
+    "verdict": "no_model"
+  },
   "HUT": {
     "conviction": "high",
     "last_visit": "2026-08-31",
@@ -289,10 +319,20 @@
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
+  "JBI": {
+    "conviction": "low",
+    "last_visit": "2026-09-16",
+    "verdict": "no_edge"
+  },
   "JILL": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
     "verdict": "no_edge"
+  },
+  "JOBY": {
+    "conviction": "high",
+    "last_visit": "2026-09-16",
+    "verdict": "no_model"
   },
   "JXN": {
     "conviction": "medium",
@@ -408,6 +448,11 @@
     "conviction": "medium",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
+  },
+  "PRM": {
+    "conviction": "medium",
+    "last_visit": "2026-09-16",
+    "verdict": "rich"
   },
   "PTEN": {
     "conviction": "low",
@@ -557,6 +602,11 @@
   "UFPI": {
     "conviction": "medium",
     "last_visit": "2026-09-15",
+    "verdict": "no_edge"
+  },
+  "URBN": {
+    "conviction": "low",
+    "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
   "VEL": {

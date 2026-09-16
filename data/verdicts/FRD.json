@@ -1,0 +1,191 @@
+{
+  "ticker": "FRD",
+  "date": "2026-09-16",
+  "sector": "Materials",
+  "name": "FRIEDMAN INDUSTRIES INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.03,
+  "bear_growth": -0.08,
+  "bull_growth": 0.1,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 40.79999923706055,
+  "market_implied_growth": 0.13404702545690672,
+  "cohort_pct": 90.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.13404702545690672,
+    "growth_delta": -0.10404702545690672,
+    "fair_value": 49.93648067390185,
+    "price": 40.79999923706055,
+    "gap": 0.22393337273747327,
+    "fair_value_band": {
+      "low": 44.66071005068553,
+      "point": 49.93648067390185,
+      "high": 56.642131382391085
+    },
+    "fcff_base_used": 28000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10386450170483133,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 28000000,
+      "price": 40.79999923706055,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.08,
+          "cells": [
+            {
+              "wacc": 0.08386450170483133,
+              "fair_value": 40.20747070540597,
+              "gap": -0.014522758400356994
+            },
+            {
+              "wacc": 0.09386450170483134,
+              "fair_value": 35.1538823254193,
+              "gap": -0.13838522101031347
+            },
+            {
+              "wacc": 0.10386450170483133,
+              "fair_value": 31.296545332539917,
+              "gap": -0.23292779613309889
+            },
+            {
+              "wacc": 0.11386450170483133,
+              "fair_value": 28.2534880329588,
+              "gap": -0.30751253526262723
+            },
+            {
+              "wacc": 0.12386450170483133,
+              "fair_value": 25.789824514173556,
+              "gap": -0.3678964461659241
+            }
+          ],
+          "fair_value_at_point_wacc": 31.296545332539917,
+          "gap_at_point_wacc": -0.23292779613309889
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.08386450170483133,
+              "fair_value": 65.44941786108325,
+              "gap": 0.6041524285528046
+            },
+            {
+              "wacc": 0.09386450170483134,
+              "fair_value": 56.642131382391085,
+              "gap": 0.3882875598424127
+            },
+            {
+              "wacc": 0.10386450170483133,
+              "fair_value": 49.93648067390185,
+              "gap": 0.22393337273747327
+            },
+            {
+              "wacc": 0.11386450170483133,
+              "fair_value": 44.66071005068553,
+              "gap": 0.09462526680927286
+            },
+            {
+              "wacc": 0.12386450170483133,
+              "fair_value": 40.40177111769466,
+              "gap": -0.009760493304229234
+            }
+          ],
+          "fair_value_at_point_wacc": 49.93648067390185,
+          "gap_at_point_wacc": 0.22393337273747327
+        },
+        {
+          "case": "bull",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.08386450170483133,
+              "fair_value": 87.74632411838077,
+              "gap": 1.150645239195904
+            },
+            {
+              "wacc": 0.09386450170483134,
+              "fair_value": 75.56318623645714,
+              "gap": 0.8520389129767327
+            },
+            {
+              "wacc": 0.10386450170483133,
+              "fair_value": 66.2980917517169,
+              "gap": 0.624953259594555
+            },
+            {
+              "wacc": 0.11386450170483133,
+              "fair_value": 59.01788011178224,
+              "gap": 0.44651669645556114
+            },
+            {
+              "wacc": 0.12386450170483133,
+              "fair_value": 53.14879364753876,
+              "gap": 0.30266653532829535
+            }
+          ],
+          "fair_value_at_point_wacc": 66.2980917517169,
+          "gap_at_point_wacc": 0.624953259594555
+        }
+      ],
+      "summary": {
+        "bear": -0.23292779613309889,
+        "base": 0.22393337273747327,
+        "bull": 0.624953259594555
+      },
+      "downside": -0.3678964461659241,
+      "upside": 1.150645239195904
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am calling a peak far too early on a company that has genuinely changed size. Friedman's record volumes are up 28% year on year - that is TONNAGE, not price - so the Century acquisition and share gains are producing real physical growth independent of the steel cycle. The tariff regime is not a one-quarter event: 50% duties on Canadian steel structurally advantage a Texas processor for as long as they stand, and the company just upsized its credit facility by $60M precisely because it is growing the borrowing base to support that volume. At $294M of market capitalisation against an annualised $77M of EBITDA, the stock is cheap even if I haircut the run rate substantially.",
+    "what_would_prove_it": "The September and December 2026 quarters: whether record volumes hold once the initial tariff-driven restocking passes, and whether operating cash flow converts. Q1's $7.3M of operating cash flow against $19.3M of EBITDA is the number to watch - conversion that poor in a record quarter is the tell.",
+    "already_visible": "Yes, and it is the thing that keeps me from calling this cheap despite a 24-point range of outcomes. In the company's own record quarter, EBITDA of $19.3M converted to just $7.3M of operating cash flow, because inventory and receivables absorbed the rest - and the September facility upsize confirms that pattern is continuing rather than reversing. A processor whose best quarter in history produces $7.3M of cash is not compounding owner earnings at anything like the rate the earnings line suggests. The counter's volume point is real and I have credited it in the bull case, but it cannot resolve the valuation because the required growth swings from +20.7% on the engine's base to -3.5% on the current run rate depending on which base I pick, and both are defensible for a business this cyclical. That is not a valuation.",
+    "unresolved": "Mid-cycle EBITDA for the combined Friedman-Century entity. Century closed in August 2025 so there is no full cycle of combined data, and my $50M mid-cycle figure is an estimate rather than something I could derive from a filing. It is the assumption the whole verdict rests on and I want it flagged as such."
+  },
+  "what_changed": "Q1 fiscal 2027 (2026-08-06, quarter ended 2026-06-30): sales $240.0M up 78%, record quarterly sales volume up 9% sequentially and 28% year on year, net earnings $12.8M, EBITDA $19.3M, operating cash flow only $7.3M. At 2026-06-30 the company had approximately $91.5 MILLION drawn on its asset-based lending facility at 5.3%, plus a $3.5M seller's note from the Century acquisition. On 2026-09-03 it entered a Seventh Amendment increasing aggregate commitments under the JPMorgan A&R Credit Agreement from $140M to $200M, stated as aligning the facility with growth in the underlying borrowing base - i.e. inventory and receivables are absorbing more cash as steel prices rise. Sector context: US-Canada trade war escalation to 50% tariffs.",
+  "consensus_case": "At $40.80, up 94.5% over twelve months, the market is paying for a transformed Friedman: the Century Metals acquisition roughly doubled the business, the June 2026 quarter delivered record sales volumes with sales of $240.0M up 78% year on year, net earnings of $12.8M and EBITDA of $19.3M, and the US-Canada trade escalation to 50% steel tariffs hands a domestic processor both higher realised prices and inventory holding gains. On that reading the stock is roughly 6x an annualised run-rate EBITDA, which is not demanding for a company taking share in a protected market.",
+  "base_case_rationale": "Friedman's reported free cash flow is not owner earnings, it is a steel-price derivative: the three-year series of -$8.4M, -$0.8M and +$47.4M tracks working capital, which absorbs cash when hot-rolled coil rises and releases it when coil falls, and tells you almost nothing about earning power. I therefore discard the engine's $15.0M three-year mean and use a mid-cycle construction instead: mid-cycle EBITDA of roughly $50M for the combined Friedman-Century business, less maintenance capex near $10M and cash taxes near $12M, gives about $28M of unlevered cash flow. On growth I underwrite +3%, essentially steel-price inflation on a flat volume base. I explicitly do NOT underwrite the +25% naive baseline: that is a clamped +25.6% five-year revenue CAGR which is the Century acquisition plus steel price inflation, not organic volume, and a metals processor does not compound at 25%. Q1 fiscal 2027 is a record quarter on tariff-driven pricing and is a peak, not a base.",
+  "key_risks": [
+    "Earnings are a levered bet on the hot-rolled coil spread, which the company does not control",
+    "Tariff-driven pricing is a policy artifact and reverses on exemption, negotiation or litigation",
+    "Working capital consumes cash in exactly the up-cycle that produces the earnings - $19.3M EBITDA converted to $7.3M operating cash flow in a record quarter",
+    "Century integration is barely a year old with no combined-cycle track record",
+    "Market capitalisation of $294M with $3.3M of average daily volume - position-size risk independent of the thesis"
+  ],
+  "watch_for": [
+    "Operating cash flow conversion in the September and December 2026 quarters",
+    "Whether record volumes hold after tariff-driven restocking passes",
+    "ABL drawn balance against the new $200M commitment - the direct read on working-capital absorption"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/39092/000143774926026305/frd20260630_10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/39092/000143774926030072/frd20260910_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/39092/000143774926026319/ex_1000391.htm",
+    "https://www.sec.gov/Archives/edgar/data/39092/000143774926020323/frd20260331_10k.htm"
+  ],
+  "flags": [
+    "last_10k_534d_old",
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_4.4x_of_mean"
+  ]
+}
