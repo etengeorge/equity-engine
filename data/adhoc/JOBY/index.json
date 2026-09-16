@@ -1,0 +1,142 @@
+{
+  "fetched_utc": "2026-09-16T11:29:52+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "JOBY",
+    "cik": 1819848,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-11",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000162828026061440/joby-20260910.htm",
+        "file": "2026-09-11-8-K-joby-20260910.htm.txt",
+        "chars": 4569,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-09",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000453/joby-20260902.htm",
+        "file": "2026-09-09-8-K-joby-20260902.htm.txt",
+        "chars": 4793,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-11",
+        "items": "1.01,3.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000162828026055505/joby-20260808.htm",
+        "file": "2026-08-11-8-K-joby-20260808.htm.txt",
+        "chars": 18452,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000435/joby-20260630.htm",
+        "file": "2026-08-06-10-Q-joby-20260630.htm.txt",
+        "chars": 191790,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000432/joby-20260805.htm",
+        "file": "2026-08-05-8-K-joby-20260805.htm.txt",
+        "chars": 3918,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000427/joby-20260728.htm",
+        "file": "2026-07-28-8-K-joby-20260728.htm.txt",
+        "chars": 4483,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-30",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000378/joby-20260629.htm",
+        "file": "2026-06-30-8-K-joby-20260629.htm.txt",
+        "chars": 14194,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000369/joby-20260602.htm",
+        "file": "2026-06-04-8-K-joby-20260602.htm.txt",
+        "chars": 4486,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "1.01",
+          "3.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000162828026055505/exhibit991-8xk.htm",
+        "file": "2026-08-11-EX-99.1.txt",
+        "chars": 13313,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000432/joby-8kx20260805xexx99_1.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 6678,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000432/joby-8kx20260805xexx99_2.htm",
+        "file": "2026-08-05-EX-99.2.txt",
+        "chars": 31335,
+        "truncated": false
+      }
+    ]
+  }
+}

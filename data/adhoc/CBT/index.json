@@ -1,0 +1,158 @@
+{
+  "fetched_utc": "2026-09-16T11:29:28+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CBT",
+    "cik": 16040,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-15",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526391407/d72935d8k.htm",
+        "file": "2026-09-15-8-K-d72935d8k.htm.txt",
+        "chars": 4818,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-21",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526361109/d328380d8k.htm",
+        "file": "2026-08-21-8-K-d328380d8k.htm.txt",
+        "chars": 4803,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-14",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526352348/d222203d8k.htm",
+        "file": "2026-08-14-8-K-d222203d8k.htm.txt",
+        "chars": 4628,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526332489/cbt-20260630.htm",
+        "file": "2026-08-04-10-Q-cbt-20260630.htm.txt",
+        "chars": 127156,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526330708/cbt-20260803.htm",
+        "file": "2026-08-03-8-K-cbt-20260803.htm.txt",
+        "chars": 3012,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526325036/d25963d8k.htm",
+        "file": "2026-07-30-8-K-d25963d8k.htm.txt",
+        "chars": 7220,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "1.01,1.02,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526222854/d31752d8k.htm",
+        "file": "2026-05-14-8-K-d31752d8k.htm.txt",
+        "chars": 5777,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526209067/cbt-20260331.htm",
+        "file": "2026-05-06-10-Q-cbt-20260331.htm.txt",
+        "chars": 117528,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-15",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526391407/d72935dex991.htm",
+        "file": "2026-09-15-EX-99.1.txt",
+        "chars": 5253,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-14",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526352348/d222203dex991.htm",
+        "file": "2026-08-14-EX-99.1.txt",
+        "chars": 1043,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526330708/cbt-ex99_1.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 50487,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/16040/000119312526325036/d25963dex991.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 8116,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-16T11:29:48+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CVSA",
+    "cik": 730464,
+    "documents": [
+      {
+        "form": "10-K",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000110465926092044/cvsa-20260630x10k.htm",
+        "file": "2026-08-06-10-K-cvsa-20260630x10k.htm.txt",
+        "chars": 400149,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806x8k.htm",
+        "file": "2026-08-06-8-K-cvsa-20260806x8k.htm.txt",
+        "chars": 5354,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000110465926087540/cvsa-20260728x8k.htm",
+        "file": "2026-07-28-8-K-cvsa-20260728x8k.htm.txt",
+        "chars": 5091,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000110465926057163/cvsa-20260331x10q.htm",
+        "file": "2026-05-07-10-Q-cvsa-20260331x10q.htm.txt",
+        "chars": 220331,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000021/cvsa-20260507x8k.htm",
+        "file": "2026-05-07-8-K-cvsa-20260507x8k.htm.txt",
+        "chars": 5328,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-09",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000015/cvsa-20260409x8k.htm",
+        "file": "2026-04-09-8-K-cvsa-20260409x8k.htm.txt",
+        "chars": 5344,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-03",
+        "items": "1.01,1.02,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000010/cvsa-20260302x8k.htm",
+        "file": "2026-03-03-8-K-cvsa-20260302x8k.htm.txt",
+        "chars": 7334,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-24",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000007/cvsa-20260224x8k.htm",
+        "file": "2026-02-24-8-K-cvsa-20260224x8k.htm.txt",
+        "chars": 5627,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806xex99d1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 54229,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000110465926087540/cvsa-20260728xex99d1.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 7815,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000021/cvsa-20260507xex99d1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 51549,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-09",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/730464/000073046426000015/cvsa-20260409xex99d1.htm",
+        "file": "2026-04-09-EX-99.1.txt",
+        "chars": 8450,
+        "truncated": false
+      }
+    ]
+  }
+}

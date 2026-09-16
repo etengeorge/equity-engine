@@ -1,0 +1,202 @@
+{
+  "fetched_utc": "2026-09-16T11:29:24+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "JBI",
+    "cik": 1839839,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm",
+        "file": "2026-08-11-10-Q-jbi-20260704.htm.txt",
+        "chars": 190898,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-11",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbi-20260811.htm",
+        "file": "2026-08-11-8-K-jbi-20260811.htm.txt",
+        "chars": 5456,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-15",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000110465926074100/tm2617994d1_8k.htm",
+        "file": "2026-06-15-8-K-tm2617994d1_8k.htm.txt",
+        "chars": 5506,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-12",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000012/jbi-20260404.htm",
+        "file": "2026-05-12-10-Q-jbi-20260404.htm.txt",
+        "chars": 170447,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-12",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/jbi-20260512.htm",
+        "file": "2026-05-12-8-K-jbi-20260512.htm.txt",
+        "chars": 5428,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-05",
+        "items": "5.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000110465926023805/tm268034d1_8k.htm",
+        "file": "2026-03-05-8-K-tm268034d1_8k.htm.txt",
+        "chars": 9924,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000006/jbi-20260103.htm",
+        "file": "2026-03-04-10-K-jbi-20260103.htm.txt",
+        "chars": 400145,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-04",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000005/jbi-20260304.htm",
+        "file": "2026-03-04-8-K-jbi-20260304.htm.txt",
+        "chars": 5255,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm",
+        "file": "2026-08-11-EX-99.1.txt",
+        "chars": 30626,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/earningspresentationq220.htm",
+        "file": "2026-08-11-EX-99.2.txt",
+        "chars": 32182,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EX-99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbiinvestorpresentationa.htm",
+        "file": "2026-08-11-EX-99.3.txt",
+        "chars": 44715,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-12",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/janusearningsrelease2026q1.htm",
+        "file": "2026-05-12-EX-99.1.txt",
+        "chars": 28989,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-12",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/earningspresentationq120.htm",
+        "file": "2026-05-12-EX-99.2.txt",
+        "chars": 29699,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-12",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EX-99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/jbiinvestorpresentationm.htm",
+        "file": "2026-05-12-EX-99.3.txt",
+        "chars": 43355,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-16T11:29:32+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "FRD",
+    "cik": 39092,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-10",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926030072/frd20260910_8k.htm",
+        "file": "2026-09-10-8-K-frd20260910_8k.htm.txt",
+        "chars": 3958,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926026319/frd20260806_8k.htm",
+        "file": "2026-08-06-8-K-frd20260806_8k.htm.txt",
+        "chars": 3663,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926026305/frd20260630_10q.htm",
+        "file": "2026-08-06-10-Q-frd20260630_10q.htm.txt",
+        "chars": 75752,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926020332/frd20260611_8k.htm",
+        "file": "2026-06-11-8-K-frd20260611_8k.htm.txt",
+        "chars": 3646,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-06-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926020323/frd20260331_10k.htm",
+        "file": "2026-06-11-10-K-frd20260331_10k.htm.txt",
+        "chars": 33684,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-17",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926008573/frd20260317_8k.htm",
+        "file": "2026-03-17-8-K-frd20260317_8k.htm.txt",
+        "chars": 3697,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926003541/frd20260209_8k.htm",
+        "file": "2026-02-09-8-K-frd20260209_8k.htm.txt",
+        "chars": 3664,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-02-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926003530/frd20251231_10q.htm",
+        "file": "2026-02-09-10-Q-frd20251231_10q.htm.txt",
+        "chars": 97432,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926026319/ex_1000391.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 13122,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-11",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926020332/ex_975928.htm",
+        "file": "2026-06-11-EX-99.1.txt",
+        "chars": 15845,
+        "truncated": false
+      }
+    ]
+  }
+}
