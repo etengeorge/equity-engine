@@ -1,11 +1,95 @@
 [
  {
+  "id": "32572096-1356-3dc4-a986-5ea151d76285",
+  "ts": "2026-09-15T19:58:57+00:00",
+  "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+  "summary": "Financial stocks were lower in late Tuesday afternoon trading, with the NYSE Financial Index decreas",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "bacdcc61-fa39-3c69-afa8-8d3b857eb903",
+  "ts": "2026-09-15T19:03:55+00:00",
+  "title": "Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce?",
+  "summary": "Klarna shares have lost half their value this year while rivals Sezzle and Affirm traded in the opposite direction, raising a question that cuts both ways: is the divergence a warning sign or the setup for a sharp reversal?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "418d4893-3858-3989-84f1-26566f4020ec",
+  "ts": "2026-09-15T18:00:03+00:00",
+  "title": "Sector Update: Financial Stocks Decline Tuesday Afternoon",
+  "summary": "Financial stocks were lower in Tuesday afternoon trading, with the NYSE Financial Index decreasing 0",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "9985ea2f-b881-3059-9483-da400f39879d",
+  "ts": "2026-09-15T17:12:00+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "1a084ec7-71cb-3440-b815-775b90dc4c57",
+  "ts": "2026-09-15T13:50:38+00:00",
+  "title": "Brown & Brown Stock: Is BRO Underperforming the Financial Sector?",
+  "summary": "Lagging behind the financial sector over the past year, Brown & Brown remains a focus of skepticism among analysts, who question its growth prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4612663/brown-brown-stock-is-bro-underperforming-the-financial-sector",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
   "ts": "2026-09-15T13:23:08+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "eee2092b-1203-3ae7-be62-051b8dd64c48",
+  "ts": "2026-09-15T13:17:10+00:00",
+  "title": "Willis Towers Watson Stock: Is WTW Underperforming the Financial Service Sector?",
+  "summary": "Even though Willis Towers Watson has lagged behind the financial service sector over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4611230/willis-towers-watson-stock-is-wtw-underperforming-the-financial-service-sector",
   "tickers": [
    "XLF"
   ],

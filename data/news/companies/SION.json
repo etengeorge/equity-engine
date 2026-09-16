@@ -1,5 +1,17 @@
 [
  {
+  "id": "f41d3d33-aea6-3658-b17b-b74794c489d6",
+  "ts": "2026-09-15T17:13:00+00:00",
+  "title": "FDA clears first generic radioligand drug; Sionna turns to layoffs",
+  "summary": "A Lutathera copycat has become the first \u201cradioligand equivalent\u201d cleared by regulators. Elsewhere, Novo dropped the \u201cNordisk\u201d from its name and a novel RNAi drug showed early promise.",
+  "publisher": "BioPharma Dive",
+  "url": "https://www.biopharmadive.com/news/radioligand-generic-sionna-layoffs-novo-contineum-arrowhead-corbus/830246/",
+  "tickers": [
+   "SION"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "be9e6dd7-593f-3d82-aca5-2941b7308239",
   "ts": "2026-09-14T20:01:00+00:00",
   "title": "Sionna Therapeutics Announces Plans to Advance SION-451 + SION-2222 Dual Combination into Phase 2a Proof-of-Concept Trial",

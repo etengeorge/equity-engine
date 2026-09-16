@@ -1,5 +1,29 @@
 [
  {
+  "id": "6224a4a8-379e-3398-8782-1592ed8ec0f6",
+  "ts": "2026-09-14T16:35:30+00:00",
+  "title": "3 Russell 2000 Stocks We\u2019re Skeptical Of",
+  "summary": "The Russell 2000 (^RUT) is packed with potential breakout stocks, thanks to its focus on smaller companies with high growth potential. However, smaller size also means these businesses often lack the resilience and financial flexibility of large-cap firms, making careful selection crucial.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-163530846.html",
+  "tickers": [
+   "MTH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "afdd2f29-05ba-338b-87f2-200cdcf503c9",
+  "ts": "2026-09-11T15:34:00+00:00",
+  "title": "As Mortgage Rates Hit 7%, Home Builders Flash a Buy Signal",
+  "summary": "Home builder stocks have been battered by rising mortgage rates, but a valuation signal has historically preceded strong returns for the sector.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/home-builder-stocks-mortgage-rates-buy-signal-e7adfdee?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "MTH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d7a0fd18-8bfc-34f8-b1b9-727f8d7af5d2",
   "ts": "2026-09-10T20:30:00+00:00",
   "title": "Meritage Homes Third Quarter 2026 Earnings Conference Call and Webcast Scheduled for October 29, 2026",

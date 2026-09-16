@@ -1,5 +1,17 @@
 [
  {
+  "id": "1b3466f0-47df-3e6a-9ca9-98b0d0e33192",
+  "ts": "2026-09-15T15:26:02+00:00",
+  "title": "How Far Could RGTI Stock Drop If the Broader Market Breaks?",
+  "summary": "Rigetti Computing (RGTI) trades near $15, about 73% below the high it set inside the past year. No market shock did that: the S&P 500 returned 17% over the past twelve months while Rigetti lost 8.5%. The 73% is measured from a high set inside those same twelve months, so the stock ran up hard before it fell. A fall like that in a rising market says the price is a bet on a road map.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615396/how-far-could-rgti-stock-drop-if-the-broader-market-breaks/2026-09-15",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "116a0d9c-410d-359c-b5f9-33833b548918",
   "ts": "2026-09-15T11:00:00+00:00",
   "title": "D-Wave to Showcase Unique Dual-Platform Quantum Computing at Quantum World Congress 2026",

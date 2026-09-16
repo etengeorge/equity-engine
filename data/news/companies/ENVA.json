@@ -1,5 +1,53 @@
 [
  {
+  "id": "8af6acb0-32f5-3a96-97ee-647dd408ed1b",
+  "ts": "2026-09-15T20:38:10+00:00",
+  "title": "Stock Market Today: Dow Dives With Fed Seen Doing This; Senate Vote Hits These Crypto Stocks",
+  "summary": "The Dow Jones index drops on the stock market today as yields and oil spike. Bitcoin and crypto stocks fall after a key vote.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "ENVA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "60f43301-52e4-3fe1-91f2-cee7412da8f1",
+  "ts": "2026-09-15T20:23:31+00:00",
+  "title": "Why Enova (ENVA) Shares Are Falling Today",
+  "summary": "Shares of financial technology company Enova International (NYSE:ENVA) fell 25.4% in the morning session after investors continued to sell off the stock due to the company's sudden withdrawal of its bank regulatory applications, despite reaffirming its financial outlook. According to a company press release, Enova withdrew its pending applications with the Office of the Comptroller of the Currency and the Board of Governors of the Federal Reserve System to acquire digital bank Grasshopper Bancor",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-enova-enva-shares-falling-202331153.html",
+  "tickers": [
+   "ENVA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "415cc4a3-23d7-351e-90f1-1567aaf6af8f",
+  "ts": "2026-09-15T15:59:00+00:00",
+  "title": "Enova drops 25% as it pulls bank deal filings, plans faster buybacks",
+  "summary": "Enova International Inc (NYSE:ENVA) withdrew regulatory applications for its planned Grasshopper Bancorp acquisition on Tuesday, sending shares sharply lower despite reaffirmed growth forecasts and plans for faster buybacks. Shares fell 25% to $169.50 following the company's acquisition...",
+  "publisher": "Proactive",
+  "url": "https://www.proactiveinvestors.com/companies/news/1098582/enova-drops-25-as-it-pulls-bank-deal-filings-plans-faster-buybacks-1098582.html",
+  "tickers": [
+   "ENVA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "95808c0d-32e8-3dd9-b350-c3445a7d50e9",
+  "ts": "2026-09-15T14:31:00+00:00",
+  "title": "Why This Fintech Stock Is Having Its Worst Day in 6 Years",
+  "summary": "Enova International stock sinks after the fintech company withdraws regulatory applications for its proposed acquisition of Grasshopper Bancorp.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/enova-international-stock-fintech-grasshopper-acquisition-02b0fe05?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "ENVA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8d370923-72cc-3ccb-afaf-c437fb5144c9",
   "ts": "2026-09-15T13:54:00+00:00",
   "title": "PGY vs. ENVA: Which Technology-Driven Lending Stock Is the Better Buy?",
@@ -30,6 +78,18 @@
   "summary": "Financial stocks were declining premarket Tuesday, with the State Street Financial Select Sector SPD",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-premarket-131540334.html",
+  "tickers": [
+   "ENVA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "bc0d9e18-e0ea-31c6-8a64-2d2e218279f2",
+  "ts": "2026-09-15T11:57:59+00:00",
+  "title": "Enova scraps Grasshopper deal",
+  "summary": "The Chicago-based fintech withdrew its applications from the OCC and Fed, and its CEO decried the absence of \u201cclear standards\u201d for bank licensing, in addition to \u201cpolitical pressure.\u201d",
+  "publisher": "Banking Dive",
+  "url": "https://www.bankingdive.com/news/enova-withdraw-application-acquire-grasshopper-bank-occ-fed/830423/",
   "tickers": [
    "ENVA"
   ],

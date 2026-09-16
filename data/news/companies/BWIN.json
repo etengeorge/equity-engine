@@ -1,5 +1,17 @@
 [
  {
+  "id": "f96af5a5-66fd-38fe-b87e-dce89fbd7a0d",
+  "ts": "2026-09-15T20:07:31+00:00",
+  "title": "Stocks making big moves yesterday: Corning, Baldwin Insurance Group, Gartner, Jabil, and Accenture",
+  "summary": "Check out the companies making headlines yesterday:",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-200731805.html",
+  "tickers": [
+   "BWIN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "6b5ac697-0509-3c6d-ad39-57c03025fd1f",
   "ts": "2026-09-15T14:41:47+00:00",
   "title": "Baldwin Group to go private in $7.7bn Sequence-Dell deal",

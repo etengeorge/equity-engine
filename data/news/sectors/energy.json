@@ -1,5 +1,89 @@
 [
  {
+  "id": "550ae9e3-7764-3133-88f6-f9dad49ed15b",
+  "ts": "2026-09-15T20:00:08+00:00",
+  "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+  "summary": "Energy stocks were higher late Tuesday afternoon, with the NYSE Energy Sector Index and the State St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-200008203.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "0f211b15-e809-3939-87da-9cdc920f10f1",
+  "ts": "2026-09-15T19:45:10+00:00",
+  "title": "Inflation Fears and Oil Surge Rattle Markets",
+  "summary": "<p>The summer months may have ended, but the dog days appear to be sticking around, at least for markets. With the Fed rate decision due Wednesday and new developments in the Middle East sparking renewed fears of oil shortages, bond yields are spiking. It turns out that bonds are anything but boring this year. </p>",
+  "publisher": "etf.com",
+  "url": "http://www.etf.com/sections/bonds/inflation-fears-and-oil-surge-rattle-markets?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "937820c0-ccc2-3eb2-97fa-f3d07c28e12c",
+  "ts": "2026-09-15T19:42:05+00:00",
+  "title": "Sector Update: Energy",
+  "summary": "Energy stocks were higher late Tuesday afternoon, with the NYSE Energy Sector Index and the State St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-194205924.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "03e5fabe-de3a-3507-aea4-c238d529c257",
+  "ts": "2026-09-15T17:58:23+00:00",
+  "title": "Sector Update: Energy Stocks Gain Tuesday Afternoon",
+  "summary": "Energy stocks were higher Tuesday afternoon, with the NYSE Energy Sector Index and the State Street",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-tuesday-175823695.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "9985ea2f-b881-3059-9483-da400f39879d",
+  "ts": "2026-09-15T17:12:00+00:00",
+  "title": "Exchange-Traded Funds, US Equities Fall After Midday",
+  "summary": "Broad-market exchange-traded funds IWM and IVV were lower. Actively traded Invesco QQQ Trust (QQQ) f",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "11776c7f-b5fc-32f2-a7db-ce5ed22795fd",
+  "ts": "2026-09-15T16:36:54+00:00",
+  "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
+  "summary": "A Wells Fargo note about Carnival is hitting Norwegian Cruise Line the hardest, and the reason why reveals exactly which operator the market sees as most exposed to the Caribbean pricing storm now moving through the sector.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/15/norwegian-falls-3-as-wells-fargo-trims-carnival-target-on-caribbean-pricing-pressure-carnival-slips-royal-caribbean-dips/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
   "ts": "2026-09-15T13:23:08+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
@@ -20,6 +104,20 @@
   "summary": "Energy stocks were advancing pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-131922909.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "6c07f7f0-6a2f-35e2-97e2-1bf8b018fd1f",
+  "ts": "2026-09-15T05:01:00+00:00",
+  "title": "Energy- Leading the SP in 2026 Thanks to Higher Oil Prices",
+  "summary": "Rising bond yields and oil prices weighed on stocks last week, though a mostly in-line CPI report on Friday sparked a rebound. The S&P 500 Index (^SPX) still fell 0.8%, with nine of the 11 sectors declining. But energy led, rising 2%, and it tops the sector derby at 44.5% year-to-date, observes Ed Yardeni, editor of Yardeni QuickTakes.",
+  "publisher": "MoneyShow",
+  "url": "https://finance.yahoo.com/energy/articles/energy-leading-sp-2026-thanks-050100415.html",
   "tickers": [
    "XLE"
   ],

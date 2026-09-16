@@ -1,5 +1,53 @@
 [
  {
+  "id": "b7732ab9-ba42-37d7-9c30-89c3b4869224",
+  "ts": "2026-09-16T10:10:52+00:00",
+  "title": "Is Arteris (AIP) Using FlexGen Multi-Die to Quietly Reshape Its AI Chiplet Investment Story?",
+  "summary": "Earlier this year, Arteris, Inc. expanded its multi-die portfolio with the FlexGen Multi-Die product, designed to help semiconductor companies move from monolithic system-on-chip designs to chiplet-based architectures for AI, high-performance computing, and consumer electronics. The launch aims to tackle one of the hardest problems in multi-die systems, efficient, secure data movement across multiple chips, while giving engineering teams more automation and architectural flexibility as...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/arteris-aip-using-flexgen-multi-101052684.html",
+  "tickers": [
+   "AIP"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "081e6c8d-a864-325e-b64c-8386d4065deb",
+  "ts": "2026-09-15T23:30:00+00:00",
+  "title": "Arteris Accelerates Industry Transition to Multi-Die Chiplet-Based Architecture",
+  "summary": "Expanded solution includes new FlexGen Multi-Die product to address the challenge of efficient data movement for an industry that is shifting to multi-die architectures, while preserving quality of service and architectural flexibility across chip boundariesCAMPBELL, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE) -- Arteris, Inc. (Nasdaq: AIP), a leading provider of semiconductor technology for accelerating innovation in the AI era, today announced an expansion of its multi-die portfolio that helps sem",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/articles/arteris-accelerates-industry-transition-multi-233000883.html",
+  "tickers": [
+   "AIP"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "a82886ef-d0ff-302f-ae9f-a99142ff8884",
+  "ts": "2026-09-15T10:57:00+00:00",
+  "title": "EverCommerce (EVCM) Surges 19.8%: Is This an Indication of Further Gains?",
+  "summary": "EverCommerce (EVCM) was a big mover last session on higher-than-average trading volume. The latest trend in earnings estimate revisions might not help the stock continue moving higher in the near term.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/evercommerce-evcm-surges-19-8-105700060.html",
+  "tickers": [
+   "AIP"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d39a9972-0cc0-3da4-aa6c-df1ea5a440a8",
+  "ts": "2026-09-14T23:50:39+00:00",
+  "title": "What Kind Of Swing Are You Signing Up For With Synopsys Stock?",
+  "summary": "Synopsys (SNPS) trades near $400, and the options market has already drawn the boundaries it expects the stock to hold over roughly the next twelve months: about $251 at the floor and about $630 at the ceiling. That is a very wide year to be holding a single name. What matters is that for this stock, a range that wide is ordinary.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615226/what-kind-of-swing-are-you-signing-up-for-with-synopsys-stock/2026-09-14",
+  "tickers": [
+   "AIP"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8d813a48-a94f-3c02-bc94-e5cec4c8d3d4",
   "ts": "2026-09-11T20:30:00+00:00",
   "title": "Arteris Announces New Employment Inducement Grants",

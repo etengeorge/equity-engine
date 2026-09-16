@@ -1,5 +1,17 @@
 [
  {
+  "id": "cb0dee4c-4482-3f80-b4be-382fa1d5c967",
+  "ts": "2026-09-16T07:08:37+00:00",
+  "title": "2 of Wall Street\u2019s Favorite Stocks to Target This Week and 1 Facing Challenges",
+  "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-070837895.html",
+  "tickers": [
+   "FTRE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8afd41d4-91f9-3648-aaae-9bbe2bb3de08",
   "ts": "2026-09-10T21:08:00+00:00",
   "title": "Fortrea Announces Grant of Inducement Awards Under Nasdaq Listing Rule 5635(c)(4)",

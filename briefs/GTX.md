@@ -1,63 +1,65 @@
-# LAUR — LAUREATE EDUCATION
-*Consumer Discretionary · brief generated 2026-09-15 · selected as **rotation***
+# GTX — GARRETT MOTION
+*Consumer Discretionary · brief generated 2026-09-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 147/1956
+- rotation position 154/1956
 
 ## Market
 | | |
 |---|---|
-| price | $35.83 |
-| market cap | $4.9B |
-| 5d / 21d / 63d / 252d | -2.5% / -4.1% / -2.5% / +23.4% |
-| 60d avg daily $ volume | $41.5M |
-| beta (vs IWM) | 0.64 (R²=0.182) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| price | $25.63 |
+| market cap | $4.8B |
+| 5d / 21d / 63d / 252d | -8.4% / -11.4% / -24.7% / +98.6% |
+| 60d avg daily $ volume | $79.9M |
+| beta (vs IWM) | 0.93 (R²=0.142) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 77% / debt 23% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$221.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$263.1M', '$160.8M', '$194.3M']
-Enterprise value **$4.9B** · FCFF yield **+4.5%**
+Normalized FCFF base **$465.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$341.0M', '$317.0M', '$382.0M']
+Enterprise value **$6.1B** · FCFF yield **+7.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.4% − 1pt | +5.8% |
-| **8.4% (point)** | **+9.9%** |
-| 8.4% + 1pt | +13.7% |
+| 9.6% − 1pt | -1.8% |
+| **9.6% (point)** | **+1.4%** |
+| 9.6% + 1pt | +4.3% |
 
 
-Naive baseline for comparison: **+10.7%** (5y revenue CAGR +10.7%).
-Gap under that baseline: **+3.2%** (fair value $36.96 vs price $35.83).
+Naive baseline for comparison: **+3.4%** (5y revenue CAGR +3.4%).
+Gap under that baseline: **+11.3%** (fair value $28.53 vs price $25.63).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **53th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1.3%).
+Cohort: **57th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +7.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/912766/000162828026050794/laur-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912766/000162828026050792/laur-20260730.htm
-- 2026-05-27 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/912766/000162828026038452/laur-20260527.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/912766/000162828026028580/laur-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912766/000162828026028578/laur-20260430.htm
-- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/912766/000162828026024338/a2026proxystatement.htm
-- 2026-02-19 **10-K** — https://www.sec.gov/Archives/edgar/data/912766/000162828026009479/laur-20251231.htm
-- 2026-02-19 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912766/000162828026009478/laur-20260219.htm
-- 2025-10-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/912766/000162828025047308/laur-20251030.htm
-- 2025-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/912766/000162828025047306/laur-20250930.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000027/gtx-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000025/gtx-20260729.htm
+- 2026-07-27 **8-K** — items 5.02,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000095015726000817/form8-k.htm
+- 2026-06-01 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001571/eh260786002_8k.htm
+- 2026-05-20 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_8k.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000019/gtx-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000018/gtx-20260430.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1735707/000114036126014250/ny20063321x1_def14a.htm
+- 2026-02-19 **10-K** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-20251231.htm
+- 2026-02-19 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000008/gtx-20260219.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/912766/000162828026050792/laur06302026earningsreleas.htm
-- **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/912766/000162828026050792/laureateq22026earningspr.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000025/exhibit99_1-2026q2.htm
+- **2026-07-27** · EX-99.1 · press release — PRESS RELEASE OF GARRETT MOTION, INC. *(item: officer or director change, 5.03, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095015726000817/ex99-1.htm
+- **2026-05-20** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_ex9901.htm
+- **2026-05-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_ex9902.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -65,6 +67,8 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
+- **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
 - **2026-09-15** · Fed Set to Hike Rate: Are Consumer Discretionary ETFs in the Line of Fire? — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-set-hike-rate-consumer-141800725.html
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 - **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
@@ -73,22 +77,20 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
 - **2026-09-11** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html
-- **2026-09-11** · Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/
-- **2026-09-11** · Sector Update: Consumer Stocks Advance Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-174328948.html
 
 ## Market and macro context
-- **2026-09-15** · TD Synnex Earnings Seen Reigniting Momentum as Hyve Growth Accelerates, Morgan Stanley Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html
-- **2026-09-15** · Bitcoin Sinks as the Senate's Clarity Act Showdown Looms — *decrypt* — https://decrypt.co/378233/bitcoin-sinks-senate-clarity-act-showdown
-- **2026-09-15** · Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo
-- **2026-09-15** · 3 Reasons Investors Love Nicolet Bankshares (NIC) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-nicolet-143931296.html
+- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
+- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
+- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
+- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
-- **2026-09-15** · Promoting Employee Accountability — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18943/promoting-employee-accountability
-- **2026-09-15** · Airworthiness Directives; MD Helicopters, LLC Helicopters — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters
-- **2026-09-15** · Pacific Halibut Fisheries of the West Coast; Inseason Action for the 2026 Area 2A Pacific Halibut Directed Commercial Fishery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18911/pacific-halibut-fisheries-of-the-west-coast-inseason-action-for-the-2026-area-2a-pacific-halibut
-- **2026-09-15** · Amendment of Class D and Class E Airspace Over Hyannis, MA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18902/amendment-of-class-d-and-class-e-airspace-over-hyannis-ma
-- **2026-09-15** · Amendment of Class E Airspace Over Pittsfield, ME — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18899/amendment-of-class-e-airspace-over-pittsfield-me
+- **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
+- **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
+- **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
+- **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
+- **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
+- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

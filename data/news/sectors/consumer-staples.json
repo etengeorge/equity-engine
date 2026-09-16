@@ -1,5 +1,33 @@
 [
  {
+  "id": "21e95c03-d33a-3c60-81c1-1cd9440167be",
+  "ts": "2026-09-15T19:49:54+00:00",
+  "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
+  "summary": "Consumer stocks fell late Tuesday afternoon with the State Street Consumer Staples Select Sector SPD",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "dfc2dc35-98bd-39ca-b81d-761c28e94989",
+  "ts": "2026-09-15T17:46:33+00:00",
+  "title": "Sector Update: Consumer Stocks Fall Tuesday Afternoon",
+  "summary": "Consumer stocks fell Tuesday afternoon with the State Street Consumer Staples Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "b1a5596b-53eb-38f6-97ac-766417c40f29",
   "ts": "2026-09-15T13:23:08+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",

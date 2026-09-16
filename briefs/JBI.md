@@ -1,48 +1,48 @@
 # JBI — JANUS INTERNATIONAL GROUP
-*Industrials · brief generated 2026-09-15 · selected as **opportunistic***
+*Industrials · brief generated 2026-09-16 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 1% of 151 Industrials peers (99th pct)
-- baseline gap +227%
+- baseline gap +236%
 - 5d move -10%
-- 21d move -9%
+- 21d move -13%
 - 2 news items in the last 5 days
 - Industrials is in the news
 - never researched
-- urgency score 8.15
+- urgency score 8.23
 
 ## Market
 | | |
 |---|---|
-| price | $4.56 |
-| market cap | $622.1M |
-| 5d / 21d / 63d / 252d | -10.4% / -9.3% / -14.8% / -56.2% |
-| 60d avg daily $ volume | $8.5M |
-| beta (vs IWM) | 1.28 (R²=0.247) |
-| 5d volume vs 60d average | 1.2x |
+| price | $4.45 |
+| market cap | $607.1M |
+| 5d / 21d / 63d / 252d | -10.1% / -12.9% / -15.7% / -57.0% |
+| 60d avg daily $ volume | $8.3M |
+| beta (vs IWM) | 1.28 (R²=0.248) |
+| 5d volume vs 60d average | 1.1x |
 | balance sheet as of | 2026-07-04 (10-Q) |
 | WACC weights | equity 53% / debt 47% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$193.0M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$114.0M', '$133.9M', '$196.0M']
-Enterprise value **$1.0B** · FCFF yield **+18.6%**
+Enterprise value **$1.0B** · FCFF yield **+18.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.8% − 1pt | -17.7% |
-| **10.8% (point)** | **-15.4%** |
-| 10.8% + 1pt | -13.4% |
+| 10.8% − 1pt | -18.0% |
+| **10.8% (point)** | **-15.8%** |
+| 10.8% + 1pt | -13.7% |
 
 
 Naive baseline for comparison: **+4.2%** (4y revenue CAGR +4.2%).
-Gap under that baseline: **+226.9%** (fair value $14.91 vs price $4.56).
+Gap under that baseline: **+235.7%** (fair value $14.94 vs price $4.45).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +249.0%).
+Cohort: **99th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +258.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -107,18 +107,18 @@ Attack these before you trust any number above.
 - **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
 
 ## Market and macro context
-- **2026-09-15** · TD Synnex Earnings Seen Reigniting Momentum as Hyve Growth Accelerates, Morgan Stanley Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html
-- **2026-09-15** · Bitcoin Sinks as the Senate's Clarity Act Showdown Looms — *decrypt* — https://decrypt.co/378233/bitcoin-sinks-senate-clarity-act-showdown
-- **2026-09-15** · Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo
-- **2026-09-15** · 3 Reasons Investors Love Nicolet Bankshares (NIC) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-nicolet-143931296.html
+- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
+- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
+- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
+- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-15** · Federal Employees Health Benefits Program: Optimizing FEHB Plan Offerings — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18944/federal-employees-health-benefits-program-optimizing-fehb-plan-offerings
-- **2026-09-15** · Promoting Employee Accountability — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18943/promoting-employee-accountability
-- **2026-09-15** · Airworthiness Directives; MD Helicopters, LLC Helicopters — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters
-- **2026-09-15** · Pacific Halibut Fisheries of the West Coast; Inseason Action for the 2026 Area 2A Pacific Halibut Directed Commercial Fishery — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18911/pacific-halibut-fisheries-of-the-west-coast-inseason-action-for-the-2026-area-2a-pacific-halibut
-- **2026-09-15** · Amendment of Class D and Class E Airspace Over Hyannis, MA — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18902/amendment-of-class-d-and-class-e-airspace-over-hyannis-ma
-- **2026-09-15** · Amendment of Class E Airspace Over Pittsfield, ME — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/15/2026-18899/amendment-of-class-e-airspace-over-pittsfield-me
+- **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
+- **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
+- **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
+- **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
+- **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
+- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
