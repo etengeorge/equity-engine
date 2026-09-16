@@ -1,113 +1,113 @@
-# CVSA — COVISTA
-*Consumer Discretionary · brief generated 2026-09-16 · selected as **rotation***
+# BCO — BRINKS
+*Industrials · brief generated 2026-09-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 158/1956
+- rotation position 159/1956
 
 ## Market
 | | |
 |---|---|
-| price | $126.28 |
-| market cap | $4.3B |
-| 5d / 21d / 63d / 252d | +0.9% / -4.3% / +7.3% / -8.0% |
-| 60d avg daily $ volume | $45.5M |
-| beta (vs IWM) | 0.83 (R²=0.109) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 87% / debt 13% |
+| price | $108.85 |
+| market cap | $4.5B |
+| 5d / 21d / 63d / 252d | +3.2% / -4.7% / +8.5% / -5.2% |
+| 60d avg daily $ volume | $55.5M |
+| beta (vs IWM) | 0.67 (R²=0.152) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 51% / debt 49% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$343.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$392.7M', '$287.6M', '$246.9M']
-Enterprise value **$4.5B** · FCFF yield **+7.6%**
+Normalized FCFF base **$532.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$436.4M', '$203.5M', '$499.7M']
+Enterprise value **$7.2B** · FCFF yield **+7.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.9% − 1pt | -3.8% |
-| **8.9% (point)** | **-0.4%** |
-| 8.9% + 1pt | +2.7% |
+| 7.8% − 1pt | -7.8% |
+| **7.8% (point)** | **-3.9%** |
+| 7.8% + 1pt | -0.4% |
 
 
-> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$306.9M** and an implied growth of **+2.1%** instead of -0.4%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+11.9%** (5y revenue CAGR +11.9%).
-Gap under that baseline: **+72.2%** (fair value $217.47 vs price $126.28).
+Naive baseline for comparison: **+7.3%** (5y revenue CAGR +7.3%).
+Gap under that baseline: **+103.1%** (fair value $221.04 vs price $108.85).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **77th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +68.3%).
+Cohort: **87th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +125.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-06 **10-K** — https://www.sec.gov/Archives/edgar/data/730464/000110465926092044/cvsa-20260630x10k.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806x8k.htm
-- 2026-07-28 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000110465926087540/cvsa-20260728x8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/730464/000110465926057163/cvsa-20260331x10q.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000073046426000021/cvsa-20260507x8k.htm
-- 2026-04-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000073046426000015/cvsa-20260409x8k.htm
-- 2026-03-03 **8-K** — items 1.01,1.02,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000073046426000010/cvsa-20260302x8k.htm
-- 2026-02-24 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000073046426000007/cvsa-20260224x8k.htm
-- 2026-02-06 **8-K** — items 5.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730464/000110465926011611/atge-20260205x8k.htm
-- 2026-01-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/730464/000110465926007415/atge-20251231x10q.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000055/bco-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/bco-20260805.htm
+- 2026-07-24 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000048/bco-20260724.htm
+- 2026-06-30 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_8k.htm
+- 2026-06-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126025760/ef20076434_8k.htm
+- 2026-06-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000045/bco-20260602.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000041/bco-20260331.htm
+- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000040/bco-20260506.htm
+- 2026-05-04 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000034/bco-20260428.htm
+- 2026-04-10 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000031/bco-20260406.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/730464/000073046426000037/cvsa-20260806xex99d1.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/730464/000110465926087540/cvsa-20260728xex99d1.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/exhibit992_2q2026v-micro.htm
+- **2026-06-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_ex99-1.htm
+- **2026-06-02** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000045/exhibit991_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Consumer Discretionary
-*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
-- **2026-09-15** · Fed Set to Hike Rate: Are Consumer Discretionary ETFs in the Line of Fire? — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-set-hike-rate-consumer-141800725.html
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
-- **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
-- **2026-09-14** · Sector Update: Consumer Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html
-- **2026-09-14** · Stock Market News for Sep 14, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html
+- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
-- **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
-- **2026-09-11** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html
+- **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
+- **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
+- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
+- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
+- **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
+- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 
 ## Market and macro context
-- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
-- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
-- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
-- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
+- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
+- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
+- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
+- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
 
 *Rules, releases and agency actions:*
+- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
 - **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
 - **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
 - **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
 - **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
 - **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
-- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Discretionary
-- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
-- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
-- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
-- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
-- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
-- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
-- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
-- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
-- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
-- LCII: no_model · price $93.40
-- LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
-- LOVE: no_edge · price $14.26 · fair value $14.60 · gap +2.4%
+## Prior verdicts elsewhere in Industrials
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
+- HUBG: no_model · price $33.45
+- JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
+- JOBY: no_model · price $6.13
+- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
 
 ---
 

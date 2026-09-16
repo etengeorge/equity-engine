@@ -1,113 +1,125 @@
-# GTX — GARRETT MOTION
-*Consumer Discretionary · brief generated 2026-09-16 · selected as **rotation***
+# ORKA — ORUKA THERAPEUTICS INC
+*Health Care · brief generated 2026-09-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 154/1956
+- rotation position 161/1956
 
 ## Market
 | | |
 |---|---|
-| price | $25.63 |
-| market cap | $4.8B |
-| 5d / 21d / 63d / 252d | -8.4% / -11.4% / -24.7% / +98.6% |
-| 60d avg daily $ volume | $79.9M |
-| beta (vs IWM) | 0.93 (R²=0.142) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-03-31 (10-Q) |
-| WACC weights | equity 77% / debt 23% |
+| price | $92.20 |
+| market cap | $6.1B |
+| 5d / 21d / 63d / 252d | -2.2% / -17.0% / +33.9% / +498.7% |
+| 60d avg daily $ volume | $103.3M |
+| beta (vs IWM) | 1.28 (R²=0.109) |
+| 5d volume vs 60d average | 0.6x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$465.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$341.0M', '$317.0M', '$382.0M']
-Enterprise value **$6.1B** · FCFF yield **+7.7%**
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.6% − 1pt | -1.8% |
-| **9.6% (point)** | **+1.4%** |
-| 9.6% + 1pt | +4.3% |
+| 12.0% − 1pt | n/a |
+| **12.0% (point)** | **n/a** |
+| 12.0% + 1pt | n/a |
 
 
-Naive baseline for comparison: **+3.4%** (5y revenue CAGR +3.4%).
-Gap under that baseline: **+11.3%** (fair value $28.53 vs price $25.63).
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $92.20).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **57th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +7.4%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| p_tbv (n=330) | 5.5x | 2.2x / 4.2x / 7.5x | $37.30 / $70.25 / $125.74 |
+
+Blended midpoint **$70.25** vs price $92.20 — gap **-23.8%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `last_10k_990d_old`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_1.7x_of_mean`
+- `nonpositive_normalized_fcff`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000027/gtx-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000025/gtx-20260729.htm
-- 2026-07-27 **8-K** — items 5.02,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000095015726000817/form8-k.htm
-- 2026-06-01 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001571/eh260786002_8k.htm
-- 2026-05-20 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_8k.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000019/gtx-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000018/gtx-20260430.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1735707/000114036126014250/ny20063321x1_def14a.htm
-- 2026-02-19 **10-K** — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-20251231.htm
-- 2026-02-19 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000008/gtx-20260219.htm
+- 2026-08-24 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/907654/000121390026093021/ea0302923-8k_oruka.htm
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm
+- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea0301312-8k_oruka.htm
+- 2026-06-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/907654/000121390026065294/ea0293648-8k_oruka.htm
+- 2026-06-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907654/000121390026063481/ea0292876-8k_oruka.htm
+- 2026-05-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/907654/000121390026055769/ea0287752-10q_oruka.htm
+- 2026-04-30 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907654/000121390026050249/ea0288461-8k_oruka.htm
+- 2026-04-27 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907654/000121390026047743/ea0287782-8k_oruka.htm
+- 2026-04-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/907654/000121390026045159/ea0286400-01.htm
+- 2026-03-12 **10-K** — https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/ea0273300-10k_oruka.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000173570726000025/exhibit99_1-2026q2.htm
-- **2026-07-27** · EX-99.1 · press release — PRESS RELEASE OF GARRETT MOTION, INC. *(item: officer or director change, 5.03, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095015726000817/ex99-1.htm
-- **2026-05-20** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_ex9901.htm
-- **2026-05-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1735707/000095014226001458/eh260781731_ex9902.htm
+- **2026-08-10** · EX-99.1 · press release — PRESS RELEASE, DATED AUGUST 10, 2026 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Consumer Discretionary
-*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
-- **2026-09-15** · Fed Set to Hike Rate: Are Consumer Discretionary ETFs in the Line of Fire? — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-set-hike-rate-consumer-141800725.html
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
+- **2026-09-16** · Sector Update: Healthcare Stocks Edge Higher Pre-Bell Wednesday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131750504.html
+- **2026-09-16** · Biotech Midweek Pulse: XBI Loses Steam After Hot 2026 Run — Here Are The Stocks And Catalysts To Watch Next — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/biotech-midweek-pulse-xbi-loses-steam-hot-2026-stocks-catalysts-watch/cZtYGZfRB2R
+- **2026-09-15** · Sector Update: Healthcare Stocks Ease Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-ease-afternoon-195202658.html
+- **2026-09-15** · Sector Update: Healthcare Stocks Lower Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-lower-tuesday-174454933.html
+- **2026-09-15** · The Stock Market Could Be in for an Autumn Fall. Why Wall Street is Getting Nervous. — *Barrons.com* — https://www.barrons.com/articles/the-stock-market-could-be-in-for-an-autumn-fall-why-wall-street-is-getting-nervous-de3501c3?siteid=yhoof2&yptr=yahoo
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
-- **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
-- **2026-09-14** · Sector Update: Consumer Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html
-- **2026-09-14** · Stock Market News for Sep 14, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html
-- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
-- **2026-09-13** · Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/
-- **2026-09-11** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html
+- **2026-09-15** · Sector Update: Healthcare Stocks Fall Pre-Bell Tuesday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-pre-131250876.html
+- **2026-09-14** · Sector Update: Healthcare Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-gain-afternoon-195909565.html
+- **2026-09-14** · Sector Update: Healthcare Stocks Rise in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-174953468.html
 
 ## Market and macro context
-- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
-- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
-- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
-- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
+- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
+- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
+- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
+- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
 
 *Rules, releases and agency actions:*
+- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
 - **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
 - **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
 - **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
 - **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
 - **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
-- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Discretionary
-- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
-- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
-- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
-- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
-- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
-- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
-- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
-- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
-- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
-- LCII: no_model · price $93.40
-- LE: no_edge · price $10.82 · fair value $11.85 · gap +9.5%
-- LOVE: no_edge · price $14.26 · fair value $14.60 · gap +2.4%
+## Prior verdicts elsewhere in Health Care
+- ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
+- CRNX: no_edge · price $84.84
+- CRSP: no_model · price $53.45
+- DFTX: no_model · price $37.99
+- DNTH: no_model · price $106.20
+- HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
+- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
+- IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
+- KYMR: no_model · price $119.05
+- LGND: no_edge · price $288.83 · fair value $297.15 · gap +2.9%
 
 ---
 

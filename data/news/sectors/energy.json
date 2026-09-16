@@ -1,5 +1,33 @@
 [
  {
+  "id": "85062b91-c36c-3f4c-aead-52d476ca4866",
+  "ts": "2026-09-16T13:27:40+00:00",
+  "title": "Sector Update: Energy Stocks Decline Pre-Bell Wednesday",
+  "summary": "Energy stocks were declining pre-bell Wednesday, with the State Street Energy Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-pre-132740214.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "5ee06bea-d10f-3179-ad2f-6f27241487b3",
+  "ts": "2026-09-16T13:19:52+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "550ae9e3-7764-3133-88f6-f9dad49ed15b",
   "ts": "2026-09-15T20:00:08+00:00",
   "title": "Sector Update: Energy Stocks Gain Late Afternoon",

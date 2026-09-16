@@ -1,5 +1,33 @@
 [
  {
+  "id": "5ee06bea-d10f-3179-ad2f-6f27241487b3",
+  "ts": "2026-09-16T13:19:52+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "54f11456-89aa-3f8c-a6cb-b0e58cc34139",
+  "ts": "2026-09-16T13:13:45+00:00",
+  "title": "Sector Update: Tech Stocks Rise Pre-Bell Wednesday",
+  "summary": "Technology stocks were rising pre-bell Wednesday, with the State Street Technology Select Sector SPD",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-pre-131345777.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "e24d802b-89bf-30e0-a5e6-17173124bc3d",
   "ts": "2026-09-15T19:53:17+00:00",
   "title": "Sector Update: Tech Stocks Mixed Late Afternoon",

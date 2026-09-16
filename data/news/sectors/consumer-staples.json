@@ -1,5 +1,33 @@
 [
  {
+  "id": "5ee06bea-d10f-3179-ad2f-6f27241487b3",
+  "ts": "2026-09-16T13:19:52+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "8c87fd6d-7df0-3ef1-b121-f48458adbb9b",
+  "ts": "2026-09-16T13:10:00+00:00",
+  "title": "Stock Market News for Sep 16, 2026",
+  "summary": "Wall Street closed lower on Tuesday, dragged down by discretionary and utilities stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "21e95c03-d33a-3c60-81c1-1cd9440167be",
   "ts": "2026-09-15T19:49:54+00:00",
   "title": "Sector Update: Consumer Stocks Fall Late Afternoon",

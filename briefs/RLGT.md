@@ -1,100 +1,105 @@
-# JBI — JANUS INTERNATIONAL GROUP
+# RLGT — RADIANT LOGISTIC INC
 *Industrials · brief generated 2026-09-16 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 1% of 151 Industrials peers (99th pct)
-- baseline gap +236%
-- 5d move -10%
-- 21d move -13%
-- 2 news items in the last 5 days
+- baseline gap +6%
+- 5d move +18%
+- 21d move +13%
+- volume 4.6x its 60d average
+- filed an 8-K in the last few sessions
+- 7 news items in the last 5 days
 - Industrials is in the news
 - never researched
-- urgency score 8.23
+- urgency score 7.88
 
 ## Market
 | | |
 |---|---|
-| price | $4.45 |
-| market cap | $607.1M |
-| 5d / 21d / 63d / 252d | -10.1% / -12.9% / -15.7% / -57.0% |
-| 60d avg daily $ volume | $8.3M |
-| beta (vs IWM) | 1.28 (R²=0.248) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-07-04 (10-Q) |
-| WACC weights | equity 53% / debt 47% |
+| price | $9.81 |
+| market cap | $459.4M |
+| 5d / 21d / 63d / 252d | +17.8% / +12.6% / +7.6% / +50.5% |
+| 60d avg daily $ volume | $1.8M |
+| beta (vs IWM) | 0.89 (R²=0.298) |
+| 5d volume vs 60d average | 4.6x |
+| balance sheet as of | 2026-03-31 (10-K) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$193.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$114.0M', '$133.9M', '$196.0M']
-Enterprise value **$1.0B** · FCFF yield **+18.8%**
+Normalized FCFF base **$35.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$8.1M', '$8.7M', '$90.3M']
+Enterprise value **$419.8M** · FCFF yield **+8.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.8% − 1pt | -18.0% |
-| **10.8% (point)** | **-15.8%** |
-| 10.8% + 1pt | -13.7% |
+| 9.9% − 1pt | -3.3% |
+| **9.9% (point)** | **-0.3%** |
+| 9.9% + 1pt | +2.5% |
 
 
-Naive baseline for comparison: **+4.2%** (4y revenue CAGR +4.2%).
-Gap under that baseline: **+235.7%** (fair value $14.94 vs price $4.45).
+Naive baseline for comparison: **+1.1%** (5y revenue CAGR +1.1%).
+Gap under that baseline: **+5.6%** (fair value $10.36 vs price $9.81).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +258.4%).
+Cohort: **64th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +28.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.58x_oldest_growth_applied_to_a_trough_understates_value`
+- `volume_4.6x_its_60d_average`
+- `lumpy_fcff_spread_2.3x_of_mean`
+- `possible_trough_cycle_base_newest_fcf_0.09x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000018/jbi-20260704.htm
-- 2026-08-11 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbi-20260811.htm
-- 2026-06-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926074100/tm2617994d1_8k.htm
-- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000012/jbi-20260404.htm
-- 2026-05-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000010/jbi-20260512.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1839839/000114036126016709/ny20065931x1_def14a.htm
-- 2026-03-05 **8-K** — items 5.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926023805/tm268034d1_8k.htm
-- 2026-03-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000006/jbi-20260103.htm
-- 2026-03-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000005/jbi-20260304.htm
-- 2026-02-02 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1839839/000110465926009226/tm264605d1_8k.htm
+- 2026-09-14 **10-K** — https://www.sec.gov/Archives/edgar/data/1171155/000119312526390768/rlgt-20260630.htm
+- 2026-09-14 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-20260914.htm
+- 2026-09-03 **8-K** — items 5.02,8.01 — https://www.sec.gov/Archives/edgar/data/1171155/000119312526382100/rlgt-20260831.htm
+- 2026-08-12 **8-K** — items 1.01,2.03 — https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-20260807.htm
+- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1171155/000119312526216902/rlgt-20260331.htm
+- 2026-05-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1171155/000119312526216896/rlgt-20260511.htm
+- 2026-02-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/1171155/000119312526042887/rlgt-20251231.htm
+- 2026-02-09 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1171155/000119312526042775/rlgt-20260209.htm
+- 2025-11-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1171155/000119312525288296/rlgt-20251113.htm
+- 2025-11-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1171155/000119312525284756/rlgt-20251117.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/janusearningsrelease2026q2.htm
-- **2026-08-11** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/earningspresentationq220.htm
-- **2026-08-11** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1839839/000183983926000016/jbiinvestorpresentationa.htm
+- **2026-09-14** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-ex99_1.htm
+- **2026-08-12** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation)* — https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-ex99_1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-15** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-103630329.html
-  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
-- **2026-09-10** · 3 Industrials Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-fall-short-164904601.html
-  > Even if they go mostly unnoticed, industrial businesses are the backbone of our country. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the industry has underperformed t
-- **2026-09-04** · Janus (JBI): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/janus-jbi-buy-sell-hold-192610779.html
-  > Janus has gotten torched over the last six months - since March 2026, its stock price has dropped 26.4% to $5.02 per share. This was partly due to its softer quarterly results and might have investors contemplating their next move.
-- **2026-09-02** · 3 Out-of-Favor Stocks with Warning Signs — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-favor-stocks-warning-signs-171623353.html
-  > Hitting a new 52-week low can be a pivotal moment for any stock. These floors often mark either the beginning of a turnaround story or confirmation that a company faces serious headwinds.
-- **2026-09-02** · Janus International Group to Participate in the 2026 Jefferies Global Industrials Conference — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/janus-international-group-participate-2026-105000504.html
-  > TEMPLE, Ga., September 02, 2026--Janus International Group, Inc. (NYSE: JBI) ("Janus" or the "Company"), a leading global manufacturer and provider of turnkey self-storage, commercial, industrial building solutions, and smart access and sec
-- **2026-08-20** · 1 of Wall Street’s Favorite Stocks to Target This Week and 2 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-121915772.html
-  > The stocks in this article have caught Wall Street’s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about comp
-- **2026-08-19** · Janus International (JBI) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/19/janus-international-jbi-q2-2026-earnings-call-transcript/
-  > CEO Jackson warns demand trends have disappointed as company cuts full-year guidance.
-- **2026-08-18** · 5 Insightful Analyst Questions From Janus’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-janus-070933601.html
-  > Janus’ second quarter results were met with a negative market reaction, as revenue growth was below Wall Street’s expectations. Management pointed to persistent macroeconomic headwinds, particularly in North American new construction market
-- **2026-08-14** · JBI Q2 Deep Dive: Macroeconomic Uncertainty Pressures Revenue and Margin Outlook — *StockStory* — https://finance.yahoo.com/economy/articles/jbi-q2-deep-dive-macroeconomic-144500781.html
-  > Self-storage and building solutions company Janus (NYSE:JBI) missed Wall Street’s revenue expectations in Q2 CY2026 as sales rose 2.4% year on year to $233.5 million. The company’s full-year revenue guidance of $935 million at the midpoint 
-- **2026-08-11** · Janus International Group Inc (JBI) (Q2 2026) Earnings Call Highlights: Revenue Growth Offset ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/janus-international-group-inc-jbi-210328210.html
-  > Company navigates challenging macro conditions with strategic cost actions and strong cash flow generation
+- **2026-09-16** · Why Radiant Logistics Stock Topped the Market on Tuesday — *Motley Fool* — https://www.fool.com/investing/2026/09/15/why-radiant-logistics-stock-topped-the-market-on-t/
+  > The transportation and logistics specialist published its final earnings report of 2026.
+- **2026-09-15** · Radiant Logistics (RLGT) Q4 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/15/radiant-logistics-rlgt-q4-2026-earnings-call-transcript/
+  > Net income surged 53% in the quarter as airfreight and forwarding operations strengthened.
+- **2026-09-15** · Radiant Logistics sees double-digit growth in FQ4, shares up 16% — *FreightWaves* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-sees-double-digit-135419046.html
+  > Radiant Logistics beat fiscal fourth-quarter expectations due to a solid performance in its international business and a tightening domestic surface transportation market, which is expected to more meaningfully boost results moving forward.
+- **2026-09-15** · Radiant Logistics, Inc. Q4 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-radiant-logistics-inc-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Radiant Logistics, Inc.'s Q4 2026 earnings call
+- **2026-09-15** · Radiant Logistics Inc (RLGT) (Q4 2026) Earnings Call Highlights: Record Quarterly Revenue and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-inc-rlgt-q4-050033884.html
+  > Radiant Logistics Inc (RLGT) delivered 18.5% Q4 revenue growth with no net debt entering fiscal 2027, though full-year adjusted EBITDA declined 5.4%.
+- **2026-09-14** · Radiant Logistics Q4 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-radiant-logistics-q4-earnings-call-highlights-2026-09-14/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Radiant Logistics (NYSEAMERICAN:RLGT) reported higher fourth-quarter revenue, profit and adjusted EBITDA for the fiscal quarter ended June 30, 2026, as its U.S. forwarding operations, domestic services and international air freight business
+- **2026-09-14** · RADIANT LOGISTICS ANNOUNCES RESULTS FOR THE FOURTH FISCAL QUARTER AND YEAR ENDED JUNE 30, 2026 — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-announces-results-fourth-200500474.html
+  > Radiant Logistics, Inc. (NYSE American: RLGT), a technology-enabled global transportation and value-added logistics services company, today reported financial results for the three and twelve months ended June 30, 2026.
+- **2026-09-08** · RADIANT LOGISTICS TO HOST INVESTOR CALL TO DISCUSS FINANCIAL RESULTS FOR FOURTH FISCAL QUARTER AND YEAR ENDED JUNE 30, 2026 — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-host-investor-call-201600886.html
+  > Radiant Logistics, Inc. (NYSE American: RLGT), a technology-enabled global transportation and value-added logistics services company, will host a conference call on Monday, September 14, 2026 at 4:30 PM Eastern to discuss the Company's fina
+- **2026-08-31** · RADIANT LOGISTICS NAMES INDUSTRY VETERAN DAVID BUSS AS CHIEF OPERATING OFFICER — *PR Newswire* — https://finance.yahoo.com/small-business/articles/radiant-logistics-names-industry-veteran-200500862.html
+  > Radiant Logistics, Inc. (NYSE American: RLGT), today announced the appointment of David Buss as Senior Vice President and Chief Operating Officer ("COO"). Mr. Buss brings more than 30 years of executive leadership in transportation and logi
+- **2026-08-10** · RADIANT LOGISTICS ANNOUNCES AMENDED AND RESTATED $200 MILLION SECURED REVOLVING CREDIT FACILITY — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-announces-amended-restated-200500718.html
+  > Radiant Logistics, Inc. (the "Company") (NYSE American: RLGT) today announced that it has completed the syndication of an amended and restated $200.0 million syndicated secured revolving credit facility (the "Secured Facility"), which amend
+- **2026-08-06** · RADIANT LOGISTICS EXTENDS ITS AGENT-BASED GROWTH MODEL TO OVER-THE-ROAD AND INTERMODAL SERVICES WITH LAUNCH OF NEW AGENT PROGRAM AT RADIANT ROAD & RAIL — *PR Newswire* — https://finance.yahoo.com/small-business/articles/radiant-logistics-extends-agent-based-130000464.html
+  > Radiant Logistics, Inc. (NYSE American: RLGT), a technology-enabled global transportation and value-added logistics services company, today announced the launch of a new independent agent program at Radiant Road & Rail, Inc., the Company's 
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
@@ -104,21 +109,20 @@ Attack these before you trust any number above.
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
-- **2026-09-04** · Blowout jobs report raises worries of Fed rate hike: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html
 
 ## Market and macro context
-- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
-- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
-- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
-- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
+- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
+- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
+- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
+- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
 
 *Rules, releases and agency actions:*
+- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
 - **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
 - **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
 - **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
 - **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
 - **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
-- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
@@ -132,10 +136,10 @@ Attack these before you trust any number above.
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
 - HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
+- HUBG: no_model · price $33.45
+- JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
+- JOBY: no_model · price $6.13
 - MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
-- NPO: rich · price $295.27 · fair value $114.40 · gap -61.3%
-- TEX: no_edge · price $59.29 · fair value $35.78 · gap -39.7%
-- UFPI: no_edge · price $81.03 · fair value $84.07 · gap +3.7%
 
 ---
 

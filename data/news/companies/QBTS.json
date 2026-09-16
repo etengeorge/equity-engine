@@ -1,5 +1,41 @@
 [
  {
+  "id": "f58e0bab-43f6-3a94-821b-8ebce43babf2",
+  "ts": "2026-09-16T13:55:00+00:00",
+  "title": "IBM Seals $1 Billion Government Deal to Build America\u2019s First Quantum Foundry",
+  "summary": "International Business Machines finalizes a Commerce Department award to build Anderon, the first stand-alone quantum chip foundry in the U.S.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/ibm-stock-quantum-computing-chip-foundry-71b67f2b?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "198cc9bb-4def-3edc-b72f-beda1a4ae558",
+  "ts": "2026-09-16T13:13:00+00:00",
+  "title": "Here's How D-Wave Quantum's Profitability Remains Under Pressure",
+  "summary": "QBTS' uneven system sales, elevated expenses and reliance on fourth-quarter acceptance milestones keep profitability under pressure.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/heres-d-wave-quantums-profitability-131300016.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b8f8bd0d-7832-3c4c-a9c8-b8edba316ef5",
+  "ts": "2026-09-16T12:30:05+00:00",
+  "title": "Should Record Revenue Make IonQ Stock Feel Safer?",
+  "summary": "IonQ (IONQ) stock trades at about $37, roughly 55% below its high inside the last year. The market did not do that: over the past twelve months the S&P 500 returned 16.6% while IonQ lost 33.4%. Its own numbers went the other way, which makes the downside hard to size.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615538/should-record-revenue-make-ionq-stock-feel-safer/2026-09-16",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1b3466f0-47df-3e6a-9ca9-98b0d0e33192",
   "ts": "2026-09-15T15:26:02+00:00",
   "title": "How Far Could RGTI Stock Drop If the Broader Market Breaks?",

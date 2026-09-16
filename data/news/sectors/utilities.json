@@ -1,5 +1,19 @@
 [
  {
+  "id": "8c87fd6d-7df0-3ef1-b121-f48458adbb9b",
+  "ts": "2026-09-16T13:10:00+00:00",
+  "title": "Stock Market News for Sep 16, 2026",
+  "summary": "Wall Street closed lower on Tuesday, dragged down by discretionary and utilities stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "255a9b2c-0bea-3ed0-a174-618e93c569c0",
   "ts": "2026-09-15T13:14:00+00:00",
   "title": "Stock Market News for Sep 15, 2026",

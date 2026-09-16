@@ -1,106 +1,117 @@
-# PRM — PERIMETER SOLUTIONS
-*Materials · brief generated 2026-09-16 · selected as **rotation***
+# BGC — BGC GROUP INC CLASS A
+*Financials · brief generated 2026-09-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 157/1956
+- rotation position 164/1956
 
 ## Market
 | | |
 |---|---|
-| price | $31.56 |
-| market cap | $5.2B |
-| 5d / 21d / 63d / 252d | -1.5% / -6.9% / -13.2% / +41.8% |
-| 60d avg daily $ volume | $50.9M |
-| beta (vs IWM) | 1.23 (R²=0.254) |
-| 5d volume vs 60d average | 0.7x |
+| price | $12.14 |
+| market cap | $5.8B |
+| 5d / 21d / 63d / 252d | +1.4% / +8.6% / +3.1% / +20.3% |
+| 60d avg daily $ volume | $34.9M |
+| beta (vs IWM) | 0.83 (R²=0.223) |
+| 5d volume vs 60d average | 1.3x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 81% / debt 19% |
+| WACC weights | equity 77% / debt 23% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$155.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$208.6M', '$172.9M', '$-9.2M']
-Enterprise value **$6.4B** · FCFF yield **+2.4%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 12.1% − 1pt | +36.5% |
-| **12.1% (point)** | **+40.1%** |
-| 12.1% + 1pt | +43.6% |
+| sustainable ROTCE | n/a |
+| cost of equity | +9.5% |
+| justified P/TBV | None |
+| actual P/TBV | None |
+| tangible book / share | n/a |
+| implied gap | n/a |
 
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
-Naive baseline for comparison: **+25.0%** (4y revenue CAGR +136.1% (clamped to +25.0%)).
-Gap under that baseline: **-50.2%** (fair value $15.72 vs price $31.56).
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=260) | 22.1x | 6.0x / 9.1x / 14.0x | $1.52 / $3.53 / $6.80 |
+| ev_sales (n=230) | 2.4x | 1.6x / 3.7x / 24.7x | $7.23 / $20.28 / $148.77 |
 
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+Blended midpoint **$11.91** vs price $12.14 — gap **-1.9%**.
 
-Cohort: **56th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +6.6%).
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_19%_debt_weight`
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_1.8x_of_mean`
+- `negative_tangible_common_equity`
 
 ## Recent filings
-- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000048/prm-20260630.htm
-- 2026-07-31 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000044/prm-20260731.htm
-- 2026-05-28 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000039/prm-20260528.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000037/prm-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000035/prm-20260506.htm
-- 2026-04-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000023/prm-20260410.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000013/prm-20251231.htm
-- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000010/prm-20260226.htm
-- 2026-01-22 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1880319/000149315226003264/form8-k.htm
-- 2026-01-02 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1880319/000149315226000112/form8-k.htm
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026055187/bgcg-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026050814/bgcp-20260730.htm
+- 2026-06-25 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026045358/bgcp-20260625.htm
+- 2026-05-15 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000121390026057808/ea0291039-8k_bgc.htm
+- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026033499/bgcg-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026031724/bgcp-20260507.htm
+- 2026-03-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026021427/bgcp-20260326.htm
+- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026013162/bgcg-20251231.htm
+- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026007499/bgcp-20260212.htm
+- 2025-12-29 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828025058853/bgcp-20251229.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-31** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1880319/000188031926000044/prmearningspressreleaseq22.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1094831/000162828026050814/bgc-20260630xexx991.htm
+- **2026-06-25** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1094831/000162828026045358/exhibit991q22026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Materials
-*From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-15** · U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/u-steel-materials-stocks-swing-193008928.html
-- **2026-09-14** · How Is LyondellBasell Industries’ Stock Performance Compared to Other Industrial Stocks? — *Barchart* — https://www.barchart.com/story/news/4583485/how-is-lyondellbasell-industries-stock-performance-compared-to-other-industrial-stocks
-- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
-- **2026-09-10** · Corteva Stock: Is CTVA Outperforming the Basic Material Sector? — *Barchart* — https://www.barchart.com/story/news/4537459/corteva-stock-is-ctva-outperforming-the-basic-material-sector
-- **2026-09-10** · Dow Stock: Is DOW Outperforming the Materials Sector? — *Barchart* — https://www.barchart.com/story/news/4530570/dow-stock-is-dow-outperforming-the-materials-sector
-- **2026-09-04** · Stock Market News for Sep 4, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html
-- **2026-08-31** · U.S. steel and materials stocks swing amid U.S.-Canada trade war — *Quartz* — https://qz.com/steel-materials-stocks-us-canada-trade-war-tariffs-083126
-- **2026-08-26** · Do Wall Street Analysts Like Martin Marietta Materials Stock? — *Barchart* — https://www.barchart.com/story/news/4099168/do-wall-street-analysts-like-martin-marietta-materials-stock
-- **2026-08-24** · Stock Market News for Aug 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-24-132400716.html
-- **2026-08-24** · Vulcan Materials Stock: Analyst Estimates & Ratings — *Barchart* — https://www.barchart.com/story/news/3998879/vulcan-materials-stock-analyst-estimates-ratings
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
+- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
+- **2026-09-15** · Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/
+- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
+- **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
+- **2026-09-15** · Brown & Brown Stock: Is BRO Underperforming the Financial Sector? — *Barchart* — https://www.barchart.com/story/news/4612663/brown-brown-stock-is-bro-underperforming-the-financial-sector
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-15** · Willis Towers Watson Stock: Is WTW Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4611230/willis-towers-watson-stock-is-wtw-underperforming-the-financial-service-sector
+- **2026-09-15** · Sector Update: Financial Stocks Decline Premarket Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-premarket-131540334.html
+- **2026-09-14** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html
 
 ## Market and macro context
-- **2026-09-16** · Stocks Rise Pre-Bell Ahead of Fed Policy Decision — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-111416430.html
-- **2026-09-16** · Dow Jones Futures Rise As ServiceNow, Twilio Lead 8 New Buys; Will Market Bid Bond Voyage After Fed Rate Hike? — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo
-- **2026-09-16** · Is It Too Late to Buy Nvidia Stock? — *Motley Fool* — https://www.fool.com/investing/2026/09/16/is-it-too-late-to-buy-nvidia-stock/
-- **2026-09-16** · Stock Futures Rebound as Investors Buy the Dip Ahead of Crucial Fed Rate Decision — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/stock-futures-rise-as-investors-buy-the-dip-ahead-of-crucial-fed-rate-decision-qDZltkyklZjR4pNrGG4W?siteid=yhoof2&yptr=yahoo
+- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
+- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
+- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
+- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
 
 *Rules, releases and agency actions:*
+- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
 - **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
 - **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
 - **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
 - **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
 - **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
-- **2026-09-16** · Federal-State Unemployment Compensation (UC) Program; Data Availability — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Materials
-- AMR: no_edge · price $225.41 · fair value $157.90 · gap -29.9%
-- BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
-- CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
-- HCC: no_edge · price $105.58 · fair value $100.96 · gap -4.4%
-- SSRM: no_edge · price $37.39
+## Prior verdicts elsewhere in Financials
+- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
+- ABR: no_model · price $5.01
+- ACR: no_model · price $14.00
+- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
+- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
+- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
+- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
+- BUR: no_model · price $4.35
+- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
+- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
+- FG: no_model · price $24.87
+- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
 
 ---
 
