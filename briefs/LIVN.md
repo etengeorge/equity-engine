@@ -1,107 +1,114 @@
-# PJT — PJT PARTNERS CLASS A
-*Financials · brief generated 2026-09-17 · selected as **rotation***
+# LIVN — LIVANOVA PLC
+*Health Care · brief generated 2026-09-17 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 166/1956
+- rotation position 171/1956
 
 ## Market
 | | |
 |---|---|
-| price | $152.60 |
-| market cap | $3.8B |
-| 5d / 21d / 63d / 252d | -14.3% / -10.6% / -4.0% / -15.3% |
-| 60d avg daily $ volume | $75.1M |
-| beta (vs IWM) | 0.93 (R²=0.336) |
-| 5d volume vs 60d average | 1.0x |
+| price | $78.51 |
+| market cap | $4.3B |
+| 5d / 21d / 63d / 252d | -0.5% / -3.6% / -1.2% / +41.6% |
+| 60d avg daily $ volume | $52.8M |
+| beta (vs IWM) | 0.93 (R²=0.205) |
+| 5d volume vs 60d average | 0.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 94% / debt 6% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$160.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$173.3M', '$135.9M', '$39.9M']
+Enterprise value **$4.1B** · FCFF yield **+3.9%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +151.8% |
-| cost of equity | +10.1% |
-| justified P/TBV | 18.47 |
-| actual P/TBV | 34.66 |
-| tangible book / share | $4.40 |
-| implied gap | -46.7% |
+| 9.8% − 1pt | +14.9% |
+| **9.8% (point)** | **+18.7%** |
+| 9.8% + 1pt | +22.2% |
 
-Cohort: **40th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -11.6%).
+
+> **Stock compensation is 31% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$125.0M** and an implied growth of **+25.4%** instead of +18.7%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+8.2%** (5y revenue CAGR +8.2%).
+Gap under that baseline: **-32.1%** (fair value $53.31 vs price $78.51).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **38th percentile** of 89 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -18.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `share_count_1242d_stale_market_cap_unreliable`
-- `goodwill_and_intangibles_64%_of_book`
-- `rotce_152%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
+- `possible_peak_cycle_base_newest_fcf_4.3x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_31%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1626115/000119312526326245/pjt-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1626115/000119312526318829/pjt-20260728.htm
-- 2026-07-16 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1626115/000119312526305383/pjt-20260713.htm
-- 2026-06-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1626115/000119312526275959/pjt-20260618.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1626115/000119312526197485/pjt-20260331.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1626115/000162828026028424/pjt-20260429.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1626115/000119312526183466/pjt-20260428.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1626115/000119312526076969/pjt-20251231.htm
-- 2026-02-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1626115/000119312526034409/pjt-20260203.htm
-- 2025-11-26 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1626115/000119312525300641/pjt-20251126.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000090/livn-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000085/livn-20260805.htm
+- 2026-06-11 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000053/livn-20260610.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000035/livn-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000031/livn-20260506.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1639691/000110465926050937/tm261392-2_def14a.htm
+- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000010/livn-20251231.htm
+- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000006/livn-20260225.htm
+- 2026-01-14 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000002/livn-20260112.htm
+- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1639691/000163969125000150/livn-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1626115/000119312526318829/pjt-ex99_1.htm
-- **2026-07-16** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1626115/000119312526305383/pjt-ex99_1.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1639691/000163969126000085/a2q2026earningspressrelease.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
-- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
-- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
-- **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-16** · Sector Update: Healthcare Stocks Edge Lower Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-lower-194551510.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
-- **2026-09-15** · Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/
-- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
-- **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
-- **2026-09-15** · Brown & Brown Stock: Is BRO Underperforming the Financial Sector? — *Barchart* — https://www.barchart.com/story/news/4612663/brown-brown-stock-is-bro-underperforming-the-financial-sector
+- **2026-09-16** · Sector Update: Healthcare Stocks Edge Higher Pre-Bell Wednesday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131750504.html
+- **2026-09-16** · Biotech Midweek Pulse: XBI Loses Steam After Hot 2026 Run — Here Are The Stocks And Catalysts To Watch Next — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/biotech-midweek-pulse-xbi-loses-steam-hot-2026-stocks-catalysts-watch/cZtYGZfRB2R
+- **2026-09-15** · Sector Update: Healthcare Stocks Ease Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-ease-afternoon-195202658.html
+- **2026-09-15** · Sector Update: Healthcare Stocks Lower Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-lower-tuesday-174454933.html
+- **2026-09-15** · The Stock Market Could Be in for an Autumn Fall. Why Wall Street is Getting Nervous. — *Barrons.com* — https://www.barrons.com/articles/the-stock-market-could-be-in-for-an-autumn-fall-why-wall-street-is-getting-nervous-de3501c3?siteid=yhoof2&yptr=yahoo
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-15** · Sector Update: Healthcare Stocks Fall Pre-Bell Tuesday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-pre-131250876.html
 
 ## Market and macro context
-- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
-- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
-- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
-- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
+- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
+- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
+- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
+- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
 
 *Rules, releases and agency actions:*
+- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
 - **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
-- BUR: no_model · price $4.35
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
-- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+## Prior verdicts elsewhere in Health Care
+- ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
+- CRNX: no_edge · price $84.84
+- CRSP: no_model · price $53.45
+- DFTX: no_model · price $37.99
+- DNTH: no_model · price $106.20
+- HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
+- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
+- IRWD: no_edge · price $4.26 · fair value $9.43 · gap +121.5%
+- KYMR: no_model · price $119.05
+- LGND: no_edge · price $288.83 · fair value $297.15 · gap +2.9%
 
 ---
 

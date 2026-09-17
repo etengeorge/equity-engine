@@ -1,108 +1,102 @@
-# SFBS — SERVISFIRST BANCSHARES INC
-*Financials · brief generated 2026-09-17 · selected as **rotation***
+# PSMT — PRICESMART
+*Consumer Staples · brief generated 2026-09-17 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 167/1956
+- rotation position 174/1956
 
 ## Market
 | | |
 |---|---|
-| price | $41.28 |
-| market cap | $2.3B |
-| 5d / 21d / 63d / 252d | -1.8% / -8.8% / +1.5% / +0.3% |
-| 60d avg daily $ volume | $25.6M |
-| beta (vs IWM) | 1.06 (R²=0.492) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| price | $167.00 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -2.1% / -7.2% / -6.7% / +43.8% |
+| 60d avg daily $ volume | $51.2M |
+| beta (vs IWM) | 0.51 (R²=0.167) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-05-31 (10-Q) |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$93.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$103.2M', '$39.0M', '$114.8M']
+Enterprise value **$5.0B** · FCFF yield **+1.9%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +14.6% |
-| cost of equity | +10.8% |
-| justified P/TBV | 1.42 |
-| actual P/TBV | 1.23 |
-| tangible book / share | $33.59 |
-| implied gap | +15.8% |
+| 7.7% − 1pt | +23.4% |
+| **7.7% (point)** | **+29.0%** |
+| 7.7% + 1pt | +33.9% |
 
-Cohort: **88th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +50.8%).
+
+> **Stock compensation is 20% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$76.4M** and an implied growth of **+34.7%** instead of +29.0%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+10.5%** (5y revenue CAGR +10.5%).
+Gap under that baseline: **-49.9%** (fair value $83.68 vs price $167.00).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **14th percentile** of 35 Consumer Staples names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -52.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `stock_comp_is_20%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005365/f8k_080726.htm
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005359/sfbs20260630_10q.htm
-- 2026-07-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004777/f8k_072026.htm
-- 2026-07-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/f8k_072026.htm
-- 2026-06-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004130/f8k_061526.htm
-- 2026-05-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003705/f8k_052626.htm
-- 2026-05-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003550/f8k_051926.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003069/sfbs20260331_10q.htm
-- 2026-04-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326002569/f8k_042026.htm
-- 2026-04-06 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326002258/sfbs20260401_def14a.htm
+- 2026-07-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000030/psmt-20260708.htm
+- 2026-07-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000028/psmt-20260531.htm
+- 2026-04-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000020/psmt-20260408.htm
+- 2026-04-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000018/psmt-20260228.htm
+- 2026-02-06 **8-K** — items 5.02,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000013/psmt-20260205.htm
+- 2026-01-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000008/psmt-20260107.htm
+- 2026-01-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000006/psmt-20251130.htm
+- 2025-12-19 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000078/psmt-20251219.htm
+- 2025-10-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000062/psmt-20251030.htm
+- 2025-10-30 **10-K** — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000060/psmt-20250831.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-07** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005365/exh_991.htm
-- **2026-07-20** · EX-99.1 · press release — PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004777/exh_991.htm
-- **2026-07-20** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/exh_991.htm
-- **2026-07-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/exh_992.htm
-- **2026-06-15** · EX-99.1 · press release — PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004130/exh_991.htm
-- **2026-05-26** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003705/exh_991.htm
+- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000030/psmt-20260531xexx991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Staples
+*From the sector ETF feed (XLP), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
-- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
-- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
-- **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-16** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195104531.html
+- **2026-09-16** · Sector Update: Consumer Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-174939504.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
-- **2026-09-15** · Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/
-- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
-- **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
-- **2026-09-15** · Brown & Brown Stock: Is BRO Underperforming the Financial Sector? — *Barchart* — https://www.barchart.com/story/news/4612663/brown-brown-stock-is-bro-underperforming-the-financial-sector
+- **2026-09-16** · Stock Market News for Sep 16, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html
+- **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
+- **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
+- **2026-09-14** · Coca-Cola Stock Is Up 29% in 2026: What Will It Take to Break Through $100? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/coca-cola-stock-is-up-29-in-2026-what-will-it-take-to-break-through-100/
 
 ## Market and macro context
-- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
-- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
-- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
-- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
+- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
+- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
+- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
+- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
 
 *Rules, releases and agency actions:*
+- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
 - **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
-- BUR: no_model · price $4.35
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
-- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
-- GLRE: no_edge · price $15.26 · fair value $28.75 · gap +88.4%
+## Prior verdicts elsewhere in Consumer Staples
+- FLO: cheap · price $6.69 · fair value $13.84 · gap +106.9%
 
 ---
 

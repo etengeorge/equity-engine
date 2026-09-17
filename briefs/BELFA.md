@@ -1,101 +1,100 @@
-# YOU — CLEAR SECURE CLASS A
+# BELFA — BEL FUSE CLASS A
 *Information Technology · brief generated 2026-09-17 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 6% of 124 Information Technology peers (94th pct)
-- baseline gap +160%
-- discounted: cash-flow base may be a cycle peak
-- filed an 8-K in the last few sessions
-- 2 news items in the last 5 days
+- cheapest 2% of 124 Information Technology peers (98th pct)
+- baseline gap +191%
+- 21d move -22%
+- 1 news items in the last 5 days
 - Information Technology is in the news
 - never researched
-- urgency score 7.98
+- urgency score 7.18
 
 ## Market
 | | |
 |---|---|
-| price | $40.67 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | -5.5% / -6.9% / -22.6% / +9.4% |
-| 60d avg daily $ volume | $80.0M |
-| beta (vs IWM) | 0.96 (R²=0.0) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 1.3x |
+| price | $192.44 |
+| market cap | $418.5M |
+| 5d / 21d / 63d / 252d | -5.7% / -22.4% / -26.5% / +58.3% |
+| 60d avg daily $ volume | $38.4M |
+| beta (vs IWM) | 1.43 (R²=0.315) |
+| 5d volume vs 60d average | 0.3x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$275.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$343.1M', '$283.7M', '$199.5M']
-Enterprise value **$2.6B** · FCFF yield **+10.4%**
+Normalized FCFF base **$77.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$68.6M', '$60.0M', '$96.2M']
+Enterprise value **$112.4M** · FCFF yield **+68.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.3% − 1pt | -6.5% |
-| **10.3% (point)** | **-3.7%** |
-| 10.3% + 1pt | -1.1% |
+| 12.8% − 1pt | -41.5% |
+| **12.8% (point)** | **-40.5%** |
+| 12.8% + 1pt | -39.4% |
 
 
-> **Stock compensation is 14% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$238.2M** and an implied growth of **-0.3%** instead of -3.7%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+25.0%** (4y revenue CAGR +37.2% (clamped to +25.0%)).
-Gap under that baseline: **+159.9%** (fair value $105.68 vs price $40.67).
+Naive baseline for comparison: **+7.7%** (5y revenue CAGR +7.7%).
+Gap under that baseline: **+191.4%** (fair value $560.82 vs price $192.44).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **94th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +196.4%).
+Cohort: **98th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +227.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `share_count_1356d_stale_market_cap_unreliable`
-- `possible_peak_cycle_base_newest_fcf_1.7x_oldest_growth_applied_to_a_peak_overstates_value`
+- `share_count_5526d_stale_market_cap_unreliable`
+- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
 
 ## Recent filings
-- 2026-09-16 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1856314/000095014226002552/eh260830672_8k.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000042/you-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000039/you-20260805.htm
-- 2026-07-30 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000033/you-20260730.htm
-- 2026-06-23 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1856314/000095014226001859/eh260797127_8k.htm
-- 2026-06-10 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000020/you-20260610.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1856314/000162828026030937/you-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000013/you-20260506.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1856314/000119312526170704/d920726ddef14a.htm
-- 2026-03-19 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1856314/000095014226000784/eh260754338_8k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm
+- 2026-07-02 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926022539/belfa20260701_8k.htm
+- 2026-05-28 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926018719/belfa20260526_8k.htm
+- 2026-05-14 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea0290047-8k_belfu.htm
+- 2026-05-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926016373/belfa20260507_8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/729580/000143774926014903/belfa20260331_10q.htm
+- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926013888/belfa20260302_8k.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/729580/000143774926011998/belfa20260303_def14a.htm
+- 2026-04-06 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926011412/belfa20260330_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1856314/000185631426000039/clearq22026pressreleaseear.htm
+- **2026-07-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/ex_964865.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-14** · Clear Secure Chief Accounting Officer Sells 6,059 Shares — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/14/clear-secure-chief-accounting-officer-sells-6-059-shares/
-  > Dennis Liu sold shares to satisfy tax withholding and a pre-scheduled trading plan, leaving him with 15,870 direct shares valued at ~$707,000.
-- **2026-09-11** · Clear Secure (YOU) Stock Slides as Market Rises: Facts to Know Before You Trade — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/clear-secure-stock-slides-market-215004523.html
-  > In the most recent trading session, Clear Secure (YOU) closed at $42.23, indicating a -1.19% shift from the previous trading day.
-- **2026-09-10** · Clear Secure Inc's Dividend Analysis — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/clear-secure-incs-dividend-analysis-111648985.html
-  > This article first appeared on GuruFocus. Clear Secure Inc (NYSE:YOU) recently announced a total dividend of $0.15 per share, with the ex-dividend date set for 2026-09-10. This distribution consists of a $0.15 per share cash dividend payabl
-- **2026-09-05** · Clear Secure’s (YOU) Profits Are Soaring While Growth Signals Cool — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/clear-secure-profits-soaring-while-182450116.html
-  > On August 5, Clear Secure (NYSE:YOU) reported second-quarter results that hit almost every mark investors watch: revenue, bookings, margins, and cash flow all moved in the right direction. The company even raised its full-year free cash flo
-- **2026-09-04** · A Clear Secure Vice President Sells Over 9,000 Company Shares After a 24% One-Year Return — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/04/a-clear-secure-vice-president-sells-over-9-000-company-shares-after-a-24-one-year-return/
-  > The identity-verification platform provider reported a notable insider stock sale amid strong share price gains over the past year.
-- **2026-08-31** · CrowdStrike Brings CLEAR's Verified Human Identity into the Falcon Platform — *PR Newswire* — https://finance.yahoo.com/technology/ai/articles/crowdstrike-brings-clears-verified-human-115500403.html
-  > CrowdStrike (NASDAQ: CRWD) and CLEAR (NYSE: YOU) today announced a strategic partnership that integrates CLEAR1, CLEAR's secure identity platform, with the CrowdStrike Falcon® platform. Together, CrowdStrike and CLEAR connect threat detecti
-- **2026-08-29** · Clear Secure (YOU) Stock Looks Like A Bargain At Current Prices — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/clear-secure-stock-looks-bargain-150558127.html
-  > Clear Secure stock has delivered strong longer term gains over the past three years, yet the recent pullback and the current valuation checks suggest the market may still be pricing it below what many fundamentals would usually imply. The s
-- **2026-08-29** · Clear Secure (YOU) Selloff Puts Its Undervalued Narrative Back In Focus — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/clear-secure-selloff-puts-undervalued-090642230.html
-  > Clear Secure (YOU) has drawn attention after its recent share performance, with the stock down about 26% over the past month and about 22% over the past 3 months despite positive annual revenue and net income growth. Despite the recent 30 d
-- **2026-08-28** · 1 Small-Cap Stock to Own for Decades and 2 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-own-113652606.html
-  > Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it har
-- **2026-08-27** · “We’re Bullish”: JPMorgan Pulls the Trigger on 2 Digital Platform Stocks — *TipRanks* — https://finance.yahoo.com/markets/stocks/articles/bullish-jpmorgan-pulls-trigger-2-180000178.html
-  > Over the past two decades, digital technology has worked its way into virtually every corner of the global economy, changing not only how companies reach customers but how they operate behind the scenes. Supply chains are coordinated throug
+- **2026-09-15** · Why Bel Fuse (BELFA) Shares Are Falling Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-bel-fuse-belfa-shares-023530471.html
+  > Shares of electronic system and device provider Bel Fuse (NASDAQ:BELFA) fell 7.5% in the afternoon session after the company completed a $441.6 million equity offering, raising investor concerns over share dilution.
+- **2026-09-04** · Bel Announces Richard E. Hamilton as Senior Vice President, General Counsel and Corporate Secretary — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-announces-richard-e-hamilton-140000531.html
+  > WEST ORANGE, N.J., Sept. 04, 2026 (GLOBE NEWSWIRE) -- Bel Fuse Inc. (Nasdaq: BELFA and BELFB) ("Bel" or the "Company"), a global manufacturer of electronic components, systems and solutions, today announced that Richard E. Hamilton will joi
+- **2026-09-02** · Bel Fuse (BELFA): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-belfa-buy-sell-162023720.html
+  > Since March 2026, Bel Fuse has been in a holding pattern, posting a small loss of 1.1% while floating around $202.86. The stock also fell short of the S&P 500’s 11.8% gain during that period.
+- **2026-08-28** · Electronic Components Stocks Q2 Recap: Benchmarking Bel Fuse (NASDAQ:BELFA) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/electronic-components-stocks-q2-recap-173652680.html
+  > Let’s dig into the relative performance of Bel Fuse (NASDAQ:BELFA) and its peers as we unravel the now-completed Q2 electronic components earnings season.
+- **2026-08-26** · Bel Fuse Announces Participation in Citi’s 2026 Global TMT Conference — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-announces-participation-citi-123000971.html
+  > WEST ORANGE, N.J., Aug. 26, 2026 (GLOBE NEWSWIRE) -- Bel Fuse Inc. (Nasdaq: BELFA and BELFB), a global designer, manufacturer, and provider of critical electronic components, systems and solutions for customers in aerospace, defense, indust
+- **2026-08-24** · 2 Profitable Stocks with Exciting Potential and 1 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-exciting-potential-104136558.html
+  > While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.
+- **2026-08-13** · Bel Fuse (BELF.A), What Is Behind The Fresh Attention? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-belf-behind-fresh-061126655.html
+  > Dividend affirmation and guidance set the stage for Bel Fuse Bel Fuse (BELF.A) recently affirmed its regular quarterly cash dividends on both Class A and Class B shares, alongside fresh third quarter 2026 sales guidance in the US$205 millio
+- **2026-08-12** · 1 Profitable Stock with Impressive Fundamentals and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-impressive-fundamentals-040522435.html
+  > Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t mean it will thrive tomorrow.
+- **2026-08-10** · 3 Market-Beating Stocks for Long-Term Investors — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-121322293.html
+  > Stocks that outperform the market usually share key traits such as rising sales, expanding margins, and increasing returns on capital. The select few that can do all three for many years are often the ones that make you life-changing money.
+- **2026-08-04** · 3 Growth Stocks to Add to Your Roster — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-add-roster-094122002.html
+  > Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-17** · Should You Rotate to Telecom & Software ETFs Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rotate-telecom-software-etfs-now-130000529.html
 - **2026-09-16** · Sector Update: Tech Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html
 - **2026-09-16** · Sector Update: Tech Stocks Gain Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-wednesday-174507066.html
 - **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
@@ -104,27 +103,26 @@ Attack these before you trust any number above.
 - **2026-09-16** · Sector Update: Tech Stocks Rise Pre-Bell Wednesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-pre-131345777.html
 - **2026-09-15** · Sector Update: Tech Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-195317789.html
 - **2026-09-15** · Sector Update: Tech Stocks Mixed Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-tuesday-175830126.html
-- **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
-- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 
 ## Market and macro context
-- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
-- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
-- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
-- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
+- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
+- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
+- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
+- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
 
 *Rules, releases and agency actions:*
+- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
 - **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Information Technology
+- BDC: no_model · price $112.52
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
 - CORZ: no_model · price $17.37
@@ -133,10 +131,9 @@ Attack these before you trust any number above.
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - MXL: no_model · price $71.51
+- NSIT: no_edge · price $165.19 · fair value $186.86 · gap +13.1%
 - QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
 - RGTI: no_model · price $15.16
-- RIOT: no_model · price $18.64
-- SLAB: no_edge · price $219.12 · fair value $53.77 · gap -75.5%
 
 ---
 

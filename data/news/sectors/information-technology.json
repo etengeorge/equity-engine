@@ -1,5 +1,33 @@
 [
  {
+  "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
+  "ts": "2026-09-17T13:18:01+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1.3% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "a7227f68-b791-33fe-b0e4-74557c481971",
+  "ts": "2026-09-17T13:00:00+00:00",
+  "title": "Should You Rotate to Telecom & Software ETFs Now?",
+  "summary": "Telecom and software ETFs may offer a defensive AI opportunity as investors rotate away from rate-sensitive chip stocks toward cash-rich mega-cap platforms.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/rotate-telecom-software-etfs-now-130000529.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "456b098e-93e7-3237-9bae-1efc9dd4b43c",
   "ts": "2026-09-16T19:53:24+00:00",
   "title": "Sector Update: Tech Stocks Mixed Late Afternoon",

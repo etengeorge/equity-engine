@@ -1,5 +1,17 @@
 [
  {
+  "id": "60b9afc1-c8e6-312e-894a-5a1f027292ca",
+  "ts": "2026-09-17T12:06:34+00:00",
+  "title": "IBM Matches a $1 Billion CHIPS Award For Quantum Foundry",
+  "summary": "Anderon is already running its first quantum wafers at a 300-millimeter New York foundry",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ibm-matches-1-billion-chips-120634730.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1ece504e-0735-3bc2-93af-ee0f2021176b",
   "ts": "2026-09-17T00:00:00+00:00",
   "title": "D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul",

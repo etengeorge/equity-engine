@@ -1,5 +1,19 @@
 [
  {
+  "id": "a78b1205-57ec-35ee-8f97-a423fb34907f",
+  "ts": "2026-09-17T13:17:00+00:00",
+  "title": "Stock Market News for Sep 17, 2026",
+  "summary": "Wall Street closed lower on Wednesday, dragged down by energy and financial stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-17-131700015.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "75ae0fad-ecd3-313e-942b-43b16f846570",
   "ts": "2026-09-15T19:30:08+00:00",
   "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",

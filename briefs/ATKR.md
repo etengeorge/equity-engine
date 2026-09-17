@@ -1,103 +1,107 @@
-# TNET — TRINET GROUPINARY
+# ATKR — ATKORE
 *Industrials · brief generated 2026-09-17 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 7% of 151 Industrials peers (93th pct)
-- baseline gap +134%
-- discounted: stock comp is 21% of reported FCFF
+- cheapest 9% of 151 Industrials peers (91th pct)
+- baseline gap +124%
 - filed an 8-K in the last few sessions
 - 1 news items in the last 5 days
 - Industrials is in the news
 - never researched
-- urgency score 7.49
+- urgency score 7.4
 
 ## Market
 | | |
 |---|---|
-| price | $69.21 |
+| price | $94.52 |
 | market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +3.8% / +3.1% / +49.5% / +3.3% |
-| 60d avg daily $ volume | $23.6M |
-| beta (vs IWM) | 0.83 (R²=0.138) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 78% / debt 22% |
+| 5d / 21d / 63d / 252d | +0.3% / +1.2% / +20.3% / +55.8% |
+| 60d avg daily $ volume | $73.4M |
+| beta (vs IWM) | 1.18 (R²=0.236) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-06-26 (10-Q) |
+| WACC weights | equity 81% / debt 19% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$310.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$234.0M', '$201.0M', '$470.0M']
-Enterprise value **$3.7B** · FCFF yield **+8.4%**
+Normalized FCFF base **$427.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$295.7M', '$399.2M', '$588.7M']
+Enterprise value **$3.6B** · FCFF yield **+11.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.4% − 1pt | -7.8% |
-| **8.4% (point)** | **-4.3%** |
-| 8.4% + 1pt | -1.2% |
+| 10.0% − 1pt | -10.1% |
+| **10.0% (point)** | **-7.4%** |
+| 10.0% + 1pt | -4.8% |
 
 
-> **Stock compensation is 21% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$247.7M** and an implied growth of **+0.7%** instead of -4.3%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+13.5%** (5y revenue CAGR +13.5%).
-Gap under that baseline: **+134.0%** (fair value $161.96 vs price $69.21).
+Naive baseline for comparison: **+10.1%** (5y revenue CAGR +10.1%).
+Gap under that baseline: **+123.9%** (fair value $211.67 vs price $94.52).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **93th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +157.5%).
+Cohort: **91th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +147.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value`
-- `stock_comp_is_21%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-09-14 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/tnet-20260911.htm
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-20260730.htm
-- 2026-06-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/tnet-20260617.htm
-- 2026-05-27 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000038/tnet-20260527.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000034/tnet-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000031/tnet-20260430.htm
-- 2026-04-15 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000018/tnet-20260413.htm
-- 2026-03-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/937098/000093709826000013/tnet-20260319.htm
-- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/937098/000093709826000010/tnet-20251231.htm
+- 2026-09-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026052084/atkr-20260626.htm
+- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr-20260803.htm
+- 2026-08-03 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm
+- 2026-06-04 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030764/atkr-20260327.htm
+- 2026-05-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr-20260505.htm
+- 2026-04-29 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000010/atkr-20260429.htm
+- 2026-04-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000007/atkr-20260408.htm
+- 2026-02-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026004737/atkr-20260203.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-14** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm
-- **2026-06-17** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/exhibit991q22026dividend.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr3q26exhibit991.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_991xpressrelease.htm
+- **2026-08-03** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr992eml.htm
+- **2026-08-03** · EX-99.3 · press release — EX-99.3 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_992.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-14** · TriNet Announces Quarterly Dividend — *PR Newswire* — https://finance.yahoo.com/small-business/articles/trinet-announces-quarterly-dividend-203000021.html
-  > TriNet (NYSE: TNET), a leading provider of comprehensive human resources solutions for small and medium-size businesses (SMBs), today announced that, on September 11, 2026, its Board of Directors approved a dividend of $0.29 per share of th
-- **2026-09-03** · 3 Outsourcing Stocks to Consider Despite Industry Challenges — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-outsourcing-stocks-consider-despite-172500186.html
-  > Next-gen technology and specialized skills are transforming outsourcing, increasing the demand for digital services while stripping away labor intensity and affecting traditional staffing-based models. TNET, AHEXY and CGEMY are three stocks
-- **2026-09-02** · Do Options Traders Know Something About TriNet Stock We Don't? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-traders-know-something-trinet-125000949.html
-  > Investors need to pay close attention to TNET stock based on the movements in the options market lately.
-- **2026-08-11** · Curreen Capital: TriNet (TNET) is a “Crazy-Cheap” Turnaround — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/curreen-capital-trinet-tnet-crazy-124814202.html
-  > Investment management company Curreen Capital released its second-quarter 2026 Investor letter. A copy of the letter can be downloaded here. In the second quarter, the fund returned 22.26% compared to 15.20% for the S&P 500 Index. The perfo
-- **2026-08-08** · TriNet (TNET) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/07/trinet-tnet-q2-2026-earnings-call-transcript/
-  > Attrition improved 36% as repricing efforts stabilized worksite employee volumes.
-- **2026-08-03** · TriNet Group (TNET) Is Up 6.6% After Raising 2026 Earnings Guidance Despite Lower Revenue – Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-group-tnet-6-6-010910355.html
-  > In the past quarter, TriNet Group, Inc. reported second-quarter 2026 revenue of US$1,178 million versus US$1,238 million a year earlier, while net income increased to US$53 million from US$37 million, lifting diluted earnings per share from
-- **2026-08-02** · TriNet (TNET) Stock Looks Overvalued Following Its 34% Three Year Fall — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-tnet-stock-looks-overvalued-231121181.html
-  > TriNet Group stock has rebounded in the short term, yet the longer track record and current valuation checks paint a more cautious picture. After a recent run, the shares now screen as expensive on earnings multiples, while the broader valu
-- **2026-08-02** · Is TriNet Group (TNET) Overvalued As Higher Profit And Raised 2026 Outlook Lift Interest? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/trinet-group-tnet-overvalued-higher-130948692.html
-  > TriNet Group (TNET) drew fresh investor focus after reporting second quarter 2026 results with lower revenue but higher net income, along with a higher earnings outlook for the full year. See our latest analysis for TriNet Group. The earnin
-- **2026-08-01** · TriNet Group Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/trinet-group-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > TriNet Group (NYSE:TNET) reported second-quarter results that reflected improved insurance performance, stronger customer retention and continued investment in sales and service initiatives, prompting the company to raise its full-year earn
-- **2026-07-31** · TriNet Group, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-trinet-group-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of TriNet Group, Inc.'s Q2 2026 earnings call
+- **2026-09-14** · Is Applied Industrial Technologies (AIT) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/applied-industrial-technologies-ait-outperforming-134006872.html
+  > Here is how Applied Industrial Technologies (AIT) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
+- **2026-09-10** · 3 Russell 2000 Stocks We’re Skeptical Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-234504822.html
+  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
+- **2026-09-04** · 1 Industrials Stock Worth Investigating and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-worth-investigating-103810343.html
+  > Whether you see them or not, industrials businesses play a crucial part in our daily activities. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of the broader economy, and investors seem to be forec
+- **2026-08-28** · Atkore (ATKR) Stock Looks Near Fair Value While Cash Flow Recovers — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-stock-looks-near-121512533.html
+  > Atkore has delivered a strong 62.8% 1 year return, yet current checks suggest the stock now trades close to estimates of intrinsic value rather than at a clear discount. The 62.8% gain over the past year points to strong recent momentum, wh
+- **2026-08-28** · Atkore (ATKR) Jumped To US$93.66, Is It Now Slightly Overvalued? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-jumped-us-93-071038309.html
+  > Atkore stock overview after recent share move Atkore (ATKR) has drawn fresh attention after a recent share move, with the stock last closing at US$93.66. Investors are weighing this price against its recent performance and underlying fundam
+- **2026-08-27** · Is Generac Holdings (GNRC) Stock Outpacing Its Industrial Products Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-stock-outpacing-134003879.html
+  > Here is how Generac Holdings (GNRC) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
+- **2026-08-26** · 3 Unpopular Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-risky-081913051.html
+  > Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating busi
+- **2026-08-12** · Atkore Inc. (ATKR) is a Great Momentum Stock: Should You Buy? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-great-momentum-160006551.html
+  > Does Atkore Inc. (ATKR) have what it takes to be a top stock pick for momentum investors? Let's find out.
+- **2026-08-11** · Is Atkore (ATKR) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-outperforming-other-industrial-134003939.html
+  > Here is how Atkore Inc. (ATKR) and Keyence Corporation (KYCCF) have performed compared to their sector so far this year.
+- **2026-08-10** · 3 Hyped Up  Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-hyped-stocks-fall-short-110122457.html
+  > The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.
+- **2026-08-07** · Atkore Inc (ATKR) (Q3 2026) Earnings Call Highlights: Strong Sales Growth Amid Acquisition ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-q3-2026-190108667.html
+  > Atkore Inc (ATKR) reports 8.1% revenue increase and $95 per share acquisition deal with Prysmian, despite litigation costs impacting net income.
+- **2026-08-04** · Atkore Stock Surged Because Prysmian Agreed To Buy It For Cash — *Trefis* — https://www.trefis.com/articles/610050/atkore-stock-surged-because-prysmian-agreed-to-buy-it-for-cash/2026-08-04
+  > After a year of selling off pieces of itself, the board agreed to sell the whole company, and what a holder owns now is closer to a cash claim than a conduit maker.
+- **2026-08-04** · Why Atkore (ATKR) Stock Is Trading Up Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-atkore-atkr-stock-trading-141322751.html
+  > Shares of electrical safety company Atkore (NYSE:ATKR) jumped 28.1% in the afternoon session after the company agreed to be acquired by Prysmian S.p.A. in an all-cash deal valued at approximately $3.8 billion.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
@@ -107,21 +111,20 @@ Attack these before you trust any number above.
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 - **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 - **2026-09-09** · Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html
-- **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 
 ## Market and macro context
-- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
-- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
-- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
-- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
+- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
+- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
+- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
+- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
 
 *Rules, releases and agency actions:*
+- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
 - **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
 - **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
 - **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

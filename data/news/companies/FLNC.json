@@ -1,11 +1,59 @@
 [
  {
+  "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
+  "ts": "2026-09-17T13:18:01+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1.3% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "261cdd53-db9e-33b2-9fcd-b6b5e71c0dfe",
+  "ts": "2026-09-17T12:56:42+00:00",
+  "title": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Fed Interest-Rate Increase",
+  "summary": "(Updates with economic data, recent oil price movement, world markets' overview and corporate stock",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-futures-higher-pre-125642814.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f576ab37-23e5-3467-b4bc-7b9cf45bfcce",
+  "ts": "2026-09-17T12:08:29+00:00",
+  "title": "Fluence Falls 19% After Slashing Fiscal 2026 Guidance",
+  "summary": "Adjusted EBITDA guidance moves to a $200 million loss from a $10 million loss",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/fluence-falls-19-slashing-fiscal-120829198.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e0ee2e5a-66c8-37cc-b4d6-098091ba6bce",
   "ts": "2026-09-17T10:41:13+00:00",
   "title": "FLNC Stock Heads For 52-Week Lows: Baird Turns \u2018Incrementally Negative\u2019 After Fluence Cuts FY26 Guidance Again",
   "summary": "Baird slashed its price target by 70% and downgraded the stock, highlighting ramp-up delays and guidance cuts as \u2018material negatives\u2019.",
   "publisher": "Stocktwits",
   "url": "https://stocktwits.com/news-articles/markets/equity/fluence-energy-flnc-stock-guidance-cut-baird-downgrade/cZtrmwURB5N",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "36b88880-e3f9-3336-bfc3-edbb83a6653d",
+  "ts": "2026-09-17T10:38:00+00:00",
+  "title": "AMD, Intel, Amazon, Generac, Lennar, and More Stocks That Explain Today\u2019s Market",
+  "summary": "FEATURE Stock futures were rising on Thursday as investors got over the worst of their worries about the Federal Reserve\u2019s interest-rate hike. Chip and memory stocks were trading higher ahead of the opening bell, despite fresh concerns about a slowdown in the development of artificial intelligence.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/stock-movers-be111893?siteid=yhoof2&yptr=yahoo",
   "tickers": [
    "FLNC"
   ],
