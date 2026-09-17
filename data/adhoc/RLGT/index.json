@@ -1,0 +1,136 @@
+{
+  "fetched_utc": "2026-09-17T11:32:50+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "RLGT",
+    "cik": 1171155,
+    "documents": [
+      {
+        "form": "10-K",
+        "filed": "2026-09-14",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526390768/rlgt-20260630.htm",
+        "file": "2026-09-14-10-K-rlgt-20260630.htm.txt",
+        "chars": 317102,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-20260914.htm",
+        "file": "2026-09-14-8-K-rlgt-20260914.htm.txt",
+        "chars": 4753,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-03",
+        "items": "5.02,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526382100/rlgt-20260831.htm",
+        "file": "2026-09-03-8-K-rlgt-20260831.htm.txt",
+        "chars": 9114,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-12",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-20260807.htm",
+        "file": "2026-08-12-8-K-rlgt-20260807.htm.txt",
+        "chars": 7146,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526216902/rlgt-20260331.htm",
+        "file": "2026-05-11-10-Q-rlgt-20260331.htm.txt",
+        "chars": 168229,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526216896/rlgt-20260511.htm",
+        "file": "2026-05-11-8-K-rlgt-20260511.htm.txt",
+        "chars": 4713,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-02-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526042887/rlgt-20251231.htm",
+        "file": "2026-02-09-10-Q-rlgt-20251231.htm.txt",
+        "chars": 163959,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526042775/rlgt-20260209.htm",
+        "file": "2026-02-09-8-K-rlgt-20260209.htm.txt",
+        "chars": 4739,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-ex99_1.htm",
+        "file": "2026-09-14-EX-99.1.txt",
+        "chars": 29838,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-12",
+        "items": [
+          "1.01",
+          "2.03"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "new debt obligation"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-ex99_1.htm",
+        "file": "2026-08-12-EX-99.1.txt",
+        "chars": 6516,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-11",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1171155/000119312526216896/rlgt-ex99_1.htm",
+        "file": "2026-05-11-EX-99.1.txt",
+        "chars": 29990,
+        "truncated": false
+      }
+    ]
+  }
+}

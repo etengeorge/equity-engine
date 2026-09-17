@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-17T11:33:23+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "NEWT",
+    "cik": 1587987,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026061720/newt-20260914.htm",
+        "file": "2026-09-14-8-K-newt-20260914.htm.txt",
+        "chars": 5430,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-14",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026057098/newt-20260814.htm",
+        "file": "2026-08-14-8-K-newt-20260814.htm.txt",
+        "chars": 4572,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026055245/newt-20260630.htm",
+        "file": "2026-08-10-10-Q-newt-20260630.htm.txt",
+        "chars": 354074,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026054302/newt-20260806.htm",
+        "file": "2026-08-06-8-K-newt-20260806.htm.txt",
+        "chars": 5533,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-15",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026043167/newt-20260615.htm",
+        "file": "2026-06-15-8-K-newt-20260615.htm.txt",
+        "chars": 4873,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-12",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026042658/newt-20260612.htm",
+        "file": "2026-06-12-8-K-newt-20260612.htm.txt",
+        "chars": 5409,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000158798726000004/newt-20260331.htm",
+        "file": "2026-05-08-10-Q-newt-20260331.htm.txt",
+        "chars": 356589,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026028891/newt-20260430.htm",
+        "file": "2026-04-30-8-K-newt-20260430.htm.txt",
+        "chars": 5519,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026061720/a3q2026dividendannouncem.htm",
+        "file": "2026-09-14-EX-99.1.txt",
+        "chars": 3379,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026054302/finalpr_earningsreleaseq.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 17738,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-12",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026042658/a2q26dividendannouncemen.htm",
+        "file": "2026-06-12-EX-99.1.txt",
+        "chars": 3357,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1587987/000162828026028891/pr_earningsreleaseq12026.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 21323,
+        "truncated": false
+      }
+    ]
+  }
+}

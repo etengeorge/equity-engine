@@ -1,0 +1,160 @@
+{
+  "fetched_utc": "2026-09-17T11:32:59+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "BDC",
+    "cik": 913142,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000034/bdc-20260628.htm",
+        "file": "2026-07-30-10-Q-bdc-20260628.htm.txt",
+        "chars": 91759,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000031/bdc-20260730.htm",
+        "file": "2026-07-30-8-K-bdc-20260730.htm.txt",
+        "chars": 3767,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-01",
+        "items": "1.01,2.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000029/bdc-20260701.htm",
+        "file": "2026-07-01-8-K-bdc-20260701.htm.txt",
+        "chars": 9813,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-26",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000025/bdc-20260521.htm",
+        "file": "2026-05-26-8-K-bdc-20260521.htm.txt",
+        "chars": 3866,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000023/bdc-20260329.htm",
+        "file": "2026-04-30-10-Q-bdc-20260329.htm.txt",
+        "chars": 81434,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000021/bdc-20260430.htm",
+        "file": "2026-04-30-8-K-bdc-20260430.htm.txt",
+        "chars": 3765,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "1.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000020/bdc-20260429.htm",
+        "file": "2026-04-30-8-K-bdc-20260429.htm.txt",
+        "chars": 17070,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-17",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+        "file": "2026-02-17-10-K-bdc-20251231.htm.txt",
+        "chars": 335982,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000031/companynewsreleasedatedjul.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 22903,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-01",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000029/beldenruckustransactionclo.htm",
+        "file": "2026-07-01-EX-99.1.txt",
+        "chars": 7925,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000021/companynewsreleasedatedmar.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 21191,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "1.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000020/finalprojectrocketpressrel.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 16710,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-17T11:32:56+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "TNET",
+    "cik": 937098,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/tnet-20260911.htm",
+        "file": "2026-09-14-8-K-tnet-20260911.htm.txt",
+        "chars": 3306,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm",
+        "file": "2026-07-30-10-Q-tnet-20260630.htm.txt",
+        "chars": 135793,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-20260730.htm",
+        "file": "2026-07-30-8-K-tnet-20260730.htm.txt",
+        "chars": 3846,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-17",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/tnet-20260617.htm",
+        "file": "2026-06-17-8-K-tnet-20260617.htm.txt",
+        "chars": 3215,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-27",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000038/tnet-20260527.htm",
+        "file": "2026-05-27-8-K-tnet-20260527.htm.txt",
+        "chars": 4334,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000034/tnet-20260331.htm",
+        "file": "2026-04-30-10-Q-tnet-20260331.htm.txt",
+        "chars": 122415,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000031/tnet-20260430.htm",
+        "file": "2026-04-30-8-K-tnet-20260430.htm.txt",
+        "chars": 3752,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-19",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000013/tnet-20260319.htm",
+        "file": "2026-03-19-8-K-tnet-20260319.htm.txt",
+        "chars": 3224,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm",
+        "file": "2026-09-14-EX-99.1.txt",
+        "chars": 1170,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 26109,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-17",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000041/exhibit991q22026dividend.htm",
+        "file": "2026-06-17-EX-99.1.txt",
+        "chars": 1130,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/937098/000093709826000031/tnet-033126xexhibit991.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 24970,
+        "truncated": false
+      }
+    ]
+  }
+}
