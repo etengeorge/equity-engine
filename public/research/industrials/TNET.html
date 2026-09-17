@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>TNET — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / TNET</p><h1>TNET <span style='color:var(--faint);font-weight:400'>TRINET GROUPINARY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$69.21</b></div><div>Analyst gap<b>+16%</b></div><div>Dated<b>2026-09-17</b></div></div><div class='prose'><h1>TNET — TRINET GROUPINARY</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-17 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $69.21 · fair value $80.12 · gap +15.8%</li><li><strong>Growth:</strong> market implies -4.3%, analyst says +2.0% (delta +6.3%)</li><li><strong>FCFF base overridden</strong> by the analyst to $266.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.4% | 7.4% | 8.4% | 9.4% | 10.4% | |---|---|---|---|---|---|---| | bear | -5.0% | $84.63 | $67.40 | $55.51 | $46.80 | $40.15 | | base | +2.0% | $121.53 | $97.01 | $80.12 | $67.77 | $58.34 | | bull | +7.0% | $154.53 | $123.45 | $102.04 | $86.40 | $74.48 |</p><p>At the point WACC of 8.4%: bear -19.8%, base +15.8%, bull +47.4% Across the whole grid the gap ranges -42.0% to +123.3% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> TriNet is a margin-recovery story the market has already partly re-rated. After the 2024-25 insurance cost blowout the company repriced its book, and it is working: Q2 2026 adjusted EBITDA of $128M on a 10.9% margin against $105M and 8.5% a year earlier, net income $53M against $37M, attrition improved 36%, and full-year earnings guidance RAISED — all while total revenues fell 5%. The market is paying for stabilised insurance margins on a shrinking revenue base, which is why it implies roughly zero FCFF growth rather than a decline.</p><p><strong>What changed.</strong> Q2 2026 (filed 2026-07-30) raised FY26 guidance: total revenues $4,750-4,900M, professional service revenues $647-663M, adjusted EBITDA margin 8.5-9.0% — i.e. roughly $404-441M of adjusted EBITDA. A quarterly dividend of $0.29 was declared 2026-09-11. Nothing structural: no acquisition, no financing, no management change.</p><p><strong>Base case.</strong> The +134% gap is manufactured by a corrupted revenue series and should be discarded before any thesis is formed. revenue_series reads [$5,010M, $5,053M, $917M, $3,275M, $3,060M, $2,659M] — a company whose revenue does not fall to $917M and then return to $5,053M. That is a concept switch between TriNet&#x27;s &#x27;Total revenues&#x27; (gross, including insurance costs) and a net-service-revenue presentation, the same shape as the HRI predecessor artifact but arising from tagging rather than a spin-off. The &#x27;+13.5% five-year revenue CAGR&#x27; baseline is computed off that series and means nothing, and the entire +134% gap and 92.7th-percentile rank follow from it. Working the actual economics instead: the FCFF base of $310.7M rests on cfo_series [$303M, $279M, $545M] where the $545M year is a working-capital swing in client payroll and insurance accruals, and interest_expense is recorded as $12M against an actual $27M for six months (~$55M a year) — an implied rate of 1.34%, below the PATK alarm threshold, which understates the add-back. Building the base from the company&#x27;s own guidance instead — adjusted EBITDA ~$420M less ~$75M capex less ~$46M D&amp;A, taxed, plus D&amp;A back — gives roughly $266M, at which the market implies -0.9%; across every base I can defend the answer runs -6.6% to +5.1%. I take +2%: insurance margin recovery is real but finite, and professional service revenue is still falling 8%.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am treating a 21%-of-FCFF stock compensation charge as free. Expensing it takes the base from ~$266M to ~$205M, at which the market requires +5.1% rather than -0.9% — and TriNet&#x27;s revenue is shrinking, so a 5% compounding requirement on a declining business is a genuine short case rather than a fair one.</li><li>What would prove it: The net weighted-average share count trend, per the BOX rule — whether buybacks are actually paying for the compensation.</li><li>Already visible today: Partly: TriNet has been reducing its share count and the engine&#x27;s 45.9M shares are well below the ~50M of prior years, which suggests the compensation is being absorbed. I did not pull the year-over-year weighted-average figures from this quarter&#x27;s filing, so I cannot state the net rate, and that is why the stock-comp flag stays open rather than resolved.</li><li>Left unresolved: The stock-comp treatment, which is worth six points of required growth and is the difference between &#x27;fair&#x27; and &#x27;modestly rich&#x27;. The answer was one grep further into the 10-Q than I went.</li></ul><p><strong>Key risks.</strong> total revenues -5% and professional service revenues -8%; the recovery is in margin, not volume; health insurance cost trend is the single swing factor and it broke the model once already in 2024-25; stock compensation is 21% of the reported cash-flow base; cfo swings violently with the timing of client payroll and insurance accruals, so any single-year base is unreliable <strong>Watch for.</strong> worksite employee volumes turning positive — the bull case is volume, not margin; the FY2027 insurance cost trend assumption at the Q4 print</p><p><strong>Data quality.</strong> RESOLVED: possible_trough_cycle_base is real but the flag&#x27;s advice is backwards per the AMR rule — the $545M year is the OLDEST and is a working-capital swing, so the three-year mean is inflated rather than depressed. NEW AND UNFLAGGED: (1) revenue_series carries a concept-switch artifact (a $917M year between $3,275M and $5,053M) which makes the +13.5% baseline and therefore the entire +134% gap meaningless; (2) interest_expense of $12M against total_debt of $896M is an implied 1.34%, versus $27,058k reported for six months in the 10-Q — the PATK understated-add-back defect. OPEN: the stock_comp_is_21% flag is NOT resolved — I did not obtain the year-over-year weighted-average share count, and it is worth six points of required growth.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm</a> (Q2 2026 EX-99.1: total revenues, adjusted EBITDA, FY26 guidance table)</li><li><a href="https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm</a> (10-Q, 2026-06-30: interest expense, bank fees and other)</li><li><a href="https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm</a> (dividend declared 2026-09-11)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/TNET.md'>research/Industrials/TNET.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

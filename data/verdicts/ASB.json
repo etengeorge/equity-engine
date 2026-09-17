@@ -1,0 +1,66 @@
+{
+  "ticker": "ASB",
+  "date": "2026-09-17",
+  "sector": "Financials",
+  "name": "ASSOCIATED BANCORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.01,
+  "bull_growth": 0.06,
+  "rotce_override": 0.125,
+  "horizon_months": 24,
+  "price_at_verdict": 29.760000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": 30.4,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.125,
+    "screen_rotce": 0.08194877158791894,
+    "justified_p_tbv": 1.122713962825873,
+    "actual_p_tbv": 1.6915442425278562,
+    "tangible_book_per_share": 17.593391577159267,
+    "fair_value": 19.75234637713982,
+    "price": 29.760000228881836,
+    "gap": -0.336278688668479,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_25%_of_book",
+      "unstable_rotce_3.8%_to_13.9%"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I have over-corrected. The engine's average includes the repositioning loss because the repositioning was real cash: Associated destroyed several hundred million dollars of shareholder value selling mortgages at a loss, and a 'sustainable' return that excludes every such decision flatters serial repositioners. If ASB repositions again \u2014 and banks that do it once often do it twice \u2014 the through-cycle return is nearer 10% than 12.5%, at which the justified multiple is 0.86 and the stock is 40% rich.",
+    "what_would_prove_it": "Whether the securities and loan portfolios are now positioned such that no further restructuring is needed \u2014 i.e. whether the AFS book still carries material unrealised losses that would have to be crystallised to redeploy.",
+    "already_visible": "Not from what I read. The Q2 release gives the adjusted ROATCE series and names the Q4 2024 mortgage portfolio sale as the adjusting item, but I did not obtain the AFS unrealised loss position, which is where the answer to a repeat repositioning lives.",
+    "unresolved": "The repeat-repositioning risk, which is the difference between a -23% gap and a -40% one. Also unresolved: the model's fixed 2% terminal growth does more work here than the business does, and I have no way to override it in this schema."
+  },
+  "what_changed": "Q2 2026 (2026-07-23): net income available to common $121M, $0.63 per share, up from $108M and $0.65 a year earlier; H1 net income available to common $237.5M against $207.2M, +15%. The company's own ROATCE series runs 12.54%/12.66%/12.12%/13.03%/15.04%/14.02%/12.96% across the disclosed periods. Nothing structural since.",
+  "consensus_case": "Associated Banc-Corp has finished a multi-year balance-sheet repositioning and is now earning a normal regional-bank return: net income available to common of $121M in Q2 2026 against $108M a year earlier, and a return on average tangible common equity the company reports at 12.1-13.0% across recent quarters. At 1.46x tangible book for a 12.5% return against an 11.4% cost of equity, the market is paying a modest premium for a clean, recovered franchise.",
+  "base_case_rationale": "The -60.8% gap is roughly two-thirds defect. The engine's 'sustainable ROTCE' of about 8.2% is a three-year GAAP average of [13.94%, 3.79%, 6.85%], and the 3.79% year is the one containing the balance-sheet repositioning the company announced in Q4 2024 \u2014 the loss on the mortgage portfolio sale, which its own non-GAAP reconciliation strips out as an 'announced initiative'. Averaging a return across a deliberate one-time repositioning describes a bank that no longer exists, which is the AX/EBC/AUB/VLY pattern for at least the sixth time. Associated's own return on average tangible common equity is 12.1% to 13.0%; I use 12.5%. The stale-book defect is present too: justified_pb prices against equity_series[0] of $4,975.3M while equity_now is $5,638.1M, so tangible book per share reads $17.59 against a true $20.38 and actual P/TBV reads 1.69 against a true 1.46. Correcting both, the justified multiple of 1.12 against an actual 1.46 leaves a gap of about -23%, not -61%. That residual richness is real but it rests almost entirely on the model's fixed 2% terminal growth in a Gordon form \u2014 the ENVA bias \u2014 and on an ROTCE choice inside a 12.1-13.0% band, so it is not a thesis.",
+  "key_risks": [
+    "a three-year GAAP return history containing a deliberate loss-taking repositioning, which may recur",
+    "commercial real estate concentration typical of a $18B Midwest regional",
+    "$525M of preferred sits ahead of the common",
+    "the recorded fair value is computed on a tangible book 14% below the current figure and therefore overstates the richness"
+  ],
+  "watch_for": [
+    "any further announced balance-sheet repositioning or securities restructuring",
+    "ROATCE holding above 12% for four consecutive quarters, which would confirm the recovery is the run rate"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/7789/ (Q2 2026 EX-99.1 filed 2026-07-23: net income available to common, ROATCE series, adjusted net income reconciliation, repositioning footnote)",
+    "10-Q for the quarter ended 2026-06-30 filed 2026-08-04",
+    "data/fundamentals.json (equity_now vs equity_series, preferred, goodwill and intangibles as recorded)"
+  ],
+  "flags": [
+    "last_10k_991d_old",
+    "goodwill_and_intangibles_25%_of_book",
+    "unstable_rotce_3.8%_to_13.9%"
+  ]
+}

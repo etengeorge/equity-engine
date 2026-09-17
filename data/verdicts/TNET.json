@@ -1,0 +1,186 @@
+{
+  "ticker": "TNET",
+  "date": "2026-09-17",
+  "sector": "Industrials",
+  "name": "TRINET GROUPINARY",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.02,
+  "bear_growth": -0.05,
+  "bull_growth": 0.07,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 69.20999908447266,
+  "market_implied_growth": -0.04333965433116754,
+  "cohort_pct": 92.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.02,
+    "market_implied_growth": -0.04333965433116754,
+    "growth_delta": 0.06333965433116755,
+    "fair_value": 80.11832714249852,
+    "price": 69.20999908447266,
+    "gap": 0.1576120243075274,
+    "fair_value_band": {
+      "low": 67.76745865376303,
+      "point": 80.11832714249852,
+      "high": 97.01348740249416
+    },
+    "fcff_base_used": 266000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08435772661802725,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 266000000,
+      "price": 69.20999908447266,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.05,
+          "cells": [
+            {
+              "wacc": 0.06435772661802724,
+              "fair_value": 84.62940661663936,
+              "gap": 0.22279161589565843
+            },
+            {
+              "wacc": 0.07435772661802725,
+              "fair_value": 67.39717147201218,
+              "gap": -0.026193146025733638
+            },
+            {
+              "wacc": 0.08435772661802725,
+              "fair_value": 55.50533968359547,
+              "gap": -0.19801559864421148
+            },
+            {
+              "wacc": 0.09435772661802724,
+              "fair_value": 46.79989230509617,
+              "gap": -0.3237986862566542
+            },
+            {
+              "wacc": 0.10435772661802725,
+              "fair_value": 40.14815443453102,
+              "gap": -0.4199081785056936
+            }
+          ],
+          "fair_value_at_point_wacc": 55.50533968359547,
+          "gap_at_point_wacc": -0.19801559864421148
+        },
+        {
+          "case": "base",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.06435772661802724,
+              "fair_value": 121.52633303463844,
+              "gap": 0.7559071614249309
+            },
+            {
+              "wacc": 0.07435772661802725,
+              "fair_value": 97.01348740249416,
+              "gap": 0.40172646562365366
+            },
+            {
+              "wacc": 0.08435772661802725,
+              "fair_value": 80.11832714249852,
+              "gap": 0.1576120243075274
+            },
+            {
+              "wacc": 0.09435772661802724,
+              "fair_value": 67.76745865376303,
+              "gap": -0.02084294827036437
+            },
+            {
+              "wacc": 0.10435772661802725,
+              "fair_value": 58.34480290472364,
+              "gap": -0.15698882131883507
+            }
+          ],
+          "fair_value_at_point_wacc": 80.11832714249852,
+          "gap_at_point_wacc": 0.1576120243075274
+        },
+        {
+          "case": "bull",
+          "growth": 0.07,
+          "cells": [
+            {
+              "wacc": 0.06435772661802724,
+              "fair_value": 154.5328207894684,
+              "gap": 1.2328106174493216
+            },
+            {
+              "wacc": 0.07435772661802725,
+              "fair_value": 123.44851411338672,
+              "gap": 0.7836803315473897
+            },
+            {
+              "wacc": 0.08435772661802725,
+              "fair_value": 102.03945996026997,
+              "gap": 0.4743456337245153
+            },
+            {
+              "wacc": 0.09435772661802724,
+              "fair_value": 86.40149680673214,
+              "gap": 0.2483961558976009
+            },
+            {
+              "wacc": 0.10435772661802725,
+              "fair_value": 74.4817357733107,
+              "gap": 0.07617015978289143
+            }
+          ],
+          "fair_value_at_point_wacc": 102.03945996026997,
+          "gap_at_point_wacc": 0.4743456337245153
+        }
+      ],
+      "summary": {
+        "bear": -0.19801559864421148,
+        "base": 0.1576120243075274,
+        "bull": 0.4743456337245153
+      },
+      "downside": -0.4199081785056936,
+      "upside": 1.2328106174493216
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am treating a 21%-of-FCFF stock compensation charge as free. Expensing it takes the base from ~$266M to ~$205M, at which the market requires +5.1% rather than -0.9% \u2014 and TriNet's revenue is shrinking, so a 5% compounding requirement on a declining business is a genuine short case rather than a fair one.",
+    "what_would_prove_it": "The net weighted-average share count trend, per the BOX rule \u2014 whether buybacks are actually paying for the compensation.",
+    "already_visible": "Partly: TriNet has been reducing its share count and the engine's 45.9M shares are well below the ~50M of prior years, which suggests the compensation is being absorbed. I did not pull the year-over-year weighted-average figures from this quarter's filing, so I cannot state the net rate, and that is why the stock-comp flag stays open rather than resolved.",
+    "unresolved": "The stock-comp treatment, which is worth six points of required growth and is the difference between 'fair' and 'modestly rich'. The answer was one grep further into the 10-Q than I went."
+  },
+  "what_changed": "Q2 2026 (filed 2026-07-30) raised FY26 guidance: total revenues $4,750-4,900M, professional service revenues $647-663M, adjusted EBITDA margin 8.5-9.0% \u2014 i.e. roughly $404-441M of adjusted EBITDA. A quarterly dividend of $0.29 was declared 2026-09-11. Nothing structural: no acquisition, no financing, no management change.",
+  "consensus_case": "TriNet is a margin-recovery story the market has already partly re-rated. After the 2024-25 insurance cost blowout the company repriced its book, and it is working: Q2 2026 adjusted EBITDA of $128M on a 10.9% margin against $105M and 8.5% a year earlier, net income $53M against $37M, attrition improved 36%, and full-year earnings guidance RAISED \u2014 all while total revenues fell 5%. The market is paying for stabilised insurance margins on a shrinking revenue base, which is why it implies roughly zero FCFF growth rather than a decline.",
+  "base_case_rationale": "The +134% gap is manufactured by a corrupted revenue series and should be discarded before any thesis is formed. revenue_series reads [$5,010M, $5,053M, $917M, $3,275M, $3,060M, $2,659M] \u2014 a company whose revenue does not fall to $917M and then return to $5,053M. That is a concept switch between TriNet's 'Total revenues' (gross, including insurance costs) and a net-service-revenue presentation, the same shape as the HRI predecessor artifact but arising from tagging rather than a spin-off. The '+13.5% five-year revenue CAGR' baseline is computed off that series and means nothing, and the entire +134% gap and 92.7th-percentile rank follow from it. Working the actual economics instead: the FCFF base of $310.7M rests on cfo_series [$303M, $279M, $545M] where the $545M year is a working-capital swing in client payroll and insurance accruals, and interest_expense is recorded as $12M against an actual $27M for six months (~$55M a year) \u2014 an implied rate of 1.34%, below the PATK alarm threshold, which understates the add-back. Building the base from the company's own guidance instead \u2014 adjusted EBITDA ~$420M less ~$75M capex less ~$46M D&A, taxed, plus D&A back \u2014 gives roughly $266M, at which the market implies -0.9%; across every base I can defend the answer runs -6.6% to +5.1%. I take +2%: insurance margin recovery is real but finite, and professional service revenue is still falling 8%.",
+  "key_risks": [
+    "total revenues -5% and professional service revenues -8%; the recovery is in margin, not volume",
+    "health insurance cost trend is the single swing factor and it broke the model once already in 2024-25",
+    "stock compensation is 21% of the reported cash-flow base",
+    "cfo swings violently with the timing of client payroll and insurance accruals, so any single-year base is unreliable"
+  ],
+  "watch_for": [
+    "worksite employee volumes turning positive \u2014 the bull case is volume, not margin",
+    "the FY2027 insurance cost trend assumption at the Q4 print"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/937098/000093709826000048/tnet-063026xexhibit991.htm (Q2 2026 EX-99.1: total revenues, adjusted EBITDA, FY26 guidance table)",
+    "https://www.sec.gov/Archives/edgar/data/937098/000093709826000050/tnet-20260630.htm (10-Q, 2026-06-30: interest expense, bank fees and other)",
+    "https://www.sec.gov/Archives/edgar/data/937098/000093709826000056/exhibit991q32026dividend.htm (dividend declared 2026-09-11)"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value",
+    "stock_comp_is_21%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

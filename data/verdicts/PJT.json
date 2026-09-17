@@ -1,0 +1,51 @@
+{
+  "ticker": "PJT",
+  "date": "2026-09-17",
+  "sector": "Financials",
+  "name": "PJT PARTNERS CLASS A",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": -0.05,
+  "bull_growth": 0.12,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 152.60000610351562,
+  "market_implied_growth": null,
+  "cohort_pct": 39.8,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing on a -46.7% gap costs nothing and hides a real signal \u2014 if PJT genuinely is expensive, no_model buries a useful sell.",
+    "what_would_prove_it": "A valuation on the right frame: fee revenue, compensation ratio and earnings, which is how the market actually prices advisory firms.",
+    "already_visible": "The inputs for that exist in the filings, but this engine has no path to it \u2014 method is assigned per GICS sector and 'Financials' routes every name to justified price-to-tangible-book. Note that refusing is NOT a judgment that PJT is cheap; on 34.7x tangible book and a cyclical fee stream it may well be expensive, and I decline to smuggle that conclusion in through inputs I have just argued are unusable.",
+    "unresolved": "Everything about the valuation, by construction. The correct fix is a method assignment, not an analyst override."
+  },
+  "what_changed": "Nothing that changes the conclusion. PJT filed its 10-Q for the quarter ended 2026-06-30 on 2026-07-30 and reports 25,564,818 Class A shares outstanding as of 2026-07-27, against the 24,800,541 the engine carries from 2023-04-24.",
+  "consensus_case": "PJT Partners is a premier independent advisory franchise \u2014 restructuring, strategic advisory and placement \u2014 whose earnings have compounded from $81.8M to $180.1M across the recorded window. Advisory firms are valued on earnings and on the quality of their bankers, never on book value, and the market is doing exactly that. The 34.7x price-to-tangible-book the model computes is not a valuation signal; it is a category error.",
+  "base_case_rationale": "No fair value and no ROTCE are supplied, because supplying either would launder a category error into a number. This is the PIPR case verbatim, and PJT was named explicitly in that standing lesson. Price-to-tangible-book is the wrong frame for an advisory firm: PJT's productive asset is a roster of bankers, expensed through compensation and carrying no balance-sheet value, so its $4.40 of tangible book per share is a working-capital balance rather than a capital constraint on revenue. The model reports an actual P/TBV of 34.66x against a justified 1.85 and a -46.7% gap; the cheap detector from that lesson \u2014 actual P/TBV above roughly 4x on a book-method name \u2014 fires at more than eight times the threshold. The goodwill_and_intangibles_64%_of_book flag is the model fighting itself: those intangibles are the acquired advisory franchises that generate the fees, and stripping them to reach 'tangible' book deletes the productive asset before dividing by it. No ROTCE rescues this: the recorded 152% return is arithmetic on a denominator that has been defined away.",
+  "key_risks": [
+    "advisory revenue is cyclical and lumpy",
+    "compensation ratio above 60% limits operating leverage",
+    "the engine will re-run this category error every rotation until the method assignment changes"
+  ],
+  "watch_for": [
+    "a method reassignment for advisory, payments and fintech names out of the book bucket"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1626115/000162611526000045/pjt-20260630.htm (10-Q, 2026-06-30: cover page share counts, equity)",
+    "10-K for 2025 filed 2026-02-26",
+    "research/LESSONS.md \u2014 the PIPR standing lesson, which names PJT Partners explicitly"
+  ],
+  "flags": [
+    "share_count_1242d_stale_market_cap_unreliable",
+    "goodwill_and_intangibles_64%_of_book",
+    "rotce_152%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here"
+  ]
+}

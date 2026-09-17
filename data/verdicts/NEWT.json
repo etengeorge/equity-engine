@@ -1,0 +1,61 @@
+{
+  "ticker": "NEWT",
+  "date": "2026-09-17",
+  "sector": "Financials",
+  "name": "NEWTEKONE",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.02,
+  "bull_growth": 0.1,
+  "rotce_override": 0.15,
+  "horizon_months": 24,
+  "price_at_verdict": 11.890000343322754,
+  "market_implied_growth": null,
+  "cohort_pct": 94.1,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.15,
+    "screen_rotce": 0.19287050011633178,
+    "justified_p_tbv": 1.2378078538860051,
+    "actual_p_tbv": 0.9455021171054149,
+    "tangible_book_per_share": 12.575329159201795,
+    "fair_value": 15.565841198461674,
+    "price": 11.890000343322754,
+    "gap": 0.3091539738435094,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the return is not a return at all. Of $75.1M of total income in Q2 2026, $60.1M is NON-interest income and only $15.0M is net interest income \u2014 so roughly 80% of NewtekOne's reported earnings come from gain-on-sale and fair-value marks on SBA loans it originates and revalues itself. Per the JXN rule, GAAP net income is not a return for anything whose earnings are a mark, and a 15.7% ROTCE built mostly on self-marked loan valuations does not deserve to be capitalised at a 12.5% cost of equity.",
+    "what_would_prove_it": "The credit performance of the SBA 7(a) book now being retained rather than sold \u2014 charge-offs and non-accruals on the guaranteed and unguaranteed portions \u2014 and whether the fair-value marks have historically been realised on sale.",
+    "already_visible": "Partly, and it is why I did not call this cheap. The company is retaining more of what it used to sell, which removes the market test that validated the marks; the legacy non-bank 7(a) portfolio at NSBF has fallen below 10% of loans from 19%; and management itself withdrew guidance mid-quarter and then re-guided EPS DOWN. I did not obtain the non-accrual and charge-off series, so the credit question is open.",
+    "unresolved": "Whether a mid-teens ROTCE survives the transition. Management's own 2027 guidance would settle much of it and I did not retrieve the figure \u2014 the 2026-08-28 release was in the news store as a headline only, and I read the Q2 release rather than the re-guidance release itself."
+  },
+  "what_changed": "THE BUSINESS MODEL IS BEING CHANGED ON PURPOSE AND MANAGEMENT SAID SO. In the Q2 2026 release (2026-08-06) the CEO states the mix 'will involve more net interest income by holding more loans on balance sheet and less revenue from gain on sale of loans, and, as a result, our current guidance going forward is being re-evaluated.' On 2026-08-28 the company re-guided: 2026 EPS of $1.70-$1.80. Q2 EPS was $0.48 basic against $0.53 a year earlier, and ROTCE fell from 19.6% to 15.7%. Loans held on the Bank's balance sheet are now 86% of total loans, up from 68% a year ago.",
+  "consensus_case": "NewtekOne is a genuinely differentiated branchless bank for independent business owners: assets up almost 50% year over year, operating expenses up 3.6%, the efficiency ratio improving to 58.4%, deposits nearly doubling, and ROTCE still 15.7%. At roughly 1.0x tangible common book for a bank earning mid-teens returns, the market is pricing the deliberate transition away from gain-on-sale income \u2014 near-term EPS falls even though the franchise is getting better \u2014 rather than mispricing the franchise.",
+  "base_case_rationale": "The +74% gap is roughly two-thirds defect. The engine's 19.3% 'sustainable ROTCE' is a three-year average of [16.0%, 18.8%, 23.0%] that spans NewtekOne's conversion from a BDC to a bank holding company in early 2023 and the gain-on-sale era that is now being deliberately wound down; the company's own current ROTCE is 15.7% for Q2 2026, 14.8% for Q1 2026 and 19.6% for Q2 2025 \u2014 a clear downtrend, and the VLY rule cuts the other way here: a monotonic trend means the average describes a company that no longer exists. The re-guided 2026 EPS of $1.70-1.80 on ~28.9M shares implies about $49-52M to common against roughly $346M of average tangible common equity, i.e. ROTCE of 14-15%, so I use 15%. There is also a straightforward input error: the engine carries preferred of $19,738k, which is the prior-year figure, against the $48,181k the company reports at 2026-06-30, so tangible book per common share reads $12.575 against the company's own $12.13 and actual P/TBV reads 0.946 against a true 0.980. At a 15% ROTCE and the engine's 12.5% cost of equity the justified multiple is 1.24 against an actual 0.98 \u2014 a gap of about +26%, not +74%.",
+  "key_risks": [
+    "roughly 80% of total income is non-interest income including self-determined fair-value marks on SBA loans",
+    "retaining loans rather than selling them moves small-business credit risk onto the balance sheet",
+    "ROTCE has fallen from 19.6% to 15.7% year over year and management re-guided EPS down mid-year",
+    "assets up ~50% year over year is fast growth for a bank of this size, funded by consumer deposits that more than doubled"
+  ],
+  "watch_for": [
+    "the 2027 EPS guidance from the 2026-08-28 re-guidance and whether it implies ROTCE below 14%",
+    "non-accruals and net charge-offs on the retained SBA 7(a) portfolio"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1587987/000162828026054302/finalpr_earningsreleaseq.htm (Q2 2026 EX-99.1: ROTCE reconciliation, tangible book value per common share $12.13, preferred $48,181k, income mix, CEO statement on the revenue-mix shift)",
+    "https://www.sec.gov/Archives/edgar/data/1587987/000162828026055245/newt-20260630.htm (10-Q, 2026-06-30)",
+    "company news in brief: 2026-08-28 re-guidance to 2026 EPS $1.70-1.80 (headline and summary only)"
+  ],
+  "flags": [
+    "ebit_derived_from_pretax_plus_interest"
+  ]
+}

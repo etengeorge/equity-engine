@@ -1,0 +1,185 @@
+{
+  "ticker": "NSIT",
+  "date": "2026-09-17",
+  "sector": "Information Technology",
+  "name": "INSIGHT ENTERPRISES INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.05,
+  "bear_growth": 0.0,
+  "bull_growth": 0.1,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 165.19000244140625,
+  "market_implied_growth": -0.030596857191440174,
+  "cohort_pct": 73.4,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.05,
+    "market_implied_growth": -0.030596857191440174,
+    "growth_delta": 0.08059685719144018,
+    "fair_value": 186.85509159815032,
+    "price": 165.19000244140625,
+    "gap": 0.13115254456412262,
+    "fair_value_band": {
+      "low": 158.461692553118,
+      "point": 186.85509159815032,
+      "high": 224.6847742041829
+    },
+    "fcff_base_used": 400000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0903082986572151,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 400000000,
+      "price": 165.19000244140625,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.0,
+          "cells": [
+            {
+              "wacc": 0.0703082986572151,
+              "fair_value": 214.69698360312483,
+              "gap": 0.2996971997701796
+            },
+            {
+              "wacc": 0.0803082986572151,
+              "fair_value": 173.15572381919486,
+              "gap": 0.04822157067655519
+            },
+            {
+              "wacc": 0.0903082986572151,
+              "fair_value": 143.42098563941045,
+              "gap": -0.13178168460719886
+            },
+            {
+              "wacc": 0.10030829865721509,
+              "fair_value": 121.08274340016371,
+              "gap": -0.2670092523116683
+            },
+            {
+              "wacc": 0.1103082986572151,
+              "fair_value": 103.68427039288312,
+              "gap": -0.3723332595163532
+            }
+          ],
+          "fair_value_at_point_wacc": 143.42098563941045,
+          "gap_at_point_wacc": -0.13178168460719886
+        },
+        {
+          "case": "base",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.0703082986572151,
+              "fair_value": 277.57900823959744,
+              "gap": 0.6803620324302384
+            },
+            {
+              "wacc": 0.0803082986572151,
+              "fair_value": 224.6847742041829,
+              "gap": 0.360159639708703
+            },
+            {
+              "wacc": 0.0903082986572151,
+              "fair_value": 186.85509159815032,
+              "gap": 0.13115254456412262
+            },
+            {
+              "wacc": 0.10030829865721509,
+              "fair_value": 158.461692553118,
+              "gap": -0.04073073302771335
+            },
+            {
+              "wacc": 0.1103082986572151,
+              "fair_value": 136.36925980114972,
+              "gap": -0.17447025978754005
+            }
+          ],
+          "fair_value_at_point_wacc": 186.85509159815032,
+          "gap_at_point_wacc": 0.13115254456412262
+        },
+        {
+          "case": "bull",
+          "growth": 0.1,
+          "cells": [
+            {
+              "wacc": 0.0703082986572151,
+              "fair_value": 353.0017778851979,
+              "gap": 1.1369439594893733
+            },
+            {
+              "wacc": 0.0803082986572151,
+              "fair_value": 286.38815474067945,
+              "gap": 0.7336893910529654
+            },
+            {
+              "wacc": 0.0903082986572151,
+              "fair_value": 238.7799251237105,
+              "gap": 0.44548654031533763
+            },
+            {
+              "wacc": 0.10030829865721509,
+              "fair_value": 203.07509073695587,
+              "gap": 0.22934250097240394
+            },
+            {
+              "wacc": 0.1103082986572151,
+              "fair_value": 175.3174399027329,
+              "gap": 0.061307811076029894
+            }
+          ],
+          "fair_value_at_point_wacc": 238.7799251237105,
+          "gap_at_point_wacc": 0.44548654031533763
+        }
+      ],
+      "summary": {
+        "bear": -0.13178168460719886,
+        "base": 0.13115254456412262,
+        "bull": 0.44548654031533763
+      },
+      "downside": -0.3723332595163532,
+      "upside": 1.1369439594893733
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I have the cash-flow direction exactly backwards. If Insight is now GROWING again \u2014 net sales +15% in Q2 \u2014 then working capital swings from a source of cash to a use of it, and free cash flow could run well BELOW my $400M normalisation for several years even as earnings rise. On that reading the required growth is nearer +8.5% against a company whose gross profit is guided to grow 8-10%, which is fair at best and leaves nothing for the equity.",
+    "what_would_prove_it": "Operating cash flow in the FY2026 10-K against the $303.8M of the prior year, with the receivables and inventory lines broken out.",
+    "already_visible": "Partly. The newest year in the series is already the weakest at $303.8M against $632.8M and $619.5M, which is consistent with the release having ended. The company also states it intends to use cash generated in excess of working capital needs to pay down the ABL facility and repurchase shares, which implies management expects working capital to absorb cash as growth resumes.",
+    "unresolved": "Whether gross margin expansion is mix or pricing. Management says it expects margins to improve as services and solutions grow, but a reseller's gross margin also rises mechanically when cloud is booked net rather than gross, and that is an accounting presentation rather than economics."
+  },
+  "what_changed": "Q2 2026 (filed 2026-08-06) raised full-year guidance on both gross profit growth and adjusted EPS. A three-year 'One Insight' plan was introduced targeting AI infrastructure and services with improved operating efficiency. The prior convertible notes were repaid ($333.1M of principal in the comparable prior-year period), leaving the ABL revolver and inventory financing as the debt.",
+  "consensus_case": "Insight is being re-rated as an AI-infrastructure and services beneficiary rather than a hardware reseller, and the numbers support it: Q2 net sales +15%, gross profit +18%, gross margin +60bp to 21.7%, adjusted earnings from operations +31%, adjusted diluted EPS +44%, and FY2026 guidance RAISED to $12.20-12.70 of adjusted EPS (+16% at the midpoint) with gross profit growth of 8-10%. At $165.19 that is roughly 13x adjusted earnings for a business whose gross profit is compounding, which is why the market implies slightly negative FCFF growth rather than a premium.",
+  "base_case_rationale": "The +16.4% gap is small and the base behind it is not trustworthy, so this is not a thesis either way. The $512.7M FCFF base is the mean of cfo-less-capex of [$279.3M, $586.1M, $580.3M] \u2014 and the two large years are working-capital releases, not earnings: Insight's net sales fell from $10,431M to $8,247M across the window and a declining reseller liquidates receivables and inventory into cash. Building owner earnings from the income statement instead \u2014 EBIT of $334.9M taxed at 27%, plus $106.3M of depreciation and amortisation, less $24.5M of capex \u2014 gives roughly $330M, and the company's own guided adjusted net earnings are about $365M on ~29.3M diluted shares. Across that range the market implies +1.5% to +8.5% five-year FCFF growth rather than the -3.1% the brief reports. Against guided gross profit growth of 8-10% and adjusted EPS growth of 16%, a requirement of roughly +5% is close to fair. Note also that the 'possible_trough_cycle_base' flag is misleading in the usual way: the newest year is the LOWEST cash-flow year precisely because the business stopped shrinking, so the flag reads a working-capital normalisation as a cyclical trough.",
+  "key_risks": [
+    "net sales have fallen from $10.4B to $8.2B across the cash-flow window; gross profit growth is doing all the work",
+    "free cash flow has been flattered by working-capital release and reverses as the business grows",
+    "partner incentive programmes are a disclosed swing factor on gross margin",
+    "a disclosed global memory chip shortage affects supply and pricing"
+  ],
+  "watch_for": [
+    "FY2026 operating cash flow against the $303.8M prior year \u2014 the working-capital reversal test",
+    "whether gross margin holds above 21.5% once the AI hardware cycle normalises"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/932696/000093269626000062/nsit-20260630.htm (10-Q, 2026-06-30: ABL borrowings and repayments, convertible note repayment, liquidity discussion)",
+    "Q2 2026 EX-99.1 filed 2026-08-06 (results and raised FY2026 guidance: adjusted diluted EPS $12.20-12.70, gross profit growth 8-10%)",
+    "Q2 2026 EX-99.2 filed 2026-08-06"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.48x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

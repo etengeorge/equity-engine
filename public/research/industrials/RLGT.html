@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>RLGT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / RLGT</p><h1>RLGT <span style='color:var(--faint);font-weight:400'>RADIANT LOGISTIC INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$9.10</b></div><div>Analyst gap<b>-3%</b></div><div>Dated<b>2026-09-17</b></div></div><div class='prose'><h1>RLGT — RADIANT LOGISTIC INC</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-17 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $9.10 · fair value $8.80 · gap -3.3%</li><li><strong>Growth:</strong> market implies -2.0%, analyst says +11.0% (delta +13.0%)</li><li><strong>FCFF base overridden</strong> by the analyst to $20.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.9% | 8.9% | 9.9% | 10.9% | 11.9% | |---|---|---|---|---|---|---| | bear | +4.0% | $8.85 | $7.68 | $6.81 | $6.14 | $5.60 | | base | +11.0% | $11.60 | $10.00 | $8.80 | $7.87 | $7.13 | | bull | +18.0% | $15.11 | $12.93 | $11.31 | $10.06 | $9.06 |</p><p>At the point WACC of 9.9%: bear -25.1%, base -3.3%, bull +24.3% Across the whole grid the gap ranges -38.5% to +66.0% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Radiant is a debt-free, asset-light freight forwarder at the bottom of a freight cycle with a founder-CEO, a newly extended $200M revolver to 2031, a $100M acquisition accordion and visibly accelerating momentum — Q4 revenue +18.5%, adjusted EBITDA +31.6%, adjusted EBITDA margin +240bp. Buying a cyclical forwarder on trough earnings before the cycle turns is a reasonable thing to pay up for, and the +10% five-day move on 5x volume is the market doing exactly that after the 2026-09-14 results.</p><p><strong>What changed.</strong> EVERYTHING THE ENGINE IS PRICING PREDATES A 10-K FILED THREE DAYS AGO. Radiant filed its FY2026 10-K (year ended 2026-06-30) on 2026-09-14 with the Q4 8-K; the engine&#x27;s extract carries fy_end 2025-06-30 and fundamentals_age_days 444. The new actuals: revenue $934.4M (from $902.7M), net income attributable $18.8M ($0.40 basic), adjusted net income $25.3M — DOWN from $30.9M — and adjusted EBITDA of $36.7M, DOWN 5.4% from $38.8M. Operating cash flow was $17.5M against $4.3M of capex, i.e. free cash flow of $13.2M. Also new: an amended and restated $200M secured revolver (2026-08-07) extending maturity to 2031 with the accordion raised from $75M to $100M; $25.0M drawn at 2026-06-30 against $25.6M of cash, so no net debt; and a new COO appointed 2026-08-31.</p><p><strong>Base case.</strong> The +12.7% gap is an artifact of a cash-flow base that is 2.7x the company&#x27;s actual free cash flow. The engine&#x27;s $35.7M base is the mean of three cfo-less-capex years of [$8.1M, $8.7M, $90.3M], where the $90.3M is fiscal 2023 — the tail of the freight super-cycle, when revenue collapsed from $1,459M to $1,085M and released an enormous slug of working capital. That is a one-off liquidation of receivables, not earning power, and no flag fired on it. Against the FY2026 actual of $13.2M, a three-year mean of genuine recent free cash flow of ~$10M, and an EBITDA-less-capex-and-tax normalisation of ~$25M, I take $20M as a defensible normalised base: above the current depressed print because working capital is consuming cash as revenue reaccelerates, and well below the engine&#x27;s number. Enterprise value is also understated — the engine nets off $39.7M of stale cash and carries zero debt, while the 10-K shows $25.0M drawn on the revolver against $25.6M of cash, so true EV is ~$426M against the recorded $387M. On corrected inputs the market requires +14.4% five-year FCFF growth at a $20M base (and +8.8% to +25.3% across the defensible base range), not the -2.0% the brief reports. I can underwrite roughly +11% from a genuine freight recovery plus agent-network and acquisition growth — which is BELOW what the price already asks.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The base I chose is a trough, and applying an ordinary growth rate to a trough understates a cyclical — the exact error the brief&#x27;s own flag language warns about. If FY2026&#x27;s $13.2M of free cash flow is the bottom and normalised mid-cycle free cash flow is $40M+, then the required +14% is being measured off the wrong starting point and the name is cheap, not fair. Q4 is genuine evidence for this: revenue +18.5%, adjusted EBITDA +31.6%, margin +240bp, with international airfreight and domestic surface both cited.</li><li>What would prove it: Whether adjusted EBITDA growth converts into cash. The FY2027 cash flow statement — operating cash flow against the $36.7M-and-rising EBITDA line — settles it, because the gap between the two has been the whole story for two years.</li><li>Already visible today: Partly, and it cuts against the bull. FY2026 adjusted EBITDA was $36.7M and operating cash flow was $17.5M; FY2025 was $38.8M and $13.3M. Radiant has now converted roughly 40% of adjusted EBITDA into operating cash in each of two years, so a recovery in EBITDA does not mechanically become free cash flow — working capital in a forwarder consumes cash precisely when revenue accelerates.</li><li>Left unresolved: I could not settle mid-cycle free cash flow with any confidence, and the answer spans +8.8% to +25.3% of required growth across bases I can defend. That range is the honest precision here and it is too wide to call the name either way.</li></ul><p><strong>Key risks.</strong> adjusted EBITDA fell 5.4% in FY2026 and adjusted net income fell 18%, so the &#x27;recovery&#x27; has not yet shown up in the full-year numbers; EBITDA-to-cash conversion has run near 40% for two years and worsens as growth accelerates; the 10-K&#x27;s own forward-looking section references a prior material weakness in internal control over financial reporting; an agent/station model means operating partners can leave and take volume with them <strong>Watch for.</strong> FY2027 Q1 (December filing) operating cash flow against adjusted EBITDA — the conversion test above; use of the $100M accordion: a large acquisition changes both the base and the enterprise value at once</p><p><strong>Data quality.</strong> RESOLVED: the only flag raised was volume_5.0x_its_60d_average, and the two defects that matter were unflagged. (1) The extract is a FULL YEAR stale — fy_end 2025-06-30, fundamentals_age_days 444 — against a 10-K filed 2026-09-14; every input below is from the new filing. (2) The FCFF base is one-third a freight-super-cycle working-capital release ($90.3M of $107.1M across three years) and no peak/trough flag fired. (3) Enterprise value misses the $25.0M revolver draw and uses $39.7M of stale cash against an actual $25.6M — the ALTG revolver bug again, small here (~10% of EV) but in the cheap direction. Corrected base and EV together move the growth the market requires from -2.0% to +14.4% and the +12.7% gap inverts.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1171155/000119312526390768/rlgt-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1171155/000119312526390768/rlgt-20260630.htm</a> (FY2026 10-K filed 2026-09-14: operating cash flow $17.5M, capex $4.3M, acquisitions $5.2M)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1171155/000119312526390772/rlgt-ex99_1.htm</a> (Q4/FY2026 EX-99.1: revenue, adjusted EBITDA $36.7M, adjusted net income, $200M revolver, no net debt)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-ex99_1.htm</a> (2026-08-12 EX-99.1: amended and restated $200M secured revolving credit facility)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/RLGT.md'>research/Industrials/RLGT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
