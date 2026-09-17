@@ -1,69 +1,60 @@
-# BGC — BGC GROUP INC CLASS A
-*Financials · brief generated 2026-09-16 · selected as **rotation***
+# SFBS — SERVISFIRST BANCSHARES INC
+*Financials · brief generated 2026-09-17 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 164/1956
+- rotation position 167/1956
 
 ## Market
 | | |
 |---|---|
-| price | $12.14 |
-| market cap | $5.8B |
-| 5d / 21d / 63d / 252d | +1.4% / +8.6% / +3.1% / +20.3% |
-| 60d avg daily $ volume | $34.9M |
-| beta (vs IWM) | 0.83 (R²=0.223) |
-| 5d volume vs 60d average | 1.3x |
+| price | $41.28 |
+| market cap | $2.3B |
+| 5d / 21d / 63d / 252d | -1.8% / -8.8% / +1.5% / +0.3% |
+| 60d avg daily $ volume | $25.6M |
+| beta (vs IWM) | 1.06 (R²=0.492) |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 77% / debt 23% |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | n/a |
-| cost of equity | +9.5% |
-| justified P/TBV | None |
-| actual P/TBV | None |
-| tangible book / share | n/a |
-| implied gap | n/a |
+| sustainable ROTCE | +14.6% |
+| cost of equity | +10.8% |
+| justified P/TBV | 1.42 |
+| actual P/TBV | 1.23 |
+| tangible book / share | $33.59 |
+| implied gap | +15.8% |
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=260) | 22.1x | 6.0x / 9.1x / 14.0x | $1.52 / $3.53 / $6.80 |
-| ev_sales (n=230) | 2.4x | 1.6x / 3.7x / 24.7x | $7.23 / $20.28 / $148.77 |
-
-Blended midpoint **$11.91** vs price $12.14 — gap **-1.9%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **88th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +50.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_tangible_common_equity`
+- none raised
 
 ## Recent filings
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026055187/bgcg-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026050814/bgcp-20260730.htm
-- 2026-06-25 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026045358/bgcp-20260625.htm
-- 2026-05-15 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000121390026057808/ea0291039-8k_bgc.htm
-- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026033499/bgcg-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026031724/bgcp-20260507.htm
-- 2026-03-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026021427/bgcp-20260326.htm
-- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/1094831/000162828026013162/bgcg-20251231.htm
-- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828026007499/bgcp-20260212.htm
-- 2025-12-29 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1094831/000162828025058853/bgcp-20251229.htm
+- 2026-08-07 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005365/f8k_080726.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005359/sfbs20260630_10q.htm
+- 2026-07-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004777/f8k_072026.htm
+- 2026-07-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/f8k_072026.htm
+- 2026-06-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004130/f8k_061526.htm
+- 2026-05-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003705/f8k_052626.htm
+- 2026-05-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003550/f8k_051926.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003069/sfbs20260331_10q.htm
+- 2026-04-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1430723/000117184326002569/f8k_042026.htm
+- 2026-04-06 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1430723/000117184326002258/sfbs20260401_def14a.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1094831/000162828026050814/bgc-20260630xexx991.htm
-- **2026-06-25** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1094831/000162828026045358/exhibit991q22026.htm
+- **2026-08-07** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326005365/exh_991.htm
+- **2026-07-20** · EX-99.1 · press release — PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004777/exh_991.htm
+- **2026-07-20** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/exh_991.htm
+- **2026-07-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004772/exh_992.htm
+- **2026-06-15** · EX-99.1 · press release — PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326004130/exh_991.htm
+- **2026-05-26** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1430723/000117184326003705/exh_991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -71,30 +62,30 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
+- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
+- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
+- **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 - **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
 - **2026-09-15** · Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/
 - **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
 - **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
 - **2026-09-15** · Brown & Brown Stock: Is BRO Underperforming the Financial Sector? — *Barchart* — https://www.barchart.com/story/news/4612663/brown-brown-stock-is-bro-underperforming-the-financial-sector
-- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
-- **2026-09-15** · Willis Towers Watson Stock: Is WTW Underperforming the Financial Service Sector? — *Barchart* — https://www.barchart.com/story/news/4611230/willis-towers-watson-stock-is-wtw-underperforming-the-financial-service-sector
-- **2026-09-15** · Sector Update: Financial Stocks Decline Premarket Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-premarket-131540334.html
-- **2026-09-14** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html
 
 ## Market and macro context
-- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
-- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
-- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
-- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
+- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
+- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
+- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
+- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
-- **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
-- **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
-- **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
-- **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
-- **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
+- **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
+- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
+- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

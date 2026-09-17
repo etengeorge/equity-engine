@@ -1,5 +1,47 @@
 [
  {
+  "id": "472a77cd-4017-3627-bb97-4ef9cfa45050",
+  "ts": "2026-09-16T19:56:43+00:00",
+  "title": "Sector Update: Financial Stocks Fall Late Afternoon",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index falli",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "5b0fa66a-5199-3be0-a047-82195f28f1fb",
+  "ts": "2026-09-16T19:32:58+00:00",
+  "title": "Sector Update: Financial",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index falli",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "d7c0464a-d975-3845-9cc9-1424f01282c0",
+  "ts": "2026-09-16T17:56:03+00:00",
+  "title": "Sector Update: Financial Stocks Decline Wednesday Afternoon",
+  "summary": "Financial stocks were lower in Wednesday afternoon trading, with the NYSE Financial Index down 0.4%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "32572096-1356-3dc4-a986-5ea151d76285",
   "ts": "2026-09-15T19:58:57+00:00",
   "title": "Sector Update: Financial Stocks Decline Late Afternoon",

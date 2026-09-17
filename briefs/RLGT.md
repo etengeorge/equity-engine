@@ -1,54 +1,53 @@
 # RLGT — RADIANT LOGISTIC INC
-*Industrials · brief generated 2026-09-16 · selected as **opportunistic***
+*Industrials · brief generated 2026-09-17 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- baseline gap +6%
-- 5d move +18%
-- 21d move +13%
-- volume 4.6x its 60d average
+- baseline gap +13%
+- 5d move +10%
+- volume 5.0x its 60d average
 - filed an 8-K in the last few sessions
-- 7 news items in the last 5 days
+- 8 news items in the last 5 days
 - Industrials is in the news
 - never researched
-- urgency score 7.88
+- urgency score 7.39
 
 ## Market
 | | |
 |---|---|
-| price | $9.81 |
-| market cap | $459.4M |
-| 5d / 21d / 63d / 252d | +17.8% / +12.6% / +7.6% / +50.5% |
-| 60d avg daily $ volume | $1.8M |
-| beta (vs IWM) | 0.89 (R²=0.298) |
-| 5d volume vs 60d average | 4.6x |
+| price | $9.10 |
+| market cap | $426.2M |
+| 5d / 21d / 63d / 252d | +9.9% / +4.8% / +0.3% / +32.3% |
+| 60d avg daily $ volume | $1.9M |
+| beta (vs IWM) | 0.9 (R²=0.354) |
+| 5d volume vs 60d average | 5.0x |
 | balance sheet as of | 2026-03-31 (10-K) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$35.7M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$8.1M', '$8.7M', '$90.3M']
-Enterprise value **$419.8M** · FCFF yield **+8.5%**
+Enterprise value **$386.6M** · FCFF yield **+9.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.9% − 1pt | -3.3% |
-| **9.9% (point)** | **-0.3%** |
-| 9.9% + 1pt | +2.5% |
+| 9.9% − 1pt | -4.9% |
+| **9.9% (point)** | **-2.0%** |
+| 9.9% + 1pt | +0.8% |
 
 
 Naive baseline for comparison: **+1.1%** (5y revenue CAGR +1.1%).
-Gap under that baseline: **+5.6%** (fair value $10.36 vs price $9.81).
+Gap under that baseline: **+12.7%** (fair value $10.26 vs price $9.10).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **64th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +28.0%).
+Cohort: **68th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +36.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `volume_4.6x_its_60d_average`
+- `volume_5.0x_its_60d_average`
 - `lumpy_fcff_spread_2.3x_of_mean`
 - `possible_trough_cycle_base_newest_fcf_0.09x_oldest_growth_applied_to_a_trough_understates_value`
 
@@ -71,8 +70,10 @@ Attack these before you trust any number above.
 - **2026-08-12** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation)* — https://www.sec.gov/Archives/edgar/data/1171155/000119312526347070/rlgt-ex99_1.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-16** · Radiant Logistics (RLGT) Bets $100M On A Freight Rebound — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/radiant-logistics-rlgt-bets-100m-152433522.html
+  > On September 14, Radiant Logistics (NYSEAMERICAN:RLGT) held its fourth fiscal quarter earnings call, and the headline numbers landed harder than a typical logistics update. Net income jumped 53.1% to $7.5 million for the quarter ended June 
 - **2026-09-16** · Why Radiant Logistics Stock Topped the Market on Tuesday — *Motley Fool* — https://www.fool.com/investing/2026/09/15/why-radiant-logistics-stock-topped-the-market-on-t/
   > The transportation and logistics specialist published its final earnings report of 2026.
 - **2026-09-15** · Radiant Logistics (RLGT) Q4 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/15/radiant-logistics-rlgt-q4-2026-earnings-call-transcript/
@@ -111,18 +112,18 @@ Attack these before you trust any number above.
 - **2026-09-08** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132039737.html
 
 ## Market and macro context
-- **2026-09-16** · Why Cipher Digital Stock Is Skyrocketing Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-cipher-digital-stock-is-skyrocketing-today/
-- **2026-09-16** · 3 Reasons SYF Has Explosive Upside Potential — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-syf-explosive-upside-150052695.html
-- **2026-09-16** · Hormel Foods (HRL): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/hormel-foods-hrl-buy-sell-145252686.html
-- **2026-09-16** · What History Reveals About Stock Market Crashes During Presidential Transitions — *Motley Fool* — https://www.fool.com/investing/2026/09/16/history-reveals-stock-market-crashes-presidential/
+- **2026-09-17** · 3 Consumer Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html
+- **2026-09-17** · 4 Investors Own More Nvidia Stock Than Its Founder Jen-Hsun Huang — *Investor's Business Daily* — https://www.investors.com/etfs-and-funds/sectors/sp500-investors-own-more-nvidia-stock-than-its-founder-jen-hsun-huang/?src=A00220&yptr=yahoo
+- **2026-09-17** · Easing Oil, Bond Yields Buoy Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-bond-yields-buoy-111047163.html
+- **2026-09-17** · Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-16** · SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process — *sec* — https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process
-- **2026-09-16** · Revised Medical Criteria for Evaluating Cardiovascular Disorders — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders
-- **2026-09-16** · Indiana: Approval of State Coal Combustion Residuals Permit Program — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program
-- **2026-09-16** · Racial Nondiscrimination in Private Schools; Hearing — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing
-- **2026-09-16** · Whistleblower Award Determination — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination
-- **2026-09-16** · Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones
+- **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
+- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
+- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
+- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

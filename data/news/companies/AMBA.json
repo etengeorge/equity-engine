@@ -1,5 +1,53 @@
 [
  {
+  "id": "1f6d492f-987e-3717-8c3a-5848fab201ee",
+  "ts": "2026-09-15T13:00:00+00:00",
+  "title": "Ambarella and Ultralytics Collaborate to Bring Ultralytics YOLO Models to CVflow-Powered Edge Devices",
+  "summary": "The partnership is designed to give developers and product teams a more efficient path from vision model development to deployment on low-power edge AI siliconSANTA CLARA, Calif. and LONDON, Sept. 15, 2026 (GLOBE NEWSWIRE) -- Ambarella, Inc. (NASDAQ: AMBA), an edge AI semiconductor company, and Ultralytics, a vision AI company known for the open-source Ultralytics YOLO model family, today announced a collaboration to support the deployment of Ultralytics YOLO models on Ambarella CVflow\u00ae-powered",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-ultralytics-collaborate-bring-ultralytics-130000006.html",
+  "tickers": [
+   "AMBA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7775e2ae-9741-3a92-8d58-0d6e078c3883",
+  "ts": "2026-09-15T13:00:00+00:00",
+  "title": "Ambarella and ZEDEDA Partner to Bring Cloud-Orchestrated AI to Billions of Devices at the Physical Edge",
+  "summary": "ZEDEDA Edge Intelligence Platform now runs on Ambarella's edge AI SoCs, letting enterprises deploy, secure and operate AI models on power-efficient silicon from a single control plane Joint demonstrations with Roboflow and Liquid AI debut at the AI Infrastructure Summit 2026 SAN JOSE, Calif. and SANTA CLARA, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE) -- Ambarella, Inc. (NASDAQ: AMBA), a leading developer of edge AI semiconductor solutions, and ZEDEDA, the leader in edge intelligence, today announce",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-zededa-partner-bring-cloud-130000427.html",
+  "tickers": [
+   "AMBA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9dc3a6d7-113d-3b2f-aed2-55364f7b9dbc",
+  "ts": "2026-09-15T13:00:00+00:00",
+  "title": "Ambarella Launches X7, Its First Standalone AI Accelerator, to Add Physical AI to Any Host Processor",
+  "summary": "New edge AI accelerator brings Ambarella's third-generation CVflow\u00ae engine to Arm and x86 host systems Leading OEMs in several key verticals are currently creating designs with X7 SANTA CLARA, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE) -- Ambarella, Inc. (NASDAQ: AMBA), an edge AI semiconductor company, today announced the X7 edge AI accelerator, its first dedicated CVflow\u00ae AI accelerator chip. X7 serves as an AI co-processor for Arm and x86 host processors, adding or expanding AI capabilities in a",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-launches-x7-first-standalone-130000692.html",
+  "tickers": [
+   "AMBA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f92b9509-307b-3118-83da-113976c170fb",
+  "ts": "2026-09-15T13:00:00+00:00",
+  "title": "Ambarella Expands its Developer Zone with Remote Access to Live Silicon and Agentic AI Development on Google Cloud Platform",
+  "summary": "New capabilities built on Google Cloud Platform and Gemini Enterprise give developers a cloud-hosted IDE and remote access to live Ambarella silicon Recent collaborations add models from leading providers including Ultralytics An integration with ZEDEDA enables deploying and managing AI workloads across distributed device fleets SANTA CLARA, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE) -- Ambarella, Inc. (NASDAQ: AMBA), an edge AI semiconductor company, today announced a significant expansion of the",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-expands-developer-zone-remote-130000731.html",
+  "tickers": [
+   "AMBA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "61bce774-8622-3443-9886-f6443bb412fd",
   "ts": "2026-09-13T23:01:58+00:00",
   "title": "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables",

@@ -1,11 +1,39 @@
 [
  {
+  "id": "7843a785-26cd-36ff-96d8-1d787a204529",
+  "ts": "2026-09-16T15:27:37+00:00",
+  "title": "How Is Entergy's Stock Performance Compared to Other Utility Stocks?",
+  "summary": "As Entergy has outpaced its industry peers over the past year, Wall Street analysts remain bullish about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4637700/how-is-entergy-s-stock-performance-compared-to-other-utility-stocks",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "8c87fd6d-7df0-3ef1-b121-f48458adbb9b",
   "ts": "2026-09-16T13:10:00+00:00",
   "title": "Stock Market News for Sep 16, 2026",
   "summary": "Wall Street closed lower on Tuesday, dragged down by discretionary and utilities stocks.",
   "publisher": "Zacks",
   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "53adf788-b5b3-3b69-a994-b6c058ad10ad",
+  "ts": "2026-09-16T10:35:15+00:00",
+  "title": "FirstEnergy Stock: Is FE Outperforming the Utility Sector?",
+  "summary": "FirstEnergy has rallied the utility sector, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4629903/firstenergy-stock-is-fe-outperforming-the-utility-sector",
   "tickers": [
    "XLU"
   ],

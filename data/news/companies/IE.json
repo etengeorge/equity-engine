@@ -1,5 +1,29 @@
 [
  {
+  "id": "1a7a3f78-0245-31ff-bf4c-6483c936f1b9",
+  "ts": "2026-09-14T15:53:40+00:00",
+  "title": "4 Mining Stocks Call Traders Are Targeting Today",
+  "summary": "A handful of mining-related stocks seeing options activity amid sector weakness",
+  "publisher": "Schaeffer's Investment Research",
+  "url": "https://finance.yahoo.com/markets/options/articles/4-mining-stocks-call-traders-155340705.html",
+  "tickers": [
+   "IE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c632d2af-1de9-3b32-b71c-38eb5cba3edb",
+  "ts": "2026-09-11T15:35:47+00:00",
+  "title": "3 Stocks Call Traders Are Targeting Today",
+  "summary": "CGON, YPF, and IE are three of the most popular stocks amongst call traders",
+  "publisher": "Schaeffer's Investment Research",
+  "url": "https://finance.yahoo.com/markets/options/articles/3-stocks-call-traders-targeting-153547835.html",
+  "tickers": [
+   "IE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "64174c92-f4c4-3569-8dd7-f98529c32957",
   "ts": "2026-08-25T11:23:41+00:00",
   "title": "US EXIM issues $1.1bn project letter for Ivanhoe Electric copper project",

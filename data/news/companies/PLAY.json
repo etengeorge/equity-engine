@@ -1,5 +1,17 @@
 [
  {
+  "id": "30e8c9d5-da02-3226-9fb8-143421b4a364",
+  "ts": "2026-09-16T19:08:52+00:00",
+  "title": "Stocks making big moves yesterday: Dave & Buster's, Vishay Intertechnology, DocuSign, SentinelOne, and agilon health",
+  "summary": "Check out the companies making headlines yesterday:",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-190852348.html",
+  "tickers": [
+   "PLAY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "53aaf3a2-dbd8-31ca-bab9-82d6ae9d37f9",
   "ts": "2026-09-16T14:45:39+00:00",
   "title": "Dave & Buster\u2019s (PLAY) Bets On New Leaders To Reverse Its Slide",
@@ -54,6 +66,18 @@
   "summary": "Dave & Buster's Entertainment (PLAY) expects improving sales trends in fiscal Q3 after a disappointi",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/dave-buster-apos-sees-sales-160349466.html",
+  "tickers": [
+   "PLAY"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8654885c-7bfd-3f78-8c29-b3abfc6c07db",
+  "ts": "2026-09-15T15:05:00+00:00",
+  "title": "Could Dave & Buster\u2019s Capitulation Signal the Bottom Is Finally In?",
+  "summary": "Dave & Buster's stock hit a record low after weak Q2 results, but positive free cash flow, improving comps, and analyst price targets suggest deep value and a potential bottom.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/could-dave-and-busters-capitulation-signal-the-bottom-is-finally-in/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "PLAY"
   ],

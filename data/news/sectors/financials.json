@@ -1,5 +1,61 @@
 [
  {
+  "id": "472a77cd-4017-3627-bb97-4ef9cfa45050",
+  "ts": "2026-09-16T19:56:43+00:00",
+  "title": "Sector Update: Financial Stocks Fall Late Afternoon",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index falli",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "5b0fa66a-5199-3be0-a047-82195f28f1fb",
+  "ts": "2026-09-16T19:32:58+00:00",
+  "title": "Sector Update: Financial",
+  "summary": "Financial stocks were lower in late Wednesday afternoon trading, with the NYSE Financial Index falli",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "d7c0464a-d975-3845-9cc9-1424f01282c0",
+  "ts": "2026-09-16T17:56:03+00:00",
+  "title": "Sector Update: Financial Stocks Decline Wednesday Afternoon",
+  "summary": "Financial stocks were lower in Wednesday afternoon trading, with the NYSE Financial Index down 0.4%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "4e1913c3-b6c0-386b-990e-fc3661cb314e",
+  "ts": "2026-09-16T17:08:48+00:00",
+  "title": "Exchange-Traded Funds Rise, US Equities Mixed After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "5ee06bea-d10f-3179-ad2f-6f27241487b3",
   "ts": "2026-09-16T13:19:52+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",

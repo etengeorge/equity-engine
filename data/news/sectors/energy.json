@@ -1,5 +1,75 @@
 [
  {
+  "id": "50ccfcdd-6bae-3d5d-8586-07456aca8259",
+  "ts": "2026-09-16T20:00:01+00:00",
+  "title": "Sector Update: Energy Stocks Fall Late Afternoon",
+  "summary": "Energy stocks were lower late Wednesday afternoon, with the NYSE Energy Sector Index falling 3.1% an",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-200001097.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "5db3b959-0ae3-3084-9642-997fff2266a7",
+  "ts": "2026-09-16T19:55:00+00:00",
+  "title": "Oil Surges, Tanker Rates Soar: ETFs in Play",
+  "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/oil-surges-tanker-rates-soar-195500447.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "74793b01-99cb-3adf-927d-fdc66b9afe74",
+  "ts": "2026-09-16T18:36:14+00:00",
+  "title": "Futures Traders Betting On 12% Drop In Energy Stocks Over Next Month",
+  "summary": "Options traders are flooding into bets against the year's hottest sector at a pace well above normal, even as crude oil surges and the underlying stocks sit near all-time highs. Something in the macro picture is spooking the smart money, and the trade they chose reveals exactly how severe they expect the break to be.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/16/futures-traders-betting-on-12-drop-in-energy-stocks-over-next-month/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "55fb691a-0737-3001-b8f1-1ff9e4e03b42",
+  "ts": "2026-09-16T18:01:00+00:00",
+  "title": "Sector Update: Energy Stocks Fall in Afternoon Trading",
+  "summary": "Energy stocks were lower Wednesday afternoon, with the NYSE Energy Sector Index and the State Street",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-180100130.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "4e1913c3-b6c0-386b-990e-fc3661cb314e",
+  "ts": "2026-09-16T17:08:48+00:00",
+  "title": "Exchange-Traded Funds Rise, US Equities Mixed After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "85062b91-c36c-3f4c-aead-52d476ca4866",
   "ts": "2026-09-16T13:27:40+00:00",
   "title": "Sector Update: Energy Stocks Decline Pre-Bell Wednesday",

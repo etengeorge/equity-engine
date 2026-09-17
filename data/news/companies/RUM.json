@@ -1,5 +1,17 @@
 [
  {
+  "id": "3e520e4c-3ebd-3328-9263-06f71bdeea05",
+  "ts": "2026-09-16T21:46:58+00:00",
+  "title": "Rum Roars on $13.7 Billion Compute Deal With Anthropic. How to Play RUM Stock Now.",
+  "summary": "Rum Group reportedly just landed a major deal with Anthropic.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4644998/rum-roars-on-13-7-billion-compute-deal-with-anthropic-how-to-play-rum-stock-now",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2a7f7499-f746-3ed3-8834-53bc99e65282",
   "ts": "2026-09-16T11:13:43+00:00",
   "title": "Is RUM Group (RUM) Undervalued As Anthropic Confirms Its $13.7b GPU Deal?",
@@ -18,6 +30,18 @@
   "summary": "RUM Group\u2019s previously unnamed six-year GPU services term sheet worth US$13.70 billion was recently revealed to involve AI firm Anthropic, centered on leasing computing capacity from RUM\u2019s Maysville, Georgia data center. The agreement, which also grants Anthropic warrants over up to about 51 million RUM shares at a nominal exercise price, marks a major shift toward AI-focused data center infrastructure alongside the company\u2019s video platform roots. We\u2019ll now examine how anchoring this...",
   "publisher": "Simply Wall St.",
   "url": "https://finance.yahoo.com/technology/ai/articles/rum-group-rum-us-13-032012525.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "62880316-6ad9-3a10-a562-8c15c945f932",
+  "ts": "2026-09-15T15:40:00+00:00",
+  "title": "Ready to Rumble: Anthropic Rings the AI Bell",
+  "summary": "Rumble signed a six-year, $13.7 billion AI hosting deal with Anthropic, shifting its business toward compute infrastructure and shares rose 11.6% as short sellers faced a squeeze.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/ready-to-rumble-anthropic-rings-the-ai-bell/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "RUM"
   ],

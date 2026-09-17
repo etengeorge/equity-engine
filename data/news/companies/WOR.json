@@ -1,5 +1,29 @@
 [
  {
+  "id": "d7338dd0-5178-3e39-897c-5cf696eb1c5b",
+  "ts": "2026-09-17T07:24:00+00:00",
+  "title": "Zacks Industry Outlook Trex and Worthington",
+  "summary": "Trex and Worthington have been highlighted in this Industry Outlook article.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-trex-worthington-072400203.html",
+  "tickers": [
+   "WOR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f28f0dd7-5502-3bdb-9d89-9b683b496660",
+  "ts": "2026-09-16T17:02:10+00:00",
+  "title": "Why Worthington Enterprises Stock Jumped 10% Today",
+  "summary": "Is Worthington an under-the-radar data center play?",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/16/why-worthington-enterprises-stock-jumped-10-today/",
+  "tickers": [
+   "WOR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f046f6f2-ef6d-37ec-bfe0-d8d09bce2a96",
   "ts": "2026-09-15T20:15:00+00:00",
   "title": "Worthington Enterprises Announces Investor Day; Renames Business Segments",

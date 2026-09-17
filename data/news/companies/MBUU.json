@@ -1,5 +1,29 @@
 [
  {
+  "id": "1a742f3d-a0a9-3b40-b315-f8e727d4cfe0",
+  "ts": "2026-09-17T11:14:17+00:00",
+  "title": "3 Consumer Stocks We Find Risky",
+  "summary": "The performance of consumer discretionary businesses is closely linked to economic cycles. This sensitive demand profile can cause the industry to underperform when macro uncertainty enters the fray, and over the past six months, its 1.6% return has fallen short of the S&P 500\u2019s 12.9% gain.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-risky-111417968.html",
+  "tickers": [
+   "MBUU"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "aec5c537-35ac-3ec4-b8d7-9cb63e90035a",
+  "ts": "2026-09-16T08:43:49+00:00",
+  "title": "2 of Wall Street\u2019s Favorite Stocks to Keep an Eye On and 1 We Find Risky",
+  "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-084349522.html",
+  "tickers": [
+   "MBUU"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1d4a5fb6-de6e-3366-8d49-bfbd5162fd77",
   "ts": "2026-09-09T14:36:00+00:00",
   "title": "Zacks Industry Outlook Highlights Malibu Boats, MasterCraft Boat, Johnson Outdoors and Escalade",

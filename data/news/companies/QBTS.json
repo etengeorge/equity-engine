@@ -1,5 +1,17 @@
 [
  {
+  "id": "1ece504e-0735-3bc2-93af-ee0f2021176b",
+  "ts": "2026-09-17T00:00:00+00:00",
+  "title": "D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul",
+  "summary": "PALO ALTO, Calif. & SEOUL, South Korea, September 17, 2026--D-Wave Quantum Inc. (NASDAQ: QBTS) (\"D-Wave\" or the \"Company\"), the only dual-platform quantum computing company providing both annealing and gate-model systems, software, and services, today announced that it will host Qubits Asia 2026: Quantum Realized, a full-day quantum computing user conference on October 28, 2026, in Seoul.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/d-wave-host-qubits-asia-000000947.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f58e0bab-43f6-3a94-821b-8ebce43babf2",
   "ts": "2026-09-16T13:55:00+00:00",
   "title": "IBM Seals $1 Billion Government Deal to Build America\u2019s First Quantum Foundry",
@@ -30,6 +42,30 @@
   "summary": "IonQ (IONQ) stock trades at about $37, roughly 55% below its high inside the last year. The market did not do that: over the past twelve months the S&P 500 returned 16.6% while IonQ lost 33.4%. Its own numbers went the other way, which makes the downside hard to size.",
   "publisher": "Trefis",
   "url": "https://www.trefis.com/articles/615538/should-record-revenue-make-ionq-stock-feel-safer/2026-09-16",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e82e1f3e-11cf-31b8-95e7-f28e45a180a5",
+  "ts": "2026-09-15T16:15:00+00:00",
+  "title": "Cashing in on the Qubit: NVIDIA Takes the Quantum Leap",
+  "summary": "NVIDIA's new CUDA-Q Logical software links GPUs with quantum processors to tackle error correction, potentially benefiting IonQ, Rigetti, and D-Wave as hybrid computing advances.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/cashing-in-on-the-qubit-nvidia-takes-the-quantum-leap/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ea9f3129-ac5a-3620-8020-fcc5d277c6b5",
+  "ts": "2026-09-15T15:40:00+00:00",
+  "title": "Breaking Down the Impact of the CHIPS Funding Deal for Quantum Firms",
+  "summary": "The Commerce Department awarded $100 million CHIPS Act grants each to D-Wave Quantum, Rigetti Computing, and Quantinuum, while IonQ was notably excluded from this funding round.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/breaking-down-the-impact-of-the-chips-funding-deal-for-quantum-firms/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "QBTS"
   ],

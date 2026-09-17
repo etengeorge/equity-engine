@@ -1,5 +1,29 @@
 [
  {
+  "id": "38630c52-51db-36b7-8d3f-f5ff6f4c6a76",
+  "ts": "2026-09-17T09:30:17+00:00",
+  "title": "3 of Wall Street\u2019s Favorite Stocks That Concern Us",
+  "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-093017766.html",
+  "tickers": [
+   "PENG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "342cb33e-f2f0-33a0-a7e6-98d318d5dbfc",
+  "ts": "2026-09-17T09:16:43+00:00",
+  "title": "Penguin Solutions (PENG) Stock Jolted By AI Slowdown Call From Top Tech CEOs",
+  "summary": "Penguin Solutions (NasdaqGS:PENG) moved after a public call from Anthropic, OpenAI and SpaceX CEOs to slow advanced AI model development. The coordinated message, delivered this week, urged tighter guardrails on cutting edge AI systems and future training runs. Investors reacted quickly, with Penguin Solutions' share price showing a clear response to the AI sector statement. This joint appeal to rein in advanced AI projects frames new questions for Penguin Solutions' funding pipeline and...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/penguin-solutions-peng-stock-jolted-091643988.html",
+  "tickers": [
+   "PENG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9b957908-d5d7-3f9e-a3c9-a1cfc4814d57",
   "ts": "2026-09-15T20:05:00+00:00",
   "title": "Penguin Solutions Sets Conference Call for Fourth Quarter and Fiscal 2026 Results",
