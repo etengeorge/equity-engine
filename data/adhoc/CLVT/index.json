@@ -1,0 +1,196 @@
+{
+  "fetched_utc": "2026-09-18T11:27:38+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CLVT",
+    "cik": 1764046,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-17",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_8k.htm",
+        "file": "2026-09-17-8-K-dp253474_8k.htm.txt",
+        "chars": 3070,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000095/clvt-20260724.htm",
+        "file": "2026-07-29-8-K-clvt-20260724.htm.txt",
+        "chars": 10062,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000091/clvt-20260630.htm",
+        "file": "2026-07-29-10-Q-clvt-20260630.htm.txt",
+        "chars": 117486,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/clvt-20260729.htm",
+        "file": "2026-07-29-8-K-clvt-20260729.htm.txt",
+        "chars": 4435,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-06",
+        "items": "1.01,5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326010269/dp249688_8k.htm",
+        "file": "2026-07-06-8-K-dp249688_8k.htm.txt",
+        "chars": 13253,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-06",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/clvt-20260706.htm",
+        "file": "2026-07-06-8-K-clvt-20260706.htm.txt",
+        "chars": 6876,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-08",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000075/clvt-20260605.htm",
+        "file": "2026-06-08-8-K-clvt-20260605.htm.txt",
+        "chars": 5108,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.07,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000073/clvt-20260514.htm",
+        "file": "2026-05-18-8-K-clvt-20260514.htm.txt",
+        "chars": 6061,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-17",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_ex9901.htm",
+        "file": "2026-09-17-EX-99.1.txt",
+        "chars": 9915,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000095/ex991pressreleaseissuedbyc.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 7378,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex991q22026earningsrelease.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 32866,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex992q22026supplementald.htm",
+        "file": "2026-07-29-EX-99.2.txt",
+        "chars": 32605,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-06",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex991lshdivestiturepressre.htm",
+        "file": "2026-07-06-EX-99.1.txt",
+        "chars": 17256,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-06",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex992lshdivestitureinves.htm",
+        "file": "2026-07-06-EX-99.2.txt",
+        "chars": 21555,
+        "truncated": false
+      }
+    ]
+  }
+}

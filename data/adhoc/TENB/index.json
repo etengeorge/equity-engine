@@ -1,0 +1,188 @@
+{
+  "fetched_utc": "2026-09-18T11:27:28+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "TENB",
+    "cik": 1660280,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-15",
+        "items": "1.01,1.02,2.03,3.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000039/tenb-20260910.htm",
+        "file": "2026-09-15-8-K-tenb-20260910.htm.txt",
+        "chars": 22644,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000035/tenb-20260630.htm",
+        "file": "2026-08-04-10-Q-tenb-20260630.htm.txt",
+        "chars": 137611,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000032/tenb-20260729.htm",
+        "file": "2026-07-29-8-K-tenb-20260729.htm.txt",
+        "chars": 3958,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000030/tenb-20260521.htm",
+        "file": "2026-05-21-8-K-tenb-20260521.htm.txt",
+        "chars": 4215,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-13",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000026/tenb-20260513.htm",
+        "file": "2026-05-13-8-K-tenb-20260513.htm.txt",
+        "chars": 5092,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000023/tenb-20260331.htm",
+        "file": "2026-05-05-10-Q-tenb-20260331.htm.txt",
+        "chars": 125734,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000020/tenb-20260429.htm",
+        "file": "2026-04-29-8-K-tenb-20260429.htm.txt",
+        "chars": 3962,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-27",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000005/tenb-20251231.htm",
+        "file": "2026-02-27-10-K-tenb-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "filed": "2026-09-15",
+        "items": [
+          "1.01",
+          "1.02",
+          "2.03",
+          "3.02",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "termination of a material agreement",
+          "new debt obligation",
+          "unregistered sale of equity",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000039/exhibit991.htm",
+        "file": "2026-09-15-EX-99.1.txt",
+        "chars": 10163,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-15",
+        "items": [
+          "1.01",
+          "1.02",
+          "2.03",
+          "3.02",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "termination of a material agreement",
+          "new debt obligation",
+          "unregistered sale of equity",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000039/exhibit992.htm",
+        "file": "2026-09-15-EX-99.2.txt",
+        "chars": 13854,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000032/q22026financialresults-ear.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 29014,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-21",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000030/tenbinvestorday052126.htm",
+        "file": "2026-05-21-EX-99.1.txt",
+        "chars": 24108,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000020/q12026financialresults-ear.htm",
+        "file": "2026-04-29-EX-99.1.txt",
+        "chars": 29031,
+        "truncated": false
+      }
+    ]
+  }
+}

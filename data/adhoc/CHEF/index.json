@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-18T11:27:31+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CHEF",
+    "cik": 1517175,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000028/chef-20260626.htm",
+        "file": "2026-07-29-10-Q-chef-20260626.htm.txt",
+        "chars": 77974,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/chef-20260729.htm",
+        "file": "2026-07-29-8-K-chef-20260729.htm.txt",
+        "chars": 3594,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000094787126000509/ss6310035_8k.htm",
+        "file": "2026-05-11-8-K-ss6310035_8k.htm.txt",
+        "chars": 5338,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000023/chef-20260327.htm",
+        "file": "2026-04-29-10-Q-chef-20260327.htm.txt",
+        "chars": 64592,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000021/chef-20260429.htm",
+        "file": "2026-04-29-8-K-chef-20260429.htm.txt",
+        "chars": 3596,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-24",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000094787126000469/ss6243133_8k.htm",
+        "file": "2026-04-24-8-K-ss6243133_8k.htm.txt",
+        "chars": 3811,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-24",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm",
+        "file": "2026-02-24-10-K-chef-20251226.htm.txt",
+        "chars": 350507,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-11",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000094787126000110/ss5935324_8k.htm",
+        "file": "2026-02-11-8-K-ss5935324_8k.htm.txt",
+        "chars": 3755,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/pressreleaseex99106262026.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 26337,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000021/pressreleaseex99103272026.htm",
+        "file": "2026-04-29-EX-99.1.txt",
+        "chars": 24865,
+        "truncated": false
+      }
+    ]
+  }
+}

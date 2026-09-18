@@ -1,0 +1,158 @@
+{
+  "fetched_utc": "2026-09-18T11:27:21+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "XMTR",
+    "cik": 1657573,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526332776/xmtr-20260630.htm",
+        "file": "2026-08-04-10-Q-xmtr-20260630.htm.txt",
+        "chars": 200450,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-20260804.htm",
+        "file": "2026-08-04-8-K-xmtr-20260804.htm.txt",
+        "chars": 3564,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526275887/xmtr-20260616.htm",
+        "file": "2026-06-18-8-K-xmtr-20260616.htm.txt",
+        "chars": 5010,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-02",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526253897/d109952d8k.htm",
+        "file": "2026-06-02-8-K-d109952d8k.htm.txt",
+        "chars": 5440,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526234396/xmtr-20260520.htm",
+        "file": "2026-05-21-8-K-xmtr-20260520.htm.txt",
+        "chars": 6993,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-08",
+        "items": "3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526214604/xmtr-20260506.htm",
+        "file": "2026-05-08-8-K-xmtr-20260506.htm.txt",
+        "chars": 4439,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526211872/xmtr-20260331.htm",
+        "file": "2026-05-07-10-Q-xmtr-20260331.htm.txt",
+        "chars": 163435,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526210312/xmtr-20260507.htm",
+        "file": "2026-05-07-8-K-xmtr-20260507.htm.txt",
+        "chars": 3552,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+        "file": "2026-08-04-EX-99.1.txt",
+        "chars": 38353,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-21",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526234396/xmtr-ex99_1.htm",
+        "file": "2026-05-21-EX-99.1.txt",
+        "chars": 3539,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-08",
+        "items": [
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526214604/xmtr-ex99_1.htm",
+        "file": "2026-05-08-EX-99.1.txt",
+        "chars": 4756,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526210312/xmtr-ex99_1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 34013,
+        "truncated": false
+      }
+    ]
+  }
+}

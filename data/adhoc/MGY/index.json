@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-07T11:29:11+00:00",
+  "fetched_utc": "2026-09-18T11:27:34+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "MGY",
     "cik": 1698990,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "1.01,2.01,2.03,3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_8k.htm",
+        "file": "2026-09-14-8-K-tm2625234d1_8k.htm.txt",
+        "chars": 15635,
+        "truncated": false
+      },
       {
         "form": "10-Q",
         "filed": "2026-08-06",
@@ -69,12 +78,81 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-07-20",
-        "items": "1.01,2.03,3.02,7.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926084859/tm2620557d2_8k.htm",
-        "file": "2026-07-20-8-K-tm2620557d2_8k.htm.txt",
-        "chars": 16157,
+        "filed": "2026-09-14",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_ex99-1.htm",
+        "file": "2026-09-14-EX-99.1.txt",
+        "chars": 1054,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EXHIBIT 99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_ex99-3.htm",
+        "file": "2026-09-14-EX-99.3.txt",
+        "chars": 44064,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.03",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "new debt obligation",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.4",
+        "description": "EXHIBIT 99.4",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_ex99-4.htm",
+        "file": "2026-09-14-EX-99.4.txt",
+        "chars": 39889,
         "truncated": false
       },
       {
@@ -133,60 +211,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926085832/tm2620557d6_ex99-1.htm",
         "file": "2026-07-22-EX-99.1.txt",
         "chars": 6846,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-22",
-        "items": [
-          "8.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "other material event",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EXHIBIT 99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926085611/tm2620557d5_ex99-1.htm",
-        "file": "2026-07-22-EX-99.1.txt",
-        "chars": 6837,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-20",
-        "items": [
-          "8.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "other material event",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EXHIBIT 99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926085065/tm2620557d1_ex99-1.htm",
-        "file": "2026-07-20-EX-99.1.txt",
-        "chars": 5137,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-20",
-        "items": [
-          "8.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "other material event",
-          "9.01"
-        ],
-        "exhibit": "EX-99.2",
-        "description": "EXHIBIT 99.2",
-        "kind": "presentation",
-        "url": "https://www.sec.gov/Archives/edgar/data/1698990/000110465926085065/tm2620557d1_ex99-2.htm",
-        "file": "2026-07-20-EX-99.2.txt",
-        "chars": 94344,
         "truncated": false
       }
     ]
