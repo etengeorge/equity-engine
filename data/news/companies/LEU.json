@@ -1,5 +1,29 @@
 [
  {
+  "id": "e6f05501-769d-34d2-aa59-cee716c0c975",
+  "ts": "2026-09-18T01:21:02+00:00",
+  "title": "Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?",
+  "summary": "Nuclear stocks jumped after the House passed the Ratepayers Protection Act, which aims to shift responsibility for paying for power upgrades from consumers to tech and data center companies, on Wednesday.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/why-did-nuclear-stocks-oklo-smr-nne-leu-xe-jump-on-thursday/cZtuW2xRBdu",
+  "tickers": [
+   "LEU"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1b90396c-4e7e-30d6-ab0d-f929d480ac58",
+  "ts": "2026-09-17T22:26:17+00:00",
+  "title": "Why Is Centrus Energy (LEU) Stock Soaring Today",
+  "summary": "Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) jumped 7.1% in the afternoon session after the company and Antares Nuclear announced a definitive multi-year supply agreement for High-Assay Low-Enriched Uranium.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-centrus-energy-leu-stock-222617816.html",
+  "tickers": [
+   "LEU"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "069063dd-b9cf-3c64-8579-4111ab9486f7",
   "ts": "2026-09-17T10:59:00+00:00",
   "title": "Centrus and Antares Sign Multi-Year HALEU Supply Contract",

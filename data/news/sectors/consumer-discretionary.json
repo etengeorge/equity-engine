@@ -1,11 +1,53 @@
 [
  {
+  "id": "0621388e-cbc6-3801-923e-a7e218c5c69f",
+  "ts": "2026-09-17T19:40:04+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
+  "summary": "Consumer stocks were higher late Thursday afternoon, with the State Street Consumer Staples Select S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "e367d4a8-d067-3d94-999a-41db2e235d62",
+  "ts": "2026-09-17T17:01:18+00:00",
+  "title": "Automaker Stocks Rally as Rotation Lifts Cyclicals: General Motors Climbs 4%, Stellantis Rises 4%, Ford Gains 3%, Tesla Adds 2%",
+  "summary": "Four automakers with nothing in common are surging in lockstep Thursday morning, and the reason behind that unusual uniformity tells investors something important about whether the gains will stick.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/17/automaker-stocks-rally-as-rotation-lifts-cyclicals-general-motors-climbs-4-stellantis-rises-4-ford-gains-3-tesla-adds-2/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
   "ts": "2026-09-17T13:18:01+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1.3% and the actively trad",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "a36b3c89-0d87-3a9a-a212-c2975a0c914a",
+  "ts": "2026-09-17T09:12:35+00:00",
+  "title": "Ball Corporation Stock: Is BALL Outperforming the Consumer Discretionary Sector?",
+  "summary": "Ball Corporation has outpaced the broader consumer discretionary sector over the past year, yet analysts remain reasonably upbeat about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4651274/ball-corporation-stock-is-ball-outperforming-the-consumer-discretionary-sector",
   "tickers": [
    "XLY"
   ],

@@ -1,5 +1,41 @@
 [
  {
+  "id": "e444b95b-1b94-3c4f-86b5-fecdec94087d",
+  "ts": "2026-09-17T17:40:35+00:00",
+  "title": "Why D-Wave Quantum Stock Popped Today",
+  "summary": "D-Wave investors are grasping at straws.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/17/why-d-wave-quantum-stock-popped-today/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b1dc234e-b550-308b-9fab-03f7e814d86f",
+  "ts": "2026-09-17T16:12:26+00:00",
+  "title": "What Is D Wave Quantum (QBTS) Facing After CFO Exit And Legal Probes?",
+  "summary": "D-Wave Quantum (NasdaqGS: QBTS) faces multiple legal investigations after its CFO resigned and the company missed revenue expectations. Several shareholder rights law firms have opened probes into potential securities law violations and possible misstatements to investors. These new investigations into D-Wave Quantum's revenue shortfall and CFO departure deserve to be weighed against our other findings. Our analysis turns up 1 other big win for D-Wave Quantum as well. Quantum computing is...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/d-wave-quantum-qbts-facing-161226767.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ab631615-3ced-32e5-a2e5-8753fa4396b2",
+  "ts": "2026-09-17T15:50:57+00:00",
+  "title": "IonQ Climbs 9% on Quantum Optimization Work With NVIDIA; D-Wave Rises 8%, Rigetti Gains 7%",
+  "summary": "IonQ's collaboration with NVIDIA on quantum optimization just sent the entire pure-play sector surging, but the market signal that actually reveals whether this is a real industry shift or just a speculative bet on one company's research is hiding in plain sight.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/17/ionq-climbs-9-on-quantum-optimization-work-with-nvidia-d-wave-rises-8-rigetti-gains-7/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "60b9afc1-c8e6-312e-894a-5a1f027292ca",
   "ts": "2026-09-17T12:06:34+00:00",
   "title": "IBM Matches a $1 Billion CHIPS Award For Quantum Foundry",

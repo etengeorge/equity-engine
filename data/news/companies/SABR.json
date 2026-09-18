@@ -1,5 +1,17 @@
 [
  {
+  "id": "840c0e89-44eb-3448-a8d5-00edb723eec8",
+  "ts": "2026-09-17T19:30:17+00:00",
+  "title": "Stocks making big moves yesterday: FTAI Aviation, Bloom Energy, Semtech, Sabre, and Solaris Energy Infrastructure",
+  "summary": "Check out the companies making headlines yesterday:",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-193017696.html",
+  "tickers": [
+   "SABR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "fb772c8b-9855-340b-b025-036c230b86aa",
   "ts": "2026-09-16T21:00:52+00:00",
   "title": "Why Sabre (SABR) Stock Is Trading Up Today",

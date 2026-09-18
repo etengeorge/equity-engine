@@ -1,5 +1,33 @@
 [
  {
+  "id": "0621388e-cbc6-3801-923e-a7e218c5c69f",
+  "ts": "2026-09-17T19:40:04+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
+  "summary": "Consumer stocks were higher late Thursday afternoon, with the State Street Consumer Staples Select S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "1612c0fe-f88b-3721-9a9e-26b7605bb9a6",
+  "ts": "2026-09-17T14:25:00+00:00",
+  "title": "Worried About an AI Slowdown? Check Out the Staples.",
+  "summary": "Consumer staples could be a good hunting ground for stockpickers., whether inflation goes up or eases.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/ai-slowdown-consumer-staples-buy-16ce9300?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
   "ts": "2026-09-17T13:18:01+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",

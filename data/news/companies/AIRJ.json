@@ -1,5 +1,17 @@
 [
  {
+  "id": "41650d07-1c57-33bb-b345-dc9438c4efc4",
+  "ts": "2026-09-16T17:15:00+00:00",
+  "title": "AI Panic Hit Tech Stocks\u2014But NVIDIA\u2019s Growth Engine Is Intact",
+  "summary": "Despite AI safety concerns triggering a sector selloff, Q2 backlogs and CapEx data show infrastructure demand accelerating, with NVIDIA and AMD positioned to benefit as inference adoption grows.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/ai-panic-hit-tech-stocksbut-nvidias-growth-engine-is-intact/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "AIRJ"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "69a40581-02b1-36ed-bfec-b098214eaa55",
   "ts": "2026-09-15T11:36:36+00:00",
   "title": "AirJoule $27M deal could help push water-from-air technology into data centers",

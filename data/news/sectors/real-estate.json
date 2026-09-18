@@ -1,5 +1,47 @@
 [
  {
+  "id": "8258ac59-2ce5-3a59-90e9-42077bc9d6da",
+  "ts": "2026-09-17T19:57:38+00:00",
+  "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+  "summary": "Financial stocks were mixed in late Thursday afternoon trading, with the NYSE Financial Index rising",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "434eb52d-6323-3b10-a42b-585cec7b8ca9",
+  "ts": "2026-09-17T17:57:53+00:00",
+  "title": "Sector Update: Financial Stocks Rise Thursday Afternoon",
+  "summary": "Financial stocks were advancing in Thursday afternoon trading, with the NYSE Financial Index rising",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "0b75672b-ace3-32e1-b8a0-70d4c90efaab",
+  "ts": "2026-09-17T13:49:34+00:00",
+  "title": "Ventas Stock: Is VTR Outperforming the Real Estate Sector?",
+  "summary": "Ventas has outpaced the real estate sector, and analysts remain highly optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4658670/ventas-stock-is-vtr-outperforming-the-real-estate-sector",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "472a77cd-4017-3627-bb97-4ef9cfa45050",
   "ts": "2026-09-16T19:56:43+00:00",
   "title": "Sector Update: Financial Stocks Fall Late Afternoon",

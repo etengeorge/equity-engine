@@ -1,49 +1,49 @@
 {
-  "screen_utc": "2026-09-17T15:11:21+00:00",
-  "price_asof": "2026-09-16",
+  "screen_utc": "2026-09-18T11:21:50+00:00",
+  "price_asof": "2026-09-17",
   "universe": 1956,
   "modelled": 1077,
   "modelled_pct": 55.1,
   "news": {
-    "generated_utc": "2026-09-17T15:11:23+00:00",
+    "generated_utc": "2026-09-18T11:21:51+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 55,
+        "new": 2,
+        "held": 57,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 1,
-        "held": 76,
+        "new": 3,
+        "held": 79,
         "etf": "XLF"
       },
       "Industrials": {
         "new": 1,
-        "held": 30,
+        "held": 31,
         "etf": "XLI"
       },
       "Information Technology": {
         "new": 2,
-        "held": 71,
+        "held": 73,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 1,
-        "held": 56,
+        "new": 3,
+        "held": 59,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 94,
+        "new": 4,
+        "held": 98,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 43,
+        "new": 3,
+        "held": 46,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 1,
+        "new": 0,
         "held": 19,
         "etf": "XLB"
       },
@@ -53,8 +53,8 @@
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 51,
+        "new": 2,
+        "held": 53,
         "etf": "XLP"
       },
       "Utilities": {
@@ -66,25 +66,25 @@
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 247,
+    "articles_new": 828,
     "candidates": 450,
-    "elapsed_s": 206.4
+    "elapsed_s": 210.8
   },
   "picks": [
-    "LIVN",
-    "FFIN",
-    "CVCO",
-    "PSMT",
-    "DK",
-    "NWE",
-    "ATKR",
-    "PLAY",
-    "PMTS",
-    "BELFA"
+    "FULT",
+    "TCBI",
+    "XMTR",
+    "ITRI",
+    "TENB",
+    "CHEF",
+    "MGY",
+    "CLVT",
+    "SABR",
+    "NVGS"
   ],
   "stages": {
-    "screen": "2026-09-17T15:15:04+00:00",
-    "news": "2026-09-17T15:14:49+00:00",
-    "pick": "2026-09-17T15:15:04+00:00"
+    "screen": "2026-09-18T11:25:32+00:00",
+    "news": "2026-09-18T11:25:22+00:00",
+    "pick": "2026-09-18T11:25:32+00:00"
   }
 }

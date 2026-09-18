@@ -1,5 +1,33 @@
 [
  {
+  "id": "ce2aa32b-d13e-3fdd-8a27-1624d7151d77",
+  "ts": "2026-09-17T19:44:53+00:00",
+  "title": "Sector Update: Healthcare Stocks Higher Late Afternoon",
+  "summary": "Healthcare stocks rose late Thursday afternoon, with the NYSE Healthcare Index adding 0.8% and the S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-higher-afternoon-194453063.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "25190693-968b-3d14-a471-468cfa9f2a93",
+  "ts": "2026-09-17T17:33:17+00:00",
+  "title": "Sector Update: Healthcare Stocks Rise Thursday Afternoon",
+  "summary": "Healthcare stocks rose Thursday afternoon, with the NYSE Healthcare Index adding 0.5% and the State",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-thursday-173317355.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
   "ts": "2026-09-17T13:18:01+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",

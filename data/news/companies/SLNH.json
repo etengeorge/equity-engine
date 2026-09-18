@@ -1,5 +1,17 @@
 [
  {
+  "id": "92b08465-7b88-3f53-b554-08ce22a345f3",
+  "ts": "2026-09-17T16:40:44+00:00",
+  "title": "Rosenblatt starts Soluna at Buy, sees 118 MW HPC buildout topping $200 million in annual revenue",
+  "summary": "The $4 target implies about 257% upside from the price cited in the note, but securing an anchor tenant and financing the data-center buildout remain key steps.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/rosenblatt-soluna-hpc-buildout/",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7a3341ee-8f7f-3e81-a312-b0c6c01a8214",
   "ts": "2026-09-14T16:52:02+00:00",
   "title": "Soluna secures conditional ERCOT Base Load status for 100 MW Dorothy campus",

@@ -1,5 +1,47 @@
 [
  {
+  "id": "8258ac59-2ce5-3a59-90e9-42077bc9d6da",
+  "ts": "2026-09-17T19:57:38+00:00",
+  "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+  "summary": "Financial stocks were mixed in late Thursday afternoon trading, with the NYSE Financial Index rising",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "434eb52d-6323-3b10-a42b-585cec7b8ca9",
+  "ts": "2026-09-17T17:57:53+00:00",
+  "title": "Sector Update: Financial Stocks Rise Thursday Afternoon",
+  "summary": "Financial stocks were advancing in Thursday afternoon trading, with the NYSE Financial Index rising",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "fcbde839-1923-3c82-a8bc-e97fc8db6c55",
+  "ts": "2026-09-17T17:08:03+00:00",
+  "title": "Exchange-Traded Funds Higher as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
   "ts": "2026-09-17T13:18:01+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",

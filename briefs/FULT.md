@@ -1,56 +1,57 @@
-# FFIN — FIRST FINANCIAL BANKSHARES INC
-*Financials · brief generated 2026-09-17 · selected as **rotation***
+# FULT — FULTON FINANCIAL
+*Financials · brief generated 2026-09-18 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 172/1956
+- rotation position 177/1956
 
 ## Market
 | | |
 |---|---|
-| price | $33.32 |
-| market cap | $4.8B |
-| 5d / 21d / 63d / 252d | +2.6% / -3.8% / +0.5% / -3.5% |
-| 60d avg daily $ volume | $27.8M |
-| beta (vs IWM) | 0.98 (R²=0.536) |
-| 5d volume vs 60d average | 1.0x |
+| price | $23.39 |
+| market cap | $4.5B |
+| 5d / 21d / 63d / 252d | -0.9% / -3.7% / +3.9% / +29.0% |
+| 60d avg daily $ volume | $41.6M |
+| beta (vs IWM) | 1.08 (R²=0.533) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 93% / debt 7% |
+| WACC weights | equity 72% / debt 28% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +16.6% |
-| cost of equity | +10.3% |
-| justified P/TBV | 1.76 |
-| actual P/TBV | 2.98 |
-| tangible book / share | $11.19 |
-| implied gap | -41.0% |
+| sustainable ROTCE | +13.1% |
+| cost of equity | +10.9% |
+| justified P/TBV | 1.26 |
+| actual P/TBV | 1.68 |
+| tangible book / share | $13.94 |
+| implied gap | -25.1% |
 
-Cohort: **43th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.3%).
+Cohort: **61th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +10.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/36029/000119312526333027/ffin-20260630.htm
-- 2026-07-31 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526327196/ffin-20260728.htm
-- 2026-07-17 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526307884/ffin-20260716.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/36029/000119312526206412/ffin-20260331.htm
-- 2026-04-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526195048/ffin-20260428.htm
-- 2026-04-29 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526187827/ffin-20260428.htm
-- 2026-04-17 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526161740/ffin-20260416.htm
-- 2026-03-06 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/36029/000119312526095645/ffin-20260306.htm
-- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/36029/000119312526071549/ffin-20251231.htm
-- 2026-01-29 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/36029/000119312526029410/ffin-20260127.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/700564/000070056426000033/fult-20260630.htm
+- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/fult-20260722.htm
+- 2026-07-21 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000025/fult-20260721.htm
+- 2026-05-28 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000019/fult-20260528.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/700564/000070056426000016/fult-20260331.htm
+- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000155278126000299/e26236_fult-8k.htm
+- 2026-04-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000155278126000274/e26221_fult-8k.htm
+- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000010/fult-20260422.htm
+- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/700564/000120677426000176/fult4500571-def14a.htm
+- 2026-04-01 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000119312526135892/d89081d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-31** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/36029/000119312526327196/ffin-ex99_1.htm
-- **2026-07-17** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/36029/000119312526307884/ffin-ex99_1.htm
+- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/exhibit991063026earningsre.htm
+- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/fultinvestorpresentation.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: officer or director change)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000025/pressrelease07212026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -58,6 +59,9 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
+- **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
+- **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
 - **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
@@ -65,23 +69,20 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 - **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
-- **2026-09-15** · Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/klarna-is-down-51-this-year-is-klar-stock-dead-money-or-due-for-a-bounce/
-- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
-- **2026-09-15** · Exchange-Traded Funds, US Equities Fall After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171200757.html
 
 ## Market and macro context
-- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
-- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
-- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
-- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
+- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
+- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
+- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
+- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
 
 *Rules, releases and agency actions:*
-- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
-- **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
-- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
-- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
+- **2026-09-18** · International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19211/international-traffic-in-arms-regulations-modification-of-us-munitions-list-category-xxa
+- **2026-09-18** · Homeland Security Acquisition Regulation, Make Personal Protective Equipment in America Act Restrictions on Foreign Acquisition (HSAR Case 2024-003) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act
+- **2026-09-18** · Coral, Coral Reefs, and Live/Hardbottom Habitats of the South Atlantic and the Shrimp Fishery of the South Atlantic Region; Amendments 11/12 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19182/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the
+- **2026-09-18** · Milk in the Northeast and Other Marketing Areas; Uniform Pricing Formula Provisions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19177/milk-in-the-northeast-and-other-marketing-areas-uniform-pricing-formula-provisions
+- **2026-09-18** · Establishment of United States Area Navigation Route T-581 in the Vicinity of Missoula, Montana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19173/establishment-of-united-states-area-navigation-route-t-581-in-the-vicinity-of-missoula-montana
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

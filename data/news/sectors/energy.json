@@ -1,5 +1,61 @@
 [
  {
+  "id": "c9ee0bff-657e-3c41-9719-a1553a9e7fcf",
+  "ts": "2026-09-17T19:51:30+00:00",
+  "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+  "summary": "Energy stocks advanced late Thursday afternoon, with the NYSE Energy Sector Index up 0.6% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195130879.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "acc177b8-c888-347b-abe8-94893ecbba42",
+  "ts": "2026-09-17T17:51:31+00:00",
+  "title": "Sector Update: Energy Stocks Higher Thursday Afternoon",
+  "summary": "Energy stocks advanced Thursday afternoon, with the NYSE Energy Sector Index and the State Street En",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-thursday-175131954.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "fcbde839-1923-3c82-a8bc-e97fc8db6c55",
+  "ts": "2026-09-17T17:08:03+00:00",
+  "title": "Exchange-Traded Funds Higher as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "d7717a77-b1c1-33b5-a9ec-d05cc41e45e7",
+  "ts": "2026-09-17T16:32:00+00:00",
+  "title": "MoneyMasters Podcast 9-17-26- Energy Markets Decoded - $100 Oil  Where to Invest NOW",
+  "summary": "Oil prices have surged back above $100 a barrel, refining margins have soared, and geopolitical conflicts are reshaping the global energy market. What does that mean for energy investors \u2014 and where could the next opportunities emerge?",
+  "publisher": "MoneyShow",
+  "url": "https://finance.yahoo.com/energy/articles/moneymasters-podcast-9-17-26-163200447.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "0dda9e44-ab3e-3a11-aa43-b448fe6d4513",
   "ts": "2026-09-17T13:18:01+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",

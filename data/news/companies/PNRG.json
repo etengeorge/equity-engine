@@ -94,17 +94,5 @@
    "PNRG"
   ],
   "source": "yfinance"
- },
- {
-  "id": "65cecef4-f854-37b3-853c-d3cf2b35b631",
-  "ts": "2026-05-19T20:17:00+00:00",
-  "title": "Top Research Reports for Visa, IBM & CrowdStrike",
-  "summary": "Visa stays central to digital payments as cross-border activity and transaction growth fuel momentum despite margin pressure.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-visa-ibm-201700509.html",
-  "tickers": [
-   "PNRG"
-  ],
-  "source": "yfinance"
  }
 ]

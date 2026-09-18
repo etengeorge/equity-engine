@@ -1,65 +1,67 @@
-# PSMT — PRICESMART
-*Consumer Staples · brief generated 2026-09-17 · selected as **rotation***
+# CHEF — CHEFS WAREHOUSE INC
+*Consumer Staples · brief generated 2026-09-18 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 174/1956
+- rotation position 184/1956
 
 ## Market
 | | |
 |---|---|
-| price | $167.00 |
-| market cap | $5.2B |
-| 5d / 21d / 63d / 252d | -2.1% / -7.2% / -6.7% / +43.8% |
-| 60d avg daily $ volume | $51.2M |
-| beta (vs IWM) | 0.51 (R²=0.167) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-05-31 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| price | $110.16 |
+| market cap | $4.5B |
+| 5d / 21d / 63d / 252d | +0.4% / +1.7% / +19.3% / +67.8% |
+| 60d avg daily $ volume | $68.9M |
+| beta (vs IWM) | 0.69 (R²=0.104) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-03-27 (10-Q) |
+| WACC weights | equity 86% / debt 14% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$93.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$103.2M', '$39.0M', '$114.8M']
-Enterprise value **$5.0B** · FCFF yield **+1.9%**
+Normalized FCFF base **$99.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$87.8M', '$103.6M', '$4.2M']
+Enterprise value **$5.1B** · FCFF yield **+1.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.7% − 1pt | +23.4% |
-| **7.7% (point)** | **+29.0%** |
-| 7.7% + 1pt | +33.9% |
+| 8.4% − 1pt | +26.5% |
+| **8.4% (point)** | **+31.5%** |
+| 8.4% + 1pt | +36.1% |
 
 
-> **Stock compensation is 20% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$76.4M** and an implied growth of **+34.7%** instead of +29.0%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 30% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$79.6M** and an implied growth of **+37.8%** instead of +31.5%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+10.5%** (5y revenue CAGR +10.5%).
-Gap under that baseline: **-49.9%** (fair value $83.68 vs price $167.00).
+Naive baseline for comparison: **+25.0%** (5y revenue CAGR +30.1% (clamped to +25.0%)).
+Gap under that baseline: **-24.2%** (fair value $83.51 vs price $110.16).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **14th percentile** of 35 Consumer Staples names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -52.5%).
+Cohort: **40th percentile** of 35 Consumer Staples names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -30.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `stock_comp_is_20%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `lumpy_fcff_spread_1.5x_of_mean`
+- `possible_peak_cycle_base_newest_fcf_20.8x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_30%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-07-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000030/psmt-20260708.htm
-- 2026-07-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000028/psmt-20260531.htm
-- 2026-04-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000020/psmt-20260408.htm
-- 2026-04-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000018/psmt-20260228.htm
-- 2026-02-06 **8-K** — items 5.02,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000013/psmt-20260205.htm
-- 2026-01-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000008/psmt-20260107.htm
-- 2026-01-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000006/psmt-20251130.htm
-- 2025-12-19 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000078/psmt-20251219.htm
-- 2025-10-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000062/psmt-20251030.htm
-- 2025-10-30 **10-K** — https://www.sec.gov/Archives/edgar/data/1041803/000104180325000060/psmt-20250831.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000028/chef-20260626.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/chef-20260729.htm
+- 2026-05-11 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000509/ss6310035_8k.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000023/chef-20260327.htm
+- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000021/chef-20260429.htm
+- 2026-04-24 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000469/ss6243133_8k.htm
+- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000012/chef-20260325.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm
+- 2026-02-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000110/ss5935324_8k.htm
+- 2026-01-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000031/ss5815598_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1041803/000104180326000030/psmt-20260531xexx991.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/pressreleaseex99106262026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -67,6 +69,8 @@ Attack these before you trust any number above.
 ## What is happening in Consumer Staples
 *From the sector ETF feed (XLP), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-17** · Sector Update: Consumer Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html
+- **2026-09-17** · Worried About an AI Slowdown? Check Out the Staples. — *Barrons.com* — https://www.barrons.com/articles/ai-slowdown-consumer-staples-buy-16ce9300?siteid=yhoof2&yptr=yahoo
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-16** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195104531.html
 - **2026-09-16** · Sector Update: Consumer Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-174939504.html
@@ -75,22 +79,20 @@ Attack these before you trust any number above.
 - **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
 - **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
-- **2026-09-14** · Sector Update: Consumer Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html
-- **2026-09-14** · Coca-Cola Stock Is Up 29% in 2026: What Will It Take to Break Through $100? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/coca-cola-stock-is-up-29-in-2026-what-will-it-take-to-break-through-100/
 
 ## Market and macro context
-- **2026-09-17** · Stock Market Today: Nasdaq Leads Charge After Fed Day; Nvidia, Amazon Rise (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo
-- **2026-09-17** · G Stock Rises 24.8% in 3 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/g-stock-rises-24-8-145600537.html
-- **2026-09-17** · Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen. — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/democrat-sweep-odds-just-hit-a-record-60-history-says-this-is-exactly-when-midterm-year-stock-drawdowns-happen/
-- **2026-09-17** · Everpure Stock Gains 34% in 6 Months: Here's What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/everpure-stock-gains-34-6-144800646.html
+- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
+- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
+- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
+- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
 
 *Rules, releases and agency actions:*
-- **2026-09-17** · SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment — *sec* — https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment
-- **2026-09-17** · Airworthiness Directives; Pratt & Whitney Engines — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines
-- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-17** · Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes
-- **2026-09-17** · Airworthiness Directives; Airbus SAS Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes
-- **2026-09-17** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
+- **2026-09-18** · International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19211/international-traffic-in-arms-regulations-modification-of-us-munitions-list-category-xxa
+- **2026-09-18** · Homeland Security Acquisition Regulation, Make Personal Protective Equipment in America Act Restrictions on Foreign Acquisition (HSAR Case 2024-003) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act
+- **2026-09-18** · Coral, Coral Reefs, and Live/Hardbottom Habitats of the South Atlantic and the Shrimp Fishery of the South Atlantic Region; Amendments 11/12 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19182/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the
+- **2026-09-18** · Milk in the Northeast and Other Marketing Areas; Uniform Pricing Formula Provisions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19177/milk-in-the-northeast-and-other-marketing-areas-uniform-pricing-formula-provisions
+- **2026-09-18** · Establishment of United States Area Navigation Route T-581 in the Vicinity of Missoula, Montana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19173/establishment-of-united-states-area-navigation-route-t-581-in-the-vicinity-of-missoula-montana
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
