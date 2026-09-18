@@ -1,5 +1,19 @@
 [
  {
+  "id": "6e534c87-acf1-33d7-85b4-b4aa006fa276",
+  "ts": "2026-09-18T13:21:05+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was 0.03% lower and the actively",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "0621388e-cbc6-3801-923e-a7e218c5c69f",
   "ts": "2026-09-17T19:40:04+00:00",
   "title": "Sector Update: Consumer Stocks Advance Late Afternoon",

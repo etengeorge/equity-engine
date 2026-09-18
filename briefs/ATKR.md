@@ -1,104 +1,107 @@
-# CLVT — CLARIVATE PLC
+# ATKR — ATKORE
 *Industrials · brief generated 2026-09-18 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 3% of 151 Industrials peers (97th pct)
-- baseline gap +194%
+- cheapest 9% of 151 Industrials peers (91th pct)
+- baseline gap +122%
 - filed an 8-K in the last few sessions
-- 2 news items in the last 5 days
+- 1 news items in the last 5 days
 - Industrials is in the news
 - never researched
-- urgency score 9.75
+- urgency score 7.4
 
 ## Market
 | | |
 |---|---|
-| price | $1.90 |
-| market cap | $1.2B |
-| 5d / 21d / 63d / 252d | -2.6% / +0.5% / -7.8% / -54.7% |
-| 60d avg daily $ volume | $13.8M |
-| beta (vs IWM) | 0.72 (R²=0.044) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-03-31 (10-Q) |
-| WACC weights | equity 22% / debt 78% |
+| price | $94.47 |
+| market cap | $3.2B |
+| 5d / 21d / 63d / 252d | +0.3% / +1.1% / +23.4% / +55.2% |
+| 60d avg daily $ volume | $73.8M |
+| beta (vs IWM) | 1.18 (R²=0.236) |
+| 5d volume vs 60d average | 1.0x |
+| balance sheet as of | 2026-06-26 (10-Q) |
+| WACC weights | equity 81% / debt 19% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$628.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$365.3M', '$357.5M', '$501.7M']
-Enterprise value **$5.3B** · FCFF yield **+11.9%**
+Normalized FCFF base **$427.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$295.7M', '$399.2M', '$588.7M']
+Enterprise value **$3.6B** · FCFF yield **+11.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 15.4% − 1pt | +2.5% |
-| **15.4% (point)** | **+4.5%** |
-| 15.4% + 1pt | +6.5% |
+| 10.1% − 1pt | -9.9% |
+| **10.1% (point)** | **-7.2%** |
+| 10.1% + 1pt | -4.7% |
 
 
-> **Stock compensation is 19% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$551.1M** and an implied growth of **+8.0%** instead of +4.5%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+14.4%** (5y revenue CAGR +14.4%).
-Gap under that baseline: **+194.3%** (fair value $5.59 vs price $1.90).
+Naive baseline for comparison: **+10.1%** (5y revenue CAGR +10.1%).
+Gap under that baseline: **+122.4%** (fair value $210.11 vs price $94.47).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **97th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +215.4%).
+Cohort: **91th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +144.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-09-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_8k.htm
-- 2026-07-29 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000095/clvt-20260724.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000091/clvt-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/clvt-20260729.htm
-- 2026-07-06 **8-K** — items 1.01,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000095010326010269/dp249688_8k.htm
-- 2026-07-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/clvt-20260706.htm
-- 2026-06-08 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000075/clvt-20260605.htm
-- 2026-05-18 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000073/clvt-20260514.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000058/clvt-20260331.htm
-- 2026-04-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000057/clvt-20260429.htm
+- 2026-09-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026052084/atkr-20260626.htm
+- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr-20260803.htm
+- 2026-08-03 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm
+- 2026-06-04 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030764/atkr-20260327.htm
+- 2026-05-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr-20260505.htm
+- 2026-04-29 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000010/atkr-20260429.htm
+- 2026-04-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000007/atkr-20260408.htm
+- 2026-02-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026004737/atkr-20260203.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-17** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_ex9901.htm
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000095/ex991pressreleaseissuedbyc.htm
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex991q22026earningsrelease.htm
-- **2026-07-29** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex992q22026supplementald.htm
-- **2026-07-06** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex991lshdivestiturepressre.htm
-- **2026-07-06** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex992lshdivestitureinves.htm
-- **2026-06-08** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1764046/000176404626000075/ex991pressrelease.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr3q26exhibit991.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_991xpressrelease.htm
+- **2026-08-03** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr992eml.htm
+- **2026-08-03** · EX-99.3 · press release — EX-99.3 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_992.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-17** · Clarivate Commences Offer to Purchase for Cash Certain of its Outstanding Debt Securities — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/clarivate-commences-offer-purchase-cash-121500631.html
-  > Clarivate Plc (NYSE: CLVT) ("Clarivate"), a leading global provider of transformative intelligence, today announced that its wholly-owned subsidiary, Clarivate Science Holdings Corporation (the "Company"), has commenced a cash tender offer 
-- **2026-09-17** · Clarivate Reveals Citation Laureates 2026 Recognizing Transformative Scientific Breakthroughs — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/clarivate-reveals-citation-laureates-2026-070500276.html
-  > Clarivate Plc (NYSE: CLVT), a leading global provider of transformative intelligence, today announced the Citation Laureates 2026, a distinguished group of 22 researchers whose work is of Nobel class. Selected by experts at the Institute fo
-- **2026-09-01** · Accuserve Solutions Appoints Maroun S. Mourad as an Independent Board Member — *GlobeNewswire* — https://finance.yahoo.com/small-business/articles/accuserve-solutions-appoints-maroun-mourad-130000826.html
-  > Veteran Insurance Executive Brings Carrier Relationships and Data Analytics Expertise to Support Accuserve’s Continued Growth and Its Mission to Simplify the Claims Experience DENVER, Sept. 01, 2026 (GLOBE NEWSWIRE) -- Accuserve Solutions (
-- **2026-08-18** · Clarivate Director Cornick Buys 900,000 Shares for $1.7 Million. What Does This Tell Investors About the Outlook for 2026? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/18/clarivate-director-cornick-buys-900-000-shares-for-usd1-7-million-what-does-this-tell-investors-about-the-outlook-for-2026/
-  > Cornick's purchase increased his total holdings by 74% despite stock declining 52% over the past year, signaling conviction in the company's recovery prospects.
-- **2026-08-08** · Clarivate (CLVT) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/07/clarivate-clvt-q2-2026-earnings-call-transcript/
-  > Shem Tov outlines portfolio rationalization and AI integration strategy.
-- **2026-08-07** · Can Clarivate’s (CLVT) Agentic AI Push Deepen Its Moat Or Signal A Riskier Shift? — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-agentic-ai-push-171803552.html
-  > Clarivate Plc recently expanded agentic AI capabilities across its Cortellis portfolio, embedding natural language and multi‑agent tools into life sciences R&D, safety and competitive intelligence workflows to cut manual effort and speed ev
-- **2026-08-07** · Owens Corning (OC) Is Up 8.5% After Q2 Earnings Beat, Buybacks And CFO Transition – What's Changed — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/owens-corning-oc-8-5-081537612.html
-  > In early August 2026, Owens Corning reported second-quarter 2026 results showing broadly flat sales at US$2,756 million year on year, but a decline in net income to US$226 million and lower earnings per share compared with the prior-year qu
-- **2026-08-06** · Clarivate Scales Agentic AI Across Cortellis to Advance Drug Development — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/clarivate-scales-agentic-ai-across-080000730.html
-  > Clarivate Plc (NYSE:CLVT), a leading global provider of transformative intelligence, today announced the expansion of agentic AI capabilities across the Cortellis portfolio, helping life sciences R&D teams accelerate discovery, strengthen s
-- **2026-07-29** · Clarivate Plc Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-clarivate-plc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Clarivate Plc's Q2 2026 earnings call
-- **2026-07-29** · Clarivate PLC (CLVT) Q2 2026 Earnings Call Highlights: Strategic Shifts and AI Innovations ... — *GuruFocus.com* — https://finance.yahoo.com/technology/ai/articles/clarivate-plc-clvt-q2-2026-210555131.html
-  > Clarivate PLC (CLVT) focuses on AI-driven growth and subscription models while navigating a net loss and revenue declines.
+- **2026-09-14** · Is Applied Industrial Technologies (AIT) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/applied-industrial-technologies-ait-outperforming-134006872.html
+  > Here is how Applied Industrial Technologies (AIT) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
+- **2026-09-10** · 3 Russell 2000 Stocks We’re Skeptical Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-234504822.html
+  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
+- **2026-09-04** · 1 Industrials Stock Worth Investigating and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-worth-investigating-103810343.html
+  > Whether you see them or not, industrials businesses play a crucial part in our daily activities. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of the broader economy, and investors seem to be forec
+- **2026-08-28** · Atkore (ATKR) Stock Looks Near Fair Value While Cash Flow Recovers — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-stock-looks-near-121512533.html
+  > Atkore has delivered a strong 62.8% 1 year return, yet current checks suggest the stock now trades close to estimates of intrinsic value rather than at a clear discount. The 62.8% gain over the past year points to strong recent momentum, wh
+- **2026-08-28** · Atkore (ATKR) Jumped To US$93.66, Is It Now Slightly Overvalued? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-jumped-us-93-071038309.html
+  > Atkore stock overview after recent share move Atkore (ATKR) has drawn fresh attention after a recent share move, with the stock last closing at US$93.66. Investors are weighing this price against its recent performance and underlying fundam
+- **2026-08-27** · Is Generac Holdings (GNRC) Stock Outpacing Its Industrial Products Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-stock-outpacing-134003879.html
+  > Here is how Generac Holdings (GNRC) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
+- **2026-08-26** · 3 Unpopular Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-risky-081913051.html
+  > Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating busi
+- **2026-08-12** · Atkore Inc. (ATKR) is a Great Momentum Stock: Should You Buy? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-great-momentum-160006551.html
+  > Does Atkore Inc. (ATKR) have what it takes to be a top stock pick for momentum investors? Let's find out.
+- **2026-08-11** · Is Atkore (ATKR) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-outperforming-other-industrial-134003939.html
+  > Here is how Atkore Inc. (ATKR) and Keyence Corporation (KYCCF) have performed compared to their sector so far this year.
+- **2026-08-10** · 3 Hyped Up  Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-hyped-stocks-fall-short-110122457.html
+  > The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.
+- **2026-08-07** · Atkore Inc (ATKR) (Q3 2026) Earnings Call Highlights: Strong Sales Growth Amid Acquisition ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-q3-2026-190108667.html
+  > Atkore Inc (ATKR) reports 8.1% revenue increase and $95 per share acquisition deal with Prysmian, despite litigation costs impacting net income.
+- **2026-08-04** · Atkore Stock Surged Because Prysmian Agreed To Buy It For Cash — *Trefis* — https://www.trefis.com/articles/610050/atkore-stock-surged-because-prysmian-agreed-to-buy-it-for-cash/2026-08-04
+  > After a year of selling off pieces of itself, the board agreed to sell the whole company, and what a holder owns now is closer to a cash claim than a conduit maker.
+- **2026-08-04** · Why Atkore (ATKR) Stock Is Trading Up Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-atkore-atkr-stock-trading-141322751.html
+  > Shares of electrical safety company Atkore (NYSE:ATKR) jumped 28.1% in the afternoon session after the company agreed to be acquired by Prysmian S.p.A. in an all-cash deal valued at approximately $3.8 billion.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
@@ -108,13 +111,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
 - **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
-- **2026-09-10** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html
 
 ## Market and macro context
-- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
-- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
-- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
-- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
+- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
+- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
+- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
 
 *Rules, releases and agency actions:*
 - **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
@@ -128,6 +130,7 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
 - CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
 - CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
 - ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
@@ -139,7 +142,6 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - HUBG: no_model · price $33.45
 - JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
 - JOBY: no_model · price $6.13
-- MATX: rich · price $218.21 · fair value $127.62 · gap -41.5%
 
 ---
 

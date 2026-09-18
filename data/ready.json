@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-18T11:21:50+00:00",
+  "screen_utc": "2026-09-18T14:39:20+00:00",
   "price_asof": "2026-09-17",
   "universe": 1956,
-  "modelled": 1077,
-  "modelled_pct": 55.1,
+  "modelled": 1076,
+  "modelled_pct": 55.0,
   "news": {
-    "generated_utc": "2026-09-18T11:21:51+00:00",
+    "generated_utc": "2026-09-18T14:39:28+00:00",
     "sectors": {
       "Health Care": {
-        "new": 2,
-        "held": 57,
+        "new": 1,
+        "held": 58,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 3,
-        "held": 79,
+        "new": 2,
+        "held": 81,
         "etf": "XLF"
       },
       "Industrials": {
         "new": 1,
-        "held": 31,
+        "held": 32,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 2,
-        "held": 73,
+        "new": 3,
+        "held": 76,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 3,
-        "held": 59,
+        "held": 62,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 4,
-        "held": 98,
+        "new": 2,
+        "held": 100,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 46,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 0,
-        "held": 22,
+        "new": 1,
+        "held": 23,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 2,
-        "held": 53,
+        "new": 1,
+        "held": 54,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 28,
+        "new": 1,
+        "held": 29,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
-    "companies": 449,
-    "articles_new": 828,
+    "companies": 448,
+    "articles_new": 287,
     "candidates": 450,
-    "elapsed_s": 210.8
+    "elapsed_s": 208.4
   },
   "picks": [
-    "FULT",
-    "TCBI",
-    "XMTR",
-    "ITRI",
-    "TENB",
-    "CHEF",
-    "MGY",
-    "CLVT",
-    "SABR",
-    "NVGS"
+    "KTB",
+    "ICUI",
+    "ITGR",
+    "CDP",
+    "FBP",
+    "KLIC",
+    "PLAY",
+    "ATKR",
+    "EBS",
+    "SAH"
   ],
   "stages": {
-    "screen": "2026-09-18T11:25:32+00:00",
-    "news": "2026-09-18T11:25:22+00:00",
-    "pick": "2026-09-18T11:25:32+00:00"
+    "screen": "2026-09-18T14:43:11+00:00",
+    "news": "2026-09-18T14:42:57+00:00",
+    "pick": "2026-09-18T14:43:11+00:00"
   }
 }

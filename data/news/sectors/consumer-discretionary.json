@@ -1,5 +1,47 @@
 [
  {
+  "id": "95ca57af-e400-3de4-a620-ac942ff5a012",
+  "ts": "2026-09-18T13:30:00+00:00",
+  "title": "Stock Market News for Sep 18, 2026",
+  "summary": "Wall Street closed sharply higher on Thursday, pulled up by tech and discretionary stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "6e534c87-acf1-33d7-85b4-b4aa006fa276",
+  "ts": "2026-09-18T13:21:05+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was 0.03% lower and the actively",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "ccc9eab7-d476-34dc-8905-cb6b42bb33fb",
+  "ts": "2026-09-18T13:08:28+00:00",
+  "title": "On Holding Climbs 5% as Kylian Mbapp\u00e9 Joins Its Football Push; Nike Slips",
+  "summary": "Kylian Mbapp\u00e9 is stepping into football boots for a Swiss brand that has never sold a cleat, and Nike stock is already feeling it. What this means for the sport's two biggest incumbents is still unfolding.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/18/on-holding-climbs-5-as-kylian-mbappe-joins-its-football-push-nike-slips/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "0621388e-cbc6-3801-923e-a7e218c5c69f",
   "ts": "2026-09-17T19:40:04+00:00",
   "title": "Sector Update: Consumer Stocks Advance Late Afternoon",

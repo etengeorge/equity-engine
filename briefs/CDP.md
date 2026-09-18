@@ -1,90 +1,86 @@
-# CHEF — CHEFS WAREHOUSE INC
-*Consumer Staples · brief generated 2026-09-18 · selected as **rotation***
+# CDP — COPT DEFENSE PROPERTIES
+*Real Estate · brief generated 2026-09-18 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 184/1956
+- rotation position 188/1956
 
 ## Market
 | | |
 |---|---|
-| price | $110.16 |
-| market cap | $4.5B |
-| 5d / 21d / 63d / 252d | +0.4% / +1.7% / +19.3% / +67.8% |
-| 60d avg daily $ volume | $68.9M |
-| beta (vs IWM) | 0.69 (R²=0.104) |
-| 5d volume vs 60d average | 0.9x |
-| balance sheet as of | 2026-03-27 (10-Q) |
-| WACC weights | equity 86% / debt 14% |
+| price | $34.54 |
+| market cap | $3.9B |
+| 5d / 21d / 63d / 252d | -2.6% / -6.3% / +4.8% / +17.6% |
+| 60d avg daily $ volume | $33.4M |
+| beta (vs IWM) | 0.48 (R²=0.193) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 60% / debt 40% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$99.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$87.8M', '$103.6M', '$4.2M']
-Enterprise value **$5.1B** · FCFF yield **+1.9%**
+**No defensible free numeric model for this name** (status: not_modelled).
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
+Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
 
-| WACC | implied 5y FCFF growth |
-|---|---|
-| 8.4% − 1pt | +26.5% |
-| **8.4% (point)** | **+31.5%** |
-| 8.4% + 1pt | +36.1% |
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=77) | 20.5x | 10.7x / 16.1x / 22.2x | $7.03 / $22.26 / $39.32 |
+| ev_sales (n=91) | 8.6x | 3.3x / 7.5x / 11.1x | $-1.14 / $27.28 / $51.42 |
+| ev_gross_profit (n=38) | 9.9x | 7.8x / 10.1x / 15.6x | $22.13 / $35.85 / $67.88 |
+| p_tbv (n=83) | 2.7x | 1.0x / 1.6x / 2.2x | $12.66 / $19.96 / $27.77 |
 
-> **Stock compensation is 30% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$79.6M** and an implied growth of **+37.8%** instead of +31.5%. Decide which treatment you are underwriting and say so explicitly.
+Blended midpoint **$26.34** vs price $34.54 — gap **-23.7%**.
 
-Naive baseline for comparison: **+25.0%** (5y revenue CAGR +30.1% (clamped to +25.0%)).
-Gap under that baseline: **-24.2%** (fair value $83.51 vs price $110.16).
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **40th percentile** of 35 Consumer Staples names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -30.8%).
+Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `lumpy_fcff_spread_1.5x_of_mean`
-- `possible_peak_cycle_base_newest_fcf_20.8x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_30%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000028/chef-20260626.htm
-- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/chef-20260729.htm
-- 2026-05-11 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000509/ss6310035_8k.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000023/chef-20260327.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000021/chef-20260429.htm
-- 2026-04-24 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000469/ss6243133_8k.htm
-- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000012/chef-20260325.htm
-- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm
-- 2026-02-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000110/ss5935324_8k.htm
-- 2026-01-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1517175/000094787126000031/ss5815598_8k.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000040/cdp-20260630.htm
+- 2026-07-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000034/cdp-20260727.htm
+- 2026-05-20 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000031/cdp-20260514.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000029/cdp-20260331.htm
+- 2026-04-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000024/cdp-20260427.htm
+- 2026-03-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000017/cdp-20260327.htm
+- 2026-02-20 **10-K** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000011/cdp-20251231.htm
+- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000007/cdp-20260205.htm
+- 2026-02-04 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000003/cdp-20260130.htm
+- 2025-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054625000048/cdp-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/pressreleaseex99106262026.htm
+- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/860546/000086054626000034/cdp06302026ex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Consumer Staples
-*From the sector ETF feed (XLP), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Real Estate
+*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-17** · Sector Update: Consumer Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html
-- **2026-09-17** · Worried About an AI Slowdown? Check Out the Staples. — *Barrons.com* — https://www.barrons.com/articles/ai-slowdown-consumer-staples-buy-16ce9300?siteid=yhoof2&yptr=yahoo
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
-- **2026-09-16** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195104531.html
-- **2026-09-16** · Sector Update: Consumer Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-174939504.html
-- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-16** · Stock Market News for Sep 16, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-194954870.html
-- **2026-09-15** · Sector Update: Consumer Stocks Fall Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-tuesday-174633737.html
-- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
+- **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
+- **2026-09-17** · Ventas Stock: Is VTR Outperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4658670/ventas-stock-is-vtr-outperforming-the-real-estate-sector
+- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
+- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
+- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
+- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
+- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
+- **2026-09-14** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html
+- **2026-09-14** · Sector Update: Financial Stocks Retreat Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-monday-174712870.html
 
 ## Market and macro context
-- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
-- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
-- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
-- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
+- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
+- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
+- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
 
 *Rules, releases and agency actions:*
 - **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
@@ -97,8 +93,11 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Staples
-- FLO: cheap · price $6.69 · fair value $13.84 · gap +106.9%
+## Prior verdicts elsewhere in Real Estate
+- COMP: no_model · price $10.56
+- CTRE: no_model · price $39.03
+- EPRT: no_model · price $29.97
+- RHP: no_model · price $129.33
 
 ---
 

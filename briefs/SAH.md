@@ -1,80 +1,94 @@
-# FULT — FULTON FINANCIAL
-*Financials · brief generated 2026-09-18 · selected as **rotation***
+# SAH — SONIC AUTOMOTIVE INC CLASS A
+*Consumer Discretionary · brief generated 2026-09-18 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 177/1956
+- cheapest 1% of 128 Consumer Discretionary peers (99th pct)
+- baseline gap +268%
+- discounted: cash-flow base may be a cycle peak
+- 5d move -13%
+- 21d move -14%
+- Consumer Discretionary is in the news
+- never researched
+- urgency score 6.91
 
 ## Market
 | | |
 |---|---|
-| price | $23.39 |
-| market cap | $4.5B |
-| 5d / 21d / 63d / 252d | -0.9% / -3.7% / +3.9% / +29.0% |
-| 60d avg daily $ volume | $41.6M |
-| beta (vs IWM) | 1.08 (R²=0.533) |
+| price | $65.95 |
+| market cap | $2.3B |
+| 5d / 21d / 63d / 252d | -13.3% / -14.2% / -15.1% / -15.0% |
+| 60d avg daily $ volume | $23.5M |
+| beta (vs IWM) | 0.89 (R²=0.198) |
 | 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 72% / debt 28% |
+| WACC weights | equity 57% / debt 43% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$400.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$717.3M', '$296.5M', '$187.9M']
+Enterprise value **$4.0B** · FCFF yield **+10.0%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +13.1% |
-| cost of equity | +10.9% |
-| justified P/TBV | 1.26 |
-| actual P/TBV | 1.68 |
-| tangible book / share | $13.94 |
-| implied gap | -25.1% |
+| 7.5% − 1pt | -15.0% |
+| **7.5% (point)** | **-11.3%** |
+| 7.5% + 1pt | -8.0% |
 
-Cohort: **61th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +10.0%).
+
+Naive baseline for comparison: **+9.2%** (5y revenue CAGR +9.2%).
+Gap under that baseline: **+268.2%** (fair value $242.82 vs price $65.95).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **99th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +263.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `possible_peak_cycle_base_newest_fcf_3.8x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/700564/000070056426000033/fult-20260630.htm
-- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/fult-20260722.htm
-- 2026-07-21 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000025/fult-20260721.htm
-- 2026-05-28 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000019/fult-20260528.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/700564/000070056426000016/fult-20260331.htm
-- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000155278126000299/e26236_fult-8k.htm
-- 2026-04-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000155278126000274/e26221_fult-8k.htm
-- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000070056426000010/fult-20260422.htm
-- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/700564/000120677426000176/fult4500571-def14a.htm
-- 2026-04-01 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/700564/000119312526135892/d89081d8k.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1043509/000162828026051028/sah-20260730.htm
+- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026050837/sah-20260730.htm
+- 2026-05-08 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026032819/sah-20260506.htm
+- 2026-05-01 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026029314/sah-20260429.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1043509/000162828026028847/sah-20260430.htm
+- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026028612/sah-20260430.htm
+- 2026-04-02 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026023135/sah-20260327.htm
+- 2026-03-06 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1043509/000162828026015631/sah-20260306.htm
+- 2026-02-23 **10-K** — https://www.sec.gov/Archives/edgar/data/1043509/000162828026010570/sah-20251231.htm
+- 2026-02-18 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1043509/000162828026008808/sah-20260218.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/exhibit991063026earningsre.htm
-- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000029/fultinvestorpresentation.htm
-- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: officer or director change)* — https://www.sec.gov/Archives/edgar/data/700564/000070056426000025/pressrelease07212026.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1043509/000162828026050837/q220268kexhibit991.htm
+- **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1043509/000162828026050837/exhibit992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
-- **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
-- **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
+- **2026-09-18** · Stock Market News for Sep 18, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
+- **2026-09-18** · On Holding Climbs 5% as Kylian Mbappé Joins Its Football Push; Nike Slips — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/on-holding-climbs-5-as-kylian-mbappe-joins-its-football-push-nike-slips/
+- **2026-09-17** · Sector Update: Consumer Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html
+- **2026-09-17** · Automaker Stocks Rally as Rotation Lifts Cyclicals: General Motors Climbs 4%, Stellantis Rises 4%, Ford Gains 3%, Tesla Adds 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/automaker-stocks-rally-as-rotation-lifts-cyclicals-general-motors-climbs-4-stellantis-rises-4-ford-gains-3-tesla-adds-2/
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
-- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
-- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
-- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
-- **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
-- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
+- **2026-09-17** · Ball Corporation Stock: Is BALL Outperforming the Consumer Discretionary Sector? — *Barchart* — https://www.barchart.com/story/news/4651274/ball-corporation-stock-is-ball-outperforming-the-consumer-discretionary-sector
+- **2026-09-16** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195104531.html
+- **2026-09-16** · Sector Update: Consumer Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-174939504.html
+- **2026-09-16** · NVR Stock: Is NVR Underperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4635306/nvr-stock-is-nvr-underperforming-the-consumer-cyclical-sector
 
 ## Market and macro context
-- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
-- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
-- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
-- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
+- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
+- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
+- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
 
 *Rules, releases and agency actions:*
 - **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
@@ -87,19 +101,19 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
-- BUR: no_model · price $4.35
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
-- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
+## Prior verdicts elsewhere in Consumer Discretionary
+- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
+- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
+- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
+- LCII: no_model · price $93.40
 
 ---
 

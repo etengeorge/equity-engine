@@ -1,89 +1,65 @@
-# TCBI — TEXAS CAPITAL BANCSHARES
+# FBP — FIRST BANCORP
 *Financials · brief generated 2026-09-18 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 178/1956
+- rotation position 189/1956
 
 ## Market
 | | |
 |---|---|
-| price | $94.48 |
-| market cap | $4.1B |
-| 5d / 21d / 63d / 252d | -4.5% / -5.2% / -4.7% / +12.7% |
-| 60d avg daily $ volume | $48.5M |
-| beta (vs IWM) | 0.97 (R²=0.432) |
-| 5d volume vs 60d average | 1.1x |
+| price | $27.52 |
+| market cap | $4.2B |
+| 5d / 21d / 63d / 252d | -0.8% / -5.6% / +11.2% / +31.3% |
+| 60d avg daily $ volume | $38.2M |
+| beta (vs IWM) | 0.86 (R²=0.437) |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 89% / debt 11% |
+| WACC weights | equity 95% / debt 5% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +5.8% |
-| cost of equity | +10.3% |
-| justified P/TBV | 0.45 |
-| actual P/TBV | 1.23 |
-| tangible book / share | $76.59 |
-| implied gap | -63.2% |
+| sustainable ROTCE | +19.1% |
+| cost of equity | +9.8% |
+| justified P/TBV | 2.2 |
+| actual P/TBV | 2.18 |
+| tangible book / share | $12.61 |
+| implied gap | +1.0% |
 
-Cohort: **30th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -28.1%).
+Cohort: **81th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +36.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `last_10k_5193d_old`
-- `unstable_rotce_2.0%_to_9.4%`
+- none raised
 
 ## Recent filings
-- 2026-09-16 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000063/tcbi-20260916.htm
-- 2026-09-14 **8-K** — items 3.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000061/tcbi-20260914.htm
-- 2026-07-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000059/tcbi-20260630.htm
-- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000056/tcbi-20260722.htm
-- 2026-04-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000052/tcbi-20260331.htm
-- 2026-04-23 **8-K** — items 2.02,5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000050/tcbi-20260416.htm
-- 2026-03-12 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000040/tcbi-20260309.htm
-- 2026-03-09 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000039/tcbi-20260309.htm
-- 2026-02-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000032/tcbi-20260224.htm
-- 2026-02-20 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000014/tcbi-20260220.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000023/fbp-20260630.htm
+- 2026-07-22 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000020/fbpPRQ22026.htm
+- 2026-05-12 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1057706/000114036126020795/ef20073187_8k.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000012/fbp-20260331.htm
+- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000010/fbpPRQ12026.htm
+- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1057706/000114036126011118/ny20058674x1_def14a.htm
+- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000007/fbp-20251231.htm
+- 2026-02-09 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1057706/000114036126004288/ef20065079_8k.htm
+- 2026-01-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000005/fbpPRQ42025.htm
+- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1057706/000105770625000012/fbp-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-14** · EX-99.1 · press release — EX-99.1 PRESS RELEASE *(item: 3.01, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000061/exhibit991-pressrelease914.htm
-- **2026-07-22** · EX-99.1 · press release — EX-99.1 EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000056/a07222026exhibit991.htm
-- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1077428/000107742826000056/a2q2026_earningsxpresent.htm
+- **2026-07-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: completion of an acquisition or disposition, 9.01)* — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000020/exhibit991.htm
+- **2026-07-22** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: completion of an acquisition or disposition, 9.01)* — https://www.sec.gov/Archives/edgar/data/1057706/000105770626000020/exhibit992.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-16** · Texas Capital’s TXS and OILT ETFs Now Trading on the Texas Stock Exchange — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/texas-capital-txs-oilt-etfs-140000332.html
-  > Two Texas-Focused Funds Are TXSE’s First Primary ListingsDALLAS, Sept. 16, 2026 (GLOBE NEWSWIRE) -- Texas Capital Bank Private Wealth Advisors, a subsidiary of Texas Capital Bank, and the Texas Capital Funds Trust today announced that the T
-- **2026-09-14** · Texas Capital swaps Nasdaq for Texas Stock Exchange as first company — *USA TODAY* — https://www.usatoday.com/story/news/state/texas/2026/09/14/nasdaq-loses-texas-capitol-to-texas-stock-exchange-txse/91757142007/
-  > Texas Capital is bringing its listing "home" to the Dallas-based Texas Stock Exchange, leaving Nasdaq in the venue's first corporate win.
-- **2026-09-14** · Texas Capital to Bring Corporate Listing Home to the Texas Stock Exchange — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/texas-capital-bring-corporate-listing-113000271.html
-  > Full-service, Texas-founded and headquartered financial services firm deepens commitment to the state’s growing capital markets Parent company ticker symbol to change from TCBI to TXCP on November 9, 2026 DALLAS, Sept. 14, 2026 (GLOBE NEWSW
-- **2026-09-10** · 2 Cash-Heavy Stocks with Competitive Advantages and 1 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-competitive-182504871.html
-  > A cash-heavy balance sheet is often a sign of strength, but not always. Some companies avoid debt because they have weak business models, limited expansion opportunities, or inconsistent cash flow.
-- **2026-09-08** · 3 Russell 2000 Stocks with Open Questions — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-open-191918301.html
-  > Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors looking beyond the usual large-cap names. But with less stability and fewer resources than their bigger counterparts, these companies face steeper challenges in sca
-- **2026-08-27** · 3 Small-Cap Stocks That Concern Us — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-concern-165707958.html
-  > Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and stayi
-- **2026-08-24** · First Horizon Rallies 9.4% in a Year: How to Play the Stock Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/first-horizon-rallies-9-4-164000771.html
-  > FHN's stock has outperformed the industry over the past year. Can revenue growth and profitability gains pave the way for further upside?
-- **2026-08-24** · 3 Bank Stocks We Keep Off Our Radar — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-keep-off-073736275.html
-  > Banks serve as the backbone of the economy, facilitating lending, deposits, and financial services that keep businesses and consumers moving forward. Still, investors are uneasy as banks face challenges from credit quality concerns and pote
-- **2026-08-19** · Texas Capital Bancshares (TCBI), What Is Drawing Fresh Attention Now? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/texas-capital-bancshares-tcbi-drawing-191028428.html
-  > Texas Capital Bancshares (TCBI) drew fresh attention after its private wealth arm and funds trust moved to shift two Texas focused ETFs from NYSE Arca to the new Texas Stock Exchange. See our latest analysis for Texas Capital Bancshares. At
-- **2026-08-18** · Texas Stock Exchange wins first primary listings with TCBI’s ETFs — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/texas-stock-exchange-wins-first-134951976.html
-  > Investing.com -- Texas Capital Bancshares said Tuesday that two of its exchange traded funds will make the Texas Stock Exchange their primary trading venue starting September 16, pending regulatory approvals.
-- **2026-08-18** · Texas Capital’s TXS and OILT to Become First Primary Listings on the Texas Stock Exchange — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/texas-capital-txs-oilt-become-110000313.html
-  > The two Texas-focused funds are expected to participate in TXSE’s inaugural opening auction for exchange-traded products this SeptemberDALLAS, Aug. 18, 2026 (GLOBE NEWSWIRE) -- Texas Capital Bank Private Wealth Advisors, a subsidiary of Tex
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-18** · Betting Against Banks With FAZ? You’re Actually Shorting Insurers and Brokers — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/betting-against-banks-with-faz-youre-actually-shorting-insurers-and-brokers/
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
 - **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
 - **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
@@ -92,14 +68,12 @@ Attack these before you trust any number above.
 - **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
 - **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
 - **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
-- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
 
 ## Market and macro context
-- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
-- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
-- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
-- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
+- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
+- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
+- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
 
 *Rules, releases and agency actions:*
 - **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service

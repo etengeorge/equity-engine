@@ -1,5 +1,17 @@
 [
  {
+  "id": "b532a78d-aa99-31b2-81ad-99895ad65ca8",
+  "ts": "2026-09-18T13:54:17+00:00",
+  "title": "What Needs To Be True To Buy Rigetti Stock Today?",
+  "summary": "Rigetti Computing (RGTI) sells quantum computing systems into a market its own management calls early, which makes the buy question hard to answer. You cannot lean on earnings, because Rigetti loses money, which leaves its price-to-earnings ratio meaningless. You can measure what you pay for each dollar of sales. Here is that walk, one step at a time.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615902/what-needs-to-be-true-to-buy-rigetti-stock-today/2026-09-18",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e444b95b-1b94-3c4f-86b5-fecdec94087d",
   "ts": "2026-09-17T17:40:35+00:00",
   "title": "Why D-Wave Quantum Stock Popped Today",
@@ -30,6 +42,18 @@
   "summary": "IonQ's collaboration with NVIDIA on quantum optimization just sent the entire pure-play sector surging, but the market signal that actually reveals whether this is a real industry shift or just a speculative bet on one company's research is hiding in plain sight.",
   "publisher": "24/7 Wall St.",
   "url": "https://247wallst.com/investing/2026/09/17/ionq-climbs-9-on-quantum-optimization-work-with-nvidia-d-wave-rises-8-rigetti-gains-7/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "cc191b1b-d908-3203-b1cc-c74268b733ff",
+  "ts": "2026-09-17T12:25:00+00:00",
+  "title": "IonQ and NVIDIA Just Cracked a Major Quantum Computing Bottleneck",
+  "summary": "Oak Ridge, IonQ, and NVIDIA used generative AI to cut quantum circuit compilation from 11 minutes to 28 seconds, a milestone with implications for IONQ and NVDA investors.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/ionq-and-nvidia-just-cracked-a-major-quantum-computing-bottleneck/?utm_source=yahoofinance&utm_medium=yahoofinance",
   "tickers": [
    "QBTS"
   ],

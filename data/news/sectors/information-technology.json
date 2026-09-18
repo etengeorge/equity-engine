@@ -1,5 +1,47 @@
 [
  {
+  "id": "be5347eb-21cb-32ab-a9bb-4daabb3c9cf1",
+  "ts": "2026-09-18T13:54:20+00:00",
+  "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",
+  "summary": "Alphabet surged Friday while Meta and Microsoft both slipped into the red, leaving traders to figure out whether one mega-cap is breaking away from the pack or simply catching a wave that has nowhere structural to stand.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/18/alphabet-rises-3-meta-and-microsoft-slip-is-this-a-momentum-run-rather-than-a-tech-rally/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "95ca57af-e400-3de4-a620-ac942ff5a012",
+  "ts": "2026-09-18T13:30:00+00:00",
+  "title": "Stock Market News for Sep 18, 2026",
+  "summary": "Wall Street closed sharply higher on Thursday, pulled up by tech and discretionary stocks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "6e534c87-acf1-33d7-85b4-b4aa006fa276",
+  "ts": "2026-09-18T13:21:05+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was 0.03% lower and the actively",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "ef9c7636-617a-3ade-a332-37033cf7e6c9",
   "ts": "2026-09-17T19:44:03+00:00",
   "title": "Sector Update: Tech Stocks Gain Late Afternoon",

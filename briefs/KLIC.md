@@ -1,72 +1,98 @@
-# ITRI — ITRON
+# KLIC — KULICKE AND SOFFA INDUSTRIES INC
 *Information Technology · brief generated 2026-09-18 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 182/1956
+- rotation position 190/1956
 
 ## Market
 | | |
 |---|---|
-| price | $91.38 |
-| market cap | $4.0B |
-| 5d / 21d / 63d / 252d | -2.3% / -5.0% / +15.3% / -22.2% |
-| 60d avg daily $ volume | $71.4M |
-| beta (vs IWM) | 0.98 (R²=0.225) |
-| 5d volume vs 60d average | 0.6x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 72% / debt 28% |
+| price | $81.92 |
+| market cap | $4.3B |
+| 5d / 21d / 63d / 252d | -1.0% / -10.8% / -29.4% / +102.6% |
+| 60d avg daily $ volume | $96.2M |
+| beta (vs IWM) | 1.4 (R²=0.326) |
+| 5d volume vs 60d average | 0.5x |
+| balance sheet as of | 2026-07-04 (10-Q) |
+| WACC weights | equity 98% / debt 2% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$235.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$383.1M', '$207.6M', '$98.1M']
-Enterprise value **$4.9B** · FCFF yield **+4.9%**
+Normalized FCFF base **$80.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$96.4M', '$14.9M', '$129.0M']
+Enterprise value **$3.9B** · FCFF yield **+2.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.6% − 1pt | +4.8% |
-| **8.6% (point)** | **+8.8%** |
-| 8.6% + 1pt | +12.4% |
+| 12.7% − 1pt | +43.7% |
+| **12.7% (point)** | **+47.3%** |
+| 12.7% + 1pt | +50.8% |
 
 
-> **Stock compensation is 20% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$191.0M** and an implied growth of **+14.0%** instead of +8.8%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 33% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$54.1M** and an implied growth of **+60.3%** instead of +47.3%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+1.7%** (5y revenue CAGR +1.7%).
-Gap under that baseline: **-31.4%** (fair value $62.68 vs price $91.38).
+Naive baseline for comparison: **+1.0%** (5y revenue CAGR +1.0%).
+Gap under that baseline: **-73.4%** (fair value $21.80 vs price $81.92).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **54th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +3.6%).
+Cohort: **16th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -37.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_3.9x_oldest_growth_applied_to_a_peak_overstates_value`
+- `speculative_cost_of_debt_but_only_2%_debt_weight`
+- `stock_comp_is_33%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/780571/000078057126000178/itri-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/780571/000117184326004912/f8k_072826.htm
-- 2026-05-08 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/780571/000078057126000116/itri-20260506.htm
-- 2026-04-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/780571/000078057126000110/itri-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/780571/000117184326002750/f8k_042826.htm
-- 2026-04-24 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/780571/000119312526175249/d125229d8k.htm
-- 2026-03-23 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/780571/000114036126010703/ny20057844x1_def14a.htm
-- 2026-02-26 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/780571/000119312526076749/d925789d8k.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/780571/000078057126000033/itri-20251231.htm
-- 2026-02-17 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/780571/000117184326000850/f8k_021426.htm
+- 2026-08-17 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/56978/000005697826000034/klic-20260813.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/56978/000005697826000032/klic-20260704.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/56978/000005697826000030/klic-20260805.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/56978/000005697826000020/klic-20260404.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/56978/000005697826000018/klic-20260506.htm
+- 2026-03-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/56978/000005697826000014/klic-20260304.htm
+- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/56978/000005697826000012/klic-20260103.htm
+- 2026-02-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/56978/000005697826000010/klic-20260204.htm
+- 2026-01-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/56978/000005697826000006/klic-20260122.htm
+- 2025-11-20 **10-K** — https://www.sec.gov/Archives/edgar/data/56978/000005697825000081/klic-20251004.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/780571/000117184326004912/exh_991.htm
+- **2026-08-17** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/56978/000005697826000034/ex991ceo17aug.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/56978/000005697826000030/ex991liveq32026.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-03** · 2 Stocks to Buy From the Prospering Electronics Manufacturing Industry — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/2-stocks-buy-prospering-electronics-190200799.html
+  > The Zacks Electronics - Manufacturing Machinery industry participants, such as KLIC and UCTT, are benefiting from strong demand for high-performance computing, advanced packaging and AI-driven demand amid challenging macroeconomic condition
+- **2026-09-03** · Kulicke And Soffa Industries (KLIC) Could Be 26% Undervalued On Q2 Earnings Strength — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-industries-klic-could-010453689.html
+  > Kulicke and Soffa Industries (KLIC) is back in focus after a Q2 reporting season that featured 123% year-on-year revenue growth, earnings ahead of expectations, and guidance pointing to further sequential strength across its key markets. De
+- **2026-09-02** · How Is Kulicke And Soffa Industries (KLIC) Shaping AI Infrastructure Packaging? — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/kulicke-soffa-industries-klic-shaping-201047642.html
+  > Kulicke and Soffa Industries (NasdaqGS:KLIC) highlighted new progress in advanced packaging and Co-Packaged Optics for AI infrastructure through its Thermo-Compression Bonding portfolio. The company introduced a newly commercialized Fluxles
+- **2026-09-02** · Kulicke And Soffa Industries (KLIC) Stock Looks Fairly Valued Following Its 117% Run — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-industries-klic-stock-161321371.html
+  > Kulicke and Soffa Industries has more than doubled over the past year, yet recent share price weakness and a mixed valuation read make it less clear whether the stock still offers an attractive entry point. After such a strong run and with 
+- **2026-09-02** · Kulicke and Soffa (KLIC) Forms 'Hammer Chart Pattern': Time for Bottom Fishing? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-klic-forms-hammer-135502152.html
+  > Kulicke and Soffa (KLIC) witnesses a hammer chart pattern, indicating support found by the stock after losing some value lately. This coupled with an upward trend in earnings estimate revisions could mean a trend reversal for the stock in t
+- **2026-09-01** · Kulicke and Soffa (NASDAQ:KLIC) Q2 Earnings: Leading The Semiconductor Manufacturing Pack — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-nasdaq-klic-q2-151420468.html
+  > Let’s dig into the relative performance of Kulicke and Soffa (NASDAQ:KLIC) and its peers as we unravel the now-completed Q2 semiconductor manufacturing earnings season.
+- **2026-09-01** · Kulicke & Soffa Advances AI Infrastructure Through Co-Packaged Optics (CPO) and Advanced Packaging Leadership — *PR Newswire* — https://finance.yahoo.com/technology/ai/articles/kulicke-soffa-advances-ai-infrastructure-130500571.html
+  > Kulicke and Soffa Industries, Inc. (NASDAQ: KLIC) ("Kulicke & Soffa", "K&S", "we" or the "Company"), a global leader in semiconductor and electronics assembly solutions, continues to strengthen its position as a critical enabler of next-gen
+- **2026-08-27** · How Much Upside is Left in Kulicke and Soffa (KLIC)? Wall Street Analysts Think 25.67% — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/much-upside-left-kulicke-soffa-135504563.html
+  > The average of price targets set by Wall Street analysts indicates a potential upside of 25.7% in Kulicke and Soffa (KLIC). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earnings estimate 
+- **2026-08-27** · Kulicke & Soffa Declares Quarterly Dividend of $0.205 — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-declares-quarterly-dividend-130500887.html
+  > Kulicke and Soffa Industries, Inc. (NASDAQ: KLIC) ("Kulicke & Soffa," "K&S" or the "Company"), today announced that its Board of Directors has approved a quarterly dividend of $0.205 per share of common stock. The dividend will be payable o
+- **2026-08-25** · Should You Include KLIC Stock in Portfolio After Solid Q3 Results? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/klic-stock-portfolio-solid-q3-155300674.html
+  > Kulicke and Soffa's Q3 beat, AI-led demand, advanced packaging growth and improving memory trends point to continued momentum into fiscal 2027.
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-18** · Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/alphabet-rises-3-meta-and-microsoft-slip-is-this-a-momentum-run-rather-than-a-tech-rally/
+- **2026-09-18** · Stock Market News for Sep 18, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-17** · Sector Update: Tech Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-194403065.html
 - **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
@@ -74,15 +100,12 @@ Attack these before you trust any number above.
 - **2026-09-16** · Sector Update: Tech Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html
 - **2026-09-16** · Sector Update: Tech Stocks Gain Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-wednesday-174507066.html
 - **2026-09-16** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170848334.html
-- **2026-09-16** · How Is Hewlett Packard Enterprise's Stock Performance Compared to Technology Stocks — *Barchart* — https://www.barchart.com/story/news/4637120/how-is-hewlett-packard-enterprise-s-stock-performance-compared-to-technology-stocks
-- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-16** · Sector Update: Tech Stocks Rise Pre-Bell Wednesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-pre-131345777.html
 
 ## Market and macro context
-- **2026-09-18** · Easing Oil Prices, Tech Rally Lift Wall Street Pre-Bell; Asia Up, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-rally-111414374.html
-- **2026-09-18** · Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo
-- **2026-09-18** · ProCap Financial to Join Russell 2000® and Russell 3000® Indexes — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/procap-financial-join-russell-2000-110000601.html
-- **2026-09-18** · These ‘High-Yield’ ETFs Pay 5%–9% While Quietly Shrinking Your Principal. Here’s What to Own Instead — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/
+- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
+- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
+- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
 
 *Rules, releases and agency actions:*
 - **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
@@ -104,10 +127,10 @@ Attack these before you trust any number above.
 - EFOR: no_edge · price $32.55 · fair value $36.33 · gap +11.6%
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
 - MXL: no_model · price $71.51
 - NSIT: no_edge · price $165.19 · fair value $186.86 · gap +13.1%
 - QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
-- RGTI: no_model · price $15.16
 
 ---
 

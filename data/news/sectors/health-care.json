@@ -1,5 +1,19 @@
 [
  {
+  "id": "6e534c87-acf1-33d7-85b4-b4aa006fa276",
+  "ts": "2026-09-18T13:21:05+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was 0.03% lower and the actively",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "ce2aa32b-d13e-3fdd-8a27-1624d7151d77",
   "ts": "2026-09-17T19:44:53+00:00",
   "title": "Sector Update: Healthcare Stocks Higher Late Afternoon",
