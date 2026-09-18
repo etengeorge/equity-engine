@@ -1,186 +1,54 @@
 {
   "ticker": "MGY",
-  "date": "2026-09-07",
+  "date": "2026-09-18",
   "sector": "Energy",
   "name": "MAGNOLIA OIL GAS CORP CLASS A",
   "method": "fcff",
-  "verdict": "no_edge",
-  "conviction": "low",
-  "final_growth": 0.02,
-  "bear_growth": -0.08,
-  "bull_growth": 0.09,
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
   "rotce_override": null,
-  "horizon_months": 24,
-  "price_at_verdict": 26.799999237060547,
-  "market_implied_growth": -0.055941524041571655,
-  "cohort_pct": 89.8,
+  "horizon_months": 12,
+  "price_at_verdict": 25.68000030517578,
+  "market_implied_growth": -0.06292133200353028,
+  "cohort_pct": 94.3,
   "priced": {
-    "ok": true,
-    "method": "fcff",
-    "analyst_growth": 0.02,
-    "market_implied_growth": -0.055941524041571655,
-    "growth_delta": 0.07594152404157166,
-    "fair_value": 38.222357149608015,
-    "price": 26.799999237060547,
-    "gap": 0.4262073969297726,
-    "fair_value_band": {
-      "low": 31.481839754954347,
-      "point": 38.222357149608015,
-      "high": 48.57544419595828
-    },
-    "fcff_base_used": 424702583.3333333,
-    "base_overridden": false,
-    "scenarios": {
-      "ok": true,
-      "wacc_point": 0.06731702386132837,
-      "wacc_steps": [
-        -0.02,
-        -0.01,
-        0.0,
-        0.01,
-        0.02
-      ],
-      "fcff_base_used": 424702583.3333333,
-      "price": 26.799999237060547,
-      "grid": [
-        {
-          "case": "bear",
-          "growth": -0.08,
-          "cells": [
-            {
-              "wacc": 0.04731702386132837,
-              "fair_value": 40.76782471001035,
-              "gap": 0.5211875324844901
-            },
-            {
-              "wacc": 0.05731702386132837,
-              "fair_value": 30.040452881237382,
-              "gap": 0.12091245285170582
-            },
-            {
-              "wacc": 0.06731702386132837,
-              "fair_value": 23.838641896232296,
-              "gap": -0.11049841138551675
-            },
-            {
-              "wacc": 0.07731702386132837,
-              "fair_value": 19.794030300732025,
-              "gap": -0.26141675879752535
-            },
-            {
-              "wacc": 0.08731702386132838,
-              "fair_value": 16.94552839940228,
-              "gap": -0.36770414620127856
-            }
-          ],
-          "fair_value_at_point_wacc": 23.838641896232296,
-          "gap_at_point_wacc": -0.11049841138551675
-        },
-        {
-          "case": "base",
-          "growth": 0.02,
-          "cells": [
-            {
-              "wacc": 0.04731702386132837,
-              "fair_value": 66.50848365506516,
-              "gap": 1.481659908523187
-            },
-            {
-              "wacc": 0.05731702386132837,
-              "fair_value": 48.57544419595828,
-              "gap": 0.8125166260745793
-            },
-            {
-              "wacc": 0.06731702386132837,
-              "fair_value": 38.222357149608015,
-              "gap": 0.4262073969297726
-            },
-            {
-              "wacc": 0.07731702386132837,
-              "fair_value": 31.481839754954347,
-              "gap": 0.17469554668566878
-            },
-            {
-              "wacc": 0.08731702386132838,
-              "fair_value": 26.743941314025964,
-              "gap": -0.0020917136056132213
-            }
-          ],
-          "fair_value_at_point_wacc": 38.222357149608015,
-          "gap_at_point_wacc": 0.4262073969297726
-        },
-        {
-          "case": "bull",
-          "growth": 0.09,
-          "cells": [
-            {
-              "wacc": 0.04731702386132837,
-              "fair_value": 91.42103486179357,
-              "gap": 2.4112327412073737
-            },
-            {
-              "wacc": 0.05731702386132837,
-              "fair_value": 66.45678665354384,
-              "gap": 1.4797309158741938
-            },
-            {
-              "wacc": 0.06731702386132837,
-              "fair_value": 52.05492814152896,
-              "gap": 0.9423481202769766
-            },
-            {
-              "wacc": 0.07731702386132837,
-              "fair_value": 42.68663608731092,
-              "gap": 0.5927849739742321
-            },
-            {
-              "wacc": 0.08731702386132838,
-              "fair_value": 36.10835325061691,
-              "gap": 0.3473266521845362
-            }
-          ],
-          "fair_value_at_point_wacc": 52.05492814152896,
-          "gap_at_point_wacc": 0.9423481202769766
-        }
-      ],
-      "summary": {
-        "bear": -0.11049841138551675,
-        "base": 0.4262073969297726,
-        "bull": 0.9423481202769766
-      },
-      "downside": -0.36770414620127856,
-      "upside": 2.4112327412073737
-    },
-    "fundamentals_source": "store",
-    "flags": []
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
   },
-  "parse_notes": [],
+  "parse_notes": [
+    "no usable final_growth"
+  ],
   "devils_advocate": {
-    "strongest_counter": "The strongest case that I am wrong to record no_edge is that the reverse DCF's -5.6% implied growth genuinely is too pessimistic for an operator whose free cash flow has been flat within 6% for three straight years across a wide oil-price range, and that buying it as it doubles its oil-weighted production is exactly when you want to own it. That argument is coherent. It fails on the discount rate, not on the business: the -5.6% is solved at a 6.7% WACC built on a beta of 0.38 whose R-squared is 0.047, and the sensitivity is on the face of the brief \u2014 one point of WACC moves implied growth by roughly four points. At a defensible exploration-and-production beta of 1.1-1.3 the WACC is 10-11%, and the growth the current price requires goes from -5.6% to roughly +10-14%. The name flips from deeply cheap to demanding on the discount rate alone, which means the gap is not information.",
-    "what_would_prove_it": "The closing 8-K and the first post-close 10-Q: actual RBL draw, pro-forma net debt, and combined production and capital expenditure. Separately, a beta regression with an R-squared above ~0.15 \u2014 Energy is the highest-beta cohort in this index, so 0.38 is a measurement failure, not defensiveness.",
-    "already_visible": "Yes, on both counts. The financing is public and complete \u2014 $1.2B of equity, $500M of new notes, $600M of assumed notes, a $2.25B facility \u2014 none of which is in the enterprise value the model used. And the low R-squared is printed on the brief.",
-    "unresolved": "I could not put a number on the combined entity's normalized free cash flow, because WildFire's standalone cash flow is not disclosed beyond production and capital expenditure guidance ($110-120M of capex against 53 MBoe/d in Q2 2026). Until pro-forma financials are filed, any FCFF base for the combined company is a guess and I have not manufactured one."
+    "strongest_counter": "The prior pass already did this work and landed on no_edge with a defensible +2%. Downgrading to no_model now that MORE is known \u2014 the deal is closed, the consideration is disclosed to the dollar, the termination risk is gone \u2014 is the analyst going backwards. Magnolia's own philosophy is public and unchanged, the acquired assets are proved developed rather than speculative, and roughly 2% nominal FCFF growth for the combined entity is as defensible today as it was on 2026-09-07. Refusing is not more rigorous, it is just less useful.",
+    "what_would_prove_it": "WildFire's audited financial statements and the pro-forma balance sheet and income statement required by item 9.01, due by amendment within 71 days of 2026-09-14.",
+    "already_visible": "No, and that is the whole answer. The 2026-09-14 EX-99.1 is a four-paragraph completion notice with no financial detail; EX-99.3 and EX-99.4 are the related announcements; no 8-K/A has been filed; WildFire is private and has no public financials I can reach on any free source. The counter is right that knowing more should not produce a weaker output \u2014 but what I now know is specifically that the acquisition is irreversible and its financials are absent, which is a stronger reason to decline than the pending-deal uncertainty the prior pass was managing. I also checked the prior pass's second nominated observable, a beta regression with R-squared above 0.15: today's is 0.36 with R-squared 0.042, so that test still fails too.",
+    "unresolved": "Whether the combined entity is cheap or expensive. I do not know. The prior pass did not know either \u2014 it said so, in the words 'until pro-forma financials are filed, any FCFF base for the combined company is a guess and I have not manufactured one' \u2014 and then supplied a growth rate that the model turned into a fair value anyway. I am declining to repeat that step."
   },
-  "what_changed": "Everything material, and all of it after the 2026-06-30 balance sheet the model prices. On 2026-07-19 Magnolia agreed to acquire 100% of WildFire Intermediate Holdings from WildFire Energy I LLC for approximately $4 billion \u2014 about $2.65B of cash, 32.2 million Class A shares, and the assumption of $600M of WildFire's 7.50% senior notes due 2029 \u2014 with an effective date of 2026-06-01 and closing expected roughly 45 days after signing, i.e. around now. The funding is already done: a 53.3 million share public offering priced 2026-07-20 at $23.75 raising approximately $1.2B net and completed 2026-07-22; $500M of 6.625% senior notes due 2034 issued 2026-08-05 (net ~$492.5M); and a third amended and restated reserve-based revolving credit facility with $2.25B of commitments, a $2B borrowing base and $1.75B of borrowing capacity. A bridge facility was arranged and is not expected to be drawn. At 2026-06-30 there were 183.7 million Class A shares outstanding.",
-  "consensus_case": "Magnolia is the low-leverage, low-reinvestment Eagle Ford/Austin Chalk operator: 106 MBoe/d, $125M of quarterly capital expenditure, no revolver drawn and $295.9M of cash at 2026-06-30, three years of remarkably flat free cash flow ($430.9M, $434.1M, $409.2M) and a stated policy of shrinking the share count. At $26.80 the market pays about 15x that free cash flow. It is now paying it for a company that has just agreed to double down: the $4B WildFire acquisition adds 53 MBoe/d at ~70% oil across ~810,000 net acres, taking the combined business to roughly 160 MBoe/d with a much higher oil weighting. The bull case is that Magnolia bought PDP-heavy, oil-weighted acreage adjacent to its own at a defensible price using permanent capital; the bear case is that it paid $4B near the top of a cycle and levered a balance sheet whose main attraction was that it had no leverage.",
-  "base_case_rationale": "Magnolia's own model is the opposite of a growth story: it targets low-single-digit production growth, funds capital expenditure well within cash flow, and returns the balance through buybacks and a growing dividend. WildFire changes the size of the company, not the philosophy \u2014 it is PDP-weighted acreage (100.3 MMBbls of proved developed oil within 196.5 MMBbls of proved oil) bought to add oil-weighted volumes and inventory, not to inflect the growth rate. So my five-year FCFF growth assumption for the combined entity is low single digits in nominal terms: roughly 2%, which is production growth of about 1-2% plus a flat real oil price, less the higher interest burden on roughly $2.1B of new and assumed debt where there was almost none. I differ sharply from the naive baseline of +19.7%: that is a five-year revenue CAGR measured from the 2021 trough in oil prices, which says nothing about forward cash flow for a mature Eagle Ford operator, and it is the sole reason this name shows a +202% gap.",
+  "what_changed": "The transaction the 2026-09-07 pass was waiting for has CLOSED, and I went and got the document that pass nominated. Its devil's advocate named the observable exactly \u2014 'the WildFire closing 8-K and pro-forma financial statements' \u2014 and the 8-K filed 2026-09-14 for an event dated 2026-09-10 carries items 1.01, 2.01 (COMPLETED acquisition), 2.03 and 3.02. It states the purchase price: cash of $2,570 million subject to final customary adjustments, 32,203,000 shares of Class A common stock, and assumption of WildFire's 7.500% Senior Notes due 2029. Three things follow. First, the termination risk the prior pass listed as a key risk \u2014 HSR and title/defect thresholds to 2026-10-13, outside date 2027-03-12 \u2014 is resolved and gone. Second, cash consideration came in at $2,570M against the $2.65B the prior pass assumed. Third, and decisively, the pro-forma financial statements are STILL NOT FILED: no 8-K/A exists, and item 9.01(a)/(b) allows Magnolia up to 71 days. So the observable arrived, and what it says is that the one input needed to model the combined company is the one thing it does not contain.",
+  "consensus_case": "Magnolia is a low-cost Eagle Ford/Austin Chalk operator with a conservative balance sheet, Brent near $107, a JPMorgan upgrade on 2026-09-08 and a Zacks #1 rank. On 2026-09-10 it closed the $4.06bn WildFire Energy acquisition, more than doubling its Giddings acreage with more than $100M of guided annual synergies, funded roughly half equity and half debt. The market is paying for a larger, still moderately levered operator with a longer oil-weighted inventory runway in the basin it knows best. Nothing in that case requires the engine's -6.3% implied FCFF decline to be wrong; the price is a claim about scale and inventory, not about decline.",
+  "base_case_rationale": "No base case is offered, and this is where I now differ from the 2026-09-07 pass. That pass recorded no_edge with a +2% five-year FCFF growth assumption for the combined entity, reasoning from Magnolia's stated philosophy \u2014 low-single-digit production growth funded within cash flow \u2014 and flagged 'read the verdict, not the number'. I think that was the right call while the deal was pending and is the wrong call now that it has closed, for a reason the closing changes: the mismatch is no longer prospective, it is realised and measurable. 32,203,000 shares have been issued and $2,570M of cash has left the company, against a model whose enterprise value rests on a 2026-06-30 balance sheet showing $400.0M of debt and $295.9M of cash. Publishing a per-share fair value from a standalone FCFF history divided by a share count 32.2 million short is not a conservative estimate of the combined company; it is a number about no company at all. Where a structural input is broken and the schema cannot override it, the standing practice on this screen is to record no number rather than launder the error into a fair value.",
   "key_risks": [
-    "A $4B acquisition, roughly 60% of the pre-deal market cap, integrated into a company whose whole appeal was balance-sheet conservatism",
-    "Net debt goes from roughly zero to approximately $2.1B including the assumed 7.50% notes and an RBL draw",
-    "Oil price \u2014 the combined entity is materially more oil-weighted (~70% oil on the acquired volumes) and therefore more exposed",
-    "The deal can still terminate: HSR clearance and title/environmental defect thresholds run to 2026-10-13, with an outside date of 2027-03-12"
+    "Enterprise value understated by roughly 40-45%: the engine's $6.2bn omits $2,570M of cash consideration, $500M of new 6.625% 2034 notes, $600M of assumed 7.500% 2029 notes and the resulting revolver draw",
+    "Market capitalisation understated by about $827M: the engine's ~237.5M shares reconciles to the 183,703 thousand on the 2026-06-30 10-Q plus the 53.3M July offering, but NOT the 32,203,000 shares issued as consideration on 2026-09-10",
+    "The +212% gap and 94th-percentile Energy rank that won this opportunistic slot come from a +19.7% revenue-CAGR baseline measured off the 2021 oil trough, applied to a standalone cash-flow history",
+    "Beta 0.36 with R-squared 0.042 gives a 6.8% WACC to a now-levered, more oil-weighted E&P \u2014 the prior pass set 0.15 as the R-squared bar before any gap on this name should be taken seriously, and it is still not met",
+    "Net debt goes from roughly zero to about $2.1bn on a company whose appeal was balance-sheet conservatism"
   ],
   "watch_for": [
-    "The WildFire closing 8-K and pro-forma financial statements",
-    "The first combined-company 10-Q: RBL draw, pro-forma net debt and combined free cash flow",
-    "A beta regression with an R-squared above 0.15 before any gap on this name is taken seriously"
+    "The 8-K/A carrying WildFire's audited financials and the pro-forma statements, due within 71 days of 2026-09-14 \u2014 the document that makes this name modellable and the single item on this list that matters",
+    "The Q3 2026 10-Q in early November: the first balance sheet showing combined debt, cash and share count, and the actual RBL draw",
+    "Whether the engine's share count picks up the 32.2M consideration shares from the Q3 cover page or continues to price ~237.5M",
+    "A beta regression with R-squared above 0.15 before any gap on this name is taken seriously"
   ],
   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1698990/000110465926107498/tm2625234d1_ex99-1.htm",
     "https://www.sec.gov/Archives/edgar/data/1698990/000169899026000019/mgy-20260630.htm",
-    "https://www.sec.gov/Archives/edgar/data/1698990/000110465926085065/tm2620557d1_8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/1698990/000110465926084859/tm2620557d2_8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/1698990/000110465926091091/tm2622270d1_8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/1698990/000169899026000016/q22026pressrelease.htm"
+    "https://finance.yahoo.com/energy/articles/magnolia-oil-gas-closes-transformative-132100465.html",
+    "https://www.businesswire.com/news/home/20260719614998/en/Magnolia-Oil-Gas-Announces-Acquisition-of-WildFire-Energy"
   ],
   "flags": []
 }

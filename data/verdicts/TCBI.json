@@ -1,0 +1,65 @@
+{
+  "ticker": "TCBI",
+  "date": "2026-09-18",
+  "sector": "Financials",
+  "name": "TEXAS CAPITAL BANCSHARES",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.1,
+  "horizon_months": 24,
+  "price_at_verdict": 94.4800033569336,
+  "market_implied_growth": null,
+  "cohort_pct": 29.5,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.1,
+    "screen_rotce": 0.057677988812508275,
+    "justified_p_tbv": 0.9637936084794483,
+    "actual_p_tbv": 1.2335147398798425,
+    "tangible_book_per_share": 76.5941421714482,
+    "fair_value": 73.82094467180794,
+    "price": 94.4800033569336,
+    "gap": -0.21866064723853074,
+    "fundamentals_source": "store",
+    "flags": [
+      "unstable_rotce_2.0%_to_9.4%"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The correction cuts both ways and I should not assume the engine is simply wrong. The 2.0% year in `unstable_rotce_2.0%_to_9.4%` was a real year in which real capital was destroyed, and the two most recent quarters \u2014 8.35% then 9.56% \u2014 are BELOW the four-quarter average, not above it. A bank earning 10% against a 10.3% cost of equity is earning nothing above its cost of capital and should trade at roughly 1.0x tangible book. It trades at 1.23x. So the corrected answer is still rich, and calling it no_edge is an analyst being polite about a defect he just found.",
+    "what_would_prove_it": "Whether the trailing returns are a trough being exited or a peak being left. Four more quarters of ROTCE, or management's own through-cycle target.",
+    "already_visible": "Partly, and it strengthens the counter rather than my base case: the sequence 12.04% -> 11.18% -> 8.35% -> 9.56% is not a recovery, and adjusted returns (9.80%, 8.48%, 10.98%, 12.04%) tell the same story. I accept the counter to the extent that the corrected gap is about -22% at my 10.0%, i.e. still on the rich side, and I have recorded it that way rather than arguing it back to fair.",
+    "unresolved": "Whether the investment-banking revenue is durable. I could not settle it from the Q2 release and there is no company guidance in anything I could read. That is why conviction is medium rather than high, and why the verdict is no_edge rather than rich: one defensible input choice moves this answer 60 points."
+  },
+  "what_changed": "8-K 2026-09-14 (items 3.01/7.01/9.01): voluntary delisting from Nasdaq and transfer of the corporate listing to the Texas Stock Exchange, with the ticker becoming TXCP on 2026-11-09. 8-K 2026-09-16 (item 5.02), an officer or director change. Two Texas Capital ETFs (TXS, OILT) became TXSE's first primary listings on 2026-09-16. None of this changes the earning power of the bank; it is a franchise and distribution story. No operational news since the 2026-07-22 Q2 release.",
+  "consensus_case": "Texas Capital is most of the way through a multi-year rebuild from a balance-sheet lender into a full-service Texas financial firm \u2014 investment banking, trading, private wealth and a treasury platform bolted onto a commercial bank. The market is paying 1.23x tangible book for the output of that rebuild plus the option on Texas itself: on 2026-09-14 the company announced it will move its corporate listing from Nasdaq to the Texas Stock Exchange, becoming TXSE's first corporate listing, with the ticker changing from TCBI to TXCP on 2026-11-09. Return on average common equity was 9.56% in Q2 2026 (9.80% adjusted) against 9.17% a year earlier, with return on average assets of 1.03% and a CET1 ratio of 12.1%. Tangible book value per share has compounded from $70.14 to $76.98 in four quarters \u2014 about 9.8% \u2014 while the company bought back stock. Paying a modest premium to book for a franchise whose returns are rising off a repositioning trough is a coherent position.",
+  "base_case_rationale": "Sustainable ROTCE of 10.0%. Texas Capital carries essentially no goodwill \u2014 book value per share of $77.01 against tangible book of $76.98 \u2014 so ROTCE and ROE are the same number here, which removes a whole class of error. The last four reported quarters are 12.04%, 11.18%, 8.35% and 9.56%, an average of 10.28%, and the most recent is 9.56% with the trend DOWN over two quarters, not up. I therefore take 10.0% rather than the four-quarter average or the best quarter: this is not the VLY case of a monotonic recovery, so I have no basis for extrapolating the peak.",
+  "key_risks": [
+    "Return on tangible common equity of roughly 10% against a 10.3% cost of equity \u2014 the bank is earning approximately its cost of capital and trades at 1.23x tangible book",
+    "Fee income from investment banking and trading is the swing factor and is inherently cyclical",
+    "The engine's 5.8% 'sustainable' ROTCE is the ninth instance of the averaged-ROTCE defect; a reader who takes the -63.2% gap at face value is short a bank on an arithmetic error"
+  ],
+  "watch_for": [
+    "The 2026-11-09 ticker change from TCBI to TXCP and the Nasdaq delisting \u2014 the price and fundamentals pulls in this engine key off the ticker and will silently fail on this name after that date unless universe.csv is updated",
+    "Q3 2026 ROTCE: a third consecutive quarter below 10% would validate the devil's advocate and move this to rich",
+    "Any through-cycle ROTCE target from management"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1077428/000107742826000056/a07222026exhibit991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1077428/000107742826000059/tcbi-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1077428/000107742826000061/exhibit991-pressrelease914.htm",
+    "https://www.usatoday.com/story/news/state/texas/2026/09/14/nasdaq-loses-texas-capitol-to-texas-stock-exchange-txse/91757142007/"
+  ],
+  "flags": [
+    "last_10k_5193d_old",
+    "unstable_rotce_2.0%_to_9.4%"
+  ]
+}

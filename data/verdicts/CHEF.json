@@ -1,0 +1,188 @@
+{
+  "ticker": "CHEF",
+  "date": "2026-09-18",
+  "sector": "Consumer Staples",
+  "name": "CHEFS WAREHOUSE INC",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.12,
+  "bear_growth": 0.05,
+  "bull_growth": 0.2,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 110.16000366210938,
+  "market_implied_growth": 0.3152418841535195,
+  "cohort_pct": 40.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.12,
+    "market_implied_growth": 0.3152418841535195,
+    "growth_delta": -0.1952418841535195,
+    "fair_value": 62.58652148639754,
+    "price": 110.16000366210938,
+    "gap": -0.43185803008533497,
+    "fair_value_band": {
+      "low": 51.55223224979929,
+      "point": 62.58652148639754,
+      "high": 77.76351708958332
+    },
+    "fcff_base_used": 130000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0835630411444194,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 130000000,
+      "price": 110.16000366210938,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.0635630411444194,
+              "fair_value": 69.95254069426045,
+              "gap": -0.36499148176479845
+            },
+            {
+              "wacc": 0.0735630411444194,
+              "fair_value": 53.86015807063828,
+              "gap": -0.5110733816254944
+            },
+            {
+              "wacc": 0.0835630411444194,
+              "fair_value": 42.836076368789314,
+              "gap": -0.6111467416052456
+            },
+            {
+              "wacc": 0.09356304114441939,
+              "fair_value": 34.81317536546461,
+              "gap": -0.6839762689891872
+            },
+            {
+              "wacc": 0.1035630411444194,
+              "fair_value": 28.713835027880165,
+              "gap": -0.7393442803800798
+            }
+          ],
+          "fair_value_at_point_wacc": 42.836076368789314,
+          "gap_at_point_wacc": -0.6111467416052456
+        },
+        {
+          "case": "base",
+          "growth": 0.12,
+          "cells": [
+            {
+              "wacc": 0.0635630411444194,
+              "fair_value": 99.9375171536902,
+              "gap": -0.09279671540112078
+            },
+            {
+              "wacc": 0.0735630411444194,
+              "fair_value": 77.76351708958332,
+              "gap": -0.2940857434236738
+            },
+            {
+              "wacc": 0.0835630411444194,
+              "fair_value": 62.58652148639754,
+              "gap": -0.43185803008533497
+            },
+            {
+              "wacc": 0.09356304114441939,
+              "fair_value": 51.55223224979929,
+              "gap": -0.5320240510528307
+            },
+            {
+              "wacc": 0.1035630411444194,
+              "fair_value": 43.17268999255832,
+              "gap": -0.6080910624787135
+            }
+          ],
+          "fair_value_at_point_wacc": 62.58652148639754,
+          "gap_at_point_wacc": -0.43185803008533497
+        },
+        {
+          "case": "bull",
+          "growth": 0.2,
+          "cells": [
+            {
+              "wacc": 0.0635630411444194,
+              "fair_value": 144.32406971614404,
+              "gap": 0.31013130826343405
+            },
+            {
+              "wacc": 0.0735630411444194,
+              "fair_value": 113.07599035628287,
+              "gap": 0.02647046656895191
+            },
+            {
+              "wacc": 0.0835630411444194,
+              "fair_value": 91.70528210839227,
+              "gap": -0.16752651543406571
+            },
+            {
+              "wacc": 0.09356304114441939,
+              "fair_value": 76.18193570898104,
+              "gap": -0.3084428723999346
+            },
+            {
+              "wacc": 0.1035630411444194,
+              "fair_value": 64.40512487103601,
+              "gap": -0.4153492853124442
+            }
+          ],
+          "fair_value_at_point_wacc": 91.70528210839227,
+          "gap_at_point_wacc": -0.16752651543406571
+        }
+      ],
+      "summary": {
+        "bear": -0.6111467416052456,
+        "base": -0.43185803008533497,
+        "bull": -0.16752651543406571
+      },
+      "downside": -0.7393442803800798,
+      "upside": 0.31013130826343405
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The base is depressed BECAUSE the company is growing 13%, and that is the opposite of a weak business. Cash from operations nearly doubled year on year in the first half. Comparing a specialty distributor to Sysco or Performance Food is the wrong cohort \u2014 Chefs' earns a premium margin on a premium mix, and the engine's own cohort rank puts it at only the 40th percentile, so the screen is not even calling this cheap. A rich verdict on a company that has beaten and raised repeatedly is the analyst betting against an established operator on a multiple.",
+    "what_would_prove_it": "The no-growth test: what the business is worth if it simply stopped growing and released its working capital. If most of the enterprise value survives that test, the price is not paying for heroic growth and the counter wins.",
+    "already_visible": "Yes, and it is what settles the name against the counter. At the guided $310 million of adjusted EBITDA, a no-growth Chefs' Warehouse generates roughly $310m less about $45m of cash interest, $50m of cash tax and $40m of maintenance capital expenditure, or about $165 million. Capitalised at the 8.4% WACC with 2% terminal growth that is roughly $2.6 billion \u2014 barely half the $5.1 billion enterprise value. So more than half of today's price is growth that has not happened yet, and at my normalised base the market requires roughly +25% FCFF compounding for five years. The company's own guidance is about 12% EBITDA growth. The counter's two best arguments are also in tension with each other: the working-capital release it points to only arrives if growth SLOWS, and if growth slows the 25% does not happen. That tension is the mechanism, and it is why the counter did not win.",
+    "unresolved": "Whether a 16x forward EBITDA multiple is durable for specialty distribution. If the market keeps paying it, the shares can stay here on 12% growth for a long time without my base case being wrong \u2014 which is a statement about the horizon, not the value, and is why this is a 24-month call at medium conviction rather than a high-conviction short."
+  },
+  "what_changed": "No company-specific news in the store for 90 days, which is itself a caution rather than a confirmation. From the filings: Q2 2026 (period ended 2026-06-26) net sales $1.17 billion, up 12.9%; first-half cash from operations $96,651 thousand against $64,069 thousand a year earlier; total long-term debt $693,723 thousand against $720,333 thousand; cash $135,466 thousand. Fiscal 2026 guidance issued with the Q2 release on 2026-07-29. No 8-K under items 1.01, 2.01 or 3.02 in the last two quarters \u2014 no acquisition or financing invalidates the enterprise value or the share count.",
+  "consensus_case": "Chefs' Warehouse is the specialty distributor to independent restaurants and fine dining, a structurally better business than broadline: narrower drops, higher gross margin, stickier chefs. Second-quarter 2026 net sales rose 12.9% to $1.17 billion, operating margin expanded to 5.1% from 3.9%, and selling, general and administrative expense fell to 20.0% of sales from 20.7%. Full-year guidance is net sales of $4.50-4.60 billion, gross profit of $1.102-1.125 billion and adjusted EBITDA of $305-315 million. The market is paying for a compounder that has combined high-single-digit organic growth, disciplined tuck-in acquisition and 50-70bp a year of margin expansion, and that has beaten and raised repeatedly \u2014 the shares are up 67.8% over twelve months and 19.3% over three months. On that record, roughly 16x forward EBITDA is what a proven specialty compounder costs.",
+  "base_case_rationale": "FCFF growth of about 12%. Adjusted EBITDA is guided to $305-315 million on $4.50-4.60 billion of sales, roughly 12% growth on a 6.8% margin. Specialty distribution earns that margin because of mix, not scale, and the incremental margin on tuck-in acquisitions is similar to the base \u2014 so I take EBITDA growth of low double digits and let FCFF track it, with margin gains of 50-70bp a year offset by the working capital that 10%+ volume growth consumes. I differ from the naive baseline of +25% (itself a clamp on a +30.1% five-year revenue CAGR) because that CAGR is measured across the post-COVID reopening and a run of acquisitions; neither repeats.",
+  "key_risks": [
+    "I am calling the last twelve months of re-rating wrong \u2014 the shares are up 67.8% and momentum has been the dominant factor in this name",
+    "A distributor's free cash flow is working-capital noisy; one quarter of inventory discipline can make the base look far better than my $130 million normalisation",
+    "The specialty mix genuinely earns a premium multiple, so the peer comparison that anchors the rich call is contestable",
+    "Stock compensation is 30% of the reported FCFF base, and I have charged it in the override \u2014 an analyst treating it as free gets a materially different answer"
+  ],
+  "watch_for": [
+    "Full-year 2026 free cash flow: anything approaching $200 million would break my normalised base and the rich verdict with it",
+    "Organic versus acquired growth in the Q3 release \u2014 if organic is running below 6%, the required growth becomes unreachable",
+    "Independent-restaurant traffic data and any softening in the guided $4.50-4.60 billion sales range"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/pressreleaseex99106262026.htm",
+    "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000028/chef-20260626.htm",
+    "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm"
+  ],
+  "flags": [
+    "lumpy_fcff_spread_1.5x_of_mean",
+    "possible_peak_cycle_base_newest_fcf_20.8x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_30%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}
