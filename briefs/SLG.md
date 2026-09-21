@@ -1,20 +1,20 @@
-# CDP — COPT DEFENSE PROPERTIES
-*Real Estate · brief generated 2026-09-18 · selected as **rotation***
+# SLG — SL GREEN REALTY REIT CORP
+*Real Estate · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 188/1956
+- rotation position 192/1956
 
 ## Market
 | | |
 |---|---|
-| price | $34.54 |
-| market cap | $3.9B |
-| 5d / 21d / 63d / 252d | -2.6% / -6.3% / +4.8% / +17.6% |
-| 60d avg daily $ volume | $33.4M |
-| beta (vs IWM) | 0.48 (R²=0.193) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 60% / debt 40% |
+| price | $52.08 |
+| market cap | $3.7B |
+| 5d / 21d / 63d / 252d | -1.9% / -9.7% / +4.2% / -11.8% |
+| 60d avg daily $ volume | $51.8M |
+| beta (vs IWM) | 1.14 (R²=0.323) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-03-31 (10-K) |
+| WACC weights | equity 53% / debt 47% |
 
 ## What the market's price already assumes
 **No defensible free numeric model for this name** (status: not_modelled).
@@ -26,12 +26,11 @@ Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no mo
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_ebitda (n=77) | 20.5x | 10.7x / 16.1x / 22.2x | $7.03 / $22.26 / $39.32 |
-| ev_sales (n=91) | 8.6x | 3.3x / 7.5x / 11.1x | $-1.14 / $27.28 / $51.42 |
-| ev_gross_profit (n=38) | 9.9x | 7.8x / 10.1x / 15.6x | $22.13 / $35.85 / $67.88 |
-| p_tbv (n=83) | 2.7x | 1.0x / 1.6x / 2.2x | $12.66 / $19.96 / $27.77 |
+| ev_ebitda (n=77) | 7.7x | 10.7x / 15.9x / 21.9x | $91.10 / $157.72 / $234.89 |
+| ev_sales (n=91) | 7.0x | 3.3x / 7.4x / 11.1x | $-0.60 / $58.31 / $109.66 |
+| p_tbv (n=83) | 1.2x | 1.0x / 1.6x / 2.2x | $42.63 / $67.66 / $94.89 |
 
-Blended midpoint **$26.34** vs price $34.54 — gap **-23.7%**.
+Blended midpoint **$94.56** vs price $52.08 — gap **+81.6%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -43,21 +42,22 @@ Attack these before you trust any number above.
 - `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000040/cdp-20260630.htm
-- 2026-07-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000034/cdp-20260727.htm
-- 2026-05-20 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000031/cdp-20260514.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000029/cdp-20260331.htm
-- 2026-04-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000024/cdp-20260427.htm
-- 2026-03-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000017/cdp-20260327.htm
-- 2026-02-20 **10-K** — https://www.sec.gov/Archives/edgar/data/860546/000086054626000011/cdp-20251231.htm
-- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000007/cdp-20260205.htm
-- 2026-02-04 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860546/000086054626000003/cdp-20260130.htm
-- 2025-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/860546/000086054625000048/cdp-20250930.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026054436/slg-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/slg-20260722.htm
+- 2026-06-02 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926069472/tm2616703d1_8k.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026029075/slg-20260331.htm
+- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1040971/000110465926046866/tm261543-1_def14a.htm
+- 2026-04-16 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026025419/slg-20260415.htm
+- 2026-03-06 **8-K** — items 1.01,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926024682/tm267806d1_8k.htm
+- 2026-03-04 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926023512/tm267993d1_8k.htm
+- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026008669/slg-20251231.htm
+- 2026-01-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026004077/slg-20260128.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/860546/000086054626000034/cdp06302026ex991.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/a26q2earningsrelease.htm
+- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/a26q2supplemental.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -65,6 +65,8 @@ Attack these before you trust any number above.
 ## What is happening in Real Estate
 *From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
+- **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
 - **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
 - **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
 - **2026-09-17** · Ventas Stock: Is VTR Outperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4658670/ventas-stock-is-vtr-outperforming-the-real-estate-sector
@@ -73,22 +75,20 @@ Attack these before you trust any number above.
 - **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
 - **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
 - **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
-- **2026-09-14** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195503944.html
-- **2026-09-14** · Sector Update: Financial Stocks Retreat Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-monday-174712870.html
 
 ## Market and macro context
-- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
-- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
-- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
-- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
+- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
+- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
+- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
+- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
-- **2026-09-18** · International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19211/international-traffic-in-arms-regulations-modification-of-us-munitions-list-category-xxa
-- **2026-09-18** · Homeland Security Acquisition Regulation, Make Personal Protective Equipment in America Act Restrictions on Foreign Acquisition (HSAR Case 2024-003) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act
-- **2026-09-18** · Coral, Coral Reefs, and Live/Hardbottom Habitats of the South Atlantic and the Shrimp Fishery of the South Atlantic Region; Amendments 11/12 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19182/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the
-- **2026-09-18** · Milk in the Northeast and Other Marketing Areas; Uniform Pricing Formula Provisions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19177/milk-in-the-northeast-and-other-marketing-areas-uniform-pricing-formula-provisions
-- **2026-09-18** · Establishment of United States Area Navigation Route T-581 in the Vicinity of Missoula, Montana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19173/establishment-of-united-states-area-navigation-route-t-581-in-the-vicinity-of-missoula-montana
+- **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
+- **2026-09-21** · Safety Zone; Illinois River, Morris, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19270/safety-zone-illinois-river-morris-il
+- **2026-09-21** · Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19260/rescission-of-rule-14a-8s-federal-regulation-of-shareholder-proposals-and-amendments-to-rule-14a-4
+- **2026-09-21** · Proxy Solicitation Modernization — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19259/proxy-solicitation-modernization
+- **2026-09-21** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19255/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-21** · Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19254/great-lakes-pilotage-rates-2027-annual-review-and-revisions-to-methodology
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

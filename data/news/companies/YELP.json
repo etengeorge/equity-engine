@@ -1,5 +1,41 @@
 [
  {
+  "id": "c3894374-58b2-3b2e-bd53-22e54d4b9178",
+  "ts": "2026-09-17T09:14:17+00:00",
+  "title": "3 Russell 2000 Stocks That Fall Short",
+  "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-fall-091417768.html",
+  "tickers": [
+   "YELP"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "992fe18c-42d1-3a64-b8a9-601934d8b631",
+  "ts": "2026-09-16T14:26:30+00:00",
+  "title": "Zocdoc is (finally) ready to become the Resy of healthcare",
+  "summary": "The company is expanding the scheduling technology behind its marketplace to insurers, search platforms, and other healthcare services.",
+  "publisher": "FastCompany",
+  "url": "https://www.fastcompany.com/91608291/zocdoc-becoming-infrastructure-for-booking-doctor",
+  "tickers": [
+   "YELP"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3a904308-9e1b-3f50-984e-9f221dc2bc76",
+  "ts": "2026-09-10T17:29:00+00:00",
+  "title": "Yelp and Hatch Advance Voice AI for Restaurants and Service Pros with OpenAI's GPT-Live-1",
+  "summary": "SAN FRANCISCO, September 10, 2026--Yelp Inc. (NYSE: YELP), the company that connects people with great local businesses, today announced that it has integrated OpenAI\u2019s GPT-Live-1 into two of its AI-powered business tools: Yelp Host, its voice AI solution for restaurants, and Hatch, its AI communication platform for service businesses. Yelp Host and Hatch are among the first solutions to deploy GPT-Live-1, OpenAI's latest voice model featuring a full-duplex voice architecture, which enables conv",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/yelp-hatch-advance-voice-ai-172900102.html",
+  "tickers": [
+   "YELP"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "c6035796-ac42-37e7-b2b0-3b8e4c819874",
   "ts": "2026-09-08T07:30:31+00:00",
   "title": "How 7 Brew\u2019s first CMO is marketing the fastest-growing brand in the US",

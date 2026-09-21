@@ -1,24 +1,23 @@
 # ATKR — ATKORE
-*Industrials · brief generated 2026-09-18 · selected as **opportunistic***
+*Industrials · brief generated 2026-09-21 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 9% of 151 Industrials peers (91th pct)
-- baseline gap +122%
+- baseline gap +123%
 - filed an 8-K in the last few sessions
-- 1 news items in the last 5 days
-- Industrials is in the news
+- 2 news items in the last 5 days
 - never researched
-- urgency score 7.4
+- urgency score 7.13
 
 ## Market
 | | |
 |---|---|
-| price | $94.47 |
+| price | $94.32 |
 | market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +0.3% / +1.1% / +23.4% / +55.2% |
-| 60d avg daily $ volume | $73.8M |
+| 5d / 21d / 63d / 252d | +0.2% / +1.0% / +16.6% / +60.6% |
+| 60d avg daily $ volume | $75.4M |
 | beta (vs IWM) | 1.18 (R²=0.236) |
-| 5d volume vs 60d average | 1.0x |
+| 5d volume vs 60d average | 1.2x |
 | balance sheet as of | 2026-06-26 (10-Q) |
 | WACC weights | equity 81% / debt 19% |
 
@@ -31,17 +30,17 @@ Enterprise value **$3.6B** · FCFF yield **+11.9%**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.1% − 1pt | -9.9% |
-| **10.1% (point)** | **-7.2%** |
-| 10.1% + 1pt | -4.7% |
+| 10.1% − 1pt | -10.0% |
+| **10.1% (point)** | **-7.3%** |
+| 10.1% + 1pt | -4.8% |
 
 
 Naive baseline for comparison: **+10.1%** (5y revenue CAGR +10.1%).
-Gap under that baseline: **+122.4%** (fair value $210.11 vs price $94.47).
+Gap under that baseline: **+123.2%** (fair value $210.51 vs price $94.32).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **91th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +144.1%).
+Cohort: **91th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +145.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -69,8 +68,12 @@ Attack these before you trust any number above.
 - **2026-08-03** · EX-99.3 · press release — EX-99.3 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_992.htm
 
 ## News on this company — last 90 days
-*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
+*15 items held; showing the 15 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-20** · Why Atkore, Belden And Flex Stock Are Gaining Attention In AI Data Centers — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/why-atkore-belden-flex-stock-181008775.html
+  > AI data centers keep soaking up power and hardware spending while the Fed leans into higher-for-longer rates, and that mix is quietly reshaping which U.S. infrastructure stocks investors watch first. Big tech capex keeps flowing even as dis
+- **2026-09-18** · Q2 Electrical Systems Earnings Review: First Prize Goes to Atkore (NYSE:ATKR) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-electrical-systems-earnings-review-183240634.html
+  > Let’s dig into the relative performance of Atkore (NYSE:ATKR) and its peers as we unravel the now-completed Q2 electrical systems earnings season.
 - **2026-09-14** · Is Applied Industrial Technologies (AIT) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/applied-industrial-technologies-ait-outperforming-134006872.html
   > Here is how Applied Industrial Technologies (AIT) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
 - **2026-09-10** · 3 Russell 2000 Stocks We’re Skeptical Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-234504822.html
@@ -113,18 +116,18 @@ Attack these before you trust any number above.
 - **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 
 ## Market and macro context
-- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
-- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
-- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
-- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
+- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
+- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
+- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
+- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
-- **2026-09-18** · International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19211/international-traffic-in-arms-regulations-modification-of-us-munitions-list-category-xxa
-- **2026-09-18** · Homeland Security Acquisition Regulation, Make Personal Protective Equipment in America Act Restrictions on Foreign Acquisition (HSAR Case 2024-003) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act
-- **2026-09-18** · Coral, Coral Reefs, and Live/Hardbottom Habitats of the South Atlantic and the Shrimp Fishery of the South Atlantic Region; Amendments 11/12 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19182/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the
-- **2026-09-18** · Milk in the Northeast and Other Marketing Areas; Uniform Pricing Formula Provisions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19177/milk-in-the-northeast-and-other-marketing-areas-uniform-pricing-formula-provisions
-- **2026-09-18** · Establishment of United States Area Navigation Route T-581 in the Vicinity of Missoula, Montana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19173/establishment-of-united-states-area-navigation-route-t-581-in-the-vicinity-of-missoula-montana
+- **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
+- **2026-09-21** · Safety Zone; Illinois River, Morris, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19270/safety-zone-illinois-river-morris-il
+- **2026-09-21** · Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19260/rescission-of-rule-14a-8s-federal-regulation-of-shareholder-proposals-and-amendments-to-rule-14a-4
+- **2026-09-21** · Proxy Solicitation Modernization — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19259/proxy-solicitation-modernization
+- **2026-09-21** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19255/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-21** · Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19254/great-lakes-pilotage-rates-2027-annual-review-and-revisions-to-methodology
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

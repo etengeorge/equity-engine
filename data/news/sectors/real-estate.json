@@ -1,5 +1,33 @@
 [
  {
+  "id": "e5e3cc63-4546-344f-829d-2bdb8e6b3c36",
+  "ts": "2026-09-18T20:06:41+00:00",
+  "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+  "summary": "Financial stocks were mixed in late Friday afternoon trading, with the NYSE Financial Index declinin",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "18dcc108-701a-3095-80c9-67f65f678158",
+  "ts": "2026-09-18T17:59:36+00:00",
+  "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+  "summary": "Financial stocks fell in Friday afternoon trading with the NYSE Financial Index declining 0.7% and t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "8258ac59-2ce5-3a59-90e9-42077bc9d6da",
   "ts": "2026-09-17T19:57:38+00:00",
   "title": "Sector Update: Financial Stocks Mixed Late Afternoon",

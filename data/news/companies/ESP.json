@@ -22,29 +22,5 @@
    "ESP"
   ],
   "source": "yfinance"
- },
- {
-  "id": "f14ec86f-af49-3839-ba52-5d4d4cec641a",
-  "ts": "2026-05-21T15:25:00+00:00",
-  "title": "The Zacks Analyst Blog Highlights Johnson & Johnson, Oracle, Netflix and Espey",
-  "summary": "JNJ, ORCL and NFLX headline top Zacks research reports as cloud growth, drug launches and ad expansion drive focus.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-johnson-152500200.html",
-  "tickers": [
-   "ESP"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "7adf3672-e033-3ca9-9864-d3778a149d69",
-  "ts": "2026-05-20T20:57:00+00:00",
-  "title": "Top Stock Reports for Johnson & Johnson, Oracle & Netflix",
-  "summary": "Johnson & Johnson, Oracle and Netflix lead Zacks' top stock reports as analysts spotlight growth drivers, cloud gains and new monetization efforts.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-johnson-johnson-205700119.html",
-  "tickers": [
-   "ESP"
-  ],
-  "source": "yfinance"
  }
 ]

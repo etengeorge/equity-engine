@@ -1,5 +1,29 @@
 [
  {
+  "id": "50a78292-51a3-381d-8b0b-853417444c02",
+  "ts": "2026-09-15T16:15:46+00:00",
+  "title": "Bitcoin Mining Faces A Shakeout As CORZ, KEEL, IREN, CIFR Get Ready To Exit, Says CoinShares",
+  "summary": "CoinShares said on Tuesday that at least 35 EH/s of computing power will leave the listed miners in the third quarter.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/bitcoin-mining-shakeout-as-corz-keel-iren-cifr-exit-coin-shares/cZtnLkIRBcj",
+  "tickers": [
+   "KEEL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e6b3260d-7be5-321e-8843-7347b6629b47",
+  "ts": "2026-09-10T18:41:14+00:00",
+  "title": "PowerSecure Builds Standby Power for Keel's Data Center Campus",
+  "summary": "Modular PowerBlocks will provide standby power and peak shaving at the campus",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/technology/articles/powersecure-builds-standby-power-keels-184114207.html",
+  "tickers": [
+   "KEEL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ca5985e2-5a1a-3390-b972-965cd8b211ea",
   "ts": "2026-09-10T14:29:00+00:00",
   "title": "Southern Company's Unit PowerSecure Wins Data Center Power Project",

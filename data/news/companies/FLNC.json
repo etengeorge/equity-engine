@@ -1,5 +1,41 @@
 [
  {
+  "id": "130e09a3-c11c-3097-bd5c-c5b90d8d0e37",
+  "ts": "2026-09-21T09:55:00+00:00",
+  "title": "What an AI Slowdown Would Mean for Energy Stocks",
+  "summary": "The most prominent voices in AI, including Sam Altman and Dario Amodei, sent stark warnings: Development needs to slow, lest the technology outruns our ability to rein it in (or something to that effect). The thinking goes that if AI training slows, Big Tech will pull back on capital spending, which could lead to ewer data centers being built and lower electricity demand. This would be bad news for utilities, electricity providers, equipment and services companies.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/what-ai-slowdown-would-mean-for-energy-stocks-c30bd1e7?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b4fe504a-9720-30fe-b06e-0196e2991ec6",
+  "ts": "2026-09-18T23:04:40+00:00",
+  "title": "Fluence Energy (FLNC) Stock Trades Down, Here Is Why",
+  "summary": "Shares of electricity storage and software provider Fluence (NASDAQ:FLNC) fell 5.3% in the afternoon session after Jefferies downgraded the company from Buy to Hold with a price target of $7.00.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/fluence-energy-flnc-stock-trades-230440942.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7f362aef-9aa4-3c28-aa06-98d96281d44a",
+  "ts": "2026-09-18T14:47:00+00:00",
+  "title": "FLNC Revises FY2026 Outlook on Manufacturing Delays: What's Ahead?",
+  "summary": "Fluence Energy cuts fiscal 2026 revenue and EBITDA guidance as Houston manufacturing delays hinder deliveries despite strong demand.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/flnc-revises-fy2026-outlook-manufacturing-144700098.html",
+  "tickers": [
+   "FLNC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "524c5abc-47c1-36fc-a3b1-3570b1f99779",
   "ts": "2026-09-18T08:01:20+00:00",
   "title": "1 Industrials Stock with Promising Prospects and 2 Facing Headwinds",

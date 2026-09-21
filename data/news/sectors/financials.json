@@ -1,5 +1,47 @@
 [
  {
+  "id": "e5e3cc63-4546-344f-829d-2bdb8e6b3c36",
+  "ts": "2026-09-18T20:06:41+00:00",
+  "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+  "summary": "Financial stocks were mixed in late Friday afternoon trading, with the NYSE Financial Index declinin",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "18dcc108-701a-3095-80c9-67f65f678158",
+  "ts": "2026-09-18T17:59:36+00:00",
+  "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+  "summary": "Financial stocks fell in Friday afternoon trading with the NYSE Financial Index declining 0.7% and t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "3c5fd7a7-5d1d-3f7e-b708-db85914fabc9",
+  "ts": "2026-09-18T17:18:26+00:00",
+  "title": "Exchange-Traded Funds, US Equities Lower After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "613d64cc-0699-3434-a0d4-fe93e15ed14c",
   "ts": "2026-09-18T14:05:38+00:00",
   "title": "Betting Against Banks With FAZ? You\u2019re Actually Shorting Insurers and Brokers",
@@ -20,6 +62,20 @@
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was 0.03% lower and the actively",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "257fe1b6-00ba-3842-9b35-5109eec9b9da",
+  "ts": "2026-09-18T10:52:57+00:00",
+  "title": "How Is Principal Financial's Stock Performance Compared to Other Financial Stocks",
+  "summary": "Principal Financial has rallied other financial stocks, yet analysts remain skeptical about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4676218/how-is-principal-financial-s-stock-performance-compared-to-other-financial-stocks",
   "tickers": [
    "XLF"
   ],

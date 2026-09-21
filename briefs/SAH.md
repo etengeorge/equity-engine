@@ -1,48 +1,49 @@
 # SAH — SONIC AUTOMOTIVE INC CLASS A
-*Consumer Discretionary · brief generated 2026-09-18 · selected as **opportunistic***
+*Consumer Discretionary · brief generated 2026-09-21 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 1% of 128 Consumer Discretionary peers (99th pct)
-- baseline gap +268%
+- baseline gap +282%
 - discounted: cash-flow base may be a cycle peak
-- 5d move -13%
-- 21d move -14%
+- 5d move -16%
+- 21d move -19%
+- 1 news items in the last 5 days
 - Consumer Discretionary is in the news
 - never researched
-- urgency score 6.91
+- urgency score 7.51
 
 ## Market
 | | |
 |---|---|
-| price | $65.95 |
-| market cap | $2.3B |
-| 5d / 21d / 63d / 252d | -13.3% / -14.2% / -15.1% / -15.0% |
-| 60d avg daily $ volume | $23.5M |
-| beta (vs IWM) | 0.89 (R²=0.198) |
-| 5d volume vs 60d average | 0.9x |
+| price | $63.66 |
+| market cap | $2.2B |
+| 5d / 21d / 63d / 252d | -15.7% / -18.8% / -20.7% / -16.5% |
+| 60d avg daily $ volume | $24.4M |
+| beta (vs IWM) | 0.91 (R²=0.199) |
+| 5d volume vs 60d average | 1.4x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 57% / debt 43% |
+| WACC weights | equity 56% / debt 44% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$400.9M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$717.3M', '$296.5M', '$187.9M']
-Enterprise value **$4.0B** · FCFF yield **+10.0%**
+Enterprise value **$3.9B** · FCFF yield **+10.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.5% − 1pt | -15.0% |
-| **7.5% (point)** | **-11.3%** |
-| 7.5% + 1pt | -8.0% |
+| 7.5% − 1pt | -15.4% |
+| **7.5% (point)** | **-11.7%** |
+| 7.5% + 1pt | -8.4% |
 
 
 Naive baseline for comparison: **+9.2%** (5y revenue CAGR +9.2%).
-Gap under that baseline: **+268.2%** (fair value $242.82 vs price $65.95).
+Gap under that baseline: **+282.3%** (fair value $243.40 vs price $63.66).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +263.9%).
+Cohort: **99th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +278.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -68,11 +69,34 @@ Attack these before you trust any number above.
 - **2026-07-30** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1043509/000162828026050837/exhibit992.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-15** · Are You Looking for a High-Growth Dividend Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/looking-high-growth-dividend-stock-154503921.html
+  > Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Sonic Automotive (SAH) have what it takes? Let's find out.
+- **2026-09-09** · Sonic Powersports Sets Another Sturgis Motorcycle Rally Sales Record With 1,135 Motorcycles Sold, Showcasing Strength of Expanded National Network Strategy — *PR Newswire* — https://finance.yahoo.com/small-business/articles/sonic-powersports-sets-another-sturgis-120000433.html
+  > Sonic Automotive, Inc. (NYSE: SAH), one of the nation's largest automotive and powersports retailers and the only automotive and powersports retailer recognized on Newsweek's 2026 "Most Trustworthy Companies in America" list, today announce
+- **2026-08-29** · Sonic Automotive (SAH) Buys Porsche Dealership As Fair Value Debate Comes Into Focus — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/sonic-automotive-sah-buys-porsche-121220281.html
+  > Sonic Automotive (SAH) is back in focus after announcing the acquisition of Porsche Walnut Creek in the Bay Area. The move expands its luxury dealership footprint as investors reassess the stock’s recent share price pullback. For context, S
+- **2026-08-28** · Is Sonic’s Porsche Walnut Creek Deal Reframing Its Luxury Expansion And Diversification Story (SAH)? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/sonic-porsche-walnut-creek-deal-201427906.html
+  > Sonic Automotive recently acquired Porsche Walnut Creek, expanding its Bay Area footprint and deepening its involvement in the luxury automotive retail segment through its growing Porsche franchise network. This move reinforces Sonic’s push
+- **2026-08-28** · Here's Why You Should Retain Sonic Stock in Your Portfolio — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-retain-sonic-stock-153600871.html
+  > SAH's diversification, Powersports gains and EchoPark growth support the stock, but leverage and affordability pressures weigh.
+- **2026-08-27** · Sonic Automotive Expands Luxury Portfolio with Acquisition of Porsche Walnut Creek — *PR Newswire* — https://finance.yahoo.com/small-business/articles/sonic-automotive-expands-luxury-portfolio-161400267.html
+  > Sonic Automotive, Inc. (NYSE: SAH), one of the nation's largest automotive and powersports retailers and a recipient of Newsweek's 2026 Most Trustworthy Companies in America recognition, today announced the acquisition of Porsche Walnut Cre
+- **2026-08-27** · Why Sonic Automotive (SAH) is a Great Dividend Stock Right Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-sonic-automotive-sah-great-154503222.html
+  > Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Sonic Automotive (SAH) have what it takes? Let's find out.
+- **2026-08-27** · The Presidio Group Exclusively Advised Fletcher Jones Automotive Group on the Sale of a Northern California Porsche Dealership to Sonic Automotive — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/presidio-group-exclusively-advised-fletcher-133400653.html
+  > WALNUT CREEK, Calif., August 27, 2026--The Presidio Group LLC ("Presidio"), an independent merchant banking firm focused on mergers and acquisitions, capital raising and investments in the automotive retail and consumer mobility sectors, ex
+- **2026-08-17** · Major Franchise Auto Dealers' 2027 Earnings Could Take Hit if Downside Scenario Plays Out, UBS Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/major-franchise-auto-dealers-apos-185641607.html
+  > Major US franchise auto dealers could face earnings pressure next year if a downside scenario plays
+- **2026-08-11** · Sonic Automotive (SAH) Could Be a Great Choice — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/sonic-automotive-sah-could-great-154503708.html
+  > Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Sonic Automotive (SAH) have what it takes? Let's find out.
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-18** · Sector Update: Consumer Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195143538.html
+- **2026-09-18** · Automaker Stocks Reverse as Rotation Trade Unwinds: General Motors and Stellantis Fall 4%, Ford Pulls Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/automaker-stocks-reverse-as-rotation-trade-unwinds-general-motors-and-stellantis-fall-4-ford-pulls-back/
 - **2026-09-18** · Stock Market News for Sep 18, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html
 - **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-18** · On Holding Climbs 5% as Kylian Mbappé Joins Its Football Push; Nike Slips — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/on-holding-climbs-5-as-kylian-mbappe-joins-its-football-push-nike-slips/
@@ -81,22 +105,20 @@ Attack these before you trust any number above.
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-17** · Ball Corporation Stock: Is BALL Outperforming the Consumer Discretionary Sector? — *Barchart* — https://www.barchart.com/story/news/4651274/ball-corporation-stock-is-ball-outperforming-the-consumer-discretionary-sector
 - **2026-09-16** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195104531.html
-- **2026-09-16** · Sector Update: Consumer Stocks Advance Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-174939504.html
-- **2026-09-16** · NVR Stock: Is NVR Underperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4635306/nvr-stock-is-nvr-underperforming-the-consumer-cyclical-sector
 
 ## Market and macro context
-- **2026-09-18** · Stock Market Today: Techs Move Higher As Dow Slides; Taiwan Semiconductor Nears Buy Point (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/?src=A00220&yptr=yahoo
-- **2026-09-18** · 2 Growth Stocks I Plan to Buy if the Stock Market Crashes — *Motley Fool* — https://www.fool.com/investing/2026/09/18/2-growth-stocks-i-plan-to-buy-stock-market-crashes/
-- **2026-09-18** · Here's Why You Should Hold on to Republic Services Stock for Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-republic-services-141600867.html
-- **2026-09-18** · S&P 500 wavers after best one-day rally in six weeks: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/sp-500-wavers-after-best-one-day-rally-in-six-weeks-alphacheck-141322068.html
+- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
+- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
+- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
+- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-09-18** · Employment in the Excepted Service — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service
-- **2026-09-18** · International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19211/international-traffic-in-arms-regulations-modification-of-us-munitions-list-category-xxa
-- **2026-09-18** · Homeland Security Acquisition Regulation, Make Personal Protective Equipment in America Act Restrictions on Foreign Acquisition (HSAR Case 2024-003) — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act
-- **2026-09-18** · Coral, Coral Reefs, and Live/Hardbottom Habitats of the South Atlantic and the Shrimp Fishery of the South Atlantic Region; Amendments 11/12 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19182/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the
-- **2026-09-18** · Milk in the Northeast and Other Marketing Areas; Uniform Pricing Formula Provisions — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19177/milk-in-the-northeast-and-other-marketing-areas-uniform-pricing-formula-provisions
-- **2026-09-18** · Establishment of United States Area Navigation Route T-581 in the Vicinity of Missoula, Montana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/18/2026-19173/establishment-of-united-states-area-navigation-route-t-581-in-the-vicinity-of-missoula-montana
+- **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
+- **2026-09-21** · Safety Zone; Illinois River, Morris, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19270/safety-zone-illinois-river-morris-il
+- **2026-09-21** · Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19260/rescission-of-rule-14a-8s-federal-regulation-of-shareholder-proposals-and-amendments-to-rule-14a-4
+- **2026-09-21** · Proxy Solicitation Modernization — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19259/proxy-solicitation-modernization
+- **2026-09-21** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19255/airworthiness-directives-the-boeing-company-airplanes
+- **2026-09-21** · Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19254/great-lakes-pilotage-rates-2027-annual-review-and-revisions-to-methodology
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

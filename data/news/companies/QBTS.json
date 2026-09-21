@@ -1,5 +1,41 @@
 [
  {
+  "id": "0835d906-8602-3218-a358-653c4198c2ad",
+  "ts": "2026-09-21T11:00:00+00:00",
+  "title": "D-Wave Appoints Bernard Gavgani to Board of Directors and Cybersecurity Committee",
+  "summary": "PALO ALTO, Calif., September 21, 2026--D-Wave Quantum Inc. (NASDAQ: QBTS) (\"D-Wave\" or the \"Company\"), the only dual-platform quantum computing company providing both annealing and gate-model systems, software and services, today announced the appointment of veteran financial technology executive Bernard Gavgani to its Board of Directors and Cybersecurity Committee.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/d-wave-appoints-bernard-gavgani-110000405.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "927a0832-1be8-35dc-ab8b-82235d6d9996",
+  "ts": "2026-09-18T22:37:35+00:00",
+  "title": "IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists",
+  "summary": "IonQ (IONQ) shares rose 9.5% on Thursday, closing at $40.34 after six sessions that had mostly gone the other way. The reason on offer was research: quantum algorithms running inside mainstream engineering software, developed with Synopsys, sped up complex industrial design by up to 14.6%. That is genuine progress. It is also not a sale, and the price you pay for IonQ already assumes a great many sales.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615831/ionq-stock-surges-on-tech-wins-but-the-heavy-burn-persists/2026-09-18",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6dcd3287-5555-3313-8e4f-228376ddb949",
+  "ts": "2026-09-18T19:50:00+00:00",
+  "title": "Inside the Trump Administration\u2019s $215 Million Bet to Win the Quantum Arms Race",
+  "summary": "The U.S. Energy Department launches Quantum Genesis Q, a competition to build an error-corrected, \u2018scientifically relevant\u2019 quantum computer.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/quantum-computing-trump-initiative-rigetti-quantinuum-cc37cc68?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b532a78d-aa99-31b2-81ad-99895ad65ca8",
   "ts": "2026-09-18T13:54:17+00:00",
   "title": "What Needs To Be True To Buy Rigetti Stock Today?",

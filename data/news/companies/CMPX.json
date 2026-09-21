@@ -70,17 +70,5 @@
    "CMPX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "99c4b124-80ad-354d-9b7b-1458b88eee2a",
-  "ts": "2026-05-21T21:00:00+00:00",
-  "title": "Compass Therapeutics to Present Promising Phase 1 Clinical Data for CTX-8371 in Patients with Advanced Malignancies Treated in the Post-Checkpoint Inhibitor Setting at the 2026 ASCO Annual Meeting",
-  "summary": "CTX-8371, a novel dual checkpoint blocker that simultaneously targets the programmed death receptor PD-1 and its ligand PD-L1, demonstrated promising monotherapy clinical activity in patients with advanced malignancies resistant to prior immune checkpoint inhibitors.Deep and durable responses were observed in patients with triple-negative breast cancer (TNBC), Hodgkin lymphoma (HL), and non-small cell lung cancer (NSCLC).CTX-8371 was generally well tolerated with no observed dose limiting toxici",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/compass-therapeutics-present-promising-phase-210000655.html",
-  "tickers": [
-   "CMPX"
-  ],
-  "source": "yfinance"
  }
 ]

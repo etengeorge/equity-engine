@@ -1,5 +1,29 @@
 [
  {
+  "id": "0401ee43-87cb-31a6-b6a1-d46dc1272fb4",
+  "ts": "2026-09-19T11:00:00+00:00",
+  "title": "MarketBeat Week in Review \u2013 09/14 - 09/18",
+  "summary": "A volatile week saw AI regulation fears hit chip stocks before a recovery, with MarketBeat writers covering Micron, Nike, Tesla, Rocket Lab, Adobe, SpaceX and other stocks ahead of key inflation and jobs data.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-09-14-09-18/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "ALMU"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3833243c-cf1f-3424-a751-38f1e76a9cf4",
+  "ts": "2026-09-17T18:15:00+00:00",
+  "title": "Aeluma\u2019s Selloff Could Be Setting Up Its Next Big Move",
+  "summary": "Aeluma stock fell after fiscal Q4 2026 earnings showed wider losses, but the photonics maker holds $56 million in cash and analysts maintain a Moderate Buy rating amid its commercialization push.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/aelumas-selloff-could-be-setting-up-its-next-big-move/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "ALMU"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "ca6bf394-89a0-3519-99ae-f28270e628da",
   "ts": "2026-09-17T15:42:52+00:00",
   "title": "Aeluma (ALMU) Q4 2026 Earnings Call Transcript",

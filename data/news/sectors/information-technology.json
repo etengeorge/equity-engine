@@ -1,5 +1,75 @@
 [
  {
+  "id": "677776a9-b0b5-34df-be2e-856a4436a8af",
+  "ts": "2026-09-18T19:57:13+00:00",
+  "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+  "summary": "Tech stocks rose late Friday afternoon, with the State Street Technology Select Sector SPDR ETF (XLK",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195713111.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "44fdf105-7717-330b-9f7a-e994d8bef8b4",
+  "ts": "2026-09-18T18:07:07+00:00",
+  "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+  "summary": "Oracle is sliding hard on a day when its cloud rivals are barely flinching, and the reason behind that split tells investors something important about where the real pressure on ORCL stock is coming from.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/18/oracle-falls-3-while-cloud-rivals-hold-their-ground-microsoft-dips-amazon-nudges-higher/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "7e3d7114-035c-3940-ba95-094053096478",
+  "ts": "2026-09-18T17:35:00+00:00",
+  "title": "Sector Update: Tech Stocks Edge Higher Friday Afternoon",
+  "summary": "Tech stocks were edging higher Friday afternoon, with the State Street Technology Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-edge-higher-173500656.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "c15f70d0-e5ab-3836-85b6-b4294828a66e",
+  "ts": "2026-09-18T17:25:40+00:00",
+  "title": "Why XLK\u2019s Next Rebalance Won\u2019t Fix Its Massive Concentration Problem",
+  "summary": "XLK markets itself as diversified large-cap tech exposure, but a closer look at the holdings reveals a chip bet so large that even a quarterly rebalance may do nothing to shrink it.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/09/18/why-xlks-next-rebalance-wont-fix-its-massive-concentration-problem/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "3c5fd7a7-5d1d-3f7e-b708-db85914fabc9",
+  "ts": "2026-09-18T17:18:26+00:00",
+  "title": "Exchange-Traded Funds, US Equities Lower After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "be5347eb-21cb-32ab-a9bb-4daabb3c9cf1",
   "ts": "2026-09-18T13:54:20+00:00",
   "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",

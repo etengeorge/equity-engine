@@ -1,5 +1,61 @@
 [
  {
+  "id": "adce8e07-900a-37cd-a57e-1d40ee04e608",
+  "ts": "2026-09-18T20:06:21+00:00",
+  "title": "Sector Update: Energy Stocks Fall Late Afternoon",
+  "summary": "Energy stocks fell late Friday afternoon with the NYSE Energy Sector Index declining 0.7% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-200621416.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "fcd76858-30ab-3878-919e-2197313c44f5",
+  "ts": "2026-09-18T17:57:55+00:00",
+  "title": "Sector Update: Energy Stocks Lower in Afternoon Trading",
+  "summary": "Energy stocks were softer Friday afternoon, with the NYSE Energy Sector Index decreasing 0.6% and th",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175755773.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "3c5fd7a7-5d1d-3f7e-b708-db85914fabc9",
+  "ts": "2026-09-18T17:18:26+00:00",
+  "title": "Exchange-Traded Funds, US Equities Lower After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "7382c7d6-e5fb-3276-9e16-13bdf2c100c5",
+  "ts": "2026-09-18T16:10:36+00:00",
+  "title": "The Oil Fund Beating USO by Harvesting Roll Yield Faces Its Biggest Test Yet",
+  "summary": "DBO's roll-yield strategy turned crude's backwardation into a triple-digit gain this year, but the EIA sees WTI dropping more than $30 by spring and no futures trick can outrun a slide that big.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/09/18/the-oil-fund-beating-uso-by-harvesting-roll-yield-faces-its-biggest-test-yet/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "6c666566-5105-373b-b074-86f34dbc6e79",
   "ts": "2026-09-18T13:28:53+00:00",
   "title": "Sector Update: Energy Stocks Fall Pre-Bell Friday",

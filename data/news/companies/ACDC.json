@@ -1,5 +1,17 @@
 [
  {
+  "id": "c0e896e1-72ec-3518-a07e-adfcee9fd312",
+  "ts": "2026-09-21T07:58:25+00:00",
+  "title": "3 Unpopular Stocks Walking a Fine Line",
+  "summary": "Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating business lines like M&A advisory.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-walking-fine-075825378.html",
+  "tickers": [
+   "ACDC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1ee8df0b-a378-3cc2-b013-702962f02d44",
   "ts": "2026-09-09T01:11:18+00:00",
   "title": "Centrus Energy, SM Energy, BKV, Select Water Solutions, and ProFrac Stocks Trade Up, What You Need To Know",

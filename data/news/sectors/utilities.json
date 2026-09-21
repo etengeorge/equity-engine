@@ -1,5 +1,19 @@
 [
  {
+  "id": "ab75e0ae-a236-3b52-8a01-c51a2c8ea933",
+  "ts": "2026-09-18T13:37:29+00:00",
+  "title": "CMS Energy Stock: Is CMS Underperforming the Utility Sector?",
+  "summary": "Although CMS Energy has lagged behind the utility sector over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4679879/cms-energy-stock-is-cms-underperforming-the-utility-sector",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "95ca57af-e400-3de4-a620-ac942ff5a012",
   "ts": "2026-09-18T13:30:00+00:00",
   "title": "Stock Market News for Sep 18, 2026",

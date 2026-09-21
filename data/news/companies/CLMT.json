@@ -1,5 +1,41 @@
 [
  {
+  "id": "130e09a3-c11c-3097-bd5c-c5b90d8d0e37",
+  "ts": "2026-09-21T09:55:00+00:00",
+  "title": "What an AI Slowdown Would Mean for Energy Stocks",
+  "summary": "The most prominent voices in AI, including Sam Altman and Dario Amodei, sent stark warnings: Development needs to slow, lest the technology outruns our ability to rein it in (or something to that effect). The thinking goes that if AI training slows, Big Tech will pull back on capital spending, which could lead to ewer data centers being built and lower electricity demand. This would be bad news for utilities, electricity providers, equipment and services companies.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/what-ai-slowdown-would-mean-for-energy-stocks-c30bd1e7?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "CLMT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b7291a17-90f9-3dfa-9983-65960c25e325",
+  "ts": "2026-09-20T01:13:03+00:00",
+  "title": "Calumet (CLMT) Stock May Trade At A Premium On Loan Funding News",
+  "summary": "Calumet has turned a very long term gain into a talking point, with the stock up about 7x over the past 5 years. The question now is whether that jump is supported by the sales the business is generating today. A roughly 678.4% return over 5 years puts a lot of expectations into the current share price. Investors are now forced to ask what that move implies about the value being placed on Calumet's revenue base. The recent upsizing of the senior secured revolving credit facility to US$600...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/calumet-clmt-stock-may-trade-011303325.html",
+  "tickers": [
+   "CLMT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "70188f12-ed80-3339-9245-c6a35ed881a7",
+  "ts": "2026-09-18T16:00:03+00:00",
+  "title": "Why Barchart\u2019s Top Technical Analysis Expert Isn\u2019t Adding This Hot Stock (Up 220%) to His Portfolio",
+  "summary": "Calumet (CLMT) exhibits strong technical momentum, with shares setting a new all-time high on Friday, Sept. 18. Shares are up more than 220% over the past year. Analyst sentiment is divided with price targets ranging from $40 to $75. I remain cautious due to inconsistent future revenue and earnings expectations,...",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4682540/why-barcharts-top-technical-analysis-expert-isnt-adding-this-hot-stock-up-220-to-his-portfolio",
+  "tickers": [
+   "CLMT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "820c0320-bc3f-3340-b595-0fd9d8e8ee54",
   "ts": "2026-09-14T20:15:00+00:00",
   "title": "Calumet Upsizes Senior Secured Revolving Credit Facility and Receives Final $34 Million Draw under the DOE Loan",
