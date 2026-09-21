@@ -1,94 +1,91 @@
-# REFI — CHICAGO ATLANTIC REAL ESTATE FINAN
+# AOMR — ANGEL OAK MORTGAGE REIT
 *Financials · brief generated 2026-09-21 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 339 Financials peers (96th pct)
-- baseline gap +96%
-- volume 2.2x its 60d average
-- 1 news items in the last 5 days
+- cheapest 2% of 339 Financials peers (98th pct)
+- baseline gap +116%
 - Financials is in the news
 - never researched
-- urgency score 6.87
+- urgency score 6.31
 
 ## Market
 | | |
 |---|---|
-| price | $10.98 |
-| market cap | $281.3M |
-| 5d / 21d / 63d / 252d | +2.3% / +3.7% / +0.1% / -4.3% |
-| 60d avg daily $ volume | $2.1M |
-| beta (vs IWM) | 0.54 (R²=0.237) |
-| 5d volume vs 60d average | 2.2x |
+| price | $7.90 |
+| market cap | $183.4M |
+| 5d / 21d / 63d / 252d | -2.5% / -7.2% / -2.9% / -5.8% |
+| 60d avg daily $ volume | $1.2M |
+| beta (vs IWM) | 0.92 (R²=0.435) |
+| 5d volume vs 60d average | 1.5x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 51% / debt 49% |
+| WACC weights | equity 7% / debt 93% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +12.6% |
-| cost of equity | +7.9% |
-| justified P/TBV | 1.79 |
-| actual P/TBV | 0.91 |
-| tangible book / share | $12.01 |
-| implied gap | +95.8% |
+| sustainable ROTCE | +13.9% |
+| cost of equity | +10.0% |
+| justified P/TBV | 1.48 |
+| actual P/TBV | 0.69 |
+| tangible book / share | $11.52 |
+| implied gap | +116.2% |
 
-Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +130.7%).
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +150.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `last_10k_1360d_old`
+- none raised
 
 ## Recent filings
-- 2026-08-11 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea0301176-8k425_chicago.htm
-- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1867949/000119312526343398/refi-20260630.htm
-- 2026-07-13 **8-K** — items 1.01,3.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026077585/ea0297476-8k425_chicago.htm
-- 2026-06-18 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea0295037-8k425_chicago.htm
-- 2026-06-11 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026067830/ea0294462-8k_chicago.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026053036/ea0289393-8k_chicago.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1867949/000119312526210274/refi-20260331.htm
-- 2026-04-23 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1867949/000119312526171796/refi-20260422.htm
-- 2026-03-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1867949/000121390026026631/ea0280819-8k_chicago.htm
-- 2026-03-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1867949/000119312526103027/refi-20251231.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
+- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
+- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
+- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
+- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
+- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99.1 · press release — PRESS RELEASE DATED AUGUST 11, 2026 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea030117601ex99-1.htm
-- **2026-08-11** · EX-99.2 · presentation — SECOND QUARTER 2026 EARNINGS SUPPLEMENTAL PRESENTATION DATED AUGUST 11, 2026 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea030117601ex99-2.htm
-- **2026-07-13** · EX-99.1 · press release — PRESS RELEASE, DATED JULY 13, 2026 *(item: entry into a material agreement, unregistered sale of equity, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1867949/000121390026077585/ea029747601ex99-1.htm
-- **2026-06-18** · EX-99.1 · press release — JOINT PRESS RELEASE, DATED JUNE 18, 2026 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea029503701ex99-1.htm
-- **2026-06-18** · EX-99.2 · presentation — INVESTOR PRESENTATION, DATED JUNE 18, 2026 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea029503701ex99-2.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-16** · Chicago Atlantic Real Estate Finance Declares Common Stock Dividend of $0.47 for the Third Quarter of 2026 — *GlobeNewswire* — https://finance.yahoo.com/real-estate/articles/chicago-atlantic-real-estate-finance-110000088.html
-  > CHICAGO, Sept. 16, 2026 (GLOBE NEWSWIRE) -- Chicago Atlantic Real Estate Finance, Inc. (NASDAQ: REFI), a commercial mortgage real estate investment trust, announced that its board of directors has declared a regular quarterly cash dividend 
-- **2026-08-18** · Chicago Atlantic (REFI) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/18/chicago-atlantic-refi-q2-2026-earnings-call-transcript/
-  > REIT reports $0.44 distributable earnings amid capital redeployment.
-- **2026-08-13** · Chicago Atlantic BDC Inc (LIEN) (Q2 2026) Earnings Call Highlights: Record Credit Quality and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/chicago-atlantic-bdc-inc-lien-230435605.html
-  > Strong net investment income and a robust $1.1 billion pipeline position the company for growth despite a temporary dip in origination activity.
-- **2026-08-13** · Chicago Atlantic BDC Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/chicago-atlantic-bdc-q2-earnings-call-highlights-2026-08-13/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Chicago Atlantic BDC (NASDAQ:LIEN) reported second-quarter net investment income of $7.7 million, or $0.34 per share, as loan repayments exceeded new originations and reduced the size of its investment portfolio. The company declared a quar
-- **2026-08-12** · Chicago Atlantic Real Estate Finance, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-chicago-atlantic-real-estate-finance-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Chicago Atlantic Real Estate Finance, Inc.'s Q2 2026 earnings call
-- **2026-08-11** · Chicago Atlantic Real Estate Finance Inc (REFI) (Q2 2026) Earnings Call Highlights: Strategic ... — *GuruFocus.com* — https://finance.yahoo.com/real-estate/articles/chicago-atlantic-real-estate-finance-210052463.html
-  > REFI navigates a transformative quarter with a $649 million pipeline and a value-unlocking merger, despite a slight earnings miss due to capital redeployment timing.
-- **2026-08-11** · Chicago Atlantic Real Estate Finance Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/chicago-atlantic-real-estate-finance-q2-earnings-call-highlights-2026-08-11/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Chicago Atlantic Real Estate Finance (NASDAQ:REFI) reported second-quarter distributable earnings of $0.44 per basic weighted average common share, below its $0.47 quarterly dividend, as early loan repayments temporarily delayed the redeplo
-- **2026-08-11** · Chicago Atlantic Real Estate Finance, Inc. (REFI) Lags Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/chicago-atlantic-real-estate-finance-122003915.html
-  > Chicago Atlantic Real Estate Finance (REFI) delivered earnings and revenue surprises of -10.42% and -7.26%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-11** · Chicago Atlantic Real Estate Finance Announces Second Quarter 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/real-estate/articles/chicago-atlantic-real-estate-finance-110000474.html
-  > CHICAGO, Aug. 11, 2026 (GLOBE NEWSWIRE) -- Chicago Atlantic Real Estate Finance, Inc. (NASDAQ: REFI, “Chicago Atlantic”, "REFI" or the “Company”), a commercial mortgage real estate investment trust, today announced its financial results for
-- **2026-08-06** · CPI Card Group Inc. (PMTS) Q2 Earnings and Revenues Top Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cpi-card-group-inc-pmts-135013886.html
-  > CPI Card Group (PMTS) delivered earnings and revenue surprises of +24.44% and +5.13%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-11** · Angel Oak Mortgage REIT (AOMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/angel-oak-mortgage-reit-aomr-q2-2026-earnings-call-transcript/
+  > Net interest income grew 8% despite market volatility and unrealized losses.
+- **2026-08-11** · Cherry Hill Mortgage’s 29% Premium Deal: $9B Merger Opens Door to Bigger Upside – Quarterly Update Report — *Exec Edge* — https://finance.yahoo.com/markets/stocks/articles/cherry-hill-mortgage-29-premium-150508758.html
+  > Download the Complete Report Here Cherry Hill Mortgage Investment Corp. (CHMI) MITT Deal Unlocks Value and Preserves Further Upside as 2Q26 EAD Beats Expectations The MITT transaction materially improves value realization for CHMI sharehold
+- **2026-08-05** · Angel Oak Mortgage, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-angel-oak-mortgage-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Angel Oak Mortgage, Inc.'s Q2 2026 earnings call
+- **2026-08-04** · Angel Oak Mortgage REIT Inc (AOMR) (Q2 2026) Earnings Call Highlights: Strategic Reinvestment ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/angel-oak-mortgage-reit-inc-210204985.html
+  > Angel Oak Mortgage REIT Inc (AOMR) navigates a turbulent quarter with disciplined capital deployment, strong net interest income growth, and a robust securitization pipeline.
+- **2026-08-04** · Angel Oak Mortgage REIT Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/angel-oak-mortgage-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Angel Oak Mortgage REIT (NYSE:AOMR) reported second-quarter 2026 GAAP net income of $3.4 million, or $0.14 per diluted common share, compared with $800,000, or $0.03 per diluted common share, in the prior-year period. The mortgage REIT said
+- **2026-08-04** · Angel Oak Mortgage (AOMR) Beats Q2 Earnings Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-aomr-beats-122502097.html
+  > Angel Oak (AOMR) delivered earnings and revenue surprises of +2.78% and -1.90%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-04** · Angel Oak Mortgage REIT, Inc. Reports Second Quarter 2026 Financial Results — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-110000536.html
+  > ATLANTA, August 04, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first and second lien non-QM loans and other mortgage-related
+- **2026-07-30** · Blackstone Mortgage Trust (BXMT) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-surpasses-123504738.html
+  > Blackstone Mortgage (BXMT) delivered earnings and revenue surprises of +26.32% and +0.20%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-24** · Xerox and 4 More Stocks See Action From Activist Investors — *Barrons.com* — https://www.barrons.com/articles/xerox-and-4-more-stocks-see-action-from-activist-investors-d9214bb2?siteid=yhoof2&yptr=yahoo
+  > Activists also report to the SEC on Metalla Royalty, Xerox Holdings, Angel Oak Mortgage REIT, and Daktronics.
+- **2026-07-21** · Angel Oak Mortgage REIT, Inc. Sets Date for Second Quarter 2026 Earnings Release and Conference Call — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-201500632.html
+  > ATLANTA, July 21, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first lien non-QM loans and other mortgage-related assets in th
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Sector Update: Financial Stocks Advance Pre-Bell Monday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
 - **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
@@ -97,14 +94,12 @@ Attack these before you trust any number above.
 - **2026-09-18** · How Is Principal Financial's Stock Performance Compared to Other Financial Stocks — *Barchart* — https://www.barchart.com/story/news/4676218/how-is-principal-financial-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
 - **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
-- **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -127,9 +122,9 @@ Attack these before you trust any number above.
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
+- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
 - ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
 
 ---
 

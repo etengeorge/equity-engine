@@ -1,103 +1,103 @@
-# HP — HELMERICH &amp; PAYNE
+# INSW — INTERNATIONAL SEAWAYS
 *Energy · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 195/1956
+- rotation position 197/1956
 
 ## Market
 | | |
 |---|---|
-| price | $40.91 |
-| market cap | $4.1B |
-| 5d / 21d / 63d / 252d | -7.1% / -6.5% / +17.6% / +102.0% |
-| 60d avg daily $ volume | $50.1M |
-| beta (vs IWM) | 0.91 (R²=0.128) |
-| 5d volume vs 60d average | 1.2x |
+| price | $111.15 |
+| market cap | $5.5B |
+| 5d / 21d / 63d / 252d | +7.2% / +17.1% / +38.2% / +164.3% |
+| 60d avg daily $ volume | $56.1M |
+| beta (vs IWM) | 0.42 (R²=0.04) |
+| 5d volume vs 60d average | 2.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 69% / debt 31% |
+| WACC weights | equity 90% / debt 10% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$261.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$116.6M', '$189.6M', '$438.2M']
-Enterprise value **$5.8B** · FCFF yield **+4.5%**
+Normalized FCFF base **$313.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$39.6M', '$268.3M', '$483.2M']
+Enterprise value **$5.7B** · FCFF yield **+5.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.3% − 1pt | +19.8% |
-| **12.3% (point)** | **+22.9%** |
-| 12.3% + 1pt | +25.8% |
+| 7.1% − 1pt | -4.8% |
+| **7.1% (point)** | **-0.1%** |
+| 7.1% + 1pt | +3.9% |
 
 
-> **Stock compensation is 13% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$229.3M** and an implied growth of **+26.5%** instead of +22.9%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+15.9%** (5y revenue CAGR +15.9%).
-Gap under that baseline: **-32.7%** (fair value $27.55 vs price $40.91).
+Naive baseline for comparison: **+14.9%** (5y revenue CAGR +14.9%).
+Gap under that baseline: **+94.4%** (fair value $216.03 vs price $111.15).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **29th percentile** of 49 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -49.3%).
+Cohort: **58th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +77.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.27x_oldest_growth_applied_to_a_trough_understates_value`
+- `lumpy_fcff_spread_1.7x_of_mean`
+- `possible_trough_cycle_base_newest_fcf_0.08x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-09-16 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000044/hp-20260916.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/46765/000004676526000042/hp-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000039/hp-20260805.htm
-- 2026-06-03 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000036/hp-20260603.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/46765/000004676526000034/hp-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000025/hp-20260506.htm
-- 2026-03-16 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000020/hp-20260310.htm
-- 2026-03-06 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000017/hp-20260304.htm
-- 2026-03-04 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/46765/000004676526000014/hp-20260304.htm
-- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/46765/000004676526000012/hp-20251231.htm
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1679049/000110465926093061/insw-20260630x10q.htm
+- 2026-08-10 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926093033/tm2622617d1_8k.htm
+- 2026-06-12 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926073576/tm2617854d1_8k.htm
+- 2026-05-11 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926058763/tm2614029d2_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1679049/000110465926056721/insw-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926056695/tm2613836d1_8k.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1679049/000114036126017661/ny20066968x2_def14a.htm
+- 2026-04-09 **8-K** — items 1.01,3.03,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926041552/tm2611306d1_8k.htm
+- 2026-03-31 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1679049/000110465926037866/tm2610627d1_8k.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1679049/000110465926020113/insw-20251231x10k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/46765/000004676526000039/q3fy26earningsrelease.htm
+- **2026-08-10** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1679049/000110465926093033/tm2622617d1_ex99-1.htm
 
 ## News on this company — last 90 days
 *15 items held; showing the 15 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-08** · 1 Stock Under $50 with Promising Prospects and 2 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-promising-234318918.html
-  > The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than penny stocks, though they’re not immune to volatility as many lack the scale adva
-- **2026-09-05** · Where Does Helmerich & Payne (HP) Valuation Sit On Strong Results And Outlook? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/where-does-helmerich-payne-hp-041624018.html
-  > Helmerich & Payne (HP) recently reported quarterly results that combined revenue above expectations and stronger EBITDA with an adjusted net loss, while management outlined a constructive outlook that appears to have sparked fresh attention
-- **2026-09-04** · Why Is Helmerich & Payne (HP) Up 21.5% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-helmerich-payne-hp-21-153022238.html
-  > Helmerich & Payne (HP) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
-- **2026-09-03** · Unpacking Q2 Earnings: Helmerich & Payne (NYSE:HP) In The Context Of Other Oilfield Services Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/unpacking-q2-earnings-helmerich-payne-014023383.html
-  > Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Helmerich & Payne (NYSE:HP) and the best and worst performers in the oilfield servi
-- **2026-09-02** · 2 Energy Stocks for Long-Term Investors and 1 Facing Headwinds — *StockStory* — https://finance.yahoo.com/energy/articles/2-energy-stocks-long-term-190023922.html
-  > Even if they go mostly unnoticed, energy businesses are the backbone of our country, providing the energy we need to power our lives and businesses.Still, their generally high capital requirements expose them to the ups and downs of commodi
-- **2026-08-28** · 1 Momentum  Stock to Research Further and 2 We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-momentum-stock-research-further-093652645.html
-  > The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.
-- **2026-08-24** · 3 Market-Beating Stocks on Our Watchlist — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-watchlist-070536015.html
-  > The best-performing stocks typically have robust sales growth, increasing margins, and rising returns on capital, and those that can maintain this trifecta year in and year out often become the legends of the investing world.
-- **2026-08-20** · Who Were the Top USA Drillers, Customers in 1Q 2026? — *Rigzone.com* — https://finance.yahoo.com/energy/articles/were-top-usa-drillers-customers-142655000.html
-  > Enverus announced that it has released its latest rankings of the most active U.S. land drilling contractors and drilling customers.
-- **2026-08-18** · Enverus unveils top U.S. drillers of 2026 — *PR Newswire* — https://finance.yahoo.com/energy/articles/enverus-unveils-top-u-drillers-141000878.html
-  > Enverus, the leading energy data analytics platform, has released its latest rankings of the most active U.S. land drilling contractors and drilling customers, providing a snapshot of market leadership based on the latest available drilling
-- **2026-08-17** · Helmerich & Payne Q3 Earnings Miss Estimates, Revenues Beat — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/helmerich-payne-q3-earnings-miss-143100982.html
-  > HP's Q3 fiscal 2026 earnings miss estimates, while $1 billion in revenues beat expectations amid mixed segment results.
-- **2026-08-17** · Is HP Attractive as Low Valuation Meets Persistent Earnings Pressure? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/hp-attractive-low-valuation-meets-142100413.html
-  > Helmerich & Payne's discounted sales valuation and improving cash flow offer appeal, but persistent losses cloud the path to sustained profitability.
-- **2026-08-16** · 3 Cash-Producing Stocks to Consider Right Now — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-consider-040500897.html
-  > Cash-generating companies often have the flexibility to invest, return capital to shareholders, or navigate downturns. The best of these businesses not only accumulate cash but deploy it strategically for growth.
-- **2026-08-14** · 3 Oil & Gas Drilling Stocks Bucking a Bearish Industry Trend — *Zacks* — https://finance.yahoo.com/energy/articles/3-oil-gas-drilling-stocks-124900451.html
-  > Following a careful analysis of the Zacks Oil and Gas - Drilling industry, we advise focusing on companies like PTEN, NBR and HP.
-- **2026-08-14** · 5 Must-Read Analyst Questions From Helmerich & Payne’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-124500557.html
-  > Helmerich & Payne’s latest quarter drew a positive market response as the company reported revenue above Wall Street’s expectations, despite flat year-on-year sales. Management attributed the performance to increased rig reactivations in No
-- **2026-08-13** · Helmerich & Payne (HP) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/helmerich-payne-hp-q3-2026-earnings-call-transcript/
-  > North American drilling activity surged 11% sequentially on stronger private operator demand.
+- **2026-09-19** · Oil Shipping Stocks With Pricing Power as Russian Energy Tariffs Reshape Trade — *Simply Wall St.* — https://finance.yahoo.com/energy/articles/oil-shipping-stocks-pricing-power-081149695.html
+  > Washington has just raised the stakes on Russian energy, and that ripple hits far beyond Moscow or Washington. Fresh US tariff powers on countries buying Russian oil and gas could reshuffle global trade routes, squeeze some refiners, and ha
+- **2026-09-18** · Why Is ZIM (ZIM) Up 11.8% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-zim-zim-11-8-153004371.html
+  > ZIM (ZIM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-16** · The Bull Case For International Seaways (INSW) Could Change Following Disruption-Driven Record Tanker Profits — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/bull-case-international-seaways-insw-151224352.html
+  > In the past quarter, International Seaways reported record second-quarter net income as soaring tanker rates and higher time charter equivalent revenues reflected disruptions around key Middle East chokepoints such as the Strait of Hormuz. 
+- **2026-09-15** · The Zacks Analyst Blog Highlights BWET, Frontline, International Seaways, DHT, BWET, BOAT, BDRY and SEA — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-bwet-145100293.html
+  > Freight ETFs are soaring as Middle East disruptions drive tanker rates higher, lifting shipping earnings and fueling a powerful rally.
+- **2026-09-14** · Want to Look Beyond AI? Watch These Freight ETFs Skyrocketing YTD — *Zacks* — https://finance.yahoo.com/markets/commodities/articles/want-look-beyond-ai-watch-141100787.html
+  > Freight ETFs are surging as Middle East disruptions send tanker rates soaring, with BWET up over 3,700% YTD and shipping earnings at record levels.
+- **2026-09-10** · International Seaways Inc's Dividend Analysis — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/international-seaways-incs-dividend-analysis-111438727.html
+  > This article first appeared on GuruFocus. International Seaways Inc (NYSE:INSW) recently announced a total dividend of $5.05 per share, a substantial distribution that has caught the attention of income-focused investors. The cash dividend 
+- **2026-09-09** · Why Is International Seaways (INSW) Up 16.6% Since Last Earnings Report? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-international-seaways-insw-16-153006777.html
+  > International Seaways (INSW) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **2026-09-03** · Shipping Stocks Soar as Hormuz Disruption Sends Tanker Shares Surging — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/shipping-stocks-soar-hormuz-disruption-134130314.html
+  > Shipping Stocks Hit Multi-Year Highs as Middle East Turmoil Tightens Capacity
+- **2026-08-25** · Is KEX a Buy as Marine Demand Rises but Margins Stay Under Pressure? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kex-buy-marine-demand-rises-191100286.html
+  > Kirby's strong marine demand and pricing support growth, but weak margins, thin Q2 free cash flow and a rich historical valuation temper the buy case.
+- **2026-08-25** · KEX Q2 Revenue Growth Puts Marine Margin Recovery in the Spotlight — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kex-q2-revenue-growth-puts-185800010.html
+  > Kirby's 7.8% Q2 revenue growth highlights strong marine demand, but fuel costs and shipyard activity pressure margins as pricing recovery comes into focus.
+- **2026-08-17** · International Seaways (INSW) Q2 2026 Earnings Call — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/17/international-seaways-insw-q2-2026-earnings-call/
+  > Geopolitical disruptions boost tanker rates and drive record profitability.
+- **2026-08-12** · International Seaways Q2 Earnings Beat Estimates, Revenues Surge Y/Y — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/international-seaways-q2-earnings-beat-181000209.html
+  > INSW's Q2 earnings and revenues beat estimates as stronger tanker rates drive record net income, EBITDA and free cash flow.
+- **2026-08-10** · International Seaways Inc (INSW) (Q2 2026) Earnings Call Highlights: Record Results and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/international-seaways-inc-insw-q2-210025661.html
+  > INSW posts record adjusted net income of $295 million and declares a $5.05 per share dividend, while navigating geopolitical disruptions and expanding its LR1 fleet.
+- **2026-08-10** · International Seaways Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/international-seaways-q2-earnings-call-highlights-2026-08-10/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > International Seaways (NYSE:INSW) reported record second-quarter results as elevated tanker rates, strong crude shipping demand and disruptions in key maritime chokepoints supported earnings and cash generation. President and CEO Lois Zabro
+- **2026-08-10** · International Seaways shares gain as record Q2 profit beats expectations — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/33850/international-seaways-shares-gain-as-record-q2-profit-beats-expectations
+  > International Seaways, Inc. (NYSE:INSW) shares rose 2.
 
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Sector Update: Energy Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-200621416.html
 - **2026-09-18** · Sector Update: Energy Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175755773.html
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
@@ -107,13 +107,12 @@ Attack these before you trust any number above.
 - **2026-09-17** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195130879.html
 - **2026-09-17** · Sector Update: Energy Stocks Higher Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-thursday-175131954.html
 - **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
-- **2026-09-17** · MoneyMasters Podcast 9-17-26- Energy Markets Decoded - $100 Oil  Where to Invest NOW — *MoneyShow* — https://finance.yahoo.com/energy/articles/moneymasters-podcast-9-17-26-163200447.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -129,6 +128,7 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Energy
 - AROC: no_edge · price $32.96 · fair value $34.64 · gap +5.1%
 - CNX: no_edge · price $35.91 · fair value $53.11 · gap +47.9%
+- HP: no_edge · price $40.91
 - LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
 - MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
 - NVGS: no_model · price $25.06
@@ -138,7 +138,6 @@ Attack these before you trust any number above.
 - SM: no_edge · price $37.76 · fair value $51.19 · gap +35.6%
 - SND: no_edge · price $5.35
 - TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
-- UEC: no_model · price $11.54
 
 ---
 

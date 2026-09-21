@@ -1,5 +1,33 @@
 [
  {
+  "id": "b722aa09-1b4f-396e-bf09-99b3ffa90d22",
+  "ts": "2026-09-21T13:23:35+00:00",
+  "title": "Sector Update: Financial Stocks Advance Pre-Bell Monday",
+  "summary": "Financial stocks were advancing pre-bell Monday, with the State Street Financial Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "1aad3be4-2405-3f83-a916-e9fcee286377",
+  "ts": "2026-09-21T13:23:24+00:00",
+  "title": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7% and the actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "e5e3cc63-4546-344f-829d-2bdb8e6b3c36",
   "ts": "2026-09-18T20:06:41+00:00",
   "title": "Sector Update: Financial Stocks Mixed Late Afternoon",

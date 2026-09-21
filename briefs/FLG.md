@@ -1,88 +1,71 @@
-# RELY — REMITLY GLOBAL
+# FLG — FLAGSTAR BANK NATIONAL ASSOCIATION
 *Financials · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 194/1956
+- rotation position 199/1956
 
 ## Market
 | | |
 |---|---|
-| price | $21.93 |
-| market cap | $4.6B |
-| 5d / 21d / 63d / 252d | -0.3% / -12.5% / +3.9% / +25.8% |
-| 60d avg daily $ volume | $83.8M |
-| beta (vs IWM) | 1.21 (R²=0.174) |
-| 5d volume vs 60d average | 1.2x |
+| price | $12.55 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -4.8% / -8.3% / -14.3% / +4.2% |
+| 60d avg daily $ volume | $62.8M |
+| beta (vs IWM) | 1.2 (R²=0.331) |
+| 5d volume vs 60d average | 1.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 44% / debt 56% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -7.8% |
-| cost of equity | +11.7% |
-| justified P/TBV | -1.02 |
-| actual P/TBV | 5.72 |
-| tangible book / share | $3.83 |
-| implied gap | -117.8% |
+| sustainable ROTCE | -7.1% |
+| cost of equity | +11.6% |
+| justified P/TBV | -0.95 |
+| actual P/TBV | 0.72 |
+| tangible book / share | $17.49 |
+| implied gap | -232.0% |
 
-Cohort: **9th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -82.9%).
+Cohort: **2th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -197.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `unstable_rotce_-25.7%_to_8.4%`
+- `last_10k_1360d_old`
+- `speculative_cost_of_debt_at_56%_debt_weight_wacc_unreliable`
+- `unstable_rotce_-16.1%_to_-2.3%`
 - `loss_year_in_window`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1782170/000162828026053424/rely-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/rely-20260805.htm
-- 2026-06-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1782170/000178217026000063/rely-20260610.htm
-- 2026-06-08 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1782170/000178217026000057/rely-20260608.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1782170/000162828026031371/rely-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1782170/000162828026031305/rely-20260506.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1782170/000178217026000048/rely-20260424.htm
-- 2026-04-10 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1782170/000178217026000031/rely-20260406.htm
-- 2026-03-20 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1782170/000178217026000026/rely-20260316.htm
-- 2026-02-18 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1782170/000095010326002320/dp241651_8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000068/fbc-20260630.htm
+- 2026-07-24 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/nycb-20260724.htm
+- 2026-06-11 **8-K** — items 5.02,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000062/nycb-20260609.htm
+- 2026-05-18 **8-K** — items 5.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000053/nycb-20260518.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000047/fbc-20260331.htm
+- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000039/fbc-20260430.htm
+- 2026-04-24 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000035/nycb-20260424.htm
+- 2026-03-27 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000029/nycb-20260325.htm
+- 2026-02-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000027/nycb-20260227.htm
+- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000025/fbc-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/rely2q26-earningspr.htm
-- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/remitlyq2earningspresent.htm
+- **2026-07-24** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/a2q2026earningsrelease.htm
+- **2026-07-24** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/flg_2q26xearningsxpresen.htm
+- **2026-07-24** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/flagstar-sharerepurchase.htm
+- **2026-06-11** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000062/flagstar-preliminaryannu.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-15** · 2 Cash-Heavy Stocks with Exciting Potential and 1 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-exciting-070215837.html
-  > A surplus of cash can mean financial stability, but it can also indicate a reluctance (or inability) to invest in growth. Some of these companies also face challenges like stagnating revenue, declining market share, or limited scalability.
-- **2026-09-09** · Remitly Chief Business Officer Sells 21,000 Shares for $554,000 — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/09/remitly-chief-business-officer-sells-21000-shares-for-554000/
-  > The insider sold shares but still has holdings valued at $19 million.
-- **2026-09-09** · Remitly partners with Etsy to give sellers more choice in how they get paid globally — *GlobeNewswire* — https://finance.yahoo.com/small-business/articles/remitly-partners-etsy-sellers-more-130000377.html
-  > In Remitly's first partnership of its kind, new Etsy sellers in 15 countries will have the option to get paid locally via Remitly’s cross-border network.SEATTLE, Sept. 09, 2026 (GLOBE NEWSWIRE) -- Remitly Global, Inc. (NASDAQ: RELY) today a
-- **2026-09-04** · Consumer Pressure Rises, but So Does Demand for Affirm's Services — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/consumer-pressure-rises-does-demand-165600391.html
-  > AFRM sees rising demand for installment payments as inflation and gas costs pressure consumers, while disciplined underwriting helps manage credit risk.
-- **2026-09-04** · Remitly’s (RELY) Record Growth Meets One-Time Tax Boosts And Take-Rate Questions — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/remitly-rely-record-growth-meets-113416465.html
-  > On August 5, Remitly (NASDAQ:RELY) reported second-quarter results that set records across nearly every line the company chooses to highlight, then raised its full-year outlook on top of it. Revenue, adjusted EBITDA, and net income all hit 
-- **2026-09-04** · 2 Cash-Producing Stocks to Target This Week and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-095810280.html
-  > Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.
-- **2026-09-03** · Remitly Global, Inc. (RELY) Hit a 52 Week High, Can the Run Continue? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/remitly-global-inc-rely-hit-131503756.html
-  > Remitly Global (RELY) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
-- **2026-09-03** · Remitly (RELY) Stock May Be Overvalued With Little Room For Error — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/remitly-rely-stock-may-overvalued-130545941.html
-  > Remitly Global has seen a very strong run this year, yet the stock currently screens as expensive on broad valuation checks, which raises questions about how much optimism is already reflected in the price. The stock is up 102.9% year to da
-- **2026-09-03** · Remitly Global (RELY) Is a Great Choice for 'Trend' Investors, Here's Why — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/remitly-global-rely-great-choice-125502402.html
-  > Remitly Global (RELY) could be a great choice for investors looking to make a profit from fundamentally strong stocks that are currently on the move. It is one of the several stocks that made it through our "Recent Price Strength" screen.
-- **2026-09-03** · Why Remitly Global Stock Popped 17.4% Last Month — *Motley Fool* — https://www.fool.com/investing/2026/09/02/why-remitly-global-stock-popped-174-last-month/
-  > It posted another strong earnings report last month.
-- **2026-09-02** · 1 Small-Cap Stock on Our Buy List and 2 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-buy-235623877.html
-  > Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it har
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Sector Update: Financial Stocks Advance Pre-Bell Monday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
 - **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
@@ -91,14 +74,12 @@ Attack these before you trust any number above.
 - **2026-09-18** · How Is Principal Financial's Stock Performance Compared to Other Financial Stocks — *Barchart* — https://www.barchart.com/story/news/4676218/how-is-principal-financial-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
 - **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
-- **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -121,9 +102,9 @@ Attack these before you trust any number above.
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
+- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
 - ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
 
 ---
 

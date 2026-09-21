@@ -1,86 +1,90 @@
-# SLG — SL GREEN REALTY REIT CORP
-*Real Estate · brief generated 2026-09-21 · selected as **rotation***
+# AZZ — AZZ INC
+*Industrials · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 192/1956
+- rotation position 200/1956
 
 ## Market
 | | |
 |---|---|
-| price | $52.08 |
-| market cap | $3.7B |
-| 5d / 21d / 63d / 252d | -1.9% / -9.7% / +4.2% / -11.8% |
-| 60d avg daily $ volume | $51.8M |
-| beta (vs IWM) | 1.14 (R²=0.323) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-03-31 (10-K) |
-| WACC weights | equity 53% / debt 47% |
+| price | $132.72 |
+| market cap | $4.0B |
+| 5d / 21d / 63d / 252d | -3.2% / -7.5% / -15.4% / +17.9% |
+| 60d avg daily $ volume | $41.4M |
+| beta (vs IWM) | 1.08 (R²=0.397) |
+| 5d volume vs 60d average | 1.2x |
+| balance sheet as of | 2026-05-31 (10-Q) |
+| WACC weights | equity 89% / debt 11% |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+Normalized FCFF base **$179.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$444.7M', '$-29.9M', '$-3.1M']
+Enterprise value **$4.8B** · FCFF yield **+3.7%**
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+**Reverse DCF — the 5y FCFF growth the current price requires:**
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+| WACC | implied 5y FCFF growth |
+|---|---|
+| 10.3% − 1pt | +17.8% |
+| **10.3% (point)** | **+21.4%** |
+| 10.3% + 1pt | +24.8% |
 
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=77) | 7.7x | 10.7x / 15.9x / 21.9x | $91.10 / $157.72 / $234.89 |
-| ev_sales (n=91) | 7.0x | 3.3x / 7.4x / 11.1x | $-0.60 / $58.31 / $109.66 |
-| p_tbv (n=83) | 1.2x | 1.0x / 1.6x / 2.2x | $42.63 / $67.66 / $94.89 |
 
-Blended midpoint **$94.56** vs price $52.08 — gap **+81.6%**.
+Naive baseline for comparison: **+14.5%** (5y revenue CAGR +14.5%).
+Gap under that baseline: **-27.9%** (fair value $95.63 vs price $132.72).
 
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **43th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_3.5x_of_mean`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026054436/slg-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/slg-20260722.htm
-- 2026-06-02 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926069472/tm2616703d1_8k.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026029075/slg-20260331.htm
-- 2026-04-22 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1040971/000110465926046866/tm261543-1_def14a.htm
-- 2026-04-16 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026025419/slg-20260415.htm
-- 2026-03-06 **8-K** — items 1.01,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926024682/tm267806d1_8k.htm
-- 2026-03-04 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000110465926023512/tm267993d1_8k.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1040971/000162828026008669/slg-20251231.htm
-- 2026-01-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1040971/000162828026004077/slg-20260128.htm
+- 2026-08-03 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000167/azz-20260803.htm
+- 2026-07-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000163/azz-20260708.htm
+- 2026-07-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/8947/000000894726000162/azz-20260531.htm
+- 2026-07-07 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000134/azz-20260707.htm
+- 2026-06-25 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000120/azz-20260625.htm
+- 2026-05-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000110/azz-20260528.htm
+- 2026-05-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/8947/000110465926066068/tm264150-1_def14a.htm
+- 2026-05-08 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000108/azz-20260507.htm
+- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000069/azz-20260422.htm
+- 2026-04-22 **10-K** — https://www.sec.gov/Archives/edgar/data/8947/000000894726000068/azz-20260228.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/a26q2earningsrelease.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1040971/000162828026049346/a26q2supplemental.htm
+- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000167/azzpressrelease-davenport.htm
+- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000163/exhibit991q1fy27earningsre.htm
+- **2026-06-25** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000120/q1fy2027dividendrelease.htm
+- **2026-05-28** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000110/azz_investordeckx05x28x2.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Real Estate
-*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
-- **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
-- **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
-- **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
-- **2026-09-17** · Ventas Stock: Is VTR Outperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4658670/ventas-stock-is-vtr-outperforming-the-real-estate-sector
-- **2026-09-16** · Sector Update: Financial Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-stocks-fall-afternoon-195643448.html
-- **2026-09-16** · Sector Update: Financial — *MT Newswires* — https://finance.yahoo.com/economy/policy/articles/sector-financial-193258163.html
-- **2026-09-16** · Sector Update: Financial Stocks Decline Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-175603488.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195857101.html
-- **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
+- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
+- **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
+- **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -93,11 +97,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Real Estate
-- COMP: no_model · price $10.56
-- CTRE: no_model · price $39.03
-- EPRT: no_model · price $29.97
-- RHP: no_model · price $129.33
+## Prior verdicts elsewhere in Industrials
+- ATKR: no_model · price $94.32
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
+- HUBG: no_model · price $33.45
+- JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
 
 ---
 

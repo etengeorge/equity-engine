@@ -1,5 +1,19 @@
 [
  {
+  "id": "b1a6f338-a0e9-33f3-afef-a03b8ec4f72f",
+  "ts": "2026-09-21T13:15:00+00:00",
+  "title": "Stock Market News for Sep 21, 2026",
+  "summary": "Wall Street ended a volatile week, with the Dow closing sharply lower on Friday as oil prices continued to surge and Treasury yields rose after the Federal Reserve hiked interest rates earlier in the week for the first time in three years.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-21-131500959.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "ab75e0ae-a236-3b52-8a01-c51a2c8ea933",
   "ts": "2026-09-18T13:37:29+00:00",
   "title": "CMS Energy Stock: Is CMS Underperforming the Utility Sector?",

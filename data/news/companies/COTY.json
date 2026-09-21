@@ -1,5 +1,17 @@
 [
  {
+  "id": "941e2d91-266b-36b8-8471-d686f9f37f97",
+  "ts": "2026-09-21T14:54:25+00:00",
+  "title": "1 Volatile Stock with Promising Prospects and 2 We Question",
+  "summary": "Volatility cuts both ways - while it creates opportunities, it also increases risk, making sharp declines just as likely as big gains. This unpredictability can shake out even the most experienced investors.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/1-volatile-stock-promising-prospects-145425559.html",
+  "tickers": [
+   "COTY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "fac823b8-713c-341b-8f7a-3922f0a749a5",
   "ts": "2026-09-20T12:09:40+00:00",
   "title": "Coty (COTY) Faces A Transition Year As Valuation Stays In Focus",

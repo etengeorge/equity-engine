@@ -1,20 +1,20 @@
-# SKT — TANGER
+# BNL — BROADSTONE NET LEASE
 *Real Estate · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 193/1956
+- rotation position 201/1956
 
 ## Market
 | | |
 |---|---|
-| price | $35.80 |
-| market cap | $4.1B |
-| 5d / 21d / 63d / 252d | -1.6% / -7.2% / -7.8% / +9.1% |
-| 60d avg daily $ volume | $35.9M |
-| beta (vs IWM) | 0.61 (R²=0.259) |
+| price | $19.20 |
+| market cap | $3.7B |
+| 5d / 21d / 63d / 252d | -6.0% / -9.2% / -5.4% / +10.9% |
+| 60d avg daily $ volume | $45.0M |
+| beta (vs IWM) | 0.36 (R²=0.116) |
 | 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 69% / debt 31% |
+| balance sheet as of | 2026-06-30 (10-Q/A) |
+| WACC weights | equity 58% / debt 42% |
 
 ## What the market's price already assumes
 **No defensible free numeric model for this name** (status: not_modelled).
@@ -26,9 +26,11 @@ Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no mo
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| p_tbv (n=83) | 7.3x | 1.0x / 1.6x / 2.2x | $4.81 / $7.63 / $10.70 |
+| ev_ebitda (n=77) | 26.5x | 10.7x / 15.9x / 21.9x | $-0.98 / $5.62 / $13.26 |
+| ev_sales (n=91) | 14.3x | 3.3x / 7.4x / 11.1x | $-6.91 / $2.97 / $11.59 |
+| p_tbv (n=83) | 1.7x | 1.0x / 1.6x / 2.2x | $11.05 / $17.55 / $24.61 |
 
-Blended midpoint **$7.63** vs price $35.80 — gap **-78.7%**.
+Blended midpoint **$8.71** vs price $19.20 — gap **-54.6%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -40,21 +42,25 @@ Attack these before you trust any number above.
 - `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/899715/000162828026053864/skt-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/899715/000162828026052544/skt-20260804.htm
-- 2026-05-08 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/899715/000162828026032861/skt-20260508.htm
-- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/899715/000162828026029536/skt-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/899715/000162828026028865/skt-20260430.htm
-- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/899715/000162828026021249/skt-20260325.htm
-- 2026-02-27 **8-K** — items 1.01,1.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/899715/000110465926020819/tm267252d1_8k.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/899715/000162828026012252/skt-20251231.htm
-- 2026-02-24 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/899715/000162828026011057/skt-20260224.htm
-- 2026-01-12 **8-K** — items 1.01,2.03,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/899715/000162828026001812/skt-20260107.htm
+- 2026-08-25 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000072/bnl-20260825.htm
+- 2026-08-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000119312526342612/d70489d8k.htm
+- 2026-07-29 **8-K** — items 2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000065/bnl-20260728.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000063/bnl-20260630x10q.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000061/bnl-20260729.htm
+- 2026-07-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000054/bnl-20260708.htm
+- 2026-07-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000050/bnl-20260702.htm
+- 2026-06-11 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000045/bnl-20260611.htm
+- 2026-05-01 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000039/bnl-20260430.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000037/bnl-20260331.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/899715/000162828026052544/skt8kex991june302026.htm
+- **2026-08-25** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000072/august2026pressrelease-man.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000061/bnl-20260630xexx991.htm
+- **2026-07-29** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000061/bnl-20260630xexx992.htm
+- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000054/july2026pressrelease.htm
+- **2026-07-02** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1424182/000142418226000050/q22026erannouncementpressr.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -74,10 +80,10 @@ Attack these before you trust any number above.
 - **2026-09-15** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-180003508.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -95,6 +101,8 @@ Attack these before you trust any number above.
 - CTRE: no_model · price $39.03
 - EPRT: no_model · price $29.97
 - RHP: no_model · price $129.33
+- SKT: no_model · price $35.80
+- SLG: no_model · price $52.08
 
 ---
 

@@ -1,5 +1,17 @@
 [
  {
+  "id": "1de2d1a4-854f-3c36-89ef-39bc19db6a98",
+  "ts": "2026-09-21T13:11:23+00:00",
+  "title": "Lazard Stock Slides 21% Over 9 Straight Down Days",
+  "summary": "A nine-day slide in the investment bank's stock has erased significant value, presenting a mixed picture when set against its fundamentals.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/articles/615984/lazard-stock-slides-21-over-9-straight-down-days/2026-09-21",
+  "tickers": [
+   "PWP"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8f2052ee-8a69-34b8-bd4d-164e72ad41fe",
   "ts": "2026-09-18T16:46:41+00:00",
   "title": "Lazard Stock Slides 20% Over 8 Straight Down Days",

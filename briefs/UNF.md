@@ -1,109 +1,103 @@
-# ATKR — ATKORE
-*Industrials · brief generated 2026-09-21 · selected as **opportunistic***
+# UNF — UNIFIRST
+*Industrials · brief generated 2026-09-21 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 9% of 151 Industrials peers (91th pct)
-- baseline gap +123%
-- filed an 8-K in the last few sessions
-- 2 news items in the last 5 days
-- never researched
-- urgency score 7.13
+- rotation position 198/1956
 
 ## Market
 | | |
 |---|---|
-| price | $94.32 |
-| market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +0.2% / +1.0% / +16.6% / +60.6% |
-| 60d avg daily $ volume | $75.4M |
-| beta (vs IWM) | 1.18 (R²=0.236) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-26 (10-Q) |
-| WACC weights | equity 81% / debt 19% |
+| price | $261.62 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -4.8% / -9.5% / +0.4% / +55.5% |
+| 60d avg daily $ volume | $61.4M |
+| beta (vs IWM) | 0.58 (R²=0.025) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 2.2x |
+| balance sheet as of | 2026-05-30 (10-K) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$427.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$295.7M', '$399.2M', '$588.7M']
-Enterprise value **$3.6B** · FCFF yield **+11.9%**
+Normalized FCFF base **$114.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$142.5M', '$134.9M', '$43.8M']
+Enterprise value **$5.0B** · FCFF yield **+2.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.1% − 1pt | -10.0% |
-| **10.1% (point)** | **-7.3%** |
-| 10.1% + 1pt | -4.8% |
+| 8.1% − 1pt | +21.2% |
+| **8.1% (point)** | **+26.2%** |
+| 8.1% + 1pt | +30.7% |
 
 
-Naive baseline for comparison: **+10.1%** (5y revenue CAGR +10.1%).
-Gap under that baseline: **+123.2%** (fair value $210.51 vs price $94.32).
+Naive baseline for comparison: **+6.2%** (5y revenue CAGR +6.2%).
+Gap under that baseline: **-53.1%** (fair value $122.66 vs price $261.62).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **91th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +145.2%).
+Cohort: **27th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -31.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value`
+- `share_count_5561d_stale_market_cap_unreliable`
+- `interest_expense_implies_289%_on_reported_debt_debt_likely_understated`
+- `possible_peak_cycle_base_newest_fcf_3.3x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-09-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026052084/atkr-20260626.htm
-- 2026-08-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr-20260803.htm
-- 2026-08-03 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm
-- 2026-06-04 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030764/atkr-20260327.htm
-- 2026-05-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr-20260505.htm
-- 2026-04-29 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000010/atkr-20260429.htm
-- 2026-04-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000007/atkr-20260408.htm
-- 2026-02-03 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1666138/000162828026004737/atkr-20260203.htm
+- 2026-09-11 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000119312526389298/d231618d8k.htm
+- 2026-08-28 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/717954/000119312526372350/d103272d8k.htm
+- 2026-07-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/717954/000162828026047621/unf-20260530.htm
+- 2026-07-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000162828026046349/unf-20260701.htm
+- 2026-06-12 **8-K** — items 5.07,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000114036126025000/ef20075767_8k.htm
+- 2026-04-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/717954/000119312526144556/unf-20260228.htm
+- 2026-04-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000119312526135782/unf-20260401.htm
+- 2026-03-11 **8-K** — items 1.01,5.03,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000119312526101128/d55520d8k.htm
+- 2026-01-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/717954/000119312526006587/unf-20251129.htm
+- 2026-01-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/717954/000119312526005469/unf-20260107.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr3q26exhibit991.htm
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_991xpressrelease.htm
-- **2026-08-03** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr992eml.htm
-- **2026-08-03** · EX-99.3 · press release — EX-99.3 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_992.htm
+- **2026-07-01** · EX-99 · press release — EX-99 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/717954/000162828026046349/unf-2026xq3xex99earningsre.htm
+- **2026-06-12** · EX-99.1 · press release — EXHIBIT 99.1 *(item: 5.07, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/717954/000114036126025000/ef20075767_ex99-1.htm
 
 ## News on this company — last 90 days
-*15 items held; showing the 15 most recent. Headlines and summaries only — open the URL for the full story.*
+*14 items held; showing the 14 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-20** · Why Atkore, Belden And Flex Stock Are Gaining Attention In AI Data Centers — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/why-atkore-belden-flex-stock-181008775.html
-  > AI data centers keep soaking up power and hardware spending while the Fed leans into higher-for-longer rates, and that mix is quietly reshaping which U.S. infrastructure stocks investors watch first. Big tech capex keeps flowing even as dis
-- **2026-09-18** · Q2 Electrical Systems Earnings Review: First Prize Goes to Atkore (NYSE:ATKR) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-electrical-systems-earnings-review-183240634.html
-  > Let’s dig into the relative performance of Atkore (NYSE:ATKR) and its peers as we unravel the now-completed Q2 electrical systems earnings season.
-- **2026-09-14** · Is Applied Industrial Technologies (AIT) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/applied-industrial-technologies-ait-outperforming-134006872.html
-  > Here is how Applied Industrial Technologies (AIT) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
-- **2026-09-10** · 3 Russell 2000 Stocks We’re Skeptical Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-234504822.html
-  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
-- **2026-09-04** · 1 Industrials Stock Worth Investigating and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-worth-investigating-103810343.html
-  > Whether you see them or not, industrials businesses play a crucial part in our daily activities. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of the broader economy, and investors seem to be forec
-- **2026-08-28** · Atkore (ATKR) Stock Looks Near Fair Value While Cash Flow Recovers — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-stock-looks-near-121512533.html
-  > Atkore has delivered a strong 62.8% 1 year return, yet current checks suggest the stock now trades close to estimates of intrinsic value rather than at a clear discount. The 62.8% gain over the past year points to strong recent momentum, wh
-- **2026-08-28** · Atkore (ATKR) Jumped To US$93.66, Is It Now Slightly Overvalued? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-jumped-us-93-071038309.html
-  > Atkore stock overview after recent share move Atkore (ATKR) has drawn fresh attention after a recent share move, with the stock last closing at US$93.66. Investors are weighing this price against its recent performance and underlying fundam
-- **2026-08-27** · Is Generac Holdings (GNRC) Stock Outpacing Its Industrial Products Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-stock-outpacing-134003879.html
-  > Here is how Generac Holdings (GNRC) and Atkore Inc. (ATKR) have performed compared to their sector so far this year.
-- **2026-08-26** · 3 Unpopular Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-risky-081913051.html
-  > Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating busi
-- **2026-08-12** · Atkore Inc. (ATKR) is a Great Momentum Stock: Should You Buy? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-great-momentum-160006551.html
-  > Does Atkore Inc. (ATKR) have what it takes to be a top stock pick for momentum investors? Let's find out.
-- **2026-08-11** · Is Atkore (ATKR) Outperforming Other Industrial Products Stocks This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-outperforming-other-industrial-134003939.html
-  > Here is how Atkore Inc. (ATKR) and Keyence Corporation (KYCCF) have performed compared to their sector so far this year.
-- **2026-08-10** · 3 Hyped Up  Stocks That Fall Short — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-hyped-stocks-fall-short-110122457.html
-  > The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.
-- **2026-08-07** · Atkore Inc (ATKR) (Q3 2026) Earnings Call Highlights: Strong Sales Growth Amid Acquisition ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-q3-2026-190108667.html
-  > Atkore Inc (ATKR) reports 8.1% revenue increase and $95 per share acquisition deal with Prysmian, despite litigation costs impacting net income.
-- **2026-08-04** · Atkore Stock Surged Because Prysmian Agreed To Buy It For Cash — *Trefis* — https://www.trefis.com/articles/610050/atkore-stock-surged-because-prysmian-agreed-to-buy-it-for-cash/2026-08-04
-  > After a year of selling off pieces of itself, the board agreed to sell the whole company, and what a holder owns now is closer to a cash claim than a conduit maker.
-- **2026-08-04** · Why Atkore (ATKR) Stock Is Trading Up Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-atkore-atkr-stock-trading-141322751.html
-  > Shares of electrical safety company Atkore (NYSE:ATKR) jumped 28.1% in the afternoon session after the company agreed to be acquired by Prysmian S.p.A. in an all-cash deal valued at approximately $3.8 billion.
+- **2026-09-21** · Pye-Barker Fire & Safety Names Kelly Rooney as President — *PR Newswire* — https://finance.yahoo.com/small-business/articles/pye-barker-fire-safety-names-120000600.html
+  > Pye-Barker Fire & Safety — the largest fully integrated and full-service fire protection, life safety and security services provider in the United States — today announced Kelly Rooney as President. In this role, she will work directly with
+- **2026-09-19** · UniFirst (UNF) Pulls Back On A Strong Run, Is The Valuation Gap Enough? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-pulls-back-strong-191112154.html
+  > UniFirst (UNF) has drawn renewed attention after its recent share move, with the price closing at $261.62. That shift invites a closer look at how the business and its returns line up today. UniFirst’s recent pullback, with a 30 day share p
+- **2026-09-16** · Cintas-UniFirst deal spread widens on FTC scrutiny: Bernstein — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/cintas-unifirst-deal-spread-widens-163455605.html
+  > Investing.com -- In a note to clients on Wednesday, Bernstein flagged growing market concern over Cintas's proposed acquisition of UniFirst, as regulatory scrutiny widens the spread between the two stocks.
+- **2026-09-01** · UniFirst Launches Always U™ Workwear Collection Designed for the Active Workforce — *PR Newswire* — https://finance.yahoo.com/small-business/articles/unifirst-launches-always-u-workwear-105800869.html
+  > UniFirst Corporation (NYSE: UNF), a North American leader in customized business uniform programs, facility service products, and first aid and safety services, today announced the launch of Always U™, a new workwear collection designed to 
+- **2026-08-27** · Cintas Likely to Raise Fiscal 2027 Outlook Following Expected First-Quarter Beat, RBC Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/cintas-likely-raise-fiscal-2027-163827557.html
+  > Cintas (CTAS) is expected to raise its fiscal 2027 outlook driven by better-than-expected first-quar
+- **2026-08-27** · Cintas to Post Strong Fiscal Q1, Raise Fiscal 2027 Outlook, RBC Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/cintas-post-strong-fiscal-q1-152506001.html
+  > Cintas (CTAS) is expected to post strong fiscal Q1 growth, raise its fiscal 2027 outlook, maintain h
+- **2026-08-21** · UniFirst (UNF) Upgraded to Buy: Here's Why — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-upgraded-buy-heres-160004286.html
+  > UniFirst (UNF) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.
+- **2026-08-19** · Are Industrial Products Stocks Lagging  Lincoln Electric (LECO) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/industrial-products-stocks-lagging-lincoln-134002485.html
+  > Here is how Lincoln Electric Holdings (LECO) and UniFirst (UNF) have performed compared to their sector so far this year.
+- **2026-08-17** · Uniform Bright Releases 161-Page Industry Insider Report Examining Regulatory and Transaction Risk in the Proposed Cintas-UniFirst Merger — *ACCESS Newswire* — https://finance.yahoo.com/economy/policy/articles/uniform-bright-releases-161-page-064000382.html
+  > 504 true Word footnotes, 765 embedded external hyperlink instances connecting to 385 unique source destinations, 100 coded public procurement awards, and operational evidence generally absent from conventional equity research give investors
+- **2026-08-16** · What a Cintas Operating Chief Insider Filing Signals as the Firm Moves to Absorb UniFirst — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/15/what-a-cintas-operating-chief-insider-filing-signals-as-the-firm-moves-to-absorb-unifirst/
+  > This filing details a non-discretionary sale to cover tax withholding on vested equity awards.
+- **2026-08-15** · What a Cintas CEO Insider Filing Signals as It Pursues UniFirst — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/15/cintas-ceo-todd-schneider-sells-35599-shares-for-72-million/
+  > These shares were withheld to cover tax obligations from restricted stock vesting. Schneider retains 694,900 shares worth $140.9 million.
+- **2026-08-11** · UniFirst Returns to the Track at Richmond Raceway as Primary Sponsor of Chase Elliott's No. 9 Chevy — *PR Newswire* — https://finance.yahoo.com/media-advertising/articles/unifirst-returns-track-richmond-raceway-140000400.html
+  > UniFirst Corporation (NYSE:UNF), a North American leader in providing customized business uniform programs, facility service products and first aid and safety services, will take center stage this weekend as the primary sponsor of 2020 NASC
+- **2026-07-31** · UniFirst (UNF) Is Up 1.00% in One Week: What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-1-00-one-160002567.html
+  > Does UniFirst (UNF) have what it takes to be a top stock pick for momentum investors? Let's find out.
+- **2026-07-31** · UniFirst (UNF) Is Up 1.00% in One Week: What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-1-00-one-160002377.html
+  > Does UniFirst (UNF) have what it takes to be a top stock pick for momentum investors? Let's find out.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
@@ -113,13 +107,12 @@ Attack these before you trust any number above.
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
 - **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
-- **2026-09-11** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -133,6 +126,7 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- ATKR: no_model · price $94.32
 - CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
 - CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
 - CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
@@ -144,7 +138,6 @@ Attack these before you trust any number above.
 - HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
 - HUBG: no_model · price $33.45
 - JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
-- JOBY: no_model · price $6.13
 
 ---
 

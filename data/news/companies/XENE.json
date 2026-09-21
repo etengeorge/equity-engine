@@ -1,5 +1,29 @@
 [
  {
+  "id": "8131fe89-9c0a-3145-b092-2e791c7e3e8f",
+  "ts": "2026-09-21T13:22:00+00:00",
+  "title": "Company News for Sep 21, 2026",
+  "summary": "Companies in The News Are: STLD,XENE,AMD,TXN",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-21-2026-132200831.html",
+  "tickers": [
+   "XENE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "bac2fdee-b960-32f5-9675-a17d840178c7",
+  "ts": "2026-09-21T11:37:27+00:00",
+  "title": "Xenon Pharmaceuticals Stock Sinks 31% After Pausing Depression Study Enrollment",
+  "summary": "Key Stats for Xenon Pharmaceuticals StockPrice change for Xenon Pharmaceuticals stock: -31%$XENE Stock Price as of Sep. 19: $4052-Week High: $73$XENE Stock Price Target: $78What Happened?Xenon Pharmaceuticals (XENE) stock is under pressure after the company paused enrollment in its Phase 3 psychiatry studies for major depressive disorder and bipolar disorder.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/xenon-pharmaceuticals-stock-sinks-depression-study-pause?ref=yahoofinance",
+  "tickers": [
+   "XENE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8feb4199-9f8a-397b-9456-8b02daaca676",
   "ts": "2026-09-20T00:20:09+00:00",
   "title": "Why Xenon Pharmaceuticals (XENE) Is Down 32.2% After Pausing Psychiatry Trials Despite Positive NDA Data",

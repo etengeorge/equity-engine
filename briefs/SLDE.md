@@ -1,93 +1,99 @@
-# CASH — PATHWARD FINANCIAL INC
+# SLDE — SLIDE INSURANCE HOLDINGS
 *Financials · brief generated 2026-09-21 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 8% of 339 Financials peers (92th pct)
-- baseline gap +54%
-- 21d move -9%
-- filed an 8-K in the last few sessions
+- cheapest 5% of 339 Financials peers (95th pct)
+- baseline gap +86%
+- 21d move +11%
+- volume 2.1x its 60d average
+- 1 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 6.75
+- urgency score 6.38
 
 ## Market
 | | |
 |---|---|
-| price | $76.17 |
-| market cap | $1.6B |
-| 5d / 21d / 63d / 252d | -3.1% / -8.9% / -7.1% / +0.8% |
-| 60d avg daily $ volume | $19.0M |
-| beta (vs IWM) | 0.96 (R²=0.354) |
-| 5d volume vs 60d average | 1.5x |
+| price | $24.95 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | +0.4% / +11.0% / +51.0% / +96.5% |
+| 60d avg daily $ volume | $28.4M |
+| beta (vs IWM) | None (R²=0.005) · **sector_median** |
+| 5d volume vs 60d average | 2.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| WACC weights | equity 99% / debt 1% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +38.8% |
-| cost of equity | +10.3% |
-| justified P/TBV | 4.45 |
-| actual P/TBV | 2.89 |
-| tangible book / share | $26.36 |
-| implied gap | +53.9% |
+| sustainable ROTCE | +40.0% |
+| cost of equity | +9.8% |
+| justified P/TBV | 4.89 |
+| actual P/TBV | 2.62 |
+| tangible book / share | $9.51 |
+| implied gap | +86.3% |
 
-Cohort: **92th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +88.8%).
+Cohort: **95th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +120.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_36%_of_book`
-- `rotce_39%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
+- `beta_from_sector_median_0.88(unreliable_r2_0.005_raw_0.18)`
+- `rotce_40%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
 
 ## Recent filings
-- 2026-09-17 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000039/cash-20260914.htm
-- 2026-08-20 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000037/cash-20260820.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/907471/000090747126000034/cash-20260630.htm
-- 2026-07-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000032/cash-20260722.htm
-- 2026-05-21 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000027/cash-20260521.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/907471/000090747126000025/cash-20260331.htm
-- 2026-04-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000023/cash-20260422.htm
-- 2026-02-26 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000019/cash-20260226.htm
-- 2026-02-25 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/907471/000090747126000016/cash-20260224.htm
-- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/907471/000090747126000011/cash-20251231.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526326333/slde-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526321067/slde-20260728.htm
+- 2026-07-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526318080/slde-20260727.htm
+- 2026-06-10 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526265969/slde-20260610.htm
+- 2026-06-04 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526256573/slde-20260604.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526197194/slde-20260331.htm
+- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187126/slde-20260428.htm
+- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187093/slde-20260428.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187047/slde-20260428.htm
+- 2026-03-23 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526119766/slde-20260323.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-20** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/907471/000090747126000037/ex991dividendpressrelease8.htm
-- **2026-07-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/907471/000090747126000032/cash6302026earningsrelease.htm
-- **2026-07-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/907471/000090747126000032/a3qfy26irquarterlydeck_v.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1886428/000119312526321067/slde-ex99_1.htm
+- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1886428/000119312526318080/slde-ex99_1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-10** · Q2 Rundown: Pathward Financial (NASDAQ:CASH) Vs Other Regional Banks Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-rundown-pathward-financial-nasdaq-193704753.html
-  > Wrapping up Q2 earnings, we look at the numbers and key takeaways for the regional banks stocks, including Pathward Financial (NASDAQ:CASH) and its peers.
-- **2026-08-29** · MarketBeat Week in Review – 08/24 - 08/28 — *MarketBeat* — https://www.marketbeat.com/articles/marketbeat-week-in-review-08-24-08-28/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > MarketBeat analysts recap a mixed earnings week, covering AI infrastructure demand, retail's K-shaped consumer trends, Meta's $18 billion settlement, and stock picks across tech, biotech, and retail sectors.
-- **2026-08-25** · Pathward’s Credit Scare Tests Its Comeback Story — *MarketBeat* — https://www.marketbeat.com/articles/pathwards-credit-scare-tests-its-comeback-story/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Pathward Financial missed fiscal Q3 earnings estimates amid rising credit losses, but analysts maintain a Buy rating with roughly 20% upside as management projects stronger fiscal 2027 guidance.
-- **2026-08-25** · Pathward Financial (CASH): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/pathward-financial-cash-buy-sell-114244596.html
-  > Over the past six months, Pathward Financial’s shares (currently trading at $83.24) have posted a disappointing 11.7% loss, well below the S&P 500’s 10.5% gain. This was partly driven by its softer quarterly results and may have investors w
-- **2026-08-20** · Pathward Financial, Inc. Declares Cash Dividend — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/pathward-financial-inc-declares-cash-130000089.html
-  > SIOUX FALLS, S.D., August 20, 2026--Pathward Financial, Inc. ("Pathward Financial" or the "Company") (Nasdaq: CASH), a U.S.-based financial holding company driven by its purpose to power financial inclusion for all, announced that the Compa
-- **2026-08-05** · Pathward and TabaPay Extend Partnership and Expand Program Offerings — *Business Wire* — https://finance.yahoo.com/markets/crypto/articles/pathward-tabapay-extend-partnership-expand-120700050.html
-  > SIOUX FALLS, S.D., August 05, 2026--Pathward has extended its partnership and broadened program offerings with TabaPay.
-- **2026-07-30** · ACT Capital Advisors Secures Development Capital from Pathward and BridgePeak for Teichos Energy's Late-Stage Solar Energy Projects — *PR Newswire* — https://finance.yahoo.com/energy/articles/act-capital-advisors-secures-development-170000073.html
-  > ACT Capital Advisors today announced that it has secured $30 million in development line financing from Pathward®, N.A. on behalf of Teichos Energy, LLC, a utility-scale renewable energy developer. BridgePeak Energy Capital, LLC served as l
-- **2026-07-30** · Pathward Named to the 2026 Monitor 100 — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/pathward-named-2026-monitor-100-120700292.html
-  > SIOUX FALLS, S.D., July 30, 2026--Pathward has earned a spot on the 2026 Monitor 100 list, which recognizes the top equipment finance and leasing organizations across the U.S.
-- **2026-07-28** · CASH Q2 Deep Dive: Credit Events Pressure Results Amid Commercial Finance Growth — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/cash-q2-deep-dive-credit-023702352.html
-  > Financial services company Pathward Financial (NASDAQ:CASH) fell short of the market’s revenue expectations in Q2 CY2026, with sales falling 3.1% year on year to $189.7 million. Its non-GAAP profit of $1.37 per share was 29.6% below analyst
-- **2026-07-26** · Pathward Financial (CASH) Faces Securities Fraud Investigation After Loan And Earnings Disclosures — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/pathward-financial-cash-faces-securities-160641821.html
-  > A securities law firm has launched an investigation into Pathward Financial (NasdaqGS:CASH) for potential securities law violations. The review follows company disclosures of a surge in nonperforming loans, including exposure to renewable e
+- **2026-09-21** · Best Value Stocks to Buy for September 21st — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-101700554.html
+  > SLDE, HHH and NVST made it to the Zacks Rank #1 (Strong Buy) value stocks list on September 21st, 2026.
+- **2026-09-15** · Slide Insurance Holdings, Inc. (SLDE) Hits Fresh High: Is There Still Room to Run? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-131534410.html
+  > Slide Insurance Holdings, Inc. (SLDE) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
+- **2026-09-02** · Best Value Stocks to Buy for September 2nd — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-080000006.html
+  > LCUT, SLDE and HMN made it to the Zacks Rank #1 (Strong Buy) value stocks list on September 2, 2026.
+- **2026-08-25** · Best Value Stocks to Buy for August 25th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-august-105500789.html
+  > SLDE, LEG and THC made it to the Zacks Rank #1 (Strong Buy) value stocks list on August 25th, 2026.
+- **2026-08-24** · Slide Insurance Holdings, Inc. (SLDE) Hits Fresh High: Is There Still Room to Run? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-131503140.html
+  > Slide Insurance Holdings, Inc. (SLDE) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
+- **2026-08-13** · Surging Earnings Estimates Signal Upside for Slide Insurance Holdings, Inc. (SLDE) Stock — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-162002600.html
+  > Slide Insurance Holdings, Inc. (SLDE) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions.
+- **2026-08-06** · Wall Street Analysts Think Slide Insurance Holdings, Inc. (SLDE) Could Surge 25.36%: Read This Before Placing a Bet — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-slide-135502196.html
+  > The average of price targets set by Wall Street analysts indicates a potential upside of 25.4% in Slide Insurance Holdings, Inc. (SLDE). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earni
+- **2026-08-04** · New Strong Buy Stocks for August 4th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-august-4th-094700481.html
+  > CTXAY, PICS, SLDE, AMD and RS have been added to the Zacks Rank #1 (Strong Buy) List on August 4th, 2026.
+- **2026-08-04** · Best Value Stocks to Buy for August 4th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-august-090500190.html
+  > SLDE, PICS and BOOT made it to the Zacks Rank #1 (Strong Buy) value stocks list on August 4th, 2026.
+- **2026-07-29** · Slide Insurance Holdings Inc (SLDE) Q2 2026 Earnings Call Highlights: Record Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-210152422.html
+  > Slide Insurance Holdings Inc (SLDE) reports impressive financial performance with a 92.4% increase in net income and strategic market expansions in California and the Northeast.
+- **2026-07-29** · Slide Insurance Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/slide-insurance-q2-earnings-call-highlights-2026-07-29/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Slide Insurance (NASDAQ:SLDE) reported second-quarter net income of $134.9 million, up 92.4% from $70.1 million a year earlier, as gross written premiums increased and the company’s combined ratio improved. Diluted earnings per share were $
+- **2026-07-29** · Slide Insurance Holdings (SLDE) Starts Its First Quarterly Dividend At $0.07 A Share — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-slde-starts-120809996.html
+  > Slide Insurance Holdings (NasdaqGS:SLDE) has initiated its first quarterly dividend following its Q2 2026 results. The decision marks the company’s shift toward a recurring cash return policy for shareholders. The new dividend introduces an
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Sector Update: Financial Stocks Advance Pre-Bell Monday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
 - **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
@@ -96,14 +102,12 @@ Attack these before you trust any number above.
 - **2026-09-18** · How Is Principal Financial's Stock Performance Compared to Other Financial Stocks — *Barchart* — https://www.barchart.com/story/news/4676218/how-is-principal-financial-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
 - **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
-- **2026-09-17** · Exchange-Traded Funds Higher as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 
 ## Market and macro context
-- **2026-09-21** · Warren Buffett built a $1 trillion machine. Now what? — *TheStreet* — https://www.thestreet.com/investing/warren-buffett-steps-down-chairman-built-1-trillion-machine
-- **2026-09-21** · Should You Buy UnitedHealth Group Stock Before Oct. 13? — *Motley Fool* — https://www.fool.com/investing/2026/09/21/should-you-buy-unitedhealth-group-stock-before-oct-13/
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-- **2026-09-21** · Stock Futures Jump on Iran Hope, AI Rally, and Falling Oil Prices — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/stock-futures-jump-on-iran-hope-ai-rally-and-falling-oil-prices-p9UoYRknoAaMek6eH8AZ?siteid=yhoof2&yptr=yahoo
+- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
+- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
+- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
+- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
 
 *Rules, releases and agency actions:*
 - **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
@@ -126,9 +130,9 @@ Attack these before you trust any number above.
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
+- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
 - ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
-- FG: no_model · price $24.87
 
 ---
 
