@@ -1,0 +1,200 @@
+{
+  "fetched_utc": "2026-09-21T11:30:03+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ATKR",
+    "cik": 1666138,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-15",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm",
+        "file": "2026-09-15-8-K-atkr-20260915.htm.txt",
+        "chars": 10418,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026052084/atkr-20260626.htm",
+        "file": "2026-08-04-10-Q-atkr-20260626.htm.txt",
+        "chars": 160420,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr-20260803.htm",
+        "file": "2026-08-03-8-K-atkr-20260803.htm.txt",
+        "chars": 3579,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "1.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm",
+        "file": "2026-08-03-8-K-atkr-20260803.htm.txt",
+        "chars": 25055,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm",
+        "file": "2026-06-04-8-K-atkr-20260604.htm.txt",
+        "chars": 8221,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026030764/atkr-20260327.htm",
+        "file": "2026-05-06-10-Q-atkr-20260327.htm.txt",
+        "chars": 139192,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr-20260505.htm",
+        "file": "2026-05-05-8-K-atkr-20260505.htm.txt",
+        "chars": 3914,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000010/atkr-20260429.htm",
+        "file": "2026-04-29-8-K-atkr-20260429.htm.txt",
+        "chars": 8295,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr3q26exhibit991.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 33962,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_991xpressrelease.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 13297,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr992eml.htm",
+        "file": "2026-08-03-EX-99.2.txt",
+        "chars": 7599,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.3",
+        "description": "EX-99.3",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_992.htm",
+        "file": "2026-08-03-EX-99.3.txt",
+        "chars": 9914,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr2q26exhibit991.htm",
+        "file": "2026-05-05-EX-99.1.txt",
+        "chars": 34589,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/q22026earningsdeck-vfina.htm",
+        "file": "2026-05-05-EX-99.2.txt",
+        "chars": 18059,
+        "truncated": false
+      }
+    ]
+  }
+}

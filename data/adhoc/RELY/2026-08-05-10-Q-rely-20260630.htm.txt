@@ -1,0 +1,2091 @@
+0001782170 12-31 2026 Q2 FALSE P3Y 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares rely:country xbrli:pure rely:vote rely:claim rely:segment 0001782170 2026-01-01 2026-06-30 0001782170 2026-08-03 0001782170 2026-06-30 0001782170 2025-12-31 0001782170 2026-04-01 2026-06-30 0001782170 2025-04-01 2025-06-30 0001782170 2025-01-01 2025-06-30 0001782170 rely:TransactionExpensesMember 2026-04-01 2026-06-30 0001782170 rely:TransactionExpensesMember 2025-04-01 2025-06-30 0001782170 rely:TransactionExpensesMember 2026-01-01 2026-06-30 0001782170 rely:TransactionExpensesMember 2025-01-01 2025-06-30 0001782170 rely:CustomerSupportAndOperationsMember 2026-04-01 2026-06-30 0001782170 rely:CustomerSupportAndOperationsMember 2025-04-01 2025-06-30 0001782170 rely:CustomerSupportAndOperationsMember 2026-01-01 2026-06-30 0001782170 rely:CustomerSupportAndOperationsMember 2025-01-01 2025-06-30 0001782170 us-gaap:CommonStockMember 2025-12-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-12-31 0001782170 us-gaap:RetainedEarningsMember 2025-12-31 0001782170 us-gaap:CommonStockMember 2026-01-01 2026-03-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-03-31 0001782170 2026-01-01 2026-03-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-01 2026-03-31 0001782170 us-gaap:RetainedEarningsMember 2026-01-01 2026-03-31 0001782170 us-gaap:CommonStockMember 2026-03-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2026-03-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-03-31 0001782170 us-gaap:RetainedEarningsMember 2026-03-31 0001782170 2026-03-31 0001782170 us-gaap:CommonStockMember 2026-04-01 2026-06-30 0001782170 us-gaap:AdditionalPaidInCapitalMember 2026-04-01 2026-06-30 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-04-01 2026-06-30 0001782170 us-gaap:RetainedEarningsMember 2026-04-01 2026-06-30 0001782170 us-gaap:CommonStockMember 2026-06-30 0001782170 us-gaap:AdditionalPaidInCapitalMember 2026-06-30 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-06-30 0001782170 us-gaap:RetainedEarningsMember 2026-06-30 0001782170 us-gaap:CommonStockMember 2024-12-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-31 0001782170 us-gaap:RetainedEarningsMember 2024-12-31 0001782170 2024-12-31 0001782170 us-gaap:CommonStockMember 2025-01-01 2025-03-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-03-31 0001782170 2025-01-01 2025-03-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-01-01 2025-03-31 0001782170 us-gaap:RetainedEarningsMember 2025-01-01 2025-03-31 0001782170 us-gaap:CommonStockMember 2025-03-31 0001782170 us-gaap:AdditionalPaidInCapitalMember 2025-03-31 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-31 0001782170 us-gaap:RetainedEarningsMember 2025-03-31 0001782170 2025-03-31 0001782170 us-gaap:CommonStockMember 2025-04-01 2025-06-30 0001782170 us-gaap:AdditionalPaidInCapitalMember 2025-04-01 2025-06-30 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-04-01 2025-06-30 0001782170 us-gaap:RetainedEarningsMember 2025-04-01 2025-06-30 0001782170 us-gaap:CommonStockMember 2025-06-30 0001782170 us-gaap:AdditionalPaidInCapitalMember 2025-06-30 0001782170 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-06-30 0001782170 us-gaap:RetainedEarningsMember 2025-06-30 0001782170 2025-06-30 0001782170 srt:RevisionOfPriorPeriodReclassificationAdjustmentMember 2025-01-01 2025-06-30 0001782170 us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax 2026-04-01 2026-06-30 0001782170 us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax 2025-04-01 2025-06-30 0001782170 us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax 2026-01-01 2026-06-30 0001782170 us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01 2025-06-30 0001782170 us-gaap:MarketingAndAdvertisingExpense 2026-04-01 2026-06-30 0001782170 us-gaap:MarketingAndAdvertisingExpense 2025-04-01 2025-06-30 0001782170 us-gaap:MarketingAndAdvertisingExpense 2026-01-01 2026-06-30 0001782170 us-gaap:MarketingAndAdvertisingExpense 2025-01-01 2025-06-30 0001782170 country:US 2026-04-01 2026-06-30 0001782170 country:US 2025-04-01 2025-06-30 0001782170 country:US 2026-01-01 2026-06-30 0001782170 country:US 2025-01-01 2025-06-30 0001782170 country:CA 2026-04-01 2026-06-30 0001782170 country:CA 2025-04-01 2025-06-30 0001782170 country:CA 2026-01-01 2026-06-30 0001782170 country:CA 2025-01-01 2025-06-30 0001782170 rely:RestOfWorldMember 2026-04-01 2026-06-30 0001782170 rely:RestOfWorldMember 2025-04-01 2025-06-30 0001782170 rely:RestOfWorldMember 2026-01-01 2026-06-30 0001782170 rely:RestOfWorldMember 2025-01-01 2025-06-30 0001782170 us-gaap:FinancialAssetNotPastDueMember 2026-06-30 0001782170 us-gaap:FinancialAssetNotPastDueMember 2025-12-31 0001782170 rely:FinancialAsset1To30DaysPastDueMember 2026-06-30 0001782170 rely:FinancialAsset1To30DaysPastDueMember 2025-12-31 0001782170 rely:FinancialAsset31To60DaysPastDueMember 2026-06-30 0001782170 rely:FinancialAsset31To60DaysPastDueMember 2025-12-31 0001782170 rely:FinancialAsset61To90DaysPastDueMember 2026-06-30 0001782170 rely:FinancialAsset61To90DaysPastDueMember 2025-12-31 0001782170 rely:FinancialAssetEqualToOrGreaterThan91DaysPastDueMember 2026-06-30 0001782170 rely:FinancialAssetEqualToOrGreaterThan91DaysPastDueMember 2025-12-31 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2026-06-30 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2025-12-31 0001782170 rely:ComputerAndOfficeEquipmentMember 2026-06-30 0001782170 rely:ComputerAndOfficeEquipmentMember 2025-12-31 0001782170 us-gaap:FurnitureAndFixturesMember 2026-06-30 0001782170 us-gaap:FurnitureAndFixturesMember 2025-12-31 0001782170 us-gaap:LeaseholdImprovementsMember 2026-06-30 0001782170 us-gaap:LeaseholdImprovementsMember 2025-12-31 0001782170 rely:ProjectsInProcessMember 2026-06-30 0001782170 rely:ProjectsInProcessMember 2025-12-31 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2026-04-01 2026-06-30 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2025-04-01 2025-06-30 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2026-01-01 2026-06-30 0001782170 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2025-01-01 2025-06-30 0001782170 country:US 2026-06-30 0001782170 country:US 2025-12-31 0001782170 us-gaap:NonUsMember 2026-06-30 0001782170 us-gaap:NonUsMember 2025-12-31 0001782170 us-gaap:TradeNamesMember 2026-06-30 0001782170 us-gaap:TradeNamesMember 2026-01-01 2026-06-30 0001782170 us-gaap:TradeNamesMember 2025-12-31 0001782170 us-gaap:TradeNamesMember 2025-01-01 2025-12-31 0001782170 us-gaap:CustomerRelationshipsMember 2026-06-30 0001782170 us-gaap:CustomerRelationshipsMember 2026-01-01 2026-06-30 0001782170 us-gaap:CustomerRelationshipsMember 2025-12-31 0001782170 us-gaap:CustomerRelationshipsMember 2025-01-01 2025-12-31 0001782170 us-gaap:DevelopedTechnologyRightsMember 2026-06-30 0001782170 us-gaap:DevelopedTechnologyRightsMember 2026-01-01 2026-06-30 0001782170 us-gaap:DevelopedTechnologyRightsMember 2025-12-31 0001782170 us-gaap:DevelopedTechnologyRightsMember 2025-01-01 2025-12-31 0001782170 srt:MinimumMember 2026-01-01 2026-06-30 0001782170 srt:MaximumMember 2026-01-01 2026-06-30 0001782170 us-gaap:MoneyMarketFundsMember 2026-06-30 0001782170 us-gaap:ForeignExchangeContractMember 2026-06-30 0001782170 us-gaap:ForeignExchangeContractMember 2025-12-31 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:LetterOfCreditMember 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember rely:NYFRBRateMember 2025-06-01 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember rely:AdjustedSOFR1.00FloorMember 2025-06-01 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember us-gaap:BaseRateMember 2025-06-01 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember rely:AdjustedSOFR0.00FloorMember 2025-06-01 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember 2025-06-01 2025-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember 2026-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember 2026-06-30 0001782170 us-gaap:LineOfCreditMember rely:A2025RevolvingCreditFacilityMember us-gaap:RevolvingCreditFacilityMember 2025-12-31 0001782170 us-gaap:PerformanceSharesMember 2026-01-01 2026-06-30 0001782170 rely:Pledge1Member 2021-07-31 0001782170 rely:Pledge1Member 2021-07-01 2021-07-31 0001782170 rely:Pledge1Member 2026-04-01 2026-06-30 0001782170 rely:Pledge1Member 2025-04-01 2025-06-30 0001782170 rely:Pledge1Member 2026-01-01 2026-06-30 0001782170 rely:Pledge1Member 2025-01-01 2025-06-30 0001782170 2025-07-31 0001782170 rely:A2021EquityIncentivePlanMember us-gaap:EmployeeStockOptionMember 2026-06-30 0001782170 rely:A2021EquityIncentivePlanMember us-gaap:EmployeeStockMember 2026-06-30 0001782170 2025-01-01 2025-12-31 0001782170 us-gaap:PerformanceSharesMember 2025-01-01 2025-06-30 0001782170 us-gaap:PerformanceSharesMember 2025-04-01 2025-06-30 0001782170 rely:RestrictedStockUnitsAndPerformanceStockUnitsMember 2025-12-31 0001782170 rely:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-01-01 2026-06-30 0001782170 rely:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-06-30 0001782170 rely:RestrictedStockUnitsAndPerformanceStockUnitsMember 2025-01-01 2025-06-30 0001782170 us-gaap:EmployeeStockMember 2025-09-01 2025-09-01 0001782170 us-gaap:EmployeeStockMember srt:MinimumMember 2026-01-01 2026-06-30 0001782170 us-gaap:EmployeeStockMember srt:MaximumMember 2026-01-01 2026-06-30 0001782170 us-gaap:EmployeeStockMember srt:MinimumMember 2025-01-01 2025-06-30 0001782170 us-gaap:EmployeeStockMember srt:MaximumMember 2025-01-01 2025-06-30 0001782170 us-gaap:EmployeeStockMember 2026-01-01 2026-06-30 0001782170 us-gaap:EmployeeStockMember 2025-01-01 2025-06-30 0001782170 us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization 2026-04-01 2026-06-30 0001782170 us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization 2025-04-01 2025-06-30 0001782170 us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization 2026-01-01 2026-06-30 0001782170 us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization 2025-01-01 2025-06-30 0001782170 us-gaap:ResearchAndDevelopmentExpense 2026-04-01 2026-06-30 0001782170 us-gaap:ResearchAndDevelopmentExpense 2025-04-01 2025-06-30 0001782170 us-gaap:ResearchAndDevelopmentExpense 2026-01-01 2026-06-30 0001782170 us-gaap:ResearchAndDevelopmentExpense 2025-01-01 2025-06-30 0001782170 us-gaap:GeneralAndAdministrativeExpense 2026-04-01 2026-06-30 0001782170 us-gaap:GeneralAndAdministrativeExpense 2025-04-01 2025-06-30 0001782170 us-gaap:GeneralAndAdministrativeExpense 2026-01-01 2026-06-30 0001782170 us-gaap:GeneralAndAdministrativeExpense 2025-01-01 2025-06-30 0001782170 us-gaap:EmployeeStockMember 2026-06-30 0001782170 us-gaap:EmployeeSeveranceMember 2025-12-31 0001782170 rely:LeaseExitAndOtherRelatedCostsMember 2025-12-31 0001782170 us-gaap:EmployeeSeveranceMember 2026-01-01 2026-06-30 0001782170 rely:LeaseExitAndOtherRelatedCostsMember 2026-01-01 2026-06-30 0001782170 us-gaap:EmployeeSeveranceMember 2026-06-30 0001782170 rely:LeaseExitAndOtherRelatedCostsMember 2026-06-30 0001782170 us-gaap:IndemnificationGuaranteeMember 2026-06-30 0001782170 us-gaap:IndemnificationGuaranteeMember 2025-12-31 0001782170 rely:TransactionLossesMember 2026-03-31 0001782170 rely:TransactionLossesMember 2025-03-31 0001782170 rely:TransactionLossesMember 2025-12-31 0001782170 rely:TransactionLossesMember 2024-12-31 0001782170 rely:TransactionLossesMember 2026-04-01 2026-06-30 0001782170 rely:TransactionLossesMember 2025-04-01 2025-06-30 0001782170 rely:TransactionLossesMember 2026-01-01 2026-06-30 0001782170 rely:TransactionLossesMember 2025-01-01 2025-06-30 0001782170 rely:TransactionLossesMember 2026-06-30 0001782170 rely:TransactionLossesMember 2025-06-30 0001782170 rely:ReportableSegmentMember 2026-04-01 2026-06-30 0001782170 rely:ReportableSegmentMember 2025-04-01 2025-06-30 0001782170 rely:ReportableSegmentMember 2026-01-01 2026-06-30 0001782170 rely:ReportableSegmentMember 2025-01-01 2025-06-30 0001782170 rely:TransactionExpensesMember rely:ReportableSegmentMember 2026-04-01 2026-06-30 0001782170 rely:TransactionExpensesMember rely:ReportableSegmentMember 2025-04-01 2025-06-30 0001782170 rely:TransactionExpensesMember rely:ReportableSegmentMember 2026-01-01 2026-06-30 0001782170 rely:TransactionExpensesMember rely:ReportableSegmentMember 2025-01-01 2025-06-30 0001782170 rely:CustomerSupportAndOperationsAdjustedMember rely:ReportableSegmentMember 2026-04-01 2026-06-30 0001782170 rely:CustomerSupportAndOperationsAdjustedMember rely:ReportableSegmentMember 2025-04-01 2025-06-30 0001782170 rely:CustomerSupportAndOperationsAdjustedMember rely:ReportableSegmentMember 2026-01-01 2026-06-30 0001782170 rely:CustomerSupportAndOperationsAdjustedMember rely:ReportableSegmentMember 2025-01-01 2025-06-30 
+
+ Table of Contents 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ WASHINGTON, D.C. 20549 
+
+ FORM 10-Q 
+
+ (Mark One) 
+
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended June 30, 2026 
+
+ OR 
+
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ Commission file number: 001-40822 
+
+ Remitly Global, Inc. 
+
+ (Exact name of registrant as specified in its charter) 
+
+ Delaware 7372 83-2301143 
+
+ (State or other jurisdiction of 
+
+ incorporation or organization) 
+ 
+ (Primary Standard Industrial 
+
+ Classification Code Number) 
+ 
+ (I.R.S. Employer 
+
+ Identification Number) 
+
+ 401 Union Street, 
+ 
+ Suite 1000 
+ Seattle, WA 98101 
+
+ (Address of Principal Executive Offices) (Zip Code) 
+
+ ( 888 ) 736-4859 
+
+ (Registrant’s telephone number, including area code) 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class Trading Symbol(s) Name of each exchange on which registered 
+
+ Common Stock, $0.0001 par value RELY The Nasdaq Global Select Market 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+
+ Large accelerated filer 
+ ☒ 
+ Accelerated filer 
+ ☐ 
+
+ Non-accelerated filer 
+ ☐ 
+ Smaller reporting company 
+ ☐ 
+
+ Emerging growth company 
+ ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 
+
+ As of August 3, 2026, the registrant had 211,684,054 shares of common stock, $0.0001 par value per share, outstanding. 
+
+ Table of Contents 
+
+ TABLE OF CONTENTS Page(s) 
+
+ Special Note Regarding Forward-Looking Statements 
+ 
+ ii 
+
+ Part I Financial Information 
+
+ Item 1. 
+ Financial Statements 
+ 
+ 1 
+
+ Condensed Consolidated Balance Sheets as o f June 30, 2026 and December 31, 2025 
+ 
+ 1 
+
+ Condensed Consolidated Statements of Operations for the three and six months ended June 30, 2026 and 2025 
+ 
+ 2 
+
+ Condensed Consolidated Statements of Comprehensive Income for the three and six months ended June 30, 2026 and 2025 
+ 
+ 3 
+
+ Condensed Consolidated Statements of Stockholders’ Equity for the three and six months ended June 30, 2026 and 2025 
+ 
+ 4 
+
+ Condensed Consolidated Statements of Cash Flows for the six months ended June 30, 2026 and 2025 
+ 
+ 6 
+
+ Notes to C ondensed C onsolidated F inancial S tatements 
+ 
+ 7 
+
+ Item 2. 
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+ 
+ 21 
+
+ Item 3. 
+ Quantitative and Qualitative Disclosure s About Market Risk 
+ 
+ 33 
+
+ Item 4. 
+ Controls and Procedures 
+ 
+ 34 
+
+ Part II Other Information 
+ 35 
+
+ Item 1. 
+ Legal Proceedings 
+ 
+ 35 
+
+ Item 1A. 
+ Risk Factors 
+ 
+ 35 
+
+ Item 2. 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 
+ 35 
+
+ Item 3. 
+ Defaults Upon Senior Securities 
+ 
+ 35 
+
+ Item 4. 
+ Mine Safety Disclosures 
+ 
+ 35 
+
+ Item 5. 
+ Other Information 
+ 
+ 35 
+
+ Item 6. 
+ Exhibit s 
+ 
+ 36 
+
+ Signatures 
+ 
+ 37 
+
+ i 
+
+ Table of Con t ents 
+
+ SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS 
+
+ This Quarterly Report on Form 10-Q contains forward-looking statements that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding future events or our future results of operations, financial condition, business, strategies, financial needs, and the plans and objectives of management, are forward-looking statements. In some cases you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “might,” “likely,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. These forward-looking statements include, but are not limited to, statements concerning the following: 
+
+ • our expectations regarding our revenue, expenses, and other operating results; 
+
+ • our ability to acquire new customers and successfully retain existing customers; 
+
+ • our ability to continue to develop new products and services in a timely manner; 
+
+ • our ability to sustain our profitability; 
+
+ • our ability to maintain and expand our strategic relationships with third parties; 
+
+ • our business plan and our ability to effectively manage our growth; 
+
+ • anticipated trends, growth rates, and challenges in our business and in the market segments in which we operate; 
+
+ • our ability to effectively integrate and leverage artificial intelligence (“AI”) and machine learning technologies; 
+
+ • our ability to attract, integrate, and retain qualified employees, including key members of our management team; 
+
+ • uncertainties regarding the impact of geopolitical and macroeconomic conditions, including currency fluctuations, inflation, regulatory changes (including as may be related to immigration, fiscal and tax policy, foreign trade, or foreign investment), regional and global conflicts or related government sanctions, or legislative or regulatory developments; 
+
+ • our ability to maintain the security and availability of our solutions; 
+
+ • our ability to maintain our money transmission licenses and other regulatory clearances or obtain new licenses and regulatory clearances; 
+
+ • our ability to maintain and expand international operations; 
+
+ • our expectations regarding anticipated technology needs and developments and our ability to address those needs and developments with our solutions; and 
+
+ • our stock repurchase program, the timing and number of shares of our common stock to be repurchased, and the potential benefits thereof. 
+
+ You should not place undue reliance on our forward-looking statements and you should not rely on forward-looking statements as predictions of future events. The results, events, and circumstances reflected in the forward-looking statements may not be achieved or occur, and actual results, events, or circumstances could differ materially from those described in the forward-looking statements. The forward-looking statements made in this Quarterly Report on Form 10-Q speak only as of the date of this report. We undertake no obligation to update any forward-looking statements made in this report to reflect events or circumstances after the date of this report or to reflect new information or the occurrence of unanticipated events, except as required by law. If we update one or more forward-looking statements, no inference should be drawn that we will make additional updates with respect to those or other forward-looking statements. These forward-looking statements are subject to a number of risks, uncertainties, and assumptions, including those described in “Risk Factors” in this Quarterly Report on Form 10-Q. New risks emerge from time to time. It is not possible for us to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. 
+
+ Unless the context otherwise requires, the terms “Remitly Global,” “Remitly,” “the Company,” “we,” “us,” and “our” in this Quarterly Report on Form 10-Q refer to Remitly Global, Inc. and our consolidated subsidiaries, taken as a whole. 
+
+ ii 
+
+ Table of Contents 
+
+ Part I. Financial Information 
+
+ Item 1. Financial Statements (Unaudited) 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Balance Sheets 
+
+ ( In thousands, except per share data ) 
+
+ (unaudited) 
+
+ June 30, December 31, 
+
+ 2026 2025 
+
+ Assets 
+
+ Current assets 
+
+ Cash and cash equivalents $ 676,394 $ 542,426 
+
+ Disbursement prefunding 234,640 441,335 
+
+ Customer funds receivable, net 322,019 286,455 
+
+ Prepaid expenses and other current assets 52,894 45,735 
+
+ Total current assets 1,285,947 1,315,951 
+
+ Property and equipment, net 60,097 61,521 
+
+ Operating lease right-of-use assets 9,898 12,452 
+
+ Goodwill 54,940 54,940 
+
+ Intangible assets, net 1,063 2,125 
+
+ Other noncurrent assets, net 155,510 11,724 
+
+ Total assets $ 1,567,455 $ 1,458,713 
+
+ Liabilities and stockholders’ equity 
+
+ Current liabilities 
+
+ Accounts payable $ 39,893 $ 28,450 
+
+ Customer liabilities 195,521 219,667 
+
+ Short-term debt 3,022 2,821 
+
+ Accrued expenses and other current liabilities 158,072 141,948 
+
+ Operating lease liabilities 7,806 6,166 
+
+ Total current liabilities 404,314 399,052 
+
+ Operating lease liabilities, noncurrent 27,436 28,135 
+
+ Long-term debt — 155,000 
+
+ Other noncurrent liabilities 8,857 7,737 
+
+ Total liabilities 440,607 589,924 
+
+ Commitments and contingencies (Note 15) 
+
+ Stockholders’ equity 
+
+ Common stock, $ 0.0001 par value; 725,000 shares authorized as of both June 30, 2026 and December 31, 2025; 211,671 and 210,626 shares issued and outstanding as of June 30, 2026 and December 31, 2025, respectively 
+ 21 21 
+
+ Additional paid-in capital 1,329,975 1,325,520 
+
+ Accumulated other comprehensive income 2,239 3,596 
+
+ Accumulated deficit ( 205,387 ) ( 460,348 ) 
+
+ Total stockholders’ equity 1,126,848 868,789 
+
+ Total liabilities and stockholders’ equity $ 1,567,455 $ 1,458,713 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 1 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Statements of Operations 
+
+ ( In thousands, except per share data ) 
+
+ (unaudited) 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ 2026 2025 2026 2025 
+
+ Revenue $ 495,156 $ 411,852 $ 947,958 $ 773,476 
+
+ Costs and expenses 
+
+ Transaction expenses (1) 
+ 161,174 143,756 306,114 265,149 
+
+ Customer support and operations (1) 
+ 26,639 25,074 53,450 47,647 
+
+ Marketing (1) 
+ 104,388 84,976 190,750 158,325 
+
+ Technology and development (1) 
+ 74,049 77,496 153,652 151,347 
+
+ General and administrative (1) 
+ 55,918 59,581 111,065 112,410 
+
+ Depreciation and amortization 6,307 6,326 12,506 11,722 
+
+ Total costs and expenses 428,475 397,209 827,537 746,600 
+
+ Income from operations 66,681 14,643 120,421 26,876 
+
+ Interest income 1,485 2,061 3,138 3,848 
+
+ Interest expense ( 3,152 ) ( 1,650 ) ( 5,589 ) ( 2,949 ) 
+
+ Other expense, net ( 370 ) ( 6,940 ) ( 1,251 ) ( 4,719 ) 
+
+ Income before (benefit from) provision for income taxes 64,644 8,114 116,719 23,056 
+
+ (Benefit from) provision for income taxes ( 141,264 ) 1,578 ( 138,242 ) 5,168 
+
+ Net income $ 205,908 $ 6,536 $ 254,961 $ 17,888 
+
+ Net income per share attributable to common stockholders: 
+
+ Basic 
+ $ 0.98 $ 0.03 $ 1.21 $ 0.09 
+
+ Diluted 
+ $ 0.93 $ 0.03 $ 1.16 $ 0.08 
+
+ Weighted-average shares used in computing net income per share attributable to common stockholders: 
+
+ Basic 
+ 210,839 204,693 210,936 203,227 
+
+ Diluted 
+ 221,049 218,978 219,023 218,704 
+
+ __________________ 
+
+ (1) Exclusive of depreciation and amortization, shown separately. 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 2 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Statements of Comprehensive Income 
+
+ ( In thousands ) 
+
+ (unaudited) 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ 2026 2025 2026 2025 
+
+ Net income $ 205,908 $ 6,536 $ 254,961 $ 17,888 
+
+ Other comprehensive (loss) income: 
+
+ Foreign currency translation adjustments ( 195 ) 4,109 ( 1,357 ) 5,842 
+
+ Comprehensive income $ 205,713 $ 10,645 $ 253,604 $ 23,730 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 3 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Statements of Stockholders’ Equity 
+
+ For the Three and Six Months Ended June 30, 2026 
+
+ ( In thousands ) 
+
+ (unaudited) 
+
+ Common Stock Additional
+Paid-in
+Capital Accumulated
+Other
+Comprehensive Income Accumulated
+Deficit Total
+Stockholders’ Equity 
+
+ Shares Amount 
+
+ Balance as of January 1, 2026 210,626 $ 21 $ 1,325,520 $ 3,596 $ ( 460,348 ) $ 868,789 
+
+ Issuance of common stock in connection with ESPP 513 — 6,340 — — 6,340 
+
+ Issuance of common stock upon exercise of stock options and vesting of restricted stock units 1,978 — 417 — — 417 
+
+ Donation of common stock 45 — 765 — — 765 
+
+ Taxes paid related to net shares settlement of equity awards ( 59 ) — ( 952 ) — — ( 952 ) 
+
+ Common stock repurchased ( 2,770 ) — ( 44,249 ) — — ( 44,249 ) 
+
+ Stock-based compensation expense — — 28,439 — — 28,439 
+
+ Other comprehensive loss — — — ( 1,162 ) — ( 1,162 ) 
+
+ Net income — — — — 49,053 49,053 
+
+ Balance as of March 31, 2026 210,333 $ 21 $ 1,316,280 $ 2,434 $ ( 411,295 ) $ 907,440 
+
+ Issuance of common stock upon exercise of stock options and vesting of restricted stock units 2,532 — 1,034 — — 1,034 
+
+ Donation of common stock 46 — 957 — — 957 
+
+ Taxes paid related to net shares settlement of equity awards ( 128 ) — ( 2,775 ) — — ( 2,775 ) 
+
+ Common stock repurchased ( 1,112 ) — ( 21,315 ) — — ( 21,315 ) 
+
+ Stock-based compensation expense — — 35,794 — — 35,794 
+
+ Other comprehensive loss — — — ( 195 ) — ( 195 ) 
+
+ Net income — — — — 205,908 205,908 
+
+ Balance as of June 30, 2026 211,671 $ 21 $ 1,329,975 $ 2,239 $ ( 205,387 ) $ 1,126,848 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 4 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Statements of Stockholders’ Equity 
+
+ For the Three and Six Months Ended June 30, 2025 
+
+ ( In thousands ) 
+
+ (unaudited) 
+
+ Common Stock Additional
+Paid-in
+Capital 
+ Accumulated 
+
+ Other 
+
+ Comprehensive Income (Loss) 
+ Accumulated
+Deficit Total
+Stockholders’ Equity 
+
+ Shares Amount 
+
+ Balance as of January 1, 2025 200,535 $ 20 $ 1,195,390 $ ( 1,658 ) $ ( 528,281 ) $ 665,471 
+
+ Issuance of common stock in connection with ESPP 497 — 5,768 — — 5,768 
+
+ Issuance of common stock upon exercise of stock options and vesting of restricted stock units 2,793 — 2,392 — — 2,392 
+
+ Donation of common stock 45 — 959 — — 959 
+
+ Taxes paid related to net shares settlement of equity awards ( 44 ) — ( 1,089 ) — — ( 1,089 ) 
+
+ Stock-based compensation expense — — 36,890 — — 36,890 
+
+ Other comprehensive income — — — 1,733 — 1,733 
+
+ Net income — — — — 11,352 11,352 
+
+ Balance as of March 31, 2025 203,826 $ 20 $ 1,240,310 $ 75 $ ( 516,929 ) $ 723,476 
+
+ Issuance of common stock upon exercise of stock options and vesting of restricted stock units 2,739 1 2,186 — — 2,187 
+
+ Donation of common stock 46 — 907 — — 907 
+
+ Taxes paid related to net shares settlement of equity awards ( 520 ) — ( 11,589 ) — — ( 11,589 ) 
+
+ Stock-based compensation expense — — 39,296 — — 39,296 
+
+ Other comprehensive income — — — 4,109 — 4,109 
+
+ Net income — — — — 6,536 6,536 
+
+ Balance as of June 30, 2025 206,091 $ 21 $ 1,271,110 $ 4,184 $ ( 510,393 ) $ 764,922 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 5 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Condensed Consolidated Statements of Cash Flows 
+
+ (In thousands) 
+
+ (unaudited) 
+
+ Six Months Ended June 30, 
+
+ 2026 2025 
+
+ Cash flows from operating activities 
+
+ Net income $ 254,961 $ 17,888 
+
+ Adjustments to reconcile net income to net cash provided by operating activities: 
+
+ Depreciation, amortization, and other 25,928 27,641 
+
+ Deferred income taxes ( 143,856 ) — 
+
+ Stock-based compensation expense, net 62,027 73,858 
+
+ Donation of common stock 1,722 1,866 
+
+ Changes in operating assets and liabilities: 
+
+ Prepaid expenses and other assets ( 7,277 ) ( 19,614 ) 
+
+ Operating lease right-of-use assets 1,700 3,700 
+
+ Accounts payable 15,965 4,443 
+
+ Accrued expenses and other liabilities 4,930 13,397 
+
+ Operating lease liabilities 412 12,293 
+
+ Net cash provided by operating activities 216,512 135,472 
+
+ Cash flows from investing activities 
+
+ Purchases of property and equipment 
+ ( 7,171 ) ( 18,484 ) 
+
+ Capitalized internal-use software costs ( 6,531 ) ( 6,012 ) 
+
+ Net (originations) collections from consumer receivables ( 6,613 ) ( 8,069 ) 
+
+ Net cash used in investing activities ( 20,315 ) ( 32,565 ) 
+
+ Cash flows from financing activities 
+
+ Proceeds from exercise of stock options 1,451 4,578 
+
+ Proceeds from issuance of common stock in connection with ESPP 6,340 5,768 
+
+ Cash paid for repurchase of common stock ( 65,164 ) — 
+
+ Proceeds from revolving credit facility borrowings 5,817,000 2,493,000 
+
+ Repayments of revolving credit facility borrowings ( 5,972,000 ) ( 2,493,000 ) 
+
+ Net change in customer funds assets and liabilities 155,461 38,622 
+
+ Taxes paid related to net share settlement of equity awards ( 3,727 ) ( 11,617 ) 
+
+ Payment of debt issuance costs — ( 2,628 ) 
+
+ Net cash (used in) provided by financing activities ( 60,639 ) 34,723 
+
+ Effect of foreign exchange rate changes on cash, cash equivalents, and restricted cash ( 1,723 ) 10,182 
+
+ Net increase in cash, cash equivalents, and restricted cash 133,835 147,812 
+
+ Cash, cash equivalents, and restricted cash at beginning of period 544,299 369,817 
+
+ Cash, cash equivalents, and restricted cash at end of period $ 678,134 $ 517,629 
+
+ Reconciliation of cash, cash equivalents, and restricted cash 
+
+ Cash and cash equivalents $ 676,394 $ 515,896 
+
+ Restricted cash included in prepaid expenses and other current assets 485 664 
+
+ Restricted cash included in other noncurrent assets, net 1,255 1,069 
+
+ Total cash, cash equivalents, and restricted cash $ 678,134 $ 517,629 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 6 
+
+ Table of Contents 
+
+ REMITLY GLOBAL, INC. 
+
+ Notes to Condensed Consolidated Financial Statements 
+
+ (unaudited) 
+
+ 1. Organization and Description of Business 
+ 
+ Description of Business 
+
+ Remitly Global, Inc. (the “Company” or “Remitly”) was incorporated in the State of Delaware in October 2018 and is headquartered in Seattle, Washington, with various other global office locations. Remitly was founded and incorporated in the State of Delaware in 2011 under the name of Remitly, Inc., which is now a wholly-owned subsidiary of Remitly Global, Inc. 
+
+ Remitly is a trusted provider of financial services that transcend borders. With a footprint spanning more than 175 countries, Remitly has built one of the world’s leading global money movement platforms, trusted by millions of customers. Remitly continues to evolve beyond a remittance company into a diversified, cross-border financial services provider, serving both consumers and businesses across a growing set of use cases. 
+
+ Unless otherwise expressly stated or the context otherwise requires, the terms “Remitly” and the “Company” within these notes to the condensed consolidated financial statements refer to Remitly Global, Inc. and its wholly-owned subsidiaries. 
+
+ 2. Basis of Presentation and Summary of Significant Accounting Policies 
+ 
+ Basis of Presentation 
+
+ The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and applicable rules and regulations of the U.S. Securities and Exchange Commission (the “SEC”) regarding interim financial reporting. The year-end data within the Condensed Consolidated Balance Sheets was derived from audited financial statements, but does not include all disclosures required by GAAP and therefore the information included in this Quarterly Report on Form 10-Q should be read in conjunction with the historical audited annual consolidated financial statements and related notes included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. 
+
+ The accompanying unaudited interim condensed consolidated financial statements have been prepared on the same basis as the audited consolidated financial statements and, in the opinion of management, reflect all adjustments of a normal recurring nature considered necessary to state fairly the Company’s consolidated financial position, results of operations, comprehensive income, and cash flows for the interim periods. The interim results for the three and six months ended June 30, 2026, are not necessarily indicative of the results that may be expected for the year ending December 31, 2026, or for any other future annual or interim period. 
+ 
+ Principles of Consolidation 
+
+ The condensed consolidated financial statements include the accounts of Remitly Global, Inc. and its wholly-owned subsidiaries. All intercompany transactions and balances have been eliminated in consolidation. 
+ 
+ Reclassification 
+
+ The condensed consolidated financial statements and notes have been prepared consistently, with the exception of the reclassification of certain prior year amounts within the Company’s Condensed Consolidated Statements of Cash Flows. Reclassifications include a change in presentation of certain cash activity related to customer funds assets and liabilities, which is comprised of disbursement prefunding, customer funds receivable, customer liabilities, and trade settlement liability included within the line item ‘ Accrued expenses and other current liabilities ’ on the Condensed Consolidated Balance Sheets. Certain components of this activity were reclassified from cash flows from operating activities to cash flows from financing activities, reflected within the line item ‘ Net change in customer funds assets and liabilities ’ on the Condensed Consolidated Statements of Cash Flows. This change resulted in a decrease in cash flows from operating activities of $ 38.6 million for the six months ended June 30, 2025, offset by a corresponding change in cash flows from financing activities. In addition, certain other immaterial amounts in the prior period Condensed Consolidated Statements of Cash Flows were reclassified. The Company has conformed the prior period Condensed Consolidated Statements of Cash Flows to the current period presentation to enhance transparency and provide comparability. These reclassifications did not affect the Company’s Condensed Consolidated Statements of Operations, Condensed Consolidated Statements of Comprehensive Income, Condensed Consolidated Balance Sheets, or Condensed Consolidated Statements of Stockholders’ Equity. 
+
+ 7 
+
+ Table of Contents 
+
+ Use of Estimates 
+ 
+ The preparation of the accompanying condensed consolidated financial statements requires management to make estimates and assumptions that affect the amounts reported and disclosed within the condensed consolidated financial statements and accompanying notes. These estimates and assumptions include, but are not limited to, revenue recognition including the treatment of sales incentive programs, reserves for transaction losses, allowance for credit losses, stock-based compensation expense, the carrying value of operating lease right-of-use assets and operating lease liabilities, the realizability of deferred tax assets, capitalization of software development costs, goodwill, and intangible assets. The key assumptions applied for the value of the intangible assets include revenue growth rates for a hypothetical market participant, selected discount rates, as well as migration curves for developed technology. The Company bases its estimates on historical experience and on assumptions that management considers reasonable. Actual results could differ from these estimates and assumptions, and these differences could be material to the condensed consolidated financial statements. 
+ 
+ Concentration of Credit Risk 
+
+ Financial instruments that potentially expose the Company to concentrations of credit risk consist primarily of cash and cash equivalents, disbursement prefunding, restricted cash, and customer funds receivable. The Company maintains cash and cash equivalents and restricted cash balances that may exceed the insured limits by the Federal Deposit Insurance Corporation. In addition, the Company funds its international operations using accounts with institutions in the major countries where its subsidiaries operate. The Company also prefunds amounts which are held by its disbursement partners, which are typically located in India, Mexico, and the Philippines. The Company has not experienced any significant losses on its deposits of cash and cash equivalents, disbursement prefunding, restricted cash, or customer funds receivable in the three and six months ended June 30, 2026 and 2025. 
+ 
+ For the three and six months ended June 30, 2026 and 2025, no individual customer represented 10% or more of total revenues or customer funds receivable. 
+
+ Summary of Significant Accounting Policies 
+
+ The Company’s significant accounting policies are discussed in Note 2. Basis of Presentation and Summary of Significant Accounting Policies within the notes to the consolidated financial statements included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. There have been no significant changes to these policies during the six months ended June 30, 2026. 
+
+ Advertising 
+ 
+ Advertising expenses are charged to operations as incurred and are included as a component of ‘ Marketing expenses ’ within the Condensed Consolidated Statements of Operations. Advertising expenses are used primarily to attract new customers. Advertising expenses totaled $ 83.6 million and $ 64.5 million during the three months ended June 30, 2026 and 2025, respectively. Advertising expenses totaled $ 152.8 million and $ 118.1 million during the six months ended June 30, 2026 and 2025, respectively. 
+
+ Recent Accounting Pronouncements 
+
+ Recently Adopted Accounting Pronouncements 
+
+ None. 
+
+ Accounting Pronouncements Not Yet Adopted 
+
+ There have been no changes to the Company’s new accounting pronouncements not yet adopted as discussed in Note 2. Basis of Presentation and Summary of Significant Accounting Policies within the notes to the consolidated financial statements included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. 
+
+ There are other new accounting pronouncements issued by the Financial Accounting Standards Board (“FASB”) that the Company has adopted or will adopt, as applicable. The Company does not believe any of these accounting pronouncements have had, or will have, a material impact on the condensed consolidated financial statements or disclosures. 
+
+ 8 
+
+ Table of Contents 
+
+ 3. Revenue 
+ 
+ The Company’s primary source of revenue is generated from its global money movement product. Revenue is earned from transaction fees charged to customers and the foreign exchange spreads earned between the foreign exchange rate offered to customers and the foreign exchange rate on the Company’s currency purchases. Revenue is recognized, in an amount that reflects the consideration the Company expects to be entitled to in exchange for services provided, when control of these services is transferred to the Company’s customers, which is the time the funds have been delivered to the intended recipient. The Company accounts for revenue in accordance with Accounting Standards Codification (“ASC”) 606, Revenue from Contracts with Customers , which includes the following steps: 
+
+ (1) identification of the contract with a customer; 
+
+ (2) identification of the performance obligations in the contract; 
+
+ (3) determination of the transaction price; 
+
+ (4) allocation of the transaction price to the performance obligations in the contract; and 
+
+ (5) recognition of revenue when, or as, the Company satisfies a performance obligation. 
+
+ For the Company’s global money movement product, customers engage the Company to perform one integrated service—collect the customer’s money and deliver funds to the intended recipient in the currency requested. Payment is generally due from the customer upfront upon initiation of a transaction, when the customer simultaneously agrees to the Company’s terms and conditions. 
+
+ Revenue is derived from each transaction and varies based on the funding method chosen by the customer, the size of the transaction, the currency to be ultimately disbursed, the rate at which the currency was purchased, the disbursement method chosen by the customer, and the country to which the funds are transferred. The Company’s contract with customers can be terminated by the customer without a termination penalty up until the time the funds have been delivered to the intended recipient. Therefore, the Company’s contracts are defined at the transaction level and do not extend beyond the service already provided. 
+
+ The Company’s global money movement product comprises of a single performance obligation to complete transactions for the Company’s customers. Using compliance and risk assessment tools, the Company performs a transaction risk assessment on individual transactions to determine whether a transaction should be accepted. When the Company accepts a transaction and processes the designated payment method of the customer, the Company becomes obligated to its customer to complete the payment transaction, at which time a receivable is recorded, along with a corresponding customer liability. None of the Company’s contracts contain a significant financing component. 
+
+ The Company recognizes transaction revenue on a gross basis as it is the principal for fulfilling payment transactions. As the principal to the transaction, the Company controls the service of completing payments for its customers. The Company bears primary responsibility for the fulfillment of the payment service, is the merchant of record, contracts directly with its customers, controls the product specifications, and defines the value proposition of its services. The Company is also responsible for providing customer support. Further, the Company has full discretion over determining the fee charged to its customers, which is independent of the cost it incurs in instances where it may utilize payment processors or other financial institutions to perform services on its behalf. These fees paid to payment processors and other financial institutions are recognized as ‘ Transaction expenses ’ within the Condensed Consolidated Statements of Operations. The Company does not have any capitalized contract acquisition costs. 
+
+ Sales Incentives 
+
+ The Company provides sales incentives to customers in a variety of forms, including promotions, discounts, and other sales incentives. Evaluating whether a sales incentive is a payment to a customer requires judgment. Sales incentives determined to be consideration payable to a customer or paid on behalf of a customer are accounted for as reductions to revenue, up to the point where net historical cumulative revenue, at the customer level, is reduced to zero. Those additional incentive costs that would have caused the customer level revenue to be negative are classified as advertising expenses and are included as a component of ‘ Marketing expenses ’ within the Condensed Consolidated Statements of Operations. In addition, referral credits given to a referrer are classified as ‘ Marketing expenses ,’ as these incentives are paid in exchange for a distinct service. 
+ 
+ The following table presents the Company’s sales incentives for the three and six months ended June 30, 2026 and 2025: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Reduction to revenue $ 14,224 $ 11,348 $ 27,427 $ 21,111 
+
+ Marketing expenses (1) 
+ 9,488 6,281 17,373 10,733 
+
+ Total sales incentives 
+ $ 23,712 $ 17,629 $ 44,800 $ 31,844 
+
+ __________________ 
+
+ (1) Sales incentives that are charged to ‘Marketing expenses’ are included in advertising expenses as disclosed in Note 2. Basis of Presentation and Summary of Significant Accounting Policies. 
+
+ 9 
+
+ Table of Contents 
+
+ Revenue by Geography 
+ 
+ The following table presents the Company’s revenue disaggregated by primary geographical location for the three and six months ended June 30, 2026 and 2025, attributed to the country in which the sending customer is located: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ United States $ 336,824 $ 272,427 $ 634,609 $ 509,727 
+
+ Canada 43,289 41,858 86,203 80,504 
+
+ Rest of world 115,043 97,567 227,146 183,245 
+
+ Total revenue $ 495,156 $ 411,852 $ 947,958 $ 773,476 
+
+ 4. Consumer Receivables 
+
+ Consumer receivables represent outstanding amounts advanced to customers for cross-border payments processed through Remitly Flex. These receivables are interest free and are generally due in full within 30 days of the transaction in order to retain eligibility for future advances, or up to 90 days if customers enroll in a monthly subscription fee program. 
+
+ The following table presents an aging analysis of the amortized cost of consumer receivables by delinquency status as of June 30, 2026 and December 31, 2025: 
+
+ June 30, 
+ December 31, 
+
+ (in thousands) 2026 2025 
+
+ Current 
+ $ 22,565 $ 25,288 
+
+ 1 - 30 days past due 
+ 1,644 1,932 
+
+ 31 - 60 days past due 
+ 829 1,111 
+
+ 61 - 90 days past due 
+ 603 723 
+
+ 91+ days past due 
+ 1,068 552 
+
+ Total amortized cost $ 26,709 $ 29,606 
+
+ Consumer receivables are charged off when they are over 120 days past due and the Company has no reasonable expectation of recovery. When consumer receivables are charged off, the Company reduces the related allowance for credit losses. While the Company expects collections at that point to be unlikely, the Company may recover amounts from the respective consumers. Any subsequent recoveries following charge-off are credited to ‘ General and administrative expenses ’ on the Condensed Consolidated Statements of Operations in the period they were recovered. 
+
+ The allowance for credit losses, charge-offs, and recoveries related to consumer receivables, as well as for other components of customer funds assets, were each not material for the three and six months ended June 30, 2026 and 2025. 
+
+ 5. Prepaid Expenses & Other Current Assets 
+ 
+ Prepaid expenses and other current assets consisted of the following as of June 30, 2026 and December 31, 2025: 
+
+ June 30, December 31, 
+
+ (in thousands) 2026 2025 
+
+ Prepaid expenses 
+ $ 21,235 $ 17,229 
+
+ Payment card receivable 
+ 17,177 14,755 
+
+ Tax receivable 4,984 5,202 
+
+ Other 
+ 9,498 8,549 
+
+ Prepaid expenses and other current assets 
+ $ 52,894 $ 45,735 
+
+ 10 
+
+ Table of Contents 
+
+ 6. Property and Equipment 
+ 
+ Property and equipment, net consisted of the following as of June 30, 2026 and December 31, 2025: 
+
+ June 30, December 31, 
+
+ (in thousands) 2026 2025 
+
+ Capitalized internal-use software $ 65,427 $ 56,690 
+
+ Computer and office equipment 10,778 11,929 
+
+ Furniture and fixtures 7,541 7,510 
+
+ Leasehold improvements 30,611 29,597 
+
+ Projects in process 27 731 
+
+ Total gross property and equipment 114,384 106,457 
+
+ Less: Accumulated depreciation and amortization ( 54,287 ) ( 44,936 ) 
+
+ Property and equipment, net $ 60,097 $ 61,521 
+
+ Depreciation and amortization expense related to property and equipment was $ 5.8 million and $ 4.2 million for the three months ended June 30, 2026 and 2025, respectively. Depreciation and amortization expense related to property and equipment was $ 11.4 million and $ 7.6 million for the six months ended June 30, 2026 and 2025, respectively. 
+
+ Capitalized Internal-Use Software Costs 
+ 
+ The following table presents the Company’s capitalized internal-use software, including amortization expense recognized, for the three and six months ended June 30, 2026 and 2025: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Total capitalized internal-use software costs (1) 
+ $ 4,635 $ 4,293 $ 8,737 $ 8,340 
+
+ Stock-based compensation costs capitalized to internal-use software 1,303 1,230 2,206 2,328 
+
+ Amortization expense (2) 
+ 3,689 2,871 7,137 5,277 
+
+ __________ 
+
+ (1) Amounts are inclusive of stock-based compensation costs capitalized to internal-use software as denoted within the table. 
+
+ (2) Amounts are included within ‘ Depreciation and amortization ’ on the Condensed Consolidated Statements of Operations. 
+
+ Geographical Information 
+ 
+ The following table presents the Company’s long-lived assets based on geography, which consist of Property and equipment, net and Operating lease right-of-use assets as of June 30, 2026 and December 31, 2025: 
+
+ June 30, December 31, 
+
+ (in thousands) 2026 2025 
+
+ United States $ 53,546 $ 53,816 
+
+ Rest of world 16,449 20,157 
+
+ Total long-lived assets $ 69,995 $ 73,973 
+
+ 11 
+
+ Table of Contents 
+
+ 7. Intangible Assets 
+ 
+ The components of identifiable intangible assets as of June 30, 2026 and December 31, 2025 were as follows: 
+
+ June 30, 2026 December 31, 2025 
+
+ (in thousands) Gross Carrying Amount Accumulated Amortization Net Carrying Amount Weighted-Average Estimated Remaining Useful Life (in years) Gross Carrying Amount Accumulated Amortization Net Carrying Amount Weighted-Average Estimated Remaining Useful Life (in years) 
+
+ Trade name $ 1,000 $ ( 1,000 ) $ — 0.0 $ 1,000 $ ( 1,000 ) $ — 0.0 
+
+ Customer relationships 8,500 ( 7,437 ) 1,063 0.5 8,500 ( 6,375 ) 2,125 1.0 
+
+ Developed technology 12,000 ( 12,000 ) — 0.0 12,000 ( 12,000 ) — 0.0 
+
+ Total $ 21,500 $ ( 20,437 ) $ 1,063 $ 21,500 $ ( 19,375 ) $ 2,125 
+
+ The acquired identified intangible assets have estimated useful lives ranging from three to four years . Amortization expense for intangible assets was $ 0.5 million and $ 2.1 million for the three months ended June 30, 2026 and 2025, respectively. Amortization expense for intangible assets was $ 1.1 million and $ 4.2 million for the six months ended June 30, 2026 and 2025, respectively. 
+
+ Expected future intangible asset amortization as of June 30, 2026 was as follows: 
+
+ (in thousands) Amount 
+
+ Remainder of 2026 
+ $ 1,063 
+
+ Total $ 1,063 
+
+ 8. Fair Value Measurements 
+ 
+ As of June 30, 2026, the Company held $ 39.8 million of money market funds presented within ‘Cash and cash equivalents’ on the Condensed Consolidated Balance Sheets. They are classified as Level 1 in the fair value hierarchy as the Company values these amounts using quoted market prices. 
+
+ The Company’s derivative instruments are classified as Level 2 because it uses quoted forward spot rates at the end of the applicable periods, which are corroborated by market-based pricing. As of June 30, 2026 and December 31, 2025, the notional value of the Company’s outstanding foreign exchange contracts classified as derivative instruments was $ 163.5 million and $ 25.0 million, respectively. The fair values of the related derivative assets and liabilities were not material. No material gains or losses on derivative instruments were recorded during the three and six months ended June 30, 2026 and 2025. Refer to Note 2. Basis of Presentation and Summary of Significant Accounting Policies within the notes to the consolidated financial statements included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, for additional information. Ther e were no other financial assets and liabilities that were measured at f air value on a recurring basis as of June 30, 2026 and December 31, 2025. 
+
+ The carrying values of certain financial instruments, including cash equivalents, disbursement prefunding, customer funds receivable including consumer receivables, accounts payable, accrued expenses and other current liabilities, customer liabilities, short-term debt, and long-term debt, approximate their respective fair values due to their short-term nature. If consumer receivables were measured at fair value in the financial statements, they would be classified as Level 3. All other financial instruments would be classified as Level 2. 
+
+ 9. Debt 
+ 
+ Secured Revolving Credit Facility 
+
+ 2025 Revolving Credit Facility 
+
+ In June 2025, Remitly Global, Inc. and Remitly, Inc., a wholly-owned subsidiary of Remitly Global, Inc., as co-borrowers, entered into a credit agreement (as amended, the “2025 Revolving Credit Facility”) with certain lenders and JPMorgan Chase Bank, N.A. acting as administrative agent and collateral agent. The 2025 Revolving Credit Facility has a revolving commitment of $ 550.0 million (including a $ 200.0 million letter of credit sub-facility). Proceeds under the 2025 Revolving Credit Facility are primarily used to support prefunding of customer flows within the Company’s global money movement product and also for general corporate purposes. As part of the 2025 Revolving Credit Facility, the Company capitalized $ 3.1 million of new debt issuance costs within ‘ Other noncurrent assets, net ’ on the Condensed Consolidated Balance Sheets, which are amortized to interest expense over the term of the 2025 Revolving Credit Facility. 
+
+ 12 
+
+ Table of Contents 
+
+ The 2025 Revolving Credit Facility permits borrowings in the form of (a) alternate base rate loans, (b) term benchmark loans, and (c) swingline loans and has a maturity date of June 24, 2030. Borrowings under the 2025 Revolving Credit Facility accrue interest at a floating rate per annum equal to, at the Company’s option, (1) the Alternate Base Rate (defined in the 2025 Revolving Credit Facility as the rate per annum equal to the highest of (a) the Prime Rate in effect on such day, (b) the New York Federal Reserve Bank Rate in effect on such day plus 0.50 %, and (c) the Term SOFR Rate for an interest period of one month plus 1.00 % (subject to a floor of 1.00 %) plus 0.50 % per annum) or (2) the Term SOFR Rate (subject to a floor of 0.00 %) plus 1.50 % per annum. Such interest is payable (a) with respect to loans bearing interest based on the Alternate Base Rate, the last day of each March, June, September, and December, (b) with respect to any term benchmark loan, at the end of each applicable interest period, but in no event less frequently than three months, and (c) with respect to any swingline loan, the day the loan is required to be repaid. In addition, an unused commitment fee, which accrues at a rate per annum equal to 0.25 % of the unused portion of the revolving commitments, is payable on the fifteenth business day of each January, April, July, and October. Unused commitment fees were not material during the three and six months ended June 30, 2026. 
+
+ The 2025 Revolving Credit Facility contains customary conditions to borrowing, events of default, and covenants, including covenants that restrict the ability to dispose of certain assets, merge with other entities, incur certain indebtedness, grant liens, pay dividends or make other distributions to holders of the Company’s capital stock, make investments, enter into restrictive agreements, or engage in certain transactions with affiliates. Financial covenants in the 2025 Revolving Credit Facility include a requirement to maintain a net leverage ratio of no greater than 4.50 :1.00, which is tested quarterly. The Company was in compliance with all financial covenants under the 2025 Revolving Credit Facility as of June 30, 2026 and December 31, 2025 . 
+
+ The obligations under the 2025 Revolving Credit Facility are guaranteed by the material domestic subsidiaries of Remitly Global, Inc., subject to customary exceptions, and are secured by substantially all of the assets of the borrowers and guarantors thereunder, subject to customary exceptions. Amounts of borrowings under the 2025 Revolving Credit Facility may fluctuate depending on transaction volumes and seasonality. 
+
+ As of June 30, 2026, the Company had no outstanding borrowings under the 2025 Revolving Credit Facility. As of June 30, 2026, the Company had unused borrowing capacity o f $ 474.7 million under the 2025 Revolving Credit Facility and $ 75.3 million in issued, but undrawn, standby letters of credit. 
+ 
+ As of December 31, 2025, the Company had $ 155.0 million outstanding borrowings under the 2025 Revolving Credit Facility with a weighted average interest rate of 7.25 %. As of December 31, 2025, the Company had unused borrowing capacity of $ 323.2 million under the 2025 Revolving Credit Facility and $ 71.8 million in issued, but undrawn, standby letters of credit. 
+
+ 13 
+
+ Table of Contents 
+
+ 10. Net Income Per Common Share 
+
+ The following table presents the calculation of basic and diluted net income per share attributable to common stockholders for the periods indicated. Basic net income per share is calculated using the weighted-average number of shares of common stock outstanding during the period. Diluted net income per share is calculated using the weighted-average number of shares of common stock outstanding including the dilutive effect of all potential shares of common stock as determined under the treasury stock method. Dilutive common shares primarily include outstanding stock options and unvested restricted stock units (“RSUs”). Certain common stock equivalents, primarily RSUs, were excluded from diluted net income per share because their effect would have been anti-dilutive. 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands, except per share data) 2026 2025 2026 2025 
+
+ Numerator: 
+
+ Net income attributable to common stockholders 
+ $ 205,908 $ 6,536 $ 254,961 $ 17,888 
+
+ Denominator: 
+
+ Weighted-average shares used in computing net income per share attributable to common stockholders: 
+
+ Basic 210,839 204,693 210,936 203,227 
+
+ Effect of dilutive securities 10,210 14,285 8,087 15,477 
+
+ Diluted 221,049 218,978 219,023 218,704 
+
+ Net income per share attributable to common stockholders: 
+
+ Basic $ 0.98 $ 0.03 $ 1.21 $ 0.09 
+
+ Diluted $ 0.93 $ 0.03 $ 1.16 $ 0.08 
+
+ Common stock equivalents excluded from diluted net income per share (1) 
+ 3,999 1,823 3,999 1,823 
+
+ ________________ 
+ 
+ (1) As of June 30, 2026, performance stock units (“PSUs”) to be settled in 1.5 million shares of common stock were excluded as they are subject to market conditions that were not achieved as of such date. 
+
+ 11. Common Stock 
+ 
+ As of June 30, 2026, the Company has authorized 725.0 million shares of common stock with a par value of $ 0.0001 per share. Each holder of a share of common stock is entitled to one vote for each share held at all meetings of stockholders and is entitled to receive dividends whenever funds are legally available and when declared by the Company’s board of directors. No dividends have been declared or paid by the Company during the six months ended June 30, 2026 and 2025. 
+
+ Pledge 1 % Stock Donation 
+
+ In July 2021, the Company’s board of directors approved the reservation of up to 1.8 million shares of common stock that the Company may issue to or for the benefit of a 501(c)(3) nonprofit foundation or a similar charitable organization pursuant to the Company’s Pledge 1 % commitment, in installments over ten years . 
+
+ During both of the three and six months ended June 30, 2026 and 2025, the Company donated 45,490 and 90,980 shares, respectively, of its common stock to the Remitly Foundation, a donor advised fund at Rockefeller Philanthropy Advisors. 
+
+ For the three months ended June 30, 2026 and 2025, the Company recorded a charge of $ 1.0 million and $ 0.9 million, respectively. For the six months ended June 30, 2026 and 2025, the Company recorded a charge of $ 1.7 million and $ 1.9 million, respectively. These charges are recorded to ‘ General and administrative expenses ’ on the Condensed Consolidated Statements of Operations. 
+
+ Share Repurchase 
+
+ In July 2025, the Company’s board of directors approved a share repurchase program that provides for the repurchase of up to an aggregate $ 200.0 million of the Company’s outstanding common stock. The share repurchase program does not expire and may be suspended, discontinued, or modified at any time without notice, at the Company’s discretion. Any share repurchases under the Company’s share repurchase program may be made through open market transactions, in privately negotiated transactions, or by other means, including through the use of trading plans intended to qualify under 10b5-1 under the Securities Exchange Act of 1934, as amended, in accordance with applicable securities laws and other restrictions. 
+
+ During the six months ended June 30, 2026, in accordance with its share repurchase program, the Company repurchased and retired an aggregate 3.9 million shares of its common stock for $ 65.6 million, which was recorded to ‘Additional paid in capital’ on the Condensed Consolidated Balance Sheets. As of June 30, 2026, a total of $ 110.5 million remained available for future repurchases of the Company’s common stock under the share repurchase program. There were no share repurchases completed during the six months ended June 30, 2025. 
+
+ 14 
+
+ Table of Contents 
+
+ 12. Stock-Based Compensation 
+ 
+ Shares Available for Issuance 
+
+ As of June 30, 2026 , 23.3 million and 9.6 million shares remained available for issuance under the 2021 Equity Incentive Plan and the Employee Stock Purchase Plan (“ESPP”), respectively. 
+
+ Stock Options 
+ 
+ The following is a summary of the Company’s stock option activity during the six months ended June 30, 2026: 
+
+ Stock Options 
+
+ (in thousands, except per share data) Number of Options Outstanding Weighted-Average Exercise Price 
+ Weighted-Average Remaining Contractual Life 
+
+ (in years) 
+ 
+ Aggregate Intrinsic Value (1) 
+
+ Balances as of January 1, 2026 
+ 4,688 $ 5.98 4.43 $ 36,639 
+
+ Exercised ( 448 ) 3.34 7,218 
+
+ Balances as of June 30, 2026 
+ 4,240 6.26 4.00 68,457 
+
+ Vested and exercisable as of June 30, 2026 
+ 4,240 6.26 4.00 68,457 
+
+ Vested and expected to vest as of June 30, 2026 
+ 4,240 $ 6.26 4.00 $ 68,457 
+
+ _________________ 
+
+ (1) The aggregate intrinsic value is calculated as the difference between the exercise price of the underlying stock options and the estimated fair value of the Company’s common stock. 
+
+ No stock options were granted during the six months ended June 30, 2026 or 2025. 
+ 
+ The following is a summary of the Company’s stock option activity during the six months ended June 30, 2026 and 2025: 
+
+ Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 
+
+ Aggregate grant-date fair value of options vested $ — $ 4,044 
+
+ Aggregate intrinsic value of options exercised 
+ 7,218 25,521 
+
+ Restricted Stock Units and Performance Stock Units 
+
+ The Company has both time-vested RSUs and PSUs with market- and time-based vesting conditions. Refer to Note 2. Basis of Presentation and Summary of Significant Accounting Policies within the notes to the consolidated financial statements included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025 for further discussion regarding the Company’s RSUs. During the six months ended June 30, 2026, the Company granted PSUs with market- and service-based vesting conditions, the fair value of which was determined using a Monte Carlo simulation model. The related assumptions used in the valuation model include expected term, volatility, dividend yield, and risk-free interest rate. Stock-based compensation expense related to the PSUs was not material for the three and six months ended June 30, 2026. No PSUs were granted or outstanding during the three and six months ended June 30, 2025. 
+ 
+ RSU and PSU activity during the six months ended June 30, 2026 was as follows: 
+
+ (in thousands, except per share data) 
+ Number of Shares Weighted-Average Grant-Date Fair Value Per Share 
+
+ Unvested at January 1, 2026 
+ 21,271 $ 17.48 
+
+ Granted 9,385 19.07 
+
+ Vested ( 4,062 ) 16.75 
+
+ Cancelled/forfeited ( 4,740 ) 18.49 
+
+ Unvested at June 30, 2026 
+ 21,854 $ 18.08 
+
+ 15 
+
+ Table of Contents 
+
+ The following is a summary of the Company’s RSU and PSU activity during the six months ended June 30, 2026 and 2025: 
+
+ Six Months Ended June 30, 
+
+ (in thousands, except per share data) 
+ 2026 2025 
+
+ Weighted-average grant-date fair value per share granted 
+ $ 19.07 $ 20.95 
+
+ Aggregate grant-date fair value of shares vested 
+ 68,036 62,530 
+
+ Employee Stock Purchase Plan (“ESPP”) 
+
+ A new 12-month ESPP offering period commences on March 1 and September 1 of each fiscal year, and the plan includes a rollover feature for the purchase price if the Company's stock price at the end of the purchase period is less than the Company's stock price on the first day of the offering period. If this rollover feature is triggered, a new offering period begins. The rollover feature had an immaterial impact for all periods presented and any incremental stock-based compensation expense is recognized over each new offering period. 
+ 
+ The fair value of the ESPP offerings, including those described above, were estimated using the Black-Scholes option-pricing model as of the respective offering dates, using the assumptions below. These assumptions represent the grant-date fair value inputs for new offerings which commenced during the six months ended June 30, 2026 and 2025, as well as updated valuation information as of the modification date for any offerings for which a modification occurred during the periods presented herein: 
+
+ Six Months Ended June 30, 
+
+ 2026 2025 
+
+ Risk-free interest rates 
+ 3.51 % to 3.65 % 
+ 
+ 3.92 % to 4.26 % 
+
+ Expected term 
+ 
+ 0.5 to 1.0 year 
+ 
+ 0.5 to 2.0 years 
+
+ Volatility 
+ 49.2 % to 52.4 % 
+ 
+ 43.8 % to 49.1 % 
+
+ Dividend rate — % — % 
+
+ Stock-Based Compensation Expense, Net 
+ 
+ Stock-based compensation expense, net for stock options, RSUs, PSUs, and the ESPP, included within the Condensed Consolidated Statements of Operations, net of amounts capitalized to internal-use software, as described in Note 6. Property and Equipment , was as follows: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Customer support and operations $ 417 $ 453 $ 726 $ 709 
+
+ Marketing 5,530 4,747 7,703 8,874 
+
+ Technology and development 15,939 21,873 33,097 43,110 
+
+ General and administrative 12,605 10,993 20,501 21,165 
+
+ Total $ 34,491 $ 38,066 $ 62,027 $ 73,858 
+
+ As of June 30, 2026, the total unamortized compensation cost related to all non-vested equity awards, including RSUs and PSUs, was $ 308.5 million, which will be amortized over a weighted-average remaining requisite service period of approximately 2.3 years. As of June 30, 2026, the total unrecognized compensation expense related to the ESPP was $ 1.6 million, which is expected to be amortized over the next 0.7 years. 
+
+ 13. Restructuring Initiatives 
+ 
+ In the three months ended March 31, 2026, the Company began implementing restructuring plans to simplify and scale certain processes, functions, and team capabilities. 
+
+ Restructuring costs incurred include severance and related termination benefits, and lease exit costs associated with changes to the Company’s leased facilities in Israel and Ireland, including impairments of property and equipment, as the Company evaluates updates to its operations in those locations. These specific restructuring initiatives are expected to be completed by December 31, 2026. 
+
+ The Company incurred charges of $ 4.2 million and $ 15.8 million for the three and six months ended June 30, 2026, respectively, related to these initiatives. There were no restructuring costs during the three and six months ended June 30, 2025 related to these initiatives. 
+
+ 16 
+
+ Table of Contents 
+
+ The following table presents the restructuring costs included within the Condensed Consolidated Statements of Operations for the three and six months ended June 30, 2026: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2026 
+
+ Customer support and operations 
+ $ — $ 1,644 
+
+ Marketing 
+ 1,979 3,688 
+
+ Technology and development 1,475 4,938 
+
+ General and administrative 791 5,513 
+
+ Total restructuring costs 
+ $ 4,245 $ 15,783 
+
+ The following table presents the changes in liabilities by major type of cost, including expenses incurred and cash payments resulting from the restructuring costs and related accruals, during the six months ended June 30, 2026: 
+
+ (in thousands) 
+ Severance and related termination benefits (1) 
+ 
+ Lease exit and other related costs 
+
+ Balance as of December 31, 2025 $ — $ — 
+
+ Expenses incurred 13,704 2,079 
+
+ Cash payments ( 9,791 ) — 
+
+ Noncash charges (2) 
+ — ( 2,079 ) 
+
+ Balance as of June 30, 2026 
+ $ 3,913 $ — 
+
+ _________________ 
+
+ (1) Accrued restructuring liability associated with these costs is included within “ Accrued expenses and other current liabilities ” on the Condensed Consolidated Balance Sheets. 
+
+ (2) Noncash charges includes noncash write-offs of right-of-use assets and property and equipment. 
+
+ 14. Income Taxes 
+ 
+ The Company computes its (benefit from) provision for income taxes for interim periods by applying the estimated annual effective tax rate to year-to-date income from recurring operations and adjusting for discrete items arising in that quarter. 
+
+ The Company’s effective tax rates on pre-tax income wer e ( 218.5 )% and 19.4 % for the three months ended June 30, 2026 and 2025, respectively, and ( 118.4 )% and 22.4 % for the six months ended June 30, 2026 and 2025, respectively. The difference between the effective tax rate and the U.S. federal statutory rate of 21.0% for the three and six months ended June 30, 2026 was primarily the result of the release of the Company's valuation allowance against its U.S. deferred tax assets. For the three and six months ended June 30, 2025, the difference was primarily the result of foreign income taxed at different rates, changes in the U.S. valuation allowance, non-deductible stock-based compensation, and recognition of a discrete income tax benefit, primarily driven by excess stock-based compensation deductions. 
+
+ Due to cumulative losses in the U.S. during prior periods, the Company had maintained a full valuation allowance against its U.S. deferred tax assets, including net operating loss carryforwards, capitalized research costs, and tax credits related primarily to research and development. The Company periodically evaluates the realizability of its net deferred tax assets based on all available evidence, both positive and negative. 
+
+ During the three months ended June 30, 2026, the Company reached a cumulative income position in the United States over the previous three years, which constituted objective and verifiable positive evidence and thus received significant weighting in the Company’s assessment. Additional positive evidence considered by the Company included recent utilization of U.S. tax attribute carryforwards and future forecasts of continued profitability in the U.S. 
+
+ In completing its assessment, the Company also weighed significant negative evidence, including the limited tenure of recently achieved U.S. profitability, the inherent risk in projecting taxable income over the carryforward periods of existing tax attributes, and variable macroeconomic conditions that may impact the Company’s ability to generate forecasted taxable income. The Company also considered that future tax deductions associated with stock-based compensation depend on the Company’s stock price, which is inherently unpredictable and introduces additional uncertainty into its forecasts of future U.S. taxable income. 
+
+ Upon considering the weighted impact of all evidence, both positive and negative, the Company concluded that the positive evidence, including the objective three-year cumulative income position, outweighed the negative evidence and that it was more likely than not that its U.S. federal and state deferred tax assets would be realizable. As a result, the Company released its full U.S. valuation allowance and recognized a corresponding $ 140.6 million discrete tax benefit during the three months ended June 30, 2026. The effect of the valuation allowance release is included as a component of the ‘ (Benefit from) Provision for income taxes ’ in the accompanying Condensed Consolidated Statements of Operations. 
+
+ 17 
+
+ Table of Contents 
+
+ The Company files income tax returns in the U.S. federal jurisdiction, various state jurisdictions, and internationally. As of June 30, 2026, tax years 2012 through 2021, and 2023 through 2025 remain open for examination by taxing authorities. The Company’s 2022 federal tax return was audited by the Internal Revenue Service, with no adjustments. 
+
+ 15. Commitments and Contingencies 
+ 
+ Guarantees and Indemnification 
+
+ In the ordinary course of business to facilitate sales of its services, the Company has entered into agreements with, among others, suppliers and partners that include guarantees or indemnity provisions. The Company also enters into indemnification agreements with its officers and directors, and the Company’s amended and restated certificate of incorporation and amended and restated bylaws include similar indemnification obligations to its officers and directors. To date, there have been no claims under any indemnification provisions; therefore, no such amounts have been accrued as of June 30, 2026 and December 31, 2025. 
+
+ Litigation and Loss Contingencies 
+
+ Litigation 
+
+ From time to time, the Company may be a party to litigation and subject to claims incident to the ordinary course of business, including intellectual property claims, labor and employment claims, threatened claims, breach of contract claims, and other matters. The Company operates in a complex legal and regulatory environment and its operations are subject to various U.S. and foreign laws, rules, and regulations. From time to time, the Company is also subject to inquiry, examinations, or enforcement actions from its various regulators. The Company accrues estimates for resolution of legal and other contingencies when losses are probable and estimable. As of June 30, 2026, the Company was involved in certain intellectual property and trademark disputes in certain jurisdictions; any potential loss related to those disputes cannot currently be reasonably estimated and any impact is expected to be immaterial. 
+
+ Although the results of litigation and claims are inherently unpredictable, the Company does not believe that there was a reasonable possibility that it had incurred a material loss with respect to such loss contingencies as of June 30, 2026 and December 31, 2025. 
+
+ Purchase Commitments 
+
+ The disclosure of purchase commitments in these condensed consolidated financial statements should be read in conjunction with the consolidated financial statements and related notes within the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. The Company routinely enters into marketing and advertising contracts, software subscriptions or other service arrangements, including cloud infrastructure arrangements, and compliance-application related arrangements that contractually obligate us to purchase services, including minimum service quantities, unless given notice of cancellation based on the applicable terms of the agreements. 
+
+ Reserve for Transaction Losses 
+ 
+ The table below summarizes the Company’s reserve for transaction losses for the three and six months ended June 30, 2026 and 2025: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Beginning balance $ 6,041 $ 4,612 $ 5,440 $ 3,585 
+
+ Provisions for transaction losses 24,543 28,016 45,071 45,922 
+
+ Losses incurred, net of recoveries ( 24,623 ) ( 26,447 ) ( 44,550 ) ( 43,326 ) 
+
+ Ending balance $ 5,961 $ 6,181 $ 5,961 $ 6,181 
+
+ 18 
+
+ Table of Contents 
+
+ 16. Accrued Expenses & Other Current Liabilities 
+ 
+ Accrued expenses and other current liabilities consisted of the following as of June 30, 2026 and December 31, 2025: 
+
+ June 30, December 31, 
+
+ (in thousands) 2026 2025 
+
+ Trade settlement liability (1) 
+ $ 46,643 $ 34,884 
+
+ Accrued transaction expense 28,751 34,673 
+
+ Accrued marketing expense 21,727 17,307 
+
+ Accrued salary, benefits, and related taxes 
+ 15,669 12,996 
+
+ Reserve for transaction losses 
+ 5,961 5,440 
+
+ Other accrued expenses 39,321 36,648 
+
+ Accrued expenses & other current liabilities 
+ $ 158,072 $ 141,948 
+
+ _________________ 
+
+ (1) The trade settlement liability amount represents the total of disbursement postfunding liabilities and book overdrafts owed to the Company’s disbursement partners. Refer to Note 2. Basis of Presentation and Summary of Significant Accounting Policies within the notes to the consolidated financial statements included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025 for further discussion. 
+
+ 17. Supplemental Cash Flow Information 
+ 
+ The supplemental disclosures of cash flow information consisted of the following: 
+
+ Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 
+
+ Supplemental disclosure of cash flow information 
+
+ Cash paid for interest $ 4,624 $ 3,523 
+
+ Cash paid for income taxes, net of refunds 5,547 2,050 
+
+ Supplemental disclosure of noncash investing and financing activities 
+
+ Operating lease right-of-use assets obtained in exchange for operating lease liabilities $ 561 $ 3,290 
+
+ Stock-based compensation expense capitalized to internal-use software 2,206 2,328 
+
+ 18. Segment Reporting 
+
+ Segment and Geographic Information 
+
+ The Company determines operating segments based on how its chief operating decision maker (“CODM”) manages the business, makes operating decisions around the allocation of resources, and evaluates operating performance. The Company’s CODM is its Chief Executive Officer, who reviews the Company’s operating results on a consolidated basis. The Company operates as one operating segment. Based on the information provided to the Company’s CODM, the Company believes that the nature, amount, timing, and uncertainty of its revenue and how it is affected by economic factors are most appropriately depicted through the Company’s primary geographical locations. Revenues recorded by the Company are substantially all from the Company’s single performance obligation which are earned from similar services for which the nature of associated fees and the related revenue recognition models are substantially the same. Refer to Note 3. Revenue and Note 6. Property and Equipment for information related to the Company’s geographic information for revenue and long-lived assets, respectively. 
+
+ Segment Income and Performance Measurement 
+
+ The Company’s CODM is provided the financial performance of the Company's one operating segment showing net income (loss) as the primary measure of segment profitability. Net income (loss) reflects revenue generated and expenses incurred for the business. The CODM uses this measure to evaluate the operational efficiency and profitability of the Company, to make strategic decisions about capital allocation, and to assess whether the Company is meeting its financial targets. The CODM does not evaluate the performance of its one operating segment using asset information. 
+
+ The Company’s CODM is regularly provided results comparing actual performance against budgeted targets and prior periods. This measure aligns with how resources are managed and allocated within the Company’s one operating segment business. 
+
+ Significant Segment Expenses 
+
+ On a regular basis, the Company’s CODM is provided certain significant segment expenses, which include advertising expense and stock-based compensation expense, in addition to those significant segment expenses reported within the Condensed Consolidated Statements of Operations. 
+
+ 19 
+
+ Table of Contents 
+
+ The following table reconciles the significant segment expenses regularly provided to the Company’s CODM for the three and six months ended June 30, 2026 and 2025, to the primary measure of segment profitability, net income: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Revenue $ 495,156 $ 411,852 $ 947,958 $ 773,476 
+
+ Significant segment expenses: 
+
+ Transaction expenses ( 161,174 ) ( 143,756 ) ( 306,114 ) ( 265,149 ) 
+
+ Customer support and operations, excluding stock-based compensation expense (1) 
+ ( 26,222 ) ( 24,621 ) ( 52,724 ) ( 46,938 ) 
+
+ Marketing, excluding stock-based compensation expense and advertising expense (1)(2) 
+ ( 15,244 ) ( 15,685 ) ( 30,262 ) ( 31,398 ) 
+
+ Technology and development, excluding stock-based compensation expense (1) 
+ ( 58,110 ) ( 55,623 ) ( 120,555 ) ( 108,237 ) 
+
+ General and administrative, excluding stock-based compensation expense (1) 
+ ( 43,313 ) ( 48,588 ) ( 90,564 ) ( 91,245 ) 
+
+ Advertising expense ( 83,614 ) ( 64,544 ) ( 152,785 ) ( 118,053 ) 
+
+ Stock-based compensation expense, net ( 34,491 ) ( 38,066 ) ( 62,027 ) ( 73,858 ) 
+
+ Other segment disclosures: 
+
+ Depreciation and amortization ( 6,307 ) ( 6,326 ) ( 12,506 ) ( 11,722 ) 
+
+ Interest income 1,485 2,061 3,138 3,848 
+
+ Interest expense ( 3,152 ) ( 1,650 ) ( 5,589 ) ( 2,949 ) 
+
+ Benefit from (provision for) income taxes 141,264 ( 1,578 ) 138,242 ( 5,168 ) 
+
+ Other segment expense, net (3) 
+ ( 370 ) ( 6,940 ) ( 1,251 ) ( 4,719 ) 
+
+ Net income 
+ $ 205,908 $ 6,536 $ 254,961 $ 17,888 
+
+ __________________ 
+
+ (1) The significant segment expenses reported within the Condensed Consolidated Statements of Operations are presented in this table excluding stock-based compensation expense, net. Stock-based compensation expense, net is presented separately as an additional significant segment expense and is regularly provided to the CODM. Refer to Note 12. Stock-Based Compensation and Note 6. Property and Equipment . 
+
+ (2) The significant segment expense reported within the Condensed Consolidated Statements of Operations is presented in this table excluding advertising expense. Advertising expense is presented separately as an additional significant segment expense and is regularly provided to the CODM. Advertising expense is included in ‘ Marketing expense’ as described in Note 2 . Basis of Presentation and Summary of Significant Accounting Policies. 
+
+ (3) Other segment expense, net includes ‘ Other expense, net’ , which is described in Note 2 . Basis of Presentation and Summary of Significant Accounting Policies in the notes to the consolidated financial statements included in Part II, Item 8 in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. 
+ 
+ There were no unusual items or other significant noncash items for the three and six months ended June 30, 2026 and 2025. 
+
+ 20 
+
+ Table of Contents 
+
+ Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+
+ You should read the following discussion and analysis of our financial condition and results of operations together with our unaudited condensed consolidated financial statements and the related notes appearing elsewhere in this Quarterly Report on Form 10-Q and our audited consolidated financial statements and the related notes and the discussion under the heading “ Management’s Discussion and Analysis of Financial Condition and Results of Operations ” included in the Annual Report on Form 10-K for the year ended December 31, 2025. You should read the sections titled “Risk Factors” in this Quarterly Report on Form 10-Q as well as in the Annual Report on Form 10-K and “Special Note Regarding Forward-Looking Statements” for a discussion of important factors that could cause actual results to differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis. The forward-looking statements in this Form 10-Q represent our views as of the date of this Form 10-Q. Except as may be required by law, we assume no obligation to update these forward-looking statements or the reasons that results could differ from these forward-looking statements. You should, therefore, not rely on these forward-looking statements as representing our views as of any date subsequent to the date of this Form 10-Q. 
+
+ Overview 
+
+ Remitly is a trusted provider of financial services that transcend borders. With a footprint spanning more than 175 countries, we have built one of the world’s leading global money movement platforms, trusted by millions of customers who rely on us every day. Leveraging our strengths in global money movement, we continue to evolve beyond a remittance company into a diversified, cross-border financial services provider, serving both our consumers and businesses across a growing set of use cases. 
+
+ Our competitive advantage is built on three core strengths— trust, network, and scale —which together enable us to deliver reliability, speed, and a fair and transparent price for cross-border financial services. 
+
+ Trust 
+
+ Trust is the foundation of everything we do and is earned through reliability, fairness, and security. Delivering cross-border financial services in a trusted and reliable way across geographies is incredibly complex. We are focused on delivering a reliable and seamless experience to customers that builds trust and drives repeat engagement with our platform. We manage this complexity by localizing services across more than 175 countries, supporting diverse payment methods and currencies, maintaining robust fraud and compliance systems, and operating sophisticated treasury and foreign exchange capabilities to deliver funds reliably through our global disbursement network. 
+
+ Our digital-first platform provides an easy-to-use, end-to-end process with a simple and reliable user experience that builds trust by delivering peace of mind. In just a few minutes, customers are able to set up and send money for the first time with Remitly, and repeat transactions are easier with just a few taps. Our users can also track the status of their transactions as they are processed, and we provide a reliability promise to customers which is underpinned by our sophisticated risk models, high-quality network, and empathetic customer service. 
+
+ We also earn trust through the quality and resilience of our partner ecosystem. We select and manage funding and disbursement partners based on service quality, regulatory compliance, operational performance, and risk standards, and we design our network with redundancy across corridors to support reliability and continuity of service. 
+
+ This reliable, fair, and secure experience enables us to engage beyond the initial transaction, generating strong repeat usage and high customer loyalty. Our services are highly non-discretionary for many of our customers which results in high revenue visibility throughout economic cycles. As of June 30, 2026, our Remitly app had a 4.9 iOS App Store rating with approximately 4.5 million reviewers and a 4.8 Android Google Play rating with over 1.4 million reviewers (app ratings are based on all countries or regions and the rating may vary based on user location and device type). 
+
+ Network 
+
+ Our global network of funding and disbursement partnerships is at the core of our business and enables us to complete transactions efficiently across more than 5,700 corridors without the need to deploy local operations in each country, while complying with global and local licensing and regulatory requirements. A corridor represents the pairing of a send country, from which a customer can send a cross-border payment, with a specific receive country to which such cross-border payment can be sent. As a result of the quality of our network and the foundational investments we have made, adding a new send country typically unlocks a significant number of new corridors, allowing us to scale rapidly. 
+
+ 21 
+
+ Table of Contents 
+
+ Our network strategy emphasizes direct integrations with funding and disbursement partners wherever possible, reducing reliance on intermediaries and supporting faster, more reliable, and cost-efficient delivery of funds. This approach also helps mitigate operational complexity and concentration risk while enabling consistent service levels across geographies. These direct integrations also allow for a better customer experience and lower costs and are a significant competitive advantage. Our partners, including those that are among the most trusted and recognized brands around the world, create a broad and effective pay-in and disbursement ecosystem for our customers: 
+
+ • Pay-in Acceptance. We have relationships with top tier banks and leading global payment processors and networks. These relationships provide our customers an array of payment options to fund cross-border payments with a bank account, card-based payments, or alternative payment methods. 
+
+ We can accept and settle transfers from hundreds of millions of consumer bank accounts, payment methods such as Apple Pay and Google Pay, as well as Visa and Mastercard credit and debit cards. As a digital service, we typically do not have sending agents who accept cash. We, in turn, do not incur costs or commissions associated with physical agent-based sending and funding. 
+
+ • Payment Disbursement. We provide broad and high quality access to disbursement options for our customers allowing them to choose the method that is most convenient for their recipients, including bank accounts, cash, and alternative payment methods. Our broad disbursement network supports reliable delivery and choice, allowing customers to select whatever method works best for their family and friends to receive funds. We have access to many disbursement partners across the globe including major banks, aggregators, cash pick-up options, and mobile wallet partners. These relationships provide our customers with choice of disbursement and enable us to send funds within minutes, or even seconds, to over 5.8 billion bank accounts and mobile wallets, and approximately 490,000 cash pick-up options, including retail outlets and banks. 
+
+ We select our disbursement partners based on our recipients’ preferences, quality of service, cost, brand recognition, and co-branding opportunities. Our disbursement partners make us a trusted source of global money movement because our customers are typically already familiar with their chosen disbursement partner and recipients feel comfortable receiving money where they regularly bank or shop. In addition, we only select disbursement partners that meet or exceed: (1) our geographic coverage goals in the regions in which they operate; (2) our robust compliance and regulatory requirements; and (3) our specific operating metrics such as creditworthiness and error rates. 
+
+ As a result of our significant global presence, we are able to establish multi-faceted partnerships. These partnerships enable the ability to source and settle foreign exchange rates locally, accept payments, or deposit customer funds directly to customer accounts. In addition, we have redundancies built into our global network for our various partnerships. 
+
+ We focus on creating financial inclusion by providing payout optionality and access for recipients who do not always have convenient access to traditional banking. We believe our focus on financial inclusion creates peace of mind for our customers and their families while attracting and retaining loyal customers. 
+
+ Our customers primarily send money from the United States, Canada, the United Kingdom, and other countries in Europe, with recipients located around the world. Our largest receive countries by send volume include India, Mexico, and the Philippines. 
+
+ Scale 
+
+ We believe scale reinforces both trust and network capabilities by enabling lower unit costs, better pricing, and continuous reinvestment in product performance and quality, including through greater use of direct integrations that improve efficiency as our volumes grow. Our data-driven approach to optimizing customer lifetime value, combined with localized and scalable marketing solutions, allows us to acquire new customers at attractive unit economics. In addition to product enhancements and efficiencies in variable operating costs, we are transforming our marketing engine from a single-product acquisition model into an artificial intelligence-powered system that drives multi-product engagement, and strengthens our ability to reactivate, retain, and increase share of wallet among existing customers. We believe our expertise in localizing our marketing, products, and customer support at scale is a key differentiator and enables us to provide customers with a personalized experience that drives peace of mind while also delivering high returns on marketing and product investments. 
+
+ Our scale also supports our disciplined expansion into new customer categories and use cases across the world. We see significant opportunity to create value by expanding our cross-border financial services to a broader set of customers. Building on our roots of serving primarily low-amount senders who send money to family and friends, we now also serve high-amount senders, businesses, and receivers, across our global network. As we continue to scale, we apply a data-driven approach to optimize customer value, product features, marketing strategies, and economics across new geographies and customer categories. We also leverage our localization expertise and technology to strengthen our global partner network through additional direct integrations and expanded payment methods to enhance our cross-border payment experience across corridors. 
+
+ Our Revenue Model 
+
+ For our global money movement product, which currently represents the substantial majority of our revenue, we earn revenue from transaction fees charged to customers and foreign exchange spreads applied to the amount the customer is sending. 
+
+ Transaction fees vary based on the corridor, the currency in which funds are delivered to the recipient, the funding method a customer chooses (e.g., ACH, credit card, debit card, etc.), the disbursement method a customer chooses (e.g., bank deposit, mobile wallet, cash pick-up, etc.), and the amount the customer is sending. 
+
+ 22 
+
+ Table of Contents 
+
+ Foreign exchange spreads represent the difference between the foreign exchange rate offered to customers and the foreign exchange rate on our currency purchases. They are an output of proprietary and dynamic models that are designed to provide fair and competitive rates to our customers, while generating a spread based on our ability to buy foreign currency at generally advantageous rates. 
+
+ Revenue from transaction fees and foreign exchange spreads is reduced by sales incentives, including customer promotions. For example, we may, from time to time, waive transaction fees for first-time customers, or provide customers with better foreign exchange rates on their first transaction. These incentives are accounted for as reductions to revenue, up to the point where net historical cumulative revenue, at the customer level, is reduced to zero. We consider these incentives to be an investment in our long-term relationship with customers. 
+
+ Key Performance Metrics 
+
+ We regularly review the following key performance metrics to evaluate our performance, identify trends affecting our business, prepare financial projections, and make strategic decisions. We believe that these key performance metrics provide meaningful supplemental information for management and investors in assessing our historical and future operating performance. The calculation of these key performance metrics discussed below may differ from other similarly titled metrics used by other companies, analysts, or investors. The key performance metrics that we use to measure the performance of our business are defined as follows: 
+
+ • “Active customers” is defined as the number of distinct customers that have successfully completed at least one transaction using Remitly during a given period. We identify customers through unique account numbers. 
+
+ • “Send volume” is defined as the sum of the amount that customers send, measured in U.S. dollars, related to transactions completed during a given period. This amount is net of cancellations, does not include transaction fees from customers, and does not include any credits, offers, or bonuses applied to the transaction by us. 
+
+ Active Customers 
+
+ Three Months Ended June 30, 
+
+ (in thousands) 2026 2025 
+
+ Active customers 10,199 8,511 
+
+ We believe that the number of our active customers is an important indicator of customer engagement, customer retention, and the overall growth of our business. 
+
+ Active customers increased to approximately 10.2 million, or 20% growth, for the three months ended June 30, 2026, compared to the three months ended June 30, 2025. This increase was primarily due to an increase in the number of new customers, driven by continued marketing efficiency and strong retention, as well as product and geographic expansion. The increase was also a result of growth in new customer categories, including high-amount senders and business accounts. Ongoing improvements in customer experience and localized innovation in key corridors supported customer acquisition and engagement. 
+
+ Send Volume 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in millions) 2026 2025 2026 2025 
+
+ Send volume $ 23,514 $ 18,477 $ 45,577 $ 34,635 
+
+ We measure send volume to assess the scale of cross-border payments sent using our global money movement product. Our customers mostly send from the United States, Canada, the United Kingdom, and other countries in Europe. Our customers and their recipients are located in over 175 countries and territories across the globe. Our largest receive countries by send volume include India, Mexico, and the Philippines. 
+
+ Send volume increased 27% to $23.5 billion for the three months ended June 30, 2026, compared to $18.5 billion for the three months ended June 30, 2025, driven by the increase in active customers. 
+
+ Send volume increased 32% to $45.6 billion for the six months ended June 30, 2026, compared to $34.6 billion for the six months ended June 30, 2025, driven by the increase in active customers. 
+
+ Key Factors Affecting Our Performance 
+
+ Customer Retention and High Customer Engagement 
+
+ Our send volume is primarily driven by existing customers who regularly use our global money movement product to send money across borders to family and friends, as well as an increasing number of high-amount senders and businesses. We believe our digital-first products and superior customer experience encourage high retention and repeat usage, which remain significant drivers of our performance. 
+
+ 23 
+
+ Table of Contents 
+
+ We measure active customers to monitor the growth and performance of our customer base. The majority of our active customers send money for recurring, non-discretionary needs multiple times per month, providing a recurring revenue stream with high predictability and durability. Additionally, new customer categories, such as business accounts, contribute often higher-value transactions as they send money to pay contractors, vendors, and employees. 
+
+ Attracting New Customers 
+
+ Our continued ability to attract new customers is a key driver for our long-term growth. We continue to expand our customer base by launching new send and receive corridors, innovating existing and new products, and providing the most trusted financial services for customers with cross-border financial needs. Growth in new customer categories, as well as product and geographic expansion, are contributing to broader acquisition. We continue to acquire new customers through digital marketing channels and word-of-mouth referrals from existing customers. Given the nature of our business, new customer acquisition marketing investments may negatively impact net income and Adjusted EBITDA in the quarter they are acquired, but are expected to favorably impact net income and Adjusted EBITDA in subsequent periods as many customers continue to send transactions in the periods after they are acquired. 
+
+ Customer Acquisition Costs 
+
+ Efficiently acquiring customers is critical to our growth and maintaining attractive customer economics, which are impacted by online marketing competition, our ability to effectively target the right demographic, and a competitive environment. We have a history of successfully monitoring customer acquisition costs through disciplined, data-driven investment decisions, and will continue to be strategic and disciplined toward customer acquisition. Our marketing engine increasingly leverages automation and artificial intelligence to optimize channel mix, targeting, and lifetime value. 
+
+ For performance marketing, we set rigorous customer acquisition targets that we continuously monitor to drive a high long-term return on investment, adjusting spend dynamically based on performance and opportunity. This disciplined approach allows us to balance growth with profitability and to redeploy investment efficiently across customer categories and products. Customer acquisition costs, which are deployed to acquire new customers or retain existing customers in certain circumstances, are a component of advertising expenses as defined in Note 2. Basis of Presentation and Summary of Significant Accounting Policies in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q. 
+
+ Corridor Mix 
+
+ Our business is global and certain attributes of our business vary by corridor, such as send amount, customer funding sources, and transaction frequency. For example, a period of high growth in receive corridors with large average send amounts, such as India, could disproportionately impact send volume while impacting active customers to a lesser extent. While shifts in our corridor mix could impact the trends in our global business, including send volume and customer economics, we have the ability to optimize these corridors over the long term based on their specific dynamics. 
+
+ Seasonality 
+
+ Our operating results and key metrics are subject to seasonality, which may result in fluctuations in our quarterly revenues and operating results. For example, active customers and send volume generally peak as customers send gifts for regional and global holidays including, most notably, in the fourth quarter around the Christmas holiday. This seasonality typically drives higher fourth quarter customer acquisition, which generally results in higher fourth quarter marketing spend and transaction losses. It also results in higher transactions and transaction expenses, along with higher working capital needs. Other periods of favorable seasonality include Ramadan/Eid, Lunar New Year/Tết, and Mother’s Day, although these effects are generally smaller than the seasonality we see in the fourth quarter and the timing of some of these holidays varies from year to year. Conversely, we typically observe lower customer acquisition and transaction activity through most of the first quarter, especially in regions that experience favorable seasonality in the fourth quarter. Additionally, the number of business days in a quarter and the day of the week that the last day of the quarter falls on may also introduce variability in our results, working capital balances, or cash flows period over period. 
+
+ Our Technology 
+
+ We continue to invest significant resources in our technology to support the development of new and innovative products, add features to existing offerings, and enhance the customer and recipient experience. The investments also grow our payment and disbursement network, strengthen our risk and security infrastructure, and maintain data protection in accordance with evolving best practices and legal requirements. We are also embedding data analytics and AI across our platform to improve automation, enhance scalability, and drive long-term operating efficiency. We believe these investments in technology and development capabilities will ultimately contribute to our long-term growth. 
+
+ Management of Risk and Fraud 
+
+ We manage fraud (e.g., identity theft) and other illegitimate activity (e.g., money laundering) by utilizing our proprietary risk models, which include machine learning, early warning signals, bespoke rules, and manual investigation processes. These capabilities are enhanced by AI to improve detection accuracy and automation. Our models and processes enable us to identify and address complex and evolving risks in these unwanted activities, while maintaining a differentiated customer experience. In addition, we integrate historical fraud loss data and other transaction data into our risk models, which helps us identify emerging patterns and quantify fraud and compliance risks across all aspects of our customer interactions. These models and processes allow us to achieve and maintain fraud loss rates within desired guardrails, as well as continuously refine our risk models to address new risks. 
+
+ 24 
+
+ Table of Contents 
+
+ Macroeconomic and Geopolitical Changes 
+
+ Global macroeconomic and geopolitical factors, including inflation, currency fluctuations, immigration and immigration policy, regulatory changes, trade and regulatory policies, including imposition of trade restrictions, taxes and tariffs, and any related market or economic uncertainty or slowdown, regional and global conflicts, global crises and natural disasters, unemployment, potential recession, and the rate of digital cross-border payment adoption impact demand for our services and the options that we can offer. These factors evolve over time, and periods of significant currency appreciation or depreciation, whether in send or receive currencies, changes to global migration patterns, immigration policy, or international trade, and changes to digital adoption trends may shift the timing and volume of transactions, or the number of customers using our service. We continue to assess the impact of developments in foreign trade policy, including taxes and tariffs, and global market conditions. While the imposition of tariffs has not had a significant impact on our business historically, we recognize there is a potential for indirect effects, particularly from foreign exchange volatility to which we are exposed due to the global nature of our cross-border payment operations. Refer to our discussion of foreign currency exchange rate risk included in Part I, Item 3 of this Quarterly Report on Form 10-Q for further details. 
+
+ In addition, foreign currency movements impact our business in numerous ways. For example, as the U.S. dollar strengthens, we see customers in certain geographies taking advantage of the ability to get more local currency to their families and friends. We also believe the strength of the U.S. dollar and the strength of other developed country currencies versus emerging country currencies make it easier to acquire new customers in certain geographies. Conversely, expansion of our international business can negatively impact our condensed consolidated results when these currencies weaken against the U.S. dollar. As we grow, we are becoming more diversified across geographies and currencies, which can help mitigate some localized geopolitical risks and macroeconomic trends. As foreign currency can have a significant impact on our business, we maintain a diversified cash balance portfolio and manage foreign exchange risk through various operational measures, including use of foreign exchange contracts. Our proactive risk management is designed to help mitigate potential impacts. For a more comprehensive description of our foreign currency exchange rate risk, current business concentrations, and details on our foreign exchange contracts, refer to Part I, Item 3 of this Quarterly Report on Form 10-Q. 
+
+ Evolving regulatory and legislative developments may influence customer behavior and transaction volumes. For example, recent U.S. legal and policy changes have changed the legal status of certain population groups and increased deportation activity more broadly, and the One Big Beautiful Bill Act (the “OBBBA”), which passed on July 4, 2025, imposes a tax on outbound, non-digital remittances from the United States to recipients abroad. While these regulatory and legislative developments may impact certain areas of our business, our business has remained resilient through various macroeconomic, political, and regulatory cycles over the past decade. We will continue to evaluate the impact the new regulation and legislation will have on our condensed consolidated financial statements, but at this time, we do not expect that the remittance tax included in the OBBBA will have a material impact on our business. 
+
+ The OBBBA also enacts U.S. corporate income tax reform, certain aspects of which applied to our business beginning in 2025, principally the immediate expensing of domestic research and development expenditures. These provisions did not have a material impact on our condensed consolidated financial statements, although they accelerate our deductions and are expected to reduce our cash tax payments in the near term. We continue to monitor developments and guidance under the OBBBA. 
+
+ Components of Results of Operations 
+
+ Revenue 
+
+ Our primary source of revenue is currently earned from our global money movement product, which is generated on transaction fees charged to customers and foreign exchange spreads between the foreign exchange rate offered to customers and the foreign exchange rate on our currency purchases. Revenue is recognized in an amount that reflects the consideration we expect to be entitled to in exchange for services provided, when control of these services is transferred to our customers, which is the time the funds have been delivered to the intended recipient. 
+
+ Costs and Expenses 
+
+ Transaction Expenses 
+
+ Transaction expenses include fees paid to disbursement partners for paying funds to the recipient, provisions for transaction losses, and fees paid to payment processors for funding transactions. Transaction expenses also include chargebacks, fraud prevention, fraud management tools, and compliance tools. We establish reserves for transaction losses based on historical trends and any specific risks identified in processing customer transactions. This reserve is included in ‘ Accrued expenses and other current liabilities’ on the Condensed Consolidated Balance Sheets included in Part I, Item 1 of this Quarterly Report on Form 10-Q. Over the long term, we expect to continue to benefit from improvements in our proprietary fraud models, although we expect some variability in transaction expense from quarter to quarter. 
+
+ Customer Support and Operations 
+
+ Customer support and operations expenses consist primarily of personnel-related expenses associated with our customer support and operations organization, including salaries, benefits, and stock-based compensation expense, as well as third-party costs for customer support services, and travel and related office expenses. This includes our customer service teams which directly support our customers, consisting of online support and call centers, and other costs incurred to support our customers, including related telephony costs to support these teams, customer protection and risk teams, investments in tools to effectively service our customers, and increased customer self-service capabilities. Customer support and operations expenses also include corporate communication costs and professional services fees. 
+
+ 25 
+
+ Table of Contents 
+
+ Marketing 
+
+ Marketing expenses consist primarily of advertising costs used to attract new customers, including branding-related expenses. Marketing expenses also include personnel-related expenses associated with marketing organization staff, including salaries, benefits, and stock-based compensation expense, promotions, costs for software subscription services dedicated for use by marketing functions, and outside services contracted for marketing purposes. 
+
+ Technology and Development 
+
+ Technology and development expenses consist primarily of personnel-related expenses for employees involved in the research, design, development, and maintenance of both new and existing products and services, including salaries, benefits, and stock-based compensation expense. Technology and development expenses also include professional services fees and costs for software subscription services dedicated for use by our technology and development teams, as well as other company-wide technology tools. Technology and development expenses also include product and engineering teams used to support the development of both internal infrastructure and internal-use software, to the extent such costs do not qualify for capitalization. Technology and development costs are generally expensed as incurred and do not include software development costs which qualify for capitalization as internal-use software. The amortization of internal-use software costs which were capitalized in accordance with ASC 350-40, Intangibles - Goodwill and Other-Internal-Use Software , is included in ‘ Depreciation and amortization ’ within the Condensed Consolidated Statements of Operations included in Part I, Item 1 of this Quarterly Report on Form 10-Q. 
+
+ We believe delivering new functionality and improving existing technology is critical to attract new customers and expand our relationship with existing customers. We expect to continue to make investments to expand our solutions in order to enhance our customers’ experience and satisfaction, and to attract new customers. 
+
+ General and Administrative 
+
+ General and administrative expenses consist primarily of personnel-related expenses for our finance, legal, compliance, human resources, facilities, administrative personnel, and other leadership functions, including salaries, benefits, and stock-based compensation expense. General and administrative expenses also include professional services fees, software subscriptions, facilities, indirect taxes, credit losses, and other corporate expenses, including acquisition and integration expenses. 
+
+ Depreciation and Amortization 
+
+ Depreciation and amortization expense includes depreciation on property and equipment and leasehold improvements, as well as the amortization of internal-use software costs and intangible assets. 
+
+ Interest Income 
+
+ Interest income consists primarily of interest income earned on our cash and cash equivalents. 
+
+ Interest Expense 
+
+ Interest expense consists primarily of the interest expense on our borrowings. 
+
+ Other Expense, Net 
+
+ Other expense, net, primarily includes foreign currency exchange gains and losses due to remeasurement of certain foreign currency denominated monetary assets and liabilities. 
+
+ (Benefit from) Provision for Income Taxes 
+
+ (Benefit from) provision for income taxes consists primarily of federal and state income taxes in the United States and income taxes in certain foreign jurisdictions in which we conduct business. During the three months ended June 30, 2026, we released our full valuation allowance for U.S. deferred tax assets. The income tax benefit was $138.2 million for the six months ended June 30, 2026, inclusive of a $140.6 million discrete tax benefit from the U.S. valuation allowance release. We periodically assess the need for a valuation allowance against our deferred tax assets by weighing positive and negative evidence to determine whether it is more likely than not that some or all of the deferred tax assets will be realized. 
+
+ 26 
+
+ Table of Contents 
+
+ Results of Operations 
+
+ Comparison of the three and six months ended June 30, 2026 and 2025 
+
+ The following table sets forth our results of operations together with the dollar and percentage change for the three and six months ended June 30, 2026 and 2025: 
+
+ Three Months Ended June 30, 
+ Change 
+ Six Months Ended June 30, 
+ Change 
+
+ (dollars in thousands) 2026 2025 Amount Percent 2026 2025 Amount Percent 
+
+ Revenue $ 495,156 $ 411,852 $ 83,304 20 % $ 947,958 $ 773,476 $ 174,482 23 % 
+
+ Costs and expenses 
+
+ Transaction expenses 161,174 143,756 17,418 12 % 306,114 265,149 40,965 15 % 
+
+ Customer support and operations 26,639 25,074 1,565 6 % 53,450 47,647 5,803 12 % 
+
+ Marketing 104,388 84,976 19,412 23 % 190,750 158,325 32,425 20 % 
+
+ Technology and development 74,049 77,496 (3,447) (4) % 153,652 151,347 2,305 2 % 
+
+ General and administrative 55,918 59,581 (3,663) (6) % 111,065 112,410 (1,345) (1) % 
+
+ Depreciation and amortization 6,307 6,326 (19) — % 12,506 11,722 784 7 % 
+
+ Total costs and expenses 428,475 397,209 31,266 8 % 827,537 746,600 80,937 11 % 
+
+ Income from operations 66,681 14,643 52,038 355 % 120,421 26,876 93,545 348 % 
+
+ Interest income 1,485 2,061 (576) (28) % 3,138 3,848 (710) (18) % 
+
+ Interest expense (3,152) (1,650) (1,502) 91 % (5,589) (2,949) (2,640) 90 % 
+
+ Other expense, net (370) (6,940) 6,570 (95) % (1,251) (4,719) 3,468 (73) % 
+
+ Income before (benefit from) provision for income taxes 
+ 64,644 8,114 56,530 697 % 116,719 23,056 93,663 406 % 
+
+ (Benefit from) provision for income taxes (141,264) 1,578 (142,842) nm (138,242) 5,168 (143,410) nm 
+
+ Net income $ 205,908 $ 6,536 $ 199,372 3,050 % $ 254,961 $ 17,888 $ 237,073 1,325 % 
+
+ __________ 
+
+ nm = not meaningful 
+
+ The following discussion and analysis is for the three and six months ended June 30, 2026, compared to the same period in 2025. 
+
+ Revenue 
+
+ Revenue increased 20%, or $83.3 million, and 23%, or $174.5 million, for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025. The increase was primarily driven by a 20% increase in active customers period over period, continued strength in the retention of existing customers, favorable customer behavior based on foreign currency movement, increased send volume for high-amount senders, and a continued mix shift trending towards digital disbursements. Revenue derived from each transaction varies based on a number of attributes, including the funding method chosen by the customer, the size of the transaction, the currency to be ultimately purchased, the rate at which the currency was purchased, the disbursement method chosen by the customer, and the country to which the funds are transferred. 
+
+ As a reflection of this growth, send volume increased 27% and 32% to $23.5 billion and $45.6 billion for the three and six months ended June 30, 2026, respectively, as compared to $18.5 billion and $34.6 billion for the three and six months ended June 30, 2025, respectively. 
+
+ Transaction Expenses 
+
+ Transaction expenses increased $17.4 million, or 12%, for the three months ended June 30, 2026, compared to the three months ended June 30, 2025. The increase was primarily due to a $19.6 million, or 18%, increase in direct costs associated with processing a higher volume of our customers’ remittance transactions and the disbursement of our customers’ funds to their recipients, partially offset by a $3.5 million decrease in our provision for transaction losses. 
+
+ 27 
+
+ Table of Contents 
+
+ Transaction expenses increased $41.0 million, or 15%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025. The increase was primarily due to a $38.4 million, or 19%, increase in direct costs associated with processing a higher volume of our customers’ remittance transactions and the disbursement of our customers’ funds to their recipients. 
+
+ As a percentage of revenue, transaction expenses decreased to 33% and 32% for the three and six months ended June 30, 2026, respectively, compared to 35% and 34% for the three and six months ended June 30, 2025, respectively. 
+
+ Customer Support and Operations Expenses 
+
+ Customer support and operations expenses increased $1.6 million, or 6%, f or the three months ended June 30, 2026, compared to the three months ended June 30, 2025. The increase was primarily driven by a $3.3 million increase in personnel-related costs compared to the three months ended June 30, 2025. 
+
+ Customer support and operations expenses increased $5.8 million, or 12%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025. The increase was primarily driven by a $6.4 million increase in personnel-related costs compared to the six months ended June 30, 2025. 
+
+ As a percentage of revenue, customer support and operations expenses remained flat at 5% and 6% for the three and six months ended June 30, 2026, respectively, compared to 6% for both the three and six months ended June 30, 2025. 
+
+ Marketing Expenses 
+
+ Marketing expenses increased $19.4 million, or 23%, for the three months ended June 30, 2026, compared to the three months ended June 30, 2025, primarily due to an increase of $19.1 million in advertising expense, including online and offline marketing spend and promotion costs to acquire new customers. 
+
+ Marketing expenses increased $32.4 million, or 20%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025, primarily due to an increase of $34.7 million in advertising expense, including online and offline marketing spend and promotion costs to acquire new customers. 
+
+ As a percentage of revenue, marketing expenses were 21% and 20% for the three and six months ended June 30, 2026, respectively, compared to 21% and 20% for the three and six months ended June 30, 2025, respectively. 
+
+ Technology and Development Expenses 
+
+ Technology and development expenses decreased $3.4 million, or 4%, for the three months ended June 30, 2026, compared to the three months ended June 30, 2025. The decrease was primarily driven by a $7.4 million decrease in personnel-related costs, partially offset by a $5.3 million increase in software costs primarily related to cloud services to support incremental transaction volume. 
+
+ Technology and development expenses increased $2.3 million, or 2%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025. The increase was primarily driven by a $9.3 million increase in software costs primarily related to cloud services to support incremental transaction volume and a $3.6 million increase in restructuring costs primarily related to severance (refer to Note 13. Restructuring Initiatives in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for more information on the restructuring costs). These increases were partially offset by a $8.4 million decrease in personnel-related costs. 
+
+ As a percentage of revenue, technology and development expenses decreased to 15% and 16% for the three and six months ended June 30, 2026, respectively, from 19% and 20% for the three and six months ended June 30, 2025, as we benefited from increasing efficiencies, including the usage of AI. 
+
+ General and Administrative Expenses 
+
+ General and administrative expenses decreased $3.7 million, or 6%, for the three months ended June 30, 2026, compared to the three months ended June 30, 2025. The decrease was primarily due to a $3.9 million decrease in provisions related to collectability of amounts due from certain processing partners. 
+
+ General and administrative expenses decreased $1.3 million, or 1%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025. The decrease was primarily driven by a $4.6 million decrease in personnel-related expenses, partially offset by a $4.1 million increase in restructuring costs primarily related to severance (refer to Note 13. Restructuring Initiatives in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for more information on the restructuring costs). 
+
+ As a percentage of revenue, general and administrative expenses decreased to 11% and 12% for the three and six months ended June 30, 2026, respectively, from 14% and 15% for the three and six months ended June 30, 2025, respectively, as we continue to leverage efficiencies in our general and administrative functions. 
+
+ 28 
+
+ Table of Contents 
+
+ Depreciation and Amortization 
+
+ Depreciation and amortization remained flat for the three months ended June 30, 2026, compared to the three months ended June 30, 2025. Depreciation and amortization increased $0.8 million, or 7%, for the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ Interest Income 
+
+ Interest income decreased $0.6 million and $0.7 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025. 
+
+ Interest Expense 
+
+ Interest expense increased $1.5 million and $2.6 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily due to draws on the revolving credit facility. 
+
+ Other Expense, Net 
+
+ Other expense, net is primarily driven by unrealized losses and gains on foreign exchange remeasurements of certain foreign currency denominated monetary assets and liabilities. 
+
+ (Benefit from) Provision for Income Taxes 
+
+ The benefit from income taxes increased $142.8 million and $143.4 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025. The increase in both the three and six months ended June 30, 2026 is primarily due to the release of the U.S. valuation allowance during the three months ended June 30, 2026. 
+
+ We periodically assess the need for a valuation allowance against our deferred tax assets by weighing positive and negative evidence to determine whether it is more likely than not that some or all of the deferred tax assets will be realized. Based on our sustained profitability in the United States and anticipated future earnings, we concluded it was more likely than not that our U.S. deferred tax assets would be realizable, and accordingly released our full U.S. valuation allowance during the three months ended June 30, 2026. 
+
+ Non-GAAP Financial Measures 
+
+ We regularly review the following non-GAAP measure to evaluate our performance, identify trends affecting our business, prepare financial projections, and make strategic decisions. We believe that this non-GAAP measure provides meaningful supplemental information for management and investors in assessing our historical and future operating performance. The calculation of this non-GAAP measure discussed below may differ from other similarly titled metrics used by other companies, analysts, or investors. 
+
+ We use Adjusted EBITDA, a non-GAAP financial measure, to supplement net income (loss). Adjusted EBITDA is calculated as net income (loss) adjusted by (i) interest (income) expense, net; (ii) (benefit from) provision for income taxes; (iii) noncash charges of depreciation and amortization; (iv) other (income) expense, net; (v) noncash charges associated with our donation of common stock in connection with our Pledge 1% commitment; (vi) noncash stock-based compensation expense, net; (vii) payroll taxes related to stock-based compensation expense, net; and (viii) certain restructuring and other costs. 
+
+ Adjusted EBITDA is a key output measure used by our management to evaluate our operating performance, inform future operating plans, and make strategic long-term decisions, including those relating to operating expenses and the allocation of internal resources. 
+
+ Adjusted EBITDA has limitations as a financial measure, should be considered as supplemental in nature, and is not meant as a substitute for the related financial information prepared in accordance with GAAP. These limitations include the following: 
+
+ • although depreciation and amortization are noncash charges, the assets being depreciated and amortized may have to be replaced in the future, and Adjusted EBITDA does not reflect cash capital expenditure requirements for such replacements or for new capital expenditures or other capital commitments; 
+
+ • Adjusted EBITDA does not reflect changes in, or cash requirements for, our working capital needs; 
+
+ • Adjusted EBITDA does not reflect the effect of income taxes that may represent a reduction in cash available to us; 
+
+ • Adjusted EBITDA does not reflect the changes in other (income) expense, net, primarily driven by the effect of gains and losses from the remeasurement of foreign currency assets and liabilities into their functional currency; 
+
+ • Adjusted EBITDA excludes noncash charges associated with the donation of our common stock in connection with our Pledge 1% commitment, which is recorded in general and administrative expenses; 
+
+ • Adjusted EBITDA excludes stock-based compensation expense, net and payroll taxes related to stock-based compensation expense, net. These charges have recently been, and will continue to be for the foreseeable future, significant recurring expenses for our business as they are an important part of our compensation strategy; however, they are not directly linked to the current period’s operational performance. Additionally, payroll taxes related to stock-based compensation expense, net are outside of our direct control; 
+
+ 29 
+
+ Table of Contents 
+
+ • Adjusted EBITDA excludes certain restructuring and other costs. The restructuring costs are primarily related to severance and other associated costs; and 
+
+ • Other companies, including companies in our industry, may calculate Adjusted EBITDA differently from how we calculate this measure or not at all, which reduces its usefulness as a comparative measure. 
+
+ The following table sets forth a reconciliation of net income, the most directly comparable financial measure prepared in accordance with GAAP, to Adjusted EBITDA, for each of the periods indicated: 
+
+ Three Months Ended June 30, Six Months Ended June 30, 
+
+ (in thousands) 2026 2025 2026 2025 
+
+ Net income $ 205,908 $ 6,536 $ 254,961 $ 17,888 
+
+ Add: 
+
+ Interest (income) expense, net 1,667 (411) 2,451 (899) 
+
+ (Benefit from) provision for income taxes (141,264) 1,578 (138,242) 5,168 
+
+ Depreciation and amortization 6,307 6,326 12,506 11,722 
+
+ Other expense, net 370 6,940 1,251 4,719 
+
+ Donation of common stock (1) 
+ 957 907 1,722 1,866 
+
+ Stock-based compensation expense, net 34,491 38,066 62,027 73,858 
+
+ Payroll taxes related to stock-based compensation expense, net 
+ 2,061 1,519 3,833 4,659 
+
+ Restructuring and other costs (2) 
+ 4,245 2,536 15,783 3,444 
+
+ Adjusted EBITDA $ 114,742 $ 63,997 $ 216,292 $ 122,425 
+
+ __________ 
+
+ (1) Refer to Note 11. Common Stock within the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for further detail on the donation of common stock. 
+
+ (2) Restructuring and other costs for the three and six months ended June 30, 2026 and June 30, 2025 consisted primarily of termination benefits. These costs are not indicative of ongoing operating performance. 
+
+ Liquidity and Capital Resources 
+
+ Sources of Liquidity and Material Future Cash Requirements 
+
+ As of June 30, 2026 and December 31, 2025, our principal sources of liquidity were cash and cash equivalents of $676.4 million and $542.4 million, respectively, as well as funds available under the 2025 Revolving Credit Facility, which we entered into in June 2025. The 2025 Revolving Credit Facility has revolving commitments up to $550.0 million (including a $200.0 million letter of credit sub-facility). We have historically financed our operations and capital expenditures primarily through cash generated from operations, including transaction fees and foreign exchange spreads. In recent periods, we have supplemented those cash flows with borrowings on our 2025 Revolving Credit Facility, primarily to support customer transaction volumes during peak periods and weekends, which we expect to continue to do in the future. During the six months ended June 30, 2026 and 2025, the average term of outstanding borrowings under our Revolving Credit Facility was approximately four days. Operations continue to be substantially funded by the existing cash we have on hand and ongoing utilization of the 2025 Revolving Credit Facility (including the letter of credit sub-facility). During the six months ended June 30, 2026, we borrowed $5.8 billion and repaid $6.0 billion against the credit facility. As of June 30, 2026, we had no outstanding borrowings under the 2025 Revolving Credit Facility. As of June 30, 2026, we had unused borrowing capacity of $474.7 million. 
+
+ In July 2025, our board of directors approved a share repurchase program that provides for the repurchase of up to an aggregate of $200.0 million of our outstanding common stock. The program allows for share repurchases through open market transactions, in privately negotiated transactions, or by other means, in accordance with applicable securities laws and other restrictions, but does not obligate us to acquire any amount of common stock. The timing and total amount of share repurchases will be determined by us in our discretion and will depend on a variety of factors, including business, economic and market conditions, corporate and regulatory requirements, prevailing stock prices, alternative investment opportunities, and other considerations. During the six months ended June 30, 2026, we repurchased $65.6 million of our common stock in open market transactions. 
+
+ We believe that our cash, cash equivalents, and funds available under the 2025 Revolving Credit Facility will be sufficient to meet our working capital requirements for at least the next twelve months. Our material cash requirements include funds to support current and potential operating activities, capital expenditures, and other commitments, and could include other uses of cash, such as strategic investments. 
+
+ 30 
+
+ Table of Contents 
+
+ Our future capital requirements will depend on many factors, including our rate of revenue growth, the expansion of our sales and marketing activities, the timing and extent of expansion into new corridors, and the timing of introductions of new products and enhancements of existing products, share repurchases, and other strategic investments. Furthermore, certain jurisdictions where we operate require us to hold eligible liquid assets, based on regulatory or legal requirements, equal to the aggregate amount of all customer balances that have not yet been disbursed. In addition, as discussed elsewhere in this Quarterly Report on Form 10-Q, we expect that our operating expenses may continue to increase to support the continued growth of our business, including increased investments in our technology to support product improvements, new product development, and geographic expansion. We also routinely enter into marketing and advertising contracts, software subscriptions and other service arrangements, including cloud infrastructure and compliance-application related arrangements, which are generally entered into in the ordinary course of business, and that can include minimum service quantities, requiring us to utilize cash on hand to fulfill these amounts. Refer to “Contractual Obligations and Commitments” discussed further below. 
+
+ In the future, we may also attempt to raise additional capital through the sale of equity securities or through equity-linked securities, and the ownership of our existing stockholders would be diluted. In addition, if we raise additional financing by incurring additional indebtedness, we may be subject to increased fixed payment obligations and could also be subject to additional restrictive covenants, such as limitations on our ability to incur additional debt, and other operating restrictions that could adversely impact our ability to conduct our business. Any future indebtedness we incur may result in terms that are unfavorable to equity investors. There can be no assurances that we will be able to raise additional capital. The inability to raise capital would adversely affect our ability to achieve our business objectives. 
+
+ The following table shows a summary of our Condensed Consolidated Statements of Cash Flows for the periods presented: 
+
+ Six Months Ended June 30, 
+
+ (in thousands) 2026 
+ 2025 (1) 
+
+ Net cash provided by (used in): 
+
+ Operating activities 
+ $ 216,512 $ 135,472 
+
+ Investing activities (20,315) (32,565) 
+
+ Financing activities 
+ (60,639) 34,723 
+
+ Effect of foreign exchange rate changes on cash, cash equivalents, and restricted cash 
+ (1,723) 10,182 
+
+ Net increase in cash, cash equivalents, and restricted cash $ 133,835 $ 147,812 
+
+ __________ 
+
+ (1) Beginning in the fourth quarter of 2025, the Company changed the presentation of certain cash activity related to disbursement prefunding, customer funds receivable, customer liabilities, and trade settlement liability, from cash flows from operating activities to cash flows from financing activities within the line item ‘ Net change in customer funds assets and liabilities .’ Prior period statements of cash flows and any commentary below have been conformed to the current period presentation to enhance transparency and provide comparability. For additional information, refer to Note 2. Basis of Presentation and Summary of Significant Accounting Policies in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q . 
+
+ Cash Flows 
+
+ Operating Activities 
+
+ Our main sources of operating cash are transaction fees charged to customers and foreign exchange spreads on transactions. Our primary uses of cash from operating activities have been for transaction expenses that include fees paid to payment processors and disbursement partners, advertising expenses used to attract new customers, personnel-related costs, technology expenses, and other general corporate expenditures. 
+
+ Net cash provided by operating activities for the six months ended June 30, 2026 was $216.5 million, an increase of $81.0 million compared to net cash provided by operating activities for the six months ended June 30, 2025. The increase was driven primarily by a $237.1 million increase in net income, partially offset by a $143.9 million increase in deferred income taxes in addition to other changes in working capital. 
+
+ Investing Activities 
+
+ Cash used in investing activities consists primarily of purchases of property and equipment, net originations from consumer receivables, and the capitalization of internal-use software. 
+
+ Net cash used in investing activities for the six months ended June 30, 2026 was $20.3 million, a decrease of $12.3 million compared to net cash used in investing activities for the six months ended June 30, 2025. This change was primarily driven by an $11.3 million decrease in purchases of property and equipment, primarily related to leasehold improvements for our corporate headquarters, and a $1.5 million decrease in originations from consumer receivables, net of collections. 
+
+ 31 
+
+ Table of Contents 
+
+ Financing Activities 
+
+ Cash flows from financing activities consists primarily of borrowings on our revolving credit facility, proceeds from the exercise of stock options, the net change in customer funds assets and liabilities (exclusive of the operating activity portion of such accounts), and proceeds from the issuance of common stock in connection with the ESPP, offset by repayments of our revolving credit facility borrowings, cash paid for repurchase of common stock, and cash paid for taxes related to net share settlement of equity awards. Activity in the customer funds assets and liabilities is heavily impacted by the timing of customer transactions and, in particular, the day of the week that the year end falls on, including holidays and long weekends. For example, we generally have higher prefunding amounts if the year closes on a weekend or in advance of a long weekend, such as a holiday, which creates variability in customer transaction related balances period over period and can reduce our cash position at a particular point in time. 
+
+ Net cash used in financing activities for the six months ended June 30, 2026 was $60.6 million, a decrease of $95.4 million, compared to net cash provided by financing activities for the six months ended June 30, 2025 of $34.7 million. The change was primarily driven by a $155.0 million decrease in net borrowings on our revolving credit facility as well as a $65.2 million increase in cash paid for the repurchase of common stock, offset by a $116.8 million increase in cash flows from customer funds assets and liabilities. 
+
+ Contractual Obligations and Commitments 
+
+ Our principal commitments consist of standby letters of credit, long-term leases, and other purchase commitments entered into in the normal course of business. In addition, we routinely enter into marketing and advertising contracts, software subscriptions or other service arrangements, including cloud infrastructure arrangements and compliance-application related arrangements that contractually obligate us to purchase services, including minimum service quantities, unless we give notice of cancellation based on the applicable terms of the agreements. Most contracts are typically cancellable within a period of less than one year, although some of our larger software or cloud service subscriptions require multi-year commitments. Changes in our business needs, contractual cancellation provisions, fluctuating interest rates, and other factors may result in actual payments differing from the estimates. We cannot provide certainty regarding the timing and amounts of these payments. 
+
+ During the six months ended June 30, 2026, other than software, cloud infrastructure, marketing, compliance-tool related contracts, and leases entered into in the normal course of business, there were no other material changes to the contractual obligations and contingencies as disclosed in Note 16. Commitments and Contingencies and Note 18. Leases in the notes to the consolidated financial statements included in Part II, Item 8 in our Annual Report on Form 10-K for the year ended December 31, 2025. For further discussion of commitments and contingencies, also refer to Note 15. Commitments and Contingencies in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q . 
+
+ Off-Balance Sheet Arrangements 
+
+ As of June 30, 2026, we had no material off-balance sheet arrangements that have, or are reasonably likely to have, a current or future material effect on our condensed consolidated financial condition, results of operations, liquidity, capital expenditures, or capital resources. From time to time we do enter into short-term leases that have lease terms of less than twelve months, and are typically month-to-month in nature. As described in the notes to the consolidated financial statements in our Annual Report on Form 10-K, we elected not to record leases on our Condensed Consolidated Balance Sheets if the lease term is twelve months or less. For further information on our lease arrangements, refer to our Annual Report on Form 10-K for the year ended December 31, 2025. 
+
+ Critical Accounting Estimates 
+
+ The condensed consolidated financial statements and accompanying notes included in this Quarterly Report on Form 10-Q are prepared in accordance with GAAP. The preparation of these condensed consolidated financial statements requires management to make estimates, judgments, and assumptions that affect the reported amounts of assets, liabilities, equity, revenue, expenses, and related disclosures. Our estimates are based on historical experience and on various other factors that we believe are reasonable under the circumstances. Actual results may differ significantly from the estimates made by management. To the extent that there are differences between our estimates and actual results, our future financial statement presentation, financial condition, results of operations, and cash flows will be affected. 
+
+ There have been no material changes, other than as described in Note 2. Basis of Presentation and Summary of Significant Accounting Policies in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q, to the critical accounting policies and estimates as compared to those described in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” set forth in our Annual Report on Form 10-K for the year ended December 31, 2025. 
+
+ Recently Issued Accounting Pronouncements 
+
+ See Note 2. Basis of Presentation and Summary of Significant Accounting Policies in the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for a discussion of recent accounting pronouncements. 
+
+ 32 
+
+ Table of Contents 
+
+ Item 3. Quantitative and Qualitative Disclosures About Market Risk 
+
+ Market risk is the potential for economic losses to be incurred on market risk-sensitive instruments arising from adverse changes in market factors such as interest rates, foreign currency exchange rates, and equity investment risk. Management establishes and oversees the implementation of policies governing our investing, funding, and foreign currency activities in order to mitigate market risks. We monitor risk exposures on an ongoing basis. 
+
+ Credit Risk 
+
+ We partner with pay-in payment providers and therefore we are exposed to credit risk relating to those pay-in payment providers if, in the course of a transaction, we were to disburse funds to the recipient but the pay-in payment provider did not deliver our customer’s funds to us (for example, due to their illiquidity). We mitigate this credit risk by engaging with reputable pay-in payment providers and entering into written agreements with pay-in providers allowing for legal recourse. We are also exposed to credit risk relating to our banking partners where we hold assets, our disbursement partners when we prefund or remit funds in advance of having collected funds from our customers through our pay-in payment processors, if our disbursement partners fail to disburse funds according to our instructions (for example, due to their insufficient capital), and our consumer receivables. We mitigate these credit exposures by engaging with reputable disbursement partners and performing a credit review before onboarding each disbursement partner, by negotiating for postfunding arrangements where circumstances permit, and by managing eligibility related to our consumer receivables. We also periodically review credit ratings, or, if unavailable, other financial documentation, of both our pay-in payment providers and disbursement partners. We have not experienced significant losses during the periods presented. 
+
+ Foreign Currency Exchange Rate Risk 
+
+ Given the nature of our business, we are exposed to foreign exchange rate risk in a number of ways. Our principal exposure to foreign exchange rate risk includes: 
+
+ • Exposure to foreign currency exchange risk on our cross-border payments if exchange rates fluctuate between initiation of the transaction and transaction disbursement to the recipient. We disburse transactions in multiple foreign currencies, including most notably the Indian rupee, the Mexican peso, and the Philippine peso. In the vast majority of cases, the recipient disbursement occurs within a day of sending, which partially mitigates foreign currency exchange risk. To enable disbursement in the receive currency, we prefund many disbursement partners one to two business days in advance based on expected send volume. Foreign exchange rate risk due to differences between the timing of transaction initiation and payment varies based on the day of the week and the bank holiday schedule; for example, disbursement prefunding is typically largest before long weekends. 
+
+ • While the majority of our revenue and expenses are denominated in the U.S. dollar, certain of our international operations are conducted in foreign currencies, a significant portion of which occur in Canada. Changes in the relative value of the U.S. dollar to other currencies may affect revenue and other operating results as expressed in U.S. dollars. In addition, certain of our international subsidiary financial statements are denominated in and operated in currencies outside of the U.S. dollar. As such, the condensed consolidated financial statements will continue to remain subject to the impact of foreign currency translation, as our international business continues to grow. In periods where other currencies weaken against the U.S. dollar, this can negatively impact our consolidated results which are reported in U.S. dollars. 
+
+ As of June 30, 2026 and December 31, 2025, a hypothetical uniform 10% strengthening or weakening in the value of the U.S. dollar relative to other currencies in which our net income was generated would have resulted in a decrease or increase to the fair value of our customer transaction-related assets and liabilities denominated in currencies other than the subsidiaries’ functional currencies of approximately $27.5 million and $37.9 million, respectively, based on our unhedged exposure to foreign currency at that date. There are inherent limitations in this sensitivity analysis, primarily due to the following assumptions: (1) foreign exchange rate movements are linear and instantaneous, (2) exposure is static, and (3) customer transaction behavior due to currency rate changes is static. As a result, the analysis is unable to reflect the potential effects of more complex market changes that could arise, which may positively or negatively affect our results from operations. For example, both the disbursement prefunding balance and the customer funds liability balance (and resulting net impact to our net currency position) may be highly variable day to day. In addition, changes in foreign exchange rates may impact customer behavior by altering the timing or volume of global money movement transactions. For example, an increase in the value of a send currency against a receive currency may accelerate the timing or amount of global money movement transactions. 
+
+ To the extent practicable, we minimize our foreign currency exposures by maintaining natural hedges between our current assets and current liabilities in similarly denominated foreign currencies. We also deploy derivatives and other financial instruments to reduce foreign currency exchange risk due to the timing difference between purchase of foreign currency and remittance initiation. These foreign exchange contracts have not had a material impact on our operations in the period. We do not use derivative financial instruments for trading or speculative purposes. 
+
+ 33 
+
+ Table of Contents 
+
+ Item 4. Controls and Procedures 
+
+ Evaluation of Disclosure Controls and Procedures 
+
+ Based on their evaluation as of June 30, 2026, our management, including our Chief Executive Officer and Chief Financial Officer, have concluded that our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended) were effective at a reasonable assurance level. 
+
+ Changes in Internal Control over Financial Reporting 
+
+ There were no changes in our internal control over financial reporting as defined in the Exchange Act Rule 13a-15(f) that occurred during the quarter ended June 30, 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. 
+
+ 34 
+
+ Table of Contents 
+
+ Part II. Other Information 
+
+ Item 1. Legal Proceedings 
+
+ In the normal course of business, the Company occasionally becomes involved in various legal proceedings. In the opinion of management, any liability from such proceedings would not have a material adverse effect on the business or financial condition of the Company. Refer to Note 15. Commitments and Contingencies within the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for further details. 
+
+ Item 1A. Risk Factors 
+
+ In addition to the other information set forth in this Quarterly Report on Form 10-Q, you should carefully consider the factors discussed in Part I, Item 1A, “Risk Factors,” in our Annual Report on Form 10-K for the year ended December 31, 2025, which could materially affect our business, financial condition, operating results, reputation, future prospects, or the trading price of the Company’s stock. These are not the only risks facing the Company. Additional risks and uncertainties that we are unaware of or that we deem immaterial may also become important factors that adversely affect our business. 
+
+ Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+
+ Recent Sales of Unregistered Equity Securities 
+
+ None. 
+
+ Issuer Purchase of Equity Securities 
+
+ Share repurchase activity during the three months ended June 30, 2026 was as follows (in thousands, except per share data): 
+
+ Periods 
+ Total Number of Shares Purchased 
+ Average Price Paid Per Share (1) 
+ 
+ Total Number of Shares Purchased as part of Publicly Announced Plans or Programs (2) 
+ 
+ Approximate Dollar Value of Shares that May Yet Be Purchased Under the Plans or Programs (2) 
+
+ April 1, 2026 - April 30, 2026 379 $ 16.45 379 $ 125,627 
+
+ May 1, 2026 - May 31, 2026 231 $ 21.73 231 $ 120,596 
+
+ June 1, 2026 - June 30, 2026 502 $ 20.04 502 $ 110,543 
+
+ Total 
+ 1,112 1,112 
+
+ __________ 
+
+ (1) Average price paid per share includes related commissions paid by us. 
+
+ (2) On August 6, 2025, we announced that our board of directors had authorized a share repurchase program to repurchase up to $200.0 million of our outstanding common stock, with no expiration date. Refer to Note 11. Common Stock within the notes to the condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for further details regarding the share repurchase program. 
+
+ Item 3. Defaults Upon Senior Securities 
+
+ Not applicable. 
+
+ Item 4. Mine Safety Disclosures 
+
+ Not applicable. 
+
+ Item 5. Other Information 
+
+ Rule 10b5-1 and Non-Rule 10b5-1 Trading Arrangements 
+
+ During the three months ended June 30, 2026, none of our officers or directors adopted , modified, or terminated any “Rule 10b5-1 trading arrangement” or “non-Rule 10b5-1 trading arrangement,” as each term is defined in Item 408(a) of Regulation S-K. 
+
+ 35 
+
+ Table of Contents 
+
+ Item 6. Exhibits 
+
+ Incorporated by reference 
+
+ Exhibit Number Description Filed Herewith Form File No. Exhibit Filing Date 
+
+ 3.1 
+ Amended and Restated Certificate of Incorporation 
+ 10-Q 001-40822 3.3 November 12, 2021 
+
+ 3.2 
+ Amended and Restated Bylaws 
+ 
+ 8-K 
+ 001-40822 
+ 3.1 
+ 
+ March 20, 2024 
+
+ 3.3 
+ 
+ Certificate of Change of Registered Agent 
+
+ 10-Q 
+ 001-40822 3.3 
+ May 7, 2025 
+
+ 10.1 
+ Amendment No. 1 , dated June 15, 2026, to Credit Agreement dated as of June 24, 2025, among Remitly Global, Inc., the financial institutions party thereto, and JPMorgan Chase Bank, N.A., as administrative agent 
+ 
+ x 
+
+ 10.2 
+ Transition Agreement, dated as of April 2, 2026 , by and between the Registra nt and Saema Somalya 
+ x 
+
+ 31.1 
+ Certification of Principal Executive Officer Pursuant to Rules 13a-14(a) and 15d-14(a) under the Securities Exchange Act of 1934, as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 
+ x 
+
+ 31.2 
+ Certification of Principal Financial Officer Pursuant to Rules 13a-14(a) and 15d-14(a) under the Securities Exchange Act of 1934, as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 
+ x 
+
+ 32.1* 
+ Certification of Principal Executive Officer Pursuant to 18 U.S.C. Section 1350, as Adopted Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 
+ x 
+
+ 32.2* 
+ Certification of Principal Financial Officer Pursuant to 18 U.S.C. Section 1350, as Adopted Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 
+ x 
+
+ 101.INS Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document). x 
+
+ 101.SCH Inline XBRL Taxonomy Extension Schema Document. x 
+
+ 101.CAL Inline XBRL Taxonomy Extension Calculation Linkbase Document. x 
+
+ 101.DEF Inline XBRL Taxonomy Extension Definition Linkbase Document. x 
+
+ 101.LAB Inline XBRL Taxonomy Extension Label Linkbase Document. x 
+
+ 101.PRE Inline XBRL Taxonomy Extension Presentation Linkbase Document. x 
+
+ 104 Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101). x 
+
+ * The certifications furnished in Exhibits 32.1 and 32.2 hereto are deemed to accompany this Form 10-Q and are not deemed “filed” for purposes of Section 18 of the Exchange Act, or otherwise subject to the liability of that section, nor shall they be deemed incorporated by reference into any filing under the Securities Act or the Exchange Act. 
+
+ 36 
+
+ Table of Contents 
+
+ SIGNATURES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+
+ Remitly Global, Inc. 
+
+ Date: August 5, 2026 By: 
+ /s/ Sebastian Gunningham 
+
+ Sebastian Gunningham 
+
+ Chief Executive Officer 
+
+ (Principal Executive Officer) 
+
+ Date: August 5, 2026 By: 
+ /s/ Vikas Mehta 
+
+ Vikas Mehta 
+
+ Chief Financial Officer 
+
+ (Principal Financial Officer) 
+
+ Date: August 5, 2026 By: 
+ /s/ Tai-Hong Fung 
+
+ Tai-Hong Fung 
+
+ Chief Accounting Officer 
+
+ (Principal Accounting Officer) 
+
+ 37

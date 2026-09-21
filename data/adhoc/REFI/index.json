@@ -1,0 +1,204 @@
+{
+  "fetched_utc": "2026-09-21T11:30:00+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "REFI",
+    "cik": 1867949,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-11",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea0301176-8k425_chicago.htm",
+        "file": "2026-08-11-8-K-ea0301176-8k425_chicago.htm.txt",
+        "chars": 9483,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000119312526343398/refi-20260630.htm",
+        "file": "2026-08-11-10-Q-refi-20260630.htm.txt",
+        "chars": 262105,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-13",
+        "items": "1.01,3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026077585/ea0297476-8k425_chicago.htm",
+        "file": "2026-07-13-8-K-ea0297476-8k425_chicago.htm.txt",
+        "chars": 12310,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "1.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea0295037-8k425_chicago.htm",
+        "file": "2026-06-18-8-K-ea0295037-8k425_chicago.htm.txt",
+        "chars": 37604,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026067830/ea0294462-8k_chicago.htm",
+        "file": "2026-06-11-8-K-ea0294462-8k_chicago.htm.txt",
+        "chars": 4011,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026053036/ea0289393-8k_chicago.htm",
+        "file": "2026-05-07-8-K-ea0289393-8k_chicago.htm.txt",
+        "chars": 4775,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000119312526210274/refi-20260331.htm",
+        "file": "2026-05-07-10-Q-refi-20260331.htm.txt",
+        "chars": 217336,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-12",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026026631/ea0280819-8k_chicago.htm",
+        "file": "2026-03-12-8-K-ea0280819-8k_chicago.htm.txt",
+        "chars": 4806,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE DATED AUGUST 11, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea030117601ex99-1.htm",
+        "file": "2026-08-11-EX-99.1.txt",
+        "chars": 26954,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-11",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "SECOND QUARTER 2026 EARNINGS SUPPLEMENTAL PRESENTATION DATED AUGUST 11, 2026",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea030117601ex99-2.htm",
+        "file": "2026-08-11-EX-99.2.txt",
+        "chars": 40165,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-13",
+        "items": [
+          "1.01",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE, DATED JULY 13, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026077585/ea029747601ex99-1.htm",
+        "file": "2026-07-13-EX-99.1.txt",
+        "chars": 9519,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-18",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "JOINT PRESS RELEASE, DATED JUNE 18, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea029503701ex99-1.htm",
+        "file": "2026-06-18-EX-99.1.txt",
+        "chars": 16858,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-18",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "INVESTOR PRESENTATION, DATED JUNE 18, 2026",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea029503701ex99-2.htm",
+        "file": "2026-06-18-EX-99.2.txt",
+        "chars": 41103,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE DATED MAY 7, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1867949/000121390026053036/ea028939301ex99-1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 15397,
+        "truncated": false
+      }
+    ]
+  }
+}

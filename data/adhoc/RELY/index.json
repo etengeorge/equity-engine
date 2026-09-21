@@ -1,0 +1,180 @@
+{
+  "fetched_utc": "2026-09-21T11:30:13+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "RELY",
+    "cik": 1782170,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026053424/rely-20260630.htm",
+        "file": "2026-08-05-10-Q-rely-20260630.htm.txt",
+        "chars": 160873,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/rely-20260805.htm",
+        "file": "2026-08-05-8-K-rely-20260805.htm.txt",
+        "chars": 4299,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-11",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000063/rely-20260610.htm",
+        "file": "2026-06-11-8-K-rely-20260610.htm.txt",
+        "chars": 4102,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-08",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000057/rely-20260608.htm",
+        "file": "2026-06-08-8-K-rely-20260608.htm.txt",
+        "chars": 3111,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026031371/rely-20260331.htm",
+        "file": "2026-05-06-10-Q-rely-20260331.htm.txt",
+        "chars": 148959,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026031305/rely-20260506.htm",
+        "file": "2026-05-06-8-K-rely-20260506.htm.txt",
+        "chars": 4279,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-10",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000031/rely-20260406.htm",
+        "file": "2026-04-10-8-K-rely-20260406.htm.txt",
+        "chars": 5334,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-20",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000026/rely-20260316.htm",
+        "file": "2026-03-20-8-K-rely-20260316.htm.txt",
+        "chars": 4534,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/rely2q26-earningspr.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 24485,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026053361/remitlyq2earningspresent.htm",
+        "file": "2026-08-05-EX-99.2.txt",
+        "chars": 23840,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026031305/rely1q26-earningspr.htm",
+        "file": "2026-05-06-EX-99.1.txt",
+        "chars": 21253,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026031305/remitlyq1earningspresent.htm",
+        "file": "2026-05-06-EX-99.2.txt",
+        "chars": 21617,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-10",
+        "items": [
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000031/ex991-adammessingerboardap.htm",
+        "file": "2026-04-10-EX-99.1.txt",
+        "chars": 2405,
+        "truncated": false
+      }
+    ]
+  }
+}

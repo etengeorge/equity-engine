@@ -1,0 +1,196 @@
+{
+  "fetched_utc": "2026-09-21T11:30:07+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "VSH",
+    "cik": 103730,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-12",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000068/vsh-20260812.htm",
+        "file": "2026-08-12-8-K-vsh-20260812.htm.txt",
+        "chars": 3127,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000065/form10q.htm",
+        "file": "2026-08-05-10-Q-form10q.htm.txt",
+        "chars": 136987,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000064/vsh-20260805.htm",
+        "file": "2026-08-05-8-K-vsh-20260805.htm.txt",
+        "chars": 8301,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-06",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000054/vsh-20260706.htm",
+        "file": "2026-07-06-8-K-vsh-20260706.htm.txt",
+        "chars": 3840,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-01",
+        "items": "1.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000114036126027081/ny20076868x4_8k.htm",
+        "file": "2026-07-01-8-K-ny20076868x4_8k.htm.txt",
+        "chars": 7784,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.02,5.07,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000043/form8-k.htm",
+        "file": "2026-05-18-8-K-form8-k.htm.txt",
+        "chars": 6977,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-13",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000038/vishayintertech_10q.htm",
+        "file": "2026-05-13-10-Q-vishayintertech_10q.htm.txt",
+        "chars": 109213,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-13",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000037/form8-k.htm",
+        "file": "2026-05-13-8-K-form8-k.htm.txt",
+        "chars": 2948,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-12",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000068/exhibit99-1.htm",
+        "file": "2026-08-12-EX-99.1.txt",
+        "chars": 3531,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000064/exhibit99-1.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 18421,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-06",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000054/exhibit99-1.htm",
+        "file": "2026-07-06-EX-99.1.txt",
+        "chars": 5717,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-06",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EXHIBIT 99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000054/exhibit99-2.htm",
+        "file": "2026-07-06-EX-99.2.txt",
+        "chars": 6163,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-01",
+        "items": [
+          "1.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000114036126027081/ny20076868x4_ex99-1.htm",
+        "file": "2026-07-01-EX-99.1.txt",
+        "chars": 4018,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-01",
+        "items": [
+          "1.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EXHIBIT 99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/103730/000114036126027081/ny20076868x4_ex99-2.htm",
+        "file": "2026-07-01-EX-99.2.txt",
+        "chars": 4023,
+        "truncated": false
+      }
+    ]
+  }
+}
