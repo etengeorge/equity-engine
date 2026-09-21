@@ -1,0 +1,34 @@
+# SKT — TANGER
+*Real Estate · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-21 — NO_MODEL (conviction: high)
+
+- **Verdict:** no_model · price $35.80
+
+**The case for the price.** Tanger owns outlet centres and the market is paying $4.1B of equity plus $1.9B of recorded debt for a portfolio that has been re-tenanted and re-rated since 2021 — the shares are +9.1% over 252 days against a Real Estate cohort that has not been. The buyer's case is that outlet centres are the value-format survivor of physical retail, that occupancy and releasing spreads are running well, and that Tanger has been acquiring open-air centres to broaden beyond pure outlets. The 7.3x price-to-tangible-book that makes the name look extreme on this page is not the buyer's frame: it is the arithmetic of a REIT that has held its properties for decades at depreciated historical cost.
+
+**What changed.** Nothing found. No company-specific news in the store for the last 90 days, and I did not dispatch a filings fetch for this name because no document could change a refusal that is structural rather than evidential. The shares are -7.2% over 21 days and -7.8% over 63 days on 1.1x normal volume — drift, not an event. Absence of news here lowers my confidence in 'nothing happened'; it does not confirm it.
+
+**Base case.** No fair value. Tanger is `method: none` by design — a REIT's free cash flow to the firm is not a meaningful quantity, and CLAUDE.md is explicit that saying so is the expected output for roughly 40% of this universe. The multiples fallback is worse than useless here and fails the standing refusal test on every available count. There is exactly ONE row: p_tbv, because `dep_amort_series` is EMPTY and `interest_expense` is absent, so EBITDA could not be constructed and `revenue_ltm` is null — ev_ebitda, ev_sales and ev_gross_profit are all unavailable. The cohort is explicitly NOT RANKED ('too few comparable Real Estate names to define a distribution honestly'). And the one surviving row compares Tanger's 7.3x to a cohort of 1.0x/1.6x/2.2x to produce a blended $7.63 against a $35.80 price — a -78.7% gap that says the equity is worth a fifth of its price. That is not a valuation, it is an accounting artifact: accumulated depreciation on long-held outlet centres drives tangible book toward zero, so the ratio's denominator is a function of holding period rather than of value, and a cohort containing recently-marked or recently-IPO'd property companies is not a comparator. One unusable row, no cross-check, and an unranked cohort is the RIOT/EPRT refusal in its purest form.
+
+**Devil's advocate.**
+- Strongest counter: That the -78.7% gap deserves to be taken seriously as a SHORT rather than dismissed. 7.3x tangible book against a cohort median of 1.6x is not a small deviation, and a name that has run +9.1% over a year while its sector has not is exactly where an expensive multiple should be flagged.
+- What would prove it: Funds from operations and adjusted FFO per share against the price — the metric REITs are actually valued on — together with same-centre net operating income growth and occupancy cost as a percentage of tenant sales. None of it is derivable from tangible book.
+- Already visible today: No, and the counter defeats itself on inspection: the 7.3x is high precisely BECAUSE Tanger has owned its centres a long time and depreciated them, which is a fact about the age of the portfolio rather than about the price. Against a cohort that cannot even be ranked for lack of comparable names, the ratio carries no information about relative expensiveness. It would be the AII/SFBS error in a new place — reading a ratio whose denominator does not mean what it appears to mean.
+- Left unresolved: Whether Tanger is in fact expensive. I am explicitly not saying it is cheap. On an FFO multiple it may well be dear after a +9.1% year, and the honest record says so here rather than importing the conclusion through a p_tbv row I have just argued is meaningless.
+
+**Key risks.** refusal is not a judgment in either direction; the -78.7% multiples gap rests on a single unusable row against an unranked cohort and should be disregarded; price-to-tangible-book on a long-held REIT portfolio measures holding period, not value; `dep_amort_series` is EMPTY and `interest_expense` is absent, so no EBITDA could be built for the largest owner of outlet centres in the US — a missing-concept failure of the SND shape; `revenue_ltm` is null, so three of the four multiples rows could not be computed at all
+**Watch for.** FFO and AFFO per share, same-centre NOI growth and occupancy — the metrics this name is actually priced on; whether the D&A and interest concepts are ever populated for this filer; until then no multiples row but p_tbv can exist; consumer spending at the value/outlet end of retail
+
+**Data quality.** One flag raised, `sector_has_no_defensible_free_model`, and the by-design refusal is correct. Additional unflagged extraction failures, recorded for the engine: `dep_amort_series` is EMPTY, `interest_expense` is None, and `revenue_ltm` and `ebitda` are both null, so the multiples table collapsed to a single p_tbv row — the WHD 'empty series deserves its own gate' point, in a fourth concept family. The cohort is explicitly unranked. Per the standing rule (single row, unranked cohort, denominator that is an accounting artifact) the multiples number is disregarded rather than averaged into anything.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- brief for SKT dated 2026-09-21 (multiples: p_tbv only, n=83, own 7.3x against cohort 1.0x/1.6x/2.2x; blended midpoint $7.63 vs price $35.80; cohort explicitly 'not ranked')
+- data/fundamentals.json extract for CIK 899715 (dep_amort_series empty; interest_expense null; total_debt 1,861.0M; shares 114,878,989 asof 2026-07-31; balance_sheet_asof 2026-06-30 10-Q)
+- No company-specific news in the store for the last 90 days, and no filings fetched — a document could not change a structural refusal.
+
+**Ingestion notes.** no usable final_growth

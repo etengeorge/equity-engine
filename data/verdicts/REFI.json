@@ -1,0 +1,54 @@
+{
+  "ticker": "REFI",
+  "date": "2026-09-21",
+  "sector": "Financials",
+  "name": "CHICAGO ATLANTIC REAL ESTATE FINAN",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 6,
+  "price_at_verdict": 10.979999542236328,
+  "market_implied_growth": null,
+  "cohort_pct": 96.2,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That a NAV-for-NAV merger is precisely the event that should make a sub-NAV price converge UP, so refusing here throws away the one case where the deal helps. If REFI holders receive 1.085 LIEN shares struck on adjusted NAV, and REFI trades at 0.91x NAV today, the exchange itself realises book \u2014 that is a 10% gross return plus the dividend, and I am calling it no_model.",
+    "what_would_prove_it": "LIEN's own price-to-NAV at and after closing. The exchange is NAV-for-NAV between the two companies, so what REFI holders actually receive is worth REFI's NAV multiplied by LIEN's market discount \u2014 the arbitrage only works if LIEN trades at or above NAV.",
+    "already_visible": "Not from anything in this brief or the filings fetched. I could not establish LIEN's price-to-NAV, which is the entire counter, and that is a fact about my confidence rather than an answer. The structure is a strong hint though: an internally-advised REIT merging into an affiliated BDC under a common manager, NAV-for-NAV, is not usually a transaction that creates value for the sub-NAV side.",
+    "unresolved": "LIEN's price/NAV, and therefore whether the exchange realises book or merely transfers the discount. Also unresolved: the Koach second-lien note placement, which adds subordinated cannabis real-estate credit to a book I could not otherwise stress."
+  },
+  "what_changed": "The merger, which the engine cannot see. Three of the last five 8-Ks are Rule 425 merger communications \u2014 the filenames say so outright (`ea0295037-8k425_chicago.htm` 2026-06-18, `ea0297476-8k425_chicago.htm` 2026-07-13, `ea0301176-8k425_chicago.htm` 2026-08-11) \u2014 carrying items 1.01 and 3.02. Q2 2026 (2026-08-11) reported distributable earnings of $0.44 per basic share against a $0.47 quarterly dividend, below consensus, which the company attributed to early loan repayments delaying redeployment; the Q2 call was described on the wire as 'a transformative quarter with a $649 million pipeline and a value-unlocking merger'. A $0.47 Q3 dividend was declared 2026-09-16. The same 8-K also records a private placement of second-lien promissory notes issued by Koach, secured by mortgages on 32 retail properties leased to cannabis operators and subordinate to senior first-lien debt.",
+  "consensus_case": "There is no standalone market opinion to steelman, because REFI has agreed to stop existing. The 8-K of 2026-07-13 (items 1.01, 3.02, 7.01, 9.01, filed as a Rule 425 merger communication) records a merger agreement under which 'the Company will merge with and into LIEN, with LIEN continuing as the surviving company' \u2014 Chicago Atlantic BDC, the affiliated business development company under the same manager \u2014 on an adjusted-NAV-for-NAV basis at an exchange ratio of roughly 1.085 LIEN shares per REFI share, struck just prior to closing, expected in the fourth quarter of 2026. That is why REFI trades at 0.91x its own tangible book: a NAV-for-NAV exchange hands holders shares in an entity that itself trades at a discount to NAV, so REFI's price converges on LIEN's discount, not on REFI's book. The price is an arbitrage relationship, not a valuation.",
+  "base_case_rationale": "No ROTCE is supplied and no fair value is recorded, for two independent reasons. First, the name is under a signed all-stock merger and a standalone justified-P/TBV is the wrong question \u2014 this is the fourth pending-merger blindness on this screen in thirteen sessions after BKH, LCII and PATK, and the cheapest detector yet: the SEC filename contains '425'. Second, even as a standalone the +95.8% gap is a discount-rate artifact. The justified multiple of 1.79 comes from a 12.6% ROTCE against a 7.95% cost of equity derived from a beta of 0.54. A senior secured lender to US cannabis operators \u2014 an industry with no federal banking access, where REFI's own collateral is described as second-lien notes subordinate to senior first-lien debt on cannabis-leased retail property \u2014 does not have a 7.95% cost of equity. The market's own number is visible on the page: a $0.47 quarterly dividend on a $10.98 share is a 17.1% yield, and a REIT distributing substantially all of its taxable income is priced almost entirely off its required return. Put 17% into the same Gordon form and the justified multiple is (0.126-0.02)/(0.17-0.02) = 0.71 against an actual 0.91 \u2014 the name is RICH, not 96% cheap, and the sign of the answer is set by an input the engine has no ability to measure on a name with this credit profile.",
+  "key_risks": [
+    "this is an all-stock merger into an affiliated BDC, not a standalone lender \u2014 a justified P/TBV is the wrong model",
+    "the 7.95% cost of equity is not credible for a cannabis lender whose own stock yields 17.1%; at a defensible rate the gap inverts to rich",
+    "distributable earnings of $0.44 do not cover the $0.47 dividend",
+    "`last_10k_1360d_old` \u2014 the extract's fy_end is 2022-12-31 and a 2026-03-12 10-K exists that the model never read"
+  ],
+  "watch_for": [
+    "the definitive exchange ratio struck on adjusted NAV just prior to closing, and LIEN's price-to-NAV at that date",
+    "the S-4/proxy and the stockholder votes",
+    "cannabis credit: the Koach second-lien notes and any migration in the loan book"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1867949/000121390026077585/ea0297476-8k425_chicago.htm (8-K/425 2026-07-13, items 1.01/3.02/7.01/9.01: 'the Company will merge with and into LIEN, with LIEN continuing as the surviving company'; exchange ratio determined on the inputs set out in the Merger Agreement; Koach second-lien promissory notes secured by mortgages on 32 cannabis-leased retail properties, subordinate to senior first lien indebtedness)",
+    "https://www.sec.gov/Archives/edgar/data/1867949/000121390026069861/ea0295037-8k425_chicago.htm (8-K/425 2026-06-18, items 1.01/7.01/9.01)",
+    "https://www.sec.gov/Archives/edgar/data/1867949/000121390026087484/ea0301176-8k425_chicago.htm (8-K/425 2026-08-11, Q2 2026 results)",
+    "https://www.sec.gov/Archives/edgar/data/1867949/000119312526343398/refi-20260630.htm (10-Q 2026-06-30)",
+    "company news in brief: GlobeNewswire 2026-09-16 $0.47 Q3 dividend; MarketBeat 2026-08-11 distributable earnings $0.44 vs $0.47 dividend; GuruFocus 2026-08-11 '$649 million pipeline and a value-unlocking merger'"
+  ],
+  "flags": [
+    "last_10k_1360d_old"
+  ]
+}

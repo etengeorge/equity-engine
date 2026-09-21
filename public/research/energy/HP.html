@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HP — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Energy / HP</p><h1>HP <span style='color:var(--faint);font-weight:400'>HELMERICH &amp;amp; PAYNE</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$40.91</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-21</b></div></div><div class='prose'><h1>HP — HELMERICH &amp;amp; PAYNE</h1><p><em>Energy · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-21 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $40.91</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Helmerich &amp; Payne is the highest-spec US land driller, now with an international arm bought with the KCA Deutag acquisition, and the market is paying for a recovery it can see the shape of: Q3 fiscal 2026 revenue of roughly $1.0bn beat expectations on North American rig reactivations, the stock is up 21.5% since that print, capital expenditure has been cut hard (nine-month fiscal 2026 capex of $200.2M against $362.2M) and nine-month operating cash flow rose to $372.7M from $336.0M. The buyer is paying for super-spec pricing power in a consolidating land market plus an international backlog (Oman rig construction, Saudi) that US rig count does not capture. At a defensible discount rate the price requires roughly 5-14% five-year FCFF growth, which an international build-out can in principle deliver.</p><p><strong>What changed.</strong> Q3 fiscal 2026 (filed 2026-08-06) reported revenue above expectations with an adjusted net LOSS; management framed a constructive outlook and the shares rose. Interest expense FELL to $75.9M for nine months from $79.8M on repayment of the unsecured term loan. Capex guidance came down on &#x27;lower equipment overhauls and certain long-term projects&#x27;. Nothing here invalidates the model; what invalidates it is on the balance sheet extract, not in the news.</p><p><strong>Base case.</strong> No fair value is recorded because the two inputs that decide this name are both broken and the schema can override neither. First, the WACC. The engine&#x27;s 12.25% at a 31.3% debt weight implies an AFTER-TAX cost of debt of 17.2%, i.e. a pre-tax 23.0%, for an investment-grade issuer whose $1.8bn of unsecured notes mature 2027-2034 and whose actual interest bill of $101.1M annualised on $1,862.1M of debt is a rate of 5.43%. The cause is the CLVT defect with a new origin: <code>ebit</code> in the extract reads $3,318,000 — three million dollars for a company with $3.7bn of revenue — with <code>ebit_derived</code> false, so the synthetic rating is computed on an interest-coverage ratio of about 0.19x and prices the firm as distressed. The <code>speculative_cost_of_debt</code> gate stayed silent because EBIT is technically POSITIVE. Second, <code>interest_expense</code> reads $17.3M against the $75.9M the 10-Q reports for NINE months, so the after-tax add-back is understated by about $66M. The grid: at the engine&#x27;s base and engine WACC the market implies +22.9% (the recorded -32.7% gap); at the real interest expense, +17.1%; on a fiscal 2026 run-rate base of $230M of owner earnings plus the real add-back, +18.6%. Replace the fabricated cost of debt with the 5.43% actually paid and the same three bases give +8.8%, +3.7% and +5.1% at beta 0.91, or +14.4%, +9.0% and +10.5% at a land-driller beta of 1.30. The honest span is +3.7% to +22.9%, and the single largest term in it is a number I know to be wrong. My own view of the business is that HP compounds FCFF at roughly +2% over five years — North American land drilling is a mature, share-shifting market and the growth is the international book, which is real but small against a $3.7bn revenue base.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The devil&#x27;s advocate won this one and changed my verdict. I was heading for <code>rich</code>: the engine reports a -32.7% gap and a +22.9% implied growth requirement, and a land driller with a Q3 adjusted net loss cannot compound free cash flow at 23% for five years. The counter asked the right question — which input is actually broken, the base or the discount rate? — and the answer is the discount rate. A 23.0% pre-tax cost of debt for an issuer paying 5.43% is not a modelling difference, it is a fabricated number traceable to an <code>ebit</code> of $3.3M on $3.7bn of revenue. Correct it and the requirement falls to +3.7%-+5.1%, which HP can plausibly deliver, and the name is no longer expensive. Two large errors sitting on opposite sides of the answer is the SM rule, and the answer is no_edge.</li><li>What would prove it: HP&#x27;s own fiscal 2026 EBIT as filed in the 10-K due around November 2026, against the $3.3M the extract carries. If reported operating income is in the $250-400M range the synthetic rating and therefore the whole WACC is void, and the +22.9% requirement disappears with it.</li><li>Already visible today: Yes, indirectly and decisively. The interest bill itself settles it: a company paying 5.43% on $1.86bn of unsecured notes is not rated the way a 23% cost of debt implies, whatever EBIT the extractor found. The nine-month cash flow statement (CFO $372.7M, capex $200.2M) also shows a business generating $172.5M of free cash flow in nine months, which is not distress.</li><li>Left unresolved: The beta, and it is worth five points of implied growth. The regression gives 0.905 at an R-squared of 0.128, below the 0.15 threshold at which LESSONS.md says to distrust it, and Energy is exactly where that bias concentrates. A land driller&#x27;s true beta is plausibly 1.3-1.6, which takes the requirement from +5.1% to +14.1% on the same base — from achievable to unlikely. I have no way to measure it from this runtime.</li></ul><p><strong>Key risks.</strong> the recorded fair value and the -32.7% gap are both computed at a WACC containing a 23.0% pre-tax cost of debt against an actual 5.43% — the printed number must be ignored, the verdict is the output; beta 0.905 at R-squared 0.128 is not a measurement; at a defensible 1.3-1.6 the name is rich again; HP reported an adjusted net loss in fiscal Q3 2026 despite a revenue beat; the fiscal 2023-25 FCFF window brackets the KCA Deutag acquisition, so the cash-flow history is not a clean standalone series either <strong>Watch for.</strong> the fiscal 2026 10-K (due ~November 2026) and the EBIT it reports, against the $3.3M in the extract; whether capex stays at the reduced ~$267M annualised rate or reverts toward the $426M of fiscal 2025; US land rig count and super-spec day rates, and the Oman/Saudi international backlog</p><p><strong>Data quality.</strong> One flag was raised (<code>possible_trough_cycle_base_newest_fcf_0.27x_oldest</code>) and per the AMR rule I did not read its recommendation but computed the run rate instead: nine-month fiscal 2026 CFO less capex of $172.5M annualises to about $230M against the window mean of $248.1M, so the base is roughly right and the flag is a false alarm. RESOLVED and material, neither flagged: <code>ebit</code> of $3,318,000 (ebit_derived false) drives a synthetic pre-tax cost of debt of 23.0% against an actual 5.43%, which is the whole WACC; and <code>interest_expense</code> of $17.3M against $75.9M for nine months in the 10-Q. OPEN: beta R-squared 0.128. No <code>final_growth</code> supplied deliberately — the schema cannot override WACC, and pricing any growth rate through a fabricated 12.25% discount rate would publish a fair value that is wrong by construction.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/46765/000004676526000042/hp-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/46765/000004676526000042/hp-20260630.htm</a> (10-Q for the quarter ended 2026-06-30: &#x27;Interest expense (24,439) (29,200) (75,860) (79,836)&#x27;; net cash provided by operating activities 372,678 vs 336,000; capital expenditures (200,198) vs (362,232); unsecured senior notes totalling $1.8bn maturing Dec 2027/Dec 2029/Sep 2031/Dec 2034; secured term loans $77.7M allocated to Oman rig construction)</li><li><a href="https://www.sec.gov/Archives/edgar/data/46765/000004676526000039/hp-20260805.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/46765/000004676526000039/hp-20260805.htm</a> (8-K 2026-08-05, Q3 fiscal 2026 results) and its EX-99.1</li><li>company news in brief: Zacks 2026-08-17 &#x27;Q3 Earnings Miss Estimates, Revenues Beat&#x27;; StockStory 2026-08-14 analyst questions on rig reactivations; Simply Wall St 2026-09-05; Zacks 2026-09-04 &#x27;+21.5% since last earnings report&#x27;</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Energy/HP.md'>research/Energy/HP.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

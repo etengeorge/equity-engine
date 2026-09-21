@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CASH — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / CASH</p><h1>CASH <span style='color:var(--faint);font-weight:400'>PATHWARD FINANCIAL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$76.17</b></div><div>Analyst gap<b>+0%</b></div><div>Dated<b>2026-09-21</b></div></div><div class='prose'><h1>CASH — PATHWARD FINANCIAL INC</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-21 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $76.17 · fair value $76.43 · gap +0.3%</li><li><strong>Sustainable ROTCE:</strong> screen said +38.8%, analyst says +26.0%</li><li><strong>P/TBV:</strong> justified 2.90 vs actual 2.89 on tangible book of $26.36/share</li></ul><p><strong>The case for the price.</strong> Pathward is not a normal bank and the market knows it: it funds itself with essentially free deposits sourced from prepaid-card, tax-refund and BaaS partners, keeps its Durbin exemption, and earns a return on tangible equity no deposit-gathering community bank can approach — 34.8% for the nine months of fiscal 2025 and still 30.7% for the nine months of fiscal 2026. Paying 2.95x tangible book for a franchise that compounds tangible book per share from $22.09 to $25.83 in four quarters is not obviously wrong. What the buyer is also pricing, correctly, is that the commercial-finance book attached to that franchise has just broken: the stock is down 8.9% in 21 days and ~11.7% over six months, which is the market marking down the return rather than disputing that the deposit franchise is good.</p><p><strong>What changed.</strong> The credit event, and it is large, recent and unresolved. Nonperforming loans and leases went from $71.3M (1.49% of gross loans) at 2025-06-30 to $99.1M (2.05%) at 2025-09-30 to $117.7M (2.39%) at 2026-03-31 to $275.1 MILLION (5.28%) at 2026-06-30 — more than doubling in a single quarter. The company attributes the increase to &#x27;certain renewable energy construction projects with a common developer&#x27; and says it &#x27;continues to work with other parties in these projects to bring them to completion&#x27;, i.e. it is committing further capital, not exiting. Separately a working-capital loan was identified as &#x27;sophisticated fraud within an otherwise viable operating company&#x27;. Provision for credit losses was $28.3M in the June quarter against $9.3M a year earlier, commercial finance accounting for $22.6M of the increase. Fiscal Q3 net income fell to $29.0M / $1.37 diluted from $42.1M / $1.81. Return on average tangible equity for the quarter was 21.61% against 26.72% a year earlier. An 8-K on 2026-09-17 reports an item 5.02 officer change. Plaintiff-firm &#x27;securities fraud investigation&#x27; headlines from 2026-07-26 are boilerplate and I give them no weight.</p><p><strong>Base case.</strong> The +53.9% gap is the CBT shape on a financial: the engine&#x27;s 38.8% &#x27;sustainable ROTCE&#x27; is the mean of GAAP returns for fiscal 2023, 2024 and 2025 — a window that ENDS at 2025-09-30, entirely before the credit event — and <code>fy_end</code> is 356 days old, so nothing flags it. The company publishes the current figures itself: return on average tangible equity of 30.65% for the nine months of fiscal 2026 and 21.61% for the June quarter. Holding the engine&#x27;s 10.28% cost of equity and 2% terminal growth and pricing against the company&#x27;s own reported tangible book of $25.83 (the engine uses $26.36, the fiscal 2025 year-end figure — the AII stale-book bug again, though only 2% here), the justified multiple and the gap run: 38.8% -&gt; 4.45x, +50.8%; 30.65% -&gt; 3.46x, +17.4%; 28% -&gt; 3.14x, +6.5%; 26% -&gt; 2.90x, -1.7%; 21.61% -&gt; 2.37x, -19.7%. Seventy points of gap from one input, which is the JXN test verbatim. My own number is 26%: the nine-month 30.65% still contains the March tax-season quarter at 54.4% ROATE and books only the first instalment of the solar provisioning, while the 21.61% June quarter is the first with credit cost in it and the September quarter is seasonally the weakest. A through-cycle 26% on a franchise earning 2.5x its cost of equity is defensible — and at 26% the name is fairly priced, not 54% cheap.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter is that I am marking down the wrong thing. Pathward&#x27;s earning power is a deposit franchise, not a loan book: it takes essentially zero-cost deposits from prepaid and tax partners and keeps a Durbin exemption most banks its size do not have. The commercial-finance portfolio is the part it bolted on, and it is a minority of assets. Even in the worst quarter it has ever printed on credit, the business earned 21.61% on tangible equity — more than twice its 10.28% cost of equity — and tangible book per share still ROSE, $25.41 to $25.83. On that reading the correct ROTCE is high-20s, the gap is a real +6% to +17%, and I am confusing a bad quarter with a broken franchise.</li><li>What would prove it: Resolution of the renewable-energy nonperformers: the fiscal Q4 and Q1 filings will show whether the $275.1M migrates to charge-off or back to accrual, and what further capital Pathward put into &#x27;bringing the projects to completion&#x27;. Net charge-off rate on the commercial finance book is the single number.</li><li>Already visible today: Some of it, and it genuinely weakens my case: tangible book per share rose through the credit event ($22.09 -&gt; $24.02 -&gt; $24.54 -&gt; $25.41 -&gt; $25.83 across five quarters), which is not what a bank absorbing a real loss looks like, and the tax-services provision actually FELL $5.7M on better underwriting. Against that, the NPL ratio more than doubled in one quarter, specific reserves were taken on two loans, and the phrase &#x27;continues to work with other parties ... to bring them to completion&#x27; means the exposure is still growing.</li><li>Left unresolved: The loss content of the solar book. The 10-Q gives the nonperforming balance and says specific reserves &#x27;reflect expected proceeds&#x27; but does not quantify expected recovery, so I cannot distinguish a timing problem from a capital loss. That distinction is the whole 70-point range and I could not close it from the filings.</li></ul><p><strong>Key risks.</strong> the engine&#x27;s 38.8% ROTCE is measured over a window ending 2025-09-30, entirely before a credit event that took nonperformers from 2.05% to 5.28% of gross loans; loss content of the renewable-energy construction exposure is undisclosed and the company is still funding those projects; the fiscal Q4 (September) quarter is seasonally the weakest and will carry the credit cost without the tax-season offset; <code>rotce_39%_suggests_asset_light_financial</code> is the engine flagging its own model: Pathward&#x27;s earning power is a deposit franchise, not tangible capital, so P/TBV is a strained frame even when the arithmetic works <strong>Watch for.</strong> net charge-offs on the commercial finance portfolio in fiscal Q4 2026 and Q1 2027, and whether the $275.1M resolves or crystallises; fiscal 2027 guidance — management has pointed to a stronger year and that is the bull case stated; the item 5.02 officer change of 2026-09-17, four days before a further leg down</p><p><strong>Data quality.</strong> Two flags raised, both substantive. <code>goodwill_and_intangibles_36%_of_book</code> is real ($308M against $851M of equity) and correctly handled — tangible book reconciles to the company&#x27;s reported $25.83 within 2%. <code>rotce_39%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here</code> is the PIPR category-error flag; at 2.95x actual P/TBV it is below the ~4x threshold at which the model breaks down, so I priced it rather than refusing, but the flag is pointing at something real. NOT flagged and decisive: the ROTCE window (fiscal 2023-25) closes 356 days before the screen date and predates the entire credit event — the CBT defect on a book-method name. Minor and confirmed: <code>equity_series[0]</code> of $858.0M is the fiscal 2025 year-end figure while <code>equity_now</code> of $850.9M matches the filed $851,146k, so tangible book is one period stale (AII), worth about 2%. Beta is sound (0.96, R-squared 0.354, own regression) — unusually, the discount rate is not the problem here.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/907471/000090747126000034/cash-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/907471/000090747126000034/cash-20260630.htm</a> (10-Q 2026-06-30: &#x27;Total nonperforming loans and leases 275,074&#x27; vs 99,140; &#x27;nonperforming loans and leases at June 30, 2026 were $275.1 million, representing 5.28% of total gross loans and leases, compared to $99.1 million, or 2.05% ... at September 30, 2025&#x27;; primary reason &#x27;certain renewable energy construction projects with a common developer&#x27;; Total stockholders&#x27; equity 851,146)</li><li><a href="https://www.sec.gov/Archives/edgar/data/907471/000090747126000032/cash-20260722.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/907471/000090747126000032/cash-20260722.htm</a> and its EX-99.1 (fiscal Q3 2026 release: net income $29.0M / $1.37 diluted vs $42.1M / $1.81; provision for credit losses $28.3M vs $9.3M, commercial finance +$22.6M; tangible book value per common share $25.83 / $25.41 / $24.54 / $24.02 / $22.09; return on average tangible equity 21.61% / 54.41% / 26.72% / 30.65% / 34.77%)</li><li><a href="https://www.sec.gov/Archives/edgar/data/907471/000090747126000039/cash-20260914.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/907471/000090747126000039/cash-20260914.htm</a> (8-K 2026-09-17, item 5.02)</li><li>company news in brief: MarketBeat 2026-08-25 &#x27;Pathward&#x27;s Credit Scare Tests Its Comeback Story&#x27;; StockStory 2026-07-28 &#x27;Credit Events Pressure Results&#x27;</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/CASH.md'>research/Financials/CASH.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

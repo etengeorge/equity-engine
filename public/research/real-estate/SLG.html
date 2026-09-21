@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>SLG — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Real Estate / SLG</p><h1>SLG <span style='color:var(--faint);font-weight:400'>SL GREEN REALTY REIT CORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$52.08</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-21</b></div></div><div class='prose'><h1>SLG — SL GREEN REALTY REIT CORP</h1><p><em>Real Estate · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-21 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $52.08</li></ul><p><strong>The case for the price.</strong> SL Green is Manhattan&#x27;s largest office landlord and the price is a leveraged bet on New York office rents and cap rates. At $52.08 the market pays $3.7B of equity on top of $3.2B of recorded debt for a portfolio whose reported operating cash flow ran [$229.5M, $129.6M, $82.9M] oldest to newest — declining — while the company funds redevelopment and debt-investment activity. The buyer&#x27;s case is that Manhattan office has bottomed, that SLG&#x27;s Park Avenue concentration is the first to re-let, and that a 1.2x price-to-tangible-book on depreciated historical cost understates replacement value. That is a real-estate judgment about one submarket, not a free-cash-flow claim.</p><p><strong>What changed.</strong> Nothing found. No company-specific news in the store for the last 90 days, which for a $3.7B REIT with $51.8M of average daily volume means the name did not move enough, trade abnormal volume or file an 8-K to earn a per-company pull. That is a fact about coverage and it lowers my confidence in &#x27;nothing happened&#x27; rather than confirming it. The shares are -9.7% over 21 days and -11.8% over 252 days, which is a drift rather than an event.</p><p><strong>Base case.</strong> No fair value, and this is the correct and expected answer rather than a failure. SLG is assigned <code>method: none</code> in universe.csv because the FCFF identity is meaningless for a REIT: depreciation is the largest non-cash item, properties are carried at depreciated historical cost, and negative free cash flow is the NORMAL state of a landlord funding redevelopment — the BKH utility case applied to real estate. CLAUDE.md is explicit that roughly 40% of this universe cannot be honestly valued by a free FCFF model and that the engine should say so rather than guess. The multiples fallback does not rescue it either, and fails the RIOT/EPRT refusal test on two counts at once. First, a row is NEGATIVE: ev_sales at the cohort 25th percentile returns MINUS $0.60 per share. Second, the rows disagree by a factor of nearly three at their own medians — ev_ebitda $157.72, p_tbv $67.66, ev_sales $58.31 — against a $52.08 price, so the blended $94.56 and its +81.6% gap are an average of inputs that do not agree on what the company is. The ev_sales row is the EPRT error verbatim: a REIT&#x27;s rental revenue priced against a cohort median drawn from operating companies sharing the Real Estate GICS bucket. I record no fair value and state plainly that the +81.6% blended gap should be disregarded.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That +81.6% on the multiples blend and 1.2x tangible book is a lot of apparent value to walk away from, and &#x27;REITs are hard&#x27; is not an argument. Two of the three rows (ev_ebitda $157.72, p_tbv $67.66) sit well above the $52.08 price, and the p_tbv row is the one most appropriate to a property company.</li><li>What would prove it: Net operating income by submarket and the implied cap rate against recent Manhattan office transaction comps — which is what actually values this, and which is not derivable from anything on this page or in any free XBRL extract.</li><li>Already visible today: No. The one row the counter leans on hardest, p_tbv at 1.2x, is the least informative for a REIT that has held Manhattan assets for decades: accumulated depreciation drives tangible book below economic value almost mechanically, so 1.2x does not mean what 1.2x means for a bank. The negative ev_sales row is the tell that the cohort is not a cohort.</li><li>Left unresolved: Everything that would decide the name. I have no occupancy, no leasing spreads, no NOI, no cap rate and no recent transaction comps, and no free source in this runtime provides them. That is a statement about my confidence, not a licence to fill the gap.</li></ul><p><strong>Key risks.</strong> refusal is not a judgment that SLG is cheap; the +81.6% multiples blend contains a negative row and should be disregarded entirely; the ev_sales row prices REIT rental revenue against operating companies in the same GICS bucket (the EPRT error); <code>interest_expense</code> is recorded as NEGATIVE $187.7M against $3,227.6M of debt — an implied minus 5.8% — the BDC sign-inversion defect, second instance in five sessions; <code>capex_series</code> holds a single observation ($253.0M) and <code>balance_sheet_form</code> reads 10-K with a 2026-03-31 date on a December-year-end filer, so the provenance of the balance sheet is unclear <strong>Watch for.</strong> Manhattan office leasing volumes and SLG&#x27;s own occupancy and mark-to-market leasing spreads; debt maturities and refinancing spreads across the $3.2B recorded balance; a negative interest_expense on any other name — the BDC defect now has two instances and deserves a gate</p><p><strong>Data quality.</strong> One flag raised, <code>sector_has_no_defensible_free_model</code>, and it is correct — this is a by-design refusal, not a failure. Three unflagged defects found and recorded for the engine rather than for the verdict: (1) <code>interest_expense</code> of MINUS $187,700,000 against <code>total_debt</code> of $3,227.6M, an implied rate of -5.8%, which is the BDC sign-inversion pattern (2026-09-17) recurring — it does not affect a <code>method: none</code> name but would corrupt any fcff name carrying it; (2) <code>capex_series</code> has length 1 against a <code>cfo_series</code> of length 3, so cfo-capex could only be computed for one year; (3) <code>balance_sheet_form</code> is recorded as 10-K with <code>balance_sheet_asof</code> 2026-03-31 for a December-year-end filer. The multiples table fails the standing refusal test on a negative row and on rows disagreeing by ~3x.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>brief for SLG dated 2026-09-21 (multiples table: ev_ebitda n=77 7.7x own vs 10.7/15.9/21.9 cohort; ev_sales n=91 7.0x own, p25 value MINUS $0.60; p_tbv n=83 1.2x own; blended midpoint $94.56 vs $52.08)</li><li>data/fundamentals.json extract for CIK 1040971 (interest_expense -187,700,000; total_debt 3,227.6M; cfo_series [82.9M, 129.6M, 229.5M]; capex_series [253.0M]; balance_sheet_asof 2026-03-31 form 10-K)</li><li>No company-specific news in the store for the last 90 days; no filings fetched for this name, because no document could change a by-design refusal.</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Real%20Estate/SLG.md'>research/Real Estate/SLG.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

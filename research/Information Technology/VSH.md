@@ -1,0 +1,37 @@
+# VSH — VISHAY INTERTECHNOLOGY INC
+*Information Technology · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-09-21 — NO_MODEL (conviction: medium)
+
+- **Verdict:** no_model · price $32.51
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** Vishay is spending its way through the bottom of a passive-component and discrete-semiconductor cycle and the market is paying for what the spending buys. Capital expenditure has exceeded operating cash flow in every year of the model's window — [$273.3M, $320.1M, $329.4M] of capex against [$184.3M, $173.7M, $365.7M] of CFO — because the company is building capacity (MOSFET and diode fabs, silicon carbide) into an electrification and AI-power demand thesis, and it has just funded the acceleration with equity rather than debt. First-half 2026 operating cash flow of $169.0M against $7.3M a year earlier says the cyclical trough is behind it. A buyer is paying 1.6x tangible book and ~14x trailing EBITDA for the capacity that has been installed but has not yet earned.
+
+**What changed.** Two capital-structure events the extract predates entirely. On 2026-06-29 Vishay launched an underwritten public offering of $750.0 MILLION of common stock (plus a $112.5M greenshoe), all primary, 'to accelerate its growth' — and it completed: the common share count on the 10-Q cover went from 124,008,679 at 2026-03-31 to 141,282,019 at the August filing, against 12,097,148 Class B shares throughout. On 2026-07-06 Vishay notified holders that its 2.25% convertible senior notes due 2030 ($750.0M) became convertible at their option from 2026-07-05 to 2026-10-03, the share price having exceeded the conversion trigger.
+
+**Base case.** No fair value, and the engine had already refused: `status` is model_failed on `nonpositive_normalized_fcff`, because mean cfo-capex over the window is MINUS $66.4M. That refusal is correct and, unusually, it is not a defect — Vishay genuinely spends more on plant than it generates, and a growth rate applied to a negative base is meaningless in either direction. What I am adding is that the fallback is unusable too. The multiples table (ev_ebitda 14.0x, ev_sales 1.28x, ev_gross_profit 6.62x, p_tbv 1.60x) is disqualified wholesale by the WHD rule, because every row divides by a share count that is 5,169 days stale: `shares_asof` is 2012-07-27 and the extract holds 131,143,534 shares against an actual 141,282,019 common plus 12,097,148 Class B = 153,379,167. Market capitalisation is $4.99B, not the $4.26B the model carries — 17% understated, and understated in the direction that manufactures cheapness. This is the dual-class stale-count bug LESSONS.md scoped at 104 names, compounded by a $750M primary equity raise the count could not possibly reflect. Refusing is not a judgment that Vishay is cheap or expensive.
+
+**Devil's advocate.**
+- Strongest counter: That negative free cash flow from deliberate capacity investment is exactly the situation a multiples cross-check exists for, and I have thrown away the only usable tool. At 1.6x tangible book near a cycle trough, in a business with a real electrification tailwind, the comparables frame is the right one and I should use it.
+- What would prove it: A multiples table built on the correct 153,379,167 shares. Every row on this page divides by 131,143,534, so every row is wrong by the same 17% in the same direction — which is the MXL trap exactly: three rows agreeing is not corroboration when they share a denominator.
+- Already visible today: Yes, and it settles it against the counter. Corrected for the share count, EV/sales goes from 1.28x toward roughly 1.5x and P/TBV from 1.60x toward 1.87x — so the name is meaningfully less cheap on comparables than the page says, and the $750M of new equity sits in cash rather than in earnings, flattering the net-debt term as well.
+- Left unresolved: Where Vishay is in the capex cycle, which is the whole question. Management said the offering was to 'accelerate its growth', which implies the ~$330M/yr run rate persists rather than reverting, but I could not find a capex guidance figure in the documents fetched. I also could not establish whether the $750M of 2.25% 2030 convertible notes is inside the extract's `total_debt` of $972.3M; if it is not, enterprise value is wrong in the other direction too.
+
+**Key risks.** REFUSAL IS NOT A JUDGMENT THAT THIS IS CHEAP — corrected for the share count the multiples are ~17% less attractive than the page shows; the share count is 5,169 days stale (2012-07-27) and predates a completed $750M primary equity offering; capex has exceeded operating cash flow in all three years of the window and management has said it is accelerating; $750M of 2.25% convertible notes due 2030 became convertible at holders' option on 2026-07-05; conversion or settlement changes both the share count and the debt
+**Watch for.** the Q3 2026 cover page, and whether the engine picks up the post-offering count; capex guidance for 2027 — whether the ~$330M/yr rate reverts toward maintenance; the convertible conversion window closing 2026-10-03 and how Vishay settles it
+
+**Data quality.** Four flags raised and I agree with the refusal they produce: `share_count_5169d_stale_market_cap_unreliable`, `negative_fcf_year_in_window`, `lumpy_fcff_spread_2.8x_of_mean`, `nonpositive_normalized_fcff`. The stale-count flag badly understates itself — it names an age, but the material fact is that a $750M primary equity offering completed AFTER that date, so the count is not merely old, it is 17% low (131,143,534 against 153,379,167 verified on two 10-Q cover pages). The `nonpositive_normalized_fcff` refusal is genuine rather than a bug: mean cfo-capex is -$66.4M because capex really does exceed CFO, unlike the CTOS/ALTG/WLFC cases where capex was missing. Consequence not flagged: the multiples table is disqualified wholesale by the stale count (WHD rule), so there is no fallback. OPEN: whether the $750M of 2030 convertible notes is inside `total_debt` of $972.3M — if not, this is the TDOC defect as well. `interest_expense` of $25.1M on $972.3M is an implied 2.58%, low but not below the 2% alarm.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/103730/000010373026000065/form10q.htm (10-Q filed 2026-08-05: cover page '141,282,019 shares of its common stock and 12,097,148 shares of its Class B common stock outstanding'; net cash provided by operating activities 169,028 vs 7,307; 'Convertible senior notes, due 2030 750,000')
+- https://www.sec.gov/Archives/edgar/data/103730/000114036126027081/ny20076868x4_8k.htm and its EX-99.1 (2026-06-29/07-01: 'Vishay Intertechnology Announces Proposed Offering of $750 Million of Common Stock' plus a $112.5M underwriters' option, all primary, proceeds to accelerate growth)
+- https://www.sec.gov/Archives/edgar/data/103730/000010373026000054/vsh-20260706.htm and its EX-99.1 (2026-07-06: 2.25% convertible senior notes due 2030 convertible at holder option 2026-07-05 to 2026-10-03)
+- 10-Q filed 2026-05-13 in data/adhoc/VSH (cover page: 124,008,679 common and 12,097,148 Class B at 2026-03-31 — the pre-offering count)
+- No company-specific news in the store for the last 90 days; that is a coverage fact, and the two 8-Ks above are why it matters here.
+
+**Ingestion notes.** no usable final_growth

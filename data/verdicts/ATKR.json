@@ -1,0 +1,53 @@
+{
+  "ticker": "ATKR",
+  "date": "2026-09-21",
+  "sector": "Industrials",
+  "name": "ATKORE",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 6,
+  "price_at_verdict": 94.31999969482422,
+  "market_implied_growth": -0.072966584047292,
+  "cohort_pct": 91.4,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing is lazy \u2014 a merger-arb spread is still an investable claim and I could price it. I ran that: at $94.32 against $95.00 closing by year end, the gross spread is 0.72%, roughly 3% annualised, against a ~23% downside to the undisturbed price. To make that attractive you need better than 88% confidence of closing, which is a regulatory judgment about a transatlantic combination in electrical infrastructure, not an output of a free-cash-flow model. This engine's job is finding a delta between intrinsic value and price; there is no such delta here, only deal risk, and pretending otherwise would smuggle a merger-arb bet in through a DCF.",
+    "what_would_prove_it": "The HSR waiting period and any EU Phase I/II decision, and whether Prysmian pulls and refiles its notification \u2014 the PATK tell from 2026-09-15, which is the standard move when the agencies are preparing a Second Request.",
+    "already_visible": "Not yet. The 8-K of 2026-09-15 is item 8.01/9.01 merger-communications traffic and the proxy statement was still pending as of the 2026-08-03 filing. I could not find a filed HSR milestone in the documents fetched.",
+    "unresolved": "Whether the transaction clears antitrust without remedies, and whether Atkore shareholders approve. Neither is knowable from the filings I have."
+  },
+  "what_changed": "Everything. The engine ran a standalone reverse DCF on a company that has contracted to stop existing. The 8-K of 2026-08-03 (items 1.01, 7.01, 9.01) carries the merger agreement and the joint press release as EX-99.1; a further 8-K on 2026-09-15 (items 8.01, 9.01) is merger-communications traffic, and it is what triggered the 'filed an 8-K in the last few sessions' selection term. The deal followed a public strategic review announced around 2025-09-29; $95.00 is a ~30% premium to the $72.96 close of 2026-07-31 and ~57% to $60.69 pre-review.",
+  "consensus_case": "There is no market opinion about Atkore's cash flows to steelman. On 2026-08-03 Atkore signed a definitive agreement to be acquired by Prysmian S.p.A. for $95.00 per share in ALL CASH, an enterprise value of about $3.8bn, unanimously approved by both boards, targeted to close by calendar year end 2026. At $94.32 the stock is a 0.72% gross spread to a fixed number roughly three months away \u2014 an annualised ~3% return for taking deal risk. That, and not a view on electrical conduit, is what the price is.",
+  "base_case_rationale": "No FCFF growth rate is supplied because none is operative. The equity is a claim on $95.00 of cash conditional on shareholder approval and regulatory clearance, not on five years of free cash flow. Recording a fair value here would be publishing a number the market has no reason to converge to. For completeness the engine's standalone figure is also wrong on its own terms: the $427.9M FCFF base is the mean of fiscal 2023-25 cfo-capex of [$588.7M, $399.2M, $295.7M], the tail of the steel/PVC conduit super-cycle, against an LTM EBITDA the same brief reports as $147.7M and a revenue line that has fallen from $3,913.9M to $2,850.4M. `interest_expense` is also absent from the extract entirely, so there is no add-back at all. The +123.2% gap and the 91st-percentile rank are an artifact of a closed window on a collapsed cycle, and would be wrong even if there were no deal.",
+  "key_risks": [
+    "this is a deal stock, not a valuation \u2014 the only material risk is deal break, which costs roughly 23%",
+    "the engine will re-rank ATKR as cheap every session until it delists, because nothing in the model reads a merger agreement",
+    "the standalone FCFF base is itself an artifact of the 2022-23 conduit super-cycle and would misprice the name even absent the deal"
+  ],
+  "watch_for": [
+    "an HSR pull-and-refile by Prysmian, or a Second Request \u2014 the tell that the 0.72% spread is mispriced",
+    "the Atkore proxy statement and the shareholder vote date",
+    "delisting, at which point the name should leave universe.csv"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm (8-K 2026-08-03, items 1.01/7.01/9.01 \u2014 merger agreement)",
+    "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr_991xpressrelease.htm (EX-99.1: '$95.00 per share in cash', ~$3.8bn EV, unanimous board approval, targeted close by calendar year end 2026, 30% premium to $72.96)",
+    "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm (8-K 2026-09-15, items 8.01/9.01)",
+    "https://www.businesswire.com/news/home/20260802368964/en/Atkore-Inc.-to-be-Acquired-by-Prysmian-for-$95.00-per-Share-in-Cash",
+    "company news in brief: Trefis 2026-08-04, StockStory 2026-08-04 (+28.1% on announcement)"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.50x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

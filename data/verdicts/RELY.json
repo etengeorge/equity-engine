@@ -1,0 +1,54 @@
+{
+  "ticker": "RELY",
+  "date": "2026-09-21",
+  "sector": "Financials",
+  "name": "REMITLY GLOBAL",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 21.93000030517578,
+  "market_implied_growth": null,
+  "cohort_pct": 9.4,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing lets a genuinely expensive stock off. The engine says -117.8%, Remitly is up 103% year to date and at a 52-week high, Simply Wall St called it 'overvalued with little room for error' on 2026-09-03, an officer sold stock on 2026-09-09, and the headline net income leans on a tax benefit. If ever a screen output deserved to be taken at face value as a short, this looks like it.",
+    "what_would_prove_it": "A free-cash-flow frame rather than a book frame: operating cash flow less capex less the cash cost of holding the diluted share count flat, against enterprise value. Remitly's `cfo_series` of [$325.1M, $194.5M, -$53.6M] against capex of [$29.4M, $6.0M, $2.9M] is the right raw material and the engine has it \u2014 it simply does not use it, because the sector assignment routed the name to the book model.",
+    "already_visible": "Partly, and it complicates the short rather than supporting it: cfo-capex of $295.7M on 2.4x sales is not the cash profile of a company whose equity is worth less than nothing, and the stock-based compensation and valuation-allowance questions both need answering before that $295.7M can be believed. I did not do that work, because the brief routes this name to a model that cannot use it.",
+    "unresolved": "Whether Remitly is in fact expensive. I am explicitly NOT saying it is cheap \u2014 at 5.7x tangible book, 38.7x trailing EV/EBITDA and a net income flattered by tax items, it may well be dear. What I am saying is that no number on this page can establish it, and per the MXL discipline the honest record says so in the risks rather than smuggling the conclusion in through inputs I have just argued are unusable."
+  },
+  "what_changed": "Q2 2026 (2026-08-05) records with raised FY guidance; the Etsy payouts partnership (2026-09-09); a Chief Business Officer share sale of 21,000 shares (2026-09-09). Also relevant and disclosed: the company maintains a FULL valuation allowance on US deferred tax assets and states there is 'a reasonable possibility that within the next twelve months sufficient positive evidence may become available' to release all or part of it, which would flatter reported net income again. Wire coverage of the Q2 print already flags 'one-time tax boosts' in the record net income.",
+  "consensus_case": "Remitly is up 102.9% year to date and made a 52-week high on 2026-09-03, and the case is straightforward: Q2 2026 set records across revenue, adjusted EBITDA and net income, full-year guidance was raised, revenue has compounded $458.6M -> $653.6M -> $944.3M -> $1,264.0M -> $1,635.1M, the balance sheet carries $676.4M of cash and no debt, and the company is extending beyond remittances into payouts for marketplaces (the Etsy partnership announced 2026-09-09 is its first of that kind). GAAP net income turned positive at $67.9M. A buyer paying 5.7x tangible book and 2.4x sales for a business growing ~29% with a full US valuation allowance still to release is making a growth bet, not a book-value one \u2014 which is precisely why a justified price-to-tangible-book model cannot evaluate it.",
+  "base_case_rationale": "No ROTCE is supplied and no fair value is recorded. This is the PIPR/WLTH category error and it is at its most extreme: `method` is assigned by GICS sector, 'Financials' now contains payments and fintech, and Remitly is a cross-border money-transmission business whose productive assets are a licensing estate, a payout network and a customer base \u2014 none of which sit in tangible book. The arithmetic says so itself. The model computes a sustainable ROTCE of MINUS 7.8% and a justified price-to-tangible-book of MINUS 1.02, i.e. it reports that the equity is worth less than nothing, producing a -117.8% gap and ranking Remitly in the cheapest-to-most-expensive 9th percentile of 339 Financials. A negative justified multiple is not a valuation in either direction. The -7.8% ROTCE is also built on the AX numerator defect at its worst: `net_income_common_series` holds a SINGLE observation of -$38.8M while `net_income_series[0]` is POSITIVE $67.9M with zero preferred stock \u2014 the numerator and the denominator describe different periods and different signs. And the denominator is stale by the AII rule: `equity_now` of $1,126.8M is 29.7% above the `equity_series[0]` of $868.8M that `justified_pb` actually uses. Actual P/TBV is 5.72x against a multiples-table 4.34x \u2014 the same ratio on the same day, disagreeing by 32%, which the AII entry says is the signal to stop and reconcile before reading anything else. Per the PIPR rule, supplying a ROTCE here would launder a category error into a fair value.",
+  "key_risks": [
+    "REFUSAL IS NOT A JUDGMENT THAT THIS IS CHEAP \u2014 at 5.7x tangible book and 38.7x trailing EV/EBITDA, with net income flattered by tax items, Remitly may well be expensive; the book model simply cannot say",
+    "method is assigned per GICS sector, so a payments fintech is being priced on justified price-to-tangible-book",
+    "the model returns a NEGATIVE justified multiple (-1.02), which is arithmetically meaningless",
+    "remittance take rates face stablecoin and competitive pressure"
+  ],
+  "watch_for": [
+    "release of the US deferred tax valuation allowance, which will flatter reported net income again without changing cash",
+    "whether the Etsy payouts deal is followed by others \u2014 the test of whether this is a platform or a consumer app",
+    "reclassification of RELY out of the book method in universe.csv; it should be fcff or multiples, not P/TBV"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1782170/000162828026053424/rely-20260630.htm (10-Q 2026-06-30: 'Total stockholders' equity 1,126,848 868,789' \u2014 confirming equity_now is current and equity_series[0] is the 2025-12-31 figure the book model actually used, a 29.7% understatement of the denominator)",
+    "https://www.sec.gov/Archives/edgar/data/1782170/000162828026031371/rely-20260331.htm (10-Q 2026-03-31: full valuation allowance on US deferred tax assets with 'a reasonable possibility that within the next twelve months sufficient positive evidence may become available' to release it; effective tax rate 5.8% vs 24.0%)",
+    "data/fundamentals.json extract for CIK 1782170 (net_income_common_series, equity_series, equity_now, total_debt)",
+    "company news in brief: GlobeNewswire 2026-09-09 Etsy payouts partnership; Insider Monkey 2026-09-04 'Record Growth Meets One-Time Tax Boosts And Take-Rate Questions'; Simply Wall St 2026-09-03; Motley Fool 2026-09-09 officer share sale"
+  ],
+  "flags": [
+    "unstable_rotce_-25.7%_to_8.4%",
+    "loss_year_in_window"
+  ]
+}
