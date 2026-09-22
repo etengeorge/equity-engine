@@ -1,86 +1,89 @@
-# AVNT — AVIENT CORP
-*Materials · brief generated 2026-09-22 · selected as **rotation***
+# TPC — TUTOR PERINI
+*Industrials · brief generated 2026-09-22 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 204/1956
+- rotation position 210/1956
 
 ## Market
 | | |
 |---|---|
-| price | $40.44 |
-| market cap | $3.7B |
-| 5d / 21d / 63d / 252d | -1.7% / -6.9% / +9.2% / +14.8% |
-| 60d avg daily $ volume | $34.1M |
-| beta (vs IWM) | 1.44 (R²=0.469) |
+| price | $86.02 |
+| market cap | $4.5B |
+| 5d / 21d / 63d / 252d | +1.8% / -4.8% / +5.6% / +30.4% |
+| 60d avg daily $ volume | $62.2M |
+| beta (vs IWM) | 1.33 (R²=0.192) |
 | 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 66% / debt 34% |
+| WACC weights | equity 92% / debt 8% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$50.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$195.0M', '$134.9M', '$82.2M']
-Enterprise value **$5.2B** · FCFF yield **+1.0%**
+Normalized FCFF base **$493.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$567.2M', '$466.1M', '$255.5M']
+Enterprise value **$4.0B** · FCFF yield **+12.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.0% − 1pt | +55.3% |
-| **10.0% (point)** | **+60.4%** |
-| 10.0% + 1pt | +65.1% |
+| 11.8% − 1pt | -6.0% |
+| **11.8% (point)** | **-3.6%** |
+| 11.8% + 1pt | -1.4% |
 
 
-Naive baseline for comparison: **+0.1%** (5y revenue CAGR +0.1%).
-Gap under that baseline: **-123.3%** (fair value $-9.44 vs price $40.44).
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$426.0M** and an implied growth of **-0.1%** instead of -3.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+0.8%** (5y revenue CAGR +0.8%).
+Gap under that baseline: **+18.4%** (fair value $101.89 vs price $86.02).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **10th percentile** of 41 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -66.8%).
+Cohort: **70th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +40.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_2.4x_oldest_growth_applied_to_a_peak_overstates_value`
+- `possible_peak_cycle_base_newest_fcf_2.2x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000126/avnt-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000123/avnt-20260630x8k.htm
-- 2026-05-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000097/avnt-20260514.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000094/avnt-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000091/avnt-20260507.htm
-- 2026-04-27 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1122976/000119312526178887/d28746d8k.htm
-- 2026-03-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1122976/000162828026021576/avnt-20260326.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000039/avnt-20251231.htm
-- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000035/avnt-20260212.htm
-- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1122976/000112297625000088/avnt-20250930.htm
+- 2026-08-14 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000193/tpc-20260811.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/77543/000007754326000186/tpc-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000184/tpc-20260805.htm
+- 2026-07-06 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-20260702.htm
+- 2026-06-22 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000156/tpc-20260622.htm
+- 2026-05-26 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000141/tpc-20260520.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/77543/000007754326000114/tpc-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/77543/000007754326000112/tpc-20260506.htm
+- 2026-04-09 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/77543/000007754326000088/tpc-20260409.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/77543/000007754326000028/tpc-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1122976/000112297626000123/avnt-20260630xnewsrelease.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/77543/000007754326000184/tpc20260805ex991.htm
+- **2026-06-22** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/77543/000007754326000156/tpc20260622ex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Materials
-*From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-17** · Stock Market News for Sep 17, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-17-131700015.html
-- **2026-09-15** · U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/u-steel-materials-stocks-swing-193008928.html
-- **2026-09-14** · How Is LyondellBasell Industries’ Stock Performance Compared to Other Industrial Stocks? — *Barchart* — https://www.barchart.com/story/news/4583485/how-is-lyondellbasell-industries-stock-performance-compared-to-other-industrial-stocks
-- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
-- **2026-09-10** · Corteva Stock: Is CTVA Outperforming the Basic Material Sector? — *Barchart* — https://www.barchart.com/story/news/4537459/corteva-stock-is-ctva-outperforming-the-basic-material-sector
-- **2026-09-10** · Dow Stock: Is DOW Outperforming the Materials Sector? — *Barchart* — https://www.barchart.com/story/news/4530570/dow-stock-is-dow-outperforming-the-materials-sector
-- **2026-09-04** · Stock Market News for Sep 4, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html
-- **2026-08-31** · U.S. steel and materials stocks swing amid U.S.-Canada trade war — *Quartz* — https://qz.com/steel-materials-stocks-us-canada-trade-war-tariffs-083126
-- **2026-08-26** · Do Wall Street Analysts Like Martin Marietta Materials Stock? — *Barchart* — https://www.barchart.com/story/news/4099168/do-wall-street-analysts-like-martin-marietta-materials-stock
-- **2026-08-24** · Stock Market News for Aug 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-24-132400716.html
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
+- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
+- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
+- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
+- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
+- **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 
 ## Market and macro context
-- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
-- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
-- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
-- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
+- **2026-09-22** · Silver Beech’s Investment Thesis for Arthur J. Gallagher (AJG) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/silver-beech-investment-thesis-arthur-150059517.html
+- **2026-09-22** · Wall Street Awaits Economic Data — *Zacks* — https://finance.yahoo.com/economy/articles/wall-street-awaits-economic-data-145800253.html
+- **2026-09-22** · This Fund Trimmed Matson (MATX) on Strength — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/fund-trimmed-matson-matx-strength-145040552.html
+- **2026-09-22** · Continued AI Disruption Concerns Weigh on CCC Intelligent Solutions Holdings (CCC) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/continued-ai-disruption-concerns-weigh-144822190.html
 
 *Rules, releases and agency actions:*
 - **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
@@ -93,15 +96,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Materials
-- AMR: no_edge · price $225.41 · fair value $157.90 · gap -29.9%
-- BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
-- CBT: no_edge · price $79.20 · fair value $83.54 · gap +5.5%
-- CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
-- FRD: no_edge · price $40.80 · fair value $49.94 · gap +22.4%
-- HCC: no_edge · price $105.58 · fair value $100.96 · gap -4.4%
-- PRM: rich · price $31.56 · fair value $11.26 · gap -64.3%
-- SSRM: no_edge · price $37.39
+## Prior verdicts elsewhere in Industrials
+- ATKR: no_model · price $94.32
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
+- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
+- HUBG: no_model · price $33.45
 
 ---
 

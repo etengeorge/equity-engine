@@ -1,5 +1,19 @@
 [
  {
+  "id": "41850ff4-bac3-3505-bbea-581c4fa76b8f",
+  "ts": "2026-09-22T13:08:32+00:00",
+  "title": "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "f34519bd-dc7e-3628-a1fc-455cd1546a8a",
   "ts": "2026-09-21T19:53:32+00:00",
   "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",

@@ -1,77 +1,94 @@
-# ISBA — ISABELLA BANK CORP
+# SPNT — SIRIUSPOINT
 *Financials · brief generated 2026-09-22 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 7% of 339 Financials peers (93th pct)
-- baseline gap +67%
-- filed an 8-K in the last few sessions
+- cheapest 4% of 339 Financials peers (96th pct)
+- baseline gap +96%
+- volume 2.1x its 60d average
+- 1 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 7.07
+- urgency score 6.71
 
 ## Market
 | | |
 |---|---|
-| price | $38.20 |
-| market cap | $291.4M |
-| 5d / 21d / 63d / 252d | -3.2% / -2.8% / -3.1% / +14.4% |
-| 60d avg daily $ volume | $3.1M |
-| beta (vs IWM) | 0.02 (R²=0.004) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 67% / debt 33% |
+| price | $25.17 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | +2.2% / +6.7% / +10.4% / +39.7% |
+| 60d avg daily $ volume | $19.1M |
+| beta (vs IWM) | 0.36 (R²=0.055) |
+| 5d volume vs 60d average | 2.1x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 81% / debt 19% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +10.2% |
-| cost of equity | +5.1% |
-| justified P/TBV | 2.67 |
-| actual P/TBV | 1.59 |
-| tangible book / share | $24.00 |
-| implied gap | +67.5% |
+| sustainable ROTCE | +14.0% |
+| cost of equity | +6.9% |
+| justified P/TBV | 2.44 |
+| actual P/TBV | 1.24 |
+| tangible book / share | $20.22 |
+| implied gap | +95.8% |
 
-Cohort: **93th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +101.2%).
+Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +129.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `last_10k_2822d_old`
+- `unstable_rotce_9.8%_to_18.9%`
 
 ## Recent filings
-- 2026-09-21 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000222/isba-20260921.htm
-- 2026-08-27 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000190/isba-20260827.htm
-- 2026-08-14 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000184/isba-20260811.htm
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/842517/000084251726000180/isba-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000176/isba-20260723.htm
-- 2026-06-16 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000163/isba-20260616.htm
-- 2026-06-15 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba-20260611.htm
-- 2026-06-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000138/isba-20260612.htm
-- 2026-05-28 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000108/isba-20260528.htm
-- 2026-05-07 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/842517/000084251726000102/isba-20260505.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000085/spnt-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/tpre-20260729.htm
+- 2026-05-21 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000073/tpre-20260521.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000065/spnt-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000064/tpre-20260507.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1576018/000117494726000480/sirius-def14a_052026.htm
+- 2026-03-30 **8-K** — items 5.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000047/tpre-20260325.htm
+- 2026-03-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000041/tpre-20260323.htm
+- 2026-03-16 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000036/tpre-20260316.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000032/spnt-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-27** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000190/isba_2026q3xdivannxex991.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000176/earningsrelease_20260630xe.htm
-- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, 9.01)* — https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba_votingagreementxex991.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 EARNINGS PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/exhibit991-earningspressre.htm
+- **2026-07-29** · EX-99.2 · presentation — EX-99.2 FINANCIAL SUPPLEMENT *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/exhibit992-financialsupple.htm
+- **2026-07-29** · EX-99.3 · presentation — EX-99.3 INVESTOR PRESENTATION *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/q22026spntinvestorpresen.htm
 
 ## News on this company — last 90 days
-*3 items held; showing the 3 most recent. Headlines and summaries only — open the URL for the full story.*
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-08-27** · Isabella Bank Corporation Announces Third Quarter 2026 Dividend — *ACCESS Newswire* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-announces-third-201500000.html
-  > MOUNT PLEASANT, MI / ACCESS Newswire / August 27, 2026 / (Nasdaq:ISBA) today announced its Board of Directors declared a third-quarter cash dividend of $0.28 per common share at its regular meeting on August 26, 2026.
-- **2026-07-23** · Isabella Bank Corporation (ISBA) Lags Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-isba-lags-212504645.html
-  > Isabella Bank (ISBA) delivered earnings and revenue surprises of -25.00% and -1.93%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-07-02** · Isabella Bank Corporation Added to Russell 2000 Index — *ACCESS Newswire* — https://finance.yahoo.com/markets/stocks/articles/isabella-bank-corporation-added-russell-173000828.html
-  > MOUNT PLEASANT, MI / ACCESS Newswire / July 2, 2026 / Isabella Bank Corporation ("Isabella") (NASDAQ:ISBA) (the "Company"), the holding company for Isabella Bank, today announced it has been added to the Russell 2000® Index, effective after
+- **2026-09-18** · Are Investors Undervaluing Ping An Insurance Co. of China (PNGAY) Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-ping-insurance-co-134003547.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-09-15** · SiriusPoint Appoints Rachel Winoski as Chief Human Resources Officer — *GlobeNewswire* — https://finance.yahoo.com/small-business/articles/siriuspoint-appoints-rachel-winoski-chief-201500265.html
+  > HAMILTON, Bermuda, Sept. 15, 2026 (GLOBE NEWSWIRE) -- SiriusPoint Ltd. (“SiriusPoint” or the “Company”) (NYSE: SPNT), a global specialty underwriter, today announced the appointment of Rachel Winoski as Chief Human Resources Officer, effect
+- **2026-08-26** · Is SiriusPoint (SPNT) Stock Undervalued Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-stock-undervalued-now-134003862.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-20** · Should Value Investors Buy Assurant (AIZ) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-assurant-aiz-134002880.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-05** · SiriusPoint (SPNT) Could Be 11% Undervalued As Earnings Refocus Attention — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-could-11-undervalued-081101881.html
+  > SiriusPoint (SPNT) drew fresh attention after its second quarter 2026 earnings on July 29, reporting revenue of US$744.1 million and net income of US$68.6 million, alongside ongoing value focused investor interest. See our latest analysis f
+- **2026-08-04** · SiriusPoint (SPNT) Is Down 9.0% After Earnings Beat And Valuation Buzz - Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-down-9-0-221219747.html
+  > SiriusPoint Ltd. has reported its second-quarter 2026 results, with revenue of US$744.1 million and net income of US$68.6 million, alongside higher basic and diluted earnings per share from continuing operations than the same period a year 
+- **2026-08-04** · Is SiriusPoint (SPNT) Stock Still Trading At A Discount After A 140% Five Year Return? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-stock-still-trading-131254493.html
+  > SiriusPoint stock has put in a strong five year run, yet the current checks still suggest the valuation leans on the cheap side rather than fully pricing in that performance. SiriusPoint has returned about 140.2% over the past five years, w
+- **2026-08-03** · Should Value Investors Buy SiriusPoint (SPNT) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-siriuspoint-spnt-134002734.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-01** · SiriusPoint Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/siriuspoint-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > SiriusPoint (NYSE:SPNT) reported second-quarter underwriting profitability and book value growth as the specialty insurer continued to shift capital toward insurance lines it views as offering stronger risk-adjusted returns. Chief Executive
+- **2026-07-30** · SiriusPoint Ltd (SPNT) (Q2 2026) Earnings Call Highlights: Strong Underwriting Profitability ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-ltd-spnt-q2-2026-230231796.html
+  > SiriusPoint Ltd (SPNT) reports a 91.4% core combined ratio and 13.8% operating ROE, while navigating a shift to longer-tail lines and a competitive reinsurance market.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-22** · Sector Update: Financial Stocks Edge Higher Premarket Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132019792.html
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
 - **2026-09-21** · Sector Update: Financial Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html
 - **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
@@ -80,14 +97,12 @@ Attack these before you trust any number above.
 - **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
 - **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
-- **2026-09-18** · Betting Against Banks With FAZ? You’re Actually Shorting Insurers and Brokers — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/betting-against-banks-with-faz-youre-actually-shorting-insurers-and-brokers/
-- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 
 ## Market and macro context
-- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
-- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
-- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
-- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
+- **2026-09-22** · Silver Beech’s Investment Thesis for Arthur J. Gallagher (AJG) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/silver-beech-investment-thesis-arthur-150059517.html
+- **2026-09-22** · Wall Street Awaits Economic Data — *Zacks* — https://finance.yahoo.com/economy/articles/wall-street-awaits-economic-data-145800253.html
+- **2026-09-22** · This Fund Trimmed Matson (MATX) on Strength — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/fund-trimmed-matson-matx-strength-145040552.html
+- **2026-09-22** · Continued AI Disruption Concerns Weigh on CCC Intelligent Solutions Holdings (CCC) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/continued-ai-disruption-concerns-weigh-144822190.html
 
 *Rules, releases and agency actions:*
 - **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
@@ -111,8 +126,8 @@ Attack these before you trust any number above.
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
+- CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
 - EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
-- ENVA: no_edge · price $225.79 · fair value $158.24 · gap -29.9%
 
 ---
 

@@ -1,67 +1,64 @@
-# QTWO — Q2 HOLDINGS INC
+# BMI — BADGER METER
 *Information Technology · brief generated 2026-09-22 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 209/1956
+- rotation position 213/1956
 
 ## Market
 | | |
 |---|---|
-| price | $57.93 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | -6.5% / -9.2% / +37.6% / -31.2% |
-| 60d avg daily $ volume | $47.7M |
-| beta (vs IWM) | 1.1 (R²=0.225) |
+| price | $131.50 |
+| market cap | $3.8B |
+| 5d / 21d / 63d / 252d | +3.4% / +3.0% / -2.2% / -25.4% |
+| 60d avg daily $ volume | $57.3M |
+| beta (vs IWM) | 0.57 (R²=0.079) |
 | 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-06-30 (10-K) |
+| balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$131.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$194.7M', '$129.1M', '$64.6M']
-Enterprise value **$3.5B** · FCFF yield **+3.8%**
+Normalized FCFF base **$140.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$169.7M', '$142.2M', '$98.1M']
+Enterprise value **$3.7B** · FCFF yield **+3.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.0% − 1pt | +20.4% |
-| **11.0% (point)** | **+23.8%** |
-| 11.0% + 1pt | +27.1% |
+| 8.1% − 1pt | +8.4% |
+| **8.1% (point)** | **+12.9%** |
+| 8.1% + 1pt | +16.9% |
 
 
-> **Stock compensation is 66% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$46.4M** and an implied growth of **+55.0%** instead of +23.8%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+14.6%** (5y revenue CAGR +14.6%).
-Gap under that baseline: **-28.6%** (fair value $41.38 vs price $57.93).
+Naive baseline for comparison: **+16.6%** (5y revenue CAGR +16.6%).
+Gap under that baseline: **+15.8%** (fair value $152.29 vs price $131.50).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **56th percentile** of 123 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +6.0%).
+Cohort: **72th percentile** of 123 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +50.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
-- `possible_peak_cycle_base_newest_fcf_3.0x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_66%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `possible_peak_cycle_base_newest_fcf_1.7x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000053/qtwo-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000051/qtwo-20260729.htm
-- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000043/qtwo-20260610.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000037/qtwo-20260331.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000035/qtwo-20260429.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000029/qtwo-20260428.htm
-- 2026-02-11 **10-K** — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000006/qtwo-20251231.htm
-- 2026-02-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000005/qtwo-20260211.htm
-- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1410384/000141038425000159/qtwo-20250930.htm
-- 2025-11-05 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1410384/000141038425000157/qtwo-20251031.htm
+- 2026-07-23 **10-Q** — https://www.sec.gov/Archives/edgar/data/9092/000119312526313981/bmi-20260630.htm
+- 2026-07-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/9092/000119312526311374/bmi-20260722.htm
+- 2026-06-11 **8-K** — items 1.01,1.02,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/9092/000119312526267194/bmi-20260605.htm
+- 2026-05-21 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/9092/000119312526233404/bmi-20260521.htm
+- 2026-04-28 **8-K** — items 5.03,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/9092/000119312526187791/bmi-20260424.htm
+- 2026-04-20 **10-Q** — https://www.sec.gov/Archives/edgar/data/9092/000119312526163625/bmi-20260331.htm
+- 2026-04-17 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/9092/000119312526160389/bmi-20260417.htm
+- 2026-03-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/9092/000119312526106185/bmi-20260311.htm
+- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/9092/000119312526054739/bmi-20251231.htm
+- 2026-01-28 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/9092/000119312526026143/bmi-20260128.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1410384/000141038426000051/a260630q2ex9918k.htm
+- **2026-07-22** · EX-99.PRESSRELEASE · press release — EX-99.PRESSRELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/9092/000119312526311374/bmi-ex99_pressrelease.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -69,6 +66,9 @@ Attack these before you trust any number above.
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-22** · Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/treasury-yields-ease-oil-falls-as-trump-xi-meeting-looms-alphacheck-134137146.html
+- **2026-09-22** · Stock Market News for Sep 22, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Tech Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195206814.html
 - **2026-09-21** · Sector Update: Tech Stocks Gain Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-monday-175658801.html
 - **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
@@ -76,15 +76,12 @@ Attack these before you trust any number above.
 - **2026-09-21** · How Is Lumentum's Stock Performance Compared to Other Technology Stocks? — *Barchart* — https://www.barchart.com/story/news/4712034/how-is-lumentum-s-stock-performance-compared-to-other-technology-stocks
 - **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-21** · Stock Market News for Sep 21, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-21-131500959.html
-- **2026-09-18** · Sector Update: Tech Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195713111.html
-- **2026-09-18** · Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/oracle-falls-3-while-cloud-rivals-hold-their-ground-microsoft-dips-amazon-nudges-higher/
-- **2026-09-18** · Sector Update: Tech Stocks Edge Higher Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-edge-higher-173500656.html
 
 ## Market and macro context
-- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
-- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
-- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
-- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
+- **2026-09-22** · Silver Beech’s Investment Thesis for Arthur J. Gallagher (AJG) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/silver-beech-investment-thesis-arthur-150059517.html
+- **2026-09-22** · Wall Street Awaits Economic Data — *Zacks* — https://finance.yahoo.com/economy/articles/wall-street-awaits-economic-data-145800253.html
+- **2026-09-22** · This Fund Trimmed Matson (MATX) on Strength — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/fund-trimmed-matson-matx-strength-145040552.html
+- **2026-09-22** · Continued AI Disruption Concerns Weigh on CCC Intelligent Solutions Holdings (CCC) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/continued-ai-disruption-concerns-weigh-144822190.html
 
 *Rules, releases and agency actions:*
 - **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
@@ -107,9 +104,9 @@ Attack these before you trust any number above.
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
+- MARA: no_model · price $13.28
 - MXL: no_model · price $71.51
 - NSIT: no_edge · price $165.19 · fair value $186.86 · gap +13.1%
-- QLYS: rich · price $170.83 · fair value $140.33 · gap -17.9%
 
 ---
 

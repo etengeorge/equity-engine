@@ -1,5 +1,47 @@
 [
  {
+  "id": "fc2da618-8b70-46ef-8950-5d1fa9810afa",
+  "ts": "2026-09-22T13:41:37+00:00",
+  "title": "Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck",
+  "summary": "Here's a check of the markets in the first few minutes of trading.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/treasury-yields-ease-oil-falls-as-trump-xi-meeting-looms-alphacheck-134137146.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "26ae068a-0dcd-3f6a-a1d8-9100bced67ed",
+  "ts": "2026-09-22T13:39:00+00:00",
+  "title": "Stock Market News for Sep 22, 2026",
+  "summary": "U.S. stocks closed sharply higher on Monday, led by a tech rally, while investors breathed a sigh of relief as Treasury yields slid from their recent highs and oil prices dropped to an 11-day low.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "41850ff4-bac3-3505-bbea-581c4fa76b8f",
+  "ts": "2026-09-22T13:08:32+00:00",
+  "title": "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "c5364f66-5c93-3cec-8eef-73036330cd2e",
   "ts": "2026-09-21T19:52:06+00:00",
   "title": "Sector Update: Tech Stocks Gain Late Afternoon",

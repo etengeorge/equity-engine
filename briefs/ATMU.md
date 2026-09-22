@@ -1,67 +1,63 @@
-# GEO — GEO GROUP
+# ATMU — ATMUS FILTRATION TECHNOLOGIES
 *Industrials · brief generated 2026-09-22 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 208/1956
+- rotation position 214/1956
 
 ## Market
 | | |
 |---|---|
-| price | $30.25 |
-| market cap | $4.0B |
-| 5d / 21d / 63d / 252d | -1.9% / -4.6% / +2.0% / +37.6% |
-| 60d avg daily $ volume | $62.1M |
-| beta (vs IWM) | 1.55 (R²=0.173) |
-| 5d volume vs 60d average | 1.3x |
+| price | $44.59 |
+| market cap | $3.6B |
+| 5d / 21d / 63d / 252d | +0.5% / -9.6% / -14.3% / -3.6% |
+| 60d avg daily $ volume | $35.9M |
+| beta (vs IWM) | 1.05 (R²=0.409) |
+| 5d volume vs 60d average | 1.5x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 72% / debt 28% |
+| WACC weights | equity 78% / debt 22% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$203.9M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$-124.9M', '$163.5M', '$211.9M']
-Enterprise value **$5.4B** · FCFF yield **+3.8%**
+Normalized FCFF base **$135.6M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$148.8M', '$56.8M', '$143.2M']
+Enterprise value **$4.4B** · FCFF yield **+3.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.3% − 1pt | +25.0% |
-| **12.3% (point)** | **+28.2%** |
-| 12.3% + 1pt | +31.3% |
+| 9.4% − 1pt | +19.1% |
+| **9.4% (point)** | **+23.2%** |
+| 9.4% + 1pt | +27.0% |
 
 
-> **Stock compensation is 23% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$185.0M** and an implied growth of **+31.0%** instead of +28.2%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+2.3%** (5y revenue CAGR +2.3%).
-Gap under that baseline: **-85.5%** (fair value $4.40 vs price $30.25).
+Naive baseline for comparison: **+4.1%** (2y revenue CAGR +4.1%).
+Gap under that baseline: **-64.0%** (fair value $16.05 vs price $44.59).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **9th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -63.7%).
+Cohort: **18th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -42.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_4.0x_of_mean`
-- `stock_comp_is_23%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/923796/000119312526337932/geo-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675d8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/923796/000119312526211821/geo-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526207484/d122560d8k.htm
-- 2026-05-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/923796/000119312526204018/d104487d8k.htm
-- 2026-03-19 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/923796/000119312526116014/d923546ddef14a.htm
-- 2026-03-05 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526094068/d84742d8k.htm
-- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/923796/000119312526071747/geo-20251231.htm
-- 2026-02-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526048953/d91287d8k.htm
-- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526047556/d88889d8k.htm
+- 2026-08-14 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000071/atmu-20260814.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000069/atmu-20260630.htm
+- 2026-08-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000065/atmu-20260807.htm
+- 2026-05-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000054/atmu-20260513.htm
+- 2026-05-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000051/atmu-20260512.htm
+- 2026-05-11 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000045/atmu-20260508.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000042/atmu-20260331.htm
+- 2026-05-01 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000039/atmu-20260501.htm
+- 2026-03-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000029/atmu-20260330.htm
+- 2026-02-13 **10-K** — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000015/atmu-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675dex991.htm
+- **2026-08-14** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000071/atmu2026q3dividend8-kex991.htm
+- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1921963/000192196326000065/atmu2026q2quarterly8-kex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -69,6 +65,7 @@ Attack these before you trust any number above.
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
 - **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
@@ -78,13 +75,12 @@ Attack these before you trust any number above.
 - **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
-- **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
 
 ## Market and macro context
-- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
-- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
-- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
-- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
+- **2026-09-22** · Silver Beech’s Investment Thesis for Arthur J. Gallagher (AJG) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/silver-beech-investment-thesis-arthur-150059517.html
+- **2026-09-22** · Wall Street Awaits Economic Data — *Zacks* — https://finance.yahoo.com/economy/articles/wall-street-awaits-economic-data-145800253.html
+- **2026-09-22** · This Fund Trimmed Matson (MATX) on Strength — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/fund-trimmed-matson-matx-strength-145040552.html
+- **2026-09-22** · Continued AI Disruption Concerns Weigh on CCC Intelligent Solutions Holdings (CCC) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/continued-ai-disruption-concerns-weigh-144822190.html
 
 *Rules, releases and agency actions:*
 - **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
@@ -107,9 +103,9 @@ Attack these before you trust any number above.
 - EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
+- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
 - HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
 - HUBG: no_model · price $33.45
-- JBI: no_edge · price $4.45 · fair value $5.65 · gap +27.0%
 
 ---
 

@@ -1,5 +1,33 @@
 [
  {
+  "id": "c2d0d2e9-573c-3af9-ba60-099cd07dbfc0",
+  "ts": "2026-09-22T13:20:19+00:00",
+  "title": "Sector Update: Financial Stocks Edge Higher Premarket Tuesday",
+  "summary": "Financial stocks were edging higher premarket Tuesday, with the State Street Financial Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132019792.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "41850ff4-bac3-3505-bbea-581c4fa76b8f",
+  "ts": "2026-09-22T13:08:32+00:00",
+  "title": "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "3c0595cd-7b7e-3264-90a3-7df23b469a34",
   "ts": "2026-09-21T20:03:16+00:00",
   "title": "Sector Update: Financial Stocks Rise Late Afternoon",
