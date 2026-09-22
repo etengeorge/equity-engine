@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ISBA — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / ISBA</p><h1>ISBA <span style='color:var(--faint);font-weight:400'>ISABELLA BANK CORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$38.20</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-22</b></div></div><div class='prose'><h1>ISBA — ISABELLA BANK CORP</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-22 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $38.20</li></ul><p><strong>The case for the price.</strong> Isabella Bank is a $2.3 billion Michigan community bank that was added to the Russell 2000 in July 2026 and is in the middle of buying another bank. It earns roughly 10% on tangible common equity, pays a $0.28 quarterly dividend, and trades at about 1.45x tangible book. For a small, illiquid Michigan thrift-like franchise with $3.1M of average daily dollar volume and a return around the cost of equity, 1.45x tangible book is an ordinary price - and the pending acquisition of Grand River Commerce will dilute tangible book before it accretes. There is no mispricing here that a reader of the filings would recognise.</p><p><strong>What changed.</strong> The decisive fact is a pending acquisition the engine cannot see. On 2026-06-11 Isabella, 401 Merger Sub and Grand River Commerce, Inc. (OTCQX:GNRV) entered an Agreement and Plan of Merger; Isabella is the ACQUIRER, in a cash-and-stock transaction valued at approximately $54.6 million, with Grand River shareholders electing approximately $5.72 in cash or 0.1415 Isabella shares per share subject to proration. Grand River shareholders APPROVED the merger at a special meeting on 2026-09-18, and the companies expect to close in the FOURTH QUARTER OF 2026, subject to regulatory approvals. The deal takes Isabella into Grand Rapids and creates a pro forma bank of roughly $2.8 billion of assets and 33 locations across nine counties. Isabella&#x27;s own 8-K risk factors name &#x27;the dilution caused by Isabella&#x27;s issuance of additional shares of its common stock in the merger transaction&#x27; and &#x27;the expected impact on and timing of the recovery of the impact on TANGIBLE BOOK VALUE&#x27; - that is, the company states that the transaction reduces tangible book per share and that the recovery takes time. Both inputs to the model - the share count and tangible book per share - are therefore about to change, and neither change is in the extract.</p><p><strong>Base case.</strong> I decline to supply a sustainable ROTCE, because the gap on this name is not produced by the return at all - it is produced by the discount rate, which the schema cannot override, and supplying a ROTCE would launder that defect into a published fair value. The arithmetic: the engine&#x27;s justified P/TBV of 2.67 comes from (ROTCE 10.2% - 2%) / (cost of equity 5.087% - 2%). That 5.087% cost of equity is built on a BETA OF 0.0227 with an R-SQUARED OF 0.004, sourced <code>yahoo_rescaled</code> from a Yahoo raw figure of 0.024. A beta of two hundredths is not a measurement of anything; it is the failed-beta bias at the most extreme reading in this file, worse than IRWD&#x27;s 0.2 at R-squared 0.032, and worse in kind because a rescaled Yahoo figure is not our regression at all so the R-squared gate cannot bite on it. Substituting a defensible community-bank cost of equity - Cathay General, the other bank in today&#x27;s ten, regresses to 0.89 with an R-squared of 0.534 - the justified multiple falls from 2.67 to 1.46 at a 0.60 beta, 1.28 at 0.75 and 1.14 at 0.89. A SECOND defect runs the other way and must be corrected at the same time: tangible book per share of $24.00 is computed from <code>equity_series[0]</code> of $231.4M (2025-12-31) while <code>equity_now</code> of $248.7M (2026-06-30) is in the same record, so true tangible book is $26.27 and actual P/TBV is 1.454x rather than 1.59x - independently confirmed by the multiples row on the same brief, which prints p_tbv 1.454. Correcting both, the recorded +67.5% gap becomes roughly +0.7% at a 0.60 beta and -12% to -22% at a beta in the range an actual bank regression produces. The entire gap is one unmeasured number.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest argument against refusing is that the ROTCE input - the thing I am refusing to supply - is actually fine. Isabella&#x27;s net income series [$18.9M, $13.9M, $18.2M] against equity of [$231.4M, $210.3M, $202.4M] gives a stable high-single to low-double-digit return with no acquisition, no reserve release and no mark inside it, which is more than can be said for most financials this engine prices. If the numerator is sound and only the discount rate is broken, the honest thing is to supply the ROTCE, record the verdict as &#x27;rich at any defensible cost of equity&#x27;, and let the reader see a number - rather than refuse and leave the name unpriced for another rotation cycle.</li><li>What would prove it: Whether the schema can carry the correction. It cannot: <code>rotce_override</code> sets the numerator and there is no field for the cost of equity, so any ROTCE I supply is divided by 5.087% - 2% = 3.087% and produces a justified multiple near 2.7x and a large positive fair value that I do not believe. Supplying 10.2% would publish a fair value around $64 against a $38.20 price.</li><li>Already visible today: Yes, decisively, and it is why the counter loses. The precedent is explicit in this project&#x27;s own record - on GLRE, IRWD, CLVT and HP the analyst JSON had no field to override the discount rate and the conclusion each time was that the verdict is the output and the printed number must be ignored. The additional reason here is independent of the beta: a merger closing in Q4 2026 changes the share count AND, on the company&#x27;s own statement, reduces tangible book per share, so BOTH sides of the ratio the model prices are about to move. Even a correct cost of equity would be applied to a balance sheet that will not exist in December.</li><li>Left unresolved: The size of the tangible book dilution. Grand River&#x27;s ~9.5 million shares at 0.1415 would issue roughly 1.35 million Isabella shares against 7.63 million outstanding - about 18% dilution if taken all in stock - but the cash/stock proration is elective and I could not determine the final mix, so I could not compute pro forma tangible book per share. I also could not explain <code>fy_end</code> of 2018-12-31 (2,822 days); the equity and income series look current, which is the HWC shape, but I did not reconcile them line by line to the 10-Q.</li></ul><p><strong>Key risks.</strong> the recorded +67.5% gap and 93rd-percentile rank are an artifact of a 5.09% cost of equity built on a beta of 0.0227 with an R-squared of 0.004, and must not be read as a signal; a merger closing in Q4 2026 changes both the share count and tangible book per share, and the company itself flags the tangible book dilution and its recovery period; <code>last_10k_2822d_old</code> - fy_end reads 2018-12-31, so the provenance of the fundamentals is not established; $3.1M of average daily dollar volume on a $291M market capitalisation - this is not a liquid security <strong>Watch for.</strong> completion of the Grand River transaction and the first post-close balance sheet - pro forma tangible book per share and the final share count; a beta with a usable R-squared once the enlarged company has trading history, or an engine gate on R-squared for yahoo_rescaled betas specifically; regulatory approval, the last outstanding closing condition</p><p><strong>Data quality.</strong> One flag raised (<code>last_10k_2822d_old</code>) and it is the least of the three problems. UNFLAGGED AND DECISIVE: cost of equity 5.087% from beta 0.0227 at R-squared 0.004, <code>beta_source = yahoo_rescaled</code>, <code>beta_yahoo_raw = 0.024</code>. Because the beta is Yahoo-sourced it carries no meaningful R-squared gate at all, so the engine&#x27;s <code>BETA_MIN_R2</code> cannot protect against it - this is the IRWD mechanism at a more extreme value, and it is worth noting that the R-squared of 0.004 was nevertheless recorded. UNFLAGGED: stale tangible book - equity_series[0] $231,396,000 (2025-12-31) versus equity_now $248,704,000 (2026-06-30), so $24.00 against a true $26.27; the multiples row p_tbv of 1.454 confirms the corrected figure and disagrees with the book model&#x27;s 1.59, the AII cross-check firing correctly. UNFLAGGED: the pending Grand River acquisition, signed 2026-06-11 and approved by the target&#x27;s shareholders 2026-09-18. NOTE the detection cost: the tell was on the face of the brief - two item 1.01 8-Ks on 2026-06-15 and 2026-06-16, one of whose exhibits is literally named <code>isba_votingagreementxex991.htm</code>. A voting agreement filed as an exhibit to an item 1.01 8-K is a merger signature as cheap as the Rule 425 filename test, and it fires on the ACQUIRER, which the existing 425 test does not always do. No ROTCE supplied deliberately: pricing a sound 10.2% return through a 3.087% Gordon denominator would publish a fair value near $64 against a $38.20 price.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/842517/000084251726000222/isba-20260921.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/842517/000084251726000222/isba-20260921.htm</a> (8-K 2026-09-21 item 8.01: Grand River shareholders approved the merger 2026-09-18, closing expected Q4 2026, risk factors naming share issuance dilution and tangible book value impact)</li><li><a href="https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba_votingagreementxex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba_votingagreementxex991.htm</a> (8-K 2026-06-15 item 1.01 EX-99.1: form of shareholder voting agreement for the Grand River merger)</li><li><a href="https://www.sec.gov/Archives/edgar/data/842517/000084251726000180/isba-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/842517/000084251726000180/isba-20260630.htm</a> (10-Q 2026-06-30)</li><li><a href="https://www.nasdaq.com/press-release/isabella-bank-corporation-acquire-grand-river-commerce-inc-2026-06-12" rel="noopener">https://www.nasdaq.com/press-release/isabella-bank-corporation-acquire-grand-river-commerce-inc-2026-06-12</a> (deal terms: ~$54.6M, $5.72 cash or 0.1415 Isabella shares, pro forma ~$2.8B assets)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/ISBA.md'>research/Financials/ISBA.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,58 @@
+{
+  "ticker": "CATY",
+  "date": "2026-09-22",
+  "sector": "Financials",
+  "name": "CATHAY GENERAL BANCORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.1398,
+  "horizon_months": 24,
+  "price_at_verdict": 61.47999954223633,
+  "market_implied_growth": null,
+  "cohort_pct": 70.8,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.1398,
+    "screen_rotce": 0.13716559759776178,
+    "justified_p_tbv": 1.5280765565493357,
+    "actual_p_tbv": 1.6956809397022103,
+    "tangible_book_per_share": 36.2568205508244,
+    "fair_value": 55.40319749873094,
+    "price": 61.47999954223633,
+    "gap": -0.09884193377930439,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The best case against calling this fair is that a 13.98% ROATCE on a bank with Cathay's commercial real-estate concentration is a cyclical high, not a sustainable return, and I have taken the peak quarter of a rising series as the input. The engine's own three-year series runs 13.03%, 12.23%, 15.89% - a 3.7-point range with no trend - and picking the newest quarter from a noisy series is exactly the error the standing lesson warns about in the opposite direction. At the weakest year's 12.23% the justified multiple is 1.30 against an actual 1.61, and the stock is 19% RICH rather than 5%. The whole verdict sits inside that 3.7-point range.",
+    "what_would_prove_it": "The path of non-performing loans and criticised commercial real-estate exposure over the next four quarters. A bank earning a genuine 14% on tangible equity does it with stable credit; a bank earning it on reserve releases does not. The specific test is provision expense against net charge-offs - releases flatter the return without improving the book.",
+    "already_visible": "Partly, and it supports the fair reading rather than the bear. The return is rising monotonically over the last three reported quarters (12.36% -> 13.64% -> 13.98%) and return on average ASSETS is rising with it (1.47% -> 1.52%), which is harder to manufacture with a reserve release than a return on equity is. That is the VLY test - rising return together with a rising book is an operating improvement rather than an accounting one. But I did not obtain the credit-quality detail to run the provision-versus-charge-offs check directly.",
+    "unresolved": "Whether the $128.2M of preferred was outstanding for all three years in the ROTCE window. If it was issued recently, the older tangible-common-equity denominators are understated and the engine's 13.72% average is overstated by a few tenths - immaterial to the verdict but it is the one reconciliation I could not close. I also could not run the credit-quality test above from the documents I fetched."
+  },
+  "what_changed": "Nothing material. No company-specific news in the store for the last 90 days, which for this name means the wire was quiet AND the tape was quiet - the 5-day move is -1.5% and the 21-day -0.9%. The most recent filings are the Q2 10-Q (2026-08-07) and the Q2 earnings 8-K (2026-07-22). There is no 8-K under items 1.01, 2.01 or 3.02 in the last two quarters, so the enterprise is not changed by a transaction. The absence of news lowers my confidence that nothing happened; it does not confirm it.",
+  "consensus_case": "Cathay General is a well-run Chinese-American commercial bank earning a return modestly above its cost of equity, and it trades at about 1.6x tangible book, which is what that is worth. Q2 2026 return on average stockholders' equity was 12.21% and return on average assets 1.52%, both improved from 11.88% and 1.47% in Q1; return on average TANGIBLE common equity was 13.98%, up from 13.64% in Q1 and 12.36% a year earlier. The stock is up 25.5% over twelve months. At a 9.84% cost of equity and a 2% terminal growth rate, a 13.98% sustainable return justifies 1.53x tangible book against an actual 1.61x. The market is paying a small premium to the arithmetic for a bank whose returns are rising rather than falling - which is a defensible price, not a mistake in either direction.",
+  "base_case_rationale": "This is the one clean name in today's ten and the engine's inputs survive every standing test. I override the sustainable ROTCE to 13.98%, the company's own reported return on average tangible common equity for Q2 2026, rather than the engine's 13.72% three-year GAAP average - a trivial change, and that is the point. Running the checklist: the AX numerator defect does NOT apply, because `net_income_common_series` [$315.1M, $286.0M, $354.1M] equals `net_income_series` exactly; preferred stock of $128.2M IS correctly deducted from tangible common equity (the $36.26 tangible book per share reproduces only with it deducted); `equity_concept` is StockholdersEquity, which is parent-only, so the $8.4M of non-controlling interest is correctly NOT deducted a second time; the beta of 0.89 carries an R-squared of 0.534, the best fit in today's ten and far above the low-fit bias threshold; and the share count of 66,713,820 at 2026-07-31 reconciles to the 66,825,367 on the Q2 balance sheet. The one defect present is the standing stale-tangible-book bug: `justified_pb` prices today's share price against `equity_series[0]` of $2,925.4M (2025-12-31) when `equity_now` of $3,046.6M (2026-06-30) sits in the same record, so tangible book per share reads $36.26 against a true $38.08 and actual P/TBV reads 1.70x against a true 1.614x - independently corroborated by the multiples table on the same brief, which prints p_tbv 1.620x. Correcting that, and taking the company's own current return, the gap is about -5.4%, not -11.9%. A 5% gap on a bank is noise.",
+  "key_risks": [
+    "commercial real-estate concentration is the structural risk in this franchise and no return-on-equity model prices a credit cycle",
+    "the verdict moves from -5% to -19% across the engine's own three-year ROTCE range of 12.23% to 15.89%",
+    "the model's fixed 2% terminal growth is doing real work in the justified multiple - at 4% the justified multiple rises above the actual and the sign flips"
+  ],
+  "watch_for": [
+    "return on average tangible common equity falling back below 13% for two consecutive quarters",
+    "provision expense rising materially above net charge-offs, the tell that the reported return is a release",
+    "an engine fix: justified_pb using equity_now rather than equity_series[0]"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/ex_991410.htm (Q2 2026 EX-99.1: ROATCE 13.98% / 13.64% / 12.36%, ROAE 12.21%, ROAA 1.52%, average tangible stockholders' equity $2,651,921 thousand, 66,825,367 shares outstanding)",
+    "https://www.sec.gov/Archives/edgar/data/861842/000143774926026554/caty20260630_10q.htm (10-Q 2026-06-30)"
+  ],
+  "flags": []
+}

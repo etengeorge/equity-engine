@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MARA — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / MARA</p><h1>MARA <span style='color:var(--faint);font-weight:400'>MARA HOLDINGS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$13.28</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-22</b></div></div><div class='prose'><h1>MARA — MARA HOLDINGS</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-22 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $13.28</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> MARA is not a cash-flow business and is not priced as one; it is a levered bitcoin treasury with a power portfolio attached, and the market is paying for the second part. Bitcoin broke above $86,000 on 2026-09-21 for the first time in eight months and the stock rose 15.5% in five days. MARA held 35,577 bitcoin at 2026-06-30 - worth roughly $2.1 billion at the $58,524 quarter-end spot and roughly $3.1 billion at today&#x27;s price - and bought a further 1,292 bitcoin for about $100 million in September. It has spent the first half of 2026 repairing the balance sheet, selling $1.63 billion of bitcoin to repurchase about $1.0 billion of principal of its zero-coupon convertible notes due 2030 and 2031, cutting convertible debt roughly 30% from about $3.3 billion to $2.3 billion. Against that, management expects the power portfolio to reach about 4.8 gigawatts once pending deals close, more than double today&#x27;s capacity, and the bull case is that those megawatts are worth far more leased to artificial-intelligence tenants than used to mine. Net of about $3.1 billion of bitcoin and $0.42 billion of cash against $2.3 billion of converts, the $5.13 billion market capitalisation is paying roughly $3.8 billion for the mining fleet and the power pipeline. That is a price for an option, and options can be correctly priced.</p><p><strong>What changed.</strong> H1 2026: $1.63 billion of bitcoin sold to fund a $912.8 million buyback of roughly $1 billion of principal across the 0.00% converts due 2030 and 2031; a Q2 net loss of $611.3 million (-$1.60 per diluted share) against net income of $808.2 million a year earlier, driven by bitcoin mark-to-market; adjusted EBITDA of negative $360.9 million against positive $1.2 billion. Q2 revenue was $174.9 million against $238.5 million. An 8-K on 2026-07-09 carries items 1.01 and 2.01 - a completed acquisition or disposition inside the current quarter, which post-dates the 2026-06-30 balance sheet the model uses. On 2026-09-14 J.P. Morgan double-downgraded the stock to Underweight from Overweight, citing the pivot to data centres; no AI leases have been signed.</p><p><strong>Base case.</strong> No fair value, and the refusal is over-determined - six independent grounds, one of them a data defect I had not seen before on this engine. (1) The FCFF model cannot run: <code>cfo_series</code> is [-$802.7M, -$677.0M, -$315.7M], NEGATIVE IN ALL THREE YEARS, so <code>normalized_fcff</code> has nothing to normalise and the brief correctly prints &#x27;mean of CFO-capex over 0y&#x27;. (2) <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code> - trailing EBITDA is -$451.5M and gross profit is NEGATIVE $26.0M. (3) <code>speculative_cost_of_debt_at_32%_debt_weight_wacc_unreliable</code> - the 15.1% WACC is not a measurement. (4) The cohort is explicitly NOT RANKED. (5) The ev_sales row returns NEGATIVE values at every percentile (-$4.46 / -$4.22 / -$3.60), which by the standing RIOT/EPRT rule disqualifies the table on its own, and the two surviving rows straddle the $13.28 price in opposite directions (-$4.46 against $10.67-$44.26). (6) NEW AND UNFLAGGED: <code>revenue_ltm</code> of $58.7 million is wrong by an order of magnitude, and it is a concept switch of the TNET kind. The series reads [$58.7M, $96.5M, $57.7M, $117.8M, $150.5M, $4.4M] - non-monotonic, which a predecessor artifact cannot produce but a tagging switch can. The 10-Q income statement reads &#x27;Revenues $174,881 / $238,485 / $349,495 / $452,369&#x27; thousand for Q2 2026, Q2 2025, H1 2026 and H1 2025, while a SEPARATE disaggregation line reads &#x27;Total revenues from contracts with customers 13,811 / 15,232 / 31,224 / 29,953&#x27;. The extractor has picked the ASC 606 contracts-with-customers line, which excludes self-mined bitcoin because self-mining is not a contract with a customer, and is therefore a small fraction of the business. True H1 2026 revenue is $349.5 million, not the $29-31 million that line implies. That is what produces the brief&#x27;s &#x27;its own EV/sales of 118.0x&#x27; - the true trailing multiple is closer to 9-10x. Every number in the multiples table is built on it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The case against refusing is that MARA is one of the few companies in this universe whose asset value is directly observable, so a refusal throws away real information. Bitcoin is a marked, liquid, quoted asset: 36,900 coins at roughly $86,000 is about $3.17 billion, cash and short-term investments add $0.64 billion, and $2.3 billion of zero-coupon converts subtract. That is roughly $1.5 billion of net liquid value against a $5.13 billion market capitalisation, and the residual $3.6 billion is what the market pays for the fleet and the pipeline. Nothing about that computation requires a discounted cash flow, and it is a far more useful statement than &#x27;no model&#x27;.</li><li>What would prove it: A signed AI or hyperscaler lease with disclosed megawatts, term and rate. That is the single observable that converts the power pipeline from an option into a valuable contracted asset, and it is the thing every bull argument in the news flow is waiting for.</li><li>Already visible today: No - and the absence is itself the most informative fact available. The 2026-09-21 Trefis piece is titled &#x27;Is MARA Stock A Buy Today, Before Any AI Leases Are Signed?&#x27;, and J.P. Morgan&#x27;s double-downgrade to Underweight on 2026-09-14 cited precisely the data-centre pivot. So the market has been told about 4.8 gigawatts and has not been shown a lease. I accepted the counter&#x27;s arithmetic and put it in the consensus case above rather than suppressing it, because it is right - but a net-asset computation whose residual is 74% of the market capitalisation is not a valuation of this company, it is a statement of what is left over.</li><li>Left unresolved: The bitcoin count at today&#x27;s date. I have 35,577 coins at 2026-06-30 plus a reported ~1,292 bought in September, but MARA both sells and buys continuously and I could not obtain a current figure, so my net-liquid-value estimate is approximate. I also could not read the 2026-07-09 item 1.01/2.01 8-K&#x27;s consideration, which post-dates the balance sheet and may have changed both the asset side and the debt.</li></ul><p><strong>Key risks.</strong> refusing to model this is NOT a judgment that it is cheap - at roughly $3.6B of market capitalisation above net liquid assets, with no AI lease signed, it may well be expensive; revenue_ltm of $58.7M is an order of magnitude too low (true H1 2026 revenue $349.5M) because the extractor reads the ASC 606 contracts-with-customers line, so EV/sales of 118.0x and every multiples row built on it are meaningless; operating cash flow has been negative in all three years of the window, totalling roughly -$1.8 billion; the equity is levered to bitcoin through $2.3 billion of zero-coupon converts, and the company funds deleveraging by selling the asset; an 8-K on 2026-07-09 carries items 1.01 and 2.01, post-dating the balance sheet <strong>Watch for.</strong> a signed AI or hyperscaler lease with disclosed megawatts, term and rate - the fact that would make this modellable; the bitcoin holding and the remaining convertible principal at 3Q26; an engine fix for the revenue concept: MARA&#x27;s total revenues line versus revenues from contracts with customers</p><p><strong>Data quality.</strong> Both flags real and a third, larger defect found unflagged. <code>speculative_cost_of_debt_at_32%_debt_weight_wacc_unreliable</code> and <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code> both stand. UNFLAGGED: <code>revenue_series</code> = [58704000, 96524000, 57699000, 117753000, 150463770, 4357443] is a CONCEPT SWITCH of the TNET kind - non-monotonic, which a predecessor CIK cannot produce - and the 10-Q shows why: total revenues are $174,881 thousand for Q2 2026 while &#x27;total revenues from contracts with customers&#x27; is $13,811 thousand, and the extractor took the latter. This disqualifies the ev_sales row independently of the fact that it already returns negative values at every percentile. The p_tbv row DOES use <code>equity_now</code> ($1,660.6M) rather than the stale <code>equity_series[0]</code> ($3,471.7M), so it is at least internally current - 3.4x tangible book on a company whose book is mostly bitcoin marked at a $58,524 quarter-end spot against roughly $86,000 today, which means even that row is stale in the other direction. Share count 386,299,297 at 2026-07-30 is current. NO fair value supplied under any method.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1507605/000150760526000022/mara-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1507605/000150760526000022/mara-20260630.htm</a> (10-Q 2026-06-30: Revenues $174,881/$238,485/$349,495/$452,369 thousand; total revenues from contracts with customers $13,811/$15,232/$31,224/$29,953 thousand)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1507605/000150760526000020/q226shareholderletter.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1507605/000150760526000020/q226shareholderletter.htm</a> (Q2 2026 shareholder letter)</li><li><a href="https://finance.yahoo.com/markets/crypto/articles/mara-sold-1-6-billion-132326380.html" rel="noopener">https://finance.yahoo.com/markets/crypto/articles/mara-sold-1-6-billion-132326380.html</a> (H1 2026: $1.63B of bitcoin sold, $912.8M used to repurchase ~$1.0B of 2030/2031 converts, holdings 35,577 BTC, net loss $611.3M, adjusted EBITDA -$360.9M)</li><li><a href="https://www.trefis.com/articles/616091/is-mara-stock-a-buy-today-before-any-ai-leases-are-signed/2026-09-21" rel="noopener">https://www.trefis.com/articles/616091/is-mara-stock-a-buy-today-before-any-ai-leases-are-signed/2026-09-21</a> (4.8GW pipeline, no AI leases signed)</li><li><a href="https://www.barrons.com/articles/bitcoin-mara-stock-strategy-f0356056" rel="noopener">https://www.barrons.com/articles/bitcoin-mara-stock-strategy-f0356056</a> (J.P. Morgan double-downgrade to Underweight, 2026-09-14)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/MARA.md'>research/Information Technology/MARA.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

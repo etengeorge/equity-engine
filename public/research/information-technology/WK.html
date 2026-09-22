@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>WK — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / WK</p><h1>WK <span style='color:var(--faint);font-weight:400'>WORKIVA CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$72.84</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-22</b></div></div><div class='prose'><h1>WK — WORKIVA CLASS A</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-22 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $72.84</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Workiva is a 19%-growth compliance platform whose margins have inflected hard, and the price reflects the inflection rather than the trailing cash flow. Q2 2026 delivered 19% growth in both subscription and total revenue while non-GAAP operating margin beat the high end of guidance by 180bp - a 1,300 basis point improvement over Q2 of last year - and management said this positions them to hit the 2027 medium-term 18% operating-margin target a full year early. Full-year 2026 guidance is revenue of $1.040-1.044B, GAAP operating margin of 5.7-5.8%, non-GAAP operating margin of approximately 18%, GAAP diluted EPS of $1.21-1.22, and a FREE CASH FLOW MARGIN OF APPROXIMATELY 21% - roughly $219M, against a three-year historical mean of $98.4M. A company doubling free cash flow while growing revenue 19% and turning GAAP-profitable is not obviously mispriced at $4.05B of enterprise value.</p><p><strong>What changed.</strong> Q2 2026 (filed 2026-08-04) beat the high end of revenue guidance, delivered 1,300bp of year-over-year non-GAAP operating margin expansion, and set full-year 2026 free cash flow margin guidance at ~21% of $1.04B of revenue. The company reached GAAP profitability ($12.6M of net income in Q2 against a $0.35 loss per share a year earlier). Nothing structural: no acquisition, no financing, no item 1.01/2.01/3.02 8-K. The 2026 convertible notes mature in August 2026 and were carried at $71.2M current at the balance sheet date.</p><p><strong>Base case.</strong> I cannot narrow this to a number, and the reason is that the two defensible bases are 2.2x apart and both are defensible. The engine&#x27;s $106.7M base is the three-year mean of cfo-capex [$68.8M, $86.3M, $138.0M] plus a $9.0M interest add-back, and the <code>possible_peak_cycle_base</code> flag calls the newest year a peak - which is the ITRI error, because the series is monotonic and the company guides the newest level to rise a further 59% to ~$219M this year. Correcting for that alone takes the required growth from +26.8% to +7.3%, which would make Workiva look cheap. But Workiva&#x27;s free cash flow is not owner earnings: stock compensation is $122.9M, 110% of the engine&#x27;s base and 56% of guided free cash flow, and reported FCF adds every dollar of it back. Per the BOX rule I went and got the net share count. Basic weighted-average shares were 55,638,926 in Q2 2026 against 56,076,723 in Q2 2025, and 55,259,608 in H1 2026 against 56,133,286 in H1 2025 - the count is FALLING 1.6% year over year net of all compensation, so unlike Q2 Holdings the comp IS being paid for. But paying for it consumes essentially the whole of it: offsetting ~1.7M shares a year of comp issuance at $72.84 costs roughly $122M, so owner earnings are about $219M - $122M = $97M, plus the $9M add-back, or $106M - which lands almost exactly back on the engine&#x27;s base by coincidence, and requires +27.2% growth. The answer is therefore +7.3% required if you underwrite guided FCF and +27.2% if you underwrite owner earnings; at a defensible SaaS beta the expensed end reaches +30.1%. A 20-point span on one treatment is not a valuation.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest case for a number rather than a refusal is that the BOX arithmetic I used charges Workiva the full replacement cost of dilution forever, at today&#x27;s share price, which is the most punitive possible reading. If revenue compounds mid-teens and stock compensation is held flat in dollars - which is what a company hitting its margin target a year early is telling you it is doing - the dilution offset falls as a share of a growing cash flow every single year. Under that path owner earnings grow far faster than the 19% top line, and the +27% requirement is met not by heroics but by arithmetic. On that reading the refusal is the error and Workiva is cheap.</li><li>What would prove it: Stock compensation in absolute dollars over the next four quarters against revenue. If SBC stays near $123M while revenue goes from $885M to $1.04B and then higher, the bull&#x27;s mechanism is working and the gap between guided FCF and owner earnings closes on its own. If SBC grows with revenue, it does not.</li><li>Already visible today: Partly, and it supports the bull. <code>sbc_series</code> runs [$98.8M, $102.2M, $122.9M] oldest to newest - so SBC grew 20% in the newest year, faster than revenue&#x27;s 19.7%, which argues AGAINST the bull. But the 1,300bp of non-GAAP margin expansion and the 2027 target being hit a year early are real and are in the guidance, and the share count is genuinely shrinking, which is the single best evidence that management is treating the comp as a cost. The two readings point in opposite directions and I could not resolve them.</li><li>Left unresolved: How much of the ~21% free cash flow margin is a working-capital or deferred-revenue build rather than earnings - Workiva&#x27;s subscription billings are front-loaded and I could not decompose the guided figure. I also note that <code>shares_asof</code> and <code>shares_source</code> are both NULL in the extract, so the 56,272,517 shares the model uses has no provenance; it happens to reconcile to the Class A plus Class B weighted averages, but that is luck rather than a verified count.</li></ul><p><strong>Key risks.</strong> the answer spans +7.3% required growth (guided free cash flow) to +30.1% (owner earnings at a defensible discount rate) on one accounting choice; stock compensation of $122.9M is 110% of the engine&#x27;s FCFF base and grew 20% in the newest year, faster than revenue; beta is 0.62 with an R-squared of 0.067, so the 9.18% WACC is barely a measurement; at a defensible SaaS beta the requirement rises 3 points; shareholders&#x27; equity is NEGATIVE $97.1M and $768.6M of convertible notes sit ahead of the equity, $71.2M of it maturing August 2026 <strong>Watch for.</strong> stock compensation in absolute dollars against revenue over the next four quarters - the one number that collapses the range; whether the FY2026 21% free cash flow margin is delivered, and how much of it is deferred-revenue build; the August 2026 convertible maturity being settled in cash rather than shares</p><p><strong>Data quality.</strong> Three flags; two engaged and resolved, one is real and is the whole answer. (1) <code>possible_peak_cycle_base_newest_fcf_2.0x_oldest</code>: FALSE - [$68.8M, $86.3M, $138.0M] oldest-to-newest is monotonic and guidance takes the newest level higher still, so the flag points the wrong way (the ITRI test) and the three-year mean understates by roughly half. (2) <code>speculative_cost_of_debt_but_only_16%_debt_weight</code>: real but small; EBIT is negative $42.4M so the synthetic rating is distressed, and at a 16% debt weight it moves the WACC little. The larger discount-rate problem is the one NOT flagged - beta 0.62 at R-squared 0.067, the low-fit bias. (3) <code>stock_comp_is_110%_of_fcff</code>: real, decisive, and resolved by the BOX share-count test above rather than from the two endpoints the brief prints. CROSS-CHECK PASSED: <code>total_debt</code> of $768,560,000 reconciles exactly to the 10-Q&#x27;s convertible senior notes, $71,208 current plus $697,352 non-current - the ConvertibleDebt aliases worked here, so this is NOT a TDOC missing-debt case. OPEN: <code>shares_asof</code> and <code>shares_source</code> are both NULL (the SAH hard-gate condition); the count is defensible but unverified, and a null source should gate rather than fall through. <code>balance_sheet_form</code> reads &#x27;10-K&#x27; at 2026-06-30 on a December filer - provenance mislabel.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1445305/000144530526000060/wk-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1445305/000144530526000060/wk-20260630.htm</a> (10-Q 2026-06-30: basic weighted-average shares 55,638,926 / 56,076,723 / 55,259,608 / 56,133,286; convertible senior notes $71,208 current + $697,352 non-current)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1445305/000144530526000059/q22026exhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1445305/000144530526000059/q22026exhibit991.htm</a> (Q2 2026 EX-99.1: FY2026 revenue $1.040-1.044B, non-GAAP operating margin ~18%, free cash flow margin ~21%, GAAP diluted EPS $1.21-1.22 on 55.7M shares, 1,300bp margin improvement)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/WK.md'>research/Information Technology/WK.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

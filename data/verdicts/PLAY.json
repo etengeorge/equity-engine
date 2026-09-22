@@ -1,0 +1,57 @@
+{
+  "ticker": "PLAY",
+  "date": "2026-09-22",
+  "sector": "Consumer Discretionary",
+  "name": "DAVE AND BUSTERS ENTERTAINMENT",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 6.789999961853027,
+  "market_implied_growth": 0.12512015819913314,
+  "cohort_pct": 11.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The best case against refusing is that this is exactly the situation where a refusal costs the most. The equity is 15% of funded debt, so the whole of the analytical value here is in the enterprise-to-EBITDA judgment, and I have actually made that judgment in the paragraph above - 7.7x on a lease-adjusted basis, which is ordinary, not cheap. Having reached a view, calling it 'no model' understates what I know. Moreover the free cash flow direction has genuinely turned: adjusted free cash flow of positive $19.5 million against negative $36.5 million is a $56 million year-over-year improvement driven by capital spending falling, and capital spending falling is the single most controllable lever this company has. The engine's -$100.6 million year is the tail of a new-store build that management has explicitly stopped.",
+    "what_would_prove_it": "Comparable store sales turning positive, and fiscal 2027 capital spending guided at or below maintenance. The first decides whether the EBITDA base stabilises; the second decides whether the free cash flow improvement is structural or simply the absence of growth spending. The specific test on the cash flow statement is full-year fiscal 2026 operating cash flow less GROSS cash capital expenditure - not the net, allowance-adjusted figure management reports, which was $62.4 million more favourable in the first half.",
+    "already_visible": "Partly, and it is genuinely mixed, which is why I refuse rather than call it cheap. In favour: comparable declines are easing, food and beverage revenue is growing, and management guides improving sales trends for Q3. Against: adjusted EBITDA fell 24% year over year in the quarter, the company swung to a net loss, and on a GROSS capital expenditure basis first-half free cash flow was still negative $29.4 million - the positive $19.5 million management reports is net of landlord and other allowances. Both readings are defensible from the same filing, which is the definition of a name this model cannot price.",
+    "unresolved": "Fiscal 2027 capital expenditure, which is the whole question and is not guided. I also could not determine the incremental rate on the revolver under the leverage-based pricing grid, nor how close the company is to its credit-agreement covenants as Credit Adjusted EBITDA falls - which matters far more to a stub equity than any growth rate does."
+  },
+  "what_changed": "Q2 fiscal 2026 (reported 2026-09-14, 10-Q filed the same day, for the period ended 2026-08-04): revenue fell 2.4% to $544.1 million, comparable store sales fell 2.9%, and the company posted a NET LOSS of $12.5 million (-$0.36 per diluted share) against net income of $11.4 million a year earlier. Adjusted EBITDA fell 24% to $98.9 million from $129.8 million. The stock fell 11-12% on the print and a wave of price-target cuts followed. Funded debt at 2026-08-04 was $155.0 million drawn on the revolver plus $1,163.5 million of term loans - roughly $184 million lower than the balance sheet the model uses. Cash is $16.0 million. On 2026-09-21 the company filed an 8-K under items 5.02 and 8.01 announcing a series of executive appointments alongside the recent appointment of Darin Harper as chief executive.",
+  "consensus_case": "At $6.79 Dave & Buster's equity is a $236 million stub beneath roughly $1.32 billion of funded debt and $1.56 billion of operating lease liabilities, and the market is pricing it as an option rather than as a going concern with growing cash flow. The bull case is capitulation: the stock is down 66.7% over twelve months and 19.8% in the last five days on 2.4x normal volume, comparable store sales declines are EASING, food-and-beverage revenue rose to $211.5 million from $192.9 million, capital spending is falling hard (net capex of $127.6 million in the first half against $155.4 million, with fiscal 2026 guided below $200 million), adjusted free cash flow swung to POSITIVE $19.5 million through Q2 from negative $36.5 million a year earlier - a $56 million improvement - and management has identified $15 million of savings with potential for at least twice that. A new chief executive, Darin Harper, has brought in a nearly complete new executive team. On an enterprise value of about $1.54 billion against roughly $400 million of trailing adjusted EBITDA that is under 4x - which is what a market that expects the EBITDA to keep falling pays.",
+  "base_case_rationale": "I decline to publish a fair value, on four grounds that are independent of each other and of my view of the business. FIRST, the FCFF base fails the SABR test: the after-tax interest add-back is $95.6 million of the $143.4 million recorded base - 67%, above the ~60% threshold at which a base is mostly the lenders' claim rather than the owners' - and the mean of cfo-capex behind it is only $47.9 million. SECOND, the base is not a base: `fcff_series` is [-$100.6M, $34.0M, $210.2M] newest first, a 6.5x spread on the mean with one negative year, and the newest half-year does not settle it either (H1 fiscal 2026 operating cash flow of $160.6 million against $190.0 million of gross cash capital expenditure is MINUS $29.4 million). Choosing any one of those years produces a different company. THIRD, the balance sheet is a quarter stale: the extract is dated 2026-05-05 while the 2026-08-04 10-Q was filed on 2026-09-14, and debt has fallen roughly $184 million since, so the $1.719 billion enterprise value overstates by about $180 million and the required growth with it. FOURTH, and structurally, `operating_leases_91%_of_EV` is not a footnote on this name - the $1,556.3 million lease liability is almost exactly the size of the entire enterprise value the model computes. Capitalising it roughly doubles the enterprise and takes the multiple from under 4x trailing adjusted EBITDA to about 7.7x, which is an ordinary price for a leased entertainment and dining operator with declining comparable sales. Which of those two multiples you believe IS the valuation, and a discounted cash flow whose base spans -$100.6 million to +$210.2 million cannot arbitrate between them.",
+  "key_risks": [
+    "refusing to model this is NOT a judgment that it is cheap - lease-adjusted, the enterprise trades near 7.7x declining EBITDA, which is ordinary",
+    "the equity is a $236M stub beneath $1.32B of funded debt and $1.56B of lease liabilities; small moves in enterprise value are total in percentage terms for the equity",
+    "adjusted EBITDA fell 24% year over year in Q2 and the company posted a net loss",
+    "the model's balance sheet is a quarter stale (2026-05-05 against a 2026-08-04 10-Q filed 2026-09-14), overstating enterprise value by roughly $180M",
+    "the after-tax interest add-back is 67% of the recorded FCFF base - the SABR condition"
+  ],
+  "watch_for": [
+    "comparable store sales turning positive, and the Q3 print against management's 'improving trends' commentary",
+    "fiscal 2027 capital expenditure guidance at or below maintenance",
+    "full-year operating cash flow less GROSS cash capex, not the allowance-adjusted 'adjusted free cash flow'",
+    "any covenant or leverage disclosure as Credit Adjusted EBITDA declines"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000038/play-20260804.htm (10-Q 2026-08-04: H1 CFO $160.6M, capex $190.0M cash basis; revolving credit facility $155.0M, term loans $1,163.5M; cash $16.0M)",
+    "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000039/play-2026q2er8kxexx991.htm (Q2 2026 EX-99.1: revenue $544.1M -2.4%, comps -2.9%, net loss $12.5M, adjusted EBITDA $98.9M vs $129.8M, net capex $127.6M vs $155.4M, adjusted FCF +$19.5M vs -$36.5M)",
+    "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000041/play-2026leadership8kxex991.htm (8-K 2026-09-21 items 5.02/8.01: executive leadership appointments under CEO Darin Harper)"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_6.5x_of_mean",
+    "stock_comp_is_39%_of_fcff_reported_cash_flow_treats_it_as_free",
+    "operating_leases_91%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

@@ -79,6 +79,11 @@
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
+  "AVNT": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
+    "verdict": "rich"
+  },
   "AX": {
     "conviction": "medium",
     "last_visit": "2026-09-11",
@@ -115,13 +120,18 @@
     "verdict": "no_edge"
   },
   "BUR": {
-    "conviction": "high",
-    "last_visit": "2026-09-15",
+    "conviction": "low",
+    "last_visit": "2026-09-22",
     "verdict": "no_model"
   },
   "CASH": {
     "conviction": "low",
     "last_visit": "2026-09-21",
+    "verdict": "no_edge"
+  },
+  "CATY": {
+    "conviction": "medium",
+    "last_visit": "2026-09-22",
     "verdict": "no_edge"
   },
   "CBT": {
@@ -166,8 +176,8 @@
   },
   "CRI": {
     "conviction": "low",
-    "last_visit": "2026-09-01",
-    "verdict": "no_edge"
+    "last_visit": "2026-09-22",
+    "verdict": "cheap"
   },
   "CRNX": {
     "conviction": "high",
@@ -279,6 +289,11 @@
     "last_visit": "2026-09-04",
     "verdict": "no_model"
   },
+  "GEO": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
+    "verdict": "rich"
+  },
   "GLRE": {
     "conviction": "low",
     "last_visit": "2026-09-02",
@@ -364,6 +379,11 @@
     "last_visit": "2026-09-08",
     "verdict": "no_edge"
   },
+  "ISBA": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
+    "verdict": "no_model"
+  },
   "ITRI": {
     "conviction": "low",
     "last_visit": "2026-09-18",
@@ -432,6 +452,11 @@
   "LUMN": {
     "conviction": "medium",
     "last_visit": "2026-09-08",
+    "verdict": "no_model"
+  },
+  "MARA": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
     "verdict": "no_model"
   },
   "MATX": {
@@ -519,6 +544,11 @@
     "last_visit": "2026-09-17",
     "verdict": "no_model"
   },
+  "PLAY": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
+    "verdict": "no_model"
+  },
   "PRAX": {
     "conviction": "medium",
     "last_visit": "2026-08-31",
@@ -542,6 +572,11 @@
   "QLYS": {
     "conviction": "low",
     "last_visit": "2026-09-03",
+    "verdict": "rich"
+  },
+  "QTWO": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
     "verdict": "rich"
   },
   "RDN": {
@@ -778,6 +813,11 @@
     "conviction": "high",
     "last_visit": "2026-09-15",
     "verdict": "no_model"
+  },
+  "WK": {
+    "conviction": "low",
+    "last_visit": "2026-09-22",
+    "verdict": "no_edge"
   },
   "WLFC": {
     "conviction": "medium",

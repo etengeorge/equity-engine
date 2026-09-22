@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>AVNT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / AVNT</p><h1>AVNT <span style='color:var(--faint);font-weight:400'>AVIENT CORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$40.44</b></div><div>Analyst gap<b>-25%</b></div><div>Dated<b>2026-09-22</b></div></div><div class='prose'><h1>AVNT — AVIENT CORP</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-22 — RICH (conviction: low)</h2><ul><li><strong>Verdict:</strong> rich · price $40.44 · fair value $30.23 · gap -25.2%</li><li><strong>Growth:</strong> market implies +60.4%, analyst says +7.0% (delta -53.4%)</li><li><strong>FCFF base overridden</strong> by the analyst to $270.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 8.0% | 9.0% | 10.0% | 11.0% | 12.0% | |---|---|---|---|---|---|---| | bear | +2.0% | $34.00 | $26.88 | $21.53 | $17.37 | $14.04 | | base | +7.0% | $46.02 | $37.00 | $30.23 | $24.97 | $20.76 | | bull | +11.0% | $57.30 | $46.48 | $38.37 | $32.07 | $27.04 |</p><p>At the point WACC of 10.0%: bear -46.8%, base -25.2%, bull -5.1% Across the whole grid the gap ranges -65.3% to +41.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> Avient is executing well and the market is paying a normal specialty-formulator multiple for it. Q2 2026 adjusted EPS grew 20% to $0.96, beating the $0.89 guide on better-than-expected organic volume; organic sales grew 4.3%; adjusted EBITDA margin expanded 110bp to a record 18.3%; and management RAISED full-year 2026 adjusted EBITDA guidance to $575-603M and adjusted EPS to $3.10-3.25 (+10-15%). At a $5.17B enterprise value that is 8.8x guided adjusted EBITDA, which is an ordinary price for a specialty polymer formulator compounding EBITDA high single digits with both segments expanding margin. The company is also deleveraging, repaying $50M in Q2 and guiding to $100-150M for the year. Nothing about the price requires a mistake.</p><p><strong>What changed.</strong> Q2 2026 (filed 2026-08-06) raised full-year adjusted EBITDA guidance to $575-603M from an implied lower range and adjusted EPS to $3.10-3.25 from $2.93-3.17. No 8-K under items 1.01, 2.01 or 3.02 in the last two quarters, so enterprise value is not invalidated by a transaction. The share count (91,719,550, dei cover page, 2026-06-30) is current. What actually changed for this model is not news at all: it is an input defect described below.</p><p><strong>Base case.</strong> The engine&#x27;s FCFF base is wrong by a factor of more than four and the direction is toward false richness. <code>interest_expense</code> is recorded as MINUS $115,300,000 against $1,875.8M of debt. Avient presents &#x27;Interest expense, net ( 98.6 ) ( 105.6 ) ( 115.3 )&#x27; in parentheses in its 10-K income statement and the extractor kept the sign, so <code>normalized_fcff</code> SUBTRACTS $86.5M of after-tax interest instead of adding it: mean(cfo-capex) is $137.4M and the recorded base is $50.9M, which is $86.5M = -$115.3M x 0.75 below it, reproducing the defect to the dollar. The magnitude is also stale (it is the FY2023 figure; FY2025 was $98.6M, and the 10-K states total interest PAID on debt, net of hedging, was $97.6M in 2025). Corrected, the after-tax add-back is +$73.2M. Second defect on the same name: <code>possible_peak_cycle_base</code> fires because the newest FCF is 2.4x the oldest, but the series [$82.2M, $134.9M, $195.0M] oldest-to-newest is a monotonic improvement, not a peak - the ITRI error - so the three-year mean UNDERSTATES current generation. FY2025 actual cfo-capex was $195.0M and H1 2026 is tracking flat to prior year ($59.3M CFO less $41.3M capex against $61.7M/$39.5M), on a business whose cash is ~80% H2-weighted. I set the base at $270M (FY2026 CFO of roughly $290-300M less $110-115M of capex, plus $73.2M of after-tax interest paid) and take 7% five-year FCFF growth, below the company&#x27;s guided adjusted EBITDA trajectory because deleveraging mechanically shrinks the interest add-back that is 27% of this base.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that I have corrected one input and then quietly trusted a second one I should not. Fixing the interest sign takes the required growth from +60.4% to +16.7%, but the WACC of 10.01% that produces it rests on a beta of 1.44 measured against IWM with an R-squared of 0.469 - which is a GOOD fit, so that is not the attack. The attack is on the FCFF definition itself: for a company carrying $1.88B of debt and repaying $100-150M a year, adding back after-tax interest and then discounting at a blended WACC assumes a stable capital structure that management has explicitly said it is changing. As leverage falls, the add-back shrinks and so does &#x27;FCFF&#x27; as defined, even though equity holders are better off. On that reading my 7% is too low and the real answer is closer to the EBITDA growth rate, which would make the stock roughly fair.</li><li>What would prove it: Whether FY2026 free cash flow before interest actually lands near my $290-300M CFO assumption. The settling observable is the full-year cash flow statement: CFO less capex for fiscal 2026 against the $195.0M of fiscal 2025, and whether the Q4 cash build that makes this business H2-weighted arrives on schedule.</li><li>Already visible today: Partly, and it is neutral rather than supportive. H1 2026 CFO of $59.3M against $61.7M a year earlier is DOWN $2.4M, which the 10-Q attributes to &#x27;higher earnings offset by an investment in working capital and higher restructuring payments&#x27;. So the earnings improvement is real but has not yet reached cash, and the whole FY2026 cash case rests on H2. That weakens my base rather than strengthening it, which is why conviction is low.</li><li>Left unresolved: I could not determine how much of the $46.3M of interest INCOME embedded in &#x27;Interest expense, net&#x27; is economically recurring - it includes cross-currency swap receipts on net investment hedges. Using gross rather than net interest would raise the add-back and lower the required growth further. I also could not reconcile the FCFF base to guided EBITDA: $589M of adjusted EBITDA less $110M of capex should leave more than $270M after cash taxes, which suggests either the three-year cash history carries non-recurring outflows or adjusted EBITDA is flattering.</li></ul><p><strong>Key risks.</strong> the recorded -123.3% gap and +60.4% implied growth are an interest-expense SIGN ERROR and must not be read as a signal in either direction; the verdict rests on a hand-built FCFF base; at the three-year mean the market requires +18.3% and at the FY2025 run rate +12.1%, so the answer moves 6 points on that choice alone; deleveraging shrinks the after-tax interest add-back, which is 27% of my base, so reported FCFF falls even as the equity improves; revenue_series carries a step ([$3,396.9M, $4,818.8M, $3,242.1M]) spanning the 2022 Distribution divestiture, so the &#x27;+0.1% 5y revenue CAGR&#x27; baseline is not a growth rate <strong>Watch for.</strong> FY2026 full-year CFO less capex against fiscal 2025&#x27;s $195.0M - the single number that settles the base; an engine fix asserting interest_expense &gt;= 0 in normalized_fcff, and taking the most recent year rather than the oldest; adjusted EBITDA margin holding above 18% through a raw-material up-cycle</p><p><strong>Data quality.</strong> One flag raised and BOTH the flag and a larger unflagged defect resolved against the engine. (1) <code>possible_peak_cycle_base_newest_fcf_2.4x_oldest</code>: FALSE - [$82.2M, $134.9M, $195.0M] oldest-to-newest is monotonic, which is a recovery, not a peak (the ITRI test), so the flag points the wrong way and the mean understates. (2) UNFLAGGED AND LARGE: interest_expense = -$115,300,000, verified against the 10-Q (&#x27;Interest expense, net ( 22.3 ) ( 24.7 ) ( 44.3 ) ( 51.6 )&#x27;) and the 10-K (&#x27;Interest expense, net (98.6) (105.6) (115.3)&#x27;). The implied rate on absolute value is 6.15%, squarely inside the normal band, so neither the ALTG &gt;12% detector nor the PATK &lt;2% detector can fire - only a sign test catches this. Corrected, implied growth falls from +60.4% to +16.7% at the engine&#x27;s own WACC. Share count current (2026-06-30, dei cover page); no item 1.01/2.01/3.02 8-K in two quarters; beta R-squared 0.469 is sound.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1122976/000112297626000126/avnt-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1122976/000112297626000126/avnt-20260630.htm</a> (10-Q 2026-06-30: interest expense net $44.3M for six months, H1 CFO $59.3M, capex $41.3M)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1122976/000112297626000039/avnt-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1122976/000112297626000039/avnt-20251231.htm</a> (10-K FY2025: interest expense net (98.6)/(105.6)/(115.3); total interest PAID on debt net of hedging $97.6M in 2025)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1122976/000112297626000123/avnt-20260630x8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1122976/000112297626000123/avnt-20260630x8k.htm</a> EX-99.1 (Q2 2026 release: adjusted EBITDA guidance raised to $575-603M, adjusted EPS $3.10-3.25, organic sales +4.3%, record 18.3% margin, FY2025 adjusted EBITDA $544.6M)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/AVNT.md'>research/Materials/AVNT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

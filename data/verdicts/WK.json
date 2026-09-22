@@ -1,0 +1,53 @@
+{
+  "ticker": "WK",
+  "date": "2026-09-22",
+  "sector": "Information Technology",
+  "name": "WORKIVA CLASS A",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.07,
+  "bull_growth": 0.3,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 72.83999633789062,
+  "market_implied_growth": 0.2676174359125688,
+  "cohort_pct": 57.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case for a number rather than a refusal is that the BOX arithmetic I used charges Workiva the full replacement cost of dilution forever, at today's share price, which is the most punitive possible reading. If revenue compounds mid-teens and stock compensation is held flat in dollars - which is what a company hitting its margin target a year early is telling you it is doing - the dilution offset falls as a share of a growing cash flow every single year. Under that path owner earnings grow far faster than the 19% top line, and the +27% requirement is met not by heroics but by arithmetic. On that reading the refusal is the error and Workiva is cheap.",
+    "what_would_prove_it": "Stock compensation in absolute dollars over the next four quarters against revenue. If SBC stays near $123M while revenue goes from $885M to $1.04B and then higher, the bull's mechanism is working and the gap between guided FCF and owner earnings closes on its own. If SBC grows with revenue, it does not.",
+    "already_visible": "Partly, and it supports the bull. `sbc_series` runs [$98.8M, $102.2M, $122.9M] oldest to newest - so SBC grew 20% in the newest year, faster than revenue's 19.7%, which argues AGAINST the bull. But the 1,300bp of non-GAAP margin expansion and the 2027 target being hit a year early are real and are in the guidance, and the share count is genuinely shrinking, which is the single best evidence that management is treating the comp as a cost. The two readings point in opposite directions and I could not resolve them.",
+    "unresolved": "How much of the ~21% free cash flow margin is a working-capital or deferred-revenue build rather than earnings - Workiva's subscription billings are front-loaded and I could not decompose the guided figure. I also note that `shares_asof` and `shares_source` are both NULL in the extract, so the 56,272,517 shares the model uses has no provenance; it happens to reconcile to the Class A plus Class B weighted averages, but that is luck rather than a verified count."
+  },
+  "what_changed": "Q2 2026 (filed 2026-08-04) beat the high end of revenue guidance, delivered 1,300bp of year-over-year non-GAAP operating margin expansion, and set full-year 2026 free cash flow margin guidance at ~21% of $1.04B of revenue. The company reached GAAP profitability ($12.6M of net income in Q2 against a $0.35 loss per share a year earlier). Nothing structural: no acquisition, no financing, no item 1.01/2.01/3.02 8-K. The 2026 convertible notes mature in August 2026 and were carried at $71.2M current at the balance sheet date.",
+  "consensus_case": "Workiva is a 19%-growth compliance platform whose margins have inflected hard, and the price reflects the inflection rather than the trailing cash flow. Q2 2026 delivered 19% growth in both subscription and total revenue while non-GAAP operating margin beat the high end of guidance by 180bp - a 1,300 basis point improvement over Q2 of last year - and management said this positions them to hit the 2027 medium-term 18% operating-margin target a full year early. Full-year 2026 guidance is revenue of $1.040-1.044B, GAAP operating margin of 5.7-5.8%, non-GAAP operating margin of approximately 18%, GAAP diluted EPS of $1.21-1.22, and a FREE CASH FLOW MARGIN OF APPROXIMATELY 21% - roughly $219M, against a three-year historical mean of $98.4M. A company doubling free cash flow while growing revenue 19% and turning GAAP-profitable is not obviously mispriced at $4.05B of enterprise value.",
+  "base_case_rationale": "I cannot narrow this to a number, and the reason is that the two defensible bases are 2.2x apart and both are defensible. The engine's $106.7M base is the three-year mean of cfo-capex [$68.8M, $86.3M, $138.0M] plus a $9.0M interest add-back, and the `possible_peak_cycle_base` flag calls the newest year a peak - which is the ITRI error, because the series is monotonic and the company guides the newest level to rise a further 59% to ~$219M this year. Correcting for that alone takes the required growth from +26.8% to +7.3%, which would make Workiva look cheap. But Workiva's free cash flow is not owner earnings: stock compensation is $122.9M, 110% of the engine's base and 56% of guided free cash flow, and reported FCF adds every dollar of it back. Per the BOX rule I went and got the net share count. Basic weighted-average shares were 55,638,926 in Q2 2026 against 56,076,723 in Q2 2025, and 55,259,608 in H1 2026 against 56,133,286 in H1 2025 - the count is FALLING 1.6% year over year net of all compensation, so unlike Q2 Holdings the comp IS being paid for. But paying for it consumes essentially the whole of it: offsetting ~1.7M shares a year of comp issuance at $72.84 costs roughly $122M, so owner earnings are about $219M - $122M = $97M, plus the $9M add-back, or $106M - which lands almost exactly back on the engine's base by coincidence, and requires +27.2% growth. The answer is therefore +7.3% required if you underwrite guided FCF and +27.2% if you underwrite owner earnings; at a defensible SaaS beta the expensed end reaches +30.1%. A 20-point span on one treatment is not a valuation.",
+  "key_risks": [
+    "the answer spans +7.3% required growth (guided free cash flow) to +30.1% (owner earnings at a defensible discount rate) on one accounting choice",
+    "stock compensation of $122.9M is 110% of the engine's FCFF base and grew 20% in the newest year, faster than revenue",
+    "beta is 0.62 with an R-squared of 0.067, so the 9.18% WACC is barely a measurement; at a defensible SaaS beta the requirement rises 3 points",
+    "shareholders' equity is NEGATIVE $97.1M and $768.6M of convertible notes sit ahead of the equity, $71.2M of it maturing August 2026"
+  ],
+  "watch_for": [
+    "stock compensation in absolute dollars against revenue over the next four quarters - the one number that collapses the range",
+    "whether the FY2026 21% free cash flow margin is delivered, and how much of it is deferred-revenue build",
+    "the August 2026 convertible maturity being settled in cash rather than shares"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1445305/000144530526000060/wk-20260630.htm (10-Q 2026-06-30: basic weighted-average shares 55,638,926 / 56,076,723 / 55,259,608 / 56,133,286; convertible senior notes $71,208 current + $697,352 non-current)",
+    "https://www.sec.gov/Archives/edgar/data/1445305/000144530526000059/q22026exhibit991.htm (Q2 2026 EX-99.1: FY2026 revenue $1.040-1.044B, non-GAAP operating margin ~18%, free cash flow margin ~21%, GAAP diluted EPS $1.21-1.22 on 55.7M shares, 1,300bp margin improvement)"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_16%_debt_weight",
+    "possible_peak_cycle_base_newest_fcf_2.0x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_110%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

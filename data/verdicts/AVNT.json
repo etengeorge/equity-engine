@@ -1,0 +1,186 @@
+{
+  "ticker": "AVNT",
+  "date": "2026-09-22",
+  "sector": "Materials",
+  "name": "AVIENT CORP",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "low",
+  "final_growth": 0.07,
+  "bear_growth": 0.02,
+  "bull_growth": 0.11,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 40.439998626708984,
+  "market_implied_growth": 0.6037838856292084,
+  "cohort_pct": 9.8,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.07,
+    "market_implied_growth": 0.6037838856292084,
+    "growth_delta": -0.5337838856292083,
+    "fair_value": 30.228936158688164,
+    "price": 40.439998626708984,
+    "gap": -0.2524990804840638,
+    "fair_value_band": {
+      "low": 24.96908218052998,
+      "point": 30.228936158688164,
+      "high": 36.995749253293695
+    },
+    "fcff_base_used": 270000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10010266577655952,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 270000000,
+      "price": 40.439998626708984,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.08010266577655951,
+              "fair_value": 34.00430425106726,
+              "gap": -0.15914180499974617
+            },
+            {
+              "wacc": 0.09010266577655952,
+              "fair_value": 26.877845880665845,
+              "gap": -0.33536481717598
+            },
+            {
+              "wacc": 0.10010266577655952,
+              "fair_value": 21.530718647702518,
+              "gap": -0.4675885415712564
+            },
+            {
+              "wacc": 0.11010266577655951,
+              "fair_value": 17.370487981423107,
+              "gap": -0.5704626960607609
+            },
+            {
+              "wacc": 0.12010266577655952,
+              "fair_value": 14.041450097874476,
+              "gap": -0.6527831212981133
+            }
+          ],
+          "fair_value_at_point_wacc": 21.530718647702518,
+          "gap_at_point_wacc": -0.4675885415712564
+        },
+        {
+          "case": "base",
+          "growth": 0.07,
+          "cells": [
+            {
+              "wacc": 0.08010266577655951,
+              "fair_value": 46.02207609425213,
+              "gap": 0.13803357213410994
+            },
+            {
+              "wacc": 0.09010266577655952,
+              "fair_value": 36.995749253293695,
+              "gap": -0.08516937414385817
+            },
+            {
+              "wacc": 0.10010266577655952,
+              "fair_value": 30.228936158688164,
+              "gap": -0.2524990804840638
+            },
+            {
+              "wacc": 0.11010266577655951,
+              "fair_value": 24.96908218052998,
+              "gap": -0.3825647124518221
+            },
+            {
+              "wacc": 0.12010266577655952,
+              "fair_value": 20.7643580686667,
+              "gap": -0.4865391005490124
+            }
+          ],
+          "fair_value_at_point_wacc": 30.228936158688164,
+          "gap_at_point_wacc": -0.2524990804840638
+        },
+        {
+          "case": "bull",
+          "growth": 0.11,
+          "cells": [
+            {
+              "wacc": 0.08010266577655951,
+              "fair_value": 57.29917071660485,
+              "gap": 0.41689348819020644
+            },
+            {
+              "wacc": 0.09010266577655952,
+              "fair_value": 46.47680767978666,
+              "gap": 0.14927817156478862
+            },
+            {
+              "wacc": 0.10010266577655952,
+              "fair_value": 38.368379387492894,
+              "gap": -0.051226985894303856
+            },
+            {
+              "wacc": 0.11010266577655951,
+              "fair_value": 32.069779148664146,
+              "gap": -0.2069787280486366
+            },
+            {
+              "wacc": 0.12010266577655952,
+              "fair_value": 27.03819712885167,
+              "gap": -0.33139965264504156
+            }
+          ],
+          "fair_value_at_point_wacc": 38.368379387492894,
+          "gap_at_point_wacc": -0.051226985894303856
+        }
+      ],
+      "summary": {
+        "bear": -0.4675885415712564,
+        "base": -0.2524990804840638,
+        "bull": -0.051226985894303856
+      },
+      "downside": -0.6527831212981133,
+      "upside": 0.41689348819020644
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that I have corrected one input and then quietly trusted a second one I should not. Fixing the interest sign takes the required growth from +60.4% to +16.7%, but the WACC of 10.01% that produces it rests on a beta of 1.44 measured against IWM with an R-squared of 0.469 - which is a GOOD fit, so that is not the attack. The attack is on the FCFF definition itself: for a company carrying $1.88B of debt and repaying $100-150M a year, adding back after-tax interest and then discounting at a blended WACC assumes a stable capital structure that management has explicitly said it is changing. As leverage falls, the add-back shrinks and so does 'FCFF' as defined, even though equity holders are better off. On that reading my 7% is too low and the real answer is closer to the EBITDA growth rate, which would make the stock roughly fair.",
+    "what_would_prove_it": "Whether FY2026 free cash flow before interest actually lands near my $290-300M CFO assumption. The settling observable is the full-year cash flow statement: CFO less capex for fiscal 2026 against the $195.0M of fiscal 2025, and whether the Q4 cash build that makes this business H2-weighted arrives on schedule.",
+    "already_visible": "Partly, and it is neutral rather than supportive. H1 2026 CFO of $59.3M against $61.7M a year earlier is DOWN $2.4M, which the 10-Q attributes to 'higher earnings offset by an investment in working capital and higher restructuring payments'. So the earnings improvement is real but has not yet reached cash, and the whole FY2026 cash case rests on H2. That weakens my base rather than strengthening it, which is why conviction is low.",
+    "unresolved": "I could not determine how much of the $46.3M of interest INCOME embedded in 'Interest expense, net' is economically recurring - it includes cross-currency swap receipts on net investment hedges. Using gross rather than net interest would raise the add-back and lower the required growth further. I also could not reconcile the FCFF base to guided EBITDA: $589M of adjusted EBITDA less $110M of capex should leave more than $270M after cash taxes, which suggests either the three-year cash history carries non-recurring outflows or adjusted EBITDA is flattering."
+  },
+  "what_changed": "Q2 2026 (filed 2026-08-06) raised full-year adjusted EBITDA guidance to $575-603M from an implied lower range and adjusted EPS to $3.10-3.25 from $2.93-3.17. No 8-K under items 1.01, 2.01 or 3.02 in the last two quarters, so enterprise value is not invalidated by a transaction. The share count (91,719,550, dei cover page, 2026-06-30) is current. What actually changed for this model is not news at all: it is an input defect described below.",
+  "consensus_case": "Avient is executing well and the market is paying a normal specialty-formulator multiple for it. Q2 2026 adjusted EPS grew 20% to $0.96, beating the $0.89 guide on better-than-expected organic volume; organic sales grew 4.3%; adjusted EBITDA margin expanded 110bp to a record 18.3%; and management RAISED full-year 2026 adjusted EBITDA guidance to $575-603M and adjusted EPS to $3.10-3.25 (+10-15%). At a $5.17B enterprise value that is 8.8x guided adjusted EBITDA, which is an ordinary price for a specialty polymer formulator compounding EBITDA high single digits with both segments expanding margin. The company is also deleveraging, repaying $50M in Q2 and guiding to $100-150M for the year. Nothing about the price requires a mistake.",
+  "base_case_rationale": "The engine's FCFF base is wrong by a factor of more than four and the direction is toward false richness. `interest_expense` is recorded as MINUS $115,300,000 against $1,875.8M of debt. Avient presents 'Interest expense, net ( 98.6 ) ( 105.6 ) ( 115.3 )' in parentheses in its 10-K income statement and the extractor kept the sign, so `normalized_fcff` SUBTRACTS $86.5M of after-tax interest instead of adding it: mean(cfo-capex) is $137.4M and the recorded base is $50.9M, which is $86.5M = -$115.3M x 0.75 below it, reproducing the defect to the dollar. The magnitude is also stale (it is the FY2023 figure; FY2025 was $98.6M, and the 10-K states total interest PAID on debt, net of hedging, was $97.6M in 2025). Corrected, the after-tax add-back is +$73.2M. Second defect on the same name: `possible_peak_cycle_base` fires because the newest FCF is 2.4x the oldest, but the series [$82.2M, $134.9M, $195.0M] oldest-to-newest is a monotonic improvement, not a peak - the ITRI error - so the three-year mean UNDERSTATES current generation. FY2025 actual cfo-capex was $195.0M and H1 2026 is tracking flat to prior year ($59.3M CFO less $41.3M capex against $61.7M/$39.5M), on a business whose cash is ~80% H2-weighted. I set the base at $270M (FY2026 CFO of roughly $290-300M less $110-115M of capex, plus $73.2M of after-tax interest paid) and take 7% five-year FCFF growth, below the company's guided adjusted EBITDA trajectory because deleveraging mechanically shrinks the interest add-back that is 27% of this base.",
+  "key_risks": [
+    "the recorded -123.3% gap and +60.4% implied growth are an interest-expense SIGN ERROR and must not be read as a signal in either direction",
+    "the verdict rests on a hand-built FCFF base; at the three-year mean the market requires +18.3% and at the FY2025 run rate +12.1%, so the answer moves 6 points on that choice alone",
+    "deleveraging shrinks the after-tax interest add-back, which is 27% of my base, so reported FCFF falls even as the equity improves",
+    "revenue_series carries a step ([$3,396.9M, $4,818.8M, $3,242.1M]) spanning the 2022 Distribution divestiture, so the '+0.1% 5y revenue CAGR' baseline is not a growth rate"
+  ],
+  "watch_for": [
+    "FY2026 full-year CFO less capex against fiscal 2025's $195.0M - the single number that settles the base",
+    "an engine fix asserting interest_expense >= 0 in normalized_fcff, and taking the most recent year rather than the oldest",
+    "adjusted EBITDA margin holding above 18% through a raw-material up-cycle"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1122976/000112297626000126/avnt-20260630.htm (10-Q 2026-06-30: interest expense net $44.3M for six months, H1 CFO $59.3M, capex $41.3M)",
+    "https://www.sec.gov/Archives/edgar/data/1122976/000112297626000039/avnt-20251231.htm (10-K FY2025: interest expense net (98.6)/(105.6)/(115.3); total interest PAID on debt net of hedging $97.6M in 2025)",
+    "https://www.sec.gov/Archives/edgar/data/1122976/000112297626000123/avnt-20260630x8k.htm EX-99.1 (Q2 2026 release: adjusted EBITDA guidance raised to $575-603M, adjusted EPS $3.10-3.25, organic sales +4.3%, record 18.3% margin, FY2025 adjusted EBITDA $544.6M)"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_2.4x_oldest_growth_applied_to_a_peak_overstates_value"
+  ]
+}

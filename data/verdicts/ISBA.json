@@ -1,0 +1,53 @@
+{
+  "ticker": "ISBA",
+  "date": "2026-09-22",
+  "sector": "Financials",
+  "name": "ISABELLA BANK CORP",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 38.20000076293945,
+  "market_implied_growth": null,
+  "cohort_pct": 93.2,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest argument against refusing is that the ROTCE input - the thing I am refusing to supply - is actually fine. Isabella's net income series [$18.9M, $13.9M, $18.2M] against equity of [$231.4M, $210.3M, $202.4M] gives a stable high-single to low-double-digit return with no acquisition, no reserve release and no mark inside it, which is more than can be said for most financials this engine prices. If the numerator is sound and only the discount rate is broken, the honest thing is to supply the ROTCE, record the verdict as 'rich at any defensible cost of equity', and let the reader see a number - rather than refuse and leave the name unpriced for another rotation cycle.",
+    "what_would_prove_it": "Whether the schema can carry the correction. It cannot: `rotce_override` sets the numerator and there is no field for the cost of equity, so any ROTCE I supply is divided by 5.087% - 2% = 3.087% and produces a justified multiple near 2.7x and a large positive fair value that I do not believe. Supplying 10.2% would publish a fair value around $64 against a $38.20 price.",
+    "already_visible": "Yes, decisively, and it is why the counter loses. The precedent is explicit in this project's own record - on GLRE, IRWD, CLVT and HP the analyst JSON had no field to override the discount rate and the conclusion each time was that the verdict is the output and the printed number must be ignored. The additional reason here is independent of the beta: a merger closing in Q4 2026 changes the share count AND, on the company's own statement, reduces tangible book per share, so BOTH sides of the ratio the model prices are about to move. Even a correct cost of equity would be applied to a balance sheet that will not exist in December.",
+    "unresolved": "The size of the tangible book dilution. Grand River's ~9.5 million shares at 0.1415 would issue roughly 1.35 million Isabella shares against 7.63 million outstanding - about 18% dilution if taken all in stock - but the cash/stock proration is elective and I could not determine the final mix, so I could not compute pro forma tangible book per share. I also could not explain `fy_end` of 2018-12-31 (2,822 days); the equity and income series look current, which is the HWC shape, but I did not reconcile them line by line to the 10-Q."
+  },
+  "what_changed": "The decisive fact is a pending acquisition the engine cannot see. On 2026-06-11 Isabella, 401 Merger Sub and Grand River Commerce, Inc. (OTCQX:GNRV) entered an Agreement and Plan of Merger; Isabella is the ACQUIRER, in a cash-and-stock transaction valued at approximately $54.6 million, with Grand River shareholders electing approximately $5.72 in cash or 0.1415 Isabella shares per share subject to proration. Grand River shareholders APPROVED the merger at a special meeting on 2026-09-18, and the companies expect to close in the FOURTH QUARTER OF 2026, subject to regulatory approvals. The deal takes Isabella into Grand Rapids and creates a pro forma bank of roughly $2.8 billion of assets and 33 locations across nine counties. Isabella's own 8-K risk factors name 'the dilution caused by Isabella's issuance of additional shares of its common stock in the merger transaction' and 'the expected impact on and timing of the recovery of the impact on TANGIBLE BOOK VALUE' - that is, the company states that the transaction reduces tangible book per share and that the recovery takes time. Both inputs to the model - the share count and tangible book per share - are therefore about to change, and neither change is in the extract.",
+  "consensus_case": "Isabella Bank is a $2.3 billion Michigan community bank that was added to the Russell 2000 in July 2026 and is in the middle of buying another bank. It earns roughly 10% on tangible common equity, pays a $0.28 quarterly dividend, and trades at about 1.45x tangible book. For a small, illiquid Michigan thrift-like franchise with $3.1M of average daily dollar volume and a return around the cost of equity, 1.45x tangible book is an ordinary price - and the pending acquisition of Grand River Commerce will dilute tangible book before it accretes. There is no mispricing here that a reader of the filings would recognise.",
+  "base_case_rationale": "I decline to supply a sustainable ROTCE, because the gap on this name is not produced by the return at all - it is produced by the discount rate, which the schema cannot override, and supplying a ROTCE would launder that defect into a published fair value. The arithmetic: the engine's justified P/TBV of 2.67 comes from (ROTCE 10.2% - 2%) / (cost of equity 5.087% - 2%). That 5.087% cost of equity is built on a BETA OF 0.0227 with an R-SQUARED OF 0.004, sourced `yahoo_rescaled` from a Yahoo raw figure of 0.024. A beta of two hundredths is not a measurement of anything; it is the failed-beta bias at the most extreme reading in this file, worse than IRWD's 0.2 at R-squared 0.032, and worse in kind because a rescaled Yahoo figure is not our regression at all so the R-squared gate cannot bite on it. Substituting a defensible community-bank cost of equity - Cathay General, the other bank in today's ten, regresses to 0.89 with an R-squared of 0.534 - the justified multiple falls from 2.67 to 1.46 at a 0.60 beta, 1.28 at 0.75 and 1.14 at 0.89. A SECOND defect runs the other way and must be corrected at the same time: tangible book per share of $24.00 is computed from `equity_series[0]` of $231.4M (2025-12-31) while `equity_now` of $248.7M (2026-06-30) is in the same record, so true tangible book is $26.27 and actual P/TBV is 1.454x rather than 1.59x - independently confirmed by the multiples row on the same brief, which prints p_tbv 1.454. Correcting both, the recorded +67.5% gap becomes roughly +0.7% at a 0.60 beta and -12% to -22% at a beta in the range an actual bank regression produces. The entire gap is one unmeasured number.",
+  "key_risks": [
+    "the recorded +67.5% gap and 93rd-percentile rank are an artifact of a 5.09% cost of equity built on a beta of 0.0227 with an R-squared of 0.004, and must not be read as a signal",
+    "a merger closing in Q4 2026 changes both the share count and tangible book per share, and the company itself flags the tangible book dilution and its recovery period",
+    "`last_10k_2822d_old` - fy_end reads 2018-12-31, so the provenance of the fundamentals is not established",
+    "$3.1M of average daily dollar volume on a $291M market capitalisation - this is not a liquid security"
+  ],
+  "watch_for": [
+    "completion of the Grand River transaction and the first post-close balance sheet - pro forma tangible book per share and the final share count",
+    "a beta with a usable R-squared once the enlarged company has trading history, or an engine gate on R-squared for yahoo_rescaled betas specifically",
+    "regulatory approval, the last outstanding closing condition"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/842517/000084251726000222/isba-20260921.htm (8-K 2026-09-21 item 8.01: Grand River shareholders approved the merger 2026-09-18, closing expected Q4 2026, risk factors naming share issuance dilution and tangible book value impact)",
+    "https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/isba_votingagreementxex991.htm (8-K 2026-06-15 item 1.01 EX-99.1: form of shareholder voting agreement for the Grand River merger)",
+    "https://www.sec.gov/Archives/edgar/data/842517/000084251726000180/isba-20260630.htm (10-Q 2026-06-30)",
+    "https://www.nasdaq.com/press-release/isabella-bank-corporation-acquire-grand-river-commerce-inc-2026-06-12 (deal terms: ~$54.6M, $5.72 cash or 0.1415 Isabella shares, pro forma ~$2.8B assets)"
+  ],
+  "flags": [
+    "last_10k_2822d_old"
+  ]
+}

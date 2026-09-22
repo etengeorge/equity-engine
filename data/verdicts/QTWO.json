@@ -1,0 +1,187 @@
+{
+  "ticker": "QTWO",
+  "date": "2026-09-22",
+  "sector": "Information Technology",
+  "name": "Q2 HOLDINGS INC",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "low",
+  "final_growth": 0.15,
+  "bear_growth": 0.08,
+  "bull_growth": 0.22,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 57.93000030517578,
+  "market_implied_growth": 0.2382810836245347,
+  "cohort_pct": 56.1,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.15,
+    "market_implied_growth": 0.2382810836245347,
+    "growth_delta": -0.08828108362453471,
+    "fair_value": 35.44514705155622,
+    "price": 57.93000030517578,
+    "gap": -0.38813832444621343,
+    "fair_value_band": {
+      "low": 31.84068442259658,
+      "point": 35.44514705155622,
+      "high": 39.962678833139414
+    },
+    "fcff_base_used": 110000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10986874497525997,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 110000000,
+      "price": 57.93000030517578,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.08986874497525997,
+              "fair_value": 34.899231925733595,
+              "gap": -0.39756202758701686
+            },
+            {
+              "wacc": 0.09986874497525998,
+              "fair_value": 30.627158905758186,
+              "gap": -0.4713074616880023
+            },
+            {
+              "wacc": 0.10986874497525997,
+              "fair_value": 27.309493720885,
+              "gap": -0.5285777045223834
+            },
+            {
+              "wacc": 0.11986874497525997,
+              "fair_value": 24.659384886507553,
+              "gap": -0.5743244474952238
+            },
+            {
+              "wacc": 0.12986874497525996,
+              "fair_value": 22.494422927030705,
+              "gap": -0.6116964818137429
+            }
+          ],
+          "fair_value_at_point_wacc": 27.309493720885,
+          "gap_at_point_wacc": -0.5285777045223834
+        },
+        {
+          "case": "base",
+          "growth": 0.15,
+          "cells": [
+            {
+              "wacc": 0.08986874497525997,
+              "fair_value": 45.785916409605534,
+              "gap": -0.20963376198161743
+            },
+            {
+              "wacc": 0.09986874497525998,
+              "fair_value": 39.962678833139414,
+              "gap": -0.3101557289381037
+            },
+            {
+              "wacc": 0.10986874497525997,
+              "fair_value": 35.44514705155622,
+              "gap": -0.38813832444621343
+            },
+            {
+              "wacc": 0.11986874497525997,
+              "fair_value": 31.84068442259658,
+              "gap": -0.450359325826695
+            },
+            {
+              "wacc": 0.12986874497525996,
+              "fair_value": 28.899622795217955,
+              "gap": -0.5011285578633786
+            }
+          ],
+          "fair_value_at_point_wacc": 35.44514705155622,
+          "gap_at_point_wacc": -0.38813832444621343
+        },
+        {
+          "case": "bull",
+          "growth": 0.22,
+          "cells": [
+            {
+              "wacc": 0.08986874497525997,
+              "fair_value": 59.50270755389612,
+              "gap": 0.027148407395741536
+            },
+            {
+              "wacc": 0.09986874497525998,
+              "fair_value": 51.70487185125743,
+              "gap": -0.10745949285558976
+            },
+            {
+              "wacc": 0.10986874497525997,
+              "fair_value": 45.660680298595004,
+              "gap": -0.21179561439575156
+            },
+            {
+              "wacc": 0.11986874497525997,
+              "fair_value": 40.8425749718899,
+              "gap": -0.29496677443930885
+            },
+            {
+              "wacc": 0.12986874497525996,
+              "fair_value": 36.915106110256865,
+              "gap": -0.3627635781842268
+            }
+          ],
+          "fair_value_at_point_wacc": 45.660680298595004,
+          "gap_at_point_wacc": -0.21179561439575156
+        }
+      ],
+      "summary": {
+        "bear": -0.5285777045223834,
+        "base": -0.38813832444621343,
+        "bull": -0.21179561439575156
+      },
+      "downside": -0.6116964818137429,
+      "upside": 0.027148407395741536
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The best case against me is that I am charging Q2 Holdings the full $86.9M of stock compensation as a permanent cash cost while the company has just acquired the balance sheet to stop it. The 2026 converts consumed $304.0M of cash in the very half I measured; that cash is now permanently freed, and $375M of repurchase authorisation against a $3.6B market capitalisation is enough to retire roughly 10% of the shares. A single half-year in which the count rose 1.0% while the company was simultaneously paying off a convertible is weak evidence of a structural failure to fund the comp. On that reading the right base is nearer the newest-year $197M figure, the requirement falls to +13.2%, and against 14% revenue growth the stock is roughly fair.",
+    "what_would_prove_it": "The basic weighted-average share count in Q3 and Q4 2026, now that the notes are repaid and the full $375M authorisation is available. If the basic count turns down year over year while stock compensation stays near $87M, the comp is being paid for and my base is too low by roughly $87M - which is the whole verdict.",
+    "already_visible": "No, and that is the honest answer. The only quarter in which the repayment and the new authorisation coexist is Q3 2026, which has not been reported. What IS visible is that in Q2 2026 - a quarter with $22.9M of repurchases at an average of $45.67, well below today's $57.93 - the basic count still rose. Buying back stock 21% cheaper than today and still not shrinking the count is not an encouraging starting point, but it is one quarter.",
+    "unresolved": "Whether management intends the $375M to shrink the count or merely to offset dilution; the release does not say. I also could not obtain the full-year 2026 adjusted EBITDA guidance figures - the release states guidance was updated but the numeric table was not in the portion of the exhibit I could read - so I could not test my 15% against the company's own margin trajectory."
+  },
+  "what_changed": "Q2 2026 (filed 2026-07-29): the $304.0M of 0.75% convertible senior notes due June 2026 were repaid in cash before maturity with no conversions, leaving the company debt-free; $120.1M of shares were repurchased in H1 (0.5M shares at ~$45.67 in Q2 alone); a new $350M repurchase authorisation was announced. Cash and equivalents fell from $369.3M at 2025-12-31 to $102.1M, almost entirely because of the note repayment and the buyback.",
+  "consensus_case": "Q2 Holdings has turned into a profitable, debt-free compounder and the market is paying a normal price for it. Revenue grew 14.1% to $794.8M on a trailing basis; GAAP diluted EPS was $0.46 in Q2 against $0.18; operating cash flow reached $201.5M against $135.8M and $70.3M in the two prior years; the company repaid the remaining $304.0M of its 0.75% convertible notes IN CASH at maturity in June 2026 and now carries no debt at all; and on the strength of that balance sheet the board authorised an additional $350M of buybacks on top of the November 2025 $150M, bringing capacity to ~$375M. A digital-banking platform selling to community and regional banks with that revenue growth, zero leverage and $375M of repurchase capacity is not an obvious mispricing at 4.4x trailing revenue.",
+  "base_case_rationale": "The deciding input on this name is the stock-compensation treatment, and the BOX rule settles it decisively AGAINST the company. Stock compensation is $86.9M, 66% of the $131.6M FCFF base, and the brief offers the usual binary: treat it as free and the market implies +23.8%, expense it and +55.0%. Neither is the economics - the right test is the NET weighted-average basic share count. Q2 Holdings' basic weighted-average shares were 62,486 thousand in Q2 2026 against 62,353 thousand in Q2 2025, and 62,412 thousand in H1 2026 against 61,790 thousand in H1 2025: the count ROSE 1.0% year over year DESPITE $120.1M of repurchases in the same six months. The buyback did not even absorb the dilution, so the compensation is a real, unpaid-for economic cost and the honest base sits near the expensed end. Note the trap in the same table: DILUTED shares fell from 69,642 to 65,420 thousand, a 6.1% reduction that looks shareholder-friendly and is nothing of the kind - it is the if-converted shares of the 2026 notes dropping out because the notes were repaid in cash. An analyst reading the diluted line gets the sign of this test exactly backwards. On the newest year's cash generation less stock compensation ($194.7M - $86.9M) plus the small interest add-back, owner earnings are about $110M against a $3.51B enterprise value - a 3.1% yield requiring +28.8% growth. I underwrite 15%: revenue compounds around 14% with some margin leverage, but not double that.",
+  "key_risks": [
+    "the verdict turns almost entirely on one input - the stock-compensation treatment - and the honest range is +13.2% required (newest year, comp free) to +28.8% (comp expensed)",
+    "the BOX test rests on a single half-year in which the company was simultaneously retiring $304.0M of convertible notes",
+    "a reader using DILUTED shares would see a 6.1% reduction and conclude the opposite of what the basic count says",
+    "stock compensation is 10.9% of revenue, which is high even for enterprise software"
+  ],
+  "watch_for": [
+    "basic weighted-average shares in Q3 and Q4 2026 - down year over year overturns this verdict",
+    "stock compensation as a percentage of revenue trending below 9%",
+    "how much of the $375M authorisation is actually spent in the next two quarters"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1410384/000141038426000053/qtwo-20260630.htm (10-Q 2026-06-30: basic weighted-average shares 62,486/62,353/62,412/61,790 thousand; diluted 65,420/69,642; convertible notes settled and no longer outstanding; repurchases of common shares $120,081 thousand)",
+    "https://www.sec.gov/Archives/edgar/data/1410384/000141038426000051/a260630q2ex9918k.htm (Q2 2026 EX-99.1: additional $350M repurchase authorisation, debt-free balance sheet, 0.5M shares at ~$45.67 for $22.9M in Q2)"
+  ],
+  "flags": [
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "possible_peak_cycle_base_newest_fcf_3.0x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_66%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

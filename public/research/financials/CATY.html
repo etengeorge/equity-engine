@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CATY — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / CATY</p><h1>CATY <span style='color:var(--faint);font-weight:400'>CATHAY GENERAL BANCORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$61.48</b></div><div>Analyst gap<b>-10%</b></div><div>Dated<b>2026-09-22</b></div></div><div class='prose'><h1>CATY — CATHAY GENERAL BANCORP</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-22 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $61.48 · fair value $55.40 · gap -9.9%</li><li><strong>Sustainable ROTCE:</strong> screen said +13.7%, analyst says +14.0%</li><li><strong>P/TBV:</strong> justified 1.53 vs actual 1.70 on tangible book of $36.26/share</li></ul><p><strong>The case for the price.</strong> Cathay General is a well-run Chinese-American commercial bank earning a return modestly above its cost of equity, and it trades at about 1.6x tangible book, which is what that is worth. Q2 2026 return on average stockholders&#x27; equity was 12.21% and return on average assets 1.52%, both improved from 11.88% and 1.47% in Q1; return on average TANGIBLE common equity was 13.98%, up from 13.64% in Q1 and 12.36% a year earlier. The stock is up 25.5% over twelve months. At a 9.84% cost of equity and a 2% terminal growth rate, a 13.98% sustainable return justifies 1.53x tangible book against an actual 1.61x. The market is paying a small premium to the arithmetic for a bank whose returns are rising rather than falling - which is a defensible price, not a mistake in either direction.</p><p><strong>What changed.</strong> Nothing material. No company-specific news in the store for the last 90 days, which for this name means the wire was quiet AND the tape was quiet - the 5-day move is -1.5% and the 21-day -0.9%. The most recent filings are the Q2 10-Q (2026-08-07) and the Q2 earnings 8-K (2026-07-22). There is no 8-K under items 1.01, 2.01 or 3.02 in the last two quarters, so the enterprise is not changed by a transaction. The absence of news lowers my confidence that nothing happened; it does not confirm it.</p><p><strong>Base case.</strong> This is the one clean name in today&#x27;s ten and the engine&#x27;s inputs survive every standing test. I override the sustainable ROTCE to 13.98%, the company&#x27;s own reported return on average tangible common equity for Q2 2026, rather than the engine&#x27;s 13.72% three-year GAAP average - a trivial change, and that is the point. Running the checklist: the AX numerator defect does NOT apply, because <code>net_income_common_series</code> [$315.1M, $286.0M, $354.1M] equals <code>net_income_series</code> exactly; preferred stock of $128.2M IS correctly deducted from tangible common equity (the $36.26 tangible book per share reproduces only with it deducted); <code>equity_concept</code> is StockholdersEquity, which is parent-only, so the $8.4M of non-controlling interest is correctly NOT deducted a second time; the beta of 0.89 carries an R-squared of 0.534, the best fit in today&#x27;s ten and far above the low-fit bias threshold; and the share count of 66,713,820 at 2026-07-31 reconciles to the 66,825,367 on the Q2 balance sheet. The one defect present is the standing stale-tangible-book bug: <code>justified_pb</code> prices today&#x27;s share price against <code>equity_series[0]</code> of $2,925.4M (2025-12-31) when <code>equity_now</code> of $3,046.6M (2026-06-30) sits in the same record, so tangible book per share reads $36.26 against a true $38.08 and actual P/TBV reads 1.70x against a true 1.614x - independently corroborated by the multiples table on the same brief, which prints p_tbv 1.620x. Correcting that, and taking the company&#x27;s own current return, the gap is about -5.4%, not -11.9%. A 5% gap on a bank is noise.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The best case against calling this fair is that a 13.98% ROATCE on a bank with Cathay&#x27;s commercial real-estate concentration is a cyclical high, not a sustainable return, and I have taken the peak quarter of a rising series as the input. The engine&#x27;s own three-year series runs 13.03%, 12.23%, 15.89% - a 3.7-point range with no trend - and picking the newest quarter from a noisy series is exactly the error the standing lesson warns about in the opposite direction. At the weakest year&#x27;s 12.23% the justified multiple is 1.30 against an actual 1.61, and the stock is 19% RICH rather than 5%. The whole verdict sits inside that 3.7-point range.</li><li>What would prove it: The path of non-performing loans and criticised commercial real-estate exposure over the next four quarters. A bank earning a genuine 14% on tangible equity does it with stable credit; a bank earning it on reserve releases does not. The specific test is provision expense against net charge-offs - releases flatter the return without improving the book.</li><li>Already visible today: Partly, and it supports the fair reading rather than the bear. The return is rising monotonically over the last three reported quarters (12.36% -&gt; 13.64% -&gt; 13.98%) and return on average ASSETS is rising with it (1.47% -&gt; 1.52%), which is harder to manufacture with a reserve release than a return on equity is. That is the VLY test - rising return together with a rising book is an operating improvement rather than an accounting one. But I did not obtain the credit-quality detail to run the provision-versus-charge-offs check directly.</li><li>Left unresolved: Whether the $128.2M of preferred was outstanding for all three years in the ROTCE window. If it was issued recently, the older tangible-common-equity denominators are understated and the engine&#x27;s 13.72% average is overstated by a few tenths - immaterial to the verdict but it is the one reconciliation I could not close. I also could not run the credit-quality test above from the documents I fetched.</li></ul><p><strong>Key risks.</strong> commercial real-estate concentration is the structural risk in this franchise and no return-on-equity model prices a credit cycle; the verdict moves from -5% to -19% across the engine&#x27;s own three-year ROTCE range of 12.23% to 15.89%; the model&#x27;s fixed 2% terminal growth is doing real work in the justified multiple - at 4% the justified multiple rises above the actual and the sign flips <strong>Watch for.</strong> return on average tangible common equity falling back below 13% for two consecutive quarters; provision expense rising materially above net charge-offs, the tell that the reported return is a release; an engine fix: justified_pb using equity_now rather than equity_series[0]</p><p><strong>Data quality.</strong> No flags were raised and, unusually, that is close to correct. Every standing book-method cross-check PASSES: net_income_common_series equals net_income_series (no AX duration defect); preferred of $128.2M is deducted; equity_concept is parent-only so NCI is correctly left alone (the MFIN test); beta R-squared 0.534 is the strongest in today&#x27;s ten; share count current. ONE defect remains and it is the standing unfixed one: <code>justified_pb</code> uses <code>equity_series[0]</code> = $2,925,388,000 (2025-12-31) while <code>equity_now</code> = $3,046,614,000 (2026-06-30) is in the same record, so tangible book per share is $36.26 against a true $38.08 and actual P/TBV 1.70x against 1.614x. The multiples table&#x27;s p_tbv of 1.620x independently confirms the corrected figure - here the AII cross-check works exactly as designed. Because the recorded fair value will be computed on the stale book, the PRINTED gap will be about -10% while the true gap is about -5.4%; both are inside the no-edge band, so the defect does not change the verdict on this name.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/ex_991410.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/ex_991410.htm</a> (Q2 2026 EX-99.1: ROATCE 13.98% / 13.64% / 12.36%, ROAE 12.21%, ROAA 1.52%, average tangible stockholders&#x27; equity $2,651,921 thousand, 66,825,367 shares outstanding)</li><li><a href="https://www.sec.gov/Archives/edgar/data/861842/000143774926026554/caty20260630_10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/861842/000143774926026554/caty20260630_10q.htm</a> (10-Q 2026-06-30)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/CATY.md'>research/Financials/CATY.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
