@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-22T11:34:04+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "GEO",
+    "cik": 923796,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526337932/geo-20260630.htm",
+        "file": "2026-08-06-10-Q-geo-20260630.htm.txt",
+        "chars": 246050,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675d8k.htm",
+        "file": "2026-08-06-8-K-d118675d8k.htm.txt",
+        "chars": 3805,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526211821/geo-20260331.htm",
+        "file": "2026-05-07-10-Q-geo-20260331.htm.txt",
+        "chars": 216779,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526207484/d122560d8k.htm",
+        "file": "2026-05-06-8-K-d122560d8k.htm.txt",
+        "chars": 3745,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526204018/d104487d8k.htm",
+        "file": "2026-05-04-8-K-d104487d8k.htm.txt",
+        "chars": 4800,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-05",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526094068/d84742d8k.htm",
+        "file": "2026-03-05-8-K-d84742d8k.htm.txt",
+        "chars": 9974,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-25",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526071747/geo-20251231.htm",
+        "file": "2026-02-25-10-K-geo-20251231.htm.txt",
+        "chars": 400144,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-12",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526048953/d91287d8k.htm",
+        "file": "2026-02-12-8-K-d91287d8k.htm.txt",
+        "chars": 10546,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675dex991.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 30374,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/923796/000119312526207484/d122560dex991.htm",
+        "file": "2026-05-06-EX-99.1.txt",
+        "chars": 28089,
+        "truncated": false
+      }
+    ]
+  }
+}
