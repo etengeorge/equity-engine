@@ -1,5 +1,47 @@
 [
  {
+  "id": "f34519bd-dc7e-3628-a1fc-455cd1546a8a",
+  "ts": "2026-09-21T19:53:32+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195332442.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "7748da6c-02e8-3736-818a-89444d63ccf0",
+  "ts": "2026-09-21T18:48:03+00:00",
+  "title": "Hormel Foods Stock: Is HRL Underperforming the Consumer Defensive Sector?",
+  "summary": "As Hormel Foods has fallen short of the consumer defensive sector over the past year, Wall Street analysts maintain a cautious outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4717112/hormel-foods-stock-is-hrl-underperforming-the-consumer-defensive-sector",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "bc085d97-2d67-3d1b-beac-c510c44248f6",
+  "ts": "2026-09-21T17:42:39+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
+  "summary": "Consumer stocks were mixed Monday afternoon, with the State Street Consumer Staples Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-174239686.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "1aad3be4-2405-3f83-a916-e9fcee286377",
   "ts": "2026-09-21T13:23:24+00:00",
   "title": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",

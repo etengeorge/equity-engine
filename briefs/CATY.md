@@ -1,62 +1,56 @@
-# FLG — FLAGSTAR BANK NATIONAL ASSOCIATION
-*Financials · brief generated 2026-09-21 · selected as **rotation***
+# CATY — CATHAY GENERAL BANCORP
+*Financials · brief generated 2026-09-22 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 199/1956
+- rotation position 203/1956
 
 ## Market
 | | |
 |---|---|
-| price | $12.55 |
-| market cap | $5.2B |
-| 5d / 21d / 63d / 252d | -4.8% / -8.3% / -14.3% / +4.2% |
-| 60d avg daily $ volume | $62.8M |
-| beta (vs IWM) | 1.2 (R²=0.331) |
-| 5d volume vs 60d average | 1.1x |
+| price | $61.48 |
+| market cap | $4.1B |
+| 5d / 21d / 63d / 252d | -1.5% / -0.9% / +3.2% / +25.5% |
+| 60d avg daily $ volume | $30.4M |
+| beta (vs IWM) | 0.89 (R²=0.534) |
+| 5d volume vs 60d average | 1.5x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 44% / debt 56% |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -7.1% |
-| cost of equity | +11.6% |
-| justified P/TBV | -0.95 |
-| actual P/TBV | 0.72 |
-| tangible book / share | $17.49 |
-| implied gap | -232.0% |
+| sustainable ROTCE | +13.7% |
+| cost of equity | +9.8% |
+| justified P/TBV | 1.49 |
+| actual P/TBV | 1.7 |
+| tangible book / share | $36.26 |
+| implied gap | -11.9% |
 
-Cohort: **2th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -197.7%).
+Cohort: **71th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +21.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `last_10k_1360d_old`
-- `speculative_cost_of_debt_at_56%_debt_weight_wacc_unreliable`
-- `unstable_rotce_-16.1%_to_-2.3%`
-- `loss_year_in_window`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000068/fbc-20260630.htm
-- 2026-07-24 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/nycb-20260724.htm
-- 2026-06-11 **8-K** — items 5.02,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000062/nycb-20260609.htm
-- 2026-05-18 **8-K** — items 5.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000053/nycb-20260518.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000047/fbc-20260331.htm
-- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000039/fbc-20260430.htm
-- 2026-04-24 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000035/nycb-20260424.htm
-- 2026-03-27 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000029/nycb-20260325.htm
-- 2026-02-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910073/000091007326000027/nycb-20260227.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/910073/000091007326000025/fbc-20251231.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/861842/000143774926026554/caty20260630_10q.htm
+- 2026-07-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/caty20260722_8k.htm
+- 2026-05-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/861842/000143774926017795/caty20260519_8k.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/861842/000143774926015940/caty20260331c_10q.htm
+- 2026-04-23 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/861842/000143774926013200/caty20260423_8k.htm
+- 2026-04-22 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/861842/000143774926013036/caty20260422_8k.htm
+- 2026-04-16 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/861842/000143774926012477/caty20260328_def14a.htm
+- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/861842/000143774926006157/caty20251231c_10k.htm
+- 2026-02-05 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/861842/000143774926003217/caty20260204_8k.htm
+- 2026-01-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/861842/000143774926001931/caty20260123_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-24** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/a2q2026earningsrelease.htm
-- **2026-07-24** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/flg_2q26xearningsxpresen.htm
-- **2026-07-24** · EX-99.3 · press release — EX-99.3 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000065/flagstar-sharerepurchase.htm
-- **2026-06-11** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/910073/000091007326000062/flagstar-preliminaryannu.htm
+- **2026-07-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/ex_991410.htm
+- **2026-07-22** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/ex_991411_source.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -64,6 +58,9 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
+- **2026-09-21** · Sector Update: Financial Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html
+- **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
 - **2026-09-21** · Sector Update: Financial Stocks Advance Pre-Bell Monday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html
 - **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
 - **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
@@ -71,23 +68,20 @@ Attack these before you trust any number above.
 - **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
 - **2026-09-18** · Betting Against Banks With FAZ? You’re Actually Shorting Insurers and Brokers — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/18/betting-against-banks-with-faz-youre-actually-shorting-insurers-and-brokers/
 - **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
-- **2026-09-18** · How Is Principal Financial's Stock Performance Compared to Other Financial Stocks — *Barchart* — https://www.barchart.com/story/news/4676218/how-is-principal-financial-s-stock-performance-compared-to-other-financial-stocks
-- **2026-09-17** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195738170.html
-- **2026-09-17** · Sector Update: Financial Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html
 
 ## Market and macro context
-- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
-- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
-- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
-- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
+- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
+- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
+- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
+- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
 
 *Rules, releases and agency actions:*
-- **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
-- **2026-09-21** · Safety Zone; Illinois River, Morris, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19270/safety-zone-illinois-river-morris-il
-- **2026-09-21** · Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19260/rescission-of-rule-14a-8s-federal-regulation-of-shareholder-proposals-and-amendments-to-rule-14a-4
-- **2026-09-21** · Proxy Solicitation Modernization — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19259/proxy-solicitation-modernization
-- **2026-09-21** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19255/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-21** · Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19254/great-lakes-pilotage-rates-2027-annual-review-and-revisions-to-methodology
+- **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
+- **2026-09-22** · Fisheries of the Exclusive Economic Zone Off Alaska; “Other Rockfish” in the Aleutian Islands Subarea of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19390/fisheries-of-the-exclusive-economic-zone-off-alaska-other-rockfish-in-the-aleutian-islands-subarea
+- **2026-09-22** · Softwood Lumber Board Assessment Rate Clarification and Changes to Membership — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19389/softwood-lumber-board-assessment-rate-clarification-and-changes-to-membership
+- **2026-09-22** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M) — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19370/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
+- **2026-09-22** · Capital Construction Fund Revision — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19367/capital-construction-fund-revision
+- **2026-09-22** · Periodic Reporting — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19361/periodic-reporting
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,5 +1,33 @@
 [
  {
+  "id": "30080911-6471-38d2-a865-8f557e514b78",
+  "ts": "2026-09-21T19:43:39+00:00",
+  "title": "Sector Update: Healthcare Stocks Higher Late Afternoon",
+  "summary": "Healthcare stocks rose late Monday afternoon with the NYSE Healthcare Index increasing 0.6% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-higher-afternoon-194339680.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "537cd8fa-b82f-31ed-93c1-43590399915e",
+  "ts": "2026-09-21T17:50:58+00:00",
+  "title": "Sector Update: Healthcare Stocks Rise in Afternoon Trading",
+  "summary": "Healthcare stocks rose Monday afternoon, with the NYSE Healthcare Index increasing 0.5% and the Stat",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-175058246.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "aacb2764-c622-3012-96e6-e6496d8b3e78",
   "ts": "2026-09-21T13:45:22+00:00",
   "title": "Novo Nordisk Falls 7% as Post-Wegovy Growth Plan Fails to Ease Competition Fears; Eli Lilly Slips, Viking Therapeutics Edges Higher",

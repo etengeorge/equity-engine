@@ -1,67 +1,67 @@
-# AZZ — AZZ INC
-*Industrials · brief generated 2026-09-21 · selected as **rotation***
+# GEO — GEO GROUP
+*Industrials · brief generated 2026-09-22 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 200/1956
+- rotation position 208/1956
 
 ## Market
 | | |
 |---|---|
-| price | $132.72 |
+| price | $30.25 |
 | market cap | $4.0B |
-| 5d / 21d / 63d / 252d | -3.2% / -7.5% / -15.4% / +17.9% |
-| 60d avg daily $ volume | $41.4M |
-| beta (vs IWM) | 1.08 (R²=0.397) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-05-31 (10-Q) |
-| WACC weights | equity 89% / debt 11% |
+| 5d / 21d / 63d / 252d | -1.9% / -4.6% / +2.0% / +37.6% |
+| 60d avg daily $ volume | $62.1M |
+| beta (vs IWM) | 1.55 (R²=0.173) |
+| 5d volume vs 60d average | 1.3x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 72% / debt 28% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$179.0M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$444.7M', '$-29.9M', '$-3.1M']
-Enterprise value **$4.8B** · FCFF yield **+3.7%**
+Normalized FCFF base **$203.9M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$-124.9M', '$163.5M', '$211.9M']
+Enterprise value **$5.4B** · FCFF yield **+3.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.3% − 1pt | +17.8% |
-| **10.3% (point)** | **+21.4%** |
-| 10.3% + 1pt | +24.8% |
+| 12.3% − 1pt | +25.0% |
+| **12.3% (point)** | **+28.2%** |
+| 12.3% + 1pt | +31.3% |
 
 
-Naive baseline for comparison: **+14.5%** (5y revenue CAGR +14.5%).
-Gap under that baseline: **-27.9%** (fair value $95.63 vs price $132.72).
+> **Stock compensation is 23% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$185.0M** and an implied growth of **+31.0%** instead of +28.2%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+2.3%** (5y revenue CAGR +2.3%).
+Gap under that baseline: **-85.5%** (fair value $4.40 vs price $30.25).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **43th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.3%).
+Cohort: **9th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -63.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_3.5x_of_mean`
+- `lumpy_fcff_spread_4.0x_of_mean`
+- `stock_comp_is_23%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-03 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000167/azz-20260803.htm
-- 2026-07-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000163/azz-20260708.htm
-- 2026-07-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/8947/000000894726000162/azz-20260531.htm
-- 2026-07-07 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000134/azz-20260707.htm
-- 2026-06-25 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000120/azz-20260625.htm
-- 2026-05-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000110/azz-20260528.htm
-- 2026-05-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/8947/000110465926066068/tm264150-1_def14a.htm
-- 2026-05-08 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000108/azz-20260507.htm
-- 2026-04-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/8947/000000894726000069/azz-20260422.htm
-- 2026-04-22 **10-K** — https://www.sec.gov/Archives/edgar/data/8947/000000894726000068/azz-20260228.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/923796/000119312526337932/geo-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675d8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/923796/000119312526211821/geo-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526207484/d122560d8k.htm
+- 2026-05-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/923796/000119312526204018/d104487d8k.htm
+- 2026-03-19 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/923796/000119312526116014/d923546ddef14a.htm
+- 2026-03-05 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526094068/d84742d8k.htm
+- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/923796/000119312526071747/geo-20251231.htm
+- 2026-02-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526048953/d91287d8k.htm
+- 2026-02-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/923796/000119312526047556/d88889d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000167/azzpressrelease-davenport.htm
-- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000163/exhibit991q1fy27earningsre.htm
-- **2026-06-25** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000120/q1fy2027dividendrelease.htm
-- **2026-05-28** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/8947/000000894726000110/azz_investordeckx05x28x2.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/923796/000119312526336562/d118675dex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -70,6 +70,7 @@ Attack these before you trust any number above.
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
 - **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
+- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
 - **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
 - **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
@@ -78,21 +79,20 @@ Attack these before you trust any number above.
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 - **2026-09-14** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid AI Pullback — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132016142.html
 - **2026-09-11** · Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/
-- **2026-09-11** · Ferguson Stock: Is FERG Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector
 
 ## Market and macro context
-- **2026-09-21** · MGM Resorts (MGM): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-buy-sell-163025102.html
-- **2026-09-21** · 2 Russell 2000 Stocks on Our Watchlist and 1 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-russell-2000-stocks-watchlist-161425287.html
-- **2026-09-21** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-160625273.html
-- **2026-09-21** · Stocks, Bonds Climb as Oil Falls on US-Iran Hopes — *Bloomberg* — https://finance.yahoo.com/video/stocks-bonds-climb-oil-falls-155551436.html
+- **2026-09-22** · Tech Rally Pauses, But Soft Oil Lifts Wall Street Pre-Bell; Asia, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/tech-rally-pauses-soft-oil-110942833.html
+- **2026-09-22** · Stock Futures Rise as Oil Drops on Iran Hormuz Hope — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/dow-futures-fall-as-record-tech-rally-runs-out-of-gas-1HVhU55FCnoBKxeTUDoM?siteid=yhoof2&yptr=yahoo
+- **2026-09-22** · 2 Cannabis Stocks That Are Quietly Trouncing the Market in 2026 — *Motley Fool* — https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/
+- **2026-09-22** · Should You Invest $1,000 in SCHD Right Now? — *Motley Fool* — https://www.fool.com/investing/2026/09/22/should-you-invest-1000-in-schd-right-now/
 
 *Rules, releases and agency actions:*
-- **2026-09-21** · Privacy Act Regulations — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19290/privacy-act-regulations
-- **2026-09-21** · Safety Zone; Illinois River, Morris, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19270/safety-zone-illinois-river-morris-il
-- **2026-09-21** · Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4 — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19260/rescission-of-rule-14a-8s-federal-regulation-of-shareholder-proposals-and-amendments-to-rule-14a-4
-- **2026-09-21** · Proxy Solicitation Modernization — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19259/proxy-solicitation-modernization
-- **2026-09-21** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19255/airworthiness-directives-the-boeing-company-airplanes
-- **2026-09-21** · Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/21/2026-19254/great-lakes-pilotage-rates-2027-annual-review-and-revisions-to-methodology
+- **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
+- **2026-09-22** · Fisheries of the Exclusive Economic Zone Off Alaska; “Other Rockfish” in the Aleutian Islands Subarea of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19390/fisheries-of-the-exclusive-economic-zone-off-alaska-other-rockfish-in-the-aleutian-islands-subarea
+- **2026-09-22** · Softwood Lumber Board Assessment Rate Clarification and Changes to Membership — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19389/softwood-lumber-board-assessment-rate-clarification-and-changes-to-membership
+- **2026-09-22** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M) — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19370/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
+- **2026-09-22** · Capital Construction Fund Revision — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19367/capital-construction-fund-revision
+- **2026-09-22** · Periodic Reporting — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19361/periodic-reporting
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

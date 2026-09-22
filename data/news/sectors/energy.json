@@ -1,5 +1,75 @@
 [
  {
+  "id": "90831bed-4e80-3abf-ad70-5adcdd5f838c",
+  "ts": "2026-09-21T21:00:17+00:00",
+  "title": "A Record ETF Year Takes Shape as Inflows Near $1.5 Trillion",
+  "summary": "<p>US-listed ETFs took in $91.9 billion last week, pushing 2026 inflows to about $1.47 trillion, nearly matching last year's record with three months to spare.</p>",
+  "publisher": "etf.com",
+  "url": "http://www.etf.com/sections/weekly-etf-flows/record-etf-year-takes-shape-inflows-near-15-trillion?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "bd159c18-f18b-33cc-8f35-406744e7368a",
+  "ts": "2026-09-21T19:55:39+00:00",
+  "title": "Sector Update: Energy Stocks Fall Late Afternoon",
+  "summary": "Energy stocks declined late Monday afternoon with the NYSE Energy Sector Index falling 1.7% and the",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-195539794.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "4c6996d9-47c1-3ded-84b7-f7c2db70643d",
+  "ts": "2026-09-21T19:55:01+00:00",
+  "title": "XLE Is 91% Oil and Gas. Investors Buying \u201cEnergy\u201d May Own Less Than They Think",
+  "summary": "The ticker says energy, but the fund's holdings tell a much narrower story than most investors expect before they buy in.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/09/21/xle-is-91-oil-and-gas-investors-buying-energy-may-own-less-than-they-think/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "eb8b390f-8af9-3d57-b30e-8f7e04b4086d",
+  "ts": "2026-09-21T18:00:54+00:00",
+  "title": "Sector Update: Energy Stocks Fall Monday Afternoon",
+  "summary": "Energy stocks were lower Monday afternoon, with the NYSE Energy Sector Index falling 2% and the Stat",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-monday-180054749.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "c37fdd10-faf4-3171-8983-185f1664c214",
+  "ts": "2026-09-21T17:07:53+00:00",
+  "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were higher. Actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "1aad3be4-2405-3f83-a916-e9fcee286377",
   "ts": "2026-09-21T13:23:24+00:00",
   "title": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",

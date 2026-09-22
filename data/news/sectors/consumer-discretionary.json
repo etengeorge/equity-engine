@@ -1,5 +1,47 @@
 [
  {
+  "id": "c09a4dc1-7f42-3e3d-b95a-a98ca67197c2",
+  "ts": "2026-09-22T02:22:08+00:00",
+  "title": "Darden Restaurants Stock: Is DRI Outperforming the Consumer Discretionary Sector?",
+  "summary": "Darden Restaurants stock has outpaced the Consumer Discretionary Sector over the past year, while analysts remain cautiously bullish about its prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4722142/darden-restaurants-stock-is-dri-outperforming-the-consumer-discretionary-sector",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "f34519bd-dc7e-3628-a1fc-455cd1546a8a",
+  "ts": "2026-09-21T19:53:32+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195332442.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "bc085d97-2d67-3d1b-beac-c510c44248f6",
+  "ts": "2026-09-21T17:42:39+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
+  "summary": "Consumer stocks were mixed Monday afternoon, with the State Street Consumer Staples Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-174239686.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "1aad3be4-2405-3f83-a916-e9fcee286377",
   "ts": "2026-09-21T13:23:24+00:00",
   "title": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",

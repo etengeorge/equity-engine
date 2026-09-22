@@ -1,5 +1,33 @@
 [
  {
+  "id": "3c0595cd-7b7e-3264-90a3-7df23b469a34",
+  "ts": "2026-09-21T20:03:16+00:00",
+  "title": "Sector Update: Financial Stocks Rise Late Afternoon",
+  "summary": "Financial stocks were advancing in late Monday afternoon trading, with the NYSE Financial Index risi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "d0da9895-8ff3-3b23-b541-f966328a43e8",
+  "ts": "2026-09-21T18:06:46+00:00",
+  "title": "Sector Update: Financial Stocks Advance Monday Afternoon",
+  "summary": "Financial stocks were advancing in Monday afternoon trading, with the NYSE Financial Index rising 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "e5e3cc63-4546-344f-829d-2bdb8e6b3c36",
   "ts": "2026-09-18T20:06:41+00:00",
   "title": "Sector Update: Financial Stocks Mixed Late Afternoon",

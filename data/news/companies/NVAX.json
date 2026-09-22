@@ -1,5 +1,29 @@
 [
  {
+  "id": "d1ddb863-bc95-3907-a0b1-e680b612d55d",
+  "ts": "2026-09-21T09:34:25+00:00",
+  "title": "3 Volatile Stocks with Questionable Fundamentals",
+  "summary": "Volatility cuts both ways - while it creates opportunities, it also increases risk, making sharp declines just as likely as big gains. This unpredictability can shake out even the most experienced investors.",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-volatile-stocks-questionable-fundamentals-093425365.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e9a0bb29-8790-392a-ad5d-bae4eec1f70f",
+  "ts": "2026-09-18T21:45:04+00:00",
+  "title": "Novavax (NVAX) Beats Stock Market Upswing: What Investors Need to Know",
+  "summary": "In the most recent trading session, Novavax (NVAX) closed at $10.11, indicating a +1.1% shift from the previous trading day.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/novavax-nvax-beats-stock-market-214504647.html",
+  "tickers": [
+   "NVAX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1e92c200-ada2-370f-96ab-be40023169a7",
   "ts": "2026-09-18T07:45:00+00:00",
   "title": "Novavax (NVAX) Soars 7.0%: Is Further Upside Left in the Stock?",
