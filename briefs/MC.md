@@ -1,98 +1,65 @@
-# INDB — INDEPENDENT BANK CORP
+# MC — MOELIS CLASS A
 *Financials · brief generated 2026-09-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 219/1956
+- rotation position 225/1956
 
 ## Market
 | | |
 |---|---|
-| price | $81.20 |
-| market cap | $3.8B |
-| 5d / 21d / 63d / 252d | -2.7% / -2.8% / +0.5% / +15.2% |
-| 60d avg daily $ volume | $29.6M |
-| beta (vs IWM) | 1.01 (R²=0.495) |
-| 5d volume vs 60d average | 1.5x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 91% / debt 9% |
+| price | $60.56 |
+| market cap | n/a |
+| 5d / 21d / 63d / 252d | -3.4% / -9.4% / -8.6% / -18.9% |
+| 60d avg daily $ volume | $57.7M |
+| beta (vs IWM) | 1.32 (R²=0.483) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-06-30 (10-Q) |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +10.3% |
-| cost of equity | +10.5% |
-| justified P/TBV | 0.98 |
-| actual P/TBV | 1.64 |
-| tangible book / share | $49.43 |
-| implied gap | -40.4% |
+| sustainable ROTCE | n/a |
+| cost of equity | n/a |
+| justified P/TBV | None |
+| actual P/TBV | None |
+| tangible book / share | n/a |
+| implied gap | n/a |
 
-Cohort: **43th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -6.6%).
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_34%_of_book`
+- `no_share_count`
+- `insufficient_book_or_earnings_history`
+- `no_share_count_or_price`
 
 ## Recent filings
-- 2026-09-17 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/indb-20260917.htm
-- 2026-09-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/indb-20260908.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/776901/000077690126000129/indb-20260630.htm
-- 2026-07-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000126/indb-20260727.htm
-- 2026-07-16 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/indb-20260716.htm
-- 2026-06-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000113/indb-20260618.htm
-- 2026-06-16 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000110/indb-20260616.htm
-- 2026-05-14 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000107/indb-20260514.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/776901/000077690126000104/indb-20260331.htm
-- 2026-05-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/776901/000077690126000100/indb-20260430.htm
+- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1596967/000119312526324296/mc-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596967/000119312526323758/mc-20260729.htm
+- 2026-06-26 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1596967/000119312526285661/d921701d8k.htm
+- 2026-04-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1596967/000119312526193242/d79640ddef14a.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1596967/000119312526192462/mc-20260331.htm
+- 2026-04-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596967/000119312526191621/mc-20260429.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1596967/000119312526076747/mc-20251231.htm
+- 2026-02-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596967/000119312526037612/mc-20260204.htm
+- 2025-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1596967/000119312525256727/mc-20250930.htm
+- 2025-10-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1596967/000119312525256346/mc-20251029.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-17** · EX-99.1 · press release — EX-99.1 - Q3 2026 COMMON DIVIDEND PRESS RELEASE *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/exhibit991-q32026commondiv.htm
-- **2026-09-08** · EX-99.1 · presentation — EX-99.1 - RAYMOND JAMES INVESTOR PRESENTATION *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/investorpresentationslid.htm
-- **2026-07-27** · EX-99.1 · presentation — EX-99.1 - INVESTOR PRESENTATION *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000126/investorpresentationslid.htm
-- **2026-07-16** · EX-99.1 · press release — EX-99.1 - Q2 2026 EARNINGS PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/exhibit991-indb06x30x2026e.htm
-- **2026-07-16** · EX-99.2 · presentation — EX-99.2 - Q2 2026 EARNINGS PRESENTATION *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/q22026erpresentation-fin.htm
-- **2026-06-18** · EX-99.1 · press release — EX-99.1 - Q2 2026 COMMON DIVIDEND *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000113/exhibit991-q22026commondiv.htm
-- **2026-06-16** · EX-99.1 · presentation — EX-99.1 - EX-99.1 - INDB INVESTOR MEETING PRESENTATION *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/776901/000077690126000110/investorpresentationslid.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1596967/000119312526323758/mc-ex99_1.htm
 
 ## News on this company — last 90 days
-*14 items held; showing the 14 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-20** · Is Independent Bank (INDB) Undervalued As Its Dividend Keeps The Income Case Intact? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/independent-bank-indb-undervalued-dividend-171002336.html
-  > Independent Bank (INDB) drew fresh attention on September 17, 2026, after its board affirmed a quarterly dividend of $0.64 per share, payable on October 9 to investors of record as of September 28. Independent Bank shares trade at $82.24, w
-- **2026-09-18** · 2 Growth Stocks to Stash and 1 We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-growth-stocks-stash-1-211240431.html
-  > Growth is a hallmark of all great companies, but the laws of gravity eventually take hold. Those who rode the COVID boom and ensuing tech selloff in 2022 will surely remember that the market’s punishment can be swift and severe when traject
-- **2026-09-17** · Independent Bank Corp. Announces Quarterly Dividend — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/independent-bank-corp-announces-quarterly-202000015.html
-  > ROCKLAND, Mass., September 17, 2026--The Board of Directors of Independent Bank Corp. (Nasdaq Global Select Market: INDB), parent of Rockland Trust Company, today announced a $0.64 per share dividend. The dividend will be payable on October
-- **2026-09-17** · 1 Bank Stock Worth Your Attention and 2 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-bank-stock-worth-attention-085017399.html
-  > Banks play a critical role in the financial system, providing everything from commercial loans to wealth management and payment processing services. Market leaders have certainly capitalized on rising interest rates and strong loan demand t
-- **2026-09-02** · 1 Russell 2000 Stock with Exciting Potential and 2 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-exciting-182823904.html
-  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
-- **2026-08-21** · Q2 Earnings Outperformers: Independent Bank (NASDAQ:INDB) And The Rest Of The Regional Banks Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-outperformers-independent-bank-213947834.html
-  > The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how Independent Bank (NASDAQ:INDB) and the rest of the regional banks stoc
-- **2026-08-14** · Independent Bank (INDB): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/independent-bank-indb-buy-sell-225300180.html
-  > Independent Bank currently trades at $84.81 per share and has shown little upside over the past six months, posting a middling return of 2.4%. The stock also fell short of the S&P 500’s 13.5% gain during that period.
-- **2026-08-13** · 3 Inflated  Stocks with Open Questions — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-inflated-stocks-open-questions-130100655.html
-  > The stocks in this article are all trading near their 52-week highs. This strength often reflects positive developments such as new product launches, favorable industry trends, or improved financial performance.
-- **2026-07-24** · Independent Bank (IBCP) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/07/24/independent-bank-ibcp-q2-2026-earnings-call-transcript/
-  > Commercial loans grew 16% annualized as net income hit $18.8 million.
-- **2026-07-23** · Independent Bank Corporation Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-independent-bank-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Independent Bank Corporation's Q2 2026 earnings call
-- **2026-07-23** · Independent Bank Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-23/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Independent Bank (NASDAQ:IBCP) reported higher second-quarter 2026 earnings as net interest income rose, loan growth accelerated and the company continued to build capital while preparing to integrate its recently completed acquisition of H
-- **2026-07-22** · Independent Bank Corporation Appoints Nathan E. Tagg to Its Board of Directors — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/independent-bank-corporation-appoints-nathan-123000969.html
-  > GRAND RAPIDS, Mich., July 22, 2026 (GLOBE NEWSWIRE) -- Independent Bank Corporation (NASDAQ: IBCP), the holding company for Independent Bank and Highpoint Community Bank, today announced the appointment of Nathan E. Tagg to the Boards of Di
-- **2026-07-21** · Independent Bank Corporation Announces Quarterly Cash Dividend on Common Stock — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/independent-bank-corporation-announces-quarterly-200500789.html
-  > GRAND RAPIDS, Mich., July 21, 2026 (GLOBE NEWSWIRE) -- Independent Bank Corporation (NASDAQ: IBCP), the holding company for Independent Bank and Highpoint Community Bank, Michigan-based community banks, announced that today its Board of Dir
-- **2026-07-19** · Mixed Q2 Results And Aggressive Buybacks Might Change The Case For Investing In Independent Bank (INDB) — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/mixed-q2-results-aggressive-buybacks-160753528.html
-  > Independent Bank Corp. recently reported that second-quarter 2026 net charge-offs fell to US$911,000 from US$6,519,000 a year earlier, while also completing multiple buyback tranches totaling US$75.00 million under prior authorizations and 
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
 - **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
 - **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
@@ -102,13 +69,12 @@ Attack these before you trust any number above.
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
 - **2026-09-21** · Sector Update: Financial Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html
-- **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
 
 ## Market and macro context
-- **2026-09-23** · 2 S&P 500 Stocks Worth Investigating and 1 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-111702563.html
-- **2026-09-23** · BTIG’s Krinsky warns 2000-like signals are mounting — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/btig-krinsky-warns-2000-signals-110424595.html
-- **2026-09-23** · This AI Memory Stock Is Up More Than 650% in 2026. Micron Investors Should Pay Attention — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ai-memory-stock-more-650-110330434.html
-- **2026-09-23** · AAAU vs. GDX: Is It Better to Hold Physical Gold or Invest in Gold Miners? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/aaau-vs-gdx-is-it-better-to-hold-physical-gold-or-invest-in-gold-miners/
+- **2026-09-23** · Fed Governor Michael Barr's Speech in Focus — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-governor-michael-barrs-speech-150500608.html
+- **2026-09-23** · What Makes Abbott Laboratories (ABT) an Attractive Opportunity? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/makes-abbott-laboratories-abt-attractive-150134056.html
+- **2026-09-23** · Motorola Solutions (MSI): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-msi-buy-sell-150102796.html
+- **2026-09-23** · RLI Rises 6.2% in 3 Months: Time to Hold or Fold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rli-rises-6-2-3-145900972.html
 
 *Rules, releases and agency actions:*
 - **2026-09-23** · Public Water System Supervision Program Revision for the State of Arkansas — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas

@@ -1,5 +1,17 @@
 [
  {
+  "id": "cfaf6fb1-113f-3693-bffe-08d45094ccaa",
+  "ts": "2026-09-23T14:22:00+00:00",
+  "title": "2G Energy Receives 275 MW Order from Energy Vault Holding Inc, (NYSE: NRGV) for U.S. AI Energy Infrastructure Solutions",
+  "summary": "2G Energy AG has received a 275 MW order from Energy Vault Holdings Inc, (NYSE: NRGV) to supply power generation systems for Energy Vault's powered land and powered shell AI energy infrastructure solutions in the United States. These solutions are designed to serve AI and data center customers, including hyperscalers. Based on current project planning, delivery of the systems is scheduled between the fourth quarter of 2027 and the third quarter of 2028.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/energy/articles/2g-energy-receives-275-mw-142200818.html",
+  "tickers": [
+   "NRGV"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "dce47737-3b68-3c83-9daa-7f70815cac45",
   "ts": "2026-09-22T13:00:00+00:00",
   "title": "Energy Vault Expands Asset Vault Platform with Portfolio Acquisition of Goshe Energy Storage, Adding More Than 2.3 GW of U.S. BESS Projects, Including 350 MW Ready to Build",

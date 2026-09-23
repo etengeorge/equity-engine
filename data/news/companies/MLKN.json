@@ -1,5 +1,17 @@
 [
  {
+  "id": "f96c8fc5-e032-338a-9a58-0d0bd8fe9861",
+  "ts": "2026-09-23T13:32:00+00:00",
+  "title": "Company News for Sep 23, 2026",
+  "summary": "Companies in The News Are: AZO,THO,MLKN,VICR",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-23-2026-133200145.html",
+  "tickers": [
+   "MLKN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "bd59af49-6130-3aab-8a81-6e1ef936f173",
   "ts": "2026-09-23T07:33:02+00:00",
   "title": "MLKN Q3 Deep Dive: Margin Strength Offsets Softer Revenue and Lowered Outlook",

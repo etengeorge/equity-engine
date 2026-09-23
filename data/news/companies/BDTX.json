@@ -70,17 +70,5 @@
    "BDTX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2ec7d503-be49-360b-913f-2d9d3b4f186c",
-  "ts": "2026-05-25T14:53:00+00:00",
-  "title": "BDTX Stock Slumps on Mixed Phase II Frontline NSCLC Study Data",
-  "summary": "Black Diamond Therapeutics shares sink as phase II silevertinib data show NSCLC efficacy and CNS activity, but raise investor concerns on the early nature of the dataset.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/bdtx-stock-slumps-mixed-phase-145300709.html",
-  "tickers": [
-   "BDTX"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -1,5 +1,29 @@
 [
  {
+  "id": "31f0594e-2bcd-3672-b338-8a13cbbbfeb3",
+  "ts": "2026-09-23T13:49:52+00:00",
+  "title": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "summary": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-upgraded-hubspot-initiated-wall-134952467.html",
+  "tickers": [
+   "CMPX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "398e1f2a-579a-3bff-a584-38541e939da3",
+  "ts": "2026-09-23T13:44:55+00:00",
+  "title": "Compass Therapeutics\u2019 FDA Setback Raises Concerns On Wall Street \u2014 H.C. Wainwright Calls Tovecimig Filing Strategy \u2018Risky\u2019",
+  "summary": "Several analysts slashed their price targets on Compass Therapeutics after the FDA requested an additional trial for its cancer drug.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/compass-therapeutics-fda-setback-raises-concerns-on-wall-street-h-c-wainwright-calls-tovecimig-filing-strategy-risky/cZMEwFSRBJl",
+  "tickers": [
+   "CMPX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cae011a1-71b2-30d0-a877-5413e0a5c408",
   "ts": "2026-09-22T23:07:11+00:00",
   "title": "CMPX Plunge Wipes Out $104M After FDA Demands Fresh Trial For Cancer Drug \u2014 Wedbush Sees Another 19% Downside",

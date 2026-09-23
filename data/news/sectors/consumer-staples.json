@@ -1,5 +1,33 @@
 [
  {
+  "id": "52ee3077-7b18-3d5e-acc3-683984820c33",
+  "ts": "2026-09-23T13:31:35+00:00",
+  "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "123de017-e3c0-3d79-afde-e7a256a13a88",
+  "ts": "2026-09-23T13:27:00+00:00",
+  "title": "Stock Market News for Sep 23, 2026",
+  "summary": "U.S. stocks ended mixed on Tuesday, with the Nasdaq notching a record closing high, while the S&P 500 ended flat as investors closely monitored developments between the United States and Iran.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-23-132700528.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "f3794d58-90fd-329d-8054-bfea9094043e",
   "ts": "2026-09-23T10:20:03+00:00",
   "title": "Should You Invest in the State Street Consumer Staples Select Sector SPDR ETF (XLP)?",

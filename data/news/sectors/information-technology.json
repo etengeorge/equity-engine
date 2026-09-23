@@ -1,5 +1,47 @@
 [
  {
+  "id": "1c6b1579-8a3d-46a1-a60d-984157ca4bbf",
+  "ts": "2026-09-23T13:53:23+00:00",
+  "title": "Tech retreats as Treasury yields and oil climb: AlphaCheck",
+  "summary": "Here's a check of the markets in the first few minutes of trading.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/tech-retreats-as-treasury-yields-and-oil-climb-alphacheck-135323303.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "52ee3077-7b18-3d5e-acc3-683984820c33",
+  "ts": "2026-09-23T13:31:35+00:00",
+  "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "123de017-e3c0-3d79-afde-e7a256a13a88",
+  "ts": "2026-09-23T13:27:00+00:00",
+  "title": "Stock Market News for Sep 23, 2026",
+  "summary": "U.S. stocks ended mixed on Tuesday, with the Nasdaq notching a record closing high, while the S&P 500 ended flat as investors closely monitored developments between the United States and Iran.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-23-132700528.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "9eace8c6-764d-3cf8-8db1-6af1f9e20cce",
   "ts": "2026-09-22T22:15:04+00:00",
   "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",

@@ -1,94 +1,95 @@
-# UCB — UNITED COMMUNITY BANKS INC
-*Financials · brief generated 2026-09-23 · selected as **rotation***
+# SPNT — SIRIUSPOINT
+*Financials · brief generated 2026-09-23 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 217/1956
+- cheapest 4% of 339 Financials peers (96th pct)
+- baseline gap +92%
+- volume 2.1x its 60d average
+- 2 news items in the last 5 days
+- Financials is in the news
+- never researched
+- urgency score 7.0
 
 ## Market
 | | |
 |---|---|
-| price | $34.59 |
-| market cap | $4.2B |
-| 5d / 21d / 63d / 252d | -1.5% / -1.9% / +4.4% / +10.1% |
-| 60d avg daily $ volume | $30.3M |
-| beta (vs IWM) | 1.04 (R²=0.514) |
-| 5d volume vs 60d average | 1.1x |
+| price | $25.17 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | +2.2% / +6.7% / +10.4% / +39.7% |
+| 60d avg daily $ volume | $19.1M |
+| beta (vs IWM) | 0.36 (R²=0.055) |
+| 5d volume vs 60d average | 2.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 81% / debt 19% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +9.9% |
-| cost of equity | +10.7% |
-| justified P/TBV | 0.91 |
-| actual P/TBV | 1.56 |
-| tangible book / share | $22.15 |
-| implied gap | -41.7% |
+| sustainable ROTCE | +14.0% |
+| cost of equity | +7.0% |
+| justified P/TBV | 2.39 |
+| actual P/TBV | 1.24 |
+| tangible book / share | $20.22 |
+| implied gap | +92.1% |
 
-Cohort: **41th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -7.9%).
+Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +126.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_27%_of_book`
+- `unstable_rotce_9.8%_to_18.9%`
 
 ## Recent filings
-- 2026-09-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000110465926105855/tm2624990d1_8k.htm
-- 2026-09-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000110465926105666/tm2624931d1_8k.htm
-- 2026-09-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000085785526000084/ucbi-20260901.htm
-- 2026-08-19 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000085785526000081/ucbi-20260819.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/857855/000085785526000076/ucbi-20260630.htm
-- 2026-08-03 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000085785526000071/ucbi-20260801.htm
-- 2026-08-03 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000085785526000069/ucbi-20260803.htm
-- 2026-07-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000110465926085229/tm2620881d1_8k.htm
-- 2026-07-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000110465926082469/tm2620173d1_8k.htm
-- 2026-06-12 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/857855/000110465926073197/tm2617702d1_8k.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000085/spnt-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/tpre-20260729.htm
+- 2026-05-21 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000073/tpre-20260521.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000065/spnt-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000064/tpre-20260507.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1576018/000117494726000480/sirius-def14a_052026.htm
+- 2026-03-30 **8-K** — items 5.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000047/tpre-20260325.htm
+- 2026-03-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000041/tpre-20260323.htm
+- 2026-03-16 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000036/tpre-20260316.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000032/spnt-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-08** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000110465926105855/tm2624990d1_ex99-1.htm
-- **2026-09-08** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000110465926105666/tm2624931d1_ex99-1.htm
-- **2026-09-08** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000110465926105666/tm2624931d1_ex99-2.htm
-- **2026-09-01** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000085785526000084/ex991navpressrelease.htm
-- **2026-08-19** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000085785526000081/ex991cfopressrelease81926.htm
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000085785526000071/exhibit991-pressreleaseann.htm
-- **2026-08-03** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/857855/000085785526000069/exhibit991-pressreleaseann.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 EARNINGS PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/exhibit991-earningspressre.htm
+- **2026-07-29** · EX-99.2 · presentation — EX-99.2 FINANCIAL SUPPLEMENT *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/exhibit992-financialsupple.htm
+- **2026-07-29** · EX-99.3 · presentation — EX-99.3 INVESTOR PRESENTATION *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1576018/000157601826000084/q22026spntinvestorpresen.htm
 
 ## News on this company — last 90 days
-*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-08** · United Community Banks, Inc. Announces Completion of Strategic Initiatives That Simplify and Strengthen Balance Sheet; Increased Share Repurchase Authorization — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/united-community-banks-inc-announces-112900745.html
-  > Strategic actions reduce interest rate risk, provide greater liquidity for organic growth, improve balance sheet flexibility, and enhance overall earnings profileGREENVILLE, S.C., Sept. 08, 2026 (GLOBE NEWSWIRE) -- United Community Banks, I
-- **2026-09-02** · 3 Stocks Under $50 We Think Twice About — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-think-201223824.html
-  > Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models,
-- **2026-09-01** · United Community Banks, Inc. Announces Completion of Sale of Navitas Equipment Finance Business to Funds Managed by Wafra Inc. — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/united-community-banks-inc-announces-203000074.html
-  > GREENVILLE, S.C., Sept. 01, 2026 (GLOBE NEWSWIRE) -- United Community Banks, Inc. (NYSE: UCB) (“United”) today announced the completion of the previously announced sale of its equipment finance business, consisting of Navitas Credit Corp. a
-- **2026-08-31** · UCB Comes to Agreement with U.S. Government to Lower the Cost of Medicine and Strengthen U.S. Manufacturing — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/ucb-comes-agreement-u-government-203000805.html
-  > UCB, a global biopharmaceutical company focused on improving the lives of people living with severe diseases, today announced that they've come to an agreement with the U.S. government that will continue to support patient access to importa
-- **2026-08-27** · United Community Banks (UCB) is a Top Dividend Stock Right Now: Should You Buy? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/united-community-banks-ucb-top-154503964.html
-  > Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does United Community Banks (UCB) have what it takes? Let's find out.
-- **2026-08-26** · United Community Banks (UCB) Could Be 8% Undervalued After Its International Banking Expansion — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/united-community-banks-ucb-could-141421734.html
-  > United Community Banks (UCB) has drawn fresh attention after appointing Jeff Beisler-Snell to lead its new International Banking and Capital Markets team, a move that broadens the bank’s services for globally active clients. Against this ba
-- **2026-08-25** · United Community Names Dr. Jeff Beisler-Snell Head of International Banking and Capital Markets — *PR Newswire* — https://finance.yahoo.com/markets/currencies/articles/united-community-names-dr-jeff-150200168.html
-  > United Community has named Jeff Beisler-Snell head of International Banking and Capital Markets, expanding the bank's ability to help customers conduct business around the world.
-- **2026-08-20** · 2 Momentum  Stocks Worth Investigating and 1 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-momentum-stocks-worth-investigating-091515333.html
-  > The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.
-- **2026-08-19** · Leadership Investment: Director Carande Acquires 2,101 Shares of United Community Banks — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/19/leadership-investment-director-carande-acquires-2-101-shares-of-united-community-banks/
-  > Carande's $74,270 investment more than doubled his direct stake in the $4.3 billion financial services company.
-- **2026-08-19** · 4 Stocks Defying Geopolitical Headwinds With Recent Dividend Hikes — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/4-stocks-defying-geopolitical-headwinds-130900141.html
-  > Four dividend stocks - ENS, HRB, BMI and UCB - raised payouts as geopolitical tensions drive market volatility and uncertainty.
-- **2026-08-19** · United Community Names Tom Speir as New Chief Financial Officer — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/united-community-names-tom-speir-120100597.html
-  > United Community (NYSE: UCB) today announced that Tom Speir has been named executive vice president and chief financial officer.
-- **2026-08-13** · United Community Names Sean Simpson Chief Commercial Banking Officer — *PR Newswire* — https://finance.yahoo.com/small-business/articles/united-community-names-sean-simpson-201500929.html
-  > United Community announced Sean Simpson has joined the bank as chief commercial banking officer, bringing proven leadership and industry expertise. Simpson's addition reinforces United's commitment to investing in exceptional talent to acce
+- **2026-09-22** · SiriusPoint to Deliver Further Book Value Growth, Buybacks, RBC Capital Markets Says — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-deliver-further-book-value-152056931.html
+  > SiriusPoint (SPNT) could deliver steady earnings, high single-digit to low double-digit annual book
+- **2026-09-18** · Are Investors Undervaluing Ping An Insurance Co. of China (PNGAY) Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-ping-insurance-co-134003547.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-09-15** · SiriusPoint Appoints Rachel Winoski as Chief Human Resources Officer — *GlobeNewswire* — https://finance.yahoo.com/small-business/articles/siriuspoint-appoints-rachel-winoski-chief-201500265.html
+  > HAMILTON, Bermuda, Sept. 15, 2026 (GLOBE NEWSWIRE) -- SiriusPoint Ltd. (“SiriusPoint” or the “Company”) (NYSE: SPNT), a global specialty underwriter, today announced the appointment of Rachel Winoski as Chief Human Resources Officer, effect
+- **2026-08-26** · Is SiriusPoint (SPNT) Stock Undervalued Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-stock-undervalued-now-134003862.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-20** · Should Value Investors Buy Assurant (AIZ) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-assurant-aiz-134002880.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-05** · SiriusPoint (SPNT) Could Be 11% Undervalued As Earnings Refocus Attention — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-could-11-undervalued-081101881.html
+  > SiriusPoint (SPNT) drew fresh attention after its second quarter 2026 earnings on July 29, reporting revenue of US$744.1 million and net income of US$68.6 million, alongside ongoing value focused investor interest. See our latest analysis f
+- **2026-08-04** · SiriusPoint (SPNT) Is Down 9.0% After Earnings Beat And Valuation Buzz - Has The Bull Case Changed? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-down-9-0-221219747.html
+  > SiriusPoint Ltd. has reported its second-quarter 2026 results, with revenue of US$744.1 million and net income of US$68.6 million, alongside higher basic and diluted earnings per share from continuing operations than the same period a year 
+- **2026-08-04** · Is SiriusPoint (SPNT) Stock Still Trading At A Discount After A 140% Five Year Return? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-spnt-stock-still-trading-131254493.html
+  > SiriusPoint stock has put in a strong five year run, yet the current checks still suggest the valuation leans on the cheap side rather than fully pricing in that performance. SiriusPoint has returned about 140.2% over the past five years, w
+- **2026-08-03** · Should Value Investors Buy SiriusPoint (SPNT) Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-siriuspoint-spnt-134002734.html
+  > Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to u
+- **2026-08-01** · SiriusPoint Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/siriuspoint-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > SiriusPoint (NYSE:SPNT) reported second-quarter underwriting profitability and book value growth as the specialty insurer continued to shift capital toward insurance lines it views as offering stronger risk-adjusted returns. Chief Executive
+- **2026-07-30** · SiriusPoint Ltd (SPNT) (Q2 2026) Earnings Call Highlights: Strong Underwriting Profitability ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/siriuspoint-ltd-spnt-q2-2026-230231796.html
+  > SiriusPoint Ltd (SPNT) reports a 91.4% core combined ratio and 13.8% operating ROE, while navigating a shift to longer-tail lines and a competitive reinsurance market.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
 - **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
 - **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
@@ -98,13 +99,12 @@ Attack these before you trust any number above.
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
 - **2026-09-21** · Sector Update: Financial Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html
-- **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
 
 ## Market and macro context
-- **2026-09-23** · 2 S&P 500 Stocks Worth Investigating and 1 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-111702563.html
-- **2026-09-23** · BTIG’s Krinsky warns 2000-like signals are mounting — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/btig-krinsky-warns-2000-signals-110424595.html
-- **2026-09-23** · This AI Memory Stock Is Up More Than 650% in 2026. Micron Investors Should Pay Attention — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ai-memory-stock-more-650-110330434.html
-- **2026-09-23** · AAAU vs. GDX: Is It Better to Hold Physical Gold or Invest in Gold Miners? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/aaau-vs-gdx-is-it-better-to-hold-physical-gold-or-invest-in-gold-miners/
+- **2026-09-23** · Fed Governor Michael Barr's Speech in Focus — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-governor-michael-barrs-speech-150500608.html
+- **2026-09-23** · What Makes Abbott Laboratories (ABT) an Attractive Opportunity? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/makes-abbott-laboratories-abt-attractive-150134056.html
+- **2026-09-23** · Motorola Solutions (MSI): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-msi-buy-sell-150102796.html
+- **2026-09-23** · RLI Rises 6.2% in 3 Months: Time to Hold or Fold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rli-rises-6-2-3-145900972.html
 
 *Rules, releases and agency actions:*
 - **2026-09-23** · Public Water System Supervision Program Revision for the State of Arkansas — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas

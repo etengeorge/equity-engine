@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-23T11:23:04+00:00",
+  "screen_utc": "2026-09-23T15:13:04+00:00",
   "price_asof": "2026-09-22",
   "universe": 1956,
   "modelled": 1076,
   "modelled_pct": 55.0,
   "news": {
-    "generated_utc": "2026-09-23T11:23:05+00:00",
+    "generated_utc": "2026-09-23T15:13:05+00:00",
     "sectors": {
       "Health Care": {
         "new": 1,
-        "held": 67,
+        "held": 68,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 5,
-        "held": 97,
+        "new": 1,
+        "held": 98,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 35,
+        "new": 1,
+        "held": 36,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 5,
-        "held": 96,
+        "new": 3,
+        "held": 99,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 5,
-        "held": 75,
+        "new": 1,
+        "held": 76,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 3,
-        "held": 115,
+        "new": 1,
+        "held": 116,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 53,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 2,
+        "new": 0,
         "held": 27,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 6,
-        "held": 68,
+        "new": 2,
+        "held": 70,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 2,
+        "new": 0,
         "held": 33,
         "etf": "XLU"
       }
     },
-    "macro": 86,
+    "macro": 66,
     "market": 36,
     "companies": 449,
-    "articles_new": 733,
+    "articles_new": 360,
     "candidates": 450,
-    "elapsed_s": 201.2
+    "elapsed_s": 210.0
   },
   "picks": [
-    "CON",
-    "UCB",
-    "IRTC",
-    "INDB",
-    "ERAS",
-    "IBOC",
-    "KBH",
-    "HUBG",
-    "MFIN",
-    "WLFC"
+    "SPHR",
+    "SKYW",
+    "STEP",
+    "MC",
+    "MHO",
+    "IRT",
+    "SPNT",
+    "BBT",
+    "MLKN",
+    "VISN"
   ],
   "stages": {
-    "screen": "2026-09-23T11:26:41+00:00",
-    "news": "2026-09-23T11:26:26+00:00",
-    "pick": "2026-09-23T11:26:41+00:00"
+    "screen": "2026-09-23T15:16:48+00:00",
+    "news": "2026-09-23T15:16:35+00:00",
+    "pick": "2026-09-23T15:16:48+00:00"
   }
 }
