@@ -1,0 +1,194 @@
+{
+  "fetched_utc": "2026-09-23T11:30:57+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "INDB",
+    "cik": 776901,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-17",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/indb-20260917.htm",
+        "file": "2026-09-17-8-K-indb-20260917.htm.txt",
+        "chars": 3231,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/indb-20260908.htm",
+        "file": "2026-09-08-8-K-indb-20260908.htm.txt",
+        "chars": 3233,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000129/indb-20260630.htm",
+        "file": "2026-08-06-10-Q-indb-20260630.htm.txt",
+        "chars": 292105,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-27",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000126/indb-20260727.htm",
+        "file": "2026-07-27-8-K-indb-20260727.htm.txt",
+        "chars": 3168,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-16",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/indb-20260716.htm",
+        "file": "2026-07-16-8-K-indb-20260716.htm.txt",
+        "chars": 4030,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000113/indb-20260618.htm",
+        "file": "2026-06-18-8-K-indb-20260618.htm.txt",
+        "chars": 3211,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-16",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000110/indb-20260616.htm",
+        "file": "2026-06-16-8-K-indb-20260616.htm.txt",
+        "chars": 3180,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000107/indb-20260514.htm",
+        "file": "2026-05-14-8-K-indb-20260514.htm.txt",
+        "chars": 3815,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-17",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 - Q3 2026 COMMON DIVIDEND PRESS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/exhibit991-q32026commondiv.htm",
+        "file": "2026-09-17-EX-99.1.txt",
+        "chars": 1481,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-08",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 - RAYMOND JAMES INVESTOR PRESENTATION",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/investorpresentationslid.htm",
+        "file": "2026-09-08-EX-99.1.txt",
+        "chars": 34321,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-27",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 - INVESTOR PRESENTATION",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000126/investorpresentationslid.htm",
+        "file": "2026-07-27-EX-99.1.txt",
+        "chars": 34231,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-16",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 - Q2 2026 EARNINGS PRESS RELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/exhibit991-indb06x30x2026e.htm",
+        "file": "2026-07-16-EX-99.1.txt",
+        "chars": 55502,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-16",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2 - Q2 2026 EARNINGS PRESENTATION",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/q22026erpresentation-fin.htm",
+        "file": "2026-07-16-EX-99.2.txt",
+        "chars": 29100,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-18",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1 - Q2 2026 COMMON DIVIDEND",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000113/exhibit991-q22026commondiv.htm",
+        "file": "2026-06-18-EX-99.1.txt",
+        "chars": 1454,
+        "truncated": false
+      }
+    ]
+  }
+}

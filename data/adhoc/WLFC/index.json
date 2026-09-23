@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-09T11:30:49+00:00",
+  "fetched_utc": "2026-09-23T11:31:19+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "WLFC",
     "cik": 1018164,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-22",
+        "items": "3.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/wlfc-20260916.htm",
+        "file": "2026-09-22-8-K-wlfc-20260916.htm.txt",
+        "chars": 7219,
+        "truncated": false
+      },
       {
         "form": "8-K",
         "filed": "2026-09-08",
@@ -69,12 +78,21 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-07-17",
-        "items": "5.03,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000119312526307870/d85905d8k.htm",
-        "file": "2026-07-17-8-K-d85905d8k.htm.txt",
-        "chars": 3801,
+        "filed": "2026-09-22",
+        "items": [
+          "3.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/newsreleaseissuedbywillisl.htm",
+        "file": "2026-09-22-EX-99.1.txt",
+        "chars": 4389,
         "truncated": false
       },
       {
@@ -167,24 +185,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000063/q22026ex991dividend.htm",
         "file": "2026-07-30-EX-99.1.txt",
         "chars": 3599,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-21",
-        "items": [
-          "7.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "Reg FD disclosure",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EX-99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000061/newsreleaseissuedbywillisl.htm",
-        "file": "2026-07-21-EX-99.1.txt",
-        "chars": 4269,
         "truncated": false
       }
     ]

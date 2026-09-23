@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-14T11:29:56+00:00",
+  "fetched_utc": "2026-09-23T11:31:14+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "KBH",
     "cik": 795266,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-22",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000068/kbh-20260922.htm",
+        "file": "2026-09-22-8-K-kbh-20260922.htm.txt",
+        "chars": 3914,
+        "truncated": false
+      },
       {
         "form": "10-Q",
         "filed": "2026-07-09",
@@ -69,12 +78,21 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-01-23",
-        "items": "5.02",
-        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000019/kbh-20260122.htm",
-        "file": "2026-01-23-8-K-kbh-20260122.htm.txt",
-        "chars": 3330,
+        "filed": "2026-09-22",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000068/exh991kbh-earningsrelease0.htm",
+        "file": "2026-09-22-EX-99.1.txt",
+        "chars": 21849,
         "truncated": false
       },
       {
@@ -93,24 +111,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/exh991kbh-earningsrelease0.htm",
         "file": "2026-06-23-EX-99.1.txt",
         "chars": 26828,
-        "truncated": false
-      },
-      {
-        "filed": "2026-03-24",
-        "items": [
-          "2.02",
-          "9.01"
-        ],
-        "item_labels": [
-          "results of operations",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EX-99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000037/exh991kbh-earningsrelease0.htm",
-        "file": "2026-03-24-EX-99.1.txt",
-        "chars": 25757,
         "truncated": false
       }
     ]

@@ -1,0 +1,136 @@
+{
+  "fetched_utc": "2026-09-23T11:30:51+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "IBOC",
+    "cik": 315709,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926091933/iboc-20260630x10q.htm",
+        "file": "2026-08-06-10-Q-iboc-20260630x10q.htm.txt",
+        "chars": 282401,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926091874/iboc-20260806x8k.htm",
+        "file": "2026-08-06-8-K-iboc-20260806x8k.htm.txt",
+        "chars": 3986,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926089623/tm2621694d1_8k.htm",
+        "file": "2026-08-03-8-K-tm2621694d1_8k.htm.txt",
+        "chars": 3844,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-20",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926064211/tm2614341d2_8k.htm",
+        "file": "2026-05-20-8-K-tm2614341d2_8k.htm.txt",
+        "chars": 4755,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-12",
+        "items": "5.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926059135/tm2614341d1_8k.htm",
+        "file": "2026-05-12-8-K-tm2614341d1_8k.htm.txt",
+        "chars": 4386,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926056997/iboc-20260331x10q.htm",
+        "file": "2026-05-07-10-Q-iboc-20260331x10q.htm.txt",
+        "chars": 253468,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926056853/iboc-20260507x8k.htm",
+        "file": "2026-05-07-8-K-iboc-20260507x8k.htm.txt",
+        "chars": 3967,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926020439/iboc-20251231x10k.htm",
+        "file": "2026-02-26-10-K-iboc-20251231x10k.htm.txt",
+        "chars": 255431,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EX-99",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926091874/iboc-20260806xex99.htm",
+        "file": "2026-08-06-EX-99.txt",
+        "chars": 4047,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EXHIBIT 99",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926089623/tm2621694d1_ex99.htm",
+        "file": "2026-08-03-EX-99.txt",
+        "chars": 1843,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99",
+        "description": "EX-99",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/315709/000110465926056853/iboc-20260507xex99.htm",
+        "file": "2026-05-07-EX-99.txt",
+        "chars": 3106,
+        "truncated": false
+      }
+    ]
+  }
+}
