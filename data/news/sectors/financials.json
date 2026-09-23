@@ -1,5 +1,75 @@
 [
  {
+  "id": "e6d639a5-5273-3133-902e-a16413b9fd29",
+  "ts": "2026-09-23T10:20:02+00:00",
+  "title": "Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)?",
+  "summary": "Sector ETF report for XLF",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "8f16f0ca-0926-32ce-9ab9-b4b5aed415e7",
+  "ts": "2026-09-22T20:03:27+00:00",
+  "title": "Sector Update: Financial Stocks Fall Tuesday",
+  "summary": "Financial stocks fell Tuesday with the NYSE Financial Index falling 1.3% and the State Street Financ",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "0d219308-a2bd-3794-8da2-cfc6a2cf722c",
+  "ts": "2026-09-22T17:49:55+00:00",
+  "title": "Sector Update: Financial Stocks Decline Tuesday Afternoon",
+  "summary": "Financial stocks were lower in Tuesday afternoon trading, with the NYSE Financial Index falling 1.5%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "79cb6843-c5fd-3450-bfc0-18d33d8b88e3",
+  "ts": "2026-09-22T17:10:35+00:00",
+  "title": "Exchange-Traded Funds Rise, US Equities Mixed After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV edged higher. Actively",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171035923.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "ac01261b-d6a1-3367-85b2-3bc5db47f1c2",
+  "ts": "2026-09-22T16:52:38+00:00",
+  "title": "JPMorgan Chase Falls 3% Despite New $20B QIA Partnership; Goldman Sachs Eases, Bank of America Slips",
+  "summary": "JPMorgan Chase just landed a $20 billion sovereign wealth partnership, yet its stock is leading the big banks lower today. Something bigger than a press release is moving the tape, and it starts with where Treasury yields are sitting right now.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/22/jpmorgan-chase-falls-3-despite-new-20b-qia-partnership-goldman-sachs-eases-bank-of-america-slips/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "c2d0d2e9-573c-3af9-ba60-099cd07dbfc0",
   "ts": "2026-09-22T13:20:19+00:00",
   "title": "Sector Update: Financial Stocks Edge Higher Premarket Tuesday",

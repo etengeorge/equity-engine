@@ -1,5 +1,47 @@
 [
  {
+  "id": "8f16f0ca-0926-32ce-9ab9-b4b5aed415e7",
+  "ts": "2026-09-22T20:03:27+00:00",
+  "title": "Sector Update: Financial Stocks Fall Tuesday",
+  "summary": "Financial stocks fell Tuesday with the NYSE Financial Index falling 1.3% and the State Street Financ",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "0d219308-a2bd-3794-8da2-cfc6a2cf722c",
+  "ts": "2026-09-22T17:49:55+00:00",
+  "title": "Sector Update: Financial Stocks Decline Tuesday Afternoon",
+  "summary": "Financial stocks were lower in Tuesday afternoon trading, with the NYSE Financial Index falling 1.5%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "ef8dbc64-f85f-3972-bd2f-5687dee92c10",
+  "ts": "2026-09-22T13:46:20+00:00",
+  "title": "Mid-America Apartment Communities Stock: Is MAA Underperforming the Real Estate Sector?",
+  "summary": "Mid-America Apartment Communities has fallen short of the real estate sector over the past year, yet Wall Street analysts maintain a moderately optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4734013/mid-america-apartment-communities-stock-is-maa-underperforming-the-real-estate-sector",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "3c0595cd-7b7e-3264-90a3-7df23b469a34",
   "ts": "2026-09-21T20:03:16+00:00",
   "title": "Sector Update: Financial Stocks Rise Late Afternoon",

@@ -1,45 +1,45 @@
 {
-  "screen_utc": "2026-09-22T15:06:55+00:00",
-  "price_asof": "2026-09-21",
+  "screen_utc": "2026-09-23T11:23:04+00:00",
+  "price_asof": "2026-09-22",
   "universe": 1956,
   "modelled": 1076,
   "modelled_pct": 55.0,
   "news": {
-    "generated_utc": "2026-09-22T15:06:56+00:00",
+    "generated_utc": "2026-09-23T11:23:05+00:00",
     "sectors": {
       "Health Care": {
         "new": 1,
-        "held": 66,
+        "held": 67,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 2,
-        "held": 92,
+        "new": 5,
+        "held": 97,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 1,
+        "new": 0,
         "held": 35,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 3,
-        "held": 91,
+        "new": 5,
+        "held": 96,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 2,
-        "held": 70,
+        "new": 5,
+        "held": 75,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 112,
+        "new": 3,
+        "held": 115,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 50,
+        "new": 3,
+        "held": 53,
         "etf": "XLRE"
       },
       "Materials": {
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 1,
-        "held": 25,
+        "new": 2,
+        "held": 27,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 62,
+        "new": 6,
+        "held": 68,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 0,
-        "held": 31,
+        "new": 2,
+        "held": 33,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 353,
+    "articles_new": 733,
     "candidates": 450,
-    "elapsed_s": 196.7
+    "elapsed_s": 201.2
   },
   "picks": [
-    "TPC",
-    "DIOD",
-    "WSFS",
-    "BMI",
-    "ATMU",
-    "ACMR",
-    "SPNT",
-    "FLNG",
-    "BCBP",
-    "BBT"
+    "CON",
+    "UCB",
+    "IRTC",
+    "INDB",
+    "ERAS",
+    "IBOC",
+    "KBH",
+    "HUBG",
+    "MFIN",
+    "WLFC"
   ],
   "stages": {
-    "screen": "2026-09-22T15:10:31+00:00",
-    "news": "2026-09-22T15:10:13+00:00",
-    "pick": "2026-09-22T15:10:31+00:00"
+    "screen": "2026-09-23T11:26:41+00:00",
+    "news": "2026-09-23T11:26:26+00:00",
+    "pick": "2026-09-23T11:26:41+00:00"
   }
 }

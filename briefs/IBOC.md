@@ -1,58 +1,56 @@
-# WSFS — WSFS FINANCIAL
-*Financials · brief generated 2026-09-22 · selected as **rotation***
+# IBOC — INTERNATIONAL BANCSHARES CORP
+*Financials · brief generated 2026-09-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 212/1956
+- rotation position 221/1956
 
 ## Market
 | | |
 |---|---|
-| price | $77.79 |
-| market cap | $4.0B |
-| 5d / 21d / 63d / 252d | -3.5% / -2.6% / +3.8% / +40.5% |
-| 60d avg daily $ volume | $33.4M |
-| beta (vs IWM) | 0.88 (R²=0.406) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 99% / debt 1% |
+| price | $70.16 |
+| market cap | $4.4B |
+| 5d / 21d / 63d / 252d | -2.2% / -2.1% / -5.7% / +0.9% |
+| 60d avg daily $ volume | $24.1M |
+| beta (vs IWM) | 0.9 (R²=0.47) |
+| 5d volume vs 60d average | 1.5x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +17.0% |
-| cost of equity | +9.8% |
-| justified P/TBV | 1.92 |
-| actual P/TBV | 2.25 |
-| tangible book / share | $34.62 |
-| implied gap | -14.4% |
+| sustainable ROTCE | +6.2% |
+| cost of equity | +9.9% |
+| justified P/TBV | 0.53 |
+| actual P/TBV | 1.58 |
+| tangible book / share | $44.27 |
+| implied gap | -66.3% |
 
-Cohort: **69th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +19.4%).
+Cohort: **26th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -32.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `last_10k_1361d_old`
-- `goodwill_and_intangibles_35%_of_book`
+- none raised
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/828944/000082894426000028/wsfs-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000026/wsfs-20260723.htm
-- 2026-06-11 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000020/wsfs-20260605.htm
-- 2026-05-19 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000018/wsfs-20260514.htm
-- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/828944/000082894426000015/wsfs-20260331.htm
-- 2026-04-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000013/wsfs-20260423.htm
-- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/828944/000082894426000009/wsfs-20260402.htm
-- 2026-03-11 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000007/wsfs-20260311.htm
-- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/828944/000082894426000006/wsfs-20251231.htm
-- 2026-01-26 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/828944/000082894426000003/wsfs-20260126.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/315709/000110465926091933/iboc-20260630x10q.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/315709/000110465926091874/iboc-20260806x8k.htm
+- 2026-08-03 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/315709/000110465926089623/tm2621694d1_8k.htm
+- 2026-05-20 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/315709/000110465926064211/tm2614341d2_8k.htm
+- 2026-05-12 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/315709/000110465926059135/tm2614341d1_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/315709/000110465926056997/iboc-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/315709/000110465926056853/iboc-20260507x8k.htm
+- 2026-04-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/315709/000110465926045414/tm261460-1_def14a.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/315709/000110465926020439/iboc-20251231x10k.htm
+- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/315709/000110465926020307/iboc-20260226x8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/828944/000082894426000026/exhibit991earningsrelease0.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/828944/000082894426000026/a2q26supplement72326vf.htm
+- **2026-08-06** · EX-99 · press release — EX-99 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/315709/000110465926091874/iboc-20260806xex99.htm
+- **2026-08-03** · EX-99 · press release — EXHIBIT 99 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/315709/000110465926089623/tm2621694d1_ex99.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -60,30 +58,30 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
+- **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
+- **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
+- **2026-09-22** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171035923.html
+- **2026-09-22** · JPMorgan Chase Falls 3% Despite New $20B QIA Partnership; Goldman Sachs Eases, Bank of America Slips — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/22/jpmorgan-chase-falls-3-despite-new-20b-qia-partnership-goldman-sachs-eases-bank-of-america-slips/
 - **2026-09-22** · Sector Update: Financial Stocks Edge Higher Premarket Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132019792.html
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
 - **2026-09-21** · Sector Update: Financial Stocks Advance Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-180646256.html
 - **2026-09-21** · Exchange-Traded Funds Rise as US Equities Advance After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html
-- **2026-09-21** · Sector Update: Financial Stocks Advance Pre-Bell Monday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html
-- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
-- **2026-09-18** · Sector Update: Financial Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200641566.html
-- **2026-09-18** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175936008.html
-- **2026-09-18** · Exchange-Traded Funds, US Equities Lower After Midday — *MT Newswires* — https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html
 
 ## Market and macro context
-- **2026-09-22** · Silver Beech’s Investment Thesis for Arthur J. Gallagher (AJG) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/silver-beech-investment-thesis-arthur-150059517.html
-- **2026-09-22** · Wall Street Awaits Economic Data — *Zacks* — https://finance.yahoo.com/economy/articles/wall-street-awaits-economic-data-145800253.html
-- **2026-09-22** · This Fund Trimmed Matson (MATX) on Strength — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/fund-trimmed-matson-matx-strength-145040552.html
-- **2026-09-22** · Continued AI Disruption Concerns Weigh on CCC Intelligent Solutions Holdings (CCC) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/continued-ai-disruption-concerns-weigh-144822190.html
+- **2026-09-23** · 2 S&P 500 Stocks Worth Investigating and 1 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-111702563.html
+- **2026-09-23** · BTIG’s Krinsky warns 2000-like signals are mounting — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/btig-krinsky-warns-2000-signals-110424595.html
+- **2026-09-23** · This AI Memory Stock Is Up More Than 650% in 2026. Micron Investors Should Pay Attention — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ai-memory-stock-more-650-110330434.html
+- **2026-09-23** · AAAU vs. GDX: Is It Better to Hold Physical Gold or Invest in Gold Miners? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/aaau-vs-gdx-is-it-better-to-hold-physical-gold-or-invest-in-gold-miners/
 
 *Rules, releases and agency actions:*
-- **2026-09-22** · Establishment of Class E Airspace; Ottawa, IL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19391/establishment-of-class-e-airspace-ottawa-il
-- **2026-09-22** · Fisheries of the Exclusive Economic Zone Off Alaska; “Other Rockfish” in the Aleutian Islands Subarea of the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19390/fisheries-of-the-exclusive-economic-zone-off-alaska-other-rockfish-in-the-aleutian-islands-subarea
-- **2026-09-22** · Softwood Lumber Board Assessment Rate Clarification and Changes to Membership — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19389/softwood-lumber-board-assessment-rate-clarification-and-changes-to-membership
-- **2026-09-22** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M) — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19370/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
-- **2026-09-22** · Capital Construction Fund Revision — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19367/capital-construction-fund-revision
-- **2026-09-22** · Periodic Reporting — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/22/2026-19361/periodic-reporting
+- **2026-09-23** · Public Water System Supervision Program Revision for the State of Arkansas — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas
+- **2026-09-23** · Air Plan Approval; North Carolina; Charlotte-Rock Hill Area Maintenance Plan for the 2008 8-Hour Ozone NAAQS — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19495/air-plan-approval-north-carolina-charlotte-rock-hill-area-maintenance-plan-for-the-2008-8-hour-ozone
+- **2026-09-23** · Patient Protection and Affordable Care Act; Temporary Moratoria on Certain Agent and Broker Registration To Participate in the Exchanges — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker
+- **2026-09-23** · Fisheries of the South Atlantic; 2026 South Atlantic Red Snapper Recreational Fishing Season — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19456/fisheries-of-the-south-atlantic-2026-south-atlantic-red-snapper-recreational-fishing-season
+- **2026-09-23** · Revision of Freedom of Information Act Regulations — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19448/revision-of-freedom-of-information-act-regulations
+- **2026-09-23** · Safety Zone; Massachusetts Bay, Boston, MA — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19430/safety-zone-massachusetts-bay-boston-ma
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

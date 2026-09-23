@@ -1,5 +1,61 @@
 [
  {
+  "id": "11dd262e-97ae-3bf5-a595-cb59575720b2",
+  "ts": "2026-09-22T19:52:41+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
+  "summary": "Consumer stocks advanced late Tuesday afternoon with the State Street Consumer Staples Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-195241986.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "7d3b1498-4397-33e1-85c8-9c6acfc61817",
+  "ts": "2026-09-22T19:49:00+00:00",
+  "title": "These 4 Retail Stocks Are Winning the Race for Inflation-Weary Bargain Hunters",
+  "summary": "Value and convenience are still top of mind for inflation-weary shoppers, writes a Bernstein analyst.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/walmart-costco-dollar-general-five-below-stocks-inflation-b2b73132?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "13e75a34-ca7c-37df-9e8e-e60798f94fb5",
+  "ts": "2026-09-22T17:36:19+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Tuesday Afternoon",
+  "summary": "Consumer stocks advanced Tuesday afternoon, with the State Street Consumer Staples Select Sector SPD",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-tuesday-173619109.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "b00629df-4228-39b2-a84c-fc08ac9cc861",
+  "ts": "2026-09-22T17:02:23+00:00",
+  "title": "AutoZone Climbs 6% as Profit Beat Offsets Revenue Miss; Advance Auto Parts Rises 6%, O\u2019Reilly Automotive Gains 4%",
+  "summary": "AutoZone's latest quarter split the market in two directions at once, and the ripple through its rivals says something surprising about how traders are reading the aftermarket retail group right now.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/22/autozone-climbs-6-as-profit-beat-offsets-revenue-miss-advance-auto-parts-rises-6-oreilly-automotive-gains-4/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "3aee33c9-e5d9-31fd-9368-fa2f8209fa8a",
   "ts": "2026-09-22T13:53:37+00:00",
   "title": "On Holding Surges 13% as Investor Day Sets Ambitious Sales Target and $1B Buyback; Nike Ticks Up 2%",
@@ -20,6 +76,20 @@
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "ab490cd4-5bfd-39a5-a24d-7b1cc358b810",
+  "ts": "2026-09-22T09:20:50+00:00",
+  "title": "Expedia Group Stock: Is EXPE Outperforming the Consumer Cyclical Sector?",
+  "summary": "Expedia Group has outpaced the consumer cyclical sector, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4726362/expedia-group-stock-is-expe-outperforming-the-consumer-cyclical-sector",
   "tickers": [
    "XLY"
   ],

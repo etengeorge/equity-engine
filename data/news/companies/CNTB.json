@@ -1,5 +1,17 @@
 [
  {
+  "id": "1c5bdeab-3e0c-30a3-bd03-af4cd5c1390b",
+  "ts": "2026-09-22T23:45:04+00:00",
+  "title": "Connect Biopharma (CNTB) Misses Key Asthma Trial Goal. Can its Drug Still Move Forward?",
+  "summary": "Connect Biopharma Holdings Limited (NASDAQ:CNTB) reported mixed preliminary results on September 15 from its Phase 2 Seabreeze STAT asthma study. Rademikibart produced a numerical 66% reduction in treatment failure over 28 days versus placebo, but the primary endpoint missed statistical significance, with p=0.153. Connect Biopharma Holdings Limited (NASDAQ:CNTB) also reported a lung-function benefit on a [\u2026]",
+  "publisher": "Insider Monkey",
+  "url": "https://finance.yahoo.com/healthcare/articles/connect-biopharma-cntb-misses-key-234504499.html",
+  "tickers": [
+   "CNTB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "728b6164-1555-3434-8b54-e828406c08b5",
   "ts": "2026-09-15T15:01:44+00:00",
   "title": "Connect Biopharma Rademikibart Phase 2 Data Shows Lung Function Improvement but Primary Endpoint Misses Significance",

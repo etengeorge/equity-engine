@@ -1,5 +1,17 @@
 [
  {
+  "id": "0d3beacb-9726-3c5c-a434-55bc18bc1ae5",
+  "ts": "2026-09-22T15:59:27+00:00",
+  "title": "Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back",
+  "summary": "Mechanical selling from an index rebalance is dragging Trade Desk lower, but the way its ad-tech peers are splitting tells a more specific story about which corner of programmatic advertising the market is actually repricing right now.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/22/trade-desk-falls-4-as-index-removal-flows-keep-pressure-on-magnite-drops-3-applovin-pulls-back/",
+  "tickers": [
+   "MGNI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "adda8b8e-7d4e-3507-868a-054335aef52d",
   "ts": "2026-09-21T12:30:00+00:00",
   "title": "Magnite Promotes Brian Gephart to Chief Financial Officer",
