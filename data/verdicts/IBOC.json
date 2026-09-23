@@ -1,0 +1,62 @@
+{
+  "ticker": "IBOC",
+  "date": "2026-09-23",
+  "sector": "Financials",
+  "name": "INTERNATIONAL BANCSHARES CORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.13,
+  "horizon_months": 24,
+  "price_at_verdict": 70.16000366210938,
+  "market_implied_growth": null,
+  "cohort_pct": 26.3,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.13,
+    "screen_rotce": 0.06223922201407153,
+    "justified_p_tbv": 1.3925360729135112,
+    "actual_p_tbv": 1.5848995543509714,
+    "tangible_book_per_share": 44.267791904856985,
+    "fair_value": 61.64449709574207,
+    "price": 70.16000366210938,
+    "gap": -0.12137266422302362,
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is against my own correction, and it won. Having shown that the engine's 6.22% ROTCE is a broken numerator and its $44.27 tangible book carries a phantom preferred, the natural next step was to substitute the three-year mean on the correct numerator \u2014 16.4% \u2014 which produces a justified 1.82x against an actual 1.41x and makes IBOC look about 29% CHEAP. The adversarial case is that this simply replaces one wrong number with another: a three-year average is the wrong statistic for a series that is monotonically falling, and 23.6% CET1 on a bank that will not deploy it is not a hidden asset, it is the reason the return is falling. On that reading the engine's direction (rich) is accidentally right and the market at 1.41x is paying full price for an eroding return.",
+    "what_would_prove_it": "The trajectory of the current-period return and of credit: whether H2 2026 ROTCE holds near 13% or falls below it, and whether the affordable-housing non-accruals are resolved or charged off.",
+    "already_visible": "Yes, and it is what moved me. Two facts, both dated and both in the filings. First, the ROTCE series is not noisy around a mean, it is monotonic: 19.0% to 16.3% to 13.9% to ~13.1% annualising. Second, non-accruals more than doubled in one half-year to 3.06% of net loans on a single concentrated relationship, and Q2 net income fell 4.3% year over year as a result. At 13.1% the justified multiple is 1.405x against an actual 1.411x \u2014 dead fair, not 29% cheap; at 12% it is 1.27x and the name is about 10% rich. The red team took away the cheap reading my own correction had just created.",
+    "unresolved": "The size of the affordable-housing exposure. The 10-Q describes 'a relationship consisting of several loans' but I could not isolate the dollar amount of that single relationship within the $297.1 million, so I cannot size the tail. I also could not establish why the extract carries $216,000,000 of preferred (see data quality) beyond matching it to the TARP issue \u2014 I inferred the linkage from the amount and the repayment history rather than reading the XBRL fact's context directly, because EDGAR is not reachable from this runtime."
+  },
+  "what_changed": "H1 2026 net income was $198.0 million ($3.18 diluted), up just 0.5% year over year, and Q2 alone FELL 4.3% to $95.8 million from $100.1 million. The reason is credit: total non-accrual loans went from roughly $140.3 million at 2025-12-31 to $297.1 million at 2026-06-30 \u2014 about 3.06% of $9.7 billion of net loans against 1.51% \u2014 which the 10-Q attributes primarily to 'a relationship consisting of several loans secured by interests in affordable housing projects that were placed on non-accrual in the second quarter of 2026'. Provision expense rose accordingly. Management's framing in the release is promotional ('no actual losses on those loans have been, or may ever be, realized') and should be read as an assertion, not a fact. Total assets grew to $17.0B from $16.6B and loans to $9.7B from $9.3B.",
+  "consensus_case": "At $70.16 International Bancshares trades at roughly 1.41x its true tangible book of $49.73 a share and about 11x annualised earnings, for a bank earning about 13% on tangible common equity and falling. IBC is extraordinarily overcapitalised \u2014 CET1 23.56%, Tier 1 leverage 20.27%, equity 19.9% of $17.0B of assets \u2014 and it does not deploy or return that capital fast enough to stop the return decaying: ROTCE on the engine's own equity series runs 19.0% (FY2023) to 16.3% (FY2024) to 13.9% (FY2025) to roughly 13.1% annualising H1 2026, because equity compounds faster than earnings. A buyer at 1.41x book is paying a fair multiple for a durable, low-cost Texas/Oklahoma deposit franchise whose returns are structurally drifting toward its cost of equity, and is now also absorbing a credit event: non-accrual loans roughly doubled in six months.",
+  "base_case_rationale": "This is a book-method name, so the input is a sustainable return on tangible common equity, and I set it at 13.0%. That is the current run rate, not the three-year mean. The engine's three-year window on the CORRECT numerator gives 16.4%, but the series is monotonically declining (19.0% / 16.3% / 13.9%) and H1 2026 annualises to about 13.1%, so the mean is describing a company that no longer exists \u2014 the VLY rule in reverse. The decline is mechanical rather than operational: IBC retains almost everything it earns into a balance sheet already carrying 23.6% CET1, so tangible common equity compounded from $2.17B to $3.09B over three years while net income sat flat at $409-412 million. Nothing in the franchise is deteriorating \u2014 net interest income is holding up on a redistribution of deposit rates \u2014 but nothing is arresting the denominator either, and the new non-accruals argue the next move in the numerator is down, not up.",
+  "key_risks": [
+    "Non-accrual loans doubled in six months to ~$297.1M (3.06% of net loans) on one affordable-housing relationship; specific reserves are management estimates and the release's 'no losses may ever be realized' is an assertion",
+    "ROTCE has fallen monotonically for three years because capital accretes faster than earnings, and nothing in management's stated strategy reverses that",
+    "Concentrated Texas/Oklahoma border-market economy, with immigration and cross-border trade policy a live exposure",
+    "The recorded fair value is computed on a tangible book that is understated 12.3% by a phantom preferred deduction (see data quality) and is therefore roughly 12% too low"
+  ],
+  "watch_for": [
+    "Q3 2026 non-accrual balances: resolution or migration to charge-off of the affordable-housing relationship",
+    "Any material capital deployment \u2014 a step-up in buybacks at ~1.4x tangible book, or a whole-bank acquisition \u2014 which is the only mechanism that arrests the ROTCE decay",
+    "Whether quarterly net income breaks below the ~$96-100M run rate"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/315709/000110465926091933/iboc-20260630x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/315709/000110465926091874/iboc-20260806x8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/315709/000110465926020439/iboc-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/0000315709/000110465912073635/a12-25997_1ex99.htm",
+    "https://home.treasury.gov/news/press-releases/tg1617"
+  ],
+  "flags": []
+}

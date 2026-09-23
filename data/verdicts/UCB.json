@@ -1,0 +1,65 @@
+{
+  "ticker": "UCB",
+  "date": "2026-09-23",
+  "sector": "Financials",
+  "name": "UNITED COMMUNITY BANKS INC",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": 0.14,
+  "horizon_months": 24,
+  "price_at_verdict": 34.59000015258789,
+  "market_implied_growth": null,
+  "cohort_pct": 41.3,
+  "priced": {
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.14,
+    "screen_rotce": 0.09919136239187469,
+    "justified_p_tbv": 1.379674088090545,
+    "actual_p_tbv": 1.561606807290443,
+    "tangible_book_per_share": 22.150262147361722,
+    "fair_value": 30.5601427291278,
+    "price": 34.59000015258789,
+    "gap": -0.11650353875926744,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_27%_of_book"
+    ]
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I have accepted management's own non-GAAP walkforward as the sustainable return, which is exactly the input a management team has the most incentive and the most latitude to flatter. 'Operating' excludes merger charges on a bank that has made small acquisitions repeatedly and will again, so the exclusion is of a recurring cost. The $0.78 baseline is illustrative, assumes a flat rate environment that has already broken, and rests on a $2.6 billion reinvestment spread not yet earned. Meanwhile the company has just destroyed $2.39 a share \u2014 10% \u2014 of tangible book to buy it, and sold Navitas, which on its own disclosure generated $166 million of FY2025 gross revenue against $32 million of non-interest expense. On that reading the sustainable return is nearer 12% and the stock is 28% rich, not 11%.",
+    "what_would_prove_it": "The Q3 and Q4 2026 operating ROTCE prints against the $0.78 baseline, and whether the reinvestment spread actually shows up in net interest margin rather than in a walkforward slide.",
+    "already_visible": "Only partly, and the part that is visible cuts FOR the counter on book and AGAINST it on earnings. The tangible book destruction is not a forecast \u2014 the repositioning completed 2026-09-02 and the company has quantified it at $2.39 a share, so the denominator damage is banked and is already in my 1.62x. The earnings improvement is not banked. What supports the 14% is that it is corroborated by a second, differently-constructed disclosure (ROAA 1.25-1.30% over TCE/TA >9.0%), and that United's Q2 2026 net income available to common of $114.9 million against $76.7 million a year earlier is a real GAAP number, not a projection. I could not settle whether the reinvestment spread lands, so I took the bottom of my range rather than the top.",
+    "unresolved": "The Q3 2026 print itself, which will be a GAAP net loss and which I cannot see. Also unresolved: what the September Fed hike does to the AOCI on the securities that were NOT sold \u2014 the deck's TBV walkforward explicitly 'excludes impact of 3Q26 rate movements on unrealized losses', so the $21.36 proforma is a floor-less estimate in a rising-rate quarter."
+  },
+  "what_changed": "Almost everything, and all of it after the last 10-K. (1) Navitas Credit Corp and NLFC Reinsurance were sold to funds managed by Wafra and CLOSED 2026-09-01 for ~$2.0 billion cash, a 7% premium to par on the loan portfolio; Navitas was ~10% of loans and ~50% of the bank's net charge-offs. (2) A balance sheet repositioning COMPLETED 2026-09-02: $2.2 billion of HTM securities reclassified to AFS and $2.6 billion of long-dated securities yielding 2.20% sold, for an estimated ~$300 million pre-tax loss net of a ~$64 million gain on Navitas. United expects a NET LOSS in Q3 2026 while remaining profitable for the nine months. (3) Peach State Bancshares closed 2026-08-01, guided at +$0.12 to 2027 EPS. (4) $1.0 billion of ~3.80% borrowings repaid; $50 million of buybacks executed in Q3 to date, $87 million year to date (2% of shares), with the authorisation raised $100 million. (5) The company's own EPS and TBV walkforwards: baseline operating EPS $0.74 to $0.78 a quarter; 2Q26 TBVPS $23.31 to a 3Q26 proforma $21.36, i.e. a 8.4% hit to tangible book, of which $2.39 is the repositioning. Guidance: 3Q26 operating ROAA 1.25-1.30%, CET1 >13%, TCE/TA >9.0%.",
+  "consensus_case": "At $34.59 United Community trades at about 1.62x the tangible book of $21.36 a share that the company's own 8 September deck projects for the end of Q3 2026, for a Southeastern relationship bank whose updated baseline operating earnings power is $0.78 a quarter \u2014 roughly a 14-15% return on that tangible equity. The market is paying a premium multiple for a franchise that has just deliberately simplified itself: it sold Navitas equipment finance for $2.0 billion in cash at a 7% premium to par, took a ~$300 million pre-tax loss to sell $2.6 billion of 2.20%-yield securities and redeploy at ~4.5%, closed Peach State, and is buying back stock. That is a bank trading at a fair-to-full multiple of a return it has just paid real tangible book to improve, and the price reflects the improvement rather than discounting it.",
+  "base_case_rationale": "A book-method name, so the input is sustainable return on tangible common equity, and I set it at 14.0%. Two independent routes agree. First, the company's own walkforward: an updated baseline operating EPS of $0.78 a quarter is about $3.12 a year, and against the proforma tangible book of $21.36 on roughly 118 million shares after buybacks that is a 14.6% return. Second, and independently, guided 3Q26 operating ROAA of 1.25-1.30% at guided TCE/TA above 9.0% implies roughly 14%. I take the lower end of the two because the $0.78 is management's illustrative full-quarter figure and is explicitly stated to assume a flat rate environment \u2014 an assumption the Federal Reserve's September hike has already violated. This is nowhere near the engine's 9.9%, which is a three-year GAAP average spanning the years in which United absorbed acquisitions, merger charges and a securities repositioning, and which describes a bank that no longer exists.",
+  "key_risks": [
+    "The $300M pre-tax repositioning loss is banked tangible-book destruction; the offsetting earnings improvement is a projection that assumes a flat rate environment the September Fed hike has already broken",
+    "3Q26 will be a GAAP net loss, and the deck's $21.36 proforma TBVPS explicitly excludes the AOCI effect of Q3 rate moves on the securities NOT sold",
+    "Goodwill and intangibles are 27% of reported book and United keeps adding to them through small in-market acquisitions",
+    "Navitas was a high-yielding business as well as a high-charge-off one; replacing $2.0B of equipment-finance yield with 4.5% short securities and 'high single digit' promised loan growth is an execution bet on 42 newly hired lenders"
+  ],
+  "watch_for": [
+    "Q3 and Q4 2026 operating ROTCE against the company's own $0.78 quarterly baseline \u2014 the single number this verdict turns on",
+    "Actual 3Q26 tangible book per share against the $21.36 proforma, which will show what the September rate move did to the retained securities book",
+    "Net interest margin in Q4 2026 and Q1 2027: whether the reinvestment spread appears in the margin or only in the walkforward"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/857855/000110465926105666/tm2624931d1_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/857855/000085785526000084/ucbi-20260901.htm",
+    "https://www.sec.gov/Archives/edgar/data/857855/000085785526000076/ucbi-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/857855/000110465926085229/tm2620881d1_8k.htm"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_27%_of_book"
+  ]
+}

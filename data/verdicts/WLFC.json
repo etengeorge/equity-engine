@@ -1,19 +1,19 @@
 {
   "ticker": "WLFC",
-  "date": "2026-09-09",
+  "date": "2026-09-23",
   "sector": "Industrials",
   "name": "WILLIS LEASE FINANCE",
   "method": "fcff",
-  "verdict": "no_model",
-  "conviction": "medium",
+  "verdict": "no_edge",
+  "conviction": "low",
   "final_growth": null,
   "bear_growth": null,
   "bull_growth": null,
   "rotce_override": null,
-  "horizon_months": 24,
-  "price_at_verdict": 57.43000030517578,
-  "market_implied_growth": 0.06528437718275815,
-  "cohort_pct": 96.7,
+  "horizon_months": 12,
+  "price_at_verdict": 54.7400016784668,
+  "market_implied_growth": 0.06394254446644843,
+  "cohort_pct": 97.4,
   "priced": {
     "ok": false,
     "reason": "not a repriceable fcff name or no growth supplied"
@@ -22,30 +22,33 @@
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "The strongest case that I am wrong is that net fleet investment, not gross, is the right charge: Willis routinely trades engines, and in the six months to 2026-06-30 it sold $302.8M of equipment against $401.9M of purchases, so net fleet investment was only $99.1M and in H1 2025 only $13.0M. On that reading free cash flow is real and the $347.6M base is not absurd. A second counter is that an engine lessor is economically a financial: the right frame is return on tangible book, and at ~12x earnings with AUM compounding 21% the name is not obviously expensive, so calling the DCF broken does not by itself make the stock rich.",
-    "what_would_prove_it": "A full-year cash flow statement showing CFO less NET fleet investment consistently at or near the $250-350M the model assumes, sustained across a cycle rather than in a year with unusually heavy engine sales.",
-    "already_visible": "Partly, and it cuts against the model rather than for it. H1 2026: CFO $134.2M less net fleet investment $99.1M = $35.1M, and after $42.5M of notes-receivable issuance and $39.6M of JV contributions, cash used in investing was $78.2M against CFO of $134.2M. H1 2025 was better ($132.2M on the same basis) but that was a year with almost no fleet growth. Neither half-year supports $347.6M annualised, and the equipment portfolio is $2,783.4M against a D&A charge that implies well over $200M of annual sustaining reinvestment.",
-    "unresolved": "I could not determine the split between growth and maintenance fleet capex, which is the number that decides the true owner-earnings base. Willis does not disclose it and it cannot be derived from the tags."
+    "strongest_counter": "I came into this name expecting to record RICH, because LESSONS already establishes that the capex concept is missing and that correcting it inverts the +209% gap. The adversarial pass is what stopped me, and it found a second defect of comparable size running the other way. The model's synthetic cost of debt for Willis Lease is 19.96% \u2014 set by an interest-coverage ratio of EBIT $104.3 million over interest expense $132.1 million, or 0.79x, which for an ENGINE LESSOR is a structural feature of the business rather than distress, because the funding cost of the assets sits below an operating line already struck after their depreciation. The rate Willis actually pays is $132.1 million on $2,320.9 million, or 5.69%. At a 66.7% debt weight that 1,430 basis point error carries the WACC from about 6.9% to 14.02%, and it is the single largest input error on this brief. No flag fires: `speculative_cost_of_debt` only triggers when EBIT is absent or negative, and Willis's is positive.",
+    "what_would_prove_it": "The rate Willis Lease actually pays on its debt, against the rate the model assumes \u2014 `interest_expense / total_debt` versus `cost_of_debt`, which is the detector the CLVT (2026-09-18) and HP (2026-09-21) entries in LESSONS both nominate.",
+    "already_visible": "Yes, entirely, and it changed my verdict. 5.69% paid against 19.96% assumed, at a 66.7% debt weight. Run the grid: at the engine's base and WACC the market requires +6.1%; correcting only the capex takes it to +19.4%; correcting only the WACC takes it to -13.6%; correcting both leaves +1% to +8%. Two large errors in opposite directions give no_edge, not the average and not the half I happened to find first \u2014 the SM rule. I would have published RICH on a one-sided correction, and it would have been the mirror of the mistake the 2026-09-01 MFIN pass made when it applied one half of a LESSONS entry without testing the other half.",
+    "unresolved": "What owner earnings actually are for an engine lessor that buys and sells engines as its business model. H1 2026 gross fleet purchases were $401.9 million against $302.8 million of sale proceeds, so net investing was only $78.2 million; whether the right base is CFO less GROSS fleet capex (deeply negative), CFO plus NET investing (~$112 million annualised), or something between is an accounting judgment the filings do not settle, and it moves the required growth by fifteen points on its own. I also could not size the August portfolio acquisition's debt, so the $3.47 billion enterprise value is understated by an unknown amount, which makes the name richer than any figure above."
   },
-  "what_changed": "Closed a portfolio acquisition of 12 aircraft and 13 engines on 2026-08-25 (8-K item 2.01), after the 2026-06-30 balance sheet the model prices. Announced a new Willis Engine Repair Center in Malaysia (2026-08-27). Q2 earnings fell year over year on lower maintenance reserve revenue and higher G&A and technical expense. Further 8-Ks on 2026-07-14 (item 1.01) and 2026-09-08. PRIOR RESEARCH: this name was last covered on 2026-08-31, which reached the same no_model verdict and diagnosed the capex defect correctly from the committed extract, but recorded two things it could not settle \u2014 \"I could not read the 10-K to state the correct equipment-purchase figure\" and \"I could not read the 2026-08-25 item 2.01 8-K\". Both are now closed by dispatching adhoc-fetch: the purchase line is $401,934k for H1 2026 against $6,287k of furnishings capex, and the 2026-08-25 8-K is a portfolio acquisition of 12 aircraft and 13 engines. I agree with that pass and it was right to cap itself; the only correction is that its corrected base was guessed at \"plausibly negative\" whereas the actual H1 figures give $35.1M of CFO less net fleet investment, i.e. small and positive, not negative. One defect it raised has since been FIXED: it reported a fabricated -69.7% 63-day move caused by the 3-for-1 split of 2026-07-17 not being applied to the pre-split price series; today's brief shows 63d -7.0% and 252d +16.7%, which are plausible, so the split adjustment is now working and the beta of 1.32 (R-squared 0.243) is no longer computed on a corrupted series.",
-  "consensus_case": "Willis Lease is a leveraged aircraft-engine lessor in the best engine-leasing market in twenty years: AUM up 21% year over year to $4.4 billion, Q2 2026 revenue $194M, pre-tax income $38.1M, adjusted EBITDA $120.7M, and diluted EPS of $2.39 for the first half. Spare CFM56 and V2500 capacity is scarce because GTF and LEAP shop visits are keeping narrowbodies grounded, so lease rates and maintenance reserves are firm. At $57.43 the equity is roughly 12x annualised first-half EPS. The market is paying a normal multiple for a levered, cyclical asset owner whose earnings are real but whose growth requires continuously buying more engines with borrowed money.",
-  "base_case_rationale": "I cannot state a defensible five-year FCFF growth rate because the FCFF base this model is built on does not describe the company. See fcff_base_override and the data-quality note: the capex the extractor can see is office furniture, not engines.",
+  "what_changed": "Four things since the last pass on this name (2026-08-31), and one of them answers the question that pass could not. (1) THE 2026-08-25 ITEM 2.01 8-K, which the prior pass recorded as unreadable, is the closing of a portfolio acquisition of 12 commercial aircraft and 13 engines \u2014 an expansion, not a disposal. (2) Q2 2026 (2026-08-04): revenue $194 million, pre-tax income $38.1 million, adjusted EBITDA $120.7 million (+4.0%), lease rent +6.7% to $77.1 million but core lease rent plus maintenance reserves only +0.5%, net income to common $28.7 million against roughly $59 million. (3) On 2026-09-16 the company signed a $35 million Series B preferred purchase agreement with the Development Bank of Japan at 8.09%, 1,750,000 shares, announced 2026-09-22 \u2014 on top of the existing $65 million Series A. (4) A new Willis Engine Repair Center announced for Johor, Malaysia (2026-08-27), with land acquired. Capital is being raised at 8.09% to fund an asset base whose organic revenue line is flat.",
+  "consensus_case": "At $54.74 Willis Lease is a levered spread business \u2014 $2.32 billion of debt and $100 million of preferred against $709 million of book equity \u2014 priced on a cycle that has just turned. The bull half is intact: assets under management reached $4.4 billion, up 21%, the company closed a portfolio of 12 aircraft and 13 engines in August, is building a new engine repair centre in Johor, and the spare-engine aftermarket remains structurally short of capacity. The bear half is what the market is reacting to and it is in the Q2 numbers: net income attributable to common fell to $28.7 million from roughly $59 million, core lease rent AND maintenance reserve revenue together grew just 0.5% to $123.6 million, and adjusted EBITDA grew 4.0%. Income from operations of $34.0 million is +20.2%, but a third of pre-tax income is gain on sale of leased equipment ($32.0 million in the quarter). The market is paying for a growing asset base whose organic earnings have stopped growing, funded at 8.09% on the newest preferred.",
+  "base_case_rationale": "I am not supplying a growth rate, because on this name two defects of comparable size point in OPPOSITE directions and the schema can fix only one of them. The capex concept is missing, which makes the cash-flow base far too high; the synthetic cost of debt is 19.96% against a rate actually paid of 5.69%, which makes the discount rate far too high. Correcting only the base \u2014 which is all the schema permits \u2014 would price a defensible $211 million of owner earnings through a 14.02% WACC and produce a NEGATIVE fair value of about -$33 a share, which is not a valuation of anything. Across the honest ranges of both inputs the growth the market requires spans -13.6% to +29.0%, and my central estimates (a $211 million base, a WACC of 8-10%) put it at +1% to +8% against a company growing lease rent 6.7% and adjusted EBITDA 4.0%. That is roughly fair, and it is a range, not a number.",
   "key_risks": [
-    "Engine values and lease rates are at a cyclical high driven by GTF/LEAP durability problems; a resolution of those programmes releases spare capacity and compresses both",
-    "66% debt weight in the capital structure against a WACC the engine computes at 13.9% - refinancing risk if credit spreads widen",
-    "Consolidation of AUM into managed vehicles makes reported revenue and asset growth harder to tie back to equity value"
+    "NO FIGURE ON THIS BRIEF IS USABLE: the capex base is overstated and the discount rate is overstated, by comparable amounts in opposite directions",
+    "$2.32B of debt plus $100M of preferred against $709M of book equity, with the newest preferred priced at 8.09% \u2014 very little cushion if residual values on CFM56/V2500 assets reprice",
+    "Core lease rent plus maintenance reserve revenue grew 0.5% year over year while the asset base grew 21%; the spread is compressing",
+    "Roughly a third of pre-tax income is gain on sale of leased equipment ($32.0M in Q2 alone), which is the most cycle-dependent line in the business",
+    "The August 2026 portfolio acquisition closed after the 2026-06-30 balance sheet, so enterprise value is understated by whatever funded it"
   ],
   "watch_for": [
-    "A full-year 2026 cash flow statement showing purchases of equipment held for operating lease against proceeds from sale of equipment - the two lines that decide whether any free cash flow exists",
-    "Disclosure separating growth from maintenance fleet investment",
-    "Any narrowing of the GTF/LEAP shop-visit backlog, which is the demand driver for the whole spare-engine market"
+    "Q3 2026 maintenance reserve revenue and utilisation: a third consecutive decline turns a soft patch into a cycle turn",
+    "Whether gain on sale of leased equipment holds near $32M a quarter",
+    "The FY2026 10-K cash flow statement: gross fleet purchases against sale proceeds, which is the number that decides the owner-earnings base",
+    "A corrected capex alias covering lessor equipment purchases AND a cost-of-debt sanity check against the rate actually paid \u2014 until both ship, this name cannot be screened"
   ],
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000068/wlfc-20260630.htm",
     "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000065/wlfc-20260804.htm",
-    "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-reports-103000968.html",
-    "https://finance.yahoo.com/real-estate/articles/willis-lease-finance-corporation-closes-103000202.html",
-    "https://www.fool.com/earnings/call-transcripts/2026/08/11/willis-lease-finance-wlfc-q2-2026-earnings-call-transcript/"
+    "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/wlfc-20260824.htm",
+    "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/wlfc-20260916.htm",
+    "research/LESSONS.md"
   ],
   "flags": []
 }

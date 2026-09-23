@@ -1,0 +1,57 @@
+{
+  "ticker": "ERAS",
+  "date": "2026-09-23",
+  "sector": "Health Care",
+  "name": "ERASCA",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 15.039999961853027,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That no_model is the easy answer and the multiples table is telling me something I should not ignore: at 14.5x tangible book against a health-care cohort median of 4.2x, the blended comparable value is $4.34 against a $15.04 price, i.e. the stock is 71% expensive. A $5.3 billion valuation on a Phase 1 asset with an unconfirmed eight-week response rate in a handful of patients, in a company that has never run a registrational trial, is the definition of a bubble, and 'I cannot model it' is how an analyst avoids saying so.",
+    "what_would_prove_it": "Whether price-to-tangible-book is a meaningful ratio for a company whose only asset is intellectual property and cash.",
+    "already_visible": "It is not, and that settles the multiples half of the counter rather than the substance of it. Erasca's tangible book IS its cash: $361.9 million of equity at 2026-06-30, now roughly $1.0 billion after the July raise, with zero goodwill and zero intangibles because the drug was discovered internally and is expensed. A p_tbv row therefore prices this company at a multiple of its bank balance against a cohort of commercial medtech and pharma businesses whose book value means something entirely different \u2014 and it is the ONLY row the table has, on a cohort the brief itself marks 'not ranked'. The $4.34 is arithmetic, not a valuation. But I want to be explicit that rejecting the ratio is NOT rejecting the counter's substance: a $5.3 billion market capitalisation on a 57% unconfirmed ORR in a Phase 1 expansion cohort may well be too much, and the 11.9% twenty-one-day decline suggests some holders now think so. I am recording that I have no basis to price it, not that the price is defensible.",
+    "unresolved": "Everything that matters: the confirmed response rate, the durability, the size of the KRAS G12X populations, the competitive field in pan-RAS, and the probability of technical success. Also unquantified: the true burn rate going forward \u2014 three registration-enabling trials will cost far more than the ~$200 million a year the company has been spending, so the ~$1.0 billion of cash is not the four-plus years of runway the historical burn implies."
+  },
+  "what_changed": "Everything, in one quarter. In July 2026 Erasca reported updated AURORAS-1 Phase 1 data for ERAS-0015 showing 57% uORR-8wk in 2L+ KRAS G12X PDAC, building on April 2026 data in KRAS G12X lung cancer, with favourable tolerability and the first combination cohort with panitumumab cleared without dose-limiting toxicities. It immediately launched a $500 million equity offering (2026-07-13) which upsized and closed at $632 million, taking cash, equivalents and marketable securities from $384 million at 2026-06-30 to roughly $1.0 billion. The programme is advancing toward THREE potentially registration-enabling trials in pancreatic and lung cancers. ERAS-4001 Phase 1 preliminary monotherapy data is expected in H2 2026 \u2014 a dated catalyst inside the next three months \u2014 and additional ERAS-0015 monotherapy and combination data in H1 2027. The stock has since given back 11.9% in twenty-one days.",
+  "consensus_case": "At $15.04 Erasca carries a $5.3 billion market capitalisation on zero revenue, and the entire number is a probability-weighted bet on one molecule. ERAS-0015, a pan-RAS inhibitor, produced a 57% unconfirmed objective response rate at eight weeks in second-line-or-later KRAS G12X pancreatic ductal adenocarcinoma at the 32mg recommended expansion dose, with ongoing treatment in all responding patients, no dose-limiting toxicities, no treatment-related discontinuations and a median relative dose intensity of 100%. Second-line pancreatic cancer has essentially no effective therapy and response rates in the single digits are the norm, so a 57% uORR \u2014 if it confirms and durable \u2014 is a drug worth several billion dollars. That is why the stock is up 704% over twelve months. The market is pricing a high probability of a registrational path in a large indication, and it is doing so on a Phase 1 dose-expansion cohort.",
+  "base_case_rationale": "None is defensible and I will not manufacture one. Erasca has no revenue, no product, and operating cash outflow of $95-109 million in each of the last three years against which a growth rate means nothing. Its value is the risk-adjusted net present value of ERAS-0015 in two indications, which requires a probability of technical success, a launch date, a peak-sales estimate and a competitive assumption about the other pan-RAS programmes in development \u2014 four inputs none of which is in this repository and none of which a free-data screener can supply honestly. 'The cash flows will not support a valuation' is the complete answer here.",
+  "key_risks": [
+    "A $5.3 billion valuation resting on a 57% UNCONFIRMED eight-week objective response rate in a Phase 1 dose-expansion cohort \u2014 the most over-interpreted class of number in clinical oncology",
+    "Single-asset concentration: ERAS-0015 is effectively the whole company, and ERAS-4001 is itself only entering Phase 1 readout",
+    "Burn will rise sharply with three registration-enabling trials, so the ~$1.0 billion post-offering cash is a shorter runway than the ~$200 million-a-year history implies",
+    "Competitive pan-RAS programmes at larger companies could reach the same indications first",
+    "Beta 2.19 \u2014 the highest in today's ten \u2014 on a stock that has already moved 704% in a year"
+  ],
+  "watch_for": [
+    "ERAS-4001 Phase 1 preliminary monotherapy data, expected H2 2026 \u2014 the next dated catalyst",
+    "Confirmed (not unconfirmed) response rate and duration of response for ERAS-0015 in 2L+ KRAS G12X PDAC, expected H1 2027",
+    "Initiation and design of the three registration-enabling trials",
+    "Any further equity raise, which would say the three-trial programme costs more than the $1.0 billion on hand"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1761918/000119312526344584/eras-20260811.htm",
+    "https://www.sec.gov/Archives/edgar/data/1761918/000119312526344611/eras-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1761918/000119312526302045/d54726d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1761918/000119312526303357/d371010d8k.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

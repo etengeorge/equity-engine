@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CON — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / CON</p><h1>CON <span style='color:var(--faint);font-weight:400'>CONCENTRA GROUP HOLDINGS PARENT IN</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$34.77</b></div><div>Analyst gap<b>+38%</b></div><div>Dated<b>2026-09-23</b></div></div><div class='prose'><h1>CON — CONCENTRA GROUP HOLDINGS PARENT IN</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-23 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $34.77 · fair value $47.84 · gap +37.6%</li><li><strong>Growth:</strong> market implies +10.4%, analyst says +8.0% (delta -2.4%)</li><li><strong>FCFF base overridden</strong> by the analyst to $290.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 5.1% | 6.1% | 7.1% | 8.1% | 9.1% | |---|---|---|---|---|---|---| | bear | +3.0% | $66.90 | $47.91 | $36.34 | $28.56 | $22.97 | | base | +8.0% | $86.53 | $62.48 | $47.84 | $38.00 | $30.93 | | bull | +12.0% | $104.99 | $76.17 | $58.63 | $46.85 | $38.38 |</p><p>At the point WACC of 7.1%: bear +4.5%, base +37.6%, bull +68.6% Across the whole grid the gap ranges -34.0% to +202.0% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $34.77 Concentra is a $5.8 billion enterprise valued at roughly 12x the $485-495 million of adjusted EBITDA it guides for 2026, for the largest occupational health platform in the United States — 633 occupational health centres, 415 onsite clinics, ~54,000 patient visits a day across 46 states. The market&#x27;s case is that this is a defensive, fragmented, GDP-plus end market with a genuine consolidator at the front of it: Q2 revenue rose 10.0% to $606.0 million, patient visits per day 2.6%, and adjusted EBITDA 22.5% to $140.9 million as the fixed-cost base levered. Workers&#x27; compensation volumes do not cycle the way discretionary healthcare does, the payor mix is employers rather than Medicare, and the 2024 spin from Select Medical left a levered balance sheet ($1.56 billion of debt) that now delevers into growing cash flow. The stock is up 22.3% in three months and 67.1% in a year, so the re-rating has already happened.</p><p><strong>What changed.</strong> Nothing that invalidates the model, which is itself worth recording. Q2 2026 (2026-08-06): revenue $606.0 million (+10.0%), adjusted EBITDA $140.9 million (+22.5%), patient visits per day 56,421 (+2.6%), with the increase attributed &#x27;primarily to organic increases in both volume of patient visits and revenue per visit&#x27; plus the June 2025 onsite acquisition. Full-year 2026 guidance: adjusted EBITDA $485-495 million and FREE CASH FLOW $220-240 million. The acquisition machine has stopped for now — net cash used in investing was $29.0 million in H1 2026 against $374.3 million in H1 2025, with zero occupational health centres acquired in Q2 — so the free cash flow guided is available rather than pre-spent. Governance: a $34.65 million buyback of 1,000,000 shares (0.78%) from chairman Robert Ortenzio and related entities at a 1% discount, closed 2026-08-24, described as portfolio diversification; Matt DiCanio becomes CEO 2026-11-01 with Tanner Newton as CFO, the next step of a pre-announced succession.</p><p><strong>Base case.</strong> Eight percent five-year FCFF growth. The building blocks are visible and modest: patient visits per day grew 2.6% organically, revenue per visit is rising, and H1 revenue grew 11.8% of which roughly 5.8 points were organic once the $28.7 million from Pivot and $22.7 million from the onsite acquisition are stripped out. So call organic revenue growth 5-6%. On top of that Concentra is levering a fixed clinic cost base — Q2 adjusted EBITDA margin went to 23.3% from 20.9%, 240 basis points in a year — and is deleveraging $1.56 billion of debt, which converts EBITDA growth into faster growth in cash available to the firm. I will not extrapolate 22.5% EBITDA growth: 240bp of annual margin expansion cannot repeat five times, and the roll-up has paused. Mid-single-digit organic revenue growth plus decaying margin leverage plus selective tuck-ins gets to roughly 8%, and that is close to what the market is asking for once the enterprise value is discounted properly.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That Concentra is a roll-up whose headline growth is bought, and that I have corrected the cash-flow base upward without checking whether the cash flow is real. This is the EFOR test from LESSONS: a serial acquirer&#x27;s flat or growing revenue is purchased revenue, cash paid for acquisitions sits in investing activities where CFO-less-capex never charges for it, and a base built that way always reads as cheapness. Concentra acquired 72 occupational health centres in H1 2025 and over 240 onsite locations in June 2025, and 2025 revenue of $2,163 million against $1,900 million would then be mostly bought. If so, adding $77 million of after-tax interest to a purchased cash-flow stream compounds one error with another, and the +8% growth I am underwriting is not organic at all.</li><li>What would prove it: Cash paid for acquisitions against the change in revenue, and the company&#x27;s own organic-versus-acquired revenue split.</li><li>Already visible today: Yes, and it clears Concentra — which is why the verdict is no_edge rather than rich. Net cash used in investing activities was $29.0 million in H1 2026 against $374.3 million in H1 2025, so acquisition spend has essentially stopped this year; zero centres were acquired in Q2. And the company gives the split directly: of the 11.8% H1 revenue increase, $28.7 million came from Pivot and $22.7 million from the onsite deal, i.e. about $51 million of the $124 million increase, leaving roughly 5.8 points organic. Volume is independently corroborated at +2.6% visits per day. The detector was the right one to run and the answer is that this is a 5-6% organic grower with real operating leverage, not a purchased top line.</li><li>Left unresolved: The discount rate, which the schema cannot override and which decides the sign. Concentra&#x27;s beta of 0.573 is measured at R-squared 0.145 on barely two years of post-spin price history, and per the LESSONS bucket study a weak regression attenuates beta toward zero and manufactures cheapness. At the engine&#x27;s 7.12% WACC the market requires only +2.2% on my base; at a beta of 1.0 it requires +9.2%, which is where I actually sit. That is the difference between a large discount and roughly fair, and I could not settle it.</li></ul><p><strong>Key risks.</strong> READ THE SCENARIO GRID, NOT THE POINT ESTIMATE: the recorded fair value uses a 7.12% WACC built on a beta of 0.573 at R-squared 0.145 over barely two years of post-spin history. My own view sits in the +2pt (9.1%) column, where the base case is about -11%, not the +38% the point cell prints; Workers&#x27; compensation volume is a direct function of employment; visits per day grew only 2.6% in a strong labour market; 240bp of adjusted EBITDA margin expansion in one year is the bulk of the earnings growth and cannot repeat indefinitely; State workers&#x27; compensation fee schedules are administered prices and can be cut; $1.56 billion of debt against $158 million of cash on a 2024 spin-off with a two-year operating history as an independent company <strong>Watch for.</strong> Patient visits per day: a fall below ~2% organic growth would remove the volume leg of the thesis; Whether 2026 free cash flow lands in the guided $220-240 million range; Restart of the acquisition programme — and whether it is funded from free cash flow or new debt; Adjusted EBITDA margin: whether it holds above 23% or the 2026 expansion proves to be a one-off</p><p><strong>Data quality.</strong> One flag (<code>no_baseline_growth</code>, i.e. insufficient revenue history on a 2024 spin-off) and it hides a real defect the flag has nothing to do with. <code>interest_expense</code> is NULL against <code>total_debt</code> of $1,561,211,000. The 10-Q states plainly: &#x27;For the six months ended June 30, 2026, we had interest expense of $51.7 million, compared to $53.7 million&#x27; — roughly $103 million a year, an implied rate of 6.6%. Because <code>normalized_fcff</code> adds after-tax interest to CFO less capex, a missing interest expense SUBTRACTS nothing but adds nothing either: the base reads $203.7 million where it should read about $281 million, understated 38%. This is the KBH/BIPC shape — a <code>total_debt</code> and <code>interest_expense</code> pair that disagree — running through the numerator, and its direction is a FALSE SELL: a base that is too low inflates the growth the market appears to require. It cost nothing visible here only because Concentra has too short a revenue history for the engine to compute a baseline gap at all; on a name the engine ranked, it would have marked it expensive. Detector: a NULL <code>interest_expense</code> against material recorded debt should be a gate exactly as KBH&#x27;s zero and BDC&#x27;s negative should be. Corroboration for my $290 million override: the company guides 2026 free cash flow of $220-240 million, which plus ~$77 million of after-tax interest is $297-317 million, so if anything I am conservative. The second and unfixable defect is the beta, discussed above. Everything else reconciles: <code>capex_series</code> [$82.3M, $64.3M] is positive and plausible at ~3.5% of revenue, the share count is current (2026-07-31, before the 1.0 million-share chairman buyback, so market cap is ~0.8% overstated), and the balance sheet is 2026-06-30. CORRECTED: the market requires +2.2% at the engine&#x27;s WACC and +9.2% at a beta of 1.0, against my +8% base case. Roughly fair, with the honest spread being the -34% to +202% across the whole grid rather than the +38% point cell.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/2014596/000201459626000056/cghp-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2014596/000201459626000056/cghp-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2014596/000201459626000055/cghp-20260805.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2014596/000201459626000055/cghp-20260805.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2014596/000201459626000060/cghp-20260821.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2014596/000201459626000060/cghp-20260821.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2014596/000201459626000064/cghp-20260904.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2014596/000201459626000064/cghp-20260904.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/CON.md'>research/Health Care/CON.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

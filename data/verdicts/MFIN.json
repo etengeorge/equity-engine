@@ -1,50 +1,65 @@
 {
   "ticker": "MFIN",
-  "date": "2026-09-02",
+  "date": "2026-09-23",
   "sector": "Financials",
   "name": "MEDALLION FINANCIAL CORP",
   "method": "book",
   "verdict": "no_edge",
-  "conviction": "low",
+  "conviction": "medium",
   "final_growth": null,
   "bear_growth": null,
   "bull_growth": null,
-  "rotce_override": null,
+  "rotce_override": 0.105,
   "horizon_months": 24,
-  "price_at_verdict": 11.819999694824219,
+  "price_at_verdict": 11.949999809265137,
   "market_implied_growth": null,
   "cohort_pct": 99.4,
   "priced": {
-    "ok": false,
-    "reason": "book method needs rotce_override or final_growth"
+    "ok": true,
+    "method": "justified_p_tbv",
+    "analyst_rotce": 0.105,
+    "screen_rotce": 0.22648191552865696,
+    "justified_p_tbv": 1.33705783109496,
+    "actual_p_tbv": 1.142691029518102,
+    "tangible_book_per_share": 10.457769861293752,
+    "fair_value": 13.982643088831663,
+    "price": 11.949999809265137,
+    "gap": 0.1700956746451634,
+    "fundamentals_source": "store",
+    "flags": [
+      "goodwill_and_intangibles_41%_of_book",
+      "unstable_rotce_17.9%_to_32.1%"
+    ]
   },
   "parse_notes": [
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "The counter is that I have now talked myself out of the same name twice, on two different grounds, and that pattern deserves suspicion. First I dismissed it on a book-value error that turned out not to exist; now that the arithmetic has survived, I am dismissing it on input sensitivity instead. Medallion genuinely earns high returns on tangible equity, genuinely trades at 1.13x that equity, and has genuinely delivered $55.1M, $35.9M and $43.0M of net income across three years. If the ROTCE is real at even 18% \u2014 the LOW end of the observed range, not the mean \u2014 the justified multiple is still well above 1.13x and the stock is cheap. 'The inputs are uncertain' is a reason for low conviction, not a reason for no verdict.",
-    "what_would_prove_it": "Credit performance in the recreation lending book through a consumer slowdown \u2014 net charge-offs and 30+ day delinquency trend over the next two to three quarters. That is what decides whether the 17.9%-32.1% range is cyclical noise around a high-teens sustainable return, or the top of a credit cycle about to mean-revert below it.",
-    "already_visible": "Not yet, and that is the honest answer. I did not read the Q2 release or the 10-Q credit tables, so I have not seen the current delinquency trend. That is a limit I am recording rather than filling. What IS visible and does support the counter: three consecutive profitable years and a tangible book figure I have now verified twice. The counter has genuinely moved me from 'this gap is an artifact' to 'this gap is real but I cannot size it' \u2014 which is a different and weaker dismissal than the one I published this morning.",
-    "unresolved": "Whether the sustainable ROTCE is nearer 18% or 32%, which is the entire valuation; the current credit trend in the consumer books; and whether a 0.62 beta measured on $901K of daily volume means anything at all for the cost of equity."
+    "strongest_counter": "The bull case is the CECL argument above and it is genuinely strong, because it is the standard mechanical consequence of record origination growth: under CECL a lender books the lifetime expected loss on a new loan in the quarter it originates it, while the interest arrives over years. Medallion grew loans 7% sequentially to record levels; the provision that growth forces is not evidence of credit deterioration, it is evidence of growth. On that reading H1 2026 earnings are artificially depressed by the very thing that makes the franchise more valuable, and the 10.3% I am calling sustainable is a trough. This also happens to be the counter that the 2026-09-02 pass on this name explicitly could not resolve, and it deserves to be taken seriously rather than waved at.",
+    "what_would_prove_it": "Separating the provision into the CECL build on new originations from the charge-offs on the existing book: if net charge-offs are flat and the provision is all growth-driven, the counter wins; if charge-offs are rising, it does not.",
+    "already_visible": "Yes, and it does not win. Net charge-offs in recreation lending are disclosed at 3.25% and 3.94% of average gross loans \u2014 mid-to-high 3% is realised loss, not a forward reserve, and it is the single largest consumer book. Cumulative taxi-medallion charge-offs also rose $6.6 million year over year, in a portfolio that is supposed to be finished. And the decline is not one quarter of CECL noise: it runs from H2 2025 (roughly $19.9 million implied) through Q1 and Q2 2026, four consecutive periods. The 2026-09-02 pass wrote that its dismissal would fail 'if the ROTCE is real at even 18% \u2014 the LOW end of the observed range'. The actual print is 10.3%, which is BELOW the low end of the range, not at it. The test that pass nominated has now been run and it goes the other way.",
+    "unresolved": "The cost of equity, which the schema cannot override and which decides the sign. The 8.4% comes from a beta of 0.617 measured at R-squared 0.187 on a stock that trades $701 thousand a day; on that tape it is not a measurement. At 8.4% the corrected gap is +13%; at a beta of 1.0 it is -15%. I also could not size the Series G reopening, so I cannot quantify how much further the NCI dividend load rises."
   },
-  "what_changed": "CORRECTION TO THE VERDICT RECORDED EARLIER TODAY. The first pass on this name asserted that the model overstated tangible book by 71% \u2014 that its $10.46 per share included $99.4M of non-controlling interest and the true figure was $6.13, making actual P/TBV 1.93x rather than 1.13x. That was wrong, and I have since verified it against the filing. Medallion's 30 June 2026 10-Q balance sheet reads 'Total stockholders' equity 408,617' with 'Non-controlling interest in consolidated subsidiaries 99,429' listed SEPARATELY BELOW it, summing to 'Total equity 508,046'. The SEC companyconcept endpoint confirms the extractor took us-gaap:StockholdersEquity, whose standard label is 'Stockholders' Equity Attributable to Parent', at exactly the $408,617,000 the model holds. The non-controlling interest was never inside the number, so deducting it would have understated tangible book by 41% rather than correcting it. The model's $10.46 and its 1.13x actual P/TBV are right. On the company itself: a 2026-08-05 10-Q and a 2026-07-29 8-K carrying Q2 results, plus June 8-Ks under items 5.02 and 8.01. No company news in the 90-day store, which is a fact about coverage rather than about the company.",
-  "consensus_case": "At $11.82 against $10.46 of tangible book, Medallion Financial trades at 1.13x tangible common equity while the model computes a justified multiple of 3.54x from a 22.6% sustainable ROTCE against an 8.2% cost of equity. The market is refusing to pay that, and the refusal is not obviously wrong. The 22.6% is an average of three years running 17.9% to 32.1%, which is too wide a spread to call sustainable; the business is a subprime-adjacent consumer lender (recreation vehicles, home improvement) heading into a softening consumer; 41% of reported book is goodwill and intangibles; and the legacy taxi-medallion book is a reminder of what happens to this balance sheet when a collateral class reprices. A buyer at 1.13x tangible book is paying for earnings they do not believe repeat at 22.6%.",
-  "base_case_rationale": "This is a book-method name, so no FCFF growth applies. Having removed the tangible-book error I claimed and found it was not there, the +213% gap is not explained away by a balance-sheet artifact and has to be judged on its merits \u2014 so I judged it, and I still do not think it is a thesis. The gap is manufactured almost entirely by the justified multiple, and that multiple is a Gordon-style ratio (ROTCE \u2212 g) / (COE \u2212 g) which is violently sensitive to both inputs. The ROTCE input is an average of 17.9%, 32.1% and the year between; the engine's own unstable_rotce flag fires on exactly that spread. Choosing the low end of the observed range instead of the mean drops the justified multiple by more than half and closes most of the gap without touching anything else. The cost of equity is 8.2%, which is low for a subprime-adjacent lender and reflects a 0.62 measured beta on a $271M name trading $901K a day \u2014 a beta I do not trust for a stock this thin, and one that flatters the multiple directly. A valuation whose answer moves from 'triple' to 'roughly fair' on two defensible input choices is not a valuation, and per the standing lesson about gaps that flip inside the band, conviction is capped low regardless.",
+  "what_changed": "Two things, and the first settles a question two previous passes on this name left open. (1) EARNINGS HAVE COLLAPSED. Q2 2026 net income attributable to Medallion Financial Corp. was $7,445 thousand against $11,069 thousand a year earlier (-33%), and H1 2026 was $12,398 thousand against $23,083 thousand (-46%) \u2014 this against RECORD originations, 7% sequential loan growth, total assets through $3.2 billion and net interest income of $57.2 million. The company's own framing is that net income dipped on 'higher provisions and operating expenses'. Recreation-lending net charge-offs are disclosed at 3.25% and 3.94% of average gross loans excluding loans held for sale. Cumulative taxi-medallion net charge-offs rose to $168.1 million from $161.5 million. (2) On 2026-09-22 \u2014 the day before this screen \u2014 Medallion Bank launched a REOPENING of its Series G non-cumulative perpetual preferred (Nasdaq: MBNKO), proceeds possibly to redeem the Series E. That is more non-controlling-interest capital ahead of the common, and it is what earned this name its opportunistic slot.",
+  "consensus_case": "At $11.95 Medallion Financial trades at about 1.15x a tangible book of $10.38 a share, which is roughly what a subprime-adjacent consumer lender earning 10% on tangible common equity is worth against an equity cost anywhere north of 8%. The market is not refusing to pay for a 22.6% return \u2014 it is correctly pricing the return the company is actually producing NOW. Net income attributable to Medallion Financial fell 46% in the first half of 2026, to $12.4 million from $23.1 million, while originations hit records: the balance sheet is growing and the earnings on it are not, because provisions and operating expense are absorbing the spread. Recreation-lending net charge-offs are running in the 3.25%-3.94% range. A buyer at 1.15x tangible book is paying an ordinary multiple for an ordinary return in a deteriorating credit environment, and there is no free lunch in it.",
+  "base_case_rationale": "A book-method name, so the input is a sustainable return on tangible common equity, and I set it at 10.5%. H1 2026 net income attributable to the parent of $12.4 million annualises to $24.8 million; tangible common equity is $408.6 million of parent-only stockholders' equity less $150.8 million of goodwill and $17.0 million of intangibles, or $240.8 million. That is a 10.3% return, and I round to 10.5% to avoid pretending to precision on a half-year. The engine's 22.6% is the mean of three GAAP years ending 2025-12-31 \u2014 a window that closed before the deterioration began, since FY2025's own second half was already running at roughly $19.9 million against the $23.1 million of H1 2025. This is the CBT/CASH failure on a book-method name: the fiscal window is recent enough that no staleness flag fires, and the business inside it has changed. Note the direction of travel is still downward, so 10.5% is a current reading and not obviously a floor.",
   "key_risks": [
-    "Sustainable ROTCE is an average of a 17.9%-32.1% range; the low end alone closes most of the gap",
-    "Subprime-adjacent consumer lending (recreation, home improvement) into a softening consumer",
-    "Goodwill and intangibles are 41% of reported book",
-    "$901K average daily dollar volume \u2014 a position could not be exited quickly, and the 0.62 beta driving the cost of equity is measured on that tape",
-    "Legacy taxi-medallion exposure is the standing reminder of what a collateral reprice does here"
+    "Net income attributable to the parent fell 46% year over year in H1 2026 and the trend is not yet arrested",
+    "Recreation-lending net charge-offs at 3.25%-3.94% into a softening consumer, on 2024-25 vintages that are only part-seasoned",
+    "Goodwill and intangibles are 41% of reported book; strip them and the equity cushion is $240.8M against $3.2B of assets",
+    "The Series G preferred reopening adds non-controlling-interest dividends ahead of the common, and the NCI already took $4.7M of H1 earnings",
+    "$701K average daily dollar volume \u2014 a position could not be exited quickly, and the 0.62 beta setting the 8.4% cost of equity is measured on that tape"
   ],
   "watch_for": [
-    "Net charge-offs and 30+ day delinquency in the recreation and home improvement books over the next two to three quarters",
-    "A ROTCE print near the low end of the range, which would confirm the mean is not sustainable",
-    "Any change in Medallion Bank's preferred capital structure, which sits in the non-controlling interest"
+    "Q3 2026 net income attributable to Medallion Financial Corp.: a print below ~$7M confirms the trend rather than a CECL artifact",
+    "Recreation-lending net charge-off ratio: whether it holds below 4% or breaks above it",
+    "Size and pricing of the Series G reopening, and whether the Series E is actually redeemed",
+    "Any decomposition of provision expense into growth-driven CECL build versus realised loss"
   ],
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1000209/000119312526335042/mfin-20260630.htm",
-    "https://data.sec.gov/api/xbrl/companyconcept/CIK0001000209/us-gaap/StockholdersEquity.json",
+    "https://www.sec.gov/Archives/edgar/data/1000209/000119312526323730/mfin-20260729.htm",
+    "https://www.sec.gov/Archives/edgar/data/1000209/000119312526397961/mfin-20260922.htm",
     "research/LESSONS.md"
   ],
   "flags": [

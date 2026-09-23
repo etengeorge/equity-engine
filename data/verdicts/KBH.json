@@ -1,182 +1,53 @@
 {
   "ticker": "KBH",
-  "date": "2026-09-14",
+  "date": "2026-09-23",
   "sector": "Consumer Discretionary",
   "name": "KB HOME",
   "method": "fcff",
   "verdict": "no_edge",
   "conviction": "medium",
-  "final_growth": 0.0,
-  "bear_growth": -0.12,
+  "final_growth": null,
+  "bear_growth": -0.08,
   "bull_growth": 0.1,
   "rotce_override": null,
   "horizon_months": 24,
-  "price_at_verdict": 49.15999984741211,
-  "market_implied_growth": -0.18030825651493604,
-  "cohort_pct": 94.6,
+  "price_at_verdict": 47.86000061035156,
+  "market_implied_growth": -0.18604558173521085,
+  "cohort_pct": 94.5,
   "priced": {
-    "ok": true,
-    "method": "fcff",
-    "analyst_growth": 0.0,
-    "market_implied_growth": -0.18030825651493604,
-    "growth_delta": 0.18030825651493604,
-    "fair_value": 59.38460765574068,
-    "price": 49.15999984741211,
-    "gap": 0.20798632709651677,
-    "fair_value_band": {
-      "low": 53.33715545867194,
-      "point": 59.38460765574068,
-      "high": 67.11567490808923
-    },
-    "fcff_base_used": 300000000,
-    "base_overridden": true,
-    "scenarios": {
-      "ok": true,
-      "wacc_point": 0.10169849838554935,
-      "wacc_steps": [
-        -0.02,
-        -0.01,
-        0.0,
-        0.01,
-        0.02
-      ],
-      "fcff_base_used": 300000000,
-      "price": 49.15999984741211,
-      "grid": [
-        {
-          "case": "bear",
-          "growth": -0.12,
-          "cells": [
-            {
-              "wacc": 0.08169849838554935,
-              "fair_value": 45.84254473402692,
-              "gap": -0.06748281374455345
-            },
-            {
-              "wacc": 0.09169849838554936,
-              "fair_value": 40.38330709884441,
-              "gap": -0.17853321350304518
-            },
-            {
-              "wacc": 0.10169849838554935,
-              "fair_value": 36.2462614920155,
-              "gap": -0.2626879250504395
-            },
-            {
-              "wacc": 0.11169849838554935,
-              "fair_value": 32.999413102635614,
-              "gap": -0.32873447508009346
-            },
-            {
-              "wacc": 0.12169849838554936,
-              "fair_value": 30.38065066564113,
-              "gap": -0.3820046631419908
-            }
-          ],
-          "fair_value_at_point_wacc": 36.2462614920155,
-          "gap_at_point_wacc": -0.2626879250504395
-        },
-        {
-          "case": "base",
-          "growth": 0.0,
-          "cells": [
-            {
-              "wacc": 0.08169849838554935,
-              "fair_value": 77.34880550384298,
-              "gap": 0.573409392675472
-            },
-            {
-              "wacc": 0.09169849838554936,
-              "fair_value": 67.11567490808923,
-              "gap": 0.3652496972418593
-            },
-            {
-              "wacc": 0.10169849838554935,
-              "fair_value": 59.38460765574068,
-              "gap": 0.20798632709651677
-            },
-            {
-              "wacc": 0.11169849838554935,
-              "fair_value": 53.33715545867194,
-              "gap": 0.0849706188817192
-            },
-            {
-              "wacc": 0.12169849838554936,
-              "fair_value": 48.476775402965636,
-              "gap": -0.013897974909827804
-            }
-          ],
-          "fair_value_at_point_wacc": 59.38460765574068,
-          "gap_at_point_wacc": 0.20798632709651677
-        },
-        {
-          "case": "bull",
-          "growth": 0.1,
-          "cells": [
-            {
-              "wacc": 0.08169849838554935,
-              "fair_value": 116.98373297427226,
-              "gap": 1.3796528343648995
-            },
-            {
-              "wacc": 0.09169849838554936,
-              "fair_value": 100.60320718769113,
-              "gap": 1.0464444161910853
-            },
-            {
-              "wacc": 0.10169849838554935,
-              "fair_value": 88.2491621723001,
-              "gap": 0.7951416282794341
-            },
-            {
-              "wacc": 0.11169849838554935,
-              "fair_value": 78.60361106036518,
-              "gap": 0.5989343227083646
-            },
-            {
-              "wacc": 0.12169849838554936,
-              "fair_value": 70.86699184570655,
-              "gap": 0.441558015981913
-            }
-          ],
-          "fair_value_at_point_wacc": 88.2491621723001,
-          "gap_at_point_wacc": 0.7951416282794341
-        }
-      ],
-      "summary": {
-        "bear": -0.2626879250504395,
-        "base": 0.20798632709651677,
-        "bull": 0.7951416282794341
-      },
-      "downside": -0.3820046631419908,
-      "upside": 1.3796528343648995
-    },
-    "fundamentals_source": "store",
-    "flags": []
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
   },
-  "parse_notes": [],
+  "parse_notes": [
+    "no usable final_growth"
+  ],
   "devils_advocate": {
-    "strongest_counter": "That a +204.1% gap at the 95th percentile of 129 Consumer Discretionary peers, on a name trading at 0.79x tangible book with no goodwill, is exactly the kind of signal this screen exists to find, and I am explaining it away with a data objection.",
-    "what_would_prove_it": "Whether the enterprise value the gap is computed from is the company's actual enterprise value.",
-    "already_visible": "It is not, and this settles it. The extract records total_debt of ZERO and interest_expense of ZERO. Note 14 of the 2026-05-31 10-Q reads: unsecured revolving credit facility $275,000; senior unsecured term loan due 2029 $358,532; 6.875% senior notes due 2027 $299,379; 4.80% senior notes due 2029 $298,505; 7.25% senior notes due 2030 $347,354; 4.00% senior notes due 2031 $387,330; mortgages and land contracts $2,614 \u2014 TOTAL $1,968,714 thousand. The engine's $2.8B enterprise value is market capitalisation less cash and nothing else; the true figure is about $4.77B. Homebuilders capitalise interest into inventory, which is why the interest-expense detector reads zero and cannot flag this. Correcting BOTH defects \u2014 enterprise value up by $1.969B and the cash-flow base down to the $300M run rate \u2014 moves the growth the market implies from -18.1% to PLUS 7.9%. The gap does not shrink, it inverts: the market is requiring positive compounding from a builder facing 7% mortgage rates, not pricing in a collapse. This is the ALTG/HOG missing-debt bug in a new tag family, and like every instance of it the error manufactures cheapness.",
-    "unresolved": "Whether the $2.0B should be netted against KBHS warehouse borrowings and mortgage loans held for sale, which are a financial-services funding line rather than corporate leverage. That would reduce but not remove the correction. I also could not test Q3, which lands 2026-09-22."
+    "strongest_counter": "That I am dismissing the largest gap in today's ten \u2014 +211.7% at the 94th percentile of 128 Consumer Discretionary peers \u2014 on a data objection for the second time in nine sessions, on a name at 0.76x tangible book with no goodwill, and that the objection is smaller than I claim. The specific form: the $2.11 billion of notes payable I am adding to enterprise value is not corporate leverage in the way a manufacturer's is. It funds $5.98 billion of inventory \u2014 land, land under development and homes under construction \u2014 which is self-liquidating working capital that converts to cash as houses close. Treating it as permanent debt against a cash-flow stream double-counts, because that same inventory is what produces the deliveries the cash flow comes from. On that reading enterprise value is nearer market capitalisation, the engine's -18.6% implied growth is closer to right than my +2% to +11%, and a builder priced for a 19% five-year cash-flow decline at 0.76x book is exactly what this screen exists to find.",
+    "what_would_prove_it": "Whether KB Home's debt behaves as working capital \u2014 i.e. falls when deliveries fall \u2014 or as permanent structural leverage that stays outstanding through the cycle.",
+    "already_visible": "Yes, and it defeats the counter on the facts. Deliveries fell 19% and revenue 20% in the quarter, and notes payable went UP, from $1.69 billion to $2.11 billion, 'reflecting cash borrowings outstanding under the Credit Facility'. Debt-to-capital rose 540 basis points to 35.7%. Inventory rose 5% to $5.98 billion while the business shrank a fifth, and $50 million of stock was repurchased in the quarter. That is not self-liquidating working capital unwinding with volumes \u2014 it is a company borrowing to hold land and retire shares through a downturn, which is exactly the behaviour that makes debt structural. The debt belongs in enterprise value. The counter does not survive, but it is not worthless either: at 0.76x book with equity of $3.80 billion, an inventory-liquidation scenario genuinely would release cash, and that optionality is part of why the answer is no_edge rather than rich.",
+    "unresolved": "The rate path, which is the entire thesis in both directions and which I have no edge on. Also unresolved: what KB Home earns through a normalised cycle. It earned an 11% return on equity in fiscal 2025 and is earning 5% now; whether the through-cycle figure is 8% or 12% decides whether 0.76x book is cheap, and three quarters of a downturn does not answer it."
   },
-  "what_changed": "Nothing at the company since the 2026-06-23 second-quarter release; the third-quarter report for the period ended 2026-08-31 is due 2026-09-22, eight days from now, and that is the next real information. What changed is the rate environment: the 10-year Treasury surged in late August (KBH, Meritage and LGI all fell together on 2026-08-20), mortgage rates hit 7% by 2026-09-11, and the 21-day move of -11.9% is that, not a company event.",
-  "consensus_case": "At $49.16 KB Home trades at about 0.79x its own book value of roughly $61.94 a share, having fallen 23.7% over twelve months. The market's case is dated and mechanical rather than sentimental: the 30-year mortgage rate has reached 7%, RBC and others are describing renewed affordability headwinds, and the market is now weighing the prospect of Fed HIKES rather than cuts. A homebuilder's earnings are a spread between land basis and selling price, and in a 7% rate environment that spread is closed by incentives \u2014 mortgage rate buydowns paid out of gross margin. Buying homebuilders below book has historically worked, but the market is not mispricing the rate; it is pricing it.",
-  "base_case_rationale": "I will not put much weight on a growth rate here because the reverse DCF on this name is built on two broken inputs, but the number has to be defensible: zero. For a homebuilder, operating cash flow is dominated by investment in land and inventory, so it is large and positive when the builder is shrinking and negative when it is growing \u2014 the $1.08B in the oldest year of the series is the 2023 inventory-liquidation year, not earnings power. The recent two-year run rate of ~$300M is a better description of a company in a normal land-spend posture. At 7% mortgage rates with incentives running, flat is the honest base case: volumes fall, average selling price holds, and margin absorbs the buydown.",
+  "what_changed": "Third-quarter fiscal 2026 results, reported after the close on 2026-09-22 \u2014 the settling observable the 2026-09-14 pass on this name explicitly could not test, and it is genuinely mixed. Negative: revenue -20% to $1.30 billion, deliveries -19% to 2,732, homebuilding operating margin 5.2% against 8.1%, net income $65.3 million against $109.8 million, net orders -12% to 2,604, cancellation rate 18% against 17%, full-year revenue guidance about 2% below consensus, and notes payable up to $2.11 billion with debt-to-capital at 35.7%. Positive and genuinely new: ENDING BACKLOG ROSE FOR THE FIRST TIME IN FOUR YEARS \u2014 homes in backlog +2% to 4,398 and backlog value +3% to $2.05 billion \u2014 average community count +8% to 279, and the Q4 housing gross margin guide of 16.0-16.6% sits at or above the 16.0-16.2% full-year figure, so margin is stabilising rather than continuing to fall. Q3 EPS of $1.05 beat consensus by 19%. The stock fell on the print; the $47.86 in this brief is the 2026-09-22 close and therefore PRE-reaction.",
+  "consensus_case": "At $47.86 KB Home trades at roughly 0.76x a book value of about $62.80 a share, and the market is pricing the rate environment rather than mispricing the company. Fiscal 2026 is guided to $4.90-5.10 billion of housing revenue against $6.24 billion delivered in fiscal 2025 \u2014 deliveries down to 10,500-11,000 \u2014 with a housing gross margin of 16.0-16.2% and SG&A of 11.5-11.7%, i.e. a homebuilding operating margin around 4.5% and full-year net income near $190 million on $3.80 billion of equity. That is a 5% return on book. The Federal Reserve HIKED in September 2026, the 30-year mortgage rate is at 7%, and a builder's margin is the first thing incentives and rate buydowns consume. Meanwhile notes payable have risen to $2.11 billion from $1.69 billion a year ago and the debt-to-capital ratio to 35.7% from 30.3%, so the company is levering into the downturn to hold community count and buy back stock. 0.76x book for a 5% return is not a discount; it is arithmetic.",
+  "base_case_rationale": "Zero to low single digits, and I am deliberately not leaning on the number because the model this feeds cannot price this company (see below). For a homebuilder, CFO less capex is not owner earnings at all: land and inventory investment runs through operating activities, so reported operating cash flow is large and positive when the builder is liquidating and negative when it is growing. The engine's $552.6 million base is the mean of [$335.7M, $362.7M, $1,082.7M] and the $1.08 billion year is the 2023 inventory-liquidation year, which is why the `possible_trough_cycle_base` flag is pointing backwards. A defensible owner-earnings figure is fiscal 2026 net income of roughly $190 million plus the after-tax interest KB Home capitalises into inventory, about $80 million, so roughly $270 million. Against that the business grows if rates fall and shrinks if they do not; backlog turning up and community count +5-8% support flat to slightly positive, and 7% mortgages with the Fed hiking cap it there.",
   "key_risks": [
-    "7% mortgage rates with the market now pricing Fed hikes rather than cuts",
-    "Land optioned at 2024-25 prices is an impairment risk if incentives keep widening",
-    "Recorded fair value is computed on an enterprise value missing $1.969B of debt and must not be read as a signal"
+    "The Fed HIKED in September 2026 and the 30-year mortgage rate is at 7%; a homebuilder's gross margin is the first casualty of rate buydowns",
+    "Notes payable rose to $2.11B from $1.69B and debt-to-capital to 35.7% from 30.3% while revenue fell 20% \u2014 leverage is rising into the downturn",
+    "Land optioned at 2024-25 prices is an impairment risk if incentives widen further; Q3 already carried $3.0M of inventory-related charges",
+    "Net orders -12% and cancellation rate 18% mean the backlog inflection is not yet demand recovery",
+    "NO FAIR VALUE IS RECORDED FOR THIS NAME, deliberately \u2014 the engine's enterprise value omits $2.11B of disclosed debt and any number priced through it would be misleading"
   ],
   "watch_for": [
-    "Q3 results on 2026-09-22: net orders, cancellation rate and gross margin ex-land-sale",
-    "Incentive load as a percentage of average selling price",
-    "Whether the 30-year mortgage rate breaks back below 6.5%"
+    "Q4 fiscal 2026 (reporting January 2027): whether housing gross margin lands in the guided 16.0-16.6% or below it",
+    "Net orders turning positive, which would convert the backlog inflection into a demand signal",
+    "Whether the 30-year mortgage rate breaks back below 6.5%",
+    "Notes payable and debt-to-capital: further increases through a shrinking revenue base"
   ],
   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/795266/000079526626000068/exh991kbh-earningsrelease0.htm",
+    "https://www.sec.gov/Archives/edgar/data/795266/000079526626000068/kbh-20260922.htm",
     "https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm",
-    "https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/kbh-20260623.htm"
+    "https://www.sec.gov/Archives/edgar/data/795266/000079526626000060/exh991kbh-earningsrelease0.htm"
   ],
   "flags": [
     "possible_trough_cycle_base_newest_fcf_0.27x_oldest_growth_applied_to_a_trough_understates_value"

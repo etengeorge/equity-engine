@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>INDB — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / INDB</p><h1>INDB <span style='color:var(--faint);font-weight:400'>INDEPENDENT BANK CORP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$81.20</b></div><div>Analyst gap<b>-14%</b></div><div>Dated<b>2026-09-23</b></div></div><div class='prose'><h1>INDB — INDEPENDENT BANK CORP</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-23 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $81.20 · fair value $69.89 · gap -13.9%</li><li><strong>Sustainable ROTCE:</strong> screen said +10.3%, analyst says +14.1%</li><li><strong>P/TBV:</strong> justified 1.41 vs actual 1.64 on tangible book of $49.43/share</li></ul><p><strong>The case for the price.</strong> At $81.20 Independent Bank Corp trades at about 1.68x the tangible book of $48.34 a share it reported at 2026-06-30, for a bank earning an operating return on average tangible common equity of 14.05% — a full-price multiple for a high-quality, conservatively underwritten Massachusetts franchise with $25.0 billion of assets, 84.1% core deposits, 28% non-interest-bearing demand, a $9.5 billion wealth business and a 1.34% ROAA. The market&#x27;s case is straightforward and does not need pessimism: 1.68x tangible book for a 14% return against a 10.5% cost of equity is roughly what that arithmetic supports, and Rockland Trust is buying its own stock at that multiple rather than finding better uses for the capital. Loans are flat and commercial real estate is running off, so the growth that would justify paying more is not there.</p><p><strong>What changed.</strong> Nothing structural since the Enterprise Bancorp acquisition closed 2025-07-01, and that is the point — the integration is complete and the post-merger run rate is now four quarters old. Q2 2026: operating EPS $1.70, ROAA 1.34%, ROATCE 14.05%, adjusted net interest margin +4bp to 3.76%, deposits +$294.6 million (+1.5%) to $20.4 billion, loans DOWN $31.2 million (-0.2%) with commercial real estate and construction -$176.4 million (-1.8%) on elevated payoffs, offset by C&amp;I +1.7% and consumer real estate +1.5%. Wealth assets under administration rose to $9.5 billion. Approximately 964,000 shares were repurchased for $75.0 million in the quarter. Tangible book per share grew $0.48 (1.0%) sequentially but is DOWN 0.9% year over year. A core system upgrade is scheduled for October 2026. Recent 8-Ks are a Raymond James conference deck (2026-09-08) and the Q3 common dividend declaration (2026-09-17) — no transaction, no guidance change.</p><p><strong>Base case.</strong> A book-method name, so the input is sustainable return on tangible common equity, and I set it at 14.05% — the company&#x27;s own operating ROATCE, which it has now printed for four consecutive quarters: 13.22% (Q3&#x27;25), 14.30% (Q4&#x27;25), 14.05% (Q1&#x27;26), 14.05% (Q2&#x27;26). That stability after a large in-market acquisition is the evidence that it is a run rate rather than a peak. The engine&#x27;s 10.3% is a three-year GAAP average whose oldest years are pre-Enterprise and whose middle year carries the merger charges and the day-two CECL provision; the same disclosure shows the pre-merger comparator at 10.35% in Q2&#x27;25, so the engine is averaging the old bank and the transition into the new one. I do not go above 14.05% because the operating and GAAP figures have converged (merger charges are done) and because there is no loan growth to lever: total loans shrank sequentially.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That 14.05% is not an operating return at all but a buyback artifact, and taking it at face value flatters the stock. Rockland repurchased 964,000 shares for $75.0 million in Q2 — roughly 2% of the company — at about 1.68x tangible book. Retiring stock above book mechanically shrinks the denominator of ROTCE without creating a dollar of value, and the tell is on the face of the release: tangible book per share FELL 0.9% year over year at a bank that earned $1.70 of operating EPS and pays a modest dividend. A bank cannot both compound tangible book and buy it back at 1.7x. On that reading the underlying return is lower than 14.05%, the multiple is fuller than it looks, and the engine&#x27;s &#x27;rich&#x27; conclusion is right even though its arithmetic is wrong.</li><li>What would prove it: Decomposing the four-quarter ROATCE improvement into earnings growth versus denominator shrinkage: whether absolute operating net income is rising, or only the per-share and per-unit-of-equity figures.</li><li>Already visible today: Yes, and it is mixed, which is why this stays no_edge rather than becoming rich. Absolute operating net income was $81.8 million in Q2&#x27;26 against $53.5 million in Q2&#x27;25 — up 53%, which no buyback produces; that is the Enterprise acquisition and margin expansion, and it defeats the strong form of the counter. But the weak form survives and I accept it: tangible book per share down 0.9% year over year is real, the buyback at 1.68x is real, and it means part of the four-quarter ROATCE rise is denominator rather than numerator. It does not change the verdict — it is the reason I did not use the 14.30% Q4&#x27;25 print and the reason the residual -16% is not something I would call cheap or dismiss as noise.</li><li>Left unresolved: The credit cycle. &#x27;Minimal net charge-offs; stable provision&#x27; is a Q2 statement about a Massachusetts CRE book in a quarter when the Fed hiked, and one quarter of benign credit at a bank whose CRE is already running off tells me little about the next eight. I did not read the 10-Q&#x27;s criticised-asset tables.</li></ul><p><strong>Key risks.</strong> Loans shrank sequentially and CRE/construction fell 1.8%; a 14% return on a shrinking earning-asset base is harder to hold than one on a growing one; Part of the ROTCE improvement is denominator shrinkage: 964,000 shares retired at ~1.68x tangible book in one quarter, with TBVPS down 0.9% year over year; Goodwill and intangibles are 34% of reported book, almost all of it from Enterprise Bancorp; October 2026 core system conversion is an execution risk with no upside if it goes well; New England commercial real estate concentration into a rising-rate quarter <strong>Watch for.</strong> Operating ROATCE in Q3 and Q4 2026: a print below 13% breaks the four-quarter run rate this verdict rests on; Whether total loans return to growth, or CRE runoff keeps outpacing C&amp;I and consumer origination; Criticised and classified asset migration in the Massachusetts CRE book; Pace of buyback relative to tangible book accretion — continued repurchase at 1.7x book with TBVPS falling is value transfer, not return</p><p><strong>Data quality.</strong> The single flag (<code>goodwill_and_intangibles_34%_of_book</code>) is confirmed and is not the problem. Three defects, none flagged. (1) NUMERATOR, worth ~25 points of gap: the 10.3% &#x27;sustainable ROTCE&#x27; is a three-year GAAP average spanning the Enterprise Bancorp merger that closed 2025-07-01, including its merger charges and day-two CECL provision. The company&#x27;s own disclosure gives operating ROATCE of 10.35% (Q2&#x27;25) rising to 13.22%, 14.30%, 14.05%, 14.05% — so the engine is averaging the pre-merger bank with the transition. AX/AUB/ENVA/EBC again, and <code>unstable_rotce</code> cannot fire on a rising series. (2) <code>net_income_common_series</code> has LENGTH ONE and holds $45,436,000 against <code>net_income_series[0]</code> of $205,122,000 with <code>preferred</code> = 0. Those must be equal and are not, which is the AX detector firing loudly. The engine escaped using it only because the series was too short to qualify; on a filer where that series happened to hold three such observations the same brief would have reported a ~2.5% ROTCE. The near-miss is worth recording: the AX bug&#x27;s damage depends on an accident of series length. (3) TANGIBLE BOOK: the engine&#x27;s $49.43 against the company&#x27;s reported $48.34 at 2026-06-30, so actual P/TBV is 1.680 not 1.643 — the AII stale-book pattern, small here and running toward understating richness. <code>equity_now</code> ($3,512.4M) is BELOW <code>equity_series[0]</code> ($3,565.7M) because of buybacks, the first instance I have seen of that bug running in the shrinking direction. Also <code>fy_end</code> is null and <code>balance_sheet_form</code> reads &#x27;10-K&#x27; with a 2026-06-30 date on a December filer — a provenance oddity, same shape as SLG. (4) Beta 1.011 at R-squared 0.495 is sound; the 10.5% cost of equity is trustworthy. NET: -40.4% reported against about -16% corrected, of which a further few points would close at any terminal growth above the engine&#x27;s fixed 2% (the ENVA bias).</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/indb-20260716.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/indb-20260716.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/indb-20260908.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/indb-20260908.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/776901/000077690126000129/indb-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/776901/000077690126000129/indb-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/indb-20260917.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/indb-20260917.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/INDB.md'>research/Financials/INDB.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
