@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>PARR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Energy / PARR</p><h1>PARR <span style='color:var(--faint);font-weight:400'>PAR PACIFIC HOLDINGS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$76.97</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-24</b></div></div><div class='prose'><h1>PARR — PAR PACIFIC HOLDINGS</h1><p><em>Energy · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-24 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $76.97</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Par Pacific owns 219,000 bpd of refining across Hawaii, the Pacific Northwest and the Rockies - logistically advantaged, import-parity-priced markets - and is in the middle of an extraordinary refining cycle. Q2 2026 adjusted EBITDA was $571.3M against $137.8M a year earlier, refining segment adjusted EBITDA $552.0M against $108.4M, and adjusted net income $499.2M, or $10.10 per diluted share, on a $76.97 stock. Second-quarter operating cash flow before working capital and turnaround outflows was $614.3M. At a $4.4bn enterprise value the market is paying under 2x ANNUALISED PEAK EBITDA, which is what refiners always trade at near a peak, and the engine&#x27;s +2.7% implied growth off a mid-cycle base says the market is neither extrapolating the peak nor pricing a collapse. That is a defensible place to be.</p><p><strong>What changed.</strong> Q2 2026 results (2026-08-05): the numbers above, plus throughput of 181 Mbpd against 187 Mbpd. Working capital consumed $(312.2)M in the quarter and deferred turnaround expenditures $(19.5)M, which management expects &#x27;a substantial portion&#x27; of to reverse as commodity prices normalise and Hawaii inventory returns to typical levels post-turnaround. Separately, the 2026-08-25 8-K discloses that Laramie Energy - in which Par owns a 46% non-controlling interest - agreed to sell substantially all its oil and gas assets for $485M cash; Par expects to receive roughly $146M (about $27.5M of it payable on the fifth anniversary) plus up to ~$30M of earn-outs, and will exit the investment. Expected to close by end-2026. That is about 3% of market capitalisation and not decisive. Balance sheet at 2026-06-30: total debt $739.2M, cash $185.0M.</p><p><strong>Base case.</strong> I am not supplying one, because the input that decides the answer is the cash-flow base and it is not knowable within a factor of two. The engine&#x27;s $301.5M is the mean of [$296.5M, -$51.8M, $496.9M] - a series that contains a negative year and spans 2.2x of its own mean, as the flags say. Against it sits a company that just earned $571.3M of adjusted EBITDA in ONE QUARTER. So this is the AMR/LPG problem in its sharpest form: the base is not a peak or a trough, it is a three-year average of a cycle whose current point bears no relation to it. Running the reverse DCF across every base and discount rate I would defend, the growth the market requires spans +14.4% (base $250M, WACC 11.5%) to -14.3% (base $650M, WACC 9.2%), and the sign flips somewhere between a $302M and a $400M base. A twenty-nine-point span driven by two inputs I cannot pin is not a valuation, and the discount rate is no help: beta comes from the Energy sector median because the name&#x27;s own regression has an R-squared of 0.004, and 0.89 is almost certainly too low for a levered refiner.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That refusing here is cowardice, and the tape is telling me something: at $4.4bn of enterprise value against $571.3M of quarterly adjusted EBITDA, Par trades at 1.9x annualised current earnings. Even assuming a violent reversion to the FY2025 level of $296.5M of free cash flow, that is 14.8x - unremarkable rather than expensive - and the stock is +52% in 63 days on exactly this recognition. A refiner bought at 2x peak EBITDA with $554M of net debt and large NOL carryforwards has historically been a good trade.</li><li>What would prove it: Q3 2026 results and the Q4 crack-spread environment - specifically whether the working capital outflow reverses and whether Singapore/USWC product cracks hold above mid-cycle.</li><li>Already visible today: Partly, and it cuts both ways. The Q2 strength is real and documented. But the 2024 year in the engine&#x27;s own window is NEGATIVE $51.8M of free cash flow, which is what this business does at the bottom, and no free source tells me where in that range 2027-2030 sits. The counter is strong enough that I am explicitly NOT recording this as rich.</li><li>Left unresolved: The entire question - where mid-cycle is. I could not find a defensible mid-cycle free-cash-flow number for this asset base from free sources, and the company does not guide to one. I also could not correct the discount rate: the beta is a sector median standing in for a failed regression, and moving it from 0.89 to a refiner-like 1.2 shifts the required growth by roughly four points on its own.</li></ul><p><strong>Key risks.</strong> Cyclical peak risk: Q2 2026 adjusted EBITDA was 4.1x the prior-year quarter; the window already contains a negative free-cash-flow year; Beta from the Energy sector median (own regression R-squared 0.004) understates a levered refiner&#x27;s cost of equity and therefore understates required growth; Single-asset concentration in Hawaii, where a turnaround or an unplanned outage is a material earnings event; Geopolitical dependence: the Q2 margin environment is explicitly tied to Iran/Strait of Hormuz and refining-capacity disruptions that can reverse quickly <strong>Watch for.</strong> Q3 2026 results: whether the $(312.2)M working-capital outflow reverses as guided; Closing of the Laramie asset sale by year-end 2026 and receipt of the ~$118M near-term cash; Any announced capital return - at this level of cash generation the buyback or dividend decision is the whole capital-allocation question</p><p><strong>Data quality.</strong> Flags worked through. <code>negative_fcf_year_in_window</code> and <code>lumpy_fcff_spread_2.2x_of_mean</code> are BOTH correct and they are the reason I refuse: the series [$296.5M, -$51.8M, $496.9M] is a cycle, not a base. <code>beta_from_sector_median_0.89(unreliable_r2_0.004)</code> remains OPEN and I cannot correct it - the schema has no cost-of-equity override - but I have quantified it: moving to a refiner-like 1.2 beta moves the required growth about four points. Enterprise value checks out: the 2026-06-30 10-Q shows total debt $739.2M against cash $185.0M, i.e. net debt $554M, consistent with the engine&#x27;s $4.4bn enterprise value on a $3.9bn market capitalisation. The 2026-08-25 item 7.01 8-K is a Laramie asset sale, not a Par transaction, and does not invalidate the share count or enterprise value. No merger tell: no form 425, no item 2.01/3.01/5.01, and the return dispersion (-7.9%/-2.6%/+51.8%) is the opposite of a pinned deal price.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/821483/000082148326000014/parr-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/821483/000082148326000014/parr-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/a20260630991earningsreleas.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/a20260630991earningsreleas.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/ex_1009087.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/ex_1009087.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Energy/PARR.md'>research/Energy/PARR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

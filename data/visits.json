@@ -9,9 +9,19 @@
     "last_visit": "2026-09-09",
     "verdict": "no_model"
   },
+  "ACHR": {
+    "conviction": "high",
+    "last_visit": "2026-09-24",
+    "verdict": "no_model"
+  },
   "ACR": {
     "conviction": "medium",
     "last_visit": "2026-08-31",
+    "verdict": "no_model"
+  },
+  "ADPT": {
+    "conviction": "medium",
+    "last_visit": "2026-09-24",
     "verdict": "no_model"
   },
   "AEO": {
@@ -62,6 +72,11 @@
   "ASB": {
     "conviction": "low",
     "last_visit": "2026-09-17",
+    "verdict": "no_edge"
+  },
+  "ASC": {
+    "conviction": "medium",
+    "last_visit": "2026-09-24",
     "verdict": "no_edge"
   },
   "ASO": {
@@ -219,6 +234,11 @@
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
+  "DAVE": {
+    "conviction": "high",
+    "last_visit": "2026-09-24",
+    "verdict": "no_model"
+  },
   "DFTX": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
@@ -268,6 +288,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-10",
     "verdict": "no_edge"
+  },
+  "FELE": {
+    "conviction": "medium",
+    "last_visit": "2026-09-24",
+    "verdict": "rich"
   },
   "FG": {
     "conviction": "high",
@@ -383,6 +408,11 @@
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "fair"
+  },
+  "IMXI": {
+    "conviction": "high",
+    "last_visit": "2026-09-24",
+    "verdict": "no_model"
   },
   "INDB": {
     "conviction": "medium",
@@ -539,6 +569,11 @@
     "last_visit": "2026-09-18",
     "verdict": "no_model"
   },
+  "ONDS": {
+    "conviction": "high",
+    "last_visit": "2026-09-24",
+    "verdict": "no_model"
+  },
   "ORA": {
     "conviction": "medium",
     "last_visit": "2026-09-04",
@@ -548,6 +583,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-02",
     "verdict": "no_model"
+  },
+  "PARR": {
+    "conviction": "medium",
+    "last_visit": "2026-09-24",
+    "verdict": "no_edge"
   },
   "PATK": {
     "conviction": "high",
@@ -694,6 +734,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
   },
+  "SLDE": {
+    "conviction": "low",
+    "last_visit": "2026-09-24",
+    "verdict": "no_edge"
+  },
   "SLG": {
     "conviction": "high",
     "last_visit": "2026-09-21",
@@ -808,6 +853,11 @@
     "conviction": "low",
     "last_visit": "2026-08-31",
     "verdict": "no_edge"
+  },
+  "VISN": {
+    "conviction": "high",
+    "last_visit": "2026-09-24",
+    "verdict": "no_model"
   },
   "VLY": {
     "conviction": "low",

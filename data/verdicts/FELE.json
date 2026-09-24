@@ -1,0 +1,186 @@
+{
+  "ticker": "FELE",
+  "date": "2026-09-24",
+  "sector": "Industrials",
+  "name": "FRANKLIN ELECTRIC",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.055,
+  "bear_growth": 0.02,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 96.30000305175781,
+  "market_implied_growth": 0.08450423314139133,
+  "cohort_pct": 66.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.055,
+    "market_implied_growth": 0.08450423314139133,
+    "growth_delta": -0.029504233141391327,
+    "fair_value": 76.56341774659157,
+    "price": 96.30000305175781,
+    "gap": -0.2049489582524575,
+    "fair_value_band": {
+      "low": 66.66477740724436,
+      "point": 76.56341774659157,
+      "high": 89.65845481538076
+    },
+    "fcff_base_used": 215000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0920960767028316,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 215000000,
+      "price": 96.30000305175781,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.0720960767028316,
+              "fair_value": 91.95766847954573,
+              "gap": -0.04509173867708216
+            },
+            {
+              "wacc": 0.0820960767028316,
+              "fair_value": 76.61426167671458,
+              "gap": -0.2044209839169252
+            },
+            {
+              "wacc": 0.0920960767028316,
+              "fair_value": 65.5272326144016,
+              "gap": -0.3195510847576708
+            },
+            {
+              "wacc": 0.10209607670283159,
+              "fair_value": 57.1411923222208,
+              "gap": -0.4066335357070606
+            },
+            {
+              "wacc": 0.1120960767028316,
+              "fair_value": 50.57630241828951,
+              "gap": -0.4748047682708114
+            }
+          ],
+          "fair_value_at_point_wacc": 65.5272326144016,
+          "gap_at_point_wacc": -0.3195510847576708
+        },
+        {
+          "case": "base",
+          "growth": 0.055,
+          "cells": [
+            {
+              "wacc": 0.0720960767028316,
+              "fair_value": 107.79104578374134,
+              "gap": 0.11932546591724935
+            },
+            {
+              "wacc": 0.0820960767028316,
+              "fair_value": 89.65845481538076,
+              "gap": -0.06896726922020402
+            },
+            {
+              "wacc": 0.0920960767028316,
+              "fair_value": 76.56341774659157,
+              "gap": -0.2049489582524575
+            },
+            {
+              "wacc": 0.10209607670283159,
+              "fair_value": 66.66477740724436,
+              "gap": -0.3077385743029061
+            },
+            {
+              "wacc": 0.1120960767028316,
+              "fair_value": 58.92106014324843,
+              "gap": -0.3881510044025599
+            }
+          ],
+          "fair_value_at_point_wacc": 76.56341774659157,
+          "gap_at_point_wacc": -0.2049489582524575
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.0720960767028316,
+              "fair_value": 125.76092464891212,
+              "gap": 0.3059285634842619
+            },
+            {
+              "wacc": 0.0820960767028316,
+              "fair_value": 104.44591741997012,
+              "gap": 0.08458893156871627
+            },
+            {
+              "wacc": 0.0920960767028316,
+              "fair_value": 89.06038599113464,
+              "gap": -0.07517774487226281
+            },
+            {
+              "wacc": 0.10209607670283159,
+              "fair_value": 77.43686392773147,
+              "gap": -0.19587890473781278
+            },
+            {
+              "wacc": 0.1120960767028316,
+              "fair_value": 68.34931314072035,
+              "gap": -0.2902459919551089
+            }
+          ],
+          "fair_value_at_point_wacc": 89.06038599113464,
+          "gap_at_point_wacc": -0.07517774487226281
+        }
+      ],
+      "summary": {
+        "bear": -0.3195510847576708,
+        "base": -0.2049489582524575,
+        "bull": -0.07517774487226281
+      },
+      "downside": -0.4748047682708114,
+      "upside": 0.3059285634842619
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "Two arguments, and both are serious. First, Cat Pumps is genuinely value-creating arithmetic, not a story: $350M for $45M of adjusted EBITDA is 7.8x for a business with 39% margins and recurring aftermarket revenue, funded at roughly 5.5% - instantly and substantially accretive to free cash flow, and the company says accretive to adjusted EPS in 2027. If I include it, the base rises to about $247M and the required growth falls from +10.8% to roughly +8.9%. Second, this is a $4.3bn flow-control asset with 35%+ gross margins in a sector where ABB just paid $5.5bn for Rotork, and FELE has been named in print as a plausible target. A strategic bid ignores a reverse DCF entirely.",
+    "what_would_prove_it": "Full-year 2026 free cash flow at or above $240M standalone, or FY27 guidance that shows Cat Pumps plus organic growth compounding FCFF above 8%; alternatively, a bid.",
+    "already_visible": "Partly. The earnings recovery is visible and real - H1 operating income +7.1%, adjusted EPS guided +13-18%, guidance raised twice. What is NOT visible is FCFF growing at the rate the price requires: the free-cash-flow series has fallen three years running, and H1 2026 free cash flow of $38.3M is still only 18% of a full-year $215M, so the whole FY26 number depends on a second half I cannot observe.",
+    "unresolved": "The takeout argument. I cannot price an acquisition premium and I am not trying to; if FELE is bought, this verdict is simply irrelevant rather than wrong. I also cannot override enterprise value in the schema, and the recorded fair value therefore uses net debt of roughly $100M rather than the ~$600M implied by management's post-close 1.5x net leverage - so the recorded number UNDERSTATES how expensive the stock is. Both framings agree on the sign: standalone base $215M against engine net debt gives $74-80, and a Cat-Pumps-inclusive base of $247M against ~$600M of net debt gives $77-85. Every version is below $96.30."
+  },
+  "what_changed": "Three things after the extract's 2026-03-31 balance sheet. (i) Q2 results and a raised FY26 guide (sales $2.21-2.29bn, adjusted EPS $4.50-4.70). (ii) The 2026-09-08 8-K reports completion of the Cat Pumps acquisition on 2026-09-04 for ~$350M cash plus performance RSUs with a $25M target value (up to $50M in stock per the press release), funded with cash and revolver borrowings - filed under items 1.01, 2.01 AND 3.02. (iii) The 2026-06-30 10-Q shows total debt of $242.8M and cash of $97.3M, i.e. net debt of $145.5M, against roughly $100M in the extract's period.",
+  "consensus_case": "Franklin Electric is a high-quality, 34-year dividend grower in water and energy flow control, and the market is paying for that quality plus a consolidating sector. Q2 2026 net sales were $622.9M (+6.0%) with operating income $93.6M (+6.2%) and adjusted EPS up 18%; the company raised full-year guidance to $2.21-2.29bn of sales and $4.50-4.70 of adjusted EPS. On 2026-09-04 it closed Cat Pumps for $350M cash - roughly 7.8x the $45M of 2026 adjusted EBITDA on ~$115M of revenue, a 39% margin business with recurring aftermarket content - expected to be accretive in the first full year, taking net leverage to about 1.5x. Sector M&A is repricing the whole group after ABB paid $5.5bn for Rotork. A buyer at $96.30 is underwriting mid-single-digit organic growth compounded by disciplined bolt-ons bought at single-digit EBITDA multiples and funded at roughly 5.5%.",
+  "base_case_rationale": "I use a standalone FY26 free-cash-flow base of about $215M against the engine's enterprise value, which predates the Cat Pumps debt - the only internally consistent pairing available, since the schema cannot override enterprise value. The engine's $237.1M is the mean of [$193.5M, $219.7M, $274.3M] and that series is monotonically DECLINING, so unlike almost every peak/trough case in this file the mean OVERSTATES the current level. FY2023's $274.3M was about 125% of net income - a post-supply-chain working-capital release - while FY2025's $193.5M was 106%. Conversion is not the problem; the 2024-25 water and agriculture cycle was. FY26 is recovering: H1 sales +7.7%, H1 operating income +7.1%, adjusted EPS guided up 13-18%, and H1 free cash flow of $38.3M against $13.6M a year ago on a business whose cash flow is heavily second-half weighted. That puts FY26 standalone free cash flow near $215-225M. Forward, I underwrite 5-6%: Q2's +6% was described by the CEO as 'balanced between organic and inorganic', so organic is roughly 3%, and price realisation is being fought by the 'inflationary price pressures in sourced materials and logistics lanes' management flagged in the same release. I deliberately do NOT credit future acquisitions to growth: cfo-less-capex never charges for the acquisition cash, so counting bought growth as free is the EFOR error.",
+  "key_risks": [
+    "The whole call rests on a base I estimate rather than observe: at the engine's $237.1M base the requirement falls to +8.4% and the gap narrows to about -10%",
+    "Franklin is a serial acquirer and the FCFF definition never charges for acquisition cash, so if bolt-ons keep landing at 7-8x EBITDA my 5.5% underwrites too little",
+    "Acquisition target risk in a consolidating flow-control sector - a strategic premium would make the DCF moot",
+    "Beta 0.79 at R-squared 0.40 is one of the most reliable regressions in this universe, so unusually the discount rate is NOT the soft input here; the base is"
+  ],
+  "watch_for": [
+    "FY2026 full-year free cash flow: above $240M standalone breaks this thesis, at or below $215M confirms it",
+    "FY2027 guidance and the first disclosed Cat Pumps contribution",
+    "Organic versus acquired revenue split - the Q2 release said only 'balanced', which is not a disclosure",
+    "Any further acquisition and its multiple"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/38725/000003872526000055/fele-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/fele-20260904.htm",
+    "https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/a09042026ex991catpumpscorp.htm",
+    "https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/a20260728ex991earningsrele.htm"
+  ],
+  "flags": []
+}

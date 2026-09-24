@@ -1,0 +1,55 @@
+{
+  "ticker": "ACHR",
+  "date": "2026-09-24",
+  "sector": "Industrials",
+  "name": "ARCHER AVIATION CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 5.710000038146973,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the multiples table's -33.3% is roughly right by accident: $4.4bn of market capitalisation for $6.6M of half-year revenue and $852.7M of cash is a valuation built almost entirely on a certification that has not happened, and the stock is down 40% over a year precisely because that date keeps moving.",
+    "what_would_prove_it": "The FAA type certification decision and the first quarter of commercial passenger revenue.",
+    "already_visible": "Only the burn: cash down $168.8M in six months, and 8.3M shares issued to vendors rather than paid in cash, which is what a company managing a runway does. That is evidence about funding, not about the certification probability, which is the only thing that matters.",
+    "unresolved": "The probability and timing of certification, which is the entire value of the security and which I have no free source to handicap. Refusing is not a statement that Archer is cheap - on any cash-flow measure it is extraordinarily expensive - it is a statement that a discounted cash flow and a sector-median sales multiple are both the wrong instruments."
+  },
+  "what_changed": "Three filings matter and none changes the verdict. (i) An item 3.02 on 2026-08-18: 8,261,273 Class A shares issued to VENDORS in exchange for goods and services, for no cash proceeds, under a resale prospectus supplement - so the share count moves with the supplier base. (ii) An item 3.01 on 2026-09-04, which on inspection is NOT a delisting of the company: the SPAC-legacy public warrants (exercise price $11.50, from the 2020 Atlas Crest agreement) were halted by the NYSE on 2026-09-01 and expired worthless on 2026-09-16; the filing states 'The Company's Common Stock continues to trade on the NYSE under the symbol ACHR.' (iii) First-ever revenue recognised: $5.0M in Q2. Cash fell from $1,021.5M to $852.7M over the half.",
+  "consensus_case": "At $5.71 the market pays $4.4bn for an option on FAA type certification of the Midnight eVTOL and the manufacturing base to exercise it. Archer recognised its FIRST revenue this year - $5.0M in Q2 2026 and $6.6M in the half, from fixed-base-operator, lease and other sources - against $852.7M of cash and equivalents at 2026-06-30. The bull case is not a cash-flow case and does not pretend to be: it is that a certified, manufacturable air taxi with defence and infrastructure optionality (the Texas charging-infrastructure programme with BETA and the TxDOT electric-skyways consortium announced 2026-09-10) is worth a multiple of the capital consumed getting there. Cathie Wood adding, and the -40.2% over 252 days, describe a name being priced on probability and duration, not earnings.",
+  "base_case_rationale": "No base exists. `nonpositive_normalized_fcff` fires, the FCFF base is n/a over 0 years, there is no enterprise value and no reverse DCF. The multiples fallback then fails every arm of the standing refusal test at once: the cohort is UNRANKED ('too few comparable Industrials names'), Archer's own EV/sales is 9,798.8x and EV/gross profit 29,396.4x on $6.6M of half-year revenue, and both of those rows return the IDENTICAL $1.89 at the 25th, 50th and 75th percentiles - which is not a valuation at all but a floor, and reconciles to roughly the net cash per share ($852.7M over about 770M shares is $1.11, rising toward $1.89 with restricted cash and other assets). A blended midpoint of $3.81 built from two constant rows and one p_tbv row is arithmetic on a pre-revenue company, and CLAUDE.md is explicit that EV/sales on a company whose revenue has not arrived is close to meaningless.",
+  "key_risks": [
+    "Pre-commercial: $6.6M of half-year revenue against a $4.4bn market capitalisation",
+    "Cash burn of roughly $169M per half with $852.7M of cash remaining, implying further dilution",
+    "Continuous share issuance, including 8,261,273 shares paid to vendors in August for no cash proceeds",
+    "Binary regulatory dependence on FAA type certification"
+  ],
+  "watch_for": [
+    "FAA type certification milestones and any schedule change",
+    "First commercial passenger revenue and unit economics",
+    "The next equity raise - size, price and whether vendor share issuances accelerate"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/achr-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000068/achr-20260901.htm",
+    "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000063/achr-20260818.htm"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_2%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ticker": "DAVE",
+  "date": "2026-09-24",
+  "sector": "Financials",
+  "name": "DAVE CLASS A",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 326.19000244140625,
+  "market_implied_growth": null,
+  "cohort_pct": 13.0,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That -96.0% is not noise, it is a warning, and refusing lets an obviously expensive stock off the hook. Dave trades at 13.93x tangible book and 13th percentile of 339 Financials - the most expensive decile - on a business whose three-year GAAP return series spans MINUS 65.7% to POSITIVE 57.8% and contains an outright loss year. If the justified-P/TBV model is wrong about the level it may still be right about the direction.",
+    "what_would_prove_it": "Sustained GAAP profitability across several quarters with credit losses disclosed through a full consumer cycle, and a return measure that is stable enough to price against something.",
+    "already_visible": "The instability is visible and it is the point: an 8.7% 'sustainable' ROTCE averaged across a range of -65.7% to +57.8% is not a return, it is three unrelated numbers. The counter is directionally plausible and I cannot convert it into a fair value without committing the exact error this record already documents.",
+    "unresolved": "Whether Dave is expensive. I suspect it is; I have no defensible way to say so from this model, and the standing rule is explicit that supplying a ROTCE here would launder a category error into a number."
+  },
+  "what_changed": "Nothing that changes the verdict. Q2 2026 reported 2026-08-05 with the stock up 7% since; product expansions announced through August (ExtraCash limit increases, Flex, CashAI V6); an item 5.02 officer change on 2026-08-14. In March 2026 there were items 1.01/2.03/3.02 (a financing and an equity issuance) that would matter if the model were usable, and it is not.",
+  "consensus_case": "Dave is a consumer fintech, not a balance-sheet lender, and the market prices it as one. At $326.19 it trades at 13.93x tangible book because tangible book is not the constraint on its earnings - the ExtraCash product turns over in days, the member base and the underwriting model (CashAI) are the productive assets, and neither appears on the balance sheet. Recent product news is consistent with that: raised ExtraCash limits, the Flex spending product, CashAI V6 underwriting, and marketing spend scaling with flat customer acquisition cost. A buyer at this price is underwriting monetisation per member, not return on equity.",
+  "base_case_rationale": "Not applicable and deliberately not supplied. The justified price-to-tangible-book model is the wrong instrument for this business, and the engine's own numbers say so at maximum volume.",
+  "key_risks": [
+    "Regulatory risk to earned-wage-access and overdraft-alternative products",
+    "Credit performance of the ExtraCash book through a consumer downturn - never yet observed at this scale",
+    "13.93x tangible book leaves no valuation support if growth stalls",
+    "A three-year return series containing a loss year and a 123-point range"
+  ],
+  "watch_for": [
+    "Several consecutive quarters of stable GAAP return on tangible equity - the only thing that would make this name modellable at all",
+    "Any CFPB or state action on earned-wage-access products",
+    "ExtraCash loss rates disclosed alongside the raised limits"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1841408/000119312526335154/dave-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1841408/000119312526335119/dave-ex99_1.htm"
+  ],
+  "flags": [
+    "unstable_rotce_-65.7%_to_57.8%",
+    "loss_year_in_window"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "ticker": "ASC",
+  "date": "2026-09-24",
+  "sector": "Energy",
+  "name": "ARDMORE SHIPPING CORP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 17.610000610351562,
+  "market_implied_growth": -0.17288420682599098,
+  "cohort_pct": 96.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the refusal is hiding behind cyclicality when the disclosure is unusually good. Ardmore has almost no leverage (enterprise value $796.5M against a $717.3M market capitalisation, so roughly $79M of net debt), pays out two thirds of adjusted earnings, and management has given a specific Q3 number with half the days already fixed. At $29,600/day - not the peak, the GUIDE - the free cash flow is roughly $115M and the market is requiring -10.8% growth for five years, which is a hard thing to be asked to believe about a fleet with a thin orderbook.",
+    "what_would_prove_it": "Q4 2026 and Q1 2027 TCE realisations against the $29,600 guide, and whether the newbuild orderbook for MRs stays below fleet replacement.",
+    "already_visible": "The step down IS already visible and it is the strongest fact against the bull: $51,870 realised becoming $29,600 guided is a 43% decline in one quarter, disclosed by management with half the days fixed. That is the cycle turning in real time, not a forecast.",
+    "unresolved": "Two things, and the second is serious. First, where mid-cycle actually is - the base spans a factor of five and I cannot narrow it from free sources. Second, I verified NONE of the balance sheet. Ardmore is a foreign private issuer: the brief's Recent filings section is empty, the extract's balance sheet comes from a 6-K dated 2026-03-31 (a quarter stale), shares_asof is 2025-12-31 (nine months stale), and an adhoc-fetch dispatch for this ticker returned nothing but an empty index.json. Every operating number above comes from secondary reporting of the Q2 release and call - corroborated across several independent outlets, but not read from a filing."
+  },
+  "what_changed": "Q2 2026 results (late July): the figures above. Q3 2026 guidance of MR $29,600/day (45% fixed) and chemical $25,000/day (50% fixed) - a sharp step down from Q2's realisation and the single most important fact for this name. Rates are attributed to geopolitical disruption and structural shifts in global refining capacity, the same drivers visible in Par Pacific's refining margins in today's other Energy name. I could NOT read any of this from a primary filing (see data quality).",
+  "consensus_case": "Ardmore owns MR product and chemical tankers and is at or just past a rate peak. Q2 2026 adjusted earnings were $48.3M, or $1.18 per share, on revenue of $116.2M, with MR spot TCE of $51,870 per day - close to three times the company's operating cash breakeven of roughly $17,300 - and chemical tanker TCE of $26,887 against $20,409 a year earlier. The company pays out two thirds of adjusted earnings and declared $0.79 for the quarter. The market at $17.61 is implying about -17% five-year FCFF growth, and that is not pessimism, it is how a mean-reverting rate cycle is correctly priced. Management's own Q3 guidance says so: MR at $29,600 per day with 45% of revenue days fixed, which is 43% BELOW the quarter just reported even though it is 20% above the prior year. Nobody who owns a tanker at a peak gets paid for extrapolating it.",
+  "base_case_rationale": "I am supplying no growth rate, because for a product tanker owner 'five-year FCFF growth' is not a parameter that exists - the cash flow is a rate cycle, and the answer is entirely set by where mid-cycle sits. The engine's $138.3M base is the mean of [$81.6M, $160.4M, $159.1M] and carries `possible_trough_cycle_base`, whose advisory text says growth applied to a trough understates value. Per standing practice I do not read that recommendation: the newest year was the product-tanker trough, and the company has since earned $48.3M of adjusted net income in a single quarter. Sizing mid-cycle from the company's own disclosure - roughly 26 vessels, cash breakeven near $17,300/day - gives about $30-50M of free cash flow at a $20-22,000/day long-run MR rate, about $115M at the guided Q3 level of $29,600, and about $190M annualising the Q2 peak. Across that base range and a discount rate of 10.0-11.5%, the growth the market requires spans +7.2% to -22.5%, with the sign flipping at a base somewhere between $70M and $85M. A thirty-point span on a factor-of-five base range is not a valuation, and the honest output is the range.",
+  "key_risks": [
+    "Cycle risk is the whole thesis: Q3 guided MR TCE is 43% below the Q2 realisation",
+    "Foreign private issuer - no primary filing was obtainable, so the balance sheet, share count and net debt are unverified",
+    "Balance sheet is dated 2026-03-31 and the share count 2025-12-31, both before two quarters of large variable dividends",
+    "Beta comes from the Energy sector median (own regression R-squared 0.002, raw 0.10), so the discount rate is not a measurement"
+  ],
+  "watch_for": [
+    "Q3 2026 results and the realised TCE against the $29,600 MR guide",
+    "The Q4 guide and percentage of days fixed - the single cheapest read on where the cycle is going",
+    "MR newbuild ordering; a rising orderbook would settle the bear case",
+    "Any US-listed domestic filer transition that would make this name verifiable at all"
+  ],
+  "sources": [
+    "https://www.investing.com/news/company-news/ardmore-q2-2026-slides-rates-triple-breakeven-on-supply-disruptions-93CH-4821104",
+    "https://www.theglobeandmail.com/investing/markets/stocks/ASC-N/pressreleases/3730240/ardmore-shipping-asc-q2-2026-earnings-call-transcript/",
+    "https://ca.investing.com/news/transcripts/earnings-call-transcript-ardmore-shipping-tops-q2-2026-estimates-on-strong-rates-93CH-4760982",
+    "https://www.dailypolitical.com/2026/07/30/ardmore-shipping-nyseasc-issues-earnings-results-beats-estimates-by-0-05-eps.html"
+  ],
+  "flags": [
+    "beta_from_sector_median_0.89(unreliable_r2_0.002_raw_0.10)",
+    "possible_trough_cycle_base_newest_fcf_0.51x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

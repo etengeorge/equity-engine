@@ -1,0 +1,56 @@
+{
+  "ticker": "ONDS",
+  "date": "2026-09-24",
+  "sector": "Information Technology",
+  "name": "ONDAS INC",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 18,
+  "price_at_verdict": 7.400000095367432,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the acquisitions are exactly why the name is worth more than the trailing numbers suggest - the company is buying revenue and technology at a moment when defence demand is inflecting, and a trailing multiple on a pre-acquisition revenue line is guaranteed to look absurd on any successful roll-up mid-build.",
+    "what_would_prove_it": "Pro-forma consolidated revenue, margins and cash flow for the combined entity, and the cash cost of the acquisitions net of stock consideration - none of which exists yet in a filed financial statement.",
+    "already_visible": "Only the price paid and the shares issued. The EFOR lesson applies directly and cuts the other way: a serial acquirer's headline growth is bought, cfo-less-capex never charges for the acquisition cash, and here the acquisition spend is explicitly disclosed ($105.0M cash plus $25M plus ~$22.5M plus up to $185M in stock for Gate/Bron alone). Until a consolidated statement exists, the bull case and the bear case are both stories.",
+    "unresolved": "Everything quantitative. No pro-forma financials have been filed; the share count is unknowable within weeks; and I have no basis to say whether $4.2bn is too much or too little for what has been assembled."
+  },
+  "what_changed": "Essentially the entire company, inside six weeks, and mostly in stock. The 2026-09-14 8-K discloses the acquisition of 100% of Gate and Bron for $105.0M in cash plus 10,689,655 Consideration Shares, plus a $25M working-capital adjustment, plus approximately $22.5M to be issued within nine months, plus contingent earn-out payments of up to $185,000,000 over two years PAYABLE IN COMMON STOCK. The 2026-09-23 8-K covers the resale of a further 7,821,445 shares issued on that date for the CaribouLabs, Insignito and Ottopia acquisitions. That is roughly 18.5 million shares issued as acquisition consideration in ten days, before the earn-out.",
+  "consensus_case": "The market is paying $4.2bn for a drone and counter-drone platform being assembled in real time out of Israeli and European defence technology, in a year when European and Middle Eastern autonomous-defence budgets are being rewritten. Ondas is buying the components rather than renting them: World View in April, an item 2.01 acquisition on 2026-08-10, Gate Technologies (Israel) and Bron Technologies (Poland) closed 2026-09-14, and CaribouLabs, Insignito Solutions and Ottopia Technologies closed 2026-09-23 - the last of these announced the day before this screen priced the stock. A $205M precision-strike contract was reported on 2026-09-14. At $647.3M of average daily dollar volume on a $4.2bn company, the tape is not valuing cash flows; it is trading a consolidation story.",
+  "base_case_rationale": "There is nothing stable enough to apply a growth rate to. `nonpositive_normalized_fcff` fires and there is no FCFF base, no enterprise value and no reverse DCF. The multiples fallback is disqualified on the standing test - the cohort is UNRANKED, and the company's own EV/sales of 56.1x and EV/gross profit of 141.3x are measured on a trailing revenue line that describes a company which no longer exists after six acquisitions. Worse, the denominator of any per-share number is moving weekly: four separate item 3.02 unregistered-equity 8-Ks in six weeks (2026-08-10, 2026-08-28, 2026-09-14, 2026-09-23), with up to $185M of further stock contingently owed. A blended midpoint of $2.78 against a $7.40 price is not a -62.4% gap, it is a stale ratio.",
+  "key_risks": [
+    "Six acquisitions in six months with no consolidated pro-forma financial statements yet filed",
+    "Up to $185,000,000 of contingent earn-out payable in common stock over two years - dilution that sits in neither the share count nor enterprise value",
+    "Negative EBITDA and negative free cash flow against $105M+ of cash consideration already committed",
+    "$647.3M of average daily dollar volume on a $4.2bn company - the price is being set by flow, not by fundamentals"
+  ],
+  "watch_for": [
+    "The first 10-Q consolidating Gate, Bron, CaribouLabs, Insignito and Ottopia - the first honest revenue and margin line",
+    "An 8-K/A with pro-forma financial statements for the September acquisitions (item 9.01 allows 71 days)",
+    "Cash balance after the $105M plus $25M plus ~$22.5M of consideration, and any equity raise to fund it",
+    "Whether the reported $205M precision-strike award converts to recognised revenue"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1646188/000121390026099531/ea0304980-8k_ondas.htm",
+    "https://www.sec.gov/Archives/edgar/data/1646188/000121390026102458/ea0306273-8k_ondas.htm",
+    "https://www.sec.gov/Archives/edgar/data/1646188/000119312526349288/onds-20260630.htm"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_0%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}
