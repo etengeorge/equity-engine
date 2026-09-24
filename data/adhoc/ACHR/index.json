@@ -1,0 +1,104 @@
+{
+  "fetched_utc": "2026-09-24T11:46:55+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ACHR",
+    "cik": 1824502,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-04",
+        "items": "3.01,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000068/achr-20260901.htm",
+        "file": "2026-09-04-8-K-achr-20260901.htm.txt",
+        "chars": 4323,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-18",
+        "items": "3.02,8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000063/achr-20260818.htm",
+        "file": "2026-08-18-8-K-achr-20260818.htm.txt",
+        "chars": 4843,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/achr-20260630.htm",
+        "file": "2026-08-10-10-Q-achr-20260630.htm.txt",
+        "chars": 189787,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000056/achr-20260810.htm",
+        "file": "2026-08-10-8-K-achr-20260810.htm.txt",
+        "chars": 4427,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "1.01,3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000110465926093056/tm2622394d1_8k.htm",
+        "file": "2026-08-10-8-K-tm2622394d1_8k.htm.txt",
+        "chars": 28788,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-30",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000046/achr-20260626.htm",
+        "file": "2026-06-30-8-K-achr-20260626.htm.txt",
+        "chars": 4736,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000042/achr-20260514.htm",
+        "file": "2026-05-14-8-K-achr-20260514.htm.txt",
+        "chars": 4705,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/achr-20260331.htm",
+        "file": "2026-05-11-10-Q-achr-20260331.htm.txt",
+        "chars": 153504,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "1.01",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000110465926093056/tm2622394d1_ex99-1.htm",
+        "file": "2026-08-10-EX-99.1.txt",
+        "chars": 10605,
+        "truncated": false
+      }
+    ]
+  }
+}

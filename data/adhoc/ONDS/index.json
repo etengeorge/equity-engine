@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-09-24T11:48:16+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ONDS",
+    "cik": 1646188,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-23",
+        "items": "3.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026102458/ea0306273-8k_ondas.htm",
+        "file": "2026-09-23-8-K-ea0306273-8k_ondas.htm.txt",
+        "chars": 4678,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-14",
+        "items": "1.01,2.01,3.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026099531/ea0304980-8k_ondas.htm",
+        "file": "2026-09-14-8-K-ea0304980-8k_ondas.htm.txt",
+        "chars": 8900,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-28",
+        "items": "3.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026095097/ea0303660-8k_ondas.htm",
+        "file": "2026-08-28-8-K-ea0303660-8k_ondas.htm.txt",
+        "chars": 3990,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000119312526349288/onds-20260630.htm",
+        "file": "2026-08-13-10-Q-onds-20260630.htm.txt",
+        "chars": 279827,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-13",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000119312526347973/onds-20260813.htm",
+        "file": "2026-08-13-8-K-onds-20260813.htm.txt",
+        "chars": 3927,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "2.01,3.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000119312526341399/onds-20260810.htm",
+        "file": "2026-08-10-8-K-onds-20260810.htm.txt",
+        "chars": 6389,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000119312526340352/onds-20260803.htm",
+        "file": "2026-08-07-8-K-onds-20260803.htm.txt",
+        "chars": 3730,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-24",
+        "items": "3.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026081490/ea0298575-8k_ondas.htm",
+        "file": "2026-07-24-8-K-ea0298575-8k_ondas.htm.txt",
+        "chars": 3975,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-23",
+        "items": [
+          "3.02",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "PRESS RELEASE, DATED SEPTEMBER 23, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026102458/ea030627301ex99-1.htm",
+        "file": "2026-09-23-EX-99.1.txt",
+        "chars": 11431,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "1.01",
+          "2.01",
+          "3.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "FACT SHEET, DATED SEPTEMBER 14, 2026",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026099531/ea030498001ex99-1.htm",
+        "file": "2026-09-14-EX-99.1.txt",
+        "chars": 4727,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-14",
+        "items": [
+          "1.01",
+          "2.01",
+          "3.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "PRESS RELEASE, DATED SEPTEMBER 14, 2026",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1646188/000121390026099531/ea030498001ex99-2.htm",
+        "file": "2026-09-14-EX-99.2.txt",
+        "chars": 12536,
+        "truncated": false
+      }
+    ]
+  }
+}
