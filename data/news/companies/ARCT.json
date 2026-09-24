@@ -1,5 +1,17 @@
 [
  {
+  "id": "adfbdb78-a5a2-3782-83ef-32589f42038b",
+  "ts": "2026-09-24T13:41:29+00:00",
+  "title": "CoreWeave upgraded, Etsy downgraded: Wall Street's top analyst calls",
+  "summary": "CoreWeave upgraded, Etsy downgraded: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-reinstated-ralph-lauren-upgraded-133648092.html",
+  "tickers": [
+   "ARCT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f92a3a7d-7bd8-3476-9cc5-d978bae3aa77",
   "ts": "2026-09-23T20:01:00+00:00",
   "title": "Arcturus Therapeutics Announces Interim OTC Deficiency Phase 2 Results and Introduces LUNAR 2.0\u2122 Next-Generation mRNA Delivery Platform",

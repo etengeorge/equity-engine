@@ -1,5 +1,29 @@
 [
  {
+  "id": "2d1a12b8-b371-3235-b483-dc8f9aa45f33",
+  "ts": "2026-09-24T14:47:27+00:00",
+  "title": "IonQ Just Solved Quantum Computing\u2019s Hardest Problem. The Stock Is Still Down 43% in a Year.",
+  "summary": "IonQ just pulled off a quantum computing first that the entire industry has been chasing for years, yet its stock remains deep in the red and its losses dwarf its revenue. Something does not add up, and the explanation cuts to the heart of how markets price revolutionary science against brutal financial reality.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/ionq-just-solved-quantum-computings-hardest-problem-the-stock-is-still-down-43-in-a-year/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1f94a2dd-84a2-32f0-88ba-b1186b584851",
+  "ts": "2026-09-24T12:05:46+00:00",
+  "title": "Everyone\u2019s Talking About IonQ. Smart Money Is Watching Nvidia Instead.",
+  "summary": "IonQ just claimed a genuine quantum computing breakthrough, but its stock tells a bleaker story and its financials tell a bleaker one still. Before you chase the headline, there is a quieter position in the quantum ecosystem worth understanding.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/everyones-talking-about-ionq-smart-money-is-watching-nvidia-instead/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1fda430e-d8c2-3785-864a-8ea79e60a959",
   "ts": "2026-09-24T10:12:04+00:00",
   "title": "What Does D Wave Quantum (QBTS) Gain From Its New Enterprise Partnership?",

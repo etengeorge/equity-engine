@@ -1,5 +1,17 @@
 [
  {
+  "id": "9bf1d0ba-9c20-3d59-b146-3b340cd57ce6",
+  "ts": "2026-09-24T12:39:00+00:00",
+  "title": "Company News for Sep 24, 2026",
+  "summary": "Companies in The News Are: GIS,CBRL,WOR,IONQ",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-24-2026-123900390.html",
+  "tickers": [
+   "WOR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "76e76f75-d023-3ac9-8d55-1845472fc422",
   "ts": "2026-09-23T23:00:19+00:00",
   "title": "Worthington Enterprises Inc (WOR) Q1 2027 Earnings Call Highlights: Data Center Momentum ...",

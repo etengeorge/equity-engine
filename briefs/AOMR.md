@@ -1,85 +1,92 @@
-# DAVE — DAVE CLASS A
-*Financials · brief generated 2026-09-24 · selected as **rotation***
+# AOMR — ANGEL OAK MORTGAGE REIT
+*Financials · brief generated 2026-09-24 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 229/1956
+- cheapest 2% of 339 Financials peers (98th pct)
+- baseline gap +119%
+- 21d move -8%
+- Financials is in the news
+- never researched
+- urgency score 6.48
 
 ## Market
 | | |
 |---|---|
-| price | $326.19 |
-| market cap | $4.7B |
-| 5d / 21d / 63d / 252d | -12.9% / -8.0% / +2.6% / +36.7% |
-| 60d avg daily $ volume | $163.6M |
-| beta (vs IWM) | 1.62 (R²=0.107) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 96% / debt 4% |
+| price | $7.58 |
+| market cap | $176.0M |
+| 5d / 21d / 63d / 252d | -5.4% / -8.0% / -8.5% / -10.2% |
+| 60d avg daily $ volume | $1.1M |
+| beta (vs IWM) | 0.93 (R²=0.435) |
+| 5d volume vs 60d average | 1.9x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 7% / debt 93% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +8.7% |
-| cost of equity | +14.0% |
-| justified P/TBV | 0.56 |
-| actual P/TBV | 13.93 |
-| tangible book / share | $23.41 |
-| implied gap | -96.0% |
+| sustainable ROTCE | +13.9% |
+| cost of equity | +10.2% |
+| justified P/TBV | 1.44 |
+| actual P/TBV | 0.66 |
+| tangible book / share | $11.52 |
+| implied gap | +119.4% |
 
-Cohort: **13th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -61.9%).
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +153.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `unstable_rotce_-65.7%_to_57.8%`
-- `loss_year_in_window`
+- none raised
 
 ## Recent filings
-- 2026-08-14 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526352390/dave-20260812.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1841408/000119312526335154/dave-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526335119/dave-20260805.htm
-- 2026-06-02 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526253774/dave-20260602.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526206471/dave-20260505.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1841408/000119312526206446/dave-20260331.htm
-- 2026-04-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1841408/000119312526164199/dave-20260420.htm
-- 2026-03-09 **8-K** — items 1.01,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526098802/d108294d8k.htm
-- 2026-03-06 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526094530/d55376d8k.htm
-- 2026-03-03 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1841408/000119312526088439/d864354d8k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
+- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
+- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
+- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
+- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
+- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1841408/000119312526335119/dave-ex99_1.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-05** · ServiceNow Leads Five Stocks To Watch Near Buy Points — *Investor's Business Daily* — https://www.investors.com/news/servicenow-stocks-to-watch-buy-points/?src=A00220&yptr=yahoo
-  > Meanwhile, several stocks showed bullish signs, including software giant ServiceNow. Digital bank Dave Inc., commodities trading platform Marex Group, senior living REIT Welltower and cancer treatment developer Exelixis round out the list o
-- **2026-09-04** · DAVE INC (DAVE) Up 7% Since Last Earnings Report: Can It Continue? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/dave-inc-dave-7-since-153009251.html
-  > DAVE INC (DAVE) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
-- **2026-08-27** · Dave Raises ExtraCash Limits: Is Monetization Set to Accelerate? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/dave-raises-extracash-limits-monetization-161900252.html
-  > Dave's larger ExtraCash advances and higher fee ceilings are likely to lift revenue per user as credit metrics improve, and 2026 guidance rises.
-- **2026-08-27** · Dave Expands With Flex: Can It Become a Primary Spending Tool? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/dave-expands-flex-become-primary-153200429.html
-  > DAVE's Flex card broadens its credit offering with pay-in-four financing, higher spending limits and Mastercard acceptance as testing expands.
-- **2026-08-24** · Dave vs. dLocal: Which Fintech Stock Looks Better for Investors Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/dave-vs-dlocal-fintech-stock-161900685.html
-  > Dave and dLocal are profitable fintech growth stories, but their growth drivers, valuations and risk profiles differ sharply for investors now.
-- **2026-08-21** · Dave's Marketing Push Accelerates: Can CAC Stay Flat as Members Grow? — *Zacks* — https://finance.yahoo.com/small-business/articles/daves-marketing-push-accelerates-cac-144900362.html
-  > DAVE holds CAC at $19 as new members rise 32%, putting acquisition efficiency in focus as marketing spend climbs in the second half of 2026.
-- **2026-08-20** · Dave's CashAI V6: Can Smarter Underwriting Lift ARPU? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/daves-cashai-v6-smarter-underwriting-150900028.html
-  > Dave's CashAI V6 aims to lift gross profit and average originations, building on rising ARPU, stronger ExtraCash engagement and controlled losses.
-- **2026-08-17** · Apple upgraded, Workday downgraded: Wall Street's top analyst calls — *The Fly* — https://finance.yahoo.com/markets/stocks/articles/apple-upgraded-brinker-initiated-wall-134131346.html
-  > Apple upgraded, Workday downgraded: Wall Street's top analyst calls
-- **2026-08-17** · Here Are Monday’s Top Wall Street Analyst Research Calls: Apple, Dave, Etsy, Federal Signal, Mobileye Global, Netskope, Okta, Shopify, Workday, and More — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/17/here-are-mondays-top-wall-street-analyst-research-calls-apple-dave-etsy-federal-signal-mobileye-global-netskope-okta-shopify-workday-and-more/
-  > Wall Street kicked off the week with a flurry of bold calls on some of the market's most closely watched names, and at least one stock just scored a target price hike of more than 50 percent from a major firm.
-- **2026-08-12** · Dave (DAVE) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/12/dave-dave-q2-2026-earnings-call-transcript/
-  > Revenue surged 30% as member acquisition reaccelerated and ARPU expanded significantly.
+- **2026-08-11** · Angel Oak Mortgage REIT (AOMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/angel-oak-mortgage-reit-aomr-q2-2026-earnings-call-transcript/
+  > Net interest income grew 8% despite market volatility and unrealized losses.
+- **2026-08-11** · Cherry Hill Mortgage’s 29% Premium Deal: $9B Merger Opens Door to Bigger Upside – Quarterly Update Report — *Exec Edge* — https://finance.yahoo.com/markets/stocks/articles/cherry-hill-mortgage-29-premium-150508758.html
+  > Download the Complete Report Here Cherry Hill Mortgage Investment Corp. (CHMI) MITT Deal Unlocks Value and Preserves Further Upside as 2Q26 EAD Beats Expectations The MITT transaction materially improves value realization for CHMI sharehold
+- **2026-08-05** · Angel Oak Mortgage, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-angel-oak-mortgage-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Angel Oak Mortgage, Inc.'s Q2 2026 earnings call
+- **2026-08-04** · Angel Oak Mortgage REIT Inc (AOMR) (Q2 2026) Earnings Call Highlights: Strategic Reinvestment ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/angel-oak-mortgage-reit-inc-210204985.html
+  > Angel Oak Mortgage REIT Inc (AOMR) navigates a turbulent quarter with disciplined capital deployment, strong net interest income growth, and a robust securitization pipeline.
+- **2026-08-04** · Angel Oak Mortgage REIT Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/angel-oak-mortgage-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Angel Oak Mortgage REIT (NYSE:AOMR) reported second-quarter 2026 GAAP net income of $3.4 million, or $0.14 per diluted common share, compared with $800,000, or $0.03 per diluted common share, in the prior-year period. The mortgage REIT said
+- **2026-08-04** · Angel Oak Mortgage (AOMR) Beats Q2 Earnings Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-aomr-beats-122502097.html
+  > Angel Oak (AOMR) delivered earnings and revenue surprises of +2.78% and -1.90%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-04** · Angel Oak Mortgage REIT, Inc. Reports Second Quarter 2026 Financial Results — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-110000536.html
+  > ATLANTA, August 04, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first and second lien non-QM loans and other mortgage-related
+- **2026-07-30** · Blackstone Mortgage Trust (BXMT) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-surpasses-123504738.html
+  > Blackstone Mortgage (BXMT) delivered earnings and revenue surprises of +26.32% and +0.20%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-24** · Xerox and 4 More Stocks See Action From Activist Investors — *Barrons.com* — https://www.barrons.com/articles/xerox-and-4-more-stocks-see-action-from-activist-investors-d9214bb2?siteid=yhoof2&yptr=yahoo
+  > Activists also report to the SEC on Metalla Royalty, Xerox Holdings, Angel Oak Mortgage REIT, and Daktronics.
+- **2026-07-21** · Angel Oak Mortgage REIT, Inc. Sets Date for Second Quarter 2026 Earnings Release and Conference Call — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-201500632.html
+  > ATLANTA, July 21, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first lien non-QM loans and other mortgage-related assets in th
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
 - **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
 - **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
@@ -88,14 +95,12 @@ Attack these before you trust any number above.
 - **2026-09-23** · Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
-- **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
-- **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -120,7 +125,7 @@ Attack these before you trust any number above.
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
+- DAVE: no_model · price $326.19
 
 ---
 

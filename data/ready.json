@@ -1,44 +1,44 @@
 {
-  "screen_utc": "2026-09-24T11:23:17+00:00",
+  "screen_utc": "2026-09-24T15:23:33+00:00",
   "price_asof": "2026-09-23",
   "universe": 1956,
   "modelled": 1074,
   "modelled_pct": 54.9,
   "news": {
-    "generated_utc": "2026-09-24T11:23:48+00:00",
+    "generated_utc": "2026-09-24T15:23:48+00:00",
     "sectors": {
       "Health Care": {
-        "new": 4,
-        "held": 72,
+        "new": 1,
+        "held": 73,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 6,
-        "held": 104,
+        "new": 2,
+        "held": 106,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 0,
-        "held": 36,
+        "new": 2,
+        "held": 38,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 7,
-        "held": 106,
+        "new": 2,
+        "held": 108,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 5,
-        "held": 81,
+        "new": 2,
+        "held": 83,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 6,
-        "held": 122,
+        "new": 2,
+        "held": 124,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 3,
+        "new": 0,
         "held": 56,
         "etf": "XLRE"
       },
@@ -48,43 +48,43 @@
         "etf": "XLB"
       },
       "Communication": {
-        "new": 0,
-        "held": 27,
+        "new": 1,
+        "held": 28,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 3,
-        "held": 73,
+        "new": 1,
+        "held": 74,
         "etf": "XLP"
       },
       "Utilities": {
         "new": 1,
-        "held": 34,
+        "held": 35,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 845,
+    "articles_new": 354,
     "candidates": 450,
-    "elapsed_s": 202.9
+    "elapsed_s": 208.7
   },
   "picks": [
-    "PARR",
-    "DAVE",
-    "ACHR",
-    "ADPT",
-    "FELE",
-    "ONDS",
-    "IMXI",
-    "SLDE",
-    "ASC",
-    "VISN"
+    "MWA",
+    "CNK",
+    "CRC",
+    "HTFL",
+    "RNST",
+    "GFF",
+    "BBT",
+    "AOMR",
+    "ETD",
+    "MLKN"
   ],
   "stages": {
-    "screen": "2026-09-24T11:29:40+00:00",
-    "news": "2026-09-24T11:27:11+00:00",
-    "pick": "2026-09-24T11:29:40+00:00"
+    "screen": "2026-09-24T15:27:39+00:00",
+    "news": "2026-09-24T15:27:17+00:00",
+    "pick": "2026-09-24T15:27:39+00:00"
   }
 }

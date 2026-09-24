@@ -1,5 +1,17 @@
 [
  {
+  "id": "9bf1d0ba-9c20-3d59-b146-3b340cd57ce6",
+  "ts": "2026-09-24T12:39:00+00:00",
+  "title": "Company News for Sep 24, 2026",
+  "summary": "Companies in The News Are: GIS,CBRL,WOR,IONQ",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-24-2026-123900390.html",
+  "tickers": [
+   "CBRL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0baf9bc1-28f7-368b-83c9-19fac1319183",
   "ts": "2026-09-24T07:44:54+00:00",
   "title": "CBRL Q2 CY2026 Deep Dive: Menu Initiatives and Operational Gains Boost Profitability",
@@ -90,6 +102,18 @@
   "summary": "Shares of restaurant company Cracker Barrel (NASDAQ:CBRL) jumped 2% in the morning session after the company reported its fourth-quarter and full-year fiscal 2026 financial results and issued its financial outlook for fiscal 2027.",
   "publisher": "StockStory",
   "url": "https://finance.yahoo.com/markets/stocks/articles/cracker-barrel-cbrl-stock-know-173302255.html",
+  "tickers": [
+   "CBRL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "bcb929aa-6926-3583-9260-0d5549c48c8c",
+  "ts": "2026-09-23T15:36:23+00:00",
+  "title": "Cracker Barrel sees traffic improvement as strategy is \u2018on the right track\u2019",
+  "summary": "New CEO David Deno, who joined the company just six weeks ago, said the company is \"already focused on the right areas and has a strong plan in place.\"",
+  "publisher": "Nation's Restaurant News",
+  "url": "https://www.nrn.com/family-dining/cracker-barrel-sees-traffic-improvement-as-strategy-is-on-the-right-track-",
   "tickers": [
    "CBRL"
   ],

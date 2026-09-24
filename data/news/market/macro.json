@@ -3548,5 +3548,15 @@
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+  "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
  }
 ]

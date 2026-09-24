@@ -1,18 +1,18 @@
-# ADPT — ADAPTIVE BIOTECHNOLOGIES
+# HTFL — HEARTFLOW
 *Health Care · brief generated 2026-09-24 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 231/1956
+- rotation position 237/1956
 
 ## Market
 | | |
 |---|---|
-| price | $27.89 |
-| market cap | $4.5B |
-| 5d / 21d / 63d / 252d | +4.5% / +7.3% / +61.9% / +108.8% |
-| 60d avg daily $ volume | $57.3M |
-| beta (vs IWM) | 1.01 (R²=0.081) |
-| 5d volume vs 60d average | 1.4x |
+| price | $47.39 |
+| market cap | $4.1B |
+| 5d / 21d / 63d / 252d | -1.9% / -4.7% / +37.4% / +44.1% |
+| 60d avg daily $ volume | $74.0M |
+| beta (vs IWM) | 2.06 (R²=0.138) |
+| 5d volume vs 60d average | 1.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.7% − 1pt | n/a |
-| **10.7% (point)** | **n/a** |
-| 10.7% + 1pt | n/a |
+| 16.5% − 1pt | n/a |
+| **16.5% (point)** | **n/a** |
+| 16.5% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $27.89).
+Gap under that baseline: **n/a** (fair value n/a vs price $47.39).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,11 +39,11 @@ Gap under that baseline: **n/a** (fair value n/a vs price $27.89).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=318) | 14.9x | 2.0x / 4.4x / 19.2x | $5.60 / $9.79 / $35.45 |
-| ev_gross_profit (n=207) | 20.0x | 3.4x / 6.9x / 19.4x | $6.46 / $10.99 / $27.06 |
-| p_tbv (n=328) | 290.7x | 2.1x / 4.1x / 7.4x | $0.20 / $0.39 / $0.71 |
+| ev_sales (n=318) | 22.5x | 2.0x / 4.4x / 19.2x | $5.94 / $10.83 / $40.76 |
+| ev_gross_profit (n=207) | 29.3x | 3.4x / 6.9x / 19.4x | $7.12 / $12.58 / $31.98 |
+| p_tbv (n=328) | 14.7x | 2.1x / 4.1x / 7.4x | $6.84 / $13.07 / $23.90 |
 
-Blended midpoint **$7.05** vs price $27.89 — gap **-74.7%**.
+Blended midpoint **$12.16** vs price $47.39 — gap **-74.3%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -52,58 +52,58 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
+- `single_year_base_no_normalization`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
 - `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1478320/000119312526332940/adpt-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526323753/adpt-20260724.htm
-- 2026-06-22 **8-K** — items 1.01,1.02,2.03,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526277516/d28937d8k.htm
-- 2026-06-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526271117/d65233d8k.htm
-- 2026-06-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526263844/adpt-20260605.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1478320/000119312526206546/adpt-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526206455/adpt-20260505.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1478320/000119312526177409/adpt-20260423.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1478320/000119312526076902/adpt-20251231.htm
-- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1478320/000119312526039409/adpt-20260205.htm
+- 2026-08-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000131/htfl-20260630x10q.htm
+- 2026-08-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000129/htfl-20260813x8k.htm
+- 2026-06-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000081/htfl-20260616x8k.htm
+- 2026-05-14 **10-Q** — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000071/htfl-20260331x10q.htm
+- 2026-05-14 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000069/htfl-20260514x8k.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1464521/000119312526189307/d54880ddef14a.htm
+- 2026-03-18 **10-K** — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000042/htfl-20251231x10k.htm
+- 2026-03-18 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000040/htfl-20260318x8k.htm
+- 2026-01-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000005/htfl-20260112x8k.htm
+- 2025-11-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1464521/000146452125000019/htfl-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1478320/000119312526323753/adpt-ex99_1.htm
-- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1478320/000119312526271117/d65233dex991.htm
-- **2026-06-15** · EX-99.2 · presentation — EX-99.2 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1478320/000119312526271117/d65233dex992.htm
-- **2026-06-15** · EX-99.3 · press release — EX-99.3 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1478320/000119312526271117/d65233dex993.htm
+- **2026-08-13** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1464521/000146452126000129/htfl-20260813xex99_1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-17** · Adaptive Biotechnologies Announces Update to NCCN Guidelines® for Multiple Myeloma, Strengthening MRD Testing Recommendations and Specifically Referencing clonoSEQ® — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-announces-nccn-guidelines-120000398.html
-  > Updated guidelines establish a dedicated framework for routine MRD assessment across the multiple myeloma patient journey clonoSEQ named as an FDA-cleared assay for MRD assessment, with 10-6 sensitivity now preferred SEATTLE, Sept. 17, 2026
-- **2026-09-01** · Adaptive Biotechnologies to Participate in the Morgan Stanley 24th Annual Global Healthcare Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-participate-morgan-stanley-200500093.html
-  > SEATTLE, Sept. 01, 2026 (GLOBE NEWSWIRE) -- Adaptive Biotechnologies Corporation (Nasdaq: ADPT), a commercial stage biotechnology company that aims to translate the genetics of the adaptive immune system into clinical products to diagnose a
-- **2026-08-24** · What Is Really Moving Tempus AI Stock Right Now? — *Trefis* — https://www.trefis.com/articles/612597/what-is-really-moving-tempus-ai-stock-right-now/2026-08-24
-  > While traders pointed to external clinical-trial momentum as a major catalyst, Tempus's own recent guidance raise and narrowing losses provided the underlying backdrop.
-- **2026-08-21** · Adaptive Biotechnologies Stock Has Doubled in the Past Year. Here’s What Could Come Next. — *Barchart* — https://www.barchart.com/story/news/3971554/adaptive-biotechnologies-stock-has-doubled-in-the-past-year-heres-what-could-come-next
-  > Adaptive Biotechnologies (ADPT) has surged 100% over the past year, driven by strong technical momentum. Shares recently hit a new 3-year high. Analyst sentiment is mixed with price targets ranging from $17 to $30. Investor focus has shifte
-- **2026-07-30** · Adaptive Biotechnologies Corp (ADPT) (Q2 2026) Earnings Call Highlights: MRD Revenue Surges ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-corp-adpt-q2-050307312.html
-  > Adaptive Biotechnologies Corp (ADPT) reports a strong Q2 with MRD revenue up 49% (ex-milestones) and raises full-year guidance, while progressing the separation of its Immune Medicine business.
-- **2026-07-29** · Adaptive Biotechnologies (ADPT) Reports Q2 Earnings: What Key Metrics Have to Say — *Zacks* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-230004993.html
-  > While the top- and bottom-line numbers for Adaptive Biotechnologies (ADPT) give a sense of how the business performed in the quarter ended June 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates 
-- **2026-07-29** · Adaptive Biotechnologies (ADPT) Reports Q2 Loss, Beats Revenue Estimates — *Zacks* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-222503985.html
-  > Adaptive Biotechnologies (ADPT) delivered earnings and revenue surprises of +23.08% and +7.98%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-07-29** · Adaptive Biotechnologies Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/adaptive-biotechnologies-q2-earnings-call-highlights-2026-07-29/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Adaptive Biotechnologies (NASDAQ:ADPT) reported second-quarter results marked by accelerating growth in its minimal residual disease, or MRD, business, improved margins and an increased full-year revenue outlook. The company also outlined f
-- **2026-07-29** · Adaptive Biotechnologies Reports Second Quarter 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-reports-second-quarter-200500355.html
-  > SEATTLE, July 29, 2026 (GLOBE NEWSWIRE) -- Adaptive Biotechnologies Corporation (“Adaptive Biotechnologies”) (Nasdaq: ADPT), a commercial stage biotechnology company that aims to translate the genetics of the adaptive immune system into cli
-- **2026-07-24** · Adaptive Biotechnologies (ADPT) After Loss Forecasts Improve Is The Rally Already Priced In — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/adaptive-biotechnologies-adpt-loss-forecasts-121131135.html
-  > Investors are watching Adaptive Biotechnologies (ADPT) after forecasts pointed to a reduced quarterly loss of $0.13 per share and 12.6% revenue growth for the June 2026 quarter, alongside its track record of beating earnings estimates. See 
+- **2026-09-06** · HeartFlow CFO Dumps Over 33,000 Shares for $1.7 Million as the Stock Hits a 52-Week High — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/06/heartflow-cfo-dumps-over-33-000-shares-for-usd1-7-million-as-the-stock-hits-a-52-week-high/
+  > The medical technology company reported a notable insider sale as its shares delivered a 59% one-year return.
+- **2026-08-28** · Late Breaking Data from Independent Government-Funded Trial at ESC Shows Heartflow FFRCT Analysis Reduces Unnecessary Invasive Heart Procedures by Nearly Half — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/breaking-data-independent-government-funded-064800934.html
+  > FUSION trial presented at ESC and published in Journal of the American College of Cardiology demonstrates adding non-invasive lesion-specific physiology resolves critical diagnostic uncertainty, supporting Appropriate Use Criteria for cath 
+- **2026-08-27** · Heartflow to Participate in the Wells Fargo 21st Annual Healthcare Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/heartflow-participate-wells-fargo-21st-200100234.html
+  > SAN FRANCISCO, Aug. 27, 2026 (GLOBE NEWSWIRE) -- Heartflow, Inc. (Heartflow) (Nasdaq: HTFL), the leader in AI technology for diagnosing and managing coronary artery disease (CAD), today announced that members of management will participate 
+- **2026-08-20** · HeartFlow's Chief Medical Officer Sells 9,219 Shares Amid a Soaring Stock Price. What Does That Mean for Investors? — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/20/heartflow-s-chief-medical-officer-sells-9-219-shares-amid-a-soaring-stock-price-what-does-that-mean-for-investors/
+  > The medical technology company reported a notable insider sale as shares returned 35% over the past year.
+- **2026-08-16** · Heartflow (HTFL) Rockets 46%: What Analysts Say and Where Hedge Funds Stand — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/heartflow-htfl-rockets-46-analysts-123113891.html
+  > Heartflow Inc. (NASDAQ:HTFL) climbed by 46 percent week-on-week, making it the fourth-highest gainer on the stock market last week, thanks to its strong revenue performance that helped bolster its growth outlook for the full-year period. In
+- **2026-08-16** · Is HeartFlow (HTFL) Already Overvalued Or Still Worth The Hype? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/heartflow-htfl-already-overvalued-still-100847243.html
+  > HeartFlow stock has surged over the past month, yet the valuation checks currently lean expensive rather than pointing to a clear bargain. That mix of strong recent returns and a low value score raises questions about how much optimism is a
+- **2026-08-16** · HeartFlow (HTFL) Jumps On Q2 Results As Raised Outlook Leaves Shares Fully Valued — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/heartflow-htfl-jumps-q2-results-091201814.html
+  > HeartFlow (HTFL) moved after its second quarter 2026 report, which paired higher sales with a continued net loss, along with a raised full year revenue outlook that lifted investor attention on the stock. See our latest analysis for HeartFl
+- **2026-08-16** · HeartFlow (HTFL) Stock Gets Fair Value Boost After Q2 Beat And Guidance Raise — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/heartflow-htfl-stock-gets-fair-071016091.html
+  > HeartFlow has just seen its fair value estimate move from US$37.00 to about US$42.13, which puts the current analyst price target conversation firmly in the low to mid US$40s. Recent Street research ties these updated targets to Q2 results,
+- **2026-08-15** · Analysts Are Bullish on Heartflow (HTFL) Stock. Here’s Why — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/analysts-bullish-heartflow-htfl-stock-011800814.html
+  > Heartflow Inc. (NASDAQ:HTFL) climbed to a fresh all-time high on Friday, as investors took heart from its strong revenues in the second quarter of the year that helped boost its growth outlook for the full-year period. In intra-day trading,
+- **2026-08-14** · Why Heartflow Stock Soared Today — *Motley Fool* — https://www.fool.com/investing/2026/08/14/why-heartflow-stock-soared-today/
+  > The healthcare technology leader is using artificial intelligence to detect coronary artery disease early.
+- **2026-08-14** · This AI-Tied IPO Stock Just Broke Out On Its 'Outsized' Guidance Boost — *Investor's Business Daily* — https://www.investors.com/news/technology/heartflow-stock-heartflow-earnings-q2-2026/?src=A00220&yptr=yahoo
+  > Heartflow stock broke out Friday, helped by an "outsized" guidance raise and second-quarter beat.
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-23** · XLV vs. PJP: How Broad Healthcare Diversification Stacks Up to Pharma Stocks — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/xlv-vs-pjp-how-broad-healthcare-diversification-stacks-up-to-pharma-stocks/
 - **2026-09-23** · Ocular Therapeutix and ANI Pharmaceuticals Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-ani-pharmaceuticals-stocks-213805476.html
 - **2026-09-23** · Surgery Partners, 10x Genomics, QuidelOrtho, Zimmer Biomet, and Tandem Diabetes Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/surgery-partners-10x-genomics-quidelortho-213005328.html
@@ -113,13 +113,12 @@ Attack these before you trust any number above.
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Sector Update: Healthcare Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-higher-afternoon-194339680.html
 - **2026-09-21** · Sector Update: Healthcare Stocks Rise in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-175058246.html
-- **2026-09-21** · Novo Nordisk Falls 7% as Post-Wegovy Growth Plan Fails to Ease Competition Fears; Eli Lilly Slips, Viking Therapeutics Edges Higher — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/21/novo-nordisk-falls-7-as-post-wegovy-growth-plan-fails-to-ease-competition-fears-eli-lilly-slips-viking-therapeutics-edges-higher/
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -133,6 +132,7 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Health Care
+- ADPT: no_model · price $27.89
 - ALKS: no_edge · price $46.91
 - APGE: no_model · price $133.96
 - CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
@@ -144,7 +144,6 @@ Attack these before you trust any number above.
 - HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
 - HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
 - HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
-- INDV: no_model · price $34.88
 
 ---
 

@@ -1,5 +1,33 @@
 [
  {
+  "id": "690b52fd-1811-31e3-8462-ca43d95d8f4c",
+  "ts": "2026-09-24T13:17:57+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "5682a241-7857-3f65-b308-15bba278b595",
+  "ts": "2026-09-24T12:33:00+00:00",
+  "title": "Stock Market News for Sep 24, 2026",
+  "summary": "U.S. stocks ended lower on Wednesday, as Treasury yields and oil prices rose, while investors feared that the Federal Reserve could go ahead with more interest rate hikes.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "0e4e4bae-4785-3527-b2dd-bef6979ab34f",
   "ts": "2026-09-23T19:46:23+00:00",
   "title": "Sector Update: Consumer Stocks Retreat Late Afternoon",

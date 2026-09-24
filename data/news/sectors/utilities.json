@@ -1,5 +1,19 @@
 [
  {
+  "id": "5682a241-7857-3f65-b308-15bba278b595",
+  "ts": "2026-09-24T12:33:00+00:00",
+  "title": "Stock Market News for Sep 24, 2026",
+  "summary": "U.S. stocks ended lower on Wednesday, as Treasury yields and oil prices rose, while investors feared that the Federal Reserve could go ahead with more interest rate hikes.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "da279bf2-c1ba-34ef-9de4-6eb9789e7b7a",
   "ts": "2026-09-23T10:34:59+00:00",
   "title": "NiSource Stock: Is NI Outperforming the Utilities Sector?",

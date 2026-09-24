@@ -1,5 +1,29 @@
 [
  {
+  "id": "58286e12-366c-3f00-a601-a3ac233b8b1c",
+  "ts": "2026-09-24T15:00:21+00:00",
+  "title": "Delek stock falls on $400M convertible notes offering",
+  "summary": "Investing.com -- Delek US Energy Inc (NYSE:DK) shares dropped 6% Thursday after the company announced plans to offer $400 million in convertible senior notes due 2031.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/delek-stock-falls-400m-convertible-150021444.html",
+  "tickers": [
+   "DK"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f9827b25-6f46-30e4-8dd7-65e0c92e7c12",
+  "ts": "2026-09-24T13:26:22+00:00",
+  "title": "Sector Update: Energy Stocks Rise Premarket Thursday",
+  "summary": "Energy stocks were rising premarket Thursday, with the State Street Energy Select Sector SPDR ETF (X",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132622226.html",
+  "tickers": [
+   "DK"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "56642f67-3a37-3c69-8bbc-a6be98d5f377",
   "ts": "2026-09-24T11:15:00+00:00",
   "title": "Delek US Holdings, Inc. Announces Proposed Offering of Convertible Senior Notes",

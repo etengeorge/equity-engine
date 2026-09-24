@@ -1,92 +1,79 @@
-# FELE — FRANKLIN ELECTRIC
+# GFF — GRIFFON
 *Industrials · brief generated 2026-09-24 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 232/1956
+- rotation position 239/1956
 
 ## Market
 | | |
 |---|---|
-| price | $96.30 |
-| market cap | $4.3B |
-| 5d / 21d / 63d / 252d | +0.4% / -7.5% / -6.8% / +2.1% |
-| 60d avg daily $ volume | $28.1M |
-| beta (vs IWM) | 0.79 (R²=0.4) |
-| 5d volume vs 60d average | 1.6x |
-| balance sheet as of | 2026-03-31 (10-Q) |
-| WACC weights | equity 95% / debt 5% |
+| price | $96.59 |
+| market cap | $4.4B |
+| 5d / 21d / 63d / 252d | +4.1% / -3.7% / +7.2% / +28.7% |
+| 60d avg daily $ volume | $31.6M |
+| beta (vs IWM) | 1.29 (R²=0.383) |
+| 5d volume vs 60d average | 1.3x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 78% / debt 22% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$237.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$193.5M', '$219.7M', '$274.3M']
-Enterprise value **$4.4B** · FCFF yield **+5.4%**
+Normalized FCFF base **$400.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$305.0M', '$311.6M', '$368.2M']
+Enterprise value **$5.5B** · FCFF yield **+7.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.2% − 1pt | +4.8% |
-| **9.2% (point)** | **+8.5%** |
-| 9.2% + 1pt | +11.8% |
+| 11.3% − 1pt | +4.8% |
+| **11.3% (point)** | **+7.6%** |
+| 11.3% + 1pt | +10.3% |
 
 
-Naive baseline for comparison: **+11.3%** (5y revenue CAGR +11.3%).
-Gap under that baseline: **+12.8%** (fair value $108.63 vs price $96.30).
+Naive baseline for comparison: **+0.9%** (5y revenue CAGR +0.9%).
+Gap under that baseline: **-30.3%** (fair value $67.29 vs price $96.59).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **67th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +35.4%).
+Cohort: **43th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -7.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-09-08 **8-K** — items 1.01,2.01,3.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/fele-20260904.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000055/fele-20260630.htm
-- 2026-07-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/fele-20260728.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/fele-20260728.htm
-- 2026-05-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000030/fele-20260508.htm
-- 2026-05-04 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000028/fele-20260504.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000026/fele-20260331.htm
-- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000024/fele-20260428.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000022/fele-20260428.htm
-- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000017/fele-20260325.htm
+- 2026-08-19 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000093041326002595/c117477_8k-ixbrl.htm
+- 2026-08-11 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026055694/gff-20260810.htm
+- 2026-08-10 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026055203/gff-20260810.htm
+- 2026-08-07 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026054906/gff-20260807.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/50725/000162828026053536/gff-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026052927/gff-20260805.htm
+- 2026-08-04 **8-K** — items 1.01,2.01,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026052181/gff-20260731.htm
+- 2026-06-11 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000093041326001842/c116668_8k-ixbrl.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/50725/000162828026032347/gff-20260331.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/50725/000162828026031705/gff-20260507.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-08** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, unregistered sale of equity, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/a09042026ex991catpumpscorp.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/a07282026ex991earningspres.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/a20260728ex991earningsrele.htm
+- **2026-08-19** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, new debt obligation, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000093041326002595/c117477_ex99-1.htm
+- **2026-08-19** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, new debt obligation, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000093041326002595/c117477_ex99-2.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026055694/exhibit991purchaseagreement.htm
+- **2026-08-11** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026055694/exhibit992-pressrelease.htm
+- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026055203/griffonlaunchpressrelease.htm
+- **2026-08-07** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026054906/gff-20260807_d2.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026052927/gffq32026exhibit991.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026052181/exhibit991-griffonpressrel.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, completion of an acquisition or disposition, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/50725/000162828026052181/exhibit992-griffoncorporat.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-08** · Franklin Electric Acquires Cat Pumps, Expanding Commercial and Industrial Flow Control Platform — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/franklin-electric-acquires-cat-pumps-130000571.html
-  > Flow control leader adds complementary high-pressure technology, an industry leading brand, and exposure to growing commercial and industrial end markets​ in high uptime applications. Increases exposure to attractive, high growth end-market
-- **2026-08-19** · Here is Why Growth Investors Should Buy Franklin Electric (FELE) Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-growth-investors-buy-franklin-164503198.html
-  > Franklin Electric (FELE) could produce exceptional returns because of its solid growth attributes.
-- **2026-08-13** · All You Need to Know About Franklin Electric (FELE) Rating Upgrade to Buy — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/know-franklin-electric-fele-rating-160004333.html
-  > Franklin Electric (FELE) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).
-- **2026-08-05** · 5 Stocks Ready to Pay You a Dividend in August, but You Must Buy Them Today — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/05/5-stocks-ready-to-pay-you-a-dividend-in-august-but-you-must-buy-them-today/
-  > Five Nasdaq stocks share the same ex-dividend deadline this week, but they are not all worth buying for the same reason, and at least one comes with a warning flag that most income investors will miss.
-- **2026-08-03** · Looking for a Growth Stock? 3 Reasons Why Franklin Electric (FELE) is a Solid Choice — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/looking-growth-stock-3-reasons-164503592.html
-  > Franklin Electric (FELE) could produce exceptional returns because of its solid growth attributes.
-- **2026-08-01** · ABB’s Rotork Deal Could Put These Flow Control Stocks Back in Focus — *MarketBeat* — https://www.marketbeat.com/articles/abbs-rotork-deal-could-put-these-flow-control-stocks-back-in-focus/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > ABB's $5.5 billion Rotork acquisition, its largest ever, highlights flow control's appeal, putting Watts Water Technologies and Franklin Electric in focus as potential beneficiaries or targets.
-- **2026-07-31** · How Upgraded 2026 Sales Guidance And Steady Dividend At Franklin Electric (FELE) Has Changed Its Investment Story — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/upgraded-2026-sales-guidance-steady-221035234.html
-  > Franklin Electric Co., Inc. recently reported past second-quarter 2026 results showing sales of US$622.88 million and net income of US$65.74 million, and it raised its full-year 2026 net sales guidance to a range of US$2.21 billion to US$2.
-- **2026-07-28** · Franklin Electric Co Inc (FELE) Q2 2026 Earnings Call Highlights: Record EPS and Strategic ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/franklin-electric-co-inc-fele-210312990.html
-  > Franklin Electric Co Inc (FELE) reports robust financial performance with a 6% revenue increase and strategic expansions despite global challenges.
-- **2026-07-28** · Franklin Electric Co., Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-franklin-electric-co-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Franklin Electric Co., Inc.'s Q2 2026 earnings call
-- **2026-07-28** · Franklin Electric Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/franklin-electric-q2-earnings-call-highlights-2026-07-28/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Franklin Electric (NASDAQ:FELE) reported higher second-quarter sales and earnings, citing organic growth, price realization, acquisitions and margin expansion efforts across its businesses. The company also raised its full-year sales and ad
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
 - **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
@@ -95,14 +82,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
 - **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 - **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
-- **2026-09-15** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132308929.html
-- **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -116,6 +101,7 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Industrials
+- ACHR: no_model · price $5.71
 - ATKR: no_model · price $94.32
 - CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
 - CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
@@ -123,11 +109,10 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
 - ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
 - EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
 - GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
-- HRI: no_edge · price $140.96 · fair value $114.72 · gap -18.6%
-- HUBG: no_model · price $33.45
 
 ---
 

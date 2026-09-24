@@ -1,57 +1,66 @@
-# ASC — ARDMORE SHIPPING CORP
-*Energy · brief generated 2026-09-24 · selected as **opportunistic***
+# CRC — CALIFORNIA RESOURCES
+*Energy · brief generated 2026-09-24 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 4% of 52 Energy peers (96th pct)
-- baseline gap +220%
-- Energy is in the news
-- Energy sector selloff (median -5.9%)
-- never researched
-- urgency score 6.85
+- rotation position 236/1956
 
 ## Market
 | | |
 |---|---|
-| price | $17.61 |
-| market cap | $717.3M |
-| 5d / 21d / 63d / 252d | -6.0% / +0.2% / +3.0% / +49.4% |
-| 60d avg daily $ volume | $10.0M |
-| beta (vs IWM) | None (R²=0.002) · **sector_median** |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-03-31 (6-K) |
-| WACC weights | equity 87% / debt 13% |
+| price | $52.10 |
+| market cap | $4.6B |
+| 5d / 21d / 63d / 252d | -9.6% / -1.4% / -0.8% / -2.5% |
+| 60d avg daily $ volume | $44.0M |
+| beta (vs IWM) | 0.51 (R²=0.072) |
+| 5d volume vs 60d average | 1.3x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 77% / debt 23% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$138.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$81.6M', '$160.4M', '$159.1M']
-Enterprise value **$796.5M** · FCFF yield **+17.4%**
+Normalized FCFF base **$455.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$543.0M', '$355.0M', '$468.0M']
+Enterprise value **$6.0B** · FCFF yield **+7.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.4% − 1pt | -19.8% |
-| **9.4% (point)** | **-17.3%** |
-| 9.4% + 1pt | -14.9% |
+| 7.1% − 1pt | -11.3% |
+| **7.1% (point)** | **-7.1%** |
+| 7.1% + 1pt | -3.4% |
 
 
-Naive baseline for comparison: **+7.1%** (5y revenue CAGR +7.1%).
-Gap under that baseline: **+219.9%** (fair value $56.34 vs price $17.61).
+Naive baseline for comparison: **+25.0%** (5y revenue CAGR +89.0% (clamped to +25.0%)).
+Gap under that baseline: **+375.8%** (fair value $247.91 vs price $52.10).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **96th percentile** of 52 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +212.2%).
+Cohort: **100th percentile** of 52 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +368.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `beta_from_sector_median_0.89(unreliable_r2_0.002_raw_0.10)`
-- `possible_trough_cycle_base_newest_fcf_0.51x_oldest_growth_applied_to_a_trough_understates_value`
+- `extreme_gap_+376%_treat_as_suspected_data_error`
 
 ## Recent filings
+- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000130/crc-20260630.htm
+- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000127/crc-20260810.htm
+- 2026-07-14 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000122/crc-20260714.htm
+- 2026-06-26 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000120/crc-20260626.htm
+- 2026-06-16 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000116/crc-20260616.htm
+- 2026-06-16 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000114/crc-20260616.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000106/crc-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000102/crc-20260430.htm
+- 2026-04-17 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000086/crc-20260414.htm
+- 2026-03-23 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000084/crc-20260323.htm
 
 ## Earnings materials (8-K exhibits)
-*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
+*The press release and presentation as filed. EX-99.2 is usually the deck.*
+
+- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000127/a2026q2erex991.htm
+- **2026-06-16** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000116/a202606162ex991.htm
+- **2026-06-16** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000114/ex991-20260616.htm
+- **2026-06-16** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1609253/000160925326000114/ex992-20260616.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -59,6 +68,8 @@ Attack these before you trust any number above.
 ## What is happening in Energy
 *From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Sector Update: Energy Stocks Rise Premarket Thursday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132622226.html
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-23** · Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/steve-weiss-dumped-an-energy-stock-that-tripled-the-sp-500-over-a-decade/
 - **2026-09-23** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195603421.html
 - **2026-09-23** · Sector Update: Energy Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-wednesday-180336346.html
@@ -67,14 +78,12 @@ Attack these before you trust any number above.
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · EQT Corporation Stock: Is EQT Underperforming the Energy Sector? — *Barchart* — https://www.barchart.com/story/news/4750582/eqt-corporation-stock-is-eqt-underperforming-the-energy-sector
 - **2026-09-22** · Sector Update: Energy Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-200356035.html
-- **2026-09-22** · Sector Update: Energy Stocks Mixed Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-tuesday-180051023.html
-- **2026-09-22** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171035923.html
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -89,17 +98,17 @@ Attack these before you trust any number above.
 
 ## Prior verdicts elsewhere in Energy
 - AROC: no_edge · price $32.96 · fair value $34.64 · gap +5.1%
+- ASC: no_edge · price $17.61
 - CNX: no_edge · price $35.91 · fair value $53.11 · gap +47.9%
 - HP: no_edge · price $40.91
 - LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
 - MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
 - NVGS: no_model · price $25.06
+- PARR: no_edge · price $76.97
 - PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
 - RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
 - RIG: no_model · price $5.76
 - SM: no_edge · price $37.76 · fair value $51.19 · gap +35.6%
-- SND: no_edge · price $5.35
-- TDW: no_edge · price $100.61 · fair value $102.25 · gap +1.6%
 
 ---
 

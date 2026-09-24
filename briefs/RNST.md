@@ -1,80 +1,68 @@
-# IMXI — INTERNATIONAL MONEY EXPRESS INC
-*Financials · brief generated 2026-09-24 · selected as **opportunistic***
+# RNST — RENASANT CORP
+*Financials · brief generated 2026-09-24 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 4% of 339 Financials peers (96th pct)
-- baseline gap +97%
-- 5d move -17%
-- 21d move -19%
-- Financials is in the news
-- never researched
-- urgency score 6.97
+- rotation position 238/1956
 
 ## Market
 | | |
 |---|---|
-| price | $11.43 |
-| market cap | $345.3M |
-| 5d / 21d / 63d / 252d | -17.1% / -19.1% / -16.8% / -20.6% |
-| 60d avg daily $ volume | $7.2M |
-| beta (vs IWM) | 1.05 (R²=0.145) |
-| 5d volume vs 60d average | 1.4x |
+| price | $39.70 |
+| market cap | $3.6B |
+| 5d / 21d / 63d / 252d | -2.5% / -3.8% / -6.6% / +6.2% |
+| 60d avg daily $ volume | $27.3M |
+| beta (vs IWM) | 1.01 (R²=0.508) |
+| 5d volume vs 60d average | 1.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 75% / debt 25% |
+| WACC weights | equity 82% / debt 18% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +76.2% |
-| cost of equity | +10.9% |
-| justified P/TBV | 8.32 |
-| actual P/TBV | 4.23 |
-| tangible book / share | $2.70 |
-| implied gap | +96.8% |
+| sustainable ROTCE | +10.2% |
+| cost of equity | +10.7% |
+| justified P/TBV | 0.95 |
+| actual P/TBV | 1.56 |
+| tangible book / share | $25.52 |
+| implied gap | -39.1% |
 
-Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +130.9%).
+Cohort: **46th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -4.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_48%_of_book`
-- `unstable_rotce_40.0%_to_111.2%`
-- `rotce_76%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
+- `goodwill_and_intangibles_40%_of_book`
 
 ## Recent filings
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1683695/000162828026055191/imxi-20260630.htm
-- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1683695/000162828026033174/imxi-20260331.htm
-- 2026-03-06 **10-K** — https://www.sec.gov/Archives/edgar/data/1683695/000162828026015647/imxi-20251231.htm
-- 2025-12-09 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1683695/000114036125044991/ef20060920_8k.htm
-- 2025-11-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/1683695/000162828025051013/imxi-20250930.htm
-- 2025-10-07 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1683695/000114036125037505/ef20056756_8k.htm
-- 2025-08-11 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1683695/000114036125030254/ef20053740_8k.htm
-- 2025-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1683695/000168369525000100/imxi-20250630.htm
-- 2025-08-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1683695/000168369525000098/imxi-20250811.htm
-- 2025-08-11 **8-K** — items 1.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1683695/000114036125029957/ef20053638_8k.htm
+- 2026-08-25 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000079/rnst-20260820.htm
+- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000075/rnst-20260806.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/715072/000071507226000072/rnst-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/rnst-20260728.htm
+- 2026-05-15 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000053/rnst-20260515.htm
+- 2026-05-07 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000119312526212391/d145081d8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/715072/000071507226000046/rnst-20260331.htm
+- 2026-05-01 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000042/rnst-20260428.htm
+- 2026-04-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000119312526194318/d111977d8k.htm
+- 2026-04-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000036/rnst-20260428.htm
 
 ## Earnings materials (8-K exhibits)
-*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
+*The press release and presentation as filed. EX-99.2 is usually the deck.*
+
+- **2026-08-25** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000079/renasantcfopressrelease.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000075/rnstq22026investorpresen.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/exhibit991_rnstx2q2026earn.htm
+- **2026-07-28** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/rnstq22026earningsdeck.htm
 
 ## News on this company — last 90 days
-*5 items held; showing the 5 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-17** · Western Union navigates challenges — *Payments Dive* — https://www.paymentsdive.com/news/western-union-navigates-challenges/827976/
-  > The company is dealing with turmoil from the shift to digital money transfers as it seeks regulatory approvals for a $500 million deal for rival Intermex.
-- **2026-08-14** · Sector Update: Financial Stocks Edge Lower Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-lower-195659801.html
-  > Financial stocks were slightly lower in late Friday afternoon trading, with the NYSE Financial Index
-- **2026-08-14** · Western Union and Intermex Provide Update on Pending Acquisition — *Business Wire* — https://finance.yahoo.com/markets/currencies/articles/western-union-intermex-pending-acquisition-041400288.html
-  > DENVER & MIAMI, August 14, 2026--The Western Union Company (NYSE: WU) and International Money Express, Inc. (Intermex) (NASDAQ: IMXI) today provided an update regarding regulatory approvals for Western Union’s pending acquisition of Interme
-- **2026-08-12** · Western Union's LatAm strategy faces fintech pressure — *American Banker* — https://www.americanbanker.com/payments/news/western-unions-latam-strategy-faces-pressure
-  > Amid threats from immigration policy and emerging fintechs, International Money Express, a global remittance company and $500 million acquisition target for Western Union, reported a 18% year-over-year decline in revenue in the second quart
-- **2026-08-06** · This Stock Can Rally 35% as It Disrupts Global Remittance Markets — *Barrons.com* — https://www.barrons.com/articles/buy-remitly-global-stock-price-pick-40fee1c2?siteid=yhoof2&yptr=yahoo
-  > For millions of immigrants and expats worldwide, sending money abroad is a financial lifeline. The global remittance market exceeds $900 billion a year and continues to grow, according to World Bank data. Seattle-based Remitly Global with a
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
 - **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
 - **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
@@ -83,14 +71,12 @@ Attack these before you trust any number above.
 - **2026-09-23** · Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
-- **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
-- **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -115,7 +101,7 @@ Attack these before you trust any number above.
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
+- DAVE: no_model · price $326.19
 
 ---
 

@@ -1,96 +1,101 @@
-# SLDE — SLIDE INSURANCE HOLDINGS
+# BBT — BEACON FINANCIAL
 *Financials · brief generated 2026-09-24 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 339 Financials peers (96th pct)
-- baseline gap +98%
-- 5d move -13%
-- 1 news items in the last 5 days
+- richest 1% of its cohort
+- baseline gap -254%
+- 5d move -11%
+- 21d move -12%
+- filed an 8-K in the last few sessions
+- 2 news items in the last 5 days
 - Financials is in the news
 - never researched
-- urgency score 6.85
+- urgency score 6.54
 
 ## Market
 | | |
 |---|---|
-| price | $22.96 |
-| market cap | $2.7B |
-| 5d / 21d / 63d / 252d | -13.3% / +1.0% / +31.8% / +56.5% |
-| 60d avg daily $ volume | $27.9M |
-| beta (vs IWM) | None (R²=0.006) · **sector_median** |
-| 5d volume vs 60d average | 1.7x |
+| price | $27.91 |
+| market cap | $2.3B |
+| 5d / 21d / 63d / 252d | -10.9% / -11.8% / -6.7% / +15.5% |
+| 60d avg daily $ volume | $25.3M |
+| beta (vs IWM) | 0.9 (R²=0.382) |
+| 5d volume vs 60d average | 1.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 99% / debt 1% |
+| WACC weights | equity 72% / debt 28% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +40.0% |
-| cost of equity | +9.9% |
-| justified P/TBV | 4.78 |
-| actual P/TBV | 2.42 |
-| tangible book / share | $9.51 |
-| implied gap | +97.8% |
+| sustainable ROTCE | -12.9% |
+| cost of equity | +10.1% |
+| justified P/TBV | -1.84 |
+| actual P/TBV | 1.2 |
+| tangible book / share | $23.32 |
+| implied gap | -254.0% |
 
-Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +131.9%).
+Cohort: **1th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -219.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `beta_from_sector_median_0.88(unreliable_r2_0.006_raw_0.21)`
-- `rotce_40%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here`
+- `unstable_rotce_-53.7%_to_10.3%`
+- `loss_year_in_window`
 
 ## Recent filings
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526326333/slde-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526321067/slde-20260728.htm
-- 2026-07-27 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526318080/slde-20260727.htm
-- 2026-06-10 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526265969/slde-20260610.htm
-- 2026-06-04 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526256573/slde-20260604.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526197194/slde-20260331.htm
-- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187126/slde-20260428.htm
-- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187093/slde-20260428.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526187047/slde-20260428.htm
-- 2026-03-23 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1886428/000119312526119766/slde-20260323.htm
+- 2026-09-21 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1108134/000119312526396127/d145233d8k.htm
+- 2026-08-20 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1108134/000110465926099244/tm2623534d1_8k.htm
+- 2026-08-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1108134/000110465926095466/tm2622869d1_8k.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1108134/000162828026054720/bbt-20260630.htm
+- 2026-08-03 **8-K** — items 5.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1108134/000117184326005142/f8k_080126.htm
+- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1108134/000117184326005016/f8k_072926.htm
+- 2026-07-10 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1108134/000110465926082659/tm2619549d1_8k.htm
+- 2026-05-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1108134/000110465926062720/tm2614794d1_8k.htm
+- 2026-05-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1108134/000162828026033186/bbt-20260331.htm
+- 2026-05-07 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1108134/000110465926057108/tm2613943d1_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1886428/000119312526321067/slde-ex99_1.htm
-- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1886428/000119312526318080/slde-ex99_1.htm
+- **2026-09-21** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1108134/000119312526396127/d145233dex991.htm
+- **2026-08-13** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1108134/000110465926095466/tm2622869d1_ex99-1.htm
+- **2026-08-03** · EX-99.1 · press release — PRESS RELEASE *(item: officer or director change, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1108134/000117184326005142/exh_991.htm
+- **2026-07-29** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1108134/000117184326005016/exh_991.htm
+- **2026-07-29** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1108134/000117184326005016/exh_992.htm
 
 ## News on this company — last 90 days
-*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-21** · Best Value Stocks to Buy for September 21st — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-101700554.html
-  > SLDE, HHH and NVST made it to the Zacks Rank #1 (Strong Buy) value stocks list on September 21st, 2026.
-- **2026-09-15** · Slide Insurance Holdings, Inc. (SLDE) Hits Fresh High: Is There Still Room to Run? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-131534410.html
-  > Slide Insurance Holdings, Inc. (SLDE) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
-- **2026-09-02** · Best Value Stocks to Buy for September 2nd — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-080000006.html
-  > LCUT, SLDE and HMN made it to the Zacks Rank #1 (Strong Buy) value stocks list on September 2, 2026.
-- **2026-08-25** · Best Value Stocks to Buy for August 25th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-august-105500789.html
-  > SLDE, LEG and THC made it to the Zacks Rank #1 (Strong Buy) value stocks list on August 25th, 2026.
-- **2026-08-24** · Slide Insurance Holdings, Inc. (SLDE) Hits Fresh High: Is There Still Room to Run? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-131503140.html
-  > Slide Insurance Holdings, Inc. (SLDE) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.
-- **2026-08-13** · Surging Earnings Estimates Signal Upside for Slide Insurance Holdings, Inc. (SLDE) Stock — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-162002600.html
-  > Slide Insurance Holdings, Inc. (SLDE) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions.
-- **2026-08-06** · Wall Street Analysts Think Slide Insurance Holdings, Inc. (SLDE) Could Surge 25.36%: Read This Before Placing a Bet — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-slide-135502196.html
-  > The average of price targets set by Wall Street analysts indicates a potential upside of 25.4% in Slide Insurance Holdings, Inc. (SLDE). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earni
-- **2026-08-04** · New Strong Buy Stocks for August 4th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-august-4th-094700481.html
-  > CTXAY, PICS, SLDE, AMD and RS have been added to the Zacks Rank #1 (Strong Buy) List on August 4th, 2026.
-- **2026-08-04** · Best Value Stocks to Buy for August 4th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-august-090500190.html
-  > SLDE, PICS and BOOT made it to the Zacks Rank #1 (Strong Buy) value stocks list on August 4th, 2026.
-- **2026-07-29** · Slide Insurance Holdings Inc (SLDE) Q2 2026 Earnings Call Highlights: Record Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-inc-slde-210152422.html
-  > Slide Insurance Holdings Inc (SLDE) reports impressive financial performance with a 92.4% increase in net income and strategic market expansions in California and the Northeast.
-- **2026-07-29** · Slide Insurance Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/slide-insurance-q2-earnings-call-highlights-2026-07-29/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Slide Insurance (NASDAQ:SLDE) reported second-quarter net income of $134.9 million, up 92.4% from $70.1 million a year earlier, as gross written premiums increased and the company’s combined ratio improved. Diluted earnings per share were $
-- **2026-07-29** · Slide Insurance Holdings (SLDE) Starts Its First Quarterly Dividend At $0.07 A Share — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/slide-insurance-holdings-slde-starts-120809996.html
-  > Slide Insurance Holdings (NasdaqGS:SLDE) has initiated its first quarterly dividend following its Q2 2026 results. The decision marks the company’s shift toward a recurring cash return policy for shareholders. The new dividend introduces an
+- **2026-09-22** · Boston’s Beacon names next CEO a year after merger — *Banking Dive* — https://www.bankingdive.com/news/beacon-names-coo-sean-gray-ceo-perrault-retires-brookline-berkshire-merger/830979/
+  > Sean Gray served as chief operating officer at Beacon and as president and COO of predecessor Berkshire Bank. Beacon CEO Paul Perrault retired Monday.
+- **2026-09-21** · Beacon Financial Corporation Announces CEO Transition: Sean A. Gray Appointed Chief Executive Officer; Paul A. Perrault to Retire — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-corporation-announces-ceo-123000466.html
+  > BOSTON, Sept. 21, 2026 (GLOBE NEWSWIRE) -- Beacon Financial Corporation (NYSE: BBT) (the “Company”), the holding company of Beacon Bank (the “Bank”), today announced that the joint Board of Directors of the Company and the Bank unanimously 
+- **2026-09-09** · Regional Bank CEO Sells 4,333 Shares As a Result of Tax Withholding — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/09/regional-bank-ceo-sells-4-333-shares-as-a-result-of-tax-withholding/
+  > Shares were withheld automatically to cover tax obligations tied to restricted stock vesting, a non-discretionary event that doesn't signal any change in the executive's outlook.
+- **2026-08-15** · Beacon Financial (BBT) Stock Trades At A Discount To Fair Value But A Premium On Earnings — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-bbt-stock-trades-170856464.html
+  > Beacon Financial stock has returned 32.7% over the past year, yet the valuation work gives a mixed message, with the Excess Returns intrinsic value estimate pointing to upside while the market based multiples look broadly in line with peers
+- **2026-08-13** · Are Options Traders Betting on a Big Move in Beacon Financial Stock? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-traders-betting-big-move-125000658.html
+  > Investors need to pay close attention to BBT stock based on the movements in the options market lately.
+- **2026-08-07** · Beacon Financial Corp (BBT) (Q2 2026) Earnings Call Highlights: Strong Earnings Beat and Margin ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-corp-bbt-q2-010233049.html
+  > GAAP EPS jumps to $0.77 with robust capital growth, though loan runoff and credit costs temper the outlook.
+- **2026-08-03** · Beacon Financial Corporation Appoints John B. Eagan General Counsel & Corporate Secretary — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-corporation-appoints-john-123000978.html
+  > BOSTON, Aug. 03, 2026 (GLOBE NEWSWIRE) -- Beacon Financial Corporation (NYSE: BBT) (the "Company") today announced the appointment of John B. Eagan to the role of General Counsel and Corporate Secretary of Beacon Financial Corporation and B
+- **2026-07-30** · Beacon Financial Corp. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-beacon-financial-corp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Beacon Financial Corp.'s Q2 2026 earnings call
+- **2026-07-29** · Compared to Estimates, Beacon (BBT) Q2 Earnings: A Look at Key Metrics — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/compared-estimates-beacon-bbt-q2-230004364.html
+  > While the top- and bottom-line numbers for Beacon (BBT) give a sense of how the business performed in the quarter ended June 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values
+- **2026-07-29** · Beacon Financial (BBT) Q2 Earnings Meet Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-bbt-q2-earnings-222505903.html
+  > Beacon (BBT) delivered earnings and revenue surprises of 0.00% and -1.43%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-29** · Beacon Financial Corporation Announces Second Quarter Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/beacon-financial-corporation-announces-second-200500168.html
+  > Net Income of $64.4 million, EPS of $0.77 Quarterly Dividend of $0.3225 BOSTON, July 29, 2026 (GLOBE NEWSWIRE) -- Beacon Financial Corporation (NYSE: BBT) (the “Company”) today announced net income of $64.4 million, or $0.77 per basic and d
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
 - **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
 - **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
@@ -99,14 +104,12 @@ Attack these before you trust any number above.
 - **2026-09-23** · Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
-- **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
-- **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
 
 ## Market and macro context
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
-- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
-- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
+- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
+- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
+- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
+- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
 
 *Rules, releases and agency actions:*
 - **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
@@ -131,7 +134,7 @@ Attack these before you trust any number above.
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- EBC: no_edge · price $21.86 · fair value $18.60 · gap -14.9%
+- DAVE: no_model · price $326.19
 
 ---
 
