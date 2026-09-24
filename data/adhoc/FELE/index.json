@@ -1,0 +1,160 @@
+{
+  "fetched_utc": "2026-09-24T11:32:32+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "FELE",
+    "cik": 38725,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "1.01,2.01,3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/fele-20260904.htm",
+        "file": "2026-09-08-8-K-fele-20260904.htm.txt",
+        "chars": 9520,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000055/fele-20260630.htm",
+        "file": "2026-07-29-10-Q-fele-20260630.htm.txt",
+        "chars": 115636,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/fele-20260728.htm",
+        "file": "2026-07-28-8-K-fele-20260728.htm.txt",
+        "chars": 3614,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/fele-20260728.htm",
+        "file": "2026-07-28-8-K-fele-20260728.htm.txt",
+        "chars": 3304,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000030/fele-20260508.htm",
+        "file": "2026-05-11-8-K-fele-20260508.htm.txt",
+        "chars": 4819,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000028/fele-20260504.htm",
+        "file": "2026-05-04-8-K-fele-20260504.htm.txt",
+        "chars": 3253,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000026/fele-20260331.htm",
+        "file": "2026-04-29-10-Q-fele-20260331.htm.txt",
+        "chars": 94090,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-28",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000024/fele-20260428.htm",
+        "file": "2026-04-28-8-K-fele-20260428.htm.txt",
+        "chars": 3617,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-08",
+        "items": [
+          "1.01",
+          "2.01",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/a09042026ex991catpumpscorp.htm",
+        "file": "2026-09-08-EX-99.1.txt",
+        "chars": 9689,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/a07282026ex991earningspres.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 51,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/a20260728ex991earningsrele.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 16618,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-28",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000024/a04282026ex991earningspres.htm",
+        "file": "2026-04-28-EX-99.1.txt",
+        "chars": 51,
+        "truncated": false
+      }
+    ]
+  }
+}

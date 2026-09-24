@@ -1,0 +1,196 @@
+{
+  "fetched_utc": "2026-09-24T11:32:51+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "PARR",
+    "cik": 821483,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-25",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/parr20260825_8k.htm",
+        "file": "2026-08-25-8-K-parr20260825_8k.htm.txt",
+        "chars": 6864,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000082148326000014/parr-20260630.htm",
+        "file": "2026-08-05-10-Q-parr-20260630.htm.txt",
+        "chars": 230229,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/parr-20260804.htm",
+        "file": "2026-08-05-8-K-parr-20260804.htm.txt",
+        "chars": 3541,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "1.01,2.03,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm",
+        "file": "2026-05-14-8-K-d176382d8k.htm.txt",
+        "chars": 12440,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629d8k.htm",
+        "file": "2026-05-11-8-K-d49629d8k.htm.txt",
+        "chars": 5392,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000082148326000010/parr-20260331.htm",
+        "file": "2026-05-06-10-Q-parr-20260331.htm.txt",
+        "chars": 177131,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/parr-20260505.htm",
+        "file": "2026-05-05-8-K-parr-20260505.htm.txt",
+        "chars": 3529,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926014568/parr20260501_8k.htm",
+        "file": "2026-05-04-8-K-parr20260501_8k.htm.txt",
+        "chars": 5587,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-25",
+        "items": [
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/ex_1009087.htm",
+        "file": "2026-08-25-EX-99.1.txt",
+        "chars": 3984,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/a20260630991earningsreleas.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 44370,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-14",
+        "items": [
+          "1.01",
+          "2.03",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "new debt obligation",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382dex991.htm",
+        "file": "2026-05-14-EX-99.1.txt",
+        "chars": 2981,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-11",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629dex991.htm",
+        "file": "2026-05-11-EX-99.1.txt",
+        "chars": 4699,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-11",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629dex992.htm",
+        "file": "2026-05-11-EX-99.2.txt",
+        "chars": 25523,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/a20260331991earningsreleas.htm",
+        "file": "2026-05-05-EX-99.1.txt",
+        "chars": 38926,
+        "truncated": false
+      }
+    ]
+  }
+}

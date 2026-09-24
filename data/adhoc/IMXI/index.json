@@ -1,0 +1,82 @@
+{
+  "fetched_utc": "2026-09-24T11:32:46+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "IMXI",
+    "cik": 1683695,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000162828026055191/imxi-20260630.htm",
+        "file": "2026-08-10-10-Q-imxi-20260630.htm.txt",
+        "chars": 177649,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000162828026033174/imxi-20260331.htm",
+        "file": "2026-05-11-10-Q-imxi-20260331.htm.txt",
+        "chars": 162382,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000162828026015647/imxi-20251231.htm",
+        "file": "2026-03-06-10-K-imxi-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2025-12-09",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000114036125044991/ef20060920_8k.htm",
+        "file": "2025-12-09-8-K-ef20060920_8k.htm.txt",
+        "chars": 10481,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000162828025051013/imxi-20250930.htm",
+        "file": "2025-11-10-10-Q-imxi-20250930.htm.txt",
+        "chars": 201854,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2025-10-07",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000114036125037505/ef20056756_8k.htm",
+        "file": "2025-10-07-8-K-ef20056756_8k.htm.txt",
+        "chars": 11810,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2025-08-11",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000114036125030254/ef20053740_8k.htm",
+        "file": "2025-08-11-8-K-ef20053740_8k.htm.txt",
+        "chars": 11242,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683695/000168369525000100/imxi-20250630.htm",
+        "file": "2025-08-11-10-Q-imxi-20250630.htm.txt",
+        "chars": 200398,
+        "truncated": false
+      }
+    ]
+  }
+}
