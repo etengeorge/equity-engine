@@ -1,5 +1,41 @@
 [
  {
+  "id": "06d41d24-c344-3cb8-b91c-33411d2491a1",
+  "ts": "2026-09-23T21:49:19+00:00",
+  "title": "CRSP, NTLA, BEAM, PRME, EDIT Shares Slip \u2014 Did Claude Just Spook Gene-Editing Stocks?",
+  "summary": "CRSP shares closed down 6% on Wednesday, while PRME and EDIT stocks declined 12% and 8%, respectively.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/crsp-ntla-beam-prme-edit-shares-slip-did-claude-just-spook-gene-editing-stocks/cZM4eZORBBa",
+  "tickers": [
+   "EDIT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "31f0594e-2bcd-3672-b338-8a13cbbbfeb3",
+  "ts": "2026-09-23T13:49:52+00:00",
+  "title": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "summary": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-upgraded-hubspot-initiated-wall-134952467.html",
+  "tickers": [
+   "EDIT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d94e281d-f1ba-34c6-b5f5-2ec5017746e4",
+  "ts": "2026-09-23T12:22:45+00:00",
+  "title": "CRISPR Therapeutics Traded Sideways and Down for 12 Months: One Wall Street Pro Expects 85% Gains Soon",
+  "summary": "CRISPR Therapeutics owns the only approved gene therapy of its kind, yet the stock sits far below where Wall Street thinks it belongs. One analyst sees a path to gains that would embarrass the broader market, but the numbers tell a complicated story.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/crispr-therapeutics-traded-sideways-and-down-for-12-months-one-wall-street-pro-expects-85-gains-soon/",
+  "tickers": [
+   "EDIT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "6a34d03a-5b2b-3f98-8684-e610fc2997c2",
   "ts": "2026-09-12T01:01:58+00:00",
   "title": "Editas Medicine Targets 2026 Patient Dosing for LDL Gene-Editing Therapy",

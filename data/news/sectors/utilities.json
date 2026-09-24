@@ -1,5 +1,19 @@
 [
  {
+  "id": "da279bf2-c1ba-34ef-9de4-6eb9789e7b7a",
+  "ts": "2026-09-23T10:34:59+00:00",
+  "title": "NiSource Stock: Is NI Outperforming the Utilities Sector?",
+  "summary": "Despite NI\u2019s decline over the past year, the stock has held up better than the broader utility sector, and analysts remain strongly optimistic about its prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4750785/nisource-stock-is-ni-outperforming-the-utilities-sector",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "63ce72bf-cd4e-3063-a1e8-55e22cd7d0af",
   "ts": "2026-09-22T21:25:45+00:00",
   "title": "America\u2019s Power Buildout Is Accelerating. These 3 ETFs Invest in the Infrastructure",

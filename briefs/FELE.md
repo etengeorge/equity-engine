@@ -1,86 +1,88 @@
-# SKYW — SKYWEST
-*Industrials · brief generated 2026-09-23 · selected as **rotation***
+# FELE — FRANKLIN ELECTRIC
+*Industrials · brief generated 2026-09-24 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 223/1956
+- rotation position 232/1956
 
 ## Market
 | | |
 |---|---|
-| price | $100.20 |
-| market cap | $3.9B |
-| 5d / 21d / 63d / 252d | +3.2% / -0.6% / +7.6% / -4.1% |
-| 60d avg daily $ volume | $40.0M |
-| beta (vs IWM) | 1.09 (R²=0.358) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 63% / debt 37% |
+| price | $96.30 |
+| market cap | $4.3B |
+| 5d / 21d / 63d / 252d | +0.4% / -7.5% / -6.8% / +2.1% |
+| 60d avg daily $ volume | $28.1M |
+| beta (vs IWM) | 0.79 (R²=0.4) |
+| 5d volume vs 60d average | 1.6x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 95% / debt 5% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$470.5M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$391.4M', '$253.2M', '$472.4M']
-Enterprise value **$5.6B** · FCFF yield **+8.4%**
+Normalized FCFF base **$237.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$193.5M', '$219.7M', '$274.3M']
+Enterprise value **$4.4B** · FCFF yield **+5.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.9% − 1pt | -6.3% |
-| **8.9% (point)** | **-3.0%** |
-| 8.9% + 1pt | +0.0% |
+| 9.2% − 1pt | +4.8% |
+| **9.2% (point)** | **+8.5%** |
+| 9.2% + 1pt | +11.8% |
 
 
-Naive baseline for comparison: **+13.8%** (5y revenue CAGR +13.8%).
-Gap under that baseline: **+148.2%** (fair value $248.65 vs price $100.20).
+Naive baseline for comparison: **+11.3%** (5y revenue CAGR +11.3%).
+Gap under that baseline: **+12.8%** (fair value $108.63 vs price $96.30).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **95th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +170.8%).
+Cohort: **67th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +35.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-07-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/793733/000110465926086641/skyw-20260630x10q.htm
-- 2026-07-23 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/793733/000110465926086251/skyw-20260723x8k.htm
-- 2026-05-07 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/793733/000110465926057092/skyw-20260505x8k.htm
-- 2026-04-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/793733/000110465926048542/skyw-20260331x10q.htm
-- 2026-04-23 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793733/000110465926047674/skyw-20260423x8k.htm
-- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/793733/000110465926034497/skyw-20260505xdef14a.htm
-- 2026-02-17 **10-K** — https://www.sec.gov/Archives/edgar/data/793733/000110465926016358/skyw-20251231x10k.htm
-- 2026-01-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793733/000110465926007962/skyw-20260129x8k.htm
-- 2025-10-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/793733/000110465925104919/skyw-20250930x10q.htm
-- 2025-10-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/793733/000110465925104349/skyw-20251030x8k.htm
+- 2026-09-08 **8-K** — items 1.01,2.01,3.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/fele-20260904.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000055/fele-20260630.htm
+- 2026-07-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/fele-20260728.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/fele-20260728.htm
+- 2026-05-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000030/fele-20260508.htm
+- 2026-05-04 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000028/fele-20260504.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000026/fele-20260331.htm
+- 2026-04-28 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000024/fele-20260428.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/38725/000003872526000022/fele-20260428.htm
+- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/38725/000003872526000017/fele-20260325.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/793733/000110465926086251/skyw-20260723xex99d1.htm
+- **2026-09-08** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, unregistered sale of equity, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000062/a09042026ex991catpumpscorp.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/a07282026ex991earningspres.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/a20260728ex991earningsrele.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-08-26** · Does SkyWest's Lower Valuation Indicate a Buying Opportunity? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/does-skywests-lower-valuation-indicate-165800068.html
-  > With SKYW shares moving north, we assess the current positioning of the stock to determine if it's a good investment at this juncture.
-- **2026-08-12** · SkyWest Jumps 11% in Past Month. Can SKYW Keep the Momentum Going? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/skywest-jumps-11-past-month-182800254.html
-  > SKYW shares rose 11% in a month as production and fleet commitments grew, though higher costs and maintenance constraints pressured earnings.
-- **2026-08-02** · Three SkyWest Executives Sold Stock in Three Days. Here's What Long-Term Investors Should Know — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/02/three-skywest-executives-sold-stock-in-three-days-here-s-what-long-term-investors-should-know/
-  > Wooley disposed of 17,726 shares at $108.55 each, cutting his direct stake by a quarter while retaining $5.77 million in equity.
-- **2026-08-02** · SkyWest Is Buying Back Stock While Its Executives Sell. Here's How to Read It — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/02/skywest-is-buying-back-stock-while-its-executives-sell-here-s-how-to-read-it/
-  > Insider liquidated 21% of direct holdings at $110.49 per share, above the day's closing price, while retaining $10.2 million in company stock.
-- **2026-08-02** · SkyWest's CEO Just Sold $5.7 Million in Stock. Here's What Long-Term Investors Should Know — *Motley Fool* — https://www.fool.com/coverage/filings/2026/08/02/skywest-s-ceo-just-sold-usd5-7-million-in-stock-here-s-what-long-term-investors-should-know/
-  > The insider liquidation trimmed his equity stake by 12% while stock trades near flat on the year.
-- **2026-07-29** · Investors Heavily Search SkyWest, Inc. (SKYW): Here is What You Need to Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-skywest-inc-130005852.html
-  > SkyWest (SKYW) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.
-- **2026-07-28** · SkyWest (SKYW) Expands Its Buyback After Earnings, Is The Stock Still Cheap? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/skywest-skyw-expands-buyback-earnings-001627614.html
-  > Why SkyWest’s latest earnings and buyback move matter for investors SkyWest (SKYW) has just combined a second quarter earnings update with a larger share repurchase authorization, giving investors fresh information on profitability, capital
-- **2026-07-27** · The Bull Case For SkyWest (SKYW) Could Change Following Softer Earnings And A Larger Buyback Plan — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/bull-case-skywest-skyw-could-210915390.html
-  > Earlier this month, SkyWest, Inc. reported second-quarter 2026 results showing revenue of US$1,102.75 million and net income of US$100.7 million, alongside lower earnings per share than a year ago. At the same time, SkyWest continued to buy
-- **2026-07-27** · SkyWest Shares Rise 7.7% Since Second-Quarter 2026 Earnings Release — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/skywest-shares-rise-7-7-165200731.html
-  > SKYW shares rise 7.7% after Q2 results despite earnings and revenue misses, as fleet expansion and buybacks support investor sentiment.
-- **2026-07-24** · Is It Worth Investing in SkyWest (SKYW) Based on Wall Street's Bullish Views? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/worth-investing-skywest-skyw-based-133003561.html
-  > Based on the average brokerage recommendation (ABR), SkyWest (SKYW) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the s
+- **2026-09-08** · Franklin Electric Acquires Cat Pumps, Expanding Commercial and Industrial Flow Control Platform — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/franklin-electric-acquires-cat-pumps-130000571.html
+  > Flow control leader adds complementary high-pressure technology, an industry leading brand, and exposure to growing commercial and industrial end markets​ in high uptime applications. Increases exposure to attractive, high growth end-market
+- **2026-08-19** · Here is Why Growth Investors Should Buy Franklin Electric (FELE) Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/why-growth-investors-buy-franklin-164503198.html
+  > Franklin Electric (FELE) could produce exceptional returns because of its solid growth attributes.
+- **2026-08-13** · All You Need to Know About Franklin Electric (FELE) Rating Upgrade to Buy — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/know-franklin-electric-fele-rating-160004333.html
+  > Franklin Electric (FELE) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).
+- **2026-08-05** · 5 Stocks Ready to Pay You a Dividend in August, but You Must Buy Them Today — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/05/5-stocks-ready-to-pay-you-a-dividend-in-august-but-you-must-buy-them-today/
+  > Five Nasdaq stocks share the same ex-dividend deadline this week, but they are not all worth buying for the same reason, and at least one comes with a warning flag that most income investors will miss.
+- **2026-08-03** · Looking for a Growth Stock? 3 Reasons Why Franklin Electric (FELE) is a Solid Choice — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/looking-growth-stock-3-reasons-164503592.html
+  > Franklin Electric (FELE) could produce exceptional returns because of its solid growth attributes.
+- **2026-08-01** · ABB’s Rotork Deal Could Put These Flow Control Stocks Back in Focus — *MarketBeat* — https://www.marketbeat.com/articles/abbs-rotork-deal-could-put-these-flow-control-stocks-back-in-focus/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > ABB's $5.5 billion Rotork acquisition, its largest ever, highlights flow control's appeal, putting Watts Water Technologies and Franklin Electric in focus as potential beneficiaries or targets.
+- **2026-07-31** · How Upgraded 2026 Sales Guidance And Steady Dividend At Franklin Electric (FELE) Has Changed Its Investment Story — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/upgraded-2026-sales-guidance-steady-221035234.html
+  > Franklin Electric Co., Inc. recently reported past second-quarter 2026 results showing sales of US$622.88 million and net income of US$65.74 million, and it raised its full-year 2026 net sales guidance to a range of US$2.21 billion to US$2.
+- **2026-07-28** · Franklin Electric Co Inc (FELE) Q2 2026 Earnings Call Highlights: Record EPS and Strategic ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/franklin-electric-co-inc-fele-210312990.html
+  > Franklin Electric Co Inc (FELE) reports robust financial performance with a 6% revenue increase and strategic expansions despite global challenges.
+- **2026-07-28** · Franklin Electric Co., Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-franklin-electric-co-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Franklin Electric Co., Inc.'s Q2 2026 earnings call
+- **2026-07-28** · Franklin Electric Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/franklin-electric-q2-earnings-call-highlights-2026-07-28/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Franklin Electric (NASDAQ:FELE) reported higher second-quarter sales and earnings, citing organic growth, price realization, acquisitions and margin expansion efforts across its businesses. The company also raised its full-year sales and ad
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -97,18 +99,18 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-14** · Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/
 
 ## Market and macro context
-- **2026-09-23** · Fed Governor Michael Barr's Speech in Focus — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-governor-michael-barrs-speech-150500608.html
-- **2026-09-23** · What Makes Abbott Laboratories (ABT) an Attractive Opportunity? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/makes-abbott-laboratories-abt-attractive-150134056.html
-- **2026-09-23** · Motorola Solutions (MSI): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-msi-buy-sell-150102796.html
-- **2026-09-23** · RLI Rises 6.2% in 3 Months: Time to Hold or Fold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rli-rises-6-2-3-145900972.html
+- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
+- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
+- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
+- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
 
 *Rules, releases and agency actions:*
-- **2026-09-23** · Public Water System Supervision Program Revision for the State of Arkansas — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas
-- **2026-09-23** · Air Plan Approval; North Carolina; Charlotte-Rock Hill Area Maintenance Plan for the 2008 8-Hour Ozone NAAQS — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19495/air-plan-approval-north-carolina-charlotte-rock-hill-area-maintenance-plan-for-the-2008-8-hour-ozone
-- **2026-09-23** · Patient Protection and Affordable Care Act; Temporary Moratoria on Certain Agent and Broker Registration To Participate in the Exchanges — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker
-- **2026-09-23** · Fisheries of the South Atlantic; 2026 South Atlantic Red Snapper Recreational Fishing Season — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19456/fisheries-of-the-south-atlantic-2026-south-atlantic-red-snapper-recreational-fishing-season
-- **2026-09-23** · Revision of Freedom of Information Act Regulations — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19448/revision-of-freedom-of-information-act-regulations
-- **2026-09-23** · Safety Zone; Massachusetts Bay, Boston, MA — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19430/safety-zone-massachusetts-bay-boston-ma
+- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
+- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19597/rules-of-practice
+- **2026-09-24** · Flight Operations: Pilot requirements; Use of oxygen — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen
+- **2026-09-24** · Substantial Product Hazard List: Amendments to Requirements for Window Covering Cords — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19579/substantial-product-hazard-list-amendments-to-requirements-for-window-covering-cords
+- **2026-09-24** · Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight
+- **2026-09-24** · Air Plan Approval; Alabama; Transportation Conformity — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19566/air-plan-approval-alabama-transportation-conformity
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

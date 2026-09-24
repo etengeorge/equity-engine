@@ -1,47 +1,47 @@
 # VISN — VISTANCE NETWORKS INC
-*Information Technology · brief generated 2026-09-23 · selected as **opportunistic***
+*Information Technology · brief generated 2026-09-24 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 123 Information Technology peers (98th pct)
+- cheapest 2% of 122 Information Technology peers (98th pct)
 - baseline gap +190%
 - Information Technology is in the news
 - never researched
-- urgency score 6.31
+- urgency score 6.57
 
 ## Market
 | | |
 |---|---|
-| price | $6.48 |
+| price | $6.45 |
 | market cap | $1.5B |
-| 5d / 21d / 63d / 252d | +0.2% / +0.5% / -11.7% / +40.8% |
-| 60d avg daily $ volume | $55.1M |
-| beta (vs IWM) | 1.48 (R²=0.089) |
-| 5d volume vs 60d average | 1.4x |
+| 5d / 21d / 63d / 252d | -0.9% / +4.4% / -9.8% / +36.5% |
+| 60d avg daily $ volume | $54.3M |
+| beta (vs IWM) | 1.48 (R²=0.09) |
+| 5d volume vs 60d average | 1.3x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$760.8M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$252.6M', '$247.8M', '$236.6M']
-Enterprise value **$1.4B** · FCFF yield **+55.1%**
+Enterprise value **$1.4B** · FCFF yield **+55.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 13.2% − 1pt | -36.5% |
-| **13.2% (point)** | **-35.2%** |
-| 13.2% + 1pt | -34.1% |
+| 13.3% − 1pt | -36.5% |
+| **13.3% (point)** | **-35.3%** |
+| 13.3% + 1pt | -34.1% |
 
 
-> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$721.1M** and an implied growth of **-34.1%** instead of -35.2%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$721.1M** and an implied growth of **-34.1%** instead of -35.3%. Decide which treatment you are underwriting and say so explicitly.
 
 Naive baseline for comparison: **-10.0%** (5y revenue CAGR -25.5% (clamped to -10.0%)).
-Gap under that baseline: **+190.2%** (fair value $18.81 vs price $6.48).
+Gap under that baseline: **+189.6%** (fair value $18.68 vs price $6.45).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 123 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +225.4%).
+Cohort: **98th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +225.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
@@ -66,11 +66,12 @@ Attack these before you trust any number above.
 - **2026-08-26** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517228/000119312526368664/visn-ex99_1.htm
 - **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517228/000119312526336705/visn-ex99_1.htm
 - **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517228/000119312526336699/visn-ex99_1.htm
-- **2026-07-08** · EX-99.1 · press release — EX-99.1 *(item: completion of an acquisition or disposition, 9.01)* — https://www.sec.gov/Archives/edgar/data/1517228/000119312526298682/visn-ex99_1.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-09-16** · Is the Options Market Predicting a Spike in Vistance Networks Stock? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-vistance-144500076.html
+  > Investors need to pay close attention to VISN stock based on the movements in the options market lately.
 - **2026-09-08** · Aurora Networks and Kaltura Deploy Next-Generation Cloud TV Platform at Bouygues Telecom — *Business Wire* — https://finance.yahoo.com/technology/articles/aurora-networks-kaltura-deploy-next-120000045.html
   > RICHARDSON, Texas, September 08, 2026--Aurora Networks, a business of Vistance Networks (NASDAQ: VISN), and Kaltura announced the deployment of a new Cloud TV platform at Bouygues Telecom.
 - **2026-08-28** · Vistance Networks (VISN) Expands Buyback As Valuation Debate Turns To Aurora Networks — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/vistance-networks-visn-expands-buyback-102223133.html
@@ -97,30 +98,30 @@ Attack these before you trust any number above.
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-23** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194312684.html
+- **2026-09-23** · Lumentum Shares Are Up After an AI Optical Tech Partnership With Corning and Qualcomm. What This Means for LITE Stock. — *Barchart* — https://www.barchart.com/story/news/4762532/lumentum-shares-are-up-after-an-ai-optical-tech-partnership-with-corning-and-qualcomm-what-this-means-for-lite-stock
+- **2026-09-23** · Sector Update: Tech Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-fall-wednesday-175128323.html
+- **2026-09-23** · Exchange-Traded Funds, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html
+- **2026-09-23** · Alphabet Drops 4%, Meta Edges Higher as AI Rotation Splits Big Tech; Microsoft Holds Flat — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/alphabet-drops-4-meta-edges-higher-as-ai-rotation-splits-big-tech-microsoft-holds-flat/
 - **2026-09-23** · Tech retreats as Treasury yields and oil climb: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/tech-retreats-as-treasury-yields-and-oil-climb-alphacheck-135323303.html
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
 - **2026-09-23** · Stock Market News for Sep 23, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-23-132700528.html
-- **2026-09-22** · VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/
-- **2026-09-22** · Sector Update: Tech Stocks Gain Late Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-gain-afternoon-194546131.html
-- **2026-09-22** · Sector Update: Tech Stocks Higher in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-higher-afternoon-173912528.html
-- **2026-09-22** · Exchange-Traded Funds Rise, US Equities Mixed After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171035923.html
-- **2026-09-22** · Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/22/cisco-sinks-6-while-the-tech-sector-rises-arista-and-ciena-hold-flat/
-- **2026-09-22** · Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/treasury-yields-ease-oil-falls-as-trump-xi-meeting-looms-alphacheck-134137146.html
-- **2026-09-22** · Stock Market News for Sep 22, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html
+- **2026-09-23** · How Is Trimble's Stock Performance Compared to Other Technology Stocks? — *Barchart* — https://www.barchart.com/story/news/4751555/how-is-trimble-s-stock-performance-compared-to-other-technology-stocks
+- **2026-09-23** · Flex Ltd. Stock: Is FLEX Outperforming the Technology Sector? — *Barchart* — https://www.barchart.com/story/news/4750284/flex-ltd-stock-is-flex-outperforming-the-technology-sector
 
 ## Market and macro context
-- **2026-09-23** · Fed Governor Michael Barr's Speech in Focus — *Zacks* — https://finance.yahoo.com/economy/policy/articles/fed-governor-michael-barrs-speech-150500608.html
-- **2026-09-23** · What Makes Abbott Laboratories (ABT) an Attractive Opportunity? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/makes-abbott-laboratories-abt-attractive-150134056.html
-- **2026-09-23** · Motorola Solutions (MSI): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-msi-buy-sell-150102796.html
-- **2026-09-23** · RLI Rises 6.2% in 3 Months: Time to Hold or Fold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/rli-rises-6-2-3-145900972.html
+- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
+- **2026-09-24** · Rising Bond Yields, Oil Prices Pressure Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/articles/rising-bond-yields-oil-prices-111101722.html
+- **2026-09-24** · S&P 500 history shows strong gains across Fed hiking cycles: BCA — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/p-500-history-shows-strong-110033145.html
+- **2026-09-24** · Kevin Warsh Told Jackson Hole That a "Quieter" Fed Serves Markets Better, Even as Investors Priced in Rising Odds of a Rate Hike. Here's Why Less Guidance Could Mean More Volatility. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/kevin-warsh-jackson-hole-quiet-fed-rate-hike/
 
 *Rules, releases and agency actions:*
-- **2026-09-23** · Public Water System Supervision Program Revision for the State of Arkansas — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas
-- **2026-09-23** · Air Plan Approval; North Carolina; Charlotte-Rock Hill Area Maintenance Plan for the 2008 8-Hour Ozone NAAQS — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19495/air-plan-approval-north-carolina-charlotte-rock-hill-area-maintenance-plan-for-the-2008-8-hour-ozone
-- **2026-09-23** · Patient Protection and Affordable Care Act; Temporary Moratoria on Certain Agent and Broker Registration To Participate in the Exchanges — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker
-- **2026-09-23** · Fisheries of the South Atlantic; 2026 South Atlantic Red Snapper Recreational Fishing Season — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19456/fisheries-of-the-south-atlantic-2026-south-atlantic-red-snapper-recreational-fishing-season
-- **2026-09-23** · Revision of Freedom of Information Act Regulations — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19448/revision-of-freedom-of-information-act-regulations
-- **2026-09-23** · Safety Zone; Massachusetts Bay, Boston, MA — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/23/2026-19430/safety-zone-massachusetts-bay-boston-ma
+- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
+- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19597/rules-of-practice
+- **2026-09-24** · Flight Operations: Pilot requirements; Use of oxygen — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen
+- **2026-09-24** · Substantial Product Hazard List: Amendments to Requirements for Window Covering Cords — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19579/substantial-product-hazard-list-amendments-to-requirements-for-window-covering-cords
+- **2026-09-24** · Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight
+- **2026-09-24** · Air Plan Approval; Alabama; Transportation Conformity — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19566/air-plan-approval-alabama-transportation-conformity
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

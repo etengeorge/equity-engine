@@ -1,5 +1,75 @@
 [
  {
+  "id": "0e4e4bae-4785-3527-b2dd-bef6979ab34f",
+  "ts": "2026-09-23T19:46:23+00:00",
+  "title": "Sector Update: Consumer Stocks Retreat Late Afternoon",
+  "summary": "Consumer stocks were lower late Wednesday afternoon, with the State Street Consumer Staples Select S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "e5715ff0-7e8f-3ca7-9246-086d08ce2b12",
+  "ts": "2026-09-23T19:29:12+00:00",
+  "title": "Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up?",
+  "summary": "A 16% slide in a month puts DoorDash stock in awkward territory, and the culprit is something far newer and more unsettling than a weak consumer or a rate scare. The case for buying the dip and the case for cutting losses both hinge on a single question about where DoorDash's real value actually lives.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "164adcc3-266e-3a7a-a66e-0475af096d52",
+  "ts": "2026-09-23T19:23:09+00:00",
+  "title": "Domino\u2019s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up?",
+  "summary": "Domino's Pizza has shed more ground this year than any peer or benchmark in its category, yet one close competitor moved in the opposite direction entirely, which makes the sell-or-hold question harder than the chart alone suggests.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "85c4a61d-de9a-3c7b-86b0-a454689e57c3",
+  "ts": "2026-09-23T18:08:58+00:00",
+  "title": "Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5%",
+  "summary": "Meta's new AI agent can book a flight or hotel room without ever visiting Expedia, Airbnb, or Booking Holdings, and Wall Street is now asking whether the aggregator business model has a future at all.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "de541bdc-08c1-352b-b576-340c910e627e",
+  "ts": "2026-09-23T16:52:57+00:00",
+  "title": "DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up",
+  "summary": "DraftKings CEO sketched out an aggressive spending push into prediction markets, and the stock is paying for it while a rival platform moves in the opposite direction on the exact same news.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "52ee3077-7b18-3d5e-acc3-683984820c33",
   "ts": "2026-09-23T13:31:35+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",

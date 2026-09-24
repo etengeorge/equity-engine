@@ -1,5 +1,89 @@
 [
  {
+  "id": "04a34851-2aa7-33bc-9103-f0fe59531270",
+  "ts": "2026-09-24T08:48:00+00:00",
+  "title": "Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It.",
+  "summary": "Look to sectors that actually benefit from higher interest rates.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "7155a59a-23d0-36ea-ad0d-152570af235e",
+  "ts": "2026-09-23T19:57:24+00:00",
+  "title": "Sector Update: Financial Stocks Softer Late Afternoon",
+  "summary": "Financial stocks declined in late Wednesday afternoon trading, with the NYSE Financial Index sheddin",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "d4ff3dc1-c3da-376a-bd8d-3c4ff2be23cf",
+  "ts": "2026-09-23T18:07:33+00:00",
+  "title": "Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market?",
+  "summary": "Upstart, Affirm, and SoFi are sliding in tandem on Wednesday while the broader financials sector sits nearly unchanged, and that gap between consumer lenders and everything else tells a story that goes beyond any single company's news.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "024ff83b-3f63-387c-b42a-f95352437abf",
+  "ts": "2026-09-23T17:55:41+00:00",
+  "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+  "summary": "Financial stocks declined in Wednesday afternoon trading, with the NYSE Financial Index dropping 0.6",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175541711.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "abee3456-c93a-3a8b-8995-913104ceab9f",
+  "ts": "2026-09-23T17:15:56+00:00",
+  "title": "Exchange-Traded Funds, US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "58ac6725-3a02-35fd-931b-a8b97e2b0f72",
+  "ts": "2026-09-23T16:51:14+00:00",
+  "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
+  "summary": "Consumer lenders are getting hit far harder than the broader financials sector on Wednesday, and the gap between them points to something more specific than a rough market day for bank stocks.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "52ee3077-7b18-3d5e-acc3-683984820c33",
   "ts": "2026-09-23T13:31:35+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",

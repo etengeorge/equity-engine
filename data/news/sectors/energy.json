@@ -1,11 +1,95 @@
 [
  {
+  "id": "c81ed8d0-4fb9-33e4-81f8-f7557734fee3",
+  "ts": "2026-09-23T22:27:24+00:00",
+  "title": "Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade",
+  "summary": "Steve Weiss called energy stocks a decade of disappointment, booked his gains in Valero, and walked away feeling disciplined. The scoreboard tells a more complicated story about the one refiner that left the entire sector in the dust.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/steve-weiss-dumped-an-energy-stock-that-tripled-the-sp-500-over-a-decade/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "5618dc2d-9b84-32b8-aa50-6f8c5791897d",
+  "ts": "2026-09-23T19:56:03+00:00",
+  "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+  "summary": "Energy stocks rose late Wednesday afternoon with the NYSE Energy Sector Index rising 0.9% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195603421.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "00a8c623-e9ab-362d-9467-4133dbbdc5aa",
+  "ts": "2026-09-23T18:03:36+00:00",
+  "title": "Sector Update: Energy Stocks Rise Wednesday Afternoon",
+  "summary": "Energy stocks climbed Wednesday afternoon with the NYSE Energy Sector Index rising 1.2% and the Stat",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-wednesday-180336346.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "abee3456-c93a-3a8b-8995-913104ceab9f",
+  "ts": "2026-09-23T17:15:56+00:00",
+  "title": "Exchange-Traded Funds, US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV were lower. Actively tr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "ef04180b-8288-326c-a53f-f5d68d1da5a7",
+  "ts": "2026-09-23T15:49:40+00:00",
+  "title": "Rumble Sinks 5%, Trump Media Drops 3%: Is the Diesel Export Ban Really the Driver?",
+  "summary": "Rumble and Trump Media are both sliding on the same morning a major diesel export ban dominates political headlines, and the temptation to connect those two facts deserves a harder look than most investors will give it.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/23/rumble-sinks-5-trump-media-drops-3-is-the-diesel-export-ban-really-the-driver/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "52ee3077-7b18-3d5e-acc3-683984820c33",
   "ts": "2026-09-23T13:31:35+00:00",
   "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",
   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
   "publisher": "MT Newswires",
   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "afae4011-0ad9-3995-80a6-2da820107693",
+  "ts": "2026-09-23T10:24:27+00:00",
+  "title": "EQT Corporation Stock: Is EQT Underperforming the Energy Sector?",
+  "summary": "Despite EQT Corporation\u2019s weak performance relative to the energy sector over the past year, Wall Street analysts maintain a bullish outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4750582/eqt-corporation-stock-is-eqt-underperforming-the-energy-sector",
   "tickers": [
    "XLE"
   ],

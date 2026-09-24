@@ -1,5 +1,29 @@
 [
  {
+  "id": "31f0594e-2bcd-3672-b338-8a13cbbbfeb3",
+  "ts": "2026-09-23T13:49:52+00:00",
+  "title": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "summary": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-upgraded-hubspot-initiated-wall-134952467.html",
+  "tickers": [
+   "ARX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "71691f4f-466f-357e-82a4-3e720d930c07",
+  "ts": "2026-09-23T12:00:00+00:00",
+  "title": "Accelerant Announces Expiration of \"Go-Shop\" Period",
+  "summary": "ATLANTA, September 23, 2026--Accelerant Announces Expiration of \"Go-Shop\" Period",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-announces-expiration-shop-period-120000967.html",
+  "tickers": [
+   "ARX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0c08b88c-4485-3f03-b212-2490d724e795",
   "ts": "2026-09-04T12:00:00+00:00",
   "title": "Accelerant\u2019s Take-Private Deal Raises a Bigger Question for Insurance Stocks",

@@ -226,17 +226,5 @@
    "BBNX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2d3d38e1-80c3-3237-a255-552d1978be11",
-  "ts": "2026-05-26T10:15:49+00:00",
-  "title": "Beta Bionics to launch its first insulin patch pump to compete with Insulet",
-  "summary": "The device called Mint, which would work with the company\u2019s adaptive insulin dosing algorithm, is expected to debut in the first half of 2027.",
-  "publisher": "MedTech Dive",
-  "url": "https://www.medtechdive.com/news/beta-bionics-to-launch-its-first-insulin-patch-pump-to-compete-with-insulet/821091/",
-  "tickers": [
-   "BBNX"
-  ],
-  "source": "yfinance"
  }
 ]

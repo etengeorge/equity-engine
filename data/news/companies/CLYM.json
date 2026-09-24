@@ -1,5 +1,17 @@
 [
  {
+  "id": "56bbd42a-c88e-3278-8b72-6b9e38de3e08",
+  "ts": "2026-09-23T20:12:18+00:00",
+  "title": "The Biggest Losers In Biotech \u2014 And It Had Nothing To Do With 'Compelling,' 'Best-In-Disease' Data",
+  "summary": "Biotech stocks widely slumped Wednesday, with Rapport Therapeutics, Climb Bio and Cullinan Therapeutics among some of the hardest-hit names.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/news/technology/biotech-stocks-oruka-ionis-rapport-climb-cullinan/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "CLYM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b8e3a2fd-6f88-32dd-88a2-d14e54284c02",
   "ts": "2026-09-04T09:00:00+00:00",
   "title": "Ionis\u2019 rare neurology drug approved; Pfizer inks an ADC deal",
@@ -138,18 +150,6 @@
   "summary": "Company to share additional CLYM116 clinical data and plans for further development at R&D Spotlight in late summer Initiation of CLYM116 dosing in IgAN patients in Mabworks Phase 2 study expected in Q3 2026 WELLESLEY HILLS, Mass., June 05, 2026 (GLOBE NEWSWIRE) -- Climb Bio, Inc. (Nasdaq: CLYM), a clinical stage biotechnology company developing therapeutics for patients with immune-mediated diseases, today announced translational pharmacometric modeling and initial Phase 1 safety data for CLYM1",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/sectors/healthcare/articles/climb-bio-presents-clym116-initial-110000150.html",
-  "tickers": [
-   "CLYM"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "39a6f906-6c67-372c-bb0d-3e757bd70c5c",
-  "ts": "2026-05-26T11:00:00+00:00",
-  "title": "Climb Bio to Present on CLYM116 and Budoprutug Programs at European Renal Association (ERA) Congress 2026",
-  "summary": "WELLESLEY HILLS, Mass., May 26, 2026 (GLOBE NEWSWIRE) -- Climb Bio, Inc. (Nasdaq: CLYM), a clinical stage biotechnology company developing therapeutics for patients with immune-mediated diseases, today announced upcoming presentations for its CLYM116 and budoprutug programs at the European Renal Association Congress 2026, which will be held in Glasgow, Scotland June 3-6, 2026. Climb Bio will present pharmacokinetic/pharmacodynamic modeling from nonhuman primates to humans for CLYM116, a novel \u2018s",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/climb-bio-present-clym116-budoprutug-110000506.html",
   "tickers": [
    "CLYM"
   ],

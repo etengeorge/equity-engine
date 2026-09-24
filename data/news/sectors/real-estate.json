@@ -1,5 +1,47 @@
 [
  {
+  "id": "74d72505-9b32-3380-af9a-2e64737cdf59",
+  "ts": "2026-09-24T03:46:01+00:00",
+  "title": "Vanguard Real Estate ETF vs State Street SPDR: Diversification or Cost",
+  "summary": "Vanguard is more diversified with a higher dividend yield, while State Street's concentrated 30-stock portfolio charges a lower expense ratio.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/etfs/2026/09/23/vanguard-real-estate-etf-vs-state-street-spdr-diversification-or-cost/",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "7155a59a-23d0-36ea-ad0d-152570af235e",
+  "ts": "2026-09-23T19:57:24+00:00",
+  "title": "Sector Update: Financial Stocks Softer Late Afternoon",
+  "summary": "Financial stocks declined in late Wednesday afternoon trading, with the NYSE Financial Index sheddin",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "024ff83b-3f63-387c-b42a-f95352437abf",
+  "ts": "2026-09-23T17:55:41+00:00",
+  "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+  "summary": "Financial stocks declined in Wednesday afternoon trading, with the NYSE Financial Index dropping 0.6",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175541711.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "8f16f0ca-0926-32ce-9ab9-b4b5aed415e7",
   "ts": "2026-09-22T20:03:27+00:00",
   "title": "Sector Update: Financial Stocks Fall Tuesday",
