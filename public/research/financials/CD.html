@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CD — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / CD</p><h1>CD <span style='color:var(--faint);font-weight:400'>CHAINCE DIGITAL HOLDINGS INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$5.17</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-09-25</b></div></div><div class='prose'><h1>CD — CHAINCE DIGITAL HOLDINGS INC</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-09-25 — NO_MODEL (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_model · price $5.17</li></ul><p><strong>The case for the price.</strong> There is no defensible case for this price on any cash-flow or book measure, and saying so is the honest output. Chaince Digital Holdings - formerly Mercurity Fintech Holding - carries a market capitalisation of $568.7M on annual revenue of $1,867,068 and tangible common equity of about $46.6M. That is roughly 300x revenue and 12x tangible book, for a company that lost money in each of the last three years. What the market is buying is a narrative - tokenisation, on-chain innovation and a FINRA-registered broker-dealer subsidiary that acts as exclusive sales agent on at-the-market programmes for other micro-cap Nasdaq issuers - and a float small enough that $2M of news can move it 78%. The steelman is that the regulated brokerage licence plus a tokenisation platform is an option on a large market; the option has a strike nobody has priced and the company has $1.9M of revenue to show for it.</p><p><strong>What changed.</strong> The 8-K that won this name an opportunistic slot does not explain the move. On 2026-09-24 Chaince announced it had repurchased and permanently cancelled ALL warrants issued in its November 2023 private placement for aggregate cash consideration of US$2.0 million, closing 2026-09-21, with no shares issued and no warrants now outstanding. That is a $2.0M anti-dilutive housekeeping transaction in a $568.7M market capitalisation - mildly positive, and not remotely proportionate to a +75.3% five-day and +50.3% twenty-one-day move. Third-party pricing shows the shares at $3.50 on 2026-09-21 against a $2.91 prior close and a $5.17 close on 2026-09-24, so the move is real and it happened across 22-24 September. I searched for another catalyst and found none. Other recent activity: an approximately $16.2M registered direct offering announced 2026-08-10 &#x27;to advance its digital asset and capital markets strategy&#x27;, and Chaince Securities engagements as exclusive ATM sales agent for Top Wealth Group ($200M), Wetour Robotics ($50M) and ZJK Industrial ($9.8M).</p><p><strong>Base case.</strong> No sustainable return on tangible equity exists to supply and none should be invented. The three-year net income series is [-$5,097,831, -$4,534,397, -$9,357,196] - losses in every year - giving a mean return on tangible common equity of -34.7% with an unstable range of -54.6% to -14.2%, from which the model derives a justified price-to-tangible-book of NEGATIVE 4.59. Separately, and independently of the losses, price-to-tangible-book is the wrong frame for this business at all: Chaince is a broker-dealer and platform company whose $46.6M of tangible equity is a working-capital and regulatory-net-capital balance, not a constraint on how much revenue it can earn. Both the negative return and the category error point the same way - no number.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The refusal wastes the only actionable observation on the list. This is the RICHEST name in today&#x27;s ten by the model&#x27;s own reckoning - the 8th percentile of 339 Financials, a -128.9% gap - and everything I found corroborates the direction: 300x revenue, 12x tangible book, losses in every year, a doubling on a $2.0M warrant cancellation, and serial equity issuance. If the engine is ever going to be right about a name, it is this one, and &#x27;no_model&#x27; throws that away.</li><li>What would prove it: Revenue. A tokenisation and brokerage platform worth $568.7M should be able to show placement and platform fees growing toward tens of millions; the next two 10-Qs will say whether the ATM mandates convert into revenue or whether $1.87M annualised is the business. And the share count: whether the August registered direct is followed by more.</li><li>Already visible today: Yes - revenue of $1,867,068, $1,007,430 and $445,928 across three years IS growing fast in percentage terms but from nothing, and a $16.2M raise in August against $46.8M of equity is a third of the balance sheet in one placement. So the bear evidence is visible today.</li><li>Left unresolved: I accept the counter&#x27;s direction and still cannot express it as a fair value, because the model that would price it returns a negative multiple and the frame is the wrong one for a broker-dealer. Supplying a ROTCE here would launder a category error into a number, which the standing PIPR rule forbids in terms. I also could not identify what actually caused the +75% move: the 8-K the selection score fired on is a $2.0M warrant cancellation, and neither the filings nor a web search produced any other catalyst - so I am recording an unexplained move rather than inventing a reason for it. Note also that the brief&#x27;s Recent-filings section listed only ONE filing for this company while the fetch returned nine, so my view of its filing history came from the fetch, not the brief.</li></ul><p><strong>Key risks.</strong> Market capitalisation of $568.7M on $1,867,068 of annual revenue - roughly 300x sales; Losses in all three years with an unstable return range of -54.6% to -14.2%; Serial equity issuance including a ~$16.2M registered direct in August against $46.8M of total equity; A float small enough that a $2.0M transaction moved the shares 78% in three sessions; No usable cost of equity: beta is the sector median 0.88 standing in for a regression with R-squared 0.005 <strong>Watch for.</strong> Whether the ATM sales-agent mandates convert into disclosed placement-fee revenue in the next two 10-Qs; Further registered direct offerings or item 3.02 issuances - the August raise was a third of equity; Any disclosure of digital-asset holdings on balance sheet, which would change the frame entirely; Nasdaq continued-listing status given the 63.9% twelve-month decline before this move</p><p><strong>Data quality.</strong> Refused on four independent grounds, three of them standing rules. (1) Negative sustainable return: justified_pb returns -4.59 from a mean ROTCE of -34.7%, so the model states the equity is worth less than nothing - arithmetic, not a valuation, and that observation also sits inside the cohort distribution used to rank the other 338 Financials. (2) The PIPR category error: actual price-to-tangible-book is far above the ~4x detector threshold, and a broker-dealer&#x27;s tangible equity is a working-capital balance rather than a capital constraint on revenue, so supplying a ROTCE would launder the error into a fair value. (3) No cost of equity: beta is None with R-squared 0.005, so the sector median of 0.88 is standing in, and BETA_MIN_R2 cannot protect a substituted figure. (4) unstable_rotce_-54.6%<em>to</em>-14.2% and loss_year_in_window both fired. One correction to the printed figures: goodwill_series[0] is $8,107,014 while current goodwill is 0.0 - it has been written off or the concept discontinued - so the tangible book the model used, $35,805,180 or $0.33 a share, deducts goodwill that no longer exists. Corrected tangible common equity is $46,767,178 less $120,000 of intangibles = $46,647,178, or $0.424 a share, making actual P/TBV 12.2x rather than the printed 15.9x. Still refused. Also noted: the brief&#x27;s Recent-filings section showed only the 2026-09-24 8-K, while adhoc-fetch returned nine filings including two 10-Qs and five other 8-Ks - the exhibits section of the same brief listed items from three of the missing filings, so the two sections disagree and the filings list appears truncated for this registrant. minority_interest is $43,244, immaterial. shares of 110,003,800 as of 2026-08-14 postdate the August raise.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1527762/000149315226044115/form8-k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1527762/000149315226044115/form8-k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1527762/000149315226038400/form10-q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1527762/000149315226038400/form10-q.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1527762/000149315226037115/form8-k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1527762/000149315226037115/form8-k.htm</a></li><li><a href="https://finance.yahoo.com/markets/crypto/articles/chaince-digital-holdings-inc-nasdaq-140000981.html" rel="noopener">https://finance.yahoo.com/markets/crypto/articles/chaince-digital-holdings-inc-nasdaq-140000981.html</a></li><li><a href="https://upstox.com/us-stocks/cd-share-price/" rel="noopener">https://upstox.com/us-stocks/cd-share-price/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/CD.md'>research/Financials/CD.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

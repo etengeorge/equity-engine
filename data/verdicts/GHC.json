@@ -1,0 +1,188 @@
+{
+  "ticker": "GHC",
+  "date": "2026-09-25",
+  "sector": "Consumer Discretionary",
+  "name": "GRAHAM HOLDINGS COMPANY CLASS B",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.03,
+  "bear_growth": -0.01,
+  "bull_growth": 0.07,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 1145.030029296875,
+  "market_implied_growth": 0.05304469499246445,
+  "cohort_pct": 64.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.05304469499246445,
+    "growth_delta": -0.02304469499246445,
+    "fair_value": 1028.5911295026435,
+    "price": 1145.030029296875,
+    "gap": -0.10169069527873675,
+    "fair_value_band": {
+      "low": 879.5104840610695,
+      "point": 1028.5911295026435,
+      "high": 1231.2618855345152
+    },
+    "fcff_base_used": 302745083.3333334,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0856743677313979,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 302745083.3333334,
+      "price": 1145.030029296875,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.01,
+          "cells": [
+            {
+              "wacc": 0.0656743677313979,
+              "fair_value": 1254.5604228050197,
+              "gap": 0.09565722357116146
+            },
+            {
+              "wacc": 0.0756743677313979,
+              "fair_value": 1015.0627716445223,
+              "gap": -0.11350554511846411
+            },
+            {
+              "wacc": 0.0856743677313979,
+              "fair_value": 848.4162841143404,
+              "gap": -0.25904451201570255
+            },
+            {
+              "wacc": 0.0956743677313979,
+              "fair_value": 725.7435786379423,
+              "gap": -0.3661794362864026
+            },
+            {
+              "wacc": 0.1056743677313979,
+              "fair_value": 631.6494935676138,
+              "gap": -0.44835552133467726
+            }
+          ],
+          "fair_value_at_point_wacc": 848.4162841143404,
+          "gap_at_point_wacc": -0.25904451201570255
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.0656743677313979,
+              "fair_value": 1522.7241432388798,
+              "gap": 0.32985520403681834
+            },
+            {
+              "wacc": 0.0756743677313979,
+              "fair_value": 1231.2618855345152,
+              "gap": 0.07530968972979002
+            },
+            {
+              "wacc": 0.0856743677313979,
+              "fair_value": 1028.5911295026435,
+              "gap": -0.10169069527873675
+            },
+            {
+              "wacc": 0.0956743677313979,
+              "fair_value": 879.5104840610695,
+              "gap": -0.2318887177123662
+            },
+            {
+              "wacc": 0.1056743677313979,
+              "fair_value": 765.253593017734,
+              "gap": -0.3316737784705517
+            }
+          ],
+          "fair_value_at_point_wacc": 1028.5911295026435,
+          "gap_at_point_wacc": -0.10169069527873675
+        },
+        {
+          "case": "bull",
+          "growth": 0.07,
+          "cells": [
+            {
+              "wacc": 0.0656743677313979,
+              "fair_value": 1833.868189614581,
+              "gap": 0.6015896026243948
+            },
+            {
+              "wacc": 0.0756743677313979,
+              "fair_value": 1481.757872847778,
+              "gap": 0.29407774026474764
+            },
+            {
+              "wacc": 0.0856743677313979,
+              "fair_value": 1237.0558506375557,
+              "gap": 0.08036978855234977
+            },
+            {
+              "wacc": 0.0956743677313979,
+              "fair_value": 1057.1743076512207,
+              "gap": -0.07672787559956273
+            },
+            {
+              "wacc": 0.1056743677313979,
+              "fair_value": 919.4093741718469,
+              "gap": -0.197043439344184
+            }
+          ],
+          "fair_value_at_point_wacc": 1237.0558506375557,
+          "gap_at_point_wacc": 0.08036978855234977
+        }
+      ],
+      "summary": {
+        "bear": -0.25904451201570255,
+        "base": -0.10169069527873675,
+        "bull": 0.08036978855234977
+      },
+      "downside": -0.44835552133467726,
+      "upside": 0.6015896026243948
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "Dismissing the +11.2% revenue CAGR as 'bought' may understate a real skill. Graham Holdings has compounded book and free cash flow for years precisely BY acquiring private businesses below public multiples, and free cash flow of [$275.3M, $324.1M, $166.4M] is not the profile of a company destroying capital - the two most recent years average $300M against a $5.0B market cap, a 6% yield, with the oldest year the outlier. If the acquisition engine keeps working, +5.3% is easily cleared and the +30.1% headline gap is directionally right rather than an artifact.",
+    "what_would_prove_it": "Cash paid for acquisitions against the incremental revenue and operating income it bought, over a full cycle - the EVI/EFOR test. If each dollar of acquisition spend has bought durable operating income at a good return, the growth is real even though the free cash flow measure never charged for it; if revenue rises while consolidated operating margin falls, it is revenue purchased at a bad price.",
+    "already_visible": "Partially, and I could not complete the test. The 10-Q discloses the acquisitions and gives a purchase price for the comparative-period group, but I did not reconstruct cash paid for acquisitions against incremental segment operating income across a full cycle, which is what would settle it. What IS visible and supports the counter is that free cash flow in the two most recent years ($275.3M and $324.1M) is well above the oldest ($166.4M), so the trend is up, not down - the possible_peak_cycle_base flag reads on that basis rather than on a cycle.",
+    "unresolved": "The acquisition-return test above, which is the crux. Also unresolved: with no company news in the store for 90 days I have no visibility on current trading at Kaplan or in broadcast beyond the 10-Q, and the gap between my +3% and the required +5.3% is only about -10% on fair value - comfortably inside the range that a single better or worse year of the acquisition engine would move. That is why this is no_edge rather than rich."
+  },
+  "what_changed": "Nothing material found, and that absence is itself a limitation I am recording. There was NO company-specific news in the store for the trailing 90 days - GHC did not move, did not trade abnormal volume and filed only routine reports, so the news layer contributes nothing here and I am relying entirely on the Q2 10-Q and the two 8-Ks. From the filings: the Q2 2026 10-Q (2026-07-30) confirms continued bolt-on acquisition activity - one small business acquired in the current period, five in the comparative period (one education, two other healthcare, one manufacturing, one automotive) - and the cover page shows Class A 964,001 and Class B 3,270,927 shares. There is remaining authorisation to repurchase 352,011 Class B shares. An 8-K on 2026-08-05 under item 8.01.",
+  "consensus_case": "At $1,145 the market requires about +5.3% five-year FCFF growth from Graham Holdings, and that is close to what a diversified holding company of this shape should be expected to deliver. GHC is Kaplan education, seven television stations, a set of healthcare businesses, manufacturing, restaurants and automotive dealerships, assembled and reassembled by continuous small acquisitions. Its revenue has compounded 11.2% over five years, but that growth is bought: the company acquired five businesses in the comparative period alone and more in 2026, and cash paid for acquisitions never appears in the CFO-minus-capex free cash flow the model grows. Strip the purchases and the organic engine is low-single-digit, with broadcast structurally declining and Kaplan's international business the swing factor. A ~5% requirement against a ~3% organic reality is a market that is, if anything, mildly optimistic.",
+  "base_case_rationale": "I underwrite +3% five-year FCFF growth. The engine's $302.7M base is sound - the free cash flow series [$275.3M, $324.1M, $166.4M] averages $255.3M and the after-tax interest add-back of $47.5M on $900.4M of debt at a plausible 7.0% implied rate is correct - so this is a growth-rate question rather than a data question. I differ from the naive +11.2% baseline by eight points for one reason: that CAGR is acquired revenue. A serial acquirer's reported growth is paid for in cash that CFO-minus-capex never charges, so applying it to free cash flow double-counts the purchases. Organically, education is low-single-digit, broadcast television is structurally declining with political-advertising cyclicality on top, and the healthcare and manufacturing units are steady but small. Low-single-digit organic FCFF growth, supplemented by capital allocation that has been genuinely good but is a return ON reinvestment rather than free growth, is +3%.",
+  "key_risks": [
+    "The reported 11.2% revenue CAGR is substantially acquired; free cash flow never charges for the purchase price",
+    "Broadcast television is in structural decline with political-advertising cyclicality layered on top",
+    "Kaplan international enrolment is exposed to UK and Australian student-visa policy",
+    "Operating lease liabilities of $376.9M are 7% of enterprise value and are deliberately excluded from debt",
+    "A conglomerate of six unrelated segments resists any single valuation frame"
+  ],
+  "watch_for": [
+    "Cash paid for acquisitions against incremental segment operating income - the test of whether bought growth is good growth",
+    "Kaplan international enrolment trends and any visa-policy change in the UK or Australia",
+    "Broadcast retransmission revenue and the 2026 political advertising cycle",
+    "Use of the remaining 352,011 share repurchase authorisation against only 4.23M shares outstanding"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/104889/000162828026050826/ghc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/ghc-20260730.htm",
+    "https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/ghc-20260805.htm"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_1.7x_oldest_growth_applied_to_a_peak_overstates_value"
+  ]
+}

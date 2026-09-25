@@ -1,0 +1,55 @@
+{
+  "ticker": "LMND",
+  "date": "2026-09-25",
+  "sector": "Financials",
+  "name": "LEMONADE INC",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": -0.1,
+  "bull_growth": 0.25,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 45.279998779296875,
+  "market_implied_growth": null,
+  "cohort_pct": 7.7,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "Refusing is too easy, and the refusal hides a view. At 7.4x tangible book the market is paying $3.5B for a company with $404M of trailing gross profit and no earnings - that is roughly 8.7x GROSS profit for an insurer, which is not obviously cheap on any frame, and the honest reading is that Lemonade is expensive rather than unvaluable. A no_model verdict lets me avoid saying so.",
+    "what_would_prove_it": "Q4 2026. Management has committed publicly to the first EBITDA-positive quarter, which is a dated, falsifiable claim. Delivering it, with the gross loss ratio at or below 60% through a full catastrophe season, converts this into a company with a measurable return on equity that this model could then price. Missing it - or delivering it only on a one-off item like the $12M ERC refund that flattered Q2 - settles the counter the other way.",
+    "already_visible": "The crossover is not yet visible: full-year 2026 guidance is still an adjusted EBITDA LOSS of $(51)-(47)M, and Q2's net loss of $(43)M was flat year over year and included a $12M one-off tax credit, so ex-that item the loss WIDENED. What is visible and genuine is the unit economics: gross profit +76% with the loss ratio at 60% and IFP +32% is a business whose contribution margin is improving fast, which is the necessary condition for the counter's bull case.",
+    "unresolved": "I accept the force of the counter on direction - 7.4x tangible book for a loss-making insurer is a high price, and I am not recording a view that it is cheap - but I cannot convert it into a fair value, because the justified-P/TBV model requires a positive sustainable return and there is none. Recording 'rich' would mean asserting a number I cannot derive. I also could not establish Lemonade's catastrophe reinsurance attachment and retention, which is what would tell me how much of the 60% loss ratio is structural versus a quiet season - the standing AMSF/SLDE question, and on this name I did not resolve it."
+  },
+  "what_changed": "Q2 2026 (2026-07-29): in force premium +32% to ~$1,537M; gross profit +$113M, +76%; adjusted EBITDA loss $(18)M; net loss $(43)M, in line with the prior year and including a $12M favourable one-time employee-retention-credit tax refund. Full-year 2026 guidance: in force premium $1,632-1,639M, gross earned premium $1,374-1,378M, revenue $1,214-1,220M, adjusted EBITDA loss $(51)-(47)M. On 2026-09-18 CFO Tim Bixby said the company expects to reach EBITDA-positive in Q4 2026 while continuing to prioritise growth, and he is transitioning to the board (the item 5.02 8-K of 2026-07-29). A credit facility was entered on 2026-06-24 (items 1.01, 2.03). State expansion continues - renters and pet in Kentucky in September. Management is publicly pushing a telematics-based auto repricing strategy tied to self-driving miles.",
+  "consensus_case": "At $45.28 Lemonade is priced as a growth company approaching the point where growth stops costing money. In force premium grew 32% to about $1,537M, customers 23%, premium per customer 8%; Q2 gross profit rose 76% to a record $113M with trailing-twelve-month gross profit up 98% to $404M, roughly a 100% three-year compound rate; the gross loss ratio improved to 60%; the adjusted EBITDA loss narrowed to $(18)M and net loss over gross earned premium improved from (29%) to (17%) to (13%) across three years. The CFO said in September that Lemonade expects its first EBITDA-positive quarter in Q4 2026. Paying 7.4x tangible book for that is a bet on the crossover, not a valuation error - but it is a bet, on a company that has never earned a GAAP profit in eleven years and whose stock is still 49% off its high and down 24% over twelve months.",
+  "base_case_rationale": "There is no sustainable return on tangible equity to supply, because Lemonade does not yet earn one. The three-year net income series is [-$165.5M, -$202.2M, -$236.9M] - losses that are NARROWING sharply, which is the interesting fact about the company, but still losses - so the mean return on tangible common equity is -34.7% and the justified price-to-tangible-book the model computes from it is NEGATIVE 2.92. A negative multiple is not a low valuation, it is the Gordon form being handed an input it cannot accept. Supplying a hoped-for future ROTCE would convert an arithmetic impossibility into a confident fair value, which is exactly what the guard rail forbids.",
+  "key_risks": [
+    "Eleven years without a GAAP profit; full-year 2026 is still guided to an adjusted EBITDA loss",
+    "Tangible equity is SHRINKING ($499.5M from $533.6M), so a delayed crossover implies dilution",
+    "Homeowners catastrophe exposure against a 60% gross loss ratio achieved in a quiet season",
+    "7.4x tangible book leaves no margin if the crossover slips again",
+    "Q2's net loss was flat only because of a $12M one-time employee-retention tax credit"
+  ],
+  "watch_for": [
+    "Q4 2026: the first EBITDA-positive quarter management has publicly committed to",
+    "Gross loss ratio through the full catastrophe season against the 60% Q2 figure",
+    "Whether tangible equity stops shrinking - the tell for whether a raise is coming",
+    "In force premium against the $1,632-1,639M full-year guide"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000055/lmnd-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000047/lmnd-20260729.htm",
+    "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000050/lmnd-20260727.htm",
+    "https://www.marketbeat.com/instant-alerts/event-lemonade-targets-first-ebitda-positive-quarter-as-cfo-tim-bixby-transitions-to-board-2026-09-18/"
+  ],
+  "flags": [
+    "loss_year_in_window"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ticker": "DYN",
+  "date": "2026-09-25",
+  "sector": "Health Care",
+  "name": "DYNE THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": -0.3,
+  "bull_growth": 0.4,
+  "rotce_override": null,
+  "horizon_months": 18,
+  "price_at_verdict": 16.510000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The brief does offer a number, and dismissing it may be lazy: the multiples table prices Dyne at 4.4x tangible book against a cohort of 328 Health Care names at 2.1x / 4.0x / 7.5x, blending to $15.23 against a $16.51 price - a 7.8% gap, i.e. Dyne trades at almost exactly what its sector pays for book value. If that is a fair comparison then the stock is fairly priced and the answer is no_edge rather than no_model.",
+    "what_would_prove_it": "Whether price-to-tangible-book means anything for a pre-revenue biotech. For a clinical-stage company tangible book is essentially the cash pile, so P/TBV is a restatement of price-to-cash - and the comparison is only informative if the cohort's book is also cash, which for 328 mixed Health Care names it is not. The 2027-01-21 PDUFA decision is the observable that actually settles the value.",
+    "already_visible": "Yes, and it defeats the counter. The multiples row fails the standing refusal test on two counts: the cohort is reported as NOT RANKED - too few comparable Health Care names to define a distribution honestly - and there is only ONE row, p_tbv, so there is no cross-row corroboration and nothing to disagree with itself. A single unranked row on a pre-revenue company is the RIOT/EPRT case, and the rule is to disregard it rather than average a nonsense input into a verdict. The denominator is also stale: the balance sheet is 2026-06-30 while the upsized offering closed 2026-07-23, so both cash and book are understated.",
+    "unresolved": "The clinical questions, entirely. I cannot assess how far the transferrin-receptor targeting, payload and trial-design differences RBC cites actually insulate DYNE-101 from the del-desiran failure - that is a biology judgement, and the one-year ACHIEVE data presented at WMS and AANEM in late September 2026 is the relevant evidence, which I could not obtain because it postdates the filings and no report of it is in the news store. I also did not obtain the size of the July offering, so I cannot state pro-forma cash beyond management's own runway statement of Q2 2028."
+  },
+  "what_changed": "The twenty-one-day decline has a specific, dated cause and it is not Dyne's own data. On 2026-09-08 Novartis announced that del-desiran MISSED the primary endpoint in the pivotal Phase 3 HARBOR study in myotonic dystrophy type 1; Novartis fell as much as 10% and Dyne fell 31% premarket in sympathy, with InvestorsHub noting no Dyne-specific catalyst. RBC and others argued the read-across is limited because the two programmes differ in how they target the transferrin receptor, in payload and in trial design. Dyne's own newsflow since: the BLA for z-rostudirsen in exon 51 DMD accepted with Priority Review, PDUFA 2027-01-21, and registrational expansion enrolment of 71 participants complete (2026-07-29); FDA clearance of the DYNE-302 IND in FSHD (2026-07-28); closing of an upsized public offering with full exercise of the underwriters' option (2026-07-23); additional one-year ACHIEVE data for z-basivarsen in DM1 to be presented at World Muscle Society and AANEM in late September 2026 against a matched natural-history cohort; preclinical DMD candidates for exons 53, 45, 44 and 55 (2026-09-03); inducement grants in August and September.",
+  "consensus_case": "At $16.51 Dyne is a clinical-stage company with no product revenue, $676.1M of cash at 2026-06-30 plus the proceeds of an upsized July offering, a cash runway management states reaches the second quarter of 2028, and operating cash outflow of $403.2M in the last year and widening. A $3.08B market capitalisation is a probability-weighted claim on three things: a Biologics License Application for z-rostudirsen in exon 51 Duchenne muscular dystrophy that the FDA accepted with PRIORITY REVIEW and a PDUFA target action date of 2027-01-21; DYNE-101 (z-basivarsen) in myotonic dystrophy type 1, where enrolment of 71 participants in the registrational expansion is complete; and the FORCE platform behind a third programme, DYNE-302 in FSHD, cleared for IND in July. That is a binary, dated set of bets, and the 36.5% fall over twenty-one days is the market repricing one of them.",
+  "base_case_rationale": "There is nothing to grow. revenue_series is EMPTY, the cash flow from operations series is [-$403.2M, -$292.4M, -$188.2M] - negative in every year and widening each year - and EBIT is -$468.2M. A discounted cash flow cannot value negative cash flow, and the engine correctly produced no base, no enterprise value and no implied growth. This is the case the guard rail exists for: roughly 40% of this universe cannot be honestly valued by a free-cash-flow model, and a clinical-stage biotech with no revenue is the clearest instance of it. The value here is the probability-weighted net present value of three regulatory outcomes, which requires clinical judgement this engine does not have and I will not fabricate.",
+  "key_risks": [
+    "No revenue; operating cash outflow of $403.2M and widening each year, against a stated runway only to Q2 2028",
+    "The 2027-01-21 PDUFA date for z-rostudirsen is a binary outcome on the nearest-term asset",
+    "Novartis's del-desiran Phase 3 failure in DM1 raises a target-class question the market has already priced at -31% in one session",
+    "Serial dilution: an upsized offering closed 2026-07-23 with the underwriters' option fully exercised, plus repeated inducement grants"
+  ],
+  "watch_for": [
+    "PDUFA 2027-01-21 for z-rostudirsen in exon 51 DMD",
+    "The one-year ACHIEVE data for z-basivarsen against the matched natural-history cohort (WMS and AANEM, late September 2026)",
+    "Any further read-across from the del-desiran HARBOR failure as Novartis publishes detail",
+    "Cash position against the Q2 2028 runway, and the timing of the next raise"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1818794/000119312526323639/dyn-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1818794/000119312526323940/dyn-20260729.htm",
+    "https://www.sec.gov/Archives/edgar/data/1818794/000119312526312571/d112911d8k.htm",
+    "https://www.proactiveinvestors.com/companies/news/1098233/novartis-shares-fall-as-del-desiran-flunks-phase-3-myotonic-dystrophy-trial-1098233.html",
+    "https://finance.yahoo.com/healthcare/articles/dyne-therapeutics-myotonic-dystrophy-approach-151041427.html"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

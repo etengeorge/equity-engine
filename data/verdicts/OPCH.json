@@ -1,0 +1,184 @@
+{
+  "ticker": "OPCH",
+  "date": "2026-09-25",
+  "sector": "Health Care",
+  "name": "OPTION CARE HEALTH INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.03,
+  "bear_growth": -0.03,
+  "bull_growth": 0.07,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 22.940000534057617,
+  "market_implied_growth": -0.03687649942355059,
+  "cohort_pct": 92.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": -0.03687649942355059,
+    "growth_delta": 0.06687649942355059,
+    "fair_value": 33.20364307736342,
+    "price": 22.940000534057617,
+    "gap": 0.44741248057374694,
+    "fair_value_band": {
+      "low": 27.05675996283958,
+      "point": 33.20364307736342,
+      "high": 42.11701377197968
+    },
+    "fcff_base_used": 316554333.3333333,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.07446020480170441,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 316554333.3333333,
+      "price": 22.940000534057617,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.03,
+          "cells": [
+            {
+              "wacc": 0.05446020480170441,
+              "fair_value": 40.95061585018837,
+              "gap": 0.7851183477259076
+            },
+            {
+              "wacc": 0.06446020480170442,
+              "fair_value": 30.497590979284432,
+              "gap": 0.32945031688236104
+            },
+            {
+              "wacc": 0.07446020480170441,
+              "fair_value": 23.87849290704494,
+              "gap": 0.04091073893368047
+            },
+            {
+              "wacc": 0.08446020480170441,
+              "fair_value": 19.309192319037532,
+              "gap": -0.15827411205285924
+            },
+            {
+              "wacc": 0.09446020480170442,
+              "fair_value": 15.963984061326135,
+              "gap": -0.3040983570324951
+            }
+          ],
+          "fair_value_at_point_wacc": 23.87849290704494,
+          "gap_at_point_wacc": 0.04091073893368047
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.05446020480170441,
+              "fair_value": 56.20537996318692,
+              "gap": 1.4501036902654918
+            },
+            {
+              "wacc": 0.06446020480170442,
+              "fair_value": 42.11701377197968,
+              "gap": 0.8359639403430319
+            },
+            {
+              "wacc": 0.07446020480170441,
+              "fair_value": 33.20364307736342,
+              "gap": 0.44741248057374694
+            },
+            {
+              "wacc": 0.08446020480170441,
+              "fair_value": 27.05675996283958,
+              "gap": 0.179457686701884
+            },
+            {
+              "wacc": 0.09446020480170442,
+              "fair_value": 22.561708610504212,
+              "gap": -0.016490493232194092
+            }
+          ],
+          "fair_value_at_point_wacc": 33.20364307736342,
+          "gap_at_point_wacc": 0.44741248057374694
+        },
+        {
+          "case": "bull",
+          "growth": 0.07,
+          "cells": [
+            {
+              "wacc": 0.05446020480170441,
+              "fair_value": 68.47539964962714,
+              "gap": 1.984978119244849
+            },
+            {
+              "wacc": 0.06446020480170442,
+              "fair_value": 51.44613722707101,
+              "gap": 1.2426388853257468
+            },
+            {
+              "wacc": 0.07446020480170441,
+              "fair_value": 40.67735854404346,
+              "gap": 0.7732065212314301
+            },
+            {
+              "wacc": 0.08446020480170441,
+              "fair_value": 33.255143974749814,
+              "gap": 0.4496575065627366
+            },
+            {
+              "wacc": 0.09446020480170442,
+              "fair_value": 27.83094412065233,
+              "gap": 0.2132059055244322
+            }
+          ],
+          "fair_value_at_point_wacc": 40.67735854404346,
+          "gap_at_point_wacc": 0.7732065212314301
+        }
+      ],
+      "summary": {
+        "bear": 0.04091073893368047,
+        "base": 0.44741248057374694,
+        "bull": 0.7732065212314301
+      },
+      "downside": -0.3040983570324951,
+      "upside": 1.984978119244849
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The recorded fair value is a discount-rate artifact and the name is fair, not cheap. The 7.45% WACC rests on a beta of 0.56 whose R-squared is 0.07 - the regression explains 7% of the variance, and the standing measurement is that betas below an R-squared of ~0.15 are attenuated toward zero, which lowers the cost of equity, lowers the WACC and manufactures exactly this kind of positive gap. Put a defensible healthcare-distribution beta of 1.0 on it and the WACC is ~9.45%, at which the market requires +2.8% growth against my +3.0% - the gap vanishes entirely. The second leg of the counter is independent of the discount rate: a company guiding +0.5-2.2% revenue with H1 EBITDA DOWN year over year does not obviously grow free cash flow at 3% for five years.",
+    "what_would_prove_it": "For the beta: an R-squared above ~0.2 on a longer regression, or Yahoo's SPX-based beta rescaled to the IWM convention, neither of which this runtime can reach. For the business: 2027 guidance. Revenue growth reaccelerating above 4% with adjusted EBITDA growing FASTER than revenue would settle it in the bull's favour; another year of 2% revenue and flat EBITDA settles it the other way.",
+    "already_visible": "Yes, and it is what makes me withhold a 'cheap'. H1 2026 adjusted EBITDA of $222.3M against $225.8M is already a year-over-year DECLINE, on revenue up 1.9%. The guided full-year adjusted EBITDA of $480-495M against H1's $222.3M does imply a materially stronger H2, but that is guidance, not a result. On the beta side nothing is visible - I could not test it from this runtime and am recording that.",
+    "unresolved": "I could not establish the therapy-level gross profit mix, so I cannot say how much of the H1 EBITDA decline is biosimilar economics versus the cost of the 2026 initiatives - the press release attributes the quarter's strength to those initiatives without quantifying either. And I could not resolve the beta, which is the input that decides the verdict. Absent that, the disciplined answer is no_edge rather than cheap."
+  },
+  "what_changed": "Q2 2026 (2026-07-29): revenue $1,442M, +1.9%; GAAP net income $53.9M, +6.7%; adjusted EBITDA $117.5M, +3.0%; adjusted diluted EPS $0.45, +9.8%; Q2 operating cash flow $184M; $150M of stock repurchased in the quarter. Full-year 2026 guidance: revenue $5.675-5.775B, adjusted EBITDA $480-495M, adjusted diluted EPS $1.85-1.92, and cash provided by operating activities of AT LEAST $320M. Q3 guided to low-to-mid single digit sequential revenue growth and mid single digit sequential adjusted EBITDA growth. The guided revenue range against FY2025 revenue of $5,649.5M is +0.5% to +2.2% growth - the single most important number for this name, because it replaces the +13.3% baseline the screen used to generate a +138% gap. Note there was NO company-specific news in the store for the trailing 90 days, so this is the filings alone.",
+  "consensus_case": "At $22.94 the market is paying about 9.5x guided 2026 adjusted EBITDA and roughly a 6% free-cash-flow yield on enterprise value for a business whose revenue growth has just collapsed from a 13.3% five-year compound rate to 0.5-2.2% guided for 2026, and whose H1 adjusted EBITDA FELL year over year ($222.3M against $225.8M). That is the case: Option Care is the largest independent home-infusion provider with a real site-of-care tailwind, but it is a low-margin distributor of other people's drugs (8.5% adjusted EBITDA margin), its therapy mix is exposed to biosimilar substitution economics it does not control, and a business that grows revenue 2% while EBITDA declines is not a compounder. The stock is down 20% over twelve months for that reason.",
+  "base_case_rationale": "Guided 2026 operating cash flow of at least $320M against capex that has run $36-42M implies free cash flow near $280M, which plus after-tax interest lands almost exactly on the engine's $316.6M base - so the base is sound and I am not overriding it. Forward, I underwrite +3% FCFF growth: low-single-digit revenue growth (management's own 2026 guide is +0.5-2.2%, and the secular shift of infusion from hospital to home supports mid-single-digit volume over a decade) with roughly stable margins. I differ from the naive +13.3% baseline by ten points, because that number is the historical revenue CAGR of a period that included both acquisition and a therapy-mix surge, and the company has just guided to a sixth of it. I also do not underwrite margin expansion: H1 adjusted EBITDA was down year over year, which is the opposite of leverage.",
+  "key_risks": [
+    "H1 2026 adjusted EBITDA declined year over year on higher revenue - margin compression is already in the numbers, not a forecast",
+    "Revenue growth has fallen from a 13.3% five-year CAGR to 0.5-2.2% guided; the multiple was set in the faster era",
+    "8.5% adjusted EBITDA margin on drug-distribution economics leaves little absorption for reimbursement change",
+    "$1.16B of debt at a 24% weight against a business whose EBITDA is flat"
+  ],
+  "watch_for": [
+    "2027 revenue and adjusted EBITDA guidance - whether EBITDA grows faster than revenue for the first time in two years",
+    "Full-year cash from operations against the 'at least $320M' guide",
+    "Whether the H2 adjusted EBITDA step-up implied by $480-495M full year against $222.3M in H1 actually lands",
+    "Any change in payer policy on site of care for high-cost chronic infusion therapies"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1014739/000101473926000023/bios-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1014739/000101473926000021/bios-20260729.htm"
+  ],
+  "flags": []
+}

@@ -1,188 +1,53 @@
 {
   "ticker": "CLVT",
-  "date": "2026-09-18",
+  "date": "2026-09-25",
   "sector": "Industrials",
   "name": "CLARIVATE PLC",
   "method": "fcff",
   "verdict": "no_edge",
   "conviction": "low",
-  "final_growth": -0.02,
-  "bear_growth": -0.06,
-  "bull_growth": 0.04,
+  "final_growth": null,
+  "bear_growth": -0.15,
+  "bull_growth": 0.03,
   "rotce_override": null,
   "horizon_months": 36,
-  "price_at_verdict": 1.899999976158142,
-  "market_implied_growth": 0.04549230515722391,
+  "price_at_verdict": 1.840000033378601,
+  "market_implied_growth": 0.04791412099762227,
   "cohort_pct": 96.7,
   "priced": {
-    "ok": true,
-    "method": "fcff",
-    "analyst_growth": -0.02,
-    "market_implied_growth": 0.04549230515722391,
-    "growth_delta": -0.06549230515722392,
-    "fair_value": 0.03596455565946079,
-    "price": 1.899999976158142,
-    "gap": -0.9810712862574966,
-    "fair_value_band": {
-      "low": -0.3946349598795625,
-      "point": 0.03596455565946079,
-      "high": 0.5355233766046229
-    },
-    "fcff_base_used": 628441666.6666667,
-    "base_overridden": false,
-    "scenarios": {
-      "ok": true,
-      "wacc_point": 0.15386612513555223,
-      "wacc_steps": [
-        -0.02,
-        -0.01,
-        0.0,
-        0.01,
-        0.02
-      ],
-      "fcff_base_used": 628441666.6666667,
-      "price": 1.899999976158142,
-      "grid": [
-        {
-          "case": "bear",
-          "growth": -0.06,
-          "cells": [
-            {
-              "wacc": 0.13386612513555224,
-              "fair_value": -0.018172271368991664,
-              "gap": -1.0095643534721177
-            },
-            {
-              "wacc": 0.14386612513555222,
-              "fair_value": -0.49878240904828797,
-              "gap": -1.2625170606879907
-            },
-            {
-              "wacc": 0.15386612513555223,
-              "fair_value": -0.90855250197155,
-              "gap": -1.478185533353885
-            },
-            {
-              "wacc": 0.16386612513555224,
-              "fair_value": -1.262215809202839,
-              "gap": -1.6643241184429265
-            },
-            {
-              "wacc": 0.17386612513555222,
-              "fair_value": -1.5706773553100077,
-              "gap": -1.8266723026417955
-            }
-          ],
-          "fair_value_at_point_wacc": -0.90855250197155,
-          "gap_at_point_wacc": -1.478185533353885
-        },
-        {
-          "case": "base",
-          "growth": -0.02,
-          "cells": [
-            {
-              "wacc": 0.13386612513555224,
-              "fair_value": 1.1221819167495435,
-              "gap": -0.40937793114154164
-            },
-            {
-              "wacc": 0.14386612513555222,
-              "fair_value": 0.5355233766046229,
-              "gap": -0.718145587723918
-            },
-            {
-              "wacc": 0.15386612513555223,
-              "fair_value": 0.03596455565946079,
-              "gap": -0.9810712862574966
-            },
-            {
-              "wacc": 0.16386612513555224,
-              "fair_value": -0.3946349598795625,
-              "gap": -1.2077026130692519
-            },
-            {
-              "wacc": 0.17386612513555222,
-              "fair_value": -0.7697007916631269,
-              "gap": -1.4051056849061048
-            }
-          ],
-          "fair_value_at_point_wacc": 0.03596455565946079,
-          "gap_at_point_wacc": -0.9810712862574966
-        },
-        {
-          "case": "bull",
-          "growth": 0.04,
-          "cells": [
-            {
-              "wacc": 0.13386612513555224,
-              "fair_value": 3.171575491028462,
-              "gap": 0.6692502793823631
-            },
-            {
-              "wacc": 0.14386612513555222,
-              "fair_value": 2.3908334123137807,
-              "gap": 0.2583333906919929
-            },
-            {
-              "wacc": 0.15386612513555223,
-              "fair_value": 1.7270673691289518,
-              "gap": -0.09101716273642557
-            },
-            {
-              "wacc": 0.16386612513555224,
-              "fair_value": 1.1558711336235958,
-              "gap": -0.39164676414322774
-            },
-            {
-              "wacc": 0.17386612513555222,
-              "fair_value": 0.6591839496304187,
-              "gap": -0.6530610747883752
-            }
-          ],
-          "fair_value_at_point_wacc": 1.7270673691289518,
-          "gap_at_point_wacc": -0.09101716273642557
-        }
-      ],
-      "summary": {
-        "bear": -1.478185533353885,
-        "base": -0.9810712862574966,
-        "bull": -0.09101716273642557
-      },
-      "downside": -1.8266723026417955,
-      "upside": 0.6692502793823631
-    },
-    "fundamentals_source": "store",
-    "flags": []
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
   },
-  "parse_notes": [],
+  "parse_notes": [
+    "no usable final_growth"
+  ],
   "devils_advocate": {
-    "strongest_counter": "This is a deleveraging story and calling it no_edge misses the only thing that matters. Hold the enterprise value flat at roughly 5.3x EBITDA and pay down $365 million of debt a year: in three years debt is about $3.15 billion and the equity is worth roughly $2.15 billion against $1.2 billion today, a 79% gain, WITHOUT any improvement in the business at all. A director backed that with $1.7 million of his own money in August. The mechanism is named, dated and arithmetic, which is exactly what the standing lessons say a thesis needs.",
-    "what_would_prove_it": "Whether adjusted EBITDA holds. The whole argument rests on the enterprise value not shrinking faster than the debt does.",
-    "already_visible": "The evidence points the wrong way for the counter, but not decisively. Revenue fell 3.5% in the first half and 5.5% in the second quarter \u2014 decelerating, not stabilising. The LS&H sale raises $600 million for a segment being let go at a price that covers about 14% of the debt, so it is a liquidity event rather than value creation. And free cash flow is guided to the LOW end of its range. On the other side, the 42% adjusted EBITDA margin has genuinely held. I could not settle it: at -3% EBITDA decline the counter wins comfortably; at -8% with any multiple compression the equity is close to worthless. The counter did NOT win, but it stopped me recording this as rich, which is where the 97th-percentile rank and the declining revenue would otherwise have taken me.",
-    "unresolved": "Whether revenue decline stabilises. That single variable determines whether this equity triples or goes to zero, and nothing I could read settles it. The distribution is genuinely bimodal, which is a reason to record no_edge rather than a midpoint that describes neither outcome."
+    "strongest_counter": "This is the strongest version and I could not defeat it: at any defensible discount rate the market is requiring Clarivate's free cash flow to DECLINE, and the company is delivering flat. On the corrected 2026 run-rate base of roughly $520M of FCFF, the growth the market requires is +1.7% at a 12% WACC, -3.4% at 10% and -9.4% at 8%. Organic revenue is -0.4% and adjusted EBITDA is -1.3%, i.e. approximately flat. If flat is the right forecast, the equity is worth well above $1.84 at any WACC below about 11.5%. And the new tender offer is direct evidence that the 15.61% WACC is wrong: a company whose SECURED notes clear at 97.5 cents is not priced for distress by the people who actually lend to it.",
+    "what_would_prove_it": "The 2028 maturity. Clarivate has to refinance the 3.875% notes, and the coupon it pays is the market's own answer to the cost-of-debt question this model gets wrong - it settles the WACC directly rather than by inference. Short of that, four consecutive quarters of positive organic revenue growth would convert 'flat' from a hope into a trend, and continued sub-par debt repurchases would keep transferring value to the equity.",
+    "already_visible": "Substantially yes, which is why the counter is strong. Organic ACV +1.5%, organic recurring revenue +0.7%, adjusted net income per share UP to $0.38 from $0.32 in H1, $122.9M of H1 free cash flow, and secured notes clearing at 97.5 - all visible today. What is NOT visible is total organic revenue turning positive: it is still -0.4%, held back by transactional revenue, and the headline revenue decline is amplified by divestitures.",
+    "unresolved": "The discount rate, and it decides the name. I can show the engine's 15.61% is wrong - actual interest expense over total debt is 6.81%, and the September tender cleared at 97.5 cents - but I cannot show what the right number is, and between 8% and 12% the equity is worth $6.29 and $1.27 against a $1.84 price. I also could not assess the AI substitution risk to Web of Science with anything better than judgement, and that is the variable the bear case turns on. Nothing in this pass changes the conclusion that the model output is unusable; what changed is that I can now name the defect precisely and cite a market price against it."
   },
-  "what_changed": "Two structural items, neither in the model. On 2026-07-06 Clarivate agreed to sell its Life Sciences & Healthcare segment to Altaris for $600 million \u2014 $500 million cash on completion, $25 million after the transition services agreement and a $75 million seller note \u2014 expected to close before the end of 2026, with LS&H classified as DISCONTINUED OPERATIONS from the third quarter and an expected $225-250 million non-cash goodwill impairment. The full-year 2026 outlook was reaffirmed INCLUDING LS&H: revenue $2.30-2.42bn, adjusted EBITDA $980m-$1.04bn, free cash flow $365-435 million, now expected at the LOW end because of transaction and restructuring costs taken to capture 2027 savings; net proceeds are earmarked for debt reduction. On 2026-09-17 a subsidiary commenced a cash tender offer for certain outstanding debt securities (8-K item 8.01). A director bought 900,000 shares for $1.7 million on 2026-08-18.",
-  "consensus_case": "At $1.90 Clarivate's equity is a thin, heavily levered claim on Web of Science, Derwent and ProQuest \u2014 subscription assets with high renewal rates \u2014 sitting behind $4,251.5 million of debt. The market is pricing the decline it can see: revenue fell 5.5% to $587.3 million in Q2 2026 and 3.5% to $1,172.8 million in the first half, and generative AI is a live substitution threat to exactly the citation- and IP-search workflows the company charges for. Against that, free cash flow of $365-435 million a year on a $1.2 billion market capitalisation is a ~30% equity yield, debt fell $218.4 million in the half, and management has a stated path from 4.0x net leverage to about 2.5x. A stub priced for decline that merely stabilises re-rates violently; a stub priced for decline that accelerates goes to nothing. The price is the market's estimate of that coin flip, and it has fallen 54.7% in a year taking it.",
-  "base_case_rationale": "FCFF roughly flat to slightly declining. Revenue is falling 3.5-5.5%, and the Academia & Government and Intellectual Property segments that remain after the LS&H sale are the slower-growing half of the portfolio, not the faster. Against that, the company is taking real cost out \u2014 the restructuring charges depressing 2026 free cash flow are explicitly buying 2027 savings \u2014 and adjusted EBITDA of $980m-$1.04bn on $2.3-2.4bn of revenue is a 42% margin that has held while revenue fell. I net those to about -2%: cost programmes offset most but not all of a mid-single-digit revenue decline. I differ sharply from the naive +14.4% baseline, which is not a forecast of anything \u2014 it is the ProQuest acquisition of December 2021 rolling through a five-year revenue CAGR, i.e. bought revenue read as organic growth, the EFOR pattern.",
+  "what_changed": "Since this name was last recorded on 2026-09-18 at $1.90, one genuinely new event, and it is informative about the defect that dominates this name. Clarivate ran a cash tender offer for its 3.875% Senior Secured Notes due 2028, capped at $75M: announced 2026-09-17, priced 2026-09-23 at Total Consideration of $975.15 per $1,000, final results 2026-09-24. Those are the three 8-Ks in the last five sessions that helped win the opportunistic slot, and they are one transaction. The company is retiring secured debt at 97.5 cents on the dollar. Q2 2026 (2026-07-29): revenue $587.3M against $621.4M, organic revenue -1.5% with organic subscription +0.7% and organic ACV +1.5%; net loss $268.6M including the $221.7M impairment; adjusted net income $123.1M ($0.19); adjusted EBITDA $247.2M against $261.6M. H1: revenue $1,172.8M, organic -0.4%, adjusted EBITDA $488.4M, adjusted net income $242.4M (up 11%), operating cash flow $233.4M and free cash flow $122.9M.",
+  "consensus_case": "At $1.84 the equity is $1.18B against $4.07B of net debt, so it is 22% of a $5.25B enterprise - a thin residual claim, and that is the whole story. The market is pricing a business whose organic revenue is flat at best (-0.4% in H1 2026, -1.5% organic in Q2), whose adjusted EBITDA is flat ($488.4M H1 against $494.8M), which just took a $221.7M non-cash goodwill impairment, and which carries $7.86B of purchase-accounting intangibles amortising through a reported EBIT of $71.5M. Leverage near 4x on an information-services asset facing generative-AI substitution in academic and IP research means small changes in enterprise value swing the equity violently, and the equity holder is paid last. A 22% free-cash-flow yield on the equity is what that risk costs.",
+  "base_case_rationale": "I will not supply a growth rate for this name for the second time, and the reason is arithmetic rather than reticence. At a flat FCFF assumption the equity is worth $1.27 a share at a 12% WACC, $3.16 at 10% and $6.29 at 8% - the discount rate alone moves the answer from 31% below the price to 242% above it, because the equity is a levered sliver of the enterprise. There is no field in this schema that sets the WACC, and the WACC the engine used (15.61%, on a 79% debt weight) is the one input I can show to be wrong. Recording a fair value here would publish a number whose sign is set by an input I cannot correct; the prior pass recorded $0.04 a share, which is that failure made visible.",
   "key_risks": [
-    "The +194.3% gap and the 97th-percentile Industrials rank that won this opportunistic slot come from a +14.4% revenue-CAGR baseline that is the 2021 ProQuest acquisition, on a company whose revenue is now FALLING 3.5-5.5%",
-    "WACC of 15.4% at a 78% debt weight is set by a synthetic credit rating derived from an EBIT depressed by roughly $400 million a year of ProQuest intangible amortisation \u2014 the cost of debt it implies is far above what Clarivate actually pays, so the printed fair value is unreliable and the verdict is the output, not the number",
-    "The FCFF window includes a segment being sold: LS&H goes to discontinued operations in Q3 2026, so the base and the debt it is compared against both change",
-    "4.0x net leverage on a declining revenue base \u2014 the denominator can fall faster than the numerator is repaid",
-    "Beta 0.72 with R-squared 0.044 is at the very bottom of the fit distribution"
+    "The equity is 22% of enterprise value at ~4x leverage; the answer is a levered function of a discount rate nobody can pin to better than 4 points",
+    "Generative AI substitution in academic discovery and IP search against 0.7% organic subscription growth",
+    "$7.86B of intangibles amortising, with a $221.7M goodwill impairment already taken in Q2 2026",
+    "The 2028 secured maturity has to be refinanced and the current 3.875% coupon is almost certainly not repeatable"
   ],
   "watch_for": [
-    "Q3 2026 organic revenue growth for Academia & Government and Intellectual Property, reported for the first time without LS&H \u2014 the single number the thesis turns on",
-    "Completion of the Altaris sale and the actual application of the $500 million cash to debt",
-    "The outcome of the 2026-09-17 tender offer and the post-tender maturity schedule",
-    "Any evidence of AI substitution in renewal rates rather than in commentary"
+    "The coupon on any refinancing of the 3.875% 2028 notes - the market's direct answer to this name's cost of debt",
+    "Total organic revenue growth turning positive; organic ACV is already +1.5% and recurring +0.7%",
+    "Further sub-par debt repurchases beyond the $75M tendered at 97.5",
+    "Adjusted EBITDA holding near the ~$1.0B annual run rate"
   ],
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex991q22026earningsrelease.htm",
-    "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_ex9901.htm",
-    "https://clarivate.com/news/clarivate-announces-sale-of-life-sciences-healthcare-segment-for-600-million/",
     "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000091/clvt-20260630.htm",
-    "https://www.fool.com/earnings/call-transcripts/2026/08/07/clarivate-clvt-q2-2026-earnings-call-transcript/"
+    "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014070/dp253474_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014388/dp253763_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014423/dp253829_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/clvt-20260729.htm"
   ],
   "flags": []
 }

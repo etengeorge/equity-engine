@@ -9,6 +9,11 @@
     "last_visit": "2026-09-09",
     "verdict": "no_model"
   },
+  "ACAD": {
+    "conviction": "low",
+    "last_visit": "2026-09-25",
+    "verdict": "no_edge"
+  },
   "ACHR": {
     "conviction": "high",
     "last_visit": "2026-09-24",
@@ -154,6 +159,11 @@
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
+  "CD": {
+    "conviction": "medium",
+    "last_visit": "2026-09-25",
+    "verdict": "no_model"
+  },
   "CHEF": {
     "conviction": "medium",
     "last_visit": "2026-09-18",
@@ -166,7 +176,7 @@
   },
   "CLVT": {
     "conviction": "low",
-    "last_visit": "2026-09-18",
+    "last_visit": "2026-09-25",
     "verdict": "no_edge"
   },
   "CMC": {
@@ -224,6 +234,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "CVBF": {
+    "conviction": "medium",
+    "last_visit": "2026-09-25",
+    "verdict": "no_edge"
+  },
   "CVLT": {
     "conviction": "medium",
     "last_visit": "2026-09-07",
@@ -247,6 +262,11 @@
   "DNTH": {
     "conviction": "high",
     "last_visit": "2026-09-14",
+    "verdict": "no_model"
+  },
+  "DYN": {
+    "conviction": "high",
+    "last_visit": "2026-09-25",
     "verdict": "no_model"
   },
   "EBC": {
@@ -328,6 +348,11 @@
     "conviction": "low",
     "last_visit": "2026-09-22",
     "verdict": "rich"
+  },
+  "GHC": {
+    "conviction": "low",
+    "last_visit": "2026-09-25",
+    "verdict": "no_edge"
   },
   "GLRE": {
     "conviction": "low",
@@ -424,6 +449,11 @@
     "last_visit": "2026-09-21",
     "verdict": "no_model"
   },
+  "INVA": {
+    "conviction": "low",
+    "last_visit": "2026-09-25",
+    "verdict": "no_edge"
+  },
   "IRTC": {
     "conviction": "high",
     "last_visit": "2026-09-23",
@@ -488,6 +518,11 @@
     "conviction": "low",
     "last_visit": "2026-09-09",
     "verdict": "no_edge"
+  },
+  "LMND": {
+    "conviction": "medium",
+    "last_visit": "2026-09-25",
+    "verdict": "no_model"
   },
   "LOVE": {
     "conviction": "low",
@@ -573,6 +608,11 @@
     "conviction": "high",
     "last_visit": "2026-09-24",
     "verdict": "no_model"
+  },
+  "OPCH": {
+    "conviction": "low",
+    "last_visit": "2026-09-25",
+    "verdict": "no_edge"
   },
   "ORA": {
     "conviction": "medium",
@@ -907,6 +947,11 @@
   "WLTH": {
     "conviction": "high",
     "last_visit": "2026-09-14",
+    "verdict": "no_model"
+  },
+  "WNC": {
+    "conviction": "low",
+    "last_visit": "2026-09-25",
     "verdict": "no_model"
   },
   "XENE": {

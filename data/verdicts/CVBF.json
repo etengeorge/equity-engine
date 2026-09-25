@@ -1,0 +1,53 @@
+{
+  "ticker": "CVBF",
+  "date": "2026-09-25",
+  "sector": "Financials",
+  "name": "CVB FINANCIAL CORP",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": -0.02,
+  "bull_growth": 0.06,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 22.299999237060547,
+  "market_implied_growth": null,
+  "cohort_pct": 47.5,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The declining ROATCE trend is the real signal and I am explaining it away as acquisition noise. 18.48% -> 14.95% -> 14.28% -> 13.38% (Q1 2026, BEFORE any Heritage expense) is four consecutive years of deterioration in a period when this bank made no large acquisition until 2026, so the trend is organic, not accounting. On the VLY rule - a monotonic quarterly path means the three-year average describes a company that no longer exists - the direction here is DOWN, so the engine's 14.9% overstates the forward return and the gap is wider than my correction implies, not narrower.",
+    "what_would_prove_it": "Q3 and Q4 2026 ROATCE with the $31.4M of acquisition expense out of the run rate. If core ROATCE settles near 15-17% the decline was mix and rate, and Heritage is accretive as underwritten; if it settles near 12-13% the trend is the franchise and the justified multiple falls below the current one.",
+    "already_visible": "Partly. Q1 2026 ROATCE of 13.38% is a clean pre-acquisition quarter and it continues the decline, which supports the counter. Against it, Q2 core net income of $73.4M annualised against roughly $1.95-2.08B of tangible common equity is about 14-15%, and NIM expanded 36bp to 3.72% - so the core earning power in the quarter does not corroborate further deterioration. Net charge-offs were 0.00% in every period shown.",
+    "unresolved": "Whether the Heritage fair-value discount accretion ($2.7M in Q2) is flattering the NIM expansion enough to matter, and how much of it runs off. I also could not separate how much of the Q2 NIM gain is Heritage's balance-sheet restructuring - $815M of securities and loans-held-for-sale were repositioned into cash at close - from underlying spread. Neither changes the verdict, because the verdict is that the headline gap is an artifact, not that the bank is cheap."
+  },
+  "what_changed": "The Heritage Bank of Commerce acquisition closed on 2026-04-17 (announced 2025-12-17, shareholder approval 2026-03-26, regulatory approval 2026-04-01, core conversion 2026-06-22) and it rewrites both inputs to this model. Acquired net assets $845M, adding $334M of goodwill and $117M of core deposit intangible, 16 business financial centres and Bay Area presence; total assets now >$21B. Q2 2026 carried $31.4M of acquisition expense and a $4.25M provision for unfunded commitments, taking GAAP net income to $48.3M and EPS to $0.29 from $0.38, against core net income of $73.4M. NIM rose to 3.72% from 3.36% helped by $2.7M of Heritage fair-value discount accretion. Organic loan growth was $477M in the quarter. Deal underwriting was IRR 20%, EPS accretion 13%, ROATCE 17%.",
+  "consensus_case": "At $22.30 CVB Financial trades at roughly 1.9-2.0x its CURRENT tangible book for a bank that has paid a dividend for 197 consecutive quarters, funds itself with 52% noninterest-bearing deposits at an 0.86% cost of deposits, runs an NPA ratio of 0.08% and zero net charge-offs, and has just integrated a $5.7B acquisition 187 days from announcement to core-system conversion. A ~2x tangible book multiple on a 14-15% return on tangible equity with that deposit franchise is close to what the arithmetic supports; the market is not making an obvious error here. The bear reading inside the same price is that ROATCE has fallen every year - 18.48% (2023), 14.95% (2024), 14.28% (2025), 13.38% (Q1 26) - and that CRE is 75% of a $12.0B loan book in California.",
+  "base_case_rationale": "A sustainable ROATCE of roughly 14-15% is defensible and it is, within a few basis points, what the engine already computed - the company's own disclosed ROATCE was 14.95% in 2024 and 14.28% in 2025, so the numerator is not the defect here. I am deliberately NOT supplying it as an override, because the model would price it against a tangible book that predates the acquisition (see data_quality_note), and a correct return divided by a stale book produces a confidently wrong fair value. That is the WLFC rule: when one arm of the calculation cannot be corrected through the schema, publish no number rather than half a correction.",
+  "key_risks": [
+    "CRE is 75% of a $12.0B loan book in California; the $127M ACL covers the $110M of already-classified loans with little margin",
+    "ROATCE has declined for four consecutive periods including a clean pre-acquisition Q1 2026",
+    "Goodwill and core deposit intangible now total $1.22B against $3.17B of book equity, so tangible book is a 62% residual and small equity moves swing the multiple",
+    "Integration of a $5.7B balance sheet converted in 187 days - fast conversions surface problems later"
+  ],
+  "watch_for": [
+    "Q3/Q4 2026 core ROATCE once the $31.4M of acquisition expense is out - 15%+ confirms the deal, 12-13% confirms the decline",
+    "Classified loans against the ACL: $110M vs $127M today",
+    "Heritage fair-value accretion disclosed per quarter, and NIM ex-accretion",
+    "Whether the noninterest-bearing share, down from 59.7% to 52.3% of deposits year over year, keeps falling"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/354647/000119312526340248/cvbf-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-20260722.htm",
+    "https://www.sec.gov/Archives/edgar/data/354647/000119312526167264/d123515d8k.htm"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_53%_of_book"
+  ]
+}

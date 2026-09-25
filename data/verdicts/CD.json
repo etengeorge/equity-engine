@@ -1,0 +1,58 @@
+{
+  "ticker": "CD",
+  "date": "2026-09-25",
+  "sector": "Financials",
+  "name": "CHAINCE DIGITAL HOLDINGS INC",
+  "method": "book",
+  "verdict": "no_model",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": -0.3,
+  "bull_growth": 0.4,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 5.170000076293945,
+  "market_implied_growth": null,
+  "cohort_pct": 8.3,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The refusal wastes the only actionable observation on the list. This is the RICHEST name in today's ten by the model's own reckoning - the 8th percentile of 339 Financials, a -128.9% gap - and everything I found corroborates the direction: 300x revenue, 12x tangible book, losses in every year, a doubling on a $2.0M warrant cancellation, and serial equity issuance. If the engine is ever going to be right about a name, it is this one, and 'no_model' throws that away.",
+    "what_would_prove_it": "Revenue. A tokenisation and brokerage platform worth $568.7M should be able to show placement and platform fees growing toward tens of millions; the next two 10-Qs will say whether the ATM mandates convert into revenue or whether $1.87M annualised is the business. And the share count: whether the August registered direct is followed by more.",
+    "already_visible": "Yes - revenue of $1,867,068, $1,007,430 and $445,928 across three years IS growing fast in percentage terms but from nothing, and a $16.2M raise in August against $46.8M of equity is a third of the balance sheet in one placement. So the bear evidence is visible today.",
+    "unresolved": "I accept the counter's direction and still cannot express it as a fair value, because the model that would price it returns a negative multiple and the frame is the wrong one for a broker-dealer. Supplying a ROTCE here would launder a category error into a number, which the standing PIPR rule forbids in terms. I also could not identify what actually caused the +75% move: the 8-K the selection score fired on is a $2.0M warrant cancellation, and neither the filings nor a web search produced any other catalyst - so I am recording an unexplained move rather than inventing a reason for it. Note also that the brief's Recent-filings section listed only ONE filing for this company while the fetch returned nine, so my view of its filing history came from the fetch, not the brief."
+  },
+  "what_changed": "The 8-K that won this name an opportunistic slot does not explain the move. On 2026-09-24 Chaince announced it had repurchased and permanently cancelled ALL warrants issued in its November 2023 private placement for aggregate cash consideration of US$2.0 million, closing 2026-09-21, with no shares issued and no warrants now outstanding. That is a $2.0M anti-dilutive housekeeping transaction in a $568.7M market capitalisation - mildly positive, and not remotely proportionate to a +75.3% five-day and +50.3% twenty-one-day move. Third-party pricing shows the shares at $3.50 on 2026-09-21 against a $2.91 prior close and a $5.17 close on 2026-09-24, so the move is real and it happened across 22-24 September. I searched for another catalyst and found none. Other recent activity: an approximately $16.2M registered direct offering announced 2026-08-10 'to advance its digital asset and capital markets strategy', and Chaince Securities engagements as exclusive ATM sales agent for Top Wealth Group ($200M), Wetour Robotics ($50M) and ZJK Industrial ($9.8M).",
+  "consensus_case": "There is no defensible case for this price on any cash-flow or book measure, and saying so is the honest output. Chaince Digital Holdings - formerly Mercurity Fintech Holding - carries a market capitalisation of $568.7M on annual revenue of $1,867,068 and tangible common equity of about $46.6M. That is roughly 300x revenue and 12x tangible book, for a company that lost money in each of the last three years. What the market is buying is a narrative - tokenisation, on-chain innovation and a FINRA-registered broker-dealer subsidiary that acts as exclusive sales agent on at-the-market programmes for other micro-cap Nasdaq issuers - and a float small enough that $2M of news can move it 78%. The steelman is that the regulated brokerage licence plus a tokenisation platform is an option on a large market; the option has a strike nobody has priced and the company has $1.9M of revenue to show for it.",
+  "base_case_rationale": "No sustainable return on tangible equity exists to supply and none should be invented. The three-year net income series is [-$5,097,831, -$4,534,397, -$9,357,196] - losses in every year - giving a mean return on tangible common equity of -34.7% with an unstable range of -54.6% to -14.2%, from which the model derives a justified price-to-tangible-book of NEGATIVE 4.59. Separately, and independently of the losses, price-to-tangible-book is the wrong frame for this business at all: Chaince is a broker-dealer and platform company whose $46.6M of tangible equity is a working-capital and regulatory-net-capital balance, not a constraint on how much revenue it can earn. Both the negative return and the category error point the same way - no number.",
+  "key_risks": [
+    "Market capitalisation of $568.7M on $1,867,068 of annual revenue - roughly 300x sales",
+    "Losses in all three years with an unstable return range of -54.6% to -14.2%",
+    "Serial equity issuance including a ~$16.2M registered direct in August against $46.8M of total equity",
+    "A float small enough that a $2.0M transaction moved the shares 78% in three sessions",
+    "No usable cost of equity: beta is the sector median 0.88 standing in for a regression with R-squared 0.005"
+  ],
+  "watch_for": [
+    "Whether the ATM sales-agent mandates convert into disclosed placement-fee revenue in the next two 10-Qs",
+    "Further registered direct offerings or item 3.02 issuances - the August raise was a third of equity",
+    "Any disclosure of digital-asset holdings on balance sheet, which would change the frame entirely",
+    "Nasdaq continued-listing status given the 63.9% twelve-month decline before this move"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1527762/000149315226044115/form8-k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1527762/000149315226038400/form10-q.htm",
+    "https://www.sec.gov/Archives/edgar/data/1527762/000149315226037115/form8-k.htm",
+    "https://finance.yahoo.com/markets/crypto/articles/chaince-digital-holdings-inc-nasdaq-140000981.html",
+    "https://upstox.com/us-stocks/cd-share-price/"
+  ],
+  "flags": [
+    "beta_from_sector_median_0.88(unreliable_r2_0.005_raw_0.80)",
+    "unstable_rotce_-54.6%_to_-14.2%",
+    "loss_year_in_window"
+  ]
+}

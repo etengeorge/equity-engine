@@ -1,0 +1,57 @@
+{
+  "ticker": "WNC",
+  "date": "2026-09-25",
+  "sector": "Industrials",
+  "name": "WABASH NATIONAL",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.15,
+  "bull_growth": 0.25,
+  "rotce_override": null,
+  "horizon_months": 30,
+  "price_at_verdict": 11.710000038146973,
+  "market_implied_growth": -0.09173925834463598,
+  "cohort_pct": 90.1,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The refusal is the error, because a trough base is exactly when a cyclical is cheap. Wabash earned $221.5M of free cash flow in 2023 against today's $476M market cap; if the cycle merely normalises to a mid-cycle $120-150M the equity is worth a multiple of the price, and every recovery signal in the September deck is dated and third-party sourced (ACT orders +195% y/y, backlog +14% sequentially, tender rejections 14% vs 5%). Refusing to value a cyclical at the trough guarantees you never own one.",
+    "what_would_prove_it": "Two observables. The ITC final injury determination, expected in Q3 2026, and whether duties survive as enforceable orders. And conversion of the 2027 backlog: Q4 2026 and Q1 2027 gross margin recovering from 3.7% toward the 12-14% Wabash earned in 2022-23, which is what turns a $956M backlog into cash.",
+    "already_visible": "Partly, and it cuts both ways. Visible for the bull: backlog $705M -> $837M -> $956M across three quarters, the >12,000-unit 2027 book, and affirmative PRELIMINARY countervailing and antidumping duties already calculated by Commerce after the ITC's 2026-02-06 reasonable-indication finding. Visible against it: Q3 2026 is GUIDED to a -4.0% operating margin, so the trough is not behind the company at the date of this note, and Q2 free cash flow of +$3.1M was the first positive quarter in five.",
+    "unresolved": "Whether the $150M convertible is a bridge or a dilution. The company issued it at a 32.5% premium precisely because equity was unattractive, and 11.87M potential shares against 40.67M outstanding means that if the recovery does arrive the equity holder captures roughly three quarters of it. I could not resolve the ITC final determination - I found the expectation of a Q3 2026 decision in the 10-Q but no ruling, and the screen's news store carries no item on it. I also could not establish a maintenance-versus-growth capex split, so even a recovered EBITDA does not translate cleanly into owner earnings."
+  },
+  "what_changed": "Three things after the 2026-03-31 balance sheet the engine's enterprise value is built on. (1) On 2026-07-20 Wabash closed $150.0M of 4.00% Convertible Senior Notes due 2032 (items 1.01/2.03/3.02), conversion price $16.75, with a MAXIMUM 11,867,085 shares issuable - 29% of the 40.67M shares outstanding. (2) On 2026-08-12 the Sixth Amendment replaced the revolver with a $300M borrowing-base ABL secured on substantially all personal property, with the $40M availability block and $90M liquidity covenant described above. (3) Total debt obligations were $515.0M at 2026-06-30 against the engine's $498.0M, and liquidity fell 38% year over year to $192.8M. Separately the recovery signals are real and dated: backlog +14% to $956M in Q2 (from $705M in Dec 2025), August net trailer orders 24.3k (+195% y/y per ACT), tender rejections ~14%, >12,000 units already in the 2027 backlog at >500bps better material margin, and the ITC was due to make its FINAL injury determination on dumped Chinese/Canadian/Mexican van trailers in Q3 2026 after affirmative preliminary CVD and AD duties.",
+  "consensus_case": "At $11.71 Wabash is priced as a trailer maker in the third year of a freight depression whose current earnings are negative and whose balance sheet has just been refinanced on lender-imposed terms. Q2 2026 gross margin was 3.7% and H1 was 0.66%; H1 adjusted EBITDA was NEGATIVE $47.8M and H1 free cash flow negative $34.2M; Q3 is guided to a -4.0% operating margin and $(0.45) EPS. The August 12 ABL amendment carries a $40M availability block and a $90M minimum-liquidity covenant that only lift once fixed-charge coverage exceeds 1.0x for two quarters ending no earlier than 2026-12-31 - i.e. the lenders have written down in the credit agreement that coverage is currently below 1x. A $476M equity value on ~$665M of gross debt against a company burning cash is a levered option on the cycle turning, and that is what the market is pricing.",
+  "base_case_rationale": "I cannot state a five-year FCFF growth rate because there is no base to grow. The engine's $99.4M normalized FCFF is the mean of [-$13.0M, $45.1M, $221.5M], where the $221.5M is the 2023 freight peak, and the company's own current free cash flow is negative $34.2M for H1 2026. Growth applied to a base that is 2.5x the trailing run rate and of the opposite sign is not a valuation. The forward question here is the shape and timing of a cyclical recovery in trailer replacement demand plus the outcome of a trade case, neither of which a five-year constant growth rate off a mis-specified base can express.",
+  "key_risks": [
+    "Fixed-charge coverage is below 1.0x on the lenders' own drafting; a further year of cash burn approaches the $90M minimum-liquidity covenant inside a borrowing base already reduced by a $40M block",
+    "11,867,085 shares issuable on the 2032 converts, 29% of the current count, captures most of a cyclical recovery before the existing equity does",
+    "The trade case is the largest single swing factor and it is a regulatory outcome, not a management decision",
+    "The 2025 reported profitability was a $337.4M non-cash reversal of the Missouri legal accrual, so any screen or model keying off reported 2025 operating income is describing a litigation event, not a business"
+  ],
+  "watch_for": [
+    "ITC final injury determination on dry van and refrigerated trailer imports and whether AD/CVD orders issue and are enforced",
+    "Q4 2026 fixed-charge coverage ratio - the first quarter that can count toward lifting the $40M availability block",
+    "Gross margin recovering from 3.7% (Q2 2026) as the 2027 backlog converts; management quoted >500bps of material margin improvement on 2027 quotes",
+    "Liquidity, which fell from $311.9M to $192.8M in twelve months against a $90M covenant floor"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/879526/000087952626000089/wnc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/879526/000119312526308984/d156940d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/879526/000119312526303153/d32775d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/879526/000119312526347884/d53407d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/879526/000087952626000097/wnc-20260924.htm",
+    "https://www.sec.gov/Archives/edgar/data/879526/000087952626000087/wnc-20260729.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_2.8x_of_mean"
+  ]
+}

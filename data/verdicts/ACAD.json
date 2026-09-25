@@ -1,0 +1,190 @@
+{
+  "ticker": "ACAD",
+  "date": "2026-09-25",
+  "sector": "Health Care",
+  "name": "ACADIA PHARMACEUTICALS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.2,
+  "bear_growth": 0.05,
+  "bull_growth": 0.32,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 22.18000030517578,
+  "market_implied_growth": 0.28327131497828073,
+  "cohort_pct": 48.4,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.2,
+    "market_implied_growth": 0.28327131497828073,
+    "growth_delta": -0.08327131497828072,
+    "fair_value": 17.73367032029223,
+    "price": 22.18000030517578,
+    "gap": -0.20046573145654933,
+    "fair_value_band": {
+      "low": 16.42438925279508,
+      "point": 17.73367032029223,
+      "high": 19.370113081443705
+    },
+    "fcff_base_used": 92300000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.11126721114034366,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 92300000,
+      "price": 22.18000030517578,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.09126721114034365,
+              "fair_value": 14.263045433653524,
+              "gap": -0.356941152506423
+            },
+            {
+              "wacc": 0.10126721114034366,
+              "fair_value": 13.175144076278785,
+              "gap": -0.4059899055454783
+            },
+            {
+              "wacc": 0.11126721114034366,
+              "fair_value": 12.326139841536149,
+              "gap": -0.44426782362758577
+            },
+            {
+              "wacc": 0.12126721114034365,
+              "fair_value": 11.645239787143408,
+              "gap": -0.4749666534303
+            },
+            {
+              "wacc": 0.13126721114034365,
+              "fair_value": 11.087101721269253,
+              "gap": -0.500130677695165
+            }
+          ],
+          "fair_value_at_point_wacc": 12.326139841536149,
+          "gap_at_point_wacc": -0.44426782362758577
+        },
+        {
+          "case": "base",
+          "growth": 0.2,
+          "cells": [
+            {
+              "wacc": 0.09126721114034365,
+              "fair_value": 21.471713974877,
+              "gap": -0.031933558185456734
+            },
+            {
+              "wacc": 0.10126721114034366,
+              "fair_value": 19.370113081443705,
+              "gap": -0.12668562601761457
+            },
+            {
+              "wacc": 0.11126721114034366,
+              "fair_value": 17.73367032029223,
+              "gap": -0.20046573145654933
+            },
+            {
+              "wacc": 0.12126721114034365,
+              "fair_value": 16.42438925279508,
+              "gap": -0.2594955353105928
+            },
+            {
+              "wacc": 0.13126721114034365,
+              "fair_value": 15.35389247983739,
+              "gap": -0.30775959113695306
+            }
+          ],
+          "fair_value_at_point_wacc": 17.73367032029223,
+          "gap_at_point_wacc": -0.20046573145654933
+        },
+        {
+          "case": "bull",
+          "growth": 0.32,
+          "cells": [
+            {
+              "wacc": 0.09126721114034365,
+              "fair_value": 30.317614939618544,
+              "gap": 0.3668897440251082
+            },
+            {
+              "wacc": 0.10126721114034366,
+              "fair_value": 26.949869620382884,
+              "gap": 0.21505271639216517
+            },
+            {
+              "wacc": 0.11126721114034366,
+              "fair_value": 24.330716836132147,
+              "gap": 0.09696647887125986
+            },
+            {
+              "wacc": 0.12126721114034365,
+              "fair_value": 22.237935835980714,
+              "gap": 0.0026120617677094504
+            },
+            {
+              "wacc": 0.13126721114034365,
+              "fair_value": 20.52921655154863,
+              "gap": -0.07442667858042973
+            }
+          ],
+          "fair_value_at_point_wacc": 24.330716836132147,
+          "gap_at_point_wacc": 0.09696647887125986
+        }
+      ],
+      "summary": {
+        "bear": -0.44426782362758577,
+        "base": -0.20046573145654933,
+        "bull": 0.09696647887125986
+      },
+      "downside": -0.500130677695165,
+      "upside": 0.3668897440251082
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "A free-cash-flow DCF cannot value a company deliberately in investment mode, and this is that error. ACADIA is spending heavily on two Phase 3 studies plus a Lewy body dementia programme; a model that treats all of that R&D as a period cost will ALWAYS report a growth-stage pharma as expensive, because the spending that suppresses today's cash flow is the asset being bought. On GAAP earnings - around $120-130M a year and growing - the stock is roughly 30x, which for 16% revenue growth with a 2038 patent runway is unremarkable rather than rich. The corollary: if you do NOT expense stock compensation, the market requires only +14.5% growth, BELOW my +20% base case, and the name is cheap. The entire verdict rests on one accounting choice.",
+    "what_would_prove_it": "The share count. If ACADIA is genuinely paying for its stock compensation, buybacks should hold the basic weighted-average count flat or falling. And on the pipeline: the CTAD presentation on 2026-11-16-19 gives the full dataset, and the amended Phase 3 design tells you whether management believes the 60 mg signal is real or is protecting sunk cost.",
+    "already_visible": "Yes, and it goes against the counter on the accounting point. Basic weighted-average shares rose 2.25% year over year - 171,603k against 167,827k in Q2, 171,063k against 167,321k in H1 - so the compensation is NOT being paid for out of buybacks and expensing it is the correct treatment. That is the BOX test and it fails. What is NOT yet visible is the pipeline resolution: the Phase 2 data are ambiguous by construction (primary missed, secondary hit, dose-response present), and CTAD is seven weeks away.",
+    "unresolved": "Whether the R&D that suppresses free cash flow is worth more or less than it costs - which is the whole argument, and a DCF on current cash flow cannot answer it. I also could not separate maintenance from growth spending inside R&D and SG&A, so I cannot construct the 'harvest' free cash flow that would settle whether the business is cheap if you stopped investing. Because that counter is material and unanswered, I am recording no_edge rather than the 'rich' the arithmetic alone would support: the required growth band is +24.7% to +33.2% across a plus-or-minus 15% base, entirely above my +20%, so the gap does not flip sign on the base - it flips on the frame."
+  },
+  "what_changed": "The event that decides the week. On 2026-09-24 ACADIA reported topline Phase 2 results from the RADIANT programme for remlifanserin in Alzheimer's disease psychosis: the primary endpoint (SAPS-H+D) MISSED at p=0.0603, a -12.6 change against -10.4 for placebo, effect size 0.26; the key secondary (CGI-S-ADP) hit at p=0.0077 nominal, effect size 0.37. The 30 mg dose showed minimal improvement and is being removed from the Phase 3 programme; the 60 mg dose advances and both ongoing Phase 3 studies continue with amendments. Safety was clean - no QT signal, no motor or cognitive impact, no deaths in the treatment arms. The stock fell 12.78% to $22.18 on the day, its worst in two years, a fifth consecutive down day; Goldman reiterated Sell, Citi cut the target to $33 from $40 and cut the probability of success to 20%. Detailed data goes to CTAD on 2026-11-16-19. Earlier: Q2 revenue $308.0M (+16.4%), H1 $576.0M (+13.2%); EU approval of DAYBU for Rett syndrome on 2026-08-24; H1 operating cash flow $134.8M against $84.3M, +60%.",
+  "consensus_case": "At $22.18, two days after a 13% fall, the market is paying an enterprise value of $2.87B for roughly $1.25B of revenue growing 16% - about 2.3x sales - on a company with no debt, $956M of cash and investments, NUPLAZID protected to February 2038 by the Hetero settlement, and DAYBUE now approved in both the US and the EU for Rett syndrome. That is not a demanding multiple for a profitable, growing specialty pharma. The bear reading inside the same price is that ACADIA converts very little of that revenue into owner cash: reported free cash flow is $105M on $1.07B of revenue, and two thirds of it is stock compensation the company adds back. Strip that and the business earns about $31-92M of economic free cash flow, against which $2.87B is a high price unless the pipeline delivers - and the pipeline just missed.",
+  "base_case_rationale": "I underwrite +20% five-year growth in ECONOMIC free cash flow - i.e. after expensing stock compensation - off a trailing-twelve-month base of about $92M. The base: FY2025 CFO was $109.8M, H1 2025 $84.3M and H1 2026 $134.8M, so LTM CFO is roughly $160M; less ~$5M of capex and ~$63M of average annual stock compensation gives ~$92M. The growth: revenue is compounding 13-16% with DAYBUE still scaling and a new EU market, NUPLAZID has a twelve-year patent runway, and a specialty pharma at this revenue scale gets real operating leverage on a largely built commercial infrastructure - so FCFF should grow faster than revenue. I do not underwrite the +28.5% the price requires, because that needs both the revenue growth AND a step-change in conversion, and the asset that was supposed to provide the step-change is the one that just missed its primary endpoint.",
+  "key_risks": [
+    "Remlifanserin Phase 3 in ADP on a Phase 2 effect size of 0.26 that missed at p=0.0603; Citi puts success at 20%",
+    "Two thirds of reported free cash flow is stock compensation and the basic share count is rising 2.25% a year, so it is not being paid for",
+    "DAYBUE addresses a finite Rett syndrome population; the EU approval extends geography, not indication",
+    "The FCFF frame systematically misprices a company funding two Phase 3 programmes, in both directions depending on the accounting choice"
+  ],
+  "watch_for": [
+    "CTAD, 2026-11-16-19: the full RADIANT Phase 2 dataset and the amended Phase 3 design",
+    "Whether basic weighted-average shares stop rising - the test of whether stock compensation is being paid for",
+    "H2 2026 operating cash flow against H1's $134.8M; FY2025 H2 was only $25.6M",
+    "DAYBU EU launch trajectory and any DAYBUE label or indication expansion"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1070494/000119312526401157/d168737d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070494/000119312526333243/acad-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070494/000119312526332858/acad-20260804.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070494/000119312526389400/d143428d8k.htm"
+  ],
+  "flags": [
+    "lumpy_fcff_spread_1.5x_of_mean",
+    "possible_peak_cycle_base_newest_fcf_6.3x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_67%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}
