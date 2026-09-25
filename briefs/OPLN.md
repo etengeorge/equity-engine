@@ -1,82 +1,88 @@
-# CVBF — CVB FINANCIAL CORP
-*Financials · brief generated 2026-09-25 · selected as **rotation***
+# OPLN — OPENLANE
+*Industrials · brief generated 2026-09-25 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 243/1956
+- rotation position 247/1956
 
 ## Market
 | | |
 |---|---|
-| price | $22.30 |
-| market cap | $3.9B |
-| 5d / 21d / 63d / 252d | -1.8% / -0.6% / +2.1% / +18.0% |
-| 60d avg daily $ volume | $30.0M |
-| beta (vs IWM) | 0.91 (R²=0.46) |
-| 5d volume vs 60d average | 1.3x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 95% / debt 5% |
+| price | $34.50 |
+| market cap | $4.2B |
+| 5d / 21d / 63d / 252d | +0.7% / +0.6% / -13.0% / +22.1% |
+| 60d avg daily $ volume | $42.2M |
+| beta (vs IWM) | 0.97 (R²=0.248) |
+| 5d volume vs 60d average | 1.0x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 89% / debt 11% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **$267.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$336.5M', '$239.8M', '$185.0M']
+Enterprise value **$4.6B** · FCFF yield **+5.8%**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +14.9% |
-| cost of equity | +10.2% |
-| justified P/TBV | 1.58 |
-| actual P/TBV | 2.58 |
-| tangible book / share | $8.66 |
-| implied gap | -38.5% |
+| 9.9% − 1pt | +5.5% |
+| **9.9% (point)** | **+8.9%** |
+| 9.9% + 1pt | +12.0% |
 
-Cohort: **48th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -3.8%).
+
+Naive baseline for comparison: **-2.4%** (5y revenue CAGR -2.4%).
+Gap under that baseline: **-40.9%** (fair value $20.38 vs price $34.50).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **36th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -16.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_53%_of_book`
+- `possible_peak_cycle_base_newest_fcf_1.8x_oldest_growth_applied_to_a_peak_overstates_value`
 
 ## Recent filings
-- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/354647/000119312526340248/cvbf-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-20260722.htm
-- 2026-07-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526313195/cvbf-20260722.htm
-- 2026-06-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526271066/cvbf-20260615.htm
-- 2026-06-01 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526251450/cvbf-20260601.htm
-- 2026-05-26 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/354647/000119312526239684/cvbf-20260520.htm
-- 2026-05-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/354647/000119312526236235/cvbf-20260520.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/354647/000119312526214674/cvbf-20260331.htm
-- 2026-04-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526171642/cvbf-20260422.htm
-- 2026-04-21 **8-K** — items 2.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526167264/d123515d8k.htm
+- 2026-08-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000110465926096008/tm2623104d1_8k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000031/opln-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/opln-20260804.htm
+- 2026-06-12 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000027/kar-20260609.htm
+- 2026-06-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000024/opln-20260605.htm
+- 2026-05-29 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000022/kar-20260529.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000019/opln-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000018/opln-20260505.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1395942/000110465926048054/tm261398-1_def14a.htm
+- 2026-03-03 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000015/kar-20260303.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-ex99_1.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-ex99_2.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313195/cvbf-ex99_1.htm
-- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526271066/cvbf-ex99_1.htm
+- **2026-08-04** · EX-99.1 · press release — EXHIBIT 99.1 - EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/exhibit991-q22026earningsr.htm
+- **2026-08-04** · EX-99.2 · presentation — EXHIBIT 99.2 - EARNINGS RELEASE SUPPLEMENT *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/exhibit992-q22026ersupplem.htm
+- **2026-08-04** · EX-99.3 · press release — EXHIBIT 99.3 - EARNINGS SLIDES *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/q22026openlaneearningssl.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
-- **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
-- **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
-- **2026-09-24** · Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/klarna-falls-3-as-selling-persists-weeks-after-its-guidance-cut-affirm-advances-2/
-- **2026-09-24** · How Is Fiserv's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4780463/how-is-fiserv-s-stock-performance-compared-to-other-financial-stocks
-- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
+- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
-- **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
-- **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
+- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
+- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
+- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 
 ## Market and macro context
-- **2026-09-25** · Dow Jones Futures Rise, Market Resilient Amid Higher Yields; Taiwan Semi Is In Buy Area — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-resilient-yields-oil-prices-rising-tesla-semi-event/?src=A00220&yptr=yahoo
-- **2026-09-25** · Easing Oil Prices, Tech Strength Lift Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-strength-111205154.html
-- **2026-09-25** · Why stocks held up despite rising yields and $100 oil? These 2 words explain it — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/why-stocks-held-despite-rising-110254319.html
-- **2026-09-25** · 2 Industrials Stocks Worth Investigating and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-worth-investigating-104837526.html
+- **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-25** · Oppenheimer resets Microsoft stock price target after HQ visit — *TheStreet* — https://www.thestreet.com/investing/stocks/oppenheimer-resets-microsoft-stock-price-target-after-hq-visit
+- **2026-09-25** · TTM Technologies’ (TTMI) 91% Rally Fueled by AI Bottleneck Rotation — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-91-rally-143657552.html
+- **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
 - **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
@@ -89,19 +95,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
-- BUR: no_model · price $4.35
-- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
-- CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- DAVE: no_model · price $326.19
+## Prior verdicts elsewhere in Industrials
+- ACHR: no_model · price $5.71
+- ATKR: no_model · price $94.32
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
+- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
 
 ---
 

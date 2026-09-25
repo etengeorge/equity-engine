@@ -1,5 +1,19 @@
 [
  {
+  "id": "392049fa-a74d-3709-878a-0e6c9b579e61",
+  "ts": "2026-09-25T13:24:48+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "127da582-37fb-3844-9be4-174f81a04488",
   "ts": "2026-09-24T20:02:48+00:00",
   "title": "Sector Update: Tech Stocks Retreat Late Afternoon",

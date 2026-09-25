@@ -1,5 +1,33 @@
 [
  {
+  "id": "ead24c55-b637-381f-9e2f-6bdaa1b7c868",
+  "ts": "2026-09-25T13:50:50+00:00",
+  "title": "Comcast Slips as KeyBanc Cuts to Underweight on Broadband Share Losses; AT&T and Verizon Hold Steady",
+  "summary": "KeyBanc just slapped an Underweight rating on Comcast with a price target that implies further pain ahead, and the stock is already down 20% this year as fiber rivals keep stealing its most valuable customers.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/25/comcast-slips-as-keybanc-cuts-to-underweight-on-broadband-share-losses-att-and-verizon-hold-steady/",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "7e83c802-e229-3af9-9430-911f8e633b17",
+  "ts": "2026-09-25T12:20:00+00:00",
+  "title": "Stock Market News for Sep 25, 2026",
+  "summary": "U.S. stocks ended mostly lower on Thursday, with the Dow recording its third straight day of losses, as oil prices and Treasury yields rose, and uncertainty about the Middle East continued to dent investors' sentiment.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "c3825a97-9d32-349c-9e12-055309aa2e2a",
   "ts": "2026-09-24T11:00:00+00:00",
   "title": "Meta Maps Out Muse Monetization Strategy: Tap With ETFs or Stock?",

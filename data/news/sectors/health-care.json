@@ -1,5 +1,47 @@
 [
  {
+  "id": "392049fa-a74d-3709-878a-0e6c9b579e61",
+  "ts": "2026-09-25T13:24:48+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "60fde575-3c95-34fa-8867-abd381da0c4a",
+  "ts": "2026-09-25T13:19:33+00:00",
+  "title": "Sector Update: Healthcare Stocks Edge Higher Premarket Friday",
+  "summary": "Healthcare stocks were edging higher premarket Friday, with the State Street Health Care Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131933210.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "7e83c802-e229-3af9-9430-911f8e633b17",
+  "ts": "2026-09-25T12:20:00+00:00",
+  "title": "Stock Market News for Sep 25, 2026",
+  "summary": "U.S. stocks ended mostly lower on Thursday, with the Dow recording its third straight day of losses, as oil prices and Treasury yields rose, and uncertainty about the Middle East continued to dent investors' sentiment.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "7c8b71b7-ef67-3d88-ae81-83546ad8226d",
   "ts": "2026-09-24T20:01:24+00:00",
   "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",

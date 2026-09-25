@@ -1,5 +1,19 @@
 [
  {
+  "id": "392049fa-a74d-3709-878a-0e6c9b579e61",
+  "ts": "2026-09-25T13:24:48+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "ef7fce4a-78ca-3a15-b4fa-187370093323",
   "ts": "2026-09-24T14:12:48+00:00",
   "title": "Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back",

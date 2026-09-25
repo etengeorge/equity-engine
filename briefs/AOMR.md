@@ -1,86 +1,92 @@
-# CD — CHAINCE DIGITAL HOLDINGS INC
+# AOMR — ANGEL OAK MORTGAGE REIT
 *Financials · brief generated 2026-09-25 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- richest 8% of its cohort
-- baseline gap -129%
-- 5d move +75%
-- 21d move +50%
-- filed an 8-K in the last few sessions
+- cheapest 2% of 339 Financials peers (98th pct)
+- baseline gap +121%
+- 21d move -12%
+- volume 2.0x its 60d average
 - Financials is in the news
 - never researched
-- urgency score 7.8
+- urgency score 7.23
 
 ## Market
 | | |
 |---|---|
-| price | $5.17 |
-| market cap | $568.7M |
-| 5d / 21d / 63d / 252d | +75.3% / +50.3% / +9.3% / -55.7% |
-| 60d avg daily $ volume | $771.7K |
-| beta (vs IWM) | None (R²=0.005) · **sector_median** |
-| 5d volume vs 60d average | 1.3x |
+| price | $7.46 |
+| market cap | $173.2M |
+| 5d / 21d / 63d / 252d | -7.6% / -11.6% / -11.3% / -9.5% |
+| 60d avg daily $ volume | $1.1M |
+| beta (vs IWM) | 0.93 (R²=0.433) |
+| 5d volume vs 60d average | 2.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 6% / debt 94% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -34.7% |
-| cost of equity | +10.0% |
-| justified P/TBV | -4.59 |
-| actual P/TBV | 15.88 |
-| tangible book / share | $0.33 |
-| implied gap | -128.9% |
+| sustainable ROTCE | +13.9% |
+| cost of equity | +10.3% |
+| justified P/TBV | 1.43 |
+| actual P/TBV | 0.65 |
+| tangible book / share | $11.52 |
+| implied gap | +120.6% |
 
-Cohort: **8th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -94.2%).
+Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +155.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `beta_from_sector_median_0.88(unreliable_r2_0.005_raw_0.80)`
-- `unstable_rotce_-54.6%_to_-14.2%`
-- `loss_year_in_window`
+- none raised
 
 ## Recent filings
-- 2026-09-24 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226044115/form8-k.htm
-- 2026-08-25 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226040061/form8-k.htm
-- 2026-08-21 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226039671/form8-k.htm
-- 2026-08-14 **10-Q** — https://www.sec.gov/Archives/edgar/data/1527762/000149315226038400/form10-q.htm
-- 2026-08-11 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226037115/form8-k.htm
-- 2026-07-23 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226034355/form8-k.htm
-- 2026-06-05 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226027486/form8-k.htm
-- 2026-05-14 **10-Q** — https://www.sec.gov/Archives/edgar/data/1527762/000149315226023076/form10-q.htm
-- 2026-03-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1527762/000149315226012943/form10-k.htm
-- 2026-03-19 **8-K** — items 3.02,8.01 — https://www.sec.gov/Archives/edgar/data/1527762/000149315226011584/form8-k.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
+- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
+- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
+- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
+- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
+- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-24** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1527762/000149315226044115/ex99-1.htm
-- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1527762/000149315226037115/ex99-1.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1527762/000149315226034355/ex99-1.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1527762/000149315226034355/ex99-2.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
+- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
 
 ## News on this company — last 90 days
-*5 items held; showing the 5 most recent. Headlines and summaries only — open the URL for the full story.*
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-17** · Chaince Securities, LLC to Serve as Exclusive Sales Agent for Top Wealth Group Holding Limited’s (NASDAQ: TWG) US$200 Million At-the-Market Offering Program — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/chaince-securities-llc-serve-exclusive-173000927.html
-  > New York, NY, Sept. 17, 2026 (GLOBE NEWSWIRE) -- Chaince Securities, LLC (“Chaince”), a FINRA-registered broker-dealer and wholly owned subsidiary of Chaince Digital Holdings Inc. (NASDAQ: CD), today announced that it has been engaged as th
-- **2026-08-10** · Chaince Digital Holdings Inc. (Nasdaq: CD) Announces Approximately $16.2 Million Registered Direct Offering to Advance Its Digital Asset and Capital Markets Strategy — *GlobeNewswire* — https://finance.yahoo.com/markets/crypto/articles/chaince-digital-holdings-inc-nasdaq-140000981.html
-  > Offering expected to strengthen balance sheet and support digital asset management, real-world asset tokenization, and the Company’s regulated capital markets platformNEW YORK, Aug. 10, 2026 (GLOBE NEWSWIRE) -- Chaince Digital Holdings Inc.
-- **2026-08-04** · Chaince Securities, LLC to Serve as Exclusive Sales Agent for ZJK Industrial Co., Ltd.’s (NASDAQ: ZJK) US$9.8 Million At-the-Market Offering Program — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/chaince-securities-llc-serve-exclusive-200500734.html
-  > New York, NY, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Chaince Securities, LLC (“Chaince”), a FINRA-registered broker-dealer and wholly owned subsidiary of Chaince Digital Holdings Inc. (NASDAQ: CD), today announced that it has been engaged as exc
-- **2026-07-14** · Chaince Securities LLC to Serve as Exclusive Sales Agent for Wetour Robotics Limited’s (NASDAQ: WETO) US$50.0 Million At-the-Market Offering Program — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/chaince-securities-llc-serve-exclusive-123000826.html
-  > New York, NY, July 14, 2026 (GLOBE NEWSWIRE) -- Chaince Securities, LLC (“Chaince”), a FINRA-registered broker-dealer and wholly owned subsidiary of Chaince Digital Holdings Inc. (NASDAQ: CD), today announced that it has been engaged as exc
-- **2026-07-07** · Chaince Digital Holdings Inc. Announces Continued Inclusion in the Russell 2000® Index for the Second Consecutive Year Following the June 2026 Reconstitution — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/chaince-digital-holdings-inc-announces-123000165.html
-  > NEW YORK, NY, July 07, 2026 (GLOBE NEWSWIRE) -- Chaince Digital Holdings Inc. (“Chaince Digital” or the “Company”) (Nasdaq: CD) (formerly Mercurity Fintech Holding Inc.), a provider of tokenization solutions and digital-asset capital market
+- **2026-08-11** · Angel Oak Mortgage REIT (AOMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/angel-oak-mortgage-reit-aomr-q2-2026-earnings-call-transcript/
+  > Net interest income grew 8% despite market volatility and unrealized losses.
+- **2026-08-11** · Cherry Hill Mortgage’s 29% Premium Deal: $9B Merger Opens Door to Bigger Upside – Quarterly Update Report — *Exec Edge* — https://finance.yahoo.com/markets/stocks/articles/cherry-hill-mortgage-29-premium-150508758.html
+  > Download the Complete Report Here Cherry Hill Mortgage Investment Corp. (CHMI) MITT Deal Unlocks Value and Preserves Further Upside as 2Q26 EAD Beats Expectations The MITT transaction materially improves value realization for CHMI sharehold
+- **2026-08-05** · Angel Oak Mortgage, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-angel-oak-mortgage-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Angel Oak Mortgage, Inc.'s Q2 2026 earnings call
+- **2026-08-04** · Angel Oak Mortgage REIT Inc (AOMR) (Q2 2026) Earnings Call Highlights: Strategic Reinvestment ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/angel-oak-mortgage-reit-inc-210204985.html
+  > Angel Oak Mortgage REIT Inc (AOMR) navigates a turbulent quarter with disciplined capital deployment, strong net interest income growth, and a robust securitization pipeline.
+- **2026-08-04** · Angel Oak Mortgage REIT Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/angel-oak-mortgage-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Angel Oak Mortgage REIT (NYSE:AOMR) reported second-quarter 2026 GAAP net income of $3.4 million, or $0.14 per diluted common share, compared with $800,000, or $0.03 per diluted common share, in the prior-year period. The mortgage REIT said
+- **2026-08-04** · Angel Oak Mortgage (AOMR) Beats Q2 Earnings Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-aomr-beats-122502097.html
+  > Angel Oak (AOMR) delivered earnings and revenue surprises of +2.78% and -1.90%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-04** · Angel Oak Mortgage REIT, Inc. Reports Second Quarter 2026 Financial Results — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-110000536.html
+  > ATLANTA, August 04, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first and second lien non-QM loans and other mortgage-related
+- **2026-07-30** · Blackstone Mortgage Trust (BXMT) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-surpasses-123504738.html
+  > Blackstone Mortgage (BXMT) delivered earnings and revenue surprises of +26.32% and +0.20%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-07-24** · Xerox and 4 More Stocks See Action From Activist Investors — *Barrons.com* — https://www.barrons.com/articles/xerox-and-4-more-stocks-see-action-from-activist-investors-d9214bb2?siteid=yhoof2&yptr=yahoo
+  > Activists also report to the SEC on Metalla Royalty, Xerox Holdings, Angel Oak Mortgage REIT, and Daktronics.
+- **2026-07-21** · Angel Oak Mortgage REIT, Inc. Sets Date for Second Quarter 2026 Earnings Release and Conference Call — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-201500632.html
+  > ATLANTA, July 21, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first lien non-QM loans and other mortgage-related assets in th
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
 - **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
 - **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
 - **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
@@ -90,13 +96,12 @@ Attack these before you trust any number above.
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
 - **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
-- **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
 
 ## Market and macro context
-- **2026-09-25** · Dow Jones Futures Rise, Market Resilient Amid Higher Yields; Taiwan Semi Is In Buy Area — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-resilient-yields-oil-prices-rising-tesla-semi-event/?src=A00220&yptr=yahoo
-- **2026-09-25** · Easing Oil Prices, Tech Strength Lift Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-strength-111205154.html
-- **2026-09-25** · Why stocks held up despite rising yields and $100 oil? These 2 words explain it — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/why-stocks-held-despite-rising-110254319.html
-- **2026-09-25** · 2 Industrials Stocks Worth Investigating and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-worth-investigating-104837526.html
+- **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-25** · Oppenheimer resets Microsoft stock price target after HQ visit — *TheStreet* — https://www.thestreet.com/investing/stocks/oppenheimer-resets-microsoft-stock-price-target-after-hq-visit
+- **2026-09-25** · TTM Technologies’ (TTMI) 91% Rally Fueled by AI Bottleneck Rotation — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-91-rally-143657552.html
+- **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
 - **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
@@ -121,7 +126,7 @@ Attack these before you trust any number above.
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- DAVE: no_model · price $326.19
+- CD: no_model · price $5.17
 
 ---
 

@@ -1,5 +1,17 @@
 [
  {
+  "id": "66ecf07f-3cfc-3f53-82da-369124d94f82",
+  "ts": "2026-09-25T13:43:34+00:00",
+  "title": "Twilio downgraded, Synopsys upgraded: Wall Street's top analyst calls",
+  "summary": "Twilio downgraded, Synopsys upgraded: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-upgrade-spacex-initiation-among-133301562.html",
+  "tickers": [
+   "LGND"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "88563d99-ac54-3cdc-baba-8d1aa9e8ed13",
   "ts": "2026-09-24T11:00:00+00:00",
   "title": "Ligand and AvenCell Therapeutics Enter Financing Agreement to Advance Pipeline of Next-Generation CAR-T Therapies for Up to $47 Million",

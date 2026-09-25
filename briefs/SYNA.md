@@ -1,87 +1,98 @@
-# GHC — GRAHAM HOLDINGS COMPANY CLASS B
-*Consumer Discretionary · brief generated 2026-09-25 · selected as **rotation***
+# SYNA — SYNAPTICS
+*Information Technology · brief generated 2026-09-25 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 244/1956
+- rotation position 249/1956
 
 ## Market
 | | |
 |---|---|
-| price | $1.1K |
-| market cap | $5.0B |
-| 5d / 21d / 63d / 252d | +0.9% / -2.6% / -2.2% / -0.7% |
-| 60d avg daily $ volume | $33.9M |
-| beta (vs IWM) | 0.71 (R²=0.258) |
-| 5d volume vs 60d average | 1.4x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 85% / debt 15% |
+| price | $96.82 |
+| market cap | $3.8B |
+| 5d / 21d / 63d / 252d | +6.3% / +2.1% / -22.9% / +35.2% |
+| 60d avg daily $ volume | $81.4M |
+| beta (vs IWM) | 1.82 (R²=0.421) |
+| 5d volume vs 60d average | 0.6x |
+| balance sheet as of | 2026-06-27 (10-K) |
+| WACC weights | equity 82% / debt 18% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$302.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$275.3M', '$324.1M', '$166.4M']
-Enterprise value **$5.4B** · FCFF yield **+5.6%**
+Normalized FCFF base **$155.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$101.4M', '$116.2M', '$102.1M']
+Enterprise value **$4.2B** · FCFF yield **+3.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.6% − 1pt | +1.5% |
-| **8.6% (point)** | **+5.3%** |
-| 8.6% + 1pt | +8.8% |
+| 14.9% − 1pt | +33.2% |
+| **14.9% (point)** | **+36.1%** |
+| 14.9% + 1pt | +38.8% |
 
 
-Naive baseline for comparison: **+11.2%** (5y revenue CAGR +11.2%).
-Gap under that baseline: **+30.1%** (fair value $1.5K vs price $1.1K).
+> **Stock compensation is 119% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$28.6M** and an implied growth of **+96.0%** instead of +36.1%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **-2.2%** (5y revenue CAGR -2.2%).
+Gap under that baseline: **-83.0%** (fair value $16.44 vs price $96.82).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **64th percentile** of 129 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +28.1%).
+Cohort: **10th percentile** of 122 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -46.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_1.7x_oldest_growth_applied_to_a_peak_overstates_value`
+- `speculative_cost_of_debt_but_only_18%_debt_weight`
+- `stock_comp_is_119%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/ghc-20260805.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/ghc-20260730.htm
-- 2026-07-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/104889/000162828026050826/ghc-20260630.htm
-- 2026-05-05 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/104889/000162828026030685/ghc-20260505.htm
-- 2026-05-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/104889/000162828026029369/ghc-20260501.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/104889/000162828026028610/ghc-20260430.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/104889/000162828026028607/ghc-20260331.htm
-- 2026-03-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/104889/000119312526120813/d89230ddef14a.htm
-- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/104889/000162828026011410/ghc-20260225.htm
-- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/104889/000162828026011405/ghc-20251231.htm
+- 2026-09-15 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/817720/000081772026000075/syna-20260915.htm
+- 2026-08-21 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000081772026000061/syna-20260820.htm
+- 2026-08-10 **10-K** — https://www.sec.gov/Archives/edgar/data/817720/000081772026000055/syna-20260627.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000081772026000049/syna-20260806.htm
+- 2026-06-25 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/817720/000081772026000036/syna-20260328.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000081772026000035/syna-20260507.htm
+- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/817720/000081772026000017/syna-20251227.htm
+- 2026-02-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000081772026000015/syna-20260205.htm
+- 2026-01-05 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/817720/000081772026000006/syna-20251229.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/a2026-08x05form8xkex991.htm
-- **2026-07-30** · EX-99. 1 · press release — EXHIBIT 99. 1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/a2026q28-kexhibit991.htm
+- **2026-08-21** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000081772026000061/synaptics_cfotransitionxau.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000081772026000049/syna-q4268kexx991.htm
+- **2026-06-25** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-1.htm
+- **2026-06-25** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-2.htm
+- **2026-06-25** · EX-99.3 · press release — EXHIBIT 99.3 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-3.htm
+- **2026-06-25** · EX-99.4 · press release — EXHIBIT 99.4 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-4.htm
+- **2026-06-25** · EX-99.5 · press release — EXHIBIT 99.5 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-5.htm
+- **2026-06-25** · EX-99.6 · press release — EXHIBIT 99.6 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-6.htm
+- **2026-06-25** · EX-99.7 · press release — EXHIBIT 99.7 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-7.htm
+- **2026-06-25** · EX-99.8 · press release — EXHIBIT 99.8 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_ex99-8.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Consumer Discretionary
-*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Information Technology
+*From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-24** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195131056.html
-- **2026-09-24** · Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
+- **2026-09-24** · Sector Update: Tech Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-retreat-afternoon-200248856.html
+- **2026-09-24** · Sector Update: Tech Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-softer-afternoon-175917528.html
+- **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
+- **2026-09-24** · Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck — *Yahoo Finance* — https://finance.yahoo.com/markets/article/nvidia-leads-tech-stocks-lower-as-treasury-yields-surge-alphacheck-133744347.html
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
-- **2026-09-23** · Sector Update: Consumer Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html
-- **2026-09-23** · Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/
-- **2026-09-23** · Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/
-- **2026-09-23** · Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/
-- **2026-09-23** · DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/
-- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
+- **2026-09-23** · Sector Update: Tech Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194312684.html
+- **2026-09-23** · Lumentum Shares Are Up After an AI Optical Tech Partnership With Corning and Qualcomm. What This Means for LITE Stock. — *Barchart* — https://www.barchart.com/story/news/4762532/lumentum-shares-are-up-after-an-ai-optical-tech-partnership-with-corning-and-qualcomm-what-this-means-for-lite-stock
+- **2026-09-23** · Sector Update: Tech Stocks Fall Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/technology/articles/sector-tech-stocks-fall-wednesday-175128323.html
+- **2026-09-23** · Exchange-Traded Funds, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html
 
 ## Market and macro context
-- **2026-09-25** · Dow Jones Futures Rise, Market Resilient Amid Higher Yields; Taiwan Semi Is In Buy Area — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-resilient-yields-oil-prices-rising-tesla-semi-event/?src=A00220&yptr=yahoo
-- **2026-09-25** · Easing Oil Prices, Tech Strength Lift Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-strength-111205154.html
-- **2026-09-25** · Why stocks held up despite rising yields and $100 oil? These 2 words explain it — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/why-stocks-held-despite-rising-110254319.html
-- **2026-09-25** · 2 Industrials Stocks Worth Investigating and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-worth-investigating-104837526.html
+- **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
+- **2026-09-25** · Oppenheimer resets Microsoft stock price target after HQ visit — *TheStreet* — https://www.thestreet.com/investing/stocks/oppenheimer-resets-microsoft-stock-price-target-after-hq-visit
+- **2026-09-25** · TTM Technologies’ (TTMI) 91% Rally Fueled by AI Bottleneck Rotation — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-91-rally-143657552.html
+- **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
 - **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
@@ -94,19 +105,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Discretionary
-- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
-- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
-- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
-- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
-- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
-- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
-- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
-- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
-- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
-- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
-- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
-- LCII: no_model · price $93.40
+## Prior verdicts elsewhere in Information Technology
+- BDC: no_model · price $112.52
+- BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
+- CIFR: no_model · price $15.94
+- CORZ: no_model · price $17.37
+- CVLT: rich · price $136.41 · fair value $87.52 · gap -35.8%
+- EFOR: no_edge · price $32.55 · fair value $36.33 · gap +11.6%
+- HUT: no_model · price $77.00
+- IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
+- ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
+- MARA: no_model · price $13.28
+- MXL: no_model · price $71.51
+- NSIT: no_edge · price $165.19 · fair value $186.86 · gap +13.1%
 
 ---
 

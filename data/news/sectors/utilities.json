@@ -1,5 +1,19 @@
 [
  {
+  "id": "7e83c802-e229-3af9-9430-911f8e633b17",
+  "ts": "2026-09-25T12:20:00+00:00",
+  "title": "Stock Market News for Sep 25, 2026",
+  "summary": "U.S. stocks ended mostly lower on Thursday, with the Dow recording its third straight day of losses, as oil prices and Treasury yields rose, and uncertainty about the Middle East continued to dent investors' sentiment.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "0be616c1-fcba-31a1-b274-c782f3ba3634",
   "ts": "2026-09-24T18:00:37+00:00",
   "title": "Bond Market Flashes a Warning Not Seen Since 2007",

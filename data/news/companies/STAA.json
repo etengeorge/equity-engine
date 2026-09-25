@@ -1,5 +1,17 @@
 [
  {
+  "id": "60fde575-3c95-34fa-8867-abd381da0c4a",
+  "ts": "2026-09-25T13:19:33+00:00",
+  "title": "Sector Update: Healthcare Stocks Edge Higher Premarket Friday",
+  "summary": "Healthcare stocks were edging higher premarket Friday, with the State Street Health Care Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131933210.html",
+  "tickers": [
+   "STAA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "18cb954d-2b28-37e7-ae78-c919aace80d4",
   "ts": "2026-09-24T21:03:19+00:00",
   "title": "STAAR Surgical stock ticks higher on $50M buyback authorization",
