@@ -1,0 +1,136 @@
+{
+  "fetched_utc": "2026-09-25T11:31:12+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "GHC",
+    "cik": 104889,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/ghc-20260805.htm",
+        "file": "2026-08-05-8-K-ghc-20260805.htm.txt",
+        "chars": 3433,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/ghc-20260730.htm",
+        "file": "2026-07-30-8-K-ghc-20260730.htm.txt",
+        "chars": 3085,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026050826/ghc-20260630.htm",
+        "file": "2026-07-30-10-Q-ghc-20260630.htm.txt",
+        "chars": 215472,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-05",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026030685/ghc-20260505.htm",
+        "file": "2026-05-05-8-K-ghc-20260505.htm.txt",
+        "chars": 3793,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-01",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026029369/ghc-20260501.htm",
+        "file": "2026-05-01-8-K-ghc-20260501.htm.txt",
+        "chars": 2894,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026028610/ghc-20260430.htm",
+        "file": "2026-04-30-8-K-ghc-20260430.htm.txt",
+        "chars": 3090,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026028607/ghc-20260331.htm",
+        "file": "2026-04-30-10-Q-ghc-20260331.htm.txt",
+        "chars": 166656,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-25",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026011410/ghc-20260225.htm",
+        "file": "2026-02-25-8-K-ghc-20260225.htm.txt",
+        "chars": 3111,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/a2026-08x05form8xkex991.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 5350,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99. 1",
+        "description": "EXHIBIT 99. 1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/a2026q28-kexhibit991.htm",
+        "file": "2026-07-30-EX-99.-1.txt",
+        "chars": 28703,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026028610/a2026q18-kexhibit991.htm",
+        "file": "2026-04-30-EX-99.1.txt",
+        "chars": 18443,
+        "truncated": false
+      }
+    ]
+  }
+}

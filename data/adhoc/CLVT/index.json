@@ -1,10 +1,28 @@
 {
-  "fetched_utc": "2026-09-18T11:27:38+00:00",
+  "fetched_utc": "2026-09-25T11:31:14+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "CLVT",
     "cik": 1764046,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-24",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014423/dp253829_8k.htm",
+        "file": "2026-09-24-8-K-dp253829_8k.htm.txt",
+        "chars": 3109,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-23",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014388/dp253763_8k.htm",
+        "file": "2026-09-23-8-K-dp253763_8k.htm.txt",
+        "chars": 3066,
+        "truncated": false
+      },
       {
         "form": "8-K",
         "filed": "2026-09-17",
@@ -60,21 +78,39 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-06-08",
-        "items": "5.02,7.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000075/clvt-20260605.htm",
-        "file": "2026-06-08-8-K-clvt-20260605.htm.txt",
-        "chars": 5108,
+        "filed": "2026-09-24",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014423/dp253829_ex9901.htm",
+        "file": "2026-09-24-EX-99.1.txt",
+        "chars": 7441,
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-05-18",
-        "items": "5.07,8.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000073/clvt-20260514.htm",
-        "file": "2026-05-18-8-K-clvt-20260514.htm.txt",
-        "chars": 6061,
+        "filed": "2026-09-23",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326014388/dp253763_ex9901.htm",
+        "file": "2026-09-23-EX-99.1.txt",
+        "chars": 9908,
         "truncated": false
       },
       {
@@ -153,42 +189,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex992q22026supplementald.htm",
         "file": "2026-07-29-EX-99.2.txt",
         "chars": 32605,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-06",
-        "items": [
-          "7.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "Reg FD disclosure",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EX-99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex991lshdivestiturepressre.htm",
-        "file": "2026-07-06-EX-99.1.txt",
-        "chars": 17256,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-06",
-        "items": [
-          "7.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "Reg FD disclosure",
-          "9.01"
-        ],
-        "exhibit": "EX-99.2",
-        "description": "EX-99.2",
-        "kind": "presentation",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/ex992lshdivestitureinves.htm",
-        "file": "2026-07-06-EX-99.2.txt",
-        "chars": 21555,
         "truncated": false
       }
     ]

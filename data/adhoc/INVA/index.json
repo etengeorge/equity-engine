@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-25T11:30:55+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "INVA",
+    "cik": 1080014,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526335235/inva-20260630.htm",
+        "file": "2026-08-05-10-Q-inva-20260630.htm.txt",
+        "chars": 212488,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526335192/d228097d8k.htm",
+        "file": "2026-08-05-8-K-d228097d8k.htm.txt",
+        "chars": 3563,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526228958/d480193d8k.htm",
+        "file": "2026-05-18-8-K-d480193d8k.htm.txt",
+        "chars": 9741,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526209110/inva-20260331.htm",
+        "file": "2026-05-06-10-Q-inva-20260331.htm.txt",
+        "chars": 190301,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526209044/d54063d8k.htm",
+        "file": "2026-05-06-8-K-d54063d8k.htm.txt",
+        "chars": 3545,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526204243/d115579d8k.htm",
+        "file": "2026-05-04-8-K-d115579d8k.htm.txt",
+        "chars": 4116,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-25",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526071974/d23292d8k.htm",
+        "file": "2026-02-25-8-K-d23292d8k.htm.txt",
+        "chars": 3576,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-25",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526071776/inva-20251231.htm",
+        "file": "2026-02-25-10-K-inva-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526335192/d228097dex991.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 15534,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526209044/d54063dex991.htm",
+        "file": "2026-05-06-EX-99.1.txt",
+        "chars": 13821,
+        "truncated": false
+      }
+    ]
+  }
+}

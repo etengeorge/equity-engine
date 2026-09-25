@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-09-25T11:31:10+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "LMND",
+    "cik": 1691421,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000055/lmnd-20260630.htm",
+        "file": "2026-08-04-10-Q-lmnd-20260630.htm.txt",
+        "chars": 184150,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000050/lmnd-20260727.htm",
+        "file": "2026-07-29-8-K-lmnd-20260727.htm.txt",
+        "chars": 5299,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000047/lmnd-20260729.htm",
+        "file": "2026-07-29-8-K-lmnd-20260729.htm.txt",
+        "chars": 3534,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-24",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000041/lmnd-20260622.htm",
+        "file": "2026-06-24-8-K-lmnd-20260622.htm.txt",
+        "chars": 4865,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000038/lmnd-20260603.htm",
+        "file": "2026-06-05-8-K-lmnd-20260603.htm.txt",
+        "chars": 4294,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000034/lmnd-20260331.htm",
+        "file": "2026-04-30-10-Q-lmnd-20260331.htm.txt",
+        "chars": 157807,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000029/lmnd-20260429.htm",
+        "file": "2026-04-29-8-K-lmnd-20260429.htm.txt",
+        "chars": 3533,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-25",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000016/lmnd-20251231.htm",
+        "file": "2026-02-25-10-K-lmnd-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000047/lmndshareholderletterq22.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 47487,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000029/lmndshareholderletterq12.htm",
+        "file": "2026-04-29-EX-99.1.txt",
+        "chars": 46107,
+        "truncated": false
+      }
+    ]
+  }
+}
