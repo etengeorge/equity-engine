@@ -14,6 +14,20 @@
   "via": "XLC"
  },
  {
+  "id": "85a5f2dd-4f7b-39d9-8a4c-02b88ace4558",
+  "ts": "2026-09-24T10:54:36+00:00",
+  "title": "How Is The Trade Desk's Stock Performance Compared to Other Communication Stocks",
+  "summary": "The Trade Desk has underperformed other communication stocks, and analysts remain unsure about the stock\u2019s outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4773545/how-is-the-trade-desk-s-stock-performance-compared-to-other-communication-stocks",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "70178ac9-e8c7-377c-81fa-997d7ee221f3",
   "ts": "2026-09-22T17:53:46+00:00",
   "title": "Pinterest Sinks 5% as Month-Long Slide Deepens; Reddit Slips, Snap Stays Put",

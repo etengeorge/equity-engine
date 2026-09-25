@@ -1,111 +1,112 @@
-# MWA — MUELLER WATER PRODUCTS SERIES A
-*Industrials · brief generated 2026-09-24 · selected as **rotation***
+# OPCH — OPTION CARE HEALTH INC
+*Health Care · brief generated 2026-09-25 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 234/1956
+- rotation position 241/1956
 
 ## Market
 | | |
 |---|---|
-| price | $21.72 |
-| market cap | $3.4B |
-| 5d / 21d / 63d / 252d | -4.8% / -12.9% / -15.0% / -13.2% |
-| 60d avg daily $ volume | $28.8M |
-| beta (vs IWM) | 1.02 (R²=0.367) |
-| 5d volume vs 60d average | 1.6x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| price | $22.94 |
+| market cap | $3.6B |
+| 5d / 21d / 63d / 252d | -6.3% / -3.1% / +4.2% / -20.0% |
+| 60d avg daily $ volume | $51.9M |
+| beta (vs IWM) | 0.56 (R²=0.07) |
+| 5d volume vs 60d average | 1.4x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 76% / debt 24% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$156.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$172.0M', '$191.4M', '$61.4M']
-Enterprise value **$3.3B** · FCFF yield **+4.7%**
+Normalized FCFF base **$316.6M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$217.1M', '$287.8M', '$329.4M']
+Enterprise value **$4.6B** · FCFF yield **+6.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.0% − 1pt | +11.1% |
-| **10.0% (point)** | **+14.7%** |
-| 10.0% + 1pt | +17.9% |
+| 7.4% − 1pt | -7.8% |
+| **7.4% (point)** | **-3.7%** |
+| 7.4% + 1pt | -0.0% |
 
 
-Naive baseline for comparison: **+8.1%** (5y revenue CAGR +8.1%).
-Gap under that baseline: **-22.8%** (fair value $16.77 vs price $21.72).
+> **Stock compensation is 13% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$281.0M** and an implied growth of **-1.1%** instead of -3.7%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+13.3%** (5y revenue CAGR +13.3%).
+Gap under that baseline: **+138.4%** (fair value $54.70 vs price $22.94).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **50th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +0.4%).
+Cohort: **92th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +151.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_2.8x_oldest_growth_applied_to_a_peak_overstates_value`
+- none raised
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000036/mwa-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000034/mwa-20260805.htm
-- 2026-06-18 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000029/mwa-20260618.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000024/mwa-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000022/mwa-20260505.htm
-- 2026-02-25 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000016/mwa-20260225.htm
-- 2026-02-23 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000014/mwa-20260217.htm
-- 2026-02-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000012/mwa-20260209.htm
-- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000010/mwa-20251231.htm
-- 2026-02-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000007/mwa-20260204.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000023/bios-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000021/bios-20260729.htm
+- 2026-05-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000017/bios-20260520.htm
+- 2026-05-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1014739/000110465926058979/tm2614211d1_8k.htm
+- 2026-05-05 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000014/bios-20260505.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000011/bios-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1014739/000110465926052099/tm2613077d1_8k.htm
+- 2026-04-08 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1014739/000114036126013825/ny20062823x1_def14a.htm
+- 2026-04-02 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1014739/000110465926039171/tm2610775d1_8k.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000008/bios-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1350593/000135059326000034/exhibit991pressreleasefy26.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1014739/000101473926000021/exhibit991-q22026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
+- **2026-09-24** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-200124301.html
+- **2026-09-24** · XLV vs IBB: How Healthcare Diversification Compares to Biotech Concentration — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/xlv-vs-ibb-how-healthcare-diversification-compares-to-biotech-concentration/
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
+- **2026-09-23** · XLV vs. PJP: How Broad Healthcare Diversification Stacks Up to Pharma Stocks — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/xlv-vs-pjp-how-broad-healthcare-diversification-stacks-up-to-pharma-stocks/
+- **2026-09-23** · Ocular Therapeutix and ANI Pharmaceuticals Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-ani-pharmaceuticals-stocks-213805476.html
+- **2026-09-23** · Surgery Partners, 10x Genomics, QuidelOrtho, Zimmer Biomet, and Tandem Diabetes Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/surgery-partners-10x-genomics-quidelortho-213005328.html
+- **2026-09-23** · The Midterms Are Coming. Tech Stocks May Have a Problem. — *Barrons.com* — https://www.barrons.com/articles/midterm-election-tech-stocks-problem-market-6320d7dc?siteid=yhoof2&yptr=yahoo
 - **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
+- **2026-09-22** · Sector Update: Healthcare Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-200355451.html
 - **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
-- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
-- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
-- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
-- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
-- **2026-09-16** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html
 
 ## Market and macro context
-- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
-- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
-- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
-- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
+- **2026-09-25** · Dow Jones Futures Rise, Market Resilient Amid Higher Yields; Taiwan Semi Is In Buy Area — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-resilient-yields-oil-prices-rising-tesla-semi-event/?src=A00220&yptr=yahoo
+- **2026-09-25** · Easing Oil Prices, Tech Strength Lift Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-strength-111205154.html
+- **2026-09-25** · Why stocks held up despite rising yields and $100 oil? These 2 words explain it — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/why-stocks-held-despite-rising-110254319.html
+- **2026-09-25** · 2 Industrials Stocks Worth Investigating and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-worth-investigating-104837526.html
 
 *Rules, releases and agency actions:*
-- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
-- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19597/rules-of-practice
-- **2026-09-24** · Flight Operations: Pilot requirements; Use of oxygen — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen
-- **2026-09-24** · Substantial Product Hazard List: Amendments to Requirements for Window Covering Cords — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19579/substantial-product-hazard-list-amendments-to-requirements-for-window-covering-cords
-- **2026-09-24** · Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight
-- **2026-09-24** · Air Plan Approval; Alabama; Transportation Conformity — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19566/air-plan-approval-alabama-transportation-conformity
+- **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
+- **2026-09-25** · IFR Altitudes; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19722/ifr-altitudes-miscellaneous-amendments
+- **2026-09-25** · National Environmental Policy Act Implementing Procedures — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19720/national-environmental-policy-act-implementing-procedures
+- **2026-09-25** · Modernization of Regulations Under 9 CFR Parts 101-118 and 123-124; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19710/modernization-of-regulations-under-9-cfr-parts-101-118-and-123-124-extension-of-comment-period
+- **2026-09-25** · Amendment of Class E Airspace; Del Rio, TX — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19708/amendment-of-class-e-airspace-del-rio-tx
+- **2026-09-25** · Driving Efficiency in Farm Loan Delivery; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19696/driving-efficiency-in-farm-loan-delivery-correction
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- ACHR: no_model · price $5.71
-- ATKR: no_model · price $94.32
-- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
-- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
-- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
-- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
-- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
-- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
-- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
-- FLR: no_model · price $54.51
-- GATX: no_model · price $177.31
-- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
+## Prior verdicts elsewhere in Health Care
+- ADPT: no_model · price $27.89
+- ALKS: no_edge · price $46.91
+- APGE: no_model · price $133.96
+- CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
+- CRNX: no_edge · price $84.84
+- CRSP: no_model · price $53.45
+- DFTX: no_model · price $37.99
+- DNTH: no_model · price $106.20
+- ERAS: no_model · price $15.04
+- HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
+- HQY: fair · price $95.88 · fair value $85.16 · gap -11.2%
+- HRMY: no_edge · price $42.07 · fair value $37.55 · gap -10.7%
 
 ---
 

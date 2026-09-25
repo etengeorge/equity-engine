@@ -1,5 +1,17 @@
 [
  {
+  "id": "6c117671-a056-3973-86b8-2c32a3a5ddc3",
+  "ts": "2026-09-24T18:16:58+00:00",
+  "title": "Stocks making big moves yesterday: Beyond Meat, GEO Group, Instacart, LendingTree, and NN",
+  "summary": "Check out the companies making headlines yesterday:",
+  "publisher": "StockStory",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-181658795.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "927bafe0-06b8-38b8-9c5b-f62561f76bbd",
   "ts": "2026-09-23T20:50:05+00:00",
   "title": "Why LendingTree (TREE) Shares Are Sliding Today",

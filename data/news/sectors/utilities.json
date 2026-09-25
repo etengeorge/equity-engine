@@ -1,5 +1,19 @@
 [
  {
+  "id": "0be616c1-fcba-31a1-b274-c782f3ba3634",
+  "ts": "2026-09-24T18:00:37+00:00",
+  "title": "Bond Market Flashes a Warning Not Seen Since 2007",
+  "summary": "Treasury yields just hit levels the bond market has not seen since before the financial crisis, and the pain is spreading fast into corners of the market most investors assumed were safe.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "5682a241-7857-3f65-b308-15bba278b595",
   "ts": "2026-09-24T12:33:00+00:00",
   "title": "Stock Market News for Sep 24, 2026",

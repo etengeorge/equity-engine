@@ -1,45 +1,45 @@
 {
-  "screen_utc": "2026-09-24T15:23:33+00:00",
-  "price_asof": "2026-09-23",
+  "screen_utc": "2026-09-25T11:24:17+00:00",
+  "price_asof": "2026-09-24",
   "universe": 1956,
   "modelled": 1074,
   "modelled_pct": 54.9,
   "news": {
-    "generated_utc": "2026-09-24T15:23:48+00:00",
+    "generated_utc": "2026-09-25T11:24:35+00:00",
     "sectors": {
       "Health Care": {
-        "new": 1,
-        "held": 73,
+        "new": 2,
+        "held": 75,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 2,
-        "held": 106,
+        "new": 5,
+        "held": 111,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 2,
+        "new": 0,
         "held": 38,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 2,
-        "held": 108,
+        "new": 3,
+        "held": 111,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
         "new": 2,
-        "held": 83,
+        "held": 85,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 2,
-        "held": 124,
+        "new": 3,
+        "held": 127,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 0,
-        "held": 56,
+        "new": 3,
+        "held": 59,
         "etf": "XLRE"
       },
       "Materials": {
@@ -49,42 +49,42 @@
       },
       "Communication": {
         "new": 1,
-        "held": 28,
+        "held": 29,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 1,
-        "held": 74,
+        "new": 2,
+        "held": 76,
         "etf": "XLP"
       },
       "Utilities": {
         "new": 1,
-        "held": 35,
+        "held": 36,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 354,
+    "articles_new": 764,
     "candidates": 450,
-    "elapsed_s": 208.7
+    "elapsed_s": 203.1
   },
   "picks": [
-    "MWA",
-    "CNK",
-    "CRC",
-    "HTFL",
-    "RNST",
-    "GFF",
-    "BBT",
-    "AOMR",
-    "ETD",
-    "MLKN"
+    "LMND",
+    "OPCH",
+    "DYN",
+    "CVBF",
+    "GHC",
+    "ACAD",
+    "CLVT",
+    "CD",
+    "WNC",
+    "INVA"
   ],
   "stages": {
-    "screen": "2026-09-24T15:27:39+00:00",
-    "news": "2026-09-24T15:27:17+00:00",
-    "pick": "2026-09-24T15:27:39+00:00"
+    "screen": "2026-09-25T11:28:14+00:00",
+    "news": "2026-09-25T11:27:58+00:00",
+    "pick": "2026-09-25T11:28:14+00:00"
   }
 }

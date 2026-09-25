@@ -1,11 +1,35 @@
 [
  {
+  "id": "5ac63576-cbcf-3aa5-b8e9-a4f99ee7150d",
+  "ts": "2026-09-24T18:16:29+00:00",
+  "title": "Wendy's Hit by Major Franchisee Bankruptcy",
+  "summary": "Franchise economics are becoming a bigger turnaround challenge",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/wendys-hit-major-franchisee-bankruptcy-181629525.html",
+  "tickers": [
+   "WEN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2cdad514-5d12-34c6-a2e4-cb7812008115",
   "ts": "2026-09-23T14:29:36+00:00",
   "title": "McDonald\u2019s Falls 4% as Investor Day Sets $8.5B Franchisee Support Plan; Wendy\u2019s Dips, Yum! Brands Holds Steady",
   "summary": "McDonald's just handed franchisees a massive multi-year commitment, but the market is punishing the stock while rivals barely flinch. Here is why investors are reading the same plan two very different ways.",
   "publisher": "24/7 Wall St.",
   "url": "https://247wallst.com/investing/2026/09/23/mcdonalds-falls-4-as-investor-day-sets-8-5b-franchisee-support-plan-wendys-dips-yum-brands-holds-steady/",
+  "tickers": [
+   "WEN"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "777055b9-1868-3d44-91ce-2edf900002cf",
+  "ts": "2026-09-23T12:08:08+00:00",
+  "title": "Restaurant Industry Woes Are Pulling Down QSR Stock. Buy It Now for a 3.5% Yield.",
+  "summary": "Restaurant Brands International has lost 10% over the last month and now yields over 3.5%. The stock's valuation looks reasonable after the fall, and it could appeal to dividend investors.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4753722/restaurant-industry-woes-are-pulling-down-qsr-stock-buy-it-now-for-a-3-5-yield",
   "tickers": [
    "WEN"
   ],

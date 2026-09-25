@@ -1,59 +1,59 @@
-# RNST — RENASANT CORP
-*Financials · brief generated 2026-09-24 · selected as **rotation***
+# CVBF — CVB FINANCIAL CORP
+*Financials · brief generated 2026-09-25 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 238/1956
+- rotation position 243/1956
 
 ## Market
 | | |
 |---|---|
-| price | $39.70 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | -2.5% / -3.8% / -6.6% / +6.2% |
-| 60d avg daily $ volume | $27.3M |
-| beta (vs IWM) | 1.01 (R²=0.508) |
-| 5d volume vs 60d average | 1.6x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 82% / debt 18% |
+| price | $22.30 |
+| market cap | $3.9B |
+| 5d / 21d / 63d / 252d | -1.8% / -0.6% / +2.1% / +18.0% |
+| 60d avg daily $ volume | $30.0M |
+| beta (vs IWM) | 0.91 (R²=0.46) |
+| 5d volume vs 60d average | 1.3x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 95% / debt 5% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +10.2% |
-| cost of equity | +10.7% |
-| justified P/TBV | 0.95 |
-| actual P/TBV | 1.56 |
-| tangible book / share | $25.52 |
-| implied gap | -39.1% |
+| sustainable ROTCE | +14.9% |
+| cost of equity | +10.2% |
+| justified P/TBV | 1.58 |
+| actual P/TBV | 2.58 |
+| tangible book / share | $8.66 |
+| implied gap | -38.5% |
 
-Cohort: **46th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -4.7%).
+Cohort: **48th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -3.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_40%_of_book`
+- `goodwill_and_intangibles_53%_of_book`
 
 ## Recent filings
-- 2026-08-25 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000079/rnst-20260820.htm
-- 2026-08-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000075/rnst-20260806.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/715072/000071507226000072/rnst-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/rnst-20260728.htm
-- 2026-05-15 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000053/rnst-20260515.htm
-- 2026-05-07 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000119312526212391/d145081d8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/715072/000071507226000046/rnst-20260331.htm
-- 2026-05-01 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000042/rnst-20260428.htm
-- 2026-04-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000119312526194318/d111977d8k.htm
-- 2026-04-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/715072/000071507226000036/rnst-20260428.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/354647/000119312526340248/cvbf-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-20260722.htm
+- 2026-07-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526313195/cvbf-20260722.htm
+- 2026-06-15 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526271066/cvbf-20260615.htm
+- 2026-06-01 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526251450/cvbf-20260601.htm
+- 2026-05-26 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/354647/000119312526239684/cvbf-20260520.htm
+- 2026-05-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/354647/000119312526236235/cvbf-20260520.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/354647/000119312526214674/cvbf-20260331.htm
+- 2026-04-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526171642/cvbf-20260422.htm
+- 2026-04-21 **8-K** — items 2.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/354647/000119312526167264/d123515d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-25** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000079/renasantcfopressrelease.htm
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000075/rnstq22026investorpresen.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/exhibit991_rnstx2q2026earn.htm
-- **2026-07-28** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/715072/000071507226000067/rnstq22026earningsdeck.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-ex99_1.htm
+- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313203/cvbf-ex99_2.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526313195/cvbf-ex99_1.htm
+- **2026-06-15** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/354647/000119312526271066/cvbf-ex99_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -61,30 +61,30 @@ Attack these before you trust any number above.
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
+- **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
+- **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
+- **2026-09-24** · Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/klarna-falls-3-as-selling-persists-weeks-after-its-guidance-cut-affirm-advances-2/
+- **2026-09-24** · How Is Fiserv's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4780463/how-is-fiserv-s-stock-performance-compared-to-other-financial-stocks
 - **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
 - **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
 - **2026-09-23** · Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/
-- **2026-09-23** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175541711.html
-- **2026-09-23** · Exchange-Traded Funds, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html
-- **2026-09-23** · Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/
-- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
-- **2026-09-23** · Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html
 
 ## Market and macro context
-- **2026-09-24** · Does Palantir Stock Make Your Bad Market Days Worse? — *Trefis* — https://www.trefis.com/articles/616443/does-palantir-stock-make-your-bad-market-days-worse/2026-09-24
-- **2026-09-24** · 3 Reasons to Sell GEL and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-gel-1-150458905.html
-- **2026-09-24** · Fidelity Healthcare ETF (FHLC) vs. VanEck Biotech ETF (BBH): Which Fund Is the Better Buy? — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/fidelity-healthcare-etf-fhlc-vs-vaneck-biotech-etf-bbh-which-fund-is-the-better-buy/
-- **2026-09-24** · If There's a Stock Market Crash Ahead, History Highlights the Best Strategy for Investors — *Motley Fool* — https://www.fool.com/investing/2026/09/24/if-a-stock-market-crash-ahead-history-highlights/
+- **2026-09-25** · Dow Jones Futures Rise, Market Resilient Amid Higher Yields; Taiwan Semi Is In Buy Area — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-resilient-yields-oil-prices-rising-tesla-semi-event/?src=A00220&yptr=yahoo
+- **2026-09-25** · Easing Oil Prices, Tech Strength Lift Wall Street Pre-Bell; Asia Mixed, Europe Up — *MT Newswires* — https://finance.yahoo.com/markets/articles/easing-oil-prices-tech-strength-111205154.html
+- **2026-09-25** · Why stocks held up despite rising yields and $100 oil? These 2 words explain it — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/why-stocks-held-despite-rising-110254319.html
+- **2026-09-25** · 2 Industrials Stocks Worth Investigating and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-worth-investigating-104837526.html
 
 *Rules, releases and agency actions:*
-- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19598/rules-of-practice
-- **2026-09-24** · Rules of Practice — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19597/rules-of-practice
-- **2026-09-24** · Flight Operations: Pilot requirements; Use of oxygen — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen
-- **2026-09-24** · Substantial Product Hazard List: Amendments to Requirements for Window Covering Cords — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19579/substantial-product-hazard-list-amendments-to-requirements-for-window-covering-cords
-- **2026-09-24** · Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight
-- **2026-09-24** · Air Plan Approval; Alabama; Transportation Conformity — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/24/2026-19566/air-plan-approval-alabama-transportation-conformity
+- **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
+- **2026-09-25** · IFR Altitudes; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19722/ifr-altitudes-miscellaneous-amendments
+- **2026-09-25** · National Environmental Policy Act Implementing Procedures — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19720/national-environmental-policy-act-implementing-procedures
+- **2026-09-25** · Modernization of Regulations Under 9 CFR Parts 101-118 and 123-124; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19710/modernization-of-regulations-under-9-cfr-parts-101-118-and-123-124-extension-of-comment-period
+- **2026-09-25** · Amendment of Class E Airspace; Del Rio, TX — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19708/amendment-of-class-e-airspace-del-rio-tx
+- **2026-09-25** · Driving Efficiency in Farm Loan Delivery; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19696/driving-efficiency-in-farm-loan-delivery-correction
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

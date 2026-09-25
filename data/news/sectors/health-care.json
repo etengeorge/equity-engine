@@ -1,5 +1,33 @@
 [
  {
+  "id": "7c8b71b7-ef67-3d88-ae81-83546ad8226d",
+  "ts": "2026-09-24T20:01:24+00:00",
+  "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
+  "summary": "Healthcare stocks were higher late Thursday afternoon, with the NYSE Healthcare Index increasing 0.9",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-200124301.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "f37a6dd2-73a4-3d89-a0e6-3e7a368abb49",
+  "ts": "2026-09-24T16:03:56+00:00",
+  "title": "XLV vs IBB: How Healthcare Diversification Compares to Biotech Concentration",
+  "summary": "XLV offers exposure to the broader healthcare sector, while IBB targets biotech innovators. Here's how the two stack up on risk, returns, and diversification.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/coverage/etfs/2026/09/24/xlv-vs-ibb-how-healthcare-diversification-compares-to-biotech-concentration/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "690b52fd-1811-31e3-8462-ca43d95d8f4c",
   "ts": "2026-09-24T13:17:57+00:00",
   "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks",

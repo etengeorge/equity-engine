@@ -1,5 +1,29 @@
 [
  {
+  "id": "a80bc1fa-46af-3218-9de3-616282deda5e",
+  "ts": "2026-09-24T18:00:00+00:00",
+  "title": "Quantum Stocks Near Q3 Finish Line: How IONQ, RGTI & QBTS Are Faring",
+  "summary": "Quantum stocks face a pivotal Q3 finish as IonQ, D-Wave and Rigetti push commercialization while rates and valuation concerns weigh on shares.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-stocks-near-q3-finish-180000334.html",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d94802be-6b04-384e-b7fb-26628e28221c",
+  "ts": "2026-09-24T17:14:38+00:00",
+  "title": "IonQ Rises 4% as Post-Breakthrough Buying Continues; D-Wave Quantum Gains 3%, Rigetti Adds 2%",
+  "summary": "Quantum computing stocks are climbing again as a fresh wave of technical breakthroughs reshapes what investors think these companies can actually deliver, and the gap between hype and commercial reality has never mattered more.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/ionq-rises-4-as-post-breakthrough-buying-continues-d-wave-quantum-gains-3-rigetti-adds-2/",
+  "tickers": [
+   "QBTS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2d1a12b8-b371-3235-b483-dc8f9aa45f33",
   "ts": "2026-09-24T14:47:27+00:00",
   "title": "IonQ Just Solved Quantum Computing\u2019s Hardest Problem. The Stock Is Still Down 43% in a Year.",

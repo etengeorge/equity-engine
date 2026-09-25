@@ -1,5 +1,47 @@
 [
  {
+  "id": "127da582-37fb-3844-9be4-174f81a04488",
+  "ts": "2026-09-24T20:02:48+00:00",
+  "title": "Sector Update: Tech Stocks Retreat Late Afternoon",
+  "summary": "Tech stocks declined late Thursday afternoon, with the State Street Technology Select Sector SPDR ET",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-retreat-afternoon-200248856.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "168fef05-ecb4-3df2-8c39-9fba12f71b88",
+  "ts": "2026-09-24T17:59:17+00:00",
+  "title": "Sector Update: Tech Stocks Softer in Afternoon Trading",
+  "summary": "Tech stocks were lower Thursday afternoon, with the State Street Technology Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-softer-afternoon-175917528.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "5a0b9be6-2778-3d79-bb15-19308a9ab249",
+  "ts": "2026-09-24T17:13:53+00:00",
+  "title": "Exchange-Traded Funds Mixed, US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM fell and IVV edged higher. Activ",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "ebfceeac-0b6b-4067-8cc8-942a50556b03",
   "ts": "2026-09-24T13:37:44+00:00",
   "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",

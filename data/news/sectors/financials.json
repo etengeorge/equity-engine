@@ -1,5 +1,75 @@
 [
  {
+  "id": "777e795a-6244-3623-a0d8-acc4bd36b2e5",
+  "ts": "2026-09-24T19:54:34+00:00",
+  "title": "Sector Update: Financial Stocks Softer Late Afternoon",
+  "summary": "Financial stocks were lower in late Thursday afternoon trading, with the NYSE Financial Index and th",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b9a15059-cfb3-30c0-a55a-6ef873978e99",
+  "ts": "2026-09-24T18:11:09+00:00",
+  "title": "Sector Update: Financial Stocks Decrease in Afternoon Trading",
+  "summary": "Financial stocks were softer in Thursday afternoon trading, with the NYSE Financial Index and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "5a0b9be6-2778-3d79-bb15-19308a9ab249",
+  "ts": "2026-09-24T17:13:53+00:00",
+  "title": "Exchange-Traded Funds Mixed, US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM fell and IVV edged higher. Activ",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "579c64fc-38b2-3421-a651-7c463155c08c",
+  "ts": "2026-09-24T16:03:04+00:00",
+  "title": "Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2%",
+  "summary": "Klarna keeps sliding weeks after a guidance cut rattled investors, while Affirm moves in the opposite direction as traders rally around its AI underwriting push. The widening gap between two of fintech's biggest names raises a pointed question about which side of this trade holds up.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/klarna-falls-3-as-selling-persists-weeks-after-its-guidance-cut-affirm-advances-2/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "d05139e5-a901-37ff-be46-a7682ac59893",
+  "ts": "2026-09-24T14:25:56+00:00",
+  "title": "How Is Fiserv's Stock Performance Compared to Other Financial Stocks?",
+  "summary": "As Fiserv has underperformed relative to its peers over the past year, Wall Street analysts maintain a cautious outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/4780463/how-is-fiserv-s-stock-performance-compared-to-other-financial-stocks",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "97ec1749-c00b-3fab-9ff0-f5b24271ea3e",
   "ts": "2026-09-24T13:22:43+00:00",
   "title": "Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday",

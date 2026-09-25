@@ -1,5 +1,47 @@
 [
  {
+  "id": "eabcfff1-402a-354c-8f93-6ac379940a73",
+  "ts": "2026-09-24T19:58:09+00:00",
+  "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+  "summary": "Energy stocks rose late Thursday afternoon with the NYSE Energy Sector Index gaining 0.4% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195809963.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "e725ea88-8c2e-3c97-a7ef-a31ab5f44f63",
+  "ts": "2026-09-24T18:06:51+00:00",
+  "title": "Sector Update: Energy Stocks Rise Thursday Afternoon",
+  "summary": "Energy stocks were higher Thursday afternoon, with the NYSE Energy Sector Index and the State Street",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-thursday-180651243.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "5a0b9be6-2778-3d79-bb15-19308a9ab249",
+  "ts": "2026-09-24T17:13:53+00:00",
+  "title": "Exchange-Traded Funds Mixed, US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM fell and IVV edged higher. Activ",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "f9827b25-6f46-30e4-8dd7-65e0c92e7c12",
   "ts": "2026-09-24T13:26:22+00:00",
   "title": "Sector Update: Energy Stocks Rise Premarket Thursday",

@@ -1,5 +1,41 @@
 [
  {
+  "id": "f00e8700-c0ae-356b-b669-d94682d87b43",
+  "ts": "2026-09-24T19:34:43+00:00",
+  "title": "Popular data center company buys bankrupt rival's assets",
+  "summary": "The move follows a major AI infrastructure agreement tied to Nvidia and Anthropic.",
+  "publisher": "TheStreet",
+  "url": "https://www.thestreet.com/crypto/markets/popular-data-center-company-buys-bankrupt-rivals-assets",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "4659681f-bac5-3649-ae87-c64a17f3cda9",
+  "ts": "2026-09-24T16:27:49+00:00",
+  "title": "UBS initiates five AI Infrastructure stocks, sees 36% upside",
+  "summary": "Investing.com -- UBS analyst Ryan Gravett initiated coverage of five AI data center colocation stocks with bullish ratings, citing rapid growth potential as artificial intelligence adoption accelerates and computing capacity remains constrained. The analyst noted that power access continues to be the primary limiting factor in scaling compute infrastructure.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/technology/ai/articles/ubs-initiates-five-ai-infrastructure-162749425.html",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1670f4dc-1b99-34d4-b91d-dbd90518fe7f",
+  "ts": "2026-09-24T14:32:13+00:00",
+  "title": "Hut 8 wins Poolin bankruptcy auction with $140 million bid",
+  "summary": "The offer covers substantially all of Poolin\u2019s assets, including two West Texas sites, but still requires bankruptcy-court approval.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/hut-8-wins-poolin-bankruptcy-auction/",
+  "tickers": [
+   "HUT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e7672ad5-503c-34d6-988b-a8004307f16f",
   "ts": "2026-09-24T13:37:00+00:00",
   "title": "Hut 8 Acquires Poolin\u2019s Texas Data Centres For $140 Million",

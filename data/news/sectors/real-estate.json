@@ -1,5 +1,47 @@
 [
  {
+  "id": "777e795a-6244-3623-a0d8-acc4bd36b2e5",
+  "ts": "2026-09-24T19:54:34+00:00",
+  "title": "Sector Update: Financial Stocks Softer Late Afternoon",
+  "summary": "Financial stocks were lower in late Thursday afternoon trading, with the NYSE Financial Index and th",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "b9a15059-cfb3-30c0-a55a-6ef873978e99",
+  "ts": "2026-09-24T18:11:09+00:00",
+  "title": "Sector Update: Financial Stocks Decrease in Afternoon Trading",
+  "summary": "Financial stocks were softer in Thursday afternoon trading, with the NYSE Financial Index and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "0be616c1-fcba-31a1-b274-c782f3ba3634",
+  "ts": "2026-09-24T18:00:37+00:00",
+  "title": "Bond Market Flashes a Warning Not Seen Since 2007",
+  "summary": "Treasury yields just hit levels the bond market has not seen since before the financial crisis, and the pain is spreading fast into corners of the market most investors assumed were safe.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "74d72505-9b32-3380-af9a-2e64737cdf59",
   "ts": "2026-09-24T03:46:01+00:00",
   "title": "Vanguard Real Estate ETF vs State Street SPDR: Diversification or Cost",

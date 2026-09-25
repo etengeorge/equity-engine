@@ -94,17 +94,5 @@
    "DJCO"
   ],
   "source": "yfinance"
- },
- {
-  "id": "77e14288-bb51-35e1-b628-77c4591db0e5",
-  "ts": "2026-05-26T20:45:00+00:00",
-  "title": "Top Stock Reports for RTX, Wells Fargo & Amgen",
-  "summary": "RTX builds a $271B backlog on defense demand and recovering air travel, but tariffs and supply-chain issues cloud growth.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-rtx-wells-204500132.html",
-  "tickers": [
-   "DJCO"
-  ],
-  "source": "yfinance"
  }
 ]
