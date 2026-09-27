@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""The only entry point. Seven verbs, run in this order each morning.
+"""The only entry point. Seven verbs, run in this order each Friday morning.
 
     python run.py screen     # free: price + value all 1,956 names (no LLM, ~5 min)
     python run.py news       # company + sector + market + macro news into data/news/
-    python run.py pick       # choose today's ten and write briefs/<TKR>.md
+    python run.py pick       # choose this run's ten and write briefs/<TKR>.md
     python run.py record     # ingest synth/<TKR>.json -> research/ + data/verdicts/
     python run.py site       # rebuild public/index.html
     python run.py status     # what state is this repo in?

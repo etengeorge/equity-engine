@@ -1,4 +1,4 @@
-name: daily screen
+name: weekly screen
 
 # Pre-market on purpose: every price in the screen is the prior session's close, so the
 # run is reproducible and a name cannot show two different prices on one calendar day the
@@ -19,9 +19,13 @@ name: daily screen
 #
 # Lateness is now survivable rather than fatal: prices.drop_incomplete_session discards a
 # partial bar, so a delayed run still prices off the last completed session.
+#
+# Fridays only. The analyst routine runs once a week (Fri 11:15 UTC) to save subscription
+# usage, so a screen on any other day would produce briefs nobody reads. Friday
+# pre-market prices off Thursday's close.
 on:
   schedule:
-    - cron: "23 10 * * 1-5"
+    - cron: "23 10 * * 5"
   workflow_dispatch:
     inputs:
       limit:
@@ -136,6 +140,6 @@ jobs:
         if: always()
         run: |
           {
-            echo "### Daily screen"
+            echo "### Weekly screen"
             python run.py status
           } >> "$GITHUB_STEP_SUMMARY"

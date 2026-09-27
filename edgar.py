@@ -509,7 +509,7 @@ def recent_8k_ciks(days_back=4):
 
 def recent_filings(cik, forms=("8-K", "10-K", "10-Q", "DEF 14A"), limit=12):
     """Recent filings for ONE company, from the submissions endpoint.
-    Only called for the ten names selected each day, so the cost is 10 requests."""
+    Only called for the ten names selected each run, so the cost is 10 requests."""
     try:
         blob = json.loads(_get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json"))
     except Exception:
@@ -648,7 +648,7 @@ def exhibits_for(cik, days_back=120, max_filings=6):
     """The earnings-presentation set for one company: every EX-99.x attached to an 8-K
     filed under a material item in the window.
 
-    Called only for the ten names picked each day, so the cost is bounded at roughly
+    Called only for the ten names picked each run, so the cost is bounded at roughly
     `10 x (1 + max_filings)` requests. Returns the URLs, not the documents -- fetching
     a PDF deck is a separate, opt-in step because some run to tens of megabytes.
     """

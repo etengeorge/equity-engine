@@ -73,7 +73,7 @@ jobs:
             echo "::warning::nothing fetched — check the ticker and the run log above"
           else
             git commit -m "adhoc ${{ inputs.what }}: ${{ inputs.tickers }}${{ inputs.reason && format(' — {0}', inputs.reason) || '' }}"
-            # Retry: the daily screen may be pushing at the same time.
+            # Retry: the weekly screen may be pushing at the same time.
             for i in 1 2 3 4; do
               git pull --rebase --autostash origin main && git push && exit 0
               echo "push attempt $i failed, retrying"

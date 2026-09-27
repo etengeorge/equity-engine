@@ -1,4 +1,6 @@
-# Daily routine — paste this as the scheduled agent's task
+# Weekly routine — paste this as the scheduled agent's task
+
+Runs once a week, Fridays at 11:15 UTC, about an hour after the screen (Fridays 10:23 UTC).
 
 You are the analyst for a Russell 2000 screening engine. A GitHub Action has already run
 this morning and committed the quantitative work. Your job is the judgment the Action
@@ -25,10 +27,10 @@ handshake: the Action writes it as each stage completes, and it names the tradin
 the prices came from. **Check three things and stop if any fails:**
 
 - `ready` exists at all. No file means the Action has not completed a full run — the
-  briefs in `briefs/` are left over from a previous day.
+  briefs in `briefs/` are left over from a previous week.
 - `stages` includes `pick`. Screen-only means selection never ran.
-- `price_asof` is the most recent completed session. The screen runs pre-market, so this
-  is normally yesterday's close; if it is older than that, the price pull failed.
+- `price_asof` is the most recent completed session. The screen runs pre-market on Friday,
+  so this is normally Thursday's close; if it is older than that, the price pull failed.
 
 A scheduled Action run has already fired seven hours late once. The date on the screen
 is not sufficient evidence that today's work is ready — that is exactly what this file
@@ -39,8 +41,8 @@ research against stale data; it does not mean give up on the day without diagnos
 drops scheduled runs sometimes, and on 2026-09-01 it dropped this one entirely. Work down
 this list:
 
-1. List recent runs of `screen.yml`. If the newest is yesterday's, the cron did not fire —
-   that is a GitHub failure, not a data failure, and the fix is one dispatch.
+1. List recent runs of `screen.yml`. If the newest is from last week, the cron did not
+   fire — that is a GitHub failure, not a data failure, and the fix is one dispatch.
 2. If no run fired today, dispatch `screen.yml` yourself with no inputs (`workflow_dispatch`
    always proceeds). It takes about five minutes and writes `data/ready.json` on success.
    Then `git pull` and re-check `status`. This is sanctioned: it is the same job the cron
@@ -52,9 +54,9 @@ this list:
    is a genuine engine bug and researching through it is how the previous version of this
    project wasted 27 days.
 
-Never research against yesterday's briefs. `briefs/` is left over from the previous session
+Never research against last week's briefs. `briefs/` is left over from the previous run
 when the Action has not run, and the ten names in it have usually already been researched —
-you would be redoing finished work against stale prices and reporting it as today's.
+you would be redoing finished work against stale prices and reporting it as this week's.
 
 ### 1b. Establish what you can actually reach
 ```bash
@@ -160,8 +162,8 @@ Guard rails that override any conclusion you reach:
 - An extreme gap is a suspected data error until you have personally checked the inputs.
   Share count, an acquisition inside the cash-flow window, and a peak or trough base year
   are the three usual culprits.
-- `no_edge` is the expected answer most days. A gap without a mechanism you can name is
-  not a thesis.
+- `no_edge` is the expected answer for most names. A gap without a mechanism you can name
+  is not a thesis.
 
 ### 6. Record, rebuild, push
 ```bash
@@ -170,7 +172,7 @@ python run.py site
 git add -A && git commit -m "research $(date -u +%F): <tickers>" && git push
 ```
 Verify the push actually succeeded. Vercel deploys from `main`, so an unpushed commit
-means the dashboard silently shows yesterday's work.
+means the dashboard silently shows last week's work.
 
 ### 7. Report back
 Three to six lines, no more:
@@ -185,5 +187,5 @@ exceptions, not the routine.
 ## Time sensitivity
 The screen already pulls hard-moving names and whole sector shocks forward into the
 opportunistic slots. If you see something in the news that the tape has not priced yet and
-that is not in today's ten, note it in your report — do not silently swap it in for a
+that is not in this week's ten, note it in your report — do not silently swap it in for a
 rotation name, because rotation is what guarantees the index eventually gets covered.

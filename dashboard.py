@@ -621,7 +621,7 @@ def build_dashboard(screen, picks, verdicts, logs, tree):
       "enterprise value — that is what the market is assuming. <b>Forward DCF:</b> price an "
       "assumption of our own and compare. On this page the forward number is a mechanical "
       "baseline (the company's own revenue history), which is why it carries no judgment. "
-      "The ten researched names each day replace that baseline with a real one.<br><br>"
+      "The ten researched names each week replace that baseline with a real one.<br><br>"
       "Financials get justified price-to-tangible-book from sustainable return on tangible "
       "equity instead — free cash flow to the firm is meaningless when debt is raw "
       "material. REITs and companies with negative normalized cash flow get no number at "

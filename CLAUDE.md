@@ -4,11 +4,12 @@ Guidance for Claude Code working in this repository.
 
 ## What this is
 A screener for the ~1,956 names in the Russell 2000. It prices every one of them off free
-data every morning, ranks where price and history disagree most, and spends real reasoning
-on ten names a day. It **recommends; the human decides and executes.**
+data once a week (Friday pre-market), ranks where price and history disagree most, and
+spends real reasoning on ten names a week. It **recommends; the human decides and
+executes.**
 
 The whole point is finding a large delta between a defensible intrinsic value and the
-market price. There does not have to be one. Most days there isn't.
+market price. There does not have to be one. Most weeks there isn't.
 
 ## Hard rules
 1. **Never place, modify, or cancel a trade.** No order-placement code path exists and none
@@ -37,7 +38,7 @@ export SEC_USER_AGENT="equity-engine <your-email>"   # SEC 403s anonymous client
 python run.py screen           # price + value all 1,956 names. No LLM. ~5 min.
 python run.py screen --limit 40  # a fast slice while developing
 python run.py news             # company + sector + market + macro news into data/news/
-python run.py pick             # choose today's ten, write briefs/<TKR>.md
+python run.py pick             # choose this run's ten, write briefs/<TKR>.md
 python run.py record --clean   # ingest synth/<TKR>.json into research/ + data/verdicts/
 python run.py site             # rebuild public/: the screen + a page per researched name
 python run.py status           # what state is this repo in
@@ -136,7 +137,7 @@ and often bot-blocked — scraping 1,956 of them yields silent nothing for most.
 is filed anyway: under 8-K Item 2.02 or 7.01, EX-99.1 is the press release and EX-99.2
 is usually the presentation. `edgar.exhibits_for` reads those, and they do not move.
 
-**The daily job is split across two runtimes on purpose.** A GitHub Action
+**The weekly job is split across two runtimes on purpose.** A GitHub Action
 (`.github/workflows/screen.yml`) has real internet and does all the fetching and
 arithmetic, then commits. The Claude routine (`ROUTINE.md`) only reads the clone and
 reasons. This survives the failure that killed the previous version: a scheduled
@@ -156,10 +157,11 @@ which trading session the prices are from; the analyst stops if that file is mis
 stale. It had been inferring readiness from a date stamp, which passed on a day the
 scheduled run fired seven hours late.
 
-**The screen runs pre-market (10:23 UTC) so prices are always the prior close.** One cron,
-in UTC — 06:23 ET in summer, 05:23 ET in winter, pre-market in both, and an hour ahead of
-the analyst routine that reads its output. Running intraday let one name report two
-different prices on one calendar day. Correctness no longer depends on the schedule
+**The screen runs Friday pre-market (10:23 UTC) so prices are always the prior close.** One
+cron, in UTC (`23 10 * * 5`) — 06:23 ET in summer, 05:23 ET in winter, pre-market in both,
+and an hour ahead of the analyst routine (Fridays 11:15 UTC) that reads its output. Both
+run once a week rather than every weekday to keep the routine's subscription usage down.
+Running intraday let one name report two different prices on one calendar day. Correctness no longer depends on the schedule
 holding, though: `prices.drop_incomplete_session` discards the partial bar yfinance
 returns for a session still in progress, so a delayed run is merely late rather than
 wrong. The two-cron DST guard this replaced skipped the whole day — silently, and green —
