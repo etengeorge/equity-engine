@@ -1,92 +1,94 @@
-# CECO — CECO ENVIRONMENTAL
-*Industrials · brief generated 2026-10-02 · selected as **rotation***
+# BCO — BRINKS
+*Industrials · brief generated 2026-10-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 253/1956
+- cheapest 10% of 150 Industrials peers (90th pct)
+- baseline gap +108%
+- 21d move -9%
+- filed an 8-K in the last few sessions
+- never researched
+- urgency score 6.18
 
 ## Market
 | | |
 |---|---|
-| price | $71.87 |
-| market cap | $4.2B |
-| 5d / 21d / 63d / 252d | -1.4% / +1.9% / -12.5% / +40.4% |
-| 60d avg daily $ volume | $59.1M |
-| beta (vs IWM) | 0.99 (R²=0.106) |
-| 5d volume vs 60d average | 0.6x |
+| price | $99.97 |
+| market cap | $4.1B |
+| 5d / 21d / 63d / 252d | -5.6% / -9.1% / -1.3% / -13.7% |
+| 60d avg daily $ volume | $54.0M |
+| beta (vs IWM) | 0.68 (R²=0.155) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 85% / debt 15% |
+| WACC weights | equity 49% / debt 51% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$28.4M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$-5.5M', '$7.5M', '$36.3M']
-Enterprise value **$4.9B** · FCFF yield **+0.6%**
+Normalized FCFF base **$532.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$436.4M', '$203.5M', '$499.7M']
+Enterprise value **$6.8B** · FCFF yield **+7.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.9% − 1pt | +72.5% |
-| **9.9% (point)** | **+78.2%** |
-| 9.9% + 1pt | +83.6% |
+| 8.1% − 1pt | -7.8% |
+| **8.1% (point)** | **-4.1%** |
+| 8.1% + 1pt | -0.8% |
 
 
-> **Stock compensation is 66% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$20.0M** and an implied growth of **+91.6%** instead of +78.2%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+19.6%** (5y revenue CAGR +19.6%).
-Gap under that baseline: **-98.2%** (fair value $1.27 vs price $71.87).
+Naive baseline for comparison: **+7.3%** (5y revenue CAGR +7.3%).
+Gap under that baseline: **+108.4%** (fair value $208.33 vs price $99.97).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **7th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -74.6%).
+Cohort: **90th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +132.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_3.3x_of_mean`
-- `stock_comp_is_66%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/3197/000119312526342536/ceco-20260630.htm
-- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000119312526341191/ceco-20260810.htm
-- 2026-06-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000119312526263664/ceco-20260609.htm
-- 2026-06-01 **8-K** — items 2.01,2.03,5.02,5.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000110465926068661/tm2616015d2_8k.htm
-- 2026-05-28 **8-K** — items 5.02,5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000110465926067250/tm2615816d1_8k.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/3197/000119312526197428/ceco-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000119312526183496/ceco-20260428.htm
-- 2026-04-02 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000119312526139875/ceco-20260330.htm
-- 2026-03-02 **10-K** — https://www.sec.gov/Archives/edgar/data/3197/000119312526085815/ceco-20251231.htm
-- 2026-02-24 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/3197/000110465926018825/tm267105d1_8k.htm
+- 2026-09-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000058/bco-20260930.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000055/bco-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/bco-20260805.htm
+- 2026-07-24 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000048/bco-20260724.htm
+- 2026-06-30 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_8k.htm
+- 2026-06-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126025760/ef20076434_8k.htm
+- 2026-06-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000045/bco-20260602.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000041/bco-20260331.htm
+- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000040/bco-20260506.htm
+- 2026-05-04 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000034/bco-20260428.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/3197/000119312526341191/ceco-ex99_1.htm
-- **2026-06-09** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/3197/000119312526263664/ceco-ex99_1.htm
+- **2026-09-30** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000058/exhibit991pressrelease2026.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/exhibit992_2q2026v-micro.htm
+- **2026-06-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_ex99-1.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-08** · 1 Russell 2000 Stock with Solid Fundamentals and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-solid-233518509.html
-  > The Russell 2000 (^RUT) is packed with potential breakout stocks, thanks to its focus on smaller companies with high growth potential. However, smaller size also means these businesses often lack the resilience and financial flexibility of 
-- **2026-09-07** · CECO Environmental (CECO) Raises Guidance After Thermon Deal — Can the Momentum Last? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/ceco-environmental-ceco-raises-guidance-185137151.html
-  > CECO Environmental Corp (NASDAQ:CECO) finalized its acquisition of Thermon Group Holdings, which is a leading player within the global industrial process heating space, in early June. The deal, valued at around $2.2 billion, marked a signif
-- **2026-08-24** · CECO Environmental Announces Upcoming  Investor Conferences — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/ceco-environmental-announces-upcoming-investor-110000860.html
-  > ADDISON, Texas, Aug. 24, 2026 (GLOBE NEWSWIRE) -- CECO Environmental Corp. (Nasdaq: CECO), a leading environmentally focused, diversified industrial company whose solutions protect people, the environment and industrial equipment, today ann
-- **2026-08-19** · Q2 Industrial & Environmental Services Earnings: CECO Environmental (NASDAQ:CECO) Impresses — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-industrial-environmental-services-earnings-200602850.html
-  > Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let’s have a look at CECO Environmental (NASDAQ:CECO) and its peers.
-- **2026-08-19** · Q2 Industrial & Environmental Services Earnings Review: First Prize Goes to CECO Environmental (NASDAQ:CECO) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-industrial-environmental-services-earnings-183002438.html
-  > As the Q2 earnings season wraps, let’s dig into this quarter’s best and worst performers in the industrial & environmental services industry, including CECO Environmental (NASDAQ:CECO) and its peers.
-- **2026-08-17** · CECO (CECO) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/17/ceco-ceco-q2-2026-earnings-call-transcript/
-  > Record backlog of $1.82 billion and $8.5 billion pipeline signal strong momentum ahead.
-- **2026-08-17** · CECO Environmental’s Q2 Earnings Call: Our Top 5 Analyst Questions — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/ceco-environmental-q2-earnings-call-071820113.html
-  > CECO Environmental delivered a strong second quarter, with management attributing performance to robust demand across power generation, semiconductor, and industrial water markets, as well as the first month of Thermon’s contribution follow
-- **2026-08-16** · CECO Environmental (CECO) Stock Is Up, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/ceco-environmental-ceco-stock-know-054900623.html
-  > Shares of environmental solutions provider CECO Environmental (NASDAQ:CECO) jumped 5% in the morning session after the company extended their post-earnings rally, continuing to rise after reporting second-quarter 2026 results earlier in the
-- **2026-08-14** · Is CECO Environmental (CECO) Stock Outpacing Its Industrial Products Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/ceco-environmental-ceco-stock-outpacing-134003299.html
-  > Here is how CECO Environmental (CECO) and Helios Technologies (HLIO) have performed compared to their sector so far this year.
-- **2026-08-14** · New Strong Buy Stocks for August 14th — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-august-14th-084300856.html
-  > WDC, CECO, CHMG, CZFS and AMP have been added to the Zacks Rank #1 (Strong Buy) List on August 14, 2026.
+- **2026-09-17** · 3 of Wall Street’s Favorite Stocks Worth Investigating — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-085817691.html
+  > The stocks in this article have caught Wall Street’s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about comp
+- **2026-09-04** · 2 Services Stocks to Research Further and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-research-further-131010024.html
+  > Business services providers thrive by solving complex operational challenges for their clients, allowing them to focus on their secret sauce. Furthermore, the demand for their offerings is rising as more clients outsource non-core functions
+- **2026-08-27** · UK regulator opens probe into Brink’s $6.6bn takeover of NCR Atleos — *Retail Banker International* — https://www.retailbankerinternational.com/news/brinks-takeover-ncr-atleos-uk-probe/
+  > The merged group would combine Brink’s cash handling operations and route network with NCR Atleos’ ATM servicing activities.
+- **2026-08-16** · 2 Profitable Stocks Worth Investigating and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-worth-investigating-113300703.html
+  > Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t mean it will thrive tomorrow.
+- **2026-08-14** · 5 Insightful Analyst Questions From Brink's’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-brinks-142100549.html
+  > Brink's second quarter saw steady financial performance, with results broadly in line with what Wall Street expected. Management pointed to continued organic growth in its ATM Managed Services (AMS) and Digital Retail Solutions (DRS) busine
+- **2026-08-12** · Brink's (BCO) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/12/brinks-bco-q2-2026-earnings-call-transcript/
+  > Record margins and AMS/DRS growth fuel optimism ahead of NCR Atleos deal.
+- **2026-08-12** · Q2 Earnings Roundup: Brink's (NYSE:BCO) And The Rest Of The Safety & Security Services Segment — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-brinks-nyse-144522140.html
+  > The end of the earnings season is always a good time to take a step back and see who shined (and who didn’t). Let’s take a look at how safety & security services stocks fared in Q2, starting with Brink's (NYSE:BCO).
+- **2026-08-10** · Investing in Brink's (BCO)? Don't Miss Assessing Its International Revenue Trends — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investing-brinks-bco-dont-miss-131511075.html
+  > Examine the evolution of Brink's' (BCO) overseas revenue trends and their effects on Wall Street's forecasts and the stock's prospects.
+- **2026-08-07** · Brink's (BCO) Stock Looks Overvalued for Long Term Investors — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/brinks-bco-stock-looks-overvalued-021429628.html
+  > Brink's stock has delivered a strong 61.6% gain over the past three years, yet current valuation checks suggest the shares may not be an obvious bargain at around US$112.85. The 61.6% return over three years shows that long term holders hav
+- **2026-08-05** · The Brink's Company Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-brinks-company-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of The Brink's Company's Q2 2026 earnings call
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -122,6 +124,7 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Industrials
 - ACHR: no_model · price $5.71
 - ATKR: no_model · price $94.32
+- CECO: rich · price $71.87 · fair value $42.90 · gap -40.3%
 - CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
 - CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
 - CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
@@ -131,7 +134,6 @@ Attack these before you trust any number above.
 - FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
-- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
 
 ---
 

@@ -1,119 +1,104 @@
-# AXTI — AXT
+# ACLS — AXCELIS TECHNOLOGIES
 *Information Technology · brief generated 2026-10-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 254/1956
+- rotation position 262/1956
 
 ## Market
 | | |
 |---|---|
-| price | $81.81 |
-| market cap | $5.4B |
-| 5d / 21d / 63d / 252d | +7.8% / +45.8% / +44.5% / +1722.0% |
-| 60d avg daily $ volume | $667.6M |
-| beta (vs IWM) | 2.22 (R²=0.138) |
-| 5d volume vs 60d average | 0.9x |
+| price | $136.71 |
+| market cap | $4.2B |
+| 5d / 21d / 63d / 252d | +17.7% / +24.2% / -5.4% / +40.0% |
+| 60d avg daily $ volume | $47.3M |
+| beta (vs IWM) | 1.24 (R²=0.184) |
+| 5d volume vs 60d average | 1.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 98% / debt 2% |
+| WACC weights | equity 99% / debt 1% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+Normalized FCFF base **$128.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$107.0M', '$128.6M', '$136.2M']
+Enterprise value **$3.8B** · FCFF yield **+3.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 17.3% − 1pt | n/a |
-| **17.3% (point)** | **n/a** |
-| 17.3% + 1pt | n/a |
+| 12.0% − 1pt | +27.2% |
+| **12.0% (point)** | **+30.6%** |
+| 12.0% + 1pt | +33.8% |
 
 
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $81.81).
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$108.0M** and an implied growth of **+35.6%** instead of +30.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+12.1%** (5y revenue CAGR +12.1%).
+Gap under that baseline: **-45.0%** (fair value $75.19 vs price $136.71).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_sales (n=213) | 57.3x | 1.2x / 2.9x / 7.1x | $6.22 / $8.56 / $14.16 |
-| ev_gross_profit (n=197) | 450.1x | 3.1x / 6.2x / 13.1x | $5.17 / $5.71 / $6.89 |
-| p_tbv (n=158) | 6.2x | 2.7x / 5.3x / 11.7x | $35.43 / $69.07 / $152.78 |
-
-Blended midpoint **$27.78** vs price $81.81 — gap **-66.0%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Information Technology names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **43th percentile** of 123 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -8.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
-- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
+- none raised
 
 ## Recent filings
-- 2026-08-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/1051627/000143774926027677/axti20260630_10q.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm
-- 2026-07-29 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm
-- 2026-07-29 **8-K** — items 3.03,5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm
-- 2026-07-22 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm
-- 2026-07-08 **8-K** — items 2.04 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm
-- 2026-07-02 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm
-- 2026-06-22 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926021307/axti20260622_8k.htm
-- 2026-06-17 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926020978/axti20260615_8k.htm
-- 2026-06-09 **8-K** — items 3.03,5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1051627/000143774926020004/axti20260608_8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1113232/000110465926091999/acls-20260630x10q.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926091697/tm2622315d1_8k.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1113232/000110465926057725/acls-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926057147/tm2613844d1_8k.htm
+- 2026-05-06 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926056230/tm2613755d1_8k.htm
+- 2026-03-31 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1113232/000110465926037356/tm261420-1_def14a.htm
+- 2026-03-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926027104/tm268674d1_8k.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1113232/000110465926020461/acls-20251231x10k.htm
+- 2026-02-17 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926016391/tm265450d5_8k.htm
+- 2026-02-06 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1113232/000110465926011577/tm265450d1_8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/ex_974537.htm
-- **2026-07-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, 9.01)* — https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/ex_993544.htm
-- **2026-07-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/ex_990254.htm
+- **2026-08-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1113232/000110465926091697/tm2622315d1_ex99-1.htm
 
 ## News on this company — last 90 days
-*25 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
+*21 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-23** · AeroVironment And 2 Top Automation Stocks To Watch — *Simply Wall St.* — https://finance.yahoo.com/technology/articles/aerovironment-2-top-automation-stocks-061533121.html
-  > Rising interest rates from the Federal Reserve are lifting borrowing costs and putting pressure on labour heavy business models. That creates a clear opening for companies that can replace repetitive work with machines and software. Automat
-- **2026-09-21** · AXT Inc. (AXTI) Climbs 16% on S&P 600 Addition — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-climbs-16-200025106.html
-  > AXT Inc. (NASDAQ:AXTI) extended its winning streak to a fifth straight day on Monday, surging by as much as 16.4 percent in intraday trading to $81.50, as investors resumed buying positions amid its official membership in the S&P 600 index.
-- **2026-09-21** · Bear of the Day: Qualcomm (QCOM) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html
-  > With Apple making the s\wi
-- **2026-09-18** · Bull of the Day: AXT (AXTI) — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/bull-day-axt-axti-092000532.html
-  > Gateway for "secret semiconductor substrate" InP (indium phosphide) is blowing minds with triple-digit growth
-- **2026-09-17** · AXT (AXTI) Jumped, So What Is Driving Attention Now? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/axt-axti-jumped-driving-attention-121028372.html
-  > AXT (AXTI) has drawn fresh attention after a sharp one day gain of 11.4%, even as the share price remains down over the past month and past 3 months. That sharp one-day share price gain sits against a tougher recent stretch for AXT, with th
-- **2026-09-17** · AXTI Stock Jumped 11% Yesterday. The Index Nod Wasn’t the Whole Story. — *TIKR* — https://www.tikr.com/blog/axti-stock-jumped-11-yesterday-the-index-nod-wasnt-the-whole-story?ref=yahoofinance
-  > Key TakeawaysIndex Inclusion: AXT stock jumped 11% to $64 on Thursday, September 16, after S&P Dow Jones Indices added the company to the S&P SmallCap 600, effective September 21. Street Split: Five analysts split AXTI stock 3 buys, 1 outpe
-- **2026-09-17** · AXT (AXTI) Stock Could Be Fully Priced Despite Its Huge 3 Year Run — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/axt-axti-stock-could-fully-031423830.html
-  > AXT has delivered an extraordinary share price run in recent years, which naturally puts the focus on whether the current US$64.30 level can be squared with the revenue it generates. With that kind of move in the rear-view mirror, the centr
-- **2026-09-17** · AXT Inc. (AXTI) Draws Bullish Analyst Attention — Here’s Why — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-draws-bullish-010252885.html
-  > AXT Inc. (NASDAQ:AXTI) saw its share price climb by 11.49 percent on Wednesday to close at $64.30 apiece after it was named as one of the five semiconductor beneficiaries in the accelerating co-packaged optics sector. Following a five-day v
-- **2026-09-16** · AXT Rises 10% After Being Named Co-Packaged Optics Winner — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/axt-rises-10-being-named-204003104.html
-  > Needham calls CPO the most important technology transition for AI networking through 2028
-- **2026-09-16** · AXT's Geographic Reach Expands: Can It Drive More Revenue Growth? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axts-geographic-reach-expands-drive-152700669.html
-  > AXTI's surging sales in Europe and Asia-Pacific are broadening its revenue base beyond China as InP demand and export approvals improve.
-- **2026-09-10** · The Thing to Watch With AXTQ Is Not AXT. It Is How Long You Hold It — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/10/the-thing-to-watch-with-axtq-is-not-axt-it-is-how-long-you-hold-it/
-  > AXTQ promises to double every move AXT Inc. makes against short sellers, yet since launch the fund has already defied that simple math in ways that have cost traders dearly. The reason has nothing to do with AXT's price direction.
-- **2026-09-10** · AXT Stock Falls 22% in Three Months: 3 Reasons the Dip Looks Attractive — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axt-stock-falls-22-three-142200786.html
-  > AXTI's 22% pullback looks attractive as surging InP demand, capacity expansion and supply deals support its AI data-center growth outlook.
-- **2026-09-09** · AXT's Liquidity Supports InP Capacity Expansion: Can Growth Continue? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axts-liquidity-supports-inp-capacity-153200067.html
-  > AXTI's $748.8M liquidity, $100M-plus InP backlog and planned capacity expansions position it to meet strong AI data-center demand.
-- **2026-09-09** · Tradr’s New AXTQ Pays Double When AXT Falls. The Catch Is the Word Daily — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/09/tradrs-new-axtq-pays-double-when-axt-falls-the-catch-is-the-word-daily-2/
-  > A new exchange-traded fund gives traders a way to double down on a bet against one of this year’s hottest semiconductor names. The Tradr 2X Short AXTI Daily ETF (CBOE:AXTQ) is designed to move in the opposite direction of AXT (NASDAQ:AXTI) 
-- **2026-09-04** · Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600 — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/bloom-energy-illumina-everpure-set-231500760.html
-  > S&P Dow Jones Indices will make the following changes to the S&P 500, S&P 100, S&P MidCap 400, and S&P SmallCap 600 indices effective prior to the open of trading on Monday, September 21, 2026, to coincide with the quarterly rebalance. The 
-- **2026-08-27** · AXT's Supply Agreements Expand: Can They Strengthen Revenue Growth? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axts-supply-agreements-expand-strengthen-145100457.html
-  > AXTI's expanding InP supply agreements, backed by customer deposits and commitments through 2031, improve shipment visibility and could support revenue growth.
-- **2026-08-25** · Here's Why AXT (AXTI) Is a Great 'Buy the Bottom' Stock Now — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-why-axt-axti-great-135502293.html
-  > AXT (AXTI) appears to have found support after losing some value lately, as indicated by the formation of a hammer chart. In addition to this technical chart pattern, strong agreement among Wall Street analysts in revising earnings estimate
-- **2026-08-21** · AXTI vs. ASYS: Which AI Semiconductor Stock Is the Better Buy Now? — *Zacks* — https://finance.yahoo.com/technology/ai/articles/axti-vs-asys-ai-semiconductor-162600580.html
-  > AXT leads Amtech Systems on AI-driven InP demand, earnings growth and capacity expansion, despite a premium valuation and advanced-packaging momentum.
+- **2026-09-17** · ASX Up 230.9% in the Past Year: Should You Capitalize on the Euphoria? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/asx-230-9-past-capitalize-160000402.html
+  > ASE Technology's 230.9% one-year surge is fueled by booming AI packaging demand, rising LEAP volumes, margin expansion and a $10.5 billion 2026 capex plan.
+- **2026-09-16** · Axcelis Technologies (ACLS) Sees a More Significant Dip Than Broader Market: Some Facts to Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-sees-more-221501847.html
+  > Axcelis Technologies (ACLS) concluded the recent trading session at $103.75, signifying a -1.23% move from its prior day's close.
+- **2026-09-16** · ACLS Falls 22.4% in Past Month as Recovery Meets Fresh Margin Pressure — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/acls-falls-22-4-past-151100826.html
+  > Axcelis shares fell 22.4% in a month as recovering bookings and demand collide with weaker margins, backlog pressure and heavy China exposure.
+- **2026-09-16** · Should Investors Buy ACLS as Growth Returns Despite Premium Valuation? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investors-buy-acls-growth-returns-151000492.html
+  > Axcelis growth is returning as memory, power and aftermarket demand improve, but premium valuation and incomplete margin recovery keep execution in focus.
+- **2026-09-16** · ACLS Invests $35M in Korea To Expand Its Manufacturing Infrastructure — *Zacks* — https://finance.yahoo.com/technology/articles/acls-invests-35m-korea-expand-150900695.html
+  > Axcelis plans a $35M South Korea ion implantation facility to expand Asian capacity as memory, power and mature-node activity improves.
+- **2026-09-14** · Axcelis Announces Sponsorship and Participation in the 25th International Conference on Ion Implantation and Annealing Technology 2026 — *PR Newswire* — https://finance.yahoo.com/technology/articles/axcelis-announces-sponsorship-participation-25th-120000930.html
+  > Axcelis Technologies, Inc. (NASDAQ: ACLS), a leading supplier of enabling ion implantation solutions for the semiconductor industry, will be a Platinum Sponsor at the International Conference on Ion Implantation and Annealing Technology 202
+- **2026-09-09** · Axcelis Technologies (ACLS) Declines More Than Market: Some Information for Investors — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-declines-more-221501513.html
+  > Axcelis Technologies (ACLS) closed the most recent trading day at $115.56, moving 3.03% from the previous trading session.
+- **2026-09-08** · Axcelis to Build New Manufacturing Facility in Pyeongtaek, Korea — *PR Newswire* — https://finance.yahoo.com/technology/articles/axcelis-build-manufacturing-facility-pyeongtaek-120000618.html
+  > Axcelis Technologies, Inc. (Nasdaq: ACLS), a leading supplier of enabling ion implantation solutions for the semiconductor industry, today announced plans to invest $35 million in its global manufacturing infrastructure through the construc
+- **2026-09-04** · US firms pledge $2bn for South Korea’s chip, clean energy sectors — *Investment Monitor* — https://www.investmentmonitor.ai/news/us-pledge-2bn-for-south-korea/
+  > The participating companies are Air Products, Axcelis Technologies, Corning and Pacifico Energy
+- **2026-09-03** · Why Axcelis Technologies (ACLS) Is Back On Investor Radars — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/why-axcelis-technologies-acls-back-170650088.html
+  > Why Axcelis Technologies Is Back On Investor Radars Axcelis Technologies (ACLS) recently announced plans to join upcoming investor conferences, including the Citi 2026 Global TMT Conference and the B. Riley Securities Consumer & TMT Confere
+- **2026-09-03** · Axcelis Technologies (ACLS) Stock Could Look Pricey On Current Earnings Power — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-stock-could-161558056.html
+  > Axcelis Technologies has delivered a strong 5 year share price gain, yet the stock now screens as expensive on several valuation checks and carries a low overall value score. For investors, the recent pullback raises the question of whether
+- **2026-09-01** · Axcelis Announces Participation in Upcoming Investor Conferences — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/axcelis-announces-participation-upcoming-investor-120000453.html
+  > Axcelis Technologies, Inc. (NASDAQ: ACLS), a leading supplier of enabling ion implantation solutions for the semiconductor industry, announced the company's plans to participate in the following upcoming investor conferences:
+- **2026-08-25** · Should You Include KLIC Stock in Portfolio After Solid Q3 Results? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/klic-stock-portfolio-solid-q3-155300674.html
+  > Kulicke and Soffa's Q3 beat, AI-led demand, advanced packaging growth and improving memory trends point to continued momentum into fiscal 2027.
+- **2026-08-25** · Is the Options Market Predicting a Spike in Axcelis Technologies Stock? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-axcelis-125800440.html
+  > Investors need to pay close attention to ACLS stock based on the movements in the options market lately.
+- **2026-08-14** · Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year. — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/14/aehr-test-systems-soars-again-friday-shares-now-up-more-than-500-on-the-year/
+  > A fresh Wall Street initiation just sent one of 2026's most explosive small caps through its all-time high, and the analyst behind it called the price target conservative while leaving several major catalysts completely out of the model.
+- **2026-08-13** · Axcelis (ACLS) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/axcelis-acls-q2-2026-earnings-call-transcript/
+  > Revenue beat forecasts at $215.2 million as power and memory markets show recovery signs.
+- **2026-08-06** · Axcelis Technologies Inc (ACLS) (Q2 2026) Earnings Call Highlights: Revenue and EPS Beat, ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-inc-acls-q2-231802283.html
+  > The company raised its 2026 guidance to mid single-digit growth, driven by robust bookings, a strong CSI business, and expanding opportunities in advanced logic and memory.
+- **2026-08-06** · Axcelis Technologies Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/axcelis-technologies-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Axcelis Technologies (NASDAQ:ACLS) reported second-quarter 2026 revenue of $215 million and non-GAAP diluted earnings per share of $1.06, with both figures exceeding management’s expectations. The company raised its outlook for the full yea
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
@@ -147,6 +132,7 @@ Attack these before you trust any number above.
 *No prior research — this is the first pass on this name.*
 
 ## Prior verdicts elsewhere in Information Technology
+- AXTI: no_model · price $81.81
 - BDC: no_model · price $112.52
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
@@ -158,7 +144,6 @@ Attack these before you trust any number above.
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
 - MARA: no_model · price $13.28
 - MXL: no_model · price $71.51
-- NSIT: no_edge · price $165.19 · fair value $186.86 · gap +13.1%
 
 ---
 

@@ -1,100 +1,88 @@
-# CSTM — CONSTELLIUM SE CLASS A
-*Materials · brief generated 2026-10-02 · selected as **rotation***
+# CSV — CARRIAGE SERVICES INC
+*Consumer Discretionary · brief generated 2026-10-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 257/1956
+- cheapest 10% of 126 Consumer Discretionary peers (90th pct)
+- baseline gap +139%
+- filed an 8-K in the last few sessions
+- never researched
+- urgency score 6.15
 
 ## Market
 | | |
 |---|---|
-| price | $24.66 |
-| market cap | $3.4B |
-| 5d / 21d / 63d / 252d | +0.1% / -8.4% / -16.4% / +65.7% |
-| 60d avg daily $ volume | $42.9M |
-| beta (vs IWM) | 1.37 (R²=0.334) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-03-31 (10-Q) |
-| WACC weights | equity 63% / debt 37% |
+| price | $31.79 |
+| market cap | $504.9M |
+| 5d / 21d / 63d / 252d | -0.6% / -4.0% / -18.3% / -27.9% |
+| 60d avg daily $ volume | $5.8M |
+| beta (vs IWM) | 0.65 (R²=0.18) |
+| 5d volume vs 60d average | 1.2x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 99% / debt 1% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$100.0M** (mean of CFO−capex over 2y, plus after-tax interest)
-  annual FCF, newest first: ['$159.0M', '$-112.0M']
-Enterprise value **$5.2B** · FCFF yield **+1.9%**
+Normalized FCFF base **$71.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$40.1M', '$35.9M', '$57.6M']
+Enterprise value **$508.6M** · FCFF yield **+14.1%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.2% − 1pt | +35.7% |
-| **10.2% (point)** | **+40.0%** |
-| 10.2% + 1pt | +44.0% |
+| 8.8% − 1pt | -17.2% |
+| **8.8% (point)** | **-14.3%** |
+| 8.8% + 1pt | -11.7% |
 
 
-> **Stock compensation is 94% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$78.0M** and an implied growth of **+47.6%** instead of +40.0%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 16% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$64.4M** and an implied growth of **-12.1%** instead of -14.3%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **n/a** (insufficient_revenue_history).
-Gap under that baseline: **n/a** (fair value n/a vs price $24.66).
+Naive baseline for comparison: **+4.8%** (5y revenue CAGR +4.8%).
+Gap under that baseline: **+138.8%** (fair value $75.93 vs price $31.79).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=56) | 7.0x | 8.8x / 12.9x / 23.5x | $34.06 / $56.56 / $113.70 |
-| ev_sales (n=74) | 0.6x | 0.8x / 1.3x / 3.4x | $35.17 / $65.80 / $197.16 |
-| ev_gross_profit (n=71) | 7.3x | 5.1x / 8.3x / 17.2x | $13.24 / $29.56 / $76.01 |
-| p_tbv (n=72) | 3.4x | 1.4x / 2.7x / 4.4x | $9.89 / $19.02 / $31.32 |
-
-Blended midpoint **$42.73** vs price $24.66 — gap **+73.3%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Materials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **90th percentile** of 126 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +137.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_11.5x_of_mean`
-- `stock_comp_is_94%_of_fcff_reported_cash_flow_treats_it_as_free`
-- `no_baseline_growth`
+- `interest_expense_implies_584%_on_reported_debt_debt_likely_understated`
 
 ## Recent filings
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000192/cstm-20260630.htm
-- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/cstm-20260729.htm
-- 2026-05-21 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000174/cstm-20260521.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000155/cstm-20260331.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000153/cstm-20260429.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000142/cstm-20260410.htm
-- 2026-03-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000092/cstm-20260312.htm
-- 2026-02-25 **10-K** — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000057/cstm-20251231.htm
-- 2026-02-18 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000047/cstm-20260218.htm
-- 2025-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1563411/000156341125000028/cstm-20250930.htm
+- 2026-09-30 **8-K** — items 1.01,1.02,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000110465926112380/tm2626597d1_8k.htm
+- 2026-08-14 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000060/csv-20260813.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000055/csv-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000051/csv-20260805.htm
+- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000039/csv-20260514.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000037/csv-20260331.htm
+- 2026-05-06 **8-K** — items 1.01,2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000110465926056265/tm2612484d4_8k.htm
+- 2026-03-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1016281/000110465926036092/tm261332-4_def14a.htm
+- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000021/csv-20251231.htm
+- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000016/csv-20260225.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/a2026-q2xearningspressre.htm
-- **2026-07-29** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/a2026-q2xearningspresent.htm
+- **2026-09-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, termination of a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1016281/000110465926112380/tm2626597d1_ex99-1.htm
+- **2026-09-30** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, termination of a material agreement, new debt obligation, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1016281/000110465926112380/tm2626597d1_ex99-2.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1016281/000101628126000051/pressrelease-q22026.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Materials
-*From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-25** · Stock Market News for Sep 25, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html
-- **2026-09-17** · Stock Market News for Sep 17, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-17-131700015.html
-- **2026-09-15** · U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/u-steel-materials-stocks-swing-193008928.html
-- **2026-09-14** · How Is LyondellBasell Industries’ Stock Performance Compared to Other Industrial Stocks? — *Barchart* — https://www.barchart.com/story/news/4583485/how-is-lyondellbasell-industries-stock-performance-compared-to-other-industrial-stocks
-- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
-- **2026-09-10** · Corteva Stock: Is CTVA Outperforming the Basic Material Sector? — *Barchart* — https://www.barchart.com/story/news/4537459/corteva-stock-is-ctva-outperforming-the-basic-material-sector
-- **2026-09-10** · Dow Stock: Is DOW Outperforming the Materials Sector? — *Barchart* — https://www.barchart.com/story/news/4530570/dow-stock-is-dow-outperforming-the-materials-sector
-- **2026-09-04** · Stock Market News for Sep 4, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html
-- **2026-08-31** · U.S. steel and materials stocks swing amid U.S.-Canada trade war — *Quartz* — https://qz.com/steel-materials-stocks-us-canada-trade-war-tariffs-083126
-- **2026-08-26** · Do Wall Street Analysts Like Martin Marietta Materials Stock? — *Barchart* — https://www.barchart.com/story/news/4099168/do-wall-street-analysts-like-martin-marietta-materials-stock
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
+- **2026-09-24** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195131056.html
+- **2026-09-24** · Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
+- **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
+- **2026-09-23** · Sector Update: Consumer Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html
+- **2026-09-23** · Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/
+- **2026-09-23** · DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -113,16 +101,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Materials
-- AMR: no_edge · price $225.41 · fair value $157.90 · gap -29.9%
-- AVNT: rich · price $40.44 · fair value $30.23 · gap -25.2%
-- BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
-- CBT: no_edge · price $79.20 · fair value $83.54 · gap +5.5%
-- CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
-- FRD: no_edge · price $40.80 · fair value $49.94 · gap +22.4%
-- HCC: no_edge · price $105.58 · fair value $100.96 · gap -4.4%
-- PRM: rich · price $31.56 · fair value $11.26 · gap -64.3%
-- SSRM: no_edge · price $37.39
+## Prior verdicts elsewhere in Consumer Discretionary
+- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
+- GHC: no_edge · price $1.1K · fair value $1.0K · gap -10.2%
+- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
+- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
 
 ---
 

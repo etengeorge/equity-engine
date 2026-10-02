@@ -1,86 +1,63 @@
-# AOMR — ANGEL OAK MORTGAGE REIT
+# NMIH — NMI HOLDINGS
 *Financials · brief generated 2026-10-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 337 Financials peers (98th pct)
-- baseline gap +125%
-- 21d move -11%
-- filed an 8-K in the last few sessions
+- cheapest 4% of 337 Financials peers (96th pct)
+- baseline gap +104%
+- 5d move -8%
+- 21d move -14%
 - never researched
-- urgency score 8.6
+- urgency score 5.86
 
 ## Market
 | | |
 |---|---|
-| price | $7.27 |
-| market cap | $168.8M |
-| 5d / 21d / 63d / 252d | -2.5% / -11.3% / -16.5% / -10.0% |
-| 60d avg daily $ volume | $1.2M |
-| beta (vs IWM) | 0.93 (R²=0.435) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 6% / debt 94% |
+| price | $38.08 |
+| market cap | $2.9B |
+| 5d / 21d / 63d / 252d | -8.4% / -14.0% / -7.2% / -0.7% |
+| 60d avg daily $ volume | $23.3M |
+| beta (vs IWM) | 0.54 (R²=0.16) |
+| 5d volume vs 60d average | 2.0x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 88% / debt 12% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +13.9% |
-| cost of equity | +10.4% |
-| justified P/TBV | 1.42 |
-| actual P/TBV | 0.63 |
-| tangible book / share | $11.52 |
-| implied gap | +125.5% |
+| sustainable ROTCE | +16.0% |
+| cost of equity | +8.2% |
+| justified P/TBV | 2.25 |
+| actual P/TBV | 1.11 |
+| tangible book / share | $34.42 |
+| implied gap | +103.5% |
 
-Cohort: **98th percentile** of 337 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +159.9%).
+Cohort: **96th percentile** of 337 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +138.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-09-29 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm
-- 2026-09-29 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000058/aomr-20260925.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
-- 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
-- 2026-06-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm
-- 2026-05-20 **8-K** — items 1.01,1.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm
-- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
+- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000038/nmih-20260630.htm
+- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000037/nmih-20260730.htm
+- 2026-05-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000033/nmih-20260514.htm
+- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000029/nmih-20260331.htm
+- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000027/nmih-20260430.htm
+- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000019/nmih-20260326.htm
+- 2026-02-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000012/nmih-20260212.htm
+- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000011/nmih-20251231.htm
+- 2026-02-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000004/nmih-20260210.htm
+- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790325000103/nmih-20250930.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm
-- **2026-08-04** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
-- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm
+- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000037/exhibit991q22026.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-11** · Angel Oak Mortgage REIT (AOMR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/angel-oak-mortgage-reit-aomr-q2-2026-earnings-call-transcript/
-  > Net interest income grew 8% despite market volatility and unrealized losses.
-- **2026-08-11** · Cherry Hill Mortgage’s 29% Premium Deal: $9B Merger Opens Door to Bigger Upside – Quarterly Update Report — *Exec Edge* — https://finance.yahoo.com/markets/stocks/articles/cherry-hill-mortgage-29-premium-150508758.html
-  > Download the Complete Report Here Cherry Hill Mortgage Investment Corp. (CHMI) MITT Deal Unlocks Value and Preserves Further Upside as 2Q26 EAD Beats Expectations The MITT transaction materially improves value realization for CHMI sharehold
-- **2026-08-05** · Angel Oak Mortgage, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-angel-oak-mortgage-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Angel Oak Mortgage, Inc.'s Q2 2026 earnings call
-- **2026-08-04** · Angel Oak Mortgage REIT Inc (AOMR) (Q2 2026) Earnings Call Highlights: Strategic Reinvestment ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/angel-oak-mortgage-reit-inc-210204985.html
-  > Angel Oak Mortgage REIT Inc (AOMR) navigates a turbulent quarter with disciplined capital deployment, strong net interest income growth, and a robust securitization pipeline.
-- **2026-08-04** · Angel Oak Mortgage REIT Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/angel-oak-mortgage-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Angel Oak Mortgage REIT (NYSE:AOMR) reported second-quarter 2026 GAAP net income of $3.4 million, or $0.14 per diluted common share, compared with $800,000, or $0.03 per diluted common share, in the prior-year period. The mortgage REIT said
-- **2026-08-04** · Angel Oak Mortgage (AOMR) Beats Q2 Earnings Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-aomr-beats-122502097.html
-  > Angel Oak (AOMR) delivered earnings and revenue surprises of +2.78% and -1.90%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-04** · Angel Oak Mortgage REIT, Inc. Reports Second Quarter 2026 Financial Results — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-110000536.html
-  > ATLANTA, August 04, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first and second lien non-QM loans and other mortgage-related
-- **2026-07-30** · Blackstone Mortgage Trust (BXMT) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-surpasses-123504738.html
-  > Blackstone Mortgage (BXMT) delivered earnings and revenue surprises of +26.32% and +0.20%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-07-24** · Xerox and 4 More Stocks See Action From Activist Investors — *Barrons.com* — https://www.barrons.com/articles/xerox-and-4-more-stocks-see-action-from-activist-investors-d9214bb2?siteid=yhoof2&yptr=yahoo
-  > Activists also report to the SEC on Metalla Royalty, Xerox Holdings, Angel Oak Mortgage REIT, and Daktronics.
-- **2026-07-21** · Angel Oak Mortgage REIT, Inc. Sets Date for Second Quarter 2026 Earnings Release and Conference Call — *Business Wire* — https://finance.yahoo.com/real-estate/articles/angel-oak-mortgage-reit-inc-201500632.html
-  > ATLANTA, July 21, 2026--Angel Oak Mortgage REIT, Inc. (NYSE: AOMR) (the "Company," "we," and "our"), a leading real estate finance company focused on acquiring and investing in first lien non-QM loans and other mortgage-related assets in th
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
@@ -119,13 +96,13 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - ACR: no_model · price $14.00
 - AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
 - AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
+- AOMR: no_edge · price $7.27
 - ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
 - CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
-- CD: no_model · price $5.17
 
 ---
 

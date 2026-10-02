@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-02T11:25:39+00:00",
+  "screen_utc": "2026-10-02T16:35:25+00:00",
   "price_asof": "2026-10-01",
   "universe": 1956,
-  "modelled": 1074,
+  "modelled": 1073,
   "modelled_pct": 54.9,
   "news": {
-    "generated_utc": "2026-10-02T11:25:40+00:00",
+    "generated_utc": "2026-10-02T16:35:26+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 50,
+    "articles_new": 1,
     "candidates": 450,
-    "elapsed_s": 239.3
+    "elapsed_s": 200.5
   },
   "picks": [
-    "LRN",
-    "CECO",
-    "AXTI",
-    "RXO",
-    "HNGE",
-    "CSTM",
-    "AOMR",
-    "BUR",
-    "WLFC",
-    "CARS"
+    "SXI",
+    "STNG",
+    "GNW",
+    "KAI",
+    "ACLS",
+    "BTU",
+    "OXM",
+    "BCO",
+    "CSV",
+    "NMIH"
   ],
   "stages": {
-    "screen": "2026-10-02T11:29:50+00:00",
-    "news": "2026-10-02T11:29:39+00:00",
-    "pick": "2026-10-02T11:29:50+00:00"
+    "screen": "2026-10-02T16:38:55+00:00",
+    "news": "2026-10-02T16:38:47+00:00",
+    "pick": "2026-10-02T16:38:55+00:00"
   }
 }

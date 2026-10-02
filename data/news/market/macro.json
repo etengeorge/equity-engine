@@ -4308,5 +4308,15 @@
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+  "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
  }
 ]

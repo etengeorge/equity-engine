@@ -1,67 +1,113 @@
-# LRN — STRIDE INC
-*Consumer Discretionary · brief generated 2026-10-02 · selected as **rotation***
+# OXM — OXFORD INDUSTRIES INC
+*Consumer Discretionary · brief generated 2026-10-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 252/1956
+- cheapest 2% of 126 Consumer Discretionary peers (98th pct)
+- baseline gap +255%
+- 21d move -33%
+- never researched
+- urgency score 6.44
 
 ## Market
 | | |
 |---|---|
-| price | $77.52 |
-| market cap | $3.2B |
-| 5d / 21d / 63d / 252d | -3.1% / -11.2% / -14.3% / -48.0% |
-| 60d avg daily $ volume | $70.9M |
-| beta (vs IWM) | 0.1 (R²=0.007) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.6x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 89% / debt 11% |
+| price | $25.38 |
+| market cap | $380.1M |
+| 5d / 21d / 63d / 252d | -2.6% / -32.8% / -26.0% / -33.0% |
+| 60d avg daily $ volume | $14.6M |
+| beta (vs IWM) | 1.1 (R²=0.139) |
+| 5d volume vs 60d average | 1.1x |
+| balance sheet as of | 2026-08-01 (10-Q) |
+| WACC weights | equity 83% / debt 17% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$381.2M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$433.2M', '$431.0M', '$276.5M']
-Enterprise value **$2.7B** · FCFF yield **+14.2%**
+Normalized FCFF base **$82.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$11.3M', '$59.8M', '$170.2M']
+Enterprise value **$448.5M** · FCFF yield **+18.3%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 5.6% − 1pt | -29.7% |
-| **5.6% (point)** | **-25.0%** |
-| 5.6% + 1pt | -21.2% |
+| 11.7% − 1pt | -15.3% |
+| **11.7% (point)** | **-13.2%** |
+| 11.7% + 1pt | -11.2% |
 
 
-Naive baseline for comparison: **+10.5%** (4y revenue CAGR +10.5%).
-Gap under that baseline: **+399.1%** (fair value $386.93 vs price $77.52).
+> **Stock compensation is 19% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$66.5M** and an implied growth of **-8.4%** instead of -13.2%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+14.6%** (5y revenue CAGR +14.6%).
+Gap under that baseline: **+255.1%** (fair value $90.13 vs price $25.38).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **100th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +397.2%).
+Cohort: **98th percentile** of 126 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +253.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `extreme_gap_+399%_treat_as_suspected_data_error`
+- `speculative_cost_of_debt_but_only_17%_debt_weight`
+- `lumpy_fcff_spread_2.0x_of_mean`
+- `possible_trough_cycle_base_newest_fcf_0.07x_oldest_growth_applied_to_a_trough_understates_value`
+- `operating_leases_87%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
 
 ## Recent filings
-- 2026-08-05 **10-K** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm
-- 2026-08-04 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/f8k_080426.htm
-- 2026-07-30 **8-K** — items 2.02,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000114036126030147/ef20079028_8k.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926050510/lrn-20260331x10q.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326002775/f8k_042826.htm
-- 2026-01-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926007063/lrn-20251231x10q.htm
-- 2026-01-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326000444/f8k_012726.htm
-- 2025-12-10 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000110465925120014/tm2532943d1_8k.htm
-- 2025-11-03 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000110465925105334/tm2530050d1_8k.htm
-- 2025-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465925103288/lrn-20250930x10q.htm
+- 2026-09-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/75288/000007528826000084/oxm-20260801.htm
+- 2026-09-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/75288/000007528826000082/oxm-20260903.htm
+- 2026-06-26 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/75288/000007528826000062/oxm-20260623.htm
+- 2026-06-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/75288/000007528826000058/oxm-20260502.htm
+- 2026-06-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/75288/000007528826000055/oxm-20260610.htm
+- 2026-05-13 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/75288/000007528826000032/oxm-20260513.htm
+- 2026-03-27 **10-K** — https://www.sec.gov/Archives/edgar/data/75288/000007528826000026/oxm-20260131.htm
+- 2026-03-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/75288/000007528826000023/oxm-20260326.htm
+- 2026-01-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/75288/000117184326000199/f8k_010926.htm
+- 2025-12-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/75288/000007528825000148/oxm-20251101.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/exh_991.htm
-- **2026-07-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1157408/000114036126030147/ef20079028_ex99-1.htm
+- **2026-09-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/75288/000007528826000082/oxm-8012026xexx991.htm
+- **2026-06-10** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/75288/000007528826000055/oxm-5022026xexx991.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*18 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-22** · Consumer Discretionary - Apparel and Accessories Stocks Q2 In Review: Oxford Industries (NYSE:OXM) Vs Peers — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/consumer-discretionary-apparel-accessories-stocks-150146026.html
+  > The end of the earnings season is always a good time to take a step back and see who shined (and who didn’t). Let’s take a look at how consumer discretionary - apparel and accessories stocks fared in Q2, starting with Oxford Industries (NYS
+- **2026-09-21** · 1 Volatile Stock to Target This Week and 2 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-volatile-stock-target-week-083825453.html
+  > Market swings can be tough to stomach, and volatile stocks often experience exaggerated moves in both directions. While many thrive during risk-on environments, many also struggle to maintain investor confidence when the ride gets bumpy.
+- **2026-09-10** · Oxford Industries (OXM) Cut Its Outlook Despite a $42 Million Tariff Refund. Can Margins Hold? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-oxm-cut-outlook-193046259.html
+  > Oxford Industries, Inc. (NYSE:OXM) reported fiscal second-quarter net sales of $394.4 million, down 2.2%. Full-price direct-to-consumer sales declined 1%, while wholesale sales fell 14%, primarily reflecting lower off-price sales. GAAP gros
+- **2026-09-09** · Oxford Industries (OXM) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/09/oxford-industries-oxm-q2-2026-earnings-call-transcript/
+  > Lilly Pulitzer weakness forces guidance cuts despite Tommy Bahama gains.
+- **2026-09-05** · Why Oxford Industries (OXM) Stock Is Falling Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-oxford-industries-oxm-stock-002210215.html
+  > Shares of fashion conglomerate Oxford Industries (NYSE:OXM) fell 17.7% in the afternoon session after the apparel company reported second-quarter fiscal 2026 financial results and lowered its full-year guidance due to challenges at Lilly Pu
+- **2026-09-04** · OXM Q2 Deep Dive: Guidance Cut as Lilly Pulitzer Weighs on Mixed Portfolio — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/oxm-q2-deep-dive-guidance-213410433.html
+  > Fashion conglomerate Oxford Industries (NYSE:OXM) met Wall Street’s revenue expectations in Q2 CY2026, but sales fell by 2.2% year on year to $394.4 million. On the other hand, next quarter’s revenue guidance of $290 million was less impres
+- **2026-09-04** · Oxford Industries, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-oxford-industries-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Oxford Industries, Inc.'s Q2 2026 earnings call
+- **2026-09-04** · How To Earn $500 A Month From Oxford Industries Stock Ahead Of Q2 Earnings — *Benzinga* — https://finance.yahoo.com/markets/stocks/articles/earn-500-month-oxford-industries-104506221.html
+  > Oxford Industries, Inc. will release earnings for its second quarter after the closing bell on Thursday, Sept. 3. Analysts expect the company to report quarterly earnings of $1.31 per share. That’s up from $1.26 per share in the year-ago pe
+- **2026-09-04** · Oxford Industries Shares Fall 14.3% After Full-Year Guidance Cut — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/35692/oxford-industries-shares-fall-14-3-after-full-year-guidance-cut
+  > Oxford Industries (NYSE:OXM) shares fell 14. 3% in pre-market trading to $31.
+- **2026-09-04** · Oxford Industries Inc (OXM) (Q2 2026) Earnings Call Highlights: Margin Expansion and Debt ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-inc-oxm-q2-070055796.html
+  > Oxford Industries Inc (OXM) delivered adjusted EPS growth and strong cash flow, but revised full-year guidance downward amid softer consumer demand and persistent challenges at Lilly Pulitzer.
+- **2026-09-03** · Oxford Industries Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-oxford-industries-q2-earnings-call-highlights-2026-09-03/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Oxford Industries (NYSE:OXM) reported second-quarter fiscal 2026 results that were within its expectations, as improved gross margin and adjusted earnings per share growth helped offset sales pressure across parts of its portfolio. The comp
+- **2026-09-03** · Oxford Industries (OXM) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-oxm-surpasses-q2-214003770.html
+  > Oxford Industries (OXM) delivered earnings and revenue surprises of +1.52% and +0.31%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-09-03** · Oxford Industries’s (NYSE:OXM) Q2 CY2026 Earnings Results: Revenue In Line With Expectations But Stock Drops 15.8% — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-nyse-oxm-q2-203436534.html
+  > Fashion conglomerate Oxford Industries (NYSE:OXM) met Wall Street’s revenue expectations in Q2 CY2026, but sales fell by 2.2% year on year to $394.4 million. On the other hand, next quarter’s revenue guidance of $290 million was less impres
+- **2026-09-03** · Oxford: Owner of Tommy Bahama, Lilly Pulitzer and Johnny Was Reports Second Quarter Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/oxford-owner-tommy-bahama-lilly-200500726.html
+  > ATLANTA, Sept. 03, 2026 (GLOBE NEWSWIRE) -- Oxford Industries, Inc. (NYSE:OXM) today announced financial results for its second quarter of fiscal 2026 ended August 1, 2026. Consolidated net sales in the second quarter of fiscal 2026 were $3
+- **2026-09-02** · Oxford Industries Earnings: What To Look For From OXM — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-earnings-look-oxm-030857373.html
+  > Fashion conglomerate Oxford Industries (NYSE:OXM) will be reporting results this Thursday after market close. Here’s what you need to know.
+- **2026-08-28** · Oxford Industries Set to Report Q2 Earnings: What's in the Offing? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/oxford-industries-set-report-q2-154700893.html
+  > OXM's earnings outlook benefits from margin safeguards and brand initiatives, but tariff costs and weakness at key brands cloud the sales picture.
+- **2026-08-20** · Oxford to Release Second Quarter Fiscal 2026 Results on September 3, 2026 — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/oxford-release-second-quarter-fiscal-210400706.html
+  > ATLANTA, Aug. 20, 2026 (GLOBE NEWSWIRE) -- Oxford Industries, Inc. (NYSE: OXM) today announced that it plans to release its second quarter fiscal 2026 financial results after the market close on Thursday, September 3, 2026. Following the ne
+- **2026-08-16** · 3 Reasons OXM is Risky and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-oxm-risky-1-183700040.html
+  > Over the past six months, Oxford Industries’s stock price fell to $36.28. Shareholders have lost 6.9% of their capital, which is disappointing considering the S&P 500 has climbed by 13.1%. This was partly due to its softer quarterly results
 
 ## What is happening in Consumer Discretionary
 *From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*

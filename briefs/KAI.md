@@ -1,108 +1,92 @@
-# RXO — RXO INC
+# KAI — KADANT INC
 *Industrials · brief generated 2026-10-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 255/1956
+- rotation position 261/1956
 
 ## Market
 | | |
 |---|---|
-| price | $21.36 |
-| market cap | $3.5B |
-| 5d / 21d / 63d / 252d | +7.2% / +6.2% / -19.7% / +38.9% |
-| 60d avg daily $ volume | $40.4M |
-| beta (vs IWM) | 2.17 (R²=0.372) |
+| price | $263.52 |
+| market cap | $3.1B |
+| 5d / 21d / 63d / 252d | -4.0% / -9.9% / -14.6% / -11.0% |
+| 60d avg daily $ volume | $41.8M |
+| beta (vs IWM) | 1.3 (R²=0.404) |
 | 5d volume vs 60d average | 0.9x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 88% / debt 12% |
+| balance sheet as of | 2026-07-04 (10-Q) |
+| WACC weights | equity 86% / debt 14% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+Normalized FCFF base **$147.0M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$154.3M', '$134.3M', '$133.7M']
+Enterprise value **$3.5B** · FCFF yield **+4.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 15.6% − 1pt | n/a |
-| **15.6% (point)** | **n/a** |
-| 15.6% + 1pt | n/a |
+| 11.3% − 1pt | +18.5% |
+| **11.3% (point)** | **+21.8%** |
+| 11.3% + 1pt | +24.9% |
 
 
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $21.36).
+Naive baseline for comparison: **+10.6%** (5y revenue CAGR +10.6%).
+Gap under that baseline: **-39.1%** (fair value $160.51 vs price $263.52).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=171) | 108.2x | 9.7x / 13.9x / 19.5x | $-0.73 / $0.20 / $1.47 |
-| ev_sales (n=242) | 0.7x | 0.9x / 1.6x / 3.3x | $27.06 / $53.75 / $111.59 |
-
-Blended midpoint **$26.98** vs price $21.36 — gap **+26.3%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Industrials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **37th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -14.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_6.1x_of_mean`
-- `nonpositive_normalized_fcff`
+- none raised
 
 ## Recent filings
-- 2026-09-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000041/rxo-20260909.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000036/rxo-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000033/rxo-20260806.htm
-- 2026-05-13 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000029/rxo-20260512.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000026/rxo-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000023/rxo-20260507.htm
-- 2026-03-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1929561/000114036126011983/ny20063858x1_def14a.htm
-- 2026-02-20 **8-K** — items 1.01,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000114036126006319/ef20066190_8k.htm
-- 2026-02-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000020/rxo-20260211.htm
-- 2026-02-10 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000016/rxo-20260210.htm
+- 2026-09-10 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000055/kai-20260910.htm
+- 2026-08-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/886346/000088634626000052/kai-20260704.htm
+- 2026-08-04 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kai-20260804.htm
+- 2026-05-26 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000043/kai-20260520.htm
+- 2026-05-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/886346/000088634626000040/kai-20260404.htm
+- 2026-05-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000037/kai-20260505.htm
+- 2026-04-30 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000034/kai-20260430.htm
+- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/886346/000088634626000027/kai-20260401.htm
+- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/886346/000088634626000018/kai-20260103.htm
+- 2026-02-23 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/886346/000088634626000015/kai-20260223.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-09-09** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000041/rxo2026q3brokeragepressrel.htm
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000033/rxo2026q2pressrelease.htm
-- **2026-08-06** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1929561/000192956126000033/earningspresentation-q22.htm
+- **2026-09-10** · EX-99 · press release — KAI PRESS RELEASE 9-10-2026 CEO SUCCESSION PLAN *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/886346/000088634626000055/kaiform09102026ex99_ceotra.htm
+- **2026-08-04** · EX-99.1 · press release — KAI FORM 8-K EXHIBIT 99.1 08-04-2026 EARNINGS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kaiform8kex991q226.htm
+- **2026-08-04** · EX-99.2 · presentation — KAI FORM 8-K EXHIBIT 99.2 08-05-2026 WEBCAST SLIDES *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kaiform8kex992q226.htm
 
 ## News on this company — last 90 days
-*13 items held; showing the 13 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-14** · 1 Industrials Stock to Keep an Eye On and 2 We Turn Down — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-keep-eye-091108399.html
-  > Even if they go mostly unnoticed, industrial businesses are the backbone of our country. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the industry has underperformed t
-- **2026-09-11** · Is Uber Stock Cheap, Or Is The Cash Already Spent? — *Trefis* — https://www.trefis.com/articles/615041/is-uber-stock-cheap-or-is-the-cash-already-spent/2026-09-11
-  > Uber Technologies (UBER) generates free cash flow worth 6.8% of its market value a year, against 4.5% for the median S&P 500 company. A gap that wide usually points to a business the market expects to shrink. Uber is not shrinking; revenue 
-- **2026-09-10** · A Look Back at Ground Transportation Stocks’ Q2 Earnings: RXO (NYSE:RXO) Vs The Rest Of The Pack — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/look-back-ground-transportation-stocks-204104904.html
-  > The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how RXO (NYSE:RXO) and the rest of the ground transportation stocks fared 
-- **2026-09-09** · Should You Buy Uber Stock Because Its Operating Margin Keeps Climbing? — *Trefis* — https://www.trefis.com/articles/614770/should-you-buy-uber-stock-because-its-operating-margin-keeps-climbing/2026-09-09
-  > Uber Technologies (UBER) trades at $73.13, down about 20% over the past twelve months, while the S&P 500 (SPY) returned roughly 19%, and the stock sits at about 72% of its 52-week high. The worry is real: a multiyear $10 billion autonomous-
-- **2026-09-09** · RXO reports August truckload gross profit per load increase of more than 10% — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/35933/rxo-reports-august-truckload-gross-profit-per-load-increase-of-more-than-10
-  > RXO (NYSE:RXO) said its truckload gross profit per load increased by more than 10% in August compared with July, exceeding the outlook provided during its second-quarter earnings conference call. The truck brokerage and transportation servi
-- **2026-09-09** · RXO Provides Positive Brokerage Update, Highlighting Strong Truckload Gross Profit Per Load — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/rxo-provides-positive-brokerage-highlighting-113000781.html
-  > CHARLOTTE, N.C., September 09, 2026--RXO (NYSE: RXO), a leading provider of asset-light transportation solutions, announced today that it has achieved stronger than anticipated quarter-to-date truckload gross profit per load.
-- **2026-09-03** · Enterprise Purchasing Group and RXO Launch New Strategic Partnership — *Business Wire* — https://finance.yahoo.com/small-business/articles/enterprise-purchasing-group-rxo-launch-123000508.html
-  > CHARLOTTE, N.C., September 03, 2026--RXO (NYSE: RXO), a leading provider of asset-light transportation solutions, today announced it has entered into a preferred partnership with Enterprise Purchasing Group (epg), the world's leading group 
-- **2026-08-27** · 3 Cash-Burning Stocks We Steer Clear Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-cash-burning-stocks-steer-145707752.html
-  > Rapid spending isn’t always a sign of progress. Some cash-burning businesses fail to convert investments into meaningful competitive advantages, leaving them vulnerable.
-- **2026-08-27** · RXO Announces Participation at Upcoming Investor Conferences — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/rxo-announces-participation-upcoming-investor-123000540.html
-  > CHARLOTTE, N.C., August 27, 2026--RXO (NYSE: RXO) today announced that company leaders will present at the following investor conferences:
-- **2026-08-26** · One man paints challenging outlook for brokers’ insurance — *FreightWaves* — https://finance.yahoo.com/small-business/articles/one-man-paints-challenging-outlook-222003997.html
-  > A new report quoting one insurance executive has startling observations about broker insurance. The post One man paints challenging outlook for brokers’ insurance appeared first on FreightWaves.
-- **2026-08-25** · Broker RXO sees TL spot rate surge extend into Q3 — *FreightWaves* — https://finance.yahoo.com/economy/articles/broker-rxo-sees-tl-spot-165649868.html
-  > Freight broker RXO reported its truckload spot rate index posted its largest sequential gain in five years during the second quarter, with the strong momentum carrying into the third quarter. The post Broker RXO sees TL spot rate surge exte
-- **2026-08-25** · RXO’s Latest Curve Freight Market Forecast Shows the Biggest Sequential Increase in Truckload Spot Rates Since 2021 — *Business Wire* — https://finance.yahoo.com/markets/commodities/articles/rxo-latest-curve-freight-market-123000493.html
-  > CHARLOTTE, N.C., August 25, 2026--RXO (NYSE: RXO) a leading provider of asset-light transportation solutions, today released the latest update to its proprietary Curve truckload market forecast, which shows rapidly rising truckload spot rat
-- **2026-08-24** · RXO, ArcBest, and Lucid Shares Plummet, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/rxo-arcbest-lucid-shares-plummet-203336097.html
-  > A number of stocks fell in the afternoon session after trade negotiations between the United States and Canada broke down, sparking concerns over new 50% tariffs and retaliatory trade measures.
+- **2026-09-15** · Q2 Earnings Outperformers: Kadant (NYSE:KAI) And The Rest Of The General Industrial Machinery Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-outperformers-kadant-nyse-150331563.html
+  > Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Kadant (NYSE:KAI) and the best and worst performers in the general industrial machi
+- **2026-09-12** · Why Kadant (KAI) Shares Are Trading Lower Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html
+  > Shares of industrial equipment manufacturer Kadant (NYSE:KAI) fell 4.4% in the afternoon session after the company announced an executive succession plan outlining the upcoming transition and retirement of President and Chief Executive Offi
+- **2026-09-10** · Kadant Announces CEO Succession Plan — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/kadant-announces-ceo-succession-plan-203800152.html
+  > WESTFORD, Mass., Sept. 10, 2026 (GLOBE NEWSWIRE) -- Kadant Inc. (NYSE: KAI) today announced that Michael C. Colwell will be appointed president and chief operating officer effective October 1, 2026 and president, chief executive officer and
+- **2026-09-10** · Kadant Declares Cash Dividend — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/kadant-declares-cash-dividend-201000118.html
+  > WESTFORD, Mass., Sept. 10, 2026 (GLOBE NEWSWIRE) -- Kadant Inc. (NYSE: KAI) announced today that its Board of Directors has approved a quarterly cash dividend to stockholders of $0.36 per share to be paid on November 12, 2026 to stockholder
+- **2026-09-08** · Kadant Named to Newsweek's List of America's Greatest Companies 2026 — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/kadant-named-newsweeks-list-americas-164300518.html
+  > WESTFORD, Mass., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Kadant Inc. (NYSE: KAI) has been named to Newsweek's list of America's Greatest Companies 2026, recognizing organizations that excel in financial performance, workplace culture, innovation
+- **2026-09-04** · 2 of Wall Street’s Favorite Stocks with Exciting Potential and 1 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-111010539.html
+  > Wall Street is overwhelmingly bullish on the stocks in this article, with price targets suggesting significant upside potential. However, it’s worth remembering that analysts rarely issue sell ratings, partly because their firms often seek 
+- **2026-08-13** · The Top 5 Analyst Questions From Kadant’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-kadant-000500469.html
+  > Kadant’s second quarter was marked by robust top-line growth, with management crediting strong aftermarket demand and contributions from recent acquisitions as key drivers. CEO Jeffrey Powell highlighted that, despite continued softness in 
+- **2026-08-12** · Kadant (KAI) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/kadant-kai-q2-2026-earnings-call-transcript/
+  > Record aftermarket revenue and raised guidance highlight resilience amid capital softness.
+- **2026-08-08** · Kadant Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/kadant-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Kadant (NYSE:KAI) reported record second-quarter revenue, adjusted earnings and EBITDA for 2026, supported by acquisitions, organic growth and continued demand for aftermarket parts and services even as customers delayed some large capital-
+- **2026-08-05** · Kadant Inc (KAI) (Q2 2026) Earnings Call Highlights: Record Revenue and EPS Amidst Cautious ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/kadant-inc-kai-q2-2026-230158619.html
+  > Kadant Inc (KAI) delivers record Q2 results with 23% revenue growth, but management remains cautious on capital project timing despite a stronger pipeline.
+- **2026-08-05** · Kadant (KAI) Earnings Beat And Higher Guidance Put Valuation Back In Focus — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/kadant-kai-earnings-beat-higher-151202769.html
+  > Kadant (KAI) reported second quarter results that exceeded earnings and revenue estimates, with management also lifting full year revenue and adjusted EPS guidance after several quarters of outperformance. See our latest analysis for Kadant
+- **2026-08-04** · Kadant (KAI) Surpasses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/kadant-kai-surpasses-q2-earnings-230012596.html
+  > Kadant (KAI) delivered earnings and revenue surprises of +16.33% and +4.94%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -138,6 +122,7 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Industrials
 - ACHR: no_model · price $5.71
 - ATKR: no_model · price $94.32
+- CECO: rich · price $71.87 · fair value $42.90 · gap -40.3%
 - CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
 - CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
 - CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
@@ -147,7 +132,6 @@ Attack these before you trust any number above.
 - FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
 - FLR: no_model · price $54.51
 - GATX: no_model · price $177.31
-- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
 
 ---
 
