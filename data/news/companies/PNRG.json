@@ -46,17 +46,5 @@
    "PNRG"
   ],
   "source": "yfinance"
- },
- {
-  "id": "a8fb1033-c02b-3059-b74b-8f4a9358ce82",
-  "ts": "2026-06-01T12:35:00+00:00",
-  "title": "PrimeEnergy Q1 Earnings Fall Y/Y on Unfavorable Gas Prices",
-  "summary": "PNRG's Q1 earnings fall y/y as negative Permian gas prices hurt revenues, though the company remains profitable and maintains a debt-free balance sheet.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/sectors/energy/articles/primeenergy-q1-earnings-fall-y-123500439.html",
-  "tickers": [
-   "PNRG"
-  ],
-  "source": "yfinance"
  }
 ]

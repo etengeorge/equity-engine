@@ -70,29 +70,5 @@
    "CIX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "c7d3e42c-b69b-35b6-8838-36e035ddda87",
-  "ts": "2026-05-29T11:33:23+00:00",
-  "title": "Discover 3 Undiscovered Gems in the US Market",
-  "summary": "The United States market has experienced a notable rise, climbing 1.8% in the last week and up 28% over the past year, with earnings projected to grow by 17% annually. In such a robust environment, identifying stocks that combine strong fundamentals with growth potential can uncover promising opportunities for investors seeking to capitalize on these favorable conditions.",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/discover-3-undiscovered-gems-us-113323702.html",
-  "tickers": [
-   "CIX"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "222e0586-1145-33bc-85d6-32da39c47bf0",
-  "ts": "2026-05-29T11:32:06+00:00",
-  "title": "3 Leading Dividend Stocks With Yields Up To 4.6%",
-  "summary": "Over the last 7 days, the United States market has risen by 1.8%, and over the past 12 months, it has seen a significant increase of 28%, with earnings projected to grow by 17% annually in the coming years. In such a robust market environment, identifying dividend stocks with strong yields can be an effective strategy for investors seeking consistent income and potential growth.",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/3-leading-dividend-stocks-yields-113206122.html",
-  "tickers": [
-   "CIX"
-  ],
-  "source": "yfinance"
  }
 ]

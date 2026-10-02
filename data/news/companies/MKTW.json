@@ -82,17 +82,5 @@
    "MKTW"
   ],
   "source": "yfinance"
- },
- {
-  "id": "9089f6bc-9a3a-3f47-a398-0f971680e99d",
-  "ts": "2026-05-27T17:00:07+00:00",
-  "title": "While AI Stocks And Gold Soar, Porter Stansberry Calls Bitcoin's 30% Yearly Slump The 'Best Opportunity In A Decade'",
-  "summary": "Stansberry stated that Bitcoin tracks banking-system liquidity, while gold tracks global credit, explaining why the two assets diverge.",
-  "publisher": "Stocktwits",
-  "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/ai-stocks-gold-soar-bitcoin-long-game/cZgg0e3Rerl",
-  "tickers": [
-   "MKTW"
-  ],
-  "source": "yfinance"
  }
 ]

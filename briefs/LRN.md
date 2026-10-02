@@ -1,82 +1,81 @@
-# OPLN — OPENLANE
-*Industrials · brief generated 2026-09-25 · selected as **rotation***
+# LRN — STRIDE INC
+*Consumer Discretionary · brief generated 2026-10-02 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 247/1956
+- rotation position 252/1956
 
 ## Market
 | | |
 |---|---|
-| price | $34.50 |
-| market cap | $4.2B |
-| 5d / 21d / 63d / 252d | +0.7% / +0.6% / -13.0% / +22.1% |
-| 60d avg daily $ volume | $42.2M |
-| beta (vs IWM) | 0.97 (R²=0.248) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-06-30 (10-Q) |
+| price | $77.52 |
+| market cap | $3.2B |
+| 5d / 21d / 63d / 252d | -3.1% / -11.2% / -14.3% / -48.0% |
+| 60d avg daily $ volume | $70.9M |
+| beta (vs IWM) | 0.1 (R²=0.007) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 0.6x |
+| balance sheet as of | 2026-06-30 (10-K) |
 | WACC weights | equity 89% / debt 11% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$267.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$336.5M', '$239.8M', '$185.0M']
-Enterprise value **$4.6B** · FCFF yield **+5.8%**
+Normalized FCFF base **$381.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$433.2M', '$431.0M', '$276.5M']
+Enterprise value **$2.7B** · FCFF yield **+14.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.9% − 1pt | +5.5% |
-| **9.9% (point)** | **+8.9%** |
-| 9.9% + 1pt | +12.0% |
+| 5.6% − 1pt | -29.7% |
+| **5.6% (point)** | **-25.0%** |
+| 5.6% + 1pt | -21.2% |
 
 
-Naive baseline for comparison: **-2.4%** (5y revenue CAGR -2.4%).
-Gap under that baseline: **-40.9%** (fair value $20.38 vs price $34.50).
+Naive baseline for comparison: **+10.5%** (4y revenue CAGR +10.5%).
+Gap under that baseline: **+399.1%** (fair value $386.93 vs price $77.52).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **36th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -16.0%).
+Cohort: **100th percentile** of 128 Consumer Discretionary names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +397.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_1.8x_oldest_growth_applied_to_a_peak_overstates_value`
+- `extreme_gap_+399%_treat_as_suspected_data_error`
 
 ## Recent filings
-- 2026-08-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000110465926096008/tm2623104d1_8k.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000031/opln-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/opln-20260804.htm
-- 2026-06-12 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000027/kar-20260609.htm
-- 2026-06-08 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000024/opln-20260605.htm
-- 2026-05-29 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000022/kar-20260529.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000019/opln-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000018/opln-20260505.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1395942/000110465926048054/tm261398-1_def14a.htm
-- 2026-03-03 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000015/kar-20260303.htm
+- 2026-08-05 **10-K** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm
+- 2026-08-04 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/f8k_080426.htm
+- 2026-07-30 **8-K** — items 2.02,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000114036126030147/ef20079028_8k.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926050510/lrn-20260331x10q.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326002775/f8k_042826.htm
+- 2026-01-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465926007063/lrn-20251231x10q.htm
+- 2026-01-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000117184326000444/f8k_012726.htm
+- 2025-12-10 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000110465925120014/tm2532943d1_8k.htm
+- 2025-11-03 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1157408/000110465925105334/tm2530050d1_8k.htm
+- 2025-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1157408/000110465925103288/lrn-20250930x10q.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EXHIBIT 99.1 - EARNINGS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/exhibit991-q22026earningsr.htm
-- **2026-08-04** · EX-99.2 · presentation — EXHIBIT 99.2 - EARNINGS RELEASE SUPPLEMENT *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/exhibit992-q22026ersupplem.htm
-- **2026-08-04** · EX-99.3 · press release — EXHIBIT 99.3 - EARNINGS SLIDES *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1395942/000139594226000030/q22026openlaneearningssl.htm
+- **2026-08-04** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/exh_991.htm
+- **2026-07-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1157408/000114036126030147/ef20079028_ex99-1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Industrials
-*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
 - **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
+- **2026-09-24** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195131056.html
+- **2026-09-24** · Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
-- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
-- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
-- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
-- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
-- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
+- **2026-09-23** · Sector Update: Consumer Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html
+- **2026-09-23** · Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/
+- **2026-09-23** · DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -85,29 +84,29 @@ Attack these before you trust any number above.
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
-- **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
-- **2026-09-25** · IFR Altitudes; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19722/ifr-altitudes-miscellaneous-amendments
-- **2026-09-25** · National Environmental Policy Act Implementing Procedures — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19720/national-environmental-policy-act-implementing-procedures
-- **2026-09-25** · Modernization of Regulations Under 9 CFR Parts 101-118 and 123-124; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19710/modernization-of-regulations-under-9-cfr-parts-101-118-and-123-124-extension-of-comment-period
-- **2026-09-25** · Amendment of Class E Airspace; Del Rio, TX — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19708/amendment-of-class-e-airspace-del-rio-tx
-- **2026-09-25** · Driving Efficiency in Farm Loan Delivery; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19696/driving-efficiency-in-farm-loan-delivery-correction
+- **2026-10-02** · Global Benchmark for Efficient Drug Pricing (GLOBE) Model — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model
+- **2026-10-02** · Federal Scholarship Tax Credit — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20277/federal-scholarship-tax-credit
+- **2026-10-02** · State of Indiana: Discontinuance of Certain Commission Regulatory Authority Within the State, Notice of Agreement Between the Nuclear Regulatory Commission and the State of Indiana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20276/state-of-indiana-discontinuance-of-certain-commission-regulatory-authority-within-the-state-notice
+- **2026-10-02** · Federal Scholarship Tax Credit — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20264/federal-scholarship-tax-credit
+- **2026-10-02** · Commission Quorum Requirement — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20262/commission-quorum-requirement
+- **2026-10-02** · Big Cypress National Preserve; Off-Road Motor Vehicles — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20251/big-cypress-national-preserve-off-road-motor-vehicles
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Industrials
-- ACHR: no_model · price $5.71
-- ATKR: no_model · price $94.32
-- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
-- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
-- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
-- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
-- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
-- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
-- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
-- FLR: no_model · price $54.51
-- GATX: no_model · price $177.31
-- GEO: rich · price $30.25 · fair value $17.54 · gap -42.0%
+## Prior verdicts elsewhere in Consumer Discretionary
+- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
+- GHC: no_edge · price $1.1K · fair value $1.0K · gap -10.2%
+- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
+- KBH: no_edge · price $49.16 · fair value $59.38 · gap +20.8%
 
 ---
 

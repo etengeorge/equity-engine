@@ -1,24 +1,23 @@
 # AOMR — ANGEL OAK MORTGAGE REIT
-*Financials · brief generated 2026-09-25 · selected as **opportunistic***
+*Financials · brief generated 2026-10-02 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 339 Financials peers (98th pct)
-- baseline gap +121%
-- 21d move -12%
-- volume 2.0x its 60d average
-- Financials is in the news
+- cheapest 2% of 337 Financials peers (98th pct)
+- baseline gap +125%
+- 21d move -11%
+- filed an 8-K in the last few sessions
 - never researched
-- urgency score 7.23
+- urgency score 8.6
 
 ## Market
 | | |
 |---|---|
-| price | $7.46 |
-| market cap | $173.2M |
-| 5d / 21d / 63d / 252d | -7.6% / -11.6% / -11.3% / -9.5% |
-| 60d avg daily $ volume | $1.1M |
-| beta (vs IWM) | 0.93 (R²=0.433) |
-| 5d volume vs 60d average | 2.0x |
+| price | $7.27 |
+| market cap | $168.8M |
+| 5d / 21d / 63d / 252d | -2.5% / -11.3% / -16.5% / -10.0% |
+| 60d avg daily $ volume | $1.2M |
+| beta (vs IWM) | 0.93 (R²=0.435) |
+| 5d volume vs 60d average | 1.2x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 6% / debt 94% |
 
@@ -28,19 +27,21 @@ This is a financial. FCFF is meaningless here (debt is raw material, not financi
 | | |
 |---|---|
 | sustainable ROTCE | +13.9% |
-| cost of equity | +10.3% |
-| justified P/TBV | 1.43 |
-| actual P/TBV | 0.65 |
+| cost of equity | +10.4% |
+| justified P/TBV | 1.42 |
+| actual P/TBV | 0.63 |
 | tangible book / share | $11.52 |
-| implied gap | +120.6% |
+| implied gap | +125.5% |
 
-Cohort: **98th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +155.7%).
+Cohort: **98th percentile** of 337 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +159.9%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
+- 2026-09-29 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm
+- 2026-09-29 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000058/aomr-20260925.htm
 - 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
 - 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm
 - 2026-07-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm
@@ -49,8 +50,6 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm
 - 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000022/aomr-20260331.htm
 - 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026030126/aomr-20260505.htm
-- 2026-04-27 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1766478/000176647826000018/aomr-20260422.htm
-- 2026-04-21 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1766478/000162828026026303/aomr-20260421.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
@@ -104,12 +103,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
-- **2026-09-25** · National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19723/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations
-- **2026-09-25** · IFR Altitudes; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19722/ifr-altitudes-miscellaneous-amendments
-- **2026-09-25** · National Environmental Policy Act Implementing Procedures — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19720/national-environmental-policy-act-implementing-procedures
-- **2026-09-25** · Modernization of Regulations Under 9 CFR Parts 101-118 and 123-124; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19710/modernization-of-regulations-under-9-cfr-parts-101-118-and-123-124-extension-of-comment-period
-- **2026-09-25** · Amendment of Class E Airspace; Del Rio, TX — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19708/amendment-of-class-e-airspace-del-rio-tx
-- **2026-09-25** · Driving Efficiency in Farm Loan Delivery; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/09/25/2026-19696/driving-efficiency-in-farm-loan-delivery-correction
+- **2026-10-02** · Global Benchmark for Efficient Drug Pricing (GLOBE) Model — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model
+- **2026-10-02** · Federal Scholarship Tax Credit — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20277/federal-scholarship-tax-credit
+- **2026-10-02** · State of Indiana: Discontinuance of Certain Commission Regulatory Authority Within the State, Notice of Agreement Between the Nuclear Regulatory Commission and the State of Indiana — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20276/state-of-indiana-discontinuance-of-certain-commission-regulatory-authority-within-the-state-notice
+- **2026-10-02** · Federal Scholarship Tax Credit — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20264/federal-scholarship-tax-credit
+- **2026-10-02** · Commission Quorum Requirement — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20262/commission-quorum-requirement
+- **2026-10-02** · Big Cypress National Preserve; Off-Road Motor Vehicles — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/02/2026-20251/big-cypress-national-preserve-off-road-motor-vehicles
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

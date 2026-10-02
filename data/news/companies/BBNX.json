@@ -214,17 +214,5 @@
    "BBNX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "ba7a80e6-5a6e-34e0-893b-d54910b82e37",
-  "ts": "2026-06-02T13:00:00+00:00",
-  "title": "Beta Bionics First in Automated Insulin Delivery to Publish Near Real-Time Real-World Data on a Public Website",
-  "summary": "New dashboard at betabionics.com shows every patient, every baseline, every outcome, with no filters and no fine printIRVINE, Calif., June 02, 2026 (GLOBE NEWSWIRE) -- Beta Bionics, Inc. (Nasdaq: BBNX), a pioneering leader in the development of advanced diabetes management solutions, today announced that near real-time real-world data on the iLet Bionic Pancreas is now publicly available at betabionics.com/hcp/real-world-data. The dashboard publishes outcomes for 100% of the iLet patients who me",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/beta-bionics-first-automated-insulin-130000900.html",
-  "tickers": [
-   "BBNX"
-  ],
-  "source": "yfinance"
  }
 ]
