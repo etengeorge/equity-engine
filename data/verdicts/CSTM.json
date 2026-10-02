@@ -1,0 +1,55 @@
+{
+  "ticker": "CSTM",
+  "date": "2026-10-02",
+  "sector": "Materials",
+  "name": "CONSTELLIUM SE CLASS A",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 24.65999984741211,
+  "market_implied_growth": 0.3997413172992722,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That even at a conservative through-cycle base the name is not expensive, so my refusal is over-cautious. At $200M of through-cycle FCF the market requires +12.1%, and at $250M it requires +7.7% - and Constellium is buying back stock, deleveraging to 1.8x, and has just pulled its 2028 targets forward two years. If the aerospace and defence recovery and the recycling build-out are structural rather than cyclical, the base is nearer the guide than my through-cycle number and +4.5% is a low hurdle.",
+    "what_would_prove_it": "Shipments. Every dollar of 2026's improvement came on volumes that FELL 1%, so the question is whether tonnage recovers while the price/mix holds. Shipment growth returning with EBITDA per tonne stable would confirm a structural step-up; tonnage flat with EBITDA per tonne falling would confirm the peak.",
+    "already_visible": "The peak evidence is visible and specific: shipments -1% in both Q2 and H1, $226M of H1 adjusted EBITDA being non-cash metal price lag, and management naming 'supply shortages' as a driver. Against it, segment adjusted EBITDA ex-lag of $572M in H1 is still a record and the guidance ex-lag of $980M-$1.02bn is an operating number, not a lag artifact.",
+    "unresolved": "Where in the cycle $376M of guided free cash flow sits. I have no free source for a multi-year normalised aluminium rolled-products margin, and the extract holds only two years of cash flow - too short to normalise against. The base choice moves the required growth from +4.5% to +17.2% and I cannot settle it."
+  },
+  "what_changed": "Q2 2026 (filed 2026-07-29), which the extract does not contain at all - its balance sheet is dated 2026-03-31. Revenue $2,748M +31%, net income $148M against $36M, adjusted EBITDA $439M including $129M of positive non-cash metal price lag, segment adjusted EBITDA a quarterly record at $135M A&T / $165M P&ARP / $26M AS&I. Cash from operations $161M and free cash flow $90M in the quarter; H1 CFO $234M and FCF $95M. Net debt $1,760M at 2026-06-30 against $1,824M at 2025-12-31; leverage 1.8x, inside the 1.5-2.5x target. Repurchased 1.8M shares for $48M in H1. In July a $100M partial redemption of the 5.625% 2028 notes, leaving $225M. GUIDANCE RAISED: FY2026 adjusted EBITDA $980M-$1.020bn excluding metal price lag, and free cash flow IN EXCESS OF $300M - which management notes achieves the 2028 targets ($900M EBITDA, $300M FCF) two years early.",
+  "consensus_case": "Constellium is earning record money and the market is declining to pay for it, which is the correct instinct about an aluminium roller at a cycle peak. Q2 2026 adjusted EBITDA was $439M against $146M a year earlier, +201%, and H1 $798M against $332M - while SHIPMENTS FELL 1% in both periods. Every dollar of that improvement is price and mix, not volume: $129M of the quarter and $226M of the half is non-cash metal price lag, and the rest comes from what management names as 'supply shortages of automotive rolled products in North America' and an improved aerospace and defence environment. A North American rolled-products shortage is a temporary condition, and metal price lag reverses when metal prices do. At 1.8x leverage with FY2026 guided free cash flow above $300M, paying about 5.3x peak EBITDA is what the market does to a cyclical printing its best-ever half on flat volume.",
+  "base_case_rationale": "Two errors of comparable size point in opposite directions, so per the SM rule the answer is a range and not an average. THE BASE IS FAR TOO LOW. The engine's $100.0M is built from only TWO observations of cfo-capex, [+$159M, -$112M], a mean of $23.5M, of which $76.5M of the $100M total is the after-tax interest add-back - 76% of the base, above the 60% SABR threshold at which a growth rate applied to the base is meaningless. Against that, Constellium guides FY2026 free cash flow - on its own definition of operating cash flow less capital expenditure net of PP&E inflows, i.e. exactly cfo-capex - at ABOVE $300M. That is the HOG/JBI detector firing loudly: the base is a quarter of the company's own guided free cash flow. On the guided figure plus the interest add-back the base is about $376M and the market requires +4.5%, not +40.0%. THE GUIDED FIGURE IS A PEAK. Record EBITDA on shipments down 1%, driven by metal price lag and a North American supply shortage, is not a run rate; a through-cycle free cash flow of $200-250M is more defensible, at which the market requires +12.1% to +7.7%, and a trough $150M gives +17.2%. So the honest statement is that the market requires somewhere between +4.5% and +17% depending entirely on where in the aluminium cycle the base is struck, and the choice alone moves the answer thirteen points. That is not a valuation. Separately the enterprise value is a quarter stale (the extract's 2026-03-31 balance sheet implies net debt near $1,830M against the actual $1,760M at 2026-06-30), though the error there is small.",
+  "key_risks": [
+    "Metal price lag swung from -$19M to +$129M in one year and is non-cash and reversible",
+    "Record earnings on shipments DOWN 1% - the improvement is entirely price/mix in a shortage",
+    "The extract carries only two years of cash flow, one of which is negative, so there is nothing to normalise against",
+    "$1,923M of debt; leverage is comfortable at peak EBITDA and considerably less so at mid-cycle"
+  ],
+  "watch_for": [
+    "Shipment tonnage returning to growth while EBITDA per tonne holds - the test that separates a step-up from a peak",
+    "Metal price lag turning negative in a quarter, which would show the reversal arriving",
+    "FY2027 guidance against the $980M-$1.02bn ex-lag 2026 base"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000192/cstm-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001563411/000156341126000190/a2026-q2xearningspressre.htm",
+    "https://res.cloudinary.com/constellium/image/upload/v1785317313/PDF%20documents/Earning%20Results/2026/2026_-_Q2_-_Earnings_Press_Release_ibolgr.pdf"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_11.5x_of_mean",
+    "stock_comp_is_94%_of_fcff_reported_cash_flow_treats_it_as_free",
+    "no_baseline_growth"
+  ]
+}

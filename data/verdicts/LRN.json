@@ -1,0 +1,54 @@
+{
+  "ticker": "LRN",
+  "date": "2026-10-02",
+  "sector": "Consumer Discretionary",
+  "name": "STRIDE INC",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.12,
+  "bull_growth": 0.03,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 77.5199966430664,
+  "market_implied_growth": -0.2500122138461768,
+  "cohort_pct": 100.0,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the corrected gap is not zero but modestly positive, and I am refusing a name that is actually cheap. At a 10.05% WACC the market requires -7.2% and at -2% growth the fair value is $94.13, about +21%. Stride also holds $754.5M of cash plus $203.5M of short-term investments against $418M of converts - $540M of NET CASH, 17% of market cap - which the enterprise value correctly deducts but which gives the equity a floor the DCF does not dramatise. The counter to the counter is that I cannot pin the WACC: the entire difference between 'roughly fair' and '+21%' is a beta I am choosing by hand, and the schema cannot record it.",
+    "what_would_prove_it": "FY2027 Q1 enrollment at the autumn count date, and whether General Education revenue decline stays near -2% or accelerates. Also whether the 140bp of platform gross-margin pressure recurs in FY2027 or was a one-year build.",
+    "already_visible": "The Q4 inflection is visible and is the strongest single fact on the name: revenue -2.7% and adjusted operating income -9.8% in the exit quarter, against a full year that was positive on both. Management stating applications are behind is also visible and is forward-looking.",
+    "unresolved": "I could not settle the discount rate, and it decides the verdict. A beta of 0.102 at R-squared 0.007 is not a measurement; my 1.0-1.2 substitute is a judgment. Between a 10.05% and an 11.03% WACC the corrected requirement moves from -7.2% to -4.7% and the fair value at -2% growth from $94.13 to $85.53."
+  },
+  "what_changed": "FY2026 10-K filed 2026-08-05 and the 2026-08-04 results release: full-year revenue $2,518.1M vs $2,405.3M, adjusted operating income $498.4M vs $466.2M. The decisive detail is the fourth quarter, which inverted both lines: revenue -2.7%, adjusted operating income -9.8%. Enrollments -2.5%, General Education revenue -2.1%, gross margin -140bp. FY2027 commentary: revenue per enrollment flat to up slightly, applications tracking slightly behind, and the company does not expect to cut off enrollments as early as it did in FY2026. No formal FY2027 numeric guidance in the release.",
+  "consensus_case": "Stride's core General Education business has turned, and the exit quarter says so plainly: FY2026 Q4 revenue was $636.1M against $653.6M (-2.7%) and Q4 adjusted operating income $117.8M against $130.6M (-9.8%), against a full year that still printed +4.7% revenue and +6.9% adjusted operating income. General Education revenue fell 2.1% on enrollments -2.5%; gross margin fell 140bp to 37.8% on platform investment; and management says FY2027 applications are tracking slightly BEHIND last year with revenue per enrollment flat to up slightly. The growth engine is Career Learning (+19.1%), which is now carrying a shrinking majority business. A stock that fell 48% in 252 days is pricing the inflection from a compounder to a low-growth business with a competitive overhang from AI-native learning tools - which Stride's own risk factors name explicitly ('entry of new competitors with superior technologies (including artificial intelligence)').",
+  "base_case_rationale": "No fair value can be recorded because the dominant input is one the schema cannot reach. The headline +399.1% gap at the 100th percentile of 128 Consumer Discretionary names is the product of two defects, both running toward false cheapness. FIRST, capex is understated 43x. capex_series reads [0.587, 1.781, 2.270] against D&A of $126.6M - a ratio of 215x, arithmetically impossible for a going concern - because the extractor takes only 'Purchase of property and equipment'. The same FY2026 cash flow statement carries 'Capitalized software development costs ( 61,591 ) ( 36,428 ) ( 40,653 )' and 'Capitalized curriculum development costs ( 16,668 ) ( 21,801 ) ( 18,666 )'. True capex is [78.846, 60.010, 61.589], mean $66.8M; the extractor captures 2.3% of it. The corrected base is mean(CFO - true capex) $315.0M plus $0.9M after-tax interest = $315.9M, not $381.2M. SECOND, and larger, the WACC is 5.649% built on a beta of 0.102 with R-squared 0.007, marked yahoo_rescaled - the ISBA failed-beta defect at its most extreme on an fcff name. At a defensible beta of 1.0-1.2 the WACC is 10.0%-11.0%. Correcting both, the growth the market requires falls from -25.0% to between -4.7% and -7.2%, and the fair value at -5% growth and an 11.03% WACC is $76.76 against a $77.52 price. The +399% gap is an artifact end to end, and a mid-single-digit decline is a reasonable thing to pay for a business whose exit quarter was -2.7% revenue and -9.8% adjusted operating income with applications running behind.",
+  "key_risks": [
+    "General Education is the majority of revenue and is shrinking; Career Learning's +19% has to outrun it",
+    "Per-pupil funding is set by states and is outside the company's control; the 10-K lists funding reduction as the first risk factor",
+    "AI-native learning tools are named in the company's own risk factors as potential competitors with superior technology and lower prices",
+    "Capitalised software and curriculum spend rose to $78.8M in FY2026 from $60.0M - the real capex the model cannot see is accelerating"
+  ],
+  "watch_for": [
+    "FY2027 Q1 count-date enrollment: the first hard read on whether applications running behind becomes revenue running behind",
+    "Whether Q1 FY2027 adjusted operating income repeats Q4's -9.8%, which would make the inflection a trend rather than a quarter",
+    "Any FY2027 numeric guidance - the August release gave none"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/f8k_080426.htm",
+    "https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/exh_991.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/11/stride-lrn-q4-2026-earnings-call-transcript/",
+    "https://www.investing.com/news/company-news/stride-fy2026-slides-career-learning-surges-general-ed-slips-93CH-4836159"
+  ],
+  "flags": [
+    "extreme_gap_+399%_treat_as_suspected_data_error"
+  ]
+}

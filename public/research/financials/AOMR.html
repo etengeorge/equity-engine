@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>AOMR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / AOMR</p><h1>AOMR <span style='color:var(--faint);font-weight:400'>ANGEL OAK MORTGAGE REIT</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$7.27</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-02</b></div></div><div class='prose'><h1>AOMR — ANGEL OAK MORTGAGE REIT</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-02 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $7.27</li></ul><p><strong>The case for the price.</strong> Angel Oak Mortgage REIT trades at 0.72x GAAP book and 0.59x economic book because the market has watched this manager destroy roughly half the book value since the June 2021 IPO: $19.00 a share then, $10.13 of GAAP book now, dividends notwithstanding. It is externally managed by Falcons I, LLC, so a base fee accrues on equity whatever the return, and the incentive fee is excluded from the company&#x27;s own Distributable Earnings measure. It runs about 10.6x leverage ($2,493M of debt against $235M of equity) in non-QM mortgage credit, funded on three-month rolling warehouse facilities - the 2026-09-25 8-K extends one of them to 2026-12-28 and discloses the rolling-renewal structure in terms. For a vehicle with that funding profile, that leverage and that record, a persistent discount to book is not a mispricing, it is the market declining to capitalise a return it does not expect to see again.</p><p><strong>What changed.</strong> Q2 2026 (filed 2026-08-04): GAAP book value $10.13 per share and economic book value $12.24, down 1.7% and 0.3% from Q1. Distributable Earnings $9.0M or $0.37 per diluted share, with Distributable Earnings Return on Average Equity of 14.6% annualised for the quarter and 10.8% for the half, against 4.2% and 5.5% in the prior-year periods. Net interest income $10.7M, +8% y/y. Dividend declared $0.32 per share, paid 2026-08-28 - covered by distributable earnings at an 86% payout. On 2026-09-25 (8-K filed 2026-09-29, item 1.01) the company extended a loan financing facility with &#x27;Multinational Bank 1&#x27; from 2026-09-25 to 2026-12-28 and cut the interest rate pricing spread from 1.30-2.10% to 1.20-2.10% - a mildly favourable routine renewal, and the &#x27;filed an 8-K in the last few sessions&#x27; signal that won this name an opportunistic slot. Nothing in it is a catalyst.</p><p><strong>Base case.</strong> No number can be recorded because both inputs to the justified multiple are wrong and the schema can reach neither. TANGIBLE BOOK: the engine reports $11.52, which is equity_series[0] of $267,523k (2025-12-31) over the current 23,214,877 shares - the standing stale-book defect. equity_now is $234,865,000, giving $10.117 a share, which reconciles to the company&#x27;s own disclosed GAAP book value of $10.13 almost exactly. So the actual price-to-tangible-book is 0.718x, not 0.631x, and the name is 12% less cheap than the brief says before anything else is considered. The schema has no book override. COST OF EQUITY: 10.354% comes from a beta of 0.93 at R-squared 0.435 - unusually, a sound regression - but a weekly-return beta on a 10.6x-levered non-QM credit book cannot see the tail, and it prices no external-management drag. RETURN: the engine&#x27;s 13.9% is a three-year GAAP average, and for a mortgage REIT GAAP net income is dominated by unrealised marks - the company publishes exactly that adjustment itself. Distributable Earnings RoAE is 14.6% for Q2 but 10.8% for the half and was 5.5% a year earlier. Crossing the defensible ranges: at an 11% return and the engine&#x27;s 10.35% cost of equity the justified multiple is 1.08 against an actual 0.718 (+50%); at 11% and a 13% cost of equity it is 0.818 (+14%); at 11% and 15%, 0.692 (-4%); at a through-cycle 8% and 13%, 0.545 (-24%). Fifty points of answer from two inputs I cannot pin and the record cannot hold. That is the JXN test verbatim, so no rotce_override is supplied.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am refusing a name whose gap survives every correction I can make. Even on economic book of $12.24 and a punitive 15% cost of equity, an 11% distributable return justifies about 0.69x against an actual 0.59x. The dividend is $1.28 annualised on a $7.27 price - 17.6% - and is covered by distributable earnings at an 86% payout, so the holder is paid to wait. The return is also IMPROVING hard: 10.8% for H1 2026 against 5.5% for H1 2025, and the September facility repricing cut the spread. That is the VLY pattern - a recovering return that a three-year average understates.</li><li>What would prove it: Three or four more quarters of Distributable Earnings RoAE at or above 11% WITH GAAP book value per share stable or rising. Rising return alongside rising book is an operating recovery; rising return alongside falling book is the mark artifact.</li><li>Already visible today: The deciding half is visible and it goes the wrong way for the bull: GAAP book fell 1.7% in the quarter and economic book 0.3%, and GAAP book per share is down from about $11.52 at 2025-12-31 to $10.13 at 2026-06-30 - roughly 12% in six months - while the engine reports a 16.5% GAAP return for the newest year. Earning 16% while book falls 12% is the JXN/FG signature: the return is substantially a mark, not cash on capital.</li><li>Left unresolved: Whether the 2026 distributable return is a genuine recovery in non-QM spread economics or a benign point in the credit cycle. One year of improvement after a year of 5.5% does not distinguish them, and the five-year record - $19.00 of IPO book to $10.13 - argues for the cycle. I also cannot override the cost of equity, which alone moves the answer from +50% to -4%.</li></ul><p><strong>Key risks.</strong> 10.6x leverage on non-QM mortgage credit funded by three-month rolling warehouse facilities - the 2026-09-25 8-K discloses the rolling structure explicitly; Book value has fallen from $19.00 at the June 2021 IPO to $10.13, which is the market&#x27;s case and is a fact about the manager; External management: a base fee accrues on equity regardless of return, and the incentive fee is excluded from the company&#x27;s own Distributable Earnings; GAAP earnings are marks; the 13.9% the engine prices is not cash on capital <strong>Watch for.</strong> GAAP book value per share stabilising for two or more consecutive quarters - the single observable that separates an operating recovery from a mark; Distributable Earnings RoAE holding above 11% once the 2025 comparison laps; Whether the December 2026 facility renewal extends on the same or better spread, or shortens</p><p><strong>Data quality.</strong> The brief raises &#x27;none&#x27;. Two defects are present and unflagged. (1) STALE TANGIBLE BOOK: tangible_book_per_share $11.52 is equity_series[0] $267,523k (2025-12-31) over the current share count; equity_now is $234,865,000, giving $10.117, which matches the company&#x27;s own disclosed GAAP book of $10.13. Actual P/TBV is 0.718x, not 0.631x. This is the standing 286-of-400 defect, unfixed. (2) The 13.9% &#x27;sustainable ROTCE&#x27; is a three-year GAAP average on a vehicle whose earnings are fair-value marks; the company publishes Distributable Earnings RoAE of 14.6% (Q2) and 10.8% (H1) against 4.2% and 5.5% a year earlier. Also noted: fy_end is None, revenue_series and capex_series are empty, and goodwill_series/intangibles_series are empty - the extract has no annual form for this registrant at all. No rotce_override is supplied deliberately: repricing any return through a tangible book that is 12% too high and a cost of equity that cannot be changed would publish a fair value built on the defect, which is the discipline applied to YOU and SFBS.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/0001766478/000162828026052154/q22026earningspressrelease.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0001766478/000162828026052154/q22026earningspressrelease.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/AOMR.md'>research/Financials/AOMR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

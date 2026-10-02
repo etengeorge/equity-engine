@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LRN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / LRN</p><h1>LRN <span style='color:var(--faint);font-weight:400'>STRIDE INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$77.52</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-02</b></div></div><div class='prose'><h1>LRN — STRIDE INC</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-02 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $77.52</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Stride&#x27;s core General Education business has turned, and the exit quarter says so plainly: FY2026 Q4 revenue was $636.1M against $653.6M (-2.7%) and Q4 adjusted operating income $117.8M against $130.6M (-9.8%), against a full year that still printed +4.7% revenue and +6.9% adjusted operating income. General Education revenue fell 2.1% on enrollments -2.5%; gross margin fell 140bp to 37.8% on platform investment; and management says FY2027 applications are tracking slightly BEHIND last year with revenue per enrollment flat to up slightly. The growth engine is Career Learning (+19.1%), which is now carrying a shrinking majority business. A stock that fell 48% in 252 days is pricing the inflection from a compounder to a low-growth business with a competitive overhang from AI-native learning tools - which Stride&#x27;s own risk factors name explicitly (&#x27;entry of new competitors with superior technologies (including artificial intelligence)&#x27;).</p><p><strong>What changed.</strong> FY2026 10-K filed 2026-08-05 and the 2026-08-04 results release: full-year revenue $2,518.1M vs $2,405.3M, adjusted operating income $498.4M vs $466.2M. The decisive detail is the fourth quarter, which inverted both lines: revenue -2.7%, adjusted operating income -9.8%. Enrollments -2.5%, General Education revenue -2.1%, gross margin -140bp. FY2027 commentary: revenue per enrollment flat to up slightly, applications tracking slightly behind, and the company does not expect to cut off enrollments as early as it did in FY2026. No formal FY2027 numeric guidance in the release.</p><p><strong>Base case.</strong> No fair value can be recorded because the dominant input is one the schema cannot reach. The headline +399.1% gap at the 100th percentile of 128 Consumer Discretionary names is the product of two defects, both running toward false cheapness. FIRST, capex is understated 43x. capex_series reads [0.587, 1.781, 2.270] against D&amp;A of $126.6M - a ratio of 215x, arithmetically impossible for a going concern - because the extractor takes only &#x27;Purchase of property and equipment&#x27;. The same FY2026 cash flow statement carries &#x27;Capitalized software development costs ( 61,591 ) ( 36,428 ) ( 40,653 )&#x27; and &#x27;Capitalized curriculum development costs ( 16,668 ) ( 21,801 ) ( 18,666 )&#x27;. True capex is [78.846, 60.010, 61.589], mean $66.8M; the extractor captures 2.3% of it. The corrected base is mean(CFO - true capex) $315.0M plus $0.9M after-tax interest = $315.9M, not $381.2M. SECOND, and larger, the WACC is 5.649% built on a beta of 0.102 with R-squared 0.007, marked yahoo_rescaled - the ISBA failed-beta defect at its most extreme on an fcff name. At a defensible beta of 1.0-1.2 the WACC is 10.0%-11.0%. Correcting both, the growth the market requires falls from -25.0% to between -4.7% and -7.2%, and the fair value at -5% growth and an 11.03% WACC is $76.76 against a $77.52 price. The +399% gap is an artifact end to end, and a mid-single-digit decline is a reasonable thing to pay for a business whose exit quarter was -2.7% revenue and -9.8% adjusted operating income with applications running behind.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That the corrected gap is not zero but modestly positive, and I am refusing a name that is actually cheap. At a 10.05% WACC the market requires -7.2% and at -2% growth the fair value is $94.13, about +21%. Stride also holds $754.5M of cash plus $203.5M of short-term investments against $418M of converts - $540M of NET CASH, 17% of market cap - which the enterprise value correctly deducts but which gives the equity a floor the DCF does not dramatise. The counter to the counter is that I cannot pin the WACC: the entire difference between &#x27;roughly fair&#x27; and &#x27;+21%&#x27; is a beta I am choosing by hand, and the schema cannot record it.</li><li>What would prove it: FY2027 Q1 enrollment at the autumn count date, and whether General Education revenue decline stays near -2% or accelerates. Also whether the 140bp of platform gross-margin pressure recurs in FY2027 or was a one-year build.</li><li>Already visible today: The Q4 inflection is visible and is the strongest single fact on the name: revenue -2.7% and adjusted operating income -9.8% in the exit quarter, against a full year that was positive on both. Management stating applications are behind is also visible and is forward-looking.</li><li>Left unresolved: I could not settle the discount rate, and it decides the verdict. A beta of 0.102 at R-squared 0.007 is not a measurement; my 1.0-1.2 substitute is a judgment. Between a 10.05% and an 11.03% WACC the corrected requirement moves from -7.2% to -4.7% and the fair value at -2% growth from $94.13 to $85.53.</li></ul><p><strong>Key risks.</strong> General Education is the majority of revenue and is shrinking; Career Learning&#x27;s +19% has to outrun it; Per-pupil funding is set by states and is outside the company&#x27;s control; the 10-K lists funding reduction as the first risk factor; AI-native learning tools are named in the company&#x27;s own risk factors as potential competitors with superior technology and lower prices; Capitalised software and curriculum spend rose to $78.8M in FY2026 from $60.0M - the real capex the model cannot see is accelerating <strong>Watch for.</strong> FY2027 Q1 count-date enrollment: the first hard read on whether applications running behind becomes revenue running behind; Whether Q1 FY2027 adjusted operating income repeats Q4&#x27;s -9.8%, which would make the inflection a trend rather than a quarter; Any FY2027 numeric guidance - the August release gave none</p><p><strong>Data quality.</strong> The single flag raised, extreme_gap_+399%_treat_as_suspected_data_error, is correct and I resolved it as two defects. (1) capex understated 43x: the extractor reads only &#x27;Purchase of property and equipment&#x27; [0.587, 1.781, 2.270] and misses capitalized software [61.591, 36.428, 40.653] and capitalized curriculum [16.668, 21.801, 18.666]; D&amp;A of $126.6M against capex of $0.587M is a 215x ratio and is the cheap detector. Corrected base $315.9M. (2) WACC 5.649% from beta 0.102 at R-squared 0.007, beta_source yahoo_rescaled - the ISBA defect; a defensible WACC is 10.0-11.0%. Correcting both takes the required growth from -25.0% to -4.7%/-7.2%. NO final_growth is supplied deliberately: the schema cannot override WACC, and repricing any growth rate through the engine&#x27;s 5.649% discount rate with a 2% terminal growth would print a fair value several times the price - a false &#x27;cheap&#x27; manufactured by the very defect this note identifies. UNFLAGGED and not material to this method but confirmed present: net_income_common_series [10.988, 19.600, 26.126] against net_income_series [338.192, 287.941, 204.183] with zero preferred - the AX _annual sub-period defect, a 31x discrepancy, harmless here only because the method is fcff.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/f8k_080426.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/f8k_080426.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/exh_991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1157408/000117184326005202/exh_991.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/11/stride-lrn-q4-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/11/stride-lrn-q4-2026-earnings-call-transcript/</a></li><li><a href="https://www.investing.com/news/company-news/stride-fy2026-slides-career-learning-surges-general-ed-slips-93CH-4836159" rel="noopener">https://www.investing.com/news/company-news/stride-fy2026-slides-career-learning-surges-general-ed-slips-93CH-4836159</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/LRN.md'>research/Consumer Discretionary/LRN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

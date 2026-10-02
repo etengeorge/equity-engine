@@ -64,6 +64,11 @@
     "last_visit": "2026-09-01",
     "verdict": "no_edge"
   },
+  "AOMR": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
+    "verdict": "no_edge"
+  },
   "APGE": {
     "conviction": "high",
     "last_visit": "2026-09-07",
@@ -109,6 +114,11 @@
     "last_visit": "2026-09-11",
     "verdict": "no_edge"
   },
+  "AXTI": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
+    "verdict": "no_model"
+  },
   "BBW": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
@@ -141,8 +151,13 @@
   },
   "BUR": {
     "conviction": "low",
-    "last_visit": "2026-09-22",
+    "last_visit": "2026-10-02",
     "verdict": "no_model"
+  },
+  "CARS": {
+    "conviction": "medium",
+    "last_visit": "2026-10-02",
+    "verdict": "cheap"
   },
   "CASH": {
     "conviction": "low",
@@ -163,6 +178,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-25",
     "verdict": "no_model"
+  },
+  "CECO": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
+    "verdict": "rich"
   },
   "CHEF": {
     "conviction": "medium",
@@ -218,6 +238,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-10",
     "verdict": "no_model"
+  },
+  "CSTM": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
+    "verdict": "no_edge"
   },
   "CSW": {
     "conviction": "medium",
@@ -379,6 +404,11 @@
     "last_visit": "2026-09-09",
     "verdict": "no_edge"
   },
+  "HNGE": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
+    "verdict": "no_model"
+  },
   "HOG": {
     "conviction": "low",
     "last_visit": "2026-09-07",
@@ -532,6 +562,11 @@
   "LPG": {
     "conviction": "medium",
     "last_visit": "2026-09-08",
+    "verdict": "no_edge"
+  },
+  "LRN": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
     "verdict": "no_edge"
   },
   "LTH": {
@@ -732,6 +767,11 @@
   "RWT": {
     "conviction": "medium",
     "last_visit": "2026-09-11",
+    "verdict": "no_model"
+  },
+  "RXO": {
+    "conviction": "low",
+    "last_visit": "2026-10-02",
     "verdict": "no_model"
   },
   "SABR": {
@@ -941,7 +981,7 @@
   },
   "WLFC": {
     "conviction": "low",
-    "last_visit": "2026-09-23",
+    "last_visit": "2026-10-02",
     "verdict": "no_edge"
   },
   "WLTH": {

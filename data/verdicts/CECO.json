@@ -1,0 +1,189 @@
+{
+  "ticker": "CECO",
+  "date": "2026-10-02",
+  "sector": "Industrials",
+  "name": "CECO ENVIRONMENTAL",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "low",
+  "final_growth": 0.11,
+  "bear_growth": 0.04,
+  "bull_growth": 0.2,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 71.87000274658203,
+  "market_implied_growth": 0.782467585997513,
+  "cohort_pct": 7.3,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.11,
+    "market_implied_growth": 0.782467585997513,
+    "growth_delta": -0.672467585997513,
+    "fair_value": 42.90322914413931,
+    "price": 71.87000274658203,
+    "gap": -0.4030440029977641,
+    "fair_value_band": {
+      "low": 36.52014342407541,
+      "point": 42.90322914413931,
+      "high": 51.15064981859302
+    },
+    "fcff_base_used": 170000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09895528073342451,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 170000000,
+      "price": 71.87000274658203,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.04,
+          "cells": [
+            {
+              "wacc": 0.0789552807334245,
+              "fair_value": 43.32542808914253,
+              "gap": -0.39716952228441393
+            },
+            {
+              "wacc": 0.08895528073342451,
+              "fair_value": 35.30994513711897,
+              "gap": -0.5086970392693044
+            },
+            {
+              "wacc": 0.09895528073342451,
+              "fair_value": 29.326985706388296,
+              "gap": -0.5919440018696394
+            },
+            {
+              "wacc": 0.1089552807334245,
+              "fair_value": 24.69099683147071,
+              "gap": -0.6564492015043792
+            },
+            {
+              "wacc": 0.11895528073342451,
+              "fair_value": 20.993546284695,
+              "gap": -0.7078955686321662
+            }
+          ],
+          "fair_value_at_point_wacc": 29.326985706388296,
+          "gap_at_point_wacc": -0.5919440018696394
+        },
+        {
+          "case": "base",
+          "growth": 0.11,
+          "cells": [
+            {
+              "wacc": 0.0789552807334245,
+              "fair_value": 62.21183867765237,
+              "gap": -0.1343837999141997
+            },
+            {
+              "wacc": 0.08895528073342451,
+              "fair_value": 51.15064981859302,
+              "gap": -0.28828930202001946
+            },
+            {
+              "wacc": 0.09895528073342451,
+              "fair_value": 42.90322914413931,
+              "gap": -0.4030440029977641
+            },
+            {
+              "wacc": 0.1089552807334245,
+              "fair_value": 36.52014342407541,
+              "gap": -0.49185832714035593
+            },
+            {
+              "wacc": 0.11895528073342451,
+              "fair_value": 31.435767387340647,
+              "gap": -0.5626023906220644
+            }
+          ],
+          "fair_value_at_point_wacc": 42.90322914413931,
+          "gap_at_point_wacc": -0.4030440029977641
+        },
+        {
+          "case": "bull",
+          "growth": 0.2,
+          "cells": [
+            {
+              "wacc": 0.0789552807334245,
+              "fair_value": 94.17552167992324,
+              "gap": 0.3103592330724101
+            },
+            {
+              "wacc": 0.08895528073342451,
+              "fair_value": 77.90108093787435,
+              "gap": 0.08391648755821346
+            },
+            {
+              "wacc": 0.09895528073342451,
+              "fair_value": 65.77980642924923,
+              "gap": -0.08473905780701296
+            },
+            {
+              "wacc": 0.1089552807334245,
+              "fair_value": 56.40975623983615,
+              "gap": -0.21511403806758778
+            },
+            {
+              "wacc": 0.11895528073342451,
+              "fair_value": 48.95575199830455,
+              "gap": -0.31882913416706704
+            }
+          ],
+          "fair_value_at_point_wacc": 65.77980642924923,
+          "gap_at_point_wacc": -0.08473905780701296
+        }
+      ],
+      "summary": {
+        "bear": -0.5919440018696394,
+        "base": -0.4030440029977641,
+        "bull": -0.08473905780701296
+      },
+      "downside": -0.7078955686321662,
+      "upside": 0.3103592330724101
+    },
+    "fundamentals_source": "store_stale",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "Calling a 22-24x EV/EBITDA industrial 'rich' into the strongest power and data-centre capex cycle in forty years is the classic early short. CECO has grown revenue from $316M to $774M standalone in five years and has just doubled again; a company genuinely compounding 20%+ deserves a multiple that looks absurd on trailing numbers, and the +25.4% hurdle is only two or three good bolt-ons away. I also have exactly ONE quarter of combined financials, the integration is four months old, and the FY2026 guide spans only seven months of Thermon - so the base I corrected to is itself an estimate.",
+    "what_would_prove_it": "FY2027 guidance: adjusted EBITDA materially above ~$260M with free cash flow conversion holding at 55%+ would show the combined entity compounding at the rate the price requires. Conversely, organic (ex-Thermon) revenue growth disclosed below ~10%, or conversion falling below 50%, would confirm the bear.",
+    "already_visible": "Partly for the bull: Q2 adjusted EBITDA +73% and synergies ahead of plan are real and recent. Against it, GAAP operating income was a $(33.2)M LOSS and reported free cash flow was $(24.3)M; the positive numbers are all non-GAAP and all adjusted for the transaction. And the standalone three-year cash flow record the engine holds - cfo-capex of [-5.5, 7.5, 36.3] - is a business that generated almost no free cash before the deal.",
+    "unresolved": "I cannot separate organic from acquired growth on the combined entity: CECO does not disclose an organic revenue figure, and per the EFOR rule a roll-up's headline growth is meaningless without one. That is the input that decides whether +11% or +22% is the right base case, and one quarter of combined reporting does not settle it. My 'rich' is therefore low conviction and rests on the arithmetic of the hurdle, not on a judgment that the end-market is overrated."
+  },
+  "what_changed": "The whole company changed and the model did not see it. CECO completed the acquisition of Thermon Group Holdings on 2026-06-01 for $2.1bn (agreed 2026-02-23; Thermon holders electing $63.89 all cash, 0.8110 CECO shares, or $10 cash plus 0.6840 shares), filed under 8-K items 2.01, 2.03, 5.02 and 5.03. Q2 2026 (filed 2026-08-10): revenue $285.0M +54%, adjusted EBITDA $40.2M +73%, GAAP operating LOSS $(33.2)M and net loss $(34.8)M on acquisition and purchase-accounting charges, non-GAAP net income $21.5M, free cash flow $(24.3)M with adjusted free cash flow $53.2M excluding Thermon transaction payments. Raised FY2026 outlook: adjusted EBITDA $200-225M (from $195-225M) with free cash flow conversion of at least 55% of adjusted EBITDA, i.e. roughly $110-124M of FCF.",
+  "consensus_case": "CECO is being priced as a pure-play on power generation, grid and data-centre build-out rather than as an industrial. The Thermon acquisition ($2.1bn, closed 2026-06-01) added industrial process heating to an air-quality and water platform, and management reports a sales pipeline 'over $8.5 billion' with a record backlog, Q2 revenue +54% to $285.0M, adjusted EBITDA +73% to $40.2M at a 14.1% margin, synergies 'outpacing the targets set prior to the transaction close', and a raised full-year outlook. Buyers of infrastructure compounders in the hottest industrial end-market of the cycle have paid 22-25x EBITDA and been right for three years running. At $71.87 the market requires about +22-25% five-year FCFF growth on the combined business, which is roughly what management means by 'long-term, double-digit growth' plus continued bolt-ons funded out of a 55%-conversion cash flow.",
+  "base_case_rationale": "The engine's +78.3% required growth is an artifact of pairing a POST-deal enterprise value with a PRE-deal cash-flow base - the SM/HOG defect. Enterprise value of $4,881M is built from the 2026-06-30 balance sheet, which is post-Thermon (equity $2,075.9M against an equity_series[0] of $317.5M, goodwill $1,501.2M against $288.2M, intangibles $999.4M against $97.0M). The FCFF base of $28.4M is the mean of standalone cfo-capex of [-5.5, 7.5, 36.3] for the three years to 2025-12-31, a company roughly a third of the current size. Pairing them is meaningless in either direction. Rebuilt on the combined company: FY2026 guided FCF is ~$117M at the midpoint, but FY2026 contains only seven months of Thermon; a full-year combined run rate is nearer $135M of FCF, and post-deal debt of $727.7M at ~6.5% adds roughly $35M of after-tax interest, giving a base near $170M. At that base the market requires +22.0%. My own assumption is +11% - management's 'double-digit' - because that is what the business plus ordinary bolt-ons should deliver, and because applying growth to a base already struck after total capex, on a roll-up whose growth is bought with acquisition cash that never enters free cash flow, is already generous (the EFOR/AROC point). At +11% the corrected fair value is roughly $43 against $71.87.",
+  "key_risks": [
+    "Being early: a 22-24x EV/EBITDA infrastructure compounder can stay there for years while earnings grow into it",
+    "Pipeline conversion is the whole thesis on both sides and CECO discloses a pipeline, not a conversion rate",
+    "No organic growth disclosure on a serial acquirer - the EFOR blind spot, and it cuts against my base case as much as for it",
+    "My corrected base of $170M is an estimate built from a seven-month guide, not a reported combined year"
+  ],
+  "watch_for": [
+    "FY2027 guidance, and specifically whether free cash flow conversion holds at 55%+ of a materially larger adjusted EBITDA",
+    "Any organic revenue disclosure separating Thermon from the legacy platform",
+    "Post-deal net leverage and whether bolt-ons resume before it comes down"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/3197/000119312526342536/ceco-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/3197/000119312526341191/ceco-20260810.htm",
+    "https://www.sec.gov/Archives/edgar/data/3197/000110465926068661/tm2616015d2_8k.htm",
+    "https://investors.cecoenviro.com/news-releases/news-release-details/ceco-environmental-completes-acquisition-thermon-group-holdings"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_3.3x_of_mean",
+    "stock_comp_is_66%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

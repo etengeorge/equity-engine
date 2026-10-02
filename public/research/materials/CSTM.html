@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CSTM — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / CSTM</p><h1>CSTM <span style='color:var(--faint);font-weight:400'>CONSTELLIUM SE CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$24.66</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-02</b></div></div><div class='prose'><h1>CSTM — CONSTELLIUM SE CLASS A</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-02 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $24.66</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Constellium is earning record money and the market is declining to pay for it, which is the correct instinct about an aluminium roller at a cycle peak. Q2 2026 adjusted EBITDA was $439M against $146M a year earlier, +201%, and H1 $798M against $332M - while SHIPMENTS FELL 1% in both periods. Every dollar of that improvement is price and mix, not volume: $129M of the quarter and $226M of the half is non-cash metal price lag, and the rest comes from what management names as &#x27;supply shortages of automotive rolled products in North America&#x27; and an improved aerospace and defence environment. A North American rolled-products shortage is a temporary condition, and metal price lag reverses when metal prices do. At 1.8x leverage with FY2026 guided free cash flow above $300M, paying about 5.3x peak EBITDA is what the market does to a cyclical printing its best-ever half on flat volume.</p><p><strong>What changed.</strong> Q2 2026 (filed 2026-07-29), which the extract does not contain at all - its balance sheet is dated 2026-03-31. Revenue $2,748M +31%, net income $148M against $36M, adjusted EBITDA $439M including $129M of positive non-cash metal price lag, segment adjusted EBITDA a quarterly record at $135M A&amp;T / $165M P&amp;ARP / $26M AS&amp;I. Cash from operations $161M and free cash flow $90M in the quarter; H1 CFO $234M and FCF $95M. Net debt $1,760M at 2026-06-30 against $1,824M at 2025-12-31; leverage 1.8x, inside the 1.5-2.5x target. Repurchased 1.8M shares for $48M in H1. In July a $100M partial redemption of the 5.625% 2028 notes, leaving $225M. GUIDANCE RAISED: FY2026 adjusted EBITDA $980M-$1.020bn excluding metal price lag, and free cash flow IN EXCESS OF $300M - which management notes achieves the 2028 targets ($900M EBITDA, $300M FCF) two years early.</p><p><strong>Base case.</strong> Two errors of comparable size point in opposite directions, so per the SM rule the answer is a range and not an average. THE BASE IS FAR TOO LOW. The engine&#x27;s $100.0M is built from only TWO observations of cfo-capex, [+$159M, -$112M], a mean of $23.5M, of which $76.5M of the $100M total is the after-tax interest add-back - 76% of the base, above the 60% SABR threshold at which a growth rate applied to the base is meaningless. Against that, Constellium guides FY2026 free cash flow - on its own definition of operating cash flow less capital expenditure net of PP&amp;E inflows, i.e. exactly cfo-capex - at ABOVE $300M. That is the HOG/JBI detector firing loudly: the base is a quarter of the company&#x27;s own guided free cash flow. On the guided figure plus the interest add-back the base is about $376M and the market requires +4.5%, not +40.0%. THE GUIDED FIGURE IS A PEAK. Record EBITDA on shipments down 1%, driven by metal price lag and a North American supply shortage, is not a run rate; a through-cycle free cash flow of $200-250M is more defensible, at which the market requires +12.1% to +7.7%, and a trough $150M gives +17.2%. So the honest statement is that the market requires somewhere between +4.5% and +17% depending entirely on where in the aluminium cycle the base is struck, and the choice alone moves the answer thirteen points. That is not a valuation. Separately the enterprise value is a quarter stale (the extract&#x27;s 2026-03-31 balance sheet implies net debt near $1,830M against the actual $1,760M at 2026-06-30), though the error there is small.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That even at a conservative through-cycle base the name is not expensive, so my refusal is over-cautious. At $200M of through-cycle FCF the market requires +12.1%, and at $250M it requires +7.7% - and Constellium is buying back stock, deleveraging to 1.8x, and has just pulled its 2028 targets forward two years. If the aerospace and defence recovery and the recycling build-out are structural rather than cyclical, the base is nearer the guide than my through-cycle number and +4.5% is a low hurdle.</li><li>What would prove it: Shipments. Every dollar of 2026&#x27;s improvement came on volumes that FELL 1%, so the question is whether tonnage recovers while the price/mix holds. Shipment growth returning with EBITDA per tonne stable would confirm a structural step-up; tonnage flat with EBITDA per tonne falling would confirm the peak.</li><li>Already visible today: The peak evidence is visible and specific: shipments -1% in both Q2 and H1, $226M of H1 adjusted EBITDA being non-cash metal price lag, and management naming &#x27;supply shortages&#x27; as a driver. Against it, segment adjusted EBITDA ex-lag of $572M in H1 is still a record and the guidance ex-lag of $980M-$1.02bn is an operating number, not a lag artifact.</li><li>Left unresolved: Where in the cycle $376M of guided free cash flow sits. I have no free source for a multi-year normalised aluminium rolled-products margin, and the extract holds only two years of cash flow - too short to normalise against. The base choice moves the required growth from +4.5% to +17.2% and I cannot settle it.</li></ul><p><strong>Key risks.</strong> Metal price lag swung from -$19M to +$129M in one year and is non-cash and reversible; Record earnings on shipments DOWN 1% - the improvement is entirely price/mix in a shortage; The extract carries only two years of cash flow, one of which is negative, so there is nothing to normalise against; $1,923M of debt; leverage is comfortable at peak EBITDA and considerably less so at mid-cycle <strong>Watch for.</strong> Shipment tonnage returning to growth while EBITDA per tonne holds - the test that separates a step-up from a peak; Metal price lag turning negative in a quarter, which would show the reversal arriving; FY2027 guidance against the $980M-$1.02bn ex-lag 2026 base</p><p><strong>Data quality.</strong> Flags raised were negative_fcf_year_in_window and lumpy_fcff_spread_11.5x_of_mean; both are symptoms. The substantive problems are mostly UNFLAGGED. (1) The FCFF base rests on TWO observations of cfo-capex [+159, -112] and $76.5M of its $100.0M total is the after-tax interest add-back - 76%, above the SABR 60% threshold, which should be its own gate. (2) The base is a quarter of the company&#x27;s own guided free cash flow (&gt;$300M for FY2026), the HOG/JBI guidance cross-check. (3) The extract&#x27;s balance sheet and share count are both dated 2026-03-31 although the Q2 10-Q was filed 2026-07-29 and reports net debt of $1,760M - the RLGT &#x27;check for a filing newer than the extract&#x27; case, though the EV error here is modest (~$70M). No fcff_base_override or final_growth is supplied because the defensible base spans $226M to $376M, which moves the required growth from +17.2% to +4.5%; recording any single point would claim a precision the two-year window cannot support.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1563411/000156341126000192/cstm-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1563411/000156341126000192/cstm-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/0001563411/000156341126000190/a2026-q2xearningspressre.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0001563411/000156341126000190/a2026-q2xearningspressre.htm</a></li><li><a href="https://res.cloudinary.com/constellium/image/upload/v1785317313/PDF%20documents/Earning%20Results/2026/2026_-_Q2_-_Earnings_Press_Release_ibolgr.pdf" rel="noopener">https://res.cloudinary.com/constellium/image/upload/v1785317313/PDF%20documents/Earning%20Results/2026/2026_-_Q2_-_Earnings_Press_Release_ibolgr.pdf</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/CSTM.md'>research/Materials/CSTM.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

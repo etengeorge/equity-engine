@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CECO — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / CECO</p><h1>CECO <span style='color:var(--faint);font-weight:400'>CECO ENVIRONMENTAL</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$71.87</b></div><div>Analyst gap<b>-40%</b></div><div>Dated<b>2026-10-02</b></div></div><div class='prose'><h1>CECO — CECO ENVIRONMENTAL</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-02 — RICH (conviction: low)</h2><ul><li><strong>Verdict:</strong> rich · price $71.87 · fair value $42.90 · gap -40.3%</li><li><strong>Growth:</strong> market implies +78.2%, analyst says +11.0% (delta -67.2%)</li><li><strong>FCFF base overridden</strong> by the analyst to $170.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.9% | 8.9% | 9.9% | 10.9% | 11.9% | |---|---|---|---|---|---|---| | bear | +4.0% | $43.33 | $35.31 | $29.33 | $24.69 | $20.99 | | base | +11.0% | $62.21 | $51.15 | $42.90 | $36.52 | $31.44 | | bull | +20.0% | $94.18 | $77.90 | $65.78 | $56.41 | $48.96 |</p><p>At the point WACC of 9.9%: bear -59.2%, base -40.3%, bull -8.5% Across the whole grid the gap ranges -70.8% to +31.0% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> CECO is being priced as a pure-play on power generation, grid and data-centre build-out rather than as an industrial. The Thermon acquisition ($2.1bn, closed 2026-06-01) added industrial process heating to an air-quality and water platform, and management reports a sales pipeline &#x27;over $8.5 billion&#x27; with a record backlog, Q2 revenue +54% to $285.0M, adjusted EBITDA +73% to $40.2M at a 14.1% margin, synergies &#x27;outpacing the targets set prior to the transaction close&#x27;, and a raised full-year outlook. Buyers of infrastructure compounders in the hottest industrial end-market of the cycle have paid 22-25x EBITDA and been right for three years running. At $71.87 the market requires about +22-25% five-year FCFF growth on the combined business, which is roughly what management means by &#x27;long-term, double-digit growth&#x27; plus continued bolt-ons funded out of a 55%-conversion cash flow.</p><p><strong>What changed.</strong> The whole company changed and the model did not see it. CECO completed the acquisition of Thermon Group Holdings on 2026-06-01 for $2.1bn (agreed 2026-02-23; Thermon holders electing $63.89 all cash, 0.8110 CECO shares, or $10 cash plus 0.6840 shares), filed under 8-K items 2.01, 2.03, 5.02 and 5.03. Q2 2026 (filed 2026-08-10): revenue $285.0M +54%, adjusted EBITDA $40.2M +73%, GAAP operating LOSS $(33.2)M and net loss $(34.8)M on acquisition and purchase-accounting charges, non-GAAP net income $21.5M, free cash flow $(24.3)M with adjusted free cash flow $53.2M excluding Thermon transaction payments. Raised FY2026 outlook: adjusted EBITDA $200-225M (from $195-225M) with free cash flow conversion of at least 55% of adjusted EBITDA, i.e. roughly $110-124M of FCF.</p><p><strong>Base case.</strong> The engine&#x27;s +78.3% required growth is an artifact of pairing a POST-deal enterprise value with a PRE-deal cash-flow base - the SM/HOG defect. Enterprise value of $4,881M is built from the 2026-06-30 balance sheet, which is post-Thermon (equity $2,075.9M against an equity_series[0] of $317.5M, goodwill $1,501.2M against $288.2M, intangibles $999.4M against $97.0M). The FCFF base of $28.4M is the mean of standalone cfo-capex of [-5.5, 7.5, 36.3] for the three years to 2025-12-31, a company roughly a third of the current size. Pairing them is meaningless in either direction. Rebuilt on the combined company: FY2026 guided FCF is ~$117M at the midpoint, but FY2026 contains only seven months of Thermon; a full-year combined run rate is nearer $135M of FCF, and post-deal debt of $727.7M at ~6.5% adds roughly $35M of after-tax interest, giving a base near $170M. At that base the market requires +22.0%. My own assumption is +11% - management&#x27;s &#x27;double-digit&#x27; - because that is what the business plus ordinary bolt-ons should deliver, and because applying growth to a base already struck after total capex, on a roll-up whose growth is bought with acquisition cash that never enters free cash flow, is already generous (the EFOR/AROC point). At +11% the corrected fair value is roughly $43 against $71.87.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: Calling a 22-24x EV/EBITDA industrial &#x27;rich&#x27; into the strongest power and data-centre capex cycle in forty years is the classic early short. CECO has grown revenue from $316M to $774M standalone in five years and has just doubled again; a company genuinely compounding 20%+ deserves a multiple that looks absurd on trailing numbers, and the +25.4% hurdle is only two or three good bolt-ons away. I also have exactly ONE quarter of combined financials, the integration is four months old, and the FY2026 guide spans only seven months of Thermon - so the base I corrected to is itself an estimate.</li><li>What would prove it: FY2027 guidance: adjusted EBITDA materially above ~$260M with free cash flow conversion holding at 55%+ would show the combined entity compounding at the rate the price requires. Conversely, organic (ex-Thermon) revenue growth disclosed below ~10%, or conversion falling below 50%, would confirm the bear.</li><li>Already visible today: Partly for the bull: Q2 adjusted EBITDA +73% and synergies ahead of plan are real and recent. Against it, GAAP operating income was a $(33.2)M LOSS and reported free cash flow was $(24.3)M; the positive numbers are all non-GAAP and all adjusted for the transaction. And the standalone three-year cash flow record the engine holds - cfo-capex of [-5.5, 7.5, 36.3] - is a business that generated almost no free cash before the deal.</li><li>Left unresolved: I cannot separate organic from acquired growth on the combined entity: CECO does not disclose an organic revenue figure, and per the EFOR rule a roll-up&#x27;s headline growth is meaningless without one. That is the input that decides whether +11% or +22% is the right base case, and one quarter of combined reporting does not settle it. My &#x27;rich&#x27; is therefore low conviction and rests on the arithmetic of the hurdle, not on a judgment that the end-market is overrated.</li></ul><p><strong>Key risks.</strong> Being early: a 22-24x EV/EBITDA infrastructure compounder can stay there for years while earnings grow into it; Pipeline conversion is the whole thesis on both sides and CECO discloses a pipeline, not a conversion rate; No organic growth disclosure on a serial acquirer - the EFOR blind spot, and it cuts against my base case as much as for it; My corrected base of $170M is an estimate built from a seven-month guide, not a reported combined year <strong>Watch for.</strong> FY2027 guidance, and specifically whether free cash flow conversion holds at 55%+ of a materially larger adjusted EBITDA; Any organic revenue disclosure separating Thermon from the legacy platform; Post-deal net leverage and whether bolt-ons resume before it comes down</p><p><strong>Data quality.</strong> The three flags raised (negative_fcf_year_in_window, lumpy_fcff_spread_3.3x_of_mean, stock_comp_is_66%_of_fcff) all describe the standalone pre-Thermon series and are symptoms of the real defect, which is UNFLAGGED: the enterprise value is post-acquisition and the cash-flow base is pre-acquisition. The tell is inside the extract - equity_now $2,075.9M against equity_series[0] $317.5M (6.5x), goodwill $1,501.2M against $288.2M, intangibles $999.4M against $97.0M - and the 2026-06-01 8-K carries items 2.01 and 2.03. Enterprise value itself is correct (built off the 2026-06-30 10-Q). I have set fcff_base_override to $170M, a combined-company estimate from the company&#x27;s own FY2026 guidance (adjusted EBITDA $200-225M, FCF conversion at least 55%) annualised for a full year of Thermon plus after-tax interest on post-deal debt. The stock-comp flag is NOT resolved: I could not run the BOX basic-share-count test cleanly because the share count moved on acquisition consideration in the same period, so the 66% figure is left open and would make the base somewhat lower if expensed.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/3197/000119312526342536/ceco-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/3197/000119312526342536/ceco-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/3197/000119312526341191/ceco-20260810.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/3197/000119312526341191/ceco-20260810.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/3197/000110465926068661/tm2616015d2_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/3197/000110465926068661/tm2616015d2_8k.htm</a></li><li><a href="https://investors.cecoenviro.com/news-releases/news-release-details/ceco-environmental-completes-acquisition-thermon-group-holdings" rel="noopener">https://investors.cecoenviro.com/news-releases/news-release-details/ceco-environmental-completes-acquisition-thermon-group-holdings</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/CECO.md'>research/Industrials/CECO.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

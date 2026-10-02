@@ -1,0 +1,51 @@
+{
+  "ticker": "AOMR",
+  "date": "2026-10-02",
+  "sector": "Financials",
+  "name": "ANGEL OAK MORTGAGE REIT",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 7.269999980926514,
+  "market_implied_growth": null,
+  "cohort_pct": 97.9,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I am refusing a name whose gap survives every correction I can make. Even on economic book of $12.24 and a punitive 15% cost of equity, an 11% distributable return justifies about 0.69x against an actual 0.59x. The dividend is $1.28 annualised on a $7.27 price - 17.6% - and is covered by distributable earnings at an 86% payout, so the holder is paid to wait. The return is also IMPROVING hard: 10.8% for H1 2026 against 5.5% for H1 2025, and the September facility repricing cut the spread. That is the VLY pattern - a recovering return that a three-year average understates.",
+    "what_would_prove_it": "Three or four more quarters of Distributable Earnings RoAE at or above 11% WITH GAAP book value per share stable or rising. Rising return alongside rising book is an operating recovery; rising return alongside falling book is the mark artifact.",
+    "already_visible": "The deciding half is visible and it goes the wrong way for the bull: GAAP book fell 1.7% in the quarter and economic book 0.3%, and GAAP book per share is down from about $11.52 at 2025-12-31 to $10.13 at 2026-06-30 - roughly 12% in six months - while the engine reports a 16.5% GAAP return for the newest year. Earning 16% while book falls 12% is the JXN/FG signature: the return is substantially a mark, not cash on capital.",
+    "unresolved": "Whether the 2026 distributable return is a genuine recovery in non-QM spread economics or a benign point in the credit cycle. One year of improvement after a year of 5.5% does not distinguish them, and the five-year record - $19.00 of IPO book to $10.13 - argues for the cycle. I also cannot override the cost of equity, which alone moves the answer from +50% to -4%."
+  },
+  "what_changed": "Q2 2026 (filed 2026-08-04): GAAP book value $10.13 per share and economic book value $12.24, down 1.7% and 0.3% from Q1. Distributable Earnings $9.0M or $0.37 per diluted share, with Distributable Earnings Return on Average Equity of 14.6% annualised for the quarter and 10.8% for the half, against 4.2% and 5.5% in the prior-year periods. Net interest income $10.7M, +8% y/y. Dividend declared $0.32 per share, paid 2026-08-28 - covered by distributable earnings at an 86% payout. On 2026-09-25 (8-K filed 2026-09-29, item 1.01) the company extended a loan financing facility with 'Multinational Bank 1' from 2026-09-25 to 2026-12-28 and cut the interest rate pricing spread from 1.30-2.10% to 1.20-2.10% - a mildly favourable routine renewal, and the 'filed an 8-K in the last few sessions' signal that won this name an opportunistic slot. Nothing in it is a catalyst.",
+  "consensus_case": "Angel Oak Mortgage REIT trades at 0.72x GAAP book and 0.59x economic book because the market has watched this manager destroy roughly half the book value since the June 2021 IPO: $19.00 a share then, $10.13 of GAAP book now, dividends notwithstanding. It is externally managed by Falcons I, LLC, so a base fee accrues on equity whatever the return, and the incentive fee is excluded from the company's own Distributable Earnings measure. It runs about 10.6x leverage ($2,493M of debt against $235M of equity) in non-QM mortgage credit, funded on three-month rolling warehouse facilities - the 2026-09-25 8-K extends one of them to 2026-12-28 and discloses the rolling-renewal structure in terms. For a vehicle with that funding profile, that leverage and that record, a persistent discount to book is not a mispricing, it is the market declining to capitalise a return it does not expect to see again.",
+  "base_case_rationale": "No number can be recorded because both inputs to the justified multiple are wrong and the schema can reach neither. TANGIBLE BOOK: the engine reports $11.52, which is equity_series[0] of $267,523k (2025-12-31) over the current 23,214,877 shares - the standing stale-book defect. equity_now is $234,865,000, giving $10.117 a share, which reconciles to the company's own disclosed GAAP book value of $10.13 almost exactly. So the actual price-to-tangible-book is 0.718x, not 0.631x, and the name is 12% less cheap than the brief says before anything else is considered. The schema has no book override. COST OF EQUITY: 10.354% comes from a beta of 0.93 at R-squared 0.435 - unusually, a sound regression - but a weekly-return beta on a 10.6x-levered non-QM credit book cannot see the tail, and it prices no external-management drag. RETURN: the engine's 13.9% is a three-year GAAP average, and for a mortgage REIT GAAP net income is dominated by unrealised marks - the company publishes exactly that adjustment itself. Distributable Earnings RoAE is 14.6% for Q2 but 10.8% for the half and was 5.5% a year earlier. Crossing the defensible ranges: at an 11% return and the engine's 10.35% cost of equity the justified multiple is 1.08 against an actual 0.718 (+50%); at 11% and a 13% cost of equity it is 0.818 (+14%); at 11% and 15%, 0.692 (-4%); at a through-cycle 8% and 13%, 0.545 (-24%). Fifty points of answer from two inputs I cannot pin and the record cannot hold. That is the JXN test verbatim, so no rotce_override is supplied.",
+  "key_risks": [
+    "10.6x leverage on non-QM mortgage credit funded by three-month rolling warehouse facilities - the 2026-09-25 8-K discloses the rolling structure explicitly",
+    "Book value has fallen from $19.00 at the June 2021 IPO to $10.13, which is the market's case and is a fact about the manager",
+    "External management: a base fee accrues on equity regardless of return, and the incentive fee is excluded from the company's own Distributable Earnings",
+    "GAAP earnings are marks; the 13.9% the engine prices is not cash on capital"
+  ],
+  "watch_for": [
+    "GAAP book value per share stabilising for two or more consecutive quarters - the single observable that separates an operating recovery from a mark",
+    "Distributable Earnings RoAE holding above 11% once the 2025 comparison laps",
+    "Whether the December 2026 facility renewal extends on the same or better spread, or shortens"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001766478/000162828026052154/q22026earningspressrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm",
+    "https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm"
+  ],
+  "flags": []
+}

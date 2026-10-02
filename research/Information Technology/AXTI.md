@@ -1,0 +1,35 @@
+# AXTI — AXT
+*Information Technology · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-10-02 — NO_MODEL (conviction: low)
+
+- **Verdict:** no_model · price $81.81
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** AXT has gone from a cyclical compound-semiconductor substrate supplier to a supply bottleneck for AI optical interconnect, and the stock is +1722% over 252 days on that re-rating. Indium phosphide substrates are the base material for the high-speed optical transceivers hyperscalers need to connect AI clusters; AXT recorded its highest-ever quarterly InP revenue at $30.7M, reports an InP backlog above $100M, and raised $632.5M in April 2026 to more than double InP capacity by end-2026 toward a roughly $60M quarterly run rate. The market is not paying 57x trailing sales for the trailing company; it is paying roughly 17-18x a 2027 revenue base several times the current one, on the view that AXT is one of two or three qualified suppliers in a market whose demand is set by hyperscaler capital budgets.
+
+**What changed.** Q2 2026 10-Q filed 2026-08-13, the only filing the brief lists for this registrant. The decisive item is the capital structure: on 2026-04-21 AXT agreed to sell 8,560,311 shares at $64.25, with the 1,284,046-share over-allotment exercised in full on 2026-04-22, issuing 9,844,357 shares for gross proceeds of approximately $632.5 million - following roughly $100 million raised in December 2025. Shares outstanding went from 55,337k at 2025-12-31 to 65,570k at 2026-06-30, and stockholders' equity from $273.3M to $887.3M. Net interest swung to $4.7M of INCOME in Q2 from $202k of expense a year earlier, purely on investing the proceeds. The engine's share count (65,573,212, dated 2026-08-03) is CORRECT and captures the raise - this is not a share-count failure.
+
+**Base case.** A discounted cash flow cannot be built and the comparables table is a measurement artifact, so no number is honest. The DCF side is unambiguous: cfo_series is [-12.783, -12.112, +3.403] against capex of [5.995, 5.771, 10.475], so cfo-capex is negative in all three years, normalized FCFF is non-positive, and the engine correctly declines - the SABR failure mode cannot even arise because there is no interest add-back to manufacture a base. The multiples side is where the trap is. The blended midpoint of $27.78 against $81.81, a -66.0% gap, looks like three ratios convicting the stock, and it is one error three times: every row divides by a TRAILING denominator from a company that no longer exists. LTM revenue of $88.3M spans quarters before the InP ramp; the company's own stated target is roughly $60M per quarter of indium phosphide alone by end-2026, which is more than twice the entire trailing revenue run rate annualised. That is the MXL condition exactly - an inflecting revenue line makes every trailing multiple an artifact - and the brief additionally says the cohort is 'not ranked'. On the forward run rate EV/sales falls from 57.3x toward roughly 17-18x. REFUSING IS NOT A CLAIM THAT THIS IS CHEAP. At 17-18x forward sales on 12.7% trailing gross margin (gross profit $11.2M on $88.3M), with negative EBITDA, a $5.4bn market capitalisation, and a Chinese operating subsidiary (Tongmei) carrying a redeemable non-controlling interest and a lapsed STAR Market listing ambition, the name is priced for an extraordinary ramp to arrive on schedule. I simply have no defensible way to value it.
+
+**Devil's advocate.**
+- Strongest counter: That I should have valued it on the forward ramp the company has quantified. AXT has given a capacity target and a backlog number, which is more than most pre-inflection companies provide, so a 2027 revenue base near $240-300M is not speculation - and at 17-18x sales with software-like scarcity dynamics, that may be a perfectly ordinary price for a bottleneck supplier.
+- What would prove it: Gross margin on the incremental InP volume. The whole question is whether doubling capacity drops through at semiconductor-materials incremental margins or at the 12.7% the trailing business earns; two quarters of shipping at the expanded run rate would settle it.
+- Already visible today: Partly: Q2 was reported as a record with a margin rebound, and $4.7M of interest income shows the balance sheet is now unencumbered. But the trailing gross profit of $11.2M on $88.3M of revenue is the only full-cycle margin evidence available, and it is poor.
+- Left unresolved: Whether the ramp lands on the stated schedule and at what margin - which is the entire valuation. Also unresolved: revenue_series is non-monotonic ([88.3, 75.8, 141.1, 137.4, 95.4, 83.3] newest first) and I could not establish from one 10-Q whether the $141.1M figure is a genuine prior peak or the HRI/TNET concept-switch artifact.
+
+**Key risks.** Trailing gross margin of 12.7% - the ramp thesis requires incremental margin far above anything in the record; A $5.4bn capitalisation on $88.3M of trailing revenue and negative EBITDA; Operations concentrated in Tongmei in China, with a redeemable non-controlling interest and export-control exposure on gallium and indium compounds; Capacity doubling is industry-wide, not AXT-specific; bottleneck economics end when the bottleneck does
+**Watch for.** Quarterly InP revenue against the ~$60M run-rate target, and gross margin on the incremental volume; Whether the >$100M backlog converts at stable pricing; Any further equity issuance - two raises in five months is a pattern
+
+**Data quality.** All three flags (negative_fcf_year_in_window, nonpositive_normalized_fcff, negative_ebitda_valued_on_revenue_or_gross_profit_only) are correct and the DCF refusal is right. The share count is CORRECT and captures the April 2026 raise - checked against the 10-Q, which states 9,844,357 shares issued for ~$632.5M gross and 65,570k outstanding at 2026-06-30 against the extract's 65,573,212 at 2026-08-03. The equity jump from $273.3M to $887.3M is that raise, not a defect. What the brief does NOT flag, and what disqualifies the multiples table, is that the trailing denominator predates the ramp: the company targets roughly $60M of quarterly InP revenue by end-2026 against total LTM revenue of $88.3M, so the MXL rule applies and the -66.0% blended gap should be disregarded. Also noted but not resolved: revenue_series is non-monotonic ([88.3, 75.8, 141.1, 137.4, 95.4, 83.3]), the HRI/TNET signature; I could not determine from a single 10-Q whether that is a real prior peak or a concept switch. preferred of $3,532,000 is the 1999 Lyte Optronics Series A and is genuine, not a phantom.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1051627/000143774926027677/axti20260630_10q.htm
+- https://www.tikr.com/blog/axt-stock-surges-record-q2-revenue-margin-rebound-2026
+- https://finance.yahoo.com/sectors/technology/articles/axtis-ai-driven-indium-phosphide-145900114.html
+
+**Ingestion notes.** no usable final_growth
