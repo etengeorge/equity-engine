@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-10-02T11:35:00+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CSTM",
+    "cik": 1563411,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000192/cstm-20260630.htm",
+        "file": "2026-07-29-10-Q-cstm-20260630.htm.txt",
+        "chars": 141243,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/cstm-20260729.htm",
+        "file": "2026-07-29-8-K-cstm-20260729.htm.txt",
+        "chars": 4213,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000174/cstm-20260521.htm",
+        "file": "2026-05-21-8-K-cstm-20260521.htm.txt",
+        "chars": 7706,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000155/cstm-20260331.htm",
+        "file": "2026-04-29-10-Q-cstm-20260331.htm.txt",
+        "chars": 118267,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000153/cstm-20260429.htm",
+        "file": "2026-04-29-8-K-cstm-20260429.htm.txt",
+        "chars": 4248,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-12",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000092/cstm-20260312.htm",
+        "file": "2026-03-12-8-K-cstm-20260312.htm.txt",
+        "chars": 3436,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-25",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000057/cstm-20251231.htm",
+        "file": "2026-02-25-10-K-cstm-20251231.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-02-18",
+        "items": "2.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000047/cstm-20260218.htm",
+        "file": "2026-02-18-8-K-cstm-20260218.htm.txt",
+        "chars": 4140,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/a2026-q2xearningspressre.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 33699,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000190/a2026-q2xearningspresent.htm",
+        "file": "2026-07-29-EX-99.2.txt",
+        "chars": 18415,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000153/a2026-q1xearningspressre.htm",
+        "file": "2026-04-29-EX-99.1.txt",
+        "chars": 27164,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000153/a2026-q1xearningspresent.htm",
+        "file": "2026-04-29-EX-99.2.txt",
+        "chars": 17805,
+        "truncated": false
+      }
+    ]
+  }
+}

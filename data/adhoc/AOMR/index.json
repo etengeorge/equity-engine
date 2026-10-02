@@ -1,0 +1,134 @@
+{
+  "fetched_utc": "2026-10-02T11:34:57+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AOMR",
+    "cik": 1766478,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-29",
+        "items": "1.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000060/aomr-20260925.htm",
+        "file": "2026-09-29-8-K-aomr-20260925.htm.txt",
+        "chars": 3945,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-29",
+        "items": "1.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000058/aomr-20260925.htm",
+        "file": "2026-09-29-8-K-aomr-20260925.htm.txt",
+        "chars": 3647,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm",
+        "file": "2026-08-04-10-Q-aomr-20260630.htm.txt",
+        "chars": 222929,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr-20260804.htm",
+        "file": "2026-08-04-8-K-aomr-20260804.htm.txt",
+        "chars": 4566,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-21",
+        "items": "7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/aomr-20260721.htm",
+        "file": "2026-07-21-8-K-aomr-20260721.htm.txt",
+        "chars": 3940,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-29",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000041/aomr-20260625.htm",
+        "file": "2026-06-29-8-K-aomr-20260625.htm.txt",
+        "chars": 4110,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-20",
+        "items": "1.01,1.02,5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm",
+        "file": "2026-05-20-8-K-aomr-20260519.htm.txt",
+        "chars": 8127,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000024/aomr-20260513.htm",
+        "file": "2026-05-14-8-K-aomr-20260513.htm.txt",
+        "chars": 5065,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/q22026earningspressrelease.htm",
+        "file": "2026-08-04-EX-99.1.txt",
+        "chars": 18068,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm",
+        "file": "2026-08-04-EX-99.2.txt",
+        "chars": 37275,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-21",
+        "items": [
+          "7.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1766478/000162828026049006/a2026-q2earningsdateannoun.htm",
+        "file": "2026-07-21-EX-99.1.txt",
+        "chars": 2421,
+        "truncated": false
+      }
+    ]
+  }
+}

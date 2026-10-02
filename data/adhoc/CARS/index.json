@@ -1,0 +1,158 @@
+{
+  "fetched_utc": "2026-10-02T11:34:50+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CARS",
+    "cik": 1683606,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-30",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526409040/cars-20260924.htm",
+        "file": "2026-09-30-8-K-cars-20260924.htm.txt",
+        "chars": 6443,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526337949/cars-20260630.htm",
+        "file": "2026-08-06-10-Q-cars-20260630.htm.txt",
+        "chars": 89762,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526336773/cars-20260806.htm",
+        "file": "2026-08-06-8-K-cars-20260806.htm.txt",
+        "chars": 3505,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526259857/cars-20260603.htm",
+        "file": "2026-06-05-8-K-cars-20260603.htm.txt",
+        "chars": 4541,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526211864/cars-20260331.htm",
+        "file": "2026-05-07-10-Q-cars-20260331.htm.txt",
+        "chars": 81545,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526210377/cars-20260507.htm",
+        "file": "2026-05-07-8-K-cars-20260507.htm.txt",
+        "chars": 3480,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-09",
+        "items": "2.02,2.05,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526149752/cars-20260406.htm",
+        "file": "2026-04-09-8-K-cars-20260406.htm.txt",
+        "chars": 3887,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526076546/cars-20251231.htm",
+        "file": "2026-02-26-10-K-cars-20251231.htm.txt",
+        "chars": 282067,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-30",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526409040/cars-ex99_1.htm",
+        "file": "2026-09-30-EX-99.1.txt",
+        "chars": 2821,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526336773/cars-ex99_1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 30681,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526210377/cars-ex99_1.htm",
+        "file": "2026-05-07-EX-99.1.txt",
+        "chars": 28093,
+        "truncated": false
+      },
+      {
+        "filed": "2026-04-09",
+        "items": [
+          "2.02",
+          "2.05",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "2.05",
+          "9.01"
+        ],
+        "exhibit": "EX-99.PRESSRELEASE",
+        "description": "EX-99.PRESSRELEASE",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526149752/cars-ex99_pressrelease.htm",
+        "file": "2026-04-09-EX-99.PRESSRELEASE.txt",
+        "chars": 8379,
+        "truncated": false
+      }
+    ]
+  }
+}

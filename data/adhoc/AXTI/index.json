@@ -1,0 +1,136 @@
+{
+  "fetched_utc": "2026-10-02T11:35:04+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AXTI",
+    "cik": 1051627,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926027677/axti20260630_10q.htm",
+        "file": "2026-08-13-10-Q-axti20260630_10q.htm.txt",
+        "chars": 378112,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-30",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm",
+        "file": "2026-07-30-8-K-axti20260609_8k.htm.txt",
+        "chars": 4030,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm",
+        "file": "2026-07-29-8-K-axti20260715_8k.htm.txt",
+        "chars": 5137,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "3.03,5.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm",
+        "file": "2026-07-29-8-K-axti20260729_8k.htm.txt",
+        "chars": 3670,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-22",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm",
+        "file": "2026-07-22-8-K-axti20260720_8k.htm.txt",
+        "chars": 6249,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-08",
+        "items": "2.04",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm",
+        "file": "2026-07-08-8-K-axti20260629_8k.htm.txt",
+        "chars": 5120,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-02",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm",
+        "file": "2026-07-02-8-K-axti20260630_8k.htm.txt",
+        "chars": 5135,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-22",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926021307/axti20260622_8k.htm",
+        "file": "2026-06-22-8-K-axti20260622_8k.htm.txt",
+        "chars": 5701,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-30",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/ex_974537.htm",
+        "file": "2026-07-30-EX-99.1.txt",
+        "chars": 14719,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "1.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/ex_993544.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 4029,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-22",
+        "items": [
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/ex_990254.htm",
+        "file": "2026-07-22-EX-99.1.txt",
+        "chars": 7124,
+        "truncated": false
+      }
+    ]
+  }
+}
