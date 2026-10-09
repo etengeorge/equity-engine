@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-02T16:35:25+00:00",
-  "price_asof": "2026-10-01",
+  "screen_utc": "2026-10-09T11:24:19+00:00",
+  "price_asof": "2026-10-08",
   "universe": 1956,
-  "modelled": 1073,
-  "modelled_pct": 54.9,
+  "modelled": 1072,
+  "modelled_pct": 54.8,
   "news": {
-    "generated_utc": "2026-10-02T16:35:26+00:00",
+    "generated_utc": "2026-10-09T11:24:30+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 1,
+    "articles_new": 48,
     "candidates": 450,
-    "elapsed_s": 200.5
+    "elapsed_s": 211.3
   },
   "picks": [
-    "SXI",
-    "STNG",
-    "GNW",
-    "KAI",
-    "ACLS",
-    "BTU",
-    "OXM",
-    "BCO",
-    "CSV",
-    "NMIH"
+    "DORM",
+    "HNI",
+    "AWR",
+    "LXP",
+    "DNLI",
+    "CRGY",
+    "PCRX",
+    "FG",
+    "AOMR",
+    "CLVT"
   ],
   "stages": {
-    "screen": "2026-10-02T16:38:55+00:00",
-    "news": "2026-10-02T16:38:47+00:00",
-    "pick": "2026-10-02T16:38:55+00:00"
+    "screen": "2026-10-09T11:28:42+00:00",
+    "news": "2026-10-09T11:28:02+00:00",
+    "pick": "2026-10-09T11:28:42+00:00"
   }
 }

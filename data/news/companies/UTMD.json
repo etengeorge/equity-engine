@@ -46,29 +46,5 @@
    "UTMD"
   ],
   "source": "yfinance"
- },
- {
-  "id": "7899c2e2-b01f-3a1f-a6f2-7fbbccdd96bf",
-  "ts": "2026-06-05T08:44:00+00:00",
-  "title": "The Zacks Analyst Blog Highlights Berkshire, Eli Lilly, Walmart, Universal Health Realty Income and Utah",
-  "summary": "BRK.B, LLY and WMT headline top analyst reports, highlighting business strengths, growth drivers and key risks shaping their outlooks.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-berkshire-084400178.html",
-  "tickers": [
-   "UTMD"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "ed6999cf-6a4e-3328-a7a9-122d9e339d76",
-  "ts": "2026-06-04T20:21:00+00:00",
-  "title": "Top Analyst Reports for Berkshire Hathaway, Eli Lilly & Walmart",
-  "summary": "Berkshire Hathaway, Eli Lilly and Walmart headline new analyst reports, highlighting growth drivers, opportunities and key risks shaping their outlooks.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-berkshire-hathaway-202100807.html",
-  "tickers": [
-   "UTMD"
-  ],
-  "source": "yfinance"
  }
 ]

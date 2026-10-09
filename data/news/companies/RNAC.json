@@ -82,29 +82,5 @@
    "RNAC"
   ],
   "source": "yfinance"
- },
- {
-  "id": "875cd511-2fc6-3016-a26d-89165befdede",
-  "ts": "2026-06-10T09:12:00+00:00",
-  "title": "AstraZeneca\u2019s \u2018extensive\u2019 obesity drug push; $125M for ultrasound-aided genetic medicine",
-  "summary": "Newly published data convinced AstraZeneca to conduct a sprawling late-stage program for its GLP-1 pill. Elsewhere, Bausch + Lomb will lay off 119 employees and Cartesian boosted its \u2018in vivo\u2019 cell therapy capabilities.",
-  "publisher": "BioPharma Dive",
-  "url": "https://www.biopharmadive.com/news/astrazeneca-obesity-sonothera-bausch-layoffs-cartesian-alzecure/822398/",
-  "tickers": [
-   "RNAC"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "68369e2a-44bf-3aad-9492-814d68a13f44",
-  "ts": "2026-06-09T11:00:00+00:00",
-  "title": "Cartesian Therapeutics Announces Strategic Licensing Agreement with WestGene Biopharma to Accelerate the Development of In Vivo CAR-T Platform in Autoimmune Diseases",
-  "summary": "WestGene\u2019s established targeted LNP platform combined with Cartesian\u2019s mRNA payload from Descartes-08 integrates two independently, clinically tested technologies for rapid clinical translation Plans to advance multiple Cartesian-owned, internally developed next-generation anti-BCMA CAR constructs and a BCMA-directed TCE as part of expanding mRNA payload portfolio Clinical trial expected to initiate in 2H 2026 using mRNA payload from Descartes-08 combined with WestGene\u2019s LNP platform in patients",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/cartesian-therapeutics-announces-strategic-licensing-110000377.html",
-  "tickers": [
-   "RNAC"
-  ],
-  "source": "yfinance"
  }
 ]

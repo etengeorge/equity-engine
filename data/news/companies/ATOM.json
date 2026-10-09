@@ -94,17 +94,5 @@
    "ATOM"
   ],
   "source": "yfinance"
- },
- {
-  "id": "fb80346f-e87c-3ec3-9de0-f71a1def4bd3",
-  "ts": "2026-06-04T20:05:00+00:00",
-  "title": "Atomera Breakthrough Targets Broader RF Adoption of GaN-on-Silicon",
-  "summary": "LOS GATOS, Calif., June 04, 2026--Atomera Incorporated (NASDAQ: ATOM), a semiconductor materials and technology licensing company, today announced a new approach to GaN-on-Silicon that addresses a key performance barrier limiting its use in mainstream RF applications. Today, high-performance RF GaN devices are typically built on silicon carbide substrates, which provide excellent performance but remain costly and difficult to scale. Silicon offers a lower-cost, more scalable foundation with the",
-  "publisher": "Business Wire",
-  "url": "https://finance.yahoo.com/sectors/technology/articles/atomera-breakthrough-targets-broader-rf-200500643.html",
-  "tickers": [
-   "ATOM"
-  ],
-  "source": "yfinance"
  }
 ]
