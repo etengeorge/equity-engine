@@ -65,8 +65,8 @@
     "verdict": "no_edge"
   },
   "AOMR": {
-    "conviction": "low",
-    "last_visit": "2026-10-02",
+    "conviction": "medium",
+    "last_visit": "2026-10-09",
     "verdict": "no_edge"
   },
   "APGE": {
@@ -108,6 +108,11 @@
     "conviction": "low",
     "last_visit": "2026-09-22",
     "verdict": "rich"
+  },
+  "AWR": {
+    "conviction": "high",
+    "last_visit": "2026-10-09",
+    "verdict": "no_model"
   },
   "AX": {
     "conviction": "medium",
@@ -195,8 +200,8 @@
     "verdict": "no_model"
   },
   "CLVT": {
-    "conviction": "low",
-    "last_visit": "2026-09-25",
+    "conviction": "medium",
+    "last_visit": "2026-10-09",
     "verdict": "no_edge"
   },
   "CMC": {
@@ -223,6 +228,11 @@
     "conviction": "high",
     "last_visit": "2026-09-11",
     "verdict": "no_model"
+  },
+  "CRGY": {
+    "conviction": "medium",
+    "last_visit": "2026-10-09",
+    "verdict": "no_edge"
   },
   "CRI": {
     "conviction": "low",
@@ -284,10 +294,20 @@
     "last_visit": "2026-09-10",
     "verdict": "no_model"
   },
+  "DNLI": {
+    "conviction": "high",
+    "last_visit": "2026-10-09",
+    "verdict": "no_model"
+  },
   "DNTH": {
     "conviction": "high",
     "last_visit": "2026-09-14",
     "verdict": "no_model"
+  },
+  "DORM": {
+    "conviction": "low",
+    "last_visit": "2026-10-09",
+    "verdict": "no_edge"
   },
   "DYN": {
     "conviction": "high",
@@ -340,8 +360,8 @@
     "verdict": "rich"
   },
   "FG": {
-    "conviction": "high",
-    "last_visit": "2026-09-04",
+    "conviction": "medium",
+    "last_visit": "2026-10-09",
     "verdict": "no_model"
   },
   "FLO": {
@@ -408,6 +428,11 @@
     "conviction": "low",
     "last_visit": "2026-10-02",
     "verdict": "no_model"
+  },
+  "HNI": {
+    "conviction": "medium",
+    "last_visit": "2026-10-09",
+    "verdict": "cheap"
   },
   "HOG": {
     "conviction": "low",
@@ -579,6 +604,11 @@
     "last_visit": "2026-09-08",
     "verdict": "no_model"
   },
+  "LXP": {
+    "conviction": "high",
+    "last_visit": "2026-10-09",
+    "verdict": "no_model"
+  },
   "MARA": {
     "conviction": "low",
     "last_visit": "2026-09-22",
@@ -667,6 +697,11 @@
   "PATK": {
     "conviction": "high",
     "last_visit": "2026-09-15",
+    "verdict": "no_model"
+  },
+  "PCRX": {
+    "conviction": "high",
+    "last_visit": "2026-10-09",
     "verdict": "no_model"
   },
   "PCVX": {

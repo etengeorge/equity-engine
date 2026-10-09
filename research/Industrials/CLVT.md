@@ -77,3 +77,38 @@ Across the whole grid the gap ranges -182.7% to +66.9% — that spread is the ho
 - https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/clvt-20260729.htm
 
 **Ingestion notes.** no usable final_growth
+
+## 2026-10-09 — NO_EDGE (conviction: medium)
+
+- **Verdict:** no_edge · price $1.63
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** Clarivate's equity is a thin residual on a large, declining enterprise, and at $1.63 the market is pricing it as an option rather than a business. Against roughly $1.04 billion of market capitalisation sits about $4.07 billion of net debt — the equity is a fifth of enterprise value — so the share price is a geared bet on a revenue line that is still shrinking. H1 2026 revenue was $1,172.8 million against $1,215.1 million, down 3.5%, with Academia & Government -4.2%, Intellectual Property +0.1% and the now-divested Life Sciences & Healthcare -8.4%. Adjusted EBITDA for the half was $488.4 million against $494.8 million. A business whose revenue declines at 3-4% with 4.2x net leverage is worth whatever the discount rate says it is worth, and at the ~11.5-12% rate the market appears to be using, $1.63 is approximately right. The stock is -56.5% over 252 days and -14.7% over 21 days, so this is a view the market has been forming for a year, not a panic.
+
+**What changed.** The company got structurally smaller three days before the price date. On 2026-10-06 Clarivate COMPLETED the sale of its Life Sciences & Healthcare segment to Altaris LLC for $600 million (8-K items 2.01, 5.02, 8.01, 9.01, with EX-99.1 the press release), a transaction announced 2026-07-06. Proceeds go to debt reduction. LS&H was $182.0 million of H1 2026 revenue — 15.5% of the company, roughly $364 million annualised — so it was sold at approximately 1.65x revenue against the parent's own ~2.2x, meaning the divestiture is mildly dilutive on multiple even as it deleverages. Clarivate is now a two-segment business (Academia & Government, Intellectual Property). Q3 results and an updated full-year guide are due 2026-11-03. Also since the last pass: the cash tender for the 3.875% senior SECURED notes due 2028 settled at total consideration of $975.15 per $1,000 (8-Ks of 2026-09-17, 09-23, 09-24).
+
+**Base case.** No growth rate recorded, for the reason established on 2026-09-25 and now compounded. Two problems, either of which alone would be disqualifying. First, the $628.4 million FCFF base is a three-year mean that still contains the Life Sciences & Healthcare segment sold four days ago, so the base describes a company that no longer exists — the Lands' End and VISN condition in research/LESSONS.md. Second and larger, the discount rate is indeterminate and the equity is geared to it: at a corrected base near $520 million and FLAT free cash flow, the equity is worth roughly $1.27 at a 12% WACC, $3.16 at 10% and $6.29 at 8%. A factor of five from one input is not a valuation.
+
+**Devil's advocate.**
+- Strongest counter: The strongest counter is that at $1.63 the asymmetry is so extreme that refusing is itself a position. Post-divestiture the enterprise is about $4.51 billion against roughly $826 million of remaining adjusted EBITDA — 5.5x — for a subscription-first business with the Web of Science franchise and an intellectual-property renewals business that are both genuinely hard to replace. Equity at a fifth of enterprise value means a one-turn re-rating of the multiple roughly doubles the stock. Three Septembers of secured paper trading at 97.5 cents says the debt market does not think this is distressed. On that reading the engine's +219% gap at the 97th percentile of 151 Industrials is directionally right even if the magnitude is unknowable.
+- What would prove it: Organic revenue turning flat or positive in the two remaining segments, and net leverage actually falling after the $600 million is applied. The 2026-11-03 Q3 report with an updated full-year guide is the next observation.
+- Already visible today: The settling evidence is visible and it is mixed in a way that sustains the refusal rather than resolving it. In favour of the counter: the secured-note tender clearing at $975.15 per $1,000 directly refutes the engine's synthetic credit rating, and the $600 million closed rather than merely announced. Against it: organic revenue is STILL negative in the segment that matters most — Academia & Government -4.2% in H1, and -5.9% organic on the quarterly table — and the divested segment was sold BELOW the parent's own multiple, which is what a seller accepts when the buyer universe is thin. I accept the counter's point that the discount rate the engine uses is indefensible, and that is precisely why I cannot replace it with one of my own and call the result a valuation.
+- Left unresolved: I could not determine post-divestiture net leverage or the remaining segments' standalone adjusted EBITDA, because the 8-K announcing completion contains no pro forma and the Q2 10-Q predates it. That single number decides whether 8% or 12% is the right discount rate, and therefore decides a fivefold range in the equity. It arrives on 2026-11-03.
+
+**Key risks.** Equity is ~20% of enterprise value, so the answer is geared to a discount rate nobody can pin; Academia & Government organic revenue still declining ~4-6%; AI-native substitution of proprietary citation and research data; A divestiture completed at 1.65x revenue against a parent trading at ~2.2x — evidence about the asset's market, not just its price
+**Watch for.** Q3 2026 results and the updated full-year guide on 2026-11-03, with post-divestiture net leverage and continuing-operations EBITDA; Academia & Government organic revenue turning flat; Whether the full $600 million is applied to debt as stated
+
+**Data quality.** The engine raised NO flags and there are at least three live problems. (1) The FCFF base of $628.4M contains the Life Sciences & Healthcare segment sold 2026-10-06 — 15.5% of H1 revenue — and no flag fires for a structural divestiture. (2) `balance_sheet_asof` is 2026-03-31 although a 2026-06-30 10-Q was filed 2026-07-29, so the enterprise value is two quarters stale and predates both the secured-note tender and the divestiture. (3) The 15.80% WACC implies an after-tax cost of debt near 17.5% at a 79.6% debt weight, against secured notes that cleared a cash tender at 97.515 cents on the dollar in September — the documented CLVT synthetic-cost-of-debt defect, now refuted directly by the debt market's own price for a third consecutive appearance. RESOLVED: the share count, which I expected to be stale given `shares_asof` of 2026-03-31, is in fact fine — the Q2 10-Q reports 639,664,003 ordinary shares against the 639.2M implied by the engine's market capitalisation.
+
+*Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- data/adhoc/CLVT/2026-10-06-8-K-clvt-20261006.htm.txt (item 2.01, completion of LS&H sale; fetched via adhoc-fetch)
+- data/adhoc/CLVT/2026-10-06-EX-99.1.txt (completion press release, $600M, proceeds to debt reduction)
+- data/adhoc/CLVT/2026-07-29-EX-99.1.txt (Q2 2026: segment revenue A&G $595.3M, IP $395.5M, LS&H $182.0M; adjusted EBITDA $488.4M H1)
+- data/adhoc/CLVT/2026-07-29-10-Q-clvt-20260630.htm.txt (639,664,003 ordinary shares at 2026-06-30)
+- data/adhoc/CLVT/2026-09-24-EX-99.1.txt (secured note tender results)
+- research/CLVT.md (prior verdict, 2026-09-25)
+- data/picks.json row for CLVT (screen 2026-10-09, prices as of 2026-10-08)
+
+**Ingestion notes.** no usable final_growth

@@ -1,19 +1,19 @@
 {
   "ticker": "FG",
-  "date": "2026-09-04",
+  "date": "2026-10-09",
   "sector": "Financials",
   "name": "F&amp;G ANNUITIES AND LIFE INC",
   "method": "book",
   "verdict": "no_model",
-  "conviction": "high",
+  "conviction": "medium",
   "final_growth": null,
   "bear_growth": null,
   "bull_growth": null,
   "rotce_override": null,
   "horizon_months": 24,
-  "price_at_verdict": 24.8700008392334,
+  "price_at_verdict": 19.530000686645508,
   "market_implied_growth": null,
-  "cohort_pct": 98.8,
+  "cohort_pct": 99.1,
   "priced": {
     "ok": false,
     "reason": "book method needs rotce_override or final_growth"
@@ -22,36 +22,37 @@
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "The strongest case for engaging rather than refusing is that F&G is genuinely cheap on the numbers that DO describe it: 0.54x ex-AOCI book, an 8% adjusted ROE that management guides toward the low double digits as the in-force book seasons and alternative returns normalize, and a stock down 26.5% over twelve months. If sustainable ROE recovers to 11-12% against a ~9.1% cost of equity, book-value-plus is the right price and the stock is materially below it. Refusing to model the name means declining to say that.",
-    "what_would_prove_it": "Four to six quarters of adjusted ROE ex-AOCI printing 11%+ with alternative-investment returns at or above their long-run assumption, plus stable ex-AOCI book value per share growth; and an engine-side fix that reads insurer equity ex-AOCI and stops treating FNF purchase-accounting goodwill as a deduction from the earning capital base.",
-    "already_visible": "The opposite is visible: the most recent print is 8.0%, below the ~9.1% cost of equity the engine assigns, and it was reached with the help of a reinsurance transaction. Nothing in the current disclosure supports the 31.7% the screen used.",
-    "unresolved": "I could not determine what a defensible sustainable ROE for F&G actually is, because that requires a view on alternative-investment returns and FIA spread compression that I have not built. That is precisely why this is no_model rather than a number I am 60% confident in."
+    "strongest_counter": "The strongest counter is that the refusal is now costing real money: the stock is 33% lower over twelve months and 26% lower than when this engine last refused it, and on EVERY defensible denominator it looks cheap. Price to ex-AOCI book is 0.43x; price to GAAP book 0.59x; price to LTM adjusted earnings roughly 5.3x on an 8.0% rolling-four-quarter adjusted ROE applied to approximately $6.0 billion of ex-AOCI common equity. A justified price-to-book of (ROE - g)/(CoE - g) gives 0.77x on 8% ROE against a 9.75% cost of equity and 2% growth, which is +82% against the actual 0.43x; on GAAP book, where the same adjusted earnings imply an 11.1% return, it gives 1.17x against 0.59x, or +100%. Three independent framings all say cheap. Refusing a name where every framing agrees on the sign looks like the engine protecting itself rather than answering.",
+    "what_would_prove_it": "A sustainable adjusted ROE. Specifically, whether the alternative-investment portfolio of roughly $4.4 billion (implied by $55 million a quarter at a 5% annualised return) earns 5% or 12% through a cycle, because that single input is worth approximately $1.86 per share of annual adjusted earnings against roughly $3.70 of LTM adjusted earnings per share.",
+    "already_visible": "The settling evidence is visible and it BREAKS the counter, which is why the verdict does not move. The counter's three framings all assume an 8% or better ROE. Run the same justified-price-to-book formula at the ROE the current quarter implies \u2014 5% \u2014 and it gives (5-2)/(9.75-2) = 0.39x against an actual 0.43x, i.e. the stock is RICH. So the sign does flip, on exactly the input the company told the market on 2026-10-05 is running at 42% of plan for the third quarter in a row. A defensible sustainable ROE between 5% and 11% spans a verdict from -10% to +100%. That is the JXN condition in research/LESSONS.md in its own words: when one defensible input choice moves the answer that far, the output is not a valuation. The devil's advocate here is the bear, and it is what keeps this off `cheap`.",
+    "unresolved": "I still cannot determine F&G's through-cycle alternative-investment return, which requires a view on the underlying limited-partnership and COLI portfolio that I have not built and cannot build from free sources. I also did not test whether ex-AOCI book is recoverable under surrender stress \u2014 the ex-AOCI measure assumes the bond portfolio is held to maturity, and a $1.66 billion negative AOCI is what the market would realise if it were not."
   },
-  "what_changed": "Q2 2026 (reported 2026-08-05): adjusted net earnings $85M / $0.65 per share, adjusted ROA 68bp, and \u2014 decisively for this model \u2014 adjusted ROE excluding AOCI of 8.0%. Total F&G equity attributable to common shareholders excluding AOCI was $6.0B, or $45.93 per share at 2026-06-30, up $1.50/share from 2025-12-31. Management attributed the quarter's softness to lower alternative-investment returns and the impact of a reinsurance transaction. Quarterly dividends declared on both the common and the Series A mandatory convertible preferred on 2026-08-06.",
-  "consensus_case": "F&G is a fast-growing annuity and life platform (assets approaching $75B, gross sales compounding, an owned distribution and pension-risk-transfer flywheel) that is 85% owned by FNF and trades at roughly 0.54x its own reported ex-AOCI book value of $45.93 per share. The market pays a low multiple because spread-based annuity earnings are levered to credit and alternative-investment returns, because the free float is small and the FNF overhang is permanent, and because Q2 2026 adjusted net earnings of $85M ($0.65/share) missed on weaker alternative-investment returns and a reinsurance transaction. At an 8.0% adjusted ROE excluding AOCI against a ~9.1% cost of equity, a discount to book is the arithmetically correct price, not a mistake.",
-  "base_case_rationale": "I do not produce a base case for this name, because the model the engine applied to it does not describe the company. The justified-P/TBV route prices a sustainable ROTCE against tangible common equity; on F&G both terms are artifacts. See below.",
+  "what_changed": "The observable the last devil's-advocate pass on this name nominated has arrived, and it went AGAINST the bull case. On 2026-10-05 F&G furnished an 8-K (items 2.02 and 7.01) disclosing preliminary Q3 2026 investment income from alternative investments of approximately $47-57 million pre-tax. The midpoint represents AN ANNUALISED RETURN OF APPROXIMATELY 5% against management's stated long-term expected return of approximately 12%, leaving the quarter $70 million pre-tax and $55 million post-tax BELOW plan \u2014 roughly $0.42 per share in one quarter on 131 million shares. The 2026-09-04 verdict on this name said the bull case needed 'four to six quarters of adjusted ROE ex-AOCI printing 11%+ with alternative-investment returns at or above their long-run assumption'; this is the third consecutive quarter below it, the Q2 miss having been attributed to the same cause. Q3 results are scheduled for 2026-11-05. Barclays cut its target to $24 from $27.",
+  "consensus_case": "F&G is a $75 billion-AUM fixed-indexed-annuity and pension-risk-transfer platform, 85% owned by FNF, and at $19.53 it trades at 0.43x its own reported ex-AOCI book value of $45.93 per share and 0.59x GAAP book of $33.27. The market pays that because spread-based annuity earnings are levered to credit and to alternative-investment returns that are currently running at a third of plan, because the float is small and the FNF overhang permanent, and because the most recent disclosed adjusted ROE excluding AOCI is 8.0% against a cost of equity near 9.8%. A company earning below its cost of capital is arithmetically worth less than book, and the market is applying that arithmetic. The 11.1% drop in five days and 17.4% in 21 days has a dated cause, disclosed by the company on 2026-10-05.",
+  "base_case_rationale": "No base case and no sustainable ROTCE supplied, for the same reason as the 2026-09-04 pass and with better arithmetic behind it. The engine's model prices a sustainable ROTCE against tangible common equity; on a life and annuity writer both terms are artifacts, and the engine's inputs are unchanged from five weeks ago \u2014 still 31.7% ROTCE against $15.83 of tangible book per share. The company's own 2026-06-30 numbers are: total shareholders' equity $4,609M, less $250M preferred, giving common equity of $4,359M, of which AOCI is NEGATIVE $1,658M, so common equity excluding AOCI is $6,017M on 131 million shares. Supplying a `rotce_override` would price my number against the wrong denominator, which is worse than supplying none.",
   "key_risks": [
-    "Spread compression on fixed indexed annuities if rates fall faster than crediting rates reset",
-    "Alternative-investment returns below plan \u2014 already the named cause of the Q2 miss",
-    "Credit losses in a $75B portfolio that is not marked through earnings",
-    "FNF's ~85% ownership: minority holders do not control capital allocation or a sale",
-    "Mandatory convertible preferred dilution"
+    "Alternative-investment returns at 5% against a 12% long-term assumption, now for a third consecutive quarter",
+    "FIA spread compression if rates fall faster than crediting rates reset",
+    "$1.66 billion of negative AOCI \u2014 ex-AOCI book is only recoverable absent forced sales",
+    "FNF's ~85% ownership: minority holders control neither capital allocation nor a sale",
+    "Series A mandatory convertible preferred dilution"
   ],
   "watch_for": [
+    "Q3 2026 results on 2026-11-05 and the call on 11-06: whether management lowers the 12% long-term alternative-return assumption, which is the single input that decides this name",
     "Adjusted ROE excluding AOCI sustaining above 11% for four consecutive quarters",
-    "Ex-AOCI book value per share growth stalling, which would signal the 8% is the ceiling not the floor",
-    "Any FNF action on the stake (spin, buy-in, secondary), which would reprice the float discount"
+    "Ex-AOCI book value per share stalling \u2014 it was $45.93 at 2026-06-30 against $46.51 at Q1 and $44.43 at year-end 2025, so it has already stopped compounding",
+    "Any FNF action on the stake (spin, buy-in, secondary)"
   ],
   "sources": [
-    "https://www.prnewswire.com/news-releases/fg-annuities--life-reports-second-quarter-2026-results-302843953.html",
-    "https://www.sec.gov/Archives/edgar/data/0001934850/000193485026000081/a2q26fgearningsrelease_f.htm",
-    "https://finance.yahoo.com/markets/stocks/articles/f-g-annuities-life-q2-070408966.html",
-    "https://www.sec.gov/Archives/edgar/data/1934850/000193485026000085/fg-20260630.htm",
-    "data/adhoc/FG/ (2026-08-05 8-K and exhibits, fetched via adhoc-fetch)",
-    "data/fundamentals.json CIK 1934850 (stored EDGAR extract, v5)"
+    "data/adhoc/FG/2026-10-05-8-K-fg-20261005.htm.txt (preliminary Q3 alternative investment income, 5% vs 12% expected; fetched via adhoc-fetch)",
+    "data/adhoc/FG/2026-08-05-EX-99.1.txt (Q2 2026 release: equity $4,609M, preferred $250M, AOCI -$1,658M, ex-AOCI common equity $6,017M, 131M shares, BVPS $33.27, ex-AOCI BVPS $45.93, adjusted ROE ex-AOCI 8.0%, adjusted ROA 68bp)",
+    "data/adhoc/FG/2026-08-06-10-Q-fg-20260630.htm.txt",
+    "https://www.gurufocus.com/news/9112357/is-fg-annuities-life-inc-fg-a-bargain-after-59-drop-gf-value-says-undervalued",
+    "research/FG.md (prior verdict, 2026-09-04)",
+    "data/picks.json row for FG (screen 2026-10-09, prices as of 2026-10-08)"
   ],
   "flags": [
-    "speculative_cost_of_debt_at_41%_debt_weight_wacc_unreliable",
+    "speculative_cost_of_debt_at_47%_debt_weight_wacc_unreliable",
     "goodwill_and_intangibles_56%_of_book",
     "unstable_rotce_12.0%_to_51.4%",
     "rotce_32%_suggests_asset_light_financial_p_tbv_may_be_the_wrong_model_here"

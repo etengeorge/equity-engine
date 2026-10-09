@@ -33,3 +33,36 @@ Append-only research log. Newest entries at the bottom.
 - https://www.sec.gov/Archives/edgar/data/1766478/000162828026052154/aomr2q26earningssuppleme.htm
 
 **Ingestion notes.** no usable final_growth
+
+## 2026-10-09 — NO_EDGE (conviction: medium)
+
+- **Verdict:** no_edge · price $7.27
+
+**The case for the price.** Angel Oak is a $169 million-market-cap non-QM mortgage REIT and at $7.27 it trades at 0.72x its own reported GAAP book value of $10.13 per share and 0.59x its economic book value of $12.24. The market's discount is a statement about two things, both of which are observable. First, book value has gone from $19.00 at the 2021 IPO to $10.13 at 2026-06-30, and it fell again in the most recent quarter — GAAP book -1.7% and economic book -0.3% versus Q1, with the GAAP series reading $10.13, $10.31, $10.74, $10.60, $10.37 backwards through five quarters, i.e. declining. Second, the earnings are a mark: a leveraged portfolio of non-QM loans funded on rolling warehouse lines is worth what the marks say, and a buyer pays less than book for the privilege of taking that mark risk with no control. A persistent discount to a shrinking book on a sub-$200 million REIT with no index sponsorship is not obviously an error.
+
+**What changed.** Nothing economically material, and that is the finding. Two 8-Ks since the 2026-10-02 pass, and both are procedural. (1) 2026-09-29, item 1.01: the loan financing facility with 'Multinational Bank 1', which was due to expire 2026-09-25, was extended on its contemplated rolling three-month terms through 2026-12-28, with the interest-rate pricing spread reduced to 1.20%-2.10% from 1.30%-2.10% — a 10 basis point improvement on one warehouse line. (2) 2026-10-07, item 5.03: the board adopted Fifth Amended and Restated Bylaws, tightening procedures for shareholder-requested special meetings and for director nominations and shareholder proposals, adding information requirements for nominees and addressing Rule 14a-19. That is a defensive governance amendment, which is weak circumstantial evidence that someone has been accumulating stock, but it is not a cash-flow or book-value event. The price is UNCHANGED over five days (0.0%) and -12.0% over 21 days.
+
+**Base case.** No sustainable ROTCE supplied, for the same reason as the 2026-10-02 pass one week ago. The engine's tangible book per share is $11.5238, which is the stale 2025-12-31 equity; the company's own 2026-06-30 GAAP book is $10.13 (total stockholders' equity $234,865k against $267,523k at year-end), so the actual price-to-book is 0.718x rather than the 0.631x in the brief. The engine's 13.9% ROTCE is GAAP net income on a mark-to-market portfolio, while the company reports Distributable Earnings return on average equity of 14.6% annualised for Q2 and 10.8% for the half. At an 11% through-cycle return and a cost of equity between the engine's 10.34% and a defensible 15%, the answer spans roughly +50% to -4%. The sign flips inside the range of defensible inputs, so no number is recorded.
+
+**Devil's advocate.**
+- Strongest counter: The strongest counter is that this is the second consecutive week the engine has flagged AOMR in the cheapest 2% of 339 Financials and the second consecutive week I have refused it, and that a 0.72x price to GAAP book against a 14.6% quarterly distributable return is a straightforward buy that I am talking myself out of with input pedantry. A 10 basis point warehouse spread reduction and an anti-activist bylaws amendment are, on this reading, small positive signals rather than non-events: cheaper funding and a board that thinks someone might come for it.
+- What would prove it: Whether the distributable return is durable and whether book value stops falling. The second is the cleaner test, because a leveraged mortgage REIT earning a genuine 14% on equity should compound book, not shrink it.
+- Already visible today: It is visible and it breaks the counter. The five-quarter GAAP book series runs $10.37, $10.60, $10.74, $10.31, $10.13 — down 2.3% over the period and down in each of the last two quarters — while economic book fell from $12.97 to $12.24. A company reporting a 14.6% annualised distributable return whose book value is DECLINING is distributing more than it earns, which is the mirror of the VLY lesson in research/LESSONS.md: rising return with rising book is an operating recovery, and a high reported return with falling book is a distribution funded out of capital. That is why 0.72x is not obviously wrong, and it is also why I cannot call it rich — the discount may already price it.
+- Left unresolved: I did not establish who, if anyone, the bylaws amendment is defending against; a 13D would settle it and I did not look for one. I also cannot reconcile a 14.6% distributable return with a falling book value from the disclosures I read, and that unreconciled gap is the reason this is no_edge rather than a call in either direction.
+
+**Key risks.** Book value declining in each of the last two quarters while the distributable return is reported in double digits; Warehouse funding on rolling three-month renewals — the facility just extended expires 2026-12-28; Non-QM credit performance in a leveraged mark-to-market portfolio; $169 million market capitalisation: no index sponsorship, no control, wide bid-ask
+**Watch for.** Q3 2026 GAAP and economic book value per share — a third consecutive decline would settle this toward rich; A Schedule 13D explaining the Fifth Amended and Restated Bylaws; The 2026-12-28 warehouse renewal and its spread
+
+**Data quality.** The engine raised NO flags on this name, and the single most important input is wrong. `tangible_book_per_share` of $11.5238 is the stale 2025-12-31 equity figure, served for the second consecutive week and at least the second consecutive appearance in an opportunistic slot; the company's own 2026-06-30 GAAP book value per share is $10.13 and the 10-Q balance sheet reads total stockholders' equity of $234,865k against $267,523k at 2025-12-31. Actual price-to-book is therefore 0.718x, not the 0.631x printed, and the +125.8% gap at the 98th percentile of 339 Financials is overstated by the full amount of the book decline. This is the documented stale-tangible-book defect, which research/LESSONS.md records as affecting 286 of 400 book-method names; here it has now served the same wrong number on the same name in consecutive weekly sessions with no flag. Separately the 13.9% ROTCE is a GAAP mark, which the `unstable_rotce` flag cannot catch because the series is stable.
+
+*Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- data/adhoc/AOMR/2026-10-07-8-K-aomr-20261006.htm.txt (item 5.03, Fifth Amended and Restated Bylaws; fetched via adhoc-fetch)
+- data/adhoc/AOMR/2026-09-29-8-K-aomr-20260925.htm.txt (item 1.01, warehouse extension to 2026-12-28, spread cut to 1.20-2.10%)
+- data/adhoc/AOMR/2026-08-04-EX-99.1.txt (Q2 2026: GAAP book $10.13, economic book $12.24, five-quarter book series)
+- data/adhoc/AOMR/2026-08-04-10-Q-aomr-20260630.htm.txt (total stockholders' equity $234,865k vs $267,523k)
+- research/AOMR.md (prior verdict, 2026-10-02)
+- data/picks.json row for AOMR (screen 2026-10-09, prices as of 2026-10-08)
+
+**Ingestion notes.** no usable final_growth

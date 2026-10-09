@@ -1,0 +1,189 @@
+{
+  "ticker": "HNI",
+  "date": "2026-10-09",
+  "sector": "Industrials",
+  "name": "HNI",
+  "method": "fcff",
+  "verdict": "cheap",
+  "conviction": "medium",
+  "final_growth": 0.03,
+  "bear_growth": -0.04,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 46.90999984741211,
+  "market_implied_growth": 0.13895614608138118,
+  "cohort_pct": 43.7,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.03,
+    "market_implied_growth": 0.13895614608138118,
+    "growth_delta": -0.10895614608138118,
+    "fair_value": 68.57977827086344,
+    "price": 46.90999984741211,
+    "gap": 0.4619436899155478,
+    "fair_value_band": {
+      "low": 57.78850174525932,
+      "point": 68.57977827086344,
+      "high": 82.95779795812376
+    },
+    "fcff_base_used": 410000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09021749770801983,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 410000000,
+      "price": 46.90999984741211,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.04,
+          "cells": [
+            {
+              "wacc": 0.07021749770801983,
+              "fair_value": 70.1920728085245,
+              "gap": 0.4963136439318663
+            },
+            {
+              "wacc": 0.08021749770801984,
+              "fair_value": 55.99786426756355,
+              "gap": 0.19372979001731538
+            },
+            {
+              "wacc": 0.09021749770801983,
+              "fair_value": 45.83517618377745,
+              "gap": -0.022912463592641763
+            },
+            {
+              "wacc": 0.10021749770801983,
+              "fair_value": 38.196750116173256,
+              "gap": -0.18574397270477794
+            },
+            {
+              "wacc": 0.11021749770801983,
+              "fair_value": 32.243582126138506,
+              "gap": -0.3126501336384615
+            }
+          ],
+          "fair_value_at_point_wacc": 45.83517618377745,
+          "gap_at_point_wacc": -0.022912463592641763
+        },
+        {
+          "case": "base",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.07021749770801983,
+              "fair_value": 103.06544178253458,
+              "gap": 1.1970889387717705
+            },
+            {
+              "wacc": 0.08021749770801984,
+              "fair_value": 82.95779795812376,
+              "gap": 0.7684459225744447
+            },
+            {
+              "wacc": 0.09021749770801983,
+              "fair_value": 68.57977827086344,
+              "gap": 0.4619436899155478
+            },
+            {
+              "wacc": 0.10021749770801983,
+              "fair_value": 57.78850174525932,
+              "gap": 0.23190155474808316
+            },
+            {
+              "wacc": 0.11021749770801983,
+              "fair_value": 49.3911878288714,
+              "gap": 0.052892517363676284
+            }
+          ],
+          "fair_value_at_point_wacc": 68.57977827086344,
+          "gap_at_point_wacc": 0.4619436899155478
+        },
+        {
+          "case": "bull",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.07021749770801983,
+              "fair_value": 132.37836262400657,
+              "gap": 1.821964678205163
+            },
+            {
+              "wacc": 0.08021749770801984,
+              "fair_value": 106.94660662621342,
+              "gap": 1.2798253458556208
+            },
+            {
+              "wacc": 0.09021749770801983,
+              "fair_value": 88.77519067467084,
+              "gap": 0.8924577054665737
+            },
+            {
+              "wacc": 0.10021749770801983,
+              "fair_value": 75.14818215544122,
+              "gap": 0.6019650905964975
+            },
+            {
+              "wacc": 0.11021749770801983,
+              "fair_value": 64.55385437263558,
+              "gap": 0.3761213937884256
+            }
+          ],
+          "fair_value_at_point_wacc": 88.77519067467084,
+          "gap_at_point_wacc": 0.8924577054665737
+        }
+      ],
+      "summary": {
+        "bear": -0.022912463592641763,
+        "base": 0.4619436899155478,
+        "bull": 0.8924577054665737
+      },
+      "downside": -0.3126501336384615,
+      "upside": 1.821964678205163
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is a multiple, not a model, and I cannot fully answer it. My base case fair value of $68.58 implies an enterprise value of about $6.07 billion, which is roughly 9.6x pro forma EBITDA. HNI itself paid approximately 5.8x for Steelcase \u2014 INCLUDING the $120 million of synergies it is now asking the market to pay for separately \u2014 and office-furniture comparables have traded at 6-8x for years. So my DCF is asserting a re-rating to a multiple the asset class has not supported, on the strength of a 9.02% WACC and a 2% perpetuity applied to a cyclical manufacturer in an end market that lost structural square footage to hybrid work and is not getting it back. Put differently: the market may not be mispricing HNI's cash flow at all; it may be correctly refusing to capitalise furniture cash flow at 15x. A second, sharper counter: the only post-deal cash-flow evidence that exists is H1 2026, and it is NEGATIVE $32 million of operating cash flow. I am overriding the base to $410 million on the strength of a pro forma and a cross-check while the one period of actual combined reporting shows cash going out the door.",
+    "what_would_prove_it": "Two clean quarters of combined operating cash flow once the acquisition-related expense accruals are settled \u2014 H2 2026 and Q1 2027 \u2014 read against the guided 20-25% full-year non-GAAP EPS growth; and the 2027 realisation of the '>$70 million in 2027' savings figure, which is the first checkpoint on the $150 million.",
+    "already_visible": "Some of it, and the balance of it favours my case rather than the counter's. Against the counter: the H1 negative operating cash flow is explained in the 10-Q's own words \u2014 'higher working capital usage, driven by the settlement of certain acquisition related expense accruals' \u2014 which is a one-time integration cost, not a run-rate; and Workplace Furnishings orders and backlog both +5% with Q3 legacy sales guided up high-single-digit is direct evidence against secular decline right now. I also tested and DISMISSED the obvious objection that the free-cash-flow base over-adds D&A: combined capital expenditure at ~$140 million is 2.4% of sales, which is exactly what BOTH companies historically spent, so the excess of D&A over capex is acquisition-intangible amortisation rather than under-investment. For the counter and unanswered: nothing visible tells me whether 7.4x or 9.6x is the right multiple for post-hybrid-work office furniture.",
+    "unresolved": "The multiple question above \u2014 whether a 9.02% WACC and a 2% perpetuity are defensible for this end market \u2014 which is the difference between a +46% gap and no gap at all. I also could not obtain Steelcase's standalone free cash flow from a filing I read; my $140 million is inferred from the transaction's disclosed 5.8x-inclusive-of-synergies metric, so one leg of my cross-check is a derivation rather than a disclosure. This is why conviction is medium and not high."
+  },
+  "what_changed": "HNI is a different company and the engine's cash-flow base does not know it. On 2025-12-10 HNI completed the acquisition of Steelcase Inc. \u2014 a roughly $2.2 billion transaction creating a business with approximately $5.8 billion of pro forma annual revenue, with HNI holders owning about 64% and Steelcase holders about 36%, funded with approximately $1,012.5 million of stock issued plus $390.3 million of net cash and debt. HNI's fiscal 2025 ended 2026-01-03, so its newest reported year contains only about three and a half weeks of Steelcase: the 10-K's own supplemental table shows Steelcase contributing just $187.5 million of net sales and a $30.7 million net loss to fiscal 2025. Meanwhile H1 2026 net sales were $2,819.9 million against $1,266.8 million \u2014 2.2x. Q2 2026: net sales $1,472.4 million, GAAP diluted EPS $0.70, non-GAAP diluted EPS $1.27 (+14%). Guidance: full-year 2026 non-GAAP diluted EPS growth of 20-25% including net tariff impacts, a fifth consecutive year of double-digit growth; Q3 non-GAAP EPS growth in the mid-to-high 20s; double-digit growth again in 2027; and cumulative savings from Steelcase synergies, cost actions and legacy network optimisation exceeding $70 million in 2027 and more than $150 million when fully mature. Demand is turning: Workplace Furnishings Q2 orders and quarter-ending backlog each +5% year over year, with legacy Workplace Furnishings Q3 sales guided to high-single-digit growth.",
+  "consensus_case": "The market is pricing HNI as a cyclical office-furniture manufacturer that has just doubled its size into a structurally impaired end market, and that case is coherent. At $46.91 the enterprise is about $4.65 billion against roughly $630 million of pro forma EBITDA \u2014 about 7.4x \u2014 which is almost exactly the multiple at which furniture assets change hands: HNI itself bought Steelcase at approximately 5.8x trailing adjusted EBITDA inclusive of $120 million of run-rate synergies. So the market is paying a modest premium to the private-market clearing price for the asset class, which is not an error. The bear logic underneath it is real: hybrid work permanently reduced office square footage; Steelcase's revenue was flat to declining for years before the deal; GAAP operating income for H1 2026 FELL to $55.7 million from $92.6 million a year earlier on purchase-accounting and restructuring charges; and operating cash flow for the half was NEGATIVE $32.0 million against positive $43.7 million, while capital expenditure doubled to $64.7 million. An investor looking at a 2x-larger company generating negative operating cash flow, with a new leadership team not yet complete, two retained headquarters and 113 years of acquired-company management just ended, can reasonably decline to pay for synergies that are still a forecast. Finally, part of the 2026 earnings growth is a windfall: net tariff impacts added 150 basis points to operating margin in Q2 and 40-45 basis points is expected for the full year, which is a benefit that can reverse.",
+  "base_case_rationale": "The base is the whole question, so I replaced it with HNI's own filed ASC 805 pro forma rather than an estimate of my own. The 10-K discloses combined HNI-plus-Steelcase results as though the acquisition had occurred at the start of fiscal 2024: net sales $5,932.6 million and NET INCOME $176.1 MILLION for fiscal 2025, and $5,687.8 million / $119.9 million for fiscal 2024 \u2014 and that pro forma already charges full-year purchase-accounting depreciation and amortisation, full-year interest on the acquisition borrowings, and the non-recurring transaction costs ($41.6 million pre-tax). Building the engine's FCFF convention from it: pro forma net income $176.1M, add back transaction costs after tax (+$31M), add post-deal D&A at the H1 2026 run rate of $141.4M for the half (+$283M), add stock compensation (+$55M), deduct capital expenditure including capitalised software at the historical ~2.4% of sales (-$140M) and working-capital growth (-$25M), and add back after-tax interest on the H1 2026 run rate of $44.4M for the half (+$67M). That gives roughly $448 million. A cross-check from the cash-flow side agrees: the two companies' standalone free cash flow (HNI's three-year mean of $190.2M, which I tied to the 10-K line by line, plus Steelcase at roughly $140M implied by the deal's own 5.8x-including-synergies metric) plus the same interest add-back gives about $412 million. I take $410 million \u2014 the low end of a $410-450 million range \u2014 because 2026 capital expenditure is running above the historical rate and I want the haircut on my side. Against $410 million the market implies HNI's FCFF DECLINES about 4.5% a year for five years. I underwrite +3%: below the company's own guided trajectory, because synergy promises decay and the net tariff benefit is a windfall I do not capitalise, but above the decline the market requires, because orders and backlog are both growing 5% and $150 million of identified savings has not yet landed.",
+  "key_risks": [
+    "Secular contraction in office square footage \u2014 the end market, not the company, is the bear case",
+    "Integration execution on a merger of near-equals: two headquarters retained, leadership team incomplete as of July 2026, and $150 million of savings still a forecast",
+    "The net tariff benefit (+150bp of operating margin in Q2, +40-45bp guided for the year) is a windfall that can reverse and is inside the guided EPS growth",
+    "Residential Building Products is housing-levered with new-construction orders declining",
+    "My $410 million base is built from a pro forma and a derivation, not from a reported combined cash flow statement"
+  ],
+  "watch_for": [
+    "H2 2026 and Q1 2027 combined operating cash flow \u2014 whether it normalises once acquisition accruals are settled, which is the single observable my base rests on",
+    "The 2027 realisation of '>$70 million' of cumulative savings, the first checkpoint on the $150 million",
+    "Workplace Furnishings organic revenue and backlog: a return to negative orders would take this to no_edge",
+    "Any quantification of the net tariff benefit in dollars, so it can be stripped from the earnings base"
+  ],
+  "sources": [
+    "data/adhoc/HNI/2026-03-03-10-K-hni-20260103.htm.txt (ASC 805 pro forma: FY2025 net sales $5,932.6M / net income $176.1M, FY2024 $5,687.8M / $119.9M; Steelcase contribution $187.5M sales and $(30.7)M net loss; three-year cash flow statement; $1,012.5M of stock issued; fetched via adhoc-fetch)",
+    "data/adhoc/HNI/2026-08-04-10-Q-hni-20260704.htm.txt (H1 2026 income statement and cash flows, total debt $1,375.2M, cash $105.0M, interest expense net $44.4M, Steelcase acquisition date 2025-12-10, purchase price allocation)",
+    "data/adhoc/HNI/2026-07-30-EX-99.1.txt (Q2 2026 release: non-GAAP EPS $1.27, 20-25% FY guidance, >$70M 2027 and >$150M mature savings, +5% orders and backlog, net tariff margin benefit)",
+    "https://www.woodworkingnetwork.com/management/fdmc-300/hni-completes-22b-acquisition-steelcase-creating-58-billion-furniture-giant",
+    "https://www.investing.com/news/company-news/hni-completes-acquisition-of-steelcase-creating-58-billion-furniture-giant-93CH-4401200",
+    "data/picks.json row for HNI (screen 2026-10-09, prices as of 2026-10-08)"
+  ],
+  "flags": []
+}

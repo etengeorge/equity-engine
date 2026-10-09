@@ -1,0 +1,187 @@
+{
+  "ticker": "DORM",
+  "date": "2026-10-09",
+  "sector": "Consumer Discretionary",
+  "name": "DORMAN PRODUCTS",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.05,
+  "bear_growth": 0.01,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 121.66999816894531,
+  "market_implied_growth": 0.14539749583978512,
+  "cohort_pct": 49.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.05,
+    "market_implied_growth": 0.14539749583978512,
+    "growth_delta": -0.09539749583978512,
+    "fair_value": 104.23180312370475,
+    "price": 121.66999816894531,
+    "gap": -0.14332370598893818,
+    "fair_value_band": {
+      "low": 91.0376044446035,
+      "point": 104.23180312370475,
+      "high": 121.30186945063122
+    },
+    "fcff_base_used": 230000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.0982559375427534,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 230000000,
+      "price": 121.66999816894531,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.01,
+          "cells": [
+            {
+              "wacc": 0.0782559375427534,
+              "fair_value": 119.44537185668504,
+              "gap": -0.018284099167744317
+            },
+            {
+              "wacc": 0.0882559375427534,
+              "fair_value": 100.50788298553456,
+              "gap": -0.17393043068864045
+            },
+            {
+              "wacc": 0.0982559375427534,
+              "fair_value": 86.40764843822714,
+              "gap": -0.28981959613210895
+            },
+            {
+              "wacc": 0.1082559375427534,
+              "fair_value": 75.50049452877079,
+              "gap": -0.37946498179498367
+            },
+            {
+              "wacc": 0.1182559375427534,
+              "fair_value": 66.81158535918578,
+              "gap": -0.4508787181338302
+            }
+          ],
+          "fair_value_at_point_wacc": 86.40764843822714,
+          "gap_at_point_wacc": -0.28981959613210895
+        },
+        {
+          "case": "base",
+          "growth": 0.05,
+          "cells": [
+            {
+              "wacc": 0.0782559375427534,
+              "fair_value": 144.24431474084744,
+              "gap": 0.1855372475682664
+            },
+            {
+              "wacc": 0.0882559375427534,
+              "fair_value": 121.30186945063122,
+              "gap": -0.0030256326444826342
+            },
+            {
+              "wacc": 0.0982559375427534,
+              "fair_value": 104.23180312370475,
+              "gap": -0.14332370598893818
+            },
+            {
+              "wacc": 0.1082559375427534,
+              "fair_value": 91.0376044446035,
+              "gap": -0.25176620518894965
+            },
+            {
+              "wacc": 0.1182559375427534,
+              "fair_value": 80.53556072013761,
+              "gap": -0.3380820092697818
+            }
+          ],
+          "fair_value_at_point_wacc": 104.23180312370475,
+          "gap_at_point_wacc": -0.14332370598893818
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.0782559375427534,
+              "fair_value": 172.8969704792189,
+              "gap": 0.421032079240621
+            },
+            {
+              "wacc": 0.0882559375427534,
+              "fair_value": 145.2956254305009,
+              "gap": 0.19417792074550833
+            },
+            {
+              "wacc": 0.0982559375427534,
+              "fair_value": 124.77194545188534,
+              "gap": 0.025494759017196778
+            },
+            {
+              "wacc": 0.1082559375427534,
+              "fair_value": 108.91910881010183,
+              "gap": -0.10479896071945516
+            },
+            {
+              "wacc": 0.1182559375427534,
+              "fair_value": 96.31016081619845,
+              "gap": -0.2084313120275828
+            }
+          ],
+          "fair_value_at_point_wacc": 124.77194545188534,
+          "gap_at_point_wacc": 0.025494759017196778
+        }
+      ],
+      "summary": {
+        "bear": -0.28981959613210895,
+        "base": -0.14332370598893818,
+        "bull": 0.025494759017196778
+      },
+      "downside": -0.4508787181338302,
+      "upside": 0.421032079240621
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is that my base override is the entire verdict and I chose it. At $230 million the market requires +7.9% and I underwrite +5%, giving -14.3%; but push the base up 15% to $264 million \u2014 well inside the error of an estimate assembled from a normalised margin I inferred rather than read \u2014 and the same +5% growth gives -0.2%, which is fair. So the whole call is a rounding decision on a number no filing states. Worse, my normalisation may be too harsh: if the tariff cost recovery is genuinely a recovery of cash Dorman already spent, then BOTH 2025 and the first half of 2026 are distorted, and the true normalised margin sits above Q2 2025's depressed 40.6% gross margin, which would push the base toward the upper end and the verdict to fair or better.",
+    "what_would_prove_it": "A clean post-recovery quarter: gross margin and operating cash flow in a period with no IEEPA recovery in it, which should be Q4 2026 or Q1 2027, read against the 3-5% revenue guide.",
+    "already_visible": "Partly, and it is why I am not calling this rich. The company's own guidance implies H2 2026 diluted EPS of $3.54-3.84 against H1's $4.39 \u2014 management is telling the market the second half steps down \u2014 but that still contains some recovery, so it is not yet the clean quarter. And the tape has already moved: -14.9% over twelve months on record reported earnings says the market is not paying for the recovery. When the market has already discounted the thing I am worried about, a further -14% estimate of mine is not an edge.",
+    "unresolved": "I could not size the IEEPA recovery in dollars. Neither the Q2 release nor the guidance quantifies it, so my normalised margin is inferred from the year-ago comparison rather than read off a disclosure, and the entire base \u2014 and therefore the entire gap \u2014 rests on that inference. That is the reason this is no_edge with a number rather than a rich call."
+  },
+  "what_changed": "The 2026 numbers are inflated by a one-time tariff recovery, and the company says so in its own headline. Q2 2026 (filed 2026-08-03): net sales $544.6 million, up just 0.7%; diluted EPS $2.93, up 53%; adjusted diluted EPS $3.08, up 50%; $152.6 million of operating cash flow in a single quarter \u2014 and the bullet above it reads 'Earnings and cash from operating activities benefited from IEEPA tariff cost recovery'. Gross margin was 46.1% against 40.6%, a 550 basis point jump on 0.7% sales growth, which is the documented IEEPA signature: gross margin RISES while the underlying line is flat. Full-year guidance updated to net sales growth of 3-5%, diluted EPS $7.93-8.23 and adjusted $8.50-8.80 \u2014 which implies H2 diluted EPS of $3.54-3.84 against H1's $4.39, i.e. the company is guiding the second half DOWN from the first. The mirror image is in the FY2025 10-K, which explains the trough directly: operating cash flow fell $117.4 million 'primarily as a result of cash used to fund investments in inventory to meet customer demand and to pay for increased tariffs on imports'. H1 2026 then reversed it \u2014 operating cash flow $196.4 million against $59.8 million, with inventories a $150.5 million SOURCE of cash against an $89.7 million use a year earlier. Also: $450 million of senior notes issued in H1 2026, refinancing the prior term loan.",
+  "consensus_case": "Dorman is a motor-vehicle aftermarket parts supplier with a structural tailwind \u2014 a US fleet of record average age \u2014 and a self-help margin story that has worked. At $121.67 the market pays roughly 14.2x the midpoint of 2026 guided adjusted EPS of $8.50-8.80, or roughly 18-19x the ex-tariff-recovery earning power underneath it. The informed case for that price is specific: gross margin has structurally risen from the low thirties to an underlying ~41% through complexity-based pricing and the 'Dorman 2.0' programme; the company navigated the 2025-26 tariff shock, paid the cost, and is now recovering it while simultaneously taking 'targeted pricing actions as a result of a more stable tariff environment', which is a demonstration of pricing power rather than a windfall; the supplier network is diversified away from single-country concentration; and the share count is shrinking, with $47 million repurchased in Q2 alone against a $3.6 billion capitalisation. Paying 18x for a 3-5% top-line grower with demonstrated pricing power, a defensive end market and a buyback is unremarkable. Note too that the market has NOT been complacent: the stock is -14.9% over 252 days and -12.2% over 63 days in a year of record reported EPS, which is the tape already discounting the recovery as non-recurring.",
+  "base_case_rationale": "I override the base before touching the growth rate, because the engine's base is a tariff artifact in both directions. Its series is FY2025 $75.7M, FY2024 $191.6M, FY2023 $164.8M \u2014 I tied all three to the filed cash flow statements \u2014 and the 0.46x collapse in the newest year is tariff cash paid plus an inventory build, not a decline in earning power. The three-year mean of $144M plus a $36M after-tax interest add-back gives the brief's $180.1M, which embeds that one-off. Two independent routes put normalised FCFF near $230 million. Route one: FY2024, the cleanest year in the window, produced $191.6M of free cash flow; adding the same $36M interest add-back gives $228M. Route two, built from the income statement: normalised revenue of about $2.15 billion at a normalised ~15.5% operating margin \u2014 the margin implied by Q2 2025's $2.06 adjusted EPS before any recovery, not the 46.1%-gross-margin version \u2014 gives about $335M of EBIT, $251M after tax, plus $56M of D&A, less $40M of capex and about $35M of working-capital growth, which lands at $232M. I use $230 million. Against that base the market requires +7.9% five-year FCFF growth, not the +14.5% the brief prints. I underwrite +5%: the company guides 3-5% revenue growth, and 5% enterprise FCFF growth needs roughly 0.3 percentage points a year of further operating-margin expansion on top of an already-elevated base. I deliberately do NOT credit the buyback, because the reverse DCF is an enterprise-level calculation and repurchases do not create FCFF growth \u2014 a distinction that matters a lot on this name, where the per-share story is better than the enterprise story.",
+  "key_risks": [
+    "The IEEPA recovery laps in 2027 against a 2026 comparison that contains it",
+    "Customer concentration: three retailers with structural pricing power over the supplier",
+    "A re-escalation of tariffs, or a second recovery cycle, either of which makes two more years of reported numbers uninterpretable",
+    "My FCFF base is an estimate, not a disclosure \u2014 the gap is inside its error bar"
+  ],
+  "watch_for": [
+    "The first quarter with no IEEPA recovery in it: gross margin against the underlying ~41%",
+    "Any quantification of the tariff recovery in the 2026 10-K, which would convert my inferred base into a read one",
+    "2027 guidance \u2014 whether management guides growth off the recovery-inflated 2026 base or resets it"
+  ],
+  "sources": [
+    "data/adhoc/DORM/2026-08-03-EX-99.1.txt (Q2 2026 release: sales $544.6M +0.7%, adjusted EPS $3.08 +50%, gross margin 46.1% vs 40.6%, IEEPA tariff cost recovery, FY guidance; fetched via adhoc-fetch)",
+    "data/adhoc/DORM/2026-02-27-10-K-dorm-20251231.htm.txt (FY2025 CFO $113,634k vs $231,047k and the stated cause)",
+    "data/adhoc/DORM/2026-08-04-10-Q-dorm-20260627.htm.txt (H1 2026 cash flow statement, inventory release, $450M senior notes)",
+    "data/picks.json row for DORM (screen 2026-10-09, prices as of 2026-10-08)"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.46x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

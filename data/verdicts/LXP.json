@@ -1,0 +1,50 @@
+{
+  "ticker": "LXP",
+  "date": "2026-10-09",
+  "sector": "Real Estate",
+  "name": "LXP INDUSTRIAL TRUST",
+  "method": "none",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 6,
+  "price_at_verdict": 61.0099983215332,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest counter is that a 0.31% discount to a signed, equity-committed, no-financing-condition cash merger is a near-riskless 0.31% that the market is leaving on the table only because the dividend is suspended \u2014 so a REIT holder funding the position has a negative carry and the discount is the carry, not a probability. On that reading the name is correctly priced and 'no_model' understates how well understood it is. A sharper version: the engine should have been able to say all of this from the return series alone, without a filing, because near-zero dispersion across 5d and 21d is the documented pending-deal tell already in research/LESSONS.md.",
+    "what_would_prove_it": "The shareholder vote result (an 8-K item 5.07 or the DEFM14A), and the closing 8-K under items 2.01/3.01.",
+    "already_visible": "Yes \u2014 the dispersion tell fired cleanly here (5d +0.1%, 21d +0.4%) and nothing in the engine acts on it. That is the finding, and it is an engine finding rather than a company one.",
+    "unresolved": "I did not read the DEFM14A and so cannot say whether the vote has occurred or what the expected closing date is; and I did not identify who stands behind Leopard REIT LLC. Neither decides a number, because no number is being recorded."
+  },
+  "what_changed": "The company is being taken private for cash. 8-K filed 2026-07-20 for an event dated 2026-07-19, items 1.01, 5.03 and 7.01: merger at $61.20 per share cash, financed by equity commitment letters plus a debt commitment letter, with closing NOT conditioned on the debt financing being obtained. A go-shop ran to a 2026-09-02 cut-off, with a reduced termination fee of $54,122,768 payable for a Superior Proposal from an Excluded Party before that time; the no-shop has since begun. Restricted share awards vest at maximum performance and are cashed out at the merger consideration.",
+  "consensus_case": "The price is a merger consideration, not an opinion about rents. On 2026-07-19 LXP Industrial Trust entered an Agreement and Plan of Merger with Leopard REIT LLC and Leopard Merger Sub LLC under which each common share is cancelled and converted into the right to receive $61.20 per share in cash. At $61.01 the stock sits 0.31% below that number. The tape says it without any news at all: 5-day and 21-day returns of +0.1% and +0.4% are a price pinned to a fixed figure, and the +10.8% 63-day and +37.4% 252-day returns are the announcement premium, not a re-rating of industrial cap rates. The merger agreement also bars LXP from paying its regular quarterly dividend during the pendency except as needed to keep REIT qualification, which removes the carry an industrial REIT holder would otherwise earn while waiting.",
+  "base_case_rationale": "No base case. The engine already declines to model this name (method `none`, `sector_has_no_defensible_free_model`) because free cash flow to the firm is meaningless for a REIT, and the pending cash merger makes the question moot twice over.",
+  "key_risks": [
+    "Merger break, with no dividend having been collected during the pendency",
+    "The engine will spend a rotation slot on this name every cycle until it delists \u2014 the documented APGE failure, one step earlier"
+  ],
+  "watch_for": [
+    "8-K items 2.01/3.01 completing the merger and delisting the shares",
+    "Any 8-K disclosing a lender termination under the Debt Commitment Letter"
+  ],
+  "sources": [
+    "data/adhoc/LXP/2026-07-20-8-K-tm2620850d1_8k.htm.txt (merger agreement, items 1.01/5.03/7.01, fetched via adhoc-fetch)",
+    "data/adhoc/LXP/2026-07-29-10-Q-lxp-20260630.htm.txt (reverse split note, cover-page share count)",
+    "https://www.sec.gov/Archives/edgar/data/910108/000162828026... (LXP 8-K 2026-07-20, read as text via adhoc-fetch)",
+    "data/picks.json row for LXP (screen 2026-10-09, prices as of 2026-10-08)"
+  ],
+  "flags": [
+    "sector_has_no_defensible_free_model"
+  ]
+}

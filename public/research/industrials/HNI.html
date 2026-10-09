@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HNI — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / HNI</p><h1>HNI <span style='color:var(--faint);font-weight:400'>HNI</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-cheap'>cheap</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$46.91</b></div><div>Analyst gap<b>+46%</b></div><div>Dated<b>2026-10-09</b></div></div><div class='prose'><h1>HNI — HNI</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-09 — CHEAP (conviction: medium)</h2><ul><li><strong>Verdict:</strong> cheap · price $46.91 · fair value $68.58 · gap +46.2%</li><li><strong>Growth:</strong> market implies +13.9%, analyst says +3.0% (delta -10.9%)</li><li><strong>FCFF base overridden</strong> by the analyst to $410.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.0% | 8.0% | 9.0% | 10.0% | 11.0% | |---|---|---|---|---|---|---| | bear | -4.0% | $70.19 | $56.00 | $45.84 | $38.20 | $32.24 | | base | +3.0% | $103.07 | $82.96 | $68.58 | $57.79 | $49.39 | | bull | +8.0% | $132.38 | $106.95 | $88.78 | $75.15 | $64.55 |</p><p>At the point WACC of 9.0%: bear -2.3%, base +46.2%, bull +89.2% Across the whole grid the gap ranges -31.3% to +182.2% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> The market is pricing HNI as a cyclical office-furniture manufacturer that has just doubled its size into a structurally impaired end market, and that case is coherent. At $46.91 the enterprise is about $4.65 billion against roughly $630 million of pro forma EBITDA — about 7.4x — which is almost exactly the multiple at which furniture assets change hands: HNI itself bought Steelcase at approximately 5.8x trailing adjusted EBITDA inclusive of $120 million of run-rate synergies. So the market is paying a modest premium to the private-market clearing price for the asset class, which is not an error. The bear logic underneath it is real: hybrid work permanently reduced office square footage; Steelcase&#x27;s revenue was flat to declining for years before the deal; GAAP operating income for H1 2026 FELL to $55.7 million from $92.6 million a year earlier on purchase-accounting and restructuring charges; and operating cash flow for the half was NEGATIVE $32.0 million against positive $43.7 million, while capital expenditure doubled to $64.7 million. An investor looking at a 2x-larger company generating negative operating cash flow, with a new leadership team not yet complete, two retained headquarters and 113 years of acquired-company management just ended, can reasonably decline to pay for synergies that are still a forecast. Finally, part of the 2026 earnings growth is a windfall: net tariff impacts added 150 basis points to operating margin in Q2 and 40-45 basis points is expected for the full year, which is a benefit that can reverse.</p><p><strong>What changed.</strong> HNI is a different company and the engine&#x27;s cash-flow base does not know it. On 2025-12-10 HNI completed the acquisition of Steelcase Inc. — a roughly $2.2 billion transaction creating a business with approximately $5.8 billion of pro forma annual revenue, with HNI holders owning about 64% and Steelcase holders about 36%, funded with approximately $1,012.5 million of stock issued plus $390.3 million of net cash and debt. HNI&#x27;s fiscal 2025 ended 2026-01-03, so its newest reported year contains only about three and a half weeks of Steelcase: the 10-K&#x27;s own supplemental table shows Steelcase contributing just $187.5 million of net sales and a $30.7 million net loss to fiscal 2025. Meanwhile H1 2026 net sales were $2,819.9 million against $1,266.8 million — 2.2x. Q2 2026: net sales $1,472.4 million, GAAP diluted EPS $0.70, non-GAAP diluted EPS $1.27 (+14%). Guidance: full-year 2026 non-GAAP diluted EPS growth of 20-25% including net tariff impacts, a fifth consecutive year of double-digit growth; Q3 non-GAAP EPS growth in the mid-to-high 20s; double-digit growth again in 2027; and cumulative savings from Steelcase synergies, cost actions and legacy network optimisation exceeding $70 million in 2027 and more than $150 million when fully mature. Demand is turning: Workplace Furnishings Q2 orders and quarter-ending backlog each +5% year over year, with legacy Workplace Furnishings Q3 sales guided to high-single-digit growth.</p><p><strong>Base case.</strong> The base is the whole question, so I replaced it with HNI&#x27;s own filed ASC 805 pro forma rather than an estimate of my own. The 10-K discloses combined HNI-plus-Steelcase results as though the acquisition had occurred at the start of fiscal 2024: net sales $5,932.6 million and NET INCOME $176.1 MILLION for fiscal 2025, and $5,687.8 million / $119.9 million for fiscal 2024 — and that pro forma already charges full-year purchase-accounting depreciation and amortisation, full-year interest on the acquisition borrowings, and the non-recurring transaction costs ($41.6 million pre-tax). Building the engine&#x27;s FCFF convention from it: pro forma net income $176.1M, add back transaction costs after tax (+$31M), add post-deal D&amp;A at the H1 2026 run rate of $141.4M for the half (+$283M), add stock compensation (+$55M), deduct capital expenditure including capitalised software at the historical ~2.4% of sales (-$140M) and working-capital growth (-$25M), and add back after-tax interest on the H1 2026 run rate of $44.4M for the half (+$67M). That gives roughly $448 million. A cross-check from the cash-flow side agrees: the two companies&#x27; standalone free cash flow (HNI&#x27;s three-year mean of $190.2M, which I tied to the 10-K line by line, plus Steelcase at roughly $140M implied by the deal&#x27;s own 5.8x-including-synergies metric) plus the same interest add-back gives about $412 million. I take $410 million — the low end of a $410-450 million range — because 2026 capital expenditure is running above the historical rate and I want the haircut on my side. Against $410 million the market implies HNI&#x27;s FCFF DECLINES about 4.5% a year for five years. I underwrite +3%: below the company&#x27;s own guided trajectory, because synergy promises decay and the net tariff benefit is a windfall I do not capitalise, but above the decline the market requires, because orders and backlog are both growing 5% and $150 million of identified savings has not yet landed.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The strongest counter is a multiple, not a model, and I cannot fully answer it. My base case fair value of $68.58 implies an enterprise value of about $6.07 billion, which is roughly 9.6x pro forma EBITDA. HNI itself paid approximately 5.8x for Steelcase — INCLUDING the $120 million of synergies it is now asking the market to pay for separately — and office-furniture comparables have traded at 6-8x for years. So my DCF is asserting a re-rating to a multiple the asset class has not supported, on the strength of a 9.02% WACC and a 2% perpetuity applied to a cyclical manufacturer in an end market that lost structural square footage to hybrid work and is not getting it back. Put differently: the market may not be mispricing HNI&#x27;s cash flow at all; it may be correctly refusing to capitalise furniture cash flow at 15x. A second, sharper counter: the only post-deal cash-flow evidence that exists is H1 2026, and it is NEGATIVE $32 million of operating cash flow. I am overriding the base to $410 million on the strength of a pro forma and a cross-check while the one period of actual combined reporting shows cash going out the door.</li><li>What would prove it: Two clean quarters of combined operating cash flow once the acquisition-related expense accruals are settled — H2 2026 and Q1 2027 — read against the guided 20-25% full-year non-GAAP EPS growth; and the 2027 realisation of the &#x27;&gt;$70 million in 2027&#x27; savings figure, which is the first checkpoint on the $150 million.</li><li>Already visible today: Some of it, and the balance of it favours my case rather than the counter&#x27;s. Against the counter: the H1 negative operating cash flow is explained in the 10-Q&#x27;s own words — &#x27;higher working capital usage, driven by the settlement of certain acquisition related expense accruals&#x27; — which is a one-time integration cost, not a run-rate; and Workplace Furnishings orders and backlog both +5% with Q3 legacy sales guided up high-single-digit is direct evidence against secular decline right now. I also tested and DISMISSED the obvious objection that the free-cash-flow base over-adds D&amp;A: combined capital expenditure at ~$140 million is 2.4% of sales, which is exactly what BOTH companies historically spent, so the excess of D&amp;A over capex is acquisition-intangible amortisation rather than under-investment. For the counter and unanswered: nothing visible tells me whether 7.4x or 9.6x is the right multiple for post-hybrid-work office furniture.</li><li>Left unresolved: The multiple question above — whether a 9.02% WACC and a 2% perpetuity are defensible for this end market — which is the difference between a +46% gap and no gap at all. I also could not obtain Steelcase&#x27;s standalone free cash flow from a filing I read; my $140 million is inferred from the transaction&#x27;s disclosed 5.8x-inclusive-of-synergies metric, so one leg of my cross-check is a derivation rather than a disclosure. This is why conviction is medium and not high.</li></ul><p><strong>Key risks.</strong> Secular contraction in office square footage — the end market, not the company, is the bear case; Integration execution on a merger of near-equals: two headquarters retained, leadership team incomplete as of July 2026, and $150 million of savings still a forecast; The net tariff benefit (+150bp of operating margin in Q2, +40-45bp guided for the year) is a windfall that can reverse and is inside the guided EPS growth; Residential Building Products is housing-levered with new-construction orders declining; My $410 million base is built from a pro forma and a derivation, not from a reported combined cash flow statement <strong>Watch for.</strong> H2 2026 and Q1 2027 combined operating cash flow — whether it normalises once acquisition accruals are settled, which is the single observable my base rests on; The 2027 realisation of &#x27;&gt;$70 million&#x27; of cumulative savings, the first checkpoint on the $150 million; Workplace Furnishings organic revenue and backlog: a return to negative orders would take this to no_edge; Any quantification of the net tariff benefit in dollars, so it can be stripped from the earnings base</p><p><strong>Data quality.</strong> The engine raised NO FLAGS on this name — &#x27;none raised&#x27; — and its FCFF base is wrong by roughly a factor of two. The base of $195.6 million is the mean of fiscal 2023, 2024 and 2025 free cash flow, which I tied exactly to the 10-K cash flow statement (CFO $267.5M/$226.7M/$276.3M less capex-plus-software $79.1M/$52.9M/$67.8M, giving $188.4M/$173.8M/$208.5M) — and all three years are essentially standalone HNI, because Steelcase closed 2025-12-10 and contributed only $187.5 million of sales to fiscal 2025. The enterprise value and share count, by contrast, are fully post-deal. This is the SM/HOG standalone-base-against-combined-enterprise-value defect in research/LESSONS.md, and here it runs toward a FALSE SELL: it produced a -30.4% baseline gap and a 44th cohort percentile on a name that is cheap once the base is corrected, which is the opposite direction from most of the defects on file. I specifically checked the input that would have invalidated the call and it is CLEAN: total debt per the 10-Q debt note is $1,375.2 million against cash of $105.0 million and short-term investments of $3.2 million, giving net debt of $1,267.0 million, which reconciles EXACTLY to the engine&#x27;s enterprise value less market capitalisation — so there is no missing-revolver or missing-convertible error here. Beta 1.024 at R-squared 0.283 is a genuine working regression. ONE CONVENTION CAVEAT I did not adjust for: the engine excludes operating lease obligations ($191.2M long-term plus $65.6M current) from debt; including them would raise enterprise value by about $257 million and reduce my fair value by about $3.56 a share, to roughly $65, which does not change the verdict.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/HNI/2026-03-03-10-K-hni-20260103.htm.txt (ASC 805 pro forma: FY2025 net sales $5,932.6M / net income $176.1M, FY2024 $5,687.8M / $119.9M; Steelcase contribution $187.5M sales and $(30.7)M net loss; three-year cash flow statement; $1,012.5M of stock issued; fetched via adhoc-fetch)</li><li>data/adhoc/HNI/2026-08-04-10-Q-hni-20260704.htm.txt (H1 2026 income statement and cash flows, total debt $1,375.2M, cash $105.0M, interest expense net $44.4M, Steelcase acquisition date 2025-12-10, purchase price allocation)</li><li>data/adhoc/HNI/2026-07-30-EX-99.1.txt (Q2 2026 release: non-GAAP EPS $1.27, 20-25% FY guidance, &gt;$70M 2027 and &gt;$150M mature savings, +5% orders and backlog, net tariff margin benefit)</li><li><a href="https://www.woodworkingnetwork.com/management/fdmc-300/hni-completes-22b-acquisition-steelcase-creating-58-billion-furniture-giant" rel="noopener">https://www.woodworkingnetwork.com/management/fdmc-300/hni-completes-22b-acquisition-steelcase-creating-58-billion-furniture-giant</a></li><li><a href="https://www.investing.com/news/company-news/hni-completes-acquisition-of-steelcase-creating-58-billion-furniture-giant-93CH-4401200" rel="noopener">https://www.investing.com/news/company-news/hni-completes-acquisition-of-steelcase-creating-58-billion-furniture-giant-93CH-4401200</a></li><li>data/picks.json row for HNI (screen 2026-10-09, prices as of 2026-10-08)</li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/HNI.md'>research/Industrials/HNI.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
