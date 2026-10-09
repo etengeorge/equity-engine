@@ -1,0 +1,154 @@
+{
+  "fetched_utc": "2026-10-09T11:30:57+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "DORM",
+    "cik": 868780,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000039/dorm-20260627.htm",
+        "file": "2026-08-04-10-Q-dorm-20260627.htm.txt",
+        "chars": 90050,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000037/dorm-20260803.htm",
+        "file": "2026-08-03-8-K-dorm-20260803.htm.txt",
+        "chars": 3243,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-17",
+        "items": "1.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000119312526273121/d64281d8k.htm",
+        "file": "2026-06-17-8-K-d64281d8k.htm.txt",
+        "chars": 12381,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-03",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000119312526254167/d79910d8k.htm",
+        "file": "2026-06-03-8-K-d79910d8k.htm.txt",
+        "chars": 7099,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000028/dorm-20260515.htm",
+        "file": "2026-05-18-8-K-dorm-20260515.htm.txt",
+        "chars": 5059,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000023/dorm-20260328.htm",
+        "file": "2026-05-04-10-Q-dorm-20260328.htm.txt",
+        "chars": 72019,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000022/dorm-20260504.htm",
+        "file": "2026-05-04-8-K-dorm-20260504.htm.txt",
+        "chars": 3229,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-27",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000014/dorm-20251231.htm",
+        "file": "2026-02-27-10-K-dorm-20251231.htm.txt",
+        "chars": 277777,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000037/dorm-20260627xexx991.htm",
+        "file": "2026-08-03-EX-99.1.txt",
+        "chars": 21806,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-03",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000119312526254167/d79910dex991.htm",
+        "file": "2026-06-03-EX-99.1.txt",
+        "chars": 4629,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-03",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000119312526254167/d79910dex992.htm",
+        "file": "2026-06-03-EX-99.2.txt",
+        "chars": 4622,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000022/dorm-20260328xexx991.htm",
+        "file": "2026-05-04-EX-99.1.txt",
+        "chars": 16324,
+        "truncated": false
+      }
+    ]
+  }
+}

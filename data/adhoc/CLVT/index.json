@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-09-25T11:31:14+00:00",
+  "fetched_utc": "2026-10-09T11:30:40+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "CLVT",
     "cik": 1764046,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-06",
+        "items": "2.01,5.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000117/clvt-20261006.htm",
+        "file": "2026-10-06-8-K-clvt-20261006.htm.txt",
+        "chars": 6143,
+        "truncated": false
+      },
       {
         "form": "8-K",
         "filed": "2026-09-24",
@@ -69,12 +78,25 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-07-06",
-        "items": "7.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000085/clvt-20260706.htm",
-        "file": "2026-07-06-8-K-clvt-20260706.htm.txt",
-        "chars": 6876,
+        "filed": "2026-10-06",
+        "items": [
+          "2.01",
+          "5.02",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "completion of an acquisition or disposition",
+          "officer or director change",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000117/ex991pressrelease-janusclo.htm",
+        "file": "2026-10-06-EX-99.1.txt",
+        "chars": 7430,
         "truncated": false
       },
       {
@@ -169,26 +191,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex991q22026earningsrelease.htm",
         "file": "2026-07-29-EX-99.1.txt",
         "chars": 32866,
-        "truncated": false
-      },
-      {
-        "filed": "2026-07-29",
-        "items": [
-          "2.02",
-          "7.01",
-          "9.01"
-        ],
-        "item_labels": [
-          "results of operations",
-          "Reg FD disclosure",
-          "9.01"
-        ],
-        "exhibit": "EX-99.2",
-        "description": "EX-99.2",
-        "kind": "presentation",
-        "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000090/ex992q22026supplementald.htm",
-        "file": "2026-07-29-EX-99.2.txt",
-        "chars": 32605,
         "truncated": false
       }
     ]
