@@ -1,20 +1,20 @@
-# DNLI — DENALI THERAPEUTICS
-*Health Care · brief generated 2026-10-09 · selected as **rotation***
+# PII — POLARIS INC
+*Consumer Discretionary · brief generated 2026-10-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 268/1956
+- rotation position 271/1956
 
 ## Market
 | | |
 |---|---|
-| price | $18.67 |
+| price | $52.81 |
 | market cap | $3.0B |
-| 5d / 21d / 63d / 252d | -9.1% / -13.4% / -27.3% / +25.3% |
-| 60d avg daily $ volume | $34.4M |
-| beta (vs IWM) | 1.57 (R²=0.29) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| 5d / 21d / 63d / 252d | +0.8% / -10.9% / -20.8% / -13.7% |
+| 60d avg daily $ volume | $52.1M |
+| beta (vs IWM) | 1.22 (R²=0.286) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 54% / debt 46% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 13.8% − 1pt | n/a |
-| **13.8% (point)** | **n/a** |
-| 13.8% + 1pt | n/a |
+| 12.7% − 1pt | n/a |
+| **12.7% (point)** | **n/a** |
+| 12.7% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $18.67).
+Gap under that baseline: **n/a** (fair value n/a vs price $52.81).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,76 +39,76 @@ Gap under that baseline: **n/a** (fair value n/a vs price $18.67).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| p_tbv (n=328) | 3.7x | 2.0x / 3.7x / 7.3x | $10.04 / $18.62 / $36.69 |
+| ev_sales (n=195) | 0.7x | 0.5x / 0.9x / 1.6x | $22.95 / $76.17 / $163.60 |
+| ev_gross_profit (n=165) | 3.9x | 1.2x / 2.4x / 4.5x | $-11.28 / $16.00 / $67.20 |
 
-Blended midpoint **$18.62** vs price $18.67 — gap **-0.3%**.
+Blended midpoint **$46.09** vs price $52.81 — gap **-12.7%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **not ranked** — too few comparable Consumer Discretionary names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- `speculative_cost_of_debt_at_46%_debt_weight_wacc_unreliable`
 - `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000097/dnli-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000096/dnli-20260806.htm
-- 2026-07-28 **8-K** — items 2.01,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000086/dnli-20260727.htm
-- 2026-06-18 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000081/dnli-20260612.htm
-- 2026-06-04 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000074/dnli-20260603.htm
-- 2026-05-22 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000070/dnli-20260521.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000064/dnli-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000062/dnli-20260507.htm
-- 2026-04-21 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000054/dnli-20260421.htm
-- 2026-04-03 **8-K** — items 1.02,9.01 — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000042/dnli-20260403.htm
+- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/931015/000162828026050104/pii-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/931015/000162828026049902/pii-20260728.htm
+- 2026-06-22 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/931015/000162828026044485/pii-20260619.htm
+- 2026-05-01 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/931015/000162828026029305/pii-20260430.htm
+- 2026-04-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/931015/000162828026027854/pii-20260331.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/931015/000162828026027677/pii-20260427.htm
+- 2026-03-17 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/931015/000130817926000087/pii014545-def14a.htm
+- 2026-02-13 **10-K** — https://www.sec.gov/Archives/edgar/data/931015/000162828026008033/pii-20251231.htm
+- 2026-01-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/931015/000162828026003502/pii-20260127.htm
+- 2026-01-09 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/931015/000162828026001582/pii-20260108.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000096/ex991pressreleaseq22026.htm
-- **2026-06-18** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1714899/000171489926000081/pressreleasedatedjune182026.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/931015/000162828026049902/pii-q22026earningsrelease.htm
+- **2026-06-22** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/931015/000162828026044485/exhibit991semachpressrelea.htm
 
 ## News on this company — last 90 days
 *10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-08-20** · DNLI Stock Gains 33.1% in Three Months: Buy, Sell or Hold the Stock? — *Zacks* — https://finance.yahoo.com/healthcare/articles/dnli-stock-gains-33-1-162000878.html
-  > Denali's Avlayah launch drives strong uptake and a 33.1% three-month stock gain, but regulatory and pipeline risks remain.
-- **2026-08-20** · Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month? — *Zacks* — https://finance.yahoo.com/healthcare/articles/buy-sell-hold-biogen-stock-141200151.html
-  > BIIB's newer drugs, M&A activity and pipeline progress are fueling its turnaround, but declining MS sales remain a key risk.
-- **2026-08-13** · Denali Therapeutics (DNLI) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/denali-therapeutics-dnli-q2-2026-earnings-call-transcript/
-  > AVLAYAH revenue hit $3.6M in first full quarter post-approval.
-- **2026-08-07** · Denali Therapeutics Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-denali-therapeutics-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Denali Therapeutics Inc.'s Q2 2026 earnings call
-- **2026-08-07** · Denali Therapeutics Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/denali-therapeutics-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Denali Therapeutics (NASDAQ:DNLI) reported $3.6 million in net product revenue from AVLAYAH during the second quarter of 2026, its first full quarter of commercial availability, as the company expanded payer access and advanced two Alzheime
-- **2026-08-06** · Denali Therapeutics Inc. (DNLI) Reports Q2 Loss, Tops Revenue Estimates — *Zacks* — https://finance.yahoo.com/healthcare/articles/denali-therapeutics-inc-dnli-reports-214005557.html
-  > Denali Therapeutics (DNLI) delivered earnings and revenue surprises of +5.56% and +143.35%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-06** · Denali Therapeutics Reports Second Quarter 2026 Financial Results and Business Highlights — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/denali-therapeutics-reports-second-quarter-200100747.html
-  > Strong first full quarter of AVLAYAH™ (tividenofusp alfa-eknm) launch generated $3.6 million in net product revenueAdvanced TransportVehicle™ portfolio with two Alzheimer’s disease programs now in clinical development$195 million in gross p
-- **2026-07-27** · Denali Therapeutics to Report Second Quarter 2026 Financial Results and Business Highlights on August 6, 2026 — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/denali-therapeutics-report-second-quarter-200100957.html
-  > SOUTH SAN FRANCISCO, Calif., July 27, 2026 (GLOBE NEWSWIRE) -- Denali Therapeutics Inc. (Nasdaq: DNLI) today announced that it will report financial results and business highlights for the second quarter ended June 30, 2026, on Thursday, Au
-- **2026-07-22** · Denali Therapeutics (DNLI) Heads To AAIC, Is The Stock Already Pricey? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/denali-therapeutics-dnli-heads-aaic-231317698.html
-  > Denali Therapeutics (DNLI) is scheduled to present at the Alzheimer’s Association International Conference in London on July 12, 2026, where CEO Ryan J. Watts will be speaking. The event is drawing renewed attention to the stock. See our la
-- **2026-07-22** · Is Denali Therapeutics (DNLI) Overvalued After Its FDA Approval? — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/denali-therapeutics-dnli-overvalued-fda-171144371.html
-  > Denali Therapeutics stock has delivered a 71.8% return over the past year, yet current valuation checks suggest the shares are trading at a premium, with both the Discounted Cash Flow (DCF) intrinsic value estimate and market multiples poin
+- **2026-09-10** · 3 Top-Rated Auto Stocks with Dividend Yields Above 3% — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-top-rated-auto-stocks-221900663.html
+  > Honda, Mazda, and Polaris offer an attractive combination of 3%-plus dividend yields and improving earnings prospects.
+- **2026-09-04** · Zacks.com featured highlights include Polaris, Intrepid Potash, Interface, NetScout Systems and Acme United — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-polaris-135100051.html
+  > Strong efficiency metrics and earnings surprises put Polaris, Intrepid Potash, Interface, NetScout Systems and Acme United in focus.
+- **2026-09-03** · 5 High-Efficient Stocks With Strong Financial Performance — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/5-high-efficient-stocks-strong-131200626.html
+  > Five stocks stand out after screening for strong efficiency metrics, including Polaris, Intrepid Potash, Interface, NetScout Systems and Acme United.
+- **2026-09-02** · 3 Reasons to Sell PII and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-pii-1-140423777.html
+  > Polaris has been treading water for the past six months, recording a small return of 4% while holding steady at $61.39. The stock also fell short of the S&P 500’s 11.8% gain during that period.
+- **2026-09-01** · Are Auto-Tires-Trucks Stocks Lagging  PACCAR (PCAR) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/auto-tires-trucks-stocks-lagging-134002021.html
+  > Here is how Paccar (PCAR) and Polaris Inc (PII) have performed compared to their sector so far this year.
+- **2026-08-22** · Polaris (PII) Stock Trades At a Discount to Sales While Near Fair Value — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/polaris-pii-stock-trades-discount-190838609.html
+  > Polaris stock has delivered a decline of 38.2% over the past 5 years, yet its current checks point to a company that screens as mixed on value overall, while some metrics still suggest the shares may not be expensive. The 5-year share price
+- **2026-08-22** · Is Polaris (PII) Fairly Valued After Its Recent Share Price Slide? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/polaris-pii-fairly-valued-recent-170726818.html
+  > Polaris (PII) has drawn investor attention after its share price closed at $64.39 on 19 August 2026, following a period of weaker recent returns despite positive annual revenue and net income growth. See our latest analysis for Polaris. Ove
+- **2026-08-21** · 3 Russell 2000 Stocks We’re Skeptical Of — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-skeptical-165147924.html
+  > The Russell 2000 (^RUT) is packed with potential breakout stocks, thanks to its focus on smaller companies with high growth potential. However, smaller size also means these businesses often lack the resilience and financial flexibility of 
+- **2026-08-21** · Buy 3 Outdoor Industry Stocks Amid Short-Term Double-Digit Potential — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/buy-3-outdoor-industry-stocks-112300431.html
+  > Three outdoor stocks, namely, PII, TREX and YETI offer double-digit upside potential, with growth estimates and earnings outlooks supporting the picks.
+- **2026-08-18** · POLARIS RZR FACTORY RACING CONQUERS VEGAS-TO-RENO WINNING FOR THE FIRST TIME IN TEAM HISTORY — *PR Newswire* — https://finance.yahoo.com/media-advertising/articles/polaris-rzr-factory-racing-conquers-175700640.html
+  > Polaris Off Road and the RZR Factory Racing Team added another historic victory to its growing list of accomplishments at the 2026 Vegas-to-Reno desert race. For the first time in the race's 30-year history, the course was run "the other wa
 
-## What is happening in Health Care
-*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
 - **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-25** · Sector Update: Healthcare Stocks Edge Higher Premarket Friday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131933210.html
-- **2026-09-25** · Stock Market News for Sep 25, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html
-- **2026-09-24** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-200124301.html
-- **2026-09-24** · XLV vs IBB: How Healthcare Diversification Compares to Biotech Concentration — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/xlv-vs-ibb-how-healthcare-diversification-compares-to-biotech-concentration/
+- **2026-09-24** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195131056.html
+- **2026-09-24** · Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-23** · XLV vs. PJP: How Broad Healthcare Diversification Stacks Up to Pharma Stocks — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/xlv-vs-pjp-how-broad-healthcare-diversification-stacks-up-to-pharma-stocks/
-- **2026-09-23** · Ocular Therapeutix and ANI Pharmaceuticals Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-ani-pharmaceuticals-stocks-213805476.html
-- **2026-09-23** · Surgery Partners, 10x Genomics, QuidelOrtho, Zimmer Biomet, and Tandem Diabetes Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/surgery-partners-10x-genomics-quidelortho-213005328.html
-- **2026-09-23** · The Midterms Are Coming. Tech Stocks May Have a Problem. — *Barrons.com* — https://www.barrons.com/articles/midterm-election-tech-stocks-problem-market-6320d7dc?siteid=yhoof2&yptr=yahoo
+- **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
+- **2026-09-23** · Sector Update: Consumer Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html
+- **2026-09-23** · Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/
+- **2026-09-23** · DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -117,29 +117,29 @@ Attack these before you trust any number above.
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
+- **2026-10-09** · SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds — *sec* — https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds
 - **2026-10-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and
 - **2026-10-09** · Raisins Produced From Grapes Grown in California; Order Amending Marketing Order No. 989 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20792/raisins-produced-from-grapes-grown-in-california-order-amending-marketing-order-no-989
 - **2026-10-09** · Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 to the Refunded Portion of Certain Federal Refundable Tax Credits; Hearing Cancellation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20790/application-of-the-personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-to-the
 - **2026-10-09** · Schedules of Controlled Substances; Removal of Exemption Status for Inactive Butalbital Products — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20757/schedules-of-controlled-substances-removal-of-exemption-status-for-inactive-butalbital-products
 - **2026-10-09** · Schedules of Controlled Substances: Placement of O-Desmethyltramadol in Schedule I; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20748/schedules-of-controlled-substances-placement-of-o-desmethyltramadol-in-schedule-i-correction
-- **2026-10-09** · Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20736/air-plan-approval-michigan-clean-data-determination-for-the-berrien-mi-and-muskegon-mi-areas-for-the
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Health Care
-- ACAD: no_edge · price $22.18 · fair value $17.73 · gap -20.0%
-- ADPT: no_model · price $27.89
-- ALKS: no_edge · price $46.91
-- APGE: no_model · price $133.96
-- CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
-- CRNX: no_edge · price $84.84
-- CRSP: no_model · price $53.45
-- DFTX: no_model · price $37.99
-- DNTH: no_model · price $106.20
-- DYN: no_model · price $16.51
-- ERAS: no_model · price $15.04
-- HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
+## Prior verdicts elsewhere in Consumer Discretionary
+- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
+- DORM: no_edge · price $121.67 · fair value $104.23 · gap -14.3%
+- GHC: no_edge · price $1.1K · fair value $1.0K · gap -10.2%
+- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
 
 ---
 

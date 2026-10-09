@@ -1,5 +1,15 @@
 [
  {
+  "id": "d1fd3bfa-e932-4aa7-a7ee-8ca856f3e27a",
+  "ts": "2026-10-09T14:59:00+00:00",
+  "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+  "summary": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act \u201ccross-trading rule,\u201d which permits transactions in securities between a registered fund and its affiliates under certain conditions. The proposed amendments\u2026",
+  "publisher": "sec",
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
+  "tickers": [],
+  "source": "rss:sec"
+ },
+ {
   "id": "https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and",
   "ts": "2026-10-09T00:00:00+00:00",
   "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area",
@@ -4796,6 +4806,16 @@
   "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
   "publisher": "federal_reserve",
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+  "summary": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
  }

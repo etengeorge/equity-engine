@@ -1,94 +1,96 @@
-# PCRX — PACIRA BIOSCIENCES
-*Health Care · brief generated 2026-10-09 · selected as **opportunistic***
+# OTTR — OTTER TAIL
+*Utilities · brief generated 2026-10-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 7% of 91 Health Care peers (93th pct)
-- baseline gap +192%
-- discounted: stock comp is 34% of reported FCFF
-- 5d move +46%
-- 21d move +41%
-- volume 6.8x its 60d average
-- filed an 8-K in the last few sessions
-- never researched
-- urgency score 10.94
+- rotation position 273/1956
 
 ## Market
 | | |
 |---|---|
-| price | $36.39 |
-| market cap | $1.5B |
-| 5d / 21d / 63d / 252d | +45.5% / +40.6% / +42.8% / +54.1% |
-| 60d avg daily $ volume | $32.4M |
-| beta (vs IWM) | 0.24 (R²=0.014) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 6.8x |
+| price | $88.33 |
+| market cap | $3.7B |
+| 5d / 21d / 63d / 252d | -0.1% / -1.4% / -0.1% / +16.9% |
+| 60d avg daily $ volume | $21.9M |
+| beta (vs IWM) | 0.36 (R²=0.107) |
+| 5d volume vs 60d average | 1.2x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 80% / debt 20% |
+| WACC weights | equity 75% / debt 25% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$164.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$136.7M', '$178.8M', '$139.5M']
-Enterprise value **$1.6B** · FCFF yield **+10.5%**
+Normalized FCFF base **$131.4M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$97.9M', '$94.1M', '$117.4M']
+Enterprise value **$4.6B** · FCFF yield **+2.9%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.8% − 1pt | -14.8% |
-| **7.8% (point)** | **-11.3%** |
-| 7.8% + 1pt | -8.2% |
+| 6.6% − 1pt | +6.8% |
+| **6.6% (point)** | **+12.6%** |
+| 6.6% + 1pt | +17.7% |
 
 
-> **Stock compensation is 34% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$112.5M** and an implied growth of **-3.2%** instead of -11.3%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+11.6%** (5y revenue CAGR +11.6%).
-Gap under that baseline: **+192.1%** (fair value $106.28 vs price $36.39).
+Naive baseline for comparison: **+7.9%** (5y revenue CAGR +7.9%).
+Gap under that baseline: **-22.7%** (fair value $68.32 vs price $88.33).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **93th percentile** of 91 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +210.9%).
+Cohort: **73th percentile** of 11 Utilities names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +35.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `volume_6.8x_its_60d_average`
-- `stock_comp_is_34%_of_fcff_reported_cash_flow_treats_it_as_free`
+- none raised
 
 ## Recent filings
-- 2026-10-08 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_8k.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1396814/000162828026052635/pcrx-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026052527/pcrx-20260804.htm
-- 2026-06-30 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026046136/pcrx-20260628.htm
-- 2026-06-11 **8-K** — items 5.02,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026042525/pcrx-20260609.htm
-- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/1396814/000162828026028871/pcrx-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026028854/pcrx-20260430.htm
-- 2026-02-26 **10-K** — https://www.sec.gov/Archives/edgar/data/1396814/000162828026012297/pcrx-20251231.htm
-- 2026-02-26 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026012238/pcrx-20260226.htm
-- 2026-01-28 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1396814/000162828026003717/pcrx-20260127.htm
+- 2026-09-01 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000074/ottr-20260828.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000071/ottr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000068/ottr-20260803.htm
+- 2026-06-18 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000063/ottr-20260617.htm
+- 2026-06-05 **8-K** — items 2.03 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000061/ottr-20260604.htm
+- 2026-05-29 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000057/ottr-20260528.htm
+- 2026-05-15 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000054/ottr-20260515.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000051/ottr-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000049/ottr-20260504.htm
+- 2026-04-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000040/ottr-20260413.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-08** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_ex99-1.htm
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1396814/000162828026052527/pcrx-06302026x991.htm
-- **2026-06-30** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1396814/000162828026046136/exhibit991-ioverapressrele.htm
-- **2026-06-11** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 5.07, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1396814/000162828026042525/exhibit991-agmpressrelease.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1466593/000146659326000068/a2026q2earningsreleaseex991.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*8 items held; showing the 8 most recent. Headlines and summaries only — open the URL for the full story.*
 
-## What is happening in Health Care
-*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
+- **2026-08-11** · Otter Tail (OTTR) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/10/otter-tail-ottr-q2-2026-earnings-call-transcript/
+  > Adjusted EPS guidance raised despite antitrust settlement and PVC price headwinds.
+- **2026-08-04** · Otter Tail Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/otter-tail-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Otter Tail (NASDAQ:OTTR) reported second-quarter adjusted diluted earnings per share of $1.66, down from $1.85 a year earlier, as lower PVC pipe pricing weighed on its plastics segment. The company raised its full-year adjusted earnings gui
+- **2026-08-04** · Otter Tail Corporation Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-otter-tail-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Otter Tail Corporation's Q2 2026 earnings call
+- **2026-08-04** · Otter Tail (OTTR) Tops Q2 Earnings Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/otter-tail-ottr-tops-q2-000502977.html
+  > Otter Tail (OTTR) delivered earnings and revenue surprises of +12.16% and -0.04%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-08-03** · Otter Tail Corporation Announces Second Quarter Results and Updates Annual Earnings Guidance — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/otter-tail-corporation-announces-second-220000722.html
+  > FERGUS FALLS, Minn., August 03, 2026--Otter Tail Corporation (Nasdaq: OTTR) today announced financial results for the quarter ended June 30, 2026.
+- **2026-07-29** · MGE (MGEE) Earnings Expected to Grow: What to Know Ahead of Q2 Release — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/mge-mgee-earnings-expected-grow-140041396.html
+  > MGE (MGEE) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.
+- **2026-07-27** · Analysts Estimate Otter Tail (OTTR) to Report a Decline in Earnings: What to Look Out for — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-otter-tail-ottr-140010642.html
+  > Otter Tail (OTTR) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.
+- **2026-07-15** · Otter Tail Corporation Will Host Conference Call on Second Quarter 2026 Financial Results — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/otter-tail-corporation-host-conference-193000148.html
+  > FERGUS FALLS, Minn., July 15, 2026--Otter Tail Corporation (Nasdaq: OTTR) will issue a news release announcing second quarter 2026 financial results after the stock market closes on Monday, August 3, 2026 and will host a live conference cal
 
-- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-25** · Sector Update: Healthcare Stocks Edge Higher Premarket Friday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-131933210.html
+## What is happening in Utilities
+*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
+
 - **2026-09-25** · Stock Market News for Sep 25, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html
-- **2026-09-24** · Sector Update: Healthcare Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-200124301.html
-- **2026-09-24** · XLV vs IBB: How Healthcare Diversification Compares to Biotech Concentration — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/24/xlv-vs-ibb-how-healthcare-diversification-compares-to-biotech-concentration/
-- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-23** · XLV vs. PJP: How Broad Healthcare Diversification Stacks Up to Pharma Stocks — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/xlv-vs-pjp-how-broad-healthcare-diversification-stacks-up-to-pharma-stocks/
-- **2026-09-23** · Ocular Therapeutix and ANI Pharmaceuticals Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-ani-pharmaceuticals-stocks-213805476.html
-- **2026-09-23** · Surgery Partners, 10x Genomics, QuidelOrtho, Zimmer Biomet, and Tandem Diabetes Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/healthcare/articles/surgery-partners-10x-genomics-quidelortho-213005328.html
-- **2026-09-23** · The Midterms Are Coming. Tech Stocks May Have a Problem. — *Barrons.com* — https://www.barrons.com/articles/midterm-election-tech-stocks-problem-market-6320d7dc?siteid=yhoof2&yptr=yahoo
+- **2026-09-24** · Bond Market Flashes a Warning Not Seen Since 2007 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/
+- **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
+- **2026-09-23** · NiSource Stock: Is NI Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4750785/nisource-stock-is-ni-outperforming-the-utilities-sector
+- **2026-09-22** · America’s Power Buildout Is Accelerating. These 3 ETFs Invest in the Infrastructure — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/22/americas-power-buildout-is-accelerating-these-3-etfs-invest-in-the-infrastructure/
+- **2026-09-22** · How Is AES Corporation's Stock Performance Compared to Other Utility Stocks — *Barchart* — https://www.barchart.com/story/news/4726599/how-is-aes-corporation-s-stock-performance-compared-to-other-utility-stocks
+- **2026-09-21** · Stock Market News for Sep 21, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-21-131500959.html
+- **2026-09-18** · CMS Energy Stock: Is CMS Underperforming the Utility Sector? — *Barchart* — https://www.barchart.com/story/news/4679879/cms-energy-stock-is-cms-underperforming-the-utility-sector
+- **2026-09-18** · Stock Market News for Sep 18, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html
+- **2026-09-16** · How Is Entergy's Stock Performance Compared to Other Utility Stocks? — *Barchart* — https://www.barchart.com/story/news/4637700/how-is-entergy-s-stock-performance-compared-to-other-utility-stocks
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -97,29 +99,22 @@ Attack these before you trust any number above.
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
+- **2026-10-09** · SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds — *sec* — https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds
 - **2026-10-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and
 - **2026-10-09** · Raisins Produced From Grapes Grown in California; Order Amending Marketing Order No. 989 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20792/raisins-produced-from-grapes-grown-in-california-order-amending-marketing-order-no-989
 - **2026-10-09** · Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 to the Refunded Portion of Certain Federal Refundable Tax Credits; Hearing Cancellation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20790/application-of-the-personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-to-the
 - **2026-10-09** · Schedules of Controlled Substances; Removal of Exemption Status for Inactive Butalbital Products — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20757/schedules-of-controlled-substances-removal-of-exemption-status-for-inactive-butalbital-products
 - **2026-10-09** · Schedules of Controlled Substances: Placement of O-Desmethyltramadol in Schedule I; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20748/schedules-of-controlled-substances-placement-of-o-desmethyltramadol-in-schedule-i-correction
-- **2026-10-09** · Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20736/air-plan-approval-michigan-clean-data-determination-for-the-berrien-mi-and-muskegon-mi-areas-for-the
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Health Care
-- ACAD: no_edge · price $22.18 · fair value $17.73 · gap -20.0%
-- ADPT: no_model · price $27.89
-- ALKS: no_edge · price $46.91
-- APGE: no_model · price $133.96
-- CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
-- CRNX: no_edge · price $84.84
-- CRSP: no_model · price $53.45
-- DFTX: no_model · price $37.99
-- DNTH: no_model · price $106.20
-- DYN: no_model · price $16.51
-- ERAS: no_model · price $15.04
-- HAE: rich · price $106.31 · fair value $80.06 · gap -24.7%
+## Prior verdicts elsewhere in Utilities
+- AWR: no_model · price $81.83
+- BIPC: no_model · price $35.82
+- BKH: no_model · price $74.19
+- ORA: no_model · price $104.19
+- SR: no_model · price $81.36
 
 ---
 

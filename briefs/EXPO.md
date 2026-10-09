@@ -1,82 +1,82 @@
-# LXP — LXP INDUSTRIAL TRUST
-*Real Estate · brief generated 2026-10-09 · selected as **rotation***
+# EXPO — EXPONENT
+*Industrials · brief generated 2026-10-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 267/1956
+- rotation position 274/1956
 
 ## Market
 | | |
 |---|---|
-| price | $61.01 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | +0.1% / +0.4% / +10.8% / +37.4% |
-| 60d avg daily $ volume | $51.8M |
-| beta (vs IWM) | 0.67 (R²=0.331) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 73% / debt 27% |
+| price | $69.78 |
+| market cap | $3.3B |
+| 5d / 21d / 63d / 252d | -0.2% / +3.4% / +12.9% / +7.1% |
+| 60d avg daily $ volume | $34.8M |
+| beta (vs IWM) | 0.73 (R²=0.209) |
+| 5d volume vs 60d average | 1.3x |
+| balance sheet as of | 2026-07-03 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+Normalized FCFF base **$123.6M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$122.3M', '$137.6M', '$111.0M']
+Enterprise value **$3.2B** · FCFF yield **+3.8%**
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+**Reverse DCF — the 5y FCFF growth the current price requires:**
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+| WACC | implied 5y FCFF growth |
+|---|---|
+| 9.3% − 1pt | +13.3% |
+| **9.3% (point)** | **+17.2%** |
+| 9.3% + 1pt | +20.8% |
 
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=77) | 15.6x | 10.9x / 16.0x / 21.5x | $34.83 / $62.84 / $92.89 |
-| ev_sales (n=91) | 14.4x | 3.2x / 7.4x / 11.0x | $-5.62 / $19.11 / $40.62 |
-| ev_gross_profit (n=38) | 17.7x | 7.7x / 9.8x / 15.6x | $12.58 / $22.94 / $50.79 |
-| p_tbv (n=83) | 2.3x | 1.0x / 1.6x / 2.0x | $25.73 / $41.43 / $53.69 |
 
-Blended midpoint **$36.58** vs price $61.01 — gap **-40.0%**.
+> **Stock compensation is 18% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$101.2M** and an implied growth of **+22.4%** instead of +17.2%. Decide which treatment you are underwriting and say so explicitly.
 
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+Naive baseline for comparison: **+7.8%** (5y revenue CAGR +7.8%).
+Gap under that baseline: **-30.5%** (fair value $48.47 vs price $69.78).
 
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+Cohort: **44th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -7.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- none raised
 
 ## Recent filings
-- 2026-07-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000091010826000047/lxp-20260729.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/910108/000091010826000045/lxp-20260630.htm
-- 2026-07-20 **8-K** — items 1.01,5.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000110465926084849/tm2620850d1_8k.htm
-- 2026-06-01 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000091010826000040/lxp-20260601.htm
-- 2026-05-20 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000091010826000035/lxp-20260519.htm
-- 2026-04-29 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000091010826000033/lxp-20260429.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/910108/000091010826000030/lxp-20260331.htm
-- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/910108/000091010826000015/lxp-20260403.htm
-- 2026-02-12 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/910108/000091010826000011/lxp-20260212.htm
-- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/910108/000091010826000009/lxp-20251231.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/851520/000119312526340211/expo-20260703.htm
+- 2026-07-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/f8k_073026.htm
+- 2026-06-10 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/851520/000117184326004036/f8k_061026.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/851520/000119312526214572/expo-20260403.htm
+- 2026-04-30 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/851520/000117184326002896/f8k_043026.htm
+- 2026-04-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/851520/000119312526163945/expo-20260416.htm
+- 2026-04-06 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/851520/000117184326002263/f8k_040626.htm
+- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/851520/000119312526082508/expo-20260102.htm
+- 2026-02-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/851520/000117184326000654/f8k_020526.htm
+- 2025-11-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/851520/000119312525272273/expo-20251003.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/910108/000091010826000047/exhibit991-pressreleasedat.htm
-- **2026-07-29** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/910108/000091010826000047/exhibit992-quarterlysupp.htm
-- **2026-07-20** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, 5.03, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/910108/000110465926084849/tm2620850d1_ex99-1.htm
+- **2026-07-30** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm
+- **2026-07-30** · EX-99.2 · presentation — PRESS RELEASE *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_992.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Real Estate
-*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
-- **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
-- **2026-09-24** · Bond Market Flashes a Warning Not Seen Since 2007 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/
-- **2026-09-24** · Vanguard Real Estate ETF vs State Street SPDR: Diversification or Cost — *Motley Fool* — https://www.fool.com/coverage/etfs/2026/09/23/vanguard-real-estate-etf-vs-state-street-spdr-diversification-or-cost/
-- **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
-- **2026-09-23** · Sector Update: Financial Stocks Lower in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-175541711.html
-- **2026-09-22** · Sector Update: Financial Stocks Fall Tuesday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-tuesday-200327663.html
-- **2026-09-22** · Sector Update: Financial Stocks Decline Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-tuesday-174955140.html
-- **2026-09-22** · Mid-America Apartment Communities Stock: Is MAA Underperforming the Real Estate Sector? — *Barchart* — https://www.barchart.com/story/news/4734013/mid-america-apartment-communities-stock-is-maa-underperforming-the-real-estate-sector
-- **2026-09-21** · Sector Update: Financial Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-200316852.html
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
+- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
+- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
+- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
+- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
+- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
+- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
+- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
+- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -85,23 +85,29 @@ Attack these before you trust any number above.
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
+- **2026-10-09** · SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds — *sec* — https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds
 - **2026-10-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and
 - **2026-10-09** · Raisins Produced From Grapes Grown in California; Order Amending Marketing Order No. 989 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20792/raisins-produced-from-grapes-grown-in-california-order-amending-marketing-order-no-989
 - **2026-10-09** · Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 to the Refunded Portion of Certain Federal Refundable Tax Credits; Hearing Cancellation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20790/application-of-the-personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-to-the
 - **2026-10-09** · Schedules of Controlled Substances; Removal of Exemption Status for Inactive Butalbital Products — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20757/schedules-of-controlled-substances-removal-of-exemption-status-for-inactive-butalbital-products
 - **2026-10-09** · Schedules of Controlled Substances: Placement of O-Desmethyltramadol in Schedule I; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20748/schedules-of-controlled-substances-placement-of-o-desmethyltramadol-in-schedule-i-correction
-- **2026-10-09** · Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20736/air-plan-approval-michigan-clean-data-determination-for-the-berrien-mi-and-muskegon-mi-areas-for-the
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Real Estate
-- COMP: no_model · price $10.56
-- CTRE: no_model · price $39.03
-- EPRT: no_model · price $29.97
-- RHP: no_model · price $129.33
-- SKT: no_model · price $35.80
-- SLG: no_model · price $52.08
+## Prior verdicts elsewhere in Industrials
+- ACHR: no_model · price $5.71
+- ATKR: no_model · price $94.32
+- CECO: rich · price $71.87 · fair value $42.90 · gap -40.3%
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
+- FLR: no_model · price $54.51
+- GATX: no_model · price $177.31
 
 ---
 

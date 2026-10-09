@@ -1,67 +1,94 @@
-# HNI — HNI
-*Industrials · brief generated 2026-10-09 · selected as **rotation***
+# BCO — BRINKS
+*Industrials · brief generated 2026-10-09 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 265/1956
+- cheapest 10% of 151 Industrials peers (90th pct)
+- baseline gap +105%
+- filed an 8-K in the last few sessions
+- never researched
+- urgency score 6.03
 
 ## Market
 | | |
 |---|---|
-| price | $46.91 |
-| market cap | $3.4B |
-| 5d / 21d / 63d / 252d | +0.4% / -0.8% / +18.3% / +6.0% |
-| 60d avg daily $ volume | $26.3M |
-| beta (vs IWM) | 1.02 (R²=0.283) |
+| price | $102.36 |
+| market cap | $4.2B |
+| 5d / 21d / 63d / 252d | +2.4% / -5.4% / -1.6% / -8.6% |
+| 60d avg daily $ volume | $53.5M |
+| beta (vs IWM) | 0.67 (R²=0.152) |
 | 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-07-04 (10-Q) |
-| WACC weights | equity 71% / debt 29% |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 50% / debt 50% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$195.6M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$208.5M', '$173.8M', '$188.4M']
-Enterprise value **$4.7B** · FCFF yield **+4.2%**
+Normalized FCFF base **$532.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$436.4M', '$203.5M', '$499.7M']
+Enterprise value **$6.9B** · FCFF yield **+7.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 9.0% − 1pt | +10.0% |
-| **9.0% (point)** | **+13.9%** |
-| 9.0% + 1pt | +17.5% |
+| 8.0% − 1pt | -7.6% |
+| **8.0% (point)** | **-3.9%** |
+| 8.0% + 1pt | -0.5% |
 
 
-> **Stock compensation is 10% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$176.1M** and an implied growth of **+16.6%** instead of +13.9%. Decide which treatment you are underwriting and say so explicitly.
-
-Naive baseline for comparison: **+7.7%** (5y revenue CAGR +7.7%).
-Gap under that baseline: **-30.4%** (fair value $32.63 vs price $46.91).
+Naive baseline for comparison: **+7.3%** (5y revenue CAGR +7.3%).
+Gap under that baseline: **+105.2%** (fair value $210.01 vs price $102.36).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **44th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -7.5%).
+Cohort: **90th percentile** of 151 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +128.3%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
-- 2026-08-20 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/48287/000114036126033891/ef20080676_8k.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/48287/000004828726000125/hni-20260704.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/48287/000004828726000122/hni-20260730.htm
-- 2026-06-10 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/48287/000095010326008782/dp248223_8k.htm
-- 2026-05-21 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/48287/000114036126022463/ef20074080_8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/48287/000004828726000100/hni-20260404.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/48287/000004828726000098/hni-20260506.htm
-- 2026-03-25 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/48287/000114036126011104/ny20067633x2_def14a.htm
-- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/48287/000004828726000084/hni-20260103.htm
-- 2026-02-25 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/48287/000004828726000059/hni-20260225.htm
+- 2026-10-08 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000063/bco-20261008.htm
+- 2026-09-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000058/bco-20260930.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000055/bco-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/bco-20260805.htm
+- 2026-07-24 **8-K** — items 7.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000048/bco-20260724.htm
+- 2026-06-30 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_8k.htm
+- 2026-06-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000114036126025760/ef20076434_8k.htm
+- 2026-06-02 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000045/bco-20260602.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/78890/000007889026000041/bco-20260331.htm
+- 2026-05-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/78890/000007889026000040/bco-20260506.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/48287/000004828726000122/hni-ex991q22026.htm
+- **2026-10-08** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000063/exhibit991pressrelease2026.htm
+- **2026-09-30** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000058/exhibit991pressrelease2026.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm
+- **2026-08-05** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/exhibit992_2q2026v-micro.htm
+- **2026-06-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_ex99-1.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-17** · 3 of Wall Street’s Favorite Stocks Worth Investigating — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-085817691.html
+  > The stocks in this article have caught Wall Street’s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about comp
+- **2026-09-04** · 2 Services Stocks to Research Further and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-research-further-131010024.html
+  > Business services providers thrive by solving complex operational challenges for their clients, allowing them to focus on their secret sauce. Furthermore, the demand for their offerings is rising as more clients outsource non-core functions
+- **2026-08-27** · UK regulator opens probe into Brink’s $6.6bn takeover of NCR Atleos — *Retail Banker International* — https://www.retailbankerinternational.com/news/brinks-takeover-ncr-atleos-uk-probe/
+  > The merged group would combine Brink’s cash handling operations and route network with NCR Atleos’ ATM servicing activities.
+- **2026-08-16** · 2 Profitable Stocks Worth Investigating and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-worth-investigating-113300703.html
+  > Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t mean it will thrive tomorrow.
+- **2026-08-14** · 5 Insightful Analyst Questions From Brink's’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-brinks-142100549.html
+  > Brink's second quarter saw steady financial performance, with results broadly in line with what Wall Street expected. Management pointed to continued organic growth in its ATM Managed Services (AMS) and Digital Retail Solutions (DRS) busine
+- **2026-08-12** · Brink's (BCO) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/12/brinks-bco-q2-2026-earnings-call-transcript/
+  > Record margins and AMS/DRS growth fuel optimism ahead of NCR Atleos deal.
+- **2026-08-12** · Q2 Earnings Roundup: Brink's (NYSE:BCO) And The Rest Of The Safety & Security Services Segment — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-brinks-nyse-144522140.html
+  > The end of the earnings season is always a good time to take a step back and see who shined (and who didn’t). Let’s take a look at how safety & security services stocks fared in Q2, starting with Brink's (NYSE:BCO).
+- **2026-08-10** · Investing in Brink's (BCO)? Don't Miss Assessing Its International Revenue Trends — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/investing-brinks-bco-dont-miss-131511075.html
+  > Examine the evolution of Brink's' (BCO) overseas revenue trends and their effects on Wall Street's forecasts and the stock's prospects.
+- **2026-08-07** · Brink's (BCO) Stock Looks Overvalued for Long Term Investors — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/brinks-bco-stock-looks-overvalued-021429628.html
+  > Brink's stock has delivered a strong 61.6% gain over the past three years, yet current valuation checks suggest the shares may not be an obvious bargain at around US$112.85. The 61.6% return over three years shows that long term holders hav
+- **2026-08-05** · The Brink's Company Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-brinks-company-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of The Brink's Company's Q2 2026 earnings call
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -84,12 +111,12 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
+- **2026-10-09** · SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds — *sec* — https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds
 - **2026-10-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and
 - **2026-10-09** · Raisins Produced From Grapes Grown in California; Order Amending Marketing Order No. 989 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20792/raisins-produced-from-grapes-grown-in-california-order-amending-marketing-order-no-989
 - **2026-10-09** · Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 to the Refunded Portion of Certain Federal Refundable Tax Credits; Hearing Cancellation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20790/application-of-the-personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-to-the
 - **2026-10-09** · Schedules of Controlled Substances; Removal of Exemption Status for Inactive Butalbital Products — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20757/schedules-of-controlled-substances-removal-of-exemption-status-for-inactive-butalbital-products
 - **2026-10-09** · Schedules of Controlled Substances: Placement of O-Desmethyltramadol in Schedule I; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20748/schedules-of-controlled-substances-placement-of-o-desmethyltramadol-in-schedule-i-correction
-- **2026-10-09** · Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20736/air-plan-approval-michigan-clean-data-determination-for-the-berrien-mi-and-muskegon-mi-areas-for-the
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

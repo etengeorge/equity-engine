@@ -1,20 +1,20 @@
-# AWR — AMERICAN STATES WATER
-*Utilities · brief generated 2026-10-09 · selected as **rotation***
+# VGNT — VERSIGENT PLC
+*Consumer Discretionary · brief generated 2026-10-09 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 266/1956
+- rotation position 275/1956
 
 ## Market
 | | |
 |---|---|
-| price | $81.83 |
-| market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +0.8% / -7.3% / -2.6% / +17.4% |
-| 60d avg daily $ volume | $21.4M |
-| beta (vs IWM) | 0.53 (R²=0.009) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 1.1x |
+| price | $44.16 |
+| market cap | $3.1B |
+| 5d / 21d / 63d / 252d | -4.5% / -3.5% / +7.2% / n/a |
+| 60d avg daily $ volume | $37.0M |
+| beta (vs IWM) | None (R²=None) · **sector_median** |
+| 5d volume vs 60d average | 1.0x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 82% / debt 18% |
+| WACC weights | equity 58% / debt 42% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,72 +24,56 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.6% − 1pt | n/a |
-| **7.6% (point)** | **n/a** |
-| 7.6% + 1pt | n/a |
+| 8.5% − 1pt | n/a |
+| **8.5% (point)** | **n/a** |
+| 8.5% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $81.83).
+Gap under that baseline: **n/a** (fair value n/a vs price $44.16).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=25) | 15.7x | 10.1x / 13.1x / 16.1x | $46.14 / $65.14 / $84.72 |
-| ev_sales (n=30) | 6.0x | 2.9x / 4.4x / 5.5x | $30.37 / $55.59 / $73.41 |
-| ev_gross_profit (n=13) | 6.6x | 7.6x / 11.6x / 18.2x | $96.99 / $157.74 / $256.94 |
-| p_tbv (n=29) | 2.9x | 1.6x / 1.9x / 2.4x | $45.34 / $54.25 / $66.64 |
-
-Blended midpoint **$83.18** vs price $81.83 — gap **+1.6%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Utilities names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **not ranked** — too few comparable Consumer Discretionary names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_2.1x_of_mean`
-- `nonpositive_normalized_fcff`
+- `beta_from_sector_median_1.12(insufficient_history)`
+- `no_cashflow_history`
+- `no_enterprise_value`
+- `no_usable_multiple_for_this_name`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1056903/000162828026053401/awr-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026053403/awr-20260805.htm
-- 2026-05-21 **8-K** — items 5.02,5.07 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026037056/awr-20260519.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026031373/awr-20260506.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1056903/000162828026031364/awr-20260331.htm
-- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1056903/000114036126013117/ny20063871x1_def14a.htm
-- 2026-03-27 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026021751/awr-20260326.htm
-- 2026-03-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026017733/awr-20260312.htm
-- 2026-02-20 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000110465926018151/tm266217d2_8k.htm
-- 2026-02-18 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1056903/000162828026009130/awr-20260218.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/2078008/000207800826000018/vgnt-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2078008/000207800826000014/vgnt-20260804.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/2078008/000207800826000008/vgnt-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2078008/000207800826000007/vgnt-20260505.htm
+- 2026-04-01 **8-K** — items 1.01,2.01,2.03,3.02,3.03,5.01,5.02,5.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/2078008/000119312526138219/d52176d8k.htm
+- 2026-03-24 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/2078008/000095014226000815/eh260755634_8k.htm
+- 2026-03-12 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/2078008/000119312526104279/d65007d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1056903/000162828026053403/exhibit991pressrelease2026.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/2078008/000207800826000014/versigentq22026ex991.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Utilities
-*From the sector ETF feed (XLU), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Consumer Discretionary
+*From the sector ETF feed (XLY), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-25** · Stock Market News for Sep 25, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html
-- **2026-09-24** · Bond Market Flashes a Warning Not Seen Since 2007 — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/
+- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
+- **2026-09-24** · Sector Update: Consumer Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195131056.html
+- **2026-09-24** · Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector? — *Barchart* — https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector
+- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
 - **2026-09-24** · Stock Market News for Sep 24, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-24-123300781.html
-- **2026-09-23** · NiSource Stock: Is NI Outperforming the Utilities Sector? — *Barchart* — https://www.barchart.com/story/news/4750785/nisource-stock-is-ni-outperforming-the-utilities-sector
-- **2026-09-22** · America’s Power Buildout Is Accelerating. These 3 ETFs Invest in the Infrastructure — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/09/22/americas-power-buildout-is-accelerating-these-3-etfs-invest-in-the-infrastructure/
-- **2026-09-22** · How Is AES Corporation's Stock Performance Compared to Other Utility Stocks — *Barchart* — https://www.barchart.com/story/news/4726599/how-is-aes-corporation-s-stock-performance-compared-to-other-utility-stocks
-- **2026-09-21** · Stock Market News for Sep 21, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-21-131500959.html
-- **2026-09-18** · CMS Energy Stock: Is CMS Underperforming the Utility Sector? — *Barchart* — https://www.barchart.com/story/news/4679879/cms-energy-stock-is-cms-underperforming-the-utility-sector
-- **2026-09-18** · Stock Market News for Sep 18, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html
-- **2026-09-16** · How Is Entergy's Stock Performance Compared to Other Utility Stocks? — *Barchart* — https://www.barchart.com/story/news/4637700/how-is-entergy-s-stock-performance-compared-to-other-utility-stocks
+- **2026-09-23** · Sector Update: Consumer Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-retreat-afternoon-194623415.html
+- **2026-09-23** · Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up? — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/
+- **2026-09-23** · Travel Booking Stocks Tumble as Muse Threatens to Bypass Them: Expedia Falls 7%, Airbnb Drops 6%, Booking Holdings Sinks 5% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/travel-booking-stocks-tumble-as-muse-threatens-to-bypass-them-expedia-falls-7-airbnb-drops-6-booking-holdings-sinks-5/
+- **2026-09-23** · DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/draftkings-drops-4-as-prediction-market-spending-plans-stir-margin-doubts-flutter-entertainment-slips-robinhood-ticks-up/
 
 ## Market and macro context
 - **2026-09-25** · Stock Market Today: Nasdaq Wavers Amid Peace Hopes; Nvidia Holds Key Level Amid Musk News (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-micron-sandisk/?src=A00220&yptr=yahoo
@@ -98,21 +82,29 @@ Attack these before you trust any number above.
 - **2026-09-25** · Forgent Power Solutions (FPS) Capitalizes on the AI Data Center Power Grid Bottleneck — *Insider Monkey* — https://finance.yahoo.com/technology/ai/articles/forgent-power-solutions-fps-capitalizes-143509337.html
 
 *Rules, releases and agency actions:*
+- **2026-10-09** · SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds — *sec* — https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds
 - **2026-10-09** · Fisheries of the Exclusive Economic Zone Off Alaska; Groundfish Reserves in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/C1-2026-20019/fisheries-of-the-exclusive-economic-zone-off-alaska-groundfish-reserves-in-the-bering-sea-and
 - **2026-10-09** · Raisins Produced From Grapes Grown in California; Order Amending Marketing Order No. 989 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20792/raisins-produced-from-grapes-grown-in-california-order-amending-marketing-order-no-989
 - **2026-10-09** · Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 to the Refunded Portion of Certain Federal Refundable Tax Credits; Hearing Cancellation — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20790/application-of-the-personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-to-the
 - **2026-10-09** · Schedules of Controlled Substances; Removal of Exemption Status for Inactive Butalbital Products — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20757/schedules-of-controlled-substances-removal-of-exemption-status-for-inactive-butalbital-products
 - **2026-10-09** · Schedules of Controlled Substances: Placement of O-Desmethyltramadol in Schedule I; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20748/schedules-of-controlled-substances-placement-of-o-desmethyltramadol-in-schedule-i-correction
-- **2026-10-09** · Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/09/2026-20736/air-plan-approval-michigan-clean-data-determination-for-the-berrien-mi-and-muskegon-mi-areas-for-the
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Utilities
-- BIPC: no_model · price $35.82
-- BKH: no_model · price $74.19
-- ORA: no_model · price $104.19
-- SR: no_model · price $81.36
+## Prior verdicts elsewhere in Consumer Discretionary
+- AEO: no_edge · price $15.02 · fair value $12.40 · gap -17.5%
+- ANF: no_edge · price $143.08 · fair value $154.73 · gap +8.1%
+- ASO: no_edge · price $54.25 · fair value $54.95 · gap +1.3%
+- BBW: cheap · price $29.85 · fair value $41.83 · gap +40.1%
+- CRI: no_edge · price $32.39 · fair value $41.92 · gap +29.4%
+- CVSA: no_edge · price $126.28 · fair value $127.55 · gap +1.0%
+- DORM: no_edge · price $121.67 · fair value $104.23 · gap -14.3%
+- GHC: no_edge · price $1.1K · fair value $1.0K · gap -10.2%
+- GTX: no_edge · price $25.63 · fair value $25.11 · gap -2.0%
+- HOG: no_edge · price $28.30 · fair value $28.02 · gap -1.0%
+- IBP: rich · price $238.57 · fair value $142.24 · gap -40.4%
+- JILL: no_edge · price $21.74 · fair value $20.77 · gap -4.4%
 
 ---
 
