@@ -1,20 +1,20 @@
-# NHI — NATIONAL HEALTH INVESTORS REIT
+# HIW — HIGHWOODS PROPERTIES REIT
 *Real Estate · brief generated 2026-10-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 276/1956
+- rotation position 282/1956
 
 ## Market
 | | |
 |---|---|
-| price | $65.67 |
+| price | $29.21 |
 | market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +1.7% / -2.3% / -16.3% / -4.9% |
-| 60d avg daily $ volume | $25.2M |
-| beta (vs IWM) | 0.35 (R²=0.107) |
-| 5d volume vs 60d average | 0.5x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 72% / debt 28% |
+| 5d / 21d / 63d / 252d | +0.1% / -4.9% / -10.9% / +5.3% |
+| 60d avg daily $ volume | $37.7M |
+| beta (vs IWM) | 0.68 (R²=0.261) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-03-31 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 **No defensible free numeric model for this name** (status: not_modelled).
@@ -26,11 +26,11 @@ Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no mo
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_ebitda (n=77) | 18.5x | 11.1x / 15.6x / 21.7x | $29.02 / $51.66 / $81.52 |
-| ev_sales (n=91) | 11.9x | 3.3x / 7.4x / 11.1x | $-0.33 / $31.29 / $59.76 |
-| p_tbv (n=83) | 2.1x | 1.0x / 1.6x / 2.0x | $31.43 / $50.56 / $65.16 |
+| ev_ebitda (n=77) | 4.1x | 11.1x / 15.6x / 21.7x | $82.37 / $117.33 / $163.43 |
+| ev_sales (n=91) | 4.2x | 3.3x / 7.4x / 11.1x | $22.27 / $52.48 / $79.70 |
+| p_tbv (n=83) | 1.7x | 1.0x / 1.6x / 2.0x | $16.58 / $26.66 / $34.36 |
 
-Blended midpoint **$44.50** vs price $65.67 — gap **-32.2%**.
+Blended midpoint **$65.49** vs price $29.21 — gap **+124.2%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -39,52 +39,26 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
 - `sector_has_no_defensible_free_model`
 
 ## Recent filings
-- 2026-08-27 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000205/nhi-20260827.htm
-- 2026-08-10 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000203/nhi-20260810.htm
-- 2026-08-10 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000201/nhi-20260810.htm
-- 2026-08-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000200/nhi-20260810.htm
-- 2026-08-10 **10-Q** — https://www.sec.gov/Archives/edgar/data/877860/000087786026000199/nhi-20260630.htm
-- 2026-07-27 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000177/nhi-20260722.htm
-- 2026-07-01 **8-K** — items 1.02,2.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000169/nhi-20260701.htm
-- 2026-07-01 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000167/nhi-20260701.htm
-- 2026-06-01 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000152/nhi-20260526.htm
-- 2026-05-29 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/877860/000087786026000149/nhi-20260527.htm
+- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/921082/000092108226000045/hiw-20260630.htm
+- 2026-06-04 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/921082/000092108226000041/hiw-20260603.htm
+- 2026-05-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/921082/000092108226000038/hiw-20260512.htm
+- 2026-04-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/921082/000092108226000035/hiw-20260331.htm
+- 2026-03-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/921082/000092108226000030/hiw-20260317.htm
+- 2026-02-11 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/921082/000092108226000017/hiw-20260211.htm
+- 2026-02-10 **10-K** — https://www.sec.gov/Archives/edgar/data/921082/000092108226000005/hiw-20251231.htm
+- 2025-11-14 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/921082/000092108225000048/hiw-20251114.htm
+- 2025-11-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/921082/000092108225000046/hiw-20251104.htm
+- 2025-10-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/921082/000092108225000044/hiw-20250930.htm
 
 ## Earnings materials (8-K exhibits)
-*The press release and presentation as filed. EX-99.2 is usually the deck.*
-
-- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/877860/000087786026000203/exhibit9918-10x26busupdate.htm
-- **2026-08-10** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/877860/000087786026000203/exhibit9928-10x26presentat.htm
-- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/877860/000087786026000201/q2_2026xsupplementalxfin.htm
-- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/877860/000087786026000200/ex991-q22026earningsrelease.htm
-- **2026-07-27** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/877860/000087786026000177/exhibit991maingotpr.htm
+*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-31** · CUZ vs. NHI: Which Stock Should Value Investors Buy Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/cuz-vs-nhi-stock-value-154004514.html
-  > CUZ vs. NHI: Which Stock Is the Better Value Option?
-- **2026-08-19** · NHI (NHI) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/19/nhi-nhi-q2-2026-earnings-call-transcript/
-  > NHI completes $560M portfolio sale and accelerates senior housing expansion strategy.
-- **2026-08-14** · PEB or NHI: Which Is the Better Value Stock Right Now? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/peb-nhi-better-value-stock-154003445.html
-  > PEB vs. NHI: Which Stock Is the Better Value Option?
-- **2026-08-11** · National Health Investors Inc (NHI) (Q2 2026) Earnings Call Highlights: Strategic Pivot to SHOP ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/national-health-investors-inc-nhi-210318598.html
-  > NHI reports robust net income growth and dividend increase while navigating SHOP portfolio challenges and capital redeployment opportunities.
-- **2026-08-11** · National Health Investors Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/national-health-investors-q2-earnings-call-highlights-2026-08-11/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > National Health Investors (NYSE:NHI) reported second-quarter results that management said were in line with expectations, alongside the completion of a major portfolio sale and continued expansion of its seniors housing operating portfolio,
-- **2026-08-11** · National Health Investors, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-national-health-investors-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of National Health Investors, Inc.'s Q2 2026 earnings call
-- **2026-08-10** · National Health Investors (NHI) Q2 FFO Lag Estimates — *Zacks* — https://finance.yahoo.com/healthcare/articles/national-health-investors-nhi-q2-215506616.html
-  > National Health Investors (NHI) delivered FFO and revenue surprises of -5.56% and +2.81%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-08-10** · NHI Issues Investor Update — *PR Newswire* — https://finance.yahoo.com/real-estate/articles/nhi-issues-investor-201000577.html
-  > National Health Investors, Inc. (NYSE: NHI) has issued the following investor update which can be found at:
-- **2026-08-10** · NHI Announces Second Quarter 2026 Results — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/nhi-announces-second-quarter-2026-200500401.html
-  > National Health Investors, Inc. (NYSE: NHI) announced today its results for the quarter ended June 30, 2026.
-- **2026-08-07** · National Health Investors (NHI) Could Be 12% Undervalued As New COO Draws Fresh Interest — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/national-health-investors-nhi-could-171727776.html
-  > National Health Investors (NHI) stock is drawing fresh attention after the company named senior housing veteran Chris Maingot as Chief Operating Officer, effective July 27, 2026. The move highlights the company’s management depth in a speci
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Real Estate
 *From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
@@ -118,6 +92,7 @@ Attack these before you trust any number above.
 - CTRE: no_model · price $39.03
 - EPRT: no_model · price $29.97
 - LXP: no_model · price $61.01
+- NHI: no_model · price $65.67
 - RHP: no_model · price $129.33
 - SKT: no_model · price $35.80
 - SLG: no_model · price $52.08

@@ -1,72 +1,94 @@
-# NMIH — NMI HOLDINGS
-*Financials · brief generated 2026-10-16 · selected as **rotation***
+# ASH — ASHLAND
+*Materials · brief generated 2026-10-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 278/1956
+- rotation position 286/1956
 
 ## Market
 | | |
 |---|---|
-| price | $40.10 |
-| market cap | $3.0B |
-| 5d / 21d / 63d / 252d | -1.3% / -6.7% / -6.8% / +10.5% |
-| 60d avg daily $ volume | $25.2M |
-| beta (vs IWM) | 0.53 (R²=0.155) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 88% / debt 12% |
+| price | $71.59 |
+| market cap | $3.3B |
+| 5d / 21d / 63d / 252d | +1.3% / +1.6% / +4.9% / +50.2% |
+| 60d avg daily $ volume | $49.0M |
+| beta (vs IWM) | 0.93 (R²=0.275) |
+| 5d volume vs 60d average | 0.6x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 70% / debt 30% |
 
 ## What the market's price already assumes
-This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
-| | |
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
 |---|---|
-| sustainable ROTCE | +16.0% |
-| cost of equity | +8.0% |
-| justified P/TBV | 2.34 |
-| actual P/TBV | 1.17 |
-| tangible book / share | $34.42 |
-| implied gap | +101.0% |
+| 11.2% − 1pt | n/a |
+| **11.2% (point)** | **n/a** |
+| 11.2% + 1pt | n/a |
 
-Cohort: **96th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +134.0%).
+
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $71.59).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_sales (n=74) | 2.3x | 0.8x / 1.3x / 3.1x | $10.77 / $30.79 / $104.57 |
+| ev_gross_profit (n=71) | 7.7x | 5.1x / 8.1x / 16.1x | $40.47 / $77.15 / $172.35 |
+| p_tbv (n=72) | 5.0x | 1.4x / 2.4x / 3.9x | $19.57 / $34.35 / $56.39 |
+
+Blended midpoint **$47.43** vs price $71.59 — gap **-33.7%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Materials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `speculative_cost_of_debt_at_30%_debt_weight_wacc_unreliable`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000038/nmih-20260630.htm
-- 2026-07-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000037/nmih-20260730.htm
-- 2026-05-15 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000033/nmih-20260514.htm
-- 2026-05-01 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000029/nmih-20260331.htm
-- 2026-04-30 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000027/nmih-20260430.htm
-- 2026-03-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000019/nmih-20260326.htm
-- 2026-02-12 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000012/nmih-20260212.htm
-- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000011/nmih-20251231.htm
-- 2026-02-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000004/nmih-20260210.htm
-- 2025-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1547903/000154790325000103/nmih-20250930.htm
+- 2026-09-25 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526402900/ash-20260924.htm
+- 2026-07-31 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526328710/ash-20260730.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1674862/000119312526324226/ash-20260630.htm
+- 2026-07-28 **8-K** — items 1.01,5.02,7.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526321247/ash-20260727.htm
+- 2026-07-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526321238/ash-20260728.htm
+- 2026-05-29 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526246229/ash-20260528.htm
+- 2026-05-18 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526228980/ash-20260515.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1674862/000119312526191380/ash-20260331.htm
+- 2026-04-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1674862/000119312526187700/ash-20260428.htm
+- 2026-02-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1674862/000119312526035054/ash-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1547903/000154790326000037/exhibit991q22026.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, officer or director change, Reg FD disclosure)* — https://www.sec.gov/Archives/edgar/data/1674862/000119312526321247/ash-ex99_1.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1674862/000119312526321238/ash-ex99_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-## What is happening in Financials
-*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Materials
+*From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
-- **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
-- **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
-- **2026-09-24** · Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/klarna-falls-3-as-selling-persists-weeks-after-its-guidance-cut-affirm-advances-2/
-- **2026-09-24** · How Is Fiserv's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4780463/how-is-fiserv-s-stock-performance-compared-to-other-financial-stocks
-- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
-- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
-- **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
+- **2026-09-25** · Stock Market News for Sep 25, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html
+- **2026-09-17** · Stock Market News for Sep 17, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-17-131700015.html
+- **2026-09-15** · U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/u-steel-materials-stocks-swing-193008928.html
+- **2026-09-14** · How Is LyondellBasell Industries’ Stock Performance Compared to Other Industrial Stocks? — *Barchart* — https://www.barchart.com/story/news/4583485/how-is-lyondellbasell-industries-stock-performance-compared-to-other-industrial-stocks
+- **2026-09-11** · Stock Market News for Sep 11, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html
+- **2026-09-10** · Corteva Stock: Is CTVA Outperforming the Basic Material Sector? — *Barchart* — https://www.barchart.com/story/news/4537459/corteva-stock-is-ctva-outperforming-the-basic-material-sector
+- **2026-09-10** · Dow Stock: Is DOW Outperforming the Materials Sector? — *Barchart* — https://www.barchart.com/story/news/4530570/dow-stock-is-dow-outperforming-the-materials-sector
+- **2026-09-04** · Stock Market News for Sep 4, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html
+- **2026-08-31** · U.S. steel and materials stocks swing amid U.S.-Canada trade war — *Quartz* — https://qz.com/steel-materials-stocks-us-canada-trade-war-tariffs-083126
+- **2026-08-26** · Do Wall Street Analysts Like Martin Marietta Materials Stock? — *Barchart* — https://www.barchart.com/story/news/4099168/do-wall-street-analysts-like-martin-marietta-materials-stock
 
 ## Market and macro context
 
@@ -81,19 +103,17 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Financials
-- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
-- ABR: no_model · price $5.01
-- ACR: no_model · price $14.00
-- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
-- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
-- AOMR: no_edge · price $7.27
-- ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
-- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
-- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
-- BUR: no_model · price $4.35
-- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
-- CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
+## Prior verdicts elsewhere in Materials
+- AMR: no_edge · price $225.41 · fair value $157.90 · gap -29.9%
+- AVNT: rich · price $40.44 · fair value $30.23 · gap -25.2%
+- BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
+- CBT: no_edge · price $79.20 · fair value $83.54 · gap +5.5%
+- CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
+- CSTM: no_edge · price $24.66
+- FRD: no_edge · price $40.80 · fair value $49.94 · gap +22.4%
+- HCC: no_edge · price $105.58 · fair value $100.96 · gap -4.4%
+- PRM: rich · price $31.56 · fair value $11.26 · gap -64.3%
+- SSRM: no_edge · price $37.39
 
 ---
 

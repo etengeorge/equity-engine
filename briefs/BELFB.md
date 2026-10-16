@@ -1,55 +1,53 @@
-# BELFA — BEL FUSE CLASS A
+# BELFB — BEL FUSE CLASS B
 *Information Technology · brief generated 2026-10-16 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 2% of 124 Information Technology peers (98th pct)
-- baseline gap +212%
-- 5d move -9%
-- 21d move -8%
+- cheapest 6% of 124 Information Technology peers (94th pct)
+- baseline gap +159%
+- 5d move -10%
 - Information Technology sector selloff (median -4.1%)
 - moved harder than its sector
 - never researched
-- urgency score 8.82
+- urgency score 7.71
 
 ## Market
 | | |
 |---|---|
-| price | $176.77 |
-| market cap | $384.5M |
-| 5d / 21d / 63d / 252d | -9.4% / -8.1% / -22.7% / +52.1% |
-| 60d avg daily $ volume | $26.6M |
-| beta (vs IWM) | 1.44 (R²=0.316) |
-| 5d volume vs 60d average | 0.8x |
+| price | $219.07 |
+| market cap | $476.5M |
+| 5d / 21d / 63d / 252d | -9.6% / -6.6% / -19.0% / +49.1% |
+| 60d avg daily $ volume | $47.4M |
+| beta (vs IWM) | 1.37 (R²=0.344) |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$77.1M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$68.6M', '$60.0M', '$96.2M']
-Enterprise value **$78.4M** · FCFF yield **+98.4%**
+Enterprise value **$170.3M** · FCFF yield **+45.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 13.0% − 1pt | -49.0% |
-| **13.0% (point)** | **-48.2%** |
-| 13.0% + 1pt | -47.4% |
+| 12.6% − 1pt | -33.0% |
+| **12.6% (point)** | **-31.6%** |
+| 12.6% + 1pt | -30.3% |
 
 
 Naive baseline for comparison: **+7.7%** (5y revenue CAGR +7.7%).
-Gap under that baseline: **+212.2%** (fair value $551.79 vs price $176.77).
+Gap under that baseline: **+159.2%** (fair value $567.87 vs price $219.07).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **98th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +248.4%).
+Cohort: **94th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +195.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `share_count_5555d_stale_market_cap_unreliable`
 - `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
-- `operating_leases_33%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
 
 ## Recent filings
 - 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm
@@ -69,7 +67,7 @@ Attack these before you trust any number above.
 - **2026-07-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/ex_964865.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
 
 - **2026-09-15** · Why Bel Fuse (BELFA) Shares Are Falling Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-bel-fuse-belfa-shares-023530471.html
   > Shares of electronic system and device provider Bel Fuse (NASDAQ:BELFA) fell 7.5% in the afternoon session after the company completed a $441.6 million equity offering, raising investor concerns over share dilution.
@@ -91,6 +89,10 @@ Attack these before you trust any number above.
   > Stocks that outperform the market usually share key traits such as rising sales, expanding margins, and increasing returns on capital. The select few that can do all three for many years are often the ones that make you life-changing money.
 - **2026-08-04** · 3 Growth Stocks to Add to Your Roster — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-add-roster-094122002.html
   > Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.
+- **2026-08-03** · Bel Fuse Inc. Announces Regular Quarterly Cash Dividend on its Class A and Class B Shares — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-inc-announces-regular-133600538.html
+  > WEST ORANGE, N.J., Aug. 03, 2026 (GLOBE NEWSWIRE) -- BEL FUSE INC. (NASDAQ:BELFA) and (NASDAQ:BELFB) today announced that its Board of Directors has declared regular quarterly cash dividends of $0.06 per share on the Company's Class A commo
+- **2026-08-03** · Here’s Why Market Mispriced Bel Fuse (BELFB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/why-market-mispriced-bel-fuse-133205657.html
+  > Greystone Capital Management, an investment management company, released its second-quarter 2026 investor letter. A copy of the letter can be downloaded here. During Q2 2026, Greystone Capital’s median account return was +7.2%, trailing beh
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
@@ -122,6 +124,7 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Information Technology
 - AXTI: no_model · price $81.81
 - BDC: no_model · price $112.52
+- BELFA: no_model · price $176.77
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
 - CORZ: no_model · price $17.37
@@ -131,7 +134,6 @@ Attack these before you trust any number above.
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
 - MARA: no_model · price $13.28
-- MXL: no_model · price $71.51
 
 ---
 

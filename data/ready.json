@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-16T11:26:03+00:00",
+  "screen_utc": "2026-10-16T15:03:41+00:00",
   "price_asof": "2026-10-15",
   "universe": 1956,
   "modelled": 1072,
   "modelled_pct": 54.8,
   "news": {
-    "generated_utc": "2026-10-16T11:26:04+00:00",
+    "generated_utc": "2026-10-16T15:03:42+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 42,
+    "articles_new": 1,
     "candidates": 450,
-    "elapsed_s": 236.5
+    "elapsed_s": 241.3
   },
   "picks": [
-    "NHI",
-    "IMVT",
-    "NMIH",
-    "VCYT",
-    "AMLX",
-    "MIR",
-    "VISN",
-    "FLNG",
-    "BELFA",
-    "LCII"
+    "HIW",
+    "PLMR",
+    "USAR",
+    "FFBC",
+    "ASH",
+    "NATL",
+    "KBH",
+    "BELFB",
+    "BLKB",
+    "STRT"
   ],
   "stages": {
-    "screen": "2026-10-16T11:30:12+00:00",
-    "news": "2026-10-16T11:30:01+00:00",
-    "pick": "2026-10-16T11:30:12+00:00"
+    "screen": "2026-10-16T15:07:57+00:00",
+    "news": "2026-10-16T15:07:44+00:00",
+    "pick": "2026-10-16T15:07:57+00:00"
   }
 }

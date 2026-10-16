@@ -1,95 +1,74 @@
-# FLNG — FLEX LNG
-*Energy · brief generated 2026-10-16 · selected as **opportunistic***
+# PLMR — PALOMAR HOLDINGS
+*Financials · brief generated 2026-10-16 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 2% of 48 Energy peers (98th pct)
-- baseline gap +300%
-- 5d move -9%
-- 21d move -11%
-- Energy sector selloff (median -4.5%)
-- moved harder than its sector
-- never researched
-- urgency score 8.96
+- rotation position 283/1956
 
 ## Market
 | | |
 |---|---|
-| price | $28.64 |
-| market cap | $1.5B |
-| 5d / 21d / 63d / 252d | -9.2% / -11.1% / -4.4% / +29.6% |
-| 60d avg daily $ volume | $11.3M |
-| beta (vs IWM) | 0.23 (R²=0.026) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-06-30 (6-K) |
-| WACC weights | equity 46% / debt 54% |
+| price | $137.61 |
+| market cap | $3.6B |
+| 5d / 21d / 63d / 252d | +4.7% / -2.3% / +2.0% / +15.6% |
+| 60d avg daily $ volume | $30.3M |
+| beta (vs IWM) | 0.33 (R²=0.026) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 92% / debt 8% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$247.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$140.7M', '$182.8M', '$175.0M']
-Enterprise value **$2.9B** · FCFF yield **+8.4%**
+This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
-**Reverse DCF — the 5y FCFF growth the current price requires:**
-
-| WACC | implied 5y FCFF growth |
+| | |
 |---|---|
-| 8.0% − 1pt | -9.5% |
-| **8.0% (point)** | **-5.9%** |
-| 8.0% + 1pt | -2.6% |
+| sustainable ROTCE | +3.3% |
+| cost of equity | +6.9% |
+| justified P/TBV | 0.27 |
+| actual P/TBV | 4.01 |
+| tangible book / share | $34.35 |
+| implied gap | -93.3% |
 
-
-Naive baseline for comparison: **+16.1%** (5y revenue CAGR +16.1%).
-Gap under that baseline: **+299.5%** (fair value $114.43 vs price $28.64).
-
-> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
-
-Cohort: **98th percentile** of 48 Energy names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +281.0%).
+Cohort: **14th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -60.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `unstable_rotce_0.9%_to_5.8%`
 
 ## Recent filings
+- 2026-08-11 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-20260810.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526335508/plmr-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,8.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-20260804.htm
+- 2026-05-29 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526246399/plmr-20260529.htm
+- 2026-05-26 **8-K** — items 5.02,5.07,7.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526239334/plmr-20260521.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526212569/plmr-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,8.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526209013/plmr-20260506.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1761312/000207187626000105/i26118_plmr-def14a.htm
+- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526067364/plmr-20251231.htm
+- 2026-02-23 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526064398/plmr-20260223.htm
 
 ## Earnings materials (8-K exhibits)
-*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
+*The press release and presentation as filed. EX-99.2 is usually the deck.*
+
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-ex99_1.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event)* — https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-- **2026-09-18** · These Shipping Stocks Yield Up to 9%. The Dividends Come With a Catch — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/18/these-shipping-stocks-yield-up-to-9-the-dividends-come-with-a-catch/
-  > Four US-listed shipping stocks are flashing yields as high as 9%, but the contracts, balance sheets, and payout histories behind those numbers tell very different stories about which ones can actually sustain them.
-- **2026-09-17** · FLEX LNG (FLNG) Could Be 61% Below Fair Value On Its Charter Backlog Story — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/flex-lng-flng-could-61-061249227.html
-  > FLEX LNG (NYSE:FLNG) has drawn fresh attention after recently closing at US$32.22, prompting investors to reassess how the liquefied natural gas shipper’s valuation lines up with its fundamentals and longer term share performance. Recent tr
-- **2026-09-17** · Flex LNG - Presentation at the Pareto Securities' Annual Energy Conference — *PR Newswire* — https://finance.yahoo.com/energy/articles/flex-lng-presentation-pareto-securities-052600892.html
-  > Flex LNG - Presentation at the Pareto Securities' Annual Energy Conference
-- **2026-09-14** · Dry Bulk, Gas, & Tanker Shipping Industry Leaders Presenting at Capital Link’s 18th Annual New York Maritime Forum – Wednesday, September 30, 2026, New York City — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/dry-bulk-gas-tanker-shipping-130000735.html
-  > NEW YORK, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Senior executives from leading Dry Bulk, Gas, & Tanker shipping companies will participate on panels at the 18th Annual Capital Link New York Maritime Forum, taking place on Wednesday, September 
-- **2026-09-08** · Industry & Government Leaders Presenting at Capital Link’s 18th Annual New York Maritime Forum - September 30, 2026, in New York City — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/industry-government-leaders-presenting-capital-130000337.html
-  > NEW YORK, Sept. 08, 2026 (GLOBE NEWSWIRE) -- Senior executives from leading shipping companies and the US Administration will participate in panels at Capital Link’s 18th Annual New York Maritime Forum, taking place on Wednesday, September 
-- **2026-08-26** · Flex LNG (FLNG) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/26/flex-lng-flng-q2-2026-earnings-call-transcript/
-  > Vessel revenue hit $106.8 million, highest since 2021, as spot rates surge.
-- **2026-08-25** · Flex LNG Ltd (FLNG) (Q2 2026) Earnings Call Highlights: Record-Breaking Quarter Fueled by ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/flex-lng-ltd-flng-q2-010128221.html
-  > Flex LNG Ltd (FLNG) delivers its second-best quarter since Q4 2021, with adjusted net income more than doubling sequentially, while navigating geopolitical headwinds and a softening spot market.
-- **2026-08-19** · FLEX LNG Ltd. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-flex-lng-ltd-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of FLEX LNG Ltd.'s Q2 2026 earnings call
-- **2026-08-19** · Sector Update: Energy Stocks Mixed Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-200134748.html
-  > Energy stocks were mixed late Wednesday afternoon, with the NYSE Energy Sector Index rising 0.2% and
-- **2026-08-19** · Sector Update: Energy Stocks Advance in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-afternoon-174027747.html
-  > Energy stocks were higher Wednesday afternoon, with the NYSE Energy Sector Index rising 0.4% and the
-
-## What is happening in Energy
-*From the sector ETF feed (XLE), which covers every name in this sector whether or not it got its own pull.*
+## What is happening in Financials
+*From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
 
 - **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-24** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195809963.html
-- **2026-09-24** · Sector Update: Energy Stocks Rise Thursday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-thursday-180651243.html
+- **2026-09-24** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195434925.html
+- **2026-09-24** · Sector Update: Financial Stocks Decrease in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decrease-afternoon-181109505.html
 - **2026-09-24** · Exchange-Traded Funds Mixed, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-us-171353361.html
-- **2026-09-24** · Sector Update: Energy Stocks Rise Premarket Thursday — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132622226.html
+- **2026-09-24** · Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/klarna-falls-3-as-selling-persists-weeks-after-its-guidance-cut-affirm-advances-2/
+- **2026-09-24** · How Is Fiserv's Stock Performance Compared to Other Financial Stocks? — *Barchart* — https://www.barchart.com/story/news/4780463/how-is-fiserv-s-stock-performance-compared-to-other-financial-stocks
+- **2026-09-24** · Sector Update: Financial Stocks Edge Higher Pre-Bell Thursday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-edge-higher-132243262.html
 - **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-23** · Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/23/steve-weiss-dumped-an-energy-stock-that-tripled-the-sp-500-over-a-decade/
-- **2026-09-23** · Sector Update: Energy Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195603421.html
-- **2026-09-23** · Sector Update: Energy Stocks Rise Wednesday Afternoon — *MT Newswires* — https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-wednesday-180336346.html
-- **2026-09-23** · Exchange-Traded Funds, US Equities Decline After Midday — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171556743.html
+- **2026-09-24** · Interest Rates Are Rising. Here's the ETF I'd Buy to Profit From It. — *Motley Fool* — https://www.fool.com/investing/2026/09/24/interest-rates-rising-etf-to-buy-profit-today-xlf/
+- **2026-09-23** · Sector Update: Financial Stocks Softer Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-195724678.html
 
 ## Market and macro context
 
@@ -104,19 +83,19 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Energy
-- AROC: no_edge · price $32.96 · fair value $34.64 · gap +5.1%
-- ASC: no_edge · price $17.61
-- CNX: no_edge · price $35.91 · fair value $53.11 · gap +47.9%
-- CRGY: no_edge · price $13.01
-- HP: no_edge · price $40.91
-- LPG: no_edge · price $55.20 · fair value $70.28 · gap +27.3%
-- MGY: no_edge · price $26.80 · fair value $38.22 · gap +42.6%
-- NVGS: no_model · price $25.06
-- PARR: no_edge · price $76.97
-- PTEN: no_edge · price $13.15 · fair value $13.58 · gap +3.3%
-- RES: no_edge · price $6.57 · fair value $9.02 · gap +37.4%
-- RIG: no_model · price $5.76
+## Prior verdicts elsewhere in Financials
+- ABCB: no_edge · price $84.99 · fair value $63.06 · gap -25.8%
+- ABR: no_model · price $5.01
+- ACR: no_model · price $14.00
+- AII: no_edge · price $26.16 · fair value $29.15 · gap +11.4%
+- AMSF: no_edge · price $25.99 · fair value $27.31 · gap +5.1%
+- AOMR: no_edge · price $7.27
+- ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
+- AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
+- AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
+- BUR: no_model · price $4.35
+- CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
+- CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
 
 ---
 

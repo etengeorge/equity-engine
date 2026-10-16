@@ -1,101 +1,76 @@
-# MIR — MIRION TECHNOLOGIES CLASS A
-*Information Technology · brief generated 2026-10-16 · selected as **rotation***
+# BLKB — BLACKBAUD
+*Information Technology · brief generated 2026-10-16 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- rotation position 281/1956
+- cheapest 8% of 124 Information Technology peers (92th pct)
+- baseline gap +100%
+- discounted: stock comp is 44% of reported FCFF
+- 5d move +15%
+- 21d move +15%
+- Information Technology sector selloff (median -4.1%)
+- moved harder than its sector
+- never researched
+- urgency score 6.79
 
 ## Market
 | | |
 |---|---|
-| price | $15.54 |
-| market cap | $291.4M |
-| 5d / 21d / 63d / 252d | -4.2% / -1.9% / -2.7% / -37.5% |
-| 60d avg daily $ volume | $63.4M |
-| beta (vs IWM) | 1.1 (R²=0.228) |
-| 5d volume vs 60d average | 1.2x |
+| price | $51.39 |
+| market cap | $2.3B |
+| 5d / 21d / 63d / 252d | +14.6% / +14.7% / +58.6% / -19.5% |
+| 60d avg daily $ volume | $22.5M |
+| beta (vs IWM) | 0.57 (R²=0.058) |
+| 5d volume vs 60d average | 1.1x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 28% / debt 72% |
+| WACC weights | equity 67% / debt 33% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$71.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$106.9M', '$50.3M', '$58.1M']
-Enterprise value **$680.5M** · FCFF yield **+10.5%**
+Normalized FCFF base **$298.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$257.8M', '$288.5M', '$194.9M']
+Enterprise value **$3.4B** · FCFF yield **+8.6%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 6.3% − 1pt | -21.5% |
-| **6.3% (point)** | **-17.0%** |
-| 6.3% + 1pt | -13.2% |
+| 7.8% − 1pt | -10.9% |
+| **7.8% (point)** | **-7.1%** |
+| 7.8% + 1pt | -3.8% |
 
 
-> **Stock compensation is 24% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$54.2M** and an implied growth of **-11.5%** instead of -17.0%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 44% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$189.5M** and an implied growth of **+2.8%** instead of -7.1%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+25.0%** (4y revenue CAGR +56.5% (clamped to +25.0%)).
-Gap under that baseline: **+1300.8%** (fair value $217.68 vs price $15.54).
+Naive baseline for comparison: **+4.3%** (5y revenue CAGR +4.3%).
+Gap under that baseline: **+100.1%** (fair value $102.82 vs price $51.39).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **100th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +1337.0%).
+Cohort: **92th percentile** of 124 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +136.4%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `possible_peak_cycle_base_newest_fcf_1.8x_oldest_growth_applied_to_a_peak_overstates_value`
-- `stock_comp_is_24%_of_fcff_reported_cash_flow_treats_it_as_free`
-- `extreme_gap_+1301%_treat_as_suspected_data_error`
+- `stock_comp_is_44%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-31 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026059593/mir-20260831.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1809987/000162828026050604/mir-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026050171/mir-20260728.htm
-- 2026-07-02 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026046912/mir-20260702.htm
-- 2026-05-14 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026035077/mir-20260513.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1809987/000162828026028363/mir-20260331.htm
-- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026027943/mir-20260428.htm
-- 2026-04-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1809987/000162828026024837/mir-20260409.htm
-- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1809987/000162828026022790/a2026defa14a.htm
-- 2026-04-01 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1809987/000162828026022786/mir-20260401.htm
+- 2026-08-10 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000027/blkb-20260805.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000025/blkb-20260630.htm
+- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000022/blkb-20260729.htm
+- 2026-06-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000018/blkb-20260610.htm
+- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000016/blkb-20260331.htm
+- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000013/blkb-20260429.htm
+- 2026-04-21 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000009/blkb-20260418.htm
+- 2026-02-18 **10-K** — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000006/blkb-20251231.htm
+- 2026-02-10 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000002/blkb-20260210.htm
+- 2025-12-22 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1280058/000128005825000060/blkb-20251217.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1809987/000162828026050171/a2026-07x28exhibit991.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1280058/000128005826000022/blkbq22026exhibit991.htm
 
 ## News on this company — last 90 days
-*15 items held; showing the 15 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-08** · Mirion CFO Brian Schopfer Buys 20,000 — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/08/mirion-cfo-brian-schopfer-buys-20-000/
-  > The stock price has declined over the past 12 months, so this insider purchase reflects confidence in the company.
-- **2026-09-04** · 1 Stock Under $50 with Promising Prospects and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-promising-215810310.html
-  > Stocks in the $10-50 range offer a sweet spot between affordability and stability as they’re typically more established than penny stocks. But their headline prices don’t guarantee quality, and investors should exercise caution as some have
-- **2026-09-03** · Why Mirion (MIR) Stock Is Trading Up Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-mirion-mir-stock-trading-203118592.html
-  > Shares of radiation safety company Mirion (NYSE:MIR) jumped 8.3% in the morning session after Jefferies initiated coverage on the company with a Buy rating and a price target of $20.00. According to CNBC, Jefferies analyst Laurence Alexande
-- **2026-09-03** · 2 Stocks Under $50 to Target This Week and 1 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-stocks-under-50-target-102318312.html
-  > Stocks in the $10-50 range offer a sweet spot between affordability and stability as they’re typically more established than penny stocks. But their headline prices don’t guarantee quality, and investors should exercise caution as some have
-- **2026-09-01** · Q2 Rundown: Mirion (NYSE:MIR) Vs Other Specialized Technology Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-rundown-mirion-nyse-mir-170620311.html
-  > Wrapping up Q2 earnings, we look at the numbers and key takeaways for the specialized technology stocks, including Mirion (NYSE:MIR) and its peers.
-- **2026-08-25** · Is Mirion Technologies (MIR) Reasonable On Cash Flow Or Rich On Earnings? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/mirion-technologies-mir-reasonable-cash-170759187.html
-  > Mirion Technologies stock presents a clear valuation split. The intrinsic value estimate based on a Discounted Cash Flow (DCF) approach points to the shares trading below that estimate, while market multiples suggest the stock is priced on 
-- **2026-08-24** · 1 Cash-Producing Stock for Long-Term Investors and 2 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-long-083336643.html
-  > A company that generates cash isn’t automatically a winner. Some businesses stockpile cash but fail to reinvest wisely, limiting their ability to expand.
-- **2026-08-04** · Perma-Fix and Mirion Technologies Form Strategic Partnership for DOE and Federal Nuclear Cleanup Opportunities — *GlobeNewswire* — https://finance.yahoo.com/small-business/articles/perma-fix-mirion-technologies-form-123000724.html
-  > ATLANTA, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Perma-Fix Environmental Services, Inc. (NASDAQ: PESI), a global leader in nuclear waste management and environmental remediation solutions, announced today the formation of a strategic Partnership 
-- **2026-07-31** · 2 Small-Cap Stocks to Consider Right Now and 1 We Ignore — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-small-cap-stocks-consider-201157758.html
-  > Investors looking for hidden gems should keep an eye on small-cap stocks because they’re frequently overlooked by Wall Street. Many opportunities exist in this part of the market, but it is also a high-risk, high-reward environment due to t
-- **2026-07-30** · Mirion Technologies Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/mirion-technologies-q2-earnings-call-highlights-2026-07-30/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Mirion Technologies (NYSE:MIR) reported second-quarter revenue growth of nearly 20%, driven largely by acquisitions, while organic growth remained modest and the company maintained its full-year outlook on expectations for a stronger second
-- **2026-07-29** · Mirion Technologies Inc (MIR) Q2 2026 Earnings Call Highlights: Robust Revenue Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/mirion-technologies-inc-mir-q2-210410483.html
-  > Mirion Technologies Inc (MIR) reports a 20% revenue increase and strategic AI investments, despite challenges in organic growth and the medical segment.
-- **2026-07-29** · Mirion Technologies, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-mirion-technologies-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Mirion Technologies, Inc.'s Q2 2026 earnings call
-- **2026-07-28** · Here's What Key Metrics Tell Us About Mirion Technologies (MIR) Q2 Earnings — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-223001316.html
-  > Although the revenue and EPS for Mirion Technologies (MIR) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago num
-- **2026-07-28** · Mirion Technologies, Inc. (MIR) Q2 Earnings Beat Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/mirion-technologies-inc-mir-q2-220009121.html
-  > Mirion Technologies (MIR) delivered earnings and revenue surprises of +20.00% and -1.81%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-07-28** · Mirion (NYSE:MIR) Misses Q2 CY2026 Sales Expectations — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mirion-nyse-mir-misses-q2-205100104.html
-  > Radiation safety company Mirion (NYSE:MIR) fell short of the market’s revenue expectations in Q2 CY2026, but sales rose 19.7% year on year to $266.8 million. Its non-GAAP profit of $0.12 per share was 17% above analysts’ consensus estimates
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
@@ -127,6 +102,7 @@ Attack these before you trust any number above.
 ## Prior verdicts elsewhere in Information Technology
 - AXTI: no_model · price $81.81
 - BDC: no_model · price $112.52
+- BELFA: no_model · price $176.77
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
 - CORZ: no_model · price $17.37
@@ -136,7 +112,6 @@ Attack these before you trust any number above.
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
 - MARA: no_model · price $13.28
-- MXL: no_model · price $71.51
 
 ---
 
