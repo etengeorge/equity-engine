@@ -70,53 +70,5 @@
    "SLP"
   ],
   "source": "yfinance"
- },
- {
-  "id": "dac59d8c-1075-313d-8371-4096d9dba193",
-  "ts": "2026-06-17T09:56:48+00:00",
-  "title": "Altaris to acquire Simulations Plus in $375m all-cash deal",
-  "summary": "Completion of the transaction is expected in the fourth quarter of 2026.",
-  "publisher": "Hospital Management",
-  "url": "https://www.hospitalmanagement.net/news/altaris-to-acquire-simulations-plus/",
-  "tickers": [
-   "SLP"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "95ecf46d-d906-3d0f-846b-5475e2a5d180",
-  "ts": "2026-06-16T17:31:07+00:00",
-  "title": "Sector Update: Tech Stocks Fall Tuesday Afternoon",
-  "summary": "Tech stocks were lower Tuesday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
-  "publisher": "MT Newswires",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-tuesday-173107360.html",
-  "tickers": [
-   "SLP"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "0ebd6fef-21de-3ea6-ada1-9aee2b46b219",
-  "ts": "2026-06-16T17:24:33+00:00",
-  "title": "Why Shares in Simulation Plus Soared Today",
-  "summary": "Shareholders woke up to the idea that their company will have a new owner by the end of the year.",
-  "publisher": "Motley Fool",
-  "url": "https://www.fool.com/investing/2026/06/16/why-shares-in-simulation-plus-soared-today/",
-  "tickers": [
-   "SLP"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "35218f90-0174-35aa-9fe4-ce29547a6b56",
-  "ts": "2026-06-16T13:00:00+00:00",
-  "title": "Simulations Plus to Be Acquired by Altaris For Approximately $375 Million",
-  "summary": "RESEARCH TRIANGLE PARK, N.C., June 16, 2026--Simulations Plus, Inc. (Nasdaq: SLP) (\"Simulations Plus\" or the \"Company\"), a global leader in model-informed and AI-accelerated drug development that advances biopharma innovation, today announced that it has entered into a definitive agreement to be acquired by affiliates of Altaris, LLC (\"Altaris\"), an investment firm with an exclusive focus on acquiring and building companies in the healthcare industry, in an all-cash transaction. At or about the",
-  "publisher": "Business Wire",
-  "url": "https://finance.yahoo.com/healthcare/articles/simulations-plus-acquired-altaris-approximately-130000846.html",
-  "tickers": [
-   "SLP"
-  ],
-  "source": "yfinance"
  }
 ]

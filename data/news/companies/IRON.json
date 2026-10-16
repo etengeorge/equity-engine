@@ -58,17 +58,5 @@
    "IRON"
   ],
   "source": "yfinance"
- },
- {
-  "id": "f68aa18d-db88-3f54-af98-829bd7c9ba52",
-  "ts": "2026-06-12T12:30:00+00:00",
-  "title": "Disc Medicine Presents Positive Clinical Updates at the 2026 European Hematology Association (EHA) Annual Meeting",
-  "summary": "Data from the RALLY-MF trial of DISC-0974 in patients with myelofibrosis (MF) and anemia demonstrate meaningful, durable overall anemia responses across all patient subgroups, regardless of baseline transfusion status or concomitant JAK inhibitor useUpdated data from the HELIOS open-label extension trial of bitopertin in erythropoietic protoporphyria (EPP) show sustained reductions in protoporphyrin IX (PPIX), significant improvement in light tolerance measures, and favorable longer-term safety",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/sectors/healthcare/articles/disc-medicine-presents-positive-clinical-123000675.html",
-  "tickers": [
-   "IRON"
-  ],
-  "source": "yfinance"
  }
 ]

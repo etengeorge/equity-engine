@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-09T17:11:29+00:00",
-  "price_asof": "2026-10-08",
+  "screen_utc": "2026-10-16T11:26:03+00:00",
+  "price_asof": "2026-10-15",
   "universe": 1956,
-  "modelled": 1071,
+  "modelled": 1072,
   "modelled_pct": 54.8,
   "news": {
-    "generated_utc": "2026-10-09T17:11:31+00:00",
+    "generated_utc": "2026-10-16T11:26:04+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 2,
+    "articles_new": 42,
     "candidates": 450,
-    "elapsed_s": 267.8
+    "elapsed_s": 236.5
   },
   "picks": [
-    "FSLY",
-    "PII",
-    "CALM",
-    "OTTR",
-    "EXPO",
-    "VGNT",
-    "CD",
-    "OPCH",
-    "OXM",
-    "BCO"
+    "NHI",
+    "IMVT",
+    "NMIH",
+    "VCYT",
+    "AMLX",
+    "MIR",
+    "VISN",
+    "FLNG",
+    "BELFA",
+    "LCII"
   ],
   "stages": {
-    "screen": "2026-10-09T17:16:11+00:00",
-    "news": "2026-10-09T17:15:58+00:00",
-    "pick": "2026-10-09T17:16:11+00:00"
+    "screen": "2026-10-16T11:30:12+00:00",
+    "news": "2026-10-16T11:30:01+00:00",
+    "pick": "2026-10-16T11:30:12+00:00"
   }
 }
