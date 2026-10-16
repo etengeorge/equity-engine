@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>AMLX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / AMLX</p><h1>AMLX <span style='color:var(--faint);font-weight:400'>AMYLYX PHARMACEUTICALS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$27.65</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-16</b></div></div><div class='prose'><h1>AMLX — AMYLYX PHARMACEUTICALS</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-16 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $27.65</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Amylyx is a pre-revenue company again, and its $3.1bn market capitalisation is a single de-risked asset: avexitide, a first-in-class GLP-1 receptor antagonist with FDA Breakthrough Therapy Designation for post-bariatric hypoglycaemia. On 2026-08-18 the pivotal Phase 3 LUCIDITY trial MET its FDA-agreed primary endpoint with a 55% reduction in the composite rate of Level 2 and Level 3 hypoglycaemic events versus placebo at p=0.000003, met ALL secondary endpoints with &#x27;consistent, highly statistically significant&#x27; reductions, and was generally well tolerated. That is as clean a Phase 3 result as this universe produces. There is no approved therapy for PBH, the company puts roughly 600,000 US patients living with non-muscle-invasive... (see risks) - in PBH specifically it cites a population reached through roughly 85,000 annual bariatric-surgery-related diagnoses - and management guides to an NDA submission with a potential commercial launch in 2027. The market is paying for a high-probability approval in an uncontested indication. It is not paying for cash flows, because there are none.</p><p><strong>What changed.</strong> Three material events since the last 10-K, and the engine sees none of them. (1) POSITIVE PIVOTAL PHASE 3, 2026-08-18: LUCIDITY met the FDA-agreed primary endpoint - 55% reduction in composite Level 2/Level 3 hypoglycaemic events versus placebo, p=0.000003 - and all secondary endpoints, in 78 randomised adults with PBH following Roux-en-Y gastric bypass. This is what the +55.8% sixty-three-day and +94.9% twelve-month returns are. (2) A LARGE PRIMARY EQUITY OFFERING, 2026-08-19/21, filed under ITEM 1.01: an underwriting agreement with Leerink, Morgan Stanley, Guggenheim and LifeSci for 14,090,000 firm shares at $35.50 to the public, plus a 30-day option on 2,113,500 more, with aggregate net proceeds of approximately $471.7M (approximately $542.5M if the option was exercised in full), all primary, closing 2026-08-21, to fund &#x27;the potential commercial launch of avexitide in the United States, if approved, including securing additional manufacturing capacity&#x27;. THE STOCK NOW TRADES AT $27.65 AGAINST THAT $35.50 OFFERING PRICE - 22% BELOW, under two months later. (3) TAKE-OR-PAY MANUFACTURING COMMITMENTS, 2026-09-01/08, also item 1.01: a Bachem Americas Manufacturing and Supply Agreement with minimum annual drug-substance purchase obligations BEGINNING IN 2028 on a five-year initial term auto-renewing in three-year periods, and a Polypeptide Group term sheet carrying a $30 MILLION UPFRONT CAPACITY-RESERVATION FEE plus minimum annual purchases from 2028. Both are commitments made before approval exists.</p><p><strong>Base case.</strong> No growth rate and no fair value. There is no FCFF base at all (the brief prints &#x27;mean of CFO-capex over 0y&#x27;, <code>nonpositive_normalized_fcff</code>), no enterprise value and no baseline, so there is nothing to override; cfo minus capex runs [-$123.5M, -$167.8M, +$10.7M] newest first and the revenue series [0, $87.4M, $380.8M, $22.2M] is not a concept switch or a predecessor artifact but a real corporate history - RELYVRIO was approved, generated $380.8M, failed its confirmatory PHOENIX trial and was withdrawn, taking revenue to zero. The engine&#x27;s step-change detector would read that as a tagging error; it is not, and recording the negative result matters because the HRI/TNET/MARA rule would otherwise mislead the next analyst. THE MULTIPLES FALLBACK MUST BE DISREGARDED, and on this name it is at its worst. The sole row is p_tbv at 12.9x against an unranked Health Care cohort, blending to $7.87 against $27.65 - a -71.5% &#x27;gap&#x27; - and tangible book on a pre-revenue, pre-approval company IS the cash balance, most of which was raised eight weeks ago. So the metric says only that the market pays 12.9x the money Amylyx has left, it would have printed a far &#x27;cheaper&#x27; number the day before the $471.7M raise and a dearer one the day after, and it moves in the opposite direction to the thing that actually changed the company&#x27;s value - a successful Phase 3. Per the RIOT/EPRT and MXL discipline this is a refusal, not a weak signal. Valuing avexitide requires a probability-of-approval, an addressable PBH population, a price per patient per year and a launch curve, none of which this engine contains and none of which I will improvise. WHAT I CAN RECORD, AND WHAT THE ENGINE CANNOT SEE, IS THAT TWO OF ITS INPUTS ARE NOW STALE IN A WAY NO FRESHNESS TEST CATCHES: shares_asof is 2026-07-27 - only 81 days old and taken from the correct dei cover-page concept, so every provenance and age gate passes - and it predates the 2026-08-21 closing by 25 days. The count of 111,423,048 is therefore short by at least 14,090,000 shares (12.6%), so market capitalisation is roughly $3.47bn rather than $3.08bn. This is the MCFT and MGY shape, with a refinement worth recording: THE ONDS GATE WOULD MISS IT. That entry gates on item 3.02 unregistered-equity filings, but a REGISTERED follow-on off a shelf is filed under ITEM 1.01 with an underwriting agreement (here off Form S-3ASR File No. 333-293956), with no item 3.02 anywhere - and the same is true of BELFA&#x27;s May 2026 offering in today&#x27;s ten. Two instances in one session makes it a population: the gate must read item 1.01 8-Ks for an underwriting agreement, not just item 3.02.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That this is the one clinical-stage name in today&#x27;s ten where the refusal costs something real. The binary event has ALREADY HAPPENED and it succeeded: the primary endpoint cleared at p=0.000003 with every secondary met, which removes most of the scientific risk that normally makes a biotech unvaluable. What remains is regulatory and commercial, both of which are routinely modelled. Meanwhile the stock is 22% BELOW the price at which institutions bought $471.7M of it three weeks after the data - so either those buyers were wrong or the current price is an opportunity, and &#x27;no_model&#x27; answers neither.</li><li>What would prove it: The NDA submission and acceptance, the PDUFA date, and the launch economics - specifically the price per patient per year and the diagnosed-and-treated PBH population, which is the input that separates a $1bn product from a $200M one. The 22% drawdown from the offering price would be settled by knowing whether it reflects a specific concern (a regulatory interaction, a competitive entry) or simply the indigestion of a 12.6% share-count increase placed into a stock that had doubled.</li><li>Already visible today: The drawdown&#x27;s CAUSE is not visible to me and that is the gap I most want closed. What IS visible and cuts against the easy bull reading: the offering was priced at $35.50 when the stock had just risen on the data, so the $471.7M was raised into strength and the subsequent 22% decline is at least partly the mechanical absorption of 14.09M new shares - but I cannot rule out that something specific has changed, because I did not find a primary document between 2026-09-08 and today. The commitments are visible and they are a genuine new liability: minimum purchases from 2028 and $30M already pledged, before an approval exists.</li><li>Left unresolved: The probability and timing of approval, the addressable PBH population and the price, which together are the entire valuation - and the reason for the 22% decline from the August offering price. I also did not confirm whether the underwriters exercised the 2,113,500-share option, so the true share count is somewhere between 125,513,048 and 127,626,548 and my corrected market capitalisation is a lower bound.</li></ul><p><strong>Key risks.</strong> Pre-revenue and pre-approval: no FCFF base, no enterprise value, nothing to apply a growth rate to; shares_asof 2026-07-27 predates the 2026-08-21 offering by 25 days: the count is short by at least 14,090,000 shares (12.6%), so market capitalisation is ~$3.47bn not $3.08bn - and NO freshness or provenance gate catches it, because the date is recent and the concept is correct; The p_tbv multiple of 12.9x prices the company against a cash balance raised eight weeks ago and must be disregarded; the cohort is explicitly not ranked; Take-or-pay manufacturing commitments made BEFORE approval: minimum annual drug-substance purchases from 2028 under the Bachem agreement, plus a $30M upfront capacity-reservation fee to Polypeptide - obligations in neither total_debt nor the share count (the PRM pattern); The stock trades 22% below the $35.50 August offering price, and I could not establish why; A 78-patient pivotal in a chronic indication: long-term safety and durability beyond the 16-week double-blind period remain open; RELYVRIO&#x27;s history is a direct precedent for this management team: approved, $380.8M of revenue, confirmatory trial failed, withdrawn <strong>Watch for.</strong> NDA submission, acceptance and the PDUFA date for avexitide in PBH; Whether the 2,113,500-share underwriters&#x27; option was exercised; Launch economics: price per patient per year and the diagnosed PBH population; The definitive Polypeptide Manufacturing Agreement, and the size of the 2028 minimum purchase obligations once the exhibits are filed with the Q3 10-Q; Any explanation for the 22% decline from the August offering price</p><p><strong>Data quality.</strong> The three flags raised - <code>nonpositive_normalized_fcff</code>, <code>negative_fcf_year_in_window</code>, <code>lumpy_fcff_spread_1.9x_of_mean</code> - are correct and the first is dispositive. Multiples explicitly DISREGARDED: the sole p_tbv row sits against an unranked cohort and measures the cash balance, so the -71.5% blend is noise and would have moved sharply in the wrong direction across the August financing. UNFLAGGED AND FOUND BY RUNNING THE BRIEF&#x27;S OWN 8-K INSTRUCTION: (1) a $471.7M-net primary equity offering closing 2026-08-21, which postdates shares_asof (2026-07-27) by 25 days and understates the count by 12.6% - the MCFT/MGY shape, with the refinement that it was filed under ITEM 1.01 as an underwriting agreement off an S-3ASR shelf and carries NO item 3.02, so the ONDS unregistered-equity gate is structurally blind to registered follow-ons; BELFA in today&#x27;s same ten is a second instance of exactly that, which makes it a population rather than an anecdote. (2) Item 1.01 manufacturing commitments with minimum annual purchases from 2028 and a $30M upfront capacity fee, in neither debt nor shares. NEGATIVE RESULT WORTH RECORDING: the revenue_series step change [0, $87.4M, $380.8M, $22.2M] trips the HRI/TNET/MARA predecessor-or-concept-switch detector and is NOT a defect - it is the real history of RELYVRIO&#x27;s approval, $380.8M of sales, confirmatory-trial failure and withdrawal. dep_amort_series is also EMPTY, so any EBITDA figure would be EBIT only.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1658551/000119312526354716/d180533d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1658551/000119312526354716/d180533d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1658551/000119312526359418/d179247d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1658551/000119312526359418/d179247d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/d160615d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/d160615d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1658551/000119312526336682/amlx-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1658551/000119312526336682/amlx-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1658551/000119312526336670/amlx-20260806.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1658551/000119312526336670/amlx-20260806.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/AMLX.md'>research/Health Care/AMLX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,54 @@
+{
+  "ticker": "MIR",
+  "date": "2026-10-16",
+  "sector": "Information Technology",
+  "name": "MIRION TECHNOLOGIES CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 15.539999961853027,
+  "market_implied_growth": -0.1702213109348661,
+  "cohort_pct": 100.0,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I have over-read the share count and the engine is right - specifically, that 18,750,000 might be a legitimate economic count on some Up-C or multi-class structure I have not understood, as the LXP entry warns ('a prior lesson is a hypothesis to test against the filing, not a conclusion to apply'), and that I am about to 'fix' a number that is already correct.",
+    "what_would_prove_it": "The cover page of the most recent 10-Q, read directly rather than inferred.",
+    "already_visible": "Yes, and it defeats the counter conclusively. The fetched 10-Q cover page states: 'As of July 23, 2026, there were 243,278,092 shares of Class A common stock, $0.0001 par value per share, and 5,759,555 shares of Class B common stock, $0.0001 par value per share, issued and outstanding.' The balance sheet repeats it (243,266,822 Class A and 5,759,555 Class B at 2026-06-30). Mirion is not an Up-C and there is no exchangeable-unit structure; the Class B is a small voting block. A second, independent check agrees: the brief reports $63.4M of average daily dollar volume against a claimed $291.4M market capitalisation - 22% of the company changing hands every day, which is impossible and is itself a free tell that the denominator is wrong. Secondary sources independently put the count at 244.7-247.8M.",
+    "unresolved": "The correct total debt. The extract carries $758.2M; the 10-Q's debt note shows an $830.0M term loan facility with a 'Total debt 451.6' subtotal plus separately disclosed 2030 and 2031 convertible notes net of issuance costs. I used the extract's $758.2M for the corrected enterprise value, so my $4.21bn could be off by a few hundred million either way - immaterial against a 13.3x share-count error but it means my corrected implied-growth range is approximate. I also did not establish how much of the $32.7M EBIT is purchase-accounting amortisation, so I cannot say whether the synthetic cost of debt is additionally distorted in the CLVT/HP way, though with $1.86bn of goodwill on a $4.6bn capital structure it very likely is."
+  },
+  "what_changed": "Nothing in the business explains the brief; the defect does. Filings read: 10-Q 2026-07-29 (Q2), 8-K 2026-07-28 (item 2.02 earnings), 8-K 2026-08-31 (items 8.01/9.01), two item 5.02 officer changes (2026-04-13, 2026-07-02), 10-Q 2026-04-29. No item 1.01, 2.01, 3.02 or 4.02 in the last two quarters, so no acquisition, financing or equity issuance invalidates the balance sheet. The 10-Q confirms the capital structure the engine partly missed: an $830.0M senior secured first lien term loan maturing 2032 at SOFR + 2.00% (5.70% at 2026-06-30, 5.78% at 2025-12-31), a $175.0M revolver, plus 2030 and 2031 convertible notes; total debt $451.6M on the note's own subtotal against the extract's $758.2M; interest expense $8.4M in Q2 and $16.8M for six months, roughly $34M annualised. No repayments in H1 2026 against $244.6M repaid in 2025.",
+  "consensus_case": "There is no consensus case to steelman, because the price the model is reasoning about is not Mirion's price. The engine values the equity at $291.4M; Mirion's 10-Q cover page dated 2026-07-23 reads 243,278,092 Class A shares plus 5,759,555 Class B = 249,037,647 shares, which at $15.54 is a market capitalisation of $3.87bn. The engine's count is 18,750,000 - low by a factor of 13.3 - so every per-share and enterprise figure on the brief describes a company that does not exist. What the market is actually paying for is a nuclear and medical radiation-detection business with $925.4M of revenue, roughly $1.86bn of goodwill from its 2021 de-SPAC and subsequent deals, $758.2M of debt against $418.7M of cash, and a stock down 37.5% over twelve months. At the corrected enterprise value of about $4.21bn against the $71.8M FCFF base, the market requires between +23.7% and +47.0% five-year FCFF growth depending on the discount rate - the opposite sign from the -17.0% the brief reports.",
+  "base_case_rationale": "No base case can be stated, because the input that sets every per-share figure is wrong by 13.3x and the schema cannot override a share count. The root defect is the HNGE signature exactly: shares_source reads 'us-gaap:CommonStockSharesOutstanding (10-Q)' rather than the dei cover-page fact, dated 2025-09-30. Two things make this instance worse than HNGE. First, the value used - 18,750,000 - matches NEITHER class (Class A was 244,662,792 and Class B 5,869,555 at 2025-12-31), so it is not even a one-class read: 18,750,000 is a round number that on this filer is almost certainly the SPAC SPONSOR / FOUNDER SHARE block from the 2021 GS Acquisition Holdings II de-SPAC, and the 10-Q's own EPS note confirms founder shares are carved out of the basic calculation ('Class A common stock issued and outstanding is included in the Company's basic earnings per share calculation, with the exception of founder shares'). A de-SPAC's founder block tagged under the balance-sheet concept on a member axis, read un-dimensioned, is a new variant worth its own gate. Second, the error cascades into the DISCOUNT RATE, which no previous share-count entry records: because market capitalisation is understated 13.3x, the WACC debt weight computes as 72% against a true 16.4% ($758.2M over $4.63bn), so the 6.3% WACC is a cost of debt wearing an equity label. Correcting the enterprise value alone takes the implied growth from -17.0% to +23.7%; correcting the WACC as well takes it to +40.6% at a beta of 1.1 and +47.0% at an 11% WACC. Against revenue growing from $860.8M to $925.4M - about 7.5% - a requirement of +24% to +47% is demanding, so the +1300.8% gap at the 100th percentile of 124 Information Technology names does not shrink, it INVERTS. Two further defects compound it and both were unflagged: interest_expense is None against $758.2M of recorded debt (the CON defect), so the after-tax add-back of roughly $25M is missing from the base entirely; and revenue_series carries a de-SPAC stub as its oldest observation ([$925.4M, $860.8M, $800.9M, $717.8M, $154.1M]), which is what produces the '4y revenue CAGR +56.5% (clamped to +25.0%)' baseline that generates the headline gap. The $154.1M is a partial post-merger period, not a year. No fair value is recorded: per the YOU and SFBS discipline, pricing any base through a count 13.3x too low publishes a per-share number roughly thirteen times too high, which is worse than recording nothing.",
+  "key_risks": [
+    "Every per-share figure on the brief is void: shares 18,750,000 against a cover page of 249,037,647 (13.3x)",
+    "Market capitalisation $291.4M against a true ~$3.87bn; enterprise value $680.5M against ~$4.21bn (6.2x)",
+    "WACC 6.3% is built on a 72% debt weight against a true 16.4% - the share-count error corrupts the discount rate, not just the numerator",
+    "interest_expense is None against $758.2M of debt, so roughly $25M of after-tax add-back is missing from the FCFF base (CON defect)",
+    "revenue_series oldest observation $154.1M is a 2021 de-SPAC stub period, which is what produces the +56.5% CAGR baseline and the headline gap"
+  ],
+  "watch_for": [
+    "A corrected share count in the extract - until then this name will re-qualify at the 100th percentile every session and consume a slot",
+    "Whether shares_source is gated on the dei cover-page CONCEPT, which would fix this, HNGE and the de-SPAC founder-share family at once"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1809987/000162828026050604/mir-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1809987/000162828026050171/mir-20260728.htm",
+    "https://www.sec.gov/Archives/edgar/data/1809987/000162828026059593/mir-20260831.htm"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_1.8x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_24%_of_fcff_reported_cash_flow_treats_it_as_free",
+    "extreme_gap_+1301%_treat_as_suspected_data_error"
+  ]
+}

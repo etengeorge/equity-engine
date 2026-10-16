@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>BELFA — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / BELFA</p><h1>BELFA <span style='color:var(--faint);font-weight:400'>BEL FUSE CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$176.77</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-16</b></div></div><div class='prose'><h1>BELFA — BEL FUSE CLASS A</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-16 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $176.77</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> There is no consensus case to steelman at the price the model is using, because the model is pricing 2,174,912 shares of a company that has 14,439,450. Bel Fuse&#x27;s 2026-06-30 balance sheet reads 2,115,263 Class A shares and 12,324,187 Class B shares outstanding; the engine uses a Class A count taken from a 10-Q/A dated 2011-08-01. On the two classes&#x27; own market prices ($176.77 for BELFA and $219.07 for BELFB) the economic market capitalisation is about $3.07bn, not $384.5M - low by 8.0x. What the market is actually paying for is a power-conversion and connectivity component maker with $675.5M of LTM revenue, 16.4% EBIT margins, $306.1M of cash, NO debt, and an 80% stake in Enercon Technologies with a commitment to buy the remaining 20%. At a corrected enterprise value near $2.77bn against the $77.1M FCFF base, the market requires roughly +32% to +39% five-year FCFF growth - not the -48.2% the brief reports.</p><p><strong>What changed.</strong> The 2026-06-30 10-Q carries three events the engine is blind to. (1) A MAY 2026 FOLLOW-ON EQUITY OFFERING: 1,725,000 Class B shares at $266.00, gross proceeds $458.9M, net $441.6M after $17.2M of underwriting - which raised the Class B count from 10,543,368 to 12,324,187, a 16.9% increase in Class B and 12.3% in the total count, and which the engine&#x27;s 2011 count cannot see by construction. The stock has since fallen to $219.07, 18% BELOW the offering price five months later. (2) ALL DEBT REPAID: approximately $197.5M of the net proceeds was used &#x27;to repay all outstanding borrowings under its Credit and Security Agreement, resulting in no outstanding debt under this facility as of June 30, 2026&#x27;; the fair-value note confirms &#x27;At June 30, 2026, the Company had no outstanding long-term debt... the estimated fair value and carrying amount of total debt were $0 million and $0 million&#x27;, against $197.5M drawn at 2025-12-31 and $400.0M of unused revolver availability now. (3) The dataMate acquisition closed 2026-03-05 for ~$16.0M from Methode Electronics, funded with cash and revolver. The company states the remaining net proceeds are intended &#x27;to fund the remaining 20% acquisition of Enercon or pursue other acquisitions&#x27;.</p><p><strong>Base case.</strong> No base case can be stated: the share count is wrong by 8.0x and the schema cannot override it. This is a CONFIRMED INSTANCE OF A BUG LESSONS.md PREDICTED BY NAME - the 2026-09-07 dual-class entry lists &#x27;CENT/CENTA, BELFA/BELFB, HVT, GTN, HUBG, VLGEA, JBSS, MBUU, FNKO, TBLA, ZGN, TTAN&#x27; as the population, and BELFA has now arrived in an opportunistic slot forty days later, unfixed. Three points are new. FIRST, THE CONCEPT GATE WOULD NOT CATCH IT: shares_source reads &#x27;dei:EntityCommonStockSharesOutstanding (10-Q/A)&#x27;, i.e. it IS the correct cover-page concept - it is simply from 2011, so the HNGE provenance gate passes and only an age test (5,555 days) fires. The HNGE and BELFA gates are therefore both needed; neither alone is sufficient. SECOND, THE SAME WRONG COUNT IS SERVED TO BOTH TICKERS OF ONE COMPANY, producing two different valuations of the same business in one screen: BELFB sits in the same screen at a $476.5M market capitalisation - 2,174,912 shares again, the identical Class A figure - with a +159.4% gap, while BELFA shows +212.2%. One company, two tickers, two &#x27;fair values&#x27;, and the 53-point difference between them is nothing but the price spread between the share classes. That is a cleaner demonstration than any single-name instance that the defect is in the denominator. THIRD, total_debt = 0.0 IS CORRECT HERE AND THE FLAG INVERTS THE DIAGNOSIS, which is the VISN and QTWO case arriving a third time: &#x27;interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated&#x27; invites the analyst to ADD debt to enterprise value, when the 10-Q says debt is genuinely zero and the stale input is interest_expense ($2.85M in the extract against $4.3M for six months of 2026 and $8.1M for six months of 2025 per the filing). Here it costs little - the add-back is 3% of the base - but the inference the flag invites is backwards. A fourth defect is real: equity_now of $909.4M against equity_series[0] of $425.5M is 2.1x, which is the Enercon acquisition AND the $441.6M equity raise sitting inside the cash-flow window, so the $77.1M FCFF base describes a materially smaller company than the enterprise value does - the CECO detector firing on data already in the extract. No fair value is recorded.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I should not &#x27;fix&#x27; a count that might be right - the LXP discipline, where a price that looked like the documented stock-split defect turned out to be correctly handled and the lesson was to test the hypothesis against the filing rather than apply it. Specifically: BELFA is a separate listed security, so arguably valuing the Class A line on the Class A count is defensible rather than wrong.</li><li>What would prove it: The 10-Q balance sheet and cover page, read directly.</li><li>Already visible today: Yes, and it defeats the counter on both limbs. The 2026-06-30 balance sheet states &#x27;Class A common stock, par value $.10 per share, 10,000,000 shares authorized; 2,115,263 shares outstanding at each date&#x27; and &#x27;Class B common stock... 12,324,187 and 10,543,368 shares outstanding at June 30, 2026 and December 31, 2025&#x27;. So (a) even the CLASS A count alone is wrong - 2,174,912 used against 2,115,263 actual, because the 2011 figure predates fifteen years of treasury activity; and (b) the enterprise value, the cash, the debt and the FCFF base are all CONSOLIDATED figures for the whole company, so dividing a consolidated enterprise value by one class&#x27;s share count is a category error regardless of which class is listed. The two classes are claims on the same cash flows; the economic count is 14,439,450. The $26.6M of average daily dollar volume on a claimed $384.5M market capitalisation is the same impossible-turnover tell that appears on MIR.</li><li>Left unresolved: The size of the remaining 20% Enercon obligation, which the 10-Q does not quantify in what I read. It is a contractual claim sitting in neither total_debt nor the share count - the PRM pattern - and on a corrected $3.07bn market capitalisation it may or may not be material. I also did not establish how much of the revenue series is Enercon and dataMate rather than organic, so I cannot say whether the growth the corrected enterprise value requires is being bought or earned; the EFOR detector (cash paid for acquisitions against the change in revenue) is the right test and I did not run it.</li></ul><p><strong>Key risks.</strong> shares_asof is 2011-08-01, 5,555 days stale, and is the Class A count only: 2,174,912 used against 2,115,263 Class A + 12,324,187 Class B = 14,439,450; Economic market capitalisation ~$3.07bn against the brief&#x27;s $384.5M (8.0x); enterprise value ~$2.77bn against $78.4M; The identical wrong count is served to BELFB in the same screen, producing a +159.4% gap on the same company against BELFA&#x27;s +212.2%; equity_now $909.4M against equity_series[0] $425.5M (2.1x): the Enercon acquisition and the $441.6M May 2026 equity raise are inside the window, so the FCFF base and the enterprise value describe different companies; The &#x27;debt_likely_understated&#x27; flag inverts the diagnosis - the 10-Q states total debt is $0 at 2026-06-30 after $197.5M was repaid from offering proceeds; the stale input is interest_expense; The May 2026 Class B offering was struck at $266.00 and the Class B now trades at $219.07, 18% below, five months later <strong>Watch for.</strong> A corrected, both-class share count in the extract; until then BELFA and BELFB will both re-qualify near the 98th percentile and consume two slots for one company; The size and funding of the remaining 20% Enercon buy-in; Organic revenue disclosure, to separate bought growth from earned growth (the EFOR test)</p><p><strong>Data quality.</strong> RESOLVED and the name is unmodellable. &#x27;share_count_5555d_stale_market_cap_unreliable&#x27; fired correctly and is decisive - and per the WHD rule it also disqualifies every multiple on the page wholesale. &#x27;interest_expense_implies_no_debt_found&#x27; is a FALSE ALARM in the TENB-vs-QTWO sense: the 10-Q confirms zero debt at 2026-06-30, so total_debt = 0.0 is right and interest_expense is the stale input; this is the third recorded instance (after VISN and QTWO) and it is the second where the company is debt-free BECAUSE it just repaid everything. &#x27;operating_leases_33%_of_EV&#x27; is arithmetically a function of the broken EV and carries no information. UNFLAGGED: equity_now/equity_series[0] = 2.1x (the CECO detector, free and sitting in the extract); the May 2026 equity offering, which no freshness test could catch because the reference count predates it by fifteen years. Note the gate refinement this name forces: shares_source IS the dei cover-page concept here, so the HNGE concept gate passes and only an AGE gate catches it - both are needed. No fair value recorded, per YOU/SFBS.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/BELFA.md'>research/Information Technology/BELFA.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

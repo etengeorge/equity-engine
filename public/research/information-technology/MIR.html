@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MIR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Information Technology / MIR</p><h1>MIR <span style='color:var(--faint);font-weight:400'>MIRION TECHNOLOGIES CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$15.54</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-16</b></div></div><div class='prose'><h1>MIR — MIRION TECHNOLOGIES CLASS A</h1><p><em>Information Technology · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-16 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $15.54</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> There is no consensus case to steelman, because the price the model is reasoning about is not Mirion&#x27;s price. The engine values the equity at $291.4M; Mirion&#x27;s 10-Q cover page dated 2026-07-23 reads 243,278,092 Class A shares plus 5,759,555 Class B = 249,037,647 shares, which at $15.54 is a market capitalisation of $3.87bn. The engine&#x27;s count is 18,750,000 - low by a factor of 13.3 - so every per-share and enterprise figure on the brief describes a company that does not exist. What the market is actually paying for is a nuclear and medical radiation-detection business with $925.4M of revenue, roughly $1.86bn of goodwill from its 2021 de-SPAC and subsequent deals, $758.2M of debt against $418.7M of cash, and a stock down 37.5% over twelve months. At the corrected enterprise value of about $4.21bn against the $71.8M FCFF base, the market requires between +23.7% and +47.0% five-year FCFF growth depending on the discount rate - the opposite sign from the -17.0% the brief reports.</p><p><strong>What changed.</strong> Nothing in the business explains the brief; the defect does. Filings read: 10-Q 2026-07-29 (Q2), 8-K 2026-07-28 (item 2.02 earnings), 8-K 2026-08-31 (items 8.01/9.01), two item 5.02 officer changes (2026-04-13, 2026-07-02), 10-Q 2026-04-29. No item 1.01, 2.01, 3.02 or 4.02 in the last two quarters, so no acquisition, financing or equity issuance invalidates the balance sheet. The 10-Q confirms the capital structure the engine partly missed: an $830.0M senior secured first lien term loan maturing 2032 at SOFR + 2.00% (5.70% at 2026-06-30, 5.78% at 2025-12-31), a $175.0M revolver, plus 2030 and 2031 convertible notes; total debt $451.6M on the note&#x27;s own subtotal against the extract&#x27;s $758.2M; interest expense $8.4M in Q2 and $16.8M for six months, roughly $34M annualised. No repayments in H1 2026 against $244.6M repaid in 2025.</p><p><strong>Base case.</strong> No base case can be stated, because the input that sets every per-share figure is wrong by 13.3x and the schema cannot override a share count. The root defect is the HNGE signature exactly: shares_source reads &#x27;us-gaap:CommonStockSharesOutstanding (10-Q)&#x27; rather than the dei cover-page fact, dated 2025-09-30. Two things make this instance worse than HNGE. First, the value used - 18,750,000 - matches NEITHER class (Class A was 244,662,792 and Class B 5,869,555 at 2025-12-31), so it is not even a one-class read: 18,750,000 is a round number that on this filer is almost certainly the SPAC SPONSOR / FOUNDER SHARE block from the 2021 GS Acquisition Holdings II de-SPAC, and the 10-Q&#x27;s own EPS note confirms founder shares are carved out of the basic calculation (&#x27;Class A common stock issued and outstanding is included in the Company&#x27;s basic earnings per share calculation, with the exception of founder shares&#x27;). A de-SPAC&#x27;s founder block tagged under the balance-sheet concept on a member axis, read un-dimensioned, is a new variant worth its own gate. Second, the error cascades into the DISCOUNT RATE, which no previous share-count entry records: because market capitalisation is understated 13.3x, the WACC debt weight computes as 72% against a true 16.4% ($758.2M over $4.63bn), so the 6.3% WACC is a cost of debt wearing an equity label. Correcting the enterprise value alone takes the implied growth from -17.0% to +23.7%; correcting the WACC as well takes it to +40.6% at a beta of 1.1 and +47.0% at an 11% WACC. Against revenue growing from $860.8M to $925.4M - about 7.5% - a requirement of +24% to +47% is demanding, so the +1300.8% gap at the 100th percentile of 124 Information Technology names does not shrink, it INVERTS. Two further defects compound it and both were unflagged: interest_expense is None against $758.2M of recorded debt (the CON defect), so the after-tax add-back of roughly $25M is missing from the base entirely; and revenue_series carries a de-SPAC stub as its oldest observation ([$925.4M, $860.8M, $800.9M, $717.8M, $154.1M]), which is what produces the &#x27;4y revenue CAGR +56.5% (clamped to +25.0%)&#x27; baseline that generates the headline gap. The $154.1M is a partial post-merger period, not a year. No fair value is recorded: per the YOU and SFBS discipline, pricing any base through a count 13.3x too low publishes a per-share number roughly thirteen times too high, which is worse than recording nothing.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I have over-read the share count and the engine is right - specifically, that 18,750,000 might be a legitimate economic count on some Up-C or multi-class structure I have not understood, as the LXP entry warns (&#x27;a prior lesson is a hypothesis to test against the filing, not a conclusion to apply&#x27;), and that I am about to &#x27;fix&#x27; a number that is already correct.</li><li>What would prove it: The cover page of the most recent 10-Q, read directly rather than inferred.</li><li>Already visible today: Yes, and it defeats the counter conclusively. The fetched 10-Q cover page states: &#x27;As of July 23, 2026, there were 243,278,092 shares of Class A common stock, $0.0001 par value per share, and 5,759,555 shares of Class B common stock, $0.0001 par value per share, issued and outstanding.&#x27; The balance sheet repeats it (243,266,822 Class A and 5,759,555 Class B at 2026-06-30). Mirion is not an Up-C and there is no exchangeable-unit structure; the Class B is a small voting block. A second, independent check agrees: the brief reports $63.4M of average daily dollar volume against a claimed $291.4M market capitalisation - 22% of the company changing hands every day, which is impossible and is itself a free tell that the denominator is wrong. Secondary sources independently put the count at 244.7-247.8M.</li><li>Left unresolved: The correct total debt. The extract carries $758.2M; the 10-Q&#x27;s debt note shows an $830.0M term loan facility with a &#x27;Total debt 451.6&#x27; subtotal plus separately disclosed 2030 and 2031 convertible notes net of issuance costs. I used the extract&#x27;s $758.2M for the corrected enterprise value, so my $4.21bn could be off by a few hundred million either way - immaterial against a 13.3x share-count error but it means my corrected implied-growth range is approximate. I also did not establish how much of the $32.7M EBIT is purchase-accounting amortisation, so I cannot say whether the synthetic cost of debt is additionally distorted in the CLVT/HP way, though with $1.86bn of goodwill on a $4.6bn capital structure it very likely is.</li></ul><p><strong>Key risks.</strong> Every per-share figure on the brief is void: shares 18,750,000 against a cover page of 249,037,647 (13.3x); Market capitalisation $291.4M against a true ~$3.87bn; enterprise value $680.5M against ~$4.21bn (6.2x); WACC 6.3% is built on a 72% debt weight against a true 16.4% - the share-count error corrupts the discount rate, not just the numerator; interest_expense is None against $758.2M of debt, so roughly $25M of after-tax add-back is missing from the FCFF base (CON defect); revenue_series oldest observation $154.1M is a 2021 de-SPAC stub period, which is what produces the +56.5% CAGR baseline and the headline gap <strong>Watch for.</strong> A corrected share count in the extract - until then this name will re-qualify at the 100th percentile every session and consume a slot; Whether shares_source is gated on the dei cover-page CONCEPT, which would fix this, HNGE and the de-SPAC founder-share family at once</p><p><strong>Data quality.</strong> RESOLVED and the name is unmodellable; the flags raised point at the wrong things. &#x27;extreme_gap_+1301%_treat_as_suspected_data_error&#x27; is correct that it is a data error but names no cause: the cause is the share count. &#x27;possible_peak_cycle_base_newest_fcf_1.8x_oldest&#x27; is pointing at a MONOTONIC series ([$58.1M, $50.3M, $106.9M] oldest to newest is not monotonic, but the flag&#x27;s ratio test cannot distinguish a peak from a recovery per ITRI) and is third-order here. &#x27;stock_comp_is_24%_of_fcff&#x27; is real but irrelevant against a 13.3x denominator error. UNFLAGGED AND DECISIVE: (1) shares_source is &#x27;us-gaap:CommonStockSharesOutstanding (10-Q)&#x27; dated 2025-09-30, not the dei cover-page fact, and the value 18,750,000 matches neither share class - it is almost certainly the de-SPAC founder block, a new variant of the HNGE provenance defect; (2) the resulting 72% WACC debt weight, which no prior share-count entry records as a consequence; (3) interest_expense = None against material debt; (4) a de-SPAC stub in revenue_series driving the baseline. No fair value recorded, per the YOU/SFBS rule.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1809987/000162828026050604/mir-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1809987/000162828026050604/mir-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1809987/000162828026050171/mir-20260728.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1809987/000162828026050171/mir-20260728.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1809987/000162828026059593/mir-20260831.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1809987/000162828026059593/mir-20260831.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Information%20Technology/MIR.md'>research/Information Technology/MIR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

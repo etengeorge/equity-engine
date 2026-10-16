@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>FLNG — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Energy / FLNG</p><h1>FLNG <span style='color:var(--faint);font-weight:400'>FLEX LNG</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$28.64</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-16</b></div></div><div class='prose'><h1>FLNG — FLEX LNG</h1><p><em>Energy · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-16 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $28.64</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Flex LNG owns thirteen modern LNG carriers, almost all on long-term time charter, and the market pays $28.64 for a $3.00 annual dividend - a 10.5% yield - against about $1.79bn of debt with no maturities before 2029. The reverse DCF says the market requires roughly -6% five-year FCFF growth at the engine&#x27;s discount rate, which for a fixed fleet with no newbuildings on order is very close to the right answer: revenue cannot grow by adding ships, only by re-chartering at better rates, and the fleet ages. Q2 2026 was the best quarter since Q4 2021 - $106.8M of vessel revenue, fleet TCE of $86,119 a day against $65,729 in Q1, adjusted net income $42.5M - and yet the company HELD full-year guidance at $345-370M of revenue and $73,000-78,000 a day, which against a first half of roughly $192M implies a second half of $153-178M. A company guiding the second half DOWN off a record quarter is telling you the quarter is not the run rate, and the market has listened.</p><p><strong>What changed.</strong> Q2 2026 (reported 2026-08-26): vessel revenue $106.8M, the highest in nearly five years; fleet-wide TCE $86,119/day against $65,729 in Q1; net income $44.9M ($0.83/share), adjusted $42.5M ($0.79/share). The $0.75 quarterly dividend was declared for the twentieth consecutive quarter, about $41M, paid around 2026-09-17, so trailing twelve-month distributions are $3.00 a share; management explicitly declined to guarantee the rate going forward. Charter cover is about 89% of remaining 2026 available fleet days, and the minimum firm backlog is 51 vessel-years, rising to 78 if all charterer extension options are exercised. Cash about $397M, long-term debt about $1.79bn, no debt maturities before 2029. FULL-YEAR 2026 GUIDANCE MAINTAINED at $345-370M revenue and $73,000-78,000/day TCE - i.e. not raised despite the beat, which implies a second half below the first. Spot rates softened into the quarter end. NOTE ON PROVENANCE: every figure in this paragraph is secondary reporting, not a filing - see the data-quality note.</p><p><strong>Base case.</strong> The +299.5% gap is the naive baseline and nothing else: &#x27;5y revenue CAGR +16.1%&#x27; measures the 2018-2021 newbuilding delivery programme, when Flex took delivery of its fleet, and applies it to FCFF as if the fleet were still being built. There are no newbuildings on order, so that growth rate is structurally unrepeatable and the baseline is void - the same shape as PATK&#x27;s COVID-trough-to-peak CAGR, measured across a corporate transition rather than a cycle. What the model actually says is that the market requires about -6% growth, and the honest question is whether a fully chartered, non-growing fleet delivers that. It plausibly does: 89% 2026 cover and a 51-year minimum firm backlog make the next few years of revenue contracted rather than forecast. BUT I CANNOT RECORD A NUMBER, FOR THE ISBA REASON, AND HERE IT IS DECISIVE RATHER THAN MERELY UNTIDY. beta is 0.231 with an R-squared of 0.026, marked yahoo_rescaled - not our regression at all, so R-squared is not a meaningful gate on it, and a beta below roughly 0.2 is a failed measurement rather than a defensive business. An LNG shipping company with a 53.7% debt weight does not have a 0.23 beta. The arithmetic: at the engine&#x27;s 6.36% cost of equity and 8.01% WACC, zero growth prices the equity at $46.17 (+61%); at a beta of 1.0 (WACC 9.97%) zero growth gives $28.84, i.e. +0.7%, EXACTLY the market price; at a beta of 1.2 (WACC 10.48%) it gives $25.64, -10.5%. So a 0.77-point move in one input that is not a measurement swings the answer from +61% to fair to rich, and the schema has no field to override WACC. Per the GLRE, HAE, CLVT and WLFC discipline the verdict is the output and any printed fair value must be ignored; I supply no final_growth. The second reason to refuse is a terminal-value error the engine cannot see and that is specific to this asset class: forward_dcf capitalises year five at 2% growth in perpetuity, but thirteen vessels delivered 2018-2021 have roughly 20-25 year economic lives, so the cash flows end in the early 2040s unless the fleet is replaced - and replacement capex is absent from a cfo-minus-maintenance-capex base. That is the CRGY and IRWD shape applied to steel instead of to reserves or a patent: a perpetuity on a depleting asset capitalises ships that will not exist.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am refusing a name whose cash flows are among the most contracted in the index. A 51-year minimum firm backlog, 89% 2026 cover and no debt maturities before 2029 is about as close to a bond as an equity gets, and on that reading the correct cost of equity is genuinely LOW - so the engine&#x27;s 0.23 beta, while badly measured, might be directionally right rather than absurd, and the name might really be +61% cheap. Refusing on the beta would then be the error.</li><li>What would prove it: The re-chartering rates actually achieved as charters expire, against the $73,000-78,000/day guided level - and the realised volatility of the equity through a rate downturn, which is what a beta is supposed to measure.</li><li>Already visible today: Partly, and it defeats the counter. The contracted-cash-flow argument would justify a low ASSET beta, but Flex&#x27;s EQUITY carries a 53.7% debt weight, so even a low asset beta levers up: the equity of a 50%-levered shipowner cannot have a 0.23 beta, and the stock&#x27;s own tape says so - it fell 9.2% in five days and 11.1% in twenty-one while the Energy sector median fell 4.5%, i.e. it &#x27;moved harder than its sector&#x27;, which is the behaviour of a high-beta security, not a bond. A 0.23 beta and a -9.2% five-day move in a -4.5% sector are not compatible. That is the cheapest available refutation and it needed no filing.</li><li>Left unresolved: Nearly all of the balance sheet, and that is a structural problem rather than an oversight. Flex LNG is a foreign private issuer: balance_sheet_form reads &#x27;6-K&#x27;, the brief&#x27;s filing list is empty, and the adhoc-fetch dispatch for this ticker returned ONLY index.json with no documents - the fourth confirmed FPI blackout after MRX, NVGS and ASC. So the $397M of cash, the $1.79bn of debt, the backlog and every operating figure above are corroborated secondary reporting rather than anything I read in a filing, and the item 1.01 / 2.01 / 3.02 checks that catch a new financing or a vessel sale are structurally blind on this name. I also could not establish the charter-expiry schedule, which is the single input that would decide whether -6% growth is right, and I did not value the fleet against newbuild or secondhand vessel prices, which is the natural cross-check on a shipowner.</li></ul><p><strong>Key risks.</strong> beta 0.231 at R-squared 0.026, marked yahoo_rescaled, on a 53.7%-debt-weight shipowner: not a measurement. Zero growth prices the equity at $46.17 (+61%) at the engine&#x27;s 8.01% WACC, $28.84 (+0.7%) at a beta of 1.0 and $25.64 (-10.5%) at 1.2 - the verdict IS the beta, and the schema cannot override it; Foreign private issuer: 6-K balance sheet, empty filing index, and adhoc-fetch returned no documents at all - the balance sheet is unverified and the 8-K item checks are structurally blind; The 2% perpetuity capitalises a thirteen-vessel fleet delivered 2018-2021 with a finite ~20-25 year life, against a base that charges only maintenance capex and nothing for replacement; Full-year guidance HELD rather than raised off a record quarter, implying a second half below the first ($153-178M against ~$192M) - the DORM tell; Large global LNG-carrier orderbook delivering into 2026-2028 as Flex&#x27;s charters roll; spot rates already softening; The $0.75 quarterly dividend has been flat for twenty quarters and management explicitly declined to guarantee it; The naive +16.1% revenue CAGR baseline measures the 2018-2021 newbuilding programme and is structurally unrepeatable - there are no vessels on order <strong>Watch for.</strong> Re-chartering rates on expiring charters against the guided $73,000-78,000/day; Any change to the $0.75 quarterly dividend, which is the clearest signal management has about forward cash generation; The charter-expiry schedule and any extension options exercised (51 firm years rising to 78 on options); A 6-K path in edgar.filing_documents, without which this and roughly ninety other FPIs in the universe stay unverifiable</p><p><strong>Data quality.</strong> Brief raised no flags and the name is still not valuable. The decisive defect is the discount rate: beta 0.231 at R-squared 0.026, beta_source yahoo_rescaled, giving a 6.36% cost of equity and an 8.01% WACC at a 53.7% debt weight. The ISBA entry sets the rule - &#x27;treat any beta_source = yahoo_rescaled as an unreliable WACC input and refuse; a beta below roughly 0.2 is not a low-beta business, it is a failed measurement&#x27; - and that entry concerned a book-method name, so this extends it to an fcff name where the WACC enters through the discounting rather than the Gordon denominator. The sensitivity is recorded above: +61% to -10.5% across defensible betas, so no fair value is admissible. SECOND, STRUCTURAL: this is the FOURTH confirmed foreign-private-issuer blackout (after MRX, NVGS, ASC). balance_sheet_form is &#x27;6-K&#x27;, the brief&#x27;s Recent-filings section is empty, and the adhoc-fetch dispatch returned data/adhoc/FLNG/index.json and nothing else - zero documents. Every operating and balance-sheet figure in this verdict is therefore secondary reporting and is labelled as such; nothing here was read from a filing. THIRD, UNFLAGGED: dep_amort_series is EMPTY, so EBITDA is EBIT only and any multiple built on it is void on a capital-intensive shipowner (the SND shape); and revenue_series carries a step change to $164.5M in its oldest observation, a pre-fleet stub that helps produce the void +16.1% baseline. The add-back is 33% of the base - material but below the SABR threshold.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.flexlng.com/flex-lng-second-quarter-2026-earnings-release/" rel="noopener">https://www.flexlng.com/flex-lng-second-quarter-2026-earnings-release/</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/26/flex-lng-flng-q2-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/26/flex-lng-flng-q2-2026-earnings-call-transcript/</a></li><li><a href="https://mb.cision.com/Main/22886/4384944/4224298.pdf" rel="noopener">https://mb.cision.com/Main/22886/4384944/4224298.pdf</a></li><li><a href="https://www.investing.com/news/company-news/flex-lng-q2-2026-slides-strong-beat-but-spot-rates-soften-93CH-4867778" rel="noopener">https://www.investing.com/news/company-news/flex-lng-q2-2026-slides-strong-beat-but-spot-rates-soften-93CH-4867778</a></li><li><a href="https://www.stocktitan.net/news/FLNG/flex-lng-second-quarter-2026-earnings-2yr05ly9yhco.html" rel="noopener">https://www.stocktitan.net/news/FLNG/flex-lng-second-quarter-2026-earnings-2yr05ly9yhco.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Energy/FLNG.md'>research/Energy/FLNG.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

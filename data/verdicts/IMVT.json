@@ -1,0 +1,56 @@
+{
+  "ticker": "IMVT",
+  "date": "2026-10-16",
+  "sector": "Health Care",
+  "name": "IMMUNOVANT",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 27.510000228881836,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing on every clinical-stage biotech makes the engine blind to a cohort where real mispricing exists, and that a 31.7% three-month decline on a failed PROOF-OF-CONCEPT study in a SECONDARY indication, while the company says the lead programmes remain on schedule, is exactly the kind of overreaction worth underwriting. The 57-patient cutaneous-lupus trial was not the Graves' programme, and the market may have marked down the whole asset for a readout that was never the thesis.",
+    "what_would_prove_it": "The registrational IMVT-1402 data in Graves' disease, and whether the cutaneous-lupus failure reflects insufficient IgG lowering (a read-through to every indication) or the fact that cutaneous lupus is not primarily an IgG-autoantibody disease (no read-through at all). The distinguishing evidence is the pharmacodynamic data from the lupus study: if IgG was lowered as expected and the clinical endpoint still missed, the mechanism is fine and the indication was wrong.",
+    "already_visible": "Not to me. I could not obtain the pharmacodynamic detail from the cutaneous-lupus study - the fetched filings stop at 2026-09-03 and I did not find a primary document for the announcement - so I cannot distinguish the two cases, which is precisely the distinction the counter turns on. That is a genuine gap rather than a reason to refuse, and I am recording it as such: the refusal here rests on the model being wrong for the asset class, NOT on my having settled the clinical question.",
+    "unresolved": "Everything that decides the name: the probability of success in Graves', the differentiation of IMVT-1402 against efgartigimod and rozanolixizumab, the read-through from the lupus miss, and the terms of the financing that a $407M burn against $798M of cash will eventually require. None of these is reachable by a free-cash-flow model, and I did not reach them by other means either."
+  },
+  "what_changed": "The stock fell 24.4% over twenty-one days and 31.7% over sixty-three, and the explanation is a pipeline setback rather than anything financial. On 2026-09-21/22 Immunovant reported that a proof-of-concept study of IMVT-1402 in CUTANEOUS LUPUS ERYTHEMATOSUS MISSED ITS PRIMARY ENDPOINT: a twelve-week placebo-controlled trial in 57 adults showed numerical trends favouring IMVT-1402 over placebo without statistical significance, the data did not meet the company's internal criteria to continue in that indication, and development there stops. The company stated its other IMVT-1402 programmes remain on schedule. Financially: cash and cash equivalents $797.8M at 2026-06-30 (fiscal Q1, March year end), against cfo-minus-capex of [-$407.3M, -$376.6M, -$214.6M] newest first - a burn that has roughly doubled in two years and is accelerating. Filings read: 10-Q 2026-08-06 with EX-99.1, 10-K 2026-05-20 (March year end), 8-K 2026-09-03. I did NOT find the cutaneous-lupus announcement in the fetched filing set, which stops at 2026-09-03; that finding rests on secondary reporting and is labelled as such.",
+  "consensus_case": "Immunovant is a clinical-stage antibody company whose value is entirely the probability-weighted commercial outcome of IMVT-1402, a subcutaneous anti-FcRn antibody, led by Graves' disease. There is no revenue, no free cash flow and no earnings; the $5.7bn market capitalisation is a bet on a pipeline. The market's case is specific: IMVT-1402 is a next-generation asset in a mechanism (FcRn blockade) already commercially validated by argenx's efgartigimod, Graves' disease is a large under-served indication with no approved targeted therapy, and management states the $797.8M of cash at 2026-06-30 provides 'runway to the potential commercial launch of IMVT-1402 in GD'. That is a coherent thing to underwrite. It is not a thing a discounted-cash-flow model can price.",
+  "base_case_rationale": "No growth rate and no fair value can be stated, and this is one of the roughly 40% of the universe the engine exists to refuse rather than guess at. The mechanical position: there is no FCFF base at all (the brief prints 'mean of CFO-capex over 0y' and `nonpositive_normalized_fcff`), no enterprise value, no implied growth and no baseline - so there is nothing to override. Operations consumed $407.3M in the newest year and the trajectory is -$214.6M, -$376.6M, -$407.3M, i.e. the burn is growing as trials scale. Applying a growth rate to a negative base is meaningless in either direction, exactly as the standing rule says. THE MULTIPLES FALLBACK MUST ALSO BE REFUSED, and on this name it is actively misleading. The brief offers one row - p_tbv of 7.7x against a Health Care cohort of 1.8x/3.7x/7.5x, blending to $13.05 against a $27.51 price, a -52.6% 'gap'. That number should be ignored for three independent reasons. First, the cohort is labelled 'not ranked - too few comparable Health Care names to define a distribution honestly'. Second, and decisively, tangible book on a clinical-stage biotech IS THE CASH BALANCE: pricing Immunovant at a multiple of its own cash says only that it trades at 7.7x the money it has left to spend, which is a statement about burn rate, not value - and the 'cohort median' of 3.7x tangible book is an average across companies at wildly different stages of the same arithmetic. Third, it inverts the actual economics: a biotech that RAISES cash gets cheaper on this measure and one that spends it toward a readout gets dearer, so the metric rewards the opposite of progress. Per the RIOT/EPRT and MXL discipline - an unranked cohort, and a trailing denominator that does not describe the business - the honest output is to say the multiples number should be disregarded rather than to average a nonsense input away. Valuing IMVT-1402 requires a probability-weighted indication-by-indication revenue model with a cost of capital for binary clinical risk, which this engine does not contain and which I will not improvise.",
+  "key_risks": [
+    "No revenue, no FCFF base, no enterprise value: cfo minus capex is [-$407.3M, -$376.6M, -$214.6M] and the burn is accelerating",
+    "$797.8M of cash at 2026-06-30 against a ~$407M annual burn - roughly two years, and management ties the runway to a launch that depends on a readout",
+    "Binary clinical risk: a single proof-of-concept miss in a secondary indication took a third off the equity in three months",
+    "The p_tbv multiple of 7.7x prices the company against its own cash balance and must be disregarded; the cohort is explicitly not ranked",
+    "A flag reads `interest_expense_implies_no_debt_found` against $24.9M of interest expense with total_debt = 0, which I did not resolve against the debt note - immaterial because the base is non-positive either way"
+  ],
+  "watch_for": [
+    "Registrational IMVT-1402 data in Graves' disease, and the timing of the other programmes said to remain on schedule",
+    "Pharmacodynamic data from the cutaneous-lupus study, which distinguishes an indication-specific failure from a mechanism read-through",
+    "Any equity financing and its terms, given roughly two years of runway against an accelerating burn"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1764013/000176401326000101/imvt-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1764013/000176401326000100/imvt-20260806.htm",
+    "https://www.sec.gov/Archives/edgar/data/1764013/000176401326000064/imvt-20260331.htm",
+    "https://finviz.com/news/394673/immunovant-shares-fall-6-after-imvt-1402-lupus-study-misses-primary-endpoint"
+  ],
+  "flags": [
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}

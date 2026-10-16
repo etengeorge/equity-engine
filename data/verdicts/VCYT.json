@@ -1,0 +1,193 @@
+{
+  "ticker": "VCYT",
+  "date": "2026-10-16",
+  "sector": "Health Care",
+  "name": "VERACYTE",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "low",
+  "final_growth": 0.15,
+  "bear_growth": 0.08,
+  "bull_growth": 0.25,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 44.38999938964844,
+  "market_implied_growth": 0.351511502928887,
+  "cohort_pct": 43.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.15,
+    "market_implied_growth": 0.351511502928887,
+    "growth_delta": -0.201511502928887,
+    "fair_value": 25.54193123755699,
+    "price": 44.38999938964844,
+    "gap": -0.42460167630654977,
+    "fair_value_band": {
+      "low": 23.146882225070335,
+      "point": 25.54193123755699,
+      "high": 28.59010314911953
+    },
+    "fcff_base_used": 83000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.10411184039039141,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 83000000,
+      "price": 44.38999938964844,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.0841118403903914,
+              "fair_value": 25.57242227816189,
+              "gap": -0.4239147864434242
+            },
+            {
+              "wacc": 0.09411184039039142,
+              "fair_value": 22.634232061895858,
+              "gap": -0.4901051504142605
+            },
+            {
+              "wacc": 0.10411184039039141,
+              "fair_value": 20.39704074056368,
+              "gap": -0.5405036940523098
+            },
+            {
+              "wacc": 0.1141118403903914,
+              "fair_value": 18.637292993841054,
+              "gap": -0.5801465814350248
+            },
+            {
+              "wacc": 0.12411184039039141,
+              "fair_value": 17.217328937244297,
+              "gap": -0.6121349589101526
+            }
+          ],
+          "fair_value_at_point_wacc": 20.39704074056368,
+          "gap_at_point_wacc": -0.5405036940523098
+        },
+        {
+          "case": "base",
+          "growth": 0.15,
+          "cells": [
+            {
+              "wacc": 0.0841118403903914,
+              "fair_value": 32.59740188379568,
+              "gap": -0.265658879657537
+            },
+            {
+              "wacc": 0.09411184039039142,
+              "fair_value": 28.59010314911953,
+              "gap": -0.35593368906901535
+            },
+            {
+              "wacc": 0.10411184039039141,
+              "fair_value": 25.54193123755699,
+              "gap": -0.42460167630654977
+            },
+            {
+              "wacc": 0.1141118403903914,
+              "fair_value": 23.146882225070335,
+              "gap": -0.4785563743335376
+            },
+            {
+              "wacc": 0.12411184039039141,
+              "fair_value": 21.216533036685995,
+              "gap": -0.5220425021759834
+            }
+          ],
+          "fair_value_at_point_wacc": 25.54193123755699,
+          "gap_at_point_wacc": -0.42460167630654977
+        },
+        {
+          "case": "bull",
+          "growth": 0.25,
+          "cells": [
+            {
+              "wacc": 0.0841118403903914,
+              "fair_value": 45.900617384180556,
+              "gap": 0.0340305928205169
+            },
+            {
+              "wacc": 0.09411184039039142,
+              "fair_value": 39.8454226259056,
+              "gap": -0.1023783921205148
+            },
+            {
+              "wacc": 0.10411184039039141,
+              "fair_value": 35.24466970497371,
+              "gap": -0.20602229804957783
+            },
+            {
+              "wacc": 0.1141118403903914,
+              "fair_value": 31.634105198478693,
+              "gap": -0.2873596388051397
+            },
+            {
+              "wacc": 0.12411184039039141,
+              "fair_value": 28.72787488145262,
+              "gap": -0.352830023058035
+            }
+          ],
+          "fair_value_at_point_wacc": 35.24466970497371,
+          "gap_at_point_wacc": -0.20602229804957783
+        }
+      ],
+      "summary": {
+        "bear": -0.5405036940523098,
+        "base": -0.42460167630654977,
+        "bull": -0.20602229804957783
+      },
+      "downside": -0.6121349589101526,
+      "upside": 0.0340305928205169
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I have built a rich call on a terminal free-cash-flow margin I cannot observe, and that an independent cross-check disagrees with me. At $44.39 with roughly $400M of net cash and $153M+ of guided 2026 adjusted EBITDA, Veracyte trades at about 21x EV/EBITDA - full, but squarely normal for a debt-free, 15%-growth, 70%-gross-margin diagnostics franchise, and cheaper than several listed peers. The DCF says -19% to -41%; the multiple says 'fully priced, not expensive'. The reconciliation between them is entirely the terminal FCFF margin, and the historical evidence favours the bull: free cash flow nearly quadrupled in three years, so a model that assumes the ramp decelerates to 15% is assuming a break in the one trend the company has actually demonstrated.",
+    "what_would_prove_it": "Adjusted EBITDA margin and free cash flow over the next four to six quarters against the guided >26%, together with the basic weighted-average share count. If the margin moves through the high 20s into the low 30s while basic shares stop rising, the bull is right and the base I used is too low. If the margin plateaus near 26% while basic shares keep climbing 2% a year, the required +32% is unreachable and the rich call is right.",
+    "already_visible": "The share-count half is visible and it favours me: basic shares are UP 2.0% year over year despite the company's scale, so the compensation is not being funded and expensing it is correct. The margin half is NOT visible - 'greater than 26%' is a floor the company has maintained rather than raised, and I could not find a quantified multi-year margin target from a free source. So one of the two inputs that decide this is settled in my favour and the other is open.",
+    "unresolved": "The terminal free-cash-flow margin, which is the whole magnitude of the call. I can say with confidence that the market requires FCFF growth well above guided revenue growth on every defensible base - that much is robust across all four corners of the grid. I cannot say whether a diagnostics platform of this kind tops out near 20% or near 35% of revenue in free cash flow, and the difference between those is the difference between -41% and roughly fair. I am therefore recording the direction with low conviction rather than the number with confidence. Secondary: beta 0.97 at R-squared 0.142 is marginally below the quality threshold I would want, though here it cuts against the stock - a higher beta raises the WACC and raises the growth the market requires, so correcting it would make the name look richer, not cheaper."
+  },
+  "what_changed": "Q2 2026 (8-K and EX-99.1 2026-07-30, 10-Q 2026-07-31): full-year 2026 total revenue guidance RAISED to $590-596M (+14-15%) from $582-592M (+13-14%), testing revenue raised to $576-582M (+17-18%) from $570-580M, adjusted EBITDA margin maintained at greater than 26%. THEN, AND UNFLAGGED BY THE ENGINE, A COMPLETED ACQUISITION AFTER THE BALANCE-SHEET DATE: the 8-K filed 2026-09-14 carries items 1.01 AND 2.01, and discloses that Veracyte entered an Agreement and Plan of Merger with Convergent Genomics on 2026-09-10 and COMPLETED the acquisition on 2026-09-14, paying 'aggregate cash consideration of $150 million in cash, subject to customary purchase price adjustments', plus 'up to an aggregate of $30 million in additional cash consideration based on the achievement of specified milestones related to UroAmp publications and reimbursement efforts'. Convergent is a pre-commercial bladder-cancer genomics company (UroAmp urinary tumour DNA platform). It was an all-cash deal, so the share count is unaffected - but $150M of cash left the balance sheet eleven weeks after the 2026-06-30 date the enterprise value is struck on, and up to $30M of contingent consideration now sits outside both total_debt and the share count. The decisive new number for the base is in the 10-Q's EPS note rather than any release: BASIC weighted-average shares were 79,972 thousand in Q2 2026 against 78,392 thousand in Q2 2025, and 79,756 against 78,211 for the six months - UP 2.0% year over year. total_debt = 0 is correct; Veracyte is genuinely debt-free, so the $229k of interest expense is not a missing-debt tell.",
+  "consensus_case": "Veracyte is a debt-free molecular-diagnostics company whose two anchor tests - Afirma in thyroid and Decipher in prostate - are reimbursed, guideline-included and hard to displace, and whose free cash flow has gone $34.3M, $63.8M, $126.6M over three years while revenue compounded in the mid-to-high teens. 2026 guidance was RAISED on 2026-07-30 to $590-596M of total revenue (+14-15%) and $576-582M of testing revenue (+17-18%), with adjusted EBITDA margin guided above 26% - roughly $153M. At $44.39 the market pays about 6.1x sales and ~21x guided adjusted EBITDA for a business with ~70%+ gross margins, high-single-digit volume growth, real operating leverage still arriving, and roughly $400M of net cash funding optionality (C2i Genomics / MRD, Decipher Bladder, Percepta nasal swab) that is not in any trailing number. On that framing the price is full but entirely ordinary for the sector - diagnostics peers trade higher - and the bull case is simply that the FCF ramp has further to run.",
+  "base_case_rationale": "I differ from the naive +25.0% baseline (a clamped 34.5% revenue CAGR, which is history including acquisitions) and I differ from the engine's base in BOTH directions before settling. First, the peak flag reads BACKWARDS, as the ITRI entry predicts: `possible_peak_cycle_base_newest_fcf_3.7x_oldest` fires on [$34.3M, $63.8M, $126.6M] oldest to newest, which is STRICTLY MONOTONIC and therefore a recovery/ramp, not a peak - so the three-year mean of $75.1M understates current generation and the newest year of $126.6M is the fairer starting point. Second, running the BOX test settles the stock-compensation flag against the company: basic weighted-average shares ROSE 2.0% year over year, so the $43.6M of annual stock compensation is NOT being paid for and belongs in expenses, exactly as on QTWO rather than on BOX or CVSA. Taking the generous base (newest year) with the honest SBC treatment (expensed) gives owner earnings of about $126.6M - $43.6M = $83.0M, which is the most favourable defensible construction, and I use it. Against the CORRECTED enterprise value - the engine's $3.2bn plus the $150M of Convergent cash that left after the balance-sheet date, so about $3.35bn - at the engine's 10.4% WACC the market then requires +33.4% five-year FCFF growth (+32.1% on the uncorrected EV, +33.7% including the $30M earnout); the other three corners of the base/SBC grid give +20.4% (newest year, SBC free), +34.9% (3y mean, SBC free, the engine's number) and +56.5% (3y mean, SBC expensed). Every corner sits above the +14-15% revenue growth the company guides. I underwrite +15%: real operating leverage exists, but a 26%+ adjusted EBITDA margin is already a high base to expand from, and compounding FCFF at the required ~32% for five years on 14% revenue growth implies the free-cash-flow margin roughly DOUBLES from today's ~14% of revenue to about 29% by 2031 - achievable in a model, but it has to happen while stock compensation keeps diluting and while the newer assays are still consuming investment. At +15% on the corrected enterprise value the fair value is $23.91 against $44.39, -46%; at +25%, well above guidance, it is $33.61, still -24%; at +8% it is $18.76, -58%. The sign does not flip anywhere inside a plus-or-minus-15% band on the base, so this is not the noise case the standing rule caps at low conviction for that reason.",
+  "key_risks": [
+    "The magnitude rests on a terminal free-cash-flow margin that is not observable; an independent EV/EBITDA cross-check (~21x) reads 'full' rather than 'expensive'",
+    "A $150M all-cash acquisition (Convergent Genomics) closed 2026-09-14, eleven weeks AFTER the 2026-06-30 balance sheet the enterprise value is struck on, with up to $30M of contingent consideration outside both debt and the share count - unflagged, and it makes the name dearer not cheaper",
+    "Concentration in two assays (Afirma, Decipher): a Medicare rate action or guideline change on either is a direct step-down in revenue per test",
+    "Stock compensation of ~$43.6M a year against basic shares rising 2.0% - dilution is real and is not being repurchased",
+    "beta 0.97 at R-squared 0.142 is a weak regression, though correcting it upward would make the name richer rather than cheaper",
+    "The engine's own base of $75.1M is a three-year mean on a monotonically rising series and understates current generation - a defect that runs AGAINST this verdict and which I corrected before reaching it"
+  ],
+  "watch_for": [
+    "Adjusted EBITDA margin against the guided >26% floor, and any quantified multi-year margin target",
+    "Basic weighted-average share count - a flattening would weaken the expensed-SBC treatment this verdict rests on",
+    "Testing revenue growth against the guided +17-18%",
+    "Reimbursement decisions or guideline revisions touching Afirma or Decipher",
+    "Any revenue contribution from C2i/MRD or Decipher Bladder, which is optionality not in the base",
+    "UroAmp publication and reimbursement milestones, which trigger up to $30M of further cash consideration"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000049/vcyt-20260910.htm",
+    "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000044/vcyt-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000042/vcyt-20260730.htm",
+    "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000010/vcyt-20251231.htm"
+  ],
+  "flags": [
+    "possible_peak_cycle_base_newest_fcf_3.7x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_50%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

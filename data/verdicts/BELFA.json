@@ -1,0 +1,55 @@
+{
+  "ticker": "BELFA",
+  "date": "2026-10-16",
+  "sector": "Information Technology",
+  "name": "BEL FUSE CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 176.77000427246094,
+  "market_implied_growth": -0.4817691897269517,
+  "cohort_pct": 97.6,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I should not 'fix' a count that might be right - the LXP discipline, where a price that looked like the documented stock-split defect turned out to be correctly handled and the lesson was to test the hypothesis against the filing rather than apply it. Specifically: BELFA is a separate listed security, so arguably valuing the Class A line on the Class A count is defensible rather than wrong.",
+    "what_would_prove_it": "The 10-Q balance sheet and cover page, read directly.",
+    "already_visible": "Yes, and it defeats the counter on both limbs. The 2026-06-30 balance sheet states 'Class A common stock, par value $.10 per share, 10,000,000 shares authorized; 2,115,263 shares outstanding at each date' and 'Class B common stock... 12,324,187 and 10,543,368 shares outstanding at June 30, 2026 and December 31, 2025'. So (a) even the CLASS A count alone is wrong - 2,174,912 used against 2,115,263 actual, because the 2011 figure predates fifteen years of treasury activity; and (b) the enterprise value, the cash, the debt and the FCFF base are all CONSOLIDATED figures for the whole company, so dividing a consolidated enterprise value by one class's share count is a category error regardless of which class is listed. The two classes are claims on the same cash flows; the economic count is 14,439,450. The $26.6M of average daily dollar volume on a claimed $384.5M market capitalisation is the same impossible-turnover tell that appears on MIR.",
+    "unresolved": "The size of the remaining 20% Enercon obligation, which the 10-Q does not quantify in what I read. It is a contractual claim sitting in neither total_debt nor the share count - the PRM pattern - and on a corrected $3.07bn market capitalisation it may or may not be material. I also did not establish how much of the revenue series is Enercon and dataMate rather than organic, so I cannot say whether the growth the corrected enterprise value requires is being bought or earned; the EFOR detector (cash paid for acquisitions against the change in revenue) is the right test and I did not run it."
+  },
+  "what_changed": "The 2026-06-30 10-Q carries three events the engine is blind to. (1) A MAY 2026 FOLLOW-ON EQUITY OFFERING: 1,725,000 Class B shares at $266.00, gross proceeds $458.9M, net $441.6M after $17.2M of underwriting - which raised the Class B count from 10,543,368 to 12,324,187, a 16.9% increase in Class B and 12.3% in the total count, and which the engine's 2011 count cannot see by construction. The stock has since fallen to $219.07, 18% BELOW the offering price five months later. (2) ALL DEBT REPAID: approximately $197.5M of the net proceeds was used 'to repay all outstanding borrowings under its Credit and Security Agreement, resulting in no outstanding debt under this facility as of June 30, 2026'; the fair-value note confirms 'At June 30, 2026, the Company had no outstanding long-term debt... the estimated fair value and carrying amount of total debt were $0 million and $0 million', against $197.5M drawn at 2025-12-31 and $400.0M of unused revolver availability now. (3) The dataMate acquisition closed 2026-03-05 for ~$16.0M from Methode Electronics, funded with cash and revolver. The company states the remaining net proceeds are intended 'to fund the remaining 20% acquisition of Enercon or pursue other acquisitions'.",
+  "consensus_case": "There is no consensus case to steelman at the price the model is using, because the model is pricing 2,174,912 shares of a company that has 14,439,450. Bel Fuse's 2026-06-30 balance sheet reads 2,115,263 Class A shares and 12,324,187 Class B shares outstanding; the engine uses a Class A count taken from a 10-Q/A dated 2011-08-01. On the two classes' own market prices ($176.77 for BELFA and $219.07 for BELFB) the economic market capitalisation is about $3.07bn, not $384.5M - low by 8.0x. What the market is actually paying for is a power-conversion and connectivity component maker with $675.5M of LTM revenue, 16.4% EBIT margins, $306.1M of cash, NO debt, and an 80% stake in Enercon Technologies with a commitment to buy the remaining 20%. At a corrected enterprise value near $2.77bn against the $77.1M FCFF base, the market requires roughly +32% to +39% five-year FCFF growth - not the -48.2% the brief reports.",
+  "base_case_rationale": "No base case can be stated: the share count is wrong by 8.0x and the schema cannot override it. This is a CONFIRMED INSTANCE OF A BUG LESSONS.md PREDICTED BY NAME - the 2026-09-07 dual-class entry lists 'CENT/CENTA, BELFA/BELFB, HVT, GTN, HUBG, VLGEA, JBSS, MBUU, FNKO, TBLA, ZGN, TTAN' as the population, and BELFA has now arrived in an opportunistic slot forty days later, unfixed. Three points are new. FIRST, THE CONCEPT GATE WOULD NOT CATCH IT: shares_source reads 'dei:EntityCommonStockSharesOutstanding (10-Q/A)', i.e. it IS the correct cover-page concept - it is simply from 2011, so the HNGE provenance gate passes and only an age test (5,555 days) fires. The HNGE and BELFA gates are therefore both needed; neither alone is sufficient. SECOND, THE SAME WRONG COUNT IS SERVED TO BOTH TICKERS OF ONE COMPANY, producing two different valuations of the same business in one screen: BELFB sits in the same screen at a $476.5M market capitalisation - 2,174,912 shares again, the identical Class A figure - with a +159.4% gap, while BELFA shows +212.2%. One company, two tickers, two 'fair values', and the 53-point difference between them is nothing but the price spread between the share classes. That is a cleaner demonstration than any single-name instance that the defect is in the denominator. THIRD, total_debt = 0.0 IS CORRECT HERE AND THE FLAG INVERTS THE DIAGNOSIS, which is the VISN and QTWO case arriving a third time: 'interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated' invites the analyst to ADD debt to enterprise value, when the 10-Q says debt is genuinely zero and the stale input is interest_expense ($2.85M in the extract against $4.3M for six months of 2026 and $8.1M for six months of 2025 per the filing). Here it costs little - the add-back is 3% of the base - but the inference the flag invites is backwards. A fourth defect is real: equity_now of $909.4M against equity_series[0] of $425.5M is 2.1x, which is the Enercon acquisition AND the $441.6M equity raise sitting inside the cash-flow window, so the $77.1M FCFF base describes a materially smaller company than the enterprise value does - the CECO detector firing on data already in the extract. No fair value is recorded.",
+  "key_risks": [
+    "shares_asof is 2011-08-01, 5,555 days stale, and is the Class A count only: 2,174,912 used against 2,115,263 Class A + 12,324,187 Class B = 14,439,450",
+    "Economic market capitalisation ~$3.07bn against the brief's $384.5M (8.0x); enterprise value ~$2.77bn against $78.4M",
+    "The identical wrong count is served to BELFB in the same screen, producing a +159.4% gap on the same company against BELFA's +212.2%",
+    "equity_now $909.4M against equity_series[0] $425.5M (2.1x): the Enercon acquisition and the $441.6M May 2026 equity raise are inside the window, so the FCFF base and the enterprise value describe different companies",
+    "The 'debt_likely_understated' flag inverts the diagnosis - the 10-Q states total debt is $0 at 2026-06-30 after $197.5M was repaid from offering proceeds; the stale input is interest_expense",
+    "The May 2026 Class B offering was struck at $266.00 and the Class B now trades at $219.07, 18% below, five months later"
+  ],
+  "watch_for": [
+    "A corrected, both-class share count in the extract; until then BELFA and BELFB will both re-qualify near the 98th percentile and consume two slots for one company",
+    "The size and funding of the remaining 20% Enercon buy-in",
+    "Organic revenue disclosure, to separate bought growth from earned growth (the EFOR test)"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm"
+  ],
+  "flags": [
+    "share_count_5555d_stale_market_cap_unreliable",
+    "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated",
+    "operating_leases_33%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

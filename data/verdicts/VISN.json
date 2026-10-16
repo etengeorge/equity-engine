@@ -1,6 +1,6 @@
 {
   "ticker": "VISN",
-  "date": "2026-09-24",
+  "date": "2026-10-16",
   "sector": "Information Technology",
   "name": "VISTANCE NETWORKS INC",
   "method": "fcff",
@@ -11,8 +11,8 @@
   "bull_growth": null,
   "rotce_override": null,
   "horizon_months": 12,
-  "price_at_verdict": 6.449999809265137,
-  "market_implied_growth": -0.35258218862625534,
+  "price_at_verdict": 5.889999866485596,
+  "market_implied_growth": -0.3729162713472537,
   "cohort_pct": 98.4,
   "priced": {
     "ok": false,
@@ -22,31 +22,34 @@
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "That this is cheap on net cash. I argued it myself: with $113.6M of balance-sheet cash at 2026-06-30, zero debt and $1.846bn of Belden proceeds landing the next day, enterprise value looks NEGATIVE by roughly $0.46bn against a $1.48bn market cap - i.e. the market pays less than nothing for a $1.24bn-revenue business.",
-    "what_would_prove_it": "Whether the RUCKUS proceeds were still inside the company on the pricing date of 2026-09-23.",
-    "already_visible": "Yes, and it defeats the counter. The 2026-08-06 EX-99.1 declares a $5.00 per share special cash distribution, record 2026-08-17, PAID 2026-08-27, ex-dividend 2026-08-28, funded explicitly 'with cash proceeds received in connection with the sale of its Ruckus Networks business to Belden Inc. on July 1, 2026'. That is roughly $1.15bn of the $1.846bn already out the door before the screen priced the stock. Residual net cash is nearer $0.8bn than $1.9bn, so enterprise value is positive (~$0.7bn) and the negative-EV argument is wrong. My own bull case lost to a press release.",
-    "unresolved": "I did not obtain a post-distribution balance sheet - the next 10-Q is not due until early November - so the ~$0.8bn residual net cash is my arithmetic (June cash $113.6M + ~$1,830M pro forma adjustment - ~$1,150M distribution), not a reported figure. Nor do I know the tax leakage on the RUCKUS gain beyond the $73.8M of accrued liabilities in the pro forma. Whether the remaining business is worth the ~$0.7bn of implied enterprise value is a genuine question I am not answering."
+    "strongest_counter": "That after three distributions totalling $16.50 a share the company has now paid out essentially all of the proceeds, so the remaining equity is a cheap claim on a real $1.24bn-revenue franchise with a DOCSIS 4.0 cycle ahead of it - and that my refusal is becoming a reflex rather than a conclusion. The prior pass's own bull case (negative enterprise value) was defeated by a press release; the symmetric risk is that the bear case is now defeated by one too.",
+    "what_would_prove_it": "A post-distribution balance sheet - cash actually remaining after the $5.00 paid 2026-08-27 and the $1.50 payable 2026-11-06 - set against the run-rate operating cash flow of continuing operations alone.",
+    "already_visible": "No, and this is the second consecutive pass where the decisive document does not exist yet: the Q3 10-Q is not due until early November and will not in any case capture the 2026-11-06 payment. What IS newly visible cuts against the bull: the company has now declared a third distribution rather than reinvesting, and the CEO's framing is capital return plus 'advancing Aurora Networks' strategic plan' - not a growth investment case. The $150M incremental buyback authorisation and $16.50 of distributions together say management's own best use for the proceeds was not the business. That is informative, and it is the market's view too.",
+    "unresolved": "The residual cash, still. I have no reported post-distribution balance sheet, so I cannot say what the equity is a claim on beyond the business itself. I also cannot quantify the tax leakage on the RUCKUS gain beyond the $73.8M of accrued liabilities in the pro forma. And I have not valued Aurora Networks on its own - whether a two-customer, 35%-gross-margin access-equipment business with falling margins is worth more or less than the residual cash plus the current price is a genuine question I am not answering, in either direction."
   },
-  "what_changed": "Everything, three times over. (i) CCS sold to Amphenol 2026-01-09; all third-party debt repaid in full at closing ($7,260.2M of long-term debt at 2025-12-31 is $0 at 2026-06-30, confirmed in the debt note: 'Total long-term debt $ -'). (ii) RUCKUS sold to Belden 2026-07-01 for $1.846bn cash, cash-free/debt-free (8-K item 2.01; pro forma 8-K/A filed 2026-07-08). (iii) Two special distributions: $2,316.3M paid in H1 2026 and $5.00/share declared 2026-08-06 and paid 2026-08-27 out of the Belden proceeds. Also: $300M ABL entered 2026-04-07, reduced to $246.9M on the RUCKUS close, undrawn at 2026-06-30 apart from $39.9M of letters of credit; and an additional $150M of buyback authorisation announced 2026-08-26.",
-  "consensus_case": "Vistance Networks (formerly CommScope) is a post-liquidation stub. At $6.45 the market pays ~$1.48bn for 230.0M shares of a company that has sold its Connectivity and Cable Solutions segment to Amphenol (closed 2026-01-09, $10,541.7M of net divestiture proceeds), repaid all $7,370.8M of third-party debt at that closing, redeemed $1,278.7M of Series A convertible preferred, and sold the RUCKUS segment to Belden for $1.846bn cash on 2026-07-01. It then returned the money: a $2,316.3M special distribution in H1 and a second $5.00/share special distribution declared 2026-08-06, paid 2026-08-27 (ex 08-28), ~$1.15bn. What remains is the Aurora Networks access-network business: Q2 net sales $319.6M (-1.4% y/y), gross margin 35.3% against 45.7%, and an operating LOSS of ~$8.9M after $122.3M of operating expenses. 59% of net sales go to Comcast and 12% to Charter. The price is a residual-cash-plus-a-breakeven-business number, and the market is not obviously wrong about it.",
-  "base_case_rationale": "No growth rate can be applied, because there is no base to apply it to. The engine's FCFF base of $760.8M is built from a cfo-capex series of [$252.6M, $247.8M, $236.6M] (mean $245.7M) PLUS roughly $515M of after-tax interest add-back - about 68% of the base - on the $7.26bn of debt that was repaid in full on 2026-01-09 and no longer exists. That alone is the SABR condition (add-back over 60% of base) on debt that is not merely unserviceable but extinguished. On top of it, the cfo-capex series belongs to a company that still owned CCS and RUCKUS; the business that remains generated an operating LOSS in Q2 2026 and burned cash at the consolidated level (H1 net cash used in operating activities $299.4M). A DCF on this name is not a valuation, it is an arithmetic accident.",
+  "what_changed": "THE OBSERVABLE THE PRIOR PASS NOMINATED ARRIVED, AND IT IS LARGER THAN EXPECTED. The 2026-09-24 pass on this name named two things to watch: the Q3 10-Q for a post-distribution balance sheet, and 'any further special distribution'. The second landed on 2026-10-14, two days before this screen: the Board approved a THIRD special cash distribution of $1.50 per share, payable 2026-11-06 to holders of record 2026-10-26, funded 'with available cash, including proceeds from the July 1, 2026 sale of its Ruckus Networks business'. The press release states the cumulative figure in the CEO's own words: 'bringing our total special distributions this year to $16.50 per share'. That reconciles the prior pass's arithmetic exactly - $10.00 a share in H1 (the $2,316.3M paid against ~231.6M shares), $5.00 declared 2026-08-06 and paid 2026-08-27, and now $1.50 - and confirms the share count at about 231.6M. CRITICALLY, THE EX-DIVIDEND DATE IS AFTER THE PAYMENT DATE: 'Pursuant to Nasdaq Rule 11140(b)(2), because the amount of the special cash distribution will be 25% or greater of the value of the Company's common stock, the ex-dividend date will be November 9, 2026, the first business day following the payment date.' So the $5.89 price on 2026-10-15 still carries the full $1.50, and will until 2026-11-09. Otherwise unchanged from the prior pass: all third-party debt repaid in full at the 2026-01-09 CCS closing ('Total long-term debt $ -' at 2026-06-30 against $7,260.2M at 2025-12-31); RUCKUS sold to Belden 2026-07-01 for $1.846bn; buyback authorisation raised by $150M to $250M on 2026-08-26; Q2 missed on lower legacy licence sales and memory-chip costs with full-year guidance lowered.",
+  "consensus_case": "At $5.89 Vistance is a residual-cash-plus-a-breakeven-business number, and 25.5% of that price is a declared cash distribution that has not yet gone ex. The company has distributed $16.50 per share in special distributions during 2026 - roughly 2.8x the current share price - out of the proceeds of selling CCS to Amphenol and RUCKUS to Belden. What remains is Aurora Networks: about $1.24bn of annualised revenue, an operating LOSS in Q2 2026, gross margin down from 45.7% to 35.3% year over year, and 59% of net sales to Comcast with 12% to Charter. The market is paying a small multiple of residual cash for a concentrated, low-margin access-network business, and that is a defensible thing to do. The reverse DCF's -37.3% implied growth is not an opinion anyone holds; it is arithmetic on a cash-flow base that belongs to two businesses that have been sold and a debt load that was extinguished.",
+  "base_case_rationale": "No growth rate can be applied, for the same reason as on 2026-09-24 and now for a second, independent reason. The engine's $760.8M FCFF base is built from a cfo-capex series of [$252.6M, $247.8M, $236.6M] (mean $245.7M) PLUS roughly $515M of after-tax interest add-back - 68% of the base, confirmed by the mechanical check - on the $7.26bn of debt extinguished on 2026-01-09. That is the SABR condition on debt that does not merely fail to be serviceable but no longer exists, and it is the VISN mechanism this file already named. The cfo-capex series itself belongs to a company that still owned both CCS and RUCKUS. THE NEW REASON IS A PRICE DEFECT RATHER THAN A CASH-FLOW ONE, AND IT IS A CATEGORY THE ENGINE HAS NEVER HANDLED: because Nasdaq Rule 11140(b)(2) pushes the ex-date to the business day AFTER payment whenever a distribution is 25% or more of the share price, the quoted $5.89 includes $1.50 of cash the company is about to pay out. Any model that divides that price by a share count and compares it to a balance sheet is DOUBLE-COUNTING the $1.50 - once in market capitalisation and once in the cash that funds it. This is the INDV pattern from 2026-09-21 (a declared, contingent special dividend inside the share price) with two differences that make it worse: the distribution here is unconditional rather than merger-contingent, and the Rule 11140(b)(2) mechanic means the price does NOT adjust on the record date, so the window in which the price is overstated runs for three and a half weeks past the record date rather than ending at it. The +213.9% gap at the 98th percentile of 124 Information Technology names remains 100% artifact.",
   "key_risks": [
-    "Customer concentration: Comcast 59% and Charter 12% of net sales in Q2 2026, and 48%/15% of accounts receivable",
-    "Gross margin fell from 45.7% to 35.3% year over year on roughly flat revenue; continuing operations posted an operating loss in Q2",
-    "Cash is being distributed rather than reinvested, so the equity is converging on a small, concentrated, low-margin access-network business",
-    "No post-distribution balance sheet exists yet; the residual cash figure is derived, not reported"
+    "25.5% of the $5.89 price is the declared $1.50 distribution, which does not go ex until 2026-11-09 under Nasdaq Rule 11140(b)(2) - after the 2026-11-06 payment date",
+    "The $760.8M FCFF base is ~68% after-tax interest add-back on $7.26bn of debt extinguished 2026-01-09; the cfo-capex series belongs to a company that owned CCS and RUCKUS, both sold",
+    "Customer concentration: Comcast 59% and Charter 12% of Q2 2026 net sales",
+    "Gross margin fell from 45.7% to 35.3% year over year; continuing operations posted an operating loss in Q2 2026 and full-year guidance was lowered",
+    "revenue_ltm of $1,931.6M overstates continuing operations (~$1.24bn annualised)",
+    "No post-distribution balance sheet exists; residual cash is derived, not reported"
   ],
   "watch_for": [
-    "The Q3 10-Q (early November) - the first balance sheet showing actual cash after the $5.00 distribution, and the first full quarter of continuing operations alone",
-    "Any further special distribution or acceleration of the $150M incremental buyback authorisation",
-    "Comcast or Charter capital-spending guidance, which is now effectively this company's revenue guidance"
+    "The Q3 10-Q (early November) - the first balance sheet after the $5.00 August distribution, and the first clean quarter of continuing operations alone",
+    "The 2026-11-09 ex-date, after which the price stops carrying the $1.50",
+    "Any FOURTH special distribution, or acceleration of the $250M buyback",
+    "Comcast and Charter capital-spending guidance, which is effectively this company's revenue guidance"
   ],
   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526421807/visn-ex99_1.htm",
     "https://www.sec.gov/Archives/edgar/data/1517228/000119312526336708/visn-20260630.htm",
-    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526291679/visn-20260701.htm",
-    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526298682/visn-20260701.htm",
-    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526336705/visn-ex99_1.htm",
-    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526368664/visn-ex99_1.htm"
+    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526368664/visn-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1517228/000119312526298682/visn-ex99_1.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/08/13/vistance-visn-q2-2026-earnings-call-transcript/"
   ],
   "flags": [
     "interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated"

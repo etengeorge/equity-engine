@@ -49,6 +49,11 @@
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
   },
+  "AMLX": {
+    "conviction": "high",
+    "last_visit": "2026-10-16",
+    "verdict": "no_model"
+  },
   "AMR": {
     "conviction": "low",
     "last_visit": "2026-09-08",
@@ -137,6 +142,11 @@
   "BDC": {
     "conviction": "medium",
     "last_visit": "2026-09-17",
+    "verdict": "no_model"
+  },
+  "BELFA": {
+    "conviction": "high",
+    "last_visit": "2026-10-16",
     "verdict": "no_model"
   },
   "BIPC": {
@@ -364,6 +374,11 @@
     "last_visit": "2026-10-09",
     "verdict": "no_model"
   },
+  "FLNG": {
+    "conviction": "low",
+    "last_visit": "2026-10-16",
+    "verdict": "no_edge"
+  },
   "FLO": {
     "conviction": "low",
     "last_visit": "2026-09-02",
@@ -489,6 +504,11 @@
     "last_visit": "2026-08-31",
     "verdict": "fair"
   },
+  "IMVT": {
+    "conviction": "high",
+    "last_visit": "2026-10-16",
+    "verdict": "no_model"
+  },
   "IMXI": {
     "conviction": "high",
     "last_visit": "2026-09-24",
@@ -561,7 +581,7 @@
   },
   "LCII": {
     "conviction": "high",
-    "last_visit": "2026-09-11",
+    "last_visit": "2026-10-16",
     "verdict": "no_model"
   },
   "LE": {
@@ -634,6 +654,11 @@
     "last_visit": "2026-09-18",
     "verdict": "no_model"
   },
+  "MIR": {
+    "conviction": "high",
+    "last_visit": "2026-10-16",
+    "verdict": "no_model"
+  },
   "MMSI": {
     "conviction": "low",
     "last_visit": "2026-09-10",
@@ -652,6 +677,16 @@
   "NEWT": {
     "conviction": "low",
     "last_visit": "2026-09-17",
+    "verdict": "no_edge"
+  },
+  "NHI": {
+    "conviction": "medium",
+    "last_visit": "2026-10-16",
+    "verdict": "no_model"
+  },
+  "NMIH": {
+    "conviction": "medium",
+    "last_visit": "2026-10-16",
     "verdict": "no_edge"
   },
   "NPO": {
@@ -964,6 +999,11 @@
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
+  "VCYT": {
+    "conviction": "low",
+    "last_visit": "2026-10-16",
+    "verdict": "rich"
+  },
   "VEL": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -971,7 +1011,7 @@
   },
   "VISN": {
     "conviction": "high",
-    "last_visit": "2026-09-24",
+    "last_visit": "2026-10-16",
     "verdict": "no_model"
   },
   "VLY": {
