@@ -1,0 +1,138 @@
+{
+  "fetched_utc": "2026-10-16T11:34:20+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AMLX",
+    "cik": 1658551,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "1.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/d160615d8k.htm",
+        "file": "2026-09-08-8-K-d160615d8k.htm.txt",
+        "chars": 8972,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-20",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526359418/d179247d8k.htm",
+        "file": "2026-08-20-8-K-d179247d8k.htm.txt",
+        "chars": 8217,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-18",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526354793/d184004d8k.htm",
+        "file": "2026-08-18-8-K-d184004d8k.htm.txt",
+        "chars": 3302,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-18",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526354716/d180533d8k.htm",
+        "file": "2026-08-18-8-K-d180533d8k.htm.txt",
+        "chars": 8588,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526336682/amlx-20260630.htm",
+        "file": "2026-08-06-10-Q-amlx-20260630.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526336670/amlx-20260806.htm",
+        "file": "2026-08-06-8-K-amlx-20260806.htm.txt",
+        "chars": 3582,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526257390/d128401d8k.htm",
+        "file": "2026-06-04-8-K-d128401d8k.htm.txt",
+        "chars": 4681,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526210292/amlx-20260331.htm",
+        "file": "2026-05-07-10-Q-amlx-20260331.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "filed": "2026-08-18",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526354793/d184004dex991.htm",
+        "file": "2026-08-18-EX-99.1.txt",
+        "chars": 10996,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-18",
+        "items": [
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526354716/d180533dex991.htm",
+        "file": "2026-08-18-EX-99.1.txt",
+        "chars": 12824,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526336670/amlx-ex99_1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 19212,
+        "truncated": false
+      }
+    ]
+  }
+}
