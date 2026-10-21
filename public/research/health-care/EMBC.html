@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>EMBC — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / EMBC</p><h1>EMBC <span style='color:var(--faint);font-weight:400'>EMBECTA</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$6.45</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-21</b></div></div><div class='prose'><h1>EMBC — EMBECTA</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-21 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $6.45</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $6.45 the market prices Embecta&#x27;s free cash flow to the firm to shrink about 6-9% a year for five years (my $165M base, WACC 8.35-9.35%, the engine&#x27;s 2% terminal), and the evidence for a shrinking core is strong. FY2026 adjusted organic constant-currency revenue is guided down 8.8-10.2%; US revenue fell 20.6% in the first nine months and 24.6% in Q3 after a large US retailer moved to a lower-cost pen needle. Q3 alone lost $20.1M to price and $19.9M to volume year on year. Management said the customer and payer-mix hit to net price was larger in Q3 than in Q2, and the year-on-year decline in retail insulin-pen prescriptions was slightly faster. Gross-to-net deductions rose to $157.2M on roughly $429M of Q3 gross sales (36.7%, vs 32.6% a year earlier). Adjusted gross margin fell from 67.2% to 58.2%. Two once-weekly basal insulins are now FDA-approved: Novo&#x27;s Awiqli on 2026-03-26, with US launch in 2H 2026, and Lilly&#x27;s Onswik (efsitora) on 2026-09-24. Each cuts a basal patient from 365 needles a year to 52. Oral GLP-1s (Wegovy pill, Foundayo) and automated insulin delivery for Type 2 keep delaying or replacing injections. The guide implies Q4 adjusted operating margin of about 16-18%, against 25.5% in Q3, which was flattered by distributor orders normalizing after a Q2 destock. On the balance sheet: $1,469M of principal debt, 3.7x net leverage, and covenants that step down to 3.75x first-lien net leverage and 3.0x interest cover in 2028. The revolver was cut from $500M to $310M, with $100M still maturing 2027-03-31, and the lenders now require monthly liquidity forecasts. The $639M term loan (Mar-2029) and $700M of notes (Feb-2030) have to be refinanced off a smaller EBITDA. Equity is about 20% of enterprise value, so one turn of EBITDA multiple moves the stock by roughly $5-6 a share. The stock has already doubled from about $3.2 since the Q3 beat, so the stabilization re-rating has happened.</p><p><strong>What changed.</strong> Since the FY2025 10-K (Nov 2025): (1) 2026-05-05, Q2: US share loss at one large retailer to a low-cost needle, falling insulin-pen prescriptions, adjusted EPS guide cut about 40%, quarterly dividend cut from $0.15 to $0.01, and a 3-year buyback of up to $100M. The stock fell 57.8%. 2.68M shares were repurchased at $3.23-3.29 in May-June. (2) 2026-05-15: Owen Mumford acquisition closed (GBP 100M plus up to GBP 50M earn-out; $128.4M cash net of cash acquired; funded by a $180M revolver draw). It added two UK plants, one Malaysian plant and a US warehouse, and contributed $13.8M of Q3 revenue in about 1.5 months. (3) 2026-06-17: securities class action Apitz-Grossman v. Embecta, D.N.J. 2:26-cv-07217 (class period 2025-11-25 to 2026-05-04). The company calls it without merit. I found no lead-plaintiff order after the 2026-08-17 deadline. (4) 2026-08-06, credit agreement First Amendment: revolver cut to $310M; $210M extended to 2028-12-30 at SOFR+350; $100M still due 2027-03-31; tighter covenants (first-lien net leverage max 4.75x through 2027-06-30, stepping to 3.75x from 2028-04-01; interest cover min 2.5x, rising to 3.0x from 2028-01-01); monthly liquidity reporting to the revolving lenders. (5) 2026-08-07, Q3 FY26: revenue $271.7M (-8.1%); US $120.8M (-24.6%); international $150.9M (+11.5%); adjusted operating margin 25.5% vs 36.9%; FCF $40.7M; $53M of debt repaid. FY26 guide: revenue $1,015-1,035M reaffirmed; adjusted operating margin raised to 23.5-24.0%; adjusted EPS $1.80-1.90; FCF about $100M including $18-20M of capex; interest about $95M; tax 27%; at least $150M of debt repayment ($128M done through nine months). Share was stable in Q3. There is no FY27 guide, and the long-range plan update is not due until late calendar 2027. A new North America president joined from Sandoz generics. (6) 2026-09-24: FDA approved Lilly&#x27;s once-weekly efsitora (Onswik), the second weekly basal insulin after Awiqli (2026-03-26). (7) The Section 232 investigation into medical consumables, open since Sep 2025, still had no proclamation as of early October 2026 per trade trackers. Chinese syringes already carry 100% Section 301 duties. (8) Price: $6.45, against a 52-week low of about $2.89, up 99% over 63 days.</p><p><strong>Base case.</strong> Base case: FCFF falls 5% a year from a normalized base of about $165M. That base is unlevered, treats stock compensation as a cost, and is my own construction, not the engine&#x27;s.</p><p>Building the base from the FY26 guide: FCF of about $100M plus after-tax interest ($95M x 0.75 = $71M) gives $171M. Expensing stock compensation (about $21M) leaves $150M. Adding back about $26M of after-tax stand-up, brand-transition and Owen Mumford deal costs gives about $176M. Two adjustments bring that to about $165M: Q1 FY26 earned above the post-shock run rate (adjusted operating income of $79M, against a Q2-Q4 average of about $55M), which takes off about $18M; a full year of Owen Mumford plus the cost-review savings adds back about $5-7M.</p><p>Why -5% a year: US pen needles keep falling at roughly 6-8% a year, driven by the two weekly insulins, oral GLP-1s, automated insulin delivery for Type 2, and net-price resets to low-cost competitors. International, about 55% of revenue, grows low single digits in constant currency, helped by Latin America and Asia, held back by China. Owen Mumford (about $92M of annual revenue per the user&#x27;s Q&amp;A pack) grows high single digits. GLP-1 co-packaging and US small packs are real but small. The cost review offsets part of the negative operating leverage, and capex normalizes near $20M.</p><p>Where this differs from the screen: the naive baseline (3-year revenue CAGR of -1.5%) predates the FY26 step-down of about 9.5% organically. The engine&#x27;s $81M FCFF base omits about $80M of after-tax interest (see data quality) and averages in the FY24 TSA-exit year.</p><p>Fair value in my base case: $12.33 with the engine&#x27;s 2% terminal at its own corrected WACC of 8.35%. It falls to $6.16 with a 0% terminal, and to $7.85 or $3.26 at a 9.35% WACC with 2% or 0% terminal (subtract about $1.47 a share for claims the extract leaves out: $30.9M of finance leases, $14.2M of issuance costs netted against debt, and the $38.1M Owen Mumford earn-out liability). That range brackets $6.45. Once corrected, the whole gap rests on two choices the cash flows cannot settle: whether a pen-needle franchise whose drug partners are actively removing injections deserves a 2% perpetual growth rate, and a 3-point-a-year difference in FCFF decline that FY27 guidance has not yet tested. That is not an edge.</p><p>I am not supplying final_growth, as with ALKS on 2026-08-31. The reprice reads the committed extract, which has no interest expense for this name. Its WACC therefore comes out at 5.5% (a &#x27;no/low debt&#x27; 5.8% cost of debt on a B-rated, 80%-debt capital structure), and -5% would be recorded as a $38.99 fair value (+505%). fcff_base_override cannot repair a discount rate.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: -5% is too generous; the market&#x27;s -8 to -10% is the right number or still kind. The decline is accelerating, not a one-off step: revenue fell 3.8% in FY25 and about 9.5% organically in FY26. Inside FY26, Q3 net-price erosion from payer mix was worse than Q2, and retail insulin-pen prescriptions fell a little faster. Both weekly basal insulins were approved within six months of each other. The guide implies Q4 adjusted operating margin near 17%. Owen Mumford and international are lower-margin than the US business they replace. My $165M base already credits cost savings that have not yet appeared in a full quarter. A highly levered equity facing a 2028 covenant step-down and a 2029-30 refinancing wall deserves a cost of equity well above the engine&#x27;s 10%, which pushes WACC toward 9.5% and fair value toward $3.</li><li>What would prove it: Q4 FY26 results and the first FY27 guide (expected late Nov 2026). The specific tells: US revenue below about $110M a quarter, FY27 adjusted operating margin guided below 22%, net leverage not falling despite $150M+ of paydown, and any weekly-insulin uptake commentary.</li><li>Already visible today: Partly. The Q3 price hit ($20.1M), management&#x27;s statement that the payer-mix impact on net price was greater than in Q2, the slightly faster prescription decline, the Onswik approval on 2026-09-24, and the guide-implied Q4 margin are all on the record.</li><li>Left unresolved: I could not get FY27 guidance (none exists yet), market prices or yields for the 2030 notes, quarterly US insulin-pen prescription data, the lead-plaintiff outcome, or any Section 232 consumables decision. I also cannot separate how much of Q3&#x27;s $25M sequential US recovery was one-time restocking. The counter is not decisively proven, but I cannot refute it with evidence either, so I do not call the stock cheap.</li></ul><p><strong>Key risks.</strong> Core US pen-needle volume and net price keep falling: weekly basal insulins (Awiqli 2026-03-26, Onswik 2026-09-24), oral GLP-1s, AID pumps for Type 2, low-cost needles at large retailers; Leverage: $1,469M principal at 3.7x net; covenant steps to 3.75x first-lien net leverage from 2028-04-01; $100M revolver tranche due 2027-03-31; $639M term loan Mar-2029 and $700M notes Feb-2030 to refinance off a smaller EBITDA; Gross-to-net creep: deductions 36.7% of Q3 gross vs 32.6% a year earlier; variable-consideration liability $159.4M vs $113.7M at FY25 year end; BD dependency: BD supplies all cannulas, holds the IP, and may terminate the supply agreement on a change of control, which limits a sale as an exit; Securities class action (D.N.J. 2:26-cv-07217) at an early stage; Section 232 medical-consumables remedy still pending; buy-local pressure abroad <strong>Watch for.</strong> Q4 FY26 results and the first FY27 guide (late Nov 2026): US quarterly run rate, FY27 adjusted operating margin, FCF and debt-paydown targets; Net leverage vs the 4.75x covenant now and the 3.75x step-down from 2028-04-01; any refinancing or extension of the 2029 term loan; Weekly basal insulin uptake (Awiqli launch 2H 2026, Onswik) and payer formulary decisions; FDA/BSI clearance of the market-appropriate pen needle and whether it cannibalizes the premium line; An engine extract that includes interest expense: re-screen this name before reading its gap again</p><p><strong>Data quality.</strong> THE FLAG THAT MATTERS WAS NOT RAISED.</p><p>The committed extract has interest_expense = null. EDGAR shows Embecta tags interest only as us-gaap:InterestIncomeExpenseNonoperatingNet, which is negative: FY23 -$107.0M, FY24 -$112.3M, FY25 -$107.3M, 9M FY26 -$70.6M. That concept is not in edgar.py&#x27;s alias list; InterestExpenseNonoperating returns 404 for this CIK. Two errors follow: (a) cost_of_capital takes the &#x27;no/low debt&#x27; branch, giving a 5.85% pre-tax cost of debt and a 5.5% WACC for a B-rated company carrying 80% debt. (b) normalized_fcff adds no after-tax interest, so the base is $81M instead of about $162M. They push in opposite directions, but not equally. The screen&#x27;s +110% gap is an artifact of the 5.5% WACC. With FY25 interest restored, the engine&#x27;s own math gives 2.3x coverage, a 10.6% cost of debt, an 8.35% WACC, a $161.6M base and implied growth of -8.6% (-12.0% to -5.6% across +/-1pt). Even then, the naive baseline would still print $17.40 (+170%), because a -1.5% 3-year revenue CAGR does not describe FY26.</p><p>The raised flags:</p><ul><li>possible_peak_cycle_base: correct for a different reason. FY25 FCF of $182M was not a cyclical peak but the first year free of heavy separation costs; FY26 guided FCF of about $100M confirms it overstates the forward run rate.</li><li>lumpy_fcff: the FY24 $19.9M year was the TSA/ERP exit plus about $63M of patch-pump spend.</li><li>stock_comp_33%: measured against the understated base. It is about 13-17% of a corrected base, and I expense it.</li></ul><p>Confirmed good: the share count of 56,659,599 (cover page 2026-07-31; matches the 6/30 balance sheet), and the balance sheet dated 2026-06-30, after Owen Mumford.</p><p>Still open: the extract&#x27;s debt of $1,455.1M is net of $14.2M of issuance costs (principal $1,469.3M); $30.9M of finance leases and the $38.1M Owen Mumford earn-out (fair value at acquisition) are excluded. Together about $1.47 a share. Beta of 0.89 has R² 0.048, just above the 0.04 gate; for an equity that is 20% of enterprise value, a 10% cost of equity is not credible.</p><p>The engine bug is wider than this name: 104 of 980 names with more than $100M of debt have no interest_expense, and 126 names in the store have a NEGATIVE one (a net income/expense concept read without a sign flip). Both send those names down the &#x27;no/low debt&#x27; branch.</p><p>Primary documents read through adhoc-fetch: the Q3 10-Q, the Q2 and Q3 EX-99.1 releases, the May and August 8-Ks, the Q3 call transcript, and EDGAR companyconcept for the interest tags. The Q3 prepared-remarks PDF fetch failed (commit race) and was not retried; the transcript covers it.</p><p><em>Horizon: 6 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/EMBC/2026-08-07-10-Q-embc-20260630.htm.txt (<a href="https://www.sec.gov/Archives/edgar/data/1872789/000187278926000033/embc-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1872789/000187278926000033/embc-20260630.htm</a>)</li><li>data/adhoc/EMBC/2026-08-07-EX-99.1.txt (<a href="https://www.sec.gov/Archives/edgar/data/0001872789/000187278926000029/q32026ex-991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0001872789/000187278926000029/q32026ex-991.htm</a>)</li><li>data/adhoc/EMBC/2026-05-05-EX-99.1.txt (Q2 FY26 release)</li><li>data/adhoc/EMBC/2026-05-15-EX-99.1.txt (Owen Mumford close)</li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/14/embecta-embc-q3-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/08/14/embecta-embc-q3-2026-earnings-call-transcript/</a> (via adhoc-fetch, data/adhoc/EMBC/page.txt)</li><li><a href="https://data.sec.gov/api/xbrl/companyconcept/CIK0001872789/us-gaap/InterestIncomeExpenseNonoperatingNet.json" rel="noopener">https://data.sec.gov/api/xbrl/companyconcept/CIK0001872789/us-gaap/InterestIncomeExpenseNonoperatingNet.json</a> (via adhoc-fetch)</li><li><a href="https://www.pharmacytimes.com/view/fda-approves-insulin-efsitora-once-weekly-basal-insulin-injection-for-adults-with-t2d" rel="noopener">https://www.pharmacytimes.com/view/fda-approves-insulin-efsitora-once-weekly-basal-insulin-injection-for-adults-with-t2d</a></li><li><a href="https://www.ajmc.com/view/fda-approves-novel-weekly-basal-insulin-for-t2d" rel="noopener">https://www.ajmc.com/view/fda-approves-novel-weekly-basal-insulin-for-t2d</a></li><li><a href="https://www.rgrdlaw.com/cases-embecta-corp-class-action-lawsuit-embc.html" rel="noopener">https://www.rgrdlaw.com/cases-embecta-corp-class-action-lawsuit-embc.html</a></li><li><a href="https://idataresearch.com/news-medical-device-tariffs-in-2026/" rel="noopener">https://idataresearch.com/news-medical-device-tariffs-in-2026/</a></li><li><a href="https://seekingalpha.com/news/4629989-embecta-adds-to-earnings-rally-with-another-9-advance" rel="noopener">https://seekingalpha.com/news/4629989-embecta-adds-to-earnings-rally-with-another-9-advance</a></li><li>User-supplied Embecta Q&amp;A pack dated 2026-10-21 (Q00-Q11; secondary, re-checked against the 10-Q where cited above)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/EMBC.md'>research/Health Care/EMBC.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
