@@ -1,11 +1,8 @@
 {
-  "fetched_utc": "2026-10-21T19:29:02+00:00",
+  "fetched_utc": "2026-10-21T19:32:50+00:00",
   "requested": "url",
   "url": {
-    "url": "https://www.fool.com/earnings/call-transcripts/2026/08/14/embecta-embc-q3-2026-earnings-call-transcript/",
-    "content_type": "text/html; charset=utf-8",
-    "file": "page.txt",
-    "chars": 40280,
-    "truncated": false
+    "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001872789/us-gaap/InterestExpenseNonoperating.json",
+    "error": "HTTPError: HTTP Error 404: Not Found"
   }
 }
