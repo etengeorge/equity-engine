@@ -1,0 +1,59 @@
+{
+  "ticker": "PRGS",
+  "date": "2026-10-23",
+  "sector": "Information Technology",
+  "name": "PROGRESS SOFTWARE CORP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": -0.04,
+  "bull_growth": 0.02,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 45.97999954223633,
+  "market_implied_growth": -0.06627141136409848,
+  "cohort_pct": 99.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That I have talked myself out of a genuine cheap call. Take the company's own guided unlevered free cash flow of $334 million against even the FULLY corrected post-Domo enterprise value of about $3,383 million and that is a 9.9% yield from a business with 43% non-GAAP operating margins whose share count is shrinking 4.5% a year. At the engine's own 7.16% WACC and flat growth the fair value is $110.87 and the gap +141%; even at a punitive 8.5% WACC and flat growth it is $80.68 and +75%. To get to no_edge I had to use the most conservative base in my range AND the high end of the WACC AND the full Domo adjustment simultaneously, which is three conservative choices stacked.",
+    "what_would_prove_it": "Whether the acquisitions are growth or maintenance - i.e. whether organic ARR is genuinely positive. If Progress can hold ARR flat without buying anything, the $330 million of unlevered free cash flow is owner earnings and the stock is cheap; if ARR only holds up because roughly $1.3 billion has been spent on ShareFile and Domo in two years, then owner earnings are free cash flow LESS the acquisition spend needed to stand still, which is negative.",
+    "already_visible": "Yes, and it rescues the counter only partly, which is exactly why this lands at no_edge. ShareFile closed in October 2024 and is therefore in BOTH the Q3 2025 and Q3 2026 ARR bases, and Domo closed after the quarter ended, so the +1% constant-currency ARR growth is substantially ORGANIC. That defeats the hardest version of the bear case: Progress is not shrinking organically, so the acquisitions are growth rather than maintenance and the free cash flow is not being consumed to stand still. But +1% is flat, not growth, and the decisive problem is arithmetic rather than fundamental: at the honest post-Domo enterprise value and a defensible 8.5% WACC the fair value runs from $36.57 at -4% growth to $58.95 at +2%, i.e. the SIGN FLIPS inside the band of assumptions the company's own disclosures support (-2% revenue, +1% ARR). A gap whose sign flips inside the defensible range is not an edge, and the standing rule on two large errors pointing in opposite directions - the base too low, the enterprise value and discount rate also too low - says take the range and not the average.",
+    "unresolved": "The discount rate, which the schema cannot override and which swings the answer by about 90 points: at 7.16% the name is +39% to +82% cheap, at 8.5% it is -5% to +28%. Equity is 55% of enterprise value so this is not the CLVT case where the lenders own the answer, but it is close enough that the printed number would have been the output rather than the reasoning. I also could not explain the 12.5% five-day move from any filing or release - the only catalysts I could find are analyst upgrades - and an unexplained 12% move into a screen is a reason to lower confidence, not raise it."
+  },
+  "what_changed": "Progress COMPLETED the acquisition of Domo's AI and data platform business on 2026-09-22 for $400 million in cash, funded from cash on hand and the existing revolving credit facility - three weeks AFTER the 2026-08-31 balance sheet the enterprise value is built on. Fiscal Q3 2026 (quarter ended 2026-08-31, reported 2026-09-30): revenue $246.0 million, down 2%; ARR $873 million, up 1% constant currency; GAAP operating margin 19%, non-GAAP 43%; GAAP diluted EPS $0.55, non-GAAP $1.69; cash from operations $88.0 million. Fiscal 2026 guidance was 'raised' to revenue of $1,044-1,052 million from $990-1,002 million - but the entire increase is Domo, GAAP diluted EPS was CUT to $1.18-1.28 from $1.60-1.74, non-GAAP EPS is essentially unchanged at $6.15-6.23 against $6.09-6.21, and GAAP operating margin guidance fell from 16% to 13%. Unlevered free cash flow guidance went to $330-338 million from $323-334 million. Separately the stock is up 12.5% in five days and 21.5% in 63 days; I could find no fundamental event behind the five-day move - the identifiable catalysts are a Citi upgrade to Buy, a Zacks upgrade on 2026-10-05 and a 200-day moving-average cross on 2026-10-15, i.e. sentiment and flows rather than news.",
+  "consensus_case": "At $45.98 the market requires roughly -5% to +1% five-year FCFF growth once the enterprise value is corrected for the Domo purchase and the discount rate is taken off a failed regression - and that is close to what Progress actually delivers. Third-quarter revenue FELL 2% year over year to $246.0 million and annualised recurring revenue grew 1% to $873 million, so the market is pricing a business that is flat at best. Against that it is a formidable cash machine: 43% non-GAAP operating margins, guided fiscal 2026 unlevered free cash flow of $330-338 million, a basic share count down 4.5% year over year, and debt reduced from $1,400.3 million to $1,232.6 million. A buyer is paying about a 9.9% unlevered free-cash-flow yield for a portfolio of mature infrastructure software franchises that throw off cash and are being consolidated with borrowed money. The bear and the bull are both in the price: flat organic, high cash conversion, rising leverage.",
+  "base_case_rationale": "My own assumption is FLAT FCFF - 0% five-year growth - and the reason no number is recorded is that the two inputs which decide the sign are ones the schema cannot reach. On the business: ARR grew 1% and revenue fell 2%, so flat is the honest central case, and it is wholly different from the naive +17.2% baseline, which is a five-year revenue CAGR measured across the ShareFile acquisition (goodwill_series steps from $832.1 million to $1,292.2 million between the two oldest years) - bought revenue, the EFOR artefact, and the entire source of the +289% headline gap. On the model: the engine's $224.5 million base is too LOW on two counts, because it averages a rising three-year series ($229.5 million, $206.3 million, $168.3 million) and because interest_expense is recorded at $30.78 million when the 10-Q reports $16,907k for the quarter and $48,064k for nine months, i.e. roughly $64 million a year - an implied 2.50% against a rate actually paid of about 5.2%, so the after-tax add-back is understated by about $25 million. Correcting interest alone on the engine's own three-year convention gives about $249 million; the company's own guided unlevered free cash flow is $330-338 million. Meanwhile the enterprise value is too LOW by the full $400 million of Domo, and the 7.16% WACC rests on a beta of 0.634 at R-squared 0.072 - well inside the range the standing lesson says is measurement error - against a 40% debt weight; at a defensible beta of 1.0 to 1.1 the WACC is 8.4-8.7%.",
+  "key_risks": [
+    "Revenue FELL 2% year over year and ARR grew only 1%: the +17.2% baseline behind the +289% gap is acquired revenue from ShareFile, not organic growth",
+    "The $400M Domo acquisition closed 2026-09-22, three weeks AFTER the 2026-08-31 balance sheet, so the enterprise value is understated by the full purchase price while the price is post-deal",
+    "interest_expense is recorded at $30.78M against $48.06M for nine months in the 10-Q - roughly half the real figure, an implied 2.50% against about 5.2% actually paid",
+    "WACC of 7.16% rests on a beta of 0.634 at R-squared 0.072 against a 40% debt weight; at a defensible beta the fair value falls by roughly a third and the sign of the gap flips",
+    "The 'raised' fiscal 2026 guidance is entirely Domo: GAAP EPS was CUT to $1.18-1.28 from $1.60-1.74 and non-GAAP EPS is unchanged - not one incremental dollar of organic profit",
+    "Roughly $1.3bn spent on ShareFile and Domo in two years, funded with debt, for 1% ARR growth",
+    "The stock is up 12.5% in five days on analyst upgrades with no identifiable fundamental catalyst"
+  ],
+  "watch_for": [
+    "Organic ARR growth in Q4 2026 and fiscal 2027, stated ex-Domo: a turn negative makes the acquisitions maintenance spending and the bear case right",
+    "Fiscal 2027 guidance, the first period with a full year of Domo, and whether unlevered free cash flow guidance holds near $330-338M",
+    "Net debt after the Domo draw, and whether the deleveraging from $1,400.3M resumes",
+    "Whether the 43% non-GAAP operating margin survives absorbing a loss-making acquisition",
+    "Any further acquisition, which would reset the enterprise value against the cash-flow base again"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/876167/000087616726000110/exhibit991-q32026earningsr.htm",
+    "https://www.sec.gov/Archives/edgar/data/876167/000087616726000111/prgs-20260831.htm",
+    "https://www.sec.gov/Archives/edgar/data/876167/000155278126000497/e26389_prgs-8k.htm",
+    "https://seekingalpha.com/news/4503657-progress-software-rises-as-citi-upgrades-to-buy",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "stock_comp_is_25%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

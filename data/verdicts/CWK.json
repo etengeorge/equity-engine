@@ -1,0 +1,55 @@
+{
+  "ticker": "CWK",
+  "date": "2026-10-23",
+  "sector": "Real Estate",
+  "name": "CUSHMAN AND WAKEFIELD LTD",
+  "method": "none",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 12.100000381469727,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the multiples table is screaming and should not be ignored: a blended midpoint of $174.16 against a $12.10 price, a +1,339% gap, with the ev_ebitda row at 9.0x against a cohort median of 15.7x - and nothing in the table is negative. If a name trades at 9x EBITDA against a 15.7x sector median while deleveraging ahead of schedule and earning rating upgrades, the discount is the thesis.",
+    "what_would_prove_it": "Whether the cohort describes the same kind of business. A comparables valuation is a statement about the cohort, so the test is whether the companies setting the quartiles earn revenue the way Cushman does.",
+    "already_visible": "Yes, and it destroys the counter. The ev_sales row carries cohort quartiles of 3.4x, 7.5x and 11.3x against Cushman's own 0.5x, which produces values of $139.38, $320.38 and $484.77 against a $12.10 price. Those quartiles are REITs: a landlord's revenue is rent, which converts to cash at 60-70% margins, while Cushman's revenue is gross brokerage and property-management fees that convert at low single digits - the two are not the same quantity and dividing an enterprise value by each gives numbers that cannot be compared. This is the PIPR category error and the EPRT observation running in the opposite direction, and at +1,339% it is the largest instance of it recorded in this engine. The cohort is also explicitly 'not ranked - too few comparable Real Estate names'. So the blend must be DISREGARDED wholesale rather than discounted. The ev_ebitda row at 9.0x against 15.7x is the one row that might mean something, but it is drawn from the same 77-name Real Estate bucket and I have no way to separate the services firms in it from the landlords.",
+    "unresolved": "Whether Cushman is actually cheap, which I think is a live question I cannot answer from this brief. Its true comparators are CBRE and JLL, neither of which is in the Russell 2000, so the engine cannot see them and I have no free cohort to price against. I also could not reconcile the $281.1 million of recorded interest expense to the company's actual cost of debt, and Q3 2026 results are not yet filed."
+  },
+  "what_changed": "On 2026-10-21, two days before this screen priced the stock, Cushman redeemed the remaining $150 million of its 6.75% Senior Secured Notes due May 2028, fully retiring an issue that was originally $650 million. That brings total debt repayments since 2024 to more than $800 million and leaves NO MATURITIES UNTIL 2030. The release also discloses roughly 80% fixed-rate exposure via swaps and credit rating upgrades from S&P and Moody's. Earlier: an item 5.02 officer change on 2026-09-15, an item 1.01/2.03 financing on 2026-06-15, and Q2 2026 results on 2026-08-05. Q3 2026 results have not yet been filed. The company publishes market research showing construction costs up 13.3% year over year and record legal-sector leasing of 7.3 million square feet in Q2 2026.",
+  "consensus_case": "At $12.10 Cushman & Wakefield is a $2.8 billion equity on a commercial real estate SERVICES business with $10.3 billion of revenue, 53,000 employees and 350 offices - a brokerage, property management and valuation firm, not a property owner. The market is pricing a levered, cyclical fee business two years into a transaction recession: the stock is down 25.7% over twelve months even as operating cash flow has improved monotonically from $152.2 million to $208.0 million to $340.4 million and revenue has grown 8.9%. Management has repaid more than $800 million of debt since 2024, more than $300 million this year, secured its lowest term-loan margin since the IPO, swapped roughly 80% of the debt to fixed, and earned upgrades from both S&P and Moody's. A buyer at $12.10 is underwriting a deleveraging recovery into a capital-markets upturn.",
+  "base_case_rationale": "No fair value is supplied because the engine declines to model this name and the only comparator it offers is a category error. Status is not_modelled on `sector_has_no_defensible_free_model`, which is assigned per GICS SECTOR - and 'Real Estate' is not a sector of REITs. Cushman is an operating company with three years of positive cfo-less-capex ($293.0 million, $167.0 million, $101.2 million), so an FCFF model is at least the right FRAME here, unlike a REIT where free cash flow to the firm is meaningless. The sector rule therefore refuses a name the model could plausibly price. I am not going to price it anyway, for two reasons: the recorded interest_expense of $281.1 million against $2,658.2 million of debt is an implied 10.6%, which is not the rate a company being upgraded by both agencies and cutting its term-loan margin actually pays, so the after-tax add-back that would dominate any base is unreliable; and the $150 million October redemption sits after the balance-sheet date. Two unreliable inputs in a model the engine has already refused is not a foundation for a number.",
+  "key_risks": [
+    "The multiples blend of +1,339% is a category error, not a signal: REIT ev_sales quartiles of 3.4x/7.5x/11.3x applied to a gross-fee services business with 0.5x of its own",
+    "Still roughly $2.5bn of debt against a $2.8bn market capitalisation on a cyclical fee business with low single-digit cash margins",
+    "Rate-sensitive at both ends: the sector feed leads with rising Treasury yields, which hit both transaction volumes and the discount rate",
+    "Recorded interest_expense of $281.1M on $2,658.2M of debt is an implied 10.6%, inconsistent with a company earning rating upgrades and cutting its term-loan margin",
+    "Its true peer group (CBRE, JLL) sits outside the Russell 2000, so no usable free cohort exists for this name"
+  ],
+  "watch_for": [
+    "Q3 2026 results, not yet filed, and whether the operating-cash-flow improvement ($152.2M to $208.0M to $340.4M) continues",
+    "Capital-markets and leasing volumes, the revenue driver",
+    "Whether method assignment is ever moved off pure GICS sector - Cushman is an operating company being refused as though it were a landlord, and simultaneously priced as one",
+    "Further deleveraging toward the 2028 targets management cites"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1628369/000162836926000130/exhibit991-october212026re.htm",
+    "https://www.sec.gov/Archives/edgar/data/1628369/000162836926000118/cwk-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1628369/000162836926000116/cwk-ex991q22026.htm",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "sector_has_no_defensible_free_model"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "ticker": "MGNI",
+  "date": "2026-10-23",
+  "sector": "Communication",
+  "name": "MAGNITE",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": 0.16,
+  "bear_growth": 0.06,
+  "bull_growth": 0.24,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 23.1299991607666,
+  "market_implied_growth": 0.1599907267035351,
+  "cohort_pct": 60.0,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.16,
+    "market_implied_growth": 0.1599907267035351,
+    "growth_delta": 9.273296464912262e-06,
+    "fair_value": 23.130805927618447,
+    "price": 23.1299991607666,
+    "gap": 3.4879674929433335e-05,
+    "fair_value_band": {
+      "low": 21.035373826833087,
+      "point": 23.130805927618447,
+      "high": 25.651718909100207
+    },
+    "fcff_base_used": 208945000.0,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.13013201434196542,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 208945000.0,
+      "price": 23.1299991607666,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.11013201434196541,
+              "fair_value": 19.316173398574012,
+              "gap": -0.16488654995983087
+            },
+            {
+              "wacc": 0.12013201434196542,
+              "fair_value": 17.329833599556732,
+              "gap": -0.250763760123614
+            },
+            {
+              "wacc": 0.13013201434196542,
+              "fair_value": 15.705625535794887,
+              "gap": -0.3209846041657032
+            },
+            {
+              "wacc": 0.14013201434196543,
+              "fair_value": 14.353057271957873,
+              "gap": -0.37946140109232207
+            },
+            {
+              "wacc": 0.1501320143419654,
+              "fair_value": 13.20945525287112,
+              "gap": -0.4289037729289171
+            }
+          ],
+          "fair_value_at_point_wacc": 15.705625535794887,
+          "gap_at_point_wacc": -0.3209846041657032
+        },
+        {
+          "case": "base",
+          "growth": 0.16,
+          "cells": [
+            {
+              "wacc": 0.11013201434196541,
+              "fair_value": 28.740102398151006,
+              "gap": 0.24254662520266468
+            },
+            {
+              "wacc": 0.12013201434196542,
+              "fair_value": 25.651718909100207,
+              "gap": 0.10902377171768252
+            },
+            {
+              "wacc": 0.13013201434196542,
+              "fair_value": 23.130805927618447,
+              "gap": 3.4879674929433335e-05
+            },
+            {
+              "wacc": 0.14013201434196543,
+              "fair_value": 21.035373826833087,
+              "gap": -0.09055881582073055
+            },
+            {
+              "wacc": 0.1501320143419654,
+              "fair_value": 19.26709193697284,
+              "gap": -0.16700853281249028
+            }
+          ],
+          "fair_value_at_point_wacc": 23.130805927618447,
+          "gap_at_point_wacc": 3.4879674929433335e-05
+        },
+        {
+          "case": "bull",
+          "growth": 0.24,
+          "cells": [
+            {
+              "wacc": 0.11013201434196541,
+              "fair_value": 38.817888536285885,
+              "gap": 0.6782485925087831
+            },
+            {
+              "wacc": 0.12013201434196542,
+              "fair_value": 34.531967619511136,
+              "gap": 0.4929515292886262
+            },
+            {
+              "wacc": 0.13013201434196542,
+              "fair_value": 31.037335368562772,
+              "gap": 0.3418649586986884
+            },
+            {
+              "wacc": 0.14013201434196543,
+              "fair_value": 28.135837709040576,
+              "gap": 0.2164219079075862
+            },
+            {
+              "wacc": 0.1501320143419654,
+              "fair_value": 25.69025736253206,
+              "gap": 0.11068993924168402
+            }
+          ],
+          "fair_value_at_point_wacc": 31.037335368562772,
+          "gap_at_point_wacc": 0.3418649586986884
+        }
+      ],
+      "summary": {
+        "bear": -0.3209846041657032,
+        "base": 3.4879674929433335e-05,
+        "bull": 0.3418649586986884
+      },
+      "downside": -0.4289037729289171,
+      "upside": 0.6782485925087831
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That the stock-compensation treatment is the whole valuation and it should be settled against the company, in which case Magnite is substantially overvalued rather than fair. Stock compensation is 41% of the reported FCFF base - $75.2 million of $208.9 million - and expensing it moves the growth the market requires from +16.0% to +28.4%. A 28.4% five-year FCFF CAGR is above even the CURRENT adjusted-EBITDA growth rate and far above a business half of which (DV+) grows 2%. On the expensed base, even granting +16% growth the fair value is about $14 against a $23.13 price, roughly -40%.",
+    "what_would_prove_it": "The BOX test, run on BASIC weighted-average shares: whether the compensation is being paid for in cash. If the count is flat or falling net of buybacks, the compensation is bought and treating it as free is defensible; if the count is rising, shareholders are funding it through dilution and the expensed base is the honest one.",
+    "already_visible": "Yes, and IT GOES AGAINST THE COMPANY, which is why I will not call this fair with any confidence. Basic weighted-average shares were 143,024 thousand in Q2 2026 against 141,654 thousand in Q2 2025, and 143,281 thousand against 141,752 thousand for the six months - UP 1.0% - despite $35.5 million of treasury purchases in H1 2026 against $22.9 million a year earlier. So roughly $71 million a year of buybacks did not even hold the count flat. The cash construction is worse than the accounting charge: about 3.1 million shares were retired and the count still rose 1.37 million, implying roughly 4.5 million shares issued, so the cash cost of holding the count flat is nearer $100 million a year than the $75.2 million of reported expense - which would put owner earnings around $105 million, BELOW the expensed $133.7 million. I note the QTWO trap and avoided it: the DILUTED count fell (147,172 from 148,260) and that is not a buyback - the 0.75% convertible notes matured on 2026-03-15 and their if-converted shares simply dropped out, which the 10-Q states. So the counter wins on its own terms and the verdict is no_edge rather than fair: the market's requirement is +16% on a treatment the share count says is too generous, and +28.4% on the treatment the share count supports. A 12-point spread on one choice, straddling my own build, is not an edge in either direction.",
+    "unresolved": "How much of the Google remedy reaches revenue, and when. The decision is behavioural rather than structural - AdX was not divested - and the clearest analysis I found says nothing shifts for Magnite until Google builds the required integrations, against a six-year compliance horizon. I cannot date or size it, and the stock is already up 92% in six months and 25% in 63 days partly on it, so some unknown fraction is in the price. I also cannot resolve whether fiscal 2025's doubled capex was a one-off CTV build or the new run rate; H1 2026 says it is rolling off, but two quarters is not a cycle."
+  },
+  "what_changed": "The Google remedies decision was unsealed around 2026-09-17: AdX was NOT divested, but the court ordered parts of the publisher ad server separated from AdX, real-time bidding access, a 60-day implementation window and six years of compliance monitoring, with a joint final judgment due from Google and the DOJ in early October. Magnite rose about 5% on the day, PubMatic 6%, while The Trade Desk fell - the market read it as a supply-side win. Magnite also has its own damages suit against Google. Operationally: Q2 2026 contribution ex-TAC $189.6 million (+17%), CTV $97.1 million (+36%), DV+ $92.5 million (+2%), adjusted EBITDA $70.6 million (+30%, 37% margin); revenue $192.8 million (+11.2%) and H1 $357.2 million (+8.5%). HP TV+ adopted Magnite's full stack as primary video ad server (2026-09-23). Brian Gephart was promoted to CFO on 2026-09-21, succeeding the retiring David Day. On 2026-10-07 Magnite repriced its $358 million Term Loan B 50bp lower to SOFR+2.50% and cut the revolver margin 100bp, worth about $1.8 million a year. The 0.75% convertible notes matured 2026-03-15 and none remain outstanding.",
+  "consensus_case": "At $23.13 the market requires about +16.0% five-year FCFF growth on reported cash flow, and Magnite is currently delivering more than that on every operating measure: second-quarter contribution ex-TAC grew 17% to $189.6 million, beating the top of its own guidance, with CTV contribution ex-TAC up 36% to $97.1 million, and adjusted EBITDA up 30% to $70.6 million at a 37% margin against 34% a year earlier. Management raised 2026 free-cash-flow growth guidance to the high-40% range from the mid-30s. On top of the operating case sits a free option: on 2026-09-17 Judge Brinkema's remedies decision in the Google ad-tech case ordered the publisher ad server separated from AdX with real-time bidding access and six years of compliance monitoring, which is why StoneX went to $43, Bank of America to $38 and Craig-Hallum to $32. A buyer at $23.13 is paying roughly 11x forward adjusted EBITDA for the largest independent sell-side platform in a market whose dominant player has just been ordered to open its auction.",
+  "base_case_rationale": "I underwrite +16% five-year FCFF growth, which is what a bottom-up build of the actual segments produces and which happens to be almost exactly what the market already requires. Contribution ex-TAC splits roughly half and half: CTV is $97.1 million of $189.6 million growing 36%, DV+ is $92.5 million growing 2%. Hold CTV at a decelerating 30% and DV+ at 2% and the blend is 51% x 30% + 49% x 2% = about 16.3%. Margin expansion (37% from 34%) argues FCFF could grow a little faster than the top line; against that, free cash flow has NOT grown - operating cash flow is nearly flat across three years at $214.4 million, $235.2 million and $236.2 million while adjusted EBITDA compounded 30%, and cfo-less-capex actually fell to $165.6 million from $202.4 million because fiscal 2025 capex more than doubled to $70.5 million. That capex is rolling off: H1 2026 property and equipment of $21.5 million plus capitalised software of $8.1 million is $29.6 million against $33.3 million in H1 2025, so roughly $59 million annualised. I differ from the naive +25% baseline because that figure is a five-year revenue CAGR measured from 2021's $221.6 million - the year Magnite ACQUIRED SpotX, having merged with Telaria in 2020 - so it is bought revenue, and the organic rate is the +17% contribution ex-TAC the company actually reports.",
+  "key_risks": [
+    "Stock compensation is 41% of the FCFF base and basic shares ROSE 1.0% year over year despite roughly $71M a year of buybacks - the compensation is not being paid for, and expensing it moves the required growth from +16.0% to +28.4%",
+    "Adjusted EBITDA compounded 30% while operating cash flow went $214.4M, $235.2M, $236.2M - essentially flat; the accounting profit is not reaching cash",
+    "DV+, roughly half of contribution ex-TAC, grows 2%; the whole growth case is CTV, where Amazon, Netflix and Disney are building in-house ad stacks",
+    "The naive +25% baseline that produced the +39.1% gap is a five-year revenue CAGR measured from the year Magnite acquired SpotX - bought revenue, not organic",
+    "The Google remedy is behavioural, not structural: AdX was not divested, nothing moves until Google builds the ordered integrations, and the compliance horizon is six years",
+    "The stock is up 92% in six months and 25% in 63 days, so an undatable option is partly priced"
+  ],
+  "watch_for": [
+    "Basic weighted-average share count: a flat or falling count would settle the stock-compensation question in the company's favour and make the name fair to cheap",
+    "DV+ contribution ex-TAC re-accelerating from 2% - the single cleanest evidence the Google remedy is reaching revenue",
+    "The joint final judgment filed by Google and the DOJ, and the 60-day implementation milestone",
+    "Capital expenditure: whether it holds near the $59M annualised H1 2026 run rate or returns to the $70.5M of fiscal 2025",
+    "CTV contribution ex-TAC growth decelerating below 30%"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1595974/000162828026053343/mgni-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1595974/000162828026053334/a991-earningsq22026.htm",
+    "https://www.sec.gov/Archives/edgar/data/1595974/000119312526417011/d149525dex991.htm",
+    "https://247wallst.com/investing/2026/09/17/magnite-jumps-5-as-craig-hallum-lifts-target-to-32-on-google-auction-remedies-pubmatic-rises-6-trade-desk-barely-budges/",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "stock_comp_is_41%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MTRX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / MTRX</p><h1>MTRX <span style='color:var(--faint);font-weight:400'>MATRIX SERVICE</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$9.64</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-23</b></div></div><div class='prose'><h1>MTRX — MATRIX SERVICE</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-23 — NO_EDGE (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_edge · price $9.64</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $9.64 Matrix Service has a $272.7 million market capitalisation against $223.0 million of cash and $8.9 million of debt, so on the engine&#x27;s arithmetic the market pays $58.7 million for a heavy industrial contractor doing $873.6 million of revenue with $953.2 million of backlog. The market&#x27;s implied -49.3% five-year cash-flow growth is not pessimism, it is the market declining to capitalise a cash flow it can see is not earnings: fiscal 2026 produced a NET LOSS, adjusted EBITDA of $16.0 million on $873.6 million of revenue (a 1.8% margin), and free cash flow of $1.4 million against the $109.8 million the model is averaging in. Backlog has fallen 31% year over year from $1,382.1 million, and the fourth-quarter book-to-bill was 0.7x. A buyer at $9.64 is paying about book value for a sub-scale E&amp;C contractor with a shrinking order book and betting the new management team converts a $7 billion stated opportunity pipeline into margin it has not yet earned.</p><p><strong>What changed.</strong> The fiscal 2026 10-K was filed 2026-09-03 for a June year end, and it is what settles the name. Fiscal 2026: revenue $873.6 million (+13.6%), net LOSS per share $(0.09), adjusted net income per share $0.26, adjusted EBITDA $16.0 million against $(12.9) million in fiscal 2025. Fourth quarter: net income $1.1 million, adjusted EBITDA $6.3 million. Backlog $953.2 million at 2026-06-30 against $1,382.1 million a year earlier, with $169.0 million of Q4 awards and a 0.7x book-to-bill. Debt-free with an undrawn $65.4 million ABL borrowing base. Subsequent to year end a $20.0 million project letter of credit released $20.0 million of contract retention, collected in August 2026. The 2026-10-19 8-K that helped win this name an opportunistic slot is an item 5.02 CFO appointment (Savarino) with the offer letter filed as EX-99.2 - not a business event.</p><p><strong>Base case.</strong> No growth rate is supplied because the cash-flow base is not a cash flow. The 10-K&#x27;s own cash flow statement decomposes it: net cash provided by operating activities was $6,907k, $117,471k and $72,571k across fiscal 2026, 2025 and 2024, and the line &#x27;Billings on uncompleted contracts in excess of costs and estimated earnings&#x27; contributed $(23,646)k, $152,285k and $85,872k over the same three years. In fiscal 2025 customer advance billings supplied $152.3 million of a $117.5 million operating cash flow, and in fiscal 2024 $85.9 million of $72.6 million - in BOTH cases more than the entire reported figure, so operating cash flow excluding the billings float was NEGATIVE $34.8 million and NEGATIVE $13.3 million. Across all three years, cumulative operating cash flow of $196.9 million was produced by $214.5 million of customer float. The engine&#x27;s $59.3 million base is therefore a financing inflow from customers, not owner earnings, and the HOG and JBI cross-check fires about as loudly as it can: the base is 3.7x the company&#x27;s own full-year adjusted EBITDA of $16.0 million, which is arithmetically impossible for a business also paying cash interest, taxes and capital expenditure. Any growth rate applied to that base is meaningless in either direction.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That the float argument proves too much, and that at this price it does not matter. A contractor&#x27;s advance billings are a PERMANENT feature of the business model, not a one-off: so long as Matrix keeps winning fixed-price work with upfront billings, the float is a revolving, interest-free source of funding that genuinely belongs to the equity in the same way a retailer&#x27;s payables do. The 10-K says so in terms - &#x27;Some fixed-price customer contracts allow for significant upfront billings at the beginning of a project, which increases liquidity near-term&#x27; - and the ABL section adds that upfront billings on fixed-price work &#x27;help support the liquidity needs of the business&#x27;. And the price does not require the float argument to resolve: at $9.64 you are paying roughly $59 million for a business with $953 million of backlog, a debt-free balance sheet and two consecutive quarters of adjusted profitability after a restructuring. Even 3% EBITDA margins on $850 million of revenue is $25 million, i.e. 2.3x.</li><li>What would prove it: Whether the float is stable or reversing. A permanent revolving float holds roughly constant as a share of revenue; a reversing one shrinks in both absolute terms and as a proportion of a falling revenue line.</li><li>Already visible today: Yes, and it splits. The float IS shrinking: BIE fell from $323.6 million to $299.9 million over fiscal 2026, and net contract liabilities from $293.8 million to $270.7 million - a $23.1 million release of cash to customers, which is precisely why operating cash flow collapsed from $117.5 million to $6.9 million. With backlog down 31% that direction continues, so the counter&#x27;s &#x27;permanent float&#x27; reading is wrong for the next year or two at least. But the counter&#x27;s SECOND limb survives and is why this is no_edge rather than rich: I cannot refute the claim that $59 million is a low price for $953 million of backlog, because I cannot determine how much of the $223.0 million of cash is distributable. $299.9 million of billings must be worked off and $68.2 million of retentions sit with customers against a $25.0 million minimum restricted-cash covenant. The enterprise value is somewhere between the engine&#x27;s $58.7 million and roughly $330 million if the net contract liability is treated as a claim - a factor of five and a half, and the sign of the answer sits inside it.</li><li>Left unresolved: The distributable cash, which is the whole question. I could not establish what part of the $223.0 million survives working the backlog off, and the 10-K does not present it that way. I also have no fiscal 2027 guidance - the release gives none - so I cannot anchor the revenue decline that the 0.7x book-to-bill implies, and the engine&#x27;s <code>operating_leases_26%_of_EV</code> flag means capitalising the leases alone moves the enterprise value by a quarter on top of everything above.</li></ul><p><strong>Key risks.</strong> The entire three-year cash flow is customer advance billings: BIE contributed $(23.6)M, $152.3M and $85.9M against operating cash flow of $6.9M, $117.5M and $72.6M - more than 100% of it in both positive years; The FCFF base of $59.3M is 3.7x the company&#x27;s own fiscal 2026 adjusted EBITDA of $16.0M, which is arithmetically impossible; Backlog down 31% year over year to $953.2M with a 0.7x Q4 book-to-bill, so revenue and the float both shrink from here; Enterprise value is indeterminate within a factor of five and a half: the $223.0M of cash the model deducts is largely the $299.9M of customer billings it must work off; Fiscal 2026 was a net loss with a 1.8% adjusted EBITDA margin on $873.6M of revenue; two consecutive profitable quarters is not a cycle; Both the CEO and the CFO are new (CFO appointed 2026-10-19) <strong>Watch for.</strong> Quarterly BIE and net contract liabilities: continued decline confirms the float is reversing and operating cash flow stays near zero; Book-to-bill returning above 1.0x on a total-company basis, not one segment; Any fiscal 2027 revenue or EBITDA guidance, of which there is currently none; Adjusted EBITDA margin progression from 1.8% toward the mid-single digits; Whether the engine ever gates a cash-flow base against the company&#x27;s own EBITDA - the HOG/JBI check would have stopped this name before selection</p><p><strong>Data quality.</strong> A NEW DEFECT CATEGORY, AND THE MECHANICAL CHECKS OTHERWISE PASS CLEANLY - which is what makes it instructive. The extract is in good order: shares 28,291,921 from the dei cover-page fact dated 2026-09-02 (correct concept, fresh); total_debt $8.888M with interest_expense $437k, an implied 4.9% and no missing-debt problem; D&amp;A to capex 1.58x, so no missing-capex family; capex_series all positive, no SAH sign error; equity_now equals equity_series[0] exactly, so no stale book; fy_end 2026-06-30 matches the balance sheet. Nothing is broken. The defect is CONCEPTUAL: for a contractor, customer advance billings (BIE / contract liabilities) are a financing float that flows through OPERATING activities, so CFO-less-capex books the float as owner earnings. The 10-K&#x27;s cash flow statement gives the three-year decomposition quoted above. AND THE SAME FLOAT IS DOUBLE-COUNTED: enterprise value deducts $223.0M of cash as though it belonged to shareholders, when $299.9M of BIE on the same balance sheet says it is the customers&#x27; - so the float is counted once as an asset reducing EV to $58.7M and again as an earnings stream inflating the base to $59.3M, which is how a 101% FCFF yield and a 97th-percentile cohort rank are manufactured out of a business that lost money. Four flags were raised and none of them says this: <code>possible_trough_cycle_base_newest_fcf_0.02x_oldest</code> reads BACKWARDS in the now-familiar way - it advises that &#x27;growth applied to a trough understates value&#x27; when the newest year of $1.4M is the only one of the three that is not float, i.e. the closest to the truth; <code>lumpy_fcff_spread_1.8x_of_mean</code> and <code>speculative_cost_of_debt_but_only_3%_debt_weight</code> describe symptoms; <code>operating_leases_26%_of_EV</code> is real and, on a $58.7M enterprise value, material on its own. Detector proposed, and it is free because both terms are already in the extract or one grep away: on any engineering, construction or project-based filer, test the cash flow statement&#x27;s contract-liability line against reported operating cash flow - where it exceeds say 50% of CFO, the base is a float and the cash balance is not the shareholders&#x27;. The cheaper universal version is the HOG/JBI test the 2026-09-16 entry already asked for: compare the FCFF base against the company&#x27;s own adjusted EBITDA, and gate when the base exceeds it. Finally, note why this name took an OPPORTUNISTIC slot: the cited trigger &#x27;filed an 8-K in the last few sessions&#x27; is the 2026-10-19 item 5.02 CFO appointment, with the offer letter as EX-99.2 - the second instance in a month of the AOMR finding that item 5.02 should not count as a filing event.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/866273/000086627326000057/mtrx-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/866273/000086627326000057/mtrx-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/866273/000086627326000053/a063026ex99earningsrelease.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/866273/000086627326000053/a063026ex99earningsrelease.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/mtrx-20261019.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/mtrx-20261019.htm</a></li><li>research/LESSONS.md</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/MTRX.md'>research/Industrials/MTRX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

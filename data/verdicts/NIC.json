@@ -1,0 +1,57 @@
+{
+  "ticker": "NIC",
+  "date": "2026-10-23",
+  "sector": "Financials",
+  "name": "NICOLET BANKSHARES INC",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 169.63999938964844,
+  "market_implied_growth": null,
+  "cohort_pct": 13.7,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the right verdict is RICH rather than no_edge, because return on tangible common equity is the wrong metric for a serial bank acquirer and 2.77x is a demanding price however you compute the return. Nicolet paid real cash and real stock for MidWestOne; the goodwill the ROTCE calculation deletes from the denominator was funded by shareholders. Measured on the capital actually invested, Nicolet earns about 11.3% - and an 11.3% return against a 9.27% cost of equity justifies a price near total book, not 2.77x the tangible residual. The whole apparent quality of this franchise could be an accounting convention.",
+    "what_would_prove_it": "Whether tangible book per share compounds organically between acquisitions, or only steps up when a deal closes. If the 20% ROTCE is real economics, tangible book per share should compound at something like 20% less the dividend; if it is purchase-accounting optics, tangible book per share will be flat or falling except at deal closings.",
+    "already_visible": "Partly, and it cuts both ways, which is why I am not making the rich call. In favour of the counter: tangible book per share FELL from $62.19 to $61.14 in Q3, and $40 million of buybacks at roughly 2.7x tangible book is the mechanism - the same value-destructive arithmetic I confirmed on FIBK in today's ten. Against the counter: the longer series compounds hard, $56.17 to $61.14 in four quarters, +8.8% year over year, through a quarter carrying a day-two CECL provision and $0.19 of merger charges. A bank whose tangible book per share rises 8.8% while absorbing an acquisition of its own size is not obviously running an optical return. I cannot separate how much of that 8.8% is the equity issued for MidWestOne arriving above the old tangible book from how much is retained earnings, and that is the part the free record does not give me.",
+    "unresolved": "The sustainable rate once the merger accretion runs off. A 4.19% net interest margin is very high and part of it is purchase-accounting loan accretion on the MidWestOne book, which amortises away over the next several years; the release does not quantify the accretion contribution, so I cannot say what the margin and therefore the ROTCE look like in 2028. I also did not establish whether another acquisition is in train, which would reset every input again."
+  },
+  "what_changed": "Two things the engine cannot see, and together they are the whole gap. First, Nicolet CLOSED the acquisition of MidWestOne Financial Group on 2026-02-13 (the item 2.01 8-K of 2026-02-20), adding $6.1 billion of total assets, $4.4 billion of loans and $5.3 billion of deposits - roughly doubling the bank. Second, Q3 2026 was reported on 2026-10-20, three days before this screen priced the stock: net income $64 million ($68 million core), diluted EPS $2.96 ($3.15 core), against $57 million ($65 million core) and $2.62 in Q2 2026 and $42 million and $2.73 in Q3 2025. Non-core items, mostly merger expenses, cost $0.19 of EPS in Q3 and $0.37 in Q2. Reported tangible book value per common share is $61.14 (Q3 2026), $62.19, $60.47, $59.09 (Q4 2025), $56.17; reported ROATCE is 20.78%, 19.07%, 6.49% (Q1 2026, the day-two CECL and merger-charge quarter), 19.27%, 20.98%. The MidWestOne integration and core conversion are complete, the Denver branch sale has closed, core deposits grew $223 million, and $40 million of common stock was repurchased in the quarter. Management says to expect 'a cleaner fourth quarter giving a clearer view of what this company can earn as we head into 2027'.",
+  "consensus_case": "At $169.64 the market pays 2.77x the tangible book Nicolet itself reported at 2026-09-30 ($61.14 a share) for a bank that has just delivered a 20.78% GAAP and 22% core return on average tangible common equity, with a 4.19% net interest margin - extraordinarily high for a community bank - while completing the integration and core-systems conversion of a $6.1 billion acquisition inside nine months. The buyer is underwriting a serial acquirer that has repeatedly bought banks, converted them quickly and earned a 20%-plus return on the tangible equity left after the goodwill is stripped out. At a 9.27% cost of equity a 20.78% sustainable return justifies 2.58x tangible book, so the price is roughly what the model says the franchise is worth; on the CEO's 22% core figure it justifies 2.75x, which is the price almost exactly.",
+  "base_case_rationale": "No sustainable ROTCE is supplied, and the reason is arithmetic rather than judgment: the engine's tangible book is 32% too low and the schema has no field to correct it, so any ROTCE I supply would be priced against the wrong denominator and would publish a verdict I do not hold. For the record, the return I would use is 20.78% - the Q3 2026 GAAP figure - which sits in line with 19.07% in Q2, 19.27% in Q4 2025 and 20.98% in Q3 2025, the four quarters that do not contain the day-two CECL provision on MidWestOne. Against the company's own $61.14 of tangible book (actual P/TBV 2.775) and the engine's 9.27% cost of equity, that gives a justified 2.582 and a gap of -6.9%; at 19% it is -15.8% and at the CEO's 22% core figure -0.9%. The honest answer is therefore that Nicolet is priced at roughly fair value, somewhere between a shade rich and square, and the engine's -93.5% at the 14th percentile of 336 Financials is defect from end to end.",
+  "key_risks": [
+    "The entire engine gap is defect: ROTCE understated 17 points by the AX numerator bug and tangible book understated 32% by the CVBF cross-period bug - the name is near fair value, not 93.5% cheap",
+    "A 20.78% return on tangible common equity against roughly 11.3% on total equity - the ten-point wedge is acquisition goodwill the ROTCE calculation deletes from the denominator",
+    "A 4.19% net interest margin partly reflects purchase-accounting accretion on the MidWestOne loan book, which amortises away and is not quantified in the release",
+    "Tangible book per share fell from $62.19 to $61.14 in Q3 while $40M of stock was repurchased at roughly 2.7x tangible book",
+    "Serial acquirer: every closing resets the share count, the goodwill and the cash-flow history, and the engine mis-prices the name for a full quarter afterwards each time"
+  ],
+  "watch_for": [
+    "The 'cleaner fourth quarter' management promised: core ROATCE at or above 22% with no merger charges would confirm the run rate",
+    "Disclosure of purchase-accounting accretion as a component of the 4.19% margin",
+    "Tangible book value per share: a second consecutive decline would support the buyback-destroys-book reading",
+    "Any new acquisition announcement, which voids every input again",
+    "Whether the engine's goodwill_series and equity_series update to the post-MidWestOne figures at the FY2026 10-K, which would fix the gap without anyone touching the code"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1174850/000117485026000172/exhibit99_13q2026pressrele.htm",
+    "https://www.sec.gov/Archives/edgar/data/1174850/000117485026000164/nic-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1174850/000117485026000072/nic-20260213.htm",
+    "https://www.sec.gov/Archives/edgar/data/1174850/000117485026000157/exhibit99_12q2026pressrele.htm",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "goodwill_and_intangibles_68%_of_book"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "MTRX",
+  "date": "2026-10-23",
+  "sector": "Industrials",
+  "name": "MATRIX SERVICE",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 9.640000343322754,
+  "market_implied_growth": -0.4929025541185904,
+  "cohort_pct": 97.3,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the float argument proves too much, and that at this price it does not matter. A contractor's advance billings are a PERMANENT feature of the business model, not a one-off: so long as Matrix keeps winning fixed-price work with upfront billings, the float is a revolving, interest-free source of funding that genuinely belongs to the equity in the same way a retailer's payables do. The 10-K says so in terms - 'Some fixed-price customer contracts allow for significant upfront billings at the beginning of a project, which increases liquidity near-term' - and the ABL section adds that upfront billings on fixed-price work 'help support the liquidity needs of the business'. And the price does not require the float argument to resolve: at $9.64 you are paying roughly $59 million for a business with $953 million of backlog, a debt-free balance sheet and two consecutive quarters of adjusted profitability after a restructuring. Even 3% EBITDA margins on $850 million of revenue is $25 million, i.e. 2.3x.",
+    "what_would_prove_it": "Whether the float is stable or reversing. A permanent revolving float holds roughly constant as a share of revenue; a reversing one shrinks in both absolute terms and as a proportion of a falling revenue line.",
+    "already_visible": "Yes, and it splits. The float IS shrinking: BIE fell from $323.6 million to $299.9 million over fiscal 2026, and net contract liabilities from $293.8 million to $270.7 million - a $23.1 million release of cash to customers, which is precisely why operating cash flow collapsed from $117.5 million to $6.9 million. With backlog down 31% that direction continues, so the counter's 'permanent float' reading is wrong for the next year or two at least. But the counter's SECOND limb survives and is why this is no_edge rather than rich: I cannot refute the claim that $59 million is a low price for $953 million of backlog, because I cannot determine how much of the $223.0 million of cash is distributable. $299.9 million of billings must be worked off and $68.2 million of retentions sit with customers against a $25.0 million minimum restricted-cash covenant. The enterprise value is somewhere between the engine's $58.7 million and roughly $330 million if the net contract liability is treated as a claim - a factor of five and a half, and the sign of the answer sits inside it.",
+    "unresolved": "The distributable cash, which is the whole question. I could not establish what part of the $223.0 million survives working the backlog off, and the 10-K does not present it that way. I also have no fiscal 2027 guidance - the release gives none - so I cannot anchor the revenue decline that the 0.7x book-to-bill implies, and the engine's `operating_leases_26%_of_EV` flag means capitalising the leases alone moves the enterprise value by a quarter on top of everything above."
+  },
+  "what_changed": "The fiscal 2026 10-K was filed 2026-09-03 for a June year end, and it is what settles the name. Fiscal 2026: revenue $873.6 million (+13.6%), net LOSS per share $(0.09), adjusted net income per share $0.26, adjusted EBITDA $16.0 million against $(12.9) million in fiscal 2025. Fourth quarter: net income $1.1 million, adjusted EBITDA $6.3 million. Backlog $953.2 million at 2026-06-30 against $1,382.1 million a year earlier, with $169.0 million of Q4 awards and a 0.7x book-to-bill. Debt-free with an undrawn $65.4 million ABL borrowing base. Subsequent to year end a $20.0 million project letter of credit released $20.0 million of contract retention, collected in August 2026. The 2026-10-19 8-K that helped win this name an opportunistic slot is an item 5.02 CFO appointment (Savarino) with the offer letter filed as EX-99.2 - not a business event.",
+  "consensus_case": "At $9.64 Matrix Service has a $272.7 million market capitalisation against $223.0 million of cash and $8.9 million of debt, so on the engine's arithmetic the market pays $58.7 million for a heavy industrial contractor doing $873.6 million of revenue with $953.2 million of backlog. The market's implied -49.3% five-year cash-flow growth is not pessimism, it is the market declining to capitalise a cash flow it can see is not earnings: fiscal 2026 produced a NET LOSS, adjusted EBITDA of $16.0 million on $873.6 million of revenue (a 1.8% margin), and free cash flow of $1.4 million against the $109.8 million the model is averaging in. Backlog has fallen 31% year over year from $1,382.1 million, and the fourth-quarter book-to-bill was 0.7x. A buyer at $9.64 is paying about book value for a sub-scale E&C contractor with a shrinking order book and betting the new management team converts a $7 billion stated opportunity pipeline into margin it has not yet earned.",
+  "base_case_rationale": "No growth rate is supplied because the cash-flow base is not a cash flow. The 10-K's own cash flow statement decomposes it: net cash provided by operating activities was $6,907k, $117,471k and $72,571k across fiscal 2026, 2025 and 2024, and the line 'Billings on uncompleted contracts in excess of costs and estimated earnings' contributed $(23,646)k, $152,285k and $85,872k over the same three years. In fiscal 2025 customer advance billings supplied $152.3 million of a $117.5 million operating cash flow, and in fiscal 2024 $85.9 million of $72.6 million - in BOTH cases more than the entire reported figure, so operating cash flow excluding the billings float was NEGATIVE $34.8 million and NEGATIVE $13.3 million. Across all three years, cumulative operating cash flow of $196.9 million was produced by $214.5 million of customer float. The engine's $59.3 million base is therefore a financing inflow from customers, not owner earnings, and the HOG and JBI cross-check fires about as loudly as it can: the base is 3.7x the company's own full-year adjusted EBITDA of $16.0 million, which is arithmetically impossible for a business also paying cash interest, taxes and capital expenditure. Any growth rate applied to that base is meaningless in either direction.",
+  "key_risks": [
+    "The entire three-year cash flow is customer advance billings: BIE contributed $(23.6)M, $152.3M and $85.9M against operating cash flow of $6.9M, $117.5M and $72.6M - more than 100% of it in both positive years",
+    "The FCFF base of $59.3M is 3.7x the company's own fiscal 2026 adjusted EBITDA of $16.0M, which is arithmetically impossible",
+    "Backlog down 31% year over year to $953.2M with a 0.7x Q4 book-to-bill, so revenue and the float both shrink from here",
+    "Enterprise value is indeterminate within a factor of five and a half: the $223.0M of cash the model deducts is largely the $299.9M of customer billings it must work off",
+    "Fiscal 2026 was a net loss with a 1.8% adjusted EBITDA margin on $873.6M of revenue; two consecutive profitable quarters is not a cycle",
+    "Both the CEO and the CFO are new (CFO appointed 2026-10-19)"
+  ],
+  "watch_for": [
+    "Quarterly BIE and net contract liabilities: continued decline confirms the float is reversing and operating cash flow stays near zero",
+    "Book-to-bill returning above 1.0x on a total-company basis, not one segment",
+    "Any fiscal 2027 revenue or EBITDA guidance, of which there is currently none",
+    "Adjusted EBITDA margin progression from 1.8% toward the mid-single digits",
+    "Whether the engine ever gates a cash-flow base against the company's own EBITDA - the HOG/JBI check would have stopped this name before selection"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/866273/000086627326000057/mtrx-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/866273/000086627326000053/a063026ex99earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/mtrx-20261019.htm",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_3%_debt_weight",
+    "lumpy_fcff_spread_1.8x_of_mean",
+    "possible_trough_cycle_base_newest_fcf_0.02x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_26%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

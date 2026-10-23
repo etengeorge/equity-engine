@@ -1,0 +1,60 @@
+{
+  "ticker": "CELC",
+  "date": "2026-10-23",
+  "sector": "Health Care",
+  "name": "CELCUITY",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 65.56999969482422,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing on a $3.2 billion company says nothing useful, and that the tape is telling us something the refusal ignores: the stock is DOWN roughly 20% over three months through an FDA approval and a commercial launch, which is not how the market treats a successful launch. If the market is marking down the opportunity, a $3.2 billion valuation against negative equity and an accelerating burn may well be expensive, and 'no_model' lets the engine avoid saying so.",
+    "what_would_prove_it": "Early prescription or revenue data on REVTORPYK, or any company commentary on launch trajectory, against the $3.2 billion the equity costs.",
+    "already_visible": "Barely, and that is the point. The product has been on sale for three weeks, so the first revenue datapoint does not exist yet - Q3 2026 results have not been filed and would cover only the final day of the quarter in any case. What IS visible supports the counter's direction without supporting a number: the approved label covers the PIK3CA WILD-TYPE population only, which is the narrower commercial slice, with the mutant population still at sNDA stage - so the approval delivered less than the bull case assumed, which is a plausible reading of the 20% de-rating. I accept that direction and still decline to put a figure on it: the honest arithmetic is that $754 million of cash and investments sits against $753 million of debt, so the net cash is roughly zero, and the burn of $153 million a year and rising gives perhaps four or five years of runway if the launch contributes nothing. Saying 'the market may be marking this down and the balance sheet is tighter than the cash line suggests' is the useful observation; converting it into a fair value would be invention.",
+    "unresolved": "Everything that decides the value: the launch curve, the sNDA outcome and timing, and the net price REVTORPYK achieves. None of it is in a filing yet. I also note the discount rate is not a measurement - beta 0.103 at R-squared 0.002, marked yahoo_rescaled, producing a 7.03% WACC for a single-asset launch-stage biotech - so even if a base existed the rate applied to it would be meaningless."
+  },
+  "what_changed": "REVTORPYK became commercially available on 2026-09-30 (item 7.01/8.01 8-K with EX-99.1), three weeks before the price date, so there is no revenue history of any kind: revenue_series in the extract is EMPTY. The sNDA for the PIK3CA-mutant population was submitted 2026-08-26. David Gryska - former CFO of Incyte and of Celgene - joined the board on 2026-10-02 as the company transitions to commercial stage. In June 2026 Celcuity refinanced: it priced $500 million of convertible notes on 2026-06-03 and TERMINATED the prior loan agreement, under which $130 million had been drawn ($100 million at 2024-05-30 plus $30 million on 2025-09-09). Q2 2026 showed a widening net loss of $78.86 million and a basic loss per share of $1.44. The tape is the striking part: the stock is DOWN 18.0% over 21 days and 20.6% over 63 days, and flat over twelve months, i.e. the market has de-rated the name THROUGH its own approval and launch.",
+  "consensus_case": "At $65.57 Celcuity is a $3.2 billion option on a drug that went on sale three weeks before this screen priced the stock. REVTORPYK (gedatolisib) was approved by the FDA on 2026-07-14 and became commercially available in the United States on 2026-09-30 - the first and only approved therapy inhibiting all four class I PI3K isoforms plus mTORC1 and mTORC2, for HR+/HER2- advanced breast cancer WITHOUT a PIK3CA mutation after progression on endocrine therapy. An sNDA for the PIK3CA-MUTANT population, a second and larger slice of the same indication, was submitted on 2026-08-26. A buyer is paying for a launch curve in a large indication plus a label expansion, funded by about $754 million of cash and investments, with 80 oncology specialists in the field and NCCN guideline inclusion. That is a probability-weighted revenue forecast, and it is a perfectly rational thing for a market to price. It is not a discounted cash flow.",
+  "base_case_rationale": "No growth rate and no fair value are supplied, and this is one of the cleanest refusals the engine produces. There is no cash-flow base to grow: cfo_series reads -$153.280 million, -$83.467 million and -$53.812 million - every year negative and the burn ACCELERATING, roughly tripling across the window - and shareholders' equity is NEGATIVE $12.781 million. The `nonpositive_normalized_fcff` gate fired correctly, and it fired for the right reason rather than by accident: the SABR test confirms it, because the mean of cfo-less-capex is about -$97 million and even adding back the full after-tax interest of about $10.8 million leaves the base firmly negative. A five-year FCFF growth rate applied to a negative base is meaningless, and inventing one for a company whose product has been on sale for three weeks would be exactly the failure this engine exists to prevent.",
+  "key_risks": [
+    "No revenue history at all: revenue_series is empty and REVTORPYK went on sale 2026-09-30, three weeks before the price date",
+    "All three cash-flow years negative and the burn accelerating: -$53.8M, -$83.5M, -$153.3M, with shareholders' equity NEGATIVE $12.8M",
+    "About $754M of cash and investments against about $753M of debt, most of it the $500M of convertible notes priced 2026-06-03 - net cash is roughly zero, not $754M",
+    "The approved label covers the PIK3CA WILD-TYPE population only; the larger mutant population is still at sNDA stage (submitted 2026-08-26)",
+    "The stock de-rated 18% over 21 days and 21% over 63 days THROUGH its own approval and launch",
+    "beta 0.103 at R-squared 0.002, yahoo_rescaled, giving a 7.03% WACC - not a measurement, per the ISBA rule"
+  ],
+  "watch_for": [
+    "First reported REVTORPYK revenue, in Q3 or more meaningfully Q4 2026 results",
+    "FDA action on the PIK3CA-mutant sNDA submitted 2026-08-26",
+    "Quarterly cash burn against the roughly $754M of cash and investments, and any equity raise",
+    "Whether commercial spend ramps faster than revenue in the first two launch quarters"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1603454/000119312526408353/celc-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1603454/000119312526365975/celc-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1603454/000119312526349608/celc-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1603454/000149315226027717/form8-k.htm",
+    "research/LESSONS.md"
+  ],
+  "flags": [
+    "speculative_cost_of_debt_but_only_19%_debt_weight",
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff",
+    "no_usable_multiple_for_this_name"
+  ]
+}

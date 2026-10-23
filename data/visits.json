@@ -199,6 +199,11 @@
     "last_visit": "2026-10-02",
     "verdict": "rich"
   },
+  "CELC": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_model"
+  },
   "CHEF": {
     "conviction": "medium",
     "last_visit": "2026-09-18",
@@ -294,6 +299,16 @@
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
+  "CWK": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_model"
+  },
+  "DAN": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_model"
+  },
   "DAVE": {
     "conviction": "high",
     "last_visit": "2026-09-24",
@@ -373,6 +388,11 @@
     "conviction": "medium",
     "last_visit": "2026-10-09",
     "verdict": "no_model"
+  },
+  "FIBK": {
+    "conviction": "medium",
+    "last_visit": "2026-10-23",
+    "verdict": "rich"
   },
   "FLNG": {
     "conviction": "low",
@@ -581,7 +601,7 @@
   },
   "LCII": {
     "conviction": "high",
-    "last_visit": "2026-10-16",
+    "last_visit": "2026-10-23",
     "verdict": "no_model"
   },
   "LE": {
@@ -645,8 +665,13 @@
     "verdict": "no_model"
   },
   "MFIN": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_edge"
+  },
+  "MGNI": {
     "conviction": "medium",
-    "last_visit": "2026-09-23",
+    "last_visit": "2026-10-23",
     "verdict": "no_edge"
   },
   "MGY": {
@@ -669,6 +694,11 @@
     "last_visit": "2026-09-17",
     "verdict": "no_model"
   },
+  "MTRX": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_edge"
+  },
   "MXL": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
@@ -683,6 +713,11 @@
     "conviction": "medium",
     "last_visit": "2026-10-16",
     "verdict": "no_model"
+  },
+  "NIC": {
+    "conviction": "high",
+    "last_visit": "2026-10-23",
+    "verdict": "no_edge"
   },
   "NMIH": {
     "conviction": "medium",
@@ -763,6 +798,11 @@
     "conviction": "medium",
     "last_visit": "2026-08-31",
     "verdict": "no_model"
+  },
+  "PRGS": {
+    "conviction": "medium",
+    "last_visit": "2026-10-23",
+    "verdict": "no_edge"
   },
   "PRM": {
     "conviction": "medium",

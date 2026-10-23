@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>FIBK — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / FIBK</p><h1>FIBK <span style='color:var(--faint);font-weight:400'>FIRST INTERSTATE BANCSYSTEM</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$36.88</b></div><div>Analyst gap<b>-24%</b></div><div>Dated<b>2026-10-23</b></div></div><div class='prose'><h1>FIBK — FIRST INTERSTATE BANCSYSTEM</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-23 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $36.88 · fair value $27.87 · gap -24.4%</li><li><strong>Sustainable ROTCE:</strong> screen said +3.5%, analyst says +12.0%</li><li><strong>P/TBV:</strong> justified 1.16 vs actual 1.53 on tangible book of $24.06/share</li></ul><p><strong>The case for the price.</strong> At $36.88 the market pays 1.74x the tangible book First Interstate itself reported at 2026-09-30 ($21.20/share) for a bank earning an 11.75% return on average tangible common equity, with a 14.36% CET1 ratio, a 5.0% dividend yield and a net interest margin that has expanded 19bp year over year to 3.53%. The buyer is underwriting a deliberate shrink-to-quality: management has sold the Arizona and Kansas branches (Q4 2025) and eleven Nebraska branches (Q2 2026), is running the loan book down, and has repurchased 10.02 million shares for $346.6 million since August 2025. On that reading 1.74x is the price of a clean, over-capitalised, mid-cap franchise whose returns are about to step up as the optimisation finishes, and the CEO says exactly that: &#x27;confident in our ability to deliver improving returns over time.&#x27;</p><p><strong>What changed.</strong> Q3 2026 was reported on 2026-10-22, the day before this screen priced the stock, and it resets both inputs. Net income $62.2 million ($0.65 diluted) against $83.9 million ($0.87) in Q2 2026 and $71.4 million ($0.69) in Q3 2025 - and the release states that Q2 &#x27;includes a $19.5 million gain related to the sale of the eleven Nebraska branches&#x27;, so the Q2 strength was a divestiture gain. Reported ROATCE by quarter is 11.75% (Q3 2026), 15.43%, 10.77%, 18.79% (Q4 2025), 12.53%. Tangible book value per common share FELL to $21.20 from $22.47 at Q2. Credit is normalising off an unusually clean base: provision of $10.5 million against a $3.2 million RELEASE in Q2 and ZERO in Q3 2025, with net charge-offs of $9.9 million (0.28% annualised) against $2.3 million (0.06%) a year earlier - a 4.3x increase - while non-performing assets fell 16.5% and criticized loans fell from $1,164.1 million to $939.5 million. Deposits are down 5.4% year over year. Six separate item 5.02 officer-change 8-Ks since May 2026.</p><p><strong>Base case.</strong> I supply a sustainable ROTCE of 12.0%, against the engine&#x27;s 3.5%. The engine&#x27;s figure is the AX numerator defect, confirmed directly in the extract: net_income_common_series reads [$84.401M, $86.136M, $54.924M] against net_income_series of [$302.1M, $226.0M, $257.5M] with preferred and minority interest both exactly zero, so income available to common MUST equal net income - and $84.4 million is simply the Q2 2026 quarter, accepted as an annual figure because edgar._annual never checks that a duration spans twelve months. Recomputed on net income the three-year mean ROTCE is 12.1%. The company&#x27;s own quarterly prints corroborate that: the two highest (18.79% in Q4 2025, 15.43% in Q2 2026) are the quarters containing branch-sale gains, and stripping the disclosed $19.5 million from Q2 gives roughly 12.7%. The clean quarters are 11.75% (Q3 2026) and 10.77% (Q1 2026). 12.0% is the midpoint of the gain-free quarters and it is also where the corrected three-year average lands, which is the only reason I am willing to call it sustainable rather than a single print. The cost of equity is the one input I do not have to argue about: beta 1.033 at R-squared 0.534 from our own regression, the best fit in today&#x27;s ten, so unlike most names in this cohort the 10.63% is a measurement and not an artefact.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am pricing a 12% ROTCE against a tangible book that management is deliberately converting into shareholder cash, and that the conversion is worth more than the multiple says. First Interstate has 14.36% CET1 against a ~7% requirement, so a large part of tangible book is surplus capital earning nothing; the return on the capital actually needed to run the bank is materially above 12%, and a justified-P/TBV model built on total tangible equity therefore understates the franchise. On that view the right comparison is the 5.0% dividend yield plus a buyback retiring ~7% of the shares a year against an 11.75% ROTCE - a high-single-digit total return from a bank with falling non-performers and an expanding margin, which is not obviously a sell at 1.74x.</li><li>What would prove it: Whether the capital return is accretive or destructive to tangible book per share. If the surplus-capital argument is right, buying stock back should still compound tangible book per share; if the stock is above intrinsic value, the buyback shrinks it.</li><li>Already visible today: Yes, and it goes against the counter. Tangible book per share FELL from $22.47 to $21.20 in the third quarter, a 5.7% decline in one quarter. The arithmetic is visible: the company repurchased 2.04 million shares for $76.3 million, an average of $37.40, against a tangible book of $22.47 - so roughly $30 million of the $145 million decline in tangible common equity is the buyback paying 1.67x book for its own stock, and the dividend ($0.47 a share, roughly $44 million) exceeded retained earnings, with the remainder in AOCI as yields rose. A bank returning about $120 million in a quarter in which it earned $62.2 million, while AOCI erodes the rest, is shrinking tangible book per share rather than compounding it. That makes the standing fixed-2% terminal growth in the Gordon form GENEROUS here rather than punitive - the known bias (LESSONS, 2026-09-09) marks fast-compounding financials expensive and shrinking ones fair, and First Interstate is shrinking, so correcting it would make the name dearer, not cheaper. The counter loses.</li><li>Left unresolved: Whether the 11.75% Q3 print is the floor or the trend. It contains a $10.5 million provision against a $3.2 million release in Q2 and nothing at all in Q3 2025, so provisioning is normalising from an unsustainably low base and I cannot tell from one quarter where it settles - at a mid-cycle charge-off rate the ROTCE could be a point or more below my 12%. I also cannot assess the six officer changes since May 2026: a new CEO, a new COO and four other 5.02 filings in five months is either a deliberate rebuild or instability, and nothing in the free record distinguishes them.</li></ul><p><strong>Key risks.</strong> Net charge-offs rose 4.3x year over year (0.06% to 0.28% annualised) and the provision swung from a $3.2M release to a $10.5M charge in one quarter - credit is normalising off an unsustainably clean base; Tangible book per share fell 5.7% in Q3 2026 ($22.47 to $21.20) because the dividend plus buyback exceeded earnings while AOCI eroded on rising yields; buying stock at 1.67x tangible book destroys tangible book per share; The balance sheet is shrinking: deposits down 5.4% year over year, loans down, three branch divestitures in four quarters - so two of the five quarterly ROATCE prints are divestiture gains rather than earning power; Six item 5.02 officer-change 8-Ks since 2026-05-13, including a new CEO and a new COO; Only $103.4M remains of the $450M buyback authorisation, so the ~7%-a-year share shrink that supports EPS is close to exhausted <strong>Watch for.</strong> Q4 2026 ROATCE ex any further branch-sale gain: a print at or below the 11.75% of Q3 confirms 12% is the trend rather than a floor; The net charge-off ratio: whether it stabilises near 0.28% or continues toward a mid-cycle 0.40-0.50%; Tangible book value per share: a second consecutive quarterly decline would confirm the capital return is value-destructive at this price; Whether the board extends the buyback authorisation beyond the remaining $103.4M; Further officer departures</p><p><strong>Data quality.</strong> Two defects found, one confirmed and one new, and they run in OPPOSITE directions. (1) THE AX NUMERATOR BUG, CONFIRMED OUTRIGHT, worth about 54 points of gap. FIBK was named in the 2026-09-11 scan of 86 affected book names and is still unfixed six weeks later. net_income_common_series = [$84.401M, $86.136M, $54.924M] against net_income_series = [$302.1M, $226.0M, $257.5M] with preferred = 0.0 and minority_interest = 0.0, so the two series must be equal; $84.401M reconciles to the Q2 2026 net income of $83.9M, i.e. a single quarter accepted as a fiscal year. The engine&#x27;s 3.47% ROTCE recomputes exactly as the mean of 84.401/2292.8, 86.136/2136.3 and 54.924/2045.2, confirming the arithmetic. (2) THE STALE TANGIBLE BOOK, running the other way. justified_pb&#x27;s tce_now is _tce_at(0) = equity_series[0] - goodwill_series[0] - intangibles_series[0] = $3,447.0M - $1,100.9M - $53.3M = $2,292.8M over the current 95,304,607 shares = $24.058, which is the 2025-12-31 position; equity_now ($3,322.6M at 2026-06-30) gives $22.75, and the company&#x27;s own reported figure is $22.47 at Q2 and $21.20 at Q3 2026. So the engine&#x27;s tangible book is 13.5% TOO HIGH, actual P/TBV is 1.740 rather than 1.533, and the AII cross-check fires correctly - the multiples row prints p_tbv 1.621, which reconciles to equity_now, so the multiples path is the more current of the two and both are stale against Q3. CONSEQUENCE FOR THE RECORDED NUMBER, stated plainly: the schema has no tangible-book override, so the fair value printed from my 12.0% ROTCE is justified 1.158 x $24.058 = about $27.87, a -24.4% gap, whereas against the company&#x27;s own $21.20 it is $24.56 and the honest gap is -33.4%. The printed number is therefore roughly nine points TOO GENEROUS. I supply the override anyway because the error is conservative with respect to my own verdict - it makes the stock look better than I think it is - which is the opposite of the situation on NIC in today&#x27;s ten, where the same bug understates book by 32% and would have manufactured my verdict, so there I withheld the override. (3) <code>goodwill_and_intangibles_33%_of_book</code> is the CVBF flag defect: it divides CURRENT goodwill and intangibles by STALE equity. True ratio against equity_now is 34.7%, so here it is immaterial. (4) <code>balance_sheet_form</code> reads 10-K with <code>balance_sheet_asof</code> 2026-06-30 on a December-year-end filer - a provenance oddity (the SLG shape) that did not affect any number I used. (5) Checks that PASSED: implied rate on recorded debt is not meaningful for a bank; preferred and NCI are both genuinely zero and confirmed against the release; the beta is our own regression at R-squared 0.534, so the cost of equity is the one input here that is a measurement.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20260930x8kpr.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20260930x8kpr.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/sep2026ip.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/sep2026ip.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/860413/000086041326000084/fibk-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/860413/000086041326000084/fibk-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260630x8kpr.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260630x8kpr.htm</a></li><li>research/LESSONS.md</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/FIBK.md'>research/Financials/FIBK.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
