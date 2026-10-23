@@ -1,20 +1,20 @@
-# CELC — CELCUITY
+# IDYA — IDEAYA BIOSCIENCES
 *Health Care · brief generated 2026-10-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 293/1956
+- rotation position 299/1956
 
 ## Market
 | | |
 |---|---|
-| price | $65.57 |
-| market cap | $3.2B |
-| 5d / 21d / 63d / 252d | +8.7% / -18.0% / -20.6% / +0.1% |
-| 60d avg daily $ volume | $90.5M |
-| beta (vs IWM) | 0.1 (R²=0.002) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 1.7x |
+| price | $36.12 |
+| market cap | $3.5B |
+| 5d / 21d / 63d / 252d | +6.7% / -3.6% / +2.0% / +23.7% |
+| 60d avg daily $ volume | $29.3M |
+| beta (vs IWM) | 1.11 (R²=0.202) |
+| 5d volume vs 60d average | 0.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 81% / debt 19% |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,71 +24,56 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 7.0% − 1pt | n/a |
-| **7.0% (point)** | **n/a** |
-| 7.0% + 1pt | n/a |
+| 11.1% − 1pt | n/a |
+| **11.1% (point)** | **n/a** |
+| 11.1% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $65.57).
+Gap under that baseline: **n/a** (fair value n/a vs price $36.12).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
+
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_sales (n=310) | 12.1x | 1.9x / 4.1x / 16.0x | $12.93 / $17.92 / $44.93 |
+| p_tbv (n=325) | 2.9x | 1.8x / 3.8x / 7.4x | $22.37 / $47.54 / $92.52 |
+
+Blended midpoint **$32.73** vs price $36.12 — gap **-9.4%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
 Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_19%_debt_weight`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
-- `no_usable_multiple_for_this_name`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-10-02 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000119312526411297/celc-20261001.htm
-- 2026-09-30 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000119312526408353/celc-20260930.htm
-- 2026-08-26 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000119312526365975/celc-20260826.htm
-- 2026-08-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/1603454/000119312526349608/celc-20260630.htm
-- 2026-08-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000119312526349227/celc-20260813.htm
-- 2026-07-15 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000149315226033223/form8-k.htm
-- 2026-06-08 **8-K** — items 1.01,1.02,2.03,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000149315226027717/form8-k.htm
-- 2026-06-02 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000149315226026761/form8-k.htm
-- 2026-05-18 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1603454/000149315226024175/form8-k.htm
-- 2026-05-14 **10-Q** — https://www.sec.gov/Archives/edgar/data/1603454/000149315226023180/form10-q.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526332774/idya-20260630.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526331381/idya-20260804.htm
+- 2026-06-23 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526279427/d39019d8k.htm
+- 2026-06-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526265833/d110954d8k.htm
+- 2026-06-03 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526254476/d53214d8k.htm
+- 2026-06-01 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526251399/d138848d8k.htm
+- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526206806/d949251d8k.htm
+- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526206357/idya-20260331.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526204944/idya-20260505.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526191501/idya-20260429.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-02** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000119312526411297/celc-ex99_1.htm
-- **2026-09-30** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000119312526408353/celc-ex99_1.htm
-- **2026-08-26** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000119312526365975/celc-ex99_1.htm
-- **2026-08-13** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000119312526349227/celc-ex99_1.htm
-- **2026-07-15** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000149315226033223/ex99-1.htm
-- **2026-07-15** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1603454/000149315226033223/ex99-2.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1676725/000119312526331381/idya-ex99_1.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-08-27** · Celcuity (CELC): Landmark Approval Collides With A Costly Launch — *Insider Monkey* — https://finance.yahoo.com/healthcare/articles/celcuity-celc-landmark-approval-collides-202745708.html
-  > On August 13, Celcuity (NASDAQ:CELC) walked investors through a quarter unlike any in the company’s history. The clinical-stage biotech is no longer just clinical: its breast cancer drug Revtopik won FDA approval on July 14, and the call wa
-- **2026-08-26** · Celcuity Submits sNDA to FDA for REVTORPYK™ (gedatolisib) for HR+/HER2-, PIK3CA Mutant Locally Advanced or Metastatic Breast Cancer — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/celcuity-submits-snda-fda-revtorpyk-123000183.html
-  > If approved, REVTORPYK would be the first and only therapy for advanced breast cancer with a PIK3CA mutation that inhibits all class I PI3K isoforms (α, β, δ, γ) and mTOR complexes mTORC1 and mTORC2 MINNEAPOLIS, Aug. 26, 2026 (GLOBE NEWSWIR
-- **2026-08-20** · Celcuity (CELC) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/20/celcuity-celc-q2-2026-earnings-call-transcript/
-  > Revtopik launch underway with 80 oncology specialists supporting expansion into first-line treatment.
-- **2026-08-16** · Is Celcuity (CELC) A Bargain As Losses Widen Ahead Of Its First Launch? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/celcuity-celc-bargain-losses-widen-061138171.html
-  > Celcuity (CELC) drew fresh attention after reporting second quarter 2026 results that showed a wider net loss as the company ramps up spending ahead of its first commercial oncology launch. See our latest analysis for Celcuity. Celcuity’s l
-- **2026-08-16** · How Investors May Respond To Celcuity (CELC) Winning FDA Nod For Revtopik Amid Wider Quarterly Loss — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/investors-may-respond-celcuity-celc-041606313.html
-  > In the second quarter of 2026, Celcuity Inc. reported a wider net loss of US$78.86 million and basic loss per share of US$1.44, even as it prepared for the commercial launch of its newly FDA‑approved breast cancer therapy Revtopik (also ref
-- **2026-08-14** · Celcuity Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-celcuity-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Celcuity Inc.'s Q2 2026 earnings call
-- **2026-08-14** · Celcuity Inc (CELC) (Q2 2026) Earnings Call Highlights: FDA Approval and Commercial Launch ... — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/celcuity-inc-celc-q2-2026-050242788.html
-  > Celcuity Inc (CELC) posts wider Q2 net loss amid REVTORPYK launch preparations, but strong cash position and positive Phase 3 data underscore growth potential.
-- **2026-08-13** · Celcuity Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/celcuity-q2-earnings-call-highlights-2026-08-13/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Celcuity (NASDAQ:CELC) said it remains on track to begin commercial shipments of REVTORPYK, its gedatolisib therapy for certain patients with advanced breast cancer, late in the third quarter of 2026 following its recent FDA approval. The F
-- **2026-08-13** · Celcuity Inc. Reports Release of Second Quarter 2026 Financial Results and Provides Corporate Update — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/celcuity-inc-reports-release-second-200600796.html
-  > REVTORPYK™ (gedatolisib) approved by the U.S. FDA for the treatment of HR+/HER2- PIK3CA Wild-Type locally advanced or metastatic breast cancer on July 14, 2026; on track for commercial launch late third quarter 2026NCCN® Clinical Practice G
-- **2026-08-06** · Celcuity Schedules Release of Second Quarter 2026 Financial Results and Webcast/Conference Call — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/celcuity-schedules-release-second-quarter-123400579.html
-  > MINNEAPOLIS, Aug. 06, 2026 (GLOBE NEWSWIRE) -- Celcuity Inc. (Nasdaq: CELC), a commercial-stage biotechnology company focused on developing and commercializing targeted therapies for the treatment of multiple solid tumor indications, today 
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
@@ -107,12 +92,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
+- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
 - **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
 - **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
 - **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
 - **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
 - **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
-- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
@@ -123,13 +108,13 @@ Attack these before you trust any number above.
 - ALKS: no_edge · price $46.91
 - AMLX: no_model · price $27.65
 - APGE: no_model · price $133.96
+- CELC: no_model · price $65.57
 - CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
 - CRNX: no_edge · price $84.84
 - CRSP: no_model · price $53.45
 - DFTX: no_model · price $37.99
 - DNLI: no_model · price $18.67
 - DNTH: no_model · price $106.20
-- DYN: no_model · price $16.51
 
 ---
 

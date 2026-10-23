@@ -1,57 +1,69 @@
-# NIC — NICOLET BANKSHARES INC
+# WT — WISDOMTREE
 *Financials · brief generated 2026-10-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 292/1956
+- rotation position 300/1956
 
 ## Market
 | | |
 |---|---|
-| price | $169.64 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | +3.2% / +2.9% / +0.2% / +32.3% |
-| 60d avg daily $ volume | $26.8M |
-| beta (vs IWM) | 0.79 (R²=0.309) |
-| 5d volume vs 60d average | 1.4x |
+| price | $21.21 |
+| market cap | $3.2B |
+| 5d / 21d / 63d / 252d | -1.9% / -10.6% / +9.2% / +66.9% |
+| 60d avg daily $ volume | $61.1M |
+| beta (vs IWM) | 1.04 (R²=0.293) |
+| 5d volume vs 60d average | 0.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| WACC weights | equity 75% / debt 25% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +3.9% |
-| cost of equity | +9.3% |
-| justified P/TBV | 0.26 |
-| actual P/TBV | 4.09 |
-| tangible book / share | $41.49 |
-| implied gap | -93.5% |
+| sustainable ROTCE | n/a |
+| cost of equity | +10.7% |
+| justified P/TBV | None |
+| actual P/TBV | None |
+| tangible book / share | n/a |
+| implied gap | n/a |
 
-Cohort: **14th percentile** of 336 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -61.1%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=260) | 27.4x | 6.0x / 9.0x / 13.6x | $0.63 / $3.50 / $7.99 |
+| ev_sales (n=230) | 8.1x | 1.5x / 3.6x / 23.4x | $-0.16 / $6.43 / $71.20 |
+| ev_gross_profit (n=37) | 9.1x | 2.7x / 4.0x / 10.2x | $2.51 / $6.28 / $24.16 |
+
+Blended midpoint **$5.40** vs price $21.21 — gap **-74.5%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_68%_of_book`
+- `no_usable_return_on_tangible_equity`
 
 ## Recent filings
-- 2026-10-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000172/nic-20261020.htm
-- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000164/nic-20260630.htm
-- 2026-07-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000157/nic-20260721.htm
-- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000118/nic-20260518.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000110/nic-20260331.htm
-- 2026-04-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000093/nic-20260421.htm
-- 2026-03-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000086/nic-20260324.htm
-- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000077/nic-20251231.htm
-- 2026-02-20 **8-K** — items 2.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000072/nic-20260213.htm
-- 2026-01-26 **8-K** — items 5.02,5.07,7.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000039/nic-20260120.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/880631/000121465926009661/wti-20260630.htm
+- 2026-07-31 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926009324/z7282648k.htm
+- 2026-06-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/880631/000121465926007575/b6182648k.htm
+- 2026-05-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926006842/b5282648k.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/880631/000121465926005680/wti-20260331.htm
+- 2026-05-01 **8-K** — items 1.01,2.01,2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926005379/d4292638k.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/880631/000121465926005251/wti-20251231.htm
+- 2026-03-30 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003985/o3272608k.htm
+- 2026-03-24 **8-K** — items 3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003676/p3232608k.htm
+- 2026-03-23 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003657/y3232618k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-20** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000172/exhibit99_13q2026pressrele.htm
-- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000157/exhibit99_12q2026pressrele.htm
+- **2026-07-31** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/880631/000121465926009324/ex99_1.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -73,12 +85,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
+- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
 - **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
 - **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
 - **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
 - **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
 - **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
-- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

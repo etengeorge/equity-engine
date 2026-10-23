@@ -1,81 +1,85 @@
-# FIBK — FIRST INTERSTATE BANCSYSTEM
+# SBCF — SEACOAST BANKING OF FLORIDA
 *Financials · brief generated 2026-10-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 290/1956
+- rotation position 295/1956
 
 ## Market
 | | |
 |---|---|
-| price | $36.88 |
-| market cap | $3.5B |
-| 5d / 21d / 63d / 252d | +5.9% / +2.4% / -2.1% / +24.5% |
-| 60d avg daily $ volume | $40.2M |
-| beta (vs IWM) | 1.03 (R²=0.534) |
-| 5d volume vs 60d average | 0.9x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 96% / debt 4% |
+| price | $33.65 |
+| market cap | $3.3B |
+| 5d / 21d / 63d / 252d | +3.8% / +3.8% / +1.0% / +13.9% |
+| 60d avg daily $ volume | $28.9M |
+| beta (vs IWM) | 0.97 (R²=0.493) |
+| 5d volume vs 60d average | 1.0x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +3.5% |
-| cost of equity | +10.6% |
-| justified P/TBV | 0.17 |
-| actual P/TBV | 1.53 |
-| tangible book / share | $24.06 |
-| implied gap | -88.9% |
+| sustainable ROTCE | +4.4% |
+| cost of equity | +10.4% |
+| justified P/TBV | 0.29 |
+| actual P/TBV | 2.2 |
+| tangible book / share | $15.31 |
+| implied gap | -86.7% |
 
-Cohort: **16th percentile** of 336 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -56.5%).
+Cohort: **18th percentile** of 337 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -53.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `goodwill_and_intangibles_33%_of_book`
+- `goodwill_and_intangibles_45%_of_book`
+- `unstable_rotce_1.7%_to_9.5%`
 
 ## Recent filings
-- 2026-10-22 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20261022.htm
-- 2026-09-16 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000092/fibk-20260914.htm
-- 2026-08-21 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000088/fibk-20260821.htm
-- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/860413/000086041326000084/fibk-20260630.htm
-- 2026-07-23 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260723.htm
-- 2026-07-16 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000078/fibk-20260713.htm
-- 2026-07-09 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000075/fibk-20260709.htm
-- 2026-05-29 **8-K** — items 5.02,5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000048/fibk-20260527.htm
-- 2026-05-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000041/fibk-20260511.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/860413/000086041326000038/fibk-20260331.htm
+- 2026-09-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026061128/sbcf-20260909.htm
+- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/730708/000162828026052723/sbcf-20260630.htm
+- 2026-07-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026050147/sbcf-20260728.htm
+- 2026-05-29 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/730708/000162828026039243/sbcf-20260527.htm
+- 2026-05-20 **8-K** — items 5.07,7.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026036953/sbcf-20260520.htm
+- 2026-05-13 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026034576/sbcf-20260513.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/730708/000162828026031220/sbcf-20260331.htm
+- 2026-04-28 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026027918/sbcf-20260428.htm
+- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/730708/000162828026024690/sbcf-20260410.htm
+- 2026-03-26 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/730708/000162828026021408/sbcf-20260326.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20260930x8kpr.htm
-- **2026-10-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/sep2026ip.htm
-- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260630x8kpr.htm
-- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/jun2026ip.htm
+- **2026-09-09** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/730708/000162828026061128/sbcf2q2026investorpresen.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/730708/000162828026050147/sbcf2q2026earningsrelease.htm
+- **2026-07-28** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/730708/000162828026050147/sbcf2q2026earningspresen.htm
 
 ## News on this company — last 90 days
-*9 items held; showing the 9 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-18** · 1 Safe-and-Steady Stock Worth Your Attention and 2 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-safe-steady-stock-worth-073720848.html
-  > Stability is great, but low-volatility stocks may struggle to deliver market-beating returns over time as they sometimes underperform during bull markets.
-- **2026-09-10** · 3 Reasons FIBK is Risky and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-fibk-risky-1-131304195.html
-  > First Interstate BancSystem currently trades at $32.57 per share and has shown little upside over the past six months, posting a small loss of 4.3%. The stock also fell short of the S&P 500’s 13.1% gain during that period.
-- **2026-08-16** · 2 Bank Stocks to Target This Week and 1 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-bank-stocks-target-week-041300166.html
-  > Banks use their capital and expertise to help businesses grow while offering consumers essential financial products like mortgages and credit cards. But worries about an economic slowdown and potential credit deterioration have kept sentime
-- **2026-08-04** · FIBK Q2 Deep Dive: Loan Portfolio Restructuring and Deposit Mix Drive Results — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/fibk-q2-deep-dive-loan-073322840.html
-  > Regional banking company First Interstate BancSystem (NASDAQ:FIBK) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 5% year on year to $265.3 million. Its non-GAAP profit of $0.87 per share was 35.6% abo
-- **2026-08-01** · The Top 5 Analyst Questions From First Interstate BancSystem’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-first-113157984.html
-  > First Interstate BancSystem’s second quarter performance reflected the company’s ongoing focus on balance sheet optimization and relationship-driven growth. Management attributed the quarter’s results to net interest margin expansion, disci
-- **2026-07-25** · Is First Interstate BancSystem (FIBK) Undervalued On Its Latest Earnings? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/first-interstate-bancsystem-fibk-undervalued-221205925.html
-  > First Interstate BancSystem (FIBK) has moved into focus after reporting second quarter 2026 earnings. The company reported net income of US$83.9 million and earnings per share of US$0.87 from continuing operations. See our latest analysis f
-- **2026-07-24** · First Interstate BancSystem Inc (FIBK) Q2 2026 Earnings Call Highlights: Navigating Challenges ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/first-interstate-bancsystem-inc-fibk-210238989.html
-  > Despite a decline in loans and deposits, First Interstate BancSystem Inc (FIBK) reports improved net interest margin and strategic share repurchases, signaling a focus on long-term profitability.
-- **2026-07-24** · First Interstate BancSystem Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/first-interstate-bancsystem-q2-earnings-call-highlights-2026-07-24/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > First Interstate BancSystem (NASDAQ:FIBK) reported second-quarter 2026 net income of $83.9 million, or $0.87 per diluted share, compared with $60.2 million, or $0.61 per diluted share, in the first quarter. Results included a $19.5 million 
-- **2026-07-24** · First Interstate BancSystem, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-first-interstate-bancsystem-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of First Interstate BancSystem, Inc.'s Q2 2026 earnings call
+- **2026-09-11** · 3 Russell 2000 Stocks We Find Risky — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-risky-000104846.html
+  > Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors looking beyond the usual large-cap names. But with less stability and fewer resources than their bigger counterparts, these companies face steeper challenges in sca
+- **2026-08-27** · 1 Stock Under $50 with Solid Fundamentals and 2 We Brush Off — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-solid-164907435.html
+  > Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models,
+- **2026-08-18** · Seacoast Banking (SBCF) Upgraded to Buy: Here's Why — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/seacoast-banking-sbcf-upgraded-buy-160003097.html
+  > Seacoast Banking (SBCF) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).
+- **2026-08-18** · 3 Unpopular Stocks with Questionable Fundamentals — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-questionable-fundamentals-082933809.html
+  > Wall Street’s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial corporate relationships often trumps delivering the hard truth.
+- **2026-08-04** · Regional Banks Stocks Q2 Recap: Benchmarking Seacoast Banking (NASDAQ:SBCF) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/regional-banks-stocks-q2-recap-025322122.html
+  > As the Q2 earnings season comes to a close, it’s time to take stock of this quarter’s best and worst performers in the regional banks industry, including Seacoast Banking (NASDAQ:SBCF) and its peers.
+- **2026-08-03** · Seacoast Banking (SBCF) is a Great Momentum Stock: Should You Buy? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/seacoast-banking-sbcf-great-momentum-160006660.html
+  > Does Seacoast Banking (SBCF) have what it takes to be a top stock pick for momentum investors? Let's find out.
+- **2026-07-30** · SBCF Q2 Deep Dive: Organic Growth and Integration Milestones Shape Outlook — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/sbcf-q2-deep-dive-organic-162902504.html
+  > Florida regional bank Seacoast Banking (NASDAQ:SBCF) met Wall Street’s revenue expectations in Q2 CY2026, with sales up 38.4% year on year to $210 million. Its non-GAAP profit of $0.61 per share was in line with analysts’ consensus estimate
+- **2026-07-29** · Seacoast Banking Corp of Florida (SBCF) Q2 2026 Earnings Call Highlights: Robust Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/seacoast-banking-corp-florida-sbcf-210525030.html
+  > Seacoast Banking Corp of Florida (SBCF) reports an 87% increase in net income, driven by organic loan growth and successful integration with Citizens First Bank.
+- **2026-07-29** · Seacoast Banking Corporation of Florida Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/seacoast-banking-corporation-of-florida-q2-earnings-call-highlights-2026-07-29/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Seacoast Banking Corporation of Florida (NASDAQ:SBCF) reported second-quarter net income of $59.5 million, or $0.55 per diluted share, while adjusted earnings totaled $65.8 million, or $0.61 per diluted share. Adjusted pre-tax, pre-provisio
+- **2026-07-29** · Seacoast Banking Corporation of Florida Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-seacoast-banking-corporation-of-florida-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Seacoast Banking Corporation of Florida's Q2 2026 earnings call
+- **2026-07-29** · Seacoast Banking Corporation of Florida (SBCF) After Mixed Q2 Earnings And An Undervalued Narrative — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/seacoast-banking-corporation-florida-sbcf-031318820.html
+  > Why Seacoast Banking Corporation of Florida stock is in focus after Q2 earnings Seacoast Banking Corporation of Florida (SBCF) is back on investors’ radar after its latest earnings release, which combined higher net interest income, a compl
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
@@ -94,12 +98,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
+- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
 - **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
 - **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
 - **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
 - **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
 - **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
-- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

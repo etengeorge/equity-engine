@@ -1,102 +1,97 @@
-# MTRX — MATRIX SERVICE
+# MEC — MAYVILLE ENGINEERING COMPANY INC
 *Industrials · brief generated 2026-10-23 · selected as **opportunistic***
 
 ## Why this name is on today's list
 - cheapest 3% of 150 Industrials peers (97th pct)
-- baseline gap +222%
-- filed an 8-K in the last few sessions
+- baseline gap +212%
+- 5d move -9%
+- 21d move -26%
 - never researched
-- urgency score 8.19
+- urgency score 6.38
 
 ## Market
 | | |
 |---|---|
-| price | $9.64 |
-| market cap | $272.7M |
-| 5d / 21d / 63d / 252d | -4.9% / -1.4% / -21.9% / -27.8% |
-| 60d avg daily $ volume | $4.1M |
-| beta (vs IWM) | 1.35 (R²=0.289) |
-| 5d volume vs 60d average | 1.0x |
+| price | $12.94 |
+| market cap | $330.0M |
+| 5d / 21d / 63d / 252d | -8.9% / -25.8% / -57.3% / -17.7% |
+| 60d avg daily $ volume | $10.9M |
+| beta (vs IWM) | 0.66 (R²=0.053) |
+| 5d volume vs 60d average | 0.5x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 97% / debt 3% |
+| WACC weights | equity 98% / debt 2% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$59.3M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$1.4M', '$109.8M', '$65.6M']
-Enterprise value **$58.7M** · FCFF yield **+101.0%**
+Normalized FCFF base **$51.1M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$26.9M', '$77.7M', '$23.8M']
+Enterprise value **$336.2M** · FCFF yield **+15.2%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.4% − 1pt | -50.0% |
-| **12.4% (point)** | **-49.3%** |
-| 12.4% + 1pt | -48.5% |
+| 8.7% − 1pt | -19.0% |
+| **8.7% (point)** | **-16.2%** |
+| 8.7% + 1pt | -13.6% |
 
 
-> **Stock compensation is 13% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$51.3M** and an implied growth of **-46.2%** instead of -49.3%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 10% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$46.8M** and an implied growth of **-14.4%** instead of -16.2%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+5.3%** (5y revenue CAGR +5.3%).
-Gap under that baseline: **+222.3%** (fair value $31.07 vs price $9.64).
+Naive baseline for comparison: **+8.9%** (5y revenue CAGR +8.9%).
+Gap under that baseline: **+212.1%** (fair value $40.38 vs price $12.94).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **97th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +239.4%).
+Cohort: **97th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +229.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `speculative_cost_of_debt_but_only_3%_debt_weight`
-- `lumpy_fcff_spread_1.8x_of_mean`
-- `possible_trough_cycle_base_newest_fcf_0.02x_oldest_growth_applied_to_a_trough_understates_value`
-- `operating_leases_26%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this`
+- `interest_expense_implies_132%_on_reported_debt_debt_likely_understated`
+- `speculative_cost_of_debt_but_only_2%_debt_weight`
 
 ## Recent filings
-- 2026-10-19 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/mtrx-20261019.htm
-- 2026-09-23 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/866273/000114036126037426/ny20077601x1_def14a.htm
-- 2026-09-03 **10-K** — https://www.sec.gov/Archives/edgar/data/866273/000086627326000057/mtrx-20260630.htm
-- 2026-09-02 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000053/mtrx-20260902.htm
-- 2026-07-02 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000040/mtrx-20260628.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/866273/000086627326000029/mtrx-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000024/mtrx-20260506.htm
-- 2026-04-30 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000020/mtrx-20260428.htm
-- 2026-02-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/866273/000086627326000016/mtrx-20251231.htm
-- 2026-02-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/866273/000086627326000012/mtrx-20260204.htm
+- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926091110/tmb-20260630x10q.htm
+- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926090424/tmb-20260804x8k.htm
+- 2026-05-21 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926064802/tmb-20260519x8k.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926056257/tmb-20260331x10q.htm
+- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926055669/tmb-20260505x8k.htm
+- 2026-04-23 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926047745/tmb-20260421x8k.htm
+- 2026-03-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926025849/tmb-20260421xdef14a.htm
+- 2026-03-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926023496/tmb-20251231x10k.htm
+- 2026-03-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926022896/tmb-20260303x8k.htm
+- 2026-02-26 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225x8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-19** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/savarinocfoannouncementpre.htm
-- **2026-10-19** · EX-99.2 · presentation — EX-99.2 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/866273/000086627326000067/savarinoofferletter.htm
-- **2026-09-02** · EX-99 · press release — EX-99 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/866273/000086627326000053/a063026ex99earningsrelease.htm
+- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766368/000110465926090424/tmb-20260804xex99d1.htm
 
 ## News on this company — last 90 days
-*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
+*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-04** · MTRX Q2 Deep Dive: Cautious Outlook Amid Backlog Decline and Leadership Transition — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/mtrx-q2-deep-dive-cautious-025518924.html
-  > Industrial construction and maintenance company Matrix Service (NASDAQ:MTRX) fell short of the market’s revenue expectations in Q2 CY2026, but sales rose 13% year on year to $244.5 million. Its non-GAAP profit of $0.16 per share was 20% bel
-- **2026-09-03** · Matrix Service Co (MTRX) (Q4 2026) Earnings Call Highlights: Return to Profitability and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/matrix-co-mtrx-q4-2026-230209058.html
-  > Matrix Service Co (MTRX) posts positive adjusted EPS of $0.16, with revenue up 13% and a robust $7 billion opportunity pipeline positioning the company for future expansion.
-- **2026-09-03** · Matrix Service Q4 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-matrix-service-q4-earnings-call-highlights-2026-09-03/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Matrix Service (NASDAQ:MTRX) reported improved fourth-quarter fiscal 2026 results, including higher revenue, stronger gross margins and a return to adjusted profitability, as the engineering and construction contractor advances a strategic 
-- **2026-09-03** · Matrix Service Company Q4 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-matrix-service-company-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Matrix Service Company's Q4 2026 earnings call
-- **2026-09-02** · Matrix Service (MTRX) Q4 Earnings and Revenues Miss Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/matrix-mtrx-q4-earnings-revenues-211002496.html
-  > Matrix Service (MTRX) delivered earnings and revenue surprises of -5.88% and -1.02%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-09-02** · Matrix Service (NASDAQ:MTRX) Reports Sales Below Analyst Estimates In Q2 CY2026 Earnings — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/matrix-nasdaq-mtrx-reports-sales-210917849.html
-  > Industrial construction and maintenance company Matrix Service (NASDAQ:MTRX) missed Wall Street’s revenue expectations in Q2 CY2026, but sales rose 13% year on year to $244.5 million. Its non-GAAP profit of $0.16 per share was 20% below ana
-- **2026-09-02** · Matrix Announces Award for Front-End Engineering and Design on America First Refining Storage Tank Farm in Brownsville, Texas — *GlobeNewswire* — https://finance.yahoo.com/energy/articles/matrix-announces-award-front-end-201000268.html
-  > HOUSTON, Sept. 02, 2026 (GLOBE NEWSWIRE) -- Matrix Service Company (Nasdaq: MTRX) announced today that America First Refining (AFR) has awarded the Company the front-end engineering and design (FEED) of the storage tank farm for AFR’s large
-- **2026-09-02** · Matrix Service Company Reports Fiscal Year 2026 Fourth Quarter and Full-Year Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/matrix-company-reports-fiscal-2026-200300905.html
-  > HOUSTON, Sept. 02, 2026 (GLOBE NEWSWIRE) -- Matrix Service Company (Nasdaq: MTRX, "Matrix" or "the Company"), a leading heavy industrial contractor that engineers, constructs, and maintains critical energy, power, and industrial infrastruct
-- **2026-09-01** · Matrix Service (MTRX) Q2 Earnings Report Preview: What To Look For — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/matrix-mtrx-q2-earnings-report-035657935.html
-  > Industrial construction and maintenance company Matrix Service (NASDAQ:MTRX) will be reporting earnings this Wednesday after market close. Here’s what investors should know.
-- **2026-08-18** · Matrix Service Company Sets Date for Release of Fiscal Year 2026 Fourth Quarter and Full-Year Results and Conference Call — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/matrix-company-sets-date-release-200500183.html
-  > HOUSTON, Aug. 18, 2026 (GLOBE NEWSWIRE) -- Matrix Service Company (Nasdaq: MTRX), a leading provider of engineering and construction services to the energy and industrial markets, announced today that it will release fourth quarter and full
-- **2026-08-16** · 1 of Wall Street’s Favorite Stocks with Exciting Potential and 2 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-151700098.html
-  > The stocks in this article have caught Wall Street’s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about comp
-- **2026-08-13** · TSS Inc. (TSSI) Misses Q2 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/tss-inc-tssi-misses-q2-225003876.html
-  > TSS (TSSI) delivered earnings and revenue surprises of -37.50% and -32.29%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-09-03** · 3 Reasons MEC is Risky and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-mec-risky-1-174318597.html
+  > Over the past six months, Mayville Engineering’s stock price fell to $19.25. Shareholders have lost 8.8% of their capital, which is disappointing considering the S&P 500 has climbed by 12%. This may have investors wondering how to approach 
+- **2026-08-26** · Spotting Winners: Mayville Engineering (NYSE:MEC) And Engineered Components and Systems Stocks In Q2 — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/spotting-winners-mayville-engineering-nyse-153113667.html
+  > As the craze of earnings season draws to a close, here’s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at engineered components and systems stocks, starting with Mayville Engineering (NYS
+- **2026-08-24** · 3 Unprofitable Stocks with Questionable Fundamentals — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-questionable-fundamentals-062536306.html
+  > Unprofitable companies face headwinds as they struggle to keep operating expenses under control. Some may be investing heavily, but the majority fail to convert spending into sustainable growth.
+- **2026-08-18** · Allient, Mayville Engineering, Graham Corporation, Titan International, and Northwest Pipe Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/allient-mayville-engineering-graham-corporation-220533386.html
+  > A number of stocks fell in the morning session after the latest industrial production report showed slower-than-expected growth for July. Data from the Federal Reserve indicated that U.S. industrial production rose by 0.2%, which was half o
+- **2026-08-17** · Is the Options Market Predicting a Spike in Mayville Engineering Stock? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-mayville-164000792.html
+  > Investors need to pay close attention to MEC stock based on the movements in the options market lately.
+- **2026-08-16** · 1 High-Flying Stock to Consider Right Now and 2 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-high-flying-stock-consider-152500030.html
+  > Expensive stocks typically earn their valuations through superior growth rates that other companies simply can’t match. The flip side though is that these lofty expectations make them particularly susceptible to drawdowns when market sentim
+- **2026-08-12** · 5 Revealing Analyst Questions From Mayville Engineering’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-mayville-215722784.html
+  > Mayville Engineering’s second quarter saw revenue and profit come in well above Wall Street’s expectations, but the market reacted negatively to ongoing cost pressures and near-term margin constraints. Management attributed the strong sales
+- **2026-08-12** · Mayville Engineering (MEC) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/mayville-engineering-mec-q2-2026-earnings-call-transcript/
+  > Datacenter segment surged 476% as management raised full-year guidance.
+- **2026-08-08** · Mayville Engineering Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/mayville-engineering-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Mayville Engineering (NYSE:MEC) reported second-quarter sales growth that exceeded management’s expectations, driven by momentum in data center and critical power programs and an early recovery in commercial vehicles. The company raised its
+- **2026-08-05** · Mayville Engineering Co Inc (MEC) (Q2 2026) Earnings Call Highlights: Data Center Growth Drives ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/mayville-engineering-co-inc-mec-210624180.html
+  > Strong quarterly results fueled by a 173% surge in data center and critical power revenue, offset by launch costs and labor constraints.
+- **2026-08-04** · Mayville Engineering (MEC) Q2 Earnings and Revenues Surpass Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/mayville-engineering-mec-q2-earnings-230014590.html
+  > Mayville Engineering (MEC) delivered earnings and revenue surprises of +187.50% and +8.88%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -115,12 +110,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
+- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
 - **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
 - **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
 - **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
 - **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
 - **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
-- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
