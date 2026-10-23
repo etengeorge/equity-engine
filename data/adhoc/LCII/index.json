@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-10-16T11:34:08+00:00",
+  "fetched_utc": "2026-10-23T11:42:15+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "LCII",
     "cik": 763744,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-22",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000093/lcii-20261022.htm",
+        "file": "2026-10-22-8-K-lcii-20261022.htm.txt",
+        "chars": 3181,
+        "truncated": false
+      },
       {
         "form": "8-K",
         "filed": "2026-10-13",
@@ -69,12 +78,21 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-07-22",
-        "items": "7.01,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000067/lcii-20260722.htm",
-        "file": "2026-07-22-8-K-lcii-20260722.htm.txt",
-        "chars": 3169,
+        "filed": "2026-10-22",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000093/a991earnannounce3q26.htm",
+        "file": "2026-10-22-EX-99.1.txt",
+        "chars": 2014,
         "truncated": false
       },
       {
@@ -111,42 +129,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000077/ex991dividend20260807.htm",
         "file": "2026-08-07-EX-99.1.txt",
         "chars": 5778,
-        "truncated": false
-      },
-      {
-        "filed": "2026-08-05",
-        "items": [
-          "2.02",
-          "9.01"
-        ],
-        "item_labels": [
-          "results of operations",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EX-99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-earningsrelease2q26qu.htm",
-        "file": "2026-08-05-EX-99.1.txt",
-        "chars": 38737,
-        "truncated": false
-      },
-      {
-        "filed": "2026-08-05",
-        "items": [
-          "2.02",
-          "9.01"
-        ],
-        "item_labels": [
-          "results of operations",
-          "9.01"
-        ],
-        "exhibit": "EX-99.2",
-        "description": "EX-99.2",
-        "kind": "presentation",
-        "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000068/lcii-irshortdeck2q26fina.htm",
-        "file": "2026-08-05-EX-99.2.txt",
-        "chars": 35900,
         "truncated": false
       }
     ]
