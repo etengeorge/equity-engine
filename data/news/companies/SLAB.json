@@ -106,17 +106,5 @@
    "SLAB"
   ],
   "source": "yfinance"
- },
- {
-  "id": "b1a7a6b0-d67e-326f-ba12-95d106813f8f",
-  "ts": "2026-06-23T04:01:00+00:00",
-  "title": "Signify Enhances Philips Hue Matter Support Through Collaboration with Silicon Labs",
-  "summary": "Silicon Labs (NASDAQ: SLAB), the leading innovator in low-power wireless connectivity, and Signify (Euronext: LIGHT), a world leader in lighting, today announced their collaboration to bring concurrent multiprotocol (CMP) communications to select Philips Hue smart bulbs, enabling support for both Zigbee and Matter over Thread concurrently on a single device.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/technology/articles/signify-enhances-philips-hue-matter-040100215.html",
-  "tickers": [
-   "SLAB"
-  ],
-  "source": "yfinance"
  }
 ]

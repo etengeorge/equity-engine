@@ -94,29 +94,5 @@
    "DMRC"
   ],
   "source": "yfinance"
- },
- {
-  "id": "4bb56f26-bfa4-34bc-b635-b32f7f49cc60",
-  "ts": "2026-06-18T03:15:41+00:00",
-  "title": "ServiceNow (NOW) Expands Agentic AI With Wipro Digimarc And HPE Partnerships",
-  "summary": "ServiceNow (NYSE:NOW) has expanded its agentic AI workflow ecosystem through new partnerships with Wipro, Digimarc, and HPE. Wipro is deploying agentic AI workflows on the ServiceNow platform to help move customers from pilots to broad enterprise rollout. Digimarc is integrating provenance and cryptographic verification into ServiceNow AI agents and Action Fabric to support trustworthy AI outputs. HPE is working with ServiceNow to offer unified agentic AIOps and AI-driven service delivery...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-expands-agentic-ai-031541496.html",
-  "tickers": [
-   "DMRC"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "44ab5c8c-feb2-3276-8e92-91cc1f4b7a88",
-  "ts": "2026-06-18T02:11:37+00:00",
-  "title": "Is ServiceNow (NOW) Quietly Becoming the Core Orchestrator of Enterprise AI Governance?",
-  "summary": "In recent weeks, partners including IBM, Cognizant, Wipro, NICE, Phenom, HPE and Digimarc have announced expanded collaborations and integrations with ServiceNow\u2019s AI Platform to modernize legacy systems, tighten AI governance, and embed agentic AI across IT, HR and customer service workflows. These moves highlight ServiceNow\u2019s role as an orchestration layer for enterprise AI, where trusted data, governance and cross\u2011platform workflows become as important as the underlying models...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-quietly-becoming-core-021137992.html",
-  "tickers": [
-   "DMRC"
-  ],
-  "source": "yfinance"
  }
 ]

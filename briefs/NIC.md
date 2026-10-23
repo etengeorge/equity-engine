@@ -1,57 +1,57 @@
-# PLMR — PALOMAR HOLDINGS
-*Financials · brief generated 2026-10-16 · selected as **rotation***
+# NIC — NICOLET BANKSHARES INC
+*Financials · brief generated 2026-10-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 283/1956
+- rotation position 292/1956
 
 ## Market
 | | |
 |---|---|
-| price | $137.61 |
+| price | $169.64 |
 | market cap | $3.6B |
-| 5d / 21d / 63d / 252d | +4.7% / -2.3% / +2.0% / +15.6% |
-| 60d avg daily $ volume | $30.3M |
-| beta (vs IWM) | 0.33 (R²=0.026) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 0.9x |
+| 5d / 21d / 63d / 252d | +3.2% / +2.9% / +0.2% / +32.3% |
+| 60d avg daily $ volume | $26.8M |
+| beta (vs IWM) | 0.79 (R²=0.309) |
+| 5d volume vs 60d average | 1.4x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 92% / debt 8% |
+| WACC weights | equity 97% / debt 3% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | +3.3% |
-| cost of equity | +6.9% |
-| justified P/TBV | 0.27 |
-| actual P/TBV | 4.01 |
-| tangible book / share | $34.35 |
-| implied gap | -93.3% |
+| sustainable ROTCE | +3.9% |
+| cost of equity | +9.3% |
+| justified P/TBV | 0.26 |
+| actual P/TBV | 4.09 |
+| tangible book / share | $41.49 |
+| implied gap | -93.5% |
 
-Cohort: **14th percentile** of 339 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -60.1%).
+Cohort: **14th percentile** of 336 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -61.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `unstable_rotce_0.9%_to_5.8%`
+- `goodwill_and_intangibles_68%_of_book`
 
 ## Recent filings
-- 2026-08-11 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-20260810.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526335508/plmr-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,8.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-20260804.htm
-- 2026-05-29 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526246399/plmr-20260529.htm
-- 2026-05-26 **8-K** — items 5.02,5.07,7.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526239334/plmr-20260521.htm
-- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526212569/plmr-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,8.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526209013/plmr-20260506.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1761312/000207187626000105/i26118_plmr-def14a.htm
-- 2026-02-24 **10-K** — https://www.sec.gov/Archives/edgar/data/1761312/000119312526067364/plmr-20251231.htm
-- 2026-02-23 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1761312/000119312526064398/plmr-20260223.htm
+- 2026-10-20 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000172/nic-20261020.htm
+- 2026-07-31 **10-Q** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000164/nic-20260630.htm
+- 2026-07-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000157/nic-20260721.htm
+- 2026-05-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000118/nic-20260518.htm
+- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000110/nic-20260331.htm
+- 2026-04-21 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000093/nic-20260421.htm
+- 2026-03-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000086/nic-20260324.htm
+- 2026-02-27 **10-K** — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000077/nic-20251231.htm
+- 2026-02-20 **8-K** — items 2.01,5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000072/nic-20260213.htm
+- 2026-01-26 **8-K** — items 5.02,5.07,7.01 — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000039/nic-20260120.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-ex99_1.htm
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event)* — https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm
+- **2026-10-20** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000172/exhibit99_13q2026pressrele.htm
+- **2026-07-21** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1174850/000117485026000157/exhibit99_12q2026pressrele.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -73,12 +73,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
-- **2026-10-16** · Non-Applicability of Section 357(c) to Consolidated Groups — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21253/non-applicability-of-section-357c-to-consolidated-groups
-- **2026-10-16** · Safety Zone; Cumberland River, Hendersonville, TN — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21240/safety-zone-cumberland-river-hendersonville-tn
-- **2026-10-16** · Fisheries of the Exclusive Economic Zone Off Alaska; Reallocation of Atka Mackerel in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21239/fisheries-of-the-exclusive-economic-zone-off-alaska-reallocation-of-atka-mackerel-in-the-bering-sea
-- **2026-10-16** · Denali National Park and Preserve; Vehicle Use — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21222/denali-national-park-and-preserve-vehicle-use
-- **2026-10-16** · Fishery Management Plans of St. Croix and St. Thomas and St. John; Spiny Lobster Management Measures — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21205/fishery-management-plans-of-st-croix-and-st-thomas-and-st-john-spiny-lobster-management-measures
-- **2026-10-16** · Establishment of United States Area Navigation Route T-550 and Revocation of Very High Frequency Omnidirectional Range Federal Airway V-320 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21192/establishment-of-united-states-area-navigation-route-t-550-and-revocation-of-very-high-frequency
+- **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
+- **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
+- **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
+- **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
+- **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
+- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

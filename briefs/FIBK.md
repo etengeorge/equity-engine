@@ -1,72 +1,81 @@
-# NATL — NCR ATLEOS
-*Financials · brief generated 2026-10-16 · selected as **rotation***
+# FIBK — FIRST INTERSTATE BANCSYSTEM
+*Financials · brief generated 2026-10-23 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 287/1956
+- rotation position 290/1956
 
 ## Market
 | | |
 |---|---|
-| price | $46.06 |
-| market cap | $3.4B |
-| 5d / 21d / 63d / 252d | +1.0% / -0.0% / -2.9% / +22.0% |
-| 60d avg daily $ volume | $35.3M |
-| beta (vs IWM) | 0.81 (R²=0.24) |
-| 5d volume vs 60d average | 1.3x |
-| balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 55% / debt 45% |
+| price | $36.88 |
+| market cap | $3.5B |
+| 5d / 21d / 63d / 252d | +5.9% / +2.4% / -2.1% / +24.5% |
+| 60d avg daily $ volume | $40.2M |
+| beta (vs IWM) | 1.03 (R²=0.534) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-06-30 (10-K) |
+| WACC weights | equity 96% / debt 4% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | n/a |
-| cost of equity | +9.5% |
-| justified P/TBV | None |
-| actual P/TBV | None |
-| tangible book / share | n/a |
-| implied gap | n/a |
+| sustainable ROTCE | +3.5% |
+| cost of equity | +10.6% |
+| justified P/TBV | 0.17 |
+| actual P/TBV | 1.53 |
+| tangible book / share | $24.06 |
+| implied gap | -88.9% |
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=259) | 7.6x | 5.8x / 8.7x / 13.5x | $27.12 / $57.21 / $106.05 |
-| ev_sales (n=229) | 1.3x | 1.5x / 3.5x / 23.7x | $57.27 / $174.53 / $1.4K |
-
-Blended midpoint **$115.87** vs price $46.06 — gap **+151.6%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **16th percentile** of 336 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -56.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `no_usable_return_on_tangible_equity`
+- `goodwill_and_intangibles_33%_of_book`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000016/natl-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000014/natl-20260805.htm
-- 2026-06-30 **8-K** — items 5.07,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000114036126026940/ef20077041_8k.htm
-- 2026-06-18 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000114036126025768/ef20076435_8k.htm
-- 2026-05-21 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000013/natl-20260521.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000009/natl-20260331.htm
-- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000004/natl-20260506.htm
-- 2026-04-03 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1974138/000110465926039425/natl-20260521xdef14a.htm
-- 2026-03-12 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000110465926027105/tm268638d1_8k.htm
-- 2026-03-05 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1974138/000110465926023878/tm267973d1_8k.htm
+- 2026-10-22 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20261022.htm
+- 2026-09-16 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000092/fibk-20260914.htm
+- 2026-08-21 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000088/fibk-20260821.htm
+- 2026-08-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/860413/000086041326000084/fibk-20260630.htm
+- 2026-07-23 **8-K** — items 2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260723.htm
+- 2026-07-16 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000078/fibk-20260713.htm
+- 2026-07-09 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000075/fibk-20260709.htm
+- 2026-05-29 **8-K** — items 5.02,5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000048/fibk-20260527.htm
+- 2026-05-13 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/860413/000086041326000041/fibk-20260511.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/860413/000086041326000038/fibk-20260331.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1974138/000197413826000014/ex-991ncratleosearningsrel.htm
-- **2026-06-30** · EX-99.1 · press release — EXHIBIT 99.1 *(item: 5.07, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1974138/000114036126026940/ef20077041_ex99-1.htm
+- **2026-10-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/fibk-20260930x8kpr.htm
+- **2026-10-22** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000097/sep2026ip.htm
+- **2026-07-23** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/fibk-20260630x8kpr.htm
+- **2026-07-23** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/860413/000086041326000081/jun2026ip.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*9 items held; showing the 9 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-18** · 1 Safe-and-Steady Stock Worth Your Attention and 2 We Question — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-safe-steady-stock-worth-073720848.html
+  > Stability is great, but low-volatility stocks may struggle to deliver market-beating returns over time as they sometimes underperform during bull markets.
+- **2026-09-10** · 3 Reasons FIBK is Risky and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-fibk-risky-1-131304195.html
+  > First Interstate BancSystem currently trades at $32.57 per share and has shown little upside over the past six months, posting a small loss of 4.3%. The stock also fell short of the S&P 500’s 13.1% gain during that period.
+- **2026-08-16** · 2 Bank Stocks to Target This Week and 1 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-bank-stocks-target-week-041300166.html
+  > Banks use their capital and expertise to help businesses grow while offering consumers essential financial products like mortgages and credit cards. But worries about an economic slowdown and potential credit deterioration have kept sentime
+- **2026-08-04** · FIBK Q2 Deep Dive: Loan Portfolio Restructuring and Deposit Mix Drive Results — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/fibk-q2-deep-dive-loan-073322840.html
+  > Regional banking company First Interstate BancSystem (NASDAQ:FIBK) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 5% year on year to $265.3 million. Its non-GAAP profit of $0.87 per share was 35.6% abo
+- **2026-08-01** · The Top 5 Analyst Questions From First Interstate BancSystem’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-first-113157984.html
+  > First Interstate BancSystem’s second quarter performance reflected the company’s ongoing focus on balance sheet optimization and relationship-driven growth. Management attributed the quarter’s results to net interest margin expansion, disci
+- **2026-07-25** · Is First Interstate BancSystem (FIBK) Undervalued On Its Latest Earnings? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/first-interstate-bancsystem-fibk-undervalued-221205925.html
+  > First Interstate BancSystem (FIBK) has moved into focus after reporting second quarter 2026 earnings. The company reported net income of US$83.9 million and earnings per share of US$0.87 from continuing operations. See our latest analysis f
+- **2026-07-24** · First Interstate BancSystem Inc (FIBK) Q2 2026 Earnings Call Highlights: Navigating Challenges ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/first-interstate-bancsystem-inc-fibk-210238989.html
+  > Despite a decline in loans and deposits, First Interstate BancSystem Inc (FIBK) reports improved net interest margin and strategic share repurchases, signaling a focus on long-term profitability.
+- **2026-07-24** · First Interstate BancSystem Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/first-interstate-bancsystem-q2-earnings-call-highlights-2026-07-24/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > First Interstate BancSystem (NASDAQ:FIBK) reported second-quarter 2026 net income of $83.9 million, or $0.87 per diluted share, compared with $60.2 million, or $0.61 per diluted share, in the first quarter. Results included a $19.5 million 
+- **2026-07-24** · First Interstate BancSystem, Inc. Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-first-interstate-bancsystem-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of First Interstate BancSystem, Inc.'s Q2 2026 earnings call
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
@@ -85,12 +94,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
-- **2026-10-16** · Non-Applicability of Section 357(c) to Consolidated Groups — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21253/non-applicability-of-section-357c-to-consolidated-groups
-- **2026-10-16** · Safety Zone; Cumberland River, Hendersonville, TN — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21240/safety-zone-cumberland-river-hendersonville-tn
-- **2026-10-16** · Fisheries of the Exclusive Economic Zone Off Alaska; Reallocation of Atka Mackerel in the Bering Sea and Aleutian Islands Management Area — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21239/fisheries-of-the-exclusive-economic-zone-off-alaska-reallocation-of-atka-mackerel-in-the-bering-sea
-- **2026-10-16** · Denali National Park and Preserve; Vehicle Use — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21222/denali-national-park-and-preserve-vehicle-use
-- **2026-10-16** · Fishery Management Plans of St. Croix and St. Thomas and St. John; Spiny Lobster Management Measures — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21205/fishery-management-plans-of-st-croix-and-st-thomas-and-st-john-spiny-lobster-management-measures
-- **2026-10-16** · Establishment of United States Area Navigation Route T-550 and Revocation of Very High Frequency Omnidirectional Range Federal Airway V-320 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/16/2026-21192/establishment-of-united-states-area-navigation-route-t-550-and-revocation-of-very-high-frequency
+- **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
+- **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
+- **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
+- **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
+- **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
+- **2026-10-23** · Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
