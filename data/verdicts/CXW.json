@@ -1,0 +1,58 @@
+{
+  "ticker": "CXW",
+  "date": "2026-10-30",
+  "sector": "Industrials",
+  "name": "CORECIVIC REIT",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 31.079999923706055,
+  "market_implied_growth": 0.18437150074940478,
+  "cohort_pct": 19.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing here is excessive caution dressed up as discipline, because unlike the genuinely unmodellable names this company has given post-transaction guidance. Full-year 2026 adjusted EBITDA of $440.5-445.5M, adjusted EPS of $1.62-$1.70 and normalized FFO per diluted share of $2.61-$2.70 are all stated AFTER the four sales and are the company's own best estimate of their effect, so the forward economics are disclosed, not unknown. I could take the $2.655 midpoint of normalized FFO per share against a $31.08 price \u2014 11.7x \u2014 and form a view. On that reading I have the information to produce a number and I am declining to.",
+    "what_would_prove_it": "The third-quarter 10-Q, due within about a week, which will carry the first post-transaction balance sheet: the residual cash balance, the actual remaining debt after the 2026-08-12 redemption, and how much of the proceeds has gone to buybacks rather than sitting in cash. That single document converts my $0.9-1.1bn enterprise-value correction from an estimate into a reconciliation. The second test is any 8-K announcing a further facility sale to ICE, which is the bull case made concrete.",
+    "already_visible": "The counter is partly right and it is why I have written the corrected arithmetic out rather than just refusing. Where it fails is the bridge from enterprise value to equity value per share, which is the number the dashboard publishes. The engine computes equity as enterprise value less the net debt in its extract, and that net debt predates $608.5M of repayments and roughly $1.28bn of proceeds \u2014 so a supplied growth rate would print a fair value roughly $8.60 a share too LOW, about 28% of the price, and it would do so in the same direction as my own 'modestly rich' lean, exaggerating it into a strong sell. That is the NIC situation: an un-correctable input that would manufacture rather than merely colour the verdict. Normalized FFO per share is also the wrong cross-check to lean on, because FFO adds back depreciation on real estate the company has just sold and is struck before the maintenance capital expenditure that CoreCivic itself separates out at $70M a year.",
+    "unresolved": "The residual cash balance and therefore the true enterprise value, pending the third-quarter 10-Q. Whether the 2027 renewals of the California City and Midwest management contracts are repriced, which is the single largest determinant of the forward fee stream and is unknowable from any filing today. Whether further ICE purchases happen, and at what multiple of book. And I did not establish how much of the roughly $426M of post-sale run-rate adjusted EBITDA depends on the five newly activated facilities holding their current occupancy, which is itself a policy-driven number."
+  },
+  "what_changed": "Everything that matters, and all of it after the 2026-06-30 balance sheet the engine is using. The four facility sales closed on 2026-07-02 and 2026-08-04, i.e. two days and five weeks after the balance-sheet date, for roughly $1.71bn gross. The Q2 10-Q's own subsequent-events note records the uses: the revolving credit facility and incremental term loan repaid in July for $270.0M and $100.0M, and an irrevocable notice delivered 2026-07-13 to redeem the full $238.5M of 4.75% senior notes on 2026-08-12 at par plus make-whole. So $608.5M of debt has been retired and roughly $1.28bn of net proceeds received, none of which is in the enterprise value on this brief. Remaining debt is the $500.0M of 8.25% senior notes due April 2029, about $107.8M of initial term loan amortising to October 2028, and $131.2M of non-recourse Kansas Notes \u2014 roughly $739M against the roughly $1.35bn the extract carries. Full-year 2026 guidance was revised to reflect the sales (GAAP net income to $1.497-1.516bn from $147.8-157.8M, the difference being the gain). Also new: the acquisition of Clinical Solutions Pharmacy closed 2026-04-01 for $142.8M of cash, which is inside the cash-flow window but not the revenue history; five previously idle facilities have been activated; a new ICE management agreement was signed for the Prairie Facility, idle since 2010, running to August 2031; and a 2026-09-25 8-K reports an officer change. The critical dates on the other side of the ledger: the management contracts on the facilities just sold expire in August 2027 (California City) and September 2027 (Midwest), with Otay Mesa running to December 2029 plus a five-year option, and the company warns the terms 'may be modified to reflect the change in ownership'.",
+  "consensus_case": "CoreCivic at $31.08 is up 69.2% over twelve months because the United States government has started buying its real estate, at prices that validate the book value, while leaving CoreCivic to operate the same facilities under management contract. In 2026 it sold FOUR detention facilities to the Department of Homeland Security: California City (2,560 beds) for $732.6M and Otay Mesa (1,994 beds) for $739.2M, both closed 2026-07-02 for $1.5bn gross and about $1.1bn net of roughly $0.4bn of taxes; the Midwest Regional Reception Center in Leavenworth (1,033 beds) for $238.4M on 2026-08-04; and the Prairie Facility. That is roughly $1.71bn of gross proceeds against a $3.1bn market capitalisation \u2014 55% of the equity \u2014 and management states it 'expects to continue to manage' all of them under the existing ICE contracts. The proceeds repaid $270.0M of revolver, a $100.0M incremental term loan and $238.5M of 4.75% senior notes, and the company has opened unlimited restricted-payment capacity for buybacks once secured leverage is at or below 1.50x. The revised full-year 2026 guidance is the cleanest statement of what the market is buying: adjusted diluted EPS RAISED to $1.62-$1.70 from $1.53-$1.63 and adjusted net income raised to $161.5-169.5M, while adjusted EBITDA was CUT to $440.5-445.5M from $453.8-461.8M. In other words the sales cost about 3% of EBITDA and added to per-share earnings, because the interest saved and the shares retired more than cover the lost ownership margin. On top of that, management discloses it 'has been in discussions with ICE about the potential acquisition of additional detention facilities'. The market is paying for a company converting owned real estate into cash at good prices with a buyer that wants more.",
+  "base_case_rationale": "I am not recording a fair value, because the only balance sheet available predates a transaction worth 55% of the market capitalisation and the schema has no field to correct enterprise value. The arithmetic I can build is worth stating, though, because it says the engine is wrong in a specific direction. On enterprise value: market capitalisation of $3.10bn plus roughly $739M of remaining debt less an estimated $450-670M of residual cash gives roughly $3.2-3.4bn, against the brief's $4.30bn \u2014 the engine is carrying debt that has been repaid and ignoring proceeds that have been received, so it overstates enterprise value by something like $0.9-1.1bn. On the base: CoreCivic discloses its capital expenditure split exactly, which is the AROC condition, guiding $30-35M of maintenance capex on real estate, $35-40M on other assets and IT, $15M of other capital investment, and separately $35-40M 'associated with previously idled facilities we are activating'. So maintenance is about $70M and growth about $37.5M, and the engine's CFO-less-TOTAL-capex base charges the activation programme as though it were a cost of standing still. Post-sale run-rate adjusted EBITDA annualises to roughly $426M (prior guidance midpoint $457.8M less about $32M of annualised ownership economics), which gives a total-capex FCFF base near $230M and a sustaining base near $267M against the engine's $191.5M. Put together: at a corrected enterprise value the market requires roughly +6.5% to +9% FCFF growth on the total-capex base, or +4% to +6.5% on the sustaining base, against the +18.3% the brief reports. I would underwrite 3-5% on the total-capex convention and zero on the sustaining one, per the AROC pairing rule, which makes the name modestly rich \u2014 fair value around $25-29 against $31.08 \u2014 but every term in that sentence rests on an estimated cash balance I cannot verify.",
+  "key_risks": [
+    "Enterprise value of $4.30bn is computed from a 2026-06-30 balance sheet that predates $1.71bn of asset sales and $608.5M of debt repayment; the corrected figure is roughly $3.2-3.4bn, so the engine overstates it by about $0.9-1.1bn and the -64.3% gap is a false sell",
+    "The FCFF base of $191.5M charges $35-40M a year of facility-activation growth capex as a cost of standing still \u2014 the AROC error, with the split disclosed by the company itself",
+    "Management contracts on the just-sold facilities expire August 2027 (California City) and September 2027 (Midwest), and the company warns the terms may be modified to reflect the change in ownership; it no longer owns the assets",
+    "ICE can terminate any management contract for non-appropriation of funds or for convenience; federal detention demand is a pure policy variable with no contractual floor",
+    "The trough flag reads backwards: the newest free-cash-flow year of $61.3M is low because of activation capex and the $142.8M Clinical Solutions Pharmacy acquisition, not because earnings troughed",
+    "No post-transaction balance sheet exists yet \u2014 the Q3 10-Q has not been filed \u2014 so the residual cash position is an estimate"
+  ],
+  "watch_for": [
+    "The Q3 2026 10-Q, due within about a week: the first post-transaction balance sheet, giving residual cash, actual remaining debt after the 2026-08-12 redemption of the 4.75% notes, and buyback activity",
+    "Any 8-K announcing a further facility sale to ICE \u2014 management says discussions are 'in various stages'",
+    "The August 2027 California City and September 2027 Midwest management contract renewals, and whether the fee terms are cut now that CoreCivic does not own the buildings",
+    "Pace of share repurchase against the unlimited restricted-payment capacity available below 1.50x secured leverage",
+    "Occupancy at the five newly activated facilities and the Prairie Facility, whose ICE agreement runs to August 2031"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1070985/000119312526295590/d110529d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335068/d174637d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070985/000119312526337295/cxw-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335025/d173726d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1070985/000119312526402817/d255504d8k.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.37x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

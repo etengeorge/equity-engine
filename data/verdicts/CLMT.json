@@ -1,0 +1,59 @@
+{
+  "ticker": "CLMT",
+  "date": "2026-10-30",
+  "sector": "Energy",
+  "name": "CALUMET",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 18,
+  "price_at_verdict": 48.529998779296875,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the blended multiples midpoint of $28.75 against a $48.53 price \u2014 a 40.8% gap \u2014 is a real signal and I am discarding information. The ev_sales row in particular looks respectable on its face: Calumet's own 1.5x against a cohort at 1.3x/2.4x/3.5x gives $35.94 to $141.82, so on sales the company is at the bottom of its sector's range, and the three rows all sit below the current price, which looks like corroboration from three independent ratios.",
+    "what_would_prove_it": "Whether the rows are actually independent and whether the cohort is a cohort. The standing refusal test is explicit: rows straddling the price in opposite directions, any negative row, or an unranked cohort each disqualify the blend.",
+    "already_visible": "Yes, and this name fails ALL THREE arms of that test simultaneously, which is about as clear a refusal as the table can produce. Two of the three rows return NEGATIVE values: ev_gross_profit gives $-13.56 at the 25th percentile and $-3.77 at the median, and ev_ebitda gives $-6.22 at the 25th percentile \u2014 the model is saying the equity is worth less than nothing on two of three measures, because Calumet's own EBITDA and gross profit are depressed by the transition. The rows also straddle violently rather than agreeing: $35.94 to $141.82 on sales against $-6.22 to $13.22 on EBITDA is a factor of more than ten, not corroboration. And the brief states the cohort is 'not ranked \u2014 too few comparable Energy names to define a distribution honestly'. On top of that, applying a sector EV/sales quartile to a specialty-hydrocarbon-plus-renewables business mid-conversion is the CWK error: the comparator set does not describe the business model. The blended $28.75 is noise with a decimal point and I am discarding it for the reasons the test specifies, not by preference.",
+    "unresolved": "The exact terms of the Eleventh Amendment and the J. Aron Monetization Master Agreement amendment \u2014 I read the 8-K item and exhibit list but not the agreements themselves, so I cannot say what the $500-600 million figure sizes or how the commodity monetisation affects reported cash flow. I also could not size MRL's post-amendment debt balance or the parent equity contribution, which matters because MRL sits outside the covenant perimeter and consolidation makes the group cash flow hard to attribute. And I have no post-transformation earnings base at all: the Q4 2026 turnaround has not happened, so the first clean quarter of the new configuration is at least two reports away."
+  },
+  "what_changed": "Three material items, all after the 2026-06-30 balance sheet the extract is built on. (1) THE DOE FINANCING WAS RESTRUCTURED DOWNWARD AND THE PROJECT RE-SCOPED, announced 2026-08-28/09-01: the First Amendment to the Loan Guarantee Agreement reduces the maximum guaranteed principal and capitalised interest amounts, cuts remaining Phase 2 availability from up to $658 million to a single final $34 million draw, and accompanies a 'new flight plan' that takes remaining project capital from $1.2 billion to about $137 million by repurposing CMR equipment. Calumet is also making an equity investment into MRL from cash on hand. (2) THE BANK AND COMMODITY FACILITIES WERE AMENDED on 2026-09-11, filed under items 1.01 and 2.03 on 2026-09-15: an Eleventh Amendment to the Third Amended and Restated Credit Agreement with Bank of America and a Fourth Amendment to the Monetization Master Agreement with J. Aron & Company, with a $500-600 million figure referenced. (3) THE CMR TURNAROUND IS SCHEDULED FOR Q4 2026, which converts a conventional refinery into feedstock and equipment for the renewables business \u2014 so the fourth quarter carries both a roughly $50 million EBITDA harvest ahead of the transition and the outage itself. An earlier item 1.01/2.03 financing 8-K was filed 2026-03-17. None of this is in the model's inputs, and the engine could not price the name in any case.",
+  "consensus_case": "Calumet at $48.53 is up 143.9% over twelve months on a sustainable-aviation-fuel story that the company has just radically re-scoped in its own favour. On 2026-08-28 Montana Renewables (MRL, an unrestricted subsidiary) and the DOE's Office of Energy Dominance Financing amended the January 2025 Loan Guarantee Agreement, and the new plan is strictly cheaper: by repurposing proven, installed refining equipment from the adjacent Calumet Montana Refining facility rather than building the greenfield megaproject, total remaining project capital falls to approximately $137 million against the $1.2 billion originally contemplated, while still targeting 17,000 barrels per day of total product sales by year-end 2028. Phase 2 DOE funding is cut from up to $658 million to a single final $34 million draw, with the balance self-funded from MRL earnings and no third-party equity. The CMR turnaround to complete the tie-in is set for the fourth quarter of 2026, timed so CMR captures roughly $50 million of EBITDA at currently elevated global refining margins first, and CMR stays in service producing retail asphalt. A market paying up for that is paying for a de-risked, self-funded capacity ramp rather than for current cash flow \u2014 which is just as well, because there is no current free cash flow to speak of.",
+  "base_case_rationale": "No valuation is possible and the engine already says so: the normalised FCFF base, enterprise value, FCFF yield and implied growth are all reported as n/a, because `nonpositive_normalized_fcff` fired on a cash-flow window containing a negative year and a 5.4x spread of free cash flow around its own mean. A discounted cash flow cannot value negative cash flow, and that is the correct refusal rather than a failure. What I can add is that the comparables fallback must be disregarded too, and that the business is mid-transformation in a way that would defeat a model even if the cash flows were positive: CMR is being converted from a conventional refinery into feedstock and installed equipment for MRL, MRL is an unrestricted subsidiary carrying its own DOE-guaranteed debt outside the parent's covenant perimeter, the project capital plan was cut by 89% eight weeks ago, and the credit and commodity-monetisation agreements were amended three weeks after that. 'Unmodellable' is not 'worthless' \u2014 the re-scoping is unambiguously good news for the equity \u2014 but the honest output is a refusal with the mechanism named, not a number.",
+  "key_risks": [
+    "nonpositive_normalized_fcff with a negative free-cash-flow year and a 5.4x spread around the mean \u2014 no discounted cash flow can be built, and the engine correctly reports base, enterprise value and implied growth as n/a",
+    "The multiples fallback fails all three arms of the standing refusal test: negative values on two of three rows, rows straddling the price by a factor of ten, and a cohort the brief itself says is too small to rank",
+    "DOE Phase 2 availability cut from up to $658 million to a single final $34 million draw, so the balance of the MaxSAF expansion is self-funded from MRL earnings with no third-party equity and no federal backstop",
+    "The Q4 2026 CMR turnaround removes a conventional refining earnings stream that is currently running at elevated global refining margins, worth roughly $50 million of EBITDA",
+    "MRL is an unrestricted subsidiary carrying its own DOE-guaranteed debt outside the parent covenant perimeter, so consolidated figures do not describe claims on the parent's equity",
+    "Beta of 0.81 on an R-squared of 0.082 gives a 7.7% WACC for a leveraged specialty refiner mid-transformation \u2014 the documented false-buy bias, and not a measurement"
+  ],
+  "watch_for": [
+    "The first post-turnaround quarter, which is the earliest point a cash-flow base could be built at all",
+    "Whether MRL's self-funding plan holds now that DOE availability is a single $34 million draw \u2014 specifically MRL standalone earnings against the remaining ~$137 million of project capital",
+    "SAF and renewable diesel spreads, and the policy settings (RFS, 45Z) that set them",
+    "Terms of the Eleventh Amendment to the credit agreement and the Fourth Amendment to the J. Aron Monetization Master Agreement",
+    "Progress toward the 17,000 barrels per day of total product sales targeted for year-end 2028"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000029/clmt-20260828.htm",
+    "https://www.sec.gov/Archives/edgar/data/2013745/000119312526390825/d111023d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000024/clmt-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000022/clmt-20260807.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_5.4x_of_mean",
+    "nonpositive_normalized_fcff"
+  ]
+}

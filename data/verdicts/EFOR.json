@@ -1,38 +1,38 @@
 {
   "ticker": "EFOR",
-  "date": "2026-09-08",
+  "date": "2026-10-30",
   "sector": "Information Technology",
   "name": "EVERFORTH",
   "method": "fcff",
   "verdict": "no_edge",
   "conviction": "medium",
-  "final_growth": -0.03,
-  "bear_growth": -0.1,
+  "final_growth": -0.02,
+  "bear_growth": -0.08,
   "bull_growth": 0.03,
   "rotce_override": null,
   "horizon_months": 24,
-  "price_at_verdict": 32.54999923706055,
-  "market_implied_growth": -0.18576523988658528,
+  "price_at_verdict": 37.0099983215332,
+  "market_implied_growth": -0.17053447244938874,
   "cohort_pct": 98.4,
   "priced": {
     "ok": true,
     "method": "fcff",
-    "analyst_growth": -0.03,
-    "market_implied_growth": -0.18576523988658528,
-    "growth_delta": 0.15576523988658528,
-    "fair_value": 36.32908463790234,
-    "price": 32.54999923706055,
-    "gap": 0.11610093669492416,
+    "analyst_growth": -0.02,
+    "market_implied_growth": -0.17053447244938874,
+    "growth_delta": 0.15053447244938875,
+    "fair_value": 33.99808542492655,
+    "price": 37.0099983215332,
+    "gap": -0.08138106007030699,
     "fair_value_band": {
-      "low": 26.937219873861288,
-      "point": 36.32908463790234,
-      "high": 49.44359931477352
+      "low": 24.958510740050873,
+      "point": 33.99808542492655,
+      "high": 46.58151456432948
     },
-    "fcff_base_used": 205000000,
+    "fcff_base_used": 191000000,
     "base_overridden": true,
     "scenarios": {
       "ok": true,
-      "wacc_point": 0.08029494774505966,
+      "wacc_point": 0.08088402653439722,
       "wacc_steps": [
         -0.02,
         -0.01,
@@ -40,149 +40,150 @@
         0.01,
         0.02
       ],
-      "fcff_base_used": 205000000,
-      "price": 32.54999923706055,
+      "fcff_base_used": 191000000,
+      "price": 37.0099983215332,
       "grid": [
         {
           "case": "bear",
-          "growth": -0.1,
+          "growth": -0.08,
           "cells": [
             {
-              "wacc": 0.060294947745059654,
-              "fair_value": 40.126594747076034,
-              "gap": 0.23276791666984065
+              "wacc": 0.060884026534397215,
+              "fair_value": 41.157310861567034,
+              "gap": 0.11205924690952607
             },
             {
-              "wacc": 0.07029494774505966,
-              "fair_value": 26.60112649469021,
-              "gap": -0.1827610716376642
+              "wacc": 0.07088402653439722,
+              "fair_value": 27.467051967519296,
+              "gap": -0.25784779213193365
             },
             {
-              "wacc": 0.08029494774505966,
-              "fair_value": 17.542057443117407,
-              "gap": -0.46107349141979403
+              "wacc": 0.08088402653439722,
+              "fair_value": 18.25750204267299,
+              "gap": -0.5066873042236701
             },
             {
-              "wacc": 0.09029494774505965,
-              "fair_value": 11.044044191482044,
-              "gap": -0.6607052396207864
+              "wacc": 0.09088402653439721,
+              "fair_value": 11.632962803492743,
+              "gap": -0.6856805368530796
             },
             {
-              "wacc": 0.10029494774505966,
-              "fair_value": 6.150876263051783,
-              "gap": -0.8110329828810392
+              "wacc": 0.10088402653439722,
+              "fair_value": 6.635193007990622,
+              "gap": -0.8207189054604705
             }
           ],
-          "fair_value_at_point_wacc": 17.542057443117407,
-          "gap_at_point_wacc": -0.46107349141979403
+          "fair_value_at_point_wacc": 18.25750204267299,
+          "gap_at_point_wacc": -0.5066873042236701
         },
         {
           "case": "base",
-          "growth": -0.03,
+          "growth": -0.02,
           "cells": [
             {
-              "wacc": 0.060294947745059654,
-              "fair_value": 69.05157363028825,
-              "gap": 1.1214001612530913
+              "wacc": 0.060884026534397215,
+              "fair_value": 65.30865654325639,
+              "gap": 0.7646219806840258
             },
             {
-              "wacc": 0.07029494774505966,
-              "fair_value": 49.44359931477352,
-              "gap": 0.5190046228473757
+              "wacc": 0.07088402653439722,
+              "fair_value": 46.58151456432948,
+              "gap": 0.2586197426879473
             },
             {
-              "wacc": 0.08029494774505966,
-              "fair_value": 36.32908463790234,
-              "gap": 0.11610093669492416
+              "wacc": 0.08088402653439722,
+              "fair_value": 33.99808542492655,
+              "gap": -0.08138106007030699
             },
             {
-              "wacc": 0.09029494774505965,
-              "fair_value": 26.937219873861288,
-              "gap": -0.1724356219587465
+              "wacc": 0.09088402653439721,
+              "fair_value": 24.958510740050873,
+              "gap": -0.3256278878151291
             },
             {
-              "wacc": 0.10029494774505966,
-              "fair_value": 19.877489983706926,
-              "gap": -0.3893244101500637
+              "wacc": 0.10088402653439722,
+              "fair_value": 18.148637511434952,
+              "gap": -0.5096287939879292
             }
           ],
-          "fair_value_at_point_wacc": 36.32908463790234,
-          "gap_at_point_wacc": 0.11610093669492416
+          "fair_value_at_point_wacc": 33.99808542492655,
+          "gap_at_point_wacc": -0.08138106007030699
         },
         {
           "case": "bull",
           "growth": 0.03,
           "cells": [
             {
-              "wacc": 0.060294947745059654,
-              "fair_value": 101.08009388428783,
-              "gap": 2.1053793011829254
+              "wacc": 0.060884026534397215,
+              "fair_value": 90.25277475119742,
+              "gap": 1.4386052106002514
             },
             {
-              "wacc": 0.07029494774505966,
-              "fair_value": 74.66572288464963,
-              "gap": 1.2938778689628125
+              "wacc": 0.07088402653439722,
+              "fair_value": 66.27791008658453,
+              "gap": 0.7908109454850376
             },
             {
-              "wacc": 0.08029494774505966,
-              "fair_value": 57.01562960619982,
-              "gap": 0.7516322870227097
+              "wacc": 0.08088402653439722,
+              "fair_value": 50.18098355631349,
+              "gap": 0.3558764072441778
             },
             {
-              "wacc": 0.09029494774505965,
-              "fair_value": 44.38935127338365,
-              "gap": 0.36372818168435295
+              "wacc": 0.09088402653439721,
+              "fair_value": 38.62774713865287,
+              "gap": 0.04371112916745057
             },
             {
-              "wacc": 0.10029494774505966,
-              "fair_value": 34.90979177861791,
-              "gap": 0.07249746841378002
+              "wacc": 0.10088402653439722,
+              "fair_value": 29.93286069455977,
+              "gap": -0.19122231688553748
             }
           ],
-          "fair_value_at_point_wacc": 57.01562960619982,
-          "gap_at_point_wacc": 0.7516322870227097
+          "fair_value_at_point_wacc": 50.18098355631349,
+          "gap_at_point_wacc": 0.3558764072441778
         }
       ],
       "summary": {
-        "bear": -0.46107349141979403,
-        "base": 0.11610093669492416,
-        "bull": 0.7516322870227097
+        "bear": -0.5066873042236701,
+        "base": -0.08138106007030699,
+        "bull": 0.3558764072441778
       },
-      "downside": -0.8110329828810392,
-      "upside": 2.1053793011829254
+      "downside": -0.8207189054604705,
+      "upside": 1.4386052106002514
     },
     "fundamentals_source": "store",
     "flags": []
   },
   "parse_notes": [],
   "devils_advocate": {
-    "strongest_counter": "That this is a cheap, misunderstood business and the market has extrapolated a cyclical staffing trough into a secular death. Revenue is only down 1.3% and it BEAT guidance. Commercial book-to-bill is 1.2 to 1, which is a forward indicator pointing up, not down. Adjusted EBITDA annualises near $387M against a $2.65B enterprise value \u2014 6.8x \u2014 for a business with a real federal franchise in defence, intelligence and national security that is not AI-substitutable, and a lender group that just handed the company a five-year $600M revolver out to 2031, which is not what banks do to a melting asset. The stock is down 37.9% over 252 days and up 61.7% over 63: the market has already been wrong once in both directions on this name.",
-    "what_would_prove_it": "Whether the free cash flow is real and organic, or whether it is being manufactured by acquisitions that the free-cash-flow definition does not charge for. The test is cash paid for acquisitions against the change in revenue.",
-    "already_visible": "Yes, and this is the pass that changed my answer. I started this name expecting to call it cheap: 6.8x EBITDA, flat revenue, improving commercial bookings, a big positive gap. The 10-Q cash flow statement killed it. Everforth spent $283.6M on acquisitions in the first half of 2026 and $306.1M in the first half of 2025 \u2014 and revenue was DOWN 1.3% year over year anyway. That is the EVI/roll-up pattern from the standing lessons: growth bought with cash that never appears in CFO less capex. It also borrowed to do it, $370.0M of new debt against $100.8M repaid. And first-half operating cash flow HALVED, from $141.7M to $70.7M, which no headline in the press release mentions. Once the acquisition spend is netted against the revenue it bought, the market's -18.6% stops looking like panic and starts looking like arithmetic. Correcting the base to the current run rate and applying -3% produces a fair value close to the current enterprise value \u2014 the +280% gap goes to roughly zero without my having to believe the AI bear case at all.",
-    "unresolved": "I could not separate organic from acquired revenue \u2014 the press release gives no organic growth disclosure and I did not read the acquisition footnote, so my 'organic revenue is declining mid-single-digits' is an inference from acquisition spend and flat headline revenue rather than a disclosed figure. I also cannot judge how much of the first-half operating cash flow decline is working capital timing rather than earnings, which matters because it is half my override."
+    "strongest_counter": "That I have let three genuinely good pieces of news talk me out of the prior pass's correct bearish read. The strongest version: every one of my upward corrections is a timing item and the underlying trend is worse than the headline, not better. The acquisition pause is not discipline, it is the end of the only thing that was holding revenue flat \u2014 and Q3's +2.0% still laps the H1 2026 purchases, so the first genuinely clean organic quarter has not been reported yet. The working-capital 'explanation' is not exculpatory: a rising DSO on flat revenue is either client payment stress or a mix shift toward slower-paying federal and large-enterprise work, and neither reverses on command. And the number I should be anchoring on is not adjusted EBITDA of $286.6M but unadjusted EBITDA of $213.5M against $257.5M \u2014 because the $286.6M adds back $42.2M of stock compensation AND $30.9M of acquisition and integration expense, $73.1M of real costs over nine months. On that measure the business is contracting 17.1%, not 8.9%, and a -2% five-year FCFF assumption is optimistic rather than conservative.",
+    "what_would_prove_it": "Q4 2026 and Q1 2027, specifically three numbers. First, Q4 free cash flow: above ~$80M means the DSO build reversed and the base is $213M; near $50M means it was a level shift and the base is $169M. Second, Q1 2027 revenue \u2014 the first quarter that laps the H1 2026 acquisitions completely, so the first clean organic print; below -3% confirms the melting-asset case. Third, whether acquisition spend stays at zero for a second and third quarter, and whether acquisition and integration expense actually falls out of the cost base with it.",
+    "already_visible": "Partly, and it is what kept this at no_edge rather than cheap. I came into this pass expecting to confirm the prior bearish lean, and the first three findings (acquisitions stopped, the cash decline being mostly working capital, the covenant at 2.12x against 3.75x rather than the tight position the prior pass recorded as a key risk) moved me toward calling it cheap. What stopped me was the composition of the adjusted number: once $42.2M of stock compensation and $30.9M of acquisition and integration expense are read out of the $286.6M, true EBITDA is down 17.1% and the 'beat the high end of guidance' headline is measured on a figure that adds back real cash costs. That is the ASO and PRGS discipline \u2014 read what is inside the adjusted line before the headline. Charging the stock compensation at even the cash cost of holding the count flat moves the base from $210-254M to $169-213M, and at that base the price sits INSIDE the fair-value range rather than below it. So the red team won on the magnitude while losing on the direction of travel.",
+    "unresolved": "Organic revenue growth is STILL not disclosed as a figure \u2014 the company gives no organic measure and I am inferring it from acquisition spend, segment revenue and the gross-profit line. My -2% therefore rests on an inference, not a disclosure, and the prior pass's unresolved item is narrowed rather than closed. I also cannot tell whether the acquisition pause is deliberate capital discipline or a decision forced by leverage and the AI uncertainty; the covenant headroom says it is not forced, which argues for discipline, but one quarter is not a policy. And I did not read the Q3 earnings call transcript, which is where management would have been asked both questions directly."
   },
-  "what_changed": "Q2 2026 (2026-07-29) beat the high end of guidance on revenue, net income, adjusted EBITDA and margin \u2014 but the underlying numbers are worse than the headline. Revenue $1,007.0M against $1,020.6M, down 1.3%; Commercial $701.7M against $708.1M with four of five industries declining and only TMT up (+$7.7M, +5.6%); Federal $305.3M against $312.5M. Consolidated gross margin 28.3% against 28.7%; adjusted EBITDA $96.7M (9.6%) against $108.5M (10.6%). Commercial IT Consulting book-to-bill 1.2 to 1 on a trailing-twelve-month basis, but Federal book-to-bill only 0.8 to 1 on $0.9B of new awards. The decisive figures are in the 10-Q cash flow statement: first-half net cash provided by operating activities of $70.7M against $141.7M a year earlier \u2014 down 50% \u2014 and cash paid for acquisitions, net of cash acquired, of $283.6M in the first half of 2026 on top of $306.1M in the first half of 2025, funded by $370.0M of new long-term debt against $100.8M of repayments. On 2026-07-07, after quarter end, the company replaced its revolver and Term Loan A with a new five-year $600M revolving facility, extending maturity to 2031 and tightening the leverage covenant to 3.50x and then 3.25x. Debt at 2026-06-30 was approximately $1.5B carrying value (revolver, Term Loan A $97.5M, Term Loan B $486.3M, $550.0M of 4.625% unsecured senior notes due 2028) against $152.9M of cash. Shares outstanding 40.9M against 41.7M at year end.",
-  "consensus_case": "Everforth \u2014 ASGN until it rebranded on 2026-04-24 \u2014 is the fourth-largest IT staffing firm in the US and the market is pricing the AI disruption of exactly that business. The company runs seven brands (Apex Systems, Creative Circle, CyberCoders, ECS, GlideFast, TopBloc, Quinnox) across a 70% commercial and 30% federal split. The bear case the price expresses is straightforward: contract IT labour is the most directly substitutable input in the enterprise technology stack, generative AI is substituting for it now, and the federal side is shrinking too \u2014 new contract awards of $0.9B on a trailing-twelve-month book-to-bill of 0.8 to 1. Against $1.5 billion of debt and a $1.3B market cap, a business whose revenue does not grow and whose margin is compressing is a levered stub. Q2 revenue was down 1.3% year over year with adjusted EBITDA margin at 9.6% against 10.6%, and free cash flow for the first half halved. A -18.6% five-year FCFF path is what the market thinks a shrinking, levered staffing book is worth.",
-  "base_case_rationale": "The engine's $407.4M FCFF base is the mean of a declining series ($288.1M, $364.7M, $417.0M) and it describes a company two years bigger than this one. First-half 2026 operating cash flow was $70.7M against capex of $15.3M, so first-half free cash flow was $55.4M against $122.4M a year earlier. Even allowing for the usual second-half weighting, full-year 2026 free cash flow lands near $150M, and adding back roughly $55M of after-tax interest on $1.5B of debt gives an FCFF base near $205M \u2014 half what the model is using. That override is the first correction. The second is what the acquisition line does to the growth rate. Everforth spent $283.6M on acquisitions in the first half of 2026 and $306.1M in the first half of 2025 \u2014 roughly $590M in eighteen months \u2014 and revenue still went DOWN 1.3% year over year. That means organic revenue is declining at a mid-single-digit rate and the flat headline is bought, with borrowed money. My -3% is deliberately gentler than the -18.6% the market implies, because commercial book-to-bill of 1.2 is a real leading indicator of stabilisation and the company did beat its own guidance. But it is well below zero, because a business that needs $300M a year of acquisitions to stand still is not a flat business.",
+  "what_changed": "The Q3 10-Q was filed 2026-10-30 \u2014 the morning of this pass \u2014 and the earnings release on 2026-10-28. Both answer the two questions the previous devil's advocate (2026-09-08) left open, and a third it did not ask. (1) ACQUISITION SPEND IN Q3 WAS ZERO: 'cash paid for acquisitions, net of cash acquired' is $283.6M at BOTH the six-month and the nine-month mark (and $306.1M at both in 2025), so the roll-up that was buying the flat revenue line has paused. Q3 is therefore the first quarter with no new bought revenue, and it grew +2.0% while gross profit FELL 1.8% and adjusted EBITDA fell 5.6% \u2014 the acquired revenue is arriving below corporate margin and is not adding profit. (2) THE CASH-FLOW COLLAPSE IS MOSTLY WORKING CAPITAL: of the $96.2M nine-month CFO decline ($129.4M against $225.6M), $57.2M is working capital ($49.5M used against $7.7M provided, explicitly 'an increase in accounts receivable days sales outstanding') and only $39.0M is the pre-working-capital decline ($178.9M against $217.9M, -17.9%). The drain also decelerated hard: $41.7M in H1, $7.8M in Q3. The prior pass's 'first-half operating cash flow halved' was therefore roughly 60% a DSO level-shift. (3) THE BALANCE SHEET IS NOT TIGHT, contrary to the prior pass's key risk: the covenant is senior SECURED debt to lender-defined EBITDA, maximum 3.75x stepping to 3.50x in Q2 2027 and 3.25x in Q2 2028, and the actual ratio at 2026-09-30 was 2.12 to 1 \u2014 the $541M of unsecured 4.625% 2028 notes sit outside it. In July 2026 the revolver was upsized $500M to $600M and extended from Feb 2028 to July 2031, with term loan A repaid and terminated. Also new: basic weighted-average shares 41.1M against 43.7M, DOWN 5.9%, on only $50.5M of repurchases (against $105.9M a year earlier). Bookings moved the other way: Commercial IT consulting TTM book-to-bill 1.1 to 1, down from the 1.2 to 1 the prior pass leaned on; Federal 0.9 to 1, up from 0.8.",
+  "consensus_case": "Everforth (formerly ASGN) is a $4bn-revenue IT staffing and consulting business whose revenue has stopped growing and whose profitability is going backwards, carrying $1.4bn of debt against a $1.5bn market cap. Nine months to 2026-09-30: revenue $3,006.7M against $3,000.3M (+0.2%), gross profit DOWN 2.6% with gross margin compressing 90bp to 28.0%, and \u2014 the number the adjusted figures hide \u2014 unadjusted EBITDA of $213.5M against $257.5M, down 17.1%. Adjusted net income fell 20.6% in the quarter ($45.5M against $57.3M). 87% of Commercial revenue is time-and-materials contract IT labour, which is the single most direct target of generative-AI substitution, and the Federal segment (30% of revenue) has a trailing-twelve-month book-to-bill of 0.9 to 1, i.e. it is shrinking out of backlog. Management's own gross-margin explanation is structural, not cyclical: a mix shift into cloud and infrastructure services that carry lower margins, plus a lower mix of high-margin permanent placement. On the owner-earnings base I derive below, the market is asking for roughly -1% to -5% real FCFF decline for five years, which is close to what the last four quarters have actually delivered. That is not panic; it is extrapolation of the observed trend.",
+  "base_case_rationale": "I underwrite -2% real FCFF growth over five years off an owner-earnings base of $191M, which is less than half the engine's $407.4M. The base first: full-year 2026 free cash flow on the company's own definition (CFO less capex, identical to the engine's pre-add-back construction) is $101.9M for nine months; Q4 2025 contributed $93.7M to a full-year $288.1M, and Q4 2026 should land between a proportionally-declined ~$50M and a DSO-reversal ~$94M, so FY2026 lands $152-196M. Adding back after-tax interest (9M net interest $57.7M, so ~$77M annualised at the disclosed 5.3% cash rate on $1.41bn of average borrowings, ~$58M after tax) gives $210-254M. But per the BOX discipline the stock compensation cannot be treated as free: ~$56M a year of SBC is added back in CFO, and the cash actually needed to hold the share count flat is about $41M a year (the count fell 41.7M to 41.1M on $50.5M of buybacks plus $11.0M of ESPP proceeds while absorbing vesting, so roughly 0.9M shares a year of issuance at a ~$33 average). Charging that gives $169-213M, and I take the $191M midpoint. On the growth rate: revenue is flat (+0.2%), gross margin is compressing for reasons management describes as mix rather than cycle, true EBITDA is down 17.1%, and both book-to-bill ratios sit at or below 1.1. Against that, acquisition and integration expense of $30.9M over nine months should roll off if the pause holds (~$31M a year after tax), the working-capital drain is decelerating, and the share count is genuinely shrinking. Flat-to-slightly-declining cash generation with margin pressure that stabilises is -2%; I differ from the naive +0.2% baseline because that baseline is a five-year revenue CAGR measured across roughly $590M of acquisitions in eighteen months, so it describes bought revenue, not earned revenue.",
   "key_risks": [
-    "Roughly $1.5B of debt against a $1.3B market cap, with a covenant tightening to 3.25x in 2028",
-    "Revenue is flat only because of roughly $590M of acquisitions in eighteen months; organic revenue is declining",
-    "First-half operating cash flow halved year over year, from $141.7M to $70.7M",
-    "Federal book-to-bill of 0.8 to 1 means the government segment is contracting from backlog",
-    "Generative AI substitutes most directly for exactly the contract IT labour that is the majority of revenue"
+    "87% of Commercial Segment revenue is time-and-materials contract IT labour, the work most directly substitutable by generative AI, and gross margin is already compressing on a mix shift management calls structural",
+    "Unadjusted EBITDA fell 17.1% over nine months ($213.5M against $257.5M) while adjusted EBITDA fell only 8.9% \u2014 the difference is $42.2M of stock compensation and $30.9M of acquisition and integration expense added back",
+    "Revenue is flat (+0.2% over nine months) only after roughly $590M of acquisitions in eighteen months; the first genuinely clean organic quarter has not been reported",
+    "Federal Government Segment, ~30% of revenue, has a TTM book-to-bill of 0.9 to 1 and is contracting out of backlog; Commercial IT consulting fell to 1.1 from 1.2",
+    "$1.4bn of debt against a $1.5bn market cap, with $541M of 4.625% unsecured notes maturing 2028 that will refinance well above that coupon",
+    "Accounts receivable consumed $92.5M over nine months on flat revenue; if the DSO increase is a permanent level shift rather than timing, the cash base is the low end of my range"
   ],
   "watch_for": [
-    "Any disclosure of organic revenue growth separate from acquired \u2014 the number that would settle this",
-    "Whether second-half operating cash flow recovers toward the prior-year level or confirms the halving",
-    "Federal book-to-bill returning above 1.0",
-    "Whether the acquisition programme continues at ~$300M a year, and how it is funded as the leverage covenant steps down"
+    "Q4 2026 free cash flow: above ~$80M says the DSO build reversed and the base is $213M; near $50M says it was a level shift and the base is $169M",
+    "Q1 2027 revenue \u2014 the first quarter to lap the H1 2026 acquisitions completely, hence the first clean organic print",
+    "Whether acquisition spend stays at zero for a second and third quarter, and whether the ~$41M a year of acquisition and integration expense falls out of the cost base with it",
+    "Commercial IT consulting book-to-bill: back above 1.2 reverses the deterioration, below 1.0 confirms it",
+    "Any disclosure of an organic revenue growth figure \u2014 still the single number that would settle this name"
   ],
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/890564/000089056426000047/earningsrelease-q226.htm",
+    "https://www.sec.gov/Archives/edgar/data/890564/000089056426000056/asgn-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/890564/000089056426000054/asgn-20261028.htm",
     "https://www.sec.gov/Archives/edgar/data/890564/000089056426000050/asgn-20260630.htm",
-    "https://www.sec.gov/Archives/edgar/data/890564/000089056426000045/ex991pressrelease.htm",
-    "https://www.staffingindustry.com/editorial/it-staffing-report/asgn-completes-rebrand-to-everforth-debuts-new-ticker",
-    "https://finance.yahoo.com/markets/stocks/articles/services-consulting-stocks-q2-review-235307344.html"
+    "https://www.sec.gov/Archives/edgar/data/890564/000089056426000045/asgn-20260709.htm"
   ],
   "flags": []
 }

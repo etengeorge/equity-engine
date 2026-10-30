@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>GRAL — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / GRAL</p><h1>GRAL <span style='color:var(--faint);font-weight:400'>GRAIL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$158.92</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-30</b></div></div><div class='prose'><h1>GRAL — GRAIL INC</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-30 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $158.92</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $158.92 and a $7.1bn market capitalisation, GRAIL is not being valued on cash flow — it is a priced option on a pending FDA decision and the Medicare reimbursement that would follow. On 2026-09-23 the Molecular and Clinical Genetics Devices Panel of the FDA&#x27;s Medical Devices Advisory Committee voted in favour of approving the Galleri multi-cancer early detection test for adults aged 50 and over, after the agency&#x27;s own briefing documents raised no major safety or accuracy concerns and after PATHFINDER 2 data published in Nature Medicine. The stock rose 33% on the briefing documents alone and 55% in that week, and is up 131.8% over 63 days and 25.1% over the last five. The premarket approval application was submitted in January 2026 and the decision is still outstanding. The reason approval matters is reimbursement rather than permission: Galleri is already sold in the United States as a laboratory-developed test without FDA approval, and Congress has already passed legislation enabling Medicare to reimburse multi-cancer early-detection tests once a test wins agency authorisation, with coverage reported as possible from 2028. Commercially the test is working — second-quarter revenue of $44M, up 26%, on volume up 35% to more than 61,000 tests. So the consensus case is coherent: a near-term regulatory event unlocks a payer channel for a product with demonstrated demand in a very large screening population.</p><p><strong>What changed.</strong> The FDA advisory committee voted favourably on 2026-09-23 — the single most important event in this company&#x27;s history and well after the fiscal 2025 10-K the model&#x27;s history rests on. Trading was halted on the day of the panel. The stock is up 131.8% over 63 days. For the most recent five days, during which it rose a further 25.1%, I could NOT identify a company-specific catalyst and I want that recorded rather than filled in: the brief&#x27;s news store holds 22 items but nothing dated after 2026-09-25, GRAIL has filed nothing with the SEC since the 2026-08-06 10-Q, and two web searches returned no GRAIL-specific news for the week of 2026-10-26. The most likely explanation is anticipation of the pending premarket approval decision plus sell-side repositioning, but I cannot evidence it, so my confidence that &#x27;nothing happened&#x27; is low. What I did establish is that as of today there is NO final FDA approval — the panel vote is non-binding, though the agency usually follows it — and that the decision is expected within months. On the financials, the 10-Q for the half year shows net cash used in operating activities of $167.7M against $172.0M a year earlier, so the burn is running near $335M a year, and the second-quarter net loss was $110M.</p><p><strong>Base case.</strong> No valuation is possible and no fair value may be invented. The engine already refuses on the cash flows — <code>nonpositive_normalized_fcff</code> and <code>negative_fcf_year_in_window</code> fire, and base, enterprise value, FCFF yield and implied growth all print n/a — which is the correct answer for a company burning roughly $335M a year against about $175M of annualised revenue. The multiples fallback must be discarded too, for the reason CLAUDE.md states directly: an EV/sales multiple on a company whose revenue ramp has not arrived is close to meaningless, and 47.9x against a Health Care cohort at 2.0x/4.4x/17.4x is not measuring the same kind of object. The p_tbv row at 9.3x is worse than useless here, because GRAIL&#x27;s tangible book is substantially the cash pile it is consuming at $335M a year, so dividing price by it produces a number that mechanically rises as the company spends. The brief also states the cohort is &#x27;not ranked — too few comparable Health Care names&#x27;, which is the third arm of the standing refusal test. Most fundamentally, the thing being priced is a probability-weighted regulatory and reimbursement outcome — approval, then a Medicare national coverage determination, then a price per test across a screening population of tens of millions — and that is a decision-tree valuation this engine does not implement and which no free source gives me the inputs for.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That refusing is a dodge on the one name in today&#x27;s ten where a judgment would actually be worth something. The blended multiples figure of $41.46 against a $158.92 price says the market is paying nearly four times what GRAIL&#x27;s own sector would pay for its revenue and its tangible book, and the strongest form of the argument is that this is exactly the moment a valuation discipline should speak: the stock has risen 131.8% in three months on a non-binding advisory vote for a product that is ALREADY on sale without approval, so approval changes the reimbursement path but not the product&#x27;s availability, and the 25.1% five-day move has no identifiable cause at all. A screener whose job is to find large gaps between price and defensible value should be willing to say that a $7.1bn valuation on $175M of revenue and a $335M burn is rich.</li><li>What would prove it: A defensible estimate of the probability-weighted value of Medicare coverage: the approval probability, the timing and scope of a national coverage determination, the reimbursed price per test, and the share of the eligible 50-plus population screened annually. With those four numbers the name is valuable; without them it is a slogan.</li><li>Already visible today: The counter is right about the asymmetry and wrong about the remedy, and I want to be precise about which. It is right that $7.1bn on $175M of revenue embeds an enormous amount of future reimbursement, and right that the five-day move is unexplained. But none of the three numbers on the brief measures that: a sector EV/sales quartile cannot price an option on a coverage decision, and the p_tbv row is literally a function of how much cash the company has left to burn. Producing $41.46 as a fair value would not be a judgment about GRAIL, it would be the RIOT error — averaging a nonsense input into a decimal point. And the honest asymmetry cuts the other way too: I have no basis for calling it cheap either, because the same missing inputs would be needed. Per the MXL discipline the right record is that this name is unmodellable by this engine AND that refusing is not a statement that it is fairly priced — on the face of it the valuation is demanding, and I am saying I cannot defend a number rather than that no number exists.</li><li>Left unresolved: Everything that decides the name: whether the FDA approves, when, and with what label; whether and when Medicare issues a coverage determination and at what price per test; and how GRAIL funds the roughly $335M annual burn between now and 2028 reimbursement. Separately and more immediately, I could not identify any catalyst for the 25.1% five-day move, which given the degraded news store is a gap in my coverage rather than evidence that nothing happened.</li></ul><p><strong>Key risks.</strong> The entire valuation rests on a pending FDA premarket approval decision; the 2026-09-23 advisory committee vote was favourable but is non-binding and no final decision has been issued as of 2026-10-30; Approval is necessary but not sufficient — Galleri is already sold as a laboratory-developed test without it, so the real variable is a Medicare national coverage determination and the price per test, with coverage reported as possible only from 2028; Net cash used in operating activities of $167.7M for the half year, roughly $335M a year, against about $175M of annualised revenue and a Q2 net loss of $110M; The multiples fallback is unusable: 47.9x EV/sales against a cohort at 2.0x/4.4x/17.4x, a p_tbv row that mechanically measures the remaining cash pile, and a cohort the brief says is too small to rank; No company-specific explanation found for the 25.1% five-day move, with the news store empty after 2026-09-25; Beta of 1.92 on an R-squared of 0.105 gives a 15.6% cost of equity at a 100% equity weight — low fit, though it barely matters while no cash-flow model can run <strong>Watch for.</strong> The FDA&#x27;s final premarket approval decision on Galleri, and the label scope if granted; Any CMS action toward a national coverage determination for multi-cancer early detection, and the reimbursed price per test; Quarterly Galleri volume and revenue against the Q2 base of more than 61,000 tests and $44M; Any equity or convertible financing, given the roughly $335M annual burn; Q3 2026 results, due shortly, which have not yet been filed</p><p><strong>Data quality.</strong> NO FAIR VALUE RECORDED, correctly. The DCF path refuses by construction: <code>nonpositive_normalized_fcff</code> and <code>negative_fcf_year_in_window</code> fire and base, enterprise value, FCFF yield and implied growth all print n/a for a company burning about $335M a year. The multiples path must be discarded on three separate grounds, two of which are the standing refusal test and one of which is specific to this shape of company: the brief states the Health Care cohort is &#x27;not ranked — too few comparable names&#x27;; the ev_sales row of 47.9x against cohort quartiles of 2.0x/4.4x/17.4x is the pre-revenue-multiple warning CLAUDE.md gives in terms, since Galleri&#x27;s revenue ramp is contingent on a decision that has not been made; and the p_tbv row of 9.3x is a measurement of the remaining cash balance rather than of productive assets, so it mechanically rises as the company spends. The blended -73.9% is therefore noise with a decimal point. UNFLAGGED and decisive: the 2026-09-23 FDA advisory committee vote postdates the fiscal 2025 10-K the model&#x27;s history rests on, and no flag in the engine can represent a binary regulatory event. A COVERAGE GAP I am recording rather than papering over: the news store holds nothing after 2026-09-25, GRAIL has filed nothing since the 2026-08-06 10-Q, and two web searches found no company-specific news for the week of 2026-10-26, so I have no explanation for the 25.1% five-day move and my confidence that nothing material happened is low. Per the MXL discipline, refusing is NOT a judgment that this name is fairly priced — $7.1bn against $175M of revenue embeds a great deal of future reimbursement — but the inputs that would settle it (approval probability, coverage timing, price per test, screened share of the 50-plus population) are not available from any free source, and supplying a number without them would be the invented-fair-value failure this project exists to prevent.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1699031/000162828026054307/gral-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1699031/000162828026054307/gral-20260630.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm</a></li><li><a href="https://ascopost.com/news/september-2026/fda-advisory-committee-votes-in-favor-of-approval-of-multi-cancer-early-detection-test/" rel="noopener">https://ascopost.com/news/september-2026/fda-advisory-committee-votes-in-favor-of-approval-of-multi-cancer-early-detection-test/</a></li><li><a href="https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/" rel="noopener">https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/</a></li><li><a href="https://qz.com/fda-advisers-grail-galleri-multicancer-blood-test-092326" rel="noopener">https://qz.com/fda-advisers-grail-galleri-multicancer-blood-test-092326</a></li><li><a href="https://www.fool.com/investing/2026/10/11/grail-stock-hit-12-month-high-fda-panel-win-risk/" rel="noopener">https://www.fool.com/investing/2026/10/11/grail-stock-hit-12-month-high-fda-panel-win-risk/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/GRAL.md'>research/Health Care/GRAL.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

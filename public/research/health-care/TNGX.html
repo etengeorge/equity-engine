@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>TNGX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / TNGX</p><h1>TNGX <span style='color:var(--faint);font-weight:400'>TANGO THERAPEUTICS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$22.53</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-10-30</b></div></div><div class='prose'><h1>TNGX — TANGO THERAPEUTICS</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-10-30 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $22.53</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Tango Therapeutics is a clinical-stage biotechnology company with no product revenue, and at $22.53 and a $3.8bn market capitalisation the market is pricing one hypothesis: that vopimetostat, its PRMT5 inhibitor, works in combination with Revolution Medicines&#x27; RAS(ON) inhibitors in MTAP-deleted, RAS-mutant cancers. On 2026-10-23 at the ESMO Congress in Madrid the company reported what it called promising Phase 1/2 results for that combination in metastatic pancreatic ductal adenocarcinoma and non-small cell lung cancer, and said a pivotal study in front-line MTAP-deleted pancreatic cancer is expected to begin in the first half of 2027. MTAP deletion is a synthetic-lethal target with a genuinely large addressable population across pancreatic and lung cancer, pancreatic cancer has almost no effective front-line options, and a combination that pairs a first-in-class PRMT5 inhibitor with the RAS(ON) class — the most important new mechanism in oncology — is a credible way to build a franchise. The stock is up 189.2% over twelve months on that thesis. It is also down 19.3% over the last five days and 17.1% over 63, which is the market&#x27;s own verdict on the ESMO data: the word used in the release was &#x27;promising&#x27;, and the tape read it as less than that.</p><p><strong>What changed.</strong> The 2026-10-23 8-K under items 7.01 and 8.01, carrying both a press release (EX-99.1) and an investor presentation (EX-99.2), is the event behind the 19.3% five-day fall and it postdates everything in the model. Content: Phase 1/2 results for vopimetostat combined with Revolution Medicines&#x27; RAS(ON) inhibitors in MTAP-deleted and RAS-mutant metastatic PDAC and NSCLC, presented at ESMO, with an investor webcast focused on pancreatic cancer held the same morning, and a pivotal front-line MTAP-deleted pancreatic study guided to initiate in the first half of 2027. The second new fact, from the 2026-08-11 Q2 release, is financial and it changes how the brief&#x27;s own multiples should be read: COLLABORATION REVENUE WAS $0 for the three months to 2026-06-30, against about $3M a year earlier, following the truncation of the prior collaboration. Net loss was $38M for the quarter and $78M for the half year, so the burn is running near $156M a year. There is no product revenue and now no collaboration revenue either. Earlier filings in the window — a 2026-06-10 item 1.01, 2026-06-23 and 2026-08-06 item 5.02 officer changes, and a 2026-06-08 item 7.01/8.01 — are not material to a valuation.</p><p><strong>Base case.</strong> No valuation is possible and none may be invented. The engine refuses on the cash flows, correctly: <code>nonpositive_normalized_fcff</code> and <code>negative_fcf_year_in_window</code> fire and base, enterprise value, FCFF yield and implied growth all print n/a for a company with no revenue and a roughly $156M annual loss. The multiples fallback has to be discarded as well, and on this name the reason is sharper than usual. The ev_sales row of 44.6x is computed on a trailing revenue figure that has already gone to ZERO — the denominator is the tail of a truncated collaboration agreement, not a product line — so it is not a sales multiple at all; this is the MARA defect in a different guise, where the revenue series does not describe the business. The p_tbv row of 3.7x is a measure of the remaining cash and marketable securities the company is consuming, so it mechanically rises as the balance sheet is spent. The two rows also straddle: ev_sales gives $6.75-$12.43, entirely below the $22.53 price, while p_tbv gives $11.56-$48.15, which brackets it — the RIOT condition. And the brief states the cohort is &#x27;not ranked — too few comparable Health Care names&#x27;. What is actually being priced is the probability-weighted net present value of a clinical asset: the chance vopimetostat plus a RAS(ON) inhibitor succeeds in a pivotal trial starting in 2027, the addressable MTAP-deleted population, the economics of a partnered combination, and the dilution needed to get there. That is a decision-tree valuation this engine does not implement and whose inputs are not available to me from free sources.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That a $3.8bn market capitalisation for a company with zero revenue, a roughly $156M annual burn and a pivotal trial that has not yet started is self-evidently a price worth challenging, and that hiding behind &#x27;clinical-stage assets are unmodellable&#x27; lets the most expensive name in today&#x27;s ten pass without comment. The sharpest version adds that the market has just told me something: the stock fell 19.3% in five days on data the company chose to call &#x27;promising&#x27; and chose to host a dedicated pancreatic-cancer webcast about. When a company stages a webcast for its best news and the stock falls a fifth, the informed reading of the data is probably worse than the adjective.</li><li>What would prove it: The actual response rates, durability and tolerability figures from the ESMO presentation set against the published benchmarks for front-line metastatic pancreatic cancer, plus whatever Revolution Medicines said about the same combination from its side of the partnership. Those would allow a probability to be attached to the pivotal study succeeding, which is the only input that matters.</li><li>Already visible today: The counter&#x27;s observation about the tape is fair and I have recorded it as the market&#x27;s own verdict rather than dismissing it. Where it fails is the remedy. I read the press release and the existence of the investor deck but did not extract the per-arm efficacy data from EX-99.2, and even with it I would have no defensible basis for converting Phase 1/2 response rates in a combination study into a probability of pivotal success and a peak-sales figure — that is specialist oncology judgment, not valuation arithmetic, and inventing a probability to multiply by an invented peak-sales number would be exactly the manufactured fair value this project forbids. The three numbers the brief offers are no help: an EV/sales multiple whose denominator is zero, a price-to-tangible-book that measures the cash being burned, and an unranked cohort. So the honest record is a refusal that explicitly declines to call the name cheap — on the face of it $3.8bn with no revenue is a demanding price, and a 19.3% five-day fall on the key data read-out is evidence worth carrying forward, not evidence I can price.</li><li>Left unresolved: The efficacy and durability data themselves, which I did not extract from the ESMO investor presentation and which decide the name. Whether the first-half-2027 pivotal initiation holds. The company&#x27;s cash runway in quarters — the Q2 release states management expects current cash, equivalents and marketable securities to fund the current operating plan but I did not capture the stated date, so I cannot say how close the next financing is. And the economics of the Revolution Medicines arrangement: a combination that depends on another company&#x27;s molecule has value-sharing terms I did not read.</li></ul><p><strong>Key risks.</strong> No product revenue and, since Q2 2026, no collaboration revenue either ($0 against about $3M a year earlier after the collaboration was truncated), against a net loss of $78M for the half year — roughly $156M a year of burn; The whole valuation rests on vopimetostat in combination with another company&#x27;s RAS(ON) inhibitor, with the pivotal front-line MTAP-deleted pancreatic study only guided to START in the first half of 2027; The stock fell 19.3% in five days on the 2026-10-23 ESMO data the company described as &#x27;promising&#x27; — the market&#x27;s reading of the key read-out was worse than the adjective; The multiples fallback is unusable: ev_sales of 44.6x is computed on revenue that is now zero (the MARA defect), p_tbv of 3.7x measures the cash pile being consumed, the rows straddle the price, and the cohort is not ranked; <code>interest_expense_implies_no_debt_found</code> fired; on a clinical-stage biotech with no borrowings this is most likely the QTWO false alarm rather than hidden debt, but I did not verify the balance sheet; Beta of 1.11 on an R-squared of 0.028, marked yahoo_rescaled, so the 11.1% cost of equity is not a measurement — immaterial here only because no model can run <strong>Watch for.</strong> Initiation of the pivotal front-line MTAP-deleted pancreatic cancer study, guided to the first half of 2027 — slippage or redesign is the clearest negative signal; Any further disclosure of response rate and durability for the vopimetostat plus RAS(ON) combination, including from Revolution Medicines; Cash runway and any equity financing, given the roughly $156M annual burn; Whether a new collaboration replaces the revenue line that went to zero; Competitor PRMT5 inhibitor data in the same MTAP-deleted population</p><p><strong>Data quality.</strong> NO FAIR VALUE RECORDED, correctly. The DCF path refuses by construction: <code>nonpositive_normalized_fcff</code> and <code>negative_fcf_year_in_window</code> fire and base, enterprise value, FCFF yield and implied growth all print n/a. The multiples path must be discarded on four grounds. First and most specific to this name, the ev_sales row of 44.6x divides by a trailing revenue figure that has gone to ZERO — the Q2 2026 release reports collaboration revenue of $0 against about $3M a year earlier after the collaboration was truncated — so the denominator is the tail of an expiring contract and not a business, which is the MARA defect in a new form. Second, the p_tbv row of 3.7x measures the remaining cash and marketable securities being consumed at roughly $156M a year, so it rises mechanically as the company spends. Third, the two rows straddle the price in opposite directions ($6.75-$12.43 on sales, entirely below the $22.53 price, against $11.56-$48.15 on tangible book, which brackets it), which is the RIOT condition. Fourth, the brief states the cohort is &#x27;not ranked — too few comparable Health Care names&#x27;. UNFLAGGED and decisive: the 2026-10-23 ESMO read-out under items 7.01 and 8.01 is the event that moved the stock 19.3% and no flag in the engine can represent clinical data. <code>interest_expense_implies_no_debt_found</code> is most likely the QTWO false alarm — a company with genuinely no borrowings — but I did not open the balance sheet to confirm it, and I am recording that rather than assuming. Per the MXL discipline, refusing is NOT a statement that this name is fairly priced: $3.8bn against zero revenue is a demanding price and the five-day fall on the key data is real evidence, but converting Phase 1/2 combination data into a probability of pivotal success and a peak-sales estimate is specialist oncology judgment rather than valuation arithmetic, and inventing those inputs would be the manufactured-fair-value failure this project exists to prevent.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613d8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1819133/000119312526343434/tngx-20260811.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1819133/000119312526343434/tngx-20260811.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1819133/000119312526343424/tngx-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1819133/000119312526343424/tngx-20260630.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/TNGX.md'>research/Health Care/TNGX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
