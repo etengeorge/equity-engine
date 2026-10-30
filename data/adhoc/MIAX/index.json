@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-10-30T11:33:17+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "MIAX",
+    "cik": 1438472,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000044/miax-20261029.htm",
+        "file": "2026-10-29-8-K-miax-20261029.htm.txt",
+        "chars": 4110,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000162828026054575/miax-20260630.htm",
+        "file": "2026-08-07-10-Q-miax-20260630.htm.txt",
+        "chars": 354378,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000040/miax-20260805.htm",
+        "file": "2026-08-05-8-K-miax-20260805.htm.txt",
+        "chars": 4088,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-21",
+        "items": "8.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000162828026049014/miax-20260720.htm",
+        "file": "2026-07-21-8-K-miax-20260720.htm.txt",
+        "chars": 4618,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-22",
+        "items": "3.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000036/miax-20260617.htm",
+        "file": "2026-06-22-8-K-miax-20260617.htm.txt",
+        "chars": 6138,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-18",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000032/miax-20260616.htm",
+        "file": "2026-06-18-8-K-miax-20260616.htm.txt",
+        "chars": 5040,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-17",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000030/miax-20260615.htm",
+        "file": "2026-06-17-8-K-miax-20260615.htm.txt",
+        "chars": 4312,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000162828026032565/miax-20260331.htm",
+        "file": "2026-05-08-10-Q-miax-20260331.htm.txt",
+        "chars": 278643,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000044/miax3q26earningsreleasef.htm",
+        "file": "2026-10-29-EX-99.1.txt",
+        "chars": 51324,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000040/miaxq22026earningsreleas.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 49885,
+        "truncated": false
+      }
+    ]
+  }
+}

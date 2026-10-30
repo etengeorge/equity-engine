@@ -1,0 +1,204 @@
+{
+  "fetched_utc": "2026-10-30T11:33:09+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CXW",
+    "cik": 1070985,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-25",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526402817/d255504d8k.htm",
+        "file": "2026-09-25-8-K-d255504d8k.htm.txt",
+        "chars": 11015,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526341335/d118761d8k.htm",
+        "file": "2026-08-10-8-K-d118761d8k.htm.txt",
+        "chars": 8992,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526337295/cxw-20260630.htm",
+        "file": "2026-08-06-10-Q-cxw-20260630.htm.txt",
+        "chars": 205623,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "1.01,2.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335068/d174637d8k.htm",
+        "file": "2026-08-05-8-K-d174637d8k.htm.txt",
+        "chars": 11010,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-05",
+        "items": "2.02,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335025/d173726d8k.htm",
+        "file": "2026-08-05-8-K-d173726d8k.htm.txt",
+        "chars": 6331,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-13",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526301454/d98053d8k.htm",
+        "file": "2026-07-13-8-K-d98053d8k.htm.txt",
+        "chars": 5480,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-06",
+        "items": "1.01,2.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526295590/d110529d8k.htm",
+        "file": "2026-07-06-8-K-d110529d8k.htm.txt",
+        "chars": 10800,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-18",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526227820/d125480d8k.htm",
+        "file": "2026-05-18-8-K-d125480d8k.htm.txt",
+        "chars": 5318,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-25",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526402817/d255504dex991.htm",
+        "file": "2026-09-25-EX-99.1.txt",
+        "chars": 6904,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526341335/d118761dex991.htm",
+        "file": "2026-08-10-EX-99.1.txt",
+        "chars": 14635,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "1.01",
+          "2.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335068/d174637dex991.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 8628,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-05",
+        "items": [
+          "2.02",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526335025/d173726dex991.htm",
+        "file": "2026-08-05-EX-99.1.txt",
+        "chars": 40091,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-13",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526301454/d98053dex991.htm",
+        "file": "2026-07-13-EX-99.1.txt",
+        "chars": 3851,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-06",
+        "items": [
+          "1.01",
+          "2.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526295590/d110529dex991.htm",
+        "file": "2026-07-06-EX-99.1.txt",
+        "chars": 10644,
+        "truncated": false
+      }
+    ]
+  }
+}

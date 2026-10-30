@@ -1,10 +1,19 @@
 {
-  "fetched_utc": "2026-10-16T11:33:58+00:00",
+  "fetched_utc": "2026-10-30T11:33:27+00:00",
   "requested": "filings",
   "filings": {
     "ticker": "BELFA",
     "cik": 729580,
     "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/belfa20260819_8k.htm",
+        "file": "2026-10-28-8-K-belfa20260819_8k.htm.txt",
+        "chars": 3915,
+        "truncated": false
+      },
       {
         "form": "10-Q",
         "filed": "2026-08-04",
@@ -69,12 +78,21 @@
         "truncated": false
       },
       {
-        "form": "8-K",
-        "filed": "2026-04-29",
-        "items": "2.02,9.01",
-        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926013888/belfa20260302_8k.htm",
-        "file": "2026-04-29-8-K-belfa20260302_8k.htm.txt",
-        "chars": 3854,
+        "filed": "2026-10-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/ex_1007041.htm",
+        "file": "2026-10-28-EX-99.1.txt",
+        "chars": 26483,
         "truncated": false
       },
       {
@@ -151,24 +169,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926016373/ex_958718.htm",
         "file": "2026-05-12-EX-99.1.txt",
         "chars": 311468,
-        "truncated": false
-      },
-      {
-        "filed": "2026-04-29",
-        "items": [
-          "2.02",
-          "9.01"
-        ],
-        "item_labels": [
-          "results of operations",
-          "9.01"
-        ],
-        "exhibit": "EX-99.1",
-        "description": "EXHIBIT 99.1",
-        "kind": "press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926013888/ex_927642.htm",
-        "file": "2026-04-29-EX-99.1.txt",
-        "chars": 27591,
         "truncated": false
       }
     ]

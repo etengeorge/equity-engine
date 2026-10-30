@@ -1,0 +1,176 @@
+{
+  "fetched_utc": "2026-10-30T11:33:31+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "BELFB",
+    "cik": 729580,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/belfa20260819_8k.htm",
+        "file": "2026-10-28-8-K-belfa20260819_8k.htm.txt",
+        "chars": 3915,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm",
+        "file": "2026-08-04-10-Q-belfa20260630_10q.htm.txt",
+        "chars": 163454,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm",
+        "file": "2026-07-29-8-K-belfa20260518_8k.htm.txt",
+        "chars": 3864,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-02",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926022539/belfa20260701_8k.htm",
+        "file": "2026-07-02-8-K-belfa20260701_8k.htm.txt",
+        "chars": 5558,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-28",
+        "items": "5.02,5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926018719/belfa20260526_8k.htm",
+        "file": "2026-05-28-8-K-belfa20260526_8k.htm.txt",
+        "chars": 7012,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-14",
+        "items": "1.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea0290047-8k_belfu.htm",
+        "file": "2026-05-14-8-K-ea0290047-8k_belfu.htm.txt",
+        "chars": 8387,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-12",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926016373/belfa20260507_8k.htm",
+        "file": "2026-05-12-8-K-belfa20260507_8k.htm.txt",
+        "chars": 13141,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926014903/belfa20260331_10q.htm",
+        "file": "2026-05-05-10-Q-belfa20260331_10q.htm.txt",
+        "chars": 135555,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/ex_1007041.htm",
+        "file": "2026-10-28-EX-99.1.txt",
+        "chars": 26483,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/ex_964865.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 26339,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-14",
+        "items": [
+          "1.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "LAUNCH PRESS RELEASE DATED MAY 12, 2026, FURNISHED HEREWITH",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea029004701ex99-1.htm",
+        "file": "2026-05-14-EX-99.1.txt",
+        "chars": 6268,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-14",
+        "items": [
+          "1.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "PRICING PRESS RELEASE DATED MAY 13, 2026, FURNISHED HEREWITH",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea029004701ex99-2.htm",
+        "file": "2026-05-14-EX-99.2.txt",
+        "chars": 6719,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-12",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926016373/ex_958718.htm",
+        "file": "2026-05-12-EX-99.1.txt",
+        "chars": 311468,
+        "truncated": false
+      }
+    ]
+  }
+}

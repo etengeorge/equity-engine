@@ -1,0 +1,138 @@
+{
+  "fetched_utc": "2026-10-30T11:33:14+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CLMT",
+    "cik": 2013745,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-09-15",
+        "items": "1.01,2.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000119312526390825/d111023d8k.htm",
+        "file": "2026-09-15-8-K-d111023d8k.htm.txt",
+        "chars": 5364,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-01",
+        "items": "1.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000029/clmt-20260828.htm",
+        "file": "2026-09-01-8-K-clmt-20260828.htm.txt",
+        "chars": 6571,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000024/clmt-20260630.htm",
+        "file": "2026-08-07-10-Q-clmt-20260630.htm.txt",
+        "chars": 220165,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000022/clmt-20260807.htm",
+        "file": "2026-08-07-8-K-clmt-20260807.htm.txt",
+        "chars": 3747,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-03",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000119312526255570/d106744d8k.htm",
+        "file": "2026-06-03-8-K-d106744d8k.htm.txt",
+        "chars": 3974,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000016/clmt-20260331x10q.htm",
+        "file": "2026-05-08-10-Q-clmt-20260331x10q.htm.txt",
+        "chars": 218312,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-08",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000013/clmt-20260331x8k.htm",
+        "file": "2026-05-08-8-K-clmt-20260331x8k.htm.txt",
+        "chars": 3793,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-03-25",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000011/clmt-20260323x8k.htm",
+        "file": "2026-03-25-8-K-clmt-20260323x8k.htm.txt",
+        "chars": 4437,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-01",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000029/montanarenewablesannounces.htm",
+        "file": "2026-09-01-EX-99.1.txt",
+        "chars": 16592,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-07",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000022/clmt-20260630xex991.htm",
+        "file": "2026-08-07-EX-99.1.txt",
+        "chars": 36036,
+        "truncated": false
+      },
+      {
+        "filed": "2026-05-08",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2013745/000201374526000013/clmt-20260331xex99d1.htm",
+        "file": "2026-05-08-EX-99.1.txt",
+        "chars": 39646,
+        "truncated": false
+      }
+    ]
+  }
+}
