@@ -1,93 +1,109 @@
-# OSIS — OSI SYSTEMS
+# BRZE — BRAZE INC CLASS A
 *Information Technology · brief generated 2026-10-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 304/1956
+- rotation position 310/1956
 
 ## Market
 | | |
 |---|---|
-| price | $208.17 |
-| market cap | $3.3B |
-| 5d / 21d / 63d / 252d | +3.8% / +7.1% / -6.0% / -17.0% |
-| 60d avg daily $ volume | $49.4M |
-| beta (vs IWM) | 1.33 (R²=0.352) |
-| 5d volume vs 60d average | 1.1x |
-| balance sheet as of | 2026-06-30 (10-K) |
-| WACC weights | equity 77% / debt 23% |
+| price | $45.80 |
+| market cap | $5.2B |
+| 5d / 21d / 63d / 252d | -0.1% / +82.5% / +83.8% / +63.9% |
+| 60d avg daily $ volume | $160.5M |
+| beta (vs IWM) | 1.0 (R²=0.065) |
+| 5d volume vs 60d average | 2.2x |
+| balance sheet as of | 2026-07-31 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$74.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$245.3M', '$73.8M', '$-109.6M']
-Enterprise value **$4.0B** · FCFF yield **+1.9%**
+Normalized FCFF base **$27.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$61.9M', '$23.4M', '$-2.9M']
+Enterprise value **$5.0B** · FCFF yield **+0.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 10.4% − 1pt | +37.6% |
-| **10.4% (point)** | **+41.8%** |
-| 10.4% + 1pt | +45.8% |
+| 10.4% − 1pt | +77.8% |
+| **10.4% (point)** | **+83.5%** |
+| 10.4% + 1pt | +88.8% |
 
 
-> **Stock compensation is 42% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$45.1M** and an implied growth of **+57.6%** instead of +41.8%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 432% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$-91.2M**, which is not positive — no growth rate can be solved for on that basis. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+9.3%** (5y revenue CAGR +9.3%).
-Gap under that baseline: **-83.0%** (fair value $35.47 vs price $208.17).
+Naive baseline for comparison: **+25.0%** (4y revenue CAGR +32.7% (clamped to +25.0%)).
+Gap under that baseline: **-80.4%** (fair value $8.98 vs price $45.80).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **10th percentile** of 125 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -43.0%).
+Cohort: **13th percentile** of 125 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -40.8%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
 - `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_5.1x_of_mean`
-- `stock_comp_is_42%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `lumpy_fcff_spread_2.4x_of_mean`
+- `stock_comp_is_432%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-10-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1039065/000110465926120281/osis-20260930x10q.htm
-- 2026-10-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1039065/000110465926120184/tm2626560d2_8k.htm
-- 2026-10-26 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1039065/000110465926118777/tm2625833-1_def14a.htm
-- 2026-08-21 **10-K** — https://www.sec.gov/Archives/edgar/data/1039065/000110465926099752/osis-20260630x10k.htm
-- 2026-08-20 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1039065/000110465926099215/tm2623681d1_8k.htm
-- 2026-05-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1039065/000110465926055014/osis-20260331x10q.htm
-- 2026-05-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1039065/000110465926054857/tm2613470d1_8k.htm
-- 2026-01-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/1039065/000110465926008109/osis-20251231x10q.htm
-- 2026-01-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1039065/000110465926007970/tm264404d1_8k.htm
-- 2025-12-11 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1039065/000110465925120300/tm2533277d1_8k.htm
+- 2026-10-20 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000095010326015850/dp254600_8k.htm
+- 2026-09-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000040/brze-20260731.htm
+- 2026-09-08 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000039/brz-20260908.htm
+- 2026-07-02 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000033/brz-20260630.htm
+- 2026-05-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000027/brze-20260430.htm
+- 2026-05-27 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000024/brz-20260525.htm
+- 2026-05-18 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1676238/000114036126021908/ny20068382x2_def14a.htm
+- 2026-04-28 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000095010326006243/dp245711_8k.htm
+- 2026-04-07 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000016/brz-20260407.htm
+- 2026-03-25 **10-K** — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000013/brze-20260131.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1039065/000110465926120184/tm2626560d2_ex99-1.htm
-- **2026-08-20** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1039065/000110465926099215/tm2623681d1_ex99-1.htm
-- **2026-08-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1039065/000110465926099215/tm2623681d1_ex99-2.htm
+- **2026-10-20** · EX-99.1 · press release — EXHIBIT 99.1 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1676238/000095010326015850/dp254600_ex9901.htm
+- **2026-10-20** · EX-99.2 · presentation — EXHIBIT 99.2 *(item: entry into a material agreement, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1676238/000095010326015850/dp254600_ex9902.htm
+- **2026-09-08** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1676238/000167623826000039/a20260731-brazeincxq227ear.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*38 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-03** · Q2 Earnings Highlights: OSI Systems (NASDAQ:OSIS) Vs The Rest Of The Specialized Technology Stocks — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-highlights-osi-systems-231118874.html
-  > Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at OSI Systems (NASDAQ:OSIS) and the best and worst performers in the specialized tech
-- **2026-09-03** · 1 Services Stock Worth Your Attention and 2 Facing Challenges — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-services-stock-worth-attention-011623488.html
-  > Business services providers thrive by solving complex operational challenges for their clients, allowing them to focus on their secret sauce. Furthermore, the demand for their offerings is rising as more clients outsource non-core functions
-- **2026-09-02** · NVT Trades at Premium Valuation: Buy, Sell or Hold the Stock? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/nvt-trades-premium-valuation-buy-151700769.html
-  > nVent Electric's strong data center and power utility demand, rising earnings estimates and capacity expansion support the case to buy despite its premium valuation.
-- **2026-08-27** · OSI Systems (OSIS) Posted Record Cash Flow and Backlog but Revenue Missed Estimates — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/osi-systems-osis-posted-record-212212604.html
-  > OSI Systems, Inc. (NASDAQ:OSIS) ended fiscal 2026 with record operating cash flow and backlog, but its fourth-quarter revenue result was materially below expectations. Revenue declined 4% to $484.1 million, approximately $45.6 million below
-- **2026-08-27** · OSI Systems (OSIS) Rides Record Profits Through A Middle East Storm — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/osi-systems-osis-rides-record-114411441.html
-  > On August 20, OSI Systems (NASDAQ:OSIS) reported a fiscal fourth quarter that looked like two different stories stapled together. Full-year revenue of $1.79 billion missed the company’s own guidance, and fourth-quarter revenue fell 4% year 
-- **2026-08-27** · 5 Insightful Analyst Questions From OSI Systems’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-osi-083511032.html
-  > OSI Systems’ second quarter performance was marked by lower-than-expected revenue, driven primarily by deferred security division deliveries in the Middle East. Management cited ongoing regional conflict and site access challenges as the co
-- **2026-08-23** · OSI Systems (OSIS) Could Be 26% Undervalued As Earnings Raise Fresh Valuation Questions — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/osi-systems-osis-could-26-010921738.html
-  > OSI Systems (OSIS) reported fourth quarter and full year 2026 results on August 20, with revenue of US$484.06 million for the quarter and US$1.79b for the year, along with updated fiscal 2027 guidance. See our latest analysis for OSI System
-- **2026-08-22** · Why OSI Systems (OSIS) Is Down 9.4% After Record Backlog And Delayed Revenue Conversion — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/why-osi-systems-osis-down-071243765.html
-  > OSI Systems has reported past fourth-quarter revenue of US$484.06 million, slightly below the prior year, while growing net income to US$55.24 million and continuing an active share repurchase program that has retired nearly 22% of its shar
-- **2026-08-21** · These 2 Stocks Hit A New 52-Week Low Today – MATW Heads For A Fifth Straight Session Of Decline — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/these-2-stocks-hit-a-new-52-week-low-today-matw-heads-for-a-fifth-straight-session-of-decline/cZY9PoiRJVe
-  > OSI Systems saw multiple price target cuts while Truist highlighted execution risks for Matthews International.
-- **2026-08-21** · Why OSI Systems Seems Radioactive Today — *Motley Fool* — https://www.fool.com/investing/2026/08/21/why-osi-systems-seems-radioactive-today/
-  > OSI Systems stock is cheaper than it looks -- but is it cheap enough?
+- **2026-09-15** · SmarterSends Launches Two-Way SMS and One-Click Retargeting on Braze, Heads to FORGE 2026 in Las Vegas — *PR Newswire* — https://finance.yahoo.com/media-advertising/articles/smartersends-launches-two-way-sms-130000618.html
+  > SmarterSends, the distributed marketing platform built for franchise, field, and local marketing teams, today announced two new capabilities for Braze customers: Two-Way SMS and simplified One-Click Retargeting for local operators. Both shi
+- **2026-09-14** · Braze Sets the Stage for Forge 2026 with ‘Made for This’ Theme, Bold Agenda and Standout Speaker Lineup — *Business Wire* — https://finance.yahoo.com/media-advertising/articles/braze-sets-stage-forge-2026-130000894.html
+  > NEW YORK, September 14, 2026--Braze (Nasdaq: BRZE), the leading customer engagement platform that empowers brands to Be Absolutely Engaging™, today announced that tennis champion and entrepreneur Venus Williams will headline Forge 2026, tak
+- **2026-09-12** · Why Braze Stock Plummeted This Week — *Motley Fool* — https://www.fool.com/investing/2026/09/12/why-braze-stock-plummeted-this-week/
+  > Despite a big valuation pullback this week, Braze's latest quarterly report looked pretty strong.
+- **2026-09-11** · Buy Robinhood Markets Stock, Analyst Says. Plus, Intuit and 4 More Stocks. — *Barrons.com* — https://www.barrons.com/articles/buy-robinhood-markets-stock-analyst-says-plus-intuit-and-4-more-stocks-4a79bf12?siteid=yhoof2&yptr=yahoo
+  > RESEARCH REPORTS These reports, excerpted and edited by Barron’s, were issued recently by investment and research firms. The reports are a sampling of analysts’ thinking; they should not be considered the views or recommendations of Barron’
+- **2026-09-10** · 1 Stock Under $50 to Keep an Eye On and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-keep-235304474.html
+  > Stocks in the $10-50 range offer a sweet spot between affordability and stability as they’re typically more established than penny stocks. But their headline prices don’t guarantee quality, and investors should exercise caution as some have
+- **2026-09-10** · Why Braze’s Guidance Miss May Be a Gift for Investors — *MarketBeat* — https://www.marketbeat.com/articles/why-brazes-guidance-miss-may-be-a-gift-for-investors/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Braze shares fell after soft Q3 guidance, but strong Q2 revenue growth, rising net retention, and increased analyst price targets suggest the pullback may be a buying opportunity.
+- **2026-09-09** · Braze (BRZE) Q2 2027 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/09/braze-brze-q2-2027-earnings-call-transcript/
+  > Revenue hit $227.2 million with 26% growth as AI adoption surges among enterprise customers.
+- **2026-09-09** · Braze (BRZE) Posted a Strong Q2. Are Investors Still Cautious? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/braze-brze-posted-strong-q2-215804346.html
+  > Braze Inc. (NASDAQ:BRZE) turned in a strong second quarter. The reputed customer engagement platform showcased continued momentum across both its product strategy and financial performance. The company generated topline figure of $227.2 mil
+- **2026-09-09** · Braze (BRZE) Posts Strong Q2, But Why Is the Stock Falling? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/braze-brze-posts-strong-q2-202810073.html
+  > Braze, Inc. (NASDAQ:BRZE) reported strong Q2 results on September 8, but investors appeared more focused on the company’s outlook. Despite the solid performance, the company’s shares had fallen sharply following the earnings report, declini
+- **2026-09-09** · Update: Braze Shares Fall After Fiscal Q2 Results — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/braze-shares-fall-fiscal-q2-183453345.html
+  > (Updates with the company's stock move in the headline and in the first paragraph.) Braze (BRZE)
+- **2026-09-09** · Wall Street Sounds Positive On BRZE Stock Despite Post-Earnings Decline – These Analysts See Buying Opportunity — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/wall-street-sounds-positive-on-brze-stock-despite-post-earnings-decline-these-analysts-see-buying-opportunity/cZt7QGHRJzx
+  > Raymond James, UBS, and Canaccord raised their price targets on the stock, while Stifel and Stephens called the post-earnings weakness a buying opportunity.
+- **2026-09-09** · Braze (BRZE) Stock Trades Down, Here Is Why — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/braze-brze-stock-trades-down-173838169.html
+  > Shares of customer engagement platform Braze (NASDAQ:BRZE) fell 18.9% in the afternoon session after the company reported its second-quarter 2026 financial results.
+- **2026-09-09** · BRZE Q2 Deep Dive: Market Reacts to AI Adoption, Vendor Consolidation, and Competitive Shifts — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/brze-q2-deep-dive-market-162638230.html
+  > Customer engagement platform Braze (NASDAQ:BRZE) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 26.2% year on year to $227.2 million. Guidance for next quarter’s revenue was better than expected at $22
+- **2026-09-09** · Braze Sinks 12% as Soft Earnings Guide Overshadows Beat and Raise; Klaviyo Advances 3% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/09/braze-sinks-12-as-soft-earnings-guide-overshadows-beat-and-raise-klaviyo-advances-3/
+  > Braze beat revenue estimates and raised its full-year outlook, yet its stock cratered while every peer in the sector held firm. One line in the earnings guide explains why investors are selling a growth story that looked strong on almost ev
+- **2026-09-09** · This Marketing Software  Stock’s 11% Slump Shows Peril of Not Meeting the AI Hype — *Barrons.com* — https://www.barrons.com/articles/braze-earnings-stock-price-55528379?siteid=yhoof2&yptr=yahoo
+  > It’s been a wild 2026 for software stocks as investors try to figure out which companies will adapt in an era of “vibe-coding” AI tools.
+- **2026-09-09** · Braze, Inc. Q2 2027 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-braze-inc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Braze, Inc.'s Q2 2027 earnings call
+- **2026-09-09** · Qualcomm, Corning, Casey’s, Braze, and More Stocks That Explain Today’s Market — *Barrons.com* — https://www.barrons.com/articles/stock-movers-fa21448d?siteid=yhoof2&yptr=yahoo
+  > Some AI stocks are rising even as investors fret about a flare-up in inflation, while Casey’s sinks despite a first-quarter earnings beat.
+- **2026-09-09** · Braze shares fall 11% as third-quarter earnings guidance misses estimates — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/35909/braze-shares-fall-11-as-third-quarter-earnings-guidance-misses-estimates
+  > Braze Inc (NASDAQ:BRZE) shares fell about 11% in premarket trading on Wednesday after the customer engagement platform issued third-quarter adjusted earnings guidance below analyst expectations, despite reporting second-quarter results ahea
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
@@ -120,6 +136,7 @@ Attack these before you trust any number above.
 - AXTI: no_model · price $81.81
 - BDC: no_model · price $112.52
 - BELFA: no_model · price $176.77
+- BELFB: no_model · price $235.73
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
 - CORZ: no_model · price $17.37
@@ -128,7 +145,6 @@ Attack these before you trust any number above.
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
-- MARA: no_model · price $13.28
 
 ---
 

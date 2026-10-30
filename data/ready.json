@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-30T11:26:29+00:00",
+  "screen_utc": "2026-10-30T16:49:40+00:00",
   "price_asof": "2026-10-29",
   "universe": 1956,
-  "modelled": 1071,
-  "modelled_pct": 54.8,
+  "modelled": 1070,
+  "modelled_pct": 54.7,
   "news": {
-    "generated_utc": "2026-10-30T11:26:30+00:00",
+    "generated_utc": "2026-10-30T16:49:41+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 43,
+    "articles_new": 0,
     "candidates": 450,
-    "elapsed_s": 218.8
+    "elapsed_s": 184.2
   },
   "picks": [
-    "CXW",
-    "CLMT",
-    "GRAL",
-    "OSIS",
-    "MIAX",
-    "TNGX",
-    "EFOR",
-    "BELFB",
-    "BELFA",
-    "RES"
+    "MMS",
+    "KNSA",
+    "BRZE",
+    "SIG",
+    "LEU",
+    "SHOO",
+    "DBD",
+    "WLFC",
+    "HOG",
+    "AMSF"
   ],
   "stages": {
-    "screen": "2026-10-30T11:30:21+00:00",
-    "news": "2026-10-30T11:30:09+00:00",
-    "pick": "2026-10-30T11:30:21+00:00"
+    "screen": "2026-10-30T16:52:57+00:00",
+    "news": "2026-10-30T16:52:46+00:00",
+    "pick": "2026-10-30T16:52:57+00:00"
   }
 }

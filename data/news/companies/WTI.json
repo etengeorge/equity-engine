@@ -118,17 +118,5 @@
    "WTI"
   ],
   "source": "yfinance"
- },
- {
-  "id": "ff48bc21-f122-37d7-9b12-3b18e730e5cb",
-  "ts": "2026-07-01T16:24:00+00:00",
-  "title": "E Launches New Compression Project to Sustain Bahr Essalam Gas Output",
-  "summary": "Eni's Sabratha Compression Project aims to sustain Bahr Essalam gas output, boost recoverable volumes and support Libya's power needs and exports to Italy.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/energy/articles/e-launches-compression-project-sustain-162400315.html",
-  "tickers": [
-   "WTI"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -1,115 +1,73 @@
-# GRAL — GRAIL INC
+# KNSA — KINIKSA PHARMACEUTICALS INTERNATIO
 *Health Care · brief generated 2026-10-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 303/1956
+- rotation position 309/1956
 
 ## Market
 | | |
 |---|---|
-| price | $158.92 |
-| market cap | $7.1B |
-| 5d / 21d / 63d / 252d | +25.1% / +13.4% / +131.8% / +84.0% |
-| 60d avg daily $ volume | $114.0M |
-| beta (vs IWM) | 1.92 (R²=0.105) |
-| 5d volume vs 60d average | 1.4x |
-| balance sheet as of | 2026-06-30 (10-Q) |
+| price | $97.56 |
+| market cap | $7.7B |
+| 5d / 21d / 63d / 252d | +20.8% / +30.8% / +31.2% / +147.4% |
+| 60d avg daily $ volume | $49.1M |
+| beta (vs IWM) | None (R²=0.018) · **sector_median** |
+| 5d volume vs 60d average | 2.7x |
+| balance sheet as of | 2026-03-31 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
-Enterprise value **n/a** · FCFF yield **n/a**
+Normalized FCFF base **$58.3M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$136.4M', '$25.4M', '$13.2M']
+Enterprise value **$7.2B** · FCFF yield **+0.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 15.6% − 1pt | n/a |
-| **15.6% (point)** | **n/a** |
-| 15.6% + 1pt | n/a |
+| 12.0% − 1pt | +71.9% |
+| **12.0% (point)** | **+76.6%** |
+| 12.0% + 1pt | +81.1% |
 
 
-Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $158.92).
+> **Stock compensation is 54% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$26.7M** and an implied growth of **+100.0%** instead of +76.6%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+25.0%** (4y revenue CAGR +104.8% (clamped to +25.0%)).
+Gap under that baseline: **-75.1%** (fair value $24.25 vs price $97.56).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_sales (n=308) | 47.9x | 2.0x / 4.4x / 17.4x | $7.81 / $15.66 / $58.42 |
-| p_tbv (n=325) | 9.3x | 1.9x / 3.9x / 7.9x | $32.43 / $67.26 / $135.06 |
-
-Blended midpoint **$41.46** vs price $158.92 — gap **-73.9%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **22th percentile** of 90 Health Care names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -49.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `nonpositive_normalized_fcff`
+- `balance_sheet_213d_old_enterprise_value_may_predate_a_financing`
+- `beta_from_sector_median_1.28(unreliable_r2_0.018_raw_0.34)`
+- `lumpy_fcff_spread_2.1x_of_mean`
+- `possible_peak_cycle_base_newest_fcf_10.4x_oldest_growth_applied_to_a_peak_overstates_value`
+- `stock_comp_is_54%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1699031/000162828026054307/gral-20260630.htm
-- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm
-- 2026-06-22 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1699031/000162828026044693/gral-20260618.htm
-- 2026-06-01 **8-K** — items 5.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1699031/000162828026039461/gral-20260601.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1699031/000162828026032090/gral-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1699031/000162828026030495/gral-20260505.htm
-- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1699031/000162828026027946/gral-20260428.htm
-- 2026-03-12 **10-K** — https://www.sec.gov/Archives/edgar/data/1699031/000162828026017319/gral-20251231.htm
-- 2026-02-19 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1699031/000169903126000009/gral-20260219.htm
-- 2026-01-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1699031/000162828026001786/gral-20260112.htm
+- 2026-10-27 **10-Q** — https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm
+- 2026-10-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm
+- 2026-10-22 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000034/knsa-20261017x8k.htm
+- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1730430/000110465926087545/knsa-20260630x10q.htm
+- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000031/knsa-20260728x8k.htm
+- 2026-05-29 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000029/knsa-20260529x8k.htm
+- 2026-05-26 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000025/knsa-20260521x8k.htm
+- 2026-05-01 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000021/knsa-20260430x8k.htm
+- 2026-04-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1730430/000110465926050359/knsa-20260331x10q.htm
+- 2026-04-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000017/knsa-20260428x8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/ex9912026q2earningspressre.htm
+- **2026-10-27** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-ex99d1.htm
+- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1730430/000173043026000031/knsa-20260728xex99d1.htm
 
 ## News on this company — last 90 days
-*22 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-25** · Here's Why Grail Stock Surged 55% This Week — *Motley Fool* — https://www.fool.com/investing/2026/09/25/heres-why-grail-stock-surged-55-this-week/
-  > The company received a favorable vote from the FDA this week, which could open up significant adoption of its multi-cancer early detection test, Galleri.
-- **2026-09-25** · MRNA On Track To Be September's No. 2 S&P 500 Stock — But These 5 Smaller Health Care Names Did Even Better — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/mrna-september-no2-sandp500-stock-5-smaller-healthcare-names-did-better/cZMaHg1RBae
-  > Five smaller stocks with market caps above $100 million beat MRNA’s monthly gain: INDP rose 249%, CYPH 124%, MNOV 85%, GRAL 58% and SRZN 53%.
-- **2026-09-24** · GRAIL (GRAL) Wins FDA Panel Backing, Is It Now Overvalued? — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/grail-gral-wins-fda-panel-201736839.html
-  > GRAIL (GRAL) is back in focus after the FDA's Medical Devices Advisory Committee backed its Galleri multi cancer early detection test, shortly after strong PATHFINDER 2 data in Nature Medicine reinforced its real world performance. That reg
-- **2026-09-24** · Grail Surges After FDA Advisors Back Its Cancer-Finding Blood Test — *Investor's Business Daily* — https://www.investors.com/news/technology/grail-stock-cancer-blood-test-galleri-fda-advisory-committee-meeting/?src=A00220&yptr=yahoo
-  > Grail stock surged Thursday after a panel of advisors to the FDA backed the company's cancer-detecting blood test.
-- **2026-09-24** · Dow Jones Futures Fall As Treasury Yields Keep Rising Ahead Of Trump-Xi Summit — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/?src=A00220&yptr=yahoo
-  > Dow Jones futures fell early Thursday, along with S&P 500 futures and especially Nasdaq futures, as Treasury yields continued to hit fresh long-term highs. The Trump-Xi summit is on tap. The stock market rally retreated as Treasury yields s
-- **2026-09-23** · The Holy Grail In Cancer? FDA Panel Backs Blood Tests — *Investor's Business Daily* — https://www.investors.com/news/technology/grail-stock-fda-advisory-committee-meeting-galleri-blood-test/?src=A00220&yptr=yahoo
-  > Grail stock was halted Wednesday after an Food and Drug Administration panel discussed the company's blood screening test for cancer.
-- **2026-09-23** · FDA Advisory Committee Votes In Favor of Approval of GRAIL's Galleri® Multi-Cancer Early Detection Test — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/fda-advisory-committee-votes-favor-221700555.html
-  > GRAIL, Inc., a healthcare company whose mission is to detect cancer early when it can be cured, today announced a favorable vote from the Molecular and Clinical Genetics Devices Panel of the Medical Devices Advisory Committee (the Committee
-- **2026-09-22** · GRAIL Stock Jumped 34% Yesterday. The FDA Just Told Its Investors Why. — *TIKR* — https://www.tikr.com/blog/grail-stock-jumped-34-yesterday-the-fda-just-told-its-investors-why?ref=yahoofinance
-  > Key TakeawaysFDA Signal: GRAIL stock jumped 34% on Monday after FDA staff found no major safety or accuracy issues with the Galleri cancer test. Street Gap: TIKR tracks 11 analysts on GRAL stock, split 5 buys and 6 holds, and their $79 mean
-- **2026-09-21** · GRAL Stock Clocks Best Day In Over 1.5 Years — FDA Papers Lift Galleri Approval Hopes — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/gral-stock-clocks-best-day-in-over-1-5-years-fda-papers-lift-galleri-approval-hopes/cZMRsplRBIk
-  > Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee will meet on Sept. 23 to discuss Grail’s application seeking approval of its cancer detection test.
-- **2026-09-21** · Grail Catapults 30%-Plus As FDA Mulls Cancer-Detecting Blood Test — *Investor's Business Daily* — https://www.investors.com/news/technology/grail-stock-fda-advisory-committee-meeting-galleri/?src=A00220&yptr=yahoo
-  > Grail stock catapulted Monday on positive briefing documents ahead of a key Food and Drug Administration meeting slated for Wednesday.
-- **2026-09-21** · FDA Decision Watch: MRK, MIRM, INCY, GRAL Face Key Regulatory Catalysts This Week — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-mrk-mirm-incy-gral-winrevair-zilurgisertib-galleri/cZMRWEgRB4r
-  > Merck, Mirum, Incyte and Grail are in focus this week as investors await key FDA decisions and a regulatory review involving treatments for lung disease, a rare bone disorder and cancer detection.
-- **2026-09-09** · Grail CFO Aaron Freidin Sells 7,900 Shares for $672,000 — *Motley Fool* — https://www.fool.com/coverage/filings/2026/09/08/grail-cfo-aaron-freidin-sells-7900-shares-for-672000/
-  > An insider sells 7,900 shares as the stock price has surged over the past year.
-- **2026-09-04** · Grail Stock Jumps in August as FDA Schedules a Key Meeting for its Galleri Cancer Test — *Motley Fool* — https://www.fool.com/investing/2026/09/04/grail-stock-jumps-in-august-as-fda-schedules-a-key/
-  > FDA approval for its multi-cancer early detection test, Galleri, would strengthen the case for the stock.
-- **2026-09-03** · GRAIL Announces Inducement Grants Under NASDAQ Listing Rule 5635(c)(4) — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/grail-announces-inducement-grants-under-200200595.html
-  > GRAIL, Inc. (Nasdaq: GRAL), a healthcare company whose mission is to detect cancer early when it can be cured, today announced that it has granted equity awards in the form of restricted stock units ("RSUs") underlying an aggregate of 55,86
-- **2026-08-31** · GRAIL to Present at Morgan Stanley's 24th Annual Global Healthcare Conference — *PR Newswire* — https://finance.yahoo.com/healthcare/articles/grail-present-morgan-stanleys-24th-200100047.html
-  > GRAIL, Inc. (Nasdaq: GRAL), a healthcare company whose mission is to detect cancer early when it can be cured, today announced that company management will present at the Morgan Stanley 24th Annual Global Healthcare Conference in New York o
-- **2026-08-14** · GRAIL Highlights Galleri Growth Ahead of Key FDA Advisory Meeting — *MarketBeat* — https://www.marketbeat.com/instant-alerts/grail-highlights-galleri-growth-ahead-of-key-fda-advisory-meeting-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > GRAIL (NASDAQ:GRAL) Chief Financial Officer Aaron Freidin said the company’s Galleri multi-cancer early detection test recorded strong first-half growth as it expanded distribution through digital health platforms, employers and physician o
-- **2026-08-13** · GRAIL (GRAL) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/grail-gral-q2-2026-earnings-call-transcript/
-  > Galleri volume jumped 35% year over year on physician adoption and digital partnerships.
-- **2026-08-08** · Is GRAIL (GRAL) Fairly Valued Following Galleri Adoption Growth And The FDA Panel Date? — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/grail-gral-fairly-valued-following-051229636.html
-  > Why GRAIL Stock Is Back in Focus After the Galleri FDA Panel Date GRAIL (GRAL) is drawing fresh attention after regulators set a September 23, 2026 advisory committee meeting to review the Premarket Approval application for its Galleri mult
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*

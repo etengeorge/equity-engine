@@ -1,100 +1,74 @@
-# BELFB — BEL FUSE CLASS B
+# DBD — DIEBOLD NIXDORF INC
 *Information Technology · brief generated 2026-10-30 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 4% of 125 Information Technology peers (96th pct)
-- baseline gap +138%
-- 5d move +18%
+- cheapest 10% of 125 Information Technology peers (90th pct)
+- baseline gap +81%
+- 5d move -15%
 - filed an 8-K in the last few sessions
 - Information Technology sector melt_up (median +4.9%)
 - moved harder than its sector
 - never researched
-- urgency score 11.02
+- urgency score 8.93
 
 ## Market
 | | |
 |---|---|
-| price | $235.73 |
-| market cap | $512.7M |
-| 5d / 21d / 63d / 252d | +18.0% / -3.4% / -13.3% / +52.5% |
-| 60d avg daily $ volume | $38.8M |
-| beta (vs IWM) | 1.42 (R²=0.344) |
-| 5d volume vs 60d average | 1.2x |
+| price | $59.14 |
+| market cap | $2.0B |
+| 5d / 21d / 63d / 252d | -14.6% / -3.4% / -19.6% / +1.4% |
+| 60d avg daily $ volume | $17.2M |
+| beta (vs IWM) | 0.85 (R²=0.18) |
+| 5d volume vs 60d average | 1.9x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 68% / debt 32% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$77.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$68.6M', '$60.0M', '$96.2M']
-Enterprise value **$206.6M** · FCFF yield **+37.3%**
+Normalized FCFF base **$307.0M** (mean of CFO−capex over 1y, plus after-tax interest)
+  annual FCF, newest first: ['$249.4M']
+Enterprise value **$2.7B** · FCFF yield **+11.5%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 12.8% − 1pt | -28.6% |
-| **12.8% (point)** | **-27.1%** |
-| 12.8% + 1pt | -25.7% |
+| 8.5% − 1pt | -14.1% |
+| **8.5% (point)** | **-10.9%** |
+| 8.5% + 1pt | -8.1% |
 
 
-Naive baseline for comparison: **+7.7%** (5y revenue CAGR +7.7%).
-Gap under that baseline: **+138.1%** (fair value $561.25 vs price $235.73).
+Naive baseline for comparison: **-0.5%** (5y revenue CAGR -0.5%).
+Gap under that baseline: **+81.4%** (fair value $107.29 vs price $59.14).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **96th percentile** of 125 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +178.1%).
+Cohort: **90th percentile** of 125 Information Technology names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +121.0%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `share_count_5569d_stale_market_cap_unreliable`
-- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
+- `single_year_base_no_normalization`
 
 ## Recent filings
-- 2026-10-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/belfa20260819_8k.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/729580/000143774926025619/belfa20260630_10q.htm
-- 2026-07-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/belfa20260518_8k.htm
-- 2026-07-02 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926022539/belfa20260701_8k.htm
-- 2026-05-28 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926018719/belfa20260526_8k.htm
-- 2026-05-14 **8-K** — items 1.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea0290047-8k_belfu.htm
-- 2026-05-12 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926016373/belfa20260507_8k.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/729580/000143774926014903/belfa20260331_10q.htm
-- 2026-04-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/729580/000143774926013888/belfa20260302_8k.htm
-- 2026-04-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/729580/000143774926011998/belfa20260303_def14a.htm
+- 2026-10-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/28823/000002882326000040/dbd-20260930.htm
+- 2026-10-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/28823/000002882326000038/dbd-20261028.htm
+- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/28823/000002882326000033/dbd-20260630.htm
+- 2026-07-29 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/28823/000002882326000031/dbd-20260729.htm
+- 2026-05-26 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/28823/000002882326000024/dbd-20260522.htm
+- 2026-04-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/28823/000002882326000021/dbd-20260331.htm
+- 2026-04-30 **8-K** — items 2.02 — https://www.sec.gov/Archives/edgar/data/28823/000002882326000016/dbd-20260430.htm
+- 2026-04-02 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/28823/000119312526140284/d901875ddef14a.htm
+- 2026-02-25 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/28823/000002882326000012/dbd-20260224.htm
+- 2026-02-12 **10-K** — https://www.sec.gov/Archives/edgar/data/28823/000002882326000008/dbd-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-28** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/729580/000143774926033795/ex_1007041.htm
-- **2026-07-29** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/729580/000143774926024893/ex_964865.htm
+- **2026-10-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/28823/000002882326000038/ex-991q32026erlive.htm
+- **2026-07-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations)* — https://www.sec.gov/Archives/edgar/data/28823/000002882326000031/ex-991q22026erlive.htm
 
 ## News on this company — last 90 days
-*12 items held; showing the 12 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-15** · Why Bel Fuse (BELFA) Shares Are Falling Today — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/why-bel-fuse-belfa-shares-023530471.html
-  > Shares of electronic system and device provider Bel Fuse (NASDAQ:BELFA) fell 7.5% in the afternoon session after the company completed a $441.6 million equity offering, raising investor concerns over share dilution.
-- **2026-09-04** · Bel Announces Richard E. Hamilton as Senior Vice President, General Counsel and Corporate Secretary — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-announces-richard-e-hamilton-140000531.html
-  > WEST ORANGE, N.J., Sept. 04, 2026 (GLOBE NEWSWIRE) -- Bel Fuse Inc. (Nasdaq: BELFA and BELFB) ("Bel" or the "Company"), a global manufacturer of electronic components, systems and solutions, today announced that Richard E. Hamilton will joi
-- **2026-09-02** · Bel Fuse (BELFA): Buy, Sell, or Hold Post Q2 Earnings? — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-belfa-buy-sell-162023720.html
-  > Since March 2026, Bel Fuse has been in a holding pattern, posting a small loss of 1.1% while floating around $202.86. The stock also fell short of the S&P 500’s 11.8% gain during that period.
-- **2026-08-28** · Electronic Components Stocks Q2 Recap: Benchmarking Bel Fuse (NASDAQ:BELFA) — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/electronic-components-stocks-q2-recap-173652680.html
-  > Let’s dig into the relative performance of Bel Fuse (NASDAQ:BELFA) and its peers as we unravel the now-completed Q2 electronic components earnings season.
-- **2026-08-26** · Bel Fuse Announces Participation in Citi’s 2026 Global TMT Conference — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-announces-participation-citi-123000971.html
-  > WEST ORANGE, N.J., Aug. 26, 2026 (GLOBE NEWSWIRE) -- Bel Fuse Inc. (Nasdaq: BELFA and BELFB), a global designer, manufacturer, and provider of critical electronic components, systems and solutions for customers in aerospace, defense, indust
-- **2026-08-24** · 2 Profitable Stocks with Exciting Potential and 1 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-exciting-potential-104136558.html
-  > While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.
-- **2026-08-13** · Bel Fuse (BELF.A), What Is Behind The Fresh Attention? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-belf-behind-fresh-061126655.html
-  > Dividend affirmation and guidance set the stage for Bel Fuse Bel Fuse (BELF.A) recently affirmed its regular quarterly cash dividends on both Class A and Class B shares, alongside fresh third quarter 2026 sales guidance in the US$205 millio
-- **2026-08-12** · 1 Profitable Stock with Impressive Fundamentals and 2 That Underwhelm — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-impressive-fundamentals-040522435.html
-  > Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t mean it will thrive tomorrow.
-- **2026-08-10** · 3 Market-Beating Stocks for Long-Term Investors — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-121322293.html
-  > Stocks that outperform the market usually share key traits such as rising sales, expanding margins, and increasing returns on capital. The select few that can do all three for many years are often the ones that make you life-changing money.
-- **2026-08-04** · 3 Growth Stocks to Add to Your Roster — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-add-roster-094122002.html
-  > Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.
-- **2026-08-03** · Bel Fuse Inc. Announces Regular Quarterly Cash Dividend on its Class A and Class B Shares — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/bel-fuse-inc-announces-regular-133600538.html
-  > WEST ORANGE, N.J., Aug. 03, 2026 (GLOBE NEWSWIRE) -- BEL FUSE INC. (NASDAQ:BELFA) and (NASDAQ:BELFB) today announced that its Board of Directors has declared regular quarterly cash dividends of $0.06 per share on the Company's Class A commo
-- **2026-08-03** · Here’s Why Market Mispriced Bel Fuse (BELFB) — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/why-market-mispriced-bel-fuse-133205657.html
-  > Greystone Capital Management, an investment management company, released its second-quarter 2026 investor letter. A copy of the letter can be downloaded here. During Q2 2026, Greystone Capital’s median account return was +7.2%, trailing beh
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Information Technology
 *From the sector ETF feed (XLK), which covers every name in this sector whether or not it got its own pull.*
@@ -127,6 +101,7 @@ Attack these before you trust any number above.
 - AXTI: no_model · price $81.81
 - BDC: no_model · price $112.52
 - BELFA: no_model · price $176.77
+- BELFB: no_model · price $235.73
 - BOX: no_edge · price $34.86 · fair value $42.31 · gap +21.4%
 - CIFR: no_model · price $15.94
 - CORZ: no_model · price $17.37
@@ -135,7 +110,6 @@ Attack these before you trust any number above.
 - HUT: no_model · price $77.00
 - IDCC: fair · price $335.15 · fair value $296.08 · gap -11.7%
 - ITRI: no_edge · price $91.38 · fair value $100.83 · gap +10.3%
-- MARA: no_model · price $13.28
 
 ---
 
