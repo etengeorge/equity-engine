@@ -142,41 +142,5 @@
    "BNED"
   ],
   "source": "yfinance"
- },
- {
-  "id": "1d05cd45-d499-3e6b-a59b-ce5ae4676f0a",
-  "ts": "2026-06-26T13:31:26+00:00",
-  "title": "Robinhood initiation, Nike downgrade among today's top calls on Wall Street",
-  "summary": "Robinhood initiation, Nike downgrade among today's top calls on Wall Street",
-  "publisher": "The Fly",
-  "url": "https://finance.yahoo.com/news/cvs-upgraded-general-mills-downgraded-135035702.html",
-  "tickers": [
-   "BNED"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "f5d87b57-49f3-35bc-9709-3900df9129ad",
-  "ts": "2026-06-25T21:01:12+00:00",
-  "title": "Why Barnes & Noble Education Stock Jumped 20% Today",
-  "summary": "Why did Barnes & Noble Education jump 20% on a revenue miss? A surprise profit and a new dividend grabbed investors' attention.",
-  "publisher": "Motley Fool",
-  "url": "https://www.fool.com/investing/2026/06/25/why-barnes-noble-education-stock-jumped-20-today/",
-  "tickers": [
-   "BNED"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "0b094c02-0a81-3c29-92b9-fa55acf35a15",
-  "ts": "2026-06-25T12:55:00+00:00",
-  "title": "NYSE Content Update: Doncasters Raises $919 Million Ahead of NYSE Trading Debut",
-  "summary": "The New York Stock Exchange (NYSE) provides a daily pre-market update directly from the NYSE Trading Floor. Access today's NYSE Pre-market update for market insights before trading begins.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/nyse-content-doncasters-raises-919-125500005.html",
-  "tickers": [
-   "BNED"
-  ],
-  "source": "yfinance"
  }
 ]

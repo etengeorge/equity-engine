@@ -1,97 +1,73 @@
-# MEC — MAYVILLE ENGINEERING COMPANY INC
-*Industrials · brief generated 2026-10-23 · selected as **opportunistic***
+# CXW — CORECIVIC REIT
+*Industrials · brief generated 2026-10-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 3% of 150 Industrials peers (97th pct)
-- baseline gap +212%
-- 5d move -9%
-- 21d move -26%
-- never researched
-- urgency score 6.38
+- rotation position 301/1956
 
 ## Market
 | | |
 |---|---|
-| price | $12.94 |
-| market cap | $330.0M |
-| 5d / 21d / 63d / 252d | -8.9% / -25.8% / -57.3% / -17.7% |
-| 60d avg daily $ volume | $10.9M |
-| beta (vs IWM) | 0.66 (R²=0.053) |
-| 5d volume vs 60d average | 0.5x |
+| price | $31.08 |
+| market cap | $3.1B |
+| 5d / 21d / 63d / 252d | +6.0% / -3.6% / +3.9% / +69.2% |
+| 60d avg daily $ volume | $62.6M |
+| beta (vs IWM) | 1.35 (R²=0.193) |
+| 5d volume vs 60d average | 0.6x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 98% / debt 2% |
+| WACC weights | equity 70% / debt 30% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$51.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$26.9M', '$77.7M', '$23.8M']
-Enterprise value **$336.2M** · FCFF yield **+15.2%**
+Normalized FCFF base **$191.5M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$61.3M', '$206.7M', '$166.5M']
+Enterprise value **$4.3B** · FCFF yield **+4.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 8.7% − 1pt | -19.0% |
-| **8.7% (point)** | **-16.2%** |
-| 8.7% + 1pt | -13.6% |
+| 10.7% − 1pt | +15.1% |
+| **10.7% (point)** | **+18.4%** |
+| 10.7% + 1pt | +21.6% |
 
 
-> **Stock compensation is 10% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$46.8M** and an implied growth of **-14.4%** instead of -16.2%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 17% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$166.8M** and an implied growth of **+22.1%** instead of +18.4%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+8.9%** (5y revenue CAGR +8.9%).
-Gap under that baseline: **+212.1%** (fair value $40.38 vs price $12.94).
+Naive baseline for comparison: **+3.0%** (5y revenue CAGR +3.0%).
+Gap under that baseline: **-64.3%** (fair value $11.10 vs price $31.08).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **97th percentile** of 150 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +229.6%).
+Cohort: **20th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -42.7%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_132%_on_reported_debt_debt_likely_understated`
-- `speculative_cost_of_debt_but_only_2%_debt_weight`
+- `possible_trough_cycle_base_newest_fcf_0.37x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926091110/tmb-20260630x10q.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926090424/tmb-20260804x8k.htm
-- 2026-05-21 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926064802/tmb-20260519x8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926056257/tmb-20260331x10q.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926055669/tmb-20260505x8k.htm
-- 2026-04-23 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926047745/tmb-20260421x8k.htm
-- 2026-03-10 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926025849/tmb-20260421xdef14a.htm
-- 2026-03-04 **10-K** — https://www.sec.gov/Archives/edgar/data/1766368/000110465926023496/tmb-20251231x10k.htm
-- 2026-03-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926022896/tmb-20260303x8k.htm
-- 2026-02-26 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225x8k.htm
+- 2026-09-25 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526402817/d255504d8k.htm
+- 2026-08-10 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526341335/d118761d8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1070985/000119312526337295/cxw-20260630.htm
+- 2026-08-05 **8-K** — items 1.01,2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526335068/d174637d8k.htm
+- 2026-08-05 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526335025/d173726d8k.htm
+- 2026-07-13 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526301454/d98053d8k.htm
+- 2026-07-06 **8-K** — items 1.01,2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526295590/d110529d8k.htm
+- 2026-05-18 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526227820/d125480d8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/cxw-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1070985/000119312526208929/d302982d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1766368/000110465926090424/tmb-20260804xex99d1.htm
+- **2026-09-25** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526402817/d255504dex991.htm
+- **2026-08-10** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526341335/d118761dex991.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526335068/d174637dex991.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526335025/d173726dex991.htm
+- **2026-07-13** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526301454/d98053dex991.htm
+- **2026-07-06** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, completion of an acquisition or disposition, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1070985/000119312526295590/d110529dex991.htm
 
 ## News on this company — last 90 days
-*11 items held; showing the 11 most recent. Headlines and summaries only — open the URL for the full story.*
-
-- **2026-09-03** · 3 Reasons MEC is Risky and 1 Stock to Buy Instead — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-reasons-mec-risky-1-174318597.html
-  > Over the past six months, Mayville Engineering’s stock price fell to $19.25. Shareholders have lost 8.8% of their capital, which is disappointing considering the S&P 500 has climbed by 12%. This may have investors wondering how to approach 
-- **2026-08-26** · Spotting Winners: Mayville Engineering (NYSE:MEC) And Engineered Components and Systems Stocks In Q2 — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/spotting-winners-mayville-engineering-nyse-153113667.html
-  > As the craze of earnings season draws to a close, here’s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at engineered components and systems stocks, starting with Mayville Engineering (NYS
-- **2026-08-24** · 3 Unprofitable Stocks with Questionable Fundamentals — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-questionable-fundamentals-062536306.html
-  > Unprofitable companies face headwinds as they struggle to keep operating expenses under control. Some may be investing heavily, but the majority fail to convert spending into sustainable growth.
-- **2026-08-18** · Allient, Mayville Engineering, Graham Corporation, Titan International, and Northwest Pipe Stocks Trade Down, What You Need To Know — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/allient-mayville-engineering-graham-corporation-220533386.html
-  > A number of stocks fell in the morning session after the latest industrial production report showed slower-than-expected growth for July. Data from the Federal Reserve indicated that U.S. industrial production rose by 0.2%, which was half o
-- **2026-08-17** · Is the Options Market Predicting a Spike in Mayville Engineering Stock? — *Zacks* — https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-mayville-164000792.html
-  > Investors need to pay close attention to MEC stock based on the movements in the options market lately.
-- **2026-08-16** · 1 High-Flying Stock to Consider Right Now and 2 Facing Headwinds — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-high-flying-stock-consider-152500030.html
-  > Expensive stocks typically earn their valuations through superior growth rates that other companies simply can’t match. The flip side though is that these lofty expectations make them particularly susceptible to drawdowns when market sentim
-- **2026-08-12** · 5 Revealing Analyst Questions From Mayville Engineering’s Q2 Earnings Call — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-mayville-215722784.html
-  > Mayville Engineering’s second quarter saw revenue and profit come in well above Wall Street’s expectations, but the market reacted negatively to ongoing cost pressures and near-term margin constraints. Management attributed the strong sales
-- **2026-08-12** · Mayville Engineering (MEC) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/mayville-engineering-mec-q2-2026-earnings-call-transcript/
-  > Datacenter segment surged 476% as management raised full-year guidance.
-- **2026-08-08** · Mayville Engineering Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/mayville-engineering-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Mayville Engineering (NYSE:MEC) reported second-quarter sales growth that exceeded management’s expectations, driven by momentum in data center and critical power programs and an early recovery in commercial vehicles. The company raised its
-- **2026-08-05** · Mayville Engineering Co Inc (MEC) (Q2 2026) Earnings Call Highlights: Data Center Growth Drives ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/mayville-engineering-co-inc-mec-210624180.html
-  > Strong quarterly results fueled by a 173% surge in data center and critical power revenue, offset by launch costs and labor constraints.
-- **2026-08-04** · Mayville Engineering (MEC) Q2 Earnings and Revenues Surpass Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/mayville-engineering-mec-q2-earnings-230014590.html
-  > Mayville Engineering (MEC) delivered earnings and revenue surprises of +187.50% and +8.88%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -110,12 +86,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
-- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
-- **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
-- **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
-- **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
-- **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
-- **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
+- **2026-10-30** · Safety Zone; M/T KALAHARI, Gulf of America, Pascagoula, MS — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22269/safety-zone-mt-kalahari-gulf-of-america-pascagoula-ms
+- **2026-10-30** · Safety Zone; S.S. UNITED STATES Dead Ship Tow, Sector Mobile Captain of the Port Zone, Mobile, AL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22249/safety-zone-ss-united-states-dead-ship-tow-sector-mobile-captain-of-the-port-zone-mobile-al
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22223/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22222/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Fisheries of the Exclusive Economic Zone off Alaska; Pollock in Statistical Area 630 in the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22218/fisheries-of-the-exclusive-economic-zone-off-alaska-pollock-in-statistical-area-630-in-the-gulf-of
+- **2026-10-30** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From Rhode Island to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22217/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-rhode
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

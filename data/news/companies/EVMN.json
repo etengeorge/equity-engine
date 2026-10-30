@@ -118,41 +118,5 @@
    "EVMN"
   ],
   "source": "yfinance"
- },
- {
-  "id": "dddfd82b-215b-34dd-b203-f4557b3430a4",
-  "ts": "2026-06-30T15:15:00+00:00",
-  "title": "EVMN Stock Tanks as Phase IIb Urticaria Study Misses Primary Goal",
-  "summary": "Evommune shares fall after its phase IIb CSU study misses the primary endpoint, prompting the company to halt further development of EVO756 for the indication.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/healthcare/articles/evmn-stock-tanks-phase-iib-151500772.html",
-  "tickers": [
-   "EVMN"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "0b797883-565a-3c1a-aac0-f719dea37978",
-  "ts": "2026-06-29T15:28:44+00:00",
-  "title": "Evommune terminates oral drug\u2019s development in CSU",
-  "summary": "While Evommune is terminating development of the oral drug in CSU, trials in AD and migraine prophylaxis will continue.",
-  "publisher": "Clinical Trials Arena",
-  "url": "https://www.clinicaltrialsarena.com/news/evommune-terminates-oral-drugs-development-in-csu/",
-  "tickers": [
-   "EVMN"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "370e7311-48ed-3398-b83c-2d7d064814ed",
-  "ts": "2026-06-29T14:16:29+00:00",
-  "title": "Evommune Shares Slide After Phase 2b CSU Trial Misses Main Goal (EVMN)",
-  "summary": "Evommune, Inc. (NYSE:EVMN) shares dropped 17% on Monday after the company announced that its Phase 2b study of EVO756 in chronic spontaneous urticaria (CSU) failed to achieve its primary efficacy endpoint.",
-  "publisher": "InvestorsHub",
-  "url": "https://investorshub.advfn.com/market-news/article/31123/evommune-shares-slide-after-phase-2b-csu-trial-misses-main-goal-evmn",
-  "tickers": [
-   "EVMN"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -1,18 +1,18 @@
-# IDYA — IDEAYA BIOSCIENCES
-*Health Care · brief generated 2026-10-23 · selected as **rotation***
+# TNGX — TANGO THERAPEUTICS
+*Health Care · brief generated 2026-10-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 299/1956
+- rotation position 307/1956
 
 ## Market
 | | |
 |---|---|
-| price | $36.12 |
-| market cap | $3.5B |
-| 5d / 21d / 63d / 252d | +6.7% / -3.6% / +2.0% / +23.7% |
-| 60d avg daily $ volume | $29.3M |
-| beta (vs IWM) | 1.11 (R²=0.202) |
-| 5d volume vs 60d average | 0.9x |
+| price | $22.53 |
+| market cap | $3.8B |
+| 5d / 21d / 63d / 252d | -19.3% / -9.7% / -17.1% / +189.2% |
+| 60d avg daily $ volume | $79.1M |
+| beta (vs IWM) | 1.11 (R²=0.028) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 1.8x |
 | balance sheet as of | 2026-06-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
@@ -30,7 +30,7 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $36.12).
+Gap under that baseline: **n/a** (fair value n/a vs price $22.53).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,10 +39,10 @@ Gap under that baseline: **n/a** (fair value n/a vs price $36.12).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=310) | 12.1x | 1.9x / 4.1x / 16.0x | $12.93 / $17.92 / $44.93 |
-| p_tbv (n=325) | 2.9x | 1.8x / 3.8x / 7.4x | $22.37 / $47.54 / $92.52 |
+| ev_sales (n=308) | 44.6x | 2.0x / 4.4x / 17.4x | $6.75 / $7.63 / $12.43 |
+| p_tbv (n=325) | 3.7x | 1.9x / 3.9x / 7.9x | $11.56 / $23.98 / $48.15 |
 
-Blended midpoint **$32.73** vs price $36.12 — gap **-9.4%**.
+Blended midpoint **$15.81** vs price $22.53 — gap **-29.8%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -51,29 +51,46 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
-- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526332774/idya-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526331381/idya-20260804.htm
-- 2026-06-23 **8-K** — items 5.07,8.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526279427/d39019d8k.htm
-- 2026-06-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526265833/d110954d8k.htm
-- 2026-06-03 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526254476/d53214d8k.htm
-- 2026-06-01 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526251399/d138848d8k.htm
-- 2026-05-05 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526206806/d949251d8k.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526206357/idya-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1676725/000119312526204944/idya-20260505.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1676725/000119312526191501/idya-20260429.htm
+- 2026-10-23 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613d8k.htm
+- 2026-08-11 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526344997/d131656d8k.htm
+- 2026-08-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526343434/tngx-20260811.htm
+- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1819133/000119312526343424/tngx-20260630.htm
+- 2026-08-06 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526338480/d41277d8k.htm
+- 2026-06-23 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526279788/d79260d8k.htm
+- 2026-06-10 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526266078/d81492d8k.htm
+- 2026-06-08 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526260679/d158334d8k.htm
+- 2026-06-04 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526257760/d149262d8k.htm
+- 2026-05-13 **8-K** — items 2.02,5.02,9.01 — https://www.sec.gov/Archives/edgar/data/1819133/000119312526221677/tngx-20260513.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1676725/000119312526331381/idya-ex99_1.htm
+- **2026-10-23** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613dex991.htm
+- **2026-10-23** · EX-99.2 · presentation — EX-99.2 *(item: Reg FD disclosure, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613dex992.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819133/000119312526343434/tngx-ex99_1.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*7 items held; showing the 7 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-04** · Tango Therapeutics (TNGX) At 3.7x P B As Pullback Tests Whether It Looks Pricey — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/tango-therapeutics-tngx-3-7x-070846554.html
+  > Tango Therapeutics stock reaction and recent performance Tango Therapeutics (TNGX) has drawn investor attention after recent trading moves, with the stock closing at US$22.76 on the latest trading day. The price change offers a fresh prompt
+- **2026-09-03** · Tango Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tango-therapeutics-announces-inducement-grants-200500972.html
+  > BOSTON, Sept. 03, 2026 (GLOBE NEWSWIRE) -- Tango Therapeutics, Inc. (NASDAQ: TNGX) (Tango Therapeutics or the Company) today announced that, effective September 1, 2026, the Compensation Committee of Tango Therapeutics' Board of Directors g
+- **2026-09-01** · Tango Therapeutics to Participate in the 2026 Cantor Global Healthcare Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tango-therapeutics-participate-2026-cantor-110000150.html
+  > BOSTON, Sept. 01, 2026 (GLOBE NEWSWIRE) -- Tango Therapeutics, Inc. (NASDAQ: TNGX) (“Tango Therapeutics” or the “Company”) today announced that members of the management team are scheduled to participate in a fireside chat at the 2026 Canto
+- **2026-08-12** · TNGX Stock Dips 5% as Q2 Earnings Miss Estimates on Higher Expenses — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/tngx-stock-dips-5-q2-144600756.html
+  > Tango Therapeutics stock falls 5% on a wider-than-expected Q2 loss, reflecting higher operating expenses, while pipeline progress remains in focus.
+- **2026-08-11** · Tango Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Highlights — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tango-therapeutics-reports-second-quarter-110000535.html
+  > Company continues to prepare for late-stage clinical advancement of vopimetostat in combination with daraxonrasib for pancreatic cancer following positive Phase 1/2 data Phase 1/2 data from combination study of vopimetostat + RAS(ON) inhibi
+- **2026-08-06** · Tango Therapeutics Announces Executive Chair Transition — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tango-therapeutics-announces-executive-chair-222400338.html
+  > BOSTON, Aug. 06, 2026 (GLOBE NEWSWIRE) -- Tango Therapeutics, Inc. (NASDAQ: TNGX), a clinical-stage biotechnology company committed to discovering and delivering the next generation of precision cancer medicines, today announced that Dr. Ba
+- **2026-08-06** · Tango Therapeutics Announces Executive Chair Transition — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tango-therapeutics-announces-executive-chair-222400484.html
+  > BOSTON, Aug. 06, 2026 (GLOBE NEWSWIRE) -- Tango Therapeutics, Inc. (NASDAQ: TNGX), a clinical-stage biotechnology company committed to discovering and delivering the next generation of precision cancer medicines, today announced that Dr. Ba
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
@@ -92,12 +109,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
-- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
-- **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
-- **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
-- **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
-- **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
-- **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
+- **2026-10-30** · Safety Zone; M/T KALAHARI, Gulf of America, Pascagoula, MS — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22269/safety-zone-mt-kalahari-gulf-of-america-pascagoula-ms
+- **2026-10-30** · Safety Zone; S.S. UNITED STATES Dead Ship Tow, Sector Mobile Captain of the Port Zone, Mobile, AL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22249/safety-zone-ss-united-states-dead-ship-tow-sector-mobile-captain-of-the-port-zone-mobile-al
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22223/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22222/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Fisheries of the Exclusive Economic Zone off Alaska; Pollock in Statistical Area 630 in the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22218/fisheries-of-the-exclusive-economic-zone-off-alaska-pollock-in-statistical-area-630-in-the-gulf-of
+- **2026-10-30** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From Rhode Island to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22217/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-rhode
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

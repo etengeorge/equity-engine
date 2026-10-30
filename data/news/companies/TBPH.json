@@ -106,29 +106,5 @@
    "TBPH"
   ],
   "source": "yfinance"
- },
- {
-  "id": "cd0e61a0-f7d5-323a-bb42-bb4637df8bfb",
-  "ts": "2026-07-01T10:10:42+00:00",
-  "title": "Zymeworks (ZYME) Stock Looks Fully Valued Despite Its 205% Three Year Run",
-  "summary": "Zymeworks stock has delivered a very strong 204.7% return over the past three years, yet the current valuation checks and market multiples suggest the shares may now be pricing in a lot of good news. The 204.7% three year return points to investors already paying up for Zymeworks' progress and future potential. The planned US$929m cash acquisition of Theravance Biopharma may support longer term revenue and earnings. However, integration execution and the funding structure can add risk to how...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/zymeworks-zyme-stock-looks-fully-101042987.html",
-  "tickers": [
-   "TBPH"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "9113f2a0-dc58-3944-a1bd-2dca41266d1e",
-  "ts": "2026-06-30T12:54:00+00:00",
-  "title": "Theravance Stock Down 3% After Zymeworks Announces Buyout",
-  "summary": "TBPH falls after agreeing to a $929 million all-cash acquisition by Zymeworks, following a strategic review triggered by its failed ampreloxetine program.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/theravance-stock-down-3-zymeworks-125400078.html",
-  "tickers": [
-   "TBPH"
-  ],
-  "source": "yfinance"
  }
 ]

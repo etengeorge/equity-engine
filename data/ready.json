@@ -1,34 +1,34 @@
 {
-  "screen_utc": "2026-10-23T15:20:34+00:00",
-  "price_asof": "2026-10-22",
+  "screen_utc": "2026-10-30T11:26:29+00:00",
+  "price_asof": "2026-10-29",
   "universe": 1956,
-  "modelled": 1070,
-  "modelled_pct": 54.7,
+  "modelled": 1071,
+  "modelled_pct": 54.8,
   "news": {
-    "generated_utc": "2026-10-23T15:20:36+00:00",
+    "generated_utc": "2026-10-30T11:26:30+00:00",
     "sectors": {},
     "macro": 86,
     "market": 0,
     "companies": 0,
-    "articles_new": 1,
+    "articles_new": 43,
     "candidates": 450,
-    "elapsed_s": 234.9
+    "elapsed_s": 218.8
   },
   "picks": [
-    "TDS",
-    "SBCF",
-    "PRK",
-    "CBU",
-    "IDYA",
-    "WT",
-    "NEWT",
-    "MEC",
-    "RAIL",
-    "CBZ"
+    "CXW",
+    "CLMT",
+    "GRAL",
+    "OSIS",
+    "MIAX",
+    "TNGX",
+    "EFOR",
+    "BELFB",
+    "BELFA",
+    "RES"
   ],
   "stages": {
-    "screen": "2026-10-23T15:24:43+00:00",
-    "news": "2026-10-23T15:24:31+00:00",
-    "pick": "2026-10-23T15:24:43+00:00"
+    "screen": "2026-10-30T11:30:21+00:00",
+    "news": "2026-10-30T11:30:09+00:00",
+    "pick": "2026-10-30T11:30:21+00:00"
   }
 }

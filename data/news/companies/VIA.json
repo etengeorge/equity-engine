@@ -34,41 +34,5 @@
    "VIA"
   ],
   "source": "yfinance"
- },
- {
-  "id": "c144218a-0bee-3ed5-ab5a-b5df9b57ad47",
-  "ts": "2026-06-30T13:47:10+00:00",
-  "title": "Uber Ends Waymo Robotaxi Offering In Phoenix",
-  "summary": "Uber's limited Phoenix pilot with Waymo ended after hundreds of thousands of trips, raising fresh investor focus on robotaxi platform risk.",
-  "publisher": "GuruFocus.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/uber-ends-waymo-robotaxi-offering-134710487.html",
-  "tickers": [
-   "VIA"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "4cdcec25-7cf4-3d21-81d5-360be8b7415a",
-  "ts": "2026-06-30T12:30:46+00:00",
-  "title": "Waymo and Uber end Phoenix robotaxi partnership",
-  "summary": "The nearly three-year pilot wrapped up last month after hundreds of thousands of trips; Uber says it will announce a new autonomous vehicle partner in the city",
-  "publisher": "Quartz",
-  "url": "https://qz.com/waymo-uber-phoenix-robotaxi-partnership-ends-063026",
-  "tickers": [
-   "VIA"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "58757207-330c-3b5c-b253-5b6408c381e4",
-  "ts": "2026-06-25T16:18:00+00:00",
-  "title": "U.S. Conference of Mayors Adopts Landmark Transit Modernization Resolution, Sponsored by West Sacramento, CA Mayor Martha Guerrero",
-  "summary": "WEST SACRAMENTO, Calif., June 25, 2026--The U.S. Conference of Mayors (USCM) has adopted a landmark resolution calling for the fundamental modernization of public transit systems, shifting the national focus from legacy input-based models to performance-driven, technology-integrated service.",
-  "publisher": "Business Wire",
-  "url": "https://finance.yahoo.com/economy/policy/articles/u-conference-mayors-adopts-landmark-161800572.html",
-  "tickers": [
-   "VIA"
-  ],
-  "source": "yfinance"
  }
 ]

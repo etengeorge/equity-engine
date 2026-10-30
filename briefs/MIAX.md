@@ -1,69 +1,59 @@
-# WT — WISDOMTREE
-*Financials · brief generated 2026-10-23 · selected as **rotation***
+# MIAX — MIAMI INTERNATIONAL HOLDINGS
+*Financials · brief generated 2026-10-30 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 300/1956
+- rotation position 305/1956
 
 ## Market
 | | |
 |---|---|
-| price | $21.21 |
-| market cap | $3.2B |
-| 5d / 21d / 63d / 252d | -1.9% / -10.6% / +9.2% / +66.9% |
-| 60d avg daily $ volume | $61.1M |
-| beta (vs IWM) | 1.04 (R²=0.293) |
-| 5d volume vs 60d average | 0.8x |
+| price | $31.44 |
+| market cap | $3.1B |
+| 5d / 21d / 63d / 252d | -10.1% / -6.1% / -33.2% / -27.2% |
+| 60d avg daily $ volume | $59.0M |
+| beta (vs IWM) | None (R²=0.027) · **sector_median** |
+| 5d volume vs 60d average | 0.7x |
 | balance sheet as of | 2026-06-30 (10-Q) |
-| WACC weights | equity 75% / debt 25% |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | n/a |
-| cost of equity | +10.7% |
-| justified P/TBV | None |
-| actual P/TBV | None |
-| tangible book / share | n/a |
-| implied gap | n/a |
+| sustainable ROTCE | -10.8% |
+| cost of equity | +9.6% |
+| justified P/TBV | -1.67 |
+| actual P/TBV | 4.81 |
+| tangible book / share | $6.53 |
+| implied gap | -134.8% |
 
-## What the sector cohort pays for this
-*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
-
-| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
-|---|---|---|---|
-| ev_ebitda (n=260) | 27.4x | 6.0x / 9.0x / 13.6x | $0.63 / $3.50 / $7.99 |
-| ev_sales (n=230) | 8.1x | 1.5x / 3.6x / 23.4x | $-0.16 / $6.43 / $71.20 |
-| ev_gross_profit (n=37) | 9.1x | 2.7x / 4.0x / 10.2x | $2.51 / $6.28 / $24.16 |
-
-Blended midpoint **$5.40** vs price $21.21 — gap **-74.5%**.
-
-> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
-
-Cohort: **not ranked** — too few comparable Financials names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **8th percentile** of 338 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -102.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `no_usable_return_on_tangible_equity`
+- `beta_from_sector_median_0.85(unreliable_r2_0.027_raw_0.48)`
+- `goodwill_and_intangibles_26%_of_book`
+- `loss_year_in_window`
 
 ## Recent filings
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/880631/000121465926009661/wti-20260630.htm
-- 2026-07-31 **8-K** — items 2.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926009324/z7282648k.htm
-- 2026-06-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/880631/000121465926007575/b6182648k.htm
-- 2026-05-29 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926006842/b5282648k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/880631/000121465926005680/wti-20260331.htm
-- 2026-05-01 **8-K** — items 1.01,2.01,2.02,7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926005379/d4292638k.htm
-- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/880631/000121465926005251/wti-20251231.htm
-- 2026-03-30 **8-K** — items 1.01,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003985/o3272608k.htm
-- 2026-03-24 **8-K** — items 3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003676/p3232608k.htm
-- 2026-03-23 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/880631/000121465926003657/y3232618k.htm
+- 2026-10-29 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000044/miax-20261029.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1438472/000162828026054575/miax-20260630.htm
+- 2026-08-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000040/miax-20260805.htm
+- 2026-07-21 **8-K** — items 8.01 — https://www.sec.gov/Archives/edgar/data/1438472/000162828026049014/miax-20260720.htm
+- 2026-06-22 **8-K** — items 3.02 — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000036/miax-20260617.htm
+- 2026-06-18 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000032/miax-20260616.htm
+- 2026-06-17 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000030/miax-20260615.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/1438472/000162828026032565/miax-20260331.htm
+- 2026-05-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1438472/000162828026031291/miax-20260506.htm
+- 2026-04-27 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1438472/000162828026027312/miax-20260426.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-07-31** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/880631/000121465926009324/ex99_1.htm
+- **2026-10-29** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000044/miax3q26earningsreleasef.htm
+- **2026-08-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1438472/000143847226000040/miaxq22026earningsreleas.htm
 
 ## News on this company — last 90 days
 *No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
@@ -85,12 +75,12 @@ Attack these before you trust any number above.
 ## Market and macro context
 
 *Rules, releases and agency actions:*
-- **2026-10-23** · SEC Announces Fiscal Year 2027 Examination Priorities — *sec* — https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities
-- **2026-10-23** · Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult
-- **2026-10-23** · Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the
-- **2026-10-23** · Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period
-- **2026-10-23** · Irradiated Fuel Reprocessing Plants — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants
-- **2026-10-23** · Airworthiness Directives; The Boeing Company Airplanes; Correction — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction
+- **2026-10-30** · Safety Zone; M/T KALAHARI, Gulf of America, Pascagoula, MS — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22269/safety-zone-mt-kalahari-gulf-of-america-pascagoula-ms
+- **2026-10-30** · Safety Zone; S.S. UNITED STATES Dead Ship Tow, Sector Mobile Captain of the Port Zone, Mobile, AL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22249/safety-zone-ss-united-states-dead-ship-tow-sector-mobile-captain-of-the-port-zone-mobile-al
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22223/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22222/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+- **2026-10-30** · Fisheries of the Exclusive Economic Zone off Alaska; Pollock in Statistical Area 630 in the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22218/fisheries-of-the-exclusive-economic-zone-off-alaska-pollock-in-statistical-area-630-in-the-gulf-of
+- **2026-10-30** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From Rhode Island to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22217/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-rhode
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

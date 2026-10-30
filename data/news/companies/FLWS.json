@@ -262,29 +262,5 @@
    "FLWS"
   ],
   "source": "yfinance"
- },
- {
-  "id": "ceec83d0-c35e-36c6-b845-e85546bd98e4",
-  "ts": "2026-06-30T13:23:01+00:00",
-  "title": "3 Stocks Under $10 We Think Twice About",
-  "summary": "Stocks trading in the $1-10 range are generally smaller players with less risk than their penny stock counterparts. But that doesn\u2019t mean the underlying businesses are cheap, and we advise caution as many have questionable fundamentals.",
-  "publisher": "StockStory",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-10-think-132301556.html",
-  "tickers": [
-   "FLWS"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "664247cb-9566-382f-a1ec-b03e87b7553d",
-  "ts": "2026-06-26T14:40:25+00:00",
-  "title": "3 Unprofitable Stocks We Approach with Caution",
-  "summary": "Running at a loss can be a red flag. Many of these businesses face mounting challenges as competition increases and funding becomes harder to secure.",
-  "publisher": "StockStory",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-approach-caution-144025165.html",
-  "tickers": [
-   "FLWS"
-  ],
-  "source": "yfinance"
  }
 ]

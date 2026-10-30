@@ -70,29 +70,5 @@
    "XMAX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "4c536721-05f8-313c-b093-0e7f18f07466",
-  "ts": "2026-06-29T12:00:00+00:00",
-  "title": "XMax Inc. Added to Russell 3000\u00ae Index",
-  "summary": "LOS ANGELES, June 29, 2026 (GLOBE NEWSWIRE) -- XMax Inc. (NASDAQ: XMAX; \u201cXMax\u201d or the \u201cCompany\u201d), an artificial intelligence infrastructure provider and a distributor of contemporary-styled residential and commercial furniture, today announced that it has been included in the Russell 3000\u00ae Index as part of the 2026 annual reconstitution. The Russell 3000 Index measures the performance of the largest 3,000 U.S. companies, representing approximately 98% of the investable U.S. equity market. The in",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/xmax-inc-added-russell-3000-120000718.html",
-  "tickers": [
-   "XMAX"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "db53dabd-a6ed-3510-ab93-4b4a56a6f6d8",
-  "ts": "2026-06-26T23:00:00+00:00",
-  "title": "XMax Announces Up to Approximately US$25 million in AI API-Related Service Contracts and Expansion into GPU-as-a-Service",
-  "summary": "LOS ANGELES, June 26, 2026 (GLOBE NEWSWIRE) -- XMax Inc. (Nasdaq: XMAX) (\"XMax\" or the \"Company\") today announced a significant commercial milestone in its artificial intelligence business, reporting that since launching its AI platform initiative, the Company has executed multiple AI model API service agreements with an aggregate contractual value of up to approximately US$25 million, subject to actual service usage and consumption levels. The executed agreements cover enterprise AI model API s",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/technology/ai/articles/xmax-announces-approximately-us-25-230000192.html",
-  "tickers": [
-   "XMAX"
-  ],
-  "source": "yfinance"
  }
 ]

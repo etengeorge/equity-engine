@@ -106,17 +106,5 @@
    "ASPN"
   ],
   "source": "yfinance"
- },
- {
-  "id": "f50926fb-9fcc-3b2c-8d23-5313798753f9",
-  "ts": "2026-06-28T22:00:00+00:00",
-  "title": "Beerenberg Prevails in Patent Case Against Aspen Aerogels",
-  "summary": "SEOUL, South Korea, June 28, 2026--The Korean Patent Court has invalidated three of Aspen Aerogels\u2019 patents related to improved hydrophobic aerogel material.",
-  "publisher": "Business Wire",
-  "url": "https://finance.yahoo.com/technology/articles/beerenberg-prevails-patent-case-against-220000865.html",
-  "tickers": [
-   "ASPN"
-  ],
-  "source": "yfinance"
  }
 ]
