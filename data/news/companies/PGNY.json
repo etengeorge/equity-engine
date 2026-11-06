@@ -1,11 +1,35 @@
 [
  {
+  "id": "c82f2141-96f3-3e43-8796-59e5e88a42e8",
+  "ts": "2026-11-06T17:29:04+00:00",
+  "title": "These Stocks Power Through Rough Week For Stock Market, Trade In Buy Zones",
+  "summary": "In a week that saw the stock market take a bruising, roughly 800 stocks still made 52-week highs. Several of those high-rated stocks traded in buy zones Friday.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/stock-lists/new-highs/stock-market-buy-zones-new-highs/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "PGNY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "07e40926-a212-3532-99b3-b86f4f1d97ee",
   "ts": "2026-11-05T17:13:45+00:00",
   "title": "Progyny (PGNY) Q3 2026 Earnings Call Transcript",
   "summary": "Record selling season and raised guidance as new covered lives climb.",
   "publisher": "Motley Fool",
   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/progyny-pgny-q3-2026-earnings-call-transcript/",
+  "tickers": [
+   "PGNY"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "76527f76-6331-3171-8d09-512b37a4fa42",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "Progyny, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Progyny, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-progyny-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "PGNY"
   ],

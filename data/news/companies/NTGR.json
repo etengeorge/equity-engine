@@ -36,6 +36,18 @@
   "source": "yfinance"
  },
  {
+  "id": "553d9681-7900-3017-8ea8-e6f0ce24723d",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "NETGEAR, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of NETGEAR, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-netgear-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "NTGR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "47ab0671-b366-3b40-a8ad-74b12c2616b2",
   "ts": "2026-11-05T03:14:35+00:00",
   "title": "What NETGEAR (NTGR) Said on Its Q3 Earnings Call",

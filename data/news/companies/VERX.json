@@ -12,6 +12,18 @@
   "source": "yfinance"
  },
  {
+  "id": "43809c22-639f-3514-9cdc-d46e25de5a7f",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "Vertex, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Vertex, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-vertex-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "VERX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "db5809e7-8ae5-3466-bae7-d64f01792e46",
   "ts": "2026-11-05T11:10:04+00:00",
   "title": "Vertex Inc (VERX) Q3 2026 Earnings Call Highlights: Revenue Tops Guidance as Cloud Growth ...",

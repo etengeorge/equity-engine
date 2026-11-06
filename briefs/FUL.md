@@ -1,105 +1,93 @@
-# CENX — CENTURY ALUMINUM
+# FUL — HB FULLER
 *Materials · brief generated 2026-11-06 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 314/1956
+- rotation position 324/1956
 
 ## Market
 | | |
 |---|---|
-| price | $30.07 |
-| market cap | $3.0B |
-| 5d / 21d / 63d / 252d | -13.2% / -16.5% / -41.3% / +5.5% |
-| 60d avg daily $ volume | $74.7M |
-| beta (vs IWM) | 1.47 (R²=0.183) |
-| 5d volume vs 60d average | 0.7x |
-| balance sheet as of | 2026-09-30 (10-Q) |
-| WACC weights | equity 84% / debt 16% |
+| price | $50.22 |
+| market cap | $2.7B |
+| 5d / 21d / 63d / 252d | +1.1% / +1.1% / -17.4% / -10.7% |
+| 60d avg daily $ volume | $40.1M |
+| beta (vs IWM) | 0.96 (R²=0.265) |
+| 5d volume vs 60d average | 0.9x |
+| balance sheet as of | 2026-08-29 (10-Q) |
+| WACC weights | equity 57% / debt 43% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$18.1M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$84.8M', '$-106.9M', '$10.6M']
-Enterprise value **$3.0B** · FCFF yield **+0.6%**
+Normalized FCFF base **$281.2M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$121.2M', '$163.2M', '$259.3M']
+Enterprise value **$4.7B** · FCFF yield **+6.0%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 11.7% − 1pt | +80.6% |
-| **11.7% (point)** | **+85.7%** |
-| 11.7% + 1pt | +90.5% |
+| 9.8% − 1pt | +4.2% |
+| **9.8% (point)** | **+7.5%** |
+| 9.8% + 1pt | +10.6% |
 
 
-Naive baseline for comparison: **+9.5%** (5y revenue CAGR +9.5%).
-Gap under that baseline: **-90.8%** (fair value $2.76 vs price $30.07).
+> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$259.9M** and an implied growth of **+9.4%** instead of +7.5%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **+4.5%** (5y revenue CAGR +4.5%).
+Gap under that baseline: **-20.4%** (fair value $39.97 vs price $50.22).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **23th percentile** of 39 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -42.1%).
+Cohort: **67th percentile** of 39 Materials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +28.5%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `negative_fcf_year_in_window`
-- `lumpy_fcff_spread_50.0x_of_mean`
+- `possible_trough_cycle_base_newest_fcf_0.47x_oldest_growth_applied_to_a_trough_understates_value`
 
 ## Recent filings
-- 2026-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/949157/000162828026071033/cenx-20260930.htm
-- 2026-11-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/949157/000162828026071024/cenx-20261105.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/949157/000162828026054308/cenx-20260630.htm
-- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/949157/000162828026054300/cenx-20260806.htm
-- 2026-06-17 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/949157/000162828026043936/cenx-20260615.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/949157/000162828026032094/cenx-20260331.htm
-- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/949157/000162828026032082/cenx-20260507.htm
-- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/949157/000155278126000269/e26009_cenx-def14a.htm
-- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/949157/000162828026013788/cenx-20251231.htm
-- 2026-03-03 **8-K** — items 4.02 — https://www.sec.gov/Archives/edgar/data/949157/000162828026013781/cenx-20260302.htm
+- 2026-10-22 **8-K** — items 1.01,1.02,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926033155/ful20261020_8k.htm
+- 2026-10-19 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926032883/ful20261016_8k.htm
+- 2026-10-09 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926032400/ful20261008_8k.htm
+- 2026-10-06 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926032108/ful20261005d_8k.htm
+- 2026-09-28 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926031283/ful20260925_8k.htm
+- 2026-09-24 **10-Q** — https://www.sec.gov/Archives/edgar/data/39368/000143774926031145/ful20260831c_10q.htm
+- 2026-09-24 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926031113/ful20260923_8k.htm
+- 2026-07-20 **8-K** — items 1.01,1.02,2.03,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926023846/ful20260717_8k.htm
+- 2026-06-26 **8-K** — items 1.01,2.03,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/39368/000143774926021844/ful20260625_8k.htm
+- 2026-06-25 **10-Q** — https://www.sec.gov/Archives/edgar/data/39368/000143774926021677/ful20260530_10q.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-11-05** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/949157/000162828026071024/a20260930q3ex991earningsre.htm
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/949157/000162828026054300/a20260630q2ex991earningsre.htm
+- **2026-10-19** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/39368/000143774926032883/ex_1026918.htm
+- **2026-10-09** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/39368/000143774926032400/ex_1024176.htm
+- **2026-10-06** · EX-99.1 · press release — EXHIBIT 99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/39368/000143774926032108/ex_1022576.htm
+- **2026-09-28** · EX-99.1 · press release — EXHIBIT 99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/39368/000143774926031283/ex_1020089.htm
+- **2026-09-24** · EX-99.1 · press release — EXHIBIT 99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/39368/000143774926031113/ex_1019044.htm
 
 ## News on this company — last 90 days
-*20 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
+*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-11-06** · Century Aluminum: 3 Key Takeaways for Long-Term Investors — *Motley Fool* — https://www.fool.com/earnings/takeaways/2026/11/06/century-aluminum-3-key-takeaways-for-long-term-investors/
-  > Completed restart projects and a pending Oklahoma smelter decision leave Century's cash-rich balance sheet facing a key question: how much capital will growth actually require?
-- **2026-11-06** · Century Aluminum (CENX) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/11/06/century-aluminum-cenx-q3-2026-earnings-call-transcript/
-  > Full capacity returns, but Q4 pricing faces a sizable headwind.
-- **2026-11-06** · Century Aluminum Q3 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-century-aluminum-q3-earnings-call-highlights-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Century Aluminum (NASDAQ:CENX) reported third-quarter net sales of nearly $1 billion and adjusted EBITDA of $332 million as higher aluminum prices and increased shipments followed production restarts at its Mt. Holly and Grundartangi facili
-- **2026-11-06** · Century Aluminum (CENX) Surpasses Q3 Earnings Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/century-aluminum-cenx-surpasses-q3-000009534.html
-  > Century (CENX) delivered earnings and revenue surprises of +10.73% and -3.16%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-11-05** · Century: Q3 Earnings Snapshot — *Associated Press* — https://finance.yahoo.com/markets/stocks/articles/century-q3-earnings-snapshot-224706676.html
-  > CHICAGO (AP) — CHICAGO (AP) — Century Aluminum Co. (CENX) on Thursday reported profit of $302.
-- **2026-11-05** · Century Aluminum Company Reports Third Quarter 2026 Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/century-aluminum-company-reports-third-210500429.html
-  > CHICAGO, Nov. 05, 2026 (GLOBE NEWSWIRE) -- Century Aluminum Company (NASDAQ: CENX) today announced its third quarter 2026 results. Third Quarter 2026 Financial Results $MM (except shipments and per share data) Q3 2026 Q2 2026 Aluminum shipm
-- **2026-11-04** · Esab (ESAB) Q3 Earnings Lag Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/esab-esab-q3-earnings-lag-115002367.html
-  > Esab (ESAB) delivered earnings and revenue surprises of -2.26% and +0.78%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-11-03** · Century Aluminum Company (CENX) Could Deliver a 32% Yield: Here’s the Investment Case — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/century-aluminum-company-cenx-could-190406326.html
-  > Greenlight Capital, an investment management firm, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The funds returned -3.3% in the third quarter of 2026, compared with a 2.3% gain for the S&P 500,
-- **2026-11-03** · Reducing Century Aluminum Company (CENX) Amid Canadian Tariff Concerns — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/reducing-century-aluminum-company-cenx-154446679.html
-  > Riverwater Partners, an investment management company, released its “Sustainable Value Strategy” Q3 2026 investor letter. The letter can be downloaded here. The strategy underperformed the Russell 2500 Value Index in Q3 2026, mainly because
-- **2026-11-03** · Fortune Brands Innovations Names Morgan Fox Executive Vice President, Chief Legal Officer & Corporate Secretary — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/fortune-brands-innovations-names-morgan-140000419.html
-  > DEERFIELD, Ill., November 03, 2026--Fortune Brands Innovations, Inc. (NYSE: FBIN) ("Fortune Brands" or the "Company"), an industry-leading home, security and digital products company, today announced that Morgan Fox was appointed by its Boa
-- **2026-08-31** · U.S. steel and materials stocks swing amid U.S.-Canada trade war — *Quartz* — https://qz.com/steel-materials-stocks-us-canada-trade-war-tariffs-083126
-  > The VanEck Steel ETF and State Street Materials Select Sector SPDR swung sharply last week as U.S.-Canada tariff tensions escalated
-- **2026-08-25** · TeraWulf (WULF) Is Down 12.0% After Securing 482MW Power Deal For Kentucky AI Campus — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/terawulf-wulf-down-12-0-130630160.html
-  > TeraWulf recently received approval from the Kentucky Public Service Commission for a Retail Electric Service Agreement supporting up to 482 megawatts at its Justified Data Campus in Hancock County, reusing the former Century Aluminum Hawes
-- **2026-08-24** · U.S. Steel Stocks Nucor, Steel Dynamics Give Up Initial Gains On Canada Trade Talks Collapse — *Investor's Business Daily* — https://www.investors.com/news/u-s-steel-stocks-nucor-steel-dynamics-canada-trade-talks-collapse/?src=A00220&yptr=yahoo
-  > Canada trade talks failed, leaving 50% steel and aluminum tariffs in place. But U.S. steel stocks Nucor and Steel Dynamics slashed big gains.
-- **2026-08-23** · Could Canada fully supply the U.S. with aluminium? — *Investing.com* — https://finance.yahoo.com/markets/commodities/articles/could-canada-fully-supply-u-092128571.html
-  > Investing.com -- Canada could not fully meet U.S. aluminium import requirements, even if it redirected all domestic production south of the border, Morgan Stanley said in a research note examining potential tariff relief.
-- **2026-08-19** · NUE, STLD, CENX, CLF Stocks Slide — Trump Reportedly Set To Halve Import Tariffs On Canadian Steel And Aluminum — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/nue-stld-cenx-clf-stocks-slide-as-trump-halves-import-tariff-on-canadian-steel-and-aluminum/cZYduaiRJlA
-  > The U.S. and Canada are reportedly nearing a tentative trade deal that would lower tariffs on certain Canadian steel and aluminum exports from 50% to 25%.
-- **2026-08-14** · Century Aluminum (CENX) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/century-aluminum-cenx-q2-2026-earnings-call-transcript/
-  > Mt. Holly expansion drives aluminum shipments up 6% as realized prices surge $350 per ton.
-- **2026-08-13** · Century Aluminum Q2 Earnings Lag Estimates, Sales Rise Y/Y — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/century-aluminum-q2-earnings-lag-120800159.html
-  > CENX posted a sharp Q2 profit increase as higher aluminum prices and shipments drove EBITDA to $326.9M, despite a sales miss.
-- **2026-08-12** · Aluminum Stock Briefly Tops Buy Point. Earnings Surge 357% Amid Strong Trends. — *Investor's Business Daily* — https://www.investors.com/news/aluminum-stock-briefly-tops-buy-point-earnings-surge-357-amid-strong-trends/?src=A00220&yptr=yahoo
-  > Shares of Kaiser Aluminum climbed above a buy point Wednesday, just days after the company issued a bullish quarterly report, and as the stock stands out among peers. With an IBD Composite Rating of 98 and a three-month Relative Strength Ra
+- **2026-09-25** · Is H.B. Fuller (FUL) Stock a Bargain After Q3 Earnings? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-stock-105155597.html
+  > Even as market watchers debate whether H.B. Fuller (NYSE:FUL) made the right call in turning down Ancora’s $1.2 billion offer for its Building Adhesive Solutions segment, the specialty adhesive maker’s long-term investment thesis hinges on 
+- **2026-09-25** · H.B. Fuller Co (FUL) Q3 2026 Earnings Call Highlights: Strong Pricing Drives 21% EPS Growth and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-co-ful-030025819.html
+  > H.B. Fuller Co (FUL) posts 5.2% revenue growth and 9% EBITDA gains in Q3 2026, while advancing its Quantum Leap cost-savings program and the pending AMS acquisition.
+- **2026-09-24** · Why H.B. Fuller Stock Dipped on Thursday — *Motley Fool* — https://www.fool.com/investing/2026/09/24/why-hb-fuller-stock-dipped-on-thursday/
+  > The company published its latest quarterly earnings report after the previous day's market close.
+- **2026-09-24** · Ancora Highlights the Cost of H.B. Fuller's Failure to Engage, Contrasting It with Constructive Engagement at Ashland — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/ancora-highlights-cost-h-b-211300444.html
+  > CLEVELAND, September 24, 2026--Ancora Holdings Group, LLC (together with its affiliates, "Ancora" or "we"), a meaningful shareholder of H.B. Fuller Company (NYSE: FUL) ("H.B. Fuller" or the "Company"), today sent a letter to the Company’s B
+- **2026-09-24** · Fuller (FUL) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/09/24/fuller-ful-q3-2026-earnings-call-transcript/
+  > Pricing gains offset volume declines, expanding margins 80 basis points.
+- **2026-09-24** · H. B. Fuller Q3 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-h-b-fuller-q3-earnings-call-highlights-2026-09-24/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > H. B. Fuller (NYSE:FUL) reported third-quarter fiscal 2026 revenue growth and higher profitability as pricing actions and restructuring savings more than offset lower volumes and elevated raw-material costs. Revenue increased 5.2% from a ye
+- **2026-09-24** · H.B. Fuller Company Q3 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-hb-fuller-company-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of H.B. Fuller Company's Q3 2026 earnings call
+- **2026-09-23** · Here's What Key Metrics Tell Us About H. B. Fuller (FUL) Q3 Earnings — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-213001894.html
+  > Although the revenue and EPS for H. B. Fuller (FUL) give a sense of how its business performed in the quarter ended August 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.
+- **2026-09-23** · H. B. Fuller (FUL) Beats Q3 Earnings and Revenue Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-beats-212001662.html
+  > H. B. Fuller (FUL) delivered earnings and revenue surprises of +4.83% and +0.43%, respectively, for the quarter ended August 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-09-23** · H.B. Fuller Reports Third Quarter 2026 Results — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-reports-third-200500100.html
+  > ST. PAUL, Minn., September 23, 2026--H.B. Fuller Company (NYSE: FUL) today reported financial results for its third quarter that ended August 29, 2026.
 
 ## What is happening in Materials
 *From the sector ETF feed (XLB), which covers every name in this sector whether or not it got its own pull.*
@@ -116,10 +104,10 @@ Attack these before you trust any number above.
 - **2026-10-06** · Stock Market News for Oct 6, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-6-054400913.html
 
 ## Market and macro context
-- **2026-11-06** · High AI Anxiety Eases on Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/high-ai-anxiety-eases-wall-111154583.html
-- **2026-11-06** · The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us. — *Barrons.com* — https://www.barrons.com/articles/ai-stock-selloff-caterpillar-valuation-analysis-20904e44?siteid=yhoof2&yptr=yahoo
-- **2026-11-06** · What iShares Russell 2000 Index Fund (IWM) Bought: Glaukos Leads on Wednesday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110419918.html
-- **2026-11-06** · Cloudflare Stock Surges After Earnings. What That Says About AI Fears. — *Barrons.com* — https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e?siteid=yhoof2&yptr=yahoo
+- **2026-11-06** · What the AI stock crash cost your 401(k) for every $1,000 invested — *Yahoo Finance* — https://finance.yahoo.com/markets/article/what-the-ai-stock-crash-cost-your-401k-for-every-1000-invested-172821837.html
+- **2026-11-06** · 3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market — *Motley Fool* — https://www.fool.com/investing/2026/11/06/3-high-yield-healthcare-stocks-to-buy-with-1000-an/
+- **2026-11-06** · Update: US Equity Indexes Rebound, Treasury Yields Rise Following Blowout Jobs Report — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rebound-treasury-165611154.html
+- **2026-11-06** · Stocks rebound after tech selloff that pushed Nasdaq into correction — *CBS News* — https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/
 
 *Rules, releases and agency actions:*
 - **2026-11-06** · Amendments to the “Small Business” and “Small Organization” Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and
@@ -137,6 +125,7 @@ Attack these before you trust any number above.
 - AVNT: rich · price $40.44 · fair value $30.23 · gap -25.2%
 - BCPC: rich · price $171.61 · fair value $107.78 · gap -37.2%
 - CBT: no_edge · price $79.20 · fair value $83.54 · gap +5.5%
+- CENX: no_edge · price $30.07
 - CMC: no_edge · price $67.47 · fair value $64.49 · gap -4.4%
 - CSTM: no_edge · price $24.66
 - FRD: no_edge · price $40.80 · fair value $49.94 · gap +22.4%

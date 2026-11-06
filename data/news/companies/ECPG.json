@@ -1,11 +1,35 @@
 [
  {
+  "id": "554b0951-bc76-35ab-a8b1-6f017f26e087",
+  "ts": "2026-11-06T14:14:00+00:00",
+  "title": "Encore Capital Stock Jumps 26% on Stellar Q3 Earnings: Is ECPG a Buy?",
+  "summary": "Encore Capital shares soar 26.3% on blowout Q3 earnings, record global collections and raised 2026 guidance.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/encore-capital-stock-jumps-26-141400111.html",
+  "tickers": [
+   "ECPG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "527deb94-f016-3a15-8865-beb41e1520f4",
   "ts": "2026-11-05T16:59:19+00:00",
   "title": "Encore Capital (ECPG) Q3 2026 Earnings Call Transcript",
   "summary": "Collections rose 14%, but European competition keeps deployments selective.",
   "publisher": "Motley Fool",
   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/encore-capital-ecpg-q3-2026-earnings-call-transcript/",
+  "tickers": [
+   "ECPG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f3350cc9-1e3f-3b00-8775-ff04629d6262",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "Encore Capital Group, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Encore Capital Group, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-encore-capital-group-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "ECPG"
   ],

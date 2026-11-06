@@ -12,6 +12,18 @@
   "source": "yfinance"
  },
  {
+  "id": "d7b2ce32-5177-3ab0-9e48-85eb224e4617",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "Power Integrations, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Power Integrations, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-power-integrations-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "POWI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "4e8d1a90-cc00-3379-8092-16909143f81c",
   "ts": "2026-11-05T08:28:06+00:00",
   "title": "After an 11% tech sell-off, are AI valuations attractive again?",

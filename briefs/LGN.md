@@ -1,103 +1,114 @@
-# HURN — HURON CONSULTING GROUP
-*Industrials · brief generated 2026-11-06 · selected as **opportunistic***
+# LGN — LEGENCE CLASS A
+*Industrials · brief generated 2026-11-06 · selected as **rotation***
 
 ## Why this name is on today's list
-- cheapest 3% of 152 Industrials peers (97th pct)
-- baseline gap +230%
-- discounted: stock comp is 27% of reported FCFF
-- 5d move -9%
-- 21d move +12%
-- volume 3.5x its 60d average
-- filed an 8-K in the last few sessions
-- 10 news items in the last 5 days
-- Industrials is in the news
-- Industrials sector selloff (median -5.2%)
-- moved harder than its sector
-- never researched
-- urgency score 16.09
+- rotation position 323/1956
 
 ## Market
 | | |
 |---|---|
-| price | $175.73 |
-| market cap | $2.8B |
-| 5d / 21d / 63d / 252d | -8.9% / +12.2% / +15.6% / +6.6% |
-| 60d avg daily $ volume | $57.1M |
-| beta (vs IWM) | 0.07 (R²=0.033) · **yahoo_rescaled** |
-| 5d volume vs 60d average | 3.5x |
-| balance sheet as of | 2026-09-30 (10-Q) |
-| WACC weights | equity 77% / debt 23% |
+| price | $25.41 |
+| market cap | $1.5B |
+| 5d / 21d / 63d / 252d | -39.4% / -52.4% / -60.5% / -33.7% |
+| 60d avg daily $ volume | $59.6M |
+| beta (vs IWM) | 1.97 (R²=0.217) |
+| 5d volume vs 60d average | 1.2x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 60% / debt 40% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$169.7M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$183.0M', '$192.7M', '$125.8M']
-Enterprise value **$3.6B** · FCFF yield **+4.8%**
+Normalized FCFF base **$218.9M** (mean of CFO−capex over 1y, plus after-tax interest)
+  annual FCF, newest first: ['$218.9M']
+Enterprise value **$2.6B** · FCFF yield **+8.4%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 5.0% − 1pt | -15.4% |
-| **5.0% (point)** | **-8.0%** |
-| 5.0% + 1pt | -2.3% |
+| 11.1% − 1pt | +0.6% |
+| **11.1% (point)** | **+3.3%** |
+| 11.1% + 1pt | +6.0% |
 
 
-> **Stock compensation is 27% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$124.0M** and an implied growth of **-1.6%** instead of -8.0%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 31% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$151.4M** and an implied growth of **+12.5%** instead of +3.3%. Decide which treatment you are underwriting and say so explicitly.
 
-Naive baseline for comparison: **+14.3%** (5y revenue CAGR +14.3%).
-Gap under that baseline: **+230.1%** (fair value $580.11 vs price $175.73).
+Naive baseline for comparison: **n/a** (insufficient_revenue_history).
+Gap under that baseline: **n/a** (fair value n/a vs price $25.41).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **97th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +242.7%).
+## What the sector cohort pays for this
+*A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
+
+| multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
+|---|---|---|---|
+| ev_ebitda (n=170) | 16.1x | 9.7x / 13.6x / 18.4x | $8.16 / $18.57 / $31.87 |
+| ev_sales (n=240) | 1.0x | 0.8x / 1.5x / 2.9x | $18.06 / $47.44 / $105.69 |
+| ev_gross_profit (n=197) | 4.9x | 3.0x / 5.5x / 9.7x | $8.55 / $31.28 / $69.31 |
+
+Blended midpoint **$32.43** vs price $25.41 — gap **+27.6%**.
+
+> This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
+
+Cohort: **not ranked** — too few comparable Industrials names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `volume_3.5x_its_60d_average`
-- `stock_comp_is_27%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `single_year_base_no_normalization`
+- `stock_comp_is_31%_of_fcff_reported_cash_flow_treats_it_as_free`
+- `no_baseline_growth`
 
 ## Recent filings
-- 2026-11-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1289848/000162828026069514/hurn-20260930.htm
-- 2026-11-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1289848/000162828026069509/hurn-20261103.htm
-- 2026-07-28 **10-Q** — https://www.sec.gov/Archives/edgar/data/1289848/000162828026050176/hurn-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn-20260728.htm
-- 2026-07-27 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1289848/000162828026049857/hurn-20260723.htm
-- 2026-06-22 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1289848/000162828026044612/hurn-20260619.htm
-- 2026-05-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1289848/000128984826000098/hurn-20260508.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1289848/000128984826000082/hurn-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1289848/000128984826000080/hurn-20260505.htm
-- 2026-03-20 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1289848/000128984826000053/hurn-20260319.htm
+- 2026-08-18 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526355583/d82184d8k.htm
+- 2026-08-13 **10-Q** — https://www.sec.gov/Archives/edgar/data/2052568/000205256826000026/lgn-20260630.htm
+- 2026-08-13 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526347873/d175420d8k.htm
+- 2026-06-11 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526267710/d63830d8k.htm
+- 2026-05-14 **10-Q** — https://www.sec.gov/Archives/edgar/data/2052568/000205256826000017/lgn-20260331.htm
+- 2026-05-14 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526222792/d151193d8k.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/2052568/000119312526188984/d63286ddef14a.htm
+- 2026-03-30 **10-K** — https://www.sec.gov/Archives/edgar/data/2052568/000205256826000008/lgn-20251231.htm
+- 2026-03-27 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526127539/d64558d8k.htm
+- 2026-01-02 **8-K** — items 1.01,2.01,2.03,3.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/2052568/000119312526001069/d80346d8k.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-11-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1289848/000162828026069509/hurn2026930exh991.htm
-- **2026-07-28** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn2026630exh991.htm
+- **2026-08-13** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/2052568/000119312526347873/d175420dex991.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*15 items held; showing the 15 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-11-05** · Wall Street Analysts See a 25.42% Upside in Huron Consulting (HURN): Can the Stock Really Move This High? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-25-135502217.html
-  > The mean of analysts' price targets for Huron Consulting (HURN) points to a 25.4% upside in the stock. While this highly sought-after metric has not proven reasonably effective, strong agreement among analysts in raising earnings estimates 
-- **2026-11-05** · Are Business Services Stocks Lagging  Huron Consulting Group (HURN) This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-huron-134002401.html
-  > Here is how Huron Consulting (HURN) and Enpro (NPO) have performed compared to their sector so far this year.
-- **2026-11-05** · What iShares Trust (IJT) Bought: McGrath Rent Leads on Nov. 3 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-trust-ijt-bought-mcgrath-110531899.html
-  > The fund bought $15.5 million of McGrath Rent and $14.0 million of Loar Holdings, while selling $84.8 million of Glaukos in a day of $148.9 million gross trading.
-- **2026-11-05** · Huron Consulting Group (HURN) Stock Looks About Right After A 226% Run — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/huron-consulting-group-hurn-stock-010953990.html
-  > Huron Consulting Group has delivered a powerful multi‑year run, yet the recent pullback and fresh earnings news leave a clear question for investors. Is the current share price at US$171.95 still in line with what the company is earning tod
-- **2026-11-04** · Huron (HURN) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/11/04/huron-hurn-q3-2026-earnings-call-transcript/
-  > Margins hit an eight-year high, but cash collections are slipping into next year.
-- **2026-11-04** · Huron Consulting Group Inc. Q3 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-huron-consulting-group-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Huron Consulting Group Inc.'s Q3 2026 earnings call
-- **2026-11-04** · Huron Consulting Group Inc (HURN) (Q3 2026) Earnings Call Highlights: Record Revenue and ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/huron-consulting-group-inc-hurn-090801025.html
-  > Huron Consulting Group Inc (HURN) posted record Q3 2026 RBR of $482.5 million, up 11.6% year over year, with adjusted EBITDA margin reaching 16% as Healthcare managed services nearly doubled revenue.
-- **2026-11-04** · Huron Consulting Group Q3 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-huron-consulting-group-q3-earnings-call-highlights-2026-11-03/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Huron Consulting Group (NASDAQ:HURN) reported record third-quarter revenue before reimbursable expenses, or RBR, as growth across its healthcare, education and commercial segments helped lift adjusted earnings and prompted the company to ra
-- **2026-11-03** · Huron Consulting (HURN) Q3 Earnings and Revenues Beat Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/huron-consulting-hurn-q3-earnings-235505463.html
-  > Huron Consulting (HURN) delivered earnings and revenue surprises of +6.07% and +0.50%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?
-- **2026-11-03** · Compared to Estimates, Huron Consulting (HURN) Q3 Earnings: A Look at Key Metrics — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/compared-estimates-huron-consulting-hurn-230002211.html
-  > While the top- and bottom-line numbers for Huron Consulting (HURN) give a sense of how the business performed in the quarter ended September 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates and
+- **2026-10-31** · 3 AI Infrastructure Stocks To Watch After The Data Center Selloff — *Simply Wall St.* — https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-watch-231135638.html
+  > AI infrastructure just went from market darling to expensive question mark, with over US$2 trillion wiped from the Nasdaq-100 as investors reassess huge data center and power buildouts. That reset can punish crowded trades, but it can also 
+- **2026-10-29** · Legence Sets Third Quarter 2026 Earnings Release Date and Webcast Schedule — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/legence-sets-third-quarter-2026-110000091.html
+  > SAN JOSE, Calif., Oct. 29, 2026 (GLOBE NEWSWIRE) -- Legence Corp. (Nasdaq: LGN) (“Legence” or the “Company”) today announced that it will release results for the third quarter ended September 30, 2026 on Thursday, November 12, 2026, prior t
+- **2026-10-24** · 3 Stocks Riding The AWS Data Center Capacity Crunch — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/3-stocks-riding-aws-data-061119727.html
+  > AWS just signalled that much of its cloud capacity is already spoken for through 2027, with AI demand pushing against the limits of what data centers can supply. That kind of locked in spending can ripple across everything from power hungry
+- **2026-10-08** · Is Fluor (FLR) Stock Outpacing Its Construction Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/fluor-flr-stock-outpacing-construction-124002348.html
+  > Here is how Fluor (FLR) and Legence (LGN) have performed compared to their sector so far this year.
+- **2026-09-30** · 3 US Stocks Building The AI Data Center Power Trade — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/3-us-stocks-building-ai-042714509.html
+  > Super intelligence is moving from science fiction to zoning hearings, with tech giants signing an informal safety pact while politicians cheer on new data centres as “super intelligence factories.” That mix of hype, scrutiny and concrete po
+- **2026-09-14** · Quantum Appoints Mike Heuer as Chief Information Officer — *Business Wire* — https://finance.yahoo.com/technology/articles/quantum-appoints-mike-heuer-chief-200500585.html
+  > CENTENNIAL, Colo., September 14, 2026--Quantum Corporation (Nasdaq: QMCO) today announced the appointment of Mike Heuer as its Chief Information Officer, effective immediately. Heuer will lead Quantum’s global information technology organiz
+- **2026-09-11** · Is Argan (AGX) Stock Outpacing Its Construction Peers This Year? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/argan-agx-stock-outpacing-construction-134003084.html
+  > Here is how Argan (AGX) and Legence (LGN) have performed compared to their sector so far this year.
+- **2026-09-04** · Legence (LGN) Doubled Revenue While Margins And Losses Widened — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/legence-lgn-doubled-revenue-while-111041855.html
+  > On August 13, Legence Corp. (NASDAQ:LGN) reported second-quarter results that more than doubled the company’s revenue from a year earlier, a jump big enough to make even seasoned investors do a double take. Strip out the contribution from t
+- **2026-08-18** · Could Legence (LGN) Be a Major Winner From the AI Data Center Construction Boom? — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/could-legence-lgn-major-winner-134914355.html
+  > Baron Capital, an investment management company, released its Q2 2026 investor letter for the “Baron Small Cap Fund.” Baron Small Cap Fund gained 12.57% (Institutional Shares) in the second quarter, trailing the Russell 2000 Growth Index’s 
+- **2026-08-15** · Legence (LGN) Reported $41.08 Million In Q2 2026 Asset Impairments — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/legence-lgn-reported-41-08-020845776.html
+  > Legence (NasdaqGS:LGN) reported material impairments to goodwill and long-lived assets for Q2 2026. The company also revised its full year 2026 revenue guidance upward. The combination of asset impairments and a stronger revenue outlook hig
+- **2026-08-14** · Legence (LGN) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/13/legence-lgn-q2-2026-earnings-call-transcript/
+  > Revenue doubled to $1.3 billion as data center demand drove record backlog.
+- **2026-08-13** · Legence Corp (LGN) (Q2 2026) Earnings Call Highlights: Record Revenue and Backlog Fuel Raised ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/legence-corp-lgn-q2-2026-230240077.html
+  > Legence Corp (LGN) reports 111% revenue growth and boosts full-year outlook amid strong demand across data centers and manufacturing.
+- **2026-08-13** · Legence Corp. Class A Common stock Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-legence-corp-class-a-common-stock-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Legence Corp. Class A Common stock's Q2 2026 earnings call
+- **2026-08-13** · LGN Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/lgn-q2-earnings-call-highlights-2026-08-13/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Legence LGN (NASDAQ:LGN) reported record second-quarter results as demand for mission-critical building systems remained strong, led by data centers and technology projects, while the company raised its full-year revenue and adjusted EBITDA
+- **2026-08-13** · Legence Reports Second Quarter 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/legence-reports-second-quarter-2026-110000783.html
+  > Record Quarterly Revenues of $1.26 Billion, a 111% Increase from a Year Ago Excluding Bowers Acquisition, Revenues (non-GAAP) Grew by 60% from a Year Ago1 Quarterly Adjusted EBITDA (non-GAAP) Increased 114% from Prior Year2 Record Total Bac
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
@@ -114,10 +125,10 @@ Attack these before you trust any number above.
 - **2026-11-02** · What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Thursday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110549890.html
 
 ## Market and macro context
-- **2026-11-06** · High AI Anxiety Eases on Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/high-ai-anxiety-eases-wall-111154583.html
-- **2026-11-06** · The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us. — *Barrons.com* — https://www.barrons.com/articles/ai-stock-selloff-caterpillar-valuation-analysis-20904e44?siteid=yhoof2&yptr=yahoo
-- **2026-11-06** · What iShares Russell 2000 Index Fund (IWM) Bought: Glaukos Leads on Wednesday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110419918.html
-- **2026-11-06** · Cloudflare Stock Surges After Earnings. What That Says About AI Fears. — *Barrons.com* — https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e?siteid=yhoof2&yptr=yahoo
+- **2026-11-06** · What the AI stock crash cost your 401(k) for every $1,000 invested — *Yahoo Finance* — https://finance.yahoo.com/markets/article/what-the-ai-stock-crash-cost-your-401k-for-every-1000-invested-172821837.html
+- **2026-11-06** · 3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market — *Motley Fool* — https://www.fool.com/investing/2026/11/06/3-high-yield-healthcare-stocks-to-buy-with-1000-an/
+- **2026-11-06** · Update: US Equity Indexes Rebound, Treasury Yields Rise Following Blowout Jobs Report — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rebound-treasury-165611154.html
+- **2026-11-06** · Stocks rebound after tech selloff that pushed Nasdaq into correction — *CBS News* — https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/
 
 *Rules, releases and agency actions:*
 - **2026-11-06** · Amendments to the “Small Business” and “Small Organization” Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and

@@ -120,6 +120,18 @@
   "source": "yfinance"
  },
  {
+  "id": "33e6741e-a3f5-372e-8d3f-b61f7acb180c",
+  "ts": "2026-11-02T12:45:00+00:00",
+  "title": "Clarivate to Bring Trusted Trademark Data into Microsoft Copilot Through IPOne",
+  "summary": "Clarivate Plc (NYSE:CLVT), a leading global provider of transformative intelligence, today announced it will bring trusted CompuMark trademark data and insights into Microsoft Copilot through IPOne, enabling intellectual property (IP) professionals to put authoritative trademark intelligence to work directly within AI-powered workflows.",
+  "publisher": "CNW Group",
+  "url": "https://finance.yahoo.com/news/clarivate-bring-trusted-trademark-data-124500284.html",
+  "tickers": [
+   "CLVT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "3a66dbbb-b97c-3a2f-847d-cb0e31184cd2",
   "ts": "2026-09-24T12:15:00+00:00",
   "title": "Clarivate Announces Final Results of Offer to Purchase for Cash Certain of its Outstanding Debt Securities",

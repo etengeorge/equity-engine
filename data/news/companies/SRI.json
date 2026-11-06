@@ -24,6 +24,18 @@
   "source": "yfinance"
  },
  {
+  "id": "d160d7ba-107d-3627-be5f-c421522c8569",
+  "ts": "2026-11-05T13:30:00+00:00",
+  "title": "Stoneridge, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Stoneridge, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-stoneridge-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "SRI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9f58fa11-8ed0-3993-bc92-46daa2a8e2ea",
   "ts": "2026-11-04T23:53:00+00:00",
   "title": "Stoneridge Reports Third Quarter 2026 Results",

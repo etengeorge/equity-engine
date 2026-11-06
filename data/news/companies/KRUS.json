@@ -142,17 +142,5 @@
    "KRUS"
   ],
   "source": "yfinance"
- },
- {
-  "id": "1d263c87-e6c9-30ab-a739-568823e78948",
-  "ts": "2026-07-08T12:30:00+00:00",
-  "title": "Kura Sushi USA, Inc. Q3 2026 Earnings Call Summary",
-  "summary": "Moby summary of Kura Sushi USA, Inc.'s Q3 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kura-sushi-usa-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "KRUS"
-  ],
-  "source": "yfinance"
  }
 ]

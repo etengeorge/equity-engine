@@ -1,5 +1,17 @@
 [
  {
+  "id": "e0f87901-a2d0-3228-b0a0-6ad426465e62",
+  "ts": "2026-11-06T13:55:01+00:00",
+  "title": "Wall Street Analysts See a 40.81% Upside in Peloton (PTON): Can the Stock Really Move This High?",
+  "summary": "The mean of analysts' price targets for Peloton (PTON) points to a 40.8% upside in the stock. While this highly sought-after metric has not proven reasonably effective, strong agreement among analysts in raising earnings estimates does indicate an upside in the stock.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-40-135501818.html",
+  "tickers": [
+   "PTON"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "4d5c8e74-cf83-3fc0-bced-b47a8d636c3b",
   "ts": "2026-11-06T07:48:00+00:00",
   "title": "New Strong Buy Stocks for November 6th",
@@ -30,6 +42,18 @@
   "summary": "Peloton Interactive (PTON) is back in focus after first quarter results topped market expectations, highlighted by higher revenue, a sharp jump in net income, and fresh guidance that pointed to further progress. Peloton Interactive\u2019s latest update arrives in a mixed share price backdrop, with a 1-month share price return of 16.22% and a 7-day gain of 7.20% contrasting with a year-to-date share price decline of 7.52% and a 1-year total shareholder return that is down 15.65%. This points to...",
   "publisher": "Simply Wall St.",
   "url": "https://finance.yahoo.com/markets/stocks/articles/peloton-interactive-pton-undervalued-earnings-061432093.html",
+  "tickers": [
+   "PTON"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "0e2c0493-adca-36e5-bec8-29c1a957e4c4",
+  "ts": "2026-11-06T04:32:02+00:00",
+  "title": "Peloton Interactive, Inc. Q1 2027 Earnings Call Summary",
+  "summary": "Moby summary of Peloton Interactive, Inc.'s Q1 2027 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-peloton-interactive-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "PTON"
   ],

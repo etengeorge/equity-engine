@@ -1,80 +1,86 @@
-# SFNC — SIMMONS FIRST NATIONAL CLASS A
+# BULL — WEBULL CORP CLASS A
 *Financials · brief generated 2026-11-06 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 315/1956
+- rotation position 320/1956
 
 ## Market
 | | |
 |---|---|
-| price | $23.23 |
-| market cap | $3.4B |
-| 5d / 21d / 63d / 252d | -0.6% / +4.6% / -0.1% / +38.3% |
-| 60d avg daily $ volume | $36.1M |
-| beta (vs IWM) | 0.85 (R²=0.459) |
-| 5d volume vs 60d average | 1.2x |
-| balance sheet as of | 2026-09-30 (10-Q) |
-| WACC weights | equity 91% / debt 9% |
+| price | $4.81 |
+| market cap | $1.9B |
+| 5d / 21d / 63d / 252d | -9.8% / -18.3% / -34.3% / -50.5% |
+| 60d avg daily $ volume | $115.2M |
+| beta (vs IWM) | 1.12 (R²=0.042) |
+| 5d volume vs 60d average | 0.5x |
+| balance sheet as of | 2025-12-31 (20-F) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
 This is a financial. FCFF is meaningless here (debt is raw material, not financing), so the model is justified price/tangible book from sustainable ROTCE.
 
 | | |
 |---|---|
-| sustainable ROTCE | -1.3% |
-| cost of equity | +9.5% |
-| justified P/TBV | -0.44 |
-| actual P/TBV | 1.73 |
-| tangible book / share | $13.41 |
-| implied gap | -125.3% |
+| sustainable ROTCE | -52.4% |
+| cost of equity | +11.0% |
+| justified P/TBV | -6.03 |
+| actual P/TBV | 2.05 |
+| tangible book / share | $2.34 |
+| implied gap | -393.8% |
 
-Cohort: **8th percentile** of 335 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -96.2%).
+Cohort: **0th percentile** of 335 Financials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -364.6%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `ebit_derived_from_pretax_plus_interest`
-- `goodwill_and_intangibles_41%_of_book`
-- `unstable_rotce_-20.6%_to_9.2%`
+- `balance_sheet_310d_old_enterprise_value_may_predate_a_financing`
 - `loss_year_in_window`
+- `extreme_gap_-394%_treat_as_suspected_data_error`
 
 ## Recent filings
-- 2026-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/90498/000162828026070069/sfnc-20260930.htm
-- 2026-10-15 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526422936/d439916d8k.htm
-- 2026-09-03 **8-K** — items 2.05,7.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526381967/d489413d8k.htm
-- 2026-08-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/90498/000162828026053273/sfnc-20260630.htm
-- 2026-07-16 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526306164/d123214d8k.htm
-- 2026-05-13 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526221998/d138298d8k.htm
-- 2026-05-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/90498/000162828026031205/sfnc-20260331.htm
-- 2026-04-16 **8-K** — items 2.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526159123/d102541d8k.htm
-- 2026-04-08 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/90498/000119312526146412/d74667ddef14a.htm
-- 2026-03-03 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/90498/000119312526088388/d89479d8k.htm
 
 ## Earnings materials (8-K exhibits)
-*The press release and presentation as filed. EX-99.2 is usually the deck.*
-
-- **2026-10-15** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/90498/000119312526422936/d439916dex991.htm
-- **2026-10-15** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/90498/000119312526422936/d439916dex992.htm
-- **2026-07-16** · EX-99.1 · press release — EX-99.1 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/90498/000119312526306164/d123214dex991.htm
-- **2026-07-16** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/90498/000119312526306164/d123214dex992.htm
+*No EX-99 exhibits filed under a material 8-K item in the last 120 days.*
 
 ## News on this company — last 90 days
-*7 items held; showing the 7 most recent. Headlines and summaries only — open the URL for the full story.*
+*28 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-09-04** · UiPath downgraded, Shell upgraded: Wall Street's top analyst calls — *The Fly* — https://finance.yahoo.com/markets/stocks/articles/uipath-downgraded-shell-upgraded-wall-134820981.html
-  > UiPath downgraded, Shell upgraded: Wall Street's top analyst calls
-- **2026-09-04** · Here Are Friday’s Top Wall Street Analyst Research Calls: Ambarella, Cal-Maine Foods, Lennar, Ormat Technologies, Paychex, PulteGroup, Shell plc, TotalEnergies, W.P. Carey, and More — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/04/here-are-fridays-top-wall-street-analyst-research-calls-ambarella-cal-maine-foods-lennar-ormat-technologies-paychex-pultegroup-shell-plc-totalenergies-w-p-carey-and-more/
-  > Wall Street wrapped a turbulent week with a wave of upgrades and downgrades hitting energy giants, homebuilders, and tech names just ahead of the Labor Day weekend. Find out which stocks analysts are rushing to buy and which ones just lost 
-- **2026-08-26** · Q2 Earnings Roundup: Simmons First National (NASDAQ:SFNC) And The Rest Of The Regional Banks Segment — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-simmons-first-161113620.html
-  > As the Q2 earnings season comes to a close, it’s time to take stock of this quarter’s best and worst performers in the regional banks industry, including Simmons First National (NASDAQ:SFNC) and its peers.
-- **2026-08-24** · 3 Russell 2000 Stocks We Approach with Caution — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-approach-130536144.html
-  > The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size 
-- **2026-08-20** · Simmons First National Corporation Declares $0.215 Per Share Dividend — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/simmons-first-national-corporation-declares-205500735.html
-  > Simmons First National Corporation (NASDAQ: SFNC) (Simmons or Company) announced today that its board of directors has declared a quarterly cash dividend on Simmons' Class A common stock of $0.215 per share, which is payable on October 1, 2
-- **2026-08-20** · Lisa Hunter to Retire After 30 Years at Simmons Bank — *PR Newswire* — https://finance.yahoo.com/technology/articles/lisa-hunter-retire-30-years-200100365.html
-  > Simmons Bank today announced the retirement of Lisa Hunter, executive vice president and chief data officer, following the conclusion of a distinguished, 30-year career advancing technology, operations, and data capabilities across the orga
-- **2026-08-16** · 3 Stocks Under $50 with Questionable Fundamentals — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-questionable-122900140.html
-  > The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than penny stocks, though they’re not immune to volatility as many lack the scale adva
+- **2026-09-17** · Webull (BULL) Could Be 41% Undervalued As Expansion Narrative Meets Valuation Doubts — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/webull-bull-could-41-undervalued-131152687.html
+  > Recent trading in Webull (BULL) has drawn attention after the share price closed at US$7.69 on 17 September 2026. This has left recent returns mixed and prompted a closer look at the digital brokerage’s fundamentals. Short term momentum for
+- **2026-09-17** · Why Webull Stock’s Wednesday 11% Drop Followed a Family Insider Sale — *TIKR* — https://www.tikr.com/blog/why-webull-stocks-wednesday-11-drop-followed-a-family-insider-sale?ref=yahoofinance
+  > Key TakeawaysInsider-Triggered Slide: Webull stock (BULL) sank 11% on Wednesday, September 16, closing near $8 after CFO Wang Haichen’s spouse disclosed a 55,000-share sale worth about $494,000. Second Insider Exit: President Anthony Denier
+- **2026-09-16** · Why Webull Stock Dropped Today — *Motley Fool* — https://www.fool.com/investing/2026/09/16/why-webull-stock-dropped-today/
+  > Don't worry about this stock sale. Worry more about the high stock price at Webull.
+- **2026-09-16** · Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/16/robinhood-sinks-5-after-prosecutors-reportedly-charge-two-former-engineers-over-crypto-trades-webull-drops-9/
+  > Federal prosecutors in Manhattan just charged two former Robinhood engineers over crypto trades, and the fallout is already hitting brokerages that had nothing to do with it.
+- **2026-09-16** · The Next Phase of Webull Could Be the One That Matters Most — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/16/the-next-phase-of-webull-could-be-the-one-that-matters-most/
+  > Webull just posted a record trading quarter, eliminated a regulatory headwind it called its defining moment, and closed a major international acquisition, yet the stock is down 34% over the past year. Whether the next phase of its story cor
+- **2026-09-15** · Robinhood and Webull Fall 4% as Imminent Clarity Act Decision Stokes Crypto Uncertainty — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/15/robinhood-and-webull-fall-4-as-imminent-clarity-act-decision-stokes-crypto-uncertainty/
+  > A Senate vote on the CLARITY Act is rattling crypto-exposed brokerages, and the outcome could reshape the trading landscape for platforms that have bet big on digital assets.
+- **2026-09-14** · Wall Street Analysts Predict a 41% Upside in Webull Corporation (BULL): Here's  What You Should Know — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predict-41-135502249.html
+  > The average of price targets set by Wall Street analysts indicates a potential upside of 41% in Webull Corporation (BULL). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earnings estimate r
+- **2026-09-14** · Webull Expands Futures Offering with CME Nano Futures, Bringing Smaller Equity Index Contracts to Retail Investors — *PR Newswire* — https://finance.yahoo.com/markets/options/articles/webull-expands-futures-offering-cme-130000308.html
+  > Webull (NASDAQ: BULL), an online investment platform, today announced that eligible customers will have access to CME Group's E-nano S&P 500 and E-nano Nasdaq-100 futures, expanding the platform's futures offering with smaller-sized contrac
+- **2026-09-11** · People Are Using AI Agents to Manage Their Investments ‘Without Lifting a Finger’: Is it Safe? — *Entrepreneur* — https://www.entrepreneur.com/business-news/people-are-using-ai-agents-to-manage-their-investments-without-lifting-a-finger-is-it-safe
+  > AI agents named Alex, Sarah and Elena are managing real money now. Not everyone thinks that's a good idea.
+- **2026-09-10** · Prediction: Webull Could Be One of Fintech’s Next Big Winners — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/10/prediction-webull-could-be-one-of-fintechs-next-big-winners/
+  > Webull just posted its strongest quarter ever, but a closer look at the valuation math reveals a serious tension between the momentum trade and what the stock is actually worth right now.
+- **2026-09-10** · Pump.fun Launches Custom Pairs for Tokenized Stocks — *Bankless* — https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks
+  > Pump.fun launches Custom Pairs, letting creators launch tokens against stocks, crypto, metals, and more while earning fees in the paired asset.
+- **2026-09-10** · Retail investors cautious on Apple after event, Webull UK’s Saunders says — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/retail-investors-cautious-apple-event-124457940.html
+  > Investing.com -- Retail investors approached Apple's product event with caution rather than enthusiasm, according to Webull UK chief executive Nick Saunders, who said the muted response should not be over-interpreted.
+- **2026-09-09** · Webull Enters Next Phase of Growth in Thailand Following Pi Securities Acquisition, Targets THB 200 Billion in AUM — *PR Newswire* — https://finance.yahoo.com/markets/stocks/articles/webull-enters-next-phase-growth-015000143.html
+  > Webull Securities (Thailand) Co., Ltd. ("Webull Thailand"), a subsidiary of Webull Corporation (NASDAQ: BULL), the owner of the Webull online trading platform, announced the completion of the acquisition of shares in Pi Securities Public Co
+- **2026-09-06** · Should You Forget Robinhood and Buy Webull Instead? — *Motley Fool* — https://www.fool.com/investing/2026/09/06/should-you-forget-robinhood-and-buy-webull-instead/
+  > One has rebounded, but the other looks like the better buy.
+- **2026-09-04** · Webull (BULL) Files $116.5 Million Share Shelf Registration — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/webull-bull-files-116-5-210641080.html
+  > Webull (NasdaqCM:BULL) has filed a shelf registration to offer Class A Ordinary Shares, giving the company flexibility to issue stock over time. The shelf registration allows Webull to raise capital when it chooses, which may affect existin
+- **2026-09-04** · Weekly Wrap: Bitcoin’s Win Streak Continues — *CryptoProwl* — https://www.cryptoprowl.com/releases/weekly-wrap-bitcoins-win-streak-continues-6730
+  > Bitcoin’s (CRYPTO: $BTC) win streak continued for a third consecutive week as the cryptocurrency’s pric...
+- **2026-09-03** · Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4% — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/03/robinhood-rallies-11-on-price-target-hikes-webull-climbs-7-interactive-brokers-gains-4/
+  > Analyst upgrades are piling onto Robinhood just as its fastest-growing business surpasses crypto revenue, raising the question of whether the platform has fundamentally changed or simply run ahead of itself.
+- **2026-09-01** · Coinbase Powers Webull's Crypto Trading Expansion in Canada — *Zacks* — https://finance.yahoo.com/markets/crypto/articles/coinbase-powers-webulls-crypto-trading-174300179.html
+  > COIN expands its Webull partnership into Canada to offer crypto trading, liquidity and custody infrastructure as digital-asset demand rises.
 
 ## What is happening in Financials
 *From the sector ETF feed (XLF), which covers every name in this sector whether or not it got its own pull.*
@@ -91,10 +97,10 @@ Attack these before you trust any number above.
 - **2026-11-04** · Sector Update: Financial Stocks Rise in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185258307.html
 
 ## Market and macro context
-- **2026-11-06** · High AI Anxiety Eases on Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/high-ai-anxiety-eases-wall-111154583.html
-- **2026-11-06** · The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us. — *Barrons.com* — https://www.barrons.com/articles/ai-stock-selloff-caterpillar-valuation-analysis-20904e44?siteid=yhoof2&yptr=yahoo
-- **2026-11-06** · What iShares Russell 2000 Index Fund (IWM) Bought: Glaukos Leads on Wednesday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110419918.html
-- **2026-11-06** · Cloudflare Stock Surges After Earnings. What That Says About AI Fears. — *Barrons.com* — https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e?siteid=yhoof2&yptr=yahoo
+- **2026-11-06** · What the AI stock crash cost your 401(k) for every $1,000 invested — *Yahoo Finance* — https://finance.yahoo.com/markets/article/what-the-ai-stock-crash-cost-your-401k-for-every-1000-invested-172821837.html
+- **2026-11-06** · 3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market — *Motley Fool* — https://www.fool.com/investing/2026/11/06/3-high-yield-healthcare-stocks-to-buy-with-1000-an/
+- **2026-11-06** · Update: US Equity Indexes Rebound, Treasury Yields Rise Following Blowout Jobs Report — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rebound-treasury-165611154.html
+- **2026-11-06** · Stocks rebound after tech selloff that pushed Nasdaq into correction — *CBS News* — https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/
 
 *Rules, releases and agency actions:*
 - **2026-11-06** · Amendments to the “Small Business” and “Small Organization” Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and
@@ -117,9 +123,9 @@ Attack these before you trust any number above.
 - ASB: no_edge · price $29.76 · fair value $19.75 · gap -33.6%
 - AUB: no_edge · price $40.91 · fair value $30.68 · gap -25.0%
 - AX: no_edge · price $93.72 · fair value $83.09 · gap -11.3%
+- BKU: no_edge · price $44.54 · fair value $41.03 · gap -7.9%
 - BUR: no_model · price $4.35
 - CASH: no_edge · price $76.17 · fair value $76.43 · gap +0.3%
-- CATY: no_edge · price $61.48 · fair value $55.40 · gap -9.9%
 
 ---
 

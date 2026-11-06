@@ -1,5 +1,33 @@
 [
  {
+  "id": "efdf2c24-7539-3a9c-bba3-aecc204ae8d7",
+  "ts": "2026-11-06T14:30:00+00:00",
+  "title": "ETFs to Focus on Post-US Mid-Term Election Results",
+  "summary": "Democratic mid-term gains reshape sector outlooks, putting clean energy, healthcare and consumer ETFs in focus amid shifting policies and falling oil prices.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-focus-post-us-mid-143000471.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "8bc93ab3-3cb3-30dd-ad03-990784dd388c",
+  "ts": "2026-11-06T13:29:00+00:00",
+  "title": "Stock Market News for Nov 6, 2026",
+  "summary": "Wall Street closed sharply lower on Thursday, pulled down by a broad-based stock slump.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "f204f910-c37a-331d-b8ea-044cc529827c",
   "ts": "2026-11-06T11:05:09+00:00",
   "title": "State Street Consumer Discretionary (XLY) Adds Amazon and Tesla on Nov. 4",

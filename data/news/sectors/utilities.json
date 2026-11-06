@@ -1,5 +1,19 @@
 [
  {
+  "id": "006b5deb-3784-3f4a-8aa9-11bdd763eb0f",
+  "ts": "2026-11-06T10:25:11+00:00",
+  "title": "Are Wall Street Analysts Bullish on Southern Company Stock?",
+  "summary": "Southern Company has underperformed the broader market over the past year, and analysts remain unsure about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8695106/are-wall-street-analysts-bullish-on-southern-company-stock",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "558e4018-85c6-3c56-9b1d-4c28ba2bbb88",
   "ts": "2026-11-05T10:20:01+00:00",
   "title": "Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)?",

@@ -1,5 +1,33 @@
 [
  {
+  "id": "8bc93ab3-3cb3-30dd-ad03-990784dd388c",
+  "ts": "2026-11-06T13:29:00+00:00",
+  "title": "Stock Market News for Nov 6, 2026",
+  "summary": "Wall Street closed sharply lower on Thursday, pulled down by a broad-based stock slump.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "2fe677a3-5b77-39b7-a17b-de36526cce40",
+  "ts": "2026-11-06T11:14:02+00:00",
+  "title": "Do Wall Street Analysts Like EQT Corporation Stock?",
+  "summary": "Although EQT Corporation's shares have struggled recently, Wall Street analysts remain overwhelmingly bullish on the company's long-term growth prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8695867/do-wall-street-analysts-like-eqt-corporation-stock",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "eb9a9228-812b-3485-a14f-756e77f70769",
   "ts": "2026-11-06T11:05:25+00:00",
   "title": "State Street Energy SPDR (XLE) Sells $75.9 Million of Exxon on Nov. 4",

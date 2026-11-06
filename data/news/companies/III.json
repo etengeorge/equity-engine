@@ -1,5 +1,41 @@
 [
  {
+  "id": "b082891a-d6d9-3bd5-94c9-0e013f3e2654",
+  "ts": "2026-11-06T13:55:02+00:00",
+  "title": "Wall Street Analysts Think ISG (III) Could Surge 30.87%: Read This Before Placing a Bet",
+  "summary": "The average of price targets set by Wall Street analysts indicates a potential upside of 30.9% in ISG (III). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earnings estimate revisions might translate into an upside in the stock.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-isg-135502428.html",
+  "tickers": [
+   "III"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "fee9f437-c09b-31c9-bdb6-56dd62a0c759",
+  "ts": "2026-11-06T13:40:05+00:00",
+  "title": "Is Information Services Group (III) a Great Value Stock Right Now?",
+  "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/information-services-group-iii-great-134005417.html",
+  "tickers": [
+   "III"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d3e40afd-77d2-3eaf-b887-e2f0cc46578a",
+  "ts": "2026-11-06T13:40:05+00:00",
+  "title": "Is GigaCloud Technology Inc. (GCT) Stock Outpacing Its Business Services Peers This Year?",
+  "summary": "Here is how GigaCloud Technology Inc. (GCT) and Information Services Group (III) have performed compared to their sector so far this year.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/gigacloud-technology-inc-gct-stock-134005362.html",
+  "tickers": [
+   "III"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2ad17be2-92a6-311b-b806-311bbff49672",
   "ts": "2026-11-05T15:00:00+00:00",
   "title": "Telecom Carriers Move Toward Unified, AI-based Architectures",
