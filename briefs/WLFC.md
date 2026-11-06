@@ -1,53 +1,61 @@
 # WLFC — WILLIS LEASE FINANCE
-*Industrials · brief generated 2026-10-30 · selected as **opportunistic***
+*Industrials · brief generated 2026-11-06 · selected as **opportunistic***
 
 ## Why this name is on today's list
-- cheapest 1% of 152 Industrials peers (99th pct)
-- baseline gap +295%
-- 21d move -16%
+- cheapest 3% of 152 Industrials peers (97th pct)
+- baseline gap +243%
+- 5d move +12%
+- 21d move +14%
 - filed an 8-K in the last few sessions
-- urgency score 8.61
+- 6 news items in the last 5 days
+- Industrials is in the news
+- Industrials sector selloff (median -5.2%)
+- moved harder than its sector
+- urgency score 15.19
 
 ## Market
 | | |
 |---|---|
-| price | $41.86 |
-| market cap | $885.1M |
-| 5d / 21d / 63d / 252d | +3.9% / -16.1% / -41.2% / -2.7% |
-| 60d avg daily $ volume | $10.9M |
-| beta (vs IWM) | 1.31 (R²=0.254) |
-| 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-06-30 (10-Q) |
+| price | $46.92 |
+| market cap | $992.9M |
+| 5d / 21d / 63d / 252d | +12.1% / +13.9% / -23.0% / +19.8% |
+| 60d avg daily $ volume | $10.5M |
+| beta (vs IWM) | 1.24 (R²=0.204) |
+| 5d volume vs 60d average | 1.2x |
+| balance sheet as of | 2026-09-30 (10-Q) |
 | WACC weights | equity 28% / debt 72% |
 
 ## What the market's price already assumes
 Normalized FCFF base **$347.6M** (mean of CFO−capex over 3y, plus after-tax interest)
   annual FCF, newest first: ['$252.2M', '$268.8M', '$224.6M']
-Enterprise value **$3.2B** · FCFF yield **+10.8%**
+Enterprise value **$3.5B** · FCFF yield **+9.8%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 14.2% − 1pt | +2.5% |
-| **14.2% (point)** | **+4.7%** |
-| 14.2% + 1pt | +6.8% |
+| 14.0% − 1pt | +4.3% |
+| **14.0% (point)** | **+6.6%** |
+| 14.0% + 1pt | +8.7% |
 
 
-> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$318.0M** and an implied growth of **+6.9%** instead of +4.7%. Decide which treatment you are underwriting and say so explicitly.
+> **Stock compensation is 12% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$318.0M** and an implied growth of **+8.9%** instead of +6.6%. Decide which treatment you are underwriting and say so explicitly.
 
 Naive baseline for comparison: **+20.4%** (5y revenue CAGR +20.4%).
-Gap under that baseline: **+294.5%** (fair value $165.14 vs price $41.86).
+Gap under that baseline: **+242.7%** (fair value $160.78 vs price $46.92).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **99th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +313.0%).
+Cohort: **97th percentile** of 152 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: +255.2%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 - none raised
 
 ## Recent filings
+- 2026-11-05 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1018164/000119312526449856/d349710ddef14a.htm
+- 2026-11-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000094/wlfc-20260930.htm
+- 2026-11-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/wlfc-20261103.htm
 - 2026-10-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/wlfc-20261030.htm
 - 2026-10-26 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000084/wlfc-20261026.htm
 - 2026-09-30 **8-K** — items 5.03,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000082/wlfc-20260924.htm
@@ -55,22 +63,40 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 - 2026-09-08 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000074/wlfc-20260908.htm
 - 2026-08-25 **8-K** — items 2.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/wlfc-20260824.htm
 - 2026-08-06 **8-K** — items 1.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000070/wlfc-20260803.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000068/wlfc-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000065/wlfc-20260804.htm
-- 2026-07-30 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000063/wlfc-20260729.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
+- **2026-11-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/q32026ex991.htm
+- **2026-11-03** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/wlfcq32026earningscallpres.htm
 - **2026-10-30** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/q32026ex991dividend.htm
 - **2026-10-26** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000084/newsreleaseissuedbywillisl.htm
 - **2026-09-22** · EX-99.1 · press release — EX-99.1 *(item: unregistered sale of equity, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/newsreleaseissuedbywillisl.htm
 - **2026-09-08** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000074/deutschedeckfinal9-4x26f.htm
-- **2026-08-25** · EX-99.1 · press release — EX-99.1 *(item: completion of an acquisition or disposition, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/newsreleaseissuedbywillisl.htm
 
 ## News on this company — last 90 days
-*16 items held; showing the 16 most recent. Headlines and summaries only — open the URL for the full story.*
+*21 items held; showing the 18 most recent. Headlines and summaries only — open the URL for the full story.*
 
+- **2026-11-05** · Willis Lease Finance Stock Gains A Revenue Lift As Earnings Tighten — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-stock-gains-052256894.html
+  > Willis Lease Finance reported Q3 2026 revenue of US$246.3 million and net income of US$11.7 million, with record quarterly lease rent of US$84.4 million, alongside lower earnings per share than a year earlier. The business grew maintenance 
+- **2026-11-03** · Willis Lease Finance Corporation Q3 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-willis-lease-finance-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
+  > Moby summary of Willis Lease Finance Corporation's Q3 2026 earnings call
+- **2026-11-03** · Willis Lease (WLFC) Q3 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/11/03/willis-lease-wlfc-q3-2026-earnings-call-transcript/
+  > Management says the fund seeding phase is complete and the focus has shifted.
+- **2026-11-03** · What Willis Lease Finance (WLFC) Said on Its Q3 Earnings Call — *MarketBeat* — https://www.marketbeat.com/instant-alerts/transcript-what-willis-lease-finance-wlfc-said-on-its-q3-earnings-call-2026-11-03/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Willis Lease Finance (NASDAQ:WLFC) reported third-quarter 2026 revenue of $246.3 million, earnings before tax of $18.8 million and net income attributable to common shareholders of $10.2 million, or $0.47 per diluted share, as the aircraft 
+- **2026-11-03** · Willis Lease: Q3 Earnings Snapshot — *Associated Press* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-q3-earnings-snapshot-114325766.html
+  > (AP) — Willis Lease Finance Corp. (WLFC) on Tuesday reported earnings of $11.
+- **2026-11-03** · Willis Lease Finance Corporation Reports Solid Third Quarter 2026 Financial Results with Record Revenues and Income From Investments — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-reports-113000623.html
+  > COCONUT CREEK, Fla., Nov. 03, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (“WLFC” or the “Company”), the leading lessor of commercial aircraft engines and global provider of aviation services, today announced it
+- **2026-10-30** · What Sent FTAI Aviation Stock Higher? — *Trefis* — https://www.trefis.com/stock/ftai/articles/621574/what-sent-ftai-aviation-stock-higher/2026-10-30
+  > For questions about this article or underlying research, email help@trefis.com.
+- **2026-10-30** · Willis Lease Finance Corporation Declares Fourth Quarter 2026 Dividend and Renewal and Increase of Share Repurchase Plan — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-declares-103000418.html
+  > COCONUT CREEK, Fla., Oct. 30, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (“WLFC” or the “Company”), announced today the Company’s quarterly dividend of $0.15 per share of common stock outstanding. The dividend 
+- **2026-10-27** · Herc Holdings (HRI) Q3 Earnings and Revenues Beat Estimates — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/herc-holdings-hri-q3-earnings-104502434.html
+  > Herc Holdings (HRI) delivered earnings and revenue surprises of +26.95% and +1.98%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?
+- **2026-10-26** · Willis Lease Finance Corporation Announces Timing of Third Quarter 2026 Financial Results and Conference Call — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-announces-195400710.html
+  > COCONUT CREEK, Fla., Oct. 26, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (the “Company”), the leading lessor of commercial aircraft engines and global provider of aviation services, today announced it will rele
 - **2026-09-22** · Announcement of Series B Preferred Stock Purchase Agreement — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/announcement-series-b-preferred-stock-103000345.html
   > COCONUT CREEK, Fla., Sept. 22, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (“WLFC” or the "Company"), the leading lessor of commercial aircraft engines and global provider of aviation services, today announced t
 - **2026-09-20** · Willis Lease Finance (WLFC) Bets on Malaysia for Next Phase of Global Expansion — *Insider Monkey* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-bets-205718056.html
@@ -87,46 +113,34 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
   > COCONUT CREEK, Fla., Aug. 27, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) ("WLFC" or the "Company"), the leading lessor of commercial aircraft engines and global provider of aviation services, today announced th
 - **2026-08-25** · Willis Lease Finance Corporation Closes Transaction to Acquire Commercial Aircraft and Aircraft Engine Portfolio — *GlobeNewswire* — https://finance.yahoo.com/real-estate/articles/willis-lease-finance-corporation-closes-103000202.html
   > Acquisition expands WLFC’s lease portfolio by an additional 12 aircraft and 13 enginesCOCONUT CREEK, Fla., Aug. 25, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (the “Company” or “WLFC”), the leading lessor of co
-- **2026-08-18** · Willis Lease Finance Corporation CEO Austin C. Willis to Speak at Deutsche Bank's 16th Annual Aviation Forum — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-ceo-103000242.html
-  > CEO to join ‘Investing in Aircraft Engines’ Panel on September 8COCONUT CREEK, Fla., Aug. 18, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (the “Company” or “WLFC”), the leading lessor of commercial aircraft engi
-- **2026-08-11** · Willis Lease Finance (WLFC) Q2 2026 Earnings Call Transcript — *Motley Fool* — https://www.fool.com/earnings/call-transcripts/2026/08/11/willis-lease-finance-wlfc-q2-2026-earnings-call-transcript/
-  > AUM surged 21% to $4.4 billion as management pivots toward asset management and services.
-- **2026-08-10** · WLFC's Q2 Earnings Fall Y/Y on Lower Maintenance Revenues — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/wlfcs-q2-earnings-fall-y-185100633.html
-  > Lower maintenance reserve revenues and higher G&A and technical expenses weighed on WLFC's Q2 earnings per share, while higher lease rent provided some respite.
-- **2026-08-06** · 5 Stocks to Buy This Week If You Want Dividend Income in August — *24/7 Wall St.* — https://247wallst.com/investing/2026/08/06/5-stocks-to-buy-this-week-if-you-want-dividend-income-in-august/
-  > Five dividend windows are about to slam shut, and missing the cutoff by even a single day means waiting for a future payout that may never arrive. Here is what you need to know about each company before August 10.
-- **2026-08-04** · Willis Lease Finance Corporation Q2 2026 Earnings Call Summary — *Moby* — https://app.moby.co/home/research/tools/earningsCalendar/earnings-willis-lease-finance-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss
-  > Moby summary of Willis Lease Finance Corporation's Q2 2026 earnings call
-- **2026-08-04** · Willis Lease Finance Corp (WLFC) (Q2 2026) Earnings Call Highlights: Record AUM and Strategic ... — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corp-wlfc-210759493.html
-  > Willis Lease Finance Corp (WLFC) reports strong Q2 2026 results with 21% AUM growth and strategic M&A, despite geopolitical headwinds impacting short-term revenues.
-- **2026-08-04** · Willis Lease Finance Q2 Earnings Call Highlights — *MarketBeat* — https://www.marketbeat.com/instant-alerts/willis-lease-finance-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance
-  > Willis Lease Finance (NASDAQ:WLFC) reported second-quarter 2026 revenue of $194 million, earnings before tax of $38.1 million and adjusted EBITDA of $120.7 million, as the aircraft-engine leasing company expanded assets under management and
-- **2026-08-04** · Willis Lease Finance Corporation Reports Solid Second Quarter 2026 Financial Results — *GlobeNewswire* — https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-corporation-reports-103000968.html
-  > COCONUT CREEK, Fla., Aug. 04, 2026 (GLOBE NEWSWIRE) -- Willis Lease Finance Corporation (NASDAQ: WLFC) (“WLFC” or the “Company”), the leading lessor of commercial aircraft engines and global provider of aviation services, today announced it
 
 ## What is happening in Industrials
 *From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-- **2026-09-25** · Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html
-- **2026-09-24** · Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/
-- **2026-09-24** · Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131757956.html
-- **2026-09-23** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-133135107.html
-- **2026-09-22** · Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html
-- **2026-09-21** · Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html
-- **2026-09-21** · Jacobs Solutions Stock: Is J Underperforming the Industrial Sector? — *Barchart* — https://www.barchart.com/story/news/4708312/jacobs-solutions-stock-is-j-underperforming-the-industrial-sector
-- **2026-09-18** · Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday as Tech Rally Continues — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132105542.html
-- **2026-09-17** · Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally — *24/7 Wall St.* — https://247wallst.com/investing/2026/09/17/generac-holdings-surges-16-on-2-4b-amazon-data-center-generator-deal-caterpillar-ticks-up-cummins-sits-out-the-rally/
-- **2026-09-17** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131801155.html
+- **2026-11-05** · Are Wall Street Analysts Predicting Vertiv Holdings Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/8678360/are-wall-street-analysts-predicting-vertiv-holdings-stock-will-climb-or-sink
+- **2026-11-05** · Copart Stock: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/8667114/copart-stock-is-wall-street-bullish-or-bearish
+- **2026-11-04** · Are Wall Street Analysts Predicting Ingersoll Rand Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/8643508/are-wall-street-analysts-predicting-ingersoll-rand-stock-will-climb-or-sink-summary-despite-ingersoll-rands-outperformance-relative-to-the-broader-marke
+- **2026-11-04** · What State Street Industrial Select Sector SPDR (XLI) Sold: GE Leads on Nov. 2 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110503461.html
+- **2026-11-03** · Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Tuesday Ahead of US Midterm Election Results — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-135941758.html
+- **2026-11-03** · Trump May Have Handed GE Vernova an Unexpected Opportunity. Here’s What It Means for GEV Stock. — *Barchart* — https://www.barchart.com/story/news/8612839/trump-may-have-handed-ge-vernova-an-unexpected-opportunity-heres-what-it-means-for-gev-stock
+- **2026-11-03** · What State Street Industrial Select SPDR (XLI) Sold: GE Leads on Oct. 30 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110601004.html
+- **2026-11-02** · Are Wall Street Analysts Bullish on RTX Corporation Stock? — *Barchart* — https://www.barchart.com/story/news/8595008/are-wall-street-analysts-bullish-on-rtx-corporation-stock
+- **2026-11-02** · The Manufacturing Economy Is Growing, but So Are Headwinds — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-110226/card/the-manufacturing-economy-is-growing-but-so-are-headwinds-cAh1htz6UzUq6AMpQzjI?siteid=yhoof2&yptr=yahoo
+- **2026-11-02** · What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Thursday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110549890.html
 
 ## Market and macro context
+- **2026-11-06** · High AI Anxiety Eases on Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/high-ai-anxiety-eases-wall-111154583.html
+- **2026-11-06** · The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us. — *Barrons.com* — https://www.barrons.com/articles/ai-stock-selloff-caterpillar-valuation-analysis-20904e44?siteid=yhoof2&yptr=yahoo
+- **2026-11-06** · What iShares Russell 2000 Index Fund (IWM) Bought: Glaukos Leads on Wednesday — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110419918.html
+- **2026-11-06** · Cloudflare Stock Surges After Earnings. What That Says About AI Fears. — *Barrons.com* — https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e?siteid=yhoof2&yptr=yahoo
 
 *Rules, releases and agency actions:*
-- **2026-10-30** · Safety Zone; M/T KALAHARI, Gulf of America, Pascagoula, MS — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22269/safety-zone-mt-kalahari-gulf-of-america-pascagoula-ms
-- **2026-10-30** · Safety Zone; S.S. UNITED STATES Dead Ship Tow, Sector Mobile Captain of the Port Zone, Mobile, AL — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22249/safety-zone-ss-united-states-dead-ship-tow-sector-mobile-captain-of-the-port-zone-mobile-al
-- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22223/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
-- **2026-10-30** · Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22222/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
-- **2026-10-30** · Fisheries of the Exclusive Economic Zone off Alaska; Pollock in Statistical Area 630 in the Gulf of Alaska — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22218/fisheries-of-the-exclusive-economic-zone-off-alaska-pollock-in-statistical-area-630-in-the-gulf-of
-- **2026-10-30** · Fisheries of the Northeastern United States; Atlantic Bluefish Fishery; Quota Transfer From Rhode Island to North Carolina — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/10/30/2026-22217/fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-transfer-from-rhode
+- **2026-11-06** · Amendments to the “Small Business” and “Small Organization” Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and
+- **2026-11-06** · Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment
+- **2026-11-06** · Heightened Requirements for Foreign Importers of Record — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record
+- **2026-11-06** · Drawbridge Operation Regulation; Harlem River, Between the Boroughs of Manhattan and the Bronx, New York City, New York — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22734/drawbridge-operation-regulation-harlem-river-between-the-boroughs-of-manhattan-and-the-bronx-new
+- **2026-11-06** · Specific Listing for 3-Chloromethcathinone, A Currently Controlled Schedule I Substance — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22717/specific-listing-for-3-chloromethcathinone-a-currently-controlled-schedule-i-substance
+- **2026-11-06** · Fisheries of the Exclusive Economic Zone Off Alaska; Amendment 128 to the FMP for Groundfish of the Bering Sea and Aleutian Islands Management Area and Amendment 116 to the FMP for the Groundfish Fisheries of the Gulf of Alaska; Small Sablefish Release — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/11/06/2026-22695/fisheries-of-the-exclusive-economic-zone-off-alaska-amendment-128-to-the-fmp-for-groundfish-of-the
 
 ## What we concluded before
 *(most recent 6000 chars of the file; 35193 older chars not shown)*
@@ -258,10 +272,6 @@ Rules that override everything above:
   discount rate, and that spread is the honest precision of this model. A single point
   estimate claims a precision it does not have.
 - If the FCFF base is negative and the brief shows a multiples valuation, you may reason
-  from that instead. Say plainly that you are valuing on comparables, quote the cohort
-  size, and treat the range as a range — a comparables number is a statement about the
-  cohort, not about this company.
-- If the devil's advocate wins, say so and set `verdict` accordingly. A red-team pass
-  that never changes an answer is theatre.
-- Never manufacture a fair value for a `no_model` name.
-- An extreme gap is a suspected data error until you have personally verified the inputs.
+  from that instead. S
+
+> **BRIEF TRUNCATED** at 30000 chars. Sections above are complete; the task block was cut — re-read it from ROUTINE.md before answering.

@@ -166,17 +166,5 @@
    "CTGO"
   ],
   "source": "yfinance"
- },
- {
-  "id": "c1eb5424-33c5-30dc-b52f-342a462615ca",
-  "ts": "2026-07-06T12:00:00+00:00",
-  "title": "Contango Converts Remaining Hedge Contracts into Debt",
-  "summary": "Contango Silver & Gold Inc. (\"Contango\" or the \"Company\") (NYSE American: CTGO) (TSX: CTGO) is pleased to announce that it has amended its credit facility (the \"Amended Credit Facility\") to convert the remaining 15,000 ounces of hedged gold into debt with its existing lenders. As part of the Amended Credit Facility, the interest rate was reduced to approximately 7.40%.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/markets/commodities/articles/contango-converts-remaining-hedge-contracts-120000722.html",
-  "tickers": [
-   "CTGO"
-  ],
-  "source": "yfinance"
  }
 ]

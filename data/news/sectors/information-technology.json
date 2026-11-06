@@ -1,5 +1,173 @@
 [
  {
+  "id": "fbf0650e-b23c-35fd-aa1a-a65641e5efac",
+  "ts": "2026-11-06T11:05:46+00:00",
+  "title": "Technology Select Sector SPDR (XLK) Adds Oracle, Trims Apple on Nov. 4",
+  "summary": "The fund bought $212.8 million of Oracle stock while selling $8.1 million of Apple and $7.7 million of Nvidia.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/technology-select-sector-spdr-xlk-110546788.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "535b8dcf-74e7-395b-a409-2995042226a9",
+  "ts": "2026-11-05T20:54:15+00:00",
+  "title": "Sector Update: Tech Stocks Tumble Late Afternoon",
+  "summary": "Tech stocks were sharply lower late Thursday afternoon, with the State Street Technology Select Sect",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-tumble-afternoon-205415545.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "06a95808-e386-3ac8-95af-a34b93296e41",
+  "ts": "2026-11-05T18:21:01+00:00",
+  "title": "Sector Update: Tech Stocks Tumble Thursday Afternoon",
+  "summary": "Tech stocks were sharply lower Thursday afternoon, with the State Street Technology Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-tumble-thursday-182101545.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "dcfcd6fd-0cc0-30c7-b071-96c247307b8b",
+  "ts": "2026-11-05T18:14:47+00:00",
+  "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181447179.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "ece24c65-9fa3-3755-b405-d02eded97e65",
+  "ts": "2026-11-05T14:45:00+00:00",
+  "title": "Is a Democratic Victory Good News for Apple? ETFs to Consider",
+  "summary": "The Democratic win could reshape the AI investment landscape, potentially creating new opportunities for Apple and AAPL-heavy ETFs.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/technology/articles/democratic-victory-good-news-apple-144500421.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "3bd6ab83-0742-3c3d-a4d0-74d0b5f11328",
+  "ts": "2026-11-05T13:26:51+00:00",
+  "title": "What Are Wall Street Analysts' Target Price for Dell Technologies Stock?",
+  "summary": "While Dell Technologies has outpaced the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8672029/what-are-wall-street-analysts-target-price-for-dell-technologies-stock",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "8878d125-3b10-31f2-a26b-031a66967ba2",
+  "ts": "2026-11-05T12:38:24+00:00",
+  "title": "Gen Digital Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "Even though Gen Digital has outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8670627/gen-digital-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "abd8d0dd-c720-371f-97b3-8165aa71cbac",
+  "ts": "2026-11-05T11:04:44+00:00",
+  "title": "What State Street Tech Select SPDR (XLK) Bought: Okta Leads on Nov. 3",
+  "summary": "The $117.06 billion fund bought $155.0 million of Okta stock while selling $30.6 million of NVIDIA and $29.6 million of Apple.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-tech-select-spdr-110444156.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "49017b97-45c1-3f48-ba22-ab6d5676c0c2",
+  "ts": "2026-11-05T10:40:26+00:00",
+  "title": "What Are Wall Street Analysts' Target Price for Super Micro Computer Stock?",
+  "summary": "Super Micro Computer has underperformed the broader market and technology sector despite record revenue, raised guidance, and mixed analyst sentiment.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8667042/what-are-wall-street-analysts-target-price-for-super-micro-computer-stock",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "320b7e5f-4ca2-3ae1-8555-0827e63b9f9c",
+  "ts": "2026-11-04T20:45:28+00:00",
+  "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+  "summary": "Tech stocks were mixed late Wednesday afternoon, with the State Street Technology Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-204528692.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "9a2f0e7e-13e0-3449-8405-9934d99791ba",
+  "ts": "2026-11-04T19:33:50+00:00",
+  "title": "Own an AI or Tech ETF? Arista\u2019s Big Quarter Just Paid Off",
+  "summary": "Arista just posted a blowout quarter, but whether that gain actually hit your portfolio depends on something most ETF investors never check before buying.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/11/04/own-an-ai-or-tech-etf-aristas-big-quarter-just-paid-off/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "5fc73fed-7141-312f-8a6b-9791e4ef3991",
+  "ts": "2026-11-04T18:27:12+00:00",
+  "title": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
+  "summary": "Tech stocks were mixed Wednesday afternoon, with the State Street Technology Select Sector SPDR ETF",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-wednesday-182712833.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "392049fa-a74d-3709-878a-0e6c9b579e61",
   "ts": "2026-09-25T13:24:48+00:00",
   "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",

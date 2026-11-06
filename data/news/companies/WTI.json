@@ -106,17 +106,5 @@
    "WTI"
   ],
   "source": "yfinance"
- },
- {
-  "id": "238693b0-7fb7-3908-8dfa-c14037e183cd",
-  "ts": "2026-07-02T14:02:00+00:00",
-  "title": "Eni Teams Up With Mercuria to Boost Global Energy Trading Footprint",
-  "summary": "E partners with Mercuria in a 50:50 JV to boost global energy trading, improve efficiency and strengthen long-term cash flow generation.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/energy/articles/eni-teams-mercuria-boost-global-140200341.html",
-  "tickers": [
-   "WTI"
-  ],
-  "source": "yfinance"
  }
 ]

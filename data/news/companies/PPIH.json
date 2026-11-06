@@ -130,29 +130,5 @@
    "PPIH"
   ],
   "source": "yfinance"
- },
- {
-  "id": "b79f73f0-57b8-3935-99e7-28983761665a",
-  "ts": "2026-07-02T12:55:00+00:00",
-  "title": "The Zacks Analyst Blog Highlights AMD, Lam Research, Cisco Systems, Perma-Pipe international and AstroNova",
-  "summary": "AMD, Lam Research and Cisco headline new analyst reports as AI demand, semiconductor spending and networking trends drive growth across featured stocks.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-amd-125500578.html",
-  "tickers": [
-   "PPIH"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "91ed0be9-7ac5-3394-9aa0-8cfbeda92651",
-  "ts": "2026-07-01T21:51:00+00:00",
-  "title": "Top Analyst Reports for AMD, Lam Research & Cisco",
-  "summary": "AMD's AI-driven data center growth, Lam Research's chip equipment momentum and Cisco's AI demand headline today's top analyst reports.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-amd-lam-215100529.html",
-  "tickers": [
-   "PPIH"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -1,5 +1,125 @@
 [
  {
+  "id": "2e5ee8b0-f827-3442-ad48-f82180a0a121",
+  "ts": "2026-11-06T00:00:09+00:00",
+  "title": "Carlyle Secured Lending, Inc. (CGBD) Misses Q3 Earnings and Revenue Estimates",
+  "summary": "Carlyle Secured Lending (CGBD) delivered earnings and revenue surprises of -2.70% and -0.40%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/carlyle-secured-lending-inc-cgbd-000009001.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e43ff745-d994-3e58-b07d-c87cc6c0dca0",
+  "ts": "2026-11-03T12:00:01+00:00",
+  "title": "Aptiv PLC (APTV) Q3 Earnings and Revenues Top Estimates",
+  "summary": "APTIV PLC (APTV) delivered earnings and revenue surprises of +6.77% and +1.08%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/aptiv-plc-aptv-q3-earnings-120001872.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9dc5b712-2395-398e-ac31-61576c5970ba",
+  "ts": "2026-10-28T23:11:54+00:00",
+  "title": "Applied Digital (APLD) Shares Climbed, What Is Behind The Latest Attention?",
+  "summary": "Applied Digital (APLD) has signed a definitive agreement with Soluna Holdings to build a 50 MW critical IT data center in Texas, targeting AI and high performance computing demand through a jointly owned project vehicle. Applied Digital\u2019s agreement with Soluna lands at a moment when momentum around the stock has cooled. The share price is US$20.39, and while the 1-day share price return of 4.5% hints at renewed interest, the 30-day and year-to-date share price returns are down 16.9% and 27.5%...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-shares-climbed-231154698.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "863acb8f-1a98-3386-9b8a-27f364c6003e",
+  "ts": "2026-10-28T22:30:06+00:00",
+  "title": "Everforth (EFOR) Surpasses Q3 Earnings and Revenue Estimates",
+  "summary": "Everforth (EFOR) delivered earnings and revenue surprises of +8.82% and +2.22%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/everforth-efor-surpasses-q3-earnings-223006886.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "78520750-1146-3f1b-9c64-20a9acf98701",
+  "ts": "2026-10-26T15:05:57+00:00",
+  "title": "Soluna repays Generate Capital loan in full, releasing liens ahead of Dorothy 3",
+  "summary": "Soluna retired $28.7 million of Generate principal across August and October, cutting company debt principal 76% and freeing Dorothy project assets as its Applied Digital joint venture heads toward closing.",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/soluna-repays-generate-capital-loan/",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "257ff2e2-c01a-3fde-a9b2-bcee894e5a44",
+  "ts": "2026-10-26T11:30:00+00:00",
+  "title": "Soluna Completes Full Repayment of Generate Capital Debt",
+  "summary": "Soluna Holdings, Inc. (\"Soluna\" or the \"Company\") (NASDAQ: SLNH), a developer of green data centers for intensive computing applications, including AI and Bitcoin mining, today announced that it has repaid, in full, the $28.7 million in principal outstanding, as of June 30, 2026, under its credit facility with Generate Capital, PBC (\"Generate\"). The facility has been terminated, and Generate's liens on the related project assets have been released, allowing for the transition of power to the Dor",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/soluna-completes-full-repayment-generate-113000036.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "eba41ba4-9c53-363a-a979-3f61a0cdc017",
+  "ts": "2026-10-24T11:16:14+00:00",
+  "title": "Soluna Holdings (SLNH) Stock Fair Value Falls After Analysts Cut Targets On HPC Joint Venture",
+  "summary": "Analysts have cut Soluna Holdings fair value estimate from US$4 to US$3.0 per share, a 25% reduction that resets expectations around what the stock might be worth. This pricing shift sits alongside commentary that weighs target cuts against continued support for Soluna Holdings move from Bitcoin hosting toward high performance computing leasing and the new joint venture structure. As you read on, you will see how these updated targets fit into the broader narrative and what to watch as it...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/soluna-holdings-slnh-stock-fair-111614071.html",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "16c3b640-c4ad-3e6c-8020-1adc2d16ab54",
+  "ts": "2026-10-22T16:01:36+00:00",
+  "title": "Rosenblatt keeps &#8216;Buy&#8217; on Soluna after Applied Digital joint venture, but lowers price target",
+  "summary": "Rosenblatt says Soluna's Dorothy 3 deal with Applied Digital pays less than it modeled, but it shrinks Soluna's equity check to about $62 million and should not require new share\u2026",
+  "publisher": "Blockspace",
+  "url": "https://blockspace.media/insight/rosenblatt-cuts-soluna-price-target/",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "029de0a3-5c56-36b0-9888-6f8f15680b10",
+  "ts": "2026-10-22T15:31:15+00:00",
+  "title": "How to Play SLNH Stock as Soluna Scores a Major Data Center Win",
+  "summary": "Soluna\u2019s partnership with Applied Digital marks a major step in its AI data center ambitions, but can it revive SLNH stock?",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8325914/how-to-play-slnh-stock-as-soluna-scores-a-major-data-center-win",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "5d877489-b9ee-3a79-b2f4-617c32885838",
+  "ts": "2026-10-22T09:29:38+00:00",
+  "title": "Applied Digital Jumps 8.5% After Soluna Joint Venture for a 50 MW Wind-Powered AI Data Center",
+  "summary": "Key TakeawaysApplied Digital rose 8. 5% to $21 after forming a 51%-owned, 50 MW wind-powered AI data center venture with Soluna in Texas.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/applied-digital-jumps-8-5-after-soluna-joint-venture-for-a-50-mw-wind-powered-ai-data-center?ref=yahoofinance",
+  "tickers": [
+   "SLNH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "92b08465-7b88-3f53-b554-08ce22a345f3",
   "ts": "2026-09-17T16:40:44+00:00",
   "title": "Rosenblatt starts Soluna at Buy, sees 118 MW HPC buildout topping $200 million in annual revenue",

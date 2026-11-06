@@ -1,5 +1,125 @@
 [
  {
+  "id": "4e402488-2462-3f9a-bb0d-53720ac70d8f",
+  "ts": "2026-11-05T12:06:15+00:00",
+  "title": "What Would Rising Commodity Costs Do To Ford Stock?",
+  "summary": "For questions about this article or underlying research, email help@trefis.com.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/f/articles/622966/what-would-rising-commodity-costs-do-to-ford-stock/2026-11-05",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c69001c6-8a18-3bae-8318-38dbef96ceb1",
+  "ts": "2026-11-03T13:17:50+00:00",
+  "title": "Should You Buy Ford Stock For Its Cash?",
+  "summary": "For questions about this article or underlying research, email help@trefis.com.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/f/articles/622279/should-you-buy-ford-stock-for-its-cash/2026-11-03",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "71556014-a873-3d8d-ab0b-4ace99a15fd0",
+  "ts": "2026-11-03T02:15:01+00:00",
+  "title": "Harley-Davidson: 3 Key Takeaways for Long-Term Investors",
+  "summary": "Management's shift to capital discipline and inventory control is reshaping how the company funds growth and protects dealer margins.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/takeaways/2026/11/02/harley-davidson-3-key-takeaways-for-long-term-investors/",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1b3adda1-fa21-3450-a467-a6fbefc887b5",
+  "ts": "2026-11-02T14:55:07+00:00",
+  "title": "Oracle upgraded, Reddit downgraded: Wall Street's top analyst calls",
+  "summary": "Oracle upgraded, Reddit downgraded: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/news/oracle-nike-upgraded-wall-streets-134055988.html",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "f4baf73d-6981-3c26-a26d-36c30c5c21db",
+  "ts": "2026-11-02T12:47:00+00:00",
+  "title": "Harley-Davidson Stock After Q3: Should You Buy, Hold or Sell?",
+  "summary": "HOG's improving North American retail trends, cost savings and strong liquidity support its recovery, but shipment weakness, tariff pressures and LiveWire losses remain concerns.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/harley-davidson-stock-q3-buy-124700931.html",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7e4d603d-ec0b-383d-9b72-277d4b2a9188",
+  "ts": "2026-11-01T04:18:37+00:00",
+  "title": "Is Harley Davidson (HOG) Above Fair Value After A 51% Rise?",
+  "summary": "Harley-Davidson shares have surged year to date, helped by fresh headlines around its core motorcycle business and its electric offshoot. With that kind of move on the screen, the key issue for you as an investor is whether the current share price still lines up with the sales the company is generating. Harley-Davidson is up 51.3% year to date, which puts real pressure on the question of how much sales firepower the stock is now pricing in. Recent reports of softer revenue alongside growth...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/harley-davidson-hog-above-fair-041837800.html",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "462a83b7-dcb5-3e9a-b942-230072d0ef90",
+  "ts": "2026-11-01T02:07:46+00:00",
+  "title": "Harley Davidson (HOG) Stock Draws Fresh Price Target Split After Turnaround Progress",
+  "summary": "Price targets for Harley-Davidson have shifted into a wide US$19 to US$37 range, with several recent moves into the low to mid US$30s. That change reflects a split view, where some analysts point to progress on the turnaround and Back to Bricks plan, while others question how much of that improvement is already captured in the stock. As you read on, you will see how this evolving price target narrative can help you track the next phase of the Harley-Davidson story. Analyst Price Targets don't...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/harley-davidson-hog-stock-draws-020746184.html",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3cf27265-7fbe-3aa1-9c70-3a1dfc96780f",
+  "ts": "2026-10-31T12:08:07+00:00",
+  "title": "Harley-Davidson (HOG) Pauses LiveWire Funding And Adds Two Independent Directors",
+  "summary": "Harley-Davidson (NYSE:HOG) reported mixed Q3 results, with profits and margins declining while global and North American unit sales improved. Management formed a restructuring committee for the LiveWire electric segment and suspended further funding in response to ongoing losses. The Board appointed two new independent directors, adding industry and governance experience to Harley-Davidson's oversight structure. The LiveWire funding pause and new independent directors point to a deeper shift...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/harley-davidson-hog-pauses-livewire-120807295.html",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "bcb10a0b-235c-3812-b557-5dd99a6249e6",
+  "ts": "2026-10-30T21:14:16+00:00",
+  "title": "Harley-Davidson Q3 Earnings Call Highlights",
+  "summary": "Harley-Davidson (NYSE:HOG) reported higher third-quarter global motorcycle retail sales and raised portions of its 2026 outlook, citing improved North American demand, tighter dealer inventories and early results from its \u201cBack to the Bricks\u201d strategy. Global retail sales of new motorcycles rose 5%",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/instant-alerts/transcript-harley-davidson-q3-earnings-call-highlights-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8a5959aa-2d0d-3cdf-b3b7-0b96815ec65f",
+  "ts": "2026-10-30T14:46:01+00:00",
+  "title": "Harley-Davidson (HOG) Q3 2026 Earnings Call Transcript",
+  "summary": "North American sales surged 9% amid seven quarters of inventory discipline.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/harley-davidson-hog-q3-2026-earnings-call-transcript/",
+  "tickers": [
+   "HOG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "3041e205-e5a0-36d3-a601-08a878ea6a50",
   "ts": "2026-09-03T18:47:18+00:00",
   "title": "1 Russell 2000 Stock for Long-Term Investors and 2 We Brush Off",

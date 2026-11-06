@@ -1,5 +1,125 @@
 [
  {
+  "id": "b76b1a95-e816-38a9-a78b-02457064fdbf",
+  "ts": "2026-11-06T11:04:50+00:00",
+  "title": "SPDR S&P MidCap 400 ETF (MDY) Adds Glaukos and United Therapeutics on Wednesday",
+  "summary": "The fund bought $109.8 million of Glaukos as a new position and sold out of Okta for $238.4 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-midcap-400-etf-110450327.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "671a3c9f-2da0-3fe0-ab85-a8fae0d6f7ce",
+  "ts": "2026-11-06T11:04:19+00:00",
+  "title": "What iShares Russell 2000 Index Fund (IWM) Bought: Glaukos Leads on Wednesday",
+  "summary": "The fund added $1.58 billion in new buying across 1,851 positions, with Glaukos topping the list at $7.7 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110419918.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "39154b4c-6688-3837-b503-7a968ca3644f",
+  "ts": "2026-11-05T18:00:00+00:00",
+  "title": "ISRG System Placements Rise 28%: Is Capital Equipment Demand Rising?",
+  "summary": "Intuitive Surgical's Q3 system placements surge 28%, fueled by multisystem orders and upgrades, but does this signal sustained capital equipment demand?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/isrg-system-placements-rise-28-180000831.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "62c457eb-bd57-323f-910c-50df620db64e",
+  "ts": "2026-11-05T16:27:00+00:00",
+  "title": "GE HealthCare Unveils Allia Celeo to Advance Interventional Imaging",
+  "summary": "GEHC's Allia Celeo launch expands its interventional imaging portfolio with AI-powered precision, flexible workflows and predictive service capabilities.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-unveils-allia-celeo-162700606.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9ebb2471-ffd8-3844-9095-fad60670c740",
+  "ts": "2026-11-05T16:16:00+00:00",
+  "title": "CAH Q1 Earnings & Revenues Beat Estimates on Pharma Strength",
+  "summary": "Cardinal Health beats Q1 FY27 earnings and revenue estimates, fueled by pharmaceutical sales growth, and raises its full-year earnings outlook.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/cah-q1-earnings-revenues-beat-161600872.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "681dda77-b2c4-3f34-b803-10cd0375750a",
+  "ts": "2026-11-05T13:00:00+00:00",
+  "title": "MCK Q2 Earnings Beat Estimates on Specialty Growth, Outlook Raised",
+  "summary": "McKesson's Q2 fiscal 2027 earnings beat estimates on specialty growth and higher prescription volumes, prompting raised guidance despite an after-hours stock dip.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/mck-q2-earnings-beat-estimates-130000114.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "91e2b9d7-0bc8-31bd-a081-8efe18d48aeb",
+  "ts": "2026-11-05T11:05:31+00:00",
+  "title": "What iShares Trust (IJT) Bought: McGrath Rent Leads on Nov. 3",
+  "summary": "The fund bought $15.5 million of McGrath Rent and $14.0 million of Loar Holdings, while selling $84.8 million of Glaukos in a day of $148.9 million gross trading.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-trust-ijt-bought-mcgrath-110531899.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "05b284fe-de0f-312e-bf7b-78f6b70dd430",
+  "ts": "2026-11-05T11:04:58+00:00",
+  "title": "SPDR Portfolio S&P 400 Mid Cap ETF (SPMD) Buys $75.3 Million More Glaukos on Tuesday",
+  "summary": "The fund bought $75.3 million of Glaukos and sold out of Okta, a $171.9 million exit, on gross trading of $337.2 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-400-mid-110458152.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1d9ebcac-22ce-3856-859f-e0df035e01eb",
+  "ts": "2026-11-05T11:04:37+00:00",
+  "title": "iShares S&P Mid-Cap 400 Growth (IJK) Buys $58 Million More Glaukos on Tuesday",
+  "summary": "The fund bought $58.0 million of Glaukos and exited Okta, with gross trades of $378.0 million against a net outflow of $1.3 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-p-mid-cap-400-110437931.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "36032933-deac-3a54-aabe-fdace44fde15",
+  "ts": "2026-11-05T11:04:00+00:00",
+  "title": "iShares Russell 2000 (IWM) Buys $2.4 Million More Jackson Financial on Tuesday",
+  "summary": "The ETF added $387.1 million in net new exposure, raising 1,860 positions and trimming just two, on gross trading of $389.2 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110400445.html",
+  "tickers": [
+   "GKOS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "fe22c770-9014-364b-915b-78ff8d39a42d",
   "ts": "2026-09-23T11:00:00+00:00",
   "title": "Glaukos Partners with NBA Champion Stephen Curry to Launch \"Could it be KC?\" Campaign to Raise Awareness of Keratoconus",
