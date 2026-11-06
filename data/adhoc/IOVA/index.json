@@ -1,0 +1,190 @@
+{
+  "fetched_utc": "2026-11-06T11:45:43+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "IOVA",
+    "cik": 1425205,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-11-05",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000119312526450084/iova-20261105.htm",
+        "file": "2026-11-05-8-K-iova-20261105.htm.txt",
+        "chars": 3088,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/iova-20260930.htm",
+        "file": "2026-11-05-10-Q-iova-20260930.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926123030/tm2628901d1_8k.htm",
+        "file": "2026-11-05-8-K-tm2628901d1_8k.htm.txt",
+        "chars": 3695,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-29",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926120261/tm2628468d1_8k.htm",
+        "file": "2026-10-29-8-K-tm2628468d1_8k.htm.txt",
+        "chars": 3271,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-05",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926113763/tm2627047d1_8k.htm",
+        "file": "2026-10-05-8-K-tm2627047d1_8k.htm.txt",
+        "chars": 3182,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-29",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926111583/tm2626507d1_8k.htm",
+        "file": "2026-09-29-8-K-tm2626507d1_8k.htm.txt",
+        "chars": 3266,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926092145/tm2622463d1_8k.htm",
+        "file": "2026-08-06-8-K-tm2622463d1_8k.htm.txt",
+        "chars": 3191,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926091716/iova-20260630x10q.htm",
+        "file": "2026-08-06-10-Q-iova-20260630x10q.htm.txt",
+        "chars": 400150,
+        "truncated": true
+      },
+      {
+        "filed": "2026-11-05",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000119312526450084/iova-ex99_1.htm",
+        "file": "2026-11-05-EX-99.1.txt",
+        "chars": 41264,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926123030/tm2628901d1_ex99-1.htm",
+        "file": "2026-11-05-EX-99.1.txt",
+        "chars": 23105,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-29",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926120261/tm2628468d1_ex99-1.htm",
+        "file": "2026-10-29-EX-99.1.txt",
+        "chars": 16841,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-05",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926113763/tm2627047d1_ex99-1.htm",
+        "file": "2026-10-05-EX-99.1.txt",
+        "chars": 35084,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-29",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926111583/tm2626507d1_ex99-1.htm",
+        "file": "2026-09-29-EX-99.1.txt",
+        "chars": 9023,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926092145/tm2622463d1_ex99-1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 34259,
+        "truncated": false
+      }
+    ]
+  }
+}

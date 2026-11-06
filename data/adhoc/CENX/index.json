@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-11-06T11:45:37+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CENX",
+    "cik": 949157,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026071033/cenx-20260930.htm",
+        "file": "2026-11-05-10-Q-cenx-20260930.htm.txt",
+        "chars": 169731,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-05",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026071024/cenx-20261105.htm",
+        "file": "2026-11-05-8-K-cenx-20261105.htm.txt",
+        "chars": 4137,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026054308/cenx-20260630.htm",
+        "file": "2026-08-06-10-Q-cenx-20260630.htm.txt",
+        "chars": 163479,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026054300/cenx-20260806.htm",
+        "file": "2026-08-06-8-K-cenx-20260806.htm.txt",
+        "chars": 4123,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-17",
+        "items": "5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026043936/cenx-20260615.htm",
+        "file": "2026-06-17-8-K-cenx-20260615.htm.txt",
+        "chars": 4811,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026032094/cenx-20260331.htm",
+        "file": "2026-05-07-10-Q-cenx-20260331.htm.txt",
+        "chars": 146894,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-07",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026032082/cenx-20260507.htm",
+        "file": "2026-05-07-8-K-cenx-20260507.htm.txt",
+        "chars": 4108,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-03",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026013788/cenx-20251231.htm",
+        "file": "2026-03-03-10-K-cenx-20251231.htm.txt",
+        "chars": 400145,
+        "truncated": true
+      },
+      {
+        "filed": "2026-11-05",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026071024/a20260930q3ex991earningsre.htm",
+        "file": "2026-11-05-EX-99.1.txt",
+        "chars": 21513,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/949157/000162828026054300/a20260630q2ex991earningsre.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 21794,
+        "truncated": false
+      }
+    ]
+  }
+}

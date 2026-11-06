@@ -1,0 +1,190 @@
+{
+  "fetched_utc": "2026-11-06T11:46:00+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "WLFC",
+    "cik": 1018164,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000094/wlfc-20260930.htm",
+        "file": "2026-11-03-10-Q-wlfc-20260930.htm.txt",
+        "chars": 195556,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/wlfc-20261103.htm",
+        "file": "2026-11-03-8-K-wlfc-20261103.htm.txt",
+        "chars": 3798,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-30",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/wlfc-20261030.htm",
+        "file": "2026-10-30-8-K-wlfc-20261030.htm.txt",
+        "chars": 4273,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-26",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000084/wlfc-20261026.htm",
+        "file": "2026-10-26-8-K-wlfc-20261026.htm.txt",
+        "chars": 3853,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-30",
+        "items": "5.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000082/wlfc-20260924.htm",
+        "file": "2026-09-30-8-K-wlfc-20260924.htm.txt",
+        "chars": 13601,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-22",
+        "items": "3.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/wlfc-20260916.htm",
+        "file": "2026-09-22-8-K-wlfc-20260916.htm.txt",
+        "chars": 7219,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-08",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000074/wlfc-20260908.htm",
+        "file": "2026-09-08-8-K-wlfc-20260908.htm.txt",
+        "chars": 3730,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-25",
+        "items": "2.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000072/wlfc-20260824.htm",
+        "file": "2026-08-25-8-K-wlfc-20260824.htm.txt",
+        "chars": 8546,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/q32026ex991.htm",
+        "file": "2026-11-03-EX-99.1.txt",
+        "chars": 17699,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/wlfcq32026earningscallpres.htm",
+        "file": "2026-11-03-EX-99.2.txt",
+        "chars": 51,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-30",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/q32026ex991dividend.htm",
+        "file": "2026-10-30-EX-99.1.txt",
+        "chars": 4016,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-26",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000084/newsreleaseissuedbywillisl.htm",
+        "file": "2026-10-26-EX-99.1.txt",
+        "chars": 2163,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-22",
+        "items": [
+          "3.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "unregistered sale of equity",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/newsreleaseissuedbywillisl.htm",
+        "file": "2026-09-22-EX-99.1.txt",
+        "chars": 4389,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-08",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000074/deutschedeckfinal9-4x26f.htm",
+        "file": "2026-09-08-EX-99.1.txt",
+        "chars": 12982,
+        "truncated": false
+      }
+    ]
+  }
+}

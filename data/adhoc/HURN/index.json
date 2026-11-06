@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-11-06T11:45:54+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "HURN",
+    "cik": 1289848,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026069514/hurn-20260930.htm",
+        "file": "2026-11-03-10-Q-hurn-20260930.htm.txt",
+        "chars": 245184,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-03",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026069509/hurn-20261103.htm",
+        "file": "2026-11-03-8-K-hurn-20261103.htm.txt",
+        "chars": 4023,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-28",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050176/hurn-20260630.htm",
+        "file": "2026-07-28-10-Q-hurn-20260630.htm.txt",
+        "chars": 239936,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn-20260728.htm",
+        "file": "2026-07-28-8-K-hurn-20260728.htm.txt",
+        "chars": 4005,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-27",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026049857/hurn-20260723.htm",
+        "file": "2026-07-27-8-K-hurn-20260723.htm.txt",
+        "chars": 6343,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-22",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026044612/hurn-20260619.htm",
+        "file": "2026-06-22-8-K-hurn-20260619.htm.txt",
+        "chars": 5714,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-12",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000098/hurn-20260508.htm",
+        "file": "2026-05-12-8-K-hurn-20260508.htm.txt",
+        "chars": 4367,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000082/hurn-20260331.htm",
+        "file": "2026-05-05-10-Q-hurn-20260331.htm.txt",
+        "chars": 194425,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-03",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026069509/hurn2026930exh991.htm",
+        "file": "2026-11-03-EX-99.1.txt",
+        "chars": 39850,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn2026630exh991.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 39597,
+        "truncated": false
+      }
+    ]
+  }
+}
