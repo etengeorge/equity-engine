@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>IOVA — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / IOVA</p><h1>IOVA <span style='color:var(--faint);font-weight:400'>IOVANCE BIOTHERAPEUTICS INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$7.74</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-06</b></div></div><div class='prose'><h1>IOVA — IOVANCE BIOTHERAPEUTICS INC</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-06 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $7.74</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market pays $3.58bn for a commercial-stage cell-therapy company with a launched product, no debt and no profits. Amtagvi (lifileucel) passed $100M of US revenue in a single quarter for the first time; total Q3 revenue was about $122M, up roughly 80% year on year; gross margin reached a record ~60% from 56% in Q2; full-year 2026 revenue guidance of $410-420M was reaffirmed; and management says current cash funds operations well into 2029. On about $415M of 2026 revenue the equity is on roughly 8.6x sales for an autologous TIL platform with label-expansion readouts in lung cancer and sarcoma. The price is a bet on the platform rather than on melanoma, and that is why the stock is up roughly 325% over twelve months and down 40% over the last twenty-one days: on 2026-11-05 the company reported a 24.6% objective response rate in 69 patients with non-squamous metastatic NSCLC — durable, but modest on an unselected population — against 59.1% in the biomarker-selected subgroup. The market marked down the breadth of the lung opportunity while keeping the selected-population case.</p><p><strong>What changed.</strong> The lung readout arrived and it is the reason for the 40% drawdown. The 2026-11-05 release reports a 24.6% ORR in 69 patients with non-squamous mNSCLC from cohorts 1 and 2 of IOV-LUN-202, with 59.1% in the biomarker-selected subgroup, and 55.6% confirmed ORR in nine patients with undifferentiated pleomorphic sarcoma and dedifferentiated liposarcoma, for which lifileucel won Fast Track designation. Commercially the quarter was strong: revenue about $122M, up ~80%, US Amtagvi up ~77%, gross margin to ~60%, 2026 guidance of $410-420M reaffirmed, cash runway stated into 2029, and new POSITILITY and OPTILISM trials added on the strength of the biomarker-selected data. None of it changes the valuation question: the company remains cash-flow negative in every year of the window, with operating cash flow of -$302.4M, -$353.0M and -$361.8M.</p><p><strong>Base case.</strong> No valuation is supplied, and no fair value should be, because this name has no modellable cash-flow base and the comparables table on the brief is unusable. The engine itself refused: <code>status</code> is model_failed, the normalized FCFF base is &#x27;n/a&#x27; computed over ZERO years, and no enterprise value was calculated at all. Operating cash flow is negative in all three years and accelerating away from zero; EBIT is -$403.4M; <code>nonpositive_normalized_fcff</code> and <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code> both fire. That is the correct and complete answer: a discounted cash flow cannot value negative cash flow, and roughly 40% of this universe — financials, REITs and cash-burning biotech — cannot be honestly valued by a free FCFF model. What I will not do is substitute the multiples blend of $3.18, because it fails the standing refusal test on two independent arms. The cohort is NOT RANKED — the brief says so in terms, &#x27;too few comparable Health Care names to define a distribution honestly&#x27; — and the trailing denominator no longer describes the business: <code>revenue_ltm</code> is $263.5M against full-year guidance of $410-420M and a Q3 run rate near $488M annualised, so the 12.2x ev_sales the table reports is a measurement artifact in the same way MaxLinear&#x27;s was on 2026-09-10. On the Q3 run rate the same ratio is nearer 7x. Refusing is not a judgement that the name is cheap, and the honest statement is that at roughly 8.6x 2026 guided sales, pre-profit, with the breadth of the lung opportunity just narrowed to a biomarker-selected subgroup, I can see no basis on which to call it either way.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That &#x27;no_model&#x27; is doing no work here, and that the brief hands me a comparables answer — a blended $3.18 against a $7.74 price, a 58.9% overvaluation — which I am declining to use because it is inconvenient. Three separate rows (ev_sales, ev_gross_profit, p_tbv) all point the same way, which looks like corroboration; on that reading the honest verdict is &#x27;rich&#x27; and the refusal is evasion.</li><li>What would prove it: Whether the cohort and the denominator the multiples divide are meaningful for this company today.</li><li>Already visible today: Yes, and it defeats the counter on both arms. The cohort is explicitly unranked — the brief itself says there are too few comparable Health Care names to define a distribution honestly — which is the first arm of the RIOT/EPRT refusal test. And the three rows are NOT independent: they share a trailing denominator describing a company roughly 40% smaller than the one trading today, with revenue growing 80% year over year and guidance of $410-420M against an LTM of $263.5M. That is the MXL condition exactly, where agreement among rows is one error appearing three times rather than three errors cancelling. On the Q3 run rate ev_sales falls from 12.2x toward about 7x, which moves the blend substantially. The counter is right that refusing is not the same as being neutral, which is why I have said plainly above what the name costs on forward sales rather than leaving the impression it is cheap.</li><li>Left unresolved: Everything that decides this company: whether the biomarker-selected lung response rate replicates prospectively, what fraction of NSCLC patients the biomarker selects, and what Amtagvi&#x27;s steady-state melanoma revenue is. None of it is a valuation question and none of it is answerable from free sources. I also did not verify the &#x27;well into 2029&#x27; runway against the quarterly burn myself; on $57.9M of cash plus $318.4M of short-term investments against roughly $300M a year of operating outflow, that claim appears to require the revenue ramp to continue, not merely the current balance sheet.</li></ul><p><strong>Key risks.</strong> Operating cash flow is negative in all three years of the window and accelerating away from zero: -$302.4M, -$353.0M, -$361.8M, with EBIT of -$403.4M; The 21-day 40% drawdown is the unselected lung ORR of 24.6% in 69 patients; the 59.1% figure applies to a biomarker-selected subgroup whose size is not disclosed; The multiples blend of $3.18 must be DISREGARDED, not read as -58.9%: the cohort is unranked and all three rows divide a trailing revenue roughly 40% below the current run rate; The stated cash runway into 2029 rests on $57.9M of cash plus $318.4M of short-term investments against roughly $300M a year of outflow, so it requires the revenue ramp to continue rather than just the existing balance sheet; 462.7M shares outstanding on a company that has funded itself through the equity market repeatedly <strong>Watch for.</strong> The biomarker-selected lung response rate replicating prospectively in POSITILITY and OPTILISM, and disclosure of what fraction of patients the biomarker selects; Gross margin progression past ~60% as the manufacturing network scales; Quarterly operating cash burn against the &#x27;well into 2029&#x27; runway, and any return to the equity market; 2027 revenue guidance — whether the ramp continues off $410-420M or plateaus near the melanoma opportunity</p><p><strong>Data quality.</strong> Three flags raised and all three are CORRECT: <code>negative_fcf_year_in_window</code>, <code>nonpositive_normalized_fcff</code> and <code>negative_ebitda_valued_on_revenue_or_gross_profit_only</code>. The engine&#x27;s refusal (<code>status</code> model_failed, base computed over zero years, no enterprise value) is the right output and needs no correction. The multiples table is disqualified wholesale on two independent arms of the standing refusal test: the cohort is unranked by the brief&#x27;s own statement, and <code>revenue_ltm</code> of $263.5M is a stale denominator against $410-420M of guidance and a Q3 annualised run rate near $488M — the MXL inflecting-revenue condition, so the three agreeing rows are one error three times. NEGATIVE RESULT WORTH RECORDING: the AX numerator corruption is PRESENT in this name&#x27;s data and costs nothing. <code>net_income_common_series</code> reads [-$123,580k, -$92,064k, -$102,348k] against <code>net_income_series</code> of [-$390,978k, -$372,177k, -$444,037k] with <code>preferred</code> and <code>minority_interest</code> both exactly zero — a threefold disagreement where the INDB/IBOC detector says they must be equal, so the sub-annual-duration defect is clearly there. It is harmless only because IOVA is an fcff-method name and <code>justified_pb</code> is never called, which is precisely the argument for gating on the DISAGREEMENT itself rather than waiting for it to decide a book-method verdict. Checks that pass: shares 462,655,151 from the dei cover-page concept dated 2026-10-27; total_debt of 0.0 against interest_expense of $200k is consistent with a genuinely debt-free balance sheet rather than the TENB missing-debt case; capex_series all positive; equity_now $812.7M against equity_series[0] $698.6M, no stale book. Note <code>dep_amort_series</code> of [$35,939k, $956k, $952k] is a 38x step between adjacent years, which is the shape the SND test flags, but it is immaterial here because no EBITDA-based figure is used in a verdict that refuses.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li>data/adhoc/IOVA/2026-11-05-EX-99.1.txt (Q3 2026 release: total revenue ~$122M, +~80%; US Amtagvi +~77%; gross margin ~60% vs 56% in Q2; FY2026 guidance $410-420M reaffirmed; cash expected to fund operations well into 2029; 24.6% ORR in 69 patients with non-squamous mNSCLC; 59.1% ORR in the biomarker-selected subgroup; 55.6% ORR in 9 patients with UPS/DDLPS)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/iova-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/iova-20260930.htm</a> (Q3 10-Q)</li><li><a href="https://www.sec.gov/Archives/edgar/data/1425205/000119312526450084/iova-20261105.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1425205/000119312526450084/iova-20261105.htm</a> (8-K 2026-11-05, items 8.01/9.01)</li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/11/05/iovance-iova-q3-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/11/05/iovance-iova-q3-2026-earnings-call-transcript/</a></li><li>research/LESSONS.md (RIOT/EPRT and MXL multiples refusal tests, INDB/IBOC AX-numerator detector)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/IOVA.md'>research/Health Care/IOVA.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

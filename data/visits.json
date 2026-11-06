@@ -101,7 +101,7 @@
   },
   "ATKR": {
     "conviction": "high",
-    "last_visit": "2026-09-21",
+    "last_visit": "2026-11-06",
     "verdict": "no_model"
   },
   "AUB": {
@@ -164,6 +164,11 @@
     "last_visit": "2026-09-09",
     "verdict": "no_model"
   },
+  "BKU": {
+    "conviction": "low",
+    "last_visit": "2026-11-06",
+    "verdict": "no_edge"
+  },
   "BOX": {
     "conviction": "medium",
     "last_visit": "2026-09-15",
@@ -209,6 +214,11 @@
     "last_visit": "2026-10-23",
     "verdict": "no_model"
   },
+  "CENX": {
+    "conviction": "medium",
+    "last_visit": "2026-11-06",
+    "verdict": "no_edge"
+  },
   "CHEF": {
     "conviction": "medium",
     "last_visit": "2026-09-18",
@@ -226,7 +236,7 @@
   },
   "CLVT": {
     "conviction": "medium",
-    "last_visit": "2026-10-09",
+    "last_visit": "2026-11-06",
     "verdict": "no_edge"
   },
   "CMC": {
@@ -519,6 +529,11 @@
     "last_visit": "2026-09-23",
     "verdict": "no_model"
   },
+  "HURN": {
+    "conviction": "medium",
+    "last_visit": "2026-11-06",
+    "verdict": "no_edge"
+  },
   "HUT": {
     "conviction": "high",
     "last_visit": "2026-08-31",
@@ -568,6 +583,11 @@
     "conviction": "low",
     "last_visit": "2026-09-25",
     "verdict": "no_edge"
+  },
+  "IOVA": {
+    "conviction": "high",
+    "last_visit": "2026-11-06",
+    "verdict": "no_model"
   },
   "IRTC": {
     "conviction": "high",
@@ -720,8 +740,8 @@
     "verdict": "no_model"
   },
   "MTRX": {
-    "conviction": "high",
-    "last_visit": "2026-10-23",
+    "conviction": "medium",
+    "last_visit": "2026-11-06",
     "verdict": "no_edge"
   },
   "MXL": {
@@ -929,6 +949,11 @@
     "last_visit": "2026-09-17",
     "verdict": "no_model"
   },
+  "SFNC": {
+    "conviction": "low",
+    "last_visit": "2026-11-06",
+    "verdict": "no_edge"
+  },
   "SHOE": {
     "conviction": "medium",
     "last_visit": "2026-09-14",
@@ -977,6 +1002,11 @@
   "SNEX": {
     "conviction": "low",
     "last_visit": "2026-09-01",
+    "verdict": "no_edge"
+  },
+  "SPSC": {
+    "conviction": "low",
+    "last_visit": "2026-11-06",
     "verdict": "no_edge"
   },
   "SR": {
@@ -1130,8 +1160,8 @@
     "verdict": "no_edge"
   },
   "WLFC": {
-    "conviction": "low",
-    "last_visit": "2026-10-02",
+    "conviction": "medium",
+    "last_visit": "2026-11-06",
     "verdict": "no_edge"
   },
   "WLTH": {

@@ -35,3 +35,36 @@ Append-only research log. Newest entries at the bottom.
 - company news in brief: Trefis 2026-08-04, StockStory 2026-08-04 (+28.1% on announcement)
 
 **Ingestion notes.** no usable final_growth
+
+## 2026-11-06 — NO_MODEL (conviction: high)
+
+- **Verdict:** no_model · price $94.96
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** There is no market opinion about Atkore's cash flows to steelman, because Atkore no longer trades. Prysmian S.p.A. completed its acquisition on 2026-10-19 at $95.00 per share in cash under the Agreement and Plan of Merger dated 2026-08-02; Atkore is now a wholly owned subsidiary of Prysmian, has notified the NYSE, requested delisting of its common stock and intends to terminate its Exchange Act registration. The $94.96 the engine priced is a 20-day-stale frozen quote four cents below the deal consideration, and the 5d/21d returns of +0.1%/+0.5% are the tape of a security that has stopped trading, not a market view.
+
+**What changed.** Everything, and exactly as the 2026-09-21 pass on this name predicted. That pass recorded no_model on a pending all-cash deal and put 'delisting, at which point the name should leave universe.csv' on its watch list. The deal closed on 2026-10-19 and the 8-K of that date carries items 1.02, 2.01, 3.01, 3.03, 5.01, 5.02, 5.03 and 9.01 — termination of a material agreement, completion of acquisition, delisting notice, material modification to rights, change in control, departure of officers and amendment of the articles. That is the complete APGE completed-acquisition signature, filed in one document. Andrea Pirondini was appointed President and CEO and Prysmian expects Atkore to be fully consolidated from November 2026.
+
+**Base case.** No FCFF growth rate is supplied because none is operative: the equity has been extinguished for cash. Recording a fair value would be publishing a number for a security that cannot converge to it. For completeness the engine's standalone figure is also wrong on its own terms, and in two ways it did not raise. First, `interest_expense` is absent from the extract entirely (None against $760.2M of recorded total debt), so the $427.9M FCFF base carries no after-tax interest add-back at all — the CON defect. Second, `ebit` reads $23.173M against revenue of $2,850.4M, i.e. 0.81% of revenue, which fails the HP missing-concept test; the newest reported year is a net LOSS of $15.2M. The base is the mean of fiscal 2023-25 cfo-less-capex of [$588.7M, $399.2M, $295.7M], a monotonic decline out of the steel/PVC conduit super-cycle, against revenue that has fallen from $3,913.9M to $2,850.4M.
+
+**Devil's advocate.**
+- Strongest counter: That refusing a second time is mechanical, and that the brief's own flags point at a live cyclical question worth answering: `possible_trough_cycle_base_newest_fcf_0.50x_oldest` invites the view that the base is a trough and the business is worth more than $95.00, which would mean Atkore's board sold cheap and the comparison is still instructive for the rest of the electrical-products cohort. The AI-data-centre demand story in this name's own news feed (2026-09-20) supports that reading.
+- What would prove it: Whether Atkore common stock still trades and settles. If a Form 25 and Form 15 have been filed and the NYSE has suspended trading, no amount of cyclical analysis produces an investable claim.
+- Already visible today: Yes, decisively, and it defeats the counter. The 2026-10-19 8-K carries item 3.01 together with items 2.01 and 5.01 — the ACHR false-positive test is passed, because this is not a de-SPAC warrant expiry but a delisting filed alongside a completed acquisition and a change of control. Prysmian's own press release states the shares will no longer be traded on the NYSE. The adhoc-fetch dispatch for ATKR returned 'no CIK for ticker' and zero documents, which is itself corroboration: the registrant is being deregistered. And the flag reads backwards anyway — the series [$588.7M, $399.2M, $295.7M] newest-last is a decline out of a peak, so the three-year mean OVERSTATES current generation. The counter fails on both limbs.
+- Left unresolved: The exact delisting effective date. I could not retrieve the Form 25 or Form 15, so I cannot say on which session the shares stopped trading — only that trading had stopped, which is all the verdict requires.
+
+**Key risks.** This is not a valuation and carries no investment risk: the equity has been acquired for cash and the ticker is being deregistered; The engine will re-rank ATKR as cheap every session until the name is removed from universe.csv, because nothing in the selection path reads a completed merger; The standalone FCFF base is an artifact of the 2022-23 conduit super-cycle and would misprice the name even absent the deal, and it carries no interest add-back because interest_expense is None
+**Watch for.** Removal of ATKR from universe.csv — this is the action item, not a market event; Form 25 and Form 15 on EDGAR confirming the delisting and deregistration dates
+
+**Data quality.** Two flags raised and a third defect unflagged. `stale_price_20.0d` is the material one and the engine does not act on it: a price 20 sessions old on a name whose 5d and 21d returns are +0.1% and +0.5% is a frozen quote, and together with items 2.01/3.01/5.01 it is the APGE signature the 2026-09-07 lesson asked to be gated before selection. `possible_trough_cycle_base` is both wrong (the series is a decline out of a peak, so the mean overstates) and irrelevant. UNFLAGGED: `interest_expense` is None against $760.2M of total debt (the CON defect, fifth form of the interest-expense family), so the base has no add-back; and `ebit` of $23.2M is 0.81% of revenue, below the HP 1% missing-concept threshold. `fundamentals_age_days` is 402 with fy_end 2025-09-30. The share count itself is sound (33,772,550 from the dei cover-page concept, dated 2026-07-31). Confirmed from the 8-K item list on the face of the brief plus Prysmian's own completion release; the adhoc-fetch returned no documents because the CIK is being deregistered.
+
+*Horizon: 6 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1666138/000166613826000041/atkr-20261019.htm (8-K 2026-10-19, items 1.02/2.01/3.01/3.03/5.01/5.02/5.03/9.01 — completion, delisting, change in control)
+- https://www.prysmian.com/en/media/press-releases/prysmian-completes-atkore-acquisition-to-accelerate-growth-as-an-electrical-solutions-provider
+- https://www.sec.gov/Archives/edgar/data/0001666138/000114036126035981/ny20080616x2_defm14a.htm (DEFM14A — merger proxy)
+- research/ATKR prior verdict 2026-09-21 (no_model, price $94.32, which nominated delisting as the watch item)
+- data/adhoc/ATKR/index.json ('no CIK for ticker' — zero documents returned)
+
+**Ingestion notes.** no usable final_growth

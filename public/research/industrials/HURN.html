@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HURN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / HURN</p><h1>HURN <span style='color:var(--faint);font-weight:400'>HURON CONSULTING GROUP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$175.73</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-06</b></div></div><div class='prose'><h1>HURN — HURON CONSULTING GROUP</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-06 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $175.73</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market pays $2.77bn of equity plus $0.81bn of net debt for a consulting firm that has just raised guidance: record Q3 revenues before reimbursable expenses of $482.5M, up 11.6%, adjusted EBITDA margin at a sixteen per cent eight-year high, Healthcare managed services revenue nearly doubled, full-year RBR narrowed to $1.855-1.885bn and adjusted diluted EPS guidance raised to $9.20-9.40. On $9.30 of adjusted EPS the stock is on roughly 19x, which for a double-digit grower expanding margins is an ordinary price, not a cheap one. What the market is also pricing, and what the engine cannot see, is that none of this year&#x27;s growth has turned into cash: nine-month operating cash flow is $15.3M against $67.0M a year earlier, and after $14.7M of capex nine-month free cash flow is $0.7M. The stock fell 8.9% in five days on 3.5x normal volume into a raised guide, which is the market reading the cash flow statement rather than the press release.</p><p><strong>What changed.</strong> The Q3 10-Q of 2026-11-03 supplies three facts the engine has none of. First, NINE-MONTH OPERATING CASH FLOW COLLAPSED: $15,329k against $66,987k, and capex rose to $14,673k from $7,859k, so nine-month free cash flow is $656k against $59.1M — management framed it on the call as collections slipping into next year. Fourth quarter is seasonally dominant for this business (FY2025 operating cash flow was $193.4M against $67.0M at nine months, so Q4 2025 alone was $126.4M), so nine-month cash is not an annualising base; but a $51.7M year-over-year deterioration on higher revenue and better margins is real. Second, the interest expense in the extract is wrong by a factor of thirteen: <code>interest_expense</code> reads $3,463k against the 10-Q&#x27;s $33,048k for nine months (about $44M annualised) on $813,886k of debt, and the filing STATES the weighted average rate — 5.5% at 2026-09-30, up from 5.3%. Third, the BOX test passes decisively: basic weighted-average shares are 15,916k against 17,340k in Q3 2025, down 8.2%, and 16,365k against 17,492k for nine months, down 6.4% — so $46.5M a year of stock compensation is more than paid for and the shares are shrinking net of all of it.</p><p><strong>Base case.</strong> No number is recordable, because the single input that sets the sign of the answer is one the schema cannot reach. The engine&#x27;s WACC is 4.994%, built from a BETA OF 0.0715 with an R-squared of 0.033, marked <code>yahoo_rescaled</code>, on a company with a 23% debt weight. A beta of 0.07 is not a low-beta business, it is a failed measurement — this is the ISBA condition on an fcff name. Correct the two things that can be corrected and the picture changes completely. The base: mean(cfo-less-capex) of $167.2M plus a correct after-tax interest add-back of about $33M (not $2.6M) gives roughly $200M, which cross-checks against the company&#x27;s own guidance — adjusted EBITDA at 14.5-15.0% of $1.87bn of RBR is about $276M, less $20M of capex and $44M of interest, taxed, plus the add-back back, lands near $192M. The discount rate: a consulting firm with Huron&#x27;s leverage supports an equity beta near 1.1, giving a cost of equity of about 10.6% and, at 23% debt costing 5.5% pre-tax, a WACC near 9.05%. At that base and that WACC the market requires roughly +7% five-year FCFF growth — against RBR guided to double-digit growth and margins at an eight-year high. But the required growth runs +1% at an 8.0% WACC and +11% at a 10.0% WACC, so a two-point choice I am making up spans the whole answer, and the engine&#x27;s own figure of -8.0% required (the source of the +230.1% gap and the 97th-percentile rank) is simply the beta. Supplying a final_growth would reprice through 4.994% and print a fair value several multiples of the price, which is the LRN and IRWD error.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That the refusal is driven by my own invented beta, and that on every observable the name is good and probably cheap: RBR +11.6%, margins at an eight-year high, guidance raised, a share count falling 8.2% a year, and a base the engine understates by about 18% because it credits the company with $2.6M of interest instead of $44M. On that reading the market requires roughly +7% from a company guiding double-digit growth, which is a buy, and I am declining to say so because a regression I distrust returned 0.07 instead of 1.1.</li><li>What would prove it: Q4 2026 operating cash flow. If it lands near the $126.4M Q4 2025 delivered, the base is sound and the cash break was timing. If it lands at half that, the FY2026 base is nearer $120M than $200M and the whole arithmetic changes.</li><li>Already visible today: Only partly, and what IS visible cuts against the bull. Nine-month free cash flow of $0.7M against $59.1M is the largest single new fact on this name and it is not in any flag. Receivables are not disclosed in a way that lets me separate the Healthcare managed-services ramp from ordinary slippage, and the company gives no cash-flow guidance. Meanwhile the one thing the bull case most needs — a defensible discount rate — is exactly what is unavailable: beta 0.0715 at R-squared 0.033 is not a measurement, and the 2026-09-22 ISBA rule says to treat that as an unreliable WACC input and refuse rather than substitute my own and publish the result. The honest position is that at my own corrected inputs the name looks roughly fair to modestly cheap, and that I cannot distinguish &#x27;modestly cheap&#x27; from &#x27;fair&#x27; with a discount rate I invented.</li><li>Left unresolved: Whether the cash-conversion break is timing or structural, which Q4 settles and I cannot anticipate. Also the composition of the 27%-of-base stock compensation against the cash cost of the buybacks that are shrinking the count: the share count is falling 8.2% a year, which passes the BOX test, but the buybacks are funded partly with revolver borrowings — interest expense rose $7.1M for nine months &#x27;primarily attributable to higher levels of borrowing&#x27; — so the shrink is being bought with debt rather than out of free cash flow that this year did not exist.</li></ul><p><strong>Key risks.</strong> Nine-month free cash flow is $0.7M against $59.1M a year earlier: operating cash flow $15.3M vs $67.0M on capex up to $14.7M from $7.9M, while adjusted EPS guidance was raised; The entire +230.1% gap and 97th-percentile rank come from a 4.994% WACC built on a beta of 0.0715 at R-squared 0.033, marked yahoo_rescaled — not a measurement, and the schema cannot override it; The share count is shrinking 6-8% a year but the buybacks are partly debt-funded: interest expense rose $7.1M for nine months on higher revolver borrowings; The engine credits $3,463k of interest expense against $813,886k of debt — an implied 0.43% against a STATED weighted average rate of 5.5% — understating the FCFF base by roughly $30M; Growth is concentrated in Healthcare managed services, which nearly doubled and which plausibly carries the longer collection cycle behind the cash break <strong>Watch for.</strong> Q4 2026 operating cash flow against the $126.4M Q4 2025 delivered — the single number that settles whether the base is $200M or $120M; Full-year 2026 free cash flow and any 2027 cash-flow guidance; Receivables and contract assets as a share of RBR, specifically in the Healthcare segment; Whether debt keeps rising to fund buybacks, and the weighted average rate past 5.5%; A working beta regression for this name — the verdict is the discount rate and nothing else</p><p><strong>Data quality.</strong> Two flags raised and neither names the defect that decides the name. THE DOMINANT ERROR IS THE DISCOUNT RATE: beta 0.0715 at R-squared 0.033, <code>beta_source</code> yahoo_rescaled, producing a WACC of 4.994% on a 23% debt weight. That is the ISBA condition (2026-09-22) on an fcff rather than a book name, and it alone produces the -8.0% implied growth, the +230.1% gap and the 97th-percentile rank; the schema has no cost-of-capital field, so the verdict is the output and the printed fair value of $580.11 must be ignored. SECOND DEFECT, UNFLAGGED: <code>interest_expense</code> of $3,463,000 against total_debt of $813,886,000 is an implied 0.43%, the PATK form (below the ~2% floor the 2026-09-15 entry asked to be gated), against the 10-Q&#x27;s $33,048k for nine months and a STATED weighted average rate of 5.5% — so only the HP rule (compare to the rate the filing states, not to a fixed band) catches it. It understates the base by about $30M, i.e. in the opposite direction to the beta error, which is the SM condition and the reason for no_edge rather than a verdict in either direction. THIRD, UNFLAGGED AND NEW: the cash-conversion break — nine-month free cash flow of $656k against $59,128k — which no staleness or cycle flag can see because the last 10-K is recent; this is the CBT shape (the window closed before a change visible in the year in progress) on a name where Q4 seasonality means I cannot simply annualise. <code>stock_comp_is_27%_of_fcff</code> is SETTLED against the company by the BOX test run on BASIC weighted-average shares: 15,916k against 17,340k for the quarter (-8.2%) and 16,365k against 17,492k for nine months (-6.4%), so the compensation is more than paid for and treating it as free is defensible — with the caveat that the repurchases are partly revolver-funded. <code>volume_3.5x_its_60d_average</code> is real: the stock fell 8.9% in five days into a raised guide, which is consistent with the market reading the cash flow statement. Checks that pass: shares 15,780,750 from the dei cover-page concept dated 2026-10-27; capex positive with D&amp;A-to-capex 3.1x, below the LRN 5x threshold and explained by acquired-intangible amortisation ($808.3M of goodwill, $72.9M of intangibles) rather than missing capitalised software; ebit $178.6M at 10.5% of revenue, well clear of the HP 1% test, so the synthetic cost of debt is not the CLVT/HP problem here.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1289848/000162828026069514/hurn-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1289848/000162828026069514/hurn-20260930.htm</a> (Q3 10-Q: nine-month CFO $15,329k vs $66,987k; capex $14,673k vs $7,859k; interest expense net $33,048k vs $25,937k for nine months and $12,218k for the quarter; basic weighted-average shares 15,916k vs 17,340k and 16,365k vs 17,492k; weighted average borrowing rate 5.5% vs 5.3%; unused revolver capacity $259.6M)</li><li>data/adhoc/HURN/2026-11-03-EX-99.1.txt (Q3 2026 release: record RBR; FY2026 RBR guidance $1.855-1.885bn; adjusted EBITDA 14.5-15.0% of RBR; adjusted diluted EPS guidance raised to $9.20-9.40)</li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/11/04/huron-hurn-q3-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/11/04/huron-hurn-q3-2026-earnings-call-transcript/</a> (margins at an eight-year high; cash collections slipping into next year)</li><li>research/LESSONS.md (ISBA failed-beta, PATK and HP interest-rate, BOX share-count, CBT window entries)</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/HURN.md'>research/Industrials/HURN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

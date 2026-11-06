@@ -1,0 +1,189 @@
+{
+  "ticker": "SPSC",
+  "date": "2026-11-06",
+  "sector": "Information Technology",
+  "name": "SPS COMMERCE",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.06,
+  "bear_growth": 0.03,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 82.58000183105469,
+  "market_implied_growth": 0.12749315598088373,
+  "cohort_pct": 77.9,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.06,
+    "market_implied_growth": 0.12749315598088373,
+    "growth_delta": -0.06749315598088373,
+    "fair_value": 88.07327410821581,
+    "price": 82.58000183105469,
+    "gap": 0.06652061219857397,
+    "fair_value_band": {
+      "low": 78.46084658105323,
+      "point": 88.07327410821581,
+      "high": 100.5207881631088
+    },
+    "fcff_base_used": 190000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09803440785133327,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 190000000,
+      "price": 82.58000183105469,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.07803440785133327,
+              "fair_value": 103.62717799772285,
+              "gap": 0.2548701344149553
+            },
+            {
+              "wacc": 0.08803440785133328,
+              "fair_value": 89.09396131486744,
+              "gap": 0.0788805926299112
+            },
+            {
+              "wacc": 0.09803440785133327,
+              "fair_value": 78.28751265718523,
+              "gap": -0.051979766029203955
+            },
+            {
+              "wacc": 0.10803440785133327,
+              "fair_value": 69.93775933693134,
+              "gap": -0.15309084783005134
+            },
+            {
+              "wacc": 0.11803440785133328,
+              "fair_value": 63.29284778612792,
+              "gap": -0.23355720049976703
+            }
+          ],
+          "fair_value_at_point_wacc": 78.28751265718523,
+          "gap_at_point_wacc": -0.051979766029203955
+        },
+        {
+          "case": "base",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.07803440785133327,
+              "fair_value": 117.26947915346635,
+              "gap": 0.4200711619428239
+            },
+            {
+              "wacc": 0.08803440785133328,
+              "fair_value": 100.5207881631088,
+              "gap": 0.21725340196477672
+            },
+            {
+              "wacc": 0.09803440785133327,
+              "fair_value": 88.07327410821581,
+              "gap": 0.06652061219857397
+            },
+            {
+              "wacc": 0.10803440785133327,
+              "fair_value": 78.46084658105323,
+              "gap": -0.04988078419310982
+            },
+            {
+              "wacc": 0.11803440785133328,
+              "fair_value": 70.81562729389391,
+              "gap": -0.142460332723518
+            }
+          ],
+          "fair_value_at_point_wacc": 88.07327410821581,
+          "gap_at_point_wacc": 0.06652061219857397
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.07803440785133327,
+              "fair_value": 132.45963747903645,
+              "gap": 0.6040159184063403
+            },
+            {
+              "wacc": 0.08803440785133328,
+              "fair_value": 113.2319237578237,
+              "gap": 0.3711785086839532
+            },
+            {
+              "wacc": 0.09803440785133327,
+              "fair_value": 98.94856797493208,
+              "gap": 0.19821464980546777
+            },
+            {
+              "wacc": 0.10803440785133327,
+              "fair_value": 87.92397295962328,
+              "gap": 0.06471265451775476
+            },
+            {
+              "wacc": 0.11803440785133328,
+              "fair_value": 79.16033343928095,
+              "gap": -0.04141036953195798
+            }
+          ],
+          "fair_value_at_point_wacc": 98.94856797493208,
+          "gap_at_point_wacc": 0.19821464980546777
+        }
+      ],
+      "summary": {
+        "bear": -0.051979766029203955,
+        "base": 0.06652061219857397,
+        "bull": 0.19821464980546777
+      },
+      "downside": -0.23355720049976703,
+      "upside": 0.6040159184063403
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "Argued in both directions this pass, and it won both times. FIRST, AGAINST CHEAP: the engine's +26.6% gap and 78th-percentile rank rest entirely on a +19.2% revenue CAGR that is acquired \u2014 goodwill more than doubled over the window, Carbon6 alone cost $210.2M, and the organic rate is 4-5%. That is the EFOR artefact and it took the verdict off cheap. SECOND, AGAINST RICH: having corrected the growth I was about to record the name at roughly -16% on the engine's $134.9M base, and that base is wrong by 45% in the other direction \u2014 fiscal 2026 is generating about $221M of free cash flow, not $134M, which takes the market's requirement from +12.7% down to roughly +4%. Both corrections are large and they point opposite ways, so the name lands near fair.",
+    "what_would_prove_it": "Whether the 34% adjusted EBITDA margin keeps rising once the agentic-onboarding savings are lapped, and whether recurring revenue growth recovers above 4% or settles there. Q4 and the 2027 guide settle both.",
+    "already_visible": "Partly, and it is why I underwrite 6% rather than 9%. For the margin case: Q3 adjusted EBITDA grew 17% on 4% revenue and the full-year margin is up 330bp, which is genuine operating leverage and management attributes it specifically to agentic onboarding rather than to cost cuts. Against it: the same company is writing off a $210.2M acquisition's technology inside two years and has already sold part of it, which is evidence that capital allocation outside the core network has not worked \u2014 and the 4% recurring growth is the core network's own rate, not a depressed one. I also note that repurchases of $147.2M over nine months are running close to free cash flow of $164.4M, so the 5.3% share shrink that makes the SBC-free treatment defensible is not indefinitely fundable, which is the BOX caveat exactly.",
+    "unresolved": "How much of fiscal 2026's 40% jump in operating cash flow is durable. I attributed roughly half to working capital and cash taxes from the EBITDA-versus-cash bridge, but SPSC does not disclose the working-capital detail at a level that lets me verify the split, and that one judgement is worth about $30M on the base and several points on the fair value. I also cannot size what the mid-2027 retirement of the Carbon6 technology does to the revenue-recovery revenue line, only to amortisation."
+  },
+  "what_changed": "Two things, in opposite directions, and together they move the verdict twice. AGAINST THE NAME: the engine's naive baseline of +19.2% five-year revenue CAGR is BOUGHT revenue, and the current organic rate is about a quarter of it. Q3 revenue was $197.6M against $189.9M, 4% growth, and RECURRING revenue also grew only 4%; full-year 2026 revenue is guided to $786.9-788.9M, 'approximately 5% growth over 2025'. Goodwill has gone from $249.2M to $541.7M over the window, and the largest piece is Carbon6 \u2014 $210.2M total consideration ($142.5M cash plus 378,100 shares worth $67.7M), closed 2025-02-04. That acquisition is now being unwound: SPSC DIVESTED the 3P Revenue Recovery business on 2026-06-30 (about $10.5M of H2 revenue, neutral to EBITDA), and effective 2026-09-01 it shortened the useful life of the remaining Carbon6 developed technology because it expects the acquired technology to CEASE BEING USED in mid-2027, adding $4.0M of Q4 amortisation and $6.9M in 2027. FOR THE NAME: the engine's FCFF base of $134.9M is about 45% below the current run rate. Nine-month 2026 operating cash flow is $185,664k against $132,919k, up 40%, on capex of $21,246k \u2014 nine-month free cash flow of $164.4M against a full-window base of $134.9M.",
+  "consensus_case": "The market pays $2.74bn of enterprise value, about 10.2x guided 2026 adjusted EBITDA of $268.4M, for a debt-free supply-chain network with 300,000+ trading relationships, seven of the top ten US retailers as customers, and an adjusted EBITDA margin that rose 330 basis points to 34% this year. The price is a bet on operating leverage rather than growth: revenue is only growing about 5%, but adjusted EBITDA grew 17% in Q3 on 4% revenue because agentic customer onboarding is taking cost out of the hardest part of the business. At 10.2x EBITDA on a network asset nobody can replicate, with the share count shrinking 5.3% a year, that is a reasonable rather than a demanding price \u2014 and the market is right not to pay for the 19% revenue growth in the history, because that growth was bought.",
+  "base_case_rationale": "I underwrite 6% five-year FCFF growth on a corrected base of $190M. The base first: the engine's $134.9M is the mean of fiscal 2023-25 cfo-less-capex, and fiscal 2026 is running far above it \u2014 nine-month operating cash flow of $185.7M against $132.9M, which on last year's seasonality (FY2025 delivered $178.8M against $132.9M at nine months) implies roughly $250M of full-year operating cash flow, less about $29M of capex, i.e. ~$221M of free cash flow. I take $190M rather than $221M for two reasons: roughly half the year-over-year cash improvement is working capital and cash taxes rather than EBITDA (adjusted EBITDA grew about $25M over nine months while operating cash flow grew $53M), and the BOX construction charges the business for the cash needed to hold the share count flat \u2014 basic shares fell 1,995k while roughly 2,296k were retired with $196M annualised of buybacks, implying about 300k shares a year of net issuance, around $26M. Now the growth: revenue is growing 5% and recurring revenue 4%, so 6% total FCFF growth requires the margin to keep expanding, which it is \u2014 but 330 basis points a year is not a five-year rate. I model revenue at 5% with margin expansion decaying from 330bp toward zero over three years, giving roughly 7-8% FCFF growth early and 5% late, a five-year rate near 6%. That is deliberately BELOW the +12.7% the market requires on the engine's SBC-free base and far below the +19.2% bought baseline.",
+  "key_risks": [
+    "Organic growth is 4-5%, not the 19.2% five-year revenue CAGR the engine's gap is built on \u2014 goodwill went from $249.2M to $541.7M over the window and Carbon6 alone cost $210.2M",
+    "That acquisition is being unwound: the 3P Revenue Recovery business was sold 2026-06-30 and the remaining Carbon6 developed technology is expected to cease being used in mid-2027, adding $4.0M of Q4 2026 and $6.9M of 2027 amortisation",
+    "The whole bull case is margin expansion, and 330bp a year is not a five-year rate; once lapped, FCFF growth converges on 5% revenue growth",
+    "Nine-month repurchases of $147.2M sit close to nine-month free cash flow of $164.4M, so the 5.3% annual share shrink that justifies treating $69.5M of stock compensation as free is not indefinitely fundable",
+    "Stock compensation is guided at $69.5M for 2026, 26% of adjusted EBITDA, and it is growing faster than revenue"
+  ],
+  "watch_for": [
+    "Recurring revenue growth above or below 4% in Q4 and the 2027 guide \u2014 the single number that decides this name",
+    "Whether adjusted EBITDA margin keeps expanding past 34% once the agentic-onboarding savings lap",
+    "The 2027 revenue guide net of the 3P divestiture and the mid-2027 Carbon6 technology retirement",
+    "Buybacks against free cash flow \u2014 if repurchases exceed it the share count stops shrinking and the SBC-free base becomes indefensible"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000075/spsc-20260930.htm (Q3 10-Q: nine-month CFO $185,664k vs $132,919k; capex $21,246k; repurchases $147,205k; basic weighted-average shares 35,900k vs 37,895k and 36,599k vs 37,939k; Carbon6 consideration $210.2M; useful-life revision effective 2026-09-01 with technology ceasing use mid-2027)",
+    "data/adhoc/SPSC/2026-10-29-EX-99.1.txt (Q3 2026 release: revenue $197.6M, 4% growth; recurring revenue +4%; adjusted EBITDA $70.9M, +17%; FY2026 revenue guidance $786.9-788.9M, ~5% growth; FY2026 adjusted EBITDA $267.4-269.4M at a 34% margin, +330bp; SBC guided $69.5M; 3P Revenue Recovery divested 2026-06-30)",
+    "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000074/spsc-20261029.htm (8-K 2026-10-29, item 2.02)",
+    "research/LESSONS.md (EFOR bought-revenue, BOX share-count, CBT window, LRN capitalised-software, QTWO zero-debt entries)"
+  ],
+  "flags": [
+    "stock_comp_is_38%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

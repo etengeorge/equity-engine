@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CENX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Materials / CENX</p><h1>CENX <span style='color:var(--faint);font-weight:400'>CENTURY ALUMINUM</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$30.07</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-06</b></div></div><div class='prose'><h1>CENX — CENTURY ALUMINUM</h1><p><em>Materials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-06 — NO_EDGE (conviction: medium)</h2><ul><li><strong>Verdict:</strong> no_edge · price $30.07</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> The market is paying $2.98bn for a primary aluminium smelter that earned $889.4M attributable to shareholders in nine months — about 2.5x annualised earnings and roughly 2.4x annualised adjusted EBITDA of $1.25bn. That is not an oversight; it is what the market always pays at a commodity peak, and the peak here is extreme and policy-dependent. The same company generated $40.0M of nine-month net income and $82.3M of nine-month operating cash flow ONE YEAR EARLIER. Management has already guided Q4 adjusted EBITDA down to $275-300M from $331.6M. The margin rests on Section 232 tariffs supporting the US Midwest premium, and the company&#x27;s own release flags that the administration is proposing to REDUCE aluminium tariffs for parties committing to new US capacity. On top of that sits a greenfield smelter — the first in the US in over 45 years — with $500M of DOE funding and a possible Emirates Global Aluminium joint venture, which is where the cash is going. The market is refusing to capitalise a tariff-supported peak into perpetuity, and that refusal is defensible.</p><p><strong>What changed.</strong> The engine&#x27;s inputs are a year out of date and the current year is a different business. The 2026-11-05 Q3 10-Q reports nine-month operating cash flow of $630.9M against capex of $172.2M — free cash flow of $458.7M, against an FCFF base of $18.1M. Nine-month net income attributable to Century is $889.4M against $40.0M. Q3 alone: net sales $961.2M, net income $302.6M, adjusted EBITDA $331.6M, driven by the restart of Line 2 at Grundartangi returning to near full production and favourable realised metal prices, with Mt. Holly restarted too. Cash went from $134.2M at 2025-12-31 to $713.0M, and liquidity is $1,161.5M. Three qualifiers arrived with it: Q4 adjusted EBITDA is guided to $275-300M, i.e. DOWN 10-17% sequentially; Hurricane Melissa struck Jamalco in late October and the restart is still in progress; and 45X advanced-manufacturing tax-credit receipts are explicitly named as a contributor to operating cash flow, so part of the cash is a legislated policy transfer rather than operating margin. Separately, capex has already more than doubled to $172.2M for nine months from $65.1M on the Mt. Holly restart.</p><p><strong>Base case.</strong> No number is recordable, because the base spans a factor of six and the sign of the answer sits inside it. The engine&#x27;s $18.1M is not a cash-flow estimate at all: mean(cfo-less-capex) over the window is [$84.8M, -$106.9M, $10.6M], a mean of NEGATIVE $3.8M, so about 121% of the recorded base is the after-tax interest add-back on $564.3M of debt. That is the SABR condition in its purest recorded form, and <code>nonpositive_normalized_fcff</code> stays silent only because the post-add-back figure is positive by $18M. At the other end, the current run rate is roughly $610M of annualised free cash flow. Between those lie the only two defensible anchors and they disagree: on the 2026 run rate the enterprise is on 2.4x EBITDA and the market requires deeply negative growth, i.e. very cheap; on a through-cycle base drawn from this company&#x27;s own history — free cash flow of $10.6M, -$106.9M and $84.8M across 2023-25, essentially zero across a full cycle — the enterprise is on roughly 20x and the market requires a great deal, i.e. expensive. Century has destroyed capital across prior cycles, and 2026 is the best year in its history by a factor of twenty. Per the AMR and CSTM rule, when the base is far too low AND the current level is a peak, the answer is the range, not the average.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am refusing the cheapest name I have seen on this screen. The engine says -90.8% and the 23rd percentile of Materials, i.e. expensive; that is demonstrably an artifact, and once corrected the name trades at 2.4x annualised adjusted EBITDA and about 4.2x annualised free cash flow with $713M of cash and $1.16bn of liquidity. Correcting a false sell into a buy is exactly what this engine exists to do, and the HNI precedent of 2026-10-09 is a direct template: a defect running toward a false sell, corrected from the company&#x27;s own filed numbers, recorded cheap.</li><li>What would prove it: Whether the 2026 earnings level is a plateau or a spike. The observable is the realised price path and the Q4/Q1 prints against the $275-300M guide, plus any decision on the Oklahoma smelter and its capital call.</li><li>Already visible today: Yes, and the counter loses on it, which is why this is no_edge and not cheap. Three pieces of evidence are already on the page. First, the same company produced $82.3M of nine-month operating cash flow in 2025 and $630.9M in 2026 — a 7.7x swing with no change in the asset base beyond restarts, which is the definition of a price-driven peak rather than an earnings base. Second, management has already guided the next quarter DOWN 10-17%, and a company guiding down off a record quarter is telling you the quarter was not repeatable (the DORM test). Third, and the piece the HNI template lacks: the profit is policy. The release names Section 232, the 45X credits inside operating cash flow, and the administration&#x27;s proposed tariff REDUCTION in the same document. HNI&#x27;s correction rested on an ASC 805 pro forma — a filed, audited fact about a combined business. Here the correction rests on extrapolating a tariff regime. Those are not the same quality of evidence.</li><li>Left unresolved: The capital intensity of the growth, which is the whole bear case and is undisclosed: management has not sized Century&#x27;s own share of the new smelter, and the Motley Fool coverage of the call frames it the same way — &#x27;a pending Oklahoma smelter decision leaves Century&#x27;s cash-rich balance sheet facing a key question: how much capital will growth actually require?&#x27; I also cannot size the Hurricane Melissa impact on Jamalco, and I am relying on financial statements carrying an UNREMEDIATED material weakness with an adverse auditor opinion on internal control.</li></ul><p><strong>Key risks.</strong> 2026 is the best year in this company&#x27;s history by roughly 20x: nine-month net income $889.4M against $40.0M a year earlier, and Q4 adjusted EBITDA is already guided DOWN to $275-300M from $331.6M; The margin is policy-dependent — Section 232 tariffs support the Midwest premium and 45X credits sit inside operating cash flow, while the company&#x27;s own release flags a proposed tariff REDUCTION for parties committing to new US capacity; A greenfield US smelter with $500M of DOE funding and a possible EGA joint venture is undecided and unsized; capex has already more than doubled to $172.2M for nine months; Deloitte issued an ADVERSE opinion on internal control over financial reporting and the Jamalco material weakness was UNREMEDIATED at 2025-12-31, so every number carries reduced confidence; Hurricane Melissa struck Jamalco in late October 2026 and the restart is still in progress — a Q4 disruption not in any reported figure; Through a full cycle this business has generated approximately zero free cash flow: $10.6M, -$106.9M and $84.8M across 2023-25 <strong>Watch for.</strong> Q4 2026 and Q1 2027 adjusted EBITDA against the $275-300M guide — the test of whether 2026 is a plateau or a spike; The Oklahoma smelter decision and, specifically, Century&#x27;s own equity contribution net of DOE funding and any EGA partner capital; Any change to Section 232 aluminium tariffs or to the proposed exemption programme for new US capacity commitments; Remediation of the Jamalco material weakness and removal of the adverse ICFR opinion; Jamalco&#x27;s return to full production after Hurricane Melissa</p><p><strong>Data quality.</strong> Two flags raised, both describing symptoms, and the two defects that decide the name are UNFLAGGED. (1) THE SABR CONDITION AT ITS PUREST: mean(cfo-less-capex) across the window is NEGATIVE $3.8M (series [$84.8M, -$106.9M, $10.6M]), so roughly 121% of the $18.1M base is the after-tax interest add-back on $564.3M of debt, and <code>nonpositive_normalized_fcff</code> cannot fire because the post-add-back value is positive. The 2026-09-18 entry asked for mean(cfo-capex) &lt;= 0 to be its own gate; this is the case for it. (2) THE SIGN-CROSSING SERIES DEFEATS BOTH CYCLE FLAGS, exactly as the OSIS entry of 2026-10-30 predicted: min(series) &lt; 0 &lt; max(series), so neither the peak nor the trough flag can compute a ratio, and only <code>negative_fcf_year_in_window</code> and <code>lumpy_fcff_spread_50.0x_of_mean</code> fired — naming the symptom and pointing at nothing. The HOG/JBI cross-check fires as loudly as it can: the $18.1M base is 1.4% of annualised adjusted EBITDA. ITEM 4.02 — this name has filed one (2026-03-03), and unlike HUBG it does NOT void the inputs: the restatement reflects full rather than proportional consolidation of the Jamalco joint venture for FY2024, FY2023 and the 2025 quarters, and the 2026-03-03 filing is a COMPREHENSIVE Form 10-K that already carries the restated figures, so all three years in the window are on the corrected basis. What survives is serious but different: an unremediated material weakness at 2025-12-31 and an ADVERSE Deloitte opinion on ICFR. Note also that the oldest three observations of <code>revenue_series</code> predate both the restatement and the May 2023 Jamalco acquisition, so the &#x27;+9.5% 5y revenue CAGR&#x27; baseline straddles a consolidation-basis change — the TNET shape without a 2x step. NEGATIVE RESULT WORTH RECORDING: equity_now $1,712M against equity_series[0] $805.6M is 2.13x and trips the CECO ratio detector, and it is a FALSE POSITIVE — nine-month net income of $889.4M fully explains it. No transaction occurred. Checks that pass: shares 98,993,295 from the dei cover-page concept dated 2026-11-02; interest_expense $29.3M on $564.3M of debt, an implied 5.2%; ebit $158.1M, 6.3% of revenue; capex all positive with D&amp;A-to-capex 0.92x.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/949157/000162828026071033/cenx-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/949157/000162828026071033/cenx-20260930.htm</a> (Q3 10-Q: nine-month CFO $630.9M vs $82.3M; capex $172.2M vs $65.1M; net income $873.1M consolidated / $889.4M attributable vs $40.0M; cash $713.0M vs $134.2M; liquidity $1,152.3M)</li><li>data/adhoc/CENX/2026-11-05-EX-99.1.txt (Q3 release: net sales $961.2M, net income $302.6M, adjusted EBITDA $331.6M, Q4 guide $275-300M, liquidity $1,161.5M)</li><li><a href="https://www.sec.gov/Archives/edgar/data/949157/000162828026013788/cenx-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/949157/000162828026013788/cenx-20251231.htm</a> (Comprehensive Form 10-K: Explanatory Note, Note 22 Restatement of Previously Issued Financial Statements, Item 9A material weakness, adverse ICFR opinion, Jamalco full-consolidation change)</li><li><a href="https://www.sec.gov/Archives/edgar/data/949157/000162828026013781/cenx-20260302.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/949157/000162828026013781/cenx-20260302.htm</a> (8-K 2026-03-03, item 4.02)</li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/11/06/century-aluminum-cenx-q3-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/11/06/century-aluminum-cenx-q3-2026-earnings-call-transcript/</a></li><li>research/LESSONS.md</li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Materials/CENX.md'>research/Materials/CENX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

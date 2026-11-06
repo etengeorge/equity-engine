@@ -1,0 +1,57 @@
+{
+  "ticker": "HURN",
+  "date": "2026-11-06",
+  "sector": "Industrials",
+  "name": "HURON CONSULTING GROUP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "medium",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 175.72999572753906,
+  "market_implied_growth": -0.080348101027169,
+  "cohort_pct": 96.7,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the refusal is driven by my own invented beta, and that on every observable the name is good and probably cheap: RBR +11.6%, margins at an eight-year high, guidance raised, a share count falling 8.2% a year, and a base the engine understates by about 18% because it credits the company with $2.6M of interest instead of $44M. On that reading the market requires roughly +7% from a company guiding double-digit growth, which is a buy, and I am declining to say so because a regression I distrust returned 0.07 instead of 1.1.",
+    "what_would_prove_it": "Q4 2026 operating cash flow. If it lands near the $126.4M Q4 2025 delivered, the base is sound and the cash break was timing. If it lands at half that, the FY2026 base is nearer $120M than $200M and the whole arithmetic changes.",
+    "already_visible": "Only partly, and what IS visible cuts against the bull. Nine-month free cash flow of $0.7M against $59.1M is the largest single new fact on this name and it is not in any flag. Receivables are not disclosed in a way that lets me separate the Healthcare managed-services ramp from ordinary slippage, and the company gives no cash-flow guidance. Meanwhile the one thing the bull case most needs \u2014 a defensible discount rate \u2014 is exactly what is unavailable: beta 0.0715 at R-squared 0.033 is not a measurement, and the 2026-09-22 ISBA rule says to treat that as an unreliable WACC input and refuse rather than substitute my own and publish the result. The honest position is that at my own corrected inputs the name looks roughly fair to modestly cheap, and that I cannot distinguish 'modestly cheap' from 'fair' with a discount rate I invented.",
+    "unresolved": "Whether the cash-conversion break is timing or structural, which Q4 settles and I cannot anticipate. Also the composition of the 27%-of-base stock compensation against the cash cost of the buybacks that are shrinking the count: the share count is falling 8.2% a year, which passes the BOX test, but the buybacks are funded partly with revolver borrowings \u2014 interest expense rose $7.1M for nine months 'primarily attributable to higher levels of borrowing' \u2014 so the shrink is being bought with debt rather than out of free cash flow that this year did not exist."
+  },
+  "what_changed": "The Q3 10-Q of 2026-11-03 supplies three facts the engine has none of. First, NINE-MONTH OPERATING CASH FLOW COLLAPSED: $15,329k against $66,987k, and capex rose to $14,673k from $7,859k, so nine-month free cash flow is $656k against $59.1M \u2014 management framed it on the call as collections slipping into next year. Fourth quarter is seasonally dominant for this business (FY2025 operating cash flow was $193.4M against $67.0M at nine months, so Q4 2025 alone was $126.4M), so nine-month cash is not an annualising base; but a $51.7M year-over-year deterioration on higher revenue and better margins is real. Second, the interest expense in the extract is wrong by a factor of thirteen: `interest_expense` reads $3,463k against the 10-Q's $33,048k for nine months (about $44M annualised) on $813,886k of debt, and the filing STATES the weighted average rate \u2014 5.5% at 2026-09-30, up from 5.3%. Third, the BOX test passes decisively: basic weighted-average shares are 15,916k against 17,340k in Q3 2025, down 8.2%, and 16,365k against 17,492k for nine months, down 6.4% \u2014 so $46.5M a year of stock compensation is more than paid for and the shares are shrinking net of all of it.",
+  "consensus_case": "The market pays $2.77bn of equity plus $0.81bn of net debt for a consulting firm that has just raised guidance: record Q3 revenues before reimbursable expenses of $482.5M, up 11.6%, adjusted EBITDA margin at a sixteen per cent eight-year high, Healthcare managed services revenue nearly doubled, full-year RBR narrowed to $1.855-1.885bn and adjusted diluted EPS guidance raised to $9.20-9.40. On $9.30 of adjusted EPS the stock is on roughly 19x, which for a double-digit grower expanding margins is an ordinary price, not a cheap one. What the market is also pricing, and what the engine cannot see, is that none of this year's growth has turned into cash: nine-month operating cash flow is $15.3M against $67.0M a year earlier, and after $14.7M of capex nine-month free cash flow is $0.7M. The stock fell 8.9% in five days on 3.5x normal volume into a raised guide, which is the market reading the cash flow statement rather than the press release.",
+  "base_case_rationale": "No number is recordable, because the single input that sets the sign of the answer is one the schema cannot reach. The engine's WACC is 4.994%, built from a BETA OF 0.0715 with an R-squared of 0.033, marked `yahoo_rescaled`, on a company with a 23% debt weight. A beta of 0.07 is not a low-beta business, it is a failed measurement \u2014 this is the ISBA condition on an fcff name. Correct the two things that can be corrected and the picture changes completely. The base: mean(cfo-less-capex) of $167.2M plus a correct after-tax interest add-back of about $33M (not $2.6M) gives roughly $200M, which cross-checks against the company's own guidance \u2014 adjusted EBITDA at 14.5-15.0% of $1.87bn of RBR is about $276M, less $20M of capex and $44M of interest, taxed, plus the add-back back, lands near $192M. The discount rate: a consulting firm with Huron's leverage supports an equity beta near 1.1, giving a cost of equity of about 10.6% and, at 23% debt costing 5.5% pre-tax, a WACC near 9.05%. At that base and that WACC the market requires roughly +7% five-year FCFF growth \u2014 against RBR guided to double-digit growth and margins at an eight-year high. But the required growth runs +1% at an 8.0% WACC and +11% at a 10.0% WACC, so a two-point choice I am making up spans the whole answer, and the engine's own figure of -8.0% required (the source of the +230.1% gap and the 97th-percentile rank) is simply the beta. Supplying a final_growth would reprice through 4.994% and print a fair value several multiples of the price, which is the LRN and IRWD error.",
+  "key_risks": [
+    "Nine-month free cash flow is $0.7M against $59.1M a year earlier: operating cash flow $15.3M vs $67.0M on capex up to $14.7M from $7.9M, while adjusted EPS guidance was raised",
+    "The entire +230.1% gap and 97th-percentile rank come from a 4.994% WACC built on a beta of 0.0715 at R-squared 0.033, marked yahoo_rescaled \u2014 not a measurement, and the schema cannot override it",
+    "The share count is shrinking 6-8% a year but the buybacks are partly debt-funded: interest expense rose $7.1M for nine months on higher revolver borrowings",
+    "The engine credits $3,463k of interest expense against $813,886k of debt \u2014 an implied 0.43% against a STATED weighted average rate of 5.5% \u2014 understating the FCFF base by roughly $30M",
+    "Growth is concentrated in Healthcare managed services, which nearly doubled and which plausibly carries the longer collection cycle behind the cash break"
+  ],
+  "watch_for": [
+    "Q4 2026 operating cash flow against the $126.4M Q4 2025 delivered \u2014 the single number that settles whether the base is $200M or $120M",
+    "Full-year 2026 free cash flow and any 2027 cash-flow guidance",
+    "Receivables and contract assets as a share of RBR, specifically in the Healthcare segment",
+    "Whether debt keeps rising to fund buybacks, and the weighted average rate past 5.5%",
+    "A working beta regression for this name \u2014 the verdict is the discount rate and nothing else"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1289848/000162828026069514/hurn-20260930.htm (Q3 10-Q: nine-month CFO $15,329k vs $66,987k; capex $14,673k vs $7,859k; interest expense net $33,048k vs $25,937k for nine months and $12,218k for the quarter; basic weighted-average shares 15,916k vs 17,340k and 16,365k vs 17,492k; weighted average borrowing rate 5.5% vs 5.3%; unused revolver capacity $259.6M)",
+    "data/adhoc/HURN/2026-11-03-EX-99.1.txt (Q3 2026 release: record RBR; FY2026 RBR guidance $1.855-1.885bn; adjusted EBITDA 14.5-15.0% of RBR; adjusted diluted EPS guidance raised to $9.20-9.40)",
+    "https://www.fool.com/earnings/call-transcripts/2026/11/04/huron-hurn-q3-2026-earnings-call-transcript/ (margins at an eight-year high; cash collections slipping into next year)",
+    "research/LESSONS.md (ISBA failed-beta, PATK and HP interest-rate, BOX share-count, CBT window entries)"
+  ],
+  "flags": [
+    "volume_3.5x_its_60d_average",
+    "stock_comp_is_27%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}
