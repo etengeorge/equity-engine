@@ -1,0 +1,33 @@
+# CLBK — COLUMBIA FINANCIAL INC
+*Financials · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-11-13 — NO_MODEL (conviction: low)
+
+- **Verdict:** no_model · price $11.22
+
+**The case for the price.** Columbia Financial has just completed the largest transformation available to a mutual holding company: a second-step conversion raising roughly $1.6 billion of common equity, executed simultaneously with the acquisition of Northfield Bancorp on 2026-07-20. Total assets went from $12.2 billion to $17.6 billion in one quarter, equity from $1.2 billion to $3.2 billion, and the company used the proceeds to reposition - selling low-yielding securities, selling delinquent, nonperforming and criticised and classified assets, and materially reducing exposure to New York City rent-regulated multifamily loans. At $11.22 against tangible book of $11.04 the stock trades at 1.02x tangible book, which for a newly converted, heavily capitalised New Jersey thrift with a cleaned balance sheet and a cost-saving integration ahead is an ordinary price. The 62.5% twelve-month return is the conversion arithmetic, not a re-rating.
+
+**What changed.** Everything. The second-step conversion stock offering and the Northfield acquisition both completed in the third quarter of 2026. Shares outstanding after both transactions are 269,539,984. Northfield added approximately $5.2 billion of total assets, $3.2 billion of loans receivable, $202.3 million of loans held for sale, $1.2 billion of securities, $646.4 million of borrowings and $3.8 billion of deposits; the company booked a BARGAIN PURCHASE GAIN of $25.7 million net of tax and a $76.2 million core deposit intangible, against $30.6 million of merger-related expenses in the quarter. It also sold securities with an amortised cost of $643.3 million acquired from Northfield plus a further $213.9 million of seasoned securities in a repositioning that realised a $40.8 million LOSS. Core system conversion is planned for the first quarter of 2027. Tangible book value per share is $11.04 at 2026-09-30 against $10.03 at 2025-12-31 (restated for the 2.2000 exchange ratio).
+
+**Base case.** No sustainable return on tangible common equity can be estimated for this company, and supplying one would be invention rather than judgment. The engine refused on exactly the right ground - `insufficient_book_or_earnings_history` - because the registrant is new (CIK 2115119) and the entity that exists today did not exist a quarter ago. The quarter's reported net income of $32.8 million is uninterpretable as a run rate: it contains a $25.7 million bargain purchase gain, $30.6 million of merger expenses and a $40.8 million realised securities loss, three items of comparable size pointing in different directions. More fundamentally, a freshly converted thrift is deliberately over-capitalised - $1.6 billion of new equity was raised at $10.00 a share against a balance sheet that previously supported $12.2 billion of assets - so near-term return on equity is mechanically depressed and the question is how fast management can lever the capital back up through buybacks and growth. That is a three-to-five-year question about capital deployment, and nothing in one post-conversion quarter answers it.
+
+**Devil's advocate.**
+- Strongest counter: That 1.02x tangible book on a bank with $17.6 billion of assets, a just-cleaned loan book and a large cost-save pipeline is cheap, and that refusing because the history is short throws away the single most reliable pattern in small-cap financials - the converted thrift that trades near book, buys back a third of itself, and re-rates.
+- What would prove it: The first two clean post-integration quarters - Q1 and Q2 2027, after the core system conversion - showing a return on average tangible common equity ex merger items, and the start of a buyback.
+- Already visible today: Not yet. Every figure available today is contaminated by the conversion, the bargain purchase gain, the merger expenses or the repositioning loss.
+- Left unresolved: The sustainable return, which is the only input this model takes. I note the pattern argument is real and that I am declining to act on a pattern rather than on a measurement - that is the intended discipline, not a failure of it.
+
+**Key risks.** Freshly raised $1.6 billion of equity mechanically depresses return on equity until it is deployed; Northfield core system conversion not until Q1 2027; integration risk and cost saves unrealised; A $40.8 million realised securities loss and a $25.7 million bargain purchase gain in one quarter make the reported result uninterpretable; New Jersey and New York City multifamily exposure, which management is actively reducing - an admission it was a problem
+**Watch for.** Return on average tangible common equity ex merger items in Q1 and Q2 2027, after the core system conversion; The start and size of a buyback once post-conversion restrictions permit - the main mechanism for deploying the excess capital; Whether the Northfield cost saves and the roughly 50% 2027 earnings accretion underwritten at announcement are reaffirmed
+
+**Data quality.** The engine's refusal is correct and the ONE populated valuation path on the brief is badly wrong, so the headline number must be disregarded. The multiples table shows p_tbv of 2.5x against a Financials cohort median of 1.5x, implying $6.83 against an $11.22 price and a -39.1% gap. The company's own Q3 release gives tangible stockholders' equity of $2,975,806 thousand over 269,547,660 shares, i.e. TANGIBLE BOOK VALUE PER SHARE OF $11.04 and an actual price to tangible book of 1.02x - not 2.5x. The 2.5x reconciles to the PRE-conversion equity ($1,160,728 thousand at 2025-12-31, or $1,043,067 thousand tangible) divided into the post-conversion market capitalisation: the CVBF error at its widest recorded, with numerator and denominator on opposite sides of a $2.0 billion equity raise. Two free selection-time gates would have caught it without any filing: `equity_now / equity_series[0]` is 2.73x, above the CECO 2x screen, and the cohort is flagged 'not ranked - too few comparable Financials names', which per the RIOT/EPRT refusal test alone disqualifies the blend. Note also the CENX caveat applies in reverse here - the 2.73x ratio IS a transaction tell on this name, not a boom-year retained-earnings artefact. No rotce_override supplied.
+
+*Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/2115119/000211511926000037/clbk-20260930.htm
+- https://www.sec.gov/Archives/edgar/data/2115119/000211511926000032/clbk-20261029.htm
+
+**Ingestion notes.** no usable final_growth

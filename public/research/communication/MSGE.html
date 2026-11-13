@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MSGE — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Communication / MSGE</p><h1>MSGE <span style='color:var(--faint);font-weight:400'>MADISON SQUARE GARDEN ENTERTAINMEN</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$78.80</b></div><div>Analyst gap<b>-46%</b></div><div>Dated<b>2026-11-13</b></div></div><div class='prose'><h1>MSGE — MADISON SQUARE GARDEN ENTERTAINMEN</h1><p><em>Communication · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-13 — RICH (conviction: low)</h2><ul><li><strong>Verdict:</strong> rich · price $78.80 · fair value $42.44 · gap -46.1%</li><li><strong>Growth:</strong> market implies +13.5%, analyst says +6.0% (delta -7.5%)</li><li><strong>FCFF base overridden</strong> by the analyst to $162.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 8.1% | 9.1% | 10.1% | 11.1% | 12.1% | |---|---|---|---|---|---|---| | bear | +2.0% | $48.59 | $40.68 | $34.72 | $30.06 | $26.33 | | base | +6.0% | $59.21 | $49.64 | $42.44 | $36.82 | $32.31 | | bull | +12.0% | $78.25 | $65.69 | $56.24 | $48.87 | $42.98 |</p><p>At the point WACC of 10.1%: bear -55.9%, base -46.1%, bull -28.6% Across the whole grid the gap ranges -66.6% to -0.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> MSG Entertainment owns or controls an irreplaceable set of New York venues - Madison Square Garden, Radio City Music Hall, the Beacon Theatre and the Chicago Theatre - plus the Christmas Spectacular, and fiscal 2027 has started strongly. Q1 revenue was $217.1M, up 37%, with adjusted operating income of $34.3M against $7.1M, driven by the start of Harry Styles&#x27; 30-show Garden residency and higher revenue per concert; food, beverage and merchandise alone rose 56%. Fiscal 2026 adjusted operating income was $262.2M, up 18%, on revenue of $1,060.8M, up 13%, and the Christmas Spectacular is running 231 performances this season against 215. At roughly 16x adjusted operating income for scarce live-entertainment real estate with demonstrated pricing power, a controlling family with a track record of surfacing asset value, and an open buyback, the market is paying for an asset base rather than a cash-flow multiple. That is a coherent case.</p><p><strong>What changed.</strong> Fiscal 2027 first-quarter results, 2026-11-04. Revenue $217.1M +37%, operating income $9.7M (+$39.5M, helped by the absence of a prior-year impairment), adjusted operating income $34.3M (+$27.2M). But the cash statement inverts the picture, and the company explains it in its own words. Fiscal 2026 operating cash flow was $351.4M against $115.3M, and the 10-K states the $236.1M increase was &#x27;primarily due to an increase in cash flows from changes in working capital of $224,675 and an increase in net income adjusted for non-cash items of $11,463&#x27; - so 95% of it was timing, specifically &#x27;lower payments to promoters driven by the timing of event settlements&#x27;. It reversed immediately: Q1 fiscal 2027 operating cash flow was NEGATIVE $26.2M against POSITIVE $19.8M, which the 10-Q attributes to &#x27;$78,306&#x27; of additional working-capital outflow &#x27;primarily due to an increase in payments to promoters&#x27;. Unrestricted cash fell from $294M to $194M in the quarter. Management also flags that Garden concert volume, while up in the December quarter, &#x27;is currently pacing lower in the second half of fiscal 2027 due to event timing&#x27;.</p><p><strong>Base case.</strong> This is a fixed portfolio of seats. The Garden holds about 20,000 and runs roughly 200 events a year; Radio City holds 6,000. Growth therefore comes from utilisation and price, both of which have ceilings, and from the residency model, which is a way of raising utilisation at one venue with one artist. I underwrite about 6% a year - mid-single-digit price and per-capita spend growth plus modest incremental event count, which is roughly double nominal inflation and generous for an asset whose capacity cannot expand. I differ from the naive +10.8% revenue baseline because that is measured over the post-spin recovery years, and I differ sharply from the engine&#x27;s base, which capitalises a one-year working-capital wave the company has already disclosed and already reversed.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That a reverse DCF is simply the wrong lens on trophy real estate. Madison Square Garden is unreplicable; the controlling family has already split MSG Networks, Sphere and MSG Sports out of this entity precisely to surface asset value; and a buyer would pay for the arena, the air rights and the Christmas Spectacular annuity rather than for five years of discounted free cash flow. On that view 16x adjusted operating income is unremarkable and my &#x27;required +20% growth&#x27; is an artefact of capitalising cash flow instead of assets.</li><li>What would prove it: A transaction - a sale, a sale-leaseback, a naming-rights or air-rights deal - or a permanent special permit that removes the 2028 cliff and lets the asset be financed as real estate.</li><li>Already visible today: The counter is weakened by what the assets actually are. Radio City and the Beacon are LEASED, not owned; only the Garden and the Chicago Theatre are owned. And the Garden&#x27;s operating permit is not permanent: in September 2023 the New York City Council granted it a FIVE-year special permit to 2028 - the shortest in its history, explicitly tied to Penn Station redevelopment - and I found no reporting of a 2026 renewal, so the expiry sits INSIDE the five-year valuation window. An asset whose right to operate must be re-litigated in 2028 does not support an unconditional asset-value premium.</li><li>Left unresolved: I cannot value the real estate independently, and I cannot rule out that a control transaction clears well above my cash-flow number. That is why conviction is low despite a large recorded gap.</li></ul><p><strong>Key risks.</strong> The Garden&#x27;s special operating permit expires in 2028, inside the valuation window, and the 2023 renewal was the shortest ever granted and tied to Penn Station redevelopment; Fiscal 2026 free cash flow of $323.1M was 95% working-capital timing on promoter settlements, and it reversed to NEGATIVE $26.2M of operating cash flow in Q1 fiscal 2027; Management says second-half fiscal 2027 Garden concert volume is pacing LOWER on event timing; Capacity is fixed: growth must come from price and utilisation, both of which have ceilings; Controlled company; minority holders have no say in whether asset value is ever surfaced <strong>Watch for.</strong> Any New York City Council action on the Madison Square Garden special permit ahead of the 2028 expiry, and whether a renewal carries Penn Station capital obligations; Fiscal 2027 full-year operating cash flow - whether the promoter-settlement reversal is complete or continues; Second-half fiscal 2027 Garden event count against the prior year, which management has already guided lower</p><p><strong>Data quality.</strong> The single flag - <code>possible_peak_cycle_base_newest_fcf_3.7x_oldest</code> - points at the right year for the wrong reason, and the company supplies the correction itself. The free-cash-flow series [$87.1M, $93.1M, $323.1M] oldest to newest is strictly monotonic, which per the ITRI rule normally means a recovery rather than a peak and would argue for using the newest year. Here the 10-K says otherwise in terms: of the $236.1M increase in fiscal 2026 operating cash flow, $224,675 thousand was &#x27;changes in working capital&#x27; from &#x27;lower payments to promoters driven by the timing of event settlements&#x27;, and only $11,463 thousand was net income adjusted for non-cash items. This is the OSIS working-capital wave, and the reversal is already filed - Q1 fiscal 2027 operating cash flow was NEGATIVE $26.2M against positive $19.8M on exactly that line. I rebuilt the base from the company&#x27;s own adjusted operating income of $262.2M less roughly $35M of share-based compensation, $30M of capex, $33M of cash interest and $27M of cash tax, plus the after-tax interest add-back, giving about $162M - which is the GENEROUS end of the range, since normalising the cash statement directly gives $112-121M. Supplied as fcff_base_override. On that base the market requires about +20% five-year growth against the engine&#x27;s printed +13.5%. The WACC of 10.11% is one of the few defensible discount rates in today&#x27;s ten - beta 0.995 at R-squared 0.341 from our own regression, at a 13% debt weight - and was not adjusted. The permit expiry is from 2023 reporting; I could not find 2026 coverage confirming or changing it, and I record that as a limit on confidence rather than filling the gap.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1952073/000162828026070156/msge-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1952073/000162828026070156/msge-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1952073/000162828026069803/msge-20261104.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1952073/000162828026069803/msge-20261104.htm</a></li><li><a href="https://abc7ny.com/madison-square-garden-special-permit-penn-station-new-york-city-council/13783372/" rel="noopener">https://abc7ny.com/madison-square-garden-special-permit-penn-station-new-york-city-council/13783372/</a></li><li><a href="https://www.6sqft.com/nyc-council-approves-five-year-permit-madison-square-garden/" rel="noopener">https://www.6sqft.com/nyc-council-approves-five-year-permit-madison-square-garden/</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Communication/MSGE.md'>research/Communication/MSGE.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

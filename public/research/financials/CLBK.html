@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CLBK — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / CLBK</p><h1>CLBK <span style='color:var(--faint);font-weight:400'>COLUMBIA FINANCIAL INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$11.22</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-13</b></div></div><div class='prose'><h1>CLBK — COLUMBIA FINANCIAL INC</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-13 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $11.22</li></ul><p><strong>The case for the price.</strong> Columbia Financial has just completed the largest transformation available to a mutual holding company: a second-step conversion raising roughly $1.6 billion of common equity, executed simultaneously with the acquisition of Northfield Bancorp on 2026-07-20. Total assets went from $12.2 billion to $17.6 billion in one quarter, equity from $1.2 billion to $3.2 billion, and the company used the proceeds to reposition - selling low-yielding securities, selling delinquent, nonperforming and criticised and classified assets, and materially reducing exposure to New York City rent-regulated multifamily loans. At $11.22 against tangible book of $11.04 the stock trades at 1.02x tangible book, which for a newly converted, heavily capitalised New Jersey thrift with a cleaned balance sheet and a cost-saving integration ahead is an ordinary price. The 62.5% twelve-month return is the conversion arithmetic, not a re-rating.</p><p><strong>What changed.</strong> Everything. The second-step conversion stock offering and the Northfield acquisition both completed in the third quarter of 2026. Shares outstanding after both transactions are 269,539,984. Northfield added approximately $5.2 billion of total assets, $3.2 billion of loans receivable, $202.3 million of loans held for sale, $1.2 billion of securities, $646.4 million of borrowings and $3.8 billion of deposits; the company booked a BARGAIN PURCHASE GAIN of $25.7 million net of tax and a $76.2 million core deposit intangible, against $30.6 million of merger-related expenses in the quarter. It also sold securities with an amortised cost of $643.3 million acquired from Northfield plus a further $213.9 million of seasoned securities in a repositioning that realised a $40.8 million LOSS. Core system conversion is planned for the first quarter of 2027. Tangible book value per share is $11.04 at 2026-09-30 against $10.03 at 2025-12-31 (restated for the 2.2000 exchange ratio).</p><p><strong>Base case.</strong> No sustainable return on tangible common equity can be estimated for this company, and supplying one would be invention rather than judgment. The engine refused on exactly the right ground - <code>insufficient_book_or_earnings_history</code> - because the registrant is new (CIK 2115119) and the entity that exists today did not exist a quarter ago. The quarter&#x27;s reported net income of $32.8 million is uninterpretable as a run rate: it contains a $25.7 million bargain purchase gain, $30.6 million of merger expenses and a $40.8 million realised securities loss, three items of comparable size pointing in different directions. More fundamentally, a freshly converted thrift is deliberately over-capitalised - $1.6 billion of new equity was raised at $10.00 a share against a balance sheet that previously supported $12.2 billion of assets - so near-term return on equity is mechanically depressed and the question is how fast management can lever the capital back up through buybacks and growth. That is a three-to-five-year question about capital deployment, and nothing in one post-conversion quarter answers it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That 1.02x tangible book on a bank with $17.6 billion of assets, a just-cleaned loan book and a large cost-save pipeline is cheap, and that refusing because the history is short throws away the single most reliable pattern in small-cap financials - the converted thrift that trades near book, buys back a third of itself, and re-rates.</li><li>What would prove it: The first two clean post-integration quarters - Q1 and Q2 2027, after the core system conversion - showing a return on average tangible common equity ex merger items, and the start of a buyback.</li><li>Already visible today: Not yet. Every figure available today is contaminated by the conversion, the bargain purchase gain, the merger expenses or the repositioning loss.</li><li>Left unresolved: The sustainable return, which is the only input this model takes. I note the pattern argument is real and that I am declining to act on a pattern rather than on a measurement - that is the intended discipline, not a failure of it.</li></ul><p><strong>Key risks.</strong> Freshly raised $1.6 billion of equity mechanically depresses return on equity until it is deployed; Northfield core system conversion not until Q1 2027; integration risk and cost saves unrealised; A $40.8 million realised securities loss and a $25.7 million bargain purchase gain in one quarter make the reported result uninterpretable; New Jersey and New York City multifamily exposure, which management is actively reducing - an admission it was a problem <strong>Watch for.</strong> Return on average tangible common equity ex merger items in Q1 and Q2 2027, after the core system conversion; The start and size of a buyback once post-conversion restrictions permit - the main mechanism for deploying the excess capital; Whether the Northfield cost saves and the roughly 50% 2027 earnings accretion underwritten at announcement are reaffirmed</p><p><strong>Data quality.</strong> The engine&#x27;s refusal is correct and the ONE populated valuation path on the brief is badly wrong, so the headline number must be disregarded. The multiples table shows p_tbv of 2.5x against a Financials cohort median of 1.5x, implying $6.83 against an $11.22 price and a -39.1% gap. The company&#x27;s own Q3 release gives tangible stockholders&#x27; equity of $2,975,806 thousand over 269,547,660 shares, i.e. TANGIBLE BOOK VALUE PER SHARE OF $11.04 and an actual price to tangible book of 1.02x - not 2.5x. The 2.5x reconciles to the PRE-conversion equity ($1,160,728 thousand at 2025-12-31, or $1,043,067 thousand tangible) divided into the post-conversion market capitalisation: the CVBF error at its widest recorded, with numerator and denominator on opposite sides of a $2.0 billion equity raise. Two free selection-time gates would have caught it without any filing: <code>equity_now / equity_series[0]</code> is 2.73x, above the CECO 2x screen, and the cohort is flagged &#x27;not ranked - too few comparable Financials names&#x27;, which per the RIOT/EPRT refusal test alone disqualifies the blend. Note also the CENX caveat applies in reverse here - the 2.73x ratio IS a transaction tell on this name, not a boom-year retained-earnings artefact. No rotce_override supplied.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/2115119/000211511926000037/clbk-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2115119/000211511926000037/clbk-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2115119/000211511926000032/clbk-20261029.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2115119/000211511926000032/clbk-20261029.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/CLBK.md'>research/Financials/CLBK.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

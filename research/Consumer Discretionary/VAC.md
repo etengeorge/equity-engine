@@ -1,0 +1,34 @@
+# VAC — MARRIOTT VACATIONS WORLDWIDE
+*Consumer Discretionary · Russell 2000*
+
+Append-only research log. Newest entries at the bottom.
+
+## 2026-11-13 — NO_MODEL (conviction: low)
+
+- **Verdict:** no_model · price $114.99
+- **Not repriced:** not a repriceable fcff name or no growth supplied
+
+**The case for the price.** Marriott Vacations is in the middle of a genuine operating turnaround and the tape has noticed: the stock is up 156.7% over twelve months. Third-quarter contract sales rose 29% year over year, adjusted EBITDA rose 27% to $216 million, adjusted net income rose 47% to $98 million, and the net corporate leverage ratio fell to 3.6x from 4.0x at the end of Q2 as the modernisation programme's costs rolled off. The company guides full-year adjusted free cash flow of $410-430 million against a $4.0 billion market capitalisation - roughly a 10% yield - and funds its receivables cheaply, having securitised a $469 million pool after quarter end at a 5.91% blended rate on a 98% gross advance rate. Liquidity is about $1.1 billion. At that cash yield with contract sales inflecting, the price is not demanding.
+
+**What changed.** Third-quarter results and 10-Q, 2026-11-04. Contract sales +29%, adjusted EBITDA $216M (+27%), adjusted net income $98M (+47%), VPG gains driving margin expansion. Net corporate leverage 3.6x. Full-year adjusted free cash flow guidance was TRIMMED to $410-430 million from $410-460 million, with nine-month adjusted free cash flow of $449 million against $151 million a year earlier. At quarter end the company reported $3.0 billion of CORPORATE debt and $2.4 billion of non-recourse debt related to securitised vacation ownership notes receivable, against $229 million of cash and $776 million of revolver availability. No company-specific news was in the store for this name, which is a fact about coverage rather than about the company.
+
+**Base case.** No number can honestly be recorded, because all three inputs to this model are wrong and two of them are wrong by factors rather than by margins. The engine found NO DEBT - the flag `interest_expense_implies_no_debt_found_on_reported_debt_debt_likely_understated` is correct and understates the problem - so enterprise value is $3.7 billion, computed as market capitalisation less cash, on a company that discloses $3.0 billion of corporate debt in its own press release. True corporate enterprise value is about $6.77 billion, 83% higher. The same zero-debt finding sets the WACC weights to 100% equity, producing a 13.46% discount rate that is a pure cost of equity on a business financed 43% with debt. And the FCFF base of $121.2 million is the mean of a series containing a negative year, against the company's own guided adjusted free cash flow of $410-430 million - a factor of three and a half, the HOG cross-check firing as hard as it can. Correcting all three leaves the market requiring roughly -0.2% to +6.4% growth, i.e. about fair, against the engine's printed +35.9% - so the -54.3% 'rich' reading is no more reliable than the inputs behind it. I record no number because `forward_dcf` derives equity as enterprise value less the EXTRACT's net debt, and supplying a growth rate against a bridge missing $3.0 billion of debt would print a fair value billions of dollars too high - the CXW condition, running in the opposite direction.
+
+**Devil's advocate.**
+- Strongest counter: That refusing here is over-fastidious: the direction of every correction is knowable, and corrected inputs say the name is roughly fairly priced with a decent cash yield and improving operating momentum. A reader could act on that.
+- What would prove it: Nothing needs proving - the corrected arithmetic is in this note. The question is whether a RECORDED number would be more useful than the refusal, and it would not: the schema would price it through an enterprise value missing $3.0 billion of debt.
+- Already visible today: The whole problem is visible on the face of the brief: a timeshare company with a 100% equity WACC weight and no debt found.
+- Left unresolved: Whether the $2.4 billion of non-recourse securitised debt belongs in enterprise value at all. It is matched by vacation-ownership notes receivable, so including it also requires crediting the asset, and that judgment moves enterprise value between roughly $6.8 billion and $9.2 billion. A valuation whose denominator ranges 35% on a definitional choice is not a valuation.
+
+**Key risks.** $3.0 billion of corporate debt plus $2.4 billion of non-recourse securitised debt against a $4.0 billion market capitalisation; Adjusted free cash flow guidance trimmed at the top end, with conversion slipping to the low 50s percent on a higher sales reserve and higher funding costs; Timeshare receivables are consumer credit; the business model depends on continuous access to the securitisation market; The stock has already risen 156.7% in twelve months, so the operating recovery is at least partly in the price
+**Watch for.** The loan loss provision and the sales reserve on vacation-ownership notes receivable - the line that trimmed cash-flow guidance; Whether contract sales growth holds near 29% once the modernisation-affected comparisons lap; Securitisation spreads on the next pool against the 5.91% blended rate and 98% advance rate achieved after quarter end
+
+**Data quality.** This name needs a selection-time gate rather than research. `interest_expense_implies_no_debt_found` fired and the model used the broken enterprise value anyway - the TENB defect, where the engine correctly diagnoses an unreliable EV and then prices through it, while applying a blocking standard to an unreliable WACC. The scale here is the largest instance on file: $3.0 billion of corporate debt missing from a $3.7 billion enterprise value, disclosed in plain English in the company's own earnings release, with the same error setting the WACC to 100% equity at 13.46%. The base is independently wrong by a factor of 3.5 against the company's own guided adjusted free cash flow of $410-430M, which is the HOG/JBI test. `stock_comp_is_44%_of_fcff` and `negative_fcf_year_in_window` are both downstream of a base that is too small to be meaningful. Note the three errors do NOT cancel: EV understated manufactures cheapness, while the too-small base and the all-equity WACC manufacture richness, and the net printed figure (-54.3%) happens to land on the rich side for reasons unrelated to the business. No number recorded.
+
+*Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.*
+
+**Sources.**
+- https://www.sec.gov/Archives/edgar/data/1524358/000152435826000042/vac-20260930.htm
+- https://www.sec.gov/Archives/edgar/data/1524358/000152435826000040/vac-20261104.htm
+
+**Ingestion notes.** no usable final_growth

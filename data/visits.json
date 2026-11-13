@@ -34,6 +34,11 @@
     "last_visit": "2026-09-14",
     "verdict": "no_edge"
   },
+  "AGYS": {
+    "conviction": "medium",
+    "last_visit": "2026-11-13",
+    "verdict": "rich"
+  },
   "AII": {
     "conviction": "medium",
     "last_visit": "2026-09-11",
@@ -52,6 +57,11 @@
   "AMLX": {
     "conviction": "high",
     "last_visit": "2026-10-16",
+    "verdict": "no_model"
+  },
+  "AMPY": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
     "verdict": "no_model"
   },
   "AMR": {
@@ -227,6 +237,11 @@
   "CIFR": {
     "conviction": "high",
     "last_visit": "2026-09-11",
+    "verdict": "no_model"
+  },
+  "CLBK": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
     "verdict": "no_model"
   },
   "CLMT": {
@@ -426,8 +441,8 @@
   },
   "FLO": {
     "conviction": "low",
-    "last_visit": "2026-09-02",
-    "verdict": "cheap"
+    "last_visit": "2026-11-13",
+    "verdict": "no_edge"
   },
   "FLR": {
     "conviction": "low",
@@ -463,6 +478,11 @@
     "conviction": "low",
     "last_visit": "2026-09-02",
     "verdict": "no_edge"
+  },
+  "GPI": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
+    "verdict": "no_model"
   },
   "GRAL": {
     "conviction": "high",
@@ -554,6 +574,11 @@
     "last_visit": "2026-09-08",
     "verdict": "rich"
   },
+  "IBRX": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
+    "verdict": "no_model"
+  },
   "IDCC": {
     "conviction": "low",
     "last_visit": "2026-08-31",
@@ -565,8 +590,8 @@
     "verdict": "no_model"
   },
   "IMXI": {
-    "conviction": "high",
-    "last_visit": "2026-09-24",
+    "conviction": "low",
+    "last_visit": "2026-11-13",
     "verdict": "no_model"
   },
   "INDB": {
@@ -611,7 +636,7 @@
   },
   "JBI": {
     "conviction": "low",
-    "last_visit": "2026-09-16",
+    "last_visit": "2026-11-13",
     "verdict": "no_edge"
   },
   "JILL": {
@@ -738,6 +763,11 @@
     "conviction": "low",
     "last_visit": "2026-09-17",
     "verdict": "no_model"
+  },
+  "MSGE": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
+    "verdict": "rich"
   },
   "MTRX": {
     "conviction": "medium",
@@ -1103,6 +1133,11 @@
     "conviction": "low",
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
+  },
+  "VAC": {
+    "conviction": "low",
+    "last_visit": "2026-11-13",
+    "verdict": "no_model"
   },
   "VCYT": {
     "conviction": "low",
