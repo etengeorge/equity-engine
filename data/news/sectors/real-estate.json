@@ -1,5 +1,19 @@
 [
  {
+  "id": "7ab34d25-317a-32ca-829b-c2be19feb3e2",
+  "ts": "2026-11-13T11:01:16+00:00",
+  "title": "Welltower Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "As Welltower has outperformed relative to the broader market over the past year, Wall Street analysts remain strongly optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8817789/welltower-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "caede216-99d0-39f4-bae3-e9d13a33d43e",
   "ts": "2026-11-12T21:03:02+00:00",
   "title": "Sector Update: Financial Stocks Softer Late Afternoon",

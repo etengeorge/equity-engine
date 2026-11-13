@@ -1,5 +1,33 @@
 [
  {
+  "id": "115f5e11-e54a-3819-bd1e-d60002a38cf5",
+  "ts": "2026-11-13T16:03:00+00:00",
+  "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
+  "summary": "With earnings season winding down and the AI-driven volatility finally abating, it's time to start making some assessments that will guide your decisions into and through the year ahead.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/13/where-these-4-sector-etfs-stand-heading-into-year/",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "f92818b5-57e8-31f4-ac7b-ac899cd7a55d",
+  "ts": "2026-11-13T14:25:20+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+  "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142520549.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "1481e041-d139-3282-bb6d-b2d2ea7d0c00",
   "ts": "2026-11-12T21:08:01+00:00",
   "title": "Sector Update: Energy Stocks Rise Thursday",

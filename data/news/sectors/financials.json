@@ -1,11 +1,39 @@
 [
  {
+  "id": "115f5e11-e54a-3819-bd1e-d60002a38cf5",
+  "ts": "2026-11-13T16:03:00+00:00",
+  "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
+  "summary": "With earnings season winding down and the AI-driven volatility finally abating, it's time to start making some assessments that will guide your decisions into and through the year ahead.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/13/where-these-4-sector-etfs-stand-heading-into-year/",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "2cd542d5-d7c8-329b-b59b-482f8e86e950",
   "ts": "2026-11-13T11:03:45+00:00",
   "title": "State Street Fin Sel Sector SPDR (XLF) Buys $49.1 Million More BRK.B on Wednesday",
   "summary": "The fund added $369.2 million across all 76 of its positions, led by a $49.1 million increase in Berkshire Hathaway Class B.",
   "publisher": "GuruFocus.com",
   "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-sel-sector-110345040.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "cbbb254d-2f88-31ea-8899-60a90b5e3684",
+  "ts": "2026-11-13T10:19:27+00:00",
+  "title": "Erie Indemnity Stock: Analyst Estimates & Ratings",
+  "summary": "Even though Erie Indemnity has lagged behind the broader market over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8817282/erie-indemnity-stock-analyst-estimates-ratings",
   "tickers": [
    "XLF"
   ],

@@ -1,64 +1,64 @@
 {
-  "screen_utc": "2026-11-13T11:21:15+00:00",
+  "screen_utc": "2026-11-13T17:58:34+00:00",
   "price_asof": "2026-11-12",
   "universe": 1956,
-  "modelled": 1061,
+  "modelled": 1060,
   "modelled_pct": 54.2,
   "news": {
-    "generated_utc": "2026-11-13T11:21:16+00:00",
+    "generated_utc": "2026-11-13T17:58:35+00:00",
     "sectors": {
       "Health Care": {
-        "new": 12,
-        "held": 103,
+        "new": 2,
+        "held": 105,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 12,
-        "held": 136,
+        "new": 2,
+        "held": 138,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 9,
+        "new": 0,
         "held": 60,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 12,
-        "held": 142,
+        "new": 3,
+        "held": 145,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 12,
+        "new": 0,
         "held": 112,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 12,
-        "held": 154,
+        "new": 2,
+        "held": 156,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 12,
-        "held": 83,
+        "new": 1,
+        "held": 84,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 3,
+        "new": 0,
         "held": 35,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 6,
-        "held": 50,
+        "new": 1,
+        "held": 51,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 12,
+        "new": 0,
         "held": 103,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 12,
+        "new": 0,
         "held": 62,
         "etf": "XLU"
       }
@@ -66,25 +66,25 @@
     "macro": 86,
     "market": 36,
     "companies": 450,
-    "articles_new": 3793,
+    "articles_new": 368,
     "candidates": 450,
-    "elapsed_s": 221.5
+    "elapsed_s": 223.5
   },
   "picks": [
-    "AGYS",
-    "CLBK",
-    "VAC",
-    "GPI",
-    "MSGE",
-    "IBRX",
-    "IMXI",
-    "JBI",
-    "AMPY",
-    "FLO"
+    "OPEN",
+    "CLDX",
+    "LBRT",
+    "CWT",
+    "ARCB",
+    "NG",
+    "AMCX",
+    "SND",
+    "DCTH",
+    "BGS"
   ],
   "stages": {
-    "screen": "2026-11-13T11:25:19+00:00",
-    "news": "2026-11-13T11:24:58+00:00",
-    "pick": "2026-11-13T11:25:19+00:00"
+    "screen": "2026-11-13T18:03:26+00:00",
+    "news": "2026-11-13T18:02:19+00:00",
+    "pick": "2026-11-13T18:03:26+00:00"
   }
 }

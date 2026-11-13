@@ -1,5 +1,33 @@
 [
  {
+  "id": "115f5e11-e54a-3819-bd1e-d60002a38cf5",
+  "ts": "2026-11-13T16:03:00+00:00",
+  "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
+  "summary": "With earnings season winding down and the AI-driven volatility finally abating, it's time to start making some assessments that will guide your decisions into and through the year ahead.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/13/where-these-4-sector-etfs-stand-heading-into-year/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "aec7dfdf-2be2-37e9-8ca1-a2a9fce021ec",
+  "ts": "2026-11-13T14:16:01+00:00",
+  "title": "Sector Update: Healthcare Stocks Rise Pre-Bell Friday",
+  "summary": "Healthcare stocks were rising pre-bell Friday, with the State Street Health Care Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-pre-141601388.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "6a328193-5515-3543-b9e2-0d200fac3bc5",
   "ts": "2026-11-13T11:03:27+00:00",
   "title": "State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11",

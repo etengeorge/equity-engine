@@ -1,5 +1,65 @@
 [
  {
+  "id": "58994329-2806-3cfa-b616-9830171813f7",
+  "ts": "2026-11-13T17:30:53+00:00",
+  "title": "AST SpaceMobile Sinks 6%, Rocket Lab Down 5% as Space Stocks Give Back a Stellar Week",
+  "summary": "Key TakeawaysAST SpaceMobile fell 6% today with no company news, as Rocket Lab, Intuitive Machines and Firefly Aerospace slid on hot inflation data. Intuitive Machines fell almost as hard a day after a record quarter, so this looks like a sector pullback more than a verdict on AST.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-6-rocket-lab-down-5-as-space-stocks-give-back-a-stellar-week?ref=yahoofinance&tlnk=yf-261113-q72jrjhc",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2d698b4b-5cb5-342e-9e61-1f2242906287",
+  "ts": "2026-11-13T16:07:27+00:00",
+  "title": "Intuitive Machines Falls 7% Despite Record Quarter as Space Stocks Slide; AST SpaceMobile Sinks 9%, Rocket Lab Drops 5%",
+  "summary": "Intuitive Machines just posted a record backlog and soaring revenue, yet its shares are sliding with the rest of the space sector. Behind the headline numbers sit one-time gains, a shrinking cash pile, and a lunar mission clock that investors are watching closely.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/13/intuitive-machines-falls-7-despite-record-quarter-as-space-stocks-slide-ast-spacemobile-sinks-9-rocket-lab-drops-5/",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7631435e-bae7-398f-999a-eb6eaef6ca43",
+  "ts": "2026-11-13T15:00:00+00:00",
+  "title": "Space Stocks Are Complex. York Sinks, AST and AT&T Make Historic Satellite Call.",
+  "summary": "York Space Systems stock sank after weaker-than-expected earnings.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/space-stocks-ast-att-satellite-call-york-earnings-9caca032?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8dfa87a7-d65a-35b7-825a-4cb1ffcb053f",
+  "ts": "2026-11-13T14:10:00+00:00",
+  "title": "LUNR Q3 Earnings Call Highlights Growth and 2027 Outlook",
+  "summary": "Intuitive Machines posts surging Q3 revenues, improved margins and record backlog while refining its 2026 outlook and accelerating lunar infrastructure plans.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/lunr-q3-earnings-call-highlights-141000247.html",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "4073535b-32d3-3461-a091-4c2a99c4a6e7",
+  "ts": "2026-11-13T11:23:00+00:00",
+  "title": "Can LUNR Convert Its Record Backlog Into Sustained Growth?",
+  "summary": "Intuitive Machines posted record $269 million in revenues and a $1.9 billion backlog, fueled by major space contracts and expanding lunar opportunities.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/lunr-convert-record-backlog-sustained-112300807.html",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0e8807b5-e9fb-3ec5-a6e7-ab2da3fff79f",
   "ts": "2026-11-13T07:51:54+00:00",
   "title": "Space Stocks Had A Stellar Week, But SpaceX Rivals Flew Higher \u2014 What Powered LUNR, FLY, RKLB And ASTS Ahead?",
@@ -18,6 +78,18 @@
   "summary": "Converting contracted backlog into predictable cash flow is the test for scaling beyond single launches, and the lunar services deal will decide it.",
   "publisher": "Motley Fool",
   "url": "https://www.fool.com/earnings/takeaways/2026/11/13/intuitive-machines-3-key-takeaways-for-long-term-investors/",
+  "tickers": [
+   "LUNR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "0aa02c66-614e-3538-9655-f7293e5bd1c4",
+  "ts": "2026-11-13T01:47:52+00:00",
+  "title": "Intuitive Machines, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Intuitive Machines, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-intuitive-machines-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "LUNR"
   ],

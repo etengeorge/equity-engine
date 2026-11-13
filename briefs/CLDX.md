@@ -1,19 +1,19 @@
-# IBRX — IMMUNITYBIO INC
+# CLDX — CELLDEX THERAPEUTICS
 *Health Care · brief generated 2026-11-13 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 331/1956
+- rotation position 333/1956
 
 ## Market
 | | |
 |---|---|
-| price | $6.07 |
-| market cap | $6.4B |
-| 5d / 21d / 63d / 252d | -24.2% / -38.7% / -19.8% / +183.6% |
-| 60d avg daily $ volume | $110.8M |
-| beta (vs IWM) | 2.23 (R²=0.101) |
-| 5d volume vs 60d average | 1.3x |
-| balance sheet as of | 2026-06-30 (10-Q) |
+| price | $28.53 |
+| market cap | $2.2B |
+| 5d / 21d / 63d / 252d | +0.9% / +2.5% / -32.0% / +17.1% |
+| 60d avg daily $ volume | $44.8M |
+| beta (vs IWM) | 1.23 (R²=0.178) |
+| 5d volume vs 60d average | 0.7x |
+| balance sheet as of | 2026-09-30 (10-Q) |
 | WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 17.4% − 1pt | n/a |
-| **17.4% (point)** | **n/a** |
-| 17.4% + 1pt | n/a |
+| 11.9% − 1pt | n/a |
+| **11.9% (point)** | **n/a** |
+| 11.9% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $6.07).
+Gap under that baseline: **n/a** (fair value n/a vs price $28.53).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,10 +39,11 @@ Gap under that baseline: **n/a** (fair value n/a vs price $6.07).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=304) | 53.6x | 1.7x / 4.4x / 16.0x | $0.52 / $0.80 / $2.05 |
-| ev_gross_profit (n=201) | 54.0x | 3.1x / 6.4x / 16.0x | $0.66 / $1.02 / $2.03 |
+| ev_sales (n=304) | 1029.5x | 1.7x / 4.4x / 16.0x | $8.31 / $8.37 / $8.59 |
+| ev_gross_profit (n=201) | 1182.6x | 3.1x / 6.4x / 16.0x | $8.33 / $8.39 / $8.55 |
+| p_tbv (n=327) | 4.2x | 1.7x / 3.7x / 7.1x | $11.81 / $25.19 / $48.27 |
 
-Blended midpoint **$0.91** vs price $6.07 — gap **-85.0%**.
+Blended midpoint **$13.98** vs price $28.53 — gap **-51.0%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -51,60 +52,56 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `interest_expense_implies_6888%_on_reported_debt_debt_likely_understated`
-- `speculative_cost_of_debt_but_only_0%_debt_weight`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
 - `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-11-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000099/ibrx-20260930.htm
-- 2026-11-09 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000097/ibrx-20261109.htm
-- 2026-11-09 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000091/ibrx-20261109.htm
-- 2026-10-14 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000119312526421820/d188887d8k.htm
-- 2026-08-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000079/ibrx-20260630.htm
-- 2026-08-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000077/ibrx-20260804.htm
-- 2026-07-30 **8-K** — items 7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000071/ibrx-20260729.htm
-- 2026-06-10 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000064/ibrx-20260609.htm
-- 2026-05-18 **8-K** — items 1.01,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/1326110/000119312526229153/d75270d8k.htm
-- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000059/ibrx-20260331.htm
+- 2026-11-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/744218/000110465926123322/cldx-20260930x10q.htm
+- 2026-11-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000117184326007174/f8k_110526.htm
+- 2026-09-22 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000110465926109465/tm2625892d1_8k.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/744218/000110465926091984/cldx-20260630x10q.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000117184326005316/f8k_080626.htm
+- 2026-07-15 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000110465926083880/tm2620527d1_8k.htm
+- 2026-06-26 **8-K** — items 5.02,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000110465926078023/tm2619009d1_8k.htm
+- 2026-05-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/744218/000110465926057113/cldx-20260331x10q.htm
+- 2026-05-07 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/f8k_050726.htm
+- 2026-04-29 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/744218/000110465926050884/tm261321-3_def14a.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-11-09** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000097/ibrx-2026119x8kexhibit991.htm
-- **2026-11-09** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000091/ibrx-20261198xkexhibit991.htm
-- **2026-10-14** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1326110/000119312526421820/d188887dex991.htm
-- **2026-08-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000077/ibrx-202684x8kexhibit991.htm
-- **2026-07-30** · EX-99.1 · press release — EX-99.1 *(item: Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/1326110/000132611026000071/ibrx-20267308xkexhibit991.htm
+- **2026-11-05** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/744218/000117184326007174/exh_991.htm
+- **2026-09-22** · EX-99.1 · press release — EXHIBIT 99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/744218/000110465926109465/tm2625892d1_ex99-1.htm
+- **2026-08-06** · EX-99.1 · press release — PRESS RELEASE *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/744218/000117184326005316/exh_991.htm
 
 ## News on this company — last 90 days
-*10 items held; showing the 10 most recent. Headlines and summaries only — open the URL for the full story.*
+*9 items held; showing the 9 most recent. Headlines and summaries only — open the URL for the full story.*
 
-- **2026-11-13** · IBRX Stock Eyes Best Year Ever: Founder Teases 12 Months Of ‘Stealth’ NantWorks Reveals — Cancer Tech, AI Chips And Satellites — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/ibrx-stock-founder-12-months-stealth-nant-works-cancer-tech-ai-chips-satellites/cNbbZ1ER9OJ
-  > Tech plans cover optical chips, U.S. chip factories, AI data-center connections and satellite communications.
-- **2026-11-13** · ImmunityBio (IBRX) is Declining For 4 Days Now. What’s Triggering the Selloff? — *Insider Monkey* — https://finance.yahoo.com/healthcare/articles/immunitybio-ibrx-declining-4-days-004803291.html
-  > ImmunityBio Inc. (NASDAQ:IBRX) is one of the 10 Stocks Underperforming the Broader Market. ImmunityBio extended its losing streak to a 4th consecutive day on Thursday, shedding 9 percent to close at $6.07 apiece, mirroring a lackluster perf
-- **2026-11-12** · IBRX Stock Eyes Worst Week In Nearly 2 Years — But Anktiva’s Sepsis Trial Potential Fuels Retail Bets On Big Pharma Appeal — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/ibrx-stock-anktiva-sepsis-trial-potential-retail-big-pharma-appeal/cNGz1gZR990
-  > Founder Patrick Soon-Shiong said sepsis trials would begin soon in the U.S. and Europe.
-- **2026-11-12** · What Could ImmunityBio (IBRX) Gain From ANKTIVA Label Expansion And Global Rollout? — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/could-immunitybio-ibrx-gain-anktiva-021515821.html
-  > ImmunityBio (NasdaqGS:IBRX) reported positive late-stage ANKTIVA data in BCG-naïve non-muscle invasive bladder cancer, showing significant efficacy. The FDA expanded ANKTIVA’s approved indications, widening the group of bladder cancer patie
-- **2026-11-11** · New U.S. Survey of Military Service Members and Veterans with Non-Muscle Invasive Bladder Cancer Reveals 53% Were Diagnosed at Age 50 or Younger and Barriers to Care — *Business Wire* — https://finance.yahoo.com/healthcare/articles/u-survey-military-members-veterans-133000624.html
-  > CULVER CITY, Calif., November 11, 2026--ImmunityBio, Inc. (NASDAQ: IBRX), a commercial-stage immunotherapy company, today announced findings from a national survey of military service members and veterans with non-muscle invasive bladder ca
-- **2026-11-11** · ImmunityBio to Participate in UK Investor Conferences During London Life Sciences Week 2026 — *Business Wire* — https://finance.yahoo.com/healthcare/articles/immunitybio-participate-uk-investor-conferences-023100273.html
-  > CULVER CITY, Calif., November 11, 2026--ImmunityBio, Inc. (NASDAQ: IBRX), a commercial-stage immunotherapy company, today announced members of the senior leadership team will speak at the upcoming Jefferies Global Healthcare Conference and 
-- **2026-11-10** · IBRX Q3 Earnings Miss, Anktiva Sales Decline Q/Q, Stock Down 18% — *Zacks* — https://finance.yahoo.com/healthcare/articles/ibrx-q3-earnings-miss-anktiva-140300738.html
-  > ImmunityBio's revenues jump 53% on Anktiva adoption, but a wider-than-expected loss, sequential sales decline and rising expenses weigh on shares.
-- **2026-11-09** · Why ImmunityBio Stock Dropped 15% After Earnings Despite 53% Sales Growth. Is IBRX Now a Buy? — *Motley Fool* — https://www.fool.com/investing/2026/11/09/why-immunitybio-stock-dropped-15-after-earnings-despite-53-sales-growth-is-ibrx-now-a-buy/
-  > The bladder-cancer drugmaker's sales jumped 53%, and a key trial hit its goal, yet the stock tumbled. The numbers behind the drop tell investors what to watch next.
-- **2026-11-09** · ImmunityBio shares slump 19% as revenue misses and going-concern warning hits sentiment — *Proactive* — https://www.proactiveinvestors.com/companies/news/1101446/immunitybio-shares-slump-19-as-revenue-misses-and-going-concern-warning-hits-sentiment-1101446.html
-  > ImmunityBio Inc (NASDAQ:IBRX) shares fell 19% to US$6.97 after the biotechnology company reported a third-quarter revenue shortfall and a sharply wider net loss. The US biopharmaceutical company generated revenue of US$48.84 million in the 
-- **2026-11-09** · IBRX Stock Crashes To Near 9-Month Lows On Q3 Earnings Miss – Retail Says No Way To Escape Further Dilution — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/ibrx-stock-tanks-on-q3-earnings-miss-anktiva-approval/cNGrXdxR9ez
-  > ImmunityBio reported a first topline miss in six quarters after Q3 revenue came in at $48.8 million, sharply below Wall Street’s estimate of $59.2 million, according to Fiscal.ai.
+- **2026-09-23** · Can Celldex (CLDX) Overcome Its Heavy Burn Rate for Long-Term Success? — *Insider Monkey* — https://finance.yahoo.com/healthcare/articles/celldex-cldx-overcome-heavy-burn-124142562.html
+  > When biopharmaceutical companies advance platform technologies targeting complex immunological pathways, market participants must weigh clinical efficacy against the heavy capital requirements of drug development. Celldex Therapeutics (NASD
+- **2026-09-23** · The Zacks Analyst Blog Highlights Kodiak Sciences, Celldex Therapeutics, Rapport Therapeutics and Vaxcyte — *Zacks* — https://finance.yahoo.com/healthcare/articles/zacks-analyst-blog-highlights-kodiak-123700719.html
+  > Four biotech companies face key fall readouts that could influence the development and commercial prospects of their pipelines.
+- **2026-09-22** · CLDX Stock Slumps 11% – This Analyst Sees Nearly 90% Upside, Calls Phase 3 Trial Safety Concerns ‘Misplaced’ — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/cldx-stock-slumps-analyst-calls-phase-3-trial-safety-concerns-misplaced/cZMPHbZRB72
+  > H.C. Wainwright called the Phase 3 results a “compelling” late-stage assessment of Barzolvolimab in a patient population with a significant unmet need.
+- **2026-09-22** · Celldex Phase III CSU Trials Hit Endpoints as Barzolvolimab Shows Durable Responses — *MarketBeat* — https://www.marketbeat.com/instant-alerts/event-celldex-phase-iii-csu-trials-hit-endpoints-as-barzolvolimab-shows-durable-responses-2026-09-22/?utm_source=yahoofinance&utm_medium=yahoofinance
+  > Celldex Therapeutics (NASDAQ:CLDX) reported positive top-line results from its two Phase III EMBARQ-CSU studies of barzolvolimab in adults with chronic spontaneous urticaria, or CSU, who remained symptomatic despite H1 antihistamine treatme
+- **2026-09-22** · 4 Biotech Stocks With Key Clinical Readouts Expected This Fall — *Zacks* — https://finance.yahoo.com/healthcare/articles/4-biotech-stocks-key-clinical-145100233.html
+  > KOD, CLDX, RAPP and PCVX face key clinical readouts this fall that could influence their drug and vaccine pipelines.
+- **2026-09-22** · Celldex Shares Rise 8% as Barzolvolimab Meets Primary Endpoints in Two Phase 3 Trials — *InvestorsHub* — https://investorshub.advfn.com/market-news/article/36706/celldex-shares-rise-8-as-barzolvolimab-meets-primary-endpoints-in-two-phase-3-trials
+  > Celldex Therapeutics (NASDAQ:CLDX) shares gained 8% on Tuesday after the company reported positive topline results from two Phase 3 trials evaluating barzolvolimab in patients with chronic spontaneous urticaria (CSU). Both EMBARQ-CSU1 and E
+- **2026-09-22** · Celldex Therapeutics' Barzolvolimab Meets Phase 3 Endpoints in Two Urticaria Trials — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/celldex-therapeutics-apos-barzolvolimab-meets-113111118.html
+  > Celldex Therapeutics' (CLDX) two Phase 3 trials of barzolvolimab in patients with chronic spontaneou
+- **2026-09-22** · Celldex Announces Positive Results from Phase 3 EMBARQ-CSU1 and EMBARQ-CSU2 Studies of Barzolvolimab Which Met Primary and All Key Secondary Endpoints — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/celldex-announces-positive-results-phase-105800200.html
+  > Best-in-disease results showed rapid, profound, sustained efficacy, supporting barzolvolimab’s potential to be a transformational therapy in CSUEMBARQ-CSU1 and -CSU2 met primary and all key secondary endpoints at 12 weeks across both studie
+- **2026-09-08** · Celldex to Present at Upcoming Investor Conference — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/celldex-present-upcoming-investor-conference-200100402.html
+  > HAMPTON, N.J., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Celldex (NASDAQ:CLDX) announced today that management will participate in a fireside chat at the upcoming Cantor Global Healthcare Conference on September 10, 2026 at 8:00am ET. The webcast 
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-11-13** · Where These 4 Sector ETFs Stand Heading Into Year-End — *Motley Fool* — https://www.fool.com/investing/2026/11/13/where-these-4-sector-etfs-stand-heading-into-year/
+- **2026-11-13** · Sector Update: Healthcare Stocks Rise Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-pre-141601388.html
 - **2026-11-13** · State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110327637.html
 - **2026-11-12** · State Street Health Care SPDR (XLV) Adds Eli Lilly and Johnson & Johnson on Nov. 10 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110554537.html
 - **2026-11-12** · Our Bristol Myers Squibb Stock Pick Is Up 35%. It’s Still a Good Bet in Healthcare. — *Barrons.com* — https://www.barrons.com/articles/bristol-myers-squibb-stock-pick-2a352b18?siteid=yhoof2&yptr=yahoo
@@ -113,22 +110,20 @@ Attack these before you trust any number above.
 - **2026-11-11** · State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-health-care-spdr-110402787.html
 - **2026-11-10** · Hims & Hers Celebrated Its Eli Lilly Deal, Then Lost a Quarter of Its Value in a Week — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/11/10/hims-hers-celebrated-its-eli-lilly-deal-then-lost-a-quarter-of-its-value-in-a-week/
 - **2026-11-10** · The FDA Ordered GLP-1 Vision-Loss Warnings For Some Products. Shares of Eli Lilly and Novo Nordisk Were Unfazed. — *International Business Times* — https://www.ibtimes.com/fda-eye-risk-warnings-glp-1-drug-shares-rebound-3809592
-- **2026-11-10** · What Are Wall Street Analysts' Target Price for Abbott Stock? — *Barchart* — https://www.barchart.com/story/news/8750613/what-are-wall-street-analysts-target-price-for-abbott-stock
-- **2026-11-09** · Defensive healthcare ETFs: broad funds, income options, and key caveats — *Investing.com* — https://finance.yahoo.com/healthcare/articles/defensive-healthcare-etfs-broad-funds-212517207.html
 
 ## Market and macro context
-- **2026-11-13** · What iShares Russell 2000 Index Fund (IWM) Bought: LifeStance Leads on Nov. 11 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-index-fund-110412446.html
-- **2026-11-13** · Stock market today: Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens — *Yahoo Finance* — https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-110151154.html
-- **2026-11-13** · Futures Edge Lower As NVDA Fallout Unsettles Tech Stocks — SLS, AMAT, CSCO, CADL Stocks In Focus — *Stocktwits* — https://stocktwits.com/news-articles/markets/equity/futures-edge-lower-as-nvda-fallout-unsettles-tech-stocks-sls-amat-csco-cadl-stocks-in-focus/cNbRGG3R9fP
-- **2026-11-13** · 3 Dividend Stocks Built for a Market Priced Like It's 1999 — *Motley Fool* — https://www.fool.com/investing/2026/11/13/3-dividend-stocks-built-for-a-market-priced-like-i/
+- **2026-11-13** · Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5% — *Motley Fool* — https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-midday-nov-13-nasdaq-plunges-as-nvidia-turmoil-deepens-and-treasury-yields-hit-5/
+- **2026-11-13** · Josh Brown: Nvidia Has No “Jensen Premium” to Lose. It’s Been Cheap for 3 Years — *TIKR* — https://www.tikr.com/blog/josh-brown-nvidia-has-no-jensen-premium-to-lose-its-been-cheap-for-3-years?ref=yahoofinance&tlnk=yf-261113-mm96c4vr
+- **2026-11-13** · Stock Market Today: Nasdaq Sinks As Nvidia Drops; Finance Stock Jumps (Live Coverage) — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-cerebras-earnings/?src=A00220&yptr=yahoo
+- **2026-11-13** · Update: Sliding Chipmakers Push US Equity Indexes Lower While Producer Prices Growth Below Forecast — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sliding-chipmakers-push-us-equity-172710666.html
 
 *Rules, releases and agency actions:*
+- **2026-11-13** · SEC Proposes Executive and Director Compensation Disclosure Reforms — *sec* — https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms
 - **2026-11-13** · Airworthiness Directives; The Boeing Company Airplanes — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23198/airworthiness-directives-the-boeing-company-airplanes
 - **2026-11-13** · Publication of Iran-Related Web General Licenses EE and FF — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23197/publication-of-iran-related-web-general-licenses-ee-and-ff
 - **2026-11-13** · Publication of Russian Harmful Foreign Activities Sanctions Regulations Web General Licenses 55F and 115D — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23196/publication-of-russian-harmful-foreign-activities-sanctions-regulations-web-general-licenses-55f-and
 - **2026-11-13** · Publication of a Cuba Sanctions Regulations Web General License — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23195/publication-of-a-cuba-sanctions-regulations-web-general-license
 - **2026-11-13** · Amendment of Class C Airspace; Laughlin Air Force Base, Del Rio, TX — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23194/amendment-of-class-c-airspace-laughlin-air-force-base-del-rio-tx
-- **2026-11-13** · Publication of Iran-Related Web General License W — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/13/2026-23193/publication-of-iran-related-web-general-license-w
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

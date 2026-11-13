@@ -1,5 +1,41 @@
 [
  {
+  "id": "7631435e-bae7-398f-999a-eb6eaef6ca43",
+  "ts": "2026-11-13T15:00:00+00:00",
+  "title": "Space Stocks Are Complex. York Sinks, AST and AT&T Make Historic Satellite Call.",
+  "summary": "York Space Systems stock sank after weaker-than-expected earnings.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/space-stocks-ast-att-satellite-call-york-earnings-9caca032?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "YSS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "75eab0a3-f3af-3688-b2f4-320a432e74cb",
+  "ts": "2026-11-13T14:48:21+00:00",
+  "title": "York Space (YSS) Q3 2026 Earnings Call Transcript",
+  "summary": "Impairment and shifting contract timing defined a mixed quarter.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/york-space-yss-q3-2026-earnings-call-transcript/",
+  "tickers": [
+   "YSS"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "439c5a76-e2d5-3710-a396-49cdfdd33950",
+  "ts": "2026-11-13T13:14:51+00:00",
+  "title": "York Space Systems Q3 Earnings Call Highlights",
+  "summary": "York Space Systems (NYSE:YSS) reported a 7% decline in third-quarter revenue and recorded a $749.7 million non-cash goodwill impairment as the satellite manufacturer navigates uncertainty over the timing of government contract awards. Revenue fell to $84.2 million from $90.8 million a year earlier,",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/instant-alerts/transcript-york-space-systems-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "YSS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "44038acb-f11e-371e-96fa-c73be8a91eba",
   "ts": "2026-11-12T22:02:49+00:00",
   "title": "York Space: Q3 Earnings Snapshot",

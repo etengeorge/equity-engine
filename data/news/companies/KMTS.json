@@ -142,17 +142,5 @@
    "KMTS"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2c9e81a7-95b2-3285-b0e9-45880b43ef5d",
-  "ts": "2026-07-15T12:30:00+00:00",
-  "title": "KESTRA MEDICAL TECHNOLOGIES, LTD. Q4 2026 Earnings Call Summary",
-  "summary": "Moby summary of KESTRA MEDICAL TECHNOLOGIES, LTD.'s Q4 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kestra-medical-technologies-ltd-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "KMTS"
-  ],
-  "source": "yfinance"
  }
 ]

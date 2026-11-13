@@ -1,5 +1,17 @@
 [
  {
+  "id": "d6fa2b1c-352e-380c-91aa-6d1636a3df58",
+  "ts": "2026-11-13T15:06:08+00:00",
+  "title": "Stock Market Rebounds Even As Nvidia CEO Jensen Huang Resigns, Treasury Yields Jump: Weekly Review",
+  "summary": "The stock market rebounded bullishly this week, especially techs, even as Nvidia CEO Jensen Huang resigned over affairs and Treasury yields surged.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/news/stock-market-rebounds-nvidia-ceo-jensen-huang-resigns-treasury-yields-jump/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "TGTX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "6e4dc534-0baa-3fab-9492-74679dc2b7b5",
   "ts": "2026-11-11T06:36:00+00:00",
   "title": "The Zacks Analyst Blog Highlights TG Therapeutics, BioCryst, Insmed and Madrigal",

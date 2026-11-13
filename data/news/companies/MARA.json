@@ -1,5 +1,29 @@
 [
  {
+  "id": "32ba78f7-f5fd-3910-b0cc-d2c4bfa243fe",
+  "ts": "2026-11-13T16:32:23+00:00",
+  "title": "Bitcoin Miners Lead Wall Street's Crypto Sell-Off: Why Are They Falling Hardest?",
+  "summary": "Bitcoin hit a three-month low near $68,000. Hut 8, Riot and MARA fell hardest as hot US inflation fuels Fed rate hike bets.",
+  "publisher": "BeInCrypto",
+  "url": "https://beincrypto.com/bitcoin-miners-lead-wall-street-crypto-sell-off/",
+  "tickers": [
+   "MARA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1bca536f-13f3-380a-9b82-c91aacbdde9e",
+  "ts": "2026-11-13T14:58:00+00:00",
+  "title": "JPMorgan Chase Increases Crypto Exposure",
+  "summary": "JPMorgan Chase (NYSE: $JPM), the largest U.S. commercial bank, has increased its exposure to cryptocurrencies.",
+  "publisher": "CryptoProwl",
+  "url": "https://www.cryptoprowl.com/releases/jpmorgan-chase-increases-crypto-exposure-7896",
+  "tickers": [
+   "MARA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "4159463c-db38-3d21-abe6-cdf7d9c6a41e",
   "ts": "2026-11-12T13:54:53+00:00",
   "title": "Strategy Drops 6% as MSCI Confirms Index Removal; MARA and Riot Fall 5%",

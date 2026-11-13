@@ -1,5 +1,17 @@
 [
  {
+  "id": "27e3c2a1-d876-378d-a4c3-208f163687be",
+  "ts": "2026-11-13T13:12:02+00:00",
+  "title": "RUM Group (RUM) Turns To New GPU Monitoring For Its AI Infrastructure",
+  "summary": "Quake AI, a division of RUM Group (NasdaqGM:RUM), plans to deploy NVIDIA Minerva to manage its GPU monitoring platform. The rollout targets RUM Group's AI infrastructure, aiming to improve visibility into GPU workloads and system reliability across its stack. Quake AI expects Minerva to support earlier fault detection across its hardware fleet relative to existing in house monitoring tools. The NVIDIA Minerva deployment at Quake AI is only one part of the broader RUM Group story that...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/rum-group-rum-turns-gpu-131202486.html",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8ba86715-cdc7-3c55-9b6b-9d09dabe5c59",
   "ts": "2026-11-12T13:04:40+00:00",
   "title": "RUM Group Inc (RUM) Q3 2026 Earnings Call Highlights: Record $96. ...",

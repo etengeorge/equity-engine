@@ -1,5 +1,17 @@
 [
  {
+  "id": "a31de1ff-9baf-3951-9c02-0800d698fe88",
+  "ts": "2026-11-13T12:12:51+00:00",
+  "title": "Why Did Rocket Stock Fall?",
+  "summary": "For questions about this article or underlying research, email help@trefis.com.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/rkt/articles/624918/why-did-rocket-stock-fall/2026-11-13",
+  "tickers": [
+   "LDI"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a6a9e4e2-552e-383b-9e82-87b3e353a2fd",
   "ts": "2026-11-10T16:29:00+00:00",
   "title": "loanDepot and Davidson Homes Announce\u00a0Davidson Mortgage Joint Venture",
@@ -234,18 +246,6 @@
   "summary": "IRVINE, Calif., July 21, 2026--loanDepot, Inc. to Report Second Quarter 2026 Financial Results on August 4, 2026",
   "publisher": "Business Wire",
   "url": "https://finance.yahoo.com/real-estate/articles/loandepot-inc-report-second-quarter-201000926.html",
-  "tickers": [
-   "LDI"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "26a791e6-7b31-340c-97c6-651215c5fdc5",
-  "ts": "2026-07-15T12:00:00+00:00",
-  "title": "Randian Capital publishes Open Letter to loanDepot, Inc. Board, calling for them to consider evaluating strategic alternatives",
-  "summary": "NEW YORK, July 15, 2026 (GLOBE NEWSWIRE) -- Randian Capital, a retail activist investment firm, and a shareholder of loanDepot, Inc. publishes an Open Letter to the Board, calling for them to consider evaluating strategic alternatives for the company. We are today calling for loanDepot\u2019s Board to consider pursuing strategic alternatives for the company to maximize shareholder value. Including common stock and options, Randian and its affiliates currently have economic exposure to over 250,000 sh",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/randian-capital-publishes-open-letter-120000637.html",
   "tickers": [
    "LDI"
   ],

@@ -1,5 +1,17 @@
 [
  {
+  "id": "6b542b66-ffdb-3b8c-be99-d687bd411ff5",
+  "ts": "2026-11-13T13:00:15+00:00",
+  "title": "Looking For Stocks To Buy In The IBD 50? You May Be Disappointed.",
+  "summary": "The IBD 50 is short on stocks that are actionable. On Thursday, only one remained in buy range from a base breakout.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/stock-lists/ibd-50/ibd-50-stocks-to-buy/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "SEZL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2a2b6776-9896-3eb3-bb79-b910cc2c28a7",
   "ts": "2026-11-12T13:40:04+00:00",
   "title": "Is Ralliant Corporation (RAL) Stock Outpacing Its Business Services Peers This Year?",

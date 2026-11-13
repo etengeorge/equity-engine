@@ -14,6 +14,20 @@
   "via": "XLC"
  },
  {
+  "id": "4613decc-14ba-3b04-a441-a215d310be60",
+  "ts": "2026-11-13T11:02:37+00:00",
+  "title": "Is Wall Street Bullish or Bearish on News Corporation Stock?",
+  "summary": "News Corporation has underperformed the broader market over the past year, but analysts are highly optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8817793/is-wall-street-bullish-or-bearish-on-news-corporation-stock",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "dcae6b21-1559-3307-a25f-794d04cf20e2",
   "ts": "2026-11-12T11:04:45+00:00",
   "title": "What State Street Comm Services SPDR (XLC) Bought: No Buys, META Sold on Tuesday",

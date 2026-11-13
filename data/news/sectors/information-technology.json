@@ -1,5 +1,47 @@
 [
  {
+  "id": "d8d59983-cde8-3476-8997-e9e2776d23a5",
+  "ts": "2026-11-13T17:18:01+00:00",
+  "title": "Intel attracts $79 million in ETF buying despite warning",
+  "summary": "Semiconductor ETFs lead institutional buying, although Intel's valuation remains well above its estimated GF Value.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/intel-attracts-79-million-etf-171801765.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "115f5e11-e54a-3819-bd1e-d60002a38cf5",
+  "ts": "2026-11-13T16:03:00+00:00",
+  "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
+  "summary": "With earnings season winding down and the AI-driven volatility finally abating, it's time to start making some assessments that will guide your decisions into and through the year ahead.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/13/where-these-4-sector-etfs-stand-heading-into-year/",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "e0a1d876-4425-33ff-8970-7f1f6cef7c5d",
+  "ts": "2026-11-13T14:56:12+00:00",
+  "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
+  "summary": "This week the headlines were loud: a chip giant's CEO, an IPO, a hot inflation print. Before the weekend, with coffee and your brokerage statement, a quieter question is worth five minutes. Suppose you had put $1 million into SCHD, the Schwab dividend fund, in November 2021 and reinvested every dividend.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/schd/articles/624814/1-million-in-schd-five-years-ago-what-is-it-worth-now/2026-11-13",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "ec0b3e99-5aa1-3236-9c1b-95979b3d6df4",
   "ts": "2026-11-13T11:03:17+00:00",
   "title": "State Street Tech Select SPDR (XLK) Buys $119.9 Million More Apple on Nov. 11",

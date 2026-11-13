@@ -1,5 +1,41 @@
 [
  {
+  "id": "1358dd30-f7fc-338e-a949-c5eba11cad10",
+  "ts": "2026-11-13T17:14:12+00:00",
+  "title": "Vir Biotechnology Shares Drop as Biotech Firm Moves Ahead With Stock Sale",
+  "summary": "Vir Biotechnology Stock Falls After Pricing 15 Million Shares at $10 Each",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/healthcare/articles/vir-biotechnology-shares-drop-biotech-171412800.html",
+  "tickers": [
+   "VIR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "da4faf0e-64ac-3823-aa51-30edc8c458f5",
+  "ts": "2026-11-13T14:57:43+00:00",
+  "title": "Vir Biotechnology stock tumbles on $150M share offering",
+  "summary": "Investing.com -- Vir Biotechnology Inc (NASDAQ:VIR) shares fell 15% in premarket trade Friday following the company's announcement of a $150 million public stock offering priced at $10 per share.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/vir-biotechnology-stock-tumbles-150m-145743749.html",
+  "tickers": [
+   "VIR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "aec7dfdf-2be2-37e9-8ca1-a2a9fce021ec",
+  "ts": "2026-11-13T14:16:01+00:00",
+  "title": "Sector Update: Healthcare Stocks Rise Pre-Bell Friday",
+  "summary": "Healthcare stocks were rising pre-bell Friday, with the State Street Health Care Select Sector SPDR",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-pre-141601388.html",
+  "tickers": [
+   "VIR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "b21e7f32-d650-3c9a-be19-f37cef1f3faa",
   "ts": "2026-11-13T00:38:00+00:00",
   "title": "Vir Biotechnology Announces Pricing of Public Offering of Common Stock",

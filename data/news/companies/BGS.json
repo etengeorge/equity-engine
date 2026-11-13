@@ -24,6 +24,18 @@
   "source": "yfinance"
  },
  {
+  "id": "2fbd512a-0ff8-3854-a8fd-2f76ea17040f",
+  "ts": "2026-11-11T13:30:00+00:00",
+  "title": "B&G Foods, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of B&G Foods, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-bg-foods-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "BGS"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "e6d8eeee-359c-3120-ba74-3bcdb9f4632b",
   "ts": "2026-11-11T11:06:11+00:00",
   "title": "B&G Foods Inc (BGS) Q3 2026 Earnings Call Highlights: Volume-Driven Sales Growth and Raised ...",
