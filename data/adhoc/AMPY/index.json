@@ -1,0 +1,124 @@
+{
+  "fetched_utc": "2026-11-13T11:27:47+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "AMPY",
+    "cik": 1533924,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926124496/ampy-20260930x10q.htm",
+        "file": "2026-11-09-10-Q-ampy-20260930x10q.htm.txt",
+        "chars": 186421,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-09",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926124492/ampy-20261109x8k.htm",
+        "file": "2026-11-09-8-K-ampy-20261109x8k.htm.txt",
+        "chars": 9387,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926093408/ampy-20260630x10q.htm",
+        "file": "2026-08-10-10-Q-ampy-20260630x10q.htm.txt",
+        "chars": 180615,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "2.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926093400/ampy-20260810x8k.htm",
+        "file": "2026-08-10-8-K-ampy-20260810x8k.htm.txt",
+        "chars": 11005,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-03",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926070091/tm2616835d1_8k.htm",
+        "file": "2026-06-03-8-K-tm2616835d1_8k.htm.txt",
+        "chars": 6142,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926058661/ampy-20260331x10q.htm",
+        "file": "2026-05-11-10-Q-ampy-20260331x10q.htm.txt",
+        "chars": 160995,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-11",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926058653/ampy-20260511x8k.htm",
+        "file": "2026-05-11-8-K-ampy-20260511x8k.htm.txt",
+        "chars": 9229,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926025299/ampy-20251231x10k.htm",
+        "file": "2026-03-09-10-K-ampy-20251231x10k.htm.txt",
+        "chars": 400150,
+        "truncated": true
+      },
+      {
+        "filed": "2026-11-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926124492/ampy-ex99d1.htm",
+        "file": "2026-11-09-EX-99.1.txt",
+        "chars": 45421,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "2.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926093400/ampy-20260810xex99d1.htm",
+        "file": "2026-08-10-EX-99.1.txt",
+        "chars": 49145,
+        "truncated": false
+      }
+    ]
+  }
+}
