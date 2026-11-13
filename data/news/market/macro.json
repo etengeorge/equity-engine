@@ -1,5 +1,415 @@
 [
  {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23198/airworthiness-directives-the-boeing-company-airplanes",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Airworthiness Directives; The Boeing Company Airplanes",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23198/airworthiness-directives-the-boeing-company-airplanes",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23197/publication-of-iran-related-web-general-licenses-ee-and-ff",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Publication of Iran-Related Web General Licenses EE and FF",
+  "summary": "Treasury Department, Foreign Assets Control Office",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23197/publication-of-iran-related-web-general-licenses-ee-and-ff",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23196/publication-of-russian-harmful-foreign-activities-sanctions-regulations-web-general-licenses-55f-and",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Publication of Russian Harmful Foreign Activities Sanctions Regulations Web General Licenses 55F and 115D",
+  "summary": "Treasury Department, Foreign Assets Control Office",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23196/publication-of-russian-harmful-foreign-activities-sanctions-regulations-web-general-licenses-55f-and",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23195/publication-of-a-cuba-sanctions-regulations-web-general-license",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Publication of a Cuba Sanctions Regulations Web General License",
+  "summary": "Treasury Department, Foreign Assets Control Office",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23195/publication-of-a-cuba-sanctions-regulations-web-general-license",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23194/amendment-of-class-c-airspace-laughlin-air-force-base-del-rio-tx",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Amendment of Class C Airspace; Laughlin Air Force Base, Del Rio, TX",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23194/amendment-of-class-c-airspace-laughlin-air-force-base-del-rio-tx",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23193/publication-of-iran-related-web-general-license-w",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Publication of Iran-Related Web General License W",
+  "summary": "Treasury Department, Foreign Assets Control Office",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23193/publication-of-iran-related-web-general-license-w",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23168/update-to-statutory-citations-and-internet-address-in-bid-protest-regulations",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Update to Statutory Citations and Internet Address in Bid Protest Regulations",
+  "summary": "Government Accountability Office",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23168/update-to-statutory-citations-and-internet-address-in-bid-protest-regulations",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23148/safety-zone-massachusetts-bay-boston-ma",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Safety Zone; Massachusetts Bay, Boston, MA",
+  "summary": "Homeland Security Department, Coast Guard",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23148/safety-zone-massachusetts-bay-boston-ma",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23145/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-revisions-to-the-requirements-for",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Oil and Gas and Sulfur Operations in the Outer Continental Shelf-Revisions to the Requirements for Exploratory Drilling on the Arctic Outer Continental Shelf; Reopening of Comment Period",
+  "summary": "Interior Department, Safety and Environmental Enforcement Bureau, Ocean Energy Management Bureau",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23145/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-revisions-to-the-requirements-for",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23134/airworthiness-directives-the-boeing-company-airplanes",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Airworthiness Directives; The Boeing Company Airplanes",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23134/airworthiness-directives-the-boeing-company-airplanes",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23124/air-plan-approval-oregon-department-of-environmental-quality-emission-standards-and-controls-for",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Air Plan Approval; Oregon Department of Environmental Quality; Emission Standards and Controls for Sources Emitting Gasoline Vapors",
+  "summary": "Environmental Protection Agency",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23124/air-plan-approval-oregon-department-of-environmental-quality-emission-standards-and-controls-for",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23123/common-crop-insurance-regulations-apple-crop-insurance-provisions-withdrawal",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Common Crop Insurance Regulations; Apple Crop Insurance Provisions; Withdrawal",
+  "summary": "Agriculture Department, Federal Crop Insurance Corporation",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23123/common-crop-insurance-regulations-apple-crop-insurance-provisions-withdrawal",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23121/air-plan-approval-utah-update-to-materials-incorporated-by-reference",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Air Plan Approval; Utah; Update to Materials Incorporated by Reference",
+  "summary": "Environmental Protection Agency",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23121/air-plan-approval-utah-update-to-materials-incorporated-by-reference",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23120/ethephon-pesticide-tolerances",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Ethephon; Pesticide Tolerances",
+  "summary": "Environmental Protection Agency",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23120/ethephon-pesticide-tolerances",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23118/airworthiness-directives-pratt-and-whitney-canada-corp-engines",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Airworthiness Directives; Pratt & Whitney Canada Corp. Engines",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23118/airworthiness-directives-pratt-and-whitney-canada-corp-engines",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23116/airworthiness-directives-general-electric-company-engines",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Airworthiness Directives; General Electric Company Engines",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23116/airworthiness-directives-general-electric-company-engines",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23115/isocycloseram-pesticide-tolerance-for-emergency-exemption",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Isocycloseram; Pesticide Tolerance for Emergency Exemption",
+  "summary": "Environmental Protection Agency",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23115/isocycloseram-pesticide-tolerance-for-emergency-exemption",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23112/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages; Confirmation of Effective Date",
+  "summary": "Health and Human Services Department, Food and Drug Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23112/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23109/amendment-of-class-c-airspace-president-donald-j-trump-international-airport-fl",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Amendment of Class C Airspace; President Donald J. Trump International Airport, FL",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23109/amendment-of-class-c-airspace-president-donald-j-trump-international-airport-fl",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/13/2026-23086/horse-protection",
+  "ts": "2026-11-13T00:00:00+00:00",
+  "title": "Horse Protection",
+  "summary": "Agriculture Department, Animal and Plant Health Inspection Service",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23086/horse-protection",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/C1-2026-21030/ap1000-design-certification-renewal",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "AP1000 Design Certification Renewal",
+  "summary": "Nuclear Regulatory Commission",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/C1-2026-21030/ap1000-design-certification-renewal",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23075/schedules-of-controlled-substances-placement-of-oveporexton-in-schedule-iv",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Schedules of Controlled Substances: Placement of Oveporexton in Schedule IV",
+  "summary": "Justice Department, Drug Enforcement Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23075/schedules-of-controlled-substances-placement-of-oveporexton-in-schedule-iv",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23074/airworthiness-directives-dassault-aviation-airplanes",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Airworthiness Directives; Dassault Aviation Airplanes",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23074/airworthiness-directives-dassault-aviation-airplanes",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23073/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23073/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23072/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23072/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23068/airworthiness-directives-diamond-aircraft-industries-gmbh-airplanes",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Airworthiness Directives; Diamond Aircraft Industries GmbH Airplanes",
+  "summary": "Transportation Department, Federal Aviation Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23068/airworthiness-directives-diamond-aircraft-industries-gmbh-airplanes",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23064/authorization-to-manufacture-and-distribute-postage-evidencing-systems",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Authorization To Manufacture and Distribute Postage Evidencing Systems",
+  "summary": "Postal Service",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23064/authorization-to-manufacture-and-distribute-postage-evidencing-systems",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23060/federal-reserve-bank-capital-stock",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Federal Reserve Bank Capital Stock",
+  "summary": "Federal Reserve System",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23060/federal-reserve-bank-capital-stock",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23053/mining-of-pillars",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Mining of Pillars",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23053/mining-of-pillars",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23052/electrical-equipment-for-coal-seams-above-the-water-table",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Electrical Equipment for Coal Seams Above the Water Table",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23052/electrical-equipment-for-coal-seams-above-the-water-table",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23051/improving-and-eliminating-regulations-installation-of-foam-generator-systems-in-underground-coal",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Improving and Eliminating Regulations; Installation of Foam Generator Systems in Underground Coal Mines",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23051/improving-and-eliminating-regulations-installation-of-foam-generator-systems-in-underground-coal",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23050/improving-and-eliminating-regulations-limit-on-exposure-to-diesel-particulate-matter-in-underground",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Improving and Eliminating Regulations; Limit on Exposure to Diesel Particulate Matter in Underground Metal and Nonmetal Mines",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23050/improving-and-eliminating-regulations-limit-on-exposure-to-diesel-particulate-matter-in-underground",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23049/improving-and-eliminating-regulations-permissible-lamps-in-underground-coal-mines",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Improving and Eliminating Regulations; Permissible Lamps in Underground Coal Mines",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23049/improving-and-eliminating-regulations-permissible-lamps-in-underground-coal-mines",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23048/respirable-crystalline-silica-and-respiratory-protection",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Respirable Crystalline Silica and Respiratory Protection",
+  "summary": "Labor Department, Mine Safety and Health Administration",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23048/respirable-crystalline-silica-and-respiratory-protection",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23047/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Special Local Regulation; Southern California Annual Marine Events for the San Diego Captain of the Port Zone, San Diego Fleet Week Veterans Day Boat Parade, San Diego Bay, San Diego, CA",
+  "summary": "Homeland Security Department, Coast Guard",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23047/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23041/television-broadcasting-services-st-george-utah",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Television Broadcasting Services, St. George, Utah",
+  "summary": "Federal Communications Commission",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23041/television-broadcasting-services-st-george-utah",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "National Television Multiple Ownership Rule",
+  "summary": "Federal Communications Commission",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23033/rangeland-management",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Rangeland Management",
+  "summary": "Agriculture Department, Forest Service",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23033/rangeland-management",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23032/federal-scholarship-tax-credit-hearing",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Federal Scholarship Tax Credit; Hearing",
+  "summary": "Treasury Department, Internal Revenue Service",
+  "publisher": "Federal Register (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23032/federal-scholarship-tax-credit-hearing",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "https://www.federalregister.gov/documents/2026/11/12/2026-23027/safety-zone-sector-mobile-captain-of-the-port-zone-mobile-al",
+  "ts": "2026-11-12T00:00:00+00:00",
+  "title": "Safety Zone; Sector Mobile Captain of the Port Zone, Mobile, AL",
+  "summary": "Homeland Security Department, Coast Guard",
+  "publisher": "Federal Register (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23027/safety-zone-sector-mobile-captain-of-the-port-zone-mobile-al",
+  "tickers": [],
+  "source": "federal_register"
+ },
+ {
+  "id": "6342608c-3f9c-42b6-9641-743d75955586",
+  "ts": "2026-11-10T16:15:35+00:00",
+  "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+  "summary": "The Securities and Exchange Commission today provided its enforcement results for the past fiscal year which ended September 30. Throughout the fiscal year, the SEC\u2019s Division of Enforcement remained focused on its fundamental responsibility: protecting\u2026",
+  "publisher": "sec",
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+  "tickers": [],
+  "source": "rss:sec"
+ },
+ {
   "id": "https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and",
   "ts": "2026-11-06T00:00:00+00:00",
   "title": "Amendments to the \u201cSmall Business\u201d and \u201cSmall Organization\u201d Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act",
@@ -5990,26 +6400,6 @@
   "source": "rss:sec"
  },
  {
-  "id": "c7c7a4d6-a90a-42e7-b0f3-4854c15efe00",
-  "ts": "2026-07-10T16:00:32+00:00",
-  "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
-  "summary": "The Securities and Exchange Commission\u2019s Office of Municipal Securities today announced it has updated its Registration of Municipal Advisors FAQs webpage to offer more clarity on municipal advisor registration and recordkeeping requirements.&nbsp;The\u2026",
-  "publisher": "sec",
-  "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
-  "tickers": [],
-  "source": "rss:sec"
- },
- {
-  "id": "9e170181-d0ad-4ef0-b393-72cba97dd35e",
-  "ts": "2026-07-08T17:54:26+00:00",
-  "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
-  "summary": "The Securities and Exchange Commission\u2019s&nbsp;Office of the Advocate for Small Business Capital Formation&nbsp;and the&nbsp;Division of Corporation Finance&nbsp;will co-host a livestreamed discussion on Monday, July 13, 2026, at 2 p.m.&nbsp;to re-examine\u2026",
-  "publisher": "sec",
-  "url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
-  "tickers": [],
-  "source": "rss:sec"
- },
- {
   "id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
   "ts": null,
   "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
@@ -6456,6 +6846,46 @@
   "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
   "publisher": "federal_reserve",
   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+  "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+  "ts": null,
+  "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+  "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+  "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+  "tickers": [],
+  "source": "rss:federal_reserve"
+ },
+ {
+  "id": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+  "ts": null,
+  "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+  "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+  "publisher": "federal_reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
   "tickers": [],
   "source": "rss:federal_reserve"
  }

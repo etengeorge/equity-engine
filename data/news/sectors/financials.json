@@ -1,5 +1,173 @@
 [
  {
+  "id": "2cd542d5-d7c8-329b-b59b-482f8e86e950",
+  "ts": "2026-11-13T11:03:45+00:00",
+  "title": "State Street Fin Sel Sector SPDR (XLF) Buys $49.1 Million More BRK.B on Wednesday",
+  "summary": "The fund added $369.2 million across all 76 of its positions, led by a $49.1 million increase in Berkshire Hathaway Class B.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-sel-sector-110345040.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "caede216-99d0-39f4-bae3-e9d13a33d43e",
+  "ts": "2026-11-12T21:03:02+00:00",
+  "title": "Sector Update: Financial Stocks Softer Late Afternoon",
+  "summary": "Financial stocks declined in late Thursday afternoon trading, with the NYSE Financial Index decreasi",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-210302142.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "a1c65555-5786-3520-a81a-5ed1c7482582",
+  "ts": "2026-11-12T18:38:38+00:00",
+  "title": "Sector Update: Financial Stocks Softer Thursday Afternoon",
+  "summary": "Financial stocks declined in Thursday afternoon trading with the NYSE Financial Index and the State",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-thursday-183838010.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "7d29b9cb-c024-30bb-a9ab-b2dd8088ab8d",
+  "ts": "2026-11-12T18:20:08+00:00",
+  "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM fell and IVV rose. Actively trad",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-182008157.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "bc043816-3a82-33aa-ae04-5da192b8999b",
+  "ts": "2026-11-12T14:21:45+00:00",
+  "title": "Sector Update: Financial Stocks Advance Premarket Thursday",
+  "summary": "Financial stocks were advancing premarket Thursday, with the State Street Financial Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-premarket-142145099.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "69c0168c-9eaa-3db9-912a-f4209691d776",
+  "ts": "2026-11-12T12:35:25+00:00",
+  "title": "Do Wall Street Analysts Like Aflac Stock?",
+  "summary": "Although Aflac has outperformed the broader market over the past year, Wall Street analysts remain cautious about the stock\u2019s future prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8798346/do-wall-street-analysts-like-aflac-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "ea769d8f-eb16-38be-8373-5a0337fa65da",
+  "ts": "2026-11-12T12:29:38+00:00",
+  "title": "Nasdaq Stock: Analyst Estimates & Ratings",
+  "summary": "Nasdaq has surpassed the broader market over the past year, yet analysts remain highly bullish about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8798045/nasdaq-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "98b14a70-1da2-32b0-aff6-49e5c434a59b",
+  "ts": "2026-11-12T11:05:46+00:00",
+  "title": "Financial Select Sector SPDR (XLF) Sells $18.9 Million of Berkshire on Nov. 10",
+  "summary": "The fund sold $142.7 million of stock and bought nothing, trimming all 76 of its positions.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/financial-select-sector-spdr-xlf-110546923.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b72eb0ad-a687-3497-8097-4b747fdb4867",
+  "ts": "2026-11-12T09:26:21+00:00",
+  "title": "Are Wall Street Analysts Bullish on Global Payments Stock?",
+  "summary": "While Global Payments has outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8795153/are-wall-street-analysts-bullish-on-global-payments-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "db2652ae-2f27-360e-bdf6-a7176ab07789",
+  "ts": "2026-11-12T07:39:29+00:00",
+  "title": "What Are Wall Street Analysts' Target Price for American Express Stock?",
+  "summary": "Although American Express has underperformed the broader market over the past 52 weeks, Wall Street analysts remain moderately optimistic about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8793973/what-are-wall-street-analysts-target-price-for-american-express-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b03b2402-579c-3f62-9ba4-c256dffc1b28",
+  "ts": "2026-11-11T20:46:12+00:00",
+  "title": "Sector Update: Financial Stocks Rise Late Afternoon",
+  "summary": "Financial stocks were higher in late Wednesday afternoon trading, with the NYSE Financial Index incr",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-204612688.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "2ff52157-343b-35e2-9f06-5ee2718ee867",
+  "ts": "2026-11-11T18:48:08+00:00",
+  "title": "Sector Update: Financial Stocks Advance Wednesday Afternoon",
+  "summary": "Financial stocks were higher in Wednesday afternoon trading, with the NYSE Financial Index increasin",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-wednesday-184808367.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "cc6106ae-a78d-34ea-8b09-4e8aefb6e30f",
   "ts": "2026-11-06T11:04:56+00:00",
   "title": "Financial Select Sector SPDR (XLF) Buys $70.9 Million More Berkshire on Nov. 4",

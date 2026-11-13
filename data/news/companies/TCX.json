@@ -166,17 +166,5 @@
    "TCX"
   ],
   "source": "yfinance"
- },
- {
-  "id": "48e5ca48-9ec2-3a16-97f1-17b38000dd8d",
-  "ts": "2026-07-14T12:52:21+00:00",
-  "title": "The Standoff Over GDDY Stock",
-  "summary": "A quiet but intense standoff is underway between a company buying its own shares and a market that keeps selling them.",
-  "publisher": "Trefis",
-  "url": "https://www.trefis.com/articles/607087/the-standoff-over-gddy-stock/2026-07-14",
-  "tickers": [
-   "TCX"
-  ],
-  "source": "yfinance"
  }
 ]

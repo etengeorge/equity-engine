@@ -1,5 +1,77 @@
 [
  {
+  "id": "6d5fbc59-bd52-37fa-8da9-8ff4185bae06",
+  "ts": "2026-11-12T14:44:01+00:00",
+  "title": "Nvidia downgraded, AMD upgraded: Wall Street's top analyst calls",
+  "summary": "Nvidia downgraded, AMD upgraded: Wall Street's top analyst calls",
+  "publisher": "The Fly",
+  "url": "https://finance.yahoo.com/news/amd-under-armour-downgraded-wall-133533194.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6e0b384f-1813-3136-bc1c-4b5774cbde34",
+  "ts": "2026-11-12T11:00:00+00:00",
+  "title": "Norwest Announces $4 Billion Global, Multi-Stage Fund",
+  "summary": "MENLO PARK, Calif., November 12, 2026--Norwest, a global, multi-stage investment firm, today announced the close of Norwest 18, a $4 billion fund and the largest in the firm's 65-year history, bringing its total capital under management to $18 billion. The fund will support venture and growth equity investments across technology, healthcare, and consumer sectors in the U.S., India, and Israel, building on Norwest's track record of backing category-leading companies including Babylist, Gong, Mono",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/articles/norwest-announces-4-billion-global-110000948.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "53944df8-7f76-3df9-bdec-5d8053afedd7",
+  "ts": "2026-11-09T21:01:00+00:00",
+  "title": "MBX Biosciences Reports Third Quarter 2026 Financial Results and Corporate Highlights",
+  "summary": "Enrollment in pivotal Phase 3 oPTimize trial of once-weekly canvuparatide underway 12-week MAD (Part C, Cohort 1) data for MBX 4291, a GLP-1/GIP co-agonist prodrug for obesity designed for once-monthly dosing, on track for Q4 2026 Preclinical data for MBX 6180, a GLP-1/GIP/GCG triple agonist prodrug with potential for once-monthly dosing, accepted for presentation at ObesityWeek 2026 $481.6 million in cash and investments expected to support operations into 2029 CARMEL, Ind., and BURLINGTON, Mas",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/mbx-biosciences-reports-third-quarter-210100687.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b5dd8559-0f08-34a6-bcf0-1c9b3b433fa3",
+  "ts": "2026-10-13T12:00:00+00:00",
+  "title": "MBX Biosciences to Participate in Upcoming November Investor Conferences",
+  "summary": "CARMEL, Ind. and BURLINGTON, Mass., Oct. 13, 2026 (GLOBE NEWSWIRE) -- MBX Biosciences, Inc. (Nasdaq: MBX), a clinical-stage biopharmaceutical company focused on the discovery, development and commercialization of novel precision peptide therapies for the treatment of endocrine and metabolic disorders, today announced that Steve Hoerter, Chairman and Chief Executive Officer, and Sam Azoulay, M.D., Chief Medical Officer, will present at, and participate in, the following upcoming investor conferen",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/mbx-biosciences-participate-upcoming-november-120000163.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9d988d4c-6252-305b-afa0-c9219387cf33",
+  "ts": "2026-10-10T04:19:04+00:00",
+  "title": "Is MBX Biosciences (MBX) Still Undervalued After Its Pullback From A Strong 1 Year Run?",
+  "summary": "MBX Biosciences (MBX) drew fresh attention after a year-to-date return of 174%, even as the share price closed at US$53.24 and declined over the past month and the past three months. The recent pullback, with the 7 day share price return down 9.01% and the 30 day move down 15.37%, sits against a year to date share price gain of 74.27% and a 1 year total shareholder return of 257.08%. This indicates that momentum for MBX Biosciences has cooled in the short term after a very strong stretch for...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/mbx-biosciences-mbx-still-undervalued-041904859.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "30667ab6-1d81-3efd-aeb2-9d60556467ba",
+  "ts": "2026-10-10T00:18:06+00:00",
+  "title": "MBX Biosciences (MBX) Stock Could Be Above Fair Value As Shares Jumped 257%",
+  "summary": "MBX Biosciences has seen its share price move sharply over the past year, which puts a spotlight on whether today's valuation lines up with what sits on its balance sheet. With the stock now well above where it started the year, the question is how that market enthusiasm stacks up against its book value. Over the past 12 months, MBX Biosciences has delivered a 257.1% share price gain, which puts real pressure on investors to judge whether the current level is still grounded in its underlying...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/mbx-biosciences-mbx-stock-could-001806266.html",
+  "tickers": [
+   "MBX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8670c51b-ce14-32cc-9d3b-2c7db9a58e46",
   "ts": "2026-09-09T12:00:00+00:00",
   "title": "MBX Biosciences to Participate in Upcoming Investor Conferences",
@@ -78,18 +150,6 @@
   "summary": "Mr. Smither brings extensive public company board and audit committee experience in the biotechnology sectorSAN CARLOS, Calif., July 15, 2026 (GLOBE NEWSWIRE) -- Attovia Therapeutics, Inc. (\u201cAttovia\u201d or the \u201cCompany\u201d), a clinical-stage biopharmaceutical company developing next-generation biotherapeutics for immune-mediated diseases with high unmet need, today announced the appointment of John W. Smither to its Board of Directors as an independent director and as Chair of the Audit Committee. \u201cWe",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/healthcare/articles/attovia-therapeutics-appoints-john-w-123000337.html",
-  "tickers": [
-   "MBX"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "c12d7334-43c8-348e-b624-033b0fdef43b",
-  "ts": "2026-07-13T20:15:00+00:00",
-  "title": "MBX Biosciences Announces Executive Leadership Transition to Support the Company\u2019s Next Phase of Growth",
-  "summary": "CARMEL, Ind. and BURLINGTON, Mass., July 13, 2026 (GLOBE NEWSWIRE) -- MBX Biosciences, Inc. (Nasdaq: MBX), a clinical-stage biopharmaceutical company focused on the discovery, development and commercialization of novel precision peptide therapies for the treatment of endocrine and metabolic disorders, today announced that its Board of Directors has appointed Steve Hoerter, current Executive Chairman of the Board, as its new Chairman and Chief Executive Officer. Mr. Hoerter succeeds Kent Hawryluk",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/healthcare/articles/mbx-biosciences-announces-executive-leadership-201500931.html",
   "tickers": [
    "MBX"
   ],

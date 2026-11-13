@@ -94,17 +94,5 @@
    "SVCO"
   ],
   "source": "yfinance"
- },
- {
-  "id": "85469df0-099e-31fe-98da-276661d19c34",
-  "ts": "2026-07-13T14:00:00+00:00",
-  "title": "ESD Alliance Reports Electronic System Design Industry Posts $5.7 Billion in Revenue in Q1 2026",
-  "summary": "Electronic System Design (ESD) industry revenue increased 12.7% to $5,747.8 million in the first quarter of 2026 from the $5,098.3 million registered in the first quarter of 2025, the ESD Alliance, a SEMI Technology Coalition, announced today in its latest Electronic Design Market Data (EDMD) report. The four-quarter moving average rose 10.3%, based on a comparison of the most recent four quarters to the prior four.",
-  "publisher": "CNW Group",
-  "url": "https://finance.yahoo.com/technology/articles/esd-alliance-reports-electronic-system-140000060.html",
-  "tickers": [
-   "SVCO"
-  ],
-  "source": "yfinance"
  }
 ]

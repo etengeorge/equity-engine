@@ -1,5 +1,47 @@
 [
  {
+  "id": "a3916fee-402b-381f-a21f-9948f98892d1",
+  "ts": "2026-11-13T08:15:00+00:00",
+  "title": "Stock Market News for Nov 13, 2026",
+  "summary": "Wall Street ended lower on Thursday as NVIDIA's CEO departure, rising Iran tensions and expectations of a Fed rate hike weighed on market sentiment.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-13-081500049.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "3c4f6783-e339-3f02-88ed-4d643d336b3e",
+  "ts": "2026-11-11T10:43:51+00:00",
+  "title": "Is Wall Street Bullish or Bearish on Vylor Stock?",
+  "summary": "Despite Vylor's outperformance relative to the broader S&P 500 Index over the past year, Wall Street analysts maintain a moderately optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8773739/is-wall-street-bullish-or-bearish-on-vylor-stock",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "6849c3b2-e57e-357f-b398-17f34930adec",
+  "ts": "2026-11-11T09:51:00+00:00",
+  "title": "Stock Market News for Nov 11, 2026",
+  "summary": "Wall Street ended lower on Tuesday as persistent inflation and hawkish Fed comments heightened concerns about further interest-rate hikes.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-11-095100012.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "e3e87e14-17f3-3c2e-8787-afc35ba7aed3",
   "ts": "2026-11-05T15:14:12+00:00",
   "title": "Is Wall Street Bullish or Bearish on International Paper Stock?",

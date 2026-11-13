@@ -118,41 +118,5 @@
    "FBK"
   ],
   "source": "yfinance"
- },
- {
-  "id": "9af8263b-8dbf-37cb-ac6d-d4cb9787da1c",
-  "ts": "2026-07-15T11:18:00+00:00",
-  "title": "Company News for July 15, 2026",
-  "summary": "Companies In The Article Are:FBK,BAC,JPM,GS",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-july-15-2026-111800692.html",
-  "tickers": [
-   "FBK"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "da89fdf6-d116-3225-b527-f1fabab568c7",
-  "ts": "2026-07-14T21:00:22+00:00",
-  "title": "FB Financial Corp (FBK) Q2 2026 Earnings Call Highlights: Strong Loan Growth and Strategic ...",
-  "summary": "FB Financial Corp (FBK) reports robust earnings with significant loan and deposit growth, while navigating competitive pressures and strategic capital deployment.",
-  "publisher": "GuruFocus.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/fb-financial-corp-fbk-q2-210022623.html",
-  "tickers": [
-   "FBK"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "cc120a68-d128-3050-9cab-61d1554aff80",
-  "ts": "2026-07-14T15:02:27+00:00",
-  "title": "FB Financial Q2 Earnings Call Highlights",
-  "summary": "FB Financial (NYSE:FBK) reported higher second-quarter 2026 earnings and balance sheet growth, with management pointing to broad-based loan demand across its Southeast footprint while acknowledging continued pressure from competition for deposits and lending relationships. President and Chief Execu",
-  "publisher": "MarketBeat",
-  "url": "https://www.marketbeat.com/instant-alerts/fb-financial-q2-earnings-call-highlights-2026-07-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
-  "tickers": [
-   "FBK"
-  ],
-  "source": "yfinance"
  }
 ]

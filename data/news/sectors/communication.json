@@ -1,5 +1,89 @@
 [
  {
+  "id": "ad402dcf-1c71-37d9-bb12-f5745c378611",
+  "ts": "2026-11-13T11:05:01+00:00",
+  "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11",
+  "summary": "The fund bought $84.3 million of stock, lifting 21 positions and trimming none, with Meta and both Alphabet share classes the largest additions.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110501441.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "dcae6b21-1559-3307-a25f-794d04cf20e2",
+  "ts": "2026-11-12T11:04:45+00:00",
+  "title": "What State Street Comm Services SPDR (XLC) Bought: No Buys, META Sold on Tuesday",
+  "summary": "The $22.24 billion fund sold $221.5 million of stock in Tuesday's session, cutting 21 positions and adding none.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110445746.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "661ecd3a-ddb3-3bc3-8c2d-85192f87a8b2",
+  "ts": "2026-11-11T11:04:39+00:00",
+  "title": "State Street Comm Services SPDR (XLC) Sells $29.9 Million of Meta on Monday",
+  "summary": "The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting all 22 of its positions.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110439330.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "6849c3b2-e57e-357f-b398-17f34930adec",
+  "ts": "2026-11-11T09:51:00+00:00",
+  "title": "Stock Market News for Nov 11, 2026",
+  "summary": "Wall Street ended lower on Tuesday as persistent inflation and hawkish Fed comments heightened concerns about further interest-rate hikes.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-11-095100012.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "620b14e4-04d8-34f1-9537-0e3fc459cc22",
+  "ts": "2026-11-09T11:06:34+00:00",
+  "title": "State Street Comm Services SPDR (XLC) Sells Meta and Alphabet on Nov. 5",
+  "summary": "The $21.48 billion fund sold $177.4 million of stock, cutting all 22 positions and adding none.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110634674.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
+  "id": "30d30f19-47c1-3138-adbb-72d9e4614f1f",
+  "ts": "2026-11-09T10:05:00+00:00",
+  "title": "Stock Market News for Nov 9, 2026",
+  "summary": "Wall Street ended mixed on Friday as stronger-than-expected jobs data and mixed third-quarter earnings shaped market sentiment.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-9-100500879.html",
+  "tickers": [
+   "XLC"
+  ],
+  "source": "yfinance",
+  "sector": "Communication",
+  "via": "XLC"
+ },
+ {
   "id": "cdef4125-ee22-357e-9554-a94ffae20a6a",
   "ts": "2026-11-06T13:00:00+00:00",
   "title": "AppLovin Surges on Strong Q3 Results, Upbeat Guidance: ETFs in Focus",

@@ -1,5 +1,77 @@
 [
  {
+  "id": "f45923b8-61fc-3092-b7e1-7c7bfafa488f",
+  "ts": "2026-11-12T21:10:00+00:00",
+  "title": "Atrium Therapeutics Reports Third Quarter 2026 Financial Results",
+  "summary": "/ PRNewswire/ \u2013 Atrium Therapeutics, Inc. (Nasdaq: RNA) (\"Atrium,\" \"Atrium Therapeutics,\" or the \"Company\"), a biopharmaceutical company advancing precision cardiology by developing RNA therapeutics targeted to the heart, today reported financial results for the third quarter ended September 30, 2026, and highlighted recent progress including dosing of the first patient in Corventis, its Phase 1/2 clinical trial of ATR 1072 in PRKAG2 syndrome, nonclinical data showing ATR 1072 reversed cardiac g",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-reports-third-quarter-211000695.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3c119329-72ee-355b-99a5-7c7ae64ed858",
+  "ts": "2026-11-02T11:30:00+00:00",
+  "title": "Atrium Therapeutics to Present Nonclinical Data Showing ATR 1072 Reversed and Improved Features of PRKAG2 Syndrome During HCMS at AHA Scientific Sessions 2026",
+  "summary": "Atrium Therapeutics, Inc. (Nasdaq: RNA) (the \"Company\"), a biopharmaceutical company advancing precision cardiology by developing RNA therapeutics targeted to the heart, today announced that it will present new nonclinical data supporting its lead investigational therapy ATR 1072 for the potential treatment of PRKAG2 (Protein Kinase AMP-activated non-catalytic subunit Gamma 2) syndrome during Hypertrophic Cardiomyopathy Medical Society at the American Heart Association Scientific Sessions 2026,",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-present-nonclinical-data-113000192.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "13201d9d-533c-364a-bf41-75eabd1c9221",
+  "ts": "2026-10-27T10:30:00+00:00",
+  "title": "Atrium Therapeutics Doses First Patient in Corventis\u2122, the First Interventional Clinical Trial for People Living with PRKAG2 Syndrome",
+  "summary": "Atrium Therapeutics, Inc. (Nasdaq: RNA) (the \"Company\"), a biopharmaceutical company advancing precision cardiology by developing RNA therapeutics targeted to the heart, today announced that the first patient has been dosed in the Phase 1/2 Corventis clinical trial evaluating ATR 1072, its lead investigational therapy for the potential treatment of PRKAG2 (Protein Kinase AMP-activated non-catalytic subunit Gamma 2) syndrome. The Company expects to report initial proof-of-concept data from Corven",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-doses-first-patient-103000321.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "26b6978e-03cf-3d00-b33d-0e395f5203ec",
+  "ts": "2026-10-20T21:23:00+00:00",
+  "title": "Atrium Therapeutics Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
+  "summary": "Atrium Therapeutics, Inc. (Nasdaq: RNA) (the \"Company\") today announced it awarded inducement grants on October 20, 2026 under the Company's 2026 Employment Inducement Incentive Award Plan (the \"2026 Inducement Plan\") as a material inducement to the employment of one non-executive individual newly hired by the Company.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-announces-inducement-grants-212300316.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8a177695-1648-392f-a557-470810699b00",
+  "ts": "2026-10-20T12:09:00+00:00",
+  "title": "Yakira Capital Management Calls on Atrium Therapeutics to Launch Strategic Review, Curb Cash Spending and Explain Dilutive Financing",
+  "summary": "Yakira Capital Management, Inc. (\"Yakira\") a shareholder of Atrium Therapeutics, Inc. (NASDAQ: RNA), today called on the Company's Board of Directors to immediately initiate a strategic review, curtail cash spending and explain its perplexing decision to issue substantial equity at a deeply depressed valuation.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/yakira-capital-management-calls-atrium-120900568.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dfd48c55-b1e4-359d-84f7-7213da50a4e9",
+  "ts": "2026-10-08T10:30:00+00:00",
+  "title": "Atrium Therapeutics Announces $50 Million Private Placement",
+  "summary": "Atrium Therapeutics, Inc. (Nasdaq: RNA) (\"Atrium\" or the \"Company\"), a biopharmaceutical company advancing precision cardiology by developing RNA therapeutics targeted to the heart, today announced that it has entered into a securities purchase agreement (the \"purchase agreement\") with a group of leading institutional investors for a private placement financing (the \"private placement\"). The private placement is expected to result in aggregate gross proceeds to the Company of approximately $50 m",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-announces-50-million-103000097.html",
+  "tickers": [
+   "RNA"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "cd8fd63f-3f6e-3e83-8024-9ec4efac9ac5",
   "ts": "2026-09-21T20:30:00+00:00",
   "title": "Atrium Therapeutics Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
@@ -90,18 +162,6 @@
   "summary": "Zillow downgraded, Global Payments upgraded: Wall Street's top analyst calls",
   "publisher": "The Fly",
   "url": "https://finance.yahoo.com/markets/stocks/articles/zillow-downgraded-global-payments-upgraded-134836978.html",
-  "tickers": [
-   "RNA"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "f00bbb27-6cc8-3815-bb5a-dee519017769",
-  "ts": "2026-07-14T10:30:00+00:00",
-  "title": "Atrium Therapeutics Announces FDA Clearance of Investigational New Drug Application for ATR 1072 for Treatment of PRKAG2 Syndrome",
-  "summary": "Atrium Therapeutics, Inc. (Nasdaq: RNA) (the \"Company\"), a biopharmaceutical company dedicated to delivering RNA therapeutics to the heart, announced today that the U.S. Food and Drug Administration (FDA) has cleared its Investigational New Drug (IND) application allowing the Company to move forward with its Corventis\u2122 Phase 1/2 clinical trial designed to evaluate ATR 1072 for the treatment of Protein Kinase AMP-activated non-catalytic subunit Gamma 2 (PRKAG2) syndrome.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/healthcare/articles/atrium-therapeutics-announces-fda-clearance-103000185.html",
   "tickers": [
    "RNA"
   ],

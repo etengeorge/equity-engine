@@ -94,17 +94,5 @@
    "WTI"
   ],
   "source": "yfinance"
- },
- {
-  "id": "288eca5b-72b4-3a7e-8dc6-01066f7f4717",
-  "ts": "2026-07-13T02:35:12+00:00",
-  "title": "BATL, TPET, WTI, XOM, USO Stocks Climb Amid Escalating US-Iran Conflict: Oil Nears $80 A Barrel",
-  "summary": "Oil prices surged in the overnight session on Sunday after the U.S. and Iran attacked each other amid escalating tensions.",
-  "publisher": "Stocktwits",
-  "url": "https://stocktwits.com/news-articles/markets/equity/batl-tpet-wti-xom-uso-stocks-climb-amid-escalating-us-iran-conflict/cZmz9IfR7oa",
-  "tickers": [
-   "WTI"
-  ],
-  "source": "yfinance"
  }
 ]

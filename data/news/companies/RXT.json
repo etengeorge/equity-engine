@@ -1,5 +1,125 @@
 [
  {
+  "id": "adbcf7e9-9314-3795-818d-51f2a2fa6c86",
+  "ts": "2026-11-12T13:15:00+00:00",
+  "title": "New HFS Research and Rackspace Study Finds Only One-Third of Enterprises Realize Expected AI Value",
+  "summary": "Survey of enterprise AI leaders identifies fragmented accountability, unpredictable costs and governance gaps as major barriers to AI returnsSAN ANTONIO and BOSTON, Nov. 12, 2026 (GLOBE NEWSWIRE) -- Enterprises are investing heavily in artificial intelligence, but most have yet to realize the returns they expected. New research from HFS Research, conducted in collaboration with Rackspace, finds that only 33% of enterprises have met or exceeded the business case for their most significant AI prog",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/hfs-research-rackspace-study-finds-131500254.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d9ff256f-a53b-35cb-ab75-1c07f339e8cc",
+  "ts": "2026-11-11T01:06:01+00:00",
+  "title": "Rackspace Technology Inc (RXT) (Q3 2026) Earnings Call Highlights: AI Contracts Worth $610 ...",
+  "summary": "Rackspace Technology Inc (RXT) signed $610 million in AI infrastructure agreements and lifted its full-year revenue guidance, even as total revenue fell 9% and Public Cloud declined 17.2%.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/technology/ai/articles/rackspace-technology-inc-rxt-q3-010601164.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9ceb1121-bf9b-3195-8cf3-73b46950b617",
+  "ts": "2026-11-10T19:15:04+00:00",
+  "title": "Rackspace Technology Q3 Earnings Call Highlights",
+  "summary": "Rackspace Technology (NASDAQ:RXT) raised its full-year revenue forecast after reporting stronger Public Cloud consumption, while maintaining its profitability outlook and outlining plans to expand AI computing capacity through 2027. The cloud services provider reported third-quarter revenue of $609",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/instant-alerts/transcript-rackspace-technology-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "651d3816-06d5-3c69-993a-68819182db24",
+  "ts": "2026-11-10T19:14:06+00:00",
+  "title": "Rackspace (RXT) Q3 2026 Earnings Call Transcript",
+  "summary": "Guidance rises as $610 million in AI deals reshape the outlook.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/rackspace-rxt-q3-2026-earnings-call-transcript/",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2346f271-7301-35b9-b9e0-bf682c97cbde",
+  "ts": "2026-11-10T13:30:00+00:00",
+  "title": "Rackspace and Together AI Announce Strategic Agreement to Support Enterprise AI Inference",
+  "summary": "Initial agreement to deliver Together AI inference on NVIDIA GB300 NVL72 infrastructure operated by RackspaceSAN ANTONIO, Nov. 10, 2026 (GLOBE NEWSWIRE) -- Rackspace\u00ae (NASDAQ: RXT), the operator of the full enterprise AI stack, and Together AI, the AI Native Cloud, today announced an initial multiyear strategic AI infrastructure agreement under which Rackspace expects to provide and operate dedicated NVIDIA GB300 NVL72 infrastructure connected with NVIDIA Spectrum-X Ethernet networking to suppor",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/rackspace-together-ai-announce-strategic-133000918.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2df4431c-7273-335d-bf1f-b715aa388b76",
+  "ts": "2026-11-10T13:30:00+00:00",
+  "title": "Rackspace Technology, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Rackspace Technology, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-rackspace-technology-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8115dc6d-bd68-386b-b0ec-170d25cbd482",
+  "ts": "2026-11-10T13:20:00+00:00",
+  "title": "Blacksmith Taps Rackspace to Accelerate Software Deployments to Production",
+  "summary": "As AI agents generate code at unprecedented speeds, Rackspace infrastructure will allow Blacksmith to accelerate continuous integration workloads and turn sluggish deployment pipelines into near-instant feedback loopsSAN ANTONIO, Nov. 10, 2026 (GLOBE NEWSWIRE) -- Rackspace \u00ae (NASDAQ: RXT), the operator of the full enterprise AI stack, and Blacksmith, the infrastructure platform for building and testing code, today announced a multi-year agreement under which Rackspace will provide dedicated comp",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/blacksmith-taps-rackspace-accelerate-software-132000690.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "51e67d6f-d191-3894-b6f9-f42984621d36",
+  "ts": "2026-11-09T21:35:07+00:00",
+  "title": "Rackspace: Q3 Earnings Snapshot",
+  "summary": "SAN ANTONIO (AP) \u2014 SAN ANTONIO (AP) \u2014 Rackspace Technology, Inc. (RXT) on Monday reported a loss of $53.",
+  "publisher": "Associated Press",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/rackspace-q3-earnings-snapshot-213507094.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b2eb3fe3-0a1c-3817-9bf5-5e7dabbc193c",
+  "ts": "2026-11-09T21:21:00+00:00",
+  "title": "Rackspace Technology Reports Third Quarter 2026 Results",
+  "summary": "Revenue of $609 million in the Third Quarter, down 9% Year-over-YearPrivate Cloud Revenue was $260 million, up 4% Year-over-YearPublic Cloud Revenue was $349 million, down 17% Year-over-YearThird Quarter 2026 Cash Flow From Operating Activities was $36 million; Cash Flow From Operating Activities was $69 million on a Trailing-Twelve-Month BasisRaising full-year 2026 revenue outlook by $35 million at the midpointMaintaining full-year 2026 Non-GAAP Operating Profit and Adjusted EBITDA outlook SAN",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/technology/articles/rackspace-technology-reports-third-quarter-212100908.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dfadf22a-fa69-311e-adc7-cf7b630f376c",
+  "ts": "2026-10-30T16:14:19+00:00",
+  "title": "Advanced Micro Devices (AMD) Lands First GSI Deployment Under AI Compute Deal",
+  "summary": "Advanced Micro Devices (NasdaqGS:AMD) is supplying data center compute for a new private AI infrastructure deployed by Rackspace Technology for Hinduja Global Solutions. HGS is using the AMD powered Rackspace environment to run customer experience focused AI applications in a private cloud setting. This is AMD's first General System Integrator customer implementation under Rackspace's multiyear compute agreement for AI infrastructure. The HGS rollout under Rackspace's AMD compute deal is an...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-lands-161419228.html",
+  "tickers": [
+   "RXT"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "67d6ff56-fefc-39be-a43c-6db4b07a4d1b",
   "ts": "2026-09-22T01:14:28+00:00",
   "title": "Why Rackspace Technology (RXT) Is Up 15.8% After Joining NVIDIA\u2019s Cloud Partner Program",

@@ -34,17 +34,5 @@
    "ALEC"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2339c412-da84-33f9-8b41-eae09428e37c",
-  "ts": "2026-07-09T11:45:00+00:00",
-  "title": "GSK ends brain drug alliance with Alector",
-  "summary": "Clinical setbacks derailed what was once a potentially $2.2 billion deal that marked GSK's return to neuroscience.",
-  "publisher": "BioPharma Dive",
-  "url": "https://www.biopharmadive.com/news/gsk-alector-deal-end-terminate-brain-drugs-neuroscience/824815/",
-  "tickers": [
-   "ALEC"
-  ],
-  "source": "yfinance"
  }
 ]
