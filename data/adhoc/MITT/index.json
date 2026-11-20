@@ -1,0 +1,192 @@
+{
+  "fetched_utc": "2026-11-20T11:26:41+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "MITT",
+    "cik": 1514281,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-11-19",
+        "items": "7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/mitt-20261119.htm",
+        "file": "2026-11-19-8-K-mitt-20261119.htm.txt",
+        "chars": 4717,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026071791/mitt-20260930.htm",
+        "file": "2026-11-06-10-Q-mitt-20260930.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/mitt-20261104.htm",
+        "file": "2026-11-04-8-K-mitt-20261104.htm.txt",
+        "chars": 11696,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026055328/mitt-20260630.htm",
+        "file": "2026-08-10-10-Q-mitt-20260630.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054988/mitt-20260810.htm",
+        "file": "2026-08-10-8-K-mitt-20260810.htm.txt",
+        "chars": 14305,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-10",
+        "items": "1.01,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054986/mitt-20260809.htm",
+        "file": "2026-08-10-8-K-mitt-20260809.htm.txt",
+        "chars": 27322,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-01",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026029382/mitt-20260331.htm",
+        "file": "2026-05-01-10-Q-mitt-20260331.htm.txt",
+        "chars": 378132,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026028091/mitt-20260429.htm",
+        "file": "2026-04-29-8-K-mitt-20260429.htm.txt",
+        "chars": 4851,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-19",
+        "items": [
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/a8k-112026xexhibit991.htm",
+        "file": "2026-11-19-EX-99.1.txt",
+        "chars": 8968,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/a8k-9302026xexhibit991.htm",
+        "file": "2026-11-04-EX-99.1.txt",
+        "chars": 19394,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/q32026earningspresentati.htm",
+        "file": "2026-11-04-EX-99.2.txt",
+        "chars": 39870,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054988/a8k-6302026xexhibit991.htm",
+        "file": "2026-08-10-EX-99.1.txt",
+        "chars": 21306,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054988/q22026earningspresentati.htm",
+        "file": "2026-08-10-EX-99.2.txt",
+        "chars": 36193,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-10",
+        "items": [
+          "1.01",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054986/mitt-exhibit991.htm",
+        "file": "2026-08-10-EX-99.1.txt",
+        "chars": 17844,
+        "truncated": false
+      }
+    ]
+  }
+}

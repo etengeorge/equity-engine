@@ -1,0 +1,1805 @@
+0001737706 2026 Q2 12/31 FALSE 0.0526316 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure iso4217:NOK sdrl:rig sdrl:drillship iso4217:BRL sdrl:contract 0001737706 2026-01-01 2026-06-30 0001737706 2026-08-06 0001737706 2026-04-01 2026-06-30 0001737706 2025-04-01 2025-06-30 0001737706 2025-01-01 2025-06-30 0001737706 sdrl:ReimbursableMember 2026-04-01 2026-06-30 0001737706 sdrl:ReimbursableMember 2025-04-01 2025-06-30 0001737706 sdrl:ReimbursableMember 2026-01-01 2026-06-30 0001737706 sdrl:ReimbursableMember 2025-01-01 2025-06-30 0001737706 us-gaap:ProductAndServiceOtherMember 2026-04-01 2026-06-30 0001737706 us-gaap:ProductAndServiceOtherMember 2025-04-01 2025-06-30 0001737706 us-gaap:ProductAndServiceOtherMember 2026-01-01 2026-06-30 0001737706 us-gaap:ProductAndServiceOtherMember 2025-01-01 2025-06-30 0001737706 sdrl:VesselandRigMember 2026-04-01 2026-06-30 0001737706 sdrl:VesselandRigMember 2025-04-01 2025-06-30 0001737706 sdrl:VesselandRigMember 2026-01-01 2026-06-30 0001737706 sdrl:VesselandRigMember 2025-01-01 2025-06-30 0001737706 us-gaap:RelatedPartyMember 2026-04-01 2026-06-30 0001737706 us-gaap:RelatedPartyMember 2026-01-01 2026-06-30 0001737706 us-gaap:RelatedPartyMember 2025-04-01 2025-06-30 0001737706 us-gaap:RelatedPartyMember 2025-01-01 2025-06-30 0001737706 2026-06-30 0001737706 2025-12-31 0001737706 2024-12-31 0001737706 2025-06-30 0001737706 us-gaap:CommonStockMember 2025-12-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-12-31 0001737706 us-gaap:RetainedEarningsMember 2025-12-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-03-31 0001737706 2026-01-01 2026-03-31 0001737706 us-gaap:RetainedEarningsMember 2026-01-01 2026-03-31 0001737706 us-gaap:CommonStockMember 2026-03-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2026-03-31 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-03-31 0001737706 us-gaap:RetainedEarningsMember 2026-03-31 0001737706 2026-03-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2026-04-01 2026-06-30 0001737706 us-gaap:RetainedEarningsMember 2026-04-01 2026-06-30 0001737706 us-gaap:CommonStockMember 2026-06-30 0001737706 us-gaap:AdditionalPaidInCapitalMember 2026-06-30 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-06-30 0001737706 us-gaap:RetainedEarningsMember 2026-06-30 0001737706 us-gaap:CommonStockMember 2024-12-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-31 0001737706 us-gaap:RetainedEarningsMember 2024-12-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-03-31 0001737706 2025-01-01 2025-03-31 0001737706 us-gaap:RetainedEarningsMember 2025-01-01 2025-03-31 0001737706 us-gaap:CommonStockMember 2025-03-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2025-03-31 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-31 0001737706 us-gaap:RetainedEarningsMember 2025-03-31 0001737706 2025-03-31 0001737706 us-gaap:AdditionalPaidInCapitalMember 2025-04-01 2025-06-30 0001737706 us-gaap:RetainedEarningsMember 2025-04-01 2025-06-30 0001737706 us-gaap:CommonStockMember 2025-06-30 0001737706 us-gaap:AdditionalPaidInCapitalMember 2025-06-30 0001737706 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-06-30 0001737706 us-gaap:RetainedEarningsMember 2025-06-30 0001737706 country:BR 2026-04-01 2026-06-30 0001737706 country:BR 2025-04-01 2025-06-30 0001737706 country:BR 2026-01-01 2026-06-30 0001737706 country:BR 2025-01-01 2025-06-30 0001737706 country:US 2026-04-01 2026-06-30 0001737706 country:US 2025-04-01 2025-06-30 0001737706 country:US 2026-01-01 2026-06-30 0001737706 country:US 2025-01-01 2025-06-30 0001737706 country:AO 2026-04-01 2026-06-30 0001737706 country:AO 2025-04-01 2025-06-30 0001737706 country:AO 2026-01-01 2026-06-30 0001737706 country:AO 2025-01-01 2025-06-30 0001737706 sdrl:OtherGeographicSegmentMember 2026-04-01 2026-06-30 0001737706 sdrl:OtherGeographicSegmentMember 2025-04-01 2025-06-30 0001737706 sdrl:OtherGeographicSegmentMember 2026-01-01 2026-06-30 0001737706 sdrl:OtherGeographicSegmentMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:PetrobrasMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:PetrobrasMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:PetrobrasMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:PetrobrasMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:SonadrillMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:SonadrillMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:SonadrillMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:SonadrillMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:WaterOilAndGasMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:WaterOilAndGasMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:WaterOilAndGasMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:WaterOilAndGasMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:LLOGMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:LLOGMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:LLOGMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:LLOGMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:TalosMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:TalosMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:TalosMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:TalosMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:OtherCustomersMember sdrl:ContractRevenuesMember 2026-04-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:OtherCustomersMember sdrl:ContractRevenuesMember 2025-04-01 2025-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:OtherCustomersMember sdrl:ContractRevenuesMember 2026-01-01 2026-06-30 0001737706 us-gaap:CustomerConcentrationRiskMember sdrl:OtherCustomersMember sdrl:ContractRevenuesMember 2025-01-01 2025-06-30 0001737706 sdrl:CashHeldInEscrowMember 2026-06-30 0001737706 sdrl:CashHeldInEscrowMember 2025-12-31 0001737706 sdrl:CashPledgedAsCollateralOtherMember 2026-06-30 0001737706 sdrl:CashPledgedAsCollateralOtherMember 2025-12-31 0001737706 sdrl:SonadrillMember 2026-06-30 0001737706 sdrl:SonadrillMember 2025-12-31 0001737706 us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member 2026-06-30 0001737706 us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member 2025-12-31 0001737706 us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember 2026-06-30 0001737706 us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember 2025-12-31 0001737706 us-gaap:UnsecuredDebtMember sdrl:UnsecuredConvertibleNotesMember 2026-06-30 0001737706 us-gaap:UnsecuredDebtMember sdrl:UnsecuredConvertibleNotesMember 2025-12-31 0001737706 us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember 2023-07-31 0001737706 us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember 2023-08-31 0001737706 us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember 2026-04-01 2026-06-30 0001737706 us-gaap:RevolvingCreditFacilityMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2023-07-27 2023-07-27 0001737706 us-gaap:RevolvingCreditFacilityMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2023-07-27 0001737706 us-gaap:LetterOfCreditMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2023-07-27 0001737706 us-gaap:LetterOfCreditMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2026-04-03 0001737706 us-gaap:RevolvingCreditFacilityMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2026-06-16 0001737706 sdrl:FiveYearFirstLienRevolvingCreditFacilityMember srt:MinimumMember us-gaap:RevolvingCreditFacilityMember 2026-01-01 2026-06-30 0001737706 sdrl:FiveYearFirstLienRevolvingCreditFacilityMember srt:MaximumMember us-gaap:RevolvingCreditFacilityMember 2026-01-01 2026-06-30 0001737706 us-gaap:RevolvingCreditFacilityMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2026-01-01 2026-06-30 0001737706 sdrl:FiveYearFirstLienRevolvingCreditFacilityMember srt:ScenarioForecastMember us-gaap:RevolvingCreditFacilityMember 2023-07-27 2026-07-27 0001737706 sdrl:SFLHerculesLtdMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2025-08-31 0001737706 sdrl:SFLHerculesLtdMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2026-06-30 0001737706 us-gaap:RevolvingCreditFacilityMember sdrl:FiveYearFirstLienRevolvingCreditFacilityMember 2026-06-30 0001737706 sdrl:FiveYearFirstLienRevolvingCreditFacilityMember sdrl:SFLHerculesLtdMember us-gaap:RevolvingCreditFacilityMember 2026-06-30 0001737706 us-gaap:ConvertibleDebtMember sdrl:UnsecuredConvertibleNotesMember 2022-02-23 0001737706 us-gaap:ConvertibleDebtMember sdrl:UnsecuredConvertibleNotesMember 2026-01-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueManagementFeesMember us-gaap:RelatedPartyMember 2026-04-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueManagementFeesMember us-gaap:RelatedPartyMember 2025-04-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueManagementFeesMember us-gaap:RelatedPartyMember 2026-01-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueManagementFeesMember us-gaap:RelatedPartyMember 2025-01-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueAddOnServicesMember us-gaap:RelatedPartyMember 2026-04-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueAddOnServicesMember us-gaap:RelatedPartyMember 2025-04-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueAddOnServicesMember us-gaap:RelatedPartyMember 2026-01-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueAddOnServicesMember us-gaap:RelatedPartyMember 2025-01-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueReimbursableRevenueMember us-gaap:RelatedPartyMember 2026-04-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueReimbursableRevenueMember us-gaap:RelatedPartyMember 2025-04-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueReimbursableRevenueMember us-gaap:RelatedPartyMember 2026-01-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueReimbursableRevenueMember us-gaap:RelatedPartyMember 2025-01-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueLeasingRevenueMember us-gaap:RelatedPartyMember 2026-04-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueLeasingRevenueMember us-gaap:RelatedPartyMember 2025-04-01 2025-06-30 0001737706 sdrl:RelatedPartyRevenueLeasingRevenueMember us-gaap:RelatedPartyMember 2026-01-01 2026-06-30 0001737706 sdrl:RelatedPartyRevenueLeasingRevenueMember us-gaap:RelatedPartyMember 2025-01-01 2025-06-30 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member us-gaap:FairValueInputsLevel1Member 2026-06-30 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member us-gaap:FairValueInputsLevel1Member 2026-06-30 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member us-gaap:FairValueInputsLevel1Member 2025-12-31 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SeniorNotesMember sdrl:SeniorNotesDue2034Member us-gaap:FairValueInputsLevel1Member 2025-12-31 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember us-gaap:FairValueInputsLevel1Member 2026-06-30 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember us-gaap:FairValueInputsLevel1Member 2026-06-30 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:SecondLienFacilityMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:UnsecuredConvertibleNotesMember us-gaap:FairValueInputsLevel3Member 2026-06-30 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:UnsecuredConvertibleNotesMember us-gaap:FairValueInputsLevel3Member 2026-06-30 0001737706 us-gaap:EstimateOfFairValueFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:UnsecuredConvertibleNotesMember us-gaap:FairValueInputsLevel3Member 2025-12-31 0001737706 us-gaap:CarryingReportedAmountFairValueDisclosureMember us-gaap:SecuredDebtMember sdrl:UnsecuredConvertibleNotesMember us-gaap:FairValueInputsLevel3Member 2025-12-31 0001737706 sdrl:SFLHerculesLtdMember 2023-03-01 2023-03-31 0001737706 sdrl:SFLHerculesLtdMember 2025-08-31 0001737706 sdrl:SFLHerculesLtdMember 2026-06-30 0001737706 sdrl:SFLHerculesLtdMember sdrl:BilateralFacilityMember 2025-08-31 0001737706 sdrl:SFLHerculesLtdMember sdrl:BilateralFacilityMember 2026-06-30 0001737706 sdrl:SonadrillFeesClaimantMember 2023-03-01 2023-03-31 0001737706 sdrl:SonadrillFeesClaimantMember 2025-10-01 2025-10-31 0001737706 sdrl:SonadrillFeesClaimantMember 2026-06-01 2026-06-30 0001737706 2015-11-30 0001737706 country:NG 2015-11-30 0001737706 sdrl:SeteBrazilClaimMember 2025-01-31 0001737706 sdrl:SeteBrazilClaimMember 2025-01-01 2025-01-31 0001737706 sdrl:SeteBrazilClaimMember 2026-01-01 2026-06-30 0001737706 sdrl:SeadrillServicosDePetroleoLtdaSeadrillBrazilMember us-gaap:TaxYear2009Member 2026-06-30 2026-06-30 0001737706 us-gaap:SuretyBondMember 2026-01-01 2026-06-30 0001737706 sdrl:SeadrillServicosDePetroleoLtdaSeadrillBrazilMember sdrl:TaxYear200820122016And2017Member 2026-01-01 2026-06-30 0001737706 us-gaap:PerformanceGuaranteeMember sdrl:SonadrillMember 2026-06-30 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ WASHINGTON, D.C. 20549 
+
+ FORM 10-Q 
+
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended June 30, 2026 
+
+ OR 
+
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the transition period from __ to __ 
+
+ Commission file number: 001-39327 
+
+ SEADRILL LIMITED 
+
+ (Exact name of Registrant as specified in its charter) 
+
+ Bermuda 98-1834031 
+
+ (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) 
+
+ 4425 Westway Park Blvd. , Suite 170, Houston , Texas , United States of America 
+ 77041 
+
+ (Address of principal executive offices) (Zip Code) 
+
+ +1 (713) 329-1150 
+
+ (Registrant's telephone number, including area code) 
+
+ Securities registered or to be registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class Trading Symbol Name of each exchange on which registered 
+
+ Common Shares, par value $0.01 per share SDRL New York Stock Exchange 
+
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. 
+
+ ☒ Yes 
+ ☐ No 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). 
+
+ ☒ Yes 
+ ☐ No 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See definitions of "large accelerated filer," "accelerated filer," "smaller reporting company," and "emerging growth company" in Rule 12b-2 of the Exchange Act. 
+
+ Large accelerated filer ☒ 
+ Accelerated filer ☐ 
+
+ Non-accelerated filer ☐ 
+ Smaller reporting company ☐ 
+
+ Emerging growth company ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). 
+
+ ☐ Yes 
+ 
+ ☒ No 
+
+ Indicate by check mark whether the registrant has filed all documents and reports required to be filed by Sections 12, 13 or 15(d) of the Securities Exchange Act of 1934 subsequent to the distribution of securities under a plan confirmed by a court. 
+
+ ☒ Yes 
+ ☐ No 
+
+ As of August 6, 2026, 62,541,443 common shares of the registrant were outstanding. 
+
+ SEADRILL LIMITED 
+
+ INDEX TO FORM 10-Q 
+
+ FOR THE QUARTER ENDED JUNE 30, 2026 
+
+ PART I - FINANCIAL INFORMATION 
+
+ ITEM 1. 
+ FINANCIAL STATEMENTS. 
+
+ Condensed Consolidated Statements of Operations for the three and six months ended June 30 , 2026 and 2025 
+ 
+ 3 
+
+ Condensed Consolidated Balance Sheets as of June 3 0 , 2026 and December 31, 2025 
+ 
+ 4 
+
+ Condensed Consolidated Statements of Cash Flows for the s ix months ended Ju ne 30 , 2026 and 2025 
+ 
+ 5 
+
+ Condensed Consolidated Statements of Equity for the three and six months ended June 3 0 , 2026 and 2025 
+ 
+ 6 
+
+ Notes to the unaudited Condensed Consolidated Financial Statements 
+ 
+ 7 
+
+ ITEM 2. 
+ MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS. 
+ 
+ 15 
+
+ ITEM 3. 
+ QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK. 
+ 
+ 26 
+
+ ITEM 4. 
+ CONTROLS AND PROCEDURES. 
+ 
+ 26 
+
+ PART II - OTHER INFORMATION 
+
+ ITEM 1. 
+ LEGAL PROCEEDINGS. 
+ 
+ 27 
+
+ ITEM 1A. 
+ RISK FACTORS. 
+ 
+ 27 
+
+ ITEM 2. 
+ UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS. 
+ 
+ 27 
+
+ ITEM 3. 
+ DEFAULTS UPON SENIOR SECURITIES . 
+ 
+ 27 
+
+ ITEM 4. 
+ MINE SAFETY DISCLOSURES . 
+ 
+ 27 
+
+ ITEM 5. 
+ OTHER INFORMATION . 
+ 
+ 27 
+
+ ITEM 6. 
+ EXHIBITS. 
+ 
+ 28 
+
+ SIGNATURES 
+
+ 1 
+
+ FORWARD-LOOKING STATEMENTS 
+
+ This Quarterly Report on Form 10-Q includes forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the " Securities Act "), and Section 21E of the Securities Exchange Act of 1934, as amended (the " Exchange Act "). All statements other than statements of historical facts included in this Quarterly Report on Form 10-Q, including, without limitation, those regarding the Company's outlook, plans, strategies, business prospects, financial performance, operations, litigation, rig activity and changes and trends in its business and the markets in which it operates, are forward-looking statements. These forward-looking statements can often, but not necessarily, be identified by the use of forward-looking terminology, including the terms "assumes", "projects", "forecasts", "estimates", "expects", "anticipates", "believes", "plans", "intends", "may", "might", "will", "would", "can", "could", "should" or, in each case, their negative, or other variations or comparable terminology. These statements are based on management's current plans, expectations, assumptions and beliefs concerning future events impacting the Company and therefore involve a number of risks, uncertainties and assumptions that could cause actual results to differ materially from those expressed or implied in the forward-looking statements. Important factors that could cause actual results to differ materially from those in the forward-looking statements include, but are not limited to: those described under Part I, Item 1A. "Risk Factors" in the Company's Annual Report on Form 10-K for the year ended December 31, 2025, filed with the United States (" U.S. ") Securities and Exchange Commission (the " SEC ") on February 26, 2026 (the " 2025 10-K "), offshore drilling market conditions including supply and demand, dayrates, customer drilling programs and effects of new or reactivated rigs on the market, contract awards and rig mobilizations, contract backlog, dry-docking and other costs of maintenance, special periodic surveys, upgrades and regulatory work for the drilling units in the Company's fleet, the performance of the drilling units in the Company's fleet, delay in payment or disputes with customers, the Company's ability to successfully employ its drilling units, procure or have access to financing, ability to comply with loan covenants, fluctuations in the international price of oil, international financial market conditions, U.S. trade policy and tariffs and worldwide reactions thereto, inflation, changes in governmental regulations that affect the Company or the operations of the Company's fleet, increased competition in the offshore drilling industry, the review of competition authorities, the impact of global economic conditions and global health threats, pandemics and epidemics, our ability to maintain relationships with suppliers, customers, employees and other third parties, our ability to maintain adequate financing to support our business plans, our ability to successfully complete and realize the intended benefits of any mergers, acquisitions and divestitures, and the impact of other strategic transactions, our liquidity and the adequacy of cash flows to satisfy our obligations, future activity under and in respect of the Company's share repurchase program, our ability to satisfy (or timely cure any noncompliance with) the continued listing requirements of the New York Stock Exchange, the cancellation of drilling contracts currently included in reported contract backlog, losses on impairment of long-lived fixed assets, shipyard, construction and other delays, the results of meetings of our shareholders, political and other uncertainties, including those related to the conflicts in Ukraine and the Middle East (including the current conflict in Iran), and any related sanctions, the effect and results of litigation, regulatory matters, settlements, audits, assessments and contingencies, including any litigation related to acquisitions or dispositions, the concentration of our revenues in certain geographical jurisdictions, limitations on insurance coverage, our ability to attract and retain skilled personnel on commercially reasonable terms, the level of expected capital expenditures, our expected financing of such capital expenditures and the timing and cost of completion of capital projects, fluctuations in interest rates or exchange rates and currency devaluations relating to foreign or U.S. monetary policy, tax matters, changes in tax laws, treaties and regulations, tax assessments and liabilities for tax issues, legal and regulatory matters in the jurisdictions in which we operate, customs and environmental matters, the potential impacts on our business resulting from decarbonization and emissions legislation and regulations, the impact on our business from climate change generally, the occurrence of cybersecurity incidents, attacks or other breaches to our information technology systems, including our rig operating systems, and other important factors described from time to time in the reports filed or furnished by us with the SEC. The foregoing risks and uncertainties are inherently subject to significant business, economic, competitive, regulatory and other risks and uncertainties, many of which are difficult to predict and beyond our control. In many cases, we cannot predict the risks and uncertainties that could cause our actual results to differ materially from those indicated by the forward-looking statements. Should one or more of these risks or uncertainties materialize, or should underlying assumptions prove incorrect, actual results may vary materially from those indicated. All subsequent written and oral forward-looking statements attributable to us or to any person(s) acting on our behalf are expressly qualified in their entirety by reference to these risks and uncertainties. You should not place undue reliance on forward-looking statements. Each forward-looking statement speaks only as of the date of the particular statement. We expressly disclaim any obligations or undertaking to release publicly any updates or revisions to any forward-looking statement to reflect any change in our expectations or beliefs with regard to the statement or any change in events, conditions or circumstances on which any forward-looking statement is based, except as required by securities laws. 
+
+ Investors should note that we announce material financial information in SEC filings, press releases and public conference calls. Based on guidance from the SEC, we may use the Investors section of our website (www.seadrill.com) to communicate with investors and we intend to post presentations and fleet status reports there, among other things. It is possible that the financial and other information posted there could be deemed to be material information. The information on our website is not part of, and is not incorporated into, this Quarterly Report on Form 10-Q. Furthermore, references to our website URLs are intended to be inactive textual references only. 
+
+ 2 
+
+ PART I - FINANCIAL INFORMATION 
+
+ Item 1. Financial Statements. 
+
+ SEADRILL LIMITED 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS 
+
+ (Unaudited) 
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In $ millions, except per share data) 2026 2025 2026 2025 
+
+ Operating revenues 
+
+ Contract revenues 355 288 632 536 
+
+ Reimbursable revenues (1) 
+ 19 16 29 31 
+
+ Management contract revenues (1) 
+ 67 65 130 126 
+
+ Leasing revenues (1) 
+ 8 8 16 16 
+
+ Other revenues — — — 3 
+
+ Total operating revenues 449 377 807 712 
+
+ Operating expenses 
+
+ Vessel and rig operating expenses ( 215 ) ( 180 ) ( 396 ) ( 359 ) 
+
+ Reimbursable expenses ( 19 ) ( 16 ) ( 29 ) ( 31 ) 
+
+ Depreciation and amortization ( 72 ) ( 56 ) ( 143 ) ( 111 ) 
+
+ Management contract expenses ( 42 ) ( 93 ) ( 88 ) ( 138 ) 
+
+ Selling, general and administrative expenses ( 29 ) ( 26 ) ( 54 ) ( 49 ) 
+
+ Merger and integration related expenses — — ( 1 ) — 
+
+ Total operating expenses ( 377 ) ( 371 ) ( 711 ) ( 688 ) 
+
+ Operating profit 72 6 96 24 
+
+ Financial and other non-operating items 
+
+ Interest income 4 3 6 7 
+
+ Interest expense ( 16 ) ( 15 ) ( 31 ) ( 30 ) 
+
+ Equity in earnings of equity method investment (net of tax) 4 6 8 14 
+
+ Other financial and non-operating items ( 23 ) ( 13 ) ( 22 ) ( 27 ) 
+
+ Total financial and other non-operating items, net ( 31 ) ( 19 ) ( 39 ) ( 36 ) 
+
+ Profit/(loss) before income taxes 41 ( 13 ) 57 ( 12 ) 
+
+ Income tax expense ( 12 ) ( 29 ) ( 35 ) ( 44 ) 
+
+ Net income/(loss) 29 ( 42 ) 22 ( 56 ) 
+
+ Basic EPS/(LPS) ($) 
+ 0.47 ( 0.68 ) 0.36 ( 0.91 ) 
+
+ Diluted EPS/(LPS) ($) 
+ 0.47 ( 0.68 ) 0.36 ( 0.91 ) 
+
+ (1) Includes revenue from related parties of $ 82 million and $ 157 million, for the three and six months ended June 30, 2026, respectively, and $ 79 million and $ 158 million for the three and six months ended June 30, 2025, respectively. Refer to Note 10 - "Related party transactions" for further details. 
+
+ The accompanying notes form an integral part of these unaudited Condensed Consolidated Financial Statements. 
+
+ 3 
+
+ SEADRILL LIMITED 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+
+ (Unaudited) 
+
+ (In $ millions, except share data) June 30,
+2026 December 31,
+2025 
+
+ ASSETS 
+
+ Current assets 
+
+ Cash and cash equivalents 337 339 
+
+ Restricted cash 23 26 
+
+ Accounts receivables, net 311 162 
+
+ Amounts due from related parties, net 24 — 
+
+ Other current assets 225 231 
+
+ Total current assets 920 758 
+
+ Non-current assets 
+
+ Equity method investment 66 58 
+
+ Drilling units, net of accumulated depreciation of 827 as of June 30, 2026 (December 31, 2025: 682 ) 
+ 2,926 2,969 
+
+ Deferred tax assets 29 44 
+
+ Equipment 17 8 
+
+ Other non-current assets 148 110 
+
+ Total non-current assets 3,186 3,189 
+
+ Total assets 4,106 3,947 
+
+ LIABILITIES AND SHAREHOLDERS' EQUITY 
+
+ Current liabilities 
+
+ Trade accounts payable 72 61 
+
+ Other current liabilities 296 313 
+
+ Total current liabilities 368 374 
+
+ Non-current liabilities 
+
+ Long-term debt 737 613 
+
+ Deferred tax liabilities 17 14 
+
+ Other non-current liabilities 120 88 
+
+ Total non-current liabilities 874 715 
+
+ Commitments and contingencies (see Note 13) 
+
+ Shareholders' equity 
+
+ Common shares of par value $ 0.01 per share: 375,000,000 shares authorized as of June 30, 2026 (December 31, 2025: 375,000,000 ) and 62,541,443 issued as of June 30, 2026 (December 31, 2025: 62,374,171 ) 
+ 1 1 
+
+ Additional paid-in capital 1,970 1,986 
+
+ Accumulated other comprehensive income 1 1 
+
+ Retained earnings 892 870 
+
+ Total shareholders' equity 2,864 2,858 
+
+ Total liabilities and shareholders' equity 4,106 3,947 
+
+ The accompanying notes form an integral part of these unaudited Condensed Consolidated Financial Statements. 
+
+ 4 
+
+ SEADRILL LIMITED 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS 
+
+ (Unaudited) 
+
+ Six months ended June 30, 
+
+ (In $ millions) 2026 2025 
+
+ Cash flows from operating activities 
+
+ Net income/(loss) 22 ( 56 ) 
+
+ Adjustments to reconcile net income/(loss) to net cash used in operating activities: 
+
+ Depreciation and amortization 143 111 
+
+ Equity in earnings of equity method investment (net of tax) ( 8 ) ( 14 ) 
+
+ Deferred tax expense 18 14 
+
+ Unrealized gain on foreign exchange — ( 2 ) 
+
+ Amortization of debt issuance costs 2 2 
+
+ Share based compensation expense 6 9 
+
+ Loss on debt extinguishment 35 — 
+
+ Other — 27 
+
+ Other cash movements in operating activities 
+
+ Additions to long-term maintenance ( 70 ) ( 98 ) 
+
+ Changes in operating assets and liabilities 
+
+ Accounts receivable, net ( 149 ) ( 7 ) 
+
+ Trade accounts payable 5 ( 41 ) 
+
+ Prepaid expenses 3 1 
+
+ Deferred revenue ( 12 ) ( 1 ) 
+
+ Deferred contract costs ( 31 ) 26 
+
+ Related party receivables ( 24 ) — 
+
+ Other assets ( 8 ) ( 4 ) 
+
+ Other liabilities 28 17 
+
+ Net cash used in operating activities 
+ ( 40 ) ( 16 ) 
+
+ Cash flows from investing activities 
+
+ Additions to drilling units and equipment ( 38 ) ( 68 ) 
+
+ Other — ( 4 ) 
+
+ Net cash used in investing activities ( 38 ) ( 72 ) 
+
+ Cash flows from financing activities 
+
+ Proceeds from issuance of senior bond 700 — 
+
+ Repayment of secured bond ( 575 ) — 
+
+ Payment of make whole premium on secured bond ( 25 ) — 
+
+ Payment of debt issuance costs ( 8 ) — 
+
+ Shares repurchased ( 17 ) — 
+
+ Taxes withheld on employee stock transactions ( 2 ) — 
+
+ Net cash provided by financing activities 73 — 
+
+ Effect of exchange rate changes on cash — 2 
+
+ Net decrease in cash and cash equivalents, including restricted cash ( 5 ) ( 86 ) 
+
+ Cash and cash equivalents, including restricted cash, at beginning of the period 365 505 
+
+ Cash and cash equivalents, including restricted cash, at the end of period 360 419 
+
+ The accompanying notes form an integral part of these unaudited Condensed Consolidated Financial Statements. 
+
+ 5 
+
+ SEADRILL LIMITED 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF EQUITY
+(Unaudited) 
+
+ (In $ millions) Common shares Additional paid-in capital Accumulated
+other comprehensive income Retained earnings Total shareholders' equity 
+
+ Balance as of January 1, 2026 
+ 1 1,986 1 870 2,858 
+
+ Share based compensation — 1 — — 1 
+
+ Shares withheld for taxes on equity transactions — ( 1 ) — — ( 1 ) 
+
+ Net loss — — — ( 7 ) ( 7 ) 
+
+ Balance as of March 31, 2026 
+ 1 1,986 1 863 2,851 
+
+ Share based compensation — 5 — — 5 
+
+ Shares repurchased — ( 20 ) — — ( 20 ) 
+
+ Shares withheld for taxes on equity transactions — ( 1 ) — — ( 1 ) 
+
+ Net income — — — 29 29 
+
+ Balance as of June 30, 2026 
+ 1 1,970 1 892 2,864 
+
+ (In $ millions) Common shares Additional paid-in capital Accumulated
+other comprehensive income Retained earnings Total shareholders' equity 
+
+ Balance as of January 1, 2025 
+ 1 1,969 1 947 2,918 
+
+ Share based compensation — 4 — — 4 
+
+ Net loss — — — ( 14 ) ( 14 ) 
+
+ Balance as of March 31, 2025 
+ 1 1,973 1 933 2,908 
+
+ Share based compensation — 5 — — 5 
+
+ Net loss — — — ( 42 ) ( 42 ) 
+
+ Balance as of June 30, 2025 
+ 1 1,978 1 891 2,871 
+
+ The accompanying notes form an integral part of these unaudited Condensed Consolidated Financial Statements. 
+
+ 6 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Note 1 – General information 
+ 
+ Seadrill Limited (along with any one or more of its consolidated subsidiaries, or to all such entities, referred to as " Seadrill ", " we ", " us ", " our ", and "the Company ") is incorporated in Bermuda. We are an offshore drilling contractor providing worldwide offshore drilling services to the oil and gas industry. Our primary business is the ownership and operation of drilling rigs for operations in shallow to ultra-deepwater areas in both benign and harsh environments. We contract our drilling units to drill wells for our customers on a dayrate basis. Our customers include oil super-majors, state-owned national oil companies and independent oil and gas companies. In addition, we provide management services to certain affiliated entities. 
+ 
+ Basis of presentation 
+
+ The accompanying unaudited Condensed Consolidated Financial Statements of Seadrill Limited have been prepared in accordance with accounting principles generally accepted in the U.S. (" U.S. GAAP ") for interim financial information and with the instructions to Form 10-Q and Article 10 of Regulation S-X of the SEC. Accordingly, pursuant to such rules and regulations, they do not include all disclosures required by U.S. GAAP for annual financial statements. In the opinion of management, the unaudited Condensed Consolidated Financial Statements includes all adjustments (consisting of normal recurring adjustments) necessary for a fair statement of financial position, results of operations and cash flows for the interim periods. 
+
+ Results of operations for interim periods are not necessarily indicative of results of operations for the respective full years, or any future period. The accompanying unaudited Condensed Consolidated Financial Statements and related notes should be read in conjunction with our 2025 10-K. 
+ 
+ Significant accounting policies 
+
+ Refer to Note 2 - "Accounting policies" of our Consolidated Financial Statements from our 2025 10-K for additional information related to our significant accounting policies. 
+
+ Note 2 - Revenue from contracts with customers 
+ 
+ The following table provides information about receivables and contract liabilities from our contracts with customers, as of the dates presented:
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Accounts receivable, net 311 162 
+
+ Current contract liabilities (classified within other current liabilities) ( 70 ) ( 58 ) 
+
+ Non-current contract liabilities (classified within other non-current liabilities) ( 69 ) ( 36 ) 
+
+ Changes in the contract liabilities balances during the three and six months ended June 30, 2026 are as follows: 
+
+ (In $ millions) 
+
+ Contract liabilities as of January 1, 2026 
+ ( 94 ) 
+
+ Amortization of revenue included in the January 1, 2026 contract liability balance 
+ 19 
+
+ Additional contract liabilities recognized, excluding amounts recognized as revenue ( 38 ) 
+
+ Contract liabilities as of March 31, 2026 
+ ( 113 ) 
+
+ Amortization of revenue included in the March 31, 2026 contract liability balance 
+ 21 
+
+ Additional contract liabilities recognized, excluding amounts recognized as revenue ( 47 ) 
+
+ Contract liabilities as of June 30, 2026 
+ ( 139 ) 
+
+ Revenues are attributed to geographical locations based on the country of operations for drilling activities, i.e., the country where the revenues are generated. The following table presents our revenues by geographic area: 
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In $ millions) 2026 2025 2026 2025 
+
+ Brazil 174 165 320 286 
+
+ United States 118 106 221 186 
+
+ Angola 87 84 164 166 
+
+ Other (1) 
+ 70 22 102 74 
+
+ Total operating revenues 
+ 449 377 807 712 
+
+ (1) "Other" represents countries in which we operate that individually had revenues representing less than 10% of total operating revenues earned for any of the periods presented. 
+
+ 7 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ We had the following customers with revenues greater than 10% of total operating revenues in any of the periods presented: 
+
+ Three months ended June 30, Six months ended June 30, 
+
+ 2026 2025 2026 2025 
+
+ Petrobras 34 % 37 % 34 % 33 % 
+
+ Sonadrill 18 % 21 % 19 % 22 % 
+
+ Walter Oil & Gas 10 % 5 % 10 % 4 % 
+
+ LLOG 9 % 11 % 11 % 9 % 
+
+ Talos 1 % 12 % 3 % 13 % 
+
+ Other 28 % 14 % 23 % 19 % 
+
+ Note 3 – Taxation 
+ 
+ For the three and six months ended June 30, 2026, income tax expense was $ 12 million and $ 35 million, respectively, compared to income tax expense of $ 29 million and $ 44 million for the three and six months ended June 30, 2025, respectively. 
+
+ The decrease in tax expense for the three and six months ended June 30, 2026, relative to the three and six months ended June 30, 2025, primarily reflects changes in the Company's mix of pre-tax income and loss among tax jurisdictions and changes in valuation allowances established for Switzerland and Brazil. 
+
+ On July 4, 2025, the U.S. enacted the One Big Beautiful Bill Act (" OBBBA "). The OBBBA includes many tax provisions, such as the permanent extension of certain expiring provisions of the Tax Cuts and Jobs Act and provisions allowing accelerated tax deduction for qualified property. The legislation does not have a material impact to our unaudited Condensed Consolidated Financial Statements. 
+
+ Note 4 – Earnings/(loss) per share 
+ 
+ The computation of basic earnings/(loss) per share (" EPS /( LPS) ") is based on the weighted average number of common shares of the Company, par value $ 0.01 per share (the " Shares "), outstanding during the period. Diluted EPS/(LPS) includes the effect of the assumed conversion of potentially dilutive instruments related to the effect of the unsecured senior convertible bond and share based compensation. Refer to Note 9 – "Debt" for further details on the unsecured senior convertible bond. 
+ 
+ The components of the numerator for the calculation of basic and diluted EPS/(LPS) were as follows:
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In $ millions) 2026 2025 2026 2025 
+
+ Net income/(loss) available to stockholders 29 ( 42 ) 22 ( 56 ) 
+
+ Effect of dilution (interest on unsecured senior convertible bond) 2 1 3 3 
+
+ Diluted income/(loss) available to stockholders 31 ( 41 ) 25 ( 53 ) 
+
+ The components of the denominator for the calculation of basic and diluted EPS/(LPS) were as follows:
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In millions) 2026 2025 2026 2025 
+
+ Basic earnings/(loss) per share: 
+
+ Weighted average number of common shares outstanding (1) 
+ 62 62 62 62 
+
+ Diluted earnings/(loss) per share: 
+
+ Effect of dilution 3 3 3 3 
+
+ Weighted average number of common shares outstanding adjusted for the effects of dilution 65 65 65 65 
+
+ (1) Weighted average number of Shares outstanding in the three and six months ended June 30, 2026 considers the impact of shares repurchased during the period. 
+
+ The basic and diluted EPS/(LPS) were as follows: 
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In $) 2026 2025 2026 2025 
+
+ Basic earnings/(loss) per share 0.47 ( 0.68 ) 0.36 ( 0.91 ) 
+
+ Diluted earnings/(loss) per share (1) 
+ 0.47 ( 0.68 ) 0.36 ( 0.91 ) 
+
+ (1) For the three and six months ended June 30, 2025, the effect of including all potentially dilutive instruments in the calculation resulted in decreased loss per share, which is anti-dilutive. As a result, the basic and diluted loss per share are equal. 
+
+ 8 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Note 5 – Restricted cash 
+ 
+ Restricted cash as of June 30, 2026 and December 31, 2025 was as follows: 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Cash held in escrow 23 23 
+
+ Other — 3 
+
+ Total restricted cash 23 26 
+
+ Note 6 - Other current assets 
+ 
+ As of June 30, 2026 and December 31, 2025, other current assets included the following: 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Prepaid expenses 42 61 
+
+ Deferred contract costs 81 80 
+
+ Taxes receivable 50 52 
+
+ Other 52 38 
+
+ Total other current assets 225 231 
+
+ Note 7 – Equity method investment 
+ 
+ As of June 30, 2026 and December 31, 2025, the carrying value of our equity method investment was as follows: 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Sonadrill 66 58 
+
+ Total equity method investment 66 58 
+
+ Note 8 - Other current and non-current liabilities 
+ 
+ Other current liabilities 
+ 
+ As of June 30, 2026 and December 31, 2025, other current liabilities included the following:
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Accrued expenses 127 137 
+
+ Contract liabilities 70 58 
+
+ Employee withheld taxes, social security and vacation payments 51 47 
+
+ Taxes payable 36 35 
+
+ Accrued interest expense — 21 
+
+ Unfavorable drilling contracts — 3 
+
+ Other liabilities 12 12 
+
+ Total other current liabilities 296 313 
+
+ Other non-current liabilities 
+ 
+ As of June 30, 2026 and December 31, 2025, other non-current liabilities included the following: 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Uncertain tax positions 23 22 
+
+ Contract liabilities 69 36 
+
+ Lease liabilities 17 18 
+
+ Other liabilities 11 12 
+
+ Total other non-current liabilities 120 88 
+
+ 9 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Note 9 - Debt 
+ 
+ The table below sets out our debt agreements as of June 30, 2026 and December 31, 2025: 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ $ 700 million senior bond 
+ 700 — 
+
+ $ 575 million secured bond 
+ — 575 
+
+ Unsecured senior convertible bond 50 50 
+
+ Total principal debt 750 625 
+
+ Premium on bond issuance — 1 
+
+ Less: debt issuance costs ( 13 ) ( 13 ) 
+
+ Total debt 737 613 
+
+ $ 700 million senior bond 
+
+ On June 30, 2026, Seadrill Finance Limited (" Seadrill Finance ") issued $ 700 million in aggregate principal amount of 6.750 % Senior Notes due 2034 (the “ 2034 Notes ”) in an offering conducted pursuant to Rule 144A and Regulation S under the Securities Act. The 2034 Notes will mature on July 15, 2034, and interest on the 2034 Notes is payable semi-annually in arrears on January 15 and July 15 of each year, beginning on January 15, 2027. The 2034 Notes are fully and unconditionally guaranteed, jointly and severally, by the Company and certain subsidiaries of the Company that are guarantors under the Credit Agreement (as defined below), and in the future by certain subsidiaries of the Company that become borrowers or guarantors under the Credit Agreement or any other syndicated credit facility or capital markets debt in an aggregate principal amount in excess of a certain amount. 
+
+ $ 575 million secured bond 
+
+ In July 2023, Seadrill Finance issued $ 500 million in aggregate principal amount of 8.375 % Senior Secured Second Lien Notes due 2030 in an offering conducted pursuant to Rule 144A and Regulation S under the Securities Act. In August 2023, Seadrill Finance issued an additional $ 75 million in aggregate principal amount of 8.375 % Senior Secured Second Lien Notes due 2030 maturing on August 1, 2030 (together the " 2030 Notes "). 
+
+ On June 30, 2026, in connection with the issuance of the 2034 Notes, Seadrill Finance satisfied and discharged the indenture governing the 2030 Notes (the " 2030 Notes Indenture " ) in accordance with its terms. During the second quarter of 2026, in connection with the extinguishment of the 2030 Notes, the Company recognized a loss of $ 35 million classified within "Other financial and non-operating items" in the Condensed Consolidated Statement of Operations, consisting of the make-whole premium and unamortized issuance costs associated with the 2030 Notes. 
+
+ Revolving credit facility 
+
+ On July 27, 2023, Seadrill Limited, along with its subsidiary, Seadrill Finance, as borrower, entered into a Senior Secured Revolving Credit Agreement (as amended from time to time, the " Credit Agreemen t"), which established a Senior Secured Revolving Credit Facility (the " Revolving Credit Facility "). The commitments under the Revolving Credit Facility, which originally carried a five-year term, became available for drawdown on July 27, 2023. Prior to the Amendment (as defined below), the Revolving Credit Facility permitted borrowings of up to $ 225 million in revolving credit for working capital and other corporate purposes and included an "accordion feature" allowing Seadrill to increase this limit by up to an additional $ 100 million, subject to agreement from the incremental lenders. The Revolving Credit Facility is secured by liens on substantially all of the Company's rigs and related assets, other than non-core assets. Seadrill Limited, and certain of its subsidiaries that own collateral or are otherwise material, guarantee the obligations under the Credit Agreement. 
+
+ On April 3, 2026, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into Amendment No. 1 to Senior Secured Revolving Credit Agreement to increase the letter of credit sub-limit from $ 50 million to $ 100 million. 
+
+ On June 16, 2026, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into Amendment No. 2 to Senior Secured Revolving Credit Agreement (the “ Amendment ”). Upon its effectiveness, the Amendment, among other things, (i) increased the commitments for revolving borrowings from $ 225 million to $ 300 million, (ii) extended the stated maturity date of the Revolving Credit Facility from 2028 to 2031, (iii) removed certain immaterial subsidiaries and stacked vessels as guarantors and collateral, respectively, under the Credit Agreement, in accordance with the terms of the Amendment, (iv) modified the commitment fees payable under the Credit Agreement, (v) amended certain restrictive covenants to provide more operational and financial flexibility for Seadrill Limited and its subsidiaries and (vi) provided for the resignation of JPMorgan SE as predecessor administrative agent and for the appointment of JPMorgan Chase Bank, N.A. as successor administrative agent. The Amendment became effective on June 30, 2026, and the commitments thereunder became effective and available to be borrowed, subject to customary borrowing conditions. 
+
+ The Revolving Credit Facility, at Seadrill Finance’s option, bears interest at a rate of either (i) the applicable Term Secured Overnight Financing Rate (“SOFR”) Rate (as defined in the Credit Agreement) or (ii) the Daily Simple SOFR (as defined in the Credit Agreement), in each case plus an applicable margin. For both the Term SOFR Rate and Daily Simple SOFR, the applicable margin ranges from 2.50 % to 3.50 % per annum based on Seadrill's credit ratings. As of June 30, 2026, the applicable margin was 2.50 % per annum. The Revolving Credit Facility also incurs a commitment fee on undrawn amounts at a rate of 0.50 % per annum. No funded borrowings have been made under the Revolving Credit Facility to date. 
+
+ 10 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ During the third quarter of 2025, the Company issued a NOK 403 million guarantee ($ 41 million as of June 30, 2026) under the Revolving Credit Facility related to the SFL Hercules Ltd. claim. As of June 30, 2026, outstanding letters of credit and bank guarantees under the Revolving Credit Facility totaled approximately $ 52 million, which reduced the Company’s available capacity under the Revolving Credit Facility to $ 248 million. 
+
+ For further details, please refer to Note 13 – "Commitments and contingencies". 
+
+ Unsecured senior convertible bond 
+
+ The $ 50 million unsecured senior convertible bond (the " unsecured senior convertible bond "), issued on emergence from Chapter 11, has a maturity of August 2028 and bears interest, payable quarterly in cash, at the Term SOFR (as defined in the Note Purchase Agreement dated as of February 22, 2022, as amended (the " Note Purchase Agreement "), plus 6 % on the aggregate principal amount of $ 50 million. The bond is convertible (in full and not in part) into Shares at a conversion rate of 52.6316 Shares per $1,000 principal amount of the bond, subject to certain adjustments set forth in the Note Purchase Agreement relating to the unsecured senior convertible bond. If not converted, a bullet repayment will become due on the maturity date. 
+
+ Note 10 – Related party transactions 
+ 
+ As of June 30, 2026 , our major related party is the Sonadrill joint venture, over which we hold significant influence. 
+
+ Related party revenues 
+ 
+ Our related party revenues include the following: 
+
+ Three months ended June 30, Six months ended June 30, 
+
+ (In $ millions) 
+ 2026 2025 2026 2025 
+
+ Management fees revenues (a) 
+ 64 62 124 120 
+
+ Add-on services 3 3 6 6 
+
+ Reimbursable revenues (b) 
+ 7 6 11 16 
+
+ Leasing revenues (c) 
+ 8 8 16 16 
+
+ Total related party operating revenues 82 79 157 158 
+
+ (a) Seadrill provides management and administrative services an d operational and technical support services to Sonadrill. These services are charged on a dayrate basis. 
+
+ (b) Reimbursable revenues primarily relate to Sonadrill project work on the Libongos , Quenguela and West Gemini rigs. 
+
+ (c) We earn leasing revenues on the charter of the West Gemini to Sonadrill. 
+ 
+ R elated party balance s 
+
+ As of June 30, 2026, Seadrill's related party receivable balance due from Sonadrill was $ 24 million , recorded in "Amounts due from related parties, net" w ithin our unaudited Condensed Consolidated Balance Sheet as of June 30, 2026 . 
+
+ As of December 31, 2025, Sonadrill prepaid management fees of $ 3 million to Seadrill, which was recorded in "Other current liabilities" within our unaudited Condensed Consolidated Balance Sheet as of December 31, 2025 . 
+
+ Note 11 – Fair value of financial instruments 
+ 
+ The carrying values and estimated fair values of certain of our financial instruments as of the dates specified were as follows: 
+
+ June 30, 2026 December 31, 2025 
+
+ (In $ millions) Fair 
+value Carrying
+value Fair 
+value Carrying
+value 
+
+ Liabilities 
+
+ $ 700 million senior bond (Level 1) 
+ 677 687 — — 
+
+ $ 575 million secured bond (Level 1) 
+ — — 598 563 
+
+ Unsecured senior convertible bond - debt component (Level 3) 
+ 55 50 56 50 
+
+ 11 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Financial instruments categorized as level 1 
+
+ The fair values of the $ 700 million senior bond and $ 575 million secured bond are based on market traded values. 
+
+ Financial instruments categorized as level 3 
+
+ The fair value attributed to the unsecured senior convertible bond was bifurcated into two elements: the straight debt component was derived through a discounted cash flow approach, and the conversion option was derived through an option pricing model. The conversion option was recorded in equity at the point the bond was issued, and therefore, has not been included in the table above. 
+
+ Our cash and cash equivalents, restricted cash, accounts receivable, related party receivables and accounts payable are by their nature short-term. As a result, the carrying values included in our unaudited Condensed Consolidated Balance Sheets approximate fair value. 
+
+ Note 12 – Common shares 
+ 
+ Share capital as of June 30, 2026 and December 31, 2025 was as follows: 
+
+ Issued and fully paid share capital 
+
+ Shares Par value per share ($) $ thousands 
+
+ As of December 31, 2025 62,374,171 0.01 624 
+
+ Vesting of restricted stock units 75,276 0.01 — 
+
+ As of March 31, 2026 62,449,447 0.01 624 
+
+ Vesting of restricted stock units 91,996 0.01 1 
+
+ As of June 30, 2026 62,541,443 0.01 625 
+
+ (1) As of June 30, 2026, common shares issued of 62,541,443 include 511,078 of common shares repurchased, pending cancellation. These shares are considered retired for accounting purposes. 
+ 
+ During the three months ended June 30, 2026, the Company repurchased an aggregate of 511,078 shares with a weighted average Share price of $ 38.66 , amounting to $ 20 million. 
+
+ Note 13 – Commitments and contingencies 
+ 
+ W e recognize loss contingencies in the unaudited Condensed Consolidated Financial Statements where it is probable that an outflow of economic benefits will be required to settle an obligation and the amount is reasonably estimable. An adverse outcome in a matter described below could have an adverse effect on Seadrill's operating results, cash flows and financial position. Accruals for contingencies and uncertain tax positions related to matters described below, if any, are recorded in "Accrued expenses" within "Other current liabilities" and "Uncertain tax positions" within "Other non-current liabilities", respectively, in the unaudited Condensed Consolidated Balance Sheets. 
+
+ Legal Proceedings 
+
+ SFL Hercules Ltd. 
+
+ In March 2023, Seadrill was served with a claim from SFL Hercules Ltd., filed in the Oslo District Court in Norway, relating to our redelivery of the rig West Hercules to SFL Corporation Ltd. (" SFL ") in December 2022. In February 2025, the Oslo District Court delivered a judgment in favor of SFL Hercules Ltd. ordering Seadrill to pay SFL approximately $ 37 million, plus interest and legal costs of approximately $ 11 million, based on foreign exchange rates at the time of the judgment. Seadrill intends to vigorously contest the judgment and filed an appeal in March 2025. The appeal proceedings have completed, and we expect the court to issue a judgment in the second half of 2026. The ultimate amount due, if any, cannot be predicted at this time. 
+
+ As is customary in Norway, Seadrill issued a guarantee in the amount of NOK 574 million in August 2025 (approximately $ 58 million as of June 30, 2026) to the Norwegian Enforcement Authorities as security for the judgment. The issued guarantee consists of NOK 403 million (approximately $ 41 million as of June 30, 2026) from our Revolving Credit Facility and NOK 171 million (approximately $ 17 million as of June 30, 2026) from our Bilateral Facility (as defined herein). 
+
+ Sonadrill fees claim 
+
+ In March 2023, Seadrill was served with a claim from an individual (the " Claimant ") filed in the High Court of Justice, Business and Property Courts of England and Wales, King's Bench Division, Commercial Court (the " High Court "). The Claimant alleged breach of contract and unjust enrichment damages of approximately $ 72 million related to an alleged failure by the Company to pay the Claimant a fee for services in arranging the Sonadrill joint venture dating back to 2018. The case concluded in March 2025. 
+
+ In July 2025, the High Court rendered judgment in favor of the Claimant. In October 2025, the High Court ruled on the first tranche of damages for the period prior to October 2024, including interest and legal fees, and Seadrill paid the first tranche of damages of $ 43 million. In June 2026, Seadrill paid the second tranche of damages of $ 16 million, resulting in full and final settlement of the matter with the Claimant. 
+
+ 12 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Nigerian Cabotage Act litigation 
+
+ In November 2015, the Nigerian Maritime Administration and Safety Agency (" NMASA ") issued a detention in respect of the rig West Capella for failure to comply with requirements of the Coastal and Inland Shipping (Cabotage) Act 2003 (the " Cabotage Act "), specifically, failure to pay a Cabotage fee of 2 % on contract revenue. While the named party is Seadrill Mobile Units Nigeria Ltd (previously an Aquadrill entity, acquired by Seadrill upon the merger of Seadrill and Aquadrill) (" SMUNL "), the matter relates to three rigs: the West Capella , West Saturn and West Jupiter . SMUNL commenced proceedings in May 2016 against the Honourable Minister for Transportation, the Attorney General of the Federation and NMASA with respect to interpretation of the Cabotage Act. In June 2019, the Federal High Court of Nigeria delivered a judgment (1) finding that: (a) Drilling operations fall within the definition of "Coastal Trade" or "Cabotage" under the Cabotage Act and (b) Drilling Rigs fall within the definition of "Vessels" under the Cabotage Act, and (2) directing SMUNL to deduct 2 %, or approximately $ 69 million, of their contract value and remit the same to NMASA. In June 2019, the Court of Appeals sitting in Lagos (" COA ") issued a conflicting judgment in Transocean Support Services Nigeria & Ors v NIMASA & Anor , finding drilling units cannot be deemed vessels under the Cabotage Act pending appeal. SMUNL filed an appeal to the COA in July 2019, and applied to the Federal High Court for an injunction pending appeal to prevent enforcement. Due to the volume of cases currently being handled by the COA, the Registry of the COA is yet to schedule the hearing date for the appeal. Although we intend to strongly pursue this appeal, we cannot predict the outcome of this case. 
+
+ Sete Brazil claim 
+
+ In or around 2010, Petroleo Brasileiro S.A. (" Petrobras ") initiated a project in Brazil to construct a fleet of 28 offshore drilling units to support Petrobras (the " Sete Brazil Project "). A Brazilian company (" Sete Brazil ") was formed in Brazil as a vehicle for the Sete Brazil Project. The Sete Brazil Project was unable to obtain financing and none of the 28 offshore drilling units was ever fully constructed. Sete Brazil was eventually declared bankrupt by the Brazilian courts in December 2024 although that bankruptcy is presently suspended. 
+
+ In January 2025, Seadrill Brazil received notices from Petrobras asserting "delay penalties" against Seadrill Brazil relating to three drillships to be constructed under the Sete Brazil Project and operated in Brazil by Seadrill Brazil under contracts awarded in 2012. The aggregate amount of the delay penalties claimed by Petrobras as of the date of receipt of the notices was approximately $ 213 million, with the potential for further delay penalties, which could be significant, to be assessed ratably over the remaining term of the drilling contracts for the three drillships. Petrobras indicated it may exercise set-off rights against certain amounts payable to Seadrill Brazil under its contracts with Petrobras for certain of our drillships (unrelated to the Sete Brazil Project) that are currently operating in Brazil, revenues related to which are included in our backlog as of June 30, 2026. No set-off right has been exercised to date. The contracts limit aggregate delay penalties to 10 % of the total "estimated contract value", as defined in the contracts. 
+
+ The Sete Brazil Project contracts also provide an alternative remedy to Petrobras of "compensatory damages" based upon termination of the contracts for which we would have joint and several liability if such damages were awarded to Petrobras. Petrobras could seek delay penalties or compensatory damages but could not seek both under the contracts. We were copied on correspondence between Petrobras and Sete Brazil (and certain of its related companies) in which Petrobras alleged that it is entitled to collect compensatory damages of approximately $ 825 million from these companies. Petrobras has not indicated to us that they intend to pursue these claims against us or set off these claims against our current drilling contracts. We dispute liability and do not believe any damages are due to Petrobras from us, Sete Brazil or any of its related companies in connection with the Sete Brazil Project as either delay penalties or compensatory damages. 
+
+ Petrobras and Seadrill have agreed to participate in voluntary mediation, and Petrobras has committed to not exercise any set-off rights pending the outcome of the mediation. Petrobras has indicated that the mediation could commence in the third quarter of 2026, but the process continues to be delayed. We cannot predict when the mediation will be completed, or what the outcome may be. Dialogue between the parties is ongoing. We are evaluating our legal options, which may include, among other things, seeking injunctive relief, seeking remedies against Petrobras under Seadrill’s prior U.S. Chapter 11 bankruptcy proceedings, and asserting counterclaims for substantial damages against Petrobras in Brazilian courts. This matter is in its early stages, and we are not able to predict its timing or outcome. In addition, the nature, timing, calculation and ultimate amount of the purported penalties are subject to principles of contract interpretation before Brazilian courts. Seadrill intends to vigorously defend its position and pursue available remedies. 
+
+ Because we do not believe that it is probable that a loss with respect to the claims alleged by Petrobras has been incurred, and we cannot reasonably estimate the amount of any such loss, were it to be incurred, we have not accrued any amounts in respect thereof in our financial statements. 
+
+ Brazil tax audit 
+
+ Seadrill Serviços de Petróleo Ltda (" Seadrill Brazil ") has a long-standing dispute with Brazil’s tax authority relating to assessment of income tax, penalties, and interest for years 2009 and 2010 and is litigating the matter in Brazil’s courts. The trial court ruled in favor of Seadrill Brazil, but the Federal Regional Court reversed the lower court decision in September 2023 and upheld the tax authority’s assessment. In the first quarter of 2024, Seadrill Brazil filed an appeal in Brazil’s Superior Court of Justice, and we continue to vigorously defend our position. The ultimate timing and outcome of this litigation cannot be determined. As of June 30, 2026, the assessed income tax, penalties, interest accruing on the asserted tax underpayment, and other amounts the courts potentially may award Brazil’s government, together, totaled approximately $ 84 million. 
+
+ In connection with its judicial appeal against the tax authority’s assessment for years 2009 and 2010, Seadrill Brazil has entered into an agreement for an insurance bond of BRL 435 million ($ 84 million as of June 30, 2026). 
+
+ Additionally, Seadrill Brazil has brought administrative appeals against assessments of additional income tax, indirect taxes, penalties, and interest for years 2012, 2016, and 2017. The assessments for these subsequent years raise issues similar to those that are the subject of the disputed assessments for 2009 and 2010, but the 2012 assessment involves other factual and legal issues as well. The timing and outcome of these administrative appeals and of any subsequent judicial review cannot be determined. As of June 30, 2026, the assessed taxes, penalties, and interest for 2012, 2016, and 2017 totaled, in aggregate, approximately $ 91 million. 
+
+ 13 
+
+ SEADRILL LIMITED 
+
+ NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ Other matters 
+
+ Other tax audits and disputed assessments of income and other taxes, including applicable penalties and interest, remain outstanding as of June 30, 2026 and continue to be monitored and evaluated by the Company. These tax audit and assessment claims are attributable principally to Mexico and Norway. We continue to vigorously defend our tax positions and currently consider the ultimate resolution of tax audit and assessment claims will not have a material adverse effect on our financial position, operating results and cash flows. 
+
+ We operate in various countries in the world. We recognize uncertain tax positions if the weight of available evidence indicates that it is more likely than not that the position will be sustained on audit by relevant tax authorities, including resolution of related appeals or litigation processes, if any. While we believe we have the required support for the positions taken on our tax returns, we cannot predict with certainty as to the ultimate outcome of any existing or future assessments. 
+
+ Other material disputes or litigation 
+
+ In addition to the foregoing, from time to time we are a named defendant or party in certain other lawsuits, claims or proceedings arising in the ordinary course of business or in connection with our acquisition and disposal activities. Although the outcome of such lawsuits or other proceedings cannot be predicted with certainty, and the amount of any liability that could arise with respect to such lawsuits or other proceedings cannot be predicted accurately, we currently do not expect these other matters to have a material adverse effect on our financial position, operating results and cash flows. 
+
+ Guarantees 
+
+ We have issued performance guarantees for potential liabilities that may result from drilling activities under current or previous managed rig arrangements with Sonadrill. As of June 30, 2026, we had not recognized any liabilities for these guarantees as we do not consider it probable that the guarantees will be called. The guarantees provided on behalf of Sonadrill have been capped at $ 1.1 billion, in the aggregate, across the three rigs operating in the joint venture on two active and two historic contracts. 
+
+ 14 
+
+ Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations 
+
+ The following discussion should be read in conjunction with the unaudited Condensed Consolidated Financial Statements and related notes included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q, as well as the Consolidated Financial Statements and related notes included in our 2025 10-K. 
+
+ The following discussion and analysis contains forward-looking statements that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of certain factors, including those set forth under "Risk Factors" in Part I, Item 1A. of our 2025 10-K and "Forward-Looking Statements" in this Quarterly Report on Form 10-Q. 
+
+ Our Business 
+
+ We are an offshore drilling contractor providing worldwide offshore drilling services to the oil and gas industry. Our primary business is the ownership and operation of drilling rigs for operations in shallow to ultra-deepwater in both benign and harsh environments. We contract our drilling units to drill wells for our customers on a dayrate basis. Our customers include oil super-majors, state-owned national oil companies and independent oil and gas companies. In addition, we provide management services to certain affiliated entities. 
+
+ As of June 30, 2026, we owned a total of 15 drilling rigs. In addition to our owned assets, as of June 30, 2026, we managed two 7th generation drillships owned by Sonangol EP. 
+
+ Significant Developments 
+
+ Refinancing of Senior Notes 
+
+ On June 30, 2026, Seadrill Finance issued $700 million in aggregate principal amount of 6.750% Senior Notes due 2034 in an offering conducted pursuant to Rule 144A and Regulation S under the Securities Act. The 2034 Notes are fully and unconditionally guaranteed, jointly and severally, by the Company and certain subsidiaries of the Company that are guarantors under the Credit Agreement, and in the future by certain subsidiaries of the Company that become borrowers or guarantors under the Credit Agreement or any other syndicated credit facility or capital markets debt in an aggregate principal amount in excess of a certain amount. 
+
+ On June 30, 2026, in connection with the issuance of the 2034 Notes, Seadrill Finance satisfied and discharged the 2030 Notes Indenture in accordance with its terms. 
+
+ Refer to "Liquidity and Capital Resources - Borrowing Activities" and Note 9 - "Debt" for additional information. 
+
+ Revolving Credit Facility Amendment 
+
+ On June 16, 2026, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into the Amendment to the Credit Agreement to, among other things, increase the commitments for revolving borrowings from $225 million to $300 million and extend the maturity date from 2028 to 2031. The Amendment became effective on June 30, 2026, and the commitments thereunder became effective and available to be borrowed, subject to customary borrowing conditions. 
+
+ Refer to "Liquidity and Capital Resources - Capital allocation framework and Share repurchase program" and Note 9 - "Debt" for additional information. 
+
+ Share Repurchase Program 
+
+ On June 22, 2026, the Company's Board of Directors authorized an extension of the Share repurchase program to run through December 31, 2026. 
+
+ During the three and six months ended June 30, 2026, the Company repurchased an aggregate of 511,078 Shares with a weighted average Share price of $38.66, amounting to approximately $20 million. 
+
+ Refer to "Liquidity and Capital Resources - Capital allocation framework and Share repurchase program" and Note 12 - "Common shares" for additional information about the Share repurchase program. 
+
+ Oil price volatility 
+
+ The price of oil has experienced increased volatility and has risen in response to the ongoing conflicts in the Middle East, including the current conflict in Iran, which started on February 28, 2026, and the unprecedented blockades of the Strait of Hormuz resulting therefrom. The Brent oil price was $71 per barrel on February 27, 2026 and increased to an average price of approximately $103 per barrel for the second quarter of 2026. We continue to evaluate and monitor the impacts of the recent oil price volatility and the ongoing conflicts in the Middle East on our business and operations; however, it is not possible to predict the long-term impact, if any, of the disruptions to commodity prices, global energy supplies, energy markets and economic conditions, on our business and operations. 
+
+ U.S. global trade policy changes 
+
+ Ongoing and recently proposed changes to U.S. global trade policy, along with potential international retaliatory measures, have continued to cause high volatility in global markets and uncertainty around short- and long-term economic impacts in the U.S., including concerns over inflation, recession and slowing growth. We continue to evaluate and monitor the potential impacts of these changes and measures, including the imposition of tariffs and ongoing legal challenges to such tariffs, on our business and operations; however, it is not possible to predict the impact, if any, of any changes or proposed changes to the U.S. global trade policy, or any international retaliatory measures, on our business and operations. 
+
+ 15 
+
+ Contract Backlog 
+
+ Contract backlog includes all firm contracts at the contractual operating dayrate multiplied by the number of days remaining in the firm contract period. For contracts which include a market indexed rate mechanism, we utilize the current applicable dayrate multiplied by the number of days remaining in the firm contract period. Contract backlog includes management contract revenues and leasing revenues from bareboat charter arrangements, denoted as "other" in the tables below. Contract backlog excludes revenues for mobilization, demobilization and contract preparation or other incentive provisions and excludes backlog relating to non-consolidated entities. 
+
+ The contract backlog for our fleet was as follows as of the dates specified:
+
+ (In $ millions) June 30, 2026 December 31, 2025 
+
+ Drilling contracts 2,628 2,095 
+
+ Other 306 285 
+
+ Total contract backlog 2,934 2,380 
+
+ Our contract backlog includes only firm commitments represented by signed drilling contracts. The full contractual operating dayrate may differ from the actual dayrate we ultimately receive. For example, an alternative contractual dayrate, such as a waiting‑on‑weather rate, repair rate, standby rate or force majeure rate, may apply under certain circumstances. The contractual operating dayrate may also differ from the actual dayrate we ultimately receive because of several other factors, including rig downtime or suspension of operations. In certain contracts, the d ayrate may be reduced to zero if, for example, repairs extend beyond a stated period. 
+
+ We estimate the June 30, 2026 contract backlog to be realized over the following periods: 
+
+ (In $ millions) Year ending December 31, 
+
+ Contract backlog Total 
+ 2026 (1) 
+ 
+ 2027 
+ 
+ 2028 
+ Thereafter 
+
+ Drilling contracts 2,628 625 1,074 493 436 
+
+ Other 306 138 106 62 — 
+
+ Total 2,934 763 1,180 555 436 
+
+ (1) Remainder of 2026. 
+
+ The actual amount of revenues earned and the actual periods during which revenues are earned will differ from the amounts and periods shown in the tables above due to various factors, including shipyard and maintenance, surveys, upgrades and regulatory projects, unplanned downtime and other factors that result in a lower applicable dayrate than the full contractual operating dayrate. Additional factors that could affect the amount and timing of actual revenue to be recognized include customer liquidity issues and contract terminations, which are available to our customers under certain circumstances. 
+
+ Business Environment 
+
+ The table below shows the average oil price for the six months ended June 30, 2026 and year ended December 31, 2025 . The Brent oil price as o f August 6, 2026 was $82/bbl. 
+
+ June 30, 2026 December 31, 2025 
+
+ Average Brent oil price ($/bbl) 88 70 
+
+ Source: Bloomberg 
+
+ In recent years, oil prices have generally remained at levels that support offshore exploration and development activity, where global rig demand has been steady. This level of demand was sustained by the combination of commodity prices, heightened focus on energy security, and relative attractiveness of offshore plays with respect to both cost and carbon emissions. Recently, however, the ongoing conflict in Iran and the unprecedented closure of the Strait of Hormuz have caused significant disruption in the normal flow of oil, refined petroleum products, and related commodities, resulting in higher oil prices. 
+
+ The price of Brent oil averaged $88 per barrel during the six months ended June 30, 2026 up from an average of $70 per barrel in 2025, driven primarily by ongoing conflicts in the Middle East that disrupted global oil supply during the first half of 2026. 
+
+ Uncertainty persists in the market, particularly in light of concerns over global economic conditions (including the current conflict in Iran), government trade policies and output increases by the Organization of the Petroleum Exporting Countries and other major international producers. In addition, inflationary pressures may impact the cost base in our industry, including personnel costs and the prices of goods and services required to reactivate or operate rigs. 
+
+ As global tendering activity accelerates, we see signs that point towards a market recovery in 2027. In addition, we believe oil majors are calling for renewed focus on large-scale exploration and investment, and there is also growing consensus that U.S. shale production is plateauing. As a result, with projections of growing oil and gas demand and the lagging energy transition, operators are pivoting back towards deepwater exploration in order to replace reserves and sustain production growth. 
+
+ 16 
+
+ The table below shows the global number of rigs on contract and marketed utilization for the six months ended June 30, 2026 and year ended December 31, 2025: 
+
+ June 30, 2026 December 31, 2025 
+
+ Contracted rigs 
+
+ Benign environment floater 107 108 
+
+ Harsh environment floater 23 21 
+
+ Harsh environment jackup 27 28 
+
+ Marketed utilization 
+
+ Benign environment floater 87 % 87 % 
+
+ Harsh environment floater 95 % 90 % 
+
+ Harsh environment jackup 96 % 97 % 
+
+ Source: RigLogix 
+
+ Global benign-environment floaters 
+
+ Marketed utilization and the number of contracted rigs remained relatively consistent in the six months ended June 30, 2026 compared to the year ended December 31, 2025. 
+
+ Global harsh environment units 
+
+ Marketed utilization for harsh environment floaters improved in the six months ended June 30, 2026 compared to the year ended December 31, 2025, whereas utilization for harsh environment jackups remained relatively consistent over the same periods, reflecting continued demand for high-specification assets. 
+
+ 17 
+
+ Results of operations 
+
+ Results for the three months ended June 30, 2026 and June 30, 2025 
+
+ The tables included below set out financial information for the three months ended June 30, 2026 and June 30, 2025: 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Operating revenues 
+ 449 377 72 19 % 
+
+ Operating expenses 
+ (377) (371) (6) 2 % 
+
+ Operating profit 72 6 66 1100 % 
+
+ Interest expense 
+ (16) (15) (1) 7 % 
+
+ Financial and non-operating items (15) (4) (11) 275 % 
+
+ Profit/(loss) before income taxes 41 (13) 54 (415) % 
+
+ Income tax expense (12) (29) 17 (59) % 
+
+ Net income/(loss) 29 (42) 71 (169) % 
+
+ 1) Operating revenues 
+
+ Operating revenues consist of contract revenues, reimbursable revenues, management contract revenues, leasing revenues and other revenues. 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Contract revenues (a) 
+ 355 288 67 23 % 
+
+ Reimbursable revenues (b) 
+ 19 16 3 19 % 
+
+ Management contract revenues 67 65 2 3 % 
+
+ Leasing revenues 8 8 — — % 
+
+ Total operating revenues 
+ 449 377 72 19 % 
+
+ a) Contract revenues 
+
+ Contract revenues represent the revenues we earn from contracting our drilling units to customers, primarily on a dayrate basis, and are predominately driven by the average number of rigs under contract during a period, the average dayrates earned and economic utilization achieved by those rigs under contract. We have set out movements in these key indicators of performance in the sections below. 
+
+ i. Average number of rigs on contract 
+
+ We calculate the average number of rigs on contract by dividing the aggregate days our rigs (excluding managed rigs) were on contract during the reporting period by the number of days in that reporting period. 
+
+ The average number of rigs on contract remained consistent at 10 in each of the three months ended June 30, 2026 and 2025; however, there was an increase in the total days on contract resulting in higher contract revenues of $11 million in the three months ended June 30, 2026 compared to the three months ended June 30, 2025. 
+
+ The increase was primarily driven by the West Capella and Sevan Louisiana , with contracts that started in March 2026 in Malaysia and the U.S. Gulf of America, respectively, compared to the three months ended June 30, 2025, during which the rigs were operating for less days. The increase was partially offset by the West Tellus operating for fewer days during the three months ended June 30, 2026, due to contract preparations for its new contract that started in June 2026 in Brazil, compared to being fully contracted during the three months ended June 30, 2025. 
+
+ ii. Average contractual dayrates 
+
+ We calculate the average contractual dayrate by dividing the aggregate contractual dayrates during a reporting period by the aggregate number of days for the reporting period. 
+
+ The average contractual dayrate earned during the three months ended June 30, 2026 was $360 thousand compared to $331 thousand during the three months ended June 30, 2025, resulting in a $24 million increase in contract revenues in the three months ended June 30, 2026 compared to the three months ended June 30, 2025. 
+
+ The increase was driven by higher dayrates for the West Jupiter , West Tellus , West Auriga , and West Carina operating in Brazil, and the West Neptune operating in the U.S. Gulf of America during the three months ended June 30, 2026, compared to the three months ended June 30, 2025. These impacts were partially offset by lower dayrates for the West Vela and Sevan Louisiana operating in the U.S. Gulf of America, and the West Polaris operating in Brazil during the three months ended June 30, 2026, compared to the three months ended June 30, 2025. 
+
+ 18 
+
+ iii. Economic utilization for rigs on contract 
+
+ We define economic utilization as dayrate revenue earned during the period, excluding bonuses, divided by the contractual operating dayrate multiplied by the number of days on contract in the period. If a drilling unit earns its full operating dayrate throughout a reporting period, its economic utilization would be 100%. However, there are many situations that give rise to a dayrate being earned that is less than the contractual operating rate, such as planned downtime for maintenance. In such situations, economic utilization reduces below 100%. 
+
+ The economic utilization for the three months ended June 30, 2026 was 96%, compared to 93% for the three months ended June 30, 2025, resulting in a $8 million increase in contract revenues in the three months ended June 30, 2026 compared to the three months ended June 30, 2025. The increase was primarily due to improved economic utilization on the West Polaris and West Elara during the three months ended June 30, 2026 compared to the three months ended June 30, 2025. This was partially offset by downtime on the West Saturn during the three months ended June 30, 2026. 
+
+ iv. Deferred mobilization revenues 
+
+ We receive fees for the mobilization of our rigs, where the associated revenue is recognized ratably over the expected term of the related drilling contract. As a result, we record a contract liability for mobilization fees received, which is amortized ratably to contract revenues as services are rendered over the initial term of the related drilling contract. 
+
+ The amortization of deferred mobilization revenues increased by $9 million during the three months ended June 30, 2026, compared to the three months ended June 30, 2025. The increase was primarily attributable to revenues related to the West Elara recognized during the three months ended June 30, 2026, along with mobilization fees related to West Jupiter and West Capella following the start of their contracts in March 2026. 
+
+ v. Other items 
+
+ Contract revenues include integrated and add-on services. 
+
+ There was an increase in contract revenues of $15 million during the three months ended June 30, 2026, compared to the three months ended June 30, 2025, primarily attributable to the West Capella, West Saturn, West Vela, West Neptune and Sevan Louisiana earning revenues from integrated and add-on services during the three months ended June 30, 2026, compared to the three months ended June 30, 2025. 
+
+ b) Reimbursable revenues 
+
+ We generally receive reimbursements from our customers for the purchase of supplies, equipment, personnel and other services provided at their request in accordance with a drilling contract. We classify such revenues as reimbursable revenues. 
+
+ For the three months ended June 30, 2026 and the three months ended June 30, 2025, reimbursable revenues primarily related to rigs managed for the Sonadrill joint venture for long-term maintenance projects on the Libongos and Quenguela , along with reimbursable revenues related to services provided across various customers. 
+
+ The $3 million increase in the three months ended June 30, 2026 compared to the three months ended June 30, 2025 was primarily due to additional hired equipment on the Sevan Louisiana during the second quarter of 2026, compared to the second quarter of 2025. 
+
+ 2) Operating expenses 
+
+ Total operating expenses include vessel and rig operating expenses, reimbursable expenses, depreciation of drilling units and equipment, amortization of intangibles, management contract expenses, and selling, general and administrative expenses. 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Vessel and rig operating expenses (a) 
+ (215) (180) (35) 19 % 
+
+ Reimbursable expenses 
+ (19) (16) (3) 19 % 
+
+ Depreciation and amortization (b) 
+ (72) (56) (16) 29 % 
+
+ Management contract expenses (c) 
+ (42) (93) 51 (55) % 
+
+ Selling, general and administrative expenses 
+ (29) (26) (3) 12 % 
+
+ Total operating expenses 
+ (377) (371) (6) 2 % 
+
+ a) Vessel and rig operating expenses 
+
+ Vessel and rig operating expenses represent the costs we incur to operate a drilling unit that is either in operation or stacked. This includes the remuneration of offshore crews, rig supplies, expenses for repair and maintenance, onshore support costs, and the amortization of deferred mobilization costs. Vessel and rig operating expenses are mainly driven by rig activity. On average, we incur higher vessel and rig operating expenses when a rig is operating compared to when it is stacked. For stacked rigs, we incur higher vessel and rig expenses for warm stacked rigs compared to cold stacked rigs. We incur one-time costs for activities such as preservation and severance when we cold stack a rig. We also incur significant costs when re-activating a rig from cold stack, a proportion of which is expensed as incurred. 
+
+ 19 
+
+ Vessel and rig operating expenses increased by $35 million during the three months ended June 30, 2026 compared to the three months ended June 30, 2025. There was a $43 million increase in vessel and rig operating expenses primarily related to the West Capella commencing operations in Malaysia in March 2026, along with higher integrated services, repair and maintenance and personnel costs during the three months ended June 30, 2026 compared to the three months ended June 30, 2025. This was partially offset by an $8 million decrease in vessel and rig operating expenses during the three months ended June 30, 2026, attributable to the West Tellus preparing for its contract that started in June 2026 in Brazil, compared to operating throughout the three months ended June 30, 2025. 
+
+ b) Depreciation and amortization 
+
+ The $16 million increase in depreciation and amortization for the three months ended June 30, 2026 compared to the three months ended June 30, 2025 is mainly related to long-term maintenance and capital projects across the fleet, and unfavorable contracts recorded as liabilities being fully amortized during 2025. 
+
+ Depreciation of drilling units and equipment 
+
+ Depreciation increased by $12 million in the three months ended June 30, 2026 compared to the three months ended June 30, 2025, mainly attributable to long-term maintenance and capital projects across the fleet, primarily related to the West Neptune , West Vela, West Gemini, West Capella and Sevan Louisiana . 
+
+ Amortization of intangibles 
+
+ Amortization increased by $4 million during the three months ended June 30, 2026 compared to the three months ended June 30, 2025, mainly attributable to unfavorable contracts recorded as liabilities being fully amortized during 2025 related to the West Tellus , West Jupiter and West Carina . 
+
+ c) Management contract expenses 
+
+ Management contract expenses include costs related to Sonadrill's rigs, Quenguela and Libongos , and the Seadrill rig leased to Sonadrill, the West Gemini . 
+
+ Management contract expenses decreased by $51 million during the three months ended June 30, 2026, compared to the three months ended June 30, 2025, primarily attributable to estimated damages recognized following the unfavorable court judgment related to fees for arranging the Sonadrill joint venture in the three months ended June 30, 2025, not recurring in the three months ended June 30, 2026. 
+
+ Refer to Note 13 - "Commitments and contingencies - Legal Proceedings - Sonadrill fees claim" of our unaudited Condensed Consolidated Financial Statements, included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q, for additional details. 
+
+ 3) Interest expense 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Interest on debt facilities (a) 
+ (14) (13) (1) 8 % 
+
+ Other (2) (2) — — % 
+
+ Total interest expense (16) (15) (1) 7 % 
+
+ a) Interest on debt facilities 
+
+ We incurred interest on our debt facilities as summarized below: 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ $575 million secured bond (12) (12) — — % 
+
+ Unsecured senior convertible bond (2) (1) (1) 100 % 
+
+ Total interest on debt facilities (14) (13) (1) 8 % 
+
+ 4) Financial and non-operating items 
+
+ Three months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Interest income 
+ 4 3 1 33 % 
+
+ Equity in earnings of equity method investment (net of tax) 4 6 (2) (33) % 
+
+ Other financial and non-operating items (a) 
+ (23) (13) (10) 77 % 
+
+ Total financial and non-operating items (15) (4) (11) 275 % 
+
+ 20 
+
+ a) Other financial and non-operating items 
+
+ Other financial and non-operating items increased by $10 million during the three months ended June 30, 2026 compared to the three months ended June 30, 2025, primarily due to a loss on debt extinguishment of the 2030 Notes, partially offset by a recovery of costs during the three months ended June 30, 2026 and the recognition of value-added tax (" VAT ") liabilities during the three months ended June 30, 2025, not recurring in the three months ended June 30, 2026. 
+
+ 5) Income tax expense 
+
+ Income tax expense consists of taxes currently payable and changes in deferred tax assets and liabilities related to our ownership and operation of drilling units and may vary significantly depending on jurisdictions and contractual arrangements. In most cases, the calculation of taxes is based on net income or deemed income, the latter generally being a function of gross revenue. 
+
+ The $17 million decrease in tax expense during the three months ended June 30, 2026 compared to the three months ended June 30, 2025 primarily reflects changes in the Company's mix of pre-tax income and loss among tax jurisdictions and changes in the valuation allowance established for Switzerland in the three months ended June 30, 2026 compared to the three months ended June 30, 2025. 
+
+ Results for the six months ended June 30, 2026 and June 30, 2025 
+
+ The tables included below set out financial information for the six months ended June 30, 2026 and June 30, 2025: 
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Operating revenues 
+ 807 712 95 13 % 
+
+ Operating expenses 
+ (711) (688) (23) 3 % 
+
+ Operating profit 96 24 72 300 % 
+
+ Interest expense 
+ (31) (30) (1) 3 % 
+
+ Financial and non-operating items 
+ (8) (6) (2) 33 % 
+
+ Profit/(loss) before income taxes 57 (12) 69 (575) % 
+
+ Income tax expense (35) (44) 9 (20) % 
+
+ Net income/(loss) 22 (56) 78 (139) % 
+
+ 1) Operating revenues 
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Contract revenues (a) 
+ 632 536 96 18 % 
+
+ Reimbursable revenues 29 31 (2) (6) % 
+
+ Management contract revenues (b) 
+ 130 126 4 3 % 
+
+ Leasing revenues 16 16 — — % 
+
+ Other revenues 
+ — 3 (3) (100) % 
+
+ Total operating revenues 
+ 807 712 95 13 % 
+
+ a) Contract revenues 
+
+ i. Average number of rigs on contract 
+
+ The average number of rigs on contract decreased from 10 in the six months ended June 30, 2025 to nine in the six months ended June 30, 2026. The decrease in total days on contract resulted in lower contract revenues of $3 million in the six months ended June 30, 2026 compared to the six months ended June 30, 2025. 
+
+ The decrease was primarily driven by fewer operating days on the West Jupiter and the West Tellus, which were undergoing contract preparation activities during the six months ended June 30, 2026, for contracts that started in March 2026 and June 2026, respectively, compared to being fully contracted during the six months ended June 30, 2025. 
+
+ The decrease was partially offset by the West Neptune and West Polaris , operating throughout the six months ended June 30, 2026 compared to being partially contracted during the six months ended June 30, 2025, along with the West Capella starting its contract in March 2026 compared to the six months ended June 30, 2025, during which the rig was operating for less days. 
+
+ ii. Average contractual dayrates 
+
+ The average contractual dayrate earned during the six months ended June 30, 2026 was $352 thousand compared to $327 thousand during the six months ended June 30, 2025, resulting in a $38 million increase in contract revenues in the six months ended June 30, 2026 compared to the six months ended June 30, 2025. 
+
+ The increase was driven by higher dayrates for the West Jupiter , West Auriga , West Tellus and West Carina operating in Brazil, the West Neptune operating in the U.S. Gulf of America, and the West Elara operating in Norway during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ These impacts were partially offset by lower dayrates for the West Vela and Sevan Louisiana operating in the U.S. Gulf of America, and the West Capella during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ 21 
+
+ iii. Economic utilization for rigs on contract 
+
+ The economic utilization for the six months ended June 30, 2026 was 95%, compared to 89% for the six months ended June 30, 2025, resulting in a $38 million increase in contract revenues in the six months ended June 30, 2026 compared to the six months ended June 30, 2025. 
+
+ The increase was primarily due to improved economic utilization on the West Tellus , West Polaris , West Auriga and Sevan Louisiana during the six months ended June 30, 2026 compared to the six months ended June 30, 2025. This was partially offset by the impact of lower economic utilization due to increased downtime on the West Saturn and West Carina during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ iv. Deferred mobilization revenues 
+
+ The amortization of deferred mobilization revenues increased by $8 million during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. The increase was primarily attributable to revenues related to the West Elara recognized during the six months ended June 30, 2026, along with mobilization fees related to West Jupiter and West Capella following the start of their contracts in March 2026. 
+
+ v. Other items 
+
+ There was an increase in contract revenues of $15 million during the six months ended June 30, 2026, compared to the six months ended June 30, 2025, primarily attributable to the West Capella, West Saturn, West Vela, West Neptune and Sevan Louisiana earning increased revenues from integrated and add-on services during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ b) Management contract revenues 
+
+ Management contract revenues include revenues related to contracts where we provide management, operational and technical support services and are comprised of revenues from our joint venture, Sonadrill, relating to the Libongos , Quenguela and West Gemini. 
+
+ Management contract revenues increased by $4 million in the six months ended June 30, 2026 compared to the six months ended June 30, 2025, primarily driven by higher management fees on the Libongos , Quenguela and the West Gemini . 
+
+ Refer to Note 10 - "Related party transactions" of our unaudited Condensed Consolidated Financial Statements, included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q, for additional details. 
+
+ 2) Operating expenses
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Vessel and rig operating expenses (a) 
+ (396) (359) (37) 10 % 
+
+ Reimbursable expenses 
+ (29) (31) 2 (6) % 
+
+ Depreciation and amortization (b) 
+ (143) (111) (32) 29 % 
+
+ Management contract expenses (c) 
+ (88) (138) 50 (36) % 
+
+ Selling, general and administrative expenses 
+ (54) (49) (5) 10 % 
+
+ Merger and integration related expenses 
+ (1) — (1) 100 % 
+
+ Total operating expenses (711) (688) (23) 3 % 
+
+ a) Vessel and rig operating expenses 
+
+ Vessel and rig operating expenses increased by $37 million during the six months ended June 30, 2026 compared to the six months ended June 30, 2025. There was a $52 million increase primarily related to the West Capella commencing operations in Malaysia in March 2026 and the West Polaris commencing operations in Brazil in February 2025, along with higher integrated services, repair and maintenance and personnel costs during the six months ended June 30, 2026 compared to the six months ended June 30, 2025. This was partially offset by a $15 million decrease in vessel and rig operating expenses during the six months ended June 30, 2026, attributable to the West Jupiter and West Tellus preparing for contracts that started in March and June 2026, respectively, compared to operating throughout the six months ended June 30, 2025, along with lower deferred mobilization costs for contracts in Brazil completed during the first quarter of 2026. 
+
+ 22 
+
+ b) Depreciation and amortization 
+
+ The $32 million increase in depreciation and amortization for the six months ended June 30, 2026 compared to the six months ended June 30, 2025 was mainly attributable to capital projects on the West Auriga and West Polaris and unfavorable contracts recorded as liabilities being fully amortized during 2025. 
+
+ Depreciation of drilling units and equipment 
+
+ Depreciation increased by $23 million in the six months ended June 30, 2026 compared to the six months ended June 30, 2025, mainly attributable to long-term maintenance and capital projects across the fleet, primarily related to the West Neptune , West Vela, West Gemini, West Capella and Sevan Louisiana . 
+
+ Amortization of intangibles 
+
+ Amortization expense increased by $9 million during the six months ended June 30, 2026 compared to the six months ended June 30, 2025, mainly attributable to unfavorable contracts recorded as liabilities being fully amortized during 2025 related to the West Tellus , West Jupiter and West Carina . 
+
+ c) Management contract expenses 
+
+ Management contract expenses decreased by $50 million during the six months ended June 30, 2026, compared to the six months ended June 30, 2025, primarily attributable to estimated damages recognized following the unfavorable court judgment related to fees for arranging the Sonadrill joint venture during the six months ended June 30, 2025, not recurring in the six months ended June 30, 2026. 
+
+ Refer to Note 13 - "Commitments and contingencies - Legal Proceedings - Sonadrill fees claim" of our unaudited Condensed Consolidated Financial Statements, included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q, for additional details. 
+
+ 3) Interest expense 
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Interest on debt facilities (a) 
+ (28) (27) (1) 4 % 
+
+ Other (3) (3) — — % 
+
+ Total interest expense (31) (30) (1) 3 % 
+
+ a) Interest on debt facilities 
+
+ We incurred interest on our debt facilities as summarized below: 
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ $575 million secured bond (25) (24) (1) 4 % 
+
+ Unsecured senior convertible bond (3) (3) — — % 
+
+ Total interest on debt facilities (28) (27) (1) 4 % 
+
+ 4) Financial and non-operating items 
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Interest income 
+ 6 7 (1) (14) % 
+
+ Equity in earnings of equity method investment (net of tax) (a) 
+ 8 14 (6) (43) % 
+
+ Other financial and non-operating items (b) 
+ (22) (27) 5 (19) % 
+
+ Total financial and non-operating items (8) (6) (2) 33 % 
+
+ a) Equity in earnings of equity method investment (net of tax) 
+
+ The equity in earnings of equity method investment relates to Seadrill's proportion of earnings from Sonadrill. 
+
+ The decrease in earnings of $6 million for the six months ended June 30, 2026 compared to the six months ended June 30, 2025 was primarily driven by lower operating dayrates for Libongos and West Gemini , along with the impact of higher management fees for the West Gemini , Libongos and Quenguela in the six months ended June 30, 2026 compared to the six months ended June 30, 2025. This was partially offset by an increased dayrate for Quenguela operating in Angola during the six months ended June 30, 2026, compared to the six months ended June 30, 2025. 
+
+ b) Other financial and non-operating items 
+
+ Other financial and non-operating items improved by $5 million during the six months ended June 30, 2026 compared to the six months ended June 30, 2025, driven by a recovery of costs during the six months ended June 30, 2026, along with the recognition of VAT liabilities and a provision for assets sold during the six months ended June 30, 2025, which did not recur during the six months ended June 30, 2026. This was partially offset by a loss on debt extinguishment of the 2030 Notes recognized during the six months ended June 30, 2026. 
+
+ 23 
+
+ 5) Income tax expense 
+
+ The $9 million decrease in tax expense during the six months ended June 30, 2026 compared to the six months ended June 30, 2025 primarily reflects changes in the Company's mix of pre-tax income and loss among tax jurisdictions and changes in valuation allowances established for Switzerland and Brazil. 
+
+ Liquidity and Capital Resources 
+
+ 1) Capital allocation framework and Share repurchase program 
+
+ In July 2023, in connection with the issuance of the 2030 Notes, Seadrill announced capital allocation principles designed to prioritize a conservative capital structure and liquidity position, focused capital investment in its fleet, and returns to shareholders. Within this framework, Seadrill intends to maintain a net leverage target of less than 1.0x under current market conditions, with a maximum through-cycle net leverage target of less than 2.0x. Seadrill also intends to maintain a strong liquidity position to provide resilience even in a downturn scenario by establishing a target minimum cash-on-hand of $250 million. Further, Seadrill intends to evaluate the potential for accretive additions in core asset categories. 
+
+ So long as Seadrill is able to meet its net leverage and liquidity targets on a forward-looking basis, as well as comply with its Revolving Credit Facility covenant requirements, Seadrill would seek to provide a return to our shareholders of at least 50% of Free Cash Flow (defined as cash flows from operating activities minus additions to drilling units and equipment) in the form of Share repurchases or dividends. Seadrill will consider additional returns to shareholders from the proceeds of any asset sales in the absence of identified, accretive opportunities. Dividends and Share repurchases will be authorized and determined by the Board of Directors in its sole discretion and depend upon a number of factors, including those described above, its future prospects, market trend evaluation and such other factors as the Board of Directors may deem relevant. Please see Item 1A. "Risk Factors - Financial and Tax Risks - We may be unable to meet our capital allocation framework goal of returning at least 50% of Free Cash Flow to shareholders through dividends and share repurchases, which could decrease expected returns on an investment in our Shares " in Part I of our 2025 10-K. 
+
+ During the second quarter of 2024, the Company's Board of Directors authorized a $500 million Share repurchase program that would initially run for a period of two years from June 25, 2024, the date of completion for the programs initiated in 2023 (" Share repurchase program "). 
+
+ On June 22, 2026, the Company's Board of Directors authorized an extension of the Share repurchase program to run through December 31, 2026. 
+
+ During the three and six months ended June 30, 2026, the Company repurchased an aggregate of 511,078 Shares with a weighted average Share price of $38.66, amounting to approximately $20 million. During the three and six months ended June 30, 2025, the Company did not repurchase Shares. 
+
+ From commencement of the Share repurchase program through June 30, 2026, the Company repurchased an aggregate of 7,225,330 Shares with a weighted average Share price of $43.18, amounting to approximately $312 million. As of June 30, 2026, approximately $188 million of the $500 million authorized amount remained available under the Share repurchase program. 
+
+ On September 30, 2024 and December 16, 2024, the Company canceled 4,213,349 and 2,500,903 treasury Shares, respectively, repurchased under this program. 
+
+ While the Share repurchase program has a fixed expiration, it may be modified, suspended or discontinued at any time. Shares may be repurchased at any time and from time to time under the program in open market purchases, privately negotiated purchases, block trades, tender offers, accelerated share repurchase transactions or other derivative transactions, through the purchase of call options or the sale of put options, or otherwise, or by any combination of the foregoing. The Company is under no obligation to purchase any Shares in respect of the repurchase program. The manner, timing, pricing and amount of any repurchases may be based upon a number of factors, including market conditions, the Company’s financial position and capital requirements, financial conditions, competing uses for cash, statutory solvency requirements, the restrictions in the Company’s debt agreements and other factors. 
+
+ The Company may continue Share repurchases pursuant to the Share repurchase program at the Board’s discretion. 
+
+ 2) Liquidity 
+
+ Our level of liquidity fluctuates depending on a number of factors. These include, among others, our drilling units being on contract, economic utilization achieved, average contract dayrates, timing of accounts receivable collection, capital expenditures for rig upgrades and reactivation projects and timing of payments for operating costs and other obligations. 
+
+ As of June 30, 2026, Seadrill had available liquidity of $585 million, which consisted of unrestricted cash of $337 million and available borrowings under our Revolving Credit Facility of $248 million. Our cash on hand, available borrowings under the Revolving Credit Facility, and contract and other revenues are expected to generate sufficient cash flow to fund our anticipated debt service and working capital requirements for the next 12 months. 
+
+ The table below shows total available liquidity, which consists of unrestricted cash and undrawn Revolving Credit Facility borrowings, as of each date presented. 
+
+ (In $ millions) June 30,
+2026 December 31,
+2025 
+
+ Unrestricted cash 337 339 
+
+ Undrawn Revolving Credit Facility 248 185 
+
+ Total available liquidity 585 524 
+
+ 24 
+
+ We have shown our sources and uses of cash by category of cash flows in the table below:
+
+ Six months ended June 30, 
+
+ (In $ millions, except percentages) 2026 2025 Change Change % 
+
+ Net cash used in operating activities (a) 
+ (40) (16) (24) 150 % 
+
+ Net cash used in investing activities (b) 
+ (38) (72) 34 (47) % 
+
+ Net cash provided by financing activities (c) 
+ 73 — 73 100 % 
+
+ Effect of exchange rate changes on cash 
+ — 2 (2) (100) % 
+
+ Change in period (5) (86) 81 (94) % 
+
+ a) Net cash used in operating activities 
+
+ Cash flows from operating activities includes cash receipts from customers, cash paid to employees and suppliers (except for additions to drilling units and equipment), interest and dividends received (except for returns of capital), interest paid, income taxes paid and other operating cash payments and receipts. 
+
+ Net cash used in operating activities during the six months ended June 30, 2026 was $40 million compared to $16 million for the six months ended June 30, 2025. The $24 million increase in net cash used in operating activities in the six months ended June 30, 2026 compared to the six months ended June 30, 2025 was mainly driven by the timing of receipts from customers and our related party, Sonadrill, and increased mobilization costs incurred primarily related to the West Tellus , West Jupiter and West Capella. These were partially offset by the impact of improved operating results and reduced disbursements to suppliers. 
+
+ b) Net cash used in investing activities 
+
+ Net cash used in investing activities during the six months ended June 30, 2026 was $38 million compared to $72 million during the six months ended June 30, 2025. The net cash used in investing activities during the six months ended June 30, 2026 represented capital expenditures primarily on the West Tellus , West Jupiter and West Capella and the acquisition of capital spares, compared to capital expenditures mainly on the West Neptune , West Elara and West Auriga and the acquisition of capital spares during the six months ended June 30, 2025. 
+
+ c) Net cash provided by financing activities 
+
+ Net cash provided by financing activities of $73 million during the six months ended June 30, 2026 primarily consisted of proceeds from the issuance of the $700 million aggregate principal amount of the 2034 Notes, partially offset by the redemption of the $575 million aggregate principal amount of the 2030 Notes, the payment of a make-whole premium of $25 million in connection with the redemption of the 2030 Notes, debt issuance cost payments of $8 million and Shares repurchases of $17 million. 
+
+ 3) Borrowing Activities 
+
+ An overview of our debt as of June 30, 2026 is presented in the table below: 
+
+ (In $ millions) Principal Value Debt Issuance Costs Carrying Value Maturity Date 
+
+ Unsecured 
+
+ $700 million senior bond 700 (13) 687 July 2034 
+
+ Senior convertible bond 50 — 50 August 2028 
+
+ Total debt 750 (13) 737 
+
+ Revolving Credit Facility 
+
+ In July 2023, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into the Credit Agreement which established the Revolving Credit Facility. Seadrill Finance is the borrower under the Credit Agreement, and the facility is secured by liens on substantially all of the Company's rigs and related assets, other than non-core assets. Seadrill Limited, and certain of its subsidiaries that own collateral or are otherwise material, guarantee the obligations under the Credit Agreement. 
+
+ On April 3, 2026, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into Amendment No. 1 to Senior Secured Revolving Credit Agreement to increase the letter of credit sub-limit from $50 million to $100 million. 
+
+ On June 16, 2026, Seadrill Limited, along with its subsidiary, Seadrill Finance, entered into the Amendment. The Amendment, among other things, (i) increased the commitments for revolving borrowings from $225 million to $300 million, (ii) extended the stated maturity date from 2028 to 2031, (iii) removed certain immaterial subsidiaries and stacked vessels as guarantors and collateral, respectively, under the Credit Agreement, in accordance with the terms of the Amendment, (iv) modified the commitment fees payable under the Credit Agreement, (v) amended certain restrictive covenants to provide more operational and financial flexibility for the Company and its subsidiaries and (vi) provided for the resignation of JPMorgan SE as predecessor administrative agent and for the appointment of JPMorgan Chase Bank, N.A. as successor administrative agent. The Amendment became effective on June 30, 2026, and the commitments thereunder became effective and available to be borrowed, subject to customary borrowing conditions. 
+
+ The Revolving Credit Facility, at Seadrill Finance’s option, bears interest at a rate of either (i) the applicable Term Secured Overnight Financing Rate (“SOFR”) Rate (as defined in the Credit Agreement) or (ii) the Daily Simple SOFR (as defined in the Credit Agreement), in each case plus an applicable margin. For both the Term SOFR Rate and Daily Simple SOFR, the applicable margin ranges from 2.50% to 3.50% per annum based on Seadrill's credit ratings. As of June 30, 2026, the applicable margin was 2.50% per annum. The Revolving Credit Facility also incurs a commitment fee on undrawn amounts at a rate of 0.50% per annum. No funded borrowings have been made under the Revolving Credit Facility to date. 
+
+ 25 
+
+ During the third quarter of 2025, the Company issued a NOK403 million guarantee ($41 million as of June 30, 2026) under the Revolving Credit Facility related to the SFL Hercules Ltd. claim. As of June 30, 2026, outstanding letters of credit and bank guarantees under the Revolving Credit Facility totaled approximately $52 million, which reduced the Company’s available capacity under the Revolving Credit Facility to $248 million. 
+
+ For further details, please refer to Note 9 - "Debt" and Note 13 – "Commitments and contingencies" of our unaudited Condensed Consolidated Financial Statements, included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q. 
+
+ Senior Notes 
+
+ On June 30, 2026, Seadrill Finance issued $700 million in aggregate principal amount of 6.750% Senior Notes due 2034 in an offering conducted pursuant to Rule 144A and Regulation S under the Securities Act. The 2034 Notes are fully and unconditionally guaranteed, jointly and severally, by the Company and certain subsidiaries of the Company that are guarantors under the Credit Agreement, and in the future by certain subsidiaries of the Company that become borrowers or guarantors under the Credit Agreement or any other syndicated credit facility or capital markets debt in an aggregate principal amount in excess of a certain amount. 
+
+ On June 30, 2026, in connection with the issuance of the 2034 Notes, Seadrill Finance satisfied and discharged the 2030 Notes Indenture in accordance with its terms. 
+
+ Bilateral Facility 
+
+ Seadrill Rig Holding Company Limited, a subsidiary of Seadrill, has an uncommitted bilateral facility with DNB Bank ASA (the “ Bilateral Facility ”), which permits the issuance of letters of credit and bank guarantees for our account. The Bilateral Facility provides up to $25 million of capacity, where reimbursement obligations under the Bilateral Facility are secured on a pari passu basis with the collateral that secures the Credit Agreement. We pay a fee of 1% on outstanding letters of credit and bank guarantees issued under the Bilateral Facility. As of June 30, 2026, we had approximately $25 million of outstanding letters of credit and bank guarantees issued under the Bilateral Facility. 
+
+ For further details on these facilities, please refer to Note 9 – "Debt" of our unaudited Condensed Consolidated Financial Statements, included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q. 
+
+ Financial covenants 
+
+ The Credit Agreement obligates Seadrill and its restricted subsidiaries to comply with the following financial covenants: 
+
+ • as of the last day of each fiscal quarter, the Interest Coverage Ratio (as defined in the Credit Agreement) is not permitted to be less than 2.50 to 1.00; and 
+
+ • as of the last day of each fiscal quarter, the Consolidated Total Net Leverage Ratio (as defined in the Credit Agreement) is not permitted to be greater than 3.00 to 1.00. 
+
+ As of June 30, 2026, Seadrill was in compliance with these financial covenants. 
+
+ Critical Accounting Estimates 
+
+ The preparation of our unaudited Condensed Consolidated Financial Statements in accordance with U.S. GAAP requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenues and expenses and related disclosures about contingent assets and liabilities. We base these estimates and assumptions on historical experience and on various other information and assumptions that we believe to be reasonable. Critical accounting estimates are important to the portrayal of both our financial position and results of operations and require us to make subjective or complex assumptions or estimates about matters that are uncertain. Actual results may differ from these estimates. 
+
+ For a discussion of our critical accounting estimates, see Part II, Item 7. "Management's Discussion and Analysis of Financial Condition and Results of Operations - Critical Accounting Estimates" in our 2025 10-K. As of June 30, 2026, there have been no material changes to the judgments, assumptions and estimates upon which our critical accounting policies and estimates are based. 
+
+ Item 3. Quantitative and Qualitative Disclosures About Market Risk 
+
+ We are exposed to market risks, including foreign exchange risk and interest rate risk. Our policy is to reduce our exposure to these risks, where possible, within boundaries deemed appropriate by our management team. This may include the use of derivative instruments. There have been no material changes to our market risks as compared to the information previously reported under Part II, Item 7A. "Quantitative and Qualitative Disclosures About Market Risk" in our 2025 10-K. 
+
+ Item 4. Controls and Procedures 
+
+ Disclosure Controls and Procedures 
+
+ Our management, with participation from the Chief Executive Officer and Chief Financial Officer, evaluated the effectiveness of the Company's disclosure controls and procedures as of June 30, 2026. Based on that evaluation and as of the date of that evaluation, the Chief Executive Officer and Chief Financial Officer concluded the Company's disclosure controls and procedures were effective, providing effective means to ensure the information the Company is required to disclose under applicable laws and regulations is recorded, processed, summarized and reported within the time periods specified in the SEC's rules and forms and accumulated and communicated to the Company's management to allow timely decisions regarding required disclosure. 
+
+ Changes in Internal Control over Financial Reporting 
+
+ There were no changes in our internal control over financial reporting during the quarter ended June 30, 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. 
+
+ 26 
+
+ PART II - OTHER INFORMATION 
+
+ Item 1. Legal Proceedings 
+
+ Except as set forth in Note 13 – "Commitments and contingencies" to our unaudited Condensed Consolidated Financial Statements included in Part I, Item 1. "Financial Statements" of this Quarterly Report on Form 10-Q, we were involved in a number of lawsuits, regulatory matters, disputes, and claims, asserted and unasserted, all of which have arisen in the ordinary course of our business and for which we do not expect the liability, if any, to have a material adverse effect on our consolidated financial position, results of operations, or cash flows. We cannot predict with certainty the outcome or effect of any of the matters referred to above or of any such other pending or threatened litigation or legal proceedings. We can provide no assurance that our beliefs or expectations as to the outcome or effect of any lawsuit or claim or dispute will prove correct and the eventual outcome of these matters could materially differ from management’s current estimates. 
+
+ Item 1A. Risk Factors 
+
+ There have been no material changes from the risk factors previously disclosed in Part I, Item 1A. "Risk Factors" in our 2025 10-K. 
+
+ Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+
+ During the second quarter of 2024, the Company's Board of Directors authorized a $500 million Share repurchase program that would initially run for a period of two years from June 25, 2024, the date of completion of the programs initiated in 2023. On June 22, 2026, the Company's Board of Directors authorized an extension of the Share repurchase program to run through December 31, 2026. 
+
+ For the three months ended June 30, 2026, Seadrill repurchased outstanding common shares as follows: 
+
+ Period Total number of shares purchased Average price paid per share Total number of shares purchased as part of publicly announced plans or programs 
+ Maximum dollar value of shares that may yet be purchased under the plans or programs (1) 
+
+ April 1 - April 30 — $ — — $ 207,997,229 
+
+ May 1 - May 31 — — — 207,997,229 
+
+ June 1 - June 30 511,078 38.66 511,078 188,237,633 
+
+ Total 511,078 $ 38.66 511,078 $ 188,237,633 
+
+ (1) Relates to the $500 million Share repurchase program authorized by the Company's Board of Directors and announced on May 16, 2024, which will run through December 31, 2026, as authorized by the Company's Board of Directors and announced on June 22, 2026. 
+
+ Item 3. Defaults Upon Senior Securities 
+
+ Not applicable. 
+
+ Item 4. Mine Safety Disclosures 
+
+ Not applicable. 
+
+ Item 5. Other Information 
+
+ Rule 10b5-1 Trading Arrangements 
+
+ During the three months ended June 30, 2026 , no director or officer (as defined in Rule 16a-1(f) of the Exchange Act) of the Company adopted , modified or terminated a "Rule 10b5-1 trading arrangement" or "non-Rule 10b5-1 trading arrangement," as each term is defined in Item 408(a) of Regulation S-K. 
+
+ 27 
+
+ Item 6. Exhibits 
+
+ Exhibit
+Number Description 
+
+ 3.1 
+ Certificate of Incorporation of Seadrill 2021 Limited delivered October 21, 2021 (incorporated by reference to Exhibit 1.1 to Seadrill Limited's Annual Report on Form 20-F filed with the SEC on April 29, 2022). 
+
+ 3.2 
+ Memorandum of Association of Seadrill 2021 Limited (incorporated by reference to Exhibit 1.2 to Seadrill Limited's Annual Report on Form 20-F filed with the SEC on April 29, 2022). 
+
+ 3.3 
+ Certificate of Deposit of Memorandum of Increase of Share Capital of Seadrill Limited (incorporated by reference to Exhibit 1.3 to Seadrill Limited's Annual Report on Form 20-F filed with the SEC on April 29, 2022). 
+
+ 3.4 
+ Certificate of Change of Name from Seadrill 2021 Limited to Seadrill Limited delivered February 22, 2022 (incorporated by reference to Exhibit 1.5 to Seadrill Limited's Annual Report on Form 20-F filed with the SEC on April 29, 2022). 
+
+ 3.5 
+ Bye-Laws of Seadrill Limited (incorporated by reference to Exhibit 1.4 to Seadrill Limited's Annual Report on Form 20-F filed with the SEC on April 29, 2022). 
+
+ 4.1 
+ Indenture, dated June 30, 2026, by and among Seadrill Finance Limited, as issuer, Seadrill Limited and the other guarantors party thereto, as guarantors, and GLAS Trust Company LLC, as trustee (incorporated by reference to Exhibit 4.1 to Seadrill Limited’s Current Report on Form 8-K filed with the SEC on June 30, 2026). 
+
+ 4.2 
+ Form 6.750% Senior Notes due 2034 (incorporated by reference to Exhibit A of Exhibit 4.1 to Seadrill Limited’s Current Report on Form 8-K filed with the SEC on June 30, 2026). 
+
+ 10.1†
+ 
+ Amendment No. 1 to Senior Secured Revolving Credit Agreement, dated as of April 3, 2026, by and among Seadrill Finance Limited, as borrower, Seadrill Limited and the lenders party thereto (incorporated by reference to Exhibit 10.4 to Seadrill Limited’s Quarterly Report on Form 10-Q filed with the SEC on May 11, 2026). 
+
+ 10.2+ 
+ Amendment No. 1 to the Amended and Restated Seadrill Limited 2022 Management Incentive Plan (incorporated by reference to Exhibit 10.1 to Seadrill Limited’s Current Report on Form 8-K filed with the SEC on June 5, 2026). 
+
+ 10.3† 
+ Amendment No. 2 to Senior Secured Revolving Credit Agreement, dated as of June 16, 2026, by and among Seadrill Finance Limited, as borrower, Seadrill Limited, the lenders party thereto, the issuing banks party thereto, J.P. Morgan SE, as the predecessor or retiring administrative agent, JPMorgan Chase Bank, N.A., as the successor administrative agent, and GLAS Trust Company LLC, as common security agent (incorporated by reference to Exhibit 10.1 to Seadrill Limited’s Current Report on Form 8-K filed with the SEC on June 18, 2026). 
+
+ 10.4*+^ 
+ Separation Agreement, dated June 5, 2026, by and between Simon Johnson and Seadrill Americas, Inc. 
+
+ 31.1* 
+ Certification of the Principal Executive Officer pursuant to Rule 13a-14(a) and Rule 15d-14(a) of the Securities Exchange Act, as amended. 
+
+ 31.2* 
+ Certification of the Principal Financial Officer pursuant to Rule 13a-14(a) and Rule 15d-14(a) of the Securities Exchange Act, as amended. 
+
+ 32.1** 
+ Certification of the Principal Executive Officer pursuant to 18 USC Section 1350, as adopted, pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+
+ 32.2** 
+ Certification of the Principal Financial Officer pursuant to 18 USC Section 1350, as adopted, pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+
+ 101.INS Inline XBRL Instance Document 
+
+ 101.SCH Inline XBRL Taxonomy Extension Schema Document 
+
+ 101.CAL Inline XBRL Taxonomy Extension Schema Calculation Linkbase Document 
+
+ 101.DEF Inline XBRL Taxonomy Extension Definition Linkbase Document 
+
+ 101.LAB Inline XBRL Taxonomy Extension Label Linkbase Document 
+
+ 101.PRE Inline XBRL Taxonomy Extension Presentation Linkbase Document 
+
+ 104* Cover Page Interactive Data File (embedded within the Inline XBRL document and contained in Exhibit 101) 
+
+ * 
+ Filed herewith. 
+
+ ** 
+ Furnished herewith. 
+
+ †
+ Certain of the exhibits and schedules to this Exhibit have been omitted in accordance with Item 601(a)(5) of Regulation S-K and will be provided to the SEC upon request. 
+
+ + Management contract or compensatory plan or arrangement. 
+
+ ^ Certain personally identifiable information contained in this Exhibit has been redacted pursuant to Item 601(a)(6) of Regulation S-K. 
+
+ 28 
+
+ SIGNATURES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. 
+
+ SEADRILL LIMITED 
+
+ Date: August 10, 2026 
+
+ By: 
+ /s/ Grant Creed 
+
+ Grant Creed 
+
+ Executive Vice President and Chief Financial Officer 
+
+ (duly authorized officer, principal financial officer, principal accounting officer)

@@ -1,0 +1,166 @@
+{
+  "fetched_utc": "2026-11-20T11:26:51+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "COCO",
+    "cik": 1482981,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000185/coco-20260930.htm",
+        "file": "2026-10-22-10-Q-coco-20260930.htm.txt",
+        "chars": 323126,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-22",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20261022.htm",
+        "file": "2026-10-22-8-K-coco-20261022.htm.txt",
+        "chars": 3748,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-23",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000173/coco-20260630.htm",
+        "file": "2026-07-23-10-Q-coco-20260630.htm.txt",
+        "chars": 147337,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-23",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000162828026049279/coco-20260723.htm",
+        "file": "2026-07-23-8-K-coco-20260723.htm.txt",
+        "chars": 3729,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-22",
+        "items": "1.01,2.01,3.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/coco-20260722.htm",
+        "file": "2026-07-22-8-K-coco-20260722.htm.txt",
+        "chars": 15750,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000140/coco-20260603.htm",
+        "file": "2026-06-04-8-K-coco-20260603.htm.txt",
+        "chars": 4561,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000120/coco-20260331.htm",
+        "file": "2026-04-29-10-Q-coco-20260331.htm.txt",
+        "chars": 126670,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000118/coco-20260429.htm",
+        "file": "2026-04-29-8-K-coco-20260429.htm.txt",
+        "chars": 3726,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-22",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20260930xexx991pressr.htm",
+        "file": "2026-10-22-EX-99.1.txt",
+        "chars": 27473,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-23",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000162828026049279/coco-20260630xexx991pressr.htm",
+        "file": "2026-07-23-EX-99.1.txt",
+        "chars": 25128,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-22",
+        "items": [
+          "1.01",
+          "2.01",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/exhibit991-copra_pressrele.htm",
+        "file": "2026-07-22-EX-99.1.txt",
+        "chars": 9333,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-22",
+        "items": [
+          "1.01",
+          "2.01",
+          "3.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "unregistered sale of equity",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/acquistionannouncementpr.htm",
+        "file": "2026-07-22-EX-99.2.txt",
+        "chars": 9663,
+        "truncated": false
+      }
+    ]
+  }
+}

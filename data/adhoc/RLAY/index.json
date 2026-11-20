@@ -1,0 +1,140 @@
+{
+  "fetched_utc": "2026-11-20T11:26:57+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "RLAY",
+    "cik": 1812364,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447294/rlay-20260930.htm",
+        "file": "2026-11-04-10-Q-rlay-20260930.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-04",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-20261104.htm",
+        "file": "2026-11-04-8-K-rlay-20261104.htm.txt",
+        "chars": 3486,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338056/rlay-20260630.htm",
+        "file": "2026-08-06-10-Q-rlay-20260630.htm.txt",
+        "chars": 392451,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "1.01,2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-20260806.htm",
+        "file": "2026-08-06-8-K-rlay-20260806.htm.txt",
+        "chars": 8242,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-09",
+        "items": "5.03,5.07,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526263873/rlay-20260609.htm",
+        "file": "2026-06-09-8-K-rlay-20260609.htm.txt",
+        "chars": 6163,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-21",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526234862/d128795d8k.htm",
+        "file": "2026-05-21-8-K-d128795d8k.htm.txt",
+        "chars": 7314,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-19",
+        "items": "7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526229770/rlay-20260519.htm",
+        "file": "2026-05-19-8-K-rlay-20260519.htm.txt",
+        "chars": 13608,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526206454/rlay-20260331.htm",
+        "file": "2026-05-05-10-Q-rlay-20260331.htm.txt",
+        "chars": 375354,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-04",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-ex99_1.htm",
+        "file": "2026-11-04-EX-99.1.txt",
+        "chars": 16956,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "1.01",
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-ex99_1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 5251,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "1.01",
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-ex99_2.htm",
+        "file": "2026-08-06-EX-99.2.txt",
+        "chars": 15247,
+        "truncated": false
+      }
+    ]
+  }
+}
