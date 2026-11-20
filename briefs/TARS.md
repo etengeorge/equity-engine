@@ -1,20 +1,20 @@
-# RLAY — RELAY THERAPEUTICS
+# TARS — TARSUS PHARMACEUTICALS
 *Health Care · brief generated 2026-11-20 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 338/1956
+- rotation position 347/1956
 
 ## Market
 | | |
 |---|---|
-| price | $15.91 |
-| market cap | $3.5B |
-| 5d / 21d / 63d / 252d | -12.0% / -13.6% / -18.2% / +144.4% |
-| 60d avg daily $ volume | $53.6M |
-| beta (vs IWM) | 1.84 (R²=0.257) |
-| 5d volume vs 60d average | 0.6x |
+| price | $77.67 |
+| market cap | $3.8B |
+| 5d / 21d / 63d / 252d | +1.0% / +10.2% / +6.8% / +0.9% |
+| 60d avg daily $ volume | $66.8M |
+| beta (vs IWM) | 0.34 (R²=0.035) · **yahoo_rescaled** |
+| 5d volume vs 60d average | 0.8x |
 | balance sheet as of | 2026-09-30 (10-Q) |
-| WACC weights | equity 100% / debt 0% |
+| WACC weights | equity 98% / debt 2% |
 
 ## What the market's price already assumes
 Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
@@ -24,13 +24,13 @@ Enterprise value **n/a** · FCFF yield **n/a**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 15.2% − 1pt | n/a |
-| **15.2% (point)** | **n/a** |
-| 15.2% + 1pt | n/a |
+| 6.9% − 1pt | n/a |
+| **6.9% (point)** | **n/a** |
+| 6.9% + 1pt | n/a |
 
 
 Naive baseline for comparison: **n/a** (None).
-Gap under that baseline: **n/a** (fair value n/a vs price $15.91).
+Gap under that baseline: **n/a** (fair value n/a vs price $77.67).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
@@ -39,10 +39,10 @@ Gap under that baseline: **n/a** (fair value n/a vs price $15.91).
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_sales (n=302) | 220.9x | 1.5x / 4.1x / 14.1x | $0.67 / $0.85 / $1.54 |
-| p_tbv (n=327) | 4.3x | 1.5x / 3.5x / 6.8x | $5.67 / $12.84 / $24.90 |
+| ev_sales (n=301) | 8.0x | 1.5x / 4.2x / 14.2x | $18.66 / $42.99 / $135.23 |
+| p_tbv (n=327) | 43.8x | 1.5x / 3.5x / 6.8x | $2.73 / $6.18 / $11.97 |
 
-Blended midpoint **$6.84** vs price $15.91 — gap **-57.0%**.
+Blended midpoint **$24.58** vs price $77.67 — gap **-68.3%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
@@ -51,58 +51,68 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 
 ## Data-quality flags
 Attack these before you trust any number above.
+- `speculative_cost_of_debt_but_only_2%_debt_weight`
 - `negative_fcf_year_in_window`
 - `nonpositive_normalized_fcff`
 
 ## Recent filings
-- 2026-11-04 **10-Q** — https://www.sec.gov/Archives/edgar/data/1812364/000119312526447294/rlay-20260930.htm
-- 2026-11-04 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-20261104.htm
-- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1812364/000119312526338056/rlay-20260630.htm
-- 2026-08-06 **8-K** — items 1.01,2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-20260806.htm
-- 2026-06-09 **8-K** — items 5.03,5.07,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526263873/rlay-20260609.htm
-- 2026-05-21 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526234862/d128795d8k.htm
-- 2026-05-19 **8-K** — items 7.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526229770/rlay-20260519.htm
-- 2026-05-05 **10-Q** — https://www.sec.gov/Archives/edgar/data/1812364/000119312526206454/rlay-20260331.htm
-- 2026-05-05 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1812364/000119312526206398/rlay-20260505.htm
-- 2026-04-28 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1812364/000119312526186929/rlay-20260424.htm
+- 2026-11-03 **10-Q** — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000076/tars-20260930.htm
+- 2026-11-03 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000074/tars-20261103.htm
+- 2026-09-10 **8-K** — items 2.01,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000066/tars-20260904.htm
+- 2026-08-06 **10-Q** — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000064/tars-20260630.htm
+- 2026-08-06 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000063/tars-20260806.htm
+- 2026-08-06 **8-K** — items 1.01,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000062/tars-20260805.htm
+- 2026-08-06 **8-K** — items 1.01,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000060/tars-20260731.htm
+- 2026-07-13 **8-K** — items 5.02 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000048/tars-20260713.htm
+- 2026-07-08 **8-K** — items 1.01,3.02,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000046/tars-20260706.htm
+- 2026-06-29 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000043/tars-20260625.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-11-04** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-ex99_1.htm
-- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-ex99_1.htm
-- **2026-08-06** · EX-99.2 · presentation — EX-99.2 *(item: entry into a material agreement, results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1812364/000119312526338013/rlay-ex99_2.htm
+- **2026-11-03** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000074/exhibit991tarsus1132026.htm
+- **2026-09-10** · EX-99.1 · press release — EX-99.1 *(item: completion of an acquisition or disposition, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000066/exhibit991-tarsuspharmac.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000063/exhibit991tarsus862026.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000062/pipereleasefinal.htm
+- **2026-08-06** · EX-99.1 · press release — EX-99.1 *(item: entry into a material agreement, unregistered sale of equity, other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/1819790/000181979026000060/acquisitionannouncementf.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*3 items held; showing the 3 most recent. Headlines and summaries only — open the URL for the full story.*
+
+- **2026-09-04** · Sector Update: Healthcare Stocks Decline Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html
+  > Healthcare stocks were lower late Friday afternoon, with the NYSE Healthcare Index falling 1.2% and
+- **2026-09-04** · Tarsus Pharmaceuticals Completes Acquisition of Alkeus Pharmaceuticals, Expanding Leadership in Eye Care — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tarsus-pharmaceuticals-completes-acquisition-alkeus-123800098.html
+  > Adds gildeuretinol (ALK-001), a differentiated Phase 3 oral investigational medicine designed to target the underlying biology of Stargardt’s disease, a potentially blinding disease with no FDA-approved therapy Strengthens Tarsus’ different
+- **2026-09-01** · Tarsus to Participate in Upcoming Investor Conferences — *GlobeNewswire* — https://finance.yahoo.com/healthcare/articles/tarsus-participate-upcoming-investor-conferences-203000987.html
+  > IRVINE, Calif., Sept. 01, 2026 (GLOBE NEWSWIRE) -- Tarsus Pharmaceuticals, Inc. (NASDAQ: TARS), today announced that management plans to attend the following upcoming investor conferences: Wells Fargo 21st Annual Healthcare Conference on Tu
 
 ## What is happening in Health Care
 *From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
 
+- **2026-11-20** · Sector Update: Healthcare Stocks Mixed Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-pre-141359907.html
+- **2026-11-20** · Stock Market News for Nov 20, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-20-132200926.html
+- **2026-11-20** · Which Merck ETF Best Balances Its Drug Upside And Risks? — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/merck-etf-best-balances-drug-130853271.html
+- **2026-11-20** · 3 ETFs That Give You Johnson & Johnson In Different Doses — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/3-etfs-johnson-johnson-different-121150454.html
+- **2026-11-20** · Are Wall Street Analysts Bullish on Henry Schein Stock? — *Barchart* — https://www.barchart.com/story/news/8932841/are-wall-street-analysts-bullish-on-henry-schein-stock
+- **2026-11-20** · Veeva Systems Stock: Analyst Estimates & Ratings — *Barchart* — https://www.barchart.com/story/news/8932678/veeva-systems-stock-analyst-estimates-ratings
+- **2026-11-20** · What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Wednesday — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110415075.html
 - **2026-11-19** · Sector Update: Healthcare Stocks Retreat Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-retreat-afternoon-205159656.html
 - **2026-11-19** · Healthcare ETFs Shine as Investors Rotate Out of Tech — *Zacks* — https://finance.yahoo.com/healthcare/articles/healthcare-etfs-shine-investors-rotate-204700146.html
 - **2026-11-19** · Sector Update: Healthcare Stocks Softer in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-183211842.html
-- **2026-11-19** · Stock Market News for Nov 19, 2026 — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-19-132100065.html
-- **2026-11-19** · What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Nov. 17 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110508688.html
-- **2026-11-18** · Sector Update: Healthcare Stocks Fall Late Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-204713275.html
-- **2026-11-18** · Sector Update: Healthcare Stocks Decline in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-184357969.html
-- **2026-11-17** · Are Wall Street Analysts Predicting DexCom’s Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/8881680/are-wall-street-analysts-predicting-dexcoms-stock-will-climb-or-sink
-- **2026-11-17** · Your “Safe” Health Care ETF Just Got Hit by UnitedHealth Again — *24/7 Wall St.* — https://247wallst.com/investing/etf/2026/11/17/your-safe-health-care-etf-just-got-hit-by-unitedhealth-again/
-- **2026-11-17** · The Stock Market Reaches the Lull in the Horror Film — *Barrons.com* — https://www.barrons.com/livecoverage/stock-market-news-today-111726/card/the-stock-market-reaches-the-lull-in-the-horror-film-NxOF6quZp0WQJAHYymcE?siteid=yhoof2&yptr=yahoo
 
 ## Market and macro context
-- **2026-11-20** · Dow Jones Futures Rise, Techs Slide; Anthropic Retreats After Ugly Market Reversal To New Lows — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-reversal-anthropic-ipo-debuts-amd-dives/?src=A00220&yptr=yahoo
-- **2026-11-20** · AI Unease Undermines Wall Street Pre-Bell; Asia, Europe Off — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/ai-unease-undermines-wall-street-110827735.html
-- **2026-11-20** · Anthropic's IPO ties the fate of the US economy closer to AI — *Yahoo Finance* — https://finance.yahoo.com/technology/article/anthropics-ipo-ties-the-fate-of-the-us-economy-closer-to-ai-110000224.html
-- **2026-11-20** · Premarket movers: Anthropic slides after debut, Intuit tumbles on Mailchimp sale — *Investing.com* — https://finance.yahoo.com/markets/stocks/articles/premarket-movers-anthropic-slides-debut-105600121.html
+- **2026-11-20** · Supply Chain Stocks Sink Amid Wall Street Sell-Off, Though Air Freight Shows Resilience — *Sourcing Journal* — https://wwd.com/sourcing-journal/industry-news/supply-chain-stocks-sink-amid-wall-street-sell-off-though-1239452902/
+- **2026-11-20** · Update: US Equity Indexes Drop as Anthropic Leads Big-Tech Plunge Amid Sliding Treasury Yields — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-anthropic-183415367.html
+- **2026-11-20** · Where Will Bloom Energy Stock Be in 5 Years After More Than Doubling Its Revenue in 2026? — *Motley Fool* — https://www.fool.com/investing/2026/11/20/where-will-bloom-energy-stock-be-in-5-years-after-more-than-doubling-its-revenue-in-2026/
+- **2026-11-20** · Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a Buy? — *Yahoo Finance Video* — https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html
 
 *Rules, releases and agency actions:*
+- **2026-11-20** · SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief — *sec* — https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering
 - **2026-11-20** · Updates and Amendments to the Civil Service Rules — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23732/updates-and-amendments-to-the-civil-service-rules
 - **2026-11-20** · Procedures for Settling Claims — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23731/procedures-for-settling-claims
 - **2026-11-20** · FLSA Claims and Compliance — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23730/flsa-claims-and-compliance
 - **2026-11-20** · Federal Employees' Retirement System; Present Value Conversion Factors for Spouses of Deceased Separated Employees — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23729/federal-employees-retirement-system-present-value-conversion-factors-for-spouses-of-deceased
 - **2026-11-20** · Extension of Import Restrictions Imposed on Archaeological and Ethnological Material of Greece — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23724/extension-of-import-restrictions-imposed-on-archaeological-and-ethnological-material-of-greece
-- **2026-11-20** · Implementation of HAVANA Act of 2021 — *Federal Register (Rule)* — https://www.federalregister.gov/documents/2026/11/20/2026-23713/implementation-of-havana-act-of-2021
 
 ## What we concluded before
 *No prior research — this is the first pass on this name.*

@@ -1,5 +1,41 @@
 [
  {
+  "id": "aa98894e-e4b5-363e-8ff4-e31c288aa964",
+  "ts": "2026-11-20T16:46:06+00:00",
+  "title": "BC-Most Active Stocks",
+  "summary": "NEW YORK (AP) \u2014 prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change NEXUS Advanced Technolog.",
+  "publisher": "Associated Press",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-164606636.html",
+  "tickers": [
+   "PLUG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8f6d8c18-88c8-3850-98e6-abd99f6faa11",
+  "ts": "2026-11-20T15:53:00+00:00",
+  "title": "Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%",
+  "summary": "A bullish analyst call usually lifts a stock, yet Bloom Energy buyers watched the gains evaporate within hours. What is overpowering BMO's optimism, and can fuel cell rivals FuelCell and Plug Power escape the same pull?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/20/bloom-energy-tumbles-10-despite-bmo-upgrade-with-230-target-fuelcell-energy-slides-7-plug-power-drops-3/",
+  "tickers": [
+   "PLUG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2e8b1dac-6e40-366f-b58c-dc08cd9e74db",
+  "ts": "2026-11-20T11:22:53+00:00",
+  "title": "Has Buying Bloom Energy Stock's Dips Paid Off?",
+  "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/be/articles/627181/has-buying-bloom-energy-stocks-dips-paid-off/2026-11-20",
+  "tickers": [
+   "PLUG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "fca84191-2597-313f-a935-31eb6de5e28c",
   "ts": "2026-11-19T23:13:12+00:00",
   "title": "Plug Power Reaffirms Growth Target and Eyes Positive EBITDA as Cash Burn Slows",

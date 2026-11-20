@@ -1,5 +1,29 @@
 [
  {
+  "id": "a61c0545-4cb7-34fd-9ecf-bd819fcb5c71",
+  "ts": "2026-11-20T17:41:00+00:00",
+  "title": "The Container Store is back online after cybersecurity incident",
+  "summary": "The incident has not impacted the security of customer financial data, according to the company.",
+  "publisher": "Retail Dive",
+  "url": "https://www.retaildive.com/news/container-store-neighborhood-intelligence-cybersecurity-incident/875342/",
+  "tickers": [
+   "NXH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "acc9afe0-4b82-3326-a485-8e26280b8ed0",
+  "ts": "2026-11-20T12:33:00+00:00",
+  "title": "The Container Store, A Neighborhood Intelligence Company, Announces Restoration of Its Systems Following Cybersecurity Incident",
+  "summary": "NASHVILLE, Tenn., November 20, 2026--Neighborhood Intelligence, Inc. (Nasdaq: NXH) today announced that its wholly owned subsidiary, The Container Store, has restored its website and systems following a cybersecurity incident this past weekend.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/articles/container-store-neighborhood-intelligence-company-123300704.html",
+  "tickers": [
+   "NXH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5157c52b-4d75-300d-b73f-fb386e52f0a2",
   "ts": "2026-11-17T00:18:36+00:00",
   "title": "Neighborhood Intelligence (NXH) Stock Fair Value Falls After Hold Downgrade And Funding Concerns",

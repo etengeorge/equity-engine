@@ -106,17 +106,5 @@
    "BLFS"
   ],
   "source": "yfinance"
- },
- {
-  "id": "d6bf1629-04db-39f6-9180-28acd6f05203",
-  "ts": "2026-07-22T15:52:41+00:00",
-  "title": "Top Midday Stories: Trump Threatens Retaliation for Attacks in Strait of Hormuz; AMD to Supply MI450 GPUs to Anthropic",
-  "summary": "The Dow Jones Industrial Average and the S&P 500 Index were up, while the Nasdaq Composite were down",
-  "publisher": "MT Newswires",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-trump-threatens-155241203.html",
-  "tickers": [
-   "BLFS"
-  ],
-  "source": "yfinance"
  }
 ]

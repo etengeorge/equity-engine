@@ -1,90 +1,90 @@
 {
-  "screen_utc": "2026-11-20T11:20:47+00:00",
+  "screen_utc": "2026-11-20T18:45:50+00:00",
   "price_asof": "2026-11-19",
   "universe": 1956,
-  "modelled": 1058,
-  "modelled_pct": 54.1,
+  "modelled": 1056,
+  "modelled_pct": 54.0,
   "news": {
-    "generated_utc": "2026-11-20T11:20:49+00:00",
+    "generated_utc": "2026-11-20T18:45:53+00:00",
     "sectors": {
       "Health Care": {
-        "new": 12,
-        "held": 117,
+        "new": 7,
+        "held": 124,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 12,
-        "held": 150,
+        "new": 2,
+        "held": 152,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 12,
-        "held": 72,
+        "new": 1,
+        "held": 73,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 12,
-        "held": 157,
+        "new": 9,
+        "held": 166,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 12,
-        "held": 124,
+        "new": 4,
+        "held": 128,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 12,
-        "held": 168,
+        "new": 2,
+        "held": 170,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 12,
-        "held": 96,
+        "new": 3,
+        "held": 99,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 11,
-        "held": 46,
+        "new": 2,
+        "held": 48,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 6,
-        "held": 57,
+        "new": 1,
+        "held": 58,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 12,
-        "held": 115,
+        "new": 4,
+        "held": 119,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 12,
-        "held": 74,
+        "new": 1,
+        "held": 75,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 449,
-    "articles_new": 3048,
+    "articles_new": 293,
     "candidates": 450,
-    "elapsed_s": 218.2
+    "elapsed_s": 239.9
   },
   "picks": [
-    "RLAY",
-    "EWTX",
-    "TMDX",
-    "SDRL",
-    "SMR",
-    "COCO",
-    "HUBG",
-    "RES",
-    "CVI",
-    "MITT"
+    "AMBA",
+    "BWIN",
+    "TARS",
+    "PK",
+    "PLUG",
+    "AMRX",
+    "ANIP",
+    "LQDT",
+    "LCII",
+    "KBH"
   ],
   "stages": {
-    "screen": "2026-11-20T11:24:41+00:00",
-    "news": "2026-11-20T11:24:27+00:00",
-    "pick": "2026-11-20T11:24:41+00:00"
+    "screen": "2026-11-20T18:50:10+00:00",
+    "news": "2026-11-20T18:49:53+00:00",
+    "pick": "2026-11-20T18:50:10+00:00"
   }
 }

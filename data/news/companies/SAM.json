@@ -1,5 +1,41 @@
 [
  {
+  "id": "7b946830-7402-3cd7-838b-78d14e4b6ef7",
+  "ts": "2026-11-20T17:00:00+00:00",
+  "title": "Boston Beer names next CEO",
+  "summary": "Chief Operating Officer Phil Hodges will succeed founder Jim Koch, who returned to the helm last year.",
+  "publisher": "Food Dive",
+  "url": "https://www.fooddive.com/news/boston-beer-promotes-new-ceo-phil-hodges-jim-koch/875350/",
+  "tickers": [
+   "SAM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7a55cbc3-8f2e-3e81-a5ae-03d2f4d7cc60",
+  "ts": "2026-11-20T14:57:00+00:00",
+  "title": "Can Boston Beer Sustain Margin Gains Despite Cost Inflation?",
+  "summary": "SAM's margin gains reflect brewery efficiencies, cost savings and premium product mix. But can these offset persistent freight and commodity inflation?",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/boston-beer-sustain-margin-gains-145700256.html",
+  "tickers": [
+   "SAM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6d81aa3c-ff5a-38ed-b38a-47e925bac711",
+  "ts": "2026-11-20T11:22:53+00:00",
+  "title": "What Is Constellation Brands No Longer Telling Shareholders?",
+  "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/stz/articles/627278/what-is-constellation-brands-no-longer-telling-shareholders/2026-11-20",
+  "tickers": [
+   "SAM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "8882a1ad-aa04-37e3-bb20-c43ee9fac16a",
   "ts": "2026-11-20T10:46:16+00:00",
   "title": "Boston Beer promotes Phil Hodges to CEO",

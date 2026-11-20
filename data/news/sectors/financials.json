@@ -1,5 +1,33 @@
 [
  {
+  "id": "16b6fa24-8a33-3d1f-9e68-3cd215772681",
+  "ts": "2026-11-20T18:15:52+00:00",
+  "title": "Exchange-Traded Funds Lower as US Equities Drop After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-181552505.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "5fbf0248-2b17-34bb-885f-691b25f5c4c9",
+  "ts": "2026-11-20T10:38:36+00:00",
+  "title": "Travelers Stock Outlook: Is Wall Street Bullish or Bearish?",
+  "summary": "Although Travelers has surpassed the broader market over the past year, Wall Street analysts maintain a cautious outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932193/travelers-stock-outlook-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "70d65ca8-e75a-332f-b959-e92aa1baf30d",
   "ts": "2026-11-19T21:02:31+00:00",
   "title": "Sector Update: Financial Stocks Fall in Late Afternoon Trading",

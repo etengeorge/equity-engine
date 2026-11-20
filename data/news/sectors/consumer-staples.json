@@ -1,5 +1,61 @@
 [
  {
+  "id": "27d8735d-c51d-33d5-8083-094abc7a7ba3",
+  "ts": "2026-11-20T17:32:00+00:00",
+  "title": "AI Stock Fears Are Getting Worse. Just Look at the \u2018Toothpaste Trade.\u2019",
+  "summary": "Consumer staples stock are on fire right now as AI fears dominate the stock market.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/consumer-staples-tech-ai-stocks-etf-658ccad1?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "ca6cc3b5-6fc4-335c-8949-bab0462a4068",
+  "ts": "2026-11-20T12:11:39+00:00",
+  "title": "Do Wall Street Analysts Like Church & Dwight Stock?",
+  "summary": "While Church & Dwight has outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8933271/do-wall-street-analysts-like-church-dwight-stock",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "9750d07e-f197-30a2-afa2-ab88a239f1ff",
+  "ts": "2026-11-20T11:07:41+00:00",
+  "title": "Do Wall Street Analysts Like Brown-Forman Stock?",
+  "summary": "Brown-Forman has outperformed the broader market but trailed consumer staples peers, while dividend growth and neutral analyst sentiment reflect a mixed outlook.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932467/do-wall-street-analysts-like-brown-forman-stock",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
+  "id": "7a7c8fd2-f7f7-37cb-b4f2-b27149d52f44",
+  "ts": "2026-11-20T11:05:12+00:00",
+  "title": "State Street Consumer Staples SPDR (XLP) Adds Walmart and Costco on Nov. 18",
+  "summary": "The fund bought $145.9 million of stock and increased all 33 of its positions, led by $16.5 million of Walmart and $14.2 million of Costco.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110512500.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "a2cdae06-41ba-3a57-b7c4-a9a68e2412b5",
   "ts": "2026-11-19T20:44:35+00:00",
   "title": "Sector Update: Consumer Stocks Fall Late Afternoon",

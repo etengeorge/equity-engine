@@ -1,5 +1,61 @@
 [
  {
+  "id": "98ebab27-1999-3c8d-9a8e-e4f06eb0e146",
+  "ts": "2026-11-20T13:22:00+00:00",
+  "title": "Stock Market News for Nov 20, 2026",
+  "summary": "U.S. stocks ended sharply lower on Thursday as Anthropic's blockbuster IPO failed to lift investor sentiment, with the artificial intelligence giant's stock dropping soon after it began trading.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-20-132200926.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "78e28c00-eae2-36a7-b158-6b47cc159544",
+  "ts": "2026-11-20T11:04:57+00:00",
+  "title": "What State Street Consumer Discretionary SPDR (XLY) Bought: Amazon Leads on Nov. 18",
+  "summary": "The $22.83 billion fund bought $172.9 million of stock and sold nothing, lifting all 47 positions.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-spdr-110457372.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "75e40b84-e1af-353c-8308-e994d1192232",
+  "ts": "2026-11-20T10:34:48+00:00",
+  "title": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "Hasbro has outperformed the broader market and consumer discretionary sector, with robust earnings, raised guidance, and increasingly bullish analyst sentiment.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932140/hasbro-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "0d80c8a8-8937-3deb-b7d6-e83484528303",
+  "ts": "2026-11-20T08:53:04+00:00",
+  "title": "What Are Wall Street Analysts' Target Price for Wynn Resorts Stock?",
+  "summary": "Over the past year, Wynn Resorts has underperformed the broader market, yet analysts remain highly optimistic about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8931298/what-are-wall-street-analysts-target-price-for-wynn-resorts-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "a2cdae06-41ba-3a57-b7c4-a9a68e2412b5",
   "ts": "2026-11-19T20:44:35+00:00",
   "title": "Sector Update: Consumer Stocks Fall Late Afternoon",

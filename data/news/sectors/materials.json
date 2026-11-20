@@ -1,5 +1,33 @@
 [
  {
+  "id": "98ebab27-1999-3c8d-9a8e-e4f06eb0e146",
+  "ts": "2026-11-20T13:22:00+00:00",
+  "title": "Stock Market News for Nov 20, 2026",
+  "summary": "U.S. stocks ended sharply lower on Thursday as Anthropic's blockbuster IPO failed to lift investor sentiment, with the artificial intelligence giant's stock dropping soon after it began trading.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-20-132200926.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "803b7a07-6253-3a8b-9941-db8a07a0b047",
+  "ts": "2026-11-20T12:39:44+00:00",
+  "title": "Are Wall Street Analysts Predicting PPG Industries Stock Will Climb or Sink?",
+  "summary": "Over the past year, PPG Industries has outperformed the broader market, and analysts remain moderately optimistic about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8933749/are-wall-street-analysts-predicting-ppg-industries-stock-will-climb-or-sink",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "bd98107f-880f-3a18-bc14-6b800dc72d06",
   "ts": "2026-11-19T13:32:28+00:00",
   "title": "Do Wall Street Analysts Like International Flavors & Fragrances Stock?",

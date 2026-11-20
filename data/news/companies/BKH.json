@@ -1,5 +1,17 @@
 [
  {
+  "id": "92635cad-0e39-3bfb-acdf-414c1b6f72c9",
+  "ts": "2026-11-20T11:04:36+00:00",
+  "title": "What iShares Russell 2000 (IWM) Sold: Glaukos Leads on Wednesday",
+  "summary": "The fund sold $187.7 million of stock on Wednesday, trimming 1,874 positions and adding none.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-sold-110436625.html",
+  "tickers": [
+   "BKH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "63eaad95-ca9b-3839-bfa7-887c0e520336",
   "ts": "2026-11-19T11:04:57+00:00",
   "title": "iShares Russell 2000 (IWM) Buys $1.4 Million More Glaukos on Tuesday",

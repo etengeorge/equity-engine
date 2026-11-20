@@ -1,5 +1,19 @@
 [
  {
+  "id": "758a013e-e1db-37e0-94fd-9866534d2595",
+  "ts": "2026-11-20T11:05:01+00:00",
+  "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Wednesday",
+  "summary": "The fund bought $169.2 million of stocks, adding to 82 positions and selling none, with $11.3 million of General Electric the largest purchase.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110501357.html",
+  "tickers": [
+   "XLI"
+  ],
+  "source": "yfinance",
+  "sector": "Industrials",
+  "via": "XLI"
+ },
+ {
   "id": "93a9b8c1-56e7-3168-989b-4ef4d5065dc2",
   "ts": "2026-11-19T14:37:04+00:00",
   "title": "Automatic Data Processing Stock: Analyst Estimates & Ratings",

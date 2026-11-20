@@ -1,5 +1,47 @@
 [
  {
+  "id": "e121c689-c12b-32da-aa39-f6418d401961",
+  "ts": "2026-11-20T10:31:15+00:00",
+  "title": "Are Wall Street Analysts Predicting CoStar Group Stock Will Climb or Sink?",
+  "summary": "CoStar Group has considerably underperformed the broader market over the past year, but analysts are moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932135/are-wall-street-analysts-predicting-costar-group-stock-will-climb-or-sink",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "6157b0c4-7330-3950-8f63-46acc6c2a970",
+  "ts": "2026-11-20T09:43:06+00:00",
+  "title": "Federal Realty Stock: Analyst Estimates & Ratings",
+  "summary": "Federal Realty has outperformed the broader market, with rising FFO, raised guidance, accretive acquisitions, and moderately bullish analyst sentiment.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8931703/federal-realty-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "40743a0d-10ca-33f6-8219-ce92e0241291",
+  "ts": "2026-11-20T07:25:21+00:00",
+  "title": "Is Wall Street Bullish or Bearish on Simon Property Stock?",
+  "summary": "Simon Property has outperformed the broader market over the past year, and analysts are moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8930449/is-wall-street-bullish-or-bearish-on-simon-property-stock",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "70d65ca8-e75a-332f-b959-e92aa1baf30d",
   "ts": "2026-11-19T21:02:31+00:00",
   "title": "Sector Update: Financial Stocks Fall in Late Afternoon Trading",

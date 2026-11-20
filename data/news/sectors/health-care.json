@@ -1,5 +1,103 @@
 [
  {
+  "id": "dbd58bd0-7d56-33fe-9285-d91958fff503",
+  "ts": "2026-11-20T14:13:59+00:00",
+  "title": "Sector Update: Healthcare Stocks Mixed Pre-Bell Friday",
+  "summary": "Healthcare stocks were mixed pre-bell Friday, with the State Street Health Care Select Sector SPDR E",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-pre-141359907.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "98ebab27-1999-3c8d-9a8e-e4f06eb0e146",
+  "ts": "2026-11-20T13:22:00+00:00",
+  "title": "Stock Market News for Nov 20, 2026",
+  "summary": "U.S. stocks ended sharply lower on Thursday as Anthropic's blockbuster IPO failed to lift investor sentiment, with the artificial intelligence giant's stock dropping soon after it began trading.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-20-132200926.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "b0f222b2-7cec-349b-980d-55b5347453a7",
+  "ts": "2026-11-20T13:08:53+00:00",
+  "title": "Which Merck ETF Best Balances Its Drug Upside And Risks?",
+  "summary": "Owning Merck stock outright means you feel every bump in its specific issues yourself. Simply Wall St flags that Merck\u2019s profit margins of 3.6% are far lower than last year\u2019s 29.6%, and it notes the risk that blockbuster cancer drug exclusivity eventually fades. An exchange traded fund that owns Merck alongside dozens of other healthcare businesses mutes how much those Merck specific swings move your total portfolio, and tempers any upside from the stock at the same time. Today\u2019s news is a...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/healthcare/articles/merck-etf-best-balances-drug-130853271.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "9b67f04d-2758-331f-8884-e4e4b0170e4e",
+  "ts": "2026-11-20T12:11:50+00:00",
+  "title": "3 ETFs That Give You Johnson & Johnson In Different Doses",
+  "summary": "You might like Johnson & Johnson for its mix of medicine and medical devices, but owning a single stock means living with its specific risks. Simply Wall St flags pressure on profit margins, with recent margins at 16.2% versus 27.2% last year. Holding Johnson & Johnson inside a fund spreads that business specific hit across many holdings, and also spreads out any gains. On 19 November 2026, Johnson & Johnson reported the first commercial installation of its new robotic surgery system at...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/healthcare/articles/3-etfs-johnson-johnson-different-121150454.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "f62541b2-b175-3fad-94af-ff81de9344d3",
+  "ts": "2026-11-20T11:35:48+00:00",
+  "title": "Are Wall Street Analysts Bullish on Henry Schein Stock?",
+  "summary": "Henry Schein has outpaced the broader market over the past 52 weeks, yet Wall Street analysts maintain a moderately optimistic outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932841/are-wall-street-analysts-bullish-on-henry-schein-stock",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "8fade6c2-e496-3ae1-8596-4bb64a86e8d5",
+  "ts": "2026-11-20T11:20:05+00:00",
+  "title": "Veeva Systems Stock: Analyst Estimates & Ratings",
+  "summary": "Veeva Systems has underperformed the broader market amid moderating demand and intensifying competition, although analysts maintain a cautiously optimistic outlook on the stock's future prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8932678/veeva-systems-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "e138d072-886d-34ce-8f31-0f1776376a23",
+  "ts": "2026-11-20T11:04:15+00:00",
+  "title": "What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Wednesday",
+  "summary": "The fund sold $335.2 million of stock on Wednesday, Nov. 18, cutting all 60 of its positions and buying nothing.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110415075.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "c6e539aa-c4ba-37f7-b3f3-18a8598caf50",
   "ts": "2026-11-19T20:51:59+00:00",
   "title": "Sector Update: Healthcare Stocks Retreat Late Afternoon",

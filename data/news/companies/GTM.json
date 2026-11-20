@@ -1,5 +1,17 @@
 [
  {
+  "id": "e27ff6d2-f0b6-30ab-9798-30156ec67cb7",
+  "ts": "2026-11-20T14:40:00+00:00",
+  "title": "Qualified Upgrades Its ZoomInfo Integration to the GTM.AI API, Bringing Verified Company and Contact Data to Piper",
+  "summary": "VANCOUVER, Wash., November 20, 2026--ZoomInfo (NASDAQ: GTM), the all-in-one AI GTM platform, today announced that Qualified from Salesforce has upgraded its ZoomInfo integration to the ZoomInfo GTM.AI API. Qualified now enriches website visitor profiles through the API's company and contact enrichment endpoints, replacing the legacy WebSights and Enterprise APIs, so Piper, Qualified's agent, works from verified ZoomInfo company and contact data.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/qualified-upgrades-zoominfo-integration-gtm-144000407.html",
+  "tickers": [
+   "GTM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5a3a045b-2b1e-395e-a062-526a370398a7",
   "ts": "2026-11-17T22:52:03+00:00",
   "title": "ZoomInfo stock jumps on ChatGPT sales plugin launch",

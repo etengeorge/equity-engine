@@ -1,5 +1,19 @@
 [
  {
+  "id": "17e94357-58d4-31d9-adcc-bc96b890b1db",
+  "ts": "2026-11-20T16:58:00+00:00",
+  "title": "Utility ETFs to Buy as Data Center Electricity Usage Is Set to Double by 2030",
+  "summary": "Utility ETFs could benefit as data center electricity demand is projected to double by 2030, fueling grid investments and growth opportunities.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/utility-etfs-buy-data-center-165800435.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "cc1f51ea-f639-345d-86af-010d6d10d990",
   "ts": "2026-11-19T16:12:14+00:00",
   "title": "XLU vs VPU: Which Utility ETF Gets More From the AI Power Rush?",
