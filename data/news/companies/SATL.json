@@ -1,11 +1,47 @@
 [
  {
+  "id": "6534de41-c72c-3b97-81cb-8b43c6c885df",
+  "ts": "2026-11-18T11:16:32+00:00",
+  "title": "Has Buying Planet Labs Stock Dips Paid Off?",
+  "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/pl/articles/626128/has-buying-planet-labs-stock-dips-paid-off/2026-11-18",
+  "tickers": [
+   "SATL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "341a4a1a-ef3f-3437-b4d8-ab217487a050",
+  "ts": "2026-11-15T04:18:01+00:00",
+  "title": "Satellogic (SATL) Stock Fair Value Moves Lower After Cautious Analyst Target Cuts",
+  "summary": "Analysts have reset expectations around Satellogic with updated price targets now clustered between US$7 and US$10, alongside a revised fair value estimate that moved from US$10.08 to US$8.75. These changes reflect a more cautious tone on what investors may be willing to pay today, even as recent Q3 results, new contracts, and successful satellite launches are viewed positively in research commentary. Read on to see how these shifting targets fit into the evolving Satellogic narrative and...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/satellogic-satl-stock-fair-value-041801008.html",
+  "tickers": [
+   "SATL"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0fc7a348-d3a4-3d1e-a8dc-4325b22f6cf5",
   "ts": "2026-11-12T20:32:58+00:00",
   "title": "What Is Driving The Fall In Planet Labs Stock?",
   "summary": "For questions about this article or underlying research, email help@trefis.com.",
   "publisher": "Trefis",
   "url": "https://www.trefis.com/stock/pl/articles/624561/what-is-driving-the-fall-in-planet-labs-stock/2026-11-12",
+  "tickers": [
+   "SATL"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "bf0075bb-62e7-3cb9-8222-9b37d456cb2c",
+  "ts": "2026-11-11T13:30:00+00:00",
+  "title": "Satellogic Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Satellogic Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-satellogic-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
   "tickers": [
    "SATL"
   ],

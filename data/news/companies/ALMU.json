@@ -12,6 +12,18 @@
   "source": "yfinance"
  },
  {
+  "id": "c75c8e9b-991b-39e2-a720-9aede276c484",
+  "ts": "2026-11-13T13:30:00+00:00",
+  "title": "Aeluma, Inc. Q1 2027 Earnings Call Summary",
+  "summary": "Moby summary of Aeluma, Inc.'s Q1 2027 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-aeluma-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "ALMU"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "20363062-034f-3925-9eb4-d419fd7881dc",
   "ts": "2026-11-13T00:14:31+00:00",
   "title": "Aeluma Q1 Earnings Call Highlights",

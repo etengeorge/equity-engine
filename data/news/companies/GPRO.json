@@ -1,5 +1,29 @@
 [
  {
+  "id": "420e6f3b-e778-38f3-83db-481e4e8b71ad",
+  "ts": "2026-11-16T21:40:25+00:00",
+  "title": "GoPro: Q3 Earnings Snapshot",
+  "summary": "(GPRO) on Monday reported a loss of $85.On a per-share basis, the San Mateo, California-based company said it had a loss of 44 cents.",
+  "publisher": "Associated Press",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/gopro-q3-earnings-snapshot-214025165.html",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ebb840a8-b7d8-3fe7-a330-8512dd7896a3",
+  "ts": "2026-11-16T21:05:00+00:00",
+  "title": "GoPro Announces Third Quarter Results",
+  "summary": "GoPro, Inc. (Nasdaq: GPRO) announced financial results for its third quarter ended September 30, 2026. In light of the pending transaction with Starman Optical, the company will not hold an earnings conference call or provide financial guidance.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/gopro-announces-third-quarter-results-210500115.html",
+  "tickers": [
+   "GPRO"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "a7cbd5a8-ed16-3ed0-917b-9c8fd40e2971",
   "ts": "2026-11-11T11:52:30+00:00",
   "title": "GoPro: A Brand That Ran Out of Runway",

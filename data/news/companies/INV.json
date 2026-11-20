@@ -24,6 +24,18 @@
   "source": "yfinance"
  },
  {
+  "id": "67f67cfb-df5a-3ecf-887d-6db9bb5d9c5a",
+  "ts": "2026-11-13T13:30:00+00:00",
+  "title": "Innventure, Inc. Q3 2026 Earnings Call Summary",
+  "summary": "Moby summary of Innventure, Inc.'s Q3 2026 earnings call",
+  "publisher": "Moby",
+  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-innventure-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+  "tickers": [
+   "INV"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7aea7ee3-5169-39f8-8b3d-f390099e0fa9",
   "ts": "2026-11-12T22:05:04+00:00",
   "title": "Innventure, Inc. (INV) Surpasses Q3 Earnings and Revenue Estimates",

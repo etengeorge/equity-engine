@@ -202,17 +202,5 @@
    "ABUS"
   ],
   "source": "yfinance"
- },
- {
-  "id": "6f351df0-ffc3-35f4-b3cb-78e86e713aac",
-  "ts": "2026-07-20T15:09:41+00:00",
-  "title": "Pfizer (PFE) Faces New International Patent Lawsuits Over Covid 19 Vaccine",
-  "summary": "Arbutus Biopharma and Genevant Sciences have filed multiple patent infringement lawsuits against Pfizer and BioNTech over their mRNA-LNP COVID-19 vaccines. The new cases extend beyond the existing U.S. litigation into several international jurisdictions. The lawsuits seek monetary damages and potential injunctions on vaccine products, raising legal and operational risks for Pfizer. Pfizer, listed as NYSE:PFE, is facing an expanded legal challenge as Arbutus Biopharma and Genevant Sciences...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/healthcare/articles/pfizer-pfe-faces-international-patent-150941772.html",
-  "tickers": [
-   "ABUS"
-  ],
-  "source": "yfinance"
  }
 ]

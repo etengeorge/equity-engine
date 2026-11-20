@@ -1,5 +1,41 @@
 [
  {
+  "id": "551175cb-ee7d-3504-9dd5-9ed8fbd371ca",
+  "ts": "2026-11-19T18:23:43+00:00",
+  "title": "Trump Media Gains 3% Despite Market Wobble and Looming $883.5 Million Note Deadline; Rumble Falls 3%",
+  "summary": "Trump Media is bouncing while the market slips, but a November 30 deadline could force a tough choice over cash, credit, and a huge Bitcoin stash. Who decides how much the company owes, and can it avoid giving something up?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/19/trump-media-gains-3-despite-market-wobble-and-looming-883-5-million-note-deadline-rumble-falls-3/",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "79642128-a429-3207-b410-e87270f96270",
+  "ts": "2026-11-17T15:02:40+00:00",
+  "title": "Trump Media Climbs 3% After Buying Back $100 Million in Convertible Notes; Rumble Slides 3%, Meta Dips",
+  "summary": "Trump Media just retired a slice of its debt for less than it owed, yet the stock remains deeply underwater and a billion-dollar bill still looms. Can one cash-funded move calm the pressure before a merger vote reshuffles everything?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/17/trump-media-climbs-3-after-buying-back-100-million-in-convertible-notes-rumble-slides-3-meta-dips/",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "5d062317-1eec-3436-9ece-41af51379ba8",
+  "ts": "2026-11-16T17:02:54+00:00",
+  "title": "Trump Media Sinks 12% Ahead of Convertible-Note Deadline and TAE Merger Vote; Rumble Tumbles 11%, Meta Declines 2%",
+  "summary": "A nine-figure note obligation could drain the very cash Trump Media needs for its fusion-energy merger. A record quarterly profit hides a stranger story, and shareholders must soon decide what comes next.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/16/trump-media-sinks-12-ahead-of-convertible-note-deadline-and-tae-merger-vote-rumble-tumbles-11-meta-declines-2/",
+  "tickers": [
+   "RUM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "27e3c2a1-d876-378d-a4c3-208f163687be",
   "ts": "2026-11-13T13:12:02+00:00",
   "title": "RUM Group (RUM) Turns To New GPU Monitoring For Its AI Infrastructure",

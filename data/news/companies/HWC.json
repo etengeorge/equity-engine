@@ -1,5 +1,29 @@
 [
  {
+  "id": "baba9b90-5e3b-3e11-bdcb-725b113a5c29",
+  "ts": "2026-11-17T03:12:35+00:00",
+  "title": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook",
+  "summary": "AI is no longer just a tech story. It now sits in the Fed\u2019s playbook, influencing how policymakers think about jobs, inflation, rates and even the December meeting. That shift creates a potential opening for investors looking at US rate sensitive financials and cash platforms that sit close to short term yields. This article unpacks three US stocks from the screener that are most exposed to this AI driven policy twist. The three stocks covered below are only a starting sample, and the full...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-bank-stocks-focus-031235953.html",
+  "tickers": [
+   "HWC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "c9c10627-d79a-3a15-ae97-5c421be159da",
+  "ts": "2026-11-15T01:07:03+00:00",
+  "title": "Hancock Whitney (HWC) Stock Fair Value Edges Lower After Trustmark Deal And Analyst Cuts",
+  "summary": "The latest model reset for Hancock Whitney trims fair value from US$84.53 to US$80.63, putting fresh attention on how analysts see the Trustmark merger reshaping the story. Several firms have lowered price targets while still pointing to solid profitability and the potential benefits of added scale from the US$3.2b Trustmark deal. As you read on, you will see how these shifting targets fit into the broader Hancock Whitney narrative and what to watch as the deal progresses. Analyst Price...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/hancock-whitney-hwc-stock-fair-010703234.html",
+  "tickers": [
+   "HWC"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "66df7acb-3702-3719-ac9d-135ffc674a34",
   "ts": "2026-11-13T13:55:00+00:00",
   "title": "Hancock Whitney Dips 10.2% on $3.2B Trustmark Deal: Is Growth at Risk?",
@@ -18,6 +42,18 @@
   "summary": "The combined bank will have approximately $58bn in assets and operations spanning six Southeastern states.",
   "publisher": "Retail Banker International",
   "url": "https://www.retailbankerinternational.com/news/hancock-whitney-trustmark-acquisition/",
+  "tickers": [
+   "HWC"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e98d7fb3-2af7-3c29-b32e-12df3e310293",
+  "ts": "2026-11-13T04:59:00+00:00",
+  "title": "Hancock Whitney buys Trustmark in $3.2B all-stock deal",
+  "summary": "GULFPORT \u2013 Hancock Whitney is merging with Jackson-based Trustmark Bank in an all-stock transaction valued at about $3.2 billion. The combination of the two financial institutions will result in a regional bank spanning six states \u2013 Mississippi, Alabama, Florida, Louisiana, Texas, and Tennessee \u2013 and $58 billion in total assets. The merger is expected to close in the first quarter of next ...",
+  "publisher": "Northeast Mississippi Daily Journal, Tupelo",
+  "url": "https://www.djournal.com/news/business/hancock-whitney-buys-trustmark-in-3-2b-all-stock-deal/article_2a0210bc-0262-4768-926f-3c4c3a1d5711.html",
   "tickers": [
    "HWC"
   ],

@@ -1,5 +1,29 @@
 [
  {
+  "id": "d3fa3df8-06d3-3d41-89a2-23c1584f133a",
+  "ts": "2026-11-17T20:02:00+00:00",
+  "title": "Third-Party Vendor Linked to Eli Lilly Is Hit by Data Breach",
+  "summary": "Lilly found no unauthorized access to its own systems, a person familiar with the matter said. Extortion group n0n claims to hold patient and prescriber data.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/eli-lilly-vendor-hack-patient-data-470fcdea?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "VIR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dda5880f-e7dd-3078-9132-8e6c2deb6e90",
+  "ts": "2026-11-13T20:20:00+00:00",
+  "title": "Vail Resorts and 3 More Stocks See Action From Activist Investors",
+  "summary": "Activists also report to the SEC on Metalla Royalty, Vir Biotechnology, and Metropolitan Bank Holding.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/vail-resorts-and-3-more-stocks-see-action-from-activist-investors-38e0f376?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "VIR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1358dd30-f7fc-338e-a949-c5eba11cad10",
   "ts": "2026-11-13T17:14:12+00:00",
   "title": "Vir Biotechnology Shares Drop as Biotech Firm Moves Ahead With Stock Sale",

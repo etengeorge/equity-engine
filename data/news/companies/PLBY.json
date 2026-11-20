@@ -1,5 +1,17 @@
 [
  {
+  "id": "eec316e4-f594-34ee-ba27-483dac45b0d7",
+  "ts": "2026-11-16T18:48:45+00:00",
+  "title": "Playboy buys Miami Beach hotel, plans to open private club",
+  "summary": "Playboy has signed a $12.5 million deal to acquire a hotel in Miami Beach. The Florida location would feature a private club.",
+  "publisher": "USA TODAY",
+  "url": "https://www.usatoday.com/story/news/state/florida/miami/2026/11/16/playboy-miami-beach-hotel-private-club/92806548007/",
+  "tickers": [
+   "PLBY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5ed8ce52-e99a-35c4-aacb-7ae4d482dc78",
   "ts": "2026-10-29T10:45:02+00:00",
   "title": "Brunswick (BC) Tops Q3 Earnings and Revenue Estimates",
@@ -30,6 +42,18 @@
   "summary": "PLBY Group (NASDAQ:PLBY) reported second-quarter revenue growth, a return to operating profitability and positive operating cash flow, as the company cited continued momentum at Honey Birdette, growth in licensing and early progress in its media and experiences strategy. Revenue for the quarter tot",
   "publisher": "MarketBeat",
   "url": "https://www.marketbeat.com/instant-alerts/plby-group-q2-earnings-call-highlights-2026-08-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "PLBY"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "05332782-4018-3b58-a268-321e2e4b44bd",
+  "ts": "2026-08-10T20:05:00+00:00",
+  "title": "Playboy Reports Second Quarter 2026 Financial Results",
+  "summary": "Second Quarter Revenue of $31.2 Million, an Increase of 11%; Net Income of $0.2 Million, an Improvement of $7.9 Million; and Adjusted EBITDA of $7.0 Million, an Increase of 100% and Inclusive of $0.7 Million of Litigation Expenses in the Quarter LOS ANGELES, Aug. 10, 2026 (GLOBE NEWSWIRE) -- Playboy, Inc. (NASDAQ: PLBY) (the \u201cCompany\u201d or \u201cPlayboy\u201d), a global pleasure and leisure company connecting consumers with products, content, and experiences that help them lead happier, more fulfilling live",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/playboy-reports-second-quarter-2026-200500429.html",
   "tickers": [
    "PLBY"
   ],

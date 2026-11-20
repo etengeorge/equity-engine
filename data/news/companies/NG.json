@@ -1,5 +1,77 @@
 [
  {
+  "id": "d20137fe-4d3e-3680-9eaf-bc98ef216810",
+  "ts": "2026-11-20T09:22:01+00:00",
+  "title": "European gas gains on fresh Middle East attacks, but Eyes weekly drop",
+  "summary": "Investing.com - European wholesale natural gas prices climbed on Friday, tracking a broader rebound across the energy complex as brazen missile strikes on the Saudi capital and fresh naval mine explosions in the Strait of Hormuz injected an acute geopolitical risk premium back into the market.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/european-gas-gains-fresh-middle-092201456.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dc3c2509-f8e3-3e8a-a123-f05ba181857e",
+  "ts": "2026-11-19T10:20:45+00:00",
+  "title": "European gas surges on reports of impending U.S. military action against Iran",
+  "summary": "Investing.com - European wholesale natural gas prices surged on Thursday, moving in tandem with a broader rally across the global energy complex as reports that the United States is actively considering renewed military strikes against Iran aggressively injected geopolitical risk premium back into forward curves.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/european-gas-surges-reports-impending-102045022.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "999fbf7f-d486-3f44-ae9f-89cbb44853a5",
+  "ts": "2026-11-18T18:59:06+00:00",
+  "title": "Bernstein sees gas supercycle intact after Diamondback deal",
+  "summary": "Investing.com -- Bernstein analyst Bob Brackett reaffirmed his bullish stance on natural gas stocks following Diamondback Energy Inc's (NASDAQ:FANG) recent acquisition of Double Eagle IV & V Permian properties, despite concerns the deal could challenge his gas supercycle thesis.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/bernstein-sees-gas-supercycle-intact-185906765.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "80052ecb-ddf5-301d-9d20-f4efe6b99ba6",
+  "ts": "2026-11-18T13:02:47+00:00",
+  "title": "UBS cuts U.S. natural gas price forecasts as supply set to outpace demand in 2027",
+  "summary": "Investing.com -- UBS lowered most of its U.S. natural gas price forecasts, saying supply growth should outpace demand through much of 2027.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/ubs-cuts-u-natural-gas-130247638.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b4e15246-1516-3ea5-b2f1-ff5ff3cf0030",
+  "ts": "2026-11-18T10:24:14+00:00",
+  "title": "European gas prices ease; escalating Iranian attacks cap declines",
+  "summary": "Investing.com - European wholesale natural gas prices edged lower on Wednesday, with robust continental storage levels effectively neutralizing a severe escalation of military hostilities in the Persian Gulf.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/european-gas-prices-ease-escalating-102414144.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "06d8dc20-3208-3863-a8ac-5dd0d386c8b0",
+  "ts": "2026-11-13T18:59:14+00:00",
+  "title": "US energy rig count drops for first time in six weeks",
+  "summary": "Investing.com -- US energy companies reduced the number of active drilling rigs this week, marking the first decline in six weeks, according to Baker Hughes Co. on Friday.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/us-energy-rig-count-drops-185914224.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9439e5c8-e6c9-33ea-a4c1-df44211e0e84",
   "ts": "2026-11-13T10:14:01+00:00",
   "title": "European gas logs 12% weekly surge as U.S.-Iran diplomatic hopes collapse",
@@ -222,18 +294,6 @@
   "summary": "NovaGold extended its winning streak to a third consecutive day on Wednesday, surging 10.30 percent to close at $6.21 apiece after expanding its gold portfolio with the full acquisition of the Donlin Gold project in Alaska. In a statement on the same day, NovaGold Resources Inc. (NYSEAmerican:NG) said that it entered into a definitive agreement [\u2026]",
   "publisher": "Insider Monkey",
   "url": "https://finance.yahoo.com/markets/stocks/articles/novagold-ng-jumps-10-3-005830041.html",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "8e1eb518-a513-3b34-b6c5-aab5e221452d",
-  "ts": "2026-07-22T11:00:00+00:00",
-  "title": "NOVAGOLD Enters Into Definitive Agreements to Acquire 100% of Donlin Gold",
-  "summary": "NOVAGOLD to acquire Paulson\u2019s Donlin Gold Holdings1 interests in Donlin Gold in an all-share transaction, creating a leading U.S.-domiciled gold developer with approximately US$4.2 billion equity value2Consolidation to streamline project development and financingDeal is accretive to NOVAGOLD on all key metrics and preserves NOVAGOLD\u2019s independenceDr. Thomas S. Kaplan and John Paulson to Co-Chair the new company All amounts are in U.S. dollars unless otherwise stated VANCOUVER, British Columbia,",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/markets/commodities/articles/novagold-enters-definitive-agreements-acquire-110000605.html",
   "tickers": [
    "NG"
   ],

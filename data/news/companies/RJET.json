@@ -58,17 +58,5 @@
    "RJET"
   ],
   "source": "yfinance"
- },
- {
-  "id": "829f27f2-9228-356e-944e-95fd5f9e31c6",
-  "ts": "2026-07-19T20:44:53+00:00",
-  "title": "Flight Delays, Cancellations Spread Across East Cost",
-  "summary": "As of 6 p.m. Eastern time on Sunday, more than 10% of the flights scheduled to leave New York's Kennedy and LaGuardia airports had been canceled and another 23% and 26% were delayed, respectively, according to the flight tracking site FlightAware. Overall, the site was tracking nearly 7,000 delayed flights in the U.S. and another more than 1,300 canceled flights. In addition to the New York area, Atlanta's Hartsfield-Jackson International, Boston's Logan International, Newark Liberty International, Philadelphia International, and Washington, D.C.'s Reagan National were all dealing with delays and cancellations.",
-  "publisher": "Barrons.com",
-  "url": "https://www.barrons.com/livecoverage/sunday0719/card/flight-delays-spread-across-east-cost-bxPQ3Np5ttfzCkcCGZwE?siteid=yhoof2&yptr=yahoo",
-  "tickers": [
-   "RJET"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -1,5 +1,17 @@
 [
  {
+  "id": "cd9f1e73-d233-32c9-ac24-7daef90b4b7e",
+  "ts": "2026-11-13T21:00:00+00:00",
+  "title": "NYSE to Commence Delisting Proceedings with Respect to Warrants of LiveWire Group, Inc. (LVWR WS)",
+  "summary": "NEW YORK, November 13, 2026--The New York Stock Exchange (\"NYSE\", the \"Exchange\") announced today that the staff of NYSE Regulation has determined to commence proceedings to delist the warrants (\"Warrants\") \u2014 ticker symbol LVWR WS \u2014 to purchase common stock of LiveWire Group, Inc. (the \"Company\") from the NYSE. Trading in these Warrants on the NYSE will be suspended immediately. Trading in the Company\u2019s common stock \u2014 ticker symbol LVWR \u2014 will continue on the NYSE.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/nyse-commence-delisting-proceedings-respect-210000934.html",
+  "tickers": [
+   "LVWR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7cbe94a3-62cc-3513-829e-908b40b92292",
   "ts": "2026-10-29T11:00:00+00:00",
   "title": "LiveWire Group, Inc. Reports 2026 Third Quarter Financial Results",

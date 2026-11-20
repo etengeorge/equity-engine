@@ -1,5 +1,173 @@
 [
  {
+  "id": "a2cdae06-41ba-3a57-b7c4-a9a68e2412b5",
+  "ts": "2026-11-19T20:44:35+00:00",
+  "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
+  "summary": "Consumer stocks declined late Thursday afternoon with the State Street Consumer Staples Select Secto",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-204435029.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "6ec05454-33ad-3cd3-9e1a-9178107e0698",
+  "ts": "2026-11-19T12:13:51+00:00",
+  "title": "Marriott International Stock: Analyst Estimates & Ratings",
+  "summary": "Marriott International has outperformed the broader market and its industry peers, while Wall Street analysts maintain a cautiously optimistic outlook on its growth prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8913471/marriott-international-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "02fd6aff-e357-3651-bce7-2e84ef25aea2",
+  "ts": "2026-11-19T11:05:30+00:00",
+  "title": "What State Street Consumer Discretionary SPDR (XLY) Sold: Amazon Leads on Nov. 17",
+  "summary": "The fund sold $216.7 million of stock on Tuesday, Nov. 17, cutting all 47 of its positions and buying nothing.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-spdr-110530754.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "fe0ad140-4bc0-374d-ae26-1a7c1b4c62e7",
+  "ts": "2026-11-18T20:42:53+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+  "summary": "Consumer stocks were mixed late Wednesday afternoon, with the State Street Consumer Staples Select S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204253375.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "abba1ae7-256d-371a-9155-234103b1bca1",
+  "ts": "2026-11-18T16:00:00+00:00",
+  "title": "5 Consumer Discretionary Plays Showing Strength During the Tech Sell-Off",
+  "summary": "As semiconductors sell off and NVIDIA sees a leadership shake-up, the XLY consumer discretionary ETF has gained ground, with Amazon, Starbucks, Royal Caribbean, and Hilton showing notable strength.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/5-consumer-discretionary-plays-showing-strength-during-the-tech-sell-off/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "bd66c70a-adeb-31a5-9944-21cf172a1422",
+  "ts": "2026-11-18T14:41:09+00:00",
+  "title": "Are Wall Street Analysts Bullish on Lennar Stock?",
+  "summary": "As Lennar has lagged behind the broader market over the past year, Wall Street analysts maintain a bearish outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8898022/are-wall-street-analysts-bullish-on-lennar-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "50c2a775-654c-3abb-ba0a-00247cbcf745",
+  "ts": "2026-11-18T13:10:23+00:00",
+  "title": "3 ETFs For Tesla As Its Germany Expansion Changes The Mix",
+  "summary": "You can own Tesla directly and let every twist in its story hit your portfolio on its own, or you can hold it through a fund alongside many other businesses. Direct ownership leaves you carrying company specific issues such as profit margins slipping from 5.3% to 3.1% and shareholders being diluted, both highlighted by Simply Wall St, without anything else in the mix to blunt those swings. An ETF still leaves you tied to Tesla, just with other holdings around it that also trim the upside. The...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/3-etfs-tesla-germany-expansion-131023445.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "fdc279f2-8641-3238-826d-f843473b3aba",
+  "ts": "2026-11-18T11:06:12+00:00",
+  "title": "State Street Consumer Discretionary (XLY) Sells Amazon and Tesla on Monday",
+  "summary": "The fund sold $96.4 million of stock, trimming all 47 of its positions and adding no new ones.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-xly-110612298.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "b8fbc319-3079-33bb-a01c-76bf35d9149d",
+  "ts": "2026-11-17T20:43:09+00:00",
+  "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
+  "summary": "Consumer stocks were lower late Tuesday afternoon, with the State Street Consumer Staples Select Sec",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-204309541.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "b117e06c-d1b5-30e2-bcd8-630415b1c783",
+  "ts": "2026-11-17T18:44:44+00:00",
+  "title": "Sector Update: Consumer Stocks Softer in Afternoon Trading",
+  "summary": "Consumer stocks were lower Tuesday afternoon, with the State Street Consumer Staples Select Sector S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-184444371.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "f023c4d8-e5b0-3cf3-92a5-975b6e6c0879",
+  "ts": "2026-11-17T14:48:18+00:00",
+  "title": "Are Wall Street Analysts Bullish on Best Buy Stock?",
+  "summary": "Over the past year, Best Buy has outperformed the broader market, yet analysts remain unsure about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8877501/are-wall-street-analysts-bullish-on-best-buy-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "a2befe0c-12bf-301f-87e6-82ff81d43c03",
+  "ts": "2026-11-17T13:45:15+00:00",
+  "title": "Is Wall Street Bullish or Bearish on Smurfit Westrock Stock?",
+  "summary": "Smurfit Westrock has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8875397/is-wall-street-bullish-or-bearish-on-smurfit-westrock-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "cf91cef4-91f8-3867-8868-5e54bf63fbca",
   "ts": "2026-11-12T20:49:36+00:00",
   "title": "Sector Update: Consumer Stocks Decline Late Afternoon",

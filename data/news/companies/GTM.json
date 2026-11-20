@@ -1,5 +1,53 @@
 [
  {
+  "id": "5a3a045b-2b1e-395e-a062-526a370398a7",
+  "ts": "2026-11-17T22:52:03+00:00",
+  "title": "ZoomInfo stock jumps on ChatGPT sales plugin launch",
+  "summary": "Investing.com -- ZoomInfo Technologies Inc (NASDAQ:GTM) shares surged 8% in after-hours trading Tuesday following the company's announcement of a ChatGPT sales plugin integrated into ChatGPT Work.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/zoominfo-stock-jumps-chatgpt-sales-225203935.html",
+  "tickers": [
+   "GTM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "521cbd1c-3574-3519-9fa1-3d0a60bcd836",
+  "ts": "2026-11-17T22:02:00+00:00",
+  "title": "ZoomInfo Launches Sales Plugin Extensions for ChatGPT Through GTM.AI",
+  "summary": "VANCOUVER, Wash., November 17, 2026--ZoomInfo (NASDAQ: GTM), the all-in-one AI GTM platform, today announced a ChatGPT Sales plugin inside ChatGPT Work that brings ZoomInfo's own interactive views into the conversation. It means sellers can build target lists, find in-market accounts, prepare for meetings and enrich files without leaving the ChatGPT chat interface.",
+  "publisher": "Business Wire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/zoominfo-launches-sales-plugin-extensions-220200614.html",
+  "tickers": [
+   "GTM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3f3c5201-113a-304f-942a-cdf0a39f42af",
+  "ts": "2026-11-07T22:14:07+00:00",
+  "title": "AI Product Rollout Might Change The Case For Investing In Snowflake (SNOW)",
+  "summary": "Snowflake reported product revenue of US$1.49b last quarter with 37% growth and raised its fiscal 2027 product revenue outlook to US$6.07b, while outlining a path toward GAAP profitability in Q4 fiscal 2028 and rolling out extensive AI agents, governance tools, and real-time data automation features across CoCo, CoWork, and Cortex. The combination of higher guidance, detailed AI agent capabilities, and partnerships such as Oracle Cloud Infrastructure, ZoomInfo, and USA Cycling indicates that...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ai-product-rollout-might-change-221407631.html",
+  "tickers": [
+   "GTM"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e0242fe6-9595-3bb7-800a-ab04181853ab",
+  "ts": "2026-11-07T03:15:19+00:00",
+  "title": "What ZoomInfo Stock's Raised Outlook Means For Shareholders",
+  "summary": "ZoomInfo Technologies reported third quarter 2026 revenue of US$308.8 million, essentially flat against the prior year, while GAAP net income fell sharply to US$2.2 million and full year 2026 revenue guidance was raised slightly to a range of about US$1.2235b to US$1.2265b. Alongside these mixed GAAP results, ZoomInfo highlighted traction with larger customers and fresh AI integrations with Notion and Snowflake that deepen how its data plugs directly into core sales and data workflows. This...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/zoominfo-stocks-raised-outlook-means-031519587.html",
+  "tickers": [
+   "GTM"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "f26709e5-5099-3f71-836c-ca141fcc55c4",
   "ts": "2026-11-06T00:17:37+00:00",
   "title": "Is ZoomInfo Technologies (GTM) Below Fair Value On Raised Guidance And New Integrations?",

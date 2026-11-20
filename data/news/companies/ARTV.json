@@ -1,5 +1,113 @@
 [
  {
+  "id": "2ca7f110-d9bb-31ba-ba6c-e721c65ca851",
+  "ts": "2026-10-27T19:51:23+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+  "summary": "Healthcare stocks were slightly lower late Tuesday afternoon, with the NYSE Healthcare Index down 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195123489.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "09e7adad-063e-3084-82c3-03ef5d84bd5f",
+  "ts": "2026-10-27T17:58:15+00:00",
+  "title": "Artiva Biotherapeutics Plunges Into Crisis Over Patient Deaths and Possible Liquidation",
+  "summary": "Artiva Biotherapeutics Inc. (NASDAQ:ARTV) announced it will halt further clinical development of its lead cell therapy candidate, slash roughly 94% of its workforce, and evaluate strategic alternatives. The clinical-stage biotechnology company decided on its cell therapy candidate, AlloNK (AB-101), following an extensive risk-benefit assessment. While the non-genetically modified, allogeneic NK cell therapy demonstrated deep B-cell depletion alongside rituximab in autoimmune trials, extended pat",
+  "publisher": "Benzinga",
+  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-plunges-crisis-over-175815215.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "865c48c8-b8cb-3c41-82e3-2f5c09ed3373",
+  "ts": "2026-10-27T16:22:19+00:00",
+  "title": "Why Is Artiva Biotherapeutics Discontinuing AlloNK Development and Cutting 94% of Its Workforce?",
+  "summary": "Artiva Biotherapeutics, Inc. (NASDAQ:ARTV) announced on October 27, 2026, that it will discontinue development of its AlloNK (AB-101) cell therapy following a review of updated clinical results, longer-term patient outcomes and two fatal safety events involving participants in its clinical studies.",
+  "publisher": "InvestorsHub",
+  "url": "https://investorshub.advfn.com/market-news/article/38704/why-is-artiva-biotherapeutics-discontinuing-allonk-development-and-cutting-94-of-its-workforce",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "fc988965-6a60-3454-bfd9-611c6e9ff7e3",
+  "ts": "2026-10-27T15:44:00+00:00",
+  "title": "Artiva to quit autoimmune cell therapy work, cut staff after patient deaths",
+  "summary": "The disclosure makes Artiva the third company to recently report fatal events in an autoimmune cell therapy trial, following announcements from Novartis and Bristol Myers Squibb.",
+  "publisher": "BioPharma Dive",
+  "url": "https://www.biopharmadive.com/news/artiva-discontinue-nk-cell-therapy-autoimmune-patient-death/872873/",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e63c549e-1e25-316d-ac50-3873fe8edc0b",
+  "ts": "2026-10-27T14:08:28+00:00",
+  "title": "Artiva Scraps Development Of Lead Drug Candidate After Patient Deaths \u2014 ARTV Stock Heads For Worst Session In Over 18 Months",
+  "summary": "Artiva said it would reduce its workforce by about 94% and has hired Leerink Partners to explore strategic options, including a merger and asset sale.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/artiva-scraps-development-of-lead-drug-candidate-after-patient-deaths/cZUe90FRBCW",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1e043eb3-c765-3128-bd96-d08ecd71540b",
+  "ts": "2026-10-27T12:40:57+00:00",
+  "title": "Artiva Biotherapeutics stock tumbles after halting drug trial",
+  "summary": "Investing.com -- Artiva Biotherapeutics (NASDAQ:ARTV) shares fell 32% Tuesday after the company announced it is halting further development of AlloNK (AB-101), including a planned phase 3 pivotal trial.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-stock-tumbles-halting-124057571.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "92022d5f-d77c-38e7-b48e-4df4bc0a92cf",
+  "ts": "2026-10-27T11:30:00+00:00",
+  "title": "Artiva Biotherapeutics Announces Strategic Update and Discontinues Development of AlloNK\u00ae",
+  "summary": "Company halting further development of AlloNK\u00ae (AB-101), including the planned phase 3 pivotal trialUpdated deep B cell depletion and clinical response data is consistent with previously reported findings; however, updated longer-term data showed that durability of clinical response did not meet the threshold the Company required to support continued developmentCompany shares details of two recent Grade 5 events, consisting of a case of leukoencephalopathy assessed as likely fludarabine toxicity",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-announces-strategic-discontinues-113000223.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "3008157e-1b40-3b7c-99a8-a8b7644ef933",
+  "ts": "2026-10-02T13:05:00+00:00",
+  "title": "Artiva Biotherapeutics Announces Multiple AlloNK\u00ae Data Presentations at the American College of Rheumatology (ACR) Convergence 2026",
+  "summary": "Oral presentation highlighting updated clinical data from at least 20 patients with refractory rheumatoid arthritis (RA), 11 patients with Sj\u00f6gren disease (SjD) and at least five patients with systemic sclerosis (SSc) treated with AlloNK plus rituximab in the ongoing Phase 2a basket trial, all with at least six months of follow-upPoster presentation highlighting deep, consistent B-cell depletion comparable to that observed with CD19 CAR T-cell therapies and a favorable tolerability profile acros",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-announces-multiple-allonk-130500467.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "69403f0d-67b8-3cb5-886d-8bed9940f322",
+  "ts": "2026-10-01T11:30:00+00:00",
+  "title": "Artiva Biotherapeutics Highlights Updated AlloNK\u00ae Data in Sj\u00f6gren Disease Presented at the 17th International Symposium on Sj\u00f6gren\u2019s Disease (ISSjD 2026)",
+  "summary": "Oral presentation includes safety and efficacy data as of the July 2, 2026 data cutoff, highlighting clinically meaningful improvements in disease activity and symptoms at six months in 11 patients with longstanding, highly active Sj\u00f6gren diseaseMean stimulated salivary flow increased from 0.4 to 1.1 mL/min among eight patients with baseline hyposalivation and available six-month dataUpdated safety data across 73 Phase 2a basket study patients support the potential for outpatient administration,",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-highlights-updated-allonk-113000818.html",
+  "tickers": [
+   "ARTV"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "451751c2-4ddb-3564-8e58-d1dfaafe01a7",
   "ts": "2026-09-23T11:30:00+00:00",
   "title": "Artiva Biotherapeutics Announces Oral Presentation of AlloNK\u00ae Clinical Data at the 17th International Symposium on Sj\u00f6gren\u2019s Disease",
@@ -54,18 +162,6 @@
   "summary": "Clinical, safety and translational data presented at EULAR 2026 reinforced AlloNK\u00ae\u2019s potential to drive deep B-cell depletion and meaningful clinical activity, with a tolerability profile supportive of outpatient administration U.S. Food and Drug Administration (FDA) granted Regenerative Medicine Advanced Therapy (RMAT) designation to AlloNK plus rituximab for refractory rheumatoid arthritis (RA) Initiating Phase 3 registrational randomized controlled trial evaluating AlloNK plus rituximab versu",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-reports-second-quarter-200500122.html",
-  "tickers": [
-   "ARTV"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "fbd0d6d7-e587-307a-a914-cbbe41b15683",
-  "ts": "2026-07-17T11:30:00+00:00",
-  "title": "Artiva Biotherapeutics Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-  "summary": "SAN DIEGO, July 17, 2026 (GLOBE NEWSWIRE) -- Artiva Biotherapeutics, Inc. (Nasdaq: ARTV), a clinical-stage biotechnology company whose mission is to develop effective, safe and accessible cell therapies for patients with debilitating autoimmune diseases, today announced that the Compensation Committee of its Board of Directors approved new employee inducement grants covering an aggregate of 288,800 restricted stock units (the \u201cInducement Grants\u201d) for 17 new employees. The Inducement Grants were",
-  "publisher": "GlobeNewswire",
-  "url": "https://finance.yahoo.com/healthcare/articles/artiva-biotherapeutics-announces-employee-inducement-113000483.html",
   "tickers": [
    "ARTV"
   ],

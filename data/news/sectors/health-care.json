@@ -1,5 +1,173 @@
 [
  {
+  "id": "c6e539aa-c4ba-37f7-b3f3-18a8598caf50",
+  "ts": "2026-11-19T20:51:59+00:00",
+  "title": "Sector Update: Healthcare Stocks Retreat Late Afternoon",
+  "summary": "Healthcare stocks declined late Thursday afternoon, with the NYSE Healthcare Index falling 2.1% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-retreat-afternoon-205159656.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "4eebf059-993c-380e-ad8a-ae70901cbd3a",
+  "ts": "2026-11-19T20:47:00+00:00",
+  "title": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+  "summary": "Many investors are moving money out of AI and technology and into defensive sectors.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/healthcare/articles/healthcare-etfs-shine-investors-rotate-204700146.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "e4d8478e-b44f-3492-a72b-54a321abf282",
+  "ts": "2026-11-19T18:32:11+00:00",
+  "title": "Sector Update: Healthcare Stocks Softer in Afternoon Trading",
+  "summary": "Healthcare stocks declined Thursday afternoon, with the NYSE Healthcare Index falling 2.1% and the S",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-183211842.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "1a8e3f9b-4a33-3d12-9f77-c6cee6fc4039",
+  "ts": "2026-11-19T13:21:00+00:00",
+  "title": "Stock Market News for Nov 19, 2026",
+  "summary": "U.S. stocks ended mixed on Wednesday, with the Nasdaq rebounding from its previous session's losses, while the S&P 500 clocked its fifth straight day of losses as investors digested NVIDIA's earnings and awaited Anthropic's initial public offering.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-19-132100065.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "a4d1d4dd-219a-37de-aac4-a581f3a525d0",
+  "ts": "2026-11-19T11:05:08+00:00",
+  "title": "What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Nov. 17",
+  "summary": "The fund cut all 60 of its positions, selling $250.1 million of stock, led by Eli Lilly at $42.3 million.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110508688.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "d696dc30-4420-3335-be45-f499fbd90c2b",
+  "ts": "2026-11-18T20:47:13+00:00",
+  "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
+  "summary": "Healthcare stocks were lower late Wednesday afternoon, with the NYSE Healthcare Index dropping 1.6%",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-204713275.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "06822cb6-476d-310b-a4c8-9bcc164b6ca9",
+  "ts": "2026-11-18T18:43:57+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline in Afternoon Trading",
+  "summary": "Healthcare stocks were lower Wednesday afternoon, with the NYSE Healthcare Index dropping 1.6% and t",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-184357969.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "b295fa6c-e319-300a-a32b-9a71e2c6ec10",
+  "ts": "2026-11-17T18:13:32+00:00",
+  "title": "Are Wall Street Analysts Predicting DexCom\u2019s Stock Will Climb or Sink?",
+  "summary": "Are analysts predicting CGM-maker DexCom to rise or fall?",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8881680/are-wall-street-analysts-predicting-dexcoms-stock-will-climb-or-sink",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "c9236c85-368d-3d0d-9efb-1e39cec8c87b",
+  "ts": "2026-11-17T16:47:29+00:00",
+  "title": "Your \u201cSafe\u201d Health Care ETF Just Got Hit by UnitedHealth Again",
+  "summary": "A Senate breakup bill and a new Medicare rule sent one insurer tumbling, and the damage reached funds many retirement savers call their safe corner. The real surprise is how much of one company may be hiding in your portfolio.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/etf/2026/11/17/your-safe-health-care-etf-just-got-hit-by-unitedhealth-again/",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "624943c2-a9b5-3834-8bb4-529e9f16a786",
+  "ts": "2026-11-17T14:39:17+00:00",
+  "title": "The Stock Market Reaches the Lull in the Horror Film",
+  "summary": "Every horror movie worth its salt has that lull, where things calm down, and the audience starts to relax.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/livecoverage/stock-market-news-today-111726/card/the-stock-market-reaches-the-lull-in-the-horror-film-NxOF6quZp0WQJAHYymcE?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "2651a40a-5631-37f8-910e-ac2897ab2103",
+  "ts": "2026-11-16T20:53:11+00:00",
+  "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+  "summary": "Healthcare stocks were lower late Monday afternoon, with the NYSE Healthcare Index falling 0.3% and",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-205311075.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "33ec6197-71cc-3149-8029-33ae352e830d",
+  "ts": "2026-11-16T15:09:00+00:00",
+  "title": "Top-Ranked ETFs That Are Worth Adding to Your Investment Radar",
+  "summary": "Market uncertainty is rising, but investment opportunities remain. Explore these top-ranked ETFs across healthcare, dividends, value and GARP.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/top-ranked-etfs-worth-adding-150900061.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "115f5e11-e54a-3819-bd1e-d60002a38cf5",
   "ts": "2026-11-13T16:03:00+00:00",
   "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
