@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>EWTX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / EWTX</p><h1>EWTX <span style='color:var(--faint);font-weight:400'>EDGEWISE THERAPEUTICS</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$41.17</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-20</b></div></div><div class='prose'><h1>EWTX — EDGEWISE THERAPEUTICS</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-20 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $41.17</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $41.17 the market is paying roughly $2.76bn of enterprise value — a $4.51bn market capitalisation less $1.74bn of cash and marketable securities — for two cardiovascular assets and no debt. The case is that Edgewise sold its original franchise at the top and kept the proceeds: Servier acquired sevasemten and the whole muscular dystrophy programme on 2026-07-10 for $1,396.1 million in upfront cash, and what remains is a cardiovascular company with a differentiated mechanism. EDG-7500 is a first-in-class oral cardiac sarcomere modulator acting on the regulatory light chain to slow early contraction velocity and improve impaired relaxation; positive top-line Phase 2 CIRRUS-HCM Part D results were presented as late-breaking science at the European Society of Cardiology Congress in August 2026, the preclinical profile was published in JCI Insight, and a Phase 3 in obstructive AND non-obstructive hypertrophic cardiomyopathy is on track to initiate by year-end 2026. The second asset, EDG-15400, has dosed its first patient in the Phase 2 EQUINOX-HFpEF trial — heart failure with preserved ejection fraction is one of the largest untreated cardiovascular populations.</p><p><strong>What changed.</strong> The most consequential pair of facts on any name in today&#x27;s ten, and they are in the same filing. (1) ON 2026-07-10 SERVIER ACQUIRED SEVASEMTEN AND THE MUSCULAR DYSTROPHY PROGRAMME — including related assets, intellectual property, know-how, select employees, contracts, regulatory filings and clinical data — FOR $1,396.1 MILLION OF UPFRONT CASH, with aggregate potential consideration of up to $2,650.0 million; $7.8M of closing consideration was deferred against transition services. (2) AFTER THAT SALE CLOSED, &#x27;SERVIER ANNOUNCED THAT THE PIVOTAL GRAND CANYON STUDY OF SEVASEMTEN IN BECKER MUSCULAR DYSTROPHY DID NOT MEET ITS PRIMARY OR SECONDARY ENDPOINTS&#x27;, and Servier is conducting further analysis. So Edgewise sold its lead asset for $1.4bn in cash and the buyer&#x27;s pivotal trial of that asset then failed. Two consequences follow directly: the roughly $1,254M of contingent milestone consideration beyond the upfront is now very unlikely to be earned and should be valued near zero, and the company&#x27;s entire reported cash-flow history describes a business that no longer exists. Q3 reporting also carries the gain on the sevasemten sale and the income tax expense associated with it.</p><p><strong>Base case.</strong> No base case and no fair value, for two independent reasons. First, Edgewise is pre-revenue: <code>revenue_series</code> is EMPTY, operating cash flow is negative in all three years at $143.8M, $109.0M and $91.9M and accelerating, and EBIT is negative $191.4M, so <code>normalized_fcff</code> cannot be computed and the engine correctly refused. Second, and separately, the cash-flow history is VOID in the Lands&#x27; End and HOG sense: a structural transaction has removed the asset those cash flows were spent developing, so even a positive history would describe a different company. The engine&#x27;s p_tbv of 2.76x is not a valuation either — it prices the cash balance, which is the IMVT and AMLX lesson, and <code>equity_now</code> of $1,632.7M is mostly the Servier proceeds. The honest statement is that the value of EWTX is the probability-weighted outcome of a Phase 3 in HCM and a Phase 2 in HFpEF, less a burn that is about to rise sharply, plus $1.74bn of net cash — and a two-stage FCFF model expresses none of it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That the GRAND CANYON failure is being read as vindication when it should be read as evidence against the platform. Sevasemten and EDG-7500 both came out of the same discovery engine and the same sarcomere-modulation thesis; a pivotal failure of the lead asset in its lead indication is information about the science, not merely a lucky escape on timing. On that reading the market is paying $2.76bn above net cash for two unproven assets from a platform whose only pivotal readout to date was negative, and the $1.4bn of cash is a one-off that flatters a company whose research has not yet produced an approval.</li><li>What would prove it: The EDG-7500 Phase 3 design and, before that, the full CIRRUS-HCM Part D dataset against the approved myosin inhibitors on the measures that matter — exercise capacity and relaxation — plus the first EQUINOX-HFpEF signal.</li><li>Already visible today: Partly, and it is the strongest argument on the name in either direction. What is visible supports the counter&#x27;s premise and not its conclusion. The premise: GRAND CANYON did fail, and sevasemten and EDG-7500 do share a sarcomere-modulation heritage. But the mechanisms are not the same target — sevasemten was a skeletal-muscle myosin modulator for muscular dystrophy, while EDG-7500 acts on the CARDIAC regulatory light chain, and the company published that distinction in JCI Insight before the failure was known. Muscular dystrophy and hypertrophic cardiomyopathy are also different diseases with different endpoints; a failure to show benefit in Becker is weak evidence about diastolic function in HCM. So the counter establishes that the platform is unproven, which I accept and record, rather than that the remaining assets are impaired. What I cannot do either way is price it, and that is the verdict. I will note the sharper fact the counter should have reached for: the roughly $1,254M of milestones beyond the $1.4bn upfront are now close to worthless, so anyone valuing EWTX off the headline &#x27;up to $2,650.0 million&#x27; consideration is carrying an asset that the GRAND CANYON result has already written off.</li><li>Left unresolved: Whether EDG-7500&#x27;s differentiation survives a Phase 3, which is the whole question. The forward burn once a Phase 3 and a Phase 2 run concurrently — the company says significant additional spending is required but does not quantify it, so the runway I compute from the trailing $144M is too generous. The tax actually paid on the Servier gain, which reduces the usable proceeds. And whether any of the contingent consideration survives Servier&#x27;s further analysis of the GRAND CANYON data.</li></ul><p><strong>Key risks.</strong> Pre-revenue with an empty revenue series; operating cash outflow of $143.8M, $109.0M and $91.9M and accelerating, and the company states significant additional spending is required for both programmes; The platform&#x27;s only pivotal readout to date was negative: Servier&#x27;s GRAND CANYON study of sevasemten in Becker muscular dystrophy missed its primary AND secondary endpoints after the asset was sold; Roughly $1,254M of the &#x27;up to $2,650.0 million&#x27; Servier consideration is contingent and, after GRAND CANYON, should be valued near zero; The entire cash-flow history describes a company that sold its lead programme on 2026-07-10 — the history is void, not merely negative; Enterprise value on the brief is overstated 61% because $1,675.2M of marketable securities sits in a line the extractor cannot read; HFpEF is an indication with a long record of Phase 3 failures; EDG-7500 enters Phase 3 against approved myosin inhibitors in obstructive HCM <strong>Watch for.</strong> Initiation of the EDG-7500 Phase 3 in obstructive and non-obstructive HCM, guided by year-end 2026, and its endpoints and comparator; Full CIRRUS-HCM Part D data against the approved myosin inhibitors on exercise capacity and relaxation; First EQUINOX-HFpEF signal from the Phase 2; Quarterly burn once both trials run concurrently, against the trailing $144M a year and $1.74bn of liquidity; Any statement from Servier on the GRAND CANYON analysis bearing on the contingent milestones; Cash tax actually paid on the sevasemten gain</p><p><strong>Data quality.</strong> A CORRECT REFUSAL ON TWO INDEPENDENT GROUNDS, PLUS THE SECOND VERIFIED INSTANCE TODAY OF A STRUCTURAL ENTERPRISE-VALUE DEFECT. The engine refused on <code>nonpositive_normalized_fcff</code> with <code>negative_fcf_year_in_window</code>, which is right for a pre-revenue company, and the refusal would be right anyway because the cash-flow history is void: the Servier sale of 2026-07-10 removed the programme those outflows were funding, which is the Lands&#x27; End and HOG condition and nothing flags it. ENTERPRISE VALUE IS OVERSTATED BY 61%. The extract holds <code>cash = $68,680,000</code> and <code>short_term_investments = 0.0</code>; the 2026-09-30 balance sheet reads &#x27;Cash and cash equivalents $68,680&#x27; and immediately below it &#x27;Marketable securities, available for sale $1,675,213&#x27;. So $1,675.2M — 96% of liquidity and 37% OF MARKET CAPITALISATION — is invisible, and the engine&#x27;s enterprise value of about $4,439M should be roughly $2,764M. Cause and population are as recorded on RLAY in today&#x27;s same ten: <code>FIELDS[&#x27;short_term_investments&#x27;]</code> reaches only <code>ShortTermInvestments</code>, <code>AvailableForSaleSecuritiesDebtSecuritiesCurrent</code> and <code>MarketableSecuritiesCurrent</code>, so only the current tranche under two concept names, while the concepts an available-for-sale treasury is actually tagged under — and any non-current split — fall outside the list. Two verified instances on two different filers in one session makes it structural. Direction: it OVERSTATES enterprise value and manufactures richness, the INVA direction and a false sell, and it is worst on the cohort where net cash is most of the value. THE DETECTOR IS FREE AND IN THE EXTRACT: <code>equity_now</code> of $1,632.7M against <code>cash</code> of $68.7M on a company with no revenue, no goodwill and negative operating cash flow — equity 24x cash on a cash-burning filer means the treasury is in securities the extractor cannot see. Other inputs are sound: 109,482,763 shares from the dei cover-page concept dated 2026-10-31, matching the 10-Q cover and reconciling to the $4,507M market capitalisation; <code>total_debt</code> of $59k is immaterial and <code>interest_expense</code> of null is therefore harmless. The p_tbv row of 2.76x should be disregarded as a valuation — it prices the Servier proceeds, per the IMVT and AMLX lesson — and every other multiples row is empty because there is no revenue.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1710072/000110465926122653/ewtx-20260930x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1710072/000110465926122653/ewtx-20260930x10q.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1710072/000110465926122654/tm2628556d1_ex99-1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1710072/000110465926122654/tm2628556d1_ex99-1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1710072/000110465926082902/tm2620181d1_8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1710072/000110465926082902/tm2620181d1_8k.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1710072/000110465926091670/ewtx-20260630x10q.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1710072/000110465926091670/ewtx-20260630x10q.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/EWTX.md'>research/Health Care/EWTX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

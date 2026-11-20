@@ -1,19 +1,19 @@
 {
   "ticker": "HUBG",
-  "date": "2026-09-23",
+  "date": "2026-11-20",
   "sector": "Industrials",
   "name": "HUB GROUP CLASS A",
   "method": "fcff",
   "verdict": "no_model",
   "conviction": "high",
   "final_growth": null,
-  "bear_growth": null,
-  "bull_growth": null,
+  "bear_growth": -0.15,
+  "bull_growth": 0.02,
   "rotce_override": null,
-  "horizon_months": 12,
-  "price_at_verdict": 31.68000030517578,
-  "market_implied_growth": -0.15069955423367526,
-  "cohort_pct": 92.1,
+  "horizon_months": 6,
+  "price_at_verdict": 23.670000076293945,
+  "market_implied_growth": -0.2051380017958136,
+  "cohort_pct": 95.9,
   "priced": {
     "ok": false,
     "reason": "not a repriceable fcff name or no growth supplied"
@@ -22,39 +22,42 @@
     "no usable final_growth"
   ],
   "devils_advocate": {
-    "strongest_counter": "That I recorded no_model on this name seven days ago and am doing it again without testing whether the price has now fallen far enough to make the accounting question secondary. The equity is down 20.6% in a month; at some price a functioning intermodal and logistics franchise with $3.6-3.8 billion of revenue and only $66 million of net debt is worth buying even if you cannot audit it. Refusing twice in a row on the same grounds risks being a policy rather than a judgment.",
-    "what_would_prove_it": "Whether the price has fallen to a level that discounts a plausible restated earnings power \u2014 which requires knowing the real market capitalisation and a defensible estimate of restated earnings.",
-    "already_visible": "The first half is, and it removes most of the apparent cheapening; the second half is not, and that is decisive. The brief prices 37.3 million shares because `shares_asof` is 2010-10-21. The 2025-09-30 10-Q cover page reads 60,578,607 Class A plus 574,903 Class B = 61,153,510 shares, so market capitalisation is $1.94 billion and enterprise value about $2.00 billion, not the $1.44 billion the model uses. The company is 64% more expensive than the brief says before any accounting question is reached, and the growth the market implies moves from -14.1% to -6.8% on that correction alone. As to the second half: the company has pre-announced an operating LOSS for a half-year that sits entirely OUTSIDE the restated periods and was prepared under new management. You cannot argue a name is cheap against restated earnings power when the only clean period available is loss-making. The counter fails, and it fails on facts that are one filing apart.",
-    "unresolved": "The cumulative cash-flow effect of the restatement, which no public document discloses and which will not exist until the Q4 2026 filings. Also unresolved: what the Hearings Panel will do, and whether the restatement widens a third time. I record that I cannot size any of it rather than guessing."
+    "strongest_counter": "This is the third consecutive refusal on this name and the second time I have declined to answer the question the last red team actually asked: at what price does an unauditable but functioning franchise become worth owning? The price has fallen 41.7% in 63 days and 31.6% in a year. On the TRUE share count of 61,153,510 the market capitalisation is $1.447bn and enterprise value roughly $1.55-1.60bn against $3.6-3.8bn of revenue \u2014 about 0.42x sales for an asset-heavy intermodal operator. Refusing three times in a row on identical grounds risks being a policy rather than a judgment, and the one genuinely new fact of the quarter \u2014 the Hearings Panel approving continued listing \u2014 removes the single risk that would have justified the discount.",
+    "what_would_prove_it": "A defensible estimate of restated earning power, which requires either the restated filings themselves or a disclosure of the cumulative cash-flow effect of the misstatement. Failing that, a clean period prepared under the new accounting that is profitable.",
+    "already_visible": "The listing relief is visible and it is real, but it is narrower than it reads: it is conditioned on filing by 2026-12-31, the company says it may miss that, and the absolute ceiling is 2027-03-12 \u2014 so the counter converts a delisting risk into a dated deadline rather than removing it, and in the same week the company picked up a fourth delinquency. The decisive evidence runs the other way and is already filed. First, the one period prepared outside the restated years was pre-announced as an operating LOSS, so there is no clean profitable period against which to call the price cheap. Second, and new this quarter, the controlling family removed half the board by written consent while the restatement was unfinished and the audit committee was being reconstituted; whatever the merits, an investor relying on numbers that do not yet exist is now relying on them being produced under a board the controlling holder reconstituted mid-process, and Class A carries no governance recourse. The counter fails on the price question too: at 0.42x sales the name is not obviously cheap for an operator whose current half-year is loss-making.",
+    "unresolved": "The cumulative cash-flow effect of the restatement, which no public document discloses and which will not exist until the delinquent filings land. Whether the restatement widens a fourth time. Whether the Hearings Panel grants the extension the company anticipates requesting, and what it does if 2027-03-12 arrives unmet. I record that I cannot size any of these rather than guessing at them."
   },
-  "what_changed": "It got worse in the seven sessions since this name was last researched, and the stock is down 5.3% from the $33.45 of that pass and 20.6% in twenty-one days. (1) On 2026-09-16 Hub Group RECEIVED the Nasdaq Staff Delisting Determination it had warned about; the 2026-09-17 8-K (item 3.01) says it will appeal, that the hearing request is due 2026-09-23 \u2014 today \u2014 and that the request automatically stays delisting for only 15 calendar days, with a further stay to be requested and hearings typically scheduled 30 to 45 days out. That is the third item 3.01 8-K of 2026 (2026-05-21, 2026-08-24, 2026-09-17). (2) The 2026-09-15 8-K confirms preliminary unaudited H1 2026 revenue of $1.70-1.80 billion with an anticipated operating loss before one-time charges, 'negatively impacted by incremental costs related to the accounting review and restatement work'; full-year 2026 revenue of approximately $3.6-3.8 billion; cash of ~$132 million, restricted cash ~$28 million and debt ~$198 million at 2026-06-30, i.e. net debt of ~$66 million; and a credit agreement amendment pushing the filing deadline to 2026-11-30 while allowing restatement costs to be added back to EBITDA. (3) David Yeager returned as chairman and CEO in place of Phillip Yeager, with Patrick O'Donnell appointed CFO; the interim CFO's monthly fee was raised to $175,000 with a $1.2 million retention bonus.",
-  "consensus_case": "At $31.68 the market is pricing a logistics company that has told the SEC twice its own financial statements cannot be relied upon, has not filed a fiscal 2025 10-K or either 2026 10-Q, received a Nasdaq Staff Delisting Determination on 2026-09-16, has pre-announced an OPERATING LOSS for the first half of 2026, and has replaced both its chief executive and its chief financial officer in the middle of the restatement. The price is not a cash-flow opinion. It is a discount for un-auditable financials and delisting risk, against optionality on the restatement landing without further damage and the intermodal franchise surviving intact. At 61.15 million real shares the equity is about $1.94 billion, not the $1.18 billion the brief reports, and against 2026 revenue guided at $3.6-3.8 billion that is a plausible price for a broken-but-operating franchise \u2014 which is a statement about the discount, not about the value.",
-  "base_case_rationale": "No defensible base case exists and supplying one would be fabrication. The engine's $231.6 million FCFF base is the mean of CFO less capex for fiscal 2024, 2023 and 2022. The company has formally repudiated 2024 and 2023 through Item 4.02 filings; 2022 is the freight-cycle peak, with revenue of $5.34 billion against $3.6-3.8 billion guided for 2026. There is no audited, unrepudiated cash-flow year inside the window, and the current, unrestated half-year \u2014 prepared under new management and heightened scrutiny \u2014 is an operating LOSS. A growth rate applied to that base would be pricing restated numbers that nobody has seen, management included.",
+  "what_changed": "The observable the 2026-09-23 pass nominated has fired, and it cuts both ways. On 2026-11-11 the Nasdaq Hearings Panel approved continued listing of the Class A stock subject to the company filing ALL delinquent reports by 2026-12-31, and told the company it has no discretion to extend the exception period beyond 2027-03-12 (8-K and EX-99.1, 2026-11-17). On 2026-11-17 the company received a further non-compliance notice because the Q3 2026 10-Q was also not filed, taking the delinquent list to FOUR filings (FY2025 10-K plus Q1, Q2 and Q3 2026 10-Qs) from three. The company states in terms that it 'cannot confirm that it will be able to complete all of the Delinquent Filings on or before December 31, 2026'. Separately and not previously recorded here: on 2026-10-01 the Yeager family and related trusts, acting by WRITTEN CONSENT of a majority of combined voting power, removed three directors (Flannery, McNitt, Yablon) without cause, appointed four of their own nominees, and adopted Second Amended and Restated Bylaws; three further directors (Boosalis, Ross, Slark) then resigned the same day, so six of the prior board left in one day and the audit committee is being reconstituted mid-restatement. Still no restated or audited financial statement for any period exists.",
+  "consensus_case": "At $23.67 the market is paying roughly 0.4x revenue for a functioning intermodal and logistics franchise with ~$3.6-3.8bn of revenue, ~6,000 employees and drivers, and modest net debt, on the view that the accounting problem is a bookkeeping event rather than an economic one: the understatement was of purchased transportation costs and accounts payable, which is a timing and accrual failure, not a revenue fiction, and a restated Hub Group still owns the same terminals, chassis and customer relationships. On that reading the Nasdaq Hearings Panel decision of 2026-11-11 removes the tail risk that mattered most \u2014 the shares keep their listing while the filings are completed \u2014 and the buyer is being paid a discount for illiquidity of information rather than for impairment of assets.",
+  "base_case_rationale": "No base case is admissible. The FCFF base of $231.6M is the mean of fiscal 2024, 2023 and 2022, and the company has formally repudiated fiscal 2024 and 2023 through two Item 4.02 filings (2026-02-05 covering the 2025 quarters, 2026-05-12 extending the review to FY2024 and FY2023). Under the CENX refinement the question is not whether a 4.02 exists but whether an unrepudiated restated filing now covers the window; fourteen months after the first 4.02 and six months after the second, none does. The only year in the window not formally repudiated is fiscal 2022, the freight-cycle peak, when revenue was $5.34bn against $3.95bn trailing. There is therefore no year of audited, relied-upon cash flow from which to build a base, and the company pre-announced an operating LOSS for H1 2026 \u2014 the one period prepared outside the restated years and under new management.",
   "key_risks": [
-    "Nasdaq Staff Delisting Determination RECEIVED 2026-09-16; the automatic stay from a hearing request is only 15 calendar days and the appeal outcome is unknown",
-    "No audited financial statements exist for fiscal 2025, and fiscal 2024 and 2023 have been formally repudiated by the filer",
-    "Operating loss pre-announced for H1 2026 \u2014 a period entirely outside the restated years",
-    "Restatement has already widened once (three 2025 quarters to also FY2024 and FY2023); a $77 million error; it may widen again, and the 2026-11-30 credit-agreement deadline is the hard stop",
-    "Securities litigation and SEC enforcement normally follow a two-stage Item 4.02",
-    "Both CEO and CFO changed mid-restatement"
+    "Four delinquent SEC filings and no audited or unrepudiated financial statement for any period; fiscal 2024 and 2023 formally repudiated by the filer itself",
+    "Nasdaq exception expires 2026-12-31 with an absolute ceiling of 2027-03-12; the company states it cannot confirm it will meet the earlier date",
+    "Operating loss pre-announced for H1 2026 \u2014 the only period prepared outside the restated years",
+    "Controlling Yeager family removed three independent directors by written consent on 2026-10-01 and appointed four nominees, mid-restatement, with the audit committee being reconstituted; Class A has no effective governance recourse",
+    "Securities litigation and SEC enforcement commonly follow a two-stage Item 4.02",
+    "Every per-share figure on the brief divides by 37,315,154 shares against an actual 61,153,510"
   ],
   "watch_for": [
-    "Nasdaq Hearings Panel decision on the appeal, expected roughly 30-45 days from the 2026-09-23 hearing request",
     "Filing of the FY2025 10-K with restated FY2024 and FY2023 \u2014 the first point at which any input to this model becomes usable",
-    "Whether restated operating cash flow for 2023-2024 differs materially from the figures the engine is still using",
-    "Any fourth Item 4.02 or a further extension of the 2026-11-30 credit-agreement deadline"
+    "Whether all four delinquent filings land by 2026-12-31, and failing that whether the Hearings Panel grants an extension toward 2027-03-12",
+    "Restated operating cash flow for 2023-2024 against the $458.2M/$422.2M the engine is still using",
+    "Any fourth Item 4.02, or a widening of the restatement beyond FY2023",
+    "Q4 2026 or FY2026 operating result \u2014 the first clean profitable period would make the cheapness question answerable"
   ],
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/940942/000119312526394408/d574815d8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221d8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526465632/d191442d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526465632/d191442dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526411325/d118269dex992.htm",
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526411325/d118269dex991.htm",
     "https://www.sec.gov/Archives/edgar/data/940942/000119312526218141/d146211d8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/940942/000119312525266623/hubg-20250930.htm"
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/940942/000119312526394408/d574815d8k.htm"
   ],
   "flags": [
-    "last_10k_631d_old",
-    "share_count_5816d_stale_market_cap_unreliable",
-    "balance_sheet_358d_old_enterprise_value_may_predate_a_financing",
+    "last_10k_689d_old",
+    "share_count_5874d_stale_market_cap_unreliable",
+    "balance_sheet_416d_old_enterprise_value_may_predate_a_financing",
     "possible_trough_cycle_base_newest_fcf_0.60x_oldest_growth_applied_to_a_trough_understates_value"
   ]
 }

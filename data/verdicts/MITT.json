@@ -1,0 +1,58 @@
+{
+  "ticker": "MITT",
+  "date": "2026-11-20",
+  "sector": "Financials",
+  "name": "TPG MORTGAGE INVESTMENT TRUST INC",
+  "method": "book",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.12,
+  "bull_growth": 0.08,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 3.880000114440918,
+  "market_implied_growth": null,
+  "cohort_pct": 98.2,
+  "priced": {
+    "ok": false,
+    "reason": "book method needs rotce_override or final_growth"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That 0.42x reported book is a large enough discount to survive a lot of being wrong, and that I am refusing a genuine opportunity out of squeamishness about leverage. Even on a punitive 7% sustainable return the justified multiple is (7-2)/(10.125-2) = 0.615x against an actual 0.419x, a +47% gap; at the company's own Q3 EAD run rate of 9.1% it is 0.874x, a +109% gap. The sign does not flip until the sustainable return falls below about 5-6%. And the externally-managed, serially-acquisitive structure cuts the other way too: the manager has done this before and the 2023 WMC acquisition is cited by its own CEO as the template.",
+    "what_would_prove_it": "The composition of the book decline \u2014 whether the $1.19 per share lost in nine months is mark-to-market on spreads that can revert, or realised credit and hedging losses that cannot. And the post-close pro forma book per share and share count, which fix both inputs to the justified multiple.",
+    "already_visible": "Partly, and what is visible is enough to refuse but not to call it rich. The company's own Q3 commentary attributes the decline to September volatility driving unrealised losses, with Arc Home break-even \u2014 so a material part is marks, which supports the counter. But three things defeat the gap as a measurement. First, the engine's $10.70 of tangible book is the 2025-12-31 equity, and against the company's own $9.27 the actual multiple is 0.419x not 0.36x, so the honest gap is +143% rather than the printed +181% before any judgment is applied \u2014 and because equity is SHRINKING, this is the minority direction of the stale-book bug, the one that manufactures false cheapness. Second, the share count rises about 37% at the CHMI close, which is weeks away, so every per-share figure on the brief is about to change, and the exchange ratio was struck when MITT traded at $7.08 against $3.88 today. Third, and decisively, the deciding variable is not the return at all: common book is roughly 1.6% of a $7.5bn asset base financed with $7.2bn, so the answer is a mark on that portfolio, and no field in this schema reaches it. A gap I cannot attribute to a mechanism I can name is not a thesis, and here the mechanism I CAN name \u2014 thin equity under heavy leverage with $84.6M of liquidity \u2014 argues for a discount rather than against one.",
+    "unresolved": "Whether the $84.6M of liquidity is adequate; I can observe that the company chose to publish it unprompted, which is informative about what it is being asked, but I cannot judge sufficiency without the margin terms on the $1.1bn of recourse financing. Whether the dividend is cut, and by how much. The split of the nine-month book decline between reversible marks and realised loss. And the pro forma book per share after CHMI, which is not disclosed and which I will not estimate."
+  },
+  "what_changed": "Two things, both dated and both material. (1) On 2026-11-19 \u2014 the day before the screen priced the stock \u2014 the company filed an UNSCHEDULED intra-quarter 8-K (item 7.01) 'in light of sustained market volatility and to enhance transparency', estimating book value per share at 2026-10-31 of between $9.20 and $9.30 against $9.27 at 2026-09-30, an investment portfolio of $7.5bn against $7.6bn, total financing of $7.2bn ($6.1bn non-recourse, $1.1bn recourse), GAAP leverage of 13.7x and economic leverage of 2.0x, and TOTAL LIQUIDITY OF $84.6 MILLION ($57.3M of cash plus $27.3M of contractually committed undrawn financing). Preferred dividends on the Series A, B and C were declared 2026-11-02 for payment 2026-12-17 and are excluded from that book estimate. (2) MITT is a PENDING ACQUIRER: on 2026-08-10 it signed a definitive merger agreement to acquire Cherry Hill Mortgage Investment Corporation, with CHMI holders receiving 0.3063 MITT shares plus $0.93 cash per share \u2014 an implied $3.10 per CHMI share and $117.5M of value at MITT's 2026-08-07 price of about $7.08 \u2014 closing expected in Q4 2026, with MITT holders owning ~73% and CHMI holders ~27% of the combined equity. The cash is ~$20M from TPG and ~$15M from MITT. MITT's own stock has since fallen 45% from the price that set that exchange ratio.",
+  "consensus_case": "At $3.88 against a book value the company itself reports as $9.27, the market is paying 0.42x book for a residential mortgage REIT \u2014 and the mechanism that justifies it is leverage, not pessimism about the manager. MITT carries a $7.5bn investment portfolio and $7.2bn of financing against $546M of total equity, of which $228M is preferred liquidation preference, leaving roughly $326M of common book. A 1% decline in portfolio fair value is $75M \u2014 about 23% of common book \u2014 so the equity is a thin option on asset marks rather than a claim on earnings. On top of that: total liquidity is $84.6M against $1.1bn of RECOURSE financing, Q3 earnings available for distribution of $0.21 did not cover the $0.24 dividend, book value has fallen in every quarter of 2026, and the company is externally managed by a TPG affiliate whose fee base is equity, which is an incentive to grow equity through serial acquisitions. At 0.42x book the buyer is being paid for a capital structure in which a few points of spread widening is the whole equity.",
+  "base_case_rationale": "Not applicable: this is a book-method name and the question is the sustainable return on tangible common equity, not a growth rate. I am not supplying one. The engine's 10.3% is the mean of GAAP returns for fiscal 2023, 2024 and 2025 measured against pre-2026 equity, and the window closed before the deterioration: Q3 2026 earnings available for distribution were $0.21 per share (about 9.1% annualised on a $9.27 book) against a $0.24 dividend, the GAAP result was a loss of roughly $10M, and book value per share has gone from about $10.46 at 2025-12-31 to $9.27 at 2026-09-30. Adding back roughly $0.72 of dividends over nine months, the economic return \u2014 the only return that means anything for a mortgage REIT \u2014 is NEGATIVE over the period. That is the CASH and MFIN condition: an `fy_end`-dated ROTCE window missing a turn, on a name where neither `unstable_rotce` nor `fundamentals_age_days` can see it.",
+  "key_risks": [
+    "Common book of roughly $326M (equity $546M less $228M of preferred liquidation preference) against a $7.5bn portfolio: a 1% move in portfolio fair value is ~23% of common book",
+    "Total liquidity of $84.6M against $1.1bn of recourse financing, with ~$15M of MITT cash due at the CHMI close",
+    "Book value per share has fallen every quarter of 2026, from ~$10.46 to $9.27, while a $0.24 dividend exceeded $0.21 of EAD",
+    "The engine's $10.70 tangible book is the December 2025 figure; the company reports $9.27, so the printed gap is overstated by roughly 38 points",
+    "Share count rises ~37% at the CHMI close, on an exchange ratio struck when MITT traded 45% higher",
+    "Externally managed by a TPG affiliate paid on equity \u2014 an incentive to grow equity through acquisition regardless of per-share outcome",
+    "$228M of preferred liquidation preference ranks ahead of a $123M common market capitalisation"
+  ],
+  "watch_for": [
+    "The CHMI close and the first pro forma book value per share and share count \u2014 the point at which both inputs to the justified multiple become knowable",
+    "Q4 2026 book value per share: a fourth consecutive decline would make the economic return negative for the full year",
+    "Any dividend cut from $0.24 toward the $0.21 EAD or below",
+    "Total liquidity in the next update against the $84.6M reported for 2026-10-31 \u2014 a further fall is the signal that matters most",
+    "Any further unscheduled intra-quarter 8-K; the decision to publish one is itself the tell"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/a8k-112026xexhibit991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/mitt-20261119.htm",
+    "https://www.sec.gov/Archives/edgar/data/1514281/000162828026071791/mitt-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1514281/000162828026054986/mitt-exhibit991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/a8k-9302026xexhibit991.htm",
+    "https://finance.yahoo.com/real-estate/articles/tpg-mortgage-investment-trust-inc-130212147.html"
+  ],
+  "flags": []
+}

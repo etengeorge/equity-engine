@@ -1,0 +1,192 @@
+{
+  "ticker": "COCO",
+  "date": "2026-11-20",
+  "sector": "Consumer Staples",
+  "name": "THE VITA COCO COMPANY",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.08,
+  "bear_growth": 0.03,
+  "bull_growth": 0.14,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 65.18000030517578,
+  "market_implied_growth": 0.3478040059017936,
+  "cohort_pct": 11.4,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.08,
+    "market_implied_growth": 0.3478040059017936,
+    "growth_delta": -0.2678040059017936,
+    "fair_value": 42.112998233859514,
+    "price": 65.18000030517578,
+    "gap": -0.35389693101128405,
+    "fair_value_band": {
+      "low": 36.67033691554959,
+      "point": 42.112998233859514,
+      "high": 49.56441375462328
+    },
+    "fcff_base_used": 110000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.08438276901677969,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 110000000,
+      "price": 65.18000030517578,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.06438276901677968,
+              "fair_value": 49.000775490392044,
+              "gap": -0.24822376095476917
+            },
+            {
+              "wacc": 0.07438276901677969,
+              "fair_value": 40.45057172973177,
+              "gap": -0.3794020935817687
+            },
+            {
+              "wacc": 0.08438276901677969,
+              "fair_value": 34.557326872107666,
+              "gap": -0.46981701886608374
+            },
+            {
+              "wacc": 0.09438276901677968,
+              "fair_value": 30.249401387205985,
+              "gap": -0.5359097691688112
+            },
+            {
+              "wacc": 0.10438276901677969,
+              "fair_value": 26.963147346062097,
+              "gap": -0.5863279039610403
+            }
+          ],
+          "fair_value_at_point_wacc": 34.557326872107666,
+          "gap_at_point_wacc": -0.46981701886608374
+        },
+        {
+          "case": "base",
+          "growth": 0.08,
+          "cells": [
+            {
+              "wacc": 0.06438276901677968,
+              "fair_value": 60.38281301400178,
+              "gap": -0.07359906825273621
+            },
+            {
+              "wacc": 0.07438276901677969,
+              "fair_value": 49.56441375462328,
+              "gap": -0.2395763497612703
+            },
+            {
+              "wacc": 0.08438276901677969,
+              "fair_value": 42.112998233859514,
+              "gap": -0.35389693101128405
+            },
+            {
+              "wacc": 0.09438276901677968,
+              "fair_value": 36.67033691554959,
+              "gap": -0.43739894532283874
+            },
+            {
+              "wacc": 0.10438276901677969,
+              "fair_value": 32.52205553744931,
+              "gap": -0.5010424150785587
+            }
+          ],
+          "fair_value_at_point_wacc": 42.112998233859514,
+          "gap_at_point_wacc": -0.35389693101128405
+        },
+        {
+          "case": "bull",
+          "growth": 0.14,
+          "cells": [
+            {
+              "wacc": 0.06438276901677968,
+              "fair_value": 76.99987318849912,
+              "gap": 0.18134201945354622
+            },
+            {
+              "wacc": 0.07438276901677969,
+              "fair_value": 62.84790148786253,
+              "gap": -0.03577936186551489
+            },
+            {
+              "wacc": 0.08438276901677969,
+              "fair_value": 53.107248487278106,
+              "gap": -0.18522172079430033
+            },
+            {
+              "wacc": 0.09438276901677968,
+              "fair_value": 45.99811834359415,
+              "gap": -0.29429091549204
+            },
+            {
+              "wacc": 0.10438276901677969,
+              "fair_value": 40.58442439019046,
+              "gap": -0.37734850874237025
+            }
+          ],
+          "fair_value_at_point_wacc": 53.107248487278106,
+          "gap_at_point_wacc": -0.18522172079430033
+        }
+      ],
+      "summary": {
+        "bear": -0.46981701886608374,
+        "base": -0.35389693101128405,
+        "bull": -0.18522172079430033
+      },
+      "downside": -0.5863279039610403,
+      "upside": 0.18134201945354622
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "That I am calling a 30%-growth category leader expensive off a normalised margin I invented, when every reported line is accelerating and management has raised guidance. The strongest version: Q4 gross margin of ~33% is a cost-timing gap, not a structural reset \u2014 the company says explicitly that there are 'no offsetting price actions expected UNTIL EARLY 2027', which is a statement that the price actions are coming, not that they will fail. If gross margin recovers to the high thirties in 2027 on a larger revenue base plus a full year of Copra, the earnings base is $150M-plus rather than $110M, and at $150M with +10% growth the fair value is $56.83 \u2014 only 12.8% below the price, which is noise, not a short.",
+    "what_would_prove_it": "Q1 and Q2 2027 gross margin after the price actions land. Recovery to 38%-plus would vindicate the counter; a print nearer 33-34% would confirm the reset.",
+    "already_visible": "The direction of travel is visible and it is downward: 44.7% in the first half, 38.0% in Q3, ~33% guided for Q4. That is three consecutive declines, and the last one is management's own number, so the counter rests on a recovery that is forecast rather than observed. Two further things keep me at `rich`. First, the arithmetic is not close at my central case: at a $110M base the market requires +19.4% five-year FCFF growth, and fair value is $34.55 at +3%, $42.10 at +8% and $53.09 at +14% \u2014 every cell below the price, and the +14% cell assumes the bull case outright. Even granting the counter's own $150M base, the market still requires +13.5%. Second, the cash quality is good but not as good as it looks: of the $151.9M of nine-month operating cash flow, about $22.3M is working capital (inventory +$33.3M and payables +$39.1M against receivables -$42.8M), so the underlying figure is nearer $130M, and $11.3M of stock compensation sits inside it untouched. The counter does real work \u2014 it is why the verdict is `rich` at medium rather than high conviction, and why I used the generous end of my base range \u2014 but a thesis that needs a margin recovery management has not yet guided is not enough to bridge a 35% gap.",
+    "unresolved": "Whether the early-2027 price actions restore the margin, which is the whole question and which no filed document answers. The margin profile of Copra once integrated \u2014 a 'very strong private label business' is a different margin structure from the Vita Coco brand, and the company says the deal is accretive to adjusted EBITDA margins only 'post full integration', which is undated. And the true capital intensity going forward, since the nine-month capex of $0.8M cannot be the run rate for a company that now owns a factory in Thailand and plans to expand its capacity."
+  },
+  "what_changed": "Two things, in opposite directions. (1) THE ACQUISITION: Vita Coco closed the purchase of Copra, Inc. on 2026-07-22 for $175M upfront \u2014 80% cash on hand, the balance in Vita Coco stock \u2014 plus EARNOUT CONSIDERATION PAYABLE IN 2029 BASED ON 2028 PERFORMANCE WITH A FLOOR OF $45 MILLION AND A CAP OF $100 MILLION (8-K items 1.01/2.01/3.02, 2026-07-22). Copra expects full-year 2026 net sales above $100M, predominantly in the Americas, with 'a very strong private label business'. The cash flow statement shows $139.3M paid net of $8.3M of cash acquired, and goodwill and intangibles now stand at $110.2M and $107.1M. (2) THE MARGIN IS ALREADY REVERSING, AND MANAGEMENT HAS DATED IT: gross margin was 44.7% in the first half, 38.0% in Q3, and FOURTH-QUARTER GROSS MARGIN IS GUIDED TO APPROXIMATELY 33% 'due to increases in cost of goods and no offsetting price actions expected until early 2027'. That is a decline of roughly 1,170 basis points from H1 to Q4 in a single year, disclosed by the company.",
+  "consensus_case": "At $65.18 the market is paying $3.57bn of enterprise value \u2014 about 4.4x sales and roughly 21x guided adjusted EBITDA \u2014 for the brand leader in what its own management calls the fastest-growing category in the beverage aisle. The case is strong and mostly in the numbers: nine-month net sales up 32.7% to $639.7M, gross margin up 530bp to 42.2%, income from operations up 96.5% to $142.2M, full-year guidance RAISED to $810-820M of net sales and $170-175M of adjusted EBITDA, no debt, $152M of cash, and a July acquisition of Copra that buys entry into the super-premium Thai Nam Hom segment with a factory, a 48% three-year sales CAGR and more than $100M of 2026 net sales. A debt-free category leader compounding sales at 30% with a long international runway is the kind of asset the market pays 4x sales for.",
+  "base_case_rationale": "The engine's $62.5M base is far too low \u2014 it is the mean of fiscal 2023-2025 cfo-less-capex against a company whose nine-month 2026 free cash flow was already $151.1M and whose guided full-year adjusted EBITDA is $170-175M, so the HOG and JBI cross-check fires in the UNUSUAL direction. But the right correction is not to the current year either, because the current year is a margin peak the company has told me is ending. I normalise to the margin structure management has guided rather than the one just earned: roughly $850M of 2027 net sales at the guided ~33% gross margin is about $280M of gross profit, less SG&A annualising toward $175M from the nine-month $127.6M, gives operating income near $105M; taxed at 25% and adding back trivial D&A against modest capex (the nine-month capex line is only $0.8M, though the Thailand factory will raise it) gives owner earnings of roughly $95-110M. I use $110M, the generous end, and pair it with +8% growth \u2014 above the category's pricing but below the 30% top-line pace, because the volume runway is real while the margin tailwind has turned into a headwind.",
+  "key_risks": [
+    "Gross margin guided from 44.7% in H1 to approximately 33% in Q4, with no offsetting price actions expected until early 2027",
+    "At a normalised $110M base the market requires +19.4% five-year FCFF growth; even at the 2026 peak base of $150M it requires +13.5%",
+    "A Copra earnout payable in 2029 with a $45M FLOOR and a $100M cap sits in neither `total_debt` nor the share count \u2014 the PRM pattern",
+    "The cash-flow base is standalone pre-Copra while the enterprise value is post-deal, with $139.3M of cash spent and stock issued",
+    "Beta of 0.62 at an R-squared of 0.052 is a failed regression on a 100%-equity WACC; a defensible 0.9 lifts the discount rate to ~10.5% and makes the name richer still",
+    "Imported coconut water carries tariff exposure, named in the company's own forward-looking-statements risk list",
+    "Acquiring a large private-label operator puts the company on both sides of the brand-versus-private-label margin question"
+  ],
+  "watch_for": [
+    "Q1 and Q2 2027 gross margin after the price actions \u2014 above 38% would invalidate this verdict, near 33-34% would confirm it",
+    "Whether the Q4 2026 gross margin lands at the guided ~33% or better",
+    "FY2027 guidance for net sales and adjusted EBITDA: flat-to-down EBITDA on higher sales is the signature of the margin reset",
+    "Capital expenditure guidance once the Thailand factory expansion is scoped, against a nine-month 2026 figure of $0.8M",
+    "Copra's contribution disclosed separately, and whether the 2029 earnout is tracking toward the $45M floor or the $100M cap"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000185/coco-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20261022.htm",
+    "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/coco-20260722.htm",
+    "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000173/coco-20260630.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.37x_oldest_growth_applied_to_a_trough_understates_value"
+  ]
+}

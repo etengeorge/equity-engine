@@ -1,0 +1,59 @@
+{
+  "ticker": "TMDX",
+  "date": "2026-11-20",
+  "sector": "Health Care",
+  "name": "TRANSMEDICS GROUP",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": 0.05,
+  "bull_growth": 0.3,
+  "rotce_override": null,
+  "horizon_months": 18,
+  "price_at_verdict": 94.0199966430664,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That `no_edge` here is a dodge. The engine's refusal is demonstrably wrong, I can show why, and having corrected it I should take a view: a GAAP-profitable business growing organic revenue 35% with a protected position and four dated catalysts is either worth more than 4.2x forward sales or it is not, and refusing to say which is not analysis.",
+    "what_would_prove_it": "Two quarters of free cash flow at a rate that distinguishes the three candidate bases \u2014 specifically whether operating cash flow recovers toward the $158M nine-month level of 2025 once the receivable and inventory build behind the 41% revenue ramp stabilises, and whether capital expenditure falls toward the $27M of depreciation now that the fleet is largely bought.",
+    "already_visible": "Only the half that argues for refusing. The cash-conversion break IS visible and it is the single most important new fact on the name: operating cash flow halved while revenue grew 41%, which is the HURN and AGYS signature and the opposite of what a company with operating leverage should show. But its cause is not visible \u2014 I cannot separate working capital funding a 41% ramp (benign and self-reversing) from a service and aviation mix that structurally consumes cash (not benign), because the quarterly cash flow statement does not break out the working-capital lines in the detail that would settle it. Meanwhile the discount rate is not a measurement either: beta is 2.15 at an R-SQUARED OF 0.037, marked `yahoo_rescaled`, which per the ISBA and HURN rule is a failed input and not a high-beta finding, and it alone moves the required growth by about 12 points. So I have a base indeterminate by a factor of four, a discount rate that is not a measurement, and a terminal free-cash-flow margin no filing discloses \u2014 the VCYT condition. Three unreachable inputs is a refusal, not a dodge. What I will say plainly is the direction of the surprise: a company guiding revenue up and converting half as much cash as last year is a worse business this quarter than the headline implies, and the next two prints decide it.",
+    "unresolved": "The composition of the nine-month cash-flow decline, which is the whole question. The sustaining level of capital expenditure now that the aviation fleet is largely assembled \u2014 capex at $52.1M for nine months is still roughly 2x depreciation, so a majority is probably still growth, but the company does not split it. The terminal operating margin of a business that owns its own airline. And whether the Italian logistics tender is representative of European economics or a loss-leading entry."
+  },
+  "what_changed": "The Q3 2026 results of 2026-11-05 raised guidance and, in the same filing, disclosed a cash-conversion break that no flag names and no headline mentioned. NINE-MONTH OPERATING CASH FLOW WAS $77.8 MILLION AGAINST $158.3 MILLION A YEAR EARLIER \u2014 down 51% \u2014 while purchases of property, plant and equipment ROSE to $52.1M from $43.7M and a further $5.3M went on the PAD Aviation investment net of cash acquired. So nine-month free cash flow was about $25.7M, or $20.4M including the acquisition, in a period when revenue grew 41% and net income turned positive. Also new: Fernando Araujo, formerly CFO of GE HealthCare's Advanced Imaging Solutions segment, was appointed Chief Financial Officer in September 2026, and the company has begun European operations using its own aviation fleet off the Italian tender win in October.",
+  "consensus_case": "At $94.02 the market is paying about $3.24bn of enterprise value for what several observers describe as a near-monopoly on keeping donor organs alive. The case is in the numbers and it is strong: Q3 2026 total revenue of $203.0M was up 41% with organic growth of 35%, the quarter was the strongest in the company's history on record case volume, net income was $17.1M or $0.46 a diluted share, and full-year guidance was RAISED to $764-774M. The optionality on top is unusually well dated: enrolment completed in Part A of the ENHANCE Heart trial with FDA clearance of a continued-access protocol for 90 more patients, IDE approvals for ENHANCE Heart Part B and the DENOVO Lung trial with CHOPS as a control arm in both, the first European transplant logistics tender won in Italy, and OCS Kidney on track for first-in-human in the second half of 2027 \u2014 the largest transplant market. A buyer here is paying roughly 4.2x forward sales for a 35% organic grower with four shots on goal.",
+  "base_case_rationale": "I cannot pin a base, and that is the finding rather than an evasion. The engine refused on `nonpositive_normalized_fcff` because the three-year mean of cfo-less-capex is negative $37.4M \u2014 but that is a FALSE refusal of the SND and WHD kind, caused by TransMedics building an aircraft fleet from scratch: capital expenditure was $151.8M and $129.7M in the two older years against $59.3M in the newest, while depreciation is $27.2M. So the model charges the company the full cost of constructing a new logistics network and then declines to value what is left, which is the AROC error producing a refusal instead of a false sell. The trouble is that correcting it does not converge. The newest full year of cfo-less-capex is positive $133.6M; the nine months just reported annualise to about $34M; and a sustaining construction \u2014 annualised operating cash flow of roughly $104M less maintenance capital near the $27.2M of depreciation, plus after-tax interest \u2014 gives about $85M. Those three defensible bases are a factor of four apart, and the required growth moves from +22.8% to +80.1% across them and across a defensible discount-rate band. A range that wide is not a valuation.",
+  "key_risks": [
+    "Nine-month operating cash flow halved to $77.8M from $158.3M while capital expenditure rose \u2014 a cash-conversion break in a year of 41% revenue growth and raised guidance",
+    "The honest base is indeterminate by a factor of four ($34M to $134M), taking required five-year growth from +22.8% to +80.1%",
+    "Beta of 2.15 at an R-squared of 0.037, marked `yahoo_rescaled`, is not a measurement; it moves required growth about 12 points and the schema cannot override it",
+    "The terminal free-cash-flow margin of a vertically integrated organ-logistics business, including an owned aircraft fleet, is disclosed nowhere",
+    "Trailing multiples are measurement artifacts on an inflecting line: revenue has gone $26M, $30M, $93M, $242M, $442M, $605M and is guided to $764-774M, so the EV/sales of 5.3x on the brief is nearer 4.2x forward",
+    "Three clinical programmes, a European launch and a kidney programme are being funded at once"
+  ],
+  "watch_for": [
+    "Q4 2026 and Q1 2027 operating cash flow: recovery toward the prior-year level would make the break working capital, a second weak quarter would make it structural",
+    "2027 capital expenditure guidance against roughly $27M of depreciation \u2014 the test of how much of the spend was ever growth",
+    "ENHANCE Heart Part B and DENOVO Lung enrolment and first data",
+    "OCS Kidney first-in-human in H2 2027",
+    "European contribution from the Italian tender and the planned Netherlands and Belgium launches, and whether it carries US-level margins"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/tmdx-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm",
+    "https://www.sec.gov/Archives/edgar/data/1756262/000119312526332843/tmdx-20260630.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "lumpy_fcff_spread_8.0x_of_mean",
+    "nonpositive_normalized_fcff"
+  ]
+}

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>SMR — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / SMR</p><h1>SMR <span style='color:var(--faint);font-weight:400'>NUSCALE POWER CORP CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>high</b></div><div>Price at verdict<b>$3.81</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-20</b></div></div><div class='prose'><h1>SMR — NUSCALE POWER CORP CLASS A</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-20 — NO_MODEL (conviction: high)</h2><ul><li><strong>Verdict:</strong> no_model · price $3.81</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $3.81 — down 82.3% in a year and 59.5% in three months, at a 52-week low — the market is pricing NuScale as an option that has moved a long way out of the money rather than as a going concern. The remaining bull case rests on two things that are real: NuScale holds the only small modular reactor design certified by the US Nuclear Regulatory Commission, which is a regulatory moat no competitor can buy quickly; and the company has roughly $933M of cash and short-term investments after raising about $2.05bn of equity through its 2025 and 2026 at-the-market programmes, so it can fund several more years of development without a financing emergency. Against a true market capitalisation of about $1.64bn and stockholders&#x27; equity of $2.02bn, the shares trade below book — which is what the market does to a developer whose first commercial deployment keeps moving right.</p><p><strong>What changed.</strong> The 63-day collapse is identified and dated: Canada&#x27;s first SMR project is running late, which took the stock down 22% in the week to 2026-11-18 to a 52-week low, and the coverage that followed frames the question as liquidity against delays. Operationally the quarter brought incremental process news rather than a commercial order — NuScale implemented Everstar&#x27;s Gordian AI platform to accelerate commercial reactor deployment (2026-11-18). The financial direction is the thing that matters and it is in the 10-Q: operating cash outflow was $459.6M in the newest fiscal year against $108.7M and $183.3M in the two prior years, so the burn has roughly quadrupled, and EBIT is negative $689.6M. The company has funded that by issuing roughly 120.7 million Class A shares across three tranches disclosed in the Q3 10-Q — 89,727,165 shares for $1,000.0M gross, 17,764,936 for $577.6M gross and 13,216,809 for $475.2M gross, about $2.05bn in total.</p><p><strong>Base case.</strong> No base case is admissible, and no fair value either. There is no positive free-cash-flow year in the window: operating cash flow is negative in all three years and accelerating away from zero, revenue is $31.5M against an EBIT of negative $689.6M, <code>dep_amort_series</code> is empty and capital expenditure is trivial, so <code>normalized_fcff</code> cannot be computed and the engine correctly returned <code>model_failed</code>. A discounted cash flow cannot value a pre-commercial reactor developer whose first plant is not built, and the multiples path is disqualified separately (see the data-quality note) because every per-share and per-dollar figure on the brief divides by a share count that is 1,662 days stale and 45% too low. This is the honest form of refusal: &#x27;a DCF cannot value this&#x27; is a different claim from &#x27;this is worthless&#x27;, and I am making only the first.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That an 82% fall in a company with the only NRC-certified SMR design, $933M of liquidity and shares below book value is where asymmetric returns come from, and that refusing to put a number on it is refusing to do the job. The specific version: stockholders&#x27; equity is $2.02bn against a true market capitalisation of $1.64bn, so the market is valuing the certified design, the order book and the Romanian and other project positions at less than nothing.</li><li>What would prove it: A firm commercial order with committed financing and milestone payments, or a credible statement of the capital still required to reach first power — which would let a buyer judge whether the $933M is a runway or a down payment.</li><li>Already visible today: No, and the price-to-book argument does not survive inspection. Of the $2.02bn of equity, about $933M is cash and short-term investments; the balance is largely capitalised project and development assets on a company that has not delivered a commercial reactor, and those carry nothing like the certainty of cash. More importantly the composition of the discount is the tell: the burn is $459.6M a year and quadrupling, so book value is being consumed at roughly 23% a year, and the market is marking that forward rather than mispricing the present. I also cannot test the book-value claim properly, because the engine&#x27;s own equity series runs $93.5M, $618.7M, $1,168.8M against an <code>equity_now</code> of $2,024.1M — equity has grown 21x across the window purely through issuance, so there is no stable denominator to anchor on. And the counter leans on a share count that is wrong: the real count is 429.9 million, not 236.8 million, so the market capitalisation is $1.64bn rather than $902M and the discount to book is 19%, not 55%. A gap that shrinks by two thirds when the denominator is corrected is not a thesis. The counter fails, and it fails on a number that is on the cover page of the 10-Q.</li><li>Left unresolved: The capital required to reach first commercial power, which no filing quantifies and which determines whether the remaining cash is sufficient. The status and economics of the Romanian RoPower project and the Canadian project whose delay caused the fall — I could identify the delay from the news feed but not its contractual or financial consequence. And the carrying basis of the roughly $1.1bn of non-cash assets inside stockholders&#x27; equity, which I did not reconcile line by line.</li></ul><p><strong>Key risks.</strong> Operating cash outflow of $459.6M in the newest year against roughly $933M of cash and short-term investments — about two years of runway at the current burn; Roughly 120.7 million Class A shares issued for about $2.05bn through the 2025 and 2026 at-the-market programmes; the funding model is continuous dilution and the share price is 82% below last year; First commercial deployment keeps slipping; Canada&#x27;s first SMR is running late, which took the stock to a 52-week low; Revenue of $31.5M against EBIT of negative $689.6M — there is no commercial business yet; Up-C structure with a negative non-controlling interest of $49.7M; Class B holders at NuScale LLC hold an economic interest outside the Class A count; Every per-share figure on the brief divides by 236.75M shares against an actual 429.90M <strong>Watch for.</strong> A firm, financed commercial reactor order with milestone payments — the single event that would make this modellable; The next at-the-market drawdown and the price at which it is struck; A quantified statement of capital required to first power; Quarterly operating cash outflow against the ~$115M implied by the current annual run rate; a further acceleration shortens the runway below two years; Any disclosure on the Canadian project delay&#x27;s contractual consequences, and the status of RoPower</p><p><strong>Data quality.</strong> THE SHARE COUNT IS THE HEADLINE DEFECT AND BOTH INDEPENDENT GATES FIRE, WHICH IS THE BELFA PREDICTION CONFIRMED ON A DE-SPAC. <code>shares_source</code> is <code>us-gaap:CommonStockSharesOutstanding (10-Q)</code> — NOT the <code>dei:EntityCommonStockSharesOutstanding</code> cover-page fact — and <code>shares_asof</code> is 2022-05-03, the month of the de-SPAC, making it 1,662 days stale. So the HNGE concept gate and the age gate fire independently and both are needed, exactly as the BELFA entry argues. The value used is 236,754,948 against a cover page that reads &#x27;410,568,229 Class A common shares... and 19,332,018 Class B common shares... outstanding as of October 30, 2026&#x27; — 429,900,247 shares, so the engine&#x27;s count is 45% too low and TRUE MARKET CAPITALISATION IS $1,638M AGAINST THE RECORDED $902M. The mechanism is new and worth carrying: this is not a frozen founder block as on MIR, nor a pre-conversion count as on HNGE — it is a post-de-SPAC balance-sheet concept that simply never updated through roughly 120.7 million shares of at-the-market issuance disclosed in the same 10-Q that carries the correct cover page. Consequences: <code>no_model</code> means no DCF was printed, so the count cost nothing there, but per the WHD rule a stale share count DISQUALIFIES THE MULTIPLES TABLE WHOLESALE, and on a company with $31.5M of revenue against a $689.6M operating loss an EV/sales row would be meaningless anyway — CLAUDE.md&#x27;s warning about multiples on a pre-revenue name applies in full. Two further items: <code>dep_amort_series</code> is EMPTY, which on the WHD precedent deserves its own gate rather than passing silently; and <code>equity_now</code> of $2,024.1M against <code>equity_series[0]</code> of $1,168.8M is 1.73x, below the 2x CECO screen but driven entirely by issuance rather than by a transaction, which is the CENX false-positive class in a new form — the ratio moved because the company sold stock, not because it bought anything.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/smr-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/smr-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1822966/000182296626000089/smr-20261105.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1822966/000182296626000089/smr-20261105.htm</a></li><li><a href="https://www.tikr.com/blog/nuscale-sinks-22-in-a-week-to-a-52-week-low-as-canadas-first-smr-runs-late-is-the-selling-overdone?ref=yahoofinance&amp;tlnk=yf-261118-85vfgjpv" rel="noopener">https://www.tikr.com/blog/nuscale-sinks-22-in-a-week-to-a-52-week-low-as-canadas-first-smr-runs-late-is-the-selling-overdone?ref=yahoofinance&amp;tlnk=yf-261118-85vfgjpv</a></li><li><a href="https://finance.yahoo.com/technology/ai/articles/nuscale-power-implements-everstar-gordian-115000915.html" rel="noopener">https://finance.yahoo.com/technology/ai/articles/nuscale-power-implements-everstar-gordian-115000915.html</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-stock-fair-071038428.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-stock-fair-071038428.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/SMR.md'>research/Industrials/SMR.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>COCO — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Staples / COCO</p><h1>COCO <span style='color:var(--faint);font-weight:400'>THE VITA COCO COMPANY</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$65.18</b></div><div>Analyst gap<b>-35%</b></div><div>Dated<b>2026-11-20</b></div></div><div class='prose'><h1>COCO — THE VITA COCO COMPANY</h1><p><em>Consumer Staples · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-20 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $65.18 · fair value $42.11 · gap -35.4%</li><li><strong>Growth:</strong> market implies +34.8%, analyst says +8.0% (delta -26.8%)</li><li><strong>FCFF base overridden</strong> by the analyst to $110.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 6.4% | 7.4% | 8.4% | 9.4% | 10.4% | |---|---|---|---|---|---|---| | bear | +3.0% | $49.00 | $40.45 | $34.56 | $30.25 | $26.96 | | base | +8.0% | $60.38 | $49.56 | $42.11 | $36.67 | $32.52 | | bull | +14.0% | $77.00 | $62.85 | $53.11 | $46.00 | $40.58 |</p><p>At the point WACC of 8.4%: bear -47.0%, base -35.4%, bull -18.5% Across the whole grid the gap ranges -58.6% to +18.1% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> At $65.18 the market is paying $3.57bn of enterprise value — about 4.4x sales and roughly 21x guided adjusted EBITDA — for the brand leader in what its own management calls the fastest-growing category in the beverage aisle. The case is strong and mostly in the numbers: nine-month net sales up 32.7% to $639.7M, gross margin up 530bp to 42.2%, income from operations up 96.5% to $142.2M, full-year guidance RAISED to $810-820M of net sales and $170-175M of adjusted EBITDA, no debt, $152M of cash, and a July acquisition of Copra that buys entry into the super-premium Thai Nam Hom segment with a factory, a 48% three-year sales CAGR and more than $100M of 2026 net sales. A debt-free category leader compounding sales at 30% with a long international runway is the kind of asset the market pays 4x sales for.</p><p><strong>What changed.</strong> Two things, in opposite directions. (1) THE ACQUISITION: Vita Coco closed the purchase of Copra, Inc. on 2026-07-22 for $175M upfront — 80% cash on hand, the balance in Vita Coco stock — plus EARNOUT CONSIDERATION PAYABLE IN 2029 BASED ON 2028 PERFORMANCE WITH A FLOOR OF $45 MILLION AND A CAP OF $100 MILLION (8-K items 1.01/2.01/3.02, 2026-07-22). Copra expects full-year 2026 net sales above $100M, predominantly in the Americas, with &#x27;a very strong private label business&#x27;. The cash flow statement shows $139.3M paid net of $8.3M of cash acquired, and goodwill and intangibles now stand at $110.2M and $107.1M. (2) THE MARGIN IS ALREADY REVERSING, AND MANAGEMENT HAS DATED IT: gross margin was 44.7% in the first half, 38.0% in Q3, and FOURTH-QUARTER GROSS MARGIN IS GUIDED TO APPROXIMATELY 33% &#x27;due to increases in cost of goods and no offsetting price actions expected until early 2027&#x27;. That is a decline of roughly 1,170 basis points from H1 to Q4 in a single year, disclosed by the company.</p><p><strong>Base case.</strong> The engine&#x27;s $62.5M base is far too low — it is the mean of fiscal 2023-2025 cfo-less-capex against a company whose nine-month 2026 free cash flow was already $151.1M and whose guided full-year adjusted EBITDA is $170-175M, so the HOG and JBI cross-check fires in the UNUSUAL direction. But the right correction is not to the current year either, because the current year is a margin peak the company has told me is ending. I normalise to the margin structure management has guided rather than the one just earned: roughly $850M of 2027 net sales at the guided ~33% gross margin is about $280M of gross profit, less SG&amp;A annualising toward $175M from the nine-month $127.6M, gives operating income near $105M; taxed at 25% and adding back trivial D&amp;A against modest capex (the nine-month capex line is only $0.8M, though the Thailand factory will raise it) gives owner earnings of roughly $95-110M. I use $110M, the generous end, and pair it with +8% growth — above the category&#x27;s pricing but below the 30% top-line pace, because the volume runway is real while the margin tailwind has turned into a headwind.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That I am calling a 30%-growth category leader expensive off a normalised margin I invented, when every reported line is accelerating and management has raised guidance. The strongest version: Q4 gross margin of ~33% is a cost-timing gap, not a structural reset — the company says explicitly that there are &#x27;no offsetting price actions expected UNTIL EARLY 2027&#x27;, which is a statement that the price actions are coming, not that they will fail. If gross margin recovers to the high thirties in 2027 on a larger revenue base plus a full year of Copra, the earnings base is $150M-plus rather than $110M, and at $150M with +10% growth the fair value is $56.83 — only 12.8% below the price, which is noise, not a short.</li><li>What would prove it: Q1 and Q2 2027 gross margin after the price actions land. Recovery to 38%-plus would vindicate the counter; a print nearer 33-34% would confirm the reset.</li><li>Already visible today: The direction of travel is visible and it is downward: 44.7% in the first half, 38.0% in Q3, ~33% guided for Q4. That is three consecutive declines, and the last one is management&#x27;s own number, so the counter rests on a recovery that is forecast rather than observed. Two further things keep me at <code>rich</code>. First, the arithmetic is not close at my central case: at a $110M base the market requires +19.4% five-year FCFF growth, and fair value is $34.55 at +3%, $42.10 at +8% and $53.09 at +14% — every cell below the price, and the +14% cell assumes the bull case outright. Even granting the counter&#x27;s own $150M base, the market still requires +13.5%. Second, the cash quality is good but not as good as it looks: of the $151.9M of nine-month operating cash flow, about $22.3M is working capital (inventory +$33.3M and payables +$39.1M against receivables -$42.8M), so the underlying figure is nearer $130M, and $11.3M of stock compensation sits inside it untouched. The counter does real work — it is why the verdict is <code>rich</code> at medium rather than high conviction, and why I used the generous end of my base range — but a thesis that needs a margin recovery management has not yet guided is not enough to bridge a 35% gap.</li><li>Left unresolved: Whether the early-2027 price actions restore the margin, which is the whole question and which no filed document answers. The margin profile of Copra once integrated — a &#x27;very strong private label business&#x27; is a different margin structure from the Vita Coco brand, and the company says the deal is accretive to adjusted EBITDA margins only &#x27;post full integration&#x27;, which is undated. And the true capital intensity going forward, since the nine-month capex of $0.8M cannot be the run rate for a company that now owns a factory in Thailand and plans to expand its capacity.</li></ul><p><strong>Key risks.</strong> Gross margin guided from 44.7% in H1 to approximately 33% in Q4, with no offsetting price actions expected until early 2027; At a normalised $110M base the market requires +19.4% five-year FCFF growth; even at the 2026 peak base of $150M it requires +13.5%; A Copra earnout payable in 2029 with a $45M FLOOR and a $100M cap sits in neither <code>total_debt</code> nor the share count — the PRM pattern; The cash-flow base is standalone pre-Copra while the enterprise value is post-deal, with $139.3M of cash spent and stock issued; Beta of 0.62 at an R-squared of 0.052 is a failed regression on a 100%-equity WACC; a defensible 0.9 lifts the discount rate to ~10.5% and makes the name richer still; Imported coconut water carries tariff exposure, named in the company&#x27;s own forward-looking-statements risk list; Acquiring a large private-label operator puts the company on both sides of the brand-versus-private-label margin question <strong>Watch for.</strong> Q1 and Q2 2027 gross margin after the price actions — above 38% would invalidate this verdict, near 33-34% would confirm it; Whether the Q4 2026 gross margin lands at the guided ~33% or better; FY2027 guidance for net sales and adjusted EBITDA: flat-to-down EBITDA on higher sales is the signature of the margin reset; Capital expenditure guidance once the Thailand factory expansion is scoped, against a nine-month 2026 figure of $0.8M; Copra&#x27;s contribution disclosed separately, and whether the 2029 earnout is tracking toward the $45M floor or the $100M cap</p><p><strong>Data quality.</strong> THE HOG AND JBI CROSS-CHECK FIRES IN THE OPPOSITE DIRECTION FROM EVERY PRIOR INSTANCE: THE BASE IS FAR TOO LOW, NOT TOO HIGH. The engine&#x27;s $62.5M is the mean of fiscal 2023-2025 cfo-less-capex ([$106.6M, $41.9M, $39.0M] oldest to newest) against nine-month 2026 free cash flow of $151.1M (operating cash flow $151.9M less $0.8M of capex) and guided full-year adjusted EBITDA of $170-175M — so the base is 36% of the company&#x27;s own guidance. The <code>possible_trough_cycle_base_newest_fcf_0.37x_oldest</code> flag is therefore pointing the RIGHT way for once, and for the wrong reason: it fired because fiscal 2023 is 2.7x fiscal 2025, when the fact that matters is that 2026 is above all three. Correcting it still leaves the name expensive, which is the honest finding. The cash is of reasonable quality — of the $151.9M, about $22.3M is working capital and $11.3M is stock compensation, so underlying generation is nearer $130M, and this is NOT the MSGE working-capital wave. THREE DEFECTS REMAIN AND ALL RUN TOWARD CHEAPNESS. (1) The CECO and HNI standalone-base-against-combined-EV shape: Copra closed 2026-07-22, so goodwill of $110.2M and intangibles of $107.1M and the $139.3M of cash spent are all inside the 2026-09-30 balance sheet that sets enterprise value, while the cfo_series is entirely pre-deal. <code>equity_now</code> over <code>equity_series[0]</code> is 1.29x, below the 2x CECO screen, so no gate sees it. (2) The 2029 earnout with a $45M floor is a contractual claim in neither debt nor shares — the PRM pattern on an earnout rather than a founder advisory fee — worth 1.3% to 2.8% of enterprise value. (3) Beta 0.62 at R-squared 0.052, barely above the engine&#x27;s own 0.04 gate, giving an 8.44% all-equity WACC; at a defensible 0.9 the discount rate is roughly 10.5% and the required growth rises from +19.4% to +27.5%, so this error FLATTERS the name against my <code>rich</code> verdict and the recorded number is admissible under the FIBK rule and is conservative. Share count and enterprise value are otherwise sound: 57,063,861 shares from the dei concept dated 2026-10-20, post-deal, and EV of $3,567M reconciles to market cap less $152.0M of cash with no debt. One note for the next pass: <code>dep_amort_series</code> of [$1.07M, $0.75M, $0.66M] against $107.1M of intangibles implies the intangibles are indefinite-lived brand rather than an amortising concept — plausible here, but it is the shape the SND D&amp;A test flags, so do not read the low D&amp;A as a defect without checking.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1482981/000148298126000185/coco-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1482981/000148298126000185/coco-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20261022.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20261022.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/coco-20260722.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1482981/000148298126000167/coco-20260722.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1482981/000148298126000173/coco-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1482981/000148298126000173/coco-20260630.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Staples/COCO.md'>research/Consumer Staples/COCO.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

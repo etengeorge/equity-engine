@@ -1,190 +1,56 @@
 {
   "ticker": "RES",
-  "date": "2026-10-30",
+  "date": "2026-11-20",
   "sector": "Energy",
   "name": "RPC INC",
   "method": "fcff",
-  "verdict": "rich",
+  "verdict": "no_edge",
   "conviction": "medium",
-  "final_growth": 0.0,
-  "bear_growth": -0.05,
-  "bull_growth": 0.08,
+  "final_growth": null,
+  "bear_growth": -0.08,
+  "bull_growth": 0.1,
   "rotce_override": null,
-  "horizon_months": 24,
-  "price_at_verdict": 6.380000114440918,
-  "market_implied_growth": -0.07683323037947615,
-  "cohort_pct": 97.9,
+  "horizon_months": 18,
+  "price_at_verdict": 5.059999942779541,
+  "market_implied_growth": -0.12624005686523604,
+  "cohort_pct": 98.0,
   "priced": {
-    "ok": true,
-    "method": "fcff",
-    "analyst_growth": 0.0,
-    "market_implied_growth": -0.07683323037947615,
-    "growth_delta": 0.07683323037947615,
-    "fair_value": 5.438283300718731,
-    "price": 6.380000114440918,
-    "gap": -0.1476045136097478,
-    "fair_value_band": {
-      "low": 4.873674329146748,
-      "point": 5.438283300718731,
-      "high": 6.187378646777964
-    },
-    "fcff_base_used": 78000000,
-    "base_overridden": true,
-    "scenarios": {
-      "ok": true,
-      "wacc_point": 0.09111188219972752,
-      "wacc_steps": [
-        -0.02,
-        -0.01,
-        0.0,
-        0.01,
-        0.02
-      ],
-      "fcff_base_used": 78000000,
-      "price": 6.380000114440918,
-      "grid": [
-        {
-          "case": "bear",
-          "growth": -0.05,
-          "cells": [
-            {
-              "wacc": 0.07111188219972751,
-              "fair_value": 5.909199934670415,
-              "gap": -0.07379313030181023
-            },
-            {
-              "wacc": 0.08111188219972752,
-              "fair_value": 5.100719534609132,
-              "gap": -0.2005141938690843
-            },
-            {
-              "wacc": 0.09111188219972752,
-              "fair_value": 4.518837502337112,
-              "gap": -0.2917182725265359
-            },
-            {
-              "wacc": 0.10111188219972751,
-              "fair_value": 4.079776057071289,
-              "gap": -0.36053667964098446
-            },
-            {
-              "wacc": 0.11111188219972752,
-              "fair_value": 3.736536007078953,
-              "gap": -0.4143360595525025
-            }
-          ],
-          "fair_value_at_point_wacc": 4.518837502337112,
-          "gap_at_point_wacc": -0.2917182725265359
-        },
-        {
-          "case": "base",
-          "growth": 0.0,
-          "cells": [
-            {
-              "wacc": 0.07111188219972751,
-              "fair_value": 7.229227124689082,
-              "gap": 0.133107679469467
-            },
-            {
-              "wacc": 0.08111188219972752,
-              "fair_value": 6.187378646777964,
-              "gap": -0.030191452070190583
-            },
-            {
-              "wacc": 0.09111188219972752,
-              "fair_value": 5.438283300718731,
-              "gap": -0.1476045136097478
-            },
-            {
-              "wacc": 0.10111188219972751,
-              "fair_value": 4.873674329146748,
-              "gap": -0.2361012160304905
-            },
-            {
-              "wacc": 0.11111188219972752,
-              "fair_value": 4.43281577813427,
-              "gap": -0.3052013011566036
-            }
-          ],
-          "fair_value_at_point_wacc": 5.438283300718731,
-          "gap_at_point_wacc": -0.1476045136097478
-        },
-        {
-          "case": "bull",
-          "growth": 0.08,
-          "cells": [
-            {
-              "wacc": 0.07111188219972751,
-              "fair_value": 9.932163556455365,
-              "gap": 0.5567654197958778
-            },
-            {
-              "wacc": 0.08111188219972752,
-              "fair_value": 8.406952389235192,
-              "gap": 0.3177041126075115
-            },
-            {
-              "wacc": 0.09111188219972752,
-              "fair_value": 7.311715172419692,
-              "gap": 0.14603684032385322
-            },
-            {
-              "wacc": 0.10111188219972751,
-              "fair_value": 6.487380080469808,
-              "gap": 0.016830715376609184
-            },
-            {
-              "wacc": 0.11111188219972752,
-              "fair_value": 5.844713230072457,
-              "gap": -0.08390076407002833
-            }
-          ],
-          "fair_value_at_point_wacc": 7.311715172419692,
-          "gap_at_point_wacc": 0.14603684032385322
-        }
-      ],
-      "summary": {
-        "bear": -0.2917182725265359,
-        "base": -0.1476045136097478,
-        "bull": 0.14603684032385322
-      },
-      "downside": -0.4143360595525025,
-      "upside": 0.5567654197958778
-    },
-    "fundamentals_source": "store",
-    "flags": []
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
   },
-  "parse_notes": [],
+  "parse_notes": [
+    "no usable final_growth"
+  ],
   "devils_advocate": {
-    "strongest_counter": "That I am marking a trough to market and calling it a valuation. At $1.2bn of enterprise value against ~$263M of annualised adjusted EBITDA the name trades at 4.2x \u2014 for diversified oilfield services with ZERO debt and net cash, that is a normal-to-cheap trough multiple, not an expensive one, and my DCF only says 'rich' because it charges a full depreciation-level capex against trough EBITDA and then capitalises the remainder in perpetuity. That is precisely the AMR and LPG error in reverse: using a cyclical's worst earning power as the terminal base. The sequential evidence is a recovery, not a decline \u2014 margins 11.8% to 14.3% to 15.3% across three quarters, revenue rising, coiled tubing, nitrogen and snubbing each up double digits, and management describing 'current oil prices supporting a more favorable operating environment'. The working-capital drag is explicitly attributed to rising activity and to buying scarce components, which is what a company does on the way UP. And a debt-free survivor in a consolidating, oversupplied industry has option value that no five-year DCF off trough cash flow can express. On that reading the right base is mid-cycle $130-150M, which is roughly where the engine already sits, and the answer is the engine's +39% rather than my -12%.",
-    "what_would_prove_it": "Q4 2026 and the 2027 capital-expenditure guide, which the prior pass also nominated and which remain the right tests. Specifically: Q4 free cash flow above ~$50M would show the receivable and inventory build reversing and put the full-year base nearer $100M; 2027 capex guided below $130M, i.e. clearly beneath the ~$170M of depreciation, would prove that some of 2026's spend was growth rather than sustaining and that my whole-capex charge is too harsh; and a fourth consecutive quarter of adjusted EBITDA expansion (above ~$75M) would make the 2026 ramp a trend rather than three quarters. The cleanest single tell remains management's own: any announcement that RPC is reactivating frac fleets, which it has said it will not do at current pricing.",
-    "already_visible": "The evidence that is visible splits, which is why this is medium and not high conviction \u2014 but it splits unevenly, and the heavier half runs against the bull. For the bull: the margin ramp is real, monotonic and management-corroborated, and the balance sheet is genuinely unencumbered. Against it: the free-cash-flow test the last red team itself set was failed by a factor of fifty, and failed for the third consecutive period; capex sits BELOW depreciation, which removes the 'it is all growth spend' defence that would otherwise rescue the base; and the one acquisition that created the apparent growth has been impaired by $74.5M on management's own discounted-cash-flow forecast, which is the company telling me its own forward view of that asset fell short. I also cannot honestly treat 4.2x EV/EBITDA as evidence of cheapness when EBITDA converts to nothing \u2014 a multiple that ignores a capital intensity equal to 60% of EBITDA is the flattering frame, not the neutral one.",
-    "unresolved": "Whether 2026 is the cycle bottom. That is the whole question and I cannot settle it: at trough earning power the name is rich and at mid-cycle it is cheap, and the honest statement is that the price sits between those two. I also still do not have a disclosed maintenance-versus-growth capex split \u2014 I have inferred that essentially all of it is sustaining from capex being below depreciation, which is a strong inference but not the disclosure, and the 10-Q confirms the split exists internally ('the CODM assesses... growth and maintenance capital expenditures') without publishing it. And I could not correct the discount rate in the record, which matters more here than the base.",
-    "note": null
+    "strongest_counter": "That the verdict recorded three weeks ago was `rich` on this same business, the fundamentals have not improved, and changing to `no_edge` purely because the stock fell 19% is the market talking me out of a view rather than evidence doing it. On the prior pass's own arithmetic \u2014 a $78M sustaining base, zero growth, a defensible 12.7% cost of equity from a 1.4 oilfield-services beta \u2014 fair value is $3.89, and at $5.06 the stock is still 23% above it. The red team's job is to hold the earlier verdict to its stated test, and that test was failed by a factor of fifty and failed again: nine-month free cash flow of $5.0M against a base of $132.3M.",
+    "what_would_prove_it": "Whether the sign of the answer is robust across the discount rates I can defend. If every cell at a defensible growth rate stays negative, `rich` holds; if the sign flips inside the band, the verdict is the band and not the point.",
+    "already_visible": "Yes, and this is where the counter loses and the verdict changes. At the corrected $78M base the market now requires -1.0% five-year FCFF growth at the engine's 9.40% cost of equity, +3.6% at 11.0%, +8.0% at 12.70% and +10.6% at 13.80%. The fair-value grid at zero growth reads $5.25 (+3.8%), $4.47 (-11.7%), $3.89 (-23.1%) and $3.61 (-28.7%). At $6.28 three weeks ago every one of those cells was negative, which is what made `rich` right then; at $5.06 the top cell has crossed zero. So the sign of the answer is now set by the beta \u2014 and the beta is 0.80 at an R-squared of 0.094, a failed regression on a Permian pressure pumper, which is precisely the input this file says must not decide a verdict and which the schema has no field to override. Two large uncertainties pointing opposite ways \u2014 a trough base that could be too low if 2026 is the bottom, and a cost of equity that is certainly too low \u2014 is the SM condition, and the answer is the range, not the average. The counter is right that the business has not improved; it is wrong that the verdict can stand, because the verdict was never about the business alone.",
+    "unresolved": "Whether 2026 is the cycle bottom \u2014 the whole question, and unchanged from the last pass: at trough earning power the name is rich and at mid-cycle it is cheap. Also unresolved: what Saltiel will do with the net cash, which is now a material swing factor the last pass did not have to consider, and whether a new CEO's first act is a write-down or a purchase. And I still have no disclosed maintenance-versus-growth capex split; the capex-below-D&A inference is strong but it is an inference, and the 10-Q confirms the split exists internally without publishing it."
   },
-  "what_changed": "The Q3 10-Q and earnings release were filed 2026-10-29, the day before this pass, and between them they answer both observables the previous devil's advocate (2026-09-03) nominated \u2014 and both answers go against the cheap case. (1) THE NOMINATED FREE-CASH-FLOW TEST FAILED. The prior pass wrote that the trough thesis required 'H2 2026 free cash flow above roughly $60M, with the working capital build reversing.' Nine-month free cash flow is $5.0M (CFO $115,732k less capex $110,727k), so third-quarter free cash flow was about $1.2M against the $3.8M reported at the half year. Not $60M \u2014 essentially nothing, for a third consecutive period. The release attributes the drag to 'higher accounts receivable resulting from increased customer activity and timing of collections, and strategic inventory purchases including key components in short supply', so part of it is genuine timing. (2) THE MAINTENANCE-VERSUS-GROWTH CAPEX SPLIT IS NOW EFFECTIVELY SETTLED, from the other direction. The prior pass left this open \u2014 'if maintenance is $110M the business generates real cash at trough; if it is $160M it does not' \u2014 because management gives one combined number. The 10-Q still gives no split, but D&A of $42.7M a quarter (~$170M a year) exceeds annualised capex of ~$148M, so the company is not out-spending its own depreciation and there is no material growth-capex add-back available. The AROC pairing rule therefore does not rescue this base. (3) NEW AND DECISIVE ON THE BASELINE: a $74.5M non-cash impairment of Pintail ($58.3M of intangibles, $16.2M of PP&E), measured at 2026-08-31, because 'estimated undiscounted cash flows were less than the carrying amount of the asset group'. The prior pass's first key risk was that the +22.1% five-year revenue CAGR baseline was 'largely the Pintail Completions purchase' rather than mispricing; the write-down is the company confirming that in its own accounts. Net loss of $41.9M for the quarter. (4) Genuinely in the other direction, and the bull's best evidence: adjusted EBITDA has ramped monotonically through 2026 \u2014 $53.5M in Q1 (11.8% margin), $66.0M in Q2 (14.3%), $71.5M in Q3 (15.3%) \u2014 with revenue up 1% sequentially to $467.7M, double-digit sequential growth in coiled tubing, nitrogen and snubbing, and the $0.04 quarterly dividend maintained.",
-  "consensus_case": "RPC is a debt-free, net-cash diversified oilfield services company in a structurally oversupplied US onshore market, and at $6.38 the market is paying roughly 4.2x enterprise value to annualised adjusted EBITDA for a business that cannot convert that EBITDA into free cash flow. The reason is capital intensity, and it is visible in two adjacent numbers: depreciation and amortisation ran $42.7M in the third quarter alone, about $170M a year, against capital expenditure of $110.7M for nine months, about $148M a year. Capex is therefore BELOW depreciation \u2014 this is sustaining spend, not a growth build \u2014 and nine-month free cash flow on the company's own definition was $5.0 million against $21.7M a year earlier. Three consecutive reporting periods have now produced free cash flow near zero. On top of that the market has just been handed management's own written admission that the acquisition which drove the apparent growth was a mistake: a $74.5M non-cash impairment of the Pintail wireline asset group, booked in the third quarter for 'persistent pricing weakness, lower activity and cost pressure'. Management has also said it will not reactivate frac fleets at current pricing. A market asking for roughly flat-to-modestly-positive real cash flow growth off genuine current earning power is not being pessimistic about any of that; it is being approximately right.",
-  "base_case_rationale": "I underwrite zero real FCFF growth over five years off an overridden base of $78M rather than the engine's $132.3M, and the override is the substance of this pass. The engine's base is the mean of free cash flow of $52.9M, $129.5M and $213.8M (newest first) \u2014 a declining series whose oldest year is the 2022-23 post-COVID activity spike \u2014 and the business is not earning it. Built from current economics instead: full-year 2026 adjusted EBITDA annualises to about $263M (nine months actual $191.0M plus a fourth quarter near the third's $71.5M); sustaining capital expenditure is between the $148M actually being spent and the $170M of depreciation, and since capex sits below D&A I take that whole range as sustaining; taxing the difference at 25% gives $70M at the D&A charge and $86M at the cash-capex charge, so $78M is the midpoint. On the growth rate, zero is the honest number and I keep the prior pass's figure for the same reasons plus one new one: US pressure pumping remains structurally oversupplied, management will not reactivate fleets at current pricing, inflation in labour, trucking and fuel is eating the activity recovery, and the wireline business has just been written down for persistent price weakness \u2014 against which the 2026 margin ramp and a debt-free balance sheet with net cash argue for eventual mid-cycle normalisation. Those roughly offset at zero. I differ from the naive +22.1% baseline because that figure is not a growth rate at all: it is five years of revenue CAGR largely created by buying Pintail for about $245M in April 2025, and applying acquired revenue growth to per-share free cash flow is the roll-up error from the standing lessons.",
+  "what_changed": "A complete leadership transition, announced after most of the 21-day fall. On 2026-11-18 RPC appointed Rob Saltiel President and CEO and a director effective 2026-11-20 \u2014 a three-time public-company CEO (MRC Global 2021 through its 2025 merger with DNOW, Key Energy Services, Atwood Oceanics, senior roles at Transocean) succeeding Ben Palmer, whose retirement was announced in June 2026. On 2026-11-11 Executive Chairman Richard Hubbell, forty years with RPC and CEO from 2003 to 2022, notified the company of his retirement effective 2026-12-31, contingent on a new CEO being appointed, and will serve as Special Advisor through 2027-03-31. Lead Independent Director Patrick Gunning becomes NON-EXECUTIVE Chairman from 2027-01-01. Gunning's own framing is that 'RPC has the portfolio and financial flexibility to pursue meaningful growth as the market improves.' So an owner-operator board with an executive chairman has been replaced by an outside professional CEO with an M&A and margin record, and an independent chair, at a company holding $177M of net cash. None of the five observables the 2026-10-30 pass nominated has reported \u2014 there has been no Q4 print, no 2027 capital budget and no new impairment since the 2026-10-29 10-Q.",
+  "consensus_case": "At $5.06, after a 19.3% fall in 21 days against an Energy sector median of -7.4%, the market is paying about $944M of enterprise value for a debt-free pressure pumper with $177M of cash, roughly $263M of annualised adjusted EBITDA, and a brand-new chief executive hired explicitly to pursue growth. The bear owns the near term: US pressure pumping is structurally oversupplied, management will not reactivate frac fleets at current pricing, nine-month free cash flow was $5.0M, and the one acquisition that created the apparent growth has been impaired. The price now embeds that: at the engine's own 9.4% cost of equity the market requires only -1.0% five-year FCFF growth off a sustaining base of $78M, which is a liquidation assumption for a franchise with leading-edge completions technology and no debt.",
+  "base_case_rationale": "I keep the prior pass's sustaining base of roughly $78M, built from ~$263M of annualised adjusted EBITDA less $148-170M of sustaining capital expenditure, taxed, and I keep zero growth paired with it under the AROC rule. The 10-Q of 2026-10-29 re-confirms the test that settles the maintenance-versus-growth question against the owner: capex of $148.4M in the newest year sits BELOW depreciation and amortisation of $161.2M, and annualised 2026 capex of about $148M sits below roughly $170M of D&A. A company not out-spending its own depreciation has no material growth-capex add-back available, so the near-zero reported free cash flow is close to honest owner earnings and the engine's $132.3M three-year mean \u2014 which spans a 2022-23 activity spike and whose oldest year is $213.8M \u2014 is roughly 1.7x current earning power. What has changed is not the base but the price, and the price is now low enough that the base no longer settles the verdict.",
   "key_risks": [
-    "Nine-month free cash flow of $5.0M against an engine base of $132.3M \u2014 the base is a three-year mean the business is not earning, and capex below depreciation removes the growth-capex defence",
-    "The 8.3% cost of equity rests on a beta of 0.727-0.75 at an R-squared of 0.099, a failed regression passed through as beta_source=regression, assigning a Permian pressure-pumping company a beta well below the Russell 2000; at a defensible 1.4 the market's requirement goes from -8.3% to +10.5% and the gap inverts",
-    "Pintail impaired $74.5M in Q3 2026 for persistent pricing weakness, and the company's own risk factors name further Pintail impairments as a possibility",
-    "US pressure pumping is structurally oversupplied; management explicitly will not reactivate frac fleets at current pricing",
-    "Labour, trucking and fuel inflation is absorbing the benefit of the activity recovery",
-    "The +215.0% headline gap is built on a +22.1% five-year revenue CAGR baseline that is largely the ~$245M Pintail purchase of April 2025, so it is acquired revenue growth applied to per-share free cash flow"
+    "The 8.3-9.4% cost of equity rests on a beta of 0.80 at an R-squared of 0.094 for a 100%-equity-funded Permian pressure pumper; it alone decides the sign, and the schema cannot override it",
+    "Nine-month 2026 free cash flow of $5.0M against an engine base of $132.3M, with capex below depreciation removing the growth-capex defence",
+    "US pressure pumping is structurally oversupplied; management will not reactivate frac fleets at current pricing",
+    "Pintail impaired $74.5M in Q3 2026 on management's own DCF; further impairments named as possible",
+    "A new CEO with a growth mandate and $177M of net cash is a capital-allocation risk as well as an opportunity",
+    "The +279.7% headline gap rests on a +22.1% five-year revenue CAGR that is largely the ~$245M Pintail purchase of April 2025 \u2014 acquired revenue applied to per-share free cash flow"
   ],
   "watch_for": [
-    "Q4 2026 free cash flow above ~$50M, which would show the receivable and strategic-inventory build reversing and lift the full-year base toward $100M",
-    "2027 capital expenditure guided below ~$130M, clearly beneath the ~$170M of depreciation \u2014 the only thing that would prove a material part of 2026 spend was growth rather than sustaining",
-    "A fourth consecutive quarter of adjusted EBITDA expansion above ~$75M, which would make the 2026 ramp a trend rather than three quarters",
-    "Any announcement that RPC is reactivating frac fleets \u2014 management's own stated threshold for pricing having cleared",
-    "Any further Pintail impairment, which the company has flagged as possible"
+    "Q4 2026 free cash flow above roughly $50M, which would lift the full-year base toward $100M \u2014 the prior pass's test, still unreported",
+    "2027 capital expenditure guided below ~$130M, clearly beneath ~$170M of depreciation \u2014 the only thing that would prove a material part of 2026 spend was growth",
+    "Saltiel's first capital-allocation decision: an acquisition, a buyback, or a special dividend from the $177M of net cash",
+    "A fourth consecutive quarter of adjusted EBITDA expansion above ~$75M",
+    "Any announcement that RPC is reactivating frac fleets \u2014 management's own stated threshold for pricing having cleared"
   ],
   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/742278/000110465926129331/res-20261112x8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/742278/000110465926129331/res-ex99.htm",
+    "https://www.sec.gov/Archives/edgar/data/742278/000110465926129162/res-20261111x8k.htm",
     "https://www.sec.gov/Archives/edgar/data/742278/000110465926120202/res-20260930x10q.htm",
-    "https://www.sec.gov/Archives/edgar/data/742278/000110465926119827/res-20261029x8k.htm",
-    "https://www.sec.gov/Archives/edgar/data/742278/000110465926088774/res-20260630x10q.htm",
-    "https://www.sec.gov/Archives/edgar/data/742278/000110465926056633/res-20260507x8k.htm"
+    "https://www.sec.gov/Archives/edgar/data/742278/000110465926119827/res-ex99d1.htm"
   ],
   "flags": [
     "possible_trough_cycle_base_newest_fcf_0.25x_oldest_growth_applied_to_a_trough_understates_value"

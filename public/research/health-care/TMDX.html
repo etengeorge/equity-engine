@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>TMDX — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / TMDX</p><h1>TMDX <span style='color:var(--faint);font-weight:400'>TRANSMEDICS GROUP</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$94.02</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-20</b></div></div><div class='prose'><h1>TMDX — TRANSMEDICS GROUP</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-20 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $94.02</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> At $94.02 the market is paying about $3.24bn of enterprise value for what several observers describe as a near-monopoly on keeping donor organs alive. The case is in the numbers and it is strong: Q3 2026 total revenue of $203.0M was up 41% with organic growth of 35%, the quarter was the strongest in the company&#x27;s history on record case volume, net income was $17.1M or $0.46 a diluted share, and full-year guidance was RAISED to $764-774M. The optionality on top is unusually well dated: enrolment completed in Part A of the ENHANCE Heart trial with FDA clearance of a continued-access protocol for 90 more patients, IDE approvals for ENHANCE Heart Part B and the DENOVO Lung trial with CHOPS as a control arm in both, the first European transplant logistics tender won in Italy, and OCS Kidney on track for first-in-human in the second half of 2027 — the largest transplant market. A buyer here is paying roughly 4.2x forward sales for a 35% organic grower with four shots on goal.</p><p><strong>What changed.</strong> The Q3 2026 results of 2026-11-05 raised guidance and, in the same filing, disclosed a cash-conversion break that no flag names and no headline mentioned. NINE-MONTH OPERATING CASH FLOW WAS $77.8 MILLION AGAINST $158.3 MILLION A YEAR EARLIER — down 51% — while purchases of property, plant and equipment ROSE to $52.1M from $43.7M and a further $5.3M went on the PAD Aviation investment net of cash acquired. So nine-month free cash flow was about $25.7M, or $20.4M including the acquisition, in a period when revenue grew 41% and net income turned positive. Also new: Fernando Araujo, formerly CFO of GE HealthCare&#x27;s Advanced Imaging Solutions segment, was appointed Chief Financial Officer in September 2026, and the company has begun European operations using its own aviation fleet off the Italian tender win in October.</p><p><strong>Base case.</strong> I cannot pin a base, and that is the finding rather than an evasion. The engine refused on <code>nonpositive_normalized_fcff</code> because the three-year mean of cfo-less-capex is negative $37.4M — but that is a FALSE refusal of the SND and WHD kind, caused by TransMedics building an aircraft fleet from scratch: capital expenditure was $151.8M and $129.7M in the two older years against $59.3M in the newest, while depreciation is $27.2M. So the model charges the company the full cost of constructing a new logistics network and then declines to value what is left, which is the AROC error producing a refusal instead of a false sell. The trouble is that correcting it does not converge. The newest full year of cfo-less-capex is positive $133.6M; the nine months just reported annualise to about $34M; and a sustaining construction — annualised operating cash flow of roughly $104M less maintenance capital near the $27.2M of depreciation, plus after-tax interest — gives about $85M. Those three defensible bases are a factor of four apart, and the required growth moves from +22.8% to +80.1% across them and across a defensible discount-rate band. A range that wide is not a valuation.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That <code>no_edge</code> here is a dodge. The engine&#x27;s refusal is demonstrably wrong, I can show why, and having corrected it I should take a view: a GAAP-profitable business growing organic revenue 35% with a protected position and four dated catalysts is either worth more than 4.2x forward sales or it is not, and refusing to say which is not analysis.</li><li>What would prove it: Two quarters of free cash flow at a rate that distinguishes the three candidate bases — specifically whether operating cash flow recovers toward the $158M nine-month level of 2025 once the receivable and inventory build behind the 41% revenue ramp stabilises, and whether capital expenditure falls toward the $27M of depreciation now that the fleet is largely bought.</li><li>Already visible today: Only the half that argues for refusing. The cash-conversion break IS visible and it is the single most important new fact on the name: operating cash flow halved while revenue grew 41%, which is the HURN and AGYS signature and the opposite of what a company with operating leverage should show. But its cause is not visible — I cannot separate working capital funding a 41% ramp (benign and self-reversing) from a service and aviation mix that structurally consumes cash (not benign), because the quarterly cash flow statement does not break out the working-capital lines in the detail that would settle it. Meanwhile the discount rate is not a measurement either: beta is 2.15 at an R-SQUARED OF 0.037, marked <code>yahoo_rescaled</code>, which per the ISBA and HURN rule is a failed input and not a high-beta finding, and it alone moves the required growth by about 12 points. So I have a base indeterminate by a factor of four, a discount rate that is not a measurement, and a terminal free-cash-flow margin no filing discloses — the VCYT condition. Three unreachable inputs is a refusal, not a dodge. What I will say plainly is the direction of the surprise: a company guiding revenue up and converting half as much cash as last year is a worse business this quarter than the headline implies, and the next two prints decide it.</li><li>Left unresolved: The composition of the nine-month cash-flow decline, which is the whole question. The sustaining level of capital expenditure now that the aviation fleet is largely assembled — capex at $52.1M for nine months is still roughly 2x depreciation, so a majority is probably still growth, but the company does not split it. The terminal operating margin of a business that owns its own airline. And whether the Italian logistics tender is representative of European economics or a loss-leading entry.</li></ul><p><strong>Key risks.</strong> Nine-month operating cash flow halved to $77.8M from $158.3M while capital expenditure rose — a cash-conversion break in a year of 41% revenue growth and raised guidance; The honest base is indeterminate by a factor of four ($34M to $134M), taking required five-year growth from +22.8% to +80.1%; Beta of 2.15 at an R-squared of 0.037, marked <code>yahoo_rescaled</code>, is not a measurement; it moves required growth about 12 points and the schema cannot override it; The terminal free-cash-flow margin of a vertically integrated organ-logistics business, including an owned aircraft fleet, is disclosed nowhere; Trailing multiples are measurement artifacts on an inflecting line: revenue has gone $26M, $30M, $93M, $242M, $442M, $605M and is guided to $764-774M, so the EV/sales of 5.3x on the brief is nearer 4.2x forward; Three clinical programmes, a European launch and a kidney programme are being funded at once <strong>Watch for.</strong> Q4 2026 and Q1 2027 operating cash flow: recovery toward the prior-year level would make the break working capital, a second weak quarter would make it structural; 2027 capital expenditure guidance against roughly $27M of depreciation — the test of how much of the spend was ever growth; ENHANCE Heart Part B and DENOVO Lung enrolment and first data; OCS Kidney first-in-human in H2 2027; European contribution from the Italian tender and the planned Netherlands and Belgium launches, and whether it carries US-level margins</p><p><strong>Data quality.</strong> THE ENGINE&#x27;S REFUSAL IS A FALSE REFUSAL AND THE CAUSE IS THE AROC ERROR PRODUCING A <code>no_model</code> RATHER THAN A FALSE BUY. <code>status</code> is <code>model_failed</code> on <code>nonpositive_normalized_fcff</code> because mean(cfo-less-capex) over [$133.6M, -$80.9M, -$164.9M] is negative $37.4M, and the two negative years are the aircraft-fleet build: <code>capex_series</code> reads [$59.3M, $129.7M, $151.8M] newest first against <code>dep_amort_series</code> of [$27.2M, $19.8M, $8.2M]. CFO-less-TOTAL-capex charges the company the whole cost of constructing a new organ-logistics network, so the model refuses a business that generated $133.6M of free cash flow in its newest full year. Every other capex defect in LESSONS.md (CTOS, ALTG, WLFC, LRN, CARS) understates capex and manufactures cheapness; this one captures it correctly and destroys the name instead, the SND and WHD direction. SOUND INPUTS: the share count of 34,733,883 comes from the dei cover-page concept dated 2026-11-02 and reconciles exactly to the $3,265.7M market capitalisation at $94.02, matching the 10-Q cover; <code>interest_expense</code> of $10.79M on $509.8M of debt is an implied 2.1%, which is low but plausible against convertible notes and passes as a real figure rather than one of the five broken forms; and unlike RLAY and EWTX in today&#x27;s ten, <code>short_term_investments</code> of $27.7M IS populated here, so enterprise value of about $3,236M (market cap plus $509.8M of debt less $511.4M of cash less $27.7M) is computed on the right basis. UNRELIABLE: the WACC of 15.2% rests on beta 2.15 at R-squared 0.037, <code>yahoo_rescaled</code> — by the ISBA rule that is not a measurement and the schema has no field for it. THE MULTIPLES TABLE MUST BE DISCOUNTED FOR A REASON THE REFUSAL TEST DOES NOT CATCH: all four rows are populated, none is negative and the cohorts are ranked, but the trailing window no longer describes the business — <code>revenue_ltm</code> of $605.5M against full-year guidance of $764-774M means every denominator is a company roughly 21% smaller than the one trading, which is the MXL inflecting-revenue condition. No <code>final_growth</code> is supplied because three inputs the schema cannot reach — the base, the discount rate and the terminal margin — jointly set the sign.</p><p><em>Horizon: 18 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/tmdx-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/tmdx-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-ex99_1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1756262/000119312526332843/tmdx-20260630.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1756262/000119312526332843/tmdx-20260630.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/TMDX.md'>research/Health Care/TMDX.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

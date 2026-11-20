@@ -1,0 +1,58 @@
+{
+  "ticker": "RLAY",
+  "date": "2026-11-20",
+  "sector": "Health Care",
+  "name": "RELAY THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": -0.25,
+  "bull_growth": 0.25,
+  "rotce_override": null,
+  "horizon_months": 12,
+  "price_at_verdict": 15.90999984741211,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That refusing on a clinical-stage name is a rule rather than a judgment, and that the rule costs the project its exposure to the one part of the market where outcomes are genuinely binary and occasionally mispriced. A sharper version: at $2.67bn of enterprise value the market is paying roughly $2.7bn for a Breakthrough-designated Phase 3 asset plus a rare-disease indication plus a frontline combination, which against comparable PI3K-alpha franchises is a judgable number, not an unknowable one \u2014 and the refusal is being made three weeks before a catalyst that will settle part of it.",
+    "what_would_prove_it": "The 2026-12-14 ASH presentation and the regulatory update alongside it, which will say whether vascular anomalies is an accelerated path or a long oncology-style development, and the ReDiscover-2 readout after mid-2027 enrolment completion.",
+    "already_visible": "No, and the timing argues for refusing rather than against it. The decisive evidence is three weeks away and the company has told me the date and the hour; publishing a fair value on 2026-11-20 for an asset whose regulatory path is announced on 2026-12-14 would be manufacturing precision out of a calendar. The honest observations I can make without a model are these: the twelve-month move is up 144% while the last three months are down 18.2%, so the market has already paid for the May vascular-anomalies data and is now marking time into the readout; hiring a Head of Commercial for both indications is management spending real money on a launch, which is informative but is also what every pre-approval company does; and the $849M of liquidity against a $235M burn removes financing risk from the next three years, which means the equity is a clean read on the science rather than on a funding round. I also note one thing the counter would have got wrong: comparing enterprise value across PI3K-alpha franchises would have used the engine's enterprise value, and that figure is overstated by 27% (see the data-quality note), so the 'judgable number' the counter leans on is itself wrong on the brief.",
+    "unresolved": "Everything that decides the value: the durability and safety of the ReInspire part 1 data, the content of the regulatory update, and the ReDiscover-2 outcome. Also unresolved: the competitive position against approved and developmental PI3K-alpha inhibitors in second-line breast cancer, which I did not research because no base case depends on it, and the royalty or economic terms of the atirmociclib collaboration with Pfizer."
+  },
+  "what_changed": "The Q3 2026 report of 2026-11-04 sets a dated, near-term binary: updated clinical data for zovegalisib in PIK3CA-driven vascular malformations from part 1 of the ReInspire study has been accepted for an ORAL PRESENTATION at the 68th American Society of Hematology Annual Meeting on MONDAY 2026-12-14 at 4:00pm ET (abstract 878, presenter Dr Bryan Sisk), and the company will host a corporate conference call the same day 'to review the presented data, PROVIDE A REGULATORY UPDATE, and provide an overview of next steps'. That is three weeks away and the regulatory language is new. Also disclosed: the Phase 3 ReDiscover-2 trial is estimated to complete enrolment in mid-2027, roughly a year faster than recent benchmarks; Shannon Campbell has joined as Head of Commercial to lead launch preparation for zovegalisib in both breast cancer and vascular anomalies, which is a company committing cost ahead of approval; a second vascular-anomalies programme for a mutant-selective TIE2 inhibitor was announced; and the company holds approximately $849 million in cash, cash equivalents and investments at the end of Q3. The twelve-month re-rating traces to dated 2026 readouts \u2014 ESMO TAT data at the Phase 3 dose in March, triplet data selecting the frontline regimen in April, and initial ReInspire efficacy showing meaningful volumetric lesion regression in May.",
+  "consensus_case": "At $15.91, after a 144% rise over twelve months, the market is paying roughly $2.67bn of enterprise value \u2014 market capitalisation of $3.52bn less $849M of cash and investments \u2014 for a clinical-stage precision-medicine company with two credible shots at the same target. Zovegalisib, a mutant-selective PI3K-alpha inhibitor, is in the Phase 3 ReDiscover-2 trial with fulvestrant in PI3K-alpha-mutated, CDK4/6 pre-treated HR+/HER2- advanced breast cancer, carries FDA Breakthrough Therapy designation for that population, and is enrolling about a year faster than recent benchmarks with completion guided to mid-2027. The second and newer leg is vascular anomalies, where a mutant-selective PI3K-alpha inhibitor addresses PIK3CA-driven malformations with no approved therapy \u2014 a rare-disease path that is cheaper, faster and potentially higher-margin than oncology. Add a frontline combination with Pfizer's CDK4-selective atirmociclib and a new TIE2 programme, and the buyer is paying for a franchise rather than a single trial.",
+  "base_case_rationale": "No base case and no fair value. Operating cash flow is negative in all three years of the window \u2014 $300.3M, $249.1M and $235.5M \u2014 revenue is $15.4M of collaboration income rather than product sales, and EBIT is negative $302.7M, so `normalized_fcff` cannot be computed and the engine correctly refused. This is the honest core of the project's design: roughly 40% of this universe cannot be valued by a free cash flow model, and a clinical-stage oncology company three weeks from a data readout is the clearest possible case. The value here is a probability-weighted claim on two trial outcomes and a regulatory path, and nothing in a two-stage FCFF model expresses that. The multiples path is worse than useless: the `ev_sales` row reads 220.9x against a revenue line that is collaboration revenue, which is the condition CLAUDE.md warns about in terms.",
+  "key_risks": [
+    "Clinical-stage: operating cash flow negative in all three years at $300.3M, $249.1M and $235.5M, with revenue of $15.4M of collaboration income and EBIT of negative $302.7M",
+    "A dated binary three weeks away \u2014 ASH oral presentation and regulatory update on 2026-12-14 \u2014 into a stock up 144% in twelve months",
+    "The `ev_sales` row of 220.9x prices collaboration revenue and must be disregarded entirely",
+    "Enterprise value on the brief is overstated 27% because $724.5M of the company's $849M of liquidity sits in an 'Investments' line the extractor cannot read",
+    "Roughly $235M of annual burn against $849M of liquidity gives about three and a half years, after which dilution funds the Phase 3",
+    "Second-line PI3K-alpha-mutated breast cancer is a contested indication"
+  ],
+  "watch_for": [
+    "The 2026-12-14 ASH oral presentation (abstract 878) and the corporate call the same day \u2014 specifically the REGULATORY UPDATE and whether an accelerated path in vascular anomalies is named",
+    "ReDiscover-2 enrolment completion, guided mid-2027",
+    "Initiation of the frontline zovegalisib plus atirmociclib trial",
+    "Cash and investments against the ~$235M annual burn; any equity raise and the price it is struck at",
+    "Progress of the second vascular-anomalies programme (mutant-selective TIE2)"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447294/rlay-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1812364/000119312526447250/rlay-20261104.htm",
+    "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338056/rlay-20260630.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}

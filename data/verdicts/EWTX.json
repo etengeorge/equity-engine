@@ -1,0 +1,60 @@
+{
+  "ticker": "EWTX",
+  "date": "2026-11-20",
+  "sector": "Health Care",
+  "name": "EDGEWISE THERAPEUTICS",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "high",
+  "final_growth": null,
+  "bear_growth": -0.25,
+  "bull_growth": 0.25,
+  "rotce_override": null,
+  "horizon_months": 18,
+  "price_at_verdict": 41.16999816894531,
+  "market_implied_growth": null,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "That the GRAND CANYON failure is being read as vindication when it should be read as evidence against the platform. Sevasemten and EDG-7500 both came out of the same discovery engine and the same sarcomere-modulation thesis; a pivotal failure of the lead asset in its lead indication is information about the science, not merely a lucky escape on timing. On that reading the market is paying $2.76bn above net cash for two unproven assets from a platform whose only pivotal readout to date was negative, and the $1.4bn of cash is a one-off that flatters a company whose research has not yet produced an approval.",
+    "what_would_prove_it": "The EDG-7500 Phase 3 design and, before that, the full CIRRUS-HCM Part D dataset against the approved myosin inhibitors on the measures that matter \u2014 exercise capacity and relaxation \u2014 plus the first EQUINOX-HFpEF signal.",
+    "already_visible": "Partly, and it is the strongest argument on the name in either direction. What is visible supports the counter's premise and not its conclusion. The premise: GRAND CANYON did fail, and sevasemten and EDG-7500 do share a sarcomere-modulation heritage. But the mechanisms are not the same target \u2014 sevasemten was a skeletal-muscle myosin modulator for muscular dystrophy, while EDG-7500 acts on the CARDIAC regulatory light chain, and the company published that distinction in JCI Insight before the failure was known. Muscular dystrophy and hypertrophic cardiomyopathy are also different diseases with different endpoints; a failure to show benefit in Becker is weak evidence about diastolic function in HCM. So the counter establishes that the platform is unproven, which I accept and record, rather than that the remaining assets are impaired. What I cannot do either way is price it, and that is the verdict. I will note the sharper fact the counter should have reached for: the roughly $1,254M of milestones beyond the $1.4bn upfront are now close to worthless, so anyone valuing EWTX off the headline 'up to $2,650.0 million' consideration is carrying an asset that the GRAND CANYON result has already written off.",
+    "unresolved": "Whether EDG-7500's differentiation survives a Phase 3, which is the whole question. The forward burn once a Phase 3 and a Phase 2 run concurrently \u2014 the company says significant additional spending is required but does not quantify it, so the runway I compute from the trailing $144M is too generous. The tax actually paid on the Servier gain, which reduces the usable proceeds. And whether any of the contingent consideration survives Servier's further analysis of the GRAND CANYON data."
+  },
+  "what_changed": "The most consequential pair of facts on any name in today's ten, and they are in the same filing. (1) ON 2026-07-10 SERVIER ACQUIRED SEVASEMTEN AND THE MUSCULAR DYSTROPHY PROGRAMME \u2014 including related assets, intellectual property, know-how, select employees, contracts, regulatory filings and clinical data \u2014 FOR $1,396.1 MILLION OF UPFRONT CASH, with aggregate potential consideration of up to $2,650.0 million; $7.8M of closing consideration was deferred against transition services. (2) AFTER THAT SALE CLOSED, 'SERVIER ANNOUNCED THAT THE PIVOTAL GRAND CANYON STUDY OF SEVASEMTEN IN BECKER MUSCULAR DYSTROPHY DID NOT MEET ITS PRIMARY OR SECONDARY ENDPOINTS', and Servier is conducting further analysis. So Edgewise sold its lead asset for $1.4bn in cash and the buyer's pivotal trial of that asset then failed. Two consequences follow directly: the roughly $1,254M of contingent milestone consideration beyond the upfront is now very unlikely to be earned and should be valued near zero, and the company's entire reported cash-flow history describes a business that no longer exists. Q3 reporting also carries the gain on the sevasemten sale and the income tax expense associated with it.",
+  "consensus_case": "At $41.17 the market is paying roughly $2.76bn of enterprise value \u2014 a $4.51bn market capitalisation less $1.74bn of cash and marketable securities \u2014 for two cardiovascular assets and no debt. The case is that Edgewise sold its original franchise at the top and kept the proceeds: Servier acquired sevasemten and the whole muscular dystrophy programme on 2026-07-10 for $1,396.1 million in upfront cash, and what remains is a cardiovascular company with a differentiated mechanism. EDG-7500 is a first-in-class oral cardiac sarcomere modulator acting on the regulatory light chain to slow early contraction velocity and improve impaired relaxation; positive top-line Phase 2 CIRRUS-HCM Part D results were presented as late-breaking science at the European Society of Cardiology Congress in August 2026, the preclinical profile was published in JCI Insight, and a Phase 3 in obstructive AND non-obstructive hypertrophic cardiomyopathy is on track to initiate by year-end 2026. The second asset, EDG-15400, has dosed its first patient in the Phase 2 EQUINOX-HFpEF trial \u2014 heart failure with preserved ejection fraction is one of the largest untreated cardiovascular populations.",
+  "base_case_rationale": "No base case and no fair value, for two independent reasons. First, Edgewise is pre-revenue: `revenue_series` is EMPTY, operating cash flow is negative in all three years at $143.8M, $109.0M and $91.9M and accelerating, and EBIT is negative $191.4M, so `normalized_fcff` cannot be computed and the engine correctly refused. Second, and separately, the cash-flow history is VOID in the Lands' End and HOG sense: a structural transaction has removed the asset those cash flows were spent developing, so even a positive history would describe a different company. The engine's p_tbv of 2.76x is not a valuation either \u2014 it prices the cash balance, which is the IMVT and AMLX lesson, and `equity_now` of $1,632.7M is mostly the Servier proceeds. The honest statement is that the value of EWTX is the probability-weighted outcome of a Phase 3 in HCM and a Phase 2 in HFpEF, less a burn that is about to rise sharply, plus $1.74bn of net cash \u2014 and a two-stage FCFF model expresses none of it.",
+  "key_risks": [
+    "Pre-revenue with an empty revenue series; operating cash outflow of $143.8M, $109.0M and $91.9M and accelerating, and the company states significant additional spending is required for both programmes",
+    "The platform's only pivotal readout to date was negative: Servier's GRAND CANYON study of sevasemten in Becker muscular dystrophy missed its primary AND secondary endpoints after the asset was sold",
+    "Roughly $1,254M of the 'up to $2,650.0 million' Servier consideration is contingent and, after GRAND CANYON, should be valued near zero",
+    "The entire cash-flow history describes a company that sold its lead programme on 2026-07-10 \u2014 the history is void, not merely negative",
+    "Enterprise value on the brief is overstated 61% because $1,675.2M of marketable securities sits in a line the extractor cannot read",
+    "HFpEF is an indication with a long record of Phase 3 failures",
+    "EDG-7500 enters Phase 3 against approved myosin inhibitors in obstructive HCM"
+  ],
+  "watch_for": [
+    "Initiation of the EDG-7500 Phase 3 in obstructive and non-obstructive HCM, guided by year-end 2026, and its endpoints and comparator",
+    "Full CIRRUS-HCM Part D data against the approved myosin inhibitors on exercise capacity and relaxation",
+    "First EQUINOX-HFpEF signal from the Phase 2",
+    "Quarterly burn once both trials run concurrently, against the trailing $144M a year and $1.74bn of liquidity",
+    "Any statement from Servier on the GRAND CANYON analysis bearing on the contingent milestones",
+    "Cash tax actually paid on the sevasemten gain"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1710072/000110465926122653/ewtx-20260930x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/1710072/000110465926122654/tm2628556d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1710072/000110465926082902/tm2620181d1_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1710072/000110465926091670/ewtx-20260630x10q.htm"
+  ],
+  "flags": [
+    "negative_fcf_year_in_window",
+    "nonpositive_normalized_fcff"
+  ]
+}

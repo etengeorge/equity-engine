@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MITT — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Financials / MITT</p><h1>MITT <span style='color:var(--faint);font-weight:400'>TPG MORTGAGE INVESTMENT TRUST INC</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$3.88</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-20</b></div></div><div class='prose'><h1>MITT — TPG MORTGAGE INVESTMENT TRUST INC</h1><p><em>Financials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-20 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $3.88</li></ul><p><strong>The case for the price.</strong> At $3.88 against a book value the company itself reports as $9.27, the market is paying 0.42x book for a residential mortgage REIT — and the mechanism that justifies it is leverage, not pessimism about the manager. MITT carries a $7.5bn investment portfolio and $7.2bn of financing against $546M of total equity, of which $228M is preferred liquidation preference, leaving roughly $326M of common book. A 1% decline in portfolio fair value is $75M — about 23% of common book — so the equity is a thin option on asset marks rather than a claim on earnings. On top of that: total liquidity is $84.6M against $1.1bn of RECOURSE financing, Q3 earnings available for distribution of $0.21 did not cover the $0.24 dividend, book value has fallen in every quarter of 2026, and the company is externally managed by a TPG affiliate whose fee base is equity, which is an incentive to grow equity through serial acquisitions. At 0.42x book the buyer is being paid for a capital structure in which a few points of spread widening is the whole equity.</p><p><strong>What changed.</strong> Two things, both dated and both material. (1) On 2026-11-19 — the day before the screen priced the stock — the company filed an UNSCHEDULED intra-quarter 8-K (item 7.01) &#x27;in light of sustained market volatility and to enhance transparency&#x27;, estimating book value per share at 2026-10-31 of between $9.20 and $9.30 against $9.27 at 2026-09-30, an investment portfolio of $7.5bn against $7.6bn, total financing of $7.2bn ($6.1bn non-recourse, $1.1bn recourse), GAAP leverage of 13.7x and economic leverage of 2.0x, and TOTAL LIQUIDITY OF $84.6 MILLION ($57.3M of cash plus $27.3M of contractually committed undrawn financing). Preferred dividends on the Series A, B and C were declared 2026-11-02 for payment 2026-12-17 and are excluded from that book estimate. (2) MITT is a PENDING ACQUIRER: on 2026-08-10 it signed a definitive merger agreement to acquire Cherry Hill Mortgage Investment Corporation, with CHMI holders receiving 0.3063 MITT shares plus $0.93 cash per share — an implied $3.10 per CHMI share and $117.5M of value at MITT&#x27;s 2026-08-07 price of about $7.08 — closing expected in Q4 2026, with MITT holders owning ~73% and CHMI holders ~27% of the combined equity. The cash is ~$20M from TPG and ~$15M from MITT. MITT&#x27;s own stock has since fallen 45% from the price that set that exchange ratio.</p><p><strong>Base case.</strong> Not applicable: this is a book-method name and the question is the sustainable return on tangible common equity, not a growth rate. I am not supplying one. The engine&#x27;s 10.3% is the mean of GAAP returns for fiscal 2023, 2024 and 2025 measured against pre-2026 equity, and the window closed before the deterioration: Q3 2026 earnings available for distribution were $0.21 per share (about 9.1% annualised on a $9.27 book) against a $0.24 dividend, the GAAP result was a loss of roughly $10M, and book value per share has gone from about $10.46 at 2025-12-31 to $9.27 at 2026-09-30. Adding back roughly $0.72 of dividends over nine months, the economic return — the only return that means anything for a mortgage REIT — is NEGATIVE over the period. That is the CASH and MFIN condition: an <code>fy_end</code>-dated ROTCE window missing a turn, on a name where neither <code>unstable_rotce</code> nor <code>fundamentals_age_days</code> can see it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: That 0.42x reported book is a large enough discount to survive a lot of being wrong, and that I am refusing a genuine opportunity out of squeamishness about leverage. Even on a punitive 7% sustainable return the justified multiple is (7-2)/(10.125-2) = 0.615x against an actual 0.419x, a +47% gap; at the company&#x27;s own Q3 EAD run rate of 9.1% it is 0.874x, a +109% gap. The sign does not flip until the sustainable return falls below about 5-6%. And the externally-managed, serially-acquisitive structure cuts the other way too: the manager has done this before and the 2023 WMC acquisition is cited by its own CEO as the template.</li><li>What would prove it: The composition of the book decline — whether the $1.19 per share lost in nine months is mark-to-market on spreads that can revert, or realised credit and hedging losses that cannot. And the post-close pro forma book per share and share count, which fix both inputs to the justified multiple.</li><li>Already visible today: Partly, and what is visible is enough to refuse but not to call it rich. The company&#x27;s own Q3 commentary attributes the decline to September volatility driving unrealised losses, with Arc Home break-even — so a material part is marks, which supports the counter. But three things defeat the gap as a measurement. First, the engine&#x27;s $10.70 of tangible book is the 2025-12-31 equity, and against the company&#x27;s own $9.27 the actual multiple is 0.419x not 0.36x, so the honest gap is +143% rather than the printed +181% before any judgment is applied — and because equity is SHRINKING, this is the minority direction of the stale-book bug, the one that manufactures false cheapness. Second, the share count rises about 37% at the CHMI close, which is weeks away, so every per-share figure on the brief is about to change, and the exchange ratio was struck when MITT traded at $7.08 against $3.88 today. Third, and decisively, the deciding variable is not the return at all: common book is roughly 1.6% of a $7.5bn asset base financed with $7.2bn, so the answer is a mark on that portfolio, and no field in this schema reaches it. A gap I cannot attribute to a mechanism I can name is not a thesis, and here the mechanism I CAN name — thin equity under heavy leverage with $84.6M of liquidity — argues for a discount rather than against one.</li><li>Left unresolved: Whether the $84.6M of liquidity is adequate; I can observe that the company chose to publish it unprompted, which is informative about what it is being asked, but I cannot judge sufficiency without the margin terms on the $1.1bn of recourse financing. Whether the dividend is cut, and by how much. The split of the nine-month book decline between reversible marks and realised loss. And the pro forma book per share after CHMI, which is not disclosed and which I will not estimate.</li></ul><p><strong>Key risks.</strong> Common book of roughly $326M (equity $546M less $228M of preferred liquidation preference) against a $7.5bn portfolio: a 1% move in portfolio fair value is ~23% of common book; Total liquidity of $84.6M against $1.1bn of recourse financing, with ~$15M of MITT cash due at the CHMI close; Book value per share has fallen every quarter of 2026, from ~$10.46 to $9.27, while a $0.24 dividend exceeded $0.21 of EAD; The engine&#x27;s $10.70 tangible book is the December 2025 figure; the company reports $9.27, so the printed gap is overstated by roughly 38 points; Share count rises ~37% at the CHMI close, on an exchange ratio struck when MITT traded 45% higher; Externally managed by a TPG affiliate paid on equity — an incentive to grow equity through acquisition regardless of per-share outcome; $228M of preferred liquidation preference ranks ahead of a $123M common market capitalisation <strong>Watch for.</strong> The CHMI close and the first pro forma book value per share and share count — the point at which both inputs to the justified multiple become knowable; Q4 2026 book value per share: a fourth consecutive decline would make the economic return negative for the full year; Any dividend cut from $0.24 toward the $0.21 EAD or below; Total liquidity in the next update against the $84.6M reported for 2026-10-31 — a further fall is the signal that matters most; Any further unscheduled intra-quarter 8-K; the decision to publish one is itself the tell</p><p><strong>Data quality.</strong> <code>none raised</code> under data-quality flags on a name at the 98th percentile of 333 Financials, and three defects are present. (1) THE STALE TANGIBLE BOOK, RUNNING TOWARD FALSE CHEAPNESS — the minority direction named in the BKU entry and the one nobody checks. <code>justified_pb</code> computes tangible book as <code>equity_series[0]</code> of $560,734k less the $220,472k carrying value of preferred over 31,803,475 shares = $10.70, which is the 2025-12-31 balance; <code>equity_now</code> of $546,004k (2026-06-30) gives $10.24, and the company&#x27;s own Q3 10-Q and 2026-11-19 update report $9.27 at 2026-09-30 deducting the $228.0M liquidation preference. Actual price-to-tangible-book is therefore 0.419x, not the printed 0.36x, and the honest gap against an unchanged justified 1.02 is +143%, not +181%. (2) THE ROTCE WINDOW CLOSED BEFORE THE TURN — the CASH and MFIN condition. The 10.3% is the mean of fiscal 2023-2025 against a company whose Q3 2026 EAD was $0.21 and whose GAAP quarter was a loss; neither <code>unstable_rotce</code> nor an age flag can see a window that is simply too old. (3) The balance sheet used is 2026-06-30 although the Q3 10-Q was filed 2026-11-06, so the extract is a full quarter behind a quarter in which book fell. TWO CONTROLS PASSED AND ARE WORTH RECORDING, because both are standing alarms on this cohort and both are quiet here: the AX numerator bug is ABSENT — <code>net_income_common_series</code> [$27,426k, $36,384k, $35,440k] differs from <code>net_income_series</code> [$48,668k, $55,737k, $53,784k] by $21.2M, $19.4M and $18.3M, which reconciles to preferred dividends on $220.5M of preferred at 8-9.6%, so the numerator is correct and the disagreement is legitimate rather than the one-quarter-as-a-year defect; and <code>equity_concept</code> is <code>StockholdersEquity</code>, parent-only, with <code>minority_interest</code> zero, so there is no double-deduction. No <code>rotce_override</code> is supplied: it would be priced through a tangible book 15% too high and a share count about to rise 37%, both of which flatter the per-share answer, and on a verdict of <code>no_edge</code> there is no call for that error to be conservative against — the YOU and SFBS discipline.</p><p><em>Horizon: 12 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/a8k-112026xexhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/a8k-112026xexhibit991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/mitt-20261119.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1514281/000162828026075080/mitt-20261119.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1514281/000162828026071791/mitt-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1514281/000162828026071791/mitt-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1514281/000162828026054986/mitt-exhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1514281/000162828026054986/mitt-exhibit991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/a8k-9302026xexhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1514281/000162828026069770/a8k-9302026xexhibit991.htm</a></li><li><a href="https://finance.yahoo.com/real-estate/articles/tpg-mortgage-investment-trust-inc-130212147.html" rel="noopener">https://finance.yahoo.com/real-estate/articles/tpg-mortgage-investment-trust-inc-130212147.html</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Financials/MITT.md'>research/Financials/MITT.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

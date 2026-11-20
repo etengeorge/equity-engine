@@ -264,6 +264,11 @@
     "last_visit": "2026-09-14",
     "verdict": "no_edge"
   },
+  "COCO": {
+    "conviction": "medium",
+    "last_visit": "2026-11-20",
+    "verdict": "rich"
+  },
   "COMP": {
     "conviction": "low",
     "last_visit": "2026-09-01",
@@ -323,6 +328,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-25",
     "verdict": "no_edge"
+  },
+  "CVI": {
+    "conviction": "high",
+    "last_visit": "2026-11-20",
+    "verdict": "no_model"
   },
   "CVLT": {
     "conviction": "medium",
@@ -418,6 +428,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-10",
     "verdict": "no_edge"
+  },
+  "EWTX": {
+    "conviction": "high",
+    "last_visit": "2026-11-20",
+    "verdict": "no_model"
   },
   "FELE": {
     "conviction": "medium",
@@ -546,7 +561,7 @@
   },
   "HUBG": {
     "conviction": "high",
-    "last_visit": "2026-09-23",
+    "last_visit": "2026-11-20",
     "verdict": "no_model"
   },
   "HURN": {
@@ -754,6 +769,11 @@
     "last_visit": "2026-10-16",
     "verdict": "no_model"
   },
+  "MITT": {
+    "conviction": "low",
+    "last_visit": "2026-11-20",
+    "verdict": "no_edge"
+  },
   "MMSI": {
     "conviction": "low",
     "last_visit": "2026-09-10",
@@ -926,8 +946,8 @@
   },
   "RES": {
     "conviction": "medium",
-    "last_visit": "2026-10-30",
-    "verdict": "rich"
+    "last_visit": "2026-11-20",
+    "verdict": "no_edge"
   },
   "RGTI": {
     "conviction": "high",
@@ -947,6 +967,11 @@
   "RIOT": {
     "conviction": "low",
     "last_visit": "2026-09-03",
+    "verdict": "no_model"
+  },
+  "RLAY": {
+    "conviction": "high",
+    "last_visit": "2026-11-20",
     "verdict": "no_model"
   },
   "RLGT": {
@@ -973,6 +998,11 @@
     "conviction": "low",
     "last_visit": "2026-09-21",
     "verdict": "no_edge"
+  },
+  "SDRL": {
+    "conviction": "low",
+    "last_visit": "2026-11-20",
+    "verdict": "rich"
   },
   "SFBS": {
     "conviction": "medium",
@@ -1023,6 +1053,11 @@
     "conviction": "low",
     "last_visit": "2026-09-09",
     "verdict": "no_edge"
+  },
+  "SMR": {
+    "conviction": "high",
+    "last_visit": "2026-11-20",
+    "verdict": "no_model"
   },
   "SND": {
     "conviction": "medium",
@@ -1088,6 +1123,11 @@
     "conviction": "medium",
     "last_visit": "2026-09-01",
     "verdict": "no_model"
+  },
+  "TMDX": {
+    "conviction": "low",
+    "last_visit": "2026-11-20",
+    "verdict": "no_edge"
   },
   "TNET": {
     "conviction": "low",
