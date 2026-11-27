@@ -1,0 +1,59 @@
+{
+  "ticker": "NAVN",
+  "date": "2026-11-27",
+  "sector": "Consumer Discretionary",
+  "name": "NAVAN CLASS A",
+  "method": "fcff",
+  "verdict": "no_model",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": null,
+  "bull_growth": null,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 27.110000610351562,
+  "market_implied_growth": 0.1412273938397165,
+  "cohort_pct": null,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The counter is that refusing is a cop-out on the fastest-growing name in today's ten, and that the multiples table says it is 68.5% undervalued. If the right share count makes the enterprise value $6.4bn rather than $546M, then the correct response is not silence but to observe that 9x trailing revenue for a business growing 32-35% with GBV up 45% and free cash flow turning positive is not obviously expensive for software - plenty of the category trades at 10-15x forward sales - and that a company this early should be judged on revenue growth and gross margin (71% in fiscal 2026) rather than on a DCF it will not support for years.",
+    "what_would_prove_it": "A full year of positive free cash flow, so that the thing a DCF discounts actually exists; and the trajectory of stock compensation against revenue, currently $182.1M against $702.3M - 26% of revenue - which is the number that decides whether the reported cash generation is real or is deferred dilution.",
+    "already_visible": "The 'not obviously expensive' version of the counter is fair and I record it, but it is not a valuation and it is not what the engine asked. What is visible and decisive against publishing anything: the fiscal 2026 net loss of $398.0M on $702.3M of revenue, stock compensation of $182.1M (26% of revenue and 556% of the FCFF base), and a single year of cash-flow history. Also visible and specifically disqualifying for the multiples route: the share_count flag is raised, which per the WHD rule disqualifies the multiples table wholesale - its 'own ev_sales of 0.8x' is actually about 9.1x once the count is right, against a cohort median of 1.0x, so the table inverts from +68.5% upside to a large premium. And the cohort is both 'not ranked' and mis-assigned: Navan is enterprise software sitting in Consumer Discretionary, so its comparator quartiles are retailers and restaurants, which is the CWK category error.",
+    "unresolved": "Nearly everything that would matter. I could not get Q3 fiscal 2027 results, which have not been reported. I could not size the BoomPop acquisition, announced after the balance sheet with no consideration disclosed. I could not get the committed size of the Barclays warehouse facility from the 8-K text available to me, only that no advances had been made at filing. And the company news store holds nothing after 2026-09-20, so for the most recent nine weeks I have no coverage at all - that is a fact about my confidence, not a statement that nothing happened."
+  },
+  "what_changed": "Q2 fiscal 2027 (reported 2026-09-09): revenue $233M, up 35%; GBV up 45% to over $3 billion; full-year guidance raised to approximately 32% growth at the midpoint; free cash flow described on the call as having turned positive; the stock fell over 15% on rising AI-related costs and the BoomPop acquisition. The BoomPop acquisition of an AI-powered meetings and events platform was announced around 2026-09-13, after the 2026-07-31 balance sheet. A partnership with Engine was announced 2026-09-20 to add group travel and flexible booking. And on 2026-10-05, under 8-K items 1.01 and 2.03, a bankruptcy-remote subsidiary entered a Revolving Credit and Security Agreement with Barclays as administrative agent - a receivables warehouse facility with a 24-month revolving period and a borrowing base tied to eligible receivables, with no advances made as of the filing date; an Omnibus Amendment simultaneously prepaid all outstanding Class B advances under the 2022 facility. Note that the company news store carries nothing after 2026-09-20 for this name, so I cannot confirm what has happened in the nine weeks since, and Q3 fiscal 2027 has not been reported.",
+  "consensus_case": "Navan is a 2025-vintage IPO growing gross booking volume 45% to over $3 billion a quarter and revenue 35% to $233 million, with full-year guidance raised to roughly 32% growth at the midpoint. On the true share count of 260.4 million the market capitalisation is about $7.06 billion, so the market is paying roughly 9x enterprise value to trailing revenue for a corporate travel and expense platform. The case for that price is category replacement: an AI-native alternative to Concur in a market where the incumbent is widely disliked, with payments and expense attached to the booking flow so the revenue per customer compounds. The case against is in the same quarter's numbers - the stock fell more than 15% on the Q2 print despite beating, because operating costs and losses widened on AI spend and the newly acquired BoomPop events platform. The company lost $398.0 million on $702.3 million of revenue in fiscal 2026 with $182.1 million of stock compensation, and the thing a DCF would discount does not yet exist.",
+  "base_case_rationale": "No valuation is recordable in either direction, and the share count is the reason before anything else. shares is 45,782,871 with shares_asof 2025-01-31 and shares_source `us-gaap:CommonStockSharesOutstanding (10-Q)` - a balance-sheet concept rather than the dei cover-page fact, dated while Navan was still private and carried multiple series of redeemable convertible preferred. The 10-Q cover page reads 245,330,797 Class A plus 15,079,696 Class B as of 2026-09-03 = 260,410,493 shares. That is 5.69x the figure used - the HNGE pre-conversion mechanism, and the largest provenance error of its kind this file has recorded after HNGE's 4.9x and MIR's 13.3x. Market capitalisation is $7,061M against the brief's $1,241M and enterprise value about $6,365M against $545.6M, understated 11.7x. On top of that: there is exactly ONE year of cash-flow history (the single_year_base_no_normalization flag), stock compensation is 556% of the FCFF base so the expensed figure is NEGATIVE $149.3M, EBITDA is negative, capex of $917k against $60,247k of D&A is a 65.7x ratio that cannot be a real capital-spending figure for a company with capitalised software, interest_expense is None against $124.5M of debt, and net_income_common_series is empty. There is no defensible number here and 'the cash flows will not support a valuation' is the complete answer.",
+  "key_risks": [
+    "The recorded share count is 5.69x too low and comes from a pre-IPO, non-dei concept, so every per-share and enterprise-value figure on the brief is an artifact",
+    "Net loss of $398.0M on $702.3M of revenue with $182.1M of stock compensation - 26% of revenue and 556% of the FCFF base",
+    "One year of cash-flow history and no revenue history long enough for a baseline (no_baseline_growth)",
+    "GBV-linked revenue is directly exposed to a corporate travel downturn",
+    "Capex of $917k against $60.2M of D&A is a 65.7x ratio - capitalised software is not being captured, so even the one year of free cash flow is overstated"
+  ],
+  "watch_for": [
+    "Q3 fiscal 2027 results - the first print after the AI-cost-driven selloff, and whether free cash flow stays positive",
+    "Stock compensation as a share of revenue, currently 26%, and the basic weighted-average share count trend once a full post-IPO year exists",
+    "Consideration paid for BoomPop, and whether further acquisitions follow",
+    "Drawings under the October 2026 Barclays receivables warehouse facility"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1639723/000162828026061416/navn-20260731.htm",
+    "https://www.sec.gov/Archives/edgar/data/1639723/000162828026065496/navn-20261005.htm",
+    "https://www.sec.gov/Archives/edgar/data/1639723/000162828026061136/exhibit991-earningspressre.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/09/10/navan-navn-q1-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "share_count_665d_stale_market_cap_unreliable",
+    "single_year_base_no_normalization",
+    "stock_comp_is_556%_of_fcff_reported_cash_flow_treats_it_as_free",
+    "no_baseline_growth",
+    "negative_ebitda_valued_on_revenue_or_gross_profit_only"
+  ]
+}

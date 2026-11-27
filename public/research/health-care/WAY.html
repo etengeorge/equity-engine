@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>WAY — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Health Care / WAY</p><h1>WAY <span style='color:var(--faint);font-weight:400'>WAYSTAR HOLDING</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$27.70</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-27</b></div></div><div class='prose'><h1>WAY — WAYSTAR HOLDING</h1><p><em>Health Care · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-27 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $27.70</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Waystar is a healthcare payments platform compounding revenue 21% with a 43% adjusted EBITDA margin, and at $27.70 the market is paying $6.52bn of enterprise value - about 12x guided 2026 adjusted EBITDA of $543-549M and 5.1x guided revenue of $1.28bn. The case for that price is the quality of the growth mix: third-quarter subscription revenue up 34% to $180.7M while volume-based revenue grew 8%, and provider revenue up 28%. The case the price also reflects is harder: the equity sits on $4.01bn of goodwill against $4.04bn of book from the EQT and Bain leveraged buyout, with $1.46bn of debt still outstanding, and the stock is down 24% over twelve months. And since 2026-09-15 the name has carried deal optionality rather than only business value - Reuters reported Waystar had hired Evercore to explore strategic options including a sale, which is what the 63-day return of +9.7% against a falling twelve-month line is pricing.</p><p><strong>What changed.</strong> Q3 2026 (2026-11-02): revenue $325.6M, up 21%; adjusted EBITDA $139.3M at a 43% margin; subscription revenue $180.7M up 34%, volume-based $142.9M up 8%, provider $243.4M up 28%, patient $82.2M up 5%; cash flow from operations $103.9M and unlevered free cash flow $114.8M. Full-year 2026 guidance: revenue $1.277-1.287bn, adjusted EBITDA $543-549M, non-GAAP net income $322-337M, non-GAAP diluted EPS $1.63-1.71. But the nine-month cash figures run the other way and are the most important thing in the filing: operating cash flow of $248.2M against $243.0M a year earlier, up just 2.1%, and UNLEVERED FREE CASH FLOW of $269.0M against $285.3M - DOWN 5.7% - on revenue up 21% and an expanding adjusted EBITDA margin. The company&#x27;s own MD&amp;A attributes the investing swing partly to &#x27;more purchases of property and equipment and an increase of capitalized software development costs&#x27;, and capitalised software development more than doubled from $13.5M in nine-month 2025 to $27.9M in nine-month 2026. Separately, on 2026-09-15 Reuters reported Evercore had been hired to explore strategic options including a potential sale; the stock rose on the report and no agreement has been announced.</p><p><strong>Base case.</strong> No number is recordable because the discount rate decides the sign and the schema cannot reach it, but the central case is roughly +7% five-year FCFF growth against a market requirement that runs +4.7% to +23.8% depending on inputs I cannot settle. The base needs raising: interest_expense is recorded as None against $1,463.7M of debt, so the FCFF base of $212.8M carries no after-tax add-back at all, and the 10-Q reports net interest expense of $18,182k in the quarter and $56,531k over nine months - roughly $75M a year, worth about $56M after tax. On the two-year mean that takes the base to about $269M, and on the newest year plus the add-back to about $339M; the company&#x27;s own unlevered free cash flow, which is nearly the same construction, runs about $349M for 2026. But the reason I sit at +7% rather than higher is the conversion break: unlevered free cash flow DOWN 5.7% over nine months while revenue grew 21% says the thing a DCF discounts is not currently growing at all, and part of the 43% adjusted EBITDA margin is manufactured by capitalising development cost that used to be expensed - $27.9M over nine months against $13.5M, a transfer from the cash flow statement to adjusted EBITDA.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to my refusal is that I am hiding behind the discount rate on a name where the cheap case is specific. Correct the missing interest add-back and the market requires only +4.7% five-year growth from a business growing revenue 21% with subscription revenue up 34% and a 43% adjusted EBITDA margin - and it is simultaneously in a live sale process run by Evercore. That is a free option on a control premium sitting on top of a business the market is asking almost nothing of. Arguing it away with a beta I invented, when the engine&#x27;s own regression says 0.71, is exactly the kind of move that makes a model unfalsifiable.</li><li>What would prove it: Fourth-quarter and full-year unlevered free cash flow against the $269.0M nine-month figure and the $285.3M prior-year comparison - the single number that decides whether the income-statement growth is real. And whether the strategic process produces an agreement or is abandoned.</li><li>Already visible today: The decisive fact is already visible and it is why the counter loses. Nine-month unlevered free cash flow of $269.0M against $285.3M is DOWN 5.7%, and nine-month operating cash flow of $248.2M against $243.0M is up only 2.1%, in a period when revenue grew 21% and the adjusted EBITDA margin was 43%. That is the HURN, AGYS and TMDX cash-conversion break, no flag names it, and it means the base I would be correcting upward is not actually growing. Add the mechanism: capitalised software development more than doubled to $27.9M, which raises adjusted EBITDA and lowers free cash flow by construction. So the cheap case rests on a base the company&#x27;s own cash statement says is flat. On the sale process I have no edge at all - an unsigned exploration reported by Reuters in September, with nothing since, is not a thesis.</li><li>Left unresolved: I could not settle the discount rate, and it sets the sign. Beta is 0.71 at R-squared 0.085 - below the 0.15 threshold this file treats as the failed-beta condition - giving a 7.8% WACC at a 22% debt weight for a company that is 99% goodwill by book and still carries $1.46bn of LBO debt; at a defensible 1.0-1.2 beta the WACC is 9.0-9.9%, and the corrected-base requirement moves from +4.7% to +12.3%. The schema has no cost-of-equity field, so on this name the verdict is the output and no fair value is honest. I also could not learn anything about the sale process beyond the September report, and the news store carries nothing on this name after 2026-09-16.</li></ul><p><strong>Key risks.</strong> Nine-month unlevered free cash flow DOWN 5.7% and operating cash flow up only 2.1% while revenue grew 21% - the income statement and the cash statement disagree; Capitalised software development more than doubled to $27.9M over nine months, which raises adjusted EBITDA and reduces free cash flow by construction; Beta 0.71 at R-squared 0.085 gives a 7.8% WACC on a company 99% goodwill by book with $1.46bn of LBO debt; at a defensible beta the required growth doubles and the schema cannot override it; Goodwill of $4.01bn against book equity of $4.04bn - tangible book is deeply negative; A strategic process reported in September with no agreement since; if it concludes without a deal the premium in the 63-day return unwinds <strong>Watch for.</strong> Q4 and full-year 2026 unlevered free cash flow against the $269.0M nine-month figure and $285.3M prior-year comparison; Capitalised software development in Q4 - whether the step-up from $13.5M to $27.9M continues; Any announced transaction, or confirmation that the Evercore process has ended; Volume-based revenue growth, currently 8% against subscription at 34% - the mix shift is the quality of the business</p><p><strong>Data quality.</strong> The brief raised only the stock-compensation and no-baseline flags; the deciding defects are elsewhere and run in opposite directions. First, interest_expense is None against total_debt of $1,463,719,000 - the CON form, and the largest instance of it recorded - so the FCFF base of $212.8M carries NO after-tax add-back; the 10-Q states net interest expense of $18,182k for the quarter and $56,531k for nine months, roughly $75M a year, worth about $56M after tax. Correcting it alone takes the required growth from +15.0% to +9.5% on the two-year mean, and to +4.7% on a run-rate base near $330M. Second, the discount rate runs the other way: beta 0.71 at R-squared 0.085 is below the 0.15 failed-beta threshold, producing a 7.8% WACC; at beta 1.0-1.2 the WACC is 9.04-9.90% and the corrected-base requirement rises to +9.4-12.3%. Two large errors in opposite directions, so per the SM rule the answer is the range (+4.7% to +23.8%) and no number, and because the un-overridable WACC is what flips the sign the verdict is the output. I verified the enterprise value and share count independently and both are CORRECT: 192,391,658 shares from dei:EntityCommonStockSharesOutstanding dated 2026-10-26, and EV of $6,515.8M reconciling to market capitalisation plus $1,463.7M of debt less $30.8M of cash and $246.1M of short-term investments. The capex concept (PaymentsToAcquireProductiveAssets, $26.5M and $27.3M) gives a D&amp;A-to-capex ratio of 5.3x, just over the threshold, but D&amp;A here is dominated by LBO purchase-accounting amortisation rather than by missing capex, and the separately disclosed $27.9M of nine-month capitalised software shows the real figure is being spent whether or not that concept captures it - which is itself the finding: capitalising it more than doubled year over year, so the 43% adjusted EBITDA margin is partly a transfer from the cash flow statement. The multiples blend is disqualified anyway: the cohort is &#x27;not ranked&#x27; and the ev_sales row spans $3.28 to $79.63.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1990354/000199035426000041/way-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1990354/000199035426000041/way-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1990354/000199035426000040/way110226-8xkex991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1990354/000199035426000040/way110226-8xkex991.htm</a></li><li><a href="https://www.investors.com/news/technology/waystar-stock-strategic-alternatives-sale/" rel="noopener">https://www.investors.com/news/technology/waystar-stock-strategic-alternatives-sale/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Health%20Care/WAY.md'>research/Health Care/WAY.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

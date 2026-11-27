@@ -1,0 +1,57 @@
+{
+  "ticker": "MNRO",
+  "date": "2026-11-27",
+  "sector": "Consumer Discretionary",
+  "name": "MONRO",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.15,
+  "bull_growth": 0.0,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 7.980000019073486,
+  "market_implied_growth": -0.1971188804317327,
+  "cohort_pct": 95.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The bull case is a control event, not an operating recovery, and it is the strongest thing here. A company that adopts a rights plan in November 2025, amends it in November 2026, runs a 'strategic review', names 'strategic alternatives' in its risk language and suspends its dividend is defending against an acquirer or an activist. At $7.98 the equity is $250M against roughly $1.15bn of revenue and about 1,200 locations of real estate interests - a 0.22x sales multiple for a national service footprint that a strategic buyer or a sponsor could run at a normal margin. If someone pays even 0.4x sales the equity doubles, and the board's own behaviour says a bid is live. On that reading the reverse DCF is answering the wrong question entirely.",
+    "what_would_prove_it": "A 13D or an announced transaction, and the terms of the new Ares facility's change-of-control provisions. More prosaically, the fiscal third-quarter 10-Q (quarter ending late December), which will show how much of the $250M term loan is drawn, what the supply-chain financing wind-down cost in working capital, and whether the maintenance covenants have any headroom.",
+    "already_visible": "The defensive posture is visible and I credit it - the pill amendment and the dividend suspension in the same three weeks is not a coincidence. But two visible facts say the equity is the wrong place to express that view. First, the refinancing itself: moving from a seven-year bank facility to a BDC at private-credit pricing, secured on substantially all assets, with maintenance covenants and dividend restrictions, is what a borrower does when banks will not renew - and the dividend was suspended eleven days before the pill amendment and a month after the new facility closed. Second, the supply-chain financing termination, which the company discloses itself: that programme was extending payables and therefore flattering operating cash flow, and winding it down is a cash outflow the three-year cfo_series cannot see. A lender with a first claim on everything, covenants, and a working-capital reversal ahead is not a structure in which a control premium reliably reaches the common.",
+    "unresolved": "I could not determine how much of the $250M Ares term loan is drawn, nor what the supply-chain financing balance was before it was 'substantially paid down' - and that balance is precisely the size of the cash-flow distortion I am asserting. The release gives only that $27.3M of something stood as of 2026-10-24, and the sentence is truncated in the text available to me. I also could not get the covenant levels or the all-in rate on the new facility. Each of those would move the enterprise value, and together they are why the answer is a refusal rather than a direction."
+  },
+  "what_changed": "Three material events after the 2026-09-26 balance sheet, and none is in the model. (1) On 2026-10-23 Monro entered a new credit agreement with Ares Capital Corporation providing $375.0 million of senior secured facilities - a $250.0M term loan and a $125.0M revolver, both maturing 2030-10-23, 'with fees commensurate with a private lending facility' - secured by substantially all assets of the company and its subsidiaries, replacing the April 2019 facility which was repaid at closing. It carries financial maintenance covenants, prepayment requirements and restrictions on dividend payments subject to compliance with certain financial metrics. (2) In connection with that closing the company 'substantially paid down its obligations under its supply chain financing program and will no longer accept new supplier obligations into that program after December 31, 2026'. (3) On 2026-11-04, under items 1.01 and 3.03, Monro amended its Rights Agreement of 2025-11-10 - a shareholder rights plan, with Series D Junior Participating Serial Preferred purchase rights registered on Nasdaq alongside the common. Then on 2026-11-23 the board elected not to declare a third-quarter dividend and suspended future dividends 'until further action of the Board as the Company continues to execute its performance improvement plan, amid ongoing challenges in the macro-environment'. The forward-looking-statements list names 'strategic alternatives'. The stock is down 22.1% in five days, 43.6% in 21 days and 53.7% over twelve months.",
+  "consensus_case": "Monro is a shrinking auto-service chain that has just been refinanced by a private-credit lender, suspended its dividend, and amended a poison pill. Revenue has fallen for five consecutive years - $1,359M, $1,325M, $1,277M, $1,195M, $1,157M - and fiscal 2027 is worse: second-quarter sales of $283.6M against $288.9M on comparable store sales down 1.8%, with a net loss. Goodwill of $736.4M exceeds total equity of $573.9M, so tangible book is deeply negative. On 2026-10-23 the company replaced a bank credit facility in place since April 2019 with $375.0M of senior secured facilities from Ares Capital Corporation 'with fees commensurate with a private lending facility', secured on substantially all assets, with financial maintenance covenants and restrictions on dividends subject to financial metrics - and simultaneously paid down and began terminating its supply-chain financing programme. A month later the board suspended the dividend. The market's case for pricing a collapse in cash flow is that the company's own actions describe one.",
+  "base_case_rationale": "No number is recordable because the enterprise value is indeterminate by more than a factor of two, but the honest central case is a continuing decline of around 8% a year in owner earnings, not the 19.7% the brief says the market requires. The reason the printed requirement is wrong is arithmetic in three places. interest_expense is recorded as MINUS $17,233,000, so normalized_fcff SUBTRACTS $12.9M of after-tax interest instead of adding it - the sixth instance of the parenthesised-sign bug in this file, and the magnitude is right (the Q2 10-Q shows net interest expense of about $4.7M a quarter, roughly $18M a year, high against $100M of recorded debt because it includes finance-lease interest on a store base that is almost entirely leased) so this is purely a sign error worth $25.8M, or 38% of the base. Then the enterprise value: the brief's own flag says operating leases are 46% of it, and $155.3M of lease obligations on about 1,200 leased stores belong in any honest enterprise value for a service retailer; add the $250M term loan drawn after the balance sheet and the enterprise value runs from the recorded $335.1M to roughly $640M. Across those the required growth runs from -26.2% to -2.7%, a 23-point span, which is not a valuation. And the base itself is mid-collapse: operating cash flow fell from $131.9M to $70.4M in fiscal 2026 and the company is now terminating a supply-chain financing programme that was extending payables, so the reversal is a working-capital outflow still to come.",
+  "key_risks": [
+    "Enterprise value is indeterminate between the recorded $335.1M and roughly $640M once $155.3M of lease obligations and the post-balance-sheet $250M Ares term loan are included",
+    "The supply-chain financing programme is being terminated after 2026-12-31, which reverses a payables float that has been inflating operating cash flow",
+    "Private-credit refinancing secured on substantially all assets, with financial maintenance covenants and dividend restrictions - the lender has the first claim",
+    "Goodwill of $736.4M exceeds total equity of $573.9M; tangible book is deeply negative and an impairment follows any further decline",
+    "Five consecutive years of revenue decline with comparable store sales still negative at -1.8%",
+    "Dividend suspended 2026-11-23; the rights plan amended 2026-11-04 signals a contested situation rather than a stable one"
+  ],
+  "watch_for": [
+    "The fiscal Q3 10-Q: how much of the $250M Ares term loan is drawn, and the working-capital cost of the supply-chain financing wind-down",
+    "Any 13D filing or announced transaction following the rights-plan amendment and strategic review",
+    "Comparable store sales turning positive, which management's three-part plan is aimed at",
+    "Covenant headroom under the new Ares facility - the first maintenance test after closing"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/876427/000119312526437009/d12848dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/876427/000087642726000012/mnro-20260926x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/876427/000119312526471010/d125105dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/876427/000119312526447246/d459293d8k.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.39x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_46%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

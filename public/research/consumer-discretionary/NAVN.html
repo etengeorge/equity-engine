@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>NAVN — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Discretionary / NAVN</p><h1>NAVN <span style='color:var(--faint);font-weight:400'>NAVAN CLASS A</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$27.11</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-27</b></div></div><div class='prose'><h1>NAVN — NAVAN CLASS A</h1><p><em>Consumer Discretionary · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-27 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $27.11</li><li><strong>Not repriced:</strong> not a repriceable fcff name or no growth supplied</li></ul><p><strong>The case for the price.</strong> Navan is a 2025-vintage IPO growing gross booking volume 45% to over $3 billion a quarter and revenue 35% to $233 million, with full-year guidance raised to roughly 32% growth at the midpoint. On the true share count of 260.4 million the market capitalisation is about $7.06 billion, so the market is paying roughly 9x enterprise value to trailing revenue for a corporate travel and expense platform. The case for that price is category replacement: an AI-native alternative to Concur in a market where the incumbent is widely disliked, with payments and expense attached to the booking flow so the revenue per customer compounds. The case against is in the same quarter&#x27;s numbers - the stock fell more than 15% on the Q2 print despite beating, because operating costs and losses widened on AI spend and the newly acquired BoomPop events platform. The company lost $398.0 million on $702.3 million of revenue in fiscal 2026 with $182.1 million of stock compensation, and the thing a DCF would discount does not yet exist.</p><p><strong>What changed.</strong> Q2 fiscal 2027 (reported 2026-09-09): revenue $233M, up 35%; GBV up 45% to over $3 billion; full-year guidance raised to approximately 32% growth at the midpoint; free cash flow described on the call as having turned positive; the stock fell over 15% on rising AI-related costs and the BoomPop acquisition. The BoomPop acquisition of an AI-powered meetings and events platform was announced around 2026-09-13, after the 2026-07-31 balance sheet. A partnership with Engine was announced 2026-09-20 to add group travel and flexible booking. And on 2026-10-05, under 8-K items 1.01 and 2.03, a bankruptcy-remote subsidiary entered a Revolving Credit and Security Agreement with Barclays as administrative agent - a receivables warehouse facility with a 24-month revolving period and a borrowing base tied to eligible receivables, with no advances made as of the filing date; an Omnibus Amendment simultaneously prepaid all outstanding Class B advances under the 2022 facility. Note that the company news store carries nothing after 2026-09-20 for this name, so I cannot confirm what has happened in the nine weeks since, and Q3 fiscal 2027 has not been reported.</p><p><strong>Base case.</strong> No valuation is recordable in either direction, and the share count is the reason before anything else. shares is 45,782,871 with shares_asof 2025-01-31 and shares_source <code>us-gaap:CommonStockSharesOutstanding (10-Q)</code> - a balance-sheet concept rather than the dei cover-page fact, dated while Navan was still private and carried multiple series of redeemable convertible preferred. The 10-Q cover page reads 245,330,797 Class A plus 15,079,696 Class B as of 2026-09-03 = 260,410,493 shares. That is 5.69x the figure used - the HNGE pre-conversion mechanism, and the largest provenance error of its kind this file has recorded after HNGE&#x27;s 4.9x and MIR&#x27;s 13.3x. Market capitalisation is $7,061M against the brief&#x27;s $1,241M and enterprise value about $6,365M against $545.6M, understated 11.7x. On top of that: there is exactly ONE year of cash-flow history (the single_year_base_no_normalization flag), stock compensation is 556% of the FCFF base so the expensed figure is NEGATIVE $149.3M, EBITDA is negative, capex of $917k against $60,247k of D&amp;A is a 65.7x ratio that cannot be a real capital-spending figure for a company with capitalised software, interest_expense is None against $124.5M of debt, and net_income_common_series is empty. There is no defensible number here and &#x27;the cash flows will not support a valuation&#x27; is the complete answer.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter is that refusing is a cop-out on the fastest-growing name in today&#x27;s ten, and that the multiples table says it is 68.5% undervalued. If the right share count makes the enterprise value $6.4bn rather than $546M, then the correct response is not silence but to observe that 9x trailing revenue for a business growing 32-35% with GBV up 45% and free cash flow turning positive is not obviously expensive for software - plenty of the category trades at 10-15x forward sales - and that a company this early should be judged on revenue growth and gross margin (71% in fiscal 2026) rather than on a DCF it will not support for years.</li><li>What would prove it: A full year of positive free cash flow, so that the thing a DCF discounts actually exists; and the trajectory of stock compensation against revenue, currently $182.1M against $702.3M - 26% of revenue - which is the number that decides whether the reported cash generation is real or is deferred dilution.</li><li>Already visible today: The &#x27;not obviously expensive&#x27; version of the counter is fair and I record it, but it is not a valuation and it is not what the engine asked. What is visible and decisive against publishing anything: the fiscal 2026 net loss of $398.0M on $702.3M of revenue, stock compensation of $182.1M (26% of revenue and 556% of the FCFF base), and a single year of cash-flow history. Also visible and specifically disqualifying for the multiples route: the share_count flag is raised, which per the WHD rule disqualifies the multiples table wholesale - its &#x27;own ev_sales of 0.8x&#x27; is actually about 9.1x once the count is right, against a cohort median of 1.0x, so the table inverts from +68.5% upside to a large premium. And the cohort is both &#x27;not ranked&#x27; and mis-assigned: Navan is enterprise software sitting in Consumer Discretionary, so its comparator quartiles are retailers and restaurants, which is the CWK category error.</li><li>Left unresolved: Nearly everything that would matter. I could not get Q3 fiscal 2027 results, which have not been reported. I could not size the BoomPop acquisition, announced after the balance sheet with no consideration disclosed. I could not get the committed size of the Barclays warehouse facility from the 8-K text available to me, only that no advances had been made at filing. And the company news store holds nothing after 2026-09-20, so for the most recent nine weeks I have no coverage at all - that is a fact about my confidence, not a statement that nothing happened.</li></ul><p><strong>Key risks.</strong> The recorded share count is 5.69x too low and comes from a pre-IPO, non-dei concept, so every per-share and enterprise-value figure on the brief is an artifact; Net loss of $398.0M on $702.3M of revenue with $182.1M of stock compensation - 26% of revenue and 556% of the FCFF base; One year of cash-flow history and no revenue history long enough for a baseline (no_baseline_growth); GBV-linked revenue is directly exposed to a corporate travel downturn; Capex of $917k against $60.2M of D&amp;A is a 65.7x ratio - capitalised software is not being captured, so even the one year of free cash flow is overstated <strong>Watch for.</strong> Q3 fiscal 2027 results - the first print after the AI-cost-driven selloff, and whether free cash flow stays positive; Stock compensation as a share of revenue, currently 26%, and the basic weighted-average share count trend once a full post-IPO year exists; Consideration paid for BoomPop, and whether further acquisitions follow; Drawings under the October 2026 Barclays receivables warehouse facility</p><p><strong>Data quality.</strong> Not resolved and not resolvable. The share_count_665d_stale flag understates the problem, which is provenance rather than age: shares_source is <code>us-gaap:CommonStockSharesOutstanding (10-Q)</code> dated 2025-01-31, a balance-sheet line from when Navan was private with multiple series of redeemable convertible preferred outstanding, so the 45,782,871 figure is a pre-conversion COMMON-only count - the HNGE mechanism exactly, and the gate this file asked for (gate on the CONCEPT, not just on NULL or on age) would have caught it. The 2026-09-10 10-Q cover page reads 245,330,797 Class A plus 15,079,696 Class B as of 2026-09-03 = 260,410,493, so the error is 5.69x: market capitalisation $7,061M against $1,241M, enterprise value about $6,365M against $545.6M. Per the WHD rule that disqualifies the multiples table wholesale, and the inversion is total - the &#x27;own&#x27; ev_sales of 0.8x is really about 9.1x against a cohort median of 1.0x, so the +68.5% blended upside becomes a large premium. The cohort is separately unusable: &#x27;not ranked&#x27;, and Navan is enterprise software assigned to Consumer Discretionary, which is the CWK per-sector category error. Three further defects, none of which the brief names: interest_expense is None against total_debt of $124,490k (the CON form); capex_series of [$917k] against dep_amort_series of [$60,247k] is a D&amp;A-to-capex ratio of 65.7x, far beyond the 5x threshold, so capitalised software development is entirely missing (the LRN and CARS family); and net_income_common_series is empty. Events after the balance sheet that further void the enterprise value: the BoomPop acquisition (September 2026) and the 2026-10-05 Barclays receivables warehouse facility under items 1.01 and 2.03. Flagged correctly by the brief and real: single_year_base_no_normalization, stock_comp_is_556%_of_fcff, no_baseline_growth, negative_ebitda. No number is supplied in either direction.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1639723/000162828026061416/navn-20260731.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1639723/000162828026061416/navn-20260731.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1639723/000162828026065496/navn-20261005.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1639723/000162828026065496/navn-20261005.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1639723/000162828026061136/exhibit991-earningspressre.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1639723/000162828026061136/exhibit991-earningspressre.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/09/10/navan-navn-q1-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/09/10/navan-navn-q1-2026-earnings-call-transcript/</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Discretionary/NAVN.md'>research/Consumer Discretionary/NAVN.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

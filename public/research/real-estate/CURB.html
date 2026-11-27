@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>CURB — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Real Estate / CURB</p><h1>CURB <span style='color:var(--faint);font-weight:400'>CURBLINE PROPERTIES</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_model'>no_model</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$29.33</b></div><div>Analyst gap<b>not repriced</b></div><div>Dated<b>2026-11-27</b></div></div><div class='prose'><h1>CURB — CURBLINE PROPERTIES</h1><p><em>Real Estate · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-27 — NO_MODEL (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_model · price $29.33</li></ul><p><strong>The case for the price.</strong> Curbline is a two-year-old REIT spun off from SITE Centers on 2024-10-01 to own convenience centres in high-household-income suburbs, and it is the rare REIT that was spun with net cash and has been deploying it. At $29.33 against raised 2026 Operating FFO guidance of $1.25-1.27 per diluted share, the market is paying about 23x Operating FFO - a clear premium to shopping-centre REITs, which typically trade in the low-to-mid teens. What the premium buys: same-property net operating income up 3.4% in the third quarter &#x27;driven by an acceleration in base rent growth from rent commencements&#x27;, a 96.4% leased rate, and $734.9 million of cash and capital commitments available for future acquisitions, of which $612.1 million is expected gross proceeds from unsettled forward equity sales. So the market is capitalising external growth that is funded and contracted rather than hoped for, on a balance sheet carrying only $596.1M of debt against $2.27bn of equity. That is a defensible reason to pay a premium multiple and it is why the shares are up 28.2% over twelve months.</p><p><strong>What changed.</strong> Q3 2026 (2026-10-22): nine-month net income attributable to Curbline $17.9M or $0.16 per diluted share, against $30.3M or $0.28 a year earlier - the decline attributed to higher interest and depreciation expense, lower interest income, and a higher weighted-average share count from shares issued to fund acquisitions. Third-quarter Operating FFO $37.4M or $0.32 per diluted share against $29.5M or $0.28. SPNOI up 3.4%; leased rate 96.4% against 96.5% at June and 96.7% a year earlier. 2026 guidance for Operating FFO RAISED to $1.25-1.27 per diluted share, with net income guidance of $0.25-0.29. $734.9M of cash and capital commitments for future acquisitions as of 2026-09-30 adjusted for forward equity sales completed year to date, comprising $122.8M of cash and $612.1M of expected gross proceeds from UNSETTLED forward equity sales. The 2026-08-18 8-K (items 1.02 and 3.03) is governance rather than financial: the board determined the Otto family&#x27;s constructive ownership had fallen to 7.5% or less, triggering an Exempt Holder Reduction Event and terminating the Waiver Agreement entered at the spin-off that had waived the charter&#x27;s Related Party Limit. The company news store holds NO company-specific items for this name in the last 90 days, which means the tape was quiet and nothing was filed that triggered a pull - a reason to lower confidence in &#x27;nothing happened&#x27;, not to confirm it.</p><p><strong>Base case.</strong> The engine correctly refuses this name (status not_modelled, sector_has_no_defensible_free_model) and that refusal is right for a REIT: rent converting to cash through a depreciating asset base is not what a CFO-less-capex FCFF model measures, which is why CLAUDE.md assigns method <code>none</code> to Real Estate. The correct metric is Operating FFO and the engine does not compute it. What I can add is that the multiples blend the brief offers must be disregarded wholesale, on three independent grounds from this file&#x27;s standing refusal test. The cohort is &#x27;not ranked&#x27; - too few comparable Real Estate names - which alone disqualifies it per the RIOT and EPRT rule. The rows disagree by a factor of four: ev_ebitda gives $6.34/$11.18/$17.89, ev_sales $1.13/$6.76/$12.61 and p_tbv $18.21/$26.97/$34.14, so averaging them to $14.97 is noise with a decimal point. And every row divides by a stale denominator: the extract&#x27;s ebit of $40.2M and D&amp;A of $72.4M are fiscal 2025 figures for a company that has been deploying spun-off cash into acquisitions throughout 2026, so the &#x27;own&#x27; ev_ebitda of 35.9x describes a smaller company than the one trading - the MXL inflecting-denominator defect. Refusing is not a judgement that the name is cheap or expensive. For the record, the honest directional read is the opposite of the multiples blend: at roughly 23x guided Operating FFO Curbline trades at a premium to its peer group, not a 49% discount.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The counter to refusing is that the multiples table is not meaningless - the p_tbv row, at least, is the one multiple that means something for a landlord, and it says 1.7x own against a 1.6x cohort median, i.e. roughly in line. If the honest read is &#x27;fairly priced on book, premium on earnings&#x27;, then a REIT with net cash, 96.4% occupancy, 3.4% SPNOI growth and $734.9M of committed acquisition capital in a fragmented niche is a reasonable thing to own at a premium, and saying nothing is less useful than saying that. One could also argue the premium is justified arithmetically: a REIT deploying $734.9M onto a $3.6bn market capitalisation is adding roughly 20% to its asset base with capital already raised, which no trailing multiple can see.</li><li>What would prove it: The cap rates at which the $734.9M is actually deployed, disclosed in the acquisition tables of the next two quarters, against the company&#x27;s cost of that capital - the spread is the whole thesis. And 2027 Operating FFO guidance, which will show whether the external growth is per-share accretive once the forward equity settles.</li><li>Already visible today: Partly, and it argues for caution rather than for a number. Nine-month net income fell from $0.28 to $0.16 a share precisely because of &#x27;higher interest and depreciation and amortization expense and a decrease in interest income as well as a higher weighted-average share count resulting from shares issued to fund acquisitions&#x27; - the company&#x27;s own words. So the acquisitions are already diluting GAAP earnings while Operating FFO per share rises, which is the standard REIT gap and is exactly the thing a reader must not take on trust. Against that, Operating FFO per share did rise from $0.28 to $0.32 and guidance was raised, so the deployment is accretive on the company&#x27;s own measure. I cannot adjudicate between those two statements with the free data available, and that is a reason to refuse rather than a reason to pick one.</li><li>Left unresolved: I could not build an FFO-based valuation because the engine does not compute FFO and I have no peer FFO multiples from a free source to anchor against - my &#x27;low-to-mid teens for shopping-centre REITs&#x27; is a prior, not a measurement from today&#x27;s cohort. I could not see the acquisition cap rates. And I have no company news at all for the last 90 days, so anything that happened since 2026-10-22 beyond the filings is unknown to me.</li></ul><p><strong>Key risks.</strong> $612.1M of UNSETTLED forward equity sales sit outside the 121,424,191 recorded share count - roughly 20M more shares, a 17% increase, already contracted; Nine-month net income fell 41% per share on higher interest, higher depreciation and a larger share count while Operating FFO per share rose - the two measures point in opposite directions; At roughly 23x guided 2026 Operating FFO the valuation depends on continued accretive external growth, not on the 3.4% internal SPNOI rate; Only two years of history, the older of which is a post-spin partial-year stub ($120.9M of revenue against $182.9M); capex_series is EMPTY and interest_expense of $12,141k against $596,149k of debt is an implied 2.0% - both inputs predate the company&#x27;s 2026 financings <strong>Watch for.</strong> Cap rates on deployment of the $734.9M of committed capital, against the cost of that capital; Settlement of the $612.1M of forward equity sales and the resulting share count; 2027 Operating FFO per share guidance - whether the acquisitions are per-share accretive once the equity settles; The leased rate, which has slipped from 96.7% to 96.4% over twelve months</p><p><strong>Data quality.</strong> The engine&#x27;s refusal is correct and the only flag raised (sector_has_no_defensible_free_model) is the right one for a REIT per CLAUDE.md. Four further defects are present and none is flagged. (1) capex_series is EMPTY, with source.capex None - the WHD condition - so no FCFF base could have been computed even if the method allowed it. (2) Only two annual observations exist and the older is a post-spin partial-year stub (revenue $120.9M against $182.9M; D&amp;A $41.9M against $72.4M), which is the MIR stub shape applied to a spin-off; no multi-year baseline is meaningful. (3) interest_expense of $12,141k against total_debt of $596,149k is an implied 2.0%, the PATK sub-2% form, because the fiscal 2025 interest figure predates most of the debt - the Q3 release notes &#x27;an increase in interest expense&#x27;. (4) NEW for this file and worth a detector: $612.1 million of expected gross proceeds from UNSETTLED FORWARD EQUITY SALES sit in neither the share count nor total_debt. At roughly $29-30 a share that is about 20 million shares against 121,424,191 outstanding - a 17% increase, already contracted - which is the AMLX and ONDS family in a REIT wrapper, and no freshness or provenance gate can see it because the dei cover-page count was accurate when taken. The multiples blend of -49.0% is disqualified three times over: the cohort is &#x27;not ranked&#x27; (the RIOT and EPRT test), the three rows disagree by a factor of four, and all of them divide by fiscal 2025 operating figures for a company that has been acquiring through 2026 (the MXL stale-denominator test). The honest directional read is the OPPOSITE of the blend - about 23x guided Operating FFO is a premium to the shopping-centre peer group, not a discount - and I record that as a direction, not as a valuation. The 2026-08-18 items 1.02 and 3.03 are governance (termination of the Otto family&#x27;s Related Party Limit waiver), not financial.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-ex99_1.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2027317/000119312526428913/curb-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2027317/000119312526428913/curb-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2027317/000119312526355420/d110992d8k.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/2027317/000119312526355420/d110992d8k.htm</a></li></ul><p><strong>Ingestion notes.</strong> no usable final_growth</p></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Real%20Estate/CURB.md'>research/Real Estate/CURB.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

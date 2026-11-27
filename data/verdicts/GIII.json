@@ -1,0 +1,56 @@
+{
+  "ticker": "GIII",
+  "date": "2026-11-27",
+  "sector": "Consumer Discretionary",
+  "name": "G III APPAREL GROUP LTD",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.12,
+  "bull_growth": 0.04,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 31.670000076293945,
+  "market_implied_growth": -0.36169617775557883,
+  "cohort_pct": 99.2,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "The strongest case against my refusal is that the market really is too pessimistic, and the Marc Jacobs economics are the reason. G-III paid roughly $500M for a business doing $509M of revenue in its last year under LVMH, where LVMH had sub-scaled it, and G-III co-owns the IP vehicle so it captures royalty as well as wholesale margin. Management and WHP have said publicly they intend at least to double that revenue. Meanwhile the thing the market is marking down - the licence loss - is already contracted, dated and quantified at $460M, so there is no new bad news left in it, and the stock is up 13.7% over twelve months rather than falling. If Marc Jacobs alone adds $60-80M of EBITDA by fiscal 2029 against guided fiscal 2027 EBITDA of $176M, the business grows through the cliff and a -9% required growth is far too low a bar.",
+    "what_would_prove_it": "The fiscal-2027 third-quarter report on 2026-12-08, where management has promised specific Marc Jacobs guidance for the first time, and the 8-K/A purchase accounting with the ASC 805 pro forma - which per the HNI rule is a FILED number rather than an estimate and is due within 71 days of closing. Those two documents together settle both the base and the enterprise value.",
+    "already_visible": "The counter's weakest point is visible now and it is in the cash statement rather than the guidance. Ex the $126.4M COGS benefit and $4.2M of interest income, six-month operating cash flow was about $48M against $168.9M - a 72% decline in underlying cash generation in the half the headline calls a beat with 'substantial gross margin expansion'. And the company's own non-GAAP guidance, which strips the refund, has EPS FALLING 14% and adjusted EBITDA falling 8%. So the owned-brand transition is not yet visible in cash at all. What I could not refute is the Marc Jacobs arithmetic, because it is unguided - which is exactly why this is a refusal rather than a `rich` call.",
+    "unresolved": "Three things, all of which 2026-12-08 will settle and none of which I could get today. (i) How much of the approximately $500M came from cash and how much from ABL borrowings - it does not change the enterprise value, which falls by $500M either way, but it changes the interest burden and the covenant headroom. (ii) Whether the Marc Jacobs licence from IPCo carries a guaranteed minimum royalty, which on the Lands' End precedent could be a fixed charge larger than the incremental cash flow; the 8-K describes the licence but not its economics. (iii) The ASC 805 pro forma, which is not yet filed, so any base I build for the combined company is an estimate where a filed number is coming."
+  },
+  "what_changed": "The acquisition closed AFTER the balance sheet the model uses, and that is the whole defect. The 2026-09-02 8-K carries items 1.01 and 2.01: the Marc Jacobs transaction completed 2026-09-01, one month after the 2026-07-31 balance sheet, with G-III funding 'its approximately $500 million investment using cash on hand and borrowings'. Structurally, IPCo (co-owned with WHP Global) retained the Marc Jacobs intellectual property and G-III took the operating business plus a licence to use the brands in the US, Canada, Mexico and Western Europe. Also new and large: the IEEPA tariff refund, in two places at once. The six months to 2026-07-31 carry a $126.4 million reduction in cost of goods sold from recovery of previously incurred IEEPA tariffs on inventory sold in the PRIOR year, plus $4.2 million of interest income on the refund - so of $178.7M of six-month operating cash flow, roughly $130.6M is the refund, and ex-refund H1 CFO was about $48M against $168.9M a year earlier. That is why GAAP guidance shows net income tripling to $181-185M ($4.10-4.20) while non-GAAP net income FALLS to $97-101M ($2.20-2.30). Q3 fiscal 2027 sales are guided to approximately $870.0M against $988.6M. Since then: Coty extended the Marc Jacobs beauty licence (2026-11-04), WHP and G-III granted I.T Group a licence and operating control for Greater China, a $0.10 quarterly dividend was declared 2026-11-24, and Q3 results are due 2026-12-08 with 'more specific guidance' on Marc Jacobs promised then.",
+  "consensus_case": "G-III is losing its two largest licences on a known schedule and buying its way into owned brands. Fiscal 2027 net sales are guided to approximately $2.71bn against $2.96bn, a decline that 'incorporates the loss of approximately $460 million of sales from Calvin Klein and Tommy Hilfiger products', and more follows. Adjusted EBITDA is guided DOWN to $174-178M from $192.4M and non-GAAP EPS DOWN to $2.20-2.30 from $2.61. On 2026-09-01 the company closed an approximately $500 million investment in the Marc Jacobs business from LVMH, alongside WHP Global, which it says will be 'slightly dilutive in fiscal 2027' and dilutive for the first twelve months. So the market is pricing a business whose revenue base is contracting by design, whose margin is being rebuilt through acquisition rather than organic growth, and which has just spent roughly a third of its market capitalisation on a brand it does not own the IP to - it licenses it from a joint venture. A price that requires deeply negative FCFF growth is the market doing exactly the right arithmetic on a dated contractual cliff.",
+  "base_case_rationale": "No number is recordable here, but the honest central case is that the market's requirement is roughly flat to modestly negative FCFF growth, not the -36.2% the brief prints, and that is approximately the right price for the business. Build it from the company's own guidance rather than from the cash-flow history: fiscal 2027 adjusted EBITDA of $176M at the midpoint, less about $35M of capex, less cash tax on roughly $147M of EBIT at 25%, gives owner earnings near $104M, with no interest add-back because G-III now runs net interest INCOME (guided at approximately $8.0M GAAP for the year). Marc Jacobs adds revenue of roughly $509M but is dilutive in year one, so call the combined figure $104-134M. Against a post-deal enterprise value of about $1,337M that is a required growth of roughly -9% to +6% across a defensible discount-rate band - i.e. the market is asking for a slow decline, which is what a company shedding $460M of licensed sales in one year with more to come should be asked for. I am far below the naive -1.3% revenue CAGR because that CAGR is measured across years in which the Calvin Klein and Tommy Hilfiger licences were intact.",
+  "key_risks": [
+    "Enterprise value in the extract omits the entire ~$500M Marc Jacobs purchase price, which left the enterprise one month after the balance-sheet date",
+    "The FCFF base of $334.3M is 1.9x the company's own guided full-year adjusted EBITDA of $174-178M, which is arithmetically impossible for a business also paying capex and cash taxes",
+    "Fiscal 2028 laps a $126.4M IEEPA cost-of-goods benefit and $4.2M of refund interest income with no offset - a dated, quantified, mechanical headwind",
+    "The Calvin Klein and Tommy Hilfiger roll-off is larger than the $460M already guided for fiscal 2027",
+    "G-III licenses the Marc Jacobs IP from a co-owned vehicle rather than owning it; the licence economics, including any minimum royalty, are not disclosed"
+  ],
+  "watch_for": [
+    "Q3 fiscal 2027 results on 2026-12-08 and the promised specific Marc Jacobs guidance",
+    "The 8-K/A ASC 805 pro forma for Marc Jacobs - a filed number, due within 71 days of the 2026-09-01 close",
+    "Post-close cash and ABL balances in the Q3 10-Q, which settle the enterprise value",
+    "Ex-IEEPA gross margin and operating cash flow in Q3 and Q4, since the refund is a prior-year recovery that cannot repeat"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/eh260826006_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/eh260826006_ex9901.htm",
+    "https://www.sec.gov/Archives/edgar/data/821002/000110465926105950/giii-20260731x10q.htm",
+    "https://www.sec.gov/Archives/edgar/data/821002/000110465926131350/giii-ex99d1.htm"
+  ],
+  "flags": [
+    "possible_trough_cycle_base_newest_fcf_0.47x_oldest_growth_applied_to_a_trough_understates_value",
+    "operating_leases_34%_of_EV_kept_as_opex_not_debt_capitalizing_them_would_materially_change_this"
+  ]
+}

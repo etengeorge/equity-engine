@@ -1,0 +1,56 @@
+{
+  "ticker": "FRSH",
+  "date": "2026-11-27",
+  "sector": "Information Technology",
+  "name": "FRESHWORKS CLASS A",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": null,
+  "bear_growth": -0.03,
+  "bull_growth": 0.1,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 13.029999732971191,
+  "market_implied_growth": -0.06039526468674544,
+  "cohort_pct": 95.8,
+  "priced": {
+    "ok": false,
+    "reason": "not a repriceable fcff name or no growth supplied"
+  },
+  "parse_notes": [
+    "no usable final_growth"
+  ],
+  "devils_advocate": {
+    "strongest_counter": "Run against my own refusal: this is the one name today where the corrected arithmetic says CHEAP and I am declining to say so. On a $260M run-rate base and the corrected $2.72bn enterprise value the market requires MINUS 0.7% five-year FCFF growth from a company that just raised full-year revenue guidance to +15%, crossed $1bn of ARR ahead of schedule, posted a record 30.1% free-cash-flow margin up 29% year over year, and is retiring 7-8% of its shares a year. A software business compounding cash flow while the market prices perpetual stagnation is the textbook mispricing this engine exists to find, and the beta is a real measurement for once (1.06 at R-squared 0.181), so the discount rate is not the usual escape hatch.",
+    "what_would_prove_it": "Two things. The sub-$5,000 and $5,000-plus ARR customer-cohort growth rates in the next two quarters - if the 5% becomes negative, the EX story is cannibalising rather than adding. And whether repurchases moderate toward operating cash flow: the share-count reduction is what makes the free treatment of $147M of annual stock compensation defensible, and it is currently funded by drawing the balance sheet down.",
+    "already_visible": "Both halves are partly visible and they are what stopped me calling it cheap. $387.4M of nine-month repurchases against $198.6M of nine-month operating cash flow is roughly double, with cash falling from $569.8M to $466.7M and total current assets from $1,097.2M to $925.8M - so the 7-8% annual share shrink that makes the stock compensation look paid for is being bought out of the treasury, not out of operations, and it is not indefinitely fundable. That is the standing BOX caveat and it bites here. And the growth is narrow: 5% growth in the $5,000-plus cohort against 25% in the $100,000-plus cohort says the installed base is static. Charge the cash cost of holding the count flat and the base falls toward $140-180M, at which the market requires +8% to +14.5% - and the sign of the answer moves inside a band I cannot narrow.",
+    "unresolved": "I could not establish the right base, and the honest band is $140M to $260M depending on how the $147M of annual stock compensation is charged - which is a 15-point swing in the required growth and therefore the whole verdict. I also could not value the two October 2026 acquisitions, disclosed only as subsequent events with no consideration given, which change both the enterprise value and the forward base. And the share count, which is the largest single error here, cannot be corrected in the schema at all."
+  },
+  "what_changed": "Q3 2026 (2026-11-03): revenue $245.4M, up 14% both reported and in constant currency; GAAP net income $18.3M; record adjusted free cash flow of $73.9M at a 30.1% margin, up 29% year over year; total ARR crossed $1 billion after quarter end, ahead of the company's own year-end estimate; Employee Experience now 59% of recurring revenue with EX ARR up 22%. Full-year 2026 guidance raised to $965.0-966.0M of revenue (approximately 15% growth) and $238.0-240.0M of non-GAAP income from operations, with Q4 revenue guided to $253.5-254.5M. Nine-month operating cash flow $198.6M against $180.0M; nine-month adjusted free cash flow $187.4M against $166.9M. Two further things not in the headline: $387.4M of nine-month repurchase and retirement of common stock, which took basic weighted-average shares from 293,882k to 272,332k, funded partly by drawing cash down from $569.8M to $466.7M; and two acquisitions completed in October 2026, disclosed as subsequent events, following FireHydrant in January 2026.",
+  "consensus_case": "Freshworks is a $965M-revenue service-operations software company growing 14-15% with a 26-30% adjusted free-cash-flow margin, and the market is paying about 10x enterprise value to free cash flow for it. On the true share count of 262.3 million, enterprise value is roughly $2.72bn against FY2026 free cash flow of about $255-265M. The market's case for requiring only around zero five-year growth is the shape of the growth: the number of customers contributing more than $5,000 of ARR grew just 5% year over year, while the $100,000-plus cohort grew 25%. So the SMB base that Freshworks was built on is essentially flat and all the growth is a land-up-market motion in Employee Experience, which is now 59% of recurring revenue. That is a harder, more competitive, longer-sales-cycle business against ServiceNow and Zendesk, and the market is pricing a decelerating curve (34%, 20%, 16%, 15% over four years) into an AI-disrupted category. It is also paying for a share count being shrunk with $387M of nine-month buybacks against only $198.6M of nine-month operating cash flow.",
+  "base_case_rationale": "No number is recordable because the share count is broken beyond the schema's reach, but the central case is that the market requires roughly zero to +8% five-year FCFF growth on honest inputs, against a company growing revenue 14-15% with an expanding cash margin. The base deserves correcting upward and the enterprise value deserves correcting upward, and the two very nearly cancel. On the base: the engine uses a three-year mean of $157.4M across a series that runs $84.1M, $151.5M, $236.7M oldest to newest - strictly monotonic, so the possible_peak_cycle_base flag reads backwards per the ITRI rule, and the company's own Q4 guide takes the newest level higher still. True FY2026 free cash flow, charging both property and equipment and capitalised internal-use software (nine-month figures of $11.8M and $7.0M, which the extractor's PaymentsToAcquirePropertyPlantAndEquipment concept only partly captures), lands near $255-265M. On the enterprise value: the share count is 153,937,730 dated 2021-09-30 against a cover page of 240,386,572 Class A plus 21,941,336 Class B, so market capitalisation is $3,418M not $2,006M and enterprise value $2,722M not $1,300M. The stock-compensation flag resolves in the company's favour on the BOX test - basic weighted-average shares fell 8.5% in the quarter and 7.3% over nine months net of all compensation - so treating it as free is defensible, which is why I sit nearer the run-rate base than the expensed one.",
+  "key_risks": [
+    "The recorded share count is 1,884 days stale and 70% too low, so market capitalisation, enterprise value and the entire cohort rank are artifacts",
+    "Repurchases of $387.4M over nine months against $198.6M of operating cash flow are funded by drawing the treasury down; the share-count reduction that makes stock compensation look paid for is not indefinitely fundable",
+    "Customers contributing more than $5,000 of ARR grew only 5% year over year - the installed base is static and all growth is up-market",
+    "Revenue growth has decelerated across four years (34%, 20%, 16%, 15%) in a category exposed to AI-native repricing",
+    "Charging stock compensation at the cash cost of holding the count flat moves the required growth from about zero to +8-14.5%, which spans the verdict"
+  ],
+  "watch_for": [
+    "Growth in the $5,000-plus ARR customer cohort - a move from +5% to negative would confirm the installed base is shrinking",
+    "Whether repurchases moderate toward operating cash flow, or the treasury keeps funding them",
+    "Consideration paid for the two October 2026 acquisitions when the FY2026 10-K discloses it",
+    "FY2027 revenue guidance against the 14-15% exit rate, and whether the adjusted free-cash-flow margin holds above 28%"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1544522/000154452226000172/frsh-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1544522/000154452226000170/q326quarterlyearningsrelea.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/11/04/freshworks-frsh-q3-2026-earnings-call-transcript/"
+  ],
+  "flags": [
+    "share_count_1884d_stale_market_cap_unreliable",
+    "possible_peak_cycle_base_newest_fcf_2.8x_oldest_growth_applied_to_a_peak_overstates_value",
+    "stock_comp_is_122%_of_fcff_reported_cash_flow_treats_it_as_free"
+  ]
+}

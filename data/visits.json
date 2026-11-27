@@ -51,8 +51,8 @@
   },
   "ALTG": {
     "conviction": "low",
-    "last_visit": "2026-09-02",
-    "verdict": "no_edge"
+    "last_visit": "2026-11-27",
+    "verdict": "no_model"
   },
   "AMLX": {
     "conviction": "high",
@@ -186,7 +186,7 @@
   },
   "BUR": {
     "conviction": "low",
-    "last_visit": "2026-10-02",
+    "last_visit": "2026-11-27",
     "verdict": "no_model"
   },
   "CARS": {
@@ -324,6 +324,11 @@
     "last_visit": "2026-08-31",
     "verdict": "no_model"
   },
+  "CURB": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
+    "verdict": "no_model"
+  },
   "CVBF": {
     "conviction": "medium",
     "last_visit": "2026-09-25",
@@ -373,6 +378,11 @@
     "conviction": "high",
     "last_visit": "2026-10-09",
     "verdict": "no_model"
+  },
+  "DNOW": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
+    "verdict": "no_edge"
   },
   "DNTH": {
     "conviction": "high",
@@ -469,6 +479,11 @@
     "last_visit": "2026-09-16",
     "verdict": "no_edge"
   },
+  "FRSH": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
+    "verdict": "no_edge"
+  },
   "FULT": {
     "conviction": "medium",
     "last_visit": "2026-09-18",
@@ -487,6 +502,11 @@
   "GHC": {
     "conviction": "low",
     "last_visit": "2026-09-25",
+    "verdict": "no_edge"
+  },
+  "GIII": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
     "verdict": "no_edge"
   },
   "GLRE": {
@@ -779,6 +799,11 @@
     "last_visit": "2026-09-10",
     "verdict": "rich"
   },
+  "MNRO": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
+    "verdict": "no_edge"
+  },
   "MRX": {
     "conviction": "low",
     "last_visit": "2026-09-17",
@@ -797,6 +822,11 @@
   "MXL": {
     "conviction": "medium",
     "last_visit": "2026-09-10",
+    "verdict": "no_model"
+  },
+  "NAVN": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
     "verdict": "no_model"
   },
   "NEWT": {
@@ -1218,6 +1248,16 @@
     "conviction": "medium",
     "last_visit": "2026-09-21",
     "verdict": "no_model"
+  },
+  "WAY": {
+    "conviction": "low",
+    "last_visit": "2026-11-27",
+    "verdict": "no_edge"
+  },
+  "WDFC": {
+    "conviction": "medium",
+    "last_visit": "2026-11-27",
+    "verdict": "rich"
   },
   "WEN": {
     "conviction": "low",

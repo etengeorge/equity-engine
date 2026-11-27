@@ -1,0 +1,186 @@
+{
+  "ticker": "DNOW",
+  "date": "2026-11-27",
+  "sector": "Industrials",
+  "name": "DNOW",
+  "method": "fcff",
+  "verdict": "no_edge",
+  "conviction": "low",
+  "final_growth": 0.02,
+  "bear_growth": -0.02,
+  "bull_growth": 0.06,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 13.25,
+  "market_implied_growth": 0.012861858182980357,
+  "cohort_pct": 78.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.02,
+    "market_implied_growth": 0.012861858182980357,
+    "growth_delta": 0.0071381418170196435,
+    "fair_value": 14.630147062815581,
+    "price": 13.25,
+    "gap": 0.10416204247664762,
+    "fair_value_band": {
+      "low": 12.703915169232175,
+      "point": 14.630147062815581,
+      "high": 17.161172940904613
+    },
+    "fcff_base_used": 210000000,
+    "base_overridden": true,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.09369877819330272,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 210000000,
+      "price": 13.25,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": -0.02,
+          "cells": [
+            {
+              "wacc": 0.07369877819330271,
+              "fair_value": 16.99022933264418,
+              "gap": 0.28228145906748536
+            },
+            {
+              "wacc": 0.08369877819330272,
+              "fair_value": 14.139789857814169,
+              "gap": 0.06715395153314474
+            },
+            {
+              "wacc": 0.09369877819330272,
+              "fair_value": 12.06132846552317,
+              "gap": -0.08971105920579847
+            },
+            {
+              "wacc": 0.10369877819330271,
+              "fair_value": 10.47821008608921,
+              "gap": -0.20919169161590878
+            },
+            {
+              "wacc": 0.11369877819330272,
+              "fair_value": 9.23189194170302,
+              "gap": -0.3032534383620362
+            }
+          ],
+          "fair_value_at_point_wacc": 12.06132846552317,
+          "gap_at_point_wacc": -0.08971105920579847
+        },
+        {
+          "case": "base",
+          "growth": 0.02,
+          "cells": [
+            {
+              "wacc": 0.07369877819330271,
+              "fair_value": 20.63487422549097,
+              "gap": 0.557348998150262
+            },
+            {
+              "wacc": 0.08369877819330272,
+              "fair_value": 17.161172940904613,
+              "gap": 0.29518286346449907
+            },
+            {
+              "wacc": 0.09369877819330272,
+              "fair_value": 14.630147062815581,
+              "gap": 0.10416204247664762
+            },
+            {
+              "wacc": 0.10369877819330271,
+              "fair_value": 12.703915169232175,
+              "gap": -0.04121394949191126
+            },
+            {
+              "wacc": 0.11369877819330272,
+              "fair_value": 11.188837386881586,
+              "gap": -0.15555944249950293
+            }
+          ],
+          "fair_value_at_point_wacc": 14.630147062815581,
+          "gap_at_point_wacc": 0.10416204247664762
+        },
+        {
+          "case": "bull",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.07369877819330271,
+              "fair_value": 24.86420655549618,
+              "gap": 0.8765438909808438
+            },
+            {
+              "wacc": 0.08369877819330272,
+              "fair_value": 20.662184660067854,
+              "gap": 0.5594101630239889
+            },
+            {
+              "wacc": 0.09369877819330272,
+              "fair_value": 17.602491091546693,
+              "gap": 0.32848989370163717
+            },
+            {
+              "wacc": 0.10369877819330271,
+              "fair_value": 15.27560040310555,
+              "gap": 0.15287550212117362
+            },
+            {
+              "wacc": 0.11369877819330272,
+              "fair_value": 13.44681771575211,
+              "gap": 0.014854167226574289
+            }
+          ],
+          "fair_value_at_point_wacc": 17.602491091546693,
+          "gap_at_point_wacc": 0.32848989370163717
+        }
+      ],
+      "summary": {
+        "bear": -0.08971105920579847,
+        "base": 0.10416204247664762,
+        "bull": 0.32848989370163717
+      },
+      "downside": -0.3032534383620362,
+      "upside": 0.8765438909808438
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "The best bear case against my own near-fair conclusion is that I have under-credited a genuine step change, and it is the cheapest observation available: net debt of $265M against TTM adjusted EBITDA of $236M is 1.1x, and management has put a $300-350M number on 2027 - a 27-48% step up - while the stock has fallen 19% in a month on a 1.7% revenue miss. At the midpoint that is an enterprise value of $2.66bn against $325M of 2027 EBITDA, i.e. 8.2x, for a scaled North American distributor with 72% aftermarket-style consumable demand and a $160M buyback running. If the framework lands, the base is $220-240M and the market's requirement is NEGATIVE, which is a cheap stock. I am rejecting that mainly by asserting that distribution working capital turns against the company, which is an assumption about direction and not an observed number.",
+    "what_would_prove_it": "Fourth-quarter and first-quarter operating cash flow against revenue growth - specifically whether CFO margin holds near 4% or reverts toward the pre-merger level as revenue grows - and whether management converts the 2027 framework into formal guidance with a synergy number attached when it reports fiscal 2026.",
+    "already_visible": "The working-capital point is already visible and it is why the counter does not win. Nine-month 2026 CFO of $158M on roughly $4.0bn of revenue is a 3.9% margin against the standalone company's three-year average of about 8%, in a period when revenue was GROWING. The release-driven years that produce the engine's $289M and $171M were years of flat-to-falling standalone revenue. Against that, the counter has one genuinely strong visible fact I could not dismiss: Q3 adjusted EBITDA of $76M annualises to $304M, already at the bottom of the 2027 framework, so the step-up is not purely hoped for. That is what holds this at no_edge rather than letting me call it rich.",
+    "unresolved": "I could not get a synergy number: the 2027 figure is a framework given on a call, not guidance, and the 10-Q says the purchase accounting is still subject to change with the measurement period open. I also could not separate how much of the 111% revenue growth is MRC and how much is underlying, because no organic disclosure is given - which is the EFOR problem, and on a merger of this size I have to derive it rather than read it. Finally, `ebit` is recorded as -$93M, which is -3.3% of revenue and fails the HP missing-concept test, so the synthetic cost of debt is built on a broken EBIT; at a 13.6% debt weight it happens not to matter, but the 9.37% WACC is not independently verified."
+  },
+  "what_changed": "The merger itself is the thing the engine cannot see. The MRC Global acquisition closed 2026-11-06, inside fiscal 2025, so the newest reported fiscal year in the FCFF window contains only about eight weeks of MRC while the enterprise value and the 180.3M share count are fully post-deal - the HNI condition. Q3 2026 (filed 2026-11-05): revenue $1.34bn, net income $26M, adjusted EPS $0.18 (a 20% beat on EPS, a 1.7% revenue miss); sales up sequentially in all three geographic segments with the gas utilities business at its highest quarterly revenue in three years; $17M of stock repurchased in the quarter and $92M year to date under the $160M authorisation; net debt cut $95M. Nine-month operating cash flow $158M against $72M. 'Other expense, net' of $10M in the quarter and $30M for nine months is described in the 10-Q as 'primarily attributable to interest expense on borrowings associated with the acquisition of MRC Global', against $1M in the prior-year periods. The company recognised measurement-period adjustments in the nine months (working capital down $4M, goodwill up $4M) and says the preliminary valuation is not yet finalised. The stock has fallen 19.2% in 21 days and 18.6% in 63 days on the revenue miss and freight/project-delay commentary.",
+  "consensus_case": "DNOW is a newly doubled energy and industrial distributor: the all-stock MRC Global merger closed 2026-11-06 for $1,763M of consideration net of cash acquired, issuing about 82 million shares (0.9489 DNOW per MRC share) and taking the count to 180.3M. Q3 2026 revenue was $1.34bn, up 111% year over year, with adjusted EBITDA of $76M at a 5.7% margin - 'nearly double our first quarter results'. Net debt is $265M against TTM adjusted EBITDA of $236M, i.e. 1.1x. Management laid out a 2027 adjusted EBITDA framework of $300-350M. The market's case for a price that requires only +1.3% five-year FCFF growth is that distribution is a low-margin, working-capital-hungry, cyclical business whose cash flow is large and positive when revenue is FALLING and negative when it is growing; that Q3 revenue MISSED expectations despite the 111% optical growth; that the 2027 framework is unguided synergy capture on a deal that is twelve months old with purchase accounting still 'subject to change'; and that the existing holders took 72% dilution to get it, so per-share value needs the synergies and not just the EBITDA.",
+  "base_case_rationale": "I assume +2% five-year FCFF growth on a corrected base of $210M, and the correction is the whole of the work. The engine's $198.0M base is the mean of CFO-less-capex of $134M, $289M and $171M, which is standalone DNOW at roughly $2.4bn of revenue in years when inventory was being released - a 12% free-cash margin that no distributor sustains. Nine-month 2026 operating cash flow of $158M on about $4.0bn of combined revenue is a 3.9% CFO margin, which is what this business actually looks like at scale, and a distributor GROWING revenue consumes working capital rather than releasing it. Against that, interest_expense is recorded as None despite $377M of debt, so the base carries no after-tax interest add-back at all; the 10-Q puts interest at roughly $40M a year, worth about $30M after tax. Those two errors run in opposite directions and very nearly cancel: run-rate CFO-less-capex of roughly $180M plus the missing $30M add-back gives about $210M, and the 2027 framework of $300-350M of adjusted EBITDA less ~$40M interest, ~$55M cash taxes and ~$40M capex plus the add-back gives roughly $220M. I am far below the naive +11.7% revenue CAGR baseline because that CAGR is bought revenue - it is the MRC merger, not the existing branches growing - which is the EFOR and PATK artifact, and a revenue CAGR has no business being applied to the FCFF of a company that just doubled by issuing stock.",
+  "key_risks": [
+    "The entire 2027 step-up is unguided merger synergy on a $1,763M all-stock deal whose purchase accounting is still open",
+    "A distributor growing revenue consumes working capital; the engine's base is built on two years when standalone DNOW was releasing it",
+    "Existing holders took roughly 72% dilution (82M shares issued on a ~105M pre-deal count), so per-share accretion requires synergies, not just EBITDA",
+    "FY2025 GAAP was a net LOSS of $89M with EBIT of -$93M, so no earnings-based cross-check on the current company is available from the extract",
+    "Freight headwinds and project delays were named by management in the same breath as the 2027 framework; Q3 revenue missed"
+  ],
+  "watch_for": [
+    "Q4 2026 and Q1 2027 operating cash flow margin against revenue growth - the single test of whether working capital turns against the combined company",
+    "Conversion of the $300-350M 2027 adjusted EBITDA framework into formal guidance with a stated synergy number",
+    "Completion of the MRC purchase accounting and any further measurement-period adjustments",
+    "Whether net debt keeps falling from $265M while the $160M buyback runs"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1599617/000119312526449267/dnow-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1599617/000119312526448511/dnow-ex99_1.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/11/05/dnow-dnow-q3-2026-earnings-call-transcript/"
+  ],
+  "flags": []
+}

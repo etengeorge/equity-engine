@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>WDFC — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Consumer Staples / WDFC</p><h1>WDFC <span style='color:var(--faint);font-weight:400'>WD-40</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-rich'>rich</span></b></div><div>Conviction<b>medium</b></div><div>Price at verdict<b>$227.40</b></div><div>Analyst gap<b>-16%</b></div><div>Dated<b>2026-11-27</b></div></div><div class='prose'><h1>WDFC — WD-40</h1><p><em>Consumer Staples · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-27 — RICH (conviction: medium)</h2><ul><li><strong>Verdict:</strong> rich · price $227.40 · fair value $189.95 · gap -16.5%</li><li><strong>Growth:</strong> market implies +10.2%, analyst says +6.0% (delta -4.2%)</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 4.5% | 5.5% | 6.5% | 7.5% | 8.5% | |---|---|---|---|---|---|---| | bear | +3.0% | $302.42 | $214.66 | $166.20 | $135.48 | $114.26 | | base | +6.0% | $347.12 | $245.84 | $189.95 | $154.52 | $130.07 | | bull | +9.0% | $397.05 | $280.65 | $216.42 | $175.73 | $147.66 |</p><p>At the point WACC of 6.5%: bear -26.9%, base -16.5%, bull -4.8% Across the whole grid the gap ranges -49.8% to +74.6% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> WD-40 is a 70-year-old single-brand franchise with pricing power, a globally decentralised supply chain that management credits with absorbing tariff and input volatility, and a maintenance-products business that grew at the top of its own long-term target range in fiscal 2026. Net sales grew 11% to $688.0M, non-GAAP operating income improved 6% to $110.2M and non-GAAP EPS 6% to $6.18. Management states that the fiscal-2026 fourth quarter &#x27;marked the low point for gross margin&#x27; and guides fiscal 2027 to 4-7% sales growth, 54.0-55.5% gross margin and $114-120M of operating income (+5% to +10%). The bull case for a 37x earnings multiple is that this is a consumer-staple compounder with a 2-point beta, a tiny capital base ($7.4M of capex on $688M of sales), 80%+ returns on tangible capital, and a product with no credible substitute - so the right discount rate really is low and the right terminal growth really is perpetual. At a 6.5% cost of capital the arithmetic works.</p><p><strong>What changed.</strong> FY2026 10-K filed 2026-10-26 and Q4/FY2026 results released 2026-10-21. Net sales +11% to $688.0M; GAAP net income DOWN 10% to $82.3M and GAAP diluted EPS $6.08 against $6.69, the decline reflecting a favourable $11.9M income tax adjustment in fiscal 2025 that did not repeat. Ex that benefit and $1.3M of amortisation on reclassified Americas homecare products, non-GAAP operating income +6% to $110.2M, non-GAAP net income +6% to $83.7M, non-GAAP EPS +6% to $6.18. The fourth quarter was the weak point: net income DOWN 32% to $14.4M, EPS $1.06 against $1.56, on higher specialty-chemical and other input costs plus performance-based incentive and brand investment. FY2027 guidance: net sales $715-735M constant currency (+4-7%), gross margin 54.0-55.5%, A&amp;P ~6% of sales, operating income $114-120M (+5-10%), tax 22.5-23.5%. The guidance explicitly assumes crude stays near current levels through H1 fiscal 2027 before moderating. A new CFO (Keith Stauffer) was hired 2026-09-03 following a transition period. No acquisitions, no financings, no litigation: the 8-K list is earnings and officer changes only.</p><p><strong>Base case.</strong> I assume +6% five-year FCFF growth, which is the top of management&#x27;s own fiscal 2027 operating-income guide sustained for five years, and I regard that as generous rather than conservative. WD-40&#x27;s cash generation is remarkably stable and remarkably un-levered to reinvestment: CFO less capex of $97.6M, $83.4M and $87.8M across three years on capex of $7.4M, $4.5M and $4.2M, so essentially all of operating cash flow is free. That is the whole quality of the business and it is why the base of $93.8M needs no correction - it reconciles to FY2027 guidance, where $117M of operating income less 23% tax plus ~$10M of D&amp;A less ~$7M of capex gives roughly $97M, slightly above the engine&#x27;s figure. Growth therefore has to come from price and volume in maintenance products, not from capital deployment, and the company&#x27;s own long-term framework and its fiscal 2027 guide both put that at mid-single digits. The naive baseline of +7.3% is a four-year revenue CAGR that includes the 11% fiscal 2026, itself helped by price; I am below it because gross margin is at a cyclical low that management attributes to specialty-chemical input costs, and recovering it is in the guided 5-10% operating income growth rather than additive to it.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: Shorting a quality compounder on a DCF is the single most reliably wrong trade in this file&#x27;s universe, and the mechanism by which I reach <code>rich</code> is a discount rate I invented. The engine&#x27;s own answer is only -11.5%, which is inside the +/-15% band this file calls noise. WD-40&#x27;s beta of 0.31 may be low because the business genuinely is defensive: a $10 can of lubricant bought by tradespeople is about as cycle-insensitive as consumer demand gets, the company has raised price through two inflation cycles without volume loss, and its capital base is so small that the Gordon terminal value is doing honest work rather than papering over reinvestment. Push the terminal growth from 2% to 3% - a choice, not a fact, and a defensible one for a brand compounding sales at 7% - and the required growth falls sharply. On that reading the name is fairly priced for quality and I am manufacturing a short out of a regression I have decided to disbelieve.</li><li>What would prove it: Gross margin in the first and second quarters of fiscal 2027 against the 54.0-55.5% guided band, since management has staked the recovery on sequential improvement beginning in Q1. And whether net sales growth lands in the upper half of 4-7% - if maintenance products keep growing at the top of the long-term range while margin recovers, the bull case is simply right and the implied growth is attainable.</li><li>Already visible today: Partly, and it cuts against the counter. The fiscal-2026 fourth quarter is already visible and it is bad: net income DOWN 32% and EPS $1.06 against $1.56, with gross margin pressured by input costs and SG&amp;A up on incentive compensation. Management&#x27;s response is to call it &#x27;the low point&#x27; and guide to recovery, which is a forecast rather than an observation. Also visible and decisive: the company&#x27;s own fiscal 2027 operating income guidance is +5% to +10%, and at the engine&#x27;s own 6.5% WACC the market requires +10.3% of FCFF growth for FIVE years - i.e. the market&#x27;s requirement already exceeds the TOP of management&#x27;s guide for the FIRST year, off a trough quarter. The beta question therefore does not have to be settled for the verdict to hold: at 6.5% the name is 16% rich, and at every defensible discount rate it is worse.</li><li>Left unresolved: I cannot settle the right discount rate, and I cannot override it in the schema. The regression is beta 0.31 at R-squared 0.045, barely above the engine&#x27;s own 0.04 gate, so it is not a measurement; my 0.45-0.80 band is a judgement about what a small-cap consumer-staple brand should carry against IWM, and the fair value runs $141 to $191 across it at +6% growth. I also could not test the 3% terminal-growth version of the bull case, because <code>forward_dcf</code> fixes terminal growth at 2% and the schema has no field for it - so if the right terminal growth for this business is 3%, my gap is overstated by more than the beta question gains me.</li></ul><p><strong>Key risks.</strong> Shorting a 70-year-old single-brand compounder on a reverse DCF has a poor base rate; the business quality is not in dispute, only the price; The recorded fair value of $189.86 is computed through the engine&#x27;s 6.5% WACC, which rests on a beta of 0.31 at R-squared 0.045 - at a defensible 0.60-0.80 beta the fair value is $119-141, so the recorded gap UNDERSTATES the case; <code>forward_dcf</code> fixes terminal growth at 2% and the schema cannot override it; at 3% terminal growth much of the gap closes, and 3% is defensible for this brand; FY2027 guidance assumes crude near current levels through H1 then moderating - if inputs moderate faster than guided, margin recovery beats the guide; A new CFO took over in fiscal 2027, which raises the odds of a reset or a change in the long-term framework in either direction <strong>Watch for.</strong> Q1 and Q2 fiscal 2027 gross margin against the 54.0-55.5% guided band - management has staked the recovery on sequential improvement from Q1; Whether net sales growth lands in the upper or lower half of the 4-7% guide; Any change to the long-term growth framework under the new CFO; Operating income tracking against $114-120M; a cut would end the bull case outright</p><p><strong>Data quality.</strong> This is the cleanest extract in today&#x27;s ten and the brief correctly raised no flags. I verified the inputs that matter rather than assuming: the share count of 13,392,483 comes from dei:EntityCommonStockSharesOutstanding dated 2026-10-20 off the 10-K cover page (fresh, correct concept, single class); balance_sheet_asof 2026-08-31 equals fy_end so nothing is stale; interest_expense of $5,614k against total_debt of $86,049k is an implied 6.5%, plausible and inside every rate test in LESSONS; capex of $7.4M against D&amp;A of $10.4M is a 1.4x ratio, so no missing-capex family; net_income_common_series and net_income_series agree to within 0.3% with zero preferred, so the AX numerator bug is absent; and the FCFF base of $93.8M reconciles independently to FY2027 guidance (~$97M), so it is if anything conservative. The ONE unresolved and deciding input is the discount rate: beta 0.31 at R-squared 0.045 is the failed-beta condition this file has documented across a whole screen, producing a 6.5% WACC. The schema has no cost-of-equity field, so the recorded fair value of $189.86 (-16.5%) is computed through that too-low rate. Both corrections I can defend - a higher discount rate, and a base that is already conservative against guidance - run in the SAME direction, toward a richer name, so under the FIBK rule the recorded number is admissible precisely BECAUSE it is generous relative to the <code>rich</code> verdict I hold. The honest figure at a 0.60-0.80 beta is a fair value of $119-141, i.e. 38-47% below the price, against the recorded -16.5%.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/exh9911.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/exh9911.htm</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Consumer%20Staples/WDFC.md'>research/Consumer Staples/WDFC.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>

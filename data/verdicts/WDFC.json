@@ -1,0 +1,186 @@
+{
+  "ticker": "WDFC",
+  "date": "2026-11-27",
+  "sector": "Consumer Staples",
+  "name": "WD-40",
+  "method": "fcff",
+  "verdict": "rich",
+  "conviction": "medium",
+  "final_growth": 0.06,
+  "bear_growth": 0.03,
+  "bull_growth": 0.09,
+  "rotce_override": null,
+  "horizon_months": 24,
+  "price_at_verdict": 227.39999389648438,
+  "market_implied_growth": 0.10155550242893507,
+  "cohort_pct": 41.2,
+  "priced": {
+    "ok": true,
+    "method": "fcff",
+    "analyst_growth": 0.06,
+    "market_implied_growth": 0.10155550242893507,
+    "growth_delta": -0.041555502428935076,
+    "fair_value": 189.94724967055254,
+    "price": 227.39999389648438,
+    "gap": -0.16469984710281416,
+    "fair_value_band": {
+      "low": 154.5212225627629,
+      "point": 189.94724967055254,
+      "high": 245.84438481889558
+    },
+    "fcff_base_used": 93809833.33333333,
+    "base_overridden": false,
+    "scenarios": {
+      "ok": true,
+      "wacc_point": 0.06465838526698008,
+      "wacc_steps": [
+        -0.02,
+        -0.01,
+        0.0,
+        0.01,
+        0.02
+      ],
+      "fcff_base_used": 93809833.33333333,
+      "price": 227.39999389648438,
+      "grid": [
+        {
+          "case": "bear",
+          "growth": 0.03,
+          "cells": [
+            {
+              "wacc": 0.04465838526698007,
+              "fair_value": 302.4236266222882,
+              "gap": 0.32991923808034773
+            },
+            {
+              "wacc": 0.054658385266980074,
+              "fair_value": 214.65536274757216,
+              "gap": -0.05604499336404445
+            },
+            {
+              "wacc": 0.06465838526698008,
+              "fair_value": 166.19883467080268,
+              "gap": -0.26913439256089566
+            },
+            {
+              "wacc": 0.07465838526698007,
+              "fair_value": 135.4770546671483,
+              "gap": -0.404234572104609
+            },
+            {
+              "wacc": 0.08465838526698008,
+              "fair_value": 114.26134488414681,
+              "gap": -0.49753145140294
+            }
+          ],
+          "fair_value_at_point_wacc": 166.19883467080268,
+          "gap_at_point_wacc": -0.26913439256089566
+        },
+        {
+          "case": "base",
+          "growth": 0.06,
+          "cells": [
+            {
+              "wacc": 0.04465838526698007,
+              "fair_value": 347.120291893877,
+              "gap": 0.5264744996074668
+            },
+            {
+              "wacc": 0.054658385266980074,
+              "fair_value": 245.84438481889558,
+              "gap": 0.08110990069246582
+            },
+            {
+              "wacc": 0.06465838526698008,
+              "fair_value": 189.94724967055254,
+              "gap": -0.16469984710281416
+            },
+            {
+              "wacc": 0.07465838526698007,
+              "fair_value": 154.5212225627629,
+              "gap": -0.3204871296825844
+            },
+            {
+              "wacc": 0.08465838526698008,
+              "fair_value": 130.06745998692233,
+              "gap": -0.4280234675550131
+            }
+          ],
+          "fair_value_at_point_wacc": 189.94724967055254,
+          "gap_at_point_wacc": -0.16469984710281416
+        },
+        {
+          "case": "bull",
+          "growth": 0.09,
+          "cells": [
+            {
+              "wacc": 0.04465838526698007,
+              "fair_value": 397.05057709030905,
+              "gap": 0.7460448009996516
+            },
+            {
+              "wacc": 0.054658385266980074,
+              "fair_value": 280.651080954427,
+              "gap": 0.23417365209861551
+            },
+            {
+              "wacc": 0.06465838526698008,
+              "fair_value": 216.4244051352439,
+              "gap": -0.048265563130299505
+            },
+            {
+              "wacc": 0.07465838526698007,
+              "fair_value": 175.73304171386204,
+              "gap": -0.22720735958393146
+            },
+            {
+              "wacc": 0.08465838526698008,
+              "fair_value": 147.65576021048298,
+              "gap": -0.3506782578116606
+            }
+          ],
+          "fair_value_at_point_wacc": 216.4244051352439,
+          "gap_at_point_wacc": -0.048265563130299505
+        }
+      ],
+      "summary": {
+        "bear": -0.26913439256089566,
+        "base": -0.16469984710281416,
+        "bull": -0.048265563130299505
+      },
+      "downside": -0.49753145140294,
+      "upside": 0.7460448009996516
+    },
+    "fundamentals_source": "store",
+    "flags": []
+  },
+  "parse_notes": [],
+  "devils_advocate": {
+    "strongest_counter": "Shorting a quality compounder on a DCF is the single most reliably wrong trade in this file's universe, and the mechanism by which I reach `rich` is a discount rate I invented. The engine's own answer is only -11.5%, which is inside the +/-15% band this file calls noise. WD-40's beta of 0.31 may be low because the business genuinely is defensive: a $10 can of lubricant bought by tradespeople is about as cycle-insensitive as consumer demand gets, the company has raised price through two inflation cycles without volume loss, and its capital base is so small that the Gordon terminal value is doing honest work rather than papering over reinvestment. Push the terminal growth from 2% to 3% - a choice, not a fact, and a defensible one for a brand compounding sales at 7% - and the required growth falls sharply. On that reading the name is fairly priced for quality and I am manufacturing a short out of a regression I have decided to disbelieve.",
+    "what_would_prove_it": "Gross margin in the first and second quarters of fiscal 2027 against the 54.0-55.5% guided band, since management has staked the recovery on sequential improvement beginning in Q1. And whether net sales growth lands in the upper half of 4-7% - if maintenance products keep growing at the top of the long-term range while margin recovers, the bull case is simply right and the implied growth is attainable.",
+    "already_visible": "Partly, and it cuts against the counter. The fiscal-2026 fourth quarter is already visible and it is bad: net income DOWN 32% and EPS $1.06 against $1.56, with gross margin pressured by input costs and SG&A up on incentive compensation. Management's response is to call it 'the low point' and guide to recovery, which is a forecast rather than an observation. Also visible and decisive: the company's own fiscal 2027 operating income guidance is +5% to +10%, and at the engine's own 6.5% WACC the market requires +10.3% of FCFF growth for FIVE years - i.e. the market's requirement already exceeds the TOP of management's guide for the FIRST year, off a trough quarter. The beta question therefore does not have to be settled for the verdict to hold: at 6.5% the name is 16% rich, and at every defensible discount rate it is worse.",
+    "unresolved": "I cannot settle the right discount rate, and I cannot override it in the schema. The regression is beta 0.31 at R-squared 0.045, barely above the engine's own 0.04 gate, so it is not a measurement; my 0.45-0.80 band is a judgement about what a small-cap consumer-staple brand should carry against IWM, and the fair value runs $141 to $191 across it at +6% growth. I also could not test the 3% terminal-growth version of the bull case, because `forward_dcf` fixes terminal growth at 2% and the schema has no field for it - so if the right terminal growth for this business is 3%, my gap is overstated by more than the beta question gains me."
+  },
+  "what_changed": "FY2026 10-K filed 2026-10-26 and Q4/FY2026 results released 2026-10-21. Net sales +11% to $688.0M; GAAP net income DOWN 10% to $82.3M and GAAP diluted EPS $6.08 against $6.69, the decline reflecting a favourable $11.9M income tax adjustment in fiscal 2025 that did not repeat. Ex that benefit and $1.3M of amortisation on reclassified Americas homecare products, non-GAAP operating income +6% to $110.2M, non-GAAP net income +6% to $83.7M, non-GAAP EPS +6% to $6.18. The fourth quarter was the weak point: net income DOWN 32% to $14.4M, EPS $1.06 against $1.56, on higher specialty-chemical and other input costs plus performance-based incentive and brand investment. FY2027 guidance: net sales $715-735M constant currency (+4-7%), gross margin 54.0-55.5%, A&P ~6% of sales, operating income $114-120M (+5-10%), tax 22.5-23.5%. The guidance explicitly assumes crude stays near current levels through H1 fiscal 2027 before moderating. A new CFO (Keith Stauffer) was hired 2026-09-03 following a transition period. No acquisitions, no financings, no litigation: the 8-K list is earnings and officer changes only.",
+  "consensus_case": "WD-40 is a 70-year-old single-brand franchise with pricing power, a globally decentralised supply chain that management credits with absorbing tariff and input volatility, and a maintenance-products business that grew at the top of its own long-term target range in fiscal 2026. Net sales grew 11% to $688.0M, non-GAAP operating income improved 6% to $110.2M and non-GAAP EPS 6% to $6.18. Management states that the fiscal-2026 fourth quarter 'marked the low point for gross margin' and guides fiscal 2027 to 4-7% sales growth, 54.0-55.5% gross margin and $114-120M of operating income (+5% to +10%). The bull case for a 37x earnings multiple is that this is a consumer-staple compounder with a 2-point beta, a tiny capital base ($7.4M of capex on $688M of sales), 80%+ returns on tangible capital, and a product with no credible substitute - so the right discount rate really is low and the right terminal growth really is perpetual. At a 6.5% cost of capital the arithmetic works.",
+  "base_case_rationale": "I assume +6% five-year FCFF growth, which is the top of management's own fiscal 2027 operating-income guide sustained for five years, and I regard that as generous rather than conservative. WD-40's cash generation is remarkably stable and remarkably un-levered to reinvestment: CFO less capex of $97.6M, $83.4M and $87.8M across three years on capex of $7.4M, $4.5M and $4.2M, so essentially all of operating cash flow is free. That is the whole quality of the business and it is why the base of $93.8M needs no correction - it reconciles to FY2027 guidance, where $117M of operating income less 23% tax plus ~$10M of D&A less ~$7M of capex gives roughly $97M, slightly above the engine's figure. Growth therefore has to come from price and volume in maintenance products, not from capital deployment, and the company's own long-term framework and its fiscal 2027 guide both put that at mid-single digits. The naive baseline of +7.3% is a four-year revenue CAGR that includes the 11% fiscal 2026, itself helped by price; I am below it because gross margin is at a cyclical low that management attributes to specialty-chemical input costs, and recovering it is in the guided 5-10% operating income growth rather than additive to it.",
+  "key_risks": [
+    "Shorting a 70-year-old single-brand compounder on a reverse DCF has a poor base rate; the business quality is not in dispute, only the price",
+    "The recorded fair value of $189.86 is computed through the engine's 6.5% WACC, which rests on a beta of 0.31 at R-squared 0.045 - at a defensible 0.60-0.80 beta the fair value is $119-141, so the recorded gap UNDERSTATES the case",
+    "`forward_dcf` fixes terminal growth at 2% and the schema cannot override it; at 3% terminal growth much of the gap closes, and 3% is defensible for this brand",
+    "FY2027 guidance assumes crude near current levels through H1 then moderating - if inputs moderate faster than guided, margin recovery beats the guide",
+    "A new CFO took over in fiscal 2027, which raises the odds of a reset or a change in the long-term framework in either direction"
+  ],
+  "watch_for": [
+    "Q1 and Q2 fiscal 2027 gross margin against the 54.0-55.5% guided band - management has staked the recovery on sequential improvement from Q1",
+    "Whether net sales growth lands in the upper or lower half of the 4-7% guide",
+    "Any change to the long-term growth framework under the new CFO",
+    "Operating income tracking against $114-120M; a cut would end the bull case outright"
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm",
+    "https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm",
+    "https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/exh9911.htm"
+  ],
+  "flags": []
+}

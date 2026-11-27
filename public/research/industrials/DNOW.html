@@ -1,0 +1,190 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>DNOW — Equity Engine research</title><style>
+:root{
+  --bg:#fbfbfa; --panel:#fff; --panel-2:#f7f6f4; --ink:#1a1a19; --dim:#6b6b66;
+  --faint:#93938c; --line:#e7e6e2; --line-2:#d8d7d2;
+  --pos:#0d7a4d; --pos-bg:#e6f4ec; --neg:#b3261e; --neg-bg:#fbeae9;
+  --warn:#8a6100; --warn-bg:#fbf1de; --accent:#2f5fd0; --accent-bg:#eaf0fd;
+  --chip:#f1f0ed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131312; --panel:#1b1b19; --panel-2:#212120; --ink:#eeeeec; --dim:#a0a099;
+  --faint:#77776f; --line:#2c2c29; --line-2:#3a3a36;
+  --pos:#54c891; --pos-bg:#12301f; --neg:#f2867c; --neg-bg:#331817;
+  --warn:#dcaa4b; --warn-bg:#2f2612; --accent:#84a9f9; --accent-bg:#161f33;
+  --chip:#252523;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* --- nav ------------------------------------------------------------------ */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;
+gap:22px;height:52px}
+.brand{font-weight:680;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand span{color:var(--faint);font-weight:400}
+.tabs{display:flex;gap:2px;margin-left:auto}
+.tabs a{padding:6px 13px;border-radius:7px;font-size:13.5px;color:var(--dim);font-weight:500}
+.tabs a:hover{background:var(--chip);text-decoration:none;color:var(--ink)}
+.tabs a.on{background:var(--ink);color:var(--bg)}
+
+.wrap{max-width:1200px;margin:0 auto;padding:26px 20px 90px}
+h1{font-size:26px;margin:0 0 5px;letter-spacing:-.025em;font-weight:660}
+h2{font-size:15px;margin:42px 0 4px;letter-spacing:.01em;font-weight:640;
+text-transform:uppercase;color:var(--dim)}
+h2 .n{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
+.sub{color:var(--dim);font-size:13px;margin:0 0 12px;max-width:76ch}
+.crumb{font-size:12.5px;color:var(--faint);margin:0 0 10px}
+.crumb a{color:var(--dim)}
+
+.banner{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);
+padding:11px 14px;border-radius:9px;margin:16px 0 6px;font-size:13.5px}
+
+/* --- hero stats ----------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.stat .v{font-size:38px;font-weight:660;letter-spacing:-.03em;margin:4px 0 0;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .s{color:var(--faint);font-size:12.5px;margin-top:4px}
+
+/* --- badges --------------------------------------------------------------- */
+.badge{display:inline-block;border-radius:20px;padding:2px 10px;font-size:11.5px;
+font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.b-cheap{background:var(--pos-bg);color:var(--pos)}
+.b-rich{background:var(--neg-bg);color:var(--neg)}
+.b-fair,.b-no_edge,.b-no_model{background:var(--chip);color:var(--dim)}
+.conv{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line-2);
+border-radius:20px;padding:1px 8px;white-space:nowrap}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+border-radius:20px;padding:1px 9px;font-size:11.5px;color:var(--dim);margin:0 3px 3px 0}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* --- opportunity cards ---------------------------------------------------- */
+.calls{display:grid;gap:10px;margin-top:12px}
+.call{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.call>summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;
+align-items:center;gap:12px;flex-wrap:wrap}
+.call>summary::-webkit-details-marker{display:none}
+.call>summary:hover{background:var(--panel-2)}
+.call .tk{font-weight:680;font-size:15.5px;letter-spacing:-.01em}
+.call .nm{color:var(--dim);font-size:13px;flex:1 1 180px;min-width:0;
+overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.call .gap{font-size:19px;font-weight:660;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.call .caret{color:var(--faint);font-size:12px;transition:transform .15s}
+.call[open] .caret{transform:rotate(90deg)}
+.call .body{padding:2px 16px 16px;border-top:1px solid var(--line);margin-top:0}
+.call .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);
+margin:14px 0 3px;font-weight:600}
+.call .body p{margin:0;font-size:13.5px;color:var(--ink)}
+.call .nums{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+margin-top:12px;font-variant-numeric:tabular-nums}
+.call .nums b{color:var(--ink);font-weight:600;margin-left:6px}
+.call .nums>div{white-space:nowrap}
+.empty{background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;
+padding:22px;color:var(--dim);font-size:13.5px;text-align:center}
+
+/* --- tables --------------------------------------------------------------- */
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);
+margin-top:12px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--panel-2);font-weight:600;font-size:11px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel-2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.dim{color:var(--dim)}
+.tick{font-weight:650}
+.why{color:var(--dim);font-size:12.5px;white-space:normal;max-width:420px}
+
+/* --- research index ------------------------------------------------------- */
+.sector{margin-top:26px}
+.sector h3{font-size:14.5px;margin:0 0 2px;font-weight:640;letter-spacing:-.01em}
+.sector .path{font-size:12px;color:var(--faint);margin:0 0 9px;font-family:ui-monospace,
+SFMono-Regular,Menlo,monospace}
+.co{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:8px}
+.co a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:11px 13px;color:inherit}
+.co a:hover{border-color:var(--line-2);background:var(--panel-2);text-decoration:none}
+.co .r1{display:flex;align-items:center;gap:8px}
+.co .t{font-weight:660;font-size:14px}
+.co .n2{color:var(--faint);font-size:11.5px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+
+/* --- rendered research log ------------------------------------------------ */
+.prose{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:8px 30px 30px;margin-top:14px;max-width:none}
+.prose h1{font-size:17px;margin:18px 0 2px;font-weight:640;color:var(--dim)}
+.prose h2{font-size:18px;margin:36px 0 10px;padding-top:20px;border-top:1px solid var(--line);
+text-transform:none;letter-spacing:-.02em;color:var(--ink);font-weight:660}
+.prose h2:first-of-type{border-top:none;padding-top:0}
+.prose h3{font-size:14px;margin:20px 0 4px}
+.prose p{margin:9px 0;max-width:82ch}
+.prose ul{margin:8px 0;padding-left:20px;max-width:82ch}
+.prose li{margin:4px 0}
+.prose blockquote{margin:12px 0;padding:9px 14px;border-left:3px solid var(--line-2);
+background:var(--panel-2);border-radius:0 8px 8px 0;color:var(--dim);max-width:82ch}
+.prose blockquote p{margin:4px 0}
+.prose hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+.prose code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.prose a{word-break:break-word}
+.factstrip{display:flex;gap:20px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+border-radius:12px;padding:13px 16px;margin-top:12px;font-size:12.5px;color:var(--dim);
+font-variant-numeric:tabular-nums}
+.factstrip b{display:block;color:var(--ink);font-size:15px;font-weight:640;margin-top:2px}
+
+details.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:0;margin-top:8px}
+details.note>summary{cursor:pointer;padding:11px 14px;font-size:13.5px;font-weight:550;
+list-style:none}
+details.note>summary::-webkit-details-marker{display:none}
+details.note>summary:hover{background:var(--panel-2)}
+details.note .inner{padding:0 14px 13px;font-size:13px;color:var(--dim);max-width:82ch}
+details.note[open]>summary{border-bottom:1px solid var(--line)}
+details.note .inner{padding-top:11px}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--faint);font-size:12.5px}
+code{background:var(--chip);padding:1.5px 5px;border-radius:4px;font-size:12px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:640px){
+  .wrap{padding:18px 14px 70px}
+  .stat .v{font-size:30px}
+  .prose{padding:6px 16px 20px}
+  /* the brand suffix is the first thing to go: losing it keeps both tabs on screen,
+     which matters more than the subtitle at this width */
+  .topbar .inner{gap:8px;padding:0 14px}
+  .brand{font-size:14px}
+  .brand span{display:none}
+  .tabs a{padding:6px 11px;font-size:13px}
+  h1{font-size:23px}
+  .call>summary{padding:12px 13px;gap:8px}
+  .call .nm{flex-basis:100%;order:5}
+}
+</style></head><body><div class='topbar'><div class='inner'><div class='brand'>Equity Engine <span>· Russell 2000</span></div><div class='tabs'><a class='' href='/index.html'>Dashboard</a><a class='on' href='/research/index.html'>Research</a></div></div></div><div class='wrap'><p class='crumb'><a href='/research/index.html'>Research</a> / Industrials / DNOW</p><h1>DNOW <span style='color:var(--faint);font-weight:400'>DNOW</span></h1><div class='factstrip'><div>Verdict<b><span class='badge b-no_edge'>no_edge</span></b></div><div>Conviction<b>low</b></div><div>Price at verdict<b>$13.25</b></div><div>Analyst gap<b>+10%</b></div><div>Dated<b>2026-11-27</b></div></div><div class='prose'><h1>DNOW — DNOW</h1><p><em>Industrials · Russell 2000</em></p><p>Append-only research log. Newest entries at the bottom.</p><h2>2026-11-27 — NO_EDGE (conviction: low)</h2><ul><li><strong>Verdict:</strong> no_edge · price $13.25 · fair value $14.63 · gap +10.4%</li><li><strong>Growth:</strong> market implies +1.3%, analyst says +2.0% (delta +0.7%)</li><li><strong>FCFF base overridden</strong> by the analyst to $210.0M</li></ul><p><strong>Scenarios.</strong> Fair value at each growth case, across the discount rate.</p><p>| case | growth | 7.4% | 8.4% | 9.4% | 10.4% | 11.4% | |---|---|---|---|---|---|---| | bear | -2.0% | $16.99 | $14.14 | $12.06 | $10.48 | $9.23 | | base | +2.0% | $20.63 | $17.16 | $14.63 | $12.70 | $11.19 | | bull | +6.0% | $24.86 | $20.66 | $17.60 | $15.28 | $13.45 |</p><p>At the point WACC of 9.4%: bear -9.0%, base +10.4%, bull +32.8% Across the whole grid the gap ranges -30.3% to +87.7% — that spread is the honest precision of this model, not the point estimate.</p><p><strong>The case for the price.</strong> DNOW is a newly doubled energy and industrial distributor: the all-stock MRC Global merger closed 2026-11-06 for $1,763M of consideration net of cash acquired, issuing about 82 million shares (0.9489 DNOW per MRC share) and taking the count to 180.3M. Q3 2026 revenue was $1.34bn, up 111% year over year, with adjusted EBITDA of $76M at a 5.7% margin - &#x27;nearly double our first quarter results&#x27;. Net debt is $265M against TTM adjusted EBITDA of $236M, i.e. 1.1x. Management laid out a 2027 adjusted EBITDA framework of $300-350M. The market&#x27;s case for a price that requires only +1.3% five-year FCFF growth is that distribution is a low-margin, working-capital-hungry, cyclical business whose cash flow is large and positive when revenue is FALLING and negative when it is growing; that Q3 revenue MISSED expectations despite the 111% optical growth; that the 2027 framework is unguided synergy capture on a deal that is twelve months old with purchase accounting still &#x27;subject to change&#x27;; and that the existing holders took 72% dilution to get it, so per-share value needs the synergies and not just the EBITDA.</p><p><strong>What changed.</strong> The merger itself is the thing the engine cannot see. The MRC Global acquisition closed 2026-11-06, inside fiscal 2025, so the newest reported fiscal year in the FCFF window contains only about eight weeks of MRC while the enterprise value and the 180.3M share count are fully post-deal - the HNI condition. Q3 2026 (filed 2026-11-05): revenue $1.34bn, net income $26M, adjusted EPS $0.18 (a 20% beat on EPS, a 1.7% revenue miss); sales up sequentially in all three geographic segments with the gas utilities business at its highest quarterly revenue in three years; $17M of stock repurchased in the quarter and $92M year to date under the $160M authorisation; net debt cut $95M. Nine-month operating cash flow $158M against $72M. &#x27;Other expense, net&#x27; of $10M in the quarter and $30M for nine months is described in the 10-Q as &#x27;primarily attributable to interest expense on borrowings associated with the acquisition of MRC Global&#x27;, against $1M in the prior-year periods. The company recognised measurement-period adjustments in the nine months (working capital down $4M, goodwill up $4M) and says the preliminary valuation is not yet finalised. The stock has fallen 19.2% in 21 days and 18.6% in 63 days on the revenue miss and freight/project-delay commentary.</p><p><strong>Base case.</strong> I assume +2% five-year FCFF growth on a corrected base of $210M, and the correction is the whole of the work. The engine&#x27;s $198.0M base is the mean of CFO-less-capex of $134M, $289M and $171M, which is standalone DNOW at roughly $2.4bn of revenue in years when inventory was being released - a 12% free-cash margin that no distributor sustains. Nine-month 2026 operating cash flow of $158M on about $4.0bn of combined revenue is a 3.9% CFO margin, which is what this business actually looks like at scale, and a distributor GROWING revenue consumes working capital rather than releasing it. Against that, interest_expense is recorded as None despite $377M of debt, so the base carries no after-tax interest add-back at all; the 10-Q puts interest at roughly $40M a year, worth about $30M after tax. Those two errors run in opposite directions and very nearly cancel: run-rate CFO-less-capex of roughly $180M plus the missing $30M add-back gives about $210M, and the 2027 framework of $300-350M of adjusted EBITDA less ~$40M interest, ~$55M cash taxes and ~$40M capex plus the add-back gives roughly $220M. I am far below the naive +11.7% revenue CAGR baseline because that CAGR is bought revenue - it is the MRC merger, not the existing branches growing - which is the EFOR and PATK artifact, and a revenue CAGR has no business being applied to the FCFF of a company that just doubled by issuing stock.</p><p><strong>Devil&#x27;s advocate.</strong></p><ul><li>Strongest counter: The best bear case against my own near-fair conclusion is that I have under-credited a genuine step change, and it is the cheapest observation available: net debt of $265M against TTM adjusted EBITDA of $236M is 1.1x, and management has put a $300-350M number on 2027 - a 27-48% step up - while the stock has fallen 19% in a month on a 1.7% revenue miss. At the midpoint that is an enterprise value of $2.66bn against $325M of 2027 EBITDA, i.e. 8.2x, for a scaled North American distributor with 72% aftermarket-style consumable demand and a $160M buyback running. If the framework lands, the base is $220-240M and the market&#x27;s requirement is NEGATIVE, which is a cheap stock. I am rejecting that mainly by asserting that distribution working capital turns against the company, which is an assumption about direction and not an observed number.</li><li>What would prove it: Fourth-quarter and first-quarter operating cash flow against revenue growth - specifically whether CFO margin holds near 4% or reverts toward the pre-merger level as revenue grows - and whether management converts the 2027 framework into formal guidance with a synergy number attached when it reports fiscal 2026.</li><li>Already visible today: The working-capital point is already visible and it is why the counter does not win. Nine-month 2026 CFO of $158M on roughly $4.0bn of revenue is a 3.9% margin against the standalone company&#x27;s three-year average of about 8%, in a period when revenue was GROWING. The release-driven years that produce the engine&#x27;s $289M and $171M were years of flat-to-falling standalone revenue. Against that, the counter has one genuinely strong visible fact I could not dismiss: Q3 adjusted EBITDA of $76M annualises to $304M, already at the bottom of the 2027 framework, so the step-up is not purely hoped for. That is what holds this at no_edge rather than letting me call it rich.</li><li>Left unresolved: I could not get a synergy number: the 2027 figure is a framework given on a call, not guidance, and the 10-Q says the purchase accounting is still subject to change with the measurement period open. I also could not separate how much of the 111% revenue growth is MRC and how much is underlying, because no organic disclosure is given - which is the EFOR problem, and on a merger of this size I have to derive it rather than read it. Finally, <code>ebit</code> is recorded as -$93M, which is -3.3% of revenue and fails the HP missing-concept test, so the synthetic cost of debt is built on a broken EBIT; at a 13.6% debt weight it happens not to matter, but the 9.37% WACC is not independently verified.</li></ul><p><strong>Key risks.</strong> The entire 2027 step-up is unguided merger synergy on a $1,763M all-stock deal whose purchase accounting is still open; A distributor growing revenue consumes working capital; the engine&#x27;s base is built on two years when standalone DNOW was releasing it; Existing holders took roughly 72% dilution (82M shares issued on a ~105M pre-deal count), so per-share accretion requires synergies, not just EBITDA; FY2025 GAAP was a net LOSS of $89M with EBIT of -$93M, so no earnings-based cross-check on the current company is available from the extract; Freight headwinds and project delays were named by management in the same breath as the 2027 framework; Q3 revenue missed <strong>Watch for.</strong> Q4 2026 and Q1 2027 operating cash flow margin against revenue growth - the single test of whether working capital turns against the combined company; Conversion of the $300-350M 2027 adjusted EBITDA framework into formal guidance with a stated synergy number; Completion of the MRC purchase accounting and any further measurement-period adjustments; Whether net debt keeps falling from $265M while the $160M buyback runs</p><p><strong>Data quality.</strong> The brief raised no flags and two real defects are present, running in opposite directions. First, interest_expense is None against total_debt of $377M - the CON form of the interest-expense family, the fifth of the six broken forms - so the FCFF base carries NO after-tax add-back; the 10-Q states &#x27;other expense, net&#x27; of $30M for nine months &#x27;primarily attributable to interest expense on borrowings associated with the acquisition of MRC Global&#x27;, i.e. roughly $40M a year, worth about $30M after tax. Second, the FCFF window is standalone DNOW while the enterprise value and share count are fully post-merger - the HNI condition, with the merger closing 2026-11-06 inside fiscal 2025 so the newest reported year holds only about eight weeks of MRC. What makes this instructive rather than routine is that the second defect is NEUTRALISED by the composition of the standalone years: those years released working capital at a 12% free-cash margin that the combined company at $5.4bn of revenue cannot reproduce (nine-month 2026 CFO margin is 3.9%), so the too-narrow base is also too GENEROUS, and the two errors land the base approximately right by coincidence. I verified the enterprise value independently and it is CORRECT: $2,653.6M reconciles to the company&#x27;s own disclosed net debt of $265M plus a $2,388.6M market capitalisation. The share count is correct too - 180,273,334 from dei:EntityCommonStockSharesOutstanding dated 2026-10-29, consistent with 82M shares issued to MRC holders. Beta 0.97 at R-squared 0.167 is a usable regression above the 0.15 threshold, so for once the discount rate is a measurement. The +60.7% baseline gap and the 78th-percentile rank are artifacts of the +11.7% revenue CAGR, which is bought revenue. The <code>ebit</code> of -$93M (-3.3% of revenue) fails the HP 1%-of-revenue test and leaves the synthetic cost of debt unverified, and <code>ebitda</code> of -$41M makes the multiples table unusable (ev_ebitda None). I supplied an fcff_base_override of $210M because the enterprise value and share count are both sound, which is what makes a recorded number defensible here.</p><p><em>Horizon: 24 months — re-evaluate no earlier than that unless something on the watch list fires.</em></p><p><strong>Sources.</strong></p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1599617/000119312526449267/dnow-20260930.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1599617/000119312526449267/dnow-20260930.htm</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1599617/000119312526448511/dnow-ex99_1.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1599617/000119312526448511/dnow-ex99_1.htm</a></li><li><a href="https://www.fool.com/earnings/call-transcripts/2026/11/05/dnow-dnow-q3-2026-earnings-call-transcript/" rel="noopener">https://www.fool.com/earnings/call-transcripts/2026/11/05/dnow-dnow-q3-2026-earnings-call-transcript/</a></li></ul></div><p class='sub' style='margin-top:14px'>Source of truth: <a href='https://github.com/etengeorge/equity-engine/blob/main/research/Industrials/DNOW.md'>research/Industrials/DNOW.md</a> — append-only, newest at the bottom. This page is generated from it.</p><footer>Built from free sources only: SEC EDGAR XBRL company facts and end-of-day prices. No paid data, no paywalled sources, and no order-placement path anywhere in this system.<br>Universe frozen from the iShares Russell 2000 holdings file; index membership drifts between reconstitutions.</footer></div><script>
+document.querySelectorAll('table').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var tb=t.tBodies[0],rows=[].slice.call(tb.rows),asc=th.dataset.asc!=='1';
+      t.querySelectorAll('th').forEach(function(x){x.dataset.asc=''});
+      th.dataset.asc=asc?'1':'0';
+      rows.sort(function(a,b){
+        var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;
+        var nx=parseFloat(x),ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny))return asc?nx-ny:ny-nx;
+        x=(x||a.cells[i].textContent).trim();y=(y||b.cells[i].textContent).trim();
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r)});
+    });
+  });
+});
+</script></body></html>
