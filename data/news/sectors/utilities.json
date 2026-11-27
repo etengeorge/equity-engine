@@ -1,5 +1,19 @@
 [
  {
+  "id": "9798fda4-913f-3f3e-8b75-8309aa747528",
+  "ts": "2026-11-27T13:14:16+00:00",
+  "title": "Hubbell Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "Hubbell has underperformed the broader market despite strong earnings growth, raised guidance, dividend increases, and moderately bullish analyst sentiment.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9032300/hubbell-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "7c0323a7-bb17-3ebf-83f5-584f4db6a05b",
   "ts": "2026-11-26T12:10:44+00:00",
   "title": "Why AEP's Plant Fight Could Make ETFs Worth A Look",

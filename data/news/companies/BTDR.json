@@ -1,5 +1,17 @@
 [
  {
+  "id": "52459c08-ca9e-3817-a9e2-41def3b2098d",
+  "ts": "2026-11-27T15:06:00+00:00",
+  "title": "Tether Buys $10 Million Worth of Bitdeer Stock",
+  "summary": "Stablecoin issuer Tether (CRYPTO: $USDT) has purchased $10 million U.S. worth of shares in Bitcoin (CRYPTO: $BTC) m...",
+  "publisher": "CryptoProwl",
+  "url": "https://www.cryptoprowl.com/releases/tether-buys-10-million-worth-of-bitdeer-stock-8099",
+  "tickers": [
+   "BTDR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "2e3528bf-a0b0-3379-bd30-22acfc287c94",
   "ts": "2026-11-25T21:24:24+00:00",
   "title": "Bitdeer (BTDR) Has a $2.9 Billion AI Cloud Backlog. Can It Afford the Expansion?",

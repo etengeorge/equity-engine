@@ -1,5 +1,17 @@
 [
  {
+  "id": "82f15783-4cdf-3fac-b3ea-8874aa7f1b48",
+  "ts": "2026-11-27T15:27:38+00:00",
+  "title": "Stock Market Surges As Jensen Huang Returns As Nvidia CEO; Abercrombie Leads Retail Winners: Weekly Review",
+  "summary": "The stock market surged in a wild, holiday-shortened week, largely on Jensen Huang returning as Nvidia CEO. A rally attempt is underway.",
+  "publisher": "Investor's Business Daily",
+  "url": "https://www.investors.com/news/stock-market-surges-as-jensen-huang-returns-as-nvidia-ceo-abercrombie-leads-retail-winners-weekly-review/?src=A00220&yptr=yahoo",
+  "tickers": [
+   "URBN"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "17323b5b-a6ac-3195-a39f-591db40b79b3",
   "ts": "2026-11-25T23:10:00+00:00",
   "title": "Higher Fuel Costs Weigh on Apparel Retail Earnings",

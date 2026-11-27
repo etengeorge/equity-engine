@@ -1,5 +1,47 @@
 [
  {
+  "id": "c6699a00-2e27-3450-9e0e-c6e287d29881",
+  "ts": "2026-11-27T17:27:12+00:00",
+  "title": "Exchange-Traded Funds Higher as US Equities Advance in Friday Trading",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-172712881.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "f02322a1-15d6-32b9-bfc1-c0b16d812e36",
+  "ts": "2026-11-27T17:27:02+00:00",
+  "title": "Sector Update: Tech Stocks Gain Friday Afternoon",
+  "summary": "Tech stocks were higher Friday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-172702126.html",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
+  "id": "77348f58-9add-35ae-b1fe-b63812eea7b9",
+  "ts": "2026-11-27T12:10:44+00:00",
+  "title": "Teledyne Technologies Stock: Analyst Estimates & Ratings",
+  "summary": "Although Teledyne Technologies has outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9031038/teledyne-technologies-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLK"
+  ],
+  "source": "yfinance",
+  "sector": "Information Technology",
+  "via": "XLK"
+ },
+ {
   "id": "5c5c4b0f-1cf6-324b-859f-fdec749d2754",
   "ts": "2026-11-26T11:45:56+00:00",
   "title": "Keysight Stock: Analyst Estimates & Ratings",

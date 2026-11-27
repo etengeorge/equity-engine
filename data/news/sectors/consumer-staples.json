@@ -1,5 +1,19 @@
 [
  {
+  "id": "813c73c9-0a13-3738-a8e9-8362a1f78e12",
+  "ts": "2026-11-27T17:12:12+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
+  "summary": "Consumer stocks were higher Friday afternoon with the State Street Consumer Staples Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-171212418.html",
+  "tickers": [
+   "XLP"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Staples",
+  "via": "XLP"
+ },
+ {
   "id": "056d2356-be6f-3b5f-8a48-90e7936abd36",
   "ts": "2026-11-26T11:05:03+00:00",
   "title": "What State Street Consumer Staples SPDR (XLP) Bought: Walmart Leads on Nov. 24",

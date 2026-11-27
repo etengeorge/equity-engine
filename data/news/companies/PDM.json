@@ -106,17 +106,5 @@
    "PDM"
   ],
   "source": "yfinance"
- },
- {
-  "id": "2ccf0f50-e2ca-369f-9d55-8ebf32e56a02",
-  "ts": "2026-07-29T12:30:00+00:00",
-  "title": "Piedmont Office Realty Trust, Inc. Q2 2026 Earnings Call Summary",
-  "summary": "Moby summary of Piedmont Office Realty Trust, Inc.'s Q2 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-piedmont-office-realty-trust-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "PDM"
-  ],
-  "source": "yfinance"
  }
 ]

@@ -226,29 +226,5 @@
    "ORN"
   ],
   "source": "yfinance"
- },
- {
-  "id": "b3c3e307-24e1-3b41-837f-463ca95e5535",
-  "ts": "2026-07-29T13:26:00+00:00",
-  "title": "Orion Q2 Earnings Miss Estimates on Marine Project Delays, Stock Down",
-  "summary": "ORN stock dips after Q2 earnings miss estimates as Marine project delays cut volumes, margins and guidance despite strong Concrete growth.",
-  "publisher": "Zacks",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/orion-q2-earnings-miss-estimates-132600237.html",
-  "tickers": [
-   "ORN"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "30393cf7-ea0e-39cf-8c07-2f695e295f32",
-  "ts": "2026-07-29T12:30:00+00:00",
-  "title": "Orion Group Holdings, Inc. Q2 2026 Earnings Call Summary",
-  "summary": "Moby summary of Orion Group Holdings, Inc.'s Q2 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-orion-group-holdings-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "ORN"
-  ],
-  "source": "yfinance"
  }
 ]

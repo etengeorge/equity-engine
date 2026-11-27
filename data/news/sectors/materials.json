@@ -1,5 +1,19 @@
 [
  {
+  "id": "aa4ab94c-3603-34bc-aa71-5c652b580698",
+  "ts": "2026-11-27T15:03:13+00:00",
+  "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+  "summary": "Tech just endured a brutal November, and a half-day session leaves little time to prove the bounce is real. One signal could show whether the selloff is finally cooling, while tariffs and oil threaten to spoil the party.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "8c889b5e-d478-3a52-a6d8-0cf105cd83ce",
   "ts": "2026-11-26T11:05:28+00:00",
   "title": "What State Street Materials Select Sector SPDR (XLB) Sold: Linde Leads on Tuesday",

@@ -70,17 +70,5 @@
    "RWT"
   ],
   "source": "yfinance"
- },
- {
-  "id": "c1ca933f-8c7b-3c39-8c42-32280f48fc41",
-  "ts": "2026-07-29T12:30:00+00:00",
-  "title": "Redwood Trust, Inc. Q2 2026 Earnings Call Summary",
-  "summary": "Moby summary of Redwood Trust, Inc.'s Q2 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-redwood-trust-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "RWT"
-  ],
-  "source": "yfinance"
  }
 ]

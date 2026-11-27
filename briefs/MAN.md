@@ -1,93 +1,95 @@
-# WDFC — WD-40
-*Consumer Staples · brief generated 2026-11-27 · selected as **rotation***
+# MAN — MANPOWER
+*Industrials · brief generated 2026-11-27 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 355/1956
+- rotation position 360/1956
 
 ## Market
 | | |
 |---|---|
-| price | $227.40 |
-| market cap | $3.0B |
-| 5d / 21d / 63d / 252d | +2.4% / +4.0% / +4.4% / +20.0% |
-| 60d avg daily $ volume | $26.5M |
-| beta (vs IWM) | 0.31 (R²=0.045) |
+| price | $46.93 |
+| market cap | $2.2B |
+| 5d / 21d / 63d / 252d | +3.9% / +2.6% / -24.6% / +79.4% |
+| 60d avg daily $ volume | $43.4M |
+| beta (vs IWM) | 1.02 (R²=0.119) |
 | 5d volume vs 60d average | 0.8x |
-| balance sheet as of | 2026-08-31 (10-K) |
-| WACC weights | equity 97% / debt 3% |
+| balance sheet as of | 2026-09-30 (10-Q) |
+| WACC weights | equity 66% / debt 34% |
 
 ## What the market's price already assumes
-Normalized FCFF base **$93.8M** (mean of CFO−capex over 3y, plus after-tax interest)
-  annual FCF, newest first: ['$97.6M', '$83.4M', '$87.8M']
-Enterprise value **$3.1B** · FCFF yield **+3.1%**
+Normalized FCFF base **$50.7M** (mean of CFO−capex over 3y, plus after-tax interest)
+  annual FCF, newest first: ['$-161.4M', '$258.1M', '$270.0M']
+Enterprise value **$3.1B** · FCFF yield **+1.7%**
 
 **Reverse DCF — the 5y FCFF growth the current price requires:**
 
 | WACC | implied 5y FCFF growth |
 |---|---|
-| 6.5% − 1pt | +4.3% |
-| **6.5% (point)** | **+10.2%** |
-| 6.5% + 1pt | +15.2% |
+| 8.4% − 1pt | +31.2% |
+| **8.4% (point)** | **+36.4%** |
+| 8.4% + 1pt | +41.1% |
 
 
-Naive baseline for comparison: **+7.3%** (4y revenue CAGR +7.3%).
-Gap under that baseline: **-11.5%** (fair value $201.16 vs price $227.40).
+> **Stock compensation is 22% of this FCFF base.** Reported operating cash flow adds it back, so the number above treats it as free. Expensing it gives FCFF of **$23.2M** and an implied growth of **+60.6%** instead of +36.4%. Decide which treatment you are underwriting and say so explicitly.
+
+Naive baseline for comparison: **-0.0%** (5y revenue CAGR -0.0%).
+Gap under that baseline: **-106.3%** (fair value $-2.96 vs price $46.93).
 
 > The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
-Cohort: **41th percentile** of 34 Consumer Staples names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -11.2%).
+Cohort: **6th percentile** of 146 Industrials names priced the same way — a HIGH percentile means cheap relative to peers (gap vs cohort median: -93.1%).
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
-- none raised
+Attack these before you trust any number above.
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_3.5x_of_mean`
+- `stock_comp_is_22%_of_fcff_reported_cash_flow_treats_it_as_free`
 
 ## Recent filings
-- 2026-10-30 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/105132/000010513226000116/wdfc-20261030.htm
-- 2026-10-26 **10-K** — https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm
-- 2026-10-21 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021.htm
-- 2026-09-03 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/wdfc-20260901.htm
-- 2026-07-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/105132/000010513226000061/wdfc-20260531.htm
-- 2026-07-09 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000059/wdfc-20260709.htm
-- 2026-06-04 **8-K** — items 5.02,7.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000031/wdfc-20260601.htm
-- 2026-04-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/105132/000010513226000028/wdfc-20260228.htm
-- 2026-04-09 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000026/wdfc-20260409.htm
-- 2026-02-19 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/105132/000010513226000016/wdfc-20260218.htm
+- 2026-11-10 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000087176326000002/man-20261106.htm
+- 2026-10-30 **10-Q** — https://www.sec.gov/Archives/edgar/data/871763/000119312526441750/man-20260930.htm
+- 2026-10-28 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526435727/man-20261028.htm
+- 2026-10-15 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526422291/man-20261015.htm
+- 2026-10-15 **8-K** — items 5.02,7.01,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526422283/d147845d8k.htm
+- 2026-08-11 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526343480/d229952d8k.htm
+- 2026-08-07 **10-Q** — https://www.sec.gov/Archives/edgar/data/871763/000119312526340522/man-20260630.htm
+- 2026-07-16 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526305399/man-20260716.htm
+- 2026-05-08 **10-Q** — https://www.sec.gov/Archives/edgar/data/871763/000119312526215064/man-20260331.htm
+- 2026-05-08 **8-K** — items 5.02,5.03,5.07,8.01,9.01 — https://www.sec.gov/Archives/edgar/data/871763/000119312526214945/man-20260508.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-21** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm
-- **2026-09-03** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/exh9911.htm
+- **2026-11-10** · EX-99.1 · press release — EX-99.1 *(item: other material event, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000087176326000002/man-ex99_1.htm
+- **2026-10-28** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000119312526435727/man-ex99_1.htm
+- **2026-10-15** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000119312526422291/man-ex99_1.htm
+- **2026-10-15** · EX-99.2 · presentation — EX-99.2 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000119312526422291/man-ex99_2.htm
+- **2026-10-15** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, Reg FD disclosure, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000119312526422283/d147845dex991.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: officer or director change, 9.01)* — https://www.sec.gov/Archives/edgar/data/871763/000119312526343480/d229952dex991.htm
 
 ## News on this company — last 90 days
-*3 items held; showing the 3 most recent. Headlines and summaries only — open the URL for the full story.*
+*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
 
-- **2026-09-14** · 1 Russell 2000 Stock to Keep an Eye On and 2 We Avoid — *StockStory* — https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-keep-114730715.html
-  > Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors looking beyond the usual large-cap names. But with less stability and fewer resources than their bigger counterparts, these companies face steeper challenges in sca
-- **2026-09-03** · WD-40 Company Hires Keith Stauffer to Assume Role of Chief Financial Officer Following a Transition Period — *Business Wire* — https://finance.yahoo.com/markets/stocks/articles/wd-40-company-hires-keith-200500518.html
-  > SAN DIEGO, September 03, 2026--WD-40 Company (NASDAQ: WDFC), a global marketing organization dedicated to creating positive lasting memories by developing and selling products that solve problems in workshops, factories and homes around the
-- **2026-09-02** · 3 Low-Beta Defensive Stocks to Buy Amid Sinking Consumer Sentiment — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/3-low-beta-defensive-stocks-125500741.html
-  > ADM, WDFC and SYY offer low-beta exposure as weak consumer sentiment, rising oil prices and inflation weigh on spending.
+## What is happening in Industrials
+*From the sector ETF feed (XLI), which covers every name in this sector whether or not it got its own pull.*
 
-## What is happening in Consumer Staples
-*From the sector ETF feed (XLP), which covers every name in this sector whether or not it got its own pull.*
-
-- **2026-11-26** · What State Street Consumer Staples SPDR (XLP) Bought: Walmart Leads on Nov. 24 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110503086.html
-- **2026-11-25** · Sector Update: Consumer Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-higher-afternoon-205354613.html
-- **2026-11-25** · Sector Update: Consumer Stocks Mixed in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-184101499.html
-- **2026-11-25** · State Street Consumer Staples SPDR (XLP) Adds Walmart and Costco on Nov. 23 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110513471.html
-- **2026-11-25** · Should You Invest in the State Street Consumer Staples Select Sector SPDR ETF (XLP)? — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/invest-state-street-consumer-staples-102003027.html
-- **2026-11-24** · Sector Update: Consumer Stocks Rise Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-204825132.html
-- **2026-11-24** · Sector Update: Consumer Stocks Rise Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-tuesday-183753571.html
-- **2026-11-24** · Consumer Staples ETFs Back in Favor Amid Growing Market Uncertainty — *Zacks* — https://finance.yahoo.com/markets/stocks/articles/consumer-staples-etfs-back-favor-125300020.html
-- **2026-11-23** · Sector Update: Consumer Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-205006028.html
-- **2026-11-23** · Why Walmart and Other Defensive Stocks Are Losing Their Luster — *Barrons.com* — https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo
+- **2026-11-26** · Is Wall Street Bullish or Bearish on Huntington Ingalls Stock? — *Barchart* — https://www.barchart.com/story/news/9017649/is-wall-street-bullish-or-bearish-on-huntington-ingalls-stock
+- **2026-11-26** · State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Nov. 24 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110507358.html
+- **2026-11-26** · Do Wall Street Analysts Like EMCOR Stock? — *Barchart* — https://www.barchart.com/story/news/9016461/do-wall-street-analysts-like-emcor-stock
+- **2026-11-25** · J.B. Hunt Transport Stock: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/9003580/j-b-hunt-transport-stock-is-wall-street-bullish-or-bearish
+- **2026-11-25** · What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Nov. 23 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110522615.html
+- **2026-11-24** · Illinois Tool Works Stock: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/8986701/illinois-tool-works-stock-is-wall-street-bullish-or-bearish
+- **2026-11-24** · Otis Worldwide Stock: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/8984867/otis-worldwide-stock-is-wall-street-bullish-or-bearish
+- **2026-11-24** · State Street Industrial Select SPDR (XLI) Sells GE and RTX on Nov. 20 — *GuruFocus.com* — https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110358887.html
+- **2026-11-24** · Veralto Stock: Analyst Estimates & Ratings — *Barchart* — https://www.barchart.com/story/news/8979815/veralto-stock-analyst-estimates-ratings
+- **2026-11-23** · How Much RTX Do You Really Get Through 3 ETFs? — *Simply Wall St.* — https://finance.yahoo.com/markets/stocks/articles/much-rtx-really-3-etfs-180923536.html
 
 ## Market and macro context
-- **2026-11-27** · This Mindset Shift Helped Me Stop Dreading Market Sell-Offs. Now I Look Forward to Them. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/this-mindset-shift-helped-me-stop-dreading-market-sell-offs-now-i-look-forward-to-them/
-- **2026-11-27** · The Stock Market Is Flashing a Signal Seen Only 6 Times in 156 Years. History Suggests These Stocks Could Take the Biggest Hit. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/the-stock-market-is-flashing-a-signal-seen-only-6-times-in-156-years-history-suggests-these-stocks-could-take-the-biggest-hit/
-- **2026-11-27** · Sterling today: Pound edges higher as risk rebound offsets Fed repricing — *Investing.com* — https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-edges-higher-110410757.html
-- **2026-11-27** · Warren Buffett Wrote in February 2009 That He Buys Stocks Like Socks, When They're Marked Down. The S&P 500 Gained 50% During the Next Year. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/warren-buffett-wrote-in-february-2009-that-he-buys-stocks-like-socks-when-they-re-marked-down-the-s-and-p-500-gained-50-over-the-next-year/
+- **2026-11-27** · Update: Equities Climb as Dow Posts Biggest Weekly Jump Since October 2022 — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/equities-climb-dow-posts-biggest-192733253.html
+- **2026-11-27** · Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-anthropic-spacex-tesla/?src=A00220&yptr=yahoo
+- **2026-11-27** · Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bullish-move-tesla-new-buys-nvidia-ceo-jensen-huang-congress/?src=A00220&yptr=yahoo
+- **2026-11-27** · How major US stock indexes fared Friday 11/27/2026 — *Associated Press* — https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-184551517.html
 
 *Rules, releases and agency actions:*
 - **2026-11-27** · Heightened Import Disclosures for Supply Chain Visibility; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/11/27/2026-24149/heightened-import-disclosures-for-supply-chain-visibility-extension-of-comment-period
@@ -100,10 +102,19 @@ Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%)
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Consumer Staples
-- CHEF: rich · price $110.16 · fair value $62.59 · gap -43.2%
-- COCO: rich · price $65.18 · fair value $42.11 · gap -35.4%
-- FLO: cheap · price $6.69 · fair value $13.84 · gap +106.9%
+## Prior verdicts elsewhere in Industrials
+- ACHR: no_model · price $5.71
+- ATKR: no_model · price $94.32
+- CECO: rich · price $71.87 · fair value $42.90 · gap -40.3%
+- CLVT: no_edge · price $1.90 · fair value $0.04 · gap -98.1%
+- CSW: rich · price $291.70 · fair value $98.00 · gap -66.4%
+- CTOS: no_edge · price $8.87 · fair value $1.69 · gap -80.9%
+- CXW: no_model · price $31.08
+- DNOW: no_edge · price $13.25 · fair value $14.63 · gap +10.4%
+- ENS: no_edge · price $180.08 · fair value $135.09 · gap -25.0%
+- ESE: no_edge · price $267.63 · fair value $153.44 · gap -42.7%
+- EVI: no_edge · price $13.06 · fair value $22.25 · gap +70.4%
+- FELE: rich · price $96.30 · fair value $76.56 · gap -20.5%
 
 ---
 

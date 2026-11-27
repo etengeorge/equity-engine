@@ -1,5 +1,33 @@
 [
  {
+  "id": "09ba7308-16c3-3eb9-8283-56f66907e09e",
+  "ts": "2026-11-27T17:58:51+00:00",
+  "title": "Sector Update: Financial Stocks Higher Friday Afternoon",
+  "summary": "Financial stocks were advancing in Friday afternoon trading, with the NYSE Financial Index rising 1.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-175851334.html",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
+  "id": "200e6f2b-0e2d-37a4-ace7-38917ccafbe9",
+  "ts": "2026-11-27T12:18:35+00:00",
+  "title": "Do Wall Street Analysts Like Essex Property Stock?",
+  "summary": "Essex Property has outperformed the broader market over the past year, and analysts remain moderately bullish about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9031124/do-wall-street-analysts-like-essex-property-stock",
+  "tickers": [
+   "XLRE"
+  ],
+  "source": "yfinance",
+  "sector": "Real Estate",
+  "via": "XLRE"
+ },
+ {
   "id": "5d6bac6b-7bce-3dbb-ad2e-9b4e8e2b9f3f",
   "ts": "2026-11-25T21:01:38+00:00",
   "title": "Sector Update: Financial Stocks Advance Late Afternoon",

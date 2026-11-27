@@ -118,17 +118,5 @@
    "FCF"
   ],
   "source": "yfinance"
- },
- {
-  "id": "d939c571-2d0d-3834-a3a5-8f62439c1194",
-  "ts": "2026-07-29T12:30:00+00:00",
-  "title": "First Commonwealth Financial Corporation Q2 2026 Earnings Call Summary",
-  "summary": "Moby summary of First Commonwealth Financial Corporation's Q2 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-first-commonwealth-financial-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "FCF"
-  ],
-  "source": "yfinance"
  }
 ]

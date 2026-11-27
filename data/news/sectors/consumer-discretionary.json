@@ -1,5 +1,33 @@
 [
  {
+  "id": "813c73c9-0a13-3738-a8e9-8362a1f78e12",
+  "ts": "2026-11-27T17:12:12+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
+  "summary": "Consumer stocks were higher Friday afternoon with the State Street Consumer Staples Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-171212418.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "c1443f7e-c2bc-3ac5-803b-085ceaf39caa",
+  "ts": "2026-11-27T10:55:21+00:00",
+  "title": "Are Wall Street Analysts Predicting O'Reilly Automotive Stock Will Climb or Sink?",
+  "summary": "Despite lagging behind the broader market over the past year, O'Reilly Automotive continues to receive a highly bullish forecast from Wall Street analysts.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9030252/are-wall-street-analysts-predicting-o-reilly-automotive-stock-will-climb-or-sink",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "962158a4-1b3c-3b44-b6a3-4cc0fba78d9f",
   "ts": "2026-11-26T12:46:21+00:00",
   "title": "Do Wall Street Analysts Like Williams-Sonoma Stock?",

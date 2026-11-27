@@ -178,29 +178,5 @@
    "RENT"
   ],
   "source": "yfinance"
- },
- {
-  "id": "007a3be6-998b-38ef-a24c-45032f04b270",
-  "ts": "2026-07-29T14:05:00+00:00",
-  "title": "Babylist Welcomes Jennifer Hyman as Chief Executive Officer as Founder Natalie Gordon Transitions to Executive Chair Role",
-  "summary": "Babylist, the leading platform for growing families, today announced that founder and CEO Natalie Gordon will transition into the role of Executive Chair. Jennifer Hyman, co-founder and former CEO of Rent the Runway, will succeed Gordon as Chief Executive Officer, effective September 9, 2026.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/small-business/articles/babylist-welcomes-jennifer-hyman-chief-140500064.html",
-  "tickers": [
-   "RENT"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "15cc12d9-443f-3024-ac9e-28bcf53c5ece",
-  "ts": "2026-07-29T14:00:00+00:00",
-  "title": "Exclusive: Rent the Runway cofounder Jenn Hyman is taking over IPO-bound Babylist as it nears $1 billion in revenue",
-  "summary": "Babylist founder Natalie Gordon will become executive chair, in a rare founder-to-founder CEO transition.",
-  "publisher": "Fortune",
-  "url": "https://finance.yahoo.com/small-business/articles/exclusive-rent-runway-cofounder-jenn-140000038.html",
-  "tickers": [
-   "RENT"
-  ],
-  "source": "yfinance"
  }
 ]

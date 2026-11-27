@@ -1,11 +1,81 @@
 [
  {
+  "id": "8fd72de2-2b2b-3e63-97ae-b0e617438891",
+  "ts": "2026-11-27T17:19:48+00:00",
+  "title": "Sector Update: Healthcare Stocks Edge Higher Friday Afternoon",
+  "summary": "Healthcare stocks were slightly higher in Friday afternoon trading, with the NYSE Healthcare Index a",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-171948753.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "025b6f12-7a4d-30e8-a0a8-304c41f6a785",
+  "ts": "2026-11-27T14:16:14+00:00",
+  "title": "Sector Update: Healthcare Stocks Edge Higher Pre-Bell Friday",
+  "summary": "Healthcare stocks were edging higher pre-bell Friday, with the State Street Health Care Select Secto",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-141614909.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "ca5bce24-81ee-3989-95b0-77e9fb991e96",
+  "ts": "2026-11-27T14:06:53+00:00",
+  "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+  "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1.7%, and the actively tra",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "029c045e-0283-3b78-9b27-f301c50abe5c",
+  "ts": "2026-11-27T12:09:46+00:00",
+  "title": "How GLP 1 Coverage Could Send You Beyond XLV",
+  "summary": "Two of these healthcare funds could not be more different once you look under the hood. IHE keeps about 99.5% in pharmaceuticals, while XLV has roughly 37.2% in that industry and the bulk spread across biotechnology, health care equipment and services. That split matters now because government backed coverage of GLP-1 drugs is tied to an estimated US$18b budget hit, and families are spending around US$500 less a year on groceries. More covered GLP-1 use can mean more paid prescriptions for...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/healthcare/articles/glp-1-coverage-could-send-120946100.html",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
   "id": "235e3408-a90e-3c3c-a6f1-baabb32cf88b",
   "ts": "2026-11-27T11:00:13+00:00",
   "title": "Health Care Beat Tech This Fall. 2000 Or 2008?",
   "summary": "Today's big story: Chip Stocks Jumped 15% In A Day. Now What.",
   "publisher": "Trefis",
   "url": "https://www.trefis.com/stock/xlv/articles/629144/health-care-and-staples-beat-tech-by-20-points-this-fall-the-last-times-were-2000-and-2008/2026-11-27",
+  "tickers": [
+   "XLV"
+  ],
+  "source": "yfinance",
+  "sector": "Health Care",
+  "via": "XLV"
+ },
+ {
+  "id": "4c5d77e8-ccc2-3bf9-9dc0-2031bb8edef5",
+  "ts": "2026-11-27T10:41:33+00:00",
+  "title": "Do Wall Street Analysts Like STERIS Stock?",
+  "summary": "Despite STERIS' underperformance relative to the broader market over the past year, Wall Street analysts maintain a strongly optimistic outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9030128/do-wall-street-analysts-like-steris-stock",
   "tickers": [
    "XLV"
   ],

@@ -1,90 +1,90 @@
 {
-  "screen_utc": "2026-11-27T11:21:13+00:00",
+  "screen_utc": "2026-11-27T19:35:32+00:00",
   "price_asof": "2026-11-25",
   "universe": 1956,
-  "modelled": 1056,
-  "modelled_pct": 54.0,
+  "modelled": 1054,
+  "modelled_pct": 53.9,
   "news": {
-    "generated_utc": "2026-11-27T11:21:15+00:00",
+    "generated_utc": "2026-11-27T19:35:39+00:00",
     "sectors": {
       "Health Care": {
-        "new": 12,
-        "held": 136,
+        "new": 5,
+        "held": 141,
         "etf": "XLV"
       },
       "Financials": {
-        "new": 12,
-        "held": 164,
+        "new": 3,
+        "held": 167,
         "etf": "XLF"
       },
       "Industrials": {
-        "new": 12,
+        "new": 0,
         "held": 85,
         "etf": "XLI"
       },
       "Information Technology": {
-        "new": 12,
-        "held": 178,
+        "new": 3,
+        "held": 181,
         "etf": "XLK"
       },
       "Consumer Discretionary": {
-        "new": 12,
-        "held": 140,
+        "new": 2,
+        "held": 142,
         "etf": "XLY"
       },
       "Energy": {
-        "new": 12,
-        "held": 182,
+        "new": 3,
+        "held": 185,
         "etf": "XLE"
       },
       "Real Estate": {
-        "new": 12,
-        "held": 111,
+        "new": 2,
+        "held": 113,
         "etf": "XLRE"
       },
       "Materials": {
-        "new": 4,
-        "held": 52,
+        "new": 1,
+        "held": 53,
         "etf": "XLB"
       },
       "Communication": {
-        "new": 4,
+        "new": 0,
         "held": 62,
         "etf": "XLC"
       },
       "Consumer Staples": {
-        "new": 12,
-        "held": 131,
+        "new": 1,
+        "held": 132,
         "etf": "XLP"
       },
       "Utilities": {
-        "new": 6,
-        "held": 81,
+        "new": 1,
+        "held": 82,
         "etf": "XLU"
       }
     },
     "macro": 86,
     "market": 36,
     "companies": 450,
-    "articles_new": 2324,
+    "articles_new": 264,
     "candidates": 450,
-    "elapsed_s": 226.4
+    "elapsed_s": 237.3
   },
   "picks": [
-    "DNOW",
-    "NAVN",
-    "CURB",
-    "FRSH",
-    "WDFC",
-    "WAY",
-    "ALTG",
-    "MNRO",
-    "GIII",
-    "BUR"
+    "CLSK",
+    "EXTR",
+    "PFS",
+    "MAN",
+    "KN",
+    "IMNM",
+    "HCI",
+    "WEN",
+    "HUBG",
+    "ACT"
   ],
   "stages": {
-    "screen": "2026-11-27T11:25:14+00:00",
-    "news": "2026-11-27T11:25:02+00:00",
-    "pick": "2026-11-27T11:25:14+00:00"
+    "screen": "2026-11-27T19:40:05+00:00",
+    "news": "2026-11-27T19:39:36+00:00",
+    "pick": "2026-11-27T19:40:05+00:00"
   }
 }

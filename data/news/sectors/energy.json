@@ -1,5 +1,47 @@
 [
  {
+  "id": "fa300531-05fa-3c6b-bdb3-ce3c00764c4e",
+  "ts": "2026-11-27T17:44:41+00:00",
+  "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
+  "summary": "Energy stocks were higher Friday afternoon, with the NYSE Energy Sector Index rising 1.6% and the St",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-friday-174441830.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "c6699a00-2e27-3450-9e0e-c6e287d29881",
+  "ts": "2026-11-27T17:27:12+00:00",
+  "title": "Exchange-Traded Funds Higher as US Equities Advance in Friday Trading",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-172712881.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
+  "id": "513bfa79-3d30-35a6-84b9-d806cf91934d",
+  "ts": "2026-11-27T14:24:12+00:00",
+  "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+  "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF (",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142412429.html",
+  "tickers": [
+   "XLE"
+  ],
+  "source": "yfinance",
+  "sector": "Energy",
+  "via": "XLE"
+ },
+ {
   "id": "409bdf9e-e33a-3864-8dd7-8b63894c7cfe",
   "ts": "2026-11-25T20:56:33+00:00",
   "title": "Sector Update: Energy Stocks Rise Late Afternoon",

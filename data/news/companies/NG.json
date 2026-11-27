@@ -1,5 +1,17 @@
 [
  {
+  "id": "d3752eeb-3c05-3fd3-be84-859a95e1dc65",
+  "ts": "2026-11-27T12:26:48+00:00",
+  "title": "Europe gas slides toward weekly loss, diverging from crude as attacks lift oil",
+  "summary": "Investing.com - European wholesale natural gas prices retreated on Friday, heading for a weekly loss and diverging sharply from a resilient crude oil market that is on track to snap a three-week losing streak amid escalating attacks on Middle Eastern energy infrastructure.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/europe-gas-slides-toward-weekly-122648957.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "6123b856-2ae1-3f6a-aa1c-0e11bfbf6661",
   "ts": "2026-11-26T11:44:58+00:00",
   "title": "Europe gas prices rangebound as markets weigh Middle East tensions",

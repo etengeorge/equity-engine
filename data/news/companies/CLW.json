@@ -190,17 +190,5 @@
    "CLW"
   ],
   "source": "yfinance"
- },
- {
-  "id": "20de7686-7564-3a6c-9a7d-e2b1d2303fb7",
-  "ts": "2026-07-29T12:30:00+00:00",
-  "title": "Clearwater Paper Corporation Q2 2026 Earnings Call Summary",
-  "summary": "Moby summary of Clearwater Paper Corporation's Q2 2026 earnings call",
-  "publisher": "Moby",
-  "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-clearwater-paper-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-  "tickers": [
-   "CLW"
-  ],
-  "source": "yfinance"
  }
 ]

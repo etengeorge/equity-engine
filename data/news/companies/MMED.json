@@ -120,6 +120,18 @@
   "source": "yfinance"
  },
  {
+  "id": "a476db9d-a6b8-3a54-a5f5-9183b641897c",
+  "ts": "2026-11-24T11:30:00+00:00",
+  "title": "Medtronic reports second quarter fiscal 2027 results; performance reflects consistent execution across the portfolio",
+  "summary": "Medtronic plc (NYSE: MDT), a global leader in healthcare technology, today announced financial results for its second quarter (Q2) of fiscal year 2027 (FY27), which ended October 30, 2026.",
+  "publisher": "CNW Group",
+  "url": "https://finance.yahoo.com/news/medtronic-reports-second-quarter-fiscal-113000644.html",
+  "tickers": [
+   "MMED"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "23da7d73-6570-3265-8ce2-3d43a1f74d3a",
   "ts": "2026-11-19T13:33:00+00:00",
   "title": "MiniMed Launches MiniMed Flex Pump in Europe to Expand Diabetes Care (Revised)",

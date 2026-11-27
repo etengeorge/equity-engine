@@ -1,85 +1,108 @@
-# CURB — CURBLINE PROPERTIES
-*Real Estate · brief generated 2026-11-27 · selected as **rotation***
+# IMNM — IMMUNOME
+*Health Care · brief generated 2026-11-27 · selected as **rotation***
 
 ## Why this name is on today's list
-- rotation position 353/1956
+- rotation position 362/1956
 
 ## Market
 | | |
 |---|---|
-| price | $29.33 |
-| market cap | $3.6B |
-| 5d / 21d / 63d / 252d | +1.5% / +3.9% / -1.2% / +28.2% |
-| 60d avg daily $ volume | $41.1M |
-| beta (vs IWM) | 0.54 (R²=0.256) |
-| 5d volume vs 60d average | 1.0x |
-| balance sheet as of | 2026-09-30 (10-Q) |
-| WACC weights | equity 86% / debt 14% |
+| price | $18.39 |
+| market cap | $2.1B |
+| 5d / 21d / 63d / 252d | +9.6% / -2.0% / -36.3% / -1.4% |
+| 60d avg daily $ volume | $28.2M |
+| beta (vs IWM) | 1.36 (R²=0.181) |
+| 5d volume vs 60d average | 0.8x |
+| balance sheet as of | 2026-06-30 (10-Q) |
+| WACC weights | equity 100% / debt 0% |
 
 ## What the market's price already assumes
-**No defensible free numeric model for this name** (status: not_modelled).
+Normalized FCFF base **n/a** (mean of CFO−capex over 0y, plus after-tax interest)
+Enterprise value **n/a** · FCFF yield **n/a**
 
-Research it qualitatively. Do NOT invent a fair value to fill the gap — 'no model' is a legitimate and expected outcome, and saying so is the correct answer when the cash flows won't support a valuation.
+**Reverse DCF — the 5y FCFF growth the current price requires:**
+
+| WACC | implied 5y FCFF growth |
+|---|---|
+| 12.4% − 1pt | n/a |
+| **12.4% (point)** | **n/a** |
+| 12.4% + 1pt | n/a |
+
+
+Naive baseline for comparison: **n/a** (None).
+Gap under that baseline: **n/a** (fair value n/a vs price $18.39).
+
+> The baseline is the company's own revenue history mechanically applied to FCFF. It is NOT a thesis and carries no judgment — it exists only to rank candidates. Your job below is to replace it.
 
 ## What the sector cohort pays for this
 *A discounted cash flow cannot value negative cash flow, but 'unmodellable' and 'worthless' are different claims. Below is what this name is worth at the multiples its own sector actually trades at. Read the RANGE — a comparables valuation is a statement about the cohort, not about this company.*
 
 | multiple | its own | cohort p25 / median / p75 | value at p25 / median / p75 |
 |---|---|---|---|
-| ev_ebitda (n=76) | 35.9x | 11.1x / 16.3x / 23.6x | $6.34 / $11.18 / $17.89 |
-| ev_sales (n=90) | 22.1x | 3.4x / 7.1x / 11.0x | $1.13 / $6.76 / $12.61 |
-| p_tbv (n=81) | 1.7x | 1.1x / 1.6x / 2.0x | $18.21 / $26.97 / $34.14 |
+| ev_sales (n=305) | 226.1x | 1.7x / 4.1x / 15.2x | $4.68 / $4.83 / $5.50 |
+| p_tbv (n=327) | 4.0x | 1.7x / 3.6x / 7.2x | $7.70 / $16.85 / $33.21 |
 
-Blended midpoint **$14.97** vs price $29.33 — gap **-49.0%**.
+Blended midpoint **$10.84** vs price $18.39 — gap **-41.1%**.
 
 > This number is NOT in the cohort rank or the selection score, on purpose: those are built from DCF gaps and mixing the two would compare different things. It is here for you to judge, not to defer to.
 
-Cohort: **not ranked** — too few comparable Real Estate names to define a distribution honestly, so judge the absolute gap with extra caution.
+Cohort: **not ranked** — too few comparable Health Care names to define a distribution honestly, so judge the absolute gap with extra caution.
 Cohort rank is the honest comparator — absolute gaps shift with the ERP (5.5%) and terminal growth (2.0%) constants, which are choices, not facts.
 
 ## Data-quality flags
 Attack these before you trust any number above.
-- `sector_has_no_defensible_free_model`
+- `interest_expense_implies_2344%_on_reported_debt_debt_likely_understated`
+- `speculative_cost_of_debt_but_only_0%_debt_weight`
+- `negative_fcf_year_in_window`
+- `lumpy_fcff_spread_1.8x_of_mean`
+- `nonpositive_normalized_fcff`
+- `negative_ebitda_valued_on_revenue_or_gross_profit_only`
 
 ## Recent filings
-- 2026-10-22 **10-Q** — https://www.sec.gov/Archives/edgar/data/2027317/000119312526428913/curb-20260930.htm
-- 2026-10-22 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-20261022.htm
-- 2026-08-18 **8-K** — items 1.02,3.03,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526355420/d110992d8k.htm
-- 2026-07-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/2027317/000119312526322100/curb-20260630.htm
-- 2026-07-28 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526318826/curb-20260728.htm
-- 2026-07-01 **8-K** — items 8.01,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526292530/d149838d8k.htm
-- 2026-06-25 **8-K** — items 5.02,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526282738/curb-20260625.htm
-- 2026-06-02 **8-K** — items 1.01,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526252560/d111894d8k.htm
-- 2026-05-08 **8-K** — items 5.07,9.01 — https://www.sec.gov/Archives/edgar/data/2027317/000119312526213256/curb-20250507.htm
-- 2026-04-29 **10-Q** — https://www.sec.gov/Archives/edgar/data/2027317/000119312526188934/curb-20260331.htm
+- 2026-11-09 **10-Q** — https://www.sec.gov/Archives/edgar/data/1472012/000119312526453597/imnm-20260930.htm
+- 2026-11-09 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1472012/000119312526453556/imnm-20261109.htm
+- 2026-10-05 **8-K** — items 1.01,3.02,9.01 — https://www.sec.gov/Archives/edgar/data/1472012/000119312526413217/d114908d8k.htm
+- 2026-08-11 **10-Q** — https://www.sec.gov/Archives/edgar/data/1472012/000119312526344636/imnm-20260630.htm
+- 2026-08-11 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1472012/000119312526344577/imnm-20260811.htm
+- 2026-06-12 **8-K** — items 5.07 — https://www.sec.gov/Archives/edgar/data/1472012/000119312526269383/imnm-20260609.htm
+- 2026-05-12 **10-Q** — https://www.sec.gov/Archives/edgar/data/1472012/000119312526219425/imnm-20260331.htm
+- 2026-05-12 **8-K** — items 2.02,9.01 — https://www.sec.gov/Archives/edgar/data/1472012/000119312526219367/imnm-20260512.htm
+- 2026-04-24 **DEF 14A** — https://www.sec.gov/Archives/edgar/data/1472012/000114036126016685/ny20062786x1_def14a.htm
+- 2026-03-03 **10-K** — https://www.sec.gov/Archives/edgar/data/1472012/000119312526088172/imnm-20251231.htm
 
 ## Earnings materials (8-K exhibits)
 *The press release and presentation as filed. EX-99.2 is usually the deck.*
 
-- **2026-10-22** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-ex99_1.htm
+- **2026-11-09** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1472012/000119312526453556/imnm-ex99_1.htm
+- **2026-08-11** · EX-99.1 · press release — EX-99.1 *(item: results of operations, 9.01)* — https://www.sec.gov/Archives/edgar/data/1472012/000119312526344577/imnm-ex99_1.htm
 
 ## News on this company — last 90 days
-*No company-specific news in the store for this window.* That is a fact about coverage, not about the company: a name only earns a per-company news pull when it moves, trades abnormal volume, files an 8-K, or is picked. Absence here means the wire was quiet AND the tape was quiet — treat it as a reason to lower confidence in 'nothing happened', not as confirmation of it.
+*2 items held; showing the 2 most recent. Headlines and summaries only — open the URL for the full story.*
 
-## What is happening in Real Estate
-*From the sector ETF feed (XLRE), which covers every name in this sector whether or not it got its own pull.*
+- **2026-09-08** · Immunome Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) — *Business Wire* — https://finance.yahoo.com/healthcare/articles/immunome-reports-inducement-grants-under-200200784.html
+  > BOTHELL, Wash., September 08, 2026--Immunome, Inc. (the "Company") (Nasdaq: IMNM), a clinical-stage target oncology company focused on developing first-in-class and best-in-class targeted cancer therapies, announced today that on September 
+- **2026-09-02** · Immunome to Present at the H.C. Wainwright 28th Annual Global Investment Conference — *Business Wire* — https://finance.yahoo.com/healthcare/articles/immunome-present-h-c-wainwright-114500761.html
+  > BOTHELL, Wash., September 02, 2026--Immunome, Inc. (Nasdaq: IMNM), a clinical-stage targeted oncology company focused on developing first-in-class and best-in-class targeted cancer therapies, today announced that Immunome management will pr
 
-- **2026-11-25** · Sector Update: Financial Stocks Advance Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-210138295.html
-- **2026-11-25** · Sector Update: Financial Stocks Rise in Afternoon Trading — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185859010.html
-- **2026-11-25** · Are Wall Street Analysts Predicting Alexandria Real Estate Equities Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/9003076/are-wall-street-analysts-predicting-alexandria-real-estate-equities-stock-will-climb-or-sink
-- **2026-11-25** · Public Storage Stock: Analyst Estimates & Ratings — *Barchart* — https://www.barchart.com/story/news/8999854/public-storage-stock-analyst-estimates-ratings
-- **2026-11-24** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-210207365.html
-- **2026-11-24** · Sector Update: Financial Stocks Higher Tuesday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-tuesday-185524852.html
-- **2026-11-24** · Extra Space Storage Stock Outlook: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/8978960/extra-space-storage-stock-outlook-is-wall-street-bullish-or-bearish
-- **2026-11-23** · Sector Update: Financial Stocks Higher Late Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-205942322.html
-- **2026-11-23** · Sector Update: Financial Stocks Higher Monday Afternoon — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-monday-185322235.html
-- **2026-11-23** · Mid-America Apartment Communities Stock: Is Wall Street Bullish or Bearish? — *Barchart* — https://www.barchart.com/story/news/8961097/mid-america-apartment-communities-stock-is-wall-street-bullish-or-bearish
+## What is happening in Health Care
+*From the sector ETF feed (XLV), which covers every name in this sector whether or not it got its own pull.*
+
+- **2026-11-27** · Sector Update: Healthcare Stocks Edge Higher Friday Afternoon — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-171948753.html
+- **2026-11-27** · Sector Update: Healthcare Stocks Edge Higher Pre-Bell Friday — *MT Newswires* — https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-higher-141614909.html
+- **2026-11-27** · Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html
+- **2026-11-27** · How GLP 1 Coverage Could Send You Beyond XLV — *Simply Wall St.* — https://finance.yahoo.com/healthcare/articles/glp-1-coverage-could-send-120946100.html
+- **2026-11-27** · Health Care Beat Tech This Fall. 2000 Or 2008? — *Trefis* — https://www.trefis.com/stock/xlv/articles/629144/health-care-and-staples-beat-tech-by-20-points-this-fall-the-last-times-were-2000-and-2008/2026-11-27
+- **2026-11-27** · Do Wall Street Analysts Like STERIS Stock? — *Barchart* — https://www.barchart.com/story/news/9030128/do-wall-street-analysts-like-steris-stock
+- **2026-11-26** · Are Wall Street Analysts Predicting Waters Corporation Stock Will Climb or Sink? — *Barchart* — https://www.barchart.com/story/news/9019594/are-wall-street-analysts-predicting-waters-corporation-stock-will-climb-or-sink
+- **2026-11-26** · State Street Health Care Select Sector SPDR (XLV) Sells LLY and JNJ on Nov. 24 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/state-street-health-care-select-110418846.html
+- **2026-11-26** · ETFs Are Net Sellers of AbbVie (ABBV) on Nov. 24 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/etfs-net-sellers-abbvie-abbv-110241619.html
+- **2026-11-26** · ETFs Are Net Sellers of Lilly (Eli) & Co (LLY) on Nov. 24 — *GuruFocus.com* — https://finance.yahoo.com/healthcare/articles/etfs-net-sellers-lilly-eli-110215574.html
 
 ## Market and macro context
-- **2026-11-27** · This Mindset Shift Helped Me Stop Dreading Market Sell-Offs. Now I Look Forward to Them. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/this-mindset-shift-helped-me-stop-dreading-market-sell-offs-now-i-look-forward-to-them/
-- **2026-11-27** · The Stock Market Is Flashing a Signal Seen Only 6 Times in 156 Years. History Suggests These Stocks Could Take the Biggest Hit. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/the-stock-market-is-flashing-a-signal-seen-only-6-times-in-156-years-history-suggests-these-stocks-could-take-the-biggest-hit/
-- **2026-11-27** · Sterling today: Pound edges higher as risk rebound offsets Fed repricing — *Investing.com* — https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-edges-higher-110410757.html
-- **2026-11-27** · Warren Buffett Wrote in February 2009 That He Buys Stocks Like Socks, When They're Marked Down. The S&P 500 Gained 50% During the Next Year. — *Motley Fool* — https://www.fool.com/investing/2026/11/27/warren-buffett-wrote-in-february-2009-that-he-buys-stocks-like-socks-when-they-re-marked-down-the-s-and-p-500-gained-50-over-the-next-year/
+- **2026-11-27** · Update: Equities Climb as Dow Posts Biggest Weekly Jump Since October 2022 — *MT Newswires* — https://finance.yahoo.com/markets/stocks/articles/equities-climb-dow-posts-biggest-192733253.html
+- **2026-11-27** · Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-anthropic-spacex-tesla/?src=A00220&yptr=yahoo
+- **2026-11-27** · Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill — *Investor's Business Daily* — https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bullish-move-tesla-new-buys-nvidia-ceo-jensen-huang-congress/?src=A00220&yptr=yahoo
+- **2026-11-27** · How major US stock indexes fared Friday 11/27/2026 — *Associated Press* — https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-184551517.html
 
 *Rules, releases and agency actions:*
 - **2026-11-27** · Heightened Import Disclosures for Supply Chain Visibility; Extension of Comment Period — *Federal Register (Proposed Rule)* — https://www.federalregister.gov/documents/2026/11/27/2026-24149/heightened-import-disclosures-for-supply-chain-visibility-extension-of-comment-period
@@ -92,16 +115,19 @@ Attack these before you trust any number above.
 ## What we concluded before
 *No prior research — this is the first pass on this name.*
 
-## Prior verdicts elsewhere in Real Estate
-- COMP: no_model · price $10.56
-- CTRE: no_model · price $39.03
-- CWK: no_model · price $12.10
-- EPRT: no_model · price $29.97
-- LXP: no_model · price $61.01
-- NHI: no_model · price $65.67
-- RHP: no_model · price $129.33
-- SKT: no_model · price $35.80
-- SLG: no_model · price $52.08
+## Prior verdicts elsewhere in Health Care
+- ACAD: no_edge · price $22.18 · fair value $17.73 · gap -20.0%
+- ADPT: no_model · price $27.89
+- ALKS: no_edge · price $46.91
+- AMLX: no_model · price $27.65
+- APGE: no_model · price $133.96
+- CELC: no_model · price $65.57
+- CON: no_edge · price $34.77 · fair value $47.84 · gap +37.6%
+- CRNX: no_edge · price $84.84
+- CRSP: no_model · price $53.45
+- DFTX: no_model · price $37.99
+- DNLI: no_model · price $18.67
+- DNTH: no_model · price $106.20
 
 ---
 
