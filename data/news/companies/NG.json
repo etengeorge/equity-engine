@@ -1,5 +1,89 @@
 [
  {
+  "id": "6123b856-2ae1-3f6a-aa1c-0e11bfbf6661",
+  "ts": "2026-11-26T11:44:58+00:00",
+  "title": "Europe gas prices rangebound as markets weigh Middle East tensions",
+  "summary": "Investing.com - European wholesale natural gas prices traded mixed to higher on Thursday, as energy desks balanced lingering supply relief against a sharp escalation in Middle Eastern hostilities that pushed crude oil higher.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/europe-gas-prices-rangebound-markets-114458393.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "7b345fe8-c875-3904-8be4-79972d1c68a5",
+  "ts": "2026-11-25T12:34:36+00:00",
+  "title": "European natural gas prices drop amid forecasts for milder temperatures",
+  "summary": "Investing.com - European natural gas prices declined on Wednesday, as milder temperature forecasts and an expected influx of supply from Norway helped to counter outages.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/european-natural-gas-prices-drop-123436021.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "733738c0-88c7-3298-9a35-6bfe0822fb2e",
+  "ts": "2026-11-24T22:00:00+00:00",
+  "title": "NOVAGOLD Exercises Prepayment Option and Completes Full Repayment of Barrick Promissory Note",
+  "summary": "Promissory Note Prepaid in Full: NOVAGOLD exercised its option to prepay in full the amended and restated secured promissory note payable to Barrick for $100 million, representing an approximate 44% discount to the note\u2019s carrying value of $177.5 million as of August 31, 2026.Treasury Position Maintained: Following the $100 million prepayment of the Barrick promissory note, NOVAGOLD\u2019s August 31, 2026 pro forma treasury balance stood at approximately $243.4 million in cash and term deposits. VANC",
+  "publisher": "GlobeNewswire",
+  "url": "https://finance.yahoo.com/markets/commodities/articles/novagold-exercises-prepayment-option-completes-220000382.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "018821f7-efbb-37e9-8a4a-eae1fe2729a3",
+  "ts": "2026-11-24T10:18:07+00:00",
+  "title": "European gas bucks energy sell-off as lingering cold snap offsets crude slump",
+  "summary": "Investing.com - European wholesale natural gas prices bucked a broader energy sell-off on Tuesday, climbing higher as updated weather forecasts pointed to a prolonged cold snap across the continent, even as crude oil sank to three-month lows on mounting expectations of a global supply surplus.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/european-gas-bucks-energy-sell-101807579.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "dcdb8c3b-a746-3025-9810-30b7480a0c11",
+  "ts": "2026-11-24T03:14:23+00:00",
+  "title": "NovaGold Resources (TSX:NG) Stock Still Looks Overvalued As Shares Fell 41%",
+  "summary": "NovaGold Resources has seen its share price fall sharply this year, which puts fresh focus on whether the current market value still lines up with what its balance sheet supports. With sentiment under pressure, the question is how much of that move is reflected in the company\u2019s book value. The share price is down 40.8% year to date, which raises the question of how much underlying asset value investors are paying for today. For a resource developer like NovaGold Resources, factors such as...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/novagold-resources-tsx-ng-stock-031423865.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2d31e18e-4d1d-3e3c-8f5f-fe777847d5e4",
+  "ts": "2026-11-23T16:21:44+00:00",
+  "title": "Natural gas prices fall as mild HDD readings weigh on heating demand outlook",
+  "summary": "Investing.com -- For the week ended Nov. 21, population-weighted heating degree day (HDD) data from NOAA\u2019s National Weather Service show U.S. temperatures running milder than normal across key gas-heating regions, and prices have retreated sharply after a strong monthly rally.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/natural-gas-prices-fall-mild-162144692.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d44076a1-4ce6-3f44-903d-83f482361938",
+  "ts": "2026-11-23T10:10:13+00:00",
+  "title": "Europe gas surges to 1-week high as Gulf conflict accelerates",
+  "summary": "Investing.com - European wholesale natural gas prices surged nearly 5% on Monday, forcefully snapping a multi-week downtrend as a severe escalation in Middle Eastern military hostilities and rapidly depleting continental storage levels injected structural risk premium back into the winter energy curves.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/energy/articles/europe-gas-surges-1-week-101013872.html",
+  "tickers": [
+   "NG"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "d20137fe-4d3e-3680-9eaf-bc98ef216810",
   "ts": "2026-11-20T09:22:01+00:00",
   "title": "European gas gains on fresh Middle East attacks, but Eyes weekly drop",
@@ -234,66 +318,6 @@
   "summary": "VANCOUVER, British Columbia, Aug. 11, 2026 (GLOBE NEWSWIRE) -- NOVAGOLD RESOURCES INC. (\u201cNOVAGOLD\u201d or the \u201cCompany\u201d) (NYSE American, TSX: NG) and Donlin Gold Holdings LLC (DGH), 100% wholly-owned by Paulson Advisers LLC and its affiliates (\u201cPaulson\u201d), are pleased to announce the appointment of Endeavour Financial (\u201cEndeavour\u201d), and Macquarie Capital (\u201cMacquarie\u201d) (collectively, the \u201cFinancial Advisors\u201d) to provide financial advisory services for the development of the Donlin Gold project in Alas",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/markets/commodities/articles/novagold-paulson-announce-appointment-endeavour-204500405.html",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "af0f2b31-6e03-33e9-9b0e-0aad7e9024dd",
-  "ts": "2026-07-27T13:50:46+00:00",
-  "title": "Another Canadian company to redomicile to the U.S.",
-  "summary": "NovaGold Resources (NYSE American: NG) is taking a significant step toward becoming a U. S.",
-  "publisher": "InvestorsHub",
-  "url": "https://investorshub.advfn.com/market-news/article/32737/another-canadian-company-to-redomicile-to-the-u-s",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "c3b79ffd-6070-3133-9abc-5d6aaf1a2a11",
-  "ts": "2026-07-26T18:07:07+00:00",
-  "title": "NovaGold Resources (TSX:NG) Faces A Valuation Test As M And A Call Sparks Fresh Interest",
-  "summary": "NovaGold Resources (TSX:NG) drew fresh attention after announcing an M&A call on 22 July 2026 to discuss a transaction. This prompted investors to reassess the gold developer\u2019s risk profile and long term potential. See our latest analysis for NovaGold Resources. Over the past year, NovaGold Resources has delivered a 13.43% total shareholder return, even as the share price is down 33.70% year to date and 29.27% over 90 days. The recent 14.84% 7 day share price return around the M&A call hints...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/novagold-resources-tsx-ng-faces-180707569.html",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "c21caf17-b0af-31d9-b8d0-2bd121e7a85b",
-  "ts": "2026-07-23T10:26:18+00:00",
-  "title": "NOVAGOLD to buy remaining 40% of Donlin Gold",
-  "summary": "The deal grants NOVAGOLD full ownership of Donlin Gold and leads to the creation of a new company, NovaGold Corporation.",
-  "publisher": "Mining Technology",
-  "url": "https://www.mining-technology.com/news/novagold-to-buy-remaining-40-donlin-gold/",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "92d8e5a5-c8ae-3d05-9c8e-1878ebb1284b",
-  "ts": "2026-07-23T09:05:22+00:00",
-  "title": "Novagold Resources to Take Full Control of Donlin Gold in All-Share Deal",
-  "summary": "Novagold Resources (NYSEAMERICAN:NG) said it has entered into definitive agreements to acquire 100% ownership of the Donlin Gold project through an all-share transaction with Paulson\u2019s Donlin Gold Holdings, consolidating the Alaska gold project under a single U.S.-domiciled parent company. Greg Lan",
-  "publisher": "MarketBeat",
-  "url": "https://www.marketbeat.com/instant-alerts/novagold-resources-to-take-full-control-of-donlin-gold-in-all-share-deal-2026-07-23/?utm_source=yahoofinance&utm_medium=yahoofinance",
-  "tickers": [
-   "NG"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "e4f9fce4-c866-32b0-96ec-be750d594651",
-  "ts": "2026-07-23T00:58:30+00:00",
-  "title": "NovaGold (NG) Jumps 10.3% on $4.2B Donlin Mine Takeover",
-  "summary": "NovaGold extended its winning streak to a third consecutive day on Wednesday, surging 10.30 percent to close at $6.21 apiece after expanding its gold portfolio with the full acquisition of the Donlin Gold project in Alaska. In a statement on the same day, NovaGold Resources Inc. (NYSEAmerican:NG) said that it entered into a definitive agreement [\u2026]",
-  "publisher": "Insider Monkey",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/novagold-ng-jumps-10-3-005830041.html",
   "tickers": [
    "NG"
   ],

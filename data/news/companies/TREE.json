@@ -1,5 +1,101 @@
 [
  {
+  "id": "2b004c0f-a763-3149-ba53-5ef946961121",
+  "ts": "2026-11-24T13:00:00+00:00",
+  "title": "Posthaste: Grandparents are giving more money than they thought they would",
+  "summary": "More than 80% gave money to their children or grandchildren during the past year",
+  "publisher": "Financial Post",
+  "url": "https://financialpost.com/news/posthaste-grandparents-giving-more-money-they-thought/",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "e46d0c79-5f7c-460a-bcfa-b1a56259bc95",
+  "ts": "2026-11-19T16:39:30+00:00",
+  "title": "Sky-high diesel prices take a $2 billion bite out of Walmart",
+  "summary": "Diesel price inflation is hurting retail giant Walmart.",
+  "publisher": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/stocks/article/sky-high-diesel-prices-take-a-2-billion-bite-out-of-walmart-163930973.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9e37f663-df54-3c04-b0c3-9ee0afae3f00",
+  "ts": "2026-11-17T20:18:00+00:00",
+  "title": "Stand Launches in Colorado With Home Insurance That Lowers Premiums for Homeowners Who Protect Against Wildfire",
+  "summary": "Stand today announced it is now offering homeowners insurance across Colorado, including the mountain communities where wildfire risk has made coverage expensive and hard to find. Stand simulates how a wildfire would reach an individual home, shows owners which improvements matter most, and lowers their premium when they make them.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/real-estate/articles/stand-launches-colorado-home-insurance-201800744.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "5bf2d476-3b6d-38a0-b0f5-081848a14f8a",
+  "ts": "2026-11-16T21:01:00+00:00",
+  "title": "Fewer Americans Will Host Thanksgiving as Inflation Reshapes Menus and Shrinks Guest Lists",
+  "summary": "Fewer Americans say they may host Thanksgiving this year, while those considering hosting expect to spend more, according to LendingTree's 2026 Thanksgiving spending survey. Just over half of Americans (51%) say they might host, down from 59% in 2025. Potential hosts expect to spend an average of $427 on food, drinks and housewares, up 3% from $414 last year.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/economy/articles/fewer-americans-host-thanksgiving-inflation-210100690.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "431be77d-5a8a-3678-85e0-22003de71edf",
+  "ts": "2026-11-16T15:42:00+00:00",
+  "title": "401(k) Limits Are Rising for 2027. Which Savings Goals Come First?",
+  "summary": "Workers can contribute up to $25,500 next year. Here\u2019s how to balance retirement savings with debt, emergency funds, and college costs.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/401k-contribution-limits-2027-savings-priorities-ed0d6f7e?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "b8c9211c-ff8e-34bb-8210-07724e2016f7",
+  "ts": "2026-11-15T10:21:37+00:00",
+  "title": "Car Insurance Rates Are Leveling Off, So Why Are You Still Overpaying?",
+  "summary": "Car insurance rates are finally leveling off, but after five years of increases that outpaced inflation and income growth, many drivers are still paying too much. Rob Bhatt, senior writer and licensed insurance agent at LendingTree, explains what drives your premium, from repair costs and theft to pandemic-era driving habits.",
+  "publisher": " TheStreet",
+  "url": "https://cdn.jwplayer.com/previews/6hgu0141",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "51024e03-ed9f-3897-bc6f-6bb816a26f2b",
+  "ts": "2026-11-10T18:47:38+00:00",
+  "title": "US credit card debt hits record $1.29 trillion in third quarter",
+  "summary": "Investing.com -- Credit card balances in the United States rose by $22 billion in the third quarter to reach a record $1.29 trillion, according to the Federal Reserve Bank of New York's household debt report released today. The balances increased 4.2% compared to the same period last year.",
+  "publisher": "Investing.com",
+  "url": "https://finance.yahoo.com/economy/articles/us-credit-card-debt-hits-184738675.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "8305a1e5-9d2e-30fa-868c-04d9a42d5eae",
+  "ts": "2026-11-09T22:07:00+00:00",
+  "title": "Automax.ai Wins Innovation Challenge at LendingTree's 2026 Lender Summit",
+  "summary": "LendingTree, Inc. (NASDAQ: TREE), the nation's leading online financial services marketplace, hosted the annual LendingTree Mortgage Summit this week at the Knight Theatre in Charlotte, N.C. bringing together top lenders, industry experts and fintech innovators to assess market outlook, and the evolving mortgage industry. During the event, Automax.ai was named the winner of the 2026 LendingTree Innovation Challenge for its AI-powered platform designed to modernize the property appraisal process.",
+  "publisher": "PR Newswire",
+  "url": "https://finance.yahoo.com/technology/ai/articles/automax-ai-wins-innovation-challenge-220700134.html",
+  "tickers": [
+   "TREE"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "582e5a5a-82a1-3771-8507-3189e99b078e",
   "ts": "2026-11-04T17:35:36+00:00",
   "title": "Americans Are Turning to Buy Now, Pay Later for the Holidays, and Trouble Paying Is Already Brewing",

@@ -1,5 +1,173 @@
 [
  {
+  "id": "ad9e03a3-6220-3cbf-89a6-359d422aaae6",
+  "ts": "2026-11-26T12:29:58+00:00",
+  "title": "Broadridge Financial Solutions Stock: Analyst Estimates & Ratings",
+  "summary": "Broadridge has significantly underperformed the broader market despite revenue growth and reaffirmed guidance, while analyst sentiment remains moderately bullish.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9017899/broadridge-financial-solutions-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b7b05021-4281-340b-8f1b-48175831e5f1",
+  "ts": "2026-11-26T12:12:52+00:00",
+  "title": "Are Wall Street Analysts Bullish on BlackRock Stock?",
+  "summary": "BlackRock has outperformed the broader market over the past year, with Wall Street analysts maintaining a strongly bullish outlook on the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9017645/are-wall-street-analysts-bullish-on-blackrock-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "b6bd14e2-66b3-3b28-bf2e-2aa4f9a7c5f8",
+  "ts": "2026-11-26T11:11:23+00:00",
+  "title": "Are Wall Street Analysts Bullish on M&T Bank Stock?",
+  "summary": "Although M&T Bank has outperformed the broader market over the past year, Wall Street analysts maintain a cautious outlook about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9016941/are-wall-street-analysts-bullish-on-m-t-bank-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "e01ea4a8-0bf7-333e-abae-c6af2aa2cc3a",
+  "ts": "2026-11-26T11:04:58+00:00",
+  "title": "What State Street Financial Sel Sector SPDR (XLF) Bought: Berkshire Leads on Nov. 24",
+  "summary": "The fund added $266.5 million across all 76 holdings on Tuesday, led by a $36.3 million increase in Berkshire Hathaway.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-financial-sel-sector-110458586.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "5d6bac6b-7bce-3dbb-ad2e-9b4e8e2b9f3f",
+  "ts": "2026-11-25T21:01:38+00:00",
+  "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+  "summary": "Financial stocks rose in late Wednesday afternoon trading with the NYSE Financial Index and the Stat",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-210138295.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "44b0a891-0908-326c-8a25-eb3ba1af8e6a",
+  "ts": "2026-11-25T18:58:59+00:00",
+  "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
+  "summary": "Financial stocks were higher in Wednesday afternoon trading, with the NYSE Financial Index adding 0.",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185859010.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "50e39147-422d-3d71-a88c-54d3338b8214",
+  "ts": "2026-11-25T18:11:48+00:00",
+  "title": "Exchange-Traded Funds Lower as US Equities Fall After Midday",
+  "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181148276.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "12d271d1-477c-3895-a7a5-9adb67c20e56",
+  "ts": "2026-11-25T15:16:06+00:00",
+  "title": "Is Wall Street Bullish or Bearish on Raymond James Financial Stock?",
+  "summary": "While Raymond James Financial has lagged behind the broader market over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9004953/is-wall-street-bullish-or-bearish-on-raymond-james-financial-stock",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "8f227849-6a32-3601-bdd9-fe18fd32d763",
+  "ts": "2026-11-25T14:19:59+00:00",
+  "title": "Sector Update: Financial Stocks Decline Pre-Bell Wednesday",
+  "summary": "Financial stocks were declining pre-bell Wednesday, with the State Street Financial Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-pre-141959067.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "8f53a13f-c3c1-38fe-baf4-4a88294c3544",
+  "ts": "2026-11-25T11:04:31+00:00",
+  "title": "State Street Financial SPDR (XLF) Buys $83.4 Million More Berkshire on Monday",
+  "summary": "The fund added $611.7 million across all 76 positions, led by an $83.4 million increase in Berkshire Hathaway.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-financial-spdr-xlf-110431476.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "a5a4d652-46ca-359d-866f-bcdf16ffd842",
+  "ts": "2026-11-25T10:20:02+00:00",
+  "title": "Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)?",
+  "summary": "Sector ETF report for XLF",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002762.html",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
+  "id": "32fb48f8-32fb-3210-b087-7f7cb7636f7f",
+  "ts": "2026-11-25T05:29:22+00:00",
+  "title": "Are Wall Street Analysts Predicting Moody's Stock Will Climb or Sink?",
+  "summary": "Moody\u2019s has underperformed the broader market. However, Wall Street\u2019s outlook suggests the stock still has room to rebound.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8996951/are-wall-street-analysts-predicting-moody-s-stock-will-climb-or-sink",
+  "tickers": [
+   "XLF"
+  ],
+  "source": "yfinance",
+  "sector": "Financials",
+  "via": "XLF"
+ },
+ {
   "id": "16b6fa24-8a33-3d1f-9e68-3cd215772681",
   "ts": "2026-11-20T18:15:52+00:00",
   "title": "Exchange-Traded Funds Lower as US Equities Drop After Midday",

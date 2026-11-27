@@ -1,5 +1,61 @@
 [
  {
+  "id": "8c889b5e-d478-3a52-a6d8-0cf105cd83ce",
+  "ts": "2026-11-26T11:05:28+00:00",
+  "title": "What State Street Materials Select Sector SPDR (XLB) Sold: Linde Leads on Tuesday",
+  "summary": "The $7.97 billion fund sold $210.7 million across all 24 positions, with Linde's $28.7 million reduction the largest.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110528054.html",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "1345a4bb-39c5-32fb-ba6b-780a357dda69",
+  "ts": "2026-11-26T08:48:56+00:00",
+  "title": "Martin Marietta Materials Stock: Analyst Estimates & Ratings",
+  "summary": "Martin Marietta Materials has lagged behind the broader market over the past year, and analysts remain somewhat optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9015499/martin-marietta-materials-stock-analyst-estimates-ratings",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "a04735a1-1e2f-3617-bba0-f3913592b16d",
+  "ts": "2026-11-25T16:59:25+00:00",
+  "title": "Vulcan Materials Company Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "What do analysts think about Vulcan Materials\u2019 stock after its Q3 results?",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9006736/vulcan-materials-company-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
+  "id": "b9bd099d-68a3-3539-9bb1-ce2546086d92",
+  "ts": "2026-11-23T08:35:08+00:00",
+  "title": "Nucor Stock Outlook: Is Wall Street Bullish or Bearish?",
+  "summary": "Nucor has outperformed the broader market over the past year, and analysts remain highly bullish on the stock.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8960222/nucor-stock-outlook-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLB"
+  ],
+  "source": "yfinance",
+  "sector": "Materials",
+  "via": "XLB"
+ },
+ {
   "id": "98ebab27-1999-3c8d-9a8e-e4f06eb0e146",
   "ts": "2026-11-20T13:22:00+00:00",
   "title": "Stock Market News for Nov 20, 2026",

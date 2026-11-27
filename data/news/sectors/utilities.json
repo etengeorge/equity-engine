@@ -1,5 +1,89 @@
 [
  {
+  "id": "7c0323a7-bb17-3ebf-83f5-584f4db6a05b",
+  "ts": "2026-11-26T12:10:44+00:00",
+  "title": "Why AEP's Plant Fight Could Make ETFs Worth A Look",
+  "summary": "Owning American Electric Power Company outright means your returns hinge on its specific financial pressures. Simply Wall St flags that its interest payments are not well covered by earnings, and that a 3.04% dividend is not well covered by free cash flows. A fund that holds American Electric Power Company alongside many other businesses dilutes how much those issues or any upside in the shares can move your portfolio. Right now the story around the Rockport Generating Station is shifting...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-aeps-plant-fight-could-121044955.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "0888b152-1a76-35f4-a5e5-e690d4a2a15a",
+  "ts": "2026-11-25T11:05:16+00:00",
+  "title": "State Street Utilities SPDR (XLU) Sells $32.8 Million of NextEra on Nov. 23",
+  "summary": "The $23.35 billion fund sold $253.3 million of stock and bought nothing, cutting all 31 positions.",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-utilities-spdr-xlu-110516162.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "9140a51d-f560-3ff5-833f-ae23e0eeeb41",
+  "ts": "2026-11-25T10:08:33+00:00",
+  "title": "Atmos Energy Stock Outlook: Is Wall Street Bullish or Bearish?",
+  "summary": "Atmos Energy has lagged behind the broader market over the past year, and analysts remain unsure about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8999280/atmos-energy-stock-outlook-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "aa8e52be-97e9-3c51-b5fe-efa90334dced",
+  "ts": "2026-11-24T13:26:37+00:00",
+  "title": "DTE Energy Stock Outlook: Is Wall Street Bullish or Bearish?",
+  "summary": "DTE Energy underperformed the broader market despite earnings growth, reaffirmed guidance, and utility investments, while analyst sentiment remained moderately bullish.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8983564/dte-energy-stock-outlook-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "fdd4377f-5ca7-3876-98de-5dee69f810bf",
+  "ts": "2026-11-23T12:09:15+00:00",
+  "title": "3 Funds With Electric Utility Exposure As Data Center Power Outruns The Grid",
+  "summary": "How different can three funds with heavy electric utility exposure really be, and which mix actually fits what you want from the power story? That question matters more now that data center electricity demand is rising an estimated 19% a year while the grid is growing about 2%. If regulators let utilities earn on faster grid upgrades and customers do not fully replace grid power with on site generation, companies tied into those networks could see very different outcomes. XLU, JXI and IGF all...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/energy/articles/3-funds-electric-utility-exposure-120915255.html",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
+  "id": "67d40ad6-6d5d-3dd1-9a94-097a8914fd27",
+  "ts": "2026-11-23T10:20:27+00:00",
+  "title": "Pinnacle West Stock: Is Wall Street Bullish or Bearish?",
+  "summary": "Pinnacle West has outperformed the broader market over the past year, and analysts remain moderately bullish about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/8960810/pinnacle-west-stock-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLU"
+  ],
+  "source": "yfinance",
+  "sector": "Utilities",
+  "via": "XLU"
+ },
+ {
   "id": "17e94357-58d4-31d9-adcc-bc96b890b1db",
   "ts": "2026-11-20T16:58:00+00:00",
   "title": "Utility ETFs to Buy as Data Center Electricity Usage Is Set to Double by 2030",

@@ -1,5 +1,29 @@
 [
  {
+  "id": "9f88220d-f1fb-3d18-b69f-1aab1237f51f",
+  "ts": "2026-11-23T23:58:29+00:00",
+  "title": "Own HP Stock? Memory Costs Are The Risk",
+  "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/hpq/articles/627662/own-hp-stock-memory-costs-are-the-risk/2026-11-23",
+  "tickers": [
+   "XRX"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "21f3a4ed-87d0-330b-838b-8971e580bf86",
+  "ts": "2026-11-23T06:36:15+00:00",
+  "title": "Xerox: 3 Key Takeaways for Long-Term Investors",
+  "summary": "Management is redesigning hardware to slash service costs, a structural shift that could reshape profitability if execution sticks.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/takeaways/2026/11/23/xerox-3-key-takeaways-for-long-term-investors/",
+  "tickers": [
+   "XRX"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "daf4213f-87a3-3c6f-a9a5-c34c42eeef6d",
   "ts": "2026-11-20T14:30:00+00:00",
   "title": "Global Printers, Scanners and Imaging Market Report 2026: $97.63 Billion Forecast to 2030 | HP, Canon, Seiko Epson and Xerox Accelerate AI, Cloud and Sustainable Workflows",

@@ -1,5 +1,41 @@
 [
  {
+  "id": "b2579616-93f1-3105-bbfa-ef6ab87441e1",
+  "ts": "2026-11-19T12:16:33+00:00",
+  "title": "How Much Of Corning Stock's Rise Came From Sales?",
+  "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+  "publisher": "Trefis",
+  "url": "https://www.trefis.com/stock/glw/articles/626872/how-much-of-corning-stocks-rise-came-from-sales/2026-11-19",
+  "tickers": [
+   "LPTH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "ba18a039-7731-352d-8987-c4975d17d012",
+  "ts": "2026-11-16T18:10:00+00:00",
+  "title": "Ondas Is Building a Defense Growth Engine, But Can It Deliver on Its Backlog?",
+  "summary": "Ondas posted record Q3 revenue and rising backlog, but margin pressure led Lake Street, Needham, and Stifel to cut price targets while keeping Buy ratings amid execution risks.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/ondas-is-building-a-defense-growth-engine-but-can-it-deliver-on-its-backlog/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "LPTH"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "56554e6c-e49b-3354-96c0-492e9cff137c",
+  "ts": "2026-11-13T17:40:00+00:00",
+  "title": "LightPath Technologies' Record Backlog Highlights a Bigger Defense Opportunity",
+  "summary": "LightPath Technologies' backlog hit a record $133 million as NDAA-driven demand for its China-free optical glass grows, with gross profit and EBITDA climbing sharply despite a GAAP loss.",
+  "publisher": "MarketBeat",
+  "url": "https://www.marketbeat.com/articles/lightpath-technologies-record-backlog-highlights-a-bigger-defense-opportunity/?utm_source=yahoofinance&utm_medium=yahoofinance",
+  "tickers": [
+   "LPTH"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "7c34f0a9-869f-3287-873b-860454ab2f20",
   "ts": "2026-11-12T17:59:40+00:00",
   "title": "What Are Corning Investors Betting On?",
@@ -354,30 +390,6 @@
   "summary": "LightPath Technologies, Inc. (NASDAQ: LPTH) (\"LightPath,\" the \"Company,\" or \"we\"), a leading provider of next-generation optics and imaging systems for both defense and commercial applications, today announced it will release financial results for the fiscal fourth quarter ended June 30, 2026 after market close on September 10, 2026.",
   "publisher": "PR Newswire",
   "url": "https://finance.yahoo.com/markets/stocks/articles/lightpath-technologies-host-fourth-quarter-123100760.html",
-  "tickers": [
-   "LPTH"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "6d3a74e3-af41-3629-a428-39aab6ca8a8e",
-  "ts": "2026-07-24T02:12:28+00:00",
-  "title": "Is LightPath Technologies (LPTH) Undervalued As Its $11 Million Defense Order Lifts Attention?",
-  "summary": "LightPath Technologies (LPTH) has drawn fresh investor interest after announcing an $11 million follow on purchase order for its infrared cameras, focused on counter UAS uses with a global technology customer. See our latest analysis for LightPath Technologies. The $11 million order has come as momentum in LightPath Technologies' stock is picking up again, with a 1 day share price return of 1.98% and a 7 day share price return of 17.47%. The 1 year total shareholder return is very large,...",
-  "publisher": "Simply Wall St.",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/lightpath-technologies-lpth-undervalued-11-021228910.html",
-  "tickers": [
-   "LPTH"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "1e250440-70e8-3245-9900-6747018c4e4b",
-  "ts": "2026-07-23T12:31:00+00:00",
-  "title": "LightPath Technologies Signs Definitive Agreement to Divest China Operations",
-  "summary": "LightPath Technologies, Inc. (NASDAQ: LPTH) (\"LightPath,\" the \"Company,\" \"we,\" or \"our\"), a leading provider of next-generation optics and imaging systems for both defense and commercial applications, today announced it has signed a definitive agreement to sell its wholly owned subsidiary, LightPath (Zhenjiang) Optical Instrumentation Co., Ltd. (\"LPOIZ\"), including its manufacturing facility and its operations in China. The purchaser is an entity owned by certain of the facility's incumbent mana",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/technology/articles/lightpath-technologies-signs-definitive-agreement-123100259.html",
   "tickers": [
    "LPTH"
   ],

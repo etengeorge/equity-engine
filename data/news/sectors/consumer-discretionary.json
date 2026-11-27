@@ -1,5 +1,173 @@
 [
  {
+  "id": "962158a4-1b3c-3b44-b6a3-4cc0fba78d9f",
+  "ts": "2026-11-26T12:46:21+00:00",
+  "title": "Do Wall Street Analysts Like Williams-Sonoma Stock?",
+  "summary": "Williams-Sonoma has outperformed the broader market, supported by revenue growth, higher earnings, shareholder returns, and increasingly bullish analyst sentiment.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9018147/do-wall-street-analysts-like-williams-sonoma-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "aee09cdd-5886-32e6-959e-9d81a11fb1f6",
+  "ts": "2026-11-26T10:52:39+00:00",
+  "title": "Are Wall Street Analysts Bullish on Packaging Corporation of America Stock?",
+  "summary": "Over the past year, Packaging Corporation of America has rallied the broader market, and analysts remain somewhat bullish about the stock's prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9016687/are-wall-street-analysts-bullish-on-packaging-corporation-of-america-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "c882ee23-5235-338f-b1d7-1b23be04dd4d",
+  "ts": "2026-11-25T20:53:54+00:00",
+  "title": "Sector Update: Consumer Stocks Higher Late Afternoon",
+  "summary": "Consumer stocks were higher late Wednesday afternoon, with the State Street Consumer Staples Select",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-higher-afternoon-205354613.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "9a7b2ae0-7ff3-37c7-9f82-8c2191db3edb",
+  "ts": "2026-11-25T18:41:01+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
+  "summary": "Consumer stocks were mixed Wednesday afternoon, with the State Street Consumer Staples Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-184101499.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "86ccbac5-c441-35f3-98e0-e05db3e0398e",
+  "ts": "2026-11-25T15:31:00+00:00",
+  "title": "Chart of the Day: Frontdoor\u2019s Breakout Signals More Gains Ahead",
+  "summary": "Frontdoor raised its full-year revenue guidance and approved a new $1 billion share buyback following its third-quarter performance.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/frontdoor-stock-chart-housing-home-services-7910b852?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "7bd94061-e625-3ca8-b785-00dd9a211e81",
+  "ts": "2026-11-25T14:11:10+00:00",
+  "title": "Genuine Parts Stock Outlook: Is Wall Street Bullish or Bearish?",
+  "summary": "Genuine Parts has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9003688/genuine-parts-stock-outlook-is-wall-street-bullish-or-bearish",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "a832745c-3ac3-37d1-8083-51e34fce8111",
+  "ts": "2026-11-25T12:25:57+00:00",
+  "title": "Are Wall Street Analysts Bullish on Ulta Beauty Stock?",
+  "summary": "Ulta Beauty has outperformed the broader market, supported by healthy sales growth and raised guidance, while analyst sentiment remains moderately bullish.",
+  "publisher": "Barchart",
+  "url": "https://www.barchart.com/story/news/9001265/are-wall-street-analysts-bullish-on-ulta-beauty-stock",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "b7ca38a1-bcb4-3c3a-b28a-bb687698122c",
+  "ts": "2026-11-24T20:48:25+00:00",
+  "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+  "summary": "Consumer stocks were higher late Tuesday afternoon, with the State Street Consumer Staples Select Se",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-204825132.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "11914d6f-4039-30f0-9133-1eb6f4471cd3",
+  "ts": "2026-11-24T18:37:53+00:00",
+  "title": "Sector Update: Consumer Stocks Rise Tuesday Afternoon",
+  "summary": "Consumer stocks were higher Tuesday afternoon, with the State Street Consumer Staples Select Sector",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-tuesday-183753571.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "456c62d3-32f5-349d-ac92-ef9675368bc4",
+  "ts": "2026-11-23T20:50:06+00:00",
+  "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
+  "summary": "Consumer stocks were higher late Monday afternoon, with the State Street Consumer Staples Select Sec",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-205006028.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "a51289f1-0a6f-3824-a7de-9bf81a51d5f5",
+  "ts": "2026-11-23T14:15:47+00:00",
+  "title": "Sector Update: Consumer Stocks Mixed Premarket Monday",
+  "summary": "Consumer stocks were mixed premarket Monday, with the State Street Consumer Staples Select Sector SP",
+  "publisher": "MT Newswires",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-141547621.html",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
+  "id": "08d6afc7-5200-3e44-8834-7f33d3889dce",
+  "ts": "2026-11-23T09:24:52+00:00",
+  "title": "Consumer Stocks Snap Winning Streaks As AI Selloff Rocks Markets \u2014 TSN, PDD, TJX Buck Trend",
+  "summary": "Consumer ETFs ended the week in red as the broader market fell. Strong earnings and analyst upgrades helped some stocks rise despite the sell-off.",
+  "publisher": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/consumer-stocks-snap-winning-streaks-as-ai-selloff-rocks-markets-tsn-pdd-tjx-buck-trend/cNbYwv1R9SF",
+  "tickers": [
+   "XLY"
+  ],
+  "source": "yfinance",
+  "sector": "Consumer Discretionary",
+  "via": "XLY"
+ },
+ {
   "id": "98ebab27-1999-3c8d-9a8e-e4f06eb0e146",
   "ts": "2026-11-20T13:22:00+00:00",
   "title": "Stock Market News for Nov 20, 2026",

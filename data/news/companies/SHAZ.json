@@ -1,5 +1,53 @@
 [
  {
+  "id": "fd20eb0d-6a50-32c1-a481-8db3b4c13aa4",
+  "ts": "2026-11-23T23:17:50+00:00",
+  "title": "Fastly Stock and Asia Pacific AI Infrastructure Names Outside U.S. Sanctions",
+  "summary": "U.S. sanctions are tightening around Megaspeed and Nvidia, and that is quietly rearranging who gets to sell the next wave of AI and cloud capacity. When one major buyer is hit with export controls, capital and workloads often look for a new home. This article walks through three Asia Pacific stocks exposed to that shift, drawn from our cloud and data center screener, and explains how each might be helped or hurt by the fallout. The three stocks covered next are just a sample, and the full...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/technology/ai/articles/fastly-stock-asia-pacific-ai-231750500.html",
+  "tickers": [
+   "SHAZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "92c336a0-a0e9-3061-9d14-5640a33f9053",
+  "ts": "2026-11-23T18:31:03+00:00",
+  "title": "SharonAI Holdings (SHAZ) Stock Is Up 20.5% Today: Nvidia's AI Rally",
+  "summary": "On Monday, Nov. 23, SharonAI Holdings shares rose 20.5% as AI hardware stocks rallied alongside Nvidia's jump after it reinstated Jensen Huang as CEO",
+  "publisher": "GuruFocus.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/sharonai-holdings-shaz-stock-20-183103243.html",
+  "tickers": [
+   "SHAZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "1fbba6ed-3db7-321d-a12f-c505172b18db",
+  "ts": "2026-11-23T17:28:48+00:00",
+  "title": "Situational Awareness Stock Portfolio: Leopold Aschenbrenner\u2019s Top 5 Picks",
+  "summary": "Leopold Aschenbrenner was a university valedictorian at 19, a fired AI researcher at 22, and by 25 the manager of a hedge fund that reportedly peaked near $45 billion. The Germany-born investor joined the safety team at OpenAI in 2023 and lost the job in April 2024 over an alleged leak of a brainstorming document, [\u2026]",
+  "publisher": "Insider Monkey",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/situational-awareness-stock-portfolio-leopold-172648643.html",
+  "tickers": [
+   "SHAZ"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "66448a62-8016-3de7-a952-5f9e6a714bf3",
+  "ts": "2026-11-22T04:34:02+00:00",
+  "title": "SharonAI: 3 Key Takeaways for Long-Term Investors",
+  "summary": "Its secured-debt funding model means every GPU is backed by a customer contract, so the cash-flow test is whether those contracts convert to billing.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/earnings/takeaways/2026/11/21/sharonai-3-key-takeaways-for-long-term-investors/",
+  "tickers": [
+   "SHAZ"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "5fba16e8-e1c0-3a11-b0e2-283bdd6d2109",
   "ts": "2026-11-20T11:08:41+00:00",
   "title": "SharonAI Holdings (NasdaqCM:SHAZ) Stock Sees Fair Value Moves Lower As Analysts Cut Targets",
@@ -366,42 +414,6 @@
   "summary": "Sharon AI Holdings Inc. (NASDAQ: SHAZ) and its subsidiaries (\"Sharon AI\" or the \"Company\"), a leading Australian Neocloud, today announced that it has entered into a five-year cloud computing service agreement with a global artificial intelligence (\"AI\") platform. The agreement has a total contract value of US$373 million over its five-year term.",
   "publisher": "PR Newswire",
   "url": "https://finance.yahoo.com/technology/ai/articles/sharon-ai-announces-us-373m-110000219.html",
-  "tickers": [
-   "SHAZ"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "84daa2ee-4766-3365-bb18-43817e850431",
-  "ts": "2026-07-27T11:10:00+00:00",
-  "title": "Sharon AI to Announce Second Quarter 2026 Results",
-  "summary": "Sharon AI Holdings Inc. (NASDAQ: SHAZ) and its subsidiaries (\"Sharon AI\"), a leading Australian Neocloud, will release its second quarter 2026 financial results after the market closes on Thursday, August 6, 2026, followed by a conference call and webcast to discuss the results.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/technology/ai/articles/sharon-ai-announce-second-quarter-111000689.html",
-  "tickers": [
-   "SHAZ"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "99eb97bb-c447-30f5-9bfd-ceefbf04e90f",
-  "ts": "2026-07-25T10:20:00+00:00",
-  "title": "AI Investing Genius Leopold Aschenbrenner Owns 20% of This AI Stock. Should You Buy It Too?",
-  "summary": "Sharon AI is growing quickly, but profitability remains an issue.",
-  "publisher": "Motley Fool",
-  "url": "https://www.fool.com/investing/2026/07/25/ai-investing-genius-leopold-aschenbrenner-owns-20/",
-  "tickers": [
-   "SHAZ"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "b981e886-d4a8-3c52-a71a-608588c44f30",
-  "ts": "2026-07-23T11:00:00+00:00",
-  "title": "Sharon AI Appoints Melissa Anastasiou as Chief Legal Officer",
-  "summary": "Sharon AI Holdings Inc. (NASDAQ: SHAZ) and its subsidiaries (\"Sharon AI\" or \"the Company\"), a leading Australian Neocloud, today announced the appointment of Melissa Anastasiou as Chief Legal Officer (CLO).",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/technology/ai/articles/sharon-ai-appoints-melissa-anastasiou-110000328.html",
   "tickers": [
    "SHAZ"
   ],

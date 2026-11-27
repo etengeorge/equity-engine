@@ -1,66 +1,66 @@
 {
-  "generated_utc": "2026-11-20T18:45:53+00:00",
+  "generated_utc": "2026-11-27T11:21:15+00:00",
   "sectors": {
     "Health Care": {
-      "new": 7,
-      "held": 124,
+      "new": 12,
+      "held": 136,
       "etf": "XLV"
     },
     "Financials": {
-      "new": 2,
-      "held": 152,
+      "new": 12,
+      "held": 164,
       "etf": "XLF"
     },
     "Industrials": {
-      "new": 1,
-      "held": 73,
+      "new": 12,
+      "held": 85,
       "etf": "XLI"
     },
     "Information Technology": {
-      "new": 9,
-      "held": 166,
+      "new": 12,
+      "held": 178,
       "etf": "XLK"
     },
     "Consumer Discretionary": {
-      "new": 4,
-      "held": 128,
+      "new": 12,
+      "held": 140,
       "etf": "XLY"
     },
     "Energy": {
-      "new": 2,
-      "held": 170,
+      "new": 12,
+      "held": 182,
       "etf": "XLE"
     },
     "Real Estate": {
-      "new": 3,
-      "held": 99,
+      "new": 12,
+      "held": 111,
       "etf": "XLRE"
     },
     "Materials": {
-      "new": 2,
-      "held": 48,
+      "new": 4,
+      "held": 52,
       "etf": "XLB"
     },
     "Communication": {
-      "new": 1,
-      "held": 58,
+      "new": 4,
+      "held": 62,
       "etf": "XLC"
     },
     "Consumer Staples": {
-      "new": 4,
-      "held": 119,
+      "new": 12,
+      "held": 131,
       "etf": "XLP"
     },
     "Utilities": {
-      "new": 1,
-      "held": 75,
+      "new": 6,
+      "held": 81,
       "etf": "XLU"
     }
   },
   "macro": 86,
   "market": 36,
-  "companies": 449,
-  "articles_new": 293,
+  "companies": 450,
+  "articles_new": 2324,
   "candidates": 450,
-  "elapsed_s": 239.9
+  "elapsed_s": 226.4
 }

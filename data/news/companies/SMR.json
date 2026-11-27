@@ -1,5 +1,125 @@
 [
  {
+  "id": "a1c1067e-ea94-3370-8af1-619d1810084c",
+  "ts": "2026-11-26T15:21:11+00:00",
+  "title": "NuScale Just Dropped 17% in a Week to a New 52-Week Low. Is It Time to Sell, or Load Up?",
+  "summary": "Key TakeawaysNuScale shares fell 17% in a week to a new 52-week low as the AI selloff hit power stocks, including Oklo. NuScale had no news, but with almost no revenue and no signed order, nothing in its numbers slowed the fall.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/nuscale-just-dropped-17-in-a-week-to-a-new-52-week-low-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261126-g32xg4gv",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "fa4f4630-7deb-3461-8b67-9f0be6c15684",
+  "ts": "2026-11-26T14:11:22+00:00",
+  "title": "NuScale Power (SMR) Draws Fresh Investor Focus As AI Power Demand Lifts SMR Appeal",
+  "summary": "NuScale Power (NYSE: SMR) is drawing increased investor interest as AI power demand raises the profile of advanced nuclear options. The company holds a federally certified small modular reactor design from the Nuclear Regulatory Commission, giving it a regulatory edge over Oklo. Analysts point to NuScale's NRC-approved technology and narrowing loss estimates as key factors in its growing appeal with AI infrastructure investors. The growing focus on NuScale's certified SMR design should not...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-draws-fresh-141122724.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "9db6c0dc-a650-33de-9e99-daad94f5985e",
+  "ts": "2026-11-26T11:12:55+00:00",
+  "title": "Does Securities Lawsuit Change The Bull Case For NuScale Power Stock (SMR)?",
+  "summary": "NuScale Power is facing a securities class action filed in November 2026 that accuses the company and several executives of overstating its first mover advantage, commercial prospects, and revenue potential tied to the RoPower project and proposed work with the Tennessee Valley Authority. The complaint directly challenges NuScale Power's narrative on project viability, cash runway, and commercialization progress. It puts a spotlight on how closely its public messaging aligns with its actual...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/does-securities-lawsuit-change-bull-111255446.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "959212f0-b7d5-3b4b-8680-35e8fe091760",
+  "ts": "2026-11-25T19:05:02+00:00",
+  "title": "NuScale Earns More on Interest Than It Does on Developing Reactors. Here\u2019s the Math.",
+  "summary": "NuScale needs to get to the commercialization stage, pronto.",
+  "publisher": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/25/nuscale-earns-more-on-interest-than-it-does-on-developing-reactors-heres-the-math/",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "cee24e25-9cfb-3ebc-a75d-44e1b713226c",
+  "ts": "2026-11-25T18:33:22+00:00",
+  "title": "Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates",
+  "summary": "Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hiding in the wreckage.",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/25/prediction-oklo-stock-could-have-a-huge-year-as-nuclear-energy-demand-accelerates/",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "2e3811b2-759b-377f-a72e-2934e71634ec",
+  "ts": "2026-11-25T16:57:02+00:00",
+  "title": "Oklo and NuScale Power Retreat 8% as AI Power Selloff Deepens; Energy Fuels Drops 6%",
+  "summary": "Nuclear stocks that rode the AI power boom are now bleeding, and hot inflation and fresh tariffs are only part of the story. Why do three nuclear names fall by different amounts when the same selloff hits them?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/25/oklo-and-nuscale-power-retreat-8-as-ai-power-selloff-deepens-energy-fuels-drops-6/",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "61ecbcb8-7c2a-3785-9594-341d114e9f1a",
+  "ts": "2026-11-25T12:28:00+00:00",
+  "title": "OKLO Has More Cash, But Is NuScale the Better Nuclear Stock?",
+  "summary": "OKLO and SMR are targeting the growing power needs of data centers, but their contrasting business models could shape how and when they generate revenues.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-more-cash-nuscale-better-122800602.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "6d79a7e4-16d1-306e-9a17-34967ad4402b",
+  "ts": "2026-11-25T08:11:00+00:00",
+  "title": "Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?",
+  "summary": "Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI selloff hit NuScale Power and Bloom Energy too. Oklo\u2019s own news was good: a test reactor was cleared, and it signed definitive fuel contracts with Centrus Energy.",
+  "publisher": "TIKR",
+  "url": "https://www.tikr.com/blog/oklo-sinks-14-in-a-week-nuscale-down-19-as-the-ai-selloff-hits-nuclear-stocks-time-to-buy?ref=yahoofinance&tlnk=yf-261125-qw7frcvg",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "82187245-73e7-3050-b463-85955095c664",
+  "ts": "2026-11-24T16:52:23+00:00",
+  "title": "Oklo Slides 7% as Monday\u2019s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%",
+  "summary": "One day after a uranium announcement lit up the sector, nuclear stocks are surrendering their gains as tech sells off. Can the AI power trade hold a rally for more than a single session, or is caution the smarter play?",
+  "publisher": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/24/oklo-slides-7-as-mondays-nuclear-rebound-fades-nuscale-power-and-energy-fuels-drop-6/",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "81a2e24a-17e6-343c-9b85-92523264cd07",
+  "ts": "2026-11-24T16:39:00+00:00",
+  "title": "Can NuScale's Doosan Deal Shorten Reactor Delivery Times?",
+  "summary": "SMR is committing capital ahead of a firm reactor order, with plans to recover upfront manufacturing costs through a future sales contract.",
+  "publisher": "Zacks",
+  "url": "https://finance.yahoo.com/energy/articles/nuscales-doosan-deal-shorten-reactor-163900039.html",
+  "tickers": [
+   "SMR"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "9eaea71c-3efa-394c-81df-ed886dd14d14",
   "ts": "2026-11-20T15:30:31+00:00",
   "title": "Constellation Energy Sinks 10% in a Week as AI Stocks Slide, Giving Back Its Earnings Jump. Time to Buy?",

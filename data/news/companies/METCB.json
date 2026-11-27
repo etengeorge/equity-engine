@@ -1,5 +1,29 @@
 [
  {
+  "id": "0401dd6e-5061-3ce6-aa42-dc73470c60c3",
+  "ts": "2026-11-24T20:39:00+00:00",
+  "title": "MP Materials Exec Makes First Stock Purchase Amid Insider Buying Spree",
+  "summary": "MP Materials executives snap up millions in company shares following a recent return to quarterly profitability and easing U.S.-China trade tensions.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/mp-materials-stock-insider-buying-baa06c9d?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "METCB"
+  ],
+  "source": "yfinance"
+ },
+ {
+  "id": "d1964044-82d9-39db-b740-367bd040d31e",
+  "ts": "2026-11-24T16:39:00+00:00",
+  "title": "Rare-Earth Stock Moves Hint at China\u2019s Fading Dominance",
+  "summary": "China might be losing its influence over U.S. rare-earth markets. That\u2019s a good thing.",
+  "publisher": "Barrons.com",
+  "url": "https://www.barrons.com/articles/rare-earth-stock-china-exports-530b1022?siteid=yhoof2&yptr=yahoo",
+  "tickers": [
+   "METCB"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "0de42c48-7628-38b7-8fc3-86f880b05a8e",
   "ts": "2026-11-13T18:11:52+00:00",
   "title": "How Much Time Does Peabody's Cash Buy?",

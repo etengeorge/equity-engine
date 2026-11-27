@@ -1,5 +1,17 @@
 [
  {
+  "id": "6b441ce6-054d-3ff1-8dc5-773255822a8d",
+  "ts": "2026-11-20T05:18:49+00:00",
+  "title": "3 Upstream Oil Stocks Retail Investors Are Watching As Brent Prices Slide",
+  "summary": "Oil markets are being pulled in opposite directions right now, with renewed Houthi attacks near Riyadh pushing geopolitical risk higher while traders still focus on potential supply surplus and a third straight weekly decline for Brent and WTI. That mix can punish some stocks and reward others, often quickly. This article picks out three upstream producers exposed to these headlines and explains how the same news can create very different risk and reward profiles. The three stocks below are...",
+  "publisher": "Simply Wall St.",
+  "url": "https://finance.yahoo.com/energy/articles/3-upstream-oil-stocks-retail-051849309.html",
+  "tickers": [
+   "AMPY"
+  ],
+  "source": "yfinance"
+ },
+ {
   "id": "1e62b4a5-5809-3738-b924-bbc44c76cd71",
   "ts": "2026-11-09T22:02:12+00:00",
   "title": "Amplify Energy: Q3 Earnings Snapshot",
@@ -90,18 +102,6 @@
   "summary": "HOUSTON, July 29, 2026 (GLOBE NEWSWIRE) -- Amplify Energy Corp. (\u201cAmplify\u201d or the \u201cCompany\u201d) (NYSE: AMPY) announced today that the Company will be participating in the 31st Annual EnerCom Denver \u2013 The Energy Investment Conference in Denver, Colorado. Amplify\u2019s Chief Executive Officer, Dan Furbee, will be participating in one-on-one meetings with investors on Tuesday, August 18th. In addition, Mr. Furbee will be presenting at 1:55 P.M. MT on Tuesday, August 18th, followed by a 50-minute breakout",
   "publisher": "GlobeNewswire",
   "url": "https://finance.yahoo.com/energy/articles/amplify-energy-participate-2026-enercom-200500106.html",
-  "tickers": [
-   "AMPY"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "e069ea37-7fbf-3494-aca8-75eac517bd4d",
-  "ts": "2026-07-23T20:02:00+00:00",
-  "title": "EnerCom Releases Presenter Lineup for the 31st EnerCom Denver - The Energy Investment Conference, August 17-19, 2026, in Denver, Colorado",
-  "summary": "EnerCom, Inc. (\"EnerCom\") is pleased to publish presentation times for participating companies on the conference website for the 31st annual EnerCom Denver \u2013 The Energy Investment Conference, taking place August 17-19, 2026, at the Westin Denver Downtown.",
-  "publisher": "PR Newswire",
-  "url": "https://finance.yahoo.com/energy/articles/enercom-releases-presenter-lineup-31st-200200013.html",
   "tickers": [
    "AMPY"
   ],

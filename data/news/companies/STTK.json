@@ -106,41 +106,5 @@
    "STTK"
   ],
   "source": "yfinance"
- },
- {
-  "id": "dd0438eb-b7eb-3665-83a5-ee353ab9ac5a",
-  "ts": "2026-07-24T22:27:47+00:00",
-  "title": "Why Shattuck Labs Stock Flew Nearly 5% Higher on Friday",
-  "summary": "An analyst initiated coverage of the biotech with a buy recommendation.",
-  "publisher": "Motley Fool",
-  "url": "https://www.fool.com/investing/2026/07/24/why-shattuck-labs-stock-flew-nearly-5-higher-on-fr/",
-  "tickers": [
-   "STTK"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "442502c0-100f-3caf-8634-a60eb2be8ba7",
-  "ts": "2026-07-24T13:32:48+00:00",
-  "title": "SpaceX initiated, PayPal upgraded: Wall Street's top analyst calls",
-  "summary": "SpaceX initiated, PayPal upgraded: Wall Street's top analyst calls",
-  "publisher": "The Fly",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiated-paypal-upgraded-wall-133248895.html",
-  "tickers": [
-   "STTK"
-  ],
-  "source": "yfinance"
- },
- {
-  "id": "bfa1c847-c934-3c1c-87fc-7a5ad457ee0e",
-  "ts": "2026-07-24T12:00:51+00:00",
-  "title": "Here Are Friday\u2019s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
-  "summary": "Markets took a brutal hit Thursday as oil prices, surging interest rates, and Middle East tensions sent every major index deep into the red. See which stocks analysts are upgrading, downgrading, and initiating fresh coverage on as Wall Street braces for more turbulence.",
-  "publisher": "24/7 Wall St.",
-  "url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
-  "tickers": [
-   "STTK"
-  ],
-  "source": "yfinance"
  }
 ]
