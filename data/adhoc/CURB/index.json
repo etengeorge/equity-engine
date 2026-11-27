@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-11-27T11:26:28+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "CURB",
+    "cik": 2027317,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526428913/curb-20260930.htm",
+        "file": "2026-10-22-10-Q-curb-20260930.htm.txt",
+        "chars": 144706,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-22",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-20261022.htm",
+        "file": "2026-10-22-8-K-curb-20261022.htm.txt",
+        "chars": 3603,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-18",
+        "items": "1.02,3.03,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526355420/d110992d8k.htm",
+        "file": "2026-08-18-8-K-d110992d8k.htm.txt",
+        "chars": 5293,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526322100/curb-20260630.htm",
+        "file": "2026-07-29-10-Q-curb-20260630.htm.txt",
+        "chars": 139160,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-28",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526318826/curb-20260728.htm",
+        "file": "2026-07-28-8-K-curb-20260728.htm.txt",
+        "chars": 3584,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-01",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526292530/d149838d8k.htm",
+        "file": "2026-07-01-8-K-d149838d8k.htm.txt",
+        "chars": 6725,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-25",
+        "items": "5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526282738/curb-20260625.htm",
+        "file": "2026-06-25-8-K-curb-20260625.htm.txt",
+        "chars": 7000,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-02",
+        "items": "1.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526252560/d111894d8k.htm",
+        "file": "2026-06-02-8-K-d111894d8k.htm.txt",
+        "chars": 11156,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-22",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526428291/curb-ex99_1.htm",
+        "file": "2026-10-22-EX-99.1.txt",
+        "chars": 56263,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-28",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526318826/curb-ex99_1.htm",
+        "file": "2026-07-28-EX-99.1.txt",
+        "chars": 53724,
+        "truncated": false
+      }
+    ]
+  }
+}

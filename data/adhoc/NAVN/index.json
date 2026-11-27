@@ -1,0 +1,122 @@
+{
+  "fetched_utc": "2026-11-27T11:26:24+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "NAVN",
+    "cik": 1639723,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-10-09",
+        "items": "1.01,2.03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026065496/navn-20261005.htm",
+        "file": "2026-10-09-8-K-navn-20261005.htm.txt",
+        "chars": 8286,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-09-10",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026061416/navn-20260731.htm",
+        "file": "2026-09-10-10-Q-navn-20260731.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-09",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026061136/navn-20260909.htm",
+        "file": "2026-09-09-8-K-navn-20260909.htm.txt",
+        "chars": 3864,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-26",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026045797/navn-20260625.htm",
+        "file": "2026-06-26-8-K-navn-20260625.htm.txt",
+        "chars": 3632,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-11",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026042552/navn-20260430.htm",
+        "file": "2026-06-11-10-Q-navn-20260430.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-10",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026042206/navn-20260610.htm",
+        "file": "2026-06-10-8-K-navn-20260610.htm.txt",
+        "chars": 3788,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-17",
+        "items": "5.02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026025732/navn-20260413.htm",
+        "file": "2026-04-17-8-K-navn-20260413.htm.txt",
+        "chars": 3633,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-04-02",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026023250/navn-20260131.htm",
+        "file": "2026-04-02-10-K-navn-20260131.htm.txt",
+        "chars": 400146,
+        "truncated": true
+      },
+      {
+        "filed": "2026-09-09",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026061136/exhibit991-earningspressre.htm",
+        "file": "2026-09-09-EX-99.1.txt",
+        "chars": 28827,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-10",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026042206/exhibit991-earningspressre.htm",
+        "file": "2026-06-10-EX-99.1.txt",
+        "chars": 25155,
+        "truncated": false
+      }
+    ]
+  }
+}

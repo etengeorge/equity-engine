@@ -1,0 +1,156 @@
+{
+  "fetched_utc": "2026-11-27T11:26:36+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "WDFC",
+    "cik": 105132,
+    "documents": [
+      {
+        "form": "10-K",
+        "filed": "2026-10-26",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm",
+        "file": "2026-10-26-10-K-wdfc-20260831.htm.txt",
+        "chars": 322090,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-21",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021.htm",
+        "file": "2026-10-21-8-K-wdfc-20261021.htm.txt",
+        "chars": 3576,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-03",
+        "items": "5.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/wdfc-20260901.htm",
+        "file": "2026-09-03-8-K-wdfc-20260901.htm.txt",
+        "chars": 7689,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000061/wdfc-20260531.htm",
+        "file": "2026-07-09-10-Q-wdfc-20260531.htm.txt",
+        "chars": 156715,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000059/wdfc-20260709.htm",
+        "file": "2026-07-09-8-K-wdfc-20260709.htm.txt",
+        "chars": 3557,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.02,7.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000031/wdfc-20260601.htm",
+        "file": "2026-06-04-8-K-wdfc-20260601.htm.txt",
+        "chars": 6917,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000028/wdfc-20260228.htm",
+        "file": "2026-04-09-10-Q-wdfc-20260228.htm.txt",
+        "chars": 149440,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000026/wdfc-20260409.htm",
+        "file": "2026-04-09-8-K-wdfc-20260409.htm.txt",
+        "chars": 3566,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-21",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm",
+        "file": "2026-10-21-EX-99.1.txt",
+        "chars": 22699,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-03",
+        "items": [
+          "5.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000068/exh9911.htm",
+        "file": "2026-09-03-EX-99.1.txt",
+        "chars": 6544,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-09",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000059/wdfc-20260709xexx991.htm",
+        "file": "2026-07-09-EX-99.1.txt",
+        "chars": 24120,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-04",
+        "items": [
+          "5.02",
+          "7.01"
+        ],
+        "item_labels": [
+          "officer or director change",
+          "Reg FD disclosure"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000031/exh991.htm",
+        "file": "2026-06-04-EX-99.1.txt",
+        "chars": 7877,
+        "truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "fetched_utc": "2026-11-27T11:26:40+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "WAY",
+    "cik": 1990354,
+    "documents": [
+      {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000041/way-20260930.htm",
+        "file": "2026-11-02-10-Q-way-20260930.htm.txt",
+        "chars": 187743,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-02",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000040/way-20261102.htm",
+        "file": "2026-11-02-8-K-way-20261102.htm.txt",
+        "chars": 3571,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000035/way-20260630.htm",
+        "file": "2026-07-29-10-Q-way-20260630.htm.txt",
+        "chars": 191482,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000034/way-20260729.htm",
+        "file": "2026-07-29-8-K-way-20260729.htm.txt",
+        "chars": 3520,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-04",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000028/way-20260601.htm",
+        "file": "2026-06-04-8-K-way-20260601.htm.txt",
+        "chars": 4465,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000025/way-20260331.htm",
+        "file": "2026-04-29-10-Q-way-20260331.htm.txt",
+        "chars": 148151,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-04-29",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000024/way-20260429.htm",
+        "file": "2026-04-29-8-K-way-20260429.htm.txt",
+        "chars": 3527,
+        "truncated": false
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-17",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000011/way-20251231.htm",
+        "file": "2026-02-17-10-K-way-20251231.htm.txt",
+        "chars": 400145,
+        "truncated": true
+      },
+      {
+        "filed": "2026-11-02",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000040/way110226-8xkex991.htm",
+        "file": "2026-11-02-EX-99.1.txt",
+        "chars": 35716,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-29",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000034/way072926-8xkex991.htm",
+        "file": "2026-07-29-EX-99.1.txt",
+        "chars": 34006,
+        "truncated": false
+      }
+    ]
+  }
+}

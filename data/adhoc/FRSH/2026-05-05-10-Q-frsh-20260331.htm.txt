@@ -1,0 +1,2343 @@
+0001544522 12/31 2026 Q1 FALSE P1Y 1 1 375 288 288 
+ xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure frsh:segment frsh:purchasePeriod 0001544522 2026-01-01 2026-03-31 0001544522 us-gaap:CommonClassAMember 2026-04-30 0001544522 us-gaap:CommonClassBMember 2026-04-30 0001544522 2026-03-31 0001544522 2025-12-31 0001544522 us-gaap:CommonClassAMember 2025-12-31 0001544522 us-gaap:CommonClassAMember 2026-03-31 0001544522 us-gaap:CommonClassBMember 2026-03-31 0001544522 us-gaap:CommonClassBMember 2025-12-31 0001544522 2025-01-01 2025-03-31 0001544522 us-gaap:CommonStockMember 2025-12-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-12-31 0001544522 us-gaap:RetainedEarningsMember 2025-12-31 0001544522 us-gaap:CommonStockMember 2026-01-01 2026-03-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-03-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-01-01 2026-03-31 0001544522 us-gaap:RetainedEarningsMember 2026-01-01 2026-03-31 0001544522 us-gaap:CommonStockMember 2026-03-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2026-03-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-03-31 0001544522 us-gaap:RetainedEarningsMember 2026-03-31 0001544522 us-gaap:CommonStockMember 2024-12-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2024-12-31 0001544522 us-gaap:RetainedEarningsMember 2024-12-31 0001544522 2024-12-31 0001544522 us-gaap:CommonStockMember 2025-01-01 2025-03-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-03-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-01-01 2025-03-31 0001544522 us-gaap:RetainedEarningsMember 2025-01-01 2025-03-31 0001544522 us-gaap:CommonStockMember 2025-03-31 0001544522 us-gaap:AdditionalPaidInCapitalMember 2025-03-31 0001544522 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-03-31 0001544522 us-gaap:RetainedEarningsMember 2025-03-31 0001544522 2025-03-31 0001544522 frsh:FireHydrantIncMember 2026-01-01 2026-01-01 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:CommercialPaperMember us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:CashEquivalentsMember 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:CommercialPaperNotIncludedWithCashAndCashEquivalentsMember us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:CertificatesOfDepositMember us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:ShortTermInvestmentsMember 2026-03-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:CashEquivalentsMember 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:ShortTermInvestmentsMember 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:ShortTermInvestmentsMember 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:ShortTermInvestmentsMember 2025-12-31 0001544522 us-gaap:CommercialPaperNotIncludedWithCashAndCashEquivalentsMember us-gaap:ShortTermInvestmentsMember 2025-12-31 0001544522 us-gaap:ShortTermInvestmentsMember 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember 2025-12-31 0001544522 frsh:MarketableSecuritiesMember 2026-03-31 0001544522 us-gaap:FairValueMeasurementsNonrecurringMember 2026-03-31 0001544522 us-gaap:FairValueMeasurementsNonrecurringMember 2025-12-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:CertificatesOfDepositMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:CertificatesOfDepositMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:CertificatesOfDepositMember us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2026-03-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-03-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember 2026-03-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:MoneyMarketFundsMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:BankTimeDepositsMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:USTreasurySecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:USGovernmentAgenciesDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:CorporateDebtSecuritiesMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:CommercialPaperMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel1Member 2025-12-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0001544522 us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0001544522 us-gaap:ForeignExchangeForwardMember 2026-03-31 0001544522 us-gaap:ForeignExchangeForwardMember 2025-12-31 0001544522 us-gaap:ComputerEquipmentMember 2026-03-31 0001544522 us-gaap:ComputerEquipmentMember 2025-12-31 0001544522 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2026-03-31 0001544522 us-gaap:SoftwareAndSoftwareDevelopmentCostsMember 2025-12-31 0001544522 us-gaap:OfficeEquipmentMember 2026-03-31 0001544522 us-gaap:OfficeEquipmentMember 2025-12-31 0001544522 us-gaap:FurnitureAndFixturesMember 2026-03-31 0001544522 us-gaap:FurnitureAndFixturesMember 2025-12-31 0001544522 us-gaap:VehiclesMember 2026-03-31 0001544522 us-gaap:VehiclesMember 2025-12-31 0001544522 us-gaap:LeaseholdImprovementsMember 2026-03-31 0001544522 us-gaap:LeaseholdImprovementsMember 2025-12-31 0001544522 us-gaap:ConstructionInProgressMember 2026-03-31 0001544522 us-gaap:ConstructionInProgressMember 2025-12-31 0001544522 frsh:FireHydrantIncMember 2026-03-31 0001544522 frsh:FireHydrantIncMember 2026-01-01 0001544522 frsh:FireHydrantIncMember us-gaap:CustomerRelationshipsMember 2026-01-01 0001544522 frsh:FireHydrantIncMember us-gaap:DevelopedTechnologyRightsMember 2026-01-01 0001544522 frsh:FireHydrantIncMember us-gaap:CustomerRelationshipsMember 2026-01-01 2026-03-31 0001544522 frsh:FireHydrantIncMember us-gaap:DevelopedTechnologyRightsMember 2026-01-01 2026-03-31 0001544522 us-gaap:DevelopedTechnologyRightsMember 2026-03-31 0001544522 us-gaap:DevelopedTechnologyRightsMember 2026-01-01 2026-03-31 0001544522 us-gaap:CustomerRelationshipsMember 2026-03-31 0001544522 us-gaap:CustomerRelationshipsMember 2026-01-01 2026-03-31 0001544522 us-gaap:TrademarksMember 2026-03-31 0001544522 us-gaap:DevelopedTechnologyRightsMember 2025-12-31 0001544522 us-gaap:DevelopedTechnologyRightsMember 2025-01-01 2025-12-31 0001544522 us-gaap:CustomerRelationshipsMember 2025-12-31 0001544522 us-gaap:CustomerRelationshipsMember 2025-01-01 2025-12-31 0001544522 us-gaap:TrademarksMember 2025-12-31 0001544522 us-gaap:CostOfSalesMember 2026-01-01 2026-03-31 0001544522 us-gaap:CostOfSalesMember 2025-01-01 2025-03-31 0001544522 us-gaap:SellingAndMarketingExpenseMember 2026-01-01 2026-03-31 0001544522 us-gaap:SellingAndMarketingExpenseMember 2025-01-01 2025-03-31 0001544522 srt:MinimumMember 2026-03-31 0001544522 srt:MaximumMember 2026-03-31 0001544522 frsh:SubscriptionServicesSoftwareLicensesAndMaintenanceMember 2026-01-01 2026-03-31 0001544522 frsh:SubscriptionServicesSoftwareLicensesAndMaintenanceMember 2025-01-01 2025-03-31 0001544522 frsh:ProfessionalServicesMember 2026-01-01 2026-03-31 0001544522 frsh:ProfessionalServicesMember 2025-01-01 2025-03-31 0001544522 2026-04-01 2026-03-31 0001544522 srt:NorthAmericaMember 2026-01-01 2026-03-31 0001544522 srt:NorthAmericaMember 2025-01-01 2025-03-31 0001544522 us-gaap:EMEAMember 2026-01-01 2026-03-31 0001544522 us-gaap:EMEAMember 2025-01-01 2025-03-31 0001544522 srt:AsiaPacificMember 2026-01-01 2026-03-31 0001544522 srt:AsiaPacificMember 2025-01-01 2025-03-31 0001544522 frsh:GeographicalOtherThanNorthAmericaEuropeMiddleEastAfricaAndAsiaPacificMember 2026-01-01 2026-03-31 0001544522 frsh:GeographicalOtherThanNorthAmericaEuropeMiddleEastAfricaAndAsiaPacificMember 2025-01-01 2025-03-31 0001544522 country:US 2026-01-01 2026-03-31 0001544522 country:US 2025-01-01 2025-03-31 0001544522 country:US us-gaap:GeographicConcentrationRiskMember us-gaap:RevenueFromContractWithCustomerMember 2026-01-01 2026-03-31 0001544522 country:US us-gaap:GeographicConcentrationRiskMember us-gaap:RevenueFromContractWithCustomerMember 2025-01-01 2025-03-31 0001544522 country:GB 2026-01-01 2026-03-31 0001544522 country:GB 2025-01-01 2025-03-31 0001544522 country:GB us-gaap:GeographicConcentrationRiskMember us-gaap:RevenueFromContractWithCustomerMember 2026-01-01 2026-03-31 0001544522 country:GB us-gaap:GeographicConcentrationRiskMember us-gaap:RevenueFromContractWithCustomerMember 2025-01-01 2025-03-31 0001544522 srt:NorthAmericaMember 2026-03-31 0001544522 srt:NorthAmericaMember 2025-12-31 0001544522 us-gaap:EMEAMember 2026-03-31 0001544522 us-gaap:EMEAMember 2025-12-31 0001544522 srt:AsiaPacificMember 2026-03-31 0001544522 srt:AsiaPacificMember 2025-12-31 0001544522 frsh:A2024ShareRepurchaseProgramMember 2024-11-30 0001544522 frsh:A2024ShareRepurchaseProgramMember 2025-01-01 2025-03-31 0001544522 frsh:A2026ShareRepurchaseProgramMember 2026-02-28 0001544522 frsh:A2026ShareRepurchaseProgramMember 2026-01-01 2026-03-31 0001544522 frsh:A2026ShareRepurchaseProgramMember 2026-03-31 0001544522 frsh:EquityIncentiveStockPlan2021Member 2026-03-31 0001544522 frsh:InducementPlan2022Member 2026-03-31 0001544522 frsh:EmployeeStockPurchasePlan2021Member 2026-03-31 0001544522 us-gaap:StockCompensationPlanMember frsh:EquityIncentiveStockPlan2021Member srt:ExecutiveOfficerMember 2026-03-31 0001544522 us-gaap:StockCompensationPlanMember frsh:EquityIncentiveStockPlan2021Member frsh:ExecutiveChairmanMember 2026-03-31 0001544522 us-gaap:EmployeeStockMember 2026-01-01 2026-03-31 0001544522 us-gaap:EmployeeStockMember 2025-01-01 2025-03-31 0001544522 us-gaap:EmployeeStockOptionMember 2026-01-01 2026-03-31 0001544522 2025-01-01 2025-12-31 0001544522 us-gaap:RestrictedStockUnitsRSUMember 2026-01-01 2026-03-31 0001544522 us-gaap:RestrictedStockUnitsRSUMember 2025-12-31 0001544522 us-gaap:RestrictedStockUnitsRSUMember 2026-03-31 0001544522 us-gaap:RestrictedStockUnitsRSUMember 2025-01-01 2025-03-31 0001544522 srt:ExecutiveOfficerMember us-gaap:PerformanceSharesMember 2024-01-01 2024-12-31 0001544522 srt:ExecutiveOfficerMember us-gaap:PerformanceSharesMember 2026-03-31 0001544522 us-gaap:PerformanceSharesMember srt:MinimumMember srt:ExecutiveOfficerMember 2026-03-31 0001544522 us-gaap:PerformanceSharesMember srt:MaximumMember srt:ExecutiveOfficerMember 2026-03-31 0001544522 srt:ExecutiveOfficerMember us-gaap:PerformanceSharesMember 2026-01-01 2026-03-31 0001544522 srt:ExecutiveOfficerMember us-gaap:PerformanceSharesMember 2025-01-01 2025-03-31 0001544522 us-gaap:ResearchAndDevelopmentExpenseMember 2026-01-01 2026-03-31 0001544522 us-gaap:ResearchAndDevelopmentExpenseMember 2025-01-01 2025-03-31 0001544522 us-gaap:GeneralAndAdministrativeExpenseMember 2026-01-01 2026-03-31 0001544522 us-gaap:GeneralAndAdministrativeExpenseMember 2025-01-01 2025-03-31 0001544522 frsh:RestrictedStockUnitsAndPerformanceStockUnitsMember us-gaap:GeneralAndAdministrativeExpenseMember frsh:ExecutiveChairmanMember 2025-01-01 2025-03-31 0001544522 frsh:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-03-31 0001544522 frsh:RestrictedStockUnitsAndPerformanceStockUnitsMember 2026-01-01 2026-03-31 0001544522 us-gaap:EmployeeStockOptionMember 2026-03-31 0001544522 us-gaap:EmployeeStockMember 2026-03-31 0001544522 us-gaap:StockCompensationPlanMember 2026-01-01 2026-03-31 0001544522 us-gaap:StockCompensationPlanMember 2025-01-01 2025-03-31 0001544522 us-gaap:EmployeeStockOptionMember 2026-01-01 2026-03-31 0001544522 us-gaap:EmployeeStockOptionMember 2025-01-01 2025-03-31 0001544522 us-gaap:EmployeeStockMember 2026-01-01 2026-03-31 0001544522 us-gaap:EmployeeStockMember 2025-01-01 2025-03-31 0001544522 srt:ScenarioForecastMember 2026-04-01 2026-06-30 0001544522 srt:MinimumMember srt:ScenarioForecastMember 2026-06-30 0001544522 srt:MaximumMember srt:ScenarioForecastMember 2026-06-30 0001544522 frsh:PhilippaLawrenceMember 2026-01-01 2026-03-31 0001544522 frsh:PhilippaLawrenceMember 2026-03-31 0001544522 frsh:JenniferTaylorMember 2026-01-01 2026-03-31 0001544522 frsh:JenniferTaylorMember 2026-03-31 0001544522 frsh:IanTickleMember 2026-01-01 2026-03-31 0001544522 frsh:IanTickleMember 2026-03-31 
+
+ Table of Contents 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ FORM 10-Q 
+
+ (Mark One) 
+
+ ☒ 
+ 
+ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the quarterly period ended March 31, 2026 
+
+ OR 
+
+ ☐ 
+ 
+ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ For the transition period from ________ to ________ 
+
+ Commission file number 001-40806 
+
+ Freshworks Inc. 
+
+ (Exact name of registrant as specified in its charter) 
+
+ Delaware 
+ 
+ 2950 S Delaware Street , Suite 201 
+ 
+ 33-1218825 
+
+ (State or other jurisdiction of incorporation or organization) 
+ 
+ San Mateo , CA 94403 
+ 
+ (I.R.S. Employer Identification No.) 
+
+ (Address of principal executive offices and Zip Code) 
+
+ ( 650 ) 513-0514 
+
+ (Registrant's telephone number, including area code) 
+
+ Not Applicable 
+
+ (Former name, former address and former fiscal year, if changed since last report) 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ Title of each class Trading Symbol(s) Name of each exchange on which registered 
+
+ Class A common stock, par value $0.00001 per share 
+ 
+ FRSH 
+ 
+ The Nasdaq Stock Market LLC 
+
+ Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports); and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+
+ Table of Contents 
+
+ Large accelerated filer 
+ ☒ 
+ 
+ Accelerated filer 
+ 
+ ☐ 
+
+ Non-accelerated filer 
+ 
+ ☐ 
+ 
+ Smaller reporting company 
+ 
+ ☐ 
+
+ Emerging growth company 
+ 
+ ☐ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 
+
+ As of April 30, 2026, the number of shares of the registrant’s Class A common stock outstanding was 252,359,292 and the number of shares of the registrant’s Class B common stock outstanding was 24,074,875 . 
+
+ Table of Contents 
+
+ FRESHWORKS INC. 
+
+ TABLE OF CONTENTS 
+
+ Page 
+
+ SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS 
+ 
+ 2 
+
+ PART I. FINANCIAL INFORMATION 
+
+ ITEM 1. 
+ Financial Statements (unaudited) 
+ 
+ 4 
+
+ Condensed Consolidated Balance Sheets 
+ 
+ 4 
+
+ Condensed Consolidated Statements of Operations 
+ 
+ 5 
+
+ Condensed Consolidated Statements of Comprehensive Loss 
+ 
+ 6 
+
+ Condensed Consolidated Statements of Stockholders’ Equity 
+ 
+ 7 
+
+ Condensed Consolidated Statements of Cash Flows 
+ 
+ 8 
+
+ Notes to Condensed Consolidated Financial Statements 
+ 
+ 9 
+
+ ITEM 2. 
+ Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+ 
+ 27 
+
+ ITEM 3. 
+ Quantitative and Qualitative Disclosures about Market Risk 
+ 
+ 38 
+
+ ITEM 4. 
+ Controls and Procedures 
+ 
+ 39 
+
+ PART II. OTHER INFORMATION 
+
+ ITEM 1. 
+ Legal Proceedings 
+ 
+ 40 
+
+ ITEM 1A. 
+ Risk Factors 
+ 
+ 40 
+
+ ITEM 2. 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 
+ 40 
+
+ ITEM 3. 
+ Defaults Upon Senior Securities 
+ 
+ 41 
+
+ ITEM 4. 
+ Mine Safety Disclosures 
+ 
+ 41 
+
+ ITEM 5. 
+ Other Information 
+ 
+ 41 
+
+ ITEM 6. 
+ Exhibits 
+ 
+ 42 
+
+ SIGNATURES 
+ 
+ 43 
+
+ 1 
+
+ Table of Contents 
+
+ As used in this report, the terms “Freshworks,” “registrant,” “we,” “us,” and “our” mean Freshworks Inc. and its subsidiaries unless the context indicates otherwise. 
+
+ SPECIAL NOTE ABOUT FORWARD-LOOKING STATEMENTS 
+
+ This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (Exchange Act), about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our future results of operations and financial condition, business strategy, and plans and objectives of management for future operations are forward-looking statements. In some cases, forward-looking statements may be identified by words such as “aim,”, “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will” or “would,” or the negative of these words or other similar terms or expressions. These forward-looking statements include, but are not limited to, statements concerning the following: 
+
+ • our expectations regarding our annual recurring revenue (ARR), revenue, expenses, and other operating results; 
+
+ • our ability to acquire new customers and successfully retain existing customers; 
+
+ • our ability to increase the number of users who access our platform; 
+
+ • our ability to innovate and launch new products; 
+
+ • our ability to increase usage of existing products; 
+
+ • our ability to achieve or sustain profitability; 
+
+ • future investments in our business, our anticipated capital expenditures, and our estimates regarding our capital requirements; 
+
+ • the costs and success of our sales and marketing efforts, and our ability to maintain and enhance our brand; 
+
+ • the estimated addressable market opportunity for existing products and new products; 
+
+ • our reliance on key personnel and our ability to identify, recruit, and retain skilled personnel; 
+
+ • our ability to effectively manage our growth, including any international expansion; 
+
+ • our ability to successfully integrate acquired businesses; 
+
+ • the effects of macroeconomic uncertainties, including high interest rates, foreign exchange rate volatility, global geopolitical uncertainties, inflationary pressures, and other macroeconomic factors beyond our control; 
+
+ • our ability to protect our intellectual property rights and any costs associated therewith; 
+
+ • our ability to compete effectively with existing competitors and new market entrants; and 
+
+ • the size and growth rates of the markets in which we compete. 
+
+ You should not rely on forward-looking statements as predictions of future events. We have based the forward-looking statements contained in this Quarterly Report on Form 10-Q primarily on our current expectations and projections about future events and trends that we believe may affect our business, financial condition and operating results. The outcome of the events described in these forward-looking statements is subject to risks, uncertainties and other factors described in the section titled “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025 and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a very 
+
+ 2 
+
+ Table of Contents 
+
+ competitive and rapidly changing environment. New risks and uncertainties emerge from time to time, and it is not possible for us to predict all risks and uncertainties that could have an impact on the forward-looking statements contained in this Quarterly Report on Form 10-Q. The results, events, and circumstances reflected in the forward-looking statements may not be achieved or occur, and actual results, events, or circumstances could differ materially from those described in the forward-looking statements. 
+
+ In addition, statements that “we believe” and similar statements reflect our beliefs and opinions on the relevant subject. These statements are based on information available to us as of the date of this Quarterly Report on Form 10-Q. While we believe that such information provides a reasonable basis for these statements, that information may be limited or incomplete. Our statements should not be read to indicate that we have conducted an exhaustive inquiry into, or review of, all relevant information. These statements are inherently uncertain, and investors are cautioned not to unduly rely on these statements. 
+
+ The forward-looking statements made in this Quarterly Report on Form 10-Q relate only to events as of the date on which the statements are made. We undertake no obligation to update any forward-looking statements made in this Quarterly Report on Form 10-Q to reflect events or circumstances after the date of this Quarterly Report on Form 10-Q or to reflect new information or the occurrence of unanticipated events, except as required by law. We may not actually achieve the plans, intentions or expectations disclosed in our forward-looking statements, and you should not place undue reliance on our forward-looking statements. Our forward-looking statements do not reflect the potential impact of any future acquisitions, mergers, dispositions, joint ventures or investments. 
+
+ Where You Can Find More Information 
+
+ We announce material information to the public through a variety of means, including filings with the U.S. Securities and Exchange Commission, press releases, public conference calls, our website (freshworks.com), the investor relations section of our website (ir.freshworks.com), our LinkedIn account (linkedin.com/company/freshworks-inc/), and our X (formerly Twitter) account (@FreshworksInc). We use these channels to communicate with investors and the public about our company, our products and services and other matters. Therefore, we encourage investors, the media and others interested in our company to review the information we make public in these locations, as such information could be deemed to be material information. 
+
+ 3 
+
+ Table of Contents 
+
+ PART I. FINANCIAL INFORMATION 
+
+ ITEM 1. FINANCIAL STATEMENTS (UNAUDITED) 
+
+ FRESHWORKS INC. 
+
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+
+ (in thousands, except share and per share amounts) 
+
+ (unaudited) 
+
+ March 31, 2026 December 31, 2025 
+
+ Assets 
+
+ Current assets: 
+
+ Cash and cash equivalents $ 548,168 $ 569,774 
+
+ Restricted cash, current 1,160 62,374 
+
+ Marketable securities 231,069 211,597 
+
+ Accounts receivable, net of allowance of $ 9,674 and $ 10,809 
+ 127,338 150,817 
+
+ Deferred contract acquisition costs 30,927 29,830 
+
+ Prepaid expenses and other current assets 68,148 72,774 
+
+ Total current assets 1,006,810 1,097,166 
+
+ Property and equipment, net 44,222 38,843 
+
+ Operating lease right-of-use assets 36,968 39,893 
+
+ Deferred contract acquisition costs, noncurrent 27,712 27,179 
+
+ Goodwill 199,324 146,676 
+
+ Intangible assets, net 96,703 76,986 
+
+ Deferred tax assets 176,017 157,466 
+
+ Other assets 17,626 18,503 
+
+ Total assets $ 1,605,382 $ 1,602,712 
+
+ Liabilities and Stockholders' Equity 
+
+ Current liabilities: 
+
+ Accounts payable $ 18,578 $ 11,507 
+
+ Accrued liabilities 109,405 101,202 
+
+ Deferred revenue 392,070 385,320 
+
+ Total current liabilities 520,053 498,029 
+
+ Operating lease liabilities, non-current 29,402 33,282 
+
+ Other liabilities 36,726 38,751 
+
+ Total liabilities 586,181 570,062 
+
+ Commitments and contingencies (Note 8) 
+
+ Stockholders' equity: 
+
+ Preferred stock, $ 0.00001 par value per share; 10,000,000 shares authorized; zero shares issued and outstanding 
+ — — 
+
+ Class A common stock, $ 0.00001 par value per share; 1,000,000,000 shares authorized; 243,933,616 and 248,359,124 shares issued and outstanding 
+ 2 2 
+
+ Class B common stock, $ 0.00001 par value per share; 350,000,000 shares authorized; 35,047,987 and 35,067,987 shares issued and outstanding 
+ 1 1 
+
+ Additional paid-in capital 4,579,812 4,586,392 
+
+ Accumulated other comprehensive loss 
+ ( 3,650 ) ( 1,591 ) 
+
+ Accumulated deficit ( 3,556,964 ) ( 3,552,154 ) 
+
+ Total stockholders' equity 1,019,201 1,032,650 
+
+ Total liabilities and stockholders' equity $ 1,605,382 $ 1,602,712 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 4 
+
+ FRESHWORKS INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS 
+
+ (in thousands, except per share amounts) 
+
+ (unaudited) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Revenue $ 228,633 $ 196,273 
+
+ Cost of revenue 34,688 29,878 
+
+ Gross profit 193,945 166,395 
+
+ Operating expense: 
+
+ Research and development 49,261 40,001 
+
+ Sales and marketing 112,317 89,158 
+
+ General and administrative 40,427 47,247 
+
+ Restructuring charges 
+ — 405 
+
+ Total operating expenses 202,005 176,811 
+
+ Loss from operations ( 8,060 ) ( 10,416 ) 
+
+ Interest and other income, net 1,426 12,969 
+
+ Income (loss) before income taxes 
+ ( 6,634 ) 2,553 
+
+ Provision for (benefit from) income taxes ( 1,824 ) 3,857 
+
+ Net loss $ ( 4,810 ) $ ( 1,304 ) 
+
+ Net loss per share - basic and diluted $ ( 0.02 ) $ — 
+
+ Weighted average number of shares - basic and diluted 
+ 283,336 301,280 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 5 
+
+ FRESHWORKS INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE LOSS 
+
+ (in thousands) 
+
+ (unaudited) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Net loss 
+ 
+ $ 
+ 
+ ( 4,810 ) 
+
+ $ 
+ 
+ ( 1,304 ) 
+
+ Other comprehensive income (loss): 
+
+ Change in unrealized gain or loss on marketable securities 
+ 
+ ( 224 ) 
+
+ ( 314 ) 
+
+ Net change on cash flow hedges 
+ 
+ ( 1,835 ) 
+
+ 1,260 
+
+ Total other comprehensive income (loss) 
+ 
+ ( 2,059 ) 
+
+ 946 
+
+ Comprehensive loss 
+ 
+ $ 
+ 
+ ( 6,869 ) 
+
+ $ 
+ 
+ ( 358 ) 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 6 
+
+ FRESHWORKS INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY 
+
+ (in thousands) 
+
+ (unaudited) 
+
+ Three Months Ended March 31, 2026 
+
+ Common Stock Additional
+Paid-in
+Capital 
+ Accumulated Other Comprehensive Income (Loss) 
+ Accumulated Deficit Total Stockholders' 
+Equity 
+
+ Shares Amount 
+
+ Balances as of December 31, 2025 283,427 $ 3 $ 4,586,392 $ ( 1,591 ) $ ( 3,552,154 ) $ 1,032,650 
+
+ Issuance of common stock upon vesting and settlement of restricted stock units, net of shares withheld for taxes 1,253 — ( 7,511 ) — — ( 7,511 ) 
+
+ Repurchase and retirement of common stock, including excise tax 
+ ( 5,698 ) — ( 45,740 ) — — ( 45,740 ) 
+
+ Stock-based compensation — — 46,671 — — 46,671 
+
+ Other comprehensive loss 
+ — — — ( 2,059 ) — ( 2,059 ) 
+
+ Net loss — — — — ( 4,810 ) ( 4,810 ) 
+
+ Balances as of March 31, 2026 278,982 $ 3 $ 4,579,812 $ ( 3,650 ) $ ( 3,556,964 ) $ 1,019,201 
+
+ Three Months Ended March 31, 2025 
+
+ Common Stock Additional
+Paid-in
+Capital 
+ Accumulated Other Comprehensive Income (Loss) 
+ Accumulated Deficit Total Stockholders' Equity 
+
+ Shares Amount 
+
+ Balances as of December 31, 2024 303,382 $ 3 $ 4,874,133 $ ( 338 ) $ ( 3,735,877 ) $ 1,137,921 
+
+ Issuance of common stock upon exercise of stock options 146 — 48 — — 48 
+
+ Issuance of common stock upon vesting and settlement of restricted stock units, net of shares withheld for taxes 1,584 — ( 16,754 ) — — ( 16,754 ) 
+
+ Repurchase and retirement of common stock, including excise tax 
+ ( 6,732 ) — ( 111,977 ) — — ( 111,977 ) 
+
+ Stock-based compensation — — 52,950 — — 52,950 
+
+ Other comprehensive income 
+ — — — 946 — 946 
+
+ Net loss — — — — ( 1,304 ) ( 1,304 ) 
+
+ Balances as of March 31, 2025 298,380 $ 3 $ 4,798,400 $ 608 $ ( 3,737,181 ) $ 1,061,830 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 7 
+
+ FRESHWORKS INC. 
+
+ CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS 
+
+ (in thousands) 
+
+ (unaudited) 
+
+ Three Months Ended
+March 31, 
+
+ 2026 2025 
+
+ Cash Flows from Operating Activities: 
+
+ Net loss $ ( 4,810 ) $ ( 1,304 ) 
+
+ Adjustments to reconcile net loss to net cash provided by operating activities: 
+
+ Depreciation and amortization 7,863 6,360 
+
+ Amortization of deferred contract acquisition costs 8,567 7,583 
+
+ Non-cash lease expense 2,925 2,303 
+
+ Stock-based compensation 43,921 51,664 
+
+ Discount amortization on marketable securities 
+ ( 947 ) ( 1,901 ) 
+
+ Deferred income taxes ( 5,865 ) ( 459 ) 
+
+ Other 7,808 ( 17 ) 
+
+ Changes in operating assets and liabilities: 
+
+ Accounts receivable 24,917 10,594 
+
+ Deferred contract acquisition costs ( 10,197 ) ( 8,704 ) 
+
+ Prepaid expenses and other assets ( 12,564 ) ( 15,317 ) 
+
+ Accounts payable 6,894 526 
+
+ Accrued and other liabilities ( 3,442 ) ( 496 ) 
+
+ Deferred revenue 1,027 7,049 
+
+ Operating lease liabilities ( 3,708 ) 92 
+
+ Net cash provided by operating activities 
+ 62,389 57,973 
+
+ Cash Flows from Investing Activities: 
+
+ Purchases of property and equipment ( 3,901 ) ( 1,296 ) 
+
+ Proceeds from sale of property and equipment 5 38 
+
+ Capitalized internal-use software ( 3,379 ) ( 2,772 ) 
+
+ Purchases of marketable securities ( 147,421 ) ( 121,933 ) 
+
+ Maturities and redemptions of marketable securities 129,351 172,194 
+
+ Business combination, net of cash acquired ( 56,913 ) — 
+
+ Net cash provided by (used in) investing activities ( 82,258 ) 46,231 
+
+ Cash Flows from Financing Activities: 
+
+ Proceeds from exercise of stock options — 48 
+
+ Payment of withholding taxes on net share settlement of equity awards ( 7,160 ) ( 16,711 ) 
+
+ Repurchase of common stock 
+ ( 48,369 ) ( 113,610 ) 
+
+ Net cash used in financing activities ( 55,529 ) ( 130,273 ) 
+
+ Effects of exchange rate changes on cash, cash equivalents and restricted cash 
+ ( 7,521 ) — 
+
+ Net decrease in cash, cash equivalents and restricted cash 
+ ( 82,919 ) ( 26,069 ) 
+
+ Cash, cash equivalents and restricted cash, beginning of period 632,250 620,405 
+
+ Cash, cash equivalents and restricted cash, end of period $ 549,331 $ 594,336 
+
+ Reconciliation of cash, cash equivalents and restricted cash to condensed consolidated balance sheets: 
+
+ Cash and cash equivalents $ 548,168 $ 594,243 
+
+ Restricted cash included in prepaid expenses and other current assets 1,160 3 
+
+ Restricted cash included in other assets 3 90 
+
+ Total cash, cash equivalents and restricted cash $ 549,331 $ 594,336 
+
+ Supplemental cash flow information: 
+
+ Cash paid for taxes $ 2,805 $ 3,473 
+
+ Non-cash investing and financing activities: 
+
+ Property and equipment purchases in accounts payable 
+ $ 1,752 $ 110 
+
+ Operating lease right-of-use assets obtained in exchange for operating lease obligations, net of modifications $ — $ 1,474 
+
+ Stock-based compensation capitalized as internal-use software $ 711 $ 692 
+
+ Excise tax liability accrued for common stock repurchased $ 332 $ 208 
+
+ The accompanying notes are an integral part of these condensed consolidated financial statements. 
+
+ 8 
+
+ Table of Contents 
+
+ FRESHWORKS INC. 
+
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+
+ (UNAUDITED) 
+
+ 1. Basis of Presentation and Summary of Significant Accounting Policies 
+
+ Basis of Presentation and Principles of Consolidation 
+ 
+ The accompanying condensed consolidated financial statements of Freshworks Inc. and its subsidiaries have been prepared in conformity with accounting principles generally accepted in the United States of America (GAAP). All intercompany balances and transactions have been eliminated in consolidation. 
+ 
+ The accompanying condensed consolidated balance sheet as of March 31, 2026, the condensed consolidated statements of operations, of comprehensive loss, of cash flows, and of stockholders’ equity for the three months ended March 31, 2026 and 2025, and the related notes to such condensed consolidated financial statements are unaudited. These unaudited condensed consolidated financial statements are presented in accordance with the rules and regulations of the U.S. Securities and Exchange Commission (SEC) and do not include all disclosures normally required in annual consolidated financial statements prepared in accordance with GAAP. In management’s opinion, the unaudited condensed consolidated financial statements have been prepared on a basis consistent with the annual consolidated financial statements and reflect all adjustments, which include only normal recurring adjustments, necessary for the fair statement of our financial position as of March 31, 2026 and our results of operations and cash flows for the three months ended March 31, 2026 and 2025. The results of operations for the three months ended March 31, 2026 are not necessarily indicative of the results to be expected for the full year or any other future interim or annual period. 
+
+ The condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements and notes included in our Annual Report on Form 10-K for the year ended December 31, 2025 which was filed with the SEC on February 26, 2026. 
+
+ In January 2026, we acquired all outstanding shares of FireHydrant, Inc., an incident management software company, for $ 88.7 million. See Note 5 - Business Combinations. 
+ 
+ Use of Estimates 
+
+ The preparation of the condensed consolidated financial statements in accordance with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the consolidated financial statements, and the reported amounts of revenue and expense during the reporting periods. Significant items subject to such estimates and assumptions include, but are not limited to, the following: 
+
+ • determination of standalone selling price (SSP) for each distinct performance obligation included in customer contracts with multiple performance obligations; 
+
+ • allowance for doubtful accounts; 
+
+ • benefit period of deferred contract acquisition costs; 
+
+ • capitalization of internal-use software development costs; 
+
+ • fair value of goodwill; 
+
+ • useful lives of long-lived assets, including intangible assets; 
+
+ • valuation of deferred tax assets; 
+
+ • valuation of employee defined benefit plan and other compensation liabilities; 
+
+ 9 
+
+ Table of Contents 
+
+ • fair value of share-based awards; and 
+
+ • incremental borrowing rate used for operating leases. 
+ 
+ Concentrations of Risk 
+
+ Financial instruments that potentially expose us to significant concentration of credit risk consist primarily of cash, cash equivalents, marketable securities, and accounts receivable. Our cash, cash equivalents and marketable securities are generally held with large financial institutions and are in excess of the federally insured limits provided on such deposits. In addition, we have cash and cash equivalents held in international bank accounts, which are denominated primarily in euros, British pounds, and Indian rupees. 
+
+ There were no customers that individually exceeded 10% of our revenue for the three months ended March 31, 2026 and 2025 or that represented 10% or more of our consolidated accounts receivable balance as of March 31, 2026. 
+
+ We primarily rely upon our third-party cloud infrastructure partner, Amazon Web Services, to serve customers and operate certain aspects of its services. Any disruption of this cloud infrastructure partner would impact our operations and our business could be adversely impacted. 
+ 
+ Significant Accounting Policies 
+
+ Our significant accounting policies are described in the Annual Report on Form 10-K for the year ended December 31, 2025. Except for the updated policy regarding credit losses described below, there have been no significant changes to these policies that have had a material impact on the condensed consolidated financial statements and the related notes for the three months ended March 31, 2026. 
+ 
+ Accounts Receivable and Contract Assets 
+ 
+ Effective January 1, 2026, we elected to apply the practical expedient provided by ASU 2025-05 to measure expected credit losses for qualifying current accounts receivable and contract assets and assume that current conditions as of the balance sheet date do not change for the remaining life of the asset. See "Recent Adopted Accounting Pronouncements" below for further details. 
+ 
+ Recent Adopted Accounting Pronouncements 
+
+ In July 2025, the FASB issued ASU 2025-05, Financial Instruments-Credit Losses: Measurement of Credit Losses for Accounts Receivable and Contract Assets, which provides a practical expedient to measure credit losses on current accounts receivable and current contract assets under Accounting Standards Codification 606, Revenue from Contracts with Customers. The practical expedient assumes that current conditions as of the balance sheet date do not change for the remaining life of the asset. Effective January 1, 2026, we adopted this guidance. The adoption of this standard did not have a material impact on our condensed consolidated financial statements and related disclosures. 
+
+ Recent Accounting Pronouncements Not Yet Adopted 
+
+ In December 2025, the FASB issued ASU 2025-11, Interim Reporting (Topic 270): Narrow-Scope Improvements, which clarifies that the interim reporting requirements in Topic 270 apply to all entities that issue interim financial statements prepared in accordance with U.S. GAAP and consolidates such requirements within Topic 270. The amendments provide a comprehensive list within Topic 270 of required interim disclosures, establish a principle requiring disclosure of events or changes occurring after the end of the most recent annual reporting period that have a material impact on interim results. and clarifies the form and content requirements applicable to interim financial statements. ASU 2025-11 will be effective for our interim periods starting January 1, 2028, with early adoption permitted. This guidance is only related to disclosure and is not expected to have a significant impact on our consolidated financial statements. 
+
+ 10 
+
+ Table of Contents 
+
+ In September 2025, the Financial Accounting Standards Board (FASB) issued ASU 2025-06, Intangibles-Goodwill and Other-Internal-Use Software: Targeted Improvements to the Accounting for Internal-Use Software. ASU 2025‑06 updates guidance on accounting for software costs by aligning capitalization with when management commits to funding a project and completion is probable. Additionally, the ASU introduces new disclosure requirements, including significant judgments made in applying the guidance and the nature and amount of capitalized software costs. This guidance is effective for us starting in our annual and interim disclosures for periods starting January 1, 2028. Early adoption is permitted. We are currently assessing the impact of this update on our condensed consolidated financial statements, including which transition method to apply. 
+
+ In November 2024, the FASB issued ASU No. 2024-03, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures. Additionally, in January 2025, the FASB issued ASU 2025-01 to clarify the effective date of ASU 2024-03. The standard provides guidance to expand disclosures related to the disaggregation of income statement expenses, which requires more detailed information about specified categories of expenses included in certain expense captions presented on the face of the income statement. This authoritative guidance is effective for us starting in our annual disclosures for 2027 and interim periods starting 2028. Early adoption is permitted. The amendments may be applied either (1) prospectively to financial statements issued for reporting periods after the effective date of this ASU or (2) retrospectively to all prior periods presented in the financial statements. This guidance is only related to disclosure and is not expected to have a significant impact on our condensed consolidated financial statements. 
+
+ 2. Cash Equivalents and Investments 
+ 
+ Cash equivalents and available-for-sale debt securities consisted of the following as of the periods presented below (in thousands): 
+
+ March 31, 2026 
+
+ Amortized Cost Unrealized Gains Unrealized Losses Fair Value 
+
+ Cash equivalents: 
+
+ Money market funds $ 359,980 $ — $ — $ 359,980 
+
+ U.S. treasury securities 50,133 — ( 2 ) 50,131 
+
+ U.S. government agency securities 17,421 — ( 1 ) 17,420 
+
+ Commercial paper 
+ 10,242 — — 10,242 
+
+ Fixed deposits 
+ 39,578 — — 39,578 
+
+ Total cash equivalents 477,354 — ( 3 ) 477,351 
+
+ Debt securities: 
+
+ U.S. treasury securities 96,273 11 ( 18 ) 96,266 
+
+ U.S. government agency securities 17,389 4 ( 9 ) 17,384 
+
+ Corporate debt securities 25,977 4 ( 13 ) 25,968 
+
+ Commercial paper 
+ 5,274 — — 5,274 
+
+ Certificates of deposit 
+ 86,177 — — 86,177 
+
+ Total debt securities 231,090 19 ( 40 ) 231,069 
+
+ Total cash equivalents and debt securities $ 708,444 $ 19 $ ( 43 ) $ 708,420 
+
+ 11 
+
+ Table of Contents 
+
+ December 31, 2025 
+
+ Amortized Cost Unrealized Gains Unrealized Losses Fair Value 
+
+ Cash equivalents: 
+
+ Money market funds $ 120,923 $ — $ — $ 120,923 
+
+ U.S. treasury securities 100,235 16 — 100,251 
+
+ U.S. government agency securities 26,168 3 ( 1 ) 26,170 
+
+ Corporate debt securities 47,466 — — 47,466 
+
+ Fixed deposits 129,875 — — 129,875 
+
+ Total cash equivalents 424,667 19 ( 1 ) 424,685 
+
+ Debt securities: 
+
+ U.S. treasury securities 131,286 102 ( 9 ) 131,379 
+
+ U.S. government agency securities 30,868 40 — 30,908 
+
+ Corporate debt securities 36,878 69 ( 6 ) 36,941 
+
+ Commercial paper 
+ 12,369 — — 12,369 
+
+ Total debt securities 211,401 211 ( 15 ) 211,597 
+
+ Total cash equivalents and debt securities $ 636,068 $ 230 $ ( 16 ) $ 636,282 
+
+ The following table presents gross unrealized losses and fair values for the securities that were in a continuous unrealized loss position as of the periods presented below (in thousands): 
+
+ March 31, 2026 
+
+ Less than 12 months Greater than 12 months Total 
+
+ Fair Value Unrealized Loss Fair Value Unrealized Loss Fair Value Unrealized Loss 
+
+ U.S. treasury securities $ 69,813 $ ( 18 ) $ — $ — $ 69,813 $ ( 18 ) 
+
+ U.S. government agency securities 8,715 ( 9 ) — — 8,715 ( 9 ) 
+
+ Corporate debt securities 20,957 ( 13 ) — — 20,957 ( 13 ) 
+
+ Total $ 99,485 $ ( 40 ) $ — $ — $ 99,485 $ ( 40 ) 
+
+ December 31, 2025 
+
+ Less Than 12 Months 12 Months or Greater Total 
+
+ Fair Value Unrealized Loss Fair Value Unrealized Loss Fair Value Unrealized Loss 
+
+ U.S. treasury securities $ 21,500 $ ( 9 ) $ — $ — $ 21,500 $ ( 9 ) 
+
+ Corporate debt securities 7,495 ( 6 ) — — 7,495 ( 6 ) 
+
+ Total $ 28,995 $ ( 15 ) $ — $ — $ 28,995 $ ( 15 ) 
+
+ 12 
+
+ Table of Contents 
+
+ The amortized cost and fair value of the available-for-sale debt securities based on contractual maturities are as follows (in thousands): 
+
+ March 31, 2026 
+
+ Amortized Cost Fair Value 
+
+ Due within one year $ 214,598 $ 214,596 
+
+ Due after one year but within five years 16,492 16,473 
+
+ Total $ 231,090 $ 231,069 
+
+ Accrued interest receivable of $ 1.1 million and $ 1.5 million was classified in prepaid expenses and other current assets in the condensed consolidated balance sheet as of March 31, 2026 and December 31, 2025, respectively. 
+
+ 3. Fair Value Measurements 
+ 
+ We measure our financial assets at fair value each reporting period using a fair value hierarchy that prioritizes the use of observable inputs and minimizes the use of unobservable inputs when measuring fair value. The hierarchy gives the highest priority to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1 measurements) and the lowest priority to measurements involving significant unobservable inputs (Level 3 measurements). The three levels of the fair value hierarchy are as follows: 
+
+ Level 1 —Inputs are observable and reflect quoted prices in active markets for identical assets or liabilities that we have the ability to access at the measurement date. 
+
+ Level 2 —Inputs other than quoted prices included within Level 1 that are observable, either directly or indirectly. 
+
+ Level 3 —Inputs that are unobservable. 
+ 
+ Money market funds and U.S. treasury securities are classified within Level 1 because they are valued using quoted market prices or alternative pricing sources and models utilizing market observable inputs. Other debt securities and investments are classified within Level 2 if the investments are valued using model driven valuations which use observable inputs such as quoted market prices, benchmark yields, reported trades, broker/dealer quotes or alternative pricing sources with reasonable levels of price transparency. Available-for-sale debt securities are held by custodians who obtain investment prices from a third-party pricing provider that incorporates standard inputs in various asset price models. 
+
+ We did not have any assets or liabilities subject to fair value remeasurement on a nonrecurring basis as of March 31, 2026 and December 31, 2025. 
+
+ 13 
+
+ Table of Contents 
+
+ Assets and Liabilities Measured at Fair Value on a Recurring Basis 
+ 
+ The following table represents the fair value hierarchy for our financial assets measured at fair value on a recurring basis as of the periods presented below (in thousands): 
+
+ March 31, 2026 
+
+ Fair Value Measured Using 
+
+ Level 1 Level 2 Total 
+
+ Financial assets: 
+
+ Cash equivalents: 
+
+ Money market funds $ 359,980 $ — $ 359,980 
+
+ U.S. treasury securities 50,131 — 50,131 
+
+ U.S. government agency securities — 17,420 17,420 
+
+ Corporate debt securities 
+ — 10,242 10,242 
+
+ Short term fixed deposits 
+ — 39,578 39,578 
+
+ Marketable securities: 
+
+ U.S. treasury securities 96,266 — 96,266 
+
+ U.S. government agency securities — 17,384 17,384 
+
+ Corporate debt securities — 25,968 25,968 
+
+ Commercial paper 
+ — 5,274 5,274 
+
+ Certificates of deposit 
+ — 86,177 86,177 
+
+ Total financial assets $ 506,377 $ 202,043 $ 708,420 
+
+ December 31, 2025 
+
+ Fair Value Measured Using 
+
+ Level 1 Level 2 Total 
+
+ Financial assets: 
+
+ Cash equivalents: 
+
+ Money market funds $ 120,923 $ — $ 120,923 
+
+ U.S. treasury securities 100,251 — 100,251 
+
+ U.S. government agency securities — 26,170 26,170 
+
+ Commercial paper — 47,466 47,466 
+
+ Fixed deposits — 129,875 129,875 
+
+ Marketable securities: 
+
+ U.S. treasury securities 131,379 — 131,379 
+
+ U.S. government agency securities — 30,908 30,908 
+
+ Corporate debt securities — 36,941 36,941 
+
+ Commercial paper — 12,369 12,369 
+
+ Total financial assets $ 352,553 $ 283,729 $ 636,282 
+
+ The fair value of derivative assets and liabilities as of March 31, 2026, and all related unrealized and realized gains and losses during the three months ended March 31, 2026, were not material. As of March 31, 2026 and December 31, 2025, the total notional amount of outstanding designated foreign currency forward contracts was $ 84.0 million and $ 86.7 million, respectively. 
+
+ 14 
+
+ Table of Contents 
+
+ 4. Balance Sheet Components 
+
+ Property and Equipment, net 
+ 
+ The following table summarizes property and equipment, net as of the periods presented below (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Computers $ 19,237 $ 18,835 
+
+ Capitalized internal-use software 57,334 53,245 
+
+ Office equipment 7,980 7,887 
+
+ Furniture and fixtures 9,737 9,518 
+
+ Motor vehicles 239 267 
+
+ Leasehold improvements 8,918 8,994 
+
+ Construction in progress 4,600 269 
+
+ Total property and equipment 108,045 99,015 
+
+ Less: accumulated depreciation and amortization ( 63,823 ) ( 60,172 ) 
+
+ Property and equipment, net $ 44,222 $ 38,843 
+
+ The following table summarizes depreciation expense and internal-use software capitalization and amortization during the periods presented below (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Capitalization of costs associated with internal-use software 
+ $ 4,090 $ 3,464 
+
+ Amortization expense of capitalized internal-use software 
+ 2,507 1,639 
+
+ Depreciation expense 
+ $ 1,173 $ 1,207 
+
+ As of March 31, 2026 and December 31, 2025, the net carrying value of capitalized internal-use software was $ 27.6 million and $ 26.1 million, respectively. 
+
+ Accrued Liabilities 
+ 
+ The following table summarizes accrued liabilities as of the periods presented below (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ Accrued compensation $ 23,577 $ 28,233 
+
+ Acquisition-related liabilities 9,043 — 
+
+ Accrued third-party cloud infrastructure expenses 5,612 5,922 
+
+ Accrued reseller commissions 10,961 11,512 
+
+ Accrued advertising and marketing expenses 7,921 7,835 
+
+ Advanced payments from customers 5,783 6,097 
+
+ Accrued taxes 17,004 14,499 
+
+ Operating lease liabilities, current 9,393 9,221 
+
+ Contributions withheld for employee stock purchase plan 3,017 1,198 
+
+ Income tax payable 
+ 698 3,571 
+
+ Other accrued expenses 16,396 13,114 
+
+ Total accrued liabilities $ 109,405 $ 101,202 
+
+ Noncurrent liabilities include $ 19.5 million and $ 21.1 million of long term accrued compensation as of March 31, 2026 and December 31, 2025, respectively. 
+
+ 15 
+
+ Table of Contents 
+
+ 5. Business Combinations 
+
+ On January 1, 2026, we acquired all outstanding shares of FireHydrant, Inc., an incident management software company, for $ 88.7 million in cash, including $ 4.3 million of cash acquired, to expand its IT service and operations portfolio. As of March 31, 2026, $ 9.0 million in unpaid indemnity and purchase price adjustment holdbacks were recorded within accrued liabilities in our condensed consolidated balance sheets. The purchase price is subject to customary post-closing adjustments and conditions. 
+
+ All existing FireHydrant stock options were canceled, and we issued new time-based and performance-based RSUs to certain continuing employees under our 2021 Equity Incentive Plan. These awards were excluded from the purchase consideration and will be recognized as post-combination compensation expense over their requisite service periods. Refer to Note 11—Stockholders' Equity and Stock-Based Compensation. 
+ 
+ The following table summarizes the preliminary fair value of assets acquired and liabilities assumed as of the date of acquisition: 
+
+ Amount 
+
+ (in thousands) 
+
+ Assets acquired: 
+
+ Cash and cash equivalents 
+ $ 4,349 
+
+ Other current assets 
+ 1,928 
+
+ Customer relationship 
+ 13,200 
+
+ Developed technology 
+ 10,700 
+
+ Goodwill 
+ 52,648 
+
+ Deferred tax assets 
+ 13,084 
+
+ Total 
+ $ 95,909 
+
+ Liabilities assumed: 
+
+ Current liabilities 
+ $ 7,172 
+
+ Total 
+ $ 7,172 
+
+ Total purchase price consideration 
+ $ 88,737 
+
+ The assets acquired and liabilities assumed were recognized at their estimated acquisition-date fair values, with goodwill representing the excess of the purchase price over the fair value of the net identifiable assets acquired. Goodwill includes the fair value of assets that were not identifiable and as such, not separately recognizable. Goodwill recognized from the transaction is not deductible for U.S. income tax purposes and primarily reflects expected synergies from FireHydrant’s customer base and technology. 
+
+ The Company expects to finalize the purchase price allocation within the measurement period, but not later than one year from the acquisition date. The fair values assigned to assets acquired and liabilities assumed are based on management’s best estimates and assumptions as of the acquisition date and are considered preliminary pending finalization of the valuation pertaining to intangible assets acquired, deferred tax assets and liabilities assumed. 
+
+ Customer relationships and developed technology were valued using the income approach and will be amortized on a straight-line basis over their estimated lives of 7 years. 
+ 
+ FireHydrant's operating results are included in our condensed consolidated financial statements from the acquisition date and are not material to our financial results, as well as any transaction costs associated with the acquisition. 
+
+ 16 
+
+ Table of Contents 
+
+ 6. Goodwill and Intangible Assets, Net 
+ 
+ The change in the carrying amounts of goodwill during the three months ended March 31, 2026 is presented below (in thousands): 
+
+ Balance as of December 31, 2025 $ 146,676 
+
+ Goodwill acquired (Note 5) 
+ 52,648 
+
+ Balance as of March 31, 2026 $ 199,324 
+
+ Acquired intangible assets consist of developed technology, customer relationships and trademarks and are amortized on a straight-line basis over their estimated useful lives. The following tables summarize acquired intangible assets as of the periods presented below: 
+
+ March 31, 2026 
+
+ Gross Amount Accumulated Amortization Net Carrying Value Weighted Average Remaining Useful Life 
+
+ (amounts in thousands) (in years) 
+
+ Developed technology $ 51,896 $ ( 20,172 ) $ 31,724 5.0 
+
+ Customer relationships 82,400 ( 17,421 ) 64,979 6.3 
+
+ Trademarks 
+ 700 ( 700 ) — — 
+
+ Total $ 134,996 $ ( 38,293 ) $ 96,703 
+
+ December 31, 2025 
+
+ Gross Amount Accumulated Amortization Net Carrying Value Weighted Average Remaining Useful Life 
+
+ (amounts in thousands) (in years) 
+
+ Developed technology $ 41,196 $ ( 18,535 ) $ 22,661 4.4 
+
+ Customer relationships 69,200 ( 14,875 ) 54,325 6.4 
+
+ Trademarks 
+ 700 ( 700 ) — — 
+
+ Total $ 111,096 $ ( 34,110 ) $ 76,986 
+
+ 17 
+
+ Table of Contents 
+
+ Amortization of acquired intangible assets is as follows (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Cost of revenue $ 1,637 $ 1,260 
+
+ Sales and marketing 2,546 2,254 
+
+ Total amortization expense $ 4,183 $ 3,514 
+
+ As of March 31, 2026, expected future amortization expense related to acquired intangible assets is as follows (in thousands): 
+
+ Year Ending December 31, Amortization Expense 
+
+ Remainder of 2026 $ 12,782 
+
+ 2027 16,965 
+
+ 2028 17,011 
+
+ 2029 16,965 
+
+ 2030 14,052 
+
+ Thereafter 
+ 18,928 
+
+ Total future amortization $ 96,703 
+
+ 7. Leases 
+
+ We have operating leases primarily for office space. The leases have remaining lease terms of one to six years , some of which include options to extend the lease for up to an additional six years . Our leases do not contain any residual value guarantee. 
+ 
+ The following table presents various components of the lease costs (in thousands): 
+
+ Operating Leases Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Operating lease cost $ 3,756 $ 3,108 
+
+ Short-term lease cost 356 130 
+
+ Variable lease cost 958 1,303 
+
+ Total lease cost 
+ $ 5,070 $ 4,541 
+
+ 18 
+
+ Table of Contents 
+
+ The weighted-average remaining term of our operating leases and the weighted-average discount rate used to measure the present value of the operating lease liabilities are as follows: 
+
+ Lease Term and Discount Rate March 31, 2026 March 31, 2025 
+
+ Weighted-average remaining lease term (in years) 3.7 4.2 
+
+ Weighted-average discount rate 8.3 % 9.0 % 
+
+ The following table presents supplemental information arising from lease transactions. Cash payments related to short-term leases are not included in the measurement of the operating lease liabilities, and as such, are excluded from the amounts below (in thousands): 
+
+ Three Months Ended March 31, 
+
+ Supplemental Cash Flow Information: 2026 2025 
+
+ Cash payments included in the measurement of operating lease liabilities, net of tenant allowance receipts 
+ $ 3,297 $ 1,037 
+
+ As of March 31, 2026, maturities of the operating lease liabilities are as follows (in thousands): 
+
+ Operating Leases 
+
+ Remainder of 2026 $ 8,574 
+
+ 2027 13,110 
+
+ 2028 11,809 
+
+ 2029 5,966 
+
+ 2030 3,504 
+
+ Thereafter 2,513 
+
+ Total lease payments 45,476 
+
+ Less: imputed interest ( 6,681 ) 
+
+ Present value of operating lease liabilities $ 38,795 
+
+ As of March 31, 2026, there were $ 6.4 million future payments related to signed leases that have not yet commenced. 
+
+ 8. Commitments and Contingencies 
+
+ Other Contractual Commitments 
+
+ Our other contractual commitments primarily consist of third-party cloud infrastructure agreements, service subscription purchase arrangements used to support operations at the enterprise level, and sponsorship arrangement to promote our brand and services. As of March 31, 2026, other contractual commitments totaling $ 217.9 million remain outstanding under these agreements through 2029. 
+
+ Litigation and Loss Contingencies 
+
+ On November 1, 2022, a purported Company stockholder filed a securities class action complaint in the U.S. District Court for the Northern District of California against us, certain of our current officers and directors, and underwriters of our initial public offering (IPO). On February 8, 2023, the court-appointed lead plaintiff and lead counsel. On April 14, 2023, lead plaintiff filed an amended complaint. The amended complaint alleges that defendants violated Sections 11, 12(a)(2), and 15 of the Securities Act of 1933 by making material misstatements or omissions in offering documents filed in connection with our IPO. The amended complaint seeks unspecified damages, interest, fees, costs, and rescission on behalf of purchasers and/or acquirers of common stock issued in our IPO. On September 28, 2023, the court issued an order granting in part and denying in part defendants' motion to dismiss. On January 16, 2025, we filed a motion for summary judgment, which the court granted and entered 
+
+ 19 
+
+ Table of Contents 
+
+ judgment in our and the other defendants’ favor on April 10, 2025. Plaintiff has appealed the judgment, and we continue to vigorously defend against the claims in this action. 
+
+ On March 20, 2023, a purported stockholder derivative complaint was filed in the U.S. District Court for the Northern District of California. The complaint names as defendants our current directors, as well as Freshworks, as nominal defendant, and asserts state and federal claims based on some of the same alleged misstatements as the securities class action complaint. The derivative complaint seeks unspecified damages, attorneys’ fees, and other costs. On June 21, 2023, the court stayed the case in light of the pending securities class action. On October 16, 2023, the court extended the stay of the case in light of the pending securities class action. We and the other defendants continue to vigorously defend against the claims in this action. 
+
+ From time to time, we have been and may be in the future subject to other legal proceedings, claims, investigations, and government inquiries (collectively, legal proceedings) in the ordinary course of business. We have received and may receive claims from third parties asserting, among other things, infringement of their intellectual property rights, defamation, labor and employment rights, privacy, and contractual rights. There are no currently pending legal proceedings that we believe will have a material adverse impact on our business or condensed consolidated financial statements. 
+
+ Indemnifications 
+
+ In the ordinary course of business, we enter into contractual arrangements under which we agree to provide indemnification of varying scope and terms to customers, business partners, and other parties with respect to certain matters, including losses arising out of intellectual property infringement claims made by third parties, if we have violated applicable laws, if we are negligent or commit acts of willful misconduct, and other liabilities with respect to our products and services and our business. In these circumstances, payment is typically conditional on the other party making a claim pursuant to the procedures specified in the particular contract. We also indemnify certain of our officers, directors and certain key employees while they are serving in good faith in their respective capacities. To date, we have not incurred any material costs as a result of such indemnifications and have not accrued any liabilities related to such obligations in its condensed consolidated financial statements. 
+
+ 9. Revenue From Contracts with Customers 
+ 
+ We primarily derive revenue from subscription fees and related professional services, as well as through sale of software licenses with associated maintenance and professional services. 
+
+ We sell subscriptions and software licenses directly to customers and indirectly through channel partners with arrangements that are non-cancelable and non-refundable. Our subscription arrangements do not provide customers with the right to take possession of the software supporting the solutions and, as a result, are accounted for as service arrangements. Subscription revenue is recognized ratably over the contract term when the cloud-based software is made available to customers. 
+
+ Software license revenue is generally sold as bundled arrangements that include the rights to a software license and maintenance and cloud-based software in some cases. Revenue from the software license is recognized when the software is made available to the customer and maintenance revenue is recognized as support and updates are provided, which is generally ratably over the contract term. 
+
+ Professional services revenue is comprised of fees charged for services ranging from product configuration, data migration, systems integration, and training. We recognize professional services revenues as services are performed. 
+
+ We record revenue net of sales or value-added taxes. 
+
+ 20 
+
+ Table of Contents 
+
+ Disaggregation of Revenue 
+ 
+ The following table summarizes revenue by our product and service offerings during the periods presented (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Subscription services, software licenses and maintenance 
+ 226,513 $ 194,193 
+
+ Professional services 2,120 2,080 
+
+ Total revenue $ 228,633 $ 196,273 
+
+ See Note 10 for revenue by geographic location. 
+
+ Unbilled Receivables, Deferred Revenue and Remaining Performance Obligations 
+
+ Unbilled receivables primarily represent revenue recognized in excess of billings from non-cancellable multi-year contract arrangements. As of March 31, 2026 and December 31, 2025, we had $ 8.9 million and $ 9.8 million of unbilled receivables, respectively. Unbilled receivables are included within accounts receivable, net on the condensed consolidated balance sheets. 
+
+ Deferred revenue consists of customer billings in excess of revenue being recognized. As of March 31, 2026 and December 31, 2025, non-current deferred revenue of $ 2.9 million and $ 3.1 million, respectively, was included in other liabilities on the condensed consolidated balance sheet. 
+
+ Revenue recognized during the three months ended March 31, 2026 and 2025 from amounts included in deferred revenue at the beginning of these periods was $ 166.0 million and $ 144.5 million, respectively. 
+
+ The aggregate balance of remaining performance obligations as of March 31, 2026 was $ 665.3 million. We expect to recognize $ 481.5 million of the balance as revenue in the next 12 months and the remainder thereafter. The aggregate balance of remaining performance obligations represents contracted revenue that has not yet been recognized, which includes unearned revenue and unbilled amounts that will be recognized as revenue in future periods. 
+
+ Deferred Contract Acquisition Costs 
+ 
+ The change in the balance of deferred contract acquisition costs during the periods presented is as follows (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Balance at beginning of the period $ 57,009 $ 48,640 
+
+ Add: Contract costs capitalized during the period 10,197 8,704 
+
+ Less: Amortization of contract costs during the period ( 8,567 ) ( 7,583 ) 
+
+ Balance at end of the period $ 58,639 $ 49,761 
+
+ 10. Segment and Geographic Information 
+
+ We operate in a single operating segment composed of the condensed consolidated financial results of Freshworks. Our Chief Executive Officer (CEO) is the chief operating decision maker (CODM) of Freshworks and the key measures of segment profit or loss that our CODM uses to allocate resources and assess performance is our revenue and consolidated net loss. Significant segment expenses reviewed by our CODM for our single operating segment comprise of stock-based compensation, amortization of acquired intangible assets, and other segment expenses. Other segment expenses utilize operating expenses recognized as research and development, selling and marketing, and general and administrative expenses within our condensed consolidated statement of operations less stock-based compensation and amortization of acquired intangible assets, and primarily related to personnel-related 
+
+ 21 
+
+ Table of Contents 
+
+ costs. Refer to Note 11—Stockholders' Equity and Stock-Based Compensation and Note 6—Goodwill and Intangible Assets, Net for information regarding amounts pertaining to stock-based compensation and amortization of acquired intangibles. 
+
+ Revenue by geographic location is determined based on the customers' billing address. The following table summarizes revenue by geographic region (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ North America $ 107,540 $ 91,471 
+
+ Europe, Middle East and Africa 88,627 75,810 
+
+ Asia Pacific 25,865 23,354 
+
+ Other 6,601 5,638 
+
+ Total revenue $ 228,633 $ 196,273 
+
+ Revenue from North America consists primarily of revenue from the United States. For the three months ended March 31, 2026 and 2025, revenue generated from the United States was approximately $ 96.5 million and $ 82.4 million, or approximately 42 % and 42 % of total consolidated revenue, respectively. 
+
+ The United Kingdom, included within Europe, Middle East and Africa in the table above, contributed $ 30.2 million and $ 27.2 million, or approximately 13 % and 14 % of total consolidated revenue for the three months ended March 31, 2026 and 2025, respectively. 
+ 
+ Long-lived assets consist primarily of property, plant and equipment and ROU assets. The following table summarizes long-lived assets by geographic information (in thousands): 
+
+ March 31, 2026 December 31, 2025 
+
+ North America $ 41,872 $ 39,747 
+
+ Europe, Middle East and Africa 5,788 6,383 
+
+ Asia Pacific 33,530 32,606 
+
+ Total long-lived assets $ 81,190 $ 78,736 
+
+ Long-lived assets in North America are primarily located in the United States, and long-lived assets in Asia Pacific are primarily located in India. 
+
+ 11. Stockholders' Equity and Stock-Based Compensation 
+
+ Share Repurchase 
+
+ In November 2024, our board of directors (the Board) approved a share repurchase program ("2024 Share Repurchase Program"), which authorized the repurchase of up to $ 400 million of our outstanding Class A common stock. During the three months ended March 31, 2025 we repurchased a total of 6,732,390 shares of Class A common stock under the 2024 Share Repurchase Program in open market transactions for an aggregate purchase price of $ 111.8 million, resulting in an average price of $ 16.60 per share. The 2024 Share Repurchase Program was completed during the year ended December 31, 2025. 
+
+ In February 2026, the Board approved another share repurchase program ("2026 Share Repurchase Program"), which authorized the repurchase of up to $ 400 million of our outstanding Class A common stock. During the three months ended March 31, 2026 we repurchased a total of 5,697,636 shares of Class A common stock under the 2026 Share Repurchase Program in open market transactions for an aggregate purchase price of $ 45.4 million, resulting in an average price of $ 7.97 per share. As of March 31, 2026, $ 354.6 million remained available for future repurchases under the 2026 Share Repurchase Program. 
+
+ 22 
+
+ Table of Contents 
+
+ Under both repurchase programs, all shares of Class A common stock subsequently repurchased were retired. Upon retirement, the par value of the common stock repurchased was deducted from common stock and any excess of repurchase price over par value was recorded entirely to additional-paid-in capital, or in the absence of additional-paid-in capital, to accumulated deficit, in the condensed consolidated balance sheets. 
+
+ Equity Compensation Plans 
+
+ Pursuant to the 2021 Equity Incentive Plan (the 2021 Plan), the Board may grant incentive stock options to purchase shares of our common stock, non-statutory stock options to purchase shares of our common stock, stock appreciation rights, restricted stock, restricted stock units (RSUs), performance restricted stock units (PRSUs) and other awards. The 2021 Employee Stock Purchase Plan (ESPP) enables eligible employees to purchase shares of our Class A common stock. Both the 2021 Plan and ESPP include an automatic increase to their shares reserve on January 1 of each year as set forth in the respective plan documents. 
+
+ Additionally, pursuant to the 2022 Inducement Plan (the Inducement Plan) in accordance with Listing Rule 5635(c)(4) of the Nasdaq Stock Market, nonstatutory stock options, stock appreciation rights, restricted stock, RSUs, PRSUs and other awards may be granted as an inducement material to an eligible person's entering into employment with us. 
+ 
+ Shares of common stock reserved for future issuance were as follows (in thousands): 
+
+ March 31, 2026 
+
+ 2021 Equity Incentive Plan (1) 
+ 87,775 
+
+ 2022 Inducement Plan 7,012 
+
+ 2021 Employee Stock Purchase Plan 18,255 
+
+ Total shares of common stock reserved for issuance 113,042 
+
+ (1) Outstanding shares include the 2026 Executive PRSUs as discussed below, based on 100 % achievement of target performance. 
+
+ 2021 Employee Stock Purchase Plan 
+
+ Under the ESPP, the price at which common stock is purchased is equal to 85 % of the fair market value of a share of our common stock on the first day of the offering period or the applicable purchase date, whichever is lower. The fair market value of common stock will generally be the closing sales price on the determination date. The ESPP provides an offering period of 24 months, with four purchase periods that are generally six months long and end on May 15 and November 15 of each year. 
+
+ The ESPP also includes a reset provision for the purchase price if the fair market value of a share of our common stock on the first day of any purchase period is less than or equal to the fair market value of a share of our common stock on the first day of an ongoing offering. If the reset provision is triggered, a new 24 -month offering period begins. Each triggering of the reset provision was considered a modification in accordance with ASC 718, Stock Based Compensation , with the modification charge recognized on a straight-line basis over the new offering period. Historically, the reset provision has been triggered by stock price declines, and the resulting modification have not been material on our stock-based compensation expense. 
+
+ Stock-based compensation expense related to the ESPP was $ 1.0 million and $ 0.9 million for the three months ended March 31, 2026 and 2025, respectively. 
+
+ Stock Options 
+
+ Stock options are generally granted with an exercise price equal to the fair market value of a share of common stock on the date of grant, have a 10 -year contractual term, and vest over a four-year period. 
+
+ 23 
+
+ Table of Contents 
+
+ Stock option activity for the three months ended March 31, 2026 is as follows (in thousands, except per share data): 
+
+ Share Information: Number of Shares (in thousands) Weighted-Average Exercise Price Weighted-Average Remaining Contractual Term (in years) 
+ Aggregate Intrinsic Value (in thousands) (1) 
+
+ Balance as of December 31, 2025 2,332 $ 11.32 7.1 $ 4,650 
+
+ Balance as of March 31, 2026 2,332 $ 11.32 6.8 $ 5,021 
+
+ Options vested and expected to vest as of March 31, 2026 2,332 $ 11.32 6.8 $ 5,021 
+
+ Options exercisable as of March 31, 2026 1,593 $ 13.58 6.4 $ 52 
+
+ (1) Aggregate intrinsic value for stock options represents the difference between the exercise price and the per share fair value of our common stock as of the end of the period, multiplied by the number of stock options outstanding, exercisable, or vested. 
+
+ Restricted Stock Units 
+
+ RSUs are granted at fair market value as of the date of the grant and typically vest over a four-year period. 
+ 
+ RSU activity, which includes PRSUs, during the three months ended March 31, 2026 was as follows: 
+
+ Share Information: Number of Shares Weighted-Average Grant Date Fair Value Per Share 
+
+ Unvested, as of December 31, 2025 21,936 $ 14.98 
+
+ Granted 
+ 18,531 $ 11.19 
+
+ Vested (1) 
+ ( 1,983 ) $ 15.87 
+
+ Forfeited/Cancelled 
+ ( 1,783 ) $ 13.62 
+
+ Unvested, as of March 31, 2026 
+ 36,701 $ 13.09 
+
+ (1) During the three months ended March 31, 2026, total shares that vested were 2.0 million, of which 0.7 million were withheld for tax purposes. 
+
+ The total fair value of vested RSUs during the three months ended March 31, 2026 and 2025 was $ 31.5 million and $ 55.6 million, respectively. 
+
+ Performance-Based Awards 
+
+ Executive PRSUs 
+
+ Beginning in 2024, certain members of the executive team were granted PRSUs awards (the "Executive PRSUs"). The Executive PRSUs are granted annually in the first quarter, are subject to service and performance-based vesting conditions and vest over three years from the grant date . The PRSUs granted in 2026 have fiscal 2026 revenue and non-GAAP operating income performance targets with 70 % and 30 % of each award tied to these targets, respectively. The 2026 performance targets can be earned from 0 % up to a maximum of 173.6 % of target shares for significant outperformance. 
+
+ The fair value of each PRSU is based on the fair value of our common stock on the date of grant. Stock-based compensation associated with the Executive PRSUs is recognized using the accelerated attribution method over the requisite service period, based on our periodic assessment of the probability that the performance will be achieved. 
+
+ 24 
+
+ Table of Contents 
+
+ During the three months ended March 31, 2026 and 2025 , we r ecognized $ 3.9 million and $ 1.9 million of stock-based compensation expense related to Executive PRSUs, respectively. 
+
+ Stock-Based Compensation 
+ 
+ Total stock-based compensation expense recorded for the three months ended March 31, 2026 and 2025 was as follows (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Cost of revenue $ 1,618 $ 1,518 
+
+ Research and development (1) 
+ 12,301 9,213 
+
+ Sales and marketing 
+ 13,000 13,409 
+
+ General and administrative (2) 
+ 17,002 27,524 
+
+ Stock-based compensation, net of amounts capitalized 43,921 51,664 
+
+ Capitalized stock-based compensation 711 692 
+
+ Total stock-based compensation expense 
+ $ 44,632 $ 52,356 
+
+ (1) Stock-based compensation expense recorded to research and development in the condensed consolidated statements of operations excludes amounts that were capitalized primarily for internal-use software. 
+
+ (2) General and administrative expense includes stock-based compensation associated with RSUs and PRSUs granted to our former Executive Chairman of $ 11.3 million for the three months ended March 31, 2025. 
+
+ As of March 31, 2026, unrecognized stock-based compensation expense related to unvested stock-based awards was as follows (in thousands, except for period data): 
+
+ March 31, 2026 
+
+ Unrecognized Stock-Based Compensation Weighted-Average Period to Recognize Expense
+(in years) 
+
+ RSUs and PRSUs $ 428,149 3.0 
+
+ Stock options 1,740 0.3 
+
+ ESPP 4,831 1.0 
+
+ Total unrecognized stock-based compensation expense $ 434,720 
+
+ 12. Income Taxes 
+
+ The quarterly tax provision and estimates of annual effective tax rate are affected by several factors, including changes in pre-tax income (or loss), the mix of jurisdictions to which such income relates, and discrete items (such as windfalls or shortfalls from stock-based compensation). The provision for (benefit from) income taxes was $( 1.8 ) million and $ 3.9 million for the three months ended March 31, 2026 and 2025, retrospectively. 
+
+ The effective tax rate for the three months ended March 31, 2026 and 2025 were 27.5 % and 151.1 %, respectively. The effective tax rate for the first quarter of 2026 is lower than the first quarter of 2025 because the full valuation allowance on U.S. federal and state deferred tax assets was released in the fourth quarter of 2025. 
+
+ 25 
+
+ Table of Contents 
+
+ 13. Net Loss Per Share 
+
+ Basic net loss per share attributable to common stockholders is computed by dividing the net loss by the number of weighted-average outstanding shares of common stock. Diluted net loss per share attributable to common stockholders is determined by giving effect to all potential common equivalents during the reporting period, unless including them yields an antidilutive result. We consider our stock options and RSUs as potential common stock equivalents, but excluded them from the computation of diluted net loss per share attributable to common stockholders for the three months ended March 31, 2026 and 2025, as their effect was antidilutive. 
+
+ The rights, including the liquidation and dividend rights, of the holders of Class A and Class B common stock are identical, except with respect to voting, conversion, and transfer rights. As the liquidation and dividend rights are identical, the undistributed earnings are allocated on a proportionate basis to each class of common stock and the resulting basic and diluted net loss per share attributable to common stockholders, are the same for both Class A and Class B common stock on both an individual and combined basis. 
+ 
+ The following table sets forth the computation of basic and diluted net loss per share attributable to common stockholders (in thousands, except per share data): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Numerator: 
+
+ Net loss $ ( 4,810 ) $ ( 1,304 ) 
+
+ Denominator: 
+
+ Weighted-average number of shares - basic and diluted 
+ 283,336 301,280 
+
+ Net loss per share - basic and diluted 
+ $ ( 0.02 ) $ — 
+
+ The following table summarizes the potential common equivalents that were excluded from the computation of diluted net loss per share attributable to Class A and Class B common stockholders for the periods presented (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ RSUs and PRSUs 
+ 36,701 24,193 
+
+ Options 
+ 2,332 2,422 
+
+ ESPP 
+ 442 245 
+
+ Total 
+ 39,475 26,860 
+
+ 14. Subsequent Events 
+
+ Restructuring 
+
+ In May 2026, the Company committed to a restructuring plan (the Plan) to streamline the Company’s organizational efforts and product development process, as well as increase leverage of AI and automation across the business. The Company estimates that this will result in approximately 11 % reduction in headcount and approximately $ 7 million to $ 9 million in charges in the second quarter of 2026, consisting primarily of cash expenditures for separation-related payments, employee benefits and related costs. The Company expects that the Plan, including related cash payments, will be substantially complete by the end of the second quarter ending June 30, 2026. 
+
+ 26 
+
+ Table of Contents 
+
+ ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS 
+
+ The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our unaudited condensed consolidated financial statements and related notes that appear elsewhere in this Quarterly Report on Form 10-Q and our audited consolidated financial statements and the related notes and the discussion under the heading “Management's Discussion and Analysis of Financial Condition and Results of Operations” for the year ended December 31, 2025 included in the Annual Report on Form 10-K. As described in the section titled “Special Note Regarding Forward-Looking Statements,” the following discussion contains forward-looking statements that reflect our plans, estimates and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. Factors that could cause or contribute to these differences include those discussed below and elsewhere in this Quarterly Report on Form 10-Q, particularly in the section titled “Risk Factors.” 
+
+ Overview 
+
+ We provide people-first AI service software that organizations use to deliver exceptional employee and customer experiences. Our employee experience (EX) products include Freshservice, Freshservice for Business Teams, Device42 and FireHydrant. Our customer experience (CX) products include our Freshdesk suite of products. Our AI offerings, which include Freddy AI Agent, Freddy AI Copilot and Freddy AI Insights, further enhance the employee and customer and employee experience and are designed to boost productivity. 
+
+ In January 2026, the Company completed the acquisition of FireHydrant, Inc. (FireHydrant), a provider of AI-powered incident management software. The Company accounted for the transaction as a business combination and our consolidated financial statements and key business metrics include FireHydrant since the acquisition date. 
+
+ We generate revenue primarily from the sale of subscriptions for accessing our cloud-based software products over the contract term. We generally enter into subscription agreements with our customers on monthly, annual, or multi-year terms and invoice customers in advance in either monthly or annual installments. We also sell software licenses with associated maintenance for Device42 and professional services that include product configuration, data migration, systems integration, and training. 
+
+ Our customer base and operations have scaled over time. Our total revenue was $228.6 million and $196.3 million in the three months ended March 31, 2026 and 2025, respectively, representing year-over-year growth of 16%. We incurred operating losses of $8.1 million and $10.4 million for three months ended March 31, 2026 and 2025, respectively. 
+
+ Macroeconomic and Other Factors 
+
+ Current macroeconomic uncertainties, including inflationary pressures, significant volatility in global markets, and geopolitical developments have impacted and may continue to impact business spending and the overall economy, and in turn our business. These macroeconomic events could adversely affect demand for our products and services and we expect these pressures to persist for the foreseeable future. A dditionally, foreign currency exchange rate fluctuations negatively impacted our revenue growth historically and volatility in the foreign currency market still exist. For the quarters ended March 31, 2026, December 31, 2025, and March 31, 2025 , we had approximately 29% , 28% and 27%, respectively, of revenue exposure related to the euro and British pound. If adverse conditions aris e, they could have a material adverse impact on our results and our ability to accurately predict our future results and earnings. 
+
+ Given our business model is primarily subscription-based, the effects of the macroeconomic conditions may not be fully reflected in our revenue until future periods. The ultimate impact on our business and operations remains highly uncertain, and it is not possible for us to predict the duration and extent to which this will affect our business, future results of operations, and financial condition. See the section titled “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025 for further discussion of the challenges and risks we have encountered and could encounter related to these macroeconomic events. 
+
+ 27 
+
+ Table of Contents 
+
+ Key Business Metrics 
+
+ We monitor and review a number of metrics, including the following key metrics, to evaluate our business, measure our performance, identify trends affecting our business, formulate financial projections, and make strategic decisions. Key business metrics and our financial performance are impacted by various factors discussed below, including fluctuations in value of foreign currencies relative to the U.S. dollar. We also review customer data used for calculating these key business metrics on an ongoing basis and make necessary modifications resulting from such review. We believe these key business metrics provide meaningful supplemental information for management and investors in assessing our operating performance. 
+
+ As of March 31, 
+
+ 2026 2025 % Growth 
+
+ Number of customers contributing more than $5,000 in ARR 25,088 23,275 8 % 
+
+ ARR from customers contributing more than $5,000 in ARR as a percentage of total ARR 92 % 90 % 
+
+ Net dollar retention rate 106 % 105 % 
+
+ Number of Customers Contributing More Than $5,000 in ARR 
+
+ We define our total customers contributing more than $5,000 in annual recurring revenue (ARR) as of a particular date as the number of business entities or individuals, represented by a unique domain or a unique email address, with one or more paid subscriptions to one or more of our products that contributed more than $5,000 in ARR. We believe that the number of customers that contribute more than $5,000 in ARR is an indicator of our success in attracting, retaining, and expanding with larger businesses. 
+
+ Net Dollar Retention Rate 
+
+ Our net dollar retention rate measures our ability to increase revenue across our existing customer base through expansion of users and products associated with a customer as offset by our churn and contraction in the number of users and products associated with a customer. To calculate net dollar retention rate as of a particular date, we first determine “Entering ARR,” which is ARR from the population of our customers as of 12 months prior to the end of the reporting period. We then calculate the “Ending ARR” which is ARR from the same set of customers as of the end of the reporting period. We then divide the Ending ARR by the Entering ARR to arrive at our net dollar retention rate. Ending ARR includes upsells, cross-sells, renewals, and expansion as a result of acquisitions during the measurement period and is net of any contraction or attrition over this period. 
+
+ We define ARR as the sum total of subscription, software license, and maintenance revenue we would contractually expect to recognize over the next 12 months from all customers at a point in time, assuming no increases, reductions, or cancellations in their subscriptions, and assuming that revenues are recognized ratably over the term of subscription and maintenance contracts and upon delivery for software licenses. For monthly subscriptions, we take the recurring revenue run-rate of such subscriptions for the last month of the period and multiply it by 12 to get to ARR. While monthly subscribers as a group have historically maintained or increased their subscriptions over time, there is no guarantee that any particular customer on a monthly subscription will renew its subscription in any given month, and therefore the calculation of ARR for these monthly subscriptions may not accurately reflect revenue to be received over a 12-month period from such customers, and net dollar retention rate may reflect a higher rate than the actual rate if customers on monthly subscriptions choose not to renew during the course of the 12 months. Monthly subscriptions represented 12% and 14% of ARR as of March 31, 2026 and 2025, respectively. The net dollar retention rate for customers on monthly contracts has generally been lower than our overall net dollar retention rate. In addition, as part of our regular review of customer data that includes reviewing customers purchasing our products via resellers so we can properly attribute them as end customers, we may make adjustments that could impact the calculation of net dollar retention rate. 
+
+ Our net dollar retention rate increased to 106% as of March 31, 2026, compared to 105% as of March 31, 2025, remained relatively flat . We expect our net dollar retention rate may fluctuate in future periods due to a number of factors, including, but not limited to, difficult macroeconomic conditions, our expected growth, the level of 
+
+ 28 
+
+ Table of Contents 
+
+ penetration within our customer base, our ability to upsell and cross-sell products to existing customers, and our ability to retain our customers. 
+
+ Non-GAAP Financial Measures 
+
+ In addition to our results determined in accordance with U.S. generally accepted accounting principles (GAAP), we believe the following non-GAAP financial measures are useful in evaluating our operating performance: non-GAAP income from operations, non-GAAP net income, and free cash flow. We use these non-GAAP financial measures to evaluate our ongoing operations and for internal planning and forecasting purposes. We believe these non-GAAP financial measures may be helpful to investors because they provide consistency and comparability with past financial performance. 
+
+ Non-GAAP financial measures have limitations in their usefulness to investors and should not be considered in isolation or as substitutes for financial information presented under GAAP. Non-GAAP financial measures have no standardized meaning prescribed by GAAP and are not prepared under any comprehensive set of accounting rules or principles. In addition, other companies, including companies in our industry, may calculate similarly titled non-GAAP financial measures differently or may use other measures to evaluate their performance, all of which could reduce the usefulness of our non-GAAP financial measures as tools for comparison. As a result, our non-GAAP financial measures are presented for supplemental informational purposes only. 
+
+ We exclude the following items from one or more of our non-GAAP financial measures: 
+
+ • Stock-based compensation expense. We exclude stock-based compensation, which is a non-cash expense, from certain of our non-GAAP financial measures because we believe that excluding this expense provides meaningful supplemental information regarding operational performance. In particular, stock-based compensation expense is not comparable across companies given the variety of valuation methodologies and assumptions. 
+
+ • Employer payroll taxes on employee stock transactions. We exclude the amount of employer payroll taxes on equity awards from certain of our non-GAAP financial measures because they are dependent on our stock price at the time of vesting or exercise and other factors that are beyond our control and do not believe these expenses have a direct correlation to the operation of the business. 
+
+ • Amortization of acquired intangibles. We exclude amortization of acquired intangibles, which is a non-cash expense, from certain of our non-GAAP financial measures. Our expenses for amortization of acquired intangibles are inconsistent in amount and frequency because they are significantly affected by the timing, size of acquisitions, and the allocation of purchase price. We exclude these amortization expenses because we do not believe these expenses have a direct correlation to the operating performance of our business. 
+
+ • Restructuring charges. We exclude restructuring charges, which primarily consist of employee severance and other employee termination benefits associated with the restructuring plan, from our non-GAAP financial measures because we do not believe these expenses have a direct correlation to the operating performance of our business. 
+
+ • Acquisition expenses . We exclude acquisition expenses, which primarily consist of legal fees and due diligence costs, from our non-GAAP financial measures because we do not believe these expenses have a direct correlation to the operating performance of our business. 
+
+ • Income tax effect and adjustments . Starting 2026, we utilize a long-term projected non-GAAP tax rate to compute our non-GAAP income tax provision in order to provide better consistency across interim reporting periods. Our non-GAAP tax rate reflects our estimated long-term effective tax rate based on our anticipated geographic earnings mix and statutory tax regimes. For fiscal year 2026, we determined the projected non-GAAP tax rate to be 24%. The difference between our GAAP income tax provision and our non-GAAP income tax provision is presented as non-GAAP income tax reconciling adjustments. We have not provided a reconciliation of our projected non-GAAP tax rate for fiscal year 2026 to GAAP due to the uncertainty and potential variability of the items we exclude from our GAAP financial measures to 
+
+ 29 
+
+ Table of Contents 
+
+ calculate our non-GAAP financial measures and the resulting income tax effects of such items. Accordingly, a reconciliation is not available without unreasonable effort and we are unable to address the probable significance of the unavailable information, although it is important to note that these items could be material to our results computed in accordance with GAAP. Prior to 2026, we excluded the income tax effect of the above adjustments, income tax effect associated with acquisitions and tax charges or benefits that are a result of a change in valuation allowance on deferred tax assets and its related impacts, from our non-GAAP financial measures. We excluded these costs because we do not believe these expenses have a direct correlation to the operating performance of our business. 
+
+ Non-GAAP Income From Operations and Non-GAAP Net Income 
+
+ We define non-GAAP income from operations as GAAP loss from operations, excluding stock-based compensation expense, employer payroll taxes on employee stock transactions, amortization of acquired intangibles, restructuring charges and acquisition expenses. 
+
+ We define non-GAAP net income as GAAP net loss, excluding stock-based compensation expense, employer payroll taxes on employee stock transactions, restructuring charges, amortization of acquired intangibles, acquisition expenses and income tax adjustments. 
+
+ The following tables present a reconciliation of our GAAP loss from operations to our non-GAAP income from operations and our GAAP net loss to our non-GAAP net income for each of the periods presented (in thousands): 
+
+ Non-GAAP Income from Operations 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Loss from operations $ (8,060) $ (10,416) 
+
+ Non-GAAP adjustments: 
+
+ Stock-based compensation expense 43,921 51,664 
+
+ Employer payroll taxes on employee stock transactions 757 1,199 
+
+ Amortization of acquired intangibles 4,183 3,514 
+
+ Restructuring charges — 405 
+
+ Acquisition expenses 155 — 
+
+ Non-GAAP income from operations $ 40,956 $ 46,366 
+
+ Non-GAAP Net Income 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Net loss 
+ $ (4,810) $ (1,304) 
+
+ Non-GAAP adjustments: 
+
+ Stock-based compensation expense 
+ 
+ 43,921 
+
+ 51,664 
+
+ Employer payroll taxes on employee stock transactions 
+ 757 
+
+ 1,199 
+
+ Amortization of acquired intangibles 
+ 
+ 4,183 
+
+ 3,514 
+
+ Restructuring charges 
+ — 
+
+ 405 
+
+ Acquisition expenses 
+ 155 
+
+ — 
+
+ Income tax adjustments 
+ (11,996) 
+
+ 410 
+
+ Non-GAAP net income 
+ 
+ $ 
+ 
+ 32,210 
+
+ $ 
+ 
+ 55,888 
+
+ 30 
+
+ Table of Contents 
+
+ Free Cash Flow 
+
+ We define free cash flow as net cash provided by operating activities, less purchases of property and equipment, and capitalized internal-use software costs. We believe that free cash flow is a useful indicator of liquidity as it measures our ability to generate cash from our core operations after purchases of property and equipment and excluding the impact of non-recurring strategic and restructuring activities. Free cash flow is a measure to determine, among other things, cash available for strategic initiatives, including further investments in our business and potential acquisitions of businesses. 
+
+ The following table presents a reconciliation of free cash flow to net cash provided by operating activities, the most directly comparable measure calculated in accordance with GAAP for each of the periods presented (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Net cash provided by operating activities $ 62,389 $ 57,973 
+
+ Less: 
+
+ Purchases of property and equipment (3,901) (1,296) 
+
+ Capitalized internal-use software (3,379) (2,772) 
+
+ Free cash flow, including acquisition expenses and restructuring costs (1) 
+ $ 55,828 $ 53,905 
+
+ Net cash provided by (used in) investing activities $ (82,258) $ 46,231 
+
+ Net cash used in financing activities $ (55,529) $ (130,273) 
+
+ (1) Free cash flow includes $0.7 million of acquisition expenses paid during the three months ended March 31, 2026 and $1.5 million of restructuring costs paid during the three months ended March 31, 2025. 
+
+ Components of Our Results of Operations 
+
+ Revenue 
+
+ Substantially all of our revenue is derived from subscriptions, which is comprised of fees paid by customers for accessing our cloud-based software products during the term of the subscription. Subscription revenue is recognized ratably over the contract term beginning on the commencement date of each subscription, which is the date that the cloud-based software is made available to customers. 
+
+ Software license revenue is generally sold as bundled arrangements that include the rights to a software license and maintenance and cloud-based software in some cases. Software license revenue is recognized upon making the software available to the customer and maintenance revenue is recognized as support and updates are provided, which is generally ratably over the contract term. 
+
+ Professional services revenue comprises less than 5% of total revenue and includes fees charged for product configuration, data migration, systems integration, and training. Professional services revenue is recognized as services are performed. 
+
+ We generally enter into subscription and software license agreements with our customers on monthly, annual, or multi-year terms and invoice customers in advance in either monthly or annual installments. Our payment terms generally require the customers to pay the invoiced amount in advance or within 30 days from the invoice date. Our maintenance and professional services are generally billed in advance along with the related subscription and software license arrangements. 
+
+ Cost of Revenue 
+
+ Cost of revenue consists primarily of personnel-related expenses (including salaries, related benefits, and stock-based compensation expense) for employees associated with our cloud-based infrastructure, payment gateway fees, voice, product support, and professional services organizations, as well as costs for hosting capabilities. Cost of revenue also includes third-party license fees, amortization of acquired technology intangibles, amortization of 
+
+ 31 
+
+ Table of Contents 
+
+ capitalized internal-use software, and allocation of general overhead costs such as facilities and information technology. 
+
+ We expect our cost of revenue to continue to increase in dollar amount as we invest additional resources in our cloud-based infrastructure and customer support and professional services organizations. However, our gross profit and gross margin may fluctuate from period to period due to the timing and extent of our investments in third-party hosting capacity, expansion of our cloud-based infrastructure, customer support, and professional services organizations, as well as the amortization of costs associated with capitalized internal-use software. 
+
+ Overhead Allocation 
+
+ We allocate shared costs, such as facilities costs (including rent, utilities, and depreciation on capital expenditures related to facilities shared by multiple departments), information technology costs, and certain administrative personnel costs to all departments based on headcount and location. Allocated shared costs are reflected in each of the expense categories described below, in addition to cost of revenue as described above. 
+
+ Operating Expenses 
+
+ Research and Development. Research and development expense consists primarily of personnel-related costs, including salaries, related benefits, and stock-based compensation expense for engineering and product development employees and certain executives, software license fees, rental of office premises, third-party hosting fees, third-party product development services and consulting expenses, and depreciation expense for equipment used in research and development activities. We capitalize a portion of our research and development expenses that meet the criteria for capitalization of internal-use software. All other research and development costs are expensed as incurred. 
+
+ We believe that continued investment in our products is important for our growth, and as such, we expect that our research and development expenses will continue to increase in dollar amount for the foreseeable future, but such expenses as a percentage of revenue may fluctuate from period to period depending upon the timing and amount of these expenses. 
+
+ Sales and Marketing. Sales and marketing expense consists primarily of personnel-related costs, including salaries, related benefits, and stock-based compensation expense for our sales personnel and certain executives, sales commissions for our sales force and reseller commissions for our channel sales partners, as well as costs associated with marketing activities, travel and entertainment costs, amortization of acquired technology intangibles, software license fees, and rental of office premises. Sales and reseller commissions that are considered incremental costs incurred to obtain contracts with customers, are deferred and amortized over the benefit period of three years. Marketing activities include online lead generation, advertising, and promotional events. 
+
+ We expect to continue to make significant investments as we expand our customer acquisition, retention efforts and marketing events and associated business travel. As a result, we expect that our sales and marketing expenses will continue to increase in dollar amount for the foreseeable future, however, we expect it to decline as a percentage of revenue over the longer term. This percentage may fluctuate from period to period depending upon the timing and amount of these expenses. 
+
+ General and Administrative. General and administrative expense consists primarily of personnel-related costs, including salaries, related benefits, and stock-based compensation expense for certain executives and other general and administrative personnel, third-party professional services fees, costs of director and officer insurance, and costs associated with acquisitions of businesses, software license fees, and rental of office premises. 
+
+ We expect to increase personnel-related and professional service expenses associated with ongoing compliance and reporting obligations and costs to broaden our IT related infrastructure. Our general and administrative expenses are expected to continue to increase in dollar amount for the foreseeable future, however, we expect it to decline as a percentage of revenue over the longer term. This percentage may fluctuate from period to period depending upon the timing and amount of our general and administrative expenses. 
+
+ 32 
+
+ Table of Contents 
+
+ Interest and Other Income (Expense), Net 
+
+ Interest and other income (expense), net primarily consists of interest income from our investment portfolios, amortization of premium or discount on marketable securities, and foreign currency gains and losses. 
+
+ Provision for (Benefit from) Income Taxes 
+
+ We are subject to income taxes in U.S. states and in foreign jurisdictions. Our effective tax rate is affected by tax rates in foreign jurisdictions and the relative amounts of income we earn in those jurisdictions as well as non-deductible expenses, such as stock-based compensation, and changes in our valuation allowance. 
+
+ Results of Operations 
+
+ The following table sets forth our condensed consolidated statements of operations data for the periods presented (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Revenue $ 228,633 $ 196,273 
+
+ Cost of revenue (1) 
+ 34,688 29,878 
+
+ Gross profit 193,945 166,395 
+
+ Operating expenses: 
+
+ Research and development (1) 
+ 49,261 40,001 
+
+ Sales and marketing (1) 
+ 112,317 89,158 
+
+ General and administrative (1) 
+ 40,427 47,247 
+
+ Restructuring charges — 405 
+
+ Total operating expenses 202,005 176,811 
+
+ Loss from operations (8,060) (10,416) 
+
+ Interest and other income, net 1,426 12,969 
+
+ Income (loss) before income taxes 
+ (6,634) 2,553 
+
+ Provision for (benefit from) income taxes (1,824) 3,857 
+
+ Net loss $ (4,810) $ (1,304) 
+
+ __________________ 
+
+ (1) Includes stock-based compensation expense as follows: 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Cost of revenue $ 1,618 $ 1,518 
+
+ Research and development (1) 
+ 12,301 9,213 
+
+ Sales and marketing 13,000 13,409 
+
+ General and administrative (2) 
+ 17,002 27,524 
+
+ Total stock-based compensation expense $ 43,921 $ 51,664 
+
+ (1) Stock-based compensation expense recorded to research and development in the condensed consolidated statements of operations excludes amounts that were capitalized for internal-use software. 
+
+ (2) General and administrative expense includes stock-based compensation associated with RSUs and PRSUs primarily granted to the Executive Chairman of $11.3 million for the three months ended March 31, 2025. 
+
+ 33 
+
+ Table of Contents 
+
+ The following table sets forth our condensed consolidated statements of operations data for the periods presented, as a percentage of revenue: 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Revenue 100 % 100 % 
+
+ Cost of revenue 15 15 
+
+ Gross profit 85 85 
+
+ Operating expense: 
+
+ Research and development 22 20 
+
+ Sales and marketing 49 45 
+
+ General administrative 18 25 
+
+ Restructuring charges — — 
+
+ Total operating expenses 89 90 
+
+ Loss from operations (4) (5) 
+
+ Interest and other income, net 1 6 
+
+ Income (loss) before income taxes 
+ (3) 1 
+
+ Provision for (benefit from) income taxes (1) 2 
+
+ Net loss (2) % (1) % 
+
+ Comparison of the Three Months Ended March 31, 2026 and 2025 
+
+ Revenue 
+
+ Three Months Ended March 31, Change 
+
+ 2026 2025 $ % 
+
+ (dollars in thousands) 
+
+ Subscription services, software licenses and maintenance $ 226,513 $ 194,193 $ 32,320 17 % 
+
+ Professional services 2,120 2,080 40 2 % 
+
+ Total revenue $ 228,633 $ 196,273 $ 32,360 16 % 
+
+ Revenue increased by $32.4 million, or 16%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. Of the total increase in revenue, approximately $14.2 million was attributable to revenue from existing customers as of March 31, 2025, net of contraction and churn, and approximately $18.2 million was attributable to revenue from new customers acquired during the three months ended March 31, 2026, net of contraction and churn. 
+
+ Cost of Revenue and Gross Margin 
+
+ Three Months Ended March 31, Change 
+
+ 2026 2025 $ % 
+
+ (dollars in thousands) 
+
+ Cost of revenue $ 34,688 $ 29,878 $ 4,810 16 % 
+
+ Gross Margin 85 % 85 % 
+
+ Cost of revenue increased by $4.8 million, or 16%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The increase was primarily driven by a $2.5 million increase in third-party hosting costs and cloud software fees, which was driven by the increased capacity and volume required to support new customers. Additionally, the increase was driven by $0.9 million in amortization of internally capitalized 
+
+ 34 
+
+ Table of Contents 
+
+ software and $0.7 million in personnel-related costs, primarily due to annual compensation adjustment. Our gross margin remained flat at 85% for the three months ended March 31, 2026 and 2025. 
+
+ Operating Expenses 
+
+ Three Months Ended March 31, Change 
+
+ 2026 2025 $ % 
+
+ (dollars in thousands) 
+
+ Research and development $ 49,261 $ 40,001 $ 9,260 23 % 
+
+ Sales and marketing 112,317 89,158 23,159 26 % 
+
+ General and administrative 40,427 47,247 (6,820) (14) % 
+
+ Restructuring charges — 405 (405) (100) % 
+
+ Total operating expenses $ 202,005 $ 176,811 $ 25,194 14 % 
+
+ The $25.2 million or 14%, increase in our operating expenses for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, was primarily driven by higher personnel related costs due to annual compensation adjustments and marketing sponsorship costs, partially offset by lower stock-based compensation expense from the departure of our former Executive Chairman in December 2025. 
+
+ Research and Development 
+
+ Research and development expense increased by $9.3 million, or 23%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The increase was primarily driven by increases of $3.6 million in personnel-related costs primarily due to annual compensation adjustments, $3.1 million in stock-based compensation, $1.0 million in professional service fees, $1.0 million in software licensing fees and web hosting costs for product development. 
+
+ Sales and Marketing 
+
+ Sales and marketing expense increased by $23.2 million, or 26%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The increase was primarily due to increases in personnel-related costs of $12.7 million primarily from higher headcount and annual compensation adjustment, $6.7 million in marketing sponsorship costs, $1.4 million in reseller commissions and $1.1 million in software license fees. 
+
+ General and Administrative 
+
+ General and administrative expense decreased by $6.8 million, or 14%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The decrease was primarily driven by a decrease of $10.5 million in stock-based compensation expense primarily due to the departure of our former Executive Chairman in December 2025; partially offset by increases of $2.7 million in personnel-related costs primarily due to annual compensation adjustments. 
+
+ Interest and Other Income (Expense), Net 
+
+ Three Months Ended March 31, Change 
+
+ 2026 2025 $ % 
+
+ (dollars in thousands) 
+
+ Interest income $ 7,022 $ 11,294 $ (4,272) (38) % 
+
+ Other income (expense), net (5,596) 1,675 (7,271) * 
+
+ Interest and other income, net $ 1,426 $ 12,969 $ (11,543) (89) % 
+
+ * not meaningful 
+
+ 35 
+
+ Table of Contents 
+
+ Interest income decreased by $4.3 million, or 38%, for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to reduction in average balances held in our marketable securities portfolios used for share repurchases and decrease in interest rates. 
+
+ Other income (expense), net changed by $7.3 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to a $7.1 million foreign exchange loss during the period, mostly from unfavorable changes in foreign exchange rates in Indian rupee against the U.S. dollar. 
+
+ Provision for (Benefit from) Income Taxes 
+
+ Three Months Ended March 31, Change 
+
+ 2026 2025 $ % 
+
+ (dollars in thousands) 
+
+ Provision for (benefit from) income taxes $ (1,824) $ 3,857 $ (5,681) * 
+
+ * not meaningful 
+
+ We are subject to federal and state income taxes in the United States and taxes in foreign jurisdictions. For the three months ended March 31, 2026 and 2025, we recorded a provision for (benefit from) income taxes of $(1.8) million and $3.9 million on income (loss) before taxes of $(6.6) million and $2.6 million, respectively. The decrease in the provision for income taxes for the three months ended March 31, 2026, was largely driven by a pre-tax loss in the current quarter compared to pre-tax income in the corresponding quarter of 2025. In addition, following the release of the valuation allowance on U.S. federal and state deferred tax assets in the fourth quarter of 2025, we are able to recognize tax benefits associated with pre-tax losses incurred in 2026. 
+
+ On July 4, 2025, the One Big Beautiful Bill Act (OBBBA) was signed into law, introducing significant changes to the U.S. tax code, including the immediate expensing of U.S. research and development costs, the immediate expensing of certain capital expenditures, and other tax code changes effective beginning in 2026, which were not material to our tax expense. 
+
+ Liquidity and Capital Resources 
+
+ As of March 31, 2026, our principal sources of liquidity were cash and cash equivalents of $548.2 million and marketable securities of $231.1 million, which were primarily held for working capital resources. 
+
+ As of March 31, 2026, we had an accumulated deficit of $3.6 billion. Our operating activities resulted in cash inflows of $62.4 million for the three months ended March 31, 2026. In May 2026, we committed to a restructuring plan that is expected to incur charges in the second quarter of 2026, consisting primarily of cash expenditures for separation-related payments, employee benefits and related costs. See Note 14—Subsequent Events. 
+
+ Our material cash requirements from known contractual obligations consist primarily of our obligations under operating leases for office space and contractual obligations for third-party cloud infrastructure See Note 7 — Leases and Note 8 — Commitments and Contingencies for additional discussion of our principal contractual commitments. 
+
+ In February 2026, our board of directors approved the share repurchase program, which authorized the repurchase of up to $400 million of our outstanding Class A common stock. For the three months ended March 31, 2026, we repurchased a total of 5.7 million shares of Class A common stock under this program in open market transactions for an aggregate purchase price of $45.4 million. As of March 31, 2026, $354.6 million remained available for future share repurchases under the current program. 
+
+ As of March 31, 2026, we did not have any relationships with unconsolidated organizations or financial partnerships, such as structured finance or special purpose entities that would have been established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes. 
+
+ We believe our existing sources of liquidity will be sufficient to meet our working capital and capital expenditure needs for at least the next 12 months. We believe we will meet longer term expected future cash 
+
+ 36 
+
+ Table of Contents 
+
+ requirements and obligations through a combination of our existing cash available balances, cash flow from operations, and issuances of equity securities or debt offerings, as needed. Our future capital requirements will depend on many factors, including the rate of our revenue growth, the timing and extent of spending on research and development efforts, the expansion of sales and marketing activities, the introduction of new and enhanced product offerings, and other business initiatives and the continuing market adoption of our products. We may in the future enter into arrangements to acquire or invest in complementary businesses, services, and technologies, including intellectual property rights. We may be required to seek additional equity or debt financing in connection with such activities. If we raise additional funds through the incurrence of indebtedness, such indebtedness may have rights that are senior to holders of our equity securities and could contain covenants that restrict our operational flexibility. Any additional equity or convertible debt financing may be dilutive to stockholders. In the event that additional financing is required from outside sources, we may not be able to raise such financing on terms acceptable to us or at all. 
+
+ The following table summarizes our cash flows for the periods presented (in thousands): 
+
+ Three Months Ended March 31, 
+
+ 2026 2025 
+
+ Net cash provided by operating activities $ 62,389 $ 57,973 
+
+ Net cash used in investing activities (82,258) 46,231 
+
+ Net cash used in financing activities (55,529) (130,273) 
+
+ Cash Flows from Operating Activities 
+
+ Net cash provided by operating activities of $62.4 million for the three months ended March 31, 2026 reflects our net loss of $4.8 million, adjusted for non-cash items such as stock-based compensation of $43.9 million, amortization of deferred contract acquisition costs of $8.6 million, depreciation and amortization of $7.9 million, non-cash lease expense of $2.9 million and $7.8 million of other items, primarily related to foreign currency gains and losses; offset by $5.9 million change in deferred tax provision and $0.9 million from discount amortization of marketable securities. Additionally, net cash inflows from changes in operating assets and liabilities were $2.9 million. The net cash inflows from changes in operating assets and liabilities were primarily due to a decrease of $24.9 million in accounts receivable and increases of $6.9 million in accounts payable and $1.0 million in deferred revenue; offset by increases of $12.6 million in prepaid expenses and other assets, $10.2 million in deferred contract acquisition costs, and decreases of $3.7 million in operating lease liabilities and $3.4 million in accrued expenses and other liabilities. 
+
+ Net cash provided by operating activities of $58.0 million for the three months ended March 31, 2025 reflects our net loss of $1.3 million, adjusted for non-cash items such as stock-based compensation of $51.7 million, amortization of deferred contract acquisition costs of $7.6 million, depreciation and amortization of $6.4 million and non-cash lease expense of $2.3 million; offset by $1.9 million from discount amortization of marketable securities and $0.5 million from changes in deferred income taxes. Additionally, net cash outflows from changes in operating assets and liabilities were $6.3 million. The net cash outflows from changes in operating assets and liabilities were due to an increase of $15.3 million in prepaid expenses and other assets, an increase of $8.7 million in deferred contract acquisition costs; offset by a decrease of $10.6 million in accounts receivable and an increase of $7.0 million in deferred revenue. 
+
+ Cash Flows from Investing Activities 
+
+ Net cash used in investing activities of $82.3 million for the three months ended March 31, 2026 consisted of $56.9 million paid for business combinations, net of cash acquired, $18.1 million in purchases of marketable securities, net of maturities, $3.9 million in purchases of property and equipment, which primarily include construction and improvements at our major offices, and $3.4 million in capitalized internal-use software. 
+
+ Net cash provided by investing activities of $46.2 million for the three months ended March 31, 2025 consisted of $50.3 million in maturities and redemptions of marketable securities, net of purchases; offset by $2.8 million in capitalized internal-use software and $1.3 million in purchases of property and equipment. 
+
+ 37 
+
+ Table of Contents 
+
+ Cash Flows from Financing Activities 
+
+ Net cash used in financing activities of $55.5 million for the three months ended March 31, 2026 consisted of $48.4 million cash paid to repurchase shares of our common stock and $7.2 million in payment of withholding taxes on net share settlement of equity awards. 
+
+ Net cash used in financing activities of $130.3 million for the three months ended March 31, 2025 consisted of $113.6 million cash paid to repurchase shares of our common stock and $16.7 million in payment of withholding taxes on net share settlement of equity awards. 
+
+ Critical Accounting Policies and Estimates 
+
+ Our condensed consolidated financial statements are prepared in accordance with GAAP. The preparation of these condensed consolidated financial statements requires our management to make estimates, assumptions, and judgments that affect the reported amounts of assets, liabilities and disclosure of contingent assets and liabilities at the date of the financial statements, and the reported amount of revenue, costs and expenses, and related disclosures during the applicable periods. We base our estimates, assumptions and judgments on historical experience and on various other factors that we believe to be reasonable under the circumstances. Different assumptions and judgments would change the estimates used in the preparation of our condensed consolidated financial statements, which, in turn, could change the results from those reported. We evaluate our estimates, assumptions, and judgments on an ongoing basis. 
+
+ There have been no changes to our critical accounting policies and estimates during the three months ended March 31, 2026 as compared to those disclosed in our "Management's Discussion and Analysis of Financial Condition and Results of Operations" set forth in our Annual Report on Form 10-K filed with the SEC on February 26, 2026. 
+
+ Recent Accounting Pronouncements 
+
+ See Note 1—Basis of Presentation and Summary of Significant Accounting Policies to our condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q for more information. 
+
+ ITEM 3. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK 
+
+ We are exposed to certain market risks in the ordinary course of our business. Market risk represents the risk of loss that may impact our financial position due to adverse changes in financial market prices and rates. Our market risk exposure is primarily a result of fluctuations in foreign currency exchange rates and interest rates. 
+
+ Foreign Currency Exchange Risk 
+
+ The functional currency of our foreign subsidiaries is the U.S. dollar. The majority of our sales are derived in U.S. dollars. Our operating expenses incurred by our foreign subsidiaries are denominated in their respective local currencies, and remeasured at the exchange rates in effect on the transaction date. Additionally, fluctuations in foreign exchange rates may result in the recognition of transaction gains and losses in our condensed consolidated statements of operations. Our condensed consolidated results of operations and cash flows are, therefore, subject to foreign exchange rate fluctuations, particularly changes in the Indian rupee, British pound and euro, and may be adversely affected in the future due to changes in foreign exchange rates. Based on a sensitivity analysis we have performed as of March 31, 2026, a hypothetical 10% foreign currency exchange rate change applied to total monetary assets and liabilities denominated in currencies other than the U.S. dollar would result in a gain or loss of approximately $13.9 million. 
+
+ To reduce the risk that our earnings and cash flows will be adversely affected by changes in exchange rates, we entered into foreign exchange forward contracts to hedge a portion of our forecasted foreign currency expenses denominated in Indian rupee. Gains or losses on these contracts are generally recognized in income at the time the related transactions being hedged are recognized. As of March 31, 2026, the total notional amount of outstanding designated foreign currency forward contracts was $84.0 million. The fair value of derivative assets and liabilities as 
+
+ 38 
+
+ Table of Contents 
+
+ of March 31, 2026, and all related unrealized and realized gains and losses during the three months ended March 31, 2026 and 2025 were not material. 
+
+ We do not use foreign exchange contracts for speculative trading purposes and we may enter into other hedging transactions in the future if our exposure to foreign currency becomes more significant. We monitor our exposures in other currencies and assess the need to utilize financial instruments to hedge currency exposures on an ongoing basis. 
+
+ Interest Rate Risk 
+
+ Our cash, cash equivalents, and marketable securities primarily consist of deposits held at financial institutions, highly liquid money market funds, and investments in U.S. treasury securities, U.S. government agency securities, corporate bonds and commercial paper. We had cash and cash equivalents of $548.2 million and marketable securities of $231.1 million as of March 31, 2026. We do not enter into investments for trading and speculative purposes. The carrying amount of our cash equivalents reasonably approximate fair value, due to the maturities of three months or less of these instruments. Our investments are subject to market risk due to changes in interest rates, which may affect our interest income and the fair value of our investments. Fixed rate securities may have their market value adversely affected due to a rise in interest rates. Due in part to these factors, our future investment income may fall short of our expectations due to changes in interest rates or we may suffer losses in principal if we are forced to sell securities that decline in market value due to changes in interest rates. However, because we classify our marketable securities as “available for sale,” no gains or losses are recognized due to changes in interest rates unless such securities are sold prior to maturity or declines in fair value are determined to be other-than-temporary. 
+
+ Based on an interest rate sensitivity analysis we have performed as of March 31, 2026, a hypothetical 100 basis points favorable or adverse movement in interest rates would not have a material effect in the combined market value of our cash and cash equivalents and marketable securities. 
+
+ ITEM 4. CONTROLS AND PROCEDURES 
+
+ Evaluation of Disclosure Controls and Procedures 
+
+ Based on our management’s evaluation (with the participation of our principal executive officer and principal financial officer), as of the end of the period covered by this report, our principal executive officer and principal financial officer have concluded that our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act) are effective to ensure that information required to be disclosed by us in reports that we file or submit under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in SEC rules and forms and is accumulated and communicated to our management, including our principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure. 
+
+ Changes in Internal Control over Financial Reporting 
+
+ There were no changes in our internal control over financial reporting identified in connection with the evaluation required by Rules 13a-15(d) and 15d-15(d) of the Exchange Act that occurred during our most recent fiscal quarter that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. 
+
+ Inherent Limitations on Effectiveness of Controls 
+
+ It should be noted that any system of controls, however well designed and operated, can provide only reasonable, and not absolute, assurance that the objectives of the system will be met. In addition, the design of any control system is based in part upon certain assumptions about the likelihood of future events, and there can be no assurance that any design will succeed in achieving its stated goals under all potential future conditions. Because of the inherent limitations, misstatements due to error or fraud may occur and not be detected. 
+
+ 39 
+
+ Table of Contents 
+
+ PART II—OTHER INFORMATION 
+
+ ITEM 1. LEGAL PROCEEDINGS 
+
+ The information required to be set forth under this Item 1 is incorporated by reference to Note 8. Commitments and Contingencies — Litigation and Loss Contingencies in the notes to the Condensed Consolidated Financial Statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q. 
+
+ ITEM 1A. RISK FACTORS 
+
+ You should carefully consider the risks and uncertainties described under the section “Risk Factors” in Part I, Item 1A of our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 filed with the SEC on February 26, 2026 as well as the other information in this Quarterly Report on Form 10-Q, including our unaudited condensed consolidated financial statements and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” before making an investment decision. These identified risks and uncertainties may have a material adverse effect on our business, financial condition, results of operations, and growth prospects. In such an event, the market price of our Class A common stock could decline, and you may lose all or part of your investment. Additional risks and uncertainties not presently known to us or that we currently believe are not material may also become important factors that affect our business. There have been no material changes from the risks and uncertainties previously disclosed under the “Risk Factors” section in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025. 
+
+ ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS 
+
+ Unregistered Sales of Equity Securities 
+
+ None. 
+
+ Use of Proceeds 
+
+ None. 
+
+ Issuer Purchases of Equity Securities 
+
+ Stock repurchase activity during the three months ended March 31, 2026 was as follows (in thousands, except number of shares and average price paid per share): 
+
+ Period by fiscal month 
+ Total number of shares repurchased (1) 
+ 
+ Average price paid per share (2) 
+ 
+ Total number of shares repurchased as part of publicly announced plans or programs (3) 
+ 
+ Approximate dollar value of shares that may yet be purchased under the plans or programs (3) 
+
+ January 1, 2026 - January 31, 2026 — $ — — $ — 
+
+ February 1, 2026 - February 28, 2026 
+ — $ — — $ 400,000 
+
+ March 1, 2026 - March 31, 2026 5,697,636 $ 7.97 5,697,636 $ 354,592 
+
+ Total 5,697,636 5,697,636 
+
+ (1) All of the shares purchased during the three months ended March 31, 2026 were acquired pursuant to our publicly announced share repurchase program described in footnote 3 below. 
+
+ (2) The average price paid per share includes brokerage commissions and excludes excise tax. 
+
+ (3) On February 26, 2026, we publicly announced that our board of directors had approved a share repurchase program, which authorized the repurchase of up to $400 million of our outstanding Class A common stock. Under the repurchase program, which is now completed, we were authorized to repurchase shares of our outstanding Class A common stock from time to time in the open market, through privately negotiated transactions and/or other means in compliance with the Exchange Act and the rules and regulations thereunder. We were authorized to structure open market repurchases in accordance with the requirements of Rule 10b-18 under the Exchange Act and to enter into Rule 10b5-1 plans to facilitate repurchases of shares of common stock. 
+
+ 40 
+
+ Table of Contents 
+
+ ITEM 3. DEFAULTS UPON SENIOR SECURITIES 
+
+ Not applicable. 
+
+ ITEM 4. MINE SAFETY DISCLOSURES 
+
+ Not applicable. 
+
+ ITEM 5. OTHER INFORMATION 
+
+ Rule 10b5-1 Trading Plans 
+ 
+ During the three months ended March 31, 2026, our officers (as defined in Rule 16a-1(f) under the Exchange Act) and directors adopted or terminated the contracts, instructions or written plans for the purchase or sale of the Company's securities, each of which is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act, as set forth in the table below. 
+
+ Name Title Action Adoption Date Expiration Date Total number of shares of Class A common stock to be sold 
+
+ Philippa Lawrence Chief Accounting Officer 
+ Adoption (1) 
+ March 20, 2026 March 30, 2027 
+ Up to 212,209 shares (2) 
+
+ Jennifer Taylor Director 
+ Adoption (1) 
+ March 20, 2026 January 2, 2027 
+ Up to 6,618 shares 
+
+ Ian Tickle Chief Revenue Officer Adoption March 18, 2026 December 31, 2026 
+ Up to 209,434 shares (3) 
+
+ (1) Plan adopted in accordance with Rule 10b5-1(c)(1)(ii)(D)(2). 
+
+ (2) The shares that may be sold under the Rule 10b5-1 trading plan include (i) up to 62,201 shares of our Class A Common Stock currently owned by Ms. Lawrence, (ii) all shares to be acquired by Ms. Lawrence under the Company's Employee Stock Purchase Plan on or prior to November 15, 2026, and (iii) up to 150,008 shares of our Class A Common Stock that are subject to restricted stock unit awards previously granted to Ms. Lawrence that may vest and be released to Ms. Lawrence on or prior to March 1, 2027 (subject to the satisfaction of the applicable service-based vesting conditions). The actual number of shares that will be released to Ms. Lawrence pursuant to the restricted stock unit awards and sold under the Rule 10b5-1 trading arrangement will be net of the number of shares withheld to satisfy tax withholding obligations arising from the vesting of such shares and is not yet determinable. The actual number of shares that will be subject to the Rule 10b5-1 trading plan is not yet determinable. 
+
+ (3) The shares that may be sold under the Rule 10b5-1 trading plan include (i) up to 74,000 shares of our Class A Common Stock currently owned by Mr. Tickle, and (ii ) up to 135,434 shares of our Class A Common Stock that are subject to restricted stock unit awards previously granted to Mr. Tickle that may vest and be released to Mr. Tickle on or prior to October 6, 2026 (subject to the satisfaction of the applicable service-based vesting conditions). The actual number of shares that will be released to Mr. Tickle pursuant to the restricted stock unit awards and sold under the Rule 10b5-1 trading arrangement will be net of the number of shares withheld to satisfy tax withholding obligations arising from the vesting of such shares and is not yet determinable. The actual number of shares that will be subject to the Rule 10b5-1 trading plan is not yet determinable. 
+
+ 41 
+
+ Table of Contents 
+
+ ITEM 6. EXHIBITS 
+
+ The documents listed in the Exhibit Index of this Quarterly Report on Form 10-Q are incorporated by reference or are filed with this Quarterly Report on Form 10-Q, in each case as indicated therein (numbered in accordance with Item 601 of Regulation S-K). 
+
+ Exhibit 
+
+ Number 
+ Exhibit Description Form File No. Exhibit Filing Date Filed Herewith 
+
+ 3.1 
+ Amended and Restated Certificate of Incorporation. 
+ 8-K 001-40806 3.1 September 24, 2021 
+
+ 3.2 
+ Amended and Restated Bylaws. 
+ S-1/A 333-259118 3.4 September 13, 2021 
+
+ 10.1 
+ Freshworks, Inc. Cash Incentive Plan (as amended on January 17, 2026) 
+ 
+ 10-K 
+ 001-40806 10.20 
+ February 26, 2026 
+
+ 10.2 
+ Non-Employee Director Compensation Program; Effective January 1, 2026 
+ 
+ 10-K 
+ 001-40806 10.24 
+ February 26, 2026 
+
+ 31.1 
+ Certification of Chief Executive Officer pursuant to Exchange Act Rules 13a-14(a) and 15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 
+ X 
+
+ 31.2 
+ Certification of Chief Financial Officer pursuant to Exchange Act Rules 13a-14(a) and 15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 
+ X 
+
+ 32.1# 
+ 
+ Certification of Chief Executive Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+ X 
+
+ 32.2# 
+ Certification of Chief Financial Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. 
+ X 
+
+ 101.INS 
+ Inline XBRL Instance Document - the instance document does not appear in the Interactive Data File as its XBRL tags are embedded within the Inline XBRL document 
+ X 
+
+ 101.SCH 
+ Inline XBRL Taxonomy Extension Schema With Embedded Linkbase Documents 
+ X 
+
+ 101.CAL XBRL Taxonomy Extension Calculation Linkbase Document X 
+
+ 101.DEF XBRL Taxonomy Extension Definition Linkbase Document X 
+
+ 101.LAB XBRL Taxonomy Extension Label Linkbase Document X 
+
+ 101.PRE XBRL Taxonomy Extension Presentation Linkbase Document X 
+
+ 104 Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101) X 
+
+ __________________ 
+
+ # The certifications attached as Exhibits 32.1 and 32.2 that accompany this Quarterly Report on Form 10-Q are not deemed filed with the SEC and are not to be incorporated by reference into any filing of the Registrant under the Securities Act of 1933, as amended, or the Exchange Act, whether made before or after the date of this Quarterly Report on Form 10-Q, irrespective of any general incorporation language contained in such filing. 
+
+ 42 
+
+ Table of Contents 
+
+ SIGNATURES 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+
+ Freshworks Inc. 
+
+ Date: May 5, 2026 By: 
+ /s/ Dennis Woodside 
+
+ Dennis Woodside 
+
+ Chief Executive Officer and President (Principal Executive Officer) 
+
+ Date: May 5, 2026 
+ By: 
+ 
+ /s/ Tyler Sloat 
+
+ Tyler Sloat 
+
+ Chief Operating Officer and Chief Financial Officer (Principal Financial Officer) 
+
+ Date: May 5, 2026 
+ By: 
+ 
+ /s/ Philippa Lawrence 
+
+ Philippa Lawrence 
+
+ Chief Accounting Officer (Principal Accounting Officer) 
+
+ 43

@@ -1,0 +1,206 @@
+{
+  "fetched_utc": "2026-11-27T11:26:53+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "GIII",
+    "cik": 821002,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-11-24",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926131350/giii-20261120x8k.htm",
+        "file": "2026-11-24-8-K-giii-20261120x8k.htm.txt",
+        "chars": 3437,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-09-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926105950/giii-20260731x10q.htm",
+        "file": "2026-09-08-10-Q-giii-20260731x10q.htm.txt",
+        "chars": 170041,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-09-02",
+        "items": "1.01,2.01,2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/eh260826006_8k.htm",
+        "file": "2026-09-02-8-K-eh260826006_8k.htm.txt",
+        "chars": 13775,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-20",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926098992/giii-20260818x8k.htm",
+        "file": "2026-08-20-8-K-giii-20260818x8k.htm.txt",
+        "chars": 3444,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-12",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926073423/giii-20260611x8k.htm",
+        "file": "2026-06-12-8-K-giii-20260611x8k.htm.txt",
+        "chars": 5571,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-06-08",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926071371/giii-20260430x10q.htm",
+        "file": "2026-06-08-10-Q-giii-20260430x10q.htm.txt",
+        "chars": 147218,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-06-05",
+        "items": "2.02,7.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926070742/giii-20260605x8k.htm",
+        "file": "2026-06-05-8-K-giii-20260605x8k.htm.txt",
+        "chars": 4393,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-27",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926066598/giii-20260526x8k.htm",
+        "file": "2026-05-27-8-K-giii-20260526x8k.htm.txt",
+        "chars": 3861,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-24",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926131350/giii-ex99d1.htm",
+        "file": "2026-11-24-EX-99.1.txt",
+        "chars": 2770,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-02",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EXHIBIT 99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/eh260826006_ex9901.htm",
+        "file": "2026-09-02-EX-99.1.txt",
+        "chars": 26515,
+        "truncated": false
+      },
+      {
+        "filed": "2026-09-02",
+        "items": [
+          "1.01",
+          "2.01",
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "completion of an acquisition or disposition",
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EXHIBIT 99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/eh260826006_ex9902.htm",
+        "file": "2026-09-02-EX-99.2.txt",
+        "chars": 6265,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-20",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926098992/giii-20260818xex99d1.htm",
+        "file": "2026-08-20-EX-99.1.txt",
+        "chars": 2768,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926070742/giii-20260605xex99d1.htm",
+        "file": "2026-06-05-EX-99.1.txt",
+        "chars": 31182,
+        "truncated": false
+      },
+      {
+        "filed": "2026-06-05",
+        "items": [
+          "2.02",
+          "7.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "Reg FD disclosure",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/821002/000110465926070742/giii-20260605xex99d2.htm",
+        "file": "2026-06-05-EX-99.2.txt",
+        "chars": 9013,
+        "truncated": false
+      }
+    ]
+  }
+}

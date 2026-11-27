@@ -1,0 +1,208 @@
+{
+  "fetched_utc": "2026-11-27T11:26:43+00:00",
+  "requested": "filings",
+  "filings": {
+    "ticker": "ALTG",
+    "cik": 1759824,
+    "documents": [
+      {
+        "form": "8-K",
+        "filed": "2026-11-23",
+        "items": "1.01,3.02,5.02,7.01,8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/altg-20261120.htm",
+        "file": "2026-11-23-8-K-altg-20261120.htm.txt",
+        "chars": 51309,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-11-09",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526453631/altg-20260930.htm",
+        "file": "2026-11-09-10-Q-altg-20260930.htm.txt",
+        "chars": 208871,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-11-09",
+        "items": "2.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526453621/altg-20261109.htm",
+        "file": "2026-11-09-8-K-altg-20261109.htm.txt",
+        "chars": 3784,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-10-02",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526411243/altg-20261002.htm",
+        "file": "2026-10-02-8-K-altg-20261002.htm.txt",
+        "chars": 3811,
+        "truncated": false
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526338075/altg-20260630.htm",
+        "file": "2026-08-06-10-Q-altg-20260630.htm.txt",
+        "chars": 203524,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-08-06",
+        "items": "2.02,5.02,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526338061/altg-20260803.htm",
+        "file": "2026-08-06-8-K-altg-20260803.htm.txt",
+        "chars": 4834,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-07-02",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526293422/altg-20260702.htm",
+        "file": "2026-07-02-8-K-altg-20260702.htm.txt",
+        "chars": 3793,
+        "truncated": false
+      },
+      {
+        "form": "8-K",
+        "filed": "2026-05-29",
+        "items": "5.07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526248503/altg-20260529.htm",
+        "file": "2026-05-29-8-K-altg-20260529.htm.txt",
+        "chars": 4500,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-23",
+        "items": [
+          "1.01",
+          "3.02",
+          "5.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "officer or director change",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/altg-ex99_1.htm",
+        "file": "2026-11-23-EX-99.1.txt",
+        "chars": 26047,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-23",
+        "items": [
+          "1.01",
+          "3.02",
+          "5.02",
+          "7.01",
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "entry into a material agreement",
+          "unregistered sale of equity",
+          "officer or director change",
+          "Reg FD disclosure",
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.2",
+        "description": "EX-99.2",
+        "kind": "presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/altg-ex99_2.htm",
+        "file": "2026-11-23-EX-99.2.txt",
+        "chars": 43660,
+        "truncated": false
+      },
+      {
+        "filed": "2026-11-09",
+        "items": [
+          "2.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526453621/altg-ex99_1.htm",
+        "file": "2026-11-09-EX-99.1.txt",
+        "chars": 34336,
+        "truncated": false
+      },
+      {
+        "filed": "2026-10-02",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526411243/altg-ex99_1.htm",
+        "file": "2026-10-02-EX-99.1.txt",
+        "chars": 1967,
+        "truncated": false
+      },
+      {
+        "filed": "2026-08-06",
+        "items": [
+          "2.02",
+          "5.02",
+          "9.01"
+        ],
+        "item_labels": [
+          "results of operations",
+          "officer or director change",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526338061/altg-ex99_1.htm",
+        "file": "2026-08-06-EX-99.1.txt",
+        "chars": 36055,
+        "truncated": false
+      },
+      {
+        "filed": "2026-07-02",
+        "items": [
+          "8.01",
+          "9.01"
+        ],
+        "item_labels": [
+          "other material event",
+          "9.01"
+        ],
+        "exhibit": "EX-99.1",
+        "description": "EX-99.1",
+        "kind": "press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526293422/altg-ex99_1.htm",
+        "file": "2026-07-02-EX-99.1.txt",
+        "chars": 1948,
+        "truncated": false
+      }
+    ]
+  }
+}
